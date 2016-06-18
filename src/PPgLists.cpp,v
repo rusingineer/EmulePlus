@@ -1,0 +1,778 @@
+head	1.16;
+access;
+symbols
+	PublicRelease_1_2e:1.16
+	Interim_Release_1-2e_RC1:1.16
+	PublicRelease_1_2d:1.16
+	Interim_Release_1-2d_RC1:1.16
+	Interim_Release_1-2d_beta1:1.16
+	PublicRelease_1_2c:1.15
+	Interim_Release_1-2c_RC1:1.15
+	Interim_Release_1-2c_beta1:1.14
+	PublicRelease_1_2b:1.14
+	Interim_Release_1-2b_RC1:1.14
+	PublicRelease_1_2a:1.14
+	Interim_Release_1-2a_RC1:1.14
+	Interim_Release_1-2a_beta2:1.14
+	Interim_Release_1-2a_beta1:1.14
+	PublicRelease_1_2:1.13
+	Interim_Release_1-2_RC1:1.13
+	Interim_Release_1-2_beta1:1.12
+	PublicRelease_1_1g:1.12
+	Interim_Release_1-1g_RC3:1.12
+	Interim_Release_1-1g_RC2:1.12
+	Interim_Release_1-1g_RC1:1.12
+	Interim_Release_1-1g_beta2:1.11
+	Interim_Release_1-1g_beta1:1.11
+	PublicRelease_1_1f:1.11
+	Interim_Release_1-1f_RC1:1.11
+	PublicRelease_1_1e:1.11
+	Interim_Release_1-1e_RC2:1.11
+	Interim_Release_1-1e_RC1:1.11
+	Interim_Release_1-1e_beta1:1.10
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.9
+	Interim_Release_1-1b_RC1:1.9
+	PublicRelease_1_1a:1.9
+	Interim_Release_1-1a_RC2:1.9
+	Interim_Release_1-1a_RC1:1.9
+	Interim_Release_1-1a_beta2:1.9
+	Interim_Release_1-1a_beta1:1.9
+	PublicRelease_1_1:1.9
+	Interim_Release_1-1_beta1:1.9
+	PublicRelease_1o:1.8
+	Interim_Release_1o_RC1:1.8
+	Interim_Release_1o_beta1:1.8
+	PublicRelease_1n:1.8
+	Interim_Release_1n_RC2:1.8
+	Interim_Release_1n_RC1:1.8
+	Interim_Release_1n_beta2:1.8
+	Interim_Release_1n_beta1:1.8
+	PublicRelease_1m:1.6
+	Interim_Release_1m_beta1:1.6
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.4;
+locks; strict;
+comment	@// @;
+
+
+1.16
+date	2007.12.30.06.07.44;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2007.04.02.23.14.14;	author kush_eplus;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.04.15.22.53.55;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2006.02.13.05.37.27;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.06.09.00.22.55;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.05.11.04.31.41;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.09.30.19.09.31;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.07.05.23.23.42;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.07.04.14.42.16;	author katsyonak;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.06.18.17.08.24;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.05.13.14.28.06;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.05.04.14.45.23;	author dropf;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.05.03.19.55.52;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.04.27.11.19.28;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.25.02.33.04;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@Removed old not used localization;
+Optimized dialog regarding required memory and speed;
+Suppressed compiler warnings; Formatting.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgLists.h"
+#include "IP2Country.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgLists, CPropertyPage)
+CPPgLists::CPPgLists()
+	: CPropertyPage(CPPgLists::IDD)
+	, m_bShowA4AF(FALSE)
+	, m_bShowA4AFCount(FALSE)
+	, m_bShowAvgDataRate(FALSE)
+	, m_bShowFileTypeIcons(FALSE)
+	, m_bShowTransferredOnCompleted(FALSE)
+	, m_bShowDownloadPercentage(FALSE)
+	, m_bShowPausedGray(FALSE)
+	, m_bShowFileStatusIcons(FALSE)
+	, m_bShowCountryFlag(FALSE)
+	, m_bRoundSizes(FALSE)
+	, m_bDisplayUploadParts(FALSE)
+	, m_bSmartFilterShowSourcesOQ(FALSE)
+	, m_bShowRatingIcons(FALSE)
+{
+}
+
+CPPgLists::~CPPgLists()
+{
+}
+
+void CPPgLists::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Check(pDX, IDC_A4AF, m_bShowA4AF);
+	DDX_Check(pDX, IDC_A4AFCOUNT, m_bShowA4AFCount);
+	DDX_Check(pDX, IDC_SHOWAVGDATARATE, m_bShowAvgDataRate);
+	DDX_Check(pDX, IDC_SHOWFTYPE, m_bShowFileTypeIcons);
+	DDX_Check(pDX, IDC_SHOWTRANFONCMPLT, m_bShowTransferredOnCompleted);
+	DDX_Check(pDX, IDC_SHOWDWLPERCENTAGE, m_bShowDownloadPercentage);
+	DDX_Check(pDX, IDC_SHOWGRAY, m_bShowPausedGray);
+	DDX_Check(pDX, IDC_STATUSICONS, m_bShowFileStatusIcons);
+	DDX_Check(pDX, IDC_TBSSHOWCOUNTRYFLAG, m_bShowCountryFlag);
+	DDX_Check(pDX, IDC_ROUNDSIZES, m_bRoundSizes);
+	DDX_Check(pDX, IDC_UPLOADPARTS, m_bDisplayUploadParts);
+	DDX_Text(pDX, IDC_SMARTFILTERMAXQR, m_strSmartFilterMaxQR);
+	DDX_Check(pDX, IDC_SMARTFILTERSHOWOQ, m_bSmartFilterShowSourcesOQ);
+	DDX_Check(pDX, IDC_SHOWRATINGICONS, m_bShowRatingIcons);
+	DDX_Control(pDX, IDC_COLOR_BUTTON, m_FakeListColorButton);
+}
+
+BEGIN_MESSAGE_MAP(CPPgLists, CPropertyPage)
+	ON_BN_CLICKED(IDC_A4AF, OnSettingsChange)
+	ON_BN_CLICKED(IDC_A4AFCOUNT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWAVGDATARATE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWFTYPE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWTRANFONCMPLT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWDWLPERCENTAGE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWGRAY, OnSettingsChange)
+	ON_BN_CLICKED(IDC_STATUSICONS, OnSettingsChange)
+	ON_BN_CLICKED(IDC_TBSSHOWCOUNTRYFLAG, OnSettingsChange)
+	ON_BN_CLICKED(IDC_ROUNDSIZES, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SMARTFILTERMAXQR, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SMARTFILTERSHOWOQ, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWRATINGICONS, OnSettingsChange)
+	ON_BN_CLICKED(IDC_UPLOADPARTS, OnSettingsChange)
+	ON_MESSAGE(CPN_SELCHANGE, OnColorButtonSelChange)
+END_MESSAGE_MAP()
+
+BOOL CPPgLists::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	m_FakeListColorButton.SetDefaultColor(0);
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+
+void CPPgLists::LoadSettings(void)
+{
+	m_bShowA4AF = m_pPrefs->IsA4AFStringEnabled();
+	m_bShowA4AFCount = m_pPrefs->IsA4AFCountEnabled();
+	m_bShowAvgDataRate = m_pPrefs->GetShowAverageDataRate();
+	m_bShowFileTypeIcons = m_pPrefs->ShowFileTypeIcon();
+	m_bShowTransferredOnCompleted = m_pPrefs->IsTransferredOnCompleted();
+	m_bShowDownloadPercentage = m_pPrefs->GetUseDwlPercentage();
+	m_bShowPausedGray = m_pPrefs->ShowPausedGray();
+	m_bShowFileStatusIcons = m_pPrefs->ShowFullFileStatusIcons();
+	m_bShowCountryFlag = m_pPrefs->GetShowCountryFlag();
+	m_bRoundSizes = m_pPrefs->ShowRoundSizes();
+	m_bDisplayUploadParts = m_pPrefs->IsUploadPartsEnabled();
+	m_strSmartFilterMaxQR.Format(_T("%u"), m_pPrefs->GetSmartFilterMaxQueueRank());
+	m_bSmartFilterShowSourcesOQ = m_pPrefs->GetSmartFilterShowOnQueue();
+	m_bShowRatingIcons = m_pPrefs->ShowRatingIcons();
+	m_FakeListColorButton.SetColor(m_pPrefs->GetFakeListDownloadColor());
+
+	UpdateData(FALSE);
+
+	SetModified(FALSE);
+}
+
+BOOL CPPgLists::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		bool		bPrevVal, bUpd1, bUpd2;
+		COLORREF	crPrev;
+
+		m_pPrefs->SetA4AFStringEnabled(B2b(m_bShowA4AF));
+		m_pPrefs->SetA4AFCountEnabled(B2b(m_bShowA4AFCount));
+		m_pPrefs->SetShowAverageDataRate(B2b(m_bShowAvgDataRate));
+		m_pPrefs->SetTransferredOnCompleted(B2b(m_bShowTransferredOnCompleted));
+		m_pPrefs->SetShowPausedGray(B2b(m_bShowPausedGray));
+		m_pPrefs->SetShowCountryFlag(B2b(m_bShowCountryFlag));
+		m_pPrefs->SetShowRoundSizes(B2b(m_bRoundSizes));
+		m_pPrefs->SetSmartFilterMaxQueueRank(static_cast<uint16>(_tstoi(m_strSmartFilterMaxQR)));
+		m_pPrefs->SetSmartFilterShowOnQueue(B2b(m_bSmartFilterShowSourcesOQ));
+		
+		bPrevVal = m_pPrefs->GetUseDwlPercentage();
+		m_pPrefs->SetUseDwlPercentage(B2b(m_bShowDownloadPercentage));
+		bUpd2 = (bPrevVal != m_pPrefs->GetUseDwlPercentage());
+		bPrevVal = m_pPrefs->ShowFullFileStatusIcons();
+		m_pPrefs->SetShowFullFileStatusIcons(B2b(m_bShowFileStatusIcons));
+		bUpd2 |= (bPrevVal != m_pPrefs->ShowFullFileStatusIcons());
+		crPrev = m_pPrefs->GetFakeListDownloadColor();
+		m_pPrefs->SetFakeListDownloadColor(m_FakeListColorButton.GetColor());
+		bUpd2 |= (crPrev != m_pPrefs->GetFakeListDownloadColor());
+
+		bPrevVal = m_pPrefs->ShowFileTypeIcon();
+		m_pPrefs->SetShowFileTypeIcon(B2b(m_bShowFileTypeIcons));
+		bUpd1 = (bPrevVal != m_pPrefs->ShowFileTypeIcon());
+		bPrevVal = m_pPrefs->ShowRatingIcons();
+		m_pPrefs->SetShowRatingIcons(B2b(m_bShowRatingIcons));
+		bUpd1 |= (bPrevVal != m_pPrefs->ShowRatingIcons());
+
+		if (bUpd1 || bUpd2)
+			g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.Invalidate();
+		if (bUpd1)
+		{
+			g_App.m_pMDlg->m_wndSharedFiles.m_ctlSharedFilesList.Invalidate();
+			g_App.m_pMDlg->m_dlgSearch.m_ctlSearchList.Invalidate();
+		}
+
+		if (m_pPrefs->GetShowCountryFlag())
+			g_App.m_pIP2Country->Load();
+		else
+			g_App.m_pIP2Country->Unload();
+
+		if (m_pPrefs->IsUploadPartsEnabled() == !m_bDisplayUploadParts)
+		{
+			m_pPrefs->SetUploadPartsEnabled(B2b(m_bDisplayUploadParts));
+
+			if(m_pPrefs->IsUploadPartsEnabled())
+			{
+				g_App.m_pMDlg->m_wndTransfer.m_ctlUploadList.ShowColumn(ULCOL_PROGRESS);
+				g_App.m_pMDlg->m_wndTransfer.m_ctlQueueList.ShowColumn(QLCOL_PROGRESS);		
+			}
+			else
+			{
+				g_App.m_pMDlg->m_wndTransfer.m_ctlUploadList.HideColumn(ULCOL_PROGRESS);
+				g_App.m_pMDlg->m_wndTransfer.m_ctlQueueList.HideColumn(QLCOL_PROGRESS);		
+			}
+		}
+
+		g_App.m_pIP2Country->Refresh();
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgLists::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_A4AF, IDS_A4AF },
+		{ IDC_A4AFCOUNT, IDS_A4AFCOUNT },
+		{ IDC_SHOWAVGDATARATE, IDS_SHOWAVGDATARATE },
+		{ IDC_SHOWFTYPE, IDS_SHOWFTYPE },
+		{ IDC_SHOWTRANFONCMPLT, IDS_SHOWTRANFONCMPLT },
+		{ IDC_SHOWDWLPERCENTAGE, IDS_SHOWDWLPERCENTAGE },
+		{ IDC_SHOWGRAY, IDS_SHOWGRAY },
+		{ IDC_STATUSICONS, IDS_STATUSICONS },
+		{ IDC_TBSSHOWCOUNTRYFLAG, IDS_PW_SHOWCOUNTRYFLAG },
+		{ IDC_ROUNDSIZES, IDS_ROUNDSIZES },
+		{ IDC_UPLOADPARTS, IDS_UPLOADPARTS },
+		{ IDC_SMARTFILTERSHOWOQ, IDS_SMARTFILTER_SHOWOQ },
+		{ IDC_SMARTFILTERMAXQRLBL, IDS_SMARTFILTER_MAXQR },
+		{ IDC_SMARTFILTERGROUPBOX, IDS_SRCFILTERMENU_SMARTFILTER },
+		{ IDC_SHOWRATINGICONS, IDS_SHOWRATINGICONS },
+		{ IDC_FAKELIST_COLOR_STATIC, IDS_FAKELIST_COLOR_STATIC },
+		{ IDC_FAKECHECK_GROUPBOX, IDS_FAKE_CHECK_HEADER }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+		::GetResString(&strRes, IDS_COL_MORECOLORS);
+		m_FakeListColorButton.CustomText = strRes;
+		::GetResString(&strRes, IDS_COL_AUTOMATIC);
+		m_FakeListColorButton.DefaultText = strRes;
+	}
+}
+@
+
+
+1.15
+log
+@Removed unneeded CString initializations.
+@
+text
+@d1 1
+a1 1
+// PPgLists.cpp : implementation file
+d3 13
+a27 2
+// CPPgLists dialog
+
+d31 13
+a43 13
+	, showA4AF(FALSE)
+	, showA4AFCount(FALSE)
+	, showAvgDataRate(FALSE)
+	, showFileTypeIcons(FALSE)
+	, showTransferredOnCompleted(FALSE)
+	, showDownloadPercentage(FALSE)
+	, showPausedGray(FALSE)
+	, showFileStatusIcons(FALSE)
+	, showCountryFlag(FALSE)
+	, roundSizes(FALSE)
+	, displayUploadParts(FALSE)
+	, bSmartFilterShowSourcesOQ(FALSE)
+	, showRatingIcons(FALSE)
+d54 14
+a67 31
+	DDX_Check(pDX, IDC_A4AF, showA4AF);
+	DDX_Check(pDX, IDC_A4AFCOUNT, showA4AFCount);
+	DDX_Check(pDX, IDC_SHOWAVGDATARATE, showAvgDataRate);
+	DDX_Check(pDX, IDC_SHOWFTYPE, showFileTypeIcons);
+	DDX_Check(pDX, IDC_SHOWTRANFONCMPLT, showTransferredOnCompleted);
+	DDX_Check(pDX, IDC_SHOWDWLPERCENTAGE, showDownloadPercentage);
+	DDX_Check(pDX, IDC_SHOWGRAY, showPausedGray);
+	DDX_Check(pDX, IDC_STATUSICONS, showFileStatusIcons);
+	DDX_Check(pDX, IDC_TBSSHOWCOUNTRYFLAG, showCountryFlag);
+	DDX_Check(pDX, IDC_ROUNDSIZES, roundSizes);
+	DDX_Check(pDX, IDC_UPLOADPARTS, displayUploadParts);
+	DDX_Control(pDX, IDC_A4AF, showA4AFCheck);
+	DDX_Control(pDX, IDC_A4AFCOUNT, showA4AFCountCheck);
+	DDX_Control(pDX, IDC_SHOWAVGDATARATE, showAvgDataRateCheck);
+	DDX_Control(pDX, IDC_SHOWFTYPE, showFileTypeIconsCheck);
+	DDX_Control(pDX, IDC_SHOWTRANFONCMPLT, showTransferredOnCompletedCheck);
+	DDX_Control(pDX, IDC_SHOWDWLPERCENTAGE, showDownloadPercentageCheck);
+	DDX_Control(pDX, IDC_SHOWGRAY, showPausedGrayCheck);
+	DDX_Control(pDX, IDC_STATUSICONS, showFileStatusIconsCheck);
+	DDX_Control(pDX, IDC_TBSSHOWCOUNTRYFLAG, showCountryFlagCheck);
+	DDX_Control(pDX, IDC_ROUNDSIZES, roundSizesCheck);
+	DDX_Control(pDX, IDC_UPLOADPARTS, displayUploadPartsCheck);	
+	DDX_Text(pDX, IDC_SMARTFILTERGROUPBOX, strSmartFilterDesc);
+	DDX_Control(pDX, IDC_SMARTFILTERMAXQRLBL, SmartFilterMaxQRLabel);
+	DDX_Text(pDX, IDC_SMARTFILTERMAXQR, strSmartFilterMaxQR);
+	DDX_Text(pDX, IDC_FAKELIST_COLOR_STATIC, strFakeListColorLabel);
+	DDX_Control(pDX, IDC_SMARTFILTERMAXQR, SmartFilterMaxQREdit);
+	DDX_Check(pDX, IDC_SMARTFILTERSHOWOQ, bSmartFilterShowSourcesOQ);
+	DDX_Control(pDX, IDC_SMARTFILTERSHOWOQ, SmartFilterShowSourcesOQCheck);
+	DDX_Check(pDX, IDC_SHOWRATINGICONS, showRatingIcons);
+	DDX_Control(pDX, IDC_SHOWRATINGICONS, showRatingIconsCheck);
+d103 14
+a116 14
+	showA4AF = m_pPrefs->IsA4AFStringEnabled();
+	showA4AFCount = m_pPrefs->IsA4AFCountEnabled();
+	showAvgDataRate = m_pPrefs->GetShowAverageDataRate();
+	showFileTypeIcons = m_pPrefs->ShowFileTypeIcon();
+	showTransferredOnCompleted = m_pPrefs->IsTransferredOnCompleted();
+	showDownloadPercentage = m_pPrefs->GetUseDwlPercentage();
+	showPausedGray = m_pPrefs->ShowPausedGray();
+	showFileStatusIcons = m_pPrefs->ShowFullFileStatusIcons();
+	showCountryFlag = m_pPrefs->GetShowCountryFlag();
+	roundSizes = m_pPrefs->ShowRoundSizes();
+	displayUploadParts = m_pPrefs->IsUploadPartsEnabled();
+	strSmartFilterMaxQR.Format(_T("%u"), m_pPrefs->GetSmartFilterMaxQueueRank());
+	bSmartFilterShowSourcesOQ = m_pPrefs->GetSmartFilterShowOnQueue();
+	showRatingIcons = m_pPrefs->ShowRatingIcons();
+d133 9
+a141 9
+		m_pPrefs->SetA4AFStringEnabled(showA4AF);
+		m_pPrefs->SetA4AFCountEnabled(showA4AFCount);
+		m_pPrefs->SetShowAverageDataRate(showAvgDataRate);
+		m_pPrefs->SetTransferredOnCompleted(showTransferredOnCompleted);
+		m_pPrefs->SetShowPausedGray(showPausedGray);
+		m_pPrefs->SetShowCountryFlag(showCountryFlag);
+		m_pPrefs->SetShowRoundSizes(roundSizes);
+		m_pPrefs->SetSmartFilterMaxQueueRank(_tstoi(strSmartFilterMaxQR));
+		m_pPrefs->SetSmartFilterShowOnQueue(bSmartFilterShowSourcesOQ);
+d144 1
+a144 1
+		m_pPrefs->SetUseDwlPercentage(showDownloadPercentage);
+d147 1
+a147 1
+		m_pPrefs->SetShowFullFileStatusIcons(showFileStatusIcons);
+d154 1
+a154 1
+		m_pPrefs->SetShowFileTypeIcon(showFileTypeIcons);
+d157 1
+a157 1
+		m_pPrefs->SetShowRatingIcons(showRatingIcons);
+d173 1
+a173 1
+		if(m_pPrefs->IsUploadPartsEnabled()==!displayUploadParts)
+d175 1
+a175 1
+			m_pPrefs->SetUploadPartsEnabled(displayUploadParts);
+d199 1
+a199 1
+	if(::IsWindow(m_hWnd))
+d201 18
+a218 19
+		SetWindowText(GetResString(IDS_PW_LISTS));
+		showA4AFCheck.SetWindowText(GetResString(IDS_A4AF));
+		showA4AFCountCheck.SetWindowText(GetResString(IDS_A4AFCOUNT));
+		showAvgDataRateCheck.SetWindowText(GetResString(IDS_SHOWAVGDATARATE));
+		showFileTypeIconsCheck.SetWindowText(GetResString(IDS_SHOWFTYPE));
+		showTransferredOnCompletedCheck.SetWindowText(GetResString(IDS_SHOWTRANFONCMPLT));
+		showDownloadPercentageCheck.SetWindowText(GetResString(IDS_SHOWDWLPERCENTAGE));
+		showPausedGrayCheck.SetWindowText(GetResString(IDS_SHOWGRAY));
+		showFileStatusIconsCheck.SetWindowText(GetResString(IDS_STATUSICONS));
+		showCountryFlagCheck.SetWindowText(GetResString(IDS_PW_SHOWCOUNTRYFLAG));
+		roundSizesCheck.SetWindowText(GetResString(IDS_ROUNDSIZES));
+		displayUploadPartsCheck.SetWindowText(GetResString(IDS_UPLOADPARTS));
+		SmartFilterShowSourcesOQCheck.SetWindowText(GetResString(IDS_SMARTFILTER_SHOWOQ));
+		SmartFilterMaxQRLabel.SetWindowText(GetResString(IDS_SMARTFILTER_MAXQR));
+		GetResString(&strSmartFilterDesc, IDS_SRCFILTERMENU_SMARTFILTER);
+		showRatingIconsCheck.SetWindowText(GetResString(IDS_SHOWRATINGICONS));
+		m_FakeListColorButton.CustomText = GetResString(IDS_COL_MORECOLORS);
+		m_FakeListColorButton.DefaultText = GetResString(IDS_COL_AUTOMATIC);
+		GetResString(&strFakeListColorLabel, IDS_FAKELIST_COLOR_STATIC);
+d220 3
+a222 1
+		SetDlgItemText(IDC_FAKECHECK_GROUPBOX, GetResString(IDS_FAKE_CHECK_HEADER));
+d224 9
+a232 1
+		UpdateData(FALSE);
+@
+
+
+1.14
+log
+@Corrected search and download list redraw after color related settings change in preferences {Fuxie - DK}.
+@
+text
+@a30 3
+	, strSmartFilterDesc(_T(""))
+	, strSmartFilterMaxQR(_T(""))
+	, strFakeListColorLabel(_T(""))
+@
+
+
+1.13
+log
+@Update search list on icon settings change.
+@
+text
+@d139 2
+a140 1
+		bool bPrevVal, bUpd1, bUpd2;
+d158 3
+a199 2
+		m_pPrefs->SetFakeListDownloadColor(m_FakeListColorButton.GetColor());
+
+@
+
+
+1.12
+log
+@renamed 3 variables
+@
+text
+@d168 1
+d170 2
+@
+
+
+1.11
+log
+@Fixed missed preferences localization {BouRock}.
+@
+text
+@d166 1
+a166 1
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.Invalidate();
+d168 1
+a168 1
+			g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.Invalidate();
+d171 1
+a171 1
+			g_eMuleApp.m_pIP2Country->Load();
+d173 1
+a173 1
+			g_eMuleApp.m_pIP2Country->Unload();
+d181 2
+a182 2
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.ShowColumn(ULCOL_PROGRESS);
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.ShowColumn(QLCOL_PROGRESS);		
+d186 2
+a187 2
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.HideColumn(ULCOL_PROGRESS);
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.HideColumn(QLCOL_PROGRESS);		
+d191 1
+a191 1
+		g_eMuleApp.m_pIP2Country->Refresh();
+@
+
+
+1.10
+log
+@Fixed download list update after enable/disable of progress bar percentage or
+show file status icon option.
+@
+text
+@d225 2
+@
+
+
+1.9
+log
+@Preferences storage reorganization and minor optimization.
+@
+text
+@d139 1
+a139 2
+		byte ShowFileTypeIcon_old = m_pPrefs->ShowFileTypeIcon();
+		byte ShowRatingIcons_old = m_pPrefs->ShowRatingIcons();
+a143 1
+		m_pPrefs->SetShowFileTypeIcon(showFileTypeIcons);
+a144 1
+		m_pPrefs->SetUseDwlPercentage(showDownloadPercentage);
+a145 1
+		m_pPrefs->SetShowFullFileStatusIcons(showFileStatusIcons);
+d150 12
+d163 1
+d165 1
+a165 3
+		if ((ShowFileTypeIcon_old != (byte)m_pPrefs->ShowFileTypeIcon()) ||
+			(ShowRatingIcons_old != (byte)m_pPrefs->ShowRatingIcons()))
+		{
+d167 1
+a168 1
+		}
+@
+
+
+1.8
+log
+@Some changes...
+@
+text
+@d174 2
+a175 2
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.ShowColumn(8);
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.ShowColumn(4);		
+d179 2
+a180 2
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.HideColumn(8);
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.HideColumn(4);		
+@
+
+
+1.7
+log
+@Added clickable own rating icon in shared files list
+@
+text
+@d35 1
+a35 2
+	, autoClearCompleted(FALSE)
+	, disableRatingIcons(FALSE)
+d75 2
+a76 4
+	DDX_Check(pDX, IDC_AUTO_CLEAR_COMPLETED, autoClearCompleted);
+	DDX_Control(pDX, IDC_AUTO_CLEAR_COMPLETED, autoClearCompletedCheck);
+	DDX_Check(pDX, IDC_DISABLERATINGICONS, disableRatingIcons);
+	DDX_Control(pDX, IDC_DISABLERATINGICONS, disableRatingIconsCheck);
+d93 1
+a93 2
+	ON_BN_CLICKED(IDC_AUTO_CLEAR_COMPLETED, OnSettingsChange)
+	ON_BN_CLICKED(IDC_DISABLERATINGICONS, OnSettingsChange)
+d125 1
+a125 2
+	autoClearCompleted = m_pPrefs->IsAutoClearCompleted();
+	disableRatingIcons = m_pPrefs->GetDisableRatingIcons();
+d140 1
+a140 1
+		byte DisableRatingIcons_old = m_pPrefs->GetDisableRatingIcons();
+d154 1
+a154 2
+		m_pPrefs->SetAutoClearCompleted(autoClearCompleted);
+		m_pPrefs->SetDisableRatingIcons(disableRatingIcons);
+d157 1
+a157 1
+			(DisableRatingIcons_old != (byte)m_pPrefs->GetDisableRatingIcons()))
+d213 1
+a213 2
+		autoClearCompletedCheck.SetWindowText(GetResString(IDS_AUTO_CLEAR_COMPLETED));
+		disableRatingIconsCheck.SetWindowText(GetResString(IDS_DISABLERATINGICONS));
+@
+
+
+1.6
+log
+@Improved preferences localization.
+@
+text
+@d36 1
+d78 2
+d97 1
+d130 1
+d145 1
+d160 1
+d162 2
+a163 1
+		if (ShowFileTypeIcon_old != (byte)m_pPrefs->ShowFileTypeIcon())
+d220 1
+@
+
+
+1.5
+log
+@Minor changes
+@
+text
+@d210 1
+a210 1
+		strSmartFilterDesc = GetResString(IDS_SRCFILTERMENU_SMARTFILTER);
+d214 1
+a214 1
+		strFakeListColorLabel = GetResString(IDS_FAKELIST_COLOR_STATIC);
+@
+
+
+1.4
+log
+@new FakeCheck autoupdate system
+@
+text
+@d33 1
+d71 1
+d214 1
+@
+
+
+1.3
+log
+@New option to disable round of sizes for files and transfers
+@
+text
+@d75 1
+d93 1
+d100 2
+d124 1
+d182 2
+d210 2
+@
+
+
+1.2
+log
+@Removed unused string
+@
+text
+@d29 1
+d54 1
+d65 1
+d87 1
+d115 1
+d143 1
+d197 1
+@
+
+
+1.1
+log
+@Preferences reorganization
+@
+text
+@d181 1
+a181 1
+		SetWindowText(GetResString(IDS_PW_DOWNLOAD_WND));
+@
+

@@ -1,0 +1,126 @@
+head	1.2;
+access;
+symbols
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.8
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.6
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.4
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2003.04.29.16.13.30;	author kuchin;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.25.10.55.02;	author kuchin;	state Exp;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2003.02.25.13.44.52;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@/* Do not edit: automatically built by gen_rec.awk. */
+
+#ifndef	__txn_AUTO_H
+#define	__txn_AUTO_H
+#define	DB___txn_regop	10
+typedef struct ___txn_regop_args {
+	u_int32_t type;
+	DB_TXN *txnid;
+	DB_LSN prev_lsn;
+	u_int32_t	opcode;
+	int32_t	timestamp;
+} __txn_regop_args;
+
+#define	DB___txn_ckp	11
+typedef struct ___txn_ckp_args {
+	u_int32_t type;
+	DB_TXN *txnid;
+	DB_LSN prev_lsn;
+	DB_LSN	ckp_lsn;
+	DB_LSN	last_ckp;
+	int32_t	timestamp;
+} __txn_ckp_args;
+
+#define	DB___txn_child	12
+typedef struct ___txn_child_args {
+	u_int32_t type;
+	DB_TXN *txnid;
+	DB_LSN prev_lsn;
+	u_int32_t	child;
+	DB_LSN	c_lsn;
+} __txn_child_args;
+
+#define	DB___txn_xa_regop	13
+typedef struct ___txn_xa_regop_args {
+	u_int32_t type;
+	DB_TXN *txnid;
+	DB_LSN prev_lsn;
+	u_int32_t	opcode;
+	DBT	xid;
+	int32_t	formatID;
+	u_int32_t	gtrid;
+	u_int32_t	bqual;
+	DB_LSN	begin_lsn;
+} __txn_xa_regop_args;
+
+#define	DB___txn_recycle	14
+typedef struct ___txn_recycle_args {
+	u_int32_t type;
+	DB_TXN *txnid;
+	DB_LSN prev_lsn;
+	u_int32_t	min;
+	u_int32_t	max;
+} __txn_recycle_args;
+
+#endif
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1.2.1
+log
+@*** empty log message ***
+@
+text
+@@
+

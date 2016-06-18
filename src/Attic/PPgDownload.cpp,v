@@ -1,0 +1,224 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2004.04.25.02.33.04;	author dongato;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2004.04.18.13.17.30;	author bavariansnail;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.03.27.19.42.50;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Preferences reorganization
+@
+text
+@// PPgDownload.cpp : implementation file
+//
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgDownload.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+// CPPgDownload dialog
+
+IMPLEMENT_DYNAMIC(CPPgDownload, CPropertyPage)
+CPPgDownload::CPPgDownload()
+	: CPropertyPage(CPPgDownload::IDD)
+	, showA4AF(FALSE)
+	, showA4AFCount(FALSE)
+	, showAvgDataRate(FALSE)
+	, showFileTypeIcons(FALSE)
+	, showTransferredOnCompleted(FALSE)
+	, showDownloadPercentage(FALSE)
+	, showPausedGray(FALSE)
+	, showFileStatusIcons(FALSE)
+	, strSmartFilterDesc(_T(""))
+	, strSmartFilterMaxQR(_T(""))
+	, bSmartFilterShowSourcesOQ(FALSE)
+	, autoClearCompleted(FALSE)
+{
+}
+
+CPPgDownload::~CPPgDownload()
+{
+}
+
+void CPPgDownload::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Check(pDX, IDC_A4AF, showA4AF);
+	DDX_Check(pDX, IDC_A4AFCOUNT, showA4AFCount);
+	DDX_Check(pDX, IDC_SHOWAVGDATARATE, showAvgDataRate);
+	DDX_Check(pDX, IDC_SHOWFTYPE, showFileTypeIcons);
+	DDX_Check(pDX, IDC_SHOWTRANFONCMPLT, showTransferredOnCompleted);
+	DDX_Check(pDX, IDC_SHOWDWLPERCENTAGE, showDownloadPercentage);
+	DDX_Check(pDX, IDC_SHOWGRAY, showPausedGray);
+	DDX_Check(pDX, IDC_STATUSICONS, showFileStatusIcons);
+	DDX_Control(pDX, IDC_A4AF, showA4AFCheck);
+	DDX_Control(pDX, IDC_A4AFCOUNT, showA4AFCountCheck);
+	DDX_Control(pDX, IDC_SHOWAVGDATARATE, showAvgDataRateCheck);
+	DDX_Control(pDX, IDC_SHOWFTYPE, showFileTypeIconsCheck);
+	DDX_Control(pDX, IDC_SHOWTRANFONCMPLT, showTransferredOnCompletedCheck);
+	DDX_Control(pDX, IDC_SHOWDWLPERCENTAGE, showDownloadPercentageCheck);
+	DDX_Control(pDX, IDC_SHOWGRAY, showPausedGrayCheck);
+	DDX_Control(pDX, IDC_STATUSICONS, showFileStatusIconsCheck);
+	DDX_Text(pDX, IDC_SMARTFILTERGROUPBOX, strSmartFilterDesc);
+	DDX_Control(pDX, IDC_SMARTFILTERMAXQRLBL, SmartFilterMaxQRLabel);
+	DDX_Text(pDX, IDC_SMARTFILTERMAXQR, strSmartFilterMaxQR);
+	DDX_Control(pDX, IDC_SMARTFILTERMAXQR, SmartFilterMaxQREdit);
+	DDX_Check(pDX, IDC_SMARTFILTERSHOWOQ, bSmartFilterShowSourcesOQ);
+	DDX_Control(pDX, IDC_SMARTFILTERSHOWOQ, SmartFilterShowSourcesOQCheck);
+	DDX_Check(pDX, IDC_AUTO_CLEAR_COMPLETED, autoClearCompleted);
+	DDX_Control(pDX, IDC_AUTO_CLEAR_COMPLETED, autoClearCompletedCheck);
+}
+
+BEGIN_MESSAGE_MAP(CPPgDownload, CPropertyPage)
+	ON_BN_CLICKED(IDC_A4AF, OnSettingsChange)
+	ON_BN_CLICKED(IDC_A4AFCOUNT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWAVGDATARATE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWFTYPE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWTRANFONCMPLT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWDWLPERCENTAGE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SHOWGRAY, OnSettingsChange)
+	ON_BN_CLICKED(IDC_STATUSICONS, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SMARTFILTERMAXQR, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SMARTFILTERSHOWOQ, OnSettingsChange)
+	ON_BN_CLICKED(IDC_AUTO_CLEAR_COMPLETED, OnSettingsChange)
+END_MESSAGE_MAP()
+
+BOOL CPPgDownload::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+
+void CPPgDownload::LoadSettings(void)
+{
+	showA4AF = m_pPrefs->IsA4AFStringEnabled();
+	showA4AFCount = m_pPrefs->IsA4AFCountEnabled();
+	showAvgDataRate = m_pPrefs->GetShowAverageDataRate();
+	showFileTypeIcons = m_pPrefs->ShowFileTypeIcon();
+	showTransferredOnCompleted = m_pPrefs->IsTransferredOnCompleted();
+	showDownloadPercentage = m_pPrefs->GetUseDwlPercentage();
+	showPausedGray = m_pPrefs->ShowPausedGray();
+	showFileStatusIcons = m_pPrefs->ShowFullFileStatusIcons();
+	strSmartFilterMaxQR.Format(_T("%u"), m_pPrefs->GetSmartFilterMaxQueueRank());
+	bSmartFilterShowSourcesOQ = m_pPrefs->GetSmartFilterShowOnQueue();
+	autoClearCompleted = m_pPrefs->IsAutoClearCompleted();
+
+	UpdateData(FALSE);
+
+	SetModified(FALSE);
+}
+
+BOOL CPPgDownload::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		byte ShowFileTypeIcon_old = m_pPrefs->ShowFileTypeIcon();
+
+		m_pPrefs->SetA4AFStringEnabled(showA4AF);
+		m_pPrefs->SetA4AFCountEnabled(showA4AFCount);
+		m_pPrefs->SetShowAverageDataRate(showAvgDataRate);
+		m_pPrefs->SetShowFileTypeIcon(showFileTypeIcons);
+		m_pPrefs->SetTransferredOnCompleted(showTransferredOnCompleted);
+		m_pPrefs->SetUseDwlPercentage(showDownloadPercentage);
+		m_pPrefs->SetShowPausedGray(showPausedGray);
+		m_pPrefs->SetShowFullFileStatusIcons(showFileStatusIcons);
+		m_pPrefs->SetSmartFilterMaxQueueRank(_tstoi(strSmartFilterMaxQR));
+		m_pPrefs->SetSmartFilterShowOnQueue(bSmartFilterShowSourcesOQ);
+		m_pPrefs->SetAutoClearCompleted(autoClearCompleted);
+
+		if (ShowFileTypeIcon_old != (byte)m_pPrefs->ShowFileTypeIcon())
+		{
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.Invalidate();
+			g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.Invalidate();
+		}
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgDownload::Localize(void)
+{
+	if(::IsWindow(m_hWnd))
+	{
+		SetWindowText(GetResString(IDS_PW_DOWNLOAD_WND));
+		showA4AFCheck.SetWindowText(GetResString(IDS_A4AF));
+		showA4AFCountCheck.SetWindowText(GetResString(IDS_A4AFCOUNT));
+		showAvgDataRateCheck.SetWindowText(GetResString(IDS_SHOWAVGDATARATE));
+		showFileTypeIconsCheck.SetWindowText(GetResString(IDS_SHOWFTYPE));
+		showTransferredOnCompletedCheck.SetWindowText(GetResString(IDS_SHOWTRANFONCMPLT));
+		showDownloadPercentageCheck.SetWindowText(GetResString(IDS_SHOWDWLPERCENTAGE));
+		showPausedGrayCheck.SetWindowText(GetResString(IDS_SHOWGRAY));
+		showFileStatusIconsCheck.SetWindowText(GetResString(IDS_STATUSICONS));
+		SmartFilterShowSourcesOQCheck.SetWindowText(GetResString(IDS_SMARTFILTER_SHOWOQ));
+		SmartFilterMaxQRLabel.SetWindowText(GetResString(IDS_SMARTFILTER_MAXQR));
+		strSmartFilterDesc = GetResString(IDS_SRCFILTERMENU_SMARTFILTER);
+		autoClearCompletedCheck.SetWindowText(GetResString(IDS_AUTO_CLEAR_COMPLETED));
+
+		UpdateData(FALSE);
+	}
+}
+@
+
+
+1.2
+log
+@auto max sources per file
+@
+text
+@@
+
+
+1.1
+log
+@Updated preferences dialogs.
+Added upload log file (should be tested).
+@
+text
+@d30 1
+d63 2
+d78 1
+d103 1
+d128 1
+d158 1
+@
+

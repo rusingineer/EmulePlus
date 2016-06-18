@@ -1,0 +1,1184 @@
+head	1.24;
+access;
+symbols
+	PublicRelease_1_2e:1.24
+	Interim_Release_1-2e_RC1:1.24
+	PublicRelease_1_2d:1.24
+	Interim_Release_1-2d_RC1:1.24
+	Interim_Release_1-2d_beta1:1.24
+	PublicRelease_1_2c:1.22
+	Interim_Release_1-2c_RC1:1.22
+	Interim_Release_1-2c_beta1:1.21
+	PublicRelease_1_2b:1.20
+	Interim_Release_1-2b_RC1:1.20
+	PublicRelease_1_2a:1.19
+	Interim_Release_1-2a_RC1:1.17
+	Interim_Release_1-2a_beta2:1.17
+	Interim_Release_1-2a_beta1:1.17
+	PublicRelease_1_2:1.17
+	Interim_Release_1-2_RC1:1.16
+	Interim_Release_1-2_beta1:1.16
+	PublicRelease_1_1g:1.16
+	Interim_Release_1-1g_RC3:1.16
+	Interim_Release_1-1g_RC2:1.16
+	Interim_Release_1-1g_RC1:1.16
+	Interim_Release_1-1g_beta2:1.14
+	Interim_Release_1-1g_beta1:1.14
+	PublicRelease_1_1f:1.14
+	Interim_Release_1-1f_RC1:1.14
+	PublicRelease_1_1e:1.14
+	Interim_Release_1-1e_RC2:1.14
+	Interim_Release_1-1e_RC1:1.14
+	Interim_Release_1-1e_beta1:1.14
+	PublicRelease_1_1d:1.14
+	Interim_Release_1-1d_RC1:1.14
+	PublicRelease_1_1c:1.14
+	Interim_Release_1-1c_RC1:1.14
+	Interim_Release_1-1c_beta2:1.14
+	Interim_Release_1-1c_beta1:1.13
+	PublicRelease_1_1b:1.13
+	Interim_Release_1-1b_RC1:1.13
+	PublicRelease_1_1a:1.13
+	Interim_Release_1-1a_RC2:1.13
+	Interim_Release_1-1a_RC1:1.13
+	Interim_Release_1-1a_beta2:1.13
+	Interim_Release_1-1a_beta1:1.13
+	PublicRelease_1_1:1.13
+	Interim_Release_1-1_beta1:1.13
+	PublicRelease_1o:1.12
+	Interim_Release_1o_RC1:1.12
+	Interim_Release_1o_beta1:1.12
+	PublicRelease_1n:1.12
+	Interim_Release_1n_RC2:1.12
+	Interim_Release_1n_RC1:1.12
+	Interim_Release_1n_beta2:1.11
+	Interim_Release_1n_beta1:1.11
+	PublicRelease_1m:1.11
+	Interim_Release_1m_beta1:1.11
+	PublicRelease_1l:1.11
+	Interim_Release_1l_RC3:1.11
+	Interim_Release_1l_RC2:1.11
+	Interim_Release_1l_RC1:1.11
+	Interim_Release_1l_beta2:1.11
+	Interim_Release_1l_beta1:1.11
+	PublicRelease_1k:1.11
+	Interim_Release_1k_RC4:1.11
+	Interim_1k_RC3:1.11
+	Interim_1k_RC2:1.11
+	Interim_Release_1k_RC1:1.11
+	Interim_Release_1k_beta5:1.11
+	Intrerim_Release_1k_beta4:1.11
+	Interim_Release_1k_beta1:1.10
+	PublicRelease_1j:1.9
+	Interim_Release_1J_RC3:1.9
+	Interim_Release_1j_RC3:1.9
+	Interim_Release_1j_RC2:1.8
+	Interim_Release_1j_RC1:1.8
+	Interim_Release_1j_beta2:1.8
+	Interim_Release_1j_beta1:1.8
+	PublicRelease_1i:1.8
+	Interim_Release_1i_RC6:1.8
+	Interim_Release_1i_RC3:1.8
+	Interim_Release_1i_RC2:1.8
+	Interim_Release_1i_RC1:1.7
+	Interim_Release_1i_beta3:1.7
+	Interim_Release_1i_beta2:1.7
+	Interim_Release_1i_beta1:1.6
+	PublicRelease_1h:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.24
+date	2007.12.16.21.37.59;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2007.10.31.18.26.28;	author fuxie-dk;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2007.02.28.09.25.12;	author kush_eplus;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2007.02.20.00.07.08;	author kush_eplus;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2007.01.17.21.02.24;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.10.08.03.44.43;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2006.10.02.01.10.52;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.02.26.21.36.57;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.02.03.19.48.07;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.10.08.03.28.31;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.08.10.12.43.38;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.02.25.04.53.08;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.15.15.30.10;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.11.10.19.45.09;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.29.13.46.12;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.27.18.19.23;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.26.23.35.48;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.24.16.44.12;	author morevit;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.23.16.52.49;	author morevit;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.09.16.20.20.01;	author morevit;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.24
+log
+@Suppressed level 4 warnings; Formatting.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "opcodes.h"
+#include "Category.h"
+#ifndef NEW_SOCKETS_ENGINE
+#include "emule.h"
+#endif //NEW_SOCKETS_ENGINE
+#include "ed2k_filetype.h"
+
+CCat::CCatArray		CCat::g_arrCat;
+CCat::CCatIDMap		CCat::g_mapCatID;	// Reverse lookup map for category IDs
+EnumCategories		CCat::g_eAllCatType = CAT_ALL;
+byte				CCat::g_iNumPredefinedCats = 0;
+
+#ifndef NEW_SOCKETS_ENGINE
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CCat::CCat()
+	: m_iPriority(0), m_bIsPredefined(false), m_eCatID(CAT_NONE), m_crColor(RGB(0, 0, 0))
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CCat::CCat(EnumCategories ePredefinedCatID)
+	: m_iPriority(0), m_bIsPredefined(false), m_eCatID(CAT_NONE)
+{
+	if (ePredefinedCatID >= CAT_PREDEFINED)
+	{
+		m_strTitle = GetPredefinedCatTitle(ePredefinedCatID,g_App.m_pPrefs->GetLanguageID());
+		m_crColor = RGB(0, 0, 0);
+		m_bIsPredefined = true;
+		m_eCatID = ePredefinedCatID;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CCat::CCat(LPCTSTR strTitle, LPCTSTR strSavePath/*=NULL*/, LPCTSTR strTempPath/*=NULL*/, LPCTSTR strComment/*=NULL*/,
+		   LPCTSTR strAutoCatExt/*=NULL*/)
+	: m_iPriority(0), m_bIsPredefined(false), m_eCatID(CAT_NONE)
+{
+	m_crColor = RGB(0, 0, 0);
+	m_strTitle = strTitle;
+	m_strSavePath = strSavePath;
+	m_strTempPath = strTempPath;
+	m_strComment = strComment;
+	m_strAutoCatExt = strAutoCatExt;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*static*/ void CCat::Finalize()
+{
+	CCat	*pCatToDel = NULL;
+
+	while (!g_arrCat.IsEmpty())
+	{
+		pCatToDel = g_arrCat[0]; 
+		g_arrCat.RemoveAt(0); 
+		delete pCatToDel;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	GetNewCatID() returns the next available user category ID
+/*static*/ EnumCategories CCat::GetNewCatID()
+{
+	byte			abyteUsedIdx[256];
+	EnumCategories	eNewCatID = CAT_NONE;
+
+	memzero(abyteUsedIdx, sizeof(abyteUsedIdx));
+	for (int i = g_iNumPredefinedCats; i < g_arrCat.GetCount(); i++)
+		abyteUsedIdx[g_arrCat[i]->m_eCatID] = 1;
+
+//	Find minimal unused category index for new allocation
+	for (unsigned ui = 1; ui < sizeof(abyteUsedIdx); ui++)
+	{
+		if (abyteUsedIdx[ui] == 0)
+		{
+			eNewCatID = static_cast<_EnumCategories>(ui);
+			break;
+		}
+	}
+
+	return eNewCatID;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	MoveCat() moves the category at 'iFromIndex' to just before the category at 'iToIndex'.
+//		It returns true on success and false on failure.
+/*static*/ bool CCat::MoveCat(unsigned uiFromIdx, unsigned uiToIdx)
+{
+//	If either of the indices are past the end of the array
+//		 or are the same, just return.
+	if ( uiFromIdx >= (UINT)g_arrCat.GetCount()
+	  || uiToIdx >= (UINT)(g_arrCat.GetCount() + 1)
+	  || uiFromIdx == uiToIdx )
+	{
+		return false;
+	}
+
+	CCat			*pCatToMove = NULL;
+
+	pCatToMove = g_arrCat[uiFromIdx];
+
+//	If the source is to the left of the destination...
+	if (uiFromIdx < uiToIdx)
+	{
+		g_arrCat.RemoveAt(uiFromIdx);
+		g_arrCat.InsertAt(uiToIdx - 1, pCatToMove);
+
+	//	The indices of all cats from 'uiFromIdx' to the end of the array have changed;
+	//		Update the reverse lookup map.
+		for (unsigned i = uiFromIdx; i < static_cast<unsigned>(g_arrCat.GetCount()); i++)
+		{
+			g_mapCatID[g_arrCat[i]->m_eCatID] = static_cast<byte>(i);
+		}
+	}
+//	If the source is to the right of the destination...
+	else
+	{
+		g_arrCat.InsertAt(uiToIdx, pCatToMove);
+		g_arrCat.RemoveAt(uiFromIdx + 1);
+
+	//	The indices of all cats from 'uiToIdx' to the end of the array have changed;
+	//		Update the reverse lookup map.
+		for (unsigned i = uiToIdx; i < static_cast<unsigned>(g_arrCat.GetCount()); i++)
+		{
+			g_mapCatID[g_arrCat[i]->m_eCatID] = static_cast<byte>(i);
+		}
+	}
+
+	g_App.m_pPrefs->SaveCats();
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	AddCat() adds the new category 'pCat' and returns it's newly assigned index.
+/*static*/ int CCat::AddCat(CCat *pCat, bool bAssignNewID/*=true*/)
+{
+	EnumCategories	eNewCatID;
+	int				iIdx = g_arrCat.Add(pCat);
+
+	if (bAssignNewID)
+	{
+		eNewCatID = GetNewCatID();
+		pCat->m_eCatID = eNewCatID;
+	}
+	else
+		eNewCatID = pCat->m_eCatID;
+	g_mapCatID[eNewCatID] = static_cast<byte>(iIdx);
+
+	return iIdx;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	AddPredefinedCat() adds the new predefined category 'pCat'.
+/*static*/ int CCat::AddPredefinedCat(CCat *pCat)
+{
+	byte				iIndex = 0;
+
+//	Find the index at which to insert the cat.
+	for (iIndex = 0; iIndex <= GetNumPredefinedCats(); iIndex++)
+	{
+		if ( iIndex == GetNumPredefinedCats()
+		  || g_arrCat[iIndex]->m_eCatID > pCat->m_eCatID )
+		{
+			break;
+		}
+	}
+
+	g_arrCat.InsertAt(iIndex,pCat);
+	g_iNumPredefinedCats++;
+
+//	The indices of all cats from 'iIndex' to the end of the array have changed;
+//		Update the reverse lookup map.
+	for (byte i = iIndex; i < g_arrCat.GetCount(); i++)
+	{
+		g_mapCatID[g_arrCat[i]->m_eCatID] = i;
+	}
+
+	return iIndex;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	RemoveCat() removes and destroys the category at index 'iIndex'.
+/*static*/ void CCat::RemoveCatByIndex(int iIndex)
+{
+//	If the index is within bounds...
+	if (iIndex >= 0 && iIndex < g_arrCat.GetCount())
+	{ 
+		CCat	*pCatToDelete;
+
+		pCatToDelete = g_arrCat[iIndex];
+
+	//	If the category we're removing is predefined, reduce the predefined cat count.
+		if (pCatToDelete->m_eCatID >= CAT_PREDEFINED)
+			g_iNumPredefinedCats--;
+
+		g_arrCat.RemoveAt(iIndex);
+
+	//	The indices of all cats from 'iIndex' to the end of the array have changed;
+	//		Update the reverse lookup map.
+		g_mapCatID.erase(pCatToDelete->m_eCatID);
+		for (unsigned i = iIndex; i < static_cast<unsigned>(g_arrCat.GetCount()); i++)
+		{
+			g_mapCatID[g_arrCat[i]->m_eCatID] = static_cast<byte>(i);
+		}
+
+		delete pCatToDelete;
+	}
+}
+#endif //NEW_SOCKETS_ENGINE
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*static*/ int CCat::GetCatIndexByID(const EnumCategories &eCatID)
+{
+	CCatIDMap::iterator		it;
+
+	if ((it = g_mapCatID.find(eCatID)) != g_mapCatID.end())
+		return it->second;
+	else
+		return -1;
+}
+#ifndef NEW_SOCKETS_ENGINE
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*static*/ bool CCat::FileBelongsToGivenCat(CPartFile *file,EnumCategories eCatID, bool bIgnoreViewFilter)
+{
+//	Easy normal cases
+	if (eCatID < CAT_PREDEFINED)
+	{
+		if (eCatID == file->GetCatID())
+			return true;
+		else
+			return false;
+	}
+
+	if (eCatID == CAT_ALL && !bIgnoreViewFilter)
+		eCatID = CCat::GetAllCatType();
+
+	switch (eCatID)
+	{
+		case CAT_NONE:			return (eCatID == CAT_ALL);	// Hrm. What was I thinking here?
+		case CAT_ALL:			return true;
+		case CAT_UNCATEGORIZED:	return (file->GetCatID()==0);
+		case CAT_INCOMPLETE:	return (file->IsPartFile());
+		case CAT_COMPLETED:		return (!file->IsPartFile());
+		case CAT_WAITING:		return ( (file->GetStatus()==PS_READY || file->GetStatus()==PS_EMPTY)
+									  && file->GetTransferringSrcCount() == 0 );
+		case CAT_DOWNLOADING:	return ( (file->GetStatus()==PS_READY || file->GetStatus()==PS_EMPTY)
+									  && file->GetTransferringSrcCount() > 0 );
+		case CAT_ERRONEOUS:		return (file->GetStatus()==PS_ERROR);
+		case CAT_PAUSED:		return (file->GetStatus()==PS_PAUSED);
+		case CAT_STOPPED:		return file->IsStopped();
+		case CAT_STALLED:		return ( (file->GetStatus()==PS_READY || file->GetStatus()==PS_EMPTY)
+									  && file->GetTransferringSrcCount() == 0
+									  && file->IsStalled() );
+		case CAT_ACTIVE:		return ( (file->GetStatus()==PS_READY || file->GetStatus()==PS_EMPTY)
+									  && (file->GetTransferringSrcCount() > 0 || file->GetOnQueueSrcCount() != 0)
+									  && file->IsPartFile() );
+		case CAT_INACTIVE:		return !( (file->GetStatus()==PS_READY || file->GetStatus()==PS_EMPTY)
+									  && (file->GetTransferringSrcCount() > 0 || file->GetOnQueueSrcCount() != 0) )
+									  && file->IsPartFile();
+		case CAT_VIDEO:			return file->IsMovie();
+		case CAT_AUDIO:			return (ED2KFT_AUDIO == file->GetFileType());
+		case CAT_ARCHIVES:		return file->IsArchive();
+		case CAT_CDIMAGES:		return (ED2KFT_CDIMAGE == file->GetFileType());
+	}
+
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*static*/ CString CCat::GetPredefinedCatTitle(EnumCategories eCatID, int langID)
+{
+	UINT		dwResStrId;
+
+	switch (eCatID)
+	{
+		case CAT_ALL:
+			dwResStrId = IDS_CAT_ALL;
+			break;
+		case CAT_UNCATEGORIZED:
+			dwResStrId = IDS_CAT_UNCATEGORIZED;
+			break;
+		case CAT_INCOMPLETE:
+			dwResStrId = IDS_CAT_INCOMPLETE;
+			break;
+		case CAT_COMPLETED:
+			dwResStrId = IDS_COMPLETE;
+			break;
+		case CAT_WAITING:
+			dwResStrId = IDS_WAITING;
+			break;
+		case CAT_DOWNLOADING:
+			dwResStrId = IDS_DOWNLOADING;
+			break;
+		case CAT_ERRONEOUS:
+			dwResStrId = IDS_ERRORLIKE;
+			break;
+		case CAT_PAUSED:
+			dwResStrId = IDS_PAUSED;
+			break;
+		case CAT_STOPPED:
+			dwResStrId = IDS_STOPPED;
+			break;
+		case CAT_STALLED:
+			dwResStrId = IDS_STALLED;
+			break;
+		case CAT_ACTIVE:
+			dwResStrId = IDS_ST_ACTIVE;
+			break;
+		case CAT_INACTIVE:
+			dwResStrId = IDS_ST_INACTIVE;
+			break;
+		case CAT_VIDEO:
+			dwResStrId = IDS_VIDEO;
+			break;
+		case CAT_AUDIO:
+			dwResStrId = IDS_AUDIO;
+			break;
+		case CAT_ARCHIVES:
+			dwResStrId = IDS_SEARCH_ARC;
+			break;
+		case CAT_CDIMAGES:
+			dwResStrId = IDS_SEARCH_CDIMG;
+			break;
+		default:
+			return CString(_T("?"));
+	}
+	return GetResString( dwResStrId,
+		static_cast<WORD>((langID == 0) ? g_App.m_pPrefs->GetLanguageID() : langID) );
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#endif //NEW_SOCKETS_ENGINE
+@
+
+
+1.23
+log
+@Reduced H-file dependency [Aw3].
+@
+text
+@d99 1
+a99 1
+/*static*/ bool CCat::MoveCat(byte iFromIndex, byte iToIndex)
+d103 3
+a105 3
+	if ( iFromIndex >= (UINT)g_arrCat.GetCount()
+	  || iToIndex >= (UINT)g_arrCat.GetCount()+1
+	  || iFromIndex == iToIndex )
+d112 1
+a112 1
+	pCatToMove = g_arrCat[iFromIndex];
+d115 1
+a115 1
+	if (iFromIndex < iToIndex)
+d117 2
+a118 2
+		g_arrCat.RemoveAt(iFromIndex);
+		g_arrCat.InsertAt(iToIndex-1,pCatToMove);
+d120 1
+a120 1
+	//	The indices of all cats from 'iFromIndex' to the end of the array have changed;
+d122 1
+a122 1
+		for (byte i = iFromIndex; i < g_arrCat.GetCount(); i++)
+d124 1
+a124 1
+			g_mapCatID[g_arrCat[i]->m_eCatID] = i;
+d130 2
+a131 2
+		g_arrCat.InsertAt(iToIndex,pCatToMove);
+		g_arrCat.RemoveAt(iFromIndex+1);
+d133 1
+a133 1
+	//	The indices of all cats from 'iToIndex' to the end of the array have changed;
+d135 1
+a135 1
+		for (byte i = iToIndex; i < g_arrCat.GetCount(); i++)
+d137 1
+a137 1
+			g_mapCatID[g_arrCat[i]->m_eCatID] = i;
+d211 1
+a211 1
+		for (byte i = iIndex; i < g_arrCat.GetCount(); i++)
+d213 1
+a213 1
+			g_mapCatID[g_arrCat[i]->m_eCatID] = i;
+d335 2
+a336 1
+	return GetResString(dwResStrId, (langID == 0) ? g_App.m_pPrefs->GetLanguageID() : langID);
+@
+
+
+1.22
+log
+@Use of IDS_COMPLETE instead of IDS_SF_COMPLETED for category filters
+@
+text
+@d1 16
+d18 1
+a18 1
+
+@
+
+
+1.21
+log
+@Remove use of IDS_CAT_COMPLETED
+Remove use of aliases.
+@
+text
+@d278 1
+a278 1
+			dwResStrId = IDS_SF_COMPLETED;
+@
+
+
+1.20
+log
+@removed unused variables & tiny optimization
+@
+text
+@d278 1
+a278 1
+			dwResStrId = IDS_CAT_COMPLETED;
+d281 1
+a281 1
+			dwResStrId = IDS_CAT_WAITING;
+d284 1
+a284 1
+			dwResStrId = IDS_CAT_DOWNLOADING;
+d287 1
+a287 1
+			dwResStrId = IDS_CAT_ERRONEOUS;
+d290 1
+a290 1
+			dwResStrId = IDS_CAT_PAUSED;
+d293 1
+a293 1
+			dwResStrId = IDS_CAT_STOPPED;
+d296 1
+a296 1
+			dwResStrId = IDS_CAT_STALLED;
+d299 1
+a299 1
+			dwResStrId = IDS_CAT_ACTIVE;
+d302 1
+a302 1
+			dwResStrId = IDS_CAT_INACTIVE;
+d305 1
+a305 1
+			dwResStrId = IDS_CAT_VIDEO;
+d308 1
+a308 1
+			dwResStrId = IDS_CAT_AUDIO;
+d311 1
+a311 1
+			dwResStrId = IDS_CAT_ARCHIVES;
+d314 1
+a314 1
+			dwResStrId = IDS_CAT_CDIMAGES;
+@
+
+
+1.19
+log
+@Fixed new category ID allocation {rgreen83}.
+@
+text
+@a94 1
+	EnumCategories	eFromCatID = CAT_NONE, eToCatID = CAT_NONE;
+a96 2
+	eFromCatID = pCatToMove->m_eCatID;
+	eToCatID = g_arrCat[iToIndex-1]->m_eCatID;
+d152 1
+a152 2
+	EnumCategories		eNewCatID = CAT_NONE;
+	
+d205 1
+a205 1
+/*static*/ int CCat::GetCatIndexByID(EnumCategories eCatID)
+@
+
+
+1.18
+log
+@Fixed default category color (was kind of random after creation);
+Set default main parameters in the constructor.
+@
+text
+@d58 1
+a58 1
+//	GetNewCatID() returns the next available user category ID.
+d61 2
+a62 1
+	EnumCategories		eNewCatID = CAT_NONE;
+d64 1
+d66 4
+d71 5
+a75 4
+		EnumCategories		eCatID;
+
+		if ((eCatID = g_arrCat[i]->m_eCatID) > eNewCatID)
+			eNewCatID = eCatID;
+d78 1
+a78 1
+	return ++eNewCatID;
+d136 2
+a137 4
+	byte			iIndex = 0;
+	EnumCategories	eNewCatID = CAT_NONE;
+	
+	iIndex = g_arrCat.Add(pCat);
+a144 1
+	{
+d146 1
+a146 2
+	}
+	g_mapCatID[eNewCatID] = iIndex;
+d148 1
+a148 1
+	return iIndex;
+@
+
+
+1.17
+log
+@Unicode correction.
+@
+text
+@d18 1
+a18 1
+	: m_iPriority(0), m_bIsPredefined(false), m_eCatID(CAT_NONE)
+d28 1
+a28 1
+		m_crColor = 0;
+d38 1
+@
+
+
+1.16
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d7 1
+a7 1
+#include "Ed2k_filetype.h"
+d317 1
+a317 1
+			return CString("?");
+@
+
+
+1.15
+log
+@renamed 3 variables
+@
+text
+@d27 1
+a27 1
+		m_strTitle = GetPredefinedCatTitle(ePredefinedCatID,g_App.g_pPrefs->GetLanguageID());
+d120 1
+a120 1
+	g_App.g_pPrefs->SaveCats();
+d319 1
+a319 1
+	return GetResString(dwResStrId, (langID == 0) ? g_App.g_pPrefs->GetLanguageID() : langID);
+@
+
+
+1.14
+log
+@More ifdefs for v2
+@
+text
+@d27 1
+a27 1
+		m_strTitle = GetPredefinedCatTitle(ePredefinedCatID,g_eMuleApp.m_pGlobPrefs->GetLanguageID());
+d120 1
+a120 1
+	g_eMuleApp.m_pGlobPrefs->SaveCats();
+d319 1
+a319 1
+	return GetResString(dwResStrId, (langID == 0) ? g_eMuleApp.m_pGlobPrefs->GetLanguageID() : langID);
+@
+
+
+1.13
+log
+@Customizable temporary directory for categories
+@
+text
+@d4 1
+d6 1
+d14 2
+d203 1
+d214 1
+d322 1
+@
+
+
+1.12
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d30 2
+a31 1
+CCat::CCat(LPCTSTR strTitle, LPCTSTR strSavePath/*=NULL*/, LPCTSTR strComment/*=NULL*/, LPCTSTR strAutoCatExt/*=NULL*/)
+d36 1
+@
+
+
+1.11
+log
+@Improved string processing
+@
+text
+@d5 1
+d246 1
+a246 1
+		case CAT_AUDIO:			return (ED2KFT_AUDIO == ::GetED2KFileTypeID(file->GetFileName()));
+d248 1
+a248 1
+		case CAT_CDIMAGES:		return (ED2KFT_CDIMAGE == ::GetED2KFileTypeID(file->GetFileName()));
+@
+
+
+1.10
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d177 1
+a177 1
+		pCatToDelete = g_arrCat[iIndex]; 
+d253 1
+a253 1
+/*static*/ CString CCat::GetPredefinedCatTitle(EnumCategories eCatID,int langID)
+d255 1
+a255 2
+	if (langID == 0)
+		langID = g_eMuleApp.m_pGlobPrefs->GetLanguageID();
+d259 50
+a308 16
+		case CAT_ALL:			return GetResString(IDS_CAT_ALL,langID);
+		case CAT_UNCATEGORIZED:	return GetResString(IDS_CAT_UNCATEGORIZED,langID);
+		case CAT_INCOMPLETE:	return GetResString(IDS_CAT_INCOMPLETE,langID);
+		case CAT_COMPLETED:		return GetResString(IDS_CAT_COMPLETED,langID);
+		case CAT_WAITING:		return GetResString(IDS_CAT_WAITING,langID);
+		case CAT_DOWNLOADING:	return GetResString(IDS_CAT_DOWNLOADING,langID);
+		case CAT_ERRONEOUS:		return GetResString(IDS_CAT_ERRONEOUS,langID);
+		case CAT_PAUSED:		return GetResString(IDS_CAT_PAUSED,langID);
+		case CAT_STOPPED:		return GetResString(IDS_CAT_STOPPED,langID);
+		case CAT_STALLED:		return GetResString(IDS_CAT_STALLED,langID);
+		case CAT_ACTIVE:		return GetResString(IDS_CAT_ACTIVE,langID);
+		case CAT_INACTIVE:		return GetResString(IDS_CAT_INACTIVE,langID);
+		case CAT_VIDEO:			return GetResString(IDS_CAT_VIDEO,langID);
+		case CAT_AUDIO:			return GetResString(IDS_CAT_AUDIO,langID);
+		case CAT_ARCHIVES:		return GetResString(IDS_CAT_ARCHIVES,langID);
+		case CAT_CDIMAGES:		return GetResString(IDS_CAT_CDIMAGES,langID);
+d310 1
+a310 1
+	return "?";
+@
+
+
+1.9
+log
+@wrong values in categories because completed files weren't counted
+@
+text
+@d9 1
+a9 1
+uint8				CCat::g_iNumPredefinedCats = 0;
+d68 1
+a68 1
+/*static*/ bool CCat::MoveCat(uint8 iFromIndex, uint8 iToIndex)
+d94 1
+a94 1
+		for (uint8 i = iFromIndex; i < g_arrCat.GetCount(); i++)
+d107 1
+a107 1
+		for (uint8 i = iToIndex; i < g_arrCat.GetCount(); i++)
+d121 1
+a121 1
+	uint8			iIndex = 0;
+d143 1
+a143 1
+	uint8				iIndex = 0;
+d161 1
+a161 1
+	for (uint8 i = iIndex; i < g_arrCat.GetCount(); i++)
+d188 1
+a188 1
+		for (uint8 i = iIndex; i < g_arrCat.GetCount(); i++)
+@
+
+
+1.8
+log
+@Fix for moving a cat to the last position
+@
+text
+@d239 2
+a240 1
+									  && (file->GetTransferringSrcCount() > 0 || file->GetOnQueueSrcCount() != 0) );
+d242 2
+a243 1
+									  && (file->GetTransferringSrcCount() > 0 || file->GetOnQueueSrcCount() != 0) );
+@
+
+
+1.7
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d84 1
+a84 1
+	eToCatID = g_arrCat[iToIndex]->m_eCatID;
+@
+
+
+1.6
+log
+@Please, do not add method flags like "For Webserver". If you need to modify a method to ignore the view filter setting under some circumstances then name it that way. This way we avoid implementation dependencies between modules.
+@
+text
+@d8 1
+a8 1
+uint8				CCat::g_nAllCatType = CAT_ALL;
+d13 1
+a13 1
+	: m_iPriority(0), m_bIsPredefined(false), m_iCatID(0)
+d17 2
+a18 2
+CCat::CCat(uint8 iPredefinedCatID)
+	: m_iPriority(0), m_bIsPredefined(false), m_iCatID(0)
+d20 1
+a20 1
+	if (iPredefinedCatID >= CAT_PREDEFINED)
+d22 1
+a22 1
+		m_strTitle = GetPredefinedCatTitle(iPredefinedCatID,g_eMuleApp.m_pGlobPrefs->GetLanguageID());
+d25 1
+a25 1
+		m_iCatID = iPredefinedCatID;
+d30 1
+a30 1
+	: m_iPriority(0), m_bIsPredefined(false), m_iCatID(0)
+d51 1
+a51 1
+/*static*/ uint8 CCat::GetNewCatID()
+d53 1
+a53 1
+	uint8		iNewCatID = 0;
+d57 1
+a57 1
+		uint8		iCatID;
+d59 2
+a60 2
+		if ((iCatID = g_arrCat[i]->m_iCatID) > iNewCatID)
+			iNewCatID = iCatID;
+d63 1
+a63 1
+	return ++iNewCatID;
+d79 2
+a80 2
+	CCat	*pCatToMove = NULL;
+	uint8	iFromCatID = 0, iToCatID = 0;
+d83 2
+a84 2
+	iFromCatID = pCatToMove->m_iCatID;
+	iToCatID = g_arrCat[iToIndex]->m_iCatID;
+d96 1
+a96 1
+			g_mapCatID[g_arrCat[i]->m_iCatID] = i;
+d109 1
+a109 1
+			g_mapCatID[g_arrCat[i]->m_iCatID] = i;
+d121 2
+a122 2
+	uint8		iIndex = 0;
+	uint8		iNewCatID = 0;
+d128 2
+a129 2
+		iNewCatID = GetNewCatID();
+		pCat->m_iCatID = iNewCatID;
+d133 1
+a133 1
+		iNewCatID = pCat->m_iCatID;
+d135 1
+a135 1
+	g_mapCatID[iNewCatID] = iIndex;
+d143 2
+a144 2
+	uint8		iIndex = 0;
+	uint8		iNewCatID = 0;
+d150 1
+a150 1
+		  || g_arrCat[iIndex]->m_iCatID > pCat->m_iCatID )
+d163 1
+a163 1
+		g_mapCatID[g_arrCat[i]->m_iCatID] = i;
+d180 1
+a180 1
+		if (pCatToDelete->m_iCatID >= CAT_PREDEFINED)
+d187 1
+a187 1
+		g_mapCatID.erase(pCatToDelete->m_iCatID);
+d190 1
+a190 1
+			g_mapCatID[g_arrCat[i]->m_iCatID] = i;
+d197 1
+a197 1
+/*static*/ int CCat::GetCatIndexByID(uint8 iCatID)
+d201 1
+a201 1
+	if ((it = g_mapCatID.find(iCatID)) != g_mapCatID.end())
+d207 1
+a207 1
+/*static*/ bool CCat::FileBelongsToGivenCat(CPartFile *file,int iCatID, bool bIgnoreViewFilter)
+d210 1
+a210 1
+	if (iCatID < CAT_PREDEFINED)
+d212 1
+a212 1
+		if (iCatID == file->GetCatID())
+d218 2
+a219 2
+	if (iCatID == CAT_ALL && !bIgnoreViewFilter)
+		iCatID = CCat::GetAllCatType();
+d221 1
+a221 1
+	switch (iCatID)
+d223 1
+a223 1
+		case 0:					return (iCatID == CAT_ALL);
+d251 1
+a251 1
+/*static*/ CString CCat::GetPredefinedCatTitle(int catid,int langID)
+d256 1
+a256 1
+	switch (catid)
+@
+
+
+1.5
+log
+@Fixed showing All cat on WS when filter applied in GUI
+@
+text
+@d207 1
+a207 1
+/*static*/ bool CCat::FileBelongsToGivenCat(CPartFile *file,int iCatID, bool bForWS)
+d218 1
+a218 1
+	if (iCatID == CAT_ALL && !bForWS)
+@
+
+
+1.4
+log
+@Added new predefined category "Inactive".
+@
+text
+@d207 1
+a207 1
+/*static*/ bool CCat::FileBelongsToGivenCat(CPartFile *file,int iCatID)
+d218 1
+a218 1
+	if (iCatID == CAT_ALL)
+@
+
+
+1.3
+log
+@Re-added the view filter menu.
+@
+text
+@d240 2
+d269 1
+@
+
+
+1.2
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@d8 1
+a8 1
+uint8				CCat::g_nAllCatType = 0;
+@
+
+
+1.1
+log
+@MOREVIT: Category management code extracted into it's own class (no other classes modified at this time).
+@
+text
+@d9 1
+a9 1
+uint8			CCat::g_iNumPermanentCats = 0;
+d11 1
+a11 1
+/**************************************************************************************************************************/
+d13 1
+a13 1
+	: m_iPriority(0), m_bIsPermanent(false), m_iCatID(0)
+d16 13
+a28 1
+/**************************************************************************************************************************/
+d30 1
+a30 1
+	: m_iPriority(0), m_bIsPermanent(false), m_iCatID(0)
+d37 1
+a37 1
+/**************************************************************************************************************************/
+d49 1
+a49 1
+/**************************************************************************************************************************/
+d55 1
+a55 1
+	for (int i = g_iNumPermanentCats; i < g_arrCat.GetCount(); i++)
+d65 1
+a65 1
+/**************************************************************************************************************************/
+d113 1
+a113 1
+	theApp.glob_prefs->SaveCats();
+d117 2
+a118 2
+/**************************************************************************************************************************/
+//	AddCat() adds the new category 'pCat' and returns it's newly assigned ID.
+d137 30
+a166 1
+	return iNewCatID;
+d168 1
+a168 1
+/**************************************************************************************************************************/
+d178 5
+d187 1
+d196 1
+a196 1
+/**************************************************************************************************************************/
+d206 69
+a274 1
+/**************************************************************************************************************************/
+@
+

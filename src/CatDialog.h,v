@@ -1,0 +1,200 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.3
+	PublicRelease_1_1a:1.3
+	Interim_Release_1-1a_RC2:1.3
+	Interim_Release_1-1a_RC1:1.3
+	Interim_Release_1-1a_beta2:1.3
+	Interim_Release_1-1a_beta1:1.3
+	PublicRelease_1_1:1.3
+	Interim_Release_1-1_beta1:1.3
+	PublicRelease_1o:1.2
+	Interim_Release_1o_RC1:1.2
+	Interim_Release_1o_beta1:1.2
+	PublicRelease_1n:1.2
+	Interim_Release_1n_RC2:1.2
+	Interim_Release_1n_RC1:1.2
+	Interim_Release_1n_beta2:1.2
+	Interim_Release_1n_beta1:1.2
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.2
+	Interim_Release_1l_RC1:1.2
+	Interim_Release_1l_beta2:1.2
+	Interim_Release_1l_beta1:1.2
+	PublicRelease_1k:1.2
+	Interim_Release_1k_RC4:1.2
+	Interim_1k_RC3:1.2
+	Interim_1k_RC2:1.2
+	Interim_Release_1k_RC1:1.2
+	Interim_Release_1k_beta5:1.2
+	Intrerim_Release_1k_beta4:1.2
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.2
+	Interim_Release_1i_beta2:1.2
+	Interim_Release_1i_beta1:1.2
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2004.10.08.03.28.31;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.23.16.52.49;	author morevit;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.23.00.20.51;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Customizable temporary directory for categories
+@
+text
+@//this file is part of eMule
+// added by quekky
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#pragma once
+
+#include "ColorButton.h"
+
+// CCatDialog dialog
+
+class CCatDialog : public CDialog
+{
+	DECLARE_DYNAMIC(CCatDialog)
+
+public:
+	CCatDialog(int catindex);   // standard constructor
+	virtual ~CCatDialog();
+	virtual BOOL OnInitDialog();
+
+// Dialog Data
+	enum { IDD = IDD_CAT };
+
+protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+//	afx_msg void OnCbnSelchangeColorselector();
+	afx_msg LONG OnSelChange(UINT lParam, LONG wParam);
+	DECLARE_MESSAGE_MAP()
+	CColorButton m_ctlColor;
+private:
+	CCat	*m_pCat;
+	DWORD	m_dwNewColor;
+
+	void UpdateData();
+	void Localize();
+
+	CComboBox m_cmbPriority;
+public:
+	afx_msg void OnBnClickedBrowse();
+	afx_msg void OnBnClickedBrowseTemp();
+	afx_msg void OnBnClickedOk();
+};
+@
+
+
+1.2
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@d52 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d43 3
+a46 1
+	Category_Struct* m_myCat;
+a47 1
+	DWORD newcolor;
+d49 1
+a49 1
+	CComboBox m_prio;
+@
+

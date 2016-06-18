@@ -1,0 +1,145 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.3
+	PublicRelease_1_1a:1.3
+	Interim_Release_1-1a_RC2:1.3
+	Interim_Release_1-1a_RC1:1.3
+	Interim_Release_1-1a_beta2:1.3
+	Interim_Release_1-1a_beta1:1.3
+	PublicRelease_1_1:1.3
+	Interim_Release_1-1_beta1:1.3
+	PublicRelease_1o:1.3
+	Interim_Release_1o_RC1:1.3
+	Interim_Release_1o_beta1:1.3
+	PublicRelease_1n:1.3
+	Interim_Release_1n_RC2:1.3
+	Interim_Release_1n_RC1:1.3
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.3
+	Interim_Release_1j_beta2:1.3
+	Interim_Release_1j_beta1:1.3
+	PublicRelease_1i:1.3
+	Interim_Release_1i_RC6:1.3
+	Interim_Release_1i_RC3:1.3
+	Interim_Release_1i_RC2:1.3
+	Interim_Release_1i_RC1:1.3
+	Interim_Release_1i_beta3:1.3
+	Interim_Release_1i_beta2:1.3
+	Interim_Release_1i_beta1:1.3
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.09.08.14.09.44;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.18.11.49.33;	author dongato;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.17.17.26.05;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Cleaned the CVS source. Now libs are distributed in another file.
+@
+text
+@Additional files are released in external packages since 1h.
+
+Please download them from: 
+http://sourceforge.net/project/showfiles.php?group_id=71866
+
+NOTE: this version needs package version 1@
+
+
+1.2
+log
+@Updates to QR code by cendre-eau and other changes.
+@
+text
+@d1 1
+a1 1
+For the project to compile you need to put the files in the folder (or where you rinstallation is):
+d3 2
+a4 1
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\Include\prerelease\
+d6 1
+@
+
+
+1.1
+log
+@Updated Light template
+@
+text
+@@
+

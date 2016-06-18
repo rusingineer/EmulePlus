@@ -1,0 +1,180 @@
+head	1.4;
+access;
+symbols
+	Interim_Release_1j_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.4
+date	2004.01.07.10.54.31;	author kuchin;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.07.09.17.54;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.23.18.13.43;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@New engine - cosmetic changes
+@
+text
+@// EngineData.h
+//
+//////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#include "../Loggable.h"
+
+enum EnumServerStates
+{
+	SERVER_DISCONNECTED,
+	SERVER_CONNECTING,
+	SERVER_WAITFORLOGIN,
+	SERVER_CONNECTED
+};
+
+class CServer;
+class CServerList;
+class CPreferences;
+struct CTask_ServerState;
+struct CEmClient_Server;
+
+struct ServerState
+{
+	SOCKET		hSocket;
+	ULONG		nAddr;
+	USHORT		nPort;
+	short		nConnState;
+	long		nClientID;
+};
+
+// One instance of that class inside worker engine,
+// second instance in GUI, synchronization between both objects
+class CEngineData : public CLoggable
+{
+public:
+	CEngineData(CEmEngine& stEngine);
+	~CEngineData();
+
+	// Server Info
+	bool IsConnecting();
+	bool IsConnected();
+	bool IsLowID();
+
+	void ImportServerState(CTask_ServerState* pTask);
+
+	// Update Server Info
+	void SetConnectionState(short nConnectionState);
+	void SetClientID(long cID);
+	void ConnectedTo(CEmClient_Server* pClient);
+
+//	SOCKET GetConnectedServer(){ return m_stServer.hSocket; }
+//	SOCKET GetConnectingServer(){ return m_stServer.hSocket; }
+	SOCKET GetServerSocket(){ return m_stServer.hSocket; }
+
+	ServerState* GetConnectedState(){ return &m_stServer; }
+
+	long GetClientID(){ return m_stServer.nClientID; }
+
+	bool IsLocalServer(ULONG nAddr, USHORT uPort);
+
+	// Global preferences
+	BYTE* GetUserHash();
+	USHORT GetPort();
+	CString GetUserNick();
+
+private:
+	CEmEngine&		m_stEngine;
+
+	ServerState		m_stServer;
+
+	CServerList*	m_pServerList;
+
+	// +collection of CEmClientData objects
+};
+
+class CPartFile;
+
+// Contain all information about connecting/connected client
+class CEmClientData
+{
+public:
+	CPartFile*	GetFile() const { return m_pPartFile; }
+
+private:
+	CPartFile	*m_pPartFile;
+};
+@
+
+
+1.3
+log
+@New engine - cosmetic changes
+@
+text
+@@
+
+
+1.2
+log
+@New engine - connecting to server
+@
+text
+@a8 2
+#ifdef NEW_SOCKETS
+
+a87 2
+
+#endif //NEW_SOCKETS@
+
+
+1.1
+log
+@New engine
+@
+text
+@a29 1
+	CServer*	pServer;
+d31 1
+d50 1
+a50 1
+	void SetConnectionState(bool bForConnected, short nConnectionState);
+a51 1
+	void ConnectingTo(CEmClient_Server* pClient);
+d54 3
+a56 2
+	SOCKET GetConnectedServer(){ return m_stConnected.hSocket; }
+	SOCKET GetConnectingServer(){ return m_stConnecting.hSocket; }
+d58 1
+a58 1
+	ServerState* GetConnectedState(){ return &m_stConnected; }
+d60 1
+a60 1
+	long GetClientID(){ return m_nClientID; }
+d72 1
+a72 4
+	ServerState		m_stConnected;
+	ServerState		m_stConnecting;
+
+	long			m_nClientID;
+@
+

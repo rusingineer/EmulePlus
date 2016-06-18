@@ -1,0 +1,1054 @@
+head	1.29;
+access;
+symbols
+	PublicRelease_1_2e:1.28
+	Interim_Release_1-2e_RC1:1.28
+	PublicRelease_1_2d:1.28
+	Interim_Release_1-2d_RC1:1.28
+	Interim_Release_1-2d_beta1:1.27
+	PublicRelease_1_2c:1.25
+	Interim_Release_1-2c_RC1:1.25
+	Interim_Release_1-2c_beta1:1.25
+	PublicRelease_1_2b:1.25
+	Interim_Release_1-2b_RC1:1.25
+	PublicRelease_1_2a:1.25
+	Interim_Release_1-2a_RC1:1.25
+	Interim_Release_1-2a_beta2:1.25
+	Interim_Release_1-2a_beta1:1.25
+	PublicRelease_1_2:1.24
+	Interim_Release_1-2_RC1:1.24
+	Interim_Release_1-2_beta1:1.24
+	PublicRelease_1_1g:1.24
+	Interim_Release_1-1g_RC3:1.24
+	Interim_Release_1-1g_RC2:1.24
+	Interim_Release_1-1g_RC1:1.24
+	Interim_Release_1-1g_beta2:1.23
+	Interim_Release_1-1g_beta1:1.23
+	PublicRelease_1_1f:1.23
+	Interim_Release_1-1f_RC1:1.23
+	PublicRelease_1_1e:1.23
+	Interim_Release_1-1e_RC2:1.23
+	Interim_Release_1-1e_RC1:1.23
+	Interim_Release_1-1e_beta1:1.22
+	PublicRelease_1_1d:1.22
+	Interim_Release_1-1d_RC1:1.22
+	PublicRelease_1_1c:1.22
+	Interim_Release_1-1c_RC1:1.22
+	Interim_Release_1-1c_beta2:1.22
+	Interim_Release_1-1c_beta1:1.17
+	PublicRelease_1_1b:1.17
+	Interim_Release_1-1b_RC1:1.17
+	PublicRelease_1_1a:1.17
+	Interim_Release_1-1a_RC2:1.17
+	Interim_Release_1-1a_RC1:1.17
+	Interim_Release_1-1a_beta2:1.17
+	Interim_Release_1-1a_beta1:1.17
+	PublicRelease_1_1:1.17
+	Interim_Release_1-1_beta1:1.17
+	PublicRelease_1o:1.17
+	Interim_Release_1o_RC1:1.17
+	Interim_Release_1o_beta1:1.17
+	PublicRelease_1n:1.17
+	Interim_Release_1n_RC2:1.17
+	Interim_Release_1n_RC1:1.17
+	Interim_Release_1n_beta2:1.17
+	Interim_Release_1n_beta1:1.17
+	PublicRelease_1m:1.17
+	Interim_Release_1m_beta1:1.17
+	PublicRelease_1l:1.17
+	Interim_Release_1l_RC3:1.17
+	Interim_Release_1l_RC2:1.17
+	Interim_Release_1l_RC1:1.17
+	Interim_Release_1l_beta2:1.17
+	Interim_Release_1l_beta1:1.17
+	PublicRelease_1k:1.17
+	Interim_Release_1k_RC4:1.17
+	Interim_1k_RC3:1.17
+	Interim_1k_RC2:1.17
+	Interim_Release_1k_RC1:1.17
+	Interim_Release_1k_beta5:1.17
+	Intrerim_Release_1k_beta4:1.17
+	Interim_Release_1k_beta1:1.17
+	PublicRelease_1j:1.15
+	Interim_Release_1J_RC3:1.15
+	Interim_Release_1j_RC3:1.15
+	Interim_Release_1j_RC2:1.15
+	Interim_Release_1j_RC1:1.15
+	Interim_Release_1j_beta2:1.15
+	Interim_Release_1j_beta1:1.15
+	PublicRelease_1i:1.15
+	Interim_Release_1i_RC6:1.15
+	Interim_Release_1i_RC3:1.15
+	Interim_Release_1i_RC2:1.15
+	Interim_Release_1i_RC1:1.15
+	Interim_Release_1i_beta3:1.15
+	Interim_Release_1i_beta2:1.15
+	Interim_Release_1i_beta1:1.12
+	PublicRelease_1h:1.11
+	Interim_Release_1h_rc2:1.11
+	Interim_Release_1h_RC1:1.11
+	Interim_Release_1h_beta2:1.11
+	Interim_Release_1h_beta1_now:1.11
+	Interim_Release_1h_beta1:1.11
+	PublicRelease_1g:1.11
+	Interim_Release_1g_RC6_Final:1.11
+	Interim_Release_1g_RC6:1.11
+	Interim_Release_1g_RC5:1.11
+	Interim_Release_1g_RC4:1.11
+	Interim_Release_1g_RC3:1.11
+	Interim_Release_1g_beta2:1.10
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.5
+	Interim_Release_1f_RC3:1.5
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.3
+	Interim_Release_1f_beta2:1.3
+	Interim_Release_1f_beta1:1.3
+	PublicRelease_1e:1.3
+	Interim_Release_1e_RC2:1.3
+	Interim_Release_1e_RC:1.3
+	Interim_Release_1e_beta3:1.3
+	Interim_Release_1e_beta2:1.3
+	Interim_Release_1e_beta2_before_kuchin:1.3
+	Interim_Release_1e_beta1:1.3
+	PublicRelease_1c:1.3
+	featurestest:1.3.0.8
+	Interim_Release_1c_RC:1.3
+	Interim_Release_1c_beta2:1.3
+	Interim_Release_1c_beta1:1.3
+	threaded_downloadqueue:1.3.0.6
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.3.0.4
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.29
+date	2009.05.24.21.42.05;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2008.04.16.19.44.17;	author eklmn;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2007.12.16.21.38.00;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2007.12.05.22.02.47;	author eklmn;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.06.19.05.09.32;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.02.16.04.57.05;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.02.12.21.52.43;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.02.07.05.00.21;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.02.04.23.41.56;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.02.01.03.58.05;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.02.18.01.47.27;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.02.11.04.13.00;	author katsyonak;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.17.10.29.06;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.22.15.54.26;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.06.21.17.52.33;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.06.20.37.17;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.06.06.19.56.46;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.05.19.57.15;	author partyckip;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.05.05.51.21;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.04.20.27.27;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.21.21.49.39;	author netwolf1;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.05.20.20.46.26;	author netwolf1;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.20.14.29.00;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.46;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.09;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.29
+log
+@Added ability to preserve unknown friend list tags (required to keep new official Kad tag).
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "Friend.h"
+#include "updownclient.h"
+#include "packets.h"
+#include "emule.h"
+#include "otherfunctions.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CFriend::CFriend(void)
+{
+	m_dwLastSeen = 0;
+	m_dwLastUsedIP = 0;
+	m_nLastUsedPort = 0;
+	m_dwLastChatted = 0;
+	m_pLinkedClient = NULL;
+	md4clr(m_abyUserhash);
+	m_dwHasHash = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//Added this to work with the IRC.. Probably a better way to do it.. But wanted this in the release..
+CFriend::CFriend(uchar tm_abyUserhash[16], uint32 tm_dwLastSeen, uint32 tm_dwLastUsedIP,
+				 uint32 tm_nLastUsedPort, uint32 tm_dwLastChatted, CString tm_strName, uint32 tm_dwHasHash)
+{
+	m_dwLastSeen = tm_dwLastSeen;
+	m_dwLastUsedIP = tm_dwLastUsedIP;
+	m_nLastUsedPort = tm_nLastUsedPort;
+	m_dwLastChatted = tm_dwLastChatted;
+	if (tm_dwHasHash && tm_abyUserhash)
+	{
+		md4cpy(m_abyUserhash,tm_abyUserhash);
+		m_dwHasHash = md4cmp0(m_abyUserhash) ? 1 : 0;
+	}
+	else
+	{
+		md4clr(m_abyUserhash);
+		m_dwHasHash = 0;
+	}
+	m_strName = tm_strName;
+	m_pLinkedClient = NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CFriend::CFriend(CUpDownClient* client)
+{
+	ASSERT ( client );
+
+	m_dwLastSeen = time(NULL);
+	m_dwLastUsedIP = client->GetIP();
+	m_nLastUsedPort = client->GetUserPort();
+	m_dwLastChatted = 0;
+	m_pLinkedClient = NULL;
+	SetLinkedClient(client);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CFriend::~CFriend(void)
+{
+	if (m_pLinkedClient != NULL)
+	{
+		m_pLinkedClient->m_pFriend = NULL;
+		m_pLinkedClient = NULL;
+	}
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+		safe_delete(m_tagArray[i]);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriend::LoadFromFile(CFile &file)
+{
+//	Read the header
+	file.Read(m_abyUserhash,16);
+	m_dwHasHash = md4cmp0(m_abyUserhash) ? 1 : 0;
+	file.Read(&m_dwLastUsedIP,4);
+	file.Read(&m_nLastUsedPort,2);
+	file.Read(&m_dwLastSeen,4);
+	file.Read(&m_dwLastChatted,4);
+	m_dwHasHash = 1;
+
+//	Read the friend name ignoring any other tags
+	uint32		dwTagCnt;
+
+	file.Read(&dwTagCnt, 4);
+	for (uint32 j = 0; j < dwTagCnt; j++)
+	{
+		CTag	*newtag = new CTag();
+
+		newtag->FillFromStream(file);
+		switch (newtag->GetTagID())
+		{
+			case FF_NAME:
+				if (newtag->IsStr())
+				{
+#ifdef _UNICODE
+					if (m_strName.IsEmpty())
+#endif
+						newtag->GetStringValue(&m_strName);
+				}
+				break;
+
+			default:
+				m_tagArray.Add(newtag);
+				continue;
+		}
+		delete newtag;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriend::WriteToFile(CFile &file)
+{
+	byte	abyteBuf[34];
+	CWrTag	tagWr;
+	uint32	dwTagCnt = 0, j, dwTagNum;
+	bool	bUniName = false;
+
+	if (!m_strName.IsEmpty())
+	{
+		dwTagCnt++;
+		if (IsUTF8Required(m_strName))
+		{
+			dwTagCnt++;
+			bUniName = true;
+		}
+	}
+	dwTagNum = m_tagArray.GetCount();
+
+	if (!m_dwHasHash)
+		md4clr(m_abyUserhash);
+	md4cpy(&abyteBuf[0], m_abyUserhash);
+	POKE_DWORD(&abyteBuf[16], m_dwLastUsedIP);
+	POKE_WORD(&abyteBuf[20], static_cast<uint16>(m_nLastUsedPort));
+	POKE_DWORD(&abyteBuf[22], m_dwLastSeen);
+	POKE_DWORD(&abyteBuf[26], m_dwLastChatted);
+	POKE_DWORD(&abyteBuf[30], dwTagCnt + dwTagNum);
+
+	file.Write(abyteBuf, sizeof(abyteBuf));
+
+	if (dwTagCnt != 0)
+	{
+		if (bUniName)
+			tagWr.WriteToFile(FF_NAME, m_strName, file, cfUTF8withBOM);
+		tagWr.WriteToFile(FF_NAME, m_strName, file);
+	}
+	for (j = 0; j < dwTagNum; j++)
+		m_tagArray[j]->WriteNewEd2kTag(file);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriend::SetLinkedClient(CUpDownClient *pLinkedClient)
+{
+	if (pLinkedClient != m_pLinkedClient)
+	{
+		if (pLinkedClient != NULL)
+		{
+			m_dwLastSeen = time(NULL);
+			m_dwLastUsedIP = pLinkedClient->GetIP();
+			m_nLastUsedPort = pLinkedClient->GetUserPort();
+			m_strName = pLinkedClient->GetUserName();
+			md4cpy(m_abyUserhash, pLinkedClient->GetUserHash());
+			m_dwHasHash = md4cmp0(m_abyUserhash) ? 1 : 0;
+		}
+		if (m_pLinkedClient != NULL)	//	old client is no longer friend, since it is no longer the linked client
+			m_pLinkedClient->m_pFriend = NULL;
+		m_pLinkedClient = pLinkedClient;
+	}
+	g_App.m_pFriendList->RefreshFriend(this);
+}
+@
+
+
+1.28
+log
+@removed duplicated GetuserName() method
+@
+text
+@d85 2
+d120 4
+d133 1
+a133 1
+	uint32	dwTagCnt = 0;
+d145 1
+d154 1
+a154 1
+	POKE_DWORD(&abyteBuf[30], dwTagCnt);
+d164 2
+@
+
+
+1.27
+log
+@Suppressed level 4 warnings; Formatting.
+@
+text
+@d168 1
+a168 1
+			pLinkedClient->GetUserName(&m_strName);
+@
+
+
+1.26
+log
+@added Unicode support for met-files
+@
+text
+@d144 1
+a144 1
+	POKE_WORD(&abyteBuf[20], m_nLastUsedPort);
+@
+
+
+1.25
+log
+@Reduced H-file dependency.
+@
+text
+@d111 6
+a116 1
+					newtag->GetStringValue(&m_strName);
+d127 12
+a138 5
+#ifdef _UNICODE
+	uint32	dwTagCnt = (m_strName.IsEmpty()) ? 0 : 2;
+#else
+	uint32	dwTagCnt = (m_strName.IsEmpty()) ? 0 : 1;
+#endif
+d153 2
+@
+
+
+1.24
+log
+@renamed 3 variables
+@
+text
+@d20 1
+@
+
+
+1.23
+log
+@Faster remote client name handling.
+@
+text
+@d161 1
+a161 1
+	g_eMuleApp.m_pFriendList->RefreshFriend(this);
+@
+
+
+1.22
+log
+@Changed tag interface to avoid memory leaks which could be possible with
+new tag object structure.
+@
+text
+@d153 1
+a153 1
+			m_strName = pLinkedClient->GetUserName();
+@
+
+
+1.21
+log
+@Faster loading and saving of configuration files (removed separate Seek/Write
+of the tag count as it creates additional file buffer flushings and thus reduce performance).
+@
+text
+@d103 1
+a103 1
+		CTag	*newtag = new CTag(file);
+d105 1
+@
+
+
+1.20
+log
+@Fixed friend last seen time value update (the value was set only on addition);
+More correct way to update friend parameters.
+@
+text
+@d120 5
+a124 1
+	uint32	dwTagFilePos, dwTagCnt = 0;
+a135 1
+	dwTagFilePos = static_cast<uint32>(file.GetPosition()) - 4;
+d137 1
+a137 1
+	if (!m_strName.IsEmpty())
+a139 1
+		dwTagCnt++;
+a140 4
+//	Save valid tag count
+	file.Seek(dwTagFilePos, CFile::begin);
+	file.Write(&dwTagCnt, 4);
+	file.SeekToEnd();
+@
+
+
+1.19
+log
+@Optimized parameter tag processing (preparation and parsing).
+@
+text
+@d18 2
+a19 2
+#include "StdAfx.h"
+#include "friend.h"
+a30 2
+const char CFriend::sm_abyNullHash[16] = {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
+
+d38 1
+a38 1
+	m_pLinkedClient = 0;
+d54 1
+a54 1
+		m_dwHasHash = md4cmp(m_abyUserhash, sm_abyNullHash) ? 1 : 0;
+d62 1
+a62 1
+	m_pLinkedClient = 0;
+d68 1
+a68 1
+//	CTime lwtime;
+d73 2
+a74 6
+//	if (client->GetUserName())
+		m_strName = client->GetUserName();
+	md4cpy(m_abyUserhash,client->GetUserHash());
+	m_dwHasHash = md4cmp(m_abyUserhash, sm_abyNullHash) ? 1 : 0;
+	m_pLinkedClient = client;
+//	m_dwHasHash = 1;
+d79 5
+d86 1
+a86 1
+void CFriend::LoadFromFile(CFile& file)
+d90 1
+a90 1
+	m_dwHasHash = md4cmp(m_abyUserhash, sm_abyNullHash) ? 1 : 0;
+d111 1
+a111 1
+		}	
+d145 19
+@
+
+
+1.18
+log
+@Preparations and minor corrections for new tag processing.
+@
+text
+@a97 1
+//
+d99 1
+a99 1
+	uint32		tagcount;
+d101 2
+a102 2
+	file.Read(&tagcount,4);
+	for (uint32 j = 0; j < tagcount;j++)
+d104 1
+a104 1
+		CFriendTag	*newtag = new CFriendTag(file);
+d109 2
+a110 2
+			{
+				m_strName = newtag->GetStringValue();
+a111 1
+			}
+d119 4
+d125 9
+a133 5
+	file.Write(m_abyUserhash,16);
+	file.Write(&m_dwLastUsedIP,4);
+	file.Write(&m_nLastUsedPort,2);
+	file.Write(&m_dwLastSeen,4);
+	file.Write(&m_dwLastChatted,4);
+a134 4
+	uint32 tagcount = 0;
+	if (!m_strName.IsEmpty())
+		tagcount++;
+	file.Write(&tagcount,4);
+d137 2
+a138 2
+		CFriendTag nametag(FF_NAME,m_strName.GetBuffer());
+		nametag.WriteToFile(file);
+d140 4
+@
+
+
+1.17
+log
+@Fixed static array initialization; md4cpys from zero hash are changed into more faster md4clrs.
+@
+text
+@d107 1
+a107 1
+		switch (newtag->GetSpecialTag())
+@
+
+
+1.16
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d31 1
+a31 1
+const char CFriend::sm_abyNullHash[16] = {0};
+d41 1
+a41 1
+	md4cpy(m_abyUserhash, sm_abyNullHash);
+a42 1
+//	memzero(m_abyUserhash, 16);
+d53 1
+a53 1
+	if( tm_dwHasHash && tm_abyUserhash)
+d60 1
+a60 1
+		md4cpy(m_abyUserhash, sm_abyNullHash);
+d122 1
+a122 1
+		md4cpy(m_abyUserhash, sm_abyNullHash);
+@
+
+
+1.15
+log
+@no message
+@
+text
+@d43 1
+a43 1
+//	memset2( m_abyUserhash, 0, 16);
+@
+
+
+1.14
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d40 1
+a40 1
+	m_LinkedClient = 0;
+d65 1
+a65 1
+	m_LinkedClient = 0;
+d80 1
+a80 1
+	m_LinkedClient = client;
+@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d22 1
+d43 1
+a43 1
+//	memset( m_abyUserhash, 0, 16);
+@
+
+
+1.12
+log
+@Formatting, comments, and name changes.
+@
+text
+@d105 1
+a105 1
+		CTag	*newtag = new CTag(file);
+d135 2
+a136 2
+		CTag nametag(FF_NAME,m_strName.GetBuffer());
+		nametag.WriteTagToFile(file);
+@
+
+
+1.11
+log
+@char * to CString conversion
+@
+text
+@d32 1
+a38 1
+	(void)m_strName;
+d44 1
+a44 1
+
+d46 3
+a48 1
+CFriend::CFriend( uchar tm_abyUserhash[16], uint32 tm_dwLastSeen, uint32 tm_dwLastUsedIP, uint32 tm_nLastUsedPort, uint32 tm_dwLastChatted, CString tm_strName, uint32 tm_dwHasHash){
+d53 2
+a54 1
+	if( tm_dwHasHash && tm_abyUserhash){
+d58 2
+a59 1
+	else{
+d66 3
+a68 2
+
+CFriend::CFriend(CUpDownClient* client){
+d82 1
+a82 1
+
+d86 4
+a89 2
+
+void CFriend::LoadFromFile(CFile& file){
+d97 5
+a101 1
+	uint32 tagcount;
+d103 9
+a111 5
+	for (uint32 j = 0; j < tagcount;j++){
+		CTag* newtag = new CTag(file);
+		switch(newtag->GetSpecialTag()){
+			case FF_NAME:{
+				m_strName= newtag->GetStringValue();
+d118 3
+a120 5
+
+void CFriend::WriteToFile(CFile& file){
+//	if (!m_dwHasHash)
+//		for( int i = 0; i < 16; i++ )
+//			m_abyUserhash[i] = 1;
+d133 2
+a134 1
+	if (!m_strName.IsEmpty()){
+d138 2
+a139 1
+}@
+
+
+1.10
+log
+@code cleanup
+@
+text
+@d94 1
+a94 1
+		switch(newtag->specialtag){
+d96 1
+a96 1
+				m_strName= newtag->stringvalue;
+@
+
+
+1.9
+log
+@code cleanup
+@
+text
+@d104 1
+a104 1
+void CFriend::WriteToFile(CFile* file){
+d110 5
+a114 5
+	file->Write(m_abyUserhash,16);
+	file->Write(&m_dwLastUsedIP,4);
+	file->Write(&m_nLastUsedPort,2);
+	file->Write(&m_dwLastSeen,4);
+	file->Write(&m_dwLastChatted,4);
+d119 1
+a119 1
+	file->Write(&tagcount,4);
+@
+
+
+1.8
+log
+@removed Tag_Struct usage from sources
+@
+text
+@d82 2
+a83 2
+void CFriend::LoadFromFile(CFile* file){
+	file->Read(m_abyUserhash,16);
+d85 4
+a88 4
+	file->Read(&m_dwLastUsedIP,4);
+	file->Read(&m_nLastUsedPort,2);
+	file->Read(&m_dwLastSeen,4);
+	file->Read(&m_dwLastChatted,4);
+d91 1
+a91 1
+	file->Read(&tagcount,4);
+@
+
+
+1.7
+log
+@changes reverted
+@
+text
+@d94 1
+a94 1
+		switch(newtag->tag->specialtag){
+d96 1
+a96 1
+				m_strName= newtag->tag->stringvalue;
+@
+
+
+1.6
+log
+@removed Tag_Struct usage from sources
+@
+text
+@d94 1
+a94 1
+		switch(newtag->specialtag){
+d96 1
+a96 1
+				m_strName= newtag->stringvalue;
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d94 1
+a94 1
+		switch(newtag->tag->specialtag){
+d96 1
+a96 1
+				m_strName= newtag->tag->stringvalue;
+@
+
+
+1.4
+log
+@minor fixes and improvements
+@
+text
+@d92 1
+a92 1
+	for (uint32 j = 0; j != tagcount;j++){
+a96 1
+				delete newtag;
+@
+
+
+1.3
+log
+@Code clean up and double check wit official code.
+@
+text
+@d29 3
+d38 1
+a38 1
+	m_strName = "";
+d40 1
+d42 1
+a42 1
+	memset( m_abyUserhash, 0, 16);
+d51 3
+a53 3
+	if( tm_dwHasHash ){
+		memcpy(m_abyUserhash,tm_abyUserhash,16);
+		m_dwHasHash = 1;
+d55 2
+a56 1
+	else
+d58 1
+d65 2
+a66 2
+	CTime lwtime;
+	m_dwLastSeen = mktime(lwtime.GetLocalTm());
+d70 1
+a70 1
+	if (client->GetUserName())
+d72 2
+a73 3
+	else
+		m_strName = "";
+	memcpy(m_abyUserhash,client->GetUserHash(),16);
+d75 1
+a75 1
+	m_dwHasHash = 1;
+d84 1
+d101 1
+d109 2
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a22 1
+
+a27 1
+
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d23 8
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

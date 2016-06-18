@@ -1,0 +1,90 @@
+head	1.2;
+access;
+symbols
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.8
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.6
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.4
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2003.04.29.16.13.27;	author kuchin;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.25.10.54.18;	author kuchin;	state Exp;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2003.02.25.13.42.26;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@/* Do not edit: automatically built by gen_rec.awk. */
+
+#ifndef	__dbreg_AUTO_H
+#define	__dbreg_AUTO_H
+#define	DB___dbreg_register	2
+typedef struct ___dbreg_register_args {
+	u_int32_t type;
+	DB_TXN *txnid;
+	DB_LSN prev_lsn;
+	u_int32_t	opcode;
+	DBT	name;
+	DBT	uid;
+	int32_t	fileid;
+	DBTYPE	ftype;
+	db_pgno_t	meta_pgno;
+	u_int32_t	id;
+} __dbreg_register_args;
+
+#endif
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1.2.1
+log
+@*** empty log message ***
+@
+text
+@@
+

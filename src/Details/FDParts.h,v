@@ -1,0 +1,318 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.6
+	Interim_Release_1-2e_RC1:1.6
+	PublicRelease_1_2d:1.6
+	Interim_Release_1-2d_RC1:1.6
+	Interim_Release_1-2d_beta1:1.6
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.4
+	PublicRelease_1_2a:1.4
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.3
+	PublicRelease_1_1a:1.2
+	Interim_Release_1-1a_RC2:1.2
+	Interim_Release_1-1a_RC1:1.2
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	Interim_Release_1n_beta2:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.7
+date	2009.05.14.03.10.30;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.01.27.03.34.38;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.01.25.13.25.33;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.09.25.03.28.26;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.12.15.03.26.17;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.11.26.18.59.52;	author aw3;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Save sorting directions for all GUI lists; Unified list sort initialization and click processing;
+Simplified list arrow configuration interface.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "..\MuleListCtrl.h"
+
+class CPartFile;
+
+enum EnumFDPartsStatus
+{
+	FDPARTS_STAT_DOWNLOADING = 0,
+	FDPARTS_STAT_RECOVERING,
+	FDPARTS_STAT_CORRUPTED,
+	FDPARTS_STAT_NONE,
+	FDPARTS_STAT_NOTAVAILABLE,
+	FDPARTS_STAT_COMPLETE,
+
+	FDPARTS_STAT_COUNT
+};
+
+typedef struct
+{
+	unsigned	uiCompleteSz;
+	unsigned	uiSrcNum1;
+	unsigned	uiSrcNum2;
+	unsigned	uiStatus;
+} PartInfoType;
+
+class CFDParts : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CFDParts)
+
+public:
+	CFDParts();
+	~CFDParts();
+
+	void Update();
+
+	CPartFile* m_pFile;
+
+	enum { IDD = IDD_FDPPG_PARTS };
+
+	afx_msg void OnLvnColumnclick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnFilterChange();
+	afx_msg void OnDestroy();
+
+protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+
+	virtual BOOL OnInitDialog();
+
+	DECLARE_MESSAGE_MAP()
+
+	static int CALLBACK SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
+
+private:
+	CMuleListCtrl	m_PartsListCtrl;
+	static std::vector<PartInfoType>	s_aPartInfo;
+	CBitmap			m_bmpDownloadStatus;
+	CBitmap			m_bmpUploadStatus;
+	CBitmap			m_bmpCompletionStatus;
+
+	void Localize();
+};
+@
+
+
+1.6
+log
+@Corrected sorting order by status {muleteer}.
+@
+text
+@a45 1
+// Construction
+a70 1
+	bool			m_bSortAscending[FDPARTSCOL_NUMCOLUMNS + 1];
+a76 1
+	void SortInit(int iSortCode);
+@
+
+
+1.5
+log
+@Displayed recovering chunk status {muleteer}.
+@
+text
+@d25 1
+a29 1
+	FDPARTS_STAT_RECOVERING,
+@
+
+
+1.4
+log
+@Moved #includes to C-file.
+@
+text
+@d29 1
+@
+
+
+1.3
+log
+@Save state of the Parts Status list.
+@
+text
+@d1 15
+a17 1
+#include "..\PartFile.h"
+a18 1
+#include "..\resource.h"
+d20 1
+a20 1
+// CFDParts dialog
+a53 2
+// Dialog Data
+	//{{AFX_DATA(CFDParts)
+a54 1
+	//}}AFX_DATA
+a62 2
+	// Generated message map functions
+	//{{AFX_MSG(CFDParts)
+d64 1
+a64 1
+	//}}AFX_MSG
+@
+
+
+1.2
+log
+@Detailed file parts information.
+@
+text
+@d48 1
+@
+
+
+1.1
+log
+@new dialogs for file- & client-details
+@
+text
+@a2 2
+#include "ScrollStatic.h"
+#include "PartsChecker.h"
+d4 2
+a5 1
+#include "..\Resource.h"
+d9 19
+a36 1
+	void Localize();
+a43 1
+	CPartsChecker	m_ctrlParts;
+d46 2
+d49 1
+a49 4
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CFDParts)
+	protected:
+a50 1
+	//}}AFX_VIRTUAL
+a51 3
+// Implementation
+protected:
+		
+d58 13
+a70 1
+};@
+

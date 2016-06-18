@@ -1,0 +1,1147 @@
+head	1.16;
+access;
+symbols
+	PublicRelease_1_2e:1.16
+	Interim_Release_1-2e_RC1:1.16
+	PublicRelease_1_2d:1.14
+	Interim_Release_1-2d_RC1:1.14
+	Interim_Release_1-2d_beta1:1.14
+	PublicRelease_1_2c:1.11
+	Interim_Release_1-2c_RC1:1.11
+	Interim_Release_1-2c_beta1:1.11
+	PublicRelease_1_2b:1.11
+	Interim_Release_1-2b_RC1:1.11
+	PublicRelease_1_2a:1.11
+	Interim_Release_1-2a_RC1:1.11
+	Interim_Release_1-2a_beta2:1.11
+	Interim_Release_1-2a_beta1:1.11
+	PublicRelease_1_2:1.10
+	Interim_Release_1-2_RC1:1.10
+	Interim_Release_1-2_beta1:1.10
+	PublicRelease_1_1g:1.10
+	Interim_Release_1-1g_RC3:1.10
+	Interim_Release_1-1g_RC2:1.10
+	Interim_Release_1-1g_RC1:1.10
+	Interim_Release_1-1g_beta2:1.9
+	Interim_Release_1-1g_beta1:1.9
+	PublicRelease_1_1f:1.9
+	Interim_Release_1-1f_RC1:1.9
+	PublicRelease_1_1e:1.9
+	Interim_Release_1-1e_RC2:1.9
+	Interim_Release_1-1e_RC1:1.9
+	Interim_Release_1-1e_beta1:1.9
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.9
+	Interim_Release_1-1b_RC1:1.9
+	PublicRelease_1_1a:1.9
+	Interim_Release_1-1a_RC2:1.9
+	Interim_Release_1-1a_RC1:1.9
+	Interim_Release_1-1a_beta2:1.9
+	Interim_Release_1-1a_beta1:1.9
+	PublicRelease_1_1:1.9
+	Interim_Release_1-1_beta1:1.9
+	PublicRelease_1o:1.9
+	Interim_Release_1o_RC1:1.9
+	Interim_Release_1o_beta1:1.9
+	PublicRelease_1n:1.9
+	Interim_Release_1n_RC2:1.9
+	Interim_Release_1n_RC1:1.9
+	Interim_Release_1n_beta2:1.9
+	Interim_Release_1n_beta1:1.9
+	PublicRelease_1m:1.9
+	Interim_Release_1m_beta1:1.9
+	PublicRelease_1l:1.8
+	Interim_Release_1l_RC3:1.8
+	Interim_Release_1l_RC2:1.8
+	Interim_Release_1l_RC1:1.8
+	Interim_Release_1l_beta2:1.8
+	Interim_Release_1l_beta1:1.8
+	PublicRelease_1k:1.8
+	Interim_Release_1k_RC4:1.8
+	Interim_1k_RC3:1.8
+	Interim_1k_RC2:1.8
+	Interim_Release_1k_RC1:1.8
+	Interim_Release_1k_beta5:1.8
+	Intrerim_Release_1k_beta4:1.8
+	Interim_Release_1k_beta1:1.8
+	PublicRelease_1j:1.8
+	Interim_Release_1J_RC3:1.8
+	Interim_Release_1j_RC3:1.8
+	Interim_Release_1j_RC2:1.8
+	Interim_Release_1j_RC1:1.8
+	Interim_Release_1j_beta2:1.8
+	Interim_Release_1j_beta1:1.8
+	PublicRelease_1i:1.8
+	Interim_Release_1i_RC6:1.8
+	Interim_Release_1i_RC3:1.8
+	Interim_Release_1i_RC2:1.8
+	Interim_Release_1i_RC1:1.8
+	Interim_Release_1i_beta3:1.8
+	Interim_Release_1i_beta2:1.8
+	Interim_Release_1i_beta1:1.8
+	PublicRelease_1h:1.6
+	Interim_Release_1h_rc2:1.6
+	Interim_Release_1h_RC1:1.6
+	Interim_Release_1h_beta2:1.6
+	Interim_Release_1h_beta1_now:1.6
+	Interim_Release_1h_beta1:1.6
+	PublicRelease_1g:1.6
+	Interim_Release_1g_RC6_Final:1.6
+	Interim_Release_1g_RC6:1.6
+	Interim_Release_1g_RC5:1.6
+	Interim_Release_1g_RC4:1.5
+	Interim_Release_1g_RC3:1.5
+	Interim_Release_1g_beta2:1.3
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.3
+	Interim_Release_1f_RC3:1.3
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.3
+	Interim_Release_1f_beta2:1.3
+	Interim_Release_1f_beta1:1.3
+	PublicRelease_1e:1.3
+	Interim_Release_1e_RC2:1.3
+	Interim_Release_1e_RC:1.3
+	Interim_Release_1e_beta3:1.3
+	Interim_Release_1e_beta2:1.3
+	Interim_Release_1e_beta2_before_kuchin:1.3
+	Interim_Release_1e_beta1:1.3
+	PublicRelease_1c:1.3
+	featurestest:1.3.0.8
+	Interim_Release_1c_RC:1.3
+	Interim_Release_1c_beta2:1.3
+	Interim_Release_1c_beta1:1.3
+	threaded_downloadqueue:1.3.0.6
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.3.0.4
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.3
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.3
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.4
+	plus26based:1.2.0.2
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.16
+date	2009.01.02.02.08.47;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2008.07.01.04.45.15;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.02.06.05.26.31;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.12.15.12.01.24;	author kush_eplus;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.12.14.21.11.18;	author kush_eplus;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.03.25.12.15.51;	author kush_eplus;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.06.18.17.08.24;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.07.08.20.31.59;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.06.20.00.01.10;	author netwolf1;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.06.14.18.08.22;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.02.13.27.42;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.21;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@Strip IRC user message colors {xalbux}.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2007 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgIRC.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgIRC, CPropertyPage)
+CPPgIRC::CPPgIRC()
+	: CPropertyPage(CPPgIRC::IDD)
+	, m_bUseChannelFilter(FALSE)
+	, m_bUsePerform(FALSE)
+	, m_bTimeStamp(FALSE)
+	, m_bListOnConnect(FALSE)
+	, m_bIgnoreInfoMessages(FALSE)
+	, m_bStripColor(FALSE)
+{
+}
+
+CPPgIRC::~CPPgIRC()
+{
+}
+
+void CPPgIRC::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_IRC_SERVER_BOX, m_strServer);
+	DDX_Text(pDX, IDC_IRC_NICK_BOX, m_strNick);
+	DDX_Text(pDX, IDC_IRC_NAME_BOX, m_strName);
+	DDX_Text(pDX, IDC_IRC_MINUSER_BOX, m_strMinUser);
+	DDX_Check(pDX, IDC_IRC_USECHANFILTER, m_bUseChannelFilter);
+	DDX_Text(pDX, IDC_IRC_PERFORM_BOX, m_strPerform);
+	DDX_Check(pDX, IDC_IRC_USEPERFORM, m_bUsePerform);
+	DDX_Check(pDX, IDC_IRC_TIMESTAMP, m_bTimeStamp);
+	DDX_Check(pDX, IDC_IRC_LISTONCONNECT, m_bListOnConnect);
+	DDX_Check(pDX, IDC_IRC_INFOMESSAGE, m_bIgnoreInfoMessages);
+	DDX_Check(pDX, IDC_IRC_STRIPCOLOR, m_bStripColor);
+}
+
+BEGIN_MESSAGE_MAP(CPPgIRC, CPropertyPage)
+	ON_BN_CLICKED(IDC_IRC_TIMESTAMP, OnSettingsChange)
+	ON_BN_CLICKED(IDC_IRC_USECHANFILTER, OnBnClickedUseFilter)
+	ON_BN_CLICKED(IDC_IRC_USEPERFORM, OnBnClickedUsePerform)
+	ON_BN_CLICKED(IDC_IRC_INFOMESSAGE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_IRC_STRIPCOLOR, OnSettingsChange)
+	ON_EN_CHANGE(IDC_IRC_NICK_BOX, OnEnChangeNick)
+	ON_EN_CHANGE(IDC_IRC_PERFORM_BOX, OnSettingsChange)
+	ON_EN_CHANGE(IDC_IRC_SERVER_BOX, OnSettingsChange)
+	ON_EN_CHANGE(IDC_IRC_NAME_BOX, OnSettingsChange)
+	ON_EN_CHANGE(IDC_IRC_MINUSER_BOX, OnSettingsChange)
+	ON_BN_CLICKED(IDC_IRC_LISTONCONNECT, OnSettingsChange)
+END_MESSAGE_MAP()
+
+
+BOOL CPPgIRC::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_IRC_NICK_BOX)))->SetLimitText(20);
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_IRC_MINUSER_BOX)))->SetLimitText(6);
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_IRC_SERVER_BOX)))->SetLimitText(40);
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_IRC_NAME_BOX)))->SetLimitText(40);
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_IRC_PERFORM_BOX)))->SetLimitText(250);
+
+	LoadSettings();
+	Localize();
+	m_bNickModified = false;
+
+	return TRUE;
+}
+
+void CPPgIRC::LoadSettings(void)
+{
+	m_bTimeStamp = m_pPrefs->GetIRCAddTimestamp();
+	m_bIgnoreInfoMessages = m_pPrefs->GetIrcIgnoreInfoMessage();
+	m_bStripColor = m_pPrefs->GetIrcStripColor();
+	m_bUseChannelFilter = m_pPrefs->GetIRCUseChanFilter();
+	m_bUsePerform = m_pPrefs->GetIrcUsePerform();
+	m_bListOnConnect = m_pPrefs->GetIRCListOnConnect();
+	m_strServer = m_pPrefs->GetIRCServer();
+	m_strNick = m_pPrefs->GetIRCNick();
+	m_strName = m_pPrefs->GetIRCChanNameFilter();
+	m_strPerform = m_pPrefs->GetIrcPerformString();
+	m_strMinUser.Format(_T("%u"), m_pPrefs->GetIRCChannelUserFilter());
+
+	UpdateData(FALSE);
+
+	OnBnClickedUseFilter();
+	OnBnClickedUsePerform();
+
+	SetModified(FALSE);
+}
+
+
+BOOL CPPgIRC::OnApply()
+{
+	if (m_bModified)
+	{
+		UpdateData(TRUE);
+
+		m_pPrefs->SetIRCAddTimestamp(B2b(m_bTimeStamp));
+		m_pPrefs->SetIrcIgnoreInfoMessage(B2b(m_bIgnoreInfoMessages));
+		m_pPrefs->SetIrcStripColor(B2b(m_bStripColor));
+		m_pPrefs->SetIRCListonConnect(B2b(m_bListOnConnect));
+		m_pPrefs->SetIRCUseChanFilter(B2b(m_bUseChannelFilter));
+		m_pPrefs->SetIrcUsePerform(B2b(m_bUsePerform));
+
+		if (!m_strNick.IsEmpty())
+		{
+			m_pPrefs->SetIRCNick(m_strNick);
+			if (g_App.m_pMDlg->m_wndIRC.GetLoggedIn() && m_bNickModified)
+			{
+				CString	strTmp(_T("NICK "));
+
+				m_bNickModified = false;
+				strTmp += m_strNick;
+				g_App.m_pMDlg->m_wndIRC.SendString(strTmp);
+			}
+		}
+
+		if (!m_strServer.IsEmpty())
+			m_pPrefs->SetIRCServer(m_strServer);
+
+		if (!m_strName.IsEmpty())
+			m_pPrefs->SetIRCChanNameFilter(m_strName);
+
+		if (!m_strPerform.IsEmpty())
+			m_pPrefs->SetIRCPerformString(m_strPerform);
+		else
+			m_pPrefs->SetIRCPerformString(_T(" "));
+
+		m_pPrefs->SetIRCChanUserFilter(static_cast<uint16>(_tstoi(m_strMinUser)));
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgIRC::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_IRC_SERVER_FRM, IDS_PW_SERVER },
+		{ IDC_IRC_MISC_FRM, IDS_PW_MISC },
+		{ IDC_IRC_TIMESTAMP, IDS_IRC_ADDTIMESTAMP },
+		{ IDC_IRC_NICK_FRM, IDS_NICK },
+		{ IDC_IRC_NAME_TEXT, IDS_IRC_NAME },
+		{ IDC_IRC_MINUSER_TEXT, IDS_UUSERS },
+		{ IDC_IRC_FILTER_FRM, IDS_IRC_CHANNELLIST },
+		{ IDC_IRC_USECHANFILTER, IDS_IRC_USEFILTER },
+		{ IDC_IRC_PERFORM_FRM, IDS_IRC_PERFORM },
+		{ IDC_IRC_USEPERFORM, IDS_IRC_USEPERFORM },
+		{ IDC_IRC_LISTONCONNECT, IDS_IRC_LOADCHANNELLISTONCON },
+		{ IDC_IRC_INFOMESSAGE, IDS_IRC_IGNOREINFOMESSAGE },
+		{ IDC_IRC_STRIPCOLOR, IDS_IRC_STRIPCOLOR }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+	}
+}
+
+void CPPgIRC::OnBnClickedUsePerform()
+{
+	UpdateData(TRUE);
+	GetDlgItem(IDC_IRC_PERFORM_BOX)->EnableWindow(m_bUsePerform);
+
+	SetModified();
+}
+
+void CPPgIRC::OnBnClickedUseFilter()
+{
+	UpdateData(TRUE);
+	GetDlgItem(IDC_IRC_NAME_BOX)->EnableWindow(m_bUseChannelFilter);
+	GetDlgItem(IDC_IRC_MINUSER_BOX)->EnableWindow(m_bUseChannelFilter);
+
+	SetModified();
+}
+@
+
+
+1.15
+log
+@Renamed IDS_PW_NICK -> IDS_NICK; IDS_IRC_NICK replaced with IDS_NICK.
+@
+text
+@d36 1
+d57 1
+d65 1
+d96 1
+d123 1
+d175 2
+a176 1
+		{ IDC_IRC_INFOMESSAGE, IDS_IRC_IGNOREINFOMESSAGE }
+@
+
+
+1.14
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings; Formatting.
+@
+text
+@d162 1
+a162 1
+		{ IDC_IRC_NICK_FRM, IDS_PW_NICK },
+@
+
+
+1.13
+log
+@Few corrections of latest commit thanks to Aw3 comments.
+@
+text
+@d31 5
+a35 5
+	, useChannelFilter(FALSE)
+	, usePerform(FALSE)
+	, timeStamp(FALSE)
+	, listOnConnect(FALSE)
+	, ignoreInfoMessages(FALSE)
+d46 10
+a55 27
+	DDX_Text(pDX, IDC_IRC_SERVER_BOX, server);
+	DDX_Text(pDX, IDC_IRC_NICK_BOX, nick);
+	DDX_Text(pDX, IDC_IRC_NAME_BOX, name);
+	DDX_Text(pDX, IDC_IRC_MINUSER_BOX, minUser);
+	DDX_Check(pDX, IDC_IRC_USECHANFILTER, useChannelFilter);
+	DDX_Text(pDX, IDC_IRC_PERFORM_BOX, perform);
+	DDX_Check(pDX, IDC_IRC_USEPERFORM, usePerform);
+	DDX_Check(pDX, IDC_IRC_TIMESTAMP, timeStamp);
+	DDX_Check(pDX, IDC_IRC_LISTONCONNECT, listOnConnect);
+	DDX_Check(pDX, IDC_IRC_INFOMESSAGE, ignoreInfoMessages);
+	DDX_Control(pDX, IDC_IRC_SERVER_BOX, serverEdit);
+	DDX_Control(pDX, IDC_IRC_NICK_BOX, nickEdit);
+	DDX_Control(pDX, IDC_IRC_NAME_BOX, nameEdit);
+	DDX_Control(pDX, IDC_IRC_MINUSER_BOX, minUserEdit);
+	DDX_Control(pDX, IDC_IRC_PERFORM_BOX, performEdit);
+	DDX_Text(pDX, IDC_IRC_SERVER_FRM, serverDesc);
+	DDX_Text(pDX, IDC_IRC_NICK_FRM, nickDesc);
+	DDX_Text(pDX, IDC_IRC_FILTER_FRM, filterDesc);
+	DDX_Text(pDX, IDC_IRC_PERFORM_FRM, performDesc);
+	DDX_Text(pDX, IDC_IRC_MISC_FRM, miscDesc);
+	DDX_Control(pDX, IDC_IRC_TIMESTAMP, timeStampCheck);
+	DDX_Text(pDX, IDC_IRC_NAME_TEXT, nameDesc);
+	DDX_Text(pDX, IDC_IRC_MINUSER_TEXT, minUserDesc);
+	DDX_Control(pDX, IDC_IRC_USECHANFILTER, useChannelFilterCheck);
+	DDX_Control(pDX, IDC_IRC_USEPERFORM, usePerformCheck);
+	DDX_Control(pDX, IDC_IRC_LISTONCONNECT, listOnConnectCheck);
+	DDX_Control(pDX, IDC_IRC_INFOMESSAGE, ignoreInfoMessageCheck);
+d59 1
+a59 1
+	ON_BN_CLICKED(IDC_IRC_TIMESTAMP, OnBnClickedAddTimeStamp)
+d62 1
+a62 1
+	ON_BN_CLICKED(IDC_IRC_INFOMESSAGE, OnBnClickedIgnoreInfoMessages)
+d64 5
+a68 5
+	ON_EN_CHANGE(IDC_IRC_PERFORM_BOX, OnEnChangePerformString)
+	ON_EN_CHANGE(IDC_IRC_SERVER_BOX, OnEnChangeServer)
+	ON_EN_CHANGE(IDC_IRC_NAME_BOX, OnEnChangeName)
+	ON_EN_CHANGE(IDC_IRC_MINUSER_BOX, OnEnChangeUser)
+	ON_BN_CLICKED(IDC_IRC_LISTONCONNECT, OnBnClickedListOnConnect)
+d75 7
+a81 5
+	nickEdit.SetLimitText(20);
+	minUserEdit.SetLimitText(6);
+	serverEdit.SetLimitText(40);
+	nameEdit.SetLimitText(40);
+	performEdit.SetLimitText(250);
+d84 1
+a84 1
+	m_bnickModified = false;
+d91 10
+a100 10
+	timeStamp = m_pPrefs->GetIRCAddTimestamp();
+	ignoreInfoMessages = m_pPrefs->GetIrcIgnoreInfoMessage();
+	useChannelFilter = m_pPrefs->GetIRCUseChanFilter();
+	usePerform = m_pPrefs->GetIrcUsePerform();
+	listOnConnect = m_pPrefs->GetIRCListOnConnect();
+	server = m_pPrefs->GetIRCServer();
+	nick = m_pPrefs->GetIRCNick();
+	name = m_pPrefs->GetIRCChanNameFilter();
+	perform = m_pPrefs->GetIrcPerformString();
+	minUser.Format(_T("%d"), m_pPrefs->GetIRCChannelUserFilter());
+d117 5
+a121 5
+		m_pPrefs->SetIRCAddTimestamp(timeStamp);
+		m_pPrefs->SetIrcIgnoreInfoMessage(ignoreInfoMessages);
+		m_pPrefs->SetIRCListonConnect(listOnConnect);
+		m_pPrefs->SetIRCUseChanFilter(useChannelFilter);
+		m_pPrefs->SetIrcUsePerform(usePerform);
+d123 1
+a123 1
+		if (!nick.IsEmpty())
+d125 2
+a126 2
+			m_pPrefs->SetIRCNick(nick);
+			if (g_App.m_pMDlg->m_wndIRC.GetLoggedIn() && m_bnickModified == true)
+d128 5
+a132 2
+				m_bnickModified = false;
+				g_App.m_pMDlg->m_wndIRC.SendString(CString(_T("NICK ")) + nick);
+d136 2
+a137 2
+		if (!server.IsEmpty())
+			m_pPrefs->SetIRCServer(server);
+d139 2
+a140 2
+		if (!name.IsEmpty())
+			m_pPrefs->SetIRCChanNameFilter(name);
+d142 2
+a143 2
+		if (!perform.IsEmpty())
+			m_pPrefs->SetIRCPerformString(perform);
+d147 1
+a147 4
+		if (!minUser.IsEmpty())
+			m_pPrefs->SetIRCChanUserFilter(_tstoi(minUser));
+		else
+			m_pPrefs->SetIRCChanUserFilter(0);
+d157 16
+d175 7
+a181 13
+		GetResString(&serverDesc, IDS_PW_SERVER);
+		GetResString(&miscDesc, IDS_PW_MISC);
+		timeStampCheck.SetWindowText(GetResString(IDS_IRC_ADDTIMESTAMP));
+		GetResString(&nickDesc, IDS_PW_NICK);
+		GetResString(&nameDesc, IDS_IRC_NAME);
+		GetResString(&minUserDesc, IDS_UUSERS);
+		GetResString(&filterDesc, IDS_IRC_CHANNELLIST);
+		useChannelFilterCheck.SetWindowText(GetResString(IDS_IRC_USEFILTER));
+		GetResString(&performDesc, IDS_IRC_PERFORM);
+		usePerformCheck.SetWindowText(GetResString(IDS_IRC_USEPERFORM));
+		listOnConnectCheck.SetWindowText(GetResString(IDS_IRC_LOADCHANNELLISTONCON));
+		ignoreInfoMessageCheck.SetWindowText(GetResString(IDS_IRC_IGNOREINFOMESSAGE));
+		UpdateData(FALSE);
+d188 1
+a188 1
+	performEdit.EnableWindow(usePerform);
+d196 2
+a197 2
+	nameEdit.EnableWindow(useChannelFilter);
+	minUserEdit.EnableWindow(useChannelFilter);
+d200 1
+a200 1
+}@
+
+
+1.12
+log
+@Remove unused but active code that can be used to retrieve IP and port of users through IRC {Bruno}
+@
+text
+@d1 2
+a2 1
+//	This file is part of eMule Plus
+d4 4
+a7 4
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+d9 4
+a12 4
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+d14 3
+a16 3
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+@
+
+
+1.11
+log
+@removed uneeded CString object initialization
+@
+text
+@d1 1
+a1 1
+// PPgIRC.cpp : implementation file
+d3 13
+a26 2
+// CPPgIRC dialog
+
+a34 1
+	, ignoreEmuleMessages(FALSE)
+a54 1
+	DDX_Check(pDX, IDC_IRC_EMULEPROTO_INFOMESSAGE, ignoreEmuleMessages);
+a71 1
+	DDX_Control(pDX, IDC_IRC_EMULEPROTO_INFOMESSAGE, ignoreEmuleMessagesCheck);
+a78 1
+	ON_BN_CLICKED(IDC_IRC_EMULEPROTO_INFOMESSAGE, OnBnClickedIgnoreEmuleProtoInfoMessages)
+a106 1
+	ignoreEmuleMessages = m_pPrefs->GetIrcIgnoreEmuleProtoInfoMessage();
+d121 1
+a121 1
+	SetModified(FALSE);	// FoRcHa
+d127 1
+a127 1
+	if(m_bModified)
+a132 1
+		m_pPrefs->SetIrcIgnoreEmuleProtoInfoMessage(ignoreEmuleMessages);
+d137 1
+a137 1
+		if(!nick.IsEmpty())
+d140 2
+a141 1
+			if( g_App.m_pMDlg->m_wndIRC.GetLoggedIn() && m_bnickModified == true){
+d147 1
+a147 1
+		if(!server.IsEmpty())
+d150 1
+a150 2
+
+		if(!name.IsEmpty())
+d153 1
+a153 1
+		if(!perform.IsEmpty())
+d158 3
+a160 3
+		if(!minUser.IsEmpty())
+			m_pPrefs->SetIRCChanUserFilter( _tstoi(minUser));
+		else{
+a161 1
+		}
+d171 1
+a171 1
+	if(::IsWindow(m_hWnd))
+a184 1
+		ignoreEmuleMessagesCheck.SetWindowText(GetResString(IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE));
+@
+
+
+1.10
+log
+@renamed 3 variables
+@
+text
+@a18 4
+	, server(_T(""))
+	, nick(_T(""))
+	, name(_T(""))
+	, minUser(_T(""))
+a19 1
+	, perform(_T(""))
+a24 7
+	, serverDesc(_T(""))
+	, nickDesc(_T(""))
+	, filterDesc(_T(""))
+	, performDesc(_T(""))
+	, miscDesc(_T(""))
+	, nameDesc(_T(""))
+	, minUserDesc(_T(""))
+d69 1
+a69 1
+	ON_BN_CLICKED(IDC_IRC_USEPERFORM, OnBnClickedUsePerform)	
+d98 3
+a100 3
+	timeStamp = m_pPrefs->GetIRCAddTimestamp();		
+	ignoreInfoMessages = m_pPrefs->GetIrcIgnoreInfoMessage();	
+	ignoreEmuleMessages = m_pPrefs->GetIrcIgnoreEmuleProtoInfoMessage();	
+d102 1
+a102 1
+	usePerform = m_pPrefs->GetIrcUsePerform();		
+d107 4
+a110 4
+	perform = m_pPrefs->GetIrcPerformString();	
+	minUser.Format(_T("%d"), m_pPrefs->GetIRCChannelUserFilter());	
+	
+	UpdateData(FALSE);	
+d113 1
+a113 1
+	OnBnClickedUsePerform();	
+d120 1
+a120 1
+{   
+d124 6
+a129 6
+		
+		m_pPrefs->SetIRCAddTimestamp(timeStamp);		
+		m_pPrefs->SetIrcIgnoreInfoMessage(ignoreInfoMessages);		
+		m_pPrefs->SetIrcIgnoreEmuleProtoInfoMessage(ignoreEmuleMessages);		
+		m_pPrefs->SetIRCListonConnect(listOnConnect);		
+		m_pPrefs->SetIRCUseChanFilter(useChannelFilter);		
+d131 1
+a131 1
+				
+d133 1
+a133 1
+		{			
+d140 6
+a145 6
+	
+		if(!server.IsEmpty())		
+			m_pPrefs->SetIRCServer(server);		
+		
+	
+		if(!name.IsEmpty())					
+d147 3
+a149 3
+			
+		if(!perform.IsEmpty())					
+			m_pPrefs->SetIRCPerformString(perform);					
+d152 3
+a154 3
+	
+		if(!minUser.IsEmpty())		
+			m_pPrefs->SetIRCChanUserFilter( _tstoi(minUser));		
+d158 1
+a158 1
+	
+d189 1
+a189 1
+	performEdit.EnableWindow(usePerform);	
+d197 1
+a197 1
+	nameEdit.EnableWindow(useChannelFilter);	
+@
+
+
+1.9
+log
+@Improved preferences localization.
+@
+text
+@d147 1
+a147 1
+			if( g_eMuleApp.m_pdlgEmule->m_wndIRC.GetLoggedIn() && m_bnickModified == true){
+d149 1
+a149 1
+				g_eMuleApp.m_pdlgEmule->m_wndIRC.SendString(CString(_T("NICK ")) + nick);
+@
+
+
+1.8
+log
+@Formatting, comments, and name changes.
+@
+text
+@d181 2
+a182 2
+		serverDesc = GetResString(IDS_PW_SERVER);
+		miscDesc = GetResString(IDS_PW_MISC);
+d184 4
+a187 4
+		nickDesc = GetResString(IDS_PW_NICK);
+		nameDesc = GetResString(IDS_IRC_NAME);
+		minUserDesc = GetResString(IDS_UUSERS);
+		filterDesc = GetResString(IDS_IRC_CHANNELLIST);
+d189 1
+a189 1
+		performDesc = GetResString(IDS_IRC_PERFORM);
+@
+
+
+1.7
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d110 11
+a120 11
+	timeStamp = app_prefs->GetIRCAddTimestamp();		
+	ignoreInfoMessages = app_prefs->GetIrcIgnoreInfoMessage();	
+	ignoreEmuleMessages = app_prefs->GetIrcIgnoreEmuleProtoInfoMessage();	
+	useChannelFilter = app_prefs->GetIRCUseChanFilter();
+	usePerform = app_prefs->GetIrcUsePerform();		
+	listOnConnect = app_prefs->GetIRCListOnConnect();
+	server = app_prefs->GetIRCServer();
+	nick = app_prefs->GetIRCNick();
+	name = app_prefs->GetIRCChanNameFilter();
+	perform = app_prefs->GetIrcPerformString();	
+	minUser.Format(_T("%d"), app_prefs->GetIRCChannelUserFilter());	
+d137 6
+a142 6
+		app_prefs->SetIRCAddTimestamp(timeStamp);		
+		app_prefs->SetIrcIgnoreInfoMessage(ignoreInfoMessages);		
+		app_prefs->SetIrcIgnoreEmuleProtoInfoMessage(ignoreEmuleMessages);		
+		app_prefs->SetIRCListonConnect(listOnConnect);		
+		app_prefs->SetIRCUseChanFilter(useChannelFilter);		
+		app_prefs->SetIrcUsePerform(usePerform);
+d146 1
+a146 1
+			app_prefs->SetIRCNick(nick);
+d154 1
+a154 1
+			app_prefs->SetIRCServer(server);		
+d158 1
+a158 1
+			app_prefs->SetIRCChanNameFilter(name);
+d161 1
+a161 1
+			app_prefs->SetIRCPerformString(perform);					
+d163 1
+a163 1
+			app_prefs->SetIRCPerformString(_T(" "));
+d166 1
+a166 1
+			app_prefs->SetIRCChanUserFilter( _tstoi(minUser));		
+d168 1
+a168 1
+			app_prefs->SetIRCChanUserFilter(0);
+@
+
+
+1.6
+log
+@converted to use DDX framework
+@
+text
+@d147 1
+a147 1
+			if( theApp.emuledlg->ircwnd.GetLoggedIn() && m_bnickModified == true){
+d149 1
+a149 1
+				theApp.emuledlg->ircwnd.SendString(CString(_T("NICK ")) + nick);
+@
+
+
+1.5
+log
+@added 'Set manually added servers to High Priority' and 'Serverconnect w/o proxy' options and removed 'Accept ed2k links'
+@
+text
+@d19 18
+d47 29
+d81 1
+a81 2
+	ON_BN_CLICKED(IDC_IRC_USEPERFORM, OnBnClickedUsePerform)
+	//ON_BN_CLICKED(IDC_IRC_ACCEPTLINKS, OnBnClickedAcceptLinks)
+d96 5
+a100 5
+	((CEdit*)GetDlgItem(IDC_IRC_NICK_BOX))->SetLimitText(20);
+	((CEdit*)GetDlgItem(IDC_IRC_MINUSER_BOX))->SetLimitText(6);
+	((CEdit*)GetDlgItem(IDC_IRC_SERVER_BOX))->SetLimitText(40);
+	((CEdit*)GetDlgItem(IDC_IRC_NAME_BOX))->SetLimitText(40);
+	((CEdit*)GetDlgItem(IDC_IRC_PERFORM_BOX))->SetLimitText(250);
+d105 1
+a105 2
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+d110 13
+a122 35
+	if(app_prefs->GetIRCAddTimestamp())
+		CheckDlgButton(IDC_IRC_TIMESTAMP,1);
+	else
+		CheckDlgButton(IDC_IRC_TIMESTAMP,0);
+	if(app_prefs->GetIrcIgnoreInfoMessage())
+		CheckDlgButton(IDC_IRC_INFOMESSAGE,1);
+	else
+		CheckDlgButton(IDC_IRC_INFOMESSAGE,0);
+	if(app_prefs->GetIrcIgnoreEmuleProtoInfoMessage())
+		CheckDlgButton(IDC_IRC_EMULEPROTO_INFOMESSAGE,1);
+	else
+		CheckDlgButton(IDC_IRC_EMULEPROTO_INFOMESSAGE,0);
+/*	if(app_prefs->GetIrcAcceptLinks())
+		CheckDlgButton(IDC_IRC_ACCEPTLINKS,1);
+	else
+		CheckDlgButton(IDC_IRC_ACCEPTLINKS,0);	*/
+	if(app_prefs->GetIRCUseChanFilter())
+		CheckDlgButton(IDC_IRC_USECHANFILTER,1);
+	else
+		CheckDlgButton(IDC_IRC_USECHANFILTER,0);
+	if(app_prefs->GetIrcUsePerform())
+		CheckDlgButton(IDC_IRC_USEPERFORM,1);
+	else
+		CheckDlgButton(IDC_IRC_USEPERFORM,0);
+	if(app_prefs->GetIRCListOnConnect())
+		CheckDlgButton(IDC_IRC_LISTONCONNECT,1);
+	else
+		CheckDlgButton(IDC_IRC_LISTONCONNECT,0);
+	GetDlgItem(IDC_IRC_SERVER_BOX)->SetWindowText(app_prefs->GetIRCServer());
+	GetDlgItem(IDC_IRC_NICK_BOX)->SetWindowText(app_prefs->GetIRCNick());
+	GetDlgItem(IDC_IRC_NAME_BOX)->SetWindowText(app_prefs->GetIRCChanNameFilter());
+	GetDlgItem(IDC_IRC_PERFORM_BOX)->SetWindowText(app_prefs->GetIrcPerformString());
+	CString strBuffer;
+	strBuffer.Format(_T("%d"), app_prefs->GetIRCChannelUserFilter());
+	GetDlgItem(IDC_IRC_MINUSER_BOX)->SetWindowText(strBuffer);
+a132 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d135 12
+a146 34
+		if(IsDlgButtonChecked(IDC_IRC_TIMESTAMP))
+			app_prefs->SetIRCAddTimestamp(true);
+		else
+			app_prefs->SetIRCAddTimestamp(false);
+		if(IsDlgButtonChecked(IDC_IRC_INFOMESSAGE))
+			app_prefs->SetIrcIgnoreInfoMessage(true);
+		else
+			app_prefs->SetIrcIgnoreInfoMessage(false);
+		if(IsDlgButtonChecked(IDC_IRC_EMULEPROTO_INFOMESSAGE))
+			app_prefs->SetIrcIgnoreEmuleProtoInfoMessage(true);
+		else
+			app_prefs->SetIrcIgnoreEmuleProtoInfoMessage(false);
+/*		if(IsDlgButtonChecked(IDC_IRC_ACCEPTLINKS))
+			app_prefs->SetIrcAcceptLInks(true);
+		else
+			app_prefs->SetIrcAcceptLInks(false);	*/
+		if(IsDlgButtonChecked(IDC_IRC_LISTONCONNECT))
+			app_prefs->SetIRCListonConnect( true);
+		else
+			app_prefs->SetIRCListonConnect( false);
+		if(IsDlgButtonChecked(IDC_IRC_USECHANFILTER))
+			app_prefs->SetIRCUseChanFilter(true);
+		else
+			app_prefs->SetIRCUseChanFilter( false);
+		if(IsDlgButtonChecked(IDC_IRC_USEPERFORM))
+			app_prefs->SetIrcUsePerform( true);
+		else
+			app_prefs->SetIrcUsePerform( false);
+		TCHAR buffer[510];
+		if(GetDlgItem(IDC_IRC_NICK_BOX)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_IRC_NICK_BOX)->GetWindowText(buffer,20);
+			app_prefs->SetIRCNick(buffer);
+			//strcpy(app_prefs->prefs->m_sircnick,buffer);
+d149 1
+a149 1
+				theApp.emuledlg->ircwnd.SendString( (CString)"NICK " + (CString)buffer );
+d153 3
+a155 13
+		if(GetDlgItem(IDC_IRC_SERVER_BOX)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_IRC_SERVER_BOX)->GetWindowText(buffer,40);
+			app_prefs->SetIRCServer(buffer);
+			//strcpy(app_prefs->prefs->m_sircserver,buffer);
+		}
+	
+		if(GetDlgItem(IDC_IRC_NAME_BOX)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_IRC_NAME_BOX)->GetWindowText(buffer,40);
+			app_prefs->SetIRCChanNameFilter(buffer);
+			//strcpy(app_prefs->prefs->m_sircchannamefilter,buffer);
+		}
+d157 5
+a161 6
+		if(GetDlgItem(IDC_IRC_PERFORM_BOX)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_IRC_PERFORM_BOX)->GetWindowText(buffer,250);
+			app_prefs->SetIRCPerformString(buffer);
+			//strcpy(app_prefs->prefs->m_sircperformstring,buffer);
+		}
+d163 1
+a163 5
+		{
+			_tprintf( buffer, _T(" ") );
+			app_prefs->SetIRCPerformString(buffer);
+			//strcpy(app_prefs->prefs->m_sircperformstring,buffer);
+		}
+d165 2
+a166 5
+		if(GetDlgItem(IDC_IRC_MINUSER_BOX)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_IRC_MINUSER_BOX)->GetWindowText(buffer,6);
+			app_prefs->SetIRCChanUserFilter( _tstoi(buffer));
+		}
+d179 1
+a179 1
+	if(m_hWnd)
+d181 14
+a194 14
+		GetDlgItem(IDC_IRC_SERVER_FRM)->SetWindowText(GetResString(IDS_PW_SERVER));
+		GetDlgItem(IDC_IRC_MISC_FRM)->SetWindowText(GetResString(IDS_PW_MISC));
+		GetDlgItem(IDC_IRC_TIMESTAMP)->SetWindowText(GetResString(IDS_IRC_ADDTIMESTAMP));
+		GetDlgItem(IDC_IRC_NICK_FRM)->SetWindowText(GetResString(IDS_PW_NICK));
+		GetDlgItem(IDC_IRC_NAME_TEXT)->SetWindowText(GetResString(IDS_IRC_NAME));
+		GetDlgItem(IDC_IRC_MINUSER_TEXT)->SetWindowText(GetResString(IDS_UUSERS));
+		GetDlgItem(IDC_IRC_FILTER_FRM)->SetWindowText(GetResString(IDS_IRC_CHANNELLIST));
+		GetDlgItem(IDC_IRC_USECHANFILTER)->SetWindowText(GetResString(IDS_IRC_USEFILTER));
+		GetDlgItem(IDC_IRC_PERFORM_FRM)->SetWindowText(GetResString(IDS_IRC_PERFORM));
+		GetDlgItem(IDC_IRC_USEPERFORM)->SetWindowText(GetResString(IDS_IRC_USEPERFORM));
+		GetDlgItem(IDC_IRC_LISTONCONNECT)->SetWindowText(GetResString(IDS_IRC_LOADCHANNELLISTONCON));
+		//	GetDlgItem(IDC_IRC_ACCEPTLINKS)->SetWindowText(GetResString(IDS_IRC_ACCEPTLINKS));
+		GetDlgItem(IDC_IRC_INFOMESSAGE)->SetWindowText(GetResString(IDS_IRC_IGNOREINFOMESSAGE));
+		GetDlgItem(IDC_IRC_EMULEPROTO_INFOMESSAGE)->SetWindowText(GetResString(IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE));
+d200 2
+a201 1
+	GetDlgItem(IDC_IRC_PERFORM_BOX)->EnableWindow(IsDlgButtonChecked(IDC_IRC_USEPERFORM));	
+d208 3
+a210 2
+	GetDlgItem(IDC_IRC_NAME_BOX)->EnableWindow(IsDlgButtonChecked(IDC_IRC_USECHANFILTER));	
+	GetDlgItem(IDC_IRC_MINUSER_BOX)->EnableWindow(IsDlgButtonChecked(IDC_IRC_USECHANFILTER));
+d213 1
+a213 1
+}
+@
+
+
+1.4
+log
+@unicode cleanup
+@
+text
+@d35 1
+a35 1
+	ON_BN_CLICKED(IDC_IRC_ACCEPTLINKS, OnBnClickedAcceptLinks)
+d77 1
+a77 1
+	if(app_prefs->GetIrcAcceptLinks())
+d80 1
+a80 1
+		CheckDlgButton(IDC_IRC_ACCEPTLINKS,0);
+d126 1
+a126 1
+		if(IsDlgButtonChecked(IDC_IRC_ACCEPTLINKS))
+d129 1
+a129 1
+			app_prefs->SetIrcAcceptLInks(false);
+d211 1
+a211 1
+		GetDlgItem(IDC_IRC_ACCEPTLINKS)->SetWindowText(GetResString(IDS_IRC_ACCEPTLINKS));
+@
+
+
+1.3
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d98 1
+a98 1
+	strBuffer.Format("%d", app_prefs->GetIRCChannelUserFilter());
+d142 1
+a142 1
+		char buffer[510];
+d176 1
+a176 1
+			printf( buffer, " " );
+d184 1
+a184 1
+			app_prefs->SetIRCChanUserFilter( atoi(buffer));
+@
+
+
+1.2
+log
+@Removed SingleLock - no need there.
+@
+text
+@d8 5
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d105 1
+a105 1
+	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

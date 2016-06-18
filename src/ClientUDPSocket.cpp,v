@@ -1,0 +1,3027 @@
+head	1.72;
+access;
+symbols
+	PublicRelease_1_2e:1.65
+	Interim_Release_1-2e_RC1:1.65
+	PublicRelease_1_2d:1.59
+	Interim_Release_1-2d_RC1:1.59
+	Interim_Release_1-2d_beta1:1.58
+	PublicRelease_1_2c:1.58
+	Interim_Release_1-2c_RC1:1.58
+	Interim_Release_1-2c_beta1:1.55
+	PublicRelease_1_2b:1.54
+	Interim_Release_1-2b_RC1:1.54
+	PublicRelease_1_2a:1.54
+	Interim_Release_1-2a_RC1:1.54
+	Interim_Release_1-2a_beta2:1.53
+	Interim_Release_1-2a_beta1:1.53
+	PublicRelease_1_2:1.52
+	Interim_Release_1-2_RC1:1.52
+	Interim_Release_1-2_beta1:1.52
+	PublicRelease_1_1g:1.52
+	Interim_Release_1-1g_RC3:1.52
+	Interim_Release_1-1g_RC2:1.52
+	Interim_Release_1-1g_RC1:1.52
+	Interim_Release_1-1g_beta2:1.50
+	Interim_Release_1-1g_beta1:1.48
+	PublicRelease_1_1f:1.45
+	Interim_Release_1-1f_RC1:1.45
+	PublicRelease_1_1e:1.44
+	Interim_Release_1-1e_RC2:1.44
+	Interim_Release_1-1e_RC1:1.43
+	Interim_Release_1-1e_beta1:1.43
+	PublicRelease_1_1d:1.42
+	Interim_Release_1-1d_RC1:1.42
+	PublicRelease_1_1c:1.42
+	Interim_Release_1-1c_RC1:1.42
+	Interim_Release_1-1c_beta2:1.42
+	Interim_Release_1-1c_beta1:1.42
+	PublicRelease_1_1b:1.41
+	Interim_Release_1-1b_RC1:1.41
+	PublicRelease_1_1a:1.41
+	Interim_Release_1-1a_RC2:1.41
+	Interim_Release_1-1a_RC1:1.41
+	Interim_Release_1-1a_beta2:1.41
+	Interim_Release_1-1a_beta1:1.40
+	PublicRelease_1_1:1.40
+	Interim_Release_1-1_beta1:1.40
+	PublicRelease_1o:1.40
+	Interim_Release_1o_RC1:1.40
+	Interim_Release_1o_beta1:1.40
+	PublicRelease_1n:1.40
+	Interim_Release_1n_RC2:1.40
+	Interim_Release_1n_RC1:1.39
+	Interim_Release_1n_beta2:1.37
+	Interim_Release_1n_beta1:1.36
+	PublicRelease_1m:1.35
+	Interim_Release_1m_beta1:1.35
+	PublicRelease_1l:1.34
+	Interim_Release_1l_RC3:1.34
+	Interim_Release_1l_RC2:1.34
+	Interim_Release_1l_RC1:1.34
+	Interim_Release_1l_beta2:1.33
+	Interim_Release_1l_beta1:1.25
+	PublicRelease_1k:1.25
+	Interim_Release_1k_RC4:1.25
+	Interim_1k_RC3:1.25
+	Interim_1k_RC2:1.25
+	Interim_Release_1k_RC1:1.25
+	Interim_Release_1k_beta5:1.25
+	Intrerim_Release_1k_beta4:1.25
+	Interim_Release_1k_beta1:1.25
+	PublicRelease_1j:1.23
+	Interim_Release_1J_RC3:1.23
+	Interim_Release_1j_RC3:1.23
+	Interim_Release_1j_RC2:1.23
+	Interim_Release_1j_RC1:1.23
+	Interim_Release_1j_beta2:1.23
+	Interim_Release_1j_beta1:1.23
+	PublicRelease_1i:1.20
+	Interim_Release_1i_RC6:1.20
+	Interim_Release_1i_RC3:1.20
+	Interim_Release_1i_RC2:1.20
+	Interim_Release_1i_RC1:1.20
+	Interim_Release_1i_beta3:1.20
+	Interim_Release_1i_beta2:1.20
+	Interim_Release_1i_beta1:1.16
+	PublicRelease_1h:1.14
+	Interim_Release_1h_rc2:1.14
+	Interim_Release_1h_RC1:1.14
+	Interim_Release_1h_beta2:1.14
+	Interim_Release_1h_beta1_now:1.14
+	Interim_Release_1h_beta1:1.14
+	PublicRelease_1g:1.13
+	Interim_Release_1g_RC6_Final:1.13
+	Interim_Release_1g_RC6:1.13
+	Interim_Release_1g_RC5:1.13
+	Interim_Release_1g_RC4:1.13
+	Interim_Release_1g_RC3:1.12
+	Interim_Release_1g_beta2:1.10
+	Interim_Release_1g_beta1:1.9
+	Interim_Release_1f_RC4:1.9
+	Interim_Release_1f_RC3:1.9
+	Interim_Release_1f_RC2:1.8
+	Interim_Release_1f_RC:1.8
+	Interim_Release_1f_beta2:1.8
+	Interim_Release_1f_beta1:1.8
+	PublicRelease_1e:1.8
+	Interim_Release_1e_RC2:1.8
+	Interim_Release_1e_RC:1.8
+	Interim_Release_1e_beta3:1.8
+	Interim_Release_1e_beta2:1.8
+	Interim_Release_1e_beta2_before_kuchin:1.8
+	Interim_Release_1e_beta1:1.8
+	PublicRelease_1c:1.7
+	featurestest:1.7.0.4
+	Interim_Release_1c_RC:1.7
+	Interim_Release_1c_beta2:1.7
+	Interim_Release_1c_beta1:1.7
+	threaded_downloadqueue:1.7.0.2
+	PublicRelease_1b:1.6
+	Interim_Release_1b_beta2:1.6
+	Interim_Release_1b_beta1:1.6
+	proxydeadlake:1.6.0.4
+	PublicRelease_1a:1.6
+	Interim_Release_1a_beta2:1.6
+	BerkeleyDb:1.6.0.2
+	Interim_Release_1a_beta1:1.6
+	PublicRelease_1:1.6
+	goldfish:1.6
+	eMulePlus_1_RC2:1.6
+	eMulePlus_26b_1RC1:1.6
+	PreRelease_26b_i0e:1.6
+	before_26d_merge:1.6
+	Interim_Release_26b_i0d:1.5
+	Interim_Release_26b_i0c:1.4
+	Interim_Release_26b_i0b:1.4
+	Interim_Release_26b_i0a:1.4
+	systraydlg:1.3.0.6
+	plus26based:1.3.0.4
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.3.2.1
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.72
+date	2010.05.13.04.48.49;	author aw3;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2009.08.01.01.45.45;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2009.07.25.03.24.45;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2009.07.19.01.07.48;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2009.07.15.02.23.05;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2009.06.02.02.10.08;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2009.05.18.20.36.13;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2009.03.21.22.47.43;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2009.03.01.05.50.14;	author aw3;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2008.11.03.05.45.23;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2008.10.28.02.41.52;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2008.07.18.00.42.23;	author aw3;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2008.03.10.03.59.43;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2007.07.23.03.45.19;	author aw3;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2007.03.18.13.49.55;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2007.03.18.10.00.51;	author eklmn;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2007.02.12.02.32.25;	author aw3;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2006.07.23.00.30.54;	author aw3;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2006.04.16.00.22.30;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.09.30.04.45.36;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.08.31.04.21.45;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.08.17.18.49.43;	author eklmn;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2005.08.15.19.27.21;	author eklmn;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2005.08.10.05.20.40;	author eklmn;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2005.07.14.02.40.42;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2005.07.04.02.59.28;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2005.05.17.16.27.47;	author eklmn;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2005.01.19.21.10.45;	author netwolf1;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.11.10.17.21.13;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.09.06.18.42.35;	author eklmn;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.08.24.09.54.32;	author eklmn;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.08.12.21.54.12;	author eklmn;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.08.06.17.00.46;	author eklmn;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.06.30.13.38.40;	author dongato;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.06.22.05.43.57;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.05.24.09.46.13;	author dongato;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.05.21.14.37.56;	author dongato;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.05.19.12.08.46;	author netwolf1;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.05.18.21.37.38;	author kush_eplus;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.05.18.19.50.42;	author kush_eplus;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.05.18.03.25.46;	author kush_eplus;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.05.18.01.03.08;	author kush_eplus;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.05.17.19.23.14;	author kush_eplus;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.05.12.23.28.44;	author kush_eplus;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.02.03.12.53.48;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.12.24.01.21.13;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.10.20.13.19.58;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.10.08.12.56.32;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.10.08.01.53.31;	author morevit;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.09.21.22.05.14;	author morevit;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.07.26.11.27.01;	author zegzav;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.07.06.12.01.00;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.06.19.16.48.04;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.06.11.18.27.06;	author eklmn;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.04.22.35.47;	author netwolf1;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.05.20.20.46.25;	author netwolf1;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.03.27.15.24.12;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.14.16.24.16;	author partyckip;	state Exp;
+branches
+	1.7.4.1;
+next	1.6;
+
+1.6
+date	2003.02.16.22.01.46;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.12.20.18.21;	author obaldin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.09.18.39.40;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.23.01.42.30;	author cax2;	state Exp;
+branches
+	1.3.2.1
+	1.3.4.1;
+next	1.2;
+
+1.2
+date	2003.01.22.17.59.24;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.07.05;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.53.59;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.4.1
+date	2003.02.05.01.58.41;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.7.4.1
+date	2003.03.24.09.39.42;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.72
+log
+@Added an option to bind to specific network interface (from original) {Zom}.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2008 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "updownclient.h"
+#include "ClientUDPSocket.h"
+#include "opcodes.h"
+#include "SharedFileList.h"
+#include "otherfunctions.h"
+#include "UploadQueue.h"
+#include "SafeFile.h"
+#include "IPFilter.h"
+#include "packets.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#define new DEBUG_NEW
+#endif
+
+struct UDPPack
+{
+	Packet	*packet;
+	uint32	dwIP;
+	uint16	nPort;
+	bool	bEncrypt;
+	bool	bKad;
+	uint32	dwReceiverVerifyKey;
+	uchar	abyteTargetClientHashORKadID[16];
+};
+
+CClientUDPSocket::CClientUDPSocket()
+{
+	m_bWouldBlock = false;
+}
+
+CClientUDPSocket::~CClientUDPSocket()
+{
+}
+
+void CClientUDPSocket::OnReceive(int iErrorCode)
+{
+	NOPRM(iErrorCode);
+	EMULE_TRY
+
+	byte 		abyteBuffer[5000], *pBuffer;
+	SOCKADDR_IN sockAddr = {0};
+	int 			iSockAddrLen = sizeof(sockAddr);
+	int 			iRealLen = ReceiveFrom(abyteBuffer, sizeof(abyteBuffer), (SOCKADDR*)&sockAddr, &iSockAddrLen);
+
+	if (g_App.m_pIPFilter->IsFiltered(sockAddr.sin_addr.S_un.S_addr))
+	{
+		InterlockedIncrement(&g_App.m_lIncomingFiltered);
+		InterlockedIncrement(&g_App.m_lTotalFiltered);
+	}
+	else
+	{
+		const TCHAR	*pcError = NULL;
+		uint32		nReceiverVerifyKey;
+		uint32		nSenderVerifyKey;
+		int			iPacketLen = DecryptReceivedClient(abyteBuffer, iRealLen, &pBuffer, sockAddr.sin_addr.S_un.S_addr, &nReceiverVerifyKey, &nSenderVerifyKey);
+
+		if (iPacketLen >= 2)
+		{
+			try
+			{
+				switch (pBuffer[0])
+				{
+					case OP_EMULEPROT:
+						ProcessPacket(pBuffer + 2, iPacketLen - 2, pBuffer[1], sockAddr.sin_addr.S_un.S_addr, fast_ntohs(sockAddr.sin_port));
+						break;
+					default:
+						pcError = _T("Unknown protocol");
+						break;
+				}
+			}
+			catch(CFileException* error)
+			{
+				OUTPUT_DEBUG_TRACE();
+				error->Delete();
+				pcError = _T("Invalid packet received");
+			}
+			catch(CMemoryException* error)
+			{
+				OUTPUT_DEBUG_TRACE();
+				error->Delete();
+				pcError = _T("Memory exception");
+			}
+			catch(CString error)
+			{
+				OUTPUT_DEBUG_TRACE();
+				AddLogLine( LOG_FL_DBG | LOG_RGB_INDIAN_RED, _T("Client %s:%u caused UDP packet (prot=%#x opcode=%#x DecryptSz=%u RealSz=%u) processing error: %s"),
+					ipstr(sockAddr.sin_addr), fast_ntohs(sockAddr.sin_port), pBuffer[0], pBuffer[1], iPacketLen, iRealLen, error );
+			}
+			catch (...)
+			{
+				OUTPUT_DEBUG_TRACE();
+				pcError = _T("Unknown exception");
+			}
+		}
+		else if (iPacketLen > 0)
+			pcError = _T("Packet too short");
+		else if (iPacketLen == SOCKET_ERROR)
+		{
+		}
+
+		if (pcError != NULL)
+		{
+			AddLogLine( LOG_FL_DBG | LOG_RGB_INDIAN_RED, _T("Client %s:%u caused UDP packet (prot=%#x opcode=%#x DecryptSz=%u RealSz=%u) processing error: %s"),
+				ipstr(sockAddr.sin_addr), fast_ntohs(sockAddr.sin_port), pBuffer[0], pBuffer[1], iPacketLen, iRealLen, pcError );
+		}
+	}
+
+	EMULE_CATCH
+}
+
+bool CClientUDPSocket::ProcessPacket(byte *pbytePacket, uint32 dwSize, byte opcode, uint32 dwIP, uint16 port)
+{
+	switch (opcode)
+	{
+		case OP_REASKFILEPING:
+		{
+			g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+		//	Check pbytePacket size
+			if (dwSize < 16)
+			{
+				ASSERT (false);
+				break;
+			}
+
+		//	Look up the requested file hash in our shared files list
+			CKnownFile		*pKnownFile = g_App.m_pSharedFilesList->GetFileByID(reinterpret_cast<BYTE*>(pbytePacket));
+			bool			bSenderMultipleIpUnknown = false;
+			CUpDownClient	*pClient = g_App.m_pUploadQueue->GetWaitingClientByIP_UDP(dwIP, port, &bSenderMultipleIpUnknown);
+
+			if (pKnownFile == NULL)	//	If it's not there...
+			{
+				Packet		*pResponsePacket = new Packet(OP_FILENOTFOUND, 0, OP_EMULEPROT);
+
+				g_App.m_pUploadQueue->AddUpDataOverheadFileRequest(pResponsePacket->m_dwSize);
+				if (pClient != NULL)
+					SendPacket(pResponsePacket, dwIP, port, pClient->ShouldReceiveCryptUDPPackets(), pClient->GetUserHash(), false, 0);
+				else
+					SendPacket(pResponsePacket, dwIP, port, false, NULL, false, 0);
+				break;
+			}
+
+			if (pClient != NULL)	//	If the client is waiting in our upload queue...
+			{
+			//	Make sure that the request is still for the same file
+				if (md4cmp(pbytePacket, pClient->GetUploadFileID()) == 0)
+				{
+					pClient->AddAskedCount();
+					pClient->SetLastUpRequest();
+					pClient->SetLastL2HACExecution();
+
+					if (pClient->GetUDPVersion() > 3)
+					{
+						//	Don't reply when packet format doesn't fit UDP version or
+						//	received packet is for a wrong file
+						if (dwSize < 20)
+							break;
+
+						CSafeMemFile	pktInStrm(pbytePacket + 16, dwSize - 16);
+
+						if (!pClient->ProcessExtendedInfo(&pktInStrm, pKnownFile))
+							break;
+					}
+					else if (pClient->GetUDPVersion() > 2)
+					{
+						if (dwSize < 18)
+							break;	//don't reply when packet format doesn't fit UDP version
+						uint16 nCompleteCountLast = pClient->GetUpCompleteSourcesCount();
+						uint16 nCompleteCountNew = PEEK_WORD(pbytePacket + 16);
+						pClient->SetUpCompleteSourcesCount(nCompleteCountNew);
+						if (nCompleteCountLast != nCompleteCountNew)
+							pKnownFile->CalculateCompleteSources();
+					}
+
+					CSafeMemFile	packetStream(128);
+
+					if (pClient->GetUDPVersion() > 3)
+					{
+						if (pKnownFile->IsPartFile())
+							((CPartFile*)pKnownFile)->WritePartStatus(&packetStream);
+						else if (pKnownFile->GetJumpstartEnabled())
+							pKnownFile->WriteJumpstartPartStatus(pClient, &packetStream);
+						else if (pKnownFile->HasHiddenParts())
+							pKnownFile->WritePartStatus(&packetStream);
+						else
+						{
+							uint16	uNull = 0;
+
+							packetStream.Write(&uNull, 2);
+						}
+					}
+
+					uint16	uWaitingPos = g_App.m_pUploadQueue->GetWaitingPosition(pClient);
+
+					packetStream.Write(&uWaitingPos, 2);
+
+					Packet	*pPacket = new Packet(&packetStream, OP_EMULEPROT);
+
+					pPacket->m_eOpcode = OP_REASKACK;
+					g_App.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+					SendPacket(pPacket, dwIP, port, pClient->ShouldReceiveCryptUDPPackets(), pClient->GetUserHash(), false, 0);
+				}
+			}
+			else	//	If the client isn't currently in our upload queue...
+			{
+				// Don't answer him. We probably have him on our queue already, but can't locate him. Force him to establish a TCP connection
+				if (!bSenderMultipleIpUnknown)
+				{
+				//	... and there are less than 50 slots free in our upload queue...
+					if ((static_cast<uint32>(g_App.m_pUploadQueue->GetWaitingUserCount()) + 50) > g_App.m_pPrefs->GetQueueSize())
+					{
+						Packet		*pPacket = new Packet(OP_QUEUEFULL, 0, OP_EMULEPROT);
+
+						g_App.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+						SendPacket(pPacket, dwIP, port, false, NULL, false, 0);
+					}
+				}
+				else
+					AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("UDP Packet received - multiple clients with the same IP but different UDP port found. Possible UDP Portmapping problem, enforcing TCP connection. IP: %s, Port: %u"), ipstr(dwIP), port);
+			}
+			break;
+		}
+		case OP_QUEUEFULL:
+		{
+			g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+
+			CUpDownClient		*pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port);
+
+			if ((pClient != NULL) && pClient->IsUDPFileReqPending())
+			{
+				pClient->UDPReaskACK(0);
+			}
+			break;
+		}
+		case OP_REASKACK:
+		{
+			g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+
+			CUpDownClient		*pClient;
+
+		//	Drop the packet if... 
+		//	... it has invalid length or sender is unknown
+			if ((dwSize < 2) || ((pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port)) == NULL))
+				break;
+
+		//	... we didn't request any file from this client
+			if (pClient->m_pReqPartFile == NULL)
+				break;
+			if (!pClient->IsUDPFileReqPending())
+				break;
+
+			CSafeMemFile packetStream(pbytePacket, dwSize);
+
+			if ((dwSize >= 4) && (pClient->GetUDPVersion() > 3))
+			{
+				pClient->ProcessFileStatus(packetStream, true);
+			}
+
+			uint16		uRank;
+
+			packetStream.Read(&uRank, 2);
+			pClient->UDPReaskACK(uRank);
+			break;
+		}
+		case OP_FILENOTFOUND:
+		{
+			g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+
+			CUpDownClient		*pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port);
+
+			if ((pClient != NULL) && pClient->IsUDPFileReqPending())
+			{
+				pClient->UDPReaskFNF();
+			}
+			break;
+		}
+		default:
+			g_App.m_pDownloadQueue->AddDownDataOverheadOther(dwSize);
+			return false;
+	}
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	From MSDN:
+//	The following error codes apply to the OnSend member function: 
+//	0           - The function executed successfully. 
+//	WSAENETDOWN - The Windows Sockets implementation detected that the network subsystem failed.
+//
+//	NOTE: In second case we need also to unblock the socket to be able send a packets on reconnect & to process
+//	the packet queue in order to clear the queue in natural way.
+void CClientUDPSocket::OnSend(int iErrorCode)
+{
+	m_bWouldBlock = false;
+
+	EMULE_TRY
+
+	while (!m_controlPacketQueue.IsEmpty() && !IsBusy())
+	{
+		uint32		dwLen;
+		UDPPack		*pCurPacket = m_controlPacketQueue.GetHead();
+		byte 		*pbyteSendBuf = NULL;
+
+		if (iErrorCode != 0)
+			goto QueCleanup;
+		dwLen = pCurPacket->packet->m_dwSize + 2;
+		pbyteSendBuf = new byte[dwLen];
+		memcpy(pbyteSendBuf, pCurPacket->packet->GetUDPHeader(), 2);
+		memcpy2(pbyteSendBuf + 2, pCurPacket->packet->m_pcBuffer, pCurPacket->packet->m_dwSize);
+
+		if (pCurPacket->bEncrypt && ((g_App.GetPublicIP() != 0) || pCurPacket->bKad))
+		{
+			dwLen = EncryptSendClient(&pbyteSendBuf, dwLen, pCurPacket->abyteTargetClientHashORKadID,
+				pCurPacket->bKad, pCurPacket->dwReceiverVerifyKey,
+#ifdef _KAD_READY
+				(pCurPacket->bKad) ? Kademlia::CPrefs::GetUDPVerifyKey(pCurPacket->dwIP) : 0
+#else
+				0
+#endif
+				);
+		}
+	//	Remove the packet if it was sent or it's impossible to send due to non-handled error
+		if (SendTo(pbyteSendBuf, dwLen, pCurPacket->dwIP, pCurPacket->nPort) >= 0)
+		{
+QueCleanup:
+			m_controlPacketQueue.RemoveHead();
+			delete pCurPacket->packet;
+			delete pCurPacket;
+		}
+		delete[] pbyteSendBuf;
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CClientUDPSocket::SendTo(const void *pcBuf, int iBufLen, uint32 dwIP, uint16 nPort)
+{
+	EMULE_TRY
+
+	int			iResult;
+	uint32			dwError;
+	SOCKADDR_IN		sockAddr = {0};
+
+	sockAddr.sin_family = AF_INET;
+	sockAddr.sin_port = fast_htons(nPort);
+	sockAddr.sin_addr.s_addr = dwIP;
+
+	iResult = CAsyncSocket::SendTo(pcBuf, iBufLen, reinterpret_cast<SOCKADDR*>(&sockAddr), sizeof(sockAddr));
+	if (iResult == SOCKET_ERROR)
+	{
+		dwError = ::WSAGetLastError();
+		if (dwError == WSAEWOULDBLOCK)
+		{
+			m_bWouldBlock = true;
+			return -1;
+		}
+		else
+		{
+			AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, _T("UDP packet sending error (%u)"), dwError);
+			return 0;
+		}
+	}
+
+#if 1
+	if (iResult != iBufLen)
+		AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Incomplete packet was sent %u from %u"), iBufLen, iResult);
+#endif
+
+	return iResult;
+
+	EMULE_CATCH
+
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CClientUDPSocket::SendPacket(Packet *packet, uint32 dwIP, uint16 nPort, bool bEncrypt, const uchar *pachTargetClientHashORKadID, bool bKad, uint32 nReceiverVerifyKey)
+{
+	EMULE_TRY
+	UDPPack		*newpending = new UDPPack;
+
+	newpending->dwIP = dwIP;
+	newpending->nPort = nPort;
+	newpending->packet = packet;
+	newpending->bEncrypt = bEncrypt && (pachTargetClientHashORKadID != NULL || (bKad && nReceiverVerifyKey != 0));
+	newpending->bKad = bKad;
+	newpending->dwReceiverVerifyKey = nReceiverVerifyKey;
+	if (bEncrypt && (pachTargetClientHashORKadID != NULL))
+		md4cpy(newpending->abyteTargetClientHashORKadID, pachTargetClientHashORKadID);
+	else
+		md4clr(newpending->abyteTargetClientHashORKadID);
+
+//	use a FIFO principle in case if some packets were already queued
+	if (IsBusy() || !m_controlPacketQueue.IsEmpty())
+	{
+		m_controlPacketQueue.AddTail(newpending);
+		return true;
+	}
+
+	char 		*pcSendBuffer = new char[packet->m_dwSize + 2];
+
+	memcpy(pcSendBuffer, packet->GetUDPHeader(), 2);
+	memcpy2(pcSendBuffer + 2, packet->m_pcBuffer, packet->m_dwSize);
+	if (SendTo(pcSendBuffer, packet->m_dwSize + 2, dwIP, nPort) < 0)
+	{
+		m_controlPacketQueue.AddTail(newpending);
+	}
+	else
+	{
+		delete newpending->packet;
+		delete newpending;
+	}
+	delete[] pcSendBuffer;
+
+	return true;
+	EMULE_CATCH
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CClientUDPSocket::Create()
+{
+	EMULE_TRY
+	if (g_App.m_pPrefs->GetUDPPort())
+		return (CAsyncSocket::Create(g_App.m_pPrefs->GetUDPPort(), SOCK_DGRAM, FD_READ | FD_WRITE, g_App.m_pPrefs->GetBindAddr()) != FALSE);
+	else
+		return true;
+	EMULE_CATCH
+	return false;
+}
+@
+
+
+1.71
+log
+@Slightly better packet exception processing; Reduced H-file dependency.
+@
+text
+@d442 1
+a442 1
+		return (CAsyncSocket::Create(g_App.m_pPrefs->GetUDPPort(), SOCK_DGRAM, (FD_READ | FD_WRITE)) != FALSE);
+@
+
+
+1.70
+log
+@Ignore incoming UDP response packets which were not requested (from original);
+Encryption preparations; Reorganized packet execption handling.
+@
+text
+@d28 1
+d88 2
+a89 1
+						throw CString(_T("Unknown protocol"));
+@
+
+
+1.69
+log
+@Fixed wrong statistics for Rx UDP file not found packet; Encryption preparations.
+@
+text
+@a34 2
+#define ERR_UDP_MISCONFIGURED _T("Error while processing incoming UDP packet")
+
+d60 1
+a60 1
+	byte 		abyteBuffer[5000];
+d63 1
+a63 1
+	int 			iLength = ReceiveFrom(abyteBuffer, sizeof(abyteBuffer), (SOCKADDR*)&sockAddr, &iSockAddrLen);
+d70 1
+a70 5
+	else if (iLength >= 2 && abyteBuffer[0] == OP_EMULEPROT)
+	{
+		ProcessPacket(abyteBuffer + 2, iLength - 2, abyteBuffer[1], sockAddr.sin_addr.S_un.S_addr, fast_ntohs(sockAddr.sin_port));
+	}
+	else if (iLength == SOCKET_ERROR)
+d72 53
+d132 1
+a132 1
+	try
+d134 1
+a134 1
+		switch (opcode)
+d136 3
+a138 1
+			case OP_REASKFILEPING:
+d140 3
+a142 7
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+			//	Check pbytePacket size
+				if (dwSize < 16)
+				{
+					ASSERT (false);
+					break;
+				}
+d144 4
+a147 4
+			//	Look up the requested file hash in our shared files list
+				CKnownFile		*pKnownFile = g_App.m_pSharedFilesList->GetFileByID(reinterpret_cast<BYTE*>(pbytePacket));
+				bool			bSenderMultipleIpUnknown = false;
+				CUpDownClient	*pClient = g_App.m_pUploadQueue->GetWaitingClientByIP_UDP(dwIP, port, &bSenderMultipleIpUnknown);
+d149 3
+a151 3
+				if (pKnownFile == NULL)	//	If it's not there...
+				{
+					Packet		*pResponsePacket = new Packet(OP_FILENOTFOUND, 0, OP_EMULEPROT);
+d153 7
+a159 7
+					g_App.m_pUploadQueue->AddUpDataOverheadFileRequest(pResponsePacket->m_dwSize);
+					if (pClient != NULL)
+						SendPacket(pResponsePacket, dwIP, port, pClient->ShouldReceiveCryptUDPPackets(), pClient->GetUserHash(), false, 0);
+					else
+						SendPacket(pResponsePacket, dwIP, port, false, NULL, false, 0);
+					break;
+				}
+d161 4
+a164 1
+				if (pClient != NULL)	//	If the client is waiting in our upload queue...
+d166 5
+a170 2
+				//	Make sure that the request is still for the same file
+					if (md4cmp(pbytePacket, pClient->GetUploadFileID()) == 0)
+d172 4
+a175 3
+						pClient->AddAskedCount();
+						pClient->SetLastUpRequest();
+						pClient->SetLastL2HACExecution();
+d177 1
+a177 6
+						if (pClient->GetUDPVersion() > 3)
+						{
+							//	Don't reply when packet format doesn't fit UDP version or
+							//	received packet is for a wrong file
+							if (dwSize < 20)
+								break;
+d179 13
+a191 1
+							CSafeMemFile	pktInStrm(pbytePacket + 16, dwSize - 16);
+d193 1
+a193 13
+							if (!pClient->ProcessExtendedInfo(&pktInStrm, pKnownFile))
+								break;
+						}
+						else if (pClient->GetUDPVersion() > 2)
+						{
+							if (dwSize < 18)
+								break;	//don't reply when packet format doesn't fit UDP version
+							uint16 nCompleteCountLast = pClient->GetUpCompleteSourcesCount();
+							uint16 nCompleteCountNew = PEEK_WORD(pbytePacket + 16);
+							pClient->SetUpCompleteSourcesCount(nCompleteCountNew);
+							if (nCompleteCountLast != nCompleteCountNew)
+								pKnownFile->CalculateCompleteSources();
+						}
+d195 9
+a203 3
+						CSafeMemFile	packetStream(128);
+
+						if (pClient->GetUDPVersion() > 3)
+d205 1
+a205 9
+							if (pKnownFile->IsPartFile())
+								((CPartFile*)pKnownFile)->WritePartStatus(&packetStream);
+							else if (pKnownFile->GetJumpstartEnabled())
+								pKnownFile->WriteJumpstartPartStatus(pClient, &packetStream);
+							else if (pKnownFile->HasHiddenParts())
+								pKnownFile->WritePartStatus(&packetStream);
+							else
+							{
+								uint16	uNull = 0;
+d207 1
+a207 2
+								packetStream.Write(&uNull, 2);
+							}
+d209 1
+d211 1
+a211 1
+						uint16	uWaitingPos = g_App.m_pUploadQueue->GetWaitingPosition(pClient);
+d213 1
+a213 1
+						packetStream.Write(&uWaitingPos, 2);
+d215 1
+a215 1
+						Packet	*pPacket = new Packet(&packetStream, OP_EMULEPROT);
+d217 3
+a219 4
+						pPacket->m_eOpcode = OP_REASKACK;
+						g_App.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+						SendPacket(pPacket, dwIP, port, pClient->ShouldReceiveCryptUDPPackets(), pClient->GetUserHash(), false, 0);
+					}
+d221 5
+a225 1
+				else	//	If the client isn't currently in our upload queue...
+d227 2
+a228 2
+					// Don't answer him. We probably have him on our queue already, but can't locate him. Force him to establish a TCP connection
+					if (!bSenderMultipleIpUnknown)
+d230 1
+a230 4
+					//	... and there are less than 50 slots free in our upload queue...
+						if ((static_cast<uint32>(g_App.m_pUploadQueue->GetWaitingUserCount()) + 50) > g_App.m_pPrefs->GetQueueSize())
+						{
+							Packet		*pPacket = new Packet(OP_QUEUEFULL, 0, OP_EMULEPROT);
+d232 2
+a233 3
+							g_App.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+							SendPacket(pPacket, dwIP, port, false, NULL, false, 0);
+						}
+a234 2
+					else
+						AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("UDP Packet received - multiple clients with the same IP but different UDP port found. Possible UDP Portmapping problem, enforcing TCP connection. IP: %s, Port: %u"), ipstr(dwIP), port);
+d236 2
+a237 1
+				break;
+d239 9
+a247 1
+			case OP_QUEUEFULL:
+d249 7
+a255 1
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+d257 1
+a257 1
+				CUpDownClient		*pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port);
+d259 3
+a261 4
+				if (pClient != NULL)
+				{
+					pClient->UDPReaskACK(0);
+				}
+a262 4
+			}
+			case OP_REASKACK:
+			{
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+d264 5
+a268 1
+				CUpDownClient		*pClient;
+d270 1
+a270 4
+			//	Drop the packet if... 
+			//	... it has invalid length or sender is unknown
+				if ((dwSize < 2) || ((pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port)) == NULL))
+					break;
+d272 4
+a275 3
+			//	... we didn't request any file from this client
+				if (pClient->m_pReqPartFile == NULL)
+					break;
+d277 1
+a277 1
+				CSafeMemFile packetStream(pbytePacket, dwSize);
+d279 7
+a285 4
+				if ((dwSize >= 4) && (pClient->GetUDPVersion() > 3))
+				{
+					pClient->ProcessFileStatus(packetStream, true);
+				}
+d287 1
+a287 1
+				uint16		uRank;
+d289 1
+a289 5
+				packetStream.Read(&uRank, 2);
+				pClient->UDPReaskACK(uRank);
+				break;
+			}
+			case OP_FILENOTFOUND:
+d291 1
+a291 9
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(dwSize);
+
+				CUpDownClient		*pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port);
+
+				if (pClient != NULL)
+				{
+					pClient->UDPReaskFNF();
+				}
+				break;
+d293 1
+a293 3
+			default:
+				g_App.m_pDownloadQueue->AddDownDataOverheadOther(dwSize);
+				return false;
+d295 3
+a297 1
+		return true;
+d299 1
+a299 23
+	catch(CFileException* error)
+	{
+		OUTPUT_DEBUG_TRACE();
+		error->Delete();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, ERR_UDP_MISCONFIGURED _T(" - CFileException"));
+	}
+	catch(CMemoryException* error)
+	{
+		OUTPUT_DEBUG_TRACE();
+		error->Delete();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, ERR_UDP_MISCONFIGURED _T(" - CMemoryException"));
+	}
+	catch(CString error)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, ERR_UDP_MISCONFIGURED _T(" - ") + error);
+	}
+	catch (...)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, ERR_UDP_MISCONFIGURED);
+	}
+	return false;
+@
+
+
+1.68
+log
+@Encryption preparations.
+@
+text
+@d99 1
+a99 1
+			//	Look up the requested file hash in our shared files list.
+d101 2
+a102 1
+				CUpDownClient	*pClient = g_App.m_pUploadQueue->GetWaitingClientByIP_UDP(dwIP, port, NULL);
+d177 1
+a177 2
+			//	If the client isn't currently in our upload queue...
+				else
+d179 2
+a180 2
+				//	... and there are less than 50 slots free in our upload queue...
+					if ((static_cast<uint32>(g_App.m_pUploadQueue->GetWaitingUserCount()) + 50) > g_App.m_pPrefs->GetQueueSize())
+d182 4
+a185 1
+						Packet		*pPacket = new Packet(OP_QUEUEFULL, 0, OP_EMULEPROT);
+d187 3
+a189 2
+						g_App.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+						SendPacket(pPacket, dwIP, port, false, NULL, false, 0);
+d191 2
+d246 1
+a246 3
+				else
+				//	ASSERT (false); //Need to double check these asserts to make sure it's running well.
+					break;
+d294 1
+d296 1
+a296 1
+		char 		*pcSendBuffer = new char[pCurPacket->packet->m_dwSize + 2];
+d298 6
+a303 2
+		memcpy(pcSendBuffer, pCurPacket->packet->GetUDPHeader(), 2);
+		memcpy2(pcSendBuffer + 2, pCurPacket->packet->m_pcBuffer, pCurPacket->packet->m_dwSize);
+d305 11
+d317 1
+a317 2
+		if (iErrorCode != 0 
+			|| (SendTo(pcSendBuffer, pCurPacket->packet->m_dwSize + 2, pCurPacket->dwIP, pCurPacket->nPort) >= 0) )
+d319 1
+d324 1
+a324 1
+		delete[] pcSendBuffer;
+d330 1
+a330 1
+int CClientUDPSocket::SendTo(const char *pcBuf, int iBufLen, uint32 dwIP, uint16 nPort)
+@
+
+
+1.67
+log
+@Fast byte swap for ntohl and ntohs.
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d25 1
+d35 1
+a35 1
+#define	ERR_UDP_MISCONFIGURED _T("Error while processing incoming UDP packet")
+d39 7
+a45 3
+	Packet* packet;
+	uint32 dwIP;
+	uint16 nPort;
+d101 1
+d103 1
+a103 2
+			//	If it's not there...
+				if (pKnownFile == NULL)
+d108 4
+a111 1
+					SendPacket(pResponsePacket, dwIP, port);
+a114 2
+				CUpDownClient	*pClient = g_App.m_pUploadQueue->GetWaitingClientByIPAndUDPPort(dwIP, port);
+
+d173 1
+a173 1
+						SendPacket(pPacket, dwIP, port);
+d185 1
+a185 1
+						SendPacket(pPacket, dwIP, port);
+d350 1
+a350 1
+bool CClientUDPSocket::SendPacket(Packet* packet, uint32 dwIP, uint16 nPort)
+d358 7
+@
+
+
+1.66
+log
+@Unified ProcessExtendedInfo processing.
+@
+text
+@d69 1
+a69 1
+		ProcessPacket(abyteBuffer + 2, iLength - 2, abyteBuffer[1], sockAddr.sin_addr.S_un.S_addr, ntohs(sockAddr.sin_port));
+@
+
+
+1.65
+log
+@Reduced #include dependency.
+@
+text
+@a119 3
+							if ( (dwSize < 20) ||
+								!pClient->ProcessExtendedInfo(pbytePacket, dwSize, pKnownFile) )
+							{
+d122 6
+a128 1
+							}
+@
+
+
+1.64
+log
+@Added multipacket encoding support (helps to combine several packets together for p2p handshaking, as a result slightly reduces overhead and handshaking time) [eklmn/Aw3].
+@
+text
+@d26 1
+@
+
+
+1.63
+log
+@Simplified logging system implementation.
+@
+text
+@a190 1
+			//	ASSERT (false); //Need to double check these asserts to make sure it's running well.
+d199 4
+a202 3
+				if ((dwSize >= 2) && ((pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port)) != NULL))
+				{
+					CSafeMemFile packetStream(pbytePacket, dwSize);
+d204 3
+a206 4
+					if ((dwSize >= 4) && (pClient->GetUDPVersion() > 3))
+					{
+						pClient->ProcessFileStatus(&packetStream, pClient->m_pReqPartFile, true);
+					}
+d208 1
+a208 1
+					uint16		uRank;
+d210 6
+a215 1
+					packetStream.Read(&uRank, 2);
+d217 2
+a218 4
+					pClient->UDPReaskACK(uRank);
+				}
+			//	else
+			//	ASSERT (false);//Need to double check these asserts to make sure it's running well.
+@
+
+
+1.62
+log
+@Reduced H-file dependency.
+@
+text
+@d243 1
+a243 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED _T(" - CFileException"));
+d249 1
+a249 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED _T(" - CMemoryException"));
+d254 1
+a254 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED _T(" - ") + error);
+d259 1
+a259 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED);
+d322 1
+a322 1
+			AddDebugLogLine(RGB_LOG_ERROR_TXT _T("UDP packet sending error (%u)"), dwError);
+d329 1
+a329 1
+		AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Incomplete packet was sent %u from %u"), iBufLen, iResult);
+@
+
+
+1.61
+log
+@Reduced H-file dependency.
+@
+text
+@d23 1
+@
+
+
+1.60
+log
+@Faster (intrinsic) htonl and htons implementation.
+@
+text
+@d20 1
+@
+
+
+1.59
+log
+@Suppressed compiler warnings; Formatting.
+@
+text
+@d306 1
+a306 1
+	sockAddr.sin_port = htons(nPort);
+@
+
+
+1.58
+log
+@Reduced #include dependency.
+@
+text
+@a17 2
+//	ClientUDPSocket.cpp : implementation file
+
+d33 7
+d49 1
+a49 1
+void CClientUDPSocket::OnReceive(int nErrorCode)
+d51 1
+d75 1
+a75 1
+bool CClientUDPSocket::ProcessPacket(byte* pbytePacketBuf, uint16 size, byte opcode, uint32 dwIP, uint16 port)
+d83 3
+a85 3
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+			//	Check pbytePacketBuf size
+				if (size < 16)
+d92 1
+a92 1
+				CKnownFile		*pKnownFile = g_App.m_pSharedFilesList->GetFileByID(reinterpret_cast<BYTE*>(pbytePacketBuf));
+d109 1
+a109 1
+					if (md4cmp(pbytePacketBuf, pClient->GetUploadFileID()) == 0)
+d117 2
+a118 2
+							if ( (size < 20) ||
+								!pClient->ProcessExtendedInfo(pbytePacketBuf, size, pKnownFile) )
+d127 1
+a127 1
+							if (size < 18)
+d130 1
+a130 1
+							uint16 nCompleteCountNew = PEEK_WORD(pbytePacketBuf + 16);
+d181 1
+a181 1
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+d194 1
+a194 1
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+d198 1
+a198 1
+				if ((size >= 2) && ((pClient = g_App.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port)) != NULL))
+d200 1
+a200 1
+					CSafeMemFile packetStream(pbytePacketBuf, size);
+d202 1
+a202 1
+					if ((size >= 4) && (pClient->GetUDPVersion() > 3))
+d219 1
+a219 1
+				g_App.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+d232 1
+a232 1
+				g_App.m_pDownloadQueue->AddDownDataOverheadOther(size);
+d297 1
+a297 1
+int CClientUDPSocket::SendTo(char* lpBuf, int iBufLen, uint32 dwIP, uint16 nPort)
+d309 1
+a309 1
+	iResult = CAsyncSocket::SendTo(lpBuf, iBufLen, reinterpret_cast<SOCKADDR*>(&sockAddr), sizeof(sockAddr));
+d377 1
+a377 1
+		return CAsyncSocket::Create(g_App.m_pPrefs->GetUDPPort(), SOCK_DGRAM, (FD_READ | FD_WRITE));
+@
+
+
+1.57
+log
+@Reverted back minor performance loss.
+@
+text
+@d25 1
+@
+
+
+1.56
+log
+@1) prevent the ip-adress reconversion (BlueSonic)
+2) drop the packet in case of non-handled error
+3) clear the packet queue if network is down
+@
+text
+@d273 1
+a273 1
+		memcpy2(pcSendBuffer, pCurPacket->packet->GetUDPHeader(), 2);
+d276 1
+a276 1
+	//	Remove the packet if it was sent or it's impossible to send due to non-handled error.
+d348 1
+a348 1
+	memcpy2(pcSendBuffer, packet->GetUDPHeader(), 2);
+@
+
+
+1.55
+log
+@Minor improvements while preparation of UDP packets.
+@
+text
+@d254 11
+a265 2
+void CClientUDPSocket::OnSend(int nErrorCode)
+{
+d267 2
+a268 1
+	if (nErrorCode)
+d270 9
+a278 10
+		return;
+	}
+	m_bWouldBlock = false;
+	while (m_controlPacketQueue.GetHeadPosition() != 0 && !IsBusy())
+	{
+		UDPPack * cur_packet = m_controlPacketQueue.GetHead();
+		char* pcSendBuffer = new char[cur_packet->packet->m_dwSize + 2];
+		memcpy(pcSendBuffer, cur_packet->packet->GetUDPHeader(), 2);
+		memcpy2(pcSendBuffer + 2, cur_packet->packet->m_pcBuffer, cur_packet->packet->m_dwSize);
+		if (!SendTo(pcSendBuffer, cur_packet->packet->m_dwSize + 2, cur_packet->dwIP, cur_packet->nPort))
+d281 2
+a282 2
+			delete cur_packet->packet;
+			delete cur_packet;
+d286 1
+d289 2
+a290 2
+
+int CClientUDPSocket::SendTo(char* lpBuf, int nBufLen, uint32 dwIP, uint16 nPort)
+d294 10
+a303 2
+	uint32 result = CAsyncSocket::SendTo(lpBuf, nBufLen, nPort, ipstr(dwIP));
+	if (result == (uint32)SOCKET_ERROR)
+d305 2
+a306 2
+		uint32 error = GetLastError();
+		if (error == WSAEWOULDBLOCK)
+d313 2
+a314 1
+			return -1;
+d317 8
+d326 1
+d329 1
+a329 2
+
+
+d333 2
+a334 1
+	UDPPack * newpending = new UDPPack;
+d338 3
+a340 1
+	if (IsBusy())
+d345 4
+a348 2
+	char* pcSendBuffer = new char[packet->m_dwSize + 2];
+	memcpy(pcSendBuffer, packet->GetUDPHeader(), 2);
+d350 1
+a350 1
+	if (SendTo(pcSendBuffer, packet->m_dwSize + 2, dwIP, nPort))
+d360 1
+d365 1
+a365 1
+
+d370 1
+a370 1
+		return CAsyncSocket::Create(g_App.m_pPrefs->GetUDPPort(), SOCK_DGRAM, FD_READ);
+@
+
+
+1.54
+log
+@Don't answer UDP reasks with mismatch part count; Unified packet buffer type.
+@
+text
+@d267 1
+a267 1
+		memcpy2(pcSendBuffer, cur_packet->packet->GetUDPHeader(), 2);
+d316 1
+a316 1
+	memcpy2(pcSendBuffer, packet->GetUDPHeader(), 2);
+@
+
+
+1.53
+log
+@Unicode preparations; Removed useless redefinition.
+@
+text
+@d32 1
+a32 1
+#define	ERR_UDP_MISCONFIGURED _T("Error while processing incoming UDP Packet")
+d99 1
+a99 2
+			//	If the client is waiting in our upload queue...
+				if (pClient != NULL)
+d110 7
+a116 3
+							if (size < 20)
+								break;	//don't reply when packet format doesn't fit UDP version
+							pClient->ProcessUpFileStatus(reinterpret_cast<CHAR*>(pbytePacketBuf), size);
+d123 1
+a123 1
+							uint16 nCompleteCountNew = *(uint16*)(pbytePacketBuf + 16);
+@
+
+
+1.52
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d280 2
+a281 6
+	in_addr host;
+	host.S_un.S_addr = dwIP;
+//	By Maverick Added CClientUDPSocketBaseClass
+//	to make it easier to change BaseSocket
+	CString s(inet_ntoa(host));
+	uint32 result = CClientUDPSocketBaseClass::SendTo(lpBuf, nBufLen, nPort, s);
+a291 3
+			/*Barry - Ignore assert
+						ASSERT ( false );
+			*/
+d334 1
+a334 3
+	//	By Maverick Added CClientUDPSocketBaseClass
+	//	to make it easier to change BaseSocket
+		return CClientUDPSocketBaseClass::Create(g_App.m_pPrefs->GetUDPPort(), SOCK_DGRAM, FD_READ);
+@
+
+
+1.51
+log
+@renamed 3 variables
+@
+text
+@d159 1
+a159 1
+					if ((static_cast<uint32>(g_App.m_pUploadQueue->GetWaitingUserCount()) + 50) > g_App.g_pPrefs->GetQueueSize())
+d340 1
+a340 1
+	if (g_App.g_pPrefs->GetUDPPort())
+d343 1
+a343 1
+		return CClientUDPSocketBaseClass::Create(g_App.g_pPrefs->GetUDPPort(), SOCK_DGRAM, FD_READ);
+@
+
+
+1.50
+log
+@Don't answer to improperly prepared OP_REASKFILEPING packets.
+@
+text
+@d52 1
+a52 1
+	if (g_eMuleApp.m_pIPFilter->IsFiltered(sockAddr.sin_addr.S_un.S_addr))
+d54 2
+a55 2
+		InterlockedIncrement(&g_eMuleApp.m_lIncomingFiltered);
+		InterlockedIncrement(&g_eMuleApp.m_lTotalFiltered);
+d76 1
+a76 1
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+d85 1
+a85 1
+				CKnownFile		*pKnownFile = g_eMuleApp.m_pSharedFilesList->GetFileByID(reinterpret_cast<BYTE*>(pbytePacketBuf));
+d92 1
+a92 1
+					g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(pResponsePacket->m_dwSize);
+d97 1
+a97 1
+				CUpDownClient	*pClient = g_eMuleApp.m_pUploadQueue->GetWaitingClientByIPAndUDPPort(dwIP, port);
+d144 1
+a144 1
+						uint16	uWaitingPos = g_eMuleApp.m_pUploadQueue->GetWaitingPosition(pClient);
+d151 1
+a151 1
+						g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+d159 1
+a159 1
+					if ((static_cast<uint32>(g_eMuleApp.m_pUploadQueue->GetWaitingUserCount()) + 50) > g_eMuleApp.m_pGlobPrefs->GetQueueSize())
+d163 1
+a163 1
+						g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+d171 1
+a171 1
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+d173 1
+a173 1
+				CUpDownClient		*pClient = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port);
+d184 1
+a184 1
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+d188 1
+a188 1
+				if ((size >= 2) && ((pClient = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port)) != NULL))
+d209 1
+a209 1
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadFileRequest(size);
+d211 1
+a211 1
+				CUpDownClient		*pClient = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(dwIP, port);
+d222 1
+a222 1
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+d340 1
+a340 1
+	if (g_eMuleApp.m_pGlobPrefs->GetUDPPort())
+d343 1
+a343 1
+		return CClientUDPSocketBaseClass::Create(g_eMuleApp.m_pGlobPrefs->GetUDPPort(), SOCK_DGRAM, FD_READ);
+@
+
+
+1.49
+log
+@Answer UDP file status pings only for the requested file.
+@
+text
+@d109 1
+a109 1
+						if ((pClient->GetUDPVersion() > 3) && (size >= 20))
+d111 2
+d115 1
+a115 1
+						else if ((pClient->GetUDPVersion() > 2) && (size >= 18))
+d117 2
+@
+
+
+1.48
+log
+@new way of queue handling
+@
+text
+@d102 6
+a107 3
+					pClient->AddAskedCount();
+					pClient->SetLastUpRequest();
+					pClient->SetLastL2HACExecution();
+d109 12
+a120 12
+					if ((pClient->GetUDPVersion() > 3) && (size >= 20))
+					{
+						pClient->ProcessUpFileStatus(reinterpret_cast<CHAR*>(pbytePacketBuf), size);
+					}
+					else if ((pClient->GetUDPVersion() > 2) && (size >= 18))
+					{
+						uint16 nCompleteCountLast = pClient->GetUpCompleteSourcesCount();
+						uint16 nCompleteCountNew = *(uint16*)(pbytePacketBuf + 16);
+						pClient->SetUpCompleteSourcesCount(nCompleteCountNew);
+						if (nCompleteCountLast != nCompleteCountNew)
+							pKnownFile->CalculateCompleteSources();
+					}
+d122 1
+a122 1
+					CSafeMemFile	packetStream(128);
+d124 1
+a124 9
+					if (pClient->GetUDPVersion() > 3)
+					{
+						if (pKnownFile->IsPartFile())
+							((CPartFile*)pKnownFile)->WritePartStatus(&packetStream);
+						else if (pKnownFile->GetJumpstartEnabled())
+							pKnownFile->WriteJumpstartPartStatus(pClient, &packetStream);
+						else if (pKnownFile->HasHiddenParts())
+							pKnownFile->WritePartStatus(&packetStream);
+						else
+d126 9
+a134 1
+							uint16	uNull = 0;
+d136 2
+a137 1
+							packetStream.Write(&uNull, 2);
+a138 1
+					}
+d140 1
+a140 1
+					uint16	uWaitingPos = g_eMuleApp.m_pUploadQueue->GetWaitingPosition(pClient);
+d142 1
+a142 1
+					packetStream.Write(&uWaitingPos, 2);
+d144 1
+a144 1
+					Packet	*pPacket = new Packet(&packetStream, OP_EMULEPROT);
+d146 4
+a149 3
+					pPacket->m_eOpcode = OP_REASKACK;
+					g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(pPacket->m_dwSize);
+					SendPacket(pPacket, dwIP, port);
+@
+
+
+1.47
+log
+@added skipped rank set. thanks Aw3
+@
+text
+@a169 1
+					pClient->SetReceivedQueueRank();
+a193 1
+					pClient->SetReceivedQueueRank();
+@
+
+
+1.46
+log
+@1. QR highlighting
+2. output "Queue Full" if eMule client did not send QR
+3. possible download abort
+@
+text
+@d170 1
+d195 1
+@
+
+
+1.45
+log
+@Corrected addition of overhead statistics to appropriate group;
+Added missed overhead statistics.
+@
+text
+@a168 1
+					pClient->SetRemoteQueueFull(true);
+a192 1
+					pClient->SetRemoteQueueFull(false);
+@
+
+
+1.44
+log
+@Fixed JumpStart and hidden parts reporting {DopeFish/DoubleT}.
+@
+text
+@d163 1
+a163 1
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+d216 2
+a217 1
+			return false;
+@
+
+
+1.43
+log
+@name corretions according our name convetion
+@
+text
+@d125 4
+@
+
+
+1.42
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d85 1
+a85 1
+				CKnownFile		*m_pReqPartFile = g_eMuleApp.m_pSharedFilesList->GetFileByID(reinterpret_cast<BYTE*>(pbytePacketBuf));
+d88 1
+a88 1
+				if (m_pReqPartFile == NULL)
+d116 1
+a116 1
+							m_pReqPartFile->CalculateCompleteSources();
+d123 2
+a124 2
+						if (m_pReqPartFile->IsPartFile())
+							((CPartFile*)m_pReqPartFile)->WritePartStatus(&packetStream);
+@
+
+
+1.41
+log
+@Corrected message text; Changed messages color; Improved string processing.
+@
+text
+@a101 2
+				//	KuSh: Why are we setting its UDP port here ?
+					pClient->SetUDPPort(port);
+@
+
+
+1.40
+log
+@filtering of UDP packets
+@
+text
+@d32 1
+a32 1
+#define	ERR_UDP_MISCONFIGURED "Error while processing incoming UDP Packet (Most likely a misconfigured server)"
+d222 1
+a222 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - CFileException"));
+d228 1
+a228 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - CMemoryException"));
+d233 1
+a233 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - ") + error);
+d238 1
+a238 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED);
+@
+
+
+1.39
+log
+@correctected asked counter
+@
+text
+@d47 4
+a50 4
+	byte		abyteBuffer[5000];
+	CString		serverbuffer;
+	UINT		uiPort;
+	uint32		length = ReceiveFrom(abyteBuffer, sizeof(abyteBuffer), serverbuffer, uiPort);
+d52 12
+a63 2
+	if ((abyteBuffer[0] == OP_EMULEPROT) && length != SOCKET_ERROR)
+		ProcessPacket(abyteBuffer + 2, length - 2, abyteBuffer[1], serverbuffer, uiPort);
+d68 1
+a68 1
+bool CClientUDPSocket::ProcessPacket(byte* pbytePacketBuf, uint16 size, byte opcode, LPCTSTR host, uint16 port)
+d93 1
+a93 1
+					SendPacket(pResponsePacket, inet_addr(host), port);
+d97 1
+a97 1
+				CUpDownClient	*pClient = g_eMuleApp.m_pUploadQueue->GetWaitingClientByIPAndUDPPort(inet_addr(host), port);
+d143 1
+a143 1
+					SendPacket(pPacket, inet_addr(host), port);
+d154 1
+a154 1
+						SendPacket(pPacket, inet_addr(host), port);
+d163 1
+a163 1
+				CUpDownClient		*pClient = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+d179 1
+a179 1
+				if ((size >= 2) && ((pClient = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(inet_addr(host), port)) != NULL))
+d203 1
+a203 1
+				CUpDownClient		*pClient = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+@
+
+
+1.38
+log
+@rollback of old waiting queue
+@
+text
+@a183 1
+					pClient->AddAskedCountDown();
+@
+
+
+1.37
+log
+@SSWQ
+@
+text
+@d125 1
+a125 1
+					uint16	uWaitingPos = pClient->GetPosInWaitingQueue();
+@
+
+
+1.36
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d87 1
+a87 1
+				CUpDownClient	*pClient = g_eMuleApp.m_pUploadQueue->GetWaitingClientByIP_UDP(inet_addr(host), port);
+d125 1
+a125 1
+					uint16	uWaitingPos = g_eMuleApp.m_pUploadQueue->GetWaitingPosition(pClient);
+@
+
+
+1.35
+log
+@Fixed sending of additional incorrect OP_REASKACK packet;
+Fixed double asked count increment during OP_REASKFILEPING processing.
+@
+text
+@d213 1
+a213 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - CFileException"));
+d219 1
+a219 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - CMemoryException"));
+d224 1
+a224 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - ") + error);
+d229 1
+a229 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED);
+@
+
+
+1.34
+log
+@Reverted some __FUNCTION__ logs as they weren't useful for users and were taking too much log space. We can always resort to search for the string.
+@
+text
+@d47 1
+a47 1
+	byte		buffer[5000];
+d50 1
+a50 1
+	uint32		length = ReceiveFrom(buffer, 5000, serverbuffer, uiPort);
+d52 2
+a53 2
+	if ((buffer[0] == OP_EMULEPROT) && length != SOCKET_ERROR)
+		ProcessPacket(buffer + 2, length - 2, buffer[1], serverbuffer, uiPort);
+a93 1
+					pClient->UDPFileReasked();
+d96 1
+@
+
+
+1.33
+log
+@DebugLog formating and changes
+@
+text
+@d213 1
+a213 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + __FUNCTION__ + ERR_UDP_MISCONFIGURED + _T(" - CFileException"));
+d219 1
+a219 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + __FUNCTION__ + ERR_UDP_MISCONFIGURED + _T(" - CMemoryException"));
+d224 1
+a224 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + __FUNCTION__ + ERR_UDP_MISCONFIGURED + _T(" - ") + error);
+d229 1
+a229 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + __FUNCTION__ + ERR_UDP_MISCONFIGURED);
+@
+
+
+1.32
+log
+@Check also port, not only IP on remote client UDP file reask + some more exception handling + minor changes
+@
+text
+@a18 1
+//
+d32 1
+a32 2
+
+//	CClientUDPSocket
+d213 1
+a213 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF) + _T(" - CFileException"));
+d219 1
+a219 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF) + _T(" - CMemoryException"));
+d224 1
+a224 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF) + _T(" - ") + error);
+d229 1
+a229 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF));
+@
+
+
+1.31
+log
+@code optimization (thanks to Aw3)
+@
+text
+@d97 2
+d140 1
+a140 1
+				//	... and there are fewer than 50 slots free in our upload queue...
+d211 17
+a231 1
+		return false;
+d233 1
+@
+
+
+1.30
+log
+@fixed CSafeMemFile write error bug due to NULL pointer arg
+@
+text
+@d167 1
+a167 1
+				CUpDownClient		*pClient = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+d169 1
+a169 1
+				if (pClient != NULL)
+d173 1
+a173 1
+					if ((pClient->GetUDPVersion() > 3) && (size >= 4))
+a176 3
+					if (size >= 2)
+					{
+						uint16		uRank;
+d178 3
+a180 1
+						packetStream.Read(&uRank, 2);
+d182 3
+a184 4
+						pClient->SetRemoteQueueFull(false);
+						pClient->UDPReaskACK(uRank);
+						pClient->AddAskedCountDown();
+					}
+@
+
+
+1.29
+log
+@fixed my really incorrect and bugged way of processing StatusFile packets part 2
+@
+text
+@d118 5
+a122 1
+							packetStream.Write(0, 2);
+@
+
+
+1.28
+log
+@fixed my really incorrect and bugged way of processing StatusFile packets;
+avoid UDP OP_REASKFILEPING version > 3 packets processing if paquet size is incorrect (thanks to Aw3)
+@
+text
+@a166 8
+				//
+				//	Verify the pbytePacketBuf size
+					if (size != 2)
+					{
+					//	ASSERT ( false ); //Need to double check these asserts to make sure it's running well.
+						break;
+					}
+
+d173 3
+d177 1
+a177 1
+					uint16		uRank;
+d179 4
+a182 5
+					packetStream.Read(&uRank, 2);
+
+					pClient->SetRemoteQueueFull(false);
+					pClient->UDPReaskACK(uRank);
+					pClient->AddAskedCountDown();
+@
+
+
+1.27
+log
+@fix bug that block the code before its end (thanks to Aw3)
+@
+text
+@d98 1
+a98 1
+					if (pClient->GetUDPVersion() > 3)
+d175 3
+a177 1
+					if (pClient->GetUDPVersion() > 3)
+d179 1
+a179 1
+						pClient->ProcessFileStatus(reinterpret_cast<CHAR*>(pbytePacketBuf), size, true);
+d182 3
+a184 2
+					uint16		nRank;
+					memcpy2(&nRank, pbytePacketBuf, 2);
+d187 1
+a187 1
+					pClient->UDPReaskACK(nRank);
+@
+
+
+1.26
+log
+@updated UDP Protocol to v4
+@
+text
+@a109 1
+					break;
+a141 1
+					break;
+@
+
+
+1.25
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d94 1
+d98 5
+a102 1
+					if ((pClient->GetUDPVersion() >= 3) && (size >= 18))
+d111 20
+d177 5
+@
+
+
+1.24
+log
+@Formatting, comments, and name changes.
+@
+text
+@d48 9
+a56 6
+	char buffer[5000];
+	CString serverbuffer;
+	uint32 port;
+	int32 length = ReceiveFrom(buffer, 5000, serverbuffer, port);
+	if (((uint8)buffer[0] == OP_EMULEPROT) && length != SOCKET_ERROR)
+		ProcessPacket(buffer + 2, length - 2, buffer[1], serverbuffer, port);
+d60 1
+a60 1
+bool CClientUDPSocket::ProcessPacket(char* packet, int16 size, int8 opcode, LPCTSTR host, uint16 port)
+d69 1
+a69 1
+			//	Check packet size
+d77 1
+a77 1
+				CKnownFile		*m_pReqPartFile = g_eMuleApp.m_pSharedFilesList->GetFileByID(reinterpret_cast<BYTE*>(packet));
+d100 1
+a100 1
+						uint16 nCompleteCountNew = *(uint16*)(packet + 16);
+d145 1
+a145 1
+				//	Verify the packet size
+d153 1
+a153 1
+					memcpy2(&nRank, packet, 2);
+@
+
+
+1.23
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d66 1
+d72 6
+a77 2
+				CKnownFile* m_pReqPartFile = g_eMuleApp.m_pSharedFilesList->GetFileByID((uchar*)packet);
+				if (!m_pReqPartFile)
+d79 4
+a82 3
+					Packet * response = new Packet(OP_FILENOTFOUND, 0, OP_EMULEPROT);
+					g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(response->m_dwSize);
+					SendPacket(response, inet_addr(host), port);
+d85 5
+a89 2
+				CUpDownClient* sender = g_eMuleApp.m_pUploadQueue->GetWaitingClientByIP_UDP(inet_addr(host), port);
+				if (sender)
+d91 2
+a92 4
+					sender->AddAskedCount();
+					sender->SetLastUpRequest();
+					sender->SetUDPPort(port);
+					sender->UDPFileReasked();
+d94 1
+a94 1
+					if ((sender->GetUDPVersion() >= 3) && (size >= 18))
+d96 1
+a96 1
+						uint16 nCompleteCountLast = sender->GetUpCompleteSourcesCount();
+d98 1
+a98 1
+						sender->SetUpCompleteSourcesCount(nCompleteCountNew);
+d104 1
+d107 2
+a108 1
+					if (((uint32)g_eMuleApp.m_pUploadQueue->GetWaitingUserCount() + 50) > g_eMuleApp.m_pGlobPrefs->GetQueueSize())
+d110 4
+a113 3
+						Packet * response = new Packet(OP_QUEUEFULL, 0, OP_EMULEPROT);
+						g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(response->m_dwSize);
+						SendPacket(response, inet_addr(host), port);
+d122 4
+a125 2
+				CUpDownClient* sender = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+				if (sender)
+d127 2
+a128 2
+					sender->SetRemoteQueueFull(true);
+					sender->UDPReaskACK(0);
+d136 4
+a139 2
+				CUpDownClient* sender = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+				if (sender)
+d141 2
+d148 2
+a149 1
+					uint16 nRank;
+d151 4
+a154 3
+					sender->SetRemoteQueueFull(false);
+					sender->UDPReaskACK(nRank);
+					sender->AddAskedCountDown();
+d163 4
+a166 2
+				CUpDownClient* sender = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+				if (sender)
+d168 1
+a168 1
+					sender->UDPReaskFNF();
+@
+
+
+1.22
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d162 1
+a162 1
+		AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_UDP_MISCONF));
+@
+
+
+1.21
+log
+@Added some colors to the logs...
+@
+text
+@d162 1
+a162 1
+		AddDebugLogLine(false, _T("<COLOR=255,102,0>") + GetResString(IDS_ERR_UDP_MISCONF));
+@
+
+
+1.20
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@d162 1
+a162 1
+		AddDebugLogLine(false, GetResString(IDS_ERR_UDP_MISCONF));
+@
+
+
+1.19
+log
+@Formatting, comments, and name changes.
+... and a few bug fixes.
+@
+text
+@d18 1
+a18 1
+// ClientUDPSocket.cpp : implementation file
+d29 1
+a29 1
+static char THIS_FILE[]=__FILE__;
+d34 1
+a34 1
+// CClientUDPSocket
+d45 2
+a46 1
+void CClientUDPSocket::OnReceive(int nErrorCode){
+d51 1
+a51 1
+	int32 length = ReceiveFrom(buffer,5000,serverbuffer,port);
+d53 1
+a53 1
+		ProcessPacket(buffer+2,length-2,buffer[1],serverbuffer,port);
+d57 6
+a62 3
+bool CClientUDPSocket::ProcessPacket(char* packet, int16 size, int8 opcode, LPCTSTR host, uint16 port){
+	try{
+		switch(opcode){
+d66 3
+a68 2
+				if (size < 16){	// netwolf: complete sources UDP
+					ASSERT ( false );
+d72 3
+a74 2
+				if (!m_pReqPartFile){
+					Packet* response = new Packet(OP_FILENOTFOUND,0,OP_EMULEPROT);
+d76 1
+a76 1
+					SendPacket(response,inet_addr(host),port);
+d80 2
+a81 1
+				if (sender){
+d86 1
+a86 1
+					// netwolf: complete sources UDP - BEGIN
+d89 2
+a90 2
+						uint16 nCompleteCountLast= sender->GetUpCompleteSourcesCount();
+						uint16 nCompleteCountNew= *(uint16*)(packet+16);
+a94 1
+					// netwolf: complete sources UDP - END
+d97 5
+a101 3
+				else{
+					if (((uint32)g_eMuleApp.m_pUploadQueue->GetWaitingUserCount() + 50) > g_eMuleApp.m_pGlobPrefs->GetQueueSize()){
+						Packet* response = new Packet(OP_QUEUEFULL,0,OP_EMULEPROT);
+d103 1
+a103 1
+						SendPacket(response,inet_addr(host),port);
+a111 1
+				//CUpDownClient* sender = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP(inet_addr(host));
+d113 2
+a114 1
+				if (sender){
+d118 1
+a118 2
+//				else
+//					ASSERT (false); //Need to double check these asserts to make sure it's running well.
+a123 1
+				//CUpDownClient* sender = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP(inet_addr(host));
+d125 5
+a129 3
+				if (sender){
+					if (size != 2){
+//						ASSERT ( false ); //Need to double check these asserts to make sure it's running well.
+d133 1
+a133 1
+					memcpy2(&nRank,packet,2);
+d138 2
+a139 2
+//				else
+//					ASSERT (false);//Need to double check these asserts to make sure it's running well.
+a144 1
+				//CUpDownClient* sender = g_eMuleApp.m_pDownloadQueue->GetDownloadClientByIP(inet_addr(host));
+d146 2
+a147 1
+				if (sender){
+d151 2
+a152 2
+//					ASSERT (false); //Need to double check these asserts to make sure it's running well.
+				break;
+d155 1
+a155 1
+				return false;
+d159 2
+a160 1
+	catch(...){
+d162 1
+a162 1
+		AddDebugLogLine(false,GetResString(IDS_ERR_UDP_MISCONF));
+d167 2
+a168 1
+void CClientUDPSocket::OnSend(int nErrorCode){
+d170 2
+a171 1
+	if (nErrorCode){
+d175 8
+a182 6
+	while (m_controlPacketQueue.GetHeadPosition() != 0 && !IsBusy()){
+		UDPPack* cur_packet = m_controlPacketQueue.GetHead();
+		char* pcSendBuffer = new char[cur_packet->packet->m_dwSize+2];
+		memcpy2(pcSendBuffer,cur_packet->packet->GetUDPHeader(),2);
+		memcpy2(pcSendBuffer+2,cur_packet->packet->m_pcBuffer,cur_packet->packet->m_dwSize);
+		if (!SendTo(pcSendBuffer, cur_packet->packet->m_dwSize+2, cur_packet->dwIP, cur_packet->nPort) ){
+d192 2
+a193 1
+int CClientUDPSocket::SendTo(char* lpBuf,int nBufLen,uint32 dwIP, uint16 nPort){
+d197 2
+a198 2
+	// By Maverick Added CClientUDPSocketBaseClass 
+	// to make it easier to change BaseSocket
+d200 3
+a202 2
+	uint32 result = CClientUDPSocketBaseClass::SendTo(lpBuf,nBufLen,nPort,s);
+	if (result == (uint32)SOCKET_ERROR){
+d204 2
+a205 1
+		if (error == WSAEWOULDBLOCK){
+d209 5
+a213 4
+		else{
+/*Barry - Ignore assert	
+			ASSERT ( false );
+*/
+d222 2
+a223 1
+bool CClientUDPSocket::SendPacket(Packet* packet, uint32 dwIP, uint16 nPort){
+d225 1
+a225 1
+	UDPPack* newpending = new UDPPack;
+d229 2
+a230 1
+	if ( IsBusy() ){
+d234 5
+a238 4
+	char* pcSendBuffer = new char[packet->m_dwSize+2];
+	memcpy2(pcSendBuffer,packet->GetUDPHeader(),2);
+	memcpy2(pcSendBuffer+2,packet->m_pcBuffer,packet->m_dwSize);
+	if (SendTo(pcSendBuffer, packet->m_dwSize+2, dwIP, nPort)){
+d241 2
+a242 1
+	else{
+d252 2
+a253 1
+bool  CClientUDPSocket::Create(){
+d256 3
+a258 3
+		// By Maverick Added CClientUDPSocketBaseClass 
+		// to make it easier to change BaseSocket
+		return CClientUDPSocketBaseClass::Create(g_eMuleApp.m_pGlobPrefs->GetUDPPort(),SOCK_DGRAM,FD_READ);
+@
+
+
+1.18
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d66 2
+a67 2
+				CKnownFile* reqfile = g_eMuleApp.m_pSharedFilesList->GetFileByID((uchar*)packet);
+				if (!reqfile){
+d86 1
+a86 1
+							reqfile->CalculateCompleteSources();
+@
+
+
+1.17
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d25 1
+a25 1
+#include "memcpy_amd.h"
+d125 1
+a125 5
+					#ifndef AMD
+					memcpy(&nRank,packet,2);
+					#else
+					memcpy_amd(&nRank,packet,2);
+					#endif
+d167 2
+a168 7
+		#ifndef AMD
+		memcpy(pcSendBuffer,cur_packet->packet->GetUDPHeader(),2);
+		memcpy(pcSendBuffer+2,cur_packet->packet->m_pcBuffer,cur_packet->packet->m_dwSize);
+		#else
+		memcpy_amd(pcSendBuffer,cur_packet->packet->GetUDPHeader(),2);
+		memcpy_amd(pcSendBuffer+2,cur_packet->packet->m_pcBuffer,cur_packet->packet->m_dwSize);
+		#endif
+@
+
+
+1.16
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d69 1
+a69 1
+					g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(response->size);
+d94 1
+a94 1
+						g_eMuleApp.m_pUploadQueue->AddUpDataOverheadFileRequest(response->size);
+d168 3
+a170 3
+	while (controlpacket_queue.GetHeadPosition() != 0 && !IsBusy()){
+		UDPPack* cur_packet = controlpacket_queue.GetHead();
+		char* sendbuffer = new char[cur_packet->packet->size+2];
+d172 2
+a173 2
+		memcpy(sendbuffer,cur_packet->packet->GetUDPHeader(),2);
+		memcpy(sendbuffer+2,cur_packet->packet->pBuffer,cur_packet->packet->size);
+d175 2
+a176 2
+		memcpy_amd(sendbuffer,cur_packet->packet->GetUDPHeader(),2);
+		memcpy_amd(sendbuffer+2,cur_packet->packet->pBuffer,cur_packet->packet->size);
+d178 2
+a179 2
+		if (!SendTo(sendbuffer, cur_packet->packet->size+2, cur_packet->dwIP, cur_packet->nPort) ){
+			controlpacket_queue.RemoveHead();
+d183 1
+a183 1
+		delete[] sendbuffer;
+d221 1
+a221 1
+		controlpacket_queue.AddTail(newpending);
+d224 5
+a228 5
+	char* sendbuffer = new char[packet->size+2];
+	memcpy2(sendbuffer,packet->GetUDPHeader(),2);
+	memcpy2(sendbuffer+2,packet->pBuffer,packet->size);
+	if (SendTo(sendbuffer, packet->size+2, dwIP, nPort)){
+		controlpacket_queue.AddTail(newpending);
+d234 1
+a234 1
+	delete[] sendbuffer;
+@
+
+
+1.15
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d225 2
+a226 7
+	#ifndef AMD
+	memcpy(sendbuffer,packet->GetUDPHeader(),2);
+	memcpy(sendbuffer+2,packet->pBuffer,packet->size);
+	#else
+	memcpy_amd(sendbuffer,packet->GetUDPHeader(),2);
+	memcpy_amd(sendbuffer+2,packet->pBuffer,packet->size);
+	#endif
+@
+
+
+1.14
+log
+@updated complete sources (0.06b: display range of values)
+@
+text
+@d61 1
+a61 1
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size);
+d66 1
+a66 1
+				CKnownFile* reqfile = theApp.sharedfiles->GetFileByID((uchar*)packet);
+d69 1
+a69 1
+					theApp.uploadqueue->AddUpDataOverheadFileRequest(response->size);
+d73 1
+a73 1
+				CUpDownClient* sender = theApp.uploadqueue->GetWaitingClientByIP_UDP(inet_addr(host), port);
+d92 1
+a92 1
+					if (((uint32)theApp.uploadqueue->GetWaitingUserCount() + 50) > theApp.glob_prefs->GetQueueSize()){
+d94 1
+a94 1
+						theApp.uploadqueue->AddUpDataOverheadFileRequest(response->size);
+d103 3
+a105 3
+				theApp.downloadqueue->AddDownDataOverheadOther(size);
+				//CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP(inet_addr(host));
+				CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+d116 3
+a118 3
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size);
+				//CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP(inet_addr(host));
+				CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+d140 3
+a142 3
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size);
+				//CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP(inet_addr(host));
+				CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP_UDP(inet_addr(host), port);
+d247 1
+a247 1
+	if (theApp.glob_prefs->GetUDPPort())
+d250 1
+a250 1
+		return CClientUDPSocketBaseClass::Create(theApp.glob_prefs->GetUDPPort(),SOCK_DGRAM,FD_READ);
+@
+
+
+1.13
+log
+@merged missing UPD answers on ClientUDPSocket [DonGato]
+@
+text
+@d84 1
+a85 2
+						{
+							sender->SetUpCompleteSourcesCount(nCompleteCountNew);
+a86 1
+						}
+@
+
+
+1.12
+log
+@unicode cleanup
+@
+text
+@d106 2
+a107 1
+				CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP(inet_addr(host));
+d119 2
+a120 1
+				CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP(inet_addr(host));
+d143 2
+a144 1
+				CUpDownClient* sender = theApp.downloadqueue->GetDownloadClientByIP(inet_addr(host));
+@
+
+
+1.11
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d52 1
+a52 1
+		ProcessPacket(buffer+2,length-2,buffer[1],serverbuffer.GetBuffer(),port);
+d56 1
+a56 1
+bool CClientUDPSocket::ProcessPacket(char* packet, int16 size, int8 opcode, char* host, uint16 port){
+d193 2
+a194 1
+	uint32 result = CClientUDPSocketBaseClass::SendTo(lpBuf,nBufLen,nPort,inet_ntoa(host));
+@
+
+
+1.10
+log
+@complete sources update (UDP)
+@
+text
+@d25 1
+d125 1
+d127 3
+d170 1
+d173 4
+d223 1
+d226 4
+d253 1
+a253 1
+}@
+
+
+1.9
+log
+@minor fixes and improvements
+@
+text
+@d61 1
+a61 1
+				if (size != 16){
+d78 12
+@
+
+
+1.8
+log
+@More try/catch until new sockets are ready
+@
+text
+@d72 1
+a72 1
+				CUpDownClient* sender = theApp.uploadqueue->GetWaitingClientByIP(inet_addr(host));
+d74 2
+@
+
+
+1.7
+log
+@converted to new logging method
+@
+text
+@d45 1
+d52 1
+a52 1
+	
+d143 1
+d160 1
+a160 1
+
+d164 1
+d183 1
+d189 1
+d210 2
+d215 1
+d222 2
+@
+
+
+1.7.4.1
+log
+@27c
+@
+text
+@d71 1
+a71 1
+				CUpDownClient* sender = theApp.uploadqueue->GetWaitingClientByIP_UDP(inet_addr(host), port);
+a72 2
+					sender->AddAskedCount();
+					sender->SetLastUpRequest();
+@
+
+
+1.6
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d136 1
+a136 1
+		theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_UDP_MISCONF));
+@
+
+
+1.5
+log
+@more 26b merges
+@
+text
+@d26 6
+@
+
+
+1.4
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d53 1
+a53 1
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size, 0);
+d61 1
+a61 1
+					theApp.uploadqueue->AddUpDataOverheadFileRequest(response->size, 0);
+d72 1
+a72 1
+					if (theApp.uploadqueue->GetWaitingUserCount() + 50 > theApp.glob_prefs->GetQueueSize()){
+d74 1
+a74 1
+						theApp.uploadqueue->AddUpDataOverheadFileRequest(response->size, 0);
+d83 1
+a83 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+d95 1
+a95 1
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size, 0);
+d114 1
+a114 1
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size, 0);
+@
+
+
+1.3
+log
+@update to .25b codebase
+@
+text
+@a49 1
+		theApp.downloadqueue->AddDownDataRateMSOverhead(size, 224);
+d53 1
+d61 1
+d74 1
+d83 1
+d95 1
+d114 1
+a178 1
+	theApp.uploadqueue->AddUpDataRateMSOverhead(packet->size, 224);
+@
+
+
+1.3.4.1
+log
+@initial upgrade to .26
+@
+text
+@d50 1
+a53 1
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size, 0);
+a60 1
+					theApp.uploadqueue->AddUpDataOverheadFileRequest(response->size, 0);
+a72 1
+						theApp.uploadqueue->AddUpDataOverheadFileRequest(response->size, 0);
+a80 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+a91 1
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size, 0);
+a109 1
+				theApp.downloadqueue->AddDownDataOverheadFileRequest(size, 0);
+d153 3
+a155 1
+	uint32 result = CAsyncSocket::SendTo(lpBuf,nBufLen,nPort,inet_ntoa(host));
+d174 1
+d199 3
+a201 1
+		return CAsyncSocket::Create(theApp.glob_prefs->GetUDPPort(),SOCK_DGRAM,FD_READ);
+@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d50 1
+d83 1
+d100 1
+d102 1
+d125 1
+a125 1
+		theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_UDP_MISCONF));
+d163 1
+d165 1
+d174 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d149 3
+a151 1
+	uint32 result = CAsyncSocket::SendTo(lpBuf,nBufLen,nPort,inet_ntoa(host));
+d192 3
+a194 1
+		return CAsyncSocket::Create(theApp.glob_prefs->GetUDPPort(),SOCK_DGRAM,FD_READ);
+@
+

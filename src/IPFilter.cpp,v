@@ -1,0 +1,2688 @@
+head	1.44;
+access;
+symbols
+	PublicRelease_1_2e:1.44
+	Interim_Release_1-2e_RC1:1.44
+	PublicRelease_1_2d:1.38
+	Interim_Release_1-2d_RC1:1.38
+	Interim_Release_1-2d_beta1:1.38
+	PublicRelease_1_2c:1.37
+	Interim_Release_1-2c_RC1:1.37
+	Interim_Release_1-2c_beta1:1.37
+	PublicRelease_1_2b:1.37
+	Interim_Release_1-2b_RC1:1.37
+	PublicRelease_1_2a:1.35
+	Interim_Release_1-2a_RC1:1.35
+	Interim_Release_1-2a_beta2:1.34
+	Interim_Release_1-2a_beta1:1.34
+	PublicRelease_1_2:1.34
+	Interim_Release_1-2_RC1:1.34
+	Interim_Release_1-2_beta1:1.32
+	PublicRelease_1_1g:1.31
+	Interim_Release_1-1g_RC3:1.31
+	Interim_Release_1-1g_RC2:1.30
+	Interim_Release_1-1g_RC1:1.30
+	Interim_Release_1-1g_beta2:1.28
+	Interim_Release_1-1g_beta1:1.28
+	PublicRelease_1_1f:1.28
+	Interim_Release_1-1f_RC1:1.28
+	PublicRelease_1_1e:1.28
+	Interim_Release_1-1e_RC2:1.28
+	Interim_Release_1-1e_RC1:1.28
+	Interim_Release_1-1e_beta1:1.28
+	PublicRelease_1_1d:1.28
+	Interim_Release_1-1d_RC1:1.27
+	PublicRelease_1_1c:1.27
+	Interim_Release_1-1c_RC1:1.27
+	Interim_Release_1-1c_beta2:1.27
+	Interim_Release_1-1c_beta1:1.26
+	PublicRelease_1_1b:1.26
+	Interim_Release_1-1b_RC1:1.26
+	PublicRelease_1_1a:1.26
+	Interim_Release_1-1a_RC2:1.26
+	Interim_Release_1-1a_RC1:1.26
+	Interim_Release_1-1a_beta2:1.25
+	Interim_Release_1-1a_beta1:1.25
+	PublicRelease_1_1:1.25
+	Interim_Release_1-1_beta1:1.25
+	PublicRelease_1o:1.25
+	Interim_Release_1o_RC1:1.25
+	Interim_Release_1o_beta1:1.25
+	PublicRelease_1n:1.24
+	Interim_Release_1n_RC2:1.24
+	Interim_Release_1n_RC1:1.24
+	Interim_Release_1n_beta2:1.24
+	Interim_Release_1n_beta1:1.23
+	PublicRelease_1m:1.22
+	Interim_Release_1m_beta1:1.22
+	PublicRelease_1l:1.22
+	Interim_Release_1l_RC3:1.22
+	Interim_Release_1l_RC2:1.22
+	Interim_Release_1l_RC1:1.22
+	Interim_Release_1l_beta2:1.22
+	Interim_Release_1l_beta1:1.21
+	PublicRelease_1k:1.17
+	Interim_Release_1k_RC4:1.17
+	Interim_1k_RC3:1.17
+	Interim_1k_RC2:1.17
+	Interim_Release_1k_RC1:1.17
+	Interim_Release_1k_beta5:1.17
+	Intrerim_Release_1k_beta4:1.17
+	Interim_Release_1k_beta1:1.16
+	PublicRelease_1j:1.13
+	Interim_Release_1J_RC3:1.13
+	Interim_Release_1j_RC3:1.13
+	Interim_Release_1j_RC2:1.13
+	Interim_Release_1j_RC1:1.13
+	Interim_Release_1j_beta2:1.13
+	Interim_Release_1j_beta1:1.13
+	PublicRelease_1i:1.13
+	Interim_Release_1i_RC6:1.13
+	Interim_Release_1i_RC3:1.13
+	Interim_Release_1i_RC2:1.13
+	Interim_Release_1i_RC1:1.13
+	Interim_Release_1i_beta3:1.13
+	Interim_Release_1i_beta2:1.13
+	Interim_Release_1i_beta1:1.12
+	PublicRelease_1h:1.10
+	Interim_Release_1h_rc2:1.9
+	Interim_Release_1h_RC1:1.9
+	Interim_Release_1h_beta2:1.7
+	Interim_Release_1h_beta1_now:1.6
+	Interim_Release_1h_beta1:1.6
+	PublicRelease_1g:1.6
+	Interim_Release_1g_RC6_Final:1.6
+	Interim_Release_1g_RC6:1.6
+	Interim_Release_1g_RC5:1.6
+	Interim_Release_1g_RC4:1.6
+	Interim_Release_1g_RC3:1.6
+	Interim_Release_1g_beta2:1.4
+	Interim_Release_1g_beta1:1.4
+	Interim_Release_1f_RC4:1.4
+	Interim_Release_1f_RC3:1.4
+	Interim_Release_1f_RC2:1.4
+	Interim_Release_1f_RC:1.4
+	Interim_Release_1f_beta2:1.4
+	Interim_Release_1f_beta1:1.4
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.3
+	Interim_Release_1e_beta1:1.3
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.8
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.6
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2;
+locks; strict;
+comment	@// @;
+
+
+1.44
+date	2009.03.25.04.00.06;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2009.03.20.02.53.56;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2009.03.13.02.12.36;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2008.11.03.12.30.22;	author kush_eplus;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2008.08.04.21.35.17;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2008.01.23.05.10.47;	author aw3;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2006.11.10.03.00.29;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2006.11.05.18.20.54;	author eklmn;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2006.07.12.17.39.37;	author kush_eplus;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2006.02.12.03.12.31;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2006.02.07.07.08.26;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2005.12.26.05.22.10;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2005.12.10.06.16.56;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.03.17.00.31.05;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.02.12.21.46.43;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.11.27.04.52.12;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.09.14.16.55.51;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.07.29.03.55.04;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.05.14.22.48.18;	author dropf;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.04.24.15.55.31;	author dropf;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.04.23.14.02.50;	author dropf;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.04.22.11.50.35;	author syrus77;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.04.20.23.33.31;	author dropf;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.03.14.21.10.11;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.02.15.09.49.32;	author eklmn;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.02.11.06.58.28;	author eklmn;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.14.17.07.46;	author eklmn;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.20.20.47.40;	author bavariansnail;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.17.00.09.51;	author syrus77;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.11.10.39.02;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.08.18.28.33;	author eklmn;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.08.31.16.49.55;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.28.10.26.30;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.06.15.09.09.28;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.04.22.13.08.16;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.04.13.17.48.31;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.46;	author lord_kiron;	state Exp;
+branches
+	1.2.8.1;
+next	1.1;
+
+1.1
+date	2003.02.14.15.00.30;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.2.8.1
+date	2003.03.24.09.39.42;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.44
+log
+@IP filter optimization: faster loading while consuming less resources (generally speaking code is ready; some improvements are possible as memory consumption is higher than what I expected).
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2008 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "IPFilter.h"
+#include "otherfunctions.h"
+#include "Preferences.h"
+#include "emuleDlg.h"
+#include "HttpDownloadDlg.h"
+#include <share.h>
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+
+#define DFLT_FILTER_LEVEL	100 // default filter level if non specified
+#define DFLT_TICKS_TO_BAN	(24u * 60u * 60u * 1000u)	//default ban time
+#define IPF_STRPACK_SCALE	1u	// string alignment (shift) in the combined array
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+CIPFilter::CIPFilter()
+{
+	m_pLastHit = NULL;
+	m_dwLastFilteredIP = 0;
+	m_pcDesc = NULL;
+	m_acTempLastHit[0] = '\0';
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+CIPFilter::~CIPFilter()
+{
+	RemoveAllIPs();
+	m_TempIPList.clear();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+static int __cdecl CmpSIPFilterByStartAddr(const void* p1, const void* p2)
+{
+	const SIPFilter	*rng1 = (SIPFilter*)p1;
+	const SIPFilter	*rng2 = (SIPFilter*)p2;
+
+	return CompareUnsigned(rng1->dwStart, rng2->dwStart);
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+int CIPFilter::LoadFromDefaultFile(bool bShowResponse/*=true*/)
+{
+	RemoveAllIPs();
+	m_dwLastFilteredIP = 0;
+
+	return AddFromFile(g_App.m_pPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME, bShowResponse);
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+int CIPFilter::AddFromFile(LPCTSTR pstrFilePath, bool bShowResponse)
+{
+	EMULE_TRY
+
+	SIPFilter	newFilter;
+	POSITION	pos;
+	FILE		*pReadFile = _tfsopen(pstrFilePath, _T("r"), _SH_DENYWR);
+
+	if (pReadFile != NULL)
+	{
+		enum EIPFilterFileType
+		{
+			Unknown = 0,
+			FilterDat = 1,		// ipfilter.dat/ip.prefix format
+			PeerGuardian = 2	// PeerGuardian format
+		} eFileType = Unknown;
+
+		TCHAR	strNam[_MAX_FNAME];
+		TCHAR	strExt[_MAX_EXT];
+
+		_tsplitpath(pstrFilePath, NULL, NULL, strNam, strExt);
+		if (_tcsicmp(strExt, _T(".p2p")) == 0 || (_tcsicmp(strNam, _T("guarding.p2p")) == 0 && _tcsicmp(strExt, _T(".txt")) == 0))
+			eFileType = PeerGuardian;
+		else if (_tcsicmp(strExt, _T(".prefix")) == 0)
+			eFileType = FilterDat;
+
+		int			iLine = 0, iFoundRanges = 0;
+		int			iDuplicate = 0, iMerged = 0;
+		CStringA	strBuf;
+		char		acBuffer[1024];
+		unsigned	uiLen, uiTmpSz, uiDescIdx = 0;
+		CRBMap<CStringA, unsigned>				rbmapDescIdx(1024);
+		const CRBMap<CStringA, unsigned>::CPair	*pPair;
+		CIPFilterArray							aIPTmp;
+
+		setvbuf(pReadFile, NULL, _IOFBF, 64*1024);
+		while (fgets(acBuffer, ARRSIZE(acBuffer), pReadFile) != NULL)
+		{
+			iLine++;
+			if ((*acBuffer == '#') || (*acBuffer == '/'))	// Ignore comments
+				continue;
+		//	Ignore too short lines
+			if ((uiLen = fast_strlen(acBuffer)) < 5)
+				continue;
+
+			if (eFileType == Unknown)
+			{
+				strBuf.SetString(acBuffer, uiLen);
+			//	Looks like html
+				if ((strBuf.Find('>') >= 0) && (strBuf.Find('<') >= 0))
+					strBuf.Delete(0, strBuf.ReverseFind('>') + 1);
+
+			//	Check for <IP> - <IP> at start of line
+				UINT	u1, u2, u3, u4, u5, u6, u7, u8;
+
+				if (sscanf(strBuf, "%u.%u.%u.%u - %u.%u.%u.%u", &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) == 8)
+					eFileType = FilterDat;
+				else
+				{
+				//	Check for <description> ':' <IP> '-' <IP>
+					int iColon = strBuf.Find(':');
+					if (iColon >= 0)
+					{
+						const char	*pcIPRange = strBuf.GetString() + iColon + 1;
+
+						if (sscanf(pcIPRange, "%u.%u.%u.%u - %u.%u.%u.%u", &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) == 8)
+							eFileType = PeerGuardian;
+					}
+				}
+			}
+
+			bool	bValid = false;
+			UINT	uiLevel;
+
+			if (eFileType == FilterDat)
+				bValid = ParseFilterLine1(acBuffer, uiLen, &strBuf, newFilter.dwStart, newFilter.dwEnd, uiLevel);
+			else if (eFileType == PeerGuardian)
+			{
+				strBuf.SetString(acBuffer, uiLen);
+				bValid = ParseFilterLine2(strBuf, newFilter.dwStart, newFilter.dwEnd, uiLevel);
+			}
+
+		//	Add a filter
+			if (bValid)
+			{
+			//	Keep only unique strings to reduce memory consumption
+				pPair = rbmapDescIdx.Lookup(strBuf);
+				if (pPair != NULL)	//duplicate string found, use its index
+					newFilter.uiPacked = (pPair->m_value << 8) | (uiLevel & 0xFF);
+				else
+				{
+					if ((uiDescIdx & ~0xFFFFFF) != 0)
+						g_App.AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("IP filter: reached internal buffer limit - IP range description can be wrong"));
+					rbmapDescIdx.SetAt(strBuf, uiDescIdx);
+					newFilter.uiPacked = (uiDescIdx << 8) | (uiLevel & 0xFF);
+				// Aligned to SCALE char boundary to keep more strings in the packed field
+					uiDescIdx += ((strBuf.GetLength() + 1 + (1 << IPF_STRPACK_SCALE) - 1) >> IPF_STRPACK_SCALE);
+				}
+				aIPTmp.push_back(newFilter);
+				iFoundRanges++;
+			}
+			else
+				g_App.AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("IP filter: parsing error - line %u ignored"), iLine);
+		}
+		fclose(pReadFile);
+
+	//	Sort the IP filter list by IP range start addresses
+		uiTmpSz = aIPTmp.size();
+		qsort(&aIPTmp[0], uiTmpSz, sizeof(aIPTmp[0]), CmpSIPFilterByStartAddr);
+
+	//	Build linear array containing all unique strings
+		if (uiDescIdx != 0)
+		{
+			m_pcDesc = new char[uiDescIdx << IPF_STRPACK_SCALE];
+			pos = rbmapDescIdx.GetHeadPosition();
+			while (pos != NULL)
+			{
+				pPair = rbmapDescIdx.GetNext(pos);
+
+				memcpy(m_pcDesc + (pPair->m_value << IPF_STRPACK_SCALE),
+					pPair->m_key.GetString(), pPair->m_key.GetLength() + 1);
+			}
+		}
+
+	//	Merge overlapping and adjacent filter ranges
+		if (uiTmpSz >= 2)
+		{
+			SIPFilter	*pPrv = &aIPTmp[0];
+			unsigned	ui = 1, uiNumToDelete = 0;
+			byte		*pbyteToDelete = new byte[uiTmpSz];
+
+			memzero(pbyteToDelete, uiTmpSz);
+			while (ui < uiTmpSz)
+			{
+				SIPFilter	*pCur = &aIPTmp[ui];
+
+				if ( ( ((pCur->dwStart >= pPrv->dwStart) && (pCur->dwStart <= pPrv->dwEnd))		// overlapping
+					|| (pCur->dwStart == pPrv->dwEnd + 1) ) && (((pCur->uiPacked ^ pPrv->uiPacked) & 0xFF) == 0) )// adjacent ranges (plus the same level)
+				{
+					if (pCur->dwStart != pPrv->dwStart || pCur->dwEnd != pPrv->dwEnd) // don't merge identical entries
+					{
+					//	TODO: not yet handled, overlapping entries with different 'level'
+						if (pCur->dwEnd > pPrv->dwEnd)
+							pPrv->dwEnd = pCur->dwEnd;
+						iMerged++;
+					}
+					else
+					{
+					//	If we have identical entries, use the lowest 'level'
+						if ((pCur->uiPacked & 0xFF) < (pPrv->uiPacked & 0xFF))
+							pPrv->uiPacked = (pPrv->uiPacked & ~0xFF) | (pCur->uiPacked & 0xFF);
+						iDuplicate++;
+					}
+					pbyteToDelete[ui] = 1;		// mark this entry as 'to delete'
+					uiNumToDelete++;
+					ui++;
+					continue;
+				}
+				pPrv = pCur;
+				ui++;
+			}
+		//	Rebuild list keeping only required (and combined) entries of the filter
+			if (uiNumToDelete != 0)
+			{
+			//	Reserve exact amount to avoid memory loss on automatic container allocation
+				m_IPArr.reserve(uiTmpSz - uiNumToDelete);
+				for (unsigned ui = 0; ui < uiTmpSz; ui++)
+				{
+					if (pbyteToDelete[ui] == 0)
+						m_IPArr.push_back(aIPTmp[ui]);
+				}
+			}
+			else
+				m_IPArr = aIPTmp;
+			delete[] pbyteToDelete;
+		}
+		else
+			m_IPArr = aIPTmp;
+
+		g_App.AddLogLine((bShowResponse ? LOG_FL_SBAR : 0) | LOG_RGB_SUCCESS, IDS_IPFILTERLOADED, m_IPArr.size());
+		if (g_App.m_pPrefs->GetVerbose())
+		{
+			g_App.AddLogLine(LOG_FL_DBG, _T("Loaded IP filters from \"%s\""), pstrFilePath);
+			g_App.AddLogLine(LOG_FL_DBG, _T("Parsed lines: %u, Found IP ranges: %u, Duplicate: %u, Merged: %u"), iLine, iFoundRanges, iDuplicate, iMerged);
+		}
+	}
+
+	EMULE_CATCH
+
+	return m_IPArr.size();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+static int OptimReverseFindA(const CStringA &strProc, char cCh)
+{
+	const char *pcBeg = strProc.GetString();
+	const char *pcEnd = pcBeg + strProc.GetLength();
+
+	while (--pcEnd >= pcBeg)
+	{
+		if (*pcEnd == cCh)
+			break;
+	}
+	return static_cast<int>(pcEnd - pcBeg);
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::ParseFilterLine1(const char *pcLine, unsigned uiLineLen, CStringA *pstrOut, uint32 &rdwIP1, uint32 &rdwIP2, UINT &ruiLevel) const
+{
+	UINT	u1, u2, u3, u4, u5, u6, u7, u8, uiLevel = DFLT_FILTER_LEVEL;
+	int		iDescStart, iDescLen, iItems;
+
+	iItems = sscanf(pcLine, "%u.%u.%u.%u - %u.%u.%u.%u , %u , %n", &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8, &uiLevel, &iDescStart);
+	if (iItems < 8)
+		return false;
+
+	if ((u1 | u2 | u3 | u4 | u5 | u6 | u7 | u8) > 255u)	//check for valid IP address
+		return false;
+	rdwIP1 = (u1 << 24) | (u2 << 16) | (u3 << 8) | u4;
+	rdwIP2 = (u5 << 24) | (u6 << 16) | (u7 << 8) | u8;
+
+	if (iItems == 8)
+	{
+		ruiLevel = DFLT_FILTER_LEVEL;	// set default level
+		pstrOut->Truncate(0);
+		return true;	 // no description available
+	}
+	ruiLevel = uiLevel;
+
+	const char	*pcDescStart = pcLine + iDescStart;
+
+	iDescLen = uiLineLen - iDescStart;
+	while ( (--iDescLen >= 0) &&	// strip trailing whitespaces
+		( ((static_cast<unsigned>(pcDescStart[iDescLen]) - 0x09u) <= (0x0Du - 0x09u))
+			|| (pcDescStart[iDescLen] == ' ') ) )
+	{}
+	iDescLen++;
+	memcpy(pstrOut->GetBufferSetLength(iDescLen), pcDescStart, iDescLen * sizeof(*pcDescStart));
+
+	return true;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::ParseFilterLine2(CStringA &rstrBuffer, uint32 &rdwIP1, uint32 &rdwIP2, UINT &ruiLevel) const
+{
+	int iPos = ::OptimReverseFindA(rstrBuffer, ':');
+	if (iPos <= 0)
+		return false;
+
+	const char	*pcIPRange = rstrBuffer.GetString() + iPos + 1;
+	UINT		u1, u2, u3, u4, u5, u6, u7, u8;
+
+	if (sscanf(pcIPRange, "%u.%u.%u.%u - %u.%u.%u.%u", &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) != 8)
+		return false;
+
+	if ((u1 | u2 | u3 | u4 | u5 | u6 | u7 | u8) > 255u)	//check for valid IP address
+		return false;
+	rdwIP1 = (u1 << 24) | (u2 << 16) | (u3 << 8) | u4;
+	rdwIP2 = (u5 << 24) | (u6 << 16) | (u7 << 8) | u8;
+
+	ruiLevel = DFLT_FILTER_LEVEL;
+
+	rstrBuffer.Truncate(iPos);
+	rstrBuffer.Replace("PGIPDB", "");
+	rstrBuffer.Trim();
+
+	return true;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CIPFilter::RemoveAllIPs()
+{
+	EMULE_TRY
+
+	m_IPArr.clear();
+	delete[] m_pcDesc;
+	m_pcDesc = NULL;
+	m_pLastHit = NULL;
+
+	EMULE_CATCH
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::IsCachedAndFiltered(uint32 dwIP)
+{
+	if (m_dwLastFilteredIP == dwIP
+		|| IsFiltered(dwIP, g_App.m_pPrefs->GetIPFilterLevel()) 
+		|| IsTemporaryFiltered(dwIP))
+	{
+		m_dwLastFilteredIP = dwIP;
+		return true;
+	}
+	else
+		return false;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::IsFiltered(uint32 dwIP)
+{
+	return (IsFiltered(dwIP, g_App.m_pPrefs->GetIPFilterLevel()) || IsTemporaryFiltered(dwIP));
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+static int __cdecl CmpSIPFilterByAddr(const void *pvKey, const void *pvElement)
+{
+	uint32	dwIP = *(uint32*)pvKey;
+	const SIPFilter	*pIPFilter = (SIPFilter*)pvElement;
+
+	if (dwIP < pIPFilter->dwStart)
+		return -1;
+	return (dwIP > pIPFilter->dwEnd) ? 1 : 0;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::IsFiltered(uint32 dwIP, UINT uiLevel)
+{
+	EMULE_TRY
+
+	if (m_IPArr.size() == 0 || dwIP == 0)
+		return false;
+
+	dwIP = fast_htonl(dwIP);
+
+	// to speed things up we use a binary search
+	//	*)	the IP filter list must be sorted by IP range start addresses
+	//	*)	the IP filter list is not allowed to contain overlapping IP ranges (see also the IP range merging code when
+	//		loading the list)
+	//	*)	the filter 'level' is ignored during the binary search and is evaluated only for the found element
+	//
+	// TODO: this can still be improved even more:
+	//	*)	use a pre assembled list of IP ranges which contains only the IP ranges for the currently used filter level
+	//	*)	use a dumb plain array for storing the IP range structures. this will give more cach hits when processing
+	//		the list. but(!) this would require to also use a dumb SIPFilter structure (don't use data items with ctors).
+	//		otherwise the creation of the array would be rather slow.
+	SIPFilter	*pFound = (SIPFilter*)bsearch(&dwIP, &m_IPArr[0], m_IPArr.size(), sizeof(m_IPArr[0]), CmpSIPFilterByAddr);
+
+	if ((pFound != NULL) && ((pFound->uiPacked & 0xFFu) < uiLevel))
+	{
+		m_pLastHit = pFound;
+		memcpy(m_acTempLastHit, "N/A", sizeof("N/A"));
+		return true;
+	}
+
+	EMULE_CATCH
+
+	return false;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::IsTemporaryFiltered(uint32 dwIP)
+{
+	EMULE_TRY
+
+	if (m_TempIPList.size() == 0 || dwIP == 0)
+		return false;
+
+	hash_map<uint32, uint32>::iterator it = m_TempIPList.find(dwIP);
+
+	if (it != m_TempIPList.end())
+	{
+		uint32 dwTicksBanned = ::GetTickCount() - it->second;
+
+		if (dwTicksBanned > DFLT_TICKS_TO_BAN)
+		{
+			m_TempIPList.erase(it->first);
+			if (dwIP == m_dwLastFilteredIP)
+				m_dwLastFilteredIP = 0;
+			return false;
+		}
+		else
+		{
+			uint32	dwSecLeft = (DFLT_TICKS_TO_BAN - dwTicksBanned) / 1000;
+			uint32	dwHours = dwSecLeft / 3600u;
+			uint32	dwMinSecs = dwSecLeft - dwHours * 3600u;
+
+			_snprintf( m_acTempLastHit, sizeof(m_acTempLastHit),
+				"temporarily blacklisted (%u:%02u:%02u remaining)",
+				dwHours, dwMinSecs / 60u, dwMinSecs - (dwMinSecs / 60u) * 60u );
+			m_acTempLastHit[ARRSIZE(m_acTempLastHit) - 1] = '\0';	//ensure proper termination
+			m_pLastHit = NULL;
+			return true;
+		}
+	}
+	else
+		return false;
+
+	EMULE_CATCH
+
+	return false;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+const char* CIPFilter::GetLastHit() const
+{
+	return (m_pLastHit != NULL) ? m_pcDesc + ((m_pLastHit->uiPacked >> 8u) << IPF_STRPACK_SCALE) : m_acTempLastHit;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::DownloadIPFilter()
+{
+	EMULE_TRY
+
+	int		iRc;
+	bool	bSuccess = false;
+	CString	strIPFilterURL = g_App.m_pPrefs->GetIPFilterURL();
+
+	if (!strIPFilterURL.IsEmpty())
+	{
+		CHttpDownloadDlg dlgDownload;
+
+		dlgDownload.m_strInitializingTitle	= GetResString(IDS_IPFILTER_HTTP_TITLE);
+		dlgDownload.m_nIDPercentage			= IDS_IPFILTER_HTTP_PERCENTAGE;
+		dlgDownload.m_sURLToDownload		= strIPFilterURL;
+		dlgDownload.m_sFileToDownloadInto	= g_App.m_pPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME;
+
+		CString strBackupFilePath = dlgDownload.m_sFileToDownloadInto + _T(".bak");
+
+	//	Removes any existing backup file
+		_tremove(strBackupFilePath);
+	//	Backups ipfilter.dat in case the download fails
+		MoveFile(dlgDownload.m_sFileToDownloadInto, strBackupFilePath);
+
+		iRc = dlgDownload.DoModal();
+		for (;;)
+		{
+			if (iRc == IDOK)
+			{
+				bSuccess = (LoadFromDefaultFile() != 0);	//check that something was loaded
+				if (bSuccess)
+				{
+					_tremove(strBackupFilePath);	//	Delete backup file
+					break;
+				}
+			}
+			g_App.AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, IDS_IPFILTER_UPDATE_ERROR);
+
+		//	Restores original file
+			_tremove(dlgDownload.m_sFileToDownloadInto);
+			MoveFile(strBackupFilePath, dlgDownload.m_sFileToDownloadInto);
+			if (iRc == IDOK)	//	Reload previous IP filter file if invalid file was received
+				LoadFromDefaultFile();
+			break;
+		}
+	}
+
+	return bSuccess;
+
+	EMULE_CATCH
+
+	return false;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.43
+log
+@Keep IP-filter description strings in ASCII to reduce memory usage;
+Removed partial localization for temporary blocked IP address report in the debug log.
+@
+text
+@d36 1
+d39 1
+a39 1
+CIPFilter::CIPFilter() : m_strTemporaryLastHit("Not available")
+d44 1
+a52 16
+void CIPFilter::AddIPRange(uint32 dwIPFrom, uint32 dwIPTo, UINT uiLevel, const CStringA& rstrDesc)
+{
+	EMULE_TRY
+
+	SIPFilter* newFilter = new SIPFilter;
+
+	newFilter->dwStart	= dwIPFrom;
+	newFilter->dwEnd	= dwIPTo;
+	newFilter->uiLevel	= uiLevel;
+	newFilter->strDesc.SetString(rstrDesc.GetString(), rstrDesc.GetLength());
+
+	m_IPList.Add(newFilter);
+
+	EMULE_CATCH
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+d55 2
+a56 2
+	const SIPFilter* rng1 = *(SIPFilter**)p1;
+	const SIPFilter* rng2 = *(SIPFilter**)p2;
+d73 3
+a75 1
+	FILE	*pReadFile = _tfsopen(pstrFilePath, _T("r"), _SH_DENYWR);
+d99 4
+a109 1
+			strBuf = acBuffer;
+d111 1
+a111 1
+			if (strBuf.GetLength() < 5)
+d116 1
+a132 1
+						UINT		u1, u2, u3, u4, u5, u6, u7, u8;
+a140 1
+			uint32	dwStart, dwEnd;
+d144 1
+a144 1
+				bValid = ParseFilterLine1(strBuf, dwStart, dwEnd, uiLevel);
+d146 4
+a149 1
+				bValid = ParseFilterLine2(strBuf, dwStart, dwEnd, uiLevel);
+d154 14
+a167 1
+				AddIPRange(dwStart, dwEnd, uiLevel, strBuf);
+d170 2
+d176 16
+a191 1
+		qsort(m_IPList.GetData(), m_IPList.GetCount(), sizeof(m_IPList[0]), CmpSIPFilterByStartAddr);
+d194 1
+a194 1
+		if (m_IPList.GetCount() >= 2)
+d196 3
+a198 2
+			SIPFilter	*pPrv = m_IPList[0];
+			int	i = 1;
+d200 2
+a201 1
+			while (i < m_IPList.GetCount())
+d203 1
+a203 1
+				SIPFilter	*pCur = m_IPList[i];
+d206 1
+a206 1
+					|| (pCur->dwStart == pPrv->dwEnd + 1) ) && (pCur->uiLevel == pPrv->uiLevel))// adjacent
+d218 2
+a219 2
+						if (pCur->uiLevel < pPrv->uiLevel)
+							pPrv->uiLevel = pCur->uiLevel;
+d222 3
+a224 2
+					delete pCur;
+					m_IPList.RemoveAt(i);
+d228 1
+a228 1
+				i++;
+d230 14
+d245 2
+d248 1
+a248 1
+		g_App.AddLogLine((bShowResponse ? LOG_FL_SBAR : 0) | LOG_RGB_SUCCESS, IDS_IPFILTERLOADED, m_IPList.GetCount());
+d258 1
+a258 1
+	return m_IPList.GetCount();
+d274 1
+a274 1
+bool CIPFilter::ParseFilterLine1(CStringA &rstrBuffer, uint32 &rdwIP1, uint32 &rdwIP2, UINT &ruiLevel) const
+d276 2
+a277 1
+	char acDesc[256];
+d279 1
+a279 3
+	memzero(acDesc, sizeof(acDesc));
+	UINT u1, u2, u3, u4, u5, u6, u7, u8, uiLevel = DFLT_FILTER_LEVEL;
+	int iItems = sscanf(rstrBuffer, "%u.%u.%u.%u - %u.%u.%u.%u , %u , %255c", &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8, &uiLevel, acDesc);
+d285 2
+a286 2
+	rdwIP1 = ((u1 & 0xFF) << 24) | ((u2 & 0xFF) << 16) | ((u3 & 0xFF) << 8) | (u4 & 0xFF);
+	rdwIP2 = ((u5 & 0xFF) << 24) | ((u6 & 0xFF) << 16) | ((u7 & 0xFF) << 8) | (u8 & 0xFF);
+d288 1
+a288 1
+	if (iItems <= 9)
+d290 2
+a291 4
+		if (iItems == 8)
+			uiLevel = DFLT_FILTER_LEVEL;	// set default level
+		ruiLevel = uiLevel;
+		rstrBuffer.Truncate(0);
+d296 9
+a304 3
+	ASSERT( iItems == 10 );
+	rstrBuffer = acDesc;
+	rstrBuffer.Trim();
+d323 2
+a324 2
+	rdwIP1 = ((u1 & 0xFF) << 24) | ((u2 & 0xFF) << 16) | ((u3 & 0xFF) << 8) | (u4 & 0xFF);
+	rdwIP2 = ((u5 & 0xFF) << 24) | ((u6 & 0xFF) << 16) | ((u7 & 0xFF) << 8) | (u8 & 0xFF);
+d339 1
+a339 4
+	for (int i = 0; i < m_IPList.GetCount(); i++)
+		delete m_IPList[i];
+
+	m_IPList.RemoveAll();
+a366 2
+	EMULE_TRY
+
+d368 1
+a368 1
+	const SIPFilter	*pIPFilter = *(SIPFilter**)pvElement;
+d372 1
+a372 7
+
+	if (dwIP > pIPFilter->dwEnd)
+		return 1;
+
+	EMULE_CATCH
+
+	return 0;
+d379 1
+a379 1
+	if (m_IPList.GetCount() == 0 || dwIP == 0)
+d395 3
+a397 2
+	SIPFilter** ppFound = (SIPFilter**)bsearch(&dwIP, m_IPList.GetData(), m_IPList.GetCount(), sizeof(m_IPList[0]), CmpSIPFilterByAddr);
+	if (ppFound && (*ppFound)->uiLevel < uiLevel)
+d399 2
+a400 2
+		m_pLastHit = *ppFound;
+		m_strTemporaryLastHit = "Not available";
+d435 2
+a436 1
+			m_strTemporaryLastHit.Format( "temporarily blacklisted (%u:%02u:%02u remaining)",
+d438 1
+d453 1
+a453 1
+	return m_pLastHit ? m_pLastHit->strDesc : m_strTemporaryLastHit;
+@
+
+
+1.42
+log
+@Minor preparation for the redesign; Do string preparsing in ASCII to gain some performance (similar to original).
+@
+text
+@d38 1
+a38 1
+CIPFilter::CIPFilter() : m_strTemporaryLastHit(_T("Not available"))
+d42 1
+d51 1
+a51 1
+void CIPFilter::AddIPRange(uint32 dwIPFrom, uint32 dwIPTo, UINT uiLevel, const CString& rstrDesc)
+d161 1
+a161 1
+				AddIPRange(dwStart, dwEnd, uiLevel, CString(strBuf));
+d298 2
+d365 1
+a365 1
+		m_strTemporaryLastHit = _T("Not available");
+d396 6
+a401 1
+			m_strTemporaryLastHit.Format(_T("temporarily blacklisted (%s remaining)"), CastSecondsToHM((DFLT_TICKS_TO_BAN - dwTicksBanned)/1000));
+d414 1
+a414 1
+LPCTSTR CIPFilter::GetLastHit() const
+@
+
+
+1.41
+log
+@Simplified logging system implementation.
+@
+text
+@d47 1
+a47 1
+	iplist_temporary.clear();
+d106 4
+a109 6
+		int		iLine = 0;
+		int		iFoundRanges = 0;
+		int		iDuplicate = 0;
+		int		iMerged = 0;
+		CString	strBuffer;
+		TCHAR	acBuffer[1024];
+d112 1
+a112 1
+		while (_fgetts(acBuffer, ARRSIZE(acBuffer), pReadFile) != NULL)
+d115 1
+a115 1
+			if ((*acBuffer == _T('#')) || (*acBuffer == _T('/')))	// Ignore comments
+d117 1
+a117 1
+			strBuffer = acBuffer;
+d119 1
+a119 1
+			if (strBuffer.GetLength() < 5)
+d125 2
+a126 2
+				if ((strBuffer.Find(_T('>')) >= 0) && (strBuffer.Find(_T('<')) >= 0))
+					strBuffer.Delete(0, strBuffer.ReverseFind(_T('>')) + 1);
+d131 1
+a131 1
+				if (_stscanf(strBuffer, _T("%u.%u.%u.%u - %u.%u.%u.%u"), &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) == 8)
+d136 1
+a136 1
+					int iColon = strBuffer.Find(_T(':'));
+d139 1
+a139 1
+						const TCHAR	*pcIPRange = strBuffer.GetString() + iColon + 1;
+d142 1
+a142 1
+						if (_stscanf(pcIPRange, _T("%u.%u.%u.%u - %u.%u.%u.%u"), &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) == 8)
+d153 1
+a153 1
+				bValid = ParseFilterLine1(strBuffer, dwStart, dwEnd, uiLevel);
+d155 1
+a155 1
+				bValid = ParseFilterLine2(strBuffer, dwStart, dwEnd, uiLevel);
+d160 1
+a160 1
+				AddIPRange(dwStart, dwEnd, uiLevel, strBuffer);
+d218 1
+a218 1
+static int OptimReverseFind(const CString &strProc, TCHAR cCh)
+d220 2
+a221 2
+	const TCHAR *pcBeg = strProc.GetString();
+	const TCHAR *pcEnd = pcBeg + strProc.GetLength();
+d231 1
+a231 1
+bool CIPFilter::ParseFilterLine1(CString &rstrBuffer, uint32 &rdwIP1, uint32 &rdwIP2, UINT &ruiLevel) const
+d233 3
+a235 2
+	TCHAR strDesc[256];
+	memzero(strDesc, sizeof(strDesc));
+d237 1
+a237 1
+	int iItems = _stscanf(rstrBuffer, _T("%u.%u.%u.%u - %u.%u.%u.%u , %u , %255c"), &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8, &uiLevel, strDesc);
+d241 2
+d251 1
+a251 1
+		rstrBuffer = _T("");
+d257 1
+a257 1
+	rstrBuffer = strDesc;
+d263 1
+a263 1
+bool CIPFilter::ParseFilterLine2(CString &rstrBuffer, uint32 &rdwIP1, uint32 &rdwIP2, UINT &ruiLevel) const
+d265 1
+a265 1
+	int iPos = ::OptimReverseFind(rstrBuffer, _T(':'));
+d269 4
+a272 3
+	const TCHAR *pcIPRange = rstrBuffer.GetString() + iPos + 1;
+	UINT u1, u2, u3, u4, u5, u6, u7, u8;
+	if (_stscanf(pcIPRange, _T("%u.%u.%u.%u - %u.%u.%u.%u"), &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) != 8)
+d275 2
+d283 1
+a283 1
+	rstrBuffer.Replace(_T("PGIPDB"), _T(""));
+d375 1
+a375 1
+	if (iplist_temporary.size() == 0 || dwIP == 0)
+d378 1
+a378 1
+	hash_map<uint32, uint32>::iterator it = iplist_temporary.find(dwIP);
+d380 1
+a380 1
+	if (it != iplist_temporary.end())
+d386 1
+a386 1
+			iplist_temporary.erase(it->first);
+@
+
+
+1.40
+log
+@Fix type mismatch.
+@
+text
+@d207 1
+a207 1
+		g_App.AddLogLine(bShowResponse, RGB_LOG_SUCCESS + GetResString(IDS_IPFILTERLOADED), m_IPList.GetCount());
+d210 2
+a211 2
+			g_App.AddDebugLogLine(_T("Loaded IP filters from \"%s\""), pstrFilePath);
+			g_App.AddDebugLogLine(_T("Parsed lines: %u, Found IP ranges: %u, Duplicate: %u, Merged: %u"), iLine, iFoundRanges, iDuplicate, iMerged);
+d443 1
+a443 1
+			g_App.AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_IPFILTER_UPDATE_ERROR));
+@
+
+
+1.39
+log
+@Fixed loss of the IP filter when garbage is downloaded from the server {Fuxie - DK} (before if server returns some HTLM instead of the requested file, previous IP filter was lost; New logic tries to load new file if nothing was loaded it reloads the previous one);
+Faster (intrinsic) htonl implementation; Removed unused code.
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d407 1
+a407 1
+BOOL CIPFilter::DownloadIPFilter()
+d458 1
+a458 1
+	return FALSE;
+@
+
+
+1.38
+log
+@Proper share mode for open files (before other applications could write to a file while we were reading).
+@
+text
+@a59 3
+#if 0
+	newFilter->uiHits	= 0;
+#endif
+d74 1
+a74 1
+int CIPFilter::LoadFromDefaultFile(bool bShowResponse)
+d79 1
+a79 1
+	return AddFromFile(CString(g_App.m_pPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME), bShowResponse);
+d207 1
+a207 1
+		g_App.AddLogLine(bShowResponse, RGB_LOG_SUCCESS + GetResString(IDS_IPFILTERLOADED) , m_IPList.GetCount());
+a297 17
+void CIPFilter::RemoveOldIPs()
+{
+	EMULE_TRY
+
+	uint32	dwTime, dwCurTick = ::GetTickCount();
+	hash_map<uint32, uint32>::iterator	it;
+
+	for (it = iplist_temporary.begin(); it != iplist_temporary.end(); ++it)
+	{
+		dwTime = it->second;
+		if ((dwCurTick - dwTime) > DFLT_TICKS_TO_BAN)
+			iplist_temporary.erase(it->first);
+	}
+
+	EMULE_CATCH
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+d341 1
+a341 1
+	dwIP = htonl(dwIP);
+a356 3
+#if 0
+		(*ppFound)->uiHits++;
+#endif
+d411 3
+a413 2
+	bool bSuccess = false;
+	CString strIPFilterURL = g_App.m_pPrefs->GetIPFilterURL();
+d431 2
+a432 1
+		if (dlgDownload.DoModal() != IDOK)
+d434 9
+d448 3
+a450 7
+		}
+		else
+		{
+		//	Delete backup file
+			_tremove(strBackupFilePath);
+			bSuccess = true;
+			LoadFromDefaultFile();
+@
+
+
+1.37
+log
+@Corrected reset last filtered IP after filter reloading.
+@
+text
+@d17 1
+d25 1
+d89 1
+a89 1
+	FILE	*pReadFile = _tfopen(pstrFilePath, _T("r"));
+@
+
+
+1.36
+log
+@improved filtering of incomming connections (less traffic & CPU load)
+@
+text
+@d78 1
+@
+
+
+1.35
+log
+@UNICODE preparations
+@
+text
+@d39 1
+d315 13
+d403 2
+@
+
+
+1.34
+log
+@Some IP ranges couldn't be loaded from PeerGuardian database
+(ranges contained ':' in description); Faster IP filter parsing.
+@
+text
+@d85 2
+a86 1
+	FILE* pReadFile = _tfopen(pstrFilePath, _T("r"));
+d96 3
+a98 2
+		TCHAR strNam[_MAX_FNAME];
+		TCHAR strExt[_MAX_EXT];
+a100 1
+		{
+a101 1
+		}
+a102 1
+		{
+a103 1
+		}
+d105 6
+a110 6
+		int iLine = 0;
+		int iFoundRanges = 0;
+		int iDuplicate = 0;
+		int iMerged = 0;
+		CString strBuffer;
+		char szBuffer[1024];
+d113 1
+a113 1
+		while (fgets(szBuffer, ARRSIZE(szBuffer), pReadFile) != NULL)
+d116 1
+a116 1
+			if((szBuffer[0] == '#') || (szBuffer[0] == '/'))	// ignore comments
+d118 1
+a118 1
+			strBuffer = szBuffer;
+d125 1
+a125 1
+				// looks like html
+a126 1
+				{
+a127 1
+				}
+d129 3
+a131 2
+				// check for <IP> - <IP> at start of line
+				UINT u1, u2, u3, u4, u5, u6, u7, u8;
+a132 1
+				{
+a133 1
+				}
+d136 1
+a136 1
+					// check for <description> ':' <IP> '-' <IP>
+d140 3
+a142 2
+						const TCHAR *pcIPRange = strBuffer.GetString() + iColon + 1;
+						UINT u1, u2, u3, u4, u5, u6, u7, u8;
+d149 3
+a151 3
+			bool bValid = false;
+			uint32 dwStart, dwEnd;
+			UINT uiLevel;
+d158 1
+a158 1
+			// add a filter
+d167 1
+a167 1
+		// sort the IP filter list by IP range start addresses
+d170 1
+a170 1
+		// merge overlapping and adjacent filter ranges
+d173 3
+a175 2
+			SIPFilter* pPrv = m_IPList[0];
+			int i = 1;
+d178 2
+a179 1
+				SIPFilter* pCur = m_IPList[i];
+d185 1
+a185 1
+						//TODO: not yet handled, overlapping entries with different 'level'
+a187 1
+						//pPrv->strDesc += _T("; ") + pCur->strDesc; // this may create a very very long description string...
+d192 1
+a192 1
+						// if we have identical entries, use the lowest 'level'
+a288 1
+	{
+a289 1
+	}
+d301 2
+a302 2
+	uint32 dwTime;
+	uint32 dwCurTick = ::GetTickCount();
+d304 1
+a304 3
+	hash_map<uint32, uint32>::iterator it;
+
+	for (it = iplist_temporary.begin(); it != iplist_temporary.end(); ++it) 
+d307 1
+a307 2
+		if ((dwCurTick - dwTime) > DFLT_TICKS_TO_BAN) 
+		{
+a308 1
+		}
+d314 1
+a314 1
+bool CIPFilter::IsFiltered(uint32 dwIP) /*const*/
+d319 1
+a319 1
+static int __cdecl CmpSIPFilterByAddr(const void* pvKey, const void* pvElement)
+d323 2
+a324 2
+	uint32 ip = *(uint32*)pvKey;
+	const SIPFilter* pIPFilter = *(SIPFilter**)pvElement;
+d326 1
+a326 2
+	if (ip < pIPFilter->dwStart)
+	{
+a327 1
+	}
+d329 1
+a329 2
+	if (ip > pIPFilter->dwEnd)
+	{
+a330 1
+	}
+d337 1
+a337 1
+bool CIPFilter::IsFiltered(uint32 dwIP, UINT uiLevel) /*const*/
+d343 1
+a343 1
+	
+a377 1
+	{
+a378 1
+	}
+a398 1
+	{
+a399 1
+	}
+@
+
+
+1.33
+log
+@A little bit faster loading of PeerGuardian IP filter.
+@
+text
+@d56 1
+a56 1
+	newFilter->strDesc	= rstrDesc;
+d111 1
+a111 1
+		CString strBuffer, strDesc;
+a156 1
+			strDesc = _T("");
+d158 1
+a158 3
+			{
+				bValid = ParseFilterLine1(strBuffer, dwStart, dwEnd, uiLevel, strDesc);
+			}
+d160 1
+a160 3
+			{
+				bValid = ParseFilterLine2(strBuffer, dwStart, dwEnd, uiLevel, strDesc);
+			}
+d165 1
+a165 1
+				AddIPRange(dwStart, dwEnd, uiLevel, strDesc);
+d222 1
+a222 1
+bool CIPFilter::ParseFilterLine1(const CString& rstrBuffer, uint32& rdwIP1, uint32& rdwIP2, UINT& ruiLevel, CString& rstrDesc) const
+d224 2
+a225 1
+	EMULE_TRY
+d227 10
+d244 2
+a245 9
+	((BYTE*)&rdwIP1)[0] = u4;
+	((BYTE*)&rdwIP1)[1] = u3;
+	((BYTE*)&rdwIP1)[2] = u2;
+	((BYTE*)&rdwIP1)[3] = u1;
+
+	((BYTE*)&rdwIP2)[0] = u8;
+	((BYTE*)&rdwIP2)[1] = u7;
+	((BYTE*)&rdwIP2)[2] = u6;
+	((BYTE*)&rdwIP2)[3] = u5;
+d247 1
+a247 1
+	if (iItems == 8)
+d249 5
+a253 2
+		ruiLevel = DFLT_FILTER_LEVEL;	// set default level
+		return true;
+a254 1
+
+a256 3
+	if (iItems == 9)
+		return true;	 // no description available
+
+d258 2
+a259 4
+	rstrDesc = strDesc;
+	rstrDesc.Trim();
+
+	EMULE_CATCH
+d264 1
+a264 1
+bool CIPFilter::ParseFilterLine2(const CString& rstrBuffer, uint32& rdwIP1, uint32& rdwIP2, UINT& ruiLevel, CString& rstrDesc) const
+d266 2
+a267 4
+	EMULE_TRY
+
+	int iPos = rstrBuffer.Find(_T(':'));
+	if (iPos < 1)
+a269 4
+	rstrDesc = rstrBuffer.Left(iPos);
+	rstrDesc.Replace(_T("PGIPDB"), _T(""));
+	rstrDesc.Trim();
+
+d275 2
+a276 9
+	((BYTE*)&rdwIP1)[0] = u4;
+	((BYTE*)&rdwIP1)[1] = u3;
+	((BYTE*)&rdwIP1)[2] = u2;
+	((BYTE*)&rdwIP1)[3] = u1;
+
+	((BYTE*)&rdwIP2)[0] = u8;
+	((BYTE*)&rdwIP2)[1] = u7;
+	((BYTE*)&rdwIP2)[2] = u6;
+	((BYTE*)&rdwIP2)[3] = u5;
+d280 3
+a282 1
+	EMULE_CATCH
+@
+
+
+1.32
+log
+@A little bit faster loading of IP filter.
+@
+text
+@d145 1
+a145 1
+						CString strIPRange = strBuffer.Mid(iColon + 1);
+d147 1
+a147 2
+						if (_stscanf(strIPRange, _T("%u.%u.%u.%u - %u.%u.%u.%u"), &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) == 8)
+						{
+a148 1
+						}
+d280 1
+a280 1
+	CString strIPRange = rstrBuffer.Mid(iPos + 1, rstrBuffer.GetLength() - iPos);
+d282 1
+a282 1
+	if (_stscanf(strIPRange, _T("%u.%u.%u.%u - %u.%u.%u.%u"), &u1, &u2, &u3, &u4, &u5, &u6, &u7, &u8) != 8)
+@
+
+
+1.31
+log
+@Formatted merge condition to avoid any confusion; Removed unused code.
+@
+text
+@d118 2
+d121 2
+a122 4
+			
+			// ignore comments & too short lines
+			if (strBuffer.GetAt(0) == _T('#') || strBuffer.GetAt(0) == _T('/') || strBuffer.GetLength() < 5)
+			{
+a123 1
+			}
+@
+
+
+1.30
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d190 2
+a191 2
+				if (   pCur->dwStart >= pPrv->dwStart && pCur->dwStart <= pPrv->dwEnd	 // overlapping
+					|| pCur->dwStart == pPrv->dwEnd+1 && pCur->uiLevel == pPrv->uiLevel) // adjacent
+a445 24
+const CIPFilterArray& CIPFilter::GetIPFilter() const
+{
+	return m_IPList;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::RemoveIPFilter(const SIPFilter* pFilter)
+{
+	EMULE_TRY
+
+	for (int i = 0; i < m_IPList.GetCount(); i++)
+	{
+		if (m_IPList[i] == pFilter)
+		{
+			delete m_IPList[i];
+			m_IPList.RemoveAt(i);
+			return true;
+		}
+	}
+
+	EMULE_CATCH
+
+	return false;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.29
+log
+@renamed 3 variables
+@
+text
+@d78 1
+a78 1
+	return AddFromFile(CString(g_App.g_pPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME), bShowResponse);
+d218 1
+a218 1
+		if (g_App.g_pPrefs->GetVerbose())
+d343 1
+a343 1
+	return (IsFiltered(dwIP, g_App.g_pPrefs->GetIPFilterLevel()) || IsTemporaryFiltered(dwIP));
+d475 1
+a475 1
+	CString strIPFilterURL = g_App.g_pPrefs->GetIPFilterURL();
+d484 1
+a484 1
+		dlgDownload.m_sFileToDownloadInto	= g_App.g_pPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME;
+@
+
+
+1.28
+log
+@Corrected debug log message typo {muleteer}.
+@
+text
+@d78 1
+a78 1
+	return AddFromFile(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME), bShowResponse);
+d217 2
+a218 2
+		g_eMuleApp.AddLogLine(bShowResponse, RGB_LOG_SUCCESS + GetResString(IDS_IPFILTERLOADED) , m_IPList.GetCount());
+		if (g_eMuleApp.m_pGlobPrefs->GetVerbose())
+d220 2
+a221 2
+			g_eMuleApp.AddDebugLogLine(_T("Loaded IP filters from \"%s\""), pstrFilePath);
+			g_eMuleApp.AddDebugLogLine(_T("Parsed lines: %u, Found IP ranges: %u, Duplicate: %u, Merged: %u"), iLine, iFoundRanges, iDuplicate, iMerged);
+d343 1
+a343 1
+	return (IsFiltered(dwIP, g_eMuleApp.m_pGlobPrefs->GetIPFilterLevel()) || IsTemporaryFiltered(dwIP));
+d475 1
+a475 1
+	CString strIPFilterURL = g_eMuleApp.m_pGlobPrefs->GetIPFilterURL();
+d484 1
+a484 1
+		dlgDownload.m_sFileToDownloadInto	= g_eMuleApp.m_pGlobPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME;
+d495 1
+a495 1
+			g_eMuleApp.AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_IPFILTER_UPDATE_ERROR));
+@
+
+
+1.27
+log
+@Faster loading and saving of configuration files.
+@
+text
+@d426 1
+a426 3
+			//causes exception if m_pLastHit == null / overwrites description of another range if != null
+			//const_cast<SIPFilter*>(m_pLastHit)->strDesc.Format(_T("temporary blacklisted (%s remaining)"), CastSecondsToHM((DFLT_TICKS_TO_BAN - dwTicksBanned)/1000));
+			m_strTemporaryLastHit.Format(_T("temporary blacklisted (%s remaining)"), CastSecondsToHM((DFLT_TICKS_TO_BAN - dwTicksBanned)/1000));
+@
+
+
+1.26
+log
+@Reduced memory used by IP filter by disabling unused functionality.
+@
+text
+@d113 2
+d129 1
+a129 1
+				if (strBuffer.Find(_T('>')) > -1 && strBuffer.Find(_T('<')) > -1)
+d144 1
+a144 1
+					if (iColon > -1)
+@
+
+
+1.25
+log
+@IPfilter level update was possible only after restart {reported by morphis}
+(actually rollbacked one previous optimization);
+Removed unused code and unrequired class variable;
+Improved string processing (a little bit faster filter loading).
+@
+text
+@d57 1
+d59 1
+d389 1
+d391 1
+@
+
+
+1.24
+log
+@Constructor improvement.
+@
+text
+@d22 1
+a22 1
+#include "emuledlg.h"
+d32 2
+a33 1
+#define	DFLT_FILTER_LEVEL	100 // default filter level if non specified
+a38 8
+
+	//LoadFromDefaultFile(false);
+
+	//eklmn: calculate default ban time
+	m_dwTicksToBan = 24*60*60*1000;
+
+	//eklmn: make local copy of filter value
+	m_iFilterLevel = g_eMuleApp.m_pGlobPrefs->GetIPFilterLevel();
+d109 1
+a109 1
+		CString strBuffer;
+d155 2
+a156 1
+			CString strDesc;
+a225 41
+void CIPFilter::SaveToDefaultFile()
+{
+	EMULE_TRY
+
+	CString strFilePath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + DFLT_IPFILTER_FILENAME;
+	FILE* pFile = _tfopen(strFilePath, _T("wt"));
+
+	if (pFile != NULL)
+	{
+		for (int i = 0; i < m_IPList.GetCount(); i++)
+		{
+			const SIPFilter* flt = m_IPList[i];
+
+			char strStart[16];
+			in_addr ip;
+			ip.S_un.S_addr = htonl(flt->dwStart);
+			strcpy(strStart, inet_ntoa(ip));
+
+			char strEnd[16];
+			ip.S_un.S_addr = htonl(flt->dwEnd);
+			strcpy(strEnd, inet_ntoa(ip));
+
+			if (fprintf(pFile, _T("%-15s - %-15s , %3u , %s\n"), strStart, strEnd, flt->uiLevel, flt->strDesc) == 0 || ferror(pFile))
+			{
+				CString strError;
+				strError.Format(_T("Failed to save IP filter to file \"%s\" - %hs"), strFilePath, strerror(errno));
+				throw strError;
+			}
+		}
+		fclose(pFile);
+	}
+	else
+	{
+		CString strError;
+		strError.Format(_T("Failed to save IP filter to file \"%s\" - %hs"), strFilePath, strerror(errno));
+		throw strError;
+	}
+
+	EMULE_CATCH
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+d231 1
+a231 1
+	memzero(strDesc, sizeof strDesc);
+d328 1
+a328 1
+		if ((dwCurTick - dwTime) > m_dwTicksToBan) 
+d339 1
+a339 1
+	return (IsFiltered(dwIP, m_iFilterLevel) || IsTemporaryFiltered(dwIP));
+d413 1
+a413 1
+		if (dwTicksBanned > m_dwTicksToBan)
+d421 2
+a422 2
+			//const_cast<SIPFilter*>(m_pLastHit)->strDesc.Format(_T("temporary blacklisted (%s remaining)"), CastSecondsToHM((m_dwTicksToBan - dwTicksBanned)/1000));
+			m_strTemporaryLastHit.Format(_T("temporary blacklisted (%s remaining)"), CastSecondsToHM((m_dwTicksToBan - dwTicksBanned)/1000));
+@
+
+
+1.23
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d35 1
+a35 1
+CIPFilter::CIPFilter()
+a37 1
+	m_strTemporaryLastHit = _T("Not available");
+@
+
+
+1.22
+log
+@corrected bug that disabled Update button for IPFilter when URL was empty
+@
+text
+@d223 2
+a224 2
+			g_eMuleApp.AddDebugLogLine(false, _T("Loaded IP filters from \"%s\""), pstrFilePath);
+			g_eMuleApp.AddDebugLogLine(false, _T("Parsed lines: %u, Found IP ranges: %u, Duplicate: %u, Merged: %u"), iLine, iFoundRanges, iDuplicate, iMerged);
+@
+
+
+1.21
+log
+@Replaced zero filled memsets with optimized memzero
+@
+text
+@d516 3
+a543 2
+
+			return FALSE;
+d545 8
+d554 1
+a554 3
+	//	Delete backup file
+		_tremove(strBackupFilePath);
+	}
+d556 1
+a556 1
+	LoadFromDefaultFile();
+d558 1
+a558 1
+	return TRUE;
+@
+
+
+1.20
+log
+@comments formatting / Update button for IPFilter is now disabled for 24h after a successfull update.
+@
+text
+@d279 1
+a279 1
+	memset(strDesc, 0, sizeof strDesc);
+@
+
+
+1.19
+log
+@exception / overwrite fix http://emuleplus.info/forum/index.php?showtopic=5492
+@
+text
+@d34 1
+d48 1
+a48 1
+
+d54 1
+a54 1
+
+d71 1
+a71 1
+
+d79 1
+a79 1
+
+d86 1
+a86 1
+
+d232 1
+a232 1
+
+d273 1
+a273 1
+
+d314 1
+a314 1
+
+d348 1
+a348 1
+
+d363 1
+a363 1
+
+d384 1
+a384 1
+
+d389 1
+a389 1
+
+d411 1
+a411 1
+
+d445 1
+a445 1
+
+d484 1
+a484 1
+
+d489 1
+a489 1
+
+d494 1
+a494 1
+
+d513 1
+a513 1
+
+d552 3
+a554 1
+}@
+
+
+1.18
+log
+@updated to v0.42e code (from official) which supports PeerGuardian-style filters. I tried to keep other dev's changes. Could all the devs who made changes (espcially eklmn) look at this to check if I made no mistake? ;-) Thank you.
+@
+text
+@d37 1
+d436 1
+d449 1
+a449 1
+	if (iplist_temporary.size() ==0 || dwIP == 0)
+d467 4
+a470 2
+			//lasthit = _T("File scanning - blacklisted for 24h");
+			const_cast<SIPFilter*>(m_pLastHit)->strDesc.Format(_T("temporary blacklisted (%s remaining)"), CastSecondsToHM((m_dwTicksToBan - dwTicksBanned)/1000));
+d486 1
+a486 1
+	return m_pLastHit ? m_pLastHit->strDesc : _T("Not available");
+@
+
+
+1.17
+log
+@Improved string processing
+@
+text
+@d17 2
+a18 2
+
+#include "StdAfx.h"
+a19 1
+#include "emule.h"
+d21 3
+d28 1
+a28 1
+static char THIS_FILE[]=__FILE__;
+d32 2
+d36 3
+a38 2
+	lasthit="";
+	LoadFromFile();
+d46 1
+a46 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+a51 15
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::AddBannedIPRange(uint32 IPfrom,uint32 IPto,byte filter, CString desc){
+	IPRange_Struct* newFilter=new IPRange_Struct();
+
+	newFilter->IPstart=IPfrom;
+	newFilter->IPend=IPto;
+	newFilter->filter=filter;
+	newFilter->description=desc;
+
+	// no filters with same startrange allowed for quick key-search (for now)
+	bool discard=(IsFiltered(htonl(IPfrom),-1));
+	if (discard)
+		delete newFilter;
+	else
+		iplist[IPfrom]=newFilter;
+d53 15
+a67 1
+	return !discard;
+d69 2
+a70 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CIPFilter::LoadFromFile()
+d72 5
+a76 12
+	EMULE_TRY
+		
+	CString strEntry,strIPRange,strIPRangeLB,strIPRangeUB;
+	CString strTemp;
+	int pos,filtercounter;
+	uint32 ip1,ip2;
+	int counter;
+	byte filter;
+	char buffer[1024];
+	int lenBuf = 1024;
+	filtercounter=0;
+	bool skip=false;
+d78 2
+d82 9
+a90 2
+	FILE* readFile= _tfopen(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir())+_T("IPFilter.dat"), _T("r"));
+	if (readFile!=NULL) 
+d92 1
+a92 1
+		while (!feof(readFile)) 
+d94 27
+a120 2
+			if (fgets(buffer,lenBuf,readFile)==0) break;
+			strEntry=buffer;
+d123 2
+a124 1
+			if (strEntry.GetAt(0) == '#' || strEntry.GetAt(0) == '/' || strEntry.GetLength()<5)
+a125 29
+			
+			// get & test & process IP range
+			pos=strEntry.Find(',');
+			if (pos==-1) continue;
+			strIPRange=strEntry.Left(pos).Trim();
+			pos = strIPRange.Find(_T('-'));
+			if (pos==-1) continue;
+			strIPRangeLB=strIPRange.Left(pos).Trim();
+			strIPRangeUB=strIPRange.Right(strIPRange.GetLength() - pos-1).Trim();
+
+			ip1=ip2=0;
+			skip=false;
+
+			counter=0;
+			strTemp.Empty();
+			for( int i = 0; i < 4; i++)
+			{
+				strTemp = strIPRangeLB.Tokenize(_T("."),counter);
+				if( counter == -1 ){ skip = true;break;}
+				ip1 += _tstoi(strTemp) * pow(256,3-i);
+			}
+
+			counter = 0;
+			strTemp.Empty();
+			for( int i = 0; i < 4; i++)
+			{
+				strTemp = strIPRangeUB.Tokenize(_T("."),counter);
+				if( counter == -1 ){ skip=true;break;}
+				ip2 += _tstoi(strTemp) * pow(256,3-i);
+a126 8
+			if (skip) continue;
+			
+			// filter
+			pos=strEntry.Find(_T(','), pos + 1);
+			int pos2=strEntry.Find(_T(','), pos + 1);
+			if (pos2==-1) continue;
+			strIPRange=strEntry.Mid(pos+1,pos2-pos-1).Trim();
+			filter=_tstoi(strIPRange);
+d128 42
+a169 2
+			strIPRange=strEntry.Right(strEntry.GetLength()-pos2-1);
+			if (strIPRange.GetAt(strIPRange.GetLength()-1)==10) strIPRange.Delete(strIPRange.GetLength()-1);
+d172 10
+a181 2
+			if (AddBannedIPRange(ip1,ip2,filter,strIPRange ))
+			filtercounter++;
+d183 33
+d217 50
+a266 1
+		fclose(readFile);
+d268 2
+a269 4
+	return filtercounter;
+	
+	EMULE_CATCH2
+	return 0;
+d271 40
+a310 3
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CIPFilter::SaveToFile(){
+	// nope
+d312 37
+a348 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CIPFilter::RemoveAllIPs(){
+a349 3
+	IPRange_Struct* search;
+	
+	map<uint32, IPRange_Struct*>::const_iterator it;
+d351 3
+a353 3
+	for ( it = iplist.begin(); it != iplist.end(); ++it ) {
+		search=(*it).second;
+			delete search;
+d356 3
+a358 1
+	iplist.clear();
+d361 1
+a361 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d366 1
+a366 1
+	uint32 time;
+d368 1
+a368 1
+	
+d370 2
+a371 2
+	
+	for ( it = iplist_temporary.begin(); it != iplist_temporary.end(); ++it ) 
+d373 2
+a374 2
+		time = it->second;
+		if ((dwCurTick - time) > m_dwTicksToBan) 
+d382 7
+a388 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::IsFiltered(uint32 IP2test)
+d390 18
+a407 2
+	//return IsFiltered(IP2test,g_eMuleApp.m_pGlobPrefs->GetIPFilterLevel());
+	return (IsFiltered(IP2test, m_iFilterLevel) || IsTemporaryFiltered(IP2test));
+d409 2
+a410 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::IsFiltered(uint32 IP2test,int level)
+d413 2
+a414 1
+	if (iplist.size()==0 || IP2test==0) 
+d416 2
+d419 18
+a436 2
+	IPRange_Struct* search;
+	IP2test=htonl(IP2test);
+a437 15
+	map<uint32, IPRange_Struct*>::const_iterator it=iplist.upper_bound(IP2test);
+	it--;
+	do {
+		search=(*it).second;
+		if (search->IPend < IP2test) 
+			return false;
+		if (level==-1 && search->IPstart==IP2test ) 
+			return true;
+		if (search->IPstart<=IP2test && search->IPend>=IP2test && search->filter<level ) 
+		{
+			lasthit=search->description;
+			return true;
+		}
+		it--;
+	} while (it!=iplist.begin());
+d439 1
+d442 2
+a443 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CIPFilter::IsTemporaryFiltered(uint32 IP2test)
+d447 2
+a448 1
+	if (iplist_temporary.size() ==0 || IP2test == 0) 
+d450 1
+d452 1
+a452 1
+	hash_map<uint32, uint32>::iterator it = iplist_temporary.find(IP2test);
+d457 1
+a457 1
+		
+d466 1
+a466 1
+			lasthit.Format(_T("temporary blacklisted (%s remaining)"), CastSecondsToHM((m_dwTicksToBan - dwTicksBanned)/1000));
+d471 1
+d473 31
+a503 1
+	
+d505 1
+d507 40
+@
+
+
+1.16
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d99 1
+a99 1
+			pos=strIPRange.Find(_T("-"));
+d127 2
+a128 2
+			pos=strEntry.Find(_T(","),pos+1);
+			int pos2=strEntry.Find(_T(","),pos+1);
+@
+
+
+1.15
+log
+@speed optimization for temporary filtered clients
+@
+text
+@d48 1
+a48 1
+bool CIPFilter::AddBannedIPRange(uint32 IPfrom,uint32 IPto,uint8 filter, CString desc){
+d75 1
+a75 1
+	uint8 filter;
+@
+
+
+1.14
+log
+@speed optimization for TemporaryFiltered
+@
+text
+@d158 1
+d175 1
+a175 1
+	map<uint32, uint32>::iterator it;
+d230 1
+a230 1
+	map<uint32, uint32>::iterator it = iplist_temporary.find(IP2test);
+@
+
+
+1.13
+log
+@speed optimization in LoadFromFile
+@
+text
+@d30 2
+a31 1
+CIPFilter::CIPFilter(){
+d34 6
+d172 1
+a172 1
+	uint32 curTick = ::GetTickCount();
+d179 4
+a182 1
+		if ((curTick - time) > 24*60*60*1000) iplist_temporary.erase(it->first);
+d191 1
+a191 1
+	return (IsFiltered(IP2test,g_eMuleApp.m_pGlobPrefs->GetIPFilterLevel()) || IsTemporaryFiltered(IP2test));
+d197 2
+a198 1
+	if (iplist.size()==0 || IP2test==0) return false;
+d207 9
+a215 6
+		if (search->IPend<IP2test) return false;
+		if (level==-1 && search->IPstart==IP2test ) return true;
+		if (search->IPstart<=IP2test && search->IPend>=IP2test && search->filter<level ) {
+				lasthit=search->description;
+				return true;
+			}
+d225 3
+a227 1
+	if (iplist_temporary.size() ==0 || IP2test == 0) return false;
+d233 3
+a235 4
+		uint32 iTicksBanned = ::GetTickCount() - it->second;
+		uint32 iTicksToBan = 24*60*60*1000;	//g_eMuleApp.m_pGlobPrefs->BadClientBanTime()*4;
+		//if ((::GetTickCount() - it->second) > 24*60*60*1000)
+		if (iTicksBanned > iTicksToBan)
+d243 1
+a243 1
+			lasthit.Format(_T("temporary blacklisted (%s remaining)"), CastSecondsToHM((iTicksToBan - iTicksBanned)/1000));
+@
+
+
+1.12
+log
+@changed back wrongly renamed filename of ipfilter.dat and folder of webserver icons
+@
+text
+@d34 1
+a34 1
+
+d40 1
+a40 1
+
+d58 3
+a60 2
+
+int CIPFilter::LoadFromFile(){
+d62 3
+a64 1
+	CString sbuffer,sbuffer2,sbuffer3,sbuffer4;
+d67 1
+d72 1
+d77 4
+a80 3
+//	FILE* readFile= _tfopen(CString(g_eMuleApp.m_pGlobPrefs->GetAppDir())+_T("IPFilter.dat"), _T("r"));
+	if (readFile!=NULL) {
+		while (!feof(readFile)) {
+d82 1
+a82 1
+			sbuffer=buffer;
+d85 1
+a85 1
+			if (sbuffer.GetAt(0) == '#' || sbuffer.GetAt(0) == '/' || sbuffer.GetLength()<5)
+d89 1
+a89 1
+			pos=sbuffer.Find(',');
+d91 2
+a92 2
+			sbuffer2=sbuffer.Left(pos).Trim();
+			pos=sbuffer2.Find(_T("-"));
+d94 2
+a95 2
+			sbuffer3=sbuffer2.Left(pos).Trim();
+			sbuffer4=sbuffer2.Right(sbuffer2.GetLength()-pos-1).Trim();
+d98 1
+a98 3
+			int counter = 0;
+			CString temp;
+			bool skip=false;
+d100 7
+a106 3
+			for( int i = 0; i < 4; i++){
+				sbuffer3.Tokenize(_T("."),counter);
+				if( counter == -1 ){ skip=true;break;}
+d108 6
+a113 3
+			counter=0;
+			for( int i = 0; i < 4; i++){
+				sbuffer4.Tokenize(_T("."),counter);
+d115 1
+a118 11
+			counter=0;
+			for(int i=0; i<4; i++){ 
+				temp = sbuffer3.Tokenize(_T("."),counter);
+				ip1 += _tstoi(temp) * pow(256,3-i);
+			}
+			counter=0;
+			for(int i=0; i<4; i++){ 
+				temp = sbuffer4.Tokenize(_T("."),counter);
+				ip2 += _tstoi(temp) * pow(256,3-i);
+			}
+
+d120 2
+a121 2
+			pos=sbuffer.Find(_T(","),pos+1);
+			int pos2=sbuffer.Find(_T(","),pos+1);
+d123 2
+a124 2
+			sbuffer2=sbuffer.Mid(pos+1,pos2-pos-1).Trim();
+			filter=_tstoi(sbuffer2);
+d126 2
+a127 2
+			sbuffer2=sbuffer.Right(sbuffer.GetLength()-pos2-1);
+			if (sbuffer2.GetAt(sbuffer2.GetLength()-1)==10) sbuffer2.Delete(sbuffer2.GetLength()-1);
+d130 1
+a130 1
+			if (AddBannedIPRange(ip1,ip2,filter,sbuffer2 ))
+d137 1
+d141 1
+a141 1
+
+d145 1
+a145 1
+
+d159 1
+a159 1
+
+d177 1
+a177 2
+
+
+d183 1
+a183 1
+
+d207 1
+a207 1
+
+@
+
+
+1.11
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d71 2
+a72 2
+	FILE* readFile= _tfopen(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir())+_T("pIPFilter.dat"), _T("r"));
+//	FILE* readFile= _tfopen(CString(g_eMuleApp.m_pGlobPrefs->GetAppDir())+_T("pIPFilter.dat"), _T("r"));
+@
+
+
+1.10
+log
+@(feature) showing time remaining for temporary filtered ips.
+(change) not giving a special reason (like 'scanning') cause reason is shown when adding client to temp-ban-ip and we migth use it for other things lateron.
+@
+text
+@d71 2
+a72 2
+	FILE* readFile= _tfopen(CString(theApp.glob_prefs->GetConfigDir())+_T("ipfilter.dat"), _T("r"));
+//	FILE* readFile= _tfopen(CString(theApp.glob_prefs->GetAppDir())+_T("ipfilter.dat"), _T("r"));
+d179 2
+a180 2
+	//return IsFiltered(IP2test,theApp.glob_prefs->GetIPFilterLevel());
+	return (IsFiltered(IP2test,theApp.glob_prefs->GetIPFilterLevel()) || IsTemporaryFiltered(IP2test));
+d217 1
+a217 1
+		uint32 iTicksToBan = 24*60*60*1000;	//theApp.glob_prefs->BadClientBanTime()*4;
+@
+
+
+1.9
+log
+@Eklmn: fix for string of last filter applied
+@
+text
+@d216 4
+a219 1
+		if ((::GetTickCount() - it->second) > 24*60*60*1000) 
+d226 2
+a227 1
+			lasthit = _T("File scanning - blacklisted for 24h");
+@
+
+
+1.8
+log
+@extended functionality for antiscaning measures
+@
+text
+@d222 2
+d225 1
+d232 1
+a232 2
+}
+
+@
+
+
+1.7
+log
+@Implemented ConfigDir
+@
+text
+@d35 2
+a36 1
+CIPFilter::~CIPFilter(){
+d38 1
+d158 16
+a173 2
+bool CIPFilter::IsFiltered(uint32 IP2test){
+	return IsFiltered(IP2test,theApp.glob_prefs->GetIPFilterLevel());
+d176 9
+a184 1
+bool CIPFilter::IsFiltered(uint32 IP2test,int level){
+d206 25
+@
+
+
+1.6
+log
+@unicode cleanup
+@
+text
+@d69 2
+a70 1
+	FILE* readFile= _tfopen(CString(theApp.glob_prefs->GetAppDir())+_T("ipfilter.dat"), _T("r"));
+@
+
+
+1.5
+log
+@unicode cleanup
+@
+text
+@d69 1
+a69 1
+	FILE* readFile= _tfopen(CString(theApp.glob_prefs->GetAppDir())+"ipfilter.dat", "r");
+d83 1
+a83 1
+			pos=sbuffer2.Find("-");
+d94 1
+a94 1
+				sbuffer3.Tokenize(".",counter);
+d99 1
+a99 1
+				sbuffer4.Tokenize(".",counter);
+d106 1
+a106 1
+				temp = sbuffer3.Tokenize(".",counter);
+d111 1
+a111 1
+				temp = sbuffer4.Tokenize(".",counter);
+d116 2
+a117 2
+			pos=sbuffer.Find(",",pos+1);
+			int pos2=sbuffer.Find(",",pos+1);
+@
+
+
+1.4
+log
+@Upgrade to 0.28a
+@
+text
+@d69 1
+a69 1
+	FILE* readFile= fopen(CString(theApp.glob_prefs->GetAppDir())+"ipfilter.dat", "r");
+d107 1
+a107 1
+				ip1 += atoi(temp) * pow(256,3-i);
+d112 1
+a112 1
+				ip2 += atoi(temp) * pow(256,3-i);
+d120 1
+a120 1
+			filter=atoi(sbuffer2);
+@
+
+
+1.3
+log
+@More try/catch according to crash dumps
+@
+text
+@d24 1
+a26 1
+#define new DEBUG_NEW
+d39 1
+a39 2
+void CIPFilter::AddBannedIPRange(uint32 IPfrom,uint32 IPto,uint8 filter, CString desc){
+	EMULE_TRY
+a40 2
+	IPRange_Struct* search;
+	bool inserted=false;
+d47 8
+a54 12
+	if (iplist.GetCount()==0) iplist.InsertAt(0,newFilter); else {
+		for (int i=0;i<iplist.GetCount();i++) {
+			search=iplist.GetAt(i);
+			if (search->IPstart>IPfrom) {
+				iplist.InsertAt(i,newFilter);
+				inserted=true;
+				break;
+			}
+		}
+		if (!inserted) iplist.Add(newFilter);
+	}
+	EMULE_CATCH
+d126 1
+a126 1
+			AddBannedIPRange(ip1,ip2,filter,sbuffer2 );
+d138 1
+d144 4
+a147 4
+	while (iplist.GetCount()>0) {
+        search=iplist.GetAt(0);
+		iplist.RemoveAt(0);
+		try{
+a148 1
+		}catch(...){}
+d150 2
+d156 4
+d161 1
+a161 3
+	if (iplist.GetCount()==0) return false;
+
+	//CSingleLock(&m_Mutex,TRUE); // will be unlocked on exit
+d164 1
+a164 1
+	uint32 IP2test_=(uint8)(IP2test>>24) | (uint8)(IP2test>>16)<<8 | (uint8)(IP2test>>8)<<16 | (uint8)(IP2test)<<24 ;
+d166 7
+a172 9
+	uint16 lo=0;
+	uint16 hi=iplist.GetCount()-1;
+	uint16 mi;
+
+	while (true) {
+		mi=((hi-lo)/2) +lo;
+		search=iplist.GetAt(mi);
+		if (search->IPstart<=IP2test_ && search->IPend>=IP2test_ ) {
+			if (search->filter<theApp.glob_prefs->GetIPFilterLevel() ) {
+d176 2
+a177 6
+			return false;
+		}
+		if (lo==hi) return false;
+		if (IP2test_<search->IPstart) hi=mi; 
+			else lo=mi+1;
+	}
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d40 1
+d61 1
+d65 1
+d140 2
+d148 1
+d153 3
+a155 1
+		delete search;
+d157 1
+d161 1
+d187 1
+@
+
+
+1.2.8.1
+log
+@27c
+@
+text
+@d29 1
+d41 2
+d49 11
+a59 1
+	iplist[IPfrom]=newFilter;
+d144 3
+a146 4
+	
+	map<uint32, IPRange_Struct*>::const_iterator it;
+	for ( it = iplist.begin(); it != iplist.end(); ++it ) {
+		search=(*it).second;
+a148 2
+
+	iplist.clear();
+d152 3
+a154 1
+	if (iplist.size()==0 || IP2test==0) return false;
+d157 1
+a157 1
+	IP2test=htonl(IP2test);
+d159 13
+a171 8
+	map<uint32, IPRange_Struct*>::const_iterator it=iplist.upper_bound(IP2test);
+	it--;
+	do {
+		search=(*it).second;
+		if (search->IPend<IP2test) return false;
+		if (search->IPstart<=IP2test && search->IPend>=IP2test && search->filter<theApp.glob_prefs->GetIPFilterLevel() ) {
+			lasthit=search->description;
+			return true;
+d173 4
+a176 2
+		it--;
+	} while (it!=iplist.begin());
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d23 7
+@
+

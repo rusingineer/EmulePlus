@@ -1,0 +1,528 @@
+head	1.6;
+access;
+symbols
+	PublicRelease_1_2e:1.6
+	Interim_Release_1-2e_RC1:1.6
+	PublicRelease_1_2d:1.6
+	Interim_Release_1-2d_RC1:1.5
+	Interim_Release_1-2d_beta1:1.5
+	PublicRelease_1_2c:1.5
+	Interim_Release_1-2c_RC1:1.5
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.5
+	PublicRelease_1_2a:1.5
+	Interim_Release_1-2a_RC1:1.5
+	Interim_Release_1-2a_beta2:1.5
+	Interim_Release_1-2a_beta1:1.5
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.5
+	PublicRelease_1_1g:1.5
+	Interim_Release_1-1g_RC3:1.5
+	Interim_Release_1-1g_RC2:1.5
+	Interim_Release_1-1g_RC1:1.5
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.5
+	Interim_Release_1-1f_RC1:1.5
+	PublicRelease_1_1e:1.5
+	Interim_Release_1-1e_RC2:1.5
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.5
+	Interim_Release_1-1c_beta1:1.5
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.5
+	PublicRelease_1_1:1.5
+	Interim_Release_1-1_beta1:1.5
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	Interim_Release_1n_beta1:1.5
+	PublicRelease_1m:1.4
+	Interim_Release_1m_beta1:1.4
+	PublicRelease_1l:1.4
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.4
+	Interim_Release_1l_beta1:1.4
+	PublicRelease_1k:1.4
+	Interim_Release_1k_RC4:1.4
+	Interim_1k_RC3:1.4
+	Interim_1k_RC2:1.4
+	Interim_Release_1k_RC1:1.4
+	Interim_Release_1k_beta5:1.4
+	Intrerim_Release_1k_beta4:1.4
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3
+	Interim_Release_1h_beta2:1.3
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3
+	PublicRelease_1g:1.3
+	Interim_Release_1g_RC6_Final:1.3
+	Interim_Release_1g_RC6:1.3
+	Interim_Release_1g_RC5:1.3
+	Interim_Release_1g_RC4:1.3
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.2
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.6
+date	2008.04.22.04.58.37;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.07.05.21.04.49;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.21.22.05.15;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.11.18.27.09;	author eklmn;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.04.22.12.41.51;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.05;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Suppressed compiler warnings.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2007 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "EnBitmap.h"
+#include "otherfunctions.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+const int HIMETRIC_INCH = 2540;
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CEnBitmap::CEnBitmap()
+{
+
+}
+
+CEnBitmap::~CEnBitmap()
+{
+
+}
+
+BOOL CEnBitmap::LoadImage(UINT uIDRes, LPCTSTR szResourceType, HMODULE hInst, COLORREF crBack)
+{
+	ASSERT(m_hObject == NULL);      // only attach once, detach on destroy
+
+	if (m_hObject != NULL)
+		return FALSE;
+
+	BYTE*	pBuff = NULL;
+	int		nSize = 0;
+	BOOL bResult = FALSE;
+
+	// first call is to get buffer size
+	if (GetResource(MAKEINTRESOURCE(uIDRes), szResourceType, hInst, 0, nSize))
+	{
+		if (nSize > 0)
+		{
+			pBuff = new BYTE[nSize];
+			
+			// this loads it
+			if (GetResource(MAKEINTRESOURCE(uIDRes), szResourceType, hInst, pBuff, nSize))
+			{
+				IPicture* pPicture = LoadFromBuffer(pBuff, nSize);
+
+				if (pPicture)
+				{
+					bResult = Attach(pPicture, crBack);
+					pPicture->Release();
+				}
+			}
+
+			delete [] pBuff;
+		}
+	}
+
+	return bResult;
+}
+
+BOOL CEnBitmap::LoadImage(LPCTSTR szImagePath, COLORREF crBack)
+{
+	ASSERT(m_hObject == NULL);      // only attach once, detach on destroy
+
+	if (m_hObject != NULL)
+		return FALSE;
+
+	BOOL bResult = FALSE;
+	CFile			cFile;
+	CFileException	e;
+	
+	if (cFile.Open(szImagePath, CFile::modeRead | CFile::typeBinary | CFile::shareDenyWrite, &e))
+	{
+		int nSize = static_cast<int>(cFile.GetLength());
+
+		BYTE* pBuff = new BYTE[nSize];
+		
+		if (cFile.Read(pBuff, nSize) > 0)
+		{
+			IPicture* pPicture = LoadFromBuffer(pBuff, nSize);
+			
+			if (pPicture)
+			{
+				bResult = Attach(pPicture, crBack);
+				pPicture->Release();
+			}
+		}
+
+		delete[] pBuff;
+	}
+
+	return bResult;
+}
+
+IPicture* CEnBitmap::LoadFromBuffer(BYTE* pBuff, int nSize)
+{
+	HGLOBAL hGlobal = GlobalAlloc(GMEM_MOVEABLE, nSize);
+	void* pData = GlobalLock(hGlobal);
+	memcpy2(pData, pBuff, nSize);
+	GlobalUnlock(hGlobal);
+
+	IStream* pStream = NULL;
+	IPicture* pPicture = NULL;
+
+	if (CreateStreamOnHGlobal(hGlobal, TRUE, &pStream) == S_OK)
+	{
+		OleLoadPicture(pStream, nSize, FALSE, IID_IPicture, (LPVOID *)&pPicture);
+		pStream->Release();
+	}
+
+	return pPicture; // caller releases
+}
+
+BOOL CEnBitmap::GetResource(LPCTSTR lpName, LPCTSTR lpType, HMODULE hInst, void* pResource, int& nBufSize)
+{ 
+	HRSRC		hResInfo;
+	HANDLE		hRes;
+	LPSTR		lpRes	= NULL; 
+	bool		bResult	= FALSE;
+
+	// Find the resource
+	hResInfo = FindResource(hInst, lpName, lpType);
+
+	if (hResInfo == NULL) 
+		return false;
+
+	// Load the resource
+	hRes = LoadResource(hInst, hResInfo);
+
+	if (hRes == NULL) 
+		return false;
+
+	// Lock the resource
+	lpRes = (char*)LockResource(hRes);
+
+	if (lpRes != NULL)
+	{ 
+		if (pResource == NULL)
+		{
+			nBufSize = SizeofResource(hInst, hResInfo);
+			bResult = true;
+		}
+		else
+		{
+			if (nBufSize >= (int)SizeofResource(hInst, hResInfo))
+			{
+				memcpy2(pResource, lpRes, nBufSize);
+				bResult = true;
+			}
+		} 
+
+		UnlockResource(hRes);  
+	}
+
+	// Free the resource
+	FreeResource(hRes);
+
+	return bResult;
+}
+
+BOOL CEnBitmap::Attach(IPicture* pPicture, COLORREF crBack)
+{
+	ASSERT(m_hObject == NULL);      // only attach once, detach on destroy
+
+	if (m_hObject != NULL)
+		return FALSE;
+
+	ASSERT(pPicture);
+
+	if (!pPicture)
+		return FALSE;
+
+	BOOL bResult = FALSE;
+
+	CDC dcMem;
+	CDC* pDC = CWnd::GetDesktopWindow()->GetDC();
+
+	if (dcMem.CreateCompatibleDC(pDC))
+	{
+		long hmWidth;
+		long hmHeight;
+
+		pPicture->get_Width(&hmWidth);
+		pPicture->get_Height(&hmHeight);
+		
+		int nWidth	= MulDiv(hmWidth,	pDC->GetDeviceCaps(LOGPIXELSX), HIMETRIC_INCH);
+		int nHeight	= MulDiv(hmHeight,	pDC->GetDeviceCaps(LOGPIXELSY), HIMETRIC_INCH);
+
+		CBitmap bmMem;
+
+		if (bmMem.CreateCompatibleBitmap(pDC, nWidth, nHeight))
+		{
+			CBitmap* pOldBM = dcMem.SelectObject(&bmMem);
+
+			if (crBack != -1)
+				dcMem.FillSolidRect(0, 0, nWidth, nHeight, crBack);
+			
+			HRESULT hr = pPicture->Render(dcMem, 0, 0, nWidth, nHeight, 0, hmHeight, hmWidth, -hmHeight, NULL);
+			dcMem.SelectObject(pOldBM);
+
+			if (hr == S_OK)
+				bResult = CBitmap::Attach(bmMem.Detach());
+		}
+	}
+
+	CWnd::GetDesktopWindow()->ReleaseDC(pDC);
+
+	return bResult;
+}
+@
+
+
+1.5
+log
+@More file sharing corrections to allow read-only access for other applications (official).
+@
+text
+@d1 2
+a2 1
+// EnBitmap.cpp: implementation of the CEnBitmap class.
+d4 13
+a16 1
+//////////////////////////////////////////////////////////////////////
+d28 1
+a28 1
+const int HIMETRIC_INCH	= 2540;
+d73 1
+a73 1
+			
+d94 1
+a94 1
+		int nSize = cFile.GetLength();
+d108 2
+a109 2
+		
+		delete [] pBuff;
+a229 1
+
+@
+
+
+1.4
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d79 1
+a79 1
+	if (cFile.Open(szImagePath, CFile::modeRead | CFile::typeBinary, &e))
+@
+
+
+1.3
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d7 1
+a7 1
+#include "memcpy_amd.h"
+d106 1
+a106 5
+	#ifndef AMD
+	memcpy(pData, pBuff, nSize);
+	#else
+	memcpy_amd(pData, pBuff, nSize);
+	#endif
+d154 1
+a154 5
+				#ifndef AMD
+				memcpy(pResource, lpRes, nBufSize);
+				#else
+				memcpy_amd(pResource, lpRes, nBufSize);
+				#endif
+@
+
+
+1.2
+log
+@Upgrade to 0.28a
+@
+text
+@d7 1
+d106 1
+d108 3
+d158 1
+d160 3
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a102 2
+	bool bResult = false;
+
+d113 1
+a113 1
+		HRESULT hr = OleLoadPicture(pStream, nSize, FALSE, IID_IPicture, (LPVOID *)&pPicture);
+a124 1
+	int			nLen	= 0;
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

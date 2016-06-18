@@ -1,0 +1,2665 @@
+head	1.18;
+access;
+symbols
+	UNICODE:1.17
+	Interim_Release_1c_beta1:1.16
+	threaded_downloadqueue:1.16.0.2
+	PublicRelease_1b:1.15
+	Interim_Release_1b_beta2:1.14
+	Interim_Release_1b_beta1:1.14
+	proxydeadlake:1.11.0.2
+	PublicRelease_1a:1.11
+	Interim_Release_1a_beta2:1.11
+	BerkeleyDb:1.9.0.2
+	Interim_Release_1a_beta1:1.8
+	PublicRelease_1:1.7
+	goldfish:1.7
+	eMulePlus_1_RC2:1.7
+	eMulePlus_26b_1RC1:1.7
+	PreRelease_26b_i0e:1.7
+	before_26d_merge:1.3;
+locks; strict;
+comment	@ * @;
+
+
+1.18
+date	2003.03.16.14.46.54;	author cax2;	state dead;
+branches;
+next	1.17;
+
+1.17
+date	2003.03.16.10.37.04;	author emoulari;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.03.10.18.00.59;	author cax2;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.03.10.01.23.14;	author emoulari;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.03.05.09.18.36;	author emoulari;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.02.09.09.19;	author emoulari;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.01.12.48.32;	author dongato;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.02.26.10.39.53;	author dongato;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.25.13.04.49;	author emoulari;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.24.21.01.53;	author dongato;	state Exp;
+branches
+	1.9.2.1;
+next	1.8;
+
+1.8
+date	2003.02.24.06.56.06;	author emoulari;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.18.18.12.38;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.18.15.21.08;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.18.11.01.52;	author emoulari;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.18.01.42.50;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.16.15.56.06;	author emoulari;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.15.17.11.20;	author emoulari;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.15.11.22.17;	author kuchin;	state Exp;
+branches;
+next	;
+
+1.9.2.1
+date	2003.02.28.22.45.00;	author obaldin;	state Exp;
+branches;
+next	1.9.2.2;
+
+1.9.2.2
+date	2003.03.01.21.05.10;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.18
+log
+@removed .rc files
+@
+text
+@ï»¿/////////////////////////////////////////////////////////////////////////////
+// French (France) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
+#ifdef _WIN32
+LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&A propos d'eMule Plus..."
+    IDS_INFLST_USER_COMMUNITY "CommunautÃ©"
+    IDS_HTTPDOWNLOAD_FILESTATUS "%1 de %2"
+    IDS_SOCKETS_INIT_FAILED "Erreur d'initialisation des sockets Windows"
+    IDS_HTTPDOWNLOAD_CONNECTED "ConnectÃ© Ã  %1"
+    IDS_HTTPDOWNLOAD_RESOLVING_NAME "Recherche du nom : %1"
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Nom trouvÃ© : %1"
+    IDS_HTTPDOWNLOAD_CONNECTING "Connexion Ã  %1"
+    IDS_HTTPDOWNLOAD_REDIRECTING "Redirection vers %1"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HTTPDOWNLOAD_GETTING_FILE_INFORMATION "Recherche informations fichier"
+    IDS_HTTPDOWNLOAD_FAIL_PARSE_ERROR "Erreur d'analyse de l'url : %s"
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR "Erreur durant la tentative de tÃ©lÃ©chargement, Erreur : %1"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER "Erreur durant la connexion au serveur, Erreur : %1"
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE "RÃ©ponse du serveur invalide"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE "RÃ©ponse HTTP du serveur invalide"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE "Erreur durant le tÃ©lÃ©chargement du fichier, Erreur : %1"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "Mise Ã  jour liste de serveurs : %1% de %2 EffectuÃ©"
+    IDS_HTTPDOWNLOAD_RETREIVEING_FILE "Recouvrement du fichier"
+    IDS_HTTPDOWNLOAD_OF     "%1 de %2"
+    IDS_HTTPDOWNLOAD_SECONDS "%1 sec"
+    IDS_HTTPDOWNLOAD_MINUTES "%1 min"
+    IDS_HTTPDOWNLOAD_MINUTES_AND_SECONDS "%1 min %2 sec"
+    IDS_HTTPDOWNLOAD_BYTES  "%1 Octets"
+    IDS_HTTPDOWNLOAD_KILOBYTES "%1 Ko"
+    IDS_CANCEL              "Abandonner"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_HTTPDOWNLOAD_MEGABYTES "%1 Mo"
+    IDS_HTTP_CAPTION        "Mise Ã  jour liste de serveurs"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%1 (%2 copiÃ©s)"
+    IDS_HTTPDOWNLOAD_BYTESPERSECOND "%1 Octets/Sec"
+    IDS_HTTPDOWNLOAD_KILOBYTESPERSECOND "%1 Ko/Sec"
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE "Le fichier '%1' existe dÃ©jÃ .\nLe remplacer ?"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN "Erreur durant l'ouverture du fichier Ã  tÃ©lÃ©charger, Erreur:%1"
+    IDS_HTTPDOWNLOAD_ABORTING_TRANSFER "Abandon du transfert"
+    IDS_BYTESPERSEC         "bytes/s"
+    IDS_BAN                 "Ban"
+    IDS_MAIN_READY          "eMule Plus Version %s prÃªt"
+    IDS_CLIENTREQUESTLBL    "Gestion Clients Agressifs"
+    IDS_BANFORLABEL         "DurÃ©e du Ban"
+    IDS_MAIN_SOCKETERROR    "Erreur fatale: impossible de crÃ©er socket sur port %i"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAIN_BTN_DISCONNECT "DÃ©&connecter"
+    IDS_MAIN_BTN_DISCONNECT_TOOLTIP "DÃ©connectÃ© du serveur courant"
+    IDS_ERR_WRONGFILEID     "Mauvais FileId envoyÃ©"
+    IDS_ERR_BADHASHSET      "Hashset corrompu ou invalide reÃ§u"
+    IDS_ERR_BADDATABLOCK    "DataBlock corrompu ou invalide reÃ§u"
+    IDS_ERR_ILLFORMEDHASH   "Hash invalide"
+    IDS_ERR_BADED2KLINK     "Lien ed2k invalide"
+    IDS_TIMESINLBL          "fois en"
+    IDS_ERR_NOSLLINK        "Lien ed2k invalide"
+    IDS_ERR_WRONGPACKAGESIZE "Taille de paquet invalide"
+    IDS_ERR_WRONGHPACKAGESIZE "Taille de paquet invalide"
+    IDS_ERR_BADCLIENTACTION "Un client a provoquÃ© des erreurs : %s. Client dÃ©connectÃ©."
+    IDS_ERR_UNKNOWNCLIENTACTION "Des clients inconnus envoient des paquets IP"
+    IDS_ERR_OPENMET         "Impossible d'ouvrir part.met ! (%s => %s)"
+    IDS_ERR_BADMETVERSION   "Version de part.met invalide ! (%s => %s)"
+    IDS_ERR_BADGAP          "Gap-Tag invalide dans part.met"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FILEID              "FileID"
+    IDS_FILE                "Fichier"
+    IDS_DOWNLOAD            "TÃ©lÃ©chargement"
+    IDS_SL_SERVERNAME       "Nom de Serveur"
+    IDS_IP                  "IP"
+    IDS_DESCRIPTION         "Description"
+    IDS_PING                "Ping"
+    IDS_FILES               "Fichiers"
+    IDS_PREFERENCE          "PrÃ©fÃ©rence"
+    IDS_PRIONOPREF          "Pas de prÃ©f"
+    IDS_CONNECTTHIS         "Se connecter Ã  ce serveur"
+    IDS_CHAT_WELCOME        "Messagerie instantanÃ©e\n  \nClic droit sur le client et choisir 'Envoyer Message' pour lancer un dialogue"
+    IDS_MAIN_BTN_CANCEL_TOOLTIP "ArrÃªte les tentatives de connexion"
+    IDS_MAIN_BTN_CONNECT    "&Connecter"
+    IDS_ERR_SAVESERVERMET2  "Echec d'enregistrement de server.met ! Vous devriez effacer server.met et renommer server.met.old en server.met !"
+    IDS_NOTCONNECTED        "Non ConnectÃ©"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DISCONNECTED        "DÃ©connectÃ©"
+    IDS_USERS               "Util. : %i"
+    IDS_UPDOWN              "UL : %.1f | DL : %.1f"
+    IDS_CONNECTED           "ConnectÃ©"
+    IDS_LINKNOTADDED        "Impossible d'ajouter le lien"
+    IDS_MAIN_EXIT           "Etes-vous sÃ»r de vouloir quitter eMule Plus ?"
+    IDS_MAIN_EXITTITLE      "Confirmation de sortie"
+    IDS_MAIN_POPUP_RESTORE  "Agrandissement"
+    IDS_CONNECTTOANYSERVER  "Connexion Ã  un serveur"
+    IDS_EXIT                "Quitter"
+    IDS_CONNECTING          "Connexion"
+    IDS_FAILED              "Echec"
+    IDS_ERR_BADSERVERREPLY  "RÃ©ponse de login invalide"
+    IDS_NEWCLIENTID         "Nouveau clientID : %u"
+    IDS_NOSHAREDFOLDERS     "Pas de dossier partagÃ©"
+    IDS_SHAREDFOLDERS       "Dossiers partagÃ©s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_WRITEERROR      "Erreur inconnue d'Ã©criture de %s : %s"
+    IDS_ERR_COMPLETIONFAILED "Erreur inconnue lors de la finalisation de %s. Fichier mis en pause, redÃ©marrez eMule pour une autre tentative"
+    IDS_ERR_DELETEFAILED    "Impossible d'effacer %s, vous devrez le faire manuellement"
+    IDS_DOWNLOADDONE        "TÃ©lÃ©chargement terminÃ© de %s"
+    IDS_ERR_DELETE          "Impossible de supprimer %s"
+    IDS_ERR_HASHERRORWARNING "Impossible de hacher la partie tÃ©lÃ©chargÃ©e : hashset incomplet (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Impossible de hacher la partie tÃ©lÃ©chargÃ©e : hashset incomplet (%s)."
+    IDS_DOWNLOADING         "TÃ©lÃ©chargement"
+    IDS_WAITING             "En attente"
+    IDS_SLS_OUTDATED        "PÃ©rimÃ©s aprÃ¨s"
+    IDS_HASHING             "Hachage"
+    IDS_COMPLETING          "Finalisation"
+    IDS_COMPLETE            "TerminÃ©"
+    IDS_PAUSED              "En pause"
+    IDS_ERRORLIKE           "ErronÃ©"
+    IDS_ASSIGNED2K          "eMule n'est pas associÃ© aux liens ED2K. Voulez-vous associer eMule aux liens ED2K maintenant  (recommandÃ©) ?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_EMPTYADRESSESDAT "Aucun serveur rÃ©pertoriÃ© dans 'adresses.dat'. Placez y une liste de serveurs avec leur adresse pour assurer une mise Ã  jour automatique."
+    IDS_ERR_EMPTYADRESSESDAT_TITLE "Impossible de retrouver la liste de serveurs"
+    IDS_ERR_BADSERVERMETVERSION "NÂ° de version invalide dans server.met (0x%X)!"
+    IDS_SERVERSFOUND        "%i serveurs trouvÃ©s dans server.met"
+    IDS_SERVERSADDED        "%d serveurs ajoutÃ©s, %d supprimÃ©s"
+    IDS_ERR_BADSERVERLIST   "Le fichier server.met est invalide, impossible de charger la liste de serveurs"
+    IDS_ERR_FILEERROR_SERVERMET "Erreur de lecture du fichier server.met : %s, impossible de charger la liste de serveurs"
+    IDS_ERR_SAVESERVERMET   "Echec d'enregistrement de server.met!"
+    IDS_TRAYDLG_SPEED       "Vitesse d'eMule Plus"
+    IDS_MAIN_CONNECTEDTO    "Connexion Ã©tablie sur : "
+    IDS_INFLST_FILE_PARTAVAILABLE "Parties disponibles"
+    IDS_MAIN_BTN_CANCEL     "&Annuler"
+    IDS_INFLST_FILE_NOSOURCES "Pas de sources"
+    IDS_AVAIL               "Disponible"
+    IDS_HTTPD_PASS          "Mot de passe"
+    IDS_TYPE                "Type"
+    IDS_HTTPD_RELOAD_TMPL	"Recharger Templates"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_VIEW1               "Voir "
+    IDS_VIEW2               " (non partagÃ©)"
+    IDS_PRIOLOW             "Basse"
+    IDS_PRIONORMAL          "Normale"
+    IDS_PRIOHIGH            "Haute"
+    IDS_DOWNLOADMENUTITLE   "TÃ©lÃ©chargements"
+    IDS_PRIORITY            "PrioritÃ©"
+    IDS_NEWSERVERS          "RÃ©ception de %d nouveaux serveurs"
+    IDS_DL_STOP             "&Stop"
+    IDS_DL_PAUSE            "&Pause"
+    IDS_DL_RESUME           "&Reprise"
+    IDS_DL_OPEN             "&Ouvrir le fichier"
+    IDS_DL_INFO             "Voir &dÃ©tails fichier"
+    IDS_DL_CLEAR            "Effa&cer terminÃ©s"
+    IDS_DL_LINK1            "Copier &lien ED2k"
+    IDS_DL_LINK2            "Copier lien ED2k (&HTML)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHOWDETAILS         "Voir &dÃ©tails"
+    IDS_SEND_MSG            "Envoyer &Message"
+    IDS_ASKING              "Demande"
+    IDS_CONNVIASERVER       "Connexion via le serveur"
+    IDS_ONQUEUE             "En attente"
+    IDS_TRANSFERRING        "Transfert"
+    IDS_RECHASHSET          "RÃ©ception hashset"
+    IDS_NONEEDEDPARTS       "Pas de partie Ã  charger"
+    IDS_NOCONNECTLOW2LOW    "Impossible de connecter LowID Ã  LowID"
+    IDS_UNKNOWN             "Inconnu"
+    IDS_ASKED4ANOTHERFILE   "Demande un autre fichier"
+    IDS_Q_CANCELDL          "Etes-vous sÃ»r d'annuler et effacer ces fichiers ?\n"
+    IDS_Q_CANCELDL2         "Etes-vous sÃ»r d'annuler et effacer ce fichier ?\n"
+    IDS_COPIED2CB           "CopiÃ© : \n"
+    IDS_PROCDONE            "% effectuÃ©"
+    IDS_SELECTINCOMINGDIR   "Choisir un dossier pour les fichiers tÃ©lÃ©chargÃ©s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SELECTTEMPDIR       "Choisir un dossier pour les fichiers temporaires"
+    IDS_DL_FILENAME         "Nom de fichier"
+    IDS_DL_SIZE             "Taille"
+    IDS_DL_TRANSF           "ReÃ§us"
+    IDS_DL_SPEED            "Vitesse"
+    IDS_DL_PROGRESS         "Progression"
+    IDS_DL_SOURCES          "Sources"
+    IDS_ERR_BADSERVERLISTRECEIVED "Liste de serveurs reÃ§ue invalide"
+    IDS_STATUS              "Etat"
+    IDS_DL_REMAINS          "Temps restant"
+    IDS_QL_USERNAME         "Nom d'utilisateur"
+    IDS_ENABLED             "ActivÃ©"
+    IDS_ERR_PACKAGEHANDLING "Erreur non prise en charge lors du traitement des paquets (%s)"
+    IDS_QL_RATING           "Evaluation"
+    IDS_CONNECTINGTO        "Connexion Ã  %s (%s:%i)..."
+    IDS_CLIENTS             "Clients"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SEARCH_ANY          " Tous"
+    IDS_SEARCH_AUDIO        "Audio"
+    IDS_SEARCH_PICS         "Images"
+    IDS_SEARCH_PRG          "Programmes"
+    IDS_SEARCH_VIDEO        "VidÃ©os"
+    IDS_SEARCH_CDIMG        "Images-CD"
+    IDS_SEARCH_ARC          "Archives"
+    IDS_ERR_INVALIDLINK     "Lien ed2k invalide (%s)"
+    IDS_ERR_LINKERROR       "Lien invalide : %s"
+    IDS_ERR_NOTCONNECTED    "Vous n'Ãªtes pas connectÃ© Ã  un serveur!"
+    IDS_REMOVETHIS          "Supprimer ce serveur"
+    IDS_REMOVEALL           "Supprimer tous les serveurs"
+    IDS_SRV_ADDR            "Entrez une adresse de serveur"
+    IDS_SRV_PORT            "Entrez le port du nouveau serveur Ã  ajouter"
+    IDS_SRV_NOTADDED        "Serveur non ajoutÃ© !"
+    IDS_SRV_READD           "Le serveur Ã©tait marquÃ© inactif, il a Ã©tÃ© rÃ©insÃ©rÃ©!"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SRV_NOURLAV         "Pas d'URL disponible."
+    IDS_INVALIDURL          "URL invalide"
+    IDS_ERR_FAILEDDOWNLOADMET "Echec de rÃ©ception de la liste de serveurs depuis %s"
+    IDS_PERMISSION          "Permission"
+    IDS_SHAREDFILES         "Partages"
+    IDS_PRIOVERYLOW         "TrÃ¨s basse"
+    IDS_PRIORELEASE         "TrÃ¨s haute"
+    IDS_PW_HTTPD            "serveur web"
+    IDS_FSTATUS_LOCKED      "BloquÃ©"
+    IDS_PW_ADVANCED         "ParamÃ¨tres +"
+    IDS_FSTATUS_FRIENDSONLY "Amis seulement"
+    IDS_RECONNECTLOWID      "Reconnecter si Low ID"
+    IDS_FSTATUS_PUBLIC      "Public"
+    IDS_UAP                 "AutoprioritÃ© Upload"
+    IDS_PRIOHIGHEST         "TrÃ¨s haute"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_NOPRIMCHANGE    "Vous ne pouvez pas changer les permissions en cours de tÃ©lÃ©chargement !"
+    IDS_HIDDEN              "CachÃ©"
+    IDS_FSTAT_TRANSFER      "Transfert"
+    IDS_FSTAT_CONNECTION    "Connexion"
+    IDS_FSTAT_CLIENTS       "Clients"
+    IDS_FSTAT_SERVERS       "Serveurs"
+    IDS_FSTAT_WAITING       "Attente..."
+    IDS_TIME                "Temps"
+    IDS_STATS_DDATA         "DonnÃ©es tÃ©lÃ©chargÃ©es (Session (Total)) : %s (%s)"
+    IDS_STATS_UDATA         "DonnÃ©es envoyÃ©es (Session (Total)) : %s (%s)"
+    IDS_STATS_AVGDL         "Taux de tÃ©lÃ©chargement (Session) : %.2f Ko/s"
+    IDS_STATS_AVGUL         "Taux d'envoi (Session) : %.2f Ko/s"
+    IDS_STATS_FOUNDSRC      "Sources trouvÃ©es : %i"
+    IDS_STATS_ACTDL         "TÃ©lÃ©chargements actifs (morceaux) : %i"
+    IDS_STATS_ACTUL         "Envois actifs : %i"
+    IDS_STATS_WAITINGUSERS  "Envois en attente : %i"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_STATS_RECONNECTS    "Nombre de reconnexions : %i"
+    IDS_STATS_WAITTRANSF    "Attente de transfert..."
+    IDS_STATS_WAITCONN      "Attente de connexion..."
+    IDS_STATS_CONNECTEDSINCE "ConnectÃ© au serveur depuis : %s"
+    IDS_STATS_RATIO         "Taux UL/DL pour la session : "
+    IDS_STATS_UNKNOWNCLIENT "Autre..."
+    IDS_STATS_TOTAL         "Total : %i"
+    IDS_STATS_WORKING       "Fonctionnel : %i"
+    IDS_STATS_DEAD          "Inactif/EffacÃ© : %i"
+    IDS_DISABLED            "DÃ©sactivÃ©"
+    IDS_STOPPED             "StoppÃ©"
+    IDS_STATS_UPDATELABEL   "DÃ©lai mise Ã  jour : %i sec"
+    IDS_QUEUECOUNT          "%u dont %u banni(s)"
+    IDS_NICKNAME            "Surnom: "
+    IDS_CLIENTSFILENAME     "\nNom de fichier client : "
+    IDS_ASKEDFAF            "\nDemande autre fichier"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WAITED              "Attendu"
+    IDS_ERR_LOADCREDITFILE  "Echec de chargement du fichier de crÃ©dits, nouveau fichier crÃ©Ã©"
+    IDS_ERR_CREDITFILEOLD   "Le fichier de crÃ©dits n'est pas Ã  jour : il sera remplacÃ©"
+    IDS_CREDITFILELOADED    "Fichier de crÃ©dits chargÃ©, %u clients sont connus"
+    IDS_CREDITFILECORRUPT   "Fichier de crÃ©dits erronÃ© : il sera remplacÃ©!"
+    IDS_ERR_CREDITFILEREAD  "Erreur inconnue de lecture du fichier de crÃ©dits : %s"
+    IDS_ERR_FAILED_CREDITSAVE "Erreur d'Ã©criture du fichier de crÃ©dits"
+    IDS_NOPARTSFOUND        "Pas de fichiers .part trouvÃ©s"
+    IDS_FOUNDPARTS          "%i fichiers .part trouvÃ©s"
+    IDS_NEWDOWNLOAD         "TÃ©lÃ©chargement de %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Vous tÃ©lÃ©chargez dÃ©jÃ  ce fichier : %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Vous avez dÃ©jÃ  tÃ©lÃ©chargÃ© ce fichier : %s"
+    IDS_ERR_SERVERMET_BAD   "Le fichier known.met est erronÃ©, impossible de le charger"
+    IDS_ERR_SERVERMET_UNKNOWN "Erreur inconnue de lecture de known.met : %s, impossible de le charger"
+    IDS_ERR_CONNECTIONERROR "Erreur durant la connexion Ã  %s (%s:%i) : %d"
+    IDS_ERR_SOCKET          "Erreur dans serversocket : %s (%s:%i) : %u"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SHAREDFOUND         "TrouvÃ© %i fichiers partagÃ©s connus"
+    IDS_SHAREDFOUNDHASHING  "TrouvÃ© %i fichiers partagÃ©s connus, hachage %i nouveaux fichiers"
+    IDS_ERR_UDPEXT          "Erreur durant l'exÃ©cution du protocole UDP Packet"
+    IDS_ERR_INCOMPLETEBLOCK "Demande d'un bloc incomplet "
+    IDS_ERR_OPEN            "Echec d'ouverture du fichier demandÃ©"
+    IDS_ERR_CLIENTERRORED   "Le client '%s' a provoquÃ© une erreur (%s). Client dÃ©connectÃ©"
+    IDS_ERR_REQ_FNF         "Fichier demandÃ© non trouvÃ©"
+    IDS_CLIENTBLOCKED       "Le client '%s' semble Ãªtre agressif : il est banni de la file d'attente"
+    IDS_LUSERS              "Utilisateurs"
+    IDS_LFILES              "Fichiers"
+    IDS_DESC                "Description : %s"
+    IDS_PORT                "Port"
+    IDS_ERR_NOVALIDSERVERSFOUND "Pas de serveur valide trouvÃ© dans la liste"
+    IDS_CONNECTEDTOREQ      "Demande de login pour se connecter Ã  %s (%s:%i)"
+    IDS_ERR_FATAL           "Erreur fatale durant la connexion. La connexion Internet est peut-Ãªtre perdue"
+    IDS_ERR_LOSTC           "Connexion perdue Ã  %s (%s:%i)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_METCORRUPT      " %s (%s) est invalide, impossible de tÃ©lÃ©charger le fichier"
+    IDS_ERR_FILEERROR       "Erreur inconnue de lecture de %s (%s) : %s"
+    IDS_ERR_FILEOPEN        "Erreur d'ouverture %s (%s)"
+    IDS_COM                 "CommunautÃ© de partage"
+    IDS_ERR_REHASH          "Attention : %s est peut-Ãªtre corrompu, hachage en cours"
+    IDS_SAVELOADSOURCESGROUPBOX "Sauver/Charger Sources"
+    IDS_ERR_PART_FNF        "Fichier .part non trouvÃ©"
+    IDS_ERR_OPENMETFILE     "Erreur d'ouverture de part.met"
+    IDS_INFLST_FILE_SOURCENAMES "Nom des sources"
+    IDS_ERR_SAVEMET         "Erreur d'enregistrement: %s (%s => %s)"
+    IDS_ERR_FOUNDCORRUPTION "Partie invalide trouvÃ©e (%i) dans %s"
+    IDS_HASHINGDONE         "Hachage terminÃ© %s, le fichier semble correct"
+    IDS_ERR_PARTCORRUPT     "Partie tÃ©lÃ©chargÃ©e %i invalide (%s)"
+    IDS_ICHWORKED           "Partie invalide remplacÃ©e %i  (%s)"
+    IDS_ERR_OUTOFSPACE      "Espace disque insuffisant pour tÃ©lÃ©charger %s!"
+    IDS_SLS_LOAD_EVERY      "Recharger Sources tous les"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_DEAD            "%s (%s:%i) semble Ãªtre inactif"
+    IDS_ERR_FULL            "%s (%s:%i) semble Ãªtre saturÃ©"
+    IDS_ERR_NOSERVERSC      "Pas de serveur valide trouvÃ© dans la liste"
+    IDS_CONNECTEDTO         "Connexion Ã©tablie sur : %s"
+    IDS_DL_PREVIEW          "AperÃ§u"
+    IDS_VIEWQUEUE           "Afficher la file d'attente"
+    IDS_VIEWUPLOADS         "Afficher uploads"
+    IDS_TW_UPLOADS          "Uploads"
+    IDS_TW_DOWNLOADS        "Downloads"
+    IDS_TW_QUEUE            "Clients en attente : "
+    IDS_SW_SEARCHBOX        "Chercher"
+    IDS_SW_NAME             "Nom"
+    IDS_SW_GLOBAL           "Recherche globale"
+    IDS_SW_TYPE             "Type"
+    IDS_SW_WEBBASED         "Recherche Web"
+    IDS_SW_DIRECTDOWNLOAD   "TÃ©lÃ©chargement direct"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SW_LINK             "Lien ED2K"
+    IDS_SW_START            "DÃ©marrer"
+    IDS_SW_CANCEL           "Abandonner"
+    IDS_SW_RESULT           "RÃ©sultats de recherche"
+    IDS_SW_DOWNLOAD         "TÃ©lÃ©charger sÃ©lection"
+    IDS_SV_SERVERLIST       "Liste des serveurs"
+    IDS_SV_SERVERINFO       "Infos sur les serveurs"
+    IDS_SV_LOG              "Log"
+    IDS_SV_NEWSERVER        "Nouveau serveur"
+    IDS_SV_ADDRESS          "IP ou Adresse"
+    IDS_SV_PORT             "Port"
+    IDS_SV_ADD              "Ajouter Ã  la liste"
+    IDS_SV_MET              "Mise Ã  jour server.met depuis URL"
+    IDS_SV_UPDATE           "Mise Ã  jour"
+    IDS_SF_FILES            "Fichiers partagÃ©s"
+    IDS_SF_STATISTICS       "Statistiques"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SV_DEBUGLOG         "Debug Log"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SF_RELOAD           "Recharger"
+    IDS_SF_CURRENT          "Session en cours"
+    IDS_SF_TOTAL            "Total"
+    IDS_SF_TRANS            "TransfÃ©rÃ© : "
+    IDS_SF_ACCEPTED         "Demandes acceptÃ©es : "
+    IDS_SF_REQUESTED        "Demandes : "
+    IDS_ST_DOWNLOAD         "Vit. de rÃ©ception"
+    IDS_ST_UPLOAD           "Vit. d'Ã©mission"
+    IDS_ST_CURRENT          "Courant"
+    IDS_ST_SESSION          "Moyenne session"
+    IDS_ST_ACTIVED          "TÃ©lÃ©chargements actifs"
+    IDS_ST_ACTIVEU          "Envois actifs"
+    IDS_ST_WAITINGU         "Envois en attente"
+    IDS_CW_MESSAGES         "Messages"
+    IDS_CW_FRIENDS          "Amis"
+    IDS_CW_SEND             "Envoyer"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SF_TOTAL2           "Total"
+    IDS_DOWNLOAD_A4AF       "TÃ©lÃ©charger ce fichier maintenant"
+    IDS_FAILDELETE          "Suppression impossible de %s, vous devez le faire manuellement"
+    IDS_DROPNONEEDEDSRCS    "Stopper les sources inutiles"
+    IDS_ALL_A4AF_TO_HERE    "TÃ©lÃ©charger tous les A4AF de ce fichier maintenant"
+    IDS_MAXUSERS            "Max. Utils."
+    IDS_LENGTH              "Longueur"
+    IDS_VIDEO               "Video"
+    IDS_AUDIO               "Audio"
+    IDS_FILEINFO            "Fichier &Info"
+    IDS_CODEC               "Codec"
+    IDS_BITRATE             "Bitrate"
+    IDS_WIDTH               "Largeur"
+    IDS_FPS                 "Ips"
+    IDS_CHANNELS            "Canaux"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CW_CLOSE            "Fermer"
+    IDS_PW_GENERAL          "GÃ©nÃ©ral"
+    IDS_PW_DIR              "Dossiers"
+    IDS_PW_NICK             "Surnom"
+    IDS_PW_INCOMING         "Fichiers reÃ§us:"
+    IDS_PW_TEMP             "Fichiers temporaires:"
+    IDS_PW_BROWSE           "Parcourir"
+    IDS_PW_SHARED           "Dossiers partagÃ©s:"
+    IDS_PW_CONNECTION       "Connexion"
+    IDS_PW_DOWNC            "CapacitÃ© DL"
+    IDS_PW_DOWNL            "Limite DL"
+    IDS_PW_UPC              "CapacitÃ© UL"
+    IDS_PW_UPL              "Limite UL"
+    IDS_PW_MAXC             "Connexions maxi."
+    IDS_PW_CLIENTPORT       "Port client"
+    IDS_PW_AUTOCON          "Connexion au dÃ©marrage"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_RECON            "Reconnexion automatique"
+    IDS_PW_SERVER           "Serveur"
+    IDS_PW_RDEAD            "Suppr. les serveurs inactifs"
+    IDS_PW_RETRIES          "Tentatives"
+    IDS_PW_SCORE            "Utiliser prioritÃ©"
+    IDS_PW_USC              "MAJ serverlist lors de la connexion aux serveurs et clients"
+    IDS_ERROR_STATE         "Problematique"
+    IDS_PW_FILTER           "Toujours filtrer les mauvaises IPs"
+    IDS_PW_USS              "MÃ J auto serverlist au dÃ©marrage"
+    IDS_PW_MISC             "Options diverses"
+    IDS_PW_TRAY             "RÃ©duire en &icÃ´ne"
+    IDS_PW_BEEP             "Bip erreurs"
+    IDS_PW_PROMPT           "Confirmation en sortie"
+    IDS_PW_SPLASH           "Afficher l'Ã©cran de dÃ©marrage"
+    IDS_PW_DBLCLICK         "Doubleclic sur la liste pour tout voir"
+    IDS_PW_TOOL             "Temps de retard de l'infobulle (sec)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_FRONT            "Lien au 1er plan sur clic"
+    IDS_PW_LANG             "Langue"
+    IDS_PW_FILES            "Fichiers"
+    IDS_PENDING             "En Attente"
+    IDS_PW_SHARE            "Fichiers partagÃ©s vus par"
+    IDS_PW_EVER             "Tout le monde"
+    IDS_PW_FRIENDS          "Amis"
+    IDS_PW_NOONE            "Personne"
+    IDS_PW_RESET            "RAZ"
+    IDS_PW_APPLY            "Appliquer"
+    IDS_EM_TRANS            "Transferts"
+    IDS_EM_SERVER           "Serveurs"
+    IDS_EM_SEARCH           "Recherches"
+    IDS_EM_FILES            "&Partages"
+    IDS_EM_MESSAGES         "Messages"
+    IDS_EM_STATISTIC        "Statistiques"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EM_PREFS            "PrÃ©fÃ©rences"
+    IDS_MB_LANGUAGEINFO     "La langue par dÃ©faut a Ã©tÃ© choisie. Vous pouvez changer par l'onglet PrÃ©fÃ©rences."
+    IDS_FD_GENERAL          "GÃ©nÃ©ral"
+    IDS_FD_NAME             "Nom complet : "
+    IDS_FD_MET              "Fichier .met : "
+    IDS_FD_HASH             "Hash : "
+    IDS_FD_SIZE             "Taille : "
+    IDS_FD_STATUS           "Etat : "
+    IDS_FD_TRANSFER         "Transfert"
+    IDS_FD_SOURCES          "Sources trouvÃ©es : "
+    IDS_FD_PARTS            "Nombre de .part : "
+    IDS_FD_TRANS            "TransfÃ©rÃ© : "
+    IDS_FD_DATARATE         "DÃ©bit : "
+    IDS_FD_TRANSI           "Transfert : "
+    IDS_FD_COMPSIZE         "Taille effectuÃ©e : "
+    IDS_FD_CLOSE            "Fermer"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FD_TITLE            "DÃ©tails fichier"
+    IDS_CD_GENERAL          "GÃ©nÃ©ral"
+    IDS_CD_UNAME            "Nom utilisateur : "
+    IDS_CD_UHASH            "Hash client : "
+    IDS_CD_CSOFT            "Logiciel client : "
+    IDS_CD_UIP              "Adresse IP : "
+    IDS_CD_SIP              "IP Serveur : "
+    IDS_CD_VERSION          "Version client : "
+    IDS_CD_UID              "ID : "
+    IDS_CD_SNAME            "Nom serveur : "
+    IDS_CD_CDOWN            "TÃ©lÃ©chargement en cours : "
+    IDS_CD_DOWN             "TÃ©lÃ©chargÃ© (cette session) : "
+    IDS_CD_ADOWN            "Moyenne tÃ©lÃ©chargement : "
+    IDS_CD_TDOWN            "Total tÃ©lÃ©chargement : "
+    IDS_CD_UP               "EnvoyÃ© (cette session) : "
+    IDS_CD_AUP              "Moyenne envoi : "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CD_TUP              "Total envoi : "
+    IDS_CD_TRANS            "Transfert"
+    IDS_CD_SCORES           "Scores"
+    IDS_CD_MOD              "DL/UL Modificateur : "
+    IDS_CD_RATING           "Evaluation (total) : "
+    IDS_CD_USCORE           "Score file d'attente : "
+    IDS_CD_TITLE            "DÃ©tails client"
+    IDS_EMULEW              "Cliquer"
+    IDS_TBN_PROPERTIES      "PropriÃ©tÃ©s Popup"
+    IDS_EMULEW2             "pour vÃ©rifier si une nouvelle version est disponible"
+    IDS_EMULEW3             "ici"
+    IDS_CB_TBN_DTIME        "Temps d'affichage"
+    IDS_PW_MAXSOURCES       "Sources max. par fichier"
+    IDS_SHAREDFILESCOUNT    "Nombre de fichiers partagÃ©s : %i"
+    IDS_SF_SIZE             "Taille totale des fichiers partagÃ©s: %s"
+    IDS_ERR_WRONGPARTNUMBER "NumÃ©ro de partie invalide"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_BADPORT         "NumÃ©ro de port invalide"
+    IDS_ERR_NOHELLO         "Demande quelque chose sans dire bonjour"
+    IDS_ERR_INVALIDPACKAGE  "Le paquet reÃ§u est invalide ou corrompu"
+    IDS_ERR_CLIENTERROR     "Le client '%s' (IP:%s) a causÃ© une erreur: %s. DÃ©connexion du client !"
+    IDS_ERR_BADSIZE         "Taille invalide"
+    IDS_ERR_BADCLIENT2      "Client '%s' (IP:%s) a causÃ© une erreur: %u. DÃ©connexion du client !"
+    IDS_ERR_NOTAFILELINK    "Ce n'est pas un lien sur un fichier"
+    IDS_ERR_CREATEPARTFILE  "N'a pas pu crÃ©er de fichier .part"
+    IDS_ERR_UDP_MISCONF     "Erreur de traitement du paquet UDP entrant (trÃ¨s probablement le serveur est mal configurÃ©)"
+    IDS_CHAT_START          "*** DÃ©marrage d'une session de Chat : "
+    IDS_FILEPRIO            "PrioritÃ© des fichiers"
+    IDS_SCORE               "Score"
+    IDS_ASKED               "DemandÃ©"
+    IDS_LASTSEEN            "Dernier passage Ã "
+    IDS_BANNED              "Banni(s)"
+    IDS_PRIOVERYHIGH        "TrÃ¨s haute"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UUSERS              "Utils."
+    IDS_UFAILED             "Ã‰chec"
+    IDS_OPENFILE            "Ouvrir fichier"
+    IDS_DATE                "Date"
+    IDS_PARTINFOS           "Nom du fichier : %s\nParties : %d , %s: %d (%.1f%%)\n"
+    IDS_PARTINFOS2          "%d%% fait (%s) - Transfert Ã  partir de %d sources"
+    IDS_USERID              "ID de l'utilisateur"
+    IDS_CLIENT              "Client"
+    IDS_SERVER              "Serveur"
+    IDS_SOURCEINFO          "Nombre de demandes : %d - Nombre de parties disponibles : %d"
+    IDS_CLIENTSOURCENAME    "\nNom du fichier : "
+    IDS_USERINFO            "Surnom : %s (ID de l'utilisateur: %u)\n"
+    IDS_FILESTATS_SESSION   "Fichier statistique pour cette session : %d requÃªtes acceptÃ©es sur %d, %u octets transferÃ©s\n"
+    IDS_FILESTATS_TOTAL     "Fichier statistique pour toutes les sessions : %d requÃªtes acceptÃ©es sur %d, %u octets transferÃ©s"
+    IDS_CB_TBN_FSIZE        "Taille Police"
+    IDS_REQ_UNKNOWNFILE     "Fichier demandÃ© inconnu"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TRANSFERTIME        "DÃ©lais depuis le premier transfert : %s"
+    IDS_FILEBOX             "Pas de fichier sÃ©lÃ©ctionnÃ©"
+    IDS_SF_AVERAGESIZE      "Taille moyenne fichier : %s"
+    IDS_SF_REQUESTS         "Demandes"
+    IDS_SF_ACCEPTS          "Demandes acceptÃ©es"
+    IDS_SF_TRANSFERRED      "DonnÃ©es transferÃ©es "
+    IDS_REMOVESEARCHSTRING  "Enlever ce rÃ©sultat de recherche"
+    IDS_REMOVESELECTED      "Supprimer sÃ©lection"
+    IDS_REMOVEALLSEARCH     "Tout supprimer"
+    IDS_ENTERQUEUE          "PlacÃ© en file d'attente"
+    IDS_SF_FAIL             "Serveurs injoignables"
+    IDS_SF_WUSER            "Utilisateurs sur les serveurs actifs"
+    IDS_SF_WFILE            "Fichiers sur les serveurs actifs"
+    IDS_SF_USER             "Total utilisateurs"
+    IDS_SF_FILE             "Total fichiers"
+    IDS_UPLOADTIME          "Temps d'envoi"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LASTSEENCOMPL       "Vu complet pour la derniÃ¨re fois : "
+    IDS_YES                 "Oui"
+    IDS_NO                  "Non"
+    IDS_UNBAN               "DÃ©-bannir"
+    IDS_SF_WORKING          "Serveurs actifs"
+    IDS_ADDTOSTATIC         "Ajouter Ã  la liste statique de serveurs"
+    IDS_ADDED2SSF           "AjoutÃ© Ã  la liste statique de serveurs"
+    IDS_STATICSERVER        "Statique"
+    IDS_ERROR_SSF           "Echec Ã  l'ouverture de staticservers.dat"
+    IDS_SF_ACTIVECON        "Connexions actives (estimation)"
+    IDS_SF_MAXCONLIMITREACHED "Nombre de connexions maxi atteint"
+    IDS_SF_AVGCON           "Moyenne de connexions (estimation)"
+    IDS_SF_PEAKCON          "Pics de connexions (estimation)"
+    IDS_ST_ACTIVEC          "Connexions actives"
+    IDS_NETWORK             "RÃ©seau"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SF_DELCOUNT         "Serveurs supprimÃ©s"
+    IDS_REMOVEFROMSTATIC    "Supprimer de la liste de serveurs statiques"
+    IDS_ERR_PACKAGEERROR    "Erreur critique durant le traitement du paquet de donnÃ©es de %s (taille erronÃ©e) - bloc de donnÃ©es supprimÃ©"
+    IDS_AVG                 "Moyenne"
+    IDS_BYTES               "Octets"
+    IDS_KBYTES              "Ko"
+    IDS_MBYTES              "Mo"
+    IDS_GBYTES              "Go"
+    IDS_TBYTES              "To"
+    IDS_SECS                "sec"
+    IDS_MINS                "min"
+    IDS_HOURS               "h"
+    IDS_DAYS                "J"
+    IDS_ED2KLINKFIX         "Liens ED2K"
+    IDS_RECONNECT           "La connexion au serveur sera tentÃ©e Ã  nouveau dans %d secondes"
+    IDS_COMUSER             "Appartient Ã  la communautÃ© :"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SERVERADDED         "Serveur ajoutÃ©:"
+    IDS_STATS_SUCCUPCOUNT   "Sessions rÃ©ussies au total: %i"
+    IDS_STATS_FAILUPCOUNT   "Sessions Ã©chouÃ©es au total: %i"
+    IDS_STATS_AVEUPTIME     "DurÃ©e moyenne d'un envoi : %s"
+    IDS_SEARCHMINSIZE       "Taille min. "
+    IDS_SEARCHMAXSIZE       "Taille max. "
+    IDS_PREF_ONLINESIG      "Activer Online-Signature"
+    IDS_ERROR_SAVEFILE      "Echec Ã  l'enregistrement"
+    IDS_SORT_QUEUE_LBL      "Trier en Attente par"
+    IDS_REQ_SHAREDFILES     "L'utilisateur %s (%u) a demandÃ© votre liste de fichiers partagÃ©s -> %s"
+    IDS_SORT_SEARCH_LBL     "Trier Recherches par"
+    IDS_ACCEPTED            "acceptÃ©"
+    IDS_DENIED              "refusÃ©"
+    IDS_PW_CON_DOWNLBL      "TÃ©lÃ©chargement"
+    IDS_PW_CON_UPLBL        "Envoi"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MAXSRCUDP_LBL       "Limite requÃªtes UDP"
+    IDS_PW_CON_LIMIT        "Limites"
+    IDS_STATS_AVGLABEL      "DurÃ©e pour le graph. de moyenne : %i mins"
+    IDS_GRAPHS              "Graphiques"
+    IDS_STREE               "Arbre de statistique"
+    IDS_SORT_IRC_LBL        "Trier IRC par"
+    IDS_STATSSETUPINFO      "Statistique"
+    IDS_HARDLIMIT           "Limite forte"
+    IDS_SOFTLIMIT           "Limite faible"
+    IDS_KBYTESEC            "Ko/s"
+    IDS_TOOMANYCONNS        "Trop de connexions"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SAMEUSERHASH        "Les clients '%s' et '%s' ont le mÃªme userhash/IP - enlevÃ© '%s'"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COMPRESSION         "Compression"
+    IDS_PRIOAUTO            "Auto"
+    IDS_PRIOAUTONORMAL      "Auto [Norm]"
+    IDS_PRIOAUTOHIGH        "Auto [Haut]"
+    IDS_PRIOAUTORELEASE     "Auto [Max]"
+    IDS_NOPARTFILESELECTED  "Certaines prioritÃ©s n'ont pas Ã©tÃ© changÃ©es car les fichiers sont complets"
+    IDS_SEARCH_USER         "Utilisateurs"
+    IDS_SFRATIO             "Ratio SF"
+    IDS_RFRATIO             "Ratio RF"
+    IDS_EXCHANGEDSOURCE     "[Source EchangÃ©e]"
+    IDS_PRIOAUTOLOW         "Auto [bas]"
+    IDS_PW_TBN_CLOSETOTRAY  "Iconifier Ã  la fermeture"
+    IDS_FRIENDS             "Amis"
+    IDS_REMOVEFRIEND        "Enlever Ami"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DOWNLOADRENAMED     "Un fichier avec le mÃªme nom existe dÃ©jÃ , Le fichier a Ã©tÃ© sauvÃ© comme %s"
+    IDS_TBN_DOWNLOADDONE    "TÃ©lÃ©chargÃ© : "
+    IDS_TBN_DOWNLOADADDED   "Ajouter aux tÃ©lÃ©chargements : "
+    IDS_PW_TBN_USESOUND     "Utiliser un son"
+    IDS_PW_TBN_ONLOG        "Une nouvelle entrÃ©e dans la fenÃªtre de log"
+    IDS_PW_TBN_ONCHAT       "Le dÃ©but d'une session de Chat"
+    IDS_PW_TBN_POP_ALWAYS   "Un nouveau message est arrivÃ©"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_TBN_ONDOWNLOAD   "Un tÃ©lÃ©chargement est ajoutÃ© ou terminÃ©"
+    IDS_PW_EKDEV_OPTIONS    "Notifications"
+    IDS_PW_TBN_OPTIONS      "Afficher une alerte lorsque"
+    IDS_TBN_NEWCHATMSG      "Message de"
+    IDS_PW_CON_CAP          "CapacitÃ©s"
+    IDS_IRC_STATUSLOG       "Etat de Log"
+    IDS_IRC_STATUS          "Etat"
+    IDS_IRC_PRIVATECHANSTART "*** DÃ©marrage d'une session privÃ©e de Chat : "
+    IDS_IRC_SLAPMSG         "* %s slaps %s around with a large Babelfish!"
+    IDS_IRC_PRIVMESSAGE     "Message privÃ©"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC_JOIN            "Rejoindre"
+    IDS_IRC_CHANNELLIST     "Liste des channels"
+    IDS_IRC_CONNECT         "Connecter"
+    IDS_IRC_DISCONNECT      "DÃ©connecter"
+    IDS_IRC_HASJOINED       "* %s a rejoint %s"
+    IDS_IRC_HASPARTED       "* %s est sorti de %s (%s)"
+    IDS_IRC_WASKICKEDBY     "* %s a Ã©tÃ© kickÃ© par %s (%s)"
+    IDS_IRC_NICK            "Surnom"
+    IDS_IRC_NICKUSED        "Votre surnom est dÃ©jÃ  utilisÃ© sur le serveur IRC. SVP, entrez un nouveau surnom dans les prÃ©fÃ©rences."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC_DEVOICE         "DeVoice"
+    IDS_REMOVEFROMSTOK      "supprimÃ© de la liste de serveurs statiques"
+    IDS_IRC_HASQUIT         "* %s est dÃ©connectÃ© (%s)"
+    IDS_IRC_NOWKNOWNAS      "* %s s'appelle maintenant %s"
+    IDS_IRC_SETSMODE        "* %s a effectuÃ© un changement de mode : %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Des modes ont Ã©tÃ© changÃ©s et ils ne sont pas supportÃ©s. Vous devez sortir puis revenir dans le channel pour mettre Ã  jour votre liste de surnoms.."
+    IDS_IRC_CHANNEL         "Channel"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC_ADDTOFRIENDLIST "Ajouter Ã  liste Amis"
+    IDS_IRC_SEND            "Envoyer"
+    IDS_IRC_LOADCHANNELLISTONCON "Charger liste des serveurs Ã  la connexion."
+    IDS_IRC_NAME            "Nom"
+    IDS_IRC_ADDASFRIEND     "Vous avez Ã©tÃ© ajoutÃ© comme AMI!"
+    IDS_IRC_SLAPMSGSEND     "PRIVMSG %s :\001ACTION slaps %s around with a large Babelfish!\001"
+    IDS_IRC_PERFORM         "Commande"
+    IDS_IRC_ADDTIMESTAMP    "Ajouter l'heure au dÃ©but des messages."
+    IDS_ALREADYCONNECTED    "Vous Ãªtes dÃ©jÃ  connectÃ© Ã  %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_UA               "DÃ©finir les deux au max"
+    IDS_IRC_ADDLINKTOIRC    "L'ajouter au tampon IRC pour l'envoyer aux amis."
+    IDS_IRC_SENDLINK        "Envoyer Ã  un ami: "
+    IDS_IRC_RECIEVEDLINK    "%s envoyÃ© (%s) pour Ãªtre lancer automatiquement."
+    IDS_IRC_ACCEPTLINKS     "Accepter lien ED2K ds IRC. (utiliser avec prudence!)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ADDFRIEND           "Ajouter Ami"
+    IDS_PW_DIR_INCSUBDIR    "Inclure les sous-rÃ©pertoires"
+    IDS_ST_ACTIVEDOWNLOAD   "TÃ©lÃ©chargements"
+    IDS_ST_ACTIVEUPLOAD     "Envois"
+    IDS_ST_ACTIVECONNECTIONS "Connexions"
+    IDS_SV_URL              "URL"
+    IDS_DL_LOADSOURCES      "Charger toutes les Sources"
+    IDS_DL_SAVESOURCES      "Sauver Sources"
+    IDS_SF_COMPLETED        "Complet"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LOADEDSOURCE        "[Source ChargÃ©e]"
+    IDS_LOWIDDISCONNECT     "Vous avez Ã©tÃ© dÃ©connectÃ© car vous aviez un LowID. %i essais restants"
+    IDS_PW_PA               "DÃ©finir les deux au min"
+    IDS_RUP_ONQUEUE         "en Attente"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFLST_USER_IPADDRESS "IP-Address"
+    IDC_MAXSRCUDP_LBL       "UDP-Request Limit"
+    IDS_INFLST_USER_ID      "ID"
+    IDS_INFLST_USER_SERVERIP "IP Serveur"
+    IDS_INFLST_USER_SERVERNAME "Nom Serveur"
+    IDS_INFLST_USER_TRANSFER "Transfert"
+    IDS_INFLST_USER_CURDOWNLOAD "Actuellement tÃ©lÃ©chargÃ©"
+    IDS_INFLST_USER_SESSIONDOWNLOAD "TÃ©lÃ©chargÃ© (this Session)"
+    IDS_INFLST_USER_SESSIONUPLOAD "EnvoyÃ© (this Session)"
+    IDS_INFLST_USER_AVERAGEDOWNRATE "Moyenne Vit. TÃ©lÃ©charg."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC_USEFILTER       "Utiliser un filtre pour la liste de channels"
+    IDS_IRC_USEPERFORM      "Utiliser cette chaÃ®ne de commande Ã  la connexion"
+    IDS_PW_WARNING          "La valeur choisie pour ""%s"" est plus grande que ce que votre OS supporte:  %d\nCeci peut rendre votre systÃ¨me instable.\n\nETes vous sur de vouloir faire ca ?"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_IRC_OP              "Op"
+    IDS_IRC_DEOP            "DeOp"
+    IDS_IRC_VOICE           "Voice"
+    IDS_IRC_HALFOP          "HalfOp"
+    IDS_IRC_DEHALFOP        "DeHalfOp"
+    IDS_IRC_KICK            "Kicker"
+    IDS_IRC_SLAP            "Slap"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RUP_DOWNLOADS       "TÃ©lÃ©chargements"
+    IDS_RUP_UPLOADS         "Envois"
+    IDS_RUP_INFO            "DÃ©tails"
+    IDS_RUP_DOWNINFO        "Fichiers: %u en Attente, %u en Transfert - %.1f KB/s"
+    IDS_RUP_UPINFO          "Utilisateurs: %u en attente, %u en-transfert, %u bannis - %.1f KB/s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_RUP_INFOUSER        "Utilis.: %s"
+    IDS_RUP_INFOFILE        "Fichier: %s"
+    IDS_INFLST_USER_GENERAL "General"
+    IDS_INFLST_USER_USERNAME "Nom Utilisateur"
+    IDS_INFLST_USER_USERHASH "Userhash"
+    IDS_INFLST_USER_CLIENTSOFTWARE "Logiciel client"
+    IDS_INFLST_USER_CLIENTVERSION "Version client"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFLST_USER_AVERAGEUPRATE "Moyenne Vit. Envoi "
+    IDS_INFLST_USER_TOTALDOWNLOAD "TÃ©lÃ©chargÃ© total"
+    IDS_INFLST_USER_TOTALUPLOAD "EnvoyÃ© total"
+    IDS_INFLST_USER_SCORES  "Scores"
+    IDS_INFLST_USER_DLUPMODIFIER "DL/UP Modifier"
+    IDS_INFLST_USER_RATING  "Note"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFLST_USER_UPLOADQUEUESCORE "Score File d'Attente"
+    IDS_INFLST_FILE_GENERAL "General"
+    IDS_INFLST_FILE_FULLNAME "Nom Complet"
+    IDS_INFLST_FILE_METFILE "Fichier met"
+    IDS_INFLST_FILE_HASH    "Hash"
+    IDS_INFLST_FILE_FILESIZE "Taille"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFLST_FILE_PARTFILESTATUS "Statut des Parties"
+    IDS_INFLST_FILE_TRANSFER "Transfert"
+    IDS_INFLST_FILE_FOUNDSOURCES "Sources trouvÃ©es"
+    IDS_INFLST_FILE_TRANSFERINGSOURCES "Sources Transferant"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_INFLST_FILE_FILEPARTCOUNT "Nombre de Parties"
+    IDS_INFLST_FILE_TRANSFERED "TransferÃ©"
+    IDS_INFLST_FILE_COMPLETEDSIZE "Taille complÃ©tÃ©e"
+    IDS_INFLST_FILE_DATARATE "Taux de Transfert"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_EM_IRC              "IRC"
+    IDS_STATS_UDATA_SESSION "EnvoyÃ© (Session): %s"
+    IDS_STATS_UDATA_TOTAL   "EnvoyÃ© (Total): %s"
+    IDS_STATS_DDATA_SESSION "TÃ©lÃ©chargÃ©(Session): %s"
+    IDS_STATS_DDATA_TOTAL   "TÃ©lÃ©chargÃ© (Total): %s"
+    IDS_INFLST_FILE_LASTSEENCOMPLETE "DerniÃ¨re fois complet"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_SHOWTOOLBARSPEEDMETER "Afficher ""speed-meter"" ds barre outil"
+    IDS_DISABLE_XS          "DÃ©sactiver l'Ã©change de sources"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_AP_LOW_LBL          "Limite de PrioritÃ© ""basse"" "
+    IDS_PW_SORTING          "Trier"
+    IDS_SORT_FILES_LBL      "Trier les Fichiers PartagÃ©s par"
+    IDS_SORT_USEIT          "Utiliser le tri automatique"
+    IDS_SORT_SERVERS_LBL    "Trier Serveurs par"
+    IDS_SORT_DOWNLOADS_LBL  "Trier Downloads par"
+    IDS_SORT_GRP            "Quand la liste des sources est developpÃ©e"
+    IDS_SORT_SOURCES1_LBL   "Trier Clients par"
+    IDS_SORT_SOURCES2_LBL   "Et par"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TAKEOVER            "Remplacer"
+    IDS_CLEANUP             "Nettoyage"
+    IDS_RENAME              "Renommer"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_TIT_UP           "Modifier les paramÃ¨tres d'upload"
+    IDS_PW_TIT_DOWN         "Modifier les paramÃ¨tres de download"
+    IDS_PW_UNLIMITED        "illimitÃ©"
+    IDS_PW_MINREC           "12 KB/s (minimum recommendÃ©)"
+    IDS_VIEWFILES           "Voir Fichiers PartagÃ©s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_DWTOT               "TÃ©lÃ©chargement [Totaux]"
+    IDS_DWTOT_NR            "Nombre de TÃ©lÃ©chargements: %d"
+    IDS_DWTOT_TSD           "Taille totale des TÃ©lÃ©ch.: %s"
+    IDS_DWTOT_TCS           "Taille Totale Fic. Complets: %s (%.0f%%)"
+    IDS_DWTOT_TSL           "Taille totale restant Ã  tÃ©lÃ©ch.: %s"
+    IDS_DWTOT_TSN           "Espace total nÃ©cessaire pour les tÃ©lÃ©ch.: %s"
+    IDS_DWTOT_FS            "Espace libre dans le rep. Temp.: %s"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_QR                  "QR"
+    IDS_SORT_DEFAULT        "Tri par Defaut[-]"
+    IDS_PREF_STARTMIN       "DÃ©marrer rÃ©duit"
+    IDS_PS_TBN_IMPORTANT    "Espace disque insuffisant, connexion serveur perdue"
+    IDS_PW_FASTSRVCON       "Connexion sÃ©curisÃ©e"
+    IDS_SOURCELINKFAILED    "Vous devez avoir un HighID pour crÃ©er un sourcelink valide"
+    IDS_CONNECTIONLOST      "Connexion perdue"
+    IDS_CREATESOURCELINK    "Copier liens ED2k vers le tampon (source)"
+    IDS_NEWSERVERCONNECT    "Chargement des sources Ã  partir du nouveau serveur pour tous les fichiers ayant moins de %d sources"
+    IDS_UDPPORT             "UDP"
+    IDS_UDPDISABLED         "dÃ©sactivÃ©"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_COL_AUTOMATIC       "Par dÃ©faut"
+    IDS_COL_MORECOLORS      "Plus de couleurs..."
+    IDS_COLORS              "Couleurs"
+    IDS_SP_BACKGROUND       "ArriÃ¨re-plan"
+    IDS_SP_GRID             "Grille"
+    IDS_SP_DL1              "Download actuel"
+    IDS_SP_DL2              "Download durÃ©e moyenne"
+    IDS_SP_DL3              "Download session moyenne"
+    IDS_SP_UL1              "Upload actuel"
+    IDS_SP_UL2              "Upload durÃ©e moyenne"
+    IDS_SP_UL3              "Upload session moyenne"
+    IDS_SP_ACTCON           "Connexions actives"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SP_ACTDL            "Downloads Actifs"
+    IDS_SP_ACTUL            "Uploads Actifs"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PW_TEMPDIR          "RÃ©pertoires Temp supplÃ©mentaires:"
+    IDS_ERR_FAILEDMET       "Erreur au chargement du server.met!"
+    IDS_ERR_FAILEDSRVDWNLD  "Erreur de tÃ©lÃ©chargement de la liste de serveurs de %s"
+    IDS_RESTARTWAITING      "Relancer downloads en attente Ã  la connexion"
+    IDS_LOGTOFILE           "Ecrire le Log dans un fichier"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_START_PAUSED        " Ajouter DL directement en Pause"
+    IDS_START_PAUSED_ON_COMPLETE "Reprise DL en Pause si un DL se termine"
+    IDS_MAXCON5_TEXT        "en 5 sec"
+    IDS_CONPROF             "Profiles"
+    IDS_PW_TBN_ONDOWNLOADADD "Download ajoutÃ©"
+    IDS_QUEUE_FRM           "File Attente"
+    IDS_QUEUESIZE_TEXT      "Min: 500\r\nMax: 5000"
+    IDS_ST_ACTIVE           "Active"
+    IDS_AP_GRP              "PrioritÃ© Auto TÃ©lÃ©ch."
+    IDS_AP_HIGH_LBL         "Limite de PrioritÃ© ""haute"" "
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SAMPLERATE          "Taux de Sample"
+    IDS_ROUNDBITRATE        "Round Bitrate"
+    IDS_HEIGHT              "Hauteur"
+    IDS_SOURCENAMES         "Noms des sources"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_REMOVENNS           "Suppression Auto des sources inutiles"
+    IDS_FRIENDLIST          "Amis"
+    IDS_CHATDISCONNECTED    "*** DÃ©connectÃ©"
+    IDS_SHAREDFILES_FAILED  "Impossible d'obtenir les fichiers partagÃ©s de '%s'"
+    IDS_SHAREDFILES_REQUEST "Demande des fichiers partagÃ©s de '%s'"
+    IDS_IRC_IGNOREINFOMESSAGE "Ignorer les messages d'information"
+    IDS_ASK_FOR_FILES       "Demande des fichiers"
+    IDS_TRF_FULL_CHUNKS     "Transfert des parties complÃ¨tes"
+    IDS_PW_WINDOW           "FenÃªtre"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_MULTIPLE            "Autoriser les sessions multiples d'eMule"
+    IDS_TR_FRM              "Taux de transfert"
+    IDS_IRC                 "IRC"
+    IDS_STATS_MAXAVGDL      "Moyenne du taux de Download Maxi (Session): %.2f KB/s"
+    IDS_STATS_MAXDL         "Taux de Download Maxi (Session): %.2f KB/s"
+    IDS_QUEUE               "Vue d'ensemble de la file d'attente des Downloads"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ADD                 "Ajouter"
+    IDS_ERR_NOVALIDFRIENDINFO "Vous avez entrÃ© un nom d'utilisateur et un userhash valides !"
+    IDS_SLS_LOAD_QUANTITY   "Charger les paquets de"
+    IDS_CMT_QUEST           "Commenter ce fichier (Ce texte sera visible par tous les utilisateurs)"
+    IDS_CMT_AIDE            "Pour un film, vous pouvez inscrire sa durÃ©e, le synopsis, la langue... Et si c'est un Fake, vous pouvez en informer les utilisateurs d'Emule... "
+    IDS_CMT_RATEQUEST       "QualitÃ© du fichier"
+    IDS_CMT_RATEHELP        "Notez le fichier ou informez les utilisateurs si le fichier est invalide!"
+    IDS_CMT_TITLE           "%s commentaire du fichier"
+    IDS_CMT_REFRESH         "&RafraÃ®chir"
+    IDS_CMT_READALL         "Tous les commentaires"
+    IDS_CMT_NOCOMMENT       "Aucun commentaire saisi..."
+    IDS_SMARTLOWIDCHECK     "Utiliser la vÃ©rification rapide du LowID Ã  la connexion"
+    IDS_IRC_EMULEPROTO_IGNOREINFOMESSAGE "Ignorer les messages d'Emule Proto"
+    IDS_RECOVERED_PARTMET   "Fichier part.met rÃ©cupÃ©rÃ© pour: %s"
+    IDS_CMT_NONE            "Pas de commentaire"
+    IDS_DC_CLIENT           "Doubleclic sur le client pour afficher les dÃ©tails"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SRVCONTIMEOUT_LBL   "Timeout de connexion serveur"
+    IDS_SORT_UPLOADS_LBL    "Trier Envois par"
+    IDS_PW_VLC              "Lecteur vidÃ©o pour le preview:"
+    IDS_SELECT_VLCDIR       "SÃ©lectionner le lecteur vidÃ©o"
+    IDS_CMT_ADD             "Changer le commentaire de ce fichier..."
+    IDS_ERR_EMFRIENDSINVALID "Le fichier emfriends.met est invalide ou corrompu!"
+    IDS_ERR_READEMFRIENDS   "Erreur inconnue lors de la lecture de emfriends.met: %s"
+    IDS_ADDAFRIEND          "Ajouter un ami"
+    IDS_FRIENDSLOT          "Etablier le slot ami"
+    IDS_FRIENDDETAIL        "(Slot ami)"
+    IDS_CMT_SHOWALL         "Commentaires"
+    IDS_ERR_CORRUPTCOMPRPKG "Paquet compressÃ© corrompu de %s reÃ§u (erreur %i)"
+    IDS_KILO                "K"
+    IDS_MEGA                "M"
+    IDS_GIGA                "G"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CMT_READ            "Commentaire fichier:"
+    IDS_CMT_NOTCONNECTED    "Pas encore connectÃ©..."
+    IDS_SOURCES_PF_FILES    "sources"
+    IDS_SELECT_INCOMINGDIR  "Choisissez un dossier pour les fichiers arrivÃ©s"
+    IDS_SELECT_TEMPDIR      "Choisissez un dossier pour les fichiers temp"
+    IDS_SF_SRVOCC           "Occupation serveur: %.2f%%"
+    IDS_JIGLE               "Mise Ã  jour du fichier chez jigle.com"
+    IDS_SF_PARTTRAFFIC      "Traffic partie"
+    IDS_SF_COLUPLOADS       "Uploads"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_3DDEP               "Barre de progression 3D"
+    IDS_MLDONKEY_CM         "Activer les contre-mesures pour les clients mlDonkey"
+    IDS_VERBOSE             "Log de Debug"
+    IDS_UPDATEQUEUE         "Mise Ã  jour file d'attente auto"
+    IDS_SW_METHOD           "Methode"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_CD_SCORES_REMOTE    "Score Client"
+    IDS_INFLST_REMOTE_SCORES "Score chez le Client distant"
+    IDS_INFLST_REMOTE_RANKING "Classement"
+    IDS_INFLST_USER_RFRATIO "Ratio Boost fichiers rares"
+    IDS_INFLST_USER_SFRATIO "Ratio boost petits fichiers"
+    IDS_PW_PROXY            "Options proxy"
+    IDS_PROXY_ADDRESS       "Adresse Proxy"
+    IDS_PROXY_AUTH          "Authentification Proxy (only SOCKS5 && HTTP11)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ERR_INVALIDIDENT    "Paquet d'IDENT serveur reÃ§u invalide"
+    IDS_ENABLE_XSUPTO       "DÃ©sactiver pour les fichiers avec plus de"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_ACRATIO_LBL         "Ratio Ã©chelle des connexions"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PT_USEIT            "Monter le traffic parties"
+    IDS_USEDFONT_LBL        "Police pour IRC/Chat/Log"
+    IDS_KNOWNFILES          "Fichiers connuss"
+    IDS_SF_SHOWALLSF        "Montrer tous les fichiers partagÃ©s"
+    IDS_SF_SHOWALLKF        "Montrer tous les fichiers connus"
+    IDS_SF_MERGE            "Fusionner les fichier connus"
+    IDS_ERR_FAILEDTIMER     "Impossible de crÃ©er le Timer"
+    IDS_HASHING_FRM         "PrioritÃ© Hash"
+    IDS_HASHPRIO_STANDARD   "Standard"
+    IDS_HASHPRIO_LOWER      "Basse"
+    IDS_HASHPRIO_IDLE       "Inactive"
+    IDS_NOBANENABLED        "Pas de banissement"
+    IDS_SF_BLOCKED          "BloquÃ©"
+    IDS_SF_PARTON           "Activer"
+    IDS_SF_PARTOFF          "Bloquer"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SF_RESETALLSTATS    "RÃ©initialiser les statistiques totaux"
+    IDS_SF_RESETSESSTATS    "RÃ©initialiser les statistiques de la session"
+    IDS_PW_MODPT            "Traffic parties"
+    IDS_ERR_SLOWREAD        "Impossible d'ouvrir le fichier pour la lecture"
+    IDS_ERR_SLOWWRITE       "Impossible d'ouvrir le fichier pour l'Ã©criture"
+    IDS_ERR_OUTMEM          "MÃ©moire insuffisante lors du dÃ©placement"
+    IDS_ERR_RENFAIL         "Le renommage complet du fichier a Ã©chouÃ©"
+    IDS_SLOWCOMPLETE        "Montrer l'achÃ¨vement du fichier en blocks de"
+    IDS_EMULE_PLUS          "eMule Plus"
+    IDS_WEB_CONTROL         "Panel de Control Web"
+    IDS_WEB_LOGOUT          "Se dÃ©loguer"
+    IDS_LOWID               "LowID"
+    IDS_WEB_ACTIONS         "Actions"
+    IDS_WEB_SHOW_UPLOAD_QUEUE "Montrer la file d'upload"
+    IDS_WEB_HIDE_UPLOAD_QUEUE "Cacher la file d'upload"
+    IDS_WEB_GZIP_COMPRESSION "Compression Gzip"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_UPBARST             "Style barres uplopad"
+    IDS_UPBARST1            "Style 1 (parties gÃ©nÃ©rales uniquement)"
+    IDS_UPBARST2            "Style 2 (parties gÃ©nÃ©rales+blocks)"
+    IDS_UPBARST3            "Style 3 (les trois infos)"
+    IDS_UPBARCL             "Couleur de la barre D'upload"
+    IDS_UPBARCL1            "Style Arc-en-Ciel (exp)"
+    IDS_UPBARCL2            "Style Arc-en-Ciel (lin)"
+    IDS_UPBARCL3            "Style liste de DWL (bleu)"
+    IDS_UPBARCL4            "Style Filles (rose)"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_TERRA               "T"
+    IDS_CMT_NOTRATED        "Pas notÃ©"
+    IDS_CMT_FAKE            "Invalide / Corrompu / Fake"
+    IDS_CMT_POOR            "Mauvaise"
+    IDS_CMT_GOOD            "Bonne"
+    IDS_CMT_FAIR            "Moyenne"
+    IDS_CMT_EXCELLENT       "Excellente"
+    IDS_ERR_LOADSERVERMET   "Erreur au chargement de server.met!"
+    IDS_ERR_KNOWNSERVERINFOREC "Information serveur inconnu reÃ§ue!"
+    IDS_OUTOFSERVERS        "Plus de serveur disponible pour se connecter."
+    IDS_ERR_CONFAILED       "Connexion Ã  ""%s"" (%s:%i ) Ã©chouÃ©e."
+    IDS_ACSTAT_LBL          "Echelle des connections actives"
+    IDS_ERR_CONTIMEOUT      "Tentative de Connexion Ã  ""%s"" (%s:%i ) : timeout retournÃ©"
+    IDS_ERR_TIMERCREATEFAILED "Erreur fatale: Echec Ã  la crÃ©ation du timer"
+    IDS_PAF_REQINFO         "Information demandÃ©e"
+    IDS_PAF_MOREINFO        "Information supplÃ©mentaire"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PROXY_AUTH_ENABLED  "Authentification ActivÃ©e"
+    IDS_PROXY_ENABLED       "Proxy activÃ©"
+    IDS_PROXY_PASSWORD      "Mot de Passe"
+    IDS_PROXY_PORT          "Port Proxy"
+    IDS_PROXY_TYPE          "Type Proxy"
+    IDS_PROXY_USERNAME      "Pseudo"
+    IDS_ERRORMSG_PROXY_AUTHFAILED "Echec de l'authentification"
+    IDS_ERRORMSG_PROXY_AUTHNOLOGON "Le proxy nÃ©cessite une authentification"
+    IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN "NÃ©cessite le type proxy, le serveur proxy est inconnu ou non-supportÃ©"
+    IDS_ERRORMSG_PROXY_CANTRESOLVEHOST "Impossible de trouver l'hÃ´te ou le serveur"
+    IDS_ERRORMSG_PROXY_NOCONN "Impossible de se connecter au serveur"
+    IDS_ERRORMSG_PROXY_REQUESTFAILED "Demande proxy annulÃ©e, impossible de se connecter par le serveur proxy"
+    IDS_DL_ULDL             "Ratio UL/DL"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_WEB_GZIP_COMMENT    "Sauvegarde votre traffic, particuliÃ¨rement les graphs:"
+    IDS_USE                 "Utiliser"
+    IDS_DONT_USE            "Ne pas utiliser"
+    IDS_WEB_UPLOAD_QUEUE_COMMENT "Activer ou pas la queue d'UP ds la page transferts:"
+    IDS_SHOW                "Monter"
+    IDS_HIDE                "Cacher"
+    IDS_WEB_REFRESH_TIME    "Rafraichir l'heure des pages"
+    IDS_WEB_REFRESH_COMMENT "En sedondes, zero - dÃ©sactivÃ©:"
+    IDS_SPEED_LIMITS        "Limites de vitesse"
+    IDS_CAPACITY_LIMITS     "Limites de capacitÃ©e"
+    IDS_WEB_LOGIN           "Login"
+    IDS_WEB_ENTER_PASSWORD  "Tapez votre mot de passe ici"
+    IDS_WEB_LOGIN_NOW       "Se loguer"
+    IDS_WEB_CONFIRM_REMOVE_SERVER "ÃŠtes vous sÃ»r de vouloir enlever le serveur de la liste?"
+    IDS_PRIORITY_DOWN       "Diminuer la PrioritÃ©e"
+    IDS_PRIORITY_UP         "Angmenter la PrioritÃ©e"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SF_PARTHIDDEN       "Cacher"
+    IDS_SF_DELETE           "Supprimer les fichiers connus"
+    IDS_MOVIE	            "Get first/last chunks for preview"
+    IDS_UP_PARTS            "Parties"
+    IDS_UPLOADPARTS         "Afficher la progression de l'UL sur les users"
+    IDS_INFLST_REMOTE_SPEED "Vitesse upload client"
+    IDS_GET_PREVIEW_CHUNKS  "TÃ©lÃ©charger les parties pour le Preview"
+    IDS_LAST_FILE_PROGRESS  "Dernier avancement:"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_FD_STATS            "Perte corruption: %s       Gain en compression: %s\nPaquets rÃ©cupÃ©rÃ©s par I.C.H.: %i"
+    IDS_QUEUEFULL           "File d'attente pleine"
+    IDS_ERR_NOHELP          "Fichier d'aide introuvable.\n Visitez la page web d'eMule pour obtenir le nouveau fichier d'aide ! (section download)"
+    IDS_SHOWOVERHEAD        "Montrer le surplus de bande passante "
+    IDS_UPDOWNLONG          "Up: %.2f (%.2f) | Down: %.2f (%.2f)"
+    IDS_EDITLIST            "Liste"
+    IDS_SP_ICONBAR          "IcÃ´ne de la barre de tÃ¢ches"
+    IDS_OLDMLDONKEY          "Ancien mlDonkey"
+    IDS_ATTEMPTING_RECOVERY "Tentative de rÃ©cupÃ©ration de l'archive..."
+    IDS_RECOVERY_SUCCESSFUL "RÃ©cupÃ©ration de l'archive rÃ©ussie."
+    IDS_RECOVERY_FAILED     "Echec de la rÃ©cupÃ©ration de l'archive."
+    IDS_RECOVER_SINGLE      "1 fichier rÃ©cupÃ©rÃ©."
+    IDS_RECOVER_MULTIPLE    "%ld fichiers rÃ©cupÃ©rÃ©s."
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_SEARCHEXTENSION_LBL "Extension"
+    IDS_SEARCHAVAIL         "DisponibilitÃ©"
+    IDS_VIDEOBACKUP         "CrÃ©er un backup de preview"
+    IDS_SMARTFILTER_LBL     "Filtre Intelligent"
+    IDS_REMOTEQUEUELIMIT     "Quitter la file si QR > %u"
+    IDS_PW_AUTOCONNECTSTATICONLY "Connexion automatique uniquement aux serveurs de la liste statique"
+    IDS_OPENFOLDER			"Ouvrir le fichier"
+    IDS_SF_OPENINCOMINGFOLDER "Ouvrir le fichier 'Incoming'"
+    IDS_A4AF                "Montrer le nom du fichier A4AF pour chaque source"
+    IDS_BANMESSAGE          "Envoyer un message aux bannis"
+    IDS_CURRENTLY           "En attente de tÃ©lÃ©charger :"
+    IDS_COMMENT             "Commentaire"
+    IDS_AUTOTAKEED2KLINKS   "Liens ED2K Auto uniquement pendant le fonctionnement"
+    IDS_FILEBUFFERSIZE      "Taille buffer fichier auto (%i)"
+    IDS_TOOLBARSKINS		"Skins"
+    IDS_SELECTTOOLBARBITMAPDIR "SÃ©lectionner Dossier..."
+    IDS_CUSTOMIZETOOLBAR	"Customizer..."
+    IDS_SELECT_TOOLBARBITMAPDIR	"Choisir un dossier pour le skin de la barre d'outils"
+    IDS_DEFAULT				"Par dÃ©faut"
+    IDS_SELECTTOOLBARBITMAP "Parcourir..."
+    IDS_NOTEXTLABELS		"Aucun"
+    IDS_ENABLETEXTLABELS	"Bas"
+    IDS_TEXTLABELSONRIGHT	"Droite"
+    IDS_TEXTLABELS			"Marquer le Texte"
+    IDS_MAINPROCESS_LBL     "PriotitÃ© du processus (redÃ©marage requis)"
+    IDS_ED2KNOLINKFROMCLIPBOARD "Pas de Lien ED2K trouvÃ© dans le Presse-parier"
+    IDS_ED2KCONFIRMFROMCLIPBOARD "Ajouter ces liens aux tÃ©lÃ©chargements?\n%s"
+    IDS_DOWNLOAD_ALL_ED2K   "TÃ©lÃ©charger tous les liens ED2K du Presse-papier"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_NS_FRM              "Changement de nuit"
+    IDS_NS_DAY              "Jour"
+    IDS_NS_NIGHT            "Nuit"
+    IDS_NS_UP               "Haut"
+    IDS_NS_DOWN             "Bas"
+    IDS_NS_EXCEPT           "Sauf"
+    IDS_NS_EXCEPT_SAT       "Sam"
+    IDS_NS_EXCEPT_SUN       "Dim"
+    IDS_WEBSERVICES         "Services Web"
+    IDS_WEBSVEDIT           "Editer Services Web"
+    IDS_PW_IM_OPTIONS       "Messagerie"
+    IDS_PW_IM_ACCEPT        "Accepter messages"
+    IDS_PW_IM_OTHER         "Autres Options"
+    IDS_PW_IM_FROMALLUSERS  "De Tout le Monde"
+    IDS_PW_IM_ONLYFROMFRIENDS "Uniquement des Amis"
+    IDS_PW_IM_ONLYFROMFRIENDS2 "Mettre tous les non-amis dans le log"
+    IDS_PW_IM_FROMNONE      "Ne pas axccepter les messages"
+    IDS_PW_IM_PUTMEAWAY     "Me mettre en 'absent'"
+    IDS_PW_IM_AWAYMESSAGE   "Message d'absence"
+    IDS_FILTERLABEL         "Filtrer les messages contenant : (SÃ©parateur | )"
+    IDS_CHANGEDIR           "Changer le rÃ©pertoire de destination"
+    IDS_SHELLCONTEXT        "Menu contextuel"
+    IDS_SELECTOUTPUTDIR     "Choisir oÃ¹ les fichiers seront mis lorsqu'ils seront complets"
+    IDS_SHOWRATEONTITLE     "Monter le taux de transfert dans le titre"
+    IDS_LANCASTENABLE "Activer Lancast"
+	IDS_GOTLOWID			"Got low ID, now trying another server."
+	IDS_SENTBAN				"Sent automated ban message to user: %s"
+END
+
+STRINGTABLE
+BEGIN
+	IDS_DUMP_CRASHWIN9X		"eMule Plus crashed.\nPlease report this crash, with detailed information\nabout it, to the eMulePlus forum on http://emuleplus.sf.net/forum/"
+	IDS_DUMP_KEEPDUMPFILE	"eMule Plus crashed.\nA diagnostic file created which will help the authors to resolve this problem.\nDo you want to keep this file?"
+	IDS_DUMP_CANTUSEDBGHELP	"Could not use DBGHELP.DLL located in your system.\nPlease download the latest version (see http://emuleplus.sf.net/)\nand place it in the eMulePlus directory."
+	IDS_DUMP_DOWNLOADDBG	"eMule Plus crashed.\n\nTo help us find this bug, please downlowad DBGHELP.DLL\nfrom microsoft's site and install it in your system.\n\nMore details available on http://emuleplus.sf.net/"
+	IDS_DUMP_SAVEDDUMP		"Saved dump file to '%s'\n\nPlease contact eMule Plus developers at eMulePlus@@yahoo.com.sg\nPlease write eMule Plus version in the subject line\nOnly send dump files from the original eMule Plus, not MODs!\nThank you for helping us improving eMule Plus"
+	IDS_DUMP_FAILEDTOSAVE	"Failed to save dump file '%s' (error %d)"
+        IDS_NEEDFREEDISKSPACE   "%s (you need to free %s!)"
+        IDS_CUSTOMPROFIL        "Custom"
+        IDS_OLDEMULE            "Old Emule"
+        IDS_QUEUETIMELBL        "Queue time:"
+END
+
+#endif    // French (France) resources
+/////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.17
+log
+@Languages are now in UNICODE
+@
+text
+@@
+
+
+1.16
+log
+@bugfixed exchanged sources; removed unnecessary IDS_EXCHANGEDSOURCEMARK
+@
+text
+@d1 1
+a1 1
+/////////////////////////////////////////////////////////////////////////////
+d18 1
+a18 1
+    IDS_INFLST_USER_COMMUNITY "Communauté"
+d21 1
+a21 1
+    IDS_HTTPDOWNLOAD_CONNECTED "Connecté à %1"
+d23 2
+a24 2
+    IDS_HTTPDOWNLOAD_RESOLVED_NAME "Nom trouvé : %1"
+    IDS_HTTPDOWNLOAD_CONNECTING "Connexion à %1"
+d32 1
+a32 1
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR "Erreur durant la tentative de téléchargement, Erreur : %1"
+d34 4
+a37 4
+    IDS_HTTPDOWNLOAD_INVALID_SERVER_RESPONSE "Réponse du serveur invalide"
+    IDS_HTTPDOWNLOAD_INVALID_HTTP_RESPONSE "Réponse HTTP du serveur invalide"
+    IDS_HTTPDOWNLOAD_ERROR_READFILE "Erreur durant le téléchargement du fichier, Erreur : %1"
+    IDS_HTTPDOWNLOAD_PERCENTAGE "Mise à jour liste de serveurs : %1% de %2 Effectué"
+d51 2
+a52 2
+    IDS_HTTP_CAPTION        "Mise à jour liste de serveurs"
+    IDS_HTTPDOWNLOAD_TIMELEFT "%1 (%2 copiés)"
+d55 2
+a56 2
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE "Le fichier '%1' existe déjà.\nLe remplacer ?"
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN "Erreur durant l'ouverture du fichier à télécharger, Erreur:%1"
+d60 1
+a60 1
+    IDS_MAIN_READY          "eMule Plus Version %s prêt"
+d62 2
+a63 2
+    IDS_BANFORLABEL         "Durée du Ban"
+    IDS_MAIN_SOCKETERROR    "Erreur fatale: impossible de créer socket sur port %i"
+d68 5
+a72 5
+    IDS_MAIN_BTN_DISCONNECT "Dé&connecter"
+    IDS_MAIN_BTN_DISCONNECT_TOOLTIP "Déconnecté du serveur courant"
+    IDS_ERR_WRONGFILEID     "Mauvais FileId envoyé"
+    IDS_ERR_BADHASHSET      "Hashset corrompu ou invalide reçu"
+    IDS_ERR_BADDATABLOCK    "DataBlock corrompu ou invalide reçu"
+d79 1
+a79 1
+    IDS_ERR_BADCLIENTACTION "Un client a provoqué des erreurs : %s. Client déconnecté."
+d90 1
+a90 1
+    IDS_DOWNLOAD            "Téléchargement"
+d96 5
+a100 5
+    IDS_PREFERENCE          "Préférence"
+    IDS_PRIONOPREF          "Pas de préf"
+    IDS_CONNECTTHIS         "Se connecter à ce serveur"
+    IDS_CHAT_WELCOME        "Messagerie instantanée\n  \nClic droit sur le client et choisir 'Envoyer Message' pour lancer un dialogue"
+    IDS_MAIN_BTN_CANCEL_TOOLTIP "Arrête les tentatives de connexion"
+d103 1
+a103 1
+    IDS_NOTCONNECTED        "Non Connecté"
+d108 1
+a108 1
+    IDS_DISCONNECTED        "Déconnecté"
+d111 1
+a111 1
+    IDS_CONNECTED           "Connecté"
+d113 1
+a113 1
+    IDS_MAIN_EXIT           "Etes-vous sûr de vouloir quitter eMule Plus ?"
+d116 1
+a116 1
+    IDS_CONNECTTOANYSERVER  "Connexion à un serveur"
+d120 1
+a120 1
+    IDS_ERR_BADSERVERREPLY  "Réponse de login invalide"
+d122 2
+a123 2
+    IDS_NOSHAREDFOLDERS     "Pas de dossier partagé"
+    IDS_SHAREDFOLDERS       "Dossiers partagés"
+d128 2
+a129 2
+    IDS_ERR_WRITEERROR      "Erreur inconnue d'écriture de %s : %s"
+    IDS_ERR_COMPLETIONFAILED "Erreur inconnue lors de la finalisation de %s. Fichier mis en pause, redémarrez eMule pour une autre tentative"
+d131 1
+a131 1
+    IDS_DOWNLOADDONE        "Téléchargement terminé de %s"
+d133 3
+a135 3
+    IDS_ERR_HASHERRORWARNING "Impossible de hacher la partie téléchargée : hashset incomplet (%s)"
+    IDS_ERR_INCOMPLETEHASH  "Impossible de hacher la partie téléchargée : hashset incomplet (%s)."
+    IDS_DOWNLOADING         "Téléchargement"
+d137 1
+a137 1
+    IDS_SLS_OUTDATED        "Périmés après"
+d140 1
+a140 1
+    IDS_COMPLETE            "Terminé"
+d142 2
+a143 2
+    IDS_ERRORLIKE           "Erroné"
+    IDS_ASSIGNED2K          "eMule n'est pas associé aux liens ED2K. Voulez-vous associer eMule aux liens ED2K maintenant  (recommandé) ?"
+d148 1
+a148 1
+    IDS_ERR_EMPTYADRESSESDAT "Aucun serveur répertorié dans 'adresses.dat'. Placez y une liste de serveurs avec leur adresse pour assurer une mise à jour automatique."
+d150 3
+a152 3
+    IDS_ERR_BADSERVERMETVERSION "N° de version invalide dans server.met (0x%X)!"
+    IDS_SERVERSFOUND        "%i serveurs trouvés dans server.met"
+    IDS_SERVERSADDED        "%d serveurs ajoutés, %d supprimés"
+d157 1
+a157 1
+    IDS_MAIN_CONNECTEDTO    "Connexion établie sur : "
+d170 1
+a170 1
+    IDS_VIEW2               " (non partagé)"
+d174 3
+a176 3
+    IDS_DOWNLOADMENUTITLE   "Téléchargements"
+    IDS_PRIORITY            "Priorité"
+    IDS_NEWSERVERS          "Réception de %d nouveaux serveurs"
+d181 2
+a182 2
+    IDS_DL_INFO             "Voir &détails fichier"
+    IDS_DL_CLEAR            "Effa&cer terminés"
+d189 1
+a189 1
+    IDS_SHOWDETAILS         "Voir &détails"
+d195 3
+a197 3
+    IDS_RECHASHSET          "Réception hashset"
+    IDS_NONEEDEDPARTS       "Pas de partie à charger"
+    IDS_NOCONNECTLOW2LOW    "Impossible de connecter LowID à LowID"
+d200 5
+a204 5
+    IDS_Q_CANCELDL          "Etes-vous sûr d'annuler et effacer ces fichiers ?\n"
+    IDS_Q_CANCELDL2         "Etes-vous sûr d'annuler et effacer ce fichier ?\n"
+    IDS_COPIED2CB           "Copié : \n"
+    IDS_PROCDONE            "% effectué"
+    IDS_SELECTINCOMINGDIR   "Choisir un dossier pour les fichiers téléchargés"
+d212 1
+a212 1
+    IDS_DL_TRANSF           "Reçus"
+d216 1
+a216 1
+    IDS_ERR_BADSERVERLISTRECEIVED "Liste de serveurs reçue invalide"
+d220 1
+a220 1
+    IDS_ENABLED             "Activé"
+d223 1
+a223 1
+    IDS_CONNECTINGTO        "Connexion à %s (%s:%i)..."
+d233 1
+a233 1
+    IDS_SEARCH_VIDEO        "Vidéos"
+d238 1
+a238 1
+    IDS_ERR_NOTCONNECTED    "Vous n'êtes pas connecté à un serveur!"
+d242 3
+a244 3
+    IDS_SRV_PORT            "Entrez le port du nouveau serveur à ajouter"
+    IDS_SRV_NOTADDED        "Serveur non ajouté !"
+    IDS_SRV_READD           "Le serveur était marqué inactif, il a été réinséré!"
+d251 1
+a251 1
+    IDS_ERR_FAILEDDOWNLOADMET "Echec de réception de la liste de serveurs depuis %s"
+d254 2
+a255 2
+    IDS_PRIOVERYLOW         "Très basse"
+    IDS_PRIORELEASE         "Très haute"
+d257 2
+a258 2
+    IDS_FSTATUS_LOCKED      "Bloqué"
+    IDS_PW_ADVANCED         "Paramètres +"
+d262 2
+a263 2
+    IDS_UAP                 "Autopriorité Upload"
+    IDS_PRIOHIGHEST         "Très haute"
+d268 2
+a269 2
+    IDS_ERR_NOPRIMCHANGE    "Vous ne pouvez pas changer les permissions en cours de téléchargement !"
+    IDS_HIDDEN              "Caché"
+d276 3
+a278 3
+    IDS_STATS_DDATA         "Données téléchargées (Session (Total)) : %s (%s)"
+    IDS_STATS_UDATA         "Données envoyées (Session (Total)) : %s (%s)"
+    IDS_STATS_AVGDL         "Taux de téléchargement (Session) : %.2f Ko/s"
+d280 2
+a281 2
+    IDS_STATS_FOUNDSRC      "Sources trouvées : %i"
+    IDS_STATS_ACTDL         "Téléchargements actifs (morceaux) : %i"
+d291 1
+a291 1
+    IDS_STATS_CONNECTEDSINCE "Connecté au serveur depuis : %s"
+d296 4
+a299 4
+    IDS_STATS_DEAD          "Inactif/Effacé : %i"
+    IDS_DISABLED            "Désactivé"
+    IDS_STOPPED             "Stoppé"
+    IDS_STATS_UPDATELABEL   "Délai mise à jour : %i sec"
+d309 12
+a320 12
+    IDS_ERR_LOADCREDITFILE  "Echec de chargement du fichier de crédits, nouveau fichier créé"
+    IDS_ERR_CREDITFILEOLD   "Le fichier de crédits n'est pas à jour : il sera remplacé"
+    IDS_CREDITFILELOADED    "Fichier de crédits chargé, %u clients sont connus"
+    IDS_CREDITFILECORRUPT   "Fichier de crédits erroné : il sera remplacé!"
+    IDS_ERR_CREDITFILEREAD  "Erreur inconnue de lecture du fichier de crédits : %s"
+    IDS_ERR_FAILED_CREDITSAVE "Erreur d'écriture du fichier de crédits"
+    IDS_NOPARTSFOUND        "Pas de fichiers .part trouvés"
+    IDS_FOUNDPARTS          "%i fichiers .part trouvés"
+    IDS_NEWDOWNLOAD         "Téléchargement de %s"
+    IDS_ERR_ALREADY_DOWNLOADING "Vous téléchargez déjà ce fichier : %s"
+    IDS_ERR_ALREADY_DOWNLOADED "Vous avez déjà téléchargé ce fichier : %s"
+    IDS_ERR_SERVERMET_BAD   "Le fichier known.met est erroné, impossible de le charger"
+d322 1
+a322 1
+    IDS_ERR_CONNECTIONERROR "Erreur durant la connexion à %s (%s:%i) : %d"
+d328 3
+a330 3
+    IDS_SHAREDFOUND         "Trouvé %i fichiers partagés connus"
+    IDS_SHAREDFOUNDHASHING  "Trouvé %i fichiers partagés connus, hachage %i nouveaux fichiers"
+    IDS_ERR_UDPEXT          "Erreur durant l'exécution du protocole UDP Packet"
+d332 4
+a335 4
+    IDS_ERR_OPEN            "Echec d'ouverture du fichier demandé"
+    IDS_ERR_CLIENTERRORED   "Le client '%s' a provoqué une erreur (%s). Client déconnecté"
+    IDS_ERR_REQ_FNF         "Fichier demandé non trouvé"
+    IDS_CLIENTBLOCKED       "Le client '%s' semble être agressif : il est banni de la file d'attente"
+d340 4
+a343 4
+    IDS_ERR_NOVALIDSERVERSFOUND "Pas de serveur valide trouvé dans la liste"
+    IDS_CONNECTEDTOREQ      "Demande de login pour se connecter à %s (%s:%i)"
+    IDS_ERR_FATAL           "Erreur fatale durant la connexion. La connexion Internet est peut-être perdue"
+    IDS_ERR_LOSTC           "Connexion perdue à %s (%s:%i)"
+d348 1
+a348 1
+    IDS_ERR_METCORRUPT      " %s (%s) est invalide, impossible de télécharger le fichier"
+d351 2
+a352 2
+    IDS_COM                 "Communauté de partage"
+    IDS_ERR_REHASH          "Attention : %s est peut-être corrompu, hachage en cours"
+d354 1
+a354 1
+    IDS_ERR_PART_FNF        "Fichier .part non trouvé"
+d358 5
+a362 5
+    IDS_ERR_FOUNDCORRUPTION "Partie invalide trouvée (%i) dans %s"
+    IDS_HASHINGDONE         "Hachage terminé %s, le fichier semble correct"
+    IDS_ERR_PARTCORRUPT     "Partie téléchargée %i invalide (%s)"
+    IDS_ICHWORKED           "Partie invalide remplacée %i  (%s)"
+    IDS_ERR_OUTOFSPACE      "Espace disque insuffisant pour télécharger %s!"
+d368 5
+a372 5
+    IDS_ERR_DEAD            "%s (%s:%i) semble être inactif"
+    IDS_ERR_FULL            "%s (%s:%i) semble être saturé"
+    IDS_ERR_NOSERVERSC      "Pas de serveur valide trouvé dans la liste"
+    IDS_CONNECTEDTO         "Connexion établie sur : %s"
+    IDS_DL_PREVIEW          "Aperçu"
+d383 1
+a383 1
+    IDS_SW_DIRECTDOWNLOAD   "Téléchargement direct"
+d389 1
+a389 1
+    IDS_SW_START            "Démarrer"
+d391 2
+a392 2
+    IDS_SW_RESULT           "Résultats de recherche"
+    IDS_SW_DOWNLOAD         "Télécharger sélection"
+d399 4
+a402 4
+    IDS_SV_ADD              "Ajouter à la liste"
+    IDS_SV_MET              "Mise à jour server.met depuis URL"
+    IDS_SV_UPDATE           "Mise à jour"
+    IDS_SF_FILES            "Fichiers partagés"
+d416 2
+a417 2
+    IDS_SF_TRANS            "Transféré : "
+    IDS_SF_ACCEPTED         "Demandes acceptées : "
+d419 2
+a420 2
+    IDS_ST_DOWNLOAD         "Vit. de réception"
+    IDS_ST_UPLOAD           "Vit. d'émission"
+d423 1
+a423 1
+    IDS_ST_ACTIVED          "Téléchargements actifs"
+d434 1
+a434 1
+    IDS_DOWNLOAD_A4AF       "Télécharger ce fichier maintenant"
+d437 1
+a437 1
+    IDS_ALL_A4AF_TO_HERE    "Télécharger tous les A4AF de ce fichier maintenant"
+d453 1
+a453 1
+    IDS_PW_GENERAL          "Général"
+d456 1
+a456 1
+    IDS_PW_INCOMING         "Fichiers reçus:"
+d459 1
+a459 1
+    IDS_PW_SHARED           "Dossiers partagés:"
+d461 1
+a461 1
+    IDS_PW_DOWNC            "Capacité DL"
+d463 1
+a463 1
+    IDS_PW_UPC              "Capacité UL"
+d467 1
+a467 1
+    IDS_PW_AUTOCON          "Connexion au démarrage"
+d476 1
+a476 1
+    IDS_PW_SCORE            "Utiliser priorité"
+d480 1
+a480 1
+    IDS_PW_USS              "MàJ auto serverlist au démarrage"
+d482 1
+a482 1
+    IDS_PW_TRAY             "Réduire en &icône"
+d485 1
+a485 1
+    IDS_PW_SPLASH           "Afficher l'écran de démarrage"
+d496 1
+a496 1
+    IDS_PW_SHARE            "Fichiers partagés vus par"
+d512 3
+a514 3
+    IDS_EM_PREFS            "Préférences"
+    IDS_MB_LANGUAGEINFO     "La langue par défaut a été choisie. Vous pouvez changer par l'onglet Préférences."
+    IDS_FD_GENERAL          "Général"
+d521 1
+a521 1
+    IDS_FD_SOURCES          "Sources trouvées : "
+d523 2
+a524 2
+    IDS_FD_TRANS            "Transféré : "
+    IDS_FD_DATARATE         "Débit : "
+d526 1
+a526 1
+    IDS_FD_COMPSIZE         "Taille effectuée : "
+d532 2
+a533 2
+    IDS_FD_TITLE            "Détails fichier"
+    IDS_CD_GENERAL          "Général"
+d542 5
+a546 5
+    IDS_CD_CDOWN            "Téléchargement en cours : "
+    IDS_CD_DOWN             "Téléchargé (cette session) : "
+    IDS_CD_ADOWN            "Moyenne téléchargement : "
+    IDS_CD_TDOWN            "Total téléchargement : "
+    IDS_CD_UP               "Envoyé (cette session) : "
+d558 1
+a558 1
+    IDS_CD_TITLE            "Détails client"
+d560 2
+a561 2
+    IDS_TBN_PROPERTIES      "Propriétés Popup"
+    IDS_EMULEW2             "pour vérifier si une nouvelle version est disponible"
+d565 3
+a567 3
+    IDS_SHAREDFILESCOUNT    "Nombre de fichiers partagés : %i"
+    IDS_SF_SIZE             "Taille totale des fichiers partagés: %s"
+    IDS_ERR_WRONGPARTNUMBER "Numéro de partie invalide"
+d572 1
+a572 1
+    IDS_ERR_BADPORT         "Numéro de port invalide"
+d574 2
+a575 2
+    IDS_ERR_INVALIDPACKAGE  "Le paquet reçu est invalide ou corrompu"
+    IDS_ERR_CLIENTERROR     "Le client '%s' (IP:%s) a causé une erreur: %s. Déconnexion du client !"
+d577 1
+a577 1
+    IDS_ERR_BADCLIENT2      "Client '%s' (IP:%s) a causé une erreur: %u. Déconnexion du client !"
+d579 4
+a582 4
+    IDS_ERR_CREATEPARTFILE  "N'a pas pu créer de fichier .part"
+    IDS_ERR_UDP_MISCONF     "Erreur de traitement du paquet UDP entrant (très probablement le serveur est mal configuré)"
+    IDS_CHAT_START          "*** Démarrage d'une session de Chat : "
+    IDS_FILEPRIO            "Priorité des fichiers"
+d584 2
+a585 2
+    IDS_ASKED               "Demandé"
+    IDS_LASTSEEN            "Dernier passage à"
+d587 1
+a587 1
+    IDS_PRIOVERYHIGH        "Très haute"
+d593 1
+a593 1
+    IDS_UFAILED             "Échec"
+d597 1
+a597 1
+    IDS_PARTINFOS2          "%d%% fait (%s) - Transfert à partir de %d sources"
+d604 2
+a605 2
+    IDS_FILESTATS_SESSION   "Fichier statistique pour cette session : %d requêtes acceptées sur %d, %u octets transferés\n"
+    IDS_FILESTATS_TOTAL     "Fichier statistique pour toutes les sessions : %d requêtes acceptées sur %d, %u octets transferés"
+d607 1
+a607 1
+    IDS_REQ_UNKNOWNFILE     "Fichier demandé inconnu"
+d612 2
+a613 2
+    IDS_TRANSFERTIME        "Délais depuis le premier transfert : %s"
+    IDS_FILEBOX             "Pas de fichier séléctionné"
+d616 4
+a619 4
+    IDS_SF_ACCEPTS          "Demandes acceptées"
+    IDS_SF_TRANSFERRED      "Données transferées "
+    IDS_REMOVESEARCHSTRING  "Enlever ce résultat de recherche"
+    IDS_REMOVESELECTED      "Supprimer sélection"
+d621 1
+a621 1
+    IDS_ENTERQUEUE          "Placé en file d'attente"
+d632 1
+a632 1
+    IDS_LASTSEENCOMPL       "Vu complet pour la dernière fois : "
+d635 1
+a635 1
+    IDS_UNBAN               "Dé-bannir"
+d637 2
+a638 2
+    IDS_ADDTOSTATIC         "Ajouter à la liste statique de serveurs"
+    IDS_ADDED2SSF           "Ajouté à la liste statique de serveurs"
+d640 1
+a640 1
+    IDS_ERROR_SSF           "Echec à l'ouverture de staticservers.dat"
+d646 1
+a646 1
+    IDS_NETWORK             "Réseau"
+d651 1
+a651 1
+    IDS_SF_DELCOUNT         "Serveurs supprimés"
+d653 1
+a653 1
+    IDS_ERR_PACKAGEERROR    "Erreur critique durant le traitement du paquet de données de %s (taille erronée) - bloc de données supprimé"
+d665 2
+a666 2
+    IDS_RECONNECT           "La connexion au serveur sera tentée à nouveau dans %d secondes"
+    IDS_COMUSER             "Appartient à la communauté :"
+d671 4
+a674 4
+    IDS_SERVERADDED         "Serveur ajouté:"
+    IDS_STATS_SUCCUPCOUNT   "Sessions réussies au total: %i"
+    IDS_STATS_FAILUPCOUNT   "Sessions échouées au total: %i"
+    IDS_STATS_AVEUPTIME     "Durée moyenne d'un envoi : %s"
+d678 1
+a678 1
+    IDS_ERROR_SAVEFILE      "Echec à l'enregistrement"
+d680 1
+a680 1
+    IDS_REQ_SHAREDFILES     "L'utilisateur %s (%u) a demandé votre liste de fichiers partagés -> %s"
+d682 3
+a684 3
+    IDS_ACCEPTED            "accepté"
+    IDS_DENIED              "refusé"
+    IDS_PW_CON_DOWNLBL      "Téléchargement"
+d690 1
+a690 1
+    IDS_MAXSRCUDP_LBL       "Limite requêtes UDP"
+d692 1
+a692 1
+    IDS_STATS_AVGLABEL      "Durée pour le graph. de moyenne : %i mins"
+d705 1
+a705 1
+    IDS_SAMEUSERHASH        "Les clients '%s' et '%s' ont le même userhash/IP - enlevé '%s'"
+d715 1
+a715 1
+    IDS_NOPARTFILESELECTED  "Certaines priorités n'ont pas été changées car les fichiers sont complets"
+d719 1
+a719 1
+    IDS_EXCHANGEDSOURCE     "[Source Echangée]"
+d721 1
+a721 1
+    IDS_PW_TBN_CLOSETOTRAY  "Iconifier à la fermeture"
+d728 3
+a730 3
+    IDS_DOWNLOADRENAMED     "Un fichier avec le même nom existe déjà, Le fichier a été sauvé comme %s"
+    IDS_TBN_DOWNLOADDONE    "Téléchargé : "
+    IDS_TBN_DOWNLOADADDED   "Ajouter aux téléchargements : "
+d732 3
+a734 3
+    IDS_PW_TBN_ONLOG        "Une nouvelle entrée dans la fenêtre de log"
+    IDS_PW_TBN_ONCHAT       "Le début d'une session de Chat"
+    IDS_PW_TBN_POP_ALWAYS   "Un nouveau message est arrivé"
+d739 1
+a739 1
+    IDS_PW_TBN_ONDOWNLOAD   "Un téléchargement est ajouté ou terminé"
+d743 1
+a743 1
+    IDS_PW_CON_CAP          "Capacités"
+d746 1
+a746 1
+    IDS_IRC_PRIVATECHANSTART "*** Démarrage d'une session privée de Chat : "
+d748 1
+a748 1
+    IDS_IRC_PRIVMESSAGE     "Message privé"
+d756 1
+a756 1
+    IDS_IRC_DISCONNECT      "Déconnecter"
+d759 1
+a759 1
+    IDS_IRC_WASKICKEDBY     "* %s a été kické par %s (%s)"
+d761 1
+a761 1
+    IDS_IRC_NICKUSED        "Votre surnom est déjà utilisé sur le serveur IRC. SVP, entrez un nouveau surnom dans les préférences."
+d767 2
+a768 2
+    IDS_REMOVEFROMSTOK      "supprimé de la liste de serveurs statiques"
+    IDS_IRC_HASQUIT         "* %s est déconnecté (%s)"
+d770 2
+a771 2
+    IDS_IRC_SETSMODE        "* %s a effectué un changement de mode : %s %s"
+    IDS_IRC_NOTSUPPORTED    "** Des modes ont été changés et ils ne sont pas supportés. Vous devez sortir puis revenir dans le channel pour mettre à jour votre liste de surnoms.."
+d777 1
+a777 1
+    IDS_IRC_ADDTOFRIENDLIST "Ajouter à liste Amis"
+d779 1
+a779 1
+    IDS_IRC_LOADCHANNELLISTONCON "Charger liste des serveurs à la connexion."
+d781 1
+a781 1
+    IDS_IRC_ADDASFRIEND     "Vous avez été ajouté comme AMI!"
+d784 2
+a785 2
+    IDS_IRC_ADDTIMESTAMP    "Ajouter l'heure au début des messages."
+    IDS_ALREADYCONNECTED    "Vous êtes déjà connecté à %s"
+d790 1
+a790 1
+    IDS_PW_UA               "Définir les deux au max"
+d792 2
+a793 2
+    IDS_IRC_SENDLINK        "Envoyer à un ami: "
+    IDS_IRC_RECIEVEDLINK    "%s envoyé (%s) pour être lancer automatiquement."
+d800 2
+a801 2
+    IDS_PW_DIR_INCSUBDIR    "Inclure les sous-répertoires"
+    IDS_ST_ACTIVEDOWNLOAD   "Téléchargements"
+d812 3
+a814 3
+    IDS_LOADEDSOURCE        "[Source Chargée]"
+    IDS_LOWIDDISCONNECT     "Vous avez été déconnecté car vous aviez un LowID. %i essais restants"
+    IDS_PW_PA               "Définir les deux au min"
+d826 4
+a829 4
+    IDS_INFLST_USER_CURDOWNLOAD "Actuellement téléchargé"
+    IDS_INFLST_USER_SESSIONDOWNLOAD "Téléchargé (this Session)"
+    IDS_INFLST_USER_SESSIONUPLOAD "Envoyé (this Session)"
+    IDS_INFLST_USER_AVERAGEDOWNRATE "Moyenne Vit. Télécharg."
+d835 2
+a836 2
+    IDS_IRC_USEPERFORM      "Utiliser cette chaîne de commande à la connexion"
+    IDS_PW_WARNING          "La valeur choisie pour ""%s"" est plus grande que ce que votre OS supporte:  %d\nCeci peut rendre votre système instable.\n\nETes vous sur de vouloir faire ca ?"
+d852 1
+a852 1
+    IDS_RUP_DOWNLOADS       "Téléchargements"
+d854 1
+a854 1
+    IDS_RUP_INFO            "Détails"
+d873 2
+a874 2
+    IDS_INFLST_USER_TOTALDOWNLOAD "Téléchargé total"
+    IDS_INFLST_USER_TOTALUPLOAD "Envoyé total"
+d894 1
+a894 1
+    IDS_INFLST_FILE_FOUNDSOURCES "Sources trouvées"
+d901 2
+a902 2
+    IDS_INFLST_FILE_TRANSFERED "Transferé"
+    IDS_INFLST_FILE_COMPLETEDSIZE "Taille complétée"
+d909 5
+a913 5
+    IDS_STATS_UDATA_SESSION "Envoyé (Session): %s"
+    IDS_STATS_UDATA_TOTAL   "Envoyé (Total): %s"
+    IDS_STATS_DDATA_SESSION "Téléchargé(Session): %s"
+    IDS_STATS_DDATA_TOTAL   "Téléchargé (Total): %s"
+    IDS_INFLST_FILE_LASTSEENCOMPLETE "Dernière fois complet"
+d919 1
+a919 1
+    IDS_DISABLE_XS          "Désactiver l'échange de sources"
+d924 1
+a924 1
+    IDS_AP_LOW_LBL          "Limite de Priorité ""basse"" "
+d926 1
+a926 1
+    IDS_SORT_FILES_LBL      "Trier les Fichiers Partagés par"
+d930 1
+a930 1
+    IDS_SORT_GRP            "Quand la liste des sources est developpée"
+d944 5
+a948 5
+    IDS_PW_TIT_UP           "Modifier les paramètres d'upload"
+    IDS_PW_TIT_DOWN         "Modifier les paramètres de download"
+    IDS_PW_UNLIMITED        "illimité"
+    IDS_PW_MINREC           "12 KB/s (minimum recommendé)"
+    IDS_VIEWFILES           "Voir Fichiers Partagés"
+d953 3
+a955 3
+    IDS_DWTOT               "Téléchargement [Totaux]"
+    IDS_DWTOT_NR            "Nombre de Téléchargements: %d"
+    IDS_DWTOT_TSD           "Taille totale des Téléch.: %s"
+d957 2
+a958 2
+    IDS_DWTOT_TSL           "Taille totale restant à téléch.: %s"
+    IDS_DWTOT_TSN           "Espace total nécessaire pour les téléch.: %s"
+d966 1
+a966 1
+    IDS_PREF_STARTMIN       "Démarrer réduit"
+d968 2
+a969 2
+    IDS_PW_FASTSRVCON       "Connexion sécurisée"
+    IDS_SOURCELINKFAILED    "Vous devez avoir un HighID pour créer un sourcelink valide"
+d972 1
+a972 1
+    IDS_NEWSERVERCONNECT    "Chargement des sources à partir du nouveau serveur pour tous les fichiers ayant moins de %d sources"
+d974 1
+a974 1
+    IDS_UDPDISABLED         "désactivé"
+d979 1
+a979 1
+    IDS_COL_AUTOMATIC       "Par défaut"
+d982 1
+a982 1
+    IDS_SP_BACKGROUND       "Arrière-plan"
+d985 1
+a985 1
+    IDS_SP_DL2              "Download durée moyenne"
+d988 1
+a988 1
+    IDS_SP_UL2              "Upload durée moyenne"
+d1001 1
+a1001 1
+    IDS_PW_TEMPDIR          "Répertoires Temp supplémentaires:"
+d1003 2
+a1004 2
+    IDS_ERR_FAILEDSRVDWNLD  "Erreur de téléchargement de la liste de serveurs de %s"
+    IDS_RESTARTWAITING      "Relancer downloads en attente à la connexion"
+d1014 1
+a1014 1
+    IDS_PW_TBN_ONDOWNLOADADD "Download ajouté"
+d1018 2
+a1019 2
+    IDS_AP_GRP              "Priorité Auto Téléch."
+    IDS_AP_HIGH_LBL         "Limite de Priorité ""haute"" "
+d1034 3
+a1036 3
+    IDS_CHATDISCONNECTED    "*** Déconnecté"
+    IDS_SHAREDFILES_FAILED  "Impossible d'obtenir les fichiers partagés de '%s'"
+    IDS_SHAREDFILES_REQUEST "Demande des fichiers partagés de '%s'"
+d1039 2
+a1040 2
+    IDS_TRF_FULL_CHUNKS     "Transfert des parties complètes"
+    IDS_PW_WINDOW           "Fenêtre"
+d1056 1
+a1056 1
+    IDS_ERR_NOVALIDFRIENDINFO "Vous avez entré un nom d'utilisateur et un userhash valides !"
+d1059 2
+a1060 2
+    IDS_CMT_AIDE            "Pour un film, vous pouvez inscrire sa durée, le synopsis, la langue... Et si c'est un Fake, vous pouvez en informer les utilisateurs d'Emule... "
+    IDS_CMT_RATEQUEST       "Qualité du fichier"
+d1063 1
+a1063 1
+    IDS_CMT_REFRESH         "&Rafraîchir"
+d1066 1
+a1066 1
+    IDS_SMARTLOWIDCHECK     "Utiliser la vérification rapide du LowID à la connexion"
+d1068 1
+a1068 1
+    IDS_RECOVERED_PARTMET   "Fichier part.met récupéré pour: %s"
+d1070 1
+a1070 1
+    IDS_DC_CLIENT           "Doubleclic sur le client pour afficher les détails"
+d1077 2
+a1078 2
+    IDS_PW_VLC              "Lecteur vidéo pour le preview:"
+    IDS_SELECT_VLCDIR       "Sélectionner le lecteur vidéo"
+d1086 1
+a1086 1
+    IDS_ERR_CORRUPTCOMPRPKG "Paquet compressé corrompu de %s reçu (erreur %i)"
+d1095 1
+a1095 1
+    IDS_CMT_NOTCONNECTED    "Pas encore connecté..."
+d1097 1
+a1097 1
+    IDS_SELECT_INCOMINGDIR  "Choisissez un dossier pour les fichiers arrivés"
+d1100 1
+a1100 1
+    IDS_JIGLE               "Mise à jour du fichier chez jigle.com"
+d1110 1
+a1110 1
+    IDS_UPDATEQUEUE         "Mise à jour file d'attente auto"
+d1128 2
+a1129 2
+    IDS_ERR_INVALIDIDENT    "Paquet d'IDENT serveur reçu invalide"
+    IDS_ENABLE_XSUPTO       "Désactiver pour les fichiers avec plus de"
+d1134 1
+a1134 1
+    IDS_ACRATIO_LBL         "Ratio échelle des connexions"
+d1142 1
+a1142 1
+    IDS_SF_SHOWALLSF        "Montrer tous les fichiers partagés"
+d1145 2
+a1146 2
+    IDS_ERR_FAILEDTIMER     "Impossible de créer le Timer"
+    IDS_HASHING_FRM         "Priorité Hash"
+d1151 1
+a1151 1
+    IDS_SF_BLOCKED          "Bloqué"
+d1158 2
+a1159 2
+    IDS_SF_RESETALLSTATS    "Réinitialiser les statistiques totaux"
+    IDS_SF_RESETSESSTATS    "Réinitialiser les statistiques de la session"
+d1162 4
+a1165 4
+    IDS_ERR_SLOWWRITE       "Impossible d'ouvrir le fichier pour l'écriture"
+    IDS_ERR_OUTMEM          "Mémoire insuffisante lors du déplacement"
+    IDS_ERR_RENFAIL         "Le renommage complet du fichier a échoué"
+    IDS_SLOWCOMPLETE        "Montrer l'achèvement du fichier en blocks de"
+d1168 1
+a1168 1
+    IDS_WEB_LOGOUT          "Se déloguer"
+d1179 2
+a1180 2
+    IDS_UPBARST1            "Style 1 (parties générales uniquement)"
+    IDS_UPBARST2            "Style 2 (parties générales+blocks)"
+d1192 1
+a1192 1
+    IDS_CMT_NOTRATED        "Pas noté"
+d1199 1
+a1199 1
+    IDS_ERR_KNOWNSERVERINFOREC "Information serveur inconnu reçue!"
+d1201 1
+a1201 1
+    IDS_ERR_CONFAILED       "Connexion à ""%s"" (%s:%i ) échouée."
+d1203 4
+a1206 4
+    IDS_ERR_CONTIMEOUT      "Tentative de Connexion à ""%s"" (%s:%i ) : timeout retourné"
+    IDS_ERR_TIMERCREATEFAILED "Erreur fatale: Echec à la création du timer"
+    IDS_PAF_REQINFO         "Information demandée"
+    IDS_PAF_MOREINFO        "Information supplémentaire"
+d1211 2
+a1212 2
+    IDS_PROXY_AUTH_ENABLED  "Authentification Activée"
+    IDS_PROXY_ENABLED       "Proxy activé"
+d1218 3
+a1220 3
+    IDS_ERRORMSG_PROXY_AUTHNOLOGON "Le proxy nécessite une authentification"
+    IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN "Nécessite le type proxy, le serveur proxy est inconnu ou non-supporté"
+    IDS_ERRORMSG_PROXY_CANTRESOLVEHOST "Impossible de trouver l'hôte ou le serveur"
+d1222 1
+a1222 1
+    IDS_ERRORMSG_PROXY_REQUESTFAILED "Demande proxy annulée, impossible de se connecter par le serveur proxy"
+d1228 1
+a1228 1
+    IDS_WEB_GZIP_COMMENT    "Sauvegarde votre traffic, particulièrement les graphs:"
+d1235 1
+a1235 1
+    IDS_WEB_REFRESH_COMMENT "En sedondes, zero - désactivé:"
+d1237 1
+a1237 1
+    IDS_CAPACITY_LIMITS     "Limites de capacitée"
+d1241 3
+a1243 3
+    IDS_WEB_CONFIRM_REMOVE_SERVER "Êtes vous sûr de vouloir enlever le serveur de la liste?"
+    IDS_PRIORITY_DOWN       "Diminuer la Prioritée"
+    IDS_PRIORITY_UP         "Angmenter la Prioritée"
+d1254 1
+a1254 1
+    IDS_GET_PREVIEW_CHUNKS  "Télécharger les parties pour le Preview"
+d1260 1
+a1260 1
+    IDS_FD_STATS            "Perte corruption: %s       Gain en compression: %s\nPaquets récupérés par I.C.H.: %i"
+d1266 1
+a1266 1
+    IDS_SP_ICONBAR          "Icône de la barre de tâches"
+d1268 5
+a1272 5
+    IDS_ATTEMPTING_RECOVERY "Tentative de récupération de l'archive..."
+    IDS_RECOVERY_SUCCESSFUL "Récupération de l'archive réussie."
+    IDS_RECOVERY_FAILED     "Echec de la récupération de l'archive."
+    IDS_RECOVER_SINGLE      "1 fichier récupéré."
+    IDS_RECOVER_MULTIPLE    "%ld fichiers récupérés."
+d1278 2
+a1279 2
+    IDS_SEARCHAVAIL         "Disponibilité"
+    IDS_VIDEOBACKUP         "Créer un backup de preview"
+d1287 1
+a1287 1
+    IDS_CURRENTLY           "En attente de télécharger :"
+d1292 1
+a1292 1
+    IDS_SELECTTOOLBARBITMAPDIR "Sélectionner Dossier..."
+d1295 1
+a1295 1
+    IDS_DEFAULT				"Par défaut"
+d1301 4
+a1304 4
+    IDS_MAINPROCESS_LBL     "Priotité du processus (redémarage requis)"
+    IDS_ED2KNOLINKFROMCLIPBOARD "Pas de Lien ED2K trouvé dans le Presse-parier"
+    IDS_ED2KCONFIRMFROMCLIPBOARD "Ajouter ces liens aux téléchargements?\n%s"
+    IDS_DOWNLOAD_ALL_ED2K   "Télécharger tous les liens ED2K du Presse-papier"
+d1317 33
+a1349 17
+IDS_WEBSERVICES         "Services Web"
+IDS_WEBSVEDIT           "Editer Services Web"
+IDS_PW_IM_OPTIONS       "Messagerie"
+IDS_PW_IM_ACCEPT        "Accepter messages"
+IDS_PW_IM_OTHER         "Autres Options"
+IDS_PW_IM_FROMALLUSERS  "De Tout le Monde"
+IDS_PW_IM_ONLYFROMFRIENDS "Uniquement des Amis"
+IDS_PW_IM_ONLYFROMFRIENDS2 "Mettre tous les non-amis dans le log"
+IDS_PW_IM_FROMNONE      "Ne pas axccepter les messages"
+IDS_PW_IM_PUTMEAWAY     "Me mettre en 'absent'"
+IDS_PW_IM_AWAYMESSAGE   "Message d'absence"
+IDS_FILTERLABEL         "Filtrer les messages contenant : (Séparateur | )"
+IDS_CHANGEDIR           "Changer le répertoire de destination"
+IDS_SHELLCONTEXT        "Menu contextuel"
+IDS_SELECTOUTPUTDIR     "Choisir où les fichiers seront mis lorsqu'ils seront complets"
+IDS_SHOWRATEONTITLE     "Monter le taux de transfert dans le titre"
+IDS_LANCASTENABLE "Activer Lancast"
+@
+
+
+1.15
+log
+@Translation changes
+@
+text
+@a947 1
+    IDS_EXCHANGEDSOURCEMARK "*<XS>#"
+@
+
+
+1.14
+log
+@minor translation changes
+@
+text
+@d164 1
+d618 1
+a618 1
+    IDS_REMOVESEARCHSTRING  "Supprimer recherche(s) sélectionné(es)"
+d1255 1
+a1255 1
+    IDS_GET_PREVIEW_CHUNKS  "Télécharges les parties pour le Preview"
+d1303 3
+d1318 17
+@
+
+
+1.13
+log
+@Translation Changes
+@
+text
+@d1281 1
+d1288 26
+@
+
+
+1.12
+log
+@file buffer size, autotake ed2k links and some preferences reorganization.
+@
+text
+@d1077 2
+a1078 2
+    IDS_PW_VLC              "VideoLAN installation:"
+    IDS_SELECT_VLCDIR       "Choisisez le dossier sontenant le Client VideoLan"
+@
+
+
+1.11
+log
+@Changed placement of banned users message.
+@
+text
+@a1107 2
+    IDS_FLAT                "Plat"
+    IDS_ROUND               "Arrondi"
+@
+
+
+1.10
+log
+@minor translation changes
+@
+text
+@d1286 1
+a1286 1
+    IDS_A4AF                "Show A4AF filename on each source"
+@
+
+
+1.9
+log
+@Removed upload slots configuration.
+@
+text
+@d292 1
+a292 1
+    IDS_STATS_UNKNOWNCLIENT "Inconnu : %i"
+d1284 5
+@
+
+
+1.9.2.1
+log
+@v1a upgrade
+@
+text
+@d292 1
+a292 1
+    IDS_STATS_UNKNOWNCLIENT "Autre..."
+a1283 5
+    IDS_OPENFOLDER			"Ouvrir le fichier"
+    IDS_SF_OPENINCOMINGFOLDER "Ouvrir le fichier 'Incoming'"
+    IDS_A4AF                "Montrer le nom du fichier A4AF pour chaque source"
+    IDS_BANMESSAGE          "Envoyer un message aux bannis"
+    IDS_CURRENTLY           "En attente de télécharger :"
+@
+
+
+1.9.2.2
+log
+@branch update from main
+@
+text
+@d1108 2
+@
+
+
+1.8
+log
+@minor translation changes
+@
+text
+@a20 1
+    IDS_UPLOAD_SLOTS_FRM    "Upload"
+a21 1
+    IDS_MIN_UP_CLIENTS_ALLOWED_LBL "Min Clients"
+a54 1
+    IDS_MAX_UP_CLIENTS_ALLOWED_LBL "Max Clients"
+a55 1
+    IDS_UPLOAD_CLIENT_DATARATE_LBL "Vitesse envoi max"
+@
+
+
+1.7
+log
+@Updated to b1 (beta 1 to be released tonight) & movie preview simplified.
+Set to RELEASE mode to disable crashes (is this good for beta 1?)
+@
+text
+@d793 1
+a793 1
+    IDS_PW_UA               "Tout au Max."
+d817 1
+a817 1
+    IDS_PW_PA               " tout au minimum"
+d1285 2
+@
+
+
+1.6
+log
+@Removed FLMC as a preferences option.
+@
+text
+@d1256 1
+a1256 9
+    IDS_MOVIE_MENU          "Mode Prévisualisation"
+    IDS_MOVIE_NO            "Pas de Prévisualisation"
+    IDS_MOVIE_AVI           "AVI (1P,1D)"
+    IDS_MOVIE_LAVI          "AVI Long (2P,1D)"
+    IDS_MOVIE_L2AVI         "AVI le plus Long (3P,1D)"
+    IDS_MOVIE_MPG           "MPG (1P)"
+    IDS_MOVIE_LMPG          "MPG Long (2P)"
+    IDS_MOVIE_L2MPG         "MPG le plus Long (3P)"
+    IDS_MOVIE_STANDARD      "AVI/MPG officiel (2P,2D)"
+@
+
+
+1.5
+log
+@minor changes
+@
+text
+@a266 1
+    IDS_FLMC                "Télécharger en priorité 1er/dernier parties film"
+@
+
+
+1.4
+log
+@Updates to IDS_UPDOWNLONG string
+@
+text
+@d1294 1
+@
+
+
+1.3
+log
+@Minor translation changes
+@
+text
+@d1279 1
+a1279 1
+    IDS_UPDOWNLONG          "Up: %.2f ( %.2f )  |  Down: %.2f ( %.2f )"
+@
+
+
+1.2
+log
+@Major Cleanup. Now all languges have identical structure
+@
+text
+@d481 2
+a482 2
+    IDS_PW_USC              "Update serverlist when connecting to servers and clients"
+    IDS_ERROR_STATE         "Problematic"
+d499 1
+a499 1
+    IDS_PENDING             "Pending"
+d709 1
+a709 1
+    IDS_SAMEUSERHASH        "Client '%s' and '%s' have the same userhash or IP - removed '%s'"
+d1118 1
+a1118 1
+    IDS_SW_METHOD           "Method"
+d1269 2
+a1270 2
+    IDS_GET_PREVIEW_CHUNKS  "Get chunk(s) for preview first"
+    IDS_LAST_FILE_PROGRESS  "Last progress:"
+@
+
+
+1.1
+log
+@Split
+@
+text
+@d34 2
+a35 4
+    IDS_HTTPDOWNLOAD_GENERIC_ERROR 
+                            "Erreur durant la tentative de téléchargement, Erreur : %1"
+    IDS_HTTPDOWNLOAD_FAIL_CONNECT_SERVER 
+                            "Erreur durant la connexion au serveur, Erreur : %1"
+d38 2
+a39 4
+    IDS_HTTPDOWNLOAD_ERROR_READFILE 
+                            "Erreur durant le téléchargement du fichier, Erreur : %1"
+    IDS_HTTPDOWNLOAD_PERCENTAGE 
+                            "Mise à jour liste de serveurs : %1% de %2 Effectué"
+d58 1
+a58 2
+    IDS_HTTPDOWNLOAD_OK_TO_OVERWRITE 
+                            "Le fichier '%1' existe déjà.\nLe remplacer ?"
+d60 1
+a60 2
+    IDS_HTTPDOWNLOAD_FAIL_FILE_OPEN 
+                            "Erreur durant l'ouverture du fichier à télécharger, Erreur:%1"
+d133 1
+a133 2
+    IDS_ERR_COMPLETIONFAILED 
+                            "Erreur inconnue lors de la finalisation de %s. Fichier mis en pause, redémarrez eMule pour une autre tentative"
+d137 1
+a137 2
+    IDS_ERR_HASHERRORWARNING 
+                            "Impossible de hacher la partie téléchargée : hashset incomplet (%s)"
+d152 3
+a154 6
+    IDS_ERR_EMPTYADRESSESDAT 
+                            "Aucun serveur répertorié dans 'adresses.dat'. Placez y une liste de serveurs avec leur adresse pour assurer une mise à jour automatique."
+    IDS_ERR_EMPTYADRESSESDAT_TITLE 
+                            "Impossible de retrouver la liste de serveurs"
+    IDS_ERR_BADSERVERMETVERSION 
+                            "N° de version invalide dans server.met (0x%X)!"
+d158 1
+a158 2
+    IDS_ERR_FILEERROR_SERVERMET 
+                            "Erreur de lecture du fichier server.met : %s, impossible de charger la liste de serveurs"
+d254 1
+a254 2
+    IDS_ERR_FAILEDDOWNLOADMET 
+                            "Echec de réception de la liste de serveurs depuis %s"
+d325 1
+a325 2
+    IDS_ERR_SERVERMET_UNKNOWN 
+                            "Erreur inconnue de lecture de known.met : %s, impossible de le charger"
+d412 5
+d482 1
+d499 1
+d709 5
+d824 14
+a875 13
+    IDS_INFLST_USER_IPADDRESS "Adresse IP"
+    IDS_INFLST_USER_ID      "ID"
+    IDS_INFLST_USER_SERVERIP "IP Serveur"
+    IDS_INFLST_USER_SERVERNAME "Nom Serveur"
+    IDS_INFLST_USER_TRANSFER "Transfert"
+    IDS_INFLST_USER_CURDOWNLOAD "Actuellement téléchargé"
+    IDS_INFLST_USER_SESSIONDOWNLOAD "Téléchargé (this Session)"
+    IDS_INFLST_USER_SESSIONUPLOAD "Envoyé (this Session)"
+    IDS_INFLST_USER_AVERAGEDOWNRATE "Moyenne Vit. Télécharg."
+END
+
+STRINGTABLE 
+BEGIN
+d1061 1
+a1061 2
+    IDS_ERR_NOVALIDFRIENDINFO 
+                            "Vous avez entré un nom d'utilisateur et un userhash valides !"
+d1085 1
+a1085 2
+    IDS_ERR_EMFRIENDSINVALID 
+                            "Le fichier emfriends.met est invalide ou corrompu!"
+d1112 6
+a1117 6
+    IDS_3DDEP               "3D Depth"
+    IDS_FLAT                "flat"
+    IDS_ROUND               "round"
+    IDS_MLDONKEY_CM         "Enable countermeasures for mlDonkey clients"
+    IDS_VERBOSE             "Debug Log"
+    IDS_UPDATEQUEUE         "Autoupdate queue list"
+d1226 2
+a1227 4
+    IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN 
+                            "Nécessite le type proxy, le serveur proxy est inconnu ou non-supporté"
+    IDS_ERRORMSG_PROXY_CANTRESOLVEHOST 
+                            "Impossible de trouver l'hôte ou le serveur"
+d1229 1
+a1229 2
+    IDS_ERRORMSG_PROXY_REQUESTFAILED 
+                            "Demande proxy annulée, impossible de se connecter par le serveur proxy"
+d1238 1
+a1238 2
+    IDS_WEB_UPLOAD_QUEUE_COMMENT 
+                            "Activer ou pas la queue d'UP ds la page transferts:"
+d1248 1
+a1248 2
+    IDS_WEB_CONFIRM_REMOVE_SERVER 
+                            "Êtes vous sûr de vouloir enlever le serveur de la liste?"
+d1275 4
+a1278 4
+    IDS_FD_STATS            "Corruption loss: %s       Compression gain: %s\nPackages recovered by I.C.H.: %i"
+    IDS_QUEUEFULL           "Queue Full"
+    IDS_ERR_NOHELP          "No help file found.\n Please visit emule's homepage to get a copy of the newest help file! (download section)"
+    IDS_SHOWOVERHEAD        "Show overhead bandwidth"
+d1280 8
+a1287 8
+    IDS_EDITLIST            "List"
+    IDS_SP_ICONBAR          "Systrayicon Speedbar"
+    IDS_OLDMLDONKEY         "Old MlDonkey"
+    IDS_ATTEMPTING_RECOVERY "Attempting archive recovery..."
+    IDS_RECOVERY_SUCCESSFUL "Archive recovery successful."
+    IDS_RECOVERY_FAILED     "Archive recovery failed."
+    IDS_RECOVER_SINGLE      "1 file recovered."
+    IDS_RECOVER_MULTIPLE    "%ld files recovered."
+d1293 1
+a1293 1
+    IDS_SEARCHAVAIL         "Availability"
+@
+

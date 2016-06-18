@@ -1,0 +1,639 @@
+head	1.10;
+access;
+symbols
+	PublicRelease_1_2e:1.10
+	Interim_Release_1-2e_RC1:1.10
+	PublicRelease_1_2d:1.10
+	Interim_Release_1-2d_RC1:1.10
+	Interim_Release_1-2d_beta1:1.10
+	PublicRelease_1_2c:1.10
+	Interim_Release_1-2c_RC1:1.10
+	Interim_Release_1-2c_beta1:1.10
+	PublicRelease_1_2b:1.10
+	Interim_Release_1-2b_RC1:1.10
+	PublicRelease_1_2a:1.10
+	Interim_Release_1-2a_RC1:1.10
+	Interim_Release_1-2a_beta2:1.10
+	Interim_Release_1-2a_beta1:1.9
+	PublicRelease_1_2:1.9
+	Interim_Release_1-2_RC1:1.9
+	Interim_Release_1-2_beta1:1.9
+	PublicRelease_1_1g:1.9
+	Interim_Release_1-1g_RC3:1.9
+	Interim_Release_1-1g_RC2:1.9
+	Interim_Release_1-1g_RC1:1.9
+	Interim_Release_1-1g_beta2:1.9
+	Interim_Release_1-1g_beta1:1.9
+	PublicRelease_1_1f:1.9
+	Interim_Release_1-1f_RC1:1.9
+	PublicRelease_1_1e:1.9
+	Interim_Release_1-1e_RC2:1.9
+	Interim_Release_1-1e_RC1:1.9
+	Interim_Release_1-1e_beta1:1.9
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.9
+	Interim_Release_1-1b_RC1:1.9
+	PublicRelease_1_1a:1.9
+	Interim_Release_1-1a_RC2:1.9
+	Interim_Release_1-1a_RC1:1.9
+	Interim_Release_1-1a_beta2:1.9
+	Interim_Release_1-1a_beta1:1.9
+	PublicRelease_1_1:1.9
+	Interim_Release_1-1_beta1:1.9
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.6
+	Interim_Release_1n_RC2:1.6
+	Interim_Release_1n_RC1:1.6
+	Interim_Release_1n_beta2:1.6
+	PublicRelease_1m:1.6
+	Interim_Release_1m_beta1:1.6
+	PublicRelease_1l:1.6
+	Interim_Release_1l_RC3:1.6
+	Interim_Release_1l_RC2:1.6
+	Interim_Release_1l_RC1:1.6
+	Interim_Release_1l_beta2:1.6
+	Interim_Release_1l_beta1:1.6
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.5
+	PublicRelease_1j:1.5
+	Interim_Release_1J_RC3:1.5
+	Interim_Release_1j_RC3:1.5
+	Interim_Release_1j_RC2:1.5
+	Interim_Release_1j_RC1:1.5
+	Interim_Release_1j_beta2:1.5
+	Interim_Release_1j_beta1:1.5
+	PublicRelease_1i:1.5
+	Interim_Release_1i_RC6:1.5
+	Interim_Release_1i_RC3:1.5
+	Interim_Release_1i_RC2:1.5
+	Interim_Release_1i_RC1:1.5
+	Interim_Release_1i_beta3:1.5
+	Interim_Release_1i_beta2:1.5
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.10
+date	2006.05.19.04.07.27;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.10.05.15.41.21;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.10.04.22.50.49;	author kush_eplus;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.10.01.04.44.26;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.04.22.18.06.44;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.24.01.21.22;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.05.07.24.39;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.23.16.52.53;	author morevit;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.23.00.32.24;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@Reduced H-file dependency.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+// FileDetails.h : header file
+#pragma once
+
+#include "FDGeneral.h"
+#include "FDTransfer.h"
+#include "FDSrcNames.h"
+#include "FDParts.h"
+#include "FDAviInfo.h"
+
+class CPartFile;
+
+/////////////////////////////////////////////////////////////////////////////
+// CFileDetails
+class CFileDetails : public CPropertySheet
+{
+	DECLARE_DYNAMIC(CFileDetails)
+
+public:
+	CFileDetails(UINT nIDCaption, CPartFile* pFile, CWnd* pParentWnd = NULL, UINT iSelectPage = 0);
+	CFileDetails(LPCTSTR pszCaption, CPartFile* pFile, CWnd* pParentWnd = NULL, UINT iSelectPage = 0);
+	virtual ~CFileDetails();
+	virtual BOOL OnInitDialog();
+
+	void Init(CPartFile* pFile);
+
+protected:
+	CFDGeneral	m_wndGeneral;
+	CFDTransfer	m_wndTransfer;
+	CFDSrcNames	m_wndSourceNames;
+	CFDAviInfo	m_wndAviInfo;
+	CFDParts	m_wndParts;
+
+	UINT		m_nTimer;
+
+	CString		m_strGeneralTitle;
+	CString		m_strTransferTitle;
+	CString		m_strSourceNamesTitle;
+	CString		m_strAviInfoTitle;
+	CString		m_strPartsTitle;
+
+protected:
+	DECLARE_MESSAGE_MAP()
+
+public:
+	afx_msg void OnTimer(UINT nIDEvent);
+	afx_msg void OnDestroy();
+};
+@
+
+
+1.9
+log
+@Removed not-existed methods (somebody has broken comparison utility ;).
+@
+text
+@d1 16
+a17 1
+//
+a19 5
+#include "..\resource.h"
+#include "..\PartFile.h"
+#include "..\MuleListCtrl.h"
+#include "afxwin.h"
+
+d26 2
+a29 1
+
+a33 1
+// Construction
+a56 7
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CFileDetails)
+	public:
+	protected:
+	//}}AFX_VIRTUAL
+
+a57 2
+	//{{AFX_MSG(CFileDetails)
+	//}}AFX_MSG
+d59 1
+@
+
+
+1.8
+log
+@updated and enabled file details Parts code
++ code formatting
+@
+text
+@a30 2
+	void Update();
+	void Localize();
+@
+
+
+1.7
+log
+@Cleanup.
+@
+text
+@d31 2
+d35 1
+a35 1
+	CFDGeneral	m_proppageGeneral;
+d38 1
+a39 1
+	CFDAviInfo	m_wndAviInfo;
+@
+
+
+1.6
+log
+@Unrequired class member removal.
+@
+text
+@a0 6
+#if !defined(AFX_FILEDETAILS_H__4805DC73_A051_46B8_8E38_2C45C876E923__INCLUDED_)
+#define AFX_FILEDETAILS_H__4805DC73_A051_46B8_8E38_2C45C876E923__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+d3 1
+d27 1
+a30 2
+	void Update();
+	void Localize();
+a53 5
+// Implementation
+public:
+	virtual ~CFileDetails();
+
+	// Generated message map functions
+a61 8
+
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+
+#endif // !defined(AFX_FILEDETAILS_H__4805DC73_A051_46B8_8E38_2C45C876E923__INCLUDED_)
+@
+
+
+1.5
+log
+@Formatting, comments, and name changes.
+@
+text
+@a44 1
+	CPartFile*	m_pFile;
+@
+
+
+1.4
+log
+@Localization update
+@
+text
+@d39 1
+a39 1
+	CFDGeneral	m_wndGeneral;
+@
+
+
+1.3
+log
+@new dialogs for file- & client-details
+@
+text
+@d48 6
+@
+
+
+1.2
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@a12 3
+#include "ScrollStatic.h"
+#include "PartsChecker.h"	// CFDParts
+#include "Separator.h"		// CFDAviInfo
+d15 5
+a19 267
+/////////////////////////////////////////////////////////////////////////////
+// CFDGeneral dialog
+
+class CFDGeneral : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CFDGeneral)
+
+// Construction
+public:
+	CFDGeneral();
+	~CFDGeneral();
+
+	void UpdateData();
+
+	CPartFile* m_pFile;
+
+// Dialog Data
+	//{{AFX_DATA(CFDGeneral)
+	enum { IDD = IDD_FDPPG_GENERAL };
+	CScrollStatic	m_ctrlPartfileStatus;
+	CScrollStatic	m_ctrlMetFile;
+	CScrollStatic	m_ctrlHash;
+	CScrollStatic	m_ctrlFolder;
+	CScrollStatic	m_ctrlFiletype;
+	CScrollStatic	m_ctrlFilesize;
+	CScrollStatic	m_ctrlDescription;
+	CScrollStatic	m_ctrlCategory;
+	CStatic			m_ctrlFileIcon;
+	CEdit			m_ctrlFilename;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CFDGeneral)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	HICON m_hFileIcon;
+
+	// Generated message map functions
+	//{{AFX_MSG(CFDGeneral)
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnBnClickedCommentsBtn();
+	virtual BOOL OnInitDialog();
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDParts dialog
+
+class CFDParts : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CFDParts)
+
+// Construction
+public:
+	CFDParts();
+	~CFDParts();
+
+	void UpdateData();
+
+	CPartFile* m_pFile;
+
+// Dialog Data
+	//{{AFX_DATA(CFDParts)
+	enum { IDD = IDD_FDPPG_PARTS };
+	CPartsChecker	m_ctrlParts;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CFDParts)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+		
+	// Generated message map functions
+	//{{AFX_MSG(CFDParts)
+	virtual BOOL OnInitDialog();
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDTransfer dialog
+
+class CFDTransfer : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CFDTransfer)
+
+// Construction
+public:
+	CFDTransfer();
+	~CFDTransfer();
+
+	void UpdateData();
+
+	CPartFile* m_pFile;
+
+// Dialog Data
+	//{{AFX_DATA(CFDTransfer)
+	enum { IDD = IDD_FDPPG_TRANSFER };
+	CScrollStatic	m_ctrlTransferingSources;
+	CScrollStatic	m_ctrlTransfered;
+	CScrollStatic	m_ctrlPartCnt;
+	CScrollStatic	m_ctrlLastSeenComplete;
+	CScrollStatic	m_ctrlICHrecovered;
+	CScrollStatic	m_ctrlFoundSources;
+	CScrollStatic	m_ctrlDatarate;
+	CScrollStatic	m_ctrlCompletedSize;
+	CScrollStatic	m_ctrlAvailableParts;
+	CScrollStatic	m_ctrlLastReception;
+	CScrollStatic	m_ctrlCompPerc;
+	CScrollStatic	m_ctrlCorruptionLoss;
+	CScrollStatic	m_ctrlCompressionGain;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CFDTransfer)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	// Generated message map functions
+	//{{AFX_MSG(CFDTransfer)
+		// NOTE: the ClassWizard will add member functions here
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+public:
+	virtual BOOL OnInitDialog();
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDAviInfo dialog
+
+class CFDAviInfo : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CFDAviInfo)
+
+// Construction
+public:
+	CFDAviInfo();
+	~CFDAviInfo();
+
+// Dialog Data
+	//{{AFX_DATA(CFDAviInfo)
+	enum { IDD = IDD_FDPPG_AVIINFO };
+	CScrollStatic	m_ctrlWidth;
+	CScrollStatic	m_ctrlVideoCodec;
+	CScrollStatic	m_ctrlVideoBitrate;
+	CScrollStatic	m_ctrlSamplerate;
+	CScrollStatic	m_ctrlHeight;
+	CScrollStatic	m_ctrlFPS;
+	CScrollStatic	m_ctrlChannel;
+	CScrollStatic	m_ctrlAudioCodec;
+	CScrollStatic	m_ctrlAudioBitrate;
+	CScrollStatic	m_ctrlFilesize;
+	CScrollStatic	m_ctrlFilelength;
+	CSeparator		m_ctrlVideoLbl;
+	CSeparator		m_ctrlPictureLbl;
+	CSeparator		m_ctrlAudioLbl;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CFDAviInfo)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	// Generated message map functions
+	//{{AFX_MSG(CFDAviInfo)
+		// NOTE: the ClassWizard will add member functions here
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+
+public:
+	void UpdateData();
+	void Localize();
+
+	CPartFile* m_pFile;
+	long m_lAbitrate;
+	BOOL m_bARoundBitrate;
+	
+	virtual BOOL OnInitDialog();
+	afx_msg void OnBnClickedRoundbitrateBtn();
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDSrcNames dialog
+
+class CFDSrcNames : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CFDSrcNames)
+
+// Construction
+public:
+	CFDSrcNames();
+	~CFDSrcNames();
+
+	void UpdateData();
+
+	CPartFile* m_pFile;
+
+// Dialog Data
+	//{{AFX_DATA(CFDSrcNames)
+	enum { IDD = IDD_FDPPG_SOURCENAMES };
+		// NOTE - ClassWizard will add data members here.
+		//    DO NOT EDIT what you see in these blocks of generated code !
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CFDSrcNames)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	// Generated message map functions
+	//{{AFX_MSG(CFDSrcNames)
+		// NOTE: the ClassWizard will add member functions here
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+
+	static int CALLBACK CompareListNameItems(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);	// Juanjo
+
+private:
+	void FillSourcenameList();
+	
+
+	CMuleListCtrl* m_lstSources;
+	bool m_bSortAscending[2];
+public:
+	afx_msg void OnLvnColumnclick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnNMDblclkList(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnNMRclickList(NMHDR *pNMHDR, LRESULT *pResult);
+	virtual BOOL OnCommand(WPARAM wParam,LPARAM lParam );
+
+	CButton m_ctrlTakeOver;
+	CButton m_ctrlCleanUp;
+	CButton m_ctrlRename;
+	afx_msg void OnBnClickedRename();
+	afx_msg void OnBnClickedCleanup();
+	afx_msg void OnBnClickedFdsTakeover();
+	CEdit m_ctrlFilename;
+	virtual BOOL OnInitDialog();
+};
+d35 1
+a35 1
+	void UpdateData();
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d44 1
+a44 1
+	CScrollStatic	m_ctrlCategorie;
+@
+

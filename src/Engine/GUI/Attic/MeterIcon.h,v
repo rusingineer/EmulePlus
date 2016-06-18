@@ -1,0 +1,85 @@
+head	1.2;
+access;
+symbols
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2004.12.26.15.45.33;	author kuchin;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.21.14.02.37;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Rearrangements
+@
+text
+@// MeterIcon.h															12.12.03
+//------------------------------------------------------------------------------
+#ifndef __METERICON_H__B617C08B_2D12_4140_B845_0AB44DA72EFF__INCLUDED_
+#define __METERICON_H__B617C08B_2D12_4140_B845_0AB44DA72EFF__INCLUDED_
+
+HICON CreateMeterIcon(UINT nBaseIcon, 
+ 					  int cx, int cy,
+					  int iMaxVal, int iCurVal, 
+					  COLORREF crMeter, COLORREF crBorder);
+
+#endif	// #ifndef __METERICON_H__B617C08B_2D12_4140_B845_0AB44DA72EFF__INCLUDED_
+@
+
+
+1.1
+log
+@gui
+@
+text
+@@
+

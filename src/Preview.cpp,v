@@ -1,0 +1,1048 @@
+head	1.30;
+access;
+symbols
+	PublicRelease_1_2e:1.30
+	Interim_Release_1-2e_RC1:1.30
+	PublicRelease_1_2d:1.29
+	Interim_Release_1-2d_RC1:1.29
+	Interim_Release_1-2d_beta1:1.29
+	PublicRelease_1_2c:1.26
+	Interim_Release_1-2c_RC1:1.26
+	Interim_Release_1-2c_beta1:1.26
+	PublicRelease_1_2b:1.26
+	Interim_Release_1-2b_RC1:1.26
+	PublicRelease_1_2a:1.26
+	Interim_Release_1-2a_RC1:1.26
+	Interim_Release_1-2a_beta2:1.25
+	Interim_Release_1-2a_beta1:1.24
+	PublicRelease_1_2:1.22
+	Interim_Release_1-2_RC1:1.22
+	Interim_Release_1-2_beta1:1.22
+	PublicRelease_1_1g:1.20
+	Interim_Release_1-1g_RC3:1.20
+	Interim_Release_1-1g_RC2:1.20
+	Interim_Release_1-1g_RC1:1.20
+	Interim_Release_1-1g_beta2:1.18
+	Interim_Release_1-1g_beta1:1.18
+	PublicRelease_1_1f:1.18
+	Interim_Release_1-1f_RC1:1.18
+	PublicRelease_1_1e:1.18
+	Interim_Release_1-1e_RC2:1.18
+	Interim_Release_1-1e_RC1:1.18
+	Interim_Release_1-1e_beta1:1.18
+	PublicRelease_1_1d:1.18
+	Interim_Release_1-1d_RC1:1.18
+	PublicRelease_1_1c:1.18
+	Interim_Release_1-1c_RC1:1.18
+	Interim_Release_1-1c_beta2:1.18
+	Interim_Release_1-1c_beta1:1.18
+	PublicRelease_1_1b:1.18
+	Interim_Release_1-1b_RC1:1.18
+	PublicRelease_1_1a:1.18
+	Interim_Release_1-1a_RC2:1.18
+	Interim_Release_1-1a_RC1:1.18
+	Interim_Release_1-1a_beta2:1.18
+	Interim_Release_1-1a_beta1:1.18
+	PublicRelease_1_1:1.18
+	Interim_Release_1-1_beta1:1.18
+	PublicRelease_1o:1.18
+	Interim_Release_1o_RC1:1.18
+	Interim_Release_1o_beta1:1.18
+	PublicRelease_1n:1.18
+	Interim_Release_1n_RC2:1.18
+	Interim_Release_1n_RC1:1.18
+	Interim_Release_1n_beta2:1.16
+	Interim_Release_1n_beta1:1.16
+	PublicRelease_1m:1.16
+	Interim_Release_1m_beta1:1.16
+	PublicRelease_1l:1.16
+	Interim_Release_1l_RC3:1.16
+	Interim_Release_1l_RC2:1.16
+	Interim_Release_1l_RC1:1.16
+	Interim_Release_1l_beta2:1.16
+	Interim_Release_1l_beta1:1.15
+	PublicRelease_1k:1.14
+	Interim_Release_1k_RC4:1.14
+	Interim_1k_RC3:1.14
+	Interim_1k_RC2:1.14
+	Interim_Release_1k_RC1:1.14
+	Interim_Release_1k_beta5:1.14
+	Intrerim_Release_1k_beta4:1.14
+	Interim_Release_1k_beta1:1.14
+	PublicRelease_1j:1.13
+	Interim_Release_1J_RC3:1.13
+	Interim_Release_1j_RC3:1.13
+	Interim_Release_1j_RC2:1.13
+	Interim_Release_1j_RC1:1.13
+	Interim_Release_1j_beta2:1.13
+	Interim_Release_1j_beta1:1.13
+	PublicRelease_1i:1.13
+	Interim_Release_1i_RC6:1.13
+	Interim_Release_1i_RC3:1.13
+	Interim_Release_1i_RC2:1.13
+	Interim_Release_1i_RC1:1.13
+	Interim_Release_1i_beta3:1.12
+	Interim_Release_1i_beta2:1.12
+	Interim_Release_1i_beta1:1.11
+	PublicRelease_1h:1.7
+	Interim_Release_1h_rc2:1.7
+	Interim_Release_1h_RC1:1.7
+	Interim_Release_1h_beta2:1.7
+	Interim_Release_1h_beta1_now:1.7
+	Interim_Release_1h_beta1:1.7
+	PublicRelease_1g:1.7
+	Interim_Release_1g_RC6_Final:1.7
+	Interim_Release_1g_RC6:1.7
+	Interim_Release_1g_RC5:1.7
+	Interim_Release_1g_RC4:1.7
+	Interim_Release_1g_RC3:1.7
+	Interim_Release_1g_beta2:1.5
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.5
+	Interim_Release_1f_RC3:1.5
+	Interim_Release_1f_RC2:1.5
+	Interim_Release_1f_RC:1.5
+	Interim_Release_1f_beta2:1.5
+	Interim_Release_1f_beta1:1.5
+	PublicRelease_1e:1.5
+	Interim_Release_1e_RC2:1.5
+	Interim_Release_1e_RC:1.5
+	Interim_Release_1e_beta3:1.5
+	Interim_Release_1e_beta2:1.5
+	Interim_Release_1e_beta2_before_kuchin:1.5
+	Interim_Release_1e_beta1:1.5
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.6
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.4
+	PublicRelease_1b:1.4
+	Interim_Release_1b_beta2:1.4
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.4.0.2
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.3
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.3
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.30
+date	2008.09.29.04.51.54;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2008.01.31.22.50.31;	author eklmn;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2008.01.20.16.20.53;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2007.12.30.05.58.59;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.09.02.03.15.28;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.05.22.03.45.00;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2006.04.26.11.57.28;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2006.04.22.21.58.08;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2006.01.15.19.31.53;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.01.06.20.05.54;	author kush_eplus;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.11.27.22.11.49;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.08.20.22.10.01;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.08.20.07.37.36;	author eklmn;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.05.19.19.49.35;	author netwolf1;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.05.03.09.59.44;	author netwolf1;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.02.11.04.13.00;	author katsyonak;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.11.02.10.00.59;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.10.02.14.26.00;	author dongato;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.19.14.42.46;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.19.00.13.38;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.28.09.17.44;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.28.08.30.17;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.28.14.08.40;	author moosetea;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.26.21.12.34;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2003.01.24.22.07.49;	author maverick65;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.02.28.22.44.55;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.30
+log
+@Removed unrequired check round delete operator.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2008 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "Preview.h"
+#include "PartFile.h"
+#include "otherfunctions.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNCREATE(CPreviewThread, CWinThread)
+
+CPreviewThread::CPreviewThread() : m_strPlayerCmd(_T("")), m_strPlayerArgs(_T(""))
+{
+}
+
+CPreviewThread::~CPreviewThread()
+{
+}
+
+BOOL CPreviewThread::InitInstance()
+{
+	g_App.m_pPrefs->InitThreadLocale();
+	return true;
+}
+
+BOOL CPreviewThread::Run()
+{
+	ASSERT (m_pPartFile);
+	CFile* srcFile = NULL;
+	CFile destFile;
+
+	try
+	{
+		srcFile = m_pPartFile->GetPartFileHandle().Duplicate();
+		CString strExtension = m_pPartFile->GetFileExtension();
+		CString strPreviewName = m_pPartFile->GetTempDir() + _T("\\") + m_pPartFile->GetFileName().Mid(0, 10) + _T("_preview.") + strExtension;
+		bool bFullSized = true;
+		if (strExtension == _T("mpg") || strExtension == _T("mpeg"))
+			bFullSized = false;
+		destFile.Open(strPreviewName, CFile::modeWrite | CFile::shareDenyWrite | CFile::modeCreate);
+		srcFile->SeekToBegin();
+		if (bFullSized)
+			destFile.SetLength(m_pPartFile->GetFileSize());
+		destFile.SeekToBegin();
+		BYTE abyBuffer[4096];
+
+		uint32 nRead;
+		while (destFile.GetPosition()+4096 < PARTSIZE*2)
+		{
+			nRead = srcFile->Read(abyBuffer, 4096);
+			destFile.Write(abyBuffer, nRead);
+		}
+
+		srcFile->Seek(-static_cast<LONGLONG>(PARTSIZE * 2), CFile::end);
+		uint32 nToGo = PARTSZ32 * 2;
+		if (bFullSized)
+			destFile.Seek(-static_cast<LONGLONG>(PARTSIZE * 2), CFile::end);
+		do
+		{
+			nRead = ((nToGo - 4096) < 1) ? nToGo : 4096;
+			nToGo -= nRead;
+			nRead = srcFile->Read(abyBuffer, 4096);
+			destFile.Write(abyBuffer, nRead);
+		}
+		while (nToGo);
+
+		destFile.Close();
+		srcFile->Close();
+		m_pPartFile->m_bPreviewing = false;
+		SHELLEXECUTEINFO SE;			// Why so complicated and not just a 'simple' ShellExecute(...)??
+		memzero(&SE, sizeof(SE));
+		SE.fMask = SEE_MASK_NOCLOSEPROCESS;
+		if (!m_strPlayerCmd.IsEmpty())
+		{
+			CString	strArgs(m_strPlayerArgs);
+			CString	strRunDir(m_strPlayerCmd);
+			int		iSpace, i = strRunDir.ReverseFind(_T('\\'));
+
+			strRunDir.Truncate((i >= 0) ? (i + 1) : 0);
+
+			if (!strArgs.IsEmpty())
+				strArgs += _T(' ');
+			iSpace = strPreviewName.Find(_T(' '));
+			if (iSpace >= 0)
+				strArgs += _T('\"');
+			strArgs += strPreviewName;
+			if (iSpace >= 0)
+				strArgs += _T('\"');
+
+			SE.lpVerb = _T("open");
+			SE.lpFile = m_strPlayerCmd.GetString();
+			SE.lpParameters = strArgs.GetString();
+			SE.lpDirectory = strRunDir.GetString();
+		}
+		else
+		{
+			SE.lpVerb = NULL;	// use the default verb or the open verb for the document
+			SE.lpFile = strPreviewName.GetString();
+		}
+		SE.nShow = SW_SHOW;
+		SE.cbSize = sizeof(SE);
+		ShellExecuteEx(&SE);
+		if (SE.hProcess)
+		{
+			WaitForSingleObject(SE.hProcess, INFINITE);
+			DWORD dwExitCode;
+			do
+			{
+				Sleep(300);
+				GetExitCodeProcess(SE.hProcess,&dwExitCode);
+			}
+			while(dwExitCode == STILL_ACTIVE);
+			CloseHandle(SE.hProcess);
+		}
+		CFile::Remove(strPreviewName);
+	}
+	catch(CFileException* error)
+	{
+		m_pPartFile->m_bPreviewing = false;
+		if (srcFile->m_hFile != INVALID_HANDLE_VALUE)
+			srcFile->Close();
+		if (destFile.m_hFile != INVALID_HANDLE_VALUE)
+			destFile.Close();
+		error->Delete();
+	}
+	delete srcFile;
+	AfxEndThread(0,true);
+	return 0;
+}
+
+void CPreviewThread::SetValues(CPartFile* pPartFile, const CString &strCmd, const CString &strCmdArgs)
+{
+	m_pPartFile = pPartFile;
+	m_strPlayerCmd = strCmd;
+	m_strPlayerArgs = strCmdArgs;
+}
+
+BEGIN_MESSAGE_MAP(CPreviewThread, CWinThread)
+END_MESSAGE_MAP()
+@
+
+
+1.29
+log
+@changed the intialization of thread locale
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+a17 3
+// Preview.cpp : implementation file
+//
+
+d49 1
+a49 1
+	CFile* srcFile = 0;
+d146 1
+a146 2
+	if (srcFile)
+		delete srcFile;
+@
+
+
+1.28
+log
+@Added Video Player parameters {glaskrug/Lastwebpage} -- at this moment only manual configuration in preferences.ini "VideoPlayerArgs";
+Don't convert name into 8.3 format, pass full name to the player; Improved string processing.
+@
+text
+@d43 6
+d54 3
+a56 1
+	try{
+@
+
+
+1.27
+log
+@Better compatibility to run default system preview application (original) -- when player is not specified;
+Preparation to add player parameters; Proper passing player parameters to a thread.
+@
+text
+@d51 1
+a51 1
+		CString strPreviewName = CString(m_pPartFile->GetTempDir()) + _T("\\") + CString(m_pPartFile->GetFileName()).Mid(0,5) + _T("_preview.") + strExtension;
+d90 3
+a92 1
+			TCHAR	acShortPath[512];
+d94 1
+a94 1
+			GetShortPathName(strPreviewName, acShortPath, 512);
+d96 8
+a103 2
+			CString	strRunDir(m_strPlayerCmd);
+			int		i = strRunDir.ReverseFind(_T('\\'));
+a104 1
+			strRunDir = (i >= 0) ? strRunDir.Left(i + 1) : _T("");
+d107 1
+a107 1
+			SE.lpParameters = acShortPath;
+@
+
+
+1.26
+log
+@Large file size support preparations.
+@
+text
+@d35 1
+a35 1
+CPreviewThread::CPreviewThread()
+d88 1
+a88 3
+		SE.lpVerb = _T("open");
+		CString player=g_App.m_pPrefs->GetVideoPlayer();
+		if (!player.IsEmpty())
+d94 1
+a94 1
+			CString	strRunDir = player;
+d98 2
+a99 1
+			SE.lpFile = player.GetString();
+d104 2
+d107 1
+d140 1
+a140 1
+void CPreviewThread::SetValues(CPartFile* pPartFile,CString player)
+d143 2
+a144 1
+	m_player = player;
+@
+
+
+1.25
+log
+@Large file size support preparations.
+@
+text
+@d69 1
+a69 1
+		srcFile->Seek(-(PARTSIZE*2), CFile::end);
+d72 1
+a72 1
+			destFile.Seek(-(PARTSIZE*2), CFile::end);
+@
+
+
+1.24
+log
+@Reduced H-file dependency.
+@
+text
+@a49 1
+		uint32 nSize = m_pPartFile->GetFileSize();
+d58 1
+a58 1
+			destFile.SetLength(nSize);
+d65 2
+a66 2
+			nRead = srcFile->Read(abyBuffer,4096);
+			destFile.Write(abyBuffer,nRead);
+d69 1
+a69 1
+		srcFile->Seek(-(PARTSIZE*2),CFile::end);
+d72 1
+a72 1
+			destFile.Seek(-(PARTSIZE*2),CFile::end);
+@
+
+
+1.23
+log
+@Large file size support preparations.
+@
+text
+@d24 1
+a32 2
+// CPreview
+
+d88 1
+a88 1
+		SE.fMask = SEE_MASK_NOCLOSEPROCESS ;
+d123 1
+a123 1
+	}	
+d131 1
+a131 1
+		error->Delete();	//mf
+a146 2
+
+// CPreview message handlers
+@
+
+
+1.22
+log
+@Corrected file sharing mode to allow read-only access to a preview file
+(when 'Create backup to preview' is enabled).
+@
+text
+@d72 1
+a72 1
+		uint32 nToGo =PARTSIZE*2;
+d77 1
+a77 1
+			nRead = (nToGo - 4096 < 1)? nToGo:4096;
+d79 2
+a80 2
+			nRead = srcFile->Read(abyBuffer,4096);
+			destFile.Write(abyBuffer,nRead);
+@
+
+
+1.21
+log
+@UNICODE preparation (first shot)
+@
+text
+@d46 1
+a46 2
+
+	ASSERT (m_pPartFile) ;
+d57 1
+a57 1
+		destFile.Open(strPreviewName, CFile::modeWrite | CFile::shareExclusive | CFile::modeCreate);
+d111 2
+a112 1
+		if (SE.hProcess){
+d123 1
+a123 1
+		CFile::Remove(strPreviewName.GetBuffer());
+@
+
+
+1.20
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d95 1
+a95 2
+			char shortPath[512];
+			GetShortPathName(strPreviewName,shortPath,512);
+d97 9
+a105 6
+			CString runDir=player;
+			int i=runDir.ReverseFind('\\');
+			runDir=(i>=0)?runDir.Left(i+1):_T("");
+			SE.lpFile = player.GetBuffer();
+			SE.lpParameters=shortPath;
+			SE.lpDirectory=runDir.GetBuffer();
+d108 1
+a108 1
+			SE.lpFile = strPreviewName.GetBuffer();
+@
+
+
+1.19
+log
+@renamed 3 variables
+@
+text
+@d92 1
+a92 1
+		CString player=g_App.g_pPrefs->GetVideoPlayer();
+@
+
+
+1.18
+log
+@Fixed error created by the previous optimization; Improved string processing.
+@
+text
+@d92 1
+a92 1
+		CString player=g_eMuleApp.m_pGlobPrefs->GetVideoPlayer();
+@
+
+
+1.17
+log
+@optimization in processing of file extension
+@
+text
+@d54 1
+a54 1
+		CString strPreviewName = CString(m_pPartFile->GetTempDir())+ CString("\\") + CString(m_pPartFile->GetFileName()).Mid(0,5) + CString("_preview.") + strExtension;
+d56 1
+a56 1
+		if (strExtension != _T("mpg") || strExtension != _T("mpeg"))
+@
+
+
+1.16
+log
+@minor changes (SetDownloadState(...), exception handling)
+@
+text
+@d53 2
+a54 2
+		CString strExtension = GetFileExtension(m_pPartFile->GetFileName());
+		CString strPreviewName = CString(m_pPartFile->GetTempDir())+ CString("\\") + CString(m_pPartFile->GetFileName()).Mid(0,5) + CString("_preview") + strExtension;
+d56 1
+a56 1
+		if (!strExtension.CompareNoCase(_T(".mpg")) || !strExtension.CompareNoCase(_T(".mpeg")))
+@
+
+
+1.15
+log
+@minor changes (Partfile --> PartFile...)
+@
+text
+@d88 1
+a88 1
+		SHELLEXECUTEINFO SE;
+@
+
+
+1.14
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d47 1
+a47 1
+	ASSERT (m_pPartfile) ;
+d51 4
+a54 4
+		srcFile = m_pPartfile->GetPartFileHandle().Duplicate();
+		uint32 nSize = m_pPartfile->GetFileSize();
+		CString strExtension = GetFileExtension(m_pPartfile->GetFileName());
+		CString strPreviewName = CString(m_pPartfile->GetTempDir())+ CString("\\") + CString(m_pPartfile->GetFileName()).Mid(0,5) + CString("_preview") + strExtension;
+d87 1
+a87 1
+		m_pPartfile->m_bPreviewing = false;
+d125 1
+a125 1
+		m_pPartfile->m_bPreviewing = false;
+d140 1
+a140 1
+	m_pPartfile = pPartFile;
+@
+
+
+1.13
+log
+@Fix for Video Player problem
+@
+text
+@d89 1
+a89 1
+		memset2(&SE,0,sizeof(SE));
+@
+
+
+1.12
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d95 3
+d102 1
+a102 1
+			SE.lpParameters=strPreviewName;
+@
+
+
+1.11
+log
+@Final code merge from official for preview
+@
+text
+@d24 1
+d89 1
+a89 1
+		memset(&SE,0,sizeof(SE));
+@
+
+
+1.10
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d43 2
+a44 1
+BOOL CPreviewThread::Run(){
+d64 4
+a67 2
+		uint32 nRead = srcFile->Read(abyBuffer,4096);
+		while (nRead && (destFile.GetPosition()+4096 < PARTSIZE*2)){
+a68 1
+			nRead = srcFile->Read(abyBuffer,4096);
+d71 10
+a80 12
+		if (srcFile->GetLength() > PARTSIZE*2){
+			srcFile->Seek(-(PARTSIZE*2),CFile::end);
+			uint32 nToGo =PARTSIZE*2;
+			if (bFullSized)
+				destFile.Seek(-(PARTSIZE*2),CFile::end);
+			do{
+				nRead = (nToGo - 4096 < 1)? nToGo:4096;
+				nToGo -= nRead;
+				nRead = srcFile->Read(abyBuffer,4096);
+				destFile.Write(abyBuffer,nRead);
+			}
+			while (nToGo);
+d82 1
+a82 1
+
+d92 2
+a93 3
+		if (!player.IsEmpty()) {
+			TCHAR shortPath[MAX_PATH]; //Cax2 short path for vlc
+			GetShortPathName(strPreviewName,shortPath,MAX_PATH);
+d98 1
+a98 1
+			SE.lpParameters=shortPath;
+d109 2
+a110 1
+			do{
+d113 2
+a114 1
+			}while(dwExitCode == STILL_ACTIVE);
+d119 2
+a120 1
+	catch(CFileException* error){
+d134 2
+a135 1
+void CPreviewThread::SetValues(CPartFile* pPartFile){
+d137 1
+a141 1
+
+@
+
+
+1.9
+log
+@Second batch of name changes
+@
+text
+@d91 1
+a91 1
+		CString player=theApp.glob_prefs->GetVideoPlayer();
+@
+
+
+1.8
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d49 1
+a49 1
+		srcFile = m_pPartfile->m_hPartFile.Duplicate();
+@
+
+
+1.7
+log
+@use GetFileExtension helper function
+@
+text
+@d49 1
+a49 1
+		srcFile = m_pPartfile->m_hpartfile.Duplicate();
+@
+
+
+1.6
+log
+@unicode cleanup
+@
+text
+@d51 1
+a51 1
+		CString strExtension = CString(strrchr(m_pPartfile->GetFileName(), '.'));
+@
+
+
+1.5
+log
+@BUGFIX : Freeze when previewing mpegs less than 2 parts
+@
+text
+@d54 1
+a54 1
+		if (!strExtension.CompareNoCase(".mpg") || !strExtension.CompareNoCase(".mpeg"))
+d90 1
+a90 1
+		SE.lpVerb = "open";
+d93 2
+a94 2
+			char shortPath[512]; //Cax2 short path for vlc
+			GetShortPathName(strPreviewName,shortPath,512);
+d97 1
+a97 1
+			runDir=(i>=0)?runDir.Left(i+1):"";
+@
+
+
+1.4
+log
+@minor graphic details bugfixed, now preview player selection same as official
+@
+text
+@d62 4
+a65 2
+		uint32 nRead;
+		while (destFile.GetPosition()+4096 < PARTSIZE*2){
+a66 1
+			destFile.Write(abyBuffer,nRead);
+d68 13
+a80 9
+		srcFile->Seek(-(PARTSIZE*2),CFile::end);
+		uint32 nToGo =PARTSIZE*2;
+		if (bFullSized)
+			destFile.Seek(-(PARTSIZE*2),CFile::end);
+		do{
+			nRead = (nToGo - 4096 < 1)? nToGo:4096;
+			nToGo -= nRead;
+			nRead = srcFile->Read(abyBuffer,4096);
+			destFile.Write(abyBuffer,nRead);
+d82 2
+a83 1
+		while (nToGo);
+@
+
+
+1.3
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a80 1
+
+d85 13
+a97 1
+		SE.lpFile = strPreviewName.GetBuffer();
+@
+
+
+1.3.2.1
+log
+@v1a upgrade
+@
+text
+@d81 1
+d86 1
+a86 13
+		CString player=theApp.glob_prefs->GetVideoPlayer();
+		if (!player.IsEmpty()) {
+			char shortPath[512]; //Cax2 short path for vlc
+			GetShortPathName(strPreviewName,shortPath,512);
+			CString runDir=player;
+			int i=runDir.ReverseFind('\\');
+			runDir=(i>=0)?runDir.Left(i+1):"";
+			SE.lpFile = player.GetBuffer();
+			SE.lpParameters=shortPath;
+			SE.lpDirectory=runDir.GetBuffer();
+		}
+		else
+			SE.lpFile = strPreviewName.GetBuffer();
+@
+
+
+1.2
+log
+@updated to .25b codebase
+@
+text
+@d25 5
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d46 1
+a46 6
+		CString strExtension = CString(m_pPartfile->GetFileName()).Mid(strlen( m_pPartfile->GetFileName())-4,4);
+		//PiTaGoRaS view mpeg/divx (4 lettres)
+		if (strExtension.Left(1) != ".")  { 
+			strExtension = CString(".") + CString(strExtension); 
+		} 
+		//
+@
+

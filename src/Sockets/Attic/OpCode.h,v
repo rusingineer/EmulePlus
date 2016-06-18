@@ -1,0 +1,760 @@
+head	1.15;
+access;
+symbols
+	PublicRelease_1i:1.13
+	Interim_Release_1i_RC6:1.13
+	Interim_Release_1i_RC3:1.12
+	Interim_Release_1i_RC2:1.12
+	Interim_Release_1i_RC1:1.10
+	Interim_Release_1i_beta3:1.10
+	Interim_Release_1i_beta2:1.10
+	Interim_Release_1i_beta1:1.9
+	PublicRelease_1h:1.9
+	Interim_Release_1h_rc2:1.9
+	Interim_Release_1h_RC1:1.9
+	Interim_Release_1h_beta2:1.9
+	Interim_Release_1h_beta1_now:1.5
+	Interim_Release_1h_beta1:1.4
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.15
+date	2003.12.16.17.48.07;	author kuchin;	state dead;
+branches;
+next	1.14;
+
+1.14
+date	2003.12.11.14.32.48;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.12.03.19.28.01;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.11.17.10.24.33;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.11.15.12.31.46;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.10.23.18.50.26;	author uid77509;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.03.11.50.54;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.08.27.09.27.14;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.08.26.16.54.24;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.08.24.06.17.30;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.08.19.06.52.40;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.15.12.51.25;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.15.10.08.19;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.10.14.19.55;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.23.18.06.39;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.15
+log
+@New engine
+@
+text
+@// OpCode.h: interface for the COpCode class.
+//
+//////////////////////////////////////////////////////////////////////
+#ifdef NEW_SOCKETS
+#if !defined(AFX_OPCODE_H__E3263944_435F_44B4_A12E_EAA19AAE08AD__INCLUDED_)
+#define AFX_OPCODE_H__E3263944_435F_44B4_A12E_EAA19AAE08AD__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "TaskProcessor.h"
+#include "Tasks.h"
+#include "../opcodes.h"
+
+struct CEmClient;
+
+const BYTE OP_PROT_EDONKEY	= 0xE3;
+const BYTE OP_PROT_EMULE	= 0xC5;
+const BYTE OP_PROT_PACKED	= 0xD4;
+const BYTE OP_PROT_UNICODE	= 0xAA; // must be agreed
+
+const BYTE OP_TRANSPORT_TCP = 0x00;
+const BYTE OP_TRANSPORT_UDP = 0x01;
+
+const BYTE OP_TAG_DWORD = 3;
+const BYTE OP_TAG_STRING = 2;
+
+struct CTag_Pure { // not a valid class.
+	bool m_bValid;
+	CTag_Pure() : m_bValid(false) {}
+};
+
+struct CTag_DWORD : public CTag_Pure {
+	DWORD m_dwValue;
+	CTag_DWORD() : m_dwValue(0) {}
+};
+
+struct CTag_String : public CTag_Pure {
+	CString m_strValue;
+};
+
+struct CTagEntry {
+	CTag_Pure*	m_pTag;
+	BYTE		m_nType;
+	USHORT		m_nNameLen;
+	DWORD		m_dwName; // either string or number
+};
+
+struct CStream {
+
+	bool m_bUnicode; // reserved for use with our new protocol.
+	CStream() : m_bUnicode(false) {}
+
+	class CException {};
+
+	virtual void Write(PCVOID, DWORD);
+	virtual void Read(PVOID, DWORD);
+	virtual DWORD SizeLeft();
+	void Skip(DWORD);
+
+	static void Exception();
+
+	template <class T> void operator << (const T& stObj) { Write(&stObj, sizeof(stObj)); }
+	template <class T> void operator >> (T& stObj) { Read(&stObj, sizeof(stObj)); }
+	
+	template <> void operator << (const CString& strTxt);
+	template <> void operator >> (CString& strTxt);
+
+	void DumpString(const CString&);
+	void InitString(CString&, USHORT nLen);
+	void InitTrailingString(CString& strTxt);
+
+	template <class T> void DumpArr(const vector<T>& arrValue, int nCounterLen);
+	template <class T> void InitArr(vector<T>& arrValue, int nCounterLen);
+
+	void DumpTags(CTagEntry* pTags, DWORD dwCount);
+	void InitTags(CTagEntry* pTags, DWORD dwCount);
+
+private:
+
+	struct CQuickBuf {
+		BYTE m_pBuf[0x1000]; // usually enough
+		PVOID m_pBufUse;
+		
+		CQuickBuf() : m_pBufUse(m_pBuf) {}
+		~CQuickBuf() { Free(); }
+
+		void Alloc(DWORD dwSize)
+		{
+			Free();
+			if ((dwSize > sizeof(m_pBuf)) &&
+				!(m_pBufUse = new BYTE[dwSize]))
+				CStream::Exception();
+
+		}
+		void Free()
+		{
+			if (m_pBufUse && (m_pBuf != m_pBufUse))
+				delete m_pBufUse;
+			m_pBufUse = m_pBuf;
+		}
+	};
+};
+
+// does not really store info. Just counts
+struct CStream_Measure : public CStream {
+	DWORD m_dwSize;
+	virtual void Write(PCVOID, DWORD);
+
+	inline CStream_Measure() : m_dwSize(0) {}
+};
+
+struct CStream_Mem : public CStream {
+	PBYTE m_pPtr;
+	DWORD m_dwSize;
+	virtual void Write(PCVOID, DWORD);
+	virtual void Read(PVOID, DWORD);
+
+	inline CStream_Mem() : m_pPtr(NULL), m_dwSize(0) {}
+};
+
+struct CStream_MemEx : public CStream {
+	PBYTE m_pPtr;
+	DWORD m_dwSize;
+	DWORD m_dwSizeExtra;
+	virtual void Write(PCVOID, DWORD);
+
+	inline CStream_MemEx() : m_pPtr(NULL), m_dwSize(0), m_dwSizeExtra(0) {}
+};
+
+struct ADDRPORT {
+	ULONG	_Addr;
+	USHORT	_Port;
+};
+
+class COpCode : public CTask_Tcp
+{
+protected:
+
+	virtual void Z_Dump(CStream&) const = 0;
+	virtual void Z_Init(CStream&) = 0;
+	virtual BYTE Z_Protocol() const = 0;
+
+#ifndef OPCODE_SKIP_DBGDUMP
+	struct CDbgDump {
+		CString m_strTxt;
+		void WriteParam(LPCTSTR szName, DWORD dwValue);
+		void WriteParam(LPCTSTR szName, const CString&);
+		void WriteParam(LPCTSTR szName, const ADDRPORT&);
+		void WriteParam(LPCTSTR szName, const void* pBuf, DWORD dwCount, DWORD dwElementSize);
+		void WriteParam(LPCTSTR szName, const CTag_DWORD&);
+		void WriteParam(LPCTSTR szName, const CTag_String&);
+		template <class T> void WriteParam(LPCTSTR szName, const vector<T>&);
+	};
+	virtual void Z_DbgDump(CDbgDump&) const = 0;
+#endif // OPCODE_SKIP_DBGDUMP
+
+	// CTask overridables
+	virtual bool Process(CEmEngine&);
+	virtual bool ProcessForClient(CEmEngine&, CEmClient* pClient) = 0;
+
+public:
+
+	virtual ~COpCode();
+
+	bool Write(CStream&, BYTE nTransport) const;
+	static COpCode* CreateRaw(BYTE nID, BYTE nProtocol, T_CLIENT_TYPE);
+	static COpCode* Read(CStream&, BYTE nID, BYTE nProtocol, T_CLIENT_TYPE eType);
+
+	virtual BYTE GetID() const = 0;
+	DWORD GetSize(BYTE nTransport) const;
+
+#ifndef OPCODE_SKIP_DBGDUMP
+
+	int ShowSelf(bool bMessageBox = true, int nStyle = MB_ICONINFORMATION | MB_OK | MB_TOPMOST);
+
+#endif // OPCODE_SKIP_DBGDUMP
+
+};
+
+
+// declare opcodes
+#define PARAM_DWORD(name)	PARAM_SIMPLE_ORD(name, DWORD)
+#define PARAM_USHORT(name)	PARAM_SIMPLE_ORD(name, USHORT)
+#define PARAM_BYTE(name)	PARAM_SIMPLE_ORD(name, BYTE)
+
+#define PARAM_ADDRPORT(name)	PARAM_SIMPLE(name, ADDRPORT)
+#define PARAM_STRING(name)		PARAM_SIMPLE(name, CString)
+#define PARAM_HASH(name)		PARAM_BUF(name, BYTE, 16)
+
+#define PARAM_INTERNAL_DEFINITION
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+
+#ifndef OPCODE_SKIP_DBGDUMP
+
+#	define BEGIN_OPCODE(id, name, prot, source) \
+	const BYTE OP_CODE_##name = id; \
+	class COpCode_##name : public COpCode { \
+		virtual void Z_Dump(CStream&) const;\
+		virtual void Z_Init(CStream&);\
+		virtual BYTE Z_Protocol() const;\
+		virtual void Z_DbgDump(CDbgDump&) const;\
+		virtual bool ProcessForClient(CEmEngine&, CEmClient* pClient);\
+	public:\
+		virtual BYTE GetID() const;\
+		COpCode_##name();\
+		virtual ~COpCode_##name();\
+
+#else // OPCODE_SKIP_DBGDUMP
+
+#	define BEGIN_OPCODE(id, name, prot, source) \
+	const BYTE OP_CODE_##name = id; \
+class COpCode_##name : public COpCode { \
+	virtual void Z_Dump(CStream&) const;\
+	virtual void Z_Init(CStream&);\
+	virtual BYTE Z_Protocol() const;\
+	virtual bool ProcessForClient(CEmEngine&, CEmClient* pClient);\
+public:\
+	virtual BYTE GetID() const;\
+	COpCode_##name();\
+	virtual ~COpCode_##name();\
+
+#endif // OPCODE_SKIP_DBGDUMP
+
+#define END_OPCODE };
+
+#define OPCODE_PROCESS_UI virtual bool ProcessForUI(CEmEngine&);
+
+#define PARAM_BYTE_JUNK(value)
+#define PARAM_BUF(name, type, count) type _##name[count];
+#define PARAM_SIMPLE(name, type) type _##name;
+#define PARAM_TAGS_BEGIN
+#define PARAM_TAGS_END
+#define PARAM_TAG_STR(name, id) CTag_String _##name;
+#define PARAM_TAG_DWORD(name, id) CTag_DWORD _##name;
+#define PARAM_NTAG_DWORD(name, id) CTag_DWORD _##name;
+#define PARAM_TEXT_TRAILING(name) CString _##name;
+#define PARAM_ARRAY(name, type, counter) vector<type> _##name;
+
+#ifndef OPCODE_SKIP_DBGDUMP
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name) struct CStruct_##name { CStruct_##name(); void Z_Dump(CStream&) const; void Z_Init(CStream&); void Z_DbgDump(CDbgDump&) const;
+#else
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name) struct CStruct_##name { CStruct_##name(); void Z_Dump(CStream&) const; void Z_Init(CStream&);
+#endif // OPCODE_SKIP_DBGDUMP
+
+#define PARAM_COMPLEXARRAY_END(name) }; vector<CStruct_##name> _##name;
+
+#include "EmMsgs.h"
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+
+#undef OPCODE_PROCESS_UI
+#define OPCODE_PROCESS_UI
+
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+#undef PARAM_NTAG_DWORD
+#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_INTERNAL_DEFINITION
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+
+
+#endif // !defined(AFX_OPCODE_H__E3263944_435F_44B4_A12E_EAA19AAE08AD__INCLUDED_)
+#endif@
+
+
+1.14
+log
+@New engine
+@
+text
+@@
+
+
+1.13
+log
+@New sockets
+@
+text
+@d74 2
+a75 2
+	template <class T> void DumpArr(const CArray<T, T&>& arrValue, int nCounterLen);
+	template <class T> void InitArr(CArray<T, T&>& arrValue, int nCounterLen);
+d154 1
+a154 1
+		template <class T> void WriteParam(LPCTSTR szName, const CArray<T, T&>&);
+d239 1
+a239 1
+#define PARAM_ARRAY(name, type, counter) CArray<type, type&> _##name;
+d247 1
+a247 1
+#define PARAM_COMPLEXARRAY_END(name) }; CArray<CStruct_##name, CStruct_##name&> _##name;
+@
+
+
+1.12
+log
+@New sockets
+@
+text
+@d29 21
+d154 1
+a154 2
+		void WriteParam(LPCTSTR szName, const CArray<ADDRPORT, ADDRPORT&>&);
+		void WriteParam(LPCTSTR szName, const CArray<OFFEREDFILE, OFFEREDFILE&>&);
+d241 8
+d268 2
+@
+
+
+1.11
+log
+@New sockets
+@
+text
+@a28 14
+struct CTag_Pure { // not a valid class.
+	bool m_bValid;
+	CTag_Pure() : m_bValid(false) {}
+};
+
+struct CTag_DWORD : public CTag_Pure {
+	DWORD m_dwValue;
+	CTag_DWORD() : m_dwValue(0) {}
+};
+
+struct CTag_String : public CTag_Pure {
+	CString m_strValue;
+};
+
+a55 7
+	struct CTagEntry {
+		CTag_Pure*	m_pTag;
+		BYTE		m_nType;
+		USHORT		m_nNameLen;
+		DWORD		m_dwName; // either string or number
+	};
+
+a115 7
+struct HASHADDRPORT
+{
+	BYTE	_Hash[16];
+	ULONG	_Addr;
+	USHORT	_Port;
+};
+
+d134 1
+a134 1
+		void WriteParam(LPCTSTR szName, const CArray<HASHADDRPORT, HASHADDRPORT&>&);
+d208 1
+a208 1
+#define OPCODE_PROCESS_UI virtual void ProcessForUI(CEmEngine&);
+@
+
+
+1.10
+log
+@New sockets - more server code
+@
+text
+@d137 7
+d162 1
+@
+
+
+1.9
+log
+@New sockets
+@
+text
+@d259 2
+@
+
+
+1.8
+log
+@New sockets. Connecting to server from server list
+@
+text
+@d227 3
+d245 3
+@
+
+
+1.7
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@d176 1
+a176 1
+	int MessageBox(int nStyle = MB_ICONINFORMATION | MB_OK | MB_TOPMOST);
+@
+
+
+1.6
+log
+@New sockets
+@
+text
+@d13 4
+d29 1
+a29 1
+struct CTag { // not a valid class.
+d31 1
+a31 1
+	CTag() : m_bValid(false) {}
+d34 1
+a34 1
+struct CTag_DWORD : public CTag {
+d39 1
+a39 1
+struct CTag_String : public CTag {
+d71 4
+a74 4
+		CTag*	m_pTag;
+		BYTE	m_nType;
+		USHORT	m_nNameLen;
+		DWORD	m_dwName; // either string or number
+d148 7
+a154 7
+		void WriteParam(LPCTSTR szName, DWORD dwValue){}
+		void WriteParam(LPCTSTR szName, const CString&){}
+		void WriteParam(LPCTSTR szName, const ADDRPORT&){}
+		void WriteParam(LPCTSTR szName, const void* pBuf, DWORD dwCount, DWORD dwElementSize){}
+		void WriteParam(LPCTSTR szName, const CTag_DWORD&){}
+		void WriteParam(LPCTSTR szName, const CTag_String&){}
+		void WriteParam(LPCTSTR szName, const CArray<ADDRPORT, ADDRPORT&>&){}
+d168 2
+a169 2
+	static COpCode* CreateFromID(BYTE nID);
+	static COpCode* Read(CStream&, BYTE nID);
+d173 7
+d190 1
+d197 1
+a197 1
+#	define BEGIN_OPCODE(id, name, prot) \
+d212 1
+a212 1
+#	define BEGIN_OPCODE(id, name, prot) \
+@
+
+
+1.5
+log
+@New sockets update
+@
+text
+@d144 7
+a150 7
+		void WriteParam(LPCTSTR szName, DWORD dwValue);
+		void WriteParam(LPCTSTR szName, const CString&);
+		void WriteParam(LPCTSTR szName, const ADDRPORT&);
+		void WriteParam(LPCTSTR szName, const void* pBuf, DWORD dwCount, DWORD dwElementSize);
+		void WriteParam(LPCTSTR szName, const CTag_DWORD&);
+		void WriteParam(LPCTSTR szName, const CTag_String&);
+		void WriteParam(LPCTSTR szName, const CArray<ADDRPORT, ADDRPORT&>&);
+@
+
+
+1.4
+log
+@Server OpCodes
+@
+text
+@d48 1
+d59 7
+d128 5
+d135 2
+d140 16
+d173 6
+a178 3
+#define PARAM_DWORD(name)	PARAM_SIMPLE(name, DWORD)
+#define PARAM_USHORT(name)	PARAM_SIMPLE(name, USHORT)
+#define PARAM_BYTE(name)	PARAM_SIMPLE(name, BYTE)
+d181 1
+d183 3
+a185 1
+#define BEGIN_OPCODE(id, name, prot) \
+d191 1
+d198 16
+d223 2
+d239 2
+@
+
+
+1.3
+log
+@Another new sockets cumulative update
+@
+text
+@d142 3
+a144 2
+#define PARAM_DWORD(name) PARAM_SIMPLE(name, DWORD)
+#define PARAM_USHORT(name) PARAM_SIMPLE(name, USHORT)
+d146 1
+a146 1
+#define WRITE_INTERNAL_START
+@
+
+
+1.2
+log
+@Cumulative update. Not working yet.
+@
+text
+@d145 2
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d12 1
+a12 3
+struct CTag {
+	CString	m_strTagName;
+	BYTE	m_nTagID;
+d14 14
+a27 3
+	CString	m_strValue;
+	DWORD	m_dwValue;
+	bool	m_bIsString;
+d30 4
+a33 5
+class CStream
+{
+public:
+	virtual void Write(PCVOID, DWORD);
+	virtual void Read(PVOID, DWORD);
+d35 3
+a37 2
+	template <class T> void Write_T(const T& stObj) { Write(&stObj, sizeof(stObj)); }
+	template <class T> void Read_T(T& stObj) { Read(&stObj, sizeof(stObj)); }
+d39 1
+a39 2
+	void Write_T(const CString& strObj);
+	void Read_T(CString& strObj);
+d41 2
+a42 3
+	void Write_T(const CTag&);
+	void Read_T(CTag&);
+	void Read_Str(CString& strObj, USHORT nLen);
+d44 1
+a44 1
+	void WriteTag(BYTE nTagID, const CString* pTagName, DWORD dwValue, const CString* pValue);
+d46 3
+a48 4
+	struct CException {
+		static void Throw() { CException stException; throw stException; }
+	}; // self-explanable
+};
+d50 1
+d52 46
+a97 6
+class COpCode  
+{
+protected:
+	virtual void Z_Read(CStream&) = NULL;
+	virtual void Z_Write(CStream&) = NULL;
+public:
+d99 2
+a100 2
+	COpCode();
+	virtual ~COpCode();
+d102 5
+a106 2
+	bool Write(CStream&);
+	virtual USHORT GetMsgID() const = NULL;
+d108 1
+a108 1
+	static COpCode* Create(CStream&);
+d111 7
+a117 12
+class COpCode_HELLO_TYPE : public COpCode {
+protected:
+	virtual void Z_Read(CStream&) = NULL;
+	virtual void Z_Write(CStream&) = NULL;
+public:
+	BYTE	m_pHash[16];
+	DWORD	m_dwClientID;
+	USHORT	m_nPort;
+	CString m_strNick;
+	DWORD	m_dwVersion;
+	DWORD	m_dwServerIp;
+	USHORT	m_nServerPort;
+a118 12
+/*
+class COpCode_HELLO_TYPE : public COpCode {
+public:
+	BYTE	m_nHashSize; // always 16
+	BYTE	m_nHash[16];
+	DWORD	m_dwClientID;
+	USHORT	m_nPort;
+
+	DWORD	m_dwTagCount; // always 3
+	CTag	m_tgUserNick;
+	CTag	m_tgVersion;
+	CTag	m_tgPort; // always the same as USHORT
+d120 7
+a126 4
+	ULONG	m_nServerIp;
+	USHORT	m_nServerPort;
+};
+*/
+a127 1
+class COpCode_HELLO : public COpCode_HELLO_TYPE {
+a128 2
+	virtual USHORT GetMsgID() const;
+};
+d130 8
+a137 3
+class COpCode_HELLOANSWER : public COpCode_HELLO_TYPE {
+public:
+	virtual USHORT GetMsgID() const;
+d141 39
+a179 3
+const BYTE CT_NAME		= 0x01;
+const BYTE CT_VERSION	= 0x11;
+const BYTE CT_PORT		= 0x0f;
+@
+

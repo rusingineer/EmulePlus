@@ -1,0 +1,253 @@
+head	1.1;
+access;
+symbols
+	PublicRelease_1_2e:1.1
+	Interim_Release_1-2e_RC1:1.1
+	PublicRelease_1_2d:1.1
+	Interim_Release_1-2d_RC1:1.1
+	Interim_Release_1-2d_beta1:1.1
+	PublicRelease_1_2c:1.1
+	Interim_Release_1-2c_RC1:1.1
+	Interim_Release_1-2c_beta1:1.1
+	PublicRelease_1_2b:1.1
+	Interim_Release_1-2b_RC1:1.1
+	PublicRelease_1_2a:1.1
+	Interim_Release_1-2a_RC1:1.1
+	Interim_Release_1-2a_beta2:1.1
+	Interim_Release_1-2a_beta1:1.1
+	PublicRelease_1_2:1.1
+	Interim_Release_1-2_RC1:1.1
+	Interim_Release_1-2_beta1:1.1
+	PublicRelease_1_1g:1.1
+	Interim_Release_1-1g_RC3:1.1
+	Interim_Release_1-1g_RC2:1.1
+	Interim_Release_1-1g_RC1:1.1
+	Interim_Release_1-1g_beta2:1.1
+	Interim_Release_1-1g_beta1:1.1
+	PublicRelease_1_1f:1.1
+	Interim_Release_1-1f_RC1:1.1
+	PublicRelease_1_1e:1.1
+	Interim_Release_1-1e_RC2:1.1
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1
+	PublicRelease_1_1d:1.1
+	Interim_Release_1-1d_RC1:1.1
+	PublicRelease_1_1c:1.1
+	Interim_Release_1-1c_RC1:1.1
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1
+	PublicRelease_1_1b:1.1
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	Interim_Release_1n_beta2:1.1
+	Interim_Release_1n_beta1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2003.05.20.16.30.42;	author netwolf1;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@complete sources column
+@
+text
+@/********************************************************************************************
+* MOD-NAME      : QArray.h
+* LONG-NAME     : QuickSort algorithm enabled CArray
+*
+* AUTHOR        : Martin Ziacek, Martin.Ziacek@@swh.sk, http://www.swh.sk
+* COPYRIGHT     : 1999 Martin Ziacek
+* DEPARTMENT    : SWH s.r.o
+* TELEPHONE     : +421 7 59684147
+* CREATION-DATE : 1.5.1999 8:27:23
+* SP-NO         : 
+* FUNCTION      : Implementation of QuickSort algorithm as template for array class
+*                 and template for simple function QuickSort()
+* 
+*********************************************************************************************/
+
+#ifndef _QuickSortCArrayAndFunctionTemplate_7EB8E364_1A47_11d3_AFD1_0080ADB99E81_
+#define _QuickSortCArrayAndFunctionTemplate_7EB8E364_1A47_11d3_AFD1_0080ADB99E81_
+
+//////////////////////////////////////////////////////////////////////////
+// QuickSort functions
+//////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////
+// QuickSortRecursive - core of algorithm, do not call it, use QuickSort,
+// see below
+template <class T> void QuickSortRecursive(T *pArr, int d, int h, BOOL bAscending)
+{
+	int i,j;
+	T str;
+
+	i = h;
+	j = d;
+
+	str = pArr[((int) ((d+h) / 2))];
+
+	do {
+
+		if (bAscending) {
+			while (pArr[j] < str) j++;
+			while (pArr[i] > str) i--;
+		} else {
+			while (pArr[j] > str) j++;
+			while (pArr[i] < str) i--;
+		}
+
+		if ( i >= j ) {
+
+			if ( i != j ) {
+				T zal;
+
+				zal = pArr[i];
+				pArr[i] = pArr[j];
+				pArr[j] = zal;
+
+			}
+
+			i--;
+			j++;
+		}
+	} while (j <= i);
+
+	if (d < i) QuickSortRecursive(pArr,d,i,bAscending);
+	if (j < h) QuickSortRecursive(pArr,j,h,bAscending);
+}
+
+//////////////////////////////////////////////////////////////////////////
+// QuickSort - entry to algorithm
+//
+// T *pArr			... pointer of array to sort
+// int iSize		... size of array T *pArr
+// BOOL bAscending	... if bAscending == TRUE, then sort ascending,
+//						otherwise descending
+//
+// return TRUE if no error, error can be bad parameter, call ::GetLastError()
+// if QuickSort returned FALSE
+template <class T> BOOL QuickSort(T *pArr, int iSize, BOOL bAscending = TRUE)
+{
+	BOOL rc = TRUE;
+
+	if (iSize > 1) {
+
+		try {
+
+			int	low = 0,
+				high = iSize - 1;
+
+			QuickSortRecursive(pArr,low,high,bAscending);
+
+		} catch (...) {
+			::SetLastError(ERROR_INVALID_PARAMETER);
+			rc = FALSE;
+		}
+
+	} else {
+		::SetLastError(ERROR_INVALID_PARAMETER);
+		rc = FALSE;
+	}
+
+	return rc;
+}
+
+//////////////////////////////////////////////////////////////////////////
+// CQArray
+//////////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////////
+// CQArray declaration
+
+template <class T, class PT> class CQArray : public CArray <T, PT>
+{
+public:
+	void QuickSort(BOOL bAscending = TRUE);
+};
+
+//////////////////////////////////////////////////////////////////////////
+// CQArray implementation
+
+//////////////////////////////////////////////////////////////////////////
+// QuickSort - entry to algorithm
+//
+// BOOL bAscending	... if bAscending == TRUE, then sort ascending, 
+//						otherwise descending
+//
+template <class T, class TP> void CQArray<T,TP>::QuickSort(BOOL bAscending/* = TRUE*/)
+{
+	if (GetSize() > 1) {
+		::QuickSort(GetData(),GetSize(),bAscending);
+	}
+}
+
+#endif /* _QuickSortCArrayAndFunctionTemplate_7EB8E364_1A47_11d3_AFD1_0080ADB99E81_ */
+@

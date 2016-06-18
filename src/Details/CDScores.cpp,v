@@ -1,0 +1,974 @@
+head	1.25;
+access;
+symbols
+	PublicRelease_1_2e:1.25
+	Interim_Release_1-2e_RC1:1.25
+	PublicRelease_1_2d:1.25
+	Interim_Release_1-2d_RC1:1.25
+	Interim_Release_1-2d_beta1:1.24
+	PublicRelease_1_2c:1.24
+	Interim_Release_1-2c_RC1:1.24
+	Interim_Release_1-2c_beta1:1.24
+	PublicRelease_1_2b:1.23
+	Interim_Release_1-2b_RC1:1.23
+	PublicRelease_1_2a:1.21
+	Interim_Release_1-2a_RC1:1.21
+	Interim_Release_1-2a_beta2:1.20
+	Interim_Release_1-2a_beta1:1.20
+	PublicRelease_1_2:1.19
+	Interim_Release_1-2_RC1:1.19
+	Interim_Release_1-2_beta1:1.19
+	PublicRelease_1_1g:1.19
+	Interim_Release_1-1g_RC3:1.19
+	Interim_Release_1-1g_RC2:1.19
+	Interim_Release_1-1g_RC1:1.19
+	Interim_Release_1-1g_beta2:1.18
+	Interim_Release_1-1g_beta1:1.18
+	PublicRelease_1_1f:1.17
+	Interim_Release_1-1f_RC1:1.17
+	PublicRelease_1_1e:1.17
+	Interim_Release_1-1e_RC2:1.17
+	Interim_Release_1-1e_RC1:1.17
+	Interim_Release_1-1e_beta1:1.16
+	PublicRelease_1_1d:1.16
+	Interim_Release_1-1d_RC1:1.16
+	PublicRelease_1_1c:1.16
+	Interim_Release_1-1c_RC1:1.16
+	Interim_Release_1-1c_beta2:1.16
+	Interim_Release_1-1c_beta1:1.16
+	PublicRelease_1_1b:1.15
+	Interim_Release_1-1b_RC1:1.15
+	PublicRelease_1_1a:1.15
+	Interim_Release_1-1a_RC2:1.15
+	Interim_Release_1-1a_RC1:1.15
+	Interim_Release_1-1a_beta2:1.15
+	Interim_Release_1-1a_beta1:1.14
+	PublicRelease_1_1:1.14
+	Interim_Release_1-1_beta1:1.14
+	PublicRelease_1o:1.14
+	Interim_Release_1o_RC1:1.14
+	Interim_Release_1o_beta1:1.14
+	PublicRelease_1n:1.14
+	Interim_Release_1n_RC2:1.14
+	Interim_Release_1n_RC1:1.14
+	Interim_Release_1n_beta2:1.13
+	PublicRelease_1m:1.11
+	Interim_Release_1m_beta1:1.11
+	PublicRelease_1l:1.10
+	Interim_Release_1l_RC3:1.10
+	Interim_Release_1l_RC2:1.10
+	Interim_Release_1l_RC1:1.10
+	Interim_Release_1l_beta2:1.10
+	Interim_Release_1l_beta1:1.10
+	PublicRelease_1k:1.8
+	Interim_Release_1k_RC4:1.8
+	Interim_1k_RC3:1.8
+	Interim_1k_RC2:1.8
+	Interim_Release_1k_RC1:1.8
+	Interim_Release_1k_beta5:1.8
+	Intrerim_Release_1k_beta4:1.8
+	Interim_Release_1k_beta1:1.6
+	PublicRelease_1j:1.6
+	Interim_Release_1J_RC3:1.6
+	Interim_Release_1j_RC3:1.6
+	Interim_Release_1j_RC2:1.6
+	Interim_Release_1j_RC1:1.6
+	Interim_Release_1j_beta2:1.6
+	Interim_Release_1j_beta1:1.6
+	PublicRelease_1i:1.6
+	Interim_Release_1i_RC6:1.6
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4;
+locks; strict;
+comment	@// @;
+
+
+1.25
+date	2008.03.03.04.38.40;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2007.02.17.05.48.44;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2006.11.27.19.01.49;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2006.11.27.10.51.52;	author eklmn;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.07.19.04.33.04;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.04.09.01.31.16;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.11.28.03.04.25;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.08.24.04.01.49;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.06.19.04.45.56;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.01.20.16.26.31;	author kush_eplus;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.11.08.21.04.23;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.08.12.21.54.20;	author eklmn;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.08.07.08.51.45;	author eklmn;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.08.06.17.00.50;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.06.22.05.42.08;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.05.06.01.39.10;	author katsyonak;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.05.04.17.51.24;	author netwolf1;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.03.20.01.34.38;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.02.26.22.12.54;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.12.02.04.33.16;	author katsyonak;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.11.24.18.55.02;	author katsyonak;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.05.12.04.55;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.05.10.45.18;	author forcha;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.05.05.19.58;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.25
+log
+@ELEMENT_COUNT -> ARRSIZE.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "CDScores.h"
+#include "..\updownclient.h"
+#include "..\emule.h"
+
+
+IMPLEMENT_DYNCREATE(CCDScores, CPropertyPage)
+
+CCDScores::CCDScores() : CPropertyPage(CCDScores::IDD)
+{
+}
+
+CCDScores::~CCDScores()
+{
+}
+
+void CCDScores::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_SCORES_LBL, m_ctrlScores);
+	DDX_Control(pDX, IDC_REMOTESCORES_LBL, m_ctrlRemoteScores);
+	DDX_Control(pDX, IDC_DLUPMODIFIER_VAL, m_ctrlDlUpModifier);
+	DDX_Control(pDX, IDC_COMMUNITYUSER_VAL, m_ctrlCommunityUser);
+	DDX_Control(pDX, IDC_RATING_VAL, m_ctrlRating);
+	DDX_Control(pDX, IDC_UPQUEUESCORE_VAL, m_ctrlUpQueueScore);
+	DDX_Control(pDX, IDC_QUEUETIME_VAL, m_ctrlQueueTime);
+	DDX_Control(pDX, IDC_REMDLUPMODIFIER_VAL, m_ctrlRemDlUpModifier);
+	DDX_Control(pDX, IDC_REMRATING_VAL, m_ctrlRemRating);
+}
+
+
+BEGIN_MESSAGE_MAP(CCDScores, CPropertyPage)
+END_MESSAGE_MAP()
+
+
+BOOL CCDScores::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	Localize();
+	Update();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CCDScores::Update(void)
+{
+	EMULE_TRY
+
+	if ((m_pClient == NULL) || !::IsWindow(GetSafeHwnd()))
+		return;
+
+	CString		strBuffer = GetResString(IDS_DISABLED);
+
+	if (g_App.m_pPrefs->CommunityEnabled())
+		strBuffer = YesNoStr(m_pClient->IsCommunity());
+	m_ctrlCommunityUser.SetWindowText(strBuffer);
+
+	if (m_pClient->Credits())
+	{
+		strBuffer.Format(_T("%.1f"), (double)m_pClient->Credits()->GetScoreRatio(m_pClient->GetIP()));
+		m_ctrlDlUpModifier.SetWindowText(strBuffer);
+
+		strBuffer.Format(_T("%.1f"), m_pClient->GetRemoteBaseModifier());
+		m_ctrlRemDlUpModifier.SetWindowText(strBuffer);
+
+		strBuffer.Format(_T("%u"), m_pClient->GetRemoteRatio());
+		m_ctrlRemRating.SetWindowText(strBuffer);
+	}
+	else
+	{
+		m_ctrlDlUpModifier.SetWindowText(_T("?"));
+		m_ctrlRemDlUpModifier.SetWindowText(_T("?"));
+		m_ctrlRemRating.SetWindowText(_T("?"));
+	}
+
+	bool	bLoadedSourceName = (_tcsstr(m_pClient->GetUserName(), ::GetResString(IDS_SAVED_SOURCE)) != NULL) ||
+		(_tcsstr(m_pClient->GetUserName(), ::GetResString(IDS_EXCHANGEDSOURCE)) != NULL);
+
+	if (!bLoadedSourceName)
+	{
+		if (m_pClient->IsDownloading())
+			strBuffer = _T("-");
+		else
+			strBuffer.Format(_T("%u"), m_pClient->GetScore(true));
+		m_ctrlRating.SetWindowText(strBuffer);
+	}
+	else
+		m_ctrlRating.SetWindowText(_T("?"));
+
+	if (m_pClient->GetUploadState() != US_NONE && !m_pClient->IsDownloading())
+	{
+		strBuffer.Format(_T("%u"), m_pClient->GetScore(false));
+		m_ctrlUpQueueScore.SetWindowText(strBuffer);
+	}
+	else
+		m_ctrlUpQueueScore.SetWindowText(_T("-"));
+
+	if (m_pClient->IsInWaitingQueue())
+		m_ctrlQueueTime.SetWindowText(::CastSecondsToHM((::GetTickCount() - m_pClient->GetWaitStartTime())/1000));
+	else
+		m_ctrlQueueTime.SetWindowText(_T("-"));
+
+	EMULE_CATCH
+}
+
+void CCDScores::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_SCORES_LBL, IDS_CD_SCORES },
+		{ IDC_DLUPMODIFIER_LBL, IDS_CD_MOD },
+		{ IDC_UPQUEUESCORE_LBL, IDS_CD_USCORE },
+		{ IDC_REMOTESCORES_LBL, IDS_INFLST_REMOTE_SCORES },
+		{ IDC_REMDLUPMODIFIER_LBL, IDS_CD_MOD }
+	};
+	static const uint16 s_auResTbl2[][2] =
+	{
+		{ IDC_COMMUNITYUSER_LBL, IDS_COMMUNITY },
+		{ IDC_RATING_LBL, IDS_RATING },
+		{ IDC_REMRATING_LBL, IDS_RATING },
+		{ IDC_QUEUETIME_LBL, IDS_WAITED }
+	};
+
+	if (GetSafeHwnd())
+	{
+		CString strBuffer;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			GetResString(&strBuffer, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strBuffer);
+		}
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl2); i++)
+		{
+			GetResString(&strBuffer, static_cast<UINT>(s_auResTbl2[i][1]));
+			strBuffer += _T(":");
+			SetDlgItemText(s_auResTbl2[i][0], strBuffer);
+		}
+	}
+}
+@
+
+
+1.24
+log
+@Don't calculate score for downloading sources.
+@
+text
+@d1 1
+a1 1
+// CDScores.cpp : implementation file
+d3 13
+a22 2
+// CCDScores dialog
+
+a26 3
+	//{{AFX_DATA_INIT(CCDScores)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+a35 1
+	//{{AFX_DATA_MAP(CCDScores)
+a37 1
+	//}}AFX_DATA_MAP
+a48 3
+	//{{AFX_MSG_MAP(CCDScores)
+		// NOTE: the ClassWizard will add message map macros here
+	//}}AFX_MSG_MAP
+a51 2
+// CCDScores message handlers
+
+d146 1
+a146 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_auResTbl); i++)
+d152 1
+a152 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_auResTbl2); i++)
+@
+
+
+1.23
+log
+@corrected the output of the waiting time in client details. sadditional correction
+@
+text
+@d101 1
+a101 1
+			strBuffer.Format(_T("%u"), m_pClient->GetScore(m_pClient->IsDownloading(), true));
+d109 1
+a109 1
+		strBuffer.Format(_T("%u"), m_pClient->GetScore(m_pClient->IsDownloading(), false));
+@
+
+
+1.22
+log
+@corrected the output of the waiting time in client details
+@
+text
+@a112 1
+	{
+a113 1
+	}
+d115 2
+a116 2
+	if (m_pClient->IsDownloading())
+		m_ctrlQueueTime.SetWindowText(::CastSecondsToHM(m_pClient->GetWaitTime() / 1000));
+d118 1
+a118 1
+		m_ctrlQueueTime.SetWindowText(::CastSecondsToHM((::GetTickCount() - m_pClient->GetWaitStartTime())/1000));
+a129 1
+		{ IDC_QUEUETIME_LBL, IDS_WAITED },
+d131 1
+a131 1
+		{ IDC_REMDLUPMODIFIER_LBL, IDS_CD_MOD },
+d137 2
+a138 1
+		{ IDC_REMRATING_LBL, IDS_RATING }
+@
+
+
+1.21
+log
+@Fixed display of Waited Time in remove queue for 'Another Server LowID' sources.
+@
+text
+@d117 2
+a118 2
+	if ((m_pClient->GetDownloadState() == DS_ONQUEUE) || (m_pClient->GetDownloadState() == DS_LOWID_ON_OTHER_SERVER))
+		m_ctrlQueueTime.SetWindowText(::CastSecondsToHM(m_pClient->GetDLQueueWaitTime() / 1000));
+d120 1
+a120 1
+		m_ctrlQueueTime.SetWindowText(_T("-"));
+d132 1
+a132 1
+		{ IDC_QUEUETIME_LBL, IDS_QUEUETIMELBL },
+@
+
+
+1.20
+log
+@Renamed IDS_QL_RATING into IDS_RATING.
+@
+text
+@d117 1
+a117 1
+	if (m_pClient->GetDownloadState() == DS_ONQUEUE)
+@
+
+
+1.19
+log
+@Finished renaming to make sources compilable again...
+@
+text
+@d139 2
+a140 2
+		{ IDC_RATING_LBL, IDS_QL_RATING },
+		{ IDC_REMRATING_LBL, IDS_QL_RATING }
+@
+
+
+1.18
+log
+@IDS_COMMUNITY substitutes IDS_COMUSER.
+@
+text
+@d71 1
+a71 1
+	if (g_eMuleApp.m_pGlobPrefs->CommunityEnabled())
+@
+
+
+1.17
+log
+@Fixed client rating display in client details for Saved Source (zero was displayed, though rating is unknown);
+Improved string processing.
+@
+text
+@a129 1
+		{ IDC_COMMUNITYUSER_LBL, IDS_COMUSER },
+d138 1
+@
+
+
+1.16
+log
+@Removed GetScore unused parameter
+Code refactoring
+@
+text
+@d69 1
+a69 1
+	CString		strCommunityUser = GetResString(IDS_DISABLED);
+d72 2
+a73 4
+		strCommunityUser = YesNoStr(m_pClient->IsCommunity());
+	m_ctrlCommunityUser.SetWindowText(strCommunityUser);
+
+	CString		strBuffer;
+d93 2
+a94 7
+	bool	bLoadedSourceName = false;
+
+	if (m_pClient->GetUserName())
+	{
+		bLoadedSourceName = (_tcsstr(m_pClient->GetUserName(), ::GetResString(IDS_LOADEDSOURCE)) != NULL) || 
+							(_tcsstr(m_pClient->GetUserName(), ::GetResString(IDS_EXCHANGEDSOURCE)) != NULL) ;
+	}
+d96 1
+a96 1
+	if (m_pClient->GetUserName() && !bLoadedSourceName)
+a104 1
+	{
+a105 1
+	}
+@
+
+
+1.15
+log
+@Removed non-working code.
+@
+text
+@d75 1
+a75 1
+	CString strBuffer;
+d95 3
+a97 2
+	bool bLoadedSourceName = false;
+	if(m_pClient->GetUserName())
+d103 1
+a103 1
+	if(m_pClient->GetUserName() && !bLoadedSourceName)
+d108 1
+a108 1
+			strBuffer.Format(_T("%u"), m_pClient->GetScore(false, m_pClient->IsDownloading(), true));
+d116 1
+a116 1
+	if(m_pClient->GetUploadState() != US_NONE && !m_pClient->IsDownloading())
+d118 1
+a118 1
+		strBuffer.Format(_T("%u"), m_pClient->GetScore(false, m_pClient->IsDownloading(), false));
+d126 1
+a126 2
+	if(m_pClient->GetDownloadState() == DS_ONQUEUE)
+	{
+a127 1
+	}
+a128 1
+	{
+a129 1
+	}
+@
+
+
+1.14
+log
+@rollback of old waiting queue
+@
+text
+@d6 2
+a7 2
+#include "..\UpDownClient.h"
+#include "..\eMule.h"
+a38 1
+	DDX_Control(pDX, IDC_REMUPQUEUESCORE_VAL, m_ctrlRemUpQueueScore);
+d66 1
+a66 4
+	if(m_pClient == NULL)
+		return;
+
+	if(!::IsWindow(GetSafeHwnd()))
+d77 1
+a77 1
+	if(m_pClient->Credits())
+d81 6
+d91 2
+d95 1
+a95 1
+	bool bLoadedSourceName = false ;
+a132 17
+	if (m_pClient->IsRemoteInfoAvaiable() || m_pClient->Credits())
+	{
+		strBuffer.Format(_T("%0.1f"), m_pClient->GetRemoteBaseModifier());
+		m_ctrlRemDlUpModifier.SetWindowText(strBuffer);
+
+		strBuffer.Format(_T("%ld"), m_pClient->GetRemoteRatio());
+		m_ctrlRemRating.SetWindowText(strBuffer);
+		
+		strBuffer.Format(_T("%ld"), m_pClient->GetRemoteScore());
+		m_ctrlRemUpQueueScore.SetWindowText(strBuffer);
+	}
+	else
+	{
+		m_ctrlRemDlUpModifier.SetWindowText(_T("?"));
+		m_ctrlRemRating.SetWindowText(_T("?"));
+		m_ctrlRemUpQueueScore.SetWindowText(_T("?"));
+	}
+d139 1
+a139 1
+	static const int s_aiResTbl[][2] =
+a147 1
+		{ IDC_REMUPQUEUESCORE_LBL, IDS_CD_USCORE }
+d149 1
+a149 1
+	static const int s_aiResTbl2[][2] =
+d159 1
+a159 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_aiResTbl); i++)
+d161 2
+a162 2
+			GetResString(&strBuffer, static_cast<UINT>(s_aiResTbl[i][1]));
+			SetDlgItemText(s_aiResTbl[i][0], strBuffer);
+d165 1
+a165 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_aiResTbl2); i++)
+d167 1
+a167 1
+			GetResString(&strBuffer, static_cast<UINT>(s_aiResTbl2[i][1]));
+d169 1
+a169 1
+			SetDlgItemText(s_aiResTbl2[i][0], strBuffer);
+@
+
+
+1.13
+log
+@1) varios correction for SSWQ & Co
+2) the file ratios moved to file class
+3) corrected measurement of time on remote queue
+@
+text
+@d103 1
+a103 1
+			strBuffer.Format(_T("%u"), m_pClient->GetPosInWaitingQueue());
+d113 1
+a113 1
+		strBuffer.Format(_T("%u"), m_pClient->GetWaitingScore());
+@
+
+
+1.12
+log
+@SSWQ
+@
+text
+@d101 1
+a101 1
+			strBuffer = CString(_T("-"));
+d123 1
+a123 1
+		m_ctrlQueueTime.SetWindowText(::CastSecondsToHM(m_pClient->GetQueueWaitTime() / 1000));
+@
+
+
+1.11
+log
+@Improved string processing; EMULE_TRY/EMULE_CATCH are removed from
+localization routines, because almost nothing to catch here, but this pair adds a lot of code.
+@
+text
+@d100 4
+a103 1
+		strBuffer.Format(_T("%.1f"), (double)m_pClient->GetScore(false, m_pClient->IsDownloading(), true));
+d111 1
+a111 1
+	if(m_pClient->GetUploadState() != US_NONE)
+d113 1
+a113 1
+		strBuffer.Format(_T("%u"), m_pClient->GetScore(false, m_pClient->IsDownloading(), false));
+@
+
+
+1.10
+log
+@added tooltips to the Server list
+@
+text
+@d149 1
+a149 1
+	static const int aiResTbl[][2] =
+d160 1
+a160 1
+	static const int aiResTbl2[][2] =
+a165 2
+	EMULE_TRY
+
+d168 1
+a168 2
+		for (uint32 i = 0; i < ELEMENT_COUNT(aiResTbl); i++)
+			SetDlgItemText(aiResTbl[i][0], GetResString(static_cast<UINT>(aiResTbl[i][1])));
+d170 5
+a174 1
+		CString strBuffer;
+d176 1
+a176 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(aiResTbl2); i++)
+d178 3
+a180 2
+			strBuffer.Format("%s:", GetResString(static_cast<UINT>(aiResTbl2[i][1])));
+			SetDlgItemText(aiResTbl2[i][0], strBuffer);
+a182 2
+
+	EMULE_CATCH
+@
+
+
+1.9
+log
+@better estimation of own score on remote client + no more friend/community guess + minor Infolist fix + removed unused functions
+@
+text
+@d73 1
+a73 1
+	UINT		dwResStrId = IDS_DISABLED;
+d76 2
+a77 4
+	{
+		dwResStrId = ((m_pClient->IsCommunity()) ? IDS_YES : IDS_NO);
+	}
+	m_ctrlCommunityUser.SetWindowText(::GetResString(dwResStrId));
+@
+
+
+1.8
+log
+@minor optimization
+@
+text
+@a36 1
+	DDX_Control(pDX, IDC_REMCOMMUNITY_VAL, m_ctrlRemCommunityUser);
+a127 9
+
+	dwResStrId = IDS_DISABLED;
+
+	if (m_pClient->IsRemoteInfoAvaiable() && m_pClient->GetRemoteCommunityEnabled())
+	{
+		dwResStrId = (m_pClient->GetRemoteCommunity()) ? IDS_YES : IDS_NO;
+	}
+	m_ctrlRemCommunityUser.SetWindowText(::GetResString(dwResStrId));
+
+a158 1
+		{ IDC_REMCOMMUNITY_LBL, IDS_COMUSER },
+@
+
+
+1.7
+log
+@Improved string processing; Unified localization; whitespace corrections.
+@
+text
+@d183 2
+a184 2
+		for (uint32 i = 0; i < (sizeof(aiResTbl) / sizeof(aiResTbl[0])); i++)
+			GetDlgItem(aiResTbl[i][0])->SetWindowText(GetResString(static_cast<UINT>(aiResTbl[i][1])));
+d188 1
+a188 1
+		for (uint32 i = 0; i < (sizeof(aiResTbl2) / sizeof(aiResTbl2[0])); i++)
+d191 1
+a191 1
+			GetDlgItem(aiResTbl2[i][0])->SetWindowText(strBuffer);
+@
+
+
+1.6
+log
+@Formatting + minor changes
+@
+text
+@d74 1
+d76 1
+a76 1
+	if(g_eMuleApp.m_pGlobPrefs->CommunityEnabled())
+d78 1
+a78 12
+		if(m_pClient->IsCommunity())
+		{
+			m_ctrlCommunityUser.SetWindowText(::GetResString(IDS_YES));
+		}
+		else
+		{
+			m_ctrlCommunityUser.SetWindowText(::GetResString(IDS_NO));		
+		}
+	}	
+	else
+	{		
+		m_ctrlCommunityUser.SetWindowText(::GetResString(IDS_DISABLED));
+d80 1
+d107 1
+a107 1
+	{	
+d117 1
+a117 1
+	{	
+d122 1
+a122 1
+	{	
+d126 1
+a126 1
+	{	
+a128 1
+	
+d130 3
+a132 1
+    if(m_pClient->IsRemoteInfoAvaiable())
+d134 3
+a136 12
+		if(!m_pClient->GetRemoteCommunityEnabled()) 
+		{	
+			m_ctrlRemCommunityUser.SetWindowText(::GetResString(IDS_DISABLED));
+		}
+		else if(m_pClient->GetRemoteCommunity()) 
+		{
+			m_ctrlRemCommunityUser.SetWindowText(::GetResString(IDS_YES));
+		}
+		else
+		{	
+			m_ctrlRemCommunityUser.SetWindowText(::GetResString(IDS_NO));
+		}
+d138 2
+d151 3
+a153 17
+		m_ctrlRemCommunityUser.SetWindowText(::GetResString(IDS_DISABLED));
+
+		if(m_pClient->Credits())
+		{
+			strBuffer.Format(_T("%0.1f"), m_pClient->GetRemoteBaseModifier());
+			m_ctrlRemDlUpModifier.SetWindowText(strBuffer);
+			strBuffer.Format(_T("%ld"), m_pClient->GetRemoteRatio());
+			m_ctrlRemRating.SetWindowText(strBuffer);
+			strBuffer.Format(_T("%ld"),m_pClient->GetRemoteScore());
+			m_ctrlRemUpQueueScore.SetWindowText(strBuffer);
+		}
+		else
+		{
+			m_ctrlRemDlUpModifier.SetWindowText(_T("?"));
+			m_ctrlRemRating.SetWindowText(_T("?"));
+			m_ctrlRemUpQueueScore.SetWindowText(_T("?"));
+		}
+d161 18
+d181 1
+a181 1
+	if(GetSafeHwnd())
+d183 10
+a192 12
+		GetDlgItem(IDC_SCORES_LBL)->SetWindowText(GetResString(IDS_CD_SCORES));
+		GetDlgItem(IDC_COMMUNITYUSER_LBL)->SetWindowText(GetResString(IDS_COMUSER));
+		GetDlgItem(IDC_DLUPMODIFIER_LBL)->SetWindowText(GetResString(IDS_CD_MOD));
+		GetDlgItem(IDC_RATING_LBL)->SetWindowText(GetResString(IDS_QL_RATING) + _T(":"));
+		GetDlgItem(IDC_UPQUEUESCORE_LBL)->SetWindowText(GetResString(IDS_CD_USCORE));
+		GetDlgItem(IDC_QUEUETIME_LBL)->SetWindowText(GetResString(IDS_QUEUETIMELBL));
+
+		GetDlgItem(IDC_REMOTESCORES_LBL)->SetWindowText(GetResString(IDS_INFLST_REMOTE_SCORES));
+		GetDlgItem(IDC_REMCOMMUNITY_LBL)->SetWindowText(GetResString(IDS_COMUSER));
+		GetDlgItem(IDC_REMDLUPMODIFIER_LBL)->SetWindowText(GetResString(IDS_CD_MOD));
+		GetDlgItem(IDC_REMRATING_LBL)->SetWindowText(GetResString(IDS_QL_RATING) + _T(":"));
+		GetDlgItem(IDC_REMUPQUEUESCORE_LBL)->SetWindowText(GetResString(IDS_CD_USCORE));
+@
+
+
+1.5
+log
+@minor fix in Client Details dialog + Hebrew translation update
+@
+text
+@a193 2
+		CString strBuffer;
+
+d197 1
+a197 2
+		strBuffer.Format("%s:", GetResString(IDS_QL_RATING));
+		GetDlgItem(IDC_RATING_LBL)->SetWindowText(strBuffer);
+d204 1
+a204 2
+		strBuffer.Format("%s:", GetResString(IDS_QL_RATING));
+		GetDlgItem(IDC_REMRATING_LBL)->SetWindowText(strBuffer);
+@
+
+
+1.4
+log
+@Minor changes.
+Returned project to VS2002 ;-)
+@
+text
+@d207 2
+a208 1
+		GetDlgItem(IDC_REMRATING_LBL)->SetWindowText(GetResString(IDS_QL_RATING));
+@
+
+
+1.3
+log
+@TRY & CATCH
+@
+text
+@d204 1
+a204 1
+		GetDlgItem(IDC_REMOTESCORES_LBL)->SetWindowText(GetResString(IDS_CD_UID));
+d207 1
+a207 1
+		GetDlgItem(IDC_REMRATING_LBL)->SetWindowText(GetResString(IDS_CD_RATING));
+@
+
+
+1.2
+log
+@Localization and some fixes for new detail dialogs by FoRcHa
+@
+text
+@d66 2
+d184 2
+d190 2
+d210 2
+@
+
+
+1.1
+log
+@new dialogs for file- & client-details
+@
+text
+@a63 4
+void CCDScores::Localize(void)
+{
+}
+
+d182 23
+a204 1
+}@
+

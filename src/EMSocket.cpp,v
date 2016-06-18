@@ -1,0 +1,4447 @@
+head	1.57;
+access;
+symbols
+	PublicRelease_1_2e:1.54
+	Interim_Release_1-2e_RC1:1.54
+	PublicRelease_1_2d:1.52
+	Interim_Release_1-2d_RC1:1.52
+	Interim_Release_1-2d_beta1:1.52
+	PublicRelease_1_2c:1.52
+	Interim_Release_1-2c_RC1:1.52
+	Interim_Release_1-2c_beta1:1.52
+	PublicRelease_1_2b:1.51
+	Interim_Release_1-2b_RC1:1.51
+	PublicRelease_1_2a:1.49
+	Interim_Release_1-2a_RC1:1.48
+	Interim_Release_1-2a_beta2:1.47
+	Interim_Release_1-2a_beta1:1.47
+	PublicRelease_1_2:1.42
+	Interim_Release_1-2_RC1:1.42
+	Interim_Release_1-2_beta1:1.40
+	PublicRelease_1_1g:1.39
+	Interim_Release_1-1g_RC3:1.39
+	Interim_Release_1-1g_RC2:1.39
+	Interim_Release_1-1g_RC1:1.39
+	Interim_Release_1-1g_beta2:1.37
+	Interim_Release_1-1g_beta1:1.36
+	PublicRelease_1_1f:1.36
+	Interim_Release_1-1f_RC1:1.36
+	PublicRelease_1_1e:1.36
+	Interim_Release_1-1e_RC2:1.36
+	Interim_Release_1-1e_RC1:1.36
+	Interim_Release_1-1e_beta1:1.35
+	PublicRelease_1_1d:1.35
+	Interim_Release_1-1d_RC1:1.35
+	PublicRelease_1_1c:1.35
+	Interim_Release_1-1c_RC1:1.35
+	Interim_Release_1-1c_beta2:1.35
+	Interim_Release_1-1c_beta1:1.35
+	PublicRelease_1_1b:1.34
+	Interim_Release_1-1b_RC1:1.34
+	PublicRelease_1_1a:1.34
+	Interim_Release_1-1a_RC2:1.34
+	Interim_Release_1-1a_RC1:1.34
+	Interim_Release_1-1a_beta2:1.34
+	Interim_Release_1-1a_beta1:1.34
+	PublicRelease_1_1:1.34
+	Interim_Release_1-1_beta1:1.34
+	PublicRelease_1o:1.34
+	Interim_Release_1o_RC1:1.34
+	Interim_Release_1o_beta1:1.34
+	PublicRelease_1n:1.34
+	Interim_Release_1n_RC2:1.34
+	Interim_Release_1n_RC1:1.34
+	Interim_Release_1n_beta2:1.34
+	Interim_Release_1n_beta1:1.33
+	PublicRelease_1m:1.33
+	Interim_Release_1m_beta1:1.33
+	PublicRelease_1l:1.33
+	Interim_Release_1l_RC3:1.33
+	Interim_Release_1l_RC2:1.33
+	Interim_Release_1l_RC1:1.33
+	Interim_Release_1l_beta2:1.33
+	Interim_Release_1l_beta1:1.33
+	PublicRelease_1k:1.33
+	Interim_Release_1k_RC4:1.33
+	Interim_1k_RC3:1.33
+	Interim_1k_RC2:1.33
+	Interim_Release_1k_RC1:1.33
+	Interim_Release_1k_beta5:1.33
+	Intrerim_Release_1k_beta4:1.33
+	Interim_Release_1k_beta1:1.33
+	PublicRelease_1j:1.32
+	Interim_Release_1J_RC3:1.32
+	Interim_Release_1j_RC3:1.32
+	Interim_Release_1j_RC2:1.32
+	Interim_Release_1j_RC1:1.32
+	Interim_Release_1j_beta2:1.31
+	Interim_Release_1j_beta1:1.31
+	PublicRelease_1i:1.28
+	Interim_Release_1i_RC6:1.28
+	Interim_Release_1i_RC3:1.28
+	Interim_Release_1i_RC2:1.28
+	Interim_Release_1i_RC1:1.28
+	Interim_Release_1i_beta3:1.28
+	Interim_Release_1i_beta2:1.27
+	Interim_Release_1i_beta1:1.22
+	PublicRelease_1h:1.19
+	Interim_Release_1h_rc2:1.19
+	Interim_Release_1h_RC1:1.19
+	Interim_Release_1h_beta2:1.19
+	Interim_Release_1h_beta1_now:1.19
+	Interim_Release_1h_beta1:1.19
+	PublicRelease_1g:1.19
+	Interim_Release_1g_RC6_Final:1.19
+	Interim_Release_1g_RC6:1.18
+	Interim_Release_1g_RC5:1.18
+	Interim_Release_1g_RC4:1.16
+	Interim_Release_1g_RC3:1.16
+	Interim_Release_1g_beta2:1.14
+	Interim_Release_1g_beta1:1.13
+	Interim_Release_1f_RC4:1.13
+	Interim_Release_1f_RC3:1.13
+	Interim_Release_1f_RC2:1.12
+	Interim_Release_1f_RC:1.12
+	Interim_Release_1f_beta2:1.12
+	Interim_Release_1f_beta1:1.12
+	PublicRelease_1e:1.12
+	Interim_Release_1e_RC2:1.12
+	Interim_Release_1e_RC:1.12
+	Interim_Release_1e_beta3:1.12
+	Interim_Release_1e_beta2:1.12
+	Interim_Release_1e_beta2_before_kuchin:1.11
+	Interim_Release_1e_beta1:1.10
+	PublicRelease_1c:1.10
+	featurestest:1.10.0.4
+	Interim_Release_1c_RC:1.10
+	Interim_Release_1c_beta2:1.10
+	Interim_Release_1c_beta1:1.10
+	threaded_downloadqueue:1.10.0.2
+	PublicRelease_1b:1.9
+	Interim_Release_1b_beta2:1.9
+	Interim_Release_1b_beta1:1.9
+	proxydeadlake:1.8.0.4
+	PublicRelease_1a:1.8
+	Interim_Release_1a_beta2:1.8
+	BerkeleyDb:1.8.0.2
+	Interim_Release_1a_beta1:1.8
+	PublicRelease_1:1.8
+	goldfish:1.8
+	eMulePlus_1_RC2:1.8
+	eMulePlus_26b_1RC1:1.8
+	PreRelease_26b_i0e:1.8
+	before_26d_merge:1.8
+	Interim_Release_26b_i0d:1.7
+	Interim_Release_26b_i0c:1.6
+	Interim_Release_26b_i0b:1.6
+	Interim_Release_26b_i0a:1.6
+	systraydlg:1.5.0.4
+	plus26based:1.5.0.2
+	Interim_Release_25b_i0b:1.5
+	Proxy_Dev:1.4
+	Interim_Release_25b_i0a:1.4.2.5
+	proxytest:1.4.2.3.0.2
+	official_sockets:1.4.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.57
+date	2010.05.13.04.48.49;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2009.11.20.03.48.37;	author aw3;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2009.08.01.01.45.19;	author aw3;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2008.05.18.18.29.05;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2007.02.25.00.46.46;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2007.01.08.06.02.31;	author aw3;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2006.11.16.05.52.19;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2006.10.13.04.29.23;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2006.07.23.00.38.54;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2006.04.22.15.19.36;	author eklmn;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2006.04.16.00.17.31;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2006.03.26.13.58.44;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2006.03.25.11.09.00;	author eklmn;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2006.03.19.23.51.11;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2006.02.15.05.23.27;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2006.02.06.03.06.28;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2006.01.14.19.53.10;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2005.11.23.03.53.46;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2005.06.20.04.34.36;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2005.01.19.21.10.45;	author netwolf1;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.07.20.12.49.58;	author katsyonak;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.02.11.04.13.00;	author katsyonak;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.10.20.34.51;	author eklmn;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.12.24.01.21.13;	author katsyonak;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.10.29.14.14.18;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.10.20.00.55.48;	author katsyonak;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.10.08.12.56.33;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.10.08.01.53.31;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.09.21.22.05.15;	author morevit;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.09.19.00.13.37;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.07.20.09.12.51;	author eklmn;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.07.12.11.05.47;	author eklmn;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.07.09.17.23.54;	author netwolf1;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.17.16.35.03;	author netwolf1;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.11.18.27.09;	author eklmn;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.06.08.07.36.57;	author partyckip;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.05.18.01.38.19;	author netwolf1;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.04.22.12.41.51;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.04.21.20.23.22;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.14.16.24.17;	author partyckip;	state Exp;
+branches
+	1.10.4.1;
+next	1.9;
+
+1.9
+date	2003.02.28.18.43.40;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.16.22.01.46;	author lord_kiron;	state Exp;
+branches
+	1.8.2.1
+	1.8.4.1;
+next	1.7;
+
+1.7
+date	2003.02.12.20.18.22;	author obaldin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.06.22.08.17;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.02.10.47.20;	author cax2;	state Exp;
+branches
+	1.5.2.1;
+next	1.4;
+
+1.4
+date	2003.01.23.12.49.06;	author cax2;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2003.01.23.01.42.30;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.17.54.21;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2003.01.28.14.50.22;	author obaldin;	state Exp;
+branches;
+next	1.4.2.2;
+
+1.4.2.2
+date	2003.01.28.14.55.37;	author obaldin;	state Exp;
+branches;
+next	1.4.2.3;
+
+1.4.2.3
+date	2003.01.28.22.27.08;	author maverick65;	state Exp;
+branches
+	1.4.2.3.2.1;
+next	1.4.2.4;
+
+1.4.2.4
+date	2003.01.29.10.36.29;	author cax2;	state Exp;
+branches;
+next	1.4.2.5;
+
+1.4.2.5
+date	2003.01.29.13.53.55;	author cax2;	state Exp;
+branches;
+next	;
+
+1.4.2.3.2.1
+date	2003.01.28.23.51.14;	author maverick65;	state Exp;
+branches;
+next	;
+
+1.5.2.1
+date	2003.02.05.01.58.41;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.8.2.1
+date	2003.03.01.20.59.35;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.8.4.1
+date	2003.02.28.10.48.30;	author dongato;	state Exp;
+branches;
+next	;
+
+1.10.4.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.57
+log
+@Added an option to bind to specific network interface (from original) {Zom}.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2006 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "EMSocket.h"
+#include "opcodes.h"
+#include "emule.h"
+#include "emuleDlg.h"
+#include "otherfunctions.h"
+#include "AsyncProxySocketLayer.h"
+#include "packets.h"
+#include <io.h>
+#include <fcntl.h>
+#include <sys/stat.h>
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+namespace
+{
+	inline void EMTrace(char* fmt, ...)
+	{
+#ifdef EMSOCKET_DEBUG
+		va_list argptr;
+		char bufferline[512];
+		va_start(argptr, fmt);
+		_vsnprintf(bufferline, 512, fmt, argptr);
+		va_end(argptr);
+		char osDate[30],osTime[30]; 
+		char temp[1024]; 
+		_strtime( osTime );
+		_strdate( osDate );
+		int len = _snprintf(temp,1021,"%s %s: %s",osDate,osTime,bufferline);
+		temp[len++] = 0x0d;
+		temp[len++] = 0x0a;
+		temp[len+1] = 0;
+		HANDLE hFile = CreateFile("c:\\EMSocket.log",           // open MYFILE.TXT 
+                GENERIC_WRITE,              // open for reading 
+                FILE_SHARE_READ,           // share for reading 
+                NULL,                      // no security 
+                OPEN_ALWAYS,               // existing file only 
+                FILE_ATTRIBUTE_NORMAL,     // normal file 
+                NULL);                     // no attr. template 
+  
+		if (hFile != INVALID_HANDLE_VALUE) 
+		{ 
+			DWORD nbBytesWritten = 0;
+			SetFilePointer(hFile, 0, NULL, FILE_END);
+			BOOL b = WriteFile(
+				hFile,                    // handle to file
+				temp,                // data buffer
+				len,     // number of bytes to write
+				&nbBytesWritten,  // number of bytes written
+				NULL        // overlapped buffer
+			);
+			CloseHandle(hFile);
+		}
+#else
+		NOPRM(fmt);
+		//va_list argptr;
+		//va_start(argptr, fmt);
+		//va_end(argptr);
+#endif //EMSOCKET_DEBUG
+	}
+}
+
+CEMSocket::CEMSocket(void)
+{
+	m_eConnectionState = ES_NOTCONNECTED;
+
+	// Download (pseudo) rate control	
+	m_dwDownloadLimit = 0;
+	m_bEnableDownloadLimit = false;
+	m_bPendingOnReceive = false;
+
+	// Download partial header
+	m_dwPendingHeaderSize = 0;
+
+	// Download partial packet
+	m_pPendingPacket = NULL;
+	m_dwPendingPacketSize = 0;
+
+	// Upload control
+	m_pcSendBuffer = NULL;
+	m_dwSendBufLen = 0;
+	m_dwNumBytesSent = 0;
+	m_bLinkedPackets = false;
+
+	// Proxy Support
+	m_pProxyLayer = NULL;
+	m_bProxyConnectFailed = false;
+
+	m_bInPacketReceived = false;
+}
+
+CEMSocket::~CEMSocket()
+{
+	EMTrace("CEMSocket::~CEMSocket() on %d",(SOCKET)this);
+	ClearQueues();
+	RemoveAllLayers();
+	AsyncSelect(0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	Connection initialization is done by class itself
+BOOL CEMSocket::Connect(SOCKADDR *pSockAddr, int iSockAddrLen)
+{
+	InitProxySupport();
+	m_eConnectionState = ES_CONNECTING;
+	return CEncryptedStreamSocket::Connect(pSockAddr, iSockAddrLen);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	Connection initialization is done by class itself
+BOOL CEMSocket::Connect(LPCSTR lpszHostAddress, UINT nHostPort)
+{
+	InitProxySupport();
+	m_eConnectionState = ES_CONNECTING;
+	return CEncryptedStreamSocket::Connect(lpszHostAddress, nHostPort);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::InitProxySupport()
+{
+//	Destroy all proxy layers (done inside Close())
+	Close();
+
+//	Proxy initialization
+	const ProxySettings	&settings = g_App.m_pPrefs->GetProxySettings();
+
+	m_bProxyConnectFailed = false;
+	if (settings.m_bUseProxy && settings.m_nType != PROXYTYPE_NOPROXY)
+	{
+		m_pProxyLayer = new CAsyncProxySocketLayer;
+		switch (settings.m_nType)
+		{
+			case PROXYTYPE_SOCKS4:
+			case PROXYTYPE_SOCKS4A:
+				m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort);
+				break;
+			case PROXYTYPE_SOCKS5:
+			case PROXYTYPE_HTTP11:
+				if (settings.m_bEnablePassword)
+					m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort, settings.m_strUser, settings.m_strPassword);
+				else
+					m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort);
+				break;
+			default:
+				ASSERT(0);
+		}
+		AddLayer(m_pProxyLayer);
+	}
+
+//	Connection Initialization
+	Create(0, SOCK_STREAM, FD_READ | FD_WRITE | FD_OOB | FD_ACCEPT | FD_CONNECT | FD_CLOSE, g_App.m_pPrefs->GetBindAddrA());
+	AsyncSelect(FD_READ | FD_WRITE | FD_OOB | FD_ACCEPT | FD_CONNECT | FD_CLOSE);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::ClearQueues()
+{
+	EMTrace("CEMSocket::ClearQueues on %d",(SOCKET)this);
+	while(!m_controlPacketQueue.IsEmpty())
+	{
+		delete m_controlPacketQueue.RemoveHead();
+	}
+	while (!m_standardPacketQueue.IsEmpty())
+	{
+		delete m_standardPacketQueue.RemoveHead();
+	}
+
+	// Download (pseudo) rate control	
+	m_dwDownloadLimit = 0;
+	m_bEnableDownloadLimit = false;
+	m_bPendingOnReceive = false;
+
+	// Download partial header
+	m_dwPendingHeaderSize = 0;
+
+	// Download partial packet
+	delete m_pPendingPacket;
+	m_pPendingPacket = NULL;
+	m_dwPendingPacketSize = 0;
+
+	// Upload control
+	delete[] m_pcSendBuffer;
+	m_pcSendBuffer = NULL;
+
+	m_dwSendBufLen = 0;
+	m_dwNumBytesSent = 0;
+	m_bLinkedPackets = false;
+}
+
+void CEMSocket::OnClose(int nErrorCode)
+{
+	m_eConnectionState = ES_DISCONNECTED;
+	CEncryptedStreamSocket::OnClose(nErrorCode);
+	RemoveAllLayers();
+	ClearQueues();
+}
+
+BOOL CEMSocket::AsyncSelect(long lEvent)
+{
+#ifdef EMSOCKET_DEBUG
+	if (lEvent&FD_READ)
+		EMTrace("  FD_READ");
+	if (lEvent&FD_CLOSE)
+		EMTrace("  FD_CLOSE");
+	if (lEvent&FD_WRITE)
+		EMTrace("  FD_WRITE");
+#endif
+	// deadlake changed to AsyncSocketEx PROXYSUPPORT
+	if (m_SocketData.hSocket != INVALID_SOCKET)
+		return CEncryptedStreamSocket::AsyncSelect(lEvent);
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::OnReceive(int iErrorCode)
+{
+//	The 2 meg size was taken from another place     // MOREVIT - Um, what??
+	static char g_arrcReadBuffer[2102400];			// 16*TCP window (16*131400)
+
+//	Check for an error code
+	if (iErrorCode != 0)
+	{
+		OnError(iErrorCode);
+		return;
+	}
+	
+//	Check current connection state
+	if (m_eConnectionState == ES_DISCONNECTED)
+		return;
+	else
+		m_eConnectionState = ES_CONNECTED; // ES_DISCONNECTED, ES_NOTCONNECTED, ES_CONNECTED
+
+//	* CPU load improvement
+	if (m_bEnableDownloadLimit && m_dwDownloadLimit == 0)
+	{
+		EMTrace("CEMSocket::OnReceive blocked by limit");
+		m_bPendingOnReceive = true;
+		return;
+	}
+
+//	Determine the maximum amount of data we can read, allowing for the download limit (if any)
+//	Remark: an overflow can not occur here
+	uint32		dwReadMax = sizeof(g_arrcReadBuffer) - m_dwPendingHeaderSize;
+
+	if (m_bEnableDownloadLimit && dwReadMax > m_dwDownloadLimit)
+		dwReadMax = m_dwDownloadLimit;
+
+//	We attempt to read up to 2 megs at a time (minus whatever is in our internal read buffer)
+	uint32		dwNumBytesReceived = Receive(g_arrcReadBuffer + m_dwPendingHeaderSize, dwReadMax);
+
+	if (dwNumBytesReceived == SOCKET_ERROR || dwNumBytesReceived == 0)
+	{
+	//	TODO: Get error information from GetLastError()?
+		return;
+	}
+
+//	* Bandwidth control
+	if (m_bEnableDownloadLimit)
+	{
+	//	Reduce the download limit by the number of bytes received.
+		m_dwDownloadLimit -= dwNumBytesReceived;
+	}
+
+//	* CPU load improvement
+//	Detect if the socket's buffer is empty (or the size did match...)
+	m_bPendingOnReceive = (dwNumBytesReceived == dwReadMax);
+
+//	Copy back the partial header into the global read buffer for processing
+	if (m_dwPendingHeaderSize > 0)
+	{
+		memcpy(g_arrcReadBuffer, m_arrcPendingHeader, m_dwPendingHeaderSize);
+		dwNumBytesReceived += m_dwPendingHeaderSize;
+		m_dwPendingHeaderSize = 0;
+	}
+
+	char		*pcReadBuffer = g_arrcReadBuffer; // floating index initialized with begin of buffer
+	const char	*pcReadBufferEnd = g_arrcReadBuffer + dwNumBytesReceived; // end of buffer
+
+//	Loop, processing packets until we run out of them
+	while ( (pcReadBufferEnd - pcReadBuffer >= PACKET_HEADER_SIZE)
+		 || ((m_pPendingPacket != NULL) && (pcReadBufferEnd - pcReadBuffer > 0)) )
+	{ 
+	// Two possibilities here: 
+	//
+	// 1. There is no pending incoming packet
+	// 2. There is already a partial pending incoming packet
+	//
+	// It's important to remember that emule exchange two kinds of packet
+	// - The control packet
+	// - The data packet for the transport of the block
+	// 
+	// The biggest part of the traffic is done with the data packets. 
+	// The default size of one block is 10240 bytes (or less if compressed), but the
+	// maximal size for one packet on the network is 1300 bytes. It's the reason
+	// why most of the Blocks are splitted before to be sent. 
+	//
+	// Conclusion: When the download limit is disabled, this method can be at least 
+	// called 8 times (10240/1300) by the lower layer before a split packet is 
+	// rebuild and transferred to the above layer for processing.
+	//
+	// The purpose of this algorithm is to limit the amount of data exchanged between buffers
+
+		if (m_pPendingPacket == NULL)
+		{
+		//	Recheck current connection state as it can be changed after data reception
+			if (m_eConnectionState == ES_DISCONNECTED)
+				return;
+		//	Check the header data
+			PacketHeader_Struct	*pNewHeader = reinterpret_cast<PacketHeader_Struct*>(pcReadBuffer);
+
+		//	Bugfix: We still need to check for a valid protocol
+		//	Remark: the default eMule v0.26b had removed this test......
+			switch (pNewHeader->byteEDonkeyProtocol)
+			{
+				case OP_EDONKEYPROT:
+				case OP_PACKEDPROT:
+				case OP_EMULEPROT:
+					break;
+				default:
+					EMTrace("%s: ERROR - Wrong protocol in packet header", __FUNCTION__);
+					OnError(ERR_WRONGHEADER);
+					return;
+			}
+
+		//	Security: Check for buffer overflow (2MB)
+			if ((pNewHeader->dwPacketLength - 1) > sizeof(g_arrcReadBuffer))
+			{
+				OnError(ERR_TOOBIG);
+				return;
+			}
+
+		//	Create new packet container
+			m_pPendingPacket = new Packet(pNewHeader);
+		//	Only the header is initialized so far. Advance past it
+			pcReadBuffer += sizeof(PacketHeader_Struct);
+
+		//	Init data buffer
+			m_pPendingPacket->m_pcBuffer = new char[m_pPendingPacket->m_dwSize + 1];
+			m_dwPendingPacketSize = 0;
+		}
+
+	//	Bytes ready to be copied into packet's internal buffer
+		ASSERT(pcReadBuffer <= pcReadBufferEnd);
+		uint32 dwBytesToCopy = ((m_pPendingPacket->m_dwSize - m_dwPendingPacketSize) < static_cast<uint32>(pcReadBufferEnd - pcReadBuffer))
+							 ? (m_pPendingPacket->m_dwSize - m_dwPendingPacketSize)
+							 : static_cast<uint32>(pcReadBufferEnd - pcReadBuffer);
+
+	//	Copy bytes from Global buffer to packet's internal buffer
+		memcpy2(&m_pPendingPacket->m_pcBuffer[m_dwPendingPacketSize], pcReadBuffer, dwBytesToCopy);
+		m_dwPendingPacketSize += dwBytesToCopy;
+		pcReadBuffer += dwBytesToCopy;
+
+	//	Check if packet is complete
+		ASSERT(m_pPendingPacket->m_dwSize >= m_dwPendingPacketSize);
+		if (m_pPendingPacket->m_dwSize == m_dwPendingPacketSize)
+		{
+#ifdef EMSOCKET_DEBUG
+			EMTrace("CEMSocket::PacketReceived on %d, opcode=%X, realSize=%d", 
+				    static_cast<SOCKET>(this), m_pPendingPacket->m_eOpcode, m_pPendingPacket->GetRealPacketSize());
+#endif EMSOCKET_DEBUG
+
+		//	Process packet
+			m_bInPacketReceived = true;
+			PacketReceived(m_pPendingPacket);
+			m_bInPacketReceived = false;
+			delete m_pPendingPacket;
+			m_pPendingPacket = NULL;
+			m_dwPendingPacketSize = 0;
+		}
+	}
+
+	// Finally, if there is any data left over, save it for next time
+	ASSERT(pcReadBuffer <= pcReadBufferEnd);
+	ASSERT(pcReadBufferEnd - pcReadBuffer < sizeof(PacketHeader_Struct));
+	if (pcReadBuffer != pcReadBufferEnd)
+	{
+		// Keep the partial head
+		m_dwPendingHeaderSize = pcReadBufferEnd - pcReadBuffer;
+		memcpy(m_arrcPendingHeader, pcReadBuffer, m_dwPendingHeaderSize);
+	}	
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::SetDownloadLimit(uint32 dwLimit)
+{
+	m_dwDownloadLimit = dwLimit;
+	m_bEnableDownloadLimit = true;	
+	
+//	CPU load improvement
+	if (dwLimit > 0 && m_bPendingOnReceive)
+	{
+		OnReceive(0);
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::DisableDownloadLimit(bool bAvoidRead)
+{
+	m_bEnableDownloadLimit = false;
+
+//	There're cases when DisableDownloadLimit can be called inside OnReceive()
+//	as OnReceive() uses static buffer it shouldn't be called recursively
+	if (bAvoidRead && m_bInPacketReceived)
+		return;
+
+	// CPU load improvement
+	if (m_bPendingOnReceive)
+		OnReceive(0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::SendPacket(Packet *pPacket, bool bDeletePacket/*=true*/, bool bControlPacket/*=true*/)
+{
+//	EMTrace("CEMSocket::OnSenPacked1 linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, m_controlPacketQueue.GetCount(), m_standardPacketQueue.GetCount(), IsBusy());
+	if (!bDeletePacket)
+	{
+		ASSERT (!pPacket->IsSplit());
+
+		Packet		*pPacketCopy = new Packet(pPacket->m_eOpcode,pPacket->m_dwSize);
+
+		memcpy2(pPacketCopy->m_pcBuffer,pPacket->m_pcBuffer,pPacket->m_dwSize);
+		pPacket = pPacketCopy;
+	}			
+	if (!IsConnected() || IsBusy() || (m_bLinkedPackets && bControlPacket))
+	{
+		if (bControlPacket)
+			m_controlPacketQueue.AddTail(pPacket);
+		else
+			m_standardPacketQueue.AddTail(pPacket);
+		return;
+	}
+
+	bool		bCheckControlQueue = false;
+
+	if (pPacket->IsLastSplit())
+	{
+		m_bLinkedPackets = false;
+		bCheckControlQueue = true;
+	}
+	else if (pPacket->IsSplit())
+	{
+		m_bLinkedPackets = true;
+	}
+	else if (m_bLinkedPackets)
+	{
+		ASSERT(false);
+	}
+//	EMTrace("CEMSocket::OnSenPacked2 linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, m_controlPacketQueue.GetCount(), m_standardPacketQueue.GetCount(), IsBusy());
+	Send(pPacket->DetachPacket(), pPacket->GetRealPacketSize());
+	delete pPacket;
+	if (!IsBusy() && bCheckControlQueue)
+		OnSend(0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::OnSend(int iErrorCode)
+{
+	if (iErrorCode)
+	{
+		OnError(iErrorCode);
+		return;
+	}
+
+//	EMTrace("CEMSocket::OnSend linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, m_controlPacketQueue.GetCount(), m_standardPacketQueue.GetCount(), IsBusy());
+
+	if (m_eConnectionState == ES_DISCONNECTED)
+		return;
+	else
+		m_eConnectionState = ES_CONNECTED;
+
+//	If there's data left in the send buffer, continue sending
+	if (IsBusy())
+		Send(NULL, 0, 0);
+//	If there's _still_ data left...
+	if (IsBusy())
+		return;
+	while ((m_controlPacketQueue.GetHeadPosition() != NULL) && !IsBusy() && IsConnected() && !m_bLinkedPackets)
+	{
+		Packet		*pPacket = m_controlPacketQueue.GetHead();
+
+//		EMTrace("CEMSocket::OnSend sending control packet on %d, size=%u",(SOCKET)this, pPacket->GetRealPacketSize());
+		Send(pPacket->DetachPacket(),pPacket->GetRealPacketSize());
+		m_controlPacketQueue.RemoveHead();
+		delete pPacket;
+	}
+
+	while ((m_standardPacketQueue.GetHeadPosition() != NULL) && !IsBusy() && IsConnected())
+	{
+		Packet		*pPacket = m_standardPacketQueue.GetHead();
+
+		if (pPacket->IsLastSplit())
+			m_bLinkedPackets = false;
+		else if (pPacket->IsSplit())
+			m_bLinkedPackets = true;
+		else if (m_bLinkedPackets)
+		{
+			ASSERT(false);
+		}
+//		EMTrace("CEMSocket::OnSend sending standard packet on %d, size=%u",(SOCKET)this, pPacket->GetRealPacketSize());
+		Send(pPacket->DetachPacket(), pPacket->GetRealPacketSize());
+		m_standardPacketQueue.RemoveHead();
+		delete pPacket;
+	}
+
+	while ((m_controlPacketQueue.GetHeadPosition() != NULL) && !IsBusy() && IsConnected() && !m_bLinkedPackets)
+	{
+		Packet		*pPacket = m_controlPacketQueue.GetHead();
+
+//		EMTrace("CEMSocket::OnSend sending control packet on %d, size=%u",(SOCKET)this, pPacket->GetRealPacketSize());
+		Send(pPacket->DetachPacket(), pPacket->GetRealPacketSize());
+		m_controlPacketQueue.RemoveHead();
+		delete pPacket;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CEMSocket::Send(char *pcBuffer, int iBufLen, int iFlags)
+{
+	NOPRM(iFlags);
+//	EMTrace("CEMSocket::Send linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, m_controlPacketQueue.GetCount(), m_standardPacketQueue.GetCount(), IsBusy());
+	ASSERT(m_pcSendBuffer == NULL || pcBuffer == NULL);
+
+	if (pcBuffer != NULL)
+	{
+		m_pcSendBuffer = pcBuffer;
+		m_dwSendBufLen = iBufLen;
+		m_dwNumBytesSent = 0;
+	}
+	while (true)
+	{
+		uint32		dwBytesToSend = m_dwSendBufLen - m_dwNumBytesSent;
+
+		if (dwBytesToSend > MAXFRAGSIZE)
+			dwBytesToSend = MAXFRAGSIZE;
+		ASSERT(dwBytesToSend != 0);
+		
+		uint32		dwNumBytesSent = CEncryptedStreamSocket::Send(m_pcSendBuffer+m_dwNumBytesSent,dwBytesToSend);
+
+		if (dwNumBytesSent == static_cast<uint32>(SOCKET_ERROR))
+		{
+			uint32		dwError = GetLastError();
+
+		//	If the socket isn't ready for more data yet...
+			if (dwError == WSAEWOULDBLOCK)
+			{
+				break;
+			}
+			else
+			{
+//				OnError(dwError);
+				return -1;
+			}
+		}
+		m_dwNumBytesSent += dwNumBytesSent;
+		ASSERT(m_dwNumBytesSent <= m_dwSendBufLen);
+		if (m_dwNumBytesSent == m_dwSendBufLen)
+		{
+			delete[] m_pcSendBuffer;
+			m_pcSendBuffer = NULL;
+			m_dwNumBytesSent = 0;
+			m_dwSendBufLen = 0;
+			break;
+		}
+	}
+
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// pach2:
+// written this overriden Receive to handle transparently FIN notifications coming from calls to recv()
+// This was maybe(??) the cause of a lot of socket error, notably after a brutal close from peer
+// also added trace so that we can debug after the fact ...
+int CEMSocket::Receive(void* lpBuf, int nBufLen, int nFlags)
+{
+//	EMTrace("CEMSocket::Receive on %d, maxSize=%d",(SOCKET)this,nBufLen);
+	int recvRetCode = CEncryptedStreamSocket::Receive(lpBuf,nBufLen,nFlags);
+	switch (recvRetCode)
+	{
+	case 0:
+		//EMTrace("CEMSocket::##Received FIN on %d, maxSize=%d",(SOCKET)this,nBufLen);
+		// FIN received on socket // Connection is being closed by peer
+		//ASSERT (false);
+		if ( 0 == AsyncSelect(FD_CLOSE|FD_WRITE) )
+ 		{ // no more READ notifications ...
+			//int waserr = GetLastError(); // oups, AsyncSelect failed !!!
+			ASSERT(false);
+		}
+		return 0;
+	case SOCKET_ERROR:
+		switch(GetLastError())
+		{
+		case WSANOTINITIALISED:
+			ASSERT(false);
+			EMTrace("CEMSocket::OnReceive:A successful AfxSocketInit must occur before using this API.");
+			break;
+		case WSAENETDOWN:
+			ASSERT(true);
+			EMTrace("CEMSocket::OnReceive:The socket %d received a net down error",(SOCKET)this);
+			break;
+		case WSAENOTCONN: // The socket is not connected. 
+			EMTrace("CEMSocket::OnReceive:The socket %d is not connected",(SOCKET)this);
+			break;
+		case WSAEINPROGRESS:   // A blocking Windows Sockets operation is in progress. 
+			EMTrace("CEMSocket::OnReceive:The socket %d is blocked",(SOCKET)this);
+			break;
+		case WSAEWOULDBLOCK:   // The socket is marked as nonblocking and the Receive operation would block. 
+			EMTrace("CEMSocket::OnReceive:The socket %d would block",(SOCKET)this);
+			break;
+		case WSAENOTSOCK:   // The descriptor is not a socket. 
+			EMTrace("CEMSocket::OnReceive:The descriptor %d is not a socket (may have been closed or never created)",(SOCKET)this);
+			break;
+		case WSAEOPNOTSUPP:  // MSG_OOB was specified, but the socket is not of type SOCK_STREAM. 
+			break;
+		case WSAESHUTDOWN:   // The socket has been shut down; it is not possible to call Receive on a socket after ShutDown has been invoked with nHow set to 0 or 2. 
+			EMTrace("CEMSocket::OnReceive:The socket %d has been shut down",(SOCKET)this);
+			break;
+		case WSAEMSGSIZE:   // The datagram was too large to fit into the specified buffer and was truncated. 
+			EMTrace("CEMSocket::OnReceive:The datagram was too large to fit and was truncated (socket %d)",(SOCKET)this);
+			break;
+		case WSAEINVAL:   // The socket has not been bound with Bind. 
+			EMTrace("CEMSocket::OnReceive:The socket %d has not been bound",(SOCKET)this);
+			break;
+		case WSAECONNABORTED:   // The virtual circuit was aborted due to timeout or other failure. 
+			EMTrace("CEMSocket::OnReceive:The socket %d has not been bound",(SOCKET)this);
+			break;
+		case WSAECONNRESET:   // The virtual circuit was reset by the remote side. 
+			EMTrace("CEMSocket::OnReceive:The socket %d has not been bound",(SOCKET)this);
+			break;
+		default:
+			EMTrace("CEMSocket::OnReceive:Unexpected socket error %x on socket %d",GetLastError(),(SOCKET)this);
+			break;
+		}
+		break;
+	default:
+//		EMTrace("CEMSocket::OnReceive on %d, receivedSize=%d",(SOCKET)this,recvRetCode);
+		return recvRetCode;
+	}
+	return SOCKET_ERROR;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEMSocket::RemoveAllLayers()
+{
+//	Reset proxy layer chain
+	CEncryptedStreamSocket::RemoveAllLayers();
+	
+	delete m_pProxyLayer;
+	m_pProxyLayer = NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CEMSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nCode, WPARAM wParam, LPARAM lParam)
+{
+	ASSERT(pLayer);
+	/*if (nType == LAYERCALLBACK_STATECHANGE)
+	{
+		CString 	logline;
+
+		if (pLayer==m_pProxyLayer)
+		{
+			logline.Format(_T("ProxyLayer changed state from %d to %d"), nParam2, nParam1);
+			AddLogLine(0, logline);
+		}
+		else
+			logline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+			AddLogLine(0, logline);
+		return 1;
+	}
+	else */if (nType == LAYERCALLBACK_LAYERSPECIFIC)
+	{
+		if (pLayer == m_pProxyLayer)
+		{
+			CString	strError(GetProxyError(nCode));
+
+			switch (nCode)
+			{
+				case PROXYERROR_NOCONN:
+					// We failed to connect to the proxy
+					m_bProxyConnectFailed = true;
+				case PROXYERROR_REQUESTFAILED:
+					if (lParam && ((LPCSTR)lParam)[0] != '\0')
+					{
+						strError += _T(" - ");
+						strError += (LPCSTR)lParam;
+					}
+					if (wParam)
+					{
+						CString	strErrInf;
+
+						if (GetErrorMessage(wParam, strErrInf, 1))
+						{
+							strError += _T(" - ");
+							strError += strErrInf;
+						}
+					}
+				default:
+					AddLogLine(0, _T("Proxy error - %s"), strError);
+			}
+		}
+	}
+	return 1;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	TruncateQueues()
+//		Removes all packets from the standard queue that don't have to be sent for the socket to be able to send a control packet
+//
+//		Before a socket can send a new packet, the current packet has to be finished. If the current packet is part of
+//		a split packet, then all parts of that split packet must be sent before the socket can send a control packet
+//
+//		This method leaves only minimal required number of data packets to transfer full data packet (complete chain of packets)
+//		Return:
+//			true  - full chain of data packets is available (no need more)
+//			false - more data packets are required to complete chain of packets
+bool CEMSocket::TruncateQueues()
+{
+	POSITION	pos, pos2;
+	Packet		*pPkt;
+
+	if (m_standardPacketQueue.IsEmpty() && !m_bLinkedPackets)
+		return true;
+
+	for (pos = m_standardPacketQueue.GetHeadPosition(); pos != NULL;)
+	{
+		if (m_standardPacketQueue.GetNext(pos)->IsLastSplit())
+		{
+		//	Found last packet of data packet chain, flush the rest to save bandwidth
+			for (;(pos2 = pos) != NULL;)
+			{
+				pPkt = m_standardPacketQueue.GetNext(pos);
+				m_standardPacketQueue.RemoveAt(pos2);
+				delete pPkt;
+			}
+			return true;
+		}
+	}
+
+	return false;
+}
+@
+
+
+1.56
+log
+@Encryption preparations.
+@
+text
+@d170 1
+a170 1
+	Create();
+@
+
+
+1.55
+log
+@Reduced H-file dependency.
+@
+text
+@d127 1
+a127 1
+	return CAsyncSocketEx::Connect(pSockAddr, iSockAddrLen);
+d135 1
+a135 1
+	return CAsyncSocketEx::Connect(lpszHostAddress, nHostPort);
+d211 1
+a211 1
+	CAsyncSocketEx::OnClose(nErrorCode);
+d228 1
+a228 1
+		return CAsyncSocketEx::AsyncSelect(lEvent);
+d549 1
+a549 1
+		uint32		dwNumBytesSent = CAsyncSocketEx::Send(m_pcSendBuffer+m_dwNumBytesSent,dwBytesToSend);
+d588 1
+a588 1
+	int recvRetCode = CAsyncSocketEx::Receive(lpBuf,nBufLen,nFlags);
+d656 1
+a656 1
+	CAsyncSocketEx::RemoveAllLayers();
+@
+
+
+1.54
+log
+@Simplified logging system implementation.
+@
+text
+@d24 2
+a25 1
+
+d297 1
+a297 1
+	while ( (pcReadBufferEnd - pcReadBuffer >= sizeof(PacketHeader_Struct))
+@
+
+
+1.53
+log
+@Suppressed compiler warnings.
+@
+text
+@d671 1
+a671 1
+			AddLogLine(false, logline);
+d675 1
+a675 1
+			AddLogLine(false, logline);
+d706 1
+a706 1
+					AddLogLine(false, _T("Proxy error - %s"), strError);
+@
+
+
+1.52
+log
+@Packet length structure field was changed from signed to unsigned.
+@
+text
+@d76 1
+d528 1
+a528 1
+int CEMSocket::Send(char *pcBuffer,int iBufLen,int iFlags)
+d530 1
+@
+
+
+1.51
+log
+@Fixed source loss at the time of unexpected downloading disconnection {muleteer};
+Fixed ability to keep connection after cancel transfer reception; Formatting.
+@
+text
+@d341 1
+a341 1
+			if ((pNewHeader->lPacketLength - 1) > sizeof(g_arrcReadBuffer))
+@
+
+
+1.50
+log
+@Simplified processing of the protocol variable.
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d108 2
+d377 2
+a378 1
+			// Process packet
+d380 2
+a381 1
+			delete m_pPendingPacket;	
+d416 1
+a416 1
+	if (bAvoidRead)
+d420 1
+a420 1
+	if (m_bPendingOnReceive == true)
+d436 1
+a436 1
+	if (((!IsConnected()) || IsBusy()) || (m_bLinkedPackets && bControlPacket))
+d461 1
+a461 1
+	Send(pPacket->DetachPacket(),pPacket->GetRealPacketSize());
+d484 1
+a484 1
+		Send(NULL,0,0);
+d488 1
+a488 1
+	while (m_controlPacketQueue.GetHeadPosition() != 0 && (!IsBusy()) && IsConnected() && !m_bLinkedPackets)
+d498 1
+a498 1
+	while (m_standardPacketQueue.GetHeadPosition() != 0 && (!IsBusy()) && IsConnected())
+a502 1
+		{
+a503 1
+		}
+a504 1
+		{
+a505 1
+		}
+d511 1
+a511 1
+		Send(pPacket->DetachPacket(),pPacket->GetRealPacketSize());
+d516 1
+a516 1
+	while (m_controlPacketQueue.GetHeadPosition() != 0 && (!IsBusy()) && IsConnected() && !m_bLinkedPackets)
+d521 1
+a521 1
+		Send(pPacket->DetachPacket(),pPacket->GetRealPacketSize());
+a524 1
+
+d530 1
+a530 1
+	ASSERT (m_pcSendBuffer == NULL || pcBuffer == NULL );
+d710 36
+@
+
+
+1.49
+log
+@Corrected comment.
+@
+text
+@d326 1
+a326 1
+			switch (pNewHeader->m_eEDonkeyProtocol)
+d339 1
+a339 1
+			if ((pNewHeader->m_lPacketLength - 1) > sizeof(g_arrcReadBuffer))
+@
+
+
+1.48
+log
+@Don't process Rx packets after socket disconnection in case several packets were already buffered.
+@
+text
+@d318 1
+a318 1
+		//	Recheck current connection state as it can change safter data reception
+@
+
+
+1.47
+log
+@1) last LowID check, i.e. put LowID client in proper state in TryToConnect();
+2) added CONNECTING state
+3) force request by A4AF swap for LowID clients (the proper state will set inTryToConnect() )
+@
+text
+@d318 3
+d322 1
+a322 1
+			PacketHeader_Struct	*pHewHeader = reinterpret_cast<PacketHeader_Struct*>(pcReadBuffer);
+d326 1
+a326 1
+			switch (pHewHeader->m_eEDonkeyProtocol)
+d333 1
+a333 1
+					EMTrace("%s: ERROR - Wrong protocol in packet header",__FUNCTION__);
+d339 1
+a339 1
+			if ((pHewHeader->m_lPacketLength - 1) > sizeof(g_arrcReadBuffer))
+d346 1
+a346 1
+			m_pPendingPacket = new Packet(pHewHeader);
+@
+
+
+1.46
+log
+@Unicode preparations; Slightly faster socket creation to contact other sources.
+@
+text
+@d122 1
+d130 1
+@
+
+
+1.45
+log
+@Formatting.
+@
+text
+@d119 7
+d128 6
+a165 2
+
+	return CAsyncSocketEx::Connect(lpszHostAddress, nHostPort);
+@
+
+
+1.44
+log
+@speed optimization
+@
+text
+@a245 1
+	{
+a246 1
+	}
+d271 1
+a271 1
+  		memcpy(g_arrcReadBuffer, m_arrcPendingHeader, m_dwPendingHeaderSize);
+d278 1
+a278 1
+//
+d305 2
+a306 2
+		//	Check the header date
+			PacketHeader_Struct* pHewHeader = reinterpret_cast<PacketHeader_Struct*>(pcReadBuffer);
+d323 1
+a323 1
+			if ((pHewHeader->m_lPacketLength-1) > sizeof(g_arrcReadBuffer))
+d329 1
+a329 1
+		//	Create new packet container.
+d331 1
+a331 1
+		//	Only the header is initialized so far. Advance past it.
+d370 2
+a371 1
+	if (pcReadBuffer != pcReadBufferEnd) {
+@
+
+
+1.43
+log
+@Ranamed GetProxy into GetProxySettings; Optimization; Crypt/Decrypt only on load/save.
+@
+text
+@d273 1
+a273 1
+  		memcpy2(g_arrcReadBuffer, m_arrcPendingHeader, m_dwPendingHeaderSize);
+d307 2
+a308 4
+		//	Create new packet container.
+			m_pPendingPacket = new Packet(reinterpret_cast<PacketHeader_Struct*>(pcReadBuffer));
+		//	Only the header is initialized so far. Advance past it.
+			pcReadBuffer += sizeof(PacketHeader_Struct);
+d312 1
+a312 1
+			switch (m_pPendingPacket->m_eProtocol)
+a319 2
+					delete m_pPendingPacket;
+					m_pPendingPacket = NULL;
+d325 1
+a325 1
+			if (m_pPendingPacket->m_dwSize > sizeof(g_arrcReadBuffer))
+a326 2
+				delete m_pPendingPacket;
+				m_pPendingPacket = NULL;
+d331 5
+d375 1
+a375 1
+		memcpy2(m_arrcPendingHeader, pcReadBuffer, m_dwPendingHeaderSize);
+@
+
+
+1.42
+log
+@Update socket layer code from original (formatting and minor changes);
+Corrected Unicode issues;
+Applied a couple of optimizations for proxy support (from original).
+@
+text
+@d121 1
+a121 1
+//	Destroy all proxy layers (done inside Close() )
+d125 1
+a125 1
+	ProxySettings		settings = g_App.m_pPrefs->GetProxy();
+d140 1
+a140 1
+					m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+@
+
+
+1.41
+log
+@Fixed timeout processing for chat session (timeout only in case when both sides don't send anything).
+@
+text
+@d18 2
+a19 2
+#include "StdAfx.h"
+#include "emsocket.h"
+a20 1
+#include "stdafx.h"
+a92 1
+	// memzero(m_arrcPendingHeader, sizeof(m_arrcPendingHeader));
+d107 1
+a107 1
+	m_ProxyConnectFailed = false;
+d119 1
+a119 1
+BOOL CEMSocket::Connect(LPCTSTR lpszHostAddress, UINT nHostPort)
+d127 1
+a127 1
+	m_ProxyConnectFailed = false;
+a133 2
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.m_strName,settings.m_uPort);
+				break;
+d135 1
+a135 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.m_strName,settings.m_uPort);
+a137 5
+				if (settings.m_bEnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName, settings.m_uPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName,settings.m_uPort);
+				break;
+d140 1
+a140 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_uPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+d142 1
+a142 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_uPort);
+d144 2
+a145 1
+			default: ASSERT(FALSE);
+a174 1
+	// memzero(m_arrcPendingHeader, sizeof(m_arrcPendingHeader));
+d178 3
+a180 6
+	if (m_pPendingPacket != NULL)
+	{
+		delete m_pPendingPacket;
+		m_pPendingPacket = NULL;
+		m_dwPendingPacketSize = 0;
+	}
+d183 3
+a185 5
+	if (m_pcSendBuffer != NULL)
+	{
+		delete[] m_pcSendBuffer;
+		m_pcSendBuffer = NULL;
+	}
+d197 1
+a197 1
+};
+d199 3
+a201 1
+BOOL CEMSocket::AsyncSelect(long lEvent){
+d208 2
+a228 1
+	{
+a229 1
+	}
+a230 1
+	{	
+a231 1
+	}
+d642 2
+a643 6
+//	Proxy Layer Destruction
+	if (m_pProxyLayer) 
+	{
+		delete m_pProxyLayer;
+		m_pProxyLayer = NULL;
+	}
+d646 1
+a646 1
+int CEMSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nParam1, int nParam2)
+d667 3
+a669 1
+			switch (nParam1)
+d672 2
+a673 5
+					//TODO: This error message(s) should be outputed only during startup - otherwise we'll see a lot of
+					//them in the log window which would be of no use.
+					if (nParam2 != 0)
+						AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_NOCONN) + _T(" - ") + GetErrorMessage(nParam2));
+					break;
+d675 15
+a689 17
+					//TODO: This error message(s) should be outputed only during startup - otherwise we'll see a lot of
+					//them in the log window which would be of no use.
+					if (nParam2 != 0)
+						AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED) + _T(" - ") + (LPCSTR)nParam2);
+					break;
+				case PROXYERROR_AUTHTYPEUNKNOWN:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+					break;
+				case PROXYERROR_AUTHFAILED:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+					break;
+				case PROXYERROR_AUTHNOLOGON:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+					break;
+				case PROXYERROR_CANTRESOLVEHOST:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+					break;
+d691 1
+a691 1
+					AddLogLine(false, _T("Proxy error - %s"), GetProxyError(nParam1));
+@
+
+
+1.40
+log
+@Minor formatting.
+@
+text
+@d420 1
+a420 1
+bool CEMSocket::SendPacket(Packet *pPacket, bool bDeletePacket/*=true*/,bool bControlPacket/*=true*/)
+a434 1
+		{
+a435 3
+
+			return true;
+		}
+a436 1
+		{
+d438 1
+a438 3
+
+			return true;
+		}
+a460 2
+
+	return true;
+@
+
+
+1.39
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d686 1
+a686 1
+			ogline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+@
+
+
+1.38
+log
+@renamed 3 variables
+@
+text
+@d127 1
+a127 1
+	ProxySettings		settings = g_App.g_pPrefs->GetProxy();
+@
+
+
+1.37
+log
+@Improved string processing.
+@
+text
+@d127 1
+a127 1
+	ProxySettings		settings = g_eMuleApp.m_pGlobPrefs->GetProxy();
+@
+
+
+1.36
+log
+@Fixed socket processing flaw causing exceptions at the end of downloading {muleteer}.
+@
+text
+@d696 1
+a696 4
+			// changed by deadlake -> errormessages could be ignored -> there's not a problem with the connection - 
+			// only the proxyserver handles the connections to low ( small bandwidth? )
+			case PROXYERROR_NOCONN:
+				{
+d699 4
+a702 8
+					CString 	strError;
+
+					if (nParam2 != NULL && GetErrorMessage(nParam2, strError) != NULL)
+						AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_NOCONN) + _T(" - ") + strError);
+					break;
+				}
+		  	case PROXYERROR_REQUESTFAILED:
+				{
+d705 1
+a705 1
+					if (nParam2 != NULL)
+d708 14
+a721 15
+				}
+			case PROXYERROR_AUTHTYPEUNKNOWN:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+				break;
+			case PROXYERROR_AUTHFAILED:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+				break;
+			case PROXYERROR_AUTHNOLOGON:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+				break;
+			case PROXYERROR_CANTRESOLVEHOST:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+				break;
+			default:
+				AddLogLine(false, _T("Proxy error - %s"), GetProxyError(nParam1));
+@
+
+
+1.35
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d406 2
+a407 1
+void CEMSocket::DisableDownloadLimit(){
+d410 5
+d416 2
+a417 3
+	if(m_bPendingOnReceive == true){
+	    OnReceive(0);
+    }
+d734 1
+a734 1
+}@
+
+
+1.34
+log
+@changes/fixes
+@
+text
+@d123 1
+a123 1
+//	Destroy all proxy layers
+a124 1
+	RemoveAllLayers();
+@
+
+
+1.33
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d22 2
+a23 2
+#include "emule.h" // deadlake PROXYSUPPORT
+#include "emuleDlg.h" // deadlake PROXYSUPPORT
+d37 4
+a40 2
+namespace {
+	inline void EMTrace(char* fmt, ...) {
+a46 1
+		//(Ornis+)
+d84 2
+a85 1
+CEMSocket::CEMSocket(void){
+d107 1
+a107 1
+	// deadlake PROXYSUPPORT
+d112 2
+a113 1
+CEMSocket::~CEMSocket(){
+d116 1
+a116 1
+	RemoveAllLayers(); // deadlake PROXYSUPPORT
+d123 1
+a123 2
+//	deadlake PROXYSUPPORT
+//	Destroy all layers
+d188 2
+a189 1
+	if(m_pPendingPacket != NULL){
+d196 2
+a197 1
+	if(m_pcSendBuffer != NULL){
+d206 2
+a207 1
+void CEMSocket::OnClose(int nErrorCode){
+d209 2
+a210 2
+	CAsyncSocketEx::OnClose(nErrorCode); // deadlake changed socket to PROXYSUPPORT ( AsyncSocketEx )
+	RemoveAllLayers(); // deadlake PROXYSUPPORT
+a220 1
+	// deadlake changed to AsyncSocketEx PROXYSUPPORT
+d255 1
+a255 1
+//
+d257 1
+d312 1
+a312 1
+	// why most of the Blocks are split before being m_dwNumBytesSent. 
+d552 1
+a552 1
+		uint32		dwNumBytesSent = CAsyncSocketEx::Send(m_pcSendBuffer+m_dwNumBytesSent,dwBytesToSend); // deadlake PROXYSUPPORT - changed to AsyncSocketEx
+d591 3
+a593 2
+	int recvRetCode = CAsyncSocketEx::Receive(lpBuf,nBufLen,nFlags); // deadlake PROXYSUPPORT - changed to AsyncSocketEx
+	switch (recvRetCode) {
+d598 3
+a600 2
+		if ( 0 == AsyncSelect(FD_CLOSE|FD_WRITE) ) { // no more READ notifications ...
+			int waserr = GetLastError(); // oups, AsyncSelect failed !!!
+d605 2
+a606 1
+		switch(GetLastError()) {
+d648 1
+a648 1
+		return SOCKET_ERROR;
+d658 1
+a658 1
+// deadlake PROXYSUPPORT ( RESETS LAYER CHAIN BY MAVERICK )
+d661 1
+a661 1
+//	ProxyLayer Destruction
+d672 1
+a672 1
+	if (nType==LAYERCALLBACK_STATECHANGE)
+d674 2
+a675 1
+		CString logline;
+d678 6
+a683 5
+			//logline.Format(_T("ProxyLayer changed state from %d to %d"), nParam2, nParam1);
+			//AddLogLine(false, logline);
+		}else
+			//logline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+			//AddLogLine(false, logline);
+d686 1
+a686 1
+	else if (nType==LAYERCALLBACK_LAYERSPECIFIC)
+d688 1
+a688 1
+		if (pLayer==m_pProxyLayer)
+d695 17
+a711 6
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+				break;
+		/*	case PROXYERROR_REQUESTFAILED:
+				AddLogLine(false, GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+				m_ProxyConnectFailed = false; // deadlake
+				break; */
+d724 2
+a725 2
+			default:;
+				//	AddLogLine(false, IDS_ERRORMSG_PROXY_UNKNOWN, nParam1); // netwolf (tim2k)
+d730 1
+a730 2
+}
+// end deadlake
+@
+
+
+1.32
+log
+@fixed data transfer after cancel request
+@
+text
+@d92 1
+a92 1
+	// memset2(m_arrcPendingHeader, 0, sizeof(m_arrcPendingHeader));
+d182 1
+a182 1
+	// memset2(m_arrcPendingHeader, 0, sizeof(m_arrcPendingHeader));
+@
+
+
+1.31
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d164 2
+a165 1
+void CEMSocket::ClearQueues(){
+d167 8
+a174 6
+	for(POSITION pos = m_controlPacketQueue.GetHeadPosition(); pos != NULL; m_controlPacketQueue.GetNext(pos))
+		delete m_controlPacketQueue.GetAt(pos);
+	m_controlPacketQueue.RemoveAll();
+	for(POSITION pos = m_standardPacketQueue.GetHeadPosition(); pos != NULL; m_standardPacketQueue.GetNext(pos))
+		delete m_standardPacketQueue.GetAt(pos);
+	m_standardPacketQueue.RemoveAll();
+@
+
+
+1.30
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d682 1
+a682 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d689 1
+a689 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d692 1
+a692 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d695 1
+a695 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d698 1
+a698 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+@
+
+
+1.29
+log
+@Added some colors to the logs...
+@
+text
+@d667 1
+a667 1
+			//AddLogLine(false,logline);
+d670 1
+a670 1
+			//AddLogLine(false,logline);
+d682 1
+a682 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d685 1
+a685 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+d689 1
+a689 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d692 1
+a692 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d695 1
+a695 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d698 1
+a698 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+d701 1
+a701 1
+				//	AddLogLine(false,IDS_ERRORMSG_PROXY_UNKNOWN, nParam1); // netwolf (tim2k)
+@
+
+
+1.28
+log
+@Formatting, comments, and name changes.
+@
+text
+@d682 1
+a682 1
+				AddLogLine(false, IDS_ERRORMSG_PROXY_NOCONN);
+d689 1
+a689 1
+				AddLogLine(false, IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN);
+d692 1
+a692 1
+				AddLogLine(false, IDS_ERRORMSG_PROXY_AUTHFAILED);
+d695 1
+a695 1
+				AddLogLine(false, IDS_ERRORMSG_PROXY_AUTHNOLOGON);
+d698 1
+a698 1
+				AddLogLine(false, IDS_ERRORMSG_PROXY_CANTRESOLVEHOST);
+@
+
+
+1.27
+log
+@Proxy password is now also crypted
+@
+text
+@d135 1
+a135 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.m_strName,settings.m_nPort);
+d138 1
+a138 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.m_strName,settings.m_nPort);
+d142 1
+a142 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName, settings.m_nPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+d144 1
+a144 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName,settings.m_nPort);
+d148 1
+a148 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_nPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+d150 1
+a150 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_nPort);
+d307 1
+a307 1
+	// called 8 times (10240/1300) by the lower layer before a splitted packet is 
+@
+
+
+1.26
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d142 1
+a142 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName, settings.m_nPort, settings.m_strUser, settings.m_strPassword);
+d148 1
+a148 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_nPort, settings.m_strUser, settings.m_strPassword);
+@
+
+
+1.25
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d92 1
+a92 1
+	// memset(m_arrcPendingHeader, 0, sizeof(m_arrcPendingHeader));
+d179 1
+a179 1
+	// memset(m_arrcPendingHeader, 0, sizeof(m_arrcPendingHeader));
+@
+
+
+1.24
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d24 1
+a24 1
+#include "memcpy_amd.h"
+@
+
+
+1.23
+log
+@Formatting, comments, and name changes.
+@
+text
+@d87 3
+a89 3
+	downloadLimit = 0;
+	downloadLimitEnable = false;
+	pendingOnReceive = false;
+d92 2
+a93 2
+	// memset(pendingHeader, 0, sizeof(pendingHeader));
+	pendingHeaderSize = 0;
+d96 2
+a97 2
+	pendingPacket = NULL;
+	pendingPacketSize = 0;
+d100 3
+a102 3
+	sendbuffer = NULL;
+	sendblen = 0;
+	sent = 0;
+d116 2
+a117 3
+
+// deadlake PROXYSUPPORT
+// By Maverick: Connection initialisition is done by class itself
+d120 2
+a121 1
+	// By Maverick Destroy all layers
+d125 3
+a127 2
+	// ProxyInitialisation
+	ProxySettings settings = g_eMuleApp.m_pGlobPrefs->GetProxy();
+d129 1
+a129 1
+	if (settings.m_bUseProxy && settings.m_nType!=PROXYTYPE_NOPROXY)
+d131 1
+a131 1
+		m_pProxyLayer=new CAsyncProxySocketLayer;
+d157 1
+a157 1
+	// Connection Initialisation
+d160 1
+a161 1
+	return false;
+d163 1
+a163 2
+// end deadlake
+
+d166 6
+a171 6
+	for(POSITION pos = controlpacket_queue.GetHeadPosition(); pos != NULL; controlpacket_queue.GetNext(pos))
+		delete controlpacket_queue.GetAt(pos);
+	controlpacket_queue.RemoveAll();
+	for(POSITION pos = standardpacket_queue.GetHeadPosition(); pos != NULL; standardpacket_queue.GetNext(pos))
+		delete standardpacket_queue.GetAt(pos);
+	standardpacket_queue.RemoveAll();
+d174 3
+a176 3
+	downloadLimit = 0;
+	downloadLimitEnable = false;
+	pendingOnReceive = false;
+d179 2
+a180 2
+	// memset(pendingHeader, 0, sizeof(pendingHeader));
+	pendingHeaderSize = 0;
+d183 4
+a186 4
+	if(pendingPacket != NULL){
+		delete pendingPacket;
+		pendingPacket = NULL;
+		pendingPacketSize = 0;
+d190 3
+a192 3
+	if(sendbuffer != NULL){
+		delete[] sendbuffer;
+		sendbuffer = NULL;
+d194 2
+a195 2
+	sendblen = 0;
+	sent = 0;
+d218 5
+d224 4
+a227 7
+void CEMSocket::OnReceive(int nErrorCode){
+	// the 2 meg size was taken from another place
+	static char GlobalReadBuffer[2102400];	// 16*TCP window (16*131400)
+
+	// Check for an error code
+	if(nErrorCode != 0){
+		OnError(nErrorCode);
+d231 3
+a233 2
+	// Check current connection state
+	if(m_eConnectionState == ES_DISCONNECTED){
+d236 2
+a237 1
+	else {	
+d241 3
+a243 2
+	// CPU load improvement
+	if(downloadLimitEnable == true && downloadLimit == 0){
+d245 1
+a245 1
+		pendingOnReceive = true;
+d248 3
+d252 3
+a254 4
+	// Remark: an overflow can not occur here
+	uint32 readMax = sizeof(GlobalReadBuffer) - pendingHeaderSize; 
+	if(downloadLimitEnable == true && readMax > downloadLimit) {
+		readMax = downloadLimit;
+d257 6
+a262 3
+	// We attempt to read up to 2 megs at a time (minus whatever is in our internal read buffer)
+	uint32 ret = Receive(GlobalReadBuffer + pendingHeaderSize, readMax);
+	if (ret == SOCKET_ERROR || ret == 0) {
+d266 5
+a270 4
+	// Bandwidth control
+	if(downloadLimitEnable == true){
+		// Update limit
+		downloadLimit -= ret;
+d273 38
+a310 3
+	// CPU load improvement
+	// Detect if the socket's buffer is empty (or the size did match...)
+	pendingOnReceive = (ret == readMax) ? true : false;
+d312 11
+a322 41
+	// Copy back the partial header into the global read buffer for processing
+	if(pendingHeaderSize > 0) {
+  		memcpy2(GlobalReadBuffer, pendingHeader, pendingHeaderSize);
+		ret += pendingHeaderSize;
+		pendingHeaderSize = 0;
+	}
+
+	char *rptr = GlobalReadBuffer; // floating index initialized with begin of buffer
+	const char *rend = GlobalReadBuffer + ret; // end of buffer
+
+	// Loop, processing packets until we run out of them
+	while((rend - rptr >= PACKET_HEADER_SIZE) ||
+	      ((pendingPacket != NULL) && (rend - rptr > 0 ))){ 
+
+		// Two possibilities here: 
+		//
+		// 1. There is no pending incoming packet
+		// 2. There is already a partial pending incoming packet
+		//
+		// It's important to remember that emule exchange two kinds of packet
+		// - The control packet
+		// - The data packet for the transport of the block
+		// 
+		// The biggest part of the traffic is done with the data packets. 
+		// The default size of one block is 10240 bytes (or less if compressed), but the
+		// maximal size for one packet on the network is 1300 bytes. It's the reason
+		// why most of the Blocks are splitted before to be sent. 
+		//
+		// Conclusion: When the download limit is disabled, this method can be at least 
+		// called 8 times (10240/1300) by the lower layer before a splitted packet is 
+		// rebuild and transferred to the above layer for processing.
+		//
+		// The purpose of this algorithm is to limit the amount of data exchanged between buffers
+
+		if(pendingPacket == NULL){
+			pendingPacket = new Packet(rptr); // Create new packet container. 
+			rptr += 6;                        // Only the header is initialized so far
+
+			// Bugfix We still need to check for a valid protocol
+			// Remark: the default eMule v0.26b had removed this test......
+			switch (pendingPacket->prot){
+d328 3
+a330 3
+					EMTrace("CEMSocket::OnReceive ERROR Wrong header");
+					delete pendingPacket;
+					pendingPacket = NULL;
+d335 30
+a364 27
+			// Security: Check for buffer overflow (2MB)
+			if(pendingPacket->size > sizeof(GlobalReadBuffer)) {
+				delete pendingPacket;
+				pendingPacket = NULL;
+			OnError(ERR_TOOBIG);
+			return;
+		}
+
+			// Init data buffer
+			pendingPacket->pBuffer = new char[pendingPacket->size + 1];
+			pendingPacketSize = 0;
+		}
+
+		// Bytes ready to be copied into packet's internal buffer
+		ASSERT(rptr <= rend);
+		uint32 toCopy = ((pendingPacket->size - pendingPacketSize) < (uint32)(rend - rptr)) ? 
+			             (pendingPacket->size - pendingPacketSize) : (uint32)(rend - rptr);
+
+		// Copy Bytes from Global buffer to packet's internal buffer
+		memcpy2(&pendingPacket->pBuffer[pendingPacketSize], rptr, toCopy);
+		pendingPacketSize += toCopy;
+		rptr += toCopy;
+
+		// Check if packet is complet
+		ASSERT(pendingPacket->size >= pendingPacketSize);
+		if(pendingPacket->size == pendingPacketSize){
+			#ifdef EMSOCKET_DEBUG
+d366 2
+a367 2
+				    (SOCKET)this, pendingPacket->opcode, pendingPacket->GetRealPacketSize());
+			#endif
+d370 4
+a373 4
+			PacketReceived(pendingPacket);
+			delete pendingPacket;	
+			pendingPacket = NULL;
+			pendingPacketSize = 0;
+d378 3
+a380 3
+	ASSERT(rptr <= rend);
+	ASSERT(rend - rptr < PACKET_HEADER_SIZE);
+	if (rptr != rend) {
+d382 2
+a383 2
+		pendingHeaderSize = rend - rptr;
+		memcpy2(pendingHeader, rptr, pendingHeaderSize);
+d386 5
+a390 4
+
+void CEMSocket::SetDownloadLimit(uint32 limit){
+	downloadLimit = limit;
+	downloadLimitEnable = true;	
+d392 3
+a394 2
+	// CPU load improvement
+	if(limit > 0 && pendingOnReceive == true){
+d398 1
+a398 1
+
+d400 1
+a400 1
+	downloadLimitEnable = false;
+d403 1
+a403 1
+	if(pendingOnReceive == true){
+d407 9
+d417 2
+a418 7
+bool CEMSocket::SendPacket(Packet* packet, bool delpacket,bool controlpacket){
+	//EMTrace("CEMSocket::OnSenPacked1 linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standardpacket_queue.GetCount(), IsBusy());
+	if (!delpacket){
+		ASSERT ( !packet->IsSplitted() );
+		Packet* copy = new Packet(packet->opcode,packet->size);
+		memcpy2(copy->pBuffer,packet->pBuffer,packet->size);
+		packet = copy;
+d420 6
+a425 3
+	if ( ( (!IsConnected()) || IsBusy() ) || ( m_bLinkedPackets && controlpacket ) ){
+		if (controlpacket){
+			controlpacket_queue.AddTail(packet);
+d428 4
+a431 2
+		else{
+			standardpacket_queue.AddTail(packet);
+d435 5
+a439 2
+	bool bCheckControlQueue = false;
+	if (packet->IsLastSplitted() ){
+d443 2
+a444 1
+	else if (packet->IsSplitted())
+d446 1
+d448 6
+a453 4
+		ASSERT (false);
+	//EMTrace("CEMSocket::OnSenPacked2 linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standardpacket_queue.GetCount(), IsBusy());
+	Send(packet->DetachPacket(),packet->GetRealPacketSize());
+	delete packet;
+d456 1
+d459 6
+a464 4
+
+void CEMSocket::OnSend(int nErrorCode){
+	if (nErrorCode){
+		OnError(nErrorCode);
+d468 1
+a468 1
+	//EMTrace("CEMSocket::OnSend linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standardpacket_queue.GetCount(), IsBusy());
+d475 1
+d477 2
+a478 1
+		Send(0,0,0);
+d481 8
+a488 6
+	while (controlpacket_queue.GetHeadPosition() != 0 && (!IsBusy()) && IsConnected() && !m_bLinkedPackets){
+		Packet* cur_packet = controlpacket_queue.GetHead();
+//		EMTrace("CEMSocket::OnSend sending control packet on %d, size=%u",(SOCKET)this, cur_packet->GetRealPacketSize());
+		Send(cur_packet->DetachPacket(),cur_packet->GetRealPacketSize());
+		controlpacket_queue.RemoveHead();
+		delete cur_packet;
+d491 6
+a496 3
+	while (standardpacket_queue.GetHeadPosition() != 0 && (!IsBusy()) && IsConnected()){
+		Packet* cur_packet = standardpacket_queue.GetHead();
+		if (cur_packet->IsLastSplitted() )
+d498 3
+a500 1
+		else if (cur_packet->IsSplitted())
+d502 1
+d504 17
+a520 13
+			ASSERT (false);
+//		EMTrace("CEMSocket::OnSend sending standard packet on %d, size=%u",(SOCKET)this, cur_packet->GetRealPacketSize());
+		Send(cur_packet->DetachPacket(),cur_packet->GetRealPacketSize());
+		standardpacket_queue.RemoveHead();
+		delete cur_packet;
+	}
+
+	while (controlpacket_queue.GetHeadPosition() != 0 && (!IsBusy()) && IsConnected() && !m_bLinkedPackets){
+		Packet* cur_packet = controlpacket_queue.GetHead();
+//		EMTrace("CEMSocket::OnSend sending control packet on %d, size=%u",(SOCKET)this, cur_packet->GetRealPacketSize());
+		Send(cur_packet->DetachPacket(),cur_packet->GetRealPacketSize());
+		controlpacket_queue.RemoveHead();
+		delete cur_packet;
+d524 15
+d540 3
+a542 13
+int CEMSocket::Send(char* lpBuf,int nBufLen,int nFlags){
+	//EMTrace("CEMSocket::Send linked: %i, controlcount %i, standardcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standardpacket_queue.GetCount(), IsBusy());
+	ASSERT (sendbuffer == NULL || lpBuf == NULL );
+	if (lpBuf){
+		sendbuffer = lpBuf;
+		sendblen = nBufLen;
+		sent = 0;
+	}
+	while (true){
+		uint32 tosend = sendblen-sent;
+		if (tosend > MAXFRAGSIZE)
+			tosend = MAXFRAGSIZE;
+		ASSERT (tosend != 0);
+d544 9
+a552 4
+		uint32 result = CAsyncSocketEx::Send(sendbuffer+sent,tosend); // deadlake PROXYSUPPORT - changed to AsyncSocketEx
+		if (result == (uint32)SOCKET_ERROR){
+			uint32 error = GetLastError();
+			if (error == WSAEWOULDBLOCK){
+d555 3
+a557 2
+			else{
+				//OnError(error);
+d561 8
+a568 7
+		sent += result;
+		ASSERT (sent <= sendblen);
+		if (sent == sendblen){
+			delete[] sendbuffer;
+			sendbuffer = 0;
+			sent = 0;
+			sendblen = 0;
+d572 1
+d575 1
+a575 1
+
+d644 1
+a644 3
+
+
+// deadlake PROXYSUPPORT ( RESETS LAYER CHAIN BY MAVERICK )
+d647 1
+d650 1
+a650 1
+	// ProxyLayer Destruction
+d657 1
+a657 1
+
+@
+
+
+1.22
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d84 1
+a84 1
+	byConnected = ES_NOTCONNECTED;
+d128 1
+a128 1
+	if (settings.UseProxy && settings.type!=PROXYTYPE_NOPROXY)
+d131 1
+a131 1
+		switch (settings.type)
+d134 1
+a134 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.name,settings.port);
+d137 1
+a137 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.name,settings.port);
+d140 2
+a141 2
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name, settings.port, settings.user, settings.password);
+d143 1
+a143 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name,settings.port);
+d146 2
+a147 2
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port, settings.user, settings.password);
+d149 1
+a149 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port);
+d200 1
+a200 1
+	byConnected = ES_DISCONNECTED;
+d230 1
+a230 1
+	if(byConnected == ES_DISCONNECTED){
+d234 1
+a234 1
+		byConnected = ES_CONNECTED; // ES_DISCONNECTED, ES_NOTCONNECTED, ES_CONNECTED
+d430 1
+a430 1
+	if (byConnected == ES_DISCONNECTED)
+d433 1
+a433 1
+		byConnected = ES_CONNECTED;
+@
+
+
+1.21
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d268 1
+a268 5
+		#ifndef AMD
+  		memcpy(GlobalReadBuffer, pendingHeader, pendingHeaderSize);
+		#else
+		memcpy_amd(GlobalReadBuffer, pendingHeader, pendingHeaderSize);
+		#endif
+d338 1
+a338 5
+		#ifndef AMD
+		memcpy(&pendingPacket->pBuffer[pendingPacketSize], rptr, toCopy);
+		#else
+		memcpy_amd(&pendingPacket->pBuffer[pendingPacketSize], rptr, toCopy);
+		#endif
+d364 1
+a364 5
+		#ifndef AMD
+		memcpy(pendingHeader, rptr, pendingHeaderSize);
+		#else
+		memcpy_amd(pendingHeader, rptr, pendingHeaderSize);
+		#endif
+d392 1
+a392 5
+		#ifndef AMD
+		memcpy(copy->pBuffer,packet->pBuffer,packet->size);
+		#else
+		memcpy_amd(copy->pBuffer,packet->pBuffer,packet->size);
+		#endif
+@
+
+
+1.20
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d126 1
+a126 1
+	ProxySettings settings = theApp.glob_prefs->GetProxy();
+@
+
+
+1.19
+log
+@roll back last change... & small optimization
+@
+text
+@d169 3
+a171 3
+	for(POSITION pos = standartpacket_queue.GetHeadPosition(); pos != NULL; standartpacket_queue.GetNext(pos))
+		delete standartpacket_queue.GetAt(pos);
+	standartpacket_queue.RemoveAll();
+d300 1
+a300 1
+		// rebuild and transfered to the above layer for processing.
+d400 1
+a400 1
+	//EMTrace("CEMSocket::OnSenPacked1 linked: %i, controlcount %i, standartcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standartpacket_queue.GetCount(), IsBusy());
+d417 1
+a417 1
+			standartpacket_queue.AddTail(packet);
+d430 1
+a430 1
+	//EMTrace("CEMSocket::OnSenPacked2 linked: %i, controlcount %i, standartcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standartpacket_queue.GetCount(), IsBusy());
+d444 1
+a444 1
+	//EMTrace("CEMSocket::OnSend linked: %i, controlcount %i, standartcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standartpacket_queue.GetCount(), IsBusy());
+d463 2
+a464 2
+	while (standartpacket_queue.GetHeadPosition() != 0 && (!IsBusy()) && IsConnected()){
+		Packet* cur_packet = standartpacket_queue.GetHead();
+d471 1
+a471 1
+//		EMTrace("CEMSocket::OnSend sending standart packet on %d, size=%u",(SOCKET)this, cur_packet->GetRealPacketSize());
+d473 1
+a473 1
+		standartpacket_queue.RemoveHead();
+d488 1
+a488 1
+	//EMTrace("CEMSocket::Send linked: %i, controlcount %i, standartcount %i, isbusy: %i",m_bLinkedPackets, controlpacket_queue.GetCount(), standartpacket_queue.GetCount(), IsBusy());
+@
+
+
+1.18
+log
+@small correction connected to "Server reconnection problem"
+@
+text
+@d123 1
+a123 1
+	//RemoveAllLayers();
+d221 1
+a221 1
+	static char GlobalReadBuffer[2000000];
+@
+
+
+1.17
+log
+@commented out 'unknown proxy error' log line
+@
+text
+@d123 1
+a123 1
+	RemoveAllLayers();
+@
+
+
+1.16
+log
+@some more localizations...
+@
+text
+@d650 2
+a651 2
+			default:
+				AddLogLine(false,IDS_ERRORMSG_PROXY_UNKNOWN, nParam1); // netwolf (tim2k)
+@
+
+
+1.15
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d651 1
+a651 1
+				AddLogLine(false,_T("Unknown proxy error: %08X"), nParam1); // netwolf (tim2k)
+@
+
+
+1.14
+log
+@converted to new logger methods
+@
+text
+@d24 1
+d268 1
+d270 3
+d342 1
+d344 3
+d372 1
+d374 3
+d404 1
+d406 3
+d657 1
+a657 1
+// end deadlake@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d615 1
+a615 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d622 1
+a622 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d625 1
+a625 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d628 1
+a628 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d631 1
+a631 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+@
+
+
+1.12
+log
+@Upgrade to 0.28a
+@
+text
+@d634 1
+a634 1
+				AddLogLine(false,_T("Unknown proxy error") );
+@
+
+
+1.11
+log
+@small optimisation
+@
+text
+@d22 2
+a23 2
+#include "emule.h"
+#include "emuleDlg.h" 
+d75 3
+a77 3
+		va_list argptr;
+		va_start(argptr, fmt);
+		va_end(argptr);
+a82 2
+	limitenabled = false;
+	downloadlimit = 0;
+d84 16
+a99 1
+	sendbuffer = 0;
+a101 2
+	readbuf = NULL;
+	readbuf_size = 0;
+d104 3
+a106 2
+	m_pProxyLayer = NULL; // deadlake ( Maverick )
+	m_ProxyConnectFailed = false; // deadlake ( Maverick )
+d112 1
+a112 3
+
+	// deadlake ( Maverick )
+	RemoveAllLayers();
+d116 1
+a116 1
+// deadlake 
+d165 1
+a165 1
+	for (POSITION pos = controlpacket_queue.GetHeadPosition();pos != 0;controlpacket_queue.GetNext(pos))
+d168 1
+a168 1
+	for (POSITION pos = standartpacket_queue.GetHeadPosition();pos != 0;standartpacket_queue.GetNext(pos))
+d171 15
+a185 4
+	if (readbuf){
+		delete[] readbuf;
+		readbuf = 0;
+		readbuf_size = 0;
+d187 3
+a189 1
+	if (sendbuffer)
+d191 2
+a192 1
+	sendbuffer = 0;
+a194 1
+	limitenabled = false;
+d200 2
+a201 1
+	CAsyncSocketEx::OnClose(nErrorCode); // deadlake / Maverick
+a202 1
+	RemoveAllLayers(); // deadlake / Maverick
+d212 1
+a212 2
+	// deadlake / Maverick
+	// changed to AsyncSocketEx
+a214 1
+	// end deadlake / Maverick
+d222 2
+a223 1
+	if (nErrorCode){
+d227 3
+a229 1
+	if (byConnected == ES_DISCONNECTED)
+d231 4
+a234 2
+	else
+		byConnected = ES_CONNECTED;
+d236 4
+a239 8
+	uint32 readMax = sizeof(GlobalReadBuffer) - readbuf_size;
+
+	// Buffer overflow
+	if (readMax == 0) {
+		delete readbuf;
+		readbuf = NULL;
+		readbuf_size = 0;
+		OnError(ERR_TOOBIG);
+d243 4
+a246 2
+	if (limitenabled && readMax > downloadlimit) {
+		readMax = downloadlimit;
+d250 1
+a250 2
+	uint32 ret = Receive(GlobalReadBuffer + readbuf_size, readMax);
+
+d255 4
+a258 2
+	if (limitenabled) {
+		downloadlimit -= ret;
+d261 9
+a269 7
+	// Copy over our temporary read buffer into the global read buffer for processing
+	if (readbuf) {
+  		memcpy(GlobalReadBuffer, readbuf, readbuf_size);
+		ret += readbuf_size;
+		delete[] readbuf;
+		readbuf = NULL;
+		readbuf_size = 0;
+d272 2
+a273 2
+	char *rptr = GlobalReadBuffer;
+	char *rend = GlobalReadBuffer + ret;
+d276 2
+a277 2
+	while (rend - rptr >= 6) {
+		Packet packet(rptr);
+d279 38
+a316 1
+		rptr += 6;
+d318 4
+a321 1
+		if (packet.size > sizeof(GlobalReadBuffer)) {			
+d326 3
+a328 3
+		if (packet.size > (uint32)(rend - rptr)) {
+			rptr -= 6;			
+			break;
+d331 24
+a354 7
+
+		char *packetBuffer = new char[packet.size + 1];
+		memcpy(packetBuffer, rptr, packet.size);
+
+		rptr += packet.size;
+		packet.pBuffer = packetBuffer;
+		PacketReceived(&packet);		
+d359 1
+d361 3
+a363 3
+		readbuf_size = rend - rptr;
+		readbuf = new char[readbuf_size];
+		memcpy(readbuf, rptr, readbuf_size);
+d368 7
+a374 3
+	limitenabled = true;
+	downloadlimit = limit;
+	OnReceive(0);
+d378 6
+a383 2
+	limitenabled = false;
+	OnReceive(0);
+d483 2
+a484 3
+		// deadlake / Maverick
+		// changed to AsyncSocketEx
+		uint32 result = CAsyncSocketEx::Send(sendbuffer+sent,tosend);
+d515 1
+a515 2
+	// AsyncSocketEx - deadlake / Maverick
+	int recvRetCode = CAsyncSocketEx::Receive(lpBuf,nBufLen,nFlags);
+d577 2
+a578 3
+// deadlake 26d
+// By Maverick
+//Resets layer chain.
+d612 2
+d617 1
+a617 1
+			case PROXYERROR_REQUESTFAILED:
+d619 2
+a620 2
+				m_ProxyConnectFailed = false;
+				break;
+d634 1
+a634 1
+				AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+@
+
+
+1.10
+log
+@converted to new logging method
+@
+text
+@d250 1
+a250 1
+		Packet *packet = new Packet(rptr);
+d254 1
+a254 2
+		if (packet->size > sizeof(GlobalReadBuffer)) {
+			delete packet;
+d259 2
+a260 3
+		if (packet->size > (uint32)(rend - rptr)) {
+			rptr -= 6;
+			delete packet;
+d265 2
+a266 2
+		char *packetBuffer = new char[packet->size + 1];
+		memcpy(packetBuffer, rptr, packet->size);
+d268 3
+a270 4
+		rptr += packet->size;
+		packet->pBuffer = packetBuffer;
+		PacketReceived(packet);
+		delete packet;
+@
+
+
+1.10.4.1
+log
+@27a partial merge
+@
+text
+@d74 4
+a77 4
+#else 
+		//va_list argptr;
+		//va_start(argptr, fmt);
+		//va_end(argptr);
+d83 2
+d86 1
+a86 16
+
+	// Download (pseudo) rate control	
+	downloadLimit = 0;
+	downloadLimitEnable = false;
+	pendingOnReceive = false;
+
+	// Download partial header
+	// memset(pendingHeader, 0, sizeof(pendingHeader));
+	pendingHeaderSize = 0;
+
+	// Download partial packet
+	pendingPacket = NULL;
+	pendingPacketSize = 0;
+
+	// Upload control
+	sendbuffer = NULL;
+d89 2
+d100 1
+d155 1
+a155 1
+	for(POSITION pos = controlpacket_queue.GetHeadPosition(); pos != NULL; controlpacket_queue.GetNext(pos))
+d158 1
+a158 1
+	for(POSITION pos = standartpacket_queue.GetHeadPosition(); pos != NULL; standartpacket_queue.GetNext(pos))
+d161 4
+a164 15
+
+	// Download (pseudo) rate control	
+	downloadLimit = 0;
+	downloadLimitEnable = false;
+	pendingOnReceive = false;
+
+	// Download partial header
+	// memset(pendingHeader, 0, sizeof(pendingHeader));
+	pendingHeaderSize = 0;
+
+	// Download partial packet
+	if(pendingPacket != NULL){
+		delete pendingPacket;
+		pendingPacket = NULL;
+		pendingPacketSize = 0;
+d166 1
+a166 3
+
+	// Upload control
+	if(sendbuffer != NULL){
+d168 1
+a168 2
+		sendbuffer = NULL;
+	}
+d171 1
+d201 1
+a201 2
+	// Check for an error code
+	if(nErrorCode != 0){
+d205 1
+a205 3
+	
+	// Check current connection state
+	if(byConnected == ES_DISCONNECTED){
+d207 4
+a210 4
+	}
+	else {	
+		byConnected = ES_CONNECTED; // ES_DISCONNECTED, ES_NOTCONNECTED, ES_CONNECTED
+	}
+d212 6
+a217 4
+	// CPU load improvement
+	if(downloadLimitEnable == true && downloadLimit == 0){
+		EMTrace("CEMSocket::OnReceive blocked by limit");
+		pendingOnReceive = true;
+d221 2
+a222 4
+	// Remark: an overflow can not occur here
+	uint32 readMax = sizeof(GlobalReadBuffer) - pendingHeaderSize; 
+	if(downloadLimitEnable == true && readMax > downloadLimit) {
+		readMax = downloadLimit;
+d226 3
+a228 2
+	uint32 ret = Receive(GlobalReadBuffer + pendingHeaderSize, readMax);
+	if(ret == SOCKET_ERROR || ret == 0){
+d232 2
+a233 4
+	// Bandwidth control
+	if(downloadLimitEnable == true){
+		// Update limit
+		downloadLimit -= ret;
+d236 7
+a242 9
+	// CPU load improvement
+	// Detect if the socket's buffer is empty (or the size did match...)
+	pendingOnReceive = (ret == readMax) ? true : false;
+
+	// Copy back the partial header into the global read buffer for processing
+	if(pendingHeaderSize > 0) {
+  		memcpy(GlobalReadBuffer, pendingHeader, pendingHeaderSize);
+		ret += pendingHeaderSize;
+		pendingHeaderSize = 0;
+d245 2
+a246 2
+	char *rptr = GlobalReadBuffer; // floating index initialized with begin of buffer
+	const char *rend = GlobalReadBuffer + ret; // end of buffer
+d249 4
+a252 2
+	while((rend - rptr >= PACKET_HEADER_SIZE) ||
+	      ((pendingPacket != NULL) && (rend - rptr > 0 ))){ 
+d254 4
+a257 50
+		// Two possibilities here: 
+		//
+		// 1. There is no pending incoming packet
+		// 2. There is already a partial pending incoming packet
+		//
+		// It's important to remember that emule exchange two kinds of packet
+		// - The control packet
+		// - The data packet for the transport of the block
+		// 
+		// The biggest part of the traffic is done with the data packets. 
+		// The default size of one block is 10240 bytes (or less if compressed), but the
+		// maximal size for one packet on the network is 1300 bytes. It's the reason
+		// why most of the Blocks are splitted before to be sent. 
+		//
+		// Conclusion: When the download limit is disabled, this method can be at least 
+		// called 8 times (10240/1300) by the lower layer before a splitted packet is 
+		// rebuild and transfered to the above layer for processing.
+		//
+		// The purpose of this algorithm is to limit the amount of data exchanged between buffers
+
+		if(pendingPacket == NULL){
+			pendingPacket = new Packet(rptr); // Create new packet container. 
+			rptr += 6;                        // Only the header is initialized so far
+
+			// Bugfix We still need to check for a valid protocol
+			// Remark: the default eMule v0.26b had removed this test......
+			switch (pendingPacket->prot){
+				case OP_EDONKEYPROT:
+				case OP_PACKEDPROT:
+				case OP_EMULEPROT:
+					break;
+				default:
+					EMTrace("CEMSocket::OnReceive ERROR Wrong header");
+					delete pendingPacket;
+					pendingPacket = NULL;
+					OnError(ERR_WRONGHEADER);
+					return;
+			}
+
+			// Security: Check for buffer overflow (2MB)
+			if(pendingPacket->size > sizeof(GlobalReadBuffer)) {
+				delete pendingPacket;
+				pendingPacket = NULL;
+				OnError(ERR_TOOBIG);
+				return;
+			}
+
+			// Init data buffer
+			pendingPacket->pBuffer = new char[pendingPacket->size + 1];
+			pendingPacketSize = 0;
+d260 4
+a263 23
+		// Bytes ready to be copied into packet's internal buffer
+		ASSERT(rptr <= rend);
+		uint32 toCopy = ((pendingPacket->size - pendingPacketSize) < (uint32)(rend - rptr)) ? 
+			             (pendingPacket->size - pendingPacketSize) : (uint32)(rend - rptr);
+
+		// Copy Bytes from Global buffer to packet's internal buffer
+		memcpy(&pendingPacket->pBuffer[pendingPacketSize], rptr, toCopy);
+		pendingPacketSize += toCopy;
+		rptr += toCopy;
+		
+		// Check if packet is complet
+		ASSERT(pendingPacket->size >= pendingPacketSize);
+		if(pendingPacket->size == pendingPacketSize){
+			#ifdef EMSOCKET_DEBUG
+			EMTrace("CEMSocket::PacketReceived on %d, opcode=%X, realSize=%d", 
+				    (SOCKET)this, pendingPacket->opcode, pendingPacket->GetRealPacketSize());
+			#endif
+
+			// Process packet
+			PacketReceived(pendingPacket);
+			delete pendingPacket;	
+			pendingPacket = NULL;
+			pendingPacketSize = 0;
+d265 9
+d278 4
+a281 5
+	ASSERT(rend - rptr < PACKET_HEADER_SIZE);
+	if(rptr != rend) {
+		// Keep the partial head
+		pendingHeaderSize = rend - rptr;
+		memcpy(pendingHeader, rptr, pendingHeaderSize);
+d285 4
+a288 8
+void CEMSocket::SetDownloadLimit(uint32 limit){	
+	downloadLimit = limit;
+	downloadLimitEnable = true;	
+	
+	// CPU load improvement
+	if(limit > 0 && pendingOnReceive == true){
+		OnReceive(0);
+	}
+d292 2
+a293 6
+	downloadLimitEnable = false;
+
+	// CPU load improvement
+	if(pendingOnReceive == true){
+		OnReceive(0);
+	}
+@
+
+
+1.9
+log
+@Proxy Support (deadlake)
+@
+text
+@d513 1
+a513 1
+			//theApp.emuledlg->AddLogLine(false,logline);
+d516 1
+a516 1
+			//theApp.emuledlg->AddLogLine(false,logline);
+d526 1
+a526 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d529 1
+a529 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+d533 1
+a533 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d536 1
+a536 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d539 1
+a539 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d542 1
+a542 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+d545 1
+a545 1
+				theApp.emuledlg->AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+@
+
+
+1.8
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d21 3
+d92 3
+d100 3
+d106 47
+d177 1
+a177 1
+	CAsyncSocket::OnClose(nErrorCode);
+d179 1
+d189 5
+a193 2
+	if (m_hSocket != INVALID_SOCKET)
+		return CAsyncSocket::AsyncSelect(lEvent);
+d393 3
+a395 1
+		uint32 result = CAsyncSocket::Send(sendbuffer+sent,tosend);
+d426 2
+a427 1
+	int recvRetCode = CAsyncSocket::Receive(lpBuf,nBufLen,nFlags);
+d488 64
+@
+
+
+1.8.2.1
+log
+@keeping in sync with the main cvs line
+@
+text
+@a20 3
+#include "stdafx.h"
+#include "emule.h"
+#include "emuleDlg.h" 
+a88 3
+
+	m_pProxyLayer = NULL; // deadlake ( Maverick )
+	m_ProxyConnectFailed = false; // deadlake ( Maverick )
+a93 3
+
+	// deadlake ( Maverick )
+	RemoveAllLayers();
+a96 47
+// deadlake 
+// By Maverick: Connection initialisition is done by class itself
+BOOL CEMSocket::Connect(LPCTSTR lpszHostAddress, UINT nHostPort)
+{
+	// By Maverick Destroy all layers
+	Close();
+	RemoveAllLayers();
+
+	// ProxyInitialisation
+	ProxySettings settings = theApp.glob_prefs->GetProxy();
+	m_ProxyConnectFailed = false;
+	if (settings.UseProxy && settings.type!=PROXYTYPE_NOPROXY)
+	{
+		m_pProxyLayer=new CAsyncProxySocketLayer;
+		switch (settings.type)
+		{
+			case PROXYTYPE_SOCKS4:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS4A:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS5:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name, settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name,settings.port);
+				break;
+			case PROXYTYPE_HTTP11:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port);
+				break;
+			default: ASSERT(FALSE);
+		}
+		AddLayer(m_pProxyLayer);
+	}
+
+	// Connection Initialisation
+	Create();
+	AsyncSelect(FD_READ | FD_WRITE | FD_OOB | FD_ACCEPT | FD_CONNECT | FD_CLOSE);
+	return CAsyncSocketEx::Connect(lpszHostAddress, nHostPort);
+	return false;
+}
+// end deadlake
+
+d121 1
+a121 1
+	CAsyncSocketEx::OnClose(nErrorCode); // deadlake / Maverick
+a122 1
+	RemoveAllLayers(); // deadlake / Maverick
+d132 2
+a133 5
+	// deadlake / Maverick
+	// changed to AsyncSocketEx
+	if (m_SocketData.hSocket != INVALID_SOCKET)
+		return CAsyncSocketEx::AsyncSelect(lEvent);
+	// end deadlake / Maverick
+d333 1
+a333 3
+		// deadlake / Maverick
+		// changed to AsyncSocketEx
+		uint32 result = CAsyncSocketEx::Send(sendbuffer+sent,tosend);
+d364 1
+a364 2
+	// AsyncSocketEx - deadlake / Maverick
+	int recvRetCode = CAsyncSocketEx::Receive(lpBuf,nBufLen,nFlags);
+a424 64
+
+// deadlake 26d
+// By Maverick
+//Resets layer chain.
+void CEMSocket::RemoveAllLayers()
+{
+	CAsyncSocketEx::RemoveAllLayers();
+	
+	// ProxyLayer Destruction
+	if (m_pProxyLayer) 
+	{
+		delete m_pProxyLayer;
+		m_pProxyLayer = NULL;
+	}
+}
+
+int CEMSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nParam1, int nParam2)
+{
+	ASSERT(pLayer);
+	if (nType==LAYERCALLBACK_STATECHANGE)
+	{
+		CString logline;
+		if (pLayer==m_pProxyLayer)
+		{
+			//logline.Format(_T("ProxyLayer changed state from %d to %d"), nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		}else
+			//logline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		return 1;
+	}
+	else if (nType==LAYERCALLBACK_LAYERSPECIFIC)
+	{
+		if (pLayer==m_pProxyLayer)
+		{
+			switch (nParam1)
+			{
+			case PROXYERROR_NOCONN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+				break;
+			case PROXYERROR_REQUESTFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+				m_ProxyConnectFailed = false;
+				break;
+			case PROXYERROR_AUTHTYPEUNKNOWN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+				break;
+			case PROXYERROR_AUTHFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+				break;
+			case PROXYERROR_AUTHNOLOGON:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+				break;
+			case PROXYERROR_CANTRESOLVEHOST:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+				break;
+			default:
+				theApp.emuledlg->AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+			}
+		}
+	}
+	return 1;
+}
+// end deadlake@
+
+
+1.8.4.1
+log
+@Proxy support fixes from deadlake.
+@
+text
+@a20 3
+#include "stdafx.h"
+#include "emule.h"
+#include "emuleDlg.h" 
+a88 3
+
+	m_pProxyLayer = NULL; // deadlake ( Maverick )
+	m_ProxyConnectFailed = false; // deadlake ( Maverick )
+a93 3
+
+	// deadlake ( Maverick )
+	RemoveAllLayers();
+a96 47
+// deadlake 
+// By Maverick: Connection initialisition is done by class itself
+BOOL CEMSocket::Connect(LPCTSTR lpszHostAddress, UINT nHostPort)
+{
+	// By Maverick Destroy all layers
+	Close();
+	RemoveAllLayers();
+
+	// ProxyInitialisation
+	ProxySettings settings = theApp.glob_prefs->GetProxy();
+	m_ProxyConnectFailed = false;
+	if (settings.UseProxy && settings.type!=PROXYTYPE_NOPROXY)
+	{
+		m_pProxyLayer=new CAsyncProxySocketLayer;
+		switch (settings.type)
+		{
+			case PROXYTYPE_SOCKS4:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS4A:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS5:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name, settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name,settings.port);
+				break;
+			case PROXYTYPE_HTTP11:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port);
+				break;
+			default: ASSERT(FALSE);
+		}
+		AddLayer(m_pProxyLayer);
+	}
+
+	// Connection Initialisation
+	Create();
+	AsyncSelect(FD_READ | FD_WRITE | FD_OOB | FD_ACCEPT | FD_CONNECT | FD_CLOSE);
+	return CAsyncSocketEx::Connect(lpszHostAddress, nHostPort);
+	return false;
+}
+// end deadlake
+
+d121 1
+a121 1
+	CAsyncSocketEx::OnClose(nErrorCode); // deadlake / Maverick
+a122 1
+	RemoveAllLayers(); // deadlake / Maverick
+d132 2
+a133 5
+	// deadlake / Maverick
+	// changed to AsyncSocketEx
+	if (m_SocketData.hSocket != INVALID_SOCKET)
+		return CAsyncSocketEx::AsyncSelect(lEvent);
+	// end deadlake / Maverick
+d333 1
+a333 3
+		// deadlake / Maverick
+		// changed to AsyncSocketEx
+		uint32 result = CAsyncSocketEx::Send(sendbuffer+sent,tosend);
+d364 1
+a364 2
+	// AsyncSocketEx - deadlake / Maverick
+	int recvRetCode = CAsyncSocketEx::Receive(lpBuf,nBufLen,nFlags);
+a424 64
+
+// deadlake 26d
+// By Maverick
+//Resets layer chain.
+void CEMSocket::RemoveAllLayers()
+{
+	CAsyncSocketEx::RemoveAllLayers();
+	
+	// ProxyLayer Destruction
+	if (m_pProxyLayer) 
+	{
+		delete m_pProxyLayer;
+		m_pProxyLayer = NULL;
+	}
+}
+
+int CEMSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nParam1, int nParam2)
+{
+	ASSERT(pLayer);
+	if (nType==LAYERCALLBACK_STATECHANGE)
+	{
+		CString logline;
+		if (pLayer==m_pProxyLayer)
+		{
+			//logline.Format(_T("ProxyLayer changed state from %d to %d"), nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		}else
+			//logline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		return 1;
+	}
+	else if (nType==LAYERCALLBACK_LAYERSPECIFIC)
+	{
+		if (pLayer==m_pProxyLayer)
+		{
+			switch (nParam1)
+			{
+			case PROXYERROR_NOCONN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+				break;
+			case PROXYERROR_REQUESTFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+				m_ProxyConnectFailed = false;
+				break;
+			case PROXYERROR_AUTHTYPEUNKNOWN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+				break;
+			case PROXYERROR_AUTHFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+				break;
+			case PROXYERROR_AUTHNOLOGON:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+				break;
+			case PROXYERROR_CANTRESOLVEHOST:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+				break;
+			default:
+				theApp.emuledlg->AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+			}
+		}
+	}
+	return 1;
+}
+// end deadlake@
+
+
+1.7
+log
+@more 26b merges
+@
+text
+@d26 7
+@
+
+
+1.6
+log
+@memory leak fix
+@
+text
+@d28 1
+a28 1
+#ifdef _DEBUG
+d68 1
+a68 1
+#endif
+@
+
+
+1.5
+log
+@Merge from official sockets
+@
+text
+@d188 1
+@
+
+
+1.5.2.1
+log
+@initial upgrade to .26
+@
+text
+@a188 1
+			delete packet;
+d192 1
+a192 1
+		if (packet->size > rend - rptr) {
+@
+
+
+1.4
+log
+@port to .25 b codebase...
+@
+text
+@a20 3
+#include "stdafx.h"
+#include "emule.h"
+#include "emuleDlg.h"
+d25 1
+a72 1
+	EMULE_TRY
+a75 4
+	dataneeded = 0;
+	datawaiting = 0;
+	receivedpacket = 0;
+	readbuffer = 0;
+d79 2
+a81 4
+	// By Maverick
+	m_pProxyLayer = NULL;
+	m_ProxyConnectFailed = false;
+	EMULE_CATCH
+a84 1
+	EMULE_TRY
+d87 1
+a87 51
+
+	// By Maverick Destroy all layers
+	RemoveAllLayers();
+	EMULE_CATCH
+}
+
+// By Maverick: Connection initialisition is done by class itself
+BOOL CEMSocket::Connect(LPCTSTR lpszHostAddress, UINT nHostPort)
+{
+	EMULE_TRY
+	// By Maverick Destroy all layers
+	Close();
+	RemoveAllLayers();
+
+	// ProxyInitialisation
+	ProxySettings settings = theApp.glob_prefs->GetProxy();
+	m_ProxyConnectFailed = false;
+	if (settings.UseProxy && settings.type!=PROXYTYPE_NOPROXY)
+	{
+		m_pProxyLayer=new CAsyncProxySocketLayer;
+		switch (settings.type)
+		{
+			case PROXYTYPE_SOCKS4:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS4A:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS5:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name, settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name,settings.port);
+				break;
+			case PROXYTYPE_HTTP11:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port);
+				break;
+			default: ASSERT(FALSE);
+		}
+		AddLayer(m_pProxyLayer);
+	}
+
+	// Connection Initialisation
+	Create();
+	AsyncSelect(FD_READ | FD_WRITE | FD_OOB | FD_ACCEPT | FD_CONNECT | FD_CLOSE);
+	return CEMSocketBaseClass::Connect(lpszHostAddress, nHostPort);
+	EMULE_CATCH
+	return false;
+a90 1
+	EMULE_TRY
+d98 4
+a101 7
+	if (receivedpacket){
+		delete receivedpacket;
+		receivedpacket = 0;
+	}
+	if (readbuffer){
+		delete[] readbuffer;
+		readbuffer = 0;
+a102 2
+	datawaiting = 0;
+	dataneeded = 0;
+a109 1
+	EMULE_CATCH
+a112 1
+	EMULE_TRY
+d114 1
+a114 3
+	// By Maverick added CEMSocketBaseClass for
+	// easier change of BaseSocket
+	CEMSocketBaseClass::OnClose(nErrorCode);
+a115 6
+
+	// By Maverick Destroy all layers
+	RemoveAllLayers();
+
+	AsyncSelect(0);
+	EMULE_CATCH
+a118 1
+	EMULE_TRY
+d125 2
+a126 6
+	// Maverick: Changed to AsyncSocketEx
+	if (m_SocketData.hSocket != INVALID_SOCKET)
+		// By Maverick added CEMSocketBaseClass for
+		// easier change of BaseSocket
+		return CEMSocketBaseClass::AsyncSelect(lEvent);
+	EMULE_CATCH
+d131 3
+a133 2
+	EMULE_TRY
+	CEMSocketBaseClass::OnReceive(nErrorCode);
+d143 46
+a188 11
+	if (dataneeded == 0){
+		dataneeded = 6;
+		datawaiting = 0;
+	} //
+
+	if (!receivedpacket){
+		ASSERT (dataneeded < 7);
+		uint32 len = Receive(header+datawaiting,dataneeded-datawaiting);
+		if (len == (uint32)SOCKET_ERROR)
+		{
+			OnError(3);
+d191 5
+a195 18
+		datawaiting += len;
+		if (datawaiting != dataneeded)
+			return;
+		receivedpacket = new Packet(header);
+		dataneeded = 0;
+		datawaiting = 0;
+
+		switch (receivedpacket->prot){
+			case OP_EDONKEYPROT:
+			case OP_PACKEDPROT:
+			case OP_EMULEPROT:
+				break;
+			default:
+				EMTrace("CEMSocket::OnReceive ERROR Wrong header");
+				delete receivedpacket;
+				receivedpacket = 0;
+				OnError(ERR_WRONGHEADER);
+				return;
+d197 9
+a205 28
+		
+//		ASSERT(receivedpacket->size < 200000);
+		if (receivedpacket->size > 200000){
+			delete receivedpacket;
+			receivedpacket = 0;
+			OnError(ERR_TOOBIG);
+			return;
+		}
+		dataneeded = receivedpacket->size;
+		ASSERT (readbuffer == NULL);
+		readbuffer = new char[receivedpacket->size+1];
+	}
+//	ASSERT (readbuffer != NULL);
+//	ASSERT (receivedpacket != NULL);
+	if (!readbuffer){
+		OnError(3);
+		return;
+	}
+	uint32 toreceive = dataneeded-datawaiting;
+	if (limitenabled && (toreceive > downloadlimit))
+		toreceive = downloadlimit;
+	uint32 len = 0;
+	if (toreceive)
+		len = Receive(readbuffer+datawaiting,toreceive);
+	if (len == (uint32)SOCKET_ERROR)
+	{
+		OnError(3);
+		return;
+a206 3
+	if (limitenabled)
+		downloadlimit -= len;
+	datawaiting += len;
+d208 7
+a214 15
+	if (datawaiting != dataneeded)
+		return;
+	dataneeded = 6;
+	datawaiting = 0;
+	
+	ASSERT (AfxIsValidAddress(readbuffer,receivedpacket->size,true));
+	receivedpacket->pBuffer = readbuffer;
+	readbuffer = 0;
+
+	Packet* toprocess = receivedpacket;
+	receivedpacket = 0;
+
+	PacketReceived(toprocess);
+	delete toprocess;
+	EMULE_CATCH	
+a217 1
+	EMULE_TRY
+d219 2
+a220 7
+	if (downloadlimit == 0){
+		downloadlimit = limit;
+		OnReceive(0);
+	}
+	else
+		downloadlimit = limit;
+	EMULE_CATCH
+d224 2
+a225 10
+	EMULE_TRY
+	if (downloadlimit == 0 && limitenabled){
+		limitenabled = false;
+		OnReceive(0);
+	}
+	else{
+		limitenabled = false;
+		downloadlimit = 0;
+	}
+	EMULE_CATCH
+a228 1
+	EMULE_TRY
+a259 1
+	EMULE_CATCH
+a263 1
+	EMULE_TRY
+d309 1
+a309 1
+	EMULE_CATCH
+a312 1
+	EMULE_TRY
+d325 1
+a325 2
+		// Maverick: Added CEMSocketBaseClass for easier change of BaseSocket
+		uint32 result = CEMSocketBaseClass::Send(sendbuffer+sent,tosend);
+a345 1
+	EMULE_CATCH
+a354 1
+	EMULE_TRY
+d356 1
+a356 2
+	// Maverick: Added CEMSocketBaseClass for easier change of BaseSocket
+	int recvRetCode = CEMSocketBaseClass::Receive(lpBuf,nBufLen,nFlags);
+a414 1
+	EMULE_CATCH
+a416 68
+
+// By Maverick
+//Resets layer chain.
+void CEMSocket::RemoveAllLayers()
+{
+	EMULE_TRY
+	CEMSocketBaseClass::RemoveAllLayers();
+	
+	// ProxyLayer Destruction
+	if (m_pProxyLayer) 
+	{
+		delete m_pProxyLayer;
+		m_pProxyLayer = NULL;
+	}
+	EMULE_CATCH
+}
+
+int CEMSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nParam1, int nParam2)
+{
+	EMULE_TRY
+	ASSERT(pLayer);
+	if (nType==LAYERCALLBACK_STATECHANGE)
+	{
+		CString logline;
+		if (pLayer==m_pProxyLayer)
+		{
+			//logline.Format(_T("ProxyLayer changed state from %d to %d"), nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		}else
+			//logline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		return 1;
+	}
+	else if (nType==LAYERCALLBACK_LAYERSPECIFIC)
+	{
+		if (pLayer==m_pProxyLayer)
+		{
+			switch (nParam1)
+			{
+			case PROXYERROR_NOCONN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+				break;
+			case PROXYERROR_REQUESTFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+				m_ProxyConnectFailed = true;
+				break;
+			case PROXYERROR_AUTHTYPEUNKNOWN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+				break;
+			case PROXYERROR_AUTHFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+				break;
+			case PROXYERROR_AUTHNOLOGON:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+				break;
+			case PROXYERROR_CANTRESOLVEHOST:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+				break;
+			default:
+				theApp.emuledlg->AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+			}
+		}
+	}
+	EMULE_CATCH
+	return 1;
+}
+
+
+@
+
+
+1.4.2.1
+log
+@*** empty log message ***
+@
+text
+@a17 3
+
+// branch test by obaldin for Cax2
+
+@
+
+
+1.4.2.2
+log
+@official sockets
+@
+text
+@d18 3
+d24 3
+a30 1
+
+d78 1
+d82 4
+a88 2
+	readbuf = NULL;
+	readbuf_size = 0;
+d90 4
+d97 1
+d100 51
+a150 1
+	AsyncSelect(0);
+d154 1
+d162 7
+a168 4
+	if (readbuf){
+		delete[] readbuf;
+		readbuf = 0;
+		readbuf_size = 0;
+d170 2
+d179 1
+d183 1
+d185 3
+a187 1
+	CAsyncSocket::OnClose(nErrorCode);
+d189 6
+d198 1
+d205 6
+a210 2
+	if (m_hSocket != INVALID_SOCKET)
+		return CAsyncSocket::AsyncSelect(lEvent);
+d215 2
+a216 3
+	// the 2 meg size was taken from another place
+	static char GlobalReadBuffer[2000000];
+
+d226 48
+a273 8
+	uint32 readMax = sizeof(GlobalReadBuffer) - readbuf_size;
+
+	// Buffer overflow
+	if (readMax == 0) {
+		delete readbuf;
+		readbuf = NULL;
+		readbuf_size = 0;
+		OnError(ERR_TOOBIG);
+d276 10
+a285 3
+
+	if (limitenabled && readMax > downloadlimit) {
+		readMax = downloadlimit;
+d287 3
+d291 1
+a291 4
+	// We attempt to read up to 2 megs at a time (minus whatever is in our internal read buffer)
+	uint32 ret = Receive(GlobalReadBuffer + readbuf_size, readMax);
+
+	if (ret == SOCKET_ERROR || ret == 0) {
+d293 13
+a305 52
+	}
+
+	if (limitenabled) {
+		downloadlimit -= ret;
+	}
+
+	// Copy over our temporary read buffer into the global read buffer for processing
+	if (readbuf) {
+  		memcpy(GlobalReadBuffer, readbuf, readbuf_size);
+		ret += readbuf_size;
+		delete[] readbuf;
+		readbuf = NULL;
+		readbuf_size = 0;
+	}
+
+	char *rptr = GlobalReadBuffer;
+	char *rend = GlobalReadBuffer + ret;
+
+	// Loop, processing packets until we run out of them
+	while (rend - rptr >= 6) {
+		Packet *packet = new Packet(rptr);
+
+		rptr += 6;
+
+		if (packet->size > sizeof(GlobalReadBuffer)) {
+			OnError(ERR_TOOBIG);
+			return;
+		}
+
+		if (packet->size > rend - rptr) {
+			rptr -= 6;
+			delete packet;
+			break;
+		}
+
+
+		char *packetBuffer = new char[packet->size + 1];
+		memcpy(packetBuffer, rptr, packet->size);
+
+		rptr += packet->size;
+		packet->pBuffer = packetBuffer;
+		PacketReceived(packet);
+		delete packet;
+	}
+
+	// Finally, if there is any data left over, save it for next time
+	ASSERT(rptr <= rend);
+	if (rptr != rend) {
+		readbuf_size = rend - rptr;
+		readbuf = new char[readbuf_size];
+		memcpy(readbuf, rptr, readbuf_size);
+	}	
+d309 1
+d311 7
+a317 2
+	downloadlimit = limit;
+	OnReceive(0);
+d321 10
+a330 2
+	limitenabled = false;
+	OnReceive(0);
+d334 1
+d366 1
+d371 1
+d417 1
+a417 1
+
+d421 1
+d434 2
+a435 1
+		uint32 result = CAsyncSocket::Send(sendbuffer+sent,tosend);
+d456 1
+d466 1
+d468 2
+a469 1
+	int recvRetCode = CAsyncSocket::Receive(lpBuf,nBufLen,nFlags);
+d528 1
+d531 68
+@
+
+
+1.4.2.3
+log
+@Merges from main thread
+@
+text
+@a72 1
+	EMULE_TRY
+a81 1
+	EMULE_CATCH
+a84 1
+	EMULE_TRY
+a87 1
+	EMULE_CATCH
+a90 1
+	EMULE_TRY
+a109 1
+	EMULE_CATCH
+a112 1
+	EMULE_TRY
+d114 1
+a114 1
+	CEMSocketBaseClass::OnClose(nErrorCode);
+a115 1
+	EMULE_CATCH
+a118 1
+	EMULE_TRY
+d126 1
+a126 2
+		return CEMSocketBaseClass::AsyncSelect(lEvent);
+	EMULE_CATCH
+a130 1
+    EMULE_TRY
+d192 1
+a192 1
+		if (packet->size > (uint32)(rend - rptr)) {
+d214 1
+a214 2
+	}  
+    EMULE_CATCH
+a217 1
+	EMULE_TRY
+a220 1
+	EMULE_CATCH
+a223 1
+	EMULE_TRY
+a225 1
+	EMULE_CATCH
+a228 1
+	EMULE_TRY
+a259 1
+	EMULE_CATCH
+a263 1
+	EMULE_TRY
+d309 1
+a309 1
+	EMULE_CATCH
+a312 1
+	EMULE_TRY
+d325 1
+a325 2
+		// Maverick: Added CEMSocketBaseClass for easier change of BaseSocket
+		uint32 result = CEMSocketBaseClass::Send(sendbuffer+sent,tosend);
+a345 1
+	EMULE_CATCH
+a354 1
+	EMULE_TRY
+d356 1
+a356 2
+	// Maverick: Added CEMSocketBaseClass for easier change of BaseSocket
+	int recvRetCode = CEMSocketBaseClass::Receive(lpBuf,nBufLen,nFlags);
+a414 1
+	EMULE_CATCH
+@
+
+
+1.4.2.4
+log
+@Restored obaldin's version. NO MERGE on these files!!!!!!!
+@
+text
+@d73 1
+d83 1
+d87 1
+d91 1
+d95 1
+d115 1
+d119 1
+d121 1
+a121 1
+	CAsyncSocket::OnClose(nErrorCode);
+d123 1
+d127 1
+d135 2
+a136 1
+		return CAsyncSocket::AsyncSelect(lEvent);
+d141 1
+d203 1
+a203 1
+		if (packet->size > rend - rptr) {
+d225 2
+a226 1
+	}	
+d230 1
+d234 1
+d238 1
+d241 1
+d245 1
+d277 1
+d282 1
+d328 1
+a328 1
+
+d332 1
+d345 2
+a346 1
+		uint32 result = CAsyncSocket::Send(sendbuffer+sent,tosend);
+d367 1
+d377 1
+d379 2
+a380 1
+	int recvRetCode = CAsyncSocket::Receive(lpBuf,nBufLen,nFlags);
+d439 1
+@
+
+
+1.4.2.5
+log
+@warinng removed...
+@
+text
+@d192 1
+a192 1
+		if (packet->size > (uint32)(rend - rptr)) {
+@
+
+
+1.4.2.3.2.1
+log
+@Merged Proxy code
+@
+text
+@a20 1
+#include "emule.h"
+a82 3
+	// By Maverick
+	m_pProxyLayer = NULL;
+	m_ProxyConnectFailed = false;
+d90 1
+a90 49
+
+	// By Maverick Destroy all layers
+	RemoveAllLayers();
+	EMULE_CATCH
+}
+
+// By Maverick: Connection initialisition is done by class itself
+BOOL CEMSocket::Connect(LPCTSTR lpszHostAddress, UINT nHostPort)
+{
+	EMULE_TRY
+	// By Maverick Destroy all layers
+	Close();
+	RemoveAllLayers();
+
+	// ProxyInitialisation
+	ProxySettings settings = theApp.glob_prefs->GetProxy();
+	m_ProxyConnectFailed = false;
+	if (settings.UseProxy && settings.type!=PROXYTYPE_NOPROXY)
+	{
+		m_pProxyLayer=new CAsyncProxySocketLayer;
+		switch (settings.type)
+		{
+			case PROXYTYPE_SOCKS4:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS4A:
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.name,settings.port);
+				break;
+			case PROXYTYPE_SOCKS5:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name, settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name,settings.port);
+				break;
+			case PROXYTYPE_HTTP11:
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port, settings.user, settings.password);
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port);
+				break;
+			default: ASSERT(FALSE);
+		}
+		AddLayer(m_pProxyLayer);
+	}
+
+	// Connection Initialisation
+	Create();
+	AsyncSelect(FD_READ | FD_WRITE | FD_OOB | FD_ACCEPT | FD_CONNECT | FD_CLOSE);
+	return CEMSocketBaseClass::Connect(lpszHostAddress, nHostPort);
+a91 1
+	return false;
+a120 2
+	// By Maverick added CEMSocketBaseClass for
+	// easier change of BaseSocket
+a122 3
+
+	// By Maverick Destroy all layers
+	RemoveAllLayers();
+d134 1
+a134 4
+	// Maverick: Changed to AsyncSocketEx
+	if (m_SocketData.hSocket != INVALID_SOCKET)
+		// By Maverick added CEMSocketBaseClass for
+		// easier change of BaseSocket
+a441 68
+
+// By Maverick
+//Resets layer chain.
+void CEMSocket::RemoveAllLayers()
+{
+	EMULE_TRY
+	CEMSocketBaseClass::RemoveAllLayers();
+	
+	// ProxyLayer Destruction
+	if (m_pProxyLayer) 
+	{
+		delete m_pProxyLayer;
+		m_pProxyLayer = NULL;
+	}
+	EMULE_CATCH
+}
+
+int CEMSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nParam1, int nParam2)
+{
+	EMULE_TRY
+	ASSERT(pLayer);
+	if (nType==LAYERCALLBACK_STATECHANGE)
+	{
+		CString logline;
+		if (pLayer==m_pProxyLayer)
+		{
+			//logline.Format(_T("ProxyLayer changed state from %d to %d"), nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		}else
+			//logline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+			//theApp.emuledlg->AddLogLine(false,logline);
+		return 1;
+	}
+	else if (nType==LAYERCALLBACK_LAYERSPECIFIC)
+	{
+		if (pLayer==m_pProxyLayer)
+		{
+			switch (nParam1)
+			{
+			case PROXYERROR_NOCONN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+				break;
+			case PROXYERROR_REQUESTFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+				m_ProxyConnectFailed = true;
+				break;
+			case PROXYERROR_AUTHTYPEUNKNOWN:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+				break;
+			case PROXYERROR_AUTHFAILED:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+				break;
+			case PROXYERROR_AUTHNOLOGON:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+				break;
+			case PROXYERROR_CANTRESOLVEHOST:
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+				break;
+			default:
+				theApp.emuledlg->AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+			}
+		}
+	}
+	EMULE_CATCH
+	return 1;
+}
+
+
+@
+
+
+1.3
+log
+@update to .25b codebase
+@
+text
+@d232 2
+d235 1
+d280 2
+d283 1
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d253 1
+a253 1
+		ASSERT(receivedpacket->size < 200000);
+d264 2
+a265 2
+	ASSERT (readbuffer != NULL);
+	ASSERT (receivedpacket != NULL);
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d21 3
+d75 1
+d87 4
+d94 1
+d97 51
+a147 1
+	AsyncSelect(0);
+d151 1
+d176 1
+d180 1
+d182 3
+a184 1
+	CAsyncSocket::OnClose(nErrorCode);
+d186 6
+d195 1
+d202 6
+a207 2
+	if (m_hSocket != INVALID_SOCKET)
+		return CAsyncSocket::AsyncSelect(lEvent);
+d212 2
+d296 1
+a296 1
+	
+d300 1
+d308 1
+d312 1
+d321 1
+d325 1
+d357 1
+d362 1
+d408 1
+a408 1
+
+d412 1
+d425 2
+a426 1
+		uint32 result = CAsyncSocket::Send(sendbuffer+sent,tosend);
+d447 1
+d457 1
+d459 2
+a460 1
+	int recvRetCode = CAsyncSocket::Receive(lpBuf,nBufLen,nFlags);
+d519 1
+d522 68
+@
+

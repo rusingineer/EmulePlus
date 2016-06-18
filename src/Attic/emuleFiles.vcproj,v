@@ -1,0 +1,276 @@
+head	1.3;
+access;
+symbols
+	Interim_Release_1-1c_beta2:1.2
+	Interim_Release_1-1c_beta1:1.2
+	PublicRelease_1_1b:1.2
+	Interim_Release_1-1b_RC1:1.2
+	PublicRelease_1_1a:1.2
+	Interim_Release_1-1a_RC2:1.2
+	Interim_Release_1-1a_RC1:1.2
+	Interim_Release_1-1a_beta2:1.2
+	Interim_Release_1-1a_beta1:1.2
+	PublicRelease_1_1:1.2
+	Interim_Release_1-1_beta1:1.2
+	PublicRelease_1o:1.2
+	Interim_Release_1o_RC1:1.2
+	Interim_Release_1o_beta1:1.2
+	PublicRelease_1n:1.2
+	Interim_Release_1n_RC2:1.2
+	Interim_Release_1n_RC1:1.2
+	Interim_Release_1n_beta2:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2005.02.17.14.38.09;	author kuchin;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2004.08.10.12.43.39;	author eklmn;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.07.27.13.21.06;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Removed eMuleFiles, not needed anymore
+@
+text
+@<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="eMuleFiles"
+	ProjectGUID="{30EF58EA-2BD1-4A57-9FB5-825A12DF243C}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="DebugFiles"
+			IntermediateDirectory="DebugFiles"
+			ConfigurationType="4"
+			CharacterSet="2"
+			ManagedExtensions="FALSE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="/Zp1 /wd4200 /wd4244 /wd4800 /I ...\network"
+				Optimization="0"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;_USE_BERKELEY_DB;ZLIB_WINAPI"
+				MinimalRebuild="TRUE"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				StructMemberAlignment="1"
+				BufferSecurityCheck="TRUE"
+				EnableFunctionLevelLinking="TRUE"
+				TreatWChar_tAsBuiltInType="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="4"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)/emuleFiles.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="_DEBUG"
+				MkTypLibCompatible="FALSE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_DEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="&quot;$(IntDir)&quot;;..\ResizableLib"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="ReleaseFiles"
+			IntermediateDirectory="ReleaseFiles"
+			ConfigurationType="4"
+			CharacterSet="2"
+			WholeProgramOptimization="TRUE">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="/Zp1 /wd4200 /wd4244 /wd4800 /I ...\network"
+				Optimization="3"
+				GlobalOptimizations="TRUE"
+				InlineFunctionExpansion="2"
+				EnableIntrinsicFunctions="TRUE"
+				FavorSizeOrSpeed="1"
+				OmitFramePointers="TRUE"
+				OptimizeForProcessor="2"
+				OptimizeForWindowsApplication="TRUE"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;ZLIB_WINAPI"
+				StringPooling="TRUE"
+				MinimalRebuild="FALSE"
+				RuntimeLibrary="0"
+				StructMemberAlignment="0"
+				EnableFunctionLevelLinking="TRUE"
+				TreatWChar_tAsBuiltInType="TRUE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="3"
+				WarningLevel="3"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="0"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OutDir)/emuleFiles.lib"/>
+			<Tool
+				Name="VCMIDLTool"
+				PreprocessorDefinitions="NDEBUG"
+				MkTypLibCompatible="FALSE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="NDEBUG"
+				Culture="1033"
+				AdditionalIncludeDirectories="$(IntDir)"/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"/>
+			<Tool
+				Name="VCManagedWrapperGeneratorTool"/>
+			<Tool
+				Name="VCAuxiliaryManagedWrapperGeneratorTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}">
+		</Filter>
+		<Filter
+			Name="Core"
+			Filter="">
+			<Filter
+				Name="Source Files"
+				Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+				UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+				<File
+					RelativePath=".\ed2k_filetype.cpp">
+				</File>
+				<File
+					RelativePath=".\KnownFile.cpp">
+				</File>
+				<File
+					RelativePath=".\KnownFileList.cpp">
+				</File>
+				<File
+					RelativePath=".\PartFile.cpp">
+				</File>
+				<File
+					RelativePath=".\SharedFileList.cpp">
+				</File>
+				<File
+					RelativePath=".\stdafx.cpp">
+					<FileConfiguration
+						Name="Debug|Win32">
+						<Tool
+							Name="VCCLCompilerTool"
+							UsePrecompiledHeader="1"/>
+					</FileConfiguration>
+					<FileConfiguration
+						Name="Release|Win32">
+						<Tool
+							Name="VCCLCompilerTool"
+							UsePrecompiledHeader="1"/>
+					</FileConfiguration>
+				</File>
+			</Filter>
+			<Filter
+				Name="Header Files"
+				Filter="h;hpp;hxx;hm;inl;inc;xsd"
+				UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+				<File
+					RelativePath=".\ed2k_filetype.h">
+				</File>
+				<File
+					RelativePath=".\KnownFile.h">
+				</File>
+				<File
+					RelativePath=".\KnownFileList.h">
+				</File>
+				<File
+					RelativePath=".\PartFile.h">
+				</File>
+				<File
+					RelativePath=".\SharedFileList.h">
+				</File>
+				<File
+					RelativePath=".\stdafx.h">
+				</File>
+			</Filter>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+@
+
+
+1.2
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@@
+
+
+1.1
+log
+@Separating filehandling into .lib file - first step. Add dependency emule to emuleFiles when compiling.
+@
+text
+@a61 2
+				Name="VCWebDeploymentTool"/>
+			<Tool
+a120 2
+				Name="VCWebDeploymentTool"/>
+			<Tool
+d142 3
+d177 3
+@
+

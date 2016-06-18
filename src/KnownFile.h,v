@@ -1,0 +1,2957 @@
+head	1.105;
+access;
+symbols
+	PublicRelease_1_2e:1.105
+	Interim_Release_1-2e_RC1:1.105
+	PublicRelease_1_2d:1.103
+	Interim_Release_1-2d_RC1:1.103
+	Interim_Release_1-2d_beta1:1.102
+	PublicRelease_1_2c:1.96
+	Interim_Release_1-2c_RC1:1.96
+	Interim_Release_1-2c_beta1:1.93
+	PublicRelease_1_2b:1.92
+	Interim_Release_1-2b_RC1:1.92
+	PublicRelease_1_2a:1.92
+	Interim_Release_1-2a_RC1:1.92
+	Interim_Release_1-2a_beta2:1.85
+	Interim_Release_1-2a_beta1:1.81
+	PublicRelease_1_2:1.81
+	Interim_Release_1-2_RC1:1.81
+	Interim_Release_1-2_beta1:1.81
+	PublicRelease_1_1g:1.81
+	Interim_Release_1-1g_RC3:1.81
+	Interim_Release_1-1g_RC2:1.81
+	Interim_Release_1-1g_RC1:1.81
+	Interim_Release_1-1g_beta2:1.80
+	Interim_Release_1-1g_beta1:1.79
+	PublicRelease_1_1f:1.78
+	Interim_Release_1-1f_RC1:1.78
+	PublicRelease_1_1e:1.77
+	Interim_Release_1-1e_RC2:1.77
+	Interim_Release_1-1e_RC1:1.76
+	Interim_Release_1-1e_beta1:1.76
+	PublicRelease_1_1d:1.75
+	Interim_Release_1-1d_RC1:1.75
+	PublicRelease_1_1c:1.73
+	Interim_Release_1-1c_RC1:1.72
+	Interim_Release_1-1c_beta2:1.71
+	Interim_Release_1-1c_beta1:1.68
+	PublicRelease_1_1b:1.67
+	Interim_Release_1-1b_RC1:1.67
+	PublicRelease_1_1a:1.67
+	Interim_Release_1-1a_RC2:1.67
+	Interim_Release_1-1a_RC1:1.66
+	Interim_Release_1-1a_beta2:1.66
+	Interim_Release_1-1a_beta1:1.64
+	PublicRelease_1_1:1.64
+	Interim_Release_1-1_beta1:1.64
+	PublicRelease_1o:1.64
+	Interim_Release_1o_RC1:1.64
+	Interim_Release_1o_beta1:1.64
+	PublicRelease_1n:1.64
+	Interim_Release_1n_RC2:1.64
+	Interim_Release_1n_RC1:1.63
+	Interim_Release_1n_beta2:1.55
+	Interim_Release_1n_beta1:1.53
+	PublicRelease_1m:1.53
+	Interim_Release_1m_beta1:1.53
+	PublicRelease_1l:1.53
+	Interim_Release_1l_RC3:1.53
+	Interim_Release_1l_RC2:1.53
+	Interim_Release_1l_RC1:1.53
+	Interim_Release_1l_beta2:1.53
+	Interim_Release_1l_beta1:1.51
+	PublicRelease_1k:1.50
+	Interim_Release_1k_RC4:1.49
+	Interim_1k_RC3:1.48
+	Interim_1k_RC2:1.48
+	Interim_Release_1k_RC1:1.48
+	Interim_Release_1k_beta5:1.48
+	Intrerim_Release_1k_beta4:1.48
+	Interim_Release_1k_beta1:1.45
+	PublicRelease_1j:1.37
+	Interim_Release_1J_RC3:1.37
+	Interim_Release_1j_RC3:1.37
+	Interim_Release_1j_RC2:1.37
+	Interim_Release_1j_RC1:1.36
+	Interim_Release_1j_beta2:1.36
+	Interim_Release_1j_beta1:1.36
+	PublicRelease_1i:1.36
+	Interim_Release_1i_RC6:1.36
+	Interim_Release_1i_RC3:1.33
+	Interim_Release_1i_RC2:1.33
+	Interim_Release_1i_RC1:1.32
+	Interim_Release_1i_beta3:1.32
+	Interim_Release_1i_beta2:1.30
+	Interim_Release_1i_beta1:1.25
+	PublicRelease_1h:1.21
+	Interim_Release_1h_rc2:1.21
+	Interim_Release_1h_RC1:1.21
+	Interim_Release_1h_beta2:1.21
+	Interim_Release_1h_beta1_now:1.20
+	Interim_Release_1h_beta1:1.20
+	PublicRelease_1g:1.18
+	Interim_Release_1g_RC6_Final:1.18
+	Interim_Release_1g_RC6:1.18
+	Interim_Release_1g_RC5:1.18
+	Interim_Release_1g_RC4:1.18
+	Interim_Release_1g_RC3:1.17
+	Interim_Release_1g_beta2:1.17
+	Interim_Release_1g_beta1:1.15
+	Interim_Release_1f_RC4:1.12
+	Interim_Release_1f_RC3:1.12
+	Interim_Release_1f_RC2:1.9
+	Interim_Release_1f_RC:1.9
+	Interim_Release_1f_beta2:1.9
+	Interim_Release_1f_beta1:1.9
+	PublicRelease_1e:1.9
+	Interim_Release_1e_RC2:1.9
+	Interim_Release_1e_RC:1.9
+	Interim_Release_1e_beta3:1.9
+	Interim_Release_1e_beta2:1.9
+	Interim_Release_1e_beta2_before_kuchin:1.9
+	Interim_Release_1e_beta1:1.8
+	PublicRelease_1c:1.6
+	featurestest:1.6.0.2
+	Interim_Release_1c_RC:1.6
+	Interim_Release_1c_beta2:1.6
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.2
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.105
+date	2008.10.20.22.26.29;	author kush_eplus;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2008.10.04.03.52.36;	author aw3;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2008.03.03.05.16.42;	author aw3;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2008.01.14.01.21.15;	author aw3;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2008.01.01.11.12.05;	author eklmn;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2007.12.31.05.59.09;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2007.11.12.23.51.27;	author fuxie-dk;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2007.10.31.18.18.52;	author fuxie-dk;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2007.10.03.18.09.18;	author eklmn;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2007.08.04.00.46.28;	author aw3;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2007.05.28.02.06.44;	author aw3;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2007.04.14.04.23.06;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2007.02.15.02.15.04;	author aw3;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2006.08.29.04.27.46;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2006.07.24.12.54.03;	author aw3;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2006.07.22.03.55.10;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2006.07.21.00.36.20;	author aw3;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2006.07.17.01.28.57;	author aw3;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2006.07.04.04.43.28;	author aw3;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2006.06.21.01.02.33;	author aw3;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2006.05.22.03.44.59;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2006.05.18.03.50.46;	author aw3;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2006.05.17.03.51.58;	author aw3;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2006.05.13.04.45.26;	author aw3;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2005.11.30.05.09.33;	author aw3;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2005.09.26.00.29.07;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2005.08.06.18.01.14;	author aw3;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2005.07.15.04.46.11;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2005.07.05.02.56.24;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2005.06.06.04.37.46;	author aw3;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2005.03.06.17.38.13;	author aw3;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2005.03.03.20.38.36;	author eklmn;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2005.02.25.04.39.37;	author aw3;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2005.02.17.20.07.47;	author aw3;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2005.02.16.03.31.34;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2005.02.14.22.46.36;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2005.02.12.00.47.43;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2005.01.07.22.28.55;	author netwolf1;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.12.03.20.59.18;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.11.20.07.16.07;	author eklmn;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.11.14.23.35.33;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.09.05.07.54.00;	author eklmn;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.08.27.17.17.09;	author eklmn;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.08.27.15.07.28;	author eklmn;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.08.27.05.47.13;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.08.20.07.37.26;	author eklmn;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.08.20.03.49.02;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.08.12.21.54.12;	author eklmn;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.08.11.05.20.48;	author eklmn;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.08.10.12.43.39;	author eklmn;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.08.07.08.51.53;	author eklmn;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.08.06.17.00.46;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.05.19.16.03.22;	author netwolf1;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.05.19.10.14.28;	author netwolf1;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.05.01.05.37.21;	author aw3;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.04.08.00.26.41;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.04.07.10.22.58;	author eklmn;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.03.22.18.45.17;	author eklmn;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.03.10.01.40.43;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.03.06.07.11.32;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.02.20.02.29.54;	author kush_eplus;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.02.18.13.48.45;	author kush_eplus;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.02.16.23.25.59;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.02.13.16.13.34;	author netwolf1;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.02.07.00.50.45;	author netwolf1;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.02.06.02.54.09;	author kush_eplus;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.02.03.01.20.31;	author double_t;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.01.11.11.46.01;	author katsyonak;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.11.30.20.29.33;	author eklmn;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.11.22.13.11.18;	author eklmn;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.11.21.20.24.58;	author eklmn;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.11.09.09.41.51;	author kuchin;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.10.28.12.07.55;	author katsyonak;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.10.26.13.50.16;	author morevit;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.10.10.17.59.02;	author morevit;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.10.09.09.25.17;	author morevit;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.10.08.15.39.48;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.10.08.12.56.33;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.09.29.21.42.03;	author dongato;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.09.29.21.12.36;	author dongato;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.09.22.16.44.17;	author morevit;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.09.19.00.13.37;	author morevit;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.08.23.00.20.50;	author forcha;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.08.04.21.24.38;	author zegzav;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.07.26.11.27.01;	author zegzav;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.07.08.08.10.23;	author netwolf1;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.06.06.19.56.46;	author partyckip;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.05.01.22.30;	author netwolf1;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.05.30.21.26.58;	author partyckip;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.05.29.04.45.19;	author partyckip;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.05.27.23.03.07;	author partyckip;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.05.22.13.12.23;	author obaldin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.05.20.20.46.27;	author netwolf1;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.05.20.16.30.40;	author netwolf1;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.04.20.14.30.39;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.04.11.21.58.03;	author obaldin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.27.11.04.32;	author recdvst;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.20.17.12.29;	author lord_kiron;	state Exp;
+branches
+	1.6.2.1;
+next	1.5;
+
+1.5
+date	2003.03.15.19.41.52;	author lord_kiron;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.14.15.54.58;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.09.16.21.45;	author obaldin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.09.09.55.53;	author obaldin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.19;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.14;	author cax2;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	1.6.2.2;
+
+1.6.2.2
+date	2003.03.24.09.39.42;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.105
+log
+@Function body was moved to the H-file;
+Minor optimization;
+Formatting.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "opcodes.h"
+#include "PastComment.h"
+#include "Loggable.h"
+#include "ed2k_filetype.h"
+#pragma warning(push)
+#pragma warning(disable:4702) // unreachable code
+#include <list>
+#include <vector>
+#pragma warning(pop)
+
+//	Known file part statuses
+#define KFPS_PART_HIDDEN	0x01
+
+class CUpDownClient;
+class CJumpstarter;
+class Packet;
+class CTag;
+
+class CFileStatistic
+{
+	friend class CKnownFile;
+	friend class CPartFile;
+	friend class CSharedFilesCtrl;
+	friend class CKnownFileList;
+
+public:
+	CFileStatistic();
+	~CFileStatistic();
+
+	double	GetCompleteReleases() { return completeReleases; }
+	double	GetCompletePartReleases(uint16 part);
+	void	AddTraffic(uint32 dwPart, const uint64 &qwStart, uint32 dwBytes);
+
+	void	resetStats(bool all=false);
+	void	resetPartTraffic(uint16	part, bool all=false);
+
+	void	AddRequest();
+	void	AddAccepted();
+	void	AddTransferred(uint32 bytes);
+	bool	merge(CFileStatistic *m);
+
+	uint16	GetRequests() const				{return m_iNumRequested;}
+	uint16	GetAccepts() const				{return m_iNumAccepted;}
+	uint64	GetTransferred()	const		{return m_qwNumTransferred;}
+	uint32	GetAllTimeRequests() const		{return m_dwAllTimeRequested;}
+	uint32	GetAllTimeAccepts() const		{return m_dwAllTimeAccepted;}
+	uint64	GetAllTimeTransferred() const	{return m_qwAllTimeTransferred;}
+
+	uint32	GetPartAccepted(uint16 part, bool session) const;
+	CKnownFile* fileParent;
+
+private:
+	uint16	m_iNumRequested;
+	uint16	m_iNumAccepted;
+	uint64	m_qwNumTransferred;
+	uint64	m_qwAllTimeTransferred;
+	uint32	m_dwAllTimeRequested;
+	uint32	m_dwAllTimeAccepted;
+
+	uint32	*partAccepted;				// all time accepted requests on part level
+	uint32	*partAcceptedSession;		// session accepted requests on part level
+
+	uint32	*partTraffic;				// all time traffic on part level
+	uint32	*partTrafficSession;		// session traffic on part level
+
+	uint32	*blockTraffic;				// all time traffic on block level
+	uint32	*blockTrafficSession;		// session traffic on block level
+
+	double	completeReleases;			// how often the complete file was uploaded (basing on all time block-traffic)
+
+	void	initTraffic();				// create the traffic arrays
+	void	recalcCompleteReleases();	// recalculate the complete release count, don't do this to often
+};
+
+/*
+					   CPartFile
+					 /
+		  CKnownFile
+		/
+CAbstractFile
+		\
+		  CSearchFile
+*/
+class CAbstractFile : public CLoggable
+{
+public:
+	CAbstractFile() : m_strFileName(_T("")), m_strFileExtension(_T(""))
+	{
+		m_qwFileSize = 0;
+		m_eFileType = ED2KFT_ANY;
+	}
+	virtual ~CAbstractFile();
+
+	const CString&	GetFileName() const				{return m_strFileName;}
+	virtual void	SetFileName(const CString &NewName, bool bClearName = true);
+	bool			IsFileNameEmpty()				{return m_strFileName.IsEmpty();}
+	int				CmpFileNames(const TCHAR *pcName2) const	{return _tcsicmp(m_strFileName, pcName2);}
+
+	const CString&	GetFileExtension() const		{return m_strFileExtension;}
+
+	uint64			GetFileSize() const				{ return m_qwFileSize; }
+	virtual void	SetFileSize(uint64 qwFileSize)	{ m_qwFileSize = qwFileSize; }
+	bool			IsLargeFile() const				{ return (m_qwFileSize > OLD_MAX_EMULE_FILE_SIZE); }
+
+	const uchar*	GetFileHash() const				{return m_fileHash;}
+
+	CString			GetFileTypeString();
+	LPCSTR			GetSearchFileType(uint32 *pdwType);
+	int				CmpFileTypes(uint32 dwType2) const;
+	EED2KFileType	GetFileType() const				{ return m_eFileType; }
+
+	CString			CreateED2kLink() const;
+	CString			CreateED2kSourceLink() const;
+	CString			CreateHTMLED2kLink() const;
+protected:
+	CString		m_strFileName;
+	CString		m_strFileExtension;
+	uchar		m_fileHash[16];
+	CArray<CTag*, CTag*>	m_tagArray;
+private:	//	Several data sections to improve data alignment
+	uint64		m_qwFileSize;
+protected:
+	EnumPartFileRating	m_eRating;
+private:
+	EED2KFileType m_eFileType;
+};
+
+typedef std::list<CUpDownClient*> ClientList;
+
+class CKnownFile : public CAbstractFile
+{
+public:
+	CKnownFile();
+	virtual ~CKnownFile();
+	bool	CreateFromFile(const CString &strDir, const CString &strFileName, bool bPartFile); // create date, hashset and tags from a file
+	const CString&	GetPath() const				{return m_strKnownFileDirectory;}
+	void		SetPath(const CString& strPath)	{ m_strKnownFileDirectory = strPath; }
+
+//	m_strFilePath contains:
+//	1) full file name for known file and complete part file
+//	2) full part file name (.part) for incomplete part file
+	const CString& GetFilePath() const { return m_strFilePath; }
+	void	SetFilePath(const CString& strFilePath)	{ m_strFilePath = strFilePath; }
+
+
+	void			SetFileSize(uint64 qwFileSize);
+	virtual void	SetFileName(const CString& NewName, bool bClearName = true);
+
+	bool	IsCompressedTransferAllowed()	{return m_bIsCompressedTransferAllowed;}
+	virtual bool	IsPartFile()			{ return false; }
+	virtual bool	IsPaused() const		{ return false; }
+	virtual bool	IsStopped() const		{ return false; }
+	virtual bool	IsCompleting() const	{ return false; }
+	bool	LoadFromFile(CFile &file);	//load date, hashset and tags from a .met file
+	bool	WriteToFile(CFile &file);
+	uint32	GetFileDate() const				{ return m_timetLastWriteDate; }
+	double	GetPopularityRatio();
+	uint16	GetHashCount()					{ CSingleLock Lock(&m_csHashList, TRUE); return static_cast<uint16>(m_partHashArray.GetCount()); }
+	const uchar*	GetPartHash(uint32 dwPart) const;
+	const uchar*	GetHashSet() const		{ return m_pPartsHashSet; }
+	uint16	GetPartCount() const			{return m_uPartCount;}
+	uint32	GetED2KPartHashCount() const	{return m_dwED2KPartHashCount;}
+	uint32	GetED2KPartCount() const		{return m_dwED2KPartCount;}
+	uint32	GetLastPartSize() const			{return m_dwLastPartSz;}
+	uint32	GetLastBlockSize() const		{return m_dwLastBlkSz;}
+	uint32	m_timetLastWriteDate;
+
+	byte	GetULPriority(void) const				{ return m_bytePriority; }
+	void	SetULPriority(byte iNewPriority)		{m_bytePriority = iNewPriority;}
+	CString	GetKnownFilePriorityString() const;
+	void	UpdateUploadAutoPriority(void);
+	bool	IsULAutoPrioritized() const				{ return m_bAutoPriority; }
+	void	SetAutoULPriority(bool newAutoPriority)	{ m_bAutoPriority=newAutoPriority; }
+
+//	Movie Preview Mode
+	byte	GetMovieMode()						{return m_byteMoviePreviewMode;}
+	void	SetMovieMode(byte byteNewMode)		{m_byteMoviePreviewMode = byteNewMode;}
+
+//	Shared file view permissions (all, only friends, no one)
+	byte	m_bytePermissions;
+	byte	GetPermissions(void)			{return m_bytePermissions;}
+	void	SetPermissions(byte byteNewPermissions) {m_bytePermissions = byteNewPermissions;}
+	CString	GetPermissionString();
+
+	bool	LoadHashsetFromFile(CFile& file, bool checkhash);
+
+	CFileStatistic statistic;
+
+	const CString&	GetFileComment()         {if (!m_bCommentLoaded) LoadComment(); return m_strComment;}
+	void	SetFileComment(const CString &strNewComment);
+	void	SetFileRating(EnumPartFileRating eNewRating);
+	EnumPartFileRating	GetFileRating()         	{if (!m_bCommentLoaded) LoadComment(); return m_eRating;}
+	void	RemoveFileCommentAndRating();
+
+	uint16	GetCompleteSourcesCount()		{return m_nCompleteSourcesCount;}
+	void	GetCompleteSourcesRange(uint16 *lo, uint16 *hi)	{*lo= m_nCompleteSourcesCountLo; *hi= m_nCompleteSourcesCountHi;}
+
+	uint32	GetTrafficBlock(uint64 qwStart, uint64 qwEnd, bool bSession = false);
+	uint32	GetTrafficPart(uint64 qwStart, uint64 qwEnd, bool bSession = false);
+	uint32	GetPartTraffic(uint16 part, bool session=false);
+	uint32	GetBlockTraffic(uint16 block, bool session=false);
+	bool	LoadFromFileTraffic(FILE* file, byte version);
+	bool	SaveToFileTraffic(FILE* file);
+
+	uint32	GetPartSize(uint32 dwPart) const;
+	uint32	GetBlockSize(uint32 dwBlock) const;
+
+	uint32	GetBlockCount() const				{return m_dwBlockCount;}
+
+	void	SetSharedFile(bool b) { m_sharedFile=b; }
+	bool	GetSharedFile() { return m_sharedFile; }
+
+	void	SetPublishedED2K(bool bVal)		{ m_bPublishedED2K = bVal; }
+	bool	GetPublishedED2K() const		{ return m_bPublishedED2K; }
+
+	byte*	GetPartStatusArr()		 		{ return &m_PartsStatusVector[0]; }
+	bool	IsPartShared(uint32 dwPart)		{ return ((m_PartsStatusVector[dwPart] & KFPS_PART_HIDDEN) == 0); }
+	void	SharePart(uint16 uPart)			{m_PartsStatusVector[uPart] &= ~KFPS_PART_HIDDEN;}
+	void	UnsharePart(uint16 uPart)		{m_PartsStatusVector[uPart] |= KFPS_PART_HIDDEN;}
+	
+	bool	HasHiddenParts();
+	void	WritePartStatus(CFile* file);
+
+	virtual	Packet*	CreateSrcInfoPacket(const CUpDownClient *pForClient, byte byteRequestedVer, uint16 uRequestedOpt);
+	void	CalculateCompleteSources();
+
+	bool	GetJumpstartEnabled() const		{ return m_Jumpstarter!=NULL; }
+	void	SetJumpstartEnabled(bool enabled);
+	bool	IsJsComplete();
+	void	AddSentBlock(CUpDownClient *client, const uint64 &qwStartOffset, uint32 togo);
+	void	WriteJumpstartPartStatus(CUpDownClient* client, CMemFile* data);
+	bool	AllowChunkForClient(uint32 partNo, CUpDownClient* client);
+
+	void	UpdateSharedFileDisplay();
+
+	virtual	int ReadFileForUpload(uint64 qwOffset, uint32 dwBytesToRead, byte *pbyteBuffer);
+
+	double	GetSizeRatio()		{return m_dblSizeRatio;}
+
+//	Source Exchange
+	void	AddClientToSourceList(CUpDownClient* pClient);
+	void	RemoveClientFromSourceList(CUpDownClient* pClient);
+	void	GetCopySourceList(ClientList *pCopy);
+
+protected:
+	CCriticalSection	m_csHashList;
+
+	bool	LoadTagsFromFile(CFile& file);
+	bool	LoadDateFromFile(CFile& file);
+	void	CreateHashFromFile(CFile *file, uint32 dwLength, uchar *pbyteHash)	{CreateHashFromInput(file, dwLength, pbyteHash, 0);}
+	void	CreateHashFromString(uchar *pbyteMem, uint32 dwLength, uchar *pbyteHash)	{CreateHashFromInput(0, dwLength, pbyteHash, pbyteMem);}
+	void	LoadComment();
+
+	bool					m_sharedFile;
+	CArray<uchar*, uchar*>	m_partHashArray;
+	CString					m_strFilePath;
+	CString					m_strComment;
+	CString					m_strKnownFileDirectory;
+
+private:
+	void	CreateHashFromInput(CFile *file, uint32 dwLength, uchar *pbyteHash, uchar *pbyteMem);
+	bool	m_bAutoPriority;
+	bool	m_bCommentLoaded;
+	uint16	m_uPartCount;
+	uint32	m_dwED2KPartCount;
+	uint32	m_dwED2KPartHashCount;
+	uint32	m_dwBlockCount;
+	uint32	m_dwLastPartSz;
+	uint32	m_dwLastBlkSz;
+	uint16	m_nCompleteSourcesCount;
+	uint16	m_nCompleteSourcesCountLo;
+	uint16	m_nCompleteSourcesCountHi;
+	uint32	m_nCompleteSourcesTime;
+	CJumpstarter	*m_Jumpstarter;
+	uchar*			m_pPartsHashSet;
+	double	m_dblSizeRatio;
+	byte	m_bytePriority;
+	byte	m_byteMoviePreviewMode;
+	bool	m_bIsCompressedTransferAllowed;
+	bool	m_bPublishedED2K;
+
+	std::vector<byte> m_PartsStatusVector;
+
+	ClientList 	m_SourceList;
+	CRITICAL_SECTION m_csSourceList;
+};
+
+// Constants for MD4Transform
+#define S11 3
+#define S12 7
+#define S13 11
+#define S14 19
+#define S21 3
+#define S22 5
+#define S23 9
+#define S24 13
+#define S31 3
+#define S32 9
+#define S33 11
+#define S34 15
+
+// Basic MD4 functions
+#define MD4_F(x, y, z) ((((y) ^ (z)) & (x)) ^ (z))
+#define MD4_G(x, y, z) (((z) & ((x) ^ (y))) | ((x) & (y)))
+#define MD4_H(x, y, z) ((x) ^ (y) ^ (z))
+
+// Rotates x left n bits
+#ifdef _MSC_VER
+#pragma intrinsic(_rotl)
+#define MD4_ROTATE_LEFT(x, n) _rotl((x), (n))
+#else
+#define MD4_ROTATE_LEFT(x, n) (((x) << (n)) | ((x) >> (32-(n))))
+#endif
+
+// Partial transformations
+#define MD4_FF(a, b, c, d, x, s) \
+{ \
+  (a) += MD4_F((b), (c), (d)) + (x); \
+  (a) = MD4_ROTATE_LEFT((a), (s)); \
+}
+
+#define MD4_GG(a, b, c, d, x, s) \
+{ \
+  (a) += MD4_G((b), (c), (d)) + (x) + (uint32)0x5A827999; \
+  (a) = MD4_ROTATE_LEFT((a), (s)); \
+}
+
+#define MD4_HH(a, b, c, d, x, s) \
+{ \
+  (a) += MD4_H((b), (c), (d)) + (x) + (uint32)0x6ED9EBA1; \
+  (a) = MD4_ROTATE_LEFT((a), (s)); \
+}
+
+static void __fastcall MD4Transform(uint32 Hash[4], uint32 x[16]);
+@
+
+
+1.104
+log
+@Stricter prototypes for some methods.
+@
+text
+@d155 1
+a155 1
+	void		SetPath(const CString& path) 		{ m_strKnownFileDirectory = path; }
+d161 2
+a162 1
+	void	SetFilePath(LPCTSTR pszFilePath);
+@
+
+
+1.103
+log
+@GetKnownFilePriorityString() functionality moved to knownfile class;
+Some private variables moved to private section;
+Removed unrequired and added required H-files; Explicitely use std instead of namespace.
+@
+text
+@d176 2
+a177 2
+	uchar*	GetPartHash(uint32 dwPart);
+	uchar*	GetHashSet()					{return m_pPartsHashSet;}
+@
+
+
+1.102
+log
+@Tag array was moved to abstract class to unify processing;
+Fixed resources leak caused by deleting or merging part file in the shared files list (part file resources were not released when part file was deleted through context menu in the shared files list or was merged there after outside renaming and reloading).
+@
+text
+@d19 1
+a19 2
+#include "otherstructs.h"
+#include "types.h"
+d23 5
+a27 1
+
+d32 1
+d146 1
+a146 3
+class CUpDownClient;
+
+typedef list<CUpDownClient*> ClientList;
+d185 1
+a185 2
+	byte	m_bytePriority;
+	byte	GetULPriority(void)				{return m_bytePriority;}
+d187 1
+d189 2
+a190 2
+	bool	IsULAutoPrioritized() 					{return m_bAutoPriority;}
+	void	SetAutoULPriority(bool newAutoPriority) 	{m_bAutoPriority=newAutoPriority;}
+a192 1
+	byte	m_byteMoviePreviewMode;
+d244 1
+a244 1
+	bool	GetJumpstartEnabled(void) {return m_Jumpstarter!=NULL;};
+d294 2
+@
+
+
+1.101
+log
+@improved comment processing
+@
+text
+@d106 1
+d133 1
+d150 1
+a150 1
+	~CKnownFile();
+a271 1
+	CArray<CTag*, CTag*>	m_tagArray;
+@
+
+
+1.100
+log
+@Formatting.
+@
+text
+@d203 1
+a203 1
+	CString	GetFileComment()         {if (!m_bCommentLoaded) LoadComment(); return m_strComment;}
+@
+
+
+1.99
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@d59 3
+a61 3
+	uint32	GetAllTimeRequests() const		{return alltimerequested;}
+	uint32	GetAllTimeAccepts() const		{return alltimeaccepted;}
+	uint64	GetAllTimeTransferred() const	{return alltimetransferred;}
+d70 3
+a72 3
+	uint64	alltimetransferred;
+	uint32	alltimerequested;
+	uint32	alltimeaccepted;
+@
+
+
+1.98
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@d172 1
+a172 1
+	uchar*	GetPartHash(uint16 part);
+d231 1
+a231 1
+	bool	IsPartShared(uint16 uPart)		{return ((m_PartsStatusVector[uPart] & KFPS_PART_HIDDEN) == 0);}
+@
+
+
+1.97
+log
+@improved the string handling
+@
+text
+@d169 1
+a169 1
+	uint32	GetFileDate()					{return m_timetLastWriteDate;}
+d171 1
+a171 1
+	uint16	GetHashCount()					{ CSingleLock Lock(&m_csHashList, TRUE); return m_partHashArray.GetCount();}
+@
+
+
+1.96
+log
+@Stricter method prototype; Reduced #include dependency.
+@
+text
+@d107 1
+a107 1
+	CString			GetFileName() const				{return m_strFileName;}
+d112 1
+a112 1
+	CString			GetFileExtension() const		{return m_strFileExtension;}
+d150 2
+a151 2
+	CString	GetPath() const					{return m_strKnownFileDirectory;}
+	void	SetPath(const CString& path) 	{ m_strKnownFileDirectory = path; }
+@
+
+
+1.95
+log
+@Preparation to support Source Exchange 2 (0.48a).
+@
+text
+@a19 1
+#include "packets.h"
+a21 1
+#include "opcodes.h"
+d30 2
+d123 1
+a123 1
+	EED2KFileType	GetFileType()					{return m_eFileType;}
+@
+
+
+1.94
+log
+@Removed unrequired here #includes.
+@
+text
+@d238 1
+a238 1
+	virtual	Packet*	CreateSrcInfoPacket(CUpDownClient* forClient);
+@
+
+
+1.93
+log
+@Function body was moved to the H-file.
+@
+text
+@d17 1
+a18 1
+#pragma once
+a21 3
+#include <afxcoll.h>
+#include <afxtempl.h>
+#include <afxcmn.h>
+a22 1
+
+@
+
+
+1.92
+log
+@Improved variable alignment; Reduced used memory.
+@
+text
+@d231 1
+a231 1
+	void	SetPublishedED2K(bool bVal);
+@
+
+
+1.91
+log
+@Large file size support preparations.
+@
+text
+@d105 1
+a105 1
+	CAbstractFile():m_strFileName(_T("")),m_strFileExtension(_T(""))
+d129 3
+a131 3
+	virtual CString	CreateED2kLink() const;
+	virtual CString	CreateED2kSourceLink() const;
+	virtual CString	CreateHTMLED2kLink() const;
+d136 3
+a140 1
+	uint64		m_qwFileSize;
+@
+
+
+1.90
+log
+@Faster load/save information about hidden parts.
+@
+text
+@d214 2
+a215 2
+	uint32	GetTrafficBlock(uint32 start, uint32 end, bool session=false);
+	uint32	GetTrafficPart(uint32 start, uint32 end, bool session=false);
+@
+
+
+1.89
+log
+@Large file size support preparations.
+@
+text
+@d232 1
+a232 2
+	void	SetPartStatus(uint16 uPart, byte s)	{ m_PartsStatusVector[uPart] = s; }
+	byte	GetPartStatus(uint16 uPart)		{return m_PartsStatusVector[uPart];}
+@
+
+
+1.88
+log
+@Large file size support preparations.
+@
+text
+@d118 1
+a118 1
+	uint64			GetFileSize() const				{return m_qwFileSize;}
+d120 1
+@
+
+
+1.87
+log
+@Removed unused services.
+@
+text
+@d246 1
+a246 1
+	void	AddSentBlock(CUpDownClient* client, uint32 start_offset, uint32 togo);
+@
+
+
+1.86
+log
+@Configuration of default file permission [DarkSoul/Aw3]
+(the feature isn't finished yet -- just GUI and value save/load are ready).
+@
+text
+@d168 1
+a168 1
+	virtual bool	LoadFromFile(CFile& file);	//load date, hashset and tags from a .met file
+@
+
+
+1.85
+log
+@Large file size support preparations.
+@
+text
+@a31 5
+// Permission values for shared files
+#define PERM_ALL		0
+#define PERM_FRIENDS	1
+#define PERM_NOONE		2
+
+@
+
+
+1.84
+log
+@Large file size support preparations.
+@
+text
+@d123 1
+a123 1
+	uint32			GetFileSize() const				{return m_qwFileSize;}
+@
+
+
+1.83
+log
+@Large file size support preparations.
+@
+text
+@d42 2
+a43 1
+class CFileStatistic : public CLoggable{
+d55 1
+a55 1
+	void	AddTraffic(uint32 start, uint32 bytes);
+d112 1
+a112 1
+		m_dwFileSize = 0;
+d123 2
+a124 2
+	uint32			GetFileSize() const				{return m_dwFileSize;}
+	virtual void	SetFileSize(uint32 dwFileSize)	{ m_dwFileSize = dwFileSize; }
+d142 1
+a142 1
+	uint32		m_dwFileSize;
+d165 1
+a165 1
+	void			SetFileSize(uint32 dwFileSize);
+@
+
+
+1.82
+log
+@Full path only for hashing log message of a partfile; Formatting;
+Virtual function is not required for CreateFromFile (as it's used only for shared files).
+@
+text
+@d256 1
+a256 1
+	virtual	int ReadFileForUpload(uint32 dwOffset, uint32 dwBytesToRead, byte *pbyteBuffer);
+@
+
+
+1.81
+log
+@Improved string processing.
+@
+text
+@d75 6
+a80 6
+	uint16 m_iNumRequested;
+	uint64 m_qwNumTransferred;
+	uint16 m_iNumAccepted;
+	uint32 alltimerequested;
+	uint64 alltimetransferred;
+	uint32 alltimeaccepted;
+d154 1
+a154 1
+	virtual bool	CreateFromFile(const CString& directory,const CString& filename); // create date, hashset and tags from a file
+d175 1
+a175 1
+	double	GetPopularityRatio() ;
+d258 1
+a258 1
+	double GetSizeRatio()		{return m_dblSizeRatio;}
+d261 3
+a263 3
+	void 	AddClientToSourceList(CUpDownClient* pClient);
+	void 	RemoveClientFromSourceList(CUpDownClient* pClient);
+	void 	GetCopySourceList(ClientList *pCopy);
+@
+
+
+1.80
+log
+@Unified processing of part and temporary file names.
+@
+text
+@d209 1
+a209 1
+	void	SetFileComment(CString strNewComment);
+@
+
+
+1.79
+log
+@File type as integer for the server to reduce traffic {lugdunummaster};
+Separate GetFileTypeString for search type;
+Faster sorting compare for file type columns.
+@
+text
+@d158 3
+@
+
+
+1.78
+log
+@Reduced number of system handles and faster multithread synchronization {xrmb}.
+@
+text
+@d127 3
+a129 1
+	CString			GetFileTypeString(bool bLocalized = false);
+@
+
+
+1.77
+log
+@Corrected some basic file functions rarely working wrong (damn morevit)
+(problematic functions: IsPaused, IsStopped and IsCompleting).
+@
+text
+@d171 1
+a171 1
+	uint16	GetHashCount()					{ CSingleLock Lock(&m_mutexHashList,TRUE); return m_partHashArray.GetCount();}
+d261 1
+a261 1
+	CMutex	m_mutexHashList;
+@
+
+
+1.76
+log
+@Improved files publishing algorithm on the server.
+@
+text
+@d160 1
+a160 1
+	virtual void 	SetFileName(const CString& NewName, bool bClearName = true);
+d163 4
+a166 4
+	virtual	bool	IsPartFile()			{return false;}
+	virtual	bool	IsPaused()				{return false;}
+	virtual	bool	IsStopped()				{return false;}
+	virtual bool	IsCompleting()			{return false;}
+@
+
+
+1.75
+log
+@Faster sorting by file name.
+@
+text
+@d227 3
+d293 2
+a294 1
+	bool			m_bIsCompressedTransferAllowed;
+@
+
+
+1.74
+log
+@new source exchange system
+@
+text
+@d115 4
+a118 3
+	CString	GetFileName() const		{return m_strFileName;}
+	virtual void	SetFileName(const CString& NewName, bool bClearName = true);
+	bool	IsFileNameEmpty()		{return m_strFileName.IsEmpty();}
+d120 1
+a120 1
+	CString	GetFileExtension() const		{return m_strFileExtension;}
+d122 2
+a123 2
+	uint32		GetFileSize() const				{return m_dwFileSize;}
+	virtual void 	SetFileSize(uint32 dwFileSize) 	{ m_dwFileSize = dwFileSize; }
+d125 1
+a125 1
+	const uchar*	GetFileHash() const			{return m_fileHash;}
+d127 2
+a128 2
+	CString	GetFileTypeString(bool bLocalized = false);
+	EED2KFileType GetFileType()		{return m_eFileType;}
+d130 3
+a132 3
+	virtual CString CreateED2kLink() const;
+	virtual CString CreateED2kSourceLink() const;
+	virtual CString CreateHTMLED2kLink() const;
+d252 1
+a252 1
+// source exchnage
+@
+
+
+1.73
+log
+@Removed unused code called "offered files to server".
+@
+text
+@d144 2
+d251 5
+d292 3
+@
+
+
+1.72
+log
+@More compatible way to save part file statistics: requests, accepted requests, transferred data
+(saved in .part.met file like in official, before it was in .part.stats).
+@
+text
+@a242 3
+	void	SetOfferedToServer(bool bOffered)	{m_bOfferedToServer= bOffered;}
+	bool	GetOfferedToServer()				{return m_bOfferedToServer;}
+
+a279 1
+	bool			m_bOfferedToServer;
+@
+
+
+1.71
+log
+@Removed unrequired #include.
+@
+text
+@d44 1
+a61 1
+	void	AddAll(uint32 _alltimerequested, uint32 _alltimeaccepted, uint64 _alltimetransferred);
+@
+
+
+1.70
+log
+@Minor changes related to tag processing.
+@
+text
+@a24 1
+#include "SecuredVars.h"
+@
+
+
+1.69
+log
+@Removed second file interface support for easier maintaining;
+Removed duplicate class methods.
+@
+text
+@d25 1
+a25 1
+#include "securedvars.h"
+d38 2
+a39 2
+//knowf file part statuses
+#define KFPS_PART_HIDDEN 0x01 
+a48 1
+//	Constructor is now in the .cpp file
+d65 3
+a67 3
+	uint16	GetRequests() const			{return m_iNumRequested;}
+	uint16	GetAccepts() const			{return m_iNumAccepted;}
+	uint64	GetTransferred()	const			{return m_qwNumTransferred;}
+d70 1
+a70 1
+	uint64	GetAllTimeTransferred() const 		{return alltimetransferred;}
+d92 1
+a92 1
+	double  completeReleases;			// how often the complete file was uploaded (basing on all time block-traffic)
+d129 1
+a129 1
+		
+d160 1
+a160 1
+	bool 	IsCompressedTransferAllowed()	{return m_bIsCompressedTransferAllowed;}
+d195 1
+a195 1
+	CString GetPermissionString();
+d262 6
+a267 6
+	bool						m_sharedFile;
+	CArray<uchar*,uchar*>		m_partHashArray;
+	CArray<CFileTag*,CFileTag*>	m_tagArray;
+	CString						m_strFilePath;
+	CString						m_strComment;
+	CString						m_strKnownFileDirectory;
+d283 1
+a283 1
+	CJumpstarter* 	m_Jumpstarter;
+@
+
+
+1.68
+log
+@Enabled shared files view permission settings (all, friends only, noone).
+(have been reminded of this forgotten column when I saw it in tooltips :))
+@
+text
+@a62 6
+	uint16	GetRequests()				{return m_iNumRequested;}
+	uint16	GetAccepts()				{return m_iNumAccepted;}
+	uint64	GetTransferred()				{return m_qwNumTransferred;}
+	uint16	GetAllTimeRequests()			{return alltimerequested;}
+	uint16	GetAllTimeAccepts()			{return alltimeaccepted;}
+	uint64	GetAllTimeTransferred()			{return alltimetransferred;}
+a65 2
+  //	I need them const, because I use const references, anyway, the const will not hurt anyone
+  //	and I let GetAllTimeRequests()/GetAllTimeAccepts() return uint32
+d167 1
+a167 1
+	bool	WriteToFile(FILE* file);
+d181 2
+a182 2
+	byte	GetULPriority(void)				{return m_bytePriority;};
+	void	SetULPriority(byte iNewPriority)		{m_bytePriority = iNewPriority;};
+d193 3
+a195 3
+	byte	m_iPermissions;
+	byte	GetPermissions(void)			{return m_iPermissions;};
+	void	SetPermissions(byte iNewPermissions) {m_iPermissions = iNewPermissions;};
+@
+
+
+1.67
+log
+@Fixed part traffic bar information for files with size = 0 modulo EMBLOCKSIZE (180KB)
+(the last block was always shown as never transferred).
+@
+text
+@d35 1
+a35 1
+#define PERM_FRIENDS		1
+d204 1
+@
+
+
+1.66
+log
+@changes in part control; hidden & blocked statuses are merged
+@
+text
+@d185 1
+d198 1
+a198 1
+	void	SetMovieMode(byte byteNewMode) 		{m_byteMoviePreviewMode = byteNewMode;}
+d226 1
+a226 1
+	uint32	GetBlockSize(uint32 block);
+d233 5
+a237 5
+	void 	SetPartStatus(uint16 uPart, byte s)	{ m_PartsStatusVector[uPart] = s; }
+	byte 	GetPartStatus(uint16 uPart)		{return m_PartsStatusVector[uPart];}
+	bool 	IsPartShared(uint16 uPart)		{return ((m_PartsStatusVector[uPart] & KFPS_PART_HIDDEN) == 0);}
+	void 	SharePart(uint16 uPart)			{m_PartsStatusVector[uPart] &= ~KFPS_PART_HIDDEN;}
+	void 	UnsharePart(uint16 uPart)		{m_PartsStatusVector[uPart] |= KFPS_PART_HIDDEN;}
+d286 1
+a346 1
+
+@
+
+
+1.65
+log
+@Variable renaming.
+@
+text
+@d32 9
+d232 6
+a237 2
+	void	SetPartStatus(uint16 part, byte s)	{ m_partStatus[part]=s; }
+	byte	GetPartStatus(uint16 part);
+a271 1
+	CMap<uint16, uint16, byte, byte> m_partStatus;
+d294 2
+a297 5
+// Permission values for shared files
+#define PERM_ALL		0
+#define PERM_FRIENDS	1
+#define PERM_NOONE		2
+
+@
+
+
+1.64
+log
+@added hashset function
+@
+text
+@d186 3
+a188 3
+	byte	m_iMoviePreviewMode;
+	byte	GetMovieMode()						{return m_iMoviePreviewMode;}
+	void	SetMovieMode(byte iNewMode) 		{m_iMoviePreviewMode = iNewMode;}
+@
+
+
+1.63
+log
+@final (at least i hope so) optimization for processing of file extension
+@
+text
+@d171 1
+@
+
+
+1.62
+log
+@UL speed optimization (archive extension check)
+@
+text
+@a113 1
+		m_bIsCompressedTransferAllowed = true;
+d117 1
+a117 1
+	void		SetFileName(const CString& NewName, bool bClearName = true);
+a128 1
+	bool 	IsCompressedTransferAllowed()	{return m_bIsCompressedTransferAllowed;}
+a140 1
+	bool			m_bIsCompressedTransferAllowed;
+d158 1
+d160 1
+d280 1
+@
+
+
+1.61
+log
+@Fixed several issues processing files with size = 0 modulo PARTSIZE
+(processing file corruption, jumpstart, statistics, etc.).
+@
+text
+@d114 1
+d130 1
+d143 1
+@
+
+
+1.60
+log
+@optimization in processing of file extension
+@
+text
+@d172 1
+d212 1
+a212 1
+	uint32	GetPartSize(uint16 part);
+d263 1
+a263 1
+	bool	m_bAutoPriority ;
+d269 1
+@
+
+
+1.59
+log
+@Removed unused code.
+@
+text
+@d110 1
+a110 1
+	CAbstractFile():m_strFileName(_T(""))
+d120 2
+d135 1
+@
+
+
+1.58
+log
+@rollback of old waiting queue
+@
+text
+@a218 1
+	bool	HasParts();
+@
+
+
+1.57
+log
+@corrected constructor(Aw3 request)
+@
+text
+@d173 1
+a173 1
+	void	SetULPriority(byte iNewPriority);	//	{m_iPriority = iNewPriority;};
+@
+
+
+1.56
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d110 1
+a110 1
+	CAbstractFile()
+a111 1
+		m_strFileName = _T("");
+d114 1
+a114 1
+	};
+@
+
+
+1.55
+log
+@1) varios correction for SSWQ & Co
+2) the file ratios moved to file class
+3) corrected measurement of time on remote queue
+@
+text
+@d30 1
+d110 1
+a110 1
+	CAbstractFile() : m_strFileName(_T(""))
+d112 1
+d114 3
+a116 4
+	}
+	virtual ~CAbstractFile()
+	{
+	}
+d118 1
+a118 1
+	void		SetFileName(const CString& NewName);
+d126 3
+a128 1
+	CString	GetFileType(bool bLocalized = false);
+d138 1
+@
+
+
+1.54
+log
+@SSWQ
+@
+text
+@d160 1
+a160 1
+	double	GetFileRatio(void) ;
+d236 2
+d270 1
+@
+
+
+1.53
+log
+@Fixed bugs with AV-support; reverted unneeded changes, removed redundant try/catch (thanks to Aw3 !)
+@
+text
+@d168 3
+a170 3
+	byte	m_iPriority;
+	byte	GetPriority(void)				{return m_iPriority;};
+	void	SetPriority(byte iNewPriority) {m_iPriority = iNewPriority;};
+d172 2
+a173 2
+	bool	IsAutoPrioritized() 					{return m_bAutoPriority;}
+	void	SetAutoPriority(bool newAutoPriority) 	{m_bAutoPriority=newAutoPriority;}
+@
+
+
+1.52
+log
+@minor changes, fixes and improvements
+@
+text
+@d52 1
+a52 1
+	void	AddTransferred(uint64 bytes);
+@
+
+
+1.51
+log
+@Fixed loss of client uploading turn during part file flushing and single part hashing;
+Reworked file completion algorithm to eliminate file locking in completing state.
+@
+text
+@d52 1
+a52 1
+	void	AddTransferred(uint32 bytes);
+@
+
+
+1.50
+log
+@Final fix for download list crash after file deletion.
+@
+text
+@d216 1
+a216 1
+    bool    HasParts();
+d220 1
+a220 1
+		void	CalculateCompleteSources();
+d222 6
+a227 6
+    bool GetJumpstartEnabled(void) {return m_Jumpstarter!=NULL;};
+    void SetJumpstartEnabled(bool enabled);
+    bool IsJsComplete();
+    void AddSentBlock(CUpDownClient* client, uint32 start_offset, uint32 togo);
+    void WriteJumpstartPartStatus(CUpDownClient* client, CMemFile* data);
+    bool AllowChunkForClient(uint32 partNo, CUpDownClient* client);
+d229 6
+a234 2
+	void SetOfferedToServer(bool bOffered)	{m_bOfferedToServer= bOffered;}
+	bool GetOfferedToServer()				{return m_bOfferedToServer;}
+d265 1
+a265 1
+    CJumpstarter* 	m_Jumpstarter;
+a267 3
+
+public:
+	void	UpdateSharedFileDisplay();
+@
+
+
+1.49
+log
+@prevent call of KnowFile detructor for PartFile object (crash reported by Aw3)
+@
+text
+@d153 1
+a153 1
+	virtual	bool	IsPartFile(bool bIgnoreCompleteStatus = false)		{return false;}
+@
+
+
+1.48
+log
+@"SLUGFILLER:SafeHash" partialy replaced by code, that produce minimal lock & more rubust
+@
+text
+@d153 1
+a153 1
+	virtual	bool	IsPartFile()			{return false;}
+@
+
+
+1.47
+log
+@Constructor optimization
+@
+text
+@d111 1
+a111 1
+		m_lFileSize = 0;
+d118 5
+d124 1
+a124 1
+	uint32	GetFileSize() const		{return m_lFileSize;}
+a131 2
+	uint32		m_lFileSize;
+	CString		m_strComment;
+d133 2
+d145 3
+a147 2
+	CString	GetPath() const						{return directory;}
+	void	SetPath(const CString& path) { directory = path; }
+d151 2
+d163 3
+a165 3
+	uint16	GetPartCount();
+	uint32	GetED2KPartHashCount() const;
+	uint32	GetED2KPartCount() const;
+d208 1
+a208 1
+	uint32	GetBlockCount();
+d241 1
+d244 1
+a244 1
+	CString						directory;
+d246 2
+a247 4
+
+	bool	m_sharedFile;
+
+	CMap<uint16, uint16, byte, byte> m_partStatus;
+d253 4
+d261 3
+a263 2
+    CJumpstarter* m_Jumpstarter;
+	bool	m_bOfferedToServer;
+@
+
+
+1.46
+log
+@Optimized hash calculation
+@
+text
+@d109 1
+a109 1
+	CAbstractFile()
+a111 1
+		m_strFileName = _T("");
+@
+
+
+1.45
+log
+@fix: upload auto priority isn't set to release anymore when completing file
+@
+text
+@d230 2
+a231 3
+	void	CreateHashFromFile(FILE* file, int Length, uchar* Output)	{CreateHashFromInput(file,0,Length,Output,0);}
+	void	CreateHashFromFile(CFile* file, int Length, uchar* Output)	{CreateHashFromInput(0,file,Length,Output,0);}
+	void	CreateHashFromString(uchar* in_string, int Length, uchar* Output)	{CreateHashFromInput(0,0,Length,Output,in_string);}
+d244 1
+a244 1
+	void	CreateHashFromInput(FILE* file,CFile* file2, int Length, uchar* Output, uchar* = 0);
+d309 1
+a309 1
+static void MD4Transform(uint32 Hash[4], uint32 x[16]);
+@
+
+
+1.44
+log
+@formatting, removed some ending space and minor changes
+removed some menus memleak in sharedctrl
+fixed new 'LATER' code
+changed new paused/stopped file sorting
+removed a space not meant to be there in french.rcu
+update changelog
+@
+text
+@d149 1
+@
+
+
+1.43
+log
+@Processing files with size = 0 modulo PARTSIZE (as a result impossible to receive hashset, impossible to complete such file, incorrect average speed report, etc.)
+@
+text
+@d112 1
+a112 1
+		m_strFileName = "";
+d129 1
+a129 1
+	CString m_strComment;
+@
+
+
+1.42
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d156 2
+d163 1
+a163 1
+	void    UpdateUploadAutoPriority(void);
+@
+
+
+1.41
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d158 3
+a160 3
+	uint8	m_iPriority;
+	uint8	GetPriority(void)				{return m_iPriority;};
+	void	SetPriority(uint8 iNewPriority) {m_iPriority = iNewPriority;};
+d166 3
+a168 3
+	uint8	m_iMoviePreviewMode;
+	uint8	GetMovieMode()						{return m_iMoviePreviewMode;}
+	void	SetMovieMode(uint8 iNewMode) 		{m_iMoviePreviewMode = iNewMode;}
+d171 3
+a173 3
+	uint8	m_iPermissions;
+	uint8	GetPermissions(void)			{return m_iPermissions;};
+	void	SetPermissions(uint8 iNewPermissions) {m_iPermissions = iNewPermissions;};
+d192 1
+a192 1
+	bool	LoadFromFileTraffic(FILE* file, uint8 version);
+d203 2
+a204 2
+	void	SetPartStatus(uint16 part, uint8 s)	{ m_partStatus[part]=s; }
+	uint8	GetPartStatus(uint16 part);
+d239 1
+a239 1
+	CMap<uint16, uint16, uint8, uint8> m_partStatus;
+@
+
+
+1.40
+log
+@upload auto priority sets very well spread files to low prio + minor changes + cleanup
+@
+text
+@a30 1
+#if JUMPSTART
+a31 1
+#endif
+a211 1
+#if JUMPSTART
+a217 1
+#endif
+a248 1
+#if JUMPSTART
+a249 1
+#endif
+@
+
+
+1.39
+log
+@stopped and paused files are not considered as partfile for upload auto priorities + some changes to avoid a bug with PR_AUTO in my last changes + minor changes about priorities
+@
+text
+@a27 1
+//--- xrmb:partprio ---
+a28 1
+//--- :xrmb ---
+a31 1
+//#include "Jumpstarter.h"
+a36 2
+	//--- xrmb:parttraffic ---
+	//--- i need more friends, for member-access/speed reasons
+a38 1
+	//--- :xrmb ---
+d41 1
+a41 3
+	//--- xrmb:parttraffic ---
+	//--- the constructor is now in the .cpp file ---
+	//CFileStatistic()					{requested = transferred = accepted = alltimerequested= alltimetransferred = alltimeaccepted = 0;}
+a50 1
+	//--- :xrmb ---
+a60 1
+	//--- xrmb:keepPartFileStats ---
+a61 3
+	//--- :xrmb ---
+
+	//--- xrmb:allyaknow ---
+a62 1
+	//--- :xrmb ---
+d64 2
+a65 3
+	//--- xrmb:parttraffic ---
+	//--- i need them const, because i use const references, anyway, they const will not hurt anyone ---
+	//--- and i let GetAllTimeRequests()/GetAllTimeAccepts() return uint32 ---
+a73 1
+	//--- :xrmb ---
+a83 1
+	//--- xrmb:parttraffic ---
+d91 1
+a91 1
+	uint32	*blockTrafficSession;			// session traffic on block level
+d96 1
+a96 2
+	void	recalcCompleteReleases();		// recalculate the complete release count, don't do this to often
+	//--- :xrmb ---
+d154 1
+a154 1
+	double	GetFileRatio(void) ; 			// Added by Tarod
+d159 1
+a159 1
+	// file upload priority
+d163 1
+a163 3
+
+	// Added by Tarod for AutoPriority
+	void    UpdateUploadAutoPriority(void);	// Added by Tarod for UAP
+d167 1
+a167 1
+	// DonGato - Moview Preview Mode
+d172 1
+a172 1
+	// shared file view permissions (all, only friends, no one)
+d180 1
+a180 1
+	//comment
+d187 1
+a187 1
+	uint16	GetCompleteSourcesCount()		{return m_nCompleteSourcesCount;}		//netwolf: complete sources (zegzav) 13.05.03
+d189 1
+a189 1
+	//--- xrmb:parttraffic ---
+a200 1
+	//--- :xrmb ---
+a201 1
+	//--- xrmb:allyaknow ---
+a203 1
+	//--- :xrmb ---
+a204 1
+	//--- xrmb:partprio ---
+a209 3
+	//void	SetPartStatus(uint16 part, bool s)	{ m_partStatus[part]=s; }
+	//bool	GetPartStatus(uint16 part)			{ bool r=true; m_partStatus.Lookup(part, r); return r; }
+	//--- :xrmb ---
+a210 1
+	// file sharing
+d212 1
+a212 1
+		void	CalculateCompleteSources();	//netwolf: complete sources (zegzav) 13.05.03
+d234 1
+a234 1
+	void	LoadComment();//comment
+a240 1
+	//--- xrmb:allyaknow ---
+a241 1
+	//--- :xrmb ---
+a242 1
+	//--- xrmb:partprio ---
+a243 2
+	//CMap<uint16, uint16, bool, bool> m_partStatus;
+	//--- :xrmb ---
+d247 1
+a247 1
+	bool	m_bAutoPriority ; // Tarod
+d249 1
+a249 1
+	uint16	m_nCompleteSourcesCount;	// netwolf: complete sources (zegzav) 13.05.03
+a258 1
+//	UI updates
+d262 1
+a262 1
+// permission values for shared files
+d267 1
+a267 1
+// constants for MD4Transform
+d281 1
+a281 1
+// basic MD4 functions
+d286 1
+a286 2
+// rotates x left n bits
+// 15-April-2003 Sony: use MSVC intrinsic to save a few cycles
+d294 1
+a294 1
+// partial transformations
+@
+
+
+1.38
+log
+@minor changes to DebugLog and remove some marks
+@
+text
+@d55 1
+a55 1
+	void	AddTraffic(uint32 start, uint32 bytes); 
+d106 1
+a106 1
+	
+d109 1
+a109 1
+	
+d122 2
+a123 2
+CAbstractFile 
+		\ 
+d130 1
+a130 1
+	{	
+d135 1
+a135 1
+	{		
+d167 2
+d200 2
+a201 2
+	//comment 
+	CString	GetFileComment()         {if (!m_bCommentLoaded) LoadComment(); return m_strComment;} 
+d203 1
+a203 1
+	void	SetFileRating(EnumPartFileRating eNewRating); 
+d215 1
+a215 1
+	bool	SaveToFileTraffic(FILE* file);	
+d285 1
+a285 1
+	uint32	m_nCompleteSourcesTime;	
+@
+
+
+1.37
+log
+@Aw3's MD4 optimization
+@
+text
+@d230 1
+a230 1
+    bool    HasParts(); // DbT:StartUploadReq
+@
+
+
+1.36
+log
+@type mismatch (thanks netwolf)
+@
+text
+@d314 2
+a315 2
+#define MD4_F(x, y, z) (((x) & (y)) | ((~x) & (z)))
+#define MD4_G(x, y, z) (((x) & (y)) | ((x) & (z)) | ((y) & (z)))
+@
+
+
+1.35
+log
+@fix for serch with new filetyp
+@
+text
+@d66 1
+a66 1
+	uint32	GetTransferred()				{return m_iNumTransferred;}
+d83 1
+a83 1
+	uint32	GetTransferred()	const			{return m_iNumTransferred;}
+d94 1
+a94 1
+	uint64 m_iNumTransferred;
+@
+
+
+1.34
+log
+@File Type correction & related name changes
+@
+text
+@d126 1
+a126 1
+class CAbstractFile
+d155 1
+a155 1
+class CKnownFile : public CAbstractFile, public CLoggable
+@
+
+
+1.33
+log
+@BUGFIX: inability to remove shared file comment (#278)
+@
+text
+@a131 1
+		m_dwFileType = 2;
+d138 1
+d141 1
+a141 2
+	uint32	GetFileType() const		{return m_dwFileType;}
+	void	SetFileName(const CString& NewName); 	// Added by Tarod [Juanjo]
+a148 3
+	//kuchin - this variable stuck emule for number of seconds. should be checked later, why.
+	//also, write to 4-byte integer should be atomic operation and doesn't really need protection
+	uint32	m_dwFileType;
+a150 1
+
+@
+
+
+1.32
+log
+@free disk space needed is now determined with respect to NTFS compression and/or sparse files
+@
+text
+@d208 1
+@
+
+
+1.31
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d168 2
+a169 1
+
+d269 1
+@
+
+
+1.30
+log
+@Formatting, comments, and name changes.
+@
+text
+@d174 1
+a174 1
+	float	GetFileRatio(void) ; 			// Added by Tarod
+@
+
+
+1.29
+log
+@Formatting, comments, and name changes.
+@
+text
+@d26 1
+d154 1
+a154 1
+	int8	m_iRate; //for rate 
+d205 2
+a206 2
+	void	SetFileRate(int8 iNewRate); 
+	int8	GetFileRate()         	{if (!m_bCommentLoaded) LoadComment(); return m_iRate;}
+@
+
+
+1.28
+log
+@Formatting, comments, and name changes. Factored various UI update methods out and modified to use async. messaging instead of sync. call.
+@
+text
+@d62 1
+a62 1
+	void	AddTransferd(uint32 bytes);
+@
+
+
+1.27
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d289 4
+@
+
+
+1.26
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d131 1
+a131 1
+		filetype = 2;
+d140 1
+a140 1
+	uint32	GetFileType() const		{return filetype;}
+d151 1
+a151 3
+//	CSecuredVar<uint32>	m_lFileSize;
+	uint32	filetype;
+//	CSecuredVar<uint32>	filetype; 
+@
+
+
+1.25
+log
+@Reverted a change. :-(
+@
+text
+@d266 3
+a268 3
+	CArray<uchar*,uchar*>	m_partHashArray;
+	CArray<CTag*,CTag*>		m_tagArray;
+	CString					directory;
+@
+
+
+1.24
+log
+@Changes from official about handling of known.met
+@
+text
+@a131 1
+		m_strFilePath = "";
+a145 1
+	CString		m_strFilePath;
+@
+
+
+1.23
+log
+@Formatting, comments, and name changes.
+@
+text
+@d132 1
+d147 1
+@
+
+
+1.22
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d63 3
+a65 3
+	uint16	GetRequests()				{return requested;}
+	uint16	GetAccepts()				{return accepted;}
+	uint32	GetTransferred()				{return transferred;}
+d80 3
+a82 3
+	uint16	GetRequests() const			{return requested;}
+	uint16	GetAccepts() const			{return accepted;}
+	uint32	GetTransferred()	const			{return transferred;}
+d92 3
+a94 3
+	uint16 requested;
+	uint64 transferred;
+	uint16 accepted;
+d174 1
+a174 1
+	uint32	GetFileDate()					{return date;}
+d176 1
+a176 1
+	uint16	GetHashCount()					{ CSingleLock Lock(&m_hashlistMutex,TRUE); return hashlist.GetCount();}
+d179 1
+a179 1
+	uint32	date;
+d257 2
+a258 1
+	CMutex m_hashlistMutex;
+d265 4
+a268 3
+	CArray<uchar*,uchar*> hashlist;
+	CArray<CTag*,CTag*> taglist;
+	CString	directory;
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d48 1
+a48 1
+	//CFileStatistic()					{requested = transfered = accepted = alltimerequested= alltimetransfered = alltimeaccepted = 0;}
+d65 1
+a65 1
+	uint32	GetTransfered()				{return transfered;}
+d68 1
+a68 1
+	uint64	GetAllTimeTransfered()			{return alltimetransfered;}
+d70 1
+a70 1
+	void	AddAll(uint32 _alltimerequested, uint32 _alltimeaccepted, uint64 _alltimetransfered);
+d82 1
+a82 1
+	uint32	GetTransfered()	const			{return transfered;}
+d85 1
+a85 1
+	uint64	GetAllTimeTransfered() const 		{return alltimetransfered;}
+d93 1
+a93 1
+	uint64 transfered;
+d96 1
+a96 1
+	uint64 alltimetransfered;
+d130 1
+a130 1
+		filesize = 0;
+d132 1
+a132 1
+		filename = "";
+d137 3
+a139 3
+	CString	GetFileName() const		{return filename;}
+	const uchar*	GetFileHash() const			{return filehash;}
+	uint32	GetFileSize() const		{return filesize;}
+d146 3
+a148 3
+	CString	filename;
+	uchar	filehash[16];
+	uint32	filesize;
+d151 1
+a151 1
+//	CSecuredVar<uint32>	filesize;
+@
+
+
+1.20
+log
+@share files with soft limit
+@
+text
+@d132 1
+d173 1
+a173 1
+	bool	WriteToFile(FILE* file);	
+@
+
+
+1.19
+log
+@updated complete sources (0.06b: display range of values)
+@
+text
+@d252 3
+d287 1
+@
+
+
+1.18
+log
+@minor complete sources changes
+@
+text
+@d209 1
+a209 1
+	uint8	GetCompleteSourcesAccuracy()	{return m_nCompleteSourcesAccuracy;}	//netwolf: complete sources (zegzav) 13.05.03
+d278 2
+a280 1
+	uint8	m_nCompleteSourcesAccuracy;
+@
+
+
+1.17
+log
+@code cleanup
+@
+text
+@d208 2
+a209 2
+	virtual uint16	GetCompleteSourcesCount()		{return m_nCompleteSourcesCount;}		//netwolf: complete sources (zegzav) 13.05.03
+	virtual uint8	GetCompleteSourcesAccuracy()	{return m_nCompleteSourcesAccuracy;}	//netwolf: complete sources (zegzav) 13.05.03
+@
+
+
+1.16
+log
+@DoubleT: bug #295 fixed (bypass part blocking on opcode StartUploadReq)
+@
+text
+@d171 1
+a171 1
+	virtual bool	LoadFromFile(CFile* file);	//load date, hashset and tags from a .met file
+d199 1
+a199 1
+	bool	LoadHashsetFromFile(CFile* file, bool checkhash);
+d254 2
+a255 2
+	bool	LoadTagsFromFile(CFile* file);
+	bool	LoadDateFromFile(CFile* file);
+@
+
+
+1.15
+log
+@code cleanup
+@
+text
+@d233 1
+@
+
+
+1.14
+log
+@coverted code from char * to CString
+@
+text
+@d137 3
+a139 3
+	uchar*	GetFileHash()			{return filehash;}
+	uint32	GetFileSize()			{return filesize;}
+	uint32	GetFileType()			{return filetype;}
+d141 3
+a143 1
+	
+@
+
+
+1.13
+log
+@coverted code from char * to CString
+@
+text
+@d163 1
+a163 1
+	virtual bool	CreateFromFile(char* directory,char* filename); // create date, hashset and tags from a file
+@
+
+
+1.12
+log
+@fix for Jumpstart insisting on turning itself on
+@
+text
+@d129 1
+a129 2
+	{
+		filename = NULL;
+d134 1
+a134 3
+	{
+		if( filename != NULL )
+			delete[] filename;
+d136 1
+a136 1
+	char*	GetFileName()			{return filename;}
+d140 1
+a140 1
+	void	SetFileName(LPCSTR NewName); 	// Added by Tarod [Juanjo]
+d143 1
+a143 1
+	char*	filename;
+d164 4
+a167 2
+	char*	GetPath()						{return directory;}
+	void	SetPath(char* path);
+d259 1
+a259 1
+	char*	directory;
+@
+
+
+1.11
+log
+@minor fixes and improvements
+@
+text
+@d244 1
+d247 1
+a247 1
+    bool IsJsChunkComplete(uint32 partNo);
+@
+
+
+1.10
+log
+@complete sources column
+@
+text
+@d93 1
+a93 1
+	uint32 transfered;
+d307 5
+d313 1
+@
+
+
+1.9
+log
+@eMule stuck fix
+@
+text
+@d207 2
+d239 1
+d274 3
+@
+
+
+1.8
+log
+@Jumpstart debug runtime check
+@
+text
+@d148 6
+a153 4
+	//uint32	filesize;
+	CSecuredVar<uint32>	filesize;
+//	uint32	filetype;
+	CSecuredVar<uint32>	filetype; 
+@
+
+
+1.7
+log
+@Fixed bugs #38 & #169
+@
+text
+@d241 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d143 1
+a143 1
+	void	SetFileName(char* NewName); 	// Added by Tarod [Juanjo]
+@
+
+
+1.6.2.1
+log
+@27a partial merge
+@
+text
+@d48 1
+a48 1
+	//CFileStatistic()					{requested = transfered = accepted = alltimerequested= alltimetransferred = alltimeaccepted = 0;}
+d62 1
+a62 1
+	void	AddTransferred(uint64 bytes);
+d65 1
+a65 1
+	uint64	GetTransferred()			{return transferred;}
+d68 1
+a68 1
+	uint64	GetAllTimeTransferred()		{return alltimetransferred;}
+d82 1
+a82 1
+	uint32	GetTransfered()	const			{return transferred;}
+d85 1
+a85 1
+	uint64	GetAllTimeTransfered() const 		{return alltimetransferred;}
+d93 1
+a93 1
+	uint64 transferred;
+d96 1
+a96 1
+	uint64 alltimetransferred;
+d192 1
+a197 3
+	void	AddUploadingClient(CUpDownClient* client);
+	void	RemoveUploadingClient(CUpDownClient* client);
+
+a270 1
+	uint8	m_iPermissions;
+@
+
+
+1.6.2.2
+log
+@27c
+@
+text
+@d149 1
+a149 1
+	CSecuredVar<uint64>	filesize;
+a169 1
+	CTime	GetCFileDate()			{return CTime(date);}
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d172 1
+a172 1
+	uint16	GetHashCount()					{return hashlist.GetCount();}
+d244 1
+@
+
+
+1.4
+log
+@converted to new logging method
+@
+text
+@d25 1
+a141 1
+	uint32*	GetFileTypePtr()		{return &filetype;}
+d148 4
+a151 2
+	uint32	filesize;
+	uint32	filetype;
+a164 1
+	uint32*	GetFileTypePtr()				{return &filetype;}
+@
+
+
+1.3
+log
+@more Jumpstarter
+@
+text
+@d29 1
+d36 1
+a36 1
+class CFileStatistic{
+d157 1
+a157 1
+class CKnownFile : public CAbstractFile
+@
+
+
+1.2
+log
+@Changes protected by a #define, should have no effect
+@
+text
+@d238 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d30 5
+d234 6
+d264 3
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

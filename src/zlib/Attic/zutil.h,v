@@ -1,0 +1,533 @@
+head	1.4;
+access;
+symbols
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.3
+	Interim_Release_1j_beta2:1.3
+	Interim_Release_1j_beta1:1.3
+	PublicRelease_1i:1.3
+	Interim_Release_1i_RC6:1.3
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.14
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.12
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.10
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.8
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.6
+	plus26based:1.1.0.4
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.2.1
+	proxytest:1.1.2.1.0.2
+	official_sockets:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.4
+date	2004.05.20.14.02.02;	author kush_eplus;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.05.11.13.14;	author katsyonak;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.03.22.30.17;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.25.16.12.23;	author maverick65;	state Exp;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2003.01.28.17.18.32;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@updated project to use zlib 1.2.1 library
+@
+text
+@/* zutil.h -- internal interface and configuration of the compression library
+ * Copyright (C) 1995-2002 Jean-loup Gailly.
+ * For conditions of distribution and use, see copyright notice in zlib.h
+ */
+
+/* WARNING: this file should *not* be used by applications. It is
+   part of the implementation of the compression library and is
+   subject to change. Applications should only use zlib.h.
+ */
+
+/* @@(#) $Id: zutil.h,v 1.3 2003/12/05 11:13:14 katsyonak Exp $ */
+
+#ifndef _Z_UTIL_H
+#define _Z_UTIL_H
+
+#include "zlib.h"
+
+#ifdef STDC
+#  include <stddef.h>
+#  include <string.h>
+#  include <stdlib.h>
+#endif
+#ifdef NO_ERRNO_H
+    extern int errno;
+#else
+#   include <errno.h>
+#endif
+
+#ifndef local
+#  define local static
+#endif
+/* compile with -Dlocal if your debugger can't find static symbols */
+
+typedef unsigned char  uch;
+typedef uch FAR uchf;
+typedef unsigned short ush;
+typedef ush FAR ushf;
+typedef unsigned long  ulg;
+
+extern const char *z_errmsg[10]; /* indexed by 2-zlib_error */
+/* (size given to avoid silly warnings with Visual C++) */
+
+#define ERR_MSG(err) z_errmsg[Z_NEED_DICT-(err)]
+
+#define ERR_RETURN(strm,err) \
+  return (strm->msg = (char*)ERR_MSG(err), (err))
+/* To be used only when the state is known to be valid */
+
+        /* common constants */
+
+#ifndef DEF_WBITS
+#  define DEF_WBITS MAX_WBITS
+#endif
+/* default windowBits for decompression. MAX_WBITS is for compression only */
+
+#if MAX_MEM_LEVEL >= 8
+#  define DEF_MEM_LEVEL 8
+#else
+#  define DEF_MEM_LEVEL  MAX_MEM_LEVEL
+#endif
+/* default memLevel */
+
+#define STORED_BLOCK 0
+#define STATIC_TREES 1
+#define DYN_TREES    2
+/* The three kinds of block type */
+
+#define MIN_MATCH  3
+#define MAX_MATCH  258
+/* The minimum and maximum match lengths */
+
+#define PRESET_DICT 0x20 /* preset dictionary flag in zlib header */
+
+        /* target dependencies */
+
+#ifdef MSDOS
+#  define OS_CODE  0x00
+#  if defined(__TURBOC__) || defined(__BORLANDC__)
+#    if(__STDC__ == 1) && (defined(__LARGE__) || defined(__COMPACT__))
+       /* Allow compilation with ANSI keywords only enabled */
+       void _Cdecl farfree( void *block );
+       void *_Cdecl farmalloc( unsigned long nbytes );
+#    else
+#     include <alloc.h>
+#    endif
+#  else /* MSC or DJGPP */
+#    include <malloc.h>
+#  endif
+#endif
+
+#ifdef OS2
+#  define OS_CODE  0x06
+#endif
+
+#ifdef WIN32 /* Window 95 & Windows NT */
+#  define OS_CODE  0x0b
+#endif
+
+#if defined(VAXC) || defined(VMS)
+#  define OS_CODE  0x02
+#  define F_OPEN(name, mode) \
+     fopen((name), (mode), "mbc=60", "ctx=stm", "rfm=fix", "mrs=512")
+#endif
+
+#ifdef AMIGA
+#  define OS_CODE  0x01
+#endif
+
+#if defined(ATARI) || defined(atarist)
+#  define OS_CODE  0x05
+#endif
+
+#if defined(MACOS) || defined(TARGET_OS_MAC)
+#  define OS_CODE  0x07
+#  if defined(__MWERKS__) && __dest_os != __be_os && __dest_os != __win32_os
+#    include <unix.h> /* for fdopen */
+#  else
+#    ifndef fdopen
+#      define fdopen(fd,mode) NULL /* No fdopen() */
+#    endif
+#  endif
+#endif
+
+#ifdef __50SERIES /* Prime/PRIMOS */
+#  define OS_CODE  0x0F
+#endif
+
+#ifdef TOPS20
+#  define OS_CODE  0x0a
+#endif
+
+#if defined(_BEOS_) || defined(RISCOS)
+#  define fdopen(fd,mode) NULL /* No fdopen() */
+#endif
+
+#if (defined(_MSC_VER) && (_MSC_VER > 600))
+#  define fdopen(fd,type)  _fdopen(fd,type)
+#endif
+
+
+        /* Common defaults */
+
+#ifndef OS_CODE
+#  define OS_CODE  0x03  /* assume Unix */
+#endif
+
+#ifndef F_OPEN
+#  define F_OPEN(name, mode) fopen((name), (mode))
+#endif
+
+         /* functions */
+
+#ifdef HAVE_STRERROR
+   extern char *strerror OF((int));
+#  define zstrerror(errnum) strerror(errnum)
+#else
+#  define zstrerror(errnum) ""
+#endif
+
+#if defined(pyr)
+#  define NO_MEMCPY
+#endif
+#if defined(SMALL_MEDIUM) && !defined(_MSC_VER) && !defined(__SC__)
+ /* Use our own functions for small and medium model with MSC <= 5.0.
+  * You may have to use the same strategy for Borland C (untested).
+  * The __SC__ check is for Symantec.
+  */
+#  define NO_MEMCPY
+#endif
+#if defined(STDC) && !defined(HAVE_MEMCPY) && !defined(NO_MEMCPY)
+#  define HAVE_MEMCPY
+#endif
+#ifdef HAVE_MEMCPY
+#  ifdef SMALL_MEDIUM /* MSDOS small or medium model */
+#    define zmemcpy _fmemcpy
+#    define zmemcmp _fmemcmp
+#    define zmemzero(dest, len) _fmemset(dest, 0, len)
+#  else
+#    define zmemcpy memcpy
+#    define zmemcmp memcmp
+#    define zmemzero(dest, len) memset(dest, 0, len)
+#  endif
+#else
+   extern void zmemcpy  OF((Bytef* dest, const Bytef* source, uInt len));
+   extern int  zmemcmp  OF((const Bytef* s1, const Bytef* s2, uInt len));
+   extern void zmemzero OF((Bytef* dest, uInt len));
+#endif
+
+/* Diagnostic functions */
+#ifdef DEBUG
+#  include <stdio.h>
+   extern int z_verbose;
+   extern void z_error    OF((char *m));
+#  define Assert(cond,msg) {if(!(cond)) z_error(msg);}
+#  define Trace(x) {if (z_verbose>=0) fprintf x ;}
+#  define Tracev(x) {if (z_verbose>0) fprintf x ;}
+#  define Tracevv(x) {if (z_verbose>1) fprintf x ;}
+#  define Tracec(c,x) {if (z_verbose>0 && (c)) fprintf x ;}
+#  define Tracecv(c,x) {if (z_verbose>1 && (c)) fprintf x ;}
+#else
+#  define Assert(cond,msg)
+#  define Trace(x)
+#  define Tracev(x)
+#  define Tracevv(x)
+#  define Tracec(c,x)
+#  define Tracecv(c,x)
+#endif
+
+
+typedef uLong (ZEXPORT *check_func) OF((uLong check, const Bytef *buf,
+				       uInt len));
+voidpf zcalloc OF((voidpf opaque, unsigned items, unsigned size));
+void   zcfree  OF((voidpf opaque, voidpf ptr));
+
+#define ZALLOC(strm, items, size) \
+           (*((strm)->zalloc))((strm)->opaque, (items), (size))
+#define ZFREE(strm, addr)  (*((strm)->zfree))((strm)->opaque, (voidpf)(addr))
+#define TRY_FREE(s, p) {if (p) ZFREE(s, p);}
+
+#endif /* _Z_UTIL_H */
+@
+
+
+1.3
+log
+@Reverted zlib update
+@
+text
+@d11 1
+a11 1
+/* @@(#) $Id: zutil.h,v 1.1 2003/01/25 16:12:23 maverick65 Exp $ */
+@
+
+
+1.2
+log
+@updated zlib to v1.2.1
+@
+text
+@d2 1
+a2 1
+ * Copyright (C) 1995-2003 Jean-loup Gailly.
+d11 1
+a11 1
+/* @@(#) $Id$ */
+d13 2
+a14 2
+#ifndef ZUTIL_H
+#define ZUTIL_H
+a15 1
+#define ZLIB_INTERNAL
+d40 1
+a40 1
+extern const char * const z_errmsg[10]; /* indexed by 2-zlib_error */
+d76 1
+a76 1
+#if defined(MSDOS) || (defined(WINDOWS) && !defined(WIN32))
+d84 1
+a84 1
+#      include <alloc.h>
+d91 6
+a96 2
+#ifdef AMIGA
+#  define OS_CODE  0x01
+d105 4
+a112 4
+#ifdef OS2
+#  define OS_CODE  0x06
+#endif
+
+d124 4
+a131 10
+#ifdef WIN32
+#  ifndef __CYGWIN__  /* Cygwin is Unix, not Win32 */
+#    define OS_CODE  0x0b
+#  endif
+#endif
+
+#ifdef __50SERIES /* Prime/PRIMOS */
+#  define OS_CODE  0x0f
+#endif
+
+d137 1
+a137 9
+#  if defined(_WIN32_WCE)
+#    define fdopen(fd,mode) NULL /* No fdopen() */
+#    ifndef _PTRDIFF_T_DEFINED
+       typedef int ptrdiff_t;
+#      define _PTRDIFF_T_DEFINED
+#    endif
+#  else
+#    define fdopen(fd,type)  _fdopen(fd,type)
+#  endif
+d140 2
+a141 1
+        /* common defaults */
+a152 30
+#if defined(STDC99) || (defined(__TURBOC__) && __TURBOC__ >= 0x550)
+#  ifndef HAVE_VSNPRINTF
+#    define HAVE_VSNPRINTF
+#  endif
+#endif
+#if defined(__CYGWIN__)
+#  ifndef HAVE_VSNPRINTF
+#    define HAVE_VSNPRINTF
+#  endif
+#endif
+#ifndef HAVE_VSNPRINTF
+#  ifdef MSDOS
+     /* vsnprintf may exist on some MS-DOS compilers (DJGPP?),
+        but for now we just assume it doesn't. */
+#    define NO_vsnprintf
+#  endif
+#  ifdef __TURBOC__
+#    define NO_vsnprintf
+#  endif
+#  ifdef WIN32
+     /* In Win32, vsnprintf is available as the "non-ANSI" _vsnprintf. */
+#    if !defined(vsnprintf) && !defined(NO_vsnprintf)
+#      define vsnprintf _vsnprintf
+#    endif
+#  endif
+#  ifdef __SASC
+#    define NO_vsnprintf
+#  endif
+#endif
+
+d210 2
+d220 1
+a220 1
+#endif /* ZUTIL_H */
+@
+
+
+1.1
+log
+@zlib sources
+removes all the linking warnings
+@
+text
+@d2 1
+a2 1
+ * Copyright (C) 1995-2002 Jean-loup Gailly.
+d13 2
+a14 2
+#ifndef _Z_UTIL_H
+#define _Z_UTIL_H
+d16 1
+d41 1
+a41 1
+extern const char *z_errmsg[10]; /* indexed by 2-zlib_error */
+d77 1
+a77 1
+#ifdef MSDOS
+d85 1
+a85 1
+#     include <alloc.h>
+d92 2
+a93 6
+#ifdef OS2
+#  define OS_CODE  0x06
+#endif
+
+#ifdef WIN32 /* Window 95 & Windows NT */
+#  define OS_CODE  0x0b
+d102 2
+a103 2
+#ifdef AMIGA
+#  define OS_CODE  0x01
+d106 2
+a107 2
+#if defined(ATARI) || defined(atarist)
+#  define OS_CODE  0x05
+d121 8
+a128 2
+#ifdef __50SERIES /* Prime/PRIMOS */
+#  define OS_CODE  0x0F
+d131 2
+a132 2
+#ifdef TOPS20
+#  define OS_CODE  0x0a
+d140 9
+a148 1
+#  define fdopen(fd,type)  _fdopen(fd,type)
+d151 1
+a151 2
+
+        /* Common defaults */
+d163 30
+a249 2
+typedef uLong (ZEXPORT *check_func) OF((uLong check, const Bytef *buf,
+				       uInt len));
+d258 1
+a258 1
+#endif /* _Z_UTIL_H */
+@
+
+
+1.1.2.1
+log
+@added to branch
+@
+text
+@d11 1
+a11 1
+/* @@(#) $Id: zutil.h,v 1.1 2003/01/25 16:12:23 maverick65 Exp $ */
+@
+

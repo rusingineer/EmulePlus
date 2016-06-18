@@ -1,0 +1,3973 @@
+head	1.111;
+access;
+symbols
+	PublicRelease_1_2e:1.111
+	Interim_Release_1-2e_RC1:1.109
+	PublicRelease_1_2d:1.105
+	Interim_Release_1-2d_RC1:1.104
+	Interim_Release_1-2d_beta1:1.104
+	PublicRelease_1_2c:1.102
+	Interim_Release_1-2c_RC1:1.102
+	Interim_Release_1-2c_beta1:1.97
+	PublicRelease_1_2b:1.97
+	Interim_Release_1-2b_RC1:1.97
+	PublicRelease_1_2a:1.97
+	Interim_Release_1-2a_RC1:1.97
+	Interim_Release_1-2a_beta2:1.97
+	Interim_Release_1-2a_beta1:1.97
+	PublicRelease_1_2:1.97
+	Interim_Release_1-2_RC1:1.97
+	Interim_Release_1-2_beta1:1.97
+	PublicRelease_1_1g:1.96
+	Interim_Release_1-1g_RC3:1.96
+	Interim_Release_1-1g_RC2:1.96
+	Interim_Release_1-1g_RC1:1.96
+	Interim_Release_1-1g_beta2:1.93
+	Interim_Release_1-1g_beta1:1.91
+	PublicRelease_1_1f:1.91
+	Interim_Release_1-1f_RC1:1.91
+	PublicRelease_1_1e:1.90
+	Interim_Release_1-1e_RC2:1.90
+	Interim_Release_1-1e_RC1:1.90
+	Interim_Release_1-1e_beta1:1.90
+	PublicRelease_1_1d:1.90
+	Interim_Release_1-1d_RC1:1.90
+	PublicRelease_1_1c:1.90
+	Interim_Release_1-1c_RC1:1.90
+	Interim_Release_1-1c_beta2:1.90
+	Interim_Release_1-1c_beta1:1.89
+	PublicRelease_1_1b:1.87
+	Interim_Release_1-1b_RC1:1.87
+	PublicRelease_1_1a:1.86
+	Interim_Release_1-1a_RC2:1.86
+	Interim_Release_1-1a_RC1:1.86
+	Interim_Release_1-1a_beta2:1.86
+	Interim_Release_1-1a_beta1:1.86
+	PublicRelease_1_1:1.85
+	Interim_Release_1-1_beta1:1.85
+	PublicRelease_1o:1.85
+	Interim_Release_1o_RC1:1.85
+	Interim_Release_1o_beta1:1.85
+	PublicRelease_1n:1.85
+	Interim_Release_1n_RC2:1.85
+	Interim_Release_1n_RC1:1.85
+	Interim_Release_1n_beta2:1.82
+	Interim_Release_1n_beta1:1.79
+	PublicRelease_1m:1.79
+	Interim_Release_1m_beta1:1.78
+	PublicRelease_1l:1.76
+	Interim_Release_1l_RC3:1.76
+	Interim_Release_1l_RC2:1.76
+	Interim_Release_1l_RC1:1.72
+	Interim_Release_1l_beta2:1.72
+	Interim_Release_1l_beta1:1.70
+	PublicRelease_1k:1.65
+	Interim_Release_1k_RC4:1.65
+	Interim_1k_RC3:1.65
+	Interim_1k_RC2:1.65
+	Interim_Release_1k_RC1:1.62
+	Interim_Release_1k_beta5:1.60
+	Intrerim_Release_1k_beta4:1.60
+	Interim_Release_1k_beta1:1.59
+	PublicRelease_1j:1.56
+	Interim_Release_1J_RC3:1.56
+	Interim_Release_1j_RC3:1.56
+	Interim_Release_1j_RC2:1.54
+	Interim_Release_1j_RC1:1.53
+	Interim_Release_1j_beta2:1.53
+	Interim_Release_1j_beta1:1.50
+	PublicRelease_1i:1.40
+	Interim_Release_1i_RC6:1.40
+	Interim_Release_1i_RC3:1.40
+	Interim_Release_1i_RC2:1.40
+	Interim_Release_1i_RC1:1.37
+	Interim_Release_1i_beta3:1.30
+	Interim_Release_1i_beta2:1.28
+	Interim_Release_1i_beta1:1.25
+	PublicRelease_1h:1.22
+	Interim_Release_1h_rc2:1.22
+	Interim_Release_1h_RC1:1.22
+	Interim_Release_1h_beta2:1.22
+	Interim_Release_1h_beta1_now:1.20
+	Interim_Release_1h_beta1:1.20
+	PublicRelease_1g:1.20
+	Interim_Release_1g_RC6_Final:1.20
+	Interim_Release_1g_RC6:1.20
+	Interim_Release_1g_RC5:1.20
+	Interim_Release_1g_RC4:1.20
+	Interim_Release_1g_RC3:1.20
+	Interim_Release_1g_beta2:1.17
+	Interim_Release_1g_beta1:1.15
+	Interim_Release_1f_RC4:1.13
+	Interim_Release_1f_RC3:1.13
+	Interim_Release_1f_RC2:1.12
+	Interim_Release_1f_RC:1.11
+	Interim_Release_1f_beta2:1.11
+	Interim_Release_1f_beta1:1.11
+	PublicRelease_1e:1.11
+	Interim_Release_1e_RC2:1.11
+	Interim_Release_1e_RC:1.11
+	Interim_Release_1e_beta3:1.11
+	Interim_Release_1e_beta2:1.11
+	Interim_Release_1e_beta2_before_kuchin:1.11
+	Interim_Release_1e_beta1:1.11
+	PublicRelease_1c:1.11
+	featurestest:1.11.0.4
+	Interim_Release_1c_RC:1.11
+	Interim_Release_1c_beta2:1.11
+	Interim_Release_1c_beta1:1.11
+	threaded_downloadqueue:1.11.0.2
+	PublicRelease_1b:1.9
+	Interim_Release_1b_beta2:1.9
+	Interim_Release_1b_beta1:1.9
+	proxydeadlake:1.9.0.4
+	PublicRelease_1a:1.9
+	Interim_Release_1a_beta2:1.9
+	BerkeleyDb:1.9.0.2
+	Interim_Release_1a_beta1:1.9
+	PublicRelease_1:1.9
+	goldfish:1.9
+	eMulePlus_1_RC2:1.9
+	eMulePlus_26b_1RC1:1.8
+	PreRelease_26b_i0e:1.8
+	before_26d_merge:1.7
+	Interim_Release_26b_i0d:1.6
+	Interim_Release_26b_i0c:1.6
+	Interim_Release_26b_i0b:1.6
+	Interim_Release_26b_i0a:1.6
+	systraydlg:1.6.0.4
+	plus26based:1.6.0.2
+	Interim_Release_25b_i0b:1.6
+	Proxy_Dev:1.6
+	Interim_Release_25b_i0a:1.4.2.4
+	proxytest:1.4.2.1.0.2
+	official_sockets:1.4.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.111
+date	2009.04.08.04.05.38;	author aw3;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2009.04.07.03.58.37;	author aw3;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2009.01.20.03.27.51;	author aw3;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2008.12.15.22.39.31;	author aw3;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2008.05.25.02.00.13;	author aw3;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2008.05.14.18.51.13;	author eklmn;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2007.12.23.17.40.00;	author aw3;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2007.10.11.18.06.26;	author fuxie-dk;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2007.07.08.00.14.18;	author aw3;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2007.07.07.04.07.37;	author aw3;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2007.07.02.22.41.17;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2007.06.04.00.54.49;	author aw3;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2007.04.18.00.23.36;	author aw3;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2006.01.06.20.05.54;	author kush_eplus;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2005.11.28.03.09.10;	author aw3;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2005.11.27.22.11.50;	author eklmn;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2005.09.23.10.56.08;	author eklmn;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2005.09.19.22.14.59;	author eklmn;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2005.07.19.02.14.38;	author katsyonak;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2005.02.02.07.15.34;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2005.01.19.21.10.51;	author netwolf1;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2005.01.17.18.34.54;	author katsyonak;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2004.12.16.21.06.23;	author aw3;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2004.10.26.21.14.16;	author aw3;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2004.08.22.12.33.52;	author katsyonak;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2004.08.17.13.02.26;	author aw3;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.08.16.19.46.03;	author aw3;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2004.07.29.14.02.32;	author katsyonak;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.07.29.02.13.02;	author katsyonak;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.07.26.02.29.42;	author katsyonak;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.06.23.21.10.47;	author katsyonak;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.06.21.17.29.13;	author katsyonak;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.06.15.05.05.47;	author katsyonak;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.05.31.20.02.34;	author aw3;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.05.27.09.24.16;	author katsyonak;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.05.27.07.40.43;	author katsyonak;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.05.26.21.37.42;	author katsyonak;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.05.17.18.07.44;	author katsyonak;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.05.11.14.03.20;	author katsyonak;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.05.06.01.39.08;	author katsyonak;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.05.04.06.09.33;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.05.02.23.35.22;	author katsyonak;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.04.20.23.25.38;	author dropf;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.04.09.13.37.38;	author dongato;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.03.31.22.26.56;	author dropf;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.03.30.21.02.15;	author aw3;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.03.30.16.13.35;	author eklmn;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.03.27.19.36.34;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.03.26.23.16.59;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.03.14.21.10.12;	author aw3;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.02.18.15.41.48;	author katsyonak;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.02.07.01.26.46;	author netwolf1;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.02.05.00.00.01;	author kush_eplus;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.01.22.19.48.26;	author dongato;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.01.13.13.19.42;	author katsyonak;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.01.11.19.18.25;	author katsyonak;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.01.06.09.54.16;	author katsyonak;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.01.05.08.09.11;	author katsyonak;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.12.30.17.44.39;	author katsyonak;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.12.29.18.52.33;	author katsyonak;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.12.25.02.51.47;	author katsyonak;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.12.23.12.05.04;	author katsyonak;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.12.22.18.28.27;	author katsyonak;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.12.20.00.40.27;	author katsyonak;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.12.19.11.05.30;	author katsyonak;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.12.18.13.35.30;	author katsyonak;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.11.05.21.59.42;	author dongato;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.11.05.18.25.49;	author dongato;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.11.05.12.53.34;	author katsyonak;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.11.04.16.11.37;	author kuchin;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.11.04.04.49.11;	author dongato;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.11.03.11.47.16;	author kuchin;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.11.02.15.37.16;	author kuchin;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.11.02.13.35.07;	author katsyonak;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.11.02.10.36.41;	author katsyonak;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.11.02.10.00.59;	author dongato;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.10.30.02.44.37;	author morevit;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.10.29.17.04.51;	author katsyonak;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.10.08.01.53.33;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.10.04.00.48.37;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.09.27.08.07.48;	author dongato;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.08.31.16.49.55;	author dongato;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.08.23.16.28.38;	author bond006;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.06.18.21.38.09;	author netwolf1;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.06.15.13.41.14;	author partyckip;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.06.15.09.10.05;	author partyckip;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.06.08.07.36.58;	author partyckip;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.04.19.57.49;	author partyckip;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.01.08.59.02;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.05.27.01.32.49;	author dongato;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.05.14.15.10.16;	author lord_kiron;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.05.13.17.59.39;	author lord_kiron;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.14.16.24.21;	author partyckip;	state Exp;
+branches
+	1.11.4.1;
+next	1.10;
+
+1.10
+date	2003.03.13.21.16.35;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.20.08.55.17;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.17.19.17.21;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.02.03.39.55;	author cax2;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.01.29.14.37.05;	author cax2;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.01.24.22.07.49;	author maverick65;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2003.01.24.14.12.26;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.23.12.49.06;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.22;	author cax2;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2003.01.28.16.54.26;	author cax2;	state Exp;
+branches;
+next	1.4.2.2;
+
+1.4.2.2
+date	2003.01.29.00.25.46;	author cax2;	state Exp;
+branches;
+next	1.4.2.3;
+
+1.4.2.3
+date	2003.01.29.13.38.27;	author cax2;	state Exp;
+branches;
+next	1.4.2.4;
+
+1.4.2.4
+date	2003.01.31.10.21.45;	author cax2;	state Exp;
+branches;
+next	1.4.2.5;
+
+1.4.2.5
+date	2003.02.02.02.36.28;	author cax2;	state Exp;
+branches;
+next	;
+
+1.11.4.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.111
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "ServerList.h"
+#include "ServerWnd.h"
+#include "server.h"
+#include "HttpDownloadDlg.h"
+#include "HTRichEditCtrl.h"
+#include "NewServerDlg.h"
+#include "UpdateServerMetDlg.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+// CServerWnd dialog
+
+IMPLEMENT_DYNAMIC(CServerWnd, CDialog)
+CServerWnd::CServerWnd(CWnd* pParent /*=NULL*/)
+	: CResizableDialog(CServerWnd::IDD, pParent)
+{
+	m_pctlServerMsgBox = new CHTRichEditCtrl;
+	m_pctlLogBox = new CHTRichEditCtrl;
+	m_pctlDebugBox = new CHTRichEditCtrl;
+}
+
+CServerWnd::~CServerWnd()
+{
+	delete m_pctlServerMsgBox;
+	delete m_pctlLogBox;
+	delete m_pctlDebugBox;
+}
+
+BOOL CServerWnd::OnInitDialog()
+{
+	static const uint16 s_auIconResID[] =
+	{
+		IDI_LOG,
+		IDI_SERVERINFO
+	};
+
+	CResizableDialog::OnInitDialog();
+	m_ctlServerList.Init();
+
+	m_ctrlBoxSwitcher.ModifyStyle(NULL, TCS_OWNERDRAWFIXED);
+
+	m_imageList.Create(16, 16, g_App.m_iDfltImageListColorFlags | ILC_MASK, ARRSIZE(s_auIconResID), 0);
+	m_imageList.SetBkColor(RGB(255, 0, 255));
+	FillImgLstWith16x16Icons(&m_imageList, s_auIconResID, ARRSIZE(s_auIconResID));
+
+	CImageList		imageList;
+	CBitmap			Bitmap, *pOldBitmap;
+	CDC				*pCtrlDC = GetDC(), TempDC;
+
+	TempDC.CreateCompatibleDC(pCtrlDC);
+	Bitmap.CreateCompatibleBitmap(pCtrlDC, 16 * 2, 16);
+	pOldBitmap = TempDC.SelectObject(&Bitmap);
+	m_imageList.Draw(&TempDC, 0, CPoint(0, 0), ILD_NORMAL);
+	m_imageList.Draw(&TempDC, 1, CPoint(16, 0), ILD_NORMAL);
+	TempDC.SelectObject(pOldBitmap);
+	imageList.Create(16, 16, g_App.m_iDfltImageListColorFlags | ILC_MASK, 0, 10);
+	imageList.Add(&Bitmap, RGB(255, 0, 255));
+	m_ctrlBoxSwitcher.SetImageList(&imageList);
+	imageList.Detach();
+	//Bitmap.Detach();
+	Bitmap.DeleteObject();
+	ReleaseDC(pCtrlDC);
+///////////////////////////////////////////////////////
+
+	m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 0, GetResString(IDS_SV_LOG), 0, 0, 0, 0);
+	m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 1, GetResString(IDS_SV_SERVERINFO), 1, 0, 0, 0);
+
+	CRect		rBox;
+
+	GetDlgItem(IDC_LOG)->GetWindowRect(rBox);
+	::MapWindowPoints(NULL, m_hWnd, (LPPOINT)&rBox, 2);
+	m_pctlServerMsgBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, IDC_SERVERMSGBOX);
+	m_pctlServerMsgBox->ModifyStyleEx(0, WS_EX_STATICEDGE, SWP_FRAMECHANGED);
+	m_pctlLogBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, IDC_LOGBOX);
+	m_pctlLogBox->ModifyStyleEx(0, WS_EX_STATICEDGE, SWP_FRAMECHANGED);
+	m_pctlDebugBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, IDC_DEBUGBOX);
+	m_pctlDebugBox->ModifyStyleEx(0, WS_EX_STATICEDGE, SWP_FRAMECHANGED);
+
+	InitFont();
+	oldServerListIcon = GetServerLstStatic()->SetIcon(GetServerLstIcon());
+	m_pctlServerMsgBox->AppendText(CLIENT_NAME_WITH_VER _T(" (http://emuleplus.info)\n"), CSTRLEN(CLIENT_NAME_WITH_VER _T(" (http://emuleplus.info)\n")), RGB(153,51,102));
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW) + _T(' '), RGB(153,51,102), CLR_DEFAULT, HTC_HAVENOLINK);
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW3), RGB(153,51,102), CLR_DEFAULT, HTC_LINK);
+	m_pctlServerMsgBox->AppendText(_T(' ') + GetResString(IDS_EMULEW2) + _T("\n\n"), RGB(153,51,102), CLR_DEFAULT, HTC_HAVENOLINK);
+
+	m_ctrlNewServerBtn.SetThemeHelper(&g_App.m_pMDlg->m_themeHelper);
+	m_ctrlNewServerBtn.SetIcon(IDI_NEWSERVER);
+	m_ctrlUpdateServerMetBtn.SetThemeHelper(&g_App.m_pMDlg->m_themeHelper);
+	m_ctrlUpdateServerMetBtn.SetIcon(IDI_UPDATESERVERS);
+	m_ctrlResetLogBtn.SetThemeHelper(&g_App.m_pMDlg->m_themeHelper);
+	m_ctrlResetLogBtn.SetIcon(IDI_RESETLOG);
+
+	AddAnchor(IDC_SERVLST_ICO, TOP_LEFT);
+	AddAnchor(IDC_SERVLIST_TEXT, TOP_LEFT);
+	AddAnchor(IDC_SERVLIST, TOP_LEFT, MIDDLE_RIGHT);
+	AddAnchor(IDC_TAB1, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(*m_pctlServerMsgBox, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(*m_pctlLogBox, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(*m_pctlDebugBox, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(IDC_NEWSERVER, TOP_RIGHT);
+	AddAnchor(IDC_UPDATESERVERMET, TOP_RIGHT);
+	AddAnchor(IDC_LOGRESET, MIDDLE_RIGHT);
+	bDebug = false;
+	ToggleDebugWindow();
+	m_pctlServerMsgBox->ShowWindow(SW_HIDE);
+	m_pctlDebugBox->ShowWindow(SW_HIDE);
+	m_pctlLogBox->ShowWindow(SW_HIDE);
+	if (m_pctlLogBox->m_hWnd)
+		m_pctlLogBox->ShowWindow(SW_SHOW);
+
+	Localize();
+
+	m_ttip.Create(this);
+	m_ttip.SetDelayTime(TTDT_AUTOPOP, 15000);
+	m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+	m_ttip.SendMessage(TTM_SETMAXTIPWIDTH, 0, SHRT_MAX);
+	m_ttip.SetBehaviour(PPTOOLTIP_MULTIPLE_SHOW);
+	m_ttip.SetNotify(m_hWnd);
+	m_ttip.AddTool(&m_ctlServerList, _T(""));
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::InitFont()
+{
+	m_pctlLogBox->SetFont(&g_App.m_pMDlg->m_fontDefault);
+	m_pctlServerMsgBox->SetFont(&g_App.m_pMDlg->m_fontDefault);
+	m_pctlDebugBox->SetFont(&g_App.m_pMDlg->m_fontDefault);
+}
+
+void CServerWnd::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_SERVLIST, m_ctlServerList);
+	DDX_Control(pDX, IDC_NEWSERVER, m_ctrlNewServerBtn);
+	DDX_Control(pDX, IDC_UPDATESERVERMET, m_ctrlUpdateServerMetBtn);
+	DDX_Control(pDX, IDC_TAB1, m_ctrlBoxSwitcher);
+	DDX_Control(pDX, IDC_LOGRESET, m_ctrlResetLogBtn);
+}
+
+void CServerWnd::Localize()
+{
+	if (m_hWnd != NULL)
+	{
+		TCHAR	acBuf[256];
+		TCITEM	tci;
+
+		tci.mask = TCIF_TEXT;
+		tci.pszText = acBuf;
+		tci.cchTextMax = ARRSIZE(acBuf);
+
+		m_ctrlBoxSwitcher.GetItem(0, &tci);
+		_stprintf(acBuf, _T("%s"), GetResString(IDS_SV_LOG));
+		m_ctrlBoxSwitcher.SetItem(0, &tci);
+		m_ctrlBoxSwitcher.GetItem(1, &tci);
+		_stprintf(acBuf, _T("%s"), GetResString(IDS_SV_SERVERINFO));
+		m_ctrlBoxSwitcher.SetItem(1, &tci);
+		if (g_App.m_pPrefs->GetVerbose() && bDebug)
+		{
+			m_ctrlBoxSwitcher.GetItem(2, &tci);
+			_stprintf(acBuf, _T("%s"), GetResString(IDS_SV_DEBUGLOG));
+			m_ctrlBoxSwitcher.SetItem(2, &tci);
+		}
+		m_pctlLogBox->SetTitle(GetResString(IDS_SV_LOG));
+		m_pctlServerMsgBox->SetTitle(GetResString(IDS_SV_SERVERINFO));
+		m_pctlDebugBox->SetTitle(GetResString(IDS_SV_DEBUGLOG));
+		m_ctrlBoxSwitcher.Invalidate();
+		m_pctlLogBox->Invalidate();
+		m_pctlDebugBox->Invalidate();
+		m_pctlServerMsgBox->Invalidate();
+		m_ctrlBoxSwitcher.SetWindowPos(&CWnd::wndBottom,0,0,0,0, SWP_NOMOVE | SWP_NOSIZE);
+		m_ctrlNewServerBtn.SetWindowText(GetResString(IDS_SV_NEWSERVER));
+		m_ctrlUpdateServerMetBtn.SetWindowText(GetResString(IDS_SV_MET));
+		m_ctrlResetLogBtn.SetWindowText(GetResString(IDS_PW_RESET));
+
+		m_ctlServerList.Localize();
+	}
+}
+
+BEGIN_MESSAGE_MAP(CServerWnd, CResizableDialog)
+	ON_BN_CLICKED(IDC_LOGRESET, OnBnClickedResetLog)
+	ON_BN_CLICKED(IDC_UPDATESERVERMET, OnBnClickedUpdateservermet)
+	ON_BN_CLICKED(IDC_NEWSERVER, OnBnClickedNewserver)
+	ON_NOTIFY(TCN_SELCHANGE, IDC_TAB1, OnTcnSelchangeTab1)
+	ON_NOTIFY(EN_LINK, IDC_SERVERMSGBOX, OnEnLinkServerBox)
+	ON_WM_DESTROY()
+END_MESSAGE_MAP()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// CServerWnd message handlers
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CServerWnd::PreTranslateMessage(MSG* pMsg)
+{
+	if (g_App.m_pPrefs->GetToolTipDelay() != 0)
+		m_ttip.RelayEvent(pMsg);
+
+	return CResizableDialog::PreTranslateMessage(pMsg);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CServerWnd::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
+{
+	NMHDR* pNMHDR = (NMHDR*)lParam;
+
+	switch(pNMHDR->code)
+	{
+		case UDM_TOOLTIP_DISPLAY:
+		{
+			NM_PPTOOLTIP_DISPLAY *pNotify = (NM_PPTOOLTIP_DISPLAY*)lParam;
+
+			GetInfo4ToolTip(pNotify);
+			return TRUE;
+		}
+		case UDM_TOOLTIP_POP:
+		{
+			m_ttip.Pop();
+			return TRUE;
+		}
+	}
+
+	return CResizableDialog::OnNotify(wParam, lParam, pResult);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::GetInfo4ToolTip(NM_PPTOOLTIP_DISPLAY *pNotify)
+{
+	int						iControlId = CWnd::FromHandle(pNotify->ti->hWnd)->GetDlgCtrlID();
+
+	if (iControlId == IDC_SERVLIST)
+	{
+		if (m_ctlServerList.GetItemCount() < 1)
+			return;
+
+		int			iSel = GetItemUnderMouse(&m_ctlServerList);
+
+		if (iSel < 0 || iSel == 65535)
+			return;
+
+		CServer		*pServer = (CServer*)m_ctlServerList.GetItemData(iSel);
+
+		if (pServer == NULL)
+			return;
+
+		CString					strInfo;
+
+		pNotify->ti->hIcon = pServer->GetServerInfo4Tooltips(strInfo);
+		pNotify->ti->sTooltip = strInfo;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnBnClickedResetLog()
+{
+	switch (m_ctrlBoxSwitcher.GetCurSel())
+	{
+		case 0:
+			m_pctlLogBox->Reset();
+			g_App.m_pMDlg->m_ctlStatusBar.SetText(_T(""), SB_MESSAGETEXT, 0);
+			break;
+		case 1:
+			m_pctlServerMsgBox->Reset();
+			break;
+		case 2:
+			m_pctlDebugBox->Reset();
+			break;
+		default:
+			break;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnBnClickedNewserver()
+{
+	CNewServerDlg	dlgNewServer;
+	CRect			rBtn;
+
+	dlgNewServer.SetParent(this);
+	GetDlgItem(IDC_NEWSERVER)->GetWindowRect(&rBtn);
+	dlgNewServer.SetInitialPos(CPoint(rBtn.right,rBtn.bottom), 1);
+	dlgNewServer.SetServerEditMode(false); // We are adding a server, not editing
+	dlgNewServer.DoModal();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnBnClickedUpdateservermet()
+{
+	CUpdateServerMetDlg	dlgUpdateServerMet;
+	CRect				rBtn;
+
+	dlgUpdateServerMet.SetParent(this);
+	GetDlgItem(IDC_UPDATESERVERMET)->GetWindowRect(&rBtn);
+	dlgUpdateServerMet.SetInitialPos(CPoint(rBtn.right,rBtn.bottom), 1);
+	dlgUpdateServerMet.DoModal();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::AddServer(const CString &strAddress, const CString &strPort, const CString &strName, const TCHAR *pcAuxPort/*=_T("")*/, bool bChangeServerInfo/*=false*/)
+{
+	if (strAddress.IsEmpty())
+	{
+		AddLogLine(LOG_FL_SBAR, IDS_SRV_ADDR);
+		return;
+	}
+
+	if (strPort.IsEmpty())
+	{
+		AddLogLine(LOG_FL_SBAR, IDS_SRV_PORT);
+		return;
+	}
+
+	CServer			*pNewServer = new CServer(static_cast<uint16>(_tstoi(strPort)), strAddress);
+
+	// Default all manually added servers to high priority
+	if (g_App.m_pPrefs->GetManuallyAddedServerHighPrio())
+		pNewServer->SetPreference(PR_HIGH);
+
+	if (!strName.IsEmpty())
+		pNewServer->SetListName(strName);
+	else
+		pNewServer->SetListName(strAddress);
+
+	if (*pcAuxPort != _T('\0'))
+		pNewServer->SetAuxPort(static_cast<uint16>(_tstoi(pcAuxPort)));
+
+	if (!m_ctlServerList.AddServer(pNewServer, true, false, bChangeServerInfo))
+	{
+		CServer	   *pServerFound = g_App.m_pServerList->GetServerByAddress(pNewServer->GetAddress(), pNewServer->GetPort());
+
+		if (pServerFound != NULL)
+		{
+			pServerFound->SetListName(pNewServer->GetListName());
+			m_ctlServerList.RefreshServer(*pServerFound);
+		}
+
+		AddLogLine(LOG_FL_SBAR, IDS_SRV_NOTADDED);
+		delete pNewServer;
+	}
+	else if (bChangeServerInfo)	// server exists in the list, Edit operation was requested
+		delete pNewServer;
+	else
+		AddLogLine(LOG_FL_SBAR, IDS_SERVERADDED, pNewServer->GetListName());
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::UpdateServerMetFromURL(CString strURL)
+{
+	m_ctlServerList.SetRedraw(false);
+
+	if (strURL.IsEmpty())
+	{
+	//	Update from known addresses
+		g_App.m_pServerList->AutoUpdate();
+
+	//	Load Metfile (merge existing servers)
+		CString		strPath = g_App.m_pPrefs->GetConfigDir() + _T("server.met");
+
+		g_App.m_pServerList->AddServerMetToList(strPath, true);
+	}
+	else
+	{
+	//	Is not a valid URL
+		if (!strURL.IsEmpty() && strURL.Find(_T("://")) == -1)
+		{
+			AddLogLine(LOG_FL_SBAR | LOG_RGB_WARNING, IDS_INVALIDURL);
+			m_ctlServerList.SetRedraw(true);
+			return;
+		}
+
+		CString			strTempFilename;
+
+		strTempFilename.Format(_T("%stemp-%d-server.met"), g_App.m_pPrefs->GetConfigDir(), ::GetTickCount());
+
+		CHttpDownloadDlg		dlgDownload;
+
+		dlgDownload.m_strInitializingTitle = GetResString(IDS_HTTP_CAPTION);
+		dlgDownload.m_nIDPercentage = IDS_HTTPDOWNLOAD_PERCENTAGE;
+		dlgDownload.m_sURLToDownload = strURL;
+		dlgDownload.m_sFileToDownloadInto = strTempFilename;
+
+		if (dlgDownload.DoModal() != IDOK)
+		{
+			AddLogLine(LOG_FL_SBAR | LOG_RGB_WARNING, IDS_ERR_FAILEDDOWNLOADMET, strURL);
+			m_ctlServerList.SetRedraw(true);
+			return;
+		}
+
+	//	Load Metfile (merge existing servers)
+		g_App.m_pServerList->AddServerMetToList(strTempFilename, true);
+
+		_tremove(strTempFilename);
+	}
+
+//	Insert static servers from textfile
+	CString			strPath(g_App.m_pPrefs->GetConfigDir());
+
+	strPath += CFGFILE_STATICSERVERS;
+	g_App.m_pServerList->LoadServersFromTextFile(strPath);
+
+	m_ctlServerList.RemoveDeadServer();
+	m_ctlServerList.ShowFilesCount();
+
+	m_ctlServerList.SetRedraw(true);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnStnClickedServinfIco()
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnTcnSelchangeTab1(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NOPRM(pNMHDR);
+	switch(m_ctrlBoxSwitcher.GetCurSel())
+	{
+		case 0:
+			m_pctlDebugBox->ShowWindow(SW_HIDE);
+			m_pctlServerMsgBox->ShowWindow(SW_HIDE);
+			m_pctlLogBox->SetRedraw(false);
+			m_pctlLogBox->ShowWindow(SW_SHOW);
+			if (((m_pctlLogBox->m_dwFlags & HTC_ISAUTOSCROLL) != 0) && (m_ctrlBoxSwitcher.GetItemState(0, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+				m_pctlLogBox->ScrollToLastLine();
+			m_pctlLogBox->SetRedraw(true);
+			m_ctrlBoxSwitcher.SetItemState(0, TCIS_HIGHLIGHTED, NULL);
+			break;
+		case 1:
+			m_pctlDebugBox->ShowWindow(SW_HIDE);
+			m_pctlLogBox->ShowWindow(SW_HIDE);
+			m_pctlServerMsgBox->SetRedraw(false);
+			m_pctlServerMsgBox->ShowWindow(SW_SHOW);
+			if (((m_pctlServerMsgBox->m_dwFlags & HTC_ISAUTOSCROLL) != 0) && (m_ctrlBoxSwitcher.GetItemState(1, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+				m_pctlServerMsgBox->ScrollToLastLine();
+			m_pctlServerMsgBox->SetRedraw(true);
+			m_ctrlBoxSwitcher.SetItemState(1, TCIS_HIGHLIGHTED, NULL);
+			break;
+		case 2:
+			m_pctlServerMsgBox->ShowWindow(SW_HIDE);
+			m_pctlLogBox->ShowWindow(SW_HIDE);
+			m_pctlDebugBox->SetRedraw(false);
+			m_pctlDebugBox->ShowWindow(SW_SHOW);
+			if (((m_pctlDebugBox->m_dwFlags & HTC_ISAUTOSCROLL) != 0) && (m_ctrlBoxSwitcher.GetItemState(2, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+				m_pctlDebugBox->ScrollToLastLine();
+			m_pctlDebugBox->SetRedraw(true);
+			m_ctrlBoxSwitcher.SetItemState(2, TCIS_HIGHLIGHTED, NULL);
+			break;
+		default:
+			break;
+	}
+
+	*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::ToggleDebugWindow()
+{
+	int			iCurSel = m_ctrlBoxSwitcher.GetCurSel();
+
+	if (g_App.m_pPrefs->GetVerbose() && !bDebug)
+	{
+		m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 2, GetResString(IDS_SV_DEBUGLOG), 0, 0, 0, 0);
+		bDebug = true;
+	}
+	else if (!g_App.m_pPrefs->GetVerbose() && bDebug)
+	{
+		if (iCurSel == 2)
+		{
+			m_ctrlBoxSwitcher.SetCurSel(0);
+			m_ctrlBoxSwitcher.SetFocus();
+		}
+		m_pctlDebugBox->ShowWindow(SW_HIDE);
+		m_pctlServerMsgBox->ShowWindow(SW_HIDE);
+		m_pctlLogBox->ShowWindow(SW_SHOW);
+		m_ctrlBoxSwitcher.DeleteItem(2);
+		bDebug = false;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnCancel()
+{
+	//CResizableDialog::OnCancel();	// pressing ESC when the focus is on the logbox	would hide the server-wnd [FoRcHa]
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnEnLinkServerBox(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	ENLINK		*pEnLink = reinterpret_cast<ENLINK *>(pNMHDR);
+
+	if (pEnLink && pEnLink->msg == WM_LBUTTONDOWN)
+	{
+		CString			strUrl, strLangUrl;
+
+		m_pctlServerMsgBox->GetTextRange(pEnLink->chrg.cpMin, pEnLink->chrg.cpMax, strUrl);
+		strLangUrl = strUrl; // GetTextRange returns '?' for non-english chars :(
+		strLangUrl.Remove(_T('?'));
+		strLangUrl.Remove(_T(' '));
+		if (strUrl == GetResString(IDS_EMULEW3) || strLangUrl.IsEmpty())
+			strUrl.Format(_T("http://updates.emuleplus.info/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION, g_App.m_pPrefs->GetLanguageID());
+		ShellExecute(NULL, NULL, strUrl, NULL, NULL, SW_SHOWDEFAULT);
+		*pResult = 1;
+	}
+	else
+		*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerWnd::OnDestroy()
+{
+	CResizableDialog::OnDestroy();
+
+	DestroyIcon(GetServerLstStatic()->SetIcon(oldServerListIcon));
+	m_imageList.DeleteImageList();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CNewTabCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct)
+{
+	EMULE_TRY
+
+	CDC			dc;
+
+	dc.Attach(lpDrawItemStruct->hDC);
+
+	TCHAR	acBuf[255];
+	int		iCurItem = lpDrawItemStruct->itemID;
+	TCITEM	tcitem;
+
+	tcitem.mask = TCIF_TEXT | TCIF_IMAGE | TCIF_STATE;
+	tcitem.pszText = acBuf;
+	tcitem.cchTextMax = ARRSIZE(acBuf);
+	tcitem.dwStateMask = TCIS_HIGHLIGHTED;
+	GetItem(iCurItem, &tcitem);
+
+	CRect		rect = lpDrawItemStruct->rcItem;
+
+	rect.top += ::GetSystemMetrics(SM_CYEDGE);
+	rect.left += ::GetSystemMetrics(SM_CXEDGE);
+	rect.right -= ::GetSystemMetrics(SM_CXEDGE);
+
+	if (!g_App.m_pMDlg->m_themeHelper.IsAppThemed())
+		dc.FillSolidRect(&rect, GetSysColor(COLOR_BTNFACE));
+	dc.SetBkMode(TRANSPARENT);
+
+	CImageList	*pImageList = GetImageList();
+
+	if (pImageList != NULL)
+		pImageList->Draw(&dc, tcitem.iImage, CPoint((iCurItem == GetCurSel()) ? rect.left + 4 : rect.left + 2, rect.top + 1), ILD_TRANSPARENT);
+
+	dc.SetTextColor((tcitem.dwState & TCIS_HIGHLIGHTED) ? RGB(196, 0, 0) : GetSysColor(COLOR_BTNTEXT));
+
+	rect.OffsetRect(10, 2);
+	dc.DrawText(acBuf, -1, rect, DT_CENTER);
+	dc.Detach();
+
+	EMULE_CATCH2
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.110
+log
+@Unified definition for the staticservers configuration file.
+@
+text
+@d20 1
+@
+
+
+1.109
+log
+@Point manual version check links to updates.emuleplus.info to be in synch with automatic version check [Aw3/DonGato].
+@
+text
+@d409 1
+a409 1
+	CString			strPath = g_App.m_pPrefs->GetConfigDir() + _T("staticservers.dat");
+d411 1
+@
+
+
+1.108
+log
+@Optimized link identification and output to RichEdit controls (logs, chats, IRC).
+@
+text
+@d507 1
+a507 1
+			strUrl.Format(_T("http://emuleplus.info/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION, g_App.m_pPrefs->GetLanguageID());
+@
+
+
+1.107
+log
+@Simplified logging system implementation.
+@
+text
+@d103 2
+a104 2
+	m_pctlServerMsgBox->AppendText(CLIENT_NAME_WITH_VER _T(" (http://emuleplus.info)\n"), RGB(153,51,102));
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW) + _T(' '), RGB(153,51,102));
+d106 1
+a106 1
+	m_pctlServerMsgBox->AppendText(_T(' ') + GetResString(IDS_EMULEW2) + _T("\n\n"), RGB(153,51,102));
+@
+
+
+1.106
+log
+@Don't create NewServer and UpdateServerMet dialogs inside server window class - do it only when required.
+@
+text
+@d317 1
+a317 1
+		AddLogLine(true, IDS_SRV_ADDR);
+d323 1
+a323 1
+		AddLogLine(true, IDS_SRV_PORT);
+d351 1
+a351 1
+		AddLogLine(true, IDS_SRV_NOTADDED);
+d357 1
+a357 1
+		AddLogLine(true, IDS_SERVERADDED, pNewServer->GetListName());
+d379 1
+a379 1
+			AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_INVALIDURL));
+d397 1
+a397 1
+			AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURL);
+@
+
+
+1.105
+log
+@1) change unicode support for "staticsevers.dat" to be compatible with official eMule
+2) fixed memleak created by editing of server properties
+@
+text
+@a41 2
+	m_dlgNewServer.SetParent(this);
+	m_dlgUpdateServerMet.SetParent(this);
+d292 2
+a293 1
+	CRect		rBtn;
+d295 1
+d297 3
+a299 3
+	m_dlgNewServer.SetInitialPos(CPoint(rBtn.right,rBtn.bottom), 1);
+	m_dlgNewServer.SetServerEditMode(false); // We are adding a server, not editing
+	m_dlgNewServer.DoModal();
+d304 2
+a305 1
+	CRect		rBtn;
+d307 1
+d309 2
+a310 2
+	m_dlgUpdateServerMet.SetInitialPos(CPoint(rBtn.right,rBtn.bottom), 1);
+	m_dlgUpdateServerMet.DoModal();
+@
+
+
+1.104
+log
+@Suppressed compiler warnings; Formatting.
+@
+text
+@d352 2
+d409 1
+a409 1
+	g_App.m_pServerList->AddServersFromTextFile(strPath);
+@
+
+
+1.103
+log
+@Generate less code for some logging; Clean-up [Aw3].
+@
+text
+@d66 1
+a66 1
+	m_imageList.Create(16, 16, g_App.m_iDfltImageListColorFlags | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+d68 1
+a68 1
+	FillImgLstWith16x16Icons(&m_imageList, s_auIconResID, ELEMENT_COUNT(s_auIconResID));
+d325 1
+a325 1
+	CServer			*pNewServer = new CServer(_tstoi(strPort), strAddress);
+d337 1
+a337 1
+		pNewServer->SetAuxPort(_tstoi(pcAuxPort));
+d421 1
+@
+
+
+1.102
+log
+@Optimized DrawText -- no need to create temporary CString.
+@
+text
+@d353 1
+a353 1
+		AddLogLine(true, GetResString(IDS_SERVERADDED), pNewServer->GetListName());
+@
+
+
+1.101
+log
+@Reduced #include depedency.
+@
+text
+@d554 1
+a554 1
+	dc.DrawText(acBuf, rect, DT_CENTER);
+@
+
+
+1.100
+log
+@Improved string processing.
+@
+text
+@d21 1
+@
+
+
+1.99
+log
+@More appropriate name for service to avoid confusion.
+@
+text
+@a17 4
+
+// ServerWnd.cpp : implementation file
+//
+
+d146 1
+d310 1
+a310 1
+void CServerWnd::AddServer(CString strAddress, CString strPort, CString strName, CString strAuxPort/* = _T("")*/, bool bChangeServerInfo/* = false*/)
+d324 1
+a324 1
+	CServer			*pNewServer = new CServer(_tstoi(strPort), strAddress.GetBuffer());
+d331 1
+a331 1
+		pNewServer->SetListName(strName.GetBuffer());
+d333 1
+a333 1
+		pNewServer->SetListName(strAddress.GetBuffer());
+d335 2
+a336 4
+	if (!strAuxPort.IsEmpty())
+	{
+		pNewServer->SetAuxPort(_tstoi(strAuxPort));
+	}
+@
+
+
+1.98
+log
+@Code restructuring, update and formatting.
+@
+text
+@d330 1
+a330 1
+	if (g_App.m_pPrefs->GetManualHighPrio())
+@
+
+
+1.97
+log
+@UNICODE preparation (first shot)
+@
+text
+@d65 1
+a65 3
+	m_ctlServerList.Init(g_App.m_pServerList);
+
+///////////////////////////////////////////////////
+@
+
+
+1.96
+log
+@Clean-up.
+@
+text
+@d110 1
+a110 1
+	m_pctlServerMsgBox->AppendText(CString(CLIENT_NAME_WITH_VER " (http://emuleplus.info)\n"), RGB(153,51,102));
+d173 2
+a174 2
+		TCHAR		buffer[256];
+		TCITEM		ti;
+d176 10
+a185 10
+		ti.mask = TCIF_TEXT;
+		ti.pszText = buffer;
+		ti.cchTextMax = sizeof(buffer);
+
+		m_ctrlBoxSwitcher.GetItem(0, &ti);
+		_stprintf(buffer, _T("%s"), GetResString(IDS_SV_LOG));
+		m_ctrlBoxSwitcher.SetItem(0, &ti);
+		m_ctrlBoxSwitcher.GetItem(1, &ti);
+		_stprintf(buffer, _T("%s"), GetResString(IDS_SV_SERVERINFO));
+		m_ctrlBoxSwitcher.SetItem(1, &ti);
+d188 3
+a190 3
+			m_ctrlBoxSwitcher.GetItem(2, &ti);
+			_stprintf(buffer, _T("%s"), GetResString(IDS_SV_DEBUGLOG));
+			m_ctrlBoxSwitcher.SetItem(2, &ti);
+d532 3
+a534 3
+	char		pBuf[255];
+	int			iCurItem = lpDrawItemStruct->itemID;
+	TCITEM		tcitem;
+d537 2
+a538 2
+	tcitem.pszText = pBuf;
+	tcitem.cchTextMax = sizeof(pBuf);
+d560 1
+a560 1
+	dc.DrawText(CString(pBuf), rect, DT_CENTER);
+@
+
+
+1.95
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a359 2
+
+//	g_eMuleApp.m_pServerList->SaveServerMetToFile();
+a467 1
+	//AddLogLine(true," get verbose = %i  :: debug = %i",g_eMuleApp.m_pGlobPrefs->GetVerbose() , debug == false);
+a471 1
+		//AddLogLine(true,"should switch");
+@
+
+
+1.94
+log
+@renamed 3 variables
+@
+text
+@d144 1
+a144 1
+	m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+d186 1
+a186 1
+		if (g_App.g_pPrefs->GetVerbose() && bDebug)
+d222 1
+a222 1
+	if (g_App.g_pPrefs->GetToolTipDelay() != 0)
+d332 1
+a332 1
+	if (g_App.g_pPrefs->GetManualHighPrio())
+d374 1
+a374 1
+		CString		strPath = g_App.g_pPrefs->GetConfigDir() + _T("server.met");
+d390 1
+a390 1
+		strTempFilename.Format(_T("%stemp-%d-server.met"), g_App.g_pPrefs->GetConfigDir(), ::GetTickCount());
+d413 1
+a413 1
+	CString			strPath = g_App.g_pPrefs->GetConfigDir() + _T("staticservers.dat");
+d473 1
+a473 1
+	if (g_App.g_pPrefs->GetVerbose() && !bDebug)
+d479 1
+a479 1
+	else if (!g_App.g_pPrefs->GetVerbose() && bDebug)
+d512 1
+a512 1
+			strUrl.Format(_T("http://emuleplus.info/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION, g_App.g_pPrefs->GetLanguageID());
+@
+
+
+1.93
+log
+@correction for string processing by tooltip notify. thanks Aw3
+@
+text
+@d65 1
+a65 1
+	m_ctlServerList.Init(g_eMuleApp.m_pServerList);
+d71 1
+a71 1
+	m_imageList.Create(16, 16, g_eMuleApp.m_iDfltImageListColorFlags | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+d85 1
+a85 1
+	imageList.Create(16, 16, g_eMuleApp.m_iDfltImageListColorFlags | ILC_MASK, 0, 10);
+d115 1
+a115 1
+	m_ctrlNewServerBtn.SetThemeHelper(&g_eMuleApp.m_pdlgEmule->m_themeHelper);
+d117 1
+a117 1
+	m_ctrlUpdateServerMetBtn.SetThemeHelper(&g_eMuleApp.m_pdlgEmule->m_themeHelper);
+d119 1
+a119 1
+	m_ctrlResetLogBtn.SetThemeHelper(&g_eMuleApp.m_pdlgEmule->m_themeHelper);
+d144 1
+a144 1
+	m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+d154 3
+a156 3
+	m_pctlLogBox->SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+	m_pctlServerMsgBox->SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+	m_pctlDebugBox->SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d186 1
+a186 1
+		if (g_eMuleApp.m_pGlobPrefs->GetVerbose() && bDebug)
+d222 1
+a222 1
+	if (g_eMuleApp.m_pGlobPrefs->GetToolTipDelay() != 0)
+d283 1
+a283 1
+			g_eMuleApp.m_pdlgEmule->m_ctlStatusBar.SetText(_T(""), SB_MESSAGETEXT, 0);
+d332 1
+a332 1
+	if (g_eMuleApp.m_pGlobPrefs->GetManualHighPrio())
+d347 1
+a347 1
+		CServer	   *pServerFound = g_eMuleApp.m_pServerList->GetServerByAddress(pNewServer->GetAddress(), pNewServer->GetPort());
+d371 1
+a371 1
+		g_eMuleApp.m_pServerList->AutoUpdate();
+d374 1
+a374 1
+		CString		strPath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + _T("server.met");
+d376 1
+a376 1
+		g_eMuleApp.m_pServerList->AddServerMetToList(strPath, true);
+d390 1
+a390 1
+		strTempFilename.Format(_T("%stemp-%d-server.met"), g_eMuleApp.m_pGlobPrefs->GetConfigDir(), ::GetTickCount());
+d407 1
+a407 1
+		g_eMuleApp.m_pServerList->AddServerMetToList(strTempFilename, true);
+d413 1
+a413 1
+	CString			strPath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + _T("staticservers.dat");
+d415 1
+a415 1
+	g_eMuleApp.m_pServerList->AddServersFromTextFile(strPath);
+d473 1
+a473 1
+	if (g_eMuleApp.m_pGlobPrefs->GetVerbose() && !bDebug)
+d479 1
+a479 1
+	else if (!g_eMuleApp.m_pGlobPrefs->GetVerbose() && bDebug)
+d512 1
+a512 1
+			strUrl.Format(_T("http://emuleplus.info/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION, g_eMuleApp.m_pGlobPrefs->GetLanguageID());
+d552 1
+a552 1
+	if (!g_eMuleApp.m_pdlgEmule->m_themeHelper.IsAppThemed())
+@
+
+
+1.92
+log
+@fixed hanging tooltip by focus switch; the "OnToolTipNotify" replaced over OnNotify because it works faster as using ON_NOTIFY_EX_RANGE(...)
+@
+text
+@d238 1
+a238 1
+			pNotify->ti->sTooltip = GetInfo4ToolTip(pNotify);
+d251 1
+a251 1
+CString  CServerWnd::GetInfo4ToolTip(NM_PPTOOLTIP_DISPLAY *pNotify)
+a253 1
+	CString					strInfo(_T(""));
+d258 1
+a258 1
+			return FALSE;
+d263 1
+a263 1
+			return FALSE;
+d268 3
+a270 1
+			return FALSE;
+d273 1
+a274 2
+
+	return strInfo;
+@
+
+
+1.91
+log
+@Some control declarations to avoid conflicts [Aw3].
+@
+text
+@a208 1
+	ON_NOTIFY_EX_RANGE(UDM_TOOLTIP_DISPLAY,0,0xFFFF,OnToolTipNotify)
+d228 24
+a251 1
+BOOL CServerWnd::OnToolTipNotify(UINT id, NMHDR *pNMH, LRESULT *pResult)
+a252 1
+	NM_PPTOOLTIP_DISPLAY	*pNotify = (NM_PPTOOLTIP_DISPLAY*)pNMH;
+d254 1
+a254 1
+	CString					strInfo;
+a272 1
+	pNotify->ti->sTooltip = strInfo;
+d274 1
+a274 1
+	return TRUE;
+@
+
+
+1.90
+log
+@Unified processing of server priorities.
+@
+text
+@d101 1
+a101 1
+	m_pctlServerMsgBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, 123);
+d103 1
+a103 1
+	m_pctlLogBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, 122);
+d105 1
+a105 1
+	m_pctlDebugBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, 121);
+d214 1
+a214 1
+	ON_NOTIFY(EN_LINK, 123, OnEnLinkServerBox)
+@
+
+
+1.89
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d313 1
+a313 1
+		pNewServer->SetPreference(CServer::SERVERPRIORITY_HIGH);
+@
+
+
+1.88
+log
+@Moved GetItemUnderMouse to otherfunctions.
+@
+text
+@d71 1
+a71 1
+	m_imageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+d85 1
+a85 1
+	imageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 10);
+@
+
+
+1.87
+log
+@Simplified way to display list labels with count.
+@
+text
+@a228 28
+int CServerWnd::GetItemUnderMouse(CListCtrl* ctrl)
+{
+	EMULE_TRY
+
+	CPoint			pt;
+
+	::GetCursorPos(&pt);
+	ctrl->ScreenToClient(&pt);
+
+	LVHITTESTINFO	hit, subhit;
+
+	hit.pt = pt;
+	subhit.pt = pt;
+	ctrl->SubItemHitTest(&subhit);
+
+	int				iSel = ctrl->HitTest(&hit);
+
+	if (iSel != LB_ERR && (hit.flags & LVHT_ONITEM))
+	{
+		if (subhit.iSubItem == 0)
+			return iSel;
+	}
+
+	EMULE_CATCH
+
+	return LB_ERR;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.86
+log
+@Faster image lists icon loading; reduced memory usage.
+@
+text
+@a199 1
+		SetDlgItemText(IDC_SERVLIST_TEXT, GetResString(IDS_SV_SERVERLIST));
+@
+
+
+1.85
+log
+@Icon background correction for Log tooltip (Thx Aw3).
+@
+text
+@d71 1
+a71 1
+	m_imageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 10);
+@
+
+
+1.84
+log
+@Server window tab icons moved 1 pixel up.
+@
+text
+@d71 2
+a72 2
+	m_imageList.Create(16,16,ILC_COLOR32,0,10);
+	m_imageList.SetBkColor(RGB(255,0,255));
+d82 2
+a83 2
+	m_imageList.Draw(&TempDC, 0, CPoint( 0,0), ILD_NORMAL);
+	m_imageList.Draw(&TempDC, 1, CPoint(16,0), ILD_NORMAL);
+d86 1
+a86 1
+	imageList.Add(&Bitmap, RGB(255,0,255));
+d94 2
+a95 2
+	m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 0, GetResString(IDS_SV_LOG), 0,0,0,0);
+	m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 1, GetResString(IDS_SV_SERVERINFO), 1,0,0,0);
+@
+
+
+1.83
+log
+@Slightly corrected server window tab icon position (icon interfered with focus frame).
+@
+text
+@d568 1
+a568 1
+		pImageList->Draw(&dc, tcitem.iImage, CPoint((iCurItem == GetCurSel()) ? rect.left + 4 : rect.left + 2, rect.top + 2), ILD_TRANSPARENT);
+@
+
+
+1.82
+log
+@A more correct way to set the ENM_LINK event for the RichEdit control + Minor changes.
+@
+text
+@d568 1
+a568 1
+		pImageList->Draw(&dc, tcitem.iImage, CPoint((iCurItem == GetCurSel()) ? rect.left + 4 : rect.left + 2, rect.top), ILD_TRANSPARENT);
+@
+
+
+1.81
+log
+@Added an option in IRC to send Bold, Underline & Colored messages.
+Small optimization in IRC and some minor changes/fixes.
+@
+text
+@a102 1
+	m_pctlServerMsgBox->SetEventMask(m_pctlServerMsgBox->GetEventMask() | ENM_LINK);
+a104 1
+	m_pctlLogBox->SetEventMask(m_pctlServerMsgBox->GetEventMask() | ENM_LINK);
+a106 1
+	m_pctlDebugBox->SetEventMask(m_pctlServerMsgBox->GetEventMask() | ENM_LINK);
+d112 1
+a112 1
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW3), CLR_DEFAULT, CLR_DEFAULT, HTC_LINK);
+d171 1
+a171 1
+	if (m_hWnd)
+d288 1
+a288 1
+	switch(m_ctrlBoxSwitcher.GetCurSel())
+d341 1
+a341 1
+	if( g_eMuleApp.m_pGlobPrefs->GetManualHighPrio() )
+a509 2
+	*pResult = 0;
+
+d518 2
+a519 2
+		strLangUrl.Remove('?');
+		strLangUrl.Remove(' ');
+d521 1
+a521 1
+			strUrl.Format(_T("http://emuleplus.info/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION,g_eMuleApp.m_pGlobPrefs->GetLanguageID());
+d525 2
+@
+
+
+1.80
+log
+@Small optimization + Removed unused code.
+@
+text
+@d115 1
+a115 1
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW3), 0x1000000, 0x1000000, HTC_LINK);
+@
+
+
+1.79
+log
+@small improvement and some minor fixes
+@
+text
+@d448 1
+a448 1
+			if ((m_pctlLogBox->m_bAutoScroll) && (m_ctrlBoxSwitcher.GetItemState(0, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+d458 1
+a458 1
+			if ((m_pctlServerMsgBox->m_bAutoScroll) && (m_ctrlBoxSwitcher.GetItemState(1, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+d468 1
+a468 1
+			if ((m_pctlDebugBox->m_bAutoScroll) && (m_ctrlBoxSwitcher.GetItemState(2, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+@
+
+
+1.78
+log
+@minor change
+@
+text
+@d115 1
+a115 1
+	m_pctlServerMsgBox->AppendHyperLink(_T(""),_T(""),GetResString(IDS_EMULEW3),_T(""));
+@
+
+
+1.77
+log
+@IRC channel messages now supports background color coded messages (Thanks SyruS!);
+Added a Word Wrap context menu option to logs, IRC & messages;
+Fixed category tabs padding (Mantis bug #0000415);
+Improved logs, IRC & messages code + formatting & name changes
+@
+text
+@a282 1
+		SetFocus();
+@
+
+
+1.76
+log
+@Unified definitions for client name.
+@
+text
+@d43 2
+a44 2
+	logbox = new CHTRichEditCtrl;
+	debugbox = new CHTRichEditCtrl;
+d52 2
+a53 2
+	delete logbox;
+	delete debugbox;
+d76 2
+a77 2
+	CBitmap Bitmap, *pOldBitmap;
+	CDC *pCtrlDC = GetDC(), TempDC;
+d97 2
+a98 1
+	CRect rBox;
+d104 6
+a109 6
+	logbox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, 122);
+	logbox->ModifyStyleEx(0, WS_EX_STATICEDGE, SWP_FRAMECHANGED);
+	logbox->SetEventMask(m_pctlServerMsgBox->GetEventMask() | ENM_LINK);
+	debugbox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY | ES_NOHIDESEL, rBox, this, 121);
+	debugbox->ModifyStyleEx(0, WS_EX_STATICEDGE, SWP_FRAMECHANGED);
+	debugbox->SetEventMask(m_pctlServerMsgBox->GetEventMask() | ENM_LINK);
+d130 2
+a131 2
+	AddAnchor(*logbox, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(*debugbox, MIDDLE_LEFT, BOTTOM_RIGHT);
+d135 1
+a135 1
+	debug = false;
+d138 4
+a141 4
+	debugbox->ShowWindow(SW_HIDE);
+	logbox->ShowWindow(SW_HIDE);
+	if (logbox->m_hWnd)
+		logbox->ShowWindow(SW_SHOW);
+d157 1
+a157 1
+	logbox->SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d159 1
+a159 1
+	debugbox->SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d174 1
+a174 1
+	if(m_hWnd)
+d176 3
+a178 2
+		TCHAR buffer[256];
+		TCITEM ti;
+d189 1
+a189 1
+		if (g_eMuleApp.m_pGlobPrefs->GetVerbose() && debug == true)
+d195 1
+a195 1
+		logbox->SetTitle(GetResString(IDS_SV_LOG));
+d197 1
+a197 1
+		debugbox->SetTitle(GetResString(IDS_SV_DEBUGLOG));
+d199 2
+a200 2
+		logbox->Invalidate();
+		debugbox->Invalidate();
+d237 1
+a237 1
+	CPoint pt;
+d242 1
+a242 1
+	LVHITTESTINFO hit, subhit;
+d248 1
+a248 1
+	int sel = ctrl->HitTest(&hit);
+d250 1
+a250 1
+	if (sel != LB_ERR && (hit.flags & LVHT_ONITEM))
+d253 1
+a253 1
+			return sel;
+d263 3
+a265 3
+	NM_PPTOOLTIP_DISPLAY * pNotify = (NM_PPTOOLTIP_DISPLAY*)pNMH;
+	int			iControlId = CWnd::FromHandle(pNotify->ti->hWnd)->GetDlgCtrlID();
+	CString		strInfo;
+d272 1
+a272 1
+		int		iSel = GetItemUnderMouse(&m_ctlServerList);
+d295 2
+a296 1
+			logbox->Reset();
+d302 1
+a302 1
+			debugbox->Reset();
+d311 2
+a312 1
+	CRect rBtn;
+d321 2
+a322 1
+	CRect rBtn;
+d342 1
+a342 1
+	CServer	*pNewServer = new CServer(_tstoi(strPort), strAddress.GetBuffer());
+d359 1
+a359 1
+		{
+d381 1
+a381 1
+	if(strURL == "")
+d387 2
+a388 1
+		CString strPath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + CString(_T("server.met"));
+d394 1
+a394 1
+		if (strURL != "" && strURL.Find(_T("://")) == -1)
+d401 2
+a402 1
+		CString strTempFilename;
+d405 2
+a406 1
+		CHttpDownloadDlg dlgDownload;
+d412 1
+a412 1
+		if(dlgDownload.DoModal() != IDOK)
+d426 2
+a427 1
+	CString strPath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + CString(_T("staticservers.dat"));
+d445 1
+a445 1
+			debugbox->ShowWindow(SW_HIDE);
+d447 5
+a451 3
+			logbox->ShowWindow(SW_SHOW);
+			if ((logbox->m_bAutoScroll) && (m_ctrlBoxSwitcher.GetItemState(0, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+				logbox->ScrollToLastLine();
+d455 3
+a457 1
+			debugbox->ShowWindow(SW_HIDE);
+a458 1
+			logbox->ShowWindow(SW_HIDE);
+d461 1
+a464 1
+			debugbox->ShowWindow(SW_SHOW);
+d466 6
+a471 3
+			logbox->ShowWindow(SW_HIDE);
+			if ((debugbox->m_bAutoScroll) && (m_ctrlBoxSwitcher.GetItemState(2, TCIS_HIGHLIGHTED) & TCIS_HIGHLIGHTED))
+				debugbox->ScrollToLastLine();
+d484 3
+a486 2
+	int cur_sel = m_ctrlBoxSwitcher.GetCurSel();
+	if( g_eMuleApp.m_pGlobPrefs->GetVerbose() && debug == false )
+d489 2
+a490 2
+		m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 2, GetResString(IDS_SV_DEBUGLOG), 0,0,0,0);
+		debug = true;
+d492 1
+a492 1
+	else if( !g_eMuleApp.m_pGlobPrefs->GetVerbose() && debug == true )
+d494 1
+a494 1
+		if( cur_sel == 2 )
+d499 1
+a499 1
+		debugbox->ShowWindow(SW_HIDE);
+d501 1
+a501 1
+		logbox->ShowWindow(SW_SHOW);
+d503 1
+a503 1
+		debug = false;
+d515 3
+a517 1
+	ENLINK* pEnLink = reinterpret_cast<ENLINK *>(pNMHDR);
+d520 2
+a521 1
+		CString strUrl;
+d523 4
+a526 3
+		CString sLangUrl = strUrl; // GetTextRange returns '?' for non-english chars :(
+		sLangUrl.Remove('?'); sLangUrl.Remove(' ');
+		if (strUrl == GetResString(IDS_EMULEW3) || sLangUrl.IsEmpty())
+d545 2
+a546 1
+	CDC dc;
+d549 3
+a551 2
+	char pBuf[255];
+	int nCurItem = lpDrawItemStruct->itemID;
+a552 1
+	TCITEM tcitem;
+d557 7
+a563 1
+	GetItem(nCurItem, &tcitem);
+a564 4
+	CRect rect = lpDrawItemStruct->rcItem;
+		rect.top += ::GetSystemMetrics(SM_CYEDGE);
+		rect.left += ::GetSystemMetrics(SM_CXEDGE);
+		rect.right -= ::GetSystemMetrics(SM_CXEDGE);
+a567 6
+	int nIconShift = 0;
+	if(nCurItem == GetCurSel())
+		nIconShift += 2;
+	CImageList *pImageList = GetImageList();
+	if(pImageList)
+		pImageList->Draw(&dc, tcitem.iImage, CPoint(rect.left + 2 + nIconShift, rect.top), ILD_TRANSPARENT);
+d569 6
+a574 4
+	if(tcitem.dwState & TCIS_HIGHLIGHTED)
+		dc.SetTextColor(RGB(196, 0, 0));
+	else
+		dc.SetTextColor(GetSysColor(COLOR_BTNTEXT));
+@
+
+
+1.75
+log
+@a better way to disable tooltips
+@
+text
+@d112 1
+a112 1
+	m_pctlServerMsgBox->AppendText(CString("eMule Plus v" CURRENT_VERSION_LONG " (http://emuleplus.info)\n"), RGB(153,51,102));
+@
+
+
+1.74
+log
+@small correction
+@
+text
+@d225 2
+a226 1
+	m_ttip.RelayEvent(pMsg);
+a260 3
+	if (g_eMuleApp.m_pGlobPrefs->GetToolTipDelay() == 0)
+		return FALSE;
+
+@
+
+
+1.73
+log
+@Tooltip delay of zero is now used to disable tooltips
+@
+text
+@d146 2
+a147 2
+	m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000+25);	//netwolf: avoid jitter when delay is set to 0
+	m_ttip.SendMessage(TTM_SETMAXTIPWIDTH, 0, SHRT_MAX); // recognize \n chars!
+@
+
+
+1.72
+log
+@Improved category tabs tooltips; Reduced tooltips visiblity time; some tooltips related fixes
+@
+text
+@d260 3
+@
+
+
+1.71
+log
+@Formatting and some improvements in tooltips code
+@
+text
+@d145 1
+a145 1
+	m_ttip.SetDelayTime(TTDT_AUTOPOP, 20000);
+@
+
+
+1.70
+log
+@added tooltips to the Server list
+@
+text
+@d261 2
+a262 2
+	int			control_id = CWnd::FromHandle(pNotify->ti->hWnd)->GetDlgCtrlID();
+	CString		info;
+d264 1
+a264 1
+	if (control_id == IDC_SERVLIST)
+d269 1
+a269 1
+		int			sel = GetItemUnderMouse(&m_ctlServerList);
+d271 1
+a271 1
+		if (sel < 0)
+d274 1
+a274 1
+		CServer		*cur_srv, *server = (CServer*)m_ctlServerList.GetItemData(sel);
+d276 1
+a276 1
+		if (!server)
+d279 1
+a279 13
+		info = server->GetServerInfo4Tooltips();
+		int			iImageIndex = 0;
+
+		if (g_eMuleApp.m_pServerConnect->IsConnected()
+				&& (cur_srv = g_eMuleApp.m_pServerConnect->GetCurrentServer()) != NULL
+				&& cur_srv->GetPort() == server->GetPort()
+				&& stricmp(cur_srv->GetAddress(), server->GetAddress()) == 0)
+			iImageIndex = 2;
+		if (server->GetFailedCount() > 0)
+			iImageIndex = 4;
+		if (server->IsStaticMember())
+			iImageIndex++;
+		pNotify->ti->hIcon = m_ctlServerList.m_imageList.ExtractIcon(iImageIndex);
+d282 1
+a282 1
+	pNotify->ti->sTooltip = info;
+@
+
+
+1.69
+log
+@Improve image list filling.
+@
+text
+@d144 8
+d211 1
+d223 76
+@
+
+
+1.68
+log
+@cosmetic change
+@
+text
+@d58 6
+d73 1
+a73 3
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_LOG),16,16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SERVERINFO),16,16));
+	LoadImgLstIcon(NULL,0,0);
+a75 1
+
+d78 1
+@
+
+
+1.67
+log
+@bugfix: wrong titles were displayed in HTTP download dialogs
+@
+text
+@d108 2
+a109 2
+	m_pctlServerMsgBox->AppendText(CString("eMule Plus v" CURRENT_VERSION_LONG "  http://emuleplus.info\n"));
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW) + _T(' '), false);
+d111 1
+a111 1
+	m_pctlServerMsgBox->AppendText(_T(' ') + GetResString(IDS_EMULEW2) + _T("\n\n"));
+@
+
+
+1.66
+log
+@Fix for serverlist update
+@
+text
+@d321 2
+@
+
+
+1.65
+log
+@added auxiliary port support from KuSh (commited with eklmn's authorization)
+@
+text
+@d300 1
+d303 1
+a303 1
+		// Load Metfile
+d305 1
+a305 1
+		g_eMuleApp.m_pServerList->AddServerMetToList(strPath, true);	// this merges servers
+d309 2
+a310 1
+		if (strURL != "" && strURL.Find(_T("://")) == -1)	// not a valid URL
+d313 1
+d316 1
+d323 1
+d327 1
+d331 2
+a332 1
+		g_eMuleApp.m_pServerList->AddServerMetToList(strTempFilename, true);	// this merges servers
+a334 1
+	//	g_eMuleApp.m_pServerList->SaveServerMetToFile();
+d337 1
+a337 1
+	// insert static servers from textfile
+@
+
+
+1.64
+log
+@Fixed initial sorting of server list by Static criteria;
+Faster initial sorting of server list;
+Removed list hiding because it isn't required and causes graphical blink.
+@
+text
+@d233 1
+d245 1
+a245 1
+void CServerWnd::AddServer(CString serveraddr, CString portstr, CString servername)
+d247 1
+a247 1
+	if(!serveraddr.GetLength())
+d253 1
+a253 1
+	if(!portstr.GetLength())
+d259 1
+a259 1
+	CServer* toadd = new CServer(_tstoi(portstr),serveraddr.GetBuffer());
+d263 1
+a263 1
+		toadd->SetPreference(CServer::SERVERPRIORITY_HIGH);
+d265 2
+a266 2
+	if(servername.GetLength())
+		toadd->SetListName(servername.GetBuffer());
+d268 1
+a268 1
+		toadd->SetListName(serveraddr.GetBuffer());
+d270 1
+a270 1
+	if (!m_ctlServerList.AddServer(toadd,true))
+d272 4
+a275 2
+		CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress(toadd->GetAddress(), toadd->GetPort());
+		if(update)
+d277 6
+a282 2
+			update->SetListName(toadd->GetListName());
+			m_ctlServerList.RefreshServer(*update);
+d284 1
+a284 1
+		delete toadd;
+d286 1
+d289 1
+a289 1
+		AddLogLine(true, GetResString(IDS_SERVERADDED), toadd->GetListName());
+@
+
+
+1.63
+log
+@corrected Server addition in ServerList
+@
+text
+@d296 1
+a296 1
+		g_eMuleApp.m_pServerList->AddServerMetToList(false, strPath, true);	// this merges servers
+d317 1
+a317 1
+		g_eMuleApp.m_pServerList->AddServerMetToList(false, strTempFilename, true);	// this merges servers
+@
+
+
+1.62
+log
+@Corrected update of list title after language change (number of servers in the list was lost).
+@
+text
+@d207 1
+a207 1
+
+d209 1
+d227 1
+a227 1
+
+d235 1
+a235 1
+
+d243 1
+a243 1
+
+d285 1
+a285 1
+
+d288 2
+d296 1
+a296 5
+		g_eMuleApp.m_pServerList->AddServerMetToList(strPath, true);	// this merges servers
+
+		// insert static servers from textfile
+		strPath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + CString(_T("staticservers.dat"));
+		g_eMuleApp.m_pServerList->AddServersFromTextFile(strPath);
+d301 4
+a304 4
+			{
+				AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_INVALIDURL));
+				return;
+			}
+d317 1
+a317 6
+		m_ctlServerList.SetRedraw(false);
+		m_ctlServerList.AddServerMetToList(strTempFilename);
+
+		// insert static servers from textfile
+		CString strPath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + CString(_T("staticservers.dat"));
+		g_eMuleApp.m_pServerList->AddServersFromTextFile(strPath);
+a318 1
+		m_ctlServerList.SetRedraw(true);
+d322 9
+d332 1
+a332 1
+
+d336 1
+a336 1
+
+d371 1
+a371 1
+
+d396 1
+a396 1
+
+d401 1
+a401 1
+
+d418 1
+a418 1
+
+d426 1
+a426 1
+
+d469 1
+@
+
+
+1.61
+log
+@minor improvements
+@
+text
+@a162 2
+		m_ctlServerList.Localize();
+
+d193 2
+@
+
+
+1.60
+log
+@Improved string processing
+@
+text
+@d191 1
+a191 1
+		GetDlgItem(IDC_SERVLIST_TEXT)->SetWindowText(GetResString(IDS_SV_SERVERLIST));
+@
+
+
+1.59
+log
+@Fixed Mantis bug #500 - Display bug in Server window (buttons) when using XP Visual Styles
+@
+text
+@d108 2
+a109 2
+	m_pctlServerMsgBox->AppendText(CString(CString("eMule Plus v") + CString(CURRENT_VERSION_LONG) + CString("  http://emuleplus.info\n")));
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW) + _T(" "),false);
+d111 1
+a111 1
+	m_pctlServerMsgBox->AppendText(_T(" ") + GetResString(IDS_EMULEW2) + _T("\n\n"));
+@
+
+
+1.58
+log
+@avoid some not necessary disc writes
+@
+text
+@a114 1
+	m_ctrlNewServerBtn.SetButtonStyle(0,TBBS_AUTOSIZE);
+a116 1
+	m_ctrlUpdateServerMetBtn.SetButtonStyle(0,TBBS_AUTOSIZE);
+a118 1
+	m_ctrlResetLogBtn.SetButtonStyle(0,TBBS_AUTOSIZE);
+d440 1
+a440 1
+	GetItem(nCurItem,&tcitem);
+d443 3
+a445 3
+	rect.top += ::GetSystemMetrics(SM_CYEDGE);
+	rect.left += ::GetSystemMetrics(SM_CXEDGE);
+	rect.right -= ::GetSystemMetrics(SM_CXEDGE);
+@
+
+
+1.57
+log
+@Formatting, name changes and deleting spaces and tabs at end of lines
+@
+text
+@d285 1
+a285 1
+	g_eMuleApp.m_pServerList->SaveServerMetToFile();
+a320 1
+	//	m_ctlServerList.Hide();
+a327 1
+	//	m_ctlServerList.Show();
+d330 1
+a330 1
+		g_eMuleApp.m_pServerList->SaveServerMetToFile();
+@
+
+
+1.56
+log
+@Minor updates (domain change)
+@
+text
+@d40 1
+a40 1
+	: CResizableDialog(CServerWnd::IDD, pParent) 
+d50 1
+a50 1
+{	
+d60 1
+a60 1
+	
+d106 1
+a106 1
+	InitFont();	
+d112 1
+a112 1
+	
+d162 1
+a162 1
+void CServerWnd::Localize() 
+d165 1
+a165 1
+	{		
+d173 1
+a173 1
+        
+d212 2
+a213 2
+void CServerWnd::OnBnClickedResetLog() 
+{	
+d247 1
+a247 1
+{	
+d270 1
+a270 1
+	
+d281 2
+a282 2
+	} 
+	else 
+d284 1
+a284 1
+	
+d292 2
+a293 2
+		g_eMuleApp.m_pServerList->AutoUpdate(); 
+		
+d297 1
+a297 1
+	
+d311 1
+a311 1
+	
+d320 2
+a321 2
+	
+	//	m_ctlServerList.Hide();		
+@
+
+
+1.55
+log
+@minor change
+@
+text
+@d108 1
+a108 1
+	m_pctlServerMsgBox->AppendText(CString(CString("eMule Plus v") + CString(CURRENT_VERSION_LONG) + CString("  http://emuleplus.sf.net\n")));
+d416 1
+a416 1
+			strUrl.Format(_T("http://emuleplus.sourceforge.net/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION,g_eMuleApp.m_pGlobPrefs->GetLanguageID());
+@
+
+
+1.54
+log
+@fixed a minor scrolling problem when a log window is not visible
+@
+text
+@a344 1
+			m_ctrlBoxSwitcher.SetItemState(0, TCIS_HIGHLIGHTED, NULL);
+d348 1
+a348 1
+			if (logbox->m_bAutoScroll)
+d350 1
+a352 1
+			m_ctrlBoxSwitcher.SetItemState(1, TCIS_HIGHLIGHTED, NULL);
+d356 1
+a356 1
+			if (m_pctlServerMsgBox->m_bAutoScroll)
+d358 1
+a360 1
+			m_ctrlBoxSwitcher.SetItemState(2, TCIS_HIGHLIGHTED, NULL);
+d364 1
+a364 1
+			if (debugbox->m_bAutoScroll)
+d366 1
+@
+
+
+1.53
+log
+@minor change
+@
+text
+@d349 2
+d357 2
+d365 2
+@
+
+
+1.52
+log
+@some more changes
+@
+text
+@d108 2
+a109 2
+	m_pctlServerMsgBox->AppendText(CString(CString("eMule Plus v")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\n")));
+	m_pctlServerMsgBox->AppendText(GetResString(IDS_EMULEW)+_T(" "),false);
+d111 1
+a111 1
+	m_pctlServerMsgBox->AppendText(_T(" ")+ GetResString(IDS_EMULEW2)+ _T("\n"));
+@
+
+
+1.51
+log
+@fixes/changes
+@
+text
+@d108 1
+a108 1
+	m_pctlServerMsgBox->AppendText(CString(CString("eMule Plus v")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\r\n")));
+d111 1
+a111 1
+	m_pctlServerMsgBox->AppendText(_T(" ")+ GetResString(IDS_EMULEW2)+ _T("\r\n"));
+@
+
+
+1.50
+log
+@fix for separation line under the active log tab
+@
+text
+@d186 3
+a193 1
+
+a194 1
+		
+@
+
+
+1.49
+log
+@fixes...
+@
+text
+@d441 5
+a445 1
+
+d449 1
+a449 1
+		nIconShift += 3;
+d452 1
+a452 1
+		pImageList->Draw(&dc, tcitem.iImage, CPoint(rect.left + 4 + nIconShift, rect.top + 2), ILD_TRANSPARENT);
+d459 1
+a459 1
+	rect.OffsetRect(10, 4);
+@
+
+
+1.48
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d96 1
+a96 1
+	m_pctlServerMsgBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY, rBox, this, 123);
+d99 1
+a99 1
+	logbox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY, rBox, this, 122);
+d102 1
+a102 1
+	debugbox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY, rBox, this, 121);
+@
+
+
+1.47
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d305 1
+a305 1
+				AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_INVALIDURL));
+d316 1
+a316 1
+			AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURL);
+@
+
+
+1.46
+log
+@Added some colors to the logs...
+@
+text
+@d282 1
+a282 1
+		AddLogLine(true,GetResString(IDS_SERVERADDED), toadd->GetListName());
+d305 1
+a305 1
+				AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_INVALIDURL));
+d316 1
+a316 1
+			AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURL);
+@
+
+
+1.45
+log
+@removed prepared RTF predefined colors (uses RGB(#, #, #) now) + some fixes
+@
+text
+@d305 1
+a305 1
+				AddLogLine(true, IDS_INVALIDURL);
+d316 1
+a316 1
+			AddLogLine(true, IDS_ERR_FAILEDDOWNLOADMET, strURL);
+@
+
+
+1.44
+log
+@some more fixing + added more predefined colors to prepared rtf
+@
+text
+@d110 2
+a111 2
+	m_pctlServerMsgBox->AppendHyperLink(_T(""),_T(""),GetResString(IDS_EMULEW3),_T(""),false);
+	m_pctlServerMsgBox->AppendText(_T(" ")+ GetResString(IDS_EMULEW2)+ _T("\r\n"),false);
+@
+
+
+1.43
+log
+@Log & Debug log scrollbars auto show + fixed IRC links click
+@
+text
+@d108 1
+a108 1
+	m_pctlServerMsgBox->AppendText(CString(CString("eMule Plus v")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\n")));
+d111 1
+a111 1
+	m_pctlServerMsgBox->AppendText(_T(" ")+ GetResString(IDS_EMULEW2)+ _T("\n\n"),false);
+@
+
+
+1.42
+log
+@Got rid of LogEditCtrl + Some minor changes
+@
+text
+@d43 2
+d52 2
+a58 3
+	logbox.Init(GetResString(IDS_SV_LOG));
+	debugbox.Init(GetResString(IDS_SV_DEBUGLOG));
+		
+d94 1
+a94 1
+	GetDlgItem(IDC_LOGBOX)->GetWindowRect(rBox);
+d99 7
+d128 2
+a129 2
+	AddAnchor(IDC_LOGBOX, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(IDC_DEBUG_LOG, MIDDLE_LEFT, BOTTOM_RIGHT);
+d136 4
+a139 4
+	debugbox.ShowWindow(SW_HIDE);
+	logbox.ShowWindow(SW_HIDE);
+	if (logbox.m_hWnd)
+		logbox.ShowWindow(SW_SHOW);
+d147 1
+a147 1
+	//logbox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d149 1
+a149 1
+	//debugbox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+a155 2
+	DDX_Control(pDX, IDC_LOGBOX, logbox);
+	DDX_Control(pDX, IDC_DEBUG_LOG, debugbox);
+d187 2
+a188 2
+		logbox.Invalidate();
+		debugbox.Invalidate();
+a204 1
+	ON_WM_CTLCOLOR()
+d216 1
+a216 1
+			g_eMuleApp.m_pdlgEmule->ResetLog();
+d222 1
+a222 1
+			g_eMuleApp.m_pdlgEmule->ResetDebugLog();
+d345 1
+a345 1
+			debugbox.ShowWindow(SW_HIDE);
+d347 1
+a347 1
+			logbox.ShowWindow(SW_SHOW);
+d351 1
+a351 1
+			debugbox.ShowWindow(SW_HIDE);
+d353 1
+a353 1
+			logbox.ShowWindow(SW_HIDE);
+d357 1
+a357 1
+			debugbox.ShowWindow(SW_SHOW);
+d359 1
+a359 1
+			logbox.ShowWindow(SW_HIDE);
+d385 1
+a385 1
+		debugbox.ShowWindow(SW_HIDE);
+d387 1
+a387 1
+		logbox.ShowWindow(SW_SHOW);
+a414 12
+HBRUSH CServerWnd::OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor)
+{
+	if (nCtlColor == CTLCOLOR_STATIC && (pWnd->GetDlgCtrlID() == IDC_LOGBOX || pWnd->GetDlgCtrlID() == IDC_DEBUG_LOG))
+	{
+		// explicitly set the text color -- needed for some contrast window color schemes
+		pDC->SetTextColor(GetSysColor(COLOR_WINDOWTEXT));
+		pDC->SetBkColor(GetSysColor(COLOR_WINDOW));
+		return GetSysColorBrush(COLOR_WINDOW);
+	}
+	return CResizableDialog::OnCtlColor(pDC, pWnd, nCtlColor);
+}
+
+a441 1
+//	dc.SetBkColor(GetSysColor(COLOR_BTNFACE));
+a442 1
+
+@
+
+
+1.41
+log
+@Converted IRC/Messages to Rich Edit  (added copy text to clipboard & save logs with colors as RTF)
+@
+text
+@a103 1
+	m_pctlServerMsgBox->UpdateSize(true);
+d139 1
+a139 1
+	logbox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d141 1
+a141 1
+	debugbox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+@
+
+
+1.40
+log
+@Proper fix for server tabs background
+@
+text
+@d68 1
+a68 1
+	LoadImgLstIcon(NULL,0,0); // Delete temp-icon
+a83 1
+	// FoRcHa
+d99 1
+a99 1
+	oldServerListIcon = GetServerLstStatic()->SetIcon(GetServerLstIcon()); //[TwoBottle Mod]
+d104 1
+d108 1
+a108 1
+	m_ctrlNewServerBtn.SetButtonStyle(0,TBBS_AUTOSIZE); // DonGato
+d111 1
+a111 1
+	m_ctrlUpdateServerMetBtn.SetButtonStyle(0,TBBS_AUTOSIZE); // DonGato
+d114 1
+a114 1
+	m_ctrlResetLogBtn.SetButtonStyle(0,TBBS_AUTOSIZE); // DonGato
+d177 3
+a179 3
+		m_ctrlBoxSwitcher.GetItem(2, &ti);
+		_stprintf(buffer, _T("%s"), GetResString(IDS_SV_DEBUGLOG));
+		m_ctrlBoxSwitcher.SetItem(2, &ti);
+d185 1
+a185 1
+		m_ctrlBoxSwitcher.SetWindowPos(&CWnd::wndBottom,0,0,0,0, SWP_NOMOVE | SWP_NOSIZE); // DonGato
+d209 1
+a209 1
+	switch(m_ctrlBoxSwitcher.GetCurSel())	// clear the visible textbox [FoRcHa]
+d257 1
+a257 1
+	// Barry - Default all manually added servers to high priority
+d317 1
+a317 1
+		m_ctlServerList.SetRedraw(false);	// FoRcHa
+d364 2
+a365 2
+//used now!
+void CServerWnd::ToggleDebugWindow(){
+d368 2
+a369 1
+	if( g_eMuleApp.m_pGlobPrefs->GetVerbose() && debug == false ){
+d374 5
+a378 3
+	else if( !g_eMuleApp.m_pGlobPrefs->GetVerbose() && debug == true ) {
+		if( cur_sel == 2 ){
+			m_ctrlBoxSwitcher.SetCurSel(0);		//log box
+d391 1
+a391 1
+	//CResizableDialog::OnCancel();	// pressing ESC when the focus is on the logbox									// would hide the server-wnd [FoRcHa]
+a404 1
+		{
+a405 1
+		}
+a426 1
+	//Resources cleanup - [TwoBottle Mod]
+d428 1
+a428 1
+	m_imageList.DeleteImageList();	// eklmn: bugfix(01): resource cleanup due to ImageLists recreation
+@
+
+
+1.39
+log
+@Minor fix
+@
+text
+@d450 2
+a451 1
+	dc.SetBkColor(GetSysColor(COLOR_BTNFACE));
+@
+
+
+1.38
+log
+@Fixed a problem with Log tabs draw
+@
+text
+@d450 1
+a450 1
+	dc.SetBkColor(GetSysColor(COLOR_WINDOW));
+@
+
+
+1.37
+log
+@Better way to indicate new text in log windows
+@
+text
+@d450 1
+a450 1
+	dc.FillSolidRect(rect, GetSysColor(COLOR_BTNFACE));
+@
+
+
+1.36
+log
+@Fix for WebServer Current Server Users and Files values
+@
+text
+@d61 3
+d429 40
+@
+
+
+1.35
+log
+@Auto-check for new version
+@
+text
+@d101 1
+a101 1
+	m_pctlServerMsgBox->AppendText(_T(" ")+ GetResString(IDS_EMULEW2)+ _T("\n"),false);
+@
+
+
+1.34
+log
+@Inactive log window receiving new text becomes hilighted until you select it
+@
+text
+@d396 3
+a398 1
+		if (strUrl == GetResString(IDS_EMULEW3))
+a399 1
+			// MOD Note: Do not remove this part - Merkur
+a400 1
+			// MOD Note: end
+@
+
+
+1.33
+log
+@some fixes/changes
+@
+text
+@d337 1
+d343 1
+d349 1
+@
+
+
+1.32
+log
+@Fixed bug 0000443  - After clearing log via WebServer all messages from all Logs will appear in active Log tab
+@
+text
+@d137 1
+d139 1
+@
+
+
+1.31
+log
+@Fix for Video Player problem
+@
+text
+@d210 1
+a210 1
+			m_pctlServerMsgBox->SetWindowText(_T(""));
+@
+
+
+1.30
+log
+@Formatting, comments, and name changes.
+@
+text
+@d101 1
+a101 1
+	m_pctlServerMsgBox->AppendText(_T(" ")+ GetResString(IDS_EMULEW2)+ _T("\n\n"),false);
+@
+
+
+1.29
+log
+@Rich Edit control for all logs (from official v0.30c) ;
+Fixed bug #0000023 - Mouse wheel in Serverinfo window does not work
+@
+text
+@d42 1
+a42 1
+	m_ctlServerMsgBox = new CHTRichEditCtrl;
+d49 1
+a49 1
+	delete m_ctlServerMsgBox;
+d93 3
+a95 3
+	m_ctlServerMsgBox->Create(WS_VISIBLE | WS_CHILD | WS_HSCROLL | WS_VSCROLL | ES_MULTILINE | ES_READONLY, rBox, this, 123);
+	m_ctlServerMsgBox->ModifyStyleEx(0, WS_EX_STATICEDGE, SWP_FRAMECHANGED);
+	m_ctlServerMsgBox->SetEventMask(m_ctlServerMsgBox->GetEventMask() | ENM_LINK);
+d98 4
+a101 4
+	m_ctlServerMsgBox->AppendText(CString(CString("eMule Plus v")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\n")));
+	m_ctlServerMsgBox->AppendText(GetResString(IDS_EMULEW)+_T(" "),false);
+	m_ctlServerMsgBox->AppendHyperLink(_T(""),_T(""),GetResString(IDS_EMULEW3),_T(""),false);
+	m_ctlServerMsgBox->AppendText(_T(" ")+ GetResString(IDS_EMULEW2)+ _T("\n\n"),false);
+d117 1
+a117 1
+	AddAnchor(*m_ctlServerMsgBox, MIDDLE_LEFT, BOTTOM_RIGHT);
+d125 1
+a125 1
+	m_ctlServerMsgBox->ShowWindow(SW_HIDE);
+d137 1
+a137 1
+	m_ctlServerMsgBox->SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d179 1
+a179 1
+		m_ctlServerMsgBox->Invalidate();
+d210 1
+a210 1
+			m_ctlServerMsgBox->SetWindowText(_T(""));
+d336 1
+a336 1
+			m_ctlServerMsgBox->ShowWindow(SW_HIDE);
+d341 1
+a341 1
+			m_ctlServerMsgBox->ShowWindow(SW_SHOW);
+d346 1
+a346 1
+			m_ctlServerMsgBox->ShowWindow(SW_HIDE);
+d371 1
+a371 1
+		m_ctlServerMsgBox->ShowWindow(SW_HIDE);
+d390 1
+a390 1
+		m_ctlServerMsgBox->GetTextRange(pEnLink->chrg.cpMin, pEnLink->chrg.cpMax, strUrl);
+@
+
+
+1.28
+log
+@Formatting, comments, and name changes.
+@
+text
+@d26 1
+d42 1
+d49 1
+d55 2
+d91 5
+a95 6
+	logbox.GetWindowRect(&rBox);
+	ScreenToClient(rBox);
+	debugbox.GetWindowRect(&rBox);
+	ScreenToClient(rBox);
+	m_ctlServerMsgBox.CreateEx(WS_EX_STATICEDGE, NULL, _T("MsgWnd"), WS_CHILD | WS_HSCROLL | WS_VSCROLL | HTC_WORDWRAP 
+						| HTC_AUTO_SCROLL_BARS | HTC_UNDERLINE_HOVER, rBox, this, rand());
+d98 4
+a101 9
+	m_ctlServerMsgBox.AppendText(CString(CString("eMule Plus v")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\n")));
+	m_ctlServerMsgBox.AppendText(GetResString(IDS_EMULEW)+CString(" "),false);
+	CString strLink;
+	// Plus has his own version check now
+	strLink.Format(_T("http://emuleplus.sourceforge.net/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION,g_eMuleApp.m_pGlobPrefs->GetLanguageID());
+	m_ctlServerMsgBox.AppendHyperLink(GetResString(IDS_EMULEW3)+CString(" "),0,strLink,0,false);
+	m_ctlServerMsgBox.AppendText(GetResString(IDS_EMULEW2),false);
+	// End version check
+	m_ctlServerMsgBox.AppendText(CString("\n\n"));
+d117 3
+a119 3
+	AddAnchor(m_ctlServerMsgBox, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(logbox, MIDDLE_LEFT, BOTTOM_RIGHT);
+	AddAnchor(debugbox, MIDDLE_LEFT, BOTTOM_RIGHT);
+d125 6
+d137 1
+a137 3
+	logbox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault); // DonGato
+	debugbox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault); // DonGato
+	m_ctlServerMsgBox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d179 1
+a179 1
+		m_ctlServerMsgBox.Invalidate();
+d195 2
+d210 1
+a210 1
+			m_ctlServerMsgBox.SetWindowText(_T(""));
+d336 1
+a336 1
+			m_ctlServerMsgBox.ShowWindow(SW_HIDE);
+d341 1
+a341 1
+			m_ctlServerMsgBox.ShowWindow(SW_SHOW);
+d346 1
+a346 1
+			m_ctlServerMsgBox.ShowWindow(SW_HIDE);
+d371 1
+a371 1
+		m_ctlServerMsgBox.ShowWindow(SW_HIDE);
+d381 31
+@
+
+
+1.27
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d56 4
+a59 4
+	imagelist.Create(16,16,ILC_COLOR32,0,10);
+	imagelist.SetBkColor(RGB(255,0,255));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_LOG),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SERVERINFO),16,16));
+d61 3
+a63 1
+	CImageList ImageList;
+d69 2
+a70 2
+	imagelist.Draw(&TempDC, 0, CPoint( 0,0), ILD_NORMAL);
+	imagelist.Draw(&TempDC, 1, CPoint(16,0), ILD_NORMAL);
+d72 4
+a75 4
+	ImageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 10);
+	ImageList.Add(&Bitmap, RGB(255,0,255));
+	m_ctrlBoxSwitcher.SetImageList(&ImageList);
+	ImageList.Detach();
+d281 1
+a281 1
+		g_eMuleApp.m_pServerList->AddServermetToList(strPath, true);	// this merges servers
+d308 1
+a308 1
+		m_ctlServerList.AddServermetToList(strTempFilename);
+a322 1
+	// TODO: Add your control notification handler code here
+d384 1
+a384 1
+	imagelist.DeleteImageList();	// eklmn: bugfix(01): resource cleanup due to ImageLists recreation
+@
+
+
+1.26
+log
+@Formatting, comments, and name changes.
+@
+text
+@d268 1
+a268 1
+	g_eMuleApp.m_pServerList->SaveServermetToFile();
+d315 1
+a315 1
+		g_eMuleApp.m_pServerList->SaveServermetToFile();
+@
+
+
+1.25
+log
+@Formatting, comments, and name changes.
+@
+text
+@d53 1
+a53 1
+	serverlistctrl.Init(g_eMuleApp.m_pServerList);
+d88 1
+a88 1
+	servermsgbox.CreateEx(WS_EX_STATICEDGE, NULL, _T("MsgWnd"), WS_CHILD | WS_HSCROLL | WS_VSCROLL | HTC_WORDWRAP 
+d92 2
+a93 2
+	servermsgbox.AppendText(CString(CString("eMule Plus v")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\n")));
+	servermsgbox.AppendText(GetResString(IDS_EMULEW)+CString(" "),false);
+d97 2
+a98 2
+	servermsgbox.AppendHyperLink(GetResString(IDS_EMULEW3)+CString(" "),0,strLink,0,false);
+	servermsgbox.AppendText(GetResString(IDS_EMULEW2),false);
+d100 1
+a100 1
+	servermsgbox.AppendText(CString("\n\n"));
+d116 1
+a116 1
+	AddAnchor(servermsgbox, MIDDLE_LEFT, BOTTOM_RIGHT);
+d132 1
+a132 1
+	servermsgbox.SetFont(&g_eMuleApp.m_pdlgEmule->m_fontDefault);
+d138 1
+a138 1
+	DDX_Control(pDX, IDC_SERVLIST, serverlistctrl);
+d151 1
+a151 1
+		serverlistctrl.Localize();
+d174 1
+a174 1
+		servermsgbox.Invalidate();
+d203 1
+a203 1
+			servermsgbox.SetWindowText(_T(""));
+d247 1
+a247 1
+		toadd->SetPreference(CServer::ePR_HIGH);
+d254 1
+a254 1
+	if (!serverlistctrl.AddServer(toadd,true))
+d260 1
+a260 1
+			serverlistctrl.RefreshServer(*update);
+d304 3
+a306 3
+	//	serverlistctrl.Hide();		
+		serverlistctrl.SetRedraw(false);	// FoRcHa
+		serverlistctrl.AddServermetToList(strTempFilename);
+d312 2
+a313 2
+	//	serverlistctrl.Show();
+		serverlistctrl.SetRedraw(true);
+d330 1
+a330 1
+			servermsgbox.ShowWindow(SW_HIDE);
+d335 1
+a335 1
+			servermsgbox.ShowWindow(SW_SHOW);
+d340 1
+a340 1
+			servermsgbox.ShowWindow(SW_HIDE);
+d365 1
+a365 1
+		servermsgbox.ShowWindow(SW_HIDE);
+@
+
+
+1.24
+log
+@Just a v instead of a V
+@
+text
+@d312 1
+a312 1
+	//	serverlistctrl.Visable();
+@
+
+
+1.23
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d92 1
+a92 1
+	servermsgbox.AppendText(CString(CString("eMule Plus V")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\n")));
+@
+
+
+1.22
+log
+@Implemented ConfigDir
+@
+text
+@d53 1
+a53 1
+	serverlistctrl.Init(theApp.serverlist);
+d96 1
+a96 1
+	strLink.Format(_T("http://emuleplus.sourceforge.net/version_check.php?version=%i&language=%i"),CURRENT_PLUS_VERSION,theApp.glob_prefs->GetLanguageID());
+d102 1
+a102 1
+	m_ctrlNewServerBtn.SetThemeHelper(&theApp.emuledlg->m_ThemeHelper);
+d105 1
+a105 1
+	m_ctrlUpdateServerMetBtn.SetThemeHelper(&theApp.emuledlg->m_ThemeHelper);
+d108 1
+a108 1
+	m_ctrlResetLogBtn.SetThemeHelper(&theApp.emuledlg->m_ThemeHelper);
+d130 3
+a132 3
+	logbox.SetFont(&theApp.emuledlg->m_DefaultFont); // DonGato
+	debugbox.SetFont(&theApp.emuledlg->m_DefaultFont); // DonGato
+	servermsgbox.SetFont(&theApp.emuledlg->m_DefaultFont);
+d165 1
+a165 1
+		if (theApp.glob_prefs->GetVerbose() && debug == true)
+d200 1
+a200 1
+			theApp.emuledlg->ResetLog();
+d206 1
+a206 1
+			theApp.emuledlg->ResetDebugLog();
+d246 1
+a246 1
+	if( theApp.glob_prefs->GetManualHighPrio() )
+d256 1
+a256 1
+		CServer* update = theApp.serverlist->GetServerByAddress(toadd->GetAddress(), toadd->GetPort());
+d268 1
+a268 1
+	theApp.serverlist->SaveServermetToFile();
+d275 1
+a275 1
+		theApp.serverlist->AutoUpdate(); 
+d278 2
+a279 2
+		CString strPath = theApp.glob_prefs->GetConfigDir() + CString(_T("server.met"));
+		theApp.serverlist->AddServermetToList(strPath, true);	// this merges servers
+d282 2
+a283 2
+		strPath = theApp.glob_prefs->GetConfigDir() + CString(_T("staticservers.dat"));
+		theApp.serverlist->AddServersFromTextFile(strPath);
+d293 1
+a293 1
+		strTempFilename.Format(_T("%stemp-%d-server.met"), theApp.glob_prefs->GetConfigDir(), ::GetTickCount());
+d309 2
+a310 2
+		CString strPath = theApp.glob_prefs->GetConfigDir() + CString(_T("staticservers.dat"));
+		theApp.serverlist->AddServersFromTextFile(strPath);
+d315 1
+a315 1
+		theApp.serverlist->SaveServermetToFile();
+d352 1
+a352 1
+	//AddLogLine(true," get verbose = %i  :: debug = %i",theApp.glob_prefs->GetVerbose() , debug == false);
+d354 1
+a354 1
+	if( theApp.glob_prefs->GetVerbose() && debug == false ){
+d359 1
+a359 1
+	else if( !theApp.glob_prefs->GetVerbose() && debug == true ) {
+@
+
+
+1.21
+log
+@fixed security issues
+@
+text
+@d278 1
+a278 1
+		CString strPath = theApp.glob_prefs->GetAppDir() + CString(_T("server.met"));
+d282 1
+a282 1
+		strPath = theApp.glob_prefs->GetAppDir() + CString(_T("staticservers.dat"));
+d293 1
+a293 1
+		strTempFilename.Format(_T("%stemp-%d-server.met"), theApp.glob_prefs->GetAppDir(), ::GetTickCount());
+d309 1
+a309 1
+		CString strPath = theApp.glob_prefs->GetAppDir() + CString(_T("staticservers.dat"));
+@
+
+
+1.20
+log
+@n@@boleo: minor change
+@
+text
+@d266 1
+a266 1
+		AddLogLine(true,GetResString(IDS_SERVERADDED)+CString(toadd->GetListName()));
+@
+
+
+1.19
+log
+@unicode cleanup
+@
+text
+@a169 1
+		AddDebugLogLine(false,_T("Debug log is active"));
+@
+
+
+1.18
+log
+@unicode cleanup
+@
+text
+@d88 1
+a88 1
+	servermsgbox.CreateEx(WS_EX_STATICEDGE, NULL, "MsgWnd", WS_CHILD | WS_HSCROLL | WS_VSCROLL | HTC_WORDWRAP 
+d96 1
+a96 1
+	strLink.Format("http://emuleplus.sourceforge.net/version_check.php?version=%i&language=%i",CURRENT_PLUS_VERSION,theApp.glob_prefs->GetLanguageID());
+d153 1
+a153 1
+		char buffer[256];
+d160 1
+a160 1
+		sprintf(buffer, "%s", GetResString(IDS_SV_LOG));
+d163 1
+a163 1
+		sprintf(buffer, "%s", GetResString(IDS_SV_SERVERINFO));
+d168 1
+a168 1
+		sprintf(buffer, "%s", GetResString(IDS_SV_DEBUGLOG));
+d170 1
+a170 1
+		AddDebugLogLine(false,"Debug log is active");
+d204 1
+a204 1
+			servermsgbox.SetWindowText( "" );
+d288 1
+a288 1
+		if (strURL != "" && strURL.Find("://") == -1)	// not a valid URL
+d315 1
+a315 1
+		remove(strTempFilename);
+@
+
+
+1.17
+log
+@converted to new logger methods
+@
+text
+@d244 1
+a244 1
+	CServer* toadd = new CServer(atoi(portstr),serveraddr.GetBuffer());
+@
+
+
+1.16
+log
+@small optimisations in server list handling
+@
+text
+@d234 1
+a234 1
+		AddLogLine(true, GetResString(IDS_SRV_ADDR));
+d240 1
+a240 1
+		AddLogLine(true, GetResString(IDS_SRV_PORT));
+d264 1
+a264 1
+		AddLogLine(true, GetResString(IDS_SRV_NOTADDED) );
+d290 1
+a290 1
+				AddLogLine(true, GetResString(IDS_INVALIDURL));
+d301 1
+a301 1
+			AddLogLine(true, GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURL);
+@
+
+
+1.15
+log
+@Eklmn and BavarianSnail changes. see changelog+
+@
+text
+@d261 1
+a261 1
+			serverlistctrl.RefreshServer(update);
+@
+
+
+1.14
+log
+@Autoserverupdate returned.
+@
+text
+@a55 1
+	CImageList imagelist;
+d384 1
+@
+
+
+1.13
+log
+@Thread safe storing/loading of the server.met files (for future use) .
+@
+text
+@d309 5
+@
+
+
+1.12
+log
+@Some code housekeeping changes
+@
+text
+@d280 1
+a280 1
+		CString strPath = theApp.glob_prefs->GetAppDir() + CString("server.met");
+d284 1
+a284 1
+		strPath = theApp.glob_prefs->GetAppDir() + CString("staticservers.dat");
+d295 1
+a295 1
+		strTempFilename.Format("%stemp-%d-server.met", theApp.glob_prefs->GetAppDir(), ::GetTickCount());
+@
+
+
+1.11
+log
+@converted to new logging method
+@
+text
+@d249 1
+a249 1
+		toadd->SetPreference(PR_HIGH);
+@
+
+
+1.11.4.1
+log
+@27a partial merge
+@
+text
+@a380 6
+
+BOOL CServerWnd::PreTranslateMessage(MSG* pMsg) 
+{
+   if((pMsg->message == WM_KEYDOWN) && (pMsg->wParam == 27)) return FALSE;
+   return CResizableDialog::PreTranslateMessage(pMsg);
+}
+@
+
+
+1.10
+log
+@fixed resource leak
+@
+text
+@d171 1
+a171 1
+		theApp.emuledlg->AddDebugLogLine(false,"Debug log is active");
+d235 1
+a235 1
+		theApp.emuledlg->AddLogLine(true, GetResString(IDS_SRV_ADDR));
+d241 1
+a241 1
+		theApp.emuledlg->AddLogLine(true, GetResString(IDS_SRV_PORT));
+d265 1
+a265 1
+		theApp.emuledlg->AddLogLine(true, GetResString(IDS_SRV_NOTADDED) );
+d268 1
+a268 1
+		theApp.emuledlg->AddLogLine(true,GetResString(IDS_SERVERADDED)+CString(toadd->GetListName()));
+d291 1
+a291 1
+				theApp.emuledlg->AddLogLine(true, GetResString(IDS_INVALIDURL));
+d302 1
+a302 1
+			theApp.emuledlg->AddLogLine(true, GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURL);
+d349 1
+a349 1
+	//theApp.emuledlg->AddLogLine(true," get verbose = %i  :: debug = %i",theApp.glob_prefs->GetVerbose() , debug == false);
+d352 1
+a352 1
+		//theApp.emuledlg->AddLogLine(true,"should switch");
+@
+
+
+1.9
+log
+@Plus version check
+@
+text
+@d92 1
+a92 1
+	((CStatic*)GetDlgItem(IDC_SERVLST_ICO))->SetIcon((HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_SERVERLIST), IMAGE_ICON, 16, 16, 0));
+d192 1
+d372 8
+@
+
+
+1.8
+log
+@Little fixes and Static Servers additions from 26d
+@
+text
+@d96 2
+a97 2
+	// MOD Note: Do not remove this part - Merkur
+	strLink.Format("http://vcheck.emule-project.net/en/version_check.php?version=%i&language=%i",CURRENT_VERSION_CHECK,theApp.glob_prefs->GetLanguageID());
+d100 1
+a100 1
+	// MOD Note: end
+@
+
+
+1.7
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d248 1
+a248 1
+		toadd->SetPreference(SRV_PR_HIGH);
+@
+
+
+1.6
+log
+@bugfixes & control panel updates
+@
+text
+@d29 5
+@
+
+
+1.5
+log
+@merge fixes and minor optimizations
+@
+text
+@d352 1
+a352 1
+			m_ctrlBoxSwitcher.SetCurSel(1);
+@
+
+
+1.4
+log
+@updated to .25b codebase
+@
+text
+@d78 1
+a78 3
+#ifdef _DEBUG
+	m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 2, GetResString(IDS_SV_DEBUGLOG), 0,0,0,0);
+#endif
+d88 1
+a88 1
+	servermsgbox.AppendText(CString(CString("eMule Plus V")+CString(CURRENT_VERSION_LONG)+CString("  www.emuleplus.tk\n")));
+d118 2
+a119 1
+		
+d161 2
+a162 1
+#ifdef _DEBUG
+d167 1
+a167 1
+#endif
+d241 4
+d341 1
+a341 1
+/* Not used yet
+d343 1
+d346 2
+a347 8
+		TCITEM newitem;
+		CString name;
+		name = "Debug";
+		newitem.mask = TCIF_TEXT|TCIF_IMAGE;
+		newitem.pszText = name.GetBuffer();
+		newitem.cchTextMax = (int)name.GetLength()+1;
+		newitem.iImage = 0;
+		m_ctrlBoxSwitcher.InsertItem(m_ctrlBoxSwitcher.GetItemCount(),&newitem);
+a361 1
+*/
+@
+
+
+1.4.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.4.2.2
+log
+@merge bugfixes
+@
+text
+@d78 3
+a80 1
+
+d120 1
+a120 2
+	debug = false;
+	ToggleDebugWindow();
+d162 6
+a167 7
+		if (theApp.glob_prefs->GetVerbose() && debug == true)
+		{
+			m_ctrlBoxSwitcher.GetItem(2, &ti);
+			sprintf(buffer, "%s", GetResString(IDS_SV_DEBUGLOG));
+			m_ctrlBoxSwitcher.SetItem(2, &ti);
+			theApp.emuledlg->AddDebugLogLine(false,"Debug log is active");
+		}
+a240 4
+	// Barry - Default all manually added servers to high priority
+	if( theApp.glob_prefs->GetManualHighPrio() )
+		toadd->SetPreference(SRV_PR_HIGH);
+
+d337 1
+d341 8
+a348 1
+		m_ctrlBoxSwitcher.InsertItem(TCIF_IMAGE | TCIF_TEXT, 2, GetResString(IDS_SV_DEBUGLOG), 0,0,0,0);
+d363 1
+@
+
+
+1.4.2.3
+log
+@merge cleanup!
+@
+text
+@d88 1
+a88 1
+	servermsgbox.AppendText(CString(CString("eMule Plus V")+CString(CURRENT_VERSION_LONG)+CString("  http://emuleplus.sf.net\n")));
+a341 1
+	//theApp.emuledlg->AddLogLine(true," get verbose = %i  :: debug = %i",theApp.glob_prefs->GetVerbose() , debug == false);
+a343 1
+		//theApp.emuledlg->AddLogLine(true,"should switch");
+@
+
+
+1.4.2.4
+log
+@Interim release!
+@
+text
+@a340 1
+//used now!
+@
+
+
+1.4.2.5
+log
+@updated control panes, and assorted bugfixes
+@
+text
+@d352 1
+a352 1
+			m_ctrlBoxSwitcher.SetCurSel(0);		//log box
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d78 3
+d84 2
+d116 1
+d128 1
+d137 1
+d162 6
+d170 1
+d201 3
+d337 1
+a337 1
+
+d363 1
+a363 1
+
+@
+
+
+1.2
+log
+@port to .25 b codebase...
+@
+text
+@a301 1
+			break;
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d298 4
+a301 4
+			if(servermsgbox.IsWindowVisible())
+				servermsgbox.ShowWindow(SW_HIDE);
+			if(!logbox.IsWindowVisible())
+				logbox.ShowWindow(SW_SHOW);
+d304 8
+a311 4
+			if(logbox.IsWindowVisible())
+				logbox.ShowWindow(SW_HIDE);
+			if(!servermsgbox.IsWindowVisible())
+				servermsgbox.ShowWindow(SW_SHOW);
+d319 28
+@
+

@@ -1,0 +1,509 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.7
+	Interim_Release_1-2d_RC1:1.7
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.7
+	PublicRelease_1_2b:1.7
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.7
+	Interim_Release_1-2a_RC1:1.7
+	Interim_Release_1-2a_beta2:1.7
+	Interim_Release_1-2a_beta1:1.7
+	PublicRelease_1_2:1.7
+	Interim_Release_1-2_RC1:1.7
+	Interim_Release_1-2_beta1:1.7
+	PublicRelease_1_1g:1.7
+	Interim_Release_1-1g_RC3:1.7
+	Interim_Release_1-1g_RC2:1.7
+	Interim_Release_1-1g_RC1:1.7
+	Interim_Release_1-1g_beta2:1.7
+	Interim_Release_1-1g_beta1:1.7
+	PublicRelease_1_1f:1.7
+	Interim_Release_1-1f_RC1:1.7
+	PublicRelease_1_1e:1.7
+	Interim_Release_1-1e_RC2:1.7
+	Interim_Release_1-1e_RC1:1.7
+	Interim_Release_1-1e_beta1:1.7
+	PublicRelease_1_1d:1.7
+	Interim_Release_1-1d_RC1:1.7
+	PublicRelease_1_1c:1.7
+	Interim_Release_1-1c_RC1:1.7
+	Interim_Release_1-1c_beta2:1.7
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.5
+	PublicRelease_1_1:1.5
+	Interim_Release_1-1_beta1:1.5
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.7
+date	2005.02.03.15.14.15;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.12.29.16.04.22;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.06.13.21.56.45;	author eklmn;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.05.23.15.59.14;	author eklmn;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.05.23.15.41.26;	author eklmn;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.05.23.14.55.18;	author eklmn;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.21.16.36.26;	author eklmn;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Ideological switch (may be considered as temporary, but for long term) - ATL to MFC
+Actually we don't need them both, but I want to work with our current KnownFile-based classes, which use MFC a lot
+@
+text
+@// parts of this file are based on work from pan One (http://home-3.tiscali.nl/~meost/pms/)
+
+//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "StdAfx.h"
+#include "../../packets.h"
+#include "KnownFile.h"
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#endif
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CKnownFile::CKnownFile()
+{
+	m_timetLastWriteDate = 0;
+
+	m_dwSessionRequested = 0;
+	m_dwCumulativeRequested = 0;
+
+	m_dwSessionAccepted = 0;
+	m_dwCumulativeAccepted = 0;
+
+	m_qwSessionTransferred = 0;
+	m_qwCumulativeTransferred = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CKnownFile::~CKnownFile()
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CKnownFile::AddRequest()
+{
+	m_dwSessionRequested++;
+	m_dwCumulativeRequested++;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CKnownFile::AddAccepted()
+{
+	m_dwSessionAccepted++;
+	m_dwCumulativeAccepted++;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CKnownFile::AddTransferred(uint32 dwBytes)
+{
+	m_qwSessionTransferred += dwBytes;
+	m_qwCumulativeTransferred += dwBytes;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*
+int CKnownFile::FileHashIndex(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey)
+{
+	FileKey* pFileKey = (FileKey*)(pKey->get_data());
+	FileKey* pTempKey = new FileKey;
+
+	memset(pTempKey, 0, sizeof(FileKey));
+	memcpy(pTempKey->fileHash, pFileKey->fileHash, 16);
+	
+	*pNewKey = Dbt();
+	pNewKey->set_data(pTempKey);
+	pNewKey->set_size(sizeof(FileKey));
+	pNewKey->set_flags(DB_DBT_APPMALLOC);
+	return 0;
+}
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CKnownFile::Load()
+{
+/*	Dbt key, data;
+
+	try
+	{
+		FileKey stKey;
+		memset(&stKey, 0, sizeof(stKey));
+
+		key.set_data(&stKey);
+		key.set_size(sizeof(stKey));
+		key.set_ulen(sizeof(stKey));
+		key.set_flags(DB_DBT_USERMEM);
+
+		// allow Db allocate the memory for tag stream
+		data.set_data(NULL);
+		data.set_size(0);
+		data.set_ulen(0);
+		data.set_flags(DB_DBT_MALLOC);
+
+		int nRet = stEngine.m_pDbFiles->get(NULL, &key, &data, 0);
+		if(nRet)
+			return false;
+
+		CTagStream* pTagStream = new CTagStream(data.get_data(), data.get_size());
+
+		GetFileTagsFromStream(pTagStream);
+			
+		//the memory allocated by Db will be freed inside CTagStream
+		safe_delete(pTagStream);
+	}
+	catch (DbRunRecoveryException &dbe)
+	{
+		TRACE(CString(dbe.what()));
+		return false;
+	}
+	catch (DbException &dbe)
+	{
+		TRACE("Problems working with database objects: %s.\n", dbe.what());
+		return false;
+	}
+	catch(...)
+	{
+		TRACE("Problems working with database objects.\n");
+		return false;
+	}
+*/
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CKnownFile::Save()
+{
+/*	FileKey stKey;
+	Dbt key, data;
+	CTagStream* pTagStream;
+
+	try
+	{
+		pTagStream = new CTagStream();
+
+		PutFileTagsInStream(pTagStream);
+
+		memset(&stKey, 0, sizeof(stKey));
+		stKey.dwFileSize = m_dwFileSize;
+		memcpy(&stKey.fileHash, GetFileHash(), 16);
+
+		key.set_data(&stKey);
+		key.set_size(sizeof(stKey));
+
+		data.set_data(pTagStream->GetStream());
+		data.set_size(pTagStream->GetStreamSize());
+
+		int nRet = stEngine.m_pDbFiles->put(NULL, &key, &data, 0);
+		safe_delete(pTagStream);
+		if(nRet)
+		{
+			stEngine.m_pDbFiles->err(nRet, "CKnownFile::SaveTag");
+			ASSERT(FALSE);
+			return false;
+		}
+	}
+	catch (DbRunRecoveryException &dbe)
+	{
+		TRACE(CString(dbe.what()));
+		safe_delete(pTagStream);
+		return false;
+	}
+	catch (DbException &dbe)
+	{
+		TRACE("Problems working with database objects: %s.\n", dbe.what());
+		safe_delete(pTagStream);
+		return false;
+	}
+	catch(...)
+	{
+		TRACE("Problems working with database objects.\n");
+		safe_delete(pTagStream);
+		return false;
+	}*/
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CKnownFile::GetFileTagsFromStream(CTagStream* pTagStream)
+{
+	CString strFileName;
+
+	while (pTagStream->GetTagName() != 0)
+	{
+		switch(pTagStream->GetTagName())
+		{
+			case DBF_FILENAME:
+				pTagStream->GetTagValue(strFileName.GetBuffer(pTagStream->GetTagSize()));
+				break;
+			case DBT_LAST_WRITE_DATE:
+				pTagStream->GetTagValue(&m_timetLastWriteDate);
+				break;
+			case DBF_REQUESTED:
+				pTagStream->GetTagValue(&m_dwCumulativeRequested);
+				break;
+			case DBF_ACCEPTED:
+				pTagStream->GetTagValue(&m_dwCumulativeAccepted);
+				break;
+			case DBF_TRANSFERRED:
+				pTagStream->GetTagValue(&m_qwCumulativeTransferred);
+				break;
+			default:
+				break;
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CKnownFile::PutFileTagsInStream(CTagStream* pTagStream)
+{
+	pTagStream->PutTag(DBF_FILENAME, (GetFileName().GetLength()*sizeof(TCHAR)), GetFileName().GetBuffer(0));
+	pTagStream->PutTag(DBT_LAST_WRITE_DATE, sizeof(m_timetLastWriteDate), &m_timetLastWriteDate);
+	pTagStream->PutTag(DBF_REQUESTED, sizeof(m_dwCumulativeRequested), &m_dwCumulativeRequested);
+	pTagStream->PutTag(DBF_ACCEPTED, sizeof(m_dwCumulativeAccepted), &m_dwCumulativeAccepted);
+	pTagStream->PutTag(DBF_TRANSFERRED, sizeof(m_qwCumulativeTransferred), &m_qwCumulativeTransferred);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.6
+log
+@There can be only one engine :-)
+@
+text
+@d21 1
+d65 1
+d80 1
+d84 1
+a84 1
+	Dbt key, data;
+d128 1
+a128 1
+
+d134 1
+a134 1
+	FileKey stKey;
+d180 1
+a180 1
+	}
+@
+
+
+1.5
+log
+@changed the way of data storage in file classes, add new classes
+@
+text
+@d46 1
+a46 1
+void CKnownFile::AddRequest(CEmEngine& stEngine)
+d52 1
+a52 1
+void CKnownFile::AddAccepted(CEmEngine& stEngine)
+d58 1
+a58 1
+void CKnownFile::AddTransferred(CEmEngine& stEngine, uint32 dwBytes)
+d79 1
+a79 1
+bool CKnownFile::Load(CEmEngine& stEngine)
+d129 1
+a129 1
+bool CKnownFile::Save(CEmEngine &stEngine)
+@
+
+
+1.4
+log
+@small correction
+@
+text
+@a29 3
+	// first version
+	m_uDataVersion = TAGSET_VERSION;
+	
+a80 18
+	bool bResult = true;
+	CString strFileName;
+
+	if(LoadTag(stEngine, DBT_VERSION, &m_uDataVersion, sizeof(m_uDataVersion)) != true)
+		return false;
+
+	//read base tag
+	bResult &= LoadTag(stEngine, DBF_FILENAME, strFileName.GetBuffer(MAX_FILENAME_LENGTH), MAX_FILENAME_LENGTH*sizeof(TCHAR));
+	bResult &= LoadTag(stEngine, DBT_LAST_WRITE_DATE, &m_timetLastWriteDate, sizeof(m_timetLastWriteDate));
+	bResult &= LoadTag(stEngine, DBF_REQUESTED, &m_dwCumulativeRequested, sizeof(m_dwCumulativeRequested));
+	bResult &= LoadTag(stEngine, DBF_ACCEPTED, &m_dwCumulativeAccepted, sizeof(m_qwCumulativeTransferred));
+	bResult &= LoadTag(stEngine, DBF_TRANSFERRED, &m_qwCumulativeTransferred, sizeof(m_qwCumulativeTransferred));
+
+	return bResult;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CKnownFile::LoadTag(CEmEngine& stEngine, USHORT uTag, LPVOID pData, ULONG ulDataSize)
+{
+a86 1
+		stKey.uTag = uTag;
+d93 5
+a97 4
+		data.set_data(pData);
+		data.set_size(ulDataSize);
+		data.set_ulen(ulDataSize);
+		data.set_flags(DB_DBT_USERMEM);
+d102 7
+a108 2
+		else
+			return true;
+d125 2
+a130 18
+	bool bResult = true;
+
+	if(SaveTag(stEngine, DBT_VERSION, &m_uDataVersion, sizeof(m_uDataVersion)) != true)
+		return false;
+
+	//read base tag
+	int iFileNameLegth = GetFileName().GetLength();
+	bResult &= SaveTag(stEngine, DBF_FILENAME, GetFileName().GetBuffer(iFileNameLegth), iFileNameLegth*sizeof(TCHAR));
+	bResult &= SaveTag(stEngine, DBT_LAST_WRITE_DATE, &m_timetLastWriteDate, sizeof(m_timetLastWriteDate));
+	bResult &= SaveTag(stEngine, DBF_REQUESTED, &m_dwCumulativeRequested, sizeof(m_dwCumulativeRequested));
+	bResult &= SaveTag(stEngine, DBF_ACCEPTED, &m_dwCumulativeAccepted, sizeof(m_qwCumulativeTransferred));
+	bResult &= SaveTag(stEngine, DBF_TRANSFERRED, &m_qwCumulativeTransferred, sizeof(m_qwCumulativeTransferred));
+
+	return bResult;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CKnownFile::SaveTag(CEmEngine& stEngine, USHORT uTag, LPVOID pData, ULONG ulDataSize)
+{
+d133 1
+d137 4
+a141 1
+		stKey.uTag = uTag;
+d148 2
+a149 2
+		data.set_data(pData);
+		data.set_size(ulDataSize);
+d152 1
+a158 1
+		return true;
+d163 1
+d169 1
+d175 1
+d178 39
+@
+
+
+1.3
+log
+@index correction :) RTFM me
+@
+text
+@d120 1
+a120 1
+		int nRet = stEngine.m_pDbFileTags->get(NULL, &key, &data, 0);
+d179 1
+a179 1
+		int nRet = stEngine.m_pDbServers->put(NULL, &key, &data, 0);
+d182 1
+a182 1
+			stEngine.m_pDbServers->err(nRet, "CKnownFile::SaveTag");
+@
+
+
+1.2
+log
+@basic support of tags save into DB
+@
+text
+@d67 1
+a67 1
+int CKnownFile::PrimaryIndex(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey)
+a73 2
+	pTempKey->dwFileSize = pFileKey->dwFileSize;
+	pTempKey->uTag = pFileKey->uTag;
+@
+
+
+1.1
+log
+@refactored v1 code, need interface adaptation
+@
+text
+@d21 2
+a22 2
+#include "knownfile.h"
+
+a25 1
+#define new DEBUG_NEW
+a26 1
+
+d30 5
+d64 141
+a204 1
+	m_qwCumulativeTransferred + = dwBytes;
+@
+

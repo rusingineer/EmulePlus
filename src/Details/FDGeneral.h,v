@@ -1,0 +1,245 @@
+head	1.5;
+access;
+symbols
+	PublicRelease_1_2e:1.5
+	Interim_Release_1-2e_RC1:1.5
+	PublicRelease_1_2d:1.5
+	Interim_Release_1-2d_RC1:1.5
+	Interim_Release_1-2d_beta1:1.5
+	PublicRelease_1_2c:1.5
+	Interim_Release_1-2c_RC1:1.5
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.5
+	PublicRelease_1_2a:1.5
+	Interim_Release_1-2a_RC1:1.5
+	Interim_Release_1-2a_beta2:1.5
+	Interim_Release_1-2a_beta1:1.5
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.5
+	PublicRelease_1_1g:1.5
+	Interim_Release_1-1g_RC3:1.5
+	Interim_Release_1-1g_RC2:1.5
+	Interim_Release_1-1g_RC1:1.5
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.5
+	Interim_Release_1-1f_RC1:1.5
+	PublicRelease_1_1e:1.5
+	Interim_Release_1-1e_RC2:1.5
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.5
+	Interim_Release_1-1c_beta1:1.5
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.5
+	PublicRelease_1_1:1.5
+	Interim_Release_1-1_beta1:1.5
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.2
+	Interim_Release_1i_beta2:1.2
+	Interim_Release_1i_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.5
+date	2004.05.03.09.59.34;	author netwolf1;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.04.12.15.10.18;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.03.02.01.43.55;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.05.10.57.38;	author forcha;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@minor changes (Partfile --> PartFile...)
+@
+text
+@#pragma once
+
+#include "ScrollStatic.h"
+#include "..\PartFile.h"
+#include "..\resource.h"
+
+// CFDGeneral dialog
+
+class CFDGeneral : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CFDGeneral)
+
+// Construction
+public:
+	CFDGeneral();
+	~CFDGeneral();
+
+	void Update();
+
+	CPartFile* m_pFile;
+
+// Dialog Data
+	//{{AFX_DATA(CFDGeneral)
+	enum { IDD = IDD_FDPPG_GENERAL };
+	CStatic			m_ctrlPartFileStatus;
+	CScrollStatic	m_ctrlMetFile;
+	CStatic			m_ctrlHash;
+	CScrollStatic	m_ctrlFolder;
+	CScrollStatic	m_ctrlFiletype;
+	CStatic			m_ctrlFilesize;
+	CScrollStatic	m_ctrlDescription;
+	CStatic			m_ctrlCategory;
+	CStatic			m_ctrlFileIcon;
+	CEdit			m_ctrlFilename;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CFDGeneral)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	HICON m_hFileIcon;
+
+	// Generated message map functions
+	//{{AFX_MSG(CFDGeneral)
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnBnClickedCommentsBtn();
+	virtual BOOL OnInitDialog();
+	void Localize(bool bIsExecuteable);
+};
+@
+
+
+1.4
+log
+@Corrected colors for non-standard color scheme; unused class removal.
+@
+text
+@d25 1
+a25 1
+	CStatic			m_ctrlPartfileStatus;
+@
+
+
+1.3
+log
+@Setup file description information only on property page start to reduce CPU usage during update;
+Speed up dialog information drawing.
+@
+text
+@d5 1
+a5 2
+#include "..\Resource.h"
+#include "..\Edit2.h"
+d34 1
+a34 1
+	CEdit2			m_ctrlFilename;
+@
+
+
+1.2
+log
+@small 'fix'
+@
+text
+@d26 1
+a26 1
+	CScrollStatic	m_ctrlPartfileStatus;
+d28 1
+a28 1
+	CScrollStatic	m_ctrlHash;
+d31 1
+a31 1
+	CScrollStatic	m_ctrlFilesize;
+d33 1
+a33 1
+	CScrollStatic	m_ctrlCategory;
+d57 1
+a57 1
+	void Localize(void);
+@
+
+
+1.1
+log
+@new dialogs for file- & client-details
+@
+text
+@d6 1
+d35 1
+a35 1
+	CEdit			m_ctrlFilename;
+@
+

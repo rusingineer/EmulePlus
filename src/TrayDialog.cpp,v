@@ -1,0 +1,1568 @@
+head	1.23;
+access;
+symbols
+	PublicRelease_1_2e:1.22
+	Interim_Release_1-2e_RC1:1.22
+	PublicRelease_1_2d:1.22
+	Interim_Release_1-2d_RC1:1.21
+	Interim_Release_1-2d_beta1:1.20
+	PublicRelease_1_2c:1.17
+	Interim_Release_1-2c_RC1:1.17
+	Interim_Release_1-2c_beta1:1.17
+	PublicRelease_1_2b:1.17
+	Interim_Release_1-2b_RC1:1.17
+	PublicRelease_1_2a:1.17
+	Interim_Release_1-2a_RC1:1.17
+	Interim_Release_1-2a_beta2:1.17
+	Interim_Release_1-2a_beta1:1.17
+	PublicRelease_1_2:1.17
+	Interim_Release_1-2_RC1:1.17
+	Interim_Release_1-2_beta1:1.17
+	PublicRelease_1_1g:1.16
+	Interim_Release_1-1g_RC3:1.16
+	Interim_Release_1-1g_RC2:1.16
+	Interim_Release_1-1g_RC1:1.16
+	Interim_Release_1-1g_beta2:1.16
+	Interim_Release_1-1g_beta1:1.16
+	PublicRelease_1_1f:1.16
+	Interim_Release_1-1f_RC1:1.16
+	PublicRelease_1_1e:1.16
+	Interim_Release_1-1e_RC2:1.16
+	Interim_Release_1-1e_RC1:1.16
+	Interim_Release_1-1e_beta1:1.16
+	PublicRelease_1_1d:1.16
+	Interim_Release_1-1d_RC1:1.16
+	PublicRelease_1_1c:1.16
+	Interim_Release_1-1c_RC1:1.16
+	Interim_Release_1-1c_beta2:1.16
+	Interim_Release_1-1c_beta1:1.16
+	PublicRelease_1_1b:1.16
+	Interim_Release_1-1b_RC1:1.16
+	PublicRelease_1_1a:1.16
+	Interim_Release_1-1a_RC2:1.16
+	Interim_Release_1-1a_RC1:1.16
+	Interim_Release_1-1a_beta2:1.16
+	Interim_Release_1-1a_beta1:1.16
+	PublicRelease_1_1:1.16
+	Interim_Release_1-1_beta1:1.16
+	PublicRelease_1o:1.16
+	Interim_Release_1o_RC1:1.16
+	Interim_Release_1o_beta1:1.16
+	PublicRelease_1n:1.16
+	Interim_Release_1n_RC2:1.16
+	Interim_Release_1n_RC1:1.16
+	Interim_Release_1n_beta2:1.16
+	Interim_Release_1n_beta1:1.16
+	PublicRelease_1m:1.16
+	Interim_Release_1m_beta1:1.16
+	PublicRelease_1l:1.16
+	Interim_Release_1l_RC3:1.16
+	Interim_Release_1l_RC2:1.15
+	Interim_Release_1l_RC1:1.15
+	Interim_Release_1l_beta2:1.15
+	Interim_Release_1l_beta1:1.15
+	PublicRelease_1k:1.15
+	Interim_Release_1k_RC4:1.15
+	Interim_1k_RC3:1.15
+	Interim_1k_RC2:1.15
+	Interim_Release_1k_RC1:1.15
+	Interim_Release_1k_beta5:1.15
+	Intrerim_Release_1k_beta4:1.15
+	Interim_Release_1k_beta1:1.15
+	PublicRelease_1j:1.14
+	Interim_Release_1J_RC3:1.14
+	Interim_Release_1j_RC3:1.14
+	Interim_Release_1j_RC2:1.14
+	Interim_Release_1j_RC1:1.14
+	Interim_Release_1j_beta2:1.14
+	Interim_Release_1j_beta1:1.14
+	PublicRelease_1i:1.14
+	Interim_Release_1i_RC6:1.14
+	Interim_Release_1i_RC3:1.14
+	Interim_Release_1i_RC2:1.14
+	Interim_Release_1i_RC1:1.14
+	Interim_Release_1i_beta3:1.14
+	Interim_Release_1i_beta2:1.14
+	Interim_Release_1i_beta1:1.14
+	PublicRelease_1h:1.14
+	Interim_Release_1h_rc2:1.14
+	Interim_Release_1h_RC1:1.14
+	Interim_Release_1h_beta2:1.14
+	Interim_Release_1h_beta1_now:1.14
+	Interim_Release_1h_beta1:1.14
+	PublicRelease_1g:1.11
+	Interim_Release_1g_RC6_Final:1.11
+	Interim_Release_1g_RC6:1.11
+	Interim_Release_1g_RC5:1.7
+	Interim_Release_1g_RC4:1.7
+	Interim_Release_1g_RC3:1.7
+	Interim_Release_1g_beta2:1.5
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.5
+	Interim_Release_1f_RC3:1.5
+	Interim_Release_1f_RC2:1.5
+	Interim_Release_1f_RC:1.5
+	Interim_Release_1f_beta2:1.5
+	Interim_Release_1f_beta1:1.5
+	PublicRelease_1e:1.5
+	Interim_Release_1e_RC2:1.5
+	Interim_Release_1e_RC:1.5
+	Interim_Release_1e_beta3:1.5
+	Interim_Release_1e_beta2:1.5
+	Interim_Release_1e_beta2_before_kuchin:1.5
+	Interim_Release_1e_beta1:1.5
+	PublicRelease_1c:1.5
+	featurestest:1.5.0.8
+	Interim_Release_1c_RC:1.5
+	Interim_Release_1c_beta2:1.5
+	Interim_Release_1c_beta1:1.5
+	threaded_downloadqueue:1.5.0.6
+	PublicRelease_1b:1.5
+	Interim_Release_1b_beta2:1.5
+	Interim_Release_1b_beta1:1.5
+	proxydeadlake:1.5.0.4
+	PublicRelease_1a:1.5
+	Interim_Release_1a_beta2:1.5
+	BerkeleyDb:1.5.0.2
+	Interim_Release_1a_beta1:1.5
+	PublicRelease_1:1.5
+	goldfish:1.5
+	eMulePlus_1_RC2:1.5
+	eMulePlus_26b_1RC1:1.5
+	PreRelease_26b_i0e:1.5
+	before_26d_merge:1.5
+	Interim_Release_26b_i0d:1.5
+	Interim_Release_26b_i0c:1.4
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.3.0.4
+	plus26based:1.3.0.2
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.23
+date	2009.06.28.04.22.45;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.04.22.04.58.37;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.03.26.22.16.47;	author eklmn;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2007.11.03.18.27.27;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2007.10.31.18.18.58;	author fuxie-dk;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2007.10.16.19.14.12;	author eklmn;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.01.06.20.05.55;	author kush_eplus;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.06.07.16.36.40;	author katsyonak;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.02.15.11.55.58;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.07.31.15.25.49;	author bond006;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.07.30.00.17.52;	author netwolf1;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.07.28.17.06.13;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.07.16.22.37.33;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.07.16.22.12.15;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.07.14.16.36.45;	author eklmn;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.07.13.14.03.34;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.14.13.05.58;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.09.16.51.34;	author syrus77;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.12.22.24.52;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.11.14.52.13;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.02.13.28.55;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.24.22.07.50;	author maverick65;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.32;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.23
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "otherfunctions.h"
+#include "emule.h"
+#include "TrayDialog.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+CTrayDialog::CTrayDialog(UINT uIDD,CWnd* pParent /*=NULL*/)
+	: CTrayDialogBase(uIDD, pParent)
+{
+	m_nidIconData.cbSize			= sizeof(NOTIFYICONDATA);
+	ASSERT( m_nidIconData.cbSize == NOTIFYICONDATA_V1_SIZE );
+	
+	m_nidIconData.hWnd				= 0;
+	m_nidIconData.uID				= 1;
+
+	m_nidIconData.uCallbackMessage	= WM_TRAY_ICON_NOTIFY_MESSAGE;
+
+	m_nidIconData.hIcon				= 0;
+	m_nidIconData.szTip[0]			= 0;	
+	m_nidIconData.uFlags			= NIF_MESSAGE;
+
+	m_bTrayIconVisible				= false;
+	m_pbMinimizeToTray				= NULL;
+	m_nDefaultMenuItem				= 0;
+	m_hPrevIconDelete				= NULL;
+	m_bCurIconDelete				= false;
+	m_bLButtonDblClk				= false;
+}
+
+
+const UINT WM_TASKBARCREATED = ::RegisterWindowMessage(_T("TaskbarCreated"));
+
+BEGIN_MESSAGE_MAP(CTrayDialog, CTrayDialogBase)
+	ON_WM_CREATE()
+	ON_WM_DESTROY()
+	ON_WM_SYSCOMMAND()
+	ON_MESSAGE(WM_TRAY_ICON_NOTIFY_MESSAGE,OnTrayNotify)
+	ON_REGISTERED_MESSAGE(WM_TASKBARCREATED,OnTaskBarCreated)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CTrayDialog message handlers
+
+int CTrayDialog::OnCreate(LPCREATESTRUCT lpCreateStruct)
+{
+	if (CTrayDialogBase::OnCreate(lpCreateStruct) == -1)
+		return -1;
+
+	ASSERT( WM_TASKBARCREATED );
+	m_nidIconData.hWnd = m_hWnd;
+	m_nidIconData.uID = 1;
+
+	return 0;
+}
+
+void CTrayDialog::OnDestroy()
+{
+	CTrayDialogBase::OnDestroy();
+	// shouldn't that be done before passing the message to DefWinProc?
+	if (m_nidIconData.hWnd != NULL && m_nidIconData.uID > 0 && TrayIsVisible())
+	{
+		VERIFY( Shell_NotifyIcon(NIM_DELETE,&m_nidIconData) );
+	}
+}
+
+bool CTrayDialog::TrayIsVisible()
+{
+	return m_bTrayIconVisible;
+}
+
+void CTrayDialog::TraySetIcon(HICON hIcon, bool bDelete)
+{
+	ASSERT(hIcon);
+	if (hIcon != NULL)
+	{
+		//ASSERT(m_hPrevIconDelete == NULL);
+		if (m_bCurIconDelete)
+		{
+			ASSERT( m_nidIconData.hIcon != NULL && (m_nidIconData.uFlags & NIF_ICON) );
+			m_hPrevIconDelete = m_nidIconData.hIcon;
+		}
+		m_bCurIconDelete = bDelete;
+		m_nidIconData.hIcon = hIcon;
+		m_nidIconData.uFlags |= NIF_ICON;
+	}
+}
+
+void CTrayDialog::TraySetToolTip(LPCTSTR lpszToolTip)
+{
+	ASSERT(_tcslen(lpszToolTip) > 0 && _tcslen(lpszToolTip) < 64);
+	_tcsncpy(m_nidIconData.szTip, lpszToolTip, ARRSIZE(m_nidIconData.szTip));
+	m_nidIconData.szTip[ARRSIZE(m_nidIconData.szTip) - 1] = _T('\0');
+	m_nidIconData.uFlags |= NIF_TIP;
+}
+
+BOOL CTrayDialog::TrayShow()
+{
+	BOOL	bSuccess = false;
+
+	if (!m_bTrayIconVisible)
+	{
+		bSuccess = Shell_NotifyIcon(NIM_ADD, &m_nidIconData);
+		if (bSuccess)
+			m_bTrayIconVisible = true;
+	}
+	else
+	{
+		TRACE0("CTrayDialog::TrayShow: ICON ALREADY VISIBLE");
+	}
+	return bSuccess;
+}
+
+BOOL CTrayDialog::TrayHide()
+{
+	EMULE_TRY
+
+	BOOL	bSuccess = false;
+
+	if (m_bTrayIconVisible)
+	{
+		bSuccess = Shell_NotifyIcon(NIM_DELETE, &m_nidIconData);
+		if (bSuccess)
+			m_bTrayIconVisible = false;
+	}
+	else
+	{
+		TRACE0("CTrayDialog::TrayHide: ICON ALREADY HIDDEN");
+	}
+	return bSuccess;
+
+	EMULE_CATCH
+	return false;
+}
+
+BOOL CTrayDialog::TrayUpdate()
+{
+	EMULE_TRY
+
+	BOOL	bSuccess = false;
+
+	if (m_bTrayIconVisible)
+	{
+		bSuccess = Shell_NotifyIcon(NIM_MODIFY, &m_nidIconData);
+		if (!bSuccess)
+		{
+			//ASSERT(0);
+			return false;	// don't delete	'm_hPrevIconDelete'	because	it's still attached	to the tray
+		}
+	}
+	else
+	{
+		//TRACE0("ICON NOT VISIBLE");
+	}
+
+	if (m_hPrevIconDelete != NULL)
+	{
+		VERIFY( ::DestroyIcon(m_hPrevIconDelete) );
+		m_hPrevIconDelete = NULL;
+	}
+
+	return bSuccess;
+
+	EMULE_CATCH
+	return false;
+} 
+
+BOOL CTrayDialog::TraySetMenu(UINT nResourceID, UINT nDefaultPos)
+{
+	NOPRM(nDefaultPos);
+	BOOL	bSuccess = m_mnuTrayMenu.LoadMenu(nResourceID);
+
+	ASSERT( bSuccess );
+	return bSuccess;
+}
+
+
+BOOL CTrayDialog::TraySetMenu(LPCTSTR lpszMenuName, UINT nDefaultPos)
+{	
+	NOPRM(nDefaultPos);
+	BOOL	bSuccess = m_mnuTrayMenu.LoadMenu(lpszMenuName);
+
+	ASSERT( bSuccess );
+	return bSuccess;
+}
+
+BOOL CTrayDialog::TraySetMenu(HMENU hMenu, UINT nDefaultPos)
+{
+	NOPRM(nDefaultPos);
+	m_mnuTrayMenu.Attach(hMenu);
+	return true;
+}
+
+LRESULT CTrayDialog::OnTrayNotify(WPARAM wParam, LPARAM lParam)
+{
+    UINT	uID = (UINT) wParam;
+ 
+    if (uID != 1)
+        return false;
+	
+    UINT	uMsg = (UINT) lParam;
+
+    switch (uMsg)
+	{ 
+		case WM_LBUTTONDBLCLK:
+			m_bLButtonDblClk = true;
+			break;
+
+		case WM_RBUTTONUP:
+		case WM_CONTEXTMENU:
+		{
+			CPoint	pt;
+
+			GetCursorPos(&pt);
+			OnTrayRButtonUp(pt);
+			break;
+		}
+
+		case WM_LBUTTONUP:
+			if (m_bLButtonDblClk)
+			{
+				if (TrayHide())
+					ShowWindow(SW_SHOW);
+				m_bLButtonDblClk = false;
+			}
+			break;
+	} 
+	return true; 
+}
+
+void CTrayDialog::OnSysCommand(UINT nID, LPARAM lParam)
+{
+	if ((m_pbMinimizeToTray != NULL) && *m_pbMinimizeToTray)
+	{
+		if ((nID & 0xFFF0) == SC_MINIMIZE)
+		{
+			if(TrayShow())
+				ShowWindow(SW_HIDE);
+		}
+		else
+			CTrayDialogBase::OnSysCommand(nID, lParam);	
+	}
+   	else if ((nID & 0xFFF0) == SC_MINIMIZETRAY)
+   	{
+       	if(TrayShow())
+       		ShowWindow(SW_HIDE);
+   	}
+	else
+		CTrayDialogBase::OnSysCommand(nID, lParam);
+}
+
+void CTrayDialog::TraySetMinimizeToTray(bool *pbMinimizeToTray)
+{
+	m_pbMinimizeToTray = pbMinimizeToTray;
+}
+
+void CTrayDialog::TrayMinimizeToTrayChanged()
+{
+    if (m_pbMinimizeToTray == NULL)
+       return;
+
+    if (*m_pbMinimizeToTray)
+       MinTrayBtnHide();
+    else
+       MinTrayBtnShow();
+}
+
+void CTrayDialog::OnTrayRButtonUp(CPoint pt)
+{
+	NOPRM(pt);
+}
+
+LRESULT CTrayDialog::OnTaskBarCreated(WPARAM wParam, LPARAM lParam)
+{
+	NOPRM(wParam); NOPRM(lParam);
+
+	if (m_bTrayIconVisible)
+	{
+		BOOL	bResult = Shell_NotifyIcon(NIM_ADD, &m_nidIconData);
+
+		ASSERT( bResult );
+		return bResult;
+	}
+	return true;
+}
+@
+
+
+1.22
+log
+@Suppressed compiler warnings.
+@
+text
+@d19 1
+@
+
+
+1.21
+log
+@Suppressed compiler warnings
+@
+text
+@a17 3
+// TrayDialog.cpp : implementation file
+//
+
+a29 2
+// CTrayDialog dialog
+
+a57 1
+	//{{AFX_MSG_MAP(CTrayDialog)
+a60 1
+	//}}AFX_MSG_MAP
+d72 1
+a72 1
+	
+d76 1
+a76 1
+	
+d97 1
+a97 1
+	ASSERT(hIcon); 
+d120 1
+a120 1
+bool CTrayDialog::TrayShow()
+d122 1
+a122 1
+	bool	bSuccess = false;
+d137 1
+a137 1
+bool CTrayDialog::TrayHide()
+d140 2
+a141 2
+		
+	bool	bSuccess = false;
+d147 1
+a147 3
+		{
+			m_bTrayIconVisible= false;
+		}
+d154 1
+a154 1
+	
+d159 1
+a159 1
+bool CTrayDialog::TrayUpdate()
+d163 1
+a163 1
+	bool	bSuccess = false;
+d167 17
+a183 17
+            bSuccess = Shell_NotifyIcon(NIM_MODIFY, &m_nidIconData);
+            if (!bSuccess)
+            {
+                //ASSERT(0);
+                return false; // don't delete 'm_hPrevIconDelete' because it's still attached to the tray
+            }
+        }
+    else
+    {
+        //TRACE0("ICON NOT VISIBLE");
+    }
+
+    if (m_hPrevIconDelete != NULL)
+    {
+        VERIFY( ::DestroyIcon(m_hPrevIconDelete) );
+        m_hPrevIconDelete = NULL;
+    }        
+d191 1
+a191 1
+bool CTrayDialog::TraySetMenu(UINT nResourceID, UINT nDefaultPos)
+d194 1
+a194 1
+	bool	bSuccess = m_mnuTrayMenu.LoadMenu(nResourceID);
+d201 1
+a201 1
+bool CTrayDialog::TraySetMenu(LPCTSTR lpszMenuName, UINT nDefaultPos)
+d204 1
+a204 1
+	bool	bSuccess = m_mnuTrayMenu.LoadMenu(lpszMenuName);
+d210 1
+a210 1
+bool CTrayDialog::TraySetMenu(HMENU hMenu,UINT nDefaultPos)
+d298 1
+a298 2
+	NOPRM(wParam);
+	NOPRM(lParam);
+d302 1
+a302 1
+		bool	bResult = Shell_NotifyIcon(NIM_ADD, &m_nidIconData);
+@
+
+
+1.20
+log
+@recover the chages that were overwritten by Fuxie
+@
+text
+@d200 3
+a202 2
+bool CTrayDialog::TraySetMenu(UINT nResourceID,UINT nDefaultPos)
+{	
+d210 1
+a210 1
+bool CTrayDialog::TraySetMenu(LPCTSTR lpszMenuName,UINT nDefaultPos)
+d212 1
+d221 1
+d302 1
+d307 3
+@
+
+
+1.19
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@a118 13
+/* eklmn: removed unused functions
+void CTrayDialog::TraySetIcon(UINT nResourceID, bool bDelete)
+{
+	TraySetIcon(AfxGetApp()->LoadIcon(nResourceID));	
+}
+
+
+void CTrayDialog::TraySetIcon(LPCTSTR lpszResourceName, bool bDelete)
+{
+	TraySetIcon(AfxGetApp()->LoadIcon(lpszResourceName));	
+}
+*/
+
+a230 1
+    CPoint	pt;	
+a233 10
+		case WM_MOUSEMOVE:
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayMouseMove(pt);
+			break;
+		case WM_LBUTTONDOWN:
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayLButtonDown(pt);
+			break;
+d235 1
+a235 3
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayLButtonDblClk(pt);
+d237 1
+d240 3
+a243 1
+			//ClientToScreen(&pt);
+d246 2
+a247 5
+		case WM_RBUTTONDBLCLK:
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayRButtonDblClk(pt);
+			break;
+a298 19
+	//m_mnuTrayMenu.GetSubMenu(0)->TrackPopupMenu(TPM_BOTTOMALIGN|TPM_LEFTBUTTON|TPM_RIGHTBUTTON, pt.x, pt.y, this);
+	//m_mnuTrayMenu.GetSubMenu(0)->SetDefaultItem(m_nDefaultMenuItem, true);
+}
+
+void CTrayDialog::OnTrayLButtonDown(CPoint pt)
+{
+}
+
+void CTrayDialog::OnTrayLButtonDblClk(CPoint pt)
+{
+	m_bLButtonDblClk = true;
+}
+
+void CTrayDialog::OnTrayRButtonDblClk(CPoint pt)
+{
+}
+
+void CTrayDialog::OnTrayMouseMove(CPoint pt)
+{
+@
+
+
+1.18
+log
+@removed useless code
+@
+text
+@d52 1
+a52 1
+	m_bMinimizeToTray				= 0;
+d56 1
+a56 1
+	m_bdoubleclicked				= false;
+d119 13
+d244 1
+d248 10
+d259 3
+a261 1
+			m_bdoubleclicked = true;
+a262 1
+
+a264 3
+		{
+			CPoint	pt;
+
+d266 1
+d269 5
+a273 2
+		}
+
+d275 1
+a275 1
+			if (m_bdoubleclicked)
+d279 1
+a279 1
+				m_bdoubleclicked = false;
+d288 1
+a288 1
+	if (m_bMinimizeToTray && *m_bMinimizeToTray)
+d307 1
+a307 1
+void CTrayDialog::TraySetMinimizeToTray(byte *bMinimizeToTray)
+d309 1
+a309 1
+	m_bMinimizeToTray = bMinimizeToTray;
+d314 1
+a314 1
+    if (!m_bMinimizeToTray)
+d317 1
+a317 1
+    if (*m_bMinimizeToTray)
+d325 19
+@
+
+
+1.17
+log
+@UNICODE preparation (first shot)
+@
+text
+@a118 13
+/* eklmn: removed unused functions
+void CTrayDialog::TraySetIcon(UINT nResourceID, bool bDelete)
+{
+	TraySetIcon(AfxGetApp()->LoadIcon(nResourceID));	
+}
+
+
+void CTrayDialog::TraySetIcon(LPCTSTR lpszResourceName, bool bDelete)
+{
+	TraySetIcon(AfxGetApp()->LoadIcon(lpszResourceName));	
+}
+*/
+
+a230 1
+    CPoint	pt;	
+a233 10
+		case WM_MOUSEMOVE:
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayMouseMove(pt);
+			break;
+		case WM_LBUTTONDOWN:
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayLButtonDown(pt);
+			break;
+d235 1
+a235 3
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayLButtonDblClk(pt);
+d237 1
+d240 3
+a243 1
+			//ClientToScreen(&pt);
+d246 2
+a247 5
+		case WM_RBUTTONDBLCLK:
+			GetCursorPos(&pt);
+			ClientToScreen(&pt);
+			OnTrayRButtonDblClk(pt);
+			break;
+a298 19
+	//m_mnuTrayMenu.GetSubMenu(0)->TrackPopupMenu(TPM_BOTTOMALIGN|TPM_LEFTBUTTON|TPM_RIGHTBUTTON, pt.x, pt.y, this);
+	//m_mnuTrayMenu.GetSubMenu(0)->SetDefaultItem(m_nDefaultMenuItem, true);
+}
+
+void CTrayDialog::OnTrayLButtonDown(CPoint pt)
+{
+}
+
+void CTrayDialog::OnTrayLButtonDblClk(CPoint pt)
+{
+	m_bdoubleclicked = true;
+}
+
+void CTrayDialog::OnTrayRButtonDblClk(CPoint pt)
+{
+}
+
+void CTrayDialog::OnTrayMouseMove(CPoint pt)
+{
+@
+
+
+1.16
+log
+@Updated tray dialog code from official v0.42g
+@
+text
+@d134 1
+a134 1
+	ASSERT(strlen(lpszToolTip) > 0 && strlen(lpszToolTip) < 64);
+@
+
+
+1.15
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d1 17
+d37 1
+a37 1
+	: CTrayDialogBase(uIDD, pParent) // #zegzav (modify)
+d40 1
+d51 1
+a51 1
+	m_bTrayIconVisible				= FALSE;
+d54 2
+d62 1
+a62 1
+BEGIN_MESSAGE_MAP(CTrayDialog, CTrayDialogBase) // #zegzav (modify)
+d77 1
+a77 1
+	if (CTrayDialogBase::OnCreate(lpCreateStruct) == -1) // #zegzav (modify)
+d80 1
+d89 3
+a91 2
+	CTrayDialogBase::OnDestroy();  // #zegzav (modify)
+	if(m_nidIconData.hWnd && m_nidIconData.uID>0 && TrayIsVisible())
+d93 1
+a93 1
+		Shell_NotifyIcon(NIM_DELETE,&m_nidIconData);
+d97 1
+a97 1
+BOOL CTrayDialog::TrayIsVisible()
+d102 1
+a102 1
+void CTrayDialog::TraySetIcon(HICON hIcon) // #zegzav (modified)    
+d105 12
+a116 6
+
+	//eklmn: check NULL case
+	if (hIcon)
+		DestroyIcon(m_nidIconData.hIcon);
+	m_nidIconData.hIcon = hIcon;
+	m_nidIconData.uFlags |= NIF_ICON;
+d119 2
+a120 3
+//eklmn: removed unused functions
+/*
+void CTrayDialog::TraySetIcon(UINT nResourceID)
+d122 1
+a122 7
+	ASSERT(nResourceID>0);
+	HICON hIcon = AfxGetApp()->LoadIcon(nResourceID);
+	
+	if(hIcon)
+		TraySetIcon(hIcon);
+	else
+		TRACE0("FAILED TO LOAD ICON\n");	
+d126 1
+a126 1
+void CTrayDialog::TraySetIcon(LPCTSTR lpszResourceName)
+d128 1
+a128 6
+	HICON hIcon = AfxGetApp()->LoadIcon(lpszResourceName);
+	
+	if(hIcon)	
+		TraySetIcon(hIcon);		
+	else	
+		TRACE0("FAILED TO LOAD ICON\n");	
+d134 3
+a136 5
+	ASSERT(_tcslen(lpszToolTip) > 0);
+	CString sToolTip(lpszToolTip);
+	if(sToolTip.GetLength() >= 90)
+		sToolTip = sToolTip.Left(85) + _T("...");
+    _tcscpy(m_nidIconData.szTip, sToolTip);
+a137 3
+
+	//if(m_bTrayIconVisible)                            // #zegzav (modified)
+	//     Shell_NotifyIcon(NIM_MODIFY,&m_nidIconData); 
+d140 1
+a140 1
+BOOL CTrayDialog::TrayShow()
+d142 3
+a144 2
+	BOOL bSuccess = FALSE;
+	if(!m_bTrayIconVisible)
+d146 3
+a148 3
+		bSuccess = Shell_NotifyIcon(NIM_ADD,&m_nidIconData);
+		if(bSuccess)
+			m_bTrayIconVisible= TRUE;
+d152 1
+a152 1
+		TRACE0("ICON ALREADY VISIBLE");
+d157 1
+a157 1
+BOOL CTrayDialog::TrayHide()
+d161 3
+a163 2
+	BOOL bSuccess = FALSE;
+	if(m_bTrayIconVisible)
+d165 2
+a166 2
+		bSuccess = Shell_NotifyIcon(NIM_DELETE,&m_nidIconData);
+		if(bSuccess)
+d168 1
+a168 1
+			m_bTrayIconVisible= FALSE;
+d173 1
+a173 1
+		TRACE0("ICON ALREADY HIDDEN");
+d181 1
+a181 1
+BOOL CTrayDialog::TrayUpdate()
+d185 2
+a186 1
+	BOOL bSuccess = FALSE;
+d189 6
+a194 4
+		bSuccess = Shell_NotifyIcon(NIM_MODIFY,&m_nidIconData);
+        if (!bSuccess){
+            ASSERT(0);
+            return FALSE;
+d196 11
+a206 1
+	}
+d213 1
+a213 1
+BOOL CTrayDialog::TraySetMenu(UINT nResourceID,UINT nDefaultPos)
+d215 4
+a218 1
+	return m_mnuTrayMenu.LoadMenu(nResourceID);	
+d222 1
+a222 1
+BOOL CTrayDialog::TraySetMenu(LPCTSTR lpszMenuName,UINT nDefaultPos)
+d224 4
+a227 1
+	return  m_mnuTrayMenu.LoadMenu(lpszMenuName);	
+d230 1
+a230 1
+BOOL CTrayDialog::TraySetMenu(HMENU hMenu,UINT nDefaultPos)
+d233 1
+a233 1
+	return TRUE;
+d238 1
+a238 2
+    UINT uID; 
+    UINT uMsg; 
+d240 2
+a241 5
+    uID = (UINT) wParam; 
+    uMsg = (UINT) lParam; 
+ 
+	if (uID != 1)
+		return false;
+d243 2
+a244 1
+	CPoint pt;	
+d267 1
+a267 1
+			OnTrayRButtonUp(pt);//bond006: systray menu gets stuck (bugfix)
+d275 1
+a275 1
+			if(m_bdoubleclicked)
+d277 1
+a277 1
+				if(TrayHide())
+d279 1
+a279 1
+				m_bdoubleclicked=false;
+d288 1
+a288 1
+	if(m_bMinimizeToTray)
+d296 1
+a296 1
+			CDialog::OnSysCommand(nID, lParam);	
+a297 1
+   	// #zegzav - BEGIN (add)
+a302 1
+   	// #zegzav - END
+d304 1
+a304 1
+		CTrayDialogBase::OnSysCommand(nID, lParam); // #zegzav (modify)
+d307 1
+a307 1
+void CTrayDialog::TraySetMinimizeToTray(byte bMinimizeToTray)
+a311 1
+// #zegzav - BEGIN (add)
+d314 4
+a317 1
+    if (m_bMinimizeToTray)
+a321 1
+// #zegzav - ENd
+d325 2
+a326 2
+	//m_mnuTrayMenu.GetSubMenu(0)->TrackPopupMenu(TPM_BOTTOMALIGN|TPM_LEFTBUTTON|TPM_RIGHTBUTTON,pt.x,pt.y,this);
+	//m_mnuTrayMenu.GetSubMenu(0)->SetDefaultItem(m_nDefaultMenuItem,TRUE);
+d335 1
+a335 1
+	m_bdoubleclicked=true;
+d348 3
+a350 2
+	if(m_bTrayIconVisible)
+		return Shell_NotifyIcon(NIM_ADD, &m_nidIconData);
+d352 3
+@
+
+
+1.14
+log
+@BUGFIX: open systray dialog sticks when you right-click another area on desktop
+@
+text
+@d280 1
+a280 1
+void CTrayDialog::TraySetMinimizeToTray(int8 bMinimizeToTray)
+@
+
+
+1.13
+log
+@minor change
+@
+text
+@d234 1
+a234 1
+		case WM_RBUTTONDOWN:
+d238 1
+a238 1
+			OnTrayRButtonDown(pt);
+d295 1
+a295 1
+void CTrayDialog::OnTrayRButtonDown(CPoint pt)
+@
+
+
+1.12
+log
+@1) fixed crash by minimizing
+2) removed two unused functions
+@
+text
+@d176 4
+@
+
+
+1.11
+log
+@removed code which:
+1. throws assertion in debug
+2. cause memory leak in release
+@
+text
+@d84 3
+a86 1
+	DestroyIcon(m_nidIconData.hIcon);
+d91 2
+a92 1
+
+d114 1
+@
+
+
+1.10
+log
+@code simplification before bugfixing
+@
+text
+@a35 2
+	m_hPrevIconDelete               = NULL;     // #zegzav (added)
+    m_bCurIconDelete                = false;    // #zegzav (added)
+d80 1
+a80 1
+void CTrayDialog::TraySetIcon(HICON hIcon, bool bDelete) // #zegzav (modified)    
+d84 1
+a84 7
+	// DestroyIcon(m_nidIconData.hIcon);        // #zegzav (modified)
+	ASSERT(m_hPrevIconDelete == NULL);
+	if (m_bCurIconDelete)
+		m_hPrevIconDelete= m_nidIconData.hIcon;
+	m_bCurIconDelete= bDelete;
+	// #zegzav (added) - END
+
+d90 1
+a90 1
+void CTrayDialog::TraySetIcon(UINT nResourceID, bool bDelete)
+d96 1
+a96 1
+		TraySetIcon(hIcon, bDelete);
+d102 1
+a102 1
+void CTrayDialog::TraySetIcon(LPCTSTR lpszResourceName, bool bDelete)
+d107 1
+a107 1
+		TraySetIcon(hIcon, bDelete);		
+a151 7
+			// #zegzav (added) - BEGIN by Tarod
+			if (m_hPrevIconDelete != NULL)
+			{
+				::DestroyIcon(m_hPrevIconDelete);
+				m_hPrevIconDelete= NULL;
+			}        
+			// #zegzav (added) - END
+a171 10
+		if (bSuccess)
+		{
+			// #zegzav (added) - BEGIN
+			if (m_hPrevIconDelete != NULL)
+			{
+				::DestroyIcon(m_hPrevIconDelete);
+				m_hPrevIconDelete= NULL;
+			} 
+			// #zegzav (added) - END
+		}
+a172 4
+//    else
+//    {
+//        TRACE0("ICON NOT VISIBLE\n");
+//    }
+@
+
+
+1.9
+log
+@fixed "tray icon disappearing"
+@
+text
+@d101 2
+a102 2
+	HICON hIcon = 0;
+	hIcon = AfxGetApp()->LoadIcon(nResourceID);
+d104 1
+a104 11
+	{
+		// DestroyIcon(m_nidIconData.hIcon);        // #zegzav (modified)
+		ASSERT(m_hPrevIconDelete == NULL);
+		if (m_bCurIconDelete)
+			m_hPrevIconDelete= m_nidIconData.hIcon;
+		m_bCurIconDelete= bDelete;
+		// #zegzav (added) - END    
+
+		m_nidIconData.hIcon = hIcon;
+		m_nidIconData.uFlags |= NIF_ICON;
+	}
+d106 1
+a106 3
+	{
+		TRACE0("FAILED TO LOAD ICON\n");
+	}
+d112 6
+a117 17
+	HICON hIcon = 0;
+	hIcon = AfxGetApp()->LoadIcon(lpszResourceName);
+	if(hIcon)
+	{
+		// DestroyIcon(m_nidIconData.hIcon);        // #zegzav (modified)
+		ASSERT(m_hPrevIconDelete == NULL);
+		if (m_bCurIconDelete)
+			m_hPrevIconDelete= m_nidIconData.hIcon;
+		m_bCurIconDelete= bDelete;
+		// #zegzav (added) - END
+		m_nidIconData.hIcon = hIcon;
+		m_nidIconData.uFlags |= NIF_ICON;
+	}
+	else
+	{
+		TRACE0("FAILED TO LOAD ICON\n");
+	}
+d209 2
+a210 4
+{
+	BOOL bSuccess;
+	bSuccess = m_mnuTrayMenu.LoadMenu(nResourceID);
+	return bSuccess;
+d215 2
+a216 4
+{
+	BOOL bSuccess;
+	bSuccess = m_mnuTrayMenu.LoadMenu(lpszMenuName);
+	return bSuccess;
+@
+
+
+1.8
+log
+@Polished changelog (thx janes bong)
+@
+text
+@d5 1
+d174 2
+d181 1
+d183 8
+a195 9
+
+	// #zegzav (added) - BEGIN by Tarod
+    if (m_hPrevIconDelete != NULL)
+    {
+        ::DestroyIcon(m_hPrevIconDelete);
+        m_hPrevIconDelete= NULL;
+    }        
+    // #zegzav (added) - END
+
+d197 3
+d204 1
+a204 1
+    BOOL bSuccess = FALSE;
+d206 19
+a224 16
+    if(m_bTrayIconVisible)
+    {
+        bSuccess = Shell_NotifyIcon(NIM_MODIFY,&m_nidIconData);
+    }
+
+ 	if (!bSuccess)
+		return FALSE; // don't delete 'm_hPrevIconDelete' because it's still attached to the tray
+           
+    // #zegzav (added) - BEGIN
+    if (m_hPrevIconDelete != NULL)
+    {
+        ::DestroyIcon(m_hPrevIconDelete);
+        m_hPrevIconDelete= NULL;
+    }        
+    // #zegzav (added) - END
+   
+d226 3
+@
+
+
+1.7
+log
+@unicode cleanup
+@
+text
+@d56 2
+a57 1
+int CTrayDialog::OnCreate(LPCREATESTRUCT lpCreateStruct) {
+d67 2
+a68 1
+void CTrayDialog::OnDestroy() {
+d76 2
+a77 1
+BOOL CTrayDialog::TrayIsVisible(){
+d81 2
+a82 1
+void CTrayDialog::TraySetIcon(HICON hIcon, bool bDelete){ // #zegzav (modified)    
+a84 1
+
+d97 2
+a98 2
+void CTrayDialog::TraySetIcon(UINT nResourceID, bool bDelete){
+
+a103 1
+
+d110 1
+d121 2
+a122 2
+void CTrayDialog::TraySetIcon(LPCTSTR lpszResourceName, bool bDelete){
+
+a126 1
+
+a132 1
+
+d142 2
+a143 1
+void CTrayDialog::TraySetToolTip(LPCTSTR lpszToolTip){
+a150 1
+
+d155 2
+a156 1
+BOOL CTrayDialog::TrayShow(){
+d171 2
+a172 1
+BOOL CTrayDialog::TrayHide(){
+d196 2
+a197 1
+BOOL CTrayDialog::TrayUpdate(){
+d199 1
+d204 5
+a208 6
+//    else
+//    {
+//        TRACE0("ICON NOT VISIBLE\n");
+//    }
+   
+      // #zegzav (added) - BEGIN
+d216 1
+a216 1
+      return bSuccess;
+d219 2
+a220 1
+BOOL CTrayDialog::TraySetMenu(UINT nResourceID,UINT nDefaultPos){
+d227 2
+a228 1
+BOOL CTrayDialog::TraySetMenu(LPCTSTR lpszMenuName,UINT nDefaultPos){
+d234 2
+a235 1
+BOOL CTrayDialog::TraySetMenu(HMENU hMenu,UINT nDefaultPos){
+d240 2
+a241 1
+LRESULT CTrayDialog::OnTrayNotify(WPARAM wParam, LPARAM lParam) { 
+d253 1
+a253 1
+    switch (uMsg ) 
+d255 34
+a288 34
+	case WM_MOUSEMOVE:
+		GetCursorPos(&pt);
+		ClientToScreen(&pt);
+		OnTrayMouseMove(pt);
+		break;
+	case WM_LBUTTONDOWN:
+		GetCursorPos(&pt);
+		ClientToScreen(&pt);
+		OnTrayLButtonDown(pt);
+		break;
+	case WM_LBUTTONDBLCLK:
+		GetCursorPos(&pt);
+		ClientToScreen(&pt);
+		OnTrayLButtonDblClk(pt);
+		break;
+	case WM_RBUTTONDOWN:
+	case WM_CONTEXTMENU:
+		GetCursorPos(&pt);
+		//ClientToScreen(&pt);
+		OnTrayRButtonDown(pt);
+		break;
+	case WM_RBUTTONDBLCLK:
+		GetCursorPos(&pt);
+		ClientToScreen(&pt);
+		OnTrayRButtonDblClk(pt);
+		break;
+	case WM_LBUTTONUP:
+		if(m_bdoubleclicked)
+		{
+			if(TrayHide())
+				ShowWindow(SW_SHOW);
+			m_bdoubleclicked=false;
+		}
+		break;
+d293 2
+a294 1
+void CTrayDialog::OnSysCommand(UINT nID, LPARAM lParam){
+a298 1
+		
+d305 7
+a311 7
+    	// #zegzav - BEGIN (add)
+    	else if ((nID & 0xFFF0) == SC_MINIMIZETRAY)
+    	{
+        	if(TrayShow())
+        		ShowWindow(SW_HIDE);
+    	}
+    	// #zegzav - END
+a338 1
+
+@
+
+
+1.6
+log
+@FEATURE: show server/connectionstate in traytooltips [DoubleT]
+@
+text
+@d142 1
+a142 1
+	ASSERT(strlen(lpszToolTip) > 0);
+d146 1
+a146 1
+    strcpy(m_nidIconData.szTip, sToolTip);
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d144 2
+a145 2
+	if(sToolTip.GetLength() >= 64)
+		sToolTip = sToolTip.Left(59) + _T("...");
+@
+
+
+1.4
+log
+@Small fix
+@
+text
+@d199 4
+a202 4
+    else
+    {
+        TRACE0("ICON NOT VISIBLE\n");
+    }
+@
+
+
+1.3
+log
+@Small fix
+@
+text
+@d142 5
+a146 2
+	ASSERT(strlen(lpszToolTip) > 0 && strlen(lpszToolTip) < 64);
+    strcpy(m_nidIconData.szTip,lpszToolTip);
+@
+
+
+1.2
+log
+@updated to .25b codebase
+@
+text
+@d283 1
+a283 1
+	if(m_bMinimizeToTray && *m_bMinimizeToTray)
+d305 1
+a305 1
+void CTrayDialog::TraySetMinimizeToTray(int8* bMinimizeToTray)
+d313 1
+a313 3
+    if (!m_bMinimizeToTray)
+       return;
+    if (*m_bMinimizeToTray)
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d142 2
+a143 1
+	ASSERT(strlen(lpszToolTip) > 0 && strlen(lpszToolTip) < 64);     strcpy(m_nidIconData.szTip,lpszToolTip);
+@
+

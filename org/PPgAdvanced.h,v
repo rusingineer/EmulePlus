@@ -1,0 +1,133 @@
+head	1.1;
+branch	1.1.1;
+access;
+symbols
+	arelease:1.1.1.1
+	avendor:1.1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2007.10.31.18.08.22;	author fuxie-dk;	state Exp;
+branches
+	1.1.1.1;
+next	;
+
+1.1.1.1
+date	2007.10.31.18.08.22;	author fuxie-dk;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@#pragma once
+
+#include "preferences.h"
+#include "types.h"
+#include "afxwin.h"
+
+// CPPgAdvanced dialog
+
+class CPPgAdvanced : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgAdvanced)
+
+public:
+	CPPgAdvanced();
+	virtual ~CPPgAdvanced();
+	void SetPrefs(CPreferences* in_prefs) {	m_pPrefs = in_prefs; }
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+
+// Dialog Data
+	enum { IDD = IDD_PPG_ADVANCED };
+
+	afx_msg void OnSettingsChange()					{SetModified();}
+	afx_msg void OnBnClickedComEnabled();
+	afx_msg void OnBnClickedSLSEnabled();
+	afx_msg void OnSetCleanupFilter();
+	afx_msg void OnBnClickedBanEnabled();
+	void Localize(void);
+
+protected:
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+
+	CPreferences *m_pPrefs;
+	virtual void DoDataExchange(CDataExchange* pDX);
+
+	DECLARE_MESSAGE_MAP()
+
+private:
+	void LoadSettings(void);
+
+protected:
+	CString banTimes;
+	CString minRequestTime;
+	CString banTimeInMins;
+	CString comString;
+	CString slsMaxSources;
+	CString outdated;
+	bool m_bModified;
+	BOOL banMessage;
+	BOOL banEnabled;
+	BOOL noBanEnabled;
+	BOOL comEnabled;
+	BOOL slsEnabled;
+	BOOL fnCleanup;
+	BOOL fnCleanUpTag;
+	BOOL counterMeasures;
+	BOOL newAuto;
+
+private:
+	CEdit banTimesEdit;
+	CEdit minRequestTimeEdit;
+	CButton banMessageCheck;
+	CEdit banTimeInMinsEdit;
+	CEdit slsMaxSourcesEdit;
+	CEdit outdatedEdit;
+	CEdit comStringEdit;
+	CButton noBanEnabledCheck;
+	CString banDesc;
+	CButton banEnabledCheck;
+	CString clientRequestDesc;
+	CString banForDesc;
+	CString timesInDesc;
+	CString minutesBan1Desc;
+	CString minutesBan2Desc;
+	CString comDesc;
+	CButton comEnabledCheck;
+	CString saveLoadSourcesDesc;
+	CString slsMaxSourcesDesc;
+	CString slsOutdatedDesc;
+	CString slsSourcesDesc;
+	CString slsDaysDesc;
+	CButton slsEnabledCheck;
+	CButton counterMeasuresCheck;
+	CButton newAutoCheck;
+	CString fnCleanUpDesc;
+	CButton fncButton;
+	CButton fnCleanUpCheck;
+	CButton fnCleanUpTagCheck;
+};
+@
+
+
+1.1.1.1
+log
+@Backup files as per Aw3's request 
+@
+text
+@@

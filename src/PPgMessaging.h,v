@@ -1,0 +1,381 @@
+head	1.8;
+access;
+symbols
+	PublicRelease_1_2e:1.8
+	Interim_Release_1-2e_RC1:1.8
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.8
+	Interim_Release_1-2d_beta1:1.8
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.6
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.6
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.6
+	Interim_Release_1n_RC2:1.6
+	Interim_Release_1n_RC1:1.6
+	Interim_Release_1n_beta2:1.6
+	Interim_Release_1n_beta1:1.6
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.5
+	PublicRelease_1j:1.5
+	Interim_Release_1J_RC3:1.5
+	Interim_Release_1j_RC3:1.5
+	Interim_Release_1j_RC2:1.5
+	Interim_Release_1j_RC1:1.5
+	Interim_Release_1j_beta2:1.5
+	Interim_Release_1j_beta1:1.5
+	PublicRelease_1i:1.5
+	Interim_Release_1i_RC6:1.5
+	Interim_Release_1i_RC3:1.5
+	Interim_Release_1i_RC2:1.5
+	Interim_Release_1i_RC1:1.5
+	Interim_Release_1i_beta3:1.5
+	Interim_Release_1i_beta2:1.5
+	Interim_Release_1i_beta1:1.5
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3
+	PublicRelease_1g:1.2
+	Interim_Release_1g_RC6_Final:1.2
+	Interim_Release_1g_RC6:1.2
+	Interim_Release_1g_RC5:1.2
+	Interim_Release_1g_RC4:1.2
+	Interim_Release_1g_RC3:1.2
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.4
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.2
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.8
+date	2008.01.02.04.34.29;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.10.31.18.25.08;	author fuxie-dk;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.07.04.14.42.16;	author katsyonak;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.20.18.21.23;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.04.05.09.49;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.06.14.00.48.56;	author netwolf1;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.08.12.09.42;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Optimized dialog regarding required memory and speed.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+class CPreferences;
+
+class CPPgMessaging : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgMessaging)
+
+public:
+	CPPgMessaging();
+	virtual ~CPPgMessaging();
+	void SetPrefs(CPreferences* in_prefs) { m_pPrefs = in_prefs; }
+
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+	void Localize(void);
+
+	enum { IDD = IDD_PPG_MESSAGING };
+
+	afx_msg void OnSettingsChange()		{ SetModified(); }
+	afx_msg void OnBnClickedCbImPutmeaway();
+
+protected:
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+
+	virtual void DoDataExchange(CDataExchange* pDX);  // DDX/DDV support
+
+private:
+	void LoadSettings(void);
+
+	DECLARE_MESSAGE_MAP()
+
+protected:
+	CPreferences	*m_pPrefs;
+	int		m_iAcceptMessages;
+	BOOL	m_bModified;
+	BOOL	m_bPutMeInAwayState;
+	CString	m_strAwayMessage;
+	CString	m_strMsgFilter;
+	CString	m_strCommentFilter;
+};
+@
+
+
+1.7
+log
+@Suppressed compiler warnings; Reduced H-file dependency [Aw3].
+@
+text
+@d1 15
+a32 1
+// Dialog Data
+d35 1
+a35 4
+	afx_msg void OnBnClickedRbImFromallusers()		{ SetModified(); }
+	afx_msg void OnBnClickedRbImOnlyfromfriends()	{ SetModified(); }
+	afx_msg void OnBnClickedRbImOnlyfromfriends2()	{ SetModified(); }
+	afx_msg void OnBnClickedRbImFromnone()			{ SetModified(); }
+a36 3
+	afx_msg void OnEnChangeEditImAwaymessage()		{ SetModified(); }
+	afx_msg void OnEnChangeFilter()					{ SetModified(); }
+	afx_msg void OnEnChangeCommentsFilter()			{ SetModified(); }
+a38 3
+	CPreferences* m_pPrefs;
+
+	BOOL	m_bModified;
+d53 7
+a59 20
+	int acceptMessages;
+	BOOL putMeInAwayState;
+	CString awayMessage;
+	CString filter;
+	CString commentsFilter;
+
+private:
+	CEdit awayMessageEdit;
+	CString acceptMessagesDesc;
+	CString otherDesc;
+	CButton fromAllUsersRadio;
+	CButton onlyFromFriendsRadio;
+	CButton otherToLogRadio;
+	CButton fromNoneRadio;
+	CString commentsDesc;
+	CString msgDesc;
+	CString commentsFilterDesc;
+	CString filterDesc;
+	CButton putMeAwayCheck;
+	CString awayMessageDesc;
+@
+
+
+1.6
+log
+@Added clickable own rating icon in shared files list
+@
+text
+@a1 1
+#include "afxwin.h"
+d3 1
+a3 2
+
+// CPPgMessaging dialog
+d21 9
+d33 1
+a33 1
+	bool m_bModified;
+d41 1
+d46 1
+a46 9
+public:
+	afx_msg void OnBnClickedRbImFromallusers()     	{ SetModified(); }
+	afx_msg void OnBnClickedRbImOnlyfromfriends()  	{ SetModified(); }
+	afx_msg void OnBnClickedRbImOnlyfromfriends2() 	{ SetModified(); }
+	afx_msg void OnBnClickedRbImFromnone()  		{ SetModified(); }
+	afx_msg void OnBnClickedCbImPutmeaway();
+	afx_msg void OnEnChangeEditImAwaymessage() 		{ SetModified(); }
+	afx_msg void OnEnChangeFilter() 				{ SetModified(); }
+	afx_msg void OnEnChangeCommentsFilter() 		{ SetModified(); }
+d53 1
+@
+
+
+1.5
+log
+@Formatting, comments, and name changes.
+@
+text
+@a46 1
+	afx_msg void OnBnClickedDisableRatingIcons() 	{ SetModified(); }
+a52 1
+	BOOL disableRatingIcons;
+a61 1
+	CButton disableRatingIconsCheck;
+@
+
+
+1.4
+log
+@Fixes.
+@
+text
+@d14 1
+a14 1
+	void SetPrefs(CPreferences* in_prefs) { app_prefs = in_prefs; }
+d24 1
+a24 1
+	CPreferences* app_prefs;
+@
+
+
+1.3
+log
+@converted to use DDX framework
+@
+text
+@d39 4
+a42 4
+	afx_msg void OnBnClickedRbImFromallusers()     { SetModified(); };
+	afx_msg void OnBnClickedRbImOnlyfromfriends()  { SetModified(); };
+	afx_msg void OnBnClickedRbImOnlyfromfriends2() { SetModified(); };
+	afx_msg void OnBnClickedRbImFromnone()  { SetModified(); };;
+d44 4
+a47 2
+	afx_msg void OnEnChangeEditImAwaymessage() { SetModified(); };
+	afx_msg void OnBnClickedDisableRatingIcons() { SetModified(); };
+@
+
+
+1.2
+log
+@FEATURE: disable rating icons
+@
+text
+@d2 1
+d25 8
+d46 22
+@
+
+
+1.1
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d36 1
+@
+

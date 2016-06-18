@@ -1,0 +1,4684 @@
+head	1.57;
+access;
+symbols
+	PublicRelease_1_2e:1.57
+	Interim_Release_1-2e_RC1:1.57
+	PublicRelease_1_2d:1.57
+	Interim_Release_1-2d_RC1:1.57
+	Interim_Release_1-2d_beta1:1.57
+	PublicRelease_1_2c:1.56
+	Interim_Release_1-2c_RC1:1.56
+	Interim_Release_1-2c_beta1:1.55
+	PublicRelease_1_2b:1.55
+	Interim_Release_1-2b_RC1:1.55
+	PublicRelease_1_2a:1.55
+	Interim_Release_1-2a_RC1:1.55
+	Interim_Release_1-2a_beta2:1.55
+	Interim_Release_1-2a_beta1:1.55
+	PublicRelease_1_2:1.55
+	Interim_Release_1-2_RC1:1.55
+	Interim_Release_1-2_beta1:1.55
+	PublicRelease_1_1g:1.55
+	Interim_Release_1-1g_RC3:1.55
+	Interim_Release_1-1g_RC2:1.55
+	Interim_Release_1-1g_RC1:1.55
+	Interim_Release_1-1g_beta2:1.53
+	Interim_Release_1-1g_beta1:1.53
+	PublicRelease_1_1f:1.53
+	Interim_Release_1-1f_RC1:1.53
+	PublicRelease_1_1e:1.53
+	Interim_Release_1-1e_RC2:1.53
+	Interim_Release_1-1e_RC1:1.52
+	Interim_Release_1-1e_beta1:1.52
+	PublicRelease_1_1d:1.52
+	Interim_Release_1-1d_RC1:1.52
+	PublicRelease_1_1c:1.52
+	Interim_Release_1-1c_RC1:1.52
+	Interim_Release_1-1c_beta2:1.52
+	Interim_Release_1-1c_beta1:1.52
+	PublicRelease_1_1b:1.52
+	Interim_Release_1-1b_RC1:1.52
+	PublicRelease_1_1a:1.50
+	Interim_Release_1-1a_RC2:1.50
+	Interim_Release_1-1a_RC1:1.50
+	Interim_Release_1-1a_beta2:1.50
+	Interim_Release_1-1a_beta1:1.50
+	PublicRelease_1_1:1.48
+	Interim_Release_1-1_beta1:1.48
+	PublicRelease_1o:1.45
+	Interim_Release_1o_RC1:1.45
+	Interim_Release_1o_beta1:1.45
+	PublicRelease_1n:1.45
+	Interim_Release_1n_RC2:1.45
+	Interim_Release_1n_RC1:1.45
+	Interim_Release_1n_beta2:1.42
+	Interim_Release_1n_beta1:1.40
+	PublicRelease_1m:1.40
+	Interim_Release_1m_beta1:1.40
+	PublicRelease_1l:1.39
+	Interim_Release_1l_RC3:1.39
+	Interim_Release_1l_RC2:1.39
+	Interim_Release_1l_RC1:1.39
+	Interim_Release_1l_beta2:1.39
+	Interim_Release_1l_beta1:1.38
+	PublicRelease_1k:1.33
+	Interim_Release_1k_RC4:1.33
+	Interim_1k_RC3:1.33
+	Interim_1k_RC2:1.33
+	Interim_Release_1k_RC1:1.33
+	Interim_Release_1k_beta5:1.33
+	Intrerim_Release_1k_beta4:1.33
+	Interim_Release_1k_beta1:1.33
+	PublicRelease_1j:1.33
+	Interim_Release_1J_RC3:1.33
+	Interim_Release_1j_RC3:1.33
+	Interim_Release_1j_RC2:1.31
+	Interim_Release_1j_RC1:1.31
+	Interim_Release_1j_beta2:1.31
+	Interim_Release_1j_beta1:1.31
+	PublicRelease_1i:1.29
+	Interim_Release_1i_RC6:1.29
+	Interim_Release_1i_RC3:1.29
+	Interim_Release_1i_RC2:1.29
+	Interim_Release_1i_RC1:1.29
+	Interim_Release_1i_beta3:1.29
+	Interim_Release_1i_beta2:1.29
+	Interim_Release_1i_beta1:1.26
+	PublicRelease_1h:1.22
+	Interim_Release_1h_rc2:1.22
+	Interim_Release_1h_RC1:1.22
+	Interim_Release_1h_beta2:1.22
+	Interim_Release_1h_beta1_now:1.22
+	Interim_Release_1h_beta1:1.22
+	PublicRelease_1g:1.22
+	Interim_Release_1g_RC6_Final:1.22
+	Interim_Release_1g_RC6:1.21
+	Interim_Release_1g_RC5:1.21
+	Interim_Release_1g_RC4:1.21
+	Interim_Release_1g_RC3:1.19
+	Interim_Release_1g_beta2:1.16
+	Interim_Release_1g_beta1:1.16
+	Interim_Release_1f_RC4:1.15
+	Interim_Release_1f_RC3:1.15
+	Interim_Release_1f_RC2:1.15
+	Interim_Release_1f_RC:1.15
+	Interim_Release_1f_beta2:1.14
+	Interim_Release_1f_beta1:1.14
+	PublicRelease_1e:1.14
+	Interim_Release_1e_RC2:1.14
+	Interim_Release_1e_RC:1.14
+	Interim_Release_1e_beta3:1.14
+	Interim_Release_1e_beta2:1.14
+	Interim_Release_1e_beta2_before_kuchin:1.14
+	Interim_Release_1e_beta1:1.14
+	PublicRelease_1c:1.14
+	featurestest:1.14.0.4
+	Interim_Release_1c_RC:1.14
+	Interim_Release_1c_beta2:1.14
+	Interim_Release_1c_beta1:1.14
+	threaded_downloadqueue:1.14.0.2
+	PublicRelease_1b:1.13
+	Interim_Release_1b_beta2:1.12
+	Interim_Release_1b_beta1:1.12
+	proxydeadlake:1.10.0.2
+	PublicRelease_1a:1.10
+	Interim_Release_1a_beta2:1.10
+	BerkeleyDb:1.9.0.2
+	Interim_Release_1a_beta1:1.9
+	PublicRelease_1:1.8
+	goldfish:1.8
+	eMulePlus_1_RC2:1.8
+	eMulePlus_26b_1RC1:1.8
+	PreRelease_26b_i0e:1.8
+	before_26d_merge:1.7
+	Interim_Release_26b_i0d:1.5
+	Interim_Release_26b_i0c:1.4
+	Interim_Release_26b_i0b:1.4
+	Interim_Release_26b_i0a:1.4
+	systraydlg:1.4.0.4
+	plus26based:1.4.0.2
+	Interim_Release_25b_i0b:1.4
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.57
+date	2008.02.18.03.40.30;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2007.04.02.23.14.14;	author kush_eplus;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2005.11.27.22.11.48;	author eklmn;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2005.06.28.02.13.20;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.12.16.19.28.17;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.12.15.14.53.08;	author katsyonak;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.11.08.00.28.42;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.11.01.17.34.38;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.10.18.02.01.26;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.10.08.04.35.58;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.09.29.19.46.04;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.08.27.05.42.47;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.08.24.12.06.39;	author syrus77;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.08.13.06.34.56;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.07.25.08.30.42;	author dongato;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.07.20.22.33.18;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.06.18.17.08.23;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.05.12.17.47.53;	author dongato;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.05.03.10.09.01;	author netwolf1;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.05.03.09.59.44;	author netwolf1;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.04.27.02.02.10;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.04.20.23.49.35;	author dropf;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.04.18.20.46.31;	author bavariansnail;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.21.10.32.32;	author dongato;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.01.14.17.47.53;	author netwolf1;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.12.19.15.57.58;	author dongato;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.12.17.13.05.38;	author dongato;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.10.13.15.13.43;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.09.30.06.58.45;	author dongato;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.09.22.16.38.27;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.09.19.00.13.38;	author morevit;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.07.20.12.52.38;	author emoulari;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.07.08.05.10.51;	author partyckip;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.07.05.16.24.59;	author dongato;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.06.28.07.18.22;	author partyckip;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.06.14.18.08.22;	author partyckip;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.06.11.18.35.45;	author eklmn;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.01.10.08.44;	author partyckip;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.05.13.10.55.34;	author netwolf1;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.03.13.19.17.30;	author emoulari;	state Exp;
+branches
+	1.14.4.1;
+next	1.13;
+
+1.13
+date	2003.03.10.01.21.50;	author emoulari;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.03.22.09.47;	author moosetea;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.01.02.01.26;	author cax2;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.26.03.26.50;	author cax2;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.23.19.16.13;	author cax2;	state Exp;
+branches
+	1.9.2.1;
+next	1.8;
+
+1.8
+date	2003.02.17.19.24.51;	author emoulari;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.16.22.01.47;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.14.22.46.35;	author cax2;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.12.00.19.48;	author cax2;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.02.13.27.42;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.02.03.39.55;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.01.14.45.39;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.20;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.20;	author cax2;	state Exp;
+branches;
+next	1.1.4.2;
+
+1.1.4.2
+date	2003.02.02.02.36.27;	author cax2;	state Exp;
+branches;
+next	;
+
+1.9.2.1
+date	2003.02.28.22.44.55;	author obaldin;	state Exp;
+branches;
+next	1.9.2.2;
+
+1.9.2.2
+date	2003.03.01.20.59.36;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.14.4.1
+date	2003.03.24.09.39.43;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.57
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings; Formatting.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2007 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgConnection.h"
+#include "FirewallOpener.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgConnection, CPropertyPage)
+CPPgConnection::CPPgConnection()
+	: CPropertyPage(CPPgConnection::IDD)
+	, m_bShowOverhead(FALSE)
+	, m_bLancastEnable(FALSE)
+	, m_bOpenPorts(TRUE)
+	, m_bLimitlessDownload(FALSE)
+	, m_bUdpDisable(FALSE)
+{
+}
+
+CPPgConnection::~CPPgConnection()
+{
+}
+
+void CPPgConnection::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_CONTYPE, m_conprof);
+	DDX_Check(pDX, IDC_SHOWOVERHEAD, m_bShowOverhead);
+	DDX_Check(pDX, IDC_LANCASTENABLE, m_bLancastEnable);
+	DDX_Check(pDX, IDC_LIMITLESS, m_bLimitlessDownload);
+	DDX_Check(pDX, IDC_OPENPORTS, m_bOpenPorts);
+	DDX_Text(pDX, IDC_QUEUESIZE, m_strQueueSize);
+	DDX_Text(pDX, IDC_MAXCON, m_strMaxConn);
+	DDX_Text(pDX, IDC_MAXCON5, m_strMaxCon5);
+	DDX_Text(pDX, IDC_UPLOAD_CAP, m_strUploadCap);
+	DDX_Text(pDX, IDC_MAXUP, m_strUploadMax);
+	DDX_Text(pDX, IDC_DOWNLOAD_CAP, m_strDownloadCap);
+	DDX_Text(pDX, IDC_MAXDOWN, m_strDownloadMax);
+	DDX_Text(pDX, IDC_PORT, m_strPort);
+	DDX_Text(pDX, IDC_UDPPORT, m_strUdpPort);
+	DDX_Check(pDX, IDC_UDPDISABLE, m_bUdpDisable);
+}
+
+BEGIN_MESSAGE_MAP(CPPgConnection, CPropertyPage)
+	ON_CBN_SELCHANGE(IDC_CONTYPE, OnCbnSelchangeConType)
+	ON_BN_CLICKED(IDC_UDPDISABLE, OnEnChangeUDPDisable)
+	ON_EN_CHANGE(IDC_UDPPORT, OnSettingsChange)
+	ON_EN_KILLFOCUS(IDC_DOWNLOAD_CAP, OnSpeedChange)
+	ON_EN_KILLFOCUS(IDC_UPLOAD_CAP, OnSpeedChange)
+	ON_EN_KILLFOCUS(IDC_MAXDOWN, OnSpeedChange)
+	ON_EN_KILLFOCUS(IDC_MAXUP, OnSpeedChange)
+	ON_EN_CHANGE(IDC_DOWNLOAD_CAP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_UPLOAD_CAP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXDOWN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXUP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_PORT, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXCON, OnSettingsChange)
+	ON_BN_CLICKED(IDC_LANCASTENABLE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_OPENPORTS, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXCON5, OnSettingsChange)
+	ON_BN_CLICKED(IDC_LIMITLESS, OnBnClickedLimitless)
+	ON_EN_CHANGE(IDC_QUEUESIZE, OnSettingsChange)
+	ON_EN_KILLFOCUS(IDC_QUEUESIZE, OnQueueChange)
+	ON_BN_CLICKED(IDC_SHOWOVERHEAD, OnSettingsChange)
+END_MESSAGE_MAP()
+
+BOOL CPPgConnection::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	m_conprof.AddString(_T(""));
+	m_conprof.AddString(_T("ADSL 256/128"));
+	m_conprof.AddString(_T("ADSL 512/128"));
+	m_conprof.AddString(_T("ADSL 512/256"));
+	m_conprof.AddString(_T("ADSL 768/128"));
+	m_conprof.AddString(_T("ADSL 1024/256"));
+	m_conprof.AddString(_T("ADSL 1024/512"));
+	m_conprof.AddString(_T("Cable"));
+	m_conprof.AddString(_T("T1"));
+	m_conprof.AddString(_T("Modem 56k"));
+	m_conprof.AddString(_T("ISDN 64k"));
+	m_conprof.AddString(_T("ISDN 128k"));
+
+	int	iProfile = m_pPrefs->GetProfile();
+
+	iProfile = (iProfile < m_conprof.GetCount()) ? iProfile : 0;
+	m_conprof.SetCurSel(iProfile);
+
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_PORT)))->SetLimitText(5);
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_UDPPORT)))->SetLimitText(5);
+
+	LoadSettings();
+	EnableEditBoxes((iProfile == 0) ? TRUE : FALSE);
+	GetDlgItem(IDC_OPENPORTS)->EnableWindow(g_App.m_pPrefs->GetWindowsVersion() == _WINVER_XP_ || g_App.m_pPrefs->GetWindowsVersion() == _WINVER_SE_);
+	Localize();
+
+	return TRUE;
+}
+
+void CPPgConnection::LoadSettings(void)
+{
+	if (::IsWindow(m_hWnd))
+	{
+		if (m_pPrefs->GetMaxUpload() != 0)
+		{
+			m_pPrefs->SetMaxDownload(TieUploadDownload(m_pPrefs->GetMaxUpload(), m_pPrefs->GetMaxDownloadValue()));
+		}
+
+		m_strPort.Format(_T("%u"), m_pPrefs->GetPort());
+
+		unsigned uiVal = m_pPrefs->GetUDPPort();
+
+		m_bUdpDisable = (uiVal == 0);
+		GetDlgItem(IDC_UDPPORT)->EnableWindow(uiVal != 0);
+		uiVal = (uiVal != 0) ? uiVal : (m_pPrefs->GetPort() + (m_pPrefs->GetPort() & 0x1E) + 1);
+		m_strUdpPort.Format(_T("%u"), (uiVal > 0xFFFF) ? (uiVal - 40) : uiVal);
+
+		m_strDownloadCap.Format(_T("%u"), m_pPrefs->GetMaxGraphDownloadRate() / 10);
+		m_strUploadCap.Format(_T("%u"), m_pPrefs->GetMaxGraphUploadRate() / 10);
+
+		uiVal = m_pPrefs->GetMaxDownload();
+		if (uiVal == UNLIMITED)
+			m_strDownloadMax = _T("0");
+		else
+			FractionalRate2String(&m_strDownloadMax, m_pPrefs->GetMaxDownloadValue());
+
+		FractionalRate2String(&m_strUploadMax, m_pPrefs->GetMaxUpload());
+
+		m_strMaxConn.Format(_T("%u"), m_pPrefs->GetMaxConnections());
+		m_bLancastEnable = m_pPrefs->GetLancastEnabled();
+		m_bOpenPorts = m_pPrefs->GetOpenPorts();
+		m_strQueueSize.Format(_T("%u"), m_pPrefs->GetQueueSize());
+		m_strMaxCon5.Format(_T("%u"), m_pPrefs->GetMaxConPerFive());
+		m_bShowOverhead = m_pPrefs->ShowOverhead();
+		m_bLimitlessDownload = m_pPrefs->LimitlessDownload();
+
+		UpdateData(FALSE);
+
+		SetModified(FALSE);
+	}
+}
+
+BOOL CPPgConnection::OnApply()
+{
+	if (m_bModified)
+	{
+		int iTmp;
+
+		UpdateData(TRUE);
+
+		uint32	dwLastMaxGU = m_pPrefs->GetMaxGraphUploadRate();
+		uint32	dwLastMaxGD = m_pPrefs->GetMaxGraphDownloadRate();
+		bool	bLastOpenPorts = m_pPrefs->GetOpenPorts();
+
+		OnSpeedChange();
+
+		m_pPrefs->SetProfile(m_conprof.GetCurSel());
+
+		m_pPrefs->SetMaxGraphDownloadRate((iTmp = _tstoi(m_strDownloadCap)) * 10);
+		m_strDownloadCap.Format(_T("%u"), iTmp);
+		m_pPrefs->SetMaxGraphUploadRate((iTmp = _tstoi(m_strUploadCap)) * 10);
+		m_strUploadCap.Format(_T("%u"), iTmp);
+
+		m_pPrefs->SetMaxUpload(String2FranctionalRate(m_strUploadMax));
+	//	Here zero can be only when limitless is enabled and upload limit >= 10
+		m_pPrefs->SetMaxDownload(((iTmp = String2FranctionalRate(m_strDownloadMax)) != 0) ? iTmp : m_pPrefs->GetMaxGraphDownloadRate());
+
+	//	Valid values range is 1..65535
+		if ((unsigned)((iTmp = _tstoi(m_strPort)) - 1) <= 0xFFFE)
+			m_pPrefs->SetPort(static_cast<uint16>(iTmp));
+		else
+			iTmp = m_pPrefs->GetPort();
+		m_strPort.Format(_T("%u"), iTmp);
+
+		iTmp = ((((iTmp = _tstoi(m_strUdpPort)) != 0) && !m_bUdpDisable) ? iTmp : 0);
+		if (iTmp > 0xFFFF)
+		{
+		//	Set UDP port based on the TCP port as value isn't in valid range
+			iTmp = ((iTmp = m_pPrefs->GetPort() + (m_pPrefs->GetPort() & 0x1E) + 1) > 0xFFFF) ? (iTmp - 40) : iTmp;
+		}
+		m_pPrefs->SetUDPPort(static_cast<uint16>(iTmp));
+		if (iTmp != 0)	//avoid display 0 what means disabled
+			m_strUdpPort.Format(_T("%u"), iTmp);
+		m_bUdpDisable = (iTmp == 0);
+		GetDlgItem(IDC_UDPPORT)->EnableWindow(iTmp != 0);
+
+		m_pPrefs->SetShowOverhead(B2b(m_bShowOverhead));
+	//	Now force an update of statusbar
+		g_App.m_pMDlg->ResizeStatusBar();
+		g_App.m_pMDlg->ShowTransferRate();
+
+		uint32	mu = m_pPrefs->GetMaxGraphUploadRate();
+
+		if (dwLastMaxGU != mu)
+			g_App.m_pMDlg->m_dlgStatistics.SetARange(false, mu / 10);
+
+		uint32 md = m_pPrefs->GetMaxGraphDownloadRate();
+
+		if (dwLastMaxGD != md)
+			g_App.m_pMDlg->m_dlgStatistics.SetARange(true, md / 10);
+
+		m_pPrefs->SetLancastEnabled(B2b(m_bLancastEnable));
+
+		m_pPrefs->SetOpenPorts(B2b(m_bOpenPorts));
+		if (bLastOpenPorts != m_pPrefs->GetOpenPorts())
+		{
+			g_App.m_pFirewallOpener->RemoveRule(EMULE_DEFAULTRULENAME_UDP);
+			g_App.m_pFirewallOpener->RemoveRule(EMULE_DEFAULTRULENAME_TCP);
+
+			bool	bAlreadyExisted = (bool)(g_App.m_pFirewallOpener->DoesRuleExist(m_pPrefs->GetPort(), NAT_PROTOCOL_TCP) || g_App.m_pFirewallOpener->DoesRuleExist(m_pPrefs->GetUDPPort(), NAT_PROTOCOL_UDP));
+			bool	bResult = g_App.m_pFirewallOpener->OpenPort(m_pPrefs->GetPort(), NAT_PROTOCOL_TCP, EMULE_DEFAULTRULENAME_TCP, false);
+
+			if (m_pPrefs->GetUDPPort() != 0)
+				bResult = bResult && g_App.m_pFirewallOpener->OpenPort(m_pPrefs->GetUDPPort(), NAT_PROTOCOL_UDP, EMULE_DEFAULTRULENAME_UDP, false);
+			if (bResult)
+			{
+				if (!bAlreadyExisted)
+					AfxMessageBox(GetResString(IDS_FO_PREF_SUCCCEEDED), MB_ICONINFORMATION | MB_OK);
+				else
+					// TODO: actually we could offer the user to remove existing rules
+					AfxMessageBox(GetResString(IDS_FO_PREF_EXISTED), MB_ICONINFORMATION | MB_OK);
+			}
+			else
+				AfxMessageBox(GetResString(IDS_FO_PREF_FAILED), MB_ICONSTOP | MB_OK);
+		}
+
+	//	Set range of the toolbar-speed-meter
+		uint32	dwMaxRange = m_pPrefs->GetMaxGraphDownloadRate();
+
+		if (m_pPrefs->GetMaxGraphUploadRate() > dwMaxRange)
+			dwMaxRange = m_pPrefs->GetMaxGraphUploadRate();
+		UINT nLastMaxRange, nLastMinRange;
+		g_App.m_pMDlg->m_ctlToolBar.GetSpeedMeterRange(nLastMaxRange, nLastMinRange);
+		dwMaxRange /= 10;
+		if (nLastMaxRange != dwMaxRange)
+			g_App.m_pMDlg->m_ctlToolBar.SetSpeedMeterRange(dwMaxRange, nLastMinRange);
+
+		unsigned uiOSMaxCon = ::GetMaxConnections();
+
+		if ((iTmp = _tstoi(m_strMaxConn)) == 0)
+			iTmp = CPreferences::GetRecommendedMaxConnections();
+		if (static_cast<unsigned>(iTmp) > uiOSMaxCon)
+		{
+			CString strMessage;
+			strMessage.Format(GetResString(IDS_PW_WARNING), GetResString(IDS_PW_MAXC), uiOSMaxCon);
+			int iResult = MessageBox(strMessage, GetResString(IDS_PW_MAXC), MB_ICONWARNING | MB_YESNO);
+			if (iResult != IDYES)
+				iTmp = CPreferences::GetRecommendedMaxConnections();
+		}
+		m_strMaxConn.Format(_T("%u"), iTmp);
+		m_pPrefs->SetMaxConnections(static_cast<uint16>(iTmp));
+
+		int qs = _tstoi(m_strQueueSize);
+
+		if (qs > MAX_QUEUE)
+			qs = MAX_QUEUE;
+		if (qs < MIN_QUEUE)
+			qs = MIN_QUEUE;
+
+		m_strQueueSize.Format(_T("%u"), qs);
+		m_pPrefs->SetQueueSize(qs);
+
+		int mc5 = _tstoi(m_strMaxCon5);
+		int nMax = (LOBYTE(g_App.m_pPrefs->GetWindowsVersion()) == 0x04) ? 100 : 200;
+
+		if (mc5 > nMax)
+			mc5 = nMax;
+		else if (mc5 < 5)
+			mc5 = 5;
+
+		m_strMaxCon5.Format(_T("%u"), mc5);
+		m_pPrefs->SetMaxDownloadConperFive(mc5);
+
+		m_pPrefs->SetLimitlessDownload(B2b(m_bLimitlessDownload));
+
+		SetModified(FALSE);
+		UpdateData(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgConnection::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_CONPROF, IDS_CONPROF },
+		{ IDC_TR_FRM, IDS_TR_FRM },
+		{ IDC_CAPACITIES, IDS_PW_CON_CAP },
+		{ IDC_LIMITS, IDS_PW_CON_LIMIT },
+		{ IDC_DCAP_LBL, IDS_DOWNLOAD_NOUN },
+		{ IDC_UCAP_LBL, IDS_UPLOAD_NOUN },
+		{ IDC_KBS1, IDS_KBYTESEC },
+		{ IDC_KBS2, IDS_KBYTESEC },
+		{ IDC_QUEUE_FRM, IDS_QUEUE_FRM },
+		{ IDC_QUEUESIZE_TEXT, IDS_QUEUESIZE_TEXT },
+		{ IDC_MAXCONN_FRM, IDS_PW_MAXC },
+		{ IDC_CLIENTPORT_FRM, IDS_PW_CLIENTPORT },
+		{ IDC_MAXCON5_TEXT, IDS_MAXCON5_TEXT },
+		{ IDC_UDPDISABLE, IDS_DISABLED },
+		{ IDC_LIMITLESS, IDS_LIMITLESS },
+		{ IDC_SHOWOVERHEAD, IDS_SHOWOVERHEAD },
+		{ IDC_LANCASTENABLE, IDS_LANCASTENABLE },
+		{ IDC_OPENPORTS, IDS_OPENPORTSENABLE }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+		int		iCS;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+		
+		iCS = m_conprof.GetCurSel();
+		m_conprof.DeleteString(0);
+		GetResString(&strRes, IDS_CUSTOMPROFIL);
+		m_conprof.InsertString(0, strRes);
+		if (iCS != CB_ERR)
+			m_conprof.SetCurSel(iCS);
+	}
+}
+
+void CPPgConnection::OnCbnSelchangeConType(void)
+{
+	static const TCHAR *pcCaps[][5] = {
+		{ _T("32"), _T("16"), _T("32"), _T("14"), _T("256") },
+		{ _T("64"), _T("16"), _T("64"), _T("14"), _T("512") },
+		{ _T("64"), _T("32"), _T("64"), _T("30"), _T("512") },
+		{ _T("96"), _T("16"), _T("96"), _T("14"), _T("512") },
+		{ _T("128"), _T("32"), _T("128"), _T("30"), _T("768") },
+		{ _T("128"), _T("64"), _T("128"), _T("60"), _T("1024") },
+		{ _T("128"), _T("48"), _T("128"), _T("44"), _T("1024") },
+		{ _T("180"), _T("180"), _T("180"), _T("180"), _T("2048") },
+		{ _T("5"), _T("2"), _T("5"), _T("2"), _T("80") },
+		{ _T("8"), _T("8"), _T("8"), _T("6"), _T("80") },
+		{ _T("16"), _T("16"), _T("16"), _T("14"), _T("100") }
+	};
+	int cs = m_conprof.GetCurSel();
+
+	if (--cs < 0)
+		EnableEditBoxes(TRUE);
+	else
+	{
+		EnableEditBoxes(FALSE);
+		if (static_cast<unsigned>(cs) < ARRSIZE(pcCaps))
+		{
+			m_strDownloadCap = pcCaps[cs][0];
+			m_strUploadCap = pcCaps[cs][1];
+			m_strDownloadMax = pcCaps[cs][2];
+			m_strUploadMax = pcCaps[cs][3];
+			m_strMaxConn = pcCaps[cs][4];
+		}
+	}
+	SetModified();
+	UpdateData(FALSE);
+}
+
+void CPPgConnection::EnableEditBoxes(BOOL bEnable)
+{
+	UpdateData(TRUE);
+
+	GetDlgItem(IDC_DOWNLOAD_CAP)->EnableWindow(bEnable);
+	GetDlgItem(IDC_UPLOAD_CAP)->EnableWindow(bEnable);
+	GetDlgItem(IDC_MAXDOWN)->EnableWindow(bEnable && !m_bLimitlessDownload);
+	GetDlgItem(IDC_MAXUP)->EnableWindow(bEnable);
+	GetDlgItem(IDC_MAXCON)->EnableWindow(bEnable);
+	OnSpeedChange();	// update download speed in case of limitless
+}
+
+void CPPgConnection::OnQueueChange()
+{
+	UpdateData(TRUE);
+
+	uint32 qs = _tstoi(m_strQueueSize);
+
+	if (qs > MAX_QUEUE)
+		qs = MAX_QUEUE;
+	if (qs < MIN_QUEUE)
+		qs = MIN_QUEUE;
+
+	UpdateData(FALSE);
+}
+
+void CPPgConnection::OnSpeedChange()
+{
+	UpdateData(TRUE);
+	
+	uint32 uc;
+	if (!m_strUploadCap.IsEmpty())
+		uc = ValidateUpCapability(10 * _tstoi(m_strUploadCap));
+	else
+		uc = m_pPrefs->GetMaxGraphUploadRate();
+	m_strUploadCap.Format(_T("%u"), uc / 10);
+
+	uint32 mu;
+	if (!m_strUploadMax.IsEmpty())
+	{
+		if ((mu = String2FranctionalRate(m_strUploadMax)) < 10)
+			mu = (mu == 0) ? ~0 : 10;
+	}
+	else
+		mu = m_pPrefs->GetMaxUpload();
+	mu = (mu > uc) ? uc : mu;
+
+	uint32 dc;
+	if (!m_strDownloadCap.IsEmpty())
+		dc = ValidateDownCapability(10 * _tstoi(m_strDownloadCap));
+	else
+		dc = m_pPrefs->GetMaxGraphDownloadRate();
+	m_strDownloadCap.Format(_T("%u"), dc / 10);
+
+	uint32 md;
+
+	if (m_bLimitlessDownload)
+		md = (mu >= 100) ? UNLIMITED : dc;
+	else
+	{
+		if (!m_strDownloadMax.IsEmpty())
+		{
+			if ((md = String2FranctionalRate(m_strDownloadMax)) < 10)
+				md = (md == 0) ? ~0 : 10;
+		}
+		else
+			md = m_pPrefs->GetMaxDownloadValue();
+		md = (md > dc) ? dc : md;
+	}
+
+	FractionalRate2String(&m_strUploadMax, mu);
+	md = TieUploadDownload(mu, md);
+	if (md == UNLIMITED)
+		m_strDownloadMax = _T("0");
+	else
+		FractionalRate2String(&m_strDownloadMax, md);
+
+	UpdateData(FALSE);
+}
+
+void CPPgConnection::OnEnChangeUDPDisable()
+{
+	UpdateData(TRUE);
+	GetDlgItem(IDC_UDPPORT)->EnableWindow(!m_bUdpDisable);
+
+	if (!m_bUdpDisable && (m_pPrefs->GetUDPPort() == 0))
+	{
+		unsigned p = _tstoi(m_strPort);
+
+	//	Valid values range is 1..65535
+		p = (((p - 1) <= 0xFFFE) ? p : m_pPrefs->GetPort());
+		p += (p & 0x1E) + 1;
+		m_strUdpPort.Format(_T("%u"), (p > 0xFFFF) ? (p - 40) : p);
+	}
+
+	SetModified();
+
+	UpdateData(FALSE);
+}
+
+void CPPgConnection::OnBnClickedLimitless()
+{
+	UpdateData(TRUE);
+
+	GetDlgItem(IDC_MAXDOWN)->EnableWindow((m_conprof.GetCurSel() == 0) && !m_bLimitlessDownload);
+	OnSpeedChange();
+
+	SetModified();
+}
+@
+
+
+1.56
+log
+@Removed unneeded CString initializations.
+@
+text
+@d1 2
+a2 1
+//	PPgConnection.cpp : implementation file
+d4 13
+a28 2
+//	CPPgConnection dialog
+
+d31 6
+a36 6
+		: CPropertyPage(CPPgConnection::IDD)
+		, showOverhead(FALSE)
+		, lancastEnable(FALSE)
+		, openportsEnable(TRUE)
+		, limitlessDownload(FALSE)
+		, udpDisable(FALSE)
+d48 14
+a61 39
+	DDX_Check(pDX, IDC_SHOWOVERHEAD, showOverhead);
+	DDX_Check(pDX, IDC_LANCASTENABLE, lancastEnable);
+	DDX_Check(pDX, IDC_LIMITLESS, limitlessDownload);
+	DDX_Check(pDX, IDC_OPENPORTS, openportsEnable);
+	DDX_Text(pDX, IDC_QUEUESIZE, queueSize);
+	DDX_Text(pDX, IDC_MAXCON, maxCon);
+	DDX_Text(pDX, IDC_MAXCON5, maxCon5);
+	DDX_Text(pDX, IDC_UPLOAD_CAP, uploadCap);
+	DDX_Text(pDX, IDC_MAXUP, maxUp);
+	DDX_Text(pDX, IDC_DOWNLOAD_CAP, downloadCap);
+	DDX_Text(pDX, IDC_MAXDOWN, maxDown);
+	DDX_Text(pDX, IDC_PORT, port);
+	DDX_Text(pDX, IDC_UDPPORT, udpPort);
+	DDX_Control(pDX, IDC_PORT, tcpPortEdit);
+	DDX_Control(pDX, IDC_UDPPORT, udpPortEdit);
+	DDX_Check(pDX, IDC_UDPDISABLE, udpDisable);
+	DDX_Control(pDX, IDC_DOWNLOAD_CAP, downloadCapEdit);
+	DDX_Control(pDX, IDC_UPLOAD_CAP, uploadCapEdit);
+	DDX_Control(pDX, IDC_MAXDOWN, maxDownEdit);
+	DDX_Control(pDX, IDC_MAXUP, maxUpEdit);
+	DDX_Control(pDX, IDC_MAXCON, maxConEdit);
+	DDX_Text(pDX, IDC_CONPROF, conProfDesc);
+	DDX_Text(pDX, IDC_TR_FRM, trFrmDesc);
+	DDX_Text(pDX, IDC_CAPACITIES, capacitiesDesc);
+	DDX_Control(pDX, IDC_LIMITLESS, limitlessDownloadCheck);
+	DDX_Text(pDX, IDC_KBS1, kbS1Desc);
+	DDX_Text(pDX, IDC_KBS2, kbS2Desc);
+	DDX_Text(pDX, IDC_LIMITS, limitsDesc);
+	DDX_Control(pDX, IDC_LANCASTENABLE, lancastEnableCheck);
+	DDX_Control(pDX, IDC_SHOWOVERHEAD, showOverheadCheck);
+	DDX_Control(pDX, IDC_UDPDISABLE, udpDisableCheck);
+	DDX_Control(pDX, IDC_OPENPORTS, openportsEnableCheck);
+	DDX_Text(pDX, IDC_MAXCON5_TEXT, maxCon5Desc);
+	DDX_Text(pDX, IDC_DCAP_LBL, dCapDesc);
+	DDX_Text(pDX, IDC_UCAP_LBL, uCapDesc);
+	DDX_Text(pDX, IDC_QUEUE_FRM, queueFrmDesc);
+	DDX_Text(pDX, IDC_QUEUESIZE_TEXT, queueSizeDesc);
+	DDX_Text(pDX, IDC_CLIENTPORT_FRM, clientPortFrmDesc);
+	DDX_Text(pDX, IDC_MAXCONN_FRM, maxConnFrmDesc);
+d104 1
+a104 1
+	int	iProfile = m_pPrefs->Profile();
+d109 2
+a110 2
+	tcpPortEdit.SetLimitText(5);
+	udpPortEdit.SetLimitText(5);
+d114 1
+a114 1
+	openportsEnableCheck.EnableWindow(g_App.m_pPrefs->GetWindowsVersion() == _WINVER_XP_ || g_App.m_pPrefs->GetWindowsVersion() == _WINVER_SE_);
+d129 1
+a129 1
+		port.Format(_T("%u"), m_pPrefs->GetPort());
+d133 2
+a134 2
+		udpDisable = (uiVal == 0);
+		udpPortEdit.EnableWindow(uiVal != 0);
+d136 1
+a136 1
+		udpPort.Format(_T("%u"), (uiVal > 0xFFFF) ? (uiVal - 40) : uiVal);
+d138 2
+a139 2
+		downloadCap.Format(_T("%u"), m_pPrefs->GetMaxGraphDownloadRate() / 10);
+		uploadCap.Format(_T("%u"), m_pPrefs->GetMaxGraphUploadRate() / 10);
+d143 1
+a143 1
+			maxDown = _T("0");
+d145 1
+a145 1
+			FractionalRate2String(&maxDown, m_pPrefs->GetMaxDownloadValue());
+d147 1
+a147 1
+		FractionalRate2String(&maxUp, m_pPrefs->GetMaxUpload());
+d149 7
+a155 7
+		maxCon.Format(_T("%u"), m_pPrefs->GetMaxConnections());
+		lancastEnable = m_pPrefs->GetLancastEnabled();
+		openportsEnable = m_pPrefs->GetOpenPorts();
+		queueSize.Format(_T("%u"), m_pPrefs->GetQueueSize());
+		maxCon5.Format(_T("%u"), m_pPrefs->GetMaxConPerFive());
+		showOverhead = m_pPrefs->ShowOverhead();
+		limitlessDownload = m_pPrefs->LimitlessDownload();
+d179 4
+a182 4
+		m_pPrefs->SetMaxGraphDownloadRate((iTmp = _tstoi(downloadCap)) * 10);
+		downloadCap.Format(_T("%u"), iTmp);
+		m_pPrefs->SetMaxGraphUploadRate((iTmp = _tstoi(uploadCap)) * 10);
+		uploadCap.Format(_T("%u"), iTmp);
+d184 1
+a184 1
+		m_pPrefs->SetMaxUpload(String2FranctionalRate(maxUp));
+d186 1
+a186 1
+		m_pPrefs->SetMaxDownload(((iTmp = String2FranctionalRate(maxDown)) != 0) ? iTmp : m_pPrefs->GetMaxGraphDownloadRate());
+d189 2
+a190 2
+		if ((unsigned)((iTmp = _tstoi(port)) - 1) <= 0xFFFE)
+			m_pPrefs->SetPort(iTmp);
+d193 1
+a193 1
+		port.Format(_T("%u"), iTmp);
+d195 1
+a195 1
+		iTmp = ((((iTmp = _tstoi(udpPort)) != 0) && !udpDisable) ? iTmp : 0);
+d201 1
+a201 1
+		m_pPrefs->SetUDPPort(iTmp);
+d203 3
+a205 3
+			udpPort.Format(_T("%u"), iTmp);
+		udpDisable = (iTmp == 0);
+		udpPortEdit.EnableWindow(iTmp != 0);
+d207 1
+a207 1
+		m_pPrefs->SetShowOverhead(showOverhead);
+d222 1
+a222 1
+		m_pPrefs->SetLancastEnabled(lancastEnable);
+d224 1
+a224 1
+		m_pPrefs->SetOpenPorts(openportsEnable);
+d260 1
+a260 2
+		if ((iTmp = _tstoi(maxCon)) == 0)
+		{
+a261 1
+		}
+a267 1
+			{
+a268 1
+			}
+d270 2
+a271 2
+		maxCon.Format(_T("%u"), iTmp);
+		m_pPrefs->SetMaxConnections(iTmp);
+d273 1
+a273 1
+		int qs = _tstoi(queueSize);
+d280 1
+a280 1
+		queueSize.Format(_T("%u"), qs);
+d283 1
+a283 1
+		int mc5 = _tstoi(maxCon5);
+d291 1
+a291 1
+		maxCon5.Format(_T("%u"), mc5);
+d294 1
+a294 1
+		m_pPrefs->SetLimitlessDownload(limitlessDownload);
+d305 22
+d329 2
+a330 22
+		SetWindowText(GetResString(IDS_PW_CONNECTION));
+		GetResString(&conProfDesc, IDS_CONPROF);
+		GetResString(&trFrmDesc, IDS_TR_FRM);
+		GetResString(&capacitiesDesc, IDS_PW_CON_CAP);
+		GetResString(&limitsDesc, IDS_PW_CON_LIMIT);
+		GetResString(&dCapDesc, IDS_DOWNLOAD_NOUN);
+		GetResString(&uCapDesc, IDS_UPLOAD_NOUN);
+		GetResString(&kbS1Desc, IDS_KBYTESEC);
+		GetResString(&kbS2Desc, IDS_KBYTESEC);
+		GetResString(&queueFrmDesc, IDS_QUEUE_FRM);
+		GetResString(&queueSizeDesc, IDS_QUEUESIZE_TEXT);
+		GetResString(&maxConnFrmDesc, IDS_PW_MAXC);
+		GetResString(&clientPortFrmDesc, IDS_PW_CLIENTPORT);
+
+		GetResString(&maxCon5Desc, IDS_MAXCON5_TEXT);
+		udpDisableCheck.SetWindowText(GetResString(IDS_DISABLED));
+		limitlessDownloadCheck.SetWindowText(GetResString(IDS_LIMITLESS));
+		showOverheadCheck.SetWindowText(GetResString(IDS_SHOWOVERHEAD));
+		lancastEnableCheck.SetWindowText(GetResString(IDS_LANCASTENABLE));
+		openportsEnableCheck.SetWindowText(GetResString(IDS_OPENPORTSENABLE));
+
+		int iCS = m_conprof.GetCurSel();
+d332 7
+d340 2
+a341 1
+		m_conprof.InsertString(0, GetResString(IDS_CUSTOMPROFIL));
+a343 2
+
+		UpdateData(FALSE);
+d349 13
+d364 3
+a366 1
+	switch (cs)
+d368 9
+a376 91
+		case 0:
+			EnableEditBoxes(TRUE);
+			break;
+		case 1:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("32");
+			uploadCap = _T("16");
+			maxDown = _T("32");
+			maxUp = _T("14");
+			maxCon = _T("256");
+			break;
+		case 2:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("64");
+			uploadCap = _T("16");
+			maxDown = _T("64");
+			maxUp = _T("14");
+			maxCon = _T("512");
+			break;
+		case 3:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("64");
+			uploadCap = _T("32");
+			maxDown = _T("64");
+			maxUp = _T("30");
+			maxCon = _T("512");
+			break;
+		case 4:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("96");
+			uploadCap = _T("16");
+			maxDown = _T("96");
+			maxUp = _T("14");
+			maxCon = _T("512");
+			break;
+		case 5:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("128");
+			uploadCap = _T("32");
+			maxDown = _T("128");
+			maxUp = _T("30");
+			maxCon = _T("768");
+			break;
+		case 6:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("128");
+			uploadCap = _T("64");
+			maxDown = _T("128");
+			maxUp = _T("60");
+			maxCon = _T("1024");
+			break;
+		case 7:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("128");
+			uploadCap = _T("48");
+			maxDown = _T("128");
+			maxUp = _T("44");
+			maxCon = _T("1024");
+			break;
+		case 8:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("180");
+			uploadCap = _T("180");
+			maxDown = _T("180");
+			maxUp = _T("180");
+			maxCon = _T("2048");
+			break;
+		case 9:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("5");
+			uploadCap = _T("2");
+			maxDown = _T("5");
+			maxUp = _T("2");
+			maxCon = _T("80");
+			break;
+		case 10:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("8");
+			uploadCap = _T("8");
+			maxDown = _T("8");
+			maxUp = _T("6");
+			maxCon = _T("80");
+			break;
+		case 11:
+			EnableEditBoxes(FALSE);
+			downloadCap = _T("16");
+			uploadCap = _T("16");
+			maxDown = _T("16");
+			maxUp = _T("14");
+			maxCon = _T("100");
+			break;
+d386 6
+a391 6
+	downloadCapEdit.EnableWindow(bEnable);
+	uploadCapEdit.EnableWindow(bEnable);
+	maxDownEdit.EnableWindow(bEnable && !limitlessDownload);
+	maxUpEdit.EnableWindow(bEnable);
+	maxConEdit.EnableWindow(bEnable);
+	OnSpeedChange();	//to update download speed in case of limitless
+d398 1
+a398 1
+	uint32 qs = _tstoi(queueSize);
+d413 2
+a414 2
+	if (!uploadCap.IsEmpty())
+		uc = ValidateUpCapability(10 * _tstoi(uploadCap));
+d417 1
+a417 1
+	uploadCap.Format(_T("%u"), uc / 10);
+d420 1
+a420 1
+	if (!maxUp.IsEmpty())
+d422 1
+a422 1
+		if ((mu = String2FranctionalRate(maxUp)) < 10)
+d430 2
+a431 2
+	if (!downloadCap.IsEmpty())
+		dc = ValidateDownCapability(10 * _tstoi(downloadCap));
+d434 1
+a434 1
+	downloadCap.Format(_T("%u"), dc / 10);
+d438 1
+a438 1
+	if (limitlessDownload)
+d442 1
+a442 1
+		if (!maxDown.IsEmpty())
+d444 1
+a444 1
+			if ((md = String2FranctionalRate(maxDown)) < 10)
+d452 1
+a452 1
+	FractionalRate2String(&maxUp, mu);
+d455 1
+a455 1
+		maxDown = _T("0");
+d457 1
+a457 1
+		FractionalRate2String(&maxDown, md);
+d465 1
+a465 1
+	udpPortEdit.EnableWindow(!udpDisable);
+d467 1
+a467 1
+	if (!udpDisable && (m_pPrefs->GetUDPPort() == 0))
+d469 1
+a469 1
+		unsigned p = _tstoi(port);
+d474 1
+a474 1
+		udpPort.Format(_T("%u"), (p > 0xFFFF) ? (p - 40) : p);
+d486 1
+a486 1
+	maxDownEdit.EnableWindow((m_conprof.GetCurSel() == 0) && !limitlessDownload);
+@
+
+
+1.55
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a23 9
+		, queueSize(_T(""))
+		, maxCon(_T(""))
+		, maxCon5(_T(""))
+		, uploadCap(_T(""))
+		, maxUp(_T(""))
+		, downloadCap(_T(""))
+		, maxDown(_T(""))
+		, port(_T(""))
+		, udpPort(_T(""))
+d25 2
+a26 14
+		, conProfDesc(_T(""))
+		, trFrmDesc(_T(""))
+		, capacitiesDesc(_T(""))
+		, kbS1Desc(_T(""))
+		, kbS2Desc(_T(""))
+		, limitsDesc(_T(""))
+		, maxCon5Desc(_T(""))
+		, dCapDesc(_T(""))
+		, uCapDesc(_T(""))
+		, queueFrmDesc(_T(""))
+		, queueSizeDesc(_T(""))
+		, clientPortFrmDesc(_T(""))
+		, maxConnFrmDesc(_T(""))
+{}
+d29 2
+a30 1
+{}
+@
+
+
+1.54
+log
+@renamed 3 variables
+@
+text
+@d147 1
+a147 1
+	openportsEnableCheck.EnableWindow(g_App.g_pPrefs->GetWindowsVersion() == _WINVER_XP_ || g_App.g_pPrefs->GetWindowsVersion() == _WINVER_SE_);
+d321 1
+a321 1
+		int nMax = (LOBYTE(g_App.g_pPrefs->GetWindowsVersion()) == 0x04) ? 100 : 200;
+@
+
+
+1.53
+log
+@Fixed speed-meter scaling after rate capacity change.
+@
+text
+@d147 1
+a147 1
+	openportsEnableCheck.EnableWindow(g_eMuleApp.m_pGlobPrefs->GetWindowsVersion() == _WINVER_XP_ || g_eMuleApp.m_pGlobPrefs->GetWindowsVersion() == _WINVER_SE_);
+d242 2
+a243 2
+		g_eMuleApp.m_pdlgEmule->ResizeStatusBar();
+		g_eMuleApp.m_pdlgEmule->ShowTransferRate();
+d248 1
+a248 1
+			g_eMuleApp.m_pdlgEmule->m_dlgStatistics.SetARange(false, mu / 10);
+d253 1
+a253 1
+			g_eMuleApp.m_pdlgEmule->m_dlgStatistics.SetARange(true, md / 10);
+d260 2
+a261 2
+			g_eMuleApp.m_pFirewallOpener->RemoveRule(EMULE_DEFAULTRULENAME_UDP);
+			g_eMuleApp.m_pFirewallOpener->RemoveRule(EMULE_DEFAULTRULENAME_TCP);
+d263 2
+a264 2
+			bool	bAlreadyExisted = (bool)(g_eMuleApp.m_pFirewallOpener->DoesRuleExist(m_pPrefs->GetPort(), NAT_PROTOCOL_TCP) || g_eMuleApp.m_pFirewallOpener->DoesRuleExist(m_pPrefs->GetUDPPort(), NAT_PROTOCOL_UDP));
+			bool	bResult = g_eMuleApp.m_pFirewallOpener->OpenPort(m_pPrefs->GetPort(), NAT_PROTOCOL_TCP, EMULE_DEFAULTRULENAME_TCP, false);
+d267 1
+a267 1
+				bResult = bResult && g_eMuleApp.m_pFirewallOpener->OpenPort(m_pPrefs->GetUDPPort(), NAT_PROTOCOL_UDP, EMULE_DEFAULTRULENAME_UDP, false);
+d286 1
+a286 1
+		g_eMuleApp.m_pdlgEmule->m_ctlToolBar.GetSpeedMeterRange(nLastMaxRange, nLastMinRange);
+d289 1
+a289 1
+			g_eMuleApp.m_pdlgEmule->m_ctlToolBar.SetSpeedMeterRange(dwMaxRange, nLastMinRange);
+d321 1
+a321 1
+		int nMax = (LOBYTE(g_eMuleApp.m_pGlobPrefs->GetWindowsVersion()) == 0x04) ? 100 : 200;
+@
+
+
+1.52
+log
+@Fixed open port control disabling for non-XP systems.
+@
+text
+@d287 1
+d289 1
+a289 1
+			g_eMuleApp.m_pdlgEmule->m_ctlToolBar.SetSpeedMeterRange(dwMaxRange / 10, nLastMinRange);
+@
+
+
+1.51
+log
+@Open client ports on Windows XP internal firewall (adopted from koizo)
+@
+text
+@d147 1
+a147 1
+	downloadCapEdit.EnableWindow(g_eMuleApp.m_pGlobPrefs->GetWindowsVersion() == _WINVER_XP_ || g_eMuleApp.m_pGlobPrefs->GetWindowsVersion() == _WINVER_SE_);
+@
+
+
+1.50
+log
+@Renamed resource strings tags for better meaning.
+@
+text
+@d7 1
+d22 1
+d59 1
+d87 1
+d112 1
+d147 1
+d184 1
+d206 1
+d257 23
+d362 1
+@
+
+
+1.49
+log
+@Random TCP and UDP ports for new users.
+@
+text
+@d317 2
+a318 2
+		GetResString(&dCapDesc, IDS_PW_CON_DOWNLBL);
+		GetResString(&uCapDesc, IDS_PW_CON_UPLBL);
+@
+
+
+1.48
+log
+@New interpretation of limitless download and its configuration.
+@
+text
+@d162 2
+a163 2
+		uiVal = (uiVal != 0) ? uiVal : (m_pPrefs->GetPort() + 10);
+		udpPort.Format(_T("%u"), (uiVal > 0xFFFF) ? (uiVal - 20) : uiVal);
+d214 4
+a217 1
+		m_pPrefs->SetPort(iTmp = (((unsigned)((iTmp = _tstoi(port)) - 1) <= 0xFFFE) ? iTmp : 4662));
+d224 1
+a224 1
+			iTmp = ((iTmp = m_pPrefs->GetPort() + 10) > 0xFFFF) ? (iTmp - 20) : iTmp;
+d535 3
+a537 2
+		p = (((p - 1) <= 0xFFFE) ? p : m_pPrefs->GetPort()) + 10;
+		udpPort.Format(_T("%u"), (p > 0xFFFF) ? (p - 20) : p);
+@
+
+
+1.47
+log
+@Fractional upload/download limits (min 1 KB/s, granularity 0.1 KB/s).
+@
+text
+@d109 1
+a109 1
+	ON_BN_CLICKED(IDC_LIMITLESS, OnSettingsChange)
+d119 1
+a119 1
+	m_conprof.AddString(GetResString(IDS_CUSTOMPROFIL));
+a135 1
+	EnableEditBoxes((iProfile == 0) ? TRUE : FALSE);
+d141 1
+d153 1
+a153 5
+			if ( m_pPrefs->GetMaxUpload() < 40 && (m_pPrefs->GetMaxUpload() * 3 < m_pPrefs->GetMaxDownloadValue()))
+				m_pPrefs->SetMaxDownload(m_pPrefs->GetMaxUpload() * 3);
+
+			if ( m_pPrefs->GetMaxUpload() < 100 && (m_pPrefs->GetMaxUpload() * 4 < m_pPrefs->GetMaxDownloadValue()))
+				m_pPrefs->SetMaxDownload(m_pPrefs->GetMaxUpload() * 4);
+d158 1
+a158 1
+		unsigned uiUDPort = m_pPrefs->GetUDPPort();
+d160 4
+a163 4
+		udpDisable = (uiUDPort == 0);
+		udpPortEdit.EnableWindow(uiUDPort != 0);
+		uiUDPort = (uiUDPort != 0) ? uiUDPort : (m_pPrefs->GetPort() + 10);
+		udpPort.Format(_T("%u"), (uiUDPort > 0xFFFF) ? (uiUDPort - 20) : uiUDPort);
+d168 2
+a169 1
+		if (m_pPrefs->GetMaxDownloadValue() == UNLIMITED)
+d174 1
+a174 4
+		if (m_pPrefs->GetMaxUpload() == UNLIMITED)
+			maxUp = _T("0");
+		else
+			FractionalRate2String(&maxUp, m_pPrefs->GetMaxUpload());
+a181 1
+		limitlessDownloadCheck.EnableWindow((m_pPrefs->GetMaxUpload() == UNLIMITED || m_pPrefs->GetMaxUpload() >= 100)? true : false);
+a201 1
+		OnCbnSelchangeConType();
+d204 1
+a204 1
+		m_pPrefs->SetMaxGraphDownloadRate((iTmp = (((iTmp = _tstoi(downloadCap)) != 0) ? iTmp : 100)) * 10);
+d206 1
+a206 1
+		m_pPrefs->SetMaxGraphUploadRate((iTmp = (((iTmp = _tstoi(uploadCap)) != 0) ? iTmp : 25)) * 10);
+d209 3
+a211 2
+		m_pPrefs->SetMaxUpload(((iTmp = String2FranctionalRate(maxUp)) != 0) ? iTmp : UNLIMITED);
+		m_pPrefs->SetMaxDownload(((iTmp = String2FranctionalRate(maxDown)) != 0) ? iTmp : UNLIMITED);
+a297 2
+		limitlessDownloadCheck.EnableWindow((m_pPrefs->GetMaxUpload() == UNLIMITED || m_pPrefs->GetMaxUpload() >= 100)? true : false);
+
+d444 2
+d448 1
+a448 1
+	maxDownEdit.EnableWindow(bEnable);
+d451 1
+a471 28
+	uint32 dc;
+	if (!downloadCap.IsEmpty())
+	{
+		if ((dc = _tstoi(downloadCap) * 10) == 0)
+			dc = 1000;
+	}
+	else
+	{
+		dc = m_pPrefs->GetMaxGraphDownloadRate();
+	}
+	downloadCap.Format(_T("%u"), dc / 10);
+
+	uint32 md;
+	if (!maxDown.IsEmpty())
+	{
+		if ((md = String2FranctionalRate(maxDown)) < 10)
+		{
+			if (md == 0)
+				md = UNLIMITED;
+			else
+				md = 10;
+		}
+	}
+	else
+		md = m_pPrefs->GetMaxDownloadValue();
+
+	md = (md > dc) ? dc : md;		//Cax2 - used at the end of the function
+
+d474 1
+a474 4
+	{
+		if ((uc = _tstoi(uploadCap) * 10) == 0)
+			uc = 250;
+	}
+a475 1
+	{
+a476 1
+	}
+d483 1
+a483 6
+		{
+			if (mu == 0)
+				mu = UNLIMITED;
+			else
+				mu = 10;
+		}
+a485 1
+	{
+a486 1
+	}
+a487 1
+	FractionalRate2String(&maxUp, mu);
+d489 22
+a510 5
+	if (mu < 40)
+		md = (mu * 3 < md) ? mu * 3 : md;
+	if (mu < 100)
+		md = (mu * 4 < md) ? mu * 4 : md;
+	FractionalRate2String(&maxDown, md);
+d512 6
+a517 1
+	limitlessDownloadCheck.EnableWindow((mu >= 100) ? true : false);
+d540 10
+@
+
+
+1.46
+log
+@Use defines instead of numbers.
+@
+text
+@d151 1
+a151 1
+		if ( m_pPrefs->GetMaxUpload() != 0 )
+d153 2
+a154 2
+			if ( m_pPrefs->GetMaxUpload() < 4 && (m_pPrefs->GetMaxUpload() * 3 < m_pPrefs->GetMaxDownloadValue()))
+				m_pPrefs->SetMaxDownload( m_pPrefs->GetMaxUpload() * 3);
+d156 1
+a156 1
+			if ( m_pPrefs->GetMaxUpload() < 10 && (m_pPrefs->GetMaxUpload() * 4 < m_pPrefs->GetMaxDownloadValue()))
+d169 2
+a170 2
+		downloadCap.Format(_T("%u"), m_pPrefs->GetMaxGraphDownloadRate());
+		uploadCap.Format(_T("%u"), m_pPrefs->GetMaxGraphUploadRate());
+d175 2
+a176 3
+		{
+			maxDown.Format(_T("%u"), m_pPrefs->GetMaxDownloadValue());
+		}
+d180 1
+a180 3
+		{
+			maxUp.Format(_T("%u"), m_pPrefs->GetMaxUpload());
+		}
+d188 1
+a188 1
+		limitlessDownloadCheck.EnableWindow((m_pPrefs->GetMaxUpload() == UNLIMITED || m_pPrefs->GetMaxUpload() >= 10)? true : false);
+d203 3
+a205 2
+		int lastmaxgu = m_pPrefs->GetMaxGraphUploadRate();
+		int lastmaxgd = m_pPrefs->GetMaxGraphDownloadRate();
+d212 1
+a212 1
+		m_pPrefs->SetMaxGraphDownloadRate(iTmp = (((iTmp = _tstoi(downloadCap)) != 0) ? iTmp : 100));
+d214 1
+a214 1
+		m_pPrefs->SetMaxGraphUploadRate(iTmp = (((iTmp = _tstoi(uploadCap)) != 0) ? iTmp : 25));
+d217 2
+a218 2
+		m_pPrefs->SetMaxUpload(((iTmp = _tstoi(maxUp)) != 0) ? iTmp : UNLIMITED);
+		m_pPrefs->SetMaxDownload(((iTmp = _tstoi(maxDown)) != 0) ? iTmp : UNLIMITED);
+d241 9
+a249 6
+		int mu = m_pPrefs->GetMaxGraphUploadRate();
+		if (lastmaxgu != mu)
+			g_eMuleApp.m_pdlgEmule->m_dlgStatistics.SetARange(false, mu);
+		int md = m_pPrefs->GetMaxGraphDownloadRate();
+		if (lastmaxgd != md)
+			g_eMuleApp.m_pdlgEmule->m_dlgStatistics.SetARange(true, md);
+d254 4
+a257 3
+		int iMaxRange = m_pPrefs->GetMaxGraphDownloadRate();
+		if (m_pPrefs->GetMaxGraphUploadRate() > iMaxRange)
+			iMaxRange = m_pPrefs->GetMaxGraphUploadRate();
+d260 2
+a261 2
+		if ((int)nLastMaxRange != iMaxRange)
+			g_eMuleApp.m_pdlgEmule->m_ctlToolBar.SetSpeedMeterRange(iMaxRange, nLastMinRange);
+d305 1
+a305 1
+		limitlessDownloadCheck.EnableWindow((m_pPrefs->GetMaxUpload() == UNLIMITED || m_pPrefs->GetMaxUpload() >= 10)? true : false);
+d477 2
+a478 1
+	int dc;
+d481 2
+a482 3
+		dc = _tstoi(downloadCap);
+		if (dc == 0)
+			dc = 100;
+d488 1
+a488 1
+	downloadCap.Format(_T("%u"), dc);
+d490 1
+a490 1
+	int md;
+d493 7
+a499 3
+		md = _tstoi(maxDown);
+		if (md == 0)
+			md = UNLIMITED;
+d506 1
+a506 1
+	int uc;
+d509 2
+a510 3
+		uc = _tstoi(uploadCap);
+		if (uc == 0)
+			uc = 25;
+d516 1
+a516 1
+	uploadCap.Format(_T("%u"), uc);
+d518 1
+a518 1
+	int mu;
+d521 7
+a527 3
+		mu = _tstoi(maxUp);
+		if (mu == 0)
+			mu = UNLIMITED;
+d534 1
+a534 1
+	maxUp.Format(_T("%u"), mu);
+d536 1
+a536 1
+	if (mu < 4)
+d538 1
+a538 1
+	if (mu < 10)
+d540 1
+a540 1
+	maxDown.Format(_T("%u"), md);
+d542 1
+a542 1
+	limitlessDownloadCheck.EnableWindow((mu >= 10) ? true : false);
+@
+
+
+1.45
+log
+@Removed unused variable.
+@
+text
+@d172 1
+a172 1
+		if (m_pPrefs->GetMaxDownloadValue() == 0xFFFF)
+d178 1
+a178 1
+		if (m_pPrefs->GetMaxUpload() == 0xFFFF)
+d191 1
+a191 1
+		limitlessDownloadCheck.EnableWindow((m_pPrefs->GetMaxUpload() == 0xFFFF || m_pPrefs->GetMaxUpload() >= 10)? true : false);
+d219 2
+a220 2
+		m_pPrefs->SetMaxUpload(((iTmp = _tstoi(maxUp)) != 0) ? iTmp : 0xFFFF);
+		m_pPrefs->SetMaxDownload(((iTmp = _tstoi(maxDown)) != 0) ? iTmp : 0xFFFF);
+d303 1
+a303 1
+		limitlessDownloadCheck.EnableWindow((m_pPrefs->GetMaxUpload() == 0xFFFF || m_pPrefs->GetMaxUpload() >= 10)? true : false);
+@
+
+
+1.44
+log
+@removed "leave q"
+@
+text
+@a329 2
+		CString strBuffer;
+
+@
+
+
+1.43
+log
+@Fixed processing and validation of entered 'Max. Connections' value;
+Preferences port values validation and corrected window update;
+Removed some unworking stuff; Optimization.
+@
+text
+@a18 1
+		, limitQR(FALSE)
+a53 1
+	DDX_Check(pDX, IDC_LIMITQR, limitQR);
+a65 1
+	DDX_Control(pDX, IDC_LIMITQR, limitQRCheck);
+a109 1
+	ON_BN_CLICKED(IDC_LIMITQR, OnSettingsChange)
+a188 2
+		limitQR = m_pPrefs->UseRemoteQueueLimit();
+		m_RQLimit = m_pPrefs->GetRemoteQueueLimit();
+a300 3
+		m_pPrefs->SetRemoteQueueLimit(m_RQLimit);
+		m_pPrefs->UseRemoteQueueLimit(limitQR);
+
+a331 2
+		strBuffer.Format(GetResString(IDS_REMOTEQUEUELIMIT), m_RQLimit);
+		limitQRCheck.SetWindowText(strBuffer);
+a469 5
+	m_RQLimit = (qs < 2000) ? 2000 : qs;
+
+	CString qrDesc;
+	qrDesc.Format(GetResString(IDS_REMOTEQUEUELIMIT), m_RQLimit);
+	limitQRCheck.SetWindowText(qrDesc);
+@
+
+
+1.42
+log
+@Some changes and a string removal (UDP).
+@
+text
+@d142 2
+a143 2
+	tcpPortEdit.SetLimitText(6);
+	udpPortEdit.SetLimitText(6);
+a164 1
+		udpPort.Format(_T("%u"), (m_pPrefs->GetUDPPort() > 0) ? m_pPrefs->GetUDPPort() : m_pPrefs->GetPort() + 10);
+d166 1
+a166 2
+		udpDisable = (m_pPrefs->GetUDPPort() == 0);
+		udpPortEdit.EnableWindow(m_pPrefs->GetUDPPort() > 0);
+d168 7
+a174 2
+		downloadCap.Format(_T("%d"), m_pPrefs->GetMaxGraphDownloadRate());
+		uploadCap.Format(_T("%d"), m_pPrefs->GetMaxGraphUploadRate());
+d180 1
+a180 1
+			maxDown.Format(_T("%d"), m_pPrefs->GetMaxDownloadValue());
+d186 1
+a186 1
+			maxUp.Format(_T("%d"), m_pPrefs->GetMaxUpload());
+d189 1
+a189 1
+		maxCon.Format(_T("%d"), m_pPrefs->GetMaxConnections());
+d191 2
+a192 2
+		queueSize.Format(_T("%d"), m_pPrefs->GetQueueSize());
+		maxCon5.Format(_T("%d"), m_pPrefs->GetMaxConPerFive());
+d209 2
+d220 23
+a242 40
+		if (!downloadCap.IsEmpty())
+		{
+			int dc = _tstoi(downloadCap);
+			m_pPrefs->SetMaxGraphDownloadRate( (dc != 0) ? dc : 100);
+		}
+		if (!uploadCap.IsEmpty())
+		{
+			int uc = _tstoi(uploadCap);
+			m_pPrefs->SetMaxGraphUploadRate( (uc != 0) ? uc : 25);
+		}
+
+		if (!maxUp.IsEmpty())
+		{
+			int mu = _tstoi(maxUp);
+			m_pPrefs->SetMaxUpload((mu != 0) ? mu : 0xFFFF);
+		}
+
+		if (!maxDown.IsEmpty())
+		{
+			int md = _tstoi(maxDown);
+			m_pPrefs->SetMaxDownload((md != 0) ? md : 0xFFFF);
+		}
+
+		if (!port.IsEmpty())
+		{
+			int p = _tstoi(port);
+			m_pPrefs->SetPort((p != 0) ? p : 4662);
+		}
+
+		if (!maxCon.IsEmpty())
+		{
+			int mc = _tstoi(maxCon);
+			m_pPrefs->SetMaxConnections((mc != 0) ? mc : 500);
+		}
+
+		if (!udpPort.IsEmpty())
+		{
+			int up = _tstoi(udpPort);
+			m_pPrefs->SetUDPPort( ((up != 0) && !udpDisable ) ? up : 0);
+		}
+a243 1
+		udpPortEdit.EnableWindow(!udpDisable);
+d258 1
+a258 1
+	//	Setrange of the toolbar-speed-meter
+d267 7
+a273 1
+		if (m_pPrefs->GetMaxConnections() > (unsigned)::GetMaxConnections())
+d276 1
+a276 1
+			strMessage.Format(GetResString(IDS_PW_WARNING), GetResString(IDS_PW_MAXC), ::GetMaxConnections());
+d280 1
+a280 2
+			//	TODO: set focus to max connection?
+				return FALSE;
+d283 2
+a284 7
+
+		if (!maxCon.IsEmpty())
+		{
+			int mc = _tstoi(maxCon);
+			m_pPrefs->SetMaxConnections( (mc != 0) ?
+			                             mc : CPreferences::GetRecommendedMaxConnections() );
+		}
+d290 1
+a290 1
+		else if (qs < MIN_QUEUE)
+d293 1
+a293 1
+		queueSize.Format(_T("%d"), qs);
+d304 1
+a304 1
+		maxCon5.Format(_T("%d"), mc5);
+a308 1
+		m_pPrefs->UseRemoteQueueLimit(limitQR);
+d474 3
+a476 1
+	uint16 qs = _tstoi(queueSize);
+a486 4
+	if (qs != m_pPrefs->GetQueueSize())
+	{
+		queueSize.Format(_T("%u"), qs);
+	}
+d504 1
+a504 1
+	downloadCap.Format(_T("%d"), dc);
+d529 1
+a529 2
+	uploadCap.Format(_T("%d"), uc);
+
+d543 1
+a543 2
+	maxUp.Format(_T("%d"), mu);
+
+d549 1
+a549 1
+	maxDown.Format(_T("%d"), md);
+a555 1
+
+d561 1
+a561 1
+	if (!udpDisable && m_pPrefs->GetUDPPort() == 0)
+d563 5
+a567 10
+		int p = 0;
+		if (!port.IsEmpty())
+		{
+			p = _tstoi(port);
+			if (p != 0)
+				p += 10;
+			else
+				p = m_pPrefs->GetPort() + 10;
+		}
+		udpPort.Format(_T("%d"), p);
+@
+
+
+1.41
+log
+@Optimized combobox processing; formatting.
+@
+text
+@a39 1
+		, udpPortDesc(_T(""))
+d69 1
+a87 1
+	DDX_Text(pDX, IDC_UDPPORTLABEL, udpPortDesc);
+d142 3
+a357 1
+		GetResString(&udpPortDesc, IDS_UDPPORT);
+@
+
+
+1.40
+log
+@Improved preferences localization.
+@
+text
+@d98 20
+a117 20
+ON_CBN_SELCHANGE(IDC_CONTYPE, OnCbnSelchangeConType)
+ON_BN_CLICKED(IDC_UDPDISABLE, OnEnChangeUDPDisable)
+ON_EN_CHANGE(IDC_UDPPORT, OnSettingsChange)
+ON_EN_KILLFOCUS(IDC_DOWNLOAD_CAP, OnSpeedChange)
+ON_EN_KILLFOCUS(IDC_UPLOAD_CAP, OnSpeedChange)
+ON_EN_KILLFOCUS(IDC_MAXDOWN, OnSpeedChange)
+ON_EN_KILLFOCUS(IDC_MAXUP, OnSpeedChange)
+ON_EN_CHANGE(IDC_DOWNLOAD_CAP, OnSettingsChange)
+ON_EN_CHANGE(IDC_UPLOAD_CAP, OnSettingsChange)
+ON_EN_CHANGE(IDC_MAXDOWN, OnSettingsChange)
+ON_EN_CHANGE(IDC_MAXUP, OnSettingsChange)
+ON_EN_CHANGE(IDC_PORT, OnSettingsChange)
+ON_EN_CHANGE(IDC_MAXCON, OnSettingsChange)
+ON_BN_CLICKED(IDC_LANCASTENABLE, OnSettingsChange)
+ON_EN_CHANGE(IDC_MAXCON5, OnSettingsChange)
+ON_BN_CLICKED(IDC_LIMITLESS, OnSettingsChange)
+ON_BN_CLICKED(IDC_LIMITQR, OnSettingsChange)
+ON_EN_CHANGE(IDC_QUEUESIZE, OnSettingsChange)
+ON_EN_KILLFOCUS(IDC_QUEUESIZE, OnQueueChange)
+ON_BN_CLICKED(IDC_SHOWOVERHEAD, OnSettingsChange)
+d124 18
+a141 12
+	m_conprof.SetItemData(m_conprof.AddString(GetResString(IDS_CUSTOMPROFIL)), 0);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 256/128")), 1);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 512/128")), 2);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 512/256")), 3);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 768/128")), 4);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 1024/256")), 5);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 1024/512")), 6);
+	m_conprof.SetItemData(m_conprof.AddString(_T("Cable")), 7);
+	m_conprof.SetItemData(m_conprof.AddString(_T("T1")), 8);
+	m_conprof.SetItemData(m_conprof.AddString(_T("Modem 56k")), 9);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ISDN 64k")), 10);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ISDN 128k")), 11);
+d162 2
+a163 2
+		port.Format(_T("%d"), m_pPrefs->GetPort());
+		udpPort.Format(_T("%d"), (m_pPrefs->GetUDPPort() > 0) ? m_pPrefs->GetUDPPort() : m_pPrefs->GetPort() + 10); //Cax2
+a167 14
+		for (int i = 0; i < m_conprof.GetCount(); i++)
+		{
+			if (m_conprof.GetItemData(i) == m_pPrefs->Profile())
+				m_conprof.SetCurSel(i);
+		}
+		if (m_pPrefs->Profile() == 0)
+		{
+			EnableEditBoxes(TRUE);
+		}
+		else
+		{
+			EnableEditBoxes(FALSE);
+		}
+
+d239 1
+a239 1
+			m_pPrefs->SetPort( (p != 0) ? p : 4662);
+d362 2
+d365 3
+a367 6
+		m_conprof.SetItemData(m_conprof.InsertString(0,GetResString(IDS_CUSTOMPROFIL)), 0);
+		for (int i = 0; i < m_conprof.GetCount(); i++)
+		{
+			if (m_conprof.GetItemData(i) == m_pPrefs->Profile())
+				m_conprof.SetCurSel(i);
+		}
+d377 1
+a377 1
+	if (cs != CB_ERR)
+d379 91
+a469 95
+
+		switch (m_conprof.GetItemData(cs))
+		{
+			case 0:
+				EnableEditBoxes(TRUE);
+				break;
+			case 1:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("32");
+				uploadCap = _T("16");
+				maxDown = _T("32");
+				maxUp = _T("14");
+				maxCon = _T("256");
+				break;
+			case 2:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("64");
+				uploadCap = _T("16");
+				maxDown = _T("64");
+				maxUp = _T("14");
+				maxCon = _T("512");
+				break;
+			case 3:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("64");
+				uploadCap = _T("32");
+				maxDown = _T("64");
+				maxUp = _T("30");
+				maxCon = _T("512");
+				break;
+			case 4:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("96");
+				uploadCap = _T("16");
+				maxDown = _T("96");
+				maxUp = _T("14");
+				maxCon = _T("512");
+				break;
+			case 5:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("128");
+				uploadCap = _T("32");
+				maxDown = _T("128");
+				maxUp = _T("30");
+				maxCon = _T("768");
+				break;
+			case 6:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("128");
+				uploadCap = _T("64");
+				maxDown = _T("128");
+				maxUp = _T("60");
+				maxCon = _T("1024");
+				break;
+			case 7:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("128");
+				uploadCap = _T("48");
+				maxDown = _T("128");
+				maxUp = _T("44");
+				maxCon = _T("1024");
+				break;
+			case 8:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("180");
+				uploadCap = _T("180");
+				maxDown = _T("180");
+				maxUp = _T("180");
+				maxCon = _T("2048");
+				break;
+			case 9:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("5");
+				uploadCap = _T("2");
+				maxDown = _T("5");
+				maxUp = _T("2");
+				maxCon = _T("80");
+				break;
+			case 10:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("8");
+				uploadCap = _T("8");
+				maxDown = _T("8");
+				maxUp = _T("6");
+				maxCon = _T("80");
+				break;
+			case 11:
+				EnableEditBoxes(FALSE);
+				downloadCap = _T("16");
+				uploadCap = _T("16");
+				maxDown = _T("16");
+				maxUp = _T("14");
+				maxCon = _T("100");
+				break;
+		}
+a476 1
+
+d500 1
+a500 1
+		queueSize.Format(_T("%d"), qs);
+@
+
+
+1.39
+log
+@Reorganized preferences
+@
+text
+@d346 19
+a364 17
+		conProfDesc = GetResString(IDS_CONPROF);
+		trFrmDesc = GetResString(IDS_TR_FRM);
+		capacitiesDesc = GetResString(IDS_PW_CON_CAP);
+		limitsDesc = GetResString(IDS_PW_CON_LIMIT);
+		dCapDesc = GetResString(IDS_PW_CON_DOWNLBL);
+		uCapDesc = GetResString(IDS_PW_CON_UPLBL);
+		kbS1Desc = GetResString(IDS_KBYTESEC);
+		kbS2Desc = GetResString(IDS_KBYTESEC);
+		queueFrmDesc = GetResString(IDS_QUEUE_FRM);
+		queueSizeDesc = GetResString(IDS_QUEUESIZE_TEXT);
+		maxConnFrmDesc = GetResString(IDS_PW_MAXC);
+		clientPortFrmDesc = GetResString(IDS_PW_CLIENTPORT);
+		CString buffer;
+		buffer.Format(GetResString(IDS_REMOTEQUEUELIMIT), m_RQLimit);
+		limitQRCheck.SetWindowText(buffer);
+		maxCon5Desc = GetResString(IDS_MAXCON5_TEXT);
+		udpPortDesc = GetResString(IDS_UDPPORT);
+@
+
+
+1.38
+log
+@en/disable limitless download checkbox on speed change more immediately
+@
+text
+@a19 2
+		, disableXS(FALSE)
+		, enableXSUpTo(FALSE)
+a22 1
+		, xsUpTo(_T(""))
+a38 1
+		, xsSourcesDesc(_T(""))
+a56 2
+	DDX_Check(pDX, IDC_DISABLE_XS, disableXS);
+	DDX_Check(pDX, IDC_ENABLE_XSUPTO, enableXSUpTo);
+a59 1
+	DDX_Text(pDX, IDC_XSUPTO, xsUpTo);
+a71 1
+	DDX_Control(pDX, IDC_XSUPTO, xsUpToEdit);
+a79 1
+	DDX_Control(pDX, IDC_ENABLE_XSUPTO, enableXsUpToCheck);
+a85 1
+	DDX_Text(pDX, IDC_XSSOURCES, xsSourcesDesc);
+a90 1
+	DDX_Control(pDX, IDC_DISABLE_XS, disableXsCheck);
+a110 1
+ON_BN_CLICKED(IDC_DISABLE_XS, OnBnClickedDisableXS)
+a112 1
+ON_BN_CLICKED(IDC_ENABLE_XSUPTO, OnBnClickedDisableXSUpTo)
+a113 1
+ON_EN_CHANGE(IDC_XSUPTO, OnSettingsChange)
+a192 3
+
+		disableXS = m_pPrefs->IsDisabledXS();
+
+a193 1
+
+a194 1
+
+a195 1
+
+a196 1
+
+a197 1
+
+a198 3
+
+		enableXSUpTo = m_pPrefs->DisableXSUpTo();
+
+a199 1
+
+a201 2
+		xsUpTo.Format(_T("%d"), m_pPrefs->XSUpTo());
+
+a203 2
+		OnBnClickedDisableXS();
+
+a327 3
+
+		m_pPrefs->SetDisabledXS(disableXS);
+
+a328 9
+		m_pPrefs->SetDisableXSUpTo(enableXSUpTo);
+
+		int xs = _tstoi(xsUpTo);
+		if (xs > m_pPrefs->GetMaxSourcePerFileSoft())
+		{
+			xs = m_pPrefs->GetMaxSourcePerFileSoft();
+			xsUpTo.Format(_T("%d"), xs);
+		}
+		m_pPrefs->SetXSUpTo(xs);
+d330 1
+a330 1
+		m_pPrefs->SetLimitlessDownload(limitlessDownload); // DonGato
+a357 1
+		disableXsCheck.SetWindowText(GetResString(IDS_DISABLE_XS));
+a363 1
+		enableXsUpToCheck.SetWindowText(GetResString(IDS_ENABLE_XSUPTO));
+a364 1
+		xsSourcesDesc = GetResString(IDS_SOURCES_PF_FILES);
+a495 17
+void CPPgConnection::OnBnClickedDisableXS()
+{
+	UpdateData(TRUE);
+
+	if (disableXS)
+	{
+		enableXsUpToCheck.EnableWindow(!disableXS);
+		xsUpToEdit.EnableWindow(!disableXS);
+	}
+	else
+	{
+		enableXsUpToCheck.EnableWindow(!disableXS);
+		xsUpToEdit.EnableWindow(enableXSUpTo && !m_pPrefs->IsAutoSourcesEnabled());
+	}
+	SetModified();
+}
+
+a608 8
+
+void CPPgConnection::OnBnClickedDisableXSUpTo()
+{
+	UpdateData(TRUE);
+	xsUpToEdit.EnableWindow(enableXSUpTo && !m_pPrefs->IsAutoSourcesEnabled());
+
+	SetModified();
+}@
+
+
+1.37
+log
+@minor changes (Partfile --> PartFile...)
+@
+text
+@d642 2
+@
+
+
+1.36
+log
+@Make UDP "disabled" with capital letter like all preferences "Enabled";
+Remove extra identical resource string.
+@
+text
+@d111 1
+a111 1
+ON_EN_CHANGE(IDC_UDPPORT, OnSettingsChange)	//Cax2 bugfix
+d122 8
+a129 8
+ON_BN_CLICKED(IDC_DISABLE_XS, OnBnClickedDisableXS)	//Tarod
+ON_BN_CLICKED(IDC_LANCASTENABLE, OnSettingsChange)	// Moosetea
+ON_EN_CHANGE(IDC_MAXCON5, OnSettingsChange) // DonGato
+ON_BN_CLICKED(IDC_ENABLE_XSUPTO, OnBnClickedDisableXSUpTo) // DonGato
+ON_BN_CLICKED(IDC_LIMITLESS, OnSettingsChange) // DonGato
+ON_EN_CHANGE(IDC_XSUPTO, OnSettingsChange) // DonGato
+ON_BN_CLICKED(IDC_LIMITQR, OnSettingsChange) // DonGato
+ON_EN_CHANGE(IDC_QUEUESIZE, OnSettingsChange)	// SeeWen + Cax2
+a175 1
+	//	DonGato
+a180 1
+	//m_conprof.SetItemData (m_conprof m_pPrefs->m_prefs->Profile)
+a207 1
+	//	Tarod
+a209 1
+	//	Moosetea
+a213 1
+	//	DonGato
+d224 1
+a224 1
+		limitlessDownload = m_pPrefs->LimitlessDownload(); // DonGato
+d234 1
+a234 1
+		SetModified(FALSE);	// FoRcHa
+d293 4
+a296 4
+		m_pPrefs->SetShowOverhead(showOverhead);	//Cax2
+	//	now force an update of statusbar
+		g_eMuleApp.m_pdlgEmule->ResizeStatusBar();	//Cax2
+		g_eMuleApp.m_pdlgEmule->ShowTransferRate();	// eklmn: bugfix(11): crazy output in statusbar (update only tray or window)
+a304 1
+	//	Moosetea
+d307 1
+a307 1
+	//// Start: setrange of the toolbar-speed-meter [FoRcHa] //////
+a314 1
+	//// End: setrange of the toolbar-speed-meter [FoRcHa] ////////
+a334 1
+	//	SeeWen QUEUESIZE
+a344 1
+	//	DonGato
+a358 1
+	//	Tarod
+a360 1
+	//	DonGato
+d388 1
+a388 1
+		conProfDesc = GetResString(IDS_CONPROF); // DonGato
+d527 1
+a527 1
+	SetModified(); // EC 20.07.03 profile changes can now be saved
+d566 1
+a566 1
+	m_RQLimit = (qs < 2000) ? 2000 : qs;			//minimum possible remotequeuelimit
+@
+
+
+1.35
+log
+@added auto-update for ipfilter
+@
+text
+@d411 3
+a413 3
+		disableXsCheck.SetWindowText(GetResString(IDS_DISABLE_XS)); // Tarod
+		CString buffer;		 // Cax2 - remote queue handling
+		buffer.Format(GetResString(IDS_REMOTEQUEUELIMIT), m_RQLimit); // EC
+d415 1
+a415 1
+		maxCon5Desc = GetResString(IDS_MAXCON5_TEXT); // DonGato
+d417 1
+a417 1
+		udpDisableCheck.SetWindowText(GetResString(IDS_UDPDISABLED));
+d421 2
+a422 2
+		showOverheadCheck.SetWindowText(GetResString(IDS_SHOWOVERHEAD)); // EC
+		lancastEnableCheck.SetWindowText(GetResString(IDS_LANCASTENABLE)); // EC
+@
+
+
+1.34
+log
+@disable xsupto field in connection prefs if autospf is active
+@
+text
+@a65 1
+	DDX_Check(pDX, IDC_SCANFILTER, scanFilter);
+a89 1
+	DDX_Control(pDX, IDC_SCANFILTER, scanFilterCheck);
+a126 1
+ON_BN_CLICKED(IDC_SCANFILTER, OnSettingsChange) // DonGato
+a232 2
+		scanFilter = m_pPrefs->IsScanFilterEnabled(); // DonGato
+
+a386 2
+		m_pPrefs->SetScanFilterEnabled(scanFilter); // DonGato
+
+a419 1
+		scanFilterCheck.SetWindowText(GetResString(IDS_SCANFILTER));
+@
+
+
+1.33
+log
+@More Kush changes for localization
+@
+text
+@d572 1
+a572 4
+		if (!disableXS && enableXSUpTo)
+			xsUpToEdit.EnableWindow(enableXSUpTo);
+		else
+			xsUpToEdit.EnableWindow(enableXSUpTo);
+d692 1
+a692 1
+	xsUpToEdit.EnableWindow(enableXSUpTo);
+@
+
+
+1.32
+log
+@some minor loop corrections
+@
+text
+@d431 9
+@
+
+
+1.31
+log
+@Minor changes
+@
+text
+@d180 1
+a180 1
+		for (int i = 0; i != m_conprof.GetCount(); i++)
+@
+
+
+1.30
+log
+@Changed limitless download preferences
+@
+text
+@d453 1
+a453 1
+				maxCon = _T("160");
+d461 1
+a461 1
+				maxCon = _T("384");
+d469 1
+a469 1
+				maxCon = _T("384");
+d517 1
+a517 1
+				maxCon = _T("5");
+d525 1
+a525 1
+				maxCon = _T("20");
+d533 1
+a533 1
+				maxCon = _T("50");
+@
+
+
+1.29
+log
+@Formatting, comments, and name changes.
+@
+text
+@d234 2
+d389 3
+d689 1
+a689 1
+}
+@
+
+
+1.28
+log
+@Formatting, comments, and name changes.
+@
+text
+@d333 1
+a333 1
+			//TODO: set focus to max connection?
+@
+
+
+1.27
+log
+@Formatting, comments, and name changes.
+@
+text
+@d1 1
+a1 1
+// PPgConnection.cpp : implementation file
+d10 1
+a10 1
+static char THIS_FILE[]=__FILE__;
+d14 1
+a14 1
+// CPPgConnection dialog
+d18 34
+a51 35
+	: CPropertyPage(CPPgConnection::IDD)
+	, limitQR(FALSE)
+	, disableXS(FALSE)
+	, enableXSUpTo(FALSE)
+	, showOverhead(FALSE)
+	, lancastEnable(FALSE)
+	, limitlessDownload(FALSE)
+	, xsUpTo(_T(""))
+	, queueSize(_T(""))
+	, maxCon(_T(""))
+	, maxCon5(_T(""))
+	, uploadCap(_T(""))
+	, maxUp(_T(""))
+	, downloadCap(_T(""))
+	, maxDown(_T(""))
+	, port(_T(""))
+	, udpPort(_T(""))
+	, udpDisable(FALSE)
+	, conProfDesc(_T(""))
+	, trFrmDesc(_T(""))
+	, capacitiesDesc(_T(""))
+	, kbS1Desc(_T(""))
+	, kbS2Desc(_T(""))
+	, limitsDesc(_T(""))
+	, xsSourcesDesc(_T(""))
+	, maxCon5Desc(_T(""))
+	, udpPortDesc(_T(""))
+	, dCapDesc(_T(""))
+	, uCapDesc(_T(""))
+	, queueFrmDesc(_T(""))
+	, queueSizeDesc(_T(""))
+	, clientPortFrmDesc(_T(""))
+	, maxConnFrmDesc(_T(""))
+{
+}
+d54 1
+a54 2
+{
+}
+d111 24
+a134 24
+	ON_CBN_SELCHANGE(IDC_CONTYPE, OnCbnSelchangeConType)
+	ON_BN_CLICKED(IDC_UDPDISABLE, OnEnChangeUDPDisable)
+	ON_EN_CHANGE(IDC_UDPPORT, OnSettingsChange)	//Cax2 bugfix
+	ON_EN_KILLFOCUS(IDC_DOWNLOAD_CAP, OnSpeedChange)
+	ON_EN_KILLFOCUS(IDC_UPLOAD_CAP, OnSpeedChange)
+	ON_EN_KILLFOCUS(IDC_MAXDOWN, OnSpeedChange)
+	ON_EN_KILLFOCUS(IDC_MAXUP, OnSpeedChange)
+	ON_EN_CHANGE(IDC_DOWNLOAD_CAP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_UPLOAD_CAP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXDOWN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXUP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_PORT, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXCON, OnSettingsChange)
+	ON_BN_CLICKED(IDC_DISABLE_XS, OnBnClickedDisableXS)	//Tarod
+	ON_BN_CLICKED(IDC_LANCASTENABLE, OnSettingsChange)	// Moosetea
+	ON_EN_CHANGE(IDC_MAXCON5, OnSettingsChange) // DonGato
+    ON_BN_CLICKED(IDC_ENABLE_XSUPTO, OnBnClickedDisableXSUpTo) // DonGato
+    ON_BN_CLICKED(IDC_LIMITLESS, OnSettingsChange) // DonGato
+    ON_BN_CLICKED(IDC_SCANFILTER, OnSettingsChange) // DonGato
+	ON_EN_CHANGE(IDC_XSUPTO, OnSettingsChange) // DonGato
+	ON_BN_CLICKED(IDC_LIMITQR, OnSettingsChange) // DonGato
+	ON_EN_CHANGE(IDC_QUEUESIZE, OnSettingsChange)	// SeeWen + Cax2
+	ON_EN_KILLFOCUS(IDC_QUEUESIZE, OnQueueChange)
+	ON_BN_CLICKED(IDC_SHOWOVERHEAD, OnSettingsChange)
+d141 13
+a153 13
+	m_conprof.SetItemData(m_conprof.AddString(GetResString(IDS_CUSTOMPROFIL)),0);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 256/128")),1);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 512/128")),2);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 512/256")),3);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 768/128")),4);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 1024/256")),5);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ADSL 1024/512")),6);
+	m_conprof.SetItemData(m_conprof.AddString(_T("Cable")),7);
+	m_conprof.SetItemData(m_conprof.AddString(_T("T1")),8);
+	m_conprof.SetItemData(m_conprof.AddString(_T("Modem 56k")),9);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ISDN 64k")),10);
+	m_conprof.SetItemData(m_conprof.AddString(_T("ISDN 128k")),11);
+		
+d162 1
+a162 1
+	if(::IsWindow(m_hWnd))
+d164 20
+a183 18
+		if( m_pPrefs->GetMaxUpload() != 0 ){
+			if( m_pPrefs->GetMaxUpload() < 4 && (m_pPrefs->GetMaxUpload()*3 < m_pPrefs->GetMaxDownloadValue()))
+				m_pPrefs->SetMaxDownload( m_pPrefs->GetMaxUpload()*3);
+	
+			if( m_pPrefs->GetMaxUpload() < 10 && (m_pPrefs->GetMaxUpload()*4 < m_pPrefs->GetMaxDownloadValue()))
+				m_pPrefs->SetMaxDownload(m_pPrefs->GetMaxUpload()*4);
+		}
+	
+		port.Format(_T("%d"), m_pPrefs->GetPort());	
+		udpPort.Format(_T("%d"), (m_pPrefs->GetUDPPort()>0)?m_pPrefs->GetUDPPort():m_pPrefs->GetPort()+10); //Cax2
+		
+		udpDisable = (m_pPrefs->GetUDPPort()==0);
+		udpPortEdit.EnableWindow(m_pPrefs->GetUDPPort()>0);
+
+		// DonGato
+		for(int i = 0; i != m_conprof.GetCount(); i++) {
+		if(m_conprof.GetItemData(i) == m_pPrefs->Profile())
+			m_conprof.SetCurSel(i);
+d185 3
+a187 2
+		//m_conprof.SetItemData (m_conprof m_pPrefs->m_prefs->Profile)
+		if(m_pPrefs->Profile() == 0) {
+d189 3
+a191 1
+		} else {
+d194 2
+a195 2
+				
+		downloadCap.Format(_T("%d"), m_pPrefs->GetMaxGraphDownloadRate());		
+d197 2
+a198 2
+		
+		if(m_pPrefs->GetMaxDownloadValue() == 0xFFFF)
+d202 1
+a202 1
+			maxDown.Format(_T("%d"), m_pPrefs->GetMaxDownloadValue());			
+d204 1
+a204 1
+		if(m_pPrefs->GetMaxUpload() == 0xFFFF)
+d208 1
+a208 1
+			maxUp.Format(_T("%d"), m_pPrefs->GetMaxUpload());			
+d210 1
+a210 1
+		
+d213 1
+a213 1
+		// Tarod
+d215 2
+a216 2
+	
+		// Moosetea
+d218 1
+a218 1
+			
+d220 2
+a221 2
+	
+		// DonGato
+d223 1
+a223 1
+		
+d225 1
+a225 1
+			
+d229 1
+a229 1
+			
+d239 1
+a239 1
+			
+d242 1
+a242 1
+		SetModified(FALSE);	// FoRcHa		
+d248 1
+a248 1
+	if(m_bModified)
+d251 1
+a251 1
+		int lastmaxgu = m_pPrefs->GetMaxGraphUploadRate();		
+d255 1
+a255 1
+			
+d258 3
+a260 3
+			
+		if(!downloadCap.IsEmpty())
+		{ 
+d264 1
+a264 1
+		if(!uploadCap.IsEmpty())
+d266 1
+a266 1
+			int uc = _tstoi(uploadCap);			
+d269 2
+a270 2
+	
+		if(!maxUp.IsEmpty())
+d272 1
+a272 1
+			int mu = _tstoi(maxUp);			
+d276 1
+a276 1
+		if(!maxDown.IsEmpty())
+d278 1
+a278 1
+			int md = _tstoi(maxDown);			
+d281 2
+a282 2
+		
+		if(!port.IsEmpty())
+d287 2
+a288 2
+		
+		if(!maxCon.IsEmpty())
+d293 2
+a294 2
+		
+		if(!udpPort.IsEmpty())
+d302 1
+a302 1
+		// now force an update of statusbar
+d307 2
+a308 2
+		if(lastmaxgu != mu) 
+			g_eMuleApp.m_pdlgEmule->m_dlgStatistics.SetARange(false,mu);		
+d310 4
+a313 4
+		if(lastmaxgd != md)
+			g_eMuleApp.m_pdlgEmule->m_dlgStatistics.SetARange(true,md);
+		
+		// Moosetea
+d316 1
+a316 1
+		//// Start: setrange of the toolbar-speed-meter [FoRcHa] //////
+d318 1
+a318 1
+		if(m_pPrefs->GetMaxGraphUploadRate() > iMaxRange)
+d322 1
+a322 1
+		if((int)nLastMaxRange != iMaxRange)
+d324 3
+a326 3
+		//// End: setrange of the toolbar-speed-meter [FoRcHa] ////////
+	
+		if(m_pPrefs->GetMaxConnections() > (unsigned)::GetMaxConnections())
+d331 1
+a331 1
+			if(iResult != IDYES)
+d333 1
+a333 1
+				//TODO: set focus to max connection?
+d337 2
+a338 2
+	
+		if(!maxCon.IsEmpty())
+d342 1
+a342 1
+				mc : CPreferences::GetRecommendedMaxConnections());
+d344 2
+a345 2
+		
+		// SeeWen QUEUESIZE	
+d347 3
+a349 3
+		
+		if (qs > MAX_QUEUE)		
+			qs = MAX_QUEUE;			
+d351 1
+a351 1
+			qs = MIN_QUEUE;					
+d356 3
+a358 3
+		// DonGato
+		int mc5 = _tstoi(maxCon5);		
+		int nMax = (LOBYTE(g_eMuleApp.m_pGlobPrefs->GetWindowsVersion()) == 0x04)?100:200;
+d360 2
+a361 2
+		if (mc5 > nMax)		
+			mc5 = nMax;					
+d370 2
+a371 2
+		
+		// Tarod
+d373 2
+a374 2
+	
+		// DonGato
+d377 2
+a378 2
+		
+		int xs = _tstoi(xsUpTo);		
+d382 2
+a383 2
+			xsUpTo.Format(_T("%d"),xs);			
+		} 
+d397 2
+a398 2
+{	
+	if(::IsWindow(m_hWnd))
+d415 1
+a415 1
+		buffer.Format(GetResString(IDS_REMOTEQUEUELIMIT),m_RQLimit); // EC
+a432 2
+	
+	if (cs != CB_ERR) {
+d434 5
+a438 1
+		switch (m_conprof.GetItemData(cs)) {
+d441 1
+a441 1
+			break;
+d449 1
+a449 1
+			break;
+d457 1
+a457 1
+			break;
+d465 1
+a465 1
+			break;
+d473 1
+a473 1
+			break;
+d481 1
+a481 1
+			break;
+d489 1
+a489 1
+			break;
+d497 1
+a497 1
+			break;
+d505 1
+a505 1
+			break;
+d513 1
+a513 1
+			break;	
+d521 1
+a521 1
+			break;
+d529 1
+a529 1
+			break;
+d536 2
+a537 1
+void CPPgConnection::EnableEditBoxes(BOOL bEnable){
+d543 1
+a543 1
+	maxConEdit.EnableWindow(bEnable);	
+d549 3
+a551 2
+	
+	if (disableXS) {		
+d554 3
+a556 1
+	} else {	
+d568 1
+a568 1
+	UpdateData(TRUE);	
+d575 1
+a575 1
+	
+d577 1
+a577 1
+	qrDesc.Format(GetResString(IDS_REMOTEQUEUELIMIT),m_RQLimit);
+d580 1
+a580 1
+	if(qs != m_pPrefs->GetQueueSize())
+d582 1
+a582 1
+		queueSize.Format(_T("%d"), qs);		
+d590 2
+a591 2
+	int dc;	
+	if(!downloadCap.IsEmpty())
+d602 1
+a602 1
+		
+d604 1
+a604 1
+	if(!maxDown.IsEmpty())
+d608 1
+a608 1
+			md = UNLIMITED;				
+d613 2
+a614 2
+	md = (md > dc) ? dc : md;		//Cax2 - used at the end of the function	
+	
+d616 2
+a617 2
+	if(!uploadCap.IsEmpty())
+	{		
+d625 1
+a625 1
+	}	
+d627 1
+a627 1
+	
+d630 2
+a631 2
+	if(!maxUp.IsEmpty())
+	{		
+d642 1
+a642 1
+	
+d645 1
+a645 1
+		md = (mu*3 < md) ? mu * 3 : md;
+d647 1
+a647 1
+		md = (mu*4 < md) ? mu * 4 : md;
+d649 1
+a649 1
+	
+d659 1
+a659 1
+	if(!udpDisable && m_pPrefs->GetUDPPort() == 0) 
+d662 1
+a662 1
+		if(!port.IsEmpty())
+d668 1
+a668 1
+				p = m_pPrefs->GetPort() + 10;			
+d670 1
+a670 1
+		udpPort.Format(_T("%d"), p);		
+@
+
+
+1.26
+log
+@Customization for Scan Filter.
+Fix for preferences toolbar button (take care when you do code renaming to keep the correct values)
+@
+text
+@d219 1
+a219 1
+		maxCon5.Format(_T("%d"), m_pPrefs->GetMaxConperFive());
+@
+
+
+1.25
+log
+@Formatting, comments, and name changes.
+@
+text
+@d68 1
+d93 1
+d131 1
+d231 2
+d384 1
+d419 1
+@
+
+
+1.24
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d163 3
+a165 3
+		if( app_prefs->GetMaxUpload() != 0 ){
+			if( app_prefs->GetMaxUpload() < 4 && (app_prefs->GetMaxUpload()*3 < app_prefs->GetMaxDownloadValue()))
+				app_prefs->SetMaxDownload( app_prefs->GetMaxUpload()*3);
+d167 2
+a168 2
+			if( app_prefs->GetMaxUpload() < 10 && (app_prefs->GetMaxUpload()*4 < app_prefs->GetMaxDownloadValue()))
+				app_prefs->SetMaxDownload(app_prefs->GetMaxUpload()*4);
+d171 2
+a172 2
+		port.Format(_T("%d"), app_prefs->GetPort());	
+		udpPort.Format(_T("%d"), (app_prefs->GetUDPPort()>0)?app_prefs->GetUDPPort():app_prefs->GetPort()+10); //Cax2
+d174 2
+a175 2
+		udpDisable = (app_prefs->GetUDPPort()==0);
+		udpPortEdit.EnableWindow(app_prefs->GetUDPPort()>0);
+d179 1
+a179 1
+		if(m_conprof.GetItemData(i) == app_prefs->Profile())
+d182 2
+a183 2
+		//m_conprof.SetItemData (m_conprof app_prefs->m_prefs->Profile)
+		if(app_prefs->Profile() == 0) {
+d189 2
+a190 2
+		downloadCap.Format(_T("%d"), app_prefs->GetMaxGraphDownloadRate());		
+		uploadCap.Format(_T("%d"), app_prefs->GetMaxGraphUploadRate());
+d192 1
+a192 1
+		if(app_prefs->GetMaxDownloadValue() == 0xFFFF)
+d196 1
+a196 1
+			maxDown.Format(_T("%d"), app_prefs->GetMaxDownloadValue());			
+d198 1
+a198 1
+		if(app_prefs->GetMaxUpload() == 0xFFFF)
+d202 1
+a202 1
+			maxUp.Format(_T("%d"), app_prefs->GetMaxUpload());			
+d205 1
+a205 1
+		maxCon.Format(_T("%d"), app_prefs->GetMaxConnections());
+d208 1
+a208 1
+		disableXS = app_prefs->IsDisabledXS();
+d211 1
+a211 1
+		lancastEnable = app_prefs->GetLancastEnabled();
+d213 1
+a213 1
+		queueSize.Format(_T("%d"), app_prefs->GetQueueSize());
+d216 1
+a216 1
+		maxCon5.Format(_T("%d"), app_prefs->GetMaxConperFive());
+d218 1
+a218 1
+		limitQR = app_prefs->UseRemoteQueueLimit();
+d220 1
+a220 1
+		m_RQLimit = app_prefs->GetRemoteQueueLimit();
+d222 1
+a222 1
+		showOverhead = app_prefs->ShowOverhead();
+d224 1
+a224 1
+		enableXSUpTo = app_prefs->DisableXSUpTo();
+d226 1
+a226 1
+		limitlessDownload = app_prefs->LimitlessDownload(); // DonGato
+d228 1
+a228 1
+		xsUpTo.Format(_T("%d"), app_prefs->XSUpTo());
+d243 2
+a244 2
+		int lastmaxgu = app_prefs->GetMaxGraphUploadRate();		
+		int lastmaxgd = app_prefs->GetMaxGraphDownloadRate();
+d249 1
+a249 1
+		app_prefs->SetProfile(m_conprof.GetCurSel());
+d254 1
+a254 1
+			app_prefs->SetMaxGraphDownloadRate( (dc != 0) ? dc : 100);
+d259 1
+a259 1
+			app_prefs->SetMaxGraphUploadRate( (uc != 0) ? uc : 25);
+d265 1
+a265 1
+			app_prefs->SetMaxUpload((mu != 0) ? mu : 0xFFFF);
+d271 1
+a271 1
+			app_prefs->SetMaxDownload((md != 0) ? md : 0xFFFF);
+d277 1
+a277 1
+			app_prefs->SetPort( (p != 0) ? p : 4662);
+d283 1
+a283 1
+			app_prefs->SetMaxConnections((mc != 0) ? mc : 500);
+d289 1
+a289 1
+			app_prefs->SetUDPPort( ((up != 0) && !udpDisable ) ? up : 0);
+d293 1
+a293 1
+		app_prefs->SetShowOverhead(showOverhead);	//Cax2
+d298 1
+a298 1
+		int mu = app_prefs->GetMaxGraphUploadRate();
+d301 1
+a301 1
+		int md = app_prefs->GetMaxGraphDownloadRate();
+d306 1
+a306 1
+		app_prefs->SetLancastEnabled(lancastEnable);
+d309 3
+a311 3
+		int iMaxRange = app_prefs->GetMaxGraphDownloadRate();
+		if(app_prefs->GetMaxGraphUploadRate() > iMaxRange)
+			iMaxRange = app_prefs->GetMaxGraphUploadRate();
+d318 1
+a318 1
+		if(app_prefs->GetMaxConnections() > (unsigned)::GetMaxConnections())
+d333 1
+a333 1
+			app_prefs->SetMaxConnections( (mc != 0) ?
+d346 1
+a346 1
+		app_prefs->SetQueueSize(qs);
+d358 1
+a358 1
+		app_prefs->SetMaxDownloadConperFive(mc5);
+d360 2
+a361 2
+		app_prefs->SetRemoteQueueLimit(m_RQLimit);
+		app_prefs->UseRemoteQueueLimit(limitQR);
+d364 1
+a364 1
+		app_prefs->SetDisabledXS(disableXS);
+d367 2
+a368 2
+		app_prefs->UseRemoteQueueLimit(limitQR);
+		app_prefs->SetDisableXSUpTo(enableXSUpTo);
+d371 1
+a371 1
+		if (xs > app_prefs->GetMaxSourcePerFileSoft())
+d373 1
+a373 1
+			xs = app_prefs->GetMaxSourcePerFileSoft();
+d376 1
+a376 1
+		app_prefs->SetXSUpTo(xs);
+d378 1
+a378 1
+		app_prefs->SetLimitlessDownload(limitlessDownload); // DonGato
+d564 1
+a564 1
+	if(qs != app_prefs->GetQueueSize())
+d583 1
+a583 1
+		dc = app_prefs->GetMaxGraphDownloadRate();
+d595 1
+a595 1
+		md = app_prefs->GetMaxDownloadValue();
+d608 1
+a608 1
+		uc = app_prefs->GetMaxGraphUploadRate();
+d622 1
+a622 1
+		mu = app_prefs->GetMaxUpload();
+d643 1
+a643 1
+	if(!udpDisable && app_prefs->GetUDPPort() == 0) 
+d652 1
+a652 1
+				p = app_prefs->GetPort() + 10;			
+@
+
+
+1.23
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d295 2
+a296 2
+		theApp.emuledlg->ResizeStatusBar();	//Cax2
+		theApp.emuledlg->ShowTransferRate();	// eklmn: bugfix(11): crazy output in statusbar (update only tray or window)
+d300 1
+a300 1
+			theApp.emuledlg->statisticswnd.SetARange(false,mu);		
+d303 1
+a303 1
+			theApp.emuledlg->statisticswnd.SetARange(true,md);
+d313 1
+a313 1
+		theApp.emuledlg->toolbar.GetSpeedMeterRange(nLastMaxRange, nLastMinRange);
+d315 1
+a315 1
+			theApp.emuledlg->toolbar.SetSpeedMeterRange(iMaxRange, nLastMinRange);
+d350 1
+a350 1
+		int nMax = (LOBYTE(theApp.glob_prefs->GetWindowsVersion()) == 0x04)?100:200;
+@
+
+
+1.22
+log
+@Connection Profile Setting can be saved now
+@
+text
+@d182 1
+a182 1
+		//m_conprof.SetItemData (m_conprof app_prefs->prefs->Profile)
+@
+
+
+1.21
+log
+@fixed disableXS not loaded properly
+@
+text
+@d520 1
+@
+
+
+1.20
+log
+@Limitless Download
+@
+text
+@d224 1
+a224 1
+		disableXS = app_prefs->DisableXSUpTo();
+@
+
+
+1.19
+log
+@converted to use DDX framework
+@
+text
+@d24 1
+d67 1
+d91 1
+d128 1
+d226 2
+a297 1
+
+d378 2
+d412 1
+@
+
+
+1.18
+log
+@unicode cleanup
+@
+text
+@d19 31
+d61 44
+d157 1
+a157 1
+	if(m_hWnd)
+a165 1
+		CString strBuffer;
+d167 5
+a171 7
+		strBuffer.Format(_T("%d"), app_prefs->GetPort());	
+		GetDlgItem(IDC_PORT)->SetWindowText(strBuffer);
+
+		strBuffer.Format(_T("%d"), (app_prefs->GetUDPPort()>0)?app_prefs->GetUDPPort():app_prefs->GetPort()+10); //Cax2
+		GetDlgItem(IDC_UDPPORT)->SetWindowText(strBuffer);
+		CheckDlgButton(IDC_UDPDISABLE,(app_prefs->GetUDPPort()==0));
+		GetDlgItem(IDC_UDPPORT)->EnableWindow(app_prefs->GetUDPPort()>0);
+d180 1
+a180 1
+			EnableEditBoxes();
+d182 1
+a182 1
+			DisableEditBoxes();
+d184 3
+a187 6
+		strBuffer.Format(_T("%d"), app_prefs->GetMaxGraphDownloadRate());
+		GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(strBuffer);
+		
+		strBuffer.Format(_T("%d"), app_prefs->GetMaxGraphUploadRate());
+		GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(strBuffer);
+
+d189 1
+a189 1
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("0"));
+d192 1
+a192 2
+			strBuffer.Format(_T("%d"), app_prefs->GetMaxDownloadValue());
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(strBuffer);
+d195 1
+a195 1
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("0"));
+d198 1
+a198 2
+			strBuffer.Format(_T("%d"), app_prefs->GetMaxUpload());
+			GetDlgItem(IDC_MAXUP)->SetWindowText(strBuffer);
+d200 2
+a201 3
+
+		strBuffer.Format(_T("%d"), app_prefs->GetMaxConnections());
+		GetDlgItem(IDC_MAXCON)->SetWindowText(strBuffer);
+d204 2
+a205 5
+		if (app_prefs->IsDisabledXS())
+			CheckDlgButton(IDC_DISABLE_XS,1);
+		else
+			CheckDlgButton(IDC_DISABLE_XS,0);
+
+d207 4
+a210 8
+		if (app_prefs->GetLancastEnabled())
+			CheckDlgButton(IDC_LANCASTENABLE,1);
+		else
+			CheckDlgButton(IDC_LANCASTENABLE,0);
+
+		strBuffer.Format(_T("%d"), app_prefs->GetQueueSize());
+		GetDlgItem(IDC_QUEUESIZE)->SetWindowText(strBuffer);
+
+d212 5
+a216 2
+		strBuffer.Format(_T("%d"), app_prefs->GetMaxConperFive());
+		GetDlgItem(IDC_MAXCON5)->SetWindowText(strBuffer);
+d218 3
+a220 4
+		if (app_prefs->UseRemoteQueueLimit())
+			CheckDlgButton(IDC_LIMITQR,1);
+		else
+			CheckDlgButton(IDC_LIMITQR,0);
+d222 1
+a222 1
+		m_RQLimit=app_prefs->GetRemoteQueueLimit();
+d224 2
+a225 9
+		if (app_prefs->ShowOverhead())
+			CheckDlgButton(IDC_SHOWOVERHEAD,1);
+		else
+			CheckDlgButton(IDC_SHOWOVERHEAD,0);
+
+		if (app_prefs->DisableXSUpTo())
+			CheckDlgButton(IDC_ENABLE_XSUPTO,1);
+		else
+			CheckDlgButton(IDC_ENABLE_XSUPTO,0);
+d228 1
+a228 4
+		strBuffer.Format(_T("%d"), app_prefs->XSUpTo());
+		GetDlgItem(IDC_XSUPTO)->SetWindowText(strBuffer);
+
+		SetModified(FALSE);	// FoRcHa
+a233 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d236 4
+d241 1
+a241 4
+		CString buffer;
+		int lastmaxgu = app_prefs->GetMaxGraphUploadRate();
+		int lastmaxgd = app_prefs->GetMaxGraphDownloadRate();
+	
+d245 1
+a245 1
+		if(GetDlgItem(IDC_DOWNLOAD_CAP)->GetWindowTextLength())
+d247 2
+a248 2
+			GetDlgItem(IDC_DOWNLOAD_CAP)->GetWindowText(buffer);
+			app_prefs->SetMaxGraphDownloadRate( (_tstoi(buffer)) ? _tstoi(buffer) : 100);
+d250 1
+a250 1
+		if(GetDlgItem(IDC_UPLOAD_CAP)->GetWindowTextLength())
+d252 2
+a253 2
+			GetDlgItem(IDC_UPLOAD_CAP)->GetWindowText(buffer);
+			app_prefs->SetMaxGraphUploadRate( (_tstoi(buffer)) ? _tstoi(buffer) : 25);
+d256 1
+a256 1
+		if(GetDlgItem(IDC_MAXUP)->GetWindowTextLength())
+d258 2
+a259 2
+			GetDlgItem(IDC_MAXUP)->GetWindowText(buffer);
+			app_prefs->SetMaxUpload((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d261 2
+a262 1
+		if(GetDlgItem(IDC_MAXDOWN)->GetWindowTextLength())
+d264 2
+a265 2
+			GetDlgItem(IDC_MAXDOWN)->GetWindowText(buffer);
+			app_prefs->SetMaxDownload((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d268 1
+a268 1
+		if(GetDlgItem(IDC_PORT)->GetWindowTextLength())
+d270 2
+a271 2
+			GetDlgItem(IDC_PORT)->GetWindowText(buffer);
+			app_prefs->SetPort( (_tstoi(buffer)) ? _tstoi(buffer) : 4662);
+d274 1
+a274 1
+		if(GetDlgItem(IDC_MAXCON)->GetWindowTextLength())
+d276 2
+a277 2
+			GetDlgItem(IDC_MAXCON)->GetWindowText(buffer);
+			app_prefs->SetMaxConnections((_tstoi(buffer)) ? _tstoi(buffer) : 500);
+d280 1
+a280 1
+		if(GetDlgItem(IDC_UDPPORT)->GetWindowTextLength())
+d282 2
+a283 2
+			GetDlgItem(IDC_UDPPORT)->GetWindowText(buffer);
+			app_prefs->SetUDPPort( (_tstoi(buffer) && !IsDlgButtonChecked(IDC_UDPDISABLE) ) ? _tstoi(buffer) : 0);
+d285 3
+a287 3
+		//if(IsDlgButtonChecked(IDC_UDPDISABLE)) app_prefs->prefs->udpport=0;
+		GetDlgItem(IDC_UDPPORT)->EnableWindow(!IsDlgButtonChecked(IDC_UDPDISABLE));
+		app_prefs->SetShowOverhead( IsDlgButtonChecked(IDC_SHOWOVERHEAD));	//Cax2
+d291 8
+a298 4
+		if(lastmaxgu != app_prefs->GetMaxGraphUploadRate()) 
+			theApp.emuledlg->statisticswnd.SetARange(false,app_prefs->GetMaxGraphUploadRate());
+		if(lastmaxgd!=app_prefs->GetMaxGraphDownloadRate())
+			theApp.emuledlg->statisticswnd.SetARange(true,app_prefs->GetMaxGraphDownloadRate());
+d301 1
+a301 1
+		app_prefs->SetLancastEnabled(IsDlgButtonChecked(IDC_LANCASTENABLE));
+d325 1
+a325 1
+		if(GetDlgItem(IDC_MAXCON)->GetWindowTextLength())
+d327 3
+a329 3
+			GetDlgItem(IDC_MAXCON)->GetWindowText(buffer);
+			app_prefs->SetMaxConnections( (_tstoi(buffer)) ?
+				_tstoi(buffer) : CPreferences::GetRecommendedMaxConnections());
+d332 10
+a341 16
+		// SeeWen QUEUESIZE
+		GetDlgItem(IDC_QUEUESIZE)->GetWindowText(buffer) ;
+		app_prefs->SetQueueSize( _tstoi(buffer) );
+		// katsyonak
+		if (app_prefs->GetQueueSize() > MAX_QUEUE)
+		{
+			buffer.Format(_T("%d"),MAX_QUEUE);
+			app_prefs->SetQueueSize( MAX_QUEUE );
+			GetDlgItem(IDC_QUEUESIZE)->SetWindowText(buffer);
+		}
+		else if (app_prefs->GetQueueSize() < MIN_QUEUE)
+		{
+			buffer.Format(_T("%d"),MIN_QUEUE);
+			app_prefs->SetQueueSize( _tstoi(buffer) );
+			GetDlgItem(IDC_QUEUESIZE)->SetWindowText(buffer);
+		}
+d344 1
+a344 2
+		GetDlgItem(IDC_MAXCON5)->GetWindowText(buffer);
+		app_prefs->SetMaxDownloadConperFive( _tstoi(buffer));
+d347 7
+a353 12
+		if (app_prefs->GetMaxConperFive() > nMax)
+		{
+			app_prefs->SetMaxDownloadConperFive(nMax);
+			buffer.Format(_T("%d"),app_prefs->GetMaxConperFive());
+			GetDlgItem(IDC_MAXCON5)->SetWindowText(buffer);
+		} 
+		else if (app_prefs->GetMaxConperFive() < 5)
+		{
+			buffer.Format(_T("%d"),app_prefs->GetMaxConperFive());
+			GetDlgItem(IDC_MAXCON5)->SetWindowText(buffer);
+			app_prefs->SetMaxDownloadConperFive(5);
+		}
+d356 1
+a356 1
+		app_prefs->UseRemoteQueueLimit((int8)IsDlgButtonChecked(IDC_LIMITQR));
+d359 1
+a359 1
+		app_prefs->SetDisabledXS( (int8)IsDlgButtonChecked(IDC_DISABLE_XS) );
+d362 8
+a369 9
+		app_prefs->UseRemoteQueueLimit((int8)IsDlgButtonChecked(IDC_LIMITQR));
+		app_prefs->SetDisableXSUpTo( (int8)IsDlgButtonChecked(IDC_ENABLE_XSUPTO) );
+		GetDlgItem(IDC_XSUPTO)->GetWindowText(buffer);
+		app_prefs->SetXSUpTo( _tstoi(buffer));
+		if (app_prefs->XSUpTo() > app_prefs->GetMaxSourcePerFileSoft())
+		{
+			app_prefs->SetXSUpTo( app_prefs->GetMaxSourcePerFileSoft());
+			buffer.Format(_T("%d"),app_prefs->XSUpTo());
+			GetDlgItem(IDC_XSUPTO)->SetWindowText(buffer);
+d371 1
+d374 1
+d382 1
+a382 1
+	if(m_hWnd)
+d385 13
+a397 13
+		GetDlgItem(IDC_CONPROF)->SetWindowText(GetResString(IDS_CONPROF)); // DonGato
+		GetDlgItem(IDC_TR_FRM)->SetWindowText(GetResString(IDS_TR_FRM));
+		GetDlgItem(IDC_CAPACITIES)->SetWindowText(GetResString(IDS_PW_CON_CAP));
+		GetDlgItem(IDC_LIMITS)->SetWindowText(GetResString(IDS_PW_CON_LIMIT));
+		GetDlgItem(IDC_DCAP_LBL)->SetWindowText(GetResString(IDS_PW_CON_DOWNLBL));
+		GetDlgItem(IDC_UCAP_LBL)->SetWindowText(GetResString(IDS_PW_CON_UPLBL));
+		GetDlgItem(IDC_KBS1)->SetWindowText(GetResString(IDS_KBYTESEC));
+		GetDlgItem(IDC_KBS2)->SetWindowText(GetResString(IDS_KBYTESEC));
+		GetDlgItem(IDC_QUEUE_FRM)->SetWindowText(GetResString(IDS_QUEUE_FRM));
+		GetDlgItem(IDC_QUEUESIZE_TEXT)->SetWindowText(GetResString(IDS_QUEUESIZE_TEXT));
+		GetDlgItem(IDC_MAXCONN_FRM)->SetWindowText(GetResString(IDS_PW_MAXC));
+		GetDlgItem(IDC_CLIENTPORT_FRM)->SetWindowText(GetResString(IDS_PW_CLIENTPORT));
+		GetDlgItem(IDC_DISABLE_XS)->SetWindowText(GetResString(IDS_DISABLE_XS)); // Tarod
+d400 9
+a408 9
+		GetDlgItem(IDC_LIMITQR)->SetWindowText(buffer);
+		GetDlgItem(IDC_MAXCON5_TEXT)->SetWindowText(GetResString(IDS_MAXCON5_TEXT)); // DonGato
+		GetDlgItem(IDC_UDPPORTLABEL)->SetWindowText(GetResString(IDS_UDPPORT));
+		GetDlgItem(IDC_UDPDISABLE)->SetWindowText(GetResString(IDS_UDPDISABLED));
+		GetDlgItem(IDC_ENABLE_XSUPTO)->SetWindowText(GetResString(IDS_ENABLE_XSUPTO));
+		GetDlgItem(IDC_XSSOURCES)->SetWindowText(GetResString(IDS_SOURCES_PF_FILES));
+		GetDlgItem(IDC_SHOWOVERHEAD)->SetWindowText(GetResString(IDS_SHOWOVERHEAD)); // EC
+		GetDlgItem(IDC_LANCASTENABLE)->SetWindowText(GetResString(IDS_LANCASTENABLE)); // EC
+
+d414 108
+a521 130
+	if (m_conprof.GetCurSel() != CB_ERR){
+		WORD conprofsel =  m_conprof.GetItemData(m_conprof.GetCurSel());
+		if (conprofsel == 0){
+			EnableEditBoxes();
+		}
+		else if (conprofsel == 1){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("32"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("16"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("32"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("14"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("160"));
+		}
+		else if (conprofsel == 2){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("64"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("16"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("64"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("14"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("384"));
+		}
+		else if (conprofsel == 3){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("64"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("32"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("64"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("30"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("384"));
+		}
+		else if (conprofsel == 4){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("96"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("16"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("96"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("14"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("512"));
+		}
+		else if (conprofsel == 5){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("128"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("32"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("128"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("30"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("768"));
+		}
+		else if (conprofsel == 6){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("128"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("64"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("128"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("60"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("1024"));
+		}
+		else if (conprofsel == 7){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("128"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("48"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("128"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("44"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("1024"));
+		}
+		else if (conprofsel == 8){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("180"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("180"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("180"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("180"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("2048"));
+		}
+		else if (conprofsel == 9){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("5"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("2"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("5"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("2"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("5"));
+		}
+		else if (conprofsel == 10){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("8"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("8"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("8"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("6"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("20"));
+		}
+		else if (conprofsel == 11){
+			DisableEditBoxes();
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(_T("16"));
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(_T("16"));
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText(_T("16"));
+			GetDlgItem(IDC_MAXUP)->SetWindowText(_T("14"));
+			GetDlgItem(IDC_MAXCON)->SetWindowText(_T("50"));
+		}
+	}
+}
+
+void CPPgConnection::DisableEditBoxes(void){
+		CEdit* DwnCap;
+		DwnCap = (CEdit*) GetDlgItem(IDC_DOWNLOAD_CAP);
+		DwnCap->EnableWindow(FALSE);	
+		CEdit* UpCap;
+		UpCap = (CEdit*) GetDlgItem(IDC_UPLOAD_CAP);
+		UpCap->EnableWindow(FALSE);	
+		CEdit* MaxDwn;
+		MaxDwn = (CEdit*) GetDlgItem(IDC_MAXDOWN);
+		MaxDwn->EnableWindow(FALSE);	
+		CEdit* MaxUp;
+		MaxUp = (CEdit*) GetDlgItem(IDC_MAXUP);
+		MaxUp->EnableWindow(FALSE);	
+		CEdit* MaxCon;
+		MaxCon = (CEdit*) GetDlgItem(IDC_MAXCON);
+		MaxCon->EnableWindow(FALSE);
+}
+
+void CPPgConnection::EnableEditBoxes(void){
+		CEdit* DwnCap;
+		DwnCap = (CEdit*) GetDlgItem(IDC_DOWNLOAD_CAP);
+		DwnCap->EnableWindow(TRUE);	
+		CEdit* UpCap;
+		UpCap = (CEdit*) GetDlgItem(IDC_UPLOAD_CAP);
+		UpCap->EnableWindow(TRUE);	
+		CEdit* MaxDwn;
+		MaxDwn = (CEdit*) GetDlgItem(IDC_MAXDOWN);
+		MaxDwn->EnableWindow(TRUE);	
+		CEdit* MaxUp;
+		MaxUp = (CEdit*) GetDlgItem(IDC_MAXUP);
+		MaxUp->EnableWindow(TRUE);	
+		CEdit* MaxCon;
+		MaxCon = (CEdit*) GetDlgItem(IDC_MAXCON);
+		MaxCon->EnableWindow(TRUE);
+d526 9
+a534 11
+	CString str;
+	if (IsDlgButtonChecked(IDC_DISABLE_XS))
+	{
+		str.Format(_T("%u"), 200);
+		GetDlgItem(IDC_ENABLE_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+		GetDlgItem(IDC_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+	} else {
+		str.Format(_T("%u"), 100);
+		GetDlgItem(IDC_ENABLE_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+		if (!IsDlgButtonChecked(IDC_DISABLE_XS) && IsDlgButtonChecked(IDC_ENABLE_XSUPTO))
+			GetDlgItem(IDC_XSUPTO)->EnableWindow(IsDlgButtonChecked(IDC_ENABLE_XSUPTO));
+d536 1
+a536 1
+			GetDlgItem(IDC_XSUPTO)->EnableWindow(IsDlgButtonChecked(IDC_ENABLE_XSUPTO));
+d543 17
+a559 16
+		CString buffer;
+		uint16 num;
+		GetDlgItem(IDC_QUEUESIZE)->GetWindowText(buffer) ;
+		num=(_tstoi(buffer));
+		if (num > MAX_QUEUE)
+			num=MAX_QUEUE;
+		if (num < MIN_QUEUE)
+			num=MIN_QUEUE;
+		m_RQLimit=(num<2000)?2000:num;			//minimum possible remotequeuelimit
+		buffer.Format(GetResString(IDS_REMOTEQUEUELIMIT),m_RQLimit);
+		GetDlgItem(IDC_LIMITQR)->SetWindowText(buffer);
+		if(num!=app_prefs->GetQueueSize())
+		{
+			buffer.Format(_T("%d"),num);
+			GetDlgItem(IDC_QUEUESIZE)->SetWindowText(buffer);
+		}
+d564 11
+a574 8
+	int num1, num2, maxDown;
+	CString strBuffer;
+	TCHAR buffer[30];
+	num1=app_prefs->GetMaxGraphDownloadRate();
+	if(GetDlgItem(IDC_DOWNLOAD_CAP)->GetWindowTextLength())
+	{ 
+		GetDlgItem(IDC_DOWNLOAD_CAP)->GetWindowText(buffer,20);
+		num1= (_tstoi(buffer)) ? _tstoi(buffer) : 100;
+d576 4
+a579 5
+	strBuffer.Format(_T("%d"), num1);
+	GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText(strBuffer);
+
+	num2=app_prefs->GetMaxDownloadValue();
+	if(GetDlgItem(IDC_MAXDOWN)->GetWindowTextLength())
+d581 3
+a583 2
+		GetDlgItem(IDC_MAXDOWN)->GetWindowText(buffer,20);
+		num2=(_tstoi(buffer)) ? _tstoi(buffer) : UNLIMITED;
+d585 2
+a586 1
+	maxDown= (num2>num1)?num1:num2;		//Cax2 - used at the end of the function
+d588 10
+a597 2
+	num1=app_prefs->GetMaxGraphUploadRate();
+	if(GetDlgItem(IDC_UPLOAD_CAP)->GetWindowTextLength())
+d599 11
+a609 2
+		GetDlgItem(IDC_UPLOAD_CAP)->GetWindowText(buffer,20);
+		num1= (_tstoi(buffer)) ? _tstoi(buffer) : 25;
+d611 1
+a611 5
+	strBuffer.Format(_T("%d"), num1);
+	GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText(strBuffer);
+
+	num2=app_prefs->GetMaxUpload();
+	if(GetDlgItem(IDC_MAXUP)->GetWindowTextLength())
+d613 1
+a613 2
+		GetDlgItem(IDC_MAXUP)->GetWindowText(buffer,20);
+		num2=(_tstoi(buffer)) ? _tstoi(buffer) : UNLIMITED;
+d615 3
+a617 10
+	num2= (num2>num1)?num1:num2;
+	strBuffer.Format(_T("%d"), num2);
+	GetDlgItem(IDC_MAXUP)->SetWindowText(strBuffer);
+
+	if(num2 < 4)
+		maxDown=(num2*3 < maxDown)?num2*3:maxDown;
+	if( num2 < 10)
+		maxDown=(num2*4 <maxDown)?num2*4:maxDown;
+	strBuffer.Format(_T("%d"), maxDown);
+	GetDlgItem(IDC_MAXDOWN)->SetWindowText(strBuffer);
+d619 7
+d631 2
+a632 1
+	GetDlgItem(IDC_UDPPORT)->EnableWindow(!IsDlgButtonChecked(IDC_UDPDISABLE));
+d634 1
+a634 1
+	if(!IsDlgButtonChecked(IDC_UDPDISABLE) && app_prefs->GetUDPPort()==0) 
+d636 10
+a645 11
+			uint16 tempVal=0;
+			CString strBuffer;
+			TCHAR buffer[30];
+
+			if(GetDlgItem(IDC_PORT)->GetWindowTextLength())
+			{
+				GetDlgItem(IDC_PORT)->GetWindowText(buffer,20);
+				tempVal= (_tstoi(buffer)) ? _tstoi(buffer)+10 : app_prefs->GetPort()+10;
+			}
+			strBuffer.Format(_T("%d"), tempVal);
+			GetDlgItem(IDC_UDPPORT)->SetWindowText(strBuffer);
+d649 2
+d655 2
+a656 1
+	GetDlgItem(IDC_XSUPTO)->EnableWindow(IsDlgButtonChecked(IDC_ENABLE_XSUPTO));
+@
+
+
+1.17
+log
+@improved output in statusbar (update only tray or window) v2
+@
+text
+@d62 11
+a72 11
+	m_conprof.SetItemData(m_conprof.AddString("ADSL 256/128"),1);
+	m_conprof.SetItemData(m_conprof.AddString("ADSL 512/128"),2);
+	m_conprof.SetItemData(m_conprof.AddString("ADSL 512/256"),3);
+	m_conprof.SetItemData(m_conprof.AddString("ADSL 768/128"),4);
+	m_conprof.SetItemData(m_conprof.AddString("ADSL 1024/256"),5);
+	m_conprof.SetItemData(m_conprof.AddString("ADSL 1024/512"),6);
+	m_conprof.SetItemData(m_conprof.AddString("Cable"),7);
+	m_conprof.SetItemData(m_conprof.AddString("T1"),8);
+	m_conprof.SetItemData(m_conprof.AddString("Modem 56k"),9);
+	m_conprof.SetItemData(m_conprof.AddString("ISDN 64k"),10);
+	m_conprof.SetItemData(m_conprof.AddString("ISDN 128k"),11);
+d93 1
+a93 1
+		strBuffer.Format("%d", app_prefs->GetPort());	
+d96 1
+a96 1
+		strBuffer.Format("%d", (app_prefs->GetUDPPort()>0)?app_prefs->GetUDPPort():app_prefs->GetPort()+10); //Cax2
+d113 1
+a113 1
+		strBuffer.Format("%d", app_prefs->GetMaxGraphDownloadRate());
+d116 1
+a116 1
+		strBuffer.Format("%d", app_prefs->GetMaxGraphUploadRate());
+d120 1
+a120 1
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("0");
+d123 1
+a123 1
+			strBuffer.Format("%d", app_prefs->GetMaxDownloadValue());
+d127 1
+a127 1
+			GetDlgItem(IDC_MAXUP)->SetWindowText("0");
+d130 1
+a130 1
+			strBuffer.Format("%d", app_prefs->GetMaxUpload());
+d134 1
+a134 1
+		strBuffer.Format("%d", app_prefs->GetMaxConnections());
+d149 1
+a149 1
+		strBuffer.Format("%d", app_prefs->GetQueueSize());
+d153 1
+a153 1
+		strBuffer.Format("%d", app_prefs->GetMaxConperFive());
+d174 1
+a174 1
+		strBuffer.Format("%d", app_prefs->XSUpTo());
+d198 1
+a198 1
+			app_prefs->SetMaxGraphDownloadRate( (atoi(buffer)) ? atoi(buffer) : 100);
+d203 1
+a203 1
+			app_prefs->SetMaxGraphUploadRate( (atoi(buffer)) ? atoi(buffer) : 25);
+d209 1
+a209 1
+			app_prefs->SetMaxUpload((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d214 1
+a214 1
+			app_prefs->SetMaxDownload((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d220 1
+a220 1
+			app_prefs->SetPort( (atoi(buffer)) ? atoi(buffer) : 4662);
+d226 1
+a226 1
+			app_prefs->SetMaxConnections((atoi(buffer)) ? atoi(buffer) : 500);
+d232 1
+a232 1
+			app_prefs->SetUDPPort( (atoi(buffer) && !IsDlgButtonChecked(IDC_UDPDISABLE) ) ? atoi(buffer) : 0);
+d273 2
+a274 2
+			app_prefs->SetMaxConnections( (atoi(buffer)) ?
+				atoi(buffer) : CPreferences::GetRecommendedMaxConnections());
+d279 1
+a279 1
+		app_prefs->SetQueueSize( atoi(buffer) );
+d283 1
+a283 1
+			buffer.Format("%d",MAX_QUEUE);
+d289 2
+a290 2
+			buffer.Format("%d",MIN_QUEUE);
+			app_prefs->SetQueueSize( atoi(buffer) );
+d296 1
+a296 1
+		app_prefs->SetMaxDownloadConperFive( atoi(buffer));
+d302 1
+a302 1
+			buffer.Format("%d",app_prefs->GetMaxConperFive());
+d307 1
+a307 1
+			buffer.Format("%d",app_prefs->GetMaxConperFive());
+d322 1
+a322 1
+		app_prefs->SetXSUpTo( atoi(buffer));
+d326 1
+a326 1
+			buffer.Format("%d",app_prefs->XSUpTo());
+d377 5
+a381 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("32");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("16");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("32");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("14");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("160");
+d385 5
+a389 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("64");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("16");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("64");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("14");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("384");
+d393 5
+a397 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("64");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("32");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("64");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("30");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("384");
+d401 5
+a405 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("96");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("16");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("96");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("14");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("512");
+d409 5
+a413 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("128");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("32");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("128");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("30");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("768");
+d417 5
+a421 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("128");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("64");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("128");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("60");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("1024");
+d425 5
+a429 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("128");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("48");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("128");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("44");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("1024");
+d433 5
+a437 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("180");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("180");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("180");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("180");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("2048");
+d441 5
+a445 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("5");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("2");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("5");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("2");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("5");
+d449 5
+a453 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("8");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("8");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("8");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("6");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("20");
+d457 5
+a461 5
+			GetDlgItem(IDC_DOWNLOAD_CAP)->SetWindowText("16");
+			GetDlgItem(IDC_UPLOAD_CAP)->SetWindowText("16");
+			GetDlgItem(IDC_MAXDOWN)->SetWindowText("16");
+			GetDlgItem(IDC_MAXUP)->SetWindowText("14");
+			GetDlgItem(IDC_MAXCON)->SetWindowText("50");
+d507 1
+a507 1
+		str.Format("%u", 200);
+d511 1
+a511 1
+		str.Format("%u", 100);
+d526 1
+a526 1
+		num=(atoi(buffer));
+d536 1
+a536 1
+			buffer.Format("%d",num);
+d545 1
+a545 1
+	char buffer[30];
+d550 1
+a550 1
+		num1= (atoi(buffer)) ? atoi(buffer) : 100;
+d552 1
+a552 1
+	strBuffer.Format("%d", num1);
+d559 1
+a559 1
+		num2=(atoi(buffer)) ? atoi(buffer) : UNLIMITED;
+d567 1
+a567 1
+		num1= (atoi(buffer)) ? atoi(buffer) : 25;
+d569 1
+a569 1
+	strBuffer.Format("%d", num1);
+d576 1
+a576 1
+		num2=(atoi(buffer)) ? atoi(buffer) : UNLIMITED;
+d579 1
+a579 1
+	strBuffer.Format("%d", num2);
+d586 1
+a586 1
+	strBuffer.Format("%d", maxDown);
+d600 1
+a600 1
+			char buffer[30];
+d605 1
+a605 1
+				tempVal= (atoi(buffer)) ? atoi(buffer)+10 : app_prefs->GetPort()+10;
+d607 1
+a607 1
+			strBuffer.Format("%d", tempVal);
+@
+
+
+1.16
+log
+@code cleanup
+@
+text
+@d237 1
+d239 1
+a239 1
+		theApp.emuledlg->ShowTransferRate(true);
+d619 1
+a619 1
+}@
+
+
+1.15
+log
+@katsyonak´s queue size fix
+@
+text
+@d188 1
+a188 1
+		char buffer[510];
+d197 1
+a197 1
+			GetDlgItem(IDC_DOWNLOAD_CAP)->GetWindowText(buffer,20);
+d202 1
+a202 1
+			GetDlgItem(IDC_UPLOAD_CAP)->GetWindowText(buffer,20);
+d208 1
+a208 1
+			GetDlgItem(IDC_MAXUP)->GetWindowText(buffer,20);
+d213 1
+a213 1
+			GetDlgItem(IDC_MAXDOWN)->GetWindowText(buffer,20);
+d219 1
+a219 1
+			GetDlgItem(IDC_PORT)->GetWindowText(buffer,20);
+d225 1
+a225 1
+			GetDlgItem(IDC_MAXCON)->GetWindowText(buffer,20);
+d231 1
+a231 1
+			GetDlgItem(IDC_UDPPORT)->GetWindowText(buffer,20);
+d271 1
+a271 1
+			GetDlgItem(IDC_MAXCON)->GetWindowText(buffer,20);
+d277 1
+a277 1
+		GetDlgItem(IDC_QUEUESIZE)->GetWindowText(buffer, 20) ;
+d282 2
+a283 2
+			sprintf(buffer, "%d",MAX_QUEUE);
+			app_prefs->SetQueueSize( atoi(buffer) );
+d288 1
+a288 1
+			sprintf(buffer, "%d",MIN_QUEUE);
+d294 1
+a294 1
+		GetDlgItem(IDC_MAXCON5)->GetWindowText(buffer, 20);
+d301 1
+a301 1
+			sprintf(buffer, "%d",app_prefs->GetMaxConperFive());
+d306 1
+a306 1
+			sprintf(buffer, "%d",app_prefs->GetMaxConperFive());
+d320 1
+a320 1
+		GetDlgItem(IDC_XSUPTO)->GetWindowText(buffer, 20);
+d325 1
+a325 1
+			sprintf(buffer, "%d",app_prefs->XSUpTo());
+d522 1
+a522 1
+		char buffer[500];
+d524 1
+a524 1
+		GetDlgItem(IDC_QUEUESIZE)->GetWindowText(buffer, 20) ;
+d531 1
+a531 1
+		sprintf(buffer,GetResString(IDS_REMOTEQUEUELIMIT),m_RQLimit);
+d535 1
+a535 1
+			sprintf(buffer, "%d",num);
+@
+
+
+1.14
+log
+@BUGFIX: 0000117
+@
+text
+@d279 13
+@
+
+
+1.14.4.1
+log
+@27c
+@
+text
+@d84 7
+a90 3
+		if( app_prefs->GetMaxUpload())
+			app_prefs->SetMaxDownload(app_prefs->GetMaxDownload());
+
+d282 1
+a282 1
+		app_prefs->SetMaxConsPerFive( atoi(buffer));
+d287 1
+a287 1
+			app_prefs->SetMaxConsPerFive(nMax);
+d295 1
+a295 1
+			app_prefs->SetMaxConsPerFive(5);
+@
+
+
+1.13
+log
+@Translation changes
+@
+text
+@d61 1
+a61 1
+	m_conprof.SetItemData(m_conprof.AddString("Custom"),0);
+d341 1
+a341 1
+		buffer.Format(IDS_REMOTEQUEUELIMIT,m_RQLimit);
+@
+
+
+1.12
+log
+@Lancast : Help other emules on your lan complete/download files quicker, saving bandwith.
+
+1) UDP broadcasts your hashs over your lan
+2) Listens for other clients sending broadcasts and adds them as sources
+3) Clients on your lan bypass the queue, and have unlimited upload (download rate is still limited by emule downlaod speed)
+@
+text
+@d349 2
+@
+
+
+1.11
+log
+@simplified control panel,added remote queue limit as an otpion
+@
+text
+@d47 1
+d143 6
+d244 3
+@
+
+
+1.10
+log
+@minimize to tray button v4a, updated connections control panel
+@
+text
+@a45 1
+	ON_EN_CHANGE(IDC_MAXSOURCEPERFILE, OnSettingsChange)
+a46 2
+	ON_EN_CHANGE(IDC_MAXSOURCEPERFILESOFT, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXSOURCEPERFILEUDP, OnSettingsChange)
+d50 3
+a52 2
+	ON_BN_CLICKED(IDC_TRF_FULL_CHUNKS, OnSettingsChange) // DonGato
+	ON_EN_CHANGE(IDC_QUEUESIZE, OnSettingsChange)	// SeeWen
+a135 28
+		if(app_prefs->GetMaxSourcePerFile() == 0xFFFF)
+			GetDlgItem(IDC_MAXSOURCEPERFILE)->SetWindowText("0");
+		else
+		{
+			strBuffer.Format("%d", app_prefs->GetMaxSourcePerFile());
+			GetDlgItem(IDC_MAXSOURCEPERFILE)->SetWindowText(strBuffer);
+		}
+		// Auto completes this option until advanced options
+		app_prefs->SetMaxSourcesPerFileSoftValue( app_prefs->GetMaxSourcePerFile() * .9);
+		//
+		if(app_prefs->GetMaxSourcesPerFileSoftValue() == 0xFFFF)
+			GetDlgItem(IDC_MAXSOURCEPERFILESOFT)->SetWindowText("0"); 
+		else
+		{
+			strBuffer.Format("%d", app_prefs->GetMaxSourcesPerFileSoftValue() ); 
+			GetDlgItem(IDC_MAXSOURCEPERFILESOFT)->SetWindowText(strBuffer); 
+		}
+		uint16 n=app_prefs->GetMaxSourcesPerFileUDPValue();
+		
+		if(n == 0xFFFF)
+			GetDlgItem(IDC_MAXSOURCEPERFILEUDP)->SetWindowText("0"); 
+		else
+		{
+			if (n>((app_prefs->IsDisabledXS())?200:100)) n=(app_prefs->IsDisabledXS())?200:100;	//Cax2 bugfix
+			strBuffer.Format("%d", n);
+			GetDlgItem(IDC_MAXSOURCEPERFILEUDP)->SetWindowText(strBuffer); 
+		}
+
+d149 2
+a150 2
+		if (app_prefs->TransferFullChunks())
+			CheckDlgButton(IDC_TRF_FULL_CHUNKS,1);
+d152 3
+a154 1
+			CheckDlgButton(IDC_TRF_FULL_CHUNKS,0);
+d165 1
+a165 1
+		DisableXS(false);
+a221 27
+		if(GetDlgItem(IDC_MAXSOURCEPERFILE)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_MAXSOURCEPERFILE)->GetWindowText(buffer,20);
+			app_prefs->SetMaxSourcePerFile( (atoi(buffer)) ? atoi(buffer) : 1);
+		}
+	
+		if(GetDlgItem(IDC_MAXSOURCEPERFILEUDP)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_MAXSOURCEPERFILEUDP)->GetWindowText(buffer,20);
+			uint16 n=atoi(buffer);		//Cax2 bugfix
+			n=n?n:100;
+			if (n>((IsDlgButtonChecked(IDC_DISABLE_XS))?200:100)) n=(IsDlgButtonChecked(IDC_DISABLE_XS))?200:100;
+			sprintf(buffer,"%d",n);
+			GetDlgItem(IDC_MAXSOURCEPERFILEUDP)->SetWindowText(buffer);
+			app_prefs->SetMaxSourcesPerFileUDPValue(n);		//Cax2 bugfix
+		}
+	
+		app_prefs->SetMaxSourcesPerFileSoftValue( app_prefs->GetMaxSourcePerFile() * .9);
+		sprintf(buffer, "%d", app_prefs->GetMaxSourcesPerFileSoftValue());
+		GetDlgItem(IDC_MAXSOURCEPERFILESOFT)->SetWindowText(buffer);
+		
+		if(GetDlgItem(IDC_MAXSOURCEPERFILESOFT)->GetWindowTextLength())
+		{ 
+			GetDlgItem(IDC_MAXSOURCEPERFILESOFT)->GetWindowText(buffer,20);
+			//app_prefs->prefs->maxsourceperfilesoft = (atoi(buffer)) ? atoi(buffer) : 0xFFFF; 
+		} 
+	
+d269 1
+a269 13
+		if (app_prefs->GetQueueSize() > MAX_QUEUE)
+		{
+			app_prefs->SetQueueSize( MAX_QUEUE );
+			sprintf(buffer, "%d",app_prefs->GetQueueSize());
+			GetDlgItem(IDC_QUEUESIZE)->SetWindowText(buffer);
+		} 
+		else if (app_prefs->GetQueueSize() < MIN_QUEUE)
+		{
+			app_prefs->SetQueueSize( MIN_QUEUE );
+			sprintf(buffer, "%d",app_prefs->GetQueueSize());
+			GetDlgItem(IDC_QUEUESIZE)->SetWindowText(buffer);
+		}
+	
+d287 3
+d295 1
+a295 1
+		app_prefs->SetTransferFullChunks((int8)IsDlgButtonChecked(IDC_TRF_FULL_CHUNKS) );
+d299 1
+a299 1
+		if (app_prefs->XSUpTo() > app_prefs->GetMaxSourcesPerFileSoftValue())
+d301 1
+a301 1
+			app_prefs->SetXSUpTo( app_prefs->GetMaxSourcesPerFileSoftValue());
+a322 2
+		GetDlgItem(IDC_MAXSRCHARD_LBL)->SetWindowText(GetResString(IDS_HARDLIMIT));
+		GetDlgItem(IDC_MAXSRCSOFT_LBL)->SetWindowText(GetResString(IDS_SOFTLIMIT));
+a328 2
+		GetDlgItem(IDC_MAXSRC_FRM)->SetWindowText(GetResString(IDS_PW_MAXSOURCES));
+		GetDlgItem(IDC_MAXSRCUDP_LBL)->SetWindowText(GetResString(IDS_MAXSRCUDP_LBL));
+d330 3
+a332 1
+		GetDlgItem(IDC_TRF_FULL_CHUNKS)->SetWindowText(GetResString(IDS_TRF_FULL_CHUNKS)); // DonGato
+d478 35
+a512 1
+	DisableXS();
+a564 20
+void CPPgConnection::DisableXS(bool setUDP)		//Cax2 bugfix
+{
+	CString str;
+	if (IsDlgButtonChecked(IDC_DISABLE_XS))
+	{
+		str.Format("%u", 200);
+		GetDlgItem(IDC_ENABLE_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+		GetDlgItem(IDC_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+	} else {
+		str.Format("%u", 100);
+		GetDlgItem(IDC_ENABLE_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+		if (!IsDlgButtonChecked(IDC_DISABLE_XS) && IsDlgButtonChecked(IDC_ENABLE_XSUPTO))
+			GetDlgItem(IDC_XSUPTO)->EnableWindow(IsDlgButtonChecked(IDC_ENABLE_XSUPTO));
+		else
+			GetDlgItem(IDC_XSUPTO)->EnableWindow(IsDlgButtonChecked(IDC_ENABLE_XSUPTO));
+	}
+	if(setUDP)
+		GetDlgItem(IDC_MAXSOURCEPERFILEUDP)->SetWindowText(str);
+	SetModified();
+}
+@
+
+
+1.9
+log
+@control panel limits, optimizations, bugfixes
+@
+text
+@d40 4
+d208 1
+d549 1
+a549 2
+	int num1, num2,tmp;
+	num1=num2=-1;
+d552 1
+a552 1
+	tmp=app_prefs->GetMaxGraphDownloadRate();
+a557 4
+	if (tmp!=num1)
+		SetModified();
+	if(num1<0)
+		num1=tmp;
+d561 1
+a561 2
+
+	tmp=app_prefs->GetMaxDownloadValue();
+d567 3
+a569 11
+	if (tmp!=num2)
+		SetModified();
+	if(num2<0)
+		num2=tmp;
+	if (num2>num1)
+	{
+		strBuffer.Format("%d", num1);
+		GetDlgItem(IDC_MAXDOWN)->SetWindowText(strBuffer);
+	}
+	num1=num2=-1;
+	tmp=app_prefs->GetMaxGraphUploadRate();
+a574 4
+	if (tmp!=num1)
+		SetModified();
+	if(num1<0)
+		num1=tmp;
+d577 2
+a578 1
+	tmp=app_prefs->GetMaxUpload();
+d584 11
+a594 9
+	if (tmp!=num2)
+		SetModified();
+	if(num2<0)
+		num2=tmp;
+	if (num2>num1)
+	{
+		strBuffer.Format("%d", num1);
+		GetDlgItem(IDC_MAXUP)->SetWindowText(strBuffer);
+	}
+@
+
+
+1.9.2.1
+log
+@v1a upgrade
+@
+text
+@a39 4
+	ON_EN_CHANGE(IDC_DOWNLOAD_CAP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_UPLOAD_CAP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXDOWN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXUP, OnSettingsChange)
+a203 1
+		OnSpeedChange();
+d544 2
+a545 1
+	int num1, num2, maxDown;
+d548 1
+a548 1
+	num1=app_prefs->GetMaxGraphDownloadRate();
+d554 4
+d561 2
+a562 1
+	num2=app_prefs->GetMaxDownloadValue();
+d568 11
+a578 3
+	maxDown= (num2>num1)?num1:num2;		//Cax2 - used at the end of the function
+
+	num1=app_prefs->GetMaxGraphUploadRate();
+d584 4
+d590 1
+a590 2
+
+	num2=app_prefs->GetMaxUpload();
+d596 9
+a604 11
+	num2= (num2>num1)?num1:num2;
+	strBuffer.Format("%d", num2);
+	GetDlgItem(IDC_MAXUP)->SetWindowText(strBuffer);
+
+	if(num2 < 4)
+		maxDown=(num2*3 < maxDown)?num2*3:maxDown;
+	if( num2 < 10)
+		maxDown=(num2*4 <maxDown)?num2*4:maxDown;
+	strBuffer.Format("%d", maxDown);
+	GetDlgItem(IDC_MAXDOWN)->SetWindowText(strBuffer);
+
+@
+
+
+1.9.2.2
+log
+@keeping in sync with the main cvs line
+@
+text
+@d46 1
+d48 2
+d53 2
+a54 3
+	ON_BN_CLICKED(IDC_LIMITQR, OnSettingsChange) // DonGato
+	ON_EN_CHANGE(IDC_QUEUESIZE, OnSettingsChange)	// SeeWen + Cax2
+	ON_EN_KILLFOCUS(IDC_QUEUESIZE, OnQueueChange)
+d138 28
+d179 2
+a180 2
+		if (app_prefs->UseRemoteQueueLimit())
+			CheckDlgButton(IDC_LIMITQR,1);
+d182 1
+a182 3
+			CheckDlgButton(IDC_LIMITQR,0);
+
+		m_RQLimit=app_prefs->GetRemoteQueueLimit();
+d193 1
+a193 1
+		OnBnClickedDisableXS();
+d250 27
+d324 13
+a336 1
+
+a353 3
+
+		app_prefs->SetRemoteQueueLimit(m_RQLimit);
+		app_prefs->UseRemoteQueueLimit((int8)IsDlgButtonChecked(IDC_LIMITQR));
+d359 1
+a359 1
+		app_prefs->UseRemoteQueueLimit((int8)IsDlgButtonChecked(IDC_LIMITQR));
+d363 1
+a363 1
+		if (app_prefs->XSUpTo() > app_prefs->GetMaxSourcePerFileSoft())
+d365 1
+a365 1
+			app_prefs->SetXSUpTo( app_prefs->GetMaxSourcePerFileSoft());
+d387 2
+d395 2
+d398 1
+a398 3
+		CString buffer;		 // Cax2 - remote queue handling
+		buffer.Format(IDS_REMOTEQUEUELIMIT,m_RQLimit);
+		GetDlgItem(IDC_LIMITQR)->SetWindowText(buffer);
+d544 1
+a544 35
+	CString str;
+	if (IsDlgButtonChecked(IDC_DISABLE_XS))
+	{
+		str.Format("%u", 200);
+		GetDlgItem(IDC_ENABLE_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+		GetDlgItem(IDC_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+	} else {
+		str.Format("%u", 100);
+		GetDlgItem(IDC_ENABLE_XSUPTO)->EnableWindow(!IsDlgButtonChecked(IDC_DISABLE_XS));
+		if (!IsDlgButtonChecked(IDC_DISABLE_XS) && IsDlgButtonChecked(IDC_ENABLE_XSUPTO))
+			GetDlgItem(IDC_XSUPTO)->EnableWindow(IsDlgButtonChecked(IDC_ENABLE_XSUPTO));
+		else
+			GetDlgItem(IDC_XSUPTO)->EnableWindow(IsDlgButtonChecked(IDC_ENABLE_XSUPTO));
+	}
+	SetModified();
+}
+
+void CPPgConnection::OnQueueChange()
+{
+		char buffer[500];
+		uint16 num;
+		GetDlgItem(IDC_QUEUESIZE)->GetWindowText(buffer, 20) ;
+		num=(atoi(buffer));
+		if (num > MAX_QUEUE)
+			num=MAX_QUEUE;
+		if (num < MIN_QUEUE)
+			num=MIN_QUEUE;
+		m_RQLimit=(num<2000)?2000:num;			//minimum possible remotequeuelimit
+		sprintf(buffer,GetResString(IDS_REMOTEQUEUELIMIT),m_RQLimit);
+		GetDlgItem(IDC_LIMITQR)->SetWindowText(buffer);
+		if(num!=app_prefs->GetQueueSize())
+		{
+			sprintf(buffer, "%d",num);
+			GetDlgItem(IDC_QUEUESIZE)->SetWindowText(buffer);
+		}
+d597 20
+@
+
+
+1.8
+log
+@fixed some localization
+@
+text
+@a33 1
+	ON_EN_CHANGE(IDC_DOWNLOAD_CAP, OnSettingsChange)
+d36 4
+a39 3
+	ON_EN_CHANGE(IDC_UPLOAD_CAP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXDOWN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_MAXUP, OnSettingsChange)
+d540 65
+@
+
+
+1.7
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d399 1
+@
+
+
+1.6
+log
+@overhead can be set in preferences now
+@
+text
+@d8 5
+@
+
+
+1.5
+log
+@control panel improvements...
+@
+text
+@d29 1
+a29 1
+	ON_EN_CHANGE(IDC_DOWNLOAD_CAP, OnEnChangeDownloadCap)
+d31 7
+a37 7
+	ON_EN_CHANGE(IDC_UDPPORT, OnEnChangePort)	//Cax2 bugfix
+	ON_EN_CHANGE(IDC_UPLOAD_CAP, OnEnChangeUploadCap)
+	ON_EN_CHANGE(IDC_MAXDOWN, OnEnChangeMaxdown)
+	ON_EN_CHANGE(IDC_MAXUP, OnEnChangeMaxup)
+	ON_EN_CHANGE(IDC_PORT, OnEnChangePort)
+	ON_EN_CHANGE(IDC_MAXCON, OnEnChangeMaxcon)
+	ON_EN_CHANGE(IDC_MAXSOURCEPERFILE, OnEnChangeMaxsourceperfile)
+d39 3
+a41 3
+	ON_EN_CHANGE(IDC_MAXSOURCEPERFILESOFT, OnEnChangeMaxsourceperfilesoft)
+	ON_EN_CHANGE(IDC_MAXSOURCEPERFILEUDP, OnEnChangeMaxsourceperfileudp)
+	ON_EN_CHANGE(IDC_MAXCON5, OnEnChangeMaxConPerSec) // DonGato
+d43 4
+a46 3
+	ON_EN_CHANGE(IDC_XSUPTO, OnEnChangeXSUpTo) // DonGato
+	ON_BN_CLICKED(IDC_TRF_FULL_CHUNKS, OnBnClickedTransferFullChunks) // DonGato
+	ON_EN_CHANGE(IDC_QUEUESIZE, OnEnChangeQueueSize)	// SeeWen
+d175 5
+d274 3
+a276 1
+	
+@
+
+
+1.4
+log
+@Removed SingleLock - no need there.
+@
+text
+@d306 1
+a306 1
+		if (app_prefs->GetQueueSize() > 2000)
+d308 1
+a308 1
+			app_prefs->SetQueueSize( 2000 );
+d312 1
+a312 1
+		else if (app_prefs->GetQueueSize() < 200)
+d314 1
+a314 1
+			app_prefs->SetQueueSize( 200 );
+@
+
+
+1.3
+log
+@bugfixes & control panel updates
+@
+text
+@d189 1
+a189 1
+	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+@
+
+
+1.2
+log
+@Updates to Preferences (and enabling/disabling options in code because of that)
+@
+text
+@d44 1
+d169 5
+d322 1
+a322 5
+		int nMax = 0;
+		if((LOBYTE(theApp.glob_prefs->GetWindowsVersion()) == 0x04))
+			nMax = 100;
+		else
+			nMax = 200;
+d341 1
+d380 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a38 1
+	ON_BN_CLICKED(IDC_THROTTLE_UPLOAD, OnBnClickedEnableThrottleUpload)
+a43 1
+	ON_BN_CLICKED(IDC_TRF_FULL_CHUNKS, OnBnClickedTransferFullChunks) // DonGato
+a159 4
+		if (app_prefs->IsThrottleUploadEnabled())
+			CheckDlgButton(IDC_THROTTLE_UPLOAD,1);
+		else
+			CheckDlgButton(IDC_THROTTLE_UPLOAD,0);
+a167 5
+		if (app_prefs->TransferFullChunks())
+			CheckDlgButton(IDC_TRF_FULL_CHUNKS,1);
+		else
+			CheckDlgButton(IDC_TRF_FULL_CHUNKS,0);
+
+d316 7
+a322 1
+		if (app_prefs->GetMaxConperFive() > 100)
+d324 1
+a324 1
+			app_prefs->SetMaxDownloadConperFive( 100);
+d332 1
+a332 1
+			app_prefs->SetMaxDownloadConperFive( 5);
+d334 1
+a334 1
+	
+a335 1
+		app_prefs->SetThrottleUploadEnabled( (int8)IsDlgButtonChecked(IDC_THROTTLE_UPLOAD) );
+a338 1
+		app_prefs->SetTransferFullChunks((int8)IsDlgButtonChecked(IDC_TRF_FULL_CHUNKS) );
+a359 1
+		
+a361 1
+
+a365 1
+		
+a367 1
+
+a369 1
+
+a371 1
+
+a374 1
+
+a376 3
+		GetDlgItem(IDC_THROTTLE_UPLOAD)->SetWindowText(GetResString(IDS_THROTTLE_UPLOAD)); // Tarod
+		GetDlgItem(IDC_TRF_FULL_CHUNKS)->SetWindowText(GetResString(IDS_TRF_FULL_CHUNKS)); // DonGato
+
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1.4.2
+log
+@updated control panes, and assorted bugfixes
+@
+text
+@d39 1
+d162 4
+d327 1
+a327 3
+		int nMax = (LOBYTE(theApp.glob_prefs->GetWindowsVersion()) == 0x04)?100:200;
+
+		if (app_prefs->GetMaxConperFive() > nMax)
+d329 1
+a329 1
+			app_prefs->SetMaxDownloadConperFive(nMax);
+d341 1
+d367 1
+d370 1
+d375 1
+d378 1
+d381 1
+d384 1
+d388 1
+d391 1
+d393 1
+@
+
+

@@ -1,0 +1,235 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.7
+	Interim_Release_1-2d_RC1:1.7
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.7
+	PublicRelease_1_2b:1.7
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.7
+	Interim_Release_1-2a_RC1:1.7
+	Interim_Release_1-2a_beta2:1.7
+	Interim_Release_1-2a_beta1:1.7
+	PublicRelease_1_2:1.7
+	Interim_Release_1-2_RC1:1.7
+	Interim_Release_1-2_beta1:1.7
+	PublicRelease_1_1g:1.7
+	Interim_Release_1-1g_RC3:1.7
+	Interim_Release_1-1g_RC2:1.7
+	Interim_Release_1-1g_RC1:1.7
+	Interim_Release_1-1g_beta2:1.7
+	Interim_Release_1-1g_beta1:1.7
+	PublicRelease_1_1f:1.7
+	Interim_Release_1-1f_RC1:1.7
+	PublicRelease_1_1e:1.7
+	Interim_Release_1-1e_RC2:1.7
+	Interim_Release_1-1e_RC1:1.7
+	Interim_Release_1-1e_beta1:1.7
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.7
+date	2005.04.11.16.32.20;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.03.22.22.02.09;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.03.13.19.29.58;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.02.23.18.57.45;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.02.05.13.57.08;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.01.29.14.55.01;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.28.20.13.53;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@v2 - logging subsystem
+@
+text
+@// TaskProcessorDB.h: interface for the CTaskProcessor_DB class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#include "../../Engine/TaskProcessor.h"
+//#include "../BerkeleyDb/build_win32/db_cxx.h"
+
+class Db;
+class DbEnv;
+
+struct StructLogLine
+{
+	EnumLogType		eType;
+	CPreciseTime	tmTime;
+	CString			sLine;
+};
+
+typedef list<StructLogLine>	LogLineList;
+
+struct CTask_AddToLog : public CTask
+{
+	CTask_AddToLog(EnumLogType eType, CPreciseTime tmTime, LPCTSTR sLine);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("AddToLog"); }
+
+	StructLogLine	m_Log;
+
+//	long	m_lTime;
+//	BOOL	m_bDebug;
+//	DbEnv	*m_pDbEnv;
+//	Db		*m_pDb;
+};
+
+class CTaskProcessor_DB : public CTaskProcessor
+{
+	virtual bool Start();
+	virtual void Stop();
+	virtual void ProcessTimeout();
+
+public:
+	CTaskProcessor_DB();
+	virtual ~CTaskProcessor_DB();
+
+	LogLineList m_LogsList;
+
+#ifdef USE_BERKELEY_DB
+	__declspec(property(get=_GetLogs)) Db& Logs;
+	Db&	_GetLogs() const { if(!m_pDbLogs) throw; return *m_pDbLogs; }
+#endif //USE_BERKELEY_DB
+
+private:
+
+#ifdef USE_BERKELEY_DB
+	DbEnv	*m_pDbEnv;		// Database environment
+	Db		*m_pDbLogs;		// Logs DB
+#endif //USE_BERKELEY_DB
+
+//	Db		*m_pDbServers;	// Servers list DB
+//	Db		*m_pDbFiles;	// Files DB
+//	Db		*m_pDbMD4Parts;	// Parts DB (for standard ed2k with MD4)
+
+	friend class CLoggable;
+};
+
+@
+
+
+1.6
+log
+@v2 - enhancing logging subsystem
+@
+text
+@d13 9
+d24 1
+a24 1
+	CTask_AddToLog(DbEnv *pDbEnv, Db *pDb, BOOL bDebug, LPCTSTR sLine);
+d28 1
+a28 3
+	long	m_lTime;
+	BOOL	m_bDebug;
+	CString	m_sLine;
+d30 4
+a33 2
+	DbEnv	*m_pDbEnv;
+	Db		*m_pDb;
+d46 3
+a49 1
+
+d51 1
+d54 2
+d58 1
+@
+
+
+1.5
+log
+@v2 - little improvements
+@
+text
+@a6 1
+//#include "../../Loggable.h"
+@
+
+
+1.4
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@d40 1
+a40 1
+	Db&	_GetLogs(){ if(!m_pDbLogs) throw; return *m_pDbLogs; }
+@
+
+
+1.3
+log
+@Connecting preferences and known/shared files
+@
+text
+@d18 1
+@
+
+
+1.2
+log
+@Xml and database functionality
+@
+text
+@d37 5
+@
+
+
+1.1
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@d33 4
+a43 4
+public:
+	CTaskProcessor_DB();
+	virtual ~CTaskProcessor_DB();
+
+@
+

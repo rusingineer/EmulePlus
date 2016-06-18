@@ -1,0 +1,5399 @@
+head	1.118;
+access;
+symbols
+	PublicRelease_1_2e:1.110
+	Interim_Release_1-2e_RC1:1.108
+	PublicRelease_1_2d:1.106
+	Interim_Release_1-2d_RC1:1.106
+	Interim_Release_1-2d_beta1:1.106
+	PublicRelease_1_2c:1.101
+	Interim_Release_1-2c_RC1:1.101
+	Interim_Release_1-2c_beta1:1.97
+	PublicRelease_1_2b:1.97
+	Interim_Release_1-2b_RC1:1.97
+	PublicRelease_1_2a:1.94
+	Interim_Release_1-2a_RC1:1.94
+	Interim_Release_1-2a_beta2:1.93
+	Interim_Release_1-2a_beta1:1.93
+	PublicRelease_1_2:1.88
+	Interim_Release_1-2_RC1:1.88
+	Interim_Release_1-2_beta1:1.87
+	PublicRelease_1_1g:1.87
+	Interim_Release_1-1g_RC3:1.87
+	Interim_Release_1-1g_RC2:1.87
+	Interim_Release_1-1g_RC1:1.87
+	Interim_Release_1-1g_beta2:1.85
+	Interim_Release_1-1g_beta1:1.85
+	PublicRelease_1_1f:1.84
+	Interim_Release_1-1f_RC1:1.84
+	PublicRelease_1_1e:1.84
+	Interim_Release_1-1e_RC2:1.84
+	Interim_Release_1-1e_RC1:1.84
+	Interim_Release_1-1e_beta1:1.84
+	PublicRelease_1_1d:1.84
+	Interim_Release_1-1d_RC1:1.84
+	PublicRelease_1_1c:1.84
+	Interim_Release_1-1c_RC1:1.84
+	Interim_Release_1-1c_beta2:1.84
+	Interim_Release_1-1c_beta1:1.81
+	PublicRelease_1_1b:1.81
+	Interim_Release_1-1b_RC1:1.81
+	PublicRelease_1_1a:1.81
+	Interim_Release_1-1a_RC2:1.81
+	Interim_Release_1-1a_RC1:1.81
+	Interim_Release_1-1a_beta2:1.81
+	Interim_Release_1-1a_beta1:1.81
+	PublicRelease_1_1:1.81
+	Interim_Release_1-1_beta1:1.81
+	PublicRelease_1o:1.81
+	Interim_Release_1o_RC1:1.81
+	Interim_Release_1o_beta1:1.81
+	PublicRelease_1n:1.81
+	Interim_Release_1n_RC2:1.81
+	Interim_Release_1n_RC1:1.81
+	Interim_Release_1n_beta2:1.81
+	Interim_Release_1n_beta1:1.80
+	PublicRelease_1m:1.79
+	Interim_Release_1m_beta1:1.79
+	PublicRelease_1l:1.79
+	Interim_Release_1l_RC3:1.78
+	Interim_Release_1l_RC2:1.77
+	Interim_Release_1l_RC1:1.77
+	Interim_Release_1l_beta2:1.77
+	Interim_Release_1l_beta1:1.75
+	PublicRelease_1k:1.73
+	Interim_Release_1k_RC4:1.73
+	Interim_1k_RC3:1.73
+	Interim_1k_RC2:1.73
+	Interim_Release_1k_RC1:1.72
+	Interim_Release_1k_beta5:1.72
+	Intrerim_Release_1k_beta4:1.72
+	Interim_Release_1k_beta1:1.68
+	PublicRelease_1j:1.57
+	Interim_Release_1J_RC3:1.57
+	Interim_Release_1j_RC3:1.57
+	Interim_Release_1j_RC2:1.57
+	Interim_Release_1j_RC1:1.57
+	Interim_Release_1j_beta2:1.57
+	Interim_Release_1j_beta1:1.57
+	PublicRelease_1i:1.52
+	Interim_Release_1i_RC6:1.52
+	Interim_Release_1i_RC3:1.51
+	Interim_Release_1i_RC2:1.51
+	Interim_Release_1i_RC1:1.51
+	Interim_Release_1i_beta3:1.51
+	Interim_Release_1i_beta2:1.48
+	Interim_Release_1i_beta1:1.43
+	PublicRelease_1h:1.41
+	Interim_Release_1h_rc2:1.41
+	Interim_Release_1h_RC1:1.41
+	Interim_Release_1h_beta2:1.40
+	Interim_Release_1h_beta1_now:1.39
+	Interim_Release_1h_beta1:1.38
+	PublicRelease_1g:1.35
+	Interim_Release_1g_RC6_Final:1.35
+	Interim_Release_1g_RC6:1.34
+	Interim_Release_1g_RC5:1.30
+	Interim_Release_1g_RC4:1.29
+	Interim_Release_1g_RC3:1.28
+	Interim_Release_1g_beta2:1.23
+	Interim_Release_1g_beta1:1.19
+	Interim_Release_1f_RC4:1.18
+	Interim_Release_1f_RC3:1.18
+	Interim_Release_1f_RC2:1.18
+	Interim_Release_1f_RC:1.18
+	Interim_Release_1f_beta2:1.18
+	Interim_Release_1f_beta1:1.16
+	PublicRelease_1e:1.16
+	Interim_Release_1e_RC2:1.16
+	Interim_Release_1e_RC:1.16
+	Interim_Release_1e_beta3:1.16
+	Interim_Release_1e_beta2:1.16
+	Interim_Release_1e_beta2_before_kuchin:1.15
+	Interim_Release_1e_beta1:1.15
+	PublicRelease_1c:1.15
+	featurestest:1.15.0.2
+	Interim_Release_1c_RC:1.15
+	Interim_Release_1c_beta2:1.14
+	Interim_Release_1c_beta1:1.14
+	threaded_downloadqueue:1.14.0.2
+	PublicRelease_1b:1.11
+	Interim_Release_1b_beta2:1.11
+	Interim_Release_1b_beta1:1.11
+	proxydeadlake:1.10.0.4
+	PublicRelease_1a:1.10
+	Interim_Release_1a_beta2:1.10
+	BerkeleyDb:1.10.0.2
+	Interim_Release_1a_beta1:1.10
+	PublicRelease_1:1.10
+	goldfish:1.10
+	eMulePlus_1_RC2:1.10
+	eMulePlus_26b_1RC1:1.10
+	PreRelease_26b_i0e:1.10
+	before_26d_merge:1.9
+	Interim_Release_26b_i0d:1.8
+	Interim_Release_26b_i0c:1.7
+	Interim_Release_26b_i0b:1.7
+	Interim_Release_26b_i0a:1.7
+	systraydlg:1.6.0.4
+	plus26based:1.6.0.2
+	Interim_Release_25b_i0b:1.6
+	Proxy_Dev:1.5
+	Interim_Release_25b_i0a:1.5.2.3
+	proxytest:1.5.2.2.0.2
+	official_sockets:1.5.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.118
+date	2011.10.20.03.35.37;	author aw3;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2011.09.29.03.24.04;	author aw3;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2009.10.30.01.59.03;	author aw3;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2009.10.28.04.34.59;	author aw3;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2009.08.01.01.45.19;	author aw3;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2009.07.26.14.06.08;	author aw3;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2009.05.30.21.11.19;	author aw3;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2009.05.26.03.53.20;	author aw3;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2009.04.10.03.37.49;	author aw3;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2009.04.08.04.05.38;	author aw3;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2008.10.28.02.41.52;	author aw3;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2008.01.14.01.15.15;	author aw3;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2008.01.11.15.34.03;	author eklmn;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2008.01.04.22.26.42;	author eklmn;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2007.11.02.14.44.54;	author kush_eplus;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2007.10.11.18.06.26;	author fuxie-dk;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2007.07.15.00.20.00;	author aw3;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2007.07.01.05.30.34;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2007.06.04.01.39.45;	author aw3;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2007.04.14.04.27.54;	author aw3;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2007.01.17.07.42.41;	author aw3;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2007.01.11.19.57.05;	author eklmn;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2006.11.16.05.52.19;	author aw3;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2006.09.07.03.20.51;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2006.04.16.23.54.13;	author kush_eplus;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2006.04.16.04.14.58;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2006.04.09.15.18.10;	author kush_eplus;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2006.04.04.22.28.40;	author kush_eplus;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2006.03.19.23.48.09;	author aw3;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2006.02.15.05.22.41;	author aw3;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2005.11.27.22.11.50;	author eklmn;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2005.08.04.03.29.40;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2005.02.16.04.57.05;	author aw3;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2005.02.04.23.41.56;	author aw3;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2005.02.01.03.58.05;	author aw3;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.08.06.13.38.16;	author eklmn;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.06.10.22.04.19;	author netwolf1;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.06.07.09.36.32;	author netwolf1;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.05.21.16.04.23;	author dongato;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.05.19.10.14.29;	author netwolf1;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.05.06.11.46.01;	author katsyonak;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.04.24.00.01.26;	author aw3;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.03.31.22.26.56;	author dropf;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.03.15.18.06.57;	author aw3;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.03.14.21.10.11;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.03.08.17.11.18;	author kush_eplus;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.02.22.20.19.04;	author kush_eplus;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.02.11.04.13.01;	author katsyonak;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.02.09.16.39.50;	author kush_eplus;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.02.06.23.00.38;	author morevit;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.02.06.19.56.10;	author morevit;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.02.03.12.53.48;	author morevit;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.02.01.16.18.59;	author morevit;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.02.01.08.22.37;	author dongato;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.02.01.03.15.15;	author morevit;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.01.31.17.54.00;	author dongato;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.01.31.12.17.08;	author morevit;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2003.12.25.16.29.23;	author dongato;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.12.18.21.52.47;	author dongato;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.11.21.20.24.58;	author eklmn;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.10.31.06.47.00;	author eklmn;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.10.29.14.14.19;	author morevit;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.10.26.12.02.51;	author eklmn;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.10.20.13.20.02;	author morevit;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.10.08.12.56.34;	author morevit;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.10.08.01.53.33;	author morevit;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.09.29.14.55.46;	author morevit;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.09.10.22.39.38;	author zegzav;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.08.23.15.47.02;	author zegzav;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.08.18.16.10.10;	author bond006;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.07.31.15.02.19;	author puritynn666;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.07.30.22.56.00;	author zegzav;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.07.30.12.29.31;	author kuchin;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.07.23.21.28.45;	author eklmn;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.07.18.17.26.55;	author eklmn;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.07.17.16.14.20;	author eklmn;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.07.14.16.27.50;	author eklmn;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.07.12.19.33.00;	author eklmn;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.07.09.18.37.20;	author eklmn;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.07.04.16.18.05;	author eklmn;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.06.19.16.48.05;	author partyckip;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.06.18.20.44.25;	author netwolf1;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.06.17.16.35.03;	author netwolf1;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.06.11.18.27.12;	author eklmn;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.06.10.09.36.47;	author kuchin;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.06.08.18.06.18;	author partyckip;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.06.08.07.36.58;	author partyckip;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.06.06.20.37.18;	author partyckip;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.06.04.19.57.49;	author partyckip;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.05.30.20.35.19;	author partyckip;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.05.08.23.20.03;	author partyckip;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.05.08.08.23.31;	author partyckip;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.04.22.12.41.52;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.03.21.12.10.19;	author partyckip;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.03.14.16.24.21;	author partyckip;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.10.16.20.01;	author cax2;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.10.16.08.50;	author cax2;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.02.28.18.43.46;	author dongato;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches
+	1.10.2.1
+	1.10.4.1;
+next	1.9;
+
+1.9
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.13.14.57.47;	author obaldin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.09.18.39.42;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.02.10.47.20;	author cax2;	state Exp;
+branches
+	1.6.2.1;
+next	1.5;
+
+1.5
+date	2003.01.24.22.07.49;	author maverick65;	state Exp;
+branches
+	1.5.2.1;
+next	1.4;
+
+1.4
+date	2003.01.23.17.00.45;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.23.12.49.06;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.17.36.37;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.22;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.2.1
+date	2003.01.28.14.55.45;	author obaldin;	state Exp;
+branches;
+next	1.5.2.2;
+
+1.5.2.2
+date	2003.01.28.22.27.10;	author maverick65;	state Exp;
+branches
+	1.5.2.2.2.1;
+next	1.5.2.3;
+
+1.5.2.3
+date	2003.01.29.10.36.29;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.2.2.2.1
+date	2003.01.28.23.51.14;	author maverick65;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2003.02.05.01.58.42;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.10.2.1
+date	2003.03.01.20.59.36;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.10.4.1
+date	2003.02.28.10.48.30;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.118
+log
+@Removed duplicate servers by IP after dyn-IP server address resolution.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "updownclient.h"
+#include "packets.h"
+#include "ServerList.h"
+#include "ServerSocket.h"
+#include "emuleDlg.h"
+#include "opcodes.h"
+#include "SearchList.h"
+#include "otherfunctions.h"
+#include "ListenSocket.h"
+#include "server.h"
+#include "SafeFile.h"
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#endif
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+#ifdef OLD_SOCKETS_ENABLED
+
+#pragma pack(1)
+struct LoginAnswer_Struct
+{
+	uint32		dwClientID;
+};
+#pragma pack()
+
+
+CServerSocket::CServerSocket(CServerConnect* in_serverconnect)
+{
+	m_pServerConnect = in_serverconnect;
+	m_iConnectionState = CS_NOTCONNECTED;
+	m_pServer = NULL;
+	m_dwOldID = 0;
+	m_dwLastTransmission = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServerSocket::~CServerSocket()
+{
+	delete m_pServer;
+	m_pServer = NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CServerSocket::OnHostNameResolved(const SOCKADDR_IN *pSockAddr)
+{
+	// If we are connecting to a dynIP-server by DN, we will get this callback after the
+	// DNS query finished
+	if (m_pServer->HasDynIP())
+	{
+		// Update the IP of this dynIP-server
+		m_pServer->SetIP(pSockAddr->sin_addr.S_un.S_addr);
+		CServer* pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+		if (pServer) {
+			pServer->SetIP(pSockAddr->sin_addr.S_un.S_addr);
+			// If we already have entries in the server list (dynIP-servers without a DN)
+			// with the same IP as this dynIP-server, remove the duplicates.
+			g_App.m_pServerList->RemoveDuplicates(pServer, true);
+		}
+	}
+	return TRUE; // Connect to this server
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	OnConnect() handles the "connect" socket notification (dispatched from AsyncSocketExHelperWindow).
+void CServerSocket::OnConnect(int nErrorCode)
+{
+	EMULE_TRY
+
+	CAsyncSocketEx::OnConnect(nErrorCode);
+
+	switch (nErrorCode)
+	{
+		case 0:	// No error
+		{
+		//	We're waiting for the server to log us in.
+			SetConnectionState(CS_WAITFORLOGIN);
+			break;
+		}
+		case WSAEADDRNOTAVAIL:	// Various errors which basically mean "we couldn't connect to the server".
+		case WSAECONNREFUSED:
+		case WSAENETUNREACH:
+		case WSAETIMEDOUT:
+		case WSAEADDRINUSE:
+			SetConnectionState(CS_SERVERDEAD);
+			return;
+		case WSAECONNABORTED:
+			if (m_bProxyConnectFailed)
+			{
+				m_bProxyConnectFailed = false;
+				SetConnectionState(CS_SERVERDEAD);
+				return;
+			}
+		default:
+		//	Some error occurred which we don't understand
+			SetConnectionState(CS_FATALERROR);
+			return;
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	OnReceive() handles the "receive" socket notification (dispatched from AsyncSocketExHelperWindow).
+void CServerSocket::OnReceive(int nErrorCode)
+{
+//	If we're not connected or connecting, ignore this.
+	if (m_iConnectionState != CS_CONNECTED && !this->m_pServerConnect->IsConnecting())
+	{
+		return;
+	}
+	CEMSocket::OnReceive(nErrorCode);
+	m_dwLastTransmission = GetTickCount();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CServerSocket::ProcessPacket(char* pcPacketBuf, uint32 dwPacketSize, EnumOpcodes eOpcode)
+{
+	try
+	{
+		switch (eOpcode)
+		{
+			case OP_SERVERMESSAGE:
+			{
+				CString	strMessages, strMessage;
+				CServer	*pServer = (m_pServer != NULL) ? g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort()) : NULL;
+
+				if (dwPacketSize >= 2)
+				{
+					UINT			uiLen = PEEK_WORD(pcPacketBuf);
+					ECodingFormat	eCF = cfLocalCodePage;
+
+					if (uiLen > dwPacketSize - 2)
+						uiLen = dwPacketSize - 2;
+
+					if ((pServer != NULL) && (pServer->GetTCPFlags() & SRV_TCPFLG_UNICODE))
+						eCF = cfUTF8;
+
+					MB2Str(eCF, &strMessages, pcPacketBuf + sizeof(uint16), uiLen);
+				}
+
+			//	16.40 servers do not send separate OP_SERVERMESSAGE packets for each line;
+			//	instead of this they are sending all text lines with one OP_SERVERMESSAGE packet.
+				int			iPos = 0;
+
+				for (;;)
+				{
+					strMessage = strMessages.Tokenize(_T("\r\n"), iPos);
+					if (strMessage.IsEmpty())
+						break;
+
+					bool bOutputMessage = true;
+
+					if (_tcsnicmp(strMessage, _T("server version"), 14) == 0)
+					{
+						CString	strVer = strMessage.Mid(14);
+
+						strVer.Trim();
+						strVer = strVer.Left(64); // truncate string to avoid misuse by servers in showing ads
+
+						if (pServer != NULL)
+						{
+							unsigned	uiVerMaj, uiVerMin;
+
+							if (_stscanf(strVer, _T("%u.%u"), &uiVerMaj, &uiVerMin) == 2)
+								strVer.Format(_T("%u.%02u"), uiVerMaj, uiVerMin);
+							pServer->SetVersion(strVer);
+							g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+						}
+					}
+					else if (_tcsncmp(strMessage, _T("ERROR"), 5) == 0)
+					{
+						AddLogLine( LOG_FL_SBAR | LOG_RGB_ERROR, _T("ERROR %s (%s:%u) - %s"),
+							(pServer != NULL) ? pServer->GetListName() : GetResString(IDS_PW_SERVER),
+							(m_pServer != NULL) ? (const TCHAR*)m_pServer->GetAddress() : _T(""),
+							(m_pServer != NULL) ? m_pServer->GetPort() : 0, strMessage.Mid(5).Trim(_T(" :")) );
+						bOutputMessage = false;
+					}
+					else if (_tcsncmp(strMessage, _T("WARNING"), 7) == 0)
+					{
+						AddLogLine( LOG_FL_SBAR | LOG_RGB_WARNING, _T("WARNING %s (%s:%u) - %s"),
+							(pServer != NULL) ? pServer->GetListName() : GetResString(IDS_PW_SERVER),
+							(m_pServer != NULL) ? (const TCHAR*)m_pServer->GetAddress() : _T(""),
+							(m_pServer != NULL) ? m_pServer->GetPort() : 0, strMessage.Mid(7).Trim(_T(" :")));
+						bOutputMessage = false;
+					}
+
+					int	iIdx1 = strMessage.Find(_T("[emDynIP: ")), iIdx2 = strMessage.Find(_T(']'));
+
+					if ((iIdx1 >= 0) && (iIdx1 < iIdx2))
+					{
+						CString	strDynIP = strMessage.Mid(iIdx1 + 10, iIdx2 - (iIdx1 + 10));
+
+						strDynIP.Trim();
+						if (strDynIP.GetLength() && strDynIP.GetLength() < 51)
+						{
+							if (pServer != NULL)
+							{
+								pServer->SetDynIP(strDynIP);
+								if (m_pServer != NULL)
+									m_pServer->SetDynIP(strDynIP);
+								g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+							}
+						}
+					}
+
+					if (bOutputMessage)
+						g_App.m_pMDlg->AddServerMessageLine(strMessage);
+				}
+				break;
+			}
+			case OP_IDCHANGE:
+			{
+				if (dwPacketSize < sizeof(LoginAnswer_Struct))
+					throw CString(_T("corrupt or invalid login answer from server received"));
+
+				uint32	dwClientID = ((LoginAnswer_Struct*)pcPacketBuf)->dwClientID;
+				byte	state;
+				CServer	*pServer = NULL;
+
+				// get & save TCP flags for current server
+				ASSERT( m_pServer );
+				if (m_pServer != NULL)
+				{
+					if (dwPacketSize >= sizeof(LoginAnswer_Struct) + 4)
+						m_pServer->SetTCPFlags(*((uint32*)(pcPacketBuf + sizeof(LoginAnswer_Struct))));
+					else
+						m_pServer->SetTCPFlags(0);
+
+					// copy TCP flags into the server in the server list
+					pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+					if (pServer != NULL)
+						pServer->SetTCPFlags(m_pServer->GetTCPFlags());
+
+					if (dwPacketSize >= sizeof(LoginAnswer_Struct) + 8)
+					{
+					//	Standard server port to be advertized to other clients
+						uint16	uPort = static_cast<uint16>(*((uint32*)(pcPacketBuf + sizeof(LoginAnswer_Struct) + 4)));
+
+						if (m_pServer->GetPort() != uPort)
+							m_pServer->SetAuxPort(m_pServer->GetPort());
+						else if (m_pServer->GetAuxPort() == uPort)
+							m_pServer->SetAuxPort(0);
+						m_pServer->SetPort(uPort);
+
+					//	Refresh the servers infos in the servers list
+						pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+						if (pServer != NULL)
+						{
+							pServer->SetAuxPort(m_pServer->GetAuxPort());
+							pServer->SetPort(m_pServer->GetPort());
+						}
+					}
+				}
+
+				uint32 dwSrvReportedIP = 0, dwObfuscationTCPPort = 0;
+
+				if (dwPacketSize >= 20)
+				{
+					dwSrvReportedIP = PEEK_DWORD(pcPacketBuf + 12);
+#if 0	//	what does IP have to do with LowID? -- doesn't look right...
+					if (::IsLowID(dwSrvReportedIP))
+						dwSrvReportedIP = 0;
+#endif
+					dwObfuscationTCPPort = PEEK_DWORD(pcPacketBuf + 16);
+					if (dwObfuscationTCPPort != 0)
+					{
+						if (m_pServer != NULL)
+							m_pServer->SetObfuscationPortTCP(static_cast<uint16>(dwObfuscationTCPPort));
+						if (pServer != NULL)
+							pServer->SetObfuscationPortTCP(static_cast<uint16>(dwObfuscationTCPPort));
+					}
+				}
+
+				if (dwClientID == 0)
+				{
+					if ((state = g_App.m_pPrefs->GetSmartIdState()) != 0)
+						g_App.m_pPrefs->SetSmartIdState(static_cast<byte>((state + 1) & 3));
+					break;
+				}
+
+				if (g_App.m_pPrefs->GetSmartIdCheck())
+				{
+					if (!IsLowID(dwClientID))
+						g_App.m_pPrefs->SetSmartIdState(1);
+					else
+					{
+						state = g_App.m_pPrefs->GetSmartIdState();
+						if (state != 0)
+						{
+							if (++state > 3)
+							{
+								g_App.m_pPrefs->SetSmartIdState(0);
+							//	Sending message when connected with lowid
+								CString strMessageText = GetResString(IDS_GOTLOWID);
+
+								g_App.m_pMDlg->SendMail(strMessageText, g_App.m_pPrefs->GetNotifierPopOnServerError(), g_App.m_pPrefs->IsSMTPWarningEnabled());
+								g_App.m_pMDlg->ShowNotifier(strMessageText, TBN_SERVER, false, g_App.m_pPrefs->GetNotifierPopOnServerError());
+							}
+							else
+							{
+								SetConnectionState(CS_ERROR);		//Cax2 - smartId bugfix
+								g_App.m_pMDlg->AddLogLine(0, IDS_GOTLOWID);
+								g_App.m_pPrefs->SetSmartIdState(state);
+							}
+							break;
+						}
+					}
+				}
+
+				if (m_iConnectionState != CS_CONNECTED)
+				{
+					SetConnectionState(CS_CONNECTED);
+					g_App.OnlineSig();
+				}
+				m_pServerConnect->SetClientID(dwClientID);
+				if (::IsLowID(dwClientID) && (dwSrvReportedIP != 0))
+					g_App.SetPublicIP(dwSrvReportedIP);
+
+				if (dwClientID != m_dwOldID)	//	Sending message if ID changed
+				{
+					m_dwOldID = dwClientID;
+
+					CString strMessageText;
+					strMessageText.Format(GetResString(IDS_NEWCLIENTID), dwClientID);
+					g_App.m_pMDlg->SendMail(strMessageText, g_App.m_pPrefs->GetNotifierPopOnServerError(), g_App.m_pPrefs->IsSMTPWarningEnabled());
+				}
+				AddLogLine(0, IDS_NEWCLIENTID, dwClientID);
+
+				g_App.m_pDownloadQueue->ResumeFiles();
+				break;
+			}
+			case OP_SEARCHRESULT:
+			{
+				bool bIsMoreResultsAvailable;
+				uint16 uResultsCount = g_App.m_pSearchList->ProcessSearchAnswer(pcPacketBuf, dwPacketSize, cfUTF8, &bIsMoreResultsAvailable, m_pServer);
+				g_App.m_pMDlg->m_dlgSearch.LocalSearchEnd(uResultsCount, bIsMoreResultsAvailable);
+				break;
+			}
+			case OP_FOUNDSOURCES_OBFU:
+			case OP_FOUNDSOURCES:
+			{
+				CMemFile		packetStream(reinterpret_cast<BYTE*>(pcPacketBuf), dwPacketSize);
+				uchar			fileHash[16];
+				CPartFile		*pPartFile;
+
+				packetStream.Read(fileHash, 16);
+
+				if ((pPartFile = g_App.m_pDownloadQueue->GetFileByID(fileHash)) != NULL)
+					pPartFile->AddServerSources( packetStream, m_pServer->GetIP(),
+						m_pServer->GetPort(), (eOpcode == OP_FOUNDSOURCES_OBFU) );
+				break;
+			}
+			case OP_SERVERSTATUS:
+			{
+				// FIXME some status packets have a different size -> why? structure?
+				if (dwPacketSize < 8)
+					break;//throw "Invalid status packet";
+				uint32	dwCurUsersNum = PEEK_DWORD(pcPacketBuf);
+				uint32	dwCurFilesNum = PEEK_DWORD(pcPacketBuf + 4);
+				CServer	*pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+				if (pServer != NULL)
+				{
+					pServer->SetUserCount(dwCurUsersNum);
+					pServer->SetFileCount(dwCurFilesNum);
+					g_App.m_pMDlg->ShowUserCount(dwCurUsersNum);
+					g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+				}
+				break;
+			}
+			case OP_SERVERIDENT:
+			{
+				// OP_SERVERIDENT - this is sent by the server only if we send a OP_GETSERVERLIST
+				if (dwPacketSize < (16 + 4 + 2 + 4))
+				{
+					AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Unknown server info received!"));
+				//	Throw "Invalid server info received";
+					break;
+				}
+
+				CServer	*pServer = (m_pServer != NULL) ? g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort()) : NULL;
+
+				if (pServer == NULL)
+					break;
+
+				byte			aucHash[16];
+				uint32			dwServerIP, dwTags;
+				uint16			nServerPort;
+				CSafeMemFile	data((BYTE*)pcPacketBuf, dwPacketSize);
+
+				data.Read(aucHash, 16);			// <hash 16>
+				data.Read(&dwServerIP, 4);		// <serverip 4>
+				data.Read(&nServerPort, 2);		// <serverport 2>
+				data.Read(&dwTags, 4);			// <tagcount 4>
+
+				CString			strName, strDescr;
+				ECodingFormat	eCF = (pServer->GetTCPFlags() & SRV_TCPFLG_UNICODE) ? cfUTF8 : cfLocalCodePage;
+
+				for (UINT i = 0; i < dwTags; i++)
+				{
+					CTag tag;
+
+					tag.FillFromStream(data, eCF);
+					if (tag.GetTagID() == ST_SERVERNAME)
+					{
+						if (tag.IsStr())
+						{
+							tag.GetStringValue(&strName);
+							strName.Remove(_T('\b'));
+							strName.Remove(_T('\r'));
+							strName.Remove(_T('\t'));
+							strName.Trim();
+						}
+					}
+					else if (tag.GetTagID() == ST_DESCRIPTION)
+					{
+						if (tag.IsStr())
+						{
+							tag.GetStringValue(&strDescr);
+							strDescr.Remove(_T('\b'));
+							strDescr.Remove(_T('\r'));
+							strDescr.Remove(_T('\t'));
+							strDescr.Trim();
+						}
+					}
+				}
+
+				if(!pServer->IsStaticMember())
+					pServer->SetListName(strName);
+				pServer->SetDescription(strDescr);
+				if (((uint32*)aucHash)[0] == 0x2A2A2A2A)
+				{
+					const CString& rstrVersion = pServer->GetVersion();
+
+					if (!rstrVersion.IsEmpty())
+						pServer->SetVersion(_T("eFarm ") + rstrVersion);
+					else
+						pServer->SetVersion(_T("eFarm"));
+				}
+				g_App.m_pMDlg->ShowConnectionState(true, pServer->GetListName());
+				g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+				break;
+			}
+			case OP_SERVERLIST:	//	Add server's Server List to own Server List
+			{
+				if (!g_App.m_pPrefs->GetAddServersFromServer())
+					break;
+				try
+				{
+					CSafeMemFile	packetStream((BYTE*)pcPacketBuf, dwPacketSize);
+					byte			byteNumServers;
+
+					packetStream.Read(&byteNumServers, 1);
+
+				//	Verify packet size: <server count 1>(<ip 4><port 2>)*count
+					if ((1u + byteNumServers * (4u + 2u)) > dwPacketSize)
+						byteNumServers = 0;
+
+					int		iAddedServers = 0;
+					uint32	dwIP;
+					uint16	uPort;
+					CString	strIP;
+
+					while (byteNumServers != 0)
+					{
+						packetStream.Read(&dwIP, 4);
+						packetStream.Read(&uPort, 2);
+						ipstr(&strIP, dwIP);
+
+						CServer		*pNewServer = new CServer(uPort, strIP);
+
+						pNewServer->SetListName(pNewServer->GetFullIP());
+						if (!g_App.m_pMDlg->m_wndServer.m_ctlServerList.AddServer(pNewServer, true))
+							delete pNewServer;
+						else
+							iAddedServers++;
+						byteNumServers--;
+					}
+					if (iAddedServers)
+						AddLogLine(0, IDS_NEWSERVERS, iAddedServers);
+				}
+			//	CFileException change to CException cause "new" also can be a reason for exception
+				catch (CException *error)
+				{
+					OUTPUT_DEBUG_TRACE();
+					AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Invalid serverlist packet received"));
+					error->Delete();
+				}
+				break;
+			}
+			case OP_CALLBACKREQUESTED:
+			{
+				if (dwPacketSize >= 6)	//	If the packet is the right size...
+				{
+					CUpDownClient	*pClient;
+					uint32			dwIP;
+					uint16			uPort;
+					byte			byteCryptOptions = 0, *pbyteUserHash;
+
+					dwIP = PEEK_DWORD(pcPacketBuf);
+					uPort = PEEK_WORD(pcPacketBuf + 4);
+					pClient = g_App.m_pClientList->FindClientByIP(dwIP, uPort);
+					if (pClient == NULL)	//	If this client is new to us...
+					{
+						try
+						{
+							pClient = new CUpDownClient(uPort, dwIP, 0, 0, NULL, UID_ED2K);
+						//	Add the new client to our client list. If successful...
+							if (g_App.m_pClientList->AddClient(pClient))
+								pClient->SetUserName(GetResString(IDS_SERVER_SOURCE));
+							else
+							{
+								delete pClient;
+								pClient = NULL;
+							}
+						}
+						catch(CMemoryException* error)
+						{
+							OUTPUT_DEBUG_TRACE();
+							error->Delete();
+						}
+					}
+					if (pClient != NULL)
+					{
+						if (dwPacketSize >= 23)
+						{
+							byteCryptOptions = pcPacketBuf[6];
+							pbyteUserHash = reinterpret_cast<byte*>(pcPacketBuf + 7);
+							if (pClient->HasValidHash())
+							{
+								if (md4cmp(pClient->GetUserHash(), pbyteUserHash) != 0)
+								{
+								//	Disable crypt support since we dont know which hash is true
+									pClient->SetConnectOptions(0);
+								}
+								else
+									pClient->SetConnectOptions(byteCryptOptions);
+							}
+							else
+							{
+								pClient->SetUserHash(pbyteUserHash);
+								pClient->SetConnectOptions(byteCryptOptions);
+							}
+						}
+						pClient->TryToConnect();
+					}
+				}
+				break;
+			}
+			case OP_REJECT:
+			{
+			//  This could happen if we send a command with the wrong protocol
+			//	(e.g. sending a compressed packet to a server which does not support that protocol)
+				AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Server rejected last command"));
+				break;
+			}
+			default:
+				;
+		}
+		return true;
+	}
+	catch(CFileException *pError)
+	{
+		OUTPUT_DEBUG_TRACE();
+		pError->m_strFileName = "server packet";
+		AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Unhandled error while processing packet from server (%s)"), GetErrorMessage(pError));
+		pError->Delete();
+		if (eOpcode == OP_SEARCHRESULT || eOpcode == OP_FOUNDSOURCES)
+			return true;
+	}
+	catch(CMemoryException *pError)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Unhandled error while processing packet from server (CMemoryException)"));
+		pError->Delete();
+		if (eOpcode == OP_SEARCHRESULT || eOpcode == OP_FOUNDSOURCES)
+			return true;
+	}
+	catch(CString strError)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Unhandled error while processing packet from server (%s)"), strError);
+	}
+	catch(...)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Unhandled error while processing packet from server (Unknown exception)"));
+	}
+
+	SetConnectionState(CS_DISCONNECTED);
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerSocket::ConnectTo(CServer *pSrv, bool bNoCrypt)
+{
+	EMULE_TRY
+
+	if (pSrv == NULL)
+		return;
+
+	safe_delete(m_pServer);	//	if m_pServer already exists, then replace it
+	m_pServer = new CServer(pSrv);
+
+	UINT	dwResStrId;
+	uint16	uConnPort;
+
+	if (!bNoCrypt && g_App.m_pPrefs->IsServerCryptLayerTCPRequested() && m_pServer->SupportsObfuscationTCP())
+	{
+		dwResStrId = IDS_CONNECTINGTOOBFUSCATED;
+		uConnPort = m_pServer->GetObfuscationPortTCP();
+#ifdef _CRYPT_READY
+		SetConnectionEncryption(true, NULL);
+#endif
+	}
+	else
+	{
+		dwResStrId = IDS_CONNECTINGTO;
+		if (g_App.m_pPrefs->IsServerAuxPortUsed() && pSrv->GetAuxPort() != 0)
+			uConnPort = m_pServer->GetAuxPort();
+		else
+			uConnPort = m_pServer->GetPort();
+#ifdef _CRYPT_READY
+		SetConnectionEncryption(false, NULL);
+#endif
+	}
+	AddLogLine(0, dwResStrId, m_pServer->GetListName(), m_pServer->GetAddress(), uConnPort);
+
+	SetConnectionState(CS_CONNECTING);
+
+//	Ensure that we're listening for the server's listening port connection attempt.
+	g_App.m_pListenSocket->RestartListening();
+
+	if (!Connect(CStringA(m_pServer->GetAddress()), uConnPort))
+	{
+		int	iError = GetLastError();
+
+		if (iError != WSAEWOULDBLOCK)
+		{
+			AddLogLine(0, IDS_ERR_CONNECTIONERROR, m_pServer->GetListName(), m_pServer->GetAddress(), uConnPort, iError);
+		//	Set the connection state and notify our ServerConnect that the connection has failed.
+			SetConnectionState(CS_FATALERROR);
+		}
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerSocket::OnError(int nErrorCode)
+{
+	EMULE_TRY
+
+	SetConnectionState(CS_DISCONNECTED);
+	AddLogLine( LOG_FL_DBG | LOG_RGB_ERROR, _T("Error in serversocket: %s (%s:%i): %u"),
+					 m_pServer->GetListName(), m_pServer->GetAddress(), m_pServer->GetPort(), nErrorCode );
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerSocket::PacketReceived(Packet* pPacket)
+{
+	EMULE_TRY
+
+//	Calculate overhead at one place before decompression
+	g_App.m_pDownloadQueue->AddDownDataOverheadServer(pPacket->m_dwSize);
+
+	if (pPacket->m_byteProtocol == OP_PACKEDPROT)
+	{
+		if (!pPacket->UnpackPacket(250000))
+		{
+			AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Failed to decompress server TCP packet: protocol=0x%02x opcode=0x%02x size=%u"),
+				pPacket ? pPacket->m_byteProtocol : 0,
+				pPacket ? pPacket->m_eOpcode : 0,
+				pPacket ? pPacket->m_dwSize : 0);
+			return;
+		}
+		pPacket->m_byteProtocol = OP_EDONKEYPROT;
+	}
+
+	if (pPacket->m_byteProtocol == OP_EDONKEYPROT)
+		ProcessPacket(pPacket->m_pcBuffer, pPacket->m_dwSize, pPacket->m_eOpcode);
+	else
+		AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Received server TCP packet with unknown protocol: protocol=0x%02x opcode=0x%02x size=%u"),
+			pPacket ? pPacket->m_byteProtocol : 0,
+			pPacket ? pPacket->m_eOpcode : 0,
+			pPacket ? pPacket->m_dwSize : 0);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerSocket::OnClose(int nErrorCode)
+{
+	NOPRM(nErrorCode);
+
+	CEMSocket::OnClose(0);
+	if (m_iConnectionState == CS_WAITFORLOGIN)
+		SetConnectionState(CS_SERVERFULL);
+	else if (m_iConnectionState == CS_CONNECTED)
+		SetConnectionState(CS_DISCONNECTED);
+	else
+		SetConnectionState(CS_NOTCONNECTED);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	SetConnectionState() sets the connection state of this server socket and notifies
+//	its associated ServerConnect of the change in state.
+void CServerSocket::SetConnectionState(int iNewState)
+{
+	EMULE_TRY
+
+	m_iConnectionState = iNewState;
+
+	if (iNewState <= 0)
+		m_pServerConnect->ConnectionFailed(this);
+	else if ((iNewState == CS_CONNECTED) || (iNewState == CS_WAITFORLOGIN))
+	{
+		if (m_pServerConnect != NULL)
+			m_pServerConnect->ConnectionEstablished(this);
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+#endif //OLD_SOCKETS_ENABLED
+@
+
+
+1.117
+log
+@Asynchronous host name resolution for dynIP servers;
+Removed strange server state change which was breaking async host name resolution -- connected state should be set only after login exchange with the server.
+@
+text
+@d68 14
+@
+
+
+1.116
+log
+@Fixed a bunch of DynIP server related issues.
+@
+text
+@d66 5
+a81 17
+			if (m_pServer->HasDynIP())
+			{
+				SOCKADDR_IN		sockAddr;
+
+				memzero(&sockAddr, sizeof(sockAddr));
+
+				int		iSockAddrLen = sizeof(sockAddr);
+
+				GetPeerName(reinterpret_cast<SOCKADDR*>(&sockAddr),&iSockAddrLen);
+				m_pServer->SetIP(sockAddr.sin_addr.S_un.S_addr);
+
+			//	Update the Server with the actual IP that we connected to
+				CServer		*pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+
+				if (pServer != NULL)
+					pServer->SetIP(sockAddr.sin_addr.S_un.S_addr);
+			}
+a645 1
+			return;
+a647 6
+//	If we connected successfully...
+	else
+	{
+	//	Set the connection state and notify our ServerConnect that the connection has been established.
+		SetConnectionState(CS_CONNECTED);
+	}
+@
+
+
+1.115
+log
+@Reduced H-file dependency.
+@
+text
+@d655 1
+a655 1
+			AddLogLine(0, IDS_ERR_CONNECTIONERROR, m_pServer->GetListName(), m_pServer->GetFullIP(), uConnPort, iError);
+d677 1
+a677 1
+					 m_pServer->GetListName(), m_pServer->GetFullIP(), m_pServer->GetPort(), nErrorCode );
+@
+
+
+1.114
+log
+@Reduced H-file dependency.
+@
+text
+@d31 3
+@
+
+
+1.113
+log
+@Ability to add LowID sources with a file from search list results (before if a local server was providing LowID source with search result they were not used).
+@
+text
+@d28 1
+@
+
+
+1.112
+log
+@Encryption preparations.
+@
+text
+@d348 1
+a348 1
+				uint16 uResultsCount = g_App.m_pSearchList->ProcessSearchAnswer(pcPacketBuf, dwPacketSize, cfUTF8, &bIsMoreResultsAvailable);
+d699 1
+a699 1
+		ProcessPacket(pPacket->m_pcBuffer,pPacket->m_dwSize,pPacket->m_eOpcode);
+@
+
+
+1.111
+log
+@Encryption preparations.
+@
+text
+@d616 23
+a638 1
+	AddLogLine(0, IDS_CONNECTINGTO, m_pServer->GetListName(), m_pServer->GetFullIP(), m_pServer->GetPort());
+d645 1
+a645 9
+//	Try to connect to 'server'. If there's an error...
+	uint16	uConnPort;
+
+	if (g_App.m_pPrefs->IsServerAuxPortUsed() && pSrv->GetAuxPort() != 0)
+		uConnPort = pSrv->GetAuxPort();
+	else
+		uConnPort = pSrv->GetPort();
+
+	if (!Connect(CStringA(pSrv->GetAddress()), uConnPort))
+@
+
+
+1.110
+log
+@Reduced H-file dependency.
+@
+text
+@d505 1
+a505 2
+			//	If the packet is the right size...
+				if (dwPacketSize == 6)
+d510 1
+d515 1
+a515 7
+
+				//	If we already know of the client, make sure we're connected to him
+					if (pClient != NULL)
+					{
+						pClient->TryToConnect();
+					}
+					else	//	If this client is new to us...
+a521 1
+							{
+a522 2
+								pClient->TryToConnect();
+							}
+d525 2
+a526 1
+								safe_delete(pClient);
+d535 24
+@
+
+
+1.109
+log
+@Reduced H-file dependency.
+@
+text
+@d29 1
+@
+
+
+1.108
+log
+@Simplified logging system implementation.
+@
+text
+@d22 1
+@
+
+
+1.107
+log
+@Reduced H-file dependency.
+@
+text
+@d183 1
+a183 1
+						AddLogLine( true, RGB_LOG_ERROR_TXT _T("ERROR %s (%s:%u) - %s"),
+d191 1
+a191 1
+						AddLogLine( true, RGB_LOG_WARNING_TXT _T("WARNING %s (%s:%u) - %s"),
+d313 1
+a313 1
+								g_App.m_pMDlg->AddLogLine(false, IDS_GOTLOWID);
+d338 1
+a338 1
+				AddLogLine(false, IDS_NEWCLIENTID, dwClientID);
+d386 1
+a386 1
+					AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Unknown server info received!"));
+d490 1
+a490 1
+						AddLogLine(false, IDS_NEWSERVERS, iAddedServers);
+d496 1
+a496 1
+					AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Invalid serverlist packet received"));
+d548 1
+a548 1
+				AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Server rejected last command"));
+d560 1
+a560 1
+		AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Unhandled error while processing packet from server (%s)"), GetErrorMessage(pError));
+d568 1
+a568 1
+		AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Unhandled error while processing packet from server (CMemoryException)"));
+d576 1
+a576 1
+		AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Unhandled error while processing packet from server (%s)"), strError);
+d581 1
+a581 1
+		AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Unhandled error while processing packet from server (Unknown exception)"));
+d598 1
+a598 1
+	AddLogLine(false, IDS_CONNECTINGTO, m_pServer->GetListName(), m_pServer->GetFullIP(), m_pServer->GetPort());
+d619 1
+a619 1
+			AddLogLine(false, IDS_ERR_CONNECTIONERROR, m_pServer->GetListName(), m_pServer->GetFullIP(), uConnPort, iError);
+d640 1
+a640 1
+	AddDebugLogLine( RGB_LOG_ERROR_TXT _T("Error in serversocket: %s (%s:%i): %u"),
+d657 1
+a657 1
+			AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Failed to decompress server TCP packet: protocol=0x%02x  opcode=0x%02x  size=%u"),
+d669 1
+a669 1
+		AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Received server TCP packet with unknown protocol: protocol=0x%02x  opcode=0x%02x  size=%u"),
+@
+
+
+1.106
+log
+@Removed server flag check, as it should be fine without it; Some formatting.
+@
+text
+@d20 1
+@
+
+
+1.105
+log
+@added Unicode support for server search
+@
+text
+@d139 1
+a139 1
+					UINT			uLen = *reinterpret_cast<uint16*>(pcPacketBuf);
+d142 2
+a143 2
+					if (uLen > dwPacketSize - 2)
+						uLen = dwPacketSize - 2;
+d148 1
+a148 1
+					MB2Str(eCF, &strMessages, pcPacketBuf + sizeof(uint16), uLen);
+d344 3
+a346 8
+				if (m_pServer != NULL)
+				{
+					bool bIsMoreResultsAvailable;
+					ECodingFormat eCF = (m_pServer->GetTCPFlags() & SRV_TCPFLG_UNICODE) ? cfUTF8 : cfLocalCodePage;
+					uint16 uResultsCount = g_App.m_pSearchList->ProcessSearchAnswer(pcPacketBuf, dwPacketSize, eCF, &bIsMoreResultsAvailable);
+
+					g_App.m_pMDlg->m_dlgSearch.LocalSearchEnd(uResultsCount, bIsMoreResultsAvailable);
+				}
+@
+
+
+1.104
+log
+@added Unicode support for OP_SERVERIDENT and OP_SERVERMESSAGE
+@
+text
+@d344 8
+a351 3
+				bool bIsMoreResultsAvailable;
+				uint16 uResultsCount = g_App.m_pSearchList->ProcessSearchAnswer(pcPacketBuf, dwPacketSize, &bIsMoreResultsAvailable);
+				g_App.m_pMDlg->m_dlgSearch.LocalSearchEnd(uResultsCount, bIsMoreResultsAvailable);
+@
+
+
+1.103
+log
+@Get rid off an unused parameter;
+Suppressed level 4 warnings.
+@
+text
+@a133 1
+			//	Fixed "OP_SERVERMESSAGE Format String Vulnerability" - from official 0.29b - bond006
+d139 2
+a140 1
+					UINT	uLen = *reinterpret_cast<uint16*>(pcPacketBuf);
+d142 7
+a148 4
+					if (uLen > dwPacketSize-2)
+						uLen = dwPacketSize-2;
+					memcpy2(strMessages.GetBuffer(uLen), pcPacketBuf + sizeof(uint16), uLen);
+					strMessages.ReleaseBuffer(uLen);
+d390 9
+a398 4
+				byte aucHash[16];
+				uint32 dwServerIP, dwTags;
+				uint16 nServerPort;
+				CSafeMemFile data((BYTE*)pcPacketBuf, dwPacketSize);
+d405 2
+a406 1
+				CString strName, strDescr;
+d412 1
+a412 1
+					tag.FillFromStream(data);
+d437 4
+a440 2
+				ASSERT( m_pServer );
+				if (m_pServer)
+d442 6
+a447 18
+					CServer* pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+					ASSERT( pServer );
+					if (pServer)
+					{
+						if(!pServer->IsStaticMember())
+							pServer->SetListName(strName);
+						pServer->SetDescription(strDescr);
+						if (((uint32*)aucHash)[0] == 0x2A2A2A2A)
+						{
+							const CString& rstrVersion = pServer->GetVersion();
+							if (!rstrVersion.IsEmpty())
+								pServer->SetVersion(_T("eFarm ") + rstrVersion);
+							else
+								pServer->SetVersion(_T("eFarm"));
+						}
+						g_App.m_pMDlg->ShowConnectionState(true,pServer->GetListName());
+						g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+					}
+d449 2
+@
+
+
+1.102
+log
+@Generate less code for some logging; Clean-up [Aw3].
+@
+text
+@d49 1
+a49 1
+	m_iOldID = 0;
+d326 1
+a326 1
+				if (dwClientID != m_iOldID)	//	Sending message if ID changed
+d328 1
+a328 1
+					m_iOldID = dwClientID;
+d372 1
+a372 1
+					g_App.m_pMDlg->ShowUserCount(dwCurUsersNum, dwCurFilesNum);
+d677 2
+@
+
+
+1.101
+log
+@Encryption preparations;
+Some generic optimization and more checks to avoid potential crashes;
+Corrected server minor version formatting for only one digit (from original).
+@
+text
+@d309 1
+a309 1
+								g_App.m_pMDlg->AddLogLine(false, GetResString(IDS_GOTLOWID));
+@
+
+
+1.100
+log
+@Encryption preparations; Code clean-up and simplification.
+@
+text
+@d130 1
+a130 1
+		switch(eOpcode)
+d135 2
+a136 1
+				CString		strMessages;
+a150 1
+				CString	strMessage = strMessages.Tokenize(_T("\r\n"), iPos);
+d152 1
+a152 1
+				while (!strMessage.IsEmpty())
+d154 4
+a166 2
+						CServer	*pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+
+d169 4
+d179 1
+a179 3
+						CServer	*pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+
+						AddLogLine(true, RGB_LOG_ERROR_TXT _T("ERROR %s (%s:%u) - %s"),
+d181 2
+a182 1
+							m_pServer->GetAddress(), m_pServer->GetPort(), strMessage.Mid(5).Trim(_T(" :")));
+d187 1
+a187 3
+						CServer	*pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+
+						AddLogLine(true, RGB_LOG_WARNING_TXT _T("WARNING %s (%s:%u) - %s"),
+d189 2
+a190 1
+							m_pServer->GetAddress(), m_pServer->GetPort(), strMessage.Mid(7).Trim(_T(" :")));
+d196 1
+a196 1
+					if ((iIdx1 != -1) && (iIdx1 < iIdx2))
+a202 2
+							CServer	*pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+
+d205 3
+a207 2
+								pServer->SetDynIP(strDynIP.GetBuffer());
+								m_pServer->SetDynIP(strDynIP.GetBuffer());
+a214 2
+
+					strMessage = strMessages.Tokenize(_T("\r\n"), iPos);
+d223 3
+a225 2
+				LoginAnswer_Struct* p_sLoginAnswer = (LoginAnswer_Struct*) pcPacketBuf;
+				byte state;
+d229 1
+a229 1
+				if (m_pServer)
+d237 2
+a238 2
+					CServer* pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+					if (pServer)
+d243 1
+d245 1
+d253 1
+a253 1
+						CServer	   *pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+d262 3
+a264 1
+				if (p_sLoginAnswer->dwClientID == 0)
+d266 7
+a272 2
+					state = g_App.m_pPrefs->GetSmartIdState();
+					if ( state > 0 )
+d274 4
+a277 5
+						state++;
+						if( state > 3 )
+							g_App.m_pPrefs->SetSmartIdState(0);
+						else
+							g_App.m_pPrefs->SetSmartIdState(state);
+d279 6
+d290 1
+a290 1
+					if (p_sLoginAnswer->dwClientID >= 0x1000000)
+d295 1
+a295 1
+						if ( state > 0 )
+d297 1
+a297 3
+							//SetConnectionState(CS_ERROR);
+							state++;
+							if( state > 3 )
+d308 2
+a309 2
+								SetConnectionState(CS_ERROR);
+								g_App.m_pMDlg->AddLogLine(false, GetResString(IDS_GOTLOWID));		//Cax2 - smartId bugfix
+d322 3
+a324 1
+				m_pServerConnect->SetClientID(p_sLoginAnswer->dwClientID);
+d326 1
+a326 1
+				if (p_sLoginAnswer->dwClientID != m_iOldID)
+d328 2
+a329 1
+					// Purity - Sending message when ID change
+d331 1
+a331 1
+					strMessageText.Format(GetResString(IDS_NEWCLIENTID), p_sLoginAnswer->dwClientID);
+d334 1
+a334 2
+				m_iOldID = p_sLoginAnswer->dwClientID;
+				AddLogLine(false, IDS_NEWCLIENTID, p_sLoginAnswer->dwClientID);
+@
+
+
+1.99
+log
+@Protection not to accept server list update from a server (before client could accept it even if it didn't request it) (original);
+Minor optimization and formatting; Encryption preparations.
+@
+text
+@d26 1
+d47 1
+a47 1
+	m_eConnectionState = CS_NOTCONNECTED;
+d118 1
+a118 1
+	if (m_eConnectionState != CS_CONNECTED && !this->m_pServerConnect->IsConnecting())
+d272 1
+a272 1
+				if( g_App.m_pPrefs->GetSmartIdCheck() )
+d303 1
+a303 1
+				if (m_eConnectionState != CS_CONNECTED)
+d570 1
+a570 1
+void CServerSocket::ConnectToServer(CServer &server)
+d574 1
+a574 1
+	if (&server == NULL)
+d577 2
+a578 4
+//	Check 'm_pServer': if object already exist, then replace it
+	safe_delete(m_pServer);
+//	Make a local copy of 'server'.
+	m_pServer = new CServer(server);
+d590 2
+a591 2
+	if (g_App.m_pPrefs->IsServerAuxPortUsed() && server.GetAuxPort() != 0)
+		uConnPort = server.GetAuxPort();
+d593 1
+a593 1
+		uConnPort = server.GetPort();
+d595 1
+a595 1
+	if (!Connect(CStringA(server.GetAddress()), uConnPort))
+d662 1
+a662 1
+	if (m_eConnectionState == CS_WAITFORLOGIN)
+d664 1
+a664 1
+	else if (m_eConnectionState == CS_CONNECTED)
+d672 1
+a672 1
+void CServerSocket::SetConnectionState(EnumServerConnectionStates eNewState)
+d676 1
+a676 1
+	m_eConnectionState = eNewState;
+d678 1
+a678 2
+	if (eNewState < 1)
+	{
+d680 1
+a680 2
+	}
+	else if (eNewState == CS_CONNECTED || eNewState == CS_WAITFORLOGIN)
+d682 1
+a682 1
+		if (m_pServerConnect)
+@
+
+
+1.98
+log
+@Corresponding structures were moved here; Minor renaming.
+@
+text
+@d329 1
+d332 1
+a332 1
+				CMemFile		packetStream(reinterpret_cast<BYTE*>(pcPacketBuf),dwPacketSize);
+d334 1
+d336 1
+a336 1
+				packetStream.Read(fileHash,16);
+d338 3
+a340 6
+				CPartFile		*pPartFile = g_App.m_pDownloadQueue->GetFileByID(fileHash);
+
+				if (pPartFile)
+				{
+					pPartFile->AddServerSources(packetStream,m_pServer->GetIP(), m_pServer->GetPort());
+				}
+d348 4
+a351 6
+				uint32 uCurrentUsersNumber;
+				uint32 uCurrentFilesNumber;
+				memcpy2(&uCurrentUsersNumber,pcPacketBuf,4);
+				memcpy2(&uCurrentFilesNumber,pcPacketBuf+4,4);
+				CServer* pServer = g_App.m_pServerList->GetServerByAddress( m_pServer->GetAddress(), m_pServer->GetPort() );
+				if (pServer)
+d353 3
+a355 3
+					pServer->SetUserCount(uCurrentUsersNumber);
+					pServer->SetFileCount(uCurrentFilesNumber);
+					g_App.m_pMDlg->ShowUserCount(uCurrentUsersNumber, uCurrentFilesNumber);
+d435 1
+a435 2
+		//	Add server's Server List to own Server List
+			case OP_SERVERLIST:
+d437 2
+d441 2
+a442 3
+					CSafeMemFile		packetStream((BYTE*)pcPacketBuf,dwPacketSize);
+
+					byte		byteNumServers;
+d446 2
+a447 3
+				//	Verify the packet size
+					if ((byteNumServers*6u + 1u) > dwPacketSize)	 // (<ip 4><port 2>)*server count, <server count 1>
+					{
+a448 1
+					}
+@
+
+
+1.97
+log
+@Ranaming and formatting.
+@
+text
+@d35 8
+d78 1
+a78 4
+				m_pServer->SetID(sockAddr.sin_addr.S_un.S_addr);
+			//
+			//	Update the Server with the actual IP that we connected to.
+				CServer		*pServer = NULL;
+d80 5
+a84 2
+				pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+				pServer->SetID(sockAddr.sin_addr.S_un.S_addr);
+d257 1
+a257 1
+				if (p_sLoginAnswer->m_dwClientID == 0)
+d273 1
+a273 1
+					if (p_sLoginAnswer->m_dwClientID >= 0x1000000 )
+d307 1
+a307 1
+				m_pServerConnect->SetClientID(p_sLoginAnswer->m_dwClientID);
+d309 1
+a309 1
+				if (p_sLoginAnswer->m_dwClientID != m_iOldID)
+d313 1
+a313 1
+					strMessageText.Format(GetResString(IDS_NEWCLIENTID),p_sLoginAnswer->m_dwClientID);
+d316 2
+a317 2
+				m_iOldID = p_sLoginAnswer->m_dwClientID;
+				AddLogLine(false, IDS_NEWCLIENTID, p_sLoginAnswer->m_dwClientID);
+d697 1
+a697 2
+
+#endif OLD_SOCKETS_ENABLED
+@
+
+
+1.96
+log
+@1) updated source exchange protocol to ver.3
+2) support of HighID clients with IP "x.x.x.0"  (see description in updownclient.h)
+3) removed dublicated ip check for LowID clients in TryToConnect()
+4) fixed a client name change by download start from remote client shared file list.
+5) some formating
+@
+text
+@d484 1
+a484 1
+					CUpDownClient		*pClient;
+d486 1
+a486 1
+					uint16			nPort;
+d488 3
+a490 4
+					memcpy(&dwIP,pcPacketBuf,4);
+					memcpy(&nPort,pcPacketBuf+4,2);
+
+					pClient = g_App.m_pClientList->FindClientByIP(dwIP,nPort);
+d497 1
+a497 2
+				//	If this client is new to us...
+					else
+d501 1
+a501 1
+							pClient = new CUpDownClient(nPort,dwIP,0,0,NULL,CIDT_ED2K);
+@
+
+
+1.95
+log
+@Simplified processing of the protocol variable.
+@
+text
+@d332 1
+a332 1
+					pPartFile->AddSources(packetStream,m_pServer->GetIP(), m_pServer->GetPort());
+d484 3
+a486 2
+					uint32		dwIP;
+					uint16		nPort;
+d488 2
+a489 2
+					memcpy2(&dwIP,pcPacketBuf,4);
+					memcpy2(&nPort,pcPacketBuf+4,2);
+d491 1
+a491 1
+					CUpDownClient		*pClient = g_App.m_pClientList->FindClientByIP(dwIP,nPort);
+d503 1
+a503 1
+							pClient = new CUpDownClient(nPort,dwIP,0,0,0);
+@
+
+
+1.94
+log
+@Removed not working 'Automatic serverconnect without proxy' feature;
+Removed unused variables and #include; Formatting.
+@
+text
+@d634 1
+a634 1
+	if (pPacket->m_eProtocol == OP_PACKEDPROT)
+d639 1
+a639 1
+				pPacket ? pPacket->m_eProtocol : 0,
+d644 1
+a644 1
+		pPacket->m_eProtocol = OP_EDONKEYPROT;
+d647 1
+a647 1
+	if (pPacket->m_eProtocol == OP_EDONKEYPROT)
+d651 1
+a651 1
+			pPacket ? pPacket->m_eProtocol : 0,
+@
+
+
+1.93
+log
+@Improved string processing; UNICODE preparation.
+@
+text
+@a24 1
+#include <time.h>
+a36 2
+	EMULE_TRY
+
+a39 1
+	m_strInfo="";
+a40 1
+	m_dwMessageCount= 0;
+a41 2
+
+	EMULE_CATCH
+a79 1
+			m_dwMessageCount = 0;
+a144 1
+					m_dwMessageCount++;
+d358 1
+a358 1
+				if (dwPacketSize<16+4+2+4)
+d366 1
+a366 1
+				uint32 nServerIP;
+a367 1
+				uint32 nTags;
+d371 1
+a371 1
+				data.Read(&nServerIP, 4);		// <serverip 4>
+d373 3
+a375 1
+				data.Read(&nTags, 4);			// <tagcount 4>
+d377 1
+a377 3
+				CString strName;
+				CString strDescription;
+				for (UINT i = 0; i < nTags; i++)
+d397 5
+a401 5
+							tag.GetStringValue(&strDescription);
+							strDescription.Remove(_T('\b'));
+							strDescription.Remove(_T('\r'));
+							strDescription.Remove(_T('\t'));
+							strDescription.Trim();
+d415 1
+a415 1
+						pServer->SetDescription(strDescription);
+a467 1
+					{
+a468 1
+					}
+a580 12
+//	If we're using proxies but "server connect without proxy" is set in Preferences...
+	if (g_App.m_pPrefs->IsProxyASCWOP())
+	{
+		if (g_App.m_pPrefs->GetProxySettings().m_bUseProxy == true)
+		{
+			g_App.m_pPrefs->SetProxyASCWOP(true);
+			g_App.m_pPrefs->SetUseProxy(false);
+			AddLogLine(false, _T("%s: %s"), GetResString(IDS_SERVERCON_WO_PROXY), GetResString(IDS_DISABLED).MakeLower());
+		}
+		else
+			g_App.m_pPrefs->SetProxyASCWOP(false);
+	}
+a608 2
+	//	Remember the server name/IP string.
+		m_strInfo = server.GetListName();
+@
+
+
+1.92
+log
+@Unicode preparations.
+@
+text
+@d175 1
+a175 1
+						AddLogLine(true, RGB_LOG_ERROR + _T("ERROR %s (%s:%u) - %s"),
+d180 2
+a181 1
+					else if (_tcsncmp(strMessage, _T("WARNING"), 7) == 0){
+d184 1
+a184 1
+						AddLogLine(true, RGB_LOG_WARNING + _T("WARNING %s (%s:%u) - %s"),
+d369 1
+a369 1
+					AddDebugLogLine(RGB_LOG_WARNING + _T("Unknown server info received!"));
+d486 1
+a486 1
+					AddDebugLogLine(RGB_LOG_WARNING + _T("Invalid serverlist packet received"));
+d539 1
+a539 1
+				AddDebugLogLine(RGB_LOG_WARNING + _T("Server rejected last command"));
+d547 1
+a547 1
+	catch(CFileException* error)
+d550 3
+a552 3
+		error->m_strFileName = "server packet";
+		AddDebugLogLine(RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (%s)"), GetErrorMessage(error));
+		error->Delete();
+d556 1
+a556 1
+	catch(CMemoryException* error)
+d559 2
+a560 2
+		AddDebugLogLine(RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (CMemoryException)"));
+		error->Delete();
+d564 1
+a564 1
+	catch(CString error)
+d567 1
+a567 1
+		AddDebugLogLine(RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (%s)"), error.GetBuffer());
+d572 1
+a572 1
+		AddDebugLogLine(RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (Unknown exception)"));
+a613 1
+	{
+a614 1
+	}
+a615 1
+	{
+a616 1
+	}
+d618 1
+a618 1
+	if (!this->Connect(server.GetAddress(),uConnPort))
+d620 1
+a620 1
+		int		iError = this->GetLastError();
+d624 1
+a624 1
+			AddLogLine(false, IDS_ERR_CONNECTIONERROR, m_pServer->GetListName(),m_pServer->GetFullIP(), uConnPort, iError);
+d647 1
+a647 1
+	AddDebugLogLine( RGB_LOG_ERROR + _T("Error in serversocket: %s (%s:%i): %u"),
+d664 1
+a664 1
+			AddDebugLogLine(RGB_LOG_WARNING + _T("Failed to decompress server TCP packet: protocol=0x%02x  opcode=0x%02x  size=%u"),
+d676 1
+a676 1
+		AddDebugLogLine(RGB_LOG_WARNING + _T("Received server TCP packet with unknown protocol: protocol=0x%02x  opcode=0x%02x  size=%u"),
+@
+
+
+1.91
+log
+@UNICODE preparations
+@
+text
+@d459 1
+d465 1
+a466 5
+						in_addr		host;
+
+						host.S_un.S_addr = dwIP;
+
+						CString		strIP(inet_ntoa(host));
+a470 1
+						{
+a471 1
+						}
+a472 1
+						{
+a473 1
+						}
+@
+
+
+1.90
+log
+@new email notifier code (adapted from original) - fully UNICODE ready;
+option to send email notification messages in subject
+@
+text
+@d149 1
+a149 1
+				CString		strMessage = strMessages.Tokenize("\r\n", iPos);
+d156 1
+a156 1
+					if (strnicmp(strMessage, "server version", 14) == 0)
+d158 2
+a159 1
+						CString strVer = strMessage.Mid(14);
+d162 4
+a165 2
+						CServer* pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+						if (pServer)
+d171 1
+a171 1
+					else if (strncmp(strMessage, "ERROR", 5) == 0)
+d173 2
+a174 1
+						CServer* pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d176 1
+a176 1
+							pServer ? pServer->GetListName() : GetResString(IDS_PW_SERVER),
+d180 3
+a182 2
+					else if (strncmp(strMessage, "WARNING", 7) == 0){
+						CServer* pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d184 1
+a184 1
+							pServer ? pServer->GetListName() : GetResString(IDS_PW_SERVER),
+d189 1
+a189 1
+					int		iIdx1 = strMessage.Find("[emDynIP: "), iIdx2 = strMessage.Find(']');
+d193 3
+a195 2
+						CString strDynIP = strMessage.Mid(iIdx1 + 10, iIdx2 - (iIdx1 + 10));
+						strDynIP.Trim(' ');
+d198 3
+a200 2
+							CServer* pServer = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+							if (pServer)
+d212 1
+a212 1
+					strMessage = strMessages.Tokenize("\r\n", iPos);
+d305 1
+a305 1
+					g_App.OnlineSig();       // Added By Bouc7
+@
+
+
+1.89
+log
+@Ranamed GetProxy into GetProxySettings.
+@
+text
+@a26 1
+#include "Smtp.h"
+d281 1
+a281 1
+								g_App.m_pSMTPConnection->SendMail(strMessageText, g_App.m_pPrefs->GetNotifierPopOnServerError(), g_App.m_pPrefs->IsSMTPWarningEnabled());
+d307 1
+a307 1
+					g_App.m_pSMTPConnection->SendMail(strMessageText, g_App.m_pPrefs->GetNotifierPopOnServerError(), g_App.m_pPrefs->IsSMTPWarningEnabled());
+@
+
+
+1.88
+log
+@Update socket layer code from original (formatting and minor changes).
+@
+text
+@d596 1
+a596 1
+		if (g_App.m_pPrefs->GetProxy().m_bUseProxy == true)
+@
+
+
+1.87
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d99 1
+a99 1
+			if (m_ProxyConnectFailed)
+d101 1
+a101 1
+				m_ProxyConnectFailed = false;
+@
+
+
+1.86
+log
+@renamed 3 variables
+@
+text
+@d253 1
+a253 1
+					state = g_App.g_pPrefs->GetSmartIdState();
+d258 1
+a258 1
+							g_App.g_pPrefs->SetSmartIdState(0);
+d260 1
+a260 1
+							g_App.g_pPrefs->SetSmartIdState(state);
+d265 1
+a265 1
+				if( g_App.g_pPrefs->GetSmartIdCheck() )
+d268 1
+a268 1
+						g_App.g_pPrefs->SetSmartIdState(1);
+d271 1
+a271 1
+						state = g_App.g_pPrefs->GetSmartIdState();
+d278 1
+a278 1
+								g_App.g_pPrefs->SetSmartIdState(0);
+d282 2
+a283 2
+								g_App.m_pSMTPConnection->SendMail(strMessageText, g_App.g_pPrefs->GetNotifierPopOnServerError(), g_App.g_pPrefs->IsSMTPWarningEnabled());
+								g_App.m_pMDlg->ShowNotifier(strMessageText, TBN_SERVER, false, g_App.g_pPrefs->GetNotifierPopOnServerError());
+d289 1
+a289 1
+								g_App.g_pPrefs->SetSmartIdState(state);
+d308 1
+a308 1
+					g_App.m_pSMTPConnection->SendMail(strMessageText, g_App.g_pPrefs->GetNotifierPopOnServerError(), g_App.g_pPrefs->IsSMTPWarningEnabled());
+d594 1
+a594 1
+	if (g_App.g_pPrefs->IsProxyASCWOP())
+d596 1
+a596 1
+		if (g_App.g_pPrefs->GetProxy().m_bUseProxy == true)
+d598 2
+a599 2
+			g_App.g_pPrefs->SetProxyASCWOP(true);
+			g_App.g_pPrefs->SetUseProxy(false);
+d603 1
+a603 1
+			g_App.g_pPrefs->SetProxyASCWOP(false);
+d613 1
+a613 1
+	if (g_App.g_pPrefs->IsServerAuxPortUsed() && server.GetAuxPort() != 0)
+@
+
+
+1.85
+log
+@Removed double #include of afxmt.h (once in stdafx.h is enough).
+@
+text
+@d83 1
+a83 1
+				pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d162 1
+a162 1
+						CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d166 1
+a166 1
+							g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d171 1
+a171 1
+						CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d178 1
+a178 1
+						CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d193 1
+a193 1
+							CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d198 1
+a198 1
+								g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d204 1
+a204 1
+						g_eMuleApp.m_pdlgEmule->AddServerMessageLine(strMessage);
+d228 1
+a228 1
+					CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+d242 1
+a242 1
+						CServer	   *pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+d253 1
+a253 1
+					state = g_eMuleApp.m_pGlobPrefs->GetSmartIdState();
+d258 1
+a258 1
+							g_eMuleApp.m_pGlobPrefs->SetSmartIdState(0);
+d260 1
+a260 1
+							g_eMuleApp.m_pGlobPrefs->SetSmartIdState(state);
+d265 1
+a265 1
+				if( g_eMuleApp.m_pGlobPrefs->GetSmartIdCheck() )
+d268 1
+a268 1
+						g_eMuleApp.m_pGlobPrefs->SetSmartIdState(1);
+d271 1
+a271 1
+						state = g_eMuleApp.m_pGlobPrefs->GetSmartIdState();
+d278 1
+a278 1
+								g_eMuleApp.m_pGlobPrefs->SetSmartIdState(0);
+d282 2
+a283 2
+								g_eMuleApp.m_pSMTPConnection->SendMail(strMessageText, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError(), g_eMuleApp.m_pGlobPrefs->IsSMTPWarningEnabled());
+								g_eMuleApp.m_pdlgEmule->ShowNotifier(strMessageText, TBN_SERVER, false, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError());
+d288 2
+a289 2
+								g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_GOTLOWID));		//Cax2 - smartId bugfix
+								g_eMuleApp.m_pGlobPrefs->SetSmartIdState(state);
+d299 1
+a299 1
+					g_eMuleApp.OnlineSig();       // Added By Bouc7
+d308 1
+a308 1
+					g_eMuleApp.m_pSMTPConnection->SendMail(strMessageText, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError(), g_eMuleApp.m_pGlobPrefs->IsSMTPWarningEnabled());
+d313 1
+a313 1
+				g_eMuleApp.m_pDownloadQueue->ResumeFiles();
+d319 2
+a320 2
+				uint16 uResultsCount = g_eMuleApp.m_pSearchList->ProcessSearchAnswer(pcPacketBuf, dwPacketSize, &bIsMoreResultsAvailable);
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.LocalSearchEnd(uResultsCount, bIsMoreResultsAvailable);
+d330 1
+a330 1
+				CPartFile		*pPartFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(fileHash);
+d347 1
+a347 1
+				CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress( m_pServer->GetAddress(), m_pServer->GetPort() );
+d352 2
+a353 2
+					g_eMuleApp.m_pdlgEmule->ShowUserCount(uCurrentUsersNumber, uCurrentFilesNumber);
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d412 1
+a412 1
+					CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d427 2
+a428 2
+						g_eMuleApp.m_pdlgEmule->ShowConnectionState(true,pServer->GetListName());
+						g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d467 1
+a467 1
+						if (!g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.AddServer(pNewServer, true))
+d502 1
+a502 1
+					CUpDownClient		*pClient = g_eMuleApp.m_pClientList->FindClientByIP(dwIP,nPort);
+d516 1
+a516 1
+							if (g_eMuleApp.m_pClientList->AddClient(pClient))
+d594 1
+a594 1
+	if (g_eMuleApp.m_pGlobPrefs->IsProxyASCWOP())
+d596 1
+a596 1
+		if (g_eMuleApp.m_pGlobPrefs->GetProxy().m_bUseProxy == true)
+d598 2
+a599 2
+			g_eMuleApp.m_pGlobPrefs->SetProxyASCWOP(true);
+			g_eMuleApp.m_pGlobPrefs->SetUseProxy(false);
+d603 1
+a603 1
+			g_eMuleApp.m_pGlobPrefs->SetProxyASCWOP(false);
+d608 1
+a608 1
+	g_eMuleApp.m_pListenSocket->RestartListening();
+d613 1
+a613 1
+	if (g_eMuleApp.m_pGlobPrefs->IsServerAuxPortUsed() && server.GetAuxPort() != 0)
+d662 1
+a662 1
+	g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(pPacket->m_dwSize);
+@
+
+
+1.84
+log
+@Changed tag interface to avoid memory leaks which could be possible with
+new tag object structure.
+@
+text
+@a17 1
+
+d21 1
+a21 1
+#include "serversocket.h"
+a25 1
+#include <afxmt.h>
+@
+
+
+1.83
+log
+@Optimized parameter tag processing (preparation and parsing).
+@
+text
+@d384 1
+a384 1
+					CTag tag(data);
+d386 1
+@
+
+
+1.82
+log
+@Preparations and minor corrections for new tag processing.
+@
+text
+@d384 2
+a385 1
+					CServerTag tag(data);
+d390 1
+a390 1
+							strName = tag.GetStringValue();
+d401 1
+a401 1
+							strDescription = tag.GetStringValue();
+@
+
+
+1.81
+log
+@fixed crash if client was added due to callback request
+@
+text
+@d385 1
+a385 1
+					if (tag.GetSpecialTag() == ST_SERVERNAME)
+d387 1
+a387 1
+						if (tag.GetType() == 2)
+d396 1
+a396 1
+					else if (tag.GetSpecialTag() == ST_DESCRIPTION)
+d398 1
+a398 1
+						if (tag.GetType() == 2)
+@
+
+
+1.80
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d518 1
+@
+
+
+1.79
+log
+@Removed debug log translations + minor additions + minor change
+@
+text
+@d364 1
+a364 1
+					AddDebugLogLine(false, RGB_LOG_WARNING + _T("Unknown server info received!"));
+d486 1
+a486 1
+					AddDebugLogLine(false, RGB_LOG_WARNING + _T("Invalid serverlist packet received"));
+d538 1
+a538 1
+				AddDebugLogLine(false, RGB_LOG_WARNING + _T("Server rejected last command"));
+d550 1
+a550 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (%s)"), GetErrorMessage(error));
+d558 1
+a558 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (CMemoryException)"));
+d566 1
+a566 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (%s)"), error.GetBuffer());
+d571 1
+a571 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + _T("Unhandled error while processing packet from server (Unknown exception)"));
+d650 2
+a651 2
+	AddDebugLogLine( false, RGB_LOG_ERROR + _T("Error in serversocket: %s (%s:%i): %u"),
+							m_pServer->GetListName(), m_pServer->GetFullIP(), m_pServer->GetPort(), nErrorCode );
+d667 1
+a667 1
+			AddDebugLogLine(false, RGB_LOG_WARNING + _T("Failed to decompress server TCP packet: protocol=0x%02x  opcode=0x%02x  size=%u"),
+d679 1
+a679 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + _T("Received server TCP packet with unknown protocol: protocol=0x%02x  opcode=0x%02x  size=%u"),
+@
+
+
+1.78
+log
+@minor change (ID change is no error or warning)
+@
+text
+@d215 1
+a215 1
+					throw GetResString(IDS_ERR_BADSERVERREPLY);
+@
+
+
+1.77
+log
+@More DebugLog formating and changes
+@
+text
+@a310 1
+					g_eMuleApp.m_pdlgEmule->ShowNotifier(strMessageText, TBN_SERVER, false, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError());
+@
+
+
+1.76
+log
+@minor changes, fixes and improvements
+@
+text
+@a158 1
+//					AddDebugLogLine(false,"Server Message: %s",strMessage);
+d365 3
+a367 2
+					AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_KNOWNSERVERINFOREC));
+					break;// throw "Invalid server info received";
+d444 1
+a444 1
+				//
+d483 2
+a484 1
+				catch (CException *error)	//eklmn: CFileException change to CException cause "new" also can be a reason for exception
+d487 2
+a488 2
+					AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_BADSERVERLISTRECEIVED));
+					error->Delete();	//memleak fix
+d529 1
+a529 1
+							error->Delete();	//memleak fix
+d537 2
+a538 2
+				// this could happen if we send a command with the wrong protocol (e.g. sending a compressed packet to
+				// a server which does not support that protocol).
+d551 1
+a551 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_PACKAGEHANDLING),GetErrorMessage(error));
+d559 1
+a559 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_PACKAGEHANDLING),_T("CMemoryException"));
+d567 1
+a567 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_PACKAGEHANDLING),error.GetBuffer());
+d572 1
+a572 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_PACKAGEHANDLING),_T("Unknown exception"));
+d651 2
+a652 1
+	AddDebugLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_SOCKET),m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort(), nErrorCode);
+d661 1
+a661 1
+	//eklmn: calculate an overhead at one place before decompression
+a665 1
+		//uint32 uComprSize = pPacket->m_dwSize;	//???
+d700 1
+a700 1
+//		its associated ServerConnect of the change in state.
+@
+
+
+1.75
+log
+@Fixed potential crash which can be caused by control characters in server name and server description.
+@
+text
+@d546 2
+a547 1
+	catch(CFileException* error){
+d552 10
+a561 1
+		return false;
+d563 2
+a564 1
+	catch(CString error){
+a566 2
+		SetConnectionState(CS_DISCONNECTED);
+		return false;
+d568 8
+@
+
+
+1.74
+log
+@Improved string processing.
+@
+text
+@d389 1
+d391 5
+d400 1
+d402 5
+@
+
+
+1.73
+log
+@added auxiliary port support from KuSh (commited with eklmn's authorization)
+@
+text
+@d282 3
+a284 3
+								// Purity - Sending message when connected with lowid
+								CString strMessageText;
+								strMessageText.Format(GetResString(IDS_GOTLOWID));
+@
+
+
+1.72
+log
+@Improved string processing
+@
+text
+@d234 18
+d581 12
+a592 1
+	if (!this->Connect(server.GetAddress(),server.GetPort()))
+d598 1
+a598 1
+			AddLogLine(false, IDS_ERR_CONNECTIONERROR, m_pServer->GetListName(),m_pServer->GetFullIP(), m_pServer->GetPort(), iError);
+@
+
+
+1.71
+log
+@Improved string processing
+@
+text
+@d188 5
+a192 2
+					if (strMessage.Find("[emDynIP: ") != (-1) && strMessage.Find("]") != (-1) && strMessage.Find("[emDynIP: ") < strMessage.Find("]")){
+						CString strDynIP = strMessage.Mid(strMessage.Find("[emDynIP: ")+10,strMessage.Find("]") - (strMessage.Find("[emDynIP: ")+10));
+d194 1
+a194 1
+						if ( strDynIP.GetLength() && strDynIP.GetLength() < 51)
+@
+
+
+1.70
+log
+@removed old search code + some fix and changes
+@
+text
+@d190 1
+a190 1
+						strDynIP.Trim(" ");
+@
+
+
+1.69
+log
+@formatting;
+more button code comitted but not compiled as default
+@
+text
+@a300 1
+#ifdef NEW_SEARCH_ENABLED
+a303 3
+#else
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.LocalSearchEnd(g_eMuleApp.m_pSearchList->ProcessSearchAnswer(pcPacketBuf,dwPacketSize));
+#endif // NEW_SEARCH_ENABLED
+@
+
+
+1.68
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d301 5
+d307 1
+@
+
+
+1.67
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d216 1
+a216 1
+				uint8 state;
+d347 1
+a347 1
+				uint8 aucHash[16];
+d406 1
+a406 1
+					uint8		byteNumServers;
+@
+
+
+1.66
+log
+@formating
+@
+text
+@d75 1
+a75 1
+				memset2(&sockAddr, 0, sizeof(sockAddr));
+@
+
+
+1.65
+log
+@Removed unnecessary IF
+@
+text
+@d50 1
+a50 1
+	
+d64 1
+a64 1
+		
+d84 1
+a84 1
+				
+d96 1
+a96 1
+		case WSAETIMEDOUT: 	
+d111 2
+a112 2
+	}	 
+	
+d175 2
+a176 2
+						AddLogLine(true, RGB_LOG_ERROR + _T("ERROR %s (%s:%u) - %s"), 
+							pServer ? pServer->GetListName() : GetResString(IDS_PW_SERVER), 
+d182 2
+a183 2
+						AddLogLine(true, RGB_LOG_WARNING + _T("WARNING %s (%s:%u) - %s"), 
+							pServer ? pServer->GetListName() : GetResString(IDS_PW_SERVER), 
+d202 1
+a202 1
+					
+d214 1
+a214 1
+				
+d232 1
+a232 1
+				
+d277 2
+a278 2
+				
+				if (m_eConnectionState != CS_CONNECTED) 
+d281 1
+a281 1
+					g_eMuleApp.OnlineSig();       // Added By Bouc7 
+d331 1
+a331 1
+					pServer->SetUserCount(uCurrentUsersNumber); 
+d341 5
+a345 5
+				if (dwPacketSize<16+4+2+4) 
+				{ 
+					AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_KNOWNSERVERINFOREC)); 
+					break;// throw "Invalid server info received"; 
+				} 
+d352 1
+a352 1
+				
+d378 1
+a378 1
+					CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort()); 
+d393 2
+a394 2
+						g_eMuleApp.m_pdlgEmule->ShowConnectionState(true,pServer->GetListName()); 
+						g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer); 
+d398 1
+a398 1
+			} 
+d442 1
+a442 1
+					}					
+d463 1
+a463 1
+					
+d466 1
+a466 1
+					
+d529 1
+a529 1
+		
+d537 1
+a537 1
+	
+d564 1
+a564 1
+			AddLogLine(false, IDS_ERR_CONNECTIONERROR, m_pServer->GetListName(),m_pServer->GetFullIP(), m_pServer->GetPort(), iError); 
+d571 1
+a571 1
+	else 
+d585 1
+a585 1
+		
+d587 2
+a588 2
+	AddDebugLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_SOCKET),m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort(), nErrorCode); 
+	
+d598 1
+a598 1
+		
+d616 1
+a616 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + _T("Received server TCP packet with unknown protocol: protocol=0x%02x  opcode=0x%02x  size=%u"), 
+d620 1
+a620 1
+	
+d630 1
+a630 1
+		SetConnectionState(CS_DISCONNECTED);		
+d640 1
+a640 1
+		
+d652 1
+a652 1
+	
+@
+
+
+1.64
+log
+@Restart listening right before trying to connect to a server. Possible Low ID fix.
+@
+text
+@d53 4
+a56 4
+
+CServerSocket::~CServerSocket(){
+	if (m_pServer)
+		delete m_pServer;
+@
+
+
+1.63
+log
+@Formatting, comments, and name changes.
+@
+text
+@d554 3
+@
+
+
+1.62
+log
+@Stop deleting my dang trace code!
+@
+text
+@d399 1
+a399 1
+			// tecxx 1609 2002 - add server's m_pServerList to own m_pServerList
+d404 1
+a404 8
+					CSafeMemFile servers((BYTE*)pcPacketBuf,dwPacketSize);
+					uint8 count;
+					servers.Read(&count, 1);// check if packet is valid 
+					if ((int32)(count*6 + 1) > dwPacketSize)	 // (servercount*(4bytes ip + 2bytes port) + 1byte servercount)
+						count = 0;
+					int iAddedServers = 0;
+					uint32 dwIP;
+					uint16 uPort;
+d406 15
+a420 1
+					while(count)
+d422 5
+a426 3
+						servers.Read(&dwIP, 4);
+						servers.Read(&uPort, 2);
+						in_addr host;
+d428 4
+a431 2
+						CString strIP(inet_ntoa(host));
+						CServer* pNewServer = new CServer(uPort, strIP);
+d434 1
+d436 1
+d438 1
+d440 2
+a441 1
+						count--;
+d444 1
+d446 1
+d448 1
+a448 1
+				catch(CException* error)	//eklmn: CFileException change toCException cause "new" also can be a reason for exception
+d458 1
+d461 2
+a462 2
+					uint32 dwIP;
+					uint16 nPort;
+d467 5
+a471 2
+					CUpDownClient* pClient = g_eMuleApp.m_pClientList->FindClientByIP(dwIP,nPort);
+					if (pClient)
+d473 2
+d480 1
+a480 1
+							//eklmn: check if client was really inserted
+d482 1
+d484 1
+d486 1
+d488 1
+@
+
+
+1.61
+log
+@Stop adding uneeded lines!
+@
+text
+@d159 1
+@
+
+
+1.60
+log
+@Formatting, comments, and name changes.
+@
+text
+@a158 1
+					AddDebugLogLine(false,"Server Message: %s",strMessage);
+@
+
+
+1.59
+log
+@Removed line not meant to be there.
+@
+text
+@d159 1
+@
+
+
+1.58
+log
+@Formatting, comments, and name changes.
+@
+text
+@a158 1
+					AddDebugLogLine(false,"Server Message: %s",strMessage);
+@
+
+
+1.57
+log
+@Fixes (Log2File, ServerList static names, Stop/Pause files)
+@
+text
+@d130 4
+a133 2
+	try{
+		switch(eOpcode){
+d136 3
+a138 2
+				//fixed "OP_SERVERMESSAGE Format String Vulnerability" - from official 0.29b - bond006
+				CString strMessages;
+d141 2
+a142 1
+					UINT uLen = *(uint16*)pcPacketBuf;
+d145 1
+a145 1
+					memcpy2(strMessages.GetBuffer(uLen), pcPacketBuf + sizeof uint16, uLen);
+d149 5
+a153 4
+				// 16.40 servers do not send separate OP_SERVERMESSAGE packets for each line;
+				// instead of this they are sending all text lines with one OP_SERVERMESSAGE packet.
+				int iPos = 0;
+				CString strMessage = strMessages.Tokenize("\r\n", iPos);
+d158 2
+d306 7
+a312 4
+				CMemFile sources((BYTE*)pcPacketBuf,dwPacketSize);
+				uchar fileid[16];
+				sources.Read(fileid,16);
+				CPartFile* pPartFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(fileid);
+d314 3
+a316 1
+					pPartFile->AddSources(sources,m_pServer->GetIP(), m_pServer->GetPort());				
+d321 1
+a321 1
+				// FIXME some statuspcPacketBufs have a different size -> why? structur?
+d353 4
+a356 4
+				data.Read(aucHash, 16);
+				data.Read(&nServerIP, 4);
+				data.Read(&nServerPort, 2);
+				data.Read(&nTags, 4);
+@
+
+
+1.56
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d370 2
+a371 1
+						pServer->SetListName(strName);
+@
+
+
+1.55
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d168 1
+a168 1
+						AddLogLine(true, RGB_RED + _T("ERROR %s (%s:%u) - %s"), 
+d175 1
+a175 1
+						AddLogLine(true, RGB_LIGHT_ORANGE + _T("WARNING %s (%s:%u) - %s"), 
+d331 1
+a331 1
+					AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_KNOWNSERVERINFOREC)); 
+d421 1
+a421 1
+					AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_BADSERVERLISTRECEIVED));
+d463 1
+a463 1
+				AddDebugLogLine(false, RGB_LIGHT_ORANGE + _T("Server rejected last command"));
+d474 1
+a474 1
+		AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_PACKAGEHANDLING),GetErrorMessage(error));
+d480 1
+a480 1
+		AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_PACKAGEHANDLING),error.GetBuffer());
+d544 1
+a544 1
+	AddDebugLogLine(false, RGB_RED + GetResString(IDS_ERR_SOCKET),m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort(), nErrorCode); 
+d561 1
+a561 1
+			AddDebugLogLine(false, RGB_LIGHT_ORANGE + _T("Failed to decompress server TCP packet: protocol=0x%02x  opcode=0x%02x  size=%u"),
+d573 1
+a573 1
+		AddDebugLogLine(false, RGB_LIGHT_ORANGE + _T("Received server TCP packet with unknown protocol: protocol=0x%02x  opcode=0x%02x  size=%u"), 
+@
+
+
+1.54
+log
+@Added some colors to the logs...
+@
+text
+@d168 1
+a168 1
+						AddLogLine(true, _T("<COLOR=255,0,0>ERROR %s (%s:%u) - %s"), 
+d175 1
+a175 1
+						AddLogLine(true, _T("<COLOR=255,102,0>WARNING %s (%s:%u) - %s"), 
+d263 1
+a263 1
+								g_eMuleApp.m_pdlgEmule->AddLogLine	(false, GetResString(IDS_GOTLOWID));		//Cax2 - smartId bugfix
+d287 1
+a287 1
+				AddLogLine(false,IDS_NEWCLIENTID,p_sLoginAnswer->m_dwClientID);
+d331 1
+a331 1
+					AddDebugLogLine(false,_T("<COLOR=255,102,0>") + GetResString(IDS_ERR_KNOWNSERVERINFOREC)); 
+d416 1
+a416 1
+						AddLogLine(false,IDS_NEWSERVERS, iAddedServers);
+d421 1
+a421 1
+					AddDebugLogLine(false,_T("<COLOR=255,102,0>") + GetResString(IDS_ERR_BADSERVERLISTRECEIVED));
+d463 1
+a463 1
+				AddDebugLogLine(false, _T("<COLOR=255,102,0>Server rejected last command"));
+d474 1
+a474 1
+		AddDebugLogLine(false,_T("<COLOR=255,102,0>") + GetResString(IDS_ERR_PACKAGEHANDLING),GetErrorMessage(error));
+d480 1
+a480 1
+		AddDebugLogLine(false,_T("<COLOR=255,102,0>") + GetResString(IDS_ERR_PACKAGEHANDLING),error.GetBuffer());
+d498 1
+a498 1
+	AddLogLine(false,IDS_CONNECTINGTO,m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort());
+d507 1
+a507 1
+			AddLogLine(false,_T("%s: %s"),GetResString(IDS_SERVERCON_WO_PROXY), GetResString(IDS_DISABLED).MakeLower());
+d521 1
+a521 1
+			AddLogLine(false,IDS_ERR_CONNECTIONERROR,m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort(), iError); 
+d544 1
+a544 1
+	AddDebugLogLine(false,_T("<COLOR=255,0,0>") + GetResString(IDS_ERR_SOCKET),m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort(), nErrorCode); 
+d561 1
+a561 1
+			AddDebugLogLine(false,_T("<COLOR=255,102,0>Failed to decompress server TCP packet: protocol=0x%02x  opcode=0x%02x  size=%u"),
+d573 1
+a573 1
+		AddDebugLogLine(false,_T("<COLOR=255,102,0>Received server TCP packet with unknown protocol: protocol=0x%02x  opcode=0x%02x  size=%u"), 
+@
+
+
+1.53
+log
+@Keep-Alive for server connections
+@
+text
+@d168 1
+a168 1
+						AddLogLine(true, _T("ERROR %s (%s:%u) - %s"), 
+d175 1
+a175 1
+						AddLogLine(true, _T("WARNING %s (%s:%u) - %s"), 
+d331 1
+a331 1
+					AddDebugLogLine(false,IDS_ERR_KNOWNSERVERINFOREC); 
+d421 1
+a421 1
+					AddDebugLogLine(false,IDS_ERR_BADSERVERLISTRECEIVED);
+d463 1
+a463 1
+				AddDebugLogLine(false, _T("Server rejected last command"));
+d474 1
+a474 1
+		AddDebugLogLine(false,IDS_ERR_PACKAGEHANDLING,GetErrorMessage(error));
+d480 1
+a480 1
+		AddDebugLogLine(false,IDS_ERR_PACKAGEHANDLING,error.GetBuffer());
+d544 1
+a544 1
+	AddDebugLogLine(false,IDS_ERR_SOCKET,m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort(), nErrorCode); 
+d561 1
+a561 1
+			AddDebugLogLine(false,_T("Failed to decompress server TCP packet: protocol=0x%02x  opcode=0x%02x  size=%u"),
+d573 1
+a573 1
+		AddDebugLogLine(false,_T("Received server TCP packet with unknown protocol: protocol=0x%02x  opcode=0x%02x  size=%u"), 
+@
+
+
+1.52
+log
+@File Type correction & related name changes
+@
+text
+@d49 1
+d125 1
+@
+
+
+1.51
+log
+@1) compession support within communicatio client<->server
+2) extended UDP file search support
+@
+text
+@d292 1
+a292 1
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.LocalSearchEnd(g_eMuleApp.m_pSearchList->ProcessSearchanswer(pcPacketBuf,dwPacketSize));
+@
+
+
+1.50
+log
+@Formatting, comments, and name changes.
+@
+text
+@d126 2
+a127 1
+bool CServerSocket::ProcessPacket(char* packet, int32 size, EnumOpcodes eOpcode){
+d130 2
+a131 3
+			case OP_SERVERMESSAGE:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				
+d133 58
+a190 28
+				CString message;
+				if (size >= 2){
+					UINT uLen = *(uint16*)packet;
+					if (uLen > size-2)
+						uLen = size-2;
+					memcpy2(message.GetBuffer(uLen), packet + sizeof uint16, uLen);
+					message.ReleaseBuffer(uLen);
+				}
+				if ((m_dwMessageCount < 2) && (message.Left(14).CompareNoCase("server version") == 0)){
+					CString strVer = message.Mid(14);
+					strVer.Trim();
+					strVer = strVer.Left(64); // truncate string to avoid misuse by servers in showing ads
+					int n= strVer.FindOneOf("\x09\x0A\x0D");
+					if (n >= 0)
+						strVer= strVer.Left(n);
+					CServer* eserver = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+					if (eserver)
+						eserver->SetVersion(strVer);
+				}
+				if (message.Find(_T("[emDynIP: ")) != (-1) && message.Find(_T("]")) != (-1) && message.Find(_T("[emDynIP: ")) < message.Find(_T("]"))){
+					CString dynip = message.Mid(message.Find(_T("[emDynIP: "))+10,message.Find(_T("]")) - (message.Find(_T("[emDynIP: "))+10));
+					dynip.Trim(_T(" "));
+					if ( dynip.GetLength() && dynip.GetLength() < 51){
+						CServer* eserver = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+						if (eserver){
+							eserver->SetDynIP(dynip.GetBuffer());
+							m_pServer->SetDynIP(dynip.GetBuffer());
+							g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*eserver);
+d193 5
+a198 2
+				g_eMuleApp.m_pdlgEmule->AddServerMessageLine(message);
+				m_dwMessageCount++;
+d201 3
+a203 3
+			case OP_IDCHANGE:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				if (size < sizeof(LoginAnswer_Struct)){
+d205 17
+d223 3
+a225 4
+				LoginAnswer_Struct* la = (LoginAnswer_Struct*) packet;
+				uint8 state;
+				if (la->m_dwClientID == 0){
+//					SetConnectionState(CS_ERROR);
+d227 2
+a228 2
+					if ( state > 0 ){
+//						SetConnectionState(CS_ERROR);
+d237 4
+a240 2
+				if( g_eMuleApp.m_pGlobPrefs->GetSmartIdCheck() ){
+					if (la->m_dwClientID >= 0x1000000 )
+d242 2
+a243 1
+					else{
+d245 3
+a247 2
+						if ( state > 0 ){
+//							SetConnectionState(CS_ERROR);
+d253 4
+a256 4
+								CString MessageText;
+								MessageText.Format(GetResString(IDS_GOTLOWID));
+								g_eMuleApp.m_pSMTPConnection->SendMail(MessageText, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError(), g_eMuleApp.m_pGlobPrefs->IsSMTPWarningEnabled());
+								g_eMuleApp.m_pdlgEmule->ShowNotifier(MessageText, TBN_SERVER, false, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError());
+d268 3
+a270 1
+				if (m_eConnectionState != CS_CONNECTED) {
+d274 3
+a276 2
+				m_pServerConnect->SetClientID(la->m_dwClientID);
+				if (la->m_dwClientID != m_iOldID)
+d279 4
+a282 4
+					CString MessageText;
+					MessageText.Format(GetResString(IDS_NEWCLIENTID),la->m_dwClientID);
+					g_eMuleApp.m_pSMTPConnection->SendMail(MessageText, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError(), g_eMuleApp.m_pGlobPrefs->IsSMTPWarningEnabled());
+					g_eMuleApp.m_pdlgEmule->ShowNotifier(MessageText, TBN_SERVER, false, g_eMuleApp.m_pGlobPrefs->GetNotifierPopOnServerError());
+d284 2
+a285 2
+				m_iOldID = la->m_dwClientID;
+				AddLogLine(false,IDS_NEWCLIENTID,la->m_dwClientID);
+a287 2
+				
+				//g_eMuleApp.m_pDownloadQueue->m_partFileList.GetCount();				
+d290 3
+a292 3
+			case OP_SEARCHRESULT:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.LocalSearchEnd(g_eMuleApp.m_pSearchList->ProcessSearchanswer(packet,size));
+d295 3
+a297 3
+			case OP_FOUNDSOURCES:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				CMemFile sources((BYTE*)packet,size);
+d300 3
+a302 2
+				if (CPartFile* file = g_eMuleApp.m_pDownloadQueue->GetFileByID(fileid))
+					file->AddSources(sources,m_pServer->GetIP(), m_pServer->GetPort());				
+d305 4
+a308 4
+			case OP_SERVERSTATUS:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				// FIXME some statuspackets have a different size -> why? structur?
+				if (size < 8)
+d310 11
+a320 10
+				uint32 cur_user;
+				uint32 cur_files;
+				memcpy2(&cur_user,packet,4);
+				memcpy2(&cur_files,packet+4,4);
+				CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress( m_pServer->GetAddress(), m_pServer->GetPort() );
+				if (update){
+					update->SetUserCount(cur_user); 
+					update->SetFileCount(cur_files);
+					g_eMuleApp.m_pdlgEmule->ShowUserCount(cur_user, cur_files);
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*update );
+d324 5
+a328 3
+			case OP_SERVERIDENT:{ 
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				if (size<16+4+2+4) { 
+d337 1
+a337 1
+				CSafeMemFile data((BYTE*)packet, size);
+d346 2
+a347 1
+				for (UINT i = 0; i < nTags; i++){
+d349 3
+a351 2
+					if (tag.GetSpecialTag() == ST_SERVERNAME){
+						if (tag.GetType() == 2){
+a352 1
+						}
+d354 3
+a356 2
+					else if (tag.GetSpecialTag() == ST_DESCRIPTION){
+						if (tag.GetType() == 2){
+a357 1
+						}
+d362 11
+a372 8
+				if (m_pServer){
+					CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort()); 
+					ASSERT( update );
+					if (update){
+						update->SetListName(strName);
+						update->SetDescription(strDescription);
+						if (((uint32*)aucHash)[0] == 0x2A2A2A2A){
+							const CString& rstrVersion = update->GetVersion();
+d374 1
+a374 1
+								update->SetVersion(_T("eFarm ") + rstrVersion);
+d376 1
+a376 1
+								update->SetVersion(_T("eFarm"));
+d378 2
+a379 2
+						g_eMuleApp.m_pdlgEmule->ShowConnectionState(true,update->GetListName()); 
+						g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*update); 
+d385 6
+a390 5
+			case OP_SERVERLIST:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				try{
+					CSafeMemFile servers((BYTE*)packet,size);
+					byte count;
+d392 1
+a392 1
+					if ((int32)(count*6 + 1) > size)	 // (servercount*(4bytes ip + 2bytes port) + 1byte servercount)
+d394 4
+a397 1
+					int addcount = 0;
+d400 2
+a401 4
+						uint32 ip;
+						unsigned short port;
+						servers.Read(&ip, 4);
+						servers.Read(&port, 2);
+d403 6
+a408 6
+						host.S_un.S_addr = ip;
+						CString s(inet_ntoa(host));
+						CServer* srv = new CServer(port, s);
+						srv->SetListName(srv->GetFullIP());
+						if (!g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.AddServer(srv, true))
+							delete srv;
+d410 1
+a410 1
+							addcount++;
+d413 2
+a414 2
+					if (addcount)
+						AddLogLine(false,IDS_NEWSERVERS, addcount);
+d416 2
+a417 1
+				catch(CFileException* error){
+d426 1
+a426 2
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(size);
+				if (size == 6)
+d431 2
+a432 2
+					memcpy2(&dwIP,packet,4);
+					memcpy2(&nPort,packet+4,2);
+d439 14
+a452 6
+						pClient = new CUpDownClient(nPort,dwIP,0,0,0);
+						//eklmn: check if client was really inserted
+						if (g_eMuleApp.m_pClientList->AddClient(pClient))
+							pClient->TryToConnect();
+						else
+							safe_delete(pClient);
+d457 7
+a510 1
+//	AddDebugLogLine(false, "-server->: Set status to CS_CONNECTING and call connect function");
+d546 2
+a547 2
+
+void CServerSocket::PacketReceived(Packet* packet)
+d550 3
+d554 21
+a574 1
+	ProcessPacket(packet->m_pcBuffer,packet->m_dwSize,packet->m_eOpcode);
+d578 3
+a580 2
+
+void CServerSocket::OnClose(int nErrorCode){
+d582 1
+a582 1
+	if (m_eConnectionState == CS_WAITFORLOGIN){	 	
+d584 1
+a584 2
+	}
+	else if (m_eConnectionState == CS_CONNECTED){
+d586 1
+a586 2
+	}
+	else{
+a587 2
+	}
+	//m_pServerConnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+@
+
+
+1.49
+log
+@stability improvements, i.e. delete a client (sorce) if addition to the client list was failed.
+@
+text
+@d175 1
+a175 1
+				if (la->clientid == 0){
+d189 1
+a189 1
+					if (la->clientid >= 0x1000000 )
+d219 2
+a220 2
+				m_pServerConnect->SetClientID(la->clientid);
+				if (la->clientid != m_iOldID)
+d224 1
+a224 1
+					MessageText.Format(GetResString(IDS_NEWCLIENTID),la->clientid);
+d228 2
+a229 2
+				m_iOldID = la->clientid;
+				AddLogLine(false,IDS_NEWCLIENTID,la->clientid);
+@
+
+
+1.48
+log
+@Formatting, comments, and name changes.
+... and a few bug fixes.
+@
+text
+@d359 2
+a360 1
+			case OP_CALLBACKREQUESTED:{
+d362 2
+a363 1
+				if (size == 6){
+d366 1
+d369 12
+a380 7
+					CUpDownClient* client = g_eMuleApp.m_pClientList->FindClientByIP(dwIP,nPort);
+					if (client)
+						client->TryToConnect();
+					else{
+						client = new CUpDownClient(nPort,dwIP,0,0,0);
+						g_eMuleApp.m_pClientList->AddClient(client);
+						client->TryToConnect();
+@
+
+
+1.47
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d189 1
+a189 1
+					if (la->clientid >= 16777216 )
+@
+
+
+1.46
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d74 1
+a74 1
+				memset(&sockAddr, 0, sizeof(sockAddr));
+@
+
+
+1.45
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d28 1
+a28 1
+#include "memcpy_amd.h"
+d138 1
+a138 5
+					#ifndef AMD
+					memcpy(message.GetBuffer(uLen), packet + sizeof uint16, uLen);
+					#else
+					memcpy_amd(message.GetBuffer(uLen), packet + sizeof uint16, uLen);
+					#endif
+d257 2
+a258 7
+				#ifndef AMD
+				memcpy(&cur_user,packet,4);
+				memcpy(&cur_files,packet+4,4);
+				#else
+				memcpy_amd(&cur_user,packet,4);
+				memcpy_amd(&cur_files,packet+4,4);
+				#endif
+d364 2
+a365 7
+					#ifndef AMD
+					memcpy(&dwIP,packet,4);
+					memcpy(&nPort,packet+4,2);
+					#else
+					memcpy_amd(&dwIP,packet,4);
+					memcpy_amd(&nPort,packet+4,2);
+					#endif
+@
+
+
+1.44
+log
+@Formatting, comments, and name changes.
+@
+text
+@d48 1
+a48 1
+	messagecount= 0;
+d58 2
+a59 1
+
+d64 10
+a73 5
+	CAsyncSocketEx::OnConnect(nErrorCode); // deadlake PROXYSUPPORT - changed to AsyncSocketEx
+	switch (nErrorCode){
+		case 0:{
+			if (m_pServer->HasDynIP()){
+				SOCKADDR_IN sockAddr;
+d75 4
+a78 2
+				uint32 nSockAddrLen = sizeof(sockAddr);
+				GetPeerName((SOCKADDR*)&sockAddr,(int*)&nSockAddrLen);
+d80 6
+a85 1
+				g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort())->SetID(sockAddr.sin_addr.S_un.S_addr);
+d87 1
+d89 1
+a89 1
+			messagecount= 0;
+d92 1
+a92 1
+		case WSAEADDRNOTAVAIL:
+a97 1
+			//m_pServerConnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+a98 1
+		// deadlake PROXYSUPPORT
+a103 1
+				//m_pServerConnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d107 1
+a108 1
+			//m_pServerConnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d114 2
+a115 1
+
+d118 3
+a120 2
+	if (m_eConnectionState != CS_CONNECTED && !this->m_pServerConnect->IsConnecting()){
+		//m_pServerConnect->DestroySocket(this);
+a123 1
+
+d125 2
+a126 2
+
+bool CServerSocket::ProcessPacket(char* packet, int32 size, int8 opcode){
+d128 1
+a128 1
+		switch(opcode){
+d145 1
+a145 1
+				if ((messagecount < 2) && (message.Left(14).CompareNoCase("server version") == 0)){
+d169 1
+a169 1
+				messagecount++;
+d298 1
+a298 1
+					CTag tag(data);
+d418 1
+a418 1
+//	Check m_pServer: if object already exist, then replace it
+d425 1
+d438 11
+a448 5
+	//AddDebugLogLine(false, "-server->: Set status to CS_CONNECTING and call connect function");
+	if (!this->Connect(server.GetAddress(),server.GetPort())){
+		int error = this->GetLastError();
+		if ( error != WSAEWOULDBLOCK){
+			AddLogLine(false,IDS_ERR_CONNECTIONERROR,m_pServer->GetListName(),m_pServer->GetFullIP(),m_pServer->GetPort(), error); 
+d453 1
+d456 3
+a458 1
+		m_strInfo=server.GetListName();
+d479 1
+a479 1
+	ProcessPacket(packet->pBuffer,packet->size,packet->opcode);
+d498 2
+@
+
+
+1.43
+log
+@Formatting, comments, and name changes.
+@
+text
+@d44 4
+a47 4
+	connectionstate = 0;
+	cur_server = NULL;
+	info="";
+	oldID = 0;
+d54 3
+a56 3
+	if (cur_server)
+		delete cur_server;
+	cur_server = NULL;
+d66 1
+a66 1
+			if (cur_server->HasDynIP()){
+d71 2
+a72 2
+				cur_server->SetID(sockAddr.sin_addr.S_un.S_addr);
+				g_eMuleApp.m_pServerList->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort())->SetID(sockAddr.sin_addr.S_un.S_addr);
+d106 1
+a106 1
+	if (connectionstate != CS_CONNECTED && !this->m_pServerConnect->IsConnecting()){
+d140 1
+a140 1
+					CServer* eserver = g_eMuleApp.m_pServerList->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort());
+d148 1
+a148 1
+						CServer* eserver = g_eMuleApp.m_pServerList->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort());
+d151 2
+a152 2
+							cur_server->SetDynIP(dynip.GetBuffer());
+							g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*eserver);
+d207 1
+a207 1
+				if (connectionstate != CS_CONNECTED) {
+d212 1
+a212 1
+				if (la->clientid != oldID)
+d220 1
+a220 1
+				oldID = la->clientid;
+d239 1
+a239 1
+					file->AddSources(sources,cur_server->GetIP(), cur_server->GetPort());				
+d256 1
+a256 1
+				CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress( cur_server->GetAddress(), cur_server->GetPort() );
+d261 1
+a261 1
+					g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*update );
+d299 3
+a301 3
+				ASSERT( cur_server );
+				if (cur_server){
+					CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort()); 
+d314 1
+a314 1
+						g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*update); 
+d340 1
+a340 1
+						if (!g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.AddServer(srv, true))
+d398 2
+a399 2
+
+void CServerSocket::ConnectToServer(CServer& server)
+d403 2
+a404 1
+	if (&server == NULL) return;	//eklmn. check NULL case
+d406 4
+a409 3
+	//check cur_server: if object already exist, then replace it
+	safe_delete(cur_server);
+	cur_server = new CServer(server);
+d411 1
+a411 1
+	AddLogLine(false,IDS_CONNECTINGTO,cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort());
+d413 1
+a413 1
+	if (g_eMuleApp.m_pGlobPrefs->IsProxyASCWOP() )
+d415 1
+a415 1
+		if (g_eMuleApp.m_pGlobPrefs->GetProxy().UseProxy == true)
+d429 1
+a429 1
+			AddLogLine(false,IDS_ERR_CONNECTIONERROR,cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort(), error); 
+d436 1
+a436 1
+		info=server.GetListName();
+d442 1
+a442 1
+
+d448 1
+a448 1
+	AddDebugLogLine(false,IDS_ERR_SOCKET,cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort(), nErrorCode); 
+d464 1
+a464 1
+	if (connectionstate == CS_WAITFORLOGIN){	 	
+d467 1
+a467 1
+	else if (connectionstate == CS_CONNECTED){
+d475 2
+a476 2
+
+void CServerSocket::SetConnectionState(sint8 newstate)
+d480 4
+a483 2
+	connectionstate = newstate;
+	if (newstate < 1){
+d486 2
+a487 1
+	else if (newstate == CS_CONNECTED || newstate == CS_WAITFORLOGIN){
+d494 1
+@
+
+
+1.42
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d225 1
+a225 1
+				//g_eMuleApp.m_pDownloadQueue->filelist.GetCount();				
+@
+
+
+1.41
+log
+@server version update
+@
+text
+@d25 1
+a25 1
+#include "searchlist.h"
+d43 1
+a43 1
+	serverconnect = in_serverconnect;
+d72 1
+a72 1
+				theApp.serverlist->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort())->SetID(sockAddr.sin_addr.S_un.S_addr);
+d84 1
+a84 1
+			//serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d92 1
+a92 1
+				//serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d97 1
+a97 1
+			//serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d106 2
+a107 2
+	if (connectionstate != CS_CONNECTED && !this->serverconnect->IsConnecting()){
+		//serverconnect->DestroySocket(this);
+d118 1
+a118 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+d140 1
+a140 1
+					CServer* eserver = theApp.serverlist->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort());
+d148 1
+a148 1
+						CServer* eserver = theApp.serverlist->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort());
+d152 1
+a152 1
+							theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*eserver);
+d156 1
+a156 1
+				theApp.emuledlg->AddServerMessageLine(message);
+d161 1
+a161 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+d169 1
+a169 1
+					state = theApp.glob_prefs->GetSmartIdState();
+d174 1
+a174 1
+							theApp.glob_prefs->SetSmartIdState(0);
+d176 1
+a176 1
+							theApp.glob_prefs->SetSmartIdState(state);
+d180 1
+a180 1
+				if( theApp.glob_prefs->GetSmartIdCheck() ){
+d182 1
+a182 1
+						theApp.glob_prefs->SetSmartIdState(1);
+d184 1
+a184 1
+						state = theApp.glob_prefs->GetSmartIdState();
+d190 1
+a190 1
+								theApp.glob_prefs->SetSmartIdState(0);
+d194 2
+a195 2
+								theApp.smtpconnection->SendMail(MessageText, theApp.glob_prefs->GetNotifierPopOnServerError(), theApp.glob_prefs->IsSMTPWarningEnabled());
+								theApp.emuledlg->ShowNotifier(MessageText, TBN_SERVER, false, theApp.glob_prefs->GetNotifierPopOnServerError());
+d200 2
+a201 2
+								theApp.emuledlg->AddLogLine	(false, GetResString(IDS_GOTLOWID));		//Cax2 - smartId bugfix
+								theApp.glob_prefs->SetSmartIdState(state);
+d209 1
+a209 1
+					theApp.OnlineSig();       // Added By Bouc7 
+d211 1
+a211 1
+				serverconnect->SetClientID(la->clientid);
+d217 2
+a218 2
+					theApp.smtpconnection->SendMail(MessageText, theApp.glob_prefs->GetNotifierPopOnServerError(), theApp.glob_prefs->IsSMTPWarningEnabled());
+					theApp.emuledlg->ShowNotifier(MessageText, TBN_SERVER, false, theApp.glob_prefs->GetNotifierPopOnServerError());
+d223 1
+a223 1
+				theApp.downloadqueue->ResumeFiles();
+d225 1
+a225 1
+				//theApp.downloadqueue->filelist.GetCount();				
+d229 2
+a230 2
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+				theApp.emuledlg->searchwnd.LocalSearchEnd(theApp.searchlist->ProcessSearchanswer(packet,size));
+d234 1
+a234 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+d238 1
+a238 1
+				if (CPartFile* file = theApp.downloadqueue->GetFileByID(fileid))
+d243 1
+a243 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+d256 1
+a256 1
+				CServer* update = theApp.serverlist->GetServerByAddress( cur_server->GetAddress(), cur_server->GetPort() );
+d260 2
+a261 2
+					theApp.emuledlg->ShowUserCount(cur_user, cur_files);
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*update );
+d266 1
+a266 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+d301 1
+a301 1
+					CServer* update = theApp.serverlist->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort()); 
+d313 2
+a314 2
+						theApp.emuledlg->ShowConnectionState(true,update->GetListName()); 
+						theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*update); 
+d319 1
+a319 1
+			// tecxx 1609 2002 - add server's serverlist to own serverlist
+d321 1
+a321 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+d340 1
+a340 1
+						if (!theApp.emuledlg->serverwnd.serverlistctrl.AddServer(srv, true))
+d357 1
+a357 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size);
+d368 1
+a368 1
+					CUpDownClient* client = theApp.clientlist->FindClientByIP(dwIP,nPort);
+d373 1
+a373 1
+						theApp.clientlist->AddClient(client);
+d411 1
+a411 1
+	if (theApp.glob_prefs->IsProxyASCWOP() )
+d413 1
+a413 1
+		if (theApp.glob_prefs->GetProxy().UseProxy == true)
+d415 2
+a416 2
+			theApp.glob_prefs->SetProxyASCWOP(true);
+			theApp.glob_prefs->SetUseProxy(false);
+d420 1
+a420 1
+			theApp.glob_prefs->SetProxyASCWOP(false);
+d471 1
+a471 1
+	//serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d480 1
+a480 1
+		serverconnect->ConnectionFailed(this);
+d483 2
+a484 2
+		if (serverconnect)
+			serverconnect->ConnectionEstablished(this);
+@
+
+
+1.40
+log
+@no message
+@
+text
+@d137 3
+@
+
+
+1.39
+log
+@- fixed security issue (OP_SERVERMESSAGE format string vulnerability)
+@
+text
+@d133 1
+a133 1
+				if ((messagecount == 0) && (message.Left(14).CompareNoCase("server version") == 0)){
+@
+
+
+1.38
+log
+@eMailNotifier and PopUp CleanUp
+@
+text
+@a115 1
+		CServer* update;
+a118 7
+				char* buffer = new char[size-1];
+				#ifndef AMD
+				memcpy(buffer,&packet[2],size-2);
+				#else
+				memcpy_amd(buffer,&packet[2],size-2);
+				#endif
+				buffer[size-2] = 0;
+d120 13
+a132 1
+				CString message(buffer);
+d153 1
+a153 1
+				theApp.emuledlg->AddServerMessageLine(buffer);
+a154 1
+				delete[] buffer;
+d159 1
+a159 1
+				if (size != sizeof(LoginAnswer_Struct)){
+d253 1
+a253 1
+				update = theApp.serverlist->GetServerByAddress( cur_server->GetAddress(), cur_server->GetPort() );
+@
+
+
+1.37
+log
+@added columns Soft/Hard Files Limit and Version in server window (merge from official)
+@
+text
+@d186 4
+a189 7
+								if(theApp.glob_prefs->IsSMTPWarningEnabled())
+								{
+									CSMTPConnection mail;
+									CString txt;
+									txt.Format(GetResString(IDS_GOTLOWID));
+									mail.SendMuleMessage(txt);
+								}
+d209 4
+a212 7
+					if(theApp.glob_prefs->IsSMTPWarningEnabled())
+					{
+						CSMTPConnection mail;
+						CString txt;
+						txt.Format(GetResString(IDS_NEWCLIENTID),la->clientid);
+						mail.SendMuleMessage(txt);
+					}
+@
+
+
+1.36
+log
+@Purity's changes
+@
+text
+@d48 1
+d75 1
+d129 8
+d150 1
+a264 1
+			//<<--Working, but needs to be cleaned up.. 
+d267 1
+a267 1
+				if (size<38) { 
+d271 46
+a316 28
+				char* buffer = new char[size-29]; 
+				CServer* update = theApp.serverlist->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort()); 
+				uint16 num,num2; 
+				TCHAR* temp=new TCHAR[size-38+1];// plus one byte for the trailing NUL char ('num' and 'num2' may be 0)
+				#ifndef AMD
+				memcpy(buffer,&packet[30],size-30);// 1st 30 char contain only server address & fillers 
+				memcpy(&num,&buffer[0],2); // length of server_name 
+				memcpy(temp,&buffer[2],num); 
+				#else
+				memcpy_amd(buffer,&packet[30],size-30);// 1st 30 char contain only server address & fillers 
+				memcpy_amd(&num,&buffer[0],2); // length of server_name 
+				memcpy_amd(temp,&buffer[2],num); 
+				#endif
+				temp[num]=0;//close the string 
+				update->SetListName(temp);
+				#ifndef AMD
+				memcpy(&num2,&buffer[num+6],2); 
+				memcpy (temp,&buffer[num+8],num2); 
+				#else
+				memcpy_amd(&num2,&buffer[num+6],2); 
+				memcpy_amd(temp,&buffer[num+8],num2); 
+				#endif
+				temp[num2]=0; //close the string 
+				update->SetDescription(temp); 
+				theApp.emuledlg->ShowConnectionState(true,update->GetListName()); 
+				theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*update); 
+				delete[] temp; 
+				delete[] buffer; 
+@
+
+
+1.35
+log
+@removed a debug output for Connection Problem
+@
+text
+@d29 1
+d47 1
+d172 1
+d174 9
+d198 12
+@
+
+
+1.34
+log
+@infinite delete loop by loosing server connection (thanks partyskip)
+@
+text
+@d371 1
+a371 1
+	AddDebugLogLine(false, "-server->: Set status to CS_CONNECTING and call connect function");
+@
+
+
+1.33
+log
+@auto reconnection fix
+@
+text
+@d80 1
+a80 1
+			serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d88 1
+a88 1
+				serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d93 1
+a93 1
+			serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+d103 1
+a103 1
+		serverconnect->DestroySocket(this);
+d419 1
+a419 1
+	serverconnect->DestroySocket(this);	//eklmn & I2K: merge CloseSocket & DestroySocket (LowID problem)
+@
+
+
+1.32
+log
+@Check NULL case by connection to server (can lead to LowID) and TRY & CATCH tags implemented
+@
+text
+@d371 1
+d380 5
+a384 2
+	info=server.GetListName();
+	SetConnectionState(CS_CONNECTING);
+@
+
+
+1.31
+log
+@small correction in ConnectToServer() to prevent incorrect deleting
+@
+text
+@d38 4
+a41 1
+CServerSocket::CServerSocket(CServerConnect* in_serverconnect){
+d46 2
+d56 4
+a59 1
+void CServerSocket::OnConnect(int nErrorCode){
+d96 2
+d100 2
+a101 1
+void CServerSocket::OnReceive(int nErrorCode){
+d349 4
+d354 1
+a354 4
+	if (cur_server) {
+		delete cur_server;
+		cur_server = NULL;
+	}
+d381 2
+d385 4
+a388 1
+void CServerSocket::OnError(int nErrorCode){
+d391 2
+d395 4
+a398 1
+void CServerSocket::PacketReceived(Packet* packet){
+d400 2
+d418 4
+a421 1
+void CServerSocket::SetConnectionState(sint8 newstate){
+d430 2
+@
+
+
+1.30
+log
+@memleak due reconnection to another server (Netwolf)
+@
+text
+@d339 4
+a342 1
+	if (cur_server) delete cur_server;
+@
+
+
+1.29
+log
+@merge CloseSocket & DestroySocket (LowID problem)
+@
+text
+@d41 1
+a41 1
+	cur_server = 0;
+d336 4
+a339 1
+void CServerSocket::ConnectToServer(CServer& server){
+d341 1
+@
+
+
+1.28
+log
+@unicode cleanup
+@
+text
+@a70 1
+			serverconnect->CloseSocket(this);
+d72 1
+a72 1
+			delete this;
+a78 1
+				serverconnect->CloseSocket(this);
+d80 1
+a80 1
+				delete this;
+a83 1
+			serverconnect->CloseSocket(this);
+d85 1
+a85 1
+			delete this;
+a374 2
+
+	serverconnect->CloseSocket(this);
+d384 1
+a384 1
+	delete this;
+@
+
+
+1.27
+log
+@minor log fix
+@
+text
+@d117 3
+a119 3
+				if (message.Find("[emDynIP: ") != (-1) && message.Find("]") != (-1) && message.Find("[emDynIP: ") < message.Find("]")){
+					CString dynip = message.Mid(message.Find("[emDynIP: ")+10,message.Find("]") - (message.Find("[emDynIP: ")+10));
+					dynip.Trim(" ");
+d232 1
+a232 1
+				char* temp=new char[size-38+1];// plus one byte for the trailing NUL char ('num' and 'num2' may be 0)
+d277 2
+a278 1
+						CServer* srv = new CServer(port, inet_ntoa(host));
+@
+
+
+1.26
+log
+@some more localizations...
+@
+text
+@d348 1
+a348 1
+			AddLogLine(false,IDS_SERVERCON_WO_PROXY+IDS_DISABLED);
+@
+
+
+1.25
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d348 1
+a348 1
+			AddLogLine(false,_T("Automatic serverconnect without proxy ")+GetResString(IDS_DISABLED));
+@
+
+
+1.24
+log
+@Preparing for new sockets
+@
+text
+@d28 1
+d109 1
+d111 3
+d205 2
+a207 1
+				uint32 cur_files;
+d209 4
+d233 1
+d237 5
+d243 2
+a244 1
+				update->SetListName(temp); 
+d247 4
+d299 2
+a301 1
+					uint16 nPort;
+d303 4
+@
+
+
+1.23
+log
+@converted to helper function GetErrorMessage
+@
+text
+@d35 1
+d375 2
+@
+
+
+1.22
+log
+@converted to new logger methods
+@
+text
+@a297 1
+		char szError[256];
+d299 1
+a299 2
+		error->GetErrorMessage(szError,sizeof(szError));
+		AddDebugLogLine(false,IDS_ERR_PACKAGEHANDLING,szError);
+@
+
+
+1.21
+log
+@code cleanup
+@
+text
+@d172 1
+a172 1
+				AddLogLine(false,GetResString(IDS_NEWCLIENTID),la->clientid);
+d215 1
+a215 1
+					AddDebugLogLine(false,GetResString(IDS_ERR_KNOWNSERVERINFOREC)); 
+d264 1
+a264 1
+						AddLogLine(false,GetResString(IDS_NEWSERVERS), addcount);
+d268 1
+a268 1
+					AddDebugLogLine(false,GetResString(IDS_ERR_BADSERVERLISTRECEIVED));
+d301 1
+a301 1
+		AddDebugLogLine(false,GetResString(IDS_ERR_PACKAGEHANDLING),szError);
+d307 1
+a307 1
+		AddDebugLogLine(false,GetResString(IDS_ERR_PACKAGEHANDLING),error.GetBuffer());
+d315 1
+a315 1
+	AddLogLine(false,GetResString(IDS_CONNECTINGTO),cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort());
+d332 1
+a332 1
+			AddLogLine(false,GetResString(IDS_ERR_CONNECTIONERROR),cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort(), error); 
+d343 1
+a343 1
+	AddDebugLogLine(false,GetResString(IDS_ERR_SOCKET),cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort(), nErrorCode); 
+@
+
+
+1.20
+log
+@small optimisations in server list handling
+@
+text
+@d186 1
+a186 1
+				CMemFile* sources = new CMemFile((BYTE*)packet,size);
+d188 1
+a188 1
+				sources->Read(fileid,16);
+d190 1
+a190 2
+					file->AddSources(sources,cur_server->GetIP(), cur_server->GetPort());
+				delete sources;
+d241 1
+a241 1
+					CSafeMemFile* servers = new CSafeMemFile((BYTE*)packet,size);
+d243 1
+a243 1
+					servers->Read(&count, 1);// check if packet is valid 
+d251 2
+a252 2
+						servers->Read(&ip, 4);
+						servers->Read(&port, 2);
+d262 1
+a262 2
+					}
+					delete servers;
+@
+
+
+1.19
+log
+@code cleanup
+@
+text
+@d119 1
+a119 1
+							theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(eserver);
+d208 1
+a208 1
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( update );
+d233 1
+a233 1
+				theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(update); 
+@
+
+
+1.18
+log
+@code cleanup
+@
+text
+@d315 1
+a315 1
+void CServerSocket::ConnectToServer(CServer* server){
+d331 1
+a331 1
+	if (!this->Connect(server->GetAddress(),server->GetPort())){
+d339 1
+a339 1
+	info=server->GetListName();
+@
+
+
+1.17
+log
+@fixed memory leak when lowid happened
+@
+text
+@a39 1
+	m_bIsDeleting = false;
+d68 2
+a69 1
+		case WSAEADDRINUSE:			
+d71 1
+a71 1
+			serverconnect->DestroySocket(this);
+d77 2
+a78 1
+				m_ProxyConnectFailed = false;				
+d80 1
+a80 1
+				serverconnect->DestroySocket(this);
+d83 2
+a84 1
+		default:				
+d86 1
+a86 1
+			serverconnect->DestroySocket(this);
+d354 2
+d365 1
+a365 1
+	serverconnect->DestroySocket(this);	
+@
+
+
+1.16
+log
+@Upgrade to 0.28a
+@
+text
+@d69 1
+a69 2
+		case WSAEADDRINUSE:
+			m_bIsDeleting = true;
+d77 1
+a77 2
+				m_ProxyConnectFailed = false;
+				m_bIsDeleting = true;
+d82 1
+a82 2
+		default:	
+			m_bIsDeleting = true;
+@
+
+
+1.15
+log
+@added ResumeFiles method
+@
+text
+@d51 1
+a51 2
+	// changed to AsyncSocketEx - deadlake / Maverick
+	CAsyncSocketEx::OnConnect(nErrorCode);
+d74 10
+a102 1
+		theApp.downloadqueue->AddDownDataOverheadServer(size);
+d106 1
+d129 1
+d181 1
+d186 1
+d196 1
+d215 1
+d223 1
+a223 1
+				char* temp=new char[size-38]; 
+d241 1
+d277 1
+d292 1
+d299 9
+d319 12
+a367 1
+	sint8 oldstate = connectionstate;
+@
+
+
+1.14
+log
+@converted to new logging method
+@
+text
+@d165 3
+a167 9
+				for(POSITION pos = theApp.downloadqueue->filelist.GetHeadPosition(); pos != NULL;theApp.downloadqueue->filelist.GetNext(pos)) { 
+					CPartFile* cur_file = theApp.downloadqueue->filelist.GetAt(pos); 
+					if( cur_file->GetStatus() == PS_READY ){
+						cur_file->ResumeFile();
+					}
+				}
+
+
+				theApp.downloadqueue->filelist.GetCount();				
+@
+
+
+1.13
+log
+@grr
+@
+text
+@d163 1
+a163 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_NEWCLIENTID),la->clientid);
+d209 1
+a209 1
+					theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_KNOWNSERVERINFOREC)); 
+d258 1
+a258 1
+						theApp.emuledlg->AddLogLine(false,GetResString(IDS_NEWSERVERS), addcount);
+d262 1
+a262 1
+					theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_BADSERVERLISTRECEIVED));
+d290 1
+a290 1
+		theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_PACKAGEHANDLING),error.GetBuffer());
+d298 1
+a298 1
+	theApp.emuledlg->AddLogLine(false,GetResString(IDS_CONNECTINGTO),cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort());
+d303 1
+a303 1
+			theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_CONNECTIONERROR),cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort(), error); 
+d314 1
+a314 1
+	theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_SOCKET),cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort(), nErrorCode); 
+@
+
+
+1.12
+log
+@smart lowId bugfix
+@
+text
+@a142 1
+						theApp.emuledlg->AddLogLine(true,"smartid!!! state %i",state);
+d150 2
+a151 1
+								SetConnectionState(CS_ERROR);		//Cax2 - smartId bugfix
+@
+
+
+1.11
+log
+@Proxy Support (deadlake)
+@
+text
+@d124 1
+d127 1
+a127 1
+					uint8 state = theApp.glob_prefs->GetSmartIdState();
+d142 2
+a143 1
+						uint8 state = theApp.glob_prefs->GetSmartIdState();
+d150 2
+d153 1
+@
+
+
+1.10
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@d51 2
+a52 1
+	CAsyncSocket::OnConnect(nErrorCode);
+@
+
+
+1.10.2.1
+log
+@keeping in sync with the main cvs line
+@
+text
+@d51 1
+a51 2
+	// changed to AsyncSocketEx - deadlake / Maverick
+	CAsyncSocketEx::OnConnect(nErrorCode);
+@
+
+
+1.10.4.1
+log
+@Proxy support fixes from deadlake.
+@
+text
+@d51 1
+a51 2
+	// changed to AsyncSocketEx - deadlake / Maverick
+	CAsyncSocketEx::OnConnect(nErrorCode);
+@
+
+
+1.9
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a258 1
+				theApp.serverlist->SaveServermetToFile();
+@
+
+
+1.8
+log
+@overhead parameters change
+@
+text
+@d29 6
+@
+
+
+1.7
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d87 1
+a87 1
+		theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+@
+
+
+1.6
+log
+@Merge from official sockets
+@
+text
+@d87 1
+a87 1
+		theApp.downloadqueue->AddDownDataRateMSOverhead(size, 160);
+@
+
+
+1.6.2.1
+log
+@initial upgrade to .26
+@
+text
+@d87 1
+a90 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+a112 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+a164 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+a168 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+a177 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+a195 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+a220 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+a256 1
+				theApp.downloadqueue->AddDownDataOverheadServer(size, 0);
+@
+
+
+1.5
+log
+@updated to .25b codebase
+@
+text
+@a30 1
+	EMULE_TRY
+a35 1
+	EMULE_CATCH
+a38 1
+	EMULE_TRY
+a41 1
+	EMULE_CATCH
+d45 1
+a45 2
+	EMULE_TRY
+	CServerSocketBaseClass::OnConnect(nErrorCode);
+d56 1
+a56 12
+            // Maverick
+			if (m_pProxyLayer &&	( m_pProxyLayer->GetProxyType() == PROXYTYPE_SOCKS4 ||
+									  m_pProxyLayer->GetProxyType() == PROXYTYPE_SOCKS4A ||
+									  m_pProxyLayer->GetProxyType() == PROXYTYPE_SOCKS5)
+				&& ENABLE_PROXY_LISTEN_PORT) 
+						  // Open a listen port o the proxy server works and you are given a HighID
+				          // when connecting, but it seems that the port gets closed by the SOCKS Server
+						  // after the first usage. This means that no one can connect to you anymore. That's 
+						  // why this feature is disabled here and we MUST accept the LowID.   ): 
+						  // Maverick
+				SetConnectionState(CS_WAITFORPROXYLISTENING);
+			else SetConnectionState(CS_WAITFORLOGIN);
+a67 10
+        // Maverick
+		case WSAECONNABORTED:
+			if (m_ProxyConnectFailed)
+			{
+				m_ProxyConnectFailed = false;
+				m_bIsDeleting = true;
+				SetConnectionState(CS_SERVERDEAD);
+				serverconnect->DestroySocket(this);
+				return;
+			}
+a73 1
+	EMULE_CATCH
+d77 1
+a77 8
+	EMULE_TRY
+	CServerSocketBaseClass::OnReceive(nErrorCode);
+	
+	// Lord KiRon
+	if (!serverconnect)
+		return; 
+
+	if (connectionstate != CS_CONNECTED && !serverconnect->IsConnecting()){
+d81 2
+a82 1
+	EMULE_CATCH
+d202 2
+a203 5
+				uint16 num,num2;
+
+				//char* temp=new char[size-37]; // FoRcHa
+   				char* temp=new char[size-36]; // Lord KiRon - we need to reserve 1 more BYTE for temp[num2]=0;
+
+a205 11
+
+				// Lord KiRon - num can't be bigger then "temp" size-1
+				if (num > size-37)
+				{
+					theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_INVALIDIDENT));
+					delete []buffer;
+					delete []temp;
+					break;
+				}
+				// Lord KiRon - end
+
+d209 1
+a209 13
+				memcpy(&num2,&buffer[num+6],2);
+				
+				// Lord KiRon - num2 can't be bigger then "temp" size-1
+				// and num+8 (used next) can't be bigger then buffer size but this checked in prev. if (size-37+8 = size-29)
+   				if (num2 > size-37)
+				{
+					theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_INVALIDIDENT));
+					delete []buffer;
+					delete []temp;
+					break;
+				}
+				// Lord KiRon - end
+ 
+d215 1
+a215 1
+				delete[] temp;	// something's wrong in the above code!! heap-errors!!!
+a285 1
+	EMULE_TRY
+d289 2
+a290 2
+	if (!Connect(server->GetAddress(),server->GetPort())){
+		int error = GetLastError();
+a298 1
+	EMULE_CATCH
+a301 1
+	EMULE_TRY
+a303 1
+	EMULE_CATCH
+a306 1
+	EMULE_TRY
+a307 1
+	EMULE_CATCH
+a310 1
+	EMULE_TRY
+a321 1
+	EMULE_CATCH
+a324 1
+	EMULE_TRY
+d327 1
+a327 1
+	if (newstate < 1 && serverconnect){ // Lord KiRon
+d330 1
+a330 1
+	else if (newstate == CS_CONNECTED || newstate == CS_WAITFORLOGIN || newstate == CS_WAITFORPROXYLISTENING){
+d333 1
+a333 9
+	} 
+	EMULE_CATCH
+}
+
+// Maverick
+void CServerSocket::ProxyListenPortEstablished()
+{
+	if (connectionstate == CS_WAITFORPROXYLISTENING)
+		SetConnectionState(CS_WAITFORLOGIN);
+@
+
+
+1.5.2.1
+log
+@official sockets
+@
+text
+@d31 1
+d37 1
+d41 1
+d45 1
+d49 2
+a50 1
+	CAsyncSocket::OnConnect(nErrorCode);
+d61 12
+a72 1
+			SetConnectionState(CS_WAITFORLOGIN);
+d84 10
+d100 1
+d104 8
+a111 1
+	if (connectionstate != CS_CONNECTED && !this->serverconnect->IsConnecting()){
+d115 1
+a115 2
+	CEMSocket::OnReceive(nErrorCode);
+
+d235 5
+a239 2
+				uint16 num,num2; 
+				char* temp=new char[size-38]; 
+d242 11
+d256 13
+a268 1
+				memcpy(&num2,&buffer[num+6],2); 
+d274 1
+a274 1
+				delete[] temp; 
+d345 1
+d349 2
+a350 2
+	if (!this->Connect(server->GetAddress(),server->GetPort())){
+		int error = this->GetLastError();
+d359 1
+d363 1
+d366 1
+d370 1
+d372 1
+d376 1
+d388 1
+d392 1
+d395 1
+a395 1
+	if (newstate < 1){
+d398 1
+a398 1
+	else if (newstate == CS_CONNECTED || newstate == CS_WAITFORLOGIN){
+d401 9
+a409 1
+	}
+@
+
+
+1.5.2.2
+log
+@Merges from main thread
+@
+text
+@a30 1
+	EMULE_TRY
+a35 1
+	EMULE_CATCH
+a38 1
+	EMULE_TRY
+a41 1
+	EMULE_CATCH
+d45 1
+a45 2
+	EMULE_TRY
+	CServerSocketBaseClass::OnConnect(nErrorCode);
+a73 1
+	EMULE_CATCH
+a76 1
+	EMULE_TRY
+d82 1
+a82 1
+    EMULE_CATCH
+d202 1
+a202 1
+				uint16 num,num2;
+a285 1
+	EMULE_TRY
+a298 1
+	EMULE_CATCH
+a301 1
+	EMULE_TRY
+a303 1
+	EMULE_CATCH
+a306 1
+	EMULE_TRY
+a307 1
+	EMULE_CATCH
+a310 1
+	EMULE_TRY
+a321 1
+	EMULE_CATCH
+a324 1
+	EMULE_TRY
+d333 1
+a333 2
+	} 
+	EMULE_CATCH
+@
+
+
+1.5.2.3
+log
+@Restored obaldin's version. NO MERGE on these files!!!!!!!
+@
+text
+@d31 1
+d37 1
+d41 1
+d45 1
+d49 2
+a50 1
+	CAsyncSocket::OnConnect(nErrorCode);
+d79 1
+d83 1
+d89 1
+a89 1
+
+d209 1
+a209 1
+				uint16 num,num2; 
+d293 1
+d307 1
+d311 1
+d314 1
+d318 1
+d320 1
+d324 1
+d336 1
+d340 1
+d349 2
+a350 1
+	}
+@
+
+
+1.5.2.2.2.1
+log
+@Merged Proxy code
+@
+text
+@d61 1
+a61 12
+            // Maverick
+			if (m_pProxyLayer &&	( m_pProxyLayer->GetProxyType() == PROXYTYPE_SOCKS4 ||
+									  m_pProxyLayer->GetProxyType() == PROXYTYPE_SOCKS4A ||
+									  m_pProxyLayer->GetProxyType() == PROXYTYPE_SOCKS5)
+				&& ENABLE_PROXY_LISTEN_PORT) 
+						  // Open a listen port o the proxy server works and you are given a HighID
+				          // when connecting, but it seems that the port gets closed by the SOCKS Server
+						  // after the first usage. This means that no one can connect to you anymore. That's 
+						  // why this feature is disabled here and we MUST accept the LowID.   ): 
+						  // Maverick
+				SetConnectionState(CS_WAITFORPROXYLISTENING);
+			else SetConnectionState(CS_WAITFORLOGIN);
+a72 10
+        // Maverick
+		case WSAECONNABORTED:
+			if (m_ProxyConnectFailed)
+			{
+				m_ProxyConnectFailed = false;
+				m_bIsDeleting = true;
+				SetConnectionState(CS_SERVERDEAD);
+				serverconnect->DestroySocket(this);
+				return;
+			}
+a83 1
+	CServerSocketBaseClass::OnReceive(nErrorCode);
+d88 2
+a89 1
+	EMULE_CATCH
+d346 1
+a346 1
+	else if (newstate == CS_CONNECTED || newstate == CS_WAITFORLOGIN || newstate == CS_WAITFORPROXYLISTENING){
+a350 7
+}
+
+// Maverick
+void CServerSocket::ProxyListenPortEstablished()
+{
+	if (connectionstate == CS_WAITFORPROXYLISTENING)
+		SetConnectionState(CS_WAITFORLOGIN);
+@
+
+
+1.4
+log
+@final port to .25b!
+@
+text
+@d120 1
+d192 1
+a192 1
+				
+d222 1
+a222 1
+					theApp.emuledlg->ShowUserCount(cur_user,cur_files);
+@
+
+
+1.3
+log
+@port to .25 b codebase...
+@
+text
+@d365 1
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d229 1
+a229 1
+					theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_KNOWNSERVERINFOREC)); 
+d308 1
+a308 1
+					theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_BADSERVERLISTRECEIVED));
+d337 1
+a337 1
+		theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_PACKAGEHANDLING),error.GetBuffer());
+d364 1
+a364 4
+#ifdef _DEBUG
+	theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_SOCKET),cur_server->GetListName(),cur_server->GetFullIP(),cur_server->GetPort(), nErrorCode); 
+#endif
+	EMULE_CATCH
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d31 1
+d37 1
+d41 1
+d45 1
+d49 2
+a50 1
+	CAsyncSocket::OnConnect(nErrorCode);
+d61 12
+a72 1
+			SetConnectionState(CS_WAITFORLOGIN);
+d84 10
+d100 1
+d104 3
+d115 1
+a115 2
+	CEMSocket::OnReceive(nErrorCode);
+
+d344 1
+d358 1
+d362 1
+d367 1
+d371 1
+d373 1
+d377 1
+d389 1
+d393 1
+a395 1
+	//if (newstate < 1){ 
+d398 2
+a399 2
+	} 
+	else if (newstate == CS_CONNECTED || newstate == CS_WAITFORLOGIN){
+d402 9
+a410 1
+	}
+@
+

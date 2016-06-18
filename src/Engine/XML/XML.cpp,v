@@ -1,0 +1,864 @@
+head	1.16;
+access;
+symbols
+	PublicRelease_1_2e:1.16
+	Interim_Release_1-2e_RC1:1.16
+	PublicRelease_1_2d:1.16
+	Interim_Release_1-2d_RC1:1.16
+	Interim_Release_1-2d_beta1:1.16
+	PublicRelease_1_2c:1.16
+	Interim_Release_1-2c_RC1:1.16
+	Interim_Release_1-2c_beta1:1.16
+	PublicRelease_1_2b:1.16
+	Interim_Release_1-2b_RC1:1.16
+	PublicRelease_1_2a:1.16
+	Interim_Release_1-2a_RC1:1.16
+	Interim_Release_1-2a_beta2:1.16
+	Interim_Release_1-2a_beta1:1.16
+	PublicRelease_1_2:1.16
+	Interim_Release_1-2_RC1:1.16
+	Interim_Release_1-2_beta1:1.16
+	PublicRelease_1_1g:1.16
+	Interim_Release_1-1g_RC3:1.16
+	Interim_Release_1-1g_RC2:1.16
+	Interim_Release_1-1g_RC1:1.16
+	Interim_Release_1-1g_beta2:1.16
+	Interim_Release_1-1g_beta1:1.16
+	PublicRelease_1_1f:1.16
+	Interim_Release_1-1f_RC1:1.16
+	PublicRelease_1_1e:1.16
+	Interim_Release_1-1e_RC2:1.16
+	Interim_Release_1-1e_RC1:1.16
+	Interim_Release_1-1e_beta1:1.16
+	PublicRelease_1_1d:1.11
+	Interim_Release_1-1d_RC1:1.11
+	PublicRelease_1_1c:1.11
+	Interim_Release_1-1c_RC1:1.11
+	Interim_Release_1-1c_beta2:1.10
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.4
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.4
+	Interim_Release_1n_RC2:1.4
+	Interim_Release_1n_RC1:1.4
+	PublicRelease_1m:1.4
+	Interim_Release_1m_beta1:1.4
+	PublicRelease_1l:1.4
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.4
+	Interim_Release_1l_beta1:1.4
+	PublicRelease_1k:1.4
+	Interim_Release_1k_RC4:1.4
+	Interim_1k_RC3:1.4
+	Interim_1k_RC2:1.4
+	Interim_Release_1k_RC1:1.4
+	Interim_Release_1k_beta5:1.4
+	Intrerim_Release_1k_beta4:1.4
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2;
+locks; strict;
+comment	@// @;
+
+
+1.16
+date	2005.04.16.00.05.00;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.04.11.16.32.37;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.04.07.17.24.51;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.03.29.14.36.14;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.03.27.05.01.52;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.02.18.18.31.25;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.02.03.15.14.16;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.01.29.14.55.02;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.01.28.20.13.53;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.01.23.07.36.38;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.01.04.13.21.28;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.12.26.15.45.32;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.02.07.11.31.47;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.02.06.13.57.28;	author morevit;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.06.11.13.19;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.03.11.19.55;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@v2 - Xml events and other improvements
+@
+text
+@// XML.cpp: implementation of the CXmlTask class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "../Sockets/TasksSockets.h"
+#include "XML.h"
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CTask_SendXml::CTask_SendXml(SOCKET hSocket, CString sXml)
+	:m_hSocket(hSocket)
+	,m_sXml(sXml)
+{ }
+
+bool CTask_SendXml::Process()
+{
+	AddLog(LOG_DEBUG_XML, "Xml sent: %s", m_sXml);
+	BYTE *pBuf = new BYTE[m_sXml.GetLength() + 4];
+	CopyMemory(pBuf + sizeof(DWORD), (LPCTSTR)m_sXml, m_sXml.GetLength());
+	*((DWORD*)pBuf) = m_sXml.GetLength();
+	g_stEngine.Sockets.AllocSend(m_hSocket, pBuf, m_sXml.GetLength() + sizeof(DWORD), QUE_IMMEDIATE);
+	delete[] pBuf;
+
+	return true;
+}
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+long CXmlTask::s_lNextId = 0;
+
+CXmlTask::CXmlTask()
+	:m_pClient(NULL)
+	,m_ulId(++s_lNextId)
+	,m_sName(_T(""))
+	,m_sContents(_T(""))
+	,m_bReceived(false)
+	,m_bResult(false)
+	,m_bEvent(false)
+{
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XmlDoc CXmlTask::PrepareDocument(LPCTSTR sTaskName, LPCTSTR sTag)
+{
+	EMULE_TRY
+	XmlDoc spDoc = XmlCreateDocument();
+	if(spDoc)
+	{
+		XmlElement spElem = XmlCreateElement(spDoc, NULL, sTag);
+		if(spElem)
+			XmlSetAttribute(spElem, _T("name"), sTaskName);
+	}
+	CString sXml = (LPCTSTR)(spDoc->xml);
+	if (sXml.IsEmpty())
+		throw CString(_T("Can't create XML"));
+	return spDoc;
+	EMULE_CATCH
+	return NULL;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XmlDoc CXmlTask::PrepareResult()
+{
+	EMULE_TRY
+	XmlDoc spDoc = PrepareDocument(m_sName, _T("result"));
+	if(spDoc)
+	{
+		XmlElement spElem = spDoc->documentElement;
+		XmlSetAttribute(spElem, _T("id"), m_ulId);
+		CString sXml = (LPCTSTR)(spDoc->xml);
+		if (sXml.IsEmpty())
+			throw CString(_T("Can't create XML"));
+	}
+	return spDoc;
+	EMULE_CATCH
+	return NULL;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CXmlTask::SendBuf(CString sXml)
+{
+	AddLog(LOG_DEBUG_XML, "Xml sent: %s", sXml);
+	BYTE *pBuf = new BYTE[sXml.GetLength() + 4];
+	CopyMemory(pBuf + sizeof(DWORD), (LPCTSTR)sXml, sXml.GetLength());
+	*((DWORD*)pBuf) = sXml.GetLength();
+	g_stEngine.Sockets.AllocSend(m_pClient->m_hSocket, pBuf, sXml.GetLength() + sizeof(DWORD), QUE_IMMEDIATE);
+	delete[] pBuf;
+}
+
+//////////////////////////////////////////////////////////////////////
+
+// Defining constructor
+#include "XMLUndef.h"
+#define BEGIN_XML_CMD(name)		CXml_##name::CXml_##name() { 
+#define XML_PARAM_STRING(var)		m_s##var = _T("");
+#define XML_PARAM_DWORD(var)		m_dw##var = 0;
+#define XML_INTERNAL_VAR(var,init)	init;
+#define END_XML_CMD				}
+#include "XMLMsgs.h"
+
+//////////////////////////////////////////////////////////////////////
+
+// Defining LoadParams function
+#include "XMLUndef.h"
+#define BEGIN_XML_CMD(name)		bool CXml_##name::LoadParams(XmlElement spElem) { 
+#define XML_PARAM_STRING(var)		m_s##var = XmlGetAttributeStr(spElem, _T(#var));
+#define XML_PARAM_DWORD(var)		m_dw##var = XmlGetAttributeLong(spElem, _T(#var));
+#define XML_INTERNAL_VAR(var,init)
+#define END_XML_CMD				return true; }
+#include "XMLMsgs.h"
+
+//////////////////////////////////////////////////////////////////////
+
+// Defining LoadParams function
+#include "XMLUndef.h"
+#define BEGIN_XML_CMD(name)		bool CXml_##name::Process() { \
+									if(m_bEvent)	return ProcessEvent(); \
+									if(m_bResult)	return ProcessResult(); \
+									if(m_bReceived)	return ProcessReceived(); \
+									XmlDoc spDoc = XmlCreateDocument(); \
+									if(spDoc) { \
+										XmlElement spElem = XmlCreateElement(spDoc, NULL, _T("cmd")); \
+										if(spElem) { \
+											XmlSetAttribute(spElem, _T("name"), _T(#name)); \
+											XmlSetAttribute(spElem, _T("id"), m_ulId);
+#define XML_PARAM_STRING(var)				XmlSetAttribute(spElem, _T(#var), (LPCTSTR)m_s##var);
+#define XML_PARAM_DWORD(var)				XmlSetAttribute(spElem, _T(#var), m_dw##var);
+#define XML_INTERNAL_VAR(var,init)
+#define END_XML_CMD							SendBuf((LPCTSTR)(spDoc->xml)); \
+										} \
+									} \
+								return true; }
+#include "XMLMsgs.h"
+
+
+CXmlTask* CXmlTask::ParseXml(CString sXml)
+{
+	try
+	{
+		AddLog(LOG_DEBUG_XML, "Xml received: %s", sXml);
+
+		XmlDoc spDoc = XmlLoadDocumentFromStr(sXml);
+		if(spDoc == NULL)
+			throw CString(_T("Bad XML"));
+
+		CString sCmd = _T("");
+		ULONG ulId = 0;
+	
+		XmlElement spElem = spDoc->documentElement;
+		if(spElem == NULL)
+			throw CString(_T("Can't find main tag"));
+
+		CString sType = (LPCTSTR)(spElem->tagName);
+
+		sCmd = XmlGetAttributeStr(spElem, _T("name"));
+		if(sCmd.IsEmpty())
+			throw CString(_T("Error reading \"name\" parameter of main tag"));
+
+		if(sType == _T("cmd"))
+		{
+			ulId = XmlGetAttributeLong(spElem, _T("id"), 0);
+			if(!ulId)
+				throw CString(_T("Error reading \"id\" parameter of <cmd> tag"));
+		}
+		else if(sType == _T("result"))
+		{
+			ulId = XmlGetAttributeLong(spElem, _T("id"), 0);
+			if(!ulId)
+				throw CString(_T("Error reading \"id\" parameter of <result> tag"));
+		}
+		else if(sType == _T("event"))
+		{
+		}
+
+/*		// Is it result? No?
+		XmlElement spRes = spDoc->selectSingleNode(_T("./result"));
+		if(spRes == NULL)
+		{
+			// Get basic parameters - <cmd name="xxx" id="nnn" ... />
+			XmlElement spElem = spDoc->selectSingleNode(_T("./cmd"));
+			if(spElem == NULL)
+				throw CString(_T("Can't find <cmd> tag"));
+			sCmd = XmlGetAttributeStr(spElem, _T("name"));
+			if(sCmd.IsEmpty())
+				throw CString(_T("Error reading \"name\" parameter of <cmd> tag"));
+			ulId = XmlGetAttributeLong(spElem, _T("id"), 0);
+			if(!ulId)
+				throw CString(_T("Error reading \"id\" parameter of <cmd> tag"));
+		}
+		else
+		{
+			sCmd = XmlGetAttributeStr(spRes, _T("name"));
+			if(sCmd.IsEmpty())
+				throw CString(_T("Error reading \"name\" parameter of <result> tag"));
+			ulId = XmlGetAttributeLong(spRes, _T("id"), 0);
+			if(!ulId)
+				throw CString(_T("Error reading \"id\" parameter of <result> tag"));
+		}*/
+
+		CXmlTask *pTask = NULL;
+
+#include "XMLUndef.h"
+
+		// Switch by command name, creating appropriate task and load its parameters
+#define BEGIN_XML_CMD(name)		if(!sCmd.CompareNoCase(_T(#name))) pTask = new CXml_##name;
+#define XML_PARAM_STRING(var)
+#define XML_PARAM_DWORD(var)
+#define XML_INTERNAL_VAR(var,init)
+#define END_XML_CMD
+#include "XMLMsgs.h"
+
+		if(pTask)
+		{
+			pTask->m_ulId = ulId;
+			pTask->m_bReceived = true;
+			pTask->m_sName = sCmd;
+			pTask->m_sContents = sXml;
+
+			if(sType == _T("cmd") || sType == _T("event"))
+			{
+				if(!pTask->LoadParams(spElem))
+				{
+					delete pTask;
+					pTask = NULL;
+				}
+				if(sType == _T("event"))
+					pTask->m_bEvent = true;
+			}
+			else if(sType == _T("result"))
+				pTask->m_bResult = true;
+
+			return pTask;
+		}
+	}
+	catch (CString &obj)
+	{
+		// should return <result id="0" error="..." />
+		AddLog(LOG_ERROR, "Xml error: %s", obj);
+	}
+	catch(...)
+	{
+		// should return <result id="0" error="bad_xml errorcode" />
+		AddLog(LOG_ERROR, "Xml error: bad xml\n");
+	}
+	return NULL;
+}
+@
+
+
+1.15
+log
+@v2 - logging subsystem
+@
+text
+@d9 21
+d39 1
+d42 1
+d44 1
+a44 1
+XmlDoc CXmlTask::PrepareResult()
+a46 2
+	bool bOk = false;
+
+d50 1
+a50 1
+		XmlElement spElem = XmlCreateElement(spDoc, NULL, _T("result"));
+d52 1
+a52 4
+		{
+			bOk =	XmlSetAttribute(spElem, _T("id"), m_ulId) &&
+					XmlSetAttribute(spElem, _T("name"), (LPCTSTR)m_sName);
+		}
+a53 1
+
+d55 6
+d62 13
+a74 2
+	if (!bOk || sXml.IsEmpty())
+		throw CString(_T("Can't create XML"));
+d79 1
+d83 1
+a83 1
+	AddLog(LOG_DEBUG_XML, "Xml return: %s", sXml);
+d118 1
+d141 2
+d149 28
+a176 2
+		// Is it result? No?
+		XmlElement spElem;
+d181 1
+a181 1
+			spElem = spDoc->selectSingleNode(_T("./cmd"));
+d199 1
+a199 1
+		}
+d219 2
+a220 3
+			if(spRes != NULL)
+				pTask->m_bResult = true;
+			else
+d227 2
+d230 3
+@
+
+
+1.14
+log
+@v2 - fixes for upload logic
+@
+text
+@d48 1
+a48 1
+	AddLog(LOG_DEBUG, "Xml return: %s", sXml);
+d62 1
+a62 1
+#define XML_PARAM_ULONG(var)		m_ul##var = 0;
+d73 1
+a73 1
+#define XML_PARAM_ULONG(var)		m_ul##var = XmlGetAttributeLong(spElem, _T(#var));
+d92 1
+a92 1
+#define XML_PARAM_ULONG(var)				XmlSetAttribute(spElem, _T(#var), m_ul##var);
+d144 1
+a144 1
+#define XML_PARAM_ULONG(var)
+@
+
+
+1.13
+log
+@v2 - increasing level of abstraction, more upload logic
+@
+text
+@d52 1
+a52 1
+	g_stEngine.Sockets.AllocSend(m_pClient->m_hSocket, pBuf, sXml.GetLength() + sizeof(DWORD), false);
+@
+
+
+1.12
+log
+@v2 - minor improvements
+@
+text
+@d52 1
+a52 1
+	g_stEngine.Sockets.AllocSend(m_pClient->m_hSocket, pBuf, sXml.GetLength() + sizeof(DWORD));
+@
+
+
+1.11
+log
+@v2 - more minor rearrangements
+@
+text
+@d48 1
+a48 1
+	TRACE("RETURN: %s (XML)\n", sXml);
+d171 1
+a171 2
+		TRACE("ERROR: (XML) %s\n", obj);
+		ASSERT(FALSE);
+d176 1
+a176 2
+		TRACE("ERROR: (XML) bad xml\n");
+		ASSERT(FALSE);
+@
+
+
+1.10
+log
+@Ideological switch (may be considered as temporary, but for long term) - ATL to MFC
+Actually we don't need them both, but I want to work with our current KnownFile-based classes, which use MFC a lot
+@
+text
+@d52 1
+a52 1
+	g_stEngine.AllocSend(m_pClient->m_hSocket, pBuf, sXml.GetLength() + sizeof(DWORD));
+@
+
+
+1.9
+log
+@Xml and database functionality
+@
+text
+@d13 1
+a13 1
+	,m_ulId(0)
+d15 1
+d90 1
+a90 1
+											XmlSetAttribute(spElem, _T("id"), ++s_lNextId);
+d132 3
+d154 1
+@
+
+
+1.8
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@a5 1
+#include "../EmEngine.h"
+d20 1
+a20 1
+CString CXmlTask::PrepareResult()
+d40 1
+a40 2
+	TRACE("RETURN: %s (XML)\n", sXml);
+	return sXml;
+d42 1
+a42 1
+	return _T("");
+d47 1
+d55 3
+d59 9
+d69 1
+d73 1
+d79 1
+a80 1
+// Defining LoadParams function
+d92 1
+d141 1
+@
+
+
+1.7
+log
+@More v2 Xml WebInterface
+@
+text
+@d6 1
+@
+
+
+1.6
+log
+@XML connecting, tray app
+@
+text
+@d28 1
+a28 1
+		XmlElement spElem = XmlCreateElement(spDoc, _T("result"));
+d72 1
+a72 1
+										XmlElement spElem = XmlCreateElement(spDoc, _T("cmd")); \
+@
+
+
+1.5
+log
+@Rearrangements
+@
+text
+@d6 1
+a6 1
+#include "../EmEngine.h"
+d9 2
+d12 5
+a17 1
+	m_ulId = 0;
+d30 4
+a33 1
+			bOk = XmlSetAttribute(spElem, _T("id"), m_ulId);
+d46 8
+d55 1
+a55 6
+// Removing old definitions
+#undef BEGIN_XML_CMD
+#undef XML_PARAM_STRING
+#undef XML_PARAM_ULONG
+#undef END_XML_CMD
+
+d64 22
+a85 8
+// Parse XML command
+// Each call to this function should be in separate thread,
+// cause it won't return until command execution is finished.
+// E.g. if you command to connect to server, it will return
+// immediately - cause connection task is asynchronous,
+// but if you will demand file or client list, it will wait until
+// list is populated and only then return.
+void CEmEngine::ParseXmlCommand(CString sXml)
+d93 24
+a116 10
+		// Get basic parameters - <cmd name="xxx" id="nnn" ... />
+		XmlElement spElem = spDoc->selectSingleNode(_T("./cmd"));
+		if(spElem == NULL)
+			throw CString(_T("Can't find <cmd> tag"));
+		CString sCmd = XmlGetAttributeStr(spElem, _T("name"));
+		if(sCmd.IsEmpty())
+			throw CString(_T("Error reading \"name\" parameter of <cmd> tag"));
+		ULONG ulId = XmlGetAttributeLong(spElem, _T("id"), 0);
+		if(!ulId)
+			throw CString(_T("Error reading \"id\" parameter of <cmd> tag"));
+d120 1
+a120 5
+		// Removing old definitions
+		#undef BEGIN_XML_CMD
+		#undef XML_PARAM_STRING
+		#undef XML_PARAM_ULONG
+		#undef END_XML_CMD
+d123 5
+a127 5
+		#define BEGIN_XML_CMD(name)		if(!sCmd.CompareNoCase(_T(#name))) pTask = new CXml_##name;
+		#define XML_PARAM_STRING(var)
+		#define XML_PARAM_ULONG(var)
+		#define END_XML_CMD
+		#include "XMLMsgs.h"
+d132 4
+a135 2
+			if(!pTask->LoadParams(spElem)) 
+				delete pTask;
+d137 8
+a144 1
+				m_stMainTP.Push(pTask);
+d159 1
+@
+
+
+1.4
+log
+@Modified code so Task caller can specify completion behavior.
+@
+text
+@d16 2
+a17 2
+	bool		bOk = true;
+	CMuleXml	xml;
+d19 7
+a25 3
+	bOk &= xml.Create();
+	bOk &= xml.CreateElement(_T("result"));
+	bOk &= xml.SetAttribute(_T("id"), m_ulId);
+d27 1
+a27 1
+	CString		sXml = xml.GetXml();
+a29 1
+	{
+a30 1
+	}
+a31 1
+
+d33 2
+d45 3
+a47 3
+#define BEGIN_XML_CMD(name)		bool CXml_##name::LoadParams(MSXML::IXMLDOMNodePtr spNode) { m_spNode = spNode;
+#define XML_PARAM_STRING(var)		m_str_##var = GetAttribute(_T(#var));
+#define XML_PARAM_ULONG(var)		m_ul_##var = _ttol(GetAttribute(_T(#var)));
+d63 2
+a64 3
+		// Load xml
+		CMuleXml xml;
+		if(!xml.Load(sXml))
+d68 2
+a69 1
+		if(!xml.SelectNode(_T("./cmd")))
+d71 1
+a71 1
+		CString sCmd = xml.GetAttribute(_T("name"));
+d74 1
+a74 1
+		ULONG ulId = _ttol(xml.GetAttribute(_T("id")));
+d96 1
+a96 1
+			if(!pTask->LoadParams(xml.GetNode())) 
+a114 10
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_FUNC(connect)
+{
+	stEngine.ConnectToServer(m_str_addr, m_ul_port);
+
+	PrepareResult();
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.3
+log
+@Formatting, comments, and name changes.
+@
+text
+@d99 1
+a99 1
+	catch(CString &obj)
+@
+
+
+1.2
+log
+@New engine - even more XML
+@
+text
+@d13 1
+a13 1
+
+d16 3
+a18 2
+	bool bOk = true;
+	CMuleXml xml;
+d22 5
+a26 2
+	CString sXml = xml.GetXml();
+	if(!bOk || sXml.IsEmpty())
+d28 1
+d30 1
+d33 1
+d112 1
+a112 1
+
+d120 2
+a121 1
+}@
+
+
+1.1
+log
+@New engine - XML
+@
+text
+@d6 1
+d9 19
+d36 2
+a37 2
+#define XML_PARAM_STRING(var)		m_##var = GetAttribute(_T("##var"));
+#define XML_PARAM_ULONG(var)		m_##var = _ttol(GetAttribute(_T("##var")));
+d41 9
+a49 1
+void ParseXmlCommand(CString sXml)
+d51 1
+a51 29
+	// Load xml
+	CMuleXml xml;
+	if(!xml.Load(sXml))
+		throw CString(_T("Bad XML"));
+
+	// Get basic parameters - <cmd name="xxx" id="nnn" ... />
+	if(!xml.SelectNode(_T("./cmd")))
+		throw CString(_T("Can't find <cmd> tag"));
+	CString sCmd = xml.GetAttribute(_T("name"));
+	if(sCmd.IsEmpty())
+		throw CString(_T("Error reading \"name\" parameter of <cmd> tag"));
+	ULONG ulId = _ttol(xml.GetAttribute(_T("id")));
+	if(!ulId)
+		throw CString(_T("Error reading \"id\" parameter of <cmd> tag"));
+
+	// Removing old definitions
+	#undef BEGIN_XML_CMD
+	#undef XML_PARAM_STRING
+	#undef XML_PARAM_ULONG
+	#undef END_XML_CMD
+
+	// Switch by command name, creating appropriate task and load its parameters
+	#define BEGIN_XML_CMD(name)		if(sCmd == _T("##name")){ CXml_##name *pTask = new CXml_##name; if(!pTask->LoadParams(xml.GetNode())) delete pTask; }
+	#define XML_PARAM_STRING(var)
+	#define XML_PARAM_ULONG(var)
+	#define END_XML_CMD
+	#include "XMLMsgs.h"
+
+/*	try
+d53 29
+a81 2
+		///////////////////////////////////////////////////////////
+		// Commands
+d83 1
+a83 2
+		// Connect to server
+		if(sCmd == _T("connect"))
+d85 5
+a89 9
+			CString sAddr = xml.GetAttribute(_T("addr"));
+			if(sAddr.IsEmpty())
+			throw CString(_T("Error reading \"addr\" parameter of \"connect\" command"));
+			ULONG ulPort = _ttol(xml.GetAttribute(_T("port")));
+			if(!ulPort)
+			throw CString(_T("Error reading \"port\" parameter of \"connect\" command"));
+
+			ConnectToServer(sAddr, ulPort);
+			return GetShortSuccessXml(ulId);
+d100 2
+a101 2
+		// should return <result id="0" error="bad xml" />
+		TRACE("ERROR: (XML) Unknown\n");
+d103 1
+a103 1
+	}*/
+d105 9
+@
+

@@ -1,0 +1,144 @@
+head	1.5;
+access;
+symbols
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3
+	PublicRelease_1g:1.3
+	Interim_Release_1g_RC6_Final:1.3
+	Interim_Release_1g_RC6:1.3
+	Interim_Release_1g_RC5:1.3
+	Interim_Release_1g_RC4:1.3
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.3
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.3
+	Interim_Release_1f_RC3:1.3
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.3
+	Interim_Release_1f_beta2:1.3
+	Interim_Release_1f_beta1:1.3
+	PublicRelease_1e:1.3
+	Interim_Release_1e_RC2:1.3
+	Interim_Release_1e_RC:1.3
+	Interim_Release_1e_beta3:1.3
+	Interim_Release_1e_beta2:1.3
+	Interim_Release_1e_beta2_before_kuchin:1.3
+	Interim_Release_1e_beta1:1.3
+	PublicRelease_1c:1.3
+	featurestest:1.3.0.2
+	Interim_Release_1c_RC:1.3
+	Interim_Release_1c_beta2:1.3
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.2
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2;
+locks; strict;
+comment	@# @;
+expand	@b@;
+
+
+1.5
+date	2003.09.24.07.09.08;	author dongato;	state dead;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.02.18.32.37;	author puritynn666;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.19.11.02.40;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.08.19.27.13;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.08.17.33.35;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Reorganization
+@
+text
+@#########################################
+# Webservices Configuration File 
+# input one service per line 
+# 
+# Format: Name,URL
+#
+# Placeholders:
+# #filename -> name of the file
+# #hashid   -> hashid of the file
+# #filesize -> size of the file
+#
+# <separator> -> set a separator line
+#
+# Examples: 
+# eMule Plus Homepage,http://emuleplus.sf.net
+# Testservice,http://www.webservice.com/search?p=ed2k:#filesize:#hashid
+#
+# Comment lines begin with # or /
+
+edonkeyfakes,http://edonkeyfakes.ath.cx/fakecheck/update/fakecheck.php?hash=#hashid
+Jigle Fake Search,http://jigle.com/search?p=ed2k%3A#filesize%3A#hashid&ma=1&d=1&a=0&l=10&t=7&x=&sl=1&su=&kw=0&v=0
+FileDonkey Fake Search,http://www.filedonkey.com/search.html?pattern=#filename
+ShareReactor Fake Search,http://www.sharereactor.com/fakesearch.php?search=ed2k://|file|#filename|#filesize|#hashid|/
+<separator>
+eMule FAQ,http://www.emule-project.net/faq/
+eMule Plus FAQ,http://emuleplus.sourceforge.net/forum/index.php?act=SF&f=10
+eMule Plus Forum,http://emuleplus.sourceforge.net/forum/
+mobileMule Guide,http://mobil.emule-project.net/index.php?page=guide&language=en@
+
+
+1.4
+log
+@mobileMule Guide Link
+@
+text
+@@
+
+
+1.3
+log
+@Separators on Web Services [Sp4rK]
+@
+text
+@d28 1
+@
+
+
+1.2
+log
+@Last changes to context menues and Fakecheck code removal.
+@
+text
+@d12 2
+d24 1
+d27 1
+@
+
+
+1.1
+log
+@Updates to reCDVst changes (missing strings) and some changes to the context menu (lost an hour for a f****** define). Added standard web services.
+@
+text
+@d1 17
+@
+

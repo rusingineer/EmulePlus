@@ -1,0 +1,494 @@
+head	1.14;
+access;
+symbols
+	PublicRelease_1_2e:1.14
+	Interim_Release_1-2e_RC1:1.14
+	PublicRelease_1_2d:1.14
+	Interim_Release_1-2d_RC1:1.14
+	Interim_Release_1-2d_beta1:1.14
+	PublicRelease_1_2c:1.14
+	Interim_Release_1-2c_RC1:1.14
+	Interim_Release_1-2c_beta1:1.14
+	PublicRelease_1_2b:1.14
+	Interim_Release_1-2b_RC1:1.14
+	PublicRelease_1_2a:1.14
+	Interim_Release_1-2a_RC1:1.14
+	Interim_Release_1-2a_beta2:1.14
+	Interim_Release_1-2a_beta1:1.14
+	PublicRelease_1_2:1.14
+	Interim_Release_1-2_RC1:1.14
+	Interim_Release_1-2_beta1:1.14
+	PublicRelease_1_1g:1.14
+	Interim_Release_1-1g_RC3:1.14
+	Interim_Release_1-1g_RC2:1.14
+	Interim_Release_1-1g_RC1:1.14
+	Interim_Release_1-1g_beta2:1.13
+	Interim_Release_1-1g_beta1:1.11
+	PublicRelease_1_1f:1.11
+	Interim_Release_1-1f_RC1:1.11
+	PublicRelease_1_1e:1.11
+	Interim_Release_1-1e_RC2:1.11
+	Interim_Release_1-1e_RC1:1.11
+	Interim_Release_1-1e_beta1:1.11
+	PublicRelease_1_1d:1.10
+	Interim_Release_1-1d_RC1:1.10
+	PublicRelease_1_1c:1.10
+	Interim_Release_1-1c_RC1:1.10
+	Interim_Release_1-1c_beta2:1.10
+	Interim_Release_1-1c_beta1:1.10
+	PublicRelease_1_1b:1.10
+	Interim_Release_1-1b_RC1:1.10
+	PublicRelease_1_1a:1.10
+	Interim_Release_1-1a_RC2:1.10
+	Interim_Release_1-1a_RC1:1.10
+	Interim_Release_1-1a_beta2:1.10
+	Interim_Release_1-1a_beta1:1.10
+	PublicRelease_1_1:1.10
+	Interim_Release_1-1_beta1:1.10
+	PublicRelease_1o:1.10
+	Interim_Release_1o_RC1:1.10
+	Interim_Release_1o_beta1:1.10
+	PublicRelease_1n:1.10
+	Interim_Release_1n_RC2:1.10
+	Interim_Release_1n_RC1:1.10
+	Interim_Release_1n_beta2:1.10
+	Interim_Release_1n_beta1:1.10
+	PublicRelease_1m:1.10
+	Interim_Release_1m_beta1:1.10
+	PublicRelease_1l:1.10
+	Interim_Release_1l_RC3:1.10
+	Interim_Release_1l_RC2:1.10
+	Interim_Release_1l_RC1:1.10
+	Interim_Release_1l_beta2:1.10
+	Interim_Release_1l_beta1:1.10
+	PublicRelease_1k:1.10
+	Interim_Release_1k_RC4:1.10
+	Interim_1k_RC3:1.10
+	Interim_1k_RC2:1.10
+	Interim_Release_1k_RC1:1.10
+	Interim_Release_1k_beta5:1.10
+	Intrerim_Release_1k_beta4:1.10
+	Interim_Release_1k_beta1:1.10
+	PublicRelease_1j:1.9
+	Interim_Release_1J_RC3:1.9
+	Interim_Release_1j_RC3:1.9
+	Interim_Release_1j_RC2:1.9
+	Interim_Release_1j_RC1:1.9
+	Interim_Release_1j_beta2:1.9
+	Interim_Release_1j_beta1:1.9
+	PublicRelease_1i:1.7
+	Interim_Release_1i_RC6:1.7
+	Interim_Release_1i_RC3:1.7
+	Interim_Release_1i_RC2:1.7
+	Interim_Release_1i_RC1:1.6
+	Interim_Release_1i_beta3:1.6
+	Interim_Release_1i_beta2:1.6;
+locks; strict;
+comment	@// @;
+
+
+1.14
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.09.29.03.35.09;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.09.17.03.43.09;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.06.04.13.25.14;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.02.15.03.41.59;	author kush_eplus;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.11.10.44.40;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.12.10.17.14.14;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.11.12.13.29.16;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.20.13.19.59;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.17.21.53.30;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.15.10.24.20;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.13.15.11.56;	author morevit;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.09.11.53.40;	author morevit;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.14
+log
+@renamed 3 variables
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+// MuleCtrlItem.cpp : implementation file
+//
+
+#include "stdafx.h"
+
+#include "MuleCtrlItem.h"
+#include "updownclient.h"
+#include "emule.h"
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CSourceDLItem::~CSourceDLItem()
+{
+	if (g_App.m_pDownloadList != NULL)
+		g_App.m_pDownloadList->RemoveSourceItem(this);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CSourceDLItem::IsAskedForAnotherFile() const
+{
+	return (m_pSource ? (m_pSource->m_pReqPartFile != m_pParentFile) : false);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPartFileDLItem::CPartFileDLItem(CPartFile *pPartFile)
+	: m_pFile(pPartFile)
+{
+	m_bSrcsAreVisible = false;
+
+	FilterNoSources();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPartFileDLItem::~CPartFileDLItem()
+{
+	RemoveAllSources();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	RemoveAllSources() removes and destroys all source items in the window associated with this file item.
+void CPartFileDLItem::RemoveAllSources(void)
+{
+	while (m_mapSources.empty() == false)
+	{
+		delete m_mapSources.begin()->second;
+		m_mapSources.erase(m_mapSources.begin());
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CSourceDLItem* CPartFileDLItem::CreateSourceItem(CUpDownClient *pSource,bool bIsAvailable)
+{
+	CSourceDLItem		*pSourceItem = NULL;
+
+	pSourceItem = new CSourceDLItem(pSource,m_pFile,this);
+	pSourceItem->SetAvailability(bIsAvailable);
+
+	m_mapSources.insert(make_pair(pSource, pSourceItem));
+
+	return pSourceItem;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CPartFileDLItem::DeleteSourceItem(CSourceDLItem *pSourceItem)
+{
+	bool		bRemoved = false;
+
+//	If the source belongs to this item...
+	if (pSourceItem != NULL && pSourceItem->GetParentFileItem() == this)
+	{
+	//	Try to find it in our map
+		SourceIter		itSource = m_mapSources.find(pSourceItem->GetSource());
+
+	//	If we found it...
+		if (itSource != m_mapSources.end())
+		{
+			m_mapSources.erase(itSource);
+			delete pSourceItem;
+			bRemoved = true;
+		}
+	}
+
+	return bRemoved;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	FilterNoSources() turns off filtering for all source types.
+void CPartFileDLItem::FilterNoSources()
+{
+	m_bShowUploadingSources = true;
+	m_bShowOnQueueSources = true;
+	m_bShowFullQueueSources = true;
+	m_bShowConnectedSources = true;
+	m_bShowConnectingSources = true;
+	m_bShowNNPSources = true;
+	m_bShowWaitForFileReqSources = true;
+	m_bShowLowToLowIDSources = true;
+	m_bShowLowIDOnOtherSrvSources = true;
+	m_bShowBannedSources = true;
+	m_bShowErrorSources = true;
+	m_bShowA4AFSources = true;
+	m_bShowUnknownSources = true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	FilterAllSources() turns on filtering for all source types.
+void CPartFileDLItem::FilterAllSources()
+{
+	m_bShowUploadingSources = false;
+	m_bShowOnQueueSources = false;
+	m_bShowFullQueueSources = false;
+	m_bShowConnectedSources = false;
+	m_bShowConnectingSources = false;
+	m_bShowNNPSources = false;
+	m_bShowWaitForFileReqSources = false;
+	m_bShowLowToLowIDSources = false;
+	m_bShowLowIDOnOtherSrvSources = false;
+	m_bShowBannedSources = false;
+	m_bShowErrorSources = false;
+	m_bShowA4AFSources = false;
+	m_bShowUnknownSources = false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPartFileDLItem::SourceItemVector *CPartFileDLItem::GetSources()
+{
+	SourceItemVector	   *pvecSources = new SourceItemVector();
+
+	for (SourceIter itSource = m_mapSources.begin(); itSource != m_mapSources.end(); itSource++)
+	{
+		CSourceDLItem	   *pSourceItem = itSource->second;
+
+		pvecSources->push_back(pSourceItem);
+	}
+
+	return pvecSources;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.13
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@d31 2
+a32 2
+	if (g_eMuleApp.m_pDownloadList != NULL)
+		g_eMuleApp.m_pDownloadList->RemoveSourceItem(this);
+@
+
+
+1.12
+log
+@Some eklmn's modifications.
+@
+text
+@d110 1
+d128 1
+@
+
+
+1.11
+log
+@Removed some old commended code.
+@
+text
+@d108 1
+a108 1
+	m_bShowTooManyConnSources = true;
+d125 1
+a125 1
+	m_bShowTooManyConnSources = false;
+@
+
+
+1.10
+log
+@final fix for excessive resizing on column resize bug + few optimisations and formatting
+@
+text
+@d24 1
+a24 1
+#include "UpDownClient.h"
+a37 3
+
+	// should it be before return or should it be here at all?
+//	g_eMuleApp.m_pSharedFilesList->Reload(false);
+a38 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.9
+log
+@Separating engine and GUI
+@
+text
+@d37 1
+a37 1
+	return (m_pSource ? (m_pSource->m_pReqPartFile != m_pParentFile) : false); 
+@
+
+
+1.8
+log
+@Separating engine and GUI
+@
+text
+@a36 3
+#ifdef NEW_SOCKETS
+	return (m_pSource ? (m_pSource->GetFile() != m_pParentFile) : false);
+#else
+d38 3
+a40 2
+#endif //NEW_SOCKETS
+	g_eMuleApp.m_pSharedFilesList->Reload(false);
+a69 3
+#ifdef NEW_SOCKETS
+CSourceDLItem* CPartFileDLItem::CreateSourceItem(CEmClientData *pSource,bool bIsAvailable)
+#else
+a70 1
+#endif //NEW_SOCKETS
+@
+
+
+1.7
+log
+@New sockets
+@
+text
+@a25 1
+#include "EngineData.h"
+@
+
+
+1.6
+log
+@Formatting, comments, and name changes.
+... and a few bug fixes.
+@
+text
+@d26 1
+d38 3
+d42 2
+a43 1
+						g_eMuleApp.m_pSharedFilesList->Reload(false);
+d73 5
+a77 1
+CSourceDLItem *CPartFileDLItem::CreateSourceItem(CUpDownClient *pSource,bool bIsAvailable)
+@
+
+
+1.5
+log
+@Added "Queue Full" and "Unknown" to source filtering.
+@
+text
+@d37 2
+a38 1
+	return (m_pSource ? (m_pSource->reqfile != m_pParentFile) : false); 
+@
+
+
+1.4
+log
+@A number of robustification changes.
+@
+text
+@d106 1
+d115 1
+d123 1
+d132 1
+@
+
+
+1.3
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d25 1
+d28 6
+@
+
+
+1.2
+log
+@Started fleshing out the PartFile item and Source item classes.
+@
+text
+@d124 14
+@
+
+
+1.1
+log
+@Separated CMuleCtrlItem out of DownloadListCtrl files.
+@
+text
+@d27 2
+a28 1
+bool CMuleCtrlItem::IsAskedForAnotherFile() const
+d30 1
+a30 1
+	return (m_pSource ? (m_pSource->reqfile != m_pFile) : false); 
+d32 92
+@
+

@@ -1,0 +1,444 @@
+head	1.4;
+access;
+symbols
+	PublicRelease_1_2e:1.4
+	Interim_Release_1-2e_RC1:1.4
+	PublicRelease_1_2d:1.4
+	Interim_Release_1-2d_RC1:1.4
+	Interim_Release_1-2d_beta1:1.4
+	PublicRelease_1_2c:1.4
+	Interim_Release_1-2c_RC1:1.4
+	Interim_Release_1-2c_beta1:1.4
+	PublicRelease_1_2b:1.4
+	Interim_Release_1-2b_RC1:1.4
+	PublicRelease_1_2a:1.4
+	Interim_Release_1-2a_RC1:1.4
+	Interim_Release_1-2a_beta2:1.4
+	Interim_Release_1-2a_beta1:1.4
+	PublicRelease_1_2:1.4
+	Interim_Release_1-2_RC1:1.4
+	Interim_Release_1-2_beta1:1.4
+	PublicRelease_1_1g:1.4
+	Interim_Release_1-1g_RC3:1.4
+	Interim_Release_1-1g_RC2:1.4
+	Interim_Release_1-1g_RC1:1.4
+	Interim_Release_1-1g_beta2:1.4
+	Interim_Release_1-1g_beta1:1.4
+	PublicRelease_1_1f:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.3
+	PublicRelease_1_1a:1.3
+	Interim_Release_1-1a_RC2:1.3
+	Interim_Release_1-1a_RC1:1.3
+	Interim_Release_1-1a_beta2:1.3
+	Interim_Release_1-1a_beta1:1.3
+	PublicRelease_1_1:1.3
+	Interim_Release_1-1_beta1:1.3
+	PublicRelease_1o:1.3
+	Interim_Release_1o_RC1:1.3
+	Interim_Release_1o_beta1:1.3
+	PublicRelease_1n:1.3
+	Interim_Release_1n_RC2:1.3
+	Interim_Release_1n_RC1:1.2
+	Interim_Release_1n_beta2:1.2
+	Interim_Release_1n_beta1:1.2
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.2
+	Interim_Release_1l_RC1:1.2
+	Interim_Release_1l_beta2:1.2
+	Interim_Release_1l_beta1:1.2
+	PublicRelease_1k:1.2
+	Interim_Release_1k_RC4:1.2
+	Interim_1k_RC3:1.2
+	Interim_1k_RC2:1.2
+	Interim_Release_1k_RC1:1.2
+	Interim_Release_1k_beta5:1.2
+	Intrerim_Release_1k_beta4:1.2
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.2
+	Interim_Release_1i_beta2:1.2
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.4
+date	2005.05.10.04.06.35;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.08.31.17.58.25;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.09.16.17.11;	author eklmn;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.07.05;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.53.59;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Slightly reduced memory usage; Faster drawing;
+No need to call release brush object as it's released automatically in brush destructor.
+@
+text
+@// ColorFrameCtrl.cpp : implementation file
+
+#include "stdafx.h"
+#include "ColorFrameCtrl.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CColorFrameCtrl
+CColorFrameCtrl::CColorFrameCtrl()
+{
+	m_crBackColor  = RGB(0,   0,   0);  // see also SetBackgroundColor
+	m_brushFrame.CreateSolidBrush(RGB(0, 255, 255));	// frame color
+}
+
+/////////////////////////////////////////////////////////////////////////////
+CColorFrameCtrl::~CColorFrameCtrl()
+{
+}
+
+
+BEGIN_MESSAGE_MAP(CColorFrameCtrl, CWnd)
+	//{{AFX_MSG_MAP(CColorFrameCtrl)
+	ON_WM_PAINT()
+	ON_WM_SIZE()
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+
+/////////////////////////////////////////////////////////////////////////////
+// CColorFrameCtrl message handlers
+
+/////////////////////////////////////////////////////////////////////////////
+BOOL CColorFrameCtrl::Create(DWORD dwStyle, const RECT &rect, CWnd *pParentWnd, UINT nID)
+{
+	BOOL result;
+	static CString className = AfxRegisterWndClass(CS_HREDRAW | CS_VREDRAW);
+
+	result = CWnd::CreateEx( WS_EX_STATICEDGE,
+		                      className, NULL, dwStyle,
+		                      rect.left, rect.top, rect.right-rect.left, rect.bottom-rect.top,
+		                      pParentWnd->GetSafeHwnd(), (HMENU)nID);
+	if (result != 0)
+		Invalidate();
+
+	return result;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+void CColorFrameCtrl::SetFrameColor(COLORREF color)
+{
+	m_brushFrame.DeleteObject();
+	m_brushFrame.CreateSolidBrush(color);
+
+	// clear out the existing garbage, re-start with a clean plot
+	Invalidate();
+}
+
+/////////////////////////////////////////////////////////////////////////////
+void CColorFrameCtrl::SetBackgroundColor(COLORREF color)
+{
+	m_crBackColor = color;
+
+	// clear out the existing garbage, re-start with a clean plot
+	Invalidate();
+}
+
+////////////////////////////////////////////////////////////////////////////
+void CColorFrameCtrl::OnPaint()
+{
+	CPaintDC dc(this);  // device context for painting
+
+	dc.FillSolidRect(m_rectClient, m_crBackColor);
+	dc.FrameRect(m_rectClient, &m_brushFrame);
+}
+
+/////////////////////////////////////////////////////////////////////////////
+void CColorFrameCtrl::OnSize(UINT nType, int cx, int cy)
+{
+	CWnd::OnSize(nType, cx, cy);
+
+	// NOTE: OnSize automatically gets called during the setup of the control
+
+	GetClientRect(m_rectClient);
+}
+@
+
+
+1.3
+log
+@Faster rectangular filling; Reduced number of used GDI objects.
+@
+text
+@a3 1
+
+d17 2
+a18 4
+	m_crFrameColor = RGB(0, 255, 255);  // see also SetFrameColor
+
+	m_brushFrame.CreateSolidBrush(m_crFrameColor);
+}  // CColorFrameCtrl
+d23 1
+a23 2
+	m_brushFrame.DeleteObject();
+} // ~CColorFrameCtrl
+d51 1
+a51 1
+} // Create
+a55 1
+	m_crFrameColor = color;
+d57 1
+a57 1
+	m_brushFrame.CreateSolidBrush(m_crFrameColor);
+d61 1
+a61 1
+}  // SetFrameColor
+d70 1
+a70 1
+}  // SetBackgroundColor
+a77 3
+
+	CBrush	*pOldBrush = dc.SelectObject(&m_brushFrame);	//eklmn: select a new brush
+
+d79 1
+a79 2
+	dc.SelectObject(pOldBrush);		// eklmn: recover an old brush
+} // OnPaint
+d89 1
+a89 1
+} // OnSize
+@
+
+
+1.2
+log
+@incorrect use of GDI resources (CBrush class)
+@
+text
+@d1 1
+a1 2
+
+// ColorFrameCtrl.cpp : implementation file//
+d10 1
+a10 1
+static char THIS_FILE[] = __FILE__ ;
+d15 1
+a15 1
+CColorFrameCtrl::CColorFrameCtrl( )
+d17 2
+a18 5
+	m_crBackColor  = RGB(  0,   0,   0) ;  // see also SetBackgroundColor
+	m_crFrameColor  = RGB(  0, 255, 255) ;  // see also SetFrameColor
+
+	m_brushBack.CreateSolidBrush( m_crBackColor ) ;
+	m_brushFrame.CreateSolidBrush( m_crFrameColor );
+d20 1
+d26 1
+a26 2
+	m_brushFrame.DeleteObject() ;
+	m_brushBack.DeleteObject();
+d42 1
+a42 2
+BOOL CColorFrameCtrl::Create(DWORD dwStyle, const RECT& rect, 
+		                     CWnd* pParentWnd, UINT nID) 
+d44 2
+a45 2
+	BOOL result ;
+	static CString className = AfxRegisterWndClass(CS_HREDRAW | CS_VREDRAW) ;
+d47 2
+a48 2
+	result = CWnd::CreateEx( WS_EX_STATICEDGE, 
+		                      className, NULL, dwStyle, 
+d50 1
+a50 1
+		                      pParentWnd->GetSafeHwnd(), (HMENU)nID) ;
+d52 1
+a52 3
+		Invalidate() ;
+
+	return result ;
+d54 1
+d58 1
+a58 1
+void CColorFrameCtrl::SetFrameColor( COLORREF color )
+d61 2
+a62 2
+	m_brushFrame.DeleteObject() ;
+	m_brushFrame.CreateSolidBrush(m_crFrameColor) ;
+d65 1
+a65 2
+	Invalidate() ;
+
+a67 1
+
+d71 1
+a71 4
+	m_crBackColor = color ;
+
+	m_brushBack.DeleteObject() ;
+	m_brushBack.CreateSolidBrush(m_crBackColor) ;
+d74 1
+a74 2
+	Invalidate() ;
+
+a76 1
+ 
+d78 1
+a78 1
+void CColorFrameCtrl::OnPaint() 
+d80 5
+a84 1
+	CPaintDC dc(this) ;  // device context for painting
+d86 1
+a86 4
+	pOldBrush = dc.SelectObject(&m_brushBack);	//eklmn: select a new brush
+	dc.FillRect( m_rectClient, &m_brushBack) ;
+	dc.SelectObject(&m_brushFrame);
+	dc.FrameRect( m_rectClient, &m_brushFrame);
+a87 1
+
+a89 1
+
+d91 1
+a91 1
+void CColorFrameCtrl::OnSize(UINT nType, int cx, int cy) 
+d93 1
+a93 1
+	CWnd::OnSize(nType, cx, cy) ;
+a95 2
+	
+	GetClientRect(m_rectClient) ;
+d97 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d95 5
+a99 2
+	dc.FillRect( m_rectClient, &m_brushBack ) ;
+	dc.FrameRect( m_rectClient, &m_brushFrame );
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

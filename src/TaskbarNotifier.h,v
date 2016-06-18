@@ -1,0 +1,479 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.5
+	Interim_Release_1-2d_RC1:1.5
+	Interim_Release_1-2d_beta1:1.5
+	PublicRelease_1_2c:1.5
+	Interim_Release_1-2c_RC1:1.5
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.5
+	PublicRelease_1_2a:1.5
+	Interim_Release_1-2a_RC1:1.5
+	Interim_Release_1-2a_beta2:1.4
+	Interim_Release_1-2a_beta1:1.4
+	PublicRelease_1_2:1.4
+	Interim_Release_1-2_RC1:1.4
+	Interim_Release_1-2_beta1:1.4
+	PublicRelease_1_1g:1.4
+	Interim_Release_1-1g_RC3:1.4
+	Interim_Release_1-1g_RC2:1.4
+	Interim_Release_1-1g_RC1:1.4
+	Interim_Release_1-1g_beta2:1.4
+	Interim_Release_1-1g_beta1:1.4
+	PublicRelease_1_1f:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4
+	PublicRelease_1_1d:1.4
+	Interim_Release_1-1d_RC1:1.4
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.4
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.4
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.4
+	Interim_Release_1n_RC2:1.4
+	Interim_Release_1n_RC1:1.4
+	Interim_Release_1n_beta2:1.4
+	Interim_Release_1n_beta1:1.4
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.2
+	Interim_Release_1k_RC4:1.2
+	Interim_1k_RC3:1.2
+	Interim_1k_RC2:1.2
+	Interim_Release_1k_RC1:1.2
+	Interim_Release_1k_beta5:1.2
+	Intrerim_Release_1k_beta4:1.2
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.2
+	Interim_Release_1i_beta2:1.2
+	Interim_Release_1i_beta1:1.2
+	PublicRelease_1h:1.2
+	Interim_Release_1h_rc2:1.2
+	Interim_Release_1h_RC1:1.2
+	Interim_Release_1h_beta2:1.2
+	Interim_Release_1h_beta1_now:1.2
+	Interim_Release_1h_beta1:1.2
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.7
+date	2009.03.30.00.05.00;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2008.06.10.04.39.05;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.07.27.01.58.52;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.06.29.14.14.57;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.04.22.19.41.47;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.07.31.15.02.19;	author puritynn666;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches
+	1.1.4.1
+	1.1.16.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.32;	author cax2;	state Exp;
+branches;
+next	;
+
+1.1.16.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Minor formatting update from original.
+@
+text
+@// CTaskbarNotifier Header file
+// By John O'Byrne - 15 July 2002
+// Modified by kei-kun
+#pragma once
+
+#define WM_TASKBARNOTIFIERCLICKED	WM_USER+123
+#define TN_TEXT_NORMAL			0x0000
+#define TN_TEXT_BOLD			0x0001
+#define TN_TEXT_ITALIC			0x0002
+#define TN_TEXT_UNDERLINE		0x0004
+
+//START - enkeyDEV(kei-kun) -TaskbarNotifier-
+#define TBN_NULL				0
+#define TBN_CHAT				1
+#define TBN_DLOAD				2
+#define TBN_LOG					3
+#define TBN_DLOAD_ADD			4
+#define TBN_IMPORTANTEVENT		5
+#define TBN_SCHEDULER			6
+#define TBN_WEBSERVER			7
+#define TBN_SERVER				8
+//END - enkeyDEV(kei-kun) -TaskbarNotifier-
+
+class CTaskbarNotifier : public CWnd
+{
+	DECLARE_DYNAMIC(CTaskbarNotifier)
+
+public:
+	CTaskbarNotifier();
+	virtual ~CTaskbarNotifier();
+
+	int Create(CWnd *pWndParent);
+	void Show(const CString &strCaption, int nMsgType, DWORD dwTimeToShow=500, DWORD dwTimeToStay=5000, DWORD dwTimeToHide=200); // enkeyDEV(kei-kun) -TaskbarNotifier-
+	void Hide();
+	int GetMessageType();
+	BOOL SetBitmap(UINT nBitmapID, int red = -1, int green = -1, int blue = -1);
+	BOOL SetBitmap(LPCTSTR pcFileName, int red = -1, int green = -1, int blue = -1);
+	BOOL SetBitmap(CBitmap *pBitmap, int red, int green, int blue);
+	void SetTextFont(LPCTSTR szFont, int nSize, int nNormalStyle, int nSelectedStyle);
+	void SetTextDefaultFont();
+	void SetTextColor(COLORREF crNormalTextColor, COLORREF crSelectedTextColor);
+	void SetTextRect(RECT rcText);
+
+	CWnd *m_pWndParent;
+	
+	CFont m_fontNormal;
+	CFont m_fontSelected;
+	COLORREF m_crNormalTextColor;
+	COLORREF m_crSelectedTextColor;
+	HCURSOR m_hCursor;
+	
+	CBitmap m_bitmapBackground;
+	HRGN m_hBitmapRegion;
+	int m_nBitmapWidth;
+	int m_nBitmapHeight;
+
+	CString m_strCaption;
+	CRect m_rcText;
+	BOOL m_bMouseIsOver;
+	BOOL m_bStarted;
+
+	int m_nAnimStatus;
+	int m_nTaskbarPlacement;
+	DWORD m_dwTimerPrecision;
+ 	DWORD m_dwTimeToStay;
+	DWORD m_dwShowEvents;
+	DWORD m_dwHideEvents;
+	int m_nCurrentPosX;
+	int m_nCurrentPosY;
+	int m_nCurrentWidth;
+	int m_nCurrentHeight;
+	int m_nIncrementShow;
+	int m_nIncrementHide;
+	int m_nActiveMessageType;  //<<--enkeyDEV(kei-kun) -TaskbarNotifier-
+	int m_nMessageTypeClicked; //<<--enkeyDEV(kei-kun) -TaskbarNotifier-
+	
+protected:
+	HRGN CreateRgnFromBitmap(HBITMAP hBmp, COLORREF color);
+
+protected:
+	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
+	afx_msg LRESULT OnMouseHover(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnMouseLeave(WPARAM wParam, LPARAM lParam);
+	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
+	afx_msg void OnPaint();
+	afx_msg BOOL OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message);
+	afx_msg void OnTimer(UINT nIDEvent);
+};
+@
+
+
+1.6
+log
+@Improved string processing.
+@
+text
+@d3 1
+a3 1
+
+a5 2
+#include <ShellApi.h>
+
+d37 2
+a38 2
+	BOOL SetBitmap(LPCTSTR szFileName, int red = -1, int green = -1, int blue = -1);
+	BOOL SetBitmap(CBitmap *Bitmap, int red, int green, int blue);
+d41 1
+a41 1
+	void SetTextColor(COLORREF crNormalTextColor,COLORREF crSelectedTextColor);
+d46 2
+a47 2
+	CFont m_myNormalFont;
+	CFont m_mySelectedFont;
+d85 2
+a86 2
+	afx_msg LRESULT OnMouseHover(WPARAM w, LPARAM l);
+	afx_msg LRESULT OnMouseLeave(WPARAM w, LPARAM l);
+@
+
+
+1.5
+log
+@Minor corrections and improvements (from original).
+@
+text
+@a25 2
+// CTaskbarNotifier
+
+d35 1
+a35 1
+	void Show(LPCTSTR szCaption, int nMsgType,DWORD dwTimeToShow=500,DWORD dwTimeToStay=5000,DWORD dwTimeToHide=200); // enkeyDEV(kei-kun) -TaskbarNotifier-
+@
+
+
+1.4
+log
+@Fix for taskbar notifier
+@
+text
+@d39 5
+a43 5
+	int GetMessageType(); //<<--enkeyDEV(kei-kun) -TaskbarNotifier-
+	BOOL SetBitmap(UINT nBitmapID,short red=-1,short green=-1,short blue=-1);
+	BOOL SetBitmap(LPCTSTR szFileName,short red=-1,short green=-1,short blue=-1);
+	BOOL SetBitmap(CBitmap* Bitmap,short red,short green,short blue);
+	void SetTextFont(LPCTSTR szFont,int nSize,int nNormalStyle,int nSelectedStyle);
+d47 1
+a47 1
+			
+a95 2
+
+
+@
+
+
+1.3
+log
+@Removal of unrequired method and class member.
+@
+text
+@d64 1
+@
+
+
+1.2
+log
+@eMailNotifier and PopUp CleanUp
+@
+text
+@a46 1
+	void SetTextFormat(UINT uTextFormat);
+a62 1
+	UINT m_uTextFormat;
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d19 5
+a23 2
+#define TBN_DLOAD_ADD				4
+#define TBN_IMPORTANTEVENT			5
+@
+
+
+1.1.16.1
+log
+@27a partial merge
+@
+text
+@a2 2
+// Modified by kei-kun
+
+a6 1
+#include "resource.h"
+d15 6
+a20 10
+enum TbnMsg {
+	TBN_NONOTIFY,
+	TBN_NULL,
+	TBN_CHAT,
+	TBN_DLOAD,
+	TBN_LOG,
+	TBN_IMPORTANTEVENT,
+	TBN_NEWVERSION,
+	TBN_DLOAD_ADD
+};
+a22 11
+//CTaskbarNotifierHistory
+class CTaskbarNotifierHistory : public CObject
+{
+public:
+	CTaskbarNotifierHistory() {};
+	virtual ~CTaskbarNotifierHistory() {};
+
+	CString m_strMessage;
+	int m_nMessageType;
+};
+
+d34 3
+a36 4
+	void Show(LPCTSTR szCaption, int nMsgType, BOOL bAutoClose, DWORD dwTimeToStay); 
+	void ShowLastHistoryMessage(); 
+	int GetMessageType();
+	void Hide();	 
+a43 2
+	void SetCloseBtnRect(RECT rcCloseBtn);
+	void SetHistoryBtnRect(RECT rcHistoryBtn);
+d45 1
+a45 6
+	BOOL LoadConfiguration(LPCTSTR szFileName);
+	void SetAutoClose(BOOL autoClose);
+	
+protected:
+	HRGN CreateRgnFromBitmap(HBITMAP hBmp, COLORREF color);
+
+d60 1
+a60 4
+	CRect  m_rcText;
+	CRect  m_rcCloseBtn;
+	CRect  m_rcHistoryBtn;
+	CPoint m_ptMousePosition;
+a62 2
+	BOOL m_bTextSelected;
+	BOOL m_bAutoClose;
+d67 1
+a67 1
+	DWORD m_dwTimeToStay;
+a69 2
+	DWORD m_dwTimeToShow;
+	DWORD m_dwTimeToHide;
+d76 5
+a80 3
+	int m_nHistoryPosition;       //<<--enkeyDEV(kei-kun) -TaskbarNotifier-
+	int m_nActiveMessageType;     //<<--enkeyDEV(kei-kun) -TaskbarNotifier-
+	CObList m_MessageHistory;     //<<--enkeyDEV(kei-kun) -TaskbarNotifier-
+d94 2
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

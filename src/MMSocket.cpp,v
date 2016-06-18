@@ -1,0 +1,1261 @@
+head	1.32;
+access;
+symbols
+	PublicRelease_1_2e:1.31
+	Interim_Release_1-2e_RC1:1.31
+	PublicRelease_1_2d:1.29
+	Interim_Release_1-2d_RC1:1.29
+	Interim_Release_1-2d_beta1:1.29
+	PublicRelease_1_2c:1.28
+	Interim_Release_1-2c_RC1:1.28
+	Interim_Release_1-2c_beta1:1.28
+	PublicRelease_1_2b:1.28
+	Interim_Release_1-2b_RC1:1.28
+	PublicRelease_1_2a:1.28
+	Interim_Release_1-2a_RC1:1.27
+	Interim_Release_1-2a_beta2:1.27
+	Interim_Release_1-2a_beta1:1.27
+	PublicRelease_1_2:1.27
+	Interim_Release_1-2_RC1:1.26
+	Interim_Release_1-2_beta1:1.26
+	PublicRelease_1_1g:1.24
+	Interim_Release_1-1g_RC3:1.24
+	Interim_Release_1-1g_RC2:1.24
+	Interim_Release_1-1g_RC1:1.24
+	Interim_Release_1-1g_beta2:1.22
+	Interim_Release_1-1g_beta1:1.22
+	PublicRelease_1_1f:1.21
+	Interim_Release_1-1f_RC1:1.21
+	PublicRelease_1_1e:1.21
+	Interim_Release_1-1e_RC2:1.21
+	Interim_Release_1-1e_RC1:1.21
+	Interim_Release_1-1e_beta1:1.21
+	PublicRelease_1_1d:1.21
+	Interim_Release_1-1d_RC1:1.21
+	PublicRelease_1_1c:1.21
+	Interim_Release_1-1c_RC1:1.21
+	Interim_Release_1-1c_beta2:1.21
+	Interim_Release_1-1c_beta1:1.21
+	PublicRelease_1_1b:1.21
+	Interim_Release_1-1b_RC1:1.21
+	PublicRelease_1_1a:1.21
+	Interim_Release_1-1a_RC2:1.21
+	Interim_Release_1-1a_RC1:1.21
+	Interim_Release_1-1a_beta2:1.21
+	Interim_Release_1-1a_beta1:1.21
+	PublicRelease_1_1:1.21
+	Interim_Release_1-1_beta1:1.21
+	PublicRelease_1o:1.21
+	Interim_Release_1o_RC1:1.21
+	Interim_Release_1o_beta1:1.21
+	PublicRelease_1n:1.21
+	Interim_Release_1n_RC2:1.21
+	Interim_Release_1n_RC1:1.21
+	Interim_Release_1n_beta2:1.21
+	Interim_Release_1n_beta1:1.21
+	PublicRelease_1m:1.19
+	Interim_Release_1m_beta1:1.19
+	PublicRelease_1l:1.19
+	Interim_Release_1l_RC3:1.19
+	Interim_Release_1l_RC2:1.19
+	Interim_Release_1l_RC1:1.19
+	Interim_Release_1l_beta2:1.18
+	Interim_Release_1l_beta1:1.17
+	PublicRelease_1k:1.16
+	Interim_Release_1k_RC4:1.16
+	Interim_1k_RC3:1.16
+	Interim_1k_RC2:1.16
+	Interim_Release_1k_RC1:1.16
+	Interim_Release_1k_beta5:1.16
+	Intrerim_Release_1k_beta4:1.16
+	Interim_Release_1k_beta1:1.15
+	PublicRelease_1j:1.13
+	Interim_Release_1J_RC3:1.13
+	Interim_Release_1j_RC3:1.13
+	Interim_Release_1j_RC2:1.12
+	Interim_Release_1j_RC1:1.12
+	Interim_Release_1j_beta2:1.12
+	Interim_Release_1j_beta1:1.12
+	PublicRelease_1i:1.9
+	Interim_Release_1i_RC6:1.9
+	Interim_Release_1i_RC3:1.9
+	Interim_Release_1i_RC2:1.9
+	Interim_Release_1i_RC1:1.8
+	Interim_Release_1i_beta3:1.7
+	Interim_Release_1i_beta2:1.6
+	Interim_Release_1i_beta1:1.5
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.32
+date	2010.05.13.04.48.49;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2008.07.24.04.59.14;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2007.10.24.19.09.35;	author fuxie-dk;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.09.25.02.57.35;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.02.26.22.15.07;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.01.19.04.51.07;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.01.15.18.20.43;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.08.04.03.34.40;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.07.06.16.00.58;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.05.24.09.46.13;	author dongato;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.05.21.15.50.02;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.05.05.06.09.21;	author katsyonak;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.02.23.13.33.24;	author kush_eplus;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.02.19.01.49.06;	author kush_eplus;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.02.13.16.13.35;	author netwolf1;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.01.22.20.46.52;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.11.04.22.24.44;	author puritynn666;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.31.18.27.54;	author puritynn666;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.26.11.29.14;	author katsyonak;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.24.15.55.18;	author bond006;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.17.13.15.04;	author puritynn666;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.10.16.42.02;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.07.30.12.29.32;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.32
+log
+@Added an option to bind to specific network interface (from original) {Zom}.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2003 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "MMSocket.h"
+#include "MMServer.h"
+#include "otherfunctions.h"
+
+#ifdef OLD_SOCKETS_ENABLED
+
+CMMSocket::CMMSocket(CMMServer* pOwner)
+{
+	m_pOwner = pOwner;
+	m_pBuf = NULL;
+	m_dwRecv = 0;
+	m_dwBufSize = 0;
+	m_dwHttpHeaderLen = 0;
+	m_dwHttpContentLen = 0;
+	m_bClosed = false;
+	m_pSendBuffer = NULL;
+	m_nSendLen = 0;
+	m_nSent = 0;
+	m_dwTimedShutdown = 0;
+}
+
+CMMSocket::~CMMSocket(void)
+{
+	delete[] m_pBuf;
+	while (!m_PacketQueue.IsEmpty())
+	{
+		delete m_PacketQueue.RemoveHead();
+	}
+	delete[] m_pSendBuffer;
+}
+
+void CMMSocket::Close()
+{
+	if (m_hSocket != INVALID_SOCKET && m_hSocket != NULL)
+	{
+		this->AsyncSelect(0);
+		CAsyncSocket::Close();
+	}
+	m_bClosed = true;
+}
+
+void CMMSocket::OnClose(int nErrorCode)
+{
+	NOPRM(nErrorCode);
+	m_bClosed = true;
+	if (m_pOwner->m_pPendingCommandSocket == this)
+		m_pOwner->m_pPendingCommandSocket = NULL;
+}
+
+void CMMSocket::OnReceive(int nErrorCode)
+{
+	static char GlobalReadBuffer[10240];
+	if(nErrorCode != 0)
+	{
+		return;
+	}
+	const UINT SIZE_PRESERVE = 0x1000;
+	uint32 readMax = sizeof(GlobalReadBuffer);
+	uint32 dwSize = Receive(GlobalReadBuffer, readMax);
+	if(dwSize == SOCKET_ERROR || dwSize == 0)
+	{
+		return;
+	}
+	if (m_dwBufSize < dwSize + m_dwRecv)
+	{
+		// reallocate
+		char* pNewBuf = new char[m_dwBufSize = dwSize + m_dwRecv + SIZE_PRESERVE];
+		if (!pNewBuf)
+		{
+			shutdown(m_hSocket, SD_BOTH);
+			Close();
+			return;
+		}
+
+		if (m_pBuf)
+		{
+			memcpy2(pNewBuf, m_pBuf, m_dwRecv);
+			delete[] m_pBuf;
+		}
+
+		m_pBuf = pNewBuf;
+	}
+	memcpy2(m_pBuf + m_dwRecv, GlobalReadBuffer, dwSize);
+	m_dwRecv += dwSize;
+
+	// check if we have all that we want
+	if (!m_dwHttpHeaderLen)
+	{
+		// try to find it
+		bool bPrevEndl = false;
+		for (DWORD dwPos = 0; dwPos < m_dwRecv; dwPos++)
+			if ('\n' == m_pBuf[dwPos])
+				if (bPrevEndl)
+				{
+					// We just found the end of the http header
+					// Now write the message's position into two first DWORDs of the buffer
+					m_dwHttpHeaderLen = dwPos + 1;
+
+					for (dwPos = 0; dwPos < m_dwHttpHeaderLen; )
+					{
+						char* pPtr = (char*)memchr(m_pBuf + dwPos, '\n', m_dwHttpHeaderLen - dwPos);
+						if (!pPtr)
+							break;
+						DWORD dwNextPos = pPtr - m_pBuf;
+
+						// check this header
+						char szMatch[] = "content-length";
+						if (!strnicmp(m_pBuf + dwPos, szMatch, sizeof(szMatch) - 1))
+						{
+							dwPos += sizeof(szMatch) - 1;
+							pPtr = (char*)memchr(m_pBuf + dwPos, ':', m_dwHttpHeaderLen - dwPos);
+							if (pPtr)
+								m_dwHttpContentLen = atol((pPtr) + 1);
+
+							break;
+						}
+						dwPos = dwNextPos + 1;
+					}
+
+					break;
+				}
+				else
+				{
+					bPrevEndl = true;
+				}
+			else
+				if ('\r' != m_pBuf[dwPos])
+					bPrevEndl = false;
+	}
+	if (m_dwHttpHeaderLen && !m_dwHttpContentLen)
+		m_dwHttpContentLen = m_dwRecv - m_dwHttpHeaderLen;
+	if ((m_dwHttpHeaderLen != 0) && (m_dwHttpContentLen < m_dwRecv) && (!m_dwHttpContentLen || (m_dwHttpHeaderLen + m_dwHttpContentLen <= m_dwRecv)))
+	{
+		OnRequestReceived(m_pBuf, m_dwHttpHeaderLen, m_pBuf + m_dwHttpHeaderLen, m_dwHttpContentLen);
+
+		if (m_dwRecv > m_dwHttpHeaderLen + m_dwHttpContentLen)
+		{
+			// move our data
+			m_dwRecv -= m_dwHttpHeaderLen + m_dwHttpContentLen;
+			MoveMemory(m_pBuf, m_pBuf + m_dwHttpHeaderLen + m_dwHttpContentLen, m_dwRecv);
+		} else
+			m_dwRecv = 0;
+
+		m_dwHttpHeaderLen = 0;
+		m_dwHttpContentLen = 0;
+	}
+}
+
+bool CMMSocket::SendPacket(CMMPacket* packet, bool bQueueFirst)
+{
+	if (m_pSendBuffer != NULL)
+	{
+		m_PacketQueue.AddTail(packet);
+		return false;
+	}
+	else
+	{
+		char	szBuf[512];
+		int		nLen;
+		uint32	dwDataLen = static_cast<uint32>(packet->m_memFile.GetLength());
+
+		if (!packet->m_bSpecialHeader)
+			nLen = wsprintfA(szBuf, "HTTP/1.1 200 OK\r\nContent-Type: %s\r\nContent-Length: %u\r\nConnection: close\r\n\r\n", m_pOwner->GetContentType(), dwDataLen);
+		else
+			nLen = wsprintfA(szBuf, "Content-Length: %u\r\n\r\n", dwDataLen);
+		m_nSendLen = nLen + dwDataLen;
+		m_pSendBuffer =	new char[m_nSendLen];
+		memcpy2(m_pSendBuffer, szBuf, nLen);
+		packet->m_memFile.SeekToBegin();
+		packet->m_memFile.Read(m_pSendBuffer + nLen, dwDataLen);
+
+		m_nSent = Send(m_pSendBuffer,m_nSendLen);
+		if (m_nSent == SOCKET_ERROR)
+		{
+			delete[] m_pSendBuffer;
+			m_pSendBuffer = NULL;
+			m_nSendLen = 0;
+			if (GetLastError() == WSAEWOULDBLOCK)
+			{
+				if (bQueueFirst)
+					m_PacketQueue.AddHead(packet);
+				else
+					m_PacketQueue.AddTail(packet);
+			}
+			else
+			{
+				delete packet;
+				Close();
+			}
+			return false;
+		}
+		else
+		{
+			if (m_nSent == m_nSendLen)
+			{
+				delete[] m_pSendBuffer;
+				m_pSendBuffer = NULL;
+				m_nSendLen = 0;
+				delete packet;
+				CheckForClosing();
+				return true;
+			}
+			else
+			{
+				delete packet;
+				return false;
+			}
+		}
+	}
+}
+
+void CMMSocket::CheckForClosing()
+{
+	if (m_nSendLen == 0 && m_PacketQueue.IsEmpty() && !m_bClosed)
+	{
+		m_dwTimedShutdown = ::GetTickCount() + 1000;
+	}
+}
+
+void CMMSocket::OnSend(int nErrorCode)
+{
+	NOPRM(nErrorCode);
+	if(m_pSendBuffer != NULL)
+	{
+		uint32 res = Send(m_pSendBuffer+m_nSent,m_nSendLen-m_nSent);
+		if (res == SOCKET_ERROR)
+		{
+			if (GetLastError() != WSAEWOULDBLOCK)
+				Close();
+			return;
+		}
+		else
+		{
+			m_nSent += res;
+			if (m_nSent >= m_nSendLen)
+			{
+				delete[] m_pSendBuffer;
+				m_pSendBuffer = NULL;
+				m_nSendLen = 0;
+				CheckForClosing();
+			}
+			else
+				return;
+		}
+	}
+	while (!m_PacketQueue.IsEmpty())
+	{
+		CMMPacket* packet = m_PacketQueue.RemoveHead();
+		if (!SendPacket(packet,true))
+			return;
+	}
+}
+
+void CMMSocket::OnRequestReceived(char* pHeader, DWORD dwHeaderLen, char* pData, DWORD dwDataLen)
+{
+	CString sHeader(pHeader, dwHeaderLen);
+	if(sHeader.Left(4) != _T("POST"))
+		return;
+	if (!m_pOwner->PreProcessPacket(pData, dwDataLen, this))
+		return;
+	try
+	{
+		if (dwDataLen > 3)
+		{
+			try
+			{
+				CMMData data(pData + 3, dwDataLen - 3);
+				switch(pData[0])
+				{
+					case MMP_HELLO:
+						m_pOwner->ProcessHelloPacket(&data,this);
+						break;
+					case MMP_FILECOMMANDREQ:
+						m_pOwner->ProcessFileCommand(&data,this);
+						break;
+					case MMP_FILEDETAILREQ:
+						m_pOwner->ProcessDetailRequest(&data,this);
+						break;
+					case MMP_COMMANDREQ:
+						m_pOwner->ProcessCommandRequest(&data,this);
+						break;
+					case MMP_SEARCHREQ:
+						m_pOwner->ProcessSearchRequest(&data,this);
+						break;
+					case MMP_DOWNLOADREQ:
+						m_pOwner->ProcessDownloadRequest(&data,this);
+						break;
+					case MMP_PREVIEWREQ:
+						m_pOwner->ProcessPreviewRequest(&data,this);
+						break;
+					case MMP_CHANGELIMIT:
+						m_pOwner->ProcessChangeLimitRequest(&data,this);
+						break;
+					case MMP_STATISTICSREQ:
+						m_pOwner->ProcessStatisticsRequest(&data,this);
+						break;
+				}
+			}
+			catch(CFileException* error)
+			{
+				ASSERT(false);
+				g_App.m_pMDlg->AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, _T("Corrupted MobileMule packet received"));
+				error->Delete();
+			}
+		}
+		else
+		{
+			switch(pData[0])
+			{
+				case MMP_STATUSREQ:
+					m_pOwner->ProcessStatusRequest(this);
+					break;
+				case MMP_FILELISTREQ:
+					m_pOwner->ProcessFileListRequest(this);
+					break;
+				case MMP_FINISHEDREQ:
+					m_pOwner->ProcessFinishedListRequest(this);
+					break;
+			}
+		}
+	}
+	catch(...)
+	{
+		ASSERT(false);
+		g_App.m_pMDlg->AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, _T("Unexpected error while processing MobileMule packet"));
+	}
+}
+
+// *************** Listener ****************************
+
+CListenMMSocket::CListenMMSocket(CMMServer* pOwner)
+{
+	m_pOwner = pOwner;
+}
+
+CListenMMSocket::~CListenMMSocket(void)
+{
+	while(!m_socket_list.IsEmpty())
+		delete m_socket_list.RemoveHead();
+}
+
+bool CListenMMSocket::Create()
+{
+	return CAsyncSocket::Create(g_App.m_pPrefs->GetMMPort(), SOCK_STREAM, FD_ACCEPT, g_App.m_pPrefs->GetBindAddr()) && Listen();
+}
+
+void CListenMMSocket::OnAccept(int nErrorCode)
+{
+	if (!nErrorCode)
+	{
+		CMMSocket* newclient = new CMMSocket(m_pOwner);
+			if (!Accept(*newclient))
+				delete newclient;
+			else
+			{
+				newclient->AsyncSelect(FD_WRITE|FD_READ|FD_CLOSE);
+				m_socket_list.AddTail(newclient);
+				/*LINGER linger = { 1, 7 };
+				VERIFY(newclient->SetSockOpt(SO_LINGER,&linger, sizeof(linger), SOL_SOCKET));
+				DeleteClosedSockets();*/
+			}
+	}
+}
+
+void CListenMMSocket::DeleteClosedSockets()
+{
+	POSITION pos2,pos1;
+	for(pos1 = m_socket_list.GetHeadPosition(); ( pos2 = pos1 ) != NULL; )
+	{
+		CMMSocket* cur_sock = m_socket_list.GetNext(pos1);
+		if (cur_sock->m_bClosed)
+		{
+			m_socket_list.RemoveAt(pos2);
+			delete cur_sock;
+		}
+		else if (cur_sock->m_dwTimedShutdown && cur_sock->m_dwTimedShutdown < ::GetTickCount())
+		{
+			cur_sock->ShutDown(SD_SEND);
+			cur_sock->m_dwTimedShutdown = 0;
+		}
+	}
+}
+
+void CListenMMSocket::Process()
+{
+	DeleteClosedSockets();
+}
+
+#endif //OLD_SOCKETS_ENABLED
+@
+
+
+1.31
+log
+@Simplified logging system implementation.
+@
+text
+@d363 1
+a363 1
+	return CAsyncSocket::Create(g_App.m_pPrefs->GetMMPort(),SOCK_STREAM,FD_ACCEPT) && Listen();
+@
+
+
+1.30
+log
+@Fixed Unicode issue (from original).
+@
+text
+@d321 1
+a321 1
+				g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Corrupted MobileMule packet received"));
+d344 1
+a344 1
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Unexpected error while processing MobileMule packet"));
+@
+
+
+1.29
+log
+@Suppressed level 4 warnings; Formatting [Aw3].
+@
+text
+@d276 1
+a276 1
+	if(sHeader.Left(4) != "POST")
+@
+
+
+1.28
+log
+@MobileMule: fixed potential crash on socket closure {Xman1}.
+@
+text
+@d63 1
+a65 1
+	{
+a66 1
+	}
+d241 1
+d361 1
+a361 1
+bool  CListenMMSocket::Create()
+a365 1
+
+@
+
+
+1.27
+log
+@Reduced huge HTTP reply buffer; Optimized reply size processing;
+Regrouped HTTP header replies like in WebServer; Formatting;
+Dynamic memory file object is substituted with static one.
+@
+text
+@d390 3
+a392 3
+	   CMMSocket* cur_sock = m_socket_list.GetNext(pos1);
+	   if ( cur_sock->m_bClosed)
+	   {
+d395 7
+a401 7
+	   }
+	   if (cur_sock->m_dwTimedShutdown && cur_sock->m_dwTimedShutdown < ::GetTickCount())
+	   {
+		   cur_sock->ShutDown(SD_SEND);
+		   cur_sock->m_dwTimedShutdown = 0;
+	   }
+   }
+@
+
+
+1.26
+log
+@Minor update from the original.
+@
+text
+@d178 4
+a181 2
+		char szBuf[0x1000];
+		int nLen;
+d183 1
+a183 1
+			nLen = wsprintfA(szBuf, "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: %s\r\nContent-Length: %ld\r\n\r\n",m_pOwner->GetContentType(), packet->m_pBuffer->GetLength());
+d185 2
+a186 2
+			nLen = wsprintfA(szBuf, "Content-Length: %ld\r\n\r\n", packet->m_pBuffer->GetLength());
+		m_nSendLen = nLen + static_cast<uint32>(packet->m_pBuffer->GetLength());
+d189 2
+a190 2
+		packet->m_pBuffer->SeekToBegin();
+		packet->m_pBuffer->Read(m_pSendBuffer + nLen, static_cast<uint32>(packet->m_pBuffer->GetLength()));
+a227 1
+
+a283 1
+
+d286 1
+a286 1
+				CMMData data(pData+3,dwDataLen-3);
+d320 2
+a321 2
+				ASSERT ( false ); // remove later
+				g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Corrupt MobileMule Packet received"));
+d343 2
+a344 2
+		ASSERT ( false ); // remove later
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Unexpected Error while processing MobileMule Packet"));
+@
+
+
+1.25
+log
+@Improved string processing; Formatting and type casting.
+@
+text
+@d43 1
+a43 5
+	if (m_pBuf)
+	{
+		delete[] m_pBuf;
+		m_pBuf = NULL;
+	}
+d48 1
+a48 5
+	if (m_pSendBuffer)
+	{
+		delete[] m_pSendBuffer;
+		m_pSendBuffer = NULL;
+	}
+@
+
+
+1.24
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d19 1
+a21 1
+#include "emule.h"
+d192 1
+a192 1
+		m_nSendLen = nLen + packet->m_pBuffer->GetLength();
+d194 1
+a194 1
+		memcpy2(m_pSendBuffer,szBuf,nLen);
+d196 1
+a196 1
+		packet->m_pBuffer->Read(m_pSendBuffer+nLen,packet->m_pBuffer->GetLength());
+d329 1
+a329 1
+				g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_ERROR + _T("Corrupt MobileMule Packet received"));
+d352 1
+a352 1
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_ERROR + _T("Unexpected Error while processing MobileMule Packet"));
+a353 1
+
+d417 1
+a417 1
+#endif //OLD_SOCKETS_ENABLED@
+
+
+1.23
+log
+@renamed 3 variables
+@
+text
+@d372 1
+a372 1
+	return CAsyncSocket::Create(g_App.g_pPrefs->GetMMPort(),SOCK_STREAM,FD_ACCEPT) && Listen();
+@
+
+
+1.22
+log
+@Slightly cleaned a mess of including one H-file into another.
+@
+text
+@d329 1
+a329 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(RGB_LOG_ERROR + _T("Corrupt MobileMule Packet received"));
+d352 1
+a352 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(RGB_LOG_ERROR + _T("Unexpected Error while processing MobileMule Packet"));
+d372 1
+a372 1
+	return CAsyncSocket::Create(g_eMuleApp.m_pGlobPrefs->GetMMPort(),SOCK_STREAM,FD_ACCEPT) && Listen();
+@
+
+
+1.21
+log
+@Fixed webinterface exploit (official).
+@
+text
+@d18 3
+a20 2
+#include "StdAfx.h"
+#include "mmsocket.h"
+@
+
+
+1.20
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d159 1
+a159 1
+	if (m_dwHttpHeaderLen && (!m_dwHttpContentLen || (m_dwHttpHeaderLen + m_dwHttpContentLen <= m_dwRecv)))
+@
+
+
+1.19
+log
+@Reverted some __FUNCTION__ logs as they weren't useful for users and were taking too much log space. We can always resort to search for the string.
+@
+text
+@d328 1
+a328 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_ERROR + _T("Corrupt MobileMule Packet received"));
+d351 1
+a351 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_ERROR + _T("Unexpected Error while processing MobileMule Packet"));
+@
+
+
+1.18
+log
+@More DebugLog formating and changes
+@
+text
+@d328 1
+a328 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_ERROR + _T("%s: Corrupt MobileMule Packet received"), __FUNCTION__);
+d351 1
+a351 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_ERROR + _T("%s: Unexpected Error while processing MobileMule Packet"), __FUNCTION__);
+@
+
+
+1.17
+log
+@Connected server is now background highlighted; Aw3 fix for IP2Country constant DB/LIB loading from preferences; Replaced all ZeroMemory with memzero; Replaced all CopyMemory with memcpy2
+@
+text
+@d328 1
+a328 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_ERROR + _T("Corrupt MobileMule Packet received"));
+d351 1
+a351 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_ERROR + _T("Unexpected Error while processing MobileMule Packet"));
+@
+
+
+1.16
+log
+@formatting;
+optimzations in UploadQueue.cpp;
+removing doubled ';'
+@
+text
+@d104 1
+a104 1
+			CopyMemory(pNewBuf, m_pBuf, m_dwRecv);
+d110 1
+a110 1
+	CopyMemory(m_pBuf + m_dwRecv, GlobalReadBuffer, dwSize);
+@
+
+
+1.15
+log
+@formatting & optimisation
+@
+text
+@d371 1
+a371 1
+	return CAsyncSocket::Create(g_eMuleApp.m_pGlobPrefs->GetMMPort(),SOCK_STREAM,FD_ACCEPT) && Listen();;
+d398 1
+a398 1
+	   CMMSocket* cur_sock = m_socket_list.GetNext(pos1);;
+@
+
+
+1.14
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d42 2
+a43 1
+	if (m_pBuf){
+d47 2
+a48 1
+	while (!m_PacketQueue.IsEmpty()){
+d51 2
+a52 1
+	if (m_pSendBuffer){
+d58 4
+a61 2
+void CMMSocket::Close(){
+	if (m_hSocket != INVALID_SOCKET && m_hSocket != NULL){
+d68 2
+a69 1
+void CMMSocket::OnClose(int nErrorCode){
+d71 2
+a72 1
+	if (m_pOwner->m_pPendingCommandSocket == this){
+d77 2
+a78 1
+void CMMSocket::OnReceive(int nErrorCode){
+d80 2
+a81 1
+	if(nErrorCode != 0){
+d85 1
+a85 1
+	uint32 readMax = sizeof(GlobalReadBuffer); 
+d87 2
+a88 1
+	if(dwSize == SOCKET_ERROR || dwSize == 0){
+d176 4
+a179 2
+bool CMMSocket::SendPacket(CMMPacket* packet, bool bQueueFirst){
+	if (m_pSendBuffer != NULL){
+d183 2
+a184 1
+	else{
+d195 2
+a196 2
+		packet->m_pBuffer->Read(m_pSendBuffer+nLen,packet->m_pBuffer->GetLength()); 
+		
+d198 2
+a199 1
+		if (m_nSent == SOCKET_ERROR){
+d203 2
+a204 1
+			if (GetLastError() == WSAEWOULDBLOCK){
+d210 2
+a211 1
+			else{
+d217 4
+a220 2
+		else{
+			if (m_nSent == m_nSendLen){
+d228 2
+a229 1
+			else{
+d233 1
+a233 1
+			
+d238 4
+a241 2
+void CMMSocket::CheckForClosing(){
+	if (m_nSendLen == 0 && m_PacketQueue.IsEmpty() && !m_bClosed){
+d246 4
+a249 2
+void CMMSocket::OnSend(int nErrorCode){
+	if(m_pSendBuffer != NULL){
+d251 2
+a252 1
+		if (res == SOCKET_ERROR){
+d257 2
+a258 1
+		else{
+d260 2
+a261 1
+			if (m_nSent >= m_nSendLen){
+d271 2
+a272 1
+	while (!m_PacketQueue.IsEmpty()){
+d286 4
+a289 2
+	try{
+		if (dwDataLen > 3){
+d291 2
+a292 1
+			try{
+d294 2
+a295 1
+				switch(pData[0]){
+d325 2
+a326 1
+			catch(CFileException* error){
+d332 4
+a335 2
+		else{
+			switch(pData[0]){
+d348 2
+a349 1
+	catch(...){
+d369 2
+a370 1
+bool  CListenMMSocket::Create(){
+d375 4
+a378 2
+void CListenMMSocket::OnAccept(int nErrorCode){
+	if (!nErrorCode){
+d382 2
+a383 1
+			else{
+d393 2
+a394 1
+void CListenMMSocket::DeleteClosedSockets(){
+d396 5
+a400 4
+	for(pos1 = m_socket_list.GetHeadPosition(); ( pos2 = pos1 ) != NULL; ){
+       m_socket_list.GetNext(pos1);
+	   CMMSocket* cur_sock = m_socket_list.GetAt(pos2);
+	   if ( cur_sock->m_bClosed){
+d404 2
+a405 1
+	   if (cur_sock->m_dwTimedShutdown && cur_sock->m_dwTimedShutdown < ::GetTickCount()){
+d412 2
+a413 1
+void CListenMMSocket::Process(){
+@
+
+
+1.13
+log
+@Update to MobileMule 0.7a
+@
+text
+@a22 1
+#ifdef MOBILE_MULE
+d374 1
+a374 2
+#endif //OLD_SOCKETS_ENABLED
+#endif //MOBILE_MULE@
+
+
+1.12
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d290 3
+@
+
+
+1.11
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d294 1
+a294 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_RED + _T("Corrupt MobileMule Packet received"));
+d314 1
+a314 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_RED + _T("Unexpected Error while processing MobileMule Packet"));
+@
+
+
+1.10
+log
+@Added some colors to the logs...
+@
+text
+@d294 1
+a294 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "<COLOR=255,0,0>Corrupt MobileMule Packet received");
+d314 1
+a314 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "<COLOR=255,0,0>Unexpected Error while processing MobileMule Packet");
+@
+
+
+1.9
+log
+@MobileMule Update 0.6b (>0.30C) ;-)
+@
+text
+@d294 1
+a294 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "Corrupt MobileMule Packet received");
+d314 1
+a314 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "Unexpected Error while processing MobileMule Packet");
+@
+
+
+1.8
+log
+@mobileMule update -> 0.6a (>0.30c hey we are ahead of official mule ;-)
+@
+text
+@d176 1
+a176 2
+			//nLen = wsprintfA(szBuf, "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: image/vnd.wap.wbmp\r\nContent-Length: %ld\r\n\r\n", packet->m_pBuffer->GetLength());
+			nLen = wsprintfA(szBuf, "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: image/vnd.wap.wbmp\r\nContent-Length: %ld\r\n\r\n", packet->m_pBuffer->GetLength());
+@
+
+
+1.7
+log
+@Updated to official v0.30c
+@
+text
+@d176 2
+a177 1
+			nLen = wsprintfA(szBuf, "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: application/octet-stream\r\nContent-Length: %ld\r\n\r\n", packet->m_pBuffer->GetLength());
+d287 3
+@
+
+
+1.6
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@a156 1
+			MoveMemory(m_pBuf, m_pBuf + m_dwHttpHeaderLen + m_dwHttpContentLen, m_dwRecv - m_dwHttpHeaderLen + m_dwHttpContentLen);
+d158 1
+@
+
+
+1.5
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d21 1
+d181 1
+a181 1
+		memcpy(m_pSendBuffer,szBuf,nLen);
+@
+
+
+1.4
+log
+@built in compiler switch for mobileMule
+@
+text
+@d290 1
+a290 1
+				theApp.emuledlg->AddDebugLogLine(false, "Corrupt MobileMule Packet received");
+d310 1
+a310 1
+		theApp.emuledlg->AddDebugLogLine(false, "Unexpected Error while processing MobileMule Packet");
+d329 1
+a329 1
+	return CAsyncSocket::Create(theApp.glob_prefs->GetMMPort(),SOCK_STREAM,FD_ACCEPT) && Listen();;
+@
+
+
+1.3
+log
+@latest mobile mule changes + some additional webserver stuff (see changelog)
+@
+text
+@d22 1
+d369 1
+@
+
+
+1.2
+log
+@Preparing for new sockets
+@
+text
+@d282 3
+d300 3
+@
+
+
+1.1
+log
+@Purity's changes
+@
+text
+@d22 2
+d359 3
+a361 1
+}@
+

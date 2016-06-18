@@ -1,0 +1,341 @@
+head	1.12;
+access;
+symbols
+	PublicRelease_1_2e:1.12
+	Interim_Release_1-2e_RC1:1.12
+	PublicRelease_1_2d:1.12
+	Interim_Release_1-2d_RC1:1.12
+	Interim_Release_1-2d_beta1:1.12
+	PublicRelease_1_2c:1.12
+	Interim_Release_1-2c_RC1:1.12
+	Interim_Release_1-2c_beta1:1.12
+	PublicRelease_1_2b:1.12
+	Interim_Release_1-2b_RC1:1.12
+	PublicRelease_1_2a:1.12
+	Interim_Release_1-2a_RC1:1.12
+	Interim_Release_1-2a_beta2:1.12
+	Interim_Release_1-2a_beta1:1.12
+	PublicRelease_1_2:1.12
+	Interim_Release_1-2_RC1:1.12
+	Interim_Release_1-2_beta1:1.12
+	PublicRelease_1_1g:1.12
+	Interim_Release_1-1g_RC3:1.12
+	Interim_Release_1-1g_RC2:1.12
+	Interim_Release_1-1g_RC1:1.12
+	Interim_Release_1-1g_beta2:1.12
+	Interim_Release_1-1g_beta1:1.12
+	PublicRelease_1_1f:1.12
+	Interim_Release_1-1f_RC1:1.12
+	PublicRelease_1_1e:1.12
+	Interim_Release_1-1e_RC2:1.12
+	Interim_Release_1-1e_RC1:1.12
+	Interim_Release_1-1e_beta1:1.12
+	PublicRelease_1_1d:1.7
+	Interim_Release_1-1d_RC1:1.7
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.5
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.12
+date	2005.04.16.00.04.52;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.04.08.14.16.34;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.04.08.11.09.30;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.04.07.06.48.18;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.03.22.22.02.03;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.03.13.19.29.45;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.03.08.17.08.58;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.02.03.15.13.49;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.01.29.14.55.00;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.01.04.13.21.14;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.12.29.16.04.21;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.12.26.06.50.32;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@v2 - Xml events and other improvements
+@
+text
+@// stdafx.h : include file for standard system include files,
+//  or project specific include files that are used frequently, but
+//      are changed infrequently
+//
+
+#pragma once
+
+// Change these values to use different versions
+#define WINVER			0x0400
+#define _WIN32_WINNT	0x0400
+#define _WIN32_IE		0x0500
+#define _RICHEDIT_VER	0x0100
+
+#define _WTL_USE_CSTRING
+
+#include <atlbase.h>
+#include <atlapp.h>
+
+extern CAppModule _Module;
+
+#include <atlwin.h>
+
+#include <atlmisc.h>
+
+//////////////////////////
+#define NEW_SOCKETS
+#define NEW_SOCKETS_ENGINE
+#define NEW_SOCKETS_TRAY
+
+#define ASSERT ATLASSERT
+#define VERIFY ATLVERIFY
+#define TRACE ATLTRACE
+#define TRACE2 ATLTRACE2
+
+#include <comdef.h>
+
+#if defined(_DEBUG)
+#define EMULE_TRY
+#define EMULE_CATCH
+#define EMULE_CATCH2
+#else
+#define EMULE_TRY try{
+#define EMULE_CATCH }\
+/*	catch(CString &str){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FUNCTION__,__FILE__, __LINE__,str);}catch(...){} }\
+	catch(CException *err){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FUNCTION__,__FILE__, __LINE__,GetErrorMessage(err));err->Delete();}catch(...){} }*/\
+	catch(...){ /*try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FUNCTION__,__FILE__, __LINE__,_T(""));}catch(...){}*/ }
+#define EMULE_CATCH2 } catch(...){}
+#endif
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#define _WINSOCKAPI_
+
+#include "../Engine/Other/atlwfile.h"
+
+#include <atlcrack.h>
+#include <atlddx.h>
+#include <atlsync.h>
+
+typedef struct
+{
+	BYTE		hash[16];
+} HashType;
+
+
+const CString DEF_ADDR = _T("127.0.0.1");
+const UINT DEF_PORT = 9090;
+
+#include "EmEngine.h"
+extern CEmEngine g_stEngine;
+@
+
+
+1.11
+log
+@v2 - more abstraction + logic
+@
+text
+@d9 2
+a10 2
+#define WINVER			0x0500
+#define _WIN32_WINNT	0x0500
+@
+
+
+1.10
+log
+@v2 - increased level of abstraction + minor improvements
+@
+text
+@a36 21
+#define PCTSTR LPCTSTR
+#define PCVOID LPCVOID
+#ifndef _countof
+#	define _countof(string) (sizeof((string)) / sizeof((string)[0]))
+#endif // _countof
+#pragma warning (disable : 4200)
+#pragma warning (disable : 4355)
+
+enum T_CLIENT_TYPE {
+	T_CLIENT_PEER,
+	T_CLIENT_SERVER,
+	T_CLIENT_WEB,
+	T_CLIENT_XML
+};
+
+#include <vector>
+#include <map>
+#include <queue>
+
+using namespace std;
+
+a49 2
+#define GetResString(id)  _T("NOT IMPLEMENTED YET")
+
+a68 5
+#include "../Engine/Other/Time.h"
+#include "../Engine/Other/Loggable2.h"
+
+class CEmClient_Peer;
+
+@
+
+
+1.9
+log
+@v2 - more webserver logic
+@
+text
+@d9 3
+a11 3
+#define WINVER		0x0400
+//#define _WIN32_WINNT	0x0400
+#define _WIN32_IE	0x0500
+@
+
+
+1.8
+log
+@v2 - enhancing logging subsystem
+@
+text
+@d88 4
+@
+
+
+1.7
+log
+@v2 - little improvements
+@
+text
+@d88 3
+@
+
+
+1.6
+log
+@v2 - minor rearrangements, started defining client and clientlist
+@
+text
+@d88 2
+@
+
+
+1.5
+log
+@Ideological switch (may be considered as temporary, but for long term) - ATL to MFC
+Actually we don't need them both, but I want to work with our current KnownFile-based classes, which use MFC a lot
+@
+text
+@d83 5
+@
+
+
+1.4
+log
+@Xml and database functionality
+@
+text
+@d81 1
+@
+
+
+1.3
+log
+@XML connecting, tray app
+@
+text
+@d28 1
+@
+
+
+1.2
+log
+@There can be only one engine :-)
+@
+text
+@d47 2
+a48 1
+	T_CLIENT_WEB
+d81 1
+a81 15
+struct CTask;
+struct CEmClient;
+struct CTcpCompletionTask;
+class CEmEngine
+{
+public:
+	inline bool IsShuttingDown(){ return false;	}
+	inline void PushToSocketsTP(CTask *pTask){ }
+	inline CEmClient* LookupClient(SOCKET hSocket){ return NULL; }
+	inline void KillClient(CEmClient *pClient){ }
+	inline CEmClient* AllocClient(T_CLIENT_TYPE eType){ return NULL; }
+	inline void AddClientToMap(SOCKET hSocket, CEmClient *pClient){ }
+	CEmClient *AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE eType, CTcpCompletionTask *pOnCompletionTask){ return NULL; }
+};
+
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d79 17
+@
+

@@ -1,0 +1,653 @@
+head	1.9;
+access;
+symbols
+	PublicRelease_1_2e:1.9
+	Interim_Release_1-2e_RC1:1.9
+	PublicRelease_1_2d:1.6
+	Interim_Release_1-2d_RC1:1.6
+	Interim_Release_1-2d_beta1:1.6
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.5
+	PublicRelease_1_2a:1.5
+	Interim_Release_1-2a_RC1:1.5
+	Interim_Release_1-2a_beta2:1.5
+	Interim_Release_1-2a_beta1:1.5
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.5
+	PublicRelease_1_1g:1.4
+	Interim_Release_1-1g_RC3:1.4
+	Interim_Release_1-1g_RC2:1.4
+	Interim_Release_1-1g_RC1:1.4
+	Interim_Release_1-1g_beta2:1.1
+	Interim_Release_1-1g_beta1:1.1
+	PublicRelease_1_1f:1.1
+	Interim_Release_1-1f_RC1:1.1
+	PublicRelease_1_1e:1.1
+	Interim_Release_1-1e_RC2:1.1
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1
+	PublicRelease_1_1d:1.1
+	Interim_Release_1-1d_RC1:1.1
+	PublicRelease_1_1c:1.1
+	Interim_Release_1-1c_RC1:1.1
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1
+	PublicRelease_1_1b:1.1
+	Interim_Release_1-1b_RC1:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.9
+date	2008.12.01.03.51.23;	author kush_eplus;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2008.11.12.16.57.46;	author kush_eplus;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.07.27.06.21.19;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.01.14.19.53.10;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.11.28.03.10.48;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.12.15.14.53.09;	author katsyonak;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@Better fix as per Aw3 suggestion, kept default constructor for CArray initialization;
+Minor optimization;
+Formattings
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2008 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+
+// Class to configure the ICS-Firewall of Windows XP - will not work with WinXP-SP2 yet
+
+#include "stdafx.h"
+#include "FirewallOpener.h"
+#include "emule.h"
+#include "Preferences.h"
+#include "otherfunctions.h"
+
+#define RETURN_ON_FAIL(x)	if (FAILED(x)) return false;
+
+CFirewallOpener::CFirewallOpener()
+{
+	m_bInited = false;
+	m_pINetSM = NULL;
+}
+
+CFirewallOpener::~CFirewallOpener()
+{
+	UnInit();
+}
+
+bool CFirewallOpener::Init(bool bPreInit)
+{
+	if (!m_bInited)
+	{
+		ASSERT ( m_liAddedRules.IsEmpty() );
+		if (g_App.m_pPrefs->GetWindowsVersion() != _WINVER_XP_ && g_App.m_pPrefs->GetWindowsVersion() != _WINVER_SE_)
+			return false;
+		HRESULT hr = ::CoInitializeSecurity (NULL, -1, NULL, NULL, RPC_C_AUTHN_LEVEL_PKT, RPC_C_IMP_LEVEL_IMPERSONATE, NULL, EOAC_NONE, NULL);
+		if (FAILED(hr) || FAILED(::CoCreateInstance (__uuidof(NetSharingManager), NULL, CLSCTX_ALL, __uuidof(INetSharingManager), (void**)&m_pINetSM)))
+			return false;
+	}
+	m_bInited = true;
+	if (bPreInit)
+	{
+		// will return here in order to not create an instance when not really needed
+		// preinit is only used to call CoInitializeSecurity before its too late for that (aka something else called it)
+		// will have to look deeper into this issue in order to find a nicer way if possible
+		return true;
+	}
+
+	if (m_pINetSM == NULL)
+	{
+		if (FAILED(::CoCreateInstance (__uuidof(NetSharingManager), NULL, CLSCTX_ALL, __uuidof(INetSharingManager), (void**)&m_pINetSM)))
+		{
+			UnInit();
+			return false;
+		}
+	}
+	return true;
+}
+
+void CFirewallOpener::UnInit()
+{
+	if (!m_bInited)
+		return;
+
+	for (int i = 0; i != m_liAddedRules.GetCount(); i++)
+	{
+		if (m_liAddedRules[i].m_bRemoveOnExit)
+			RemoveRule(m_liAddedRules[i]);
+	}
+	m_liAddedRules.RemoveAll();
+
+	m_bInited = false;
+	if (m_pINetSM != NULL)
+	{
+		m_pINetSM->Release();
+		m_pINetSM = NULL;
+	}
+	else
+		ASSERT ( false );
+}
+
+bool CFirewallOpener::DoAction(const EFOCAction eAction, const CICSRuleInfo *pPortRule)
+{
+	if (!Init())
+		return false;
+	//TODO lets see if we can find a reliable method to find out the internet standard connection set by the user
+
+	bool bSuccess = true;
+	bool bPartialSucceeded = false;
+	bool bFoundAtLeastOneConn = false;
+
+	INetSharingEveryConnectionCollectionPtr NSECCP;
+	IEnumVARIANTPtr varEnum;
+	IUnknownPtr pUnk;
+	RETURN_ON_FAIL(m_pINetSM->get_EnumEveryConnection(&NSECCP));
+	RETURN_ON_FAIL(NSECCP->get__NewEnum(&pUnk));
+	RETURN_ON_FAIL(pUnk->QueryInterface(__uuidof(IEnumVARIANT), (void**)&varEnum));
+
+	_variant_t var;
+	while (varEnum->Next(1, &var, NULL) == S_OK)
+	{
+		INetConnectionPtr NCP;
+		if ( V_VT(&var) == VT_UNKNOWN &&
+			SUCCEEDED(V_UNKNOWN(&var)->QueryInterface(__uuidof(INetConnection),(void**)&NCP)) )
+		{
+			INetConnectionPropsPtr pNCP;
+			if (FAILED(m_pINetSM->get_NetConnectionProps (NCP, &pNCP)))
+				continue;
+			DWORD dwCharacteristics = 0;
+			pNCP->get_Characteristics(&dwCharacteristics);
+			if (dwCharacteristics & (NCCF_FIREWALLED))
+			{
+				NETCON_MEDIATYPE MediaType = NCM_NONE;
+				pNCP->get_MediaType (&MediaType);
+				if ((MediaType != NCM_SHAREDACCESSHOST_LAN) && (MediaType != NCM_SHAREDACCESSHOST_RAS))
+				{
+					INetSharingConfigurationPtr pNSC;
+					if (FAILED(m_pINetSM->get_INetSharingConfigurationForINetConnection (NCP, &pNSC)))
+						continue;
+					VARIANT_BOOL varbool = VARIANT_FALSE;
+					pNSC->get_InternetFirewallEnabled(&varbool);
+					if (varbool == VARIANT_FALSE)
+						continue;
+					bFoundAtLeastOneConn = true;
+					switch (eAction)
+					{
+							case FOC_ADDRULE:
+							{
+								bool bResult;
+								// we do not want to overwrite an existing rule
+								if (FindRule(FOC_FINDRULEBYPORT, *pPortRule, pNSC, NULL))
+									bResult = true;
+								else
+									bResult = AddRule(*pPortRule, pNSC, pNCP);
+								bSuccess = bSuccess && bResult;
+								if (bResult && !bPartialSucceeded)
+									m_liAddedRules.Add(*pPortRule); // keep track of added rules
+								bPartialSucceeded = bPartialSucceeded || bResult;
+								break;
+							}
+							case FOC_FWCONNECTIONEXISTS:
+								return true;
+							case FOC_DELETERULEBYNAME:
+							case FOC_DELETERULEEXCACT:
+								bSuccess = bSuccess && FindRule(eAction, *pPortRule, pNSC, NULL);
+								break;
+							case FOC_FINDRULEBYNAME:
+								if (FindRule(FOC_FINDRULEBYNAME, *pPortRule, pNSC, NULL))
+									return true;
+								else
+									bSuccess = false;
+								break;
+							case FOC_FINDRULEBYPORT:
+								if (FindRule(FOC_FINDRULEBYPORT, *pPortRule, pNSC, NULL))
+									return true;
+								else
+									bSuccess = false;
+								break;
+							default:
+								ASSERT ( false );
+					}
+				}
+			}
+		}
+		var.Clear();
+	}
+	return bSuccess && bFoundAtLeastOneConn;
+}
+
+bool CFirewallOpener::AddRule(const CICSRuleInfo& riPortRule, const INetSharingConfigurationPtr pNSC, const INetConnectionPropsPtr pNCP)
+{
+		INetSharingPortMappingPtr pNSPM;
+		HRESULT hr = pNSC->AddPortMapping( riPortRule.m_strRuleName.AllocSysString(), riPortRule.m_byProtocol,
+				riPortRule.m_nPortNumber, riPortRule.m_nPortNumber, 0, L"127.0.0.1", ICSTT_IPADDRESS, &pNSPM );
+		CComBSTR bstrName;
+		pNCP->get_Name(&bstrName);
+		if (SUCCEEDED(hr) && SUCCEEDED(pNSPM->Enable()))
+		{
+			g_App.AddLogLine(LOG_FL_DBG | LOG_RGB_SUCCESS, _T("Succeeded to add Rule '%s' for Port '%u' on Connection '%s'"),
+				riPortRule.m_strRuleName, riPortRule.m_nPortNumber, CString(bstrName));
+			return true;
+		}
+		else
+		{
+			g_App.AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, _T("Failed to add Rule '%s' for Port '%u' on Connection '%s'"),
+				riPortRule.m_strRuleName, riPortRule.m_nPortNumber, CString(bstrName));
+			return false;
+		}
+}
+
+bool CFirewallOpener::FindRule(const EFOCAction eAction, const CICSRuleInfo& riPortRule, const INetSharingConfigurationPtr pNSC, INetSharingPortMappingPropsPtr* outNSPMP)
+{
+	INetSharingPortMappingCollectionPtr pNSPMC;
+	RETURN_ON_FAIL(pNSC->get_EnumPortMappings (ICSSC_DEFAULT, &pNSPMC));
+
+	INetSharingPortMappingPtr pNSPM;
+	IEnumVARIANTPtr varEnum;
+	IUnknownPtr pUnk;
+	RETURN_ON_FAIL(pNSPMC->get__NewEnum(&pUnk));
+	RETURN_ON_FAIL(pUnk->QueryInterface(__uuidof(IEnumVARIANT), (void**)&varEnum));
+	_variant_t var;
+
+	while (varEnum->Next(1, &var, NULL) == S_OK)
+	{
+		INetSharingPortMappingPropsPtr pNSPMP;
+		if (V_VT(&var) == VT_DISPATCH &&
+			SUCCEEDED(V_DISPATCH(&var)->QueryInterface(__uuidof(INetSharingPortMapping),(void**)&pNSPM)) &&
+			SUCCEEDED(pNSPM->get_Properties (&pNSPMP)))
+		{
+			UCHAR ucProt = 0;
+			long uExternal = 0;
+			CComBSTR bstrName;
+			pNSPMP->get_IPProtocol (&ucProt);
+			pNSPMP->get_ExternalPort (&uExternal);
+			pNSPMP->get_Name(&bstrName);
+			switch(eAction)
+			{
+				case FOC_FINDRULEBYPORT:
+					if (riPortRule.m_nPortNumber == uExternal && riPortRule.m_byProtocol == ucProt)
+					{
+						if (outNSPMP != NULL)
+							*outNSPMP = pNSPM;
+						return true;
+					}
+					break;
+				case FOC_FINDRULEBYNAME:
+					if (riPortRule.m_strRuleName == CString(bstrName))
+					{
+						if (outNSPMP != NULL)
+							*outNSPMP = pNSPM;
+						return true;
+					}
+					break;
+				case FOC_DELETERULEEXCACT:
+					if (riPortRule.m_strRuleName == CString(bstrName) &&
+						riPortRule.m_nPortNumber == uExternal && riPortRule.m_byProtocol == ucProt)
+					{
+						RETURN_ON_FAIL(pNSC->RemovePortMapping(pNSPM));
+					}
+					break;
+				case FOC_DELETERULEBYNAME:
+					if (riPortRule.m_strRuleName == CString(bstrName))
+					{
+						RETURN_ON_FAIL(pNSC->RemovePortMapping(pNSPM));
+					}
+					break;
+				default:
+					ASSERT( false );
+			}
+		}
+		var.Clear();
+	}
+
+	switch(eAction)
+	{
+		case FOC_DELETERULEBYNAME:
+		case FOC_DELETERULEEXCACT:
+			return true;
+		case FOC_FINDRULEBYPORT:
+		case FOC_FINDRULEBYNAME:
+		default:
+			return false;
+	}
+}
+
+bool CFirewallOpener::RemoveRule(const CString strName)
+{
+	const CICSRuleInfo riPortRule(0, 0, strName);
+
+	return DoAction(FOC_FINDRULEBYNAME, &riPortRule);
+}
+
+bool CFirewallOpener::RemoveRule(const CICSRuleInfo& riPortRule)
+{
+	return DoAction(FOC_DELETERULEEXCACT, &riPortRule);
+}
+
+bool CFirewallOpener::DoesRuleExist(const CString strName)
+{
+	const CICSRuleInfo riPortRule(0, 0, strName);
+
+	return DoAction(FOC_FINDRULEBYNAME, &riPortRule);
+}
+
+bool CFirewallOpener::DoesRuleExist(const uint16 nPortNumber,const byte byProtocol)
+{
+	const CICSRuleInfo riPortRule(nPortNumber, byProtocol, _T(""));
+
+	return DoAction(FOC_FINDRULEBYPORT, &riPortRule);
+}
+
+bool CFirewallOpener::OpenPort(const uint16 nPortNumber,const byte byProtocol,const CString strRuleName, const bool bRemoveOnExit)
+{
+	const CICSRuleInfo riPortRule(nPortNumber, byProtocol, strRuleName, bRemoveOnExit);
+
+	return DoAction(FOC_ADDRULE, &riPortRule);
+}
+
+bool CFirewallOpener::OpenPort(const CICSRuleInfo& riPortRule)
+{
+	return DoAction(FOC_ADDRULE, &riPortRule);
+}
+
+bool CFirewallOpener::DoesFWConnectionExist()
+{
+	return DoAction(FOC_FWCONNECTIONEXISTS, NULL);
+}
+@
+
+
+1.8
+log
+@Minor optimization;
+Formatting.
+@
+text
+@d19 2
+a20 2
+#include "StdAfx.h"
+#include "firewallopener.h"
+d22 1
+a22 1
+#include "preferences.h"
+d27 1
+a27 1
+CFirewallOpener::CFirewallOpener(void)
+d33 1
+a33 1
+CFirewallOpener::~CFirewallOpener(void)
+d62 1
+a62 1
+			UnInit(); 
+d73 1
+a73 1
+	
+d91 1
+a91 1
+bool CFirewallOpener::DoAction(const EFOCAction eAction, const CICSRuleInfo& riPortRule)
+d103 3
+a105 3
+    IUnknownPtr pUnk;
+    RETURN_ON_FAIL(m_pINetSM->get_EnumEveryConnection(&NSECCP));
+    RETURN_ON_FAIL(NSECCP->get__NewEnum(&pUnk));
+d107 1
+a107 1
+	
+d111 1
+a111 1
+		INetConnectionPtr NCP;		
+d117 1
+a117 1
+				continue;	
+d134 1
+a134 1
+					switch(eAction)
+d140 1
+a140 1
+								if (FindRule(FOC_FINDRULEBYPORT, riPortRule, pNSC, NULL))
+d143 1
+a143 1
+									bResult = AddRule(riPortRule, pNSC, pNCP);
+d146 1
+a146 1
+									m_liAddedRules.Add(riPortRule); // keep track of added rules
+d154 1
+a154 1
+								bSuccess = bSuccess && FindRule(eAction, riPortRule, pNSC, NULL);
+d157 1
+a157 1
+								if (FindRule(FOC_FINDRULEBYNAME, riPortRule, pNSC, NULL))
+d163 1
+a163 1
+								if (FindRule(FOC_FINDRULEBYPORT, riPortRule, pNSC, NULL))
+d181 3
+a183 3
+        INetSharingPortMappingPtr pNSPM;
+        HRESULT hr = pNSC->AddPortMapping(riPortRule.m_strRuleName.AllocSysString(), riPortRule.m_byProtocol,
+                             riPortRule.m_nPortNumber, riPortRule.m_nPortNumber, 0, L"127.0.0.1", ICSTT_IPADDRESS, &pNSPM);
+d203 2
+a204 2
+    RETURN_ON_FAIL(pNSC->get_EnumPortMappings (ICSSC_DEFAULT, &pNSPMC));
+       
+d206 4
+a209 4
+    IEnumVARIANTPtr varEnum;
+    IUnknownPtr pUnk;
+    RETURN_ON_FAIL(pNSPMC->get__NewEnum(&pUnk));
+    RETURN_ON_FAIL(pUnk->QueryInterface(__uuidof(IEnumVARIANT), (void**)&varEnum));
+d277 3
+a279 1
+	return DoAction(FOC_DELETERULEBYNAME, CICSRuleInfo(0, 0, strName));
+d284 1
+a284 1
+	return DoAction(FOC_DELETERULEEXCACT, riPortRule);
+d289 3
+a291 1
+	return DoAction(FOC_FINDRULEBYNAME, CICSRuleInfo(0, 0, strName));
+d296 3
+a298 1
+	return DoAction(FOC_FINDRULEBYPORT, CICSRuleInfo(nPortNumber, byProtocol, _T("")));
+d303 3
+a305 1
+	return DoAction(FOC_ADDRULE, CICSRuleInfo(nPortNumber, byProtocol, strRuleName, bRemoveOnExit));
+d310 1
+a310 1
+	return DoAction(FOC_ADDRULE, riPortRule);
+d315 1
+a315 1
+	return DoAction(FOC_FWCONNECTIONEXISTS, CICSRuleInfo());
+@
+
+
+1.7
+log
+@Simplified logging system implementation.
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2004 Merkur ( devs@@emule-project.net / http://www.emule-project.net )
+d17 1
+a17 1
+// class to configure the ICS-Firewall of Windows XP - will not work with WinXP-SP2 yet
+d43 1
+a43 1
+		if ((g_App.m_pPrefs->GetWindowsVersion() != _WINVER_XP_ && g_App.m_pPrefs->GetWindowsVersion() != _WINVER_SE_) /* || FAILED(CoInitialize(NULL))*/ ) // koizo - removed CoInitialize - not needed
+d46 1
+a46 3
+		if (FAILED(hr) || FAILED(::CoCreateInstance (__uuidof(NetSharingManager), NULL, CLSCTX_ALL, __uuidof(INetSharingManager), (void**)&m_pINetSM)) )
+		{
+			// CoUninitialize(); // koizo - removed CoUninitialize - not needed
+a47 1
+		}
+d60 1
+a60 1
+		if (!SUCCEEDED(::CoCreateInstance (__uuidof(NetSharingManager), NULL, CLSCTX_ALL, __uuidof(INetSharingManager), (void**)&m_pINetSM)) )
+a88 1
+	// CoUninitialize(); // koizo - removed CoUninitialize - not needed
+d93 1
+a93 1
+	if ( !Init() )
+d112 2
+a113 2
+		if (V_VT(&var) == VT_UNKNOWN &&
+			SUCCEEDED(V_UNKNOWN(&var)->QueryInterface(__uuidof(INetConnection),(void**)&NCP))) 
+d116 1
+a116 1
+			if ( FAILED(m_pINetSM->get_NetConnectionProps (NCP, &pNCP)) )
+d124 1
+a124 1
+				if ((MediaType != NCM_SHAREDACCESSHOST_LAN) && (MediaType != NCM_SHAREDACCESSHOST_RAS) )
+d127 1
+a127 1
+					if ( FAILED(m_pINetSM->get_INetSharingConfigurationForINetConnection (NCP, &pNSC)) )
+d186 1
+a186 1
+		if ( SUCCEEDED(hr) && SUCCEEDED(pNSPM->Enable()))
+d277 1
+a277 1
+	return DoAction(FOC_DELETERULEBYNAME, CICSRuleInfo(0, 0, strName) );
+d287 1
+a287 1
+	return DoAction(FOC_FINDRULEBYNAME, CICSRuleInfo(0, 0, strName) );
+d292 1
+a292 1
+	return DoAction(FOC_FINDRULEBYPORT, CICSRuleInfo(nPortNumber, byProtocol, _T("")) );
+@
+
+
+1.6
+log
+@Suppressed level 4 warnings.
+@
+text
+@d192 1
+a192 1
+			g_App.AddDebugLogLine(RGB_LOG_SUCCESS_TXT _T("Succeeded to add Rule '%s' for Port '%u' on Connection '%s'"),
+d198 1
+a198 1
+			g_App.AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Failed to add Rule '%s' for Port '%u' on Connection '%s'"),
+@
+
+
+1.5
+log
+@Minor formatting.
+@
+text
+@d215 1
+a215 1
+    bool bFoundIt = false;
+@
+
+
+1.4
+log
+@Clean-up.
+@
+text
+@d312 1
+a312 1
+}@
+
+
+1.3
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a251 1
+						//g_eMuleApp.AddDebugLogLine(_T("Rule removed"));
+a257 1
+						//g_eMuleApp.AddDebugLogLine(_T("Rule removed"));
+@
+
+
+1.2
+log
+@renamed 3 variables
+@
+text
+@d43 1
+a43 1
+		if ((g_App.g_pPrefs->GetWindowsVersion() != _WINVER_XP_ && g_App.g_pPrefs->GetWindowsVersion() != _WINVER_SE_) /* || FAILED(CoInitialize(NULL))*/ ) // koizo - removed CoInitialize - not needed
+@
+
+
+1.1
+log
+@Open client ports on Windows XP internal firewall (adopted from koizo)
+@
+text
+@d43 1
+a43 1
+		if ((g_eMuleApp.m_pGlobPrefs->GetWindowsVersion() != _WINVER_XP_ && g_eMuleApp.m_pGlobPrefs->GetWindowsVersion() != _WINVER_SE_) /* || FAILED(CoInitialize(NULL))*/ ) // koizo - removed CoInitialize - not needed
+d192 1
+a192 1
+			g_eMuleApp.AddDebugLogLine(RGB_LOG_SUCCESS_TXT _T("Succeeded to add Rule '%s' for Port '%u' on Connection '%s'"),
+d198 1
+a198 1
+			g_eMuleApp.AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Failed to add Rule '%s' for Port '%u' on Connection '%s'"),
+@
+

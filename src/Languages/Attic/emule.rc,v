@@ -1,0 +1,2186 @@
+head	1.2;
+access;
+symbols;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2003.02.15.12.06.14;	author kuchin;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.15.11.22.17;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+#ifndef APSTUDIO_INVOKED
+// Languages - not to be edited in Visual Studio anymore, only manual edit
+#include "Languages/English.rc"
+#include "Languages/Catalan.rc"
+#include "Languages/Danish.rc"
+#include "Languages/Dutch.rc"
+#include "Languages/Finnish.rc"
+#include "Languages/French.rc"
+#include "Languages/German.rc"
+#include "Languages/Greek.rc"
+#include "Languages/Hebrew.rc"
+#include "Languages/Italian.rc"
+#include "Languages/Polish.rc"
+#include "Languages/Portuguese.rc"
+#include "Languages/Russian.rc"
+#include "Languages/Spanish.rc"
+#include "Languages/Korean.rc"
+#include "Languages/ChineseSimplified.rc"
+#include "Languages/ChineseTraditional.rc"
+// End languages
+#endif    // not APSTUDIO_INVOKED
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+#ifdef _WIN32
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MULETRAYDLG DIALOGEX 0, 0, 181, 156
+STYLE DS_SYSMODAL | DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | WS_POPUP
+EXSTYLE WS_EX_TOPMOST | WS_EX_TOOLWINDOW
+FONT 8, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "eMule Plus Speed",IDC_SPEED,20,34,161,14,NOT WS_VISIBLE | 
+                    WS_BORDER
+    LTEXT           "All to max",IDC_TOMAX,20,89,161,14,NOT WS_VISIBLE | 
+                    WS_BORDER
+    LTEXT           "Restore",IDC_RESTORE,20,122,161,14,NOT WS_VISIBLE | 
+                    WS_BORDER
+    LTEXT           "All to min",IDC_TOMIN,20,103,161,14,NOT WS_VISIBLE | 
+                    WS_BORDER
+    LTEXT           "Connect to any server",IDC_CONNECT,20,0,161,14,NOT 
+                    WS_VISIBLE | WS_BORDER
+    LTEXT           "Disconnect",IDC_DISCONNECT,20,14,161,14,NOT WS_VISIBLE | 
+                    WS_BORDER
+    LTEXT           "Exit",IDC_EXIT,20,141,161,14,NOT WS_VISIBLE | WS_BORDER
+    LTEXT           "Download:",IDC_DOWNLBL,35,50,37,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_DOWNSLD,"msctls_trackbar32",0x0,74,50,56,12
+    EDITTEXT        IDC_DOWNTXT,134,50,24,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_TABSTOP
+    LTEXT           "Upload:",IDC_UPLBL,35,66,37,12,SS_CENTERIMAGE
+    CONTROL         "",IDC_UPSLD,"msctls_trackbar32",0x0,74,66,56,12
+    EDITTEXT        IDC_UPTXT,134,66,24,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER | NOT WS_TABSTOP
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,20,138,161,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,20,119,161,1
+    LTEXT           "KB/s",IDC_DOWNKB,162,50,19,12,SS_CENTERIMAGE
+    LTEXT           "KB/s",IDC_UPKB,162,66,19,12,SS_CENTERIMAGE
+    LTEXT           "eMule Plus",IDC_SIDEBAR,0,0,18,156
+    ICON            "",IDC_TRAYDOWN,20,51,21,20
+    ICON            "",IDC_TRAYUP,20,67,21,20
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,20,87,161,1
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,20,31,161,1
+END
+
+IDD_HTTPDOWNLOAD DIALOGEX 0, 0, 231, 145
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Updating serverlist"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_ANIMATE1,"SysAnimate32",ACS_TRANSPARENT,7,7,192,
+                    32
+    LTEXT           "",IDC_STATUS,7,47,214,8
+    LTEXT           "",IDC_FILESTATUS,7,60,214,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,7,74,214,
+                    10
+    LTEXT           "Estimated time left:",IDC_STATIC,7,91,60,8
+    LTEXT           "",IDC_TIMELEFT,79,91,142,8
+    LTEXT           "Transfer rate:",IDC_STATIC,7,104,43,8
+    LTEXT           "",IDC_TRANSFER_RATE,80,104,141,8
+    DEFPUSHBUTTON   "&Cancel",2,171,122,50,14
+END
+
+IDD_SOURCEDETAILWND DIALOGEX 0, 0, 305, 265
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Client Details"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,252,244,47,14
+    LTEXT           "Server IP:",IDC_STATIC35,19,62,49,8
+    LTEXT           "Username:",IDC_STATIC31,19,18,46,8
+    LTEXT           "Clientsoftware:",IDC_STATIC33,19,40,50,8
+    LTEXT           "IP Address:",IDC_STATIC34,19,51,46,8
+    LTEXT           "ID:",IDC_STATIC37,163,51,44,8
+    LTEXT           "Servername:",IDC_STATIC38,163,62,47,8
+    LTEXT           "Currently downloading:",IDC_CURRENTLY,19,94,86,8
+    LTEXT           "Downloaded (this session):",IDC_STATIC42,19,106,90,8
+    LTEXT           "Uploaded (this session):",IDC_STATIC45,165,106,93,8
+    LTEXT           "Downloaded total:",IDC_STATIC44,19,132,83,8
+    LTEXT           "Uploaded total:",IDC_STATIC47,165,132,93,8
+    LTEXT           "Average Downloadrate:",IDC_STATIC43,19,119,86,8
+    LTEXT           "Average Uploadrate:",IDC_STATIC46,165,119,93,8
+    LTEXT           "DL/UP Modifier:",IDC_STATIC51,19,165,87,8
+    LTEXT           "Userhash:",IDC_STATIC32,19,29,46,8
+    LTEXT           "Clientversion:",IDC_STATIC36,163,40,45,8
+    LTEXT           "Static",IDC_DNAME,72,18,227,8
+    LTEXT           "Static",IDC_DSOFT,72,40,83,8
+    LTEXT           "Static",IDC_DIP,72,51,83,8
+    LTEXT           "Static",IDC_DSIP,72,62,83,8
+    LTEXT           "Static",IDC_DHASH,72,29,227,8
+    LTEXT           "Static",IDC_DVERSION,215,40,84,8
+    LTEXT           "Static",IDC_DID,215,51,84,8
+    LTEXT           "Static",IDC_DSNAME,215,62,84,8
+    LTEXT           "Static",IDC_DDOWNLOADING,110,94,189,8
+    LTEXT           "Static",IDC_DDOWN,110,106,53,8
+    LTEXT           "Static",IDC_DDOWNTOTAL,110,132,53,8
+    LTEXT           "Static",IDC_DAVDR,110,119,53,8
+    LTEXT           "Static",IDC_DRATIO,110,165,53,8
+    LTEXT           "Static",IDC_DDUP,257,106,43,8
+    LTEXT           "Static",IDC_DUPTOTAL,257,132,43,8
+    LTEXT           "Static",IDC_DAVUR,257,119,43,8
+    LTEXT           "Rating (total):",IDC_STATIC52,19,177,84,8
+    LTEXT           "Uploadqueue Score:",IDC_STATIC53,163,177,93,8
+    LTEXT           "Static",IDC_DRATING,110,177,53,8
+    LTEXT           "Static",IDC_DSCORE,256,177,43,8
+    GROUPBOX        "General",IDC_STATIC30,7,5,292,72,BS_FLAT
+    GROUPBOX        "Transfer",IDC_STATIC40,7,83,292,63,BS_FLAT
+    GROUPBOX        "Scores",IDC_STATIC50,7,152,292,39,BS_FLAT
+    LTEXT           "Community User:",IDC_STATIC54,163,165,86,8
+    LTEXT           "Static",IDC_COMUSER,256,165,40,8
+    GROUPBOX        "Remote Scores",IDC_STATIC55,6,196,293,39,BS_FLAT
+    LTEXT           "DL/UP Modifier:",IDC_STATIC56,18,208,87,8
+    LTEXT           "Rating (total):",IDC_STATIC57,18,221,84,8
+    LTEXT           "Community User:",IDC_STATIC58,162,207,86,8
+    LTEXT           "Uploadqueue Score:",IDC_STATIC59,162,221,93,8
+    LTEXT           "Static",IDC_DRATIO_REMOTE,110,207,49,8
+    LTEXT           "Static",IDC_DRATING_REMOTE,110,221,50,8
+    LTEXT           "Static",IDC_DSCORE_REMOTE,256,221,42,8,0,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Static",IDC_COMUSER_REMOTE,256,207,42,8,0,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_FILEDETAILS DIALOGEX 0, 0, 312, 331
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "File Details"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_LISTCTRLFILENAMES,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,14,195,284,64
+    PUSHBUTTON      "Take over",IDC_TAKEOVER,115,283,56,13,BS_FLAT
+    EDITTEXT        IDC_FILENAME,14,266,284,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Cleanup",IDC_BUTTONSTRIP,178,283,56,13,BS_FLAT
+    DEFPUSHBUTTON   "Rename",IDC_BUTTONRENAME,242,283,56,13,BS_FLAT
+    PUSHBUTTON      "AVI info",IDC_FILEINFO,199,310,50,14,BS_FLAT
+    DEFPUSHBUTTON   "&Close",IDOK,259,310,46,14,BS_FLAT
+    LTEXT           "Full Name:",IDC_FD_X1,14,19,64,8
+    LTEXT           "Hash:",IDC_FD_X3,14,43,64,8
+    LTEXT           "Filesize:",IDC_FD_X4,14,55,64,8
+    LTEXT           "Partfilestatus:",IDC_FD_X5,135,55,61,8
+    LTEXT           "Filepart-Count:",IDC_FD_X9,14,104,64,8
+    LTEXT           "Transferred:",IDC_FD_X14,14,130,62,8
+    LTEXT           "Completed Size:",IDC_FD_X12,135,130,61,8
+    LTEXT           "Datarate:",IDC_FD_X13,14,143,64,8
+    LTEXT           "Found Sources:",IDC_FD_X7,14,91,64,8
+    LTEXT           "Met File:",IDC_FD_X2,14,31,64,8
+    LTEXT           "Static",IDC_FNAME,78,19,220,8
+    LTEXT           "Static",IDC_FSIZE,78,55,36,8
+    LTEXT           "Static",IDC_METFILE,78,31,220,8
+    LTEXT           "Static",IDC_PFSTATUS,196,55,102,8
+    LTEXT           "Static",IDC_PARTCOUNT,78,104,57,8
+    LTEXT           "Static",IDC_TRANSFERED,78,130,56,8
+    LTEXT           "Static",IDC_DATARATE,78,143,57,8
+    LTEXT           "Static",IDC_PROCCOMPL,249,130,49,8
+    LTEXT           "Static",IDC_COMPLSIZE,196,130,38,8
+    LTEXT           "Static",IDC_SOURCECOUNT,78,91,57,8
+    GROUPBOX        "General",IDC_FD_X0,7,7,298,66,BS_FLAT
+    GROUPBOX        "Transfer",IDC_FD_X6,7,78,298,97,BS_FLAT
+    LTEXT           "Transferring Sources:",IDC_FD_X10,135,91,61,8
+    LTEXT           "Static",IDC_SOURCECOUNT2,196,91,102,8
+    LTEXT           "Available:",IDC_FD_X11,135,104,61,8
+    LTEXT           "Static",IDC_PARTAVAILABLE,196,104,102,8
+    LTEXT           "Last Seen Complete:",IDC_FD_X15,14,117,121,8
+    LTEXT           "Static",IDC_LASTSEENCOMPL,135,117,163,8
+    EDITTEXT        IDC_FHASH,78,43,220,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER | NOT WS_TABSTOP
+    GROUPBOX        "Sources Names",IDC_FD_SN,7,181,298,122,BS_FLAT
+    LTEXT           "Static",IDC_WONLOST,135,143,163,8,NOT WS_VISIBLE
+    PUSHBUTTON      "Show comments",IDC_CMTBT,7,309,79,15,BS_FLAT
+    LTEXT           "Compression lost, gained and ICH-recovered packages",
+                    IDC_FD_STATS,14,155,284,18,0,WS_EX_TRANSPARENT
+END
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 233, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_BACKGROUND,"Static",SS_BITMAP,0,0,15,13
+END
+
+IDD_EMULE_DIALOG DIALOGEX 0, 0, 516, 340
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | 
+    WS_VISIBLE | WS_CAPTION | WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_CONTROLPARENT | WS_EX_APPWINDOW
+CAPTION "eMule"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_TRANSFER DIALOGEX 3, 35, 510, 290
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+END
+
+IDD_SERVER DIALOGEX 0, 0, 510, 290
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x0
+BEGIN
+    CONTROL         "",IDC_SERVLIST,"SysListView32",LVS_OWNERDRAWFIXED | 
+                    LVS_ALIGNLEFT | WS_TABSTOP,7,27,496,130,WS_EX_STATICEDGE
+    PUSHBUTTON      "New Server",IDC_NEWSERVER,302,7,72,17
+    PUSHBUTTON      "Update server.met",IDC_UPDATESERVERMET,381,7,122,17
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,7,172,496,111
+    PUSHBUTTON      "Reset Log",IDC_LOGRESET,444,164,59,17,BS_FLAT
+    CONTROL         "Serverlist",IDC_SERVLIST_TEXT,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,21,15,88,8
+    ICON            "",IDC_SERVLST_ICO,7,12,20,20
+    EDITTEXT        IDC_LOGBOX,14,190,482,86,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_AUTOHSCROLL | ES_READONLY | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_HSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_DEBUG_LOG,14,190,482,86,ES_MULTILINE | 
+                    ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | NOT 
+                    WS_VISIBLE | NOT WS_BORDER | WS_VSCROLL,WS_EX_STATICEDGE
+END
+
+IDD_UPDATESERVERMET DIALOGEX 0, 0, 278, 28
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "Update server.met (from URL)"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SERVERMETURL,26,7,196,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "&Update",IDC_UPDATESERVERMETFROMURL,226,7,45,14,BS_FLAT
+    LTEXT           "URL:",IDC_URL_LBL,7,7,16,14,SS_CENTERIMAGE
+END
+
+IDD_NEWSERVER DIALOGEX 0, 0, 135, 88
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "New Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_IPADDRESS,7,18,85,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SPORT,102,18,26,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_SNAME,7,48,121,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Chec&k Server",IDC_SBUTTON1,7,67,55,14,BS_FLAT | NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "&Add to list",IDC_ADDSERVER,73,67,55,14,BS_FLAT
+    CTEXT           ":",IDC_STATIC,94,18,8,12,0,WS_EX_TRANSPARENT
+    LTEXT           "Name",IDC_NAME_LBL,7,37,70,8
+    LTEXT           "IP or Address",IDC_IPADDRESS_LBL,7,7,85,8
+    LTEXT           "Port",IDC_PORT_LBL,102,7,26,8
+END
+
+IDD_SEARCH DIALOGEX 0, 0, 510, 290
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SEARCHNAME,12,24,116,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_TypeSearch,12,47,116,85,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDITSEARCHMIN,133,24,57,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDITSEARCHMAX,133,47,57,12,ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_EDITSEARCHEXTENSION,195,24,57,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDITSEARCHAVAIBILITY,195,47,57,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Reset",IDC_SEARCH_RESET,258,47,63,12,BS_FLAT
+    COMBOBOX        IDC_METHOD,258,24,62,56,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_ELINK,337,24,160,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Sta&rt",IDC_STARTS,332,51,55,14,BS_FLAT
+    PUSHBUTTON      "&Cancel",IDC_CANCELS,389,51,56,14,BS_FLAT | WS_DISABLED
+    PUSHBUTTON      "Clear All",IDC_CLEARALL,448,51,55,14,BS_FLAT
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,6,89,497,15,
+                    WS_EX_ACCEPTFILES
+    CONTROL         "Search &global",IDC_SGLOBAL,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,50,14,78,10,
+                    WS_EX_RIGHT
+    CONTROL         "",IDC_SEARCHLIST,"SysListView32",LVS_REPORT | 
+                    LVS_NOLABELWRAP | LVS_OWNERDRAWFIXED | LVS_ALIGNLEFT | 
+                    WS_TABSTOP,6,104,497,158,WS_EX_STATICEDGE
+    PUSHBUTTON      "&Fakecheck",IDC_FAKECHECK,332,274,62,14,BS_FLAT | NOT 
+                    WS_VISIBLE | WS_DISABLED
+    PUSHBUTTON      "&Download Selected",IDC_SDOWNLOAD,396,274,107,14,
+                    BS_FLAT
+    CONTROL         "Name",IDC_SNAME_LBL,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,12,15,38,8
+    CONTROL         "Method",IDC_SMETHOD_LBL,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,258,15,63,8
+    CONTROL         "ED2K &Link",IDC_ED2KLINK_LBL,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,337,14,142,8
+    CONTROL         "",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,6,262,497,
+                    7
+    GROUPBOX        "Search",IDC_SEARCH_FRM,6,4,321,61,BS_FLAT
+    GROUPBOX        "Direct Download",IDC_DDOWN_FRM,332,4,171,37,BS_FLAT
+    CONTROL         "Type",IDC_STYPE_LBL,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,12,37,116,8
+    CONTROL         "min Size:",IDC_SEARCHMINSIZE,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,134,15,56,8
+    CONTROL         "max Size:",IDC_SEARCHMAXSIZE,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,134,37,56,8
+    LTEXT           "Search Results",IDC_RESULTS_LBL,18,69,110,8
+    ICON            "",IDC_SEARCHLST_ICO,6,67,21,20
+    CONTROL         "Extension",IDC_SEARCHEXTENSION_LBL,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,195,15,57,8
+    CONTROL         "Availability",IDC_SEARCHAVAIL,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,195,37,57,8
+END
+
+IDD_CHAT DIALOGEX 0, 0, 510, 290
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_CHATSEL,"SysTabControl32",TCS_TOOLTIPS,132,21,371,
+                    262
+    EDITTEXT        IDC_CMESSAGE,139,264,243,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "Send",IDC_CSEND,389,262,50,14,BS_FLAT
+    PUSHBUTTON      "Close",IDC_CCLOSE,446,262,50,14,BS_FLAT
+    CONTROL         "",IDC_LIST2,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_SORTASCENDING | LVS_ALIGNLEFT | WS_BORDER | 
+                    WS_TABSTOP,7,21,115,262
+    CONTROL         "Messages",IDC_MESSAGES_LBL,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,146,9,236,8
+    ICON            "",IDC_FRIENDSICON,7,7,20,20
+    CONTROL         "Friends",IDC_FRIENDS_LBL,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,20,9,102,8
+    ICON            "",IDC_MESSAGEICON,132,7,20,20
+END
+
+IDD_STATISTICS DIALOGEX 0, 0, 510, 290
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_C0,"Static",SS_BLACKFRAME,255,7,16,8
+    CONTROL         "",IDC_C1,"Static",SS_BLACKFRAME,255,101,16,8
+    LTEXT           "Upload-Speed",IDC_STATIC_U,178,101,77,8
+    CONTROL         "",IDC_S0,"Static",SS_BLACKFRAME,333,196,16,8
+    CONTROL         "",IDC_S1,"Static",SS_BLACKFRAME,428,196,16,8
+    CONTROL         "",IDC_S3,"Static",SS_BLACKFRAME,255,196,16,8
+    CONTROL         "",IDC_S2,"Static",SS_BLACKFRAME | NOT WS_VISIBLE,178,
+                    274,16,8
+    LTEXT           "uploads",IDC_STATIC_S1,445,196,58,8
+    LTEXT           "waiting uploads",IDC_STATIC_S3,200,274,98,8,NOT 
+                    WS_VISIBLE
+    LTEXT           "connections",IDC_STATIC_S0,351,196,71,8
+    CONTROL         "",IDC_C0_2,"Static",SS_BLACKFRAME,428,7,16,8
+    LTEXT           "session average",IDC_STATIC_D2,445,7,58,8
+    LTEXT           "Download Speed",IDC_STATIC_D3,178,7,77,8
+    LTEXT           "session average",IDC_STATIC_U3,445,101,58,8
+    CONTROL         "",IDC_C1_2,"Static",SS_BLACKFRAME,428,101,16,8
+    CONTROL         "",IDC_STATTREE,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_DISABLEDRAGDROP | 
+                    NOT WS_VISIBLE | WS_DISABLED | WS_BORDER | WS_TABSTOP | 
+                    0x800,7,7,161,276
+    LTEXT           "Active",IDC_STATIC_A,178,196,77,8
+    LTEXT           "current",IDC_STATIC_D,273,7,54,8
+    LTEXT           "downloads",IDC_STATIC_S2,273,196,60,8
+    LTEXT           "current",IDC_STATIC_U2,273,101,54,8
+    CONTROL         "",IDC_STATSSCOPE,"Static",SS_ETCHEDFRAME | SS_SUNKEN,
+                    178,208,325,75
+    CONTROL         "",IDC_SCOPE_U,"Static",SS_ETCHEDFRAME | SS_SUNKEN,178,
+                    113,325,76
+    CONTROL         "",IDC_SCOPE_D,"Static",SS_ETCHEDFRAME | SS_SUNKEN,178,
+                    19,325,75
+    CONTROL         "",IDC_C0_3,"Static",SS_BLACKFRAME,333,7,16,8
+    LTEXT           "time average",IDC_TIMEAVG1,351,7,71,8
+    CONTROL         "",IDC_C1_3,"Static",SS_BLACKFRAME,333,101,16,8
+    LTEXT           "time average",IDC_TIMEAVG2,351,101,71,8
+END
+
+IDD_PPG_STATS DIALOGEX 0, 0, 230, 238
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | 
+    WS_VISIBLE | WS_CAPTION
+CAPTION "Statistics"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_SLIDER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | 
+                    WS_TABSTOP,14,36,202,14
+    CONTROL         "",IDC_SLIDER3,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,14,72,202,14
+    EDITTEXT        IDC_ACSTAT,178,93,32,12,ES_AUTOHSCROLL,WS_EX_RIGHT
+    CONTROL         "",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,14,168,202,14
+    LTEXT           "Update Interval",IDC_SLIDERINFO,14,21,202,8
+    GROUPBOX        "Graphs",IDC_GRAPHS,7,7,216,126,BS_FLAT
+    LTEXT           "Update Interval",IDC_SLIDERINFO2,14,153,202,8
+    GROUPBOX        "Statistics Tree",IDC_STREE,7,139,216,50,BS_FLAT
+    LTEXT           "Time for Average-Graph",IDC_SLIDERINFO3,14,57,202,8
+    RTEXT           "Active connections scale",IDC_ACSTAT_LBL,14,95,160,8
+    COMBOBOX        IDC_COLORSELECTOR,22,208,146,77,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "",IDC_COLOR_BUTTON,178,208,32,13
+    COMBOBOX        IDC_RATIO,178,112,33,77,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    RTEXT           "General connections scale ratio",IDC_ACRATIO_LBL,14,115,
+                    160,8
+    GROUPBOX        "Graphs Colors",IDC_PREFCOLORS,7,195,216,34,BS_FLAT
+END
+
+IDD_SPLASH DIALOGEX 0, 0, 233, 169
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+END
+
+IDD_PPG_SERVER DIALOGEX 0, 0, 221, 222
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_SRVCONTIMEOUT,135,7,22,13,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Remove dead server",IDC_REMOVEDEAD,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,25,125,10
+    EDITTEXT        IDC_SERVERRETRIES,135,24,22,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Auto-update serverlist at startup",IDC_AUTOSERVER,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,44,207,
+                    10
+    CONTROL         "Safe connect",IDC_SAFECONNECT,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,58,207,10
+    CONTROL         "Smart LowID Check",IDC_SMARTIDCHECK,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,72,201,10
+    CONTROL         "Update serverlist when connecting to servers and clients",
+                    IDC_UPDATESERVERCONNECT,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,86,207,10
+    CONTROL         "Always filter bad IPs",IDC_FILTER,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,100,207,10
+    CONTROL         "Restart waiting downloads on connect",
+                    IDC_RESTARTWAITING,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,7,114,207,9
+    CONTROL         "Autoconnect on startup",IDC_AUTOCONNECT,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,135,201,10
+    CONTROL         "Reconnect on loss",IDC_RECONN,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,149,201,10
+    CONTROL         "Use score system",IDC_SCORE,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,170,207,10
+    LTEXT           "retries",IDC_RETRIES_LBL,162,26,52,8
+    LTEXT           "Server connection attempt timeout",
+                    IDC_SRVCONTIMEOUT_LBL,7,9,112,8
+    LTEXT           "Static",IDC_SRV_SEC,162,9,52,8
+END
+
+IDD_PPG_GENERAL DIALOGEX 0, 0, 230, 244
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "General"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_NICK,14,21,86,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_LANGS,121,21,95,75,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "",IDC_3DDEPTH,"msctls_trackbar32",TBS_AUTOTICKS | 
+                    TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,107,
+                    57,109,11
+    CONTROL         "Beep on errors",IDC_BEEPER,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,14,77,202,10
+    CONTROL         "Show splashscreen",IDC_SPLASHON,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,90,202,10
+    CONTROL         "Doubleclick downloadlist to expand",IDC_DBLCLICK,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,103,202,10
+    CONTROL         "Online Signature",IDC_ONLINESIG,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,116,202,10
+    CONTROL         "Show speed-meter on toolbar",IDC_TBSPEEDMETER,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,129,202,10
+    CONTROL         "Write Log to file",IDC_LOGTOFILE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,142,202,10
+    CONTROL         "Allow multiple instances of eMule",IDC_MULTIPLE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,168,202,10
+    CONTROL         "Doubleclick on client display details",IDC_DC_CLIENT,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,181,
+                    202,10
+    CONTROL         "Debug Log",IDC_VERBOSE,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,14,155,202,10
+    LTEXT           "Tooltip delay time [seconds]",IDC_TOOLTIPDELAY_LBL,14,
+                    200,133,8
+    EDITTEXT        IDC_TOOLTIPDELAY,154,198,23,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    PUSHBUTTON      "ED2K Links",IDC_ED2KFIX,154,217,62,14,BS_FLAT
+    GROUPBOX        "Nick:",IDC_NICK_FRM,7,7,100,33,BS_FLAT
+    GROUPBOX        "Misc:",IDC_MISC_FRM,7,47,216,190,BS_FLAT
+    GROUPBOX        "Language:",IDC_LANG_FRM,114,7,109,33,BS_FLAT
+    LTEXT           "3D Depth",IDC_3DDEP,14,58,87,9
+    LTEXT           "flat",IDC_FLAT,107,68,55,9
+    RTEXT           "round",IDC_ROUND,164,68,52,9
+END
+
+IDD_PPG_WINDOW DIALOGEX 0, 0, 230, 262
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Window"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Startup Minimized",IDC_STARTMIN,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,7,216,10
+    CONTROL         "Minimize to trayicon",IDC_MINTRAY,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,20,216,10
+    CONTROL         "Minimize to Tray on Close",IDC_CB_TBN_CLOSETOTRAY,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,33,216,
+                    10
+    CONTROL         "Bring to front on link click",IDC_BRINGTOFOREGROUND,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,46,216,
+                    10
+    LTEXT           "Font (IRC/Chat/Log)",IDC_USEDFONT_LBL,7,63,216,10
+    COMBOBOX        IDC_USEDFONT,7,76,131,92,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_SORT | CBS_HASSTRINGS | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_USEDFONTSIZE,151,76,30,47,CBS_DROPDOWNLIST | 
+                    CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_PPG_FILES DIALOGEX 0, 0, 230, 258
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Files"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Everybody",IDC_SEESHARE1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT | WS_GROUP,14,19,92,10
+    CONTROL         "Only friends",IDC_SEESHARE2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,14,32,92,10
+    CONTROL         "No one",IDC_SEESHARE3,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,14,45,92,10
+    CONTROL         "Standard",IDC_HASHPRIO_STANDARD,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP,124,20,94,9
+    CONTROL         "Lower",IDC_HASHPRIO_LOWER,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,124,33,94,8
+    CONTROL         "Idle",IDC_HASHPRIO_IDLE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,124,46,94,9
+    EDITTEXT        IDC_AP_HIGH,117,74,27,13,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_AP_LOW,117,92,27,13,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Enabled",IDC_DAP_ENABLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,117,108,96,10,
+                    WS_EX_RIGHT
+    CONTROL         "Slow completion of files in blocks of",IDC_SLOWCOMPLETE,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,129,
+                    160,8
+    EDITTEXT        IDC_SLOWCOMPLETE_BLOCK,171,127,28,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Get first/last movie chunk at first",IDC_FLMC,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,143,216,10
+    CONTROL         "Upload Autopriority",IDC_UAP,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,156,216,10
+    CONTROL         "Auto-Remove No Needed Sources",IDC_REMOVENNS,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,170,216,10
+    CONTROL         "Start downloads paused",IDC_START_PAUSED,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,184,216,10
+    CONTROL         "Start downloading paused file on complete",
+                    IDC_START_PAUSED_ON_COMPLETE,"Button",BS_AUTOCHECKBOX | 
+                    BS_TOP | BS_FLAT | WS_TABSTOP,7,198,216,20
+    GROUPBOX        "See my share",IDC_SEEMYSHARE_FRM,7,7,105,52,BS_FLAT
+    GROUPBOX        "Download Auto Priority",IDC_AP_GRP,7,63,216,59,BS_FLAT
+    CONTROL         "Priority High limit",IDC_AP_HIGH_LBL,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,14,76,98,10
+    CONTROL         "Priority Low limit",IDC_AP_LOW_LBL,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,14,94,98,9
+    LTEXT           "sources",IDC_AP_SOURCES1,148,76,51,9
+    LTEXT           "sources",IDC_AP_SOURCES2,148,94,51,9
+    LTEXT           "KB",IDC_SLOWCOMPLETE_KB,203,129,15,8
+    GROUPBOX        "Hashing Priority",IDC_HASHING_FRM,118,7,105,52,BS_FLAT
+END
+
+IDD_PPG_DIRECTORIES DIALOGEX 0, 0, 230, 247
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Directories"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_INCFILES,7,18,159,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_SELINCDIR,173,17,50,14,BS_FLAT
+    EDITTEXT        IDC_TEMPFILES,7,45,159,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_SELTEMPDIR,173,44,50,14,BS_FLAT
+    EDITTEXT        IDC_VLC,7,72,159,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_SELVLC,173,71,50,14,BS_FLAT
+    CONTROL         "",IDC_SHARESELECTOR,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | 
+                    WS_BORDER | WS_TABSTOP,7,101,216,72
+    CONTROL         "",IDC_TEMPSELECTOR,"SysTreeView32",TVS_HASBUTTONS | 
+                    TVS_HASLINES | TVS_LINESATROOT | TVS_CHECKBOXES | 
+                    WS_BORDER | WS_TABSTOP,7,189,216,52
+    LTEXT           "Additional Temp directories:",IDC_TEMPDIR_LBL,7,178,159,
+                    10
+    LTEXT           "Shared directories:",IDC_SHARED_LBL,7,90,159,10
+    LTEXT           "Incoming files:",IDC_INCOMING_LBL,7,7,159,10
+    LTEXT           "Temp files:",IDC_TEMP_LBL,7,35,159,10
+    LTEXT           "VideoLAN installation:",IDC_VLC_LBL,7,62,159,10
+END
+
+IDD_PPG_CONNECTION DIALOGEX 0, 0, 230, 254
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Connection"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_CONTYPE,14,27,68,49,CBS_DROPDOWN | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_PORT,106,27,39,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_UDPPORT,178,27,36,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "disable",IDC_UDPDISABLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,130,15,84,9,
+                    WS_EX_RIGHT
+    EDITTEXT        IDC_DOWNLOAD_CAP,82,70,48,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_UPLOAD_CAP,82,87,48,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MAXDOWN,144,70,48,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MAXUP,144,87,48,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MAXSOURCEPERFILE,14,132,48,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_MAXSOURCEPERFILEUDP,145,132,48,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_QUEUESIZE,14,171,29,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MAXCON,106,171,29,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MAXCON5,178,171,29,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Transfer Full Chunks",IDC_TRF_FULL_CHUNKS,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,196,216,10
+    CONTROL         "Disable sources exchange",IDC_DISABLE_XS,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,209,216,10
+    CONTROL         "Disable for files with more than",IDC_ENABLE_XSUPTO,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,223,
+                    148,8
+    CONTROL         "Show overhead bandwidth",IDC_SHOWOVERHEAD,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,235,216,10
+    EDITTEXT        IDC_XSUPTO,159,222,29,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    GROUPBOX        "Clientport",IDC_CLIENTPORT_FRM,97,7,126,39,BS_FLAT
+    GROUPBOX        "Max Sources per file",IDC_MAXSRC_FRM,7,111,216,40,
+                    BS_FLAT
+    LTEXT           "Download",IDC_DCAP_LBL,14,72,68,8
+    LTEXT           "Upload",IDC_UCAP_LBL,14,89,68,8
+    LTEXT           "KB/s",IDC_KBS1,196,71,18,8
+    EDITTEXT        IDC_MAXSOURCEPERFILESOFT,82,132,48,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY | ES_NUMBER
+    LTEXT           "Hard Limit",IDC_MAXSRCHARD_LBL,14,121,58,8
+    LTEXT           "Soft Limit",IDC_MAXSRCSOFT_LBL,82,121,53,8
+    LTEXT           "UDP-Request Limit",IDC_MAXSRCUDP_LBL,145,121,69,8
+    GROUPBOX        "Profile",IDC_CONPROF,7,7,82,39,BS_FLAT
+    CTEXT           "In 5 sec",IDC_MAXCON5_TEXT,138,173,37,10
+    CTEXT           "UDP",IDC_UDPPORTLABEL,147,29,28,8
+    LTEXT           "Limits",IDC_LIMITS,145,59,69,8
+    LTEXT           "Capacities",IDC_CAPACITIES,82,59,59,8
+    GROUPBOX        "Transfer rates",IDC_TR_FRM,7,50,216,56,BS_FLAT
+    LTEXT           "KB/s",IDC_KBS2,196,89,18,8
+    GROUPBOX        "Max. Connections",IDC_MAXCONN_FRM,97,156,126,35,BS_FLAT
+    GROUPBOX        "Queue Size",IDC_QUEUE_FRM,7,156,82,35,BS_FLAT
+    LTEXT           "Min: 500\r\nMax: 5000",IDC_QUEUESIZE_TEXT,48,169,35,17
+    LTEXT           "sources",IDC_XSSOURCES,192,224,31,9
+END
+
+IDD_IRC DIALOGEX 0, 0, 510, 290
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_NICKLIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,
+                    7,106,255
+    PUSHBUTTON      "Connect",IDC_BN_IRCCONNECT,7,269,49,14,BS_FLAT
+    CONTROL         "",IDC_TAB2,"SysTabControl32",0x0,123,7,373,15
+    EDITTEXT        IDC_INPUTWINDOW,123,269,326,14,ES_AUTOHSCROLL | NOT 
+                    WS_BORDER,WS_EX_STATICEDGE
+    EDITTEXT        IDC_TITLEWINDOW,123,22,373,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER,WS_EX_STATICEDGE
+    DEFPUSHBUTTON   "Send",IDC_CHATSEND,456,269,47,14,BS_FLAT
+    CONTROL         "",IDC_SERVERCHANNELLIST,"SysListView32",LVS_REPORT | 
+                    LVS_ALIGNLEFT | WS_TABSTOP,123,34,373,228,
+                    WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATUSWINDOW,"Static",SS_BLACKFRAME | NOT 
+                    WS_VISIBLE,123,34,373,228
+    PUSHBUTTON      "Close",IDC_CLOSECHAT,63,269,50,14,BS_FLAT
+END
+
+IDD_FILES DIALOGEX 0, 0, 510, 290
+STYLE DS_LOCALEDIT | DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Re&load",IDC_RELOADSHAREDFILES,446,187,57,14,BS_FLAT
+    CONTROL         "Shared Files",IDC_TRAFFIC_TEXT,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,20,9,268,8
+    CONTROL         "",IDC_SFLIST,"SysListView32",LVS_REPORT | LVS_SINGLESEL | 
+                    LVS_SHOWSELALWAYS | LVS_NOLABELWRAP | LVS_OWNERDRAWFIXED | 
+                    LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,21,496,159
+    CONTROL         "File",IDC_FILEBOX,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,
+                    14,202,418,10
+    CONTROL         "Requested:",IDC_FSTATIC4,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,14,236,70,8
+    CONTROL         "Accepted Uploads:",IDC_FSTATIC5,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,14,251,70,8
+    CONTROL         "Transfered:",IDC_FSTATIC6,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,14,268,70,8
+    CONTROL         "-",IDC_SREQUESTED,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,
+                    86,236,40,8
+    CONTROL         "-",IDC_SACCEPTED,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,
+                    86,252,40,8
+    CONTROL         "-",IDC_STRANSFERED,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,86,268,40,8
+    CONTROL         "",IDC_POPBAR,"msctls_progress32",0x1,128,235,160,9,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_POPBAR2,"msctls_progress32",0x1,128,251,160,9,
+                    WS_EX_TRANSPARENT
+    CONTROL         "",IDC_POPBAR3,"msctls_progress32",0x1,128,267,160,9,
+                    WS_EX_TRANSPARENT
+    CONTROL         "-",IDC_SREQUESTED2,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,380,236,52,8
+    CONTROL         "-",IDC_SACCEPTED2,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,
+                    380,252,52,8
+    CONTROL         "-",IDC_STRANSFERED2,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,380,268,52,8
+    GROUPBOX        "Statistics",IDC_STATISTICS,7,184,432,99,BS_FLAT
+    LTEXT           "Total:",IDC_TOTAL_LBL,295,220,137,8
+    ICON            "",IDC_FILES_ICO,7,7,20,20
+    CONTROL         "Transfered:",IDC_FSTATIC9,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,295,268,83,8
+    CONTROL         "Accepted Uploads:",IDC_FSTATIC8,"Static",
+                    SS_LEFTNOWORDWRAP | WS_GROUP,295,252,83,8
+    CONTROL         "Requested:",IDC_FSTATIC7,"Static",SS_LEFTNOWORDWRAP | 
+                    WS_GROUP,295,236,83,8
+    LTEXT           "Session:",IDC_CURSESSION_LBL,14,220,112,8
+END
+
+IDD_PPG_NOTIFY DIALOGEX 0, 0, 230, 226
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Notifications"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Use Sound",IDC_CB_TBN_USESOUND,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,7,216,10
+    EDITTEXT        IDC_EDIT_TBN_WAVFILE,7,25,157,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BTN_BROWSE_WAV,170,24,53,14,BS_FLAT
+    CONTROL         "New entry on log",IDC_CB_TBN_ONLOG,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,57,201,8
+    CONTROL         "Starts a new chat session",IDC_CB_TBN_ONCHAT,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,72,201,8
+    CONTROL         "Receive a new chat message",IDC_CB_TBN_POP_ALWAYS,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,87,
+                    201,8
+    CONTROL         "A download is added",IDC_CB_TBN_ONDOWNLOADADD,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,102,201,8
+    CONTROL         "A download is finished",IDC_CB_TBN_ONDOWNLOAD,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,117,201,8
+    CONTROL         "Urgent: Out of diskspace, serverconnection lost",
+                    IDC_CB_TBN_IMPORTANT,"Button",BS_AUTOCHECKBOX | BS_TOP | 
+                    BS_MULTILINE | BS_FLAT | WS_TABSTOP,14,131,201,23
+    COMBOBOX        IDC_COMBO_TBN_DTIME,108,184,32,45,CBS_DROPDOWN | 
+                    WS_VSCROLL | WS_TABSTOP,WS_EX_RTLREADING
+    COMBOBOX        IDC_COMBO_TBN_FSIZE,108,201,32,41,CBS_DROPDOWN | 
+                    CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP,
+                    WS_EX_RTLREADING
+    GROUPBOX        "Pop out when",IDC_TBN_OPTIONS,7,44,216,116,BS_FLAT
+    GROUPBOX        "Popup Properties",IDC_TBN_PROPERTIES,7,167,216,54,
+                    BS_FLAT
+    LTEXT           "Display time",IDC_CB_TBN_DTIME,14,186,88,11
+    LTEXT           "Font Size",IDC_CB_TBN_FSIZE,14,202,88,9
+    LTEXT           "sec",IDC_CB_TBN_SEC,146,186,36,11
+END
+
+IDD_PPG_IRC DIALOGEX 0, 0, 230, 250
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "IRC"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_IRC_SERVER_BOX,14,21,98,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IRC_NICK_BOX,136,21,79,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IRC_NAME_BOX,14,70,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_IRC_MINUSER_BOX,112,70,103,12,ES_AUTOHSCROLL
+    CONTROL         "Use Channel Filter",IDC_IRC_USECHANFILTER,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,88,201,8
+    EDITTEXT        IDC_IRC_PERFORM_BOX,14,123,201,12,ES_AUTOHSCROLL
+    CONTROL         "Use perform string on connect",IDC_IRC_USEPERFORM,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,142,
+                    201,8
+    CONTROL         "Add time stamp to messages",IDC_IRC_TIMESTAMP,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,175,201,8
+    CONTROL         "Load channel list on connect",IDC_IRC_LISTONCONNECT,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,187,
+                    201,8
+    CONTROL         "Ignore Info Messages",IDC_IRC_INFOMESSAGE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,14,200,201,8
+    CONTROL         "Ignore Emule Proto Messages",
+                    IDC_IRC_EMULEPROTO_INFOMESSAGE,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,14,212,201,10
+    CONTROL         "Accept ED2K links in IRC (Use this with caution)",
+                    IDC_IRC_ACCEPTLINKS,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_DISABLED | WS_TABSTOP,14,226,201,8
+    GROUPBOX        "Server",IDC_IRC_SERVER_FRM,7,7,114,33,BS_FLAT
+    GROUPBOX        "Misc",IDC_IRC_MISC_FRM,7,164,216,78,BS_FLAT
+    GROUPBOX        "Nick",IDC_IRC_NICK_FRM,129,7,94,33,BS_FLAT
+    GROUPBOX        "Channel List Filters",IDC_IRC_FILTER_FRM,7,47,216,55,
+                    BS_FLAT
+    LTEXT           "Name",IDC_IRC_NAME_TEXT,14,58,91,8
+    LTEXT           "Min users",IDC_IRC_MINUSER_TEXT,112,58,103,8
+    GROUPBOX        "Perform",IDC_IRC_PERFORM_FRM,7,110,216,47,BS_FLAT
+END
+
+IDD_PPG_HTTPD DIALOGEX 0, 0, 189, 87
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "HTTP Server"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_HTTPDPASS,72,7,110,12,ES_PASSWORD | ES_AUTOHSCROLL
+    EDITTEXT        IDC_HTTPDPORT,72,26,39,12,ES_AUTOHSCROLL | ES_NUMBER
+    CONTROL         "Enabled",IDC_HTTPDENABLED,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,114,28,68,8,
+                    WS_EX_RIGHT
+    LTEXT           "Password",IDC_HTTPDPASS_LBL,7,9,60,8,SS_CENTERIMAGE
+    LTEXT           "Port",IDC_HTTPDPORT_LBL,7,28,60,8
+END
+
+IDD_PPG_ADVANCED DIALOGEX 0, 0, 230, 257
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Advanced"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_MIN_UP_CLIENTS_ALLOWED,14,30,24,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_MAX_UP_CLIENTS_ALLOWED,89,30,26,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_UPLOAD_CLIENT_DATARATE,149,30,31,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_BANTIMES,14,76,24,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_MINREQUESTTIME,89,76,26,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_BANTIMEINMINS,149,76,31,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    EDITTEXT        IDC_COMSTRING,14,113,135,12,ES_AUTOHSCROLL
+    CONTROL         "Enabled",IDC_COMENABLED,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,149,120,67,8,
+                    WS_EX_RIGHT
+    EDITTEXT        IDC_RESTORE_SOURCES_TIME,114,150,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_LOAD_QUANTITIES,114,168,30,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_OUTDATED,114,186,30,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Enabled",IDC_SLSENABLED,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,152,202,64,8,
+                    WS_EX_RIGHT
+    CONTROL         "Enable countermeasures for mlDonkey clients",
+                    IDC_MLDONKEY_CM,"Button",BS_AUTOCHECKBOX | BS_FLAT | 
+                    WS_TABSTOP,7,220,216,8
+    GROUPBOX        "Upload",IDC_UPLOAD_SLOTS_FRM,7,7,216,41,BS_FLAT
+    LTEXT           "bytes/s",IDC_BYTESPERSEC,184,32,32,8
+    LTEXT           "Min Slots",IDC_MIN_UP_CLIENTS_ALLOWED_LBL,14,18,49,8
+    LTEXT           "Max Slots",IDC_MAX_UP_CLIENTS_ALLOWED_LBL,89,18,53,8
+    LTEXT           "Datarate",IDC_UPLOAD_CLIENT_DATARATE_LBL,149,18,67,8
+    GROUPBOX        "Ban",IDC_BAN,7,53,216,41,BS_FLAT
+    CTEXT           "times in",IDC_TIMESINLBL,42,78,45,8,SS_CENTERIMAGE
+    LTEXT           "mins",IDC_MINUTES_BAN2,184,78,32,8,SS_CENTERIMAGE
+    LTEXT           "mins",IDC_MINUTES_BAN1,119,78,23,8,SS_CENTERIMAGE
+    LTEXT           "Client Request Threshold",IDC_CLIENTREQUESTLBL,14,64,
+                    100,8
+    LTEXT           "Ban Time",IDC_BANFORLABEL,149,64,67,8,SS_CENTERIMAGE
+    GROUPBOX        "Community Sharing",IDC_COM,7,99,216,33,BS_FLAT
+    GROUPBOX        "Save/Load Sources",IDC_SAVELOADSOURCESGROUPBOX,7,137,
+                    216,78,BS_FLAT
+    LTEXT           "Load batches of",IDC_SLS_LOAD_QUANTITY,14,168,97,12,
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    LTEXT           "Outdated after",IDC_SLS_OUTDATED,14,186,97,12,
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    LTEXT           "days",IDC_SLS_DAYS,151,187,30,11,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "sources",IDC_SLS_SOURCES,151,168,28,12,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    LTEXT           "Reload sources every",IDC_SLS_LOAD_EVERY,14,150,98,12,
+                    SS_CENTERIMAGE,WS_EX_TRANSPARENT
+    LTEXT           "mins",IDC_SLS_MINS,151,150,29,12,SS_CENTERIMAGE,
+                    WS_EX_TRANSPARENT
+    CONTROL         "No banning",IDC_NOBANENABLED,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,149,109,67,8,
+                    WS_EX_RIGHT
+END
+
+IDD_PPG_SORTING DIALOGEX 0, 0, 230, 233
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Sorting"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Use These Settings",IDC_SORT_USEIT,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,8,17,214,10
+    COMBOBOX        IDC_SORT_SERVERS,117,35,105,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SORT_DOWNLOADS,117,54,105,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SORT_UPLOADS,117,73,105,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SORT_QUEUE,117,92,105,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SORT_SEARCH,117,111,105,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SORT_FILES,117,130,105,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SORT_IRC,117,149,105,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_SORT_SOURCES1,117,184,98,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    CONTROL         "and by",IDC_SORT_SOURCES2_BOX,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,15,204,93,10
+    COMBOBOX        IDC_SORT_SOURCES2,117,203,98,90,CBS_DROPDOWNLIST | 
+                    CBS_OWNERDRAWVARIABLE | CBS_HASSTRINGS | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Sort Servers by",IDC_SORT_SERVERS_LBL,8,37,100,8
+    LTEXT           "Sort Downloads by",IDC_SORT_DOWNLOADS_LBL,8,56,100,8
+    GROUPBOX        "When Expanding Sources List",IDC_SORT_GRP,8,169,214,56,
+                    BS_FLAT
+    LTEXT           "Sort Clients by",IDC_SORT_SOURCES1_LBL,15,186,93,8
+    LTEXT           "Sort Shared Files By",IDC_SORT_FILES_LBL,8,132,100,8
+    LTEXT           "Sort Uploads by",IDC_SORT_UPLOADS_LBL,8,75,100,8
+    LTEXT           "Sort Queue by",IDC_SORT_QUEUE_LBL,8,94,100,8
+    LTEXT           "Sort Searches by",IDC_SORT_SEARCH_LBL,8,113,100,8
+    LTEXT           "Sort IRC by",IDC_SORT_IRC_LBL,8,151,100,8
+    CONTROL         "Autoupdate queue list",IDC_UPDATEQUEUE,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,8,4,214,10
+END
+
+IDD_FILEINFO DIALOGEX 0, 0, 286, 106
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "File &Info"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,232,89,47,12,BS_FLAT
+    CONTROL         "Round Bitrate",IDC_ROUNDBIT,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,154,70,118,9
+    LTEXT           "Filesize:",IDC_FD_XI1,7,5,58,8
+    RTEXT           "",IDC_FILESIZE,70,5,69,8
+    LTEXT           "Length:",IDC_FD_XI2,147,5,61,8
+    RTEXT           "",IDC_LENGTH,216,5,63,8
+    GROUPBOX        "Video",IDC_FD_XI3,7,19,132,66,BS_FLAT
+    GROUPBOX        "Audio",IDC_FD_XI4,147,19,132,66,BS_FLAT
+    LTEXT           "Codec:",IDC_FD_XI5,14,30,51,8
+    LTEXT           "Bitrate:",IDC_FD_XI7,14,40,51,8
+    LTEXT           "Width:",IDC_FD_XI9,14,50,51,8
+    LTEXT           "Height:",IDC_FD_XI11,14,60,51,8
+    LTEXT           "Fps:",IDC_FD_XI13,14,70,51,8
+    LTEXT           "Codec:",IDC_FD_XI6,155,30,47,8
+    LTEXT           "Bitrate:",IDC_FD_XI8,155,40,47,8
+    LTEXT           "Channel:",IDC_FD_XI10,155,50,47,8
+    LTEXT           "Samplerate:",IDC_FD_XI12,155,60,47,8
+    LTEXT           "",IDC_VCODEC,65,30,68,8
+    LTEXT           "",IDC_VBITRATE,65,40,68,8
+    LTEXT           "",IDC_VWIDTH,65,50,68,8
+    LTEXT           "",IDC_VHEIGHT,65,60,68,8
+    LTEXT           "",IDC_VFPS,65,70,68,8
+    LTEXT           "",IDC_ACODEC,202,30,70,8
+    LTEXT           "",IDC_ABITRATE,202,40,70,8
+    LTEXT           "",IDC_ACHANNEL,202,50,70,8
+    LTEXT           "",IDC_ASAMPLERATE,202,60,70,8
+END
+
+IDD_ADDFRIEND DIALOGEX 0, 0, 269, 129
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Add Friend"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_IP,72,16,91,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PORT,72,32,38,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USERNAME,72,69,184,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_USERHASH,72,85,184,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&Add",IDC_ADD,163,109,46,15,BS_FLAT
+    PUSHBUTTON      "&Cancel",2,216,109,47,15,BS_FLAT
+    LTEXT           "Username:",IDC_STATIC31,14,71,54,8
+    LTEXT           "IP Address:",IDC_STATIC34,14,18,54,8
+    LTEXT           "Userhash:",IDC_STATIC32,14,87,54,8
+    GROUPBOX        "Required Information",IDC_INFO1,7,7,256,43,BS_FLAT
+    GROUPBOX        "Additional Information",IDC_INFO2,7,56,256,47,BS_FLAT
+    LTEXT           "Port:",IDC_STATIC35,14,34,54,8
+END
+
+IDD_COMMENT DIALOGEX 0, 0, 364, 170
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDCOK,307,131,50,14,BS_FLAT
+    PUSHBUTTON      "Cancel",IDCCANCEL,307,149,50,14,BS_FLAT
+    LTEXT           "Static",IDC_CMT_LAIDE,14,38,336,43,WS_BORDER
+    LTEXT           "Static",IDC_RATEHELP,14,125,276,31,WS_BORDER
+    EDITTEXT        IDC_CMT_TEXT,14,21,336,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_RATELIST,14,108,147,55,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    GROUPBOX        "Static",IDC_CMT_LQUEST,7,7,350,81,BS_FLAT
+    GROUPBOX        "Static",IDC_RATEQUEST,7,94,291,69,BS_FLAT
+END
+
+IDD_COMMENTLST DIALOGEX 0, 0, 330, 230
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDCOK,268,209,54,14,BS_FLAT
+    PUSHBUTTON      "Refresh",IDCREF,209,209,54,14,BS_FLAT
+    CONTROL         "",IDC_LST,"Static",SS_BLACKFRAME,7,7,315,196
+END
+
+IDD_PPG_MODPT DIALOGEX 0, 0, 230, 226
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Part Traffic"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    GROUPBOX        "Upload bar style",IDC_UPBARST,7,20,215,64,BS_FLAT
+    CONTROL         "Style 1 (just all-time part)",IDC_UPBARST1,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP,14,32,200,10
+    CONTROL         "Style 2 (all-time part+block)",IDC_UPBARST2,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,14,45,200,10
+    CONTROL         "Style 3 (all three infos)",IDC_UPBARST3,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,14,58,200,10
+    CONTROL         "TraffiGram",IDC_UPBARST4,"Button",BS_AUTORADIOBUTTON | 
+                    BS_FLAT,14,71,200,10
+    GROUPBOX        "Upload bar color",IDC_UPBARCL,7,88,215,65,BS_FLAT
+    CONTROL         "rainbow style (exp)",IDC_UPBARCL1,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT | WS_GROUP,14,100,200,10
+    CONTROL         "rainbow style (lin)",IDC_UPBARCL2,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,14,113,200,10
+    CONTROL         "downloadlist style (blue)",IDC_UPBARCL3,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,14,126,200,10
+    CONTROL         "girlie style (pink)",IDC_UPBARCL4,"Button",
+                    BS_AUTORADIOBUTTON | BS_FLAT,14,139,200,10
+    CONTROL         "Display Part Traffic",IDC_PT_USEIT,"Button",
+                    BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,8,7,214,10
+    CONTROL         "Show Upload Progress on remote users",IDC_UPLOADPARTS,
+                    "Button",BS_AUTOCHECKBOX | BS_FLAT | WS_TABSTOP,7,159,
+                    215,10
+END
+
+IDD_PPG_PROXY DIALOGEX 0, 0, 221, 146
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    CONTROL         "Proxy Enabled",IDC_ENABLEPROXY,"Button",BS_AUTOCHECKBOX | 
+                    BS_FLAT | WS_TABSTOP,7,7,207,10
+    COMBOBOX        IDC_PROXYTYPE,75,20,139,49,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_PROXYNAME,75,38,139,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PROXYPORT,75,56,40,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_NUMBER
+    CONTROL         "Enabled",IDC_ENABLEAUTH,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | BS_FLAT | WS_TABSTOP,75,126,130,8,
+                    WS_EX_RIGHT
+    EDITTEXT        IDC_USERNAME,75,90,130,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PASSWORD,75,108,130,12,ES_AUTOHSCROLL
+    GROUPBOX        "Authentification",IDC_AUTH_LBL,7,76,207,63,BS_FLAT
+    LTEXT           "Proxy type",IDC_PROXYTYPE_LBL,7,22,61,8
+    LTEXT           "Proxy address",IDC_PROXYNAME_LBL,7,40,63,8
+    LTEXT           "Proxy port",IDC_PROXYPORT_LBL,7,58,63,8
+    LTEXT           "Username",IDC_USERNAME_LBL,19,92,51,8
+    LTEXT           "Password",IDC_PASSWORD_LBL,19,110,51,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_HTTPDOWNLOAD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 224
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 138
+    END
+
+    IDD_SOURCEDETAILWND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 299
+        VERTGUIDE, 19
+        VERTGUIDE, 72
+        VERTGUIDE, 110
+        VERTGUIDE, 163
+        VERTGUIDE, 215
+        VERTGUIDE, 256
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 258
+        HORZGUIDE, 28
+        HORZGUIDE, 39
+        HORZGUIDE, 50
+        HORZGUIDE, 61
+        HORZGUIDE, 77
+        HORZGUIDE, 104
+        HORZGUIDE, 116
+        HORZGUIDE, 129
+        HORZGUIDE, 145
+        HORZGUIDE, 179
+        HORZGUIDE, 195
+    END
+
+    IDD_FILEDETAILS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 305
+        VERTGUIDE, 14
+        VERTGUIDE, 78
+        VERTGUIDE, 115
+        VERTGUIDE, 135
+        VERTGUIDE, 178
+        VERTGUIDE, 185
+        VERTGUIDE, 196
+        VERTGUIDE, 241
+        VERTGUIDE, 249
+        VERTGUIDE, 298
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 324
+        HORZGUIDE, 21
+        HORZGUIDE, 25
+        HORZGUIDE, 36
+        HORZGUIDE, 44
+        HORZGUIDE, 51
+        HORZGUIDE, 63
+        HORZGUIDE, 71
+        HORZGUIDE, 73
+        HORZGUIDE, 78
+        HORZGUIDE, 99
+        HORZGUIDE, 107
+        HORZGUIDE, 114
+        HORZGUIDE, 122
+        HORZGUIDE, 129
+        HORZGUIDE, 137
+        HORZGUIDE, 144
+        HORZGUIDE, 152
+        HORZGUIDE, 159
+        HORZGUIDE, 167
+        HORZGUIDE, 175
+        HORZGUIDE, 181
+        HORZGUIDE, 195
+        HORZGUIDE, 259
+        HORZGUIDE, 266
+        HORZGUIDE, 276
+        HORZGUIDE, 283
+        HORZGUIDE, 296
+        HORZGUIDE, 303
+        HORZGUIDE, 310
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 230
+    END
+
+    IDD_TRANSFER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+    END
+
+    IDD_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        VERTGUIDE, 14
+        VERTGUIDE, 21
+        VERTGUIDE, 71
+        VERTGUIDE, 78
+        VERTGUIDE, 302
+        VERTGUIDE, 374
+        VERTGUIDE, 381
+        VERTGUIDE, 444
+        VERTGUIDE, 496
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+        HORZGUIDE, 12
+        HORZGUIDE, 23
+        HORZGUIDE, 27
+        HORZGUIDE, 66
+        HORZGUIDE, 73
+        HORZGUIDE, 80
+        HORZGUIDE, 91
+        HORZGUIDE, 95
+        HORZGUIDE, 157
+        HORZGUIDE, 164
+        HORZGUIDE, 172
+        HORZGUIDE, 180
+        HORZGUIDE, 276
+    END
+
+    IDD_UPDATESERVERMET, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 271
+        VERTGUIDE, 23
+        VERTGUIDE, 26
+        VERTGUIDE, 222
+        VERTGUIDE, 226
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 21
+    END
+
+    IDD_NEWSERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 128
+        VERTGUIDE, 92
+        VERTGUIDE, 102
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 81
+        HORZGUIDE, 15
+        HORZGUIDE, 18
+        HORZGUIDE, 30
+        HORZGUIDE, 37
+        HORZGUIDE, 45
+        HORZGUIDE, 48
+        HORZGUIDE, 60
+        HORZGUIDE, 67
+    END
+
+    IDD_SEARCH, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 503
+        VERTGUIDE, 12
+        VERTGUIDE, 128
+        VERTGUIDE, 133
+        VERTGUIDE, 190
+        VERTGUIDE, 195
+        VERTGUIDE, 252
+        VERTGUIDE, 258
+        VERTGUIDE, 321
+        VERTGUIDE, 327
+        VERTGUIDE, 332
+        VERTGUIDE, 337
+        VERTGUIDE, 497
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 288
+        HORZGUIDE, 19
+        HORZGUIDE, 24
+        HORZGUIDE, 36
+        HORZGUIDE, 41
+        HORZGUIDE, 47
+        HORZGUIDE, 59
+        HORZGUIDE, 65
+        HORZGUIDE, 69
+        HORZGUIDE, 89
+        HORZGUIDE, 104
+        HORZGUIDE, 262
+        HORZGUIDE, 269
+        HORZGUIDE, 274
+    END
+
+    IDD_CHAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        VERTGUIDE, 20
+        VERTGUIDE, 122
+        VERTGUIDE, 132
+        VERTGUIDE, 139
+        VERTGUIDE, 146
+        VERTGUIDE, 382
+        VERTGUIDE, 389
+        VERTGUIDE, 439
+        VERTGUIDE, 446
+        VERTGUIDE, 496
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+        HORZGUIDE, 17
+        HORZGUIDE, 21
+        HORZGUIDE, 276
+    END
+
+    IDD_STATISTICS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        VERTGUIDE, 168
+        VERTGUIDE, 178
+        VERTGUIDE, 255
+        VERTGUIDE, 257
+        VERTGUIDE, 273
+        VERTGUIDE, 327
+        VERTGUIDE, 333
+        VERTGUIDE, 351
+        VERTGUIDE, 422
+        VERTGUIDE, 428
+        VERTGUIDE, 445
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+        HORZGUIDE, 7
+        HORZGUIDE, 15
+        HORZGUIDE, 19
+        HORZGUIDE, 94
+        HORZGUIDE, 101
+        HORZGUIDE, 109
+        HORZGUIDE, 113
+        HORZGUIDE, 189
+        HORZGUIDE, 196
+        HORZGUIDE, 204
+        HORZGUIDE, 208
+    END
+
+    IDD_PPG_STATS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 14
+        VERTGUIDE, 22
+        VERTGUIDE, 57
+        VERTGUIDE, 64
+        VERTGUIDE, 72
+        VERTGUIDE, 106
+        VERTGUIDE, 114
+        VERTGUIDE, 122
+        VERTGUIDE, 157
+        VERTGUIDE, 174
+        VERTGUIDE, 181
+        VERTGUIDE, 210
+        VERTGUIDE, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+        HORZGUIDE, 25
+        HORZGUIDE, 36
+        HORZGUIDE, 50
+        HORZGUIDE, 61
+        HORZGUIDE, 72
+        HORZGUIDE, 86
+        HORZGUIDE, 93
+        HORZGUIDE, 99
+        HORZGUIDE, 105
+        HORZGUIDE, 114
+        HORZGUIDE, 119
+        HORZGUIDE, 133
+        HORZGUIDE, 139
+        HORZGUIDE, 157
+        HORZGUIDE, 168
+        HORZGUIDE, 182
+        HORZGUIDE, 189
+        HORZGUIDE, 195
+    END
+
+    IDD_PPG_SERVER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        VERTGUIDE, 135
+        VERTGUIDE, 162
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 215
+        HORZGUIDE, 19
+        HORZGUIDE, 24
+        HORZGUIDE, 36
+        HORZGUIDE, 44
+        HORZGUIDE, 137
+        HORZGUIDE, 149
+        HORZGUIDE, 173
+        HORZGUIDE, 184
+    END
+
+    IDD_PPG_GENERAL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 14
+        VERTGUIDE, 100
+        VERTGUIDE, 107
+        VERTGUIDE, 114
+        VERTGUIDE, 121
+        VERTGUIDE, 154
+        VERTGUIDE, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 237
+        HORZGUIDE, 33
+        HORZGUIDE, 40
+        HORZGUIDE, 47
+        HORZGUIDE, 57
+        HORZGUIDE, 68
+        HORZGUIDE, 72
+        HORZGUIDE, 82
+        HORZGUIDE, 95
+        HORZGUIDE, 108
+        HORZGUIDE, 121
+        HORZGUIDE, 134
+        HORZGUIDE, 147
+        HORZGUIDE, 160
+        HORZGUIDE, 173
+        HORZGUIDE, 186
+        HORZGUIDE, 198
+        HORZGUIDE, 210
+        HORZGUIDE, 217
+        HORZGUIDE, 231
+    END
+
+    IDD_PPG_WINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 138
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 255
+        HORZGUIDE, 12
+        HORZGUIDE, 25
+        HORZGUIDE, 38
+        HORZGUIDE, 51
+        HORZGUIDE, 64
+    END
+
+    IDD_PPG_FILES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 14
+        VERTGUIDE, 112
+        VERTGUIDE, 117
+        VERTGUIDE, 124
+        VERTGUIDE, 144
+        VERTGUIDE, 148
+        VERTGUIDE, 167
+        VERTGUIDE, 171
+        VERTGUIDE, 199
+        VERTGUIDE, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 251
+        HORZGUIDE, 24
+        HORZGUIDE, 37
+        HORZGUIDE, 50
+        HORZGUIDE, 59
+        HORZGUIDE, 63
+        HORZGUIDE, 91
+        HORZGUIDE, 96
+        HORZGUIDE, 108
+        HORZGUIDE, 121
+        HORZGUIDE, 126
+        HORZGUIDE, 133
+        HORZGUIDE, 148
+        HORZGUIDE, 161
+        HORZGUIDE, 175
+        HORZGUIDE, 190
+        HORZGUIDE, 199
+        HORZGUIDE, 219
+    END
+
+    IDD_PPG_DIRECTORIES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 166
+        VERTGUIDE, 173
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 240
+        HORZGUIDE, 17
+        HORZGUIDE, 31
+        HORZGUIDE, 44
+        HORZGUIDE, 58
+        HORZGUIDE, 71
+        HORZGUIDE, 85
+        HORZGUIDE, 101
+        HORZGUIDE, 173
+        HORZGUIDE, 189
+        HORZGUIDE, 240
+    END
+
+    IDD_PPG_CONNECTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 14
+        VERTGUIDE, 62
+        VERTGUIDE, 82
+        VERTGUIDE, 89
+        VERTGUIDE, 97
+        VERTGUIDE, 106
+        VERTGUIDE, 130
+        VERTGUIDE, 145
+        VERTGUIDE, 192
+        VERTGUIDE, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 247
+        HORZGUIDE, 39
+        HORZGUIDE, 46
+        HORZGUIDE, 50
+        HORZGUIDE, 70
+        HORZGUIDE, 82
+        HORZGUIDE, 87
+        HORZGUIDE, 99
+        HORZGUIDE, 106
+        HORZGUIDE, 111
+        HORZGUIDE, 125
+        HORZGUIDE, 132
+        HORZGUIDE, 144
+        HORZGUIDE, 151
+        HORZGUIDE, 156
+        HORZGUIDE, 171
+        HORZGUIDE, 183
+        HORZGUIDE, 191
+        HORZGUIDE, 200
+        HORZGUIDE, 215
+        HORZGUIDE, 229
+    END
+
+    IDD_IRC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        VERTGUIDE, 56
+        VERTGUIDE, 63
+        VERTGUIDE, 113
+        VERTGUIDE, 123
+        VERTGUIDE, 449
+        VERTGUIDE, 456
+        VERTGUIDE, 496
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+        HORZGUIDE, 22
+        HORZGUIDE, 34
+        HORZGUIDE, 262
+        HORZGUIDE, 269
+    END
+
+    IDD_FILES, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 503
+        VERTGUIDE, 14
+        VERTGUIDE, 20
+        VERTGUIDE, 84
+        VERTGUIDE, 86
+        VERTGUIDE, 126
+        VERTGUIDE, 128
+        VERTGUIDE, 288
+        VERTGUIDE, 295
+        VERTGUIDE, 378
+        VERTGUIDE, 380
+        VERTGUIDE, 432
+        VERTGUIDE, 439
+        VERTGUIDE, 446
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 283
+        HORZGUIDE, 17
+        HORZGUIDE, 21
+        HORZGUIDE, 170
+        HORZGUIDE, 180
+        HORZGUIDE, 184
+        HORZGUIDE, 195
+        HORZGUIDE, 207
+        HORZGUIDE, 218
+        HORZGUIDE, 228
+        HORZGUIDE, 235
+        HORZGUIDE, 244
+        HORZGUIDE, 251
+        HORZGUIDE, 260
+        HORZGUIDE, 267
+        HORZGUIDE, 276
+    END
+
+    IDD_PPG_NOTIFY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 14
+        VERTGUIDE, 102
+        VERTGUIDE, 108
+        VERTGUIDE, 140
+        VERTGUIDE, 146
+        VERTGUIDE, 164
+        VERTGUIDE, 170
+        VERTGUIDE, 182
+        VERTGUIDE, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 221
+        HORZGUIDE, 7
+        HORZGUIDE, 17
+        HORZGUIDE, 25
+        HORZGUIDE, 38
+        HORZGUIDE, 44
+        HORZGUIDE, 160
+        HORZGUIDE, 167
+        HORZGUIDE, 184
+        HORZGUIDE, 197
+        HORZGUIDE, 202
+        HORZGUIDE, 213
+    END
+
+    IDD_PPG_IRC, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 14
+        VERTGUIDE, 105
+        VERTGUIDE, 112
+        VERTGUIDE, 121
+        VERTGUIDE, 129
+        VERTGUIDE, 136
+        VERTGUIDE, 215
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 243
+        HORZGUIDE, 21
+        HORZGUIDE, 33
+        HORZGUIDE, 40
+        HORZGUIDE, 47
+        HORZGUIDE, 73
+        HORZGUIDE, 85
+        HORZGUIDE, 98
+        HORZGUIDE, 109
+        HORZGUIDE, 116
+        HORZGUIDE, 130
+        HORZGUIDE, 142
+        HORZGUIDE, 153
+        HORZGUIDE, 164
+        HORZGUIDE, 171
+        HORZGUIDE, 189
+        HORZGUIDE, 203
+        HORZGUIDE, 217
+        HORZGUIDE, 231
+    END
+
+    IDD_PPG_HTTPD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        VERTGUIDE, 67
+        VERTGUIDE, 72
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+        HORZGUIDE, 17
+        HORZGUIDE, 26
+        HORZGUIDE, 38
+    END
+
+    IDD_PPG_ADVANCED, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 223
+        VERTGUIDE, 14
+        VERTGUIDE, 38
+        VERTGUIDE, 42
+        VERTGUIDE, 89
+        VERTGUIDE, 114
+        VERTGUIDE, 119
+        VERTGUIDE, 149
+        VERTGUIDE, 179
+        VERTGUIDE, 184
+        VERTGUIDE, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 250
+        HORZGUIDE, 22
+        HORZGUIDE, 30
+        HORZGUIDE, 42
+        HORZGUIDE, 48
+        HORZGUIDE, 53
+        HORZGUIDE, 68
+        HORZGUIDE, 76
+        HORZGUIDE, 88
+        HORZGUIDE, 94
+        HORZGUIDE, 99
+        HORZGUIDE, 113
+        HORZGUIDE, 125
+        HORZGUIDE, 132
+        HORZGUIDE, 137
+        HORZGUIDE, 150
+        HORZGUIDE, 162
+        HORZGUIDE, 168
+        HORZGUIDE, 180
+        HORZGUIDE, 186
+        HORZGUIDE, 198
+        HORZGUIDE, 206
+        HORZGUIDE, 215
+        HORZGUIDE, 220
+    END
+
+    IDD_PPG_SORTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 8
+        RIGHTMARGIN, 222
+        VERTGUIDE, 8
+        VERTGUIDE, 15
+        VERTGUIDE, 108
+        VERTGUIDE, 117
+        VERTGUIDE, 215
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 225
+        HORZGUIDE, 9
+        HORZGUIDE, 22
+    END
+
+    IDD_FILEINFO, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 279
+        VERTGUIDE, 14
+        VERTGUIDE, 65
+        VERTGUIDE, 133
+        VERTGUIDE, 139
+        VERTGUIDE, 147
+        VERTGUIDE, 162
+        VERTGUIDE, 202
+        VERTGUIDE, 238
+        VERTGUIDE, 272
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 101
+        HORZGUIDE, 13
+        HORZGUIDE, 19
+        HORZGUIDE, 85
+    END
+
+    IDD_ADDFRIEND, DIALOG
+    BEGIN
+        VERTGUIDE, 14
+        VERTGUIDE, 68
+        VERTGUIDE, 72
+        VERTGUIDE, 256
+        HORZGUIDE, 7
+        HORZGUIDE, 50
+        HORZGUIDE, 56
+        HORZGUIDE, 103
+        HORZGUIDE, 109
+    END
+
+    IDD_COMMENT, DIALOG
+    BEGIN
+        VERTGUIDE, 7
+        VERTGUIDE, 14
+        VERTGUIDE, 290
+        VERTGUIDE, 298
+        VERTGUIDE, 307
+        VERTGUIDE, 350
+        VERTGUIDE, 357
+        HORZGUIDE, 7
+        HORZGUIDE, 88
+        HORZGUIDE, 94
+        HORZGUIDE, 163
+    END
+
+    IDD_COMMENTLST, DIALOG
+    BEGIN
+        VERTGUIDE, 7
+        VERTGUIDE, 209
+        VERTGUIDE, 263
+        VERTGUIDE, 268
+        VERTGUIDE, 322
+        HORZGUIDE, 7
+        HORZGUIDE, 203
+        HORZGUIDE, 209
+        HORZGUIDE, 223
+    END
+
+    IDD_PPG_MODPT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 222
+        VERTGUIDE, 14
+        VERTGUIDE, 214
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 218
+        HORZGUIDE, 12
+        HORZGUIDE, 24
+        HORZGUIDE, 37
+        HORZGUIDE, 50
+        HORZGUIDE, 63
+        HORZGUIDE, 76
+        HORZGUIDE, 84
+        HORZGUIDE, 88
+        HORZGUIDE, 105
+        HORZGUIDE, 118
+        HORZGUIDE, 131
+        HORZGUIDE, 144
+    END
+
+    IDD_PPG_PROXY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 214
+        VERTGUIDE, 19
+        VERTGUIDE, 70
+        VERTGUIDE, 75
+        VERTGUIDE, 115
+        VERTGUIDE, 205
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 139
+        HORZGUIDE, 20
+        HORZGUIDE, 33
+        HORZGUIDE, 38
+        HORZGUIDE, 50
+        HORZGUIDE, 56
+        HORZGUIDE, 68
+        HORZGUIDE, 76
+        HORZGUIDE, 90
+        HORZGUIDE, 102
+        HORZGUIDE, 108
+        HORZGUIDE, 120
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,2,6,1
+ PRODUCTVERSION 0,2,6,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004e4"
+        BEGIN
+            VALUE "CompanyName", "http://emuleplus.sourceforge.net"
+            VALUE "Copyright (C) 2002", "(c) Merkur - read license.txt for more info"
+            VALUE "FileDescription", "eMule Plus"
+            VALUE "FileVersion", "0.26b"
+            VALUE "InternalName", "eMule.exe"
+            VALUE "OriginalFilename", "eMule.exe"
+            VALUE "ProductName", "eMule"
+            VALUE "ProductVersion", "0.26b"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_DOWN                BITMAP                  "res\\Graphics\\down.bmp"
+IDB_DOWN2X              BITMAP                  "res\\Graphics\\down2x.bmp"
+IDB_UP                  BITMAP                  "res\\Graphics\\up.bmp"
+IDB_UP2X                BITMAP                  "res\\Graphics\\up2x.bmp"
+IDB_TTF_BMP             BITMAP                  "res\\Graphics\\font_tru.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "res\\emule.manifest"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AVI
+//
+
+IDR_HTTPDOWNLOAD_ANIMATION AVI                     "res\\inetdownload.avi"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Icons\\Others\\eMule.ico"
+IDI_TB_CONNECT          ICON                    "res\\Icons\\Toolbar (32x32)\\Connect.ico"
+IDI_CONNECTED           ICON                    "res\\Icons\\Others\\PartialConnect.ico"
+IDI_CONNECTEDHIGH       ICON                    "res\\Icons\\Others\\FullConnect.ico"
+IDI_NOTCONNECTED        ICON                    "res\\Icons\\Others\\NoConnect.ico"
+IDI_UP1                 ICON                    "res\\Icons\\Others\\StatusBar_UL1.ico"
+IDI_UP0                 ICON                    "res\\Icons\\Others\\StatusBar_UL0.ico"
+IDI_DOWN1               ICON                    "res\\Icons\\Others\\StatusBar_DL1.ico"
+IDI_DOWN0               ICON                    "res\\Icons\\Others\\StatusBar_DL0.ico"
+IDI_TRAYICON            ICON                    "res\\Icons\\Others\\TrayIcon.ico"
+IDI_MESSAGE             ICON                    "res\\Icons\\Others\\Message.ico"
+IDI_MPENDING            ICON                    "res\\Icons\\Others\\NewMessage.ico"
+IDI_TRAYICON_GREY       ICON                    "res\\Icons\\Others\\TrayIconGrey.ico"
+IDI_USERS               ICON                    "res\\Icons\\Others\\User.ico"
+IDI_PLUSCOMPROT         ICON                    "res\\Icons\\Client Type (16x16)\\Credit&Extended.ico"
+IDI_PLUS                ICON                    "res\\Icons\\Client Type (16x16)\\Credit.ico"
+IDI_COMPROT             ICON                    "res\\Icons\\Client Type (16x16)\\Extended.ico"
+IDI_NORMAL              ICON                    "res\\Icons\\Client Type (16x16)\\Normal.ico"
+IDI_SERVERLIST          ICON                    "res\\Icons\\Others\\ServerList.ico"
+IDI_SHAREDFILES         ICON                    "res\\Icons\\Others\\SharedFiles.ico"
+IDI_SMALLSTATISTICS     ICON                    "res\\Icons\\Others\\SmallStatistics.ico"
+IDI_UPDATESERVERS       ICON                    "res\\Icons\\Others\\UpdateServers.ico"
+IDI_NEWSERVER           ICON                    "res\\Icons\\Others\\NewServer.ico"
+IDI_SEARCHRESULTS       ICON                    "res\\Icons\\Others\\SearchResults.ico"
+IDI_SERVERINFO          ICON                    "res\\Icons\\Others\\ServerInfo.ico"
+IDI_SMALLSERVER         ICON                    "res\\Icons\\Others\\SmallServer.ico"
+IDI_WEBBASED            ICON                    "res\\Icons\\Others\\WebBased.ico"
+IDI_DIRECTDOWNLOAD      ICON                    "res\\Icons\\Others\\DirectDownload.ico"
+IDI_LOG                 ICON                    "res\\Icons\\Others\\Log.ico"
+IDI_NORMALSEARCH        ICON                    "res\\Icons\\Others\\NormalSearch.ico"
+IDI_DCS2                ICON                    "res\\Icons\\File Request Status (16x16)\\Asking.ico"
+IDI_DCS3                ICON                    "res\\Icons\\File Request Status (16x16)\\Connecting.ico"
+IDI_DCS4                ICON                    "res\\Icons\\File Request Status (16x16)\\NoNeeded.ico"
+IDI_DCS1                ICON                    "res\\Icons\\File Request Status (16x16)\\Transfering.ico"
+IDI_LISTPLUS            ICON                    "res\\Icons\\Others\\Plus.ico"
+IDI_LISTMINUS           ICON                    "res\\Icons\\Others\\Minus.ico"
+IDI_LISTNONE            ICON                    "res\\Icons\\Others\\Nothing.ico"
+IDI_CHAT                ICON                    "res\\Icons\\Others\\Chat.ico"
+IDI_FRIEND_LBL          ICON                    "res\\Icons\\Others\\Friend.ico"
+IDI_TB_DISCONNECT       ICON                    "res\\Icons\\Toolbar (32x32)\\Disconnet.ico"
+IDI_TB_MESSAGES         ICON                    "res\\Icons\\Toolbar (32x32)\\Messages.ico"
+IDI_TB_PREFERENCES      ICON                    "res\\Icons\\Toolbar (32x32)\\Preferences.ico"
+IDI_TB_SEARCH           ICON                    "res\\Icons\\Toolbar (32x32)\\Search.ico"
+IDI_TB_SERVER           ICON                    "res\\Icons\\Toolbar (32x32)\\Servers.ico"
+IDI_TB_SHARED           ICON                    "res\\Icons\\Toolbar (32x32)\\Shared.ico"
+IDI_TB_STATISTICS       ICON                    "res\\Icons\\Toolbar (32x32)\\Statistics.ico"
+IDI_TB_STOPCONNECTING   ICON                    "res\\Icons\\Toolbar (32x32)\\StopTryConnect.ico"
+IDI_TB_TRANSFERS        ICON                    "res\\Icons\\Toolbar (32x32)\\Transfers.ico"
+IDI_DCS5                ICON                    "res\\Icons\\File Request Status (16x16)\\FileRequestStatus.ico"
+IDI_TB_IRC              ICON                    "res\\Icons\\Toolbar (32x32)\\IRC.ico"
+IDI_RESETLOG            ICON                    "res\\Icons\\Others\\ResetLog.ico"
+IDI_TAROD               ICON                    "res\\Icons\\Client Type (16x16)\\Plus.ico"
+IDI_TARODPLUS           ICON                    "res\\Icons\\Client Type (16x16)\\Credit&Plus.ico"
+IDI_SETTINGS            ICON                    "res\\Icons\\Others\\Settings.ico"
+IDI_PREF_ADVANCED       ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Advanced.ico"
+IDI_PREF_CONNECTION     ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Connection.ico"
+IDI_PREF_FILES          ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Files.ico"
+IDI_PREF_FOLDERS        ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Folders.ico"
+IDI_PREF_GENERAL        ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_General.ico"
+IDI_PREF_IRC            ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_IRC.ico"
+IDI_PREF_NOTIFICATIONS  ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Notifications.ico"
+IDI_PREF_SERVER         ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Server.ico"
+IDI_PREF_STATISTICS     ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Statistics.ico"
+IDI_PREF_WEBSERVER      ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_WebServer.ico"
+IDI_BANNEDCOMPROT       ICON                    "res\\Icons\\Client Type (16x16)\\Banned&Extended.ico"
+IDI_BANNED              ICON                    "res\\Icons\\Client Type (16x16)\\Banned.ico"
+IDI_PREF_SORTING        ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Sorting.ico"
+IDI_FRIENDS1            ICON                    "res\\Icons\\Others\\friends1.ICO"
+IDI_FRIENDS2            ICON                    "res\\Icons\\Others\\friends2.ICO"
+IDI_FRIENDS3            ICON                    "res\\Icons\\Others\\friends3.ICO"
+IDI_PREF_WINDOW         ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Window.ico"
+IDI_FRIEND              ICON                    "res\\Icons\\Client Type (16x16)\\Friend.ico"
+IDI_CLOSE               ICON                    "res\\Icons\\Others\\close.ico"
+IDI_FRIENDCOMPROT       ICON                    "res\\Icons\\Client Type (16x16)\\Friend&Extended.ico"
+IDI_MLDONKEY            ICON                    "res\\Icons\\Client Type (16x16)\\MlDonkey.ico"
+IDI_MLDONKEYPLUS        ICON                    "res\\Icons\\Client Type (16x16)\\Credit&ML.ico"
+IDI_MLDONKEYFRIEND      ICON                    "res\\Icons\\Client Type (16x16)\\Friend&ML.ico"
+IDI_MLDONKEYBANNED      ICON                    "res\\Icons\\Client Type (16x16)\\Banned&ML.ico"
+IDI_PREF_MODPT          ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_ModPT.ico"
+IDI_PREF_PROXY          ICON                    "res\\Icons\\Preferences (16x16)\\Prefs_Proxy.ico"
+IDI_TRAY_UP             ICON                    "res\\Icons\\Others\\systray_up.ico"
+IDI_TRAY_CONNECT        ICON                    "res\\Icons\\Others\\systray_connect.ico"
+IDI_TRAY_DISCONNECT     ICON                    "res\\Icons\\Others\\systray_disconnect.ico"
+IDI_TRAY_DOWN           ICON                    "res\\Icons\\Others\\systray_down.ico"
+IDI_TRAY_EXIT           ICON                    "res\\Icons\\Others\\systray_exit.ico"
+IDI_TRAY_RESTORE        ICON                    "res\\Icons\\Others\\systray_restore.ico"
+IDI_TRAY_SPEED          ICON                    "res\\Icons\\Others\\systray_speed.ico"
+IDI_TRAY_TOMAX          ICON                    "res\\Icons\\Others\\systray_tomax.ico"
+IDI_TRAY_TOMIN          ICON                    "res\\Icons\\Others\\systray_tomin.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_OPTSPLITTER         CURSOR                  "COptionTree\\res\\Splitter.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// JPG
+//
+
+IDR_POPUP               JPG                     "res\\Graphics\\popup.jpg"
+IDR_LOGO                JPG                     "res\\Graphics\\logo.jpg"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_PPG_PROXY DLGINIT
+BEGIN
+    IDC_PROXYTYPE, 0x403, 9, 0
+0x6f4e, 0x5020, 0x6f72, 0x7978, "\000" 
+    IDC_PROXYTYPE, 0x403, 7, 0
+0x4f53, 0x4b43, 0x3453, "\000" 
+    IDC_PROXYTYPE, 0x403, 8, 0
+0x4f53, 0x4b43, 0x3453, 0x0061, 
+    IDC_PROXYTYPE, 0x403, 7, 0
+0x4f53, 0x4b43, 0x3553, "\000" 
+    IDC_PROXYTYPE, 0x403, 9, 0
+0x5448, 0x5054, 0x3120, 0x312e, "\000" 
+    0
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "// Languages - not to be edited in Visual Studio anymore, only manual edit\r\n"
+    "#include ""Languages/English.rc""\r\n"
+    "#include ""Languages/Catalan.rc""\r\n"
+    "#include ""Languages/Danish.rc""\r\n"
+    "#include ""Languages/Dutch.rc""\r\n"
+    "#include ""Languages/Finnish.rc""\r\n"
+    "#include ""Languages/French.rc""\r\n"
+    "#include ""Languages/German.rc""\r\n"
+    "#include ""Languages/Greek.rc""\r\n"
+    "#include ""Languages/Hebrew.rc""\r\n"
+    "#include ""Languages/Italian.rc""\r\n"
+    "#include ""Languages/Polish.rc""\r\n"
+    "#include ""Languages/Portuguese.rc""\r\n"
+    "#include ""Languages/Russian.rc""\r\n"
+    "#include ""Languages/Spanish.rc""\r\n"
+    "#include ""Languages/Korean.rc""\r\n"
+    "#include ""Languages/ChineseSimplified.rc""\r\n"
+    "#include ""Languages/ChineseTraditional.rc""\r\n"
+    "// End languages\r\n"
+    "#endif    // not APSTUDIO_INVOKED\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 2\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\emule.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 2
+#pragma code_page(1252)
+#include "res\emule.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
+@
+
+
+1.1
+log
+@Split
+@
+text
+@@
+

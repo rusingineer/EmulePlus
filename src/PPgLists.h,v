@@ -1,0 +1,336 @@
+head	1.9;
+access;
+symbols
+	PublicRelease_1_2e:1.9
+	Interim_Release_1-2e_RC1:1.9
+	PublicRelease_1_2d:1.9
+	Interim_Release_1-2d_RC1:1.9
+	Interim_Release_1-2d_beta1:1.9
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.6
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.6
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.6
+	Interim_Release_1n_RC2:1.6
+	Interim_Release_1n_RC1:1.6
+	Interim_Release_1n_beta2:1.6
+	Interim_Release_1n_beta1:1.6
+	PublicRelease_1m:1.4
+	Interim_Release_1m_beta1:1.4
+	PublicRelease_1l:1.4
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.4
+	Interim_Release_1l_beta1:1.3;
+locks; strict;
+comment	@ * @;
+
+
+1.9
+date	2007.12.30.06.07.27;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.10.31.18.25.08;	author fuxie-dk;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.07.27.06.21.20;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.07.05.23.23.42;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.07.04.14.42.16;	author katsyonak;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.05.13.14.28.06;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.05.04.14.45.23;	author dropf;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.05.03.19.55.52;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.25.02.33.04;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@Optimized dialog regarding required memory and speed;
+Suppressed compiler warnings; Formatting.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "ColorButton.h"
+
+class CPreferences;
+
+class CPPgLists : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgLists)
+
+public:
+	CPPgLists();
+	virtual ~CPPgLists();
+	void SetPrefs(CPreferences* in_prefs) {	m_pPrefs = in_prefs; }
+
+	enum { IDD = IDD_PPG_LISTS };
+
+	virtual BOOL OnInitDialog();
+	void Localize(void);
+	virtual BOOL OnApply();
+	afx_msg void OnSettingsChange()						{ SetModified(); }
+	afx_msg LONG OnColorButtonSelChange(UINT lParam, LONG wParam)	{ NOPRM(lParam); NOPRM(wParam); SetModified(); return TRUE; }
+
+protected:
+	CPreferences *m_pPrefs;
+
+	BOOL	m_bModified;
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+	virtual void DoDataExchange(CDataExchange* pDX);
+	void LoadSettings(void);
+	DECLARE_MESSAGE_MAP()
+
+protected:
+	CString	m_strSmartFilterMaxQR;
+	BOOL	m_bShowA4AF;
+	BOOL	m_bShowA4AFCount;
+	BOOL	m_bShowAvgDataRate;
+	BOOL	m_bShowFileTypeIcons;
+	BOOL	m_bShowTransferredOnCompleted;
+	BOOL	m_bShowDownloadPercentage;
+	BOOL	m_bShowPausedGray;
+	BOOL	m_bShowFileStatusIcons;
+	BOOL	m_bShowCountryFlag;
+	BOOL	m_bRoundSizes;
+	BOOL	m_bDisplayUploadParts;
+	BOOL	m_bSmartFilterShowSourcesOQ;
+	BOOL	m_bShowRatingIcons;
+
+private:
+	CColorButton m_FakeListColorButton;
+};
+@
+
+
+1.8
+log
+@Suppressed compiler warnings; Reduced H-file dependency [Aw3].
+@
+text
+@d18 1
+a18 1
+#include "colorbutton.h"
+a30 1
+// Dialog Data
+d32 7
+d51 1
+a51 6
+public:
+	virtual BOOL OnInitDialog();
+	void Localize(void);
+	virtual BOOL OnApply();
+	afx_msg void OnSettingsChange()						{ SetModified(); }
+	afx_msg LONG OnColorButtonSelChange(UINT lParam, LONG wParam)	{ NOPRM(lParam); NOPRM(wParam); SetModified(); return TRUE; }
+d53 15
+a67 16
+	BOOL showA4AF;
+	BOOL showA4AFCount;
+	BOOL showAvgDataRate;
+	BOOL showFileTypeIcons;
+	BOOL showTransferredOnCompleted;
+	BOOL showDownloadPercentage;
+	BOOL showPausedGray;
+	BOOL showFileStatusIcons;
+	BOOL showCountryFlag;
+	BOOL roundSizes;
+	BOOL displayUploadParts;
+	BOOL bSmartFilterShowSourcesOQ;
+	CString strSmartFilterMaxQR;
+	CString strSmartFilterDesc;
+	CString strFakeListColorLabel;
+	BOOL showRatingIcons;
+a68 15
+	CButton showA4AFCheck;
+	CButton showA4AFCountCheck;
+	CButton showAvgDataRateCheck;
+	CButton showFileTypeIconsCheck;
+	CButton showTransferredOnCompletedCheck;
+	CButton showDownloadPercentageCheck;
+	CButton showPausedGrayCheck;
+	CButton showFileStatusIconsCheck;
+	CButton showCountryFlagCheck;
+	CButton roundSizesCheck;
+	CButton displayUploadPartsCheck;
+	CButton SmartFilterShowSourcesOQCheck;
+	CEdit   SmartFilterMaxQREdit;
+	CStatic SmartFilterMaxQRLabel;
+	CButton showRatingIconsCheck;
+@
+
+
+1.7
+log
+@Suppressed level 4 warnings.
+@
+text
+@d1 15
+a17 2
+#include "preferences.h"
+#include "afxwin.h"
+d20 1
+a20 1
+// CPPgLists dialog
+d36 1
+a36 1
+	bool m_bModified;
+@
+
+
+1.6
+log
+@Some changes...
+@
+text
+@d37 1
+a37 1
+	afx_msg LONG OnColorButtonSelChange(UINT lParam, LONG wParam)	{ SetModified(); return TRUE; }
+@
+
+
+1.5
+log
+@Added clickable own rating icon in shared files list
+@
+text
+@d54 1
+a54 2
+	BOOL autoClearCompleted;
+	BOOL disableRatingIcons;
+d70 1
+a70 2
+	CButton autoClearCompletedCheck;
+	CButton disableRatingIconsCheck;
+@
+
+
+1.4
+log
+@Minor changes
+@
+text
+@d55 1
+d72 1
+@
+
+
+1.3
+log
+@new FakeCheck autoupdate system
+@
+text
+@d53 1
+@
+
+
+1.2
+log
+@New option to disable round of sizes for files and transfers
+@
+text
+@d5 1
+d37 1
+d70 1
+@
+
+
+1.1
+log
+@Preferences reorganization
+@
+text
+@d46 1
+d62 1
+@
+

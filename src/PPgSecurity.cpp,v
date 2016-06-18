@@ -1,0 +1,915 @@
+head	1.19;
+access;
+symbols
+	PublicRelease_1_2e:1.19
+	Interim_Release_1-2e_RC1:1.19
+	PublicRelease_1_2d:1.18
+	Interim_Release_1-2d_RC1:1.17
+	Interim_Release_1-2d_beta1:1.16
+	PublicRelease_1_2c:1.15
+	Interim_Release_1-2c_RC1:1.15
+	Interim_Release_1-2c_beta1:1.13
+	PublicRelease_1_2b:1.13
+	Interim_Release_1-2b_RC1:1.13
+	PublicRelease_1_2a:1.12
+	Interim_Release_1-2a_RC1:1.12
+	Interim_Release_1-2a_beta2:1.12
+	Interim_Release_1-2a_beta1:1.12
+	PublicRelease_1_2:1.12
+	Interim_Release_1-2_RC1:1.12
+	Interim_Release_1-2_beta1:1.12
+	PublicRelease_1_1g:1.11
+	Interim_Release_1-1g_RC3:1.11
+	Interim_Release_1-1g_RC2:1.11
+	Interim_Release_1-1g_RC1:1.11
+	Interim_Release_1-1g_beta2:1.10
+	Interim_Release_1-1g_beta1:1.10
+	PublicRelease_1_1f:1.10
+	Interim_Release_1-1f_RC1:1.10
+	PublicRelease_1_1e:1.9
+	Interim_Release_1-1e_RC2:1.9
+	Interim_Release_1-1e_RC1:1.9
+	Interim_Release_1-1e_beta1:1.9
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.9
+	Interim_Release_1-1b_RC1:1.9
+	PublicRelease_1_1a:1.9
+	Interim_Release_1-1a_RC2:1.9
+	Interim_Release_1-1a_RC1:1.9
+	Interim_Release_1-1a_beta2:1.9
+	Interim_Release_1-1a_beta1:1.9
+	PublicRelease_1_1:1.9
+	Interim_Release_1-1_beta1:1.9
+	PublicRelease_1o:1.9
+	Interim_Release_1o_RC1:1.9
+	Interim_Release_1o_beta1:1.8
+	PublicRelease_1n:1.8
+	Interim_Release_1n_RC2:1.8
+	Interim_Release_1n_RC1:1.8
+	Interim_Release_1n_beta2:1.8
+	Interim_Release_1n_beta1:1.7
+	PublicRelease_1m:1.7
+	Interim_Release_1m_beta1:1.7
+	PublicRelease_1l:1.6
+	Interim_Release_1l_RC3:1.6
+	Interim_Release_1l_RC2:1.6
+	Interim_Release_1l_RC1:1.6
+	Interim_Release_1l_beta2:1.6
+	Interim_Release_1l_beta1:1.5;
+locks; strict;
+comment	@// @;
+
+
+1.19
+date	2009.03.21.22.47.43;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2008.04.28.04.18.27;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2008.03.02.14.14.03;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2007.10.31.18.18.55;	author fuxie-dk;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2007.05.20.03.25.06;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2007.04.02.23.14.14;	author kush_eplus;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2006.11.05.18.20.54;	author eklmn;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.12.29.05.34.52;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.07.21.04.41.42;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.09.26.04.06.43;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.07.26.13.38.27;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.06.19.05.34.24;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.05.12.08.30.30;	author netwolf1;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.04.29.19.25.23;	author dropf;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.04.29.10.32.53;	author netwolf1;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.04.24.16.03.13;	author andrerib;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.04.23.14.02.51;	author dropf;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.20.23.49.42;	author dropf;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.19
+log
+@Reduced #include dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2007 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgSecurity.h"
+#include "AddBuddy.h"
+#include "IPFilter.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+IMPLEMENT_DYNAMIC(CPPgSecurity, CPropertyPage)
+
+BEGIN_MESSAGE_MAP(CPPgSecurity, CPropertyPage)
+	ON_EN_CHANGE(IDC_FILTERLEVEL_EDIT, OnSettingsChange)
+	ON_EN_CHANGE(IDC_IPFILTER_URL_EDIT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FILTERCLIENTS_CHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FILTERSERVERS_CHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FILESCAN_FILTER_CHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_DROP_FAKE_RX, OnSettingsChange)
+	ON_BN_CLICKED(IDC_IPFILTER_UPDATE_BUTTON, OnBnClickedIpfilterUpdateButton)
+	ON_WM_HSCROLL()
+	ON_BN_CLICKED(IDC_IPFILTER_UPDATEONSTART_CHECK, OnBnClickedIpfilterUpdateonstartCheck)
+	ON_BN_CLICKED(IDC_AV_SCANCOMPLETED_CHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_AV_ENABLED_CHECK, OnBnClickedAvEnable)
+	ON_BN_CLICKED(IDC_AV_BROWSE, OnBnClickedAvbrowse)
+	ON_EN_CHANGE(IDC_AV_PARAMS_EDIT, OnSettingsChange)
+	ON_EN_CHANGE(IDC_AV_PATH_EDIT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_ENABLEOBFUSCATION, OnObfuscatedRequestedChange)
+	ON_BN_CLICKED(IDC_ONLYOBFUSCATED, OnSettingsChange)
+	ON_BN_CLICKED(IDC_DISABLEOBFUSCATION, OnObfuscatedDisabledChange)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+CPPgSecurity::CPPgSecurity()
+	: CPropertyPage(CPPgSecurity::IDD)
+	, m_bFilterClientsCheck(FALSE)
+	, m_bFilterServersCheck(FALSE)
+	, m_bIPFilterUpdateOnStartCheck(FALSE)
+	, m_bFileScanFilterCheck(FALSE)
+	, m_bFakeDataFilterCheck(FALSE)
+	, m_bAVEnabledCheck(FALSE)
+	, m_bAVScanCompletedCheck(FALSE)
+{
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+CPPgSecurity::~CPPgSecurity()
+{
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_IPFILTER_URL_EDIT, m_strIPFilterURLEdit);
+	DDX_Check(pDX, IDC_FILTERCLIENTS_CHECK, m_bFilterClientsCheck);
+	DDX_Check(pDX, IDC_FILTERSERVERS_CHECK, m_bFilterServersCheck);
+	DDX_Check(pDX, IDC_IPFILTER_UPDATEONSTART_CHECK, m_bIPFilterUpdateOnStartCheck);
+	DDX_Check(pDX, IDC_FILESCAN_FILTER_CHECK, m_bFileScanFilterCheck);
+	DDX_Check(pDX, IDC_DROP_FAKE_RX, m_bFakeDataFilterCheck);
+	DDX_Control(pDX, IDC_FILTERLEVEL_SPIN, m_FilterLevelSpinCtrl);
+	DDX_Control(pDX, IDC_UPDATE_DAYS_SLIDER, m_UpdateDaysSlider);
+	DDX_Control(pDX, IDC_AV_BROWSE, m_AVBrowseButton);
+	DDX_Check(pDX, IDC_AV_ENABLED_CHECK, m_bAVEnabledCheck);
+	DDX_Check(pDX, IDC_AV_SCANCOMPLETED_CHECK, m_bAVScanCompletedCheck);
+	DDX_Text(pDX, IDC_AV_PATH_EDIT, m_strAVPath);
+	DDX_Control(pDX, IDC_AV_PATH_EDIT, m_strAVPathEdit);
+	DDX_Text(pDX, IDC_AV_PARAMS_EDIT, m_strAVParams);
+	DDX_Control(pDX, IDC_AV_PARAMS_EDIT, m_strAVParamsEdit);
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_IPFILTER_GROUPBOX, IDS_IPFILTER_GROUPBOX },
+		{ IDC_FILTERLEVEL_STATIC, IDS_FILTERLEVEL_STATIC },
+		{ IDC_IPFILTER_URL_STATIC, IDS_IPFILTER_URL_STATIC },
+		{ IDC_AV_GROUPBOX, IDS_AV_GROUPBOX },
+		{ IDC_AV_PATH_TEXT, IDS_AV_PATH },
+		{ IDC_AV_PARAMS_TEXT, IDS_AV_PARAMS },
+		{ IDC_AV_ENABLED_CHECK, IDS_ENABLED },
+		{ IDC_FILTERCLIENTS_CHECK, IDS_PW_FILTER },
+		{ IDC_FILTERSERVERS_CHECK, IDS_FILTERSERVERSBYIP },
+		{ IDC_IPFILTER_UPDATEONSTART_CHECK, IDS_IPFILTER_UPDATEONSTART_CHECK },
+		{ IDC_FILESCAN_FILTER_CHECK, IDS_SCANFILTER },
+		{ IDC_DROP_FAKE_RX, IDS_DROP_FAKE_RX },
+		{ IDC_AV_SCANCOMPLETED_CHECK, IDS_AV_SCAN_COMPLETED },
+		{ IDC_IPFILTER_UPDATE_BUTTON, IDS_SV_UPDATE },
+		{ IDC_OBFUSCATION_GROUPBOX, IDS_OBFUSCATION },
+		{ IDC_ENABLEOBFUSCATION, IDS_ENABLEOBFUSCATION },
+		{ IDC_ONLYOBFUSCATED, IDS_ONLYOBFUSCATED },
+		{ IDC_DISABLEOBFUSCATION, IDS_DISABLEOBFUSCATION }
+	};
+
+	if(::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		SetDaysCaption(m_UpdateDaysSlider.GetPos());
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+	}
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::LoadSettings(void)
+{
+	m_FilterLevelSpinCtrl.SetPos(m_pPrefs->GetIPFilterLevel());
+	m_UpdateDaysSlider.SetPos(m_pPrefs->GetIPFilterUpdateFrequency());
+	m_strIPFilterURLEdit			= m_pPrefs->GetIPFilterURL();
+	m_bFilterClientsCheck			= m_pPrefs->IsFilterBadIPs();
+	m_bFilterServersCheck			= m_pPrefs->IsFilterServersByIP();
+	m_bIPFilterUpdateOnStartCheck	= m_pPrefs->IsIPFilterUpdateOnStart();
+	m_bFileScanFilterCheck			= m_pPrefs->IsScanFilterEnabled();
+	m_bFakeDataFilterCheck			= m_pPrefs->IsFakeRxDataFilterEnabled();
+
+	GetDlgItem(IDC_UPDATE_DAYS_STATIC)->EnableWindow(m_bIPFilterUpdateOnStartCheck);
+	m_UpdateDaysSlider.EnableWindow(m_bIPFilterUpdateOnStartCheck);
+
+	m_bAVEnabledCheck				= m_pPrefs->IsAVEnabled();
+	m_bAVScanCompletedCheck			= m_pPrefs->IsAVScanCompleted();
+	m_strAVPath						= m_pPrefs->GetAVPath();
+	m_strAVParams					= m_pPrefs->GetAVParams();
+
+	GetDlgItem(IDC_ENABLEOBFUSCATION)->EnableWindow((m_pPrefs->IsClientCryptLayerSupported()) ? TRUE : FALSE);
+	GetDlgItem(IDC_ONLYOBFUSCATED)->EnableWindow((m_pPrefs->IsClientCryptLayerRequested()) ? TRUE : FALSE);
+	CheckDlgButton(IDC_DISABLEOBFUSCATION, (m_pPrefs->IsClientCryptLayerSupported()) ? BST_UNCHECKED : BST_CHECKED);
+	CheckDlgButton(IDC_ENABLEOBFUSCATION, (m_pPrefs->GetClientCryptLayerRequested()) ? BST_CHECKED : BST_UNCHECKED);
+	CheckDlgButton(IDC_ONLYOBFUSCATED, (m_pPrefs->GetClientCryptLayerRequired()) ? BST_CHECKED : BST_UNCHECKED);
+
+	UpdateData(FALSE);
+
+	OnBnClickedAvEnable();
+
+	SetModified(FALSE);
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPPgSecurity::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	m_FilterLevelSpinCtrl.SetRange(0, 255);
+	m_UpdateDaysSlider.SetRange(0, 6);
+
+	m_strAVPathEdit.SetLimitText(MAX_PATH);
+	m_strAVParamsEdit.SetLimitText(256);
+
+	AddBuddy(m_strAVPathEdit.m_hWnd, m_AVBrowseButton.m_hWnd, BDS_RIGHT);
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPPgSecurity::OnApply()
+{
+	if(m_bModified)
+	{
+		uint32	dwVal;
+
+		UpdateData();
+
+		m_pPrefs->SetIPFilterLevel(((dwVal = m_FilterLevelSpinCtrl.GetPos()) > 255) ? 255 : dwVal);
+		g_App.m_pIPFilter->ResetCachedFilteredIP();
+		m_pPrefs->SetIPFilterUpdateFrequency(m_UpdateDaysSlider.GetPos());
+		m_pPrefs->SetIPFilterURL(m_strIPFilterURLEdit);
+		m_pPrefs->SetFilterBadIPs(B2b(m_bFilterClientsCheck));
+		m_pPrefs->SetFilterServersByIP(B2b(m_bFilterServersCheck));
+		m_pPrefs->SetIPFilterUpdateOnStart(B2b(m_bIPFilterUpdateOnStartCheck));
+		m_pPrefs->SetScanFilterEnabled(B2b(m_bFileScanFilterCheck));
+		m_pPrefs->SetFakeRxDataFilterEnabled(B2b(m_bFakeDataFilterCheck));
+
+		m_pPrefs->SetAVEnabled(B2b(m_bAVEnabledCheck));
+		m_pPrefs->SetAVScanCompleted(B2b(m_bAVScanCompletedCheck));
+		m_pPrefs->SetAVPath(m_strAVPath);
+		m_pPrefs->SetAVParams(m_strAVParams);
+
+#ifdef _CRYPT_READY
+		m_pPrefs->SetClientCryptLayerSupported(IsDlgButtonChecked(IDC_DISABLEOBFUSCATION) == BST_UNCHECKED);
+		m_pPrefs->SetClientCryptLayerRequested(IsDlgButtonChecked(IDC_ENABLEOBFUSCATION) != BST_UNCHECKED);
+		m_pPrefs->SetClientCryptLayerRequired(IsDlgButtonChecked(IDC_ONLYOBFUSCATED) != BST_UNCHECKED);
+#endif
+
+		SetModified(FALSE);
+		LoadSettings();
+	}
+
+	return CPropertyPage::OnApply();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::OnBnClickedIpfilterUpdateButton()
+{
+	UpdateData(TRUE);
+
+	m_pPrefs->SetIPFilterURL(m_strIPFilterURLEdit);
+
+	if (g_App.m_pIPFilter->DownloadIPFilter())
+	{
+		m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm(NULL))));
+		GetDlgItem(IDC_IPFILTER_UPDATE_BUTTON)->EnableWindow(FALSE);
+	}
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar)
+{
+	if (pScrollBar == reinterpret_cast<CScrollBar*>(&m_UpdateDaysSlider))
+	{
+		int iSliderPos = m_UpdateDaysSlider.GetPos();
+
+		SetDaysCaption(iSliderPos);
+		SetModified();
+	}
+
+	CPropertyPage::OnHScroll(nSBCode, nPos, pScrollBar);
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::SetDaysCaption(int iSliderPos)
+{
+	CString strRes;
+
+	switch(iSliderPos)
+	{
+		case 0:
+			GetResString(&strRes, IDS_IPFILTER_UPDATE_DAILY);
+			break;
+		case 6:
+			GetResString(&strRes, IDS_IPFILTER_UPDATE_WEEKLY);
+			break;
+		default:
+			strRes.Format(GetResString(IDS_IPFILTER_UPDATE_DAYS), iSliderPos + 1);
+			break;
+	}
+	SetDlgItemText(IDC_UPDATE_DAYS_STATIC, strRes);
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::OnBnClickedIpfilterUpdateonstartCheck()
+{
+	UpdateData();
+	GetDlgItem(IDC_UPDATE_DAYS_STATIC)->EnableWindow(m_bIPFilterUpdateOnStartCheck);
+	m_UpdateDaysSlider.EnableWindow(m_bIPFilterUpdateOnStartCheck);
+	SetModified();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPPgSecurity::OnSetActive()
+{
+	CTime LastUpdate(static_cast<time_t>(m_pPrefs->GetLastIPFilterUpdate()));
+	time_t tLastUpdate = mktime(LastUpdate.GetLocalTm(NULL));
+	time_t tNow = mktime(CTime::GetCurrentTime().GetLocalTm(NULL));
+
+//	Disables Update button for 24h
+	GetDlgItem(IDC_IPFILTER_UPDATE_BUTTON)->EnableWindow(
+		(difftime(tNow, tLastUpdate) < (24 * 60 * 60)) ? FALSE : TRUE);
+
+	return CPropertyPage::OnSetActive();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::OnBnClickedAvbrowse()
+{
+	UpdateData(TRUE);
+	if (DialogBrowseFile(m_strAVPath, GetResString(IDS_AV_PATH) + _T(" (*.exe)|*.exe||"), NULL, OFN_FILEMUSTEXIST))
+	{
+		UpdateData(FALSE);
+		SetModified();
+	}
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::OnBnClickedAvEnable()
+{
+	UpdateData(TRUE);
+
+	m_strAVPathEdit.EnableWindow(m_bAVEnabledCheck);
+	m_strAVParamsEdit.EnableWindow(m_bAVEnabledCheck);
+	GetDlgItem(IDC_AV_SCANCOMPLETED_CHECK)->EnableWindow(m_bAVEnabledCheck);
+	m_AVBrowseButton.EnableWindow(m_bAVEnabledCheck);
+
+	SetModified();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::OnObfuscatedDisabledChange()
+{
+	BOOL	bVal = (IsDlgButtonChecked(IDC_DISABLEOBFUSCATION) == BST_UNCHECKED) ? TRUE : FALSE;
+
+	GetDlgItem(IDC_ENABLEOBFUSCATION)->EnableWindow(bVal);
+	if (bVal)
+		OnObfuscatedRequestedChange();
+	else
+		GetDlgItem(IDC_ONLYOBFUSCATED)->EnableWindow(FALSE);
+	SetModified();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgSecurity::OnObfuscatedRequestedChange()
+{
+	GetDlgItem(IDC_ONLYOBFUSCATED)->EnableWindow((IsDlgButtonChecked(IDC_ENABLEOBFUSCATION) == BST_UNCHECKED) ? FALSE : TRUE);
+	SetModified();
+}
+@
+
+
+1.18
+log
+@Fixed applying of some preferences settings when several are altered at once {Vladimir (SV)} (directory browse was undoing other changes).
+@
+text
+@d22 1
+@
+
+
+1.17
+log
+@Selected file for reading should exist - let open dialog verify that (skin, WS templates, notify wav, antivirus exe).
+@
+text
+@d281 1
+@
+
+
+1.16
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@d281 1
+a281 1
+	if (DialogBrowseFile(m_strAVPath, GetResString(IDS_AV_PATH) + _T(" (*.exe)|*.exe||")))
+@
+
+
+1.15
+log
+@Optimized processing of controls;
+Encryption preparations (settings deliberately can't be saved through GUI at the moment).
+@
+text
+@d1 2
+a2 1
+// PPgSecurity.cpp
+d4 13
+d119 1
+a119 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_auResTbl); i++)
+d189 5
+a193 5
+		m_pPrefs->SetFilterBadIPs(m_bFilterClientsCheck);
+		m_pPrefs->SetFilterServersByIP(m_bFilterServersCheck);
+		m_pPrefs->SetIPFilterUpdateOnStart(m_bIPFilterUpdateOnStartCheck);
+		m_pPrefs->SetScanFilterEnabled(m_bFileScanFilterCheck);
+		m_pPrefs->SetFakeRxDataFilterEnabled(m_bFakeDataFilterCheck);
+d195 2
+a196 2
+		m_pPrefs->SetAVEnabled(m_bAVEnabledCheck);
+		m_pPrefs->SetAVScanCompleted(m_bAVScanCompletedCheck);
+@
+
+
+1.14
+log
+@Removed unneeded CString initializations.
+@
+text
+@d33 3
+a57 3
+	DDX_Text(pDX, IDC_IPFILTER_GROUPBOX, m_strIPFilterGroupBox);
+	DDX_Text(pDX, IDC_FILTERLEVEL_STATIC, m_strFilterLevelStatic);
+	DDX_Text(pDX, IDC_IPFILTER_URL_STATIC, m_strIPFilterURLStatic);
+a61 3
+	DDX_Control(pDX, IDC_FILTERCLIENTS_CHECK, m_FilterClientsCheck);
+	DDX_Control(pDX, IDC_FILTERSERVERS_CHECK, m_FilterServersCheck);
+	DDX_Control(pDX, IDC_IPFILTER_UPDATEONSTART_CHECK, m_IPFilterUpdateOnStartCheck);
+a63 3
+	DDX_Control(pDX, IDC_FILESCAN_FILTER_CHECK, m_FileScanFilterCheck);
+	DDX_Control(pDX, IDC_DROP_FAKE_RX, m_FakeDataFilterCheck);
+	DDX_Control(pDX, IDC_IPFILTER_UPDATE_BUTTON, m_IPFilterUpdateButton);
+a65 5
+	DDX_Text(pDX, IDC_UPDATE_DAYS_STATIC, m_strUpdateDaysStatic);
+	DDX_Control(pDX, IDC_UPDATE_DAYS_STATIC, m_UpdateDaysStatic);
+	DDX_Text(pDX, IDC_AV_GROUPBOX, m_strAVGroupBox);
+	DDX_Text(pDX, IDC_AV_PATH_TEXT, m_strAVPathStatic);
+	DDX_Text(pDX, IDC_AV_PARAMS_TEXT, m_strAVParamsStatic);
+a68 2
+	DDX_Control(pDX, IDC_AV_SCANCOMPLETED_CHECK, m_AVScanCompletedCheck);
+	DDX_Control(pDX, IDC_AV_ENABLED_CHECK, m_AVEnabledCheck);
+d77 22
+d101 1
+a101 9
+		GetResString(&m_strIPFilterGroupBox, IDS_IPFILTER_GROUPBOX);
+		GetResString(&m_strFilterLevelStatic, IDS_FILTERLEVEL_STATIC);
+		GetResString(&m_strIPFilterURLStatic, IDS_IPFILTER_URL_STATIC);
+		m_FilterClientsCheck.SetWindowText(GetResString(IDS_PW_FILTER));
+		m_FilterServersCheck.SetWindowText(GetResString(IDS_FILTERSERVERSBYIP));
+		m_IPFilterUpdateOnStartCheck.SetWindowText(GetResString(IDS_IPFILTER_UPDATEONSTART_CHECK));
+		m_FileScanFilterCheck.SetWindowText(GetResString(IDS_SCANFILTER));
+		m_FakeDataFilterCheck.SetWindowText(GetResString(IDS_DROP_FAKE_RX));
+		m_IPFilterUpdateButton.SetWindowText(GetResString(IDS_SV_UPDATE));
+d105 5
+a109 7
+		GetResString(&m_strAVGroupBox, IDS_AV_GROUPBOX);
+		GetResString(&m_strAVPathStatic, IDS_AV_PATH);
+		GetResString(&m_strAVParamsStatic, IDS_AV_PARAMS);
+		m_AVEnabledCheck.SetWindowText(GetResString(IDS_ENABLED));
+		m_AVScanCompletedCheck.SetWindowText(GetResString(IDS_AV_SCAN_COMPLETED));
+	
+		UpdateData(FALSE);
+d124 1
+a124 1
+	m_UpdateDaysStatic.EnableWindow(m_bIPFilterUpdateOnStartCheck);
+d132 6
+d149 1
+a149 1
+	m_FilterLevelSpinCtrl.SetRange(0,255);
+d186 6
+d208 1
+a208 1
+		m_IPFilterUpdateButton.EnableWindow(FALSE);
+d227 2
+d232 1
+a232 2
+		{
+			GetResString(&m_strUpdateDaysStatic, IDS_IPFILTER_UPDATE_DAILY);
+a233 1
+		}
+d235 1
+a235 2
+		{
+			GetResString(&m_strUpdateDaysStatic, IDS_IPFILTER_UPDATE_WEEKLY);
+a236 1
+		}
+d238 1
+a238 2
+		{
+			m_strUpdateDaysStatic.Format(GetResString(IDS_IPFILTER_UPDATE_DAYS), iSliderPos + 1);
+a239 1
+		}
+d241 1
+a241 2
+
+	UpdateData(FALSE);
+d247 1
+a247 1
+	m_UpdateDaysStatic.EnableWindow(m_bIPFilterUpdateOnStartCheck);
+a257 1
+//
+d259 2
+a260 8
+	if (difftime(tNow, tLastUpdate) < (24 * 60 * 60))
+	{
+		m_IPFilterUpdateButton.EnableWindow(FALSE);
+	}
+	else
+	{
+		m_IPFilterUpdateButton.EnableWindow();
+	}
+d267 1
+a267 1
+	if(DialogBrowseFile(m_strAVPath, (GetResString(IDS_AV_PATH) + _T(" (*.exe)|*.exe||"))))
+d280 1
+a280 1
+	m_AVScanCompletedCheck.EnableWindow(m_bAVEnabledCheck);
+d286 17
+@
+
+
+1.13
+log
+@improved filtering of incomming connections (less traffic & CPU load)
+@
+text
+@a37 4
+	, m_strIPFilterGroupBox(_T(""))
+	, m_strFilterLevelStatic(_T(""))
+	, m_strIPFilterURLStatic(_T(""))
+	, m_strIPFilterURLEdit(_T(""))
+a42 6
+	, m_strUpdateDaysStatic(_T(""))
+	, m_strAVGroupBox(_T(""))
+	, m_strAVParamsStatic(_T(""))
+	, m_strAVPathStatic(_T(""))
+	, m_strAVParams(_T(""))
+	, m_strAVPath(_T(""))
+@
+
+
+1.12
+log
+@Compatibility with VC2005 [brengarne].
+@
+text
+@d177 1
+@
+
+
+1.11
+log
+@renamed 3 variables
+@
+text
+@d205 1
+a205 1
+		m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm())));
+d258 2
+a259 2
+	time_t tLastUpdate = mktime(LastUpdate.GetLocalTm());
+	time_t tNow = mktime(CTime::GetCurrentTime().GetLocalTm());
+@
+
+
+1.10
+log
+@Minor optimization.
+@
+text
+@d203 1
+a203 1
+	if (g_eMuleApp.m_pIPFilter->DownloadIPFilter())
+@
+
+
+1.9
+log
+@Optional filtering of small fake RX packets.
+@
+text
+@d172 2
+d176 1
+a176 8
+		if (m_FilterLevelSpinCtrl.GetPos() > 255)
+		{
+			m_pPrefs->SetIPFilterLevel(255);
+		}
+		else
+		{
+			m_pPrefs->SetIPFilterLevel(m_FilterLevelSpinCtrl.GetPos());
+		}
+@
+
+
+1.8
+log
+@Hope this is the last time I change that code. :P
+Don't know why we have this case but I think it should be handled as a known source but not in download list.
+@
+text
+@d24 1
+d46 1
+d76 1
+d78 1
+d109 1
+d133 1
+d188 1
+@
+
+
+1.7
+log
+@Improved preferences localization.
+@
+text
+@d152 1
+a152 1
+	m_strAVParamsEdit.SetLimitText(30);
+@
+
+
+1.6
+log
+@Support for external antivirus program + removed SUI preferences + minor changes
+@
+text
+@d5 1
+a5 1
+#include "eMule.h"
+d98 3
+a100 3
+		m_strIPFilterGroupBox	= GetResString(IDS_IPFILTER_GROUPBOX);
+		m_strFilterLevelStatic	= GetResString(IDS_FILTERLEVEL_STATIC);
+		m_strIPFilterURLStatic	= GetResString(IDS_IPFILTER_URL_STATIC);
+d109 3
+a111 3
+		m_strAVGroupBox			= GetResString(IDS_AV_GROUPBOX);
+		m_strAVPathStatic		= GetResString(IDS_AV_PATH);
+		m_strAVParamsStatic		= GetResString(IDS_AV_PARAMS);
+d227 1
+a227 1
+			m_strUpdateDaysStatic = GetResString(IDS_IPFILTER_UPDATE_DAILY);
+d232 1
+a232 1
+			m_strUpdateDaysStatic = GetResString(IDS_IPFILTER_UPDATE_WEEKLY);
+@
+
+
+1.5
+log
+@Corrected wrong time period displayed in the Security page for autoupdate
+@
+text
+@d7 1
+d27 5
+d46 7
+d80 12
+d109 6
+d132 5
+d139 2
+d151 5
+d183 5
+d273 20
+@
+
+
+1.4
+log
+@update URL from GUI before performing file update
+@
+text
+@d189 1
+a189 1
+			m_strUpdateDaysStatic.Format(GetResString(IDS_IPFILTER_UPDATE_DAYS), iSliderPos);
+@
+
+
+1.3
+log
+@renamed IDS_IPFILTER_UPDATE_DAYLY to IDS_IPFILTER_UPDATE_DAILY
+@
+text
+@d149 4
+@
+
+
+1.2
+log
+@comments formatting / Update button for IPFilter is now disabled for 24h after a successfull update.
+@
+text
+@d175 1
+a175 1
+			m_strUpdateDaysStatic = GetResString(IDS_IPFILTER_UPDATE_DAYLY);
+@
+
+
+1.1
+log
+@added auto-update for ipfilter
+@
+text
+@d1 1
+a1 1
+// PPgSecurity.cpp : fichier d'implémentation
+d14 13
+a26 1
+// Boîte de dialogue CPPgSecurity
+d28 1
+a28 1
+IMPLEMENT_DYNAMIC(CPPgSecurity, CPropertyPage)
+d42 1
+a42 1
+
+d46 1
+a46 1
+
+d68 1
+a68 16
+
+
+BEGIN_MESSAGE_MAP(CPPgSecurity, CPropertyPage)
+	ON_EN_CHANGE(IDC_FILTERLEVEL_EDIT, OnSettingsChange)
+	ON_EN_CHANGE(IDC_IPFILTER_URL_EDIT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FILTERCLIENTS_CHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FILTERSERVERS_CHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FILESCAN_FILTER_CHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_IPFILTER_UPDATE_BUTTON, OnBnClickedIpfilterUpdateButton)
+	ON_WM_HSCROLL()
+	ON_BN_CLICKED(IDC_IPFILTER_UPDATEONSTART_CHECK, OnBnClickedIpfilterUpdateonstartCheck)
+END_MESSAGE_MAP()
+
+
+// Gestionnaires de messages CPPgSecurity
+
+d87 1
+a87 1
+
+d105 1
+a105 1
+
+d111 1
+a111 1
+	m_UpdateDaysSlider.SetRange(0, 7);
+d118 1
+a118 1
+
+a124 2
+		//int iFilterLevel = _tstoi(m_strFilterLevelEdit);
+
+d146 1
+a146 1
+
+d152 1
+d155 1
+a155 1
+
+d168 1
+a168 1
+
+a174 6
+			m_strUpdateDaysStatic = GetResString(IDS_IPFILTER_UPDATE_AT_STARTUP);
+			break;
+		}
+
+		case 1:
+		{
+d178 1
+a178 2
+
+		case 7:
+a182 1
+
+d192 1
+a192 1
+
+d200 22
+@
+

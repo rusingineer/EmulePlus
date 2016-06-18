@@ -1,0 +1,714 @@
+head	1.5;
+access;
+symbols
+	PublicRelease_1_2e:1.5
+	Interim_Release_1-2e_RC1:1.5
+	PublicRelease_1_2d:1.5
+	Interim_Release_1-2d_RC1:1.5
+	Interim_Release_1-2d_beta1:1.4
+	PublicRelease_1_2c:1.4
+	Interim_Release_1-2c_RC1:1.4
+	Interim_Release_1-2c_beta1:1.4
+	PublicRelease_1_2b:1.4
+	Interim_Release_1-2b_RC1:1.4
+	PublicRelease_1_2a:1.4
+	Interim_Release_1-2a_RC1:1.4
+	Interim_Release_1-2a_beta2:1.4
+	Interim_Release_1-2a_beta1:1.4
+	PublicRelease_1_2:1.4
+	Interim_Release_1-2_RC1:1.4
+	Interim_Release_1-2_beta1:1.4
+	PublicRelease_1_1g:1.4
+	Interim_Release_1-1g_RC3:1.4
+	Interim_Release_1-1g_RC2:1.4
+	Interim_Release_1-1g_RC1:1.4
+	Interim_Release_1-1g_beta2:1.4
+	Interim_Release_1-1g_beta1:1.4
+	PublicRelease_1_1f:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4
+	PublicRelease_1_1d:1.4
+	Interim_Release_1-1d_RC1:1.4
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.4
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.4
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.4
+	Interim_Release_1n_RC2:1.4
+	Interim_Release_1n_RC1:1.4
+	Interim_Release_1n_beta2:1.4
+	Interim_Release_1n_beta1:1.4
+	PublicRelease_1m:1.4
+	Interim_Release_1m_beta1:1.4
+	PublicRelease_1l:1.4
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.4
+	Interim_Release_1l_beta1:1.4
+	PublicRelease_1k:1.4
+	Interim_Release_1k_RC4:1.4
+	Interim_1k_RC3:1.4
+	Interim_1k_RC2:1.4
+	Interim_Release_1k_RC1:1.4
+	Interim_Release_1k_beta5:1.4
+	Intrerim_Release_1k_beta4:1.4
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3
+	Interim_Release_1h_beta2:1.3
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3
+	PublicRelease_1g:1.3
+	Interim_Release_1g_RC6_Final:1.3
+	Interim_Release_1g_RC6:1.3
+	Interim_Release_1g_RC5:1.3
+	Interim_Release_1g_RC4:1.3
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.2
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.14
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.12
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.10
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.8
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.5
+date	2008.03.10.02.22.53;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.01.15.08.35;	author eklmn;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.19.07.47.47;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.26.23.10.22;	author pooz;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.09;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Corrected Unicode issue in not currently used code;
+Keep sample text string as constant not as a class variable;
+Removed meaningless set/restore brush around FillRect;
+Suppressed compiler warnings; Formatting.
+@
+text
+@/*********************************************************************
+
+   Copyright (C) 2002 Smaller Animals Software, Inc.
+
+   This software is provided 'as-is', without any express or implied
+   warranty.  In no event will the authors be held liable for any damages
+   arising from the use of this software.
+
+   Permission is granted to anyone to use this software for any purpose,
+   including commercial applications, and to alter it and redistribute it
+   freely, subject to the following restrictions:
+
+   1. The origin of this software must not be misrepresented; you must not
+     claim that you wrote the original software. If you use this software
+     in a product, an acknowledgment in the product documentation would be
+     appreciated but is not required.
+
+   2. Altered source versions must be plainly marked as such, and must not be
+     misrepresented as being the original software.
+
+   3. This notice may not be removed or altered from any source distribution.
+
+   http://www.smalleranimals.com
+   smallest@@smalleranimals.com
+
+   --------
+
+   This code is based, in part, on:
+   "A WTL-based Font preview combo box", Ramon Smits
+   http://www.codeproject.com/wtl/rsprevfontcmb.asp
+
+**********************************************************************/
+
+#include "stdafx.h"
+#include "resource.h"
+#include "FontPreviewCombo.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+static CFontPreviewCombo *m_pComboBox = 0;
+#define SPACING      10
+#define GLYPH_WIDTH  15
+
+// set the "sample" text string, defaults to "abcdeABCDE"
+#define FONT_PREVIEW_SAMPLE		_T("abcdeABCDE")
+
+/////////////////////////////////////////////////////////////////////////////
+// CFontPreviewCombo
+
+CFontPreviewCombo::CFontPreviewCombo()
+{
+	m_iFontHeight = 16;
+	m_iMaxNameWidth = 0;
+	m_iMaxSampleWidth = 0;
+	m_style = NAME_THEN_SAMPLE;
+	m_clrSample = GetSysColor(COLOR_WINDOWTEXT);
+	m_clrSample = RGB(60,0,0);
+	m_img.Create(IDB_TTF_BMP, GLYPH_WIDTH, 1, RGB(255,255,255));
+}
+
+CFontPreviewCombo::~CFontPreviewCombo()
+{
+}
+
+
+BEGIN_MESSAGE_MAP(CFontPreviewCombo, CComboBox)
+	ON_WM_MEASUREITEM()
+	ON_CONTROL_REFLECT(CBN_DROPDOWN, OnDropdown)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFontPreviewCombo message handlers
+
+
+static BOOL CALLBACK EnumFontProc (LPLOGFONT lplf, LPTEXTMETRIC lptm, DWORD dwType, LPARAM lpData)	
+{
+	NOPRM(lptm);
+	CFontPreviewCombo *pThis = reinterpret_cast<CFontPreviewCombo*>(lpData);
+	int index = pThis->AddString(lplf->lfFaceName);
+	ASSERT(index!=-1);
+
+	pThis->SetItemData(index, dwType);
+
+	return TRUE;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+void CFontPreviewCombo::Init()
+{
+	CClientDC dc(this);
+
+	EnumFonts (dc, 0,(FONTENUMPROC) EnumFontProc,(LPARAM)this); //Enumerate font
+
+	SetCurSel(0);
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+void CFontPreviewCombo::DrawItem(LPDRAWITEMSTRUCT lpDIS)
+{
+	ASSERT(lpDIS->CtlType == ODT_COMBOBOX);
+
+	CRect rc = lpDIS->rcItem;
+
+	CDC dc;
+	dc.Attach(lpDIS->hDC);
+
+	if (lpDIS->itemState & ODS_FOCUS)
+		dc.DrawFocusRect(&rc);
+
+	if (lpDIS->itemID == -1)
+		return;
+
+	int nIndexDC = dc.SaveDC();
+	CBrush br;
+	COLORREF clrSample = m_clrSample;
+
+	if (lpDIS->itemState & ODS_SELECTED)
+	{
+		br.CreateSolidBrush(::GetSysColor(COLOR_HIGHLIGHT));
+		dc.SetTextColor(::GetSysColor(COLOR_HIGHLIGHTTEXT));
+		clrSample = ::GetSysColor(COLOR_HIGHLIGHTTEXT);
+	}
+	else
+	{
+		br.CreateSolidBrush(dc.GetBkColor());
+	}
+
+	dc.SetBkMode(TRANSPARENT);
+	dc.FillRect(&rc, &br);
+
+	// which one are we working on?
+	CString csCurFontName;
+	GetLBText(lpDIS->itemID, csCurFontName);
+
+	// draw the cute TTF glyph
+	DWORD dwData = GetItemData(lpDIS->itemID);
+	if (dwData & TRUETYPE_FONTTYPE)
+	{
+		m_img.Draw(&dc, 0, CPoint(rc.left+5, rc.top+4), ILD_TRANSPARENT);
+	}
+	rc.left += GLYPH_WIDTH;
+
+	int iOffsetX = SPACING;
+
+	// i feel bad creating this font on each draw. but i can't think of a better way (other than creating ALL fonts at once and saving them - yuck
+	CFont cf;
+	if (m_style != NAME_GUI_FONT)
+	{
+		if (!cf.CreateFont(m_iFontHeight,0,0,0,FW_NORMAL,FALSE, FALSE, FALSE,DEFAULT_CHARSET ,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,ANTIALIASED_QUALITY,DEFAULT_PITCH, csCurFontName))
+		{
+			ASSERT(0);
+			return;
+		}
+	}
+
+	// draw the text
+	CSize sz;
+	int iPosY = 0;
+	HFONT hf = NULL;
+	switch (m_style)
+	{
+	case NAME_GUI_FONT:
+		{
+			// font name in GUI font
+			sz = dc.GetTextExtent(csCurFontName);
+			iPosY = (rc.Height() - sz.cy) / 2;
+			dc.TextOut(rc.left+iOffsetX, rc.top + iPosY,csCurFontName);
+		}
+		break;
+	case NAME_ONLY:
+		{
+			// font name in current font
+			hf = (HFONT)dc.SelectObject(cf);
+			sz = dc.GetTextExtent(csCurFontName);
+			iPosY = (rc.Height() - sz.cy) / 2;
+			dc.TextOut(rc.left+iOffsetX, rc.top + iPosY,csCurFontName);
+			dc.SelectObject(hf);
+		}
+		break;
+	case NAME_THEN_SAMPLE:
+		{
+			// font name in GUI font
+			sz = dc.GetTextExtent(csCurFontName);
+			iPosY = (rc.Height() - sz.cy) / 2;
+			dc.TextOut(rc.left+iOffsetX, rc.top + iPosY, csCurFontName);
+
+			// condense, for edit
+			int iSep = m_iMaxNameWidth;
+			if ((lpDIS->itemState & ODS_COMBOBOXEDIT) == ODS_COMBOBOXEDIT)
+			{
+				iSep = sz.cx;
+			}
+
+			// sample in current font
+			hf = (HFONT)dc.SelectObject(cf);
+			sz = dc.GetTextExtent(FONT_PREVIEW_SAMPLE, CSTRLEN(FONT_PREVIEW_SAMPLE));
+			iPosY = (rc.Height() - sz.cy) / 2;
+			COLORREF clr = dc.SetTextColor(clrSample);
+			dc.TextOut(rc.left + iOffsetX + iSep + iOffsetX, rc.top + iPosY, FONT_PREVIEW_SAMPLE, CSTRLEN(FONT_PREVIEW_SAMPLE));
+			dc.SetTextColor(clr);
+			dc.SelectObject(hf);
+		}
+		break;
+	case SAMPLE_THEN_NAME:
+		{
+			// sample in current font
+			hf = (HFONT)dc.SelectObject(cf);
+			sz = dc.GetTextExtent(FONT_PREVIEW_SAMPLE, CSTRLEN(FONT_PREVIEW_SAMPLE));
+			iPosY = (rc.Height() - sz.cy) / 2;
+			COLORREF clr = dc.SetTextColor(clrSample);
+			dc.TextOut(rc.left+iOffsetX, rc.top + iPosY, FONT_PREVIEW_SAMPLE, CSTRLEN(FONT_PREVIEW_SAMPLE));
+			dc.SetTextColor(clr);
+			dc.SelectObject(hf);
+
+			// condense, for edit
+			int iSep = m_iMaxSampleWidth;
+			if ((lpDIS->itemState & ODS_COMBOBOXEDIT) == ODS_COMBOBOXEDIT)
+			{
+				iSep = sz.cx;
+			}
+
+			// font name in GUI font
+			sz = dc.GetTextExtent(csCurFontName);
+			iPosY = (rc.Height() - sz.cy) / 2;
+			dc.TextOut(rc.left + iOffsetX + iSep + iOffsetX, rc.top + iPosY, csCurFontName);
+		}
+		break;
+	case SAMPLE_ONLY:
+		{
+			// sample in current font
+			hf = (HFONT)dc.SelectObject(cf);
+			sz = dc.GetTextExtent(FONT_PREVIEW_SAMPLE, CSTRLEN(FONT_PREVIEW_SAMPLE));
+			iPosY = (rc.Height() - sz.cy) / 2;
+			dc.TextOut(rc.left+iOffsetX, rc.top + iPosY, FONT_PREVIEW_SAMPLE, CSTRLEN(FONT_PREVIEW_SAMPLE));
+			dc.SelectObject(hf);
+		}
+		break;
+	}
+
+	dc.RestoreDC(nIndexDC);
+	dc.Detach();
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+void CFontPreviewCombo::MeasureItem(LPMEASUREITEMSTRUCT lpMeasureItemStruct) 
+{
+	// ok, how big is this ?
+
+	CString csFontName;
+	GetLBText(lpMeasureItemStruct->itemID, csFontName);
+
+	CFont cf;
+	if (!cf.CreateFont(m_iFontHeight,0,0,0,FW_NORMAL,FALSE, FALSE, FALSE,DEFAULT_CHARSET ,OUT_DEFAULT_PRECIS,CLIP_DEFAULT_PRECIS,ANTIALIASED_QUALITY,DEFAULT_PITCH, csFontName))
+	{
+		ASSERT(0);
+		return;
+	}
+
+	LOGFONT lf;
+	cf.GetLogFont(&lf);
+
+	if ((m_style == NAME_ONLY) || (m_style == SAMPLE_ONLY) || (m_style == NAME_GUI_FONT))
+	{
+		m_iMaxNameWidth = 0;
+		m_iMaxSampleWidth = 0;
+	}
+	else
+	{
+		CClientDC dc(this);
+
+		// measure font name in GUI font
+		HFONT hFont = ((HFONT)GetStockObject( DEFAULT_GUI_FONT ));
+		HFONT hf = (HFONT)dc.SelectObject(hFont);
+		CSize sz = dc.GetTextExtent(csFontName);
+		m_iMaxNameWidth = max(m_iMaxNameWidth, sz.cx);
+		dc.SelectObject(hf);
+
+		// measure sample in cur font
+		hf = (HFONT)dc.SelectObject(cf);
+		if (hf)
+		{
+			sz = dc.GetTextExtent(FONT_PREVIEW_SAMPLE, CSTRLEN(FONT_PREVIEW_SAMPLE));
+			m_iMaxSampleWidth = max(m_iMaxSampleWidth, sz.cx);
+			dc.SelectObject(hf);
+		}
+	}
+
+	lpMeasureItemStruct->itemHeight = lf.lfHeight + 4;
+}
+
+/////////////////////////////////////////////////////////////////////////////
+
+void CFontPreviewCombo::OnDropdown()
+{
+	m_pComboBox = this;
+
+	int nScrollWidth = ::GetSystemMetrics(SM_CXVSCROLL);
+	int nWidth = nScrollWidth;
+	nWidth += GLYPH_WIDTH;
+
+	switch (m_style)
+	{
+		case NAME_GUI_FONT:
+			nWidth += m_iMaxNameWidth;
+			break;
+		case NAME_ONLY:
+			nWidth += m_iMaxNameWidth;
+			break;
+		case NAME_THEN_SAMPLE:
+			nWidth += m_iMaxNameWidth;
+			nWidth += m_iMaxSampleWidth;
+			nWidth += SPACING * 2;
+			break;
+		case SAMPLE_THEN_NAME:
+			nWidth += m_iMaxNameWidth;
+			nWidth += m_iMaxSampleWidth;
+			nWidth += SPACING * 2;
+			break;
+		case SAMPLE_ONLY:
+			nWidth += m_iMaxSampleWidth;
+			break;
+	}
+
+	SetDroppedWidth(nWidth);
+}
+@
+
+
+1.4
+log
+@an incorrect use of GDI resources (CBrush class)
+@
+text
+@d48 3
+a59 1
+	m_csSample = "abcdeABCDE";
+a70 1
+	//{{AFX_MSG_MAP(CFontPreviewCombo)
+a72 1
+	//}}AFX_MSG_MAP
+d80 3
+a82 2
+{	
+	CFontPreviewCombo *pThis = reinterpret_cast<CFontPreviewCombo*>(lpData);		
+a84 3
+	
+	int maxLen = lptm->tmMaxCharWidth * _tcslen(lplf->lfFaceName);
+	int ret = pThis->SetItemData (index, dwType); 
+d86 1
+a86 1
+	ASSERT(ret!=-1);
+d94 2
+a95 2
+{		
+	CClientDC dc(this);		
+d104 1
+a104 1
+void CFontPreviewCombo::DrawItem(LPDRAWITEMSTRUCT lpDIS) 
+d106 2
+a107 2
+	ASSERT(lpDIS->CtlType == ODT_COMBOBOX); 
+	
+d109 1
+a109 1
+	
+d115 1
+a115 1
+	
+a119 1
+	
+a120 1
+	
+d133 1
+a133 1
+	
+a134 1
+	CBrush* pOldBrush = dc.SelectObject(&br);	//eklmn: select a new brush
+d136 1
+a136 2
+	dc.SelectObject(pOldBrush);		//eklmn: recover an old brush
+	
+d145 1
+a145 1
+		m_img.Draw(&dc, 0, CPoint(rc.left+5, rc.top+4),ILD_TRANSPARENT);
+d148 1
+a148 1
+	
+d193 6
+a198 6
+         // condense, for edit
+         int iSep = m_iMaxNameWidth;
+         if ((lpDIS->itemState & ODS_COMBOBOXEDIT) == ODS_COMBOBOXEDIT)
+         {
+            iSep = sz.cx;
+         }
+d200 1
+a200 1
+         // sample in current font
+d202 1
+a202 1
+			sz = dc.GetTextExtent(m_csSample);
+d205 1
+a205 1
+			dc.TextOut(rc.left + iOffsetX + iSep + iOffsetX, rc.top + iPosY, m_csSample);
+d212 1
+a212 1
+         // sample in current font
+d214 1
+a214 1
+			sz = dc.GetTextExtent(m_csSample);
+d217 1
+a217 1
+			dc.TextOut(rc.left+iOffsetX, rc.top + iPosY, m_csSample);
+d221 6
+a226 6
+         // condense, for edit
+         int iSep = m_iMaxSampleWidth;
+         if ((lpDIS->itemState & ODS_COMBOBOXEDIT) == ODS_COMBOBOXEDIT)
+         {
+            iSep = sz.cx;
+         }
+d235 1
+a235 1
+		{			
+d238 1
+a238 1
+			sz = dc.GetTextExtent(m_csSample);
+d240 1
+a240 1
+			dc.TextOut(rc.left+iOffsetX, rc.top + iPosY, m_csSample);
+d287 6
+a292 6
+      if (hf)
+      {
+		   sz = dc.GetTextExtent(m_csSample);
+		   m_iMaxSampleWidth = max(m_iMaxSampleWidth, sz.cx);
+		   dc.SelectObject(hf);
+      }
+d300 1
+a300 1
+void CFontPreviewCombo::OnDropdown() 
+d304 3
+a306 3
+   int nScrollWidth = ::GetSystemMetrics(SM_CXVSCROLL);
+   int nWidth = nScrollWidth;
+   nWidth += GLYPH_WIDTH;
+d310 19
+a328 19
+	case NAME_GUI_FONT:
+      nWidth += m_iMaxNameWidth;
+		break;
+	case NAME_ONLY:
+      nWidth += m_iMaxNameWidth;
+		break;
+	case NAME_THEN_SAMPLE:
+      nWidth += m_iMaxNameWidth;
+      nWidth += m_iMaxSampleWidth;
+      nWidth += SPACING * 2;
+		break;
+	case SAMPLE_THEN_NAME:
+      nWidth += m_iMaxNameWidth;
+      nWidth += m_iMaxSampleWidth;
+      nWidth += SPACING * 2;
+		break;
+	case SAMPLE_ONLY:
+      nWidth += m_iMaxSampleWidth;
+		break;
+d331 1
+a331 1
+   SetDroppedWidth(nWidth);
+a332 1
+
+@
+
+
+1.3
+log
+@unicode cleanup
+@
+text
+@d139 1
+d141 1
+@
+
+
+1.2
+log
+@Fixed some memory leaks.
+@
+text
+@d85 1
+a85 1
+	int maxLen = lptm->tmMaxCharWidth * strlen(lplf->lfFaceName);
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d60 1
+a96 1
+	m_img.Create(IDB_TTF_BMP, GLYPH_WIDTH, 1, RGB(255,255,255));
+@
+

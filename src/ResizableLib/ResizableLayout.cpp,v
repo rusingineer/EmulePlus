@@ -1,0 +1,820 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.3
+	PublicRelease_1_1a:1.3
+	Interim_Release_1-1a_RC2:1.3
+	Interim_Release_1-1a_RC1:1.3
+	Interim_Release_1-1a_beta2:1.3
+	Interim_Release_1-1a_beta1:1.3
+	PublicRelease_1_1:1.3
+	Interim_Release_1-1_beta1:1.3
+	PublicRelease_1o:1.3
+	Interim_Release_1o_RC1:1.3
+	Interim_Release_1o_beta1:1.3
+	PublicRelease_1n:1.3
+	Interim_Release_1n_RC2:1.3
+	Interim_Release_1n_RC1:1.3
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.3
+	Interim_Release_1j_beta2:1.3
+	Interim_Release_1j_beta1:1.3
+	PublicRelease_1i:1.3
+	Interim_Release_1i_RC6:1.3
+	Interim_Release_1i_RC3:1.3
+	Interim_Release_1i_RC2:1.3
+	Interim_Release_1i_RC1:1.3
+	Interim_Release_1i_beta3:1.3
+	Interim_Release_1i_beta2:1.3
+	Interim_Release_1i_beta1:1.3
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3
+	Interim_Release_1h_beta2:1.3
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3
+	PublicRelease_1g:1.3
+	Interim_Release_1g_RC6_Final:1.3
+	Interim_Release_1g_RC6:1.3
+	Interim_Release_1g_RC5:1.3
+	Interim_Release_1g_RC4:1.3
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.3
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.3
+	Interim_Release_1f_RC3:1.3
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.3
+	Interim_Release_1f_beta2:1.3
+	Interim_Release_1f_beta1:1.3
+	PublicRelease_1e:1.3
+	Interim_Release_1e_RC2:1.3
+	Interim_Release_1e_RC:1.3
+	Interim_Release_1e_beta3:1.3
+	Interim_Release_1e_beta2:1.3
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.8
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.6
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2003.04.22.13.10.12;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.22.05.01.38;	author recdvst;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.27.08;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.17.20.22;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Upgrade to 0.28a
+@
+text
+@// ResizableLayout.cpp: implementation of the CResizableLayout class.
+//
+/////////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2000-2002 by Paolo Messina
+// (http://www.geocities.com/ppescher - ppescher@@yahoo.com)
+//
+// The contents of this file are subject to the Artistic License (the "License").
+// You may not use this file except in compliance with the License. 
+// You may obtain a copy of the License at:
+// http://www.opensource.org/licenses/artistic-license.html
+//
+// If you find this code useful, credits would be nice!
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "ResizableLayout.h"
+#include "ResizableMsgSupport.inl"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+// In August 2002 Platform SDK, some guy at MS thought it was time to
+// add the missing symbol BS_TYPEMASK, but forgot its original meaning
+// and so now he's telling us not to use that symbol because its
+// value is likely to change in the future SDK releases, including all
+// the BS_* style bits in the mask, not just the button's type as the
+// symbol's name suggests. So now we're forced to use another symbol!
+#define _BS_TYPEMASK 0x0000000FL
+
+void CResizableLayout::AddAnchor(HWND hWnd, CSize sizeTypeTL, CSize sizeTypeBR)
+{
+	CWnd* pParent = GetResizableWnd();
+
+	// child window must be valid
+	ASSERT(::IsWindow(hWnd));
+	// must be child of parent window
+//	ASSERT(::IsChild(pParent->GetSafeHwnd(), hWnd));
+	// top-left anchor must be valid
+	ASSERT(sizeTypeTL != NOANCHOR);
+
+	// get control's window class
+	CString sClassName;
+	GetClassName(hWnd, sClassName.GetBufferSetLength(MAX_PATH), MAX_PATH);
+	sClassName.ReleaseBuffer();
+
+	// get parent window's rect
+	CRect rectParent;
+	GetTotalClientRect(&rectParent);
+	// and child control's rect
+	CRect rectChild;
+	::GetWindowRect(hWnd, &rectChild);
+	::MapWindowPoints(NULL, pParent->m_hWnd, (LPPOINT)&rectChild, 2);
+
+	// adjust position, if client area has been scrolled
+	rectChild.OffsetRect(-rectParent.TopLeft());
+
+	// go calculate margins
+	CSize sizeMarginTL, sizeMarginBR;
+
+	if (sizeTypeBR == NOANCHOR)
+		sizeTypeBR = sizeTypeTL;
+	
+	// calculate margin for the top-left corner
+
+	sizeMarginTL.cx = rectChild.left - rectParent.Width() * sizeTypeTL.cx / 100;
+	sizeMarginTL.cy = rectChild.top - rectParent.Height() * sizeTypeTL.cy / 100;
+	
+	// calculate margin for the bottom-right corner
+
+	sizeMarginBR.cx = rectChild.right - rectParent.Width() * sizeTypeBR.cx / 100;
+	sizeMarginBR.cy = rectChild.bottom - rectParent.Height() * sizeTypeBR.cy / 100;
+
+	// prepare the structure
+	LayoutInfo layout(hWnd, sizeTypeTL, sizeMarginTL,
+		sizeTypeBR, sizeMarginBR, sClassName);
+
+	// initialize resize properties (overridable)
+	InitResizeProperties(layout);
+
+	// must not be already there!
+	// (this is probably due to a duplicate call to AddAnchor)
+	POSITION pos;
+	ASSERT(!m_mapLayout.Lookup(hWnd, pos));
+
+	// add to the list and the map
+	pos = m_listLayout.AddTail(layout);
+	m_mapLayout.SetAt(hWnd, pos);
+}
+
+void CResizableLayout::AddAnchorCallback(UINT nCallbackID)
+{
+	// one callback control cannot rely upon another callback control's
+	// size and/or position (they're updated all together at the end)
+	// it can however use a non-callback control, which is updated before
+
+	// add to the list
+	LayoutInfo layout;
+	layout.nCallbackID = nCallbackID;
+	m_listLayoutCB.AddTail(layout);
+}
+
+BOOL CResizableLayout::ArrangeLayoutCallback(CResizableLayout::LayoutInfo& /*layout*/)
+{
+	ASSERT(FALSE);
+	// must be overridden, if callback is used
+	
+	return FALSE;	// no output data
+}
+
+void CResizableLayout::ArrangeLayout()
+{
+	// common vars
+	UINT uFlags;
+	LayoutInfo layout;
+	CRect rectParent, rectChild;
+	int count = m_listLayout.GetCount();
+	int countCB = m_listLayoutCB.GetCount();
+
+	if (count + countCB == 0)
+		return;
+
+	// get parent window's rect
+	GetTotalClientRect(&rectParent);
+
+	// reposition child windows
+	HDWP hdwp = ::BeginDeferWindowPos(count + countCB);
+	
+	POSITION pos = m_listLayout.GetHeadPosition();
+	while (pos != NULL)
+	{
+		// get layout info
+		layout = m_listLayout.GetNext(pos);
+		
+		// calculate new child's position, size and flags for SetWindowPos
+		CalcNewChildPosition(layout, rectParent, rectChild, uFlags);
+
+		// only if size or position changed
+		if ((uFlags & (SWP_NOMOVE|SWP_NOSIZE)) != (SWP_NOMOVE|SWP_NOSIZE))
+		{
+			hdwp = ::DeferWindowPos(hdwp, layout.hWnd, NULL, rectChild.left,
+				rectChild.top, rectChild.Width(), rectChild.Height(), uFlags);
+		}
+	}
+
+	// for callback items you may use GetAnchorPosition to know the
+	// new position and size of a non-callback item after resizing
+
+	pos = m_listLayoutCB.GetHeadPosition();
+	while (pos != NULL)
+	{
+		// get layout info
+		layout = m_listLayoutCB.GetNext(pos);
+		// request layout data
+		if (!ArrangeLayoutCallback(layout))
+			continue;
+
+		// calculate new child's position, size and flags for SetWindowPos
+		CalcNewChildPosition(layout, rectParent, rectChild, uFlags);
+
+		// only if size or position changed
+		if ((uFlags & (SWP_NOMOVE|SWP_NOSIZE)) != (SWP_NOMOVE|SWP_NOSIZE))
+		{
+			hdwp = ::DeferWindowPos(hdwp, layout.hWnd, NULL, rectChild.left,
+				rectChild.top, rectChild.Width(), rectChild.Height(), uFlags);
+		}
+	}
+
+	// finally move all the windows at once
+	::EndDeferWindowPos(hdwp);
+}
+
+void CResizableLayout::ClipChildWindow(const CResizableLayout::LayoutInfo& layout,
+									   CRgn* pRegion)
+{
+	// obtain window position
+	CRect rect;
+	::GetWindowRect(layout.hWnd, &rect);
+	::MapWindowPoints(NULL, GetResizableWnd()->m_hWnd, (LPPOINT)&rect, 2);
+
+	// use window region if any
+	CRgn rgn;
+	rgn.CreateRectRgn(0,0,0,0);
+	switch (::GetWindowRgn(layout.hWnd, rgn))
+	{
+	case COMPLEXREGION:
+	case SIMPLEREGION:
+		rgn.OffsetRgn(rect.TopLeft());
+		break;
+
+	default:
+		rgn.SetRectRgn(&rect);
+	}
+
+	// get the clipping property
+	BOOL bClipping = layout.properties.bAskClipping ?
+		LikesClipping(layout) : layout.properties.bCachedLikesClipping;
+
+	// modify region accordingly
+	if (bClipping)
+		pRegion->CombineRgn(pRegion, &rgn, RGN_DIFF);
+	else
+		pRegion->CombineRgn(pRegion, &rgn, RGN_OR);
+}
+
+void CResizableLayout::GetClippingRegion(CRgn* pRegion)
+{
+	CWnd* pWnd = GetResizableWnd();
+
+	// System's default clipping area is screen's size,
+	// not enough for max track size, for example:
+	// if screen is 1024 x 768 and resizing border is 4 pixels,
+	// maximized size is 1024+4*2=1032 x 768+4*2=776,
+	// but max track size is 4 pixels bigger 1036 x 780 (don't ask me why!)
+	// So, if you resize the window to maximum size, the last 4 pixels
+	// are clipped out by the default clipping region, that gets created
+	// as soon as you call clipping functions (my guess).
+
+	// reset clipping region to the whole client area
+	CRect rect;
+	pWnd->GetClientRect(&rect);
+	pRegion->CreateRectRgnIndirect(&rect);
+
+	// clip only anchored controls
+	LayoutInfo layout;
+	POSITION pos = m_listLayout.GetHeadPosition();
+	while (pos != NULL)
+	{
+		// get layout info
+		layout = m_listLayout.GetNext(pos);
+		
+		if (::IsWindowVisible(layout.hWnd))
+			ClipChildWindow(layout, pRegion);
+	}
+	pos = m_listLayoutCB.GetHeadPosition();
+	while (pos != NULL)
+	{
+		// get layout info
+		layout = m_listLayoutCB.GetNext(pos);
+		// request data
+		if (!ArrangeLayoutCallback(layout))
+			continue;
+
+		if (::IsWindowVisible(layout.hWnd))
+			ClipChildWindow(layout, pRegion);
+	}
+
+	// fix for RTL layouts (1 pixel of horz offset)
+	if (pWnd->GetExStyle() & 0x00400000L/*WS_EX_LAYOUTRTL*/)
+		pRegion->OffsetRgn(-1,0);
+}
+
+void CResizableLayout::EraseBackground(CDC* pDC)
+{
+	HWND hWnd = GetResizableWnd()->GetSafeHwnd();
+
+	// retrieve the background brush
+	HBRUSH hBrush = NULL;
+
+	// is this a dialog box?
+	// (using class atom is quickier than using the class name)
+	ATOM atomWndClass = (ATOM)::GetClassLong(hWnd, GCW_ATOM);
+	if (atomWndClass == (ATOM)0x8002)
+	{
+		// send a message to the dialog box
+		hBrush = (HBRUSH)::SendMessage(hWnd, WM_CTLCOLORDLG,
+			(WPARAM)pDC->GetSafeHdc(), (LPARAM)hWnd);
+	}
+	else
+	{
+		// take the background brush from the window's class
+		hBrush = (HBRUSH)::GetClassLong(hWnd, GCL_HBRBACKGROUND);
+	}
+
+	// fill the clipped background
+	CRgn rgn;
+	GetClippingRegion(&rgn);
+
+	::FillRgn(pDC->GetSafeHdc(), rgn, hBrush);
+}
+
+// support legacy code (will disappear in future versions)
+void CResizableLayout::ClipChildren(CDC* pDC)
+{
+	CRgn rgn;
+	GetClippingRegion(&rgn);
+	// the clipping region is in device units
+	rgn.OffsetRgn(-pDC->GetWindowOrg());
+	pDC->SelectClipRgn(&rgn);
+}
+
+void CResizableLayout::GetTotalClientRect(LPRECT lpRect)
+{
+	GetResizableWnd()->GetClientRect(lpRect);
+}
+
+BOOL CResizableLayout::NeedsRefresh(const CResizableLayout::LayoutInfo& layout,
+									const CRect& rectOld, const CRect& rectNew)
+{
+	if (layout.bMsgSupport)
+	{
+		REFRESHPROPERTY refresh;
+		refresh.rcOld = rectOld;
+		refresh.rcNew = rectNew;
+		if (Send_NeedsRefresh(layout.hWnd, &refresh))
+			return refresh.bNeedsRefresh;
+	}
+
+	int nDiffWidth = (rectNew.Width() - rectOld.Width());
+	int nDiffHeight = (rectNew.Height() - rectOld.Height());
+
+	// is the same size?
+	if (nDiffWidth == 0 && nDiffHeight == 0)
+		return FALSE;
+
+	// optimistic, no need to refresh
+	BOOL bRefresh = FALSE;
+
+	// window classes that need refresh when resized
+	if (layout.sWndClass == WC_STATIC)
+	{
+		DWORD style = ::GetWindowLong(layout.hWnd, GWL_STYLE);
+
+		switch (style & SS_TYPEMASK)
+		{
+		case SS_LEFT:
+		case SS_CENTER:
+		case SS_RIGHT:
+			// word-wrapped text
+			bRefresh = bRefresh || (nDiffWidth != 0);
+			// vertically centered text
+			if (style & SS_CENTERIMAGE)
+				bRefresh = bRefresh || (nDiffHeight != 0);
+			break;
+
+		case SS_LEFTNOWORDWRAP:
+			// text with ellipsis
+			if (style & SS_ELLIPSISMASK)
+				bRefresh = bRefresh || (nDiffWidth != 0);
+			// vertically centered text
+			if (style & SS_CENTERIMAGE)
+				bRefresh = bRefresh || (nDiffHeight != 0);
+			break;
+
+		case SS_ENHMETAFILE:
+		case SS_BITMAP:
+		case SS_ICON:
+			// images
+		case SS_BLACKFRAME:
+		case SS_GRAYFRAME:
+		case SS_WHITEFRAME:
+		case SS_ETCHEDFRAME:
+			// and frames
+			bRefresh = TRUE;
+			break;
+		}
+	}
+
+	// window classes that don't redraw client area correctly
+	// when the hor scroll pos changes due to a resizing
+	BOOL bHScroll = FALSE;
+	if (layout.sWndClass == WC_LISTBOX)
+		bHScroll = TRUE;
+
+	// fix for horizontally scrollable windows
+	if (bHScroll && (nDiffWidth > 0))
+	{
+		// get max scroll position
+		SCROLLINFO info;
+		info.cbSize = sizeof(SCROLLINFO);
+		info.fMask = SIF_PAGE | SIF_POS | SIF_RANGE;
+		if (::GetScrollInfo(layout.hWnd, SB_HORZ, &info))
+		{
+			// subtract the page size
+			info.nMax -= __max(info.nPage-1,0);
+		}
+
+		// resizing will cause the text to scroll on the right
+		// because the scrollbar is going beyond the right limit
+		if ((info.nMax > 0) && (info.nPos + nDiffWidth > info.nMax))
+		{
+			// needs repainting, due to horiz scrolling
+			bRefresh = TRUE;
+		}
+	}
+
+	return bRefresh;
+}
+
+BOOL CResizableLayout::LikesClipping(const CResizableLayout::LayoutInfo& layout)
+{
+	if (layout.bMsgSupport)
+	{
+		CLIPPINGPROPERTY clipping;
+		if (Send_LikesClipping(layout.hWnd, &clipping))
+			return clipping.bLikesClipping;
+	}
+
+	DWORD style = ::GetWindowLong(layout.hWnd, GWL_STYLE);
+
+	// skip windows that wants background repainted
+	if (layout.sWndClass == TOOLBARCLASSNAME && (style & TBSTYLE_TRANSPARENT))
+		return FALSE;
+	else if (layout.sWndClass == WC_BUTTON)
+	{
+		CRect rect;
+		switch (style & _BS_TYPEMASK)
+		{
+		case BS_GROUPBOX:
+			return FALSE;
+
+		case BS_OWNERDRAW:
+			// ownerdraw buttons must return correct hittest code
+			// to notify their transparency to the system and this library
+			::GetWindowRect(layout.hWnd, &rect);
+			::SendMessage(layout.hWnd, WM_NCCALCSIZE, FALSE, (LPARAM)&rect);
+			if ( HTTRANSPARENT == ::SendMessage(layout.hWnd,
+				WM_NCHITTEST, 0, MAKELPARAM(rect.left, rect.top)) )
+				return FALSE;
+			break;
+		}
+		return TRUE;
+	}
+	else if (layout.sWndClass == WC_STATIC)
+	{
+		switch (style & SS_TYPEMASK)
+		{
+		case SS_LEFT:
+		case SS_CENTER:
+		case SS_RIGHT:
+		case SS_SIMPLE:
+		case SS_LEFTNOWORDWRAP:
+			// text
+		case SS_BLACKRECT:
+		case SS_GRAYRECT:
+		case SS_WHITERECT:
+			// filled rects
+		case SS_ETCHEDHORZ:
+		case SS_ETCHEDVERT:
+			// etched lines
+		case SS_BITMAP:
+			// bitmaps
+			return TRUE;
+			break;
+
+		case SS_ICON:
+		case SS_ENHMETAFILE:
+			if (style & SS_CENTERIMAGE)
+				return FALSE;
+			return TRUE;
+			break;
+
+		default:
+			return FALSE;
+		}
+	}
+
+	// assume the others like clipping
+	return TRUE;
+}
+
+void CResizableLayout::CalcNewChildPosition(const CResizableLayout::LayoutInfo& layout,
+								const CRect &rectParent, CRect &rectChild, UINT& uFlags)
+{
+	CWnd* pParent = GetResizableWnd();
+
+	::GetWindowRect(layout.hWnd, &rectChild);
+	::MapWindowPoints(NULL, pParent->m_hWnd, (LPPOINT)&rectChild, 2);
+	
+	CRect rectNew;
+
+	// calculate new top-left corner
+	rectNew.left = layout.sizeMarginTL.cx + rectParent.Width() * layout.sizeTypeTL.cx / 100;
+	rectNew.top = layout.sizeMarginTL.cy + rectParent.Height() * layout.sizeTypeTL.cy / 100;
+	
+	// calculate new bottom-right corner
+	rectNew.right = layout.sizeMarginBR.cx + rectParent.Width() * layout.sizeTypeBR.cx / 100;
+	rectNew.bottom = layout.sizeMarginBR.cy + rectParent.Height() * layout.sizeTypeBR.cy / 100;
+
+	// adjust position, if client area has been scrolled
+	rectNew.OffsetRect(rectParent.TopLeft());
+
+	// get the refresh property
+	BOOL bRefresh = layout.properties.bAskRefresh ?
+		NeedsRefresh(layout, rectChild, rectNew) : layout.properties.bCachedNeedsRefresh;
+
+	// set flags 
+	uFlags = SWP_NOZORDER | SWP_NOACTIVATE | SWP_NOREPOSITION;
+	if (bRefresh)
+		uFlags |= SWP_NOCOPYBITS;
+	if (rectNew.TopLeft() == rectChild.TopLeft())
+		uFlags |= SWP_NOMOVE;
+	if (rectNew.Size() == rectChild.Size())
+		uFlags |= SWP_NOSIZE;
+
+	// update rect
+	rectChild = rectNew;
+}
+
+void CResizableLayout::InitResizeProperties(CResizableLayout::LayoutInfo &layout)
+{
+	// check if custom window supports this library
+	// (properties must be correctly set by the window)
+	layout.bMsgSupport = Send_QueryProperties(layout.hWnd, &layout.properties);
+
+	// default properties
+	if (!layout.bMsgSupport)
+	{
+		// clipping property is assumed as static
+		layout.properties.bAskClipping = FALSE;
+		layout.properties.bCachedLikesClipping = LikesClipping(layout);
+		// refresh property is assumed as dynamic
+		layout.properties.bAskRefresh = TRUE;
+	}
+}
+@
+
+
+1.2
+log
+@Updates from latest cvs source
+@
+text
+@d261 1
+a261 2
+// enable/restore clipping on the specified DC when appropriate
+void CResizableLayout::ClipChildren(CDC* pDC, BOOL bUndo)
+a262 1
+	HDC hDC = pDC->GetSafeHdc();
+d265 2
+a266 1
+	m_nOldClipRgn = -1; // invalid region by default
+d268 4
+a271 8
+	// Some controls (such as transparent toolbars and standard controls
+	// with XP theme enabled) send a WM_ERASEBKGND msg to the parent
+	// to draw themselves, in which case we must not enable clipping.
+
+	// We check that the window associated with the DC is the
+	// resizable window and not a child control.
+
+	if (!bUndo && (hWnd == ::WindowFromDC(hDC)))
+d273 3
+a275 7
+		// save old DC clipping region
+		m_nOldClipRgn = ::GetClipRgn(hDC, m_hOldClipRgn);
+
+		// clip out supported child windows
+		CRgn rgnClip;
+		GetClippingRegion(&rgnClip);
+		::ExtSelectClipRgn(hDC, rgnClip, RGN_AND);
+d277 1
+a277 3
+
+	// restore old clipping region, only if modified and valid
+	if (bUndo && m_nOldClipRgn >= 0)
+d279 2
+a280 4
+		if (m_nOldClipRgn == 1)
+			::SelectClipRgn(hDC, m_hOldClipRgn);
+		else
+			::SelectClipRgn(hDC, NULL);
+d282 16
+d410 3
+a412 1
+	if (layout.sWndClass == WC_BUTTON)
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a124 1
+	GetTotalClientRect(&rectParent); // get parent window's rect
+d128 6
+d261 2
+a262 1
+void CResizableLayout::EraseBackground(CDC* pDC)
+d264 1
+d267 8
+a274 2
+	// retrieve the background brush
+	HBRUSH hBrush = NULL;
+d276 9
+a284 8
+	// is this a dialog box?
+	// (using class atom is quickier than using the class name)
+	ATOM atomWndClass = (ATOM)::GetClassLong(hWnd, GCW_ATOM);
+	if (atomWndClass == (ATOM)0x8002)
+	{
+		// send a message to the dialog box
+		hBrush = (HBRUSH)::SendMessage(hWnd, WM_CTLCOLORDLG,
+			(WPARAM)pDC->GetSafeHdc(), (LPARAM)hWnd);
+d286 3
+a288 1
+	else
+d290 4
+a293 2
+		// take the background brush from the window's class
+		hBrush = (HBRUSH)::GetClassLong(hWnd, GCL_HBRBACKGROUND);
+a294 16
+
+	// fill the clipped background
+	CRgn rgn;
+	GetClippingRegion(&rgn);
+
+	::FillRgn(pDC->GetSafeHdc(), rgn, hBrush);
+}
+
+// support legacy code (will disappear in future versions)
+void CResizableLayout::ClipChildren(CDC* pDC)
+{
+	CRgn rgn;
+	GetClippingRegion(&rgn);
+	// the clipping region is in device units
+	rgn.OffsetRgn(-pDC->GetWindowOrg());
+	pDC->SelectClipRgn(&rgn);
+d407 1
+a407 3
+	if (layout.sWndClass == TOOLBARCLASSNAME && (style & TBSTYLE_TRANSPARENT))
+		return FALSE;
+	else if (layout.sWndClass == WC_BUTTON)
+d419 1
+@
+
+
+1.1.4.1
+log
+@added to branch
+@
+text
+@@
+

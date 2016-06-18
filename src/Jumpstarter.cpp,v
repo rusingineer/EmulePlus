@@ -1,0 +1,3282 @@
+head	1.46;
+access;
+symbols
+	PublicRelease_1_2e:1.44
+	Interim_Release_1-2e_RC1:1.44
+	PublicRelease_1_2d:1.42
+	Interim_Release_1-2d_RC1:1.42
+	Interim_Release_1-2d_beta1:1.42
+	PublicRelease_1_2c:1.41
+	Interim_Release_1-2c_RC1:1.41
+	Interim_Release_1-2c_beta1:1.41
+	PublicRelease_1_2b:1.41
+	Interim_Release_1-2b_RC1:1.41
+	PublicRelease_1_2a:1.41
+	Interim_Release_1-2a_RC1:1.41
+	Interim_Release_1-2a_beta2:1.39
+	Interim_Release_1-2a_beta1:1.39
+	PublicRelease_1_2:1.39
+	Interim_Release_1-2_RC1:1.39
+	Interim_Release_1-2_beta1:1.39
+	PublicRelease_1_1g:1.39
+	Interim_Release_1-1g_RC3:1.39
+	Interim_Release_1-1g_RC2:1.39
+	Interim_Release_1-1g_RC1:1.39
+	Interim_Release_1-1g_beta2:1.38
+	Interim_Release_1-1g_beta1:1.38
+	PublicRelease_1_1f:1.38
+	Interim_Release_1-1f_RC1:1.38
+	PublicRelease_1_1e:1.38
+	Interim_Release_1-1e_RC2:1.38
+	Interim_Release_1-1e_RC1:1.38
+	Interim_Release_1-1e_beta1:1.37
+	PublicRelease_1_1d:1.37
+	Interim_Release_1-1d_RC1:1.37
+	PublicRelease_1_1c:1.37
+	Interim_Release_1-1c_RC1:1.37
+	Interim_Release_1-1c_beta2:1.37
+	Interim_Release_1-1c_beta1:1.37
+	PublicRelease_1_1b:1.37
+	Interim_Release_1-1b_RC1:1.37
+	PublicRelease_1_1a:1.37
+	Interim_Release_1-1a_RC2:1.37
+	Interim_Release_1-1a_RC1:1.36
+	Interim_Release_1-1a_beta2:1.36
+	Interim_Release_1-1a_beta1:1.36
+	PublicRelease_1_1:1.36
+	Interim_Release_1-1_beta1:1.36
+	PublicRelease_1o:1.36
+	Interim_Release_1o_RC1:1.36
+	Interim_Release_1o_beta1:1.36
+	PublicRelease_1n:1.36
+	Interim_Release_1n_RC2:1.36
+	Interim_Release_1n_RC1:1.36
+	Interim_Release_1n_beta2:1.35
+	Interim_Release_1n_beta1:1.34
+	PublicRelease_1m:1.33
+	Interim_Release_1m_beta1:1.33
+	PublicRelease_1l:1.33
+	Interim_Release_1l_RC3:1.33
+	Interim_Release_1l_RC2:1.33
+	Interim_Release_1l_RC1:1.32
+	Interim_Release_1l_beta2:1.32
+	Interim_Release_1l_beta1:1.31
+	PublicRelease_1k:1.28
+	Interim_Release_1k_RC4:1.28
+	Interim_1k_RC3:1.28
+	Interim_1k_RC2:1.28
+	Interim_Release_1k_RC1:1.28
+	Interim_Release_1k_beta5:1.28
+	Intrerim_Release_1k_beta4:1.28
+	Interim_Release_1k_beta1:1.28
+	PublicRelease_1j:1.25
+	Interim_Release_1J_RC3:1.25
+	Interim_Release_1j_RC3:1.25
+	Interim_Release_1j_RC2:1.25
+	Interim_Release_1j_RC1:1.25
+	Interim_Release_1j_beta2:1.25
+	Interim_Release_1j_beta1:1.25
+	PublicRelease_1i:1.22
+	Interim_Release_1i_RC6:1.22
+	Interim_Release_1i_RC3:1.21
+	Interim_Release_1i_RC2:1.21
+	Interim_Release_1i_RC1:1.21
+	Interim_Release_1i_beta3:1.21
+	Interim_Release_1i_beta2:1.21
+	Interim_Release_1i_beta1:1.18
+	PublicRelease_1h:1.15
+	Interim_Release_1h_rc2:1.15
+	Interim_Release_1h_RC1:1.15
+	Interim_Release_1h_beta2:1.15
+	Interim_Release_1h_beta1_now:1.15
+	Interim_Release_1h_beta1:1.15
+	PublicRelease_1g:1.15
+	Interim_Release_1g_RC6_Final:1.15
+	Interim_Release_1g_RC6:1.15
+	Interim_Release_1g_RC5:1.15
+	Interim_Release_1g_RC4:1.15
+	Interim_Release_1g_RC3:1.15
+	Interim_Release_1g_beta2:1.12
+	Interim_Release_1g_beta1:1.12
+	Interim_Release_1f_RC4:1.10
+	Interim_Release_1f_RC3:1.10
+	Interim_Release_1f_RC2:1.9
+	Interim_Release_1f_RC:1.9
+	Interim_Release_1f_beta2:1.9
+	Interim_Release_1f_beta1:1.9
+	PublicRelease_1e:1.9
+	Interim_Release_1e_RC2:1.9
+	Interim_Release_1e_RC:1.9
+	Interim_Release_1e_beta3:1.9
+	Interim_Release_1e_beta2:1.9
+	Interim_Release_1e_beta2_before_kuchin:1.9
+	Interim_Release_1e_beta1:1.9
+	PublicRelease_1c:1.8
+	featurestest:1.8.0.2
+	Interim_Release_1c_RC:1.8
+	Interim_Release_1c_beta2:1.8
+	Interim_Release_1c_beta1:1.8
+	threaded_downloadqueue:1.7.0.2
+	PublicRelease_1b:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.46
+date	2012.09.07.03.29.04;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2009.10.29.03.17.30;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2008.05.18.18.27.18;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2007.12.26.04.23.39;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2006.07.19.04.38.31;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2006.07.17.01.30.30;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2005.12.01.04.05.33;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2005.06.19.05.09.53;	author aw3;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.11.29.05.52.05;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.08.27.05.47.13;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.08.05.21.41.23;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.05.28.11.41.40;	author dropf;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.05.07.13.20.26;	author dropf;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.04.29.19.31.04;	author dropf;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.04.22.11.21.40;	author syrus77;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.04.21.22.24.30;	author dropf;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.02.13.16.13.29;	author netwolf1;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.02.11.04.13.00;	author katsyonak;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.11.30.14.20.21;	author eklmn;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.10.13.15.10.45;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.10.08.12.56.33;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.09.22.15.50.53;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.09.21.22.05.15;	author morevit;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.09.19.00.13.37;	author morevit;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.28.10.26.30;	author partyckip;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.06.16.15.37.42;	author netwolf1;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.06.11.18.27.09;	author eklmn;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.05.30.21.26.58;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.05.26.17.24.47;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.05.22.13.12.22;	author obaldin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.04.11.21.58.03;	author obaldin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.03.14.19.21.13;	author obaldin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.14.16.24.18;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.14.15.27.23;	author obaldin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.12.17.33.15;	author obaldin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.11.01.50.34;	author obaldin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.09.16.21.45;	author obaldin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.09.12.36.05;	author obaldin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.09.09.55.53;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.46
+log
+@Increased number of chunks Jumpstart shows from 2 to 3 (if a source disconnected without downloading the whole chunk, on the connection our uploading system might allow it to complete previous plus one more full chunk; as there's nothing else visible that source will leave waiting queue, what will increase overall downloading time).
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+//
+#include "stdafx.h"
+#include "types.h"
+#include "Jumpstarter.h"
+#include "KnownFile.h"
+#include "updownclient.h"
+#include "otherfunctions.h"
+#include "BerkeleyDb/build_win32/db_cxx.h"
+
+#define DATABASE_FILE_NAME "Jumpstart.db"
+
+#define NUM_CHUNKS_TO_SHOW 3
+
+#define JS_INVISIBLE 0
+#define JS_VISIBLE 1
+#define JS_COMPLETED 0xFF
+#define JS_MAX_USERS 0xFE
+
+// static members
+DbEnv*	CJumpstarter::pDbEnv = NULL;
+Db*		CJumpstarter::pDbJumpstart = NULL;
+Db*		CJumpstarter::pDbUserBlocks = NULL;
+Db*		CJumpstarter::pDbUserChunks = NULL;
+Db*		CJumpstarter::pDbJSOptions = NULL;
+
+struct StartAndSize
+{
+	uint32 m_lStart;
+	uint32 m_lSize;
+};
+
+struct FileUser
+{
+	uchar m_fileHash[16];
+	uchar m_userHash[16];
+};
+
+struct FileUserChunk
+{
+	uchar m_fileHash[16];
+	uchar m_userHash[16];
+	uint32 chunk_no;
+};
+
+struct JSOptions
+{
+	uint32 mode; // 0 - disabled, >0 enabled
+	uint32 reserved[10];
+};
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// sorting function for StartAndSize records
+static int compare_start_size(DB *pDb, const DBT *pDbt1, const DBT *pDbt2)
+{
+	StartAndSize	*ss1 = reinterpret_cast<StartAndSize*>(pDbt1->data);
+	StartAndSize	*ss2 = reinterpret_cast<StartAndSize*>(pDbt2->data);
+	NOPRM(pDb);
+
+	if (ss1->m_lStart < ss2->m_lStart)
+		return -1;
+
+	if (ss1->m_lStart > ss2->m_lStart)
+		return 1;
+
+	// m_lStart is equal
+	if (ss1->m_lSize < ss2->m_lSize)
+		return -1;
+
+	if (ss1->m_lSize > ss2->m_lSize)
+		return 1;
+
+	// equal
+	return 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CJumpstarter::CJumpstarter(CKnownFile* file)
+{
+	m_KFile = file;
+	m_dwParts = m_KFile->GetPartCount();
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CJumpstarter::~CJumpstarter(void)
+{
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CJumpstarter::OpenDatabases(DbEnv *pDbEnvironment)
+{
+	pDbEnv = pDbEnvironment;
+	pDbJumpstart = new Db(pDbEnv, 0);
+	pDbJumpstart->set_pagesize(16 * 1024); // 16Kb page m_lSize
+	pDbJumpstart->open( NULL, DATABASE_FILE_NAME, "File-Chunks", DB_HASH,
+	                    DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0 );
+
+	pDbUserBlocks = new Db(pDbEnv, 0);
+	pDbUserBlocks->set_flags(DB_DUPSORT);
+	pDbUserBlocks->set_dup_compare(&compare_start_size);
+	pDbUserBlocks->set_pagesize(16 * 1024); // 16Kb page size
+	pDbUserBlocks->open( NULL, DATABASE_FILE_NAME, "FileUserChunk-Blocks64",
+	                     DB_HASH, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0 );
+
+	pDbUserChunks = new Db(pDbEnv, 0);
+	pDbUserChunks->set_pagesize(16 * 1024); // 16Kb page size
+	pDbUserChunks->open( NULL, DATABASE_FILE_NAME, "FileUser-Chunk", DB_HASH,
+	                     DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0 );
+
+	pDbJSOptions = new Db(pDbEnv, 0);
+	pDbJSOptions->set_pagesize(16 * 1024); // 16Kb page size
+	pDbJSOptions->open( NULL, DATABASE_FILE_NAME, "File-JSOptions", DB_HASH,
+	                    DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0 );
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CJumpstarter::CloseDatabases(void)
+{
+	if (pDbEnv == NULL)
+		return;
+
+	pDbUserChunks->close(0);
+	safe_delete(pDbUserChunks);
+
+	pDbUserBlocks->close(0);
+	safe_delete(pDbUserBlocks);
+
+	pDbJumpstart->close(0);
+	safe_delete(pDbJumpstart);
+
+	pDbJSOptions->close(0);
+	safe_delete(pDbJSOptions);
+
+	pDbEnv = NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CJumpstarter::ShouldBeEnabledForFile(CKnownFile *file)
+{
+	return ReadJsEnabled(file);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CJumpstarter::IsJsCompleteForFile(CKnownFile* file)
+{
+	try
+	{
+		const uchar * m_fileHash = file->GetFileHash();
+		Dbt key((void *) m_fileHash, 16);
+		uint32 nChunks = file->GetPartCount();
+		uchar* chunks_info = new uchar[nChunks];
+		Dbt data(chunks_info, sizeof(uchar) * nChunks);
+		data.set_ulen(sizeof(uchar) * nChunks);
+		data.set_flags(DB_DBT_USERMEM);
+
+		int res = pDbJumpstart->get(NULL, &key, &data, 0);
+
+		bool all_complete = true;
+
+		if (res != DB_NOTFOUND)
+		{
+			for (uint32 i = 0; i < nChunks; i++)
+			{
+				if (chunks_info[i] != JS_COMPLETED)
+				{
+					all_complete = false;
+					break;
+				}
+			}
+		}
+
+		delete[] chunks_info;
+
+		if (res == DB_NOTFOUND)
+		{
+			return false;
+		}
+		else
+		{
+			return all_complete;
+		}
+	}
+	catch (DbException & dbe)
+	{
+		AfxMessageBox(CString(dbe.what()));
+	}
+
+	return false;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CJumpstarter::ReadJsEnabled(CKnownFile* file)
+{
+	const uchar * m_fileHash = file->GetFileHash();
+	Dbt key((void *) m_fileHash, 16);
+	JSOptions js_options;
+	Dbt js_options_data(&js_options, sizeof(js_options));
+	js_options_data.set_ulen(sizeof(js_options));
+	js_options_data.set_flags(DB_DBT_USERMEM);
+
+	int res = pDbJSOptions->get(NULL, &key, &js_options_data, 0);
+
+	if (res == DB_NOTFOUND)
+		return false;
+
+	return (js_options.mode > 0);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CJumpstarter::WriteJsEnabled(CKnownFile* file, bool enabled)
+{
+	// later we might m_lStart using transactions here
+	const uchar * m_fileHash = file->GetFileHash();
+	Dbt key((void *) m_fileHash, 16);
+	JSOptions js_options;
+	Dbt js_options_data(&js_options, sizeof(js_options));
+	js_options_data.set_ulen(sizeof(js_options));
+	js_options_data.set_flags(DB_DBT_USERMEM);
+
+	int res = pDbJSOptions->get(NULL, &key, &js_options_data, 0);
+
+	if (res == DB_NOTFOUND)
+	{
+		memzero(&js_options, sizeof(js_options));
+	}
+
+	js_options.mode = enabled ? 1 : 0;
+	pDbJSOptions->put(NULL, &key, &js_options_data, DB_AUTO_COMMIT);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CJumpstarter::Disable()
+{
+	WriteJsEnabled(m_KFile, false);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CJumpstarter::EnableForFile(CKnownFile* file)
+{
+	if (ReadJsEnabled(file))
+		return;
+
+	if (IsJsCompleteForFile(file))
+		return;
+
+	const uchar* m_fileHash = file->GetFileHash();
+
+	uint32 nChunks = file->GetPartCount();
+
+	uchar* chunks_info = new uchar[nChunks];
+
+	Dbt key((void *) m_fileHash, 16);
+
+	Dbt data(chunks_info, sizeof(uchar) * nChunks);
+
+	data.set_ulen(sizeof(uchar) * nChunks);
+
+	data.set_flags(DB_DBT_USERMEM);
+
+	// FIXME: Wrap this in a transaction
+	int res = pDbJumpstart->get(NULL, &key, &data, 0);
+
+	if (res == DB_NOTFOUND)
+	{
+		for (uint32 i = 0; i < nChunks; i++)
+			chunks_info[i] = 0;
+
+		pDbJumpstart->put(NULL, &key, &data, DB_AUTO_COMMIT);
+	}
+
+	WriteJsEnabled(file, true);
+
+	delete[] chunks_info;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CJumpstarter::AddSentBlock(CUpDownClient *client, const uint64 &qwStartOffset, uint32 togo)
+{
+	if (togo == 0)
+		return;
+
+#if 0	// we upload only within one chunk!
+	if (start_offset / PARTSIZE != (start_offset + togo - 1) / PARTSIZE)
+	{
+		// split on part border and do two recursive calls to ourselves
+		uint32 next_part_start = ((start_offset / PARTSIZE) + 1) * PARTSIZE;
+		AddSentBlock(client, start_offset, next_part_start - start_offset);
+		AddSentBlock(client, next_part_start, togo - (next_part_start - start_offset));
+		return;
+	}
+#endif
+
+	int dbresult;
+	int dbresult2;
+
+	// the block belongs to one part here
+	uint32 partno = static_cast<uint32>(qwStartOffset / PARTSIZE);
+
+	DbTxn *tid;
+	pDbEnv->txn_begin(NULL, &tid, 0); // m_lStart the transaction
+
+	// add the new record (database is sorted)
+	FileUserChunk fuchunk;
+	md4cpy(&fuchunk.m_fileHash, m_KFile->GetFileHash());
+	md4cpy(&fuchunk.m_userHash, client->GetUserHash());
+	fuchunk.chunk_no = partno;
+	Dbt key_fuchunk(&fuchunk, sizeof(fuchunk));
+
+	StartAndSize start_and_size;
+	Dbt data_start_and_size(&start_and_size, sizeof(start_and_size));
+	Dbc	*dbcp, *dbcp2;
+
+	start_and_size.m_lStart = static_cast<uint32>(qwStartOffset - static_cast<uint64>(partno) * PARTSIZE);
+	start_and_size.m_lSize = togo;
+
+	pDbUserBlocks->put(tid, &key_fuchunk, &data_start_and_size, 0);
+
+	// now, do a pass removing overlaps
+	int blocks_count;
+	bool need_to_merge;
+
+	do
+	{
+		pDbUserBlocks->cursor(tid, &dbcp, 0);
+		pDbUserBlocks->cursor(tid, &dbcp2, 0);
+
+		data_start_and_size.set_flags(DB_DBT_USERMEM);
+		data_start_and_size.set_ulen(sizeof(start_and_size));
+
+		StartAndSize start_and_size2;
+		Dbt data_start_and_size2(&start_and_size2, sizeof(start_and_size2));
+		data_start_and_size2.set_flags(DB_DBT_USERMEM);
+		data_start_and_size2.set_ulen(sizeof(start_and_size2));
+
+		dbresult = dbcp->get(&key_fuchunk, &data_start_and_size, DB_SET);
+
+		ASSERT(dbresult == 0);
+
+		blocks_count = 1;
+
+		dbresult2 = dbcp2->get(&key_fuchunk, &data_start_and_size2, DB_SET);
+
+		ASSERT(dbresult2 == 0);
+
+		dbresult2 = dbcp2->get(&key_fuchunk, &data_start_and_size2, DB_NEXT_DUP);
+
+		need_to_merge = false;
+		while (dbresult2 == 0)
+		{
+			// check for overlap
+			if (start_and_size2.m_lStart <= start_and_size.m_lStart + start_and_size.m_lSize)
+			{
+				uint32 dwNewStart, dwNewSize;
+
+				need_to_merge = true;
+				dwNewStart = start_and_size.m_lStart;
+				dwNewSize = max( start_and_size.m_lStart + start_and_size.m_lSize,
+				                start_and_size2.m_lStart + start_and_size2.m_lSize ) - dwNewStart;
+
+				dbresult = dbcp->del(0);
+				dbresult2 = dbcp2->del(0);
+				start_and_size.m_lStart = dwNewStart;
+				start_and_size.m_lSize = dwNewSize;
+				pDbUserBlocks->put(tid, &key_fuchunk, &data_start_and_size, 0);
+				break;
+			}
+			dbresult = dbcp->get(&key_fuchunk, &data_start_and_size, DB_NEXT_DUP);
+
+			ASSERT(dbresult == 0);
+
+			blocks_count++;
+			dbresult2 = dbcp2->get(&key_fuchunk, &data_start_and_size2, DB_NEXT_DUP);
+		}
+		dbcp->close();
+		dbcp2->close();
+	} while(need_to_merge || (dbresult2 != DB_NOTFOUND));
+
+	if (blocks_count == 1)
+	{
+		TCHAR	acHashStr[MAX_HASHSTR_SIZE];
+		uint32 partsize = m_KFile->GetPartSize(partno);
+
+		if ((start_and_size.m_lStart == 0) && (start_and_size.m_lSize == partsize))
+		{
+			// Yes, this is full part
+			CLoggable::AddLogLine( LOG_FL_DBG, _T("Jumpstart: User '%s' (%s) completed chunk %u of file '%s'"),
+				client->GetUserName(), md4str(client->GetUserHash(), acHashStr), partno, m_KFile->GetFileName() );
+
+			FileUser fu;
+			md4cpy(&fu.m_fileHash, m_KFile->GetFileHash());
+			md4cpy(&fu.m_userHash, client->GetUserHash());
+			Dbt key_fu(&fu, sizeof(fu));
+
+			uchar* chunks_info = new uchar[m_dwParts];
+			Dbt data_chunks_info(chunks_info, sizeof(uchar) * m_dwParts);
+			data_chunks_info.set_ulen(sizeof(uchar) * m_dwParts);
+			data_chunks_info.set_flags(DB_DBT_USERMEM);
+
+			int res = pDbUserChunks->get(tid, &key_fu, &data_chunks_info, 0);
+
+			if (res == DB_NOTFOUND)
+			{
+				// the chunk data for this user does not exist,
+				// probably he got on queue before we've enabled
+				// the Jumpstart on this file. easiest way is
+				// to ignore him :)
+				CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart: User %s (file %s) has no chunks info"), client->GetUserName(), m_KFile->GetFileName());
+			}
+			else
+			{
+				chunks_info[partno] = JS_COMPLETED;
+				pDbUserChunks->put(tid, &key_fu, &data_chunks_info, 0);
+			}
+
+			Dbt key_filehash(&fu.m_fileHash, sizeof(fu.m_fileHash));
+
+			res = pDbJumpstart->get(tid, &key_filehash, &data_chunks_info, 0);
+
+			if (res == DB_NOTFOUND)
+			{
+				// the chunk data for this file does not exist
+				// this is a serious error
+				CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart: File %s has no chunks info, disabled !"), m_KFile->GetFileName());
+				m_KFile->SetJumpstartEnabled(false);
+			}
+			else
+			{
+				chunks_info[partno] = JS_COMPLETED;
+				pDbJumpstart->put(tid, &key_filehash, &data_chunks_info, 0);
+			//	Check if the file is complete
+				bool has_more_chunks = false;
+
+				for (uint32 i = 0; i < m_dwParts; i++)
+				{
+					if (chunks_info[i] != JS_COMPLETED)
+					{
+						has_more_chunks = true;
+						break;
+					}
+				}
+
+				if (!has_more_chunks)
+				{
+					// hooray! the file's done
+					CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart: File %s has all chunks completed, switching to normal!"), m_KFile->GetFileName());
+					m_KFile->SetJumpstartEnabled(false);
+				}
+			}
+
+			delete[] chunks_info;
+		} // end if got full part
+	} // end if(blocks_count==1) - one block in this part after merging
+
+	tid->commit(0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CJumpstarter::WriteJumpstartPartStatus(CUpDownClient* client, CMemFile* file)
+{
+	DbTxn *tid;
+	pDbEnv->txn_begin(NULL, &tid, 0);
+
+	// load chunk data for this user
+	FileUser fu;
+	md4cpy(&fu.m_fileHash, m_KFile->GetFileHash());
+	md4cpy(&fu.m_userHash, client->GetUserHash());
+	Dbt key_fu(&fu, sizeof(fu));
+
+	uchar* chunks_info = new uchar[m_dwParts];
+	Dbt data_chunks_info(chunks_info, sizeof(uchar) * m_dwParts);
+	data_chunks_info.set_ulen(sizeof(uchar) * m_dwParts);
+	data_chunks_info.set_flags(DB_DBT_USERMEM);
+
+	int res = pDbUserChunks->get(tid, &key_fu, &data_chunks_info, 0);
+
+	if (res == DB_NOTFOUND)
+	{
+		// the chunk data for this user does not exist
+		//CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart: New user %s for file %s"),client->GetUserName(),m_KFile->GetFileName());
+		for (uint32 i = 0; i < m_dwParts; i++)
+			chunks_info[i] = JS_INVISIBLE;
+	}
+
+	// load file chunks
+	Dbt key_filehash(&fu.m_fileHash, sizeof(fu.m_fileHash));
+
+	uchar* file_chunks_info = new uchar[m_dwParts];
+
+	Dbt data_file_chunks_info(file_chunks_info, sizeof(uchar) * m_dwParts);
+
+	data_file_chunks_info.set_ulen(sizeof(uchar) * m_dwParts);
+	data_file_chunks_info.set_flags(DB_DBT_USERMEM);
+
+	res = pDbJumpstart->get(tid, &key_filehash, &data_file_chunks_info, 0);
+
+	if (res == DB_NOTFOUND)
+	{
+		// the chunk data for this file does not exist
+		// this is a serious error
+		CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!"), m_KFile->GetFileName());
+		m_KFile->SetJumpstartEnabled(false);
+	}
+
+	// find chunks to show
+	uint32	dwVisibleCnt = NumVisibleInChunksMap(chunks_info);
+
+	while (dwVisibleCnt < NUM_CHUNKS_TO_SHOW)
+	{
+		TCHAR	acHashStr[MAX_HASHSTR_SIZE];
+		uint32 best_part = 0xFFFF;
+		uint32 dwBestPartValue = JS_COMPLETED;
+
+		for (uint32 i = 0; i < m_dwParts; i++)
+		{
+			if ((chunks_info[i] == JS_INVISIBLE) && (file_chunks_info[i] != JS_COMPLETED))
+			{
+			//	Select a chunk with less downloaders
+				if (file_chunks_info[i] < dwBestPartValue)
+				{
+					// new one is better
+					best_part = i;
+					dwBestPartValue = file_chunks_info[i];
+				}
+			}
+		} // end for(uint32 i=0; i<m_dwParts ...
+
+		if (best_part == 0xFFFF)
+		{
+		//	Nothing more to add => report the parts which are already visible
+			break;
+		}
+		else
+		{
+			CLoggable::AddLogLine( LOG_FL_DBG, _T("Jumpstart: Exposing chunk %u of file '%s' to user '%s' (%s)"),
+				best_part, m_KFile->GetFileName(), client->GetUserName(), md4str(client->GetUserHash(), acHashStr) );
+			chunks_info[best_part] = JS_VISIBLE;
+
+			if (file_chunks_info[best_part] < JS_MAX_USERS)
+				file_chunks_info[best_part]++;
+			dwVisibleCnt++;
+		}
+	} // end while
+
+	// save new data for user and file
+	pDbUserChunks->put(tid, &key_fu, &data_chunks_info, 0);
+	pDbJumpstart->put(tid, &key_filehash, &data_file_chunks_info, 0);
+
+	tid->commit(0);
+
+	// now actualy write the part status
+	uint32	dwDone = 0, dwParts = m_KFile->GetED2KPartCount();
+
+	file->Write(&dwParts, 2);
+	while (dwDone < dwParts)
+	{
+		byte towrite = 0;
+
+		for (uint32 i = 0; i < 8; i++)
+		{
+		//	Report that we have "void" part for files with size % PARTSIZE = 0
+			if (((dwDone == (dwParts - 1)) && (dwParts != m_dwParts)) || (chunks_info[dwDone] != JS_INVISIBLE))
+				towrite |= (1 << i);
+
+			if (++dwDone >= dwParts)
+				break;
+		}
+
+		file->Write(&towrite, 1);
+	}
+
+	delete[] chunks_info;
+	delete[] file_chunks_info;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint32 CJumpstarter::NumVisibleInChunksMap(uchar* chunks_map)
+{
+	uint32 count_visible = 0;
+
+	for (uint32 i = 0; i < m_dwParts; i++)
+	{
+		if (chunks_map[i] == JS_VISIBLE)
+			count_visible++;
+	}
+
+	return count_visible;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CJumpstarter::IsChunkComplete(uint32 partNo)
+{
+	uchar m_fileHash[16];
+	md4cpy(&m_fileHash, m_KFile->GetFileHash());
+	Dbt key(m_fileHash, 16);
+	uint32 nChunks = m_KFile->GetPartCount();
+	uchar* chunks_info = new uchar[nChunks];
+	Dbt data(chunks_info, sizeof(uchar) * nChunks);
+	data.set_ulen(sizeof(uchar) * nChunks);
+	data.set_flags(DB_DBT_USERMEM);
+
+	int res = pDbJumpstart->get(NULL, &key, &data, 0);
+	bool	bResult = false;
+
+	if (res != DB_NOTFOUND)
+		bResult = (chunks_info[partNo] == JS_COMPLETED);
+
+	delete[] chunks_info;
+	return bResult;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CJumpstarter::AllowChunkForClient(uint32 partNo, CUpDownClient* client)
+{
+	// load chunk data for this user
+	//CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart DEBUG: AllowChunkForClient: user: %s chunk: %d"), client->GetUserName(), partNo);
+	FileUser fu;
+	md4cpy(&fu.m_fileHash, m_KFile->GetFileHash());
+	md4cpy(&fu.m_userHash, client->GetUserHash());
+	Dbt key_fu(&fu, sizeof(fu));
+
+	uchar* chunks_info = new uchar[m_dwParts];
+	Dbt data_chunks_info(chunks_info, sizeof(uchar) * m_dwParts);
+	data_chunks_info.set_ulen(sizeof(uchar) * m_dwParts);
+	data_chunks_info.set_flags(DB_DBT_USERMEM);
+
+	int res = pDbUserChunks->get(NULL, &key_fu, &data_chunks_info, 0);
+
+	uchar this_chunk_info = chunks_info[partNo];
+
+	delete[] chunks_info;
+
+	if (res == DB_NOTFOUND)
+	{
+		// the chunk data for this user does not exist
+		CLoggable::AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Jumpstart WARNING: User %s asked for file %s, no chunk data, denied"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+		return false;
+	}
+
+	if (this_chunk_info == JS_COMPLETED)
+	{
+#ifdef _DEBUG
+		CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart DEBUG: User %s asked for file %s, completed by this user, allowed"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+#endif
+		return true;
+	}
+
+	if (this_chunk_info == JS_INVISIBLE)
+	{
+#ifdef _DEBUG
+		CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart DEBUG: User %s asked for file %s, chunk invisible for user, denied"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+#endif
+		return false;
+	}
+
+	// here we are when the chunk is visible for this user
+	if (IsChunkComplete(partNo))
+	{
+#ifdef _DEBUG
+		CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart DEBUG: User %s asked for file %s, chunk completed, denied"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+#endif
+		return false;
+	}
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.45
+log
+@Improved Jumpstart debugging by adding user hash to some log messages.
+@
+text
+@d27 1
+a27 1
+#define NUM_CHUNKS_TO_SHOW 2
+@
+
+
+1.44
+log
+@Simplified logging system implementation.
+@
+text
+@d393 1
+d399 2
+a400 1
+			CLoggable::AddLogLine(LOG_FL_DBG, _T("Jumpstart: User %s completed chunk %d of file %s"), client->GetUserName(), partno, m_KFile->GetFileName());
+d521 1
+d546 2
+a547 2
+			CLoggable::AddLogLine( LOG_FL_DBG, _T("Jumpstart: Exposing chunk %d of file %s to user %s"),
+			                            best_part, m_KFile->GetFileName(), client->GetUserName() );
+@
+
+
+1.43
+log
+@Dropped conversion of old JumpStart database format (used before v1.2a).
+@
+text
+@d398 1
+a398 1
+			CLoggable::AddDebugLogLine(_T("Jumpstart: User %s completed chunk %d of file %s"), client->GetUserName(), partno, m_KFile->GetFileName());
+d418 1
+a418 1
+				CLoggable::AddDebugLogLine(_T("Jumpstart: User %s (file %s) has no chunks info"), client->GetUserName(), m_KFile->GetFileName());
+d434 1
+a434 1
+				CLoggable::AddDebugLogLine(_T("Jumpstart: File %s has no chunks info, disabled !"), m_KFile->GetFileName());
+d456 1
+a456 1
+					CLoggable::AddDebugLogLine(_T("Jumpstart: File %s has all chunks completed, switching to normal!"), m_KFile->GetFileName());
+d489 1
+a489 1
+		//CLoggable::AddDebugLogLine(_T("Jumpstart: New user %s for file %s"),client->GetUserName(),m_KFile->GetFileName());
+d510 1
+a510 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!"), m_KFile->GetFileName());
+d543 2
+a544 2
+			CLoggable::AddDebugLogLine( _T("Jumpstart: Exposing chunk %d of file %s to user %s"), best_part,
+			                            m_KFile->GetFileName(), client->GetUserName() );
+d621 1
+a621 1
+	//CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: AllowChunkForClient: user: %s chunk: %d"), client->GetUserName(), partNo);
+d641 1
+a641 1
+		CLoggable::AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Jumpstart WARNING: User %s asked for file %s, no chunk data, denied"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+d648 1
+a648 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s asked for file %s, completed by this user, allowed"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+d656 1
+a656 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s asked for file %s, chunk invisible for user, denied"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+d665 1
+a665 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s asked for file %s, chunk completed, denied"), client->GetClientNameWithSoftware(), m_KFile->GetFileName());
+@
+
+
+1.42
+log
+@Reduced H-file dependency; Suppressed compiler warnings; Formatting.
+@
+text
+@a40 7
+//	Conversion to the new database format to support large files
+//	Keep this code until July 2007 then drop to reduce the size and simplify the logic
+#define EP_CONV_JSDB_2_64BITS		1
+#if EP_CONV_JSDB_2_64BITS
+static Db *pDbUserBlocksOld = NULL;
+#endif
+
+a119 15
+#if EP_CONV_JSDB_2_64BITS
+	pDbUserBlocksOld = new Db(pDbEnv, 0);
+	pDbUserBlocksOld->set_flags(DB_DUPSORT);
+	pDbUserBlocksOld->set_dup_compare(&compare_start_size);
+	pDbUserBlocksOld->set_pagesize(16 * 1024); // 16Kb page size
+	try
+	{
+		pDbUserBlocksOld->open( NULL, DATABASE_FILE_NAME, "FileUserChunk-Blocks",
+														DB_HASH, DB_THREAD | DB_RDONLY | DB_AUTO_COMMIT, 0 );
+	}
+	catch (...)
+	{
+		safe_delete(pDbUserBlocksOld);
+	}
+#endif
+a141 7
+#if EP_CONV_JSDB_2_64BITS
+	if (pDbUserBlocksOld != NULL)
+	{
+		pDbUserBlocksOld->close(0);
+		safe_delete(pDbUserBlocksOld);
+	}
+#endif
+d295 1
+a295 1
+#if 0	// we upload only within one chunck!
+a325 22
+#if EP_CONV_JSDB_2_64BITS
+	if (pDbUserBlocksOld != NULL)
+	{
+		data_start_and_size.set_flags(DB_DBT_USERMEM);
+		data_start_and_size.set_ulen(sizeof(start_and_size));
+		pDbUserBlocks->cursor(tid, &dbcp, 0);
+		dbresult = dbcp->get(&key_fuchunk, &data_start_and_size, DB_SET);
+		if (dbresult != 0)
+		{
+			pDbUserBlocksOld->cursor(tid, &dbcp2, 0);
+			dbresult = dbcp2->get(&key_fuchunk, &data_start_and_size, DB_SET);
+			while (dbresult == 0)
+			{
+				start_and_size.m_lStart = start_and_size.m_lStart - partno * PARTSZ32;
+				pDbUserBlocks->put(tid, &key_fuchunk, &data_start_and_size, 0);
+				dbresult = dbcp2->get(&key_fuchunk, &data_start_and_size, DB_NEXT_DUP);
+			}
+			dbcp2->close();
+		}
+		dbcp->close();
+	}
+#endif
+@
+
+
+1.41
+log
+@Database format changed to support large files! Upgrade will be smooth without any issues.
+Downgrade is possible as well, but some information collected/updated in the database after update will be lost, so
+JumpStart still will continue working, but in some cases it won't be able to switch to the normal mode itself after the whole file is spread.
+@
+text
+@d18 1
+d21 1
+a21 1
+#include "Loggable.h"
+d23 1
+d80 1
+d103 2
+a104 2
+	kfile = file;
+	nParts = kfile->GetPartCount();
+d276 1
+a276 1
+	WriteJsEnabled(this->kfile, false);
+d346 1
+a346 1
+	md4cpy(&fuchunk.m_fileHash, kfile->GetFileHash());
+d444 1
+a444 1
+		uint32 partsize = kfile->GetPartSize(partno);
+d449 1
+a449 1
+			CLoggable::AddDebugLogLine(_T("Jumpstart: User %s completed chunk %d of file %s"), client->GetUserName(), partno, kfile->GetFileName());
+d452 1
+a452 1
+			md4cpy(&fu.m_fileHash, kfile->GetFileHash());
+d456 3
+a458 3
+			uchar* chunks_info = new uchar[nParts];
+			Dbt data_chunks_info(chunks_info, sizeof(uchar) * nParts);
+			data_chunks_info.set_ulen(sizeof(uchar) * nParts);
+d469 1
+a469 1
+				CLoggable::AddDebugLogLine(_T("Jumpstart: User %s (file %s) has no chunks info"), client->GetUserName(), kfile->GetFileName());
+d485 2
+a486 2
+				CLoggable::AddDebugLogLine(_T("Jumpstart: File %s has no chunks info, disabled !"), kfile->GetFileName());
+				kfile->SetJumpstartEnabled(false);
+d495 1
+a495 1
+				for (uint32 i = 0; i < nParts; i++)
+d507 2
+a508 2
+					CLoggable::AddDebugLogLine(_T("Jumpstart: File %s has all chunks completed, switching to normal!"), kfile->GetFileName());
+					kfile->SetJumpstartEnabled(false);
+d526 1
+a526 1
+	md4cpy(&fu.m_fileHash, kfile->GetFileHash());
+d530 3
+a532 3
+	uchar* chunks_info = new uchar[nParts];
+	Dbt data_chunks_info(chunks_info, sizeof(uchar) * nParts);
+	data_chunks_info.set_ulen(sizeof(uchar) * nParts);
+d540 2
+a541 2
+		//CLoggable::AddDebugLogLine(_T("Jumpstart: New user %s for file %s"),client->GetUserName(),kfile->GetFileName());
+		for (uint32 i = 0; i < nParts; i++)
+d548 1
+a548 1
+	uchar* file_chunks_info = new uchar[nParts];
+d550 1
+a550 1
+	Dbt data_file_chunks_info(file_chunks_info, sizeof(uchar) * nParts);
+d552 1
+a552 1
+	data_file_chunks_info.set_ulen(sizeof(uchar) * nParts);
+d561 2
+a562 2
+		CLoggable::AddDebugLogLine(_T("Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!"), kfile->GetFileName());
+		kfile->SetJumpstartEnabled(false);
+d573 1
+a573 1
+		for (uint32 i = 0; i < nParts; i++)
+d585 1
+a585 1
+		} // end for(uint32 i=0; i<nParts ...
+d595 1
+a595 1
+			                            kfile->GetFileName(), client->GetUserName() );
+d611 1
+a611 1
+	uint16 parts = kfile->GetED2KPartCount();
+d613 2
+a614 5
+	file->Write(&parts, 2);
+
+	uint16 done = 0;
+
+	while (done != parts)
+d621 1
+a621 1
+			if (((done == (parts - 1)) && (parts != nParts)) || (chunks_info[done] != JS_INVISIBLE))
+d624 1
+a624 1
+			if (++done == parts)
+d639 1
+a639 1
+	for (uint32 i = 0; i < nParts; i++)
+d651 1
+a651 1
+	md4cpy(&m_fileHash, kfile->GetFileHash());
+d653 1
+a653 1
+	uint32 nChunks = kfile->GetPartCount();
+d674 1
+a674 1
+	md4cpy(&fu.m_fileHash, kfile->GetFileHash());
+d678 3
+a680 3
+	uchar* chunks_info = new uchar[nParts];
+	Dbt data_chunks_info(chunks_info, sizeof(uchar) * nParts);
+	data_chunks_info.set_ulen(sizeof(uchar) * nParts);
+d692 1
+a692 1
+		CLoggable::AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Jumpstart WARNING: User %s asked for file %s, no chunk data, denied"), client->GetClientNameWithSoftware() , kfile->GetFileName());
+d699 1
+a699 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s asked for file %s, completed by this user, allowed"), client->GetClientNameWithSoftware(), kfile->GetFileName());
+d707 1
+a707 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s asked for file %s, chunk invisible for user, denied"), client->GetClientNameWithSoftware(), kfile->GetFileName());
+d716 1
+a716 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s asked for file %s, chunk completed, denied"), client->GetClientNameWithSoftware(), kfile->GetFileName());
+@
+
+
+1.40
+log
+@Disabled not really required code; Restructuring of downloaded block merge code;
+Large file size support preparations.
+@
+text
+@d39 7
+d115 2
+a116 2
+	pDbJumpstart->open( NULL, DATABASE_FILE_NAME, "File-Chunks", DB_HASH, DB_CREATE | DB_THREAD |
+	                    DB_AUTO_COMMIT, 0 );
+d122 17
+a138 2
+	pDbUserBlocks->open( NULL, DATABASE_FILE_NAME, "FileUserChunk-Blocks", DB_HASH, DB_CREATE | DB_THREAD |
+	                     DB_AUTO_COMMIT, 0 );
+d142 2
+a143 2
+	pDbUserChunks->open( NULL, DATABASE_FILE_NAME, "FileUser-Chunk", DB_HASH, DB_CREATE | DB_THREAD |
+	                     DB_AUTO_COMMIT, 0 );
+d147 2
+a148 2
+	pDbJSOptions->open( NULL, DATABASE_FILE_NAME, "File-JSOptions", DB_HASH, DB_CREATE | DB_THREAD |
+	                    DB_AUTO_COMMIT, 0 );
+a149 1
+
+d161 7
+d349 26
+a374 1
+	start_and_size.m_lStart = static_cast<uint32>(qwStartOffset);
+a375 1
+	Dbt data_start_and_size(&start_and_size, sizeof(start_and_size));
+a384 2
+		Dbc	*dbcp, *dbcp2;
+
+a432 1
+
+a434 1
+
+d443 1
+a443 1
+		if (start_and_size.m_lStart == partno * PARTSIZE && start_and_size.m_lSize == partsize)
+@
+
+
+1.39
+log
+@Reduced resources used by JumpStart database (don't keep file and user names);
+Formatting.
+@
+text
+@d1 16
+d19 1
+d67 1
+a67 1
+int compare_start_size(DB *pDb, const DBT *pDbt1, const DBT *pDbt2)
+d150 1
+a150 1
+bool CJumpstarter::ShouldBeEnabledForFile(CKnownFile* file)
+d288 1
+a288 1
+void CJumpstarter::AddSentBlock(CUpDownClient* client, uint32 start_offset, uint32 togo)
+d293 1
+d302 1
+d308 1
+a308 1
+	uint32 partno = start_offset / PARTSIZE;
+d321 1
+a321 1
+	start_and_size.m_lStart = start_offset;
+d329 1
+a329 1
+	bool done = false;
+d331 1
+a331 1
+	while (!done)
+d333 2
+a334 1
+		Dbc *dbcp;
+a335 1
+		Dbc *dbcp2;
+a340 1
+
+d358 2
+a359 3
+		bool need_to_merge = false;
+
+		while (dbresult2 == 0 && !need_to_merge)
+a361 3
+			uint32 new_start;
+			uint32 new_size;
+
+d364 2
+d367 3
+a369 4
+				new_start = start_and_size.m_lStart;
+				new_size = max( start_and_size.m_lStart + start_and_size.m_lSize,
+				                start_and_size2.m_lStart + start_and_size2.m_lSize ) - new_start;
+			}
+a370 2
+			if (need_to_merge)
+			{
+d373 2
+a374 2
+				start_and_size.m_lStart = new_start;
+				start_and_size.m_lSize = new_size;
+d376 1
+d378 1
+a378 3
+			else
+			{
+				dbresult = dbcp->get(&key_fuchunk, &data_start_and_size, DB_NEXT_DUP);
+d380 1
+a380 1
+				ASSERT(dbresult == 0);
+d382 1
+a382 1
+				blocks_count++;
+d384 1
+a384 2
+				dbresult2 = dbcp2->get(&key_fuchunk, &data_start_and_size2, DB_NEXT_DUP);
+			}
+d389 1
+a389 4
+
+		if (!need_to_merge && dbresult2 == DB_NOTFOUND)
+			done = true;
+	} // while(!done)
+a462 1
+
+d470 2
+a471 2
+	DbTxn * tid;
+	pDbEnv->txn_begin(NULL, &tid, 0); // m_lStart the transaction
+@
+
+
+1.38
+log
+@Unified way to display client name and version.
+@
+text
+@a5 2
+
+
+a6 1
+#define MAX_NAME_LEN_FOR_HASH 100
+a19 1
+Db*		CJumpstarter::pDbHashNames = NULL;
+a21 2
+// useful structures
+
+d52 2
+a53 2
+	StartAndSize * ss1 = (StartAndSize*) pDbt1->data;
+	StartAndSize* ss2 = (StartAndSize*) pDbt2->data;
+a105 5
+	pDbHashNames = new Db(pDbEnv, 0);
+	pDbHashNames->set_pagesize(16 * 1024); // 16Kb page size
+	pDbHashNames->open( NULL, DATABASE_FILE_NAME, "Hash-Name", DB_HASH, DB_CREATE | DB_THREAD |
+	                    DB_AUTO_COMMIT, 0 );
+
+d116 1
+a116 1
+		return ;
+a117 3
+	pDbHashNames->close(0);
+	safe_delete(pDbHashNames);
+	
+d120 1
+a120 1
+	
+d123 1
+a123 1
+	
+d126 1
+a126 1
+	
+d129 1
+a129 1
+	
+a132 51
+/*
+bool CJumpstarter::ShouldBeEnabledForFile(CKnownFile* file) {
+    try {
+        uchar* m_fileHash = file->GetFileHash();
+        Dbt key(m_fileHash, 16);
+        uint32 nChunks = file->GetPartCount();
+        uchar* chunks_info = new uchar[nChunks];
+        Dbt data(chunks_info,sizeof(uchar)*nChunks);
+        data.set_ulen(sizeof(uchar)*nChunks);
+        data.set_flags(DB_DBT_USERMEM);
+
+        int res = pDbJumpstart->get(NULL, &key, &data, 0);
+
+        bool all_complete=true;
+        if(res != DB_NOTFOUND)
+            for(uint32 i=0; i<nChunks; i++) 
+                if(chunks_info[i] != JS_COMPLETED) {
+                    all_complete = false;
+                    break;
+                }
+
+        delete[] chunks_info;
+
+        if(res == DB_NOTFOUND)
+            return false;
+        else if(all_complete) {
+            CLoggable::AddDebugLogLine(_T("Jumpstart: file %s has already finished the jumpstart period"),file->GetFileName());
+            return false;
+        } else {
+            JSOptions js_options;
+            Dbt js_options_data(&js_options,sizeof(js_options));
+            js_options_data.set_ulen(sizeof(js_options));
+            js_options_data.set_flags(DB_DBT_USERMEM);
+            res = pDbJSOptions->get(NULL, &key, &js_options_data, 0);
+            if(res == DB_NOTFOUND) {
+                memzero(&js_options, sizeof(js_options));
+                js_options.mode = 1;
+                pDbJSOptions->put(NULL, &key, &js_options_data, DB_AUTO_COMMIT);
+            }
+            return (js_options.mode > 0);
+        }
+        
+    }
+	catch(DbException &dbe)
+	{
+		AfxMessageBox(dbe.what());
+	}
+    return false;
+}
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d155 1
+d157 1
+d163 2
+a197 6
+	{
+		/*
+		memzero(&js_options, sizeof(js_options));
+		js_options.mode = 1;
+		pDbJSOptions->put(NULL, &key, &js_options_data, DB_AUTO_COMMIT);
+		*/ 
+a198 1
+	}
+d235 1
+a235 1
+		return ;
+d238 1
+a238 1
+		return ;
+a262 2
+
+		AddHashName(NULL, m_fileHash, file->GetFileName() );
+a266 1
+
+d314 1
+a314 1
+		Dbc * dbcp;
+a355 1
+			//
+a365 1
+
+d433 1
+a433 1
+				// check if the file is completed
+a482 2
+		AddHashName(tid, client->GetUserHash(), client->GetUserName());
+
+d585 1
+d588 1
+a592 16
+void CJumpstarter::AddHashName(DbTxn* tid, const uchar* hash, LPCTSTR name)
+{
+	Dbt key((void *) hash, 16);
+	TCHAR buffer[MAX_NAME_LEN_FOR_HASH];
+	_tcsncpy(buffer, name, MAX_NAME_LEN_FOR_HASH - 1);
+	buffer[MAX_NAME_LEN_FOR_HASH - 1] = 0;
+	Dbt data(buffer, _tcslen(buffer) + 1);
+
+	int flags = 0;
+
+	if (tid == NULL)
+		flags = DB_AUTO_COMMIT;
+
+	pDbHashNames->put(tid, &key, &data, flags);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d637 1
+a637 1
+		CLoggable::AddDebugLogLine(RGB_LOG_WARNING + _T("Jumpstart WARNING: User %s asked for file %s, no chunk data, denied"), client->GetClientNameWithSoftware() , kfile->GetFileName());
+@
+
+
+1.37
+log
+@Fixed incorrect parts status report by JumpStart when only one incomplete part is left {MadamEve};
+JumpStart didn't work for files with size = 0 modulo PARTSIZE; Minor optimization.
+@
+text
+@d726 1
+a726 1
+		CLoggable::AddDebugLogLine(RGB_LOG_WARNING + _T("Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied."), client->GetUserName(), client->GetClientNameAndVersionString() , kfile->GetFileName());
+d733 1
+a733 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s(%s) asked for file %s, completed by this user, allowed."), client->GetUserName(), client->GetClientNameAndVersionString(), kfile->GetFileName());
+d741 1
+a741 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk invisible for user, denied."), client->GetUserName(), client->GetClientNameAndVersionString(), kfile->GetFileName());
+d750 1
+a750 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk completed, denied."), client->GetUserName(), client->GetClientNameAndVersionString(), kfile->GetFileName());
+@
+
+
+1.36
+log
+@Fixed several issues processing files with size = 0 modulo PARTSIZE
+(processing file corruption, jumpstart, statistics, etc.).
+@
+text
+@d353 1
+a353 1
+		return ;
+a569 1
+
+d583 3
+a585 1
+	while (NumVisibleInChunksMap(chunks_info) < NUM_CHUNKS_TO_SHOW)
+d588 1
+a588 1
+		uint32 best_part_value = 0;
+d592 1
+a592 1
+			if ( (chunks_info[i] == JS_INVISIBLE) && (file_chunks_info[i] != JS_COMPLETED))
+d594 2
+a595 1
+				if (best_part == 0xFFFF)
+d597 1
+a597 1
+					// first suitable, remember it
+d599 1
+a599 12
+					best_part_value = file_chunks_info[i];
+				}
+				else
+				{
+					// compare parts
+
+					if (file_chunks_info[i] < best_part_value)
+					{
+						// new one is better
+						best_part = i;
+						best_part_value = file_chunks_info[i];
+					}
+d606 2
+a607 7
+			// nothing found, show all
+
+			for (uint32 i = 0; i < nParts; i++)
+				if (chunks_info[i] == JS_INVISIBLE)
+					chunks_info[i] = JS_VISIBLE;
+
+			break; // end iterations
+d616 2
+a617 1
+				file_chunks_info[best_part] += 1;
+d619 1
+a619 1
+	} // end while(NumVisibleInChunksMap(chunks_info) < NUM_CHUNKS_TO_SHOW)
+a622 1
+
+d628 1
+a628 1
+	uint16 parts = nParts;
+d638 1
+a638 1
+		for (uint32 i = 0;i != 8;i++)
+d640 2
+a641 1
+			if (chunks_info[done] != JS_INVISIBLE)
+d644 1
+a644 3
+			done++;
+
+			if (done == parts)
+d694 1
+d696 2
+a697 5
+	if (res == DB_NOTFOUND)
+	{
+		delete[] chunks_info;
+		return false;
+	}
+a698 2
+	bool result;
+	result = (chunks_info[partNo] == JS_COMPLETED);
+d700 1
+a700 1
+	return result;
+@
+
+
+1.35
+log
+@Preparations for new client version report code.
+@
+text
+@d345 1
+a345 1
+		return ;
+d458 1
+a458 9
+		// check for full part
+		uint32 partsize;
+
+		if (partno == nParts - 1)
+		{
+			partsize = kfile->GetFileSize() % PARTSIZE;
+		}
+		else
+			partsize = PARTSIZE;
+@
+
+
+1.34
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d753 1
+a753 1
+		CLoggable::AddDebugLogLine(RGB_LOG_WARNING + _T("Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied."), client->GetUserName(), GetClientNameAndVersionString(client) , kfile->GetFileName());
+d760 1
+a760 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s(%s) asked for file %s, completed by this user, allowed."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+d768 1
+a768 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk invisible for user, denied."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+d777 1
+a777 1
+		CLoggable::AddDebugLogLine(_T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk completed, denied."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+@
+
+
+1.33
+log
+@Definitively removed the buggy code from JumpStart.
+@
+text
+@d173 1
+a173 1
+            CLoggable::AddDebugLogLine(false, "Jumpstart: file %s has already finished the jumpstart period",file->GetFileName());
+d471 1
+a471 1
+			CLoggable::AddDebugLogLine(false, _T("Jumpstart: User %s completed chunk %d of file %s"), client->GetUserName(), partno, kfile->GetFileName());
+d491 1
+a491 1
+				CLoggable::AddDebugLogLine(false, _T("Jumpstart: User %s (file %s) has no chunks info"), client->GetUserName(), kfile->GetFileName());
+d507 1
+a507 1
+				CLoggable::AddDebugLogLine(false, _T("Jumpstart: File %s has no chunks info, disabled !"), kfile->GetFileName());
+d529 1
+a529 1
+					CLoggable::AddDebugLogLine(false, _T("Jumpstart: File %s has all chunks completed, switching to normal!"), kfile->GetFileName());
+d563 1
+a563 1
+		//CLoggable::AddDebugLogLine(false, "Jumpstart: New user %s for file %s",client->GetUserName(),kfile->GetFileName());
+d587 1
+a587 1
+		CLoggable::AddDebugLogLine(false, _T("Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!"), kfile->GetFileName());
+d633 1
+a633 1
+			CLoggable::AddDebugLogLine( false, _T("Jumpstart: Exposing chunk %d of file %s to user %s"), best_part,
+d733 1
+a733 1
+	//CLoggable::AddDebugLogLine(false, _T("Jumpstart DEBUG: AllowChunkForClient: user: %s chunk: %d"), client->GetUserName(), partNo);
+d753 1
+a753 1
+		CLoggable::AddDebugLogLine(false, RGB_LOG_WARNING + _T("Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied."), client->GetUserName(), GetClientNameAndVersionString(client) , kfile->GetFileName());
+d760 1
+a760 1
+		CLoggable::AddDebugLogLine(false, _T("Jumpstart DEBUG: User %s(%s) asked for file %s, completed by this user, allowed."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+d768 1
+a768 1
+		CLoggable::AddDebugLogLine(false, _T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk invisible for user, denied."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+d777 1
+a777 1
+		CLoggable::AddDebugLogLine(false, _T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk completed, denied."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+@
+
+
+1.32
+log
+@Commented out my last changes to catch a potential bug
+@
+text
+@a533 14
+			/*int iRemainingParts = nParts - 1;	// 0-based index
+
+			if (res != DB_NOTFOUND)
+			{
+				for (uint32 i = 0; i < nParts; i++)
+				{
+					if (chunks_info[i] == JS_COMPLETED)
+					{
+						iRemainingParts--;
+					}
+				}
+			}
+			CLoggable::AddDebugLogLine(false, _T("Jumpstart: User %s completed chunk %d of file %s (%i chunk(s) remaining before Jumpstart ends)"), client->GetUserName(), partno, kfile->GetFileName(), iRemainingParts);*/
+
+@
+
+
+1.31
+log
+@JumpStart now displays number of remaining parts before it ends
+@
+text
+@d471 1
+d534 1
+a534 1
+			int iRemainingParts = nParts - 1;	// 0-based index
+d546 1
+a546 1
+			CLoggable::AddDebugLogLine(false, _T("Jumpstart: User %s completed chunk %d of file %s (%i chunk(s) remaining before Jumpstart ends)"), client->GetUserName(), partno, kfile->GetFileName(), iRemainingParts);
+@
+
+
+1.30
+log
+@only #ifdef _DEBUG the loglines, not the whole programlogic ;)
+@
+text
+@a470 1
+			CLoggable::AddDebugLogLine(false, _T("Jumpstart: User %s completed chunk %d of file %s"), client->GetUserName(), partno, kfile->GetFileName());
+d533 14
+@
+
+
+1.29
+log
+@added #ifdef _DEBUG to avoid debug log flooding :P
+@
+text
+@a756 1
+#ifdef _DEBUG
+d759 1
+d761 1
+d767 1
+d769 1
+d776 1
+d778 1
+a780 1
+#endif
+@
+
+
+1.28
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d757 1
+d776 1
+@
+
+
+1.27
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d658 1
+a658 1
+		uint8 towrite = 0;
+@
+
+
+1.26
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@a5 1
+#if JUMPSTART
+a778 1
+#endif // JUMPSTART
+@
+
+
+1.25
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d183 1
+a183 1
+                memset2(&js_options,0,sizeof(js_options));
+d262 1
+a262 1
+		memset2(&js_options,0,sizeof(js_options));
+d287 1
+a287 1
+		memset2(&js_options, 0, sizeof(js_options));
+@
+
+
+1.24
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d754 1
+a754 1
+		CLoggable::AddDebugLogLine(false, RGB_LIGHT_ORANGE + _T("Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied."), client->GetUserName(), GetClientNameAndVersionString(client) , kfile->GetFileName());
+@
+
+
+1.23
+log
+@Added some colors to the logs...
+@
+text
+@d174 1
+a174 1
+            CLoggable::AddDebugLogLine(false,"Jumpstart: file %s has already finished the jumpstart period",file->GetFileName());
+d564 1
+a564 1
+		//CLoggable::AddDebugLogLine(false,"Jumpstart: New user %s for file %s",client->GetUserName(),kfile->GetFileName());
+d734 1
+a734 1
+	//CLoggable::AddDebugLogLine(false,"Jumpstart DEBUG: AllowChunkForClient: user: %s chunk: %d", client->GetUserName(), partNo);
+d754 1
+a754 1
+		CLoggable::AddDebugLogLine(false, _T("<COLOR=255,102,0>Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied."), client->GetUserName(), GetClientNameAndVersionString(client) , kfile->GetFileName());
+@
+
+
+1.22
+log
+@destructor correction...
+@
+text
+@d754 1
+a754 1
+		CLoggable::AddDebugLogLine(false, _T("Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied."), client->GetUserName(), GetClientNameAndVersionString(client) , kfile->GetFileName());
+@
+
+
+1.21
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d131 2
+d134 2
+d137 2
+d140 2
+d143 2
+a145 3
+
+	// might do a delete on them here, but since we are exiting
+	// anyway ...
+@
+
+
+1.20
+log
+@Formatting, comments, and name changes.
+@
+text
+@d176 1
+a176 1
+                memset(&js_options,0,sizeof(js_options));
+d209 1
+a209 2
+		int res = pDbJumpstart->get
+		          (NULL, &key, &data, 0);
+d250 1
+a250 2
+	int res = pDbJSOptions->get
+	          (NULL, &key, &js_options_data, 0);
+d255 1
+a255 1
+		memset(&js_options,0,sizeof(js_options));
+d276 1
+a276 2
+	int res = pDbJSOptions->get
+	          (NULL, &key, &js_options_data, 0);
+d280 1
+a280 1
+		memset(&js_options, 0, sizeof(js_options));
+d317 1
+a317 2
+	int res = pDbJumpstart->get
+	          (NULL, &key, &data, 0);
+d393 1
+a393 2
+		dbresult = dbcp->get
+		           (&key_fuchunk, &data_start_and_size, DB_SET);
+d399 1
+a399 2
+		dbresult2 = dbcp2->get
+		            (&key_fuchunk, &data_start_and_size2, DB_SET);
+d403 1
+a403 2
+		dbresult2 = dbcp2->get
+		            (&key_fuchunk, &data_start_and_size2, DB_NEXT_DUP);
+d433 1
+a433 2
+				dbresult = dbcp->get
+				           (&key_fuchunk, &data_start_and_size, DB_NEXT_DUP);
+d439 1
+a439 2
+				dbresult2 = dbcp2->get
+				            (&key_fuchunk, &data_start_and_size2, DB_NEXT_DUP);
+d477 1
+a477 2
+			int res = pDbUserChunks->get
+			          (tid, &key_fu, &data_chunks_info, 0);
+d495 1
+a495 2
+			res = pDbJumpstart->get
+			      (tid, &key_filehash, &data_chunks_info, 0);
+d552 1
+a552 2
+	int res = pDbUserChunks->get
+	          (tid, &key_fu, &data_chunks_info, 0);
+d575 1
+a575 2
+	res = pDbJumpstart->get
+	      (tid, &key_filehash, &data_file_chunks_info, 0);
+d710 1
+a710 2
+	int res = pDbJumpstart->get
+	          (NULL, &key, &data, 0);
+d738 1
+a738 2
+	int res = pDbUserChunks->get
+	          (NULL, &key_fu, &data_chunks_info, 0);
+@
+
+
+1.19
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d28 1
+d31 2
+a32 2
+    uint32 m_lStart;
+    uint32 m_lSize;
+d37 2
+a38 2
+    uchar m_fileHash[16];
+    uchar m_userHash[16];
+d43 3
+a45 3
+    uchar m_fileHash[16];
+    uchar m_userHash[16];
+    uint32 chunk_no;
+d50 2
+a51 2
+    uint32 mode; // 0 - disabled, >0 enabled
+    uint32 reserved[10];
+d59 18
+a76 13
+    StartAndSize* ss1= (StartAndSize*) pDbt1->data;
+    StartAndSize* ss2= (StartAndSize*) pDbt2->data;
+    if(ss1->m_lStart < ss2->m_lStart)
+        return -1;
+    if(ss1->m_lStart > ss2->m_lStart)
+        return 1;
+    // m_lStart is equal
+    if(ss1->m_lSize < ss2->m_lSize)
+        return -1;
+    if(ss1->m_lSize > ss2->m_lSize)
+        return 1;
+    // equal
+    return 0;
+d78 1
+d83 2
+a84 2
+    kfile = file;
+    nParts = kfile->GetPartCount();
+d86 1
+d91 1
+d95 1
+a95 1
+    pDbEnv = pDbEnvironment;
+d98 2
+a99 2
+	pDbJumpstart->open( NULL, DATABASE_FILE_NAME, "File-Chunks", DB_HASH, DB_CREATE | DB_THREAD|
+						DB_AUTO_COMMIT, 0);
+d102 2
+a103 2
+    pDbUserBlocks->set_flags(DB_DUPSORT);
+    pDbUserBlocks->set_dup_compare(&compare_start_size);
+d105 2
+a106 2
+	pDbUserBlocks->open(NULL, DATABASE_FILE_NAME, "FileUserChunk-Blocks", DB_HASH, DB_CREATE | DB_THREAD| 
+                DB_AUTO_COMMIT, 0);
+d108 1
+a108 1
+    pDbUserChunks = new Db(pDbEnv, 0);
+d110 2
+a111 2
+	pDbUserChunks->open(NULL, DATABASE_FILE_NAME, "FileUser-Chunk", DB_HASH, DB_CREATE | DB_THREAD| 
+                DB_AUTO_COMMIT, 0);
+d113 1
+a113 1
+    pDbHashNames = new Db(pDbEnv, 0);
+d115 2
+a116 2
+	pDbHashNames->open(NULL, DATABASE_FILE_NAME, "Hash-Name", DB_HASH, DB_CREATE | DB_THREAD| 
+                DB_AUTO_COMMIT, 0);
+d118 1
+a118 1
+    pDbJSOptions = new Db(pDbEnv, 0);
+d120 2
+a121 2
+	pDbJSOptions->open(NULL, DATABASE_FILE_NAME, "File-JSOptions", DB_HASH, DB_CREATE | DB_THREAD| 
+                DB_AUTO_COMMIT, 0);
+d123 1
+d127 9
+a135 7
+    if(pDbEnv == NULL) return;
+    pDbHashNames->close(0);
+    pDbUserChunks->close(0);
+    pDbUserBlocks->close(0);
+    pDbJumpstart->close(0);
+    pDbJSOptions->close(0);
+    pDbEnv = NULL;
+d137 2
+a138 2
+    // might do a delete on them here, but since we are exiting
+    // anyway ...
+d194 1
+a194 1
+    return ReadJsEnabled(file);
+d199 1
+a199 1
+    try
+d201 33
+a233 28
+        const uchar* m_fileHash = file->GetFileHash();
+        Dbt key((void *)m_fileHash, 16);
+        uint32 nChunks = file->GetPartCount();
+        uchar* chunks_info = new uchar[nChunks];
+        Dbt data(chunks_info,sizeof(uchar)*nChunks);
+        data.set_ulen(sizeof(uchar)*nChunks);
+        data.set_flags(DB_DBT_USERMEM);
+
+        int res = pDbJumpstart->get(NULL, &key, &data, 0);
+
+        bool all_complete=true;
+        if(res != DB_NOTFOUND)
+            for(uint32 i=0; i<nChunks; i++) 
+                if(chunks_info[i] != JS_COMPLETED) {
+                    all_complete = false;
+                    break;
+                }
+
+        delete[] chunks_info;
+
+        if(res == DB_NOTFOUND) {
+            return false;
+        }
+        else {
+            return all_complete;
+        }
+    }
+	catch(DbException &dbe)
+d237 2
+a238 1
+    return false;
+d240 1
+d244 21
+a264 17
+    const uchar* m_fileHash = file->GetFileHash();
+    Dbt key((void *)m_fileHash, 16);
+    JSOptions js_options;
+    Dbt js_options_data(&js_options,sizeof(js_options));
+    js_options_data.set_ulen(sizeof(js_options));
+    js_options_data.set_flags(DB_DBT_USERMEM);
+
+    int res = pDbJSOptions->get(NULL, &key, &js_options_data, 0);
+    if(res == DB_NOTFOUND) {
+        /*
+        memset(&js_options,0,sizeof(js_options));
+        js_options.mode = 1;
+        pDbJSOptions->put(NULL, &key, &js_options_data, DB_AUTO_COMMIT);
+        */
+        return false;
+    }
+    return (js_options.mode > 0);
+d266 1
+d270 18
+a287 14
+    // later we might m_lStart using transactions here
+    const uchar* m_fileHash = file->GetFileHash();
+    Dbt key((void *)m_fileHash, 16);
+    JSOptions js_options;
+    Dbt js_options_data(&js_options,sizeof(js_options));
+    js_options_data.set_ulen(sizeof(js_options));
+    js_options_data.set_flags(DB_DBT_USERMEM);
+
+    int res = pDbJSOptions->get(NULL, &key, &js_options_data, 0);
+    if(res == DB_NOTFOUND) {
+        memset(&js_options,0,sizeof(js_options));
+    }
+    js_options.mode = enabled?1:0;
+    pDbJSOptions->put(NULL, &key, &js_options_data, DB_AUTO_COMMIT);
+d289 1
+d293 1
+a293 1
+    WriteJsEnabled(this->kfile, false);
+d295 1
+d299 33
+a331 22
+    if(ReadJsEnabled(file))
+        return;
+    if(IsJsCompleteForFile(file))
+        return;
+
+    const uchar* m_fileHash = file->GetFileHash();
+    uint32 nChunks = file->GetPartCount();
+    uchar* chunks_info = new uchar[nChunks];
+
+    Dbt key((void *)m_fileHash, 16);
+    Dbt data(chunks_info,sizeof(uchar)*nChunks);
+    data.set_ulen(sizeof(uchar)*nChunks);
+    data.set_flags(DB_DBT_USERMEM);
+
+    // FIXME: Wrap this in a transaction
+    int res = pDbJumpstart->get(NULL, &key, &data, 0);
+    if(res == DB_NOTFOUND) { 
+        for(uint32 i=0; i<nChunks; i++)
+            chunks_info[i] = 0;
+        pDbJumpstart->put(NULL, &key, &data, DB_AUTO_COMMIT);
+        AddHashName(NULL, m_fileHash, file->GetFileName() );
+    }
+d333 1
+a333 1
+    WriteJsEnabled(file, true);
+d336 1
+a336 1
+    delete[] chunks_info;
+d338 1
+d342 109
+a450 8
+    if(togo == 0) return;
+    if(start_offset/PARTSIZE != (start_offset + togo - 1)/PARTSIZE) {
+        // split on part border and do two recursive calls to ourselves
+        uint32 next_part_start = ((start_offset/PARTSIZE)+1)*PARTSIZE;
+        AddSentBlock(client, start_offset, next_part_start-start_offset);
+        AddSentBlock(client, next_part_start, togo - (next_part_start-start_offset));
+        return;
+    }
+d452 2
+a453 2
+    int dbresult;
+    int dbresult2;
+d455 3
+a457 2
+    // the block belongs to one part here
+    uint32 partno = start_offset/PARTSIZE;
+d459 4
+a462 2
+    DbTxn *tid;
+    pDbEnv->txn_begin(NULL, &tid, 0); // m_lStart the transaction
+d464 6
+a469 92
+    // add the new record (database is sorted)
+    FileUserChunk fuchunk;
+    md4cpy(&fuchunk.m_fileHash, kfile->GetFileHash());
+    md4cpy(&fuchunk.m_userHash, client->GetUserHash());
+    fuchunk.chunk_no = partno;
+    Dbt key_fuchunk(&fuchunk, sizeof(fuchunk));
+
+    StartAndSize start_and_size;
+    start_and_size.m_lStart = start_offset;
+    start_and_size.m_lSize = togo;
+    Dbt data_start_and_size(&start_and_size, sizeof(start_and_size));
+
+    pDbUserBlocks->put(tid, &key_fuchunk, &data_start_and_size,0);
+
+    // now, do a pass removing overlaps
+    int blocks_count;
+    bool done=false;
+    while(!done) {
+        Dbc *dbcp;
+        pDbUserBlocks->cursor(tid, &dbcp, 0);
+        Dbc *dbcp2;
+        pDbUserBlocks->cursor(tid, &dbcp2, 0);
+
+        data_start_and_size.set_flags(DB_DBT_USERMEM);
+        data_start_and_size.set_ulen(sizeof(start_and_size));
+
+
+        StartAndSize start_and_size2;
+        Dbt data_start_and_size2(&start_and_size2, sizeof(start_and_size2));
+        data_start_and_size2.set_flags(DB_DBT_USERMEM);
+        data_start_and_size2.set_ulen(sizeof(start_and_size2));
+
+        dbresult = dbcp->get(&key_fuchunk, &data_start_and_size, DB_SET);
+        ASSERT(dbresult==0);
+        blocks_count = 1;
+
+        dbresult2 = dbcp2->get(&key_fuchunk, &data_start_and_size2, DB_SET);
+        ASSERT(dbresult2==0);
+        dbresult2 = dbcp2->get(&key_fuchunk,&data_start_and_size2,DB_NEXT_DUP);
+        
+        bool need_to_merge=false;
+        while(dbresult2==0 && !need_to_merge) {
+            // check for overlap
+            uint32 new_start;
+            uint32 new_size;
+            if(start_and_size2.m_lStart <= start_and_size.m_lStart +start_and_size.m_lSize) {
+                need_to_merge = true;
+                new_start = start_and_size.m_lStart;
+                new_size = max(start_and_size.m_lStart + start_and_size.m_lSize, 
+                                start_and_size2.m_lStart + start_and_size2.m_lSize) - new_start;
+            }
+            //
+            if(need_to_merge) {
+                dbresult = dbcp->del(0);
+                dbresult2 = dbcp2->del(0);
+                start_and_size.m_lStart=new_start;
+                start_and_size.m_lSize=new_size;
+                pDbUserBlocks->put(tid, &key_fuchunk, &data_start_and_size,0);
+            } else {
+                dbresult = dbcp->get(&key_fuchunk, &data_start_and_size, DB_NEXT_DUP);
+                ASSERT(dbresult==0);
+                blocks_count++;
+                dbresult2 = dbcp2->get(&key_fuchunk,&data_start_and_size2,DB_NEXT_DUP);
+            }
+        }
+        dbcp->close();
+        dbcp2->close();
+        if(!need_to_merge && dbresult2 == DB_NOTFOUND)
+            done = true;
+    } // while(!done)
+
+    if(blocks_count==1) {
+        // check for full part
+        uint32 partsize;
+        if(partno==nParts-1) {
+            partsize = kfile->GetFileSize() % PARTSIZE;
+        } else
+            partsize = PARTSIZE;
+
+        if(start_and_size.m_lStart==partno*PARTSIZE && start_and_size.m_lSize==partsize) {
+            // Yes, this is full part
+            CLoggable::AddDebugLogLine(false,_T("Jumpstart: User %s completed chunk %d of file %s"),client->GetUserName(),partno,kfile->GetFileName());
+
+            FileUser fu;
+            md4cpy(&fu.m_fileHash, kfile->GetFileHash());
+            md4cpy(&fu.m_userHash, client->GetUserHash());
+            Dbt key_fu(&fu, sizeof(fu));
+
+            uchar* chunks_info = new uchar[nParts];
+            Dbt data_chunks_info(chunks_info,sizeof(uchar)*nParts);
+            data_chunks_info.set_ulen(sizeof(uchar)*nParts);
+            data_chunks_info.set_flags(DB_DBT_USERMEM);
+d471 67
+a537 11
+            int res = pDbUserChunks->get(tid, &key_fu, &data_chunks_info, 0);
+            if(res == DB_NOTFOUND) {
+                // the chunk data for this user does not exist,
+                // probably he got on queue before we've enabled
+                // the Jumpstart on this file. easiest way is
+                // to ignore him :)
+                CLoggable::AddDebugLogLine(false,_T("Jumpstart: User %s (file %s) has no chunks info"),client->GetUserName(),kfile->GetFileName());
+            } else {
+                chunks_info[partno] = JS_COMPLETED;
+                pDbUserChunks->put(tid, &key_fu, &data_chunks_info, 0);
+            }
+d539 2
+a540 24
+            Dbt key_filehash(&fu.m_fileHash, sizeof(fu.m_fileHash));
+            res = pDbJumpstart->get(tid, &key_filehash, &data_chunks_info, 0);
+            if(res == DB_NOTFOUND) {
+                // the chunk data for this file does not exist
+                // this is a serious error
+                CLoggable::AddDebugLogLine(false,_T("Jumpstart: File %s has no chunks info, disabled !"),kfile->GetFileName());
+                kfile->SetJumpstartEnabled(false);
+            } else {
+                chunks_info[partno] = JS_COMPLETED;
+                pDbJumpstart->put(tid, &key_filehash, &data_chunks_info, 0);
+                // check if the file is completed
+                bool has_more_chunks=false;
+                for(uint32 i=0; i<nParts; i++) {
+                    if(chunks_info[i]!=JS_COMPLETED) {
+                        has_more_chunks = true;
+                        break;
+                    }
+                }
+                if(!has_more_chunks) {
+                    // hooray! the file's done
+                    CLoggable::AddDebugLogLine(false,_T("Jumpstart: File %s has all chunks completed, switching to normal!"),kfile->GetFileName());
+                    kfile->SetJumpstartEnabled(false);
+                }
+            }
+d542 1
+a542 4
+            delete[] chunks_info;
+        } // end if got full part
+        
+    } // end if(blocks_count==1) - one block in this part after merging
+d544 1
+a544 1
+    tid->commit(0);
+d549 54
+a602 2
+    DbTxn *tid;
+    pDbEnv->txn_begin(NULL, &tid, 0); // m_lStart the transaction
+d604 51
+a654 19
+    // load chunk data for this user
+    FileUser fu;
+    md4cpy(&fu.m_fileHash, kfile->GetFileHash());
+    md4cpy(&fu.m_userHash, client->GetUserHash());
+    Dbt key_fu(&fu, sizeof(fu));
+
+    uchar* chunks_info = new uchar[nParts];
+    Dbt data_chunks_info(chunks_info,sizeof(uchar)*nParts);
+    data_chunks_info.set_ulen(sizeof(uchar)*nParts);
+    data_chunks_info.set_flags(DB_DBT_USERMEM);
+
+    int res = pDbUserChunks->get(tid, &key_fu, &data_chunks_info, 0);
+    if(res == DB_NOTFOUND) {
+        // the chunk data for this user does not exist
+        //CLoggable::AddDebugLogLine(false,"Jumpstart: New user %s for file %s",client->GetUserName(),kfile->GetFileName());
+        AddHashName(tid, client->GetUserHash(), client->GetUserName());
+        for(uint32 i=0; i<nParts; i++)
+            chunks_info[i]=JS_INVISIBLE;
+    }
+d656 2
+a657 14
+    // load file chunks
+    Dbt key_filehash(&fu.m_fileHash, sizeof(fu.m_fileHash));
+    uchar* file_chunks_info = new uchar[nParts];
+    Dbt data_file_chunks_info(file_chunks_info,sizeof(uchar)*nParts);
+    data_file_chunks_info.set_ulen(sizeof(uchar)*nParts);
+    data_file_chunks_info.set_flags(DB_DBT_USERMEM);
+
+    res = pDbJumpstart->get(tid, &key_filehash, &data_file_chunks_info, 0);
+    if(res == DB_NOTFOUND) {
+        // the chunk data for this file does not exist
+        // this is a serious error
+        CLoggable::AddDebugLogLine(false,_T("Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!"),kfile->GetFileName());
+        kfile->SetJumpstartEnabled(false);
+    }
+d659 1
+a659 34
+    // find chunks to show
+    while(NumVisibleInChunksMap(chunks_info) < NUM_CHUNKS_TO_SHOW) {
+        uint32 best_part=0xFFFF;
+        uint32 best_part_value=0;
+        for(uint32 i=0; i<nParts; i++) {
+            if( (chunks_info[i] == JS_INVISIBLE) && (file_chunks_info[i] != JS_COMPLETED)) {
+                if(best_part==0xFFFF) {
+                    // first suitable, remember it
+                    best_part = i;
+                    best_part_value = file_chunks_info[i];
+                } else {
+                    // compare parts
+                    if(file_chunks_info[i] < best_part_value) {
+                        // new one is better
+                        best_part = i;
+                        best_part_value = file_chunks_info[i];
+                    }
+                }
+            }
+        } // end for(uint32 i=0; i<nParts ...
+        if(best_part==0xFFFF) {
+            // nothing found, show all
+            for(uint32 i=0; i<nParts; i++)
+                if(chunks_info[i] == JS_INVISIBLE)
+                    chunks_info[i] = JS_VISIBLE;
+            break; // end iterations
+        } else {
+            CLoggable::AddDebugLogLine(false,_T("Jumpstart: Exposing chunk %d of file %s to user %s"),best_part, 
+                            kfile->GetFileName(),client->GetUserName());
+            chunks_info[best_part] = JS_VISIBLE;
+            if(file_chunks_info[best_part] < JS_MAX_USERS)
+                file_chunks_info[best_part] += 1;
+        }
+    } // end while(NumVisibleInChunksMap(chunks_info) < NUM_CHUNKS_TO_SHOW)
+a660 9
+    // save new data for user and file
+    pDbUserChunks->put(tid, &key_fu, &data_chunks_info, 0);
+    pDbJumpstart->put(tid, &key_filehash, &data_file_chunks_info, 0);
+    
+    tid->commit(0);
+
+    // now actualy write the part status
+    uint16 parts = nParts;
+	file->Write(&parts,2);
+d662 3
+a664 1
+	while (done != parts){
+d666 3
+a668 1
+		for (uint32 i = 0;i != 8;i++){
+d670 1
+a670 1
+				towrite |= (1<<i);
+d673 1
+d677 2
+a678 1
+		file->Write(&towrite,1);
+d681 2
+a682 2
+    delete[] chunks_info;
+    delete[] file_chunks_info;
+d687 7
+a693 5
+    uint32 count_visible=0;
+    for(uint32 i=0; i<nParts; i++)
+        if(chunks_map[i] == JS_VISIBLE)
+            count_visible++;
+    return count_visible;
+d698 10
+a707 9
+    Dbt key((void *)hash,16);
+    TCHAR buffer[MAX_NAME_LEN_FOR_HASH];
+    _tcsncpy(buffer, name, MAX_NAME_LEN_FOR_HASH-1);
+    buffer[MAX_NAME_LEN_FOR_HASH-1] = 0;
+    Dbt data(buffer, _tcslen(buffer)+1);
+
+    int flags = 0;
+    if(tid==NULL)
+        flags = DB_AUTO_COMMIT;
+d709 1
+a709 1
+    pDbHashNames->put(tid, &key, &data, flags);
+d714 8
+a721 8
+    uchar m_fileHash[16];
+    md4cpy(&m_fileHash, kfile->GetFileHash());
+    Dbt key(m_fileHash, 16);
+    uint32 nChunks = kfile->GetPartCount();
+    uchar* chunks_info = new uchar[nChunks];
+    Dbt data(chunks_info,sizeof(uchar)*nChunks);
+    data.set_ulen(sizeof(uchar)*nChunks);
+    data.set_flags(DB_DBT_USERMEM);
+d723 2
+a724 1
+    int res = pDbJumpstart->get(NULL, &key, &data, 0);
+d726 5
+a730 4
+    if(res == DB_NOTFOUND) {
+        delete[] chunks_info;
+        return false;
+    }
+d732 4
+a735 4
+    bool result;
+    result = (chunks_info[partNo]==JS_COMPLETED);
+    delete[] chunks_info;
+    return result;
+d740 31
+a770 20
+    // load chunk data for this user
+    //CLoggable::AddDebugLogLine(false,"Jumpstart DEBUG: AllowChunkForClient: user: %s chunk: %d", client->GetUserName(), partNo);
+    FileUser fu;
+    md4cpy(&fu.m_fileHash, kfile->GetFileHash());
+    md4cpy(&fu.m_userHash, client->GetUserHash());
+    Dbt key_fu(&fu, sizeof(fu));
+
+    uchar* chunks_info = new uchar[nParts];
+    Dbt data_chunks_info(chunks_info,sizeof(uchar)*nParts);
+    data_chunks_info.set_ulen(sizeof(uchar)*nParts);
+    data_chunks_info.set_flags(DB_DBT_USERMEM);
+
+    int res = pDbUserChunks->get(NULL, &key_fu, &data_chunks_info, 0);
+    uchar this_chunk_info = chunks_info[partNo];
+    delete[] chunks_info;
+    if(res == DB_NOTFOUND) {
+        // the chunk data for this user does not exist
+        CLoggable::AddDebugLogLine(false,_T("Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied."), client->GetUserName(), GetClientNameAndVersionString(client) ,kfile->GetFileName());
+        return false;
+    }
+d772 5
+a776 8
+    if(this_chunk_info==JS_COMPLETED) {
+        CLoggable::AddDebugLogLine(false,_T("Jumpstart DEBUG: User %s(%s) asked for file %s, completed by this user, allowed."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+        return true;
+    }
+    if(this_chunk_info==JS_INVISIBLE) {
+        CLoggable::AddDebugLogLine(false,_T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk invisible for user, denied."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+        return false;
+    }
+d778 6
+a783 5
+    // here we are when the chunk is visible for this user
+    if(IsChunkComplete(partNo)) {
+        CLoggable::AddDebugLogLine(false,_T("Jumpstart DEBUG: User %s(%s) asked for file %s, chunk completed, denied."), client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+        return false;
+    }
+d785 1
+a785 1
+    return true;
+@
+
+
+1.18
+log
+@Formatting, comments, and name changes.
+@
+text
+@a4 1
+#include "memcpy_amd.h"
+@
+
+
+1.17
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d29 2
+a30 1
+struct StartAndSize {
+d35 2
+a36 1
+struct FileUser {
+d41 2
+a42 1
+struct FileUserChunk {
+d48 2
+a49 1
+struct JSOptions {
+d54 2
+d57 2
+a58 1
+int compare_start_size(DB *pDb, const DBT *pDbt1, const DBT *pDbt2) {
+d73 4
+a76 3
+
+
+CJumpstarter::CJumpstarter(CKnownFile* file) {
+d80 7
+a86 5
+
+CJumpstarter::~CJumpstarter(void) {
+}
+
+void CJumpstarter::OpenDatabases(DbEnv*	pDbEnvironment){
+d90 2
+a91 2
+	pDbJumpstart->open(NULL, DATABASE_FILE_NAME, "File-Chunks", DB_HASH, DB_CREATE | DB_THREAD|
+                DB_AUTO_COMMIT, 0);
+d96 1
+a96 1
+	pDbUserBlocks->set_pagesize(16 * 1024); // 16Kb page m_lSize
+d101 1
+a101 1
+	pDbUserChunks->set_pagesize(16 * 1024); // 16Kb page m_lSize
+d106 1
+a106 1
+	pDbHashNames->set_pagesize(16 * 1024); // 16Kb page m_lSize
+d111 1
+a111 1
+	pDbJSOptions->set_pagesize(16 * 1024); // 16Kb page m_lSize
+d115 3
+a117 3
+
+
+void CJumpstarter::CloseDatabases(void) {
+d129 1
+a129 1
+
+d180 3
+a182 2
+
+bool CJumpstarter::ShouldBeEnabledForFile(CKnownFile* file) {
+d185 5
+a189 3
+
+bool CJumpstarter::IsJsCompleteForFile(CKnownFile* file) {
+    try {
+d223 3
+a225 3
+
+
+bool CJumpstarter::ReadJsEnabled(CKnownFile* file) {
+d244 3
+a246 2
+
+void CJumpstarter::WriteJsEnabled(CKnownFile* file, bool enabled) {
+d262 3
+a264 2
+
+void CJumpstarter::Disable() {
+d267 3
+a269 2
+
+void CJumpstarter::EnableForFile(CKnownFile* file) {
+d298 3
+a300 2
+
+void CJumpstarter::AddSentBlock(CUpDownClient* client, uint32 start_offset, uint32 togo) {
+d456 3
+a458 2
+
+void CJumpstarter::WriteJumpstartPartStatus(CUpDownClient* client, CMemFile* file) {
+d558 3
+a560 3
+
+
+uint32 CJumpstarter::NumVisibleInChunksMap(uchar* chunks_map) {
+d567 3
+a569 2
+
+void CJumpstarter::AddHashName(DbTxn* tid, const uchar* hash, LPCTSTR name){
+d582 3
+a584 2
+
+bool CJumpstarter::IsChunkComplete(uint32 partNo) {
+d606 3
+a608 2
+
+bool CJumpstarter::AllowChunkForClient(uint32 partNo, CUpDownClient* client) {
+d647 1
+a647 1
+
+@
+
+
+1.16
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@a303 1
+    #ifndef AMD
+a305 4
+    #else
+    memcpy_amd(&fuchunk.m_fileHash, kfile->GetFileHash(), 16);
+    memcpy_amd(&fuchunk.m_userHash, client->GetUserHash(), 16);
+    #endif
+a385 1
+            #ifndef AMD
+a387 4
+            #else
+            memcpy_amd(&fu.m_fileHash, kfile->GetFileHash(), 16);
+            memcpy_amd(&fu.m_userHash, client->GetUserHash(), 16);
+            #endif
+a445 1
+    #ifndef AMD
+a447 4
+    #else
+    memcpy_amd(&fu.m_fileHash, kfile->GetFileHash(), 16);
+    memcpy_amd(&fu.m_userHash, client->GetUserHash(), 16);
+    #endif
+a565 1
+    #ifndef AMD
+a566 3
+    #else
+    memcpy_amd(&m_fileHash, kfile->GetFileHash(), 16);
+    #endif
+a590 1
+    #ifndef AMD
+a592 4
+    #else
+    memcpy_amd(&fu.m_fileHash, kfile->GetFileHash(), 16);
+    memcpy_amd(&fu.m_userHash, client->GetUserHash(), 16);
+    #endif
+@
+
+
+1.15
+log
+@unicode cleanup
+@
+text
+@d30 2
+a31 2
+    uint32 start;
+    uint32 size;
+d35 2
+a36 2
+    uchar filehash[16];
+    uchar userhash[16];
+d40 2
+a41 2
+    uchar filehash[16];
+    uchar userhash[16];
+d54 1
+a54 1
+    if(ss1->start < ss2->start)
+d56 1
+a56 1
+    if(ss1->start > ss2->start)
+d58 2
+a59 2
+    // start is equal
+    if(ss1->size < ss2->size)
+d61 1
+a61 1
+    if(ss1->size > ss2->size)
+d79 1
+a79 1
+	pDbJumpstart->set_pagesize(16 * 1024); // 16Kb page size
+d86 1
+a86 1
+	pDbUserBlocks->set_pagesize(16 * 1024); // 16Kb page size
+d91 1
+a91 1
+	pDbUserChunks->set_pagesize(16 * 1024); // 16Kb page size
+d96 1
+a96 1
+	pDbHashNames->set_pagesize(16 * 1024); // 16Kb page size
+d101 1
+a101 1
+	pDbJSOptions->set_pagesize(16 * 1024); // 16Kb page size
+d123 2
+a124 2
+        uchar* filehash = file->GetFileHash();
+        Dbt key(filehash, 16);
+d177 2
+a178 2
+        const uchar* filehash = file->GetFileHash();
+        Dbt key((void *)filehash, 16);
+d213 2
+a214 2
+    const uchar* filehash = file->GetFileHash();
+    Dbt key((void *)filehash, 16);
+d233 3
+a235 3
+    // later we might start using transactions here
+    const uchar* filehash = file->GetFileHash();
+    Dbt key((void *)filehash, 16);
+d259 1
+a259 1
+    const uchar* filehash = file->GetFileHash();
+d263 1
+a263 1
+    Dbt key((void *)filehash, 16);
+d274 1
+a274 1
+        AddHashName(NULL, filehash, file->GetFileName() );
+d300 1
+a300 1
+    pDbEnv->txn_begin(NULL, &tid, 0); // start the transaction
+d305 2
+a306 2
+    md4cpy(&fuchunk.filehash, kfile->GetFileHash());
+    md4cpy(&fuchunk.userhash, client->GetUserHash());
+d308 2
+a309 2
+    memcpy_amd(&fuchunk.filehash, kfile->GetFileHash(), 16);
+    memcpy_amd(&fuchunk.userhash, client->GetUserHash(), 16);
+d315 2
+a316 2
+    start_and_size.start = start_offset;
+    start_and_size.size = togo;
+d352 1
+a352 1
+            if(start_and_size2.start <= start_and_size.start +start_and_size.size) {
+d354 3
+a356 3
+                new_start = start_and_size.start;
+                new_size = max(start_and_size.start + start_and_size.size, 
+                                start_and_size2.start + start_and_size2.size) - new_start;
+d362 2
+a363 2
+                start_and_size.start=new_start;
+                start_and_size.size=new_size;
+d386 1
+a386 1
+        if(start_and_size.start==partno*PARTSIZE && start_and_size.size==partsize) {
+d392 2
+a393 2
+            md4cpy(&fu.filehash, kfile->GetFileHash());
+            md4cpy(&fu.userhash, client->GetUserHash());
+d395 2
+a396 2
+            memcpy_amd(&fu.filehash, kfile->GetFileHash(), 16);
+            memcpy_amd(&fu.userhash, client->GetUserHash(), 16);
+d417 1
+a417 1
+            Dbt key_filehash(&fu.filehash, sizeof(fu.filehash));
+d452 1
+a452 1
+    pDbEnv->txn_begin(NULL, &tid, 0); // start the transaction
+d457 2
+a458 2
+    md4cpy(&fu.filehash, kfile->GetFileHash());
+    md4cpy(&fu.userhash, client->GetUserHash());
+d460 2
+a461 2
+    memcpy_amd(&fu.filehash, kfile->GetFileHash(), 16);
+    memcpy_amd(&fu.userhash, client->GetUserHash(), 16);
+d480 1
+a480 1
+    Dbt key_filehash(&fu.filehash, sizeof(fu.filehash));
+d580 1
+a580 1
+    uchar filehash[16];
+d582 1
+a582 1
+    md4cpy(&filehash, kfile->GetFileHash());
+d584 1
+a584 1
+    memcpy_amd(&filehash, kfile->GetFileHash(), 16);
+d586 1
+a586 1
+    Dbt key(filehash, 16);
+d611 2
+a612 2
+    md4cpy(&fu.filehash, kfile->GetFileHash());
+    md4cpy(&fu.userhash, client->GetUserHash());
+d614 2
+a615 2
+    memcpy_amd(&fu.filehash, kfile->GetFileHash(), 16);
+    memcpy_amd(&fu.userhash, client->GetUserHash(), 16);
+@
+
+
+1.14
+log
+@minor changes (use md4... instead of mem...)
+@
+text
+@d206 1
+a206 1
+		AfxMessageBox(dbe.what());
+d388 1
+a388 1
+            CLoggable::AddDebugLogLine(false,"Jumpstart: User %s completed chunk %d of file %s",client->GetUserName(),partno,kfile->GetFileName());
+d411 1
+a411 1
+                CLoggable::AddDebugLogLine(false,"Jumpstart: User %s (file %s) has no chunks info",client->GetUserName(),kfile->GetFileName());
+d422 1
+a422 1
+                CLoggable::AddDebugLogLine(false,"Jumpstart: File %s has no chunks info, disabled !",kfile->GetFileName());
+d437 1
+a437 1
+                    CLoggable::AddDebugLogLine(false,"Jumpstart: File %s has all chunks completed, switching to normal!",kfile->GetFileName());
+d490 1
+a490 1
+        CLoggable::AddDebugLogLine(false,"Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!",kfile->GetFileName());
+d521 1
+a521 1
+            CLoggable::AddDebugLogLine(false,"Jumpstart: Exposing chunk %d of file %s to user %s",best_part, 
+d567 2
+a568 2
+    char buffer[MAX_NAME_LEN_FOR_HASH];
+    strncpy(buffer, name, MAX_NAME_LEN_FOR_HASH-1);
+d570 1
+a570 1
+    Dbt data(buffer, strlen(buffer)+1);
+d629 1
+a629 1
+        CLoggable::AddDebugLogLine(false,"Jumpstart WARNING: User %s(%s) asked for file %s, no chunk data, denied.", client->GetUserName(), GetClientNameAndVersionString(client) ,kfile->GetFileName());
+d634 1
+a634 1
+        CLoggable::AddDebugLogLine(false,"Jumpstart DEBUG: User %s(%s) asked for file %s, completed by this user, allowed.", client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+d638 1
+a638 1
+        CLoggable::AddDebugLogLine(false,"Jumpstart DEBUG: User %s(%s) asked for file %s, chunk invisible for user, denied.", client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+d644 1
+a644 1
+        CLoggable::AddDebugLogLine(false,"Jumpstart DEBUG: User %s(%s) asked for file %s, chunk completed, denied.", client->GetUserName(), GetClientNameAndVersionString(client), kfile->GetFileName());
+@
+
+
+1.13
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d305 2
+a306 2
+    memcpy(&fuchunk.filehash, kfile->GetFileHash(), 16);
+    memcpy(&fuchunk.userhash, client->GetUserHash(), 16);
+d392 2
+a393 2
+            memcpy(&fu.filehash, kfile->GetFileHash(), 16);
+            memcpy(&fu.userhash, client->GetUserHash(), 16);
+d457 2
+a458 2
+    memcpy(&fu.filehash, kfile->GetFileHash(), 16);
+    memcpy(&fu.userhash, client->GetUserHash(), 16);
+d582 1
+a582 1
+    memcpy(&filehash, kfile->GetFileHash(), 16);
+d611 2
+a612 2
+    memcpy(&fu.filehash, kfile->GetFileHash(), 16);
+    memcpy(&fu.userhash, client->GetUserHash(), 16);
+@
+
+
+1.12
+log
+@code cleanup
+@
+text
+@d5 1
+d304 1
+d307 4
+d391 1
+d394 4
+d456 1
+d459 4
+d581 1
+d583 3
+d610 1
+d613 4
+@
+
+
+1.11
+log
+@const correctness
+@
+text
+@d176 2
+a177 2
+        uchar* filehash = file->GetFileHash();
+        Dbt key(filehash, 16);
+d212 2
+a213 2
+    uchar* filehash = file->GetFileHash();
+    Dbt key(filehash, 16);
+d233 2
+a234 2
+    uchar* filehash = file->GetFileHash();
+    Dbt key(filehash, 16);
+d258 1
+a258 1
+    uchar* filehash = file->GetFileHash();
+d262 1
+a262 1
+    Dbt key(filehash, 16);
+d549 2
+a550 2
+void CJumpstarter::AddHashName(DbTxn* tid, uchar* hash, LPCTSTR name){
+    Dbt key(hash,16);
+@
+
+
+1.10
+log
+@fix for Jumpstart insisting on turning itself on
+@
+text
+@d549 1
+a549 1
+void CJumpstarter::AddHashName(DbTxn* tid, uchar* hash, char* name){
+@
+
+
+1.9
+log
+@Jumpstart debug runtime check
+@
+text
+@d4 1
+d25 1
+d44 5
+d98 5
+d112 1
+d114 3
+d119 1
+d144 15
+a158 7
+        else {
+            if(all_complete) {
+                CLoggable::AddDebugLogLine(false,"Jumpstart: file %s has already finished the jumpstart period",file->GetFileName());
+                return false;
+                }
+            else
+                return true;
+d160 1
+d168 1
+d170 6
+a175 2
+void CJumpstarter::EnableForFile(CKnownFile* file) {
+    if(!ShouldBeEnabledForFile(file)) {
+d177 1
+a179 4
+        for(uint32 i=0; i<nChunks; i++)
+            chunks_info[i] = 0;
+
+        Dbt key(filehash, 16);
+d181 2
+d184 1
+a184 1
+        pDbJumpstart->put(NULL, &key, &data, DB_AUTO_COMMIT);
+d186 7
+a192 1
+        AddHashName(NULL, filehash, file->GetFileName() );
+d195 48
+d244 36
+d586 39
+@
+
+
+1.8
+log
+@fixes
+@
+text
+@d443 24
+@
+
+
+1.7
+log
+@converted to new logging method
+@
+text
+@d3 1
+d95 1
+a95 1
+    if(pDbEnv != NULL) return;
+d115 2
+a116 5
+        delete[] chunks_info;
+        if(res == DB_NOTFOUND)
+            return false;
+        else {
+            bool all_complete=true;
+d122 6
+d129 1
+a129 1
+                AddDebugLogLine(false,"Jumpstart: file %s has already finished the jumpstart period",file->GetFileName());
+d262 1
+a262 1
+            AddDebugLogLine(false,"Jumpstart: User %s completed chunk %d of file %s",client->GetUserName(),partno,kfile->GetFileName());
+d280 1
+a280 1
+                AddDebugLogLine(false,"Jumpstart: User %s (file %s) has no chunks info",client->GetUserName(),kfile->GetFileName());
+d291 1
+a291 1
+                AddDebugLogLine(false,"Jumpstart: File %s has no chunks info, disabled !",kfile->GetFileName());
+d306 1
+a306 1
+                    AddDebugLogLine(false,"Jumpstart: File %s has all chunks completed, switching to normal!",kfile->GetFileName());
+d337 1
+a337 1
+        //AddDebugLogLine(false,"Jumpstart: New user %s for file %s",client->GetUserName(),kfile->GetFileName());
+d354 1
+a354 1
+        AddDebugLogLine(false,"Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!",kfile->GetFileName());
+d385 1
+a385 1
+            AddDebugLogLine(false,"Jumpstart: Exposing chunk %d of file %s to user %s",best_part, 
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d125 1
+a125 1
+                theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: file %s has already finished the jumpstart period",file->GetFileName());
+d258 1
+a258 1
+            theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: User %s completed chunk %d of file %s",client->GetUserName(),partno,kfile->GetFileName());
+d276 1
+a276 1
+                theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: User %s (file %s) has no chunks info",client->GetUserName(),kfile->GetFileName());
+d287 1
+a287 1
+                theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: File %s has no chunks info, disabled !",kfile->GetFileName());
+d302 1
+a302 1
+                    theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: File %s has all chunks completed, switching to normal!",kfile->GetFileName());
+d333 1
+a333 1
+        //theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: New user %s for file %s",client->GetUserName(),kfile->GetFileName());
+d350 1
+a350 1
+        theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: File %s has no chunks info in WriteJumpstartPartStatus, disabled!",kfile->GetFileName());
+d381 1
+a381 1
+            theApp.emuledlg->AddDebugLogLine(false,"Jumpstart: Exposing chunk %d of file %s to user %s",best_part, 
+@
+
+
+1.5
+log
+@jumpstart fixes
+@
+text
+@d381 2
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d124 2
+a125 1
+            if(all_complete)
+d127 1
+a390 2
+    delete[] chunks_info;
+    delete[] file_chunks_info;
+d410 2
+@
+
+
+1.3
+log
+@more Jumpstarter
+@
+text
+@d8 1
+d22 1
+a22 1
+
+d85 5
+d92 1
+d95 1
+d117 12
+a128 2
+        else
+            return true;
+d150 2
+d220 1
+a220 1
+            if(start_and_size2.start <= start_and_size.start +start_and_size2.size) {
+d254 1
+a254 1
+        if(start_and_size.start==0 && start_and_size.size==partsize) {
+d332 1
+d400 1
+a400 1
+			if (chunks_info[done])
+d420 15
+@
+
+
+1.2
+log
+@compilation fix
+@
+text
+@d9 2
+d14 1
+d293 106
+@
+
+
+1.1
+log
+@Changes protected by a #define, should have no effect
+@
+text
+@d4 3
+d289 2
+@
+

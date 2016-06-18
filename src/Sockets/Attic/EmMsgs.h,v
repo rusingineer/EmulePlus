@@ -1,0 +1,585 @@
+head	1.14;
+access;
+symbols
+	PublicRelease_1i:1.13
+	Interim_Release_1i_RC6:1.13
+	Interim_Release_1i_RC3:1.12
+	Interim_Release_1i_RC2:1.11
+	Interim_Release_1i_RC1:1.9
+	Interim_Release_1i_beta3:1.9
+	Interim_Release_1i_beta2:1.7
+	Interim_Release_1i_beta1:1.6
+	PublicRelease_1h:1.6
+	Interim_Release_1h_rc2:1.6
+	Interim_Release_1h_RC1:1.6
+	Interim_Release_1h_beta2:1.6
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.3;
+locks; strict;
+comment	@ * @;
+
+
+1.14
+date	2003.12.16.17.48.07;	author kuchin;	state dead;
+branches;
+next	1.13;
+
+1.13
+date	2003.12.03.19.28.00;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.11.19.11.14.32;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.11.17.10.24.33;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.11.15.12.31.46;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.30.16.57.42;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.29.14.14.25;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.23.18.50.26;	author uid77509;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.03.11.50.54;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.08.26.16.54.24;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.19.06.52.40;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.15.12.51.25;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.15.10.08.19;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.10.14.19.55;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.14
+log
+@New engine
+@
+text
+@/////////////////////////////////////////////////////////
+// EmMsgs.h - definition of all eMule messages (opcodes)
+//
+// NOTE Don't put <#pragma once> directive here. 
+// This file should be included multiple times.
+
+
+
+/////////////////////////////////////////////////////////
+// Client OpCodes 
+/////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////
+// Hello OpCode, sent right after connecting to client
+BEGIN_OPCODE(0x01, HELLO, EDONKEY, PEER)
+
+	PARAM_BYTE_JUNK(16)
+	
+	PARAM_HASH(Hash)
+	PARAM_ADDRPORT(Client)
+
+	PARAM_TAGS_BEGIN
+		PARAM_TAG_STR(UserName, CT_NAME)
+		PARAM_TAG_DWORD(ClientVersion, CT_VERSION)
+		PARAM_TAG_DWORD(UserPort, CT_PORT)
+	PARAM_TAGS_END
+
+	PARAM_ADDRPORT(Server)
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Answer to Hello OpCode
+BEGIN_OPCODE(0x4C, HELLOANSWER, EDONKEY, PEER)
+
+	PARAM_HASH(Hash)
+	PARAM_ADDRPORT(Client)
+
+	PARAM_TAGS_BEGIN
+		PARAM_TAG_STR(UserName, CT_NAME)
+		PARAM_TAG_DWORD(ClientVersion, CT_VERSION)
+	PARAM_TAGS_END
+
+	PARAM_ADDRPORT(Server)
+
+	#ifdef PARAM_INTERNAL_DEFINITION
+
+	// put any internal variables here
+
+	#endif // PARAM_INTERNAL_DEFINITION
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Offer files
+BEGIN_OPCODE(0x15, OFFERFILES, EDONKEY, PEER)
+
+// implement complex array later
+	PARAM_COMPLEXARRAY_BEGIN(OFFERFILES, Files)
+		PARAM_HASH(Hash)
+		PARAM_ADDRPORT(Client)
+
+		PARAM_TAGS_BEGIN
+			PARAM_TAG_STR(FileName, FT_FILENAME)
+			PARAM_TAG_DWORD(FileSize, FT_FILESIZE)
+		PARAM_TAGS_END
+
+	PARAM_COMPLEXARRAY_END(Files)
+
+END_OPCODE
+
+
+/////////////////////////////////////////////////////////
+// Server OpCodes
+/////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////
+// Login request
+BEGIN_OPCODE(0x01, LOGINREQUEST, EDONKEY, SERVER)
+
+	PARAM_HASH(Hash)
+	PARAM_DWORD(ClientID)
+	PARAM_USHORT(ClientPort)
+
+	PARAM_TAGS_BEGIN
+		PARAM_TAG_STR(UserName, CT_NAME)
+		PARAM_TAG_DWORD(ClientVersion, CT_VERSION)
+		PARAM_TAG_DWORD(UserPort, CT_PORT)
+	PARAM_TAGS_END
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Server message
+BEGIN_OPCODE(0x38, SERVERMESSAGE, EDONKEY, SERVER)
+
+	PARAM_STRING(Msg)
+
+	OPCODE_PROCESS_UI
+
+	#ifdef PARAM_INTERNAL_DEFINITION // Internal variables
+	int			m_nMsgCount;
+	ADDRPORT	m_Server;
+	#endif // PARAM_INTERNAL_DEFINITION
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// ID change
+BEGIN_OPCODE(0x40, IDCHANGE, EDONKEY, SERVER)
+
+	PARAM_DWORD(ClientID)
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Search results
+BEGIN_OPCODE(0x33, SEARCHRESULT, EDONKEY, SERVER)
+
+	// search results
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Found sources
+BEGIN_OPCODE(0x42, FOUNDSOURCES, EDONKEY, SERVER)
+
+	PARAM_HASH(Hash)
+	PARAM_ARRAY(Sources, ADDRPORT, BYTE)
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Server status update
+BEGIN_OPCODE(0x34, SERVERSTATUS, EDONKEY, SERVER)
+
+	PARAM_DWORD(NumberOfUsers)
+	PARAM_DWORD(NumberOfFiles)
+
+	OPCODE_PROCESS_UI
+
+	#ifdef PARAM_INTERNAL_DEFINITION // Internal variables
+	ADDRPORT m_Server;
+	#endif // PARAM_INTERNAL_DEFINITION
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Server info
+BEGIN_OPCODE(0x41, SERVERIDENT, EDONKEY, SERVER)
+
+	PARAM_HASH(Hash)
+	PARAM_ADDRPORT(Server)
+
+	PARAM_TAGS_BEGIN
+		PARAM_TAG_STR(ServerName, ST_SERVERNAME)
+		PARAM_TAG_STR(ServerDescription, ST_DESCRIPTION)
+	PARAM_TAGS_END
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Server list
+BEGIN_OPCODE(0x32, SERVERLIST, EDONKEY, SERVER)
+
+	PARAM_ARRAY(Servers, ADDRPORT, BYTE)
+
+END_OPCODE
+
+/////////////////////////////////////////////////////////
+// Some client request callback through server
+BEGIN_OPCODE(0x35, CALLBACKREQUESTED, EDONKEY, SERVER)
+
+	PARAM_ADDRPORT(Client)
+
+END_OPCODE
+@
+
+
+1.13
+log
+@New sockets
+@
+text
+@@
+
+
+1.12
+log
+@New sockets - can offer files to server
+@
+text
+@d60 3
+a62 1
+//	PARAM_ARRAY(Files, OFFEREDFILE, DWORD)
+d64 4
+a67 3
+	PARAM_DWORD(Count) // =1
+	PARAM_HASH(Hash)
+	PARAM_ADDRPORT(Client)
+d69 1
+a69 4
+	PARAM_TAGS_BEGIN
+		PARAM_TAG_STR(FileName, FT_FILENAME)
+		PARAM_TAG_DWORD(FileSize, FT_FILESIZE)
+	PARAM_TAGS_END
+@
+
+
+1.11
+log
+@New sockets
+@
+text
+@d59 11
+a69 1
+	PARAM_ARRAY(Files, OFFEREDFILE, DWORD)
+@
+
+
+1.10
+log
+@New sockets
+@
+text
+@d59 1
+a59 1
+	PARAM_ARRAY(Files, HASHADDRPORT, DWORD)
+@
+
+
+1.9
+log
+@New sockets - more server code
+@
+text
+@d2 1
+a2 1
+// EmMsgs.h - definition of all Emule messages (opcodes)
+d4 2
+a5 2
+// NOTE Don't put #pramga once directive here. 
+// This file can be included multiple times.
+d14 1
+d33 1
+d55 8
+d69 1
+d85 1
+a85 1
+
+d100 1
+d108 1
+d116 1
+d125 1
+d140 1
+d154 1
+d162 1
+a168 1
+
+@
+
+
+1.8
+log
+@Formatting, comments, and name changes.
+@
+text
+@d83 2
+a84 5
+
+	int		m_nMsgCount;
+	ULONG	m_nAddr;
+	USHORT	m_uPort;
+
+d106 2
+a107 1
+	// found sources
+d120 1
+a120 4
+
+	ULONG	m_nAddr;
+	USHORT	m_uPort;
+
+@
+
+
+1.7
+log
+@New sockets - more server code
+@
+text
+@d86 1
+a86 1
+	USHORT	m_nPort;
+d124 1
+a124 1
+	USHORT	m_nPort;
+@
+
+
+1.6
+log
+@New sockets
+@
+text
+@d82 8
+d118 9
+@
+
+
+1.5
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@d80 2
+@
+
+
+1.4
+log
+@New sockets update
+@
+text
+@d15 1
+a15 1
+BEGIN_OPCODE(0x01, HELLO, EDONKEY)
+d19 1
+a19 1
+	PARAM_BUF(Hash, BYTE, 16)
+d23 3
+a25 3
+		PARAM_TAG_STR(UserName, 0x01)
+		PARAM_TAG_DWORD(ClientVersion, 0x11)
+		PARAM_TAG_DWORD(UserPort, 0x0f)
+d33 1
+a33 1
+BEGIN_OPCODE(0x4C, HELLOANSWER, EDONKEY)
+d35 1
+a35 1
+	PARAM_BUF(Hash, BYTE, 16)
+d39 2
+a40 2
+		PARAM_TAG_STR(UserName, 0x01)
+		PARAM_TAG_DWORD(ClientVersion, 0x11)
+d59 16
+d76 1
+a76 1
+BEGIN_OPCODE(0x38, SERVERMESSAGE, EDONKEY)
+d83 1
+a83 1
+BEGIN_OPCODE(0x40, IDCHANGE, EDONKEY)
+d90 1
+a90 1
+BEGIN_OPCODE(0x33, SEARCHRESULT, EDONKEY)
+d97 1
+a97 1
+BEGIN_OPCODE(0x42, FOUNDSOURCES, EDONKEY)
+d104 1
+a104 1
+BEGIN_OPCODE(0x34, SERVERSTATUS, EDONKEY)
+d112 1
+a112 1
+BEGIN_OPCODE(0x41, SERVERIDENT, EDONKEY)
+d114 1
+a114 1
+	PARAM_BUF(Hash, BYTE, 16)
+d118 2
+a119 2
+		PARAM_TAG_STR(ServerName, 0x01)
+		PARAM_TAG_STR(ServerDescription, 0x0B)
+d125 1
+a125 1
+BEGIN_OPCODE(0x32, SERVERLIST, EDONKEY)
+d132 1
+a132 1
+BEGIN_OPCODE(0x35, CALLBACKREQUESTED, EDONKEY)
+@
+
+
+1.3
+log
+@Server OpCodes
+@
+text
+@d20 1
+a20 2
+	PARAM_DWORD(ClientID)
+	PARAM_USHORT(ClientPort)
+d28 1
+a28 2
+	PARAM_DWORD(ServerID)
+	PARAM_USHORT(ServerPort)
+d36 1
+a36 2
+	PARAM_DWORD(ClientID)
+	PARAM_USHORT(ClientPort)
+d43 1
+a43 2
+	PARAM_DWORD(ServerID)
+	PARAM_USHORT(ServerPort)
+d62 1
+a62 1
+	// here should be PARAM_STRING with variable length?
+d99 1
+a99 2
+	PARAM_DWORD(ServerIP)
+	PARAM_USHORT(ServerPort)
+d111 1
+a111 5
+	PARAM_BYTE(Count)
+	// should implement array here
+		PARAM_DWORD(ServerIP)
+		PARAM_USHORT(ServerPort)
+	// end of array
+d118 1
+a118 2
+	PARAM_DWORD(ClientIP)
+	PARAM_USHORT(ClientPort)
+@
+
+
+1.2
+log
+@Another new sockets cumulative update
+@
+text
+@d1 1
+a1 1
+////////////////////////////////////////
+d3 3
+a6 1
+// NOTE Don't put #pramga once directive here. This file can be included multiple times.
+d8 8
+a15 1
+BEGIN_OPCODE(	0x01,	HELLO, EDONKEY)
+d20 1
+a20 1
+	PARAM_DWORD(UserID)
+d34 2
+a35 1
+BEGIN_OPCODE(	0x4C,	HELLOANSWER, EDONKEY)
+d38 1
+a38 1
+	PARAM_DWORD(UserID)
+d49 63
+a111 1
+	#ifdef WRITE_INTERNAL_START
+d113 2
+a114 2
+		int m_nValue;
+		CString m_strTxt;
+d116 13
+a128 1
+	#endif // WRITE_INTERNAL_START
+@
+
+
+1.1
+log
+@Cumulative update. Not working yet.
+@
+text
+@a17 1
+		PARAM_NTAG_DWORD(VladikUserPort, "vladik")
+d25 15
+a39 2
+BEGIN_OPCODE(	0x11,	HELLOANSWER, EDONKEY)
+END_OPCODE
+d41 2
+d44 1
+a44 2
+/*
+BEGIN_MESSAGE(	100,	HELLO)
+d46 1
+a46 2
+	PARAM_DWORD(SomeNumber)
+	PARAM_TEXT(SomeText)
+a47 2
+END_MESSAGE
+*/@
+

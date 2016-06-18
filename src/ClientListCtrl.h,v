@@ -1,0 +1,790 @@
+head	1.31;
+access;
+symbols
+	PublicRelease_1_2e:1.30
+	Interim_Release_1-2e_RC1:1.30
+	PublicRelease_1_2d:1.28
+	Interim_Release_1-2d_RC1:1.28
+	Interim_Release_1-2d_beta1:1.28
+	PublicRelease_1_2c:1.28
+	Interim_Release_1-2c_RC1:1.28
+	Interim_Release_1-2c_beta1:1.28
+	PublicRelease_1_2b:1.28
+	Interim_Release_1-2b_RC1:1.28
+	PublicRelease_1_2a:1.26
+	Interim_Release_1-2a_RC1:1.26
+	Interim_Release_1-2a_beta2:1.26
+	Interim_Release_1-2a_beta1:1.26
+	PublicRelease_1_2:1.25
+	Interim_Release_1-2_RC1:1.25
+	Interim_Release_1-2_beta1:1.25
+	PublicRelease_1_1g:1.25
+	Interim_Release_1-1g_RC3:1.25
+	Interim_Release_1-1g_RC2:1.25
+	Interim_Release_1-1g_RC1:1.25
+	Interim_Release_1-1g_beta2:1.25
+	Interim_Release_1-1g_beta1:1.25
+	PublicRelease_1_1f:1.25
+	Interim_Release_1-1f_RC1:1.25
+	PublicRelease_1_1e:1.25
+	Interim_Release_1-1e_RC2:1.25
+	Interim_Release_1-1e_RC1:1.25
+	Interim_Release_1-1e_beta1:1.25
+	PublicRelease_1_1d:1.25
+	Interim_Release_1-1d_RC1:1.25
+	PublicRelease_1_1c:1.25
+	Interim_Release_1-1c_RC1:1.25
+	Interim_Release_1-1c_beta2:1.25
+	Interim_Release_1-1c_beta1:1.25
+	PublicRelease_1_1b:1.25
+	Interim_Release_1-1b_RC1:1.25
+	PublicRelease_1_1a:1.25
+	Interim_Release_1-1a_RC2:1.25
+	Interim_Release_1-1a_RC1:1.25
+	Interim_Release_1-1a_beta2:1.25
+	Interim_Release_1-1a_beta1:1.25
+	PublicRelease_1_1:1.25
+	Interim_Release_1-1_beta1:1.25
+	PublicRelease_1o:1.24
+	Interim_Release_1o_RC1:1.24
+	Interim_Release_1o_beta1:1.24
+	PublicRelease_1n:1.23
+	Interim_Release_1n_RC2:1.23
+	Interim_Release_1n_RC1:1.23
+	Interim_Release_1n_beta2:1.23
+	Interim_Release_1n_beta1:1.21
+	PublicRelease_1m:1.20
+	Interim_Release_1m_beta1:1.20
+	PublicRelease_1l:1.20
+	Interim_Release_1l_RC3:1.20
+	Interim_Release_1l_RC2:1.20
+	Interim_Release_1l_RC1:1.19
+	Interim_Release_1l_beta2:1.19
+	Interim_Release_1l_beta1:1.19
+	PublicRelease_1k:1.15
+	Interim_Release_1k_RC4:1.15
+	Interim_1k_RC3:1.15
+	Interim_1k_RC2:1.15
+	Interim_Release_1k_RC1:1.15
+	Interim_Release_1k_beta5:1.15
+	Intrerim_Release_1k_beta4:1.15
+	Interim_Release_1k_beta1:1.15
+	PublicRelease_1j:1.14
+	Interim_Release_1J_RC3:1.14
+	Interim_Release_1j_RC3:1.14
+	Interim_Release_1j_RC2:1.13
+	Interim_Release_1j_RC1:1.13
+	Interim_Release_1j_beta2:1.13
+	Interim_Release_1j_beta1:1.13
+	PublicRelease_1i:1.12
+	Interim_Release_1i_RC6:1.12
+	Interim_Release_1i_RC3:1.11
+	Interim_Release_1i_RC2:1.11
+	Interim_Release_1i_RC1:1.11
+	Interim_Release_1i_beta3:1.11
+	Interim_Release_1i_beta2:1.11
+	Interim_Release_1i_beta1:1.7;
+locks; strict;
+comment	@ * @;
+
+
+1.31
+date	2009.05.14.03.10.30;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2008.11.03.05.56.16;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2008.09.29.04.29.59;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.11.17.05.26.11;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.11.16.11.57.00;	author eklmn;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.09.30.19.09.31;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.09.12.20.40.52;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.08.06.17.00.46;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.07.24.06.56.42;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.07.18.12.20.31;	author eklmn;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.06.01.22.30.45;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.05.05.15.38.39;	author netwolf1;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.04.26.14.08.33;	author katsyonak;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.04.25.08.33.01;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.04.25.06.03.19;	author katsyonak;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.31.12.17.08;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.19.18.21.28;	author dropf;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.12.14.08.02.00;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.11.30.17.52.44;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.10.17.10.29.05;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.08.15.39.47;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.04.10.03.16;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.04.00.48.37;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.03.23.18.49;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.03.13.04.36;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.28.15.40.36;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.28.14.58.08;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.09.24.21.06.11;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.31
+log
+@Save sorting directions for all GUI lists; Unified list sort initialization and click processing;
+Simplified list arrow configuration interface.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "MuleListCtrl.h"
+
+class CUpDownClient;
+
+class CClientListCtrl : public CMuleListCtrl
+{
+	DECLARE_DYNAMIC(CClientListCtrl)
+
+public:
+					CClientListCtrl();
+	virtual		   ~CClientListCtrl();
+	virtual void	DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct);
+	void			Init();
+	void			AddClient(CUpDownClient* client);
+	void			RemoveClient(CUpDownClient* client);
+	void			UpdateClient(CUpDownClient* client);
+	void			Localize();
+	void			ShowKnownClients();
+	virtual BOOL	OnCommand(WPARAM wParam,LPARAM lParam);
+	void			ShowSelectedUserDetails();
+
+protected:
+	static int CALLBACK SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
+	static int		SortClient(CUpDownClient* item1, CUpDownClient* item2, int sortMod);
+	afx_msg void	OnContextMenu(CWnd* pWnd, CPoint point);
+	afx_msg void	OnNMDblclk(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnGetDispInfo(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnNMClick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+
+	virtual void	OnNMDividerDoubleClick(NMHEADER *pNMHDR);
+	virtual BOOL	OnWndMsg(UINT iMessage, WPARAM wParam, LPARAM lParam, LRESULT *pResult);
+	virtual BOOL	PreTranslateMessage(MSG *pMsg);
+
+	DECLARE_MESSAGE_MAP()
+
+private:
+	typedef vector<CUpDownClient*>		ClientVector;
+
+	int			m_iColumnMaxWidths[CLCOL_NUMCOLUMNS];
+	int			m_iMeasuringColumn;
+	ClientVector		*m_pvecDirtyClients;	// List of clients that need client list ctrl refresh
+
+private:
+	bool				AddDirtyClient(CUpDownClient *pClient);
+	ClientVector*		GetDirtyClients();
+	void				RefreshInfo(void);
+};
+@
+
+
+1.30
+log
+@Simplified column resize interface.
+@
+text
+@a36 1
+	void			SortInit(int sortCode);
+a42 1
+	afx_msg	void	OnColumnClick(NMHDR* pNMHDR, LRESULT* pResult);
+a57 1
+	bool			m_bSortAscending[CLCOL_NUMCOLUMNS];
+@
+
+
+1.29
+log
+@Local class functions were made private; Removed unrequired/double includes.
+@
+text
+@d51 2
+a52 2
+	virtual BOOL	OnNMDividerDoubleClick(NMHEADER* pNMHDR, LRESULT* pResult);
+	virtual BOOL	OnWndMsg(UINT iMessage,WPARAM wParam, LPARAM lParam, LRESULT *pResult);
+@
+
+
+1.28
+log
+@Rolled back "don't process invisible GUI lists" - reason: current list positions and visible view regions are not preserved.
+@
+text
+@a18 1
+#include "types.h"
+d48 2
+d53 1
+d55 1
+a56 1
+	DECLARE_MESSAGE_MAP()
+d65 3
+a67 6
+	bool 			AddDirtyClient(CUpDownClient *pClient);
+	ClientVector* 		GetDirtyClients();
+
+public:
+	afx_msg void		OnNMClick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void		OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+a68 1
+	virtual BOOL		PreTranslateMessage(MSG* pMsg);
+@
+
+
+1.27
+log
+@don't process invisible GUI lists
+@
+text
+@a39 1
+	virtual BOOL	ShowWindow(int nCmdShow);
+a57 1
+	bool			m_bIsVisible;
+@
+
+
+1.26
+log
+@Reduced H-file dependency.
+@
+text
+@d40 1
+d59 1
+@
+
+
+1.25
+log
+@Preferences storage reorganization and minor optimization.
+@
+text
+@d17 1
+a18 2
+#pragma once
+#include <sys/timeb.h>
+a19 1
+#include "TitleMenu.h"
+a20 1
+#include "Loggable.h"
+a21 1
+// CClientListCtrl
+@
+
+
+1.24
+log
+@Removed old unused code.
+@
+text
+@a24 15
+enum EnumClientListColumns
+{
+	CLCOL_USERNAME = 0,
+	CLCOL_UPLOADSTATUS,
+	CLCOL_TRANSFERREDUP,
+	CLCOL_DOWNLOADSTATUS,
+	CLCOL_TRANSFERREDDOWN,
+	CLCOL_CLIENTSOFTWARE,
+	CLCOL_CONNECTEDTIME,
+	CLCOL_USERHASH,
+	CLCOL_COUNTRY,
+
+	CLCOL_NUMCOLUMNS
+};
+
+@
+
+
+1.23
+log
+@SSWQ
+@
+text
+@a60 1
+	DWORD			m_dwSortTime;
+@
+
+
+1.22
+log
+@Faster client icon drawing in the lists;
+Unified processing of client icon images; Unused methods are removed.
+@
+text
+@a58 1
+	void			PostRefreshMessage();
+d83 1
+a83 1
+	void 			AddDirtyClient(CUpDownClient *pClient);
+@
+
+
+1.21
+log
+@1) corrected default toolbar definition
+2) improved processing of the username by anti-leecher feature
+3) unified async GUI updade of Upload, Queue & Client lists
+@
+text
+@d21 1
+a21 1
+#include "titlemenu.h"
+a24 16
+enum EnumClientListIcons
+{
+	CL_ICON_NORMAL = 0,
+	CL_ICON_COMPROT,
+	CL_ICON_MLDONKEY,
+	CL_ICON_EDONKEYHYBRID,
+	CL_ICON_CREDIT_ONLY,
+	CL_ICON_FRIEND_ONLY,
+	CL_ICON_BANNED_ONLY,
+	CL_ICON_UNKNOWN,
+	CL_ICON_AMULE,
+	CL_ICON_LMULE,
+	CL_ICON_SHAREAZA,
+	CL_ICON_SECUREHASH,
+};
+
+d37 1
+a37 1
+	CLCOL_NUMCOLUMNS,
+a54 2
+	void			Hide() {ShowWindow(SW_HIDE);}
+	void			Show() {ShowWindow(SW_SHOW);}
+a62 2
+
+	CImageList		m_imageList;
+d79 1
+a79 1
+	bool			m_bSortAscending[CLCOL_NUMCOLUMNS];	 
+@
+
+
+1.20
+log
+@Add aMule client support;
+CDonkey client support is eliminated.
+@
+text
+@d97 9
+a105 5
+	bool				m_bSortAscending[CLCOL_NUMCOLUMNS];	 
+	int					m_iColumnMaxWidths[CLCOL_NUMCOLUMNS];
+	int					m_iMeasuringColumn;
+	UINT_PTR			m_hTimer;
+	static void CALLBACK ListUpdateTimer(HWND hwnd, UINT uiMsg, UINT idEvent, DWORD dwTime);
+@
+
+
+1.19
+log
+@Middle mouse button click opens details of selected client or file
+@
+text
+@d35 1
+a35 1
+	CL_ICON_CDONKEY,
+@
+
+
+1.18
+log
+@added tooltips in On Queue & Known Clients lists
+@
+text
+@d78 1
+@
+
+
+1.17
+log
+@Please, DO NOT alter column order. This messes with users column customization and don't bring a standard as people likings are different.
+@
+text
+@d80 2
+a95 1
+	CImageList 			m_imageList;
+@
+
+
+1.16
+log
+@Added "Country" column in Uploads/On Queue/Known Clients lists
+@
+text
+@a43 1
+	CLCOL_COUNTRY,
+d51 1
+@
+
+
+1.15
+log
+@Formatting, comments, and name changes.
+@
+text
+@d44 1
+@
+
+
+1.14
+log
+@Some corrections in shortcut management code to keep new engine hierarchy (thanks to eklmn ;-))
+@
+text
+@d104 1
+a104 1
+	virtual BOOL PreTranslateMessage(MSG* pMsg);
+@
+
+
+1.13
+log
+@Added forced update fro Known List.
+@
+text
+@d104 1
+@
+
+
+1.12
+log
+@fixed crash  due context menu, shortcut optimiation & update to UNICODE
+@
+text
+@d23 1
+d94 1
+a94 1
+	bool					m_bSortAscending[CLCOL_NUMCOLUMNS];	 
+d97 2
+@
+
+
+1.11
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@d93 1
+a93 2
+	bool				m_bSortAscending[CLCOL_NUMCOLUMNS];	 
+	CTitleMenu			m_menuClient;
+@
+
+
+1.10
+log
+@no message
+@
+text
+@a23 3
+#define CL_SORTASC		0
+#define CL_SORTDESC		100
+
+@
+
+
+1.9
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d24 1
+@
+
+
+1.8
+log
+@Formatting, comments, and name changes. Factored various UI update methods out and modified to use async. messaging instead of sync. call.
+@
+text
+@d56 1
+a56 1
+// CWndClientList
+d59 1
+a59 1
+class CWndClientList : public CMuleListCtrl
+d61 1
+a61 1
+	DECLARE_DYNAMIC(CWndClientList)
+d64 2
+a65 2
+					CWndClientList();
+	virtual		   ~CWndClientList();
+d70 1
+a70 1
+	void			RefreshClient(CUpDownClient* client);
+d76 2
+a77 1
+	virtual BOOL	OnCommand(WPARAM wParam,LPARAM lParam );
+d83 1
+a83 1
+	afx_msg	void	OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult);
+d94 5
+a98 5
+	CImageList 		m_imageList;
+	bool			m_bSortAscending[CLCOL_NUMCOLUMNS];	 
+	CTitleMenu		m_menuClient;
+	int				m_iColumnMaxWidths[CLCOL_NUMCOLUMNS];
+	int				m_iMeasuringColumn;
+d101 3
+a103 3
+	afx_msg void	OnNMClick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+	void			RefreshInfo(void);
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+Fixed column resizing on double-click.
+@
+text
+@d88 2
+@
+
+
+1.6
+log
+@Formatting, comments, and name changes.
+@
+text
+@d24 2
+@
+
+
+1.5
+log
+@Formatting, comments, and name changes.
+@
+text
+@d24 29
+d62 15
+a76 14
+	CWndClientList();
+	virtual ~CWndClientList();
+	virtual void DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct);
+	void	Init();
+	void	AddClient(CUpDownClient* client);
+	void	RemoveClient(CUpDownClient* client);
+	void	RefreshClient(CUpDownClient* client);
+	void	Hide() {ShowWindow(SW_HIDE);}
+	void	Visable() {ShowWindow(SW_SHOW);}
+	void	Localize();
+	void	ShowKnownClients();
+	void	SortInit(int sortCode);
+	DWORD	m_dwSortTime;
+	virtual BOOL OnCommand(WPARAM wParam,LPARAM lParam );
+d79 8
+a86 5
+	static int SortClient(CUpDownClient* item1, CUpDownClient* item2, int sortMod);
+	afx_msg	void OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult);
+	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
+	afx_msg void OnNMDblclk(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnGetDispInfo(NMHDR *pNMHDR, LRESULT *pResult);
+d89 6
+a94 3
+	CImageList 	imagelist;
+	bool		m_bSortAscending[8];	 
+	CTitleMenu	m_menuClient;
+d96 3
+a98 3
+	afx_msg void OnNMClick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+	void RefreshInfo(void);
+@
+
+
+1.4
+log
+@Formatting, comments, and name changes.
+@
+text
+@d57 1
+a57 1
+	bool		asc_sort[8];	 
+@
+
+
+1.3
+log
+@Added new details IFDEF
+@
+text
+@d45 1
+a45 1
+	DWORD	m_sortTime;
+d58 1
+a58 1
+	CTitleMenu	m_ClientMenu;
+@
+
+
+1.2
+log
+@Fixed sort for clients in Known List
+@
+text
+@a42 1
+	void	ShowSelectedUserDetails();
+@
+
+
+1.1
+log
+@Added Known List to transfer window (missing files).
+@
+text
+@d50 1
+@
+

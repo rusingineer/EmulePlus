@@ -1,0 +1,1451 @@
+head	1.31;
+access;
+symbols
+	PublicRelease_1_2e:1.30
+	Interim_Release_1-2e_RC1:1.30
+	PublicRelease_1_2d:1.29
+	Interim_Release_1-2d_RC1:1.29
+	Interim_Release_1-2d_beta1:1.27
+	PublicRelease_1_2c:1.26
+	Interim_Release_1-2c_RC1:1.26
+	Interim_Release_1-2c_beta1:1.26
+	PublicRelease_1_2b:1.26
+	Interim_Release_1-2b_RC1:1.26
+	PublicRelease_1_2a:1.26
+	Interim_Release_1-2a_RC1:1.26
+	Interim_Release_1-2a_beta2:1.26
+	Interim_Release_1-2a_beta1:1.26
+	PublicRelease_1_2:1.24
+	Interim_Release_1-2_RC1:1.24
+	Interim_Release_1-2_beta1:1.23
+	PublicRelease_1_1g:1.23
+	Interim_Release_1-1g_RC3:1.23
+	Interim_Release_1-1g_RC2:1.23
+	Interim_Release_1-1g_RC1:1.23
+	Interim_Release_1-1g_beta2:1.21
+	Interim_Release_1-1g_beta1:1.20
+	PublicRelease_1_1f:1.20
+	Interim_Release_1-1f_RC1:1.20
+	PublicRelease_1_1e:1.20
+	Interim_Release_1-1e_RC2:1.20
+	Interim_Release_1-1e_RC1:1.20
+	Interim_Release_1-1e_beta1:1.20
+	PublicRelease_1_1d:1.20
+	Interim_Release_1-1d_RC1:1.20
+	PublicRelease_1_1c:1.20
+	Interim_Release_1-1c_RC1:1.20
+	Interim_Release_1-1c_beta2:1.20
+	Interim_Release_1-1c_beta1:1.20
+	PublicRelease_1_1b:1.20
+	Interim_Release_1-1b_RC1:1.20
+	PublicRelease_1_1a:1.20
+	Interim_Release_1-1a_RC2:1.20
+	Interim_Release_1-1a_RC1:1.20
+	Interim_Release_1-1a_beta2:1.20
+	Interim_Release_1-1a_beta1:1.20
+	PublicRelease_1_1:1.20
+	Interim_Release_1-1_beta1:1.20
+	PublicRelease_1o:1.20
+	Interim_Release_1o_RC1:1.20
+	Interim_Release_1o_beta1:1.20
+	PublicRelease_1n:1.20
+	Interim_Release_1n_RC2:1.20
+	Interim_Release_1n_RC1:1.20
+	Interim_Release_1n_beta2:1.20
+	Interim_Release_1n_beta1:1.19
+	PublicRelease_1m:1.18
+	Interim_Release_1m_beta1:1.18
+	PublicRelease_1l:1.18
+	Interim_Release_1l_RC3:1.18
+	Interim_Release_1l_RC2:1.18
+	Interim_Release_1l_RC1:1.18
+	Interim_Release_1l_beta2:1.18
+	Interim_Release_1l_beta1:1.18
+	PublicRelease_1k:1.18
+	Interim_Release_1k_RC4:1.18
+	Interim_1k_RC3:1.17
+	Interim_1k_RC2:1.17
+	Interim_Release_1k_RC1:1.17
+	Interim_Release_1k_beta5:1.17
+	Intrerim_Release_1k_beta4:1.17
+	Interim_Release_1k_beta1:1.17
+	PublicRelease_1j:1.17
+	Interim_Release_1J_RC3:1.17
+	Interim_Release_1j_RC3:1.17
+	Interim_Release_1j_RC2:1.17
+	Interim_Release_1j_RC1:1.17
+	Interim_Release_1j_beta2:1.17
+	Interim_Release_1j_beta1:1.17
+	PublicRelease_1i:1.14
+	Interim_Release_1i_RC6:1.14
+	Interim_Release_1i_RC3:1.13
+	Interim_Release_1i_RC2:1.13
+	Interim_Release_1i_RC1:1.13
+	Interim_Release_1i_beta3:1.13
+	Interim_Release_1i_beta2:1.12
+	Interim_Release_1i_beta1:1.10
+	PublicRelease_1h:1.9
+	Interim_Release_1h_rc2:1.9
+	Interim_Release_1h_RC1:1.9
+	Interim_Release_1h_beta2:1.9
+	Interim_Release_1h_beta1_now:1.9
+	Interim_Release_1h_beta1:1.9
+	PublicRelease_1g:1.9
+	Interim_Release_1g_RC6_Final:1.9
+	Interim_Release_1g_RC6:1.9
+	Interim_Release_1g_RC5:1.9
+	Interim_Release_1g_RC4:1.9
+	Interim_Release_1g_RC3:1.9
+	Interim_Release_1g_beta2:1.8
+	Interim_Release_1g_beta1:1.7
+	Interim_Release_1f_RC4:1.7
+	Interim_Release_1f_RC3:1.7
+	Interim_Release_1f_RC2:1.7
+	Interim_Release_1f_RC:1.7
+	Interim_Release_1f_beta2:1.7
+	Interim_Release_1f_beta1:1.7
+	PublicRelease_1e:1.7
+	Interim_Release_1e_RC2:1.7
+	Interim_Release_1e_RC:1.7
+	Interim_Release_1e_beta3:1.7
+	Interim_Release_1e_beta2:1.7
+	Interim_Release_1e_beta2_before_kuchin:1.7
+	Interim_Release_1e_beta1:1.7
+	PublicRelease_1c:1.7
+	featurestest:1.7.0.4
+	Interim_Release_1c_RC:1.7
+	Interim_Release_1c_beta2:1.7
+	Interim_Release_1c_beta1:1.7
+	threaded_downloadqueue:1.7.0.2
+	PublicRelease_1b:1.6
+	Interim_Release_1b_beta2:1.6
+	Interim_Release_1b_beta1:1.6
+	proxydeadlake:1.6.0.4
+	PublicRelease_1a:1.6
+	Interim_Release_1a_beta2:1.6
+	BerkeleyDb:1.6.0.2
+	Interim_Release_1a_beta1:1.6
+	PublicRelease_1:1.6
+	goldfish:1.6
+	eMulePlus_1_RC2:1.6
+	eMulePlus_26b_1RC1:1.6
+	PreRelease_26b_i0e:1.6
+	before_26d_merge:1.6
+	Interim_Release_26b_i0d:1.5
+	Interim_Release_26b_i0c:1.4
+	Interim_Release_26b_i0b:1.4
+	Interim_Release_26b_i0a:1.4
+	systraydlg:1.3.0.6
+	plus26based:1.3.0.4
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.3.2.1
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.31
+date	2009.07.14.03.54.08;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2008.04.06.11.47.22;	author eklmn;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2008.03.08.21.56.27;	author eklmn;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2008.02.05.06.03.05;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.04.09.15.18.10;	author kush_eplus;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.03.19.23.51.11;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2006.02.15.05.23.27;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.11.22.12.26.23;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.07.20.12.49.58;	author katsyonak;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.07.19.12.54.56;	author katsyonak;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.04.07.02.07.32;	author katsyonak;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.12.24.01.21.13;	author katsyonak;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.11.26.11.21.08;	author katsyonak;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.29.14.14.18;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.10.20.00.55.48;	author katsyonak;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.06.19.16.48.04;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.08.07.36.57;	author partyckip;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.14.16.24.18;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.16.22.01.46;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.12.20.18.22;	author obaldin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.09.18.39.41;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.24.22.07.48;	author maverick65;	state Exp;
+branches
+	1.3.2.1
+	1.3.4.1;
+next	1.2;
+
+1.2
+date	2003.01.22.17.48.27;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.18;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.54.12;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.4.1
+date	2003.02.05.01.58.41;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.31
+log
+@Reduced H-file dependency.
+@
+text
+@//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "IrcSocket.h"
+#include "AsyncProxySocketLayer.h"
+#include "UploadQueue.h"
+#include "packets.h"
+#include "opcodes.h"
+#include "IrcMain.h"
+#include "emule.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+CIrcSocket::CIrcSocket(CIrcMain* pIrcMain) : CAsyncSocketEx()
+{
+	m_pIrcMain = pIrcMain;
+	m_pProxyLayer = NULL;
+}
+
+CIrcSocket::~CIrcSocket()
+{
+	RemoveAllLayers();
+}
+
+BOOL CIrcSocket::Create(UINT nSocketPort, int iSocketType, long lEvent, LPCSTR lpszSocketAddress)
+{
+	EMULE_TRY
+
+	const ProxySettings	&settings = g_App.m_pPrefs->GetProxySettings();
+
+	if (settings.m_bUseProxy && settings.m_nType != PROXYTYPE_NOPROXY)
+	{
+		m_pProxyLayer = new CAsyncProxySocketLayer;
+		switch (settings.m_nType)
+		{
+			case PROXYTYPE_SOCKS4:
+			case PROXYTYPE_SOCKS4A:
+				m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort);
+				break;
+			case PROXYTYPE_SOCKS5:
+			case PROXYTYPE_HTTP11:
+				if (settings.m_bEnablePassword)
+					m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort, settings.m_strUser, settings.m_strPassword);
+				else
+					m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort);
+				break;
+			default:
+				ASSERT(0);
+		}
+		AddLayer(m_pProxyLayer);
+	}
+
+	return CAsyncSocketEx::Create(nSocketPort, iSocketType, lEvent, lpszSocketAddress);
+
+	EMULE_CATCH
+
+	return false;
+}
+
+void CIrcSocket::Connect()
+{
+	CAsyncSocketEx::Connect(CStringA(g_App.m_pPrefs->GetIRCServer()), 6667);
+}
+
+void CIrcSocket::OnReceive(int iErrorCode) 
+{
+	if (iErrorCode)
+	{
+		AddLogLine(LOG_RGB_ERROR, _T("IRC socket: Failed to read - %s"), GetErrorMessage(iErrorCode, 1));
+		return;
+	}
+
+	int		iLength;
+	char	acBuffer[1024];
+
+	do
+	{
+		iLength = Receive(acBuffer, sizeof(acBuffer) - 1);
+		if (iLength < 0)
+		{
+			AddLogLine(LOG_RGB_ERROR, _T("IRC socket: Failed to read - %s"), GetErrorMessage(GetLastError(), 1));
+			return;
+		}
+		if (iLength > 0)
+		{
+			g_App.m_pDownloadQueue->AddDownDataOverheadOther(iLength);
+			m_pIrcMain->PreParseMessage(acBuffer, iLength);
+		}
+	}
+	while (iLength > 1022);
+}
+
+void CIrcSocket::OnConnect(int iErrorCode)
+{
+	if (iErrorCode)
+	{
+		AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, _T("IRC socket: Failed to connect - %s"), GetErrorMessage(iErrorCode, 1));
+		m_pIrcMain->Disconnect();		
+		return;
+	}
+	m_pIrcMain->SetConnectStatus(true);
+	m_pIrcMain->SendLogin();
+}
+
+void CIrcSocket::OnClose(int iErrorCode)
+{
+	if (iErrorCode)
+	{
+		AddLogLine(LOG_RGB_ERROR, _T("IRC socket: Failed to close - %s"), GetErrorMessage(iErrorCode, 1));
+		return;
+	}
+	RemoveAllLayers();
+	m_pIrcMain->SetConnectStatus(false);
+	CAsyncSocketEx::Close();
+}
+
+int CIrcSocket::SendString(const CString &strMsg)
+{
+	CStringA		strMessageA;
+	int				iSize;
+	ECodingFormat	eCF = g_App.m_pPrefs->GetIrcMessageEncodingUTF8() ? cfUTF8 : cfLocalCodePage;
+
+	Str2MB(eCF, &strMessageA, strMsg);
+	strMessageA += "\r\n";
+	iSize = strMessageA.GetLength();
+
+	g_App.m_pUploadQueue->AddUpDataOverheadOther(iSize);
+	return Send(strMessageA, iSize);
+}
+
+void CIrcSocket::RemoveAllLayers()
+{
+	CAsyncSocketEx::RemoveAllLayers();
+	
+	delete m_pProxyLayer;
+	m_pProxyLayer = NULL;
+}
+
+int CIrcSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nCode, WPARAM wParam, LPARAM lParam)
+{
+	EMULE_TRY
+
+	if (nType == LAYERCALLBACK_LAYERSPECIFIC)
+	{
+		ASSERT( pLayer );
+		if (pLayer == m_pProxyLayer)
+		{
+			CString	strError(GetProxyError(nCode));
+
+			switch (nCode)
+			{
+				case PROXYERROR_NOCONN:
+				case PROXYERROR_REQUESTFAILED:
+					if (lParam)
+					{
+						strError += _T(" - ");
+						strError += (LPCSTR)lParam;
+					}
+					if (wParam)
+					{
+						CString	strErrInf;
+
+						if (GetErrorMessage(wParam, strErrInf, 1))
+						{
+							strError += _T(" - ");
+							strError += strErrInf;
+						}
+					}
+				default:
+					AddLogLine(LOG_RGB_ERROR, _T("IRC socket: %s"), strError);
+			}
+		}
+	}
+
+	EMULE_CATCH
+
+	return 1;
+}
+@
+
+
+1.30
+log
+@Simplified logging system implementation.
+@
+text
+@d18 1
+@
+
+
+1.29
+log
+@added UTF8 encoding support for IRC (can be activated only over pref.ini)
+@
+text
+@d84 1
+a84 1
+		AddLogLine(false, RGB_LOG_ERROR_TXT _T("IRC socket: Failed to read - %s"), GetErrorMessage(iErrorCode, 1));
+d96 1
+a96 1
+			AddLogLine(false, RGB_LOG_ERROR_TXT _T("IRC socket: Failed to read - %s"), GetErrorMessage(GetLastError(), 1));
+d112 1
+a112 1
+		AddLogLine(true, RGB_LOG_ERROR_TXT _T("IRC socket: Failed to connect - %s"), GetErrorMessage(iErrorCode, 1));
+d124 1
+a124 1
+		AddLogLine(false, RGB_LOG_ERROR_TXT _T("IRC socket: Failed to close - %s"), GetErrorMessage(iErrorCode, 1));
+d185 1
+a185 1
+					AddLogLine(false, RGB_LOG_ERROR_TXT _T("IRC socket: %s"), strError);
+@
+
+
+1.28
+log
+@add minimal unicode support for IRC, i.e. allow client to read UTF8 encoded messages
+@
+text
+@d134 1
+a134 1
+	CStringA		strMessageA(strMsg);
+d136 1
+d138 1
+@
+
+
+1.27
+log
+@Faster string processing; Reduced H-file dependency; Removed useless pragma pack 1.
+@
+text
+@d102 1
+a102 1
+			m_pIrcMain->PreParseMessage(CString(acBuffer, iLength));
+@
+
+
+1.26
+log
+@UNICODE preparations
+@
+text
+@d132 1
+a132 1
+int CIrcSocket::SendString(CString message)
+d134 2
+a135 1
+	message += _T("\r\n");
+d137 2
+a138 2
+	CStringA		strMessageA(message);	
+	int				iSize = strMessageA.GetLength();
+@
+
+
+1.25
+log
+@Ranamed GetProxy into GetProxySettings; Optimization; Crypt/Decrypt only on load/save.
+@
+text
+@a100 1
+			acBuffer[iLength] = '\0';
+d102 1
+a102 1
+			m_pIrcMain->PreParseMessage(acBuffer);
+@
+
+
+1.24
+log
+@Update socket layer code from original (formatting and minor changes);
+Corrected Unicode issues;
+Applied a couple of optimizations for proxy support (from original).
+@
+text
+@d44 2
+a45 1
+	ProxySettings settings = g_App.m_pPrefs->GetProxy();
+d58 1
+a58 1
+					m_pProxyLayer->SetProxy(settings.m_nType, settings.m_strName, settings.m_uPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+@
+
+
+1.23
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d17 1
+a28 1
+
+d40 1
+a40 1
+BOOL CIrcSocket::Create(UINT nSocketPort, int nSocketType, long lEvent, LPCTSTR lpszSocketAddress)
+d45 1
+a45 1
+	if (settings.m_bUseProxy && settings.m_nType!=PROXYTYPE_NOPROXY)
+d47 1
+a47 1
+		m_pProxyLayer=new CAsyncProxySocketLayer;
+a50 2
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.m_strName,settings.m_uPort);
+				break;
+d52 1
+a52 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.m_strName,settings.m_uPort);
+a54 5
+				if (settings.m_bEnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName, settings.m_uPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+				else
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName,settings.m_uPort);
+				break;
+d57 1
+a57 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_uPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+d59 1
+a59 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_uPort);
+d67 1
+a67 1
+	return CAsyncSocketEx::Create(nSocketPort, nSocketType, lEvent, lpszSocketAddress);
+d76 1
+a76 1
+	CAsyncSocketEx::Connect(g_App.m_pPrefs->GetIRCServer(), 6667);
+d79 1
+a79 1
+void CIrcSocket::OnReceive(int nErrorCode) 
+d81 1
+a81 1
+	if (nErrorCode)
+d83 1
+a83 1
+		AddLogLine(false, RGB_LOG_ERROR_TXT _T("IRC socket: Failed to read - %s"), GetErrorMessage(nErrorCode, 1));
+d88 1
+a88 1
+	TCHAR	szBuffer[1024];
+d92 1
+a92 1
+		iLength = Receive(szBuffer, sizeof(szBuffer) - 1);
+d100 1
+a100 1
+			szBuffer[iLength] = _T('\0');
+d102 1
+a102 1
+			m_pIrcMain->PreParseMessage(szBuffer);
+d108 1
+a108 1
+void CIrcSocket::OnConnect(int nErrorCode)
+d110 1
+a110 1
+	if (nErrorCode)
+d112 1
+a112 1
+		AddLogLine(true, RGB_LOG_ERROR_TXT _T("IRC socket: Failed to connect - %s"), GetErrorMessage(nErrorCode, 1));
+d120 1
+a120 1
+void CIrcSocket::OnClose(int nErrorCode)
+d122 1
+a122 1
+	if (nErrorCode)
+d124 1
+a124 1
+		AddLogLine(false, RGB_LOG_ERROR_TXT _T("IRC socket: Failed to close - %s"), GetErrorMessage(nErrorCode, 1));
+a144 2
+	EMULE_TRY
+
+d147 2
+a148 7
+	if (m_pProxyLayer) 
+	{
+		delete m_pProxyLayer;
+		m_pProxyLayer = NULL;
+	}
+
+	EMULE_CATCH
+d151 1
+a151 1
+int CIrcSocket::OnLayerCallback(const CAsyncSocketExLayer *pLayer, int nType, int nParam1, int nParam2)
+d160 3
+a162 1
+			switch (nParam1)
+a164 3
+					if (nParam2 != 0)
+						AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_NOCONN) + _T(" - ") + GetErrorMessage(nParam2));
+					break;
+d166 15
+a180 15
+					if (nParam2 != 0)
+						AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED) + _T(" - ") + (LPCSTR)nParam2);
+					break;
+				case PROXYERROR_AUTHTYPEUNKNOWN:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+					break;
+				case PROXYERROR_AUTHFAILED:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+					break;
+				case PROXYERROR_AUTHNOLOGON:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+					break;
+				case PROXYERROR_CANTRESOLVEHOST:
+					AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+					break;
+d182 1
+a182 1
+					AddLogLine(false, RGB_LOG_ERROR_TXT _T("IRC socket: Proxy server error - %s"), GetProxyError(nParam1));
+@
+
+
+1.22
+log
+@renamed 3 variables
+@
+text
+@d44 1
+a44 1
+	ProxySettings settings = g_App.g_pPrefs->GetProxy();
+d83 1
+a83 1
+	CAsyncSocketEx::Connect(g_App.g_pPrefs->GetIRCServer(), 6667);
+@
+
+
+1.21
+log
+@Improved string processing; Formatting.
+@
+text
+@d44 1
+a44 1
+	ProxySettings settings = g_eMuleApp.m_pGlobPrefs->GetProxy();
+d83 1
+a83 1
+	CAsyncSocketEx::Connect(g_eMuleApp.m_pGlobPrefs->GetIRCServer(), 6667);
+d108 1
+a108 1
+			g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(iLength);
+d146 1
+a146 1
+	g_eMuleApp.m_pUploadQueue->AddUpDataOverheadOther(iSize);
+@
+
+
+1.20
+log
+@changes/fixes
+@
+text
+@d69 1
+a69 1
+ 				ASSERT(0);
+d90 1
+a90 1
+		AddLogLine(false, RGB_LOG_ERROR + _T("IRC socket: Failed to read - %s"), GetErrorMessage(nErrorCode, 1));
+d102 1
+a102 1
+			AddLogLine(false, RGB_LOG_ERROR + _T("IRC socket: Failed to read - %s"), GetErrorMessage(GetLastError(), 1));
+d119 1
+a119 1
+		AddLogLine(true, RGB_LOG_ERROR + _T("IRC socket: Failed to connect - %s"), GetErrorMessage(nErrorCode, 1));
+d131 1
+a131 1
+		AddLogLine(false, RGB_LOG_ERROR + _T("IRC socket: Failed to close - %s"), GetErrorMessage(nErrorCode, 1));
+d176 3
+a178 7
+			case PROXYERROR_NOCONN:
+				{
+					CString 	strError;
+
+					if (nParam2 != NULL && GetErrorMessage(nParam2, strError) != NULL)
+						AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_NOCONN) + _T(" - ") + strError);
+
+d180 2
+a181 4
+				}
+			case PROXYERROR_REQUESTFAILED:
+				{
+					if (nParam2 != NULL)
+d184 14
+a197 15
+				}
+			case PROXYERROR_AUTHTYPEUNKNOWN:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+				break;
+			case PROXYERROR_AUTHFAILED:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+				break;
+			case PROXYERROR_AUTHNOLOGON:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+				break;
+			case PROXYERROR_CANTRESOLVEHOST:
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+				break;
+			default:
+				AddLogLine(false, RGB_LOG_ERROR + _T("IRC socket: Proxy server error - %s"), GetProxyError(nParam1));
+@
+
+
+1.19
+log
+@some code from official
+@
+text
+@d172 1
+a172 1
+		if (pLayer==m_pProxyLayer)
+d178 1
+a178 2
+					CString 	strError = GetResString(IDS_ERRORMSG_PROXY_NOCONN);
+					CString 	strErrInf;
+d180 2
+a181 5
+					if (nParam2 && GetErrorMessage(nParam2, strErrInf))
+					{
+						strError += _T(" - ");
+						strError += strErrInf;
+					}
+a182 1
+					AddLogLine(false, RGB_LOG_ERROR + strError);
+d187 2
+a188 8
+					CString 	strError = GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED);
+
+					if (nParam2)
+					{
+						strError += _T(" - ");
+						strError += (LPCSTR)nParam2;
+					}
+					AddLogLine(false, RGB_LOG_ERROR + strError);
+@
+
+
+1.18
+log
+@minor changes
+@
+text
+@d19 1
+a19 1
+#include "ircmain.h"
+d88 3
+a90 2
+	if (nErrorCode){
+		AddLogLine(false, RGB_LOG_ERROR + _T("IRC socket: Failed to read"));
+d94 4
+a97 7
+	TCHAR buffer[256];
+	int length = Receive(buffer, sizeof(buffer)-1);	
+	if (length < 0){
+		AddLogLine(false, RGB_LOG_ERROR + _T("IRC socket: Failed to read"));
+		return;
+	}
+	if (length > 0)
+d99 12
+a110 3
+		buffer[length] = '\0';
+                g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(length*8);
+		m_pIrcMain->PreParseMessage( buffer );
+d112 1
+d117 4
+a120 2
+	if (nErrorCode){
+		AddLogLine(true, RGB_LOG_ERROR + _T("IRC socket: Failed to connect"));
+d126 1
+d129 3
+a131 2
+	if (nErrorCode){
+		AddLogLine(false, RGB_LOG_ERROR + _T("IRC socket: Failed to close"));
+d139 2
+a140 1
+int CIrcSocket::SendString(CString message){
+d142 6
+a147 3
+	int size = message.GetLength();
+	g_eMuleApp.m_pUploadQueue->AddUpDataOverheadOther(size);
+	return Send(message, size);
+d153 1
+d161 1
+d168 1
+d177 13
+a189 2
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+				break;
+d191 11
+a201 2
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+				break;
+d215 1
+a215 1
+				AddLogLine(false, RGB_LOG_ERROR + _T("Unknown proxy error"));
+d219 1
+d221 1
+a223 1
+
+@
+
+
+1.17
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d69 1
+a69 1
+ 				ASSERT(FALSE);
+d128 1
+a128 1
+	message += "\r\n";
+@
+
+
+1.16
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d89 1
+a89 1
+		AddLogLine(false, RGB_LIGHT_ORANGE + _T("IRC socket: Failed to read"));
+d96 1
+a96 1
+		AddLogLine(false, RGB_ORANGE + _T("IRC socket: Failed to read"));
+d110 1
+a110 1
+		AddLogLine(true, RGB_LIGHT_ORANGE + _T("IRC socket: Failed to connect"));
+d119 1
+a119 1
+		AddLogLine(false, RGB_LIGHT_ORANGE + _T("IRC socket: Failed to close"));
+d158 1
+a158 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d161 1
+a161 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+d164 1
+a164 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d167 1
+a167 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d170 1
+a170 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d173 1
+a173 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+d176 1
+a176 1
+				AddLogLine(false, RGB_RED + _T("Unknown proxy error"));
+@
+
+
+1.15
+log
+@Added some colors to the logs...
+@
+text
+@d89 1
+a89 1
+		AddLogLine(false, _T("<COLOR=255,102,0>IRC socket: Failed to read"));
+d96 1
+a96 1
+		AddLogLine(false, _T("<COLOR=255,102,0>IRC socket: Failed to read"));
+d110 1
+a110 1
+		AddLogLine(true, _T("<COLOR=255,102,0>IRC socket: Failed to connect"));
+d119 1
+a119 1
+		AddLogLine(false, _T("<COLOR=255,102,0>IRC socket: Failed to close"));
+d158 1
+a158 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d161 1
+a161 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+d164 1
+a164 1
+				AddLogLine(false,_T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d167 1
+a167 1
+				AddLogLine(false,_T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d170 1
+a170 1
+				AddLogLine(false,_T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d173 1
+a173 1
+				AddLogLine(false,_T("<COLOR=255,0,0>") + GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+d176 1
+a176 1
+				AddLogLine(false,_T("<COLOR=255,0,0>Unknown proxy error") );
+@
+
+
+1.14
+log
+@updated IRC code to official v0.30c
+@
+text
+@d89 1
+a89 1
+		AddLogLine(false, _T("IRC socket: Failed to read"));
+d96 1
+a96 1
+		AddLogLine(false, _T("IRC socket: Failed to read"));
+d110 1
+a110 1
+		AddLogLine(true, _T("IRC socket: Failed to connect"));
+d119 1
+a119 1
+		AddLogLine(false, _T("IRC socket: Failed to close"));
+d158 1
+a158 1
+				AddLogLine(false, IDS_ERRORMSG_PROXY_NOCONN);
+d161 1
+a161 1
+				AddLogLine(false, IDS_ERRORMSG_PROXY_REQUESTFAILED);
+d164 1
+a164 1
+				AddLogLine(false,IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN);
+d167 1
+a167 1
+				AddLogLine(false,IDS_ERRORMSG_PROXY_AUTHFAILED);
+d170 1
+a170 1
+				AddLogLine(false,IDS_ERRORMSG_PROXY_AUTHNOLOGON);
+d173 1
+a173 1
+				AddLogLine(false,IDS_ERRORMSG_PROXY_CANTRESOLVEHOST);
+d176 1
+a176 1
+				AddLogLine(false,_T("Unknown proxy error") );
+@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+@
+text
+@d29 1
+a29 3
+// By Maverick Added CIrcSocketBaseClass 
+// to make it easier to change BaseSocket
+CIrcSocket::CIrcSocket(CIrcMain* pIrcMain) : CIrcSocketBaseClass()
+d37 1
+d40 1
+a40 9
+
+#if 0
+// By Maverick Added CIrcSocketBaseClass 
+// to make it easier to change BaseSocket
+BEGIN_MESSAGE_MAP(CIrcSocket, CIrcSocketBaseClass)
+END_MESSAGE_MAP()
+#endif
+
+void CIrcSocket::Connect()
+a43 4
+    // Maverick Connect to proxy
+	RemoveAllLayers();
+
+	// ProxyInitialisation
+a44 1
+
+d68 2
+a69 1
+			default: ASSERT(FALSE);
+d74 1
+a74 3
+	// Connection Initialisation
+	CIrcSocketBaseClass::Create();
+	AsyncSelect(FD_READ | FD_WRITE | FD_OOB | FD_ACCEPT | FD_CONNECT | FD_CLOSE);
+d76 1
+d78 2
+a79 4
+	// By Maverick Added CIrcSocketBaseClass 
+	// to make it easier to change BaseSocket
+	CIrcSocketBaseClass::Connect(g_eMuleApp.m_pGlobPrefs->GetIRCServer(), 6667);
+	// END Maverick
+d81 3
+a83 1
+	EMULE_CATCH
+d88 12
+a99 3
+    //Maverick Changes for PROXY connection
+	CIrcSocketBaseClass::OnReceive(nErrorCode);
+	if (nErrorCode == 0)
+d101 3
+a103 8
+		TCHAR buffer[256];
+		int length = Receive(buffer, sizeof(buffer)-1);	
+		if (length > 0)
+		{
+			buffer[length] = '\0';
+	                g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(length*8);
+			m_pIrcMain->PreParseMessage( buffer );
+		}
+a104 1
+    // END Maverick
+d109 4
+d118 4
+a121 3
+	// By Maverick Added CIrcSocketBaseClass 
+	// to make it easier to change BaseSocket
+	CIrcSocketBaseClass::Close();
+d124 1
+d130 1
+a130 1
+	g_eMuleApp.m_pUploadQueue->AddUpDataOverheadOther(size*8);
+a133 2
+// By Maverick
+//Resets layer chain.
+d137 1
+a137 1
+	CIrcSocketBaseClass::RemoveAllLayers();
+a138 1
+	// ProxyLayer Destruction
+d150 1
+a150 14
+	ASSERT(pLayer);
+	if (nType==LAYERCALLBACK_STATECHANGE)
+	{
+		CString logline;
+		if (pLayer==m_pProxyLayer)
+		{
+			//logline.Format(_T("ProxyLayer changed state from %d to %d"), nParam2, nParam1);
+			//AddLogLine(false,logline);
+		}else
+			//logline.Format(_T("Layer @@ %d changed state from %d to %d"), pLayer, nParam2, nParam1);
+			//AddLogLine(false,logline);
+		return 1;
+	}
+	else if (nType==LAYERCALLBACK_LAYERSPECIFIC)
+d152 1
+@
+
+
+1.12
+log
+@Proxy password is now also crypted
+@
+text
+@d65 1
+a65 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.m_strName,settings.m_nPort);
+d68 1
+a68 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.m_strName,settings.m_nPort);
+d72 1
+a72 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName, settings.m_nPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+d74 1
+a74 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName,settings.m_nPort);
+d78 1
+a78 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_nPort, settings.m_strUser, Decrypt(settings.m_strPassword));
+d80 1
+a80 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_nPort);
+@
+
+
+1.11
+log
+@Formatting, comments, and name changes.
+@
+text
+@d72 1
+a72 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.m_strName, settings.m_nPort, settings.m_strUser, settings.m_strPassword);
+d78 1
+a78 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.m_strName,settings.m_nPort, settings.m_strUser, settings.m_strPassword);
+@
+
+
+1.10
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d59 1
+a59 1
+	if (settings.UseProxy && settings.type!=PROXYTYPE_NOPROXY)
+d62 1
+a62 1
+		switch (settings.type)
+d65 1
+a65 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4,settings.name,settings.port);
+d68 1
+a68 1
+				m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS4A,settings.name,settings.port);
+d71 2
+a72 2
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name, settings.port, settings.user, settings.password);
+d74 1
+a74 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_SOCKS5,settings.name,settings.port);
+d77 2
+a78 2
+				if (settings.EnablePassword)
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port, settings.user, settings.password);
+d80 1
+a80 1
+					m_pProxyLayer->SetProxy(PROXYTYPE_HTTP11,settings.name,settings.port);
+@
+
+
+1.9
+log
+@unicode cleanup
+@
+text
+@d57 1
+a57 1
+	ProxySettings settings = theApp.glob_prefs->GetProxy();
+d94 1
+a94 1
+	CIrcSocketBaseClass::Connect(theApp.glob_prefs->GetIRCServer(), 6667);
+d111 1
+a111 1
+	                theApp.downloadqueue->AddDownDataOverheadOther(length*8);
+d135 1
+a135 1
+	theApp.uploadqueue->AddUpDataOverheadOther(size*8);
+@
+
+
+1.8
+log
+@converted to new logger methods
+@
+text
+@d106 1
+a106 1
+		char buffer[256];
+d196 1
+a196 1
+				AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+@
+
+
+1.7
+log
+@converted to new logging method
+@
+text
+@d178 1
+a178 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d181 1
+a181 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+d184 1
+a184 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d187 1
+a187 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d190 1
+a190 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d193 1
+a193 1
+				AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+@
+
+
+1.6
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d165 1
+a165 1
+			//theApp.emuledlg->AddLogLine(false,logline);
+d168 1
+a168 1
+			//theApp.emuledlg->AddLogLine(false,logline);
+d178 1
+a178 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_NOCONN));
+d181 1
+a181 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_REQUESTFAILED));
+d184 1
+a184 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHTYPEUNKNOWN));
+d187 1
+a187 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHFAILED));
+d190 1
+a190 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_AUTHNOLOGON));
+d193 1
+a193 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERRORMSG_PROXY_CANTRESOLVEHOST));
+d196 1
+a196 1
+				theApp.emuledlg->AddLogLine(false,__FILE__, __LINE__, _T("Unknown proxy error") );
+@
+
+
+1.5
+log
+@more 26b merges
+@
+text
+@d22 7
+@
+
+
+1.4
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d104 1
+a104 1
+	                theApp.downloadqueue->AddDownDataOverheadOther(length*8, 0);
+d128 1
+a128 1
+	theApp.uploadqueue->AddUpDataOverheadOther(size*8, 0);
+@
+
+
+1.3
+log
+@updated to .25b codebase
+@
+text
+@d104 1
+a104 1
+            theApp.downloadqueue->AddDownDataRateMSOverhead(length*8, 160);
+d128 1
+a128 1
+	theApp.uploadqueue->AddUpDataRateMSOverhead(size*8, 160);
+@
+
+
+1.3.4.1
+log
+@initial upgrade to .26
+@
+text
+@d104 1
+a104 1
+	                theApp.downloadqueue->AddDownDataOverheadOther(length*8, 0);
+d128 1
+a128 1
+	theApp.uploadqueue->AddUpDataOverheadOther(size*8, 0);
+@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d104 1
+d128 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d22 3
+a24 1
+CIrcSocket::CIrcSocket(CIrcMain* pIrcMain) : CAsyncSocket()
+d27 1
+d36 3
+a38 1
+BEGIN_MESSAGE_MAP(CIrcSocket, CAsyncSocket)
+d44 47
+a90 1
+	CAsyncSocket::Connect(theApp.glob_prefs->GetIRCServer(), 6667);
+d95 13
+a107 4
+	char buffer[256];
+	int length = Receive(buffer, sizeof(buffer)-1);	
+	buffer[length] = '\0';
+	m_pIrcMain->PreParseMessage( buffer );
+d117 4
+a121 1
+	CAsyncSocket::Close();
+d128 67
+a194 1
+}@
+

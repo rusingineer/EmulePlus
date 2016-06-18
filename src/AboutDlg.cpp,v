@@ -1,0 +1,4029 @@
+head	1.101;
+access;
+symbols
+	PublicRelease_1_2e:1.98
+	Interim_Release_1-2e_RC1:1.97
+	PublicRelease_1_2d:1.96
+	Interim_Release_1-2d_RC1:1.94
+	Interim_Release_1-2d_beta1:1.94
+	PublicRelease_1_2c:1.94
+	Interim_Release_1-2c_RC1:1.94
+	Interim_Release_1-2c_beta1:1.93
+	PublicRelease_1_2b:1.93
+	Interim_Release_1-2b_RC1:1.91
+	PublicRelease_1_2a:1.91
+	Interim_Release_1-2a_RC1:1.90
+	Interim_Release_1-2a_beta2:1.90
+	Interim_Release_1-2a_beta1:1.90
+	PublicRelease_1_2:1.89
+	Interim_Release_1-2_RC1:1.88
+	Interim_Release_1-2_beta1:1.88
+	PublicRelease_1_1g:1.88
+	Interim_Release_1-1g_RC3:1.87
+	Interim_Release_1-1g_RC2:1.87
+	Interim_Release_1-1g_RC1:1.87
+	Interim_Release_1-1g_beta2:1.87
+	Interim_Release_1-1g_beta1:1.87
+	PublicRelease_1_1f:1.87
+	Interim_Release_1-1f_RC1:1.87
+	PublicRelease_1_1e:1.87
+	Interim_Release_1-1e_RC2:1.85
+	Interim_Release_1-1e_RC1:1.85
+	Interim_Release_1-1e_beta1:1.85
+	PublicRelease_1_1d:1.85
+	Interim_Release_1-1d_RC1:1.85
+	PublicRelease_1_1c:1.85
+	Interim_Release_1-1c_RC1:1.84
+	Interim_Release_1-1c_beta2:1.84
+	Interim_Release_1-1c_beta1:1.83
+	PublicRelease_1_1b:1.83
+	Interim_Release_1-1b_RC1:1.83
+	PublicRelease_1_1a:1.83
+	Interim_Release_1-1a_RC2:1.82
+	Interim_Release_1-1a_RC1:1.82
+	Interim_Release_1-1a_beta2:1.82
+	Interim_Release_1-1a_beta1:1.82
+	PublicRelease_1_1:1.82
+	Interim_Release_1-1_beta1:1.81
+	PublicRelease_1o:1.81
+	Interim_Release_1o_RC1:1.80
+	Interim_Release_1o_beta1:1.80
+	PublicRelease_1n:1.79
+	Interim_Release_1n_RC2:1.79
+	Interim_Release_1n_RC1:1.79
+	Interim_Release_1n_beta2:1.77
+	Interim_Release_1n_beta1:1.77
+	PublicRelease_1m:1.77
+	Interim_Release_1m_beta1:1.77
+	PublicRelease_1l:1.77
+	Interim_Release_1l_RC3:1.77
+	Interim_Release_1l_RC2:1.77
+	Interim_Release_1l_RC1:1.75
+	Interim_Release_1l_beta2:1.75
+	Interim_Release_1l_beta1:1.74
+	PublicRelease_1k:1.73
+	Interim_Release_1k_RC4:1.73
+	Interim_1k_RC3:1.73
+	Interim_1k_RC2:1.72
+	Interim_Release_1k_RC1:1.71
+	Interim_Release_1k_beta5:1.70
+	Intrerim_Release_1k_beta4:1.70
+	Interim_Release_1k_beta1:1.69
+	PublicRelease_1j:1.62
+	Interim_Release_1J_RC3:1.60
+	Interim_Release_1j_RC3:1.60
+	Interim_Release_1j_RC2:1.59
+	Interim_Release_1j_RC1:1.59
+	Interim_Release_1j_beta2:1.58
+	Interim_Release_1j_beta1:1.57
+	PublicRelease_1i:1.57
+	Interim_Release_1i_RC6:1.57
+	Interim_Release_1i_RC3:1.56
+	Interim_Release_1i_RC2:1.56
+	Interim_Release_1i_RC1:1.50
+	Interim_Release_1i_beta3:1.50
+	Interim_Release_1i_beta2:1.49
+	Interim_Release_1i_beta1:1.48
+	PublicRelease_1h:1.46
+	Interim_Release_1h_rc2:1.46
+	Interim_Release_1h_RC1:1.46
+	Interim_Release_1h_beta2:1.46
+	Interim_Release_1h_beta1_now:1.43
+	Interim_Release_1h_beta1:1.43
+	PublicRelease_1g:1.43
+	Interim_Release_1g_RC6_Final:1.43
+	Interim_Release_1g_RC6:1.42
+	Interim_Release_1g_RC5:1.38
+	Interim_Release_1g_RC4:1.37
+	Interim_Release_1g_RC3:1.37
+	Interim_Release_1g_beta2:1.34
+	Interim_Release_1g_beta1:1.34
+	Interim_Release_1f_RC4:1.34
+	Interim_Release_1f_RC3:1.32
+	Interim_Release_1f_RC2:1.32
+	Interim_Release_1f_RC:1.32
+	Interim_Release_1f_beta2:1.30
+	Interim_Release_1f_beta1:1.29
+	PublicRelease_1e:1.29
+	Interim_Release_1e_RC2:1.29
+	Interim_Release_1e_RC:1.29
+	Interim_Release_1e_beta3:1.29
+	Interim_Release_1e_beta2:1.29
+	Interim_Release_1e_beta2_before_kuchin:1.29
+	Interim_Release_1e_beta1:1.29
+	PublicRelease_1c:1.27
+	featurestest:1.26.0.2
+	Interim_Release_1c_RC:1.26
+	Interim_Release_1c_beta2:1.21
+	Interim_Release_1c_beta1:1.17
+	threaded_downloadqueue:1.17.0.2
+	PublicRelease_1b:1.14
+	Interim_Release_1b_beta2:1.14
+	Interim_Release_1b_beta1:1.11
+	proxydeadlake:1.8.0.2
+	PublicRelease_1a:1.8
+	Interim_Release_1a_beta2:1.8
+	BerkeleyDb:1.7.0.2
+	Interim_Release_1a_beta1:1.7
+	PublicRelease_1:1.6
+	goldfish:1.6
+	eMulePlus_1_RC2:1.4
+	eMulePlus_26b_1RC1:1.4
+	PreRelease_26b_i0e:1.4
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.101
+date	2012.05.30.04.26.35;	author aw3;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2011.05.10.04.35.25;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2010.01.26.04.48.46;	author aw3;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2009.04.17.03.42.22;	author aw3;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2009.01.03.21.04.29;	author aw3;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2008.05.17.04.10.50;	author aw3;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2008.04.24.05.04.38;	author aw3;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2007.08.21.12.48.40;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2007.02.07.13.50.29;	author aw3;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2007.02.04.01.59.44;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2006.10.13.04.09.14;	author aw3;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2006.03.25.01.48.53;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2006.03.02.12.47.17;	author aw3;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2005.12.20.05.40.48;	author aw3;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2005.07.12.11.42.48;	author aw3;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2005.07.12.01.49.51;	author aw3;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2005.02.26.04.14.14;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2005.02.13.18.40.14;	author kuchin;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.12.10.07.13.58;	author aw3;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2004.10.21.21.41.35;	author aw3;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.09.27.15.14.39;	author aw3;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.09.18.01.55.18;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.08.29.03.58.50;	author aw3;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.08.18.23.40.10;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.05.31.20.02.33;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.05.30.13.57.52;	author dongato;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.05.15.09.39.25;	author dongato;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.04.13.03.50.34;	author katsyonak;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.04.03.14.30.02;	author dongato;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.03.31.23.55.27;	author katsyonak;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.03.23.18.09.26;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.03.20.01.41.15;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.02.18.01.46.24;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.02.08.20.09.21;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.02.06.17.22.47;	author dongato;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.02.04.23.59.57;	author kush_eplus;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.01.29.10.09.21;	author dongato;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.01.28.17.24.46;	author katsyonak;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.01.27.20.38.09;	author dongato;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.01.26.13.05.11;	author dongato;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.01.26.00.54.41;	author emoulari;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.01.21.13.02.28;	author dongato;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.01.10.11.37.47;	author dongato;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.01.04.17.01.23;	author katsyonak;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2003.11.24.15.01.39;	author katsyonak;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2003.11.11.12.36.39;	author katsyonak;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.11.11.00.22.59;	author katsyonak;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.11.10.13.16.08;	author dongato;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.11.10.12.47.04;	author katsyonak;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.11.10.11.58.12;	author katsyonak;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.11.06.15.18.19;	author dongato;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.10.29.18.26.37;	author netwolf1;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.10.04.21.55.38;	author dongato;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.09.24.00.43.05;	author netwolf1;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.09.02.15.11.30;	author dongato;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.09.02.14.33.45;	author dongato;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.08.21.14.45.20;	author andrerib;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.07.24.15.52.20;	author netwolf1;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.07.16.13.43.58;	author dongato;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.07.15.11.32.16;	author dongato;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.07.13.17.00.39;	author dongato;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.07.13.15.52.01;	author dongato;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.07.12.14.10.37;	author dongato;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.06.19.16.48.04;	author partyckip;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.06.17.23.49.52;	author netwolf1;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.06.17.00.11.28;	author dongato;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.05.26.10.12.33;	author emoulari;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.05.26.07.58.36;	author kuchin;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.05.11.15.17.33;	author kuchin;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.05.11.15.13.29;	author kuchin;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.05.05.16.22.50;	author emoulari;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.03.30.09.16.10;	author emoulari;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.03.24.00.16.15;	author dongato;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.03.23.13.08.16;	author dongato;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.03.22.11.01.48;	author forcha;	state Exp;
+branches
+	1.26.2.1;
+next	1.25;
+
+1.25
+date	2003.03.22.10.47.38;	author forcha;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.03.22.07.49.27;	author dongato;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.03.21.23.47.44;	author forcha;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.03.21.17.26.22;	author forcha;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.03.19.18.42.34;	author forcha;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.03.16.20.23.20;	author forcha;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.03.16.18.33.25;	author forcha;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.03.15.19.50.53;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.03.13.19.47.01;	author emoulari;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.03.13.05.54.29;	author recdvst;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.03.11.21.29.29;	author emoulari;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.03.09.00.19.55;	author dongato;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.08.22.28.55;	author emoulari;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.08.12.09.40;	author recdvst;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.05.18.22.36;	author cax2;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.05.11.56.38;	author emoulari;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.03.01.14.46.56;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.25.11.05.09;	author emoulari;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.21.20.06.32;	author dongato;	state Exp;
+branches
+	1.7.2.1;
+next	1.6;
+
+1.6
+date	2003.02.20.13.01.36;	author emoulari;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.20.12.52.05;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.16.22.01.45;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.15.15.15.06;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.23.18.58.27;	author dongato;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.17.55.45;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.53.52;	author cax2;	state Exp;
+branches;
+next	;
+
+1.7.2.1
+date	2003.02.28.22.44.54;	author obaldin;	state Exp;
+branches;
+next	1.7.2.2;
+
+1.7.2.2
+date	2003.03.01.20.59.35;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.26.2.1
+date	2003.03.24.09.39.41;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.101
+log
+@2012.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "resource.h"
+#include "opcodes.h"
+#include "memcpy_amd.h"
+#include "AboutDlg.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+IMPLEMENT_DYNAMIC(CAboutDlg, CDialog)
+CAboutDlg::CAboutDlg(CWnd* pParent /*=NULL*/)
+	: CDialog(CAboutDlg::IDD, pParent)
+{
+	m_bLButtonDown = false;
+}
+
+CAboutDlg::~CAboutDlg()
+{
+	m_imgBackground.DeleteObject();
+}
+
+void CAboutDlg::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+}
+
+
+BEGIN_MESSAGE_MAP(CAboutDlg, CDialog)
+	ON_WM_TIMER()
+	ON_WM_LBUTTONDBLCLK()
+	ON_WM_LBUTTONDOWN()
+	ON_WM_LBUTTONUP()
+	ON_WM_MOUSEMOVE()
+	ON_WM_CANCELMODE()
+END_MESSAGE_MAP()
+
+
+BOOL CAboutDlg::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	m_Layered.AddLayeredStyle(m_hWnd);
+	m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, 0, LWA_ALPHA);
+
+	VERIFY(m_imgBackground.LoadImage(IDR_LOGO, _T("JPG")));
+	(static_cast<CStatic*>(GetDlgItem(IDC_BACKGROUND)))->SetBitmap(m_imgBackground);
+
+#ifndef _DEBUG
+	#define VERSION_FONTSIZE _T("22")
+#else
+	#define VERSION_FONTSIZE _T("14")
+#endif
+
+	CString s =
+		_T("<font face='arial' size='10' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>")
+		_T("<br><br><br>")
+		_T("<font face='Arial Bold' size='22' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>") CLIENT_NAME _T("</font>")
+		_T("<br>")
+		_T("<font face='Arial Bold' size='") VERSION_FONTSIZE _T("' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>v") CURRENT_VERSION_LONG;
+	switch (get_cpu_type())
+	{
+		case 2:
+			s += _T(" MMX");
+			break;
+		case 3:
+			s += _T(" AMD");
+			break;
+		case 4:
+		case 5:
+			s += _T(" SSE");
+			break;
+	}
+	s += _T("</font><br>")
+		_T("<font face='Verdana Regular' size='11' style='u | -b' color='0,0,255' background='255,255,255' align='center' valign='bottom'><a href='http://emuleplus.info'>emuleplus.info</a></font>")
+		_T("<br><br><br><br><br><br><br><br>")
+
+	// uses default font
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Programming</font>")
+		_T("<br>")
+		_T("Aw3")
+		_T("<br>")
+		_T("DonGato")
+		_T("<br>")
+		_T("Eklmn")
+		_T("<br>")
+		_T("kuchin")
+		_T("<br>")
+		_T("KuSh")
+		_T("<br><br>")
+
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Layout Design and Graphics</font>")
+		_T("<br>")
+		_T("DrSiRiUs")
+		_T("<br>")
+		_T("Psy")
+		_T("<br><br>")
+
+#if 0
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Coordinators</font>")
+		_T("<br>")
+		_T("[Translation] ")
+		_T("<br>")
+		_T("[Stand-alone FAQ] ")
+		_T("<br><br>")
+#endif
+
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Betatesters</font>")
+		_T("<br>")
+		_T("DopeFish")
+		_T("<br>")
+		_T("Fuxie - DK")
+		_T("<br>")
+		_T("muleteer")
+		_T("<br>")
+		_T("Psy")
+		_T("<br>")
+		_T("reanimated838uk")
+		_T("<br>")
+		_T("Vladimir (SV)")
+		_T("<br>")
+		_T("glaskrug")
+		_T("<br><br>")
+
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translators</font>")
+		_T("<br>")
+		_T("[Basque] orokulus")
+		_T("<br>")
+		_T("[Belarusian] Kryvich")
+		_T("<br>")
+		_T("[Catalan] ernzzz")
+		_T("<br>")
+		_T("[Chinese Simplified] xyes")
+		_T("<br>")
+		_T("[Chinese Traditional] roytam1")
+		_T("<br>")
+		_T("[Croatian] lhay")
+		_T("<br>")
+		_T("[Czech] rocky.intel")
+		_T("<br>")
+		_T("[Danish] Bro-DK")
+		_T("<br>")
+		_T("[Dutch] Sleepy")
+		_T("<br>")
+		_T("[Extremaduran] purgossu")
+		_T("<br>")
+		_T("[Finnish] Nikerabbit")
+		_T("<br>")
+		_T("[French] KuSh")
+		_T("<br>")
+		_T("[German] DoubleT")
+		_T("<br>")
+		_T("[Greek] geodimo")
+		_T("<br>")
+		_T("[Hebrew] Tcl")
+		_T("<br>")
+		_T("[Italian] KerneL")
+		_T("<br>")
+		_T("[Korean] p5657587")
+		_T("<br>")
+		_T("[Lithuanian] Gliz")
+		_T("<br>")
+		_T("[Malay] xyes")
+		_T("<br>")
+		_T("[Norwegian] True Neo")
+		_T("<br>")
+		_T("[Polish] ElrondDzidkins")
+		_T("<br>")
+		_T("[Portuguese Brazil] Jhonnatta")
+		_T("<br>")
+		_T("[Portuguese Portugal] Brun0")
+		_T("<br>")
+		_T("[Romanian] Tcl")
+		_T("<br>")
+		_T("[Russian] iMiKE")
+		_T("<br>")
+		_T("[Serbian] DarkMan")
+		_T("<br>")
+		_T("[Slovenian] krojc")
+		_T("<br>")
+		_T("[Spanish] gprina")
+		_T("<br>")
+		_T("[Turkish] BouRock")
+		_T("<br>")
+		_T("[Ukrainian] Punk")
+		_T("<br><br>")
+
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>FAQ Translators</font>")
+		_T("<br>")
+		_T("[Italian] KerneL")
+		_T("<br><br>")
+
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Developers</font>")
+		_T("<br>")
+		_T("BavarianSnail, bond006")
+		_T("<br>")
+		_T("Cax2, DropF, EC, FoRcHa")
+		_T("<br>")
+		_T("Lord KiRon, moosetea")
+		_T("<br>")
+		_T("morevit, netwolf, obaldin")
+		_T("<br>")
+		_T("Purity, reCDVst, katsyonak")
+		_T("<br>")
+		_T("TwoBottle Mod, zegzav")
+		_T("<br>")
+		_T("SyruS, morphis")
+		_T("<br><br>")
+
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Supporters</font>")
+		_T("<br>")
+		_T("eMWu, LeChuck, Mr. Bean")
+		_T("<br>")
+		_T("bymike, erein, uffowich")
+		_T("<br>")
+		_T("Daan, giorgosman, pooz")
+		_T("<br>")
+		_T("Dr.Slump, janes bong, hiei")
+		_T("<br>")
+		_T("Bazzik, Blackstaff, LF_")
+		_T("<br>")
+		_T("thisIsRandom, ChatNoir, k`s")
+		_T("<br>")
+		_T("n@@boleo, sw54rus, krhung")
+		_T("<br>")
+		_T("project-xt, koizo, Beltxo")
+		_T("<br>")
+		_T("andrerib, Nazgul")
+		_T("<br><br>")
+
+		_T("<font face='arial' size='12' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Additional thanks go to:</font>")
+		_T("<br><br>")
+		_T("BavarianSnail")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>")
+		_T("<br>")
+		_T("DoubleT")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>")
+		_T("<br>")
+		_T("Eugene Pustovoyt")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Advanced tooltips)</font>")
+		_T("<br>")
+		_T("Ultras")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>")
+		_T("<br>")
+		_T("zz")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Upload system)</font>")
+		_T("<br>")
+		_T("Matthew R. Miller")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(OptionTree class)</font>")
+		_T("<br>")
+		_T("xrmb")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(GUI goodies)</font>")
+		_T("<br>")
+		_T("Amdribant")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Color Coded Search Results)</font>")
+		_T("<br>")
+		_T("Tarod")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Too much code to name it)</font>")
+		_T("<br>")
+		_T("Vorlost")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(chunk transfer and preview)</font>")
+		_T("<br><br>")
+		_T("<font face='arial' size='11' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>And to everyone we forgot</font>")
+		_T("<br><br><br>")
+
+
+		_T("<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>eMule Official</font>")
+		_T("<br>")
+		_T("<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Code Credits</font>")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002-2012 Merkur</font>")
+		_T("<br><br>")
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Development</font>")
+		_T("<br>")
+		_T("Unknown1")
+		_T("<br>")
+		_T("Ornis")
+		_T("<br>")
+		_T(".")
+		_T("<br><br>")
+
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Members</font>")
+		_T("<br>")
+		_T("Merkur, tecxx, Pach2")
+		_T("<br>")
+		_T("Juanjo, Barry, Dirus")
+		_T("<br>")
+		_T("bluecow")
+		_T("<br><br>")
+
+		_T("Thanks to these programmers")
+		_T("<br>")
+		_T("for publishing useful codeparts")
+		_T("<br><br>")
+		_T("Paolo Messina")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(ResizableDialog class)</font>")
+		_T("<br>")
+		_T("PJ Naughter")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(HttpDownload Dialog)</font>")
+		_T("<br>")
+		_T("Jim Connor")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Scrolling Credits)</font>")
+		_T("<br>")
+		_T("Yury Goltsman")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(extended Progressbar)</font>")
+		_T("<br>")
+		_T("Arthur Westerman")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Titled menu)</font>")
+		_T("<br>")
+		_T("Davide Calabro'")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Layered Windows)</font>")
+		_T("<br>")
+		_T("Tim Kosse")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(AsyncSocket-Proxysupport)</font>")
+		_T("<br>")
+		_T("Keith Rule")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Memory DC)</font>")
+		_T("</font>")
+		_T("<br><br><br><br><br><br>");
+
+	m_ctrlCredits.SetDataString(s);
+	m_ctrlCredits.SetDefaultBkColor(RGB(255,255,255));
+
+//	Resize dialog window to the picture size to look well for any system font size
+	CRect rWndRect, rBmpRect;
+
+	GetWindowRect(rWndRect);
+	GetDlgItem(IDC_BACKGROUND)->GetWindowRect(rBmpRect);
+	MoveWindow(rWndRect.left, rWndRect.top, rBmpRect.Width(), rBmpRect.Height(), FALSE);
+	
+	CRect rCredits;
+	GetClientRect(rCredits);
+	rCredits.top = 147;
+	rCredits.left += 10;
+	rCredits.bottom = rCredits.top + 120;
+	rCredits.right = rCredits.left + 220;
+
+	int nOldSpeed = m_ctrlCredits.m_nTimerSpeed;
+	m_ctrlCredits.m_nTimerSpeed = 500;
+//	m_ctrlCredits.m_crInternalTransparentColor = RGB(255,255,255);			// "transparent" background
+//	m_ctrlCredits.m_pBackgroundPaint = CAboutDlg::DrawCreditsBackground;	// -||-
+//	m_ctrlCredits.m_dwBackgroundPaintLParam = (DWORD)this;					// -||-
+	m_ctrlCredits.Create(NULL, WS_CHILD | WS_VISIBLE, rCredits, this);
+	m_ctrlCredits.m_nTimerSpeed = nOldSpeed;
+
+	m_iTranslucency = 0;
+	SetTimer(1, (256/7)+2, 0);
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CAboutDlg::OnTimer(UINT nIDEvent)
+{
+	if (m_iTranslucency < 255)
+	{
+		m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, static_cast<BYTE>(m_iTranslucency), LWA_ALPHA);
+		m_iTranslucency += 7;
+	}
+	else
+	{
+		m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, 255, LWA_ALPHA);
+		KillTimer(nIDEvent);
+	}
+	CDialog::OnTimer(nIDEvent);
+}
+
+void CAboutDlg::OnLButtonDblClk(UINT nFlags, CPoint point)
+{
+	CDialog::OnLButtonDblClk(nFlags, point);
+	CDialog::OnOK();
+}
+
+void CAboutDlg::OnLButtonDown(UINT nFlags, CPoint point)
+{
+	m_bLButtonDown = true;
+	SetCapture();
+	ClientToScreen(&point);
+	m_cpLastPoint = point;
+	CDialog::OnLButtonDown(nFlags, point);
+}
+
+void CAboutDlg::OnLButtonUp(UINT nFlags, CPoint point)
+{
+	if (m_bLButtonDown)
+	{
+		m_bLButtonDown = false;
+		ReleaseCapture();
+		m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, 255, LWA_ALPHA);
+	}
+	CDialog::OnLButtonUp(nFlags, point);
+}
+
+void CAboutDlg::OnMouseMove(UINT nFlags, CPoint point)
+{
+	if (m_bLButtonDown)
+	{
+		CRect r;
+
+		GetClientRect(&r);
+		ClientToScreen(&r);
+		ClientToScreen(&point);
+		if (r.PtInRect(point))
+		{
+			m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, 128, LWA_ALPHA);
+			GetWindowRect(&r);
+			MoveWindow(r.left - (m_cpLastPoint.x - point.x), r.top - (m_cpLastPoint.y - point.y), r.Width(), r.Height());
+			m_cpLastPoint = point;
+		}
+	}
+	CDialog::OnMouseMove(nFlags, point);
+}
+
+void CAboutDlg::OnCancelMode()
+{
+	if (m_bLButtonDown)
+	{
+		m_bLButtonDown = false;
+		m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, 255, LWA_ALPHA);
+	}
+	CWnd::OnCancelMode();
+}
+@
+
+
+1.100
+log
+@Year 2011.
+@
+text
+@d300 1
+a300 1
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002-2011 Merkur</font>")
+@
+
+
+1.99
+log
+@2010; Updated credits.
+@
+text
+@d300 1
+a300 1
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002-2010 Merkur</font>")
+@
+
+
+1.98
+log
+@Updated credits.
+@
+text
+@d176 1
+a176 1
+		_T("[Italian] Efix, Nazgul")
+d247 1
+a247 1
+		_T("andrerib")
+d300 1
+a300 1
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002-2009 Merkur</font>")
+@
+
+
+1.97
+log
+@Updated additional credits.
+@
+text
+@d118 1
+d121 1
+a121 1
+		_T("[Translation] Fuxie - DK")
+d123 1
+a123 1
+		_T("[Stand-alone FAQ] Vladimir (SV)")
+d125 1
+d140 2
+d174 1
+a174 1
+		_T("[Hebrew] katsyonak")
+d176 1
+a176 1
+		_T("[Italian] Nazgul")
+d188 1
+a188 1
+		_T("[Portuguese Brazil] andrerib")
+d192 1
+a192 1
+		_T("[Romanian] k`s")
+d241 1
+a241 1
+		_T("thisIsRandom, ChatNoir")
+d246 2
+@
+
+
+1.96
+log
+@Updated Credits.
+@
+text
+@d294 1
+a294 1
+		_T("<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002 Merkur</font>")
+d301 2
+@
+
+
+1.95
+log
+@Fixed stuck credits control and about dialog when focus is lost while holding mouse -- credit control is control with scrolling credits inside about dialog (ways to reproduce: Alt-Tab);
+Reduced H-file dependency; Suppressed compiler warnings.
+@
+text
+@a108 4
+		_T("<br>")
+		_T("morphis")
+		_T("<br>")
+		_T("SyruS")
+a126 2
+		_T("Beltxo")
+		_T("<br>")
+d170 1
+a170 1
+		_T("[Hebrew] esorek")
+d221 2
+d241 1
+a241 1
+		_T("project-xt, koizo")
+@
+
+
+1.94
+log
+@Updated credits.
+@
+text
+@d18 3
+a20 1
+#include "emule.h"
+d54 1
+a57 2
+// CAboutDlg message handlers
+
+d192 1
+a192 1
+		_T("[Portuguese Portugal] koizo")
+d245 1
+a245 1
+		_T("project-xt")
+d379 1
+a379 1
+	bTranslucency = 0;
+d388 1
+a388 1
+	if (bTranslucency < 255)
+d390 2
+a391 2
+		m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, bTranslucency, LWA_ALPHA);
+		bTranslucency += 7;
+d410 1
+d418 6
+a423 2
+	m_bLButtonDown = false;
+	m_Layered.SetLayeredWindowAttributes(m_hWnd, 0, 255, LWA_ALPHA);
+d429 3
+a431 4
+	CRect r;
+	GetClientRect(&r);
+	ClientToScreen(&r);
+	ClientToScreen(&point);
+d433 4
+a436 3
+	if(r.PtInRect(point))
+	{
+		if(m_bLButtonDown)
+d440 1
+a440 1
+			MoveWindow(r.left - (m_cpLastPoint.x - point.x),r.top - (m_cpLastPoint.y - point.y), r.Width(), r.Height());
+d446 10
+@
+
+
+1.93
+log
+@Updated credits.
+@
+text
+@d1 1
+a1 1
+// AboutDlg.cpp : implementation file
+d3 13
+a27 2
+// CAboutDlg dialog
+
+d71 1
+a71 1
+#endif //_DEBUG
+d171 1
+a171 1
+		_T("[German] DoubleT & project-xt")
+d175 1
+a175 1
+		_T("[Hebrew] katsyonak")
+d197 2
+d243 2
+@
+
+
+1.92
+log
+@Updated credits.
+@
+text
+@d110 1
+a110 1
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Coordination</font>")
+d117 3
+a119 1
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Developers</font>")
+d121 1
+a121 1
+		_T("BavarianSnail, bond006")
+d123 1
+a123 1
+		_T("Cax2, DropF, EC, FoRcHa")
+d125 1
+a125 1
+		_T("Lord KiRon, moosetea")
+d127 1
+a127 1
+		_T("morevit, netwolf, obaldin")
+d129 1
+a129 1
+		_T("Purity, reCDVst, katsyonak")
+d131 1
+a131 1
+		_T("TwoBottle Mod, zegzav")
+d195 1
+a195 1
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Active Betatesters</font>")
+d197 4
+a200 1
+		_T("Beltxo")
+d202 1
+a202 1
+		_T("DopeFish")
+d204 1
+a204 1
+		_T("Fuxie - DK")
+d206 1
+a206 1
+		_T("muleteer")
+d208 1
+a208 1
+		_T("Psy")
+d210 1
+a210 1
+		_T("reanimated838uk")
+d212 1
+a212 1
+		_T("Vladimir (SV)")
+@
+
+
+1.91
+log
+@Updated credits.
+@
+text
+@d110 1
+a110 1
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translation Coordination</font>")
+d112 3
+a114 1
+		_T("Fuxie - DK")
+d158 1
+a158 1
+		_T("[German] project-xt")
+d184 2
+@
+
+
+1.90
+log
+@Updated credits.
+@
+text
+@a93 2
+		_T("katsyonak")
+		_T("<br>")
+a111 2
+		_T("andrerib")
+		_T("<br>")
+d125 1
+a125 1
+		_T("Purity, reCDVst")
+d140 1
+a140 1
+		_T("[Chinese Traditional] roytam1 & krhung")
+d154 1
+a154 1
+		_T("[French] n@@boleo")
+d166 1
+a166 1
+		_T("[Lithuanian] vwpassatgt")
+d180 1
+a180 1
+		_T("[Russian] sw54rus & iMiKE")
+d185 2
+d219 2
+@
+
+
+1.89
+log
+@Updated credits.
+@
+text
+@a101 2
+		_T("netwolf")
+		_T("<br>")
+d123 1
+a123 3
+		_T("Cax2, DropF, Drowzee")
+		_T("<br>")
+		_T("EC, FoRcHa")
+d127 1
+a127 1
+		_T("morevit, obaldin")
+d129 1
+a129 1
+		_T("Purity, reCDVst, SeeWen")
+d160 1
+a160 1
+		_T("[German] netwolf & project-xt")
+d172 2
+@
+
+
+1.88
+log
+@Updated credits.
+@
+text
+@d148 1
+a148 1
+		_T("[Chinese Traditional] krhung")
+d174 1
+a174 1
+		_T("[Lithuanian] Unlimiter")
+d206 2
+@
+
+
+1.87
+log
+@Updated credits.
+@
+text
+@d100 2
+d146 1
+a146 1
+		_T("[Chinese Simplified] hiei & newninny")
+d152 2
+d186 1
+a186 1
+		_T("[Russian] sw54rus")
+a196 2
+		_T("ChatNoir")
+		_T("<br>")
+d216 1
+a216 1
+		_T("Dr.Slump, janes bong")
+d220 1
+a220 1
+		_T("thisIsRandom")
+@
+
+
+1.86
+log
+@Updated credits; Show section titles before the lists;
+For Translators first language than name to avoid any future resortings.
+@
+text
+@a198 2
+		_T("LF_")
+		_T("<br>")
+d216 1
+a216 1
+		_T("Bazzik, Blackstaff")
+@
+
+
+1.85
+log
+@Credits update; Unicode preparations.
+@
+text
+@d86 2
+a102 2
+		_T("<br>")
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Programming</font>")
+d105 2
+a109 2
+		_T("<br>")
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Layout Design and Graphics</font>")
+d112 2
+a116 2
+		_T("<br>")
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translation Coordination</font>")
+d119 2
+d131 1
+a131 1
+		_T("Purity, reCDVst")
+d133 4
+a136 1
+		_T("SeeWen, TwoBottle Mod")
+d138 1
+a138 1
+		_T("zegzav")
+d140 1
+a140 4
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Developers</font>")
+		_T("<br><br>")
+
+		_T("andrerib [Portuguese Brazil]")
+d142 1
+a142 1
+		_T("BouRock [Turkish]")
+d144 1
+a144 1
+		_T("Daan [Lithuanian]")
+d146 1
+a146 1
+		_T("ElrondDzidkins [Polish]")
+d148 1
+a148 1
+		_T("giorgosman [Greek]")
+d150 1
+a150 1
+		_T("gprina [Spanish]")
+d152 1
+a152 1
+		_T("hiei [Chinese Simplified]")
+d154 1
+a154 1
+		_T("Janes Bong [Danish]")
+d156 1
+a156 1
+		_T("k`s [Romanian]")
+d158 1
+a158 1
+		_T("katsyonak [Hebrew]")
+d160 1
+a160 1
+		_T("koizo [Portuguese Portugal]")
+d162 1
+a162 1
+		_T("krhung [Chinese Traditional]")
+d164 1
+a164 1
+		_T("Kryvich [Belarusian]")
+d166 1
+a166 1
+		_T("Dr.Slump [Catalan]")
+d168 1
+a168 1
+		_T("n@@boleo [French]")
+d170 1
+a170 1
+		_T("Nazgul [Italian]")
+d172 1
+a172 1
+		_T("netwolf & project-xt [German]")
+d174 1
+a174 1
+		_T("Nikerabbit [Finnish]")
+d176 1
+a176 1
+		_T("orokulus [Basque]")
+d178 1
+a178 1
+		_T("pooz [Korean]")
+d180 1
+a180 1
+		_T("Sleepy [Dutch]")
+d182 1
+a182 1
+		_T("sw54rus [Russian]")
+d184 1
+a184 1
+		_T("True Neo [Norwegian]")
+d186 1
+a186 1
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translators</font>")
+d189 2
+a192 2
+		_T("Blackstaff")
+		_T("<br>")
+a205 4
+		_T("<br>")
+		_T("thisIsRandom")
+		_T("<br>")
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Active Betatesters</font>")
+d208 2
+d214 5
+a218 1
+		_T("Bazzik")
+d220 1
+a220 1
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Supporters</font>")
+d275 2
+a279 2
+		_T("<br>")
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Development</font>")
+d282 2
+a288 2
+		_T("<br>")
+		_T("<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Members</font>")
+@
+
+
+1.84
+log
+@AutoDL - finalization, should work now, plus set smaller font in splash/about screens so debug version can be shown correctly
+@
+text
+@d53 1
+a53 1
+	VERIFY(m_imgBackground.LoadImage(IDR_LOGO,_T("JPG")));
+d63 5
+a67 5
+		"<font face='arial' size='10' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>"
+		"<br><br><br>"
+		"<font face='Arial Bold' size='22' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>" CLIENT_NAME "</font>"
+		"<br>"
+		"<font face='Arial Bold' size='" VERSION_FONTSIZE "' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>v" CURRENT_VERSION_LONG;
+d71 1
+a71 1
+			s += " MMX";
+d74 1
+a74 1
+			s += " AMD";
+d78 1
+a78 1
+			s += " SSE";
+d81 3
+a83 3
+	s += "</font><br>"
+		"<font face='Verdana Regular' size='11' style='u | -b' color='0,0,255' background='255,255,255' align='center' valign='bottom'><a href='http://emuleplus.info'>emuleplus.info</a></font>"
+		"<br><br><br><br><br><br><br><br>"
+d86 238
+a323 238
+		"Aw3"
+		"<br>"
+		"DonGato"
+		"<br>"
+		"Eklmn"
+		"<br>"
+		"katsyonak"
+		"<br>"
+		"kuchin"
+		"<br>"
+		"KuSh"
+		"<br>"
+		"netwolf"
+		"<br>"
+		"SyruS"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Programming</font>"
+		"<br><br>"
+
+		"DrSiRiUs"
+		"<br>"
+		"Psy"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Layout Design and Graphics</font>"
+		"<br><br>"
+
+		"andrerib"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translation Coordination</font>"
+		"<br><br>"
+
+		"BavarianSnail, bond006"
+		"<br>"
+		"Cax2, DropF, Drowzee"
+		"<br>"
+		"EC, FoRcHa"
+		"<br>"
+		"Lord KiRon, moosetea"
+		"<br>"
+		"morevit, obaldin"
+		"<br>"
+		"Purity, reCDVst"
+		"<br>"
+		"SeeWen, TwoBottle Mod"
+		"<br>"
+		"zegzav"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Developers</font>"
+		"<br><br>"
+
+		"andrerib [Portuguese Brazil]"
+		"<br>"
+		"Belbouze [French FAQ]"
+		"<br>"
+		"BouRock [Turkish]"
+		"<br>"
+		"Daan [Lithuanian]"
+		"<br>"
+		"ElrondDzidkins [Polish]"
+		"<br>"
+		"giorgosman [Greek]"
+		"<br>"
+		"gprina [Spanish]"
+		"<br>"
+		"hiei [Chinese Simplified]"
+		"<br>"
+		"Janes Bong [Danish]"
+		"<br>"
+		"k`s [Romanian]"
+		"<br>"
+		"katsyonak [Hebrew]"
+		"<br>"
+		"koizo [Portuguese Portugal]"
+		"<br>"
+		"krhung [Chinese Traditional]"
+		"<br>"
+		"Dr.Slump [Catalan]"
+		"<br>"
+		"n@@boleo [French]"
+		"<br>"
+		"Nazgul [Italian]"
+		"<br>"
+		"netwolf & project-xt [German]"
+		"<br>"
+		"Nikerabbit [Finnish]"
+		"<br>"
+		"orokulus [Basque]"
+		"<br>"
+		"pooz [Korean]"
+		"<br>"
+		"Sleepy [Dutch]"
+		"<br>"
+		"sw54rus [Russian]"
+		"<br>"
+		"True Neo [Norwegian]"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translators</font>"
+		"<br><br>"
+
+		"Bazzik"
+		"<br>"
+		"Beltxo"
+		"<br>"
+		"Blackstaff"
+		"<br>"
+		"ChatNoir"
+		"<br>"
+		"DopeFish"
+		"<br>"
+		"Fuxie - DK"
+		"<br>"
+		"LF_"
+		"<br>"
+		"muleteer"
+		"<br>"
+		"Psy"
+		"<br>"
+		"reanimated838uk"
+		"<br>"
+		"thisIsRandom"
+		"<br>"
+		"uffowich"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Active Betatesters</font>"
+		"<br><br>"
+
+		"eMWu, LeChuck, Mr. Bean"
+		"<br>"
+		"bymike, erein"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Supporters</font>"
+		"<br><br>"
+
+		"<font face='arial' size='12' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Additional thanks go to:</font>"
+		"<br><br>"
+		"BavarianSnail"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>"
+		"<br>"
+		"DoubleT"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>"
+		"<br>"
+		"Eugene Pustovoyt"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Advanced tooltips)</font>"
+		"<br>"
+		"Ultras"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>"
+		"<br>"
+		"zz"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Upload system)</font>"
+		"<br>"
+		"Matthew R. Miller"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(OptionTree class)</font>"
+		"<br>"
+		"xrmb"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(GUI goodies)</font>"
+		"<br>"
+		"Amdribant"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Color Coded Search Results)</font>"
+		"<br>"
+		"Tarod"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Too much code to name it)</font>"
+		"<br>"
+		"Vorlost"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(chunk transfer and preview)</font>"
+		"<br><br>"
+		"<font face='arial' size='11' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>And to everyone we forgot</font>"
+		"<br><br><br>"
+
+
+		"<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>eMule Official</font>"
+		"<br>"
+		"<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Code Credits</font>"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002 Merkur</font>"
+		"<br><br>"
+		"Unknown1"
+		"<br>"
+		"Ornis"
+		"<br>"
+		"Bluecow"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Development</font>"
+		"<br><br>"
+
+		"Merkur, tecxx, Pach2"
+		"<br>"
+		"Juanjo, Barry, Dirus"
+		"<br>"
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Members</font>"
+		"<br><br>"
+
+		"Thanks to these programmers"
+		"<br>"
+		"for publishing useful codeparts"
+		"<br><br>"
+		"Paolo Messina"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(ResizableDialog class)</font>"
+		"<br>"
+		"PJ Naughter"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(HttpDownload Dialog)</font>"
+		"<br>"
+		"Jim Connor"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Scrolling Credits)</font>"
+		"<br>"
+		"Yury Goltsman"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(extended Progressbar)</font>"
+		"<br>"
+		"Arthur Westerman"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Titled menu)</font>"
+		"<br>"
+		"Davide Calabro'"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Layered Windows)</font>"
+		"<br>"
+		"Tim Kosse"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(AsyncSocket-Proxysupport)</font>"
+		"<br>"
+		"Keith Rule"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Memory DC)</font>"
+		"</font>"
+		"<br><br><br><br><br><br>";
+@
+
+
+1.83
+log
+@Updated Retired Devs and Greek translator.
+@
+text
+@d56 6
+d67 1
+a67 1
+		"<font face='Arial Bold' size='22' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>v" CURRENT_VERSION_LONG;
+@
+
+
+1.82
+log
+@Credits update.
+@
+text
+@d79 1
+a79 1
+	// uses default font (first entry s = ...)
+a81 2
+		"BavarianSnail"
+		"<br>"
+a83 2
+		"DropF"
+		"<br>"
+a91 2
+		"morevit"
+		"<br>"
+d111 1
+a111 5
+		"bond006"
+		"<br>"
+		"Cax2"
+		"<br>"
+		"Drowzee"
+d113 1
+a113 1
+		"EC"
+d115 1
+a115 1
+		"FoRcHa"
+d117 1
+a117 1
+		"Lord KiRon"
+d119 1
+a119 1
+		"moosetea"
+d121 1
+a121 1
+		"obaldin"
+d123 1
+a123 7
+		"Purity"
+		"<br>"
+		"reCDVst"
+		"<br>"
+		"SeeWen"
+		"<br>"
+		"TwoBottle Mod"
+d138 1
+a138 1
+		"EC [Greek]"
+d140 1
+a140 1
+		"ElrondDzidkins [Polish]"
+@
+
+
+1.81
+log
+@Translator update.
+@
+text
+@a89 2
+		"FoRcHa"
+		"<br>"
+d125 2
+d148 2
+@
+
+
+1.80
+log
+@Retirements.
+@
+text
+@d162 2
+a183 2
+		"rAzi3Lro [Romanian]"
+		"<br>"
+@
+
+
+1.79
+log
+@Credits update.
+@
+text
+@a83 2
+		"bond006"
+		"<br>"
+a87 2
+		"EC"
+		"<br>"
+d119 2
+d125 2
+@
+
+
+1.78
+log
+@Updated credits; Created 'Retired Supporters' section.
+@
+text
+@a149 2
+		"rAzi3Lro [Romanian]"
+		"<br>"
+a155 2
+		"erein [Basque]"
+		"<br>"
+d178 2
+d182 2
+d201 2
+d222 1
+a222 1
+		"bymike"
+@
+
+
+1.77
+log
+@Unified definitions for client name.
+@
+text
+@d115 1
+a115 1
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Layout design and graphics</font>"
+d120 1
+a120 1
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translation coordination</font>"
+d143 1
+a143 1
+		"<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired developers</font>"
+d150 1
+a150 1
+		"bymikeRO [Romanian]"
+d156 1
+a156 1
+		"ElrondDzidkins & eMWu [Polish]"
+d172 1
+a172 3
+		"LeChuck & Dr.Slump [Catalan]"
+		"<br>"
+		"LF_ [Russian]"
+d186 2
+d192 1
+d195 2
+d199 2
+d203 4
+d218 7
+d286 1
+a286 9
+		"Merkur"
+		"<br>"
+		"tecxx"
+		"<br>"
+		"Pach2"
+		"<br>"
+		"Juanjo"
+		"<br>"
+		"Barry"
+d288 1
+a288 1
+		"Dirus"
+@
+
+
+1.76
+log
+@Removed non used string
+@
+text
+@d59 1
+a59 1
+		"<font face='Arial Bold' size='22' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>eMule Plus</font>"
+@
+
+
+1.75
+log
+@Minor formating changes and corrections
+Added ed2k server link processing at search window
+@
+text
+@d156 1
+a156 1
+		"eMWu [Polish]"
+@
+
+
+1.74
+log
+@Updated LayeredWindowHelper to v1.1
+@
+text
+@a210 4
+		"JoeyRamone"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Advanced tooltips)</font>"
+		"<br>"
+d219 4
+@
+
+
+1.73
+log
+@Updated members
+@
+text
+@d309 4
+@
+
+
+1.72
+log
+@Hyperlink ctrl is no longer used in our project
+@
+text
+@d196 1
+a196 13
+		"drcrash"
+		"<br>"
+		"Gollum"
+		"<br>"
+		"JoeyRamone"
+		"<br>"
+		"LF_"
+		"<br>"
+		"n@@boleo"
+		"<br>"
+		"NeONiZer"
+		"<br>"
+		"project-xt"
+@
+
+
+1.71
+log
+@Corrected output of '&' in Credit Control.
+@
+text
+@a316 4
+		"Magomed G. Abdurakhmanov"
+		"<br>"
+		"<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Hyperlink ctrl)</font>"
+		"<br>"
+@
+
+
+1.70
+log
+@Improved string processing
+@
+text
+@d172 1
+a172 1
+		"LeChuck && Dr.Slump [Catalan]"
+d180 1
+a180 1
+		"netwolf && project-xt [German]"
+@
+
+
+1.69
+log
+@Unused service removal; minor corrections
+@
+text
+@d61 1
+a61 1
+		"<font face='Arial Bold' size='22' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>v%s";
+d335 1
+a335 1
+	m_ctrlCredits.FormatDataString(s, CURRENT_VERSION_LONG);
+@
+
+
+1.68
+log
+@Improved string processing
+@
+text
+@d54 1
+a54 1
+	((CStatic*)GetDlgItem(IDC_BACKGROUND))->SetBitmap(m_imgBackground);
+d342 1
+a342 1
+	((CStatic*)GetDlgItem(IDC_BACKGROUND))->GetWindowRect(rBmpRect);
+d357 1
+a357 1
+	m_ctrlCredits.Create(NULL, WS_CHILD | WS_VISIBLE /*| WS_BORDER*/, rCredits, this);
+a421 14
+
+void CAboutDlg::DrawCreditsBackground(CDC *pDC, RECT rect, BOOL bAnimate, DWORD lParam)
+{
+	CAboutDlg *pDlg = (CAboutDlg*)lParam;
+
+	CRect rCtrl;
+	pDlg->m_ctrlCredits.GetWindowRect(rCtrl);
+	pDlg->ScreenToClient(&rCtrl);
+
+	rect.left -= rCtrl.left;
+	rect.top  -= rCtrl.top;
+	pDC->DrawState(CPoint(rect.left,rect.top), CSize(rect.right-rect.left,rect.bottom-rect.top),
+					pDlg->m_imgBackground, DST_BITMAP, NULL);
+}
+@
+
+
+1.67
+log
+@Update
+@
+text
+@d56 6
+a61 6
+	CString s;
+	s  = "<font face='arial' size='10' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>";
+	s += "<br><br><br>";
+	s += "<font face='Arial Bold' size='22' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>eMule Plus</font>";
+	s += "<br>";
+	s += "<font face='Arial Bold' size='22' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>v%s";
+d75 3
+a77 3
+	s += "</font><br>";
+	s += "<font face='Verdana Regular' size='11' style='u | -b' color='0,0,255' background='255,255,255' align='center' valign='bottom'><a href='http://emuleplus.info'>emuleplus.info</a></font>";
+	s += "<br><br><br><br><br><br><br><br>";
+d80 254
+a333 254
+	s += "Aw3";
+	s += "<br>";
+	s += "BavarianSnail";
+	s += "<br>";
+	s += "bond006";
+	s += "<br>";
+	s += "DonGato";
+	s += "<br>";
+	s += "DropF";
+	s += "<br>";
+	s += "EC";
+	s += "<br>";
+	s += "Eklmn";
+	s += "<br>";
+	s += "FoRcHa";
+	s += "<br>";
+	s += "katsyonak";
+	s += "<br>";
+	s += "kuchin";
+	s += "<br>";
+	s += "KuSh";
+	s += "<br>";
+	s += "morevit";
+	s += "<br>";
+	s += "netwolf";
+	s += "<br>";
+	s += "SyruS";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Programming</font>";
+	s += "<br><br>";
+
+	s += "DrSiRiUs";
+	s += "<br>";
+	s += "Psy";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Layout design and graphics</font>";
+	s += "<br><br>";
+
+	s += "andrerib";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translation coordination</font>";
+	s += "<br><br>";
+
+	s += "Cax2";
+	s += "<br>";
+	s += "Drowzee";
+	s += "<br>";
+	s += "Lord KiRon";
+	s += "<br>";
+	s += "moosetea";
+	s += "<br>";
+	s += "obaldin";
+	s += "<br>";
+	s += "Purity";
+	s += "<br>";
+	s += "reCDVst";
+	s += "<br>";
+	s += "SeeWen";
+	s += "<br>";
+	s += "TwoBottle Mod";
+	s += "<br>";
+	s += "zegzav";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired developers</font>";
+	s += "<br><br>";
+
+	s += "andrerib [Portuguese Brazil]";
+	s += "<br>";
+	s += "BouRock [Turkish]";
+	s += "<br>";
+    s += "bymikeRO [Romanian]";
+	s += "<br>";
+	s += "Daan [Lithuanian]";
+	s += "<br>";
+	s += "EC [Greek]";
+	s += "<br>";
+	s += "eMWu [Polish]";
+	s += "<br>";
+	s += "erein [Basque]";
+	s += "<br>";
+	s += "gprina [Spanish]";
+	s += "<br>";
+	s += "hiei [Chinese Simplified]";
+	s += "<br>";
+	s += "Janes Bong [Danish]";
+	s += "<br>";
+	s += "katsyonak [Hebrew]";
+	s += "<br>";
+	s += "koizo [Portuguese Portugal]";
+	s += "<br>";
+	s += "krhung [Chinese Traditional]";
+	s += "<br>";
+	s += "LeChuck && Dr.Slump [Catalan]";
+	s += "<br>";
+	s += "LF_ [Russian]";
+	s += "<br>";
+	s += "n@@boleo [French]";
+	s += "<br>";
+	s += "Nazgul [Italian]";
+	s += "<br>";
+	s += "netwolf && project-xt [German]";
+	s += "<br>";
+	s += "Nikerabbit [Finnish]";
+	s += "<br>";
+	s += "pooz [Korean]";
+	s += "<br>";
+	s += "Sleepy [Dutch]";
+	s += "<br>";
+	s += "True Neo [Norwegian]";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Translators</font>";
+	s += "<br><br>";
+	s += "Bazzik";
+	s += "<br>";
+	s += "Blackstaff";
+	s += "<br>";
+	s += "drcrash";
+	s += "<br>";
+	s += "Gollum";
+	s += "<br>";
+	s += "JoeyRamone";
+	s += "<br>";
+	s += "LF_";
+	s += "<br>";
+	s += "n@@boleo";
+	s += "<br>";
+	s += "NeONiZer";
+	s += "<br>";
+	s += "project-xt";
+	s += "<br>";
+	s += "Psy";
+	s += "<br>";
+	s += "reanimated838uk";
+	s += "<br>";
+	s += "thisIsRandom";
+	s += "<br>";
+	s += "uffowich";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Active Betatesters</font>";
+	s += "<br><br>";
+
+	s += "<font face='arial' size='12' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Additional thanks go to:</font>";
+	s += "<br><br>";
+	s += "JoeyRamone";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Advanced tooltips)</font>";
+	s += "<br>";
+	s += "BavarianSnail";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>";
+	s += "<br>";
+	s += "DoubleT";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>";
+	s += "<br>";
+	s += "Ultras";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>";
+	s += "<br>";
+	s += "zz";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Upload system)</font>";
+	s += "<br>";
+	s += "Matthew R. Miller";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(OptionTree class)</font>";
+	s += "<br>";
+	s += "xrmb";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(GUI goodies)</font>";
+	s += "<br>";
+	s += "Amdribant";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Color Coded Search Results)</font>";
+	s += "<br>";
+	s += "Tarod";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Too much code to name it)</font>";
+	s += "<br>";
+	s += "Vorlost";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(chunk transfer and preview)</font>";
+	s += "<br><br>";
+	s += "<font face='arial' size='11' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>And to everyone we forgot</font>";
+	s += "<br><br><br>";
+
+
+	s += "<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>eMule Official</font>";
+	s += "<br>";
+	s += "<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Code Credits</font>";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002 Merkur</font>";
+	s += "<br><br>";
+	s += "Unknown1";
+    s += "<br>";
+	s += "Ornis";
+	s += "<br>";
+	s += "Bluecow";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Development</font>";
+	s += "<br><br>";
+
+	s += "Merkur";
+	s += "<br>";
+	s += "tecxx";
+	s += "<br>";
+	s += "Pach2";
+	s += "<br>";
+	s += "Juanjo";
+	s += "<br>";
+	s += "Barry";
+	s += "<br>";
+	s += "Dirus";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Retired Members</font>";
+	s += "<br><br>";
+
+	s += "Thanks to these programmers";
+	s += "<br>";
+	s += "for publishing useful codeparts";
+	s += "<br><br>";
+	s += "Paolo Messina";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(ResizableDialog class)</font>";
+	s += "<br>";
+	s += "PJ Naughter";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(HttpDownload Dialog)</font>";
+	s += "<br>";
+	s += "Jim Connor";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Scrolling Credits)</font>";
+	s += "<br>";
+	s += "Yury Goltsman";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(extended Progressbar)</font>";
+	s += "<br>";
+	s += "Magomed G. Abdurakhmanov";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Hyperlink ctrl)</font>";
+	s += "<br>";
+	s += "Arthur Westerman";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Titled menu)</font>";
+	s += "<br>";
+	s += "Tim Kosse";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(AsyncSocket-Proxysupport)</font>";
+	s += "<br>";
+	s += "Keith Rule";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Memory DC)</font>";
+	s += "</font>";
+	s += "<br><br><br><br><br><br>";
+a435 1
+
+@
+
+
+1.66
+log
+@Formatting, name changes and deleting spaces and tabs at end of lines
+@
+text
+@a105 2
+	s += "Purity";
+	s += "<br>";
+a107 2
+	s += "TwoBottle Mod";
+	s += "<br>";
+d133 2
+d139 2
+@
+
+
+1.65
+log
+@More links update to new domain
+@
+text
+@d52 1
+a52 1
+		
+d84 1
+a84 1
+	s += "bond006"; 
+d334 1
+a334 1
+	
+d351 1
+a351 1
+	
+d411 1
+a411 1
+	{       
+d413 1
+a413 1
+		{   
+d415 1
+a415 1
+			GetWindowRect(&r); 
+d424 1
+a424 1
+{	
+d434 1
+a434 1
+					pDlg->m_imgBackground, DST_BITMAP, NULL);					
+@
+
+
+1.64
+log
+@Replaced punpcklqdq SSE2 CPU instruction with SSE punpckldq + Removed old MMX/AMD/SSE configurations defines
+@
+text
+@d76 1
+a76 1
+	s += "<font face='Verdana Regular' size='11' style='u | -b' color='0,0,255' background='255,255,255' align='center' valign='bottom'><a href='http://www.emuleplus.tk'>www.emuleplus.tk</a></font>";
+@
+
+
+1.63
+log
+@Aw3 fix for About dialog when system font size is different from small
+@
+text
+@a61 1
+#if !defined(MMX) && !defined(AMD) && !defined(SSE)
+d64 10
+a73 13
+	/*case 1:
+		s += " FPU";
+		break;*/
+	case 2:
+		s += " MMX";
+		break;
+	case 3:
+		s += " AMD";
+		break;
+	case 4:
+	case 5:
+		s += " SSE";
+		break;
+a74 1
+#endif
+@
+
+
+1.62
+log
+@Release changes
+@
+text
+@d342 7
+@
+
+
+1.61
+log
+@Minor change
+@
+text
+@d85 4
+@
+
+
+1.60
+log
+@Reverted completion changes (now completion is done after a block is sent) and some minor changes by KuSh.
+@
+text
+@d153 1
+a153 1
+	s += "Daan-LT [Lithuanian]";
+@
+
+
+1.59
+log
+@Some fixes, added debug log for file starting to be hashed.
+@
+text
+@d101 2
+@
+
+
+1.58
+log
+@removed FPU optimization indication from splash & about + added try/catch to OutputLogText
+@
+text
+@a100 2
+	s += "moosetea";
+	s += "<br>";
+a110 2
+	s += "zegzav";
+	s += "<br>";
+d132 2
+d139 2
+@
+
+
+1.57
+log
+@Old Pentium machines (without MMX) are now FPU optimized
+@
+text
+@d65 1
+a65 1
+	case 1:
+d67 1
+a67 1
+		break;
+@
+
+
+1.56
+log
+@About dialog is now semi-transparent when dragged
+@
+text
+@d65 3
+@
+
+
+1.55
+log
+@minor changes
+@
+text
+@d21 1
+d39 2
+d321 4
+d379 3
+a381 1
+	PostMessage(WM_NCLBUTTONDOWN, HTCAPTION, MAKELPARAM(point.x, point.y));
+d383 27
+@
+
+
+1.54
+log
+@Update
+@
+text
+@d343 1
+a343 1
+	SetTimer(1, (256/8)+1, 0);
+d354 1
+a354 1
+		bTranslucency += 8;
+@
+
+
+1.53
+log
+@Added SSE2 (Pentium 4) detection
+@
+text
+@d179 1
+a179 1
+	s += "Sleepy && Mr. Bean [Dutch]";
+@
+
+
+1.52
+log
+@Fade-in effect for Splash & About dialogs (Windows 2000 and above only)
+@
+text
+@d69 1
+@
+
+
+1.51
+log
+@Updated
+@
+text
+@d35 1
+d46 3
+d341 3
+d346 15
+@
+
+
+1.50
+log
+@*** empty log message ***
+@
+text
+@d78 1
+a78 1
+	s += "Eklmn";
+d82 2
+a95 2
+	s += "obaldin";
+	s += "<br>";
+d109 2
+a113 2
+	s += "EC";
+	s += "<br>";
+d125 2
+d175 2
+@
+
+
+1.49
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d84 2
+a215 4
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Code snippets)</font>";
+	s += "<br>";
+	s += "katsyonak";
+@
+
+
+1.48
+log
+@Update
+@
+text
+@d54 16
+a69 2
+	s += "<font face='Arial Bold' size='22' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>v%s</font>";
+	s += "<br>";
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d160 2
+@
+
+
+1.46
+log
+@*** empty log message ***
+@
+text
+@d74 2
+@
+
+
+1.45
+log
+@Updated
+@
+text
+@a171 2
+	s += "Pink Frog";
+	s += "<br>";
+a245 2
+	s += "<br>";
+	s += "VQB";
+@
+
+
+1.44
+log
+@added koizo name as a translator
+@
+text
+@d59 2
+a60 1
+	s += "Cax2";			// uses default font (first entry s = ...)
+d84 2
+d101 4
+a110 2
+	s += "Drowzee";
+	s += "<br>";
+d128 1
+a128 1
+	s += "gprina && |_HeLL_| [Spanish]";
+d130 1
+a130 1
+	s += "hiei && wkao [Chinese Simplified]";
+d158 2
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d131 2
+@
+
+
+1.42
+log
+@Memeber status change
+@
+text
+@d188 4
+a237 2
+	s += "Dirus";
+	s += "<br>";
+d254 2
+@
+
+
+1.41
+log
+@Added new translator.
+@
+text
+@d59 3
+a61 1
+	s += "DonGato";			// uses default font (first entry s = ...)
+a97 2
+	s += "Cax2";
+	s += "<br>";
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d125 2
+a136 2
+	s += "Mr. Bean && Sleepy [Dutch]";
+	s += "<br>";
+d147 1
+a147 1
+	s += "wkao [Chinese Simplified]";
+@
+
+
+1.39
+log
+@Added Translator and updated Spanish strings.
+@
+text
+@d137 2
+a144 2
+	s += "n@@boleo [French]";
+	s += "<br>";
+d151 2
+a153 2
+	s += "<br>";
+	s += "|_HeLL_|";
+@
+
+
+1.38
+log
+@Removed old Stored Sources from all code.
+@
+text
+@d111 2
+a116 2
+	s += "n@@boleo [French]";
+	s += "<br>";
+d123 3
+a125 1
+	s += "|_HeLL_| [Spanish]";
+d127 1
+a127 1
+	s += "BouRock [Turkish]";
+d131 1
+a131 1
+	s += "pooz [Korean]";
+d135 1
+a135 1
+	s += "Janes Bong [Danish]";
+d137 1
+a137 1
+	s += "katsyonak [Hebrew]";
+d141 1
+a141 1
+	s += "LeChuck && Dr.Slump [Catalan]";
+d143 1
+a143 1
+	s += "Mr. Bean && Sleepy [Dutch]";
+d145 1
+a145 3
+	s += "Nazgul [Italian]";
+	s += "<br>";
+	s += "Nikerabbit [Finnish]";
+@
+
+
+1.37
+log
+@unicode cleanup
+@
+text
+@d59 1
+a59 1
+	s += "Cax2";			// uses default font (first entry s = ...)
+d61 1
+a61 1
+	s += "DonGato";
+a68 4
+	s += "Lord KiRon";
+	s += "<br>";
+	s += "Maverick";
+	s += "<br>";
+d75 1
+a75 1
+	s += "reCDVst";
+d96 6
+d115 1
+a115 1
+	s += "Darh Lord && ZeeDD [French]";
+d141 1
+a141 1
+	s += "Mr. Bean [Dutch]";
+a146 2
+	s += "T-DoG [English]";
+	s += "<br>";
+d151 1
+a151 7
+	s += "curna";
+	s += "<br>";
+	s += "Dr.Slump";
+	s += "<br>";
+	s += "drcrash";
+	s += "<br>";
+	s += "Guni";
+d157 1
+a157 1
+	s += "mcmoleman";
+d167 1
+a167 3
+	s += "skynetman";
+	s += "<br>";
+	s += "SRock";
+d169 1
+a169 1
+	s += "T-DoG";
+d175 1
+a175 1
+	s += "<font face='arial' size='10' style='' color='0,115,250' background='255,255,255' align='center' valign='bottom'>Betatesters</font>";
+a206 4
+	s += "<br>";
+	s += "Mr. Fry";
+	s += "<br>";
+	s += "<font face='arial' size='10' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'>(Load/Save Sources)</font>";
+@
+
+
+1.36
+log
+@minor change
+@
+text
+@d46 1
+a46 1
+	VERIFY(m_imgBackground.LoadImage(IDR_LOGO,"JPG"));
+@
+
+
+1.35
+log
+@Updated WebServer (bugfixing)
+@
+text
+@d165 2
+a167 2
+	s += "<br>";
+	s += "netwolf";
+@
+
+
+1.34
+log
+@small addition
+@
+text
+@d53 2
+a54 1
+	s += "<font face='Arial Bold' size='22' style='b' color='128,128,128' background='255,255,255' align='center' valign='bottom'> %s</font>";
+@
+
+
+1.33
+log
+@Credits updated. If something wrong - tell on forum
+@
+text
+@d62 2
+@
+
+
+1.32
+log
+@Some polishing
+@
+text
+@d72 2
+d78 2
+d92 2
+d185 16
+d239 1
+a239 1
+	s += "unknown";
+d245 3
+a247 1
+	s += "Barry";
+d259 2
+@
+
+
+1.31
+log
+@Some polishing
+@
+text
+@d114 1
+a114 1
+	s += "Burak Yavuz [Turkish]";
+@
+
+
+1.30
+log
+@Added Turkish Language
+@
+text
+@d114 1
+a114 1
+	s += "hitoWerdigit [Turkish]";
+@
+
+
+1.29
+log
+@Added Basque Language
+@
+text
+@d114 2
+a141 1
+
+@
+
+
+1.28
+log
+@1d Beta 1 version change and About minor correction.
+@
+text
+@d110 2
+@
+
+
+1.27
+log
+@Minor changes
+@
+text
+@a97 2
+	s += "|_HeLL_| [Spanish]";
+	s += "<br>";
+d110 2
+d153 1
+a153 1
+	s += "NeONIZer";
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d98 1
+a98 1
+	s += "|_HELL_| [Spanish]";
+d147 1
+a147 1
+	s += "|_HELL_|";
+d165 1
+a165 1
+	s += "T-Dog";
+d204 1
+a204 3
+	s += "<font face='arial' size='11' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>And to our beta testers</font>";
+	s += "<br>";
+	s += "<font face='arial' size='11' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>and everyone we forgot</font>";
+@
+
+
+1.26.2.1
+log
+@27c
+@
+text
+@d98 2
+a111 2
+	s += "|_HeLL_| [Spanish]";
+	s += "<br>";
+d147 1
+a147 1
+	s += "|_HeLL_|";
+d153 1
+a153 1
+	s += "NeONiZer";
+d165 1
+a165 1
+	s += "T-DoG";
+d204 3
+a206 1
+	s += "<font face='arial' size='11' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>And to everyone we forgot</font>";
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d148 1
+a148 1
+	s += "<br>"
+@
+
+
+1.24
+log
+@Tab order and compilation fix from FoRcHa's changes.
+@
+text
+@d147 2
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d154 1
+a154 1
+	s += <br>
+@
+
+
+1.22
+log
+@added our lovely betatesters to the credits
+@
+text
+@d153 2
+@
+
+
+1.21
+log
+@*** empty log message ***
+@
+text
+@d139 31
+@
+
+
+1.20
+log
+@added link to website
+@
+text
+@d50 1
+a50 1
+	s  = "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>";
+d52 2
+a53 2
+	s += "<font face='arial' size='22' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>eMule Plus</font>";
+	s += "<font face='arial' size='16' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'></font>";
+d55 4
+a58 5
+	s += "<font face='arial' size='16' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>%s</font>";
+	s += "<br><br>";
+	s += "<font face='arial' size='10' style='u' color='0,0,255' background='255,255,255' align='center' valign='bottom'><a href='http://www.emuleplus.tk'>www.emuleplus.tk</a></font>";
+	s += "<br><br><br><br><br>";
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Cax2</font>";
+d60 1
+a60 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>DonGato</font>";
+d62 1
+a62 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>FoRcHa</font>";
+d64 1
+a64 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>kuchin</font>";
+d66 1
+a66 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Lord KiRon</font>";
+d68 1
+a68 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Maverick</font>";
+d70 1
+a70 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>moosetea</font>";
+d72 1
+a72 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>obaldin</font>";
+d74 1
+a74 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>reCDVst</font>";
+d76 1
+a76 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>TwoBottle Mod</font>";
+d78 1
+a78 1
+	s += "<font face='arial' size='10' style='' color='0,128,255' background='255,255,255' align='center' valign='bottom'>Programming</font>";
+d80 2
+a81 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>DrSiRiUs</font>";
+d83 1
+a83 1
+	s += "<font face='arial' size='10' style='' color='0,128,255' background='255,255,255' align='center' valign='bottom'>Layout design and graphics</font>";
+d85 2
+a86 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>EC</font>";
+d88 1
+a88 1
+	s += "<font face='arial' size='10' style='' color='0,128,255' background='255,255,255' align='center' valign='bottom'>Translation coordination</font>";
+d90 2
+a91 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>SeeWen</font>";
+d93 1
+a93 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Drowzee</font>";
+d95 1
+a95 1
+	s += "<font face='arial' size='10' style='' color='0,128,255' background='255,255,255' align='center' valign='bottom'>Retired developers</font>";
+d97 2
+a98 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>|_HELL_| [Spanish]</font>";
+d100 1
+a100 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>andrerib [Portuguese Brazil]</font>";
+d102 1
+a102 1
+    s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>bymikeRO [Romanian]</font>";
+d104 1
+a104 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Daan-LT [Lithuanian]</font>";
+d106 1
+a106 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Darh Lord && ZeeDD [French]</font>";
+d108 1
+a108 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>EC [Greek]</font>";
+d110 1
+a110 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>eMWu [Polish]</font>";
+d112 1
+a112 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>krhung [Chinese Traditional]</font>";
+d114 1
+a114 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>pooz [Korean]</font>";
+d116 1
+a116 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>LF_ [Russian]</font>";
+d118 1
+a118 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Janes Bong [Danish]</font>";
+d120 1
+a120 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>katsyonak [Hebrew]</font>";
+d122 1
+a122 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>netwolf && project-xt [German]</font>";
+d124 1
+a124 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>LeChuck && Dr.Slump [Catalan]</font>";
+d126 1
+a126 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Mr. Bean [Dutch]</font>";
+d128 1
+a128 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Nazgul [Italian]</font>";
+d130 1
+a130 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Nikerabbit [Finnish]</font>";
+d132 1
+a132 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>T-DoG [English]</font>";
+d134 1
+a134 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>wkao [Chinese Simplified]</font>";
+d136 1
+a136 1
+	s += "<font face='arial' size='10' style='' color='0,128,255' background='255,255,255' align='center' valign='bottom'>Translators</font>";
+d138 1
+d141 1
+a141 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>zz</font>";
+d143 1
+a143 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Upload system)</font>";
+d145 1
+a145 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Matthew R. Miller</font>";
+d147 1
+a147 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(OptionTree class)</font>";
+d149 1
+a149 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>xrmb</font>";
+d151 1
+a151 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(GUI goodies)</font>";
+d153 1
+a153 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Mr. Fry</font>";
+d155 1
+a155 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Load/Save Sources)</font>";
+d157 1
+a157 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Amdribant</font>";
+d159 1
+a159 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Color Coded Search Results)</font>";
+d161 1
+a161 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Tarod</font>";
+d163 1
+a163 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Too much code to name it)</font>";
+d165 1
+a165 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Vorlost</font>";
+d167 1
+a167 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(chunk transfer and preview)</font>";
+d169 1
+a169 1
+	s += "<font face='arial' size='11' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>And to our beta testers</font>";
+d171 1
+a171 1
+	s += "<font face='arial' size='11' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>and everyone we forgot</font>";
+d179 1
+a179 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002 Merkur</font>";
+d181 1
+a181 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>unknown</font>";
+d183 1
+a183 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Ornis</font>";
+d185 1
+a185 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Dirus</font>";
+d187 1
+a187 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Barry</font>";
+d189 1
+a189 1
+	s += "<font face='arial' size='10' style='' color='0,128,255' background='255,255,255' align='center' valign='bottom'>Development</font>";
+d191 2
+a192 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Merkur</font>";
+d194 1
+a194 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>tecxx</font>";
+d196 1
+a196 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Pach2</font>";
+d198 1
+a198 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Juanjo</font>";
+d200 1
+a200 1
+	s += "<font face='arial' size='10' style='' color='0,128,255' background='255,255,255' align='center' valign='bottom'>Retired Members</font>";
+d202 2
+a203 1
+	s += "<font face='arial' size='10' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Thanks to these programmers</font>";
+d205 1
+a205 1
+	s += "<font face='arial' size='10' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>for publishing useful codeparts</font>";
+d207 1
+a207 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Paolo Messina</font>";
+d209 1
+a209 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(ResizableDialog class)</font>";
+d211 1
+a211 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>PJ Naughter</font>";
+d213 1
+a213 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(HttpDownload Dialog)</font>";
+d215 1
+a215 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Jim Connor</font>";
+d217 1
+a217 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Scrolling Credits)</font>";
+d219 1
+a219 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Yury Goltsman</font>";
+d221 1
+a221 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(extended Progressbar)</font>";
+d223 1
+a223 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Magomed G. Abdurakhmanov</font>";
+d225 1
+a225 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Hyperlink ctrl)</font>";
+d227 1
+a227 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Arthur Westerman</font>";
+d229 1
+a229 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Titled menu)</font>";
+d231 1
+a231 1
+	s += "<font face='arial' size='10' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Keith Rule</font>";
+d233 1
+a233 1
+	s += "<font face='arial' size='10' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>(Memory DC)</font>";
+@
+
+
+1.19
+log
+@new logo from DrSirius
+@
+text
+@d53 1
+d55 3
+a57 1
+	s += "<font face='arial' size='22' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>%s</font>";
+@
+
+
+1.18
+log
+@Changes to credits and ed2k links.
+@
+text
+@d51 1
+a51 1
+	s += "<br><br><br><br><br><br><br><br>";
+d55 1
+a55 1
+	s += "<br><br><br><br><br><br><br><br><br><br><br><br>";
+d226 1
+a226 1
+	s += "<br><br><br><br><br><br><br><br><br><br><br>";
+a227 1
+	//m_ctrlCredits.SetDataString(s);
+d233 4
+a236 4
+	rCredits.top = 10;
+	rCredits.left += 5;
+	rCredits.bottom -= 10;
+	rCredits.right -= 230;
+d240 3
+d261 15
+@
+
+
+1.17
+log
+@minor change
+@
+text
+@d50 2
+a51 2
+	s  = "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>";
+	s += "<br><br>";
+a52 3
+	s += "<font face='arial' size='22' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'> %s</font>";
+	s += "<br><br><br><br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Cax2</font>";
+d54 7
+a60 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>DonGato</font>";
+d62 1
+a62 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>FoRcHa</font>";
+d64 1
+a64 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>kuchin</font>";
+d66 1
+a66 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Lord KiRon</font>";
+d68 1
+a68 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Maverick</font>";
+d70 1
+a70 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>moosetea</font>";
+d72 1
+a72 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>obaldin</font>";
+d74 1
+a74 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>reCDVst</font>";
+d76 1
+a76 1
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Programming</font>";
+d78 1
+a78 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>DrSiRiUs</font>";
+d80 1
+a80 1
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Layout design and graphics</font>";
+d82 1
+a82 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>EC</font>";
+d84 1
+a84 1
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Translation coordination</font>";
+d86 1
+a86 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>SeeWen</font>";
+d88 1
+a88 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Drowzee</font>";
+d90 1
+a90 1
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Retired developers</font>";
+d92 1
+a92 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>|_HELL_| [Spanish]</font>";
+d94 1
+a94 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>andrerib [Portuguese Brazil]</font>";
+d96 1
+a96 1
+    s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>bymikeRO [Romanian]</font>";
+d98 1
+a98 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Daan-LT [Lithuanian]</font>";
+d100 1
+a100 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Darh Lord && ZeeDD [French]</font>";
+d102 1
+a102 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>EC [Greek]</font>";
+d104 1
+a104 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>eMWu [Polish]</font>";
+d106 1
+a106 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>krhung [Chinese Traditional]</font>";
+d108 1
+a108 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>pooz [Korean]</font>";
+d110 1
+a110 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>LF_ [Russian]</font>";
+d112 1
+a112 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Janes Bong [Danish]</font>";
+d114 1
+a114 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>katsyonak [Hebrew]</font>";
+d116 1
+a116 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>netwolf && project-xt [German]</font>";
+d118 1
+a118 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>LeChuck && Dr.Slump [Catalan]</font>";
+d120 1
+a120 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Mr. Bean [Dutch]</font>";
+d122 1
+a122 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Nazgul [Italian]</font>";
+d124 1
+a124 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Nikerabbit [Finnish]</font>";
+d126 1
+a126 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>T-DoG [English]</font>";
+d128 1
+a128 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>wkao [Chinese Simplified]</font>";
+d130 1
+a130 1
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Translators</font>";
+d132 1
+a132 1
+	s += "<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Additional thanks go to:</font>";
+d134 7
+a140 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>zz (Upload system)</font>";
+d142 1
+a142 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Matthew R. Miller (OptionTree class)</font>";
+d144 1
+a144 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>xrmb (GUI goodies)</font>";
+d146 1
+a146 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Mr. Fry (Load/Save Sources)</font>";
+d148 1
+a148 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Amdribant (Color Coded Search Results)</font>";
+d150 1
+a150 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Tarod (Too much code to name it)</font>";
+d152 9
+a160 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Vorlost (chunk transfer and preview)</font>";
+d162 1
+a162 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>And to our beta testers</font>";
+d164 1
+a164 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>and everyone we forgot</font>";
+d168 3
+a170 1
+	s += "<font face='arial' size='18' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>eMule Official Code Credits</font>";
+d172 5
+a176 5
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Copyright (c) 2002 Merkur</font>";
+	s += "<br><br><br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>unknown</font>";
+    	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Ornis</font>";
+d178 1
+a178 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Dirus</font>";
+d180 1
+a180 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Barry</font>";
+d182 1
+a182 1
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Development</font>";
+d184 1
+a184 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Merkur</font>";
+d186 1
+a186 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>tecxx</font>";
+d188 1
+a188 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Pach2</font>";
+d190 1
+a190 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Juanjo</font>";
+d192 3
+a194 3
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Retired Members</font>";
+	s += "<br><br><br>";
+	s += "<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>Thanks to these programmers</font>";
+d196 1
+a196 1
+	s += "<font face='arial' size='14' style='b' color='0,0,0' background='255,255,255' align='center' valign='bottom'>for publishing useful codeparts</font>";
+d198 15
+a212 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Paolo Messina (ResizableDialog class)</font>";
+d214 1
+a214 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>PJ Naughter (HttpDownload Dialog)</font>";
+d216 1
+a216 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Jim Connor (Scrolling Credits)</font>";
+d218 1
+a218 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Yury Goltsman (extended Progressbar)</font>";
+d220 1
+a220 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Magomed G. Abdurakhmanov (Hyperlink ctrl)</font>";
+d222 1
+a222 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Arthur Westerman (Titled menu)</font>";
+d224 1
+a224 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Keith Rule (Memory DC)</font>";
+d226 1
+a226 1
+	s += "<br><br><br><br><br><br>";
+d234 2
+a235 2
+	rCredits.top = 184;
+	rCredits.left += 7;
+d237 1
+a237 1
+	rCredits.right -= 7;
+@
+
+
+1.16
+log
+@removed credits cos i rewrote the whole class with reference to a few sources... only about 10 lines of the original class left
+@
+text
+@d93 1
+a93 1
+    s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>bymike [Romanian]</font>";
+@
+
+
+1.15
+log
+@Small Addition
+@
+text
+@a143 2
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Oz Solomonovich (CShellContextMenu class)</font>";
+@
+
+
+1.14
+log
+@Updated credits.
+@
+text
+@d93 2
+@
+
+
+1.13
+log
+@Added Lithuanian Language
+@
+text
+@d55 4
+a58 1
+	
+a60 2
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Cax2</font>";
+	s += "<br>";
+d65 1
+a65 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>obaldin</font>";
+d67 1
+a67 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Maverick</font>";
+d69 1
+a69 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>DonGato</font>";
+d93 2
+a123 2
+	s += "<br>";
+        s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Daan-LT [Lithuanian]</font>";
+@
+
+
+1.12
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d122 2
+@
+
+
+1.11
+log
+@updated about dialog, proper A4AF management
+@
+text
+@d139 2
+@
+
+
+1.10
+log
+@addition in the translators section
+@
+text
+@d58 1
+a58 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Cax2</font>";
+d60 1
+a60 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>kuchin</font>";
+d62 1
+a62 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Lord KiRon</font>";
+d64 1
+a64 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>obaldin</font>";
+d66 1
+a66 1
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Maverick</font>";
+d70 2
+a82 2
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>reCDVst</font>";
+@
+
+
+1.9
+log
+@xrmb updated code for Part Traffic (not the last one).
+@
+text
+@d108 1
+a108 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>project-xt [German]</font>";
+@
+
+
+1.8
+log
+@small change
+@
+text
+@d126 2
+@
+
+
+1.7
+log
+@EC added to the main credits.
+@
+text
+@d90 1
+a90 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>anderib [Portuguese Brazil]</font>";
+@
+
+
+1.7.2.1
+log
+@v1a upgrade
+@
+text
+@d90 1
+a90 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>andrerib [Portuguese Brazil]</font>";
+@
+
+
+1.7.2.2
+log
+@keeping in sync with the main cvs line
+@
+text
+@a125 2
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>zz (Upload system)</font>";
+	s += "<br>";
+@
+
+
+1.6
+log
+@updated some info
+@
+text
+@d76 4
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d104 1
+a104 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>KauntNull [German]</font>";
+@
+
+
+1.4
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a67 2
+	s += "<font face='arial' size='12' style='b' color='96,96,96' background='255,255,255' align='center' valign='bottom'>Vorlost</font>";
+	s += "<br>";
+d150 2
+a162 38
+	s += "<br><br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Sony666</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Monk</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Mr. Ozon</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Testing</font>";
+	s += "<br><br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Catalan: LeChuck</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Chinese simplified: Tim Chen</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Chinese Traditional: Donlong, CML, Ryan</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Danish: KimTiede, Cirrus, Itchy</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Dutch: Mr.Bean</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Finnish: Nikerabbit, Miksan</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>French: Alexis, Bouc7, abc, obi1</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Greek: Michael Papadakis</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Italian: Trevi</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Korean: MoonHyoung Lee</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Polish: Tomasz 'Mouse' Broniarek</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>Portugese Brasilian: DarthMaul,Brasco</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Russian: BRMAIL</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Spanish Castellano: Azuredraco, Javier, Juanan</font>";
+	s += "<br>";
+	s += "<font face='arial' size='12' style='' color='128,128,128' background='255,255,255' align='center' valign='bottom'>Translating</font>";
+@
+
+
+1.3
+log
+@Added xrmb's SmartOpen
+@
+text
+@d8 6
+@
+
+
+1.2
+log
+@Credits update
+@
+text
+@d58 2
+d62 4
+a71 2
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>DonGato</font>";
+	s += "<br>";
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d58 2
+d88 1
+a88 1
+	s += "<font face='arial' size='12' style='b' color='64,64,64' background='255,255,255' align='center' valign='bottom'>momentum [Korean]</font>";
+@
+

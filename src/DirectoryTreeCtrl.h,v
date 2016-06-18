@@ -1,0 +1,390 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.7
+	Interim_Release_1-2d_RC1:1.7
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.7
+	PublicRelease_1_2b:1.7
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.7
+	Interim_Release_1-2a_RC1:1.7
+	Interim_Release_1-2a_beta2:1.7
+	Interim_Release_1-2a_beta1:1.7
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.6
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	Interim_Release_1n_beta1:1.4
+	PublicRelease_1m:1.4
+	Interim_Release_1m_beta1:1.4
+	PublicRelease_1l:1.4
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.4
+	Interim_Release_1l_beta1:1.4
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.7
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.10.14.05.19.25;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.07.20.22.41.12;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.04.15.17.07.57;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.03.09.22.11.34;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.11.02.12.38.12;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.03;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Reduced H-file dependency.
+@
+text
+@#pragma once
+/////////////////////////////////////////////
+// written by robert rostek - tecxx@@rrs.at //
+/////////////////////////////////////////////
+
+#define DIRLIST_ITEMSTATECHANGED	161279
+#define MP_SHAREDFOLDERS_FIRST	46901
+
+class CDirectoryTreeCtrl : public CTreeCtrl
+{
+	DECLARE_DYNAMIC(CDirectoryTreeCtrl)
+
+public:
+//	Initialize control
+	void Init(bool bAllowCDROM = true);
+
+	CStringList m_lstShared;
+
+private:
+	bool m_bCtrlPressed;
+//	Add a new item
+	HTREEITEM AddChildItem(HTREEITEM hRoot, CString strText);
+//	Add subdirectory items
+	void AddSubdirectories(HTREEITEM hRoot, CString strDir);
+//	Return the full path of an item (like C:\abc\somewhere\inheaven\)
+	CString GetFullPath(HTREEITEM hItem);
+//	Returns true if strDir has at least one subdirectory
+	bool HasSubdirectories(CString strDir);
+//	Check status of an item has changed
+	void CheckChanged(HTREEITEM hItem, bool bChecked);
+//	Returns true if a subdirectory of strDir is shared
+	bool HasSharedSubdirectory(CString strDir);
+//	When sharing a directory, make all parent directories bold
+	void UpdateParentItems(HTREEITEM hChild);
+
+//	Share list access
+	bool IsShared(CString strDir);
+	void AddShare(CString strDir);
+	void DelShare(CString strDir);
+	void MarkChilds(HTREEITEM hChild,bool mark);
+
+	CString m_strLastRightClicked;
+	bool m_bSelectSubDirs;
+
+public:
+	CDirectoryTreeCtrl();
+	virtual ~CDirectoryTreeCtrl();
+	virtual BOOL OnCommand(WPARAM wParam,LPARAM lParam);
+
+protected:
+	DECLARE_MESSAGE_MAP()
+	afx_msg void OnNMRclickSharedList(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnTvnItemexpanding(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+	afx_msg void OnTvnKeydown(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+};
+@
+
+
+1.6
+log
+@Fixed temporary directory list processing (double list entries which could be caused
+by case sensitive compares; remove incorrect entries from the list; don't allow
+main temp dir to be added to the list).
+@
+text
+@a5 3
+// CDirectoryTreeCtrl
+#include "TitleMenu.h"
+
+@
+
+
+1.5
+log
+@CD-ROM/DVD drives are not allowed as additional temporary location;
+Faster loading of directory tree icons; Better way to set [+] for subdirectories.
+@
+text
+@a18 4
+//	Get all shared directories
+	void GetSharedDirectories(CStringList* list);
+//	Set shared directories
+	void SetSharedDirectories(CStringList* list);
+@
+
+
+1.4
+log
+@Fixed shared directory list corruption caused by asynchronous access (bug #502);
+Fixed shared directory list processing to eliminate double list entries (that can be caused by case sensitive compares, by the bug on file completion after file destination change, or by initial shareddir.dat values).
+@
+text
+@d18 1
+a18 1
+	void Init(void);
+a27 1
+	CImageList m_image;
+d58 1
+a60 1
+	afx_msg void OnTvnGetdispinfo(NMHDR *pNMHDR, LRESULT *pResult);
+a61 2
+	DECLARE_MESSAGE_MAP()
+public:
+@
+
+
+1.3
+log
+@Improved context menu creation;
+Removed display of empty context menu.
+@
+text
+@d24 2
+a49 1
+	CStringList m_lstShared;
+@
+
+
+1.2
+log
+@Various fixes for Interim beta2 reported bugs
+@
+text
+@d26 1
+a26 1
+	CImageList m_image; 
+a48 1
+	CTitleMenu  m_SharedMenu;
+d55 1
+a55 1
+	virtual BOOL OnCommand(WPARAM wParam,LPARAM lParam );
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d17 1
+a17 1
+	// initialize control
+d19 1
+a19 1
+	// get all shared directories
+d21 1
+a21 1
+	// set shared directories
+d27 1
+a27 1
+	// add a new item
+d29 1
+a29 1
+	// add subdirectory items
+d31 1
+a31 1
+	// return the full path of an item (like C:\abc\somewhere\inheaven\)
+d33 1
+a33 1
+	// returns true if strDir has at least one subdirectory
+d35 1
+a35 1
+	// check status of an item has changed
+d37 1
+a37 1
+	// returns true if a subdirectory of strDir is shared
+d39 1
+a39 1
+	// when sharing a directory, make all parent directories bold
+d42 1
+a42 1
+	// share list access
+a53 1
+	// construction / destruction
+a68 2
+
+
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

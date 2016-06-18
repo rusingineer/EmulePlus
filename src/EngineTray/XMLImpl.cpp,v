@@ -1,0 +1,304 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.7
+	Interim_Release_1-2d_RC1:1.7
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.7
+	PublicRelease_1_2b:1.7
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.7
+	Interim_Release_1-2a_RC1:1.7
+	Interim_Release_1-2a_beta2:1.7
+	Interim_Release_1-2a_beta1:1.7
+	PublicRelease_1_2:1.7
+	Interim_Release_1-2_RC1:1.7
+	Interim_Release_1-2_beta1:1.7
+	PublicRelease_1_1g:1.7
+	Interim_Release_1-1g_RC3:1.7
+	Interim_Release_1-1g_RC2:1.7
+	Interim_Release_1-1g_RC1:1.7
+	Interim_Release_1-1g_beta2:1.7
+	Interim_Release_1-1g_beta1:1.7
+	PublicRelease_1_1f:1.7
+	Interim_Release_1-1f_RC1:1.7
+	PublicRelease_1_1e:1.7
+	Interim_Release_1-1e_RC2:1.7
+	Interim_Release_1-1e_RC1:1.7
+	Interim_Release_1-1e_beta1:1.7
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.2;
+locks; strict;
+comment	@// @;
+
+
+1.7
+date	2005.04.16.00.04.51;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.02.26.17.52.04;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.02.23.22.12.54;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.02.23.18.57.44;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.02.03.15.13.49;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.01.29.14.55.00;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.04.13.21.14;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@v2 - Xml events and other improvements
+@
+text
+@#include "stdafx.h"
+#include "EmEngine.h"
+#include "../Engine/Sockets/TasksSockets.h"
+#include "../Engine/XML/XML.h"
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(connect)
+XML_RESULT_EMPTY(connect)
+XML_EVENT_EMPTY(connect)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(disconnect)
+XML_RESULT_EMPTY(disconnect)
+XML_EVENT_EMPTY(disconnect)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+class CTask_OnXmlDisconnected : public CTcpCompletionTask
+{
+public:
+	virtual LPCTSTR TaskName(){ return _T("OnXmlDisconnected"); }
+	virtual void SetClient(CEmClient*){ }
+	virtual bool Process()
+	{
+		g_stEngine.SetXmlState(XML_DISCONNECTED);
+		return true;
+	}
+};
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(hello)
+XML_EVENT_EMPTY(hello)
+
+XML_RESULT_FUNC(hello)
+{
+	g_stEngine.m_pXmlClient = m_pClient;
+	g_stEngine.SetXmlState(XML_CONNECTED);
+	m_pClient->m_pOnCompletionTask = new CTask_OnXmlDisconnected;
+
+	return true;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(quit)
+XML_EVENT_EMPTY(quit)
+
+XML_RESULT_FUNC(quit)
+{
+	g_stEngine.SetXmlState(XML_DISCONNECTED);
+	return true;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(get_logs)
+XML_EVENT_EMPTY(get_logs)
+
+XML_RESULT_FUNC(get_logs)
+{
+	g_stEngine.m_XmlEvents.SetXmlResponse(m_ulId, m_sContents);
+	return true;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(get_shared)
+XML_EVENT_EMPTY(get_shared)
+
+XML_RESULT_FUNC(get_shared)
+{
+	g_stEngine.m_XmlEvents.SetXmlResponse(m_ulId, m_sContents);
+	return true;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(set_param)
+XML_RESULT_EMPTY(set_param)
+XML_EVENT_EMPTY(set_param)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(server_connected)
+XML_RESULT_EMPTY(server_connected)
+XML_EVENT_EMPTY(server_connected)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+XML_PROCESS_EMPTY(server_disconnected)
+XML_RESULT_EMPTY(server_disconnected)
+XML_EVENT_EMPTY(server_disconnected)
+@
+
+
+1.6
+log
+@v2 - upload already works, of course it has very poor implementation, without queues yet, but it works! Also webserver improvements - now you can enter commands through webinterface
+@
+text
+@d7 4
+a10 8
+XML_PROCESS_FUNC(connect)
+{
+	return true;
+}
+XML_RESULT_FUNC(connect)
+{
+	return true;
+}
+d12 4
+a15 8
+XML_PROCESS_FUNC(disconnect)
+{
+	return true;
+}
+XML_RESULT_FUNC(disconnect)
+{
+	return true;
+}
+d28 1
+d30 3
+a32 4
+XML_PROCESS_FUNC(hello)
+{
+	return true;
+}
+d41 1
+d43 3
+a45 5
+XML_PROCESS_FUNC(quit)
+{
+	
+	return true;
+}
+d51 1
+d53 3
+a55 4
+XML_PROCESS_FUNC(get_logs)
+{
+	return true;
+}
+d58 1
+a58 1
+	g_stEngine.SetXmlResponse(m_ulId, m_sContents);
+d61 1
+d63 3
+a65 4
+XML_PROCESS_FUNC(get_shared)
+{
+	return true;
+}
+d68 1
+a68 1
+	g_stEngine.SetXmlResponse(m_ulId, m_sContents);
+d71 15
+@
+
+
+1.5
+log
+@v2 - minor improvements
+@
+text
+@d71 9
+@
+
+
+1.4
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@d25 12
+d44 2
+a45 2
+	g_stEngine.SendUIState(UI_CONNECTED);
+
+d57 1
+a57 1
+	g_stEngine.SendUIState(UI_DISCONNECTED);
+@
+
+
+1.3
+log
+@Ideological switch (may be considered as temporary, but for long term) - ATL to MFC
+Actually we don't need them both, but I want to work with our current KnownFile-based classes, which use MFC a lot
+@
+text
+@d16 9
+@
+
+
+1.2
+log
+@Xml and database functionality
+@
+text
+@a24 6
+	CXml_get_logs *pTask = new CXml_get_logs;
+	if(pTask)
+	{
+		pTask->m_pClient = g_stEngine.m_pXmlClient;
+		g_stEngine.PushToSocketsTP(pTask);
+	}
+d46 1
+@
+
+
+1.1
+log
+@XML connecting, tray app
+@
+text
+@d2 1
+a17 3
+	//	PrepareResult();
+	::MessageBox(NULL, _T("hello"), _T(""), MB_OK|MB_TOPMOST);
+
+d24 8
+d46 9
+@
+

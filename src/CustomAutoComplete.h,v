@@ -1,0 +1,261 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.2
+	Interim_Release_1-2_RC1:1.2
+	Interim_Release_1-2_beta1:1.2
+	PublicRelease_1_1g:1.2
+	Interim_Release_1-1g_RC3:1.2
+	Interim_Release_1-1g_RC2:1.2
+	Interim_Release_1-1g_RC1:1.2
+	Interim_Release_1-1g_beta2:1.2
+	Interim_Release_1-1g_beta1:1.2
+	PublicRelease_1_1f:1.2
+	Interim_Release_1-1f_RC1:1.2
+	PublicRelease_1_1e:1.2
+	Interim_Release_1-1e_RC2:1.2
+	Interim_Release_1-1e_RC1:1.2
+	Interim_Release_1-1e_beta1:1.2
+	PublicRelease_1_1d:1.2
+	Interim_Release_1-1d_RC1:1.2
+	PublicRelease_1_1c:1.2
+	Interim_Release_1-1c_RC1:1.2
+	Interim_Release_1-1c_beta2:1.2
+	Interim_Release_1-1c_beta1:1.2
+	PublicRelease_1_1b:1.2
+	Interim_Release_1-1b_RC1:1.2
+	PublicRelease_1_1a:1.2
+	Interim_Release_1-1a_RC2:1.2
+	Interim_Release_1-1a_RC1:1.2
+	Interim_Release_1-1a_beta2:1.2
+	Interim_Release_1-1a_beta1:1.2
+	PublicRelease_1_1:1.2
+	Interim_Release_1-1_beta1:1.2
+	PublicRelease_1o:1.2
+	Interim_Release_1o_RC1:1.2
+	Interim_Release_1o_beta1:1.2
+	PublicRelease_1n:1.2
+	Interim_Release_1n_RC2:1.2
+	Interim_Release_1n_RC1:1.2
+	Interim_Release_1n_beta2:1.2
+	Interim_Release_1n_beta1:1.2
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2006.04.17.00.11.13;	author kush_eplus;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.06.08.06.26.49;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.11.04.16.09.18;	author katsyonak;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@UNICODE preparations; optimizations; formattings.
+@
+text
+@//--------------------------------------------------------------------------------------------
+//  Author:         Klaus H. Probst [kprobst@@vbbox.com]
+// 
+//--------------------------------------------------------------------------------------------
+
+#pragma once
+
+#include <initguid.h>
+#include <shldisp.h>
+#include <shlguid.h>
+
+class CCustomAutoComplete : 
+	public IEnumString
+{
+public:
+	CCustomAutoComplete();
+	CCustomAutoComplete(const CStringArray &astrItemList);
+	~CCustomAutoComplete();
+
+	BOOL	Bind(HWND hWndEdit, DWORD dwOptions = 0, LPCTSTR pcFormatString = NULL);
+	VOID	Unbind();
+	BOOL	IsBound() const { return m_bBound; }
+
+	BOOL	SetList(const CStringArray &astrItemList);
+	int		GetItemCount();
+	const CStringArray&	GetList() const;
+
+	BOOL	AddItem(const CString &strItem, int iPos);
+	BOOL	RemoveItem(const CString &strItem);
+	CString	GetItem(int iPos);
+
+	BOOL	Clear();
+	BOOL	Disable();
+	BOOL	Enable(VOID);
+	
+	BOOL	LoadList(LPCTSTR pcFileName);
+	BOOL	SaveList(LPCTSTR pcFileName);
+
+	STDMETHOD_(ULONG, AddRef)();
+	STDMETHOD_(ULONG, Release)();
+	STDMETHOD(QueryInterface)(REFIID riid, void **ppvObject);
+
+	STDMETHOD(Next)(ULONG celt, LPOLESTR *rgelt, ULONG *pceltFetched);
+	STDMETHOD(Skip)(ULONG celt);
+	STDMETHOD(Reset)(void);
+	STDMETHOD(Clone)(IEnumString **ppenum);
+
+private:
+	void	InternalInit();
+	HRESULT	EnDisable(BOOL bEnable);
+	int		FindItem(const CString &strItem);
+
+	CStringArray	m_asList;
+	CComPtr<IAutoComplete>	m_pac;
+
+	ULONG	m_uiCurrentElement;
+	ULONG	m_uiRefCount;
+	int		m_iMaxItemCount;
+	BOOL	m_bBound;
+};
+@
+
+
+1.2
+log
+@minor update
+@
+text
+@a5 4
+#if !defined(CCustomAutoComplete_INCLUDED)
+#define CCustomAutoComplete_INCLUDED
+
+#if _MSC_VER >= 1000
+a6 1
+#endif // _MSC_VER >= 1000
+a14 10
+private:
+	CStringArray m_asList;
+	CComPtr<IAutoComplete> m_pac;
+
+	ULONG m_nCurrentElement;
+	ULONG m_nRefCount;
+	BOOL m_fBound;
+	int m_iMaxItemCount;
+
+	// Constructors/destructors
+d17 1
+a17 1
+	CCustomAutoComplete(const CStringArray& p_sItemList);
+d20 15
+a34 13
+	// Implementation
+public:
+	BOOL Bind(HWND p_hWndEdit, DWORD p_dwOptions = 0, LPCTSTR p_lpszFormatString = NULL);
+	VOID Unbind();
+	BOOL IsBound() const { return m_fBound; }
+
+	BOOL SetList(const CStringArray& p_sItemList);
+	const CStringArray& GetList() const;
+	int GetItemCount();
+
+	BOOL AddItem(const CString& p_sItem, int iPos);
+	BOOL RemoveItem(const CString& p_sItem);
+	CString GetItem(int pos);
+d36 2
+a37 6
+	BOOL Clear();
+	BOOL Disable();
+	BOOL Enable(VOID);
+	
+	BOOL LoadList(LPCTSTR pszFileName);
+	BOOL SaveList(LPCTSTR pszFileName);
+d39 3
+a41 4
+public:
+	STDMETHOD_(ULONG,AddRef)();
+	STDMETHOD_(ULONG,Release)();
+	STDMETHOD(QueryInterface)(REFIID riid, void** ppvObject);
+d43 1
+a43 2
+public:
+	STDMETHOD(Next)(ULONG celt, LPOLESTR* rgelt, ULONG* pceltFetched);
+d46 1
+a46 1
+	STDMETHOD(Clone)(IEnumString** ppenum);
+a47 1
+	// Internal implementation
+d49 11
+a59 3
+	void InternalInit();
+	HRESULT EnDisable(BOOL p_fEnable);
+	int FindItem(const CString& rstr);
+a60 2
+
+#endif // !defined(CCustomAutoComplete_INCLUDED)
+@
+
+
+1.1
+log
+@added auto-complete for search text (search history) from official v0.30c
+@
+text
+@d45 3
+a47 2
+	BOOL AddItem(CString& p_sItem, int iPos);
+	BOOL RemoveItem(CString& p_sItem);
+@
+

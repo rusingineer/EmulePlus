@@ -1,0 +1,501 @@
+head	1.12;
+access;
+symbols
+	PublicRelease_1_2e:1.12
+	Interim_Release_1-2e_RC1:1.12
+	PublicRelease_1_2d:1.12
+	Interim_Release_1-2d_RC1:1.12
+	Interim_Release_1-2d_beta1:1.12
+	PublicRelease_1_2c:1.12
+	Interim_Release_1-2c_RC1:1.12
+	Interim_Release_1-2c_beta1:1.12
+	PublicRelease_1_2b:1.12
+	Interim_Release_1-2b_RC1:1.12
+	PublicRelease_1_2a:1.12
+	Interim_Release_1-2a_RC1:1.12
+	Interim_Release_1-2a_beta2:1.12
+	Interim_Release_1-2a_beta1:1.12
+	PublicRelease_1_2:1.12
+	Interim_Release_1-2_RC1:1.12
+	Interim_Release_1-2_beta1:1.12
+	PublicRelease_1_1g:1.12
+	Interim_Release_1-1g_RC3:1.12
+	Interim_Release_1-1g_RC2:1.12
+	Interim_Release_1-1g_RC1:1.12
+	Interim_Release_1-1g_beta2:1.12
+	Interim_Release_1-1g_beta1:1.12
+	PublicRelease_1_1f:1.12
+	Interim_Release_1-1f_RC1:1.12
+	PublicRelease_1_1e:1.12
+	Interim_Release_1-1e_RC2:1.12
+	Interim_Release_1-1e_RC1:1.12
+	Interim_Release_1-1e_beta1:1.12
+	PublicRelease_1_1d:1.7
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.12
+date	2005.04.06.18.31.27;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.04.04.06.07.28;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.03.29.14.36.14;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.03.27.05.01.51;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.03.22.15.54.10;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.03.18.15.36.52;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.03.11.14.45.20;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.03.08.17.09.08;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.02.26.17.52.05;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.02.23.18.58.05;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.02.20.19.44.49;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.12.29.16.04.23;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@v2 - upload works (basic implementation)
+@
+text
+@#pragma once
+
+struct OFFEREDFILE
+{
+	BYTE	_Hash[16];
+	ULONG	_ClientID;
+	USHORT	_ClientPort;
+	CString	_FileName;
+	DWORD	_FileSize;
+	CString	_FileType;
+
+	OFFEREDFILE& operator = (const OFFEREDFILE& stObj);
+};
+
+//////////////////////////////////////////////////////////////////////
+struct CTask_LoginToServer : public CTcpCompletionTask
+{
+	CTask_LoginToServer()
+		: m_pServer(NULL) {}
+
+	virtual void			SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+	virtual bool			Process();
+	virtual LPCTSTR TaskName(){ return _T("LoginToServer"); }
+
+	CEmClient_Server *m_pServer;
+};
+//////////////////////////////////////////////////////////////////////
+struct CTask_DisconnectServer : public CTcpCompletionTask
+{
+	CTask_DisconnectServer()
+		: m_pServer(NULL) {}
+
+	virtual void			SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+	virtual bool			Process();
+	virtual LPCTSTR TaskName(){ return _T("DisconnectServer"); }
+
+	CEmClient_Server *m_pServer;
+};
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+struct CTask_SayHelloToPeer : public CTcpCompletionTask
+{
+	CTask_SayHelloToPeer()
+		:m_pPeer(NULL)
+		,m_bManual(false)
+	{ }
+
+	virtual void	SetClient(CEmClient *pClient) { m_pPeer = dynamic_cast<CEmClient_Peer*>(pClient); }
+	virtual bool	Process();
+	virtual LPCTSTR TaskName(){ return _T("SayHelloToPeer"); }
+
+	CEmClient_Peer*	m_pPeer;
+	bool			m_bManual;
+};
+//////////////////////////////////////////////////////////////////////
+
+
+//////////////////////////////////////////////////////////////////////
+// Send list of shared files
+struct CTask_SendSharedList : public CTask, CStateMachine {
+	CTask_SendSharedList() { }
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("SendSharedList"); }
+
+	CArray<OFFEREDFILE, OFFEREDFILE&> m_Files;
+};
+
+//////////////////////////////////////////////////////////////////////
+// Send requested filename
+struct CTask_SendRequestedFileName : public CTask, CStateMachine {
+	CTask_SendRequestedFileName(HashType Hash, CEmClient* pClient);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("SendRequestedFileName"); }
+
+	HashType	m_Hash;
+	CString		m_strFileName;
+	CEmClient*	m_pClient;
+};
+
+//////////////////////////////////////////////////////////////////////
+// Send upload request answer
+struct CTask_UploadReqResult : public CTask, CStateMachine {
+	CTask_UploadReqResult(HashType Hash, CEmClient_Peer* pClient);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("UploadReqResult"); }
+
+	HashType	m_Hash;
+	CKnownFile* m_pFile;
+	CEmClient_Peer*	m_pClient;
+};
+
+//////////////////////////////////////////////////////////////////////
+// Request file block
+struct CTask_RequestBlock : public CTask, CStateMachine {
+	CTask_RequestBlock(HashType Hash, CEmClient_Peer* pClient, DWORD dwStart, DWORD dwEnd);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("RequestBlock"); }
+
+	HashType	m_Hash;
+	CKnownFile*	m_pFile;
+	DWORD		m_dwStart;
+	DWORD		m_dwEnd;
+	CClientMule*	m_pMule;
+};
+
+//////////////////////////////////////////////////////////////////////
+// Send requested block
+struct CTask_SendBlock : public CTask, CStateMachine {
+	CTask_SendBlock(CKnownFile* pFile, CEmClient_Peer* pClient, DWORD dwStart, DWORD dwEnd);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("SendBlock"); }
+
+	CKnownFile*	m_pFile;
+	HashType	m_Hash;
+	DWORD		m_dwStart;
+	DWORD		m_dwEnd;
+	DWORD		m_dwToGo;
+	BYTE*		m_pFileData;
+	CEmClient_Peer*	m_pClient;
+};
+
+//////////////////////////////////////////////////////////////////////
+// Send file status
+struct CTask_SendFileStatus : public CTask, CStateMachine {
+	CTask_SendFileStatus(HashType Hash, CEmClient* pClient);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("SendFileStatus"); }
+
+	HashType	m_Hash;
+	CEmClient*	m_pClient;
+	BYTE*		m_pFileStatus;
+	USHORT		m_nStatusSize;
+};
+
+//////////////////////////////////////////////////////////////////////
+// Send hashsets
+struct CTask_SendHashsets : public CTask, CStateMachine {
+	CTask_SendHashsets(HashType Hash, CEmClient* pClient);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("SendHashsets"); }
+
+	HashType	m_Hash;
+	CEmClient*	m_pClient;
+	HashType*	m_pFileHashes;
+	USHORT		m_nHashCount;
+};
+
+@
+
+
+1.11
+log
+@v2 - more upload logic
+@
+text
+@d110 1
+a110 1
+	CTask_SendBlock(HashType Hash, CEmClient_Peer* pClient, DWORD dwStart, DWORD dwEnd);
+d114 1
+@
+
+
+1.10
+log
+@v2 - increasing level of abstraction, more upload logic
+@
+text
+@d94 14
+@
+
+
+1.9
+log
+@v2 - minor improvements
+@
+text
+@d133 1
+@
+
+
+1.8
+log
+@v2 - more upload logic
+@
+text
+@d61 2
+a62 2
+struct CTask_SendSharedList : public CTask {
+	CTask_SendSharedList();
+a65 1
+	int	m_nState;
+d71 1
+a71 1
+struct CTask_SendRequestedFileName : public CTask {
+a75 1
+	int			m_nState;
+d83 1
+a83 1
+struct CTask_UploadReqResult : public CTask {
+a87 1
+	int			m_nState;
+d95 1
+a95 1
+struct CTask_SendBlock : public CTask {
+a99 1
+	int			m_nState;
+d110 1
+a110 1
+struct CTask_SendFileStatus : public CTask {
+a114 1
+	int			m_nState;
+d123 1
+a123 1
+struct CTask_SendHashsets : public CTask {
+a127 1
+	int			m_nState;
+@
+
+
+1.7
+log
+@v2 - more upload logic
+@
+text
+@d25 1
+a25 1
+	CEmClient_Server		*m_pServer;
+d37 1
+a37 1
+	CEmClient_Server		*m_pServer;
+d78 1
+a78 1
+	HashType		m_Hash;
+@
+
+
+1.6
+log
+@v2 - more improvements
+@
+text
+@d45 3
+a47 1
+		: m_pPeer(NULL) {}
+d53 2
+a54 1
+	CEmClient_Peer	*m_pPeer;
+@
+
+
+1.5
+log
+@v2 - minor rearrangements, started defining client and clientlist
+@
+text
+@d83 1
+a83 1
+	CTask_UploadReqResult(HashType Hash, CEmClient* pClient);
+d89 2
+a90 2
+	CEmClient*	m_pClient;
+	bool		m_bFound;
+d96 1
+a96 1
+	CTask_SendBlock(HashType Hash, CEmClient* pClient, DWORD dwStart, DWORD dwEnd);
+a101 1
+	CEmClient*	m_pClient;
+d106 1
+@
+
+
+1.4
+log
+@v2 - upload already works, of course it has very poor implementation, without queues yet, but it works! Also webserver improvements - now you can enter commands through webinterface
+@
+text
+@d70 1
+a70 1
+	CTask_SendRequestedFileName(BYTE Hash[16], CEmClient* pClient);
+d75 1
+a75 1
+	BYTE		m_Hash[16];
+d83 1
+a83 1
+	CTask_UploadReqResult(BYTE Hash[16], CEmClient* pClient);
+d88 1
+a88 1
+	BYTE		m_Hash[16];
+d96 1
+a96 1
+	CTask_SendBlock(BYTE Hash[16], CEmClient* pClient, DWORD dwStart, DWORD dwEnd);
+d101 1
+a101 1
+	BYTE		m_Hash[16];
+d112 1
+a112 1
+	CTask_SendFileStatus(BYTE Hash[16], CEmClient* pClient);
+d117 1
+a117 1
+	BYTE		m_Hash[16];
+d126 1
+a126 1
+	CTask_SendHashsets(BYTE Hash[16], CEmClient* pClient);
+d131 1
+a131 1
+	BYTE		m_Hash[16];
+d133 1
+a133 1
+	HASH*		m_pFileHashes;
+@
+
+
+1.3
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@d5 8
+a12 6
+	BYTE		_Hash[16];
+	ULONG		_ClientID;
+	USHORT		_ClientPort;
+	CString		_FileName;
+	DWORD		_FileSize;
+	CString		_FileType;
+d57 1
+a57 1
+// send list of shared files
+d66 70
+@
+
+
+1.2
+log
+@v2 - more shared files, other minor changes
+@
+text
+@d21 1
+d33 1
+d45 3
+a47 2
+	virtual void			SetClient(CEmClient *pClient) { m_pPeer = dynamic_cast<CEmClient_Peer*>(pClient); }
+	virtual bool			Process();
+d49 1
+a49 1
+	CEmClient_Peer		   *m_pPeer;
+d53 1
+d59 1
+@
+
+
+1.1
+log
+@There can be only one engine :-)
+@
+text
+@d6 2
+a7 2
+	ULONG		_Addr; // client ID? = 0
+	USHORT		_Port; // client port? = 0
+d10 1
+d19 2
+a20 2
+		virtual void			SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+		virtual bool			Process();
+d22 1
+a22 1
+		CEmClient_Server		*m_pServer;
+d30 2
+a31 2
+		virtual void			SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+		virtual bool			Process();
+d33 1
+a33 1
+		CEmClient_Server		*m_pServer;
+d43 2
+a44 2
+		virtual void			SetClient(CEmClient *pClient) { m_pPeer = dynamic_cast<CEmClient_Peer*>(pClient); }
+		virtual bool			Process();
+d46 1
+a46 1
+		CEmClient_Peer		   *m_pPeer;
+d56 2
+a57 2
+	bool m_bProcessedUI;
+	//	CArray<OFFEREDFILE, OFFEREDFILE&> m_Files;
+@
+

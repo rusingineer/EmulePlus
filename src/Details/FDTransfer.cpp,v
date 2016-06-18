@@ -1,0 +1,862 @@
+head	1.22;
+access;
+symbols
+	PublicRelease_1_2e:1.21
+	Interim_Release_1-2e_RC1:1.21
+	PublicRelease_1_2d:1.21
+	Interim_Release_1-2d_RC1:1.21
+	Interim_Release_1-2d_beta1:1.20
+	PublicRelease_1_2c:1.20
+	Interim_Release_1-2c_RC1:1.20
+	Interim_Release_1-2c_beta1:1.20
+	PublicRelease_1_2b:1.20
+	Interim_Release_1-2b_RC1:1.20
+	PublicRelease_1_2a:1.20
+	Interim_Release_1-2a_RC1:1.20
+	Interim_Release_1-2a_beta2:1.20
+	Interim_Release_1-2a_beta1:1.18
+	PublicRelease_1_2:1.17
+	Interim_Release_1-2_RC1:1.17
+	Interim_Release_1-2_beta1:1.17
+	PublicRelease_1_1g:1.15
+	Interim_Release_1-1g_RC3:1.15
+	Interim_Release_1-1g_RC2:1.15
+	Interim_Release_1-1g_RC1:1.15
+	Interim_Release_1-1g_beta2:1.15
+	Interim_Release_1-1g_beta1:1.15
+	PublicRelease_1_1f:1.15
+	Interim_Release_1-1f_RC1:1.15
+	PublicRelease_1_1e:1.15
+	Interim_Release_1-1e_RC2:1.15
+	Interim_Release_1-1e_RC1:1.15
+	Interim_Release_1-1e_beta1:1.15
+	PublicRelease_1_1d:1.15
+	Interim_Release_1-1d_RC1:1.15
+	PublicRelease_1_1c:1.15
+	Interim_Release_1-1c_RC1:1.15
+	Interim_Release_1-1c_beta2:1.15
+	Interim_Release_1-1c_beta1:1.15
+	PublicRelease_1_1b:1.15
+	Interim_Release_1-1b_RC1:1.15
+	PublicRelease_1_1a:1.15
+	Interim_Release_1-1a_RC2:1.15
+	Interim_Release_1-1a_RC1:1.15
+	Interim_Release_1-1a_beta2:1.15
+	Interim_Release_1-1a_beta1:1.15
+	PublicRelease_1_1:1.14
+	Interim_Release_1-1_beta1:1.14
+	PublicRelease_1o:1.14
+	Interim_Release_1o_RC1:1.14
+	Interim_Release_1o_beta1:1.14
+	PublicRelease_1n:1.14
+	Interim_Release_1n_RC2:1.14
+	Interim_Release_1n_RC1:1.14
+	Interim_Release_1n_beta2:1.14
+	PublicRelease_1m:1.14
+	Interim_Release_1m_beta1:1.14
+	PublicRelease_1l:1.14
+	Interim_Release_1l_RC3:1.14
+	Interim_Release_1l_RC2:1.14
+	Interim_Release_1l_RC1:1.14
+	Interim_Release_1l_beta2:1.14
+	Interim_Release_1l_beta1:1.14
+	PublicRelease_1k:1.11
+	Interim_Release_1k_RC4:1.11
+	Interim_1k_RC3:1.11
+	Interim_1k_RC2:1.11
+	Interim_Release_1k_RC1:1.11
+	Interim_Release_1k_beta5:1.11
+	Intrerim_Release_1k_beta4:1.11
+	Interim_Release_1k_beta1:1.8
+	PublicRelease_1j:1.8
+	Interim_Release_1J_RC3:1.8
+	Interim_Release_1j_RC3:1.8
+	Interim_Release_1j_RC2:1.8
+	Interim_Release_1j_RC1:1.8
+	Interim_Release_1j_beta2:1.8
+	Interim_Release_1j_beta1:1.8
+	PublicRelease_1i:1.8
+	Interim_Release_1i_RC6:1.8
+	Interim_Release_1i_RC3:1.7
+	Interim_Release_1i_RC2:1.7
+	Interim_Release_1i_RC1:1.6
+	Interim_Release_1i_beta3:1.6
+	Interim_Release_1i_beta2:1.5
+	Interim_Release_1i_beta1:1.4;
+locks; strict;
+comment	@// @;
+
+
+1.22
+date	2009.07.05.05.44.06;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.03.03.04.38.40;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.05.22.03.45.01;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.05.19.04.17.00;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2006.03.27.02.55.51;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.01.25.05.23.50;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2006.01.06.20.05.56;	author kush_eplus;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.10.31.04.20.50;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.05.05.03.17.35;	author netwolf1;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.05.05.02.22.49;	author netwolf1;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.05.04.22.32.12;	author netwolf1;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.03.22.02.37.02;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.03.06.07.03.03;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.02.25.04.59.15;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.12.02.04.33.16;	author katsyonak;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.11.16.21.13.15;	author katsyonak;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.26.13.50.18;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.05.20.18.45;	author forcha;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.05.12.24.27;	author forcha;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.05.10.45.18;	author forcha;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.05.05.19.58;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.22
+log
+@Unified identical strings IDS_INFLST_FILE_PARTFILESTATUS and IDS_INFLST_FILE_FILEPARTCOUNT.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "..\resource.h"
+#include "FDTransfer.h"
+#include "..\PartFile.h"
+#include "..\emule.h"
+#include "..\otherfunctions.h"
+
+IMPLEMENT_DYNCREATE(CFDTransfer, CPropertyPage)
+
+CFDTransfer::CFDTransfer() : CPropertyPage(CFDTransfer::IDD)
+{
+	m_pFile = NULL;
+}
+
+CFDTransfer::~CFDTransfer()
+{
+}
+
+BEGIN_MESSAGE_MAP(CFDTransfer, CPropertyPage)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDTransfer message handlers
+/////////////////////////////////////////////////////////////////////////////
+
+void CFDTransfer::Update()
+{
+	EMULE_TRY
+
+	if ((m_pFile == NULL) || !::IsWindow(GetSafeHwnd()))
+		return;
+
+	CString strBuffer;
+
+	strBuffer.Format(_T("%u"), m_pFile->GetSourceCount());
+	SetDlgItemText(IDC_FOUNDSRC_VAL, strBuffer);
+	strBuffer.Format(_T("%u"), m_pFile->GetCompleteSourcesCount());
+	SetDlgItemText(IDC_COMPLETESRC_VAL, strBuffer);
+	strBuffer.Format(_T("%u"), m_pFile->GetTransferringSrcCount());
+	SetDlgItemText(IDC_TRANSFERRINGSRC_VAL, strBuffer);
+
+	strBuffer.Format(_T("%u (%u)"), m_pFile->GetPartCount(), m_pFile->GetHashCount());
+	SetDlgItemText(IDC_PARTCNT_VAL, strBuffer);
+
+	double		dblPartsPercent = 0.0;
+
+	if (m_pFile->GetPartCount() != 0)
+		dblPartsPercent = static_cast<double>(m_pFile->GetAvailablePartCount() * 100) / static_cast<double>(m_pFile->GetPartCount());
+	strBuffer.Format(_T("%u (%.1f%%)"), m_pFile->GetAvailablePartCount(), dblPartsPercent);
+	SetDlgItemText(IDC_AVAILABLEPARTS_VAL, strBuffer);
+
+	if (m_pFile->lastseencomplete == NULL)
+		GetResString(&strBuffer, IDS_NEVER);
+	else
+		strBuffer = m_pFile->LocalizeLastSeenComplete();
+	SetDlgItemText(IDC_LASTSEENCOMPLETE_VAL, strBuffer);
+
+	SetDlgItemText(IDC_TRANSFERRED_VAL, strBuffer = CastItoXBytes(m_pFile->GetTransferred()));
+	SetDlgItemText(IDC_COMPLETEDSIZE_VAL, strBuffer = CastItoXBytes(m_pFile->GetCompletedSize()));
+
+	strBuffer.Format(_T("%.2f %%"), m_pFile->GetPercentCompleted2());
+	SetDlgItemText(IDC_COMPPERC_VAL, strBuffer);
+
+	strBuffer.Format(_T("%.2f %s"), static_cast<double>(m_pFile->GetDataRate())/1024.0, GetResString(IDS_KBYTESEC));
+	SetDlgItemText(IDC_DATARATE_VAL, strBuffer);
+
+	if (m_pFile->GetTransferred() == 0)
+		GetResString(&strBuffer, IDS_NEVER);
+	else
+		strBuffer = m_pFile->LocalizeLastDownTransfer();
+	SetDlgItemText(IDC_LASTRECEPTION_VAL, strBuffer);
+
+	SetDlgItemText(IDC_CORRUPTIONLOSS_VAL, strBuffer = CastItoXBytes(m_pFile->GetLostDueToCorruption()));
+	SetDlgItemText(IDC_COMPRESSIONGAIN_VAL, strBuffer = CastItoXBytes(m_pFile->GetGainDueToCompression()));
+
+	EnumPartFileStatuses	eFileStatus = m_pFile->GetStatus();
+	uint64	qwFileSz = ((eFileStatus == PS_COMPLETING) || (eFileStatus == PS_COMPLETE)) ? m_pFile->GetFileSize() : m_pFile->GetCompletedSize();
+
+	strBuffer.Format(_T("%.2f %%"), (qwFileSz != 0) ? (100 * static_cast<double>(m_pFile->GetLostDueToCorruption()) / static_cast<double>(qwFileSz)) : 0);
+	SetDlgItemText(IDC_CORRUPTIONLOSS_PERC, strBuffer);
+	strBuffer.Format(_T("%.2f %%"), (qwFileSz != 0) ? (100 * static_cast<double>(m_pFile->GetGainDueToCompression()) / static_cast<double>(qwFileSz)) : 0);
+	SetDlgItemText(IDC_COMPRESSIONGAIN_PERC, strBuffer);
+	strBuffer.Format(_T("%u"), m_pFile->TotalPacketsSavedDueToICH());
+	SetDlgItemText(IDC_ICHRECOVERED_VAL, strBuffer);
+	SetDlgItemText(IDC_SIZEONDISK_VAL, strBuffer = CastItoXBytes(m_pFile->GetRealFileSize()));
+
+	EMULE_CATCH
+}
+
+BOOL CFDTransfer::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	Localize();
+	Update();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CFDTransfer::Localize()
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_TRANSFERRINGSRC_LBL, IDS_FD_TRANSI },
+		{ IDC_TRANSFERRED_LBL, IDS_SF_TRANS },
+		{ IDC_COMPLETEDSIZE_LBL, IDS_FD_COMPSIZE },
+		{ IDC_DATARATE_LBL, IDS_FD_DATARATE },
+		{ IDC_CORRUPTIONLOSS_LBL, IDS_FD_CORRUPTION },
+		{ IDC_COMPRESSIONGAIN_LBL, IDS_FD_COMPRESSION },
+		{ IDC_ICHRECOVERED_LBL, IDS_FD_RECOVERED }
+	};
+	static const uint16 s_auResTbl2[][2] =
+	{
+		{ IDC_FOUNDSRC_LBL, IDS_FD_SOURCES },
+		{ IDC_COMPLETESRC_LBL, IDS_SF_COMPLETESRC },
+		{ IDC_PARTCNT_LBL, IDS_FD_PARTS },
+		{ IDC_AVAILABLEPARTS_LBL, IDS_INFLST_FILE_PARTAVAILABLE },
+		{ IDC_LASTSEENCOMPLETE_LBL, IDS_LASTSEENCOMPLETE },
+		{ IDC_LASTRECEPTION_LBL, IDS_LASTRECEPTION },
+		{ IDC_SIZEONDISK_LBL, IDS_SIZE_ON_DISK }
+	};
+
+	EMULE_TRY
+
+	if (GetSafeHwnd())
+	{
+		CString strBuffer;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			GetResString(&strBuffer, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strBuffer);
+		}
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl2); i++)
+		{
+			GetResString(&strBuffer, static_cast<UINT>(s_auResTbl2[i][1]));
+			strBuffer += _T(":");
+			SetDlgItemText(s_auResTbl2[i][0], strBuffer);
+		}
+	}
+
+	EMULE_CATCH
+}
+@
+
+
+1.21
+log
+@ELEMENT_COUNT -> ARRSIZE.
+@
+text
+@a121 1
+		{ IDC_PARTCNT_LBL, IDS_FD_PARTS },
+d133 1
+@
+
+
+1.20
+log
+@Large file size support preparations.
+@
+text
+@a15 2
+//
+// FDTransfer.cpp : implementation file
+a23 2
+// CFDTransfer dialog
+
+d146 1
+a146 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_auResTbl); i++)
+d151 1
+a151 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_auResTbl2); i++)
+@
+
+
+1.19
+log
+@Added Complete Sources information to the file details;
+Simplified dialog items processing; Reduced H-file dependency.
+@
+text
+@d97 3
+a99 2
+	uint32 filesize = ((eFileStatus == PS_COMPLETING) || (eFileStatus == PS_COMPLETE)) ? m_pFile->GetFileSize() : m_pFile->GetCompletedSize();
+	strBuffer.Format(_T("%.2f %%"), (filesize != 0) ? (100 * static_cast<double>(m_pFile->GetLostDueToCorruption()) / static_cast<double>(filesize)) : 0);
+d101 1
+a101 1
+	strBuffer.Format(_T("%.2f %%"), (filesize != 0) ? (100 * static_cast<double>(m_pFile->GetGainDueToCompression()) / static_cast<double>(filesize)) : 0);
+@
+
+
+1.18
+log
+@Removed some crazy code assumed that file data rate can be -1.
+@
+text
+@d1 16
+a17 1
+//
+d20 1
+d22 2
+a23 1
+#include "..\eMule.h"
+a38 24
+void CFDTransfer::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CFDTransfer)
+	DDX_Control(pDX, IDC_TRANSFERRINGSRC_VAL, m_ctrlTransferringSources);
+	DDX_Control(pDX, IDC_TRANSFERRED_VAL, m_ctrlTransferred);
+	DDX_Control(pDX, IDC_PARTCNT_VAL, m_ctrlPartCnt);
+	DDX_Control(pDX, IDC_LASTSEENCOMPLETE_VAL, m_ctrlLastSeenComplete);
+	DDX_Control(pDX, IDC_ICHRECOVERED_VAL, m_ctrlICHrecovered);
+	DDX_Control(pDX, IDC_FOUNDSRC_VAL, m_ctrlFoundSources);
+	DDX_Control(pDX, IDC_DATARATE_VAL, m_ctrlDatarate);
+	DDX_Control(pDX, IDC_COMPLETEDSIZE_VAL, m_ctrlCompletedSize);
+	DDX_Control(pDX, IDC_AVAILABLEPARTS_VAL, m_ctrlAvailableParts);
+	DDX_Control(pDX, IDC_LASTRECEPTION_VAL, m_ctrlLastReception);
+	DDX_Control(pDX, IDC_COMPPERC_VAL, m_ctrlCompPerc);
+	DDX_Control(pDX, IDC_CORRUPTIONLOSS_VAL, m_ctrlCorruptionLoss);
+	DDX_Control(pDX, IDC_COMPRESSIONGAIN_VAL, m_ctrlCompressionGain);
+	DDX_Control(pDX, IDC_CORRUPTIONLOSS_PERC, m_ctrlCorruptionLossPerc);
+	DDX_Control(pDX, IDC_COMPRESSIONGAIN_PERC, m_ctrlCompressionGainPerc);
+	DDX_Control(pDX, IDC_SIZEONDISK_VAL, m_ctrlSizeOnDisk);
+	//}}AFX_DATA_MAP
+}
+
+
+d56 3
+a58 1
+	m_ctrlFoundSources.SetWindowText(strBuffer);
+d60 1
+a60 1
+	m_ctrlTransferringSources.SetWindowText(strBuffer);
+d63 1
+a63 1
+	m_ctrlPartCnt.SetWindowText(strBuffer);
+d67 2
+a68 4
+	if (m_pFile->GetPartCount() > 0.0)
+	{
+		dblPartsPercent = static_cast<double>((m_pFile->GetAvailablePartCount()*100.0) / m_pFile->GetPartCount());
+	}
+d70 1
+a70 1
+	m_ctrlAvailableParts.SetWindowText(strBuffer);
+d72 5
+a76 2
+	m_ctrlLastSeenComplete.SetWindowText( (m_pFile->lastseencomplete == NULL) ?
+		GetResString(IDS_NEVER) : m_pFile->LocalizeLastSeenComplete() );
+d78 2
+a79 2
+	m_ctrlTransferred.SetWindowText(CastItoXBytes(m_pFile->GetTransferred()));
+	m_ctrlCompletedSize.SetWindowText(CastItoXBytes(m_pFile->GetCompletedSize()));
+d82 1
+a82 1
+	m_ctrlCompPerc.SetWindowText(strBuffer);
+d85 1
+a85 1
+	m_ctrlDatarate.SetWindowText(strBuffer);
+d87 5
+a91 2
+	m_ctrlLastReception.SetWindowText( (m_pFile->GetTransferred() == 0) ?
+		GetResString(IDS_NEVER) : m_pFile->LocalizeLastDownTransfer());
+d93 2
+a94 2
+	m_ctrlCorruptionLoss.SetWindowText(CastItoXBytes(m_pFile->GetLostDueToCorruption()));
+	m_ctrlCompressionGain.SetWindowText(CastItoXBytes(m_pFile->GetGainDueToCompression()));
+d96 2
+a97 1
+	uint32 filesize = (( m_pFile->GetStatus() == PS_COMPLETING) || (m_pFile->GetStatus() == PS_COMPLETE) ? (m_pFile->GetFileSize()) : m_pFile->GetCompletedSize());
+d99 1
+a99 1
+	m_ctrlCorruptionLossPerc.SetWindowText(strBuffer);
+d101 1
+a101 1
+	m_ctrlCompressionGainPerc.SetWindowText(strBuffer);
+d103 2
+a104 2
+	m_ctrlICHrecovered.SetWindowText(strBuffer);
+	m_ctrlSizeOnDisk.SetWindowText(CastItoXBytes(m_pFile->GetRealFileSize()));
+a123 1
+		{ IDC_FOUNDSRC_LBL, IDS_FD_SOURCES },
+d135 2
+@
+
+
+1.17
+log
+@Renamed IDS_LASTCHANGE into IDS_LASTRECEPTION;
+Removed duplicate string IDS_FD_LASTCHANGE & IDS_LASTSEENCOMPL.
+@
+text
+@a14 4
+	//{{AFX_DATA_INIT(CFDTransfer)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+
+a46 3
+	//{{AFX_MSG_MAP(CFDTransfer)
+		// NOTE: the ClassWizard will add message map macros here
+	//}}AFX_MSG_MAP
+d57 1
+a57 4
+	if (m_pFile == NULL)
+		return;
+
+	if (!::IsWindow(GetSafeHwnd()))
+d88 1
+a88 8
+	if(m_pFile->GetDataRate() != (uint32)-1)
+	{
+		strBuffer.Format(_T("%.2f %s"), static_cast<double>(m_pFile->GetDataRate())/1024.0, GetResString(IDS_KBYTESEC));
+	}
+	else
+	{
+		strBuffer.Format(_T("? %s"), GetResString(IDS_KBYTESEC));
+	}
+@
+
+
+1.16
+log
+@UNICODE preparation (first shot)
+@
+text
+@d139 1
+a139 1
+	static const int s_aiResTbl[][2] =
+a143 1
+		{ IDC_LASTSEENCOMPLETE_LBL, IDS_LASTSEENCOMPL },
+a146 1
+		{ IDC_LASTRECEPTION_LBL, IDS_FD_LASTCHANGE },
+d149 7
+a155 1
+		{ IDC_ICHRECOVERED_LBL, IDS_FD_RECOVERED },
+d163 1
+a163 2
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_aiResTbl); i++)
+			SetDlgItemText(s_aiResTbl[i][0], GetResString(static_cast<UINT>(s_aiResTbl[i][1])));
+d165 11
+a175 1
+		SetDlgItemText(IDC_AVAILABLEPARTS_LBL, GetResString(IDS_INFLST_FILE_PARTAVAILABLE) + _T(':'));
+@
+
+
+1.15
+log
+@Don't report 100.00% completed for file with minor amount left to download {vendetta7}.
+@
+text
+@d76 1
+a76 1
+	
+d88 1
+a88 1
+	
+d107 1
+a107 1
+	
+d119 1
+a119 1
+	strBuffer.Format("%u", m_pFile->TotalPacketsSavedDueToICH());
+@
+
+
+1.14
+log
+@typo fix
+@
+text
+@d95 2
+a96 9
+	if (m_pFile->GetPercentCompleted() >= 0.0)
+	{
+		strBuffer.Format(_T("%.2f %%"), m_pFile->GetPercentCompleted());
+		m_ctrlCompPerc.SetWindowText(strBuffer);
+	}
+	else
+	{
+		m_ctrlCompPerc.SetWindowText(_T("?"));
+	}
+@
+
+
+1.13
+log
+@Added 'filesize on disk' info to details pane, file details, category tooltips and statistics
+@
+text
+@d45 1
+a45 1
+	DDX_Control(pDX, IDS_SIZEONDISK_VAL, m_ctrlSizeOnDisk);
+@
+
+
+1.12
+log
+@Added corruption loss/compression gain percentage to file details
+@
+text
+@d45 1
+d128 1
+d158 2
+a159 1
+		{ IDC_ICHRECOVERED_LBL, IDS_FD_RECOVERED }
+@
+
+
+1.11
+log
+@Improved string processing
+@
+text
+@d43 2
+d116 1
+a116 1
+	
+d119 6
+@
+
+
+1.10
+log
+@Improved string processing
+@
+text
+@d95 1
+d99 1
+a99 1
+		strBuffer.Format(_T("?"));
+a100 1
+	m_ctrlCompPerc.SetWindowText(strBuffer);
+d136 1
+a136 1
+	static const int aiResTbl[][2] =
+d155 2
+a156 2
+		for (uint32 i = 0; i < (sizeof(aiResTbl) / sizeof(aiResTbl[0])); i++)
+			GetDlgItem(aiResTbl[i][0])->SetWindowText(GetResString(static_cast<UINT>(aiResTbl[i][1])));
+d158 1
+a158 1
+		GetDlgItem(IDC_AVAILABLEPARTS_LBL)->SetWindowText(GetResString(IDS_INFLST_FILE_PARTAVAILABLE) + _T(":"));
+@
+
+
+1.9
+log
+@Unified localization; whitespace corrections
+@
+text
+@d69 1
+a69 1
+	strBuffer.Format(_T("%i"), m_pFile->GetSourceCount());
+d71 1
+a71 1
+	strBuffer.Format(_T("%i"), m_pFile->GetTransferringSrcCount());
+d74 1
+a74 1
+	strBuffer.Format(_T("%i (%i)"), m_pFile->GetPartCount(), m_pFile->GetHashCount());
+d83 1
+a83 1
+	strBuffer.Format(_T("%i (%.1f%%)"),m_pFile->GetAvailablePartCount(),dblPartsPercent);
+d86 2
+a87 9
+	if (m_pFile->lastseencomplete == NULL)
+	{
+		strBuffer.Format(GetResString(IDS_NEVER));
+	}
+	else
+	{
+		strBuffer.Format(_T("%s"), m_pFile->LocalizeLastSeenComplete());
+	}
+	m_ctrlLastSeenComplete.SetWindowText(strBuffer);
+d112 2
+a113 9
+	if(m_pFile->GetTransferred() == 0)
+	{
+		strBuffer.Format(_T("%s"), GetResString(IDS_NEVER));
+	}
+	else
+	{
+		strBuffer.Format(_T("%s"), m_pFile->LocalizeLastDownTransfer());
+	}
+	m_ctrlLastReception.SetWindowText(strBuffer);
+@
+
+
+1.8
+log
+@Formatting + minor changes
+@
+text
+@d87 2
+a88 2
+	{	
+		strBuffer.Format(GetResString(IDS_NEVER)); 
+d91 1
+a91 1
+	{	
+d95 1
+a95 1
+		
+d98 1
+a98 1
+	
+d120 1
+a120 1
+	{	
+d150 15
+d167 1
+a167 1
+	if(GetSafeHwnd())
+d169 3
+a171 3
+		GetDlgItem(IDC_FOUNDSRC_LBL)->SetWindowText(GetResString(IDS_FD_SOURCES));
+		GetDlgItem(IDC_TRANSFERRINGSRC_LBL)->SetWindowText(GetResString(IDS_FD_TRANSI));
+		GetDlgItem(IDC_PARTCNT_LBL)->SetWindowText(GetResString(IDS_FD_PARTS));
+a172 8
+		GetDlgItem(IDC_LASTSEENCOMPLETE_LBL)->SetWindowText(GetResString(IDS_LASTSEENCOMPL));
+		GetDlgItem(IDC_TRANSFERRED_LBL)->SetWindowText(GetResString(IDS_SF_TRANS));
+		GetDlgItem(IDC_COMPLETEDSIZE_LBL)->SetWindowText(GetResString(IDS_FD_COMPSIZE));
+		GetDlgItem(IDC_DATARATE_LBL)->SetWindowText(GetResString(IDS_FD_DATARATE));
+		GetDlgItem(IDC_LASTRECEPTION_LBL)->SetWindowText(GetResString(IDS_FD_LASTCHANGE));
+		GetDlgItem(IDC_CORRUPTIONLOSS_LBL)->SetWindowText(GetResString(IDS_FD_CORRUPTION));
+		GetDlgItem(IDC_COMPRESSIONGAIN_LBL)->SetWindowText(GetResString(IDS_FD_COMPRESSION));
+		GetDlgItem(IDC_ICHRECOVERED_LBL)->SetWindowText(GetResString(IDS_FD_RECOVERED));
+@
+
+
+1.7
+log
+@minor fix
+@
+text
+@a153 2
+		CString strBuffer;
+
+d157 1
+a157 2
+		strBuffer.Format("%s:", GetResString(IDS_INFLST_FILE_PARTAVAILABLE));
+		GetDlgItem(IDC_AVAILABLEPARTS_LBL)->SetWindowText(strBuffer);
+@
+
+
+1.6
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d74 1
+a74 1
+	strBuffer.Format(_T("%i(%i)"), m_pFile->GetPartCount(), m_pFile->GetHashCount());
+@
+
+
+1.5
+log
+@small fix
+@
+text
+@d61 1
+a61 1
+	if(m_pFile == NULL)
+d64 1
+a64 1
+	if(!::IsWindow(GetSafeHwnd()))
+d77 3
+a79 2
+	float fPartsPercent = 0.f;
+	if(m_pFile->GetPartCount() > 0.f)
+d81 1
+a81 1
+		fPartsPercent = (float)((m_pFile->GetAvailablePartCount()*100) / m_pFile->GetPartCount());
+d83 1
+a83 1
+	strBuffer.Format(_T("%i (%.1f%%)"),m_pFile->GetAvailablePartCount(),fPartsPercent);
+d86 1
+a86 1
+	if(m_pFile->lastseencomplete == NULL) 
+d99 1
+a99 1
+	if(m_pFile->GetPercentCompleted() >= 0.f)
+d111 1
+a111 1
+		strBuffer.Format(_T("%.2f %s"), (float)m_pFile->GetDataRate()/1024, GetResString(IDS_KBYTESEC));
+@
+
+
+1.4
+log
+@added missing include
+@
+text
+@d130 2
+a131 1
+	m_ctrlICHrecovered.SetWindowText(CastItoXBytes(m_pFile->TotalPacketsSavedDueToICH()));
+@
+
+
+1.3
+log
+@TRY & CATCH
+@
+text
+@d6 1
+@
+
+
+1.2
+log
+@Localization and some fixes for new detail dialogs by FoRcHa
+@
+text
+@d58 2
+d130 2
+d147 2
+d167 2
+@
+
+
+1.1
+log
+@new dialogs for file- & client-details
+@
+text
+@d97 1
+a97 1
+		strBuffer.Format(_T("%.2f "), m_pFile->GetPercentCompleted());
+d143 3
+d147 14
+@
+

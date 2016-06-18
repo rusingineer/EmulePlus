@@ -1,0 +1,1099 @@
+head	1.23;
+access;
+symbols
+	PublicRelease_1_2e:1.23
+	Interim_Release_1-2e_RC1:1.23
+	PublicRelease_1_2d:1.22
+	Interim_Release_1-2d_RC1:1.22
+	Interim_Release_1-2d_beta1:1.22
+	PublicRelease_1_2c:1.22
+	Interim_Release_1-2c_RC1:1.22
+	Interim_Release_1-2c_beta1:1.22
+	PublicRelease_1_2b:1.22
+	Interim_Release_1-2b_RC1:1.21
+	PublicRelease_1_2a:1.21
+	Interim_Release_1-2a_RC1:1.21
+	Interim_Release_1-2a_beta2:1.20
+	Interim_Release_1-2a_beta1:1.20
+	PublicRelease_1_2:1.19
+	Interim_Release_1-2_RC1:1.19
+	Interim_Release_1-2_beta1:1.19
+	PublicRelease_1_1g:1.19
+	Interim_Release_1-1g_RC3:1.19
+	Interim_Release_1-1g_RC2:1.19
+	Interim_Release_1-1g_RC1:1.19
+	Interim_Release_1-1g_beta2:1.18
+	Interim_Release_1-1g_beta1:1.18
+	PublicRelease_1_1f:1.18
+	Interim_Release_1-1f_RC1:1.18
+	PublicRelease_1_1e:1.18
+	Interim_Release_1-1e_RC2:1.18
+	Interim_Release_1-1e_RC1:1.18
+	Interim_Release_1-1e_beta1:1.18
+	PublicRelease_1_1d:1.17
+	Interim_Release_1-1d_RC1:1.17
+	PublicRelease_1_1c:1.17
+	Interim_Release_1-1c_RC1:1.17
+	Interim_Release_1-1c_beta2:1.17
+	Interim_Release_1-1c_beta1:1.17
+	PublicRelease_1_1b:1.17
+	Interim_Release_1-1b_RC1:1.17
+	PublicRelease_1_1a:1.17
+	Interim_Release_1-1a_RC2:1.17
+	Interim_Release_1-1a_RC1:1.16
+	Interim_Release_1-1a_beta2:1.16
+	Interim_Release_1-1a_beta1:1.16
+	PublicRelease_1_1:1.16
+	Interim_Release_1-1_beta1:1.16
+	PublicRelease_1o:1.16
+	Interim_Release_1o_RC1:1.16
+	Interim_Release_1o_beta1:1.16
+	PublicRelease_1n:1.15
+	Interim_Release_1n_RC2:1.15
+	Interim_Release_1n_RC1:1.15
+	Interim_Release_1n_beta2:1.15
+	Interim_Release_1n_beta1:1.15
+	PublicRelease_1m:1.15
+	Interim_Release_1m_beta1:1.15
+	PublicRelease_1l:1.15
+	Interim_Release_1l_RC3:1.15
+	Interim_Release_1l_RC2:1.15
+	Interim_Release_1l_RC1:1.15
+	Interim_Release_1l_beta2:1.15
+	Interim_Release_1l_beta1:1.15
+	PublicRelease_1k:1.15
+	Interim_Release_1k_RC4:1.15
+	Interim_1k_RC3:1.15
+	Interim_1k_RC2:1.15
+	Interim_Release_1k_RC1:1.15
+	Interim_Release_1k_beta5:1.15
+	Intrerim_Release_1k_beta4:1.15
+	Interim_Release_1k_beta1:1.15
+	PublicRelease_1j:1.15
+	Interim_Release_1J_RC3:1.15
+	Interim_Release_1j_RC3:1.15
+	Interim_Release_1j_RC2:1.15
+	Interim_Release_1j_RC1:1.15
+	Interim_Release_1j_beta2:1.15
+	Interim_Release_1j_beta1:1.15
+	PublicRelease_1i:1.15
+	Interim_Release_1i_RC6:1.15
+	Interim_Release_1i_RC3:1.15
+	Interim_Release_1i_RC2:1.15
+	Interim_Release_1i_RC1:1.15
+	Interim_Release_1i_beta3:1.15
+	Interim_Release_1i_beta2:1.15
+	Interim_Release_1i_beta1:1.15
+	PublicRelease_1h:1.14
+	Interim_Release_1h_rc2:1.14
+	Interim_Release_1h_RC1:1.14
+	Interim_Release_1h_beta2:1.14
+	Interim_Release_1h_beta1_now:1.14
+	Interim_Release_1h_beta1:1.14
+	PublicRelease_1g:1.14
+	Interim_Release_1g_RC6_Final:1.14
+	Interim_Release_1g_RC6:1.14
+	Interim_Release_1g_RC5:1.14
+	Interim_Release_1g_RC4:1.14
+	Interim_Release_1g_RC3:1.14
+	Interim_Release_1g_beta2:1.13
+	Interim_Release_1g_beta1:1.13
+	Interim_Release_1f_RC4:1.13
+	Interim_Release_1f_RC3:1.13
+	Interim_Release_1f_RC2:1.13
+	Interim_Release_1f_RC:1.13
+	Interim_Release_1f_beta2:1.13
+	Interim_Release_1f_beta1:1.13
+	PublicRelease_1e:1.13
+	Interim_Release_1e_RC2:1.13
+	Interim_Release_1e_RC:1.13
+	Interim_Release_1e_beta3:1.13
+	Interim_Release_1e_beta2:1.13
+	Interim_Release_1e_beta2_before_kuchin:1.13
+	Interim_Release_1e_beta1:1.13
+	PublicRelease_1c:1.13
+	featurestest:1.13.0.2
+	Interim_Release_1c_RC:1.13
+	Interim_Release_1c_beta2:1.13
+	Interim_Release_1c_beta1:1.13
+	threaded_downloadqueue:1.12.0.2
+	PublicRelease_1b:1.7
+	Interim_Release_1b_beta2:1.7
+	Interim_Release_1b_beta1:1.7
+	proxydeadlake:1.7.0.4
+	PublicRelease_1a:1.7
+	Interim_Release_1a_beta2:1.7
+	BerkeleyDb:1.7.0.2
+	Interim_Release_1a_beta1:1.7
+	PublicRelease_1:1.7
+	goldfish:1.7
+	eMulePlus_1_RC2:1.7
+	eMulePlus_26b_1RC1:1.7
+	PreRelease_26b_i0e:1.7
+	before_26d_merge:1.7
+	Interim_Release_26b_i0d:1.6
+	Interim_Release_26b_i0c:1.6
+	Interim_Release_26b_i0b:1.6
+	Interim_Release_26b_i0a:1.6
+	systraydlg:1.5.0.6
+	plus26based:1.5.0.4
+	Interim_Release_25b_i0b:1.5
+	Proxy_Dev:1.5
+	Interim_Release_25b_i0a:1.5.2.1
+	proxytest:1.5.2.1.0.2
+	official_sockets:1.5.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.23
+date	2008.06.15.04.07.12;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2007.02.01.04.38.49;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.09.06.05.54.41;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2006.03.26.21.06.29;	author kush_eplus;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.05.13.23.49.20;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.12.03.14.47.28;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.09.17.05.03.33;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.06.09.20.57.48;	author partyckip;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.15.13.16.00;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.14.14.19.30;	author lord_kiron;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.13.20.11.36;	author lord_kiron;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.13.19.53.10;	author lord_kiron;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.03.13.17.48.16;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.03.13.15.14.01;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.16.22.01.52;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.09.18.39.42;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.01.26.20.28.10;	author kuchin;	state Exp;
+branches
+	1.5.2.1
+	1.5.4.1;
+next	1.4;
+
+1.4
+date	2003.01.25.19.44.41;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.25.18.10.42;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.25.14.37.15;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.25;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.2.1
+date	2003.01.28.16.54.41;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.4.1
+date	2003.02.06.19.00.21;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.23
+log
+@Suppressed compiler warnings.
+@
+text
+@#include "stdafx.h"
+#include <dbghelp.h>
+#include "mdump.h"
+#include "otherfunctions.h"
+#include "emule.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+// based on dbghelp.h
+typedef BOOL (WINAPI *MINIDUMPWRITEDUMP)(HANDLE hProcess, DWORD dwPid, HANDLE hFile, MINIDUMP_TYPE DumpType,
+									CONST PMINIDUMP_EXCEPTION_INFORMATION ExceptionParam,
+									CONST PMINIDUMP_USER_STREAM_INFORMATION UserStreamParam,
+									CONST PMINIDUMP_CALLBACK_INFORMATION CallbackParam
+									);
+
+LPCTSTR	MiniDumper::m_szKeepDumpFile = NULL;
+LPCTSTR	MiniDumper::m_szCantUseDBGHelp = NULL;
+LPCTSTR	MiniDumper::m_szDownloadDBGHelp = NULL;
+LPCTSTR	MiniDumper::m_szSavedDump = NULL;
+LPCTSTR	MiniDumper::m_szFailedToSave = NULL;
+bool	MiniDumper::m_bWritten;
+
+MiniDumper::MiniDumper()
+{
+	m_bWritten = false;
+
+	::SetUnhandledExceptionFilter(TopLevelFilter);
+}
+
+void MiniDumper::LoadStrings()
+{
+//	NB! _tcsdup can return NULL in case of memory lack
+	m_szKeepDumpFile = _tcsdup(GetResString(IDS_DUMP_KEEPDUMPFILE));
+	m_szCantUseDBGHelp = _tcsdup(GetResString(IDS_DUMP_CANTUSEDBGHELP));
+	m_szDownloadDBGHelp = _tcsdup(GetResString(IDS_DUMP_DOWNLOADDBG));
+	m_szSavedDump = _tcsdup(GetResString(IDS_DUMP_SAVEDDUMP));
+	m_szFailedToSave = _tcsdup(GetResString(IDS_DUMP_FAILEDTOSAVE));
+}
+
+MiniDumper::~MiniDumper()
+{
+	if (m_szKeepDumpFile != NULL)
+		free((void*)m_szKeepDumpFile);
+	if (m_szCantUseDBGHelp != NULL)
+		free((void*)m_szCantUseDBGHelp);
+	if (m_szDownloadDBGHelp != NULL)
+		free((void*)m_szDownloadDBGHelp);
+	if (m_szSavedDump != NULL)
+		free((void*)m_szSavedDump);
+	if (m_szFailedToSave != NULL)
+		free((void*)m_szFailedToSave);
+}
+
+void CloseAfterTimeout(void*)
+{
+	Sleep(60 * 1000);	// wait minute and terminate
+	TerminateProcess(GetCurrentProcess(), 0);
+}
+
+LONG MiniDumper::TopLevelFilter(struct _EXCEPTION_POINTERS *pExceptionInfo)
+{
+	g_App.m_app_state = g_App.APP_STATE_SHUTTINGDOWN;
+
+	// Start timeout thread
+	_beginthread(CloseAfterTimeout, 0, NULL);
+
+	// If already written, wait for process to terminate
+	if(m_bWritten)
+	{
+		Sleep(60 * 1000);
+		return EXCEPTION_CONTINUE_EXECUTION;
+	}
+
+	// firstly see if dbghelp.dll is around and has the function we need
+	// look next to the EXE first, as the one in System32 might be old
+	// (e.g. Windows 2000)
+	HMODULE hDll = NULL;
+	TCHAR szDbgHelpPath[_MAX_PATH], *pcTmpPtr;
+	unsigned	uiSz = (sizeof(szDbgHelpPath) - sizeof(_T("DBGHELP.DLL"))) / sizeof(TCHAR);
+
+	szDbgHelpPath[uiSz] = _T('\0');	//if name is longer than buffer, terminating null won't be added
+	if (GetModuleFileName(NULL, szDbgHelpPath, uiSz))
+	{
+		pcTmpPtr = _tcsrchr(szDbgHelpPath, _T('\\'));
+		if (pcTmpPtr != NULL)
+		{
+			_tcscpy(pcTmpPtr + 1, _T("DBGHELP.DLL"));
+			hDll = ::LoadLibrary(szDbgHelpPath);
+		}
+	}
+
+	if (hDll == NULL)
+	{
+		// load any version we can
+		hDll = ::LoadLibrary(_T("DBGHELP.DLL"));
+	}
+
+	LPCTSTR szResult = NULL;
+
+	if (hDll != NULL)
+	{
+		MINIDUMPWRITEDUMP pDump = (MINIDUMPWRITEDUMP)GetProcAddress(hDll, "MiniDumpWriteDump");
+		if (pDump)
+		{
+			TCHAR		szDumpPath[_MAX_PATH], szScratch[0x500];
+
+			// work out a good place for the dump file
+			uiSz = (sizeof(szDumpPath) - sizeof(CLIENT_NAME_WITH_VER _T(".dmp"))) / sizeof(TCHAR);
+			szDumpPath[uiSz] = _T('\0');	//if name is longer than buffer, terminating null won't be added
+			if ((GetModuleFileName(0, szDumpPath, uiSz) == 0) || ((pcTmpPtr = _tcsrchr(szDumpPath, _T('\\'))) == NULL))
+				pcTmpPtr = szDumpPath - 1;
+
+			_tcscpy(pcTmpPtr + 1, CLIENT_NAME_WITH_VER _T(".dmp"));
+
+			// save dump
+			// create the file
+			HANDLE hFile = CreateFile( szDumpPath, GENERIC_WRITE, FILE_SHARE_WRITE | FILE_SHARE_READ, NULL, CREATE_ALWAYS,
+										FILE_ATTRIBUTE_NORMAL, NULL );
+
+			int nStatus = 0, iGetLastErr = 0;
+			if (hFile != INVALID_HANDLE_VALUE)
+			{
+				_MINIDUMP_EXCEPTION_INFORMATION ExInfo;
+
+				ExInfo.ThreadId = GetCurrentThreadId();
+				ExInfo.ExceptionPointers = pExceptionInfo;
+				ExInfo.ClientPointers = FALSE;
+
+				// write the dump
+				BOOL bOK = (pDump)(GetCurrentProcess(), GetCurrentProcessId(), hFile, MiniDumpNormal, &ExInfo, NULL, NULL);
+				if (bOK)
+					nStatus = 1;
+				else
+				{
+					nStatus = 2;
+					iGetLastErr = GetLastError();
+				}
+				CloseHandle(hFile);
+			}
+			else
+			{
+				nStatus = 3;
+				iGetLastErr = GetLastError();
+			}
+
+			m_bWritten = true;
+		// Ask a user if he wants to keep a dump file
+			if ( ::MessageBox( NULL, (m_szKeepDumpFile != NULL) ? m_szKeepDumpFile :
+				CLIENT_NAME _T(" crashed.\nA diagnostic file has been created which will help the authors to resolve this problem.\nDo you want to keep this file?"),
+				CLIENT_NAME_WITH_VER, MB_YESNO | MB_ICONSTOP ) == IDYES )
+			{
+				switch(nStatus)
+				{
+				case 1:
+					_stprintf( szScratch, (m_szSavedDump != NULL) ? m_szSavedDump :
+						_T("Saved dump file to '%s'\n\nPlease upload this file at http://emuleplus.info/upload/ (recommended)\nor send it by e-mail at eMulePlus@@yahoo.com.sg\nThank you for helping us improving ") CLIENT_NAME,
+						szDumpPath );
+					szResult = szScratch;
+					break;
+				case 2:
+				case 3:
+					_stprintf( szScratch, (m_szFailedToSave != NULL) ? m_szFailedToSave :
+						_T("Failed to save dump file '%s' (error %d)"), szDumpPath, iGetLastErr );
+					szResult = szScratch;
+					break;
+				}
+			}
+			else
+				DeleteFile(szDumpPath);
+		}
+		else
+			szResult = (m_szCantUseDBGHelp != NULL) ? m_szCantUseDBGHelp :
+				_T("Could not use DBGHELP.DLL located on your system.\nPlease download the latest version (see http://emuleplus.info/)\nand place it in ") CLIENT_NAME _T(" directory.");
+	}
+	else
+		szResult = (m_szDownloadDBGHelp != NULL) ? m_szDownloadDBGHelp :
+			CLIENT_NAME _T(" crashed.\n\nTo help us find this bug, please download DBGHELP.DLL\nfrom microsoft's site and install it in your system.\n\nMore details available on http://emuleplus.info/");
+
+	if (szResult)
+		MessageBox(NULL, szResult, CLIENT_NAME_WITH_VER, MB_OK | MB_ICONSTOP);
+	ExitProcess(0);
+}
+@
+
+
+1.22
+log
+@Updated instructions for crash dump uploading.
+@
+text
+@a77 2
+	LONG retval = EXCEPTION_CONTINUE_SEARCH;
+
+d124 1
+a124 1
+			int nStatus = 0, iGetLastErr;
+d134 1
+a134 1
+				BOOL bOK = pDump(GetCurrentProcess(), GetCurrentProcessId(), hFile, MiniDumpNormal, &ExInfo, NULL, NULL);
+a162 1
+					retval = EXCEPTION_EXECUTE_HANDLER;
+a185 1
+	return retval;
+@
+
+
+1.21
+log
+@Renamed APP_STATE_SHUTINGDOWN -> APP_STATE_SHUTTINGDOWN.
+@
+text
+@a160 1
+					// Please MODDERS change email in string. THX!
+d162 1
+a162 1
+						_T("Saved dump file to '%s'\n\nPlease contact ") CLIENT_NAME _T(" developers at eMulePlus@@yahoo.com.sg\nPlease write ") CLIENT_NAME _T(" version in the subject line\nOnly send dump files from the original ") CLIENT_NAME _T(", not MODs!\nThank you for helping us improving ") CLIENT_NAME,
+@
+
+
+1.20
+log
+@minor preparation for sendmail commit
+@
+text
+@d66 1
+a66 1
+	g_App.m_app_state = g_App.APP_STATE_SHUTINGDOWN;
+@
+
+
+1.19
+log
+@renamed 3 variables
+@
+text
+@a0 1
+
+d2 1
+a2 1
+#include <assert.h>
+d13 7
+d81 1
+a81 1
+	// look next to the EXE first, as the one in System32 might be old 
+@
+
+
+1.18
+log
+@English grammar fix by muleteer.
+@
+text
+@d60 1
+a60 1
+	g_eMuleApp.m_app_state = g_eMuleApp.APP_STATE_SHUTINGDOWN;
+@
+
+
+1.17
+log
+@Windows 98/ME users now also can save crash dumps;
+Minor correction for error report; Changed web address.
+@
+text
+@d149 1
+a149 1
+				CLIENT_NAME _T(" crashed.\nA diagnostic file created which will help the authors to resolve this problem.\nDo you want to keep this file?"),
+@
+
+
+1.16
+log
+@Fixed very rare empty message-box on startup {reported by DopeFish};
+Corrected potential stack vulnerabilities; Improved application name processing;
+No need to delete a file before CreateFile.
+@
+text
+@a13 1
+LPCTSTR	MiniDumper::m_szCrashMsgForWin9x = NULL;
+a30 1
+	m_szCrashMsgForWin9x = _tcsdup(GetResString(IDS_DUMP_CRASHWIN9X));
+a39 2
+	if (m_szCrashMsgForWin9x != NULL)
+		free((void*)m_szCrashMsgForWin9x);
+d58 1
+a58 1
+LONG MiniDumper::TopLevelFilter( struct _EXCEPTION_POINTERS *pExceptionInfo )
+a71 12
+	BOOL bIsNTBased	=	FALSE;
+	// Can't save dump file for Win9x
+	WORD wWinVer = DetectWinVersion(bIsNTBased);
+	if(!bIsNTBased)
+	{
+		::MessageBox( NULL, (m_szCrashMsgForWin9x != NULL) ? m_szCrashMsgForWin9x :
+			CLIENT_NAME _T(" crashed.\nPlease report this crash, with detailed information\nabout it, to the ") CLIENT_NAME _T(" forum on http://emuleplus.sf.net/forum/"),
+			CLIENT_NAME_WITH_VER, MB_OK | MB_ICONSTOP );
+		ExitProcess(0);
+		return EXCEPTION_EXECUTE_HANDLER;
+	}
+
+d120 1
+a120 1
+			int nStatus = 0;
+d127 1
+a127 1
+				ExInfo.ClientPointers = NULL;
+d130 1
+a130 2
+				BOOL bOK = pDump( GetCurrentProcess(), GetCurrentProcessId(), hFile, MiniDumpNormal, &ExInfo, NULL, NULL );
+				CloseHandle(hFile);
+d134 1
+d136 3
+d141 1
+d143 2
+d165 1
+a165 1
+						_T("Failed to save dump file '%s' (error %d)"), szDumpPath, GetLastError() );
+d175 1
+a175 1
+				_T("Could not use DBGHELP.DLL located on your system.\nPlease download the latest version (see http://emuleplus.sf.net/)\nand place it in ") CLIENT_NAME _T(" directory.");
+d179 1
+a179 1
+			CLIENT_NAME _T(" crashed.\n\nTo help us find this bug, please download DBGHELP.DLL\nfrom microsoft's site and install it in your system.\n\nMore details available on http://emuleplus.sf.net/");
+@
+
+
+1.15
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d14 6
+a19 9
+static LPCTSTR m_szEmpty = _T("");
+
+LPCTSTR	MiniDumper::m_szAppName = NULL;
+LPCTSTR	MiniDumper::m_szCrashMsgForWin9x = m_szEmpty;
+LPCTSTR	MiniDumper::m_szKeepDumpFile = m_szEmpty;
+LPCTSTR	MiniDumper::m_szCantUseDBGHelp = m_szEmpty;
+LPCTSTR	MiniDumper::m_szDownloadDBGHelp = m_szEmpty;
+LPCTSTR	MiniDumper::m_szSavedDump = m_szEmpty;
+LPCTSTR	MiniDumper::m_szFailedToSave = m_szEmpty;
+d22 1
+a22 1
+MiniDumper::MiniDumper( LPCTSTR szAppName )
+a23 4
+	// if this assert fires then you have two instances of MiniDumper
+	// which is not allowed
+	assert(m_szAppName==NULL);
+
+a24 1
+	m_szAppName = _tcsdup(szAppName ? szAppName : _T("Application"));
+d31 1
+d42 1
+a42 3
+	if(m_szAppName)
+		free((void*)m_szAppName);
+	if(m_szCrashMsgForWin9x != m_szEmpty)
+d44 1
+a44 1
+	if(m_szKeepDumpFile != m_szEmpty)
+d46 1
+a46 1
+	if(m_szCantUseDBGHelp != m_szEmpty)
+d48 1
+a48 1
+	if(m_szDownloadDBGHelp != m_szEmpty)
+d50 1
+a50 1
+	if(m_szSavedDump != m_szEmpty)
+d52 1
+a52 1
+	if(m_szFailedToSave != m_szEmpty)
+d64 1
+a64 1
+    g_eMuleApp.m_app_state = g_eMuleApp.APP_STATE_SHUTINGDOWN;
+d81 3
+a83 1
+		MessageBox(NULL, m_szCrashMsgForWin9x, m_szAppName, MB_OK | MB_ICONSTOP);
+d94 2
+a95 1
+	TCHAR szDbgHelpPath[_MAX_PATH];
+d97 2
+a98 1
+	if (GetModuleFileName( NULL, szDbgHelpPath, _MAX_PATH ))
+d100 2
+a101 2
+		TCHAR *pSlash = _tcsrchr( szDbgHelpPath, '\\' );
+		if (pSlash)
+d103 2
+a104 2
+			_tcscpy( pSlash+1, _T("DBGHELP.DLL") );
+			hDll = ::LoadLibrary( szDbgHelpPath );
+d108 1
+a108 1
+	if (hDll==NULL)
+d111 1
+a111 1
+		hDll = LoadLibrary( _T("DBGHELP.DLL") );
+d116 1
+a116 1
+	if (hDll)
+d118 1
+a118 1
+		MINIDUMPWRITEDUMP pDump = (MINIDUMPWRITEDUMP)GetProcAddress( hDll, "MiniDumpWriteDump" );
+d121 1
+a121 2
+			TCHAR szDumpPath[_MAX_PATH];
+			TCHAR szScratch [0x500];
+d124 6
+a129 7
+			GetModuleFileName(0,szDumpPath, 490);
+			LPTSTR pszFileName = _tcsrchr(szDumpPath, '\\') + 1;
+			*pszFileName = '\0';
+
+			_tcscat( szDumpPath, m_szAppName );
+			_tcscat( szDumpPath, _T(".dmp") );
+			DeleteFile(szDumpPath);
+d133 1
+a133 1
+			HANDLE hFile = CreateFile( szDumpPath, GENERIC_WRITE, FILE_SHARE_WRITE, NULL, CREATE_ALWAYS,
+d137 1
+a137 1
+			if (hFile!=INVALID_HANDLE_VALUE)
+d157 4
+a160 2
+			// ask the user if they want to keep a dump file
+			if (MessageBox( NULL, m_szKeepDumpFile, m_szAppName, MB_YESNO | MB_ICONSTOP ) == IDYES)
+d166 3
+a168 1
+					_stprintf( szScratch, m_szSavedDump, szDumpPath );
+d174 2
+a175 1
+					_stprintf( szScratch, m_szFailedToSave, szDumpPath, GetLastError() );
+d184 2
+a185 1
+			szResult = m_szCantUseDBGHelp;
+d188 2
+a189 1
+		szResult = m_szDownloadDBGHelp;
+d192 1
+a192 1
+		MessageBox( NULL, szResult, m_szAppName, MB_OK | MB_ICONSTOP );
+@
+
+
+1.14
+log
+@unicode cleanup
+@
+text
+@d73 1
+a73 1
+    theApp.m_app_state = theApp.APP_STATE_SHUTINGDOWN;
+@
+
+
+1.13
+log
+@Fix to Lord KiRon's fix :)
+@
+text
+@d14 1
+a14 1
+static LPCSTR m_szEmpty = _T("");
+d16 7
+a22 7
+LPCSTR	MiniDumper::m_szAppName = NULL;
+LPCSTR	MiniDumper::m_szCrashMsgForWin9x = m_szEmpty;
+LPCSTR	MiniDumper::m_szKeepDumpFile = m_szEmpty;
+LPCSTR	MiniDumper::m_szCantUseDBGHelp = m_szEmpty;
+LPCSTR	MiniDumper::m_szDownloadDBGHelp = m_szEmpty;
+LPCSTR	MiniDumper::m_szSavedDump = m_szEmpty;
+LPCSTR	MiniDumper::m_szFailedToSave = m_szEmpty;
+d25 1
+a25 1
+MiniDumper::MiniDumper( LPCSTR szAppName )
+d101 1
+a101 1
+	char szDbgHelpPath[_MAX_PATH];
+d105 1
+a105 1
+		char *pSlash = _tcsrchr( szDbgHelpPath, '\\' );
+d108 1
+a108 1
+			_tcscpy( pSlash+1, "DBGHELP.DLL" );
+d116 1
+a116 1
+		hDll = LoadLibrary( "DBGHELP.DLL" );
+d126 2
+a127 2
+			char szDumpPath[_MAX_PATH];
+			char szScratch [0x500];
+d135 1
+a135 1
+			_tcscat( szDumpPath, ".dmp" );
+d171 1
+a171 1
+					sprintf( szScratch, m_szSavedDump, szDumpPath );
+d177 1
+a177 1
+					sprintf( szScratch, m_szFailedToSave, szDumpPath, GetLastError() );
+@
+
+
+1.12
+log
+@*** empty log message ***
+@
+text
+@d14 1
+d17 6
+a22 6
+LPCSTR	MiniDumper::m_szCrashMsgForWin9x = _T("");
+LPCSTR	MiniDumper::m_szKeepDumpFile = _T("");
+LPCSTR	MiniDumper::m_szCantUseDBGHelp = _T("");
+LPCSTR	MiniDumper::m_szDownloadDBGHelp = _T("");
+LPCSTR	MiniDumper::m_szSavedDump = _T("");
+LPCSTR	MiniDumper::m_szFailedToSave = _T("");
+d49 14
+a62 14
+	//delete[] m_szAppName;
+	free((void*)m_szAppName); // it was allocated by malloc , not new
+	//delete[] m_szCrashMsgForWin9x;
+	free((void*)m_szCrashMsgForWin9x);
+	//delete[] m_szKeepDumpFile;
+	free((void*)m_szKeepDumpFile);
+	//delete[] m_szCantUseDBGHelp;
+	free((void*)m_szCantUseDBGHelp);
+	//delete[] m_szDownloadDBGHelp;
+	free((void*)m_szDownloadDBGHelp);
+	//delete[] m_szSavedDump;
+	free((void*)m_szSavedDump);
+	//delete[] m_szFailedToSave;
+	free((void*)m_szFailedToSave);
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d84 1
+d86 2
+a87 2
+	WORD wWinVer = DetectWinVersion();
+	if(wWinVer == _WINVER_95_ || wWinVer == _WINVER_98_ || wWinVer == _WINVER_ME_)
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d50 12
+a61 6
+	delete[] m_szCrashMsgForWin9x;
+	delete[] m_szKeepDumpFile;
+	delete[] m_szCantUseDBGHelp;
+	delete[] m_szDownloadDBGHelp;
+	delete[] m_szSavedDump;
+	delete[] m_szFailedToSave;
+@
+
+
+1.9
+log
+@Small fix for debug configuration
+@
+text
+@d48 2
+a49 1
+	delete[] m_szAppName;
+@
+
+
+1.8
+log
+@Fixed bug #15
+@
+text
+@d15 1
+a15 1
+LPCSTR	MiniDumper::m_szAppName = _T("");
+@
+
+
+1.7
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d15 8
+a22 1
+LPCSTR MiniDumper::m_szAppName;
+d28 1
+a28 1
+	assert( m_szAppName==NULL );
+d30 2
+a31 1
+	m_szAppName = szAppName ? strdup(szAppName) : "Application";
+d33 1
+a33 1
+	::SetUnhandledExceptionFilter( TopLevelFilter );
+d35 11
+d49 12
+d65 11
+a75 1
+    theApp.m_app_state = theApp.APP_STATE_SHUTINGDOWN; // obaldin: ?
+d81 1
+a81 1
+		MessageBox( NULL, "eMule Plus crashed.\nPlease report this crash, with detailed information\nabout it, to the eMulePlus forum on http://emuleplus.sf.net/forum/", m_szAppName, MB_OK | MB_ICONSTOP );
+a123 2
+			//if (!GetTempPath( _MAX_PATH, szDumpPath ))
+			//	_tcscpy( szDumpPath, "c:\\temp\\" );
+d127 6
+d134 2
+a135 2
+			// ask the user if they want to save a dump file
+			if (MessageBox( NULL, "eMule Plus crashed.\nA diagnostic file can be created which will help the authors to resolve this problem.\nThis file will be saved on your Disk (and not sent).\nDo you want to create this file now?", m_szAppName, MB_YESNO | MB_ICONSTOP )==IDYES)
+d137 1
+a137 3
+				// create the file
+				HANDLE hFile = CreateFile( szDumpPath, GENERIC_WRITE, FILE_SHARE_WRITE, NULL, CREATE_ALWAYS,
+											FILE_ATTRIBUTE_NORMAL, NULL );
+d139 14
+a152 3
+				if (hFile!=INVALID_HANDLE_VALUE)
+				{
+					_MINIDUMP_EXCEPTION_INFORMATION ExInfo;
+d154 5
+a158 21
+					ExInfo.ThreadId = GetCurrentThreadId();
+					ExInfo.ExceptionPointers = pExceptionInfo;
+					ExInfo.ClientPointers = NULL;
+
+					// write the dump
+					BOOL bOK = pDump( GetCurrentProcess(), GetCurrentProcessId(), hFile, MiniDumpNormal, &ExInfo, NULL, NULL );
+					if (bOK)
+					{
+						// Please MODDERS change this email. THX!
+						sprintf( szScratch, "Saved dump file to '%s'\n\nPlease contact eMule Plus developers at eMulePlus@@yahoo.com.sg\nPlease write eMule Plus version in the subject line\nOnly send dump files from the original eMule Plus, not MODs!\nThank you for helping us improving eMule Plus", szDumpPath );
+						szResult = szScratch;
+						retval = EXCEPTION_EXECUTE_HANDLER;
+					}
+					else
+					{
+						sprintf( szScratch, "Failed to save dump file to '%s' (error %d)", szDumpPath, GetLastError() );
+						szResult = szScratch;
+					}
+					CloseHandle(hFile);
+				}
+				else
+d160 3
+a162 1
+					sprintf( szScratch, "Failed to create dump file '%s' (error %d)", szDumpPath, GetLastError() );
+d164 7
+d173 2
+a174 2
+			//else 
+			//	szResult=NULL; //we just amswered 'no' to the question...
+d177 1
+a177 1
+			szResult = "Could not use DBGHELP.DLL located in your system.\nPlease download the latest version (see http://emuleplus.sf.net/faq/)\nand place it in the eMulePlus directory.";
+d180 1
+a180 4
+		szResult = "eMule Plus crashed.\n\nTo help us find this bug, please downlowad DBGHELP.DLL\nfrom microsoft's site and install it in your system.\n\nMore details available on http://emuleplus.sf.net/faq/";
+
+	//if(szResult == NULL)
+	//	szResult = "eMule Plus crashed.\nPlease report this crash, with detailed information\nabout it, to the eMulePlus forum on http://emuleplus.sf.net/forum/" ;
+@
+
+
+1.6
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d8 7
+@
+
+
+1.5
+log
+@Many messageboxes fix didn't really work :(
+@
+text
+@d6 1
+d27 2
+@
+
+
+1.5.4.1
+log
+@We should probably stop the app to avoid the repeated exceptions?
+@
+text
+@a5 1
+#include "emule.h"
+a25 2
+    theApp.m_app_state = theApp.APP_STATE_SHUTINGDOWN; // obaldin: ?
+
+@
+
+
+1.5.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.4
+log
+@Many messageboxes fix
+@
+text
+@a7 1
+bool MiniDumper::m_bWindowOpened = false;
+a15 1
+	m_bWindowOpened = false;
+a25 4
+	if(m_bWindowOpened)
+		return EXCEPTION_CONTINUE_SEARCH;
+
+	m_bWindowOpened = true;
+a30 1
+		m_bWindowOpened = false;
+a129 1
+	m_bWindowOpened = false;
+@
+
+
+1.3
+log
+@Many messageboxes fix
+@
+text
+@d29 1
+a29 1
+		return EXCEPTION_EXECUTE_HANDLER;
+@
+
+
+1.2
+log
+@updated info, 'nicer' error messages.
+@
+text
+@d8 1
+d17 1
+d28 4
+d37 1
+d137 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d30 2
+a31 2
+		::MessageBox( NULL, "eMule Plus crashed.\nUnfortunately eMule Plus is unable to save diagnostic file - this feature is not supported in Win9x/WinME", m_szAppName, MB_OK | MB_ICONSTOP );
+		::ExitProcess(0);
+d56 1
+a56 1
+		hDll = ::LoadLibrary( "DBGHELP.DLL" );
+d63 1
+a63 1
+		MINIDUMPWRITEDUMP pDump = (MINIDUMPWRITEDUMP)::GetProcAddress( hDll, "MiniDumpWriteDump" );
+d70 1
+a70 1
+			::GetModuleFileName(0,szDumpPath, 490);
+d80 1
+a80 1
+			if (::MessageBox( NULL, "eMule Plus crashed.\nA diagnostic file can be created which will help the authors to resolve this problem.\nThis file will be saved on your Disk (and not sent).\nDo you want to create this file now?", m_szAppName, MB_YESNO | MB_ICONSTOP )==IDYES)
+d83 1
+a83 1
+				HANDLE hFile = ::CreateFile( szDumpPath, GENERIC_WRITE, FILE_SHARE_WRITE, NULL, CREATE_ALWAYS,
+d90 1
+a90 1
+					ExInfo.ThreadId = ::GetCurrentThreadId();
+d108 1
+a108 1
+					::CloseHandle(hFile);
+d116 2
+d119 2
+d122 5
+a126 2
+	if(szResult == NULL)
+		szResult = "eMule Plus crashed.\nUnfortunately eMule Plus is unable to save diagnostic file - DBGHELP.DLL not found or too old version, please download latest from http://emuleplus.dyndns.ws/faq/";
+d129 2
+a130 2
+		::MessageBox( NULL, szResult, m_szAppName, MB_OK | MB_ICONSTOP );
+	::ExitProcess(0);
+@
+

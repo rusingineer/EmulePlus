@@ -1,0 +1,93 @@
+head	1.1;
+access;
+symbols
+	PublicRelease_1_2e:1.1
+	Interim_Release_1-2e_RC1:1.1
+	PublicRelease_1_2d:1.1
+	Interim_Release_1-2d_RC1:1.1
+	Interim_Release_1-2d_beta1:1.1
+	PublicRelease_1_2c:1.1
+	Interim_Release_1-2c_RC1:1.1
+	Interim_Release_1-2c_beta1:1.1
+	PublicRelease_1_2b:1.1
+	Interim_Release_1-2b_RC1:1.1
+	PublicRelease_1_2a:1.1
+	Interim_Release_1-2a_RC1:1.1
+	Interim_Release_1-2a_beta2:1.1
+	Interim_Release_1-2a_beta1:1.1
+	PublicRelease_1_2:1.1
+	Interim_Release_1-2_RC1:1.1
+	Interim_Release_1-2_beta1:1.1
+	PublicRelease_1_1g:1.1
+	Interim_Release_1-1g_RC3:1.1
+	Interim_Release_1-1g_RC2:1.1
+	Interim_Release_1-1g_RC1:1.1
+	Interim_Release_1-1g_beta2:1.1
+	Interim_Release_1-1g_beta1:1.1
+	Interim_Release_1-1f_RC1:1.1
+	PublicRelease_1_1e:1.1
+	Interim_Release_1-1e_RC2:1.1
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.03.25.08.17.11;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@v2 - MsgViewer (for Io.em)
+@
+text
+@#pragma once
+
+/////////////////////////////////////////////////////////////////////////////
+// CMsgViewDlg dialog
+
+#include "SizeableDlg.h"
+
+class CMsgViewDlg : public CSizeableDlg
+{
+// Construction
+public:
+	CMsgViewDlg(LPCVOID pData, DWORD dwDataSize, __int64 nPos, ULONG nIdProtoType, CWnd* pParent = NULL);   // standard constructor
+
+// Dialog Data
+	//{{AFX_DATA(CMsgViewDlg)
+	enum { IDD = IDD_MSGVIEW };
+	CString	m_strMsgData;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CMsgViewDlg)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+
+	LPCVOID m_pData; // for export feature
+	DWORD m_dwDataSize;
+
+	// Generated message map functions
+	//{{AFX_MSG(CMsgViewDlg)
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	afx_msg void OnDestroy();
+	virtual BOOL OnInitDialog();
+	afx_msg void OnExport();
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+};
+@

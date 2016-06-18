@@ -1,0 +1,168 @@
+head	1.4;
+access;
+symbols
+	PublicRelease_1_2e:1.4
+	Interim_Release_1-2e_RC1:1.4
+	PublicRelease_1_2d:1.4
+	Interim_Release_1-2d_RC1:1.4
+	Interim_Release_1-2d_beta1:1.4
+	PublicRelease_1_2c:1.4
+	Interim_Release_1-2c_RC1:1.4
+	Interim_Release_1-2c_beta1:1.4
+	PublicRelease_1_2b:1.4
+	Interim_Release_1-2b_RC1:1.4
+	PublicRelease_1_2a:1.4
+	Interim_Release_1-2a_RC1:1.4
+	Interim_Release_1-2a_beta2:1.4
+	Interim_Release_1-2a_beta1:1.4
+	PublicRelease_1_2:1.4
+	Interim_Release_1-2_RC1:1.4
+	Interim_Release_1-2_beta1:1.4
+	PublicRelease_1_1g:1.4
+	Interim_Release_1-1g_RC3:1.4
+	Interim_Release_1-1g_RC2:1.4
+	Interim_Release_1-1g_RC1:1.4
+	Interim_Release_1-1g_beta2:1.4
+	Interim_Release_1-1g_beta1:1.4
+	PublicRelease_1_1f:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4;
+locks; strict;
+comment	@// @;
+
+
+1.4
+date	2005.04.17.05.16.20;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.04.08.14.16.36;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.04.08.11.09.34;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.03.22.22.02.09;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@v2 - corrected protocol, tags
+@
+text
+@// Prefs.cpp: implementation of the CPrefs class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Prefs.h"
+#include "../../ini2.h"
+
+CPrefs::CPrefs()
+	:m_uMaxUploadSlots(0)
+	,m_uPortXml(9090)
+	,m_bXmlLocalBind(true)
+	,m_bAlertOnErrors(false)
+	,m_bSaveLogsIO(false)
+{
+	LoadPrefs();
+}
+
+CPrefs::~CPrefs()
+{
+	SavePrefs();
+}
+
+void CPrefs::LoadPrefs()
+{
+	CIni ini(GetConfigDir() + _T("preferences2.ini"));
+
+	ini.SetDefaultCategory(_T("Connection"));
+	m_uPortXml		= ini.GetUInt32(_T("PortXml"), 9090);
+	m_bXmlLocalBind	= ini.GetBool(_T("XmlLocalBind"), true);
+
+	ini.SetDefaultCategory(_T("Debug"));
+	m_bAlertOnErrors	= ini.GetBool(_T("AlertOnErrors"), true);
+	m_bSaveLogsIO		= ini.GetBool(_T("SaveLogsIO"), false);
+
+	ini.CloseWithoutSave();
+}
+
+void CPrefs::SavePrefs()
+{
+	CIni ini(GetConfigDir() + _T("preferences2.ini"));
+
+	ini.SetDefaultCategory(_T("Connection"));
+	ini.SetUInt32(	_T("PortXml"),		m_uPortXml);
+	ini.SetBool(	_T("XmlLocalBind"), m_bXmlLocalBind);
+
+	ini.SetDefaultCategory(_T("Debug"));
+	ini.SetBool(_T("AlertOnErrors"),	m_bAlertOnErrors);
+	ini.SetBool(_T("SaveLogsIO"),		m_bSaveLogsIO);
+
+	ini.SaveAndClose();
+}
+
+USHORT CPrefs::_GetMaxUpSlots() const
+{
+	if(m_uMaxUploadSlots)
+		return m_uMaxUploadSlots;
+	else
+	{
+		if(GetMaxUpload() == UNLIMITED)
+			return 10; //(GetDataRate() / UPLOAD_CLIENT_DATARATE);
+		else
+			return (GetMaxUpload() * 1024 / (UPLOAD_LOW_CLIENT_DR * 10) + 1);
+	}
+}
+@
+
+
+1.3
+log
+@v2 - more abstraction + logic
+@
+text
+@d11 4
+d19 5
+d29 2
+a30 1
+	m_uPortXml	= ini.GetUInt32(_T("PortXml"), 9090);
+d39 15
+@
+
+
+1.2
+log
+@v2 - increased level of abstraction + minor improvements
+@
+text
+@d19 3
+a22 1
+
+@
+
+
+1.1
+log
+@v2 - enhancing logging subsystem
+@
+text
+@d7 1
+d12 13
+@
+

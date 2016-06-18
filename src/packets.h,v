@@ -1,0 +1,1286 @@
+head	1.35;
+access;
+symbols
+	PublicRelease_1_2e:1.35
+	Interim_Release_1-2e_RC1:1.35
+	PublicRelease_1_2d:1.34
+	Interim_Release_1-2d_RC1:1.34
+	Interim_Release_1-2d_beta1:1.34
+	PublicRelease_1_2c:1.32
+	Interim_Release_1-2c_RC1:1.32
+	Interim_Release_1-2c_beta1:1.31
+	PublicRelease_1_2b:1.31
+	Interim_Release_1-2b_RC1:1.31
+	PublicRelease_1_2a:1.29
+	Interim_Release_1-2a_RC1:1.29
+	Interim_Release_1-2a_beta2:1.28
+	Interim_Release_1-2a_beta1:1.28
+	PublicRelease_1_2:1.28
+	Interim_Release_1-2_RC1:1.28
+	Interim_Release_1-2_beta1:1.28
+	PublicRelease_1_1g:1.27
+	Interim_Release_1-1g_RC3:1.27
+	Interim_Release_1-1g_RC2:1.27
+	Interim_Release_1-1g_RC1:1.27
+	Interim_Release_1-1g_beta2:1.27
+	Interim_Release_1-1g_beta1:1.27
+	PublicRelease_1_1f:1.27
+	Interim_Release_1-1f_RC1:1.27
+	PublicRelease_1_1e:1.27
+	Interim_Release_1-1e_RC2:1.27
+	Interim_Release_1-1e_RC1:1.27
+	Interim_Release_1-1e_beta1:1.27
+	PublicRelease_1_1d:1.26
+	Interim_Release_1-1d_RC1:1.26
+	PublicRelease_1_1c:1.25
+	Interim_Release_1-1c_RC1:1.25
+	Interim_Release_1-1c_beta2:1.25
+	Interim_Release_1-1c_beta1:1.21
+	PublicRelease_1_1b:1.21
+	Interim_Release_1-1b_RC1:1.21
+	PublicRelease_1_1a:1.21
+	Interim_Release_1-1a_RC2:1.21
+	Interim_Release_1-1a_RC1:1.21
+	Interim_Release_1-1a_beta2:1.21
+	Interim_Release_1-1a_beta1:1.21
+	PublicRelease_1_1:1.20
+	Interim_Release_1-1_beta1:1.20
+	PublicRelease_1o:1.20
+	Interim_Release_1o_RC1:1.20
+	Interim_Release_1o_beta1:1.20
+	PublicRelease_1n:1.20
+	Interim_Release_1n_RC2:1.20
+	Interim_Release_1n_RC1:1.20
+	Interim_Release_1n_beta2:1.18
+	Interim_Release_1n_beta1:1.18
+	PublicRelease_1m:1.18
+	Interim_Release_1m_beta1:1.18
+	PublicRelease_1l:1.18
+	Interim_Release_1l_RC3:1.18
+	Interim_Release_1l_RC2:1.18
+	Interim_Release_1l_RC1:1.18
+	Interim_Release_1l_beta2:1.18
+	Interim_Release_1l_beta1:1.18
+	PublicRelease_1k:1.18
+	Interim_Release_1k_RC4:1.18
+	Interim_1k_RC3:1.18
+	Interim_1k_RC2:1.18
+	Interim_Release_1k_RC1:1.18
+	Interim_Release_1k_beta5:1.18
+	Intrerim_Release_1k_beta4:1.18
+	Interim_Release_1k_beta1:1.18
+	PublicRelease_1j:1.15
+	Interim_Release_1J_RC3:1.15
+	Interim_Release_1j_RC3:1.15
+	Interim_Release_1j_RC2:1.15
+	Interim_Release_1j_RC1:1.15
+	Interim_Release_1j_beta2:1.15
+	Interim_Release_1j_beta1:1.15
+	PublicRelease_1i:1.15
+	Interim_Release_1i_RC6:1.15
+	Interim_Release_1i_RC3:1.15
+	Interim_Release_1i_RC2:1.15
+	Interim_Release_1i_RC1:1.15
+	Interim_Release_1i_beta3:1.15
+	Interim_Release_1i_beta2:1.14
+	Interim_Release_1i_beta1:1.12
+	PublicRelease_1h:1.12
+	Interim_Release_1h_rc2:1.12
+	Interim_Release_1h_RC1:1.12
+	Interim_Release_1h_beta2:1.12
+	Interim_Release_1h_beta1_now:1.12
+	Interim_Release_1h_beta1:1.12
+	PublicRelease_1g:1.11
+	Interim_Release_1g_RC6_Final:1.11
+	Interim_Release_1g_RC6:1.11
+	Interim_Release_1g_RC5:1.11
+	Interim_Release_1g_RC4:1.11
+	Interim_Release_1g_RC3:1.11
+	Interim_Release_1g_beta2:1.9
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.3
+	Interim_Release_1f_RC3:1.3
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.3
+	Interim_Release_1f_beta2:1.3
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.35
+date	2008.09.29.22.51.48;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2008.02.17.02.27.14;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2007.12.05.22.02.49;	author eklmn;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2007.04.14.04.23.40;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2007.01.08.00.02.33;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2006.11.16.05.47.18;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.08.21.03.47.45;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.01.20.02.46.07;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.04.02.22.33.19;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.03.10.07.24.08;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.02.16.05.05.51;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.02.12.00.47.01;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.02.04.23.41.56;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.02.01.03.58.05;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.11.08.03.09.47;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.08.12.13.02.03;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.08.10.12.43.40;	author eklmn;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.02.09.16.39.50;	author kush_eplus;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.31.12.17.08;	author morevit;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.31.06.47.00;	author eklmn;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.08.12.56.33;	author morevit;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.08.10.04.42.50;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.06.22.10.38.05;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.21.17.52.33;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.06.06.20.37.18;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.06.19.56.47;	author partyckip;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.05.19.57.17;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.05.17.23.26;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.06.05.05.51.21;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.06.04.20.27.29;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.05.08.16.19.07;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.04.29.08.37.54;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.25;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.41;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.35
+log
+@Removed duplicate #include; Removed bFromPF from one of constructors as it's only required for outgoing data packets; Removed default option for bFromPF parameter for another constructor for better verification.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "opcodes.h"
+#include "otherstructs.h"
+#include "StringConversion.h"
+
+class Packet
+{
+public:
+			Packet(byte byteProtocol);
+			Packet(PacketHeader_Struct *pHeaderStruct); // only used for receiving packets
+			Packet(CMemFile *pDataFile, byte byteProtocol = OP_EDONKEYPROT);
+			Packet(char *pPacketPart, uint32 nSize, bool bLast, byte byteFilePriority, bool bFromPF);
+			Packet(EnumOpcodes eOpcode, uint32 iSize, byte byteProtocol = OP_EDONKEYPROT);
+			Packet(EnumOpcodes eOpcode, uint32 iSize, byte byteProtocol, byte byteFilePriority, bool bFromPF);
+			~Packet();
+	char	*GetHeader();
+	char	*GetUDPHeader();
+	char	*GetPacket();
+	char	*DetachPacket();
+	uint32	GetRealPacketSize()	{return m_dwSize + sizeof(PacketHeader_Struct);}
+	bool	IsSplit()			{return m_bSplit;}
+	bool	IsLastSplit()		{return m_bLastSplit;}
+	bool	IsFromPF()			{return m_bFromPF;}
+	byte	GetFilePriority()	{return m_byteFilePriority;}
+	void	PackPacket();
+	bool	UnpackPacket(uint32 dwMaxUnpackedSize = 0);
+
+	char		*m_pcBuffer;
+	uint32		m_dwSize;
+	EnumOpcodes	m_eOpcode;
+	byte		m_byteProtocol;
+
+private:
+	byte		m_byteFilePriority;
+	bool		m_bSplit;
+	bool		m_bLastSplit;
+	bool		m_bFromPF;
+	char		m_arrcHead[6];
+	char		*m_pcCompleteBuffer;
+	char		*m_pcTempBuffer;
+};
+
+//	Tag Types
+#define TAGTYPE_NONE		0
+#define TAGTYPE_HASH		0x01
+#define TAGTYPE_STRING		0x02
+#define TAGTYPE_UINT32		0x03
+#define TAGTYPE_FLOAT32		0x04
+#define TAGTYPE_BOOL		0x05
+#define TAGTYPE_BOOLARRAY	0x06
+#define TAGTYPE_BLOB		0x07
+#define TAGTYPE_UINT16		0x08
+#define TAGTYPE_UINT8		0x09
+#define TAGTYPE_BSOB		0x0A
+#define TAGTYPE_UINT64		0x0B
+#define TAGTYPE_STR1		0x11
+#define TAGTYPE_STR2		0x12
+#define TAGTYPE_STR3		0x13
+#define TAGTYPE_STR4		0x14
+#define TAGTYPE_STR5		0x15
+#define TAGTYPE_STR6		0x16
+#define TAGTYPE_STR7		0x17
+#define TAGTYPE_STR8		0x18
+#define TAGTYPE_STR9		0x19
+#define TAGTYPE_STR10		0x1A
+#define TAGTYPE_STR11		0x1B
+#define TAGTYPE_STR12		0x1C
+#define TAGTYPE_STR13		0x1D
+#define TAGTYPE_STR14		0x1E
+#define TAGTYPE_STR15		0x1F
+#define TAGTYPE_STR16		0x20
+
+class CTag
+{
+public:
+				CTag();
+				CTag(byte byteTagID, uint32 dwValue);
+				CTag(byte byteTagID, const TCHAR *pcValue);
+				CTag(const char *pcName, uint32 dwValue);
+				CTag(const char *pcName, const TCHAR *pcValue);
+				CTag(byte byteTagID, const byte *pbyteHash);
+				CTag(byte byteTagID, uint32 dwSize, const byte *pbyteData);
+				CTag(const CTag &Tag);
+				~CTag();
+
+	void		FillFromStream(CFile &file, ECodingFormat eCF = cfLocalCodePage);
+	bool		WriteToFile(CFile &file, ECodingFormat eCF = cfLocalCodePage) const;	// old eD2K tags
+	bool		WriteNewEd2kTag(CFile &file, ECodingFormat eCF = cfLocalCodePage) const;	// new eD2K tags
+
+	byte		GetTagID() const			{ return m_byteTagID; }
+	const CString&	GetStringValue() const	{ return *m_pstrValue; }
+	void		GetStringValue(CString *pstrOut) const	{ *pstrOut = *m_pstrValue; }
+	bool		IsStringValueEmpty() const	{ return m_pstrValue->IsEmpty(); }
+	bool		IsStringValueEqual(const CString &strCmp) const	{ return (*m_pstrValue == strCmp); }
+	const char*	GetTagName() const			{ return m_pcName; }
+	uint32		GetIntValue() const			{ return static_cast<uint32>(m_qwValue); }
+	void		SetIntValue(uint32 dwValue)	{ m_qwValue = static_cast<uint64>(dwValue); }
+	void		GetInt64Value(uint64 *pqwVal) const				{ *pqwVal = m_qwValue; }
+	uint64		GetInt64Value() const		{ return m_qwValue; }
+	float		GetFloatValue() const		{ return m_fValue; }
+	const byte*	GetHashValue() const		{ return reinterpret_cast<const byte*>(m_pData); }
+	uint32		GetBlobSize() const			{ return m_dwBlobSize; }
+	const byte*	GetBlobPtr() const			{ return reinterpret_cast<const byte*>(m_pData); }
+	byte		GetType() const				{ return m_byteTagType; }
+	void		ChangeTagID(byte byteNewTagID);
+
+	bool		IsStr() const				{ return m_byteTagType == TAGTYPE_STRING; }
+	bool		IsInt() const				{ return m_byteTagType == TAGTYPE_UINT32; }
+	bool		IsFloat() const				{ return m_byteTagType == TAGTYPE_FLOAT32; }
+	bool		IsHash() const				{ return m_byteTagType == TAGTYPE_HASH; }
+	bool		IsBlob() const				{ return m_byteTagType == TAGTYPE_BLOB; }
+	bool		IsInt64() const				{ return (m_byteTagType == TAGTYPE_UINT64); }
+	bool		IsAnyInt() const			{ return ((m_byteTagType == TAGTYPE_UINT32) || (m_byteTagType == TAGTYPE_UINT64)); }
+
+protected:
+	union {
+		CString			*m_pstrValue;
+		uint64			m_qwValue;
+		float			m_fValue;
+		void			*m_pData;
+	};
+	char			*m_pcName;
+	uint32			m_dwBlobSize;
+	byte			m_byteTagType;
+	byte			m_byteTagID;
+};
+
+class CWrTag
+{
+public:
+			CWrTag();
+//	Old eD2K tags
+	bool	WriteToFile(byte byteTagID, uint32 dwValue, CFile &file) const;
+	bool	WriteToFile(byte byteTagID, uint64 qwValue, CFile &file, bool bInt64) const;
+	bool	WriteToFile(byte byteTagID, const CString &strValue, CFile &file, ECodingFormat eCF = cfLocalCodePage) const;
+	bool	WriteToFile(LPCSTR strName, uint64 qwValue, CFile &file, bool bInt64) const;
+
+//	New eD2K tags
+	bool	WriteNewEd2kTag(byte byteTagID, uint32 dwValue, CFile &file) const;
+	bool	WriteNewEd2kTag(byte byteTagID, uint64 qwValue, CFile &file) const;
+	bool	WriteNewEd2kTag(byte byteTagID, const CString &strValue, CFile &file, ECodingFormat eCF = cfLocalCodePage) const;
+	bool	WriteNewEd2kTag(LPCSTR strName, uint64 qwValue, CFile &file) const;
+};
+
+
+//	CTag and tag string helpers
+
+__inline int CmpED2KTagName(LPCSTR pszTagName1, LPCSTR pszTagName2)
+{
+//	String compare is independant from any codepage and/or LC_CTYPE setting
+	return __ascii_stricmp(pszTagName1, pszTagName2);
+}
+@
+
+
+1.34
+log
+@Fixed saving some string tags to .met files when Unicode is enabled.
+@
+text
+@a16 1
+
+a18 1
+#include "types.h"
+d29 2
+a30 2
+			Packet(char *pPacketPart, uint32 nSize, bool bLast, byte byteFilePriority, bool bFromPF = true); // only used for split packets!
+			Packet(EnumOpcodes eOpcode, uint32 iSize, byte byteProtocol = OP_EDONKEYPROT, bool bFromPF = true);
+@
+
+
+1.33
+log
+@added Unicode support for met-files
+@
+text
+@d106 2
+a107 2
+	bool		WriteToFile(CFile &file) const;		// old eD2K tags
+	bool		WriteNewEd2kTag(CFile &file) const;	// new eD2K tags
+@
+
+
+1.32
+log
+@#include was moved to C-file.
+@
+text
+@d23 1
+d105 1
+a105 1
+	void		FillFromStream(CFile &file);
+d154 1
+a154 1
+	bool	WriteToFile(byte byteTagID, const CString &strValue, CFile &file) const;
+d160 1
+a160 1
+	bool	WriteNewEd2kTag(byte byteTagID, const CString &strValue, CFile &file) const;
+@
+
+
+1.31
+log
+@Removed unused variable.
+@
+text
+@a22 1
+#include "zlib/zlib.h"
+@
+
+
+1.30
+log
+@Encryption preparations; Simplified processing of the protocol variable;
+Modified contractors to avoid potential compiling issue due to type collision.
+@
+text
+@a59 1
+	bool		m_bPacked;
+@
+
+
+1.29
+log
+@Added 64bit tag support.
+@
+text
+@d28 1
+a28 1
+			Packet(EnumProtocols eProtocol = OP_EDONKEYPROT);
+d30 4
+a33 4
+			Packet(CMemFile *pDataFile, EnumProtocols eProtocol = OP_EDONKEYPROT);
+			Packet(char* pPacketPart, uint32 nSize, bool bLast, byte byteFilePriority, bool bFromPF = true); // only used for split packets!
+			Packet(EnumOpcodes eOpcode, uint32 iSize = 0, EnumProtocols eProtocol = OP_EDONKEYPROT,bool bFromPF = true);
+			Packet(EnumOpcodes eOpcode, uint32 iSize, EnumProtocols eProtocol, byte byteFilePriority, bool bFromPF);
+d47 4
+a50 4
+	char		   *m_pcBuffer;
+	uint32			m_dwSize;
+	EnumOpcodes		m_eOpcode;
+	EnumProtocols	m_eProtocol;
+d53 8
+a60 8
+	byte			m_byteFilePriority;
+	bool			m_bSplit;
+	bool			m_bLastSplit;
+	bool			m_bFromPF;
+	char			m_arrcHead[6];
+	char		   *m_pcCompleteBuffer;
+	char		   *m_pcTempBuffer;
+	bool			m_bPacked;
+@
+
+
+1.28
+log
+@Some updates from the original related to 64-bit file size support.
+@
+text
+@d28 18
+a45 18
+					Packet(EnumProtocols eProtocol = OP_EDONKEYPROT);
+					Packet(PacketHeader_Struct *pHeaderStruct); // only used for receiving packets
+					Packet(CMemFile *pDataFile,EnumProtocols eProtocol = OP_EDONKEYPROT);
+				Packet(char* pPacketPart,uint32 nSize,bool bLast, byte byteFilePriority, bool bFromPF = true); // only used for split packets!
+					Packet(EnumOpcodes eOpcode,uint32 iSize = 0,EnumProtocols eProtocol = OP_EDONKEYPROT,bool bFromPF = true);
+				Packet(EnumOpcodes eOpcode, uint32 iSize, EnumProtocols eProtocol, byte byteFilePriority, bool bFromPF);
+				   ~Packet();
+	char		   *GetHeader();
+	char		   *GetUDPHeader();
+	char		   *GetPacket();
+	char		   *DetachPacket();
+	uint32			GetRealPacketSize()		{return m_dwSize+sizeof(PacketHeader_Struct);}
+	bool			IsSplit()			{return m_bSplit;}
+	bool			IsLastSplit()		{return m_bLastSplit;}
+	bool			IsFromPF()			{return m_bFromPF;}
+	byte 			GetFilePriority()	{return m_byteFilePriority;}
+	void			PackPacket();
+	bool			UnpackPacket(uint32 dwMaxUnpackedSize = 0);
+d53 1
+a53 1
+	byte		m_byteFilePriority;
+d116 4
+a119 2
+	uint32		GetIntValue() const			{ return m_dwValue; }
+	void		SetIntValue(uint32 dwValue)	{ m_dwValue = dwValue; }
+d132 2
+d138 1
+a138 1
+		uint32			m_dwValue;
+d154 1
+d156 1
+a156 1
+	bool	WriteToFile(LPCSTR strName, uint32 dwValue, CFile &file) const;
+d160 1
+d162 1
+a162 1
+	bool	WriteNewEd2kTag(LPCSTR strName, uint32 dwValue, CFile &file) const;
+@
+
+
+1.27
+log
+@Show media information (length, bitrate and codec) for search results.
+@
+text
+@d75 1
+@
+
+
+1.26
+log
+@Fixed tag processing what caused file writing issues and crashes after file was added from search.
+@
+text
+@d122 1
+@
+
+
+1.25
+log
+@Support new ed2k tag format (client<->server,
+as well as used for shared list transfers to eMule v0.43a+ and eMule Plus v1.1a+);
+Changed tag interface to avoid memory leaks which could be possible with
+new tag object structure.
+@
+text
+@d102 1
+@
+
+
+1.24
+log
+@Removed second file interface support for easier maintaining.
+@
+text
+@d95 1
+d97 3
+a99 3
+				CTag(byte byteTagID, LPCTSTR strValue);
+				CTag(LPCSTR strName, uint32 dwValue);
+				CTag(LPCSTR strName, LPCTSTR strValue);
+a101 1
+				CTag(CFile& file);
+d104 3
+a106 2
+	bool			WriteToFile(CFile &file) const;		// old eD2K tags
+	bool			WriteNewEd2kTag(CFile &file) const;	// new eD2K tags
+d109 11
+a119 7
+	CString		GetStringValue() const		{ return m_strValue; }
+	void		GetStringValue(CString *strOut) const	{ *strOut = m_strValue; }
+	bool		IsStringValueEmpty() const		{ return m_strValue.IsEmpty(); }
+	bool		IsStringValueEqual(const CString &strCmp) const	{ return (m_strValue == strCmp); }
+	LPCSTR			GetTagName() const { return (m_strName.IsEmpty()) ? NULL : m_strName.GetString(); }
+	uint32			GetIntValue() const { return m_dwValue; }
+	void			SetIntValue(uint32 dwValue) { m_dwValue = dwValue; }
+d129 2
+a130 1
+		CString			m_strValue;
+d133 3
+a135 2
+		byte			*m_pbyteData;
+	CString			m_strName;
+a140 3
+typedef CTag	CClientTag;
+typedef CTag	CFileTag;
+
+@
+
+
+1.23
+log
+@Optimized parameter tag processing (preparation and parsing).
+@
+text
+@a105 1
+	bool			WriteToFile(FILE *pFile);
+d112 1
+a112 1
+	CString			GetTagName() const { return m_strName; }
+@
+
+
+1.22
+log
+@Preparations and minor corrections for new tag processing.
+@
+text
+@a24 3
+//			CLIENT TO SERVER
+//			PACKET CLASS
+// TODO some parts could need some work to make it more efficient
+d42 1
+a42 1
+	bool			IsFromPF()			{return m_bFromPF;}	//	khaos stats
+d95 11
+a105 6
+					CTag(byte byteTagID, uint32 dwValue);
+					CTag(byte byteTagID, LPCTSTR strValue);
+					CTag(LPCTSTR strName, uint32 dwValue);
+					CTag(LPCTSTR strName, LPCTSTR strValue);
+					CTag(CFile& file);
+	bool			WriteToFile(CFile &file);
+d109 4
+a112 1
+	CString			GetStringValue() const { return m_strValue; }
+d125 4
+d130 1
+a130 3
+	CString			m_strValue;
+	uint32			m_dwValue;
+	float			m_fValue;
+a135 2
+typedef CTag	CFriendTag;
+typedef CTag	CEmuleTag;
+d137 24
+a160 1
+typedef CTag	CServerTag;
+@
+
+
+1.21
+log
+@Updated tag types; Removed unused methods;
+Removed all specific templates -- one class will keep everything.
+@
+text
+@d106 1
+a106 1
+	byte			GetSpecialTag() const { return m_byteTagID; }
+a108 1
+	void			SetTagName(LPCTSTR strName) { m_strName = strName; }
+d111 7
+a117 10
+	byte			GetType() const { return m_byteTagType; }
+	void			Clear()
+	{
+		m_byteTagType = TAGTYPE_NONE;
+		m_strName.Empty();
+		m_strValue.Empty();
+		m_dwValue = 0;
+		m_fltValue = 0.0f;
+//		m_byteTagID = 0;
+	}
+d123 1
+a123 1
+	float			m_fltValue;
+@
+
+
+1.20
+log
+@some changes to make code looking better
+@
+text
+@d59 1
+a59 1
+	bool			m_bFromPF;		//eklmn(khaos)
+d66 28
+a93 8
+enum _EnumTagTypes
+{
+	TAGTYPE_NONE	= 0,
+	TAGTYPE_STRING	= 2,
+	TAGTYPE_INT		= 3,
+	TAGTYPE_FLOAT	= 4,
+};
+typedef EnumDomain<_EnumTagTypes>	EnumTagTypes;
+a94 1
+template <typename TagType>
+d98 3
+a100 3
+					CTag(TagType eSpecial, uint32 iValue);
+					CTag(TagType eSpecial, LPCTSTR strValue);
+					CTag(LPCTSTR strName, uint32 iValue);
+d103 1
+a103 2
+					CTag(FILE *pFile);
+	bool			WriteToFile(CFile &file); //used for CMemFiles
+d106 1
+a106 1
+	TagType			GetSpecialTag() const { return m_eSpecialTag; }
+d110 3
+a112 3
+	uint32			GetIntValue() const { return m_iValue; }
+	void			SetIntValue(uint32 iValue) { m_iValue = iValue; }
+	EnumTagTypes	GetType() const { return m_eTagType; }
+d115 1
+a115 1
+		m_eTagType = TAGTYPE_NONE;
+d118 1
+a118 1
+		m_iValue = 0;
+d120 1
+a120 1
+//		m_eSpecialTag = TAGTYPE_NONE;
+a123 1
+	EnumTagTypes	m_eTagType;
+d126 1
+a126 1
+	uint32			m_iValue;
+d128 2
+a129 1
+	TagType			m_eSpecialTag;
+d132 5
+a136 28
+typedef CTag<EnumClientTags>	CClientTag;
+
+typedef CTag<EnumFriendTags>	CFriendTag;
+
+typedef CTag<EnumEmuleTags>		CEmuleTag;
+
+typedef CTag<EnumFileTags>		CFileTag;
+
+//	MOREVIT - This little kludge is necessary because of compiler error C3206:
+//		VS2003 does not allow a template class to be used directly as a template parameter for another template
+typedef CTag<EnumServerTags>	_CServerTag;
+
+class CServerTag : public _CServerTag
+{
+public:
+					CServerTag(EnumServerTags eSpecial, uint32 iValue)
+						: _CServerTag(eSpecial,iValue) {};
+					CServerTag(EnumServerTags eSpecial, LPCTSTR strValue)
+						: _CServerTag(eSpecial,strValue) {};
+					CServerTag(LPCTSTR strName, uint32 iValue)
+						: _CServerTag(strName,iValue) {};
+					CServerTag(LPCTSTR strName, LPCTSTR strValue)
+						: _CServerTag(strName,strValue) {};
+					CServerTag(CFile& file)
+						: _CServerTag(file) {};
+					CServerTag(FILE *pFile)
+						: _CServerTag(pFile) {};
+};@
+
+
+1.19
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d36 1
+a36 1
+				Packet(EnumOpcodes eOpcode, uint32 iSize, EnumProtocols eProtocol, bool bFromPF, byte byteFilePriority);
+@
+
+
+1.18
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d34 1
+a34 1
+					Packet(char* pPacketPart,uint32 nSize,bool bLast, bool bFromPF = true); // only used for split packets!
+d36 1
+d46 1
+d56 1
+@
+
+
+1.17
+log
+@formating
+@
+text
+@d35 1
+a35 1
+					Packet(EnumOpcodes eOpcode,int32 iSize = 0,EnumProtocols eProtocol = OP_EDONKEYPROT,bool bFromPF = true);
+d89 2
+a90 2
+	int32			GetIntValue() const { return m_iValue; }
+	void			SetIntValue(int32 iValue) { m_iValue = iValue; }
+d106 1
+a106 1
+	int32			m_iValue;
+@
+
+
+1.16
+log
+@Formatting, comments, and name changes.
+@
+text
+@d44 1
+a44 1
+	bool			IsFromPF()			{return m_bFromPF;}	//khaos stasts
+d81 1
+a81 1
+					CTag(FILE *pFile);	
+d85 1
+a85 1
+	TagType			GetSpecialTag() const { return m_eSpecialTag; } 
+d105 1
+a105 1
+	CString			m_strValue;	
+d137 1
+a137 1
+						: _CServerTag(pFile) {};	
+@
+
+
+1.15
+log
+@1) compession support within communicatio client<->server
+2) extended UDP file search support
+@
+text
+@d65 1
+d92 9
+@
+
+
+1.14
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d46 1
+a46 1
+	bool			UnpackPacket();
+@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@a17 1
+
+a25 3
+
+
+
+d32 2
+a33 2
+					Packet(PacketHeader_Struct* pHeaderStruct/*char* header*/); // only used for receiving packets
+					Packet(CMemFile* datafile,EnumProtocols eProtocol = OP_EDONKEYPROT);
+d35 1
+a35 1
+					Packet(EnumOpcodes in_opcode,int32 in_size,EnumProtocols eProtocol = OP_EDONKEYPROT,bool bFromPF = true);
+d41 1
+a41 1
+	uint32			GetRealPacketSize()		{return m_dwSize+6;}
+@
+
+
+1.12
+log
+@new statistic (khaos based)
+@
+text
+@d32 2
+a33 1
+class Packet {
+d35 22
+a56 20
+	Packet(uint8 protocol = OP_EDONKEYPROT);
+	Packet(char* header); // only used for receiving packets
+	Packet(CMemFile* datafile,uint8 protocol = OP_EDONKEYPROT);
+	Packet(char* pPacketPart,uint32 nSize,bool bLast, bool bFromPF = true); // only used for splitted packets!
+	Packet(int8 in_opcode,int32 in_size,uint8 protocol = OP_EDONKEYPROT,bool bFromPF = true);
+	~Packet();
+	char*	GetHeader();
+	char*	GetUDPHeader();
+	char*	GetPacket();
+	char*	DetachPacket();
+	uint32	GetRealPacketSize()		{return size+6;}
+	bool	IsSplitted()			{return m_bSplitted;}
+	bool	IsLastSplitted()		{return m_bLastSplitted;}
+	bool		IsFromPF()			{return m_bFromPF;}	//khaos stasts
+	void	PackPacket();
+	bool	UnPackPacket();
+	char*	pBuffer;
+	uint32	size;
+	uint8	opcode;
+	uint8	prot;
+d58 14
+a71 7
+	bool	m_bSplitted;
+	bool	m_bLastSplitted;
+	bool	m_bFromPF;		//eklmn(khaos)
+	char	head[6];
+	char*	completebuffer;
+	char*	tempbuffer;
+	bool	m_bPacked;
+d73 1
+d75 3
+a77 1
+class CTag {
+d79 17
+a95 16
+	CTag(LPCTSTR name, uint32 intvalue);
+	CTag(int8 special, uint32 intvalue);
+	CTag(LPCTSTR name, LPCTSTR strvalue);
+	CTag(int8 special, LPCTSTR strvalue);
+	CTag(CFile& in_data);
+	CTag(FILE* in_data);	
+	bool WriteTagToFile(CFile& file); //used for CMemfiles
+	bool WriteTagToFile(FILE* file);
+
+	int8	GetSpecialTag() const { return specialtag; } 
+	CString GetStringValue() const { return stringvalue; }
+	CString GetTagName() const { return tagname; }
+	void SetTagName(LPCTSTR n) { tagname = n; }
+	int32	GetIntValue() const { return intvalue; }
+	void	SetIntValue(int32 i) { intvalue = i; }
+	int8	GetType() const { return type; }
+d97 35
+a131 6
+	int8	type;
+	CString	tagname;
+	CString	stringvalue;	
+	int32	intvalue;
+	float	floatvalue;
+	int8	specialtag;
+@
+
+
+1.11
+log
+@simplified...
+@
+text
+@a35 1
+	Packet(char* pPacketPart,uint32 nSize,bool bLast); // only used for splitted packets!
+d37 2
+a38 1
+	Packet(int8 in_opcode,int32 in_size,uint8 protocol = OP_EDONKEYPROT);
+d47 1
+d57 1
+@
+
+
+1.10
+log
+@char * to CString conversion
+@
+text
+@d69 1
+a69 3
+	CTag(FILE* in_data);
+	CTag(const CTag&);
+	~CTag();	
+a86 3
+private:
+//forbid this operations [TwoBottle Mod]
+	CTag& operator=(const CTag&);
+@
+
+
+1.9
+log
+@code cleanup
+@
+text
+@d64 1
+a64 1
+	CTag(const char* name,uint32 intvalue);
+d66 2
+a67 2
+	CTag(const char* name,const char* strvalue);
+	CTag(int8 special, const char* strvalue);
+d75 8
+d84 4
+a87 4
+	char*	tagname;
+	char*	stringvalue;	
+	int32    intvalue;
+	float    floatvalue;
+@
+
+
+1.8
+log
+@code cleanup
+@
+text
+@d72 1
+a72 1
+	bool WriteTagToFile(CFile* file); //used for CMemfiles
+@
+
+
+1.7
+log
+@removed Tag_Struct usage from sources
+@
+text
+@d68 1
+a68 1
+	CTag(CFile* in_data);
+@
+
+
+1.6
+log
+@converted to standard copy constructor
+@
+text
+@a60 11
+struct Tag_Struct{
+	int8	type;
+	char*	tagname;
+	char*	stringvalue;
+	union{
+		int32    intvalue;
+		float    floatvalue;
+	};
+	int8	specialtag;
+	
+};
+d74 7
+a80 1
+	Tag_Struct* tag;
+@
+
+
+1.5
+log
+@changes reverted
+@
+text
+@a78 1
+	CTag(Tag_Struct* in_tag);
+d81 2
+a82 2
+	~CTag();
+	CTag* CloneTag()	{return new CTag(tag);};
+a87 1
+	CTag(const CTag&);
+@
+
+
+1.4
+log
+@removed Tag_Struct usage from sources
+@
+text
+@d61 11
+d79 1
+a81 1
+	CTag(const CTag* in_tag);
+d83 1
+a83 1
+	CTag* CloneTag() const	{return new CTag(this);} ;
+d86 1
+a86 9
+
+	
+//moved from Tag_Struct  [TwoBottle Mod]
+	int8	type;
+	char*	tagname;
+	char*	stringvalue;	
+	int32    intvalue;
+	float    floatvalue;	
+	int8	specialtag;
+@
+
+
+1.3
+log
+@code cleanup
+@
+text
+@a60 11
+struct Tag_Struct{
+	int8	type;
+	char*	tagname;
+	char*	stringvalue;
+	union{
+		int32    intvalue;
+		float    floatvalue;
+	};
+	int8	specialtag;
+	
+};
+a67 1
+	CTag(Tag_Struct* in_tag);
+d70 1
+d72 1
+a72 1
+	CTag* CloneTag()	{return new CTag(tag);};
+d75 9
+a83 1
+	Tag_Struct* tag;
+@
+
+
+1.2
+log
+@fixes by BavarianSnail/obaldin/kuchin. see changelog+
+@
+text
+@d75 1
+a75 1
+	CTag(char* name,uint32 intvalue);
+d77 2
+a78 2
+	CTag(char* name,char* strvalue);
+	CTag(int8 special, char* strvalue);
+d87 4
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d65 4
+a68 1
+	int32	intvalue;
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

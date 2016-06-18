@@ -1,0 +1,385 @@
+head	1.2;
+access;
+symbols
+	PublicRelease_1_2e:1.2
+	Interim_Release_1-2e_RC1:1.2
+	PublicRelease_1_2d:1.2
+	Interim_Release_1-2d_RC1:1.2
+	Interim_Release_1-2d_beta1:1.2
+	PublicRelease_1_2c:1.2
+	Interim_Release_1-2c_RC1:1.2
+	Interim_Release_1-2c_beta1:1.2
+	PublicRelease_1_2b:1.2
+	Interim_Release_1-2b_RC1:1.2
+	PublicRelease_1_2a:1.2
+	Interim_Release_1-2a_RC1:1.2
+	Interim_Release_1-2a_beta2:1.2
+	Interim_Release_1-2a_beta1:1.2
+	PublicRelease_1_2:1.2
+	Interim_Release_1-2_RC1:1.2
+	Interim_Release_1-2_beta1:1.2
+	PublicRelease_1_1g:1.2
+	Interim_Release_1-1g_RC3:1.2
+	Interim_Release_1-1g_RC2:1.2
+	Interim_Release_1-1g_RC1:1.2
+	Interim_Release_1-1g_beta2:1.2
+	Interim_Release_1-1g_beta1:1.2
+	PublicRelease_1_1f:1.2
+	Interim_Release_1-1f_RC1:1.2
+	PublicRelease_1_1e:1.1
+	Interim_Release_1-1e_RC2:1.1
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1
+	PublicRelease_1_1d:1.1
+	Interim_Release_1-1d_RC1:1.1
+	PublicRelease_1_1c:1.1
+	Interim_Release_1-1c_RC1:1.1
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1
+	PublicRelease_1_1b:1.1
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	Interim_Release_1n_beta2:1.1
+	Interim_Release_1n_beta1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2005.07.13.04.09.16;	author aw3;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.07.05;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.53.59;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Code cleanup.
+@
+text
+@//***************************************************************************
+//
+// AUTHOR:  James White (feel free to remove or otherwise mangle any part)
+//
+// DESCRIPTION: This class is alarmingly similar to the CColourPicker control
+//	created by Chris Maunder of www.codeproject.com. It is so as it was blatantly
+//	copied from that class and is entirely dependant on his other great work
+//  in CColourPopup. I was hoping for (cough.. gag..) a more Microsoft look
+//  and I think this is pretty close. Hope you like it.
+//
+// ORIGINAL: http://www.codeproject.com/miscctrl/colour_picker.asp
+//
+//***************************************************************************
+#pragma once
+
+#include "ColourPopup.h"
+
+void AFXAPI DDX_ColorButton(CDataExchange *pDX, int nIDC, COLORREF& crColour);
+
+class CColorButton : public CButton
+{
+public:
+	DECLARE_DYNCREATE(CColorButton);
+
+	//***********************************************************************
+	// Name:		CColorButton
+	// Description:	Default constructor.
+	// Parameters:	None.
+	// Return:		None.	
+	// Notes:		None.
+	//***********************************************************************
+	CColorButton(void);
+
+	//***********************************************************************
+	// Name:		CColorButton
+	// Description:	Destructor.
+	// Parameters:	None.
+	// Return:		None.		
+	// Notes:		None.
+	//***********************************************************************
+	virtual ~CColorButton(void);
+
+	//***********************************************************************
+	//**                        Property Accessors                         **
+	//***********************************************************************	
+	__declspec(property(get=GetColor,put=SetColor))						COLORREF	Color;
+	__declspec(property(get=GetDefaultColor,put=SetDefaultColor))		COLORREF	DefaultColor;
+	__declspec(property(get=GetTrackSelection,put=SetTrackSelection))	BOOL		TrackSelection;
+	__declspec(property(put=SetCustomText))								LPCTSTR		CustomText;
+	__declspec(property(put=SetDefaultText))							LPCTSTR		DefaultText;
+
+	//***********************************************************************
+	// Name:		GetColor
+	// Description:	Returns the current color selected in the control.
+	// Parameters:	void
+	// Return:		COLORREF 
+	// Notes:		None.
+	//***********************************************************************
+	COLORREF GetColor(void) const;
+
+	//***********************************************************************
+	// Name:		SetColor
+	// Description:	Sets the current color selected in the control.
+	// Parameters:	COLORREF Color
+	// Return:		None. 
+	// Notes:		None.
+	//***********************************************************************
+	void SetColor(COLORREF Color);
+
+
+	//***********************************************************************
+	// Name:		GetDefaultColor
+	// Description:	Returns the color associated with the 'default' selection.
+	// Parameters:	void
+	// Return:		COLORREF 
+	// Notes:		None.
+	//***********************************************************************
+	COLORREF GetDefaultColor(void) const;
+
+	//***********************************************************************
+	// Name:		SetDefaultColor
+	// Description:	Sets the color associated with the 'default' selection.
+	//				The default value is COLOR_APPWORKSPACE.
+	// Parameters:	COLORREF Color
+	// Return:		None. 
+	// Notes:		None.
+	//***********************************************************************
+	void SetDefaultColor(COLORREF Color);
+
+	//***********************************************************************
+	// Name:		SetCustomText
+	// Description:	Sets the text to display in the 'Custom' selection of the
+	//				CColourPicker control, the default text is "More Colors...".
+	// Parameters:	LPCTSTR tszText
+	// Return:		None. 
+	// Notes:		None.
+	//***********************************************************************
+	void SetCustomText(LPCTSTR tszText);
+
+	//***********************************************************************
+	// Name:		SetDefaultText
+	// Description:	Sets the text to display in the 'Default' selection of the
+	//				CColourPicker control, the default text is "Automatic". If
+	//				this value is set to "", the 'Default' selection will not
+	//				be shown.
+	// Parameters:	LPCTSTR tszText
+	// Return:		None. 
+	// Notes:		None.
+	//***********************************************************************
+	void SetDefaultText(LPCTSTR tszText);
+
+	//***********************************************************************
+	// Name:		SetTrackSelection
+	// Description:	Turns on/off the 'Track Selection' option of the control
+	//				which shows the colors during the process of selection.
+	// Parameters:	BOOL bTrack
+	// Return:		None. 
+	// Notes:		None.
+	//***********************************************************************
+	void SetTrackSelection(BOOL bTrack);
+
+	//***********************************************************************
+	// Name:		GetTrackSelection
+	// Description:	Returns the state of the 'Track Selection' option.
+	// Parameters:	void
+	// Return:		BOOL 
+	// Notes:		None.
+	//***********************************************************************
+	BOOL GetTrackSelection(void) const;
+
+	//{{AFX_VIRTUAL(CColorButton)
+    public:
+    virtual void DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct);
+    protected:
+    virtual void PreSubclassWindow();
+    //}}AFX_VIRTUAL
+
+protected:
+	//{{AFX_MSG(CColorButton)
+    afx_msg BOOL OnClicked();
+    afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+    //}}AFX_MSG
+	afx_msg LONG OnSelEndOK(UINT lParam, LONG wParam);
+    afx_msg LONG OnSelEndCancel(UINT lParam, LONG wParam);
+    afx_msg LONG OnSelChange(UINT lParam, LONG wParam);
+
+	//***********************************************************************
+	// Name:		DrawArrow
+	// Description:	None.
+	// Parameters:	CDC* pDC
+	//				RECT* pRect
+	//				int iDirection
+	//					0 - Down
+	//					1 - Up
+	//					2 - Left
+	//					3 - Right
+	// Return:		static None. 
+	// Notes:		None.
+	//***********************************************************************
+	static void DrawArrow(CDC* pDC, 
+						  RECT* pRect, 
+						  int iDirection = 0,
+						  COLORREF clrArrow = RGB(0,0,0));
+
+
+	DECLARE_MESSAGE_MAP()
+
+	COLORREF m_Color;
+	COLORREF m_DefaultColor;
+	CString m_strDefaultText;
+	CString m_strCustomText;
+	BOOL	m_bPopupActive;
+	BOOL	m_bTrackSelection;
+
+private:
+	typedef CButton _Inherited;
+};
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a13 2
+#ifndef COLORBUTTON_INCLUDED
+#define COLORBUTTON_INCLUDED
+a15 1
+#ifndef COLOURPOPUP_INCLUDED
+a16 1
+#endif//COLOURPOPUP_INCLUDED
+a175 1
+
+a176 1
+
+a177 3
+
+#endif //!COLORBUTTON_INCLUDED
+
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

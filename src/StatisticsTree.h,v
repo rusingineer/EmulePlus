@@ -1,0 +1,374 @@
+head	1.8;
+access;
+symbols
+	PublicRelease_1_2e:1.8
+	Interim_Release_1-2e_RC1:1.8
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.8
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.6
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.5
+	PublicRelease_1_1g:1.5
+	Interim_Release_1-1g_RC3:1.5
+	Interim_Release_1-1g_RC2:1.5
+	Interim_Release_1-1g_RC1:1.5
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.5
+	Interim_Release_1-1f_RC1:1.5
+	PublicRelease_1_1e:1.5
+	Interim_Release_1-1e_RC2:1.5
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.5
+	Interim_Release_1-1c_beta1:1.5
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.5
+	PublicRelease_1_1:1.5
+	Interim_Release_1-1_beta1:1.5
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	Interim_Release_1n_beta1:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.2
+	Interim_Release_1h_beta1_now:1.2
+	Interim_Release_1h_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.8
+date	2008.03.03.05.22.35;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2008.01.24.09.52.38;	author eklmn;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.04.23.03.44.21;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.23.03.23.20;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.09.16.21.59;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.06.13.27.57;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.13.15.53.53;	author eklmn;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.10.04.20.07;	author eklmn;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Removed namespace usage.
+@
+text
+@/*	CStatisticsTree Class Header File by Khaos
+	Copyright (C) 2003
+
+	This program is free software; you can redistribute it and/or
+	modify it under the terms of the GNU General Public License
+	as published by the Free Software Foundation; either
+	version 2 of the License, or (at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+	This file is a part of the KX mod, and more
+	specifically, it is a part of my statistics
+	add-on.
+
+	The purpose of deriving a custom class from CTreeCtrl
+	was to provide another level of customization and control.
+	This allows us to easily code complicated parsing features
+	and a context menu.
+*/
+#pragma once
+
+//	Items for stat's tree context menu
+#define MP_STATTREE_RESET		10950
+#define MP_STATTREE_RESTORE		10951
+#define MP_STATTREE_COPYSEL		10952
+#define MP_STATTREE_COPYVIS		10953
+#define MP_STATTREE_COPYALL		10954
+#define MP_STATTREE_HTMLCOPYSEL	10955
+#define MP_STATTREE_HTMLCOPYVIS	10956
+#define MP_STATTREE_HTMLCOPYALL	10957
+#define MP_STATTREE_HTMLEXPORT	10958
+#define MP_STATTREE_HTMLEXPVIS	10959
+#define MP_STATTREE_EXPANDALL	10960
+#define MP_STATTREE_COLLAPSEALL	10961
+#define MP_STATTREE_EXPANDMAIN	10962
+#define MP_STATTREE_RESET_ALL	10963
+//				For GetItemText overloaded function of CStatisticsTree
+#define	GET_TITLE				0
+#define	GET_VALUE				1
+
+// CStatisticsTree Tree Control
+class CStatisticsTree : public CTreeCtrl
+{
+	DECLARE_DYNAMIC(CStatisticsTree)
+public:
+	CStatisticsTree();
+	~CStatisticsTree();
+	virtual BOOL	OnCommand(WPARAM wParam, LPARAM lParam);
+
+protected:
+	DECLARE_MESSAGE_MAP()
+	afx_msg void	OnLButtonUp(UINT nFlags, CPoint point);
+	afx_msg void	OnRButtonDown(UINT nFlags, CPoint point);
+	afx_msg void	OnContextMenu(CWnd* pWnd, CPoint point);
+	afx_msg void	OnItemExpanded(NMHDR* pNMHDR, LRESULT* pResult);
+
+public:
+	void			Init();
+	void			ExportHTML(bool onlyvisible=false);
+	bool			CopyHTML(int copyMode = MP_STATTREE_HTMLCOPYSEL);
+	CString			GetHTML(bool onlyVisible = true, HTREEITEM theItem = NULL, int theItemLevel = 0, bool firstItem = true);
+	CString			GetHTMLForExport(bool onlyVisible = true, HTREEITEM theItem = NULL, int theItemLevel = 0, bool firstItem = true);
+	bool			CopyText(int copyMode = MP_STATTREE_COPYSEL);
+	CString			GetText(bool onlyVisible = true, HTREEITEM theItem = NULL, int theItemLevel = 0, bool firstItem = true);
+	CString			GetItemText(HTREEITEM theItem);
+	CString			GetItemText(HTREEITEM theItem, int getPart);
+	bool			IsBold(HTREEITEM theItem);
+	bool			IsExpanded(HTREEITEM theItem);
+	bool			CheckState(HTREEITEM hItem, UINT state);
+	void			DoMenu();
+	void			DoMenu(CPoint doWhere);
+	void			DoMenu(CPoint doWhere, UINT nFlags);
+	void			ExpandAll(bool onlyBold = false, HTREEITEM theItem = NULL);
+	void			CollapseAll(HTREEITEM theItem = NULL);
+	void			DeleteChildItems(HTREEITEM parentItem);
+	CString&		GetExpandedMask(HTREEITEM theItem = NULL);
+	int				ApplyExpandedMask(const CString &strMask, HTREEITEM theItem = NULL, int theStringIndex = 0);
+private:
+	CString			m_strExpandedMask;
+	bool			m_bExpandingAll;
+};
+@
+
+
+1.7
+log
+@optimize the tree mask creation
+@
+text
+@a28 2
+using namespace std;
+
+@
+
+
+1.6
+log
+@Improve string processing; Reduced H-file dependency;
+Don't keep menu object create local one (like in other places); Formatting.
+@
+text
+@d85 1
+a85 1
+	CString			GetExpandedMask(HTREEITEM theItem = NULL);
+d88 1
+@
+
+
+1.5
+log
+@Improved context menu creation
+@
+text
+@d27 1
+a28 4
+#pragma once
+#include "afxdlgs.h"
+#include "otherfunctions.h"
+#include "titlemenu.h"
+d31 11
+a41 11
+// -khaos--+++> Items for our stat's tree context menu.
+#define	MP_STATTREE_RESET		10950
+#define	MP_STATTREE_RESTORE		10951
+#define	MP_STATTREE_COPYSEL		10952
+#define	MP_STATTREE_COPYVIS		10953
+#define	MP_STATTREE_COPYALL		10954
+#define	MP_STATTREE_HTMLCOPYSEL	10955
+#define	MP_STATTREE_HTMLCOPYVIS	10956
+#define	MP_STATTREE_HTMLCOPYALL	10957
+#define	MP_STATTREE_HTMLEXPORT	10958
+#define	MP_STATTREE_HTMLEXPVIS	10959
+d43 1
+a43 1
+#define MP_STATTREE_COLLAPSEALL 10961
+d45 1
+a45 1
+#define	MP_STATTREE_RESET_ALL	10963
+a48 1
+// <-----khaos--
+d57 1
+a57 1
+	virtual		BOOL	OnCommand( WPARAM wParam, LPARAM lParam );
+d61 4
+a64 4
+	afx_msg		void	OnLButtonUp( UINT nFlags, CPoint point );
+	afx_msg		void	OnRButtonDown( UINT nFlags, CPoint point );
+	afx_msg		void	OnContextMenu( CWnd* pWnd, CPoint point );
+	afx_msg		void	OnItemExpanded( NMHDR* pNMHDR, LRESULT* pResult );
+d67 20
+a86 20
+	void				Init();
+    void				ExportHTML( bool onlyvisible=false );
+	bool				CopyHTML( int copyMode = MP_STATTREE_HTMLCOPYSEL );
+	CString				GetHTML( bool onlyVisible = true, HTREEITEM theItem = NULL, int theItemLevel = 0, bool firstItem = true );
+	CString				GetHTMLForExport( bool onlyVisible = true, HTREEITEM theItem = NULL, int theItemLevel = 0, bool firstItem = true );
+	bool				CopyText( int copyMode = MP_STATTREE_COPYSEL );
+	CString				GetText( bool onlyVisible = true, HTREEITEM theItem = NULL, int theItemLevel = 0, bool firstItem = true );
+	CString				GetItemText( HTREEITEM theItem );
+	CString				GetItemText( HTREEITEM theItem, int getPart );
+	bool				IsBold( HTREEITEM theItem );
+	bool				IsExpanded( HTREEITEM theItem );
+	bool				CheckState( HTREEITEM hItem, UINT state );
+	void				DoMenu();
+	void				DoMenu(CPoint doWhere);
+	void				DoMenu(CPoint doWhere, UINT nFlags);
+	void				ExpandAll(bool onlyBold = false, HTREEITEM theItem = NULL);
+	void				CollapseAll(HTREEITEM theItem = NULL);
+	void 			DeleteChildItems (HTREEITEM parentItem);
+	CString				GetExpandedMask(HTREEITEM theItem = NULL);
+	int					ApplyExpandedMask(CString theMask, HTREEITEM theItem = NULL, int theStringIndex = 0);
+d88 1
+a88 2
+	CTitleMenu			mnuContext;
+	bool				m_bExpandingAll;
+@
+
+
+1.4
+log
+@Fixed start paused files by category (when option set or by menu)
+Removed Reset All Statistics (agreed with Eklmn that has no use and it brings problems)
+Removed Mobile Mule profile
+Localized 'All' tab when language changed
+@
+text
+@a92 1
+	CMenu				mnuHTML;
+@
+
+
+1.3
+log
+@More updates.
+@
+text
+@a92 1
+	CMenu				mnuReset;
+@
+
+
+1.2
+log
+@speed optimization of StatsTree (don't create tool tip for tree)
+@
+text
+@d48 1
+d93 1
+d96 1
+a96 1
+};@
+
+
+1.1
+log
+@new stattistic (khaos based)
+@
+text
+@d87 1
+@
+

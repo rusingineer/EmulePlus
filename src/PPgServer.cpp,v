@@ -1,0 +1,1532 @@
+head	1.29;
+access;
+symbols
+	PublicRelease_1_2e:1.29
+	Interim_Release_1-2e_RC1:1.29
+	PublicRelease_1_2d:1.29
+	Interim_Release_1-2d_RC1:1.29
+	Interim_Release_1-2d_beta1:1.29
+	PublicRelease_1_2c:1.28
+	Interim_Release_1-2c_RC1:1.28
+	Interim_Release_1-2c_beta1:1.27
+	PublicRelease_1_2b:1.27
+	Interim_Release_1-2b_RC1:1.27
+	PublicRelease_1_2a:1.27
+	Interim_Release_1-2a_RC1:1.27
+	Interim_Release_1-2a_beta2:1.25
+	Interim_Release_1-2a_beta1:1.25
+	PublicRelease_1_2:1.24
+	Interim_Release_1-2_RC1:1.24
+	Interim_Release_1-2_beta1:1.24
+	PublicRelease_1_1g:1.24
+	Interim_Release_1-1g_RC3:1.24
+	Interim_Release_1-1g_RC2:1.24
+	Interim_Release_1-1g_RC1:1.24
+	Interim_Release_1-1g_beta2:1.22
+	Interim_Release_1-1g_beta1:1.20
+	PublicRelease_1_1f:1.20
+	Interim_Release_1-1f_RC1:1.20
+	PublicRelease_1_1e:1.20
+	Interim_Release_1-1e_RC2:1.20
+	Interim_Release_1-1e_RC1:1.20
+	Interim_Release_1-1e_beta1:1.20
+	PublicRelease_1_1d:1.20
+	Interim_Release_1-1d_RC1:1.20
+	PublicRelease_1_1c:1.20
+	Interim_Release_1-1c_RC1:1.20
+	Interim_Release_1-1c_beta2:1.20
+	Interim_Release_1-1c_beta1:1.20
+	PublicRelease_1_1b:1.20
+	Interim_Release_1-1b_RC1:1.20
+	PublicRelease_1_1a:1.20
+	Interim_Release_1-1a_RC2:1.20
+	Interim_Release_1-1a_RC1:1.20
+	Interim_Release_1-1a_beta2:1.20
+	Interim_Release_1-1a_beta1:1.20
+	PublicRelease_1_1:1.20
+	Interim_Release_1-1_beta1:1.20
+	PublicRelease_1o:1.20
+	Interim_Release_1o_RC1:1.20
+	Interim_Release_1o_beta1:1.20
+	PublicRelease_1n:1.20
+	Interim_Release_1n_RC2:1.20
+	Interim_Release_1n_RC1:1.20
+	Interim_Release_1n_beta2:1.20
+	Interim_Release_1n_beta1:1.20
+	PublicRelease_1m:1.20
+	Interim_Release_1m_beta1:1.20
+	PublicRelease_1l:1.19
+	Interim_Release_1l_RC3:1.19
+	Interim_Release_1l_RC2:1.19
+	Interim_Release_1l_RC1:1.19
+	Interim_Release_1l_beta2:1.18
+	Interim_Release_1l_beta1:1.18
+	PublicRelease_1k:1.17
+	Interim_Release_1k_RC4:1.17
+	Interim_1k_RC3:1.17
+	Interim_1k_RC2:1.17
+	Interim_Release_1k_RC1:1.16
+	Interim_Release_1k_beta5:1.16
+	Intrerim_Release_1k_beta4:1.16
+	Interim_Release_1k_beta1:1.16
+	PublicRelease_1j:1.16
+	Interim_Release_1J_RC3:1.16
+	Interim_Release_1j_RC3:1.16
+	Interim_Release_1j_RC2:1.16
+	Interim_Release_1j_RC1:1.16
+	Interim_Release_1j_beta2:1.16
+	Interim_Release_1j_beta1:1.16
+	PublicRelease_1i:1.15
+	Interim_Release_1i_RC6:1.15
+	Interim_Release_1i_RC3:1.15
+	Interim_Release_1i_RC2:1.15
+	Interim_Release_1i_RC1:1.15
+	Interim_Release_1i_beta3:1.15
+	Interim_Release_1i_beta2:1.15
+	Interim_Release_1i_beta1:1.15
+	PublicRelease_1h:1.13
+	Interim_Release_1h_rc2:1.13
+	Interim_Release_1h_RC1:1.13
+	Interim_Release_1h_beta2:1.13
+	Interim_Release_1h_beta1_now:1.13
+	Interim_Release_1h_beta1:1.13
+	PublicRelease_1g:1.12
+	Interim_Release_1g_RC6_Final:1.12
+	Interim_Release_1g_RC6:1.12
+	Interim_Release_1g_RC5:1.12
+	Interim_Release_1g_RC4:1.12
+	Interim_Release_1g_RC3:1.12
+	Interim_Release_1g_beta2:1.8
+	Interim_Release_1g_beta1:1.8
+	Interim_Release_1f_RC4:1.7
+	Interim_Release_1f_RC3:1.7
+	Interim_Release_1f_RC2:1.7
+	Interim_Release_1f_RC:1.7
+	Interim_Release_1f_beta2:1.7
+	Interim_Release_1f_beta1:1.7
+	PublicRelease_1e:1.7
+	Interim_Release_1e_RC2:1.7
+	Interim_Release_1e_RC:1.7
+	Interim_Release_1e_beta3:1.7
+	Interim_Release_1e_beta2:1.7
+	Interim_Release_1e_beta2_before_kuchin:1.7
+	Interim_Release_1e_beta1:1.7
+	PublicRelease_1c:1.7
+	featurestest:1.7.0.4
+	Interim_Release_1c_RC:1.7
+	Interim_Release_1c_beta2:1.7
+	Interim_Release_1c_beta1:1.7
+	threaded_downloadqueue:1.7.0.2
+	PublicRelease_1b:1.6
+	Interim_Release_1b_beta2:1.6
+	Interim_Release_1b_beta1:1.6
+	proxydeadlake:1.6.0.4
+	PublicRelease_1a:1.6
+	Interim_Release_1a_beta2:1.6
+	BerkeleyDb:1.6.0.2
+	Interim_Release_1a_beta1:1.6
+	PublicRelease_1:1.6
+	goldfish:1.6
+	eMulePlus_1_RC2:1.6
+	eMulePlus_26b_1RC1:1.6
+	PreRelease_26b_i0e:1.6
+	before_26d_merge:1.5
+	Interim_Release_26b_i0d:1.4
+	Interim_Release_26b_i0c:1.4
+	Interim_Release_26b_i0b:1.4
+	Interim_Release_26b_i0a:1.4
+	systraydlg:1.3.0.4
+	plus26based:1.3.0.2
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.29
+date	2008.02.07.05.16.55;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2007.06.04.00.54.48;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2006.09.17.13.50.37;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2006.06.24.02.40.21;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2006.03.25.12.15.51;	author kush_eplus;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.11.27.22.11.48;	author eklmn;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.11.07.02.53.31;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.08.29.03.04.40;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.06.19.05.34.24;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.05.25.18.18.44;	author dongato;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.04.20.23.49.36;	author dropf;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.03.31.22.26.56;	author dropf;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.12.18.21.52.47;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.04.10.23.05;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.08.02.11.37.45;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.07.01.05.31.39;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.06.21.21.54.00;	author netwolf1;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.20.00.01.10;	author netwolf1;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.06.14.18.08.22;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.01.10.08.44;	author partyckip;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.12.16.53.02;	author cax2;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.17.19.17.11;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.10.13.15.40;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.02.13.27.42;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.02.03.39.55;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.22;	author cax2;	state Exp;
+branches;
+next	1.1.4.2;
+
+1.1.4.2
+date	2003.02.02.02.36.27;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.29
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings; Formatting.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2006 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgServer.h"
+#include "Inputbox.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgServer, CPropertyPage)
+CPPgServer::CPPgServer()
+	: CPropertyPage(CPPgServer::IDD)
+	, m_bRemoveDead(FALSE)
+	, m_bAutoServer(FALSE)
+	, m_bSmartId(FALSE)
+	, m_bAddSrvFromServer(FALSE)
+	, m_bAddSrvFromClients(FALSE)
+	, m_bAutoConnect(FALSE)
+	, m_bAutoConnectStatic(FALSE)
+	, m_bReconnect(FALSE)
+	, m_bScoreSystem(FALSE)
+	, m_bManualSrvHighPriority(FALSE)
+	, m_bRestartWaiting(FALSE)
+	, m_bUseAuxPort(FALSE)
+{
+}
+
+CPPgServer::~CPPgServer()
+{
+}
+
+void CPPgServer::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Check(pDX, IDC_REMOVEDEAD, m_bRemoveDead);
+	DDX_Check(pDX, IDC_AUTOSERVER, m_bAutoServer);
+	DDX_Check(pDX, IDC_SMARTIDCHECK, m_bSmartId);
+	DDX_Check(pDX, IDC_UPDATESERVERCONNECT, m_bAddSrvFromServer);
+	DDX_Check(pDX, IDC_ADDSRVFROMCLIENTS, m_bAddSrvFromClients);
+	DDX_Check(pDX, IDC_RESTARTWAITING, m_bRestartWaiting);
+	DDX_Check(pDX, IDC_AUTOCONNECT, m_bAutoConnect);
+	DDX_Check(pDX, IDC_AUTOCONNECTSTATICONLY, m_bAutoConnectStatic);
+	DDX_Check(pDX, IDC_RECONN, m_bReconnect);
+	DDX_Check(pDX, IDC_SCORE, m_bScoreSystem);
+	DDX_Check(pDX, IDC_MANUALSERVERHIGHPRIO, m_bManualSrvHighPriority);
+	DDX_Text(pDX, IDC_SRVCONTIMEOUT, m_strSrvConnectTimeout);
+	DDX_Text(pDX, IDC_SERVERKEEPALIVE, m_strSrvKeepAliveTimeout);
+	DDX_Text(pDX, IDC_SERVERRETRIES, m_strServerRetries);
+	DDX_Check(pDX, IDC_USE_AUX_PORT_CHECKBOX, m_bUseAuxPort);
+}
+
+BEGIN_MESSAGE_MAP(CPPgServer, CPropertyPage)
+	ON_EN_CHANGE(IDC_SRVCONTIMEOUT, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SERVERRETRIES, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SERVERKEEPALIVE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_AUTOSERVER, OnSettingsChange)
+	ON_BN_CLICKED(IDC_UPDATESERVERCONNECT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_ADDSRVFROMCLIENTS, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCORE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_REMOVEDEAD, OnBnClickedRemovedead)
+	ON_BN_CLICKED(IDC_RESTARTWAITING, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SMARTIDCHECK, OnSettingsChange)
+	ON_BN_CLICKED(IDC_AUTOCONNECT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_RECONN, OnSettingsChange)
+	ON_BN_CLICKED(IDC_AUTOCONNECTSTATICONLY, OnSettingsChange)
+	ON_BN_CLICKED(IDC_MANUALSERVERHIGHPRIO, OnSettingsChange)
+	ON_BN_CLICKED(IDC_ICC_BUTTON, OnSetURLsForICC)
+	ON_BN_CLICKED(IDC_USE_AUX_PORT_CHECKBOX, OnSettingsChange)
+END_MESSAGE_MAP()
+
+BOOL CPPgServer::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_SERVERKEEPALIVE)))->SetLimitText(2);
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_SERVERRETRIES)))->SetLimitText(2);
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+
+void CPPgServer::LoadSettings(void)
+{
+	m_strSrvConnectTimeout.Format(_T("%u"), m_pPrefs->SrvConTimeout() / 1000);
+	m_strServerRetries.Format(_T("%u"), m_pPrefs->GetDeadserverRetries());
+	m_strSrvKeepAliveTimeout.Format(_T("%u"), m_pPrefs->GetServerKeepAliveTimeout() / 60000);
+
+	m_bManualSrvHighPriority = m_pPrefs->GetManuallyAddedServerHighPrio();
+	m_bSmartId = m_pPrefs->GetSmartIdCheck();
+	m_bRemoveDead = m_pPrefs->DeadServer();
+	m_bAutoServer = m_pPrefs->AutoServerlist();
+	m_bAddSrvFromServer = m_pPrefs->GetAddServersFromServer();
+	m_bAddSrvFromClients = m_pPrefs->GetAddServersFromClients();
+	m_bScoreSystem = m_pPrefs->GetUseServerPriorities();
+	m_bRestartWaiting = m_pPrefs->RestartWaiting();
+	m_bReconnect = m_pPrefs->Reconnect();
+	m_bAutoConnect = m_pPrefs->DoAutoConnect();
+	m_bAutoConnectStatic = m_pPrefs->AutoConnectStaticOnly();
+
+	m_bUseAuxPort = m_pPrefs->IsServerAuxPortUsed();
+
+	UpdateData(FALSE);
+	OnBnClickedRemovedead();
+	SetModified(FALSE);
+}
+
+BOOL CPPgServer::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		m_pPrefs->SetDeadServer(B2b(m_bRemoveDead));
+		m_pPrefs->SetSmartIdCheck(B2b(m_bSmartId));
+
+		int	iVal = _tstoi(m_strSrvConnectTimeout);
+		if (iVal < PREF_MIN_SRVCONNTIMEOUT)
+			iVal = PREF_MIN_SRVCONNTIMEOUT;
+		if (iVal > PREF_MAX_SRVCONNTIMEOUT)
+			iVal = PREF_MAX_SRVCONNTIMEOUT;
+
+		m_pPrefs->SetSrvConTimeout(iVal * 1000);
+		m_strSrvConnectTimeout.Format(_T("%u"), iVal);
+
+		iVal = _tstoi(m_strServerRetries);
+		if ((unsigned)(iVal - 1) > (PREF_MAX_DEADSRVRETRY - 1))
+		{
+			iVal = m_pPrefs->GetDeadserverRetries();
+			m_strServerRetries.Format(_T("%u"), iVal);
+		}
+		m_pPrefs->SetDeadserverRetries(iVal);
+
+		m_pPrefs->SetServerKeepAliveTimeout(_tstoi(m_strSrvKeepAliveTimeout) * 60000);
+
+		m_pPrefs->SetUseServerPriorities(B2b(m_bScoreSystem));
+		m_pPrefs->SetAutoServerlist(B2b(m_bAutoServer));
+		m_pPrefs->SetAddServersFromServer(B2b(m_bAddSrvFromServer));
+		m_pPrefs->SetAddServersFromClients(B2b(m_bAddSrvFromClients));
+		m_pPrefs->SetRestartWaiting(B2b(m_bRestartWaiting));
+		m_pPrefs->SetAutoConnect(B2b(m_bAutoConnect));
+		m_pPrefs->SetReconnect(B2b(m_bReconnect));
+		m_pPrefs->SetManuallyAddedServerHighPrio(B2b(m_bManualSrvHighPriority));
+		m_pPrefs->SetAutoConnectStaticOnly(B2b(m_bAutoConnectStatic));
+		m_pPrefs->SetServerAuxPortUsed(B2b(m_bUseAuxPort));
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgServer::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_SRVCONTIMEOUT_LBL, IDS_SRVCONTIMEOUT_LBL },
+		{ IDC_SRV_SEC, IDS_SECS },
+		{ IDC_REMOVEDEAD, IDS_PW_RDEAD },
+		{ IDC_RETRIES_LBL, IDS_PW_RETRIES },
+		{ IDC_SERVERKEEPALIVE_LBL, IDS_PW_KEEPALIVE },
+		{ IDC_SRV_MIN, IDS_MINS },
+		{ IDC_UPDATESERVERCONNECT, IDS_PW_USC },
+		{ IDC_ADDSRVFROMCLIENTS, IDS_ADDSRVFROMCLIENTS },
+		{ IDC_AUTOSERVER, IDS_PW_USS },
+		{ IDC_SCORE, IDS_PW_SCORE },
+		{ IDC_RESTARTWAITING, IDS_RESTARTWAITING },
+		{ IDC_SMARTIDCHECK, IDS_SMARTLOWIDCHECK },
+		{ IDC_AUTOCONNECT, IDS_PW_AUTOCON },
+		{ IDC_RECONN, IDS_PW_RECON },
+		{ IDC_MANUALSERVERHIGHPRIO, IDS_MANUALSERVERHIGHPRIO },
+		{ IDC_AUTOCONNECTSTATICONLY, IDS_PW_AUTOCONNECTSTATICONLY },
+		{ IDC_ICC_BUTTON, IDS_ICC_BUTTON },
+		{ IDC_USE_AUX_PORT_CHECKBOX, IDS_USE_AUX_PORT_CHECKBOX }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+	}
+}
+
+void CPPgServer::OnBnClickedRemovedead()
+{
+	UpdateData(TRUE);
+	GetDlgItem(IDC_SERVERRETRIES)->EnableWindow(m_bRemoveDead);
+
+	SetModified();
+}
+
+void CPPgServer::OnSetURLsForICC()
+{
+	InputBox inputbox(GetResString(IDS_ICC_INPUTBOX), g_App.m_pPrefs->GetURLsForICC());
+
+	inputbox.DoModal();
+	if (!inputbox.WasCancelled())
+	{
+		g_App.m_pPrefs->SetURLsForICC(inputbox.GetInput());
+		g_App.InitURLs();
+		SetModified();
+	}
+}
+@
+
+
+1.28
+log
+@More appropriate name for service to avoid confusion.
+@
+text
+@d32 3
+a34 3
+	, removeDead(FALSE)
+	, autoServer(FALSE)
+	, smartId(FALSE)
+d37 6
+a42 6
+	, autoConnect(FALSE)
+	, autoConnectStatic(FALSE)
+	, reconnect(FALSE)
+	, scoreSystem(FALSE)
+	, manualServerHighPriority(FALSE)
+	, restartWaiting(FALSE)
+d54 3
+a56 3
+	DDX_Check(pDX, IDC_REMOVEDEAD, removeDead);
+	DDX_Check(pDX, IDC_AUTOSERVER, autoServer);
+	DDX_Check(pDX, IDC_SMARTIDCHECK, smartId);
+d59 9
+a67 30
+	DDX_Check(pDX, IDC_RESTARTWAITING, restartWaiting);
+	DDX_Check(pDX, IDC_AUTOCONNECT, autoConnect);
+	DDX_Check(pDX, IDC_AUTOCONNECTSTATICONLY, autoConnectStatic);
+	DDX_Check(pDX, IDC_RECONN, reconnect);
+	DDX_Check(pDX, IDC_SCORE, scoreSystem);
+	DDX_Check(pDX, IDC_MANUALSERVERHIGHPRIO, manualServerHighPriority);
+	DDX_Text(pDX, IDC_SRVCONTIMEOUT, serverConnectTimeout);
+	DDX_Text(pDX, IDC_SERVERKEEPALIVE, serverKeepAliveTimeout);
+	DDX_Text(pDX, IDC_SERVERRETRIES, serverRetries);
+	DDX_Control(pDX, IDC_SRVCONTIMEOUT, serverConnectTimeoutEdit);
+	DDX_Control(pDX, IDC_SERVERKEEPALIVE, serverKeepAliveTimeoutEdit);
+	DDX_Control(pDX, IDC_SERVERRETRIES, serverRetriesEdit);
+	DDX_Text(pDX, IDC_SRVCONTIMEOUT_LBL, serverConTimeoutDesc);
+	DDX_Text(pDX, IDC_SERVERKEEPALIVE_LBL, serverKeepAliveTimeoutDesc);
+	DDX_Text(pDX, IDC_SRV_SEC, srvSecDesc);
+	DDX_Text(pDX, IDC_SRV_MIN, srvMinDesc);
+	DDX_Control(pDX, IDC_REMOVEDEAD, removeDeadCheck);
+	DDX_Text(pDX, IDC_RETRIES_LBL, retriesDesc);
+	DDX_Control(pDX, IDC_AUTOSERVER, autoServerCheck);
+	DDX_Control(pDX, IDC_SMARTIDCHECK, smartIdCheck);
+	DDX_Control(pDX, IDC_SCORE, scoreCheck);
+	DDX_Control(pDX, IDC_RESTARTWAITING, restartWaitingCheck);
+	DDX_Control(pDX, IDC_AUTOCONNECT, autoConnectCheck);
+	DDX_Control(pDX, IDC_UPDATESERVERCONNECT, m_AddSrvFromServerCheck);
+	DDX_Control(pDX, IDC_ADDSRVFROMCLIENTS, m_AddSrvFromClientsCheck);
+	DDX_Control(pDX, IDC_RECONN, reconnCheck);
+	DDX_Control(pDX, IDC_MANUALSERVERHIGHPRIO, manualSrvHighCheck);
+	DDX_Control(pDX, IDC_AUTOCONNECTSTATICONLY, autoConnectStaticCheck);
+	DDX_Control(pDX, IDC_ICC_BUTTON, urlsButton);
+	DDX_Control(pDX, IDC_USE_AUX_PORT_CHECKBOX, m_btnUseAuxPortCheck);
+a89 2
+// CPPgServer message handlers
+
+d94 2
+a95 3
+	serverKeepAliveTimeoutEdit.SetLimitText(2);
+	serverKeepAliveTimeoutEdit.SetLimitText(2);
+	serverRetriesEdit.SetLimitText(2);
+d105 8
+a112 8
+	serverConnectTimeout.Format(_T("%u"), m_pPrefs->SrvConTimeout() / 1000);
+	serverRetries.Format(_T("%u"), m_pPrefs->GetDeadserverRetries());
+	serverKeepAliveTimeout.Format(_T("%u"), m_pPrefs->GetServerKeepAliveTimeout() / 60000);
+
+	manualServerHighPriority = m_pPrefs->GetManuallyAddedServerHighPrio();
+	smartId = m_pPrefs->GetSmartIdCheck();
+	removeDead = m_pPrefs->DeadServer();
+	autoServer = m_pPrefs->AutoServerlist();
+d115 5
+a119 5
+	scoreSystem = m_pPrefs->GetUseServerPriorities();
+	restartWaiting = m_pPrefs->RestartWaiting();
+	reconnect = m_pPrefs->Reconnect();
+	autoConnect = m_pPrefs->DoAutoConnect();
+	autoConnectStatic = m_pPrefs->AutoConnectStaticOnly();
+d134 2
+a135 2
+		m_pPrefs->SetDeadServer(removeDead);
+		m_pPrefs->SetSmartIdCheck(smartId);
+d137 5
+a141 5
+		int	iVal = _tstoi(serverConnectTimeout);
+		if (iVal < 10)
+			iVal = 10;
+		else if(iVal > 60)
+			iVal = 60;
+d144 1
+a144 1
+		serverConnectTimeout.Format(_T("%u"), m_pPrefs->SrvConTimeout() / 1000);
+d146 2
+a147 2
+		iVal = _tstoi(serverRetries);
+		if (iVal <= 0)
+d150 1
+a150 1
+			serverRetries.Format(_T("%u"), iVal);
+d154 1
+a154 1
+		m_pPrefs->SetServerKeepAliveTimeout(_tstoi(serverKeepAliveTimeout) * 60000);
+d156 10
+a165 10
+		m_pPrefs->SetUseServerPriorities(scoreSystem);
+		m_pPrefs->SetAutoServerlist(autoServer);
+		m_pPrefs->SetAddServersFromServer(m_bAddSrvFromServer);
+		m_pPrefs->SetAddServersFromClients(m_bAddSrvFromClients);
+		m_pPrefs->SetRestartWaiting(restartWaiting);
+		m_pPrefs->SetAutoConnect(autoConnect);
+		m_pPrefs->SetReconnect(reconnect);
+		m_pPrefs->SetManuallyAddedServerHighPrio(manualServerHighPriority);
+		m_pPrefs->SetAutoConnectStaticOnly(autoConnectStatic);
+		m_pPrefs->SetServerAuxPortUsed(m_bUseAuxPort);
+d175 1
+a175 1
+	if(::IsWindow(m_hWnd))
+d177 19
+a195 1
+		SetWindowText(GetResString(IDS_PW_SERVER));
+d197 3
+a199 18
+		GetResString(&serverConTimeoutDesc, IDS_SRVCONTIMEOUT_LBL);
+		GetResString(&srvSecDesc, IDS_SECS);
+		removeDeadCheck.SetWindowText(GetResString(IDS_PW_RDEAD));
+		GetResString(&retriesDesc, IDS_PW_RETRIES);
+		GetResString(&serverKeepAliveTimeoutDesc, IDS_PW_KEEPALIVE);
+		GetResString(&srvMinDesc, IDS_MINS);
+		m_AddSrvFromServerCheck.SetWindowText(GetResString(IDS_PW_USC));
+		m_AddSrvFromClientsCheck.SetWindowText(GetResString(IDS_ADDSRVFROMCLIENTS));
+		autoServerCheck.SetWindowText(GetResString(IDS_PW_USS));
+		scoreCheck.SetWindowText(GetResString(IDS_PW_SCORE));
+		restartWaitingCheck.SetWindowText(GetResString(IDS_RESTARTWAITING));
+		smartIdCheck.SetWindowText(GetResString(IDS_SMARTLOWIDCHECK));
+		autoConnectCheck.SetWindowText(GetResString(IDS_PW_AUTOCON));
+		reconnCheck.SetWindowText(GetResString(IDS_PW_RECON));
+		manualSrvHighCheck.SetWindowText(GetResString(IDS_MANUALSERVERHIGHPRIO));
+		autoConnectStaticCheck.SetWindowText(GetResString(IDS_PW_AUTOCONNECTSTATICONLY));
+		urlsButton.SetWindowText(GetResString(IDS_ICC_BUTTON));
+		m_btnUseAuxPortCheck.SetWindowText(GetResString(IDS_USE_AUX_PORT_CHECKBOX));
+d201 5
+a205 1
+		UpdateData(FALSE);
+d212 1
+a212 1
+	serverRetriesEdit.EnableWindow(removeDead);
+@
+
+
+1.27
+log
+@Server list update option was split into update from servers and clients {ElAguila};
+Unified change setting functionality;
+Simplified KeepAlive value obtaining from GUI -- empty field is treated as zero.
+@
+text
+@d133 1
+a133 1
+	manualServerHighPriority = m_pPrefs->GetManualHighPrio();
+d187 1
+a187 1
+		m_pPrefs->SetManualHighPrio(manualServerHighPriority);
+@
+
+
+1.26
+log
+@Improved string processing.
+@
+text
+@d1 2
+a2 1
+// PPgServer.cpp : implementation file
+d4 13
+a28 2
+// CPPgServer dialog
+
+d35 2
+a36 1
+	, updateServerConnect(FALSE)
+d57 2
+a58 1
+	DDX_Check(pDX, IDC_UPDATESERVERCONNECT, updateServerConnect);
+d82 2
+a83 1
+	DDX_Control(pDX, IDC_UPDATESERVERCONNECT, updateServerConnectCheck);
+d93 7
+a99 6
+	ON_EN_CHANGE(IDC_SRVCONTIMEOUT, OnEnChangeSrvConTimeout)
+	ON_EN_CHANGE(IDC_SERVERRETRIES, OnEnChangeServerretries)
+	ON_EN_CHANGE(IDC_SERVERKEEPALIVE, OnEnChangeServerKeepAliveTimeout)
+	ON_BN_CLICKED(IDC_AUTOSERVER, OnBnClickedAutoserver)
+	ON_BN_CLICKED(IDC_UPDATESERVERCONNECT, OnBnClickedUpdateserverconnect)
+	ON_BN_CLICKED(IDC_SCORE, OnBnClickedScore)
+d101 6
+a106 6
+	ON_BN_CLICKED(IDC_RESTARTWAITING, OnBnClickedRestartWaiting)
+	ON_BN_CLICKED(IDC_SMARTIDCHECK, OnBnClickedSmartIdCheck)
+	ON_BN_CLICKED(IDC_AUTOCONNECT, OnBnClickedAutoconnect)
+	ON_BN_CLICKED(IDC_RECONN, OnBnClickedReconn)
+	ON_BN_CLICKED(IDC_AUTOCONNECTSTATICONLY, OnBnClickedStaticOnly)
+	ON_BN_CLICKED(IDC_MANUALSERVERHIGHPRIO, OnBnClickedManualHighPrio)
+d108 1
+a108 1
+	ON_BN_CLICKED(IDC_USE_AUX_PORT_CHECKBOX, OnBnClickedUseAuxPortCheckbox)
+d137 2
+a138 1
+	updateServerConnect = m_pPrefs->GetAddServersFromConn();
+d178 1
+a178 5
+		if(!serverKeepAliveTimeout.IsEmpty())
+		{
+			int scka = _tstoi(serverKeepAliveTimeout);
+			m_pPrefs->SetServerKeepAliveTimeout(scka*60000);
+		}
+d182 2
+a183 1
+		m_pPrefs->SetAddServersFromConn(updateServerConnect);
+d209 2
+a210 1
+		updateServerConnectCheck.SetWindowText(GetResString(IDS_PW_USC));
+@
+
+
+1.25
+log
+@removed uneeded CString object initialization
+@
+text
+@d221 1
+a221 1
+	InputBox inputbox;
+a222 1
+	inputbox.SetLabels(GetResString(IDS_ICC_INPUTBOX), g_App.m_pPrefs->GetURLsForICC());
+@
+
+
+1.24
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a28 3
+	, serverConnectTimeout(_T(""))
+	, serverRetries(_T(""))
+	, serverKeepAliveTimeout(_T(""))
+a29 5
+	, serverConTimeoutDesc(_T(""))
+	, srvSecDesc(_T(""))
+	, srvMinDesc(_T(""))
+	, retriesDesc(_T(""))
+	, serverKeepAliveTimeoutDesc(_T(""))
+d53 1
+a53 1
+	DDX_Text(pDX, IDC_SERVERRETRIES, serverRetries);	
+d166 1
+a166 1
+	
+@
+
+
+1.23
+log
+@renamed 3 variables
+@
+text
+@d231 1
+a231 1
+	inputbox.SetLabels(GetResString(IDS_ICC_INPUTBOX), g_App.g_pPrefs->GetURLsForICC());
+d235 1
+a235 1
+		g_App.g_pPrefs->SetURLsForICC(inputbox.GetInput());
+@
+
+
+1.22
+log
+@Correctly update DeadServerRetries value on apply.
+@
+text
+@d231 1
+a231 1
+	inputbox.SetLabels(GetResString(IDS_ICC_INPUTBOX), g_eMuleApp.m_pGlobPrefs->GetURLsForICC());
+d235 2
+a236 2
+		g_eMuleApp.m_pGlobPrefs->SetURLsForICC(inputbox.GetInput());
+		g_eMuleApp.InitURLs();
+@
+
+
+1.21
+log
+@Renamed service to follow real actions; Formatting.
+@
+text
+@d148 1
+a148 1
+		
+a150 6
+	
+		int sct = _tstoi(serverConnectTimeout);
+		if (sct < 10)
+			sct = 10;
+		else if(sct > 60)
+			sct = 60;
+d152 7
+a158 1
+		m_pPrefs->SetSrvConTimeout(sct * 1000);
+d160 3
+a162 2
+		
+		if(!serverRetries.IsEmpty())
+d164 2
+a165 4
+			int sr = _tstoi(serverRetries);
+			if (sr == 0)
+				sr = 5;
+			m_pPrefs->SetDeadserverRetries(sr);
+d167 1
+a167 2
+		if(m_pPrefs->GetDeadserverRetries() < 1)
+			m_pPrefs->SetDeadserverRetries(5);
+@
+
+
+1.20
+log
+@Improved preferences localization.
+@
+text
+@a14 1
+
+d60 1
+a60 1
+	DDX_Text(pDX, IDC_SERVERKEEPALIVE, serverKeepAliveTimeout);	
+d121 3
+a123 3
+	serverConnectTimeout.Format(_T("%d"), m_pPrefs->SrvConTimeout()/1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+	serverRetries.Format(_T("%d"), m_pPrefs->GetDeadserverRetries());
+	serverKeepAliveTimeout.Format(_T("%d"), m_pPrefs->GetServerKeepAliveTimeout()/60000);
+d127 1
+a127 1
+	removeDead = m_pPrefs->DeadServer();			
+d130 1
+a130 1
+	scoreSystem = m_pPrefs->Score();
+a133 1
+	// Barry
+d135 1
+a135 1
+	
+d137 1
+a137 1
+	
+d140 1
+a140 1
+	SetModified(FALSE);	// FoRcHa
+d144 1
+a144 1
+{	
+d147 1
+a147 1
+		UpdateData(TRUE);	
+d149 1
+a149 1
+		m_pPrefs->SetDeadServer(removeDead);		
+d158 2
+a159 2
+		m_pPrefs->SetSrvConTimeout(sct*1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+		serverConnectTimeout.Format(_T("%d"),m_pPrefs->SrvConTimeout()/1000);
+d168 1
+a168 1
+		if(m_pPrefs->GetDeadserverRetries() < 1) 
+d177 1
+a177 1
+		m_pPrefs->SetScore(scoreSystem);
+d198 1
+a198 1
+		
+d205 1
+a205 1
+		updateServerConnectCheck.SetWindowText(GetResString(IDS_PW_USC));		
+d207 2
+a208 2
+		scoreCheck.SetWindowText(GetResString(IDS_PW_SCORE));		
+		restartWaitingCheck.SetWindowText(GetResString(IDS_RESTARTWAITING));	
+d212 1
+a212 1
+		manualSrvHighCheck.SetWindowText(GetResString(IDS_MANUALSERVERHIGHPRIO));		
+a230 1
+	
+@
+
+
+1.19
+log
+@Minor fixes...
+@
+text
+@d201 2
+a202 2
+		serverConTimeoutDesc = GetResString(IDS_SRVCONTIMEOUT_LBL);
+		srvSecDesc = GetResString(IDS_SECS);
+d204 3
+a206 3
+		retriesDesc = GetResString(IDS_PW_RETRIES);
+		serverKeepAliveTimeoutDesc = GetResString(IDS_PW_KEEPALIVE);
+		srvMinDesc = GetResString(IDS_MINS);
+@
+
+
+1.18
+log
+@added auto-update for ipfilter
+@
+text
+@a182 1
+	
+a185 2
+
+		// Barry
+a186 1
+
+d241 1
+@
+
+
+1.17
+log
+@added auxiliary port support from KuSh (commited with eklmn's authorization)
+@
+text
+@a24 2
+	, filter(FALSE)
+	, filterServersByIP(FALSE)
+a53 2
+	DDX_Check(pDX, IDC_FILTER, filter);
+	DDX_Check(pDX, IDC_FILTERSERVERSBYIP, filterServersByIP);
+a77 2
+	DDX_Control(pDX, IDC_FILTERSERVERSBYIP, filterServersByIPCheck);
+	DDX_Control(pDX, IDC_FILTER, filterCheck);
+a91 1
+	ON_BN_CLICKED(IDC_FILTER, OnBnClickedFilter)
+a99 1
+	ON_BN_CLICKED(IDC_FILTERSERVERSBYIP, OnBnClickedFilterServersByIP)
+a130 2
+	filter = m_pPrefs->FilterBadIPs();
+	filterServersByIP = m_pPrefs->FilterServersByIP();
+a181 2
+		m_pPrefs->SetFilterBadIPs(filter);
+		m_pPrefs->SetFilterServersByIP(filterServersByIP);
+a211 2
+		filterCheck.SetWindowText(GetResString(IDS_PW_FILTER));
+		filterServersByIPCheck.SetWindowText(GetResString(IDS_FILTERSERVERSBYIP));
+@
+
+
+1.16
+log
+@Keep-Alive for server connections
+@
+text
+@d41 1
+d88 2
+d109 1
+d148 2
+d203 2
+d235 1
+@
+
+
+1.15
+log
+@URLs for IRC configuration in GUI
+@
+text
+@d34 1
+d38 1
+d40 1
+d64 1
+d66 2
+d70 1
+d72 1
+d92 1
+d114 4
+d128 1
+d176 6
+d213 2
+@
+
+
+1.14
+log
+@Formatting, comments, and name changes.
+@
+text
+@d7 1
+d78 1
+a80 1
+
+d95 2
+a96 1
+	ON_BN_CLICKED(IDC_FILTERSERVERSBYIP , OnBnClickedFilterServersByIP)
+a98 1
+
+d108 1
+a108 2
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+a192 1
+		
+a196 1
+		
+a199 1
+
+d204 2
+d216 14
+@
+
+
+1.13
+log
+@Removed Safe Connect
+@
+text
+@d113 2
+a114 2
+	serverConnectTimeout.Format(_T("%d"), app_prefs->SrvConTimeout()/1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+	serverRetries.Format(_T("%d"), app_prefs->GetDeadserverRetries());
+d116 11
+a126 11
+	manualServerHighPriority = app_prefs->GetManualHighPrio();
+	smartId = app_prefs->GetSmartIdCheck();
+	removeDead = app_prefs->DeadServer();			
+	autoServer = app_prefs->AutoServerlist();
+	updateServerConnect = app_prefs->GetAddServersFromConn();
+	filter = app_prefs->FilterBadIPs();
+	filterServersByIP = app_prefs->FilterServersByIP();
+	scoreSystem = app_prefs->Score();
+	restartWaiting = app_prefs->RestartWaiting();
+	reconnect = app_prefs->Reconnect();
+	autoConnect = app_prefs->DoAutoConnect();
+d128 1
+a128 1
+	autoConnectStatic = app_prefs->AutoConnectStaticOnly();
+d141 2
+a142 2
+		app_prefs->SetDeadServer(removeDead);		
+		app_prefs->SetSmartIdCheck(smartId);
+d150 2
+a151 2
+		app_prefs->SetSrvConTimeout(sct*1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+		serverConnectTimeout.Format(_T("%d"),app_prefs->SrvConTimeout()/1000);
+d158 1
+a158 1
+			app_prefs->SetDeadserverRetries(sr);
+d160 2
+a161 2
+		if(app_prefs->GetDeadserverRetries() < 1) 
+			app_prefs->SetDeadserverRetries(5);
+d163 6
+a168 6
+		app_prefs->SetScore(scoreSystem);
+		app_prefs->SetAutoServerlist(autoServer);
+		app_prefs->SetAddServersFromConn(updateServerConnect);
+		app_prefs->SetFilterBadIPs(filter);
+		app_prefs->SetFilterServersByIP(filterServersByIP);
+		app_prefs->SetRestartWaiting(restartWaiting);
+d170 3
+a172 3
+		app_prefs->SetAutoConnect(autoConnect);
+		app_prefs->SetReconnect(reconnect);
+		app_prefs->SetManualHighPrio(manualServerHighPriority);
+d175 1
+a175 1
+		app_prefs->SetAutoConnectStaticOnly(autoConnectStatic);
+@
+
+
+1.12
+log
+@converted to use DDX framework
+@
+text
+@a21 1
+	, safeConnect(FALSE)
+a48 1
+	DDX_Check(pDX, IDC_SAFECONNECT, safeConnect);
+a66 1
+	DDX_Control(pDX, IDC_SAFECONNECT, safeConnectCheck);
+a88 1
+	ON_BN_CLICKED(IDC_SAFECONNECT, OnBnClickedFastConnect)
+a115 1
+	safeConnect = app_prefs->IsSafeConnectEnabled();
+a141 1
+		app_prefs->SetSafeConnectEnabled(safeConnect);		
+a201 1
+		safeConnectCheck.SetWindowText(GetResString(IDS_PW_FASTSRVCON));
+@
+
+
+1.11
+log
+@FEATURE: filter servers listed in ipfilter.dat and DynIP servers (for now)
+@
+text
+@d20 18
+d48 32
+a103 5
+void CPPgServer::OnBnClickedCheck1()
+{
+	// TODO: Add your control notification handler code here
+}
+
+d117 2
+a118 1
+	CString strBuffer;
+d120 16
+a135 25
+	strBuffer.Format(_T("%d"), app_prefs->SrvConTimeout()/1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+	GetDlgItem(IDC_SRVCONTIMEOUT)->SetWindowText(strBuffer);
+
+	strBuffer.Format(_T("%d"), app_prefs->GetDeadserverRetries());
+	GetDlgItem(IDC_SERVERRETRIES)->SetWindowText(strBuffer);
+		
+	if(app_prefs->IsSafeConnectEnabled())
+		CheckDlgButton(IDC_SAFECONNECT,1);
+	else
+		CheckDlgButton(IDC_SAFECONNECT,0);
+
+	if(app_prefs->GetManualHighPrio())
+		CheckDlgButton(IDC_MANUALSERVERHIGHPRIO,1);
+	else
+		CheckDlgButton(IDC_MANUALSERVERHIGHPRIO,0);
+
+	if(app_prefs->GetSmartIdCheck())
+		CheckDlgButton(IDC_SMARTIDCHECK,1);
+	else
+		CheckDlgButton(IDC_SMARTIDCHECK,0);
+
+	if(app_prefs->DeadServer())
+		CheckDlgButton(IDC_REMOVEDEAD,1);
+	else
+		CheckDlgButton(IDC_REMOVEDEAD,0);
+a136 47
+	
+	if(app_prefs->AutoServerlist())
+		CheckDlgButton(IDC_AUTOSERVER,1);
+	else
+		CheckDlgButton(IDC_AUTOSERVER,0);
+
+	if(app_prefs->GetAddServersFromConn())
+		CheckDlgButton(IDC_UPDATESERVERCONNECT, 1);
+	else
+		CheckDlgButton(IDC_UPDATESERVERCONNECT, 0);
+
+	if(app_prefs->FilterBadIPs())
+		CheckDlgButton(IDC_FILTER,1);
+	else
+		CheckDlgButton(IDC_FILTER,0);
+
+	if(app_prefs->FilterServersByIP())
+		CheckDlgButton(IDC_FILTERSERVERSBYIP,1);
+	else
+		CheckDlgButton(IDC_FILTERSERVERSBYIP,0);
+
+	if(app_prefs->Score())
+		CheckDlgButton(IDC_SCORE,1);
+	else
+		CheckDlgButton(IDC_SCORE,0);
+
+	if(app_prefs->RestartWaiting())
+		CheckDlgButton(IDC_RESTARTWAITING,1);
+	else
+		CheckDlgButton(IDC_RESTARTWAITING,0);
+
+	if (app_prefs->Reconnect())
+		CheckDlgButton(IDC_RECONN,1);
+	else
+		CheckDlgButton(IDC_RECONN,0);
+
+	if (app_prefs->DoAutoConnect())
+		CheckDlgButton(IDC_AUTOCONNECT,1);
+	else
+		CheckDlgButton(IDC_AUTOCONNECT,0);
+
+	// Barry
+	if(app_prefs->AutoConnectStaticOnly())
+		CheckDlgButton(IDC_AUTOCONNECTSTATICONLY,1);
+	else
+		CheckDlgButton(IDC_AUTOCONNECTSTATICONLY,0);
+
+a141 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d144 1
+a144 3
+		CString buffer;
+		
+		app_prefs->SetDeadServer((int8)IsDlgButtonChecked(IDC_REMOVEDEAD));
+d146 3
+a148 1
+		app_prefs->SetSafeConnectEnabled((int8)IsDlgButtonChecked(IDC_SAFECONNECT));
+d150 5
+a154 11
+		if(IsDlgButtonChecked(IDC_SMARTIDCHECK))
+			app_prefs->SetSmartIdCheck(true);
+		else
+			app_prefs->SetSmartIdCheck(false);
+
+		GetDlgItem(IDC_SRVCONTIMEOUT)->GetWindowText(buffer);
+		app_prefs->SetSrvConTimeout(_tstoi(buffer)*1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+		if(app_prefs->SrvConTimeout() < 10000)
+			app_prefs->SetSrvConTimeout(10000);
+		else if(app_prefs->SrvConTimeout() > 60000)
+			app_prefs->SetSrvConTimeout(60000);
+d156 4
+a159 4
+		buffer.Format(_T("%d"),app_prefs->SrvConTimeout()/1000);
+		GetDlgItem(IDC_SRVCONTIMEOUT)->SetWindowText(buffer);
+
+		if(GetDlgItem(IDC_SERVERRETRIES)->GetWindowTextLength())
+d161 4
+a164 2
+			GetDlgItem(IDC_SERVERRETRIES)->GetWindowText(buffer);
+			app_prefs->SetDeadserverRetries( (_tstoi(buffer)) ? _tstoi(buffer) : 5);
+d169 6
+a174 6
+		app_prefs->SetScore((int8)IsDlgButtonChecked(IDC_SCORE));
+		app_prefs->SetAutoServerlist((int8)IsDlgButtonChecked(IDC_AUTOSERVER));
+		app_prefs->SetAddServersFromConn((int8)IsDlgButtonChecked(IDC_UPDATESERVERCONNECT));
+		app_prefs->SetFilterBadIPs((int8)IsDlgButtonChecked(IDC_FILTER));
+		app_prefs->SetFilterServersByIP((int8)IsDlgButtonChecked(IDC_FILTERSERVERSBYIP));
+		app_prefs->SetRestartWaiting((int8)IsDlgButtonChecked(IDC_RESTARTWAITING));
+d176 3
+a178 3
+		app_prefs->SetAutoConnect((int8)IsDlgButtonChecked(IDC_AUTOCONNECT));
+		app_prefs->SetReconnect((int8)IsDlgButtonChecked(IDC_RECONN));
+		app_prefs->SetManualHighPrio((int8)IsDlgButtonChecked(IDC_MANUALSERVERHIGHPRIO));
+d181 1
+a181 1
+		app_prefs->SetAutoConnectStaticOnly((int8)IsDlgButtonChecked(IDC_AUTOCONNECTSTATICONLY));
+d191 1
+a191 1
+	if(m_hWnd)
+d195 20
+a214 23
+		GetDlgItem(IDC_SRVCONTIMEOUT_LBL)->SetWindowText(GetResString(IDS_SRVCONTIMEOUT_LBL));
+		GetDlgItem(IDC_SRV_SEC)->SetWindowText(GetResString(IDS_SECS));
+
+		GetDlgItem(IDC_REMOVEDEAD)->SetWindowText(GetResString(IDS_PW_RDEAD));
+		GetDlgItem(IDC_RETRIES_LBL)->SetWindowText(GetResString(IDS_PW_RETRIES));
+		
+		GetDlgItem(IDC_UPDATESERVERCONNECT)->SetWindowText(GetResString(IDS_PW_USC));
+		//GetDlgItem(IDC_UPDATESERVERCLIENT)->SetWindowText(GetResString(IDS_PW_UCC));		//merged into one...
+		GetDlgItem(IDC_FILTER)->SetWindowText(GetResString(IDS_PW_FILTER));
+		GetDlgItem(IDC_FILTERSERVERSBYIP)->SetWindowText(GetResString(IDS_FILTERSERVERSBYIP));
+		GetDlgItem(IDC_AUTOSERVER)->SetWindowText(GetResString(IDS_PW_USS));
+		
+		GetDlgItem(IDC_SCORE)->SetWindowText(GetResString(IDS_PW_SCORE));		
+		GetDlgItem(IDC_RESTARTWAITING)->SetWindowText(GetResString(IDS_RESTARTWAITING));	
+		GetDlgItem(IDC_SMARTIDCHECK)->SetWindowText(GetResString(IDS_SMARTLOWIDCHECK));
+		GetDlgItem(IDC_SAFECONNECT)->SetWindowText(GetResString(IDS_PW_FASTSRVCON));
+
+		GetDlgItem(IDC_AUTOCONNECT)->SetWindowText(GetResString(IDS_PW_AUTOCON));
+		GetDlgItem(IDC_RECONN)->SetWindowText(GetResString(IDS_PW_RECON));
+		GetDlgItem(IDC_MANUALSERVERHIGHPRIO)->SetWindowText(GetResString(IDS_MANUALSERVERHIGHPRIO));
+
+		// Barry
+		GetDlgItem(IDC_AUTOCONNECTSTATICONLY)->SetWindowText(GetResString(IDS_PW_AUTOCONNECTSTATICONLY));
+d220 2
+a221 1
+	GetDlgItem(IDC_SERVERRETRIES)->EnableWindow(IsDlgButtonChecked(IDC_REMOVEDEAD));
+@
+
+
+1.10
+log
+@added 'Set manually added servers to High Priority' and 'Serverconnect w/o proxy' options and removed 'Accept ed2k links'
+@
+text
+@d48 1
+d116 5
+a166 5
+/*		if(IsDlgButtonChecked(IDC_MANUALSERVERHIGHPRIO))
+			app_prefs->m_bManualHighPrio(true);
+		else
+			app_prefs->m_bManualHighPrio(false);	*/
+	
+d189 1
+d220 1
+@
+
+
+1.9
+log
+@unicode cleanup
+@
+text
+@d47 1
+d84 5
+d160 5
+d192 1
+d227 1
+@
+
+
+1.8
+log
+@code cleanup
+@
+text
+@d72 1
+a72 1
+	strBuffer.Format("%d", app_prefs->SrvConTimeout()/1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+d75 1
+a75 1
+	strBuffer.Format("%d", app_prefs->GetDeadserverRetries());
+d156 1
+a156 1
+		app_prefs->SetSrvConTimeout(atoi(buffer)*1000);		//Cax2 - bugfix for time out - ticks are in milliseconds!!!!!
+d162 1
+a162 1
+		buffer.Format("%d",app_prefs->SrvConTimeout()/1000);
+d168 1
+a168 1
+			app_prefs->SetDeadserverRetries( (atoi(buffer)) ? atoi(buffer) : 5);
+@
+
+
+1.7
+log
+@bugfix: server connect timeout, averaged file rating
+@
+text
+@d144 1
+a144 1
+		char buffer[510];
+d155 1
+a155 1
+		GetDlgItem(IDC_SRVCONTIMEOUT)->GetWindowText(buffer,7);
+d162 1
+a162 1
+		sprintf(buffer, "%d",app_prefs->SrvConTimeout()/1000);
+d167 1
+a167 1
+			GetDlgItem(IDC_SERVERRETRIES)->GetWindowText(buffer,20);
+@
+
+
+1.6
+log
+@Little fixes and Static Servers additions from 26d
+@
+text
+@d72 1
+a72 1
+	strBuffer.Format("%d", app_prefs->SrvConTimeout()/6000);
+d156 9
+a164 14
+			app_prefs->SetSrvConTimeout(atoi(buffer)*6000);
+			if(app_prefs->SrvConTimeout() < 30000)
+			{
+				app_prefs->SetSrvConTimeout(30000);
+				sprintf(buffer, "%d",app_prefs->SrvConTimeout()/6000);
+				GetDlgItem(IDC_SRVCONTIMEOUT)->SetWindowText(buffer);
+			}
+			else if(app_prefs->SrvConTimeout() > 360000)
+			{
+				app_prefs->SetSrvConTimeout(360000);
+				sprintf(buffer, "%d",app_prefs->SrvConTimeout()/6000);
+				GetDlgItem(IDC_SRVCONTIMEOUT)->SetWindowText(buffer);
+			}
+	
+@
+
+
+1.5
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d46 1
+d129 6
+d187 3
+d220 3
+@
+
+
+1.4
+log
+@Small changes
+@
+text
+@d8 6
+@
+
+
+1.3
+log
+@Removed SingleLock - no need there.
+@
+text
+@d97 1
+a97 1
+	if(app_prefs->FilerBadIPs())
+d168 1
+a168 1
+		app_prefs->SetFilerBadIPs((int8)IsDlgButtonChecked(IDC_FILTER));
+@
+
+
+1.2
+log
+@bugfixes & control panel updates
+@
+text
+@d127 1
+a127 1
+	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a31 1
+	ON_BN_CLICKED(IDC_UPDATESERVERCLIENT, OnBnClickedUpdateserverclient)
+d92 1
+a92 1
+	if(app_prefs->AddServersFromServer())
+a95 5
+	
+	if(app_prefs->AddServersFromClient())
+		CheckDlgButton(IDC_UPDATESERVERCLIENT, 1);
+	else
+		CheckDlgButton(IDC_UPDATESERVERCLIENT, 0);
+d167 1
+a167 2
+		app_prefs->SetAddServersFromServer((int8)IsDlgButtonChecked(IDC_UPDATESERVERCONNECT));
+		app_prefs->SetAddServersFromClient( (int8)IsDlgButtonChecked(IDC_UPDATESERVERCLIENT));
+d193 1
+a193 1
+		GetDlgItem(IDC_UPDATESERVERCLIENT)->SetWindowText(GetResString(IDS_PW_UCC));
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1.4.2
+log
+@updated control panes, and assorted bugfixes
+@
+text
+@d32 1
+d93 1
+a93 1
+	if(app_prefs->GetAddServersFromConn())
+d97 5
+d173 2
+a174 1
+		app_prefs->SetAddServersFromConn((int8)IsDlgButtonChecked(IDC_UPDATESERVERCONNECT));
+d200 1
+a200 1
+		//GetDlgItem(IDC_UPDATESERVERCLIENT)->SetWindowText(GetResString(IDS_PW_UCC));		//merged into one...
+@
+
+

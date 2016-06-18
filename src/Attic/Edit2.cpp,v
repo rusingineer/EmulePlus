@@ -1,0 +1,210 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1k:1.2
+	Interim_Release_1k_RC4:1.2
+	Interim_1k_RC3:1.2
+	Interim_1k_RC2:1.2
+	Interim_Release_1k_RC1:1.2
+	Interim_Release_1k_beta5:1.2
+	Intrerim_Release_1k_beta4:1.2
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.2
+	Interim_Release_1i_beta2:1.2
+	Interim_Release_1i_beta1:1.2
+	PublicRelease_1h:1.2
+	Interim_Release_1h_rc2:1.2
+	Interim_Release_1h_RC1:1.2
+	Interim_Release_1h_beta2:1.2
+	Interim_Release_1h_beta1_now:1.2
+	Interim_Release_1h_beta1:1.2
+	PublicRelease_1g:1.2
+	Interim_Release_1g_RC6_Final:1.2
+	Interim_Release_1g_RC6:1.2
+	Interim_Release_1g_RC5:1.2
+	Interim_Release_1g_RC4:1.2
+	Interim_Release_1g_RC3:1.2
+	Interim_Release_1g_beta2:1.2
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.8
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.6
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2004.04.12.15.13.46;	author aw3;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.46;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.05;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Unused class removal.
+@
+text
+@// Edit2.cpp : implementation file
+//
+
+#include "stdafx.h"
+#include "emule.h"
+#include "Edit2.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+// CEdit2
+
+IMPLEMENT_DYNAMIC(CEdit2, CEdit)
+CEdit2::CEdit2()
+{
+	m_cbBackBrush.CreateSolidBrush(RGB(255,255,255));
+}
+
+CEdit2::~CEdit2()
+{
+}
+
+
+BEGIN_MESSAGE_MAP(CEdit2, CEdit)
+	ON_WM_CTLCOLOR_REFLECT()
+END_MESSAGE_MAP()
+
+
+
+// CEdit2 message handlers
+
+
+void CEdit2::SetBkColor(COLORREF color)
+{
+	if(m_cbBackBrush.GetSafeHandle())
+		m_cbBackBrush.DeleteObject();
+	m_cbBackBrush.CreateSolidBrush(color);
+	if(m_hWnd)
+		Invalidate();
+}
+
+HBRUSH CEdit2::CtlColor(CDC* pDC, UINT nCtlColor)
+{
+	switch (nCtlColor)
+	{
+		case CTLCOLOR_EDIT:  
+		case CTLCOLOR_STATIC:
+		{
+			return m_cbBackBrush;
+		}
+	}
+	return NULL;
+}
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d8 5
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

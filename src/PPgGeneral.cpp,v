@@ -1,0 +1,3562 @@
+head	1.105;
+access;
+symbols
+	PublicRelease_1_2e:1.105
+	Interim_Release_1-2e_RC1:1.105
+	PublicRelease_1_2d:1.104
+	Interim_Release_1-2d_RC1:1.103
+	Interim_Release_1-2d_beta1:1.101
+	PublicRelease_1_2c:1.98
+	Interim_Release_1-2c_RC1:1.98
+	Interim_Release_1-2c_beta1:1.95
+	PublicRelease_1_2b:1.95
+	Interim_Release_1-2b_RC1:1.95
+	PublicRelease_1_2a:1.93
+	Interim_Release_1-2a_RC1:1.92
+	Interim_Release_1-2a_beta2:1.90
+	Interim_Release_1-2a_beta1:1.90
+	PublicRelease_1_2:1.87
+	Interim_Release_1-2_RC1:1.85
+	Interim_Release_1-2_beta1:1.84
+	PublicRelease_1_1g:1.84
+	Interim_Release_1-1g_RC3:1.84
+	Interim_Release_1-1g_RC2:1.83
+	Interim_Release_1-1g_RC1:1.83
+	Interim_Release_1-1g_beta2:1.80
+	Interim_Release_1-1g_beta1:1.79
+	PublicRelease_1_1f:1.79
+	Interim_Release_1-1f_RC1:1.79
+	PublicRelease_1_1e:1.79
+	Interim_Release_1-1e_RC2:1.79
+	Interim_Release_1-1e_RC1:1.78
+	Interim_Release_1-1e_beta1:1.78
+	PublicRelease_1_1d:1.77
+	Interim_Release_1-1d_RC1:1.77
+	PublicRelease_1_1c:1.77
+	Interim_Release_1-1c_RC1:1.77
+	Interim_Release_1-1c_beta2:1.77
+	Interim_Release_1-1c_beta1:1.76
+	PublicRelease_1_1b:1.74
+	Interim_Release_1-1b_RC1:1.74
+	PublicRelease_1_1a:1.74
+	Interim_Release_1-1a_RC2:1.74
+	Interim_Release_1-1a_RC1:1.73
+	Interim_Release_1-1a_beta2:1.73
+	Interim_Release_1-1a_beta1:1.73
+	PublicRelease_1_1:1.73
+	Interim_Release_1-1_beta1:1.73
+	PublicRelease_1o:1.73
+	Interim_Release_1o_RC1:1.73
+	Interim_Release_1o_beta1:1.73
+	PublicRelease_1n:1.73
+	Interim_Release_1n_RC2:1.73
+	Interim_Release_1n_RC1:1.73
+	Interim_Release_1n_beta2:1.73
+	Interim_Release_1n_beta1:1.73
+	PublicRelease_1m:1.72
+	Interim_Release_1m_beta1:1.72
+	PublicRelease_1l:1.72
+	Interim_Release_1l_RC3:1.72
+	Interim_Release_1l_RC2:1.72
+	Interim_Release_1l_RC1:1.71
+	Interim_Release_1l_beta2:1.71
+	Interim_Release_1l_beta1:1.69
+	PublicRelease_1k:1.64
+	Interim_Release_1k_RC4:1.64
+	Interim_1k_RC3:1.64
+	Interim_1k_RC2:1.64
+	Interim_Release_1k_RC1:1.64
+	Interim_Release_1k_beta5:1.63
+	Intrerim_Release_1k_beta4:1.63
+	Interim_Release_1k_beta1:1.61
+	PublicRelease_1j:1.59
+	Interim_Release_1J_RC3:1.59
+	Interim_Release_1j_RC3:1.59
+	Interim_Release_1j_RC2:1.58
+	Interim_Release_1j_RC1:1.58
+	Interim_Release_1j_beta2:1.57
+	Interim_Release_1j_beta1:1.57
+	PublicRelease_1i:1.54
+	Interim_Release_1i_RC6:1.54
+	Interim_Release_1i_RC3:1.54
+	Interim_Release_1i_RC2:1.54
+	Interim_Release_1i_RC1:1.53
+	Interim_Release_1i_beta3:1.53
+	Interim_Release_1i_beta2:1.53
+	Interim_Release_1i_beta1:1.51
+	PublicRelease_1h:1.47
+	Interim_Release_1h_rc2:1.47
+	Interim_Release_1h_RC1:1.47
+	Interim_Release_1h_beta2:1.44
+	Interim_Release_1h_beta1_now:1.40
+	Interim_Release_1h_beta1:1.40
+	PublicRelease_1g:1.38
+	Interim_Release_1g_RC6_Final:1.38
+	Interim_Release_1g_RC6:1.38
+	Interim_Release_1g_RC5:1.38
+	Interim_Release_1g_RC4:1.38
+	Interim_Release_1g_RC3:1.38
+	Interim_Release_1g_beta2:1.33
+	Interim_Release_1g_beta1:1.33
+	Interim_Release_1f_RC4:1.33
+	Interim_Release_1f_RC3:1.33
+	Interim_Release_1f_RC2:1.33
+	Interim_Release_1f_RC:1.33
+	Interim_Release_1f_beta2:1.33
+	Interim_Release_1f_beta1:1.32
+	PublicRelease_1e:1.32
+	Interim_Release_1e_RC2:1.32
+	Interim_Release_1e_RC:1.32
+	Interim_Release_1e_beta3:1.32
+	Interim_Release_1e_beta2:1.32
+	Interim_Release_1e_beta2_before_kuchin:1.32
+	Interim_Release_1e_beta1:1.32
+	PublicRelease_1c:1.30
+	featurestest:1.30.0.2
+	Interim_Release_1c_RC:1.30
+	Interim_Release_1c_beta2:1.30
+	Interim_Release_1c_beta1:1.28
+	threaded_downloadqueue:1.26.0.2
+	PublicRelease_1b:1.21
+	Interim_Release_1b_beta2:1.21
+	Interim_Release_1b_beta1:1.19
+	proxydeadlake:1.14.0.4
+	PublicRelease_1a:1.14
+	Interim_Release_1a_beta2:1.14
+	BerkeleyDb:1.14.0.2
+	Interim_Release_1a_beta1:1.13
+	PublicRelease_1:1.11
+	goldfish:1.11
+	eMulePlus_1_RC2:1.11
+	eMulePlus_26b_1RC1:1.11
+	PreRelease_26b_i0e:1.11
+	before_26d_merge:1.9
+	Interim_Release_26b_i0d:1.8
+	Interim_Release_26b_i0c:1.7
+	Interim_Release_26b_i0b:1.7
+	Interim_Release_26b_i0a:1.6
+	systraydlg:1.6.0.4
+	plus26based:1.6.0.2
+	Interim_Release_25b_i0b:1.6
+	Proxy_Dev:1.5
+	Interim_Release_25b_i0a:1.3.2.1
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.105
+date	2008.07.01.04.45.15;	author aw3;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2008.04.29.05.03.34;	author aw3;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2008.04.06.03.36.13;	author aw3;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2008.02.25.19.44.01;	author eklmn;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2008.02.03.03.58.56;	author aw3;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2008.02.01.03.17.32;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2008.01.31.22.50.30;	author eklmn;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2007.08.21.12.49.27;	author aw3;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2007.08.06.19.43.22;	author aw3;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2007.04.02.23.14.14;	author kush_eplus;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2006.10.21.15.06.19;	author aw3;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2006.10.14.03.16.22;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2006.10.13.04.10.12;	author aw3;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2006.08.26.21.36.39;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2006.06.24.01.04.54;	author aw3;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2006.03.19.23.40.56;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2006.03.04.04.28.43;	author aw3;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2006.03.03.02.08.34;	author aw3;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2006.03.02.12.48.50;	author aw3;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2006.02.26.01.47.32;	author aw3;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2006.02.12.04.02.58;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2005.12.17.14.28.25;	author aw3;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2005.11.30.02.04.05;	author aw3;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2005.11.27.22.11.48;	author eklmn;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2005.08.24.05.26.45;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2005.07.01.16.09.24;	author aw3;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2005.04.23.05.17.39;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2005.01.31.13.18.12;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2005.01.12.05.11.15;	author katsyonak;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2005.01.06.01.16.17;	author katsyonak;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.11.28.19.03.10;	author aw3;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.07.10.02.03.52;	author aw3;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.05.26.21.37.42;	author katsyonak;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.05.14.22.49.43;	author dropf;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.05.12.16.14.34;	author katsyonak;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.05.04.14.45.23;	author dropf;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.04.29.10.32.53;	author netwolf1;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.04.18.23.13.48;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.04.17.15.22.25;	author dongato;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.04.16.20.57.24;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.03.27.19.39.45;	author dongato;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.03.22.04.38.54;	author aw3;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.03.03.21.45.23;	author dropf;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.02.19.06.46.35;	author dongato;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.02.05.00.00.00;	author kush_eplus;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.01.20.15.53.33;	author dongato;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.01.09.12.52.09;	author dongato;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.11.07.15.47.44;	author andrerib;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.10.06.21.57.05;	author puritynn666;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.09.23.16.52.49;	author morevit;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.09.23.13.50.35;	author dongato;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.09.11.00.59.02;	author dongato;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.09.09.16.21.59;	author dongato;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.09.06.02.19.23;	author dongato;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.09.04.03.53.30;	author dongato;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.08.31.16.49.55;	author dongato;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.08.23.00.20.50;	author forcha;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.08.19.17.12.12;	author andrerib;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.08.11.02.59.36;	author dongato;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.07.29.09.09.04;	author dongato;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.06.29.12.34.02;	author dongato;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.06.28.01.23.44;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.06.25.22.17.11;	author partyckip;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.06.18.21.38.09;	author netwolf1;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.06.15.09.10.05;	author partyckip;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.05.05.16.22.52;	author emoulari;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.04.03.10.12.15;	author kuchin;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.03.30.09.03.52;	author emoulari;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.03.17.20.10.56;	author forcha;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.03.16.22.50.57;	author forcha;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.03.15.12.04.21;	author dongato;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.03.14.23.54.01;	author lord_kiron;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.03.14.16.24.20;	author partyckip;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.03.14.14.31.43;	author lord_kiron;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.03.14.12.03.06;	author lord_kiron;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.03.14.10.33.49;	author lord_kiron;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.03.11.21.32.32;	author emoulari;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.03.08.22.28.55;	author emoulari;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.03.08.12.09.42;	author recdvst;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.03.03.03.23.51;	author dongato;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.03.02.18.29.41;	author lord_kiron;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.03.02.12.39.13;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.03.01.12.48.29;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.03.01.04.11.33;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.02.24.20.09.44;	author dongato;	state Exp;
+branches
+	1.14.2.1;
+next	1.13;
+
+1.13
+date	2003.02.21.20.56.14;	author forcha;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.02.21.20.18.50;	author forcha;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.02.18.19.10.37;	author cax2;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.17.19.29.48;	author cax2;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.12.00.19.49;	author cax2;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.10.20.07.31;	author obaldin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.02.13.27.42;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.02.03.39.55;	author cax2;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.01.14.45.39;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.27.13.34.25;	author dongato;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2003.01.23.17.01.52;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.54.21;	author cax2;	state Exp;
+branches;
+next	1.3.2.2;
+
+1.3.2.2
+date	2003.02.02.02.36.27;	author cax2;	state Exp;
+branches;
+next	1.3.2.3;
+
+1.3.2.3
+date	2003.02.02.03.52.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.14.2.1
+date	2003.03.01.20.59.36;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.105
+log
+@Renamed IDS_PW_NICK -> IDS_NICK; IDS_IRC_NICK replaced with IDS_NICK.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2007 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgGeneral.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgGeneral, CPropertyPage)
+
+BEGIN_MESSAGE_MAP(CPPgGeneral, CPropertyPage)
+	ON_EN_CHANGE(IDC_NICK, OnSettingsChange)
+	ON_EN_CHANGE(IDC_TOOLTIPDELAY, OnSettingsChange)
+	ON_CBN_SELCHANGE(IDC_LANGS, OnSettingsChange)
+	ON_BN_CLICKED(IDC_BEEPER, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SPLASHON, OnSettingsChange)
+	ON_BN_CLICKED(IDC_NOTIFY, OnSettingsChange)
+	ON_BN_CLICKED(IDC_ONLINESIG, OnSettingsChange)
+	ON_BN_CLICKED(IDC_MULTIPLE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_DC_CLIENT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_MP_STANDARD, OnSettingsChange)
+	ON_BN_CLICKED(IDC_MP_HIGH, OnSettingsChange)
+	ON_BN_CLICKED(IDC_WEBSVEDIT , OnBnClickedEditWebservices)
+	ON_BN_CLICKED(IDC_ED2KFIX, OnBnClickedEd2kfix)
+	ON_BN_CLICKED(IDC_AUTOTAKEED2KLINKS, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FAKE_CHECKUPDATEONSTART, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FAKE_UPDATE, OnBnClickedFakeUpdate)
+	ON_BN_CLICKED(IDC_WATCH_CLIPBOARD, OnSettingsChange)
+	ON_BN_CLICKED(IDC_LOCALIZEDLINKS, OnSettingsChange)
+	ON_EN_CHANGE(IDC_FAKE_LIST_URL, OnSettingsChange)
+	ON_WM_HSCROLL()
+	ON_NOTIFY(NM_CUSTOMDRAW, IDC_3DDEPTH, On3DDepth)
+END_MESSAGE_MAP()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPPgGeneral::CPPgGeneral()
+	: CPropertyPage(CPPgGeneral::IDD)
+	, m_bBeepOnErrors(FALSE)
+	, m_bShowSplashscreen(FALSE)
+	, m_bAllowMultipleInstances(FALSE)
+	, m_bOnlineSignature(FALSE)
+	, m_bDoubleClickClientDetails(FALSE)
+	, m_bAutoTakeEd2kLinks(FALSE)
+	, m_iMainProcess(0)
+	, m_bUpdateFakeList(FALSE)
+	, m_bWatchClipboard(FALSE)
+	, m_bLocalizedLinks(FALSE)
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPPgGeneral::~CPPgGeneral()
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::DoDataExchange(CDataExchange *pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_LANGS, m_LanguageCombo);
+	DDX_Control(pDX, IDC_PREVIEW, m_3DPreview);
+	DDX_Control(pDX, IDC_3DDEPTH, m_3DSlider);
+	DDX_Check(pDX, IDC_AUTOTAKEED2KLINKS, m_bAutoTakeEd2kLinks);
+	DDX_Check(pDX, IDC_BEEPER, m_bBeepOnErrors);
+	DDX_Check(pDX, IDC_SPLASHON, m_bShowSplashscreen);
+	DDX_Check(pDX, IDC_MULTIPLE, m_bAllowMultipleInstances);
+	DDX_Check(pDX, IDC_ONLINESIG, m_bOnlineSignature);
+	DDX_Check(pDX, IDC_DC_CLIENT, m_bDoubleClickClientDetails);
+	DDX_Check(pDX, IDC_FAKE_CHECKUPDATEONSTART, m_bUpdateFakeList);
+	DDX_Check(pDX, IDC_WATCH_CLIPBOARD, m_bWatchClipboard);
+	DDX_Check(pDX, IDC_LOCALIZEDLINKS, m_bLocalizedLinks);
+	DDX_Radio(pDX, IDC_MP_STANDARD, m_iMainProcess);
+	DDX_Text(pDX, IDC_TOOLTIPDELAY, m_strTooltipDelay);
+	DDX_Text(pDX, IDC_NICK, m_strUserNick);
+	DDX_Text(pDX, IDC_FAKE_LIST_URL, m_strUpdateFakeListURL);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPPgGeneral::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	(reinterpret_cast<CEdit*>(GetDlgItem(IDC_NICK)))->SetLimitText(MAX_NICK_LENGTH);
+
+	GetDlgItem(IDC_ED2KFIX)->EnableWindow(!CheckIsRegistrySet());
+	LoadSettings();
+	DrawPreview();
+	Localize();
+
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::LoadLanguagesCombo(void)
+{
+	CString	strLang;
+	const StructLanguage *pLangs = g_aLangs;
+
+	do
+	{
+		if (PRIMARYLANGID(pLangs->uLangs) == LANG_SPECIAL)
+		{
+		//	Unique languages not supported by OS (language names are left untranslated)
+			switch (SUBLANGID(pLangs->uLangs))
+			{
+				case SUBLNG_EXTREMADURAN:
+					strLang = _T("Extremaduran");
+					break;
+			}
+		}
+		else
+		{
+			GetLocaleInfo(pLangs->uLangs, (LOCALE_SLANGUAGE | LOCALE_USE_CP_ACP), strLang.GetBuffer(128), 128);
+			strLang.ReleaseBuffer();
+
+		//	No sublangs in brackets for the following languages
+			switch(PRIMARYLANGID(pLangs->uLangs))
+			{
+				case LANG_ENGLISH:
+				case LANG_GERMAN:
+				case LANG_FRENCH:
+				case LANG_SPANISH:
+				case LANG_DUTCH:
+				case LANG_ITALIAN:
+				case LANG_MALAY:
+				case LANG_NORWEGIAN:
+				case LANG_SERBIAN:	//LANG_CROATIAN == LANG_SERBIAN
+				{
+					int iBracket = strLang.Find(_T(" ("));
+
+				//	In some localized systems " - " could be used...
+					if ((iBracket > 0) || ((iBracket = strLang.Find(_T(" -"))) > 0))
+						strLang.Truncate(iBracket);
+					break;
+				}
+			}
+		}
+	//	Current position in the automatically sorted list
+		int		iRc = m_LanguageCombo.AddString(strLang);
+
+		if (iRc >= 0)
+		{
+			m_LanguageCombo.SetItemData(iRc, pLangs->uLangs);
+			if (pLangs->uLangs == m_pPrefs->GetLanguageID())
+			{
+			//	Select default language
+				m_LanguageCombo.SetCurSel(iRc);
+			}
+		}
+		pLangs++;
+	} while (pLangs->uLangs != 0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::LoadSettings(void)
+{
+	m_strUserNick = m_pPrefs->GetUserNick();
+
+	LoadLanguagesCombo();
+
+	m_bBeepOnErrors = m_pPrefs->IsErrorBeepEnabled();
+	m_bShowSplashscreen = m_pPrefs->UseSplashScreen();
+	m_bAllowMultipleInstances = m_pPrefs->GetMultiple();
+	m_bOnlineSignature = m_pPrefs->IsOnlineSignatureEnabled();
+	m_bDoubleClickClientDetails = m_pPrefs->GetDetailsOnClick();
+	m_bAutoTakeEd2kLinks = m_pPrefs->AutoTakeED2KLinks();
+	m_iMainProcess = (m_pPrefs->GetMainProcessPriority()) ? 1 : 0;
+	m_bUpdateFakeList = m_pPrefs->IsUpdateFakeStartupEnabled();
+	m_strUpdateFakeListURL = m_pPrefs->GetFakeListURL();
+	m_bWatchClipboard = m_pPrefs->IsWatchClipboard4ED2KLinks();
+	m_bLocalizedLinks = m_pPrefs->GetExportLocalizedLinks();
+	m_strTooltipDelay.Format(_T("%u"), m_pPrefs->GetToolTipDelay());
+
+	m_3DSlider.SetRange(-5, 5, true);
+	int tmp = m_pPrefs->Get3DDepth();
+	if (tmp > 5)
+		tmp -= 256;
+	m_3DSlider.SetPos(tmp);
+
+	UpdateData(FALSE);
+	SetModified(FALSE);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPPgGeneral::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		if (!m_strUserNick.IsEmpty())
+			m_pPrefs->SetUserNick(m_strUserNick);
+
+		int iTmp = m_LanguageCombo.GetCurSel();
+
+		if (iTmp != CB_ERR)
+		{
+			uint16	uNewLang = static_cast<uint16>(m_LanguageCombo.GetItemData(iTmp));
+
+			if (m_pPrefs->GetLanguageID() != uNewLang)
+			{
+				m_pPrefs->SetLanguageID(uNewLang);
+				g_App.m_pPrefs->InitThreadLocale();
+
+				g_App.m_pMDlg->m_dlgPreferences.Localize();
+				g_App.m_pMDlg->m_dlgStatistics.Localize();
+				g_App.m_pMDlg->m_wndServer.Localize();
+				g_App.m_pMDlg->m_wndTransfer.Localize();
+				g_App.m_pMDlg->m_dlgSearch.Localize();
+				g_App.m_pMDlg->m_wndSharedFiles.Localize();
+				g_App.m_pMDlg->m_wndChat.Localize();
+				g_App.m_pMDlg->Localize();
+				g_App.m_pMDlg->m_wndIRC.Localize();
+			}
+		}
+
+		m_pPrefs->SetErrorBeepEnabled(B2b(m_bBeepOnErrors));
+		m_pPrefs->SetUseSplashScreen(B2b(m_bShowSplashscreen));
+		m_pPrefs->SetOnlineSignatureEnabled(B2b(m_bOnlineSignature));
+		m_pPrefs->SetDetailsOnClick(B2b(m_bDoubleClickClientDetails));
+		m_pPrefs->SetMultiple(B2b(m_bAllowMultipleInstances));
+
+		byte	byteTmp = static_cast<byte>(m_3DSlider.GetPos());
+
+		if (byteTmp != m_pPrefs->Get3DDepth())
+		{
+			m_pPrefs->Set3DDepth(byteTmp);
+		//	Status bar format is changed, update the download list
+			g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.Invalidate();
+		//	Update upload lists only if upload progress bars are enabled
+			if (m_pPrefs->IsUploadPartsEnabled())
+			{
+				g_App.m_pMDlg->m_wndTransfer.m_ctlUploadList.Invalidate();
+				g_App.m_pMDlg->m_wndTransfer.m_ctlQueueList.Invalidate();
+			}
+		}
+
+		m_pPrefs->SetAutoTakeED2KLinks(B2b(m_bAutoTakeEd2kLinks));
+		m_pPrefs->SetUpdateFakeStartup(B2b(m_bUpdateFakeList));
+		m_pPrefs->SetFakeListURL(m_strUpdateFakeListURL.Trim());
+		m_pPrefs->SetWatchClipboard4ED2KLinks(B2b(m_bWatchClipboard));
+		m_pPrefs->SetExportLocalizedLinks(B2b(m_bLocalizedLinks));
+
+		if ((iTmp = _tstoi(m_strTooltipDelay)) > 60)
+			iTmp = 60;
+		m_pPrefs->SetToolTipDelay(iTmp);
+
+		iTmp *= 1000;
+		g_App.m_pMDlg->m_wndTransfer.m_ttip.SetDelayTime(TTDT_INITIAL, iTmp);
+		g_App.m_pMDlg->m_wndServer.m_ttip.SetDelayTime(TTDT_INITIAL, iTmp);
+		g_App.m_pMDlg->m_ttip.SetDelayTime(TTDT_INITIAL, iTmp);
+		g_App.m_pMDlg->m_dlgSearch.m_ttip.SetDelayTime(TTDT_INITIAL, iTmp);
+		g_App.m_pMDlg->m_wndSharedFiles.m_ttip.SetDelayTime(TTDT_INITIAL, iTmp);
+		g_App.m_pMDlg->m_wndChat.m_ttip.SetDelayTime(TTDT_INITIAL, iTmp);
+
+		m_pPrefs->SetMainProcessPriority((m_iMainProcess == 0) ? 0 : 1);
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_NICK_FRM, IDS_NICK },
+		{ IDC_LANG_FRM, IDS_PW_LANG },
+		{ IDC_MISC_FRM, IDS_PW_MISC },
+		{ IDC_BEEPER, IDS_PW_BEEP },
+		{ IDC_SPLASHON, IDS_PW_SPLASH },
+		{ IDC_TOOLTIPDELAY_LBL, IDS_PW_TOOL },
+		{ IDC_ONLINESIG, IDS_PREF_ONLINESIG },
+		{ IDC_MULTIPLE, IDS_MULTIPLE },
+		{ IDC_DC_CLIENT, IDS_DC_CLIENT },
+		{ IDC_3DDEP, IDS_3DDEP },
+		{ IDC_MAINPROCESS, IDS_MAINPROCESS_LBL },
+		{ IDC_MP_STANDARD, IDS_HASHPRIO_STANDARD },
+		{ IDC_MP_HIGH, IDS_PRIOHIGH },
+		{ IDC_WEBSVEDIT, IDS_WEBSVEDIT },
+		{ IDC_ED2KFIX, IDS_ED2KLINKFIX },
+		{ IDC_AUTOTAKEED2KLINKS, IDS_AUTOTAKEED2KLINKS },
+		{ IDC_FAKE_UPDATE, IDS_SV_UPDATE },
+		{ IDC_FAKE_CHECKUPDATEONSTART, IDS_FAKE_CHECKUPDATEONSTART },
+		{ IDC_FAKE_LIST_URL_LBL, IDS_FAKE_LIST_URL_LBL },
+		{ IDC_WATCH_CLIPBOARD, IDS_WATCH_CLIPBOARD },
+		{ IDC_LOCALIZEDLINKS, IDS_EXPORTLOCALIZEDLINKS }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar)
+{
+	SetModified(TRUE);
+	CPropertyPage::OnHScroll(nSBCode, nPos, pScrollBar);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::DrawPreview()
+{
+	m_3DPreview.SetSliderPos(m_3DSlider.GetPos());
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::On3DDepth(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NOPRM(pNMHDR);
+	DrawPreview();
+	*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::OnBnClickedEditWebservices()
+{
+	CString	strPath;
+
+	strPath.Format(_T("\"%swebservices.dat\""), g_App.m_pPrefs->GetConfigDir());
+	ShellExecute(NULL, _T("open"), g_App.m_pPrefs->GetTxtEditor(), strPath, NULL, SW_SHOW);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::OnBnClickedEd2kfix()
+{
+	Ask4RegFix();
+	GetDlgItem(IDC_ED2KFIX)->EnableWindow(!CheckIsRegistrySet());
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgGeneral::OnBnClickedFakeUpdate()
+{
+	UpdateData(true);
+
+	m_pPrefs->SetFakeListURL(m_strUpdateFakeListURL);
+	g_App.m_pFakeCheck->UpdateFakeList();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.104
+log
+@Fixed an issue when moving 3D depth bar was undoing other dialog setting changes.
+@
+text
+@d281 1
+a281 1
+		{ IDC_NICK_FRM, IDS_PW_NICK },
+@
+
+
+1.103
+log
+@Allow export localized ed2k links (skip utf8 conversion) {DoubleT}.
+@
+text
+@a318 1
+	UpdateData(false);
+@
+
+
+1.102
+log
+@fixed inproper output of the language names on Win9x systems
+@
+text
+@d47 2
+a51 1
+	ON_BN_CLICKED(IDC_WATCH_CLIPBOARD, OnSettingsChange)
+d66 1
+d88 1
+d185 1
+d255 1
+d300 2
+a301 1
+		{ IDC_WATCH_CLIPBOARD, IDS_WATCH_CLIPBOARD }
+@
+
+
+1.101
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization;
+Suppressed compiler warnings; Formatting.
+@
+text
+@d125 1
+a125 1
+			GetLocaleInfo(pLangs->uLangs, LOCALE_SLANGUAGE, strLang.GetBuffer(128), 128);
+@
+
+
+1.100
+log
+@Formatting.
+@
+text
+@d1 2
+a2 1
+// PPgGeneral.cpp : implementation file
+d4 13
+a21 1
+
+d44 1
+a44 1
+	ON_BN_CLICKED(IDC_AUTOTAKEED2KLINKS, OnBnClickedAutoTakeED2KLinks)
+d56 9
+a64 9
+	, beepOnErrors(FALSE)
+	, showSplashscreen(FALSE)
+	, allowMultipleInstances(FALSE)
+	, onlineSignature(FALSE)
+	, doubleClickClientDetails(FALSE)
+	, autoTakeEd2kLinks(FALSE)
+	, mainProcess(0)
+	, updateFakeList(FALSE)
+	, watchClipboard(FALSE)
+d75 1
+a75 1
+	DDX_Control(pDX, IDC_LANGS, languageCombo);
+d77 13
+a89 34
+	DDX_Control(pDX, IDC_3DDEPTH, threeDSlider);
+	DDX_Control(pDX, IDC_NICK, userNickEdit);
+	DDX_Control(pDX, IDC_BEEPER, beepOnErrorsCheck);
+	DDX_Control(pDX, IDC_SPLASHON, showSplashscreenCheck);
+	DDX_Control(pDX, IDC_MULTIPLE, allowMultipleInstancesCheck);
+	DDX_Control(pDX, IDC_ONLINESIG, onlineSignatureCheck);
+	DDX_Control(pDX, IDC_DC_CLIENT, doubleClickClientDetailsCheck);
+	DDX_Control(pDX, IDC_ED2KFIX, ed2kFixButton);
+	DDX_Control(pDX, IDC_AUTOTAKEED2KLINKS, autoTakeEd2kLinksCheck);
+	DDX_Check(pDX, IDC_AUTOTAKEED2KLINKS, autoTakeEd2kLinks);
+	DDX_Check(pDX, IDC_BEEPER, beepOnErrors);
+	DDX_Check(pDX, IDC_SPLASHON, showSplashscreen);
+	DDX_Check(pDX, IDC_MULTIPLE, allowMultipleInstances);
+	DDX_Check(pDX, IDC_ONLINESIG, onlineSignature);
+	DDX_Check(pDX, IDC_DC_CLIENT, doubleClickClientDetails);
+	DDX_Text(pDX, IDC_TOOLTIPDELAY, tooltipDelay);
+	DDX_Text(pDX, IDC_NICK, userNick);
+	DDX_Control(pDX, IDC_NICK_FRM, nickDesc);
+	DDX_Control(pDX, IDC_LANG_FRM, languageDesc);
+	DDX_Control(pDX, IDC_MISC_FRM, miscDesc);
+	DDX_Control(pDX, IDC_TOOLTIPDELAY_LBL, tooltipDelayDesc);
+	DDX_Control(pDX, IDC_3DDEP, threeDDepDesc);
+	DDX_Radio(pDX, IDC_MP_STANDARD, mainProcess);
+	DDX_Control(pDX, IDC_MP_STANDARD, standardProcessRadio);
+	DDX_Control(pDX, IDC_MP_HIGH, highProcessRadio);
+	DDX_Control(pDX, IDC_MAINPROCESS, mainProcessDesc);
+	DDX_Control(pDX, IDC_WEBSVEDIT, webSvEditButton);
+	DDX_Check(pDX, IDC_FAKE_CHECKUPDATEONSTART, updateFakeList);
+	DDX_Control(pDX, IDC_FAKE_CHECKUPDATEONSTART, updateFakeListCheck);
+	DDX_Control(pDX, IDC_FAKE_UPDATE, updateFakeListButton);
+	DDX_Control(pDX, IDC_FAKE_LIST_URL_LBL, updateFakeListURLLabel);
+	DDX_Text(pDX, IDC_FAKE_LIST_URL, updateFakeListURL);
+	DDX_Control(pDX, IDC_WATCH_CLIPBOARD, watchClipboardCheck);
+	DDX_Check(pDX, IDC_WATCH_CLIPBOARD, watchClipboard);
+d96 1
+a96 1
+	userNickEdit.SetLimitText(MAX_NICK_LENGTH);
+d98 1
+a98 1
+	ed2kFixButton.EnableWindow(!CheckIsRegistrySet());
+d151 1
+a151 1
+		int		iRc = languageCombo.AddString(strLang);
+d155 1
+a155 1
+			languageCombo.SetItemData(iRc, pLangs->uLangs);
+d159 1
+a159 1
+				languageCombo.SetCurSel(iRc);
+d168 1
+a168 1
+	userNick = m_pPrefs->GetUserNick();
+d172 11
+a182 11
+	beepOnErrors = m_pPrefs->IsErrorBeepEnabled();
+	showSplashscreen = m_pPrefs->UseSplashScreen();
+	allowMultipleInstances = m_pPrefs->GetMultiple();
+	onlineSignature = m_pPrefs->IsOnlineSignatureEnabled();
+	doubleClickClientDetails = m_pPrefs->GetDetailsOnClick();
+	autoTakeEd2kLinks = m_pPrefs->AutoTakeED2KLinks();
+	mainProcess = (m_pPrefs->GetMainProcessPriority()) ? 1 : 0;
+	updateFakeList = m_pPrefs->IsUpdateFakeStartupEnabled();
+	updateFakeListURL = m_pPrefs->GetFakeListURL();
+	watchClipboard = m_pPrefs->IsWatchClipboard4ED2KLinks();
+	tooltipDelay.Format(_T("%u"), m_pPrefs->GetToolTipDelay());
+d184 1
+a184 1
+	threeDSlider.SetRange(-5, 5, true);
+d188 1
+a188 1
+	threeDSlider.SetPos(tmp);
+a190 1
+
+d200 2
+a201 2
+		if (!userNick.IsEmpty())
+			m_pPrefs->SetUserNick(userNick);
+d203 1
+a203 1
+		int iTmp = languageCombo.GetCurSel();
+d207 3
+a209 2
+			WORD byNewLang = languageCombo.GetItemData(iTmp);
+			if (m_pPrefs->GetLanguageID() != byNewLang)
+d211 1
+a211 1
+				m_pPrefs->SetLanguageID(byNewLang);
+d226 5
+a230 5
+		m_pPrefs->SetErrorBeepEnabled(beepOnErrors);
+		m_pPrefs->SetUseSplashScreen(showSplashscreen);
+		m_pPrefs->SetOnlineSignatureEnabled(onlineSignature);
+		m_pPrefs->SetDetailsOnClick(doubleClickClientDetails);
+		m_pPrefs->SetMultiple(allowMultipleInstances);
+d232 1
+a232 1
+		byte	byteTmp = ((CSliderCtrl*)GetDlgItem(IDC_3DDEPTH))->GetPos();
+d243 1
+a243 1
+				g_App.m_pMDlg->m_wndTransfer.m_ctlQueueList.Invalidate();		
+d247 4
+a250 4
+		m_pPrefs->SetAutoTakeED2KLinks(autoTakeEd2kLinks);
+		m_pPrefs->SetUpdateFakeStartup(updateFakeList);
+		m_pPrefs->SetFakeListURL(updateFakeListURL.Trim());
+		m_pPrefs->SetWatchClipboard4ED2KLinks(watchClipboard);
+d252 1
+a252 1
+		if ((iTmp = _tstoi(tooltipDelay)) > 60)
+d256 7
+a262 6
+		g_App.m_pMDlg->m_wndTransfer.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_wndServer.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_dlgSearch.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_wndSharedFiles.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_wndChat.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+d264 1
+a264 1
+		m_pPrefs->SetMainProcessPriority((mainProcess == 0) ? 0 : 1);
+d274 1
+a274 1
+	if(::IsWindow(m_hWnd))
+d276 31
+a306 21
+		SetWindowText(GetResString(IDS_PW_GENERAL));
+		nickDesc.SetWindowText(GetResString(IDS_PW_NICK));
+		languageDesc.SetWindowText(GetResString(IDS_PW_LANG));
+		miscDesc.SetWindowText(GetResString(IDS_PW_MISC));
+		beepOnErrorsCheck.SetWindowText(GetResString(IDS_PW_BEEP));
+		showSplashscreenCheck.SetWindowText(GetResString(IDS_PW_SPLASH));
+		tooltipDelayDesc.SetWindowText(GetResString(IDS_PW_TOOL));
+		onlineSignatureCheck.SetWindowText(GetResString(IDS_PREF_ONLINESIG));
+		allowMultipleInstancesCheck.SetWindowText(GetResString(IDS_MULTIPLE));
+		doubleClickClientDetailsCheck.SetWindowText(GetResString(IDS_DC_CLIENT));
+		threeDDepDesc.SetWindowText(GetResString(IDS_3DDEP));
+		mainProcessDesc.SetWindowText(GetResString(IDS_MAINPROCESS_LBL));
+		standardProcessRadio.SetWindowText(GetResString(IDS_HASHPRIO_STANDARD));
+		highProcessRadio.SetWindowText(GetResString(IDS_PRIOHIGH));
+		webSvEditButton.SetWindowText(GetResString(IDS_WEBSVEDIT));
+		ed2kFixButton.SetWindowText(GetResString(IDS_ED2KLINKFIX));
+		autoTakeEd2kLinksCheck.SetWindowText(GetResString(IDS_AUTOTAKEED2KLINKS));
+		updateFakeListButton.SetWindowText(GetResString(IDS_SV_UPDATE));
+		updateFakeListCheck.SetWindowText(GetResString(IDS_FAKE_CHECKUPDATEONSTART));
+		updateFakeListURLLabel.SetWindowText(GetResString(IDS_FAKE_LIST_URL_LBL));
+		watchClipboardCheck.SetWindowText(GetResString(IDS_WATCH_CLIPBOARD));
+d319 1
+a319 1
+	m_3DPreview.SetSliderPos(threeDSlider.GetPos());
+d324 1
+a324 1
+	LPNMCUSTOMDRAW pNMCD = reinterpret_cast<LPNMCUSTOMDRAW>(pNMHDR);
+d340 1
+a340 1
+	ed2kFixButton.EnableWindow(!CheckIsRegistrySet());
+d347 1
+a347 1
+	m_pPrefs->SetFakeListURL(updateFakeListURL);
+@
+
+
+1.99
+log
+@changed the intialization of thread locale
+@
+text
+@d121 1
+a121 1
+		if (PRIMARYLANGID(pLangs->wLangs) == LANG_SPECIAL)
+d124 1
+a124 1
+			switch (SUBLANGID(pLangs->wLangs))
+d133 1
+a133 1
+			GetLocaleInfo(pLangs->wLangs, LOCALE_SLANGUAGE, strLang.GetBuffer(128), 128);
+d137 1
+a137 1
+			switch(PRIMARYLANGID(pLangs->wLangs))
+d163 2
+a164 2
+			languageCombo.SetItemData(iRc, pLangs->wLangs);
+			if (pLangs->wLangs == m_pPrefs->GetLanguageID())
+d171 1
+a171 1
+	} while (pLangs->wLangs != 0);
+@
+
+
+1.98
+log
+@Disabled Hungarian until there's any progress on it.
+@
+text
+@a115 36
+	static const WORD wLangs[] =
+	{
+		MAKELANGID(LANG_BASQUE, SUBLANG_DEFAULT),					// Basque
+		MAKELANGID(LANG_BELARUSIAN, SUBLANG_DEFAULT),				// Belarusian
+		MAKELANGID(LANG_CATALAN, SUBLANG_DEFAULT),					// Catalan
+		MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED),		// Chinese (simplified)
+		MAKELANGID(LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL),		// Chinese (traditional)
+		MAKELANGID(LANG_CROATIAN, SUBLANG_DEFAULT),					// Croatian
+		MAKELANGID(LANG_CZECH, SUBLANG_DEFAULT),					// Czech
+		MAKELANGID(LANG_DANISH, SUBLANG_DEFAULT),					// Danish
+		MAKELANGID(LANG_DUTCH, SUBLANG_DEFAULT),					// Dutch
+		MAKELANGID(LANG_ENGLISH, SUBLANG_DEFAULT),					// English
+		MAKELANGID(LANG_SPECIAL, SUBLNG_EXTREMADURAN),				// Extremaduran
+		MAKELANGID(LANG_FINNISH, SUBLANG_DEFAULT),					// Finnish
+		MAKELANGID(LANG_FRENCH, SUBLANG_DEFAULT),					// French
+		MAKELANGID(LANG_GERMAN, SUBLANG_DEFAULT),					// German
+		MAKELANGID(LANG_GREEK, SUBLANG_DEFAULT),					// Greek
+		MAKELANGID(LANG_HEBREW, SUBLANG_DEFAULT),					// Hebrew
+//		MAKELANGID(LANG_HUNGARIAN, SUBLANG_DEFAULT),				// Hungarian
+		MAKELANGID(LANG_ITALIAN, SUBLANG_DEFAULT),					// Italian
+		MAKELANGID(LANG_KOREAN, SUBLANG_DEFAULT),					// Korean
+		MAKELANGID(LANG_LITHUANIAN, SUBLANG_DEFAULT),				// Lithuanian
+		MAKELANGID(LANG_MALAY, SUBLANG_MALAY_MALAYSIA),				// Malay
+		MAKELANGID(LANG_NORWEGIAN, SUBLANG_NORWEGIAN_BOKMAL),		// Norwegian (Bokmal)
+		MAKELANGID(LANG_POLISH, SUBLANG_DEFAULT),					// Polish
+		MAKELANGID(LANG_PORTUGUESE, SUBLANG_PORTUGUESE),			// Portuguese (Portugal)
+		MAKELANGID(LANG_PORTUGUESE, SUBLANG_PORTUGUESE_BRAZILIAN),	// Portuguese (Brazilian)
+		MAKELANGID(LANG_ROMANIAN, SUBLANG_DEFAULT),					// Romanian
+		MAKELANGID(LANG_RUSSIAN, SUBLANG_DEFAULT),					// Russian
+		MAKELANGID(LANG_SERBIAN, SUBLANG_SERBIAN_LATIN),			// Serbian
+		MAKELANGID(LANG_SLOVENIAN, SUBLANG_DEFAULT),				// Slovenian
+		MAKELANGID(LANG_SPANISH, SUBLANG_SPANISH),					// Spanish
+		MAKELANGID(LANG_TURKISH, SUBLANG_DEFAULT),					// Turkish
+		MAKELANGID(LANG_UKRAINIAN, SUBLANG_DEFAULT)					// Ukrainian
+	};
+
+d117 1
+d119 1
+a119 1
+	for (int i = 0; i < ARRSIZE(wLangs); i++)
+d121 1
+a121 1
+		if (PRIMARYLANGID(wLangs[i]) == LANG_SPECIAL)
+d124 1
+a124 1
+			switch (SUBLANGID(wLangs[i]))
+d133 1
+a133 1
+			GetLocaleInfo(wLangs[i], LOCALE_SLANGUAGE, strLang.GetBuffer(128), 128);
+d137 1
+a137 1
+			switch(PRIMARYLANGID(wLangs[i]))
+d163 2
+a164 2
+			languageCombo.SetItemData(iRc, wLangs[i]);
+			if (wLangs[i] == m_pPrefs->GetLanguageID())
+d170 2
+a171 1
+	}
+d220 2
+a221 4
+				if (g_App.m_pPrefs->IsNTBased())
+				{
+					SetThreadLocale(byNewLang);
+				}
+@
+
+
+1.97
+log
+@Serbian localization.
+@
+text
+@d134 1
+a134 1
+		MAKELANGID(LANG_HUNGARIAN, SUBLANG_DEFAULT),				// Hungarian
+@
+
+
+1.96
+log
+@Removed unneeded CString initializations.
+@
+text
+@a14 2
+// CPPgGeneral dialog
+
+d145 1
+d154 1
+a154 1
+	for (int i = 0; i < ELEMENT_COUNT(wLangs); i++)
+d182 1
+@
+
+
+1.95
+log
+@Integrated Slovenian localization.
+@
+text
+@d44 10
+a53 12
+	: CPropertyPage(CPPgGeneral::IDD),
+	  beepOnErrors(FALSE),
+	  showSplashscreen(FALSE),
+	  allowMultipleInstances(FALSE),
+	  onlineSignature(FALSE),
+	  doubleClickClientDetails(FALSE),
+	  autoTakeEd2kLinks(FALSE),
+	  userNick(_T("")),
+	  tooltipDelay(_T("")),
+	  mainProcess(0),
+	  updateFakeList(FALSE),
+	  watchClipboard(FALSE)
+@
+
+
+1.94
+log
+@Enabled Hungarian.
+@
+text
+@d149 1
+@
+
+
+1.93
+log
+@Temporary disabled Hungarian as not finished.
+@
+text
+@d138 1
+a138 1
+//		MAKELANGID(LANG_HUNGARIAN, SUBLANG_DEFAULT),				// Hungarian
+@
+
+
+1.92
+log
+@Added support for Hungarian localization.
+@
+text
+@d138 1
+a138 1
+		MAKELANGID(LANG_HUNGARIAN, SUBLANG_DEFAULT),				// Hungarian
+@
+
+
+1.91
+log
+@Added Ukrainian localization.
+@
+text
+@d138 1
+@
+
+
+1.90
+log
+@Removed some code related to Indonesian localization.
+@
+text
+@d149 2
+a150 1
+		MAKELANGID(LANG_TURKISH, SUBLANG_DEFAULT)					// Turkish
+@
+
+
+1.89
+log
+@Display Norwegian in the language list without any addition.
+@
+text
+@a137 3
+#if 0
+		MAKELANGID(LANG_INDONESIAN, SUBLANG_DEFAULT),				// Indonesian
+#endif
+@
+
+
+1.88
+log
+@Malay is enabled again.
+@
+text
+@d184 1
+@
+
+
+1.87
+log
+@Temporary disabled Malay, as it's not ready for the release.
+@
+text
+@a143 1
+#if 0
+a144 1
+#endif
+@
+
+
+1.86
+log
+@Show Spanish without any addition in the language list in some strange systems {Vladimir (SV)}.
+@
+text
+@d144 1
+d146 1
+@
+
+
+1.85
+log
+@Added Malay localization.
+@
+text
+@d186 3
+a188 1
+					if(iBracket > 0)
+@
+
+
+1.84
+log
+@Czech localization.
+@
+text
+@d144 1
+d177 7
+a183 6
+				case	LANG_ENGLISH:
+				case 	LANG_GERMAN:
+				case 	LANG_FRENCH:
+				case 	LANG_SPANISH:
+				case 	LANG_DUTCH:
+				case	LANG_ITALIAN:
+@
+
+
+1.83
+log
+@Disabled Indonesian due to not finished work (maintain it for future attempts).
+@
+text
+@d128 1
+@
+
+
+1.82
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d137 1
+d139 1
+@
+
+
+1.81
+log
+@renamed 3 variables
+@
+text
+@d248 1
+a248 1
+				if (g_App.g_pPrefs->IsNTBased())
+d294 6
+a299 6
+		g_App.m_pMDlg->m_wndTransfer.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_wndServer.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_dlgSearch.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_wndSharedFiles.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+		g_App.m_pMDlg->m_wndChat.m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+d360 2
+a361 2
+	strPath.Format(_T("\"%swebservices.dat\""), g_App.g_pPrefs->GetConfigDir());
+	ShellExecute(NULL, _T("open"), g_App.g_pPrefs->GetTxtEditor(), strPath, NULL, SW_SHOW);
+@
+
+
+1.80
+log
+@Added support of Indonesian localization.
+@
+text
+@d248 1
+a248 1
+				if (g_eMuleApp.m_pGlobPrefs->IsNTBased())
+d252 9
+a260 9
+				g_eMuleApp.m_pdlgEmule->m_dlgPreferences.Localize();
+				g_eMuleApp.m_pdlgEmule->m_dlgStatistics.Localize();
+				g_eMuleApp.m_pdlgEmule->m_wndServer.Localize();
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.Localize();
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.Localize();
+				g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.Localize();
+				g_eMuleApp.m_pdlgEmule->m_wndChat.Localize();
+				g_eMuleApp.m_pdlgEmule->Localize();
+				g_eMuleApp.m_pdlgEmule->m_wndIRC.Localize();
+d276 1
+a276 1
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.Invalidate();
+d280 2
+a281 2
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.Invalidate();
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.Invalidate();		
+d294 6
+a299 6
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+		g_eMuleApp.m_pdlgEmule->m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+		g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+		g_eMuleApp.m_pdlgEmule->m_wndChat.m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+d360 2
+a361 2
+	strPath.Format(_T("\"%swebservices.dat\""), g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+	ShellExecute(NULL, _T("open"), g_eMuleApp.m_pGlobPrefs->GetTxtEditor(), strPath, NULL, SW_SHOW);
+d375 1
+a375 1
+	g_eMuleApp.m_pFakeCheck->UpdateFakeList();
+@
+
+
+1.79
+log
+@Added Extremaduran localization support.
+@
+text
+@d137 1
+@
+
+
+1.78
+log
+@Added Croatian localization by lhay.
+@
+text
+@a18 1
+//#region message map
+a40 1
+//#endregion
+d131 1
+d154 14
+a167 2
+		GetLocaleInfo(wLangs[i], LOCALE_SLANGUAGE, strLang.GetBuffer(128), 128);
+		strLang.ReleaseBuffer();
+d169 2
+a170 9
+	//	No sublangs in brackets for the following languages
+		switch(PRIMARYLANGID(wLangs[i]))
+		{
+			case	LANG_ENGLISH:
+			case 	LANG_GERMAN:
+			case 	LANG_FRENCH:
+			case 	LANG_SPANISH:
+			case 	LANG_DUTCH:
+			case	LANG_ITALIAN:
+d172 12
+a183 4
+				int iBracket = strLang.Find(" (");
+				if(iBracket > 0)
+					strLang.Truncate(iBracket);
+				break;
+d186 1
+a186 1
+	//	Current possition in the automatically sorted list
+@
+
+
+1.77
+log
+@Added Belarusian localization by Kryvich.
+@
+text
+@d129 1
+@
+
+
+1.76
+log
+@Added tooltips to the Friends list.
+@
+text
+@d124 24
+a147 23
+		MAKELANGID(LANG_BASQUE,SUBLANG_DEFAULT),  					// Basque
+		MAKELANGID(LANG_CATALAN,SUBLANG_DEFAULT),  					// Catalonian
+		MAKELANGID(LANG_CHINESE,SUBLANG_CHINESE_SIMPLIFIED), 		// Chinese (simplified)
+		MAKELANGID(LANG_CHINESE,SUBLANG_CHINESE_TRADITIONAL), 		// Chinese (traditional)
+		MAKELANGID(LANG_DANISH,SUBLANG_DEFAULT),  					// Danish
+		MAKELANGID(LANG_DUTCH,SUBLANG_DEFAULT),  					// Dutch
+		MAKELANGID(LANG_ENGLISH,SUBLANG_DEFAULT),  					// English
+		MAKELANGID(LANG_FINNISH,SUBLANG_DEFAULT),  					// Finnish
+		MAKELANGID(LANG_FRENCH,SUBLANG_DEFAULT),  					// French
+		MAKELANGID(LANG_GERMAN,SUBLANG_DEFAULT),  					// German
+		MAKELANGID(LANG_GREEK,SUBLANG_DEFAULT),  					// Greek
+		MAKELANGID(LANG_HEBREW,SUBLANG_DEFAULT),  					// Hebrew
+		MAKELANGID(LANG_ITALIAN,SUBLANG_DEFAULT),  					// Italian
+		MAKELANGID(LANG_KOREAN,SUBLANG_DEFAULT),  					// Korean
+		MAKELANGID(LANG_LITHUANIAN,SUBLANG_DEFAULT),  				// Lithuanian
+		MAKELANGID(LANG_NORWEGIAN,SUBLANG_NORWEGIAN_BOKMAL), 		// Norwegian (Bokmal)
+		MAKELANGID(LANG_POLISH,SUBLANG_DEFAULT),  					// Polish
+		MAKELANGID(LANG_PORTUGUESE,SUBLANG_PORTUGUESE),  			// Portuguese (Portugal)
+		MAKELANGID(LANG_PORTUGUESE,SUBLANG_PORTUGUESE_BRAZILIAN), 	// Portuguese (Brazilian)
+		MAKELANGID(LANG_ROMANIAN,SUBLANG_DEFAULT),  				// Romanian
+		MAKELANGID(LANG_RUSSIAN,SUBLANG_DEFAULT),  					// Russian
+		MAKELANGID(LANG_SPANISH,SUBLANG_SPANISH),  					// Spanish
+		MAKELANGID(LANG_TURKISH,SUBLANG_DEFAULT)  					// Turkish
+@
+
+
+1.75
+log
+@Added tooltips to the Search & Shared Files lists.
+@
+text
+@d284 1
+@
+
+
+1.74
+log
+@Added protection to correctly check 3DDepth parameter
+(there could be memory access outside boundaries);
+Fixed unrequired aqua-style progress bar updates after appling preferences.
+@
+text
+@d282 2
+@
+
+
+1.73
+log
+@Fixed update of the lists after status bar 3D depth is changed.
+@
+text
+@d207 2
+a208 2
+	if (tmp > 10)
+		tmp = tmp - 256;
+d255 3
+a257 2
+		iTmp = ((CSliderCtrl*)GetDlgItem(IDC_3DDEPTH))->GetPos();
+		if (iTmp != m_pPrefs->Get3DDepth())
+d259 1
+a259 1
+			m_pPrefs->Set3DDepth(iTmp);
+d275 3
+a277 7
+		int td = _tstoi(tooltipDelay);
+
+		if (td > 60)
+		{
+			td = 60;
+		}
+		m_pPrefs->SetToolTipDelay(td);
+@
+
+
+1.72
+log
+@Tooltip delay of zero is now used to disable tooltips
+@
+text
+@d225 1
+a225 1
+		int cs = languageCombo.GetCurSel();
+d227 1
+a227 1
+		if (cs != CB_ERR)
+d229 1
+a229 1
+			WORD byNewLang = languageCombo.GetItemData(cs);
+d254 15
+a268 1
+		m_pPrefs->Set3DDepth(((CSliderCtrl*)GetDlgItem(IDC_3DDEPTH))->GetPos());
+@
+
+
+1.71
+log
+@Many changes/improvements/bugfixes to new FakeCheck system
+@
+text
+@d268 3
+a270 3
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000+25); // DonGato: 25 reduce flickering
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000+25);
+		g_eMuleApp.m_pdlgEmule->m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000+25);
+@
+
+
+1.70
+log
+@Apply tooltip delay time from preferences to server list and status bar
+@
+text
+@d346 1
+a346 4
+		if (!g_eMuleApp.m_pFakeCheck->UpdateFakeList())
+	{
+		g_eMuleApp.AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_FAKE_CHECKUPERROR));
+	}
+@
+
+
+1.69
+log
+@new FakeCheck autoupdate system
+@
+text
+@d262 1
+a262 1
+		if(td > 60)
+d269 2
+@
+
+
+1.68
+log
+@update URL from GUI before performing file update
+@
+text
+@d344 4
+a347 1
+	g_eMuleApp.m_pFakeCheck->DownloadFakeList();
+@
+
+
+1.67
+log
+@A fix for the change in 1.65.
+@
+text
+@d341 3
+@
+
+
+1.66
+log
+@Updated preferences (moved logs to a new page so we can add more options in the future)
+@
+text
+@d172 4
+a175 2
+		languageCombo.SetItemData(languageCombo.AddString(strLang), wLangs[i]);
+		if (wLangs[i] == m_pPrefs->GetLanguageID())
+d177 6
+a182 2
+		//	Select default language
+			languageCombo.SetCurSel(i);
+@
+
+
+1.65
+log
+@Removed unrequired OnPaint processing;
+Optimized language combobox filling; Improved string processing;
+Removed double #include; minor improvements.
+@
+text
+@a27 1
+	ON_BN_CLICKED(IDC_LOGTOFILE, OnSettingsChange)
+a29 2
+	ON_BN_CLICKED(IDC_VERBOSE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_UPLOAD_LOG, OnSettingsChange)
+a50 3
+	  writeLogToFile(FALSE),
+	  debugLog(FALSE),
+	  uploadLog(FALSE),
+a75 3
+	DDX_Control(pDX, IDC_LOGTOFILE, writeLogToFileCheck);
+	DDX_Control(pDX, IDC_VERBOSE, debugLogCheck);
+	DDX_Control(pDX, IDC_UPLOAD_LOG, uploadLogCheck);
+a83 3
+	DDX_Check(pDX, IDC_LOGTOFILE, writeLogToFile);
+	DDX_Check(pDX, IDC_VERBOSE, debugLog);
+	DDX_Check(pDX, IDC_UPLOAD_LOG, uploadLog);
+d124 23
+a146 23
+		MAKELANGID(LANG_BASQUE,SUBLANG_DEFAULT),  // Basque
+		MAKELANGID(LANG_CATALAN,SUBLANG_DEFAULT),  // Catalonian
+		MAKELANGID(LANG_CHINESE,SUBLANG_CHINESE_SIMPLIFIED), // Chinese (simplified)
+		MAKELANGID(LANG_CHINESE,SUBLANG_CHINESE_TRADITIONAL), // Chinese (traditional)
+		MAKELANGID(LANG_DANISH,SUBLANG_DEFAULT),  // Danish
+		MAKELANGID(LANG_DUTCH,SUBLANG_DEFAULT),  // Dutch
+		MAKELANGID(LANG_ENGLISH,SUBLANG_DEFAULT),  // English
+		MAKELANGID(LANG_FINNISH,SUBLANG_DEFAULT),  // Finnish
+		MAKELANGID(LANG_FRENCH,SUBLANG_DEFAULT),  // French
+		MAKELANGID(LANG_GERMAN,SUBLANG_DEFAULT),  // German
+		MAKELANGID(LANG_GREEK,SUBLANG_DEFAULT),  // Greek
+		MAKELANGID(LANG_HEBREW,SUBLANG_DEFAULT),  // Hebrew
+		MAKELANGID(LANG_ITALIAN,SUBLANG_DEFAULT),  // Italian
+		MAKELANGID(LANG_KOREAN,SUBLANG_DEFAULT),  // Korean
+		MAKELANGID(LANG_LITHUANIAN,SUBLANG_DEFAULT),  // Lithuanian
+		MAKELANGID(LANG_NORWEGIAN,SUBLANG_NORWEGIAN_BOKMAL), //Norwegian (Bokmal)
+		MAKELANGID(LANG_POLISH,SUBLANG_DEFAULT),  // Polish
+		MAKELANGID(LANG_PORTUGUESE,SUBLANG_PORTUGUESE),  //Portuguese (Portugal)
+		MAKELANGID(LANG_PORTUGUESE,SUBLANG_PORTUGUESE_BRAZILIAN), // Portuguese (Brazilian)
+		MAKELANGID(LANG_ROMANIAN,SUBLANG_DEFAULT),  // Romanian
+		MAKELANGID(LANG_RUSSIAN,SUBLANG_DEFAULT),  // Russian
+		MAKELANGID(LANG_SPANISH,SUBLANG_SPANISH),  // Spanish
+		MAKELANGID(LANG_TURKISH,SUBLANG_DEFAULT)  // Turkish
+d155 3
+a157 1
+		switch(PRIMARYLANGID(wLangs[i]))			//Cax2 no sublangs in brackets for the following languages
+a190 3
+	writeLogToFile = m_pPrefs->LogToFile();
+	debugLog = m_pPrefs->GetVerbose();
+	uploadLog = m_pPrefs->LogUploadToFile();
+a192 1
+
+a193 2
+
+	//FakeCheck
+a195 1
+
+a196 1
+
+d220 1
+a245 1
+		m_pPrefs->SetLogToFile(writeLogToFile);
+a249 9
+		if (m_pPrefs->GetVerbose() != (bool)debugLog)
+		{
+			m_pPrefs->SetVerbose(debugLog);
+			g_eMuleApp.m_pdlgEmule->m_wndServer.ToggleDebugWindow();
+			if(debugLog)
+				AddDebugLogLine(false, _T("Debug log is active"));
+		}
+		m_pPrefs->SetLogUploadToFile(uploadLog);
+		//FakeCheck
+a251 1
+
+d255 1
+d257 1
+d259 1
+a283 1
+		writeLogToFileCheck.SetWindowText(GetResString(IDS_LOGTOFILE));
+a286 2
+		debugLogCheck.SetWindowText(GetResString(IDS_VERBOSE));
+		uploadLogCheck.SetWindowText(GetResString(IDS_UPLOAD_LOG));
+@
+
+
+1.64
+log
+@Updated preferences dialogs.
+Added upload log file (should be tested).
+@
+text
+@a6 1
+#include ".\ppggeneral.h"
+d161 3
+a163 2
+	CString szLang;
+	for(int i = 0; i < sizeof(wLangs) / sizeof(WORD); i++)
+d165 2
+a166 2
+		GetLocaleInfo(wLangs[i], LOCALE_SLANGUAGE, szLang.GetBuffer(128), 128);
+		szLang.ReleaseBuffer();
+d176 1
+a176 1
+				int iBracket = szLang.Find('(');
+d178 1
+a178 1
+					szLang.Delete(iBracket, szLang.GetLength() - iBracket);
+d182 6
+a187 1
+		languageCombo.SetItemData(languageCombo.AddString(szLang), wLangs[i]);
+a195 8
+	for(int i = 0; i != languageCombo.GetCount(); i++)
+	{
+		if(languageCombo.GetItemData(i) == m_pPrefs->GetLanguageID())
+		{
+			languageCombo.SetCurSel(i);
+			break;
+		}
+	}
+d207 1
+a207 12
+	switch(m_pPrefs->GetMainProcessPriority())
+	{
+		case 0:
+			mainProcess = 0;
+			break;
+		case 1:
+			mainProcess = 1;
+			break;
+		default:
+			mainProcess = 1;
+			break;
+	}
+d210 2
+a211 2
+	updateFakeList = m_pPrefs->IsUpdateFakeStartupEnabled();	// Changed by DropF
+	updateFakeListURL = m_pPrefs->GetFakeListURL();				// Added by DropF
+d215 1
+a215 1
+	tooltipDelay.Format(_T("%d"), m_pPrefs->GetToolTipDelay());
+d243 1
+a243 1
+				m_pPrefs->SetLanguageID( byNewLang);
+d277 2
+a278 2
+		m_pPrefs->SetUpdateFakeStartup(updateFakeList);	// Changed by DropF
+		m_pPrefs->SetFakeListURL(updateFakeListURL.Trim());	// Added by DropF
+d289 1
+a289 4
+		if(mainProcess == 0)
+			m_pPrefs->SetMainProcessPriority(0);
+		else
+			m_pPrefs->SetMainProcessPriority(1);
+a334 6
+void CPPgGeneral::OnPaint()
+{
+	CPropertyPage::OnPaint();
+	DrawPreview();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d349 4
+a352 1
+	ShellExecute(NULL, _T("open"), g_eMuleApp.m_pGlobPrefs->GetTxtEditor(), _T("\"")+CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir())+_T("webservices.dat\""), NULL, SW_SHOW);
+@
+
+
+1.63
+log
+@Added definition of maximal user name.
+@
+text
+@d33 1
+d57 1
+d85 1
+d96 1
+d206 1
+d289 1
+d331 1
+@
+
+
+1.62
+log
+@improved fakelist download, and added fakes.rar file support
+@
+text
+@d119 1
+a119 1
+	userNickEdit.SetLimitText(49);
+@
+
+
+1.61
+log
+@Minor change
+@
+text
+@d376 1
+a376 2
+	if (!g_eMuleApp.m_pFakeCheck->DownloadFakeList())
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_FAKE_CHECKUPERROR));
+@
+
+
+1.60
+log
+@Formatting, name changes and deleting spaces and tabs at end of lines
+@
+text
+@d7 1
+a37 1
+//	FakeCheck
+d43 1
+d61 2
+a62 1
+	  updateFakeList(FALSE)
+a105 1
+//	FakeCheck
+d111 2
+d222 2
+d288 2
+a330 1
+		//FakeCheck
+d334 1
+@
+
+
+1.59
+log
+@KuSh localization fix for filter tabs.
+@
+text
+@d92 1
+a92 1
+	DDX_Text(pDX, IDC_TOOLTIPDELAY, tooltipDelay);	
+d117 1
+a117 1
+	
+d128 1
+a128 1
+	static const WORD wLangs[] = 
+d154 3
+a156 3
+	
+	CString szLang;	
+	for(int i = 0; i < sizeof(wLangs) / sizeof(WORD); i++) 
+d168 1
+a168 1
+			{	
+d192 1
+a192 1
+		
+d219 1
+a219 1
+	tooltipDelay.Format(_T("%d"), m_pPrefs->GetToolTipDelay());	
+d237 1
+a237 1
+					
+d240 1
+a240 1
+	
+d263 1
+a263 1
+		
+d278 1
+a278 1
+		}	
+d282 1
+a282 1
+		
+d289 2
+a290 2
+		
+		if(mainProcess == 0)		
+d294 1
+a294 1
+		
+d312 1
+a312 1
+		onlineSignatureCheck.SetWindowText(GetResString(IDS_PREF_ONLINESIG));	
+d331 1
+a331 1
+void CPPgGeneral::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar) 
+d334 1
+a334 1
+	UpdateData(false); 
+d358 1
+a358 1
+	ShellExecute(NULL, _T("open"), g_eMuleApp.m_pGlobPrefs->GetTxtEditor(), _T("\"")+CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir())+_T("webservices.dat\""), NULL, SW_SHOW); 
+@
+
+
+1.58
+log
+@Minor changes
+@
+text
+@a260 1
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.EditCatTabLabel(0, CCat::GetPredefinedCatTitle(CCat::GetAllCatType()));
+@
+
+
+1.57
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d326 1
+a326 1
+		updateFakeListButton.SetWindowText(GetResString(IDS_FAKE_UPDATE));
+@
+
+
+1.56
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d371 1
+a371 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_FAKE_CHECKUPERROR));
+@
+
+
+1.55
+log
+@Added some colors to the logs...
+@
+text
+@d278 1
+a278 1
+				AddDebugLogLine(false,_T("Debug log is active"));
+d371 1
+a371 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_FAKE_CHECKUPERROR));
+@
+
+
+1.54
+log
+@added Norwegian (Bokmal) language [True Neo]
+@
+text
+@d371 1
+a371 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, GetResString(IDS_FAKE_CHECKUPERROR));
+@
+
+
+1.53
+log
+@Formatting, comments, and name changes.
+@
+text
+@d130 1
+d144 2
+d148 2
+a149 1
+		MAKELANGID(LANG_PORTUGUESE,SUBLANG_PORTUGUESE_BRAZILIAN), // Portuguese (Brasilian)
+a151 3
+		MAKELANGID(LANG_LITHUANIAN,SUBLANG_DEFAULT),  // Lithuanian
+		MAKELANGID(LANG_ROMANIAN,SUBLANG_DEFAULT),  // Romanian
+		MAKELANGID(LANG_BASQUE,SUBLANG_DEFAULT),  // Basque
+@
+
+
+1.52
+log
+@FakeCheck for Search Result and Download List (Check and Report ... made by milobac ... merged by DropF ... tested by n@@boleo and me)
+@
+text
+@a15 1
+//CBarShader CPPgGeneral::s_preview(16,16); 
+d18 29
+d48 13
+a60 13
+	: CPropertyPage(CPPgGeneral::IDD)
+	, beepOnErrors(FALSE)
+	, showSplashscreen(FALSE)
+	, allowMultipleInstances(FALSE)
+	, onlineSignature(FALSE)
+	, writeLogToFile(FALSE)
+	, debugLog(FALSE)
+	, doubleClickClientDetails(FALSE)
+	, autoTakeEd2kLinks(FALSE)
+	, userNick(_T(""))
+	, tooltipDelay(_T(""))	
+	, mainProcess(0)
+	, updateFakeList(FALSE)
+d63 1
+a63 1
+
+d67 2
+a68 2
+
+void CPPgGeneral::DoDataExchange(CDataExchange* pDX)
+d104 1
+a104 1
+	// FakeCheck
+d111 1
+a111 26
+
+BEGIN_MESSAGE_MAP(CPPgGeneral, CPropertyPage)
+	ON_EN_CHANGE(IDC_NICK, OnSettingsChange)
+	ON_EN_CHANGE(IDC_TOOLTIPDELAY, OnSettingsChange)
+	ON_CBN_SELCHANGE(IDC_LANGS, OnSettingsChange)
+	ON_BN_CLICKED(IDC_BEEPER, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SPLASHON, OnSettingsChange)
+	ON_BN_CLICKED(IDC_NOTIFY, OnSettingsChange)
+	ON_BN_CLICKED(IDC_ONLINESIG, OnSettingsChange)
+	ON_BN_CLICKED(IDC_LOGTOFILE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_MULTIPLE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_DC_CLIENT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_VERBOSE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_MP_STANDARD, OnSettingsChange)
+	ON_BN_CLICKED(IDC_MP_HIGH, OnSettingsChange)
+	ON_BN_CLICKED(IDC_WEBSVEDIT , OnBnClickedEditWebservices)
+	ON_BN_CLICKED(IDC_ED2KFIX, OnBnClickedEd2kfix)
+	ON_BN_CLICKED(IDC_AUTOTAKEED2KLINKS, OnBnClickedAutoTakeED2KLinks)
+	//FakeCheck
+	ON_BN_CLICKED(IDC_FAKE_CHECKUPDATEONSTART, OnSettingsChange)
+	ON_BN_CLICKED(IDC_FAKE_UPDATE, OnBnClickedFakeUpdate)
+	ON_EN_CHANGE(IDC_FAKE_LIST_URL, OnSettingsChange)
+	ON_WM_HSCROLL()
+	ON_NOTIFY(NM_CUSTOMDRAW, IDC_3DDEPTH, On3DDepth)
+END_MESSAGE_MAP()
+
+d125 1
+a125 1
+
+d177 1
+a177 1
+
+d230 1
+a230 1
+
+d300 1
+a300 1
+
+d330 1
+a330 1
+
+d337 1
+d343 1
+a343 1
+
+d348 1
+a348 1
+
+d355 1
+a355 1
+
+d360 1
+a360 1
+
+d366 1
+a366 2
+
+//FakeCheck
+d369 1
+a369 1
+	if(!g_eMuleApp.m_pFakeCheck->DownloadFakeList())
+d372 1
+@
+
+
+1.51
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@d32 1
+d76 6
+d101 4
+d211 4
+d276 3
+d321 4
+d361 7
+@
+
+
+1.50
+log
+@Changed preferences (added some missing ones)
+Updated unpause/clearcomplete when using FileStatus icons
+@
+text
+@d242 1
+a242 1
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.EditCatTabLabel(0, GetCatTitle(g_eMuleApp.m_pGlobPrefs->GetAllcatType()));
+@
+
+
+1.49
+log
+@Formatting, comments, and name changes.
+@
+text
+@d28 1
+d53 3
+d92 2
+d104 1
+d185 1
+d253 1
+d301 2
+d333 6
+@
+
+
+1.48
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d159 1
+a159 1
+	userNick = app_prefs->GetUserNick();
+d164 1
+a164 1
+		if(languageCombo.GetItemData(i) == app_prefs->GetLanguageID())
+d171 7
+a177 7
+	beepOnErrors = app_prefs->IsErrorBeepEnabled();
+	showSplashscreen = app_prefs->UseSplashScreen();
+	allowMultipleInstances = app_prefs->GetMultiple();
+	onlineSignature = app_prefs->IsOnlineSignatureEnabled();
+	writeLogToFile = app_prefs->LogToFile();
+	debugLog = app_prefs->GetVerbose();
+	doubleClickClientDetails = app_prefs->GetDetailsOnClick();
+d179 1
+a179 1
+	switch(app_prefs->GetMainProcessPriority())
+d192 1
+a192 1
+	tooltipDelay.Format(_T("%d"), app_prefs->GetToolTipDelay());	
+d195 1
+a195 1
+	int tmp = app_prefs->Get3DDepth();
+d212 1
+a212 1
+			app_prefs->SetUserNick(userNick);
+d218 1
+a218 1
+			if (app_prefs->GetLanguageID() != byNewLang)
+d220 1
+a220 1
+				app_prefs->SetLanguageID( byNewLang);
+d238 8
+a245 8
+		app_prefs->SetErrorBeepEnabled(beepOnErrors);
+		app_prefs->SetUseSplashScreen(showSplashscreen);
+		app_prefs->SetOnlineSignatureEnabled(onlineSignature);
+		app_prefs->SetLogToFile(writeLogToFile);
+		app_prefs->SetDetailsOnClick(doubleClickClientDetails);
+		app_prefs->SetMultiple(allowMultipleInstances);
+		app_prefs->Set3DDepth(((CSliderCtrl*)GetDlgItem(IDC_3DDEPTH))->GetPos());
+		if (app_prefs->GetVerbose() != (bool)debugLog)
+d247 1
+a247 1
+			app_prefs->SetVerbose(debugLog);
+d256 1
+a256 1
+		app_prefs->SetToolTipDelay(td);
+d261 1
+a261 1
+			app_prefs->SetMainProcessPriority(0);
+d263 1
+a263 1
+			app_prefs->SetMainProcessPriority(1);
+@
+
+
+1.47
+log
+@Bugfixed my bugfix (tabs lozalization) and code update to see if columns have no problems being moved (sporadic repro).
+@
+text
+@d221 1
+a221 1
+				if (theApp.glob_prefs->IsNTBased())
+d225 10
+a234 10
+				theApp.emuledlg->preferenceswnd.Localize();
+				theApp.emuledlg->statisticswnd.Localize();
+				theApp.emuledlg->serverwnd.Localize();
+				theApp.emuledlg->transferwnd.Localize();
+				theApp.emuledlg->searchwnd.Localize();
+				theApp.emuledlg->sharedfileswnd.Localize();
+				theApp.emuledlg->chatwnd.Localize();
+				theApp.emuledlg->Localize();
+				theApp.emuledlg->ircwnd.Localize();
+				theApp.emuledlg->transferwnd.EditCatTabLabel(0, GetCatTitle(theApp.glob_prefs->GetAllcatType()));
+d248 1
+a248 1
+			theApp.emuledlg->serverwnd.ToggleDebugWindow();
+d258 1
+a258 1
+		theApp.emuledlg->transferwnd.m_ttip.SetDelayTime(TTDT_INITIAL, theApp.glob_prefs->GetToolTipDelay()*1000+25); // DonGato: 25 reduce flickering
+d321 1
+a321 1
+	ShellExecute(NULL, _T("open"), theApp.glob_prefs->GetTxtEditor(), _T("\"")+CString(theApp.glob_prefs->GetConfigDir())+_T("webservices.dat\""), NULL, SW_SHOW); 
+@
+
+
+1.46
+log
+@Fixed start paused files by category (when option set or by menu)
+Removed Reset All Statistics (agreed with Eklmn that has no use and it brings problems)
+Removed Mobile Mule profile
+Localized 'All' tab when language changed
+@
+text
+@d234 1
+a234 1
+				theApp.emuledlg->transferwnd.EditCatTabLabel(theApp.glob_prefs->GetAllcatType(),GetResString(IDS_ALL));
+@
+
+
+1.45
+log
+@Removed DoubleClick option (now is default).
+Added cancel for Categories Dialog (now no more ? cats after cancel)
+@
+text
+@d234 1
+@
+
+
+1.44
+log
+@Fixes and updates (read forum to know)
+@
+text
+@a26 1
+	, doubleClickDownloadList(FALSE)
+a50 1
+	DDX_Control(pDX, IDC_DBLCLICK, doubleClickDownloadListCheck);
+a57 1
+	DDX_Check(pDX, IDC_DBLCLICK, doubleClickDownloadList);
+a78 1
+	ON_BN_CLICKED(IDC_DBLCLICK, OnSettingsChange)
+a176 1
+	doubleClickDownloadList = app_prefs->IsDoubleClickEnabled();
+a238 1
+		app_prefs->SetDoubleClickEnabled(doubleClickDownloadList);
+a279 1
+		doubleClickDownloadListCheck.SetWindowText(GetResString(IDS_PW_DBLCLICK));
+@
+
+
+1.43
+log
+@Implemented ConfigDir
+@
+text
+@a269 3
+		theApp.emuledlg->transferwnd.m_wndDownloadList.SetStyle();
+		theApp.emuledlg->toolbar.ShowSpeedMeter(app_prefs->GetShowToolbarSpeedMeter());
+	
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@d330 1
+a330 1
+	ShellExecute(NULL, _T("open"), theApp.glob_prefs->GetTxtEditor(), _T("\"")+CString(theApp.glob_prefs->GetAppDir())+_T("webservices.dat\""), NULL, SW_SHOW); 
+@
+
+
+1.41
+log
+@added portuguese (Portugal) language
+@
+text
+@d270 1
+a270 1
+		theApp.emuledlg->transferwnd.downloadlistctrl.SetStyle();
+@
+
+
+1.40
+log
+@Removed unneeded log lines
+@
+text
+@d127 1
+@
+
+
+1.39
+log
+@Option to disable filetype icons.
+@
+text
+@d1 1
+a1 1
+ // PPgGeneral.cpp : implementation file
+d165 4
+a168 2
+	for(int i = 0; i != languageCombo.GetCount(); i++) {
+		if(languageCombo.GetItemData(i) == app_prefs->GetLanguageID()) {
+d219 2
+a220 1
+		if (cs != CB_ERR){
+d222 2
+a223 1
+			if (app_prefs->GetLanguageID() != byNewLang){
+d225 1
+a225 1
+				if ( theApp.glob_prefs->IsNTBased() )
+a253 2
+			{
+				AddLogLine(false,_T("%s: %s"),GetResString(IDS_VERBOSE), GetResString(IDS_ENABLED).MakeLower());
+a254 3
+			} else {
+				AddLogLine(false,_T("%s: %s"),GetResString(IDS_VERBOSE), GetResString(IDS_DISABLED).MakeLower());
+			}
+a317 12
+/*	CDC* pDC(GetDlgItem(IDC_PREVIEW)->GetWindowDC());
+	RECT outline_rec;
+	outline_rec.top=0;
+	outline_rec.bottom=18;
+	outline_rec.left=0;
+	outline_rec.right=18;
+	pDC->FrameRect(&outline_rec, &CBrush(RGB(127,127,127)));
+	s_preview.SetFileSize(16);
+	s_preview.Fill(RGB(192,192,255)); 
+	s_preview.DrawPreview(pDC, 1, 1, ((CSliderCtrl*)GetDlgItem(IDC_3DDEPTH))->GetPos()); 
+	GetDlgItem(IDC_PREVIEW)->ReleaseDC(pDC);*/
+
+d327 2
+a328 1
+void CPPgGeneral::OnBnClickedEditWebservices(){
+@
+
+
+1.38
+log
+@Tooltip flickering fix after preferences change
+@
+text
+@a24 1
+	, ShowAverageDatarate(FALSE)
+a28 1
+	, showA4AF(FALSE)
+a49 1
+	DDX_Control(pDX, IDC_SHOWAVGDATARATE, ShowAverageDatarateCheck);
+a53 1
+	DDX_Control(pDX, IDC_A4AF, showA4AFCheck);
+a57 1
+	DDX_Check(pDX, IDC_SHOWAVGDATARATE, ShowAverageDatarate);
+a61 1
+	DDX_Check(pDX, IDC_A4AF, showA4AF);	
+a84 1
+	ON_BN_CLICKED(IDC_SHOWAVGDATARATE, OnSettingsChange)
+a88 1
+	ON_BN_CLICKED(IDC_A4AF, OnSettingsChange)
+a179 2
+	showA4AF = app_prefs->IsA4AFStringEnabled();
+	ShowAverageDatarate = app_prefs->GetShowAverageDatarate();
+a242 2
+		app_prefs->SetA4AFStringEnabled(showA4AF);
+		app_prefs->SetShowAverageDatarate(ShowAverageDatarate);
+a296 2
+		showA4AFCheck.SetWindowText(GetResString(IDS_A4AF));
+		ShowAverageDatarateCheck.SetWindowText(GetResString(IDS_SHOWAVGDATARATE));
+@
+
+
+1.37
+log
+@Added Show Average Datarate option.
+@
+text
+@d275 1
+a275 1
+		theApp.emuledlg->transferwnd.m_ttip.SetDelayTime(TTDT_INITIAL, theApp.glob_prefs->GetToolTipDelay()*1000);
+@
+
+
+1.36
+log
+@converted to use DDX framework
+@
+text
+@d25 1
+a25 1
+	, showSpeedmeter(FALSE)
+d52 1
+a52 1
+	DDX_Control(pDX, IDC_TBSPEEDMETER, showSpeedmeterCheck);
+d62 1
+a62 1
+	DDX_Check(pDX, IDC_TBSPEEDMETER, showSpeedmeter);
+d91 1
+a91 1
+	ON_BN_CLICKED(IDC_TBSPEEDMETER, OnSettingsChange)
+a183 1
+	showSpeedmeter = app_prefs->GetShowToolbarSpeedMeter();
+d189 2
+a190 1
+	
+a250 1
+		app_prefs->SetShowToolbarSpeedMeter(showSpeedmeter);
+d254 1
+a303 1
+		showSpeedmeterCheck.SetWindowText(GetResString(IDS_PW_SHOWTOOLBARSPEEDMETER));
+d310 1
+@
+
+
+1.35
+log
+@n@@boleo: minor change
+@
+text
+@d21 13
+d44 1
+a44 2
+	DDX_Control(pDX, IDC_LANGS, m_language);
+	//DDX_Control(pDX, IDC_PREVIEW, s_preview);
+d46 34
+d108 8
+a115 1
+	((CEdit*)GetDlgItem(IDC_NICK))->SetLimitText(49);
+d117 3
+a119 2
+	// pooz
+	const WORD wLangs[] = 
+d144 1
+a144 2
+	TCHAR szLang[128];
+	CString strBuffer;	
+d147 3
+a149 3
+		GetLocaleInfo(wLangs[i], LOCALE_SLANGUAGE, szLang, sizeof(szLang));
+		strBuffer=szLang;
+		switch(wLangs[i] & 0xff)			//Cax2 no sublangs in brackets for the following languages
+d158 1
+a158 1
+				int iBracket = strBuffer.Find('(');
+d160 1
+a160 1
+					strBuffer.Delete(iBracket, strBuffer.GetLength()-iBracket);
+d164 1
+a164 1
+		m_language.SetItemData(m_language.AddString(strBuffer), wLangs[i]);
+a165 6
+	// end pooz
+	LoadSettings();
+	DrawPreview();
+	Localize();
+
+	return TRUE;
+d170 1
+a170 1
+	GetDlgItem(IDC_NICK)->SetWindowText(app_prefs->GetUserNick());
+d172 18
+a189 3
+	for(int i = 0; i != m_language.GetCount(); i++)
+		if(m_language.GetItemData(i) == app_prefs->GetLanguageID())
+			m_language.SetCurSel(i);
+a190 50
+	if (app_prefs->IsOnlineSignatureEnabled())
+		CheckDlgButton(IDC_ONLINESIG,1);
+	else
+		CheckDlgButton(IDC_ONLINESIG,0);
+	
+	if(app_prefs->IsErrorBeepEnabled())
+		CheckDlgButton(IDC_BEEPER,1);
+	else
+		CheckDlgButton(IDC_BEEPER,0);
+
+	if(app_prefs->UseSplashScreen())
+		CheckDlgButton(IDC_SPLASHON,1);
+	else
+		CheckDlgButton(IDC_SPLASHON,0);
+
+	if(app_prefs->IsDoubleClickEnabled())
+		CheckDlgButton(IDC_DBLCLICK,1);
+	else
+		CheckDlgButton(IDC_DBLCLICK,0);
+
+	if(app_prefs->GetShowToolbarSpeedMeter())
+		CheckDlgButton(IDC_TBSPEEDMETER, 1);
+	else
+		CheckDlgButton(IDC_TBSPEEDMETER, 0);
+
+	if(app_prefs->LogToFile())
+		CheckDlgButton(IDC_LOGTOFILE, 1);
+	else
+		CheckDlgButton(IDC_LOGTOFILE, 0);
+
+	if(app_prefs->GetDetailsOnClick())
+		CheckDlgButton(IDC_DC_CLIENT, 1);
+	else
+		CheckDlgButton(IDC_DC_CLIENT, 0);
+
+	if(app_prefs->IsA4AFStringEnabled())
+		CheckDlgButton(IDC_A4AF, 1);
+	else
+		CheckDlgButton(IDC_A4AF, 0);
+
+	if(app_prefs->GetMultiple())
+		CheckDlgButton(IDC_MULTIPLE,1);
+	else
+		CheckDlgButton(IDC_MULTIPLE,0);
+
+	if(app_prefs->GetVerbose())
+		CheckDlgButton(IDC_VERBOSE,1);
+	else
+		CheckDlgButton(IDC_VERBOSE,0);
+
+d194 1
+a194 1
+			CheckDlgButton(IDC_MP_STANDARD,1);
+d197 1
+a197 1
+			CheckDlgButton(IDC_MP_HIGH,1);
+d200 1
+a200 1
+			CheckDlgButton(IDC_MP_HIGH,1);
+d204 9
+a212 9
+	CString strBuffer;
+	strBuffer.Format(_T("%d"), app_prefs->GetToolTipDelay());
+	GetDlgItem(IDC_TOOLTIPDELAY)->SetWindowText(strBuffer);
+
+	CSliderCtrl *slider3D = (CSliderCtrl*)GetDlgItem(IDC_3DDEPTH);
+	slider3D->SetRange(-5, 5, true);
+	int tmp=app_prefs->Get3DDepth();
+	if (tmp>10) tmp=tmp-256;
+	slider3D->SetPos(tmp);
+a218 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d221 8
+a228 8
+		TCHAR buffer[550];
+		if(GetDlgItem(IDC_NICK)->GetWindowTextLength())
+		{
+			GetDlgItem(IDC_NICK)->GetWindowText(buffer,50);
+			app_prefs->SetUserNick(buffer);
+		}
+		if (m_language.GetCurSel() != CB_ERR){
+			WORD byNewLang =  m_language.GetItemData(m_language.GetCurSel());
+d246 10
+a255 10
+	
+		app_prefs->SetErrorBeepEnabled((int8)IsDlgButtonChecked(IDC_BEEPER));
+		app_prefs->SetUseSplashScreen((int8)IsDlgButtonChecked(IDC_SPLASHON));
+		app_prefs->SetDoubleClickEnabled((int8)IsDlgButtonChecked(IDC_DBLCLICK));
+		app_prefs->SetOnlineSignatureEnabled((int8)IsDlgButtonChecked(IDC_ONLINESIG));
+		app_prefs->SetShowToolbarSpeedMeter((int8)IsDlgButtonChecked(IDC_TBSPEEDMETER));
+		app_prefs->SetLogToFile((int8)IsDlgButtonChecked(IDC_LOGTOFILE));
+		app_prefs->SetDetailsOnClick((int8)IsDlgButtonChecked(IDC_DC_CLIENT));
+		app_prefs->SetA4AFStringEnabled((int8)IsDlgButtonChecked(IDC_A4AF));
+		app_prefs->SetMultiple((int8)IsDlgButtonChecked(IDC_MULTIPLE));
+d257 1
+a257 1
+		if (app_prefs->GetVerbose()!=(bool)IsDlgButtonChecked(IDC_VERBOSE))
+d259 1
+a259 1
+			app_prefs->SetVerbose((int8)IsDlgButtonChecked(IDC_VERBOSE));
+d261 8
+a268 8
+			if(IsDlgButtonChecked(IDC_VERBOSE))
+				{
+					AddLogLine(false,_T("%s: %s"),GetResString(IDS_VERBOSE), GetResString(IDS_ENABLED).MakeLower());
+					AddDebugLogLine(false,_T("Debug log is active"));
+				} else {
+					AddLogLine(false,_T("%s: %s"),GetResString(IDS_VERBOSE), GetResString(IDS_DISABLED).MakeLower());
+				}
+		}
+d270 6
+a275 6
+		GetDlgItem(IDC_TOOLTIPDELAY)->GetWindowText(buffer,20);
+		if(_tstoi(buffer) > 60)
+			app_prefs->SetToolTipDelay(60);
+		else
+			app_prefs->SetToolTipDelay( _tstoi(buffer));
+		((CemuleDlg*)AfxGetMainWnd())->transferwnd.m_ttip.SetDelayTime(TTDT_INITIAL, theApp.glob_prefs->GetToolTipDelay()*1000);
+d277 1
+a277 2
+		if(IsDlgButtonChecked(IDC_MP_STANDARD))
+		{
+a278 1
+		}
+a279 1
+		{
+a280 1
+		}
+d293 1
+a293 1
+	if(m_hWnd)
+d296 19
+a314 19
+		GetDlgItem(IDC_NICK_FRM)->SetWindowText(GetResString(IDS_PW_NICK));
+		GetDlgItem(IDC_LANG_FRM)->SetWindowText(GetResString(IDS_PW_LANG));
+		GetDlgItem(IDC_MISC_FRM)->SetWindowText(GetResString(IDS_PW_MISC));
+		GetDlgItem(IDC_BEEPER)->SetWindowText(GetResString(IDS_PW_BEEP));
+		GetDlgItem(IDC_SPLASHON)->SetWindowText(GetResString(IDS_PW_SPLASH));
+		GetDlgItem(IDC_DBLCLICK)->SetWindowText(GetResString(IDS_PW_DBLCLICK));
+		GetDlgItem(IDC_TOOLTIPDELAY_LBL)->SetWindowText(GetResString(IDS_PW_TOOL));
+		GetDlgItem(IDC_ONLINESIG)->SetWindowText(GetResString(IDS_PREF_ONLINESIG));	
+		GetDlgItem(IDC_TBSPEEDMETER)->SetWindowText(GetResString(IDS_PW_SHOWTOOLBARSPEEDMETER));
+		GetDlgItem(IDC_LOGTOFILE)->SetWindowText(GetResString(IDS_LOGTOFILE));
+		GetDlgItem(IDC_MULTIPLE)->SetWindowText(GetResString(IDS_MULTIPLE));
+		GetDlgItem(IDC_DC_CLIENT)->SetWindowText(GetResString(IDS_DC_CLIENT));
+		GetDlgItem(IDC_3DDEP)->SetWindowText(GetResString(IDS_3DDEP));
+		GetDlgItem(IDC_VERBOSE)->SetWindowText(GetResString(IDS_VERBOSE));
+		GetDlgItem(IDC_A4AF)->SetWindowText(GetResString(IDS_A4AF));
+		GetDlgItem(IDC_MAINPROCESS)->SetWindowText(GetResString(IDS_MAINPROCESS_LBL));
+		GetDlgItem(IDC_MP_STANDARD)->SetWindowText(GetResString(IDS_HASHPRIO_STANDARD));
+		GetDlgItem(IDC_MP_HIGH)->SetWindowText(GetResString(IDS_PRIOHIGH));
+		GetDlgItem(IDC_WEBSVEDIT)->SetWindowText(GetResString(IDS_WEBSVEDIT));
+d332 1
+a332 1
+	m_3DPreview.SetSliderPos(((CSliderCtrl*)GetDlgItem(IDC_3DDEPTH))->GetPos());
+@
+
+
+1.34
+log
+@unicode cleanup
+@
+text
+@d254 1
+@
+
+
+1.33
+log
+@Added Turkish Language
+@
+text
+@d193 1
+a193 1
+	strBuffer.Format("%d", app_prefs->GetToolTipDelay());
+d211 1
+a211 1
+		char buffer[550];
+d253 1
+a253 1
+					AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_ENABLED).MakeLower());
+d255 1
+a255 1
+					AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_DISABLED).MakeLower());
+d260 1
+a260 1
+		if(atoi(buffer) > 60)
+d263 1
+a263 1
+			app_prefs->SetToolTipDelay( atoi(buffer));
+d348 1
+a348 1
+	ShellExecute(NULL, "open", theApp.glob_prefs->GetTxtEditor(), "\""+CString(theApp.glob_prefs->GetAppDir())+"webservices.dat\"", NULL, SW_SHOW); 
+@
+
+
+1.32
+log
+@Webserver from official 0.27c
+@
+text
+@d86 2
+a87 2
+		MAKELANGID(LANG_BASQUE,SUBLANG_DEFAULT)  // Basque
+
+@
+
+
+1.31
+log
+@Added Basque Language
+@
+text
+@d86 1
+a86 1
+		MAKELANGID(LANG_BASQUE,SUBLANG_DEFAULT)  // Romanian
+@
+
+
+1.30
+log
+@me = idiot... reverted yesterdays change
+@
+text
+@d85 3
+a87 1
+		MAKELANGID(LANG_ROMANIAN,SUBLANG_DEFAULT)  // Romanian
+@
+
+
+1.29
+log
+@change process-priority without restart (some language files need to be updated)
+@
+text
+@a275 2
+		theApp.SetThreadPriority(THREAD_PRIORITY_NORMAL + app_prefs->GetMainProcessPriority());
+
+@
+
+
+1.28
+log
+@Removed option for Establishing Friend Slot (not good for zz system) and changed the way of setting Auto priorities again (THX netwolf!)
+@
+text
+@d276 2
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d209 1
+a209 1
+		char buffer[510];
+d212 1
+a212 1
+			GetDlgItem(IDC_NICK)->GetWindowText(buffer,34);
+@
+
+
+1.26
+log
+@converted to new logging method
+@
+text
+@d16 1
+a16 1
+CBarShader CPPgGeneral::s_preview(16,16); 
+d33 1
+d323 2
+a324 1
+	CDC* pDC(GetDlgItem(IDC_PREVIEW)->GetWindowDC());
+d334 2
+a335 1
+	GetDlgItem(IDC_PREVIEW)->ReleaseDC(pDC);
+@
+
+
+1.25
+log
+@sETtHREADlOCALE DOES NOT WORK ON NON-nt (WIN9X) BASED SYSTEMS
+@
+text
+@d250 1
+a250 1
+					theApp.emuledlg->AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_ENABLED).MakeLower());
+d252 1
+a252 1
+					theApp.emuledlg->AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_DISABLED).MakeLower());
+@
+
+
+1.24
+log
+@eMule priority set higher by default
+@
+text
+@d218 4
+a221 1
+				SetThreadLocale(byNewLang);
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d185 1
+a185 1
+			CheckDlgButton(IDC_MP_STANDARD,1);
+@
+
+
+1.22
+log
+@Added Romanian Language
+@
+text
+@d329 1
+@
+
+
+1.21
+log
+@Added Lithuanian Language
+@
+text
+@d83 2
+a84 1
+		MAKELANGID(LANG_LITHUANIAN,SUBLANG_DEFAULT)  // Lithuanian
+@
+
+
+1.20
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d82 2
+a83 1
+		MAKELANGID(LANG_SPANISH,SUBLANG_SPANISH)  // Spanish
+@
+
+
+1.19
+log
+@Night Shift (in cooperation with obaldin :P)
+@
+text
+@d52 1
+d299 1
+d334 4
+@
+
+
+1.18
+log
+@Priority control
+@
+text
+@a259 1
+			// here the setting code (we can have one? or we need to restart?)
+a263 1
+			// here the setting code (we can have one? or we need to restart?)
+@
+
+
+1.17
+log
+@Main process priority settings (needs more coding)
+@
+text
+@d267 1
+a267 1
+
+@
+
+
+1.16
+log
+@file buffer size, autotake ed2k links and some preferences reorganization.
+@
+text
+@d36 16
+a51 14
+	ON_EN_CHANGE(IDC_NICK, OnEnChangeNick)
+	ON_BN_CLICKED(IDC_BEEPER, OnBnClickedBeeper)
+	ON_BN_CLICKED(IDC_SPLASHON, OnBnClickedSplashon)
+	ON_BN_CLICKED(IDC_DBLCLICK, OnBnClickedDblclick)
+	ON_BN_CLICKED(IDC_NOTIFY, OnBnClickedNotify)
+	ON_EN_CHANGE(IDC_TOOLTIPDELAY, OnEnChangeTooltipdelay)
+	ON_CBN_SELCHANGE(IDC_LANGS, OnCbnSelchangeLangs)
+	ON_BN_CLICKED(IDC_ONLINESIG, OnBnClickedOnlinesig)
+	ON_BN_CLICKED(IDC_TBSPEEDMETER, OnBnClickedTbspeedmeter)
+	ON_BN_CLICKED(IDC_LOGTOFILE, OnBnClickedLogtoFile)
+	ON_BN_CLICKED(IDC_MULTIPLE, OnBnClickedMultiple)	// EpicStruggle
+	ON_BN_CLICKED(IDC_DC_CLIENT, OnBnClickedDetailsOnClick)
+	ON_BN_CLICKED(IDC_VERBOSE, OnBnClickedVerbose)
+	ON_BN_CLICKED(IDC_A4AF, OnBnClickedA4AF)
+d109 1
+d112 1
+a112 2
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+a142 1
+	// FoRcHa
+a147 1
+	// DonGato
+a162 1
+	// EpicStruggle
+d173 13
+a189 1
+	// Barry - Controls depth of 3d colour shading + //Cax2 - aqua bar
+d195 2
+a196 1
+	SetModified(FALSE);	// FoRcHa
+a209 1
+			//strcpy(app_prefs->prefs->nick,buffer);
+d233 4
+a236 4
+		app_prefs->SetLogToFile((int8)IsDlgButtonChecked(IDC_LOGTOFILE)); 	// DonGato
+		app_prefs->SetDetailsOnClick((int8)IsDlgButtonChecked(IDC_DC_CLIENT)); // DonGato
+		app_prefs->SetA4AFStringEnabled((int8)IsDlgButtonChecked(IDC_A4AF)); // DonGato
+		app_prefs->SetMultiple((int8)IsDlgButtonChecked(IDC_MULTIPLE)); 	// EpicStruggle
+d257 11
+d297 3
+@
+
+
+1.15
+log
+@AutoTakeED2KLinks
+@
+text
+@a42 1
+	ON_BN_CLICKED(IDC_ED2KFIX, OnBnClickedEd2kfix)
+a49 1
+	ON_BN_CLICKED(IDC_AUTOTAKEED2KLINKS, OnBnClickedAutoTakeED2KLinks)
+a105 1
+	GetDlgItem(IDC_ED2KFIX)->EnableWindow(Ask4RegFix(true));
+a173 6
+	// Barry
+	if(app_prefs->AutoTakeED2KLinks())
+		CheckDlgButton(IDC_AUTOTAKEED2KLINKS,1);
+	else
+		CheckDlgButton(IDC_AUTOTAKEED2KLINKS,0);
+
+a224 1
+		app_prefs->SetAutoTakeED2KLinks((int8)IsDlgButtonChecked(IDC_AUTOTAKEED2KLINKS)); // DonGato
+a271 1
+		GetDlgItem(IDC_ED2KFIX)->SetWindowText(GetResString(IDS_ED2KLINKFIX));
+a272 2
+		GetDlgItem(IDC_FLAT)->SetWindowText(GetResString(IDS_FLAT));
+		GetDlgItem(IDC_ROUND)->SetWindowText(GetResString(IDS_ROUND));
+a274 1
+		GetDlgItem(IDC_AUTOTAKEED2KLINKS)->SetWindowText(GetResString(IDS_AUTOTAKEED2KLINKS));
+a275 6
+}
+
+void CPPgGeneral::OnBnClickedEd2kfix()
+{
+	Ask4RegFix(false);
+	GetDlgItem(IDC_ED2KFIX)->EnableWindow(Ask4RegFix(true));
+@
+
+
+1.14
+log
+@Banning Message, A4AF customization, AutoPriority fix, Static Servers fix, .dat/.bin Preview
+@
+text
+@d51 1
+d177 6
+d234 1
+d288 1
+@
+
+
+1.14.2.1
+log
+@keeping in sync with the main cvs line
+@
+text
+@d43 1
+d107 1
+d274 1
+d276 2
+d281 6
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@d50 1
+a54 2
+
+
+d160 5
+d226 1
+d279 1
+@
+
+
+1.12
+log
+@win98 pref-crash fixed
+@
+text
+@d99 2
+a100 2
+				int iBracket = strBuffer.Find("(");
+				if(iBracket)
+@
+
+
+1.11
+log
+@minor improvements
+@
+text
+@d83 1
+a83 1
+
+d98 6
+a103 1
+				strBuffer=strBuffer.Left(strBuffer.Find("("));
+@
+
+
+1.10
+log
+@minor bugfixes + aqua bars! :)
+@
+text
+@d16 1
+d32 1
+d51 1
+d54 2
+a102 1
+
+a103 7
+
+	// Barry - Controls depth of 3d colour shading
+	CSliderCtrl *slider3D = (CSliderCtrl*)GetDlgItem(IDC_3DDEPTH);
+	slider3D->SetRange(-5, 5, true);
+	int tmp=app_prefs->Get3DDepth();
+	if (tmp>10) tmp=tmp-256;
+	slider3D->SetPos(tmp);
+d171 6
+d284 5
+d290 20
+@
+
+
+1.9
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d103 4
+a106 3
+	slider3D->SetRange(0, 5, true);
+	slider3D->SetPos(app_prefs->Get3DDepth());
+
+@
+
+
+1.8
+log
+@control panel improvements...
+@
+text
+@d9 6
+@
+
+
+1.7
+log
+@fix by katsyonak
+@
+text
+@d73 2
+a76 1
+		TCHAR szLang[128];
+d78 12
+a89 1
+		m_language.SetItemData(m_language.AddString(szLang), wLangs[i]);
+@
+
+
+1.6
+log
+@Removed SingleLock - no need there.
+@
+text
+@d242 1
+a242 1
+		GetDlgItem(IDC_ED2KFIX)->SetWindowText(GetResString(IDS_SW_LINK));
+@
+
+
+1.5
+log
+@bugfixes & control panel updates
+@
+text
+@d160 1
+a160 1
+	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+@
+
+
+1.4
+log
+@Updates to Preferences (and enabling/disabling options in code because of that)
+@
+text
+@d146 1
+a146 1
+	if(app_prefs->GetMultiple())
+d197 11
+a207 1
+		app_prefs->SetMultiple((int8)IsDlgButtonChecked(IDC_VERBOSE));
+a262 11
+void CPPgGeneral::OnBnClickedVerbose()
+{
+	if(IsDlgButtonChecked(IDC_VERBOSE))
+	{
+		theApp.emuledlg->AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_ENABLED).MakeLower());
+	} else {
+		theApp.emuledlg->AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_DISABLED).MakeLower());
+	}
+
+	SetModified();
+}
+@
+
+
+1.3
+log
+@3D Depth selection for progress bar from 25b
+@
+text
+@d41 1
+d50 1
+a50 19
+/*	
+	m_language.SetItemData(m_language.AddString("Catalonian"),MAKELANGID(LANG_CATALAN ,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Chinese (simplified)"),MAKELANGID(LANG_CHINESE,SUBLANG_CHINESE_SIMPLIFIED));
+	m_language.SetItemData(m_language.AddString("Chinese (traditional)"),MAKELANGID(LANG_CHINESE,SUBLANG_CHINESE_TRADITIONAL));
+	m_language.SetItemData(m_language.AddString("Danish"),MAKELANGID(LANG_DANISH,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Dutch"),MAKELANGID(LANG_DUTCH,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("English"),MAKELANGID(LANG_ENGLISH,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Finnish"),MAKELANGID(LANG_FINNISH,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("French"),MAKELANGID(LANG_FRENCH,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("German"),MAKELANGID(LANG_GERMAN,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Greek"),MAKELANGID(LANG_GREEK,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Hebrew"),MAKELANGID(LANG_HEBREW,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Italian"),MAKELANGID(LANG_ITALIAN,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Korean"),MAKELANGID(LANG_KOREAN,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Polish"),MAKELANGID(LANG_POLISH,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Portuguese (Brasilian)"),MAKELANGID(LANG_PORTUGUESE,SUBLANG_PORTUGUESE_BRAZILIAN));
+	m_language.SetItemData(m_language.AddString("Russian"),MAKELANGID(LANG_RUSSIAN,SUBLANG_DEFAULT));
+	m_language.SetItemData(m_language.AddString("Spanish"),MAKELANGID(LANG_SPANISH,SUBLANG_SPANISH));
+*/
+d146 5
+d197 2
+a198 1
+	
+d236 1
+d251 12
+@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.3.2.2
+log
+@updated control panes, and assorted bugfixes
+@
+text
+@a40 1
+	ON_BN_CLICKED(IDC_VERBOSE, OnBnClickedVerbose)
+d49 19
+a67 1
+
+a162 5
+	if(app_prefs->GetVerbose())
+		CheckDlgButton(IDC_VERBOSE,1);
+	else
+		CheckDlgButton(IDC_VERBOSE,0);
+
+a208 11
+		if (app_prefs->GetVerbose()!=(bool)IsDlgButtonChecked(IDC_VERBOSE))
+		{
+			app_prefs->SetVerbose((int8)IsDlgButtonChecked(IDC_VERBOSE));
+			theApp.emuledlg->serverwnd.ToggleDebugWindow();
+			if(IsDlgButtonChecked(IDC_VERBOSE))
+				{
+					theApp.emuledlg->AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_ENABLED).MakeLower());
+				} else {
+					theApp.emuledlg->AddLogLine(false,"%s: %s",GetResString(IDS_VERBOSE), GetResString(IDS_DISABLED).MakeLower());
+				}
+		}
+a246 1
+		GetDlgItem(IDC_VERBOSE)->SetWindowText(GetResString(IDS_VERBOSE));
+a260 5
+}
+
+void CPPgGeneral::OnBnClickedVerbose()
+{
+	SetModified();
+@
+
+
+1.3.2.3
+log
+@minor code cleanup, ported from the main branch
+@
+text
+@d263 4
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@a34 1
+	ON_BN_CLICKED(IDC_FLAT, OnBnClickedFlat)
+d41 1
+d100 5
+a119 5
+	if(app_prefs->UseFlatBar())
+		CheckDlgButton(IDC_FLAT,1);
+	else
+		CheckDlgButton(IDC_FLAT,0);
+
+d200 3
+a202 4
+		app_prefs->SetUseFlatBar( (int8)IsDlgButtonChecked(IDC_FLAT));
+		app_prefs->SetErrorBeepEnabled( (int8)IsDlgButtonChecked(IDC_BEEPER));
+		app_prefs->SetUseSplashScreen( (int8)IsDlgButtonChecked(IDC_SPLASHON));
+		app_prefs->SetDoubleClickEnabled( (int8)IsDlgButtonChecked(IDC_DBLCLICK));
+d204 5
+a208 4
+		app_prefs->SetShowToolbarSpeedMeter( (int8)IsDlgButtonChecked(IDC_TBSPEEDMETER));
+		app_prefs->SetLogToFile( (int8)IsDlgButtonChecked(IDC_LOGTOFILE)); 	// DonGato
+		app_prefs->SetDetailsOnClick( (int8)IsDlgButtonChecked(IDC_DC_CLIENT)); // DonGato
+		app_prefs->SetMultiple( (int8)IsDlgButtonChecked(IDC_MULTIPLE)); 	// EpicStruggle
+a233 1
+		GetDlgItem(IDC_FLAT)->SetWindowText(GetResString(IDS_PW_FLAT));
+d244 3
+d254 7
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d49 1
+a49 1
+	
+d67 31
+a97 1
+	
+@
+

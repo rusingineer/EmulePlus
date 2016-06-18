@@ -1,0 +1,262 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2005.01.23.07.36.38;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.01.09.03.55.36;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.12.26.15.45.32;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@More v2 Xml WebInterface
+@
+text
+@#include "stdafx.h"
+#include "XMLHelper.h"
+
+XmlDoc XmlLoadDocumentFromFile(CString szFile)
+{
+	try
+	{
+	XmlDoc spDoc;
+	spDoc.CreateInstance(__uuidof(DOMDocument));
+	if(spDoc->load(variant_t(szFile)) == VARIANT_TRUE)
+		return spDoc;
+	}
+	catch(...){ }
+	return NULL;
+}
+
+XmlDoc XmlLoadDocumentFromStr(CString sXml)
+{
+	try
+	{
+	XmlDoc spDoc;
+	spDoc.CreateInstance(__uuidof(DOMDocument));
+	if(spDoc->loadXML(bstr_t(sXml)) == VARIANT_TRUE)
+		return spDoc;
+	}
+	catch(...){ }
+	return NULL;
+}
+
+XmlDoc XmlCreateDocument()
+{
+	try
+	{
+	XmlDoc spDoc;
+	spDoc.CreateInstance(__uuidof(DOMDocument));
+	spDoc->async = VARIANT_FALSE;
+	return spDoc;
+	}
+	catch(...){ }
+	return NULL;
+}
+
+// for example, 'xml', 'version="1.0"'
+//			or, 'xml-stylesheet', 'type="text/xsl" href="stylesheet.xsl"'
+bool XmlInsertProcessingInstruction(XmlDoc spDoc, CString sInstruction, CString sData)
+{
+	try
+	{
+		MSXML::IXMLDOMProcessingInstructionPtr spPI = 
+			spDoc->createProcessingInstruction(bstr_t(sInstruction), bstr_t(sData));
+		if(spPI != NULL)
+			return SUCCEEDED(spDoc->appendChild(spPI));
+	}
+	catch(...){ }
+	return false;
+}
+
+XmlNode XmlCreateElement(XmlDoc spDoc, XmlNode spParent, CString sElementName)
+{
+	try
+	{
+		XmlNode spNode = spDoc->createElement(bstr_t(sElementName));
+		if(spNode != NULL)
+		{
+			if(spParent !=NULL)
+			{
+				if(SUCCEEDED(spParent->appendChild(spNode)))
+					return spNode;
+			}
+			else
+			{
+				if(SUCCEEDED(spDoc->appendChild(spNode)))
+					return spNode;
+			}
+		}
+	}
+	catch(...){ }
+	return NULL;
+}
+
+bool XmlSetAttribute(XmlElement spElem, CString sAttribName, variant_t vtValue)
+{
+	try
+	{
+	return SUCCEEDED(spElem->setAttribute(bstr_t(sAttribName), vtValue));
+	}
+	catch(...){ }
+	return false;
+}
+
+CString XmlGetAttributeStr(XmlElement spElem, CString sAttribute)
+{
+	try
+	{
+	XmlNodeMap spAttrMap = spElem->attributes;
+	if(spAttrMap != NULL)
+	{
+		XmlNode spNode = spAttrMap->getNamedItem(bstr_t(sAttribute));
+		if(spNode)
+			return (LPCTSTR)spNode->text;
+	}
+	}
+	catch(...){ }
+	return _T("");
+}
+
+long XmlGetAttributeLong(XmlElement spElem, CString sAttribute, long lDefault/* = -1*/)
+{
+	try
+	{
+	XmlNodeMap spAttrMap = spElem->attributes;
+	if(spAttrMap != NULL)
+	{
+		XmlNode spNode = spAttrMap->getNamedItem(bstr_t(sAttribute));
+		if(spNode)
+			return _ttol((LPCTSTR)spNode->text);
+	}
+	}
+	catch(...){ }
+	return lDefault;
+}
+@
+
+
+1.2
+log
+@Replaced EMULE_TRY by regular try
+@
+text
+@d40 15
+d58 1
+a58 1
+XmlNode XmlCreateElement(XmlDoc spDoc, CString sElementName)
+d62 14
+a75 7
+//	MSXML::IXMLDOMProcessingInstructionPtr spPI = 
+//		m_spDoc->createProcessingInstruction(bstr_t(_T("xml")), bstr_t(_T("version=\"1.0\"")));
+//	m_spDoc->appendChild(spPI);
+	XmlNode spNode = spDoc->createElement(bstr_t(sElementName));
+	if(spNode != NULL)
+		if(SUCCEEDED(spDoc->appendChild(spNode)))
+			return spNode;
+@
+
+
+1.1
+log
+@Rearrangements
+@
+text
+@d6 2
+a7 1
+	EMULE_TRY
+d12 2
+a13 1
+	EMULE_CATCH
+d19 2
+a20 1
+	EMULE_TRY
+d25 2
+a26 1
+	EMULE_CATCH
+d32 2
+a33 1
+	EMULE_TRY
+d38 2
+a39 1
+	EMULE_CATCH
+d45 2
+a46 1
+	EMULE_TRY
+d54 2
+a55 1
+	EMULE_CATCH
+d61 2
+a62 1
+	EMULE_TRY
+d64 2
+a65 1
+	EMULE_CATCH
+d71 2
+a72 1
+	EMULE_TRY
+d80 2
+a81 1
+	EMULE_CATCH
+d87 2
+a88 1
+	EMULE_TRY
+d96 2
+a97 1
+	EMULE_CATCH
+@
+

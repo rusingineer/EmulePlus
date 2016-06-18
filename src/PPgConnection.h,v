@@ -1,0 +1,700 @@
+head	1.20;
+access;
+symbols
+	PublicRelease_1_2e:1.20
+	Interim_Release_1-2e_RC1:1.20
+	PublicRelease_1_2d:1.20
+	Interim_Release_1-2d_RC1:1.20
+	Interim_Release_1-2d_beta1:1.20
+	PublicRelease_1_2c:1.18
+	Interim_Release_1-2c_RC1:1.18
+	Interim_Release_1-2c_beta1:1.18
+	PublicRelease_1_2b:1.18
+	Interim_Release_1-2b_RC1:1.18
+	PublicRelease_1_2a:1.18
+	Interim_Release_1-2a_RC1:1.18
+	Interim_Release_1-2a_beta2:1.18
+	Interim_Release_1-2a_beta1:1.18
+	PublicRelease_1_2:1.18
+	Interim_Release_1-2_RC1:1.18
+	Interim_Release_1-2_beta1:1.18
+	PublicRelease_1_1g:1.18
+	Interim_Release_1-1g_RC3:1.18
+	Interim_Release_1-1g_RC2:1.18
+	Interim_Release_1-1g_RC1:1.18
+	Interim_Release_1-1g_beta2:1.18
+	Interim_Release_1-1g_beta1:1.18
+	PublicRelease_1_1f:1.18
+	Interim_Release_1-1f_RC1:1.18
+	PublicRelease_1_1e:1.18
+	Interim_Release_1-1e_RC2:1.18
+	Interim_Release_1-1e_RC1:1.18
+	Interim_Release_1-1e_beta1:1.18
+	PublicRelease_1_1d:1.18
+	Interim_Release_1-1d_RC1:1.18
+	PublicRelease_1_1c:1.18
+	Interim_Release_1-1c_RC1:1.18
+	Interim_Release_1-1c_beta2:1.18
+	Interim_Release_1-1c_beta1:1.18
+	PublicRelease_1_1b:1.18
+	Interim_Release_1-1b_RC1:1.18
+	PublicRelease_1_1a:1.17
+	Interim_Release_1-1a_RC2:1.17
+	Interim_Release_1-1a_RC1:1.17
+	Interim_Release_1-1a_beta2:1.17
+	Interim_Release_1-1a_beta1:1.17
+	PublicRelease_1_1:1.17
+	Interim_Release_1-1_beta1:1.17
+	PublicRelease_1o:1.16
+	Interim_Release_1o_RC1:1.16
+	Interim_Release_1o_beta1:1.16
+	PublicRelease_1n:1.16
+	Interim_Release_1n_RC2:1.16
+	Interim_Release_1n_RC1:1.16
+	Interim_Release_1n_beta2:1.15
+	Interim_Release_1n_beta1:1.13
+	PublicRelease_1m:1.13
+	Interim_Release_1m_beta1:1.13
+	PublicRelease_1l:1.13
+	Interim_Release_1l_RC3:1.13
+	Interim_Release_1l_RC2:1.13
+	Interim_Release_1l_RC1:1.13
+	Interim_Release_1l_beta2:1.13
+	Interim_Release_1l_beta1:1.12
+	PublicRelease_1k:1.11
+	Interim_Release_1k_RC4:1.11
+	Interim_1k_RC3:1.11
+	Interim_1k_RC2:1.11
+	Interim_Release_1k_RC1:1.11
+	Interim_Release_1k_beta5:1.11
+	Intrerim_Release_1k_beta4:1.11
+	Interim_Release_1k_beta1:1.11
+	PublicRelease_1j:1.10
+	Interim_Release_1J_RC3:1.10
+	Interim_Release_1j_RC3:1.10
+	Interim_Release_1j_RC2:1.10
+	Interim_Release_1j_RC1:1.10
+	Interim_Release_1j_beta2:1.10
+	Interim_Release_1j_beta1:1.10
+	PublicRelease_1i:1.10
+	Interim_Release_1i_RC6:1.10
+	Interim_Release_1i_RC3:1.10
+	Interim_Release_1i_RC2:1.10
+	Interim_Release_1i_RC1:1.10
+	Interim_Release_1i_beta3:1.10
+	Interim_Release_1i_beta2:1.10
+	Interim_Release_1i_beta1:1.10
+	PublicRelease_1h:1.8
+	Interim_Release_1h_rc2:1.8
+	Interim_Release_1h_RC1:1.8
+	Interim_Release_1h_beta2:1.8
+	Interim_Release_1h_beta1_now:1.8
+	Interim_Release_1h_beta1:1.8
+	PublicRelease_1g:1.8
+	Interim_Release_1g_RC6_Final:1.8
+	Interim_Release_1g_RC6:1.8
+	Interim_Release_1g_RC5:1.8
+	Interim_Release_1g_RC4:1.8
+	Interim_Release_1g_RC3:1.7
+	Interim_Release_1g_beta2:1.6
+	Interim_Release_1g_beta1:1.6
+	Interim_Release_1f_RC4:1.6
+	Interim_Release_1f_RC3:1.6
+	Interim_Release_1f_RC2:1.6
+	Interim_Release_1f_RC:1.6
+	Interim_Release_1f_beta2:1.6
+	Interim_Release_1f_beta1:1.6
+	PublicRelease_1e:1.6
+	Interim_Release_1e_RC2:1.6
+	Interim_Release_1e_RC:1.6
+	Interim_Release_1e_beta3:1.6
+	Interim_Release_1e_beta2:1.6
+	Interim_Release_1e_beta2_before_kuchin:1.6
+	Interim_Release_1e_beta1:1.6
+	PublicRelease_1c:1.6
+	featurestest:1.6.0.4
+	Interim_Release_1c_RC:1.6
+	Interim_Release_1c_beta2:1.6
+	Interim_Release_1c_beta1:1.6
+	threaded_downloadqueue:1.6.0.2
+	PublicRelease_1b:1.6
+	Interim_Release_1b_beta2:1.6
+	Interim_Release_1b_beta1:1.6
+	proxydeadlake:1.5.0.4
+	PublicRelease_1a:1.5
+	Interim_Release_1a_beta2:1.5
+	BerkeleyDb:1.5.0.2
+	Interim_Release_1a_beta1:1.5
+	PublicRelease_1:1.4
+	goldfish:1.4
+	eMulePlus_1_RC2:1.4
+	eMulePlus_26b_1RC1:1.4
+	PreRelease_26b_i0e:1.4
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.3.0.4
+	plus26based:1.3.0.2
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.20
+date	2008.02.18.03.40.30;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2007.10.31.18.25.07;	author fuxie-dk;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.12.15.14.53.08;	author katsyonak;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.10.18.02.01.26;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.08.24.12.06.39;	author syrus77;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.07.25.08.30.42;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.07.20.22.31.27;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.05.12.17.47.53;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.04.20.23.49.36;	author dropf;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.02.05.00.00.00;	author kush_eplus;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.30.06.58.45;	author dongato;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.22.16.38.42;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.07.05.16.24.59;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.28.07.18.22;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.01.02.01.26;	author cax2;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.23.19.16.13;	author cax2;	state Exp;
+branches
+	1.5.2.1;
+next	1.4;
+
+1.4
+date	2003.02.14.22.46.35;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.02.03.39.55;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.01.14.45.39;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.20;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.20;	author cax2;	state Exp;
+branches;
+next	1.1.4.2;
+
+1.1.4.2
+date	2003.02.02.03.52.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.2.1
+date	2003.03.01.20.59.36;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.20
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings; Formatting.
+@
+text
+@#pragma once
+
+class CPreferences;
+
+class CPPgConnection : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgConnection)
+
+public:
+	CPPgConnection();
+	virtual ~CPPgConnection();
+
+	void SetPrefs(CPreferences* in_prefs) { m_pPrefs = in_prefs; }
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+	// Dialog Data
+	enum { IDD = IDD_PPG_CONNECTION };
+
+	afx_msg void OnCbnSelchangeConType();
+	afx_msg void OnSettingsChange()				{ SetModified(); }
+	afx_msg void OnEnChangeUDPDisable();
+	afx_msg void OnQueueChange();
+	afx_msg void OnSpeedChange();
+	afx_msg void OnBnClickedLimitless();
+	void Localize(void);
+
+protected:
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+
+	DECLARE_MESSAGE_MAP()
+private:
+	void LoadSettings(void);
+	void EnableEditBoxes(BOOL bEnable = TRUE);
+
+protected:
+	CPreferences *m_pPrefs;
+	CComboBox m_conprof;
+	BOOL	m_bModified;
+	BOOL	m_bShowOverhead;
+	BOOL	m_bLancastEnable;
+	BOOL	m_bOpenPorts;
+	BOOL	m_bLimitlessDownload;
+	BOOL	m_bUdpDisable;
+	CString	m_strQueueSize;
+	CString	m_strMaxConn;
+	CString	m_strMaxCon5;
+	CString	m_strUploadCap;
+	CString	m_strUploadMax;
+	CString	m_strDownloadCap;
+	CString	m_strDownloadMax;
+	CString	m_strPort;
+	CString	m_strUdpPort;
+};
+@
+
+
+1.19
+log
+@Suppressed compiler warnings; Reduced H-file dependency [Aw3].
+@
+text
+@d18 9
+a27 1
+	BOOL	m_bModified;
+a33 1
+	CPreferences *m_pPrefs;
+d40 1
+a40 8
+public:
+	afx_msg void OnCbnSelchangeConType();
+	afx_msg void OnSettingsChange()				{ SetModified(); }
+	afx_msg void OnEnChangeUDPDisable();
+	afx_msg void OnQueueChange();
+	afx_msg void OnSpeedChange();
+	afx_msg void OnBnClickedLimitless();
+	void Localize(void);
+d42 1
+d44 15
+a58 40
+	BOOL showOverhead;
+	BOOL lancastEnable;
+	BOOL openportsEnable;
+	BOOL limitlessDownload;
+	CString queueSize;
+	CString maxCon;
+	CString maxCon5;
+	CString uploadCap;
+	CString maxUp;
+	CString downloadCap;
+	CString maxDown;
+	CString port;
+	BOOL udpDisable;
+	CString udpPort;
+private:
+	CEdit tcpPortEdit;
+	CEdit udpPortEdit;
+	CEdit downloadCapEdit;
+	CEdit uploadCapEdit;
+	CEdit maxDownEdit;
+	CEdit maxUpEdit;
+	CEdit maxConEdit;
+	CString conProfDesc;
+	CString trFrmDesc;
+	CString capacitiesDesc;
+	CString kbS1Desc;
+	CString kbS2Desc;
+	CString limitsDesc;
+	CButton lancastEnableCheck;
+	CButton openportsEnableCheck;
+	CButton showOverheadCheck;
+	CButton udpDisableCheck;
+	CString maxCon5Desc;
+	CString dCapDesc;
+	CString uCapDesc;
+	CButton limitlessDownloadCheck;
+	CString queueFrmDesc;
+	CString queueSizeDesc;
+	CString clientPortFrmDesc;
+	CString maxConnFrmDesc;
+@
+
+
+1.18
+log
+@Open client ports on Windows XP internal firewall (adopted from koizo)
+@
+text
+@d3 1
+a3 4
+#include "Preferences.h"
+#include "afxwin.h"
+
+// CPPgConnection dialog
+d13 1
+a13 1
+	void SetPrefs(CPreferences* in_prefs) {	m_pPrefs = in_prefs; }
+d19 1
+a19 1
+	bool m_bModified;
+@
+
+
+1.17
+log
+@New interpretation of limitless download and its configuration.
+@
+text
+@d48 1
+d75 1
+@
+
+
+1.16
+log
+@removed "leave q"
+@
+text
+@d42 1
+@
+
+
+1.15
+log
+@Some changes and a string removal (UDP).
+@
+text
+@a21 1
+	uint16 m_RQLimit;
+a44 1
+	BOOL limitQR;
+a58 1
+	CButton limitQRCheck;
+@
+
+
+1.14
+log
+@Private methods should be declared as private.
+@
+text
+@d62 1
+a78 1
+	CString udpPortDesc;
+@
+
+
+1.13
+log
+@Reorganized preferences
+@
+text
+@d3 1
+a3 1
+#include "preferences.h"
+a21 1
+	// FoRcHa
+a28 1
+	//
+d34 1
+a34 1
+public:
+@
+
+
+1.12
+log
+@added auto-update for ipfilter
+@
+text
+@d40 2
+a41 3
+	afx_msg void OnCbnSelchangeConType();		  	// DonGato
+	afx_msg void OnSettingsChange()				{ SetModified(); }		//Cax2 ported from off dev
+	afx_msg void OnBnClickedDisableXS();								// Tarod
+d44 1
+a44 2
+	afx_msg void OnSpeedChange();							//Cax2 - no more strange settings!
+	afx_msg void OnBnClickedDisableXSUpTo();						   // DonGato
+d47 1
+a47 1
+	CComboBox m_conprof; // DonGato
+a48 2
+	BOOL disableXS;
+	BOOL enableXSUpTo;
+a51 1
+	CString xsUpTo;
+a64 1
+	CEdit xsUpToEdit;
+a72 1
+	CButton enableXsUpToCheck;
+a77 1
+	CString xsSourcesDesc;
+a82 1
+	CButton disableXsCheck;
+@
+
+
+1.11
+log
+@Formatting, name changes and deleting spaces and tabs at end of lines
+@
+text
+@a55 1
+	BOOL scanFilter;
+a92 1
+	CButton scanFilterCheck;
+@
+
+
+1.10
+log
+@Customization for Scan Filter.
+Fix for preferences toolbar button (take care when you do code renaming to keep the correct values)
+@
+text
+@d37 1
+a37 1
+	void LoadSettings(void);	
+d42 1
+a42 1
+	afx_msg void OnBnClickedDisableXS();								// Tarod 
+d44 1
+a44 1
+	afx_msg void OnQueueChange();	
+@
+
+
+1.9
+log
+@Formatting, comments, and name changes.
+@
+text
+@d56 1
+d94 1
+@
+
+
+1.8
+log
+@Limitless Download
+@
+text
+@d16 1
+a16 1
+	void SetPrefs(CPreferences* in_prefs) {	app_prefs = in_prefs; }
+d32 1
+a32 1
+	CPreferences *app_prefs;
+@
+
+
+1.7
+log
+@converted to use DDX framework
+@
+text
+@d55 1
+d92 1
+@
+
+
+1.6
+log
+@simplified control panel,added remote queue limit as an otpion
+@
+text
+@d4 1
+d37 2
+a38 3
+	void LoadSettings(void);
+	void DisableEditBoxes(void);
+	void EnableEditBoxes(void);
+d50 45
+@
+
+
+1.5
+log
+@control panel limits, optimizations, bugfixes
+@
+text
+@a17 1
+	void	DisableXS(bool setUDP=true);	//Cax2 bugfix
+d21 2
+a22 1
+	// FoRcHa	
+d44 1
+@
+
+
+1.5.2.1
+log
+@keeping in sync with the main cvs line
+@
+text
+@d18 1
+d22 1
+a22 2
+	// FoRcHa
+	uint16 m_RQLimit;
+a43 1
+	afx_msg void OnQueueChange();	
+@
+
+
+1.4
+log
+@overhead can be set in preferences now
+@
+text
+@d44 1
+@
+
+
+1.3
+log
+@bugfixes & control panel updates
+@
+text
+@d41 1
+a41 10
+	afx_msg void OnEnChangeDownloadCap()			{ SetModified(); }
+	afx_msg void OnEnChangeUploadCap()				{ SetModified(); }
+	afx_msg void OnEnChangeMaxdown()				{ SetModified(); }
+	afx_msg void OnEnChangeMaxup()					{ SetModified(); }
+	afx_msg void OnEnChangePort()					{ SetModified(); }
+	afx_msg void OnEnChangeMaxcon()					{ SetModified(); }
+	afx_msg void OnEnChangeMaxsourceperfile()		{ SetModified(); }
+	afx_msg void OnEnChangeMaxsourceperfilesoft()	{ SetModified(); }
+	afx_msg void OnEnChangeMaxsourceperfileudp()	{ SetModified(); }
+	afx_msg void OnEnChangeQueueSize()				{ SetModified(); } // Tarod
+a42 2
+	afx_msg void OnEnChangeMaxConPerSec()			{ SetModified(); } // DonGato
+	afx_msg void OnBnClickedTransferFullChunks()	{ SetModified(); } // DonGato
+a44 1
+	afx_msg void OnEnChangeXSUpTo()					{ SetModified(); } // DonGato
+@
+
+
+1.2
+log
+@Updates to Preferences (and enabling/disabling options in code because of that)
+@
+text
+@d53 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a51 1
+	afx_msg void OnBnClickedEnableThrottleUpload()	{ SetModified(); } // Tarod
+a52 1
+	afx_msg void OnBnClickedTransferFullChunks()	{ SetModified(); } // DonGato
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1.4.2
+log
+@minor code cleanup, ported from the main branch
+@
+text
+@d52 1
+@
+
+

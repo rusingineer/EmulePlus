@@ -1,0 +1,1775 @@
+head	1.72;
+access;
+symbols
+	PublicRelease_1_2e:1.66
+	Interim_Release_1-2e_RC1:1.65
+	PublicRelease_1_2d:1.63
+	Interim_Release_1-2d_RC1:1.63
+	Interim_Release_1-2d_beta1:1.63
+	PublicRelease_1_2c:1.60
+	Interim_Release_1-2c_RC1:1.60
+	Interim_Release_1-2c_beta1:1.58
+	PublicRelease_1_2b:1.58
+	Interim_Release_1-2b_RC1:1.58
+	PublicRelease_1_2a:1.57
+	Interim_Release_1-2a_RC1:1.57
+	Interim_Release_1-2a_beta2:1.56
+	Interim_Release_1-2a_beta1:1.56
+	PublicRelease_1_2:1.55
+	Interim_Release_1-2_RC1:1.55
+	Interim_Release_1-2_beta1:1.55
+	PublicRelease_1_1g:1.55
+	Interim_Release_1-1g_RC3:1.55
+	Interim_Release_1-1g_RC2:1.55
+	Interim_Release_1-1g_RC1:1.55
+	Interim_Release_1-1g_beta2:1.53
+	Interim_Release_1-1g_beta1:1.53
+	PublicRelease_1_1f:1.52
+	Interim_Release_1-1f_RC1:1.52
+	PublicRelease_1_1e:1.52
+	Interim_Release_1-1e_RC2:1.52
+	Interim_Release_1-1e_RC1:1.52
+	Interim_Release_1-1e_beta1:1.52
+	PublicRelease_1_1d:1.52
+	Interim_Release_1-1d_RC1:1.52
+	PublicRelease_1_1c:1.51
+	Interim_Release_1-1c_RC1:1.51
+	Interim_Release_1-1c_beta2:1.51
+	Interim_Release_1-1c_beta1:1.51
+	PublicRelease_1_1b:1.48
+	Interim_Release_1-1b_RC1:1.48
+	PublicRelease_1_1a:1.47
+	Interim_Release_1-1a_RC2:1.47
+	Interim_Release_1-1a_RC1:1.47
+	Interim_Release_1-1a_beta2:1.47
+	Interim_Release_1-1a_beta1:1.47
+	PublicRelease_1_1:1.47
+	Interim_Release_1-1_beta1:1.47
+	PublicRelease_1o:1.47
+	Interim_Release_1o_RC1:1.47
+	Interim_Release_1o_beta1:1.47
+	PublicRelease_1n:1.47
+	Interim_Release_1n_RC2:1.47
+	Interim_Release_1n_RC1:1.47
+	Interim_Release_1n_beta2:1.47
+	Interim_Release_1n_beta1:1.47
+	PublicRelease_1m:1.47
+	Interim_Release_1m_beta1:1.47
+	PublicRelease_1l:1.47
+	Interim_Release_1l_RC3:1.47
+	Interim_Release_1l_RC2:1.47
+	Interim_Release_1l_RC1:1.47
+	Interim_Release_1l_beta2:1.47
+	Interim_Release_1l_beta1:1.47
+	PublicRelease_1k:1.45
+	Interim_Release_1k_RC4:1.45
+	Interim_1k_RC3:1.45
+	Interim_1k_RC2:1.45
+	Interim_Release_1k_RC1:1.45
+	Interim_Release_1k_beta5:1.44
+	Intrerim_Release_1k_beta4:1.44
+	Interim_Release_1k_beta1:1.42
+	PublicRelease_1j:1.37
+	Interim_Release_1J_RC3:1.37
+	Interim_Release_1j_RC3:1.37
+	Interim_Release_1j_RC2:1.37
+	Interim_Release_1j_RC1:1.37
+	Interim_Release_1j_beta2:1.37
+	Interim_Release_1j_beta1:1.37
+	PublicRelease_1i:1.36
+	Interim_Release_1i_RC6:1.36
+	Interim_Release_1i_RC3:1.36
+	Interim_Release_1i_RC2:1.36
+	Interim_Release_1i_RC1:1.36
+	Interim_Release_1i_beta3:1.36
+	Interim_Release_1i_beta2:1.32
+	Interim_Release_1i_beta1:1.29
+	PublicRelease_1h:1.25
+	Interim_Release_1h_rc2:1.25
+	Interim_Release_1h_RC1:1.25
+	Interim_Release_1h_beta2:1.24
+	Interim_Release_1h_beta1_now:1.21
+	Interim_Release_1h_beta1:1.21
+	PublicRelease_1g:1.16
+	Interim_Release_1g_RC6_Final:1.16
+	Interim_Release_1g_RC6:1.16
+	Interim_Release_1g_RC5:1.16
+	Interim_Release_1g_RC4:1.16
+	Interim_Release_1g_RC3:1.16
+	Interim_Release_1g_beta2:1.13
+	Interim_Release_1g_beta1:1.13
+	Interim_Release_1f_RC4:1.12
+	Interim_Release_1f_RC3:1.12
+	Interim_Release_1f_RC2:1.11
+	Interim_Release_1f_RC:1.11
+	Interim_Release_1f_beta2:1.11
+	Interim_Release_1f_beta1:1.11
+	PublicRelease_1e:1.11
+	Interim_Release_1e_RC2:1.11
+	Interim_Release_1e_RC:1.11
+	Interim_Release_1e_beta3:1.11
+	Interim_Release_1e_beta2:1.11
+	Interim_Release_1e_beta2_before_kuchin:1.11
+	Interim_Release_1e_beta1:1.11
+	PublicRelease_1c:1.9
+	featurestest:1.9.0.4
+	Interim_Release_1c_RC:1.9
+	Interim_Release_1c_beta2:1.9
+	Interim_Release_1c_beta1:1.9
+	threaded_downloadqueue:1.9.0.2
+	PublicRelease_1b:1.8
+	Interim_Release_1b_beta2:1.7
+	Interim_Release_1b_beta1:1.5
+	proxydeadlake:1.4.0.4
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.4.0.2
+	Interim_Release_1a_beta1:1.4
+	PublicRelease_1:1.4
+	goldfish:1.4
+	eMulePlus_1_RC2:1.4
+	eMulePlus_26b_1RC1:1.4
+	PreRelease_26b_i0e:1.4
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.3.0.6
+	plus26based:1.3.0.4
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.3.2.1
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.72
+date	2009.10.28.04.34.58;	author aw3;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2009.08.01.01.45.19;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2009.07.15.02.23.48;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2009.06.14.19.13.17;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2009.05.05.03.43.56;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2009.04.23.03.58.53;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2009.04.08.04.05.38;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2009.03.21.22.47.43;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2008.11.03.05.59.07;	author aw3;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2008.01.04.11.17.55;	author eklmn;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2007.12.26.04.33.58;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2007.12.01.12.36.05;	author kush_eplus;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2007.07.13.03.51.01;	author aw3;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2007.04.14.04.24.47;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2006.12.05.21.59.24;	author eklmn;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2006.09.06.05.54.56;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2006.04.04.22.28.41;	author kush_eplus;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2005.11.27.22.11.52;	author eklmn;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2005.08.04.03.36.09;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2005.03.08.13.45.08;	author kuchin;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2005.01.19.21.10.54;	author netwolf1;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.01.19.14.04.41;	author kush_eplus;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.01.08.12.35.50;	author kuchin;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.12.15.14.53.08;	author katsyonak;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.04.24.23.01.05;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.04.23.22.14.04;	author katsyonak;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.03.27.17.22.13;	author eklmn;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.03.12.06.09.18;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.02.25.18.23.41;	author dongato;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.02.15.19.48.37;	author eklmn;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.02.15.10.12.16;	author eklmn;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.02.13.16.13.35;	author netwolf1;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.02.05.19.28.09;	author kush_eplus;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.12.11.10.44.40;	author kuchin;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.10.30.02.44.37;	author morevit;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.10.29.22.13.34;	author dropf;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.10.28.21.33.42;	author morevit;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.10.28.18.36.28;	author katsyonak;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.10.13.15.09.11;	author morevit;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.10.06.21.57.05;	author puritynn666;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.09.29.14.55.47;	author morevit;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.09.23.19.00.10;	author dongato;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.09.22.15.49.41;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.09.11.02.36.43;	author dongato;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.09.04.11.19.25;	author kuchin;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.08.27.09.27.12;	author kuchin;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.08.24.15.55.18;	author bond006;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.08.15.11.23.44;	author kuchin;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.08.10.04.42.50;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.07.31.15.02.19;	author puritynn666;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.07.30.12.29.31;	author kuchin;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.07.28.23.13.42;	author moosetea;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.21.13.47.06;	author partyckip;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.10.09.36.49;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.06.09.15.14.38;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.05.30.21.27.00;	author partyckip;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.05.20.20.46.33;	author netwolf1;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.04.07.14.53.04;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.29.14.04.02;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.03.14.15.53.07;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.03.09.09.55.53;	author obaldin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.08.19.27.12;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.05.15.57.41;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.05.11.23.44;	author recdvst;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.14.14.22.41;	author obaldin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.23.17.27.13;	author cax2;	state Exp;
+branches
+	1.3.2.1
+	1.3.4.1;
+next	1.2;
+
+1.2
+date	2003.01.23.01.42.30;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.54.39;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.4.1
+date	2003.02.05.01.58.42;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.72
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#pragma once
+
+#ifndef __AFXWIN_H__
+	#error include 'stdafx.h' before including this file for PCH
+#endif
+
+#include "resource.h"
+#include "Preferences.h"
+#include "emuleDlg.h"
+#include "knownfilelist.h"
+#include "SearchList.h"
+#include "DownloadQueue.h"
+#include "DownloadList.h"
+#include "ClientList.h"
+#include "ClientCredits.h"
+#include "FriendList.h"
+#include "filehashcontrol.h"
+#include "Loggable.h"
+#include "fakecheck.h"
+
+#ifdef OLD_SOCKETS_ENABLED
+class CClientUDPSocket;
+class CServerConnect;
+class CListenSocket;
+#endif
+class CFirewallOpener;
+class CDownloadQueue;
+class CUploadQueue;
+class CSearchList;
+class CServerList;
+class CIP2Country;
+class CWebServer;
+class MiniDumper;
+class CMMServer;
+class CIPFilter;
+class CAutoDL;
+class DbEnv;
+class Db;
+
+class CEmuleApp : public CWinApp, public CLoggable
+{
+public:
+	enum AppState
+	{
+		APP_STATE_RUNNING = 0,
+		APP_STATE_SHUTTINGDOWN,
+		APP_STATE_DONE
+	};
+
+	CEmuleApp();
+
+	CEmuleDlg			*m_pMDlg;
+	CDownloadList		*m_pDownloadList;
+	CClientList			*m_pClientList;
+	CKnownFileList		*m_pKnownFilesList;
+	CPreferences		*m_pPrefs;
+#ifdef OLD_SOCKETS_ENABLED
+	CServerConnect		*m_pServerConnect;
+#endif
+	CServerList			*m_pServerList;
+	CSharedFileList		*m_pSharedFilesList;
+	CSearchList			*m_pSearchList;
+#ifdef OLD_SOCKETS_ENABLED
+	CListenSocket		*m_pListenSocket;
+#endif
+	CUploadQueue		*m_pUploadQueue;
+	CDownloadQueue		*m_pDownloadQueue;
+	CClientCreditsList	*m_pClientCreditList;
+	CFriendList			*m_pFriendList;
+#ifdef OLD_SOCKETS_ENABLED
+	CClientUDPSocket	*m_pClientUDPSocket;
+#endif
+	CWebServer			*m_pWebServer;
+	CIP2Country			*m_pIP2Country;
+	CFirewallOpener		*m_pFirewallOpener;
+	CAutoDL				*m_pAutoDL;
+
+	CString				*m_pstrPendingLink;
+	tagCOPYDATASTRUCT	m_sendStruct;
+	CFileHashControl	m_fileHashControl;
+	CCriticalSection	m_csPreventExtensiveHDAccess;
+	CIPFilter			*m_pIPFilter;
+	CFakeCheck			*m_pFakeCheck;
+	CMMServer			*m_pMMServer;
+
+	uint32				m_dwPublicIP;	// current (valid) public IP or 0 if unknown
+
+	uint64				stat_sessionReceivedBytes;
+	uint64				stat_sessionSentBytes;
+	uint16				stat_reconnects;
+	DWORD				stat_transferStarttime;
+	DWORD				stat_serverConnectTime;
+	DWORD				stat_starttime;
+	ULONGLONG			m_qwComCtrlVer;
+	int					m_iDfltImageListColorFlags;
+
+//	Detailed filtering statistics
+	LONG				m_lTotalFiltered;
+	LONG				m_lIncomingFiltered;
+	LONG				m_lOutgoingFiltered;
+	LONG				m_lSXFiltered;
+
+	DbEnv			   *pDbEnv;	// 	Database environment
+
+	CArray<CString,CString> m_strWebServiceURLArray;
+
+//	ICC customization
+	void				InitURLs();
+	CStringArray		m_ICCURLs;
+
+	AppState			m_app_state; // defines application state for shutdown
+
+//	ed2k link functions
+	CString		StripInvalidFilenameChars(CString strText, bool bKeepSpaces = true);
+	bool		CopyTextToClipboard(const CString &strText) const;
+	bool		CopyTextFromClipboard(CString *pstrContent);
+
+	void		OnlineSig();
+	void		UpdateReceivedBytes(uint32 bytesToAdd);
+	void		UpdateSentBytes(uint32 bytesToAdd);
+
+	DECLARE_MESSAGE_MAP()
+
+protected:
+	int			ProcessCommandline();
+	void		SetTimeOnTransfer();
+	UINT		GetWindowModuleFileNameEx(HWND hwnd,LPTSTR pszFileName,UINT cchFileNameMax);
+	static BOOL CALLBACK SearchEmuleWindow(HWND hWnd, LPARAM lParam);
+	void		OnHelp();
+
+	HIMAGELIST			m_hSystemImageList;
+	CMapStringToPtr		m_aExtToSysImgIdx;
+	CSize				m_sizSmallSystemIcon;
+
+public:
+	virtual BOOL		InitInstance();
+	virtual int ExitInstance();
+	virtual BOOL PreTranslateMessage(MSG *pMsg);
+
+	uint32		GetPublicIP() const				{ return m_dwPublicIP; }
+	void		SetPublicIP(uint32 dwIP);
+
+	int			GetFileTypeSystemImageIdx(LPCTSTR pszFilePath, int iLength = -1);
+	HIMAGELIST	GetSystemImageList() const		{ return m_hSystemImageList; }
+	CSize		GetSmallSytemIconSize()			{ return m_sizSmallSystemIcon; }
+
+private:
+	MiniDumper *m_pDump;
+	HANDLE m_hMutexOneInstance;
+	HANDLE m_hMutexOneDirInstance;
+};
+
+extern CEmuleApp g_App;
+@
+
+
+1.71
+log
+@Reduced H-file dependency.
+@
+text
+@a27 3
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#endif //OLD_SOCKETS_ENABLED
+d40 1
+@
+
+
+1.70
+log
+@Reduced H-file dependency.
+@
+text
+@a31 3
+#ifdef OLD_SOCKETS_ENABLED
+#include "ListenSocket.h"
+#endif //OLD_SOCKETS_ENABLED
+@
+
+
+1.69
+log
+@Reduced H-file dependency.
+@
+text
+@a34 1
+#include "UploadQueue.h"
+@
+
+
+1.68
+log
+@Improved H-file includes.
+@
+text
+@a41 3
+#ifdef OLD_SOCKETS_ENABLED
+#include "clientudpsocket.h"
+#endif //OLD_SOCKETS_ENABLED
+d46 1
+@
+
+
+1.67
+log
+@Resolved several applications startup race conditions (when several clients start at the same time from the same directory).
+@
+text
+@d25 1
+a27 1
+#include "preferences.h"
+@
+
+
+1.66
+log
+@Reduced H-file dependency.
+@
+text
+@d175 1
+@
+
+
+1.65
+log
+@Reduced #include dependency.
+@
+text
+@a30 1
+#include "ServerList.h"
+d55 1
+@
+
+
+1.64
+log
+@Reduced H-file dependency.
+@
+text
+@a45 1
+#include "IPFilter.h"
+d60 1
+@
+
+
+1.63
+log
+@added Unicode support for clipboard
+@
+text
+@a31 1
+#include "SharedFileList.h"
+@
+
+
+1.62
+log
+@Reduced H-file dependency.
+@
+text
+@d142 1
+a142 1
+	CString		CopyTextFromClipboard();
+@
+
+
+1.61
+log
+@#include was moved to C-file.
+Suppressed level 4 warnings.
+@
+text
+@a49 1
+#include "BerkeleyDb/build_win32/db_cxx.h"
+a50 2
+class CSearchList;
+class CUploadQueue;
+d54 1
+d56 3
+d60 2
+a61 2
+class CIP2Country;
+class CFirewallOpener;
+d63 2
+a64 2
+class CMMServer;
+class MiniDumper;
+@
+
+
+1.60
+log
+@Encryption preparations; Rearranged class sections; Clean-up.
+@
+text
+@a46 1
+#include "mdump.h"
+d63 1
+@
+
+
+1.59
+log
+@Removed unrequired here #include.
+@
+text
+@d57 1
+a57 1
+#endif //OLD_SOCKETS_ENABLED
+d76 1
+d84 1
+a84 1
+#endif //OLD_SOCKETS_ENABLED
+d90 1
+a90 1
+#endif //OLD_SOCKETS_ENABLED
+d97 1
+a97 1
+#endif //OLD_SOCKETS_ENABLED
+a100 1
+
+a102 2
+	virtual BOOL		InitInstance();
+
+d109 1
+d111 1
+a111 1
+	CMMServer			*m_pMMServer;
+d122 1
+a122 2
+//	Detailed filtering statistic
+	//uint16			stat_filteredclients;
+d128 1
+a128 4
+// 	Database environment
+	DbEnv			   *pDbEnv;
+//	Stored sources
+//	Db				   *pDbSLS;
+d132 1
+a132 1
+// 	ICC customization
+d136 3
+a138 1
+// 	ed2k link functions
+d140 1
+a140 1
+	bool		CopyTextToClipboard(const CString& strText) const;
+d148 1
+d150 2
+a151 2
+	int 		ProcessCommandline();
+	void 		SetTimeOnTransfer();
+d154 1
+a154 1
+	void 		OnHelp();
+d161 1
+a161 1
+	AppState	m_app_state; // defines application state for shutdown
+d163 4
+d169 2
+a170 2
+	HIMAGELIST	GetSystemImageList() { return m_hSystemImageList; }
+	CSize		GetSmallSytemIconSize() { return m_sizSmallSystemIcon; }
+a174 2
+public:
+	virtual BOOL PreTranslateMessage(MSG* pMsg);
+d176 1
+@
+
+
+1.58
+log
+@removed "unfair *" statistic
+@
+text
+@a50 1
+
+a51 1
+#include <afxcoll.h>
+@
+
+
+1.57
+log
+@Renamed APP_STATE_SHUTINGDOWN -> APP_STATE_SHUTTINGDOWN.
+@
+text
+@a131 8
+// 	Statistical values for unfair clients (session only)
+	LONG				m_lTotalNumUnfairClients;
+	LONG				m_lTotalNumUnfairActions;
+	LONG				m_lTotalNumUseMyHashActions;
+	LONG				m_lTotalNumHashChangeActions;
+	LONG				m_lTotalNumStolenNameActions;
+	LONG				m_lTotalNumLeecherTypeActions;
+
+@
+
+
+1.56
+log
+@new email notifier code (adapted from original) - fully UNICODE ready;
+option to send email notification messages in subject
+@
+text
+@d73 1
+a73 1
+		APP_STATE_SHUTINGDOWN,
+@
+
+
+1.55
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a49 1
+#include "smtp.h"
+a114 1
+	CSMTPConnection		*m_pSMTPConnection;
+@
+
+
+1.54
+log
+@renamed 3 variables
+@
+text
+@d83 1
+a83 1
+	CPreferences		*g_pPrefs;
+@
+
+
+1.53
+log
+@Slightly cleaned a mess of including one H-file into another;
+Removed double #include of afxmt.h (once in stdafx.h is enough).
+@
+text
+@d79 1
+a79 1
+	CEmuleDlg			*m_pdlgEmule;
+d83 1
+a83 1
+	CPreferences		*m_pGlobPrefs;
+d188 1
+a188 1
+extern CEmuleApp g_eMuleApp;
+@
+
+
+1.52
+log
+@Removed usage of not used database
+@
+text
+@a49 2
+#include <afxmt.h>
+#include "MMServer.h"
+d66 1
+@
+
+
+1.51
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d146 1
+a146 1
+	Db				   *pDbSLS;
+@
+
+
+1.50
+log
+@Updated to CFakeCheck
+Code refactoring
+@
+text
+@d126 1
+@
+
+
+1.49
+log
+@AutoDL, first step
+@
+text
+@d114 1
+a114 1
+	CFakecheck			*m_pFakeCheck;
+@
+
+
+1.48
+log
+@Open client ports on Windows XP internal firewall (adopted from koizo)
+@
+text
+@d67 1
+d105 2
+@
+
+
+1.47
+log
+@Improved extensive hard drive access for simultaneous hashing and completion.
+@
+text
+@d66 1
+d79 5
+a83 5
+	CEmuleDlg		   *m_pdlgEmule;
+	CDownloadList	   *m_pDownloadList;
+	CClientList		   *m_pClientList;
+	CKnownFileList	   *m_pKnownFilesList;
+	CPreferences	   *m_pGlobPrefs;
+d85 1
+a85 1
+	CServerConnect	   *m_pServerConnect;
+d87 3
+a89 3
+	CServerList		   *m_pServerList;
+	CSharedFileList	   *m_pSharedFilesList;
+	CSearchList		   *m_pSearchList;
+d91 1
+a91 1
+	CListenSocket	   *m_pListenSocket;
+d93 4
+a96 4
+	CUploadQueue	   *m_pUploadQueue;
+	CDownloadQueue	   *m_pDownloadQueue;
+	CClientCreditsList *m_pClientCreditList;
+	CFriendList		   *m_pFriendList;
+d98 1
+a98 1
+	CClientUDPSocket   *m_pClientUDPSocket;
+d100 3
+a102 2
+	CWebServer		   *m_pWebServer;
+	CIP2Country		   *m_pIP2Country;
+@
+
+
+1.46
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d107 1
+a107 1
+	CCriticalSection	m_critsectHashing;
+@
+
+
+1.45
+log
+@corretions in "hash thieves", added Leecher type statistic
+@
+text
+@d65 1
+d100 1
+@
+
+
+1.44
+log
+@Improved blocking synchronization for completing file hashing: faster synchronization object is used, removed synchronization overhead, optimization.
+@
+text
+@d133 1
+@
+
+
+1.43
+log
+@Updated handling of multiple instances so you can send commands to the one you want to
+@
+text
+@d102 6
+a107 6
+	CString			   *m_pstrPendingLink;
+	tagCOPYDATASTRUCT  	m_sendStruct;
+	CFileHashControl 	m_fileHashControl;
+	CMutex				m_mutexHashing;
+	CIPFilter		   *m_pIPFilter;
+	CFakecheck		   *m_pFakeCheck;
+d109 2
+a110 2
+	CMMServer		   *m_pMMServer;
+	CSMTPConnection	   *m_pSMTPConnection;
+@
+
+
+1.42
+log
+@extended filtered stats
+@
+text
+@d43 1
+a43 1
+#include "filehashcontrol.h" // Lord KiRon
+d53 1
+a53 1
+#include "fakecheck.h" //FakeCheck
+d98 1
+a98 1
+	CWebServer		   *m_pWebServer; // kuchin
+d103 2
+a104 2
+	tagCOPYDATASTRUCT  	m_sendStruct; // Cax2
+	CFileHashControl 	m_fileHashControl; // Lord KiRon
+d107 1
+a107 1
+	CFakecheck		   *m_pFakeCheck; //MORPH
+d120 2
+a121 2
+	//detailed filtering statistic
+	//uint16				stat_filteredclients;
+d127 1
+a127 1
+	//eklmn: statistical values for unfair clients (session only)
+d134 4
+a137 2
+	DbEnv			   *pDbEnv;	// Database environment
+	Db				   *pDbSLS;	// Stored sources
+d141 1
+a141 1
+	// DonGato: ICC customization
+d145 1
+a145 2
+// Implementierung
+	// ed2k link functions
+d148 2
+a149 1
+	CString		CopyTextFromClipboard(); //<<-- enkeyDEV(Ottavio84) -Download all ed2ks in clipboard-
+d156 3
+a158 2
+	int ProcessCommandline();
+	void SetTimeOnTransfer();
+d160 1
+a160 1
+	void OnHelp();
+@
+
+
+1.41
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@a117 1
+	uint16				stat_filteredclients;
+d120 7
+d177 1
+a177 1
+extern CEmuleApp g_eMuleApp;@
+
+
+1.40
+log
+@speed optimization & output in stats of the feature "countermeasures against unfair client"
+@
+text
+@d122 5
+a126 5
+	LONG			m_dwTotalNumUnfairClients;
+	LONG			m_dwTotalNumUnfairActions;
+	LONG			m_dwTotalNumUseMyHashActions;
+	LONG			m_dwTotalNumHashChangeActions;
+	LONG			m_dwTotalNumStolenNameActions;
+d143 2
+a144 2
+	void		UpdateReceivedBytes(int32 bytesToAdd);
+	void		UpdateSentBytes(int32 bytesToAdd);
+@
+
+
+1.39
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d121 7
+@
+
+
+1.38
+log
+@optimisation of the file processing + some formatting, comments and deletions of spaces and tabs at end of lines
+@
+text
+@a108 1
+#ifdef MOBILE_MULE
+a109 1
+#endif //MOBILE_MULE
+@
+
+
+1.37
+log
+@Separating engine and GUI
+@
+text
+@d85 1
+a85 1
+	CServerList		   *m_pServerList;	
+d134 1
+a134 1
+	CString		StripInvalidFilenameChars(CString strText, bool bKeepSpaces = true);	
+d137 1
+a137 1
+	void		OnlineSig(); 
+d153 1
+a153 1
+	AppState	m_app_state; // defines application state for shutdown 
+@
+
+
+1.36
+log
+@Formatting, comments, and name changes.
+@
+text
+@a64 1
+class CEmEngine;
+a113 4
+#ifdef NEW_SOCKETS
+	CEmEngine		   *m_pEngine;
+#endif //NEW_SOCKETS
+	
+@
+
+
+1.35
+log
+@*** empty log message ***
+@
+text
+@d169 1
+a169 1
+	virtual BOOL PreTranslateMessage(MSG* pMsg);	// DropF - Keyboard Shortcuts
+@
+
+
+1.34
+log
+@Formatting, comments, and name changes.
+@
+text
+@d168 2
+@
+
+
+1.33
+log
+@Fixed bug #0000411 - Sort arrow background color does not match some color schemes
+@
+text
+@d126 1
+a126 1
+	ULONGLONG			m_ullComCtrlVer;
+@
+
+
+1.32
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d126 1
+a126 2
+	DWORD				m_dwCommCtrlMjr;
+	DWORD				m_dwCommCtrlMin;
+@
+
+
+1.31
+log
+@Formatting, comments, and name changes.
+@
+text
+@d39 1
+d70 6
+a75 1
+	enum AppState{APP_STATE_RUNNING=0,APP_STATE_SHUTINGDOWN,APP_STATE_DONE};	// moved from emuldlg [FoRcHa]
+d79 1
+@
+
+
+1.30
+log
+@FakeCheck for Search Result and Download List (Check and Report ... made by milobac ... merged by DropF ... tested by n@@boleo and me)
+@
+text
+@d125 1
+a125 1
+	CArray<CString,CString> webservices;
+@
+
+
+1.29
+log
+@Formatting, comments, and name changes.
+@
+text
+@d52 1
+d101 2
+@
+
+
+1.28
+log
+@Fixed problem with multiple instances on mass ed2k links add (hope so!)
+@
+text
+@d32 1
+a32 1
+#include "sharedfilelist.h"
+@
+
+
+1.27
+log
+@Formatting and comments.
+@
+text
+@d139 1
+a139 1
+	bool ProcessCommandline();
+@
+
+
+1.26
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d125 2
+a126 2
+	void			InitURLs();
+	CStringArray	g_Urls;
+@
+
+
+1.25
+log
+@First step of ICC (Internet Connection Check) configuration. Only in ini for now.
+@
+text
+@d31 1
+a31 1
+#include "serverlist.h"
+d33 1
+a33 1
+#include "searchlist.h"
+d35 1
+a35 1
+#include "listensocket.h"
+d37 5
+a41 5
+#include "uploadqueue.h"
+#include "downloadqueue.h"
+#include "clientlist.h"
+#include "clientcredits.h"
+#include "friendlist.h"
+d50 1
+a50 1
+#include "mmserver.h"
+d65 1
+a65 1
+class CemuleApp : public CWinApp, public CLoggable
+d70 5
+a74 5
+	CemuleApp();
+	CemuleDlg*			emuledlg;
+	CClientList*		clientlist;
+	CKnownFileList*		knownfiles;
+	CPreferences*		glob_prefs;
+d76 1
+a76 1
+	CServerConnect*		serverconnect;
+d78 3
+a80 3
+	CServerList*		serverlist;	
+	CSharedFileList*	sharedfiles;
+	CSearchList*		searchlist;
+d82 1
+a82 1
+	CListenSocket*		listensocket;
+d84 4
+a87 4
+	CUploadQueue*		uploadqueue;
+	CDownloadQueue*		downloadqueue;
+	CClientCreditsList*	clientcredits;
+	CFriendList*		friendlist;
+d89 1
+a89 1
+	CClientUDPSocket*	clientudp;
+d91 2
+a92 1
+	CWebServer*			webserver; // kuchin
+d94 6
+a99 5
+	CString*			pendinglink;
+	tagCOPYDATASTRUCT  	sendstruct; // Cax2
+	CFileHashControl 	m_FilesHashing; // Lord KiRon
+	CMutex				hashing_mut;
+	CIPFilter*			ipfilter;
+d101 1
+a101 1
+	CMMServer*			mmserver;
+d103 1
+a103 1
+	CSMTPConnection*	smtpconnection;
+d106 1
+a106 1
+	CEmEngine*			pEngine;
+d119 2
+a120 2
+	DbEnv*	pDbEnv;	// Database environment
+	Db*		pDbSLS;	// Stored sources
+d144 3
+a146 3
+	HIMAGELIST m_hSystemImageList;
+	CMapStringToPtr m_aExtToSysImgIdx;
+	CSize m_sizSmallSystemIcon;
+d160 1
+a160 1
+extern CemuleApp theApp;@
+
+
+1.24
+log
+@New sockets
+@
+text
+@d54 1
+d121 4
+@
+
+
+1.23
+log
+@New sockets. Connecting to server from server list
+@
+text
+@a52 2
+#include "Sockets/EmEngine.h"
+
+d61 2
+a62 1
+class CWebServer; // kuchin
+d103 1
+a103 1
+	CEmEngine			stEngine;
+@
+
+
+1.22
+log
+@built in compiler switch for mobileMule
+@
+text
+@d53 2
+d103 3
+@
+
+
+1.21
+log
+@Can't live without BerkeleyDb now :)
+@
+text
+@d96 1
+d98 1
+@
+
+
+1.20
+log
+@new statistic (khaos based)
+@
+text
+@a52 1
+#ifdef _USE_BERKELEY_DB
+a53 1
+#endif //_USE_BERKELEY_DB
+a109 1
+#ifdef _USE_BERKELEY_DB
+a111 2
+
+#endif //_USE_BERKELEY_DB
+@
+
+
+1.19
+log
+@eMailNotifier and PopUp CleanUp
+@
+text
+@d107 1
+@
+
+
+1.18
+log
+@Purity's changes
+@
+text
+@d51 1
+d99 1
+@
+
+
+1.17
+log
+@FileType Icons in shared and downloading files
+@
+text
+@d50 1
+d97 2
+@
+
+
+1.16
+log
+@unicode cleanup
+@
+text
+@d130 4
+d137 4
+@
+
+
+1.15
+log
+@Preparing for new sockets
+@
+text
+@d117 1
+a117 1
+	bool		CopyTextToClipboard( CString strText );
+@
+
+
+1.14
+log
+@Preparing for new sockets
+@
+text
+@d73 1
+d75 1
+@
+
+
+1.13
+log
+@code cleanup
+@
+text
+@d28 1
+d30 1
+d34 1
+d36 1
+d43 1
+d45 1
+d57 1
+d59 1
+d77 1
+d79 1
+d84 1
+d86 1
+@
+
+
+1.12
+log
+@minor fixes and improvements
+@
+text
+@d102 1
+a102 4
+	CString		StripInvalidFilenameChars(CString strText, bool bKeepSpaces = true);
+	CString		CreateED2kLink( CAbstractFile* f );
+	CString		CreateED2kSourceLink( CAbstractFile* f );
+	CString		CreateHTMLED2kLink( CAbstractFile* f );
+@
+
+
+1.11
+log
+@reverted some changes
+@
+text
+@d89 2
+@
+
+
+1.10
+log
+@added app shutdown mutex
+@
+text
+@a80 1
+	CMutex				shutdownMutex;  //[TwoBottle Mod]
+@
+
+
+1.9
+log
+@converted to new logging method
+@
+text
+@d81 1
+@
+
+
+1.8
+log
+@Changes protected by a #define, should have no effect
+@
+text
+@d42 1
+d55 1
+a55 1
+class CemuleApp : public CWinApp
+@
+
+
+1.7
+log
+@Last changes to context menues and Fakecheck code removal.
+@
+text
+@d92 1
+@
+
+
+1.6
+log
+@BerkeleyDb is on the main branch, but will be included only with special build configuration
+@
+text
+@a101 2
+	CString 	Replace(CKnownFile* knownfile, CPartFile* partfile, CSearchFile* searchfile); //deltahf
+	bool 		Action(CKnownFile* knownfile, CPartFile* partfile = NULL, CSearchFile* searchfile = NULL); //deltahf
+@
+
+
+1.5
+log
+@enkeydev stuff
+@
+text
+@d44 4
+d88 5
+@
+
+
+1.4
+log
+@better out-of-disk-space handling
+@
+text
+@d96 1
+@
+
+
+1.3
+log
+@first compile with .25 codebase!
+@
+text
+@d41 1
+d76 1
+d83 3
+@
+
+
+1.3.4.1
+log
+@initial upgrade to .26
+@
+text
+@a69 1
+	CMutex				hashing_mut;
+d72 1
+a72 1
+	tagCOPYDATASTRUCT  sendstruct; //added by Cax2 28/10/02 
+d74 2
+a75 1
+
+@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.2
+log
+@update to .25b codebase
+@
+text
+@d74 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d99 1
+@
+

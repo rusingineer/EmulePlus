@@ -1,0 +1,511 @@
+head	1.11;
+access;
+symbols
+	PublicRelease_1_2e:1.11
+	Interim_Release_1-2e_RC1:1.11
+	PublicRelease_1_2d:1.11
+	Interim_Release_1-2d_RC1:1.11
+	Interim_Release_1-2d_beta1:1.11
+	PublicRelease_1_2c:1.11
+	Interim_Release_1-2c_RC1:1.11
+	Interim_Release_1-2c_beta1:1.11
+	PublicRelease_1_2b:1.11
+	Interim_Release_1-2b_RC1:1.11
+	PublicRelease_1_2a:1.11
+	Interim_Release_1-2a_RC1:1.11
+	Interim_Release_1-2a_beta2:1.11
+	Interim_Release_1-2a_beta1:1.11
+	PublicRelease_1_2:1.11
+	Interim_Release_1-2_RC1:1.11
+	Interim_Release_1-2_beta1:1.11
+	PublicRelease_1_1g:1.11
+	Interim_Release_1-1g_RC3:1.11
+	Interim_Release_1-1g_RC2:1.11
+	Interim_Release_1-1g_RC1:1.11
+	Interim_Release_1-1g_beta2:1.11
+	Interim_Release_1-1g_beta1:1.11
+	PublicRelease_1_1f:1.11
+	Interim_Release_1-1f_RC1:1.11
+	PublicRelease_1_1e:1.11
+	Interim_Release_1-1e_RC2:1.11
+	Interim_Release_1-1e_RC1:1.11
+	Interim_Release_1-1e_beta1:1.11
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.8
+	Interim_Release_1-1c_beta2:1.7
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.2
+	PublicRelease_1_1a:1.2
+	Interim_Release_1-1a_RC2:1.2
+	Interim_Release_1-1a_RC1:1.2
+	Interim_Release_1-1a_beta2:1.2
+	Interim_Release_1-1a_beta1:1.2
+	PublicRelease_1_1:1.2
+	Interim_Release_1-1_beta1:1.2
+	PublicRelease_1o:1.2
+	Interim_Release_1o_RC1:1.2
+	Interim_Release_1o_beta1:1.2
+	PublicRelease_1n:1.2
+	Interim_Release_1n_RC2:1.2
+	Interim_Release_1n_RC1:1.2
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.2
+	Interim_Release_1l_RC1:1.2
+	Interim_Release_1l_beta2:1.2
+	Interim_Release_1l_beta1:1.2
+	PublicRelease_1k:1.2
+	Interim_Release_1k_RC4:1.2
+	Interim_1k_RC3:1.2
+	Interim_1k_RC2:1.2
+	Interim_Release_1k_RC1:1.2
+	Interim_Release_1k_beta5:1.2
+	Intrerim_Release_1k_beta4:1.2
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.11
+date	2005.04.16.00.05.00;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.04.11.16.32.37;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.02.26.17.52.05;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.02.23.18.58.05;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.02.03.15.14.16;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.01.29.14.55.02;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.01.04.13.21.28;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.12.29.16.04.23;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.12.26.15.45.32;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.06.11.13.19;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.03.11.19.55;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@v2 - Xml events and other improvements
+@
+text
+@// XML.h: helper class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#include "../TaskProcessor.h"
+#include "../Other/XMLhelper.h"
+
+enum
+{
+	XML_GET_START	= 0,
+	XML_GET_READ	= 1,
+	XML_GET_SEND	= 2
+};
+
+enum EnumSetParam
+{
+	PARAM_UPLOAD_LIMIT	= 0
+};
+
+//////////////////////////////////////////////////////////////////////
+struct CTask_SendXml : public CTask
+{
+	CTask_SendXml(SOCKET hSocket, CString sXml);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("SendXml"); }
+
+	SOCKET	m_hSocket;
+	CString	m_sXml;
+};
+
+//////////////////////////////////////////////////////////////////////
+class CXmlTask : public CTcpCompletionTask
+{
+public:
+	CXmlTask();
+	virtual bool LoadParams(XmlElement spElem) = 0;
+	virtual XmlDoc PrepareResult();
+
+	void SendBuf(CString sXml);
+
+	static CXmlTask* ParseXml(CString sXml);
+
+	ULONG	GetId(){ return m_ulId; }
+
+	// for debug
+	void SetReceived(bool bReceived){ m_bReceived = bReceived; }
+
+	static XmlDoc PrepareDocument(LPCTSTR sTaskName, LPCTSTR sTag);
+
+protected:
+	ULONG	m_ulId;
+	bool	m_bReceived;
+	bool	m_bResult;
+	bool	m_bEvent;
+
+	CEmClient_Xml *m_pClient;
+
+	CString	m_sName;
+
+	CString m_sContents;
+
+	static long	s_lNextId;
+};
+
+// Defining Xml task classes
+#define BEGIN_XML_CMD(name)		class CXml_##name : public CXmlTask \
+									{ \
+									public: \
+									CXml_##name(); \
+									virtual bool Process(); \
+									bool ProcessResult(); \
+									bool ProcessReceived(); \
+									bool ProcessEvent(); \
+									virtual void SetClient(CEmClient *pClient) { m_pClient = dynamic_cast<CEmClient_Xml*>(pClient); } \
+									bool LoadParams(XmlElement spElem); \
+									virtual LPCTSTR TaskName(){ return _T("Xml_##name"); } \
+
+#define XML_PARAM_STRING(var)		CString m_s##var;
+#define XML_PARAM_DWORD(var)		DWORD m_dw##var;
+#define XML_INTERNAL_VAR(var,init)	var;
+#define END_XML_CMD				};
+#include "XMLMsgs.h"
+
+#define XML_PROCESS_FUNC(name)	bool CXml_##name::ProcessReceived()
+#define XML_PROCESS_EMPTY(name)	bool CXml_##name::ProcessReceived(){ return true; }
+#define XML_RESULT_FUNC(name)	bool CXml_##name::ProcessResult()
+#define XML_RESULT_EMPTY(name)	bool CXml_##name::ProcessResult(){ return true; }
+#define XML_EVENT_FUNC(name)	bool CXml_##name::ProcessEvent()
+#define XML_EVENT_EMPTY(name)	bool CXml_##name::ProcessEvent(){ return true; }
+@
+
+
+1.10
+log
+@v2 - logging subsystem
+@
+text
+@d17 17
+a46 2
+	void SetClient(CEmClient_Xml *pClient){ m_pClient = pClient; }
+
+d50 2
+d56 1
+d75 1
+d78 1
+a78 1
+									virtual LPCTSTR TaskName(){ return _T(#name); } \
+d87 1
+d89 3
+@
+
+
+1.9
+log
+@v2 - upload already works, of course it has very poor implementation, without queues yet, but it works! Also webserver improvements - now you can enter commands through webinterface
+@
+text
+@d62 1
+a62 1
+#define XML_PARAM_ULONG(var)		ULONG m_ul##var;
+@
+
+
+1.8
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@d12 3
+a14 3
+	XML_GETLOGS_START	= 0,
+	XML_GETLOGS_READ	= 1,
+	XML_GETLOGS_SEND	= 2
+@
+
+
+1.7
+log
+@Ideological switch (may be considered as temporary, but for long term) - ATL to MFC
+Actually we don't need them both, but I want to work with our current KnownFile-based classes, which use MFC a lot
+@
+text
+@d10 7
+d32 3
+d58 3
+a60 1
+									bool LoadParams(XmlElement spElem);
+@
+
+
+1.6
+log
+@Xml and database functionality
+@
+text
+@d21 5
+a25 1
+public:
+d34 2
+@
+
+
+1.5
+log
+@XML connecting, tray app
+@
+text
+@d15 1
+a15 1
+	virtual CString PrepareResult();
+d37 1
+d45 1
+@
+
+
+1.4
+log
+@There can be only one engine :-)
+@
+text
+@d10 1
+a10 1
+class CXmlTask : public CTask
+d17 4
+d23 8
+d34 7
+a40 2
+#define BEGIN_XML_CMD(name)		class CXml_##name : public CXmlTask { public: \
+									bool Process();\
+d47 2
+a48 1
+#define XML_PROCESS_FUNC(name)	bool CXml_##name::Process()
+@
+
+
+1.3
+log
+@Rearrangements
+@
+text
+@d23 1
+a23 1
+									bool Process(CEmEngine &);\
+d30 1
+a30 1
+#define XML_PROCESS_FUNC(name)	bool CXml_##name::Process(CEmEngine &stEngine)
+@
+
+
+1.2
+log
+@New engine - even more XML
+@
+text
+@d8 1
+d10 1
+a10 120
+#import "msxml.dll"
+
+class CMuleXml
+{
+public:
+	bool Create()
+	{
+		try
+		{
+			m_spDoc = NULL;
+			m_spDoc.CreateInstance(_T("msxml.domdocument"));
+			m_spDoc->async = VARIANT_FALSE;
+			return true;
+		}
+		catch(...)
+		{
+			return false;
+		}
+	}
+
+	bool Load(LPCTSTR sXml)
+	{
+		try
+		{
+			if(!Create())
+				return false;
+			return (m_spDoc->loadXML(bstr_t(sXml)) == VARIANT_TRUE);
+		}
+		catch(...)
+		{
+			return false;
+		}
+	}
+
+	bool SelectNode(LPCTSTR sNodeName)
+	{
+		try
+		{
+			m_spNode = NULL;
+			MSXML::IXMLDOMNode *pResult;
+			if(FAILED(m_spDoc->raw_selectSingleNode(bstr_t(sNodeName), &pResult)))
+				return false;
+			m_spNode = MSXML::IXMLDOMNodePtr(pResult);
+			return true;
+		}
+		catch(...)
+		{
+			return false;
+		}
+	}
+
+	CString GetAttribute(LPCTSTR sAttribName)
+	{
+		try
+		{
+			MSXML::IXMLDOMNodePtr spName = m_spNode->attributes->getNamedItem(bstr_t(sAttribName));
+			if(spName == NULL)
+				return _T("");
+			bstr_t bsResult = spName->text;
+			return (LPCTSTR)bsResult;
+		}
+		catch(...)
+		{
+			return _T("");
+		}
+	}
+
+	bool CreateElement(LPCTSTR sElementName)
+	{
+		try
+		{
+/*			MSXML::IXMLDOMProcessingInstructionPtr spPI = 
+				m_spDoc->createProcessingInstruction(bstr_t(_T("xml")), bstr_t(_T("version=\"1.0\"")));
+			m_spDoc->appendChild(spPI);*/
+			m_spNode = m_spDoc->createElement(bstr_t(sElementName));
+			if(m_spNode != NULL)
+				if(SUCCEEDED(m_spDoc->appendChild(m_spNode)))
+					return true;
+			return false;
+		}
+		catch(...)
+		{
+			return false;
+		}
+	}
+
+	bool SetAttribute(LPCTSTR sAttribName, variant_t vtValue)
+	{
+		try
+		{
+			MSXML::IXMLDOMElementPtr spElem = m_spNode;
+			return SUCCEEDED(spElem->setAttribute(bstr_t(sAttribName), vtValue));
+		}
+		catch(...)
+		{
+			return false;
+		}
+	}
+
+	CString GetXml()
+	{
+		try
+		{
+			bstr_t bsXml = m_spDoc->xml;
+			return (LPCTSTR)bsXml;
+		}
+		catch(...)
+		{
+			return _T("");
+		}
+	}
+
+	MSXML::IXMLDOMNodePtr GetNode(){ return m_spNode; }
+
+public:
+	MSXML::IXMLDOMDocumentPtr	m_spDoc;
+	MSXML::IXMLDOMNodePtr		m_spNode;
+};
+
+class CXmlTask : public CTask, public CMuleXml
+d14 1
+a14 1
+	virtual bool LoadParams(MSXML::IXMLDOMNodePtr spNode) = 0;
+d24 3
+a26 3
+									bool LoadParams(MSXML::IXMLDOMNodePtr spNode);
+#define XML_PARAM_STRING(var)		CString m_str_##var;
+#define XML_PARAM_ULONG(var)		ULONG m_ul_##var;
+@
+
+
+1.1
+log
+@New engine - XML
+@
+text
+@d131 1
+a131 1
+	bool Process(CEmEngine &){return true;}
+d133 4
+d141 1
+d143 2
+a144 2
+#define XML_PARAM_STRING(var)		CString m_##var;
+#define XML_PARAM_ULONG(var)		ULONG m_##var;
+d147 2
+@
+

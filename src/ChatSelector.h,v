@@ -1,0 +1,628 @@
+head	1.17;
+access;
+symbols
+	PublicRelease_1_2e:1.17
+	Interim_Release_1-2e_RC1:1.17
+	PublicRelease_1_2d:1.17
+	Interim_Release_1-2d_RC1:1.17
+	Interim_Release_1-2d_beta1:1.17
+	PublicRelease_1_2c:1.15
+	Interim_Release_1-2c_RC1:1.15
+	Interim_Release_1-2c_beta1:1.15
+	PublicRelease_1_2b:1.15
+	Interim_Release_1-2b_RC1:1.15
+	PublicRelease_1_2a:1.15
+	Interim_Release_1-2a_RC1:1.15
+	Interim_Release_1-2a_beta2:1.15
+	Interim_Release_1-2a_beta1:1.15
+	PublicRelease_1_2:1.15
+	Interim_Release_1-2_RC1:1.15
+	Interim_Release_1-2_beta1:1.15
+	PublicRelease_1_1g:1.15
+	Interim_Release_1-1g_RC3:1.15
+	Interim_Release_1-1g_RC2:1.15
+	Interim_Release_1-1g_RC1:1.15
+	Interim_Release_1-1g_beta2:1.15
+	Interim_Release_1-1g_beta1:1.15
+	PublicRelease_1_1f:1.15
+	Interim_Release_1-1f_RC1:1.15
+	PublicRelease_1_1e:1.15
+	Interim_Release_1-1e_RC2:1.15
+	Interim_Release_1-1e_RC1:1.15
+	Interim_Release_1-1e_beta1:1.15
+	PublicRelease_1_1d:1.15
+	Interim_Release_1-1d_RC1:1.15
+	PublicRelease_1_1c:1.15
+	Interim_Release_1-1c_RC1:1.15
+	Interim_Release_1-1c_beta2:1.15
+	Interim_Release_1-1c_beta1:1.15
+	PublicRelease_1_1b:1.15
+	Interim_Release_1-1b_RC1:1.15
+	PublicRelease_1_1a:1.15
+	Interim_Release_1-1a_RC2:1.15
+	Interim_Release_1-1a_RC1:1.15
+	Interim_Release_1-1a_beta2:1.15
+	Interim_Release_1-1a_beta1:1.15
+	PublicRelease_1_1:1.14
+	Interim_Release_1-1_beta1:1.14
+	PublicRelease_1o:1.14
+	Interim_Release_1o_RC1:1.14
+	Interim_Release_1o_beta1:1.14
+	PublicRelease_1n:1.14
+	Interim_Release_1n_RC2:1.14
+	Interim_Release_1n_RC1:1.14
+	Interim_Release_1n_beta2:1.14
+	Interim_Release_1n_beta1:1.14
+	PublicRelease_1m:1.12
+	Interim_Release_1m_beta1:1.12
+	PublicRelease_1l:1.11
+	Interim_Release_1l_RC3:1.11
+	Interim_Release_1l_RC2:1.11
+	Interim_Release_1l_RC1:1.11
+	Interim_Release_1l_beta2:1.11
+	Interim_Release_1l_beta1:1.10
+	PublicRelease_1k:1.10
+	Interim_Release_1k_RC4:1.10
+	Interim_1k_RC3:1.10
+	Interim_1k_RC2:1.10
+	Interim_Release_1k_RC1:1.10
+	Interim_Release_1k_beta5:1.9
+	Intrerim_Release_1k_beta4:1.9
+	Interim_Release_1k_beta1:1.9
+	PublicRelease_1j:1.9
+	Interim_Release_1J_RC3:1.9
+	Interim_Release_1j_RC3:1.9
+	Interim_Release_1j_RC2:1.9
+	Interim_Release_1j_RC1:1.9
+	Interim_Release_1j_beta2:1.9
+	Interim_Release_1j_beta1:1.9
+	PublicRelease_1i:1.8
+	Interim_Release_1i_RC6:1.8
+	Interim_Release_1i_RC3:1.8
+	Interim_Release_1i_RC2:1.8
+	Interim_Release_1i_RC1:1.8
+	Interim_Release_1i_beta3:1.8
+	Interim_Release_1i_beta2:1.8
+	Interim_Release_1i_beta1:1.7
+	PublicRelease_1h:1.6
+	Interim_Release_1h_rc2:1.6
+	Interim_Release_1h_RC1:1.6
+	Interim_Release_1h_beta2:1.6
+	Interim_Release_1h_beta1_now:1.5
+	Interim_Release_1h_beta1:1.5
+	PublicRelease_1g:1.5
+	Interim_Release_1g_RC6_Final:1.5
+	Interim_Release_1g_RC6:1.5
+	Interim_Release_1g_RC5:1.5
+	Interim_Release_1g_RC4:1.5
+	Interim_Release_1g_RC3:1.5
+	Interim_Release_1g_beta2:1.5
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.5
+	Interim_Release_1f_RC3:1.5
+	Interim_Release_1f_RC2:1.5
+	Interim_Release_1f_RC:1.5
+	Interim_Release_1f_beta2:1.5
+	Interim_Release_1f_beta1:1.4
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.4
+	Interim_Release_1e_beta1:1.4
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.4
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.2
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.17
+date	2008.01.05.20.41.20;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2007.10.03.18.09.18;	author eklmn;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.10.29.03.24.51;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.07.12.14.10.41;	author katsyonak;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.06.28.17.29.36;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.06.20.19.15.24;	author katsyonak;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.05.17.01.45.15;	author dongato;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.03.26.08.55.19;	author eklmn;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.18.13.35.30;	author katsyonak;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.24.01.21.19;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.27.14.59.37;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.08.23.16.28.38;	author bond006;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.06.21.59.12;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.14.15.53.06;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.08.12.09.41;	author recdvst;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.17.59.09;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.53.58;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.17
+log
+@Suppressed compiler warnings; Reduced H-file dependency; Formatting.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "types.h"
+#include "HTRichEditCtrl.h"
+#include "ClosableTabCtrl.h"
+#include "Loggable.h"
+
+class CUpDownClient;
+
+class CChatItem
+{
+public:
+	CChatItem();
+	~CChatItem()		{safe_delete(m_pLog);}
+	CUpDownClient		*m_pClient;
+	CHTRichEditCtrl		*m_pLog;
+	CString				m_strMessagePending;
+	bool				m_bNotify;
+	CStringArray		m_strHistoryArray;
+	int					m_iHistoryIndex;
+};
+
+class CChatSelector : public CClosableTabCtrl, public CLoggable
+{
+	DECLARE_DYNAMIC(CChatSelector)
+
+public:
+	CChatSelector();
+	virtual			~CChatSelector();
+	void			Init();
+	CChatItem		*StartSession(CUpDownClient* client, bool bForceFocus = true);
+	void			EndSession(CUpDownClient* client = 0, bool bForceFocus = true);
+	int				GetTabByClient(CUpDownClient *pClient);
+	CChatItem		*GetItemByClient(CUpDownClient* client);
+	void			ProcessMessage(CUpDownClient* pSender, const CString &strMessage);
+	bool			SendMessage(const CString& message);
+	bool			SendAwayMessage(CChatItem* ci);
+	void			DeleteAllItems();
+	void			ShowChat();
+	void			ConnectingResult(CUpDownClient* sender, bool bSuccess);
+	void			Send();
+	void			UpdateFont();
+	CChatItem		*GetCurrentChatItem();
+
+	afx_msg void 	OnSize(UINT nType, int cx, int cy);
+	virtual BOOL 	PreTranslateMessage(MSG* pMsg);
+	BOOL 			RemoveItem(int nItem)		{ return DeleteItem(nItem); }
+	afx_msg void 	OnEnLinkMessageBox(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void 	OnDestroy();
+
+protected:
+	void			OnTimer(UINT_PTR nIDEvent);
+	afx_msg void 	OnTcnSelchangeChatsel(NMHDR *pNMHDR, LRESULT *pResult);
+	DECLARE_MESSAGE_MAP()
+	virtual INT		InsertItem(int nItem,TCITEM* pTabCtrlItem);
+	virtual BOOL	DeleteItem(int nItem);
+	void			SendMessagePacket(CChatItem& ci, const CString& msg);
+
+private:
+	CHTRichEditCtrl	chatout;
+	UINT_PTR		m_Timer;
+	bool			blinkstate;
+	bool			lastemptyicon;
+};
+@
+
+
+1.16
+log
+@improved the string handling
+@
+text
+@a16 1
+
+a19 1
+#include "updownclient.h"
+a20 1
+#include "otherfunctions.h"
+d24 2
+a37 1
+// CChatSelector
+d49 1
+a49 1
+	uint16			GetTabByClient(CUpDownClient* client);
+a50 1
+	CHTRichEditCtrl chatout;
+d60 7
+d73 2
+a74 1
+	void 			SendMessagePacket(CChatItem& ci, const CString& msg);
+d76 1
+a79 7
+
+public:
+	afx_msg void 	OnSize(UINT nType, int cx, int cy);
+	virtual BOOL 	PreTranslateMessage(MSG* pMsg);
+	BOOL 			RemoveItem(int nItem)		{ return DeleteItem(nItem); }
+	afx_msg void 	OnEnLinkMessageBox(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void 	OnDestroy();
+@
+
+
+1.15
+log
+@Removed unused closable tab stuff to reduce used memory and GDI resources.
+@
+text
+@d54 1
+a54 1
+	void			ProcessMessage(CUpDownClient* sender, LPCTSTR message);
+@
+
+
+1.14
+log
+@Fixed a GUI glitch in Messages window when multiple tabs are open and windows is themed;
+Name changes, formatting etc.
+@
+text
+@a70 1
+	CImageList		m_imageList;
+@
+
+
+1.13
+log
+@Some changes to fix the focus change issue
+@
+text
+@a65 2
+	afx_msg void 	OnBnClickedCsend();
+	afx_msg void 	OnBnClickedCclose();
+a75 3
+	CWnd			*m_pMessageBox;
+	CWnd			*m_pCloseBtn;
+	CWnd			*m_pSendBtn;
+a78 1
+	void 			Localize(void);
+@
+
+
+1.12
+log
+@Removed CPreparedRTFText class
+@
+text
+@d47 6
+a52 6
+	virtual		~CChatSelector();
+	void		Init();
+	CChatItem	*StartSession(CUpDownClient* client);
+	void		EndSession(CUpDownClient* client = 0);
+	uint16		GetTabByClient(CUpDownClient* client);
+	CChatItem	*GetItemByClient(CUpDownClient* client);
+d54 9
+a62 9
+	void		ProcessMessage(CUpDownClient* sender, LPCTSTR message);
+	bool		SendMessage(const CString& message);
+	bool		SendAwayMessage(CChatItem* ci);
+	void		DeleteAllItems();
+	void		ShowChat();
+	void		ConnectingResult(CUpDownClient* sender,bool success);
+	void		Send();
+	void		UpdateFont();
+	CChatItem	*GetCurrentChatItem();
+d64 4
+a67 4
+	void		OnTimer(UINT_PTR nIDEvent);
+	afx_msg void OnTcnSelchangeChatsel(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnBnClickedCsend();
+	afx_msg void OnBnClickedCclose();
+d71 1
+a71 1
+	void SendMessagePacket(CChatItem& ci, const CString& msg);
+d73 4
+a76 4
+	CImageList	m_imageList;
+	UINT_PTR	m_Timer;
+	bool		blinkstate;
+	bool		lastemptyicon;
+d78 3
+a80 3
+	CWnd		*m_pMessageBox;
+	CWnd		*m_pCloseBtn;
+	CWnd		*m_pSendBtn;
+d82 6
+a87 6
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	virtual BOOL PreTranslateMessage(MSG* pMsg);
+	void Localize(void);
+	BOOL RemoveItem(int nItem)		{ return DeleteItem(nItem);}
+	afx_msg void OnEnLinkMessageBox(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnDestroy();
+@
+
+
+1.11
+log
+@Some changes to track the Ban Messages crashes
+@
+text
+@d27 2
+a28 1
+class CChatItem{
+d32 2
+a33 2
+	CUpDownClient*		m_pClient;
+	CPreparedRTFText*	m_pLog;
+d35 2
+a36 2
+	bool					m_bNotify;
+	CStringArray			m_strHistoryArray;
+d49 1
+a49 1
+	CChatItem*	StartSession(CUpDownClient* client);
+d52 1
+a52 1
+	CChatItem*	GetItemByClient(CUpDownClient* client);
+d61 2
+a62 1
+	CChatItem*	GetCurrentChatItem();
+@
+
+
+1.10
+log
+@some measurements to increase stability + name change
+@
+text
+@d48 1
+a48 1
+	CChatItem*	StartSession(CUpDownClient* client, bool show = true);
+a86 2
+
+
+@
+
+
+1.9
+log
+@Converted IRC/Messages to Rich Edit  (added copy text to clipboard & save logs with colors as RTF)
+@
+text
+@d30 7
+a36 7
+	~CChatItem()		{safe_delete(log);}
+	CUpDownClient*		client;
+	CPreparedRTFText*	log;
+	CString				messagepending;
+	bool				notify;
+	CStringArray		history;
+	int					history_pos;
+@
+
+
+1.8
+log
+@Formatting, comments, and name changes.
+@
+text
+@d22 1
+a22 1
+#include "hypertextctrl.h"
+d32 1
+a32 1
+	CPreparedHyperText*	log;
+d52 1
+a52 1
+	CHyperTextCtrl chatout;
+d84 1
+@
+
+
+1.7
+log
+@Updated Chat & IRC code. Workaround for bug #0000322
+@
+text
+@d71 1
+a71 1
+	CImageList	imagelist;
+@
+
+
+1.6
+log
+@fixed security issues
+@
+text
+@d24 1
+d35 2
+d40 1
+a40 1
+class CChatSelector : public CTabCtrl, public CLoggable
+d60 1
+d83 2
+@
+
+
+1.5
+log
+@code cleanup
+@
+text
+@d50 1
+a50 1
+	void		ProcessMessage(CUpDownClient* sender, char* message);
+@
+
+
+1.4
+log
+@converted to new logging method
+@
+text
+@d32 1
+a32 1
+	char*				messagepending;
+d51 1
+a51 1
+	bool		SendMessage(char* message);
+d65 1
+@
+
+
+1.3
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d24 1
+d37 1
+a37 1
+class CChatSelector : public CTabCtrl
+@
+
+
+1.2
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@d51 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d67 1
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

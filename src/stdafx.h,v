@@ -1,0 +1,1462 @@
+head	1.61;
+access;
+symbols
+	PublicRelease_1_2e:1.61
+	Interim_Release_1-2e_RC1:1.61
+	PublicRelease_1_2d:1.59
+	Interim_Release_1-2d_RC1:1.59
+	Interim_Release_1-2d_beta1:1.58
+	PublicRelease_1_2c:1.55
+	Interim_Release_1-2c_RC1:1.55
+	Interim_Release_1-2c_beta1:1.52
+	PublicRelease_1_2b:1.52
+	Interim_Release_1-2b_RC1:1.52
+	PublicRelease_1_2a:1.51
+	Interim_Release_1-2a_RC1:1.51
+	Interim_Release_1-2a_beta2:1.51
+	Interim_Release_1-2a_beta1:1.51
+	PublicRelease_1_2:1.50
+	Interim_Release_1-2_RC1:1.50
+	Interim_Release_1-2_beta1:1.50
+	PublicRelease_1_1g:1.50
+	Interim_Release_1-1g_RC3:1.50
+	Interim_Release_1-1g_RC2:1.50
+	Interim_Release_1-1g_RC1:1.50
+	Interim_Release_1-1g_beta2:1.49
+	Interim_Release_1-1g_beta1:1.48
+	PublicRelease_1_1f:1.47
+	Interim_Release_1-1f_RC1:1.47
+	PublicRelease_1_1e:1.47
+	Interim_Release_1-1e_RC2:1.47
+	Interim_Release_1-1e_RC1:1.47
+	Interim_Release_1-1e_beta1:1.47
+	PublicRelease_1_1d:1.47
+	Interim_Release_1-1d_RC1:1.47
+	PublicRelease_1_1c:1.47
+	Interim_Release_1-1c_RC1:1.47
+	Interim_Release_1-1c_beta2:1.47
+	Interim_Release_1-1c_beta1:1.47
+	PublicRelease_1_1b:1.46
+	Interim_Release_1-1b_RC1:1.46
+	PublicRelease_1_1a:1.46
+	Interim_Release_1-1a_RC2:1.46
+	Interim_Release_1-1a_RC1:1.46
+	Interim_Release_1-1a_beta2:1.46
+	Interim_Release_1-1a_beta1:1.46
+	PublicRelease_1_1:1.46
+	Interim_Release_1-1_beta1:1.46
+	PublicRelease_1o:1.45
+	Interim_Release_1o_RC1:1.45
+	Interim_Release_1o_beta1:1.45
+	PublicRelease_1n:1.45
+	Interim_Release_1n_RC2:1.45
+	Interim_Release_1n_RC1:1.45
+	Interim_Release_1n_beta2:1.45
+	Interim_Release_1n_beta1:1.45
+	PublicRelease_1m:1.45
+	Interim_Release_1m_beta1:1.45
+	PublicRelease_1l:1.45
+	Interim_Release_1l_RC3:1.45
+	Interim_Release_1l_RC2:1.45
+	Interim_Release_1l_RC1:1.45
+	Interim_Release_1l_beta2:1.45
+	Interim_Release_1l_beta1:1.45
+	PublicRelease_1k:1.45
+	Interim_Release_1k_RC4:1.45
+	Interim_1k_RC3:1.45
+	Interim_1k_RC2:1.45
+	Interim_Release_1k_RC1:1.45
+	Interim_Release_1k_beta5:1.45
+	Intrerim_Release_1k_beta4:1.45
+	Interim_Release_1k_beta1:1.45
+	PublicRelease_1j:1.43
+	Interim_Release_1J_RC3:1.43
+	Interim_Release_1j_RC3:1.43
+	Interim_Release_1j_RC2:1.43
+	Interim_Release_1j_RC1:1.43
+	Interim_Release_1j_beta2:1.42
+	Interim_Release_1j_beta1:1.42
+	PublicRelease_1i:1.42
+	Interim_Release_1i_RC6:1.42
+	Interim_Release_1i_RC3:1.42
+	Interim_Release_1i_RC2:1.41
+	Interim_Release_1i_RC1:1.40
+	Interim_Release_1i_beta3:1.40
+	Interim_Release_1i_beta2:1.39
+	Interim_Release_1i_beta1:1.37
+	PublicRelease_1h:1.33
+	Interim_Release_1h_rc2:1.33
+	Interim_Release_1h_RC1:1.33
+	Interim_Release_1h_beta2:1.33
+	Interim_Release_1h_beta1_now:1.32
+	Interim_Release_1h_beta1:1.32
+	PublicRelease_1g:1.29
+	Interim_Release_1g_RC6_Final:1.29
+	Interim_Release_1g_RC6:1.29
+	Interim_Release_1g_RC5:1.27
+	Interim_Release_1g_RC4:1.26
+	Interim_Release_1g_RC3:1.25
+	Interim_Release_1g_beta2:1.22
+	Interim_Release_1g_beta1:1.20
+	Interim_Release_1f_RC4:1.20
+	Interim_Release_1f_RC3:1.20
+	Interim_Release_1f_RC2:1.19
+	Interim_Release_1f_RC:1.19
+	Interim_Release_1f_beta2:1.18
+	Interim_Release_1f_beta1:1.17
+	PublicRelease_1e:1.17
+	Interim_Release_1e_RC2:1.17
+	Interim_Release_1e_RC:1.17
+	Interim_Release_1e_beta3:1.17
+	Interim_Release_1e_beta2:1.17
+	Interim_Release_1e_beta2_before_kuchin:1.17
+	Interim_Release_1e_beta1:1.17
+	PublicRelease_1c:1.15
+	featurestest:1.15.0.2
+	Interim_Release_1c_RC:1.15
+	Interim_Release_1c_beta2:1.15
+	Interim_Release_1c_beta1:1.13
+	threaded_downloadqueue:1.13.0.2
+	PublicRelease_1b:1.13
+	Interim_Release_1b_beta2:1.12
+	Interim_Release_1b_beta1:1.11
+	proxydeadlake:1.9.0.4
+	PublicRelease_1a:1.9
+	Interim_Release_1a_beta2:1.9
+	BerkeleyDb:1.9.0.2
+	Interim_Release_1a_beta1:1.9
+	PublicRelease_1:1.9
+	goldfish:1.9
+	eMulePlus_1_RC2:1.9
+	eMulePlus_26b_1RC1:1.9
+	PreRelease_26b_i0e:1.9
+	before_26d_merge:1.7
+	Interim_Release_26b_i0d:1.7
+	Interim_Release_26b_i0c:1.5
+	Interim_Release_26b_i0b:1.5
+	Interim_Release_26b_i0a:1.5
+	systraydlg:1.5.0.6
+	plus26based:1.5.0.4
+	Interim_Release_25b_i0b:1.5
+	Proxy_Dev:1.5
+	Interim_Release_25b_i0a:1.5.2.1
+	proxytest:1.5.2.1.0.2
+	official_sockets:1.5.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.61
+date	2009.03.01.20.45.49;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2008.12.08.13.52.12;	author kush_eplus;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2008.03.03.05.27.55;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2008.02.20.05.51.35;	author aw3;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2007.11.12.23.52.20;	author fuxie-dk;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2007.10.31.18.27.14;	author fuxie-dk;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2007.07.27.06.13.17;	author aw3;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2007.04.14.04.19.07;	author aw3;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2007.04.08.22.28.40;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2006.12.11.18.28.42;	author eklmn;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2006.04.04.22.28.42;	author kush_eplus;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.11.23.01.28.15;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.08.03.01.03.54;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2005.01.25.19.04.50;	author netwolf1;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.10.02.03.59.28;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.02.13.16.13.35;	author netwolf1;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.02.12.18.41.18;	author syrus77;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.01.07.20.20.57;	author dongato;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.11.19.09.23.30;	author kuchin;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.11.12.02.59.48;	author katsyonak;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.10.26.14.00.49;	author morevit;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.10.13.15.15.46;	author morevit;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.10.10.04.12.21;	author dongato;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.10.05.05.20.01;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.09.28.15.48.37;	author dongato;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.09.28.15.40.36;	author dongato;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.09.20.15.39.32;	author morevit;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.08.26.16.54.23;	author kuchin;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.08.15.11.23.44;	author kuchin;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.08.15.10.08.17;	author kuchin;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.07.27.19.56.57;	author dongato;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.07.13.21.29.38;	author syrus77;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.07.12.17.43.55;	author syrus77;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.07.12.14.10.37;	author dongato;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.07.05.11.53.09;	author dongato;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.06.27.16.03.10;	author emoulari;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.06.09.19.59.52;	author partyckip;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.06.09.15.14.38;	author kuchin;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.06.09.11.57.43;	author kuchin;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.06.08.18.06.18;	author partyckip;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.05.22.13.12.23;	author obaldin;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.05.11.19.25.47;	author lord_kiron;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.05.11.08.41.32;	author kuchin;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.04.09.14.03.35;	author kuchin;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.03.23.18.10.26;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.03.20.18.09.58;	author cax2;	state Exp;
+branches
+	1.15.2.1;
+next	1.14;
+
+1.14
+date	2003.03.19.01.02.31;	author cax2;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.09.09.55.53;	author obaldin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.05.21.16.41;	author obaldin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.05.13.46.09;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.03.22.10.15;	author moosetea;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.18.15.21.31;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.17.14.55.41;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.11.22.50.46;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.11.19.38.51;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.01.28.13.00.51;	author cax2;	state Exp;
+branches
+	1.5.2.1
+	1.5.6.1;
+next	1.4;
+
+1.4
+date	2003.01.25.18.11.36;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.24.12.41.09;	author obaldin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.16.56.02;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.25;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.2.1
+date	2003.01.28.16.54.41;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.6.1
+date	2003.02.05.23.25.18;	author forcha;	state Exp;
+branches;
+next	;
+
+1.15.2.1
+date	2003.03.24.09.39.45;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.61
+log
+@Minor updates according to last version original changes.
+@
+text
+@// stdafx.h : include file for standard system include files,
+// or project specific include files that are used frequently,
+// but are changed infrequently
+#pragma once
+
+// Define special compilation for Visual Studio 7 (2002) when detected
+#if _MSC_VER == 1300
+#define VS2002
+#elif _MSC_VER < 1300
+#error Can only be compiled in VS.NET environment
+#endif
+
+#ifndef VC_EXTRALEAN
+#define VC_EXTRALEAN		// Exclude rarely-used stuff from Windows headers
+#endif
+
+// Modify the following defines if you have to target a platform prior to the ones specified below.
+// Refer to MSDN for the latest info on corresponding values for different platforms.
+#ifndef WINVER				// Allow use of features specific to Windows 95 and Windows NT 4 or later.
+#define WINVER 0x0400		// Change this to the appropriate value to target Windows 98 and Windows 2000 or later.
+#endif
+
+#ifndef _WIN32_WINNT		// Allow use of features specific to Windows NT 4 or later.
+#define _WIN32_WINNT 0x0400		// Change this to the appropriate value to target Windows 98 and Windows 2000 or later.
+#endif
+
+#ifndef _WIN32_WINDOWS		// Allow use of features specific to Windows 98 or later.
+#define _WIN32_WINDOWS 0x0410 // Change this to the appropriate value to target Windows Me or later.
+#endif
+
+#ifndef _WIN32_IE			// Allow use of features specific to IE 4.0 or later.
+#define _WIN32_IE 0x0400	// Change this to the appropriate value to target IE 5.0 or later.
+#endif
+
+#define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS	// some CString constructors will be explicit
+
+// turns off MFC's hiding of some common and often safely ignored warning messages
+#define _AFX_ALL_WARNINGS
+
+#include <afxwin.h>         // MFC core and standard components
+#include <afxext.h>         // MFC extensions
+#include <afxdtctl.h>		// MFC support for Internet Explorer 4 Common Controls
+#ifndef _AFX_NO_AFXCMN_SUPPORT
+#include <afxcmn.h>			// MFC support for Windows Common Controls
+#endif
+
+#include <winsock2.h>
+#pragma warning(push)	// preserve current state
+#pragma warning(disable : 4127 4706)	// conditional expression is constant, assignment within conditional expression
+#include <ws2tcpip.h>
+#pragma warning(pop)
+#define _WINSOCKAPI_
+
+#ifndef NEW_SOCKETS
+#define OLD_SOCKETS_ENABLED
+#endif //NEW_SOCKETS
+
+//#ifdef OLD_SOCKETS_ENABLED
+#include <afxsock.h>		// MFC support for Windows Sockets
+//#endif //OLD_SOCKETS_ENABLED
+#include <afxdhtml.h>
+
+#include <afxmt.h>		// MFC Multithreaded Extensions (Syncronization Objects)
+#include <afxdlgs.h>
+#include <..\src\mfc\afximpl.h>
+#include <atlcoll.h>
+#include <afxcoll.h>
+#include <afxtempl.h>
+#include <math.h>
+
+// If you compile interim release, uncomment #define _INTERIM_RELEASE
+// This way it will crash for beta-testers and we'll know where it happened
+//#define _INTERIM_RELEASE
+
+#if defined(_INTERIM_RELEASE) || defined(_DEBUG)
+#define EMULE_TRY
+#define EMULE_CATCH
+#define EMULE_CATCH2
+#else
+#define EMULE_TRY try{
+#define EMULE_CATCH }\
+catch(const CString &str){ try{g_App.m_pMDlg->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, str);}catch(...){} }\
+catch(CException *err){ try{g_App.m_pMDlg->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, GetErrorMessage(err));err->Delete();}catch(...){} }\
+catch(...){ try{g_App.m_pMDlg->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, _T(""));}catch(...){} }
+#define EMULE_CATCH2 } catch(...){}
+#endif
+
+#ifdef NEW_SOCKETS
+#include <comdef.h>
+
+#define PCTSTR LPCTSTR
+#define PCVOID LPCVOID
+#ifndef _countof
+#	define _countof(string) (sizeof((string)) / sizeof((string)[0]))
+#endif // _countof
+
+enum T_CLIENT_TYPE {
+	T_CLIENT_PEER,
+	T_CLIENT_SERVER,
+	T_CLIENT_WEB
+};
+#endif //NEW_SOCKETS
+
+#include "types.h"
+
+#define ARRSIZE(x)			(sizeof(x) / sizeof(x[0]))
+//	Suppresses Unreferenced Parameter warning
+#define NOPRM				UNREFERENCED_PARAMETER
+//	Length of the constant string (Unicode or ASCII)
+#define CSTRLEN(str)		(sizeof(str) / sizeof(*(str)) - 1u)
+//	Fast conversion from BOOL into bool type (assuming that BOOL has only standard values)
+#define B2b(b)				static_cast<bool>((b) & 1)
+@
+
+
+1.60
+log
+@Disable last global suppressions of warnings;
+Fine grained warning disablement around ws2tcpip.h header.
+@
+text
+@a41 1
+#include <afxdisp.h>        // MFC Automation classes
+@
+
+
+1.59
+log
+@ELEMENT_COUNT -> ARRSIZE; Include types.h as it's required for almost everything.
+@
+text
+@d49 2
+a50 2
+#pragma warning(push, 3)	// preserve current state, then set warning level 3
+#pragma warning(disable:4706) // assignment within conditional expression
+a96 2
+#pragma warning (disable : 4200)
+#pragma warning (disable : 4355)
+@
+
+
+1.58
+log
+@Disable suppression of some type conversion warnings (there're still some warnings at this moment -- this is normal).
+@
+text
+@a3 1
+
+d9 1
+a9 3
+#endif
+
+#if _MSC_VER < 1300
+d107 2
+a109 2
+//	Deprecated -- we slowly migrate to ARRSIZE
+#define ELEMENT_COUNT		ARRSIZE
+@
+
+
+1.57
+log
+@Suppressed compiler warnings [KuSh/Aw3].
+@
+text
+@a108 3
+//Temporary disabled until code is fully prepared
+#pragma warning(disable:4244)
+#pragma warning(disable:4800)
+@
+
+
+1.56
+log
+@Proper warning suppression in 3rd party code; Disabled warnings 4244 & 4800 until code is prepared for them (~800 more warnings...); Introduced B2b() for BOOL to bool conversion [Aw3].
+@
+text
+@d53 1
+@
+
+
+1.55
+log
+@Preparations to compile with level 4 of warnings;
+ARRSIZE & ELEMENT_COUNT moved here;
+Added macros NOPRM and CSTRLEN.
+@
+text
+@d52 1
+a52 2
+#pragma warning(disable:4127) // conditional expression is constant
+#pragma warning(disable:4706) // assignment within conditional expression
+d54 1
+a54 2
+#pragma warning(default:4706) // assignment within conditional expression
+#pragma warning(default:4127) // conditional expression is constant
+a73 1
+// kuchin/Lord KiRon
+a89 1
+// end kuchin/Lord KiRon
+d108 3
+d119 2
+@
+
+
+1.54
+log
+@Commonly required system #includes moved here.
+@
+text
+@d52 2
+d55 2
+d64 1
+a64 1
+#include <afxsock.h>		// MFC-Socket-Erweiterungen
+d68 1
+a68 1
+#include <afxmt.h>		//mutexes
+d113 7
+a119 1
+#include <wininet.h>
+@
+
+
+1.53
+log
+@Removed unused define.
+@
+text
+@a45 1
+
+d49 1
+a49 1
+#endif // _AFX_NO_AFXCMN_SUPPORT
+d66 1
+d68 3
+a70 1
+#include <..\src\mfc\afximpl.h>
+@
+
+
+1.52
+log
+@removed unused code
+@
+text
+@a88 7
+// Open a listen port o the proxy server works and you are given a HighID
+// when connecting, but it seems that the port gets closed by the SOCKS Server
+// after the first usage. This means that no one can connect to you anymore. That's
+// why this feature is disabled here and we MUST accept the LowID.   ):
+// Maverick
+#define ENABLE_PROXY_LISTEN_PORT false
+
+@
+
+
+1.51
+log
+@new email notifier code (adapted from original) - fully UNICODE ready;
+option to send email notification messages in subject
+@
+text
+@d82 1
+a82 1
+catch(CString &str){ try{g_App.m_pMDlg->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, str);}catch(...){} }\
+a88 33
+#ifdef _DEBUG
+class CDebugMeter
+{
+public:
+	CDebugMeter(const CString& sFuncName, int nOneCallTimeThreshold = 10)
+	{
+		m_sFuncName = sFuncName;
+		m_iOneCallTimeThreshold = nOneCallTimeThreshold;
+		m_dwStart = GetTickCount();
+	}
+	~CDebugMeter()
+	{
+		double dblElapsed = static_cast<double>(GetTickCount() - m_dwStart);
+
+		if (dblElapsed > static_cast<double>(m_iOneCallTimeThreshold))
+		{
+			CString sOut;
+			sOut.Format(_T("METER::%s - elapsed %0.3f\n"), m_sFuncName.GetBuffer(0), dblElapsed / 1000.0);
+			TRACE(sOut);
+		}
+	}
+private:
+	DWORD m_dwStart;
+	CString m_sFuncName;
+	int m_iOneCallTimeThreshold;
+};
+#define DEBUG_METER(a)			CDebugMeter(a)
+#define DEBUG_METER2(a, b)		CDebugMeter(a, b)
+#else
+#define DEBUG_METER(a)
+#define DEBUG_METER2(a, b)
+#endif //_DEBUG
+
+@
+
+
+1.50
+log
+@renamed 3 variables
+@
+text
+@a146 3
+//DonGato: SMTP Messenger
+#define CSMTP_NORSA FALSE
+#include <string>
+@
+
+
+1.49
+log
+@Unicode corrections {KuSh}.
+@
+text
+@d82 3
+a84 3
+catch(CString &str){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, str);}catch(...){} }\
+catch(CException *err){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, GetErrorMessage(err));err->Delete();}catch(...){} }\
+catch(...){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, _T(""));}catch(...){} }
+@
+
+
+1.48
+log
+@Removed unused SafeArray stuff.
+@
+text
+@d28 1
+a28 1
+#endif						
+d82 3
+a84 3
+catch(CString &str){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FUNCTION__,__FILE__, __LINE__,str);}catch(...){} }\
+catch(CException *err){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FUNCTION__,__FILE__, __LINE__,GetErrorMessage(err));err->Delete();}catch(...){} }\
+catch(...){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FUNCTION__,__FILE__, __LINE__,_T(""));}catch(...){} }
+@
+
+
+1.47
+log
+@Fix for compiler warning (macro redefinition due to _countof).
+@
+text
+@a15 3
+// define it to use safe array instead of CLIST , not working yet
+// #define USE_SAFE_ARRAY //EC 27.06.03 Commented till problem fixed. Sort Function of CSafeArray doesnt work right
+
+@
+
+
+1.46
+log
+@Removed old Cruise Control stuff.
+@
+text
+@d71 1
+@
+
+
+1.45
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d126 2
+a127 2
+// after the first usage. This means that no one can connect to you anymore. That's 
+// why this feature is disabled here and we MUST accept the LowID.   ): 
+a130 2
+#define CRUISECONTROL 0
+
+@
+
+
+1.44
+log
+@removed old #define KEEP_BANNED_CLIENTS
+@
+text
+@a130 1
+#define JUMPSTART 1
+@
+
+
+1.43
+log
+@Removed VS2002 compilation profile (now automatic)
+@
+text
+@a15 4
+//SyruS try to avoid that clients have to be re-banned all the time
+//only for experimental use. there is more to do...see CUpDownClient::~CUpDownClient()
+#define KEEP_BANNED_CLIENTS FALSE
+
+@
+
+
+1.42
+log
+@New sockets
+@
+text
+@d7 9
+@
+
+
+1.41
+log
+@speed improvements on the bar shader (from official v0.30c) + possible division by zero bug fix
+@
+text
+@d72 1
+a72 1
+#if defined(_INTERIM_RELEASE)/* || defined(_DEBUG)*/
+@
+
+
+1.40
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d65 1
+@
+
+
+1.39
+log
+@Formatting, comments, and name changes.
+@
+text
+@d92 1
+a92 1
+		m_nOneCallTimeThreshold = nOneCallTimeThreshold;
+d97 3
+a99 2
+		float fElapsed = (float)(GetTickCount() - m_dwStart);
+		if(fElapsed > (float)m_nOneCallTimeThreshold)
+d102 1
+a102 1
+			sOut.Format(_T("METER::%s - elapsed %0.3f\n"), m_sFuncName.GetBuffer(0), fElapsed / 1000.0f);
+d109 1
+a109 1
+	int m_nOneCallTimeThreshold;
+@
+
+
+1.38
+log
+@Removed old details code, added more keyboard shortcuts (now with only Ctrl instead of all three keys)
+@
+text
+@d71 1
+a71 1
+#if defined(_INTERIM_RELEASE) || defined(_DEBUG)
+d78 3
+a80 3
+catch(CString &str){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FILE__, __LINE__,str);}catch(...){} }\
+catch(CException *err){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FILE__, __LINE__,GetErrorMessage(err));err->Delete();}catch(...){} }\
+catch(...){ try{g_eMuleApp.m_pdlgEmule->AddBugReport(__FILE__, __LINE__,_T(""));}catch(...){} }
+@
+
+
+1.37
+log
+@Localization and some fixes for new detail dialogs by FoRcHa
+@
+text
+@a148 3
+
+//FoRcHa: New Client/File details
+#define _USE_NEW_DETAILS_ TRUE
+@
+
+
+1.36
+log
+@Ops!
+@
+text
+@d151 1
+a151 1
+//#define _USE_NEW_DETAILS_ TRUE
+@
+
+
+1.35
+log
+@Added new details IFDEF
+@
+text
+@d151 1
+a151 1
+#define _USE_NEW_DETAILS_ FALSE
+@
+
+
+1.34
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d149 3
+@
+
+
+1.33
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@d78 3
+a80 3
+catch(CString &str){ try{theApp.emuledlg->AddBugReport(__FILE__, __LINE__,str);}catch(...){} }\
+catch(CException *err){ try{theApp.emuledlg->AddBugReport(__FILE__, __LINE__,GetErrorMessage(err));err->Delete();}catch(...){} }\
+catch(...){ try{theApp.emuledlg->AddBugReport(__FILE__, __LINE__,_T(""));}catch(...){} }
+@
+
+
+1.32
+log
+@Can't live without BerkeleyDb now :)
+@
+text
+@d58 1
+a58 1
+#ifdef OLD_SOCKETS_ENABLED
+d60 1
+a60 1
+#endif //OLD_SOCKETS_ENABLED
+d128 2
+d137 1
+a137 1
+#include <comdef.h>
+a142 8
+#include "Sockets\EmWinNT.h"
+#include "Sockets\EmMt.h"
+#include "Sockets\ThreadPool.h"
+#include "Sockets\TaskProcessor.h"
+#include "Sockets\TcpEngine.h"
+#include "Sockets\TaskProcessor_Main.h"
+#include "Sockets\EmEngine.h"
+#include "Sockets\Tasks.h"
+@
+
+
+1.31
+log
+@Another new sockets cumulative update
+@
+text
+@a123 1
+#ifdef _USE_BERKELEY_DB
+a125 1
+#endif
+@
+
+
+1.30
+log
+@SMTP Messenger: added authentication
+@
+text
+@d54 1
+d56 1
+d138 5
+@
+
+
+1.29
+log
+@disabled KEEP_BANNED_CLIENTS cause it doesn't help much in this early state and produces a lot of debugloglines
+@
+text
+@d144 6
+a149 1
+#endif //NEW_SOCKETS@
+
+
+1.28
+log
+@first steps of keeping banned clients alive so that re-banning isn't so often
+@
+text
+@d8 2
+a9 2
+//only first "safe" steps been taken. there is more to do...see CUpDownClient::~CUpDownClient()
+#define KEEP_BANNED_CLIENTS TRUE
+@
+
+
+1.27
+log
+@Removed old Stored Sources from all code.
+@
+text
+@d7 4
+@
+
+
+1.26
+log
+@now using Ottavio´s SLS system [netwolf]
+@
+text
+@a110 2
+//	#define OLD_SLS_ENABLED
+
+@
+
+
+1.25
+log
+@USE_SAFE_ARRAY Commented till problem fixed. Sort Function of CSafeArray doesnt work right. Also BUGFIX for 0000302
+@
+text
+@d111 1
+a111 1
+#define OLD_SLS_ENABLED
+@
+
+
+1.24
+log
+@unicode cleanup
+@
+text
+@d8 1
+a8 1
+#define USE_SAFE_ARRAY
+@
+
+
+1.23
+log
+@Preparing for new sockets
+@
+text
+@d74 1
+a74 1
+catch(...){ try{theApp.emuledlg->AddBugReport(__FILE__, __LINE__,"");}catch(...){} }
+d83 1
+a83 1
+	CDebugMeter(CString sFuncName, int nOneCallTimeThreshold = 10)
+d95 1
+a95 1
+			sOut.Format("METER::%s - elapsed %0.3f\n", m_sFuncName.GetBuffer(0), fElapsed / 1000.0f);
+@
+
+
+1.22
+log
+@Purity's webserver changes. Mostly.
+@
+text
+@d50 3
+d54 1
+a109 2
+
+#define OLD_SOCKETS_ENABLED
+@
+
+
+1.21
+log
+@converted to helper function GetErrorMessage
+@
+text
+@d107 2
+@
+
+
+1.20
+log
+@fix for Jumpstart insisting on turning itself on
+@
+text
+@d69 1
+a69 1
+catch(CException *err){ try{TCHAR buf[255];err->GetErrorMessage(buf,254);theApp.emuledlg->AddBugReport(__FILE__, __LINE__,buf);err->Delete();}catch(...){} }\
+@
+
+
+1.19
+log
+@CServerList moved to use new CSafe array , suppouse to work faster , safer  and to be the step to the virtual list controls .
+@
+text
+@d118 1
+@
+
+
+1.18
+log
+@Added BerkeleyDb and JumpStart to default configuration
+@
+text
+@d7 3
+@
+
+
+1.17
+log
+@More exception handling
+@
+text
+@d114 1
+a114 1
+#define JUMPSTART 0
+@
+
+
+1.16
+log
+@New sockets (as separate configuration)
+@
+text
+@d65 3
+a67 3
+catch(CString &str){theApp.emuledlg->AddBugReport(__FILE__, __LINE__,str);}\
+catch(CException *err){TCHAR   buf[255];err->GetErrorMessage(buf,254);theApp.emuledlg->AddBugReport(__FILE__, __LINE__,buf);err->Delete();}\
+catch(...){theApp.emuledlg->AddBugReport(__FILE__, __LINE__,"");}
+@
+
+
+1.15
+log
+@bugfix: less resource usage, fixed bug #131
+@
+text
+@d116 19
+@
+
+
+1.15.2.1
+log
+@27c
+@
+text
+@a115 19
+
+#ifdef NEW_SOCKETS
+#define PCTSTR LPCTSTR
+#define PCVOID LPCVOID
+#ifndef _countof
+#	define _countof(string) (sizeof((string)) / sizeof((string)[0]))
+#endif // _countof
+#pragma warning (disable : 4200)
+#pragma warning (disable : 4355)
+#include <comdef.h>
+#include "Sockets\EmWinNT.h"
+#include "Sockets\EmMt.h"
+#include "Sockets\ThreadPool.h"
+#include "Sockets\TaskProcessor.h"
+#include "Sockets\TcpEngine.h"
+#include "Sockets\TaskProcessor_Main.h"
+#include "Sockets\EmEngine.h"
+#include "Sockets\Tasks.h"
+#endif //NEW_SOCKETS@
+
+
+1.14
+log
+@minor bugfixes, plus bugfix for bug #34
+@
+text
+@d56 1
+a56 1
+#define _INTERIM_RELEASE
+@
+
+
+1.13
+log
+@Changes protected by a #define, should have no effect
+@
+text
+@d56 1
+a56 1
+//#define _INTERIM_RELEASE
+@
+
+
+1.12
+log
+@Protection from on-disk hashset corruption, proper check that we already have the data before sending
+@
+text
+@d111 5
+a115 1
+#define ENABLE_PROXY_LISTEN_PORT false@
+
+
+1.11
+log
+@Disabled (temporary) SLS code + small utility class (only for debug mode)
+@
+text
+@d104 1
+a104 1
+//#define OLD_SLS_ENABLED
+@
+
+
+1.10
+log
+@Lancast : Help other emules on your lan complete/download files quicker, saving bandwith.
+
+1) UDP broadcasts your hashs over your lan
+2) Listens for other clients sending broadcasts and adds them as sources
+3) Clients on your lan bypass the queue, and have unlimited upload (download rate is still limited by emule downlaod speed)
+@
+text
+@d72 33
+a104 1
+#define OLD_SLS_ENABLED
+@
+
+
+1.9
+log
+@Removed FLMC as a preferences option.
+@
+text
+@d44 1
+d46 1
+@
+
+
+1.8
+log
+@Preparing for new SLS code
+@
+text
+@d54 1
+a54 1
+#define _INTERIM_RELEASE
+@
+
+
+1.7
+log
+@look changes+
+@
+text
+@d70 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d54 1
+a54 1
+//#define _INTERIM_RELEASE
+@
+
+
+1.5
+log
+@..in english now...
+@
+text
+@d54 1
+a54 1
+#define _INTERIM_RELEASE
+@
+
+
+1.5.6.1
+log
+@*** empty log message ***
+@
+text
+@d14 1
+a14 1
+#define WINVER 0x0500		// Change this to the appropriate value to target Windows 98 and Windows 2000 or later.
+@
+
+
+1.5.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.4
+log
+@Debug = INTERIM_RELEASE, no try/catch
+@
+text
+@d1 3
+a3 3
+// stdafx.h : Includedatei für Standardsystem-Includedateien,
+// oder häufig verwendete, projektspezifische Includedateien,
+// die nur in unregelmäßigen Abständen geändert werden.
+d8 1
+a8 1
+#define VC_EXTRALEAN		// Selten verwendete Teile der Windows-Header nicht einbinden
+d11 4
+a14 5
+// Ändern Sie folgende Definitionen für Plattformen, die älter als die unten angegebenen sind.
+// Unter MSDN finden Sie die neuesten Informationen über die entsprechenden Werte für die unterschiedlichen Plattformen.
+
+#ifndef WINVER				// Lassen Sie die Verwendung von Features spezifisch für Windows 95 und Windows NT 4 oder später zu.
+#define WINVER 0x0400		// Ändern Sie den entsprechenden Wert, um auf Windows 98 und mindestens Windows 2000 abzuzielen.
+d17 2
+a18 2
+#ifndef _WIN32_WINNT		// Lassen Sie die Verwendung von Features spezifisch für Windows NT 4 oder später zu.
+#define _WIN32_WINNT 0x0400		// Ändern Sie den entsprechenden Wert, um auf Windows 98 und mindestens Windows 2000 abzuzielen.
+d21 2
+a22 2
+#ifndef _WIN32_WINDOWS		// Lassen Sie die Verwendung von Features spezifisch für Windows 98 oder später zu.
+#define _WIN32_WINDOWS 0x0410 // Ändern Sie den entsprechenden Wert, um auf mindestens Windows Me abzuzielen.
+d25 2
+a26 2
+#ifndef _WIN32_IE			// Lassen Sie die Verwendung von Features spezifisch für IE 4.0 oder später zu.
+#define _WIN32_IE 0x0400	// Ändern Sie den entsprechenden Wert, um auf mindestens IE 5.0 abzuzielen.
+d29 1
+a29 1
+#define _ATL_CSTRING_EXPLICIT_CONSTRUCTORS	// einige CString-Konstruktoren sind explizit
+d31 1
+a31 1
+// Deaktiviert das Ausblenden von einigen häufigen und oft ignorierten Warnungen
+d34 3
+a36 3
+#include <afxwin.h>         // MFC-Kern- und -Standardkomponenten
+#include <afxext.h>         // MFC-Erweiterungen
+#include <afxdisp.h>        // MFC-Automatisierungsklassen
+d38 1
+a38 1
+#include <afxdtctl.h>		// MFC-Unterstützung für allgemeine Steuerelemente von Internet Explorer 4
+d40 1
+a40 1
+#include <afxcmn.h>			// MFC-Unterstützung für allgemeine Windows-Steuerelemente
+@
+
+
+1.3
+log
+@Safety belts off
+@
+text
+@d57 1
+a57 1
+#ifdef _INTERIM_RELEASE
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d55 1
+a55 1
+//#define _INTERIM_RELEASE
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d69 9
+a77 1
+// end kuchin/Lord KiRon@
+

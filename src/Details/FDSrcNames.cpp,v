@@ -1,0 +1,1655 @@
+head	1.33;
+access;
+symbols
+	PublicRelease_1_2e:1.32
+	Interim_Release_1-2e_RC1:1.32
+	PublicRelease_1_2d:1.31
+	Interim_Release_1-2d_RC1:1.31
+	Interim_Release_1-2d_beta1:1.31
+	PublicRelease_1_2c:1.31
+	Interim_Release_1-2c_RC1:1.31
+	Interim_Release_1-2c_beta1:1.30
+	PublicRelease_1_2b:1.30
+	Interim_Release_1-2b_RC1:1.30
+	PublicRelease_1_2a:1.30
+	Interim_Release_1-2a_RC1:1.30
+	Interim_Release_1-2a_beta2:1.30
+	Interim_Release_1-2a_beta1:1.30
+	PublicRelease_1_2:1.30
+	Interim_Release_1-2_RC1:1.30
+	Interim_Release_1-2_beta1:1.30
+	PublicRelease_1_1g:1.30
+	Interim_Release_1-1g_RC3:1.30
+	Interim_Release_1-1g_RC2:1.30
+	Interim_Release_1-1g_RC1:1.30
+	Interim_Release_1-1g_beta2:1.29
+	Interim_Release_1-1g_beta1:1.28
+	PublicRelease_1_1f:1.27
+	Interim_Release_1-1f_RC1:1.27
+	PublicRelease_1_1e:1.27
+	Interim_Release_1-1e_RC2:1.27
+	Interim_Release_1-1e_RC1:1.27
+	Interim_Release_1-1e_beta1:1.27
+	PublicRelease_1_1d:1.25
+	Interim_Release_1-1d_RC1:1.25
+	PublicRelease_1_1c:1.25
+	Interim_Release_1-1c_RC1:1.24
+	Interim_Release_1-1c_beta2:1.24
+	Interim_Release_1-1c_beta1:1.23
+	PublicRelease_1_1b:1.23
+	Interim_Release_1-1b_RC1:1.23
+	PublicRelease_1_1a:1.22
+	Interim_Release_1-1a_RC2:1.22
+	Interim_Release_1-1a_RC1:1.21
+	Interim_Release_1-1a_beta2:1.21
+	Interim_Release_1-1a_beta1:1.21
+	PublicRelease_1_1:1.21
+	Interim_Release_1-1_beta1:1.21
+	PublicRelease_1o:1.21
+	Interim_Release_1o_RC1:1.21
+	Interim_Release_1o_beta1:1.21
+	PublicRelease_1n:1.21
+	Interim_Release_1n_RC2:1.21
+	Interim_Release_1n_RC1:1.21
+	Interim_Release_1n_beta2:1.21
+	PublicRelease_1m:1.21
+	Interim_Release_1m_beta1:1.21
+	PublicRelease_1l:1.21
+	Interim_Release_1l_RC3:1.20
+	Interim_Release_1l_RC2:1.19
+	Interim_Release_1l_RC1:1.18
+	Interim_Release_1l_beta2:1.18
+	Interim_Release_1l_beta1:1.18
+	PublicRelease_1k:1.18
+	Interim_Release_1k_RC4:1.18
+	Interim_1k_RC3:1.18
+	Interim_1k_RC2:1.18
+	Interim_Release_1k_RC1:1.18
+	Interim_Release_1k_beta5:1.16
+	Intrerim_Release_1k_beta4:1.16
+	Interim_Release_1k_beta1:1.10
+	PublicRelease_1j:1.10
+	Interim_Release_1J_RC3:1.10
+	Interim_Release_1j_RC3:1.10
+	Interim_Release_1j_RC2:1.10
+	Interim_Release_1j_RC1:1.10
+	Interim_Release_1j_beta2:1.10
+	Interim_Release_1j_beta1:1.10
+	PublicRelease_1i:1.9
+	Interim_Release_1i_RC6:1.9
+	Interim_Release_1i_RC3:1.9
+	Interim_Release_1i_RC2:1.9
+	Interim_Release_1i_RC1:1.9
+	Interim_Release_1i_beta3:1.9
+	Interim_Release_1i_beta2:1.9
+	Interim_Release_1i_beta1:1.6;
+locks; strict;
+comment	@// @;
+
+
+1.33
+date	2009.05.14.03.16.20;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2008.11.03.05.45.24;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2007.07.27.06.21.22;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.11.28.03.04.25;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.08.25.11.57.48;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.08.11.05.19.37;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.05.15.03.37.35;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.03.26.04.30.52;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.02.26.02.01.26;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.02.05.08.33.36;	author katsyonak;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.12.13.05.25.28;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.11.27.15.43.51;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.06.11.20.15.17;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.06.08.04.59.56;	author katsyonak;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.05.31.19.46.37;	author katsyonak;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.03.25.11.03.02;	author eklmn;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.03.24.20.55.48;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.03.20.01.34.38;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.03.18.18.07.09;	author eklmn;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.03.18.03.44.09;	author kush_eplus;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.02.25.04.59.15;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.02.24.01.08.42;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.02.23.03.28.33;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.12.01.02.27;	author dongato;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.20.14.27.51;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.05.19.45.11;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.05.17.54.41;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.05.13.06.00;	author forcha;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.05.12.24.27;	author forcha;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.05.12.04.55;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.05.10.45.18;	author forcha;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.05.05.19.58;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.33
+log
+@Save state of the source file name list; Unified list sort initialization and click processing.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "..\emule.h"
+#include "FDSrcNames.h"
+#include "filedetails.h"
+#include "..\SharedFileList.h"
+#include "..\updownclient.h"
+#include "..\TitleMenu.h"
+
+IMPLEMENT_DYNCREATE(CFDSrcNames, CPropertyPage)
+
+CFDSrcNames::CFDSrcNames() : CPropertyPage(CFDSrcNames::IDD)
+{
+	m_pFile = NULL;
+}
+
+CFDSrcNames::~CFDSrcNames()
+{
+}
+
+void CFDSrcNames::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_SOURCENAMES, pmyListCtrl);
+	DDX_Control(pDX, IDC_FDS_TAKEOVER, m_ctrlTakeOver);
+	DDX_Control(pDX, IDC_CLEANUP, m_ctrlCleanUp);
+	DDX_Control(pDX, IDC_RENAME, m_ctrlRename);
+	DDX_Control(pDX, IDC_FILENAME, m_ctrlFilename);
+}
+
+
+BEGIN_MESSAGE_MAP(CFDSrcNames, CPropertyPage)
+	ON_BN_CLICKED(IDC_RENAME, OnBnClickedRename)
+	ON_BN_CLICKED(IDC_CLEANUP, OnBnClickedCleanup)
+	ON_BN_CLICKED(IDC_FDS_TAKEOVER, OnBnClickedFdsTakeover)
+	ON_NOTIFY(LVN_COLUMNCLICK, IDC_SOURCENAMES, OnLvnColumnclick)
+	ON_NOTIFY(NM_DBLCLK, IDC_SOURCENAMES, OnNMDblclkList)
+	ON_NOTIFY(NM_RCLICK, IDC_SOURCENAMES, OnNMRclickList)
+	ON_WM_DESTROY()
+END_MESSAGE_MAP()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// CFDSrcNames message handlers
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::Update()
+{
+	EMULE_TRY
+
+	if (m_pFile == NULL)
+		return;
+
+	if (!::IsWindow(GetSafeHwnd()))
+		return;
+
+	EnumPartFileStatuses	eFileStatus = m_pFile->GetStatus();
+	bool					bEnable = ((eFileStatus == PS_COMPLETE) || (eFileStatus == PS_COMPLETING)) ? false : true;
+
+	m_ctrlRename.EnableWindow(bEnable);
+	m_ctrlCleanUp.EnableWindow(bEnable);
+	m_ctrlTakeOver.EnableWindow(bEnable);
+	m_ctrlFilename.EnableWindow(bEnable);
+
+	FillSourcenameList();
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::FillSourcenameList()
+{
+	EMULE_TRY
+
+	LVFINDINFO			info;
+	int					iItemPos, iNewIndex;
+	CString				strText;
+	FCtrlItem_Struct	*pItem;
+	ClientList			clientListCopy;
+
+	info.flags = LVFI_STRING;
+
+// Reset
+	for (int i = 0; i < pmyListCtrl.GetItemCount(); i++)
+	{
+		pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+		pItem->iCount = 0;
+	}
+
+// Update
+	m_pFile->GetCopySourceLists(SLM_ALL, &clientListCopy);
+	for (ClientList::const_iterator cIt = clientListCopy.begin(); cIt != clientListCopy.end(); cIt++)
+	{
+		CUpDownClient	*pClient = *cIt;
+
+		if ((pClient->m_pReqPartFile != m_pFile) || pClient->IsClientFilenameEmpty())
+			continue;
+
+		strText = pClient->GetClientFilename();
+		info.psz = strText;
+		if ((iItemPos = pmyListCtrl.FindItem(&info, -1)) == -1)
+		{ 
+			pItem = new FCtrlItem_Struct();
+			pItem->iCount = 1;
+			pItem->strFileName = strText;
+			iNewIndex = pmyListCtrl.InsertItem(LVIF_TEXT | LVIF_PARAM, pmyListCtrl.GetItemCount(), strText, 0, 0, 0, (LPARAM)pItem);
+			pmyListCtrl.SetItemText(iNewIndex, 1, _T("1"));
+		}
+		else
+		{
+			pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(iItemPos);
+			strText.Format(_T("%u"), ++pItem->iCount);
+			pmyListCtrl.SetItemText(iItemPos, 1, strText);
+		} 
+	}
+
+// Remove zeros
+	for (int i = 0; i < pmyListCtrl.GetItemCount(); i++)
+	{
+		pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+		if (pItem != NULL && pItem->iCount == 0)
+		{
+			delete pItem;
+			pmyListCtrl.DeleteItem(i);
+			i = 0;
+		}
+	}
+
+	pmyListCtrl.SortItems(SortProc, pmyListCtrl.GetSortParam());
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnBnClickedRename()
+{
+	EMULE_TRY
+
+	CString			strNewFileName;
+
+	m_ctrlFilename.GetWindowText(strNewFileName);
+
+	if (strNewFileName != m_pFile->GetFileName())	// update only when file name changed
+	{
+		m_pFile->SetFileName(strNewFileName);
+		m_pFile->SavePartFile();
+
+		CFileDetails	*pParent = (CFileDetails*)GetParent();
+
+		if (pParent != NULL)
+			pParent->UpdateData();
+
+	//	Update the lists
+		m_pFile->UpdateDisplayedInfo();
+		g_App.m_pSharedFilesList->UpdateItem((CKnownFile*)m_pFile);
+		g_App.m_pMDlg->m_wndTransfer.UpdateInfoHeader();
+	}
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnBnClickedCleanup()
+{
+	CString			strFilename;
+	int				iStart, iEnd;
+
+	m_ctrlFilename.GetSel(iStart, iEnd);
+
+	if (m_ctrlFilename.GetWindowTextLength() != iEnd - iStart)
+		m_ctrlFilename.ReplaceSel(strFilename.GetBuffer());
+
+	m_ctrlFilename.GetWindowText(strFilename);
+	m_ctrlFilename.SetWindowText(CleanupFilename(strFilename));
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnBnClickedFdsTakeover()
+{
+	if (pmyListCtrl.GetSelectedCount() > 0)
+	{
+		POSITION	pos = pmyListCtrl.GetFirstSelectedItemPosition();
+
+		SetDlgItemText(IDC_FILENAME, pmyListCtrl.GetItemText(pmyListCtrl.GetNextSelectedItem(pos), 0));
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnLvnColumnclick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	pmyListCtrl.OnLvnColumnClick(pNMHDR, pResult);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnNMDblclkList(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NOPRM(pNMHDR);
+	OnBnClickedFdsTakeover();
+	*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnNMRclickList(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	POINT			point;
+	CTitleMenu		popupMenu;
+	NOPRM(pNMHDR);
+
+	::GetCursorPos(&point);
+
+	popupMenu.CreatePopupMenu();
+	popupMenu.AppendMenu( MF_STRING |
+		((pmyListCtrl.GetSelectionMark() == -1) ? MF_GRAYED : 0),
+		MP_MESSAGE, GetResString(IDS_TAKEOVER) );
+	popupMenu.AppendMenu(MF_STRING, MP_RESTORE, GetResString(IDS_SV_UPDATE));
+	popupMenu.TrackPopupMenuEx(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this, NULL);
+
+//	Local Menu objects are destroyed in their destructor
+
+	*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CFDSrcNames::OnCommand(WPARAM wParam, LPARAM lParam)
+{
+	if (pmyListCtrl.GetSelectionMark() != -1)
+	{
+		switch (wParam)
+		{
+			case MP_MESSAGE:
+				OnBnClickedFdsTakeover();
+				return true;
+
+			case MP_RESTORE:
+				FillSourcenameList();
+				return true;
+		}
+	}
+
+	return CPropertyPage::OnCommand(wParam, lParam);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CALLBACK CFDSrcNames::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+{
+	FCtrlItem_Struct	*pItem1 = (FCtrlItem_Struct*) lParam1;
+	FCtrlItem_Struct	*pItem2 = (FCtrlItem_Struct*) lParam2;
+
+	switch(lParamSort)
+	{
+		case 0:
+			return (pItem1->strFileName.CompareNoCase(pItem2->strFileName));
+			break;
+		case 0+MLC_SORTDESC:
+			return (pItem2->strFileName.CompareNoCase(pItem1->strFileName));
+			break;
+		case 1:
+			return (pItem1->iCount - pItem2->iCount);
+			break;
+		case 1+MLC_SORTDESC:
+			return (pItem2->iCount - pItem1->iCount);
+			break;
+		default:
+			return 0;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CFDSrcNames::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	Localize();
+
+	pmyListCtrl.InsertColumn(0, GetResString(IDS_DL_FILENAME), LVCFMT_LEFT, 240, -1);
+	pmyListCtrl.InsertColumn(1, GetResString(IDS_DL_SOURCES), LVCFMT_RIGHT, 75, 1);
+
+	pmyListCtrl.LoadSettings(CPreferences::TABLE_SRCFILENAME);
+	pmyListCtrl.SetSortProcedure(SortProc);
+	pmyListCtrl.SortInit(g_App.m_pPrefs->GetColumnSortCode(CPreferences::TABLE_SRCFILENAME));
+
+	pmyListCtrl.SendMessage(LVM_SETEXTENDEDLISTVIEWSTYLE, LVS_EX_INFOTIP, LVS_EX_INFOTIP);
+
+	Update();
+
+	m_ctrlFilename.SetWindowText(m_pFile->GetFileName());
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::Localize()
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_FDS_TAKEOVER, IDS_TAKEOVER },
+		{ IDC_CLEANUP, IDS_CLEANUP },
+		{ IDC_RENAME, IDS_RENAME }
+	};
+
+	if (GetSafeHwnd())
+	{
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+			SetDlgItemText(s_auResTbl[i][0], GetResString(static_cast<UINT>(s_auResTbl[i][1])));
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnOK()
+{
+	OnBnClickedRename();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFDSrcNames::OnDestroy()
+{
+	FCtrlItem_Struct	*pItem;
+
+	for (int i = 0; i < pmyListCtrl.GetItemCount(); ++i)
+	{
+		pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+		delete pItem;
+	}
+	pmyListCtrl.SaveSettings(CPreferences::TABLE_SRCFILENAME);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.32
+log
+@Reduced H-file dependency.
+@
+text
+@d18 1
+a23 1
+#include "..\emule.h"
+a29 2
+	m_bSortAscending[FDSRCCOL_FILENAME] = true;
+	m_bSortAscending[FDSRCCOL_SOURCES] = false;
+d141 1
+a141 1
+	pmyListCtrl.SortItems(CompareListNameItems, pmyListCtrl.GetSortParam());
+d198 1
+a198 16
+	EMULE_TRY
+
+	NM_LISTVIEW	*pNMListView = reinterpret_cast<NM_LISTVIEW*>(pNMHDR);
+	int			iSubItem = pNMListView->iSubItem;
+	bool		bSortOrder = m_bSortAscending[iSubItem];
+
+// Reverse sorting direction for the same column and keep the same if column was changed
+	if ((pmyListCtrl.GetSortParam() & MLC_COLUMNMASK) == static_cast<uint32>(iSubItem))
+		m_bSortAscending[iSubItem] = bSortOrder = !bSortOrder;
+
+	pmyListCtrl.SetSortArrow(iSubItem, bSortOrder);
+	pmyListCtrl.SortItems(CompareListNameItems, iSubItem + ((bSortOrder) ? MLC_SORTASC : MLC_SORTDESC));
+
+	*pResult = 0;
+
+	EMULE_CATCH
+d247 1
+a247 1
+int CALLBACK CFDSrcNames::CompareListNameItems(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+d279 5
+a283 2
+	pmyListCtrl.SetSortArrow(FDSRCCOL_SOURCES, m_bSortAscending[FDSRCCOL_SOURCES]);
+	pmyListCtrl.SortItems(CompareListNameItems, FDSRCCOL_SOURCES + ((m_bSortAscending[FDSRCCOL_SOURCES]) ? MLC_SORTASC : MLC_SORTDESC));
+d324 1
+@
+
+
+1.31
+log
+@Suppressed level 4 warnings.
+@
+text
+@d1 1
+a1 1
+// FDSrcNames.cpp : implementation file
+d3 13
+d20 1
+@
+
+
+1.30
+log
+@Finished renaming to make sources compilable again...
+@
+text
+@d6 2
+a7 2
+#include "FileDetails.h"
+#include "..\UpDownClient.h"
+a10 2
+// CFDSrcNames dialog
+
+a14 4
+	//{{AFX_DATA_INIT(CFDSrcNames)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+
+a26 3
+	//{{AFX_DATA_MAP(CFDSrcNames)
+	// NOTE: the ClassWizard will add DDX and DDV calls here
+	//}}AFX_DATA_MAP
+a35 3
+	//{{AFX_MSG_MAP(CFDSrcNames)
+		// NOTE: the ClassWizard will add message map macros here
+	//}}AFX_MSG_MAP
+d193 1
+a193 1
+	if ((pmyListCtrl.GetSortParam() & MLC_COLUMNMASK) == iSubItem)
+d206 1
+d215 1
+a237 1
+			{
+d240 1
+a240 1
+			}
+a241 1
+			{
+a243 1
+			}
+d305 1
+a305 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_auResTbl); i++)
+@
+
+
+1.29
+log
+@Corrections for SSDQ integration.
+@
+text
+@d166 2
+a167 2
+		g_eMuleApp.m_pSharedFilesList->UpdateItem((CKnownFile*)m_pFile);
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.UpdateInfoHeader();
+@
+
+
+1.28
+log
+@Simplified transition to eklmn's SSDQ.
+@
+text
+@d103 1
+a103 1
+	m_pFile->GetCopySourceList(DS_DOWNLOADING, DS_LAST_QUEUED_STATE, &clientListCopy);
+@
+
+
+1.27
+log
+@Improved string processing; Renamed local variable;
+Deleted old not working code in OnCommand().
+@
+text
+@a89 2
+	POSITION			pos;
+	CUpDownClient		*pClient;
+d91 1
+d95 1
+a95 1
+	// Reset
+d102 20
+a121 4
+	// Update
+	for (int sl = 0; sl < SOURCESSLOTS; sl++)
+	{
+		if (!m_pFile->m_srcLists[sl].IsEmpty())
+d123 4
+a126 25
+			for (pos = m_pFile->m_srcLists[sl].GetHeadPosition(); pos != NULL;)
+			{ 
+				pClient = m_pFile->m_srcLists[sl].GetNext(pos);
+
+				if ((pClient->m_pReqPartFile != m_pFile) || pClient->IsClientFilenameEmpty())
+					continue;
+
+				strText = pClient->GetClientFilename();
+				info.psz = strText;
+				if ((iItemPos = pmyListCtrl.FindItem(&info, -1)) == -1)
+				{ 
+					pItem = new FCtrlItem_Struct();
+					pItem->iCount = 1;
+					pItem->strFileName = strText;
+					iNewIndex = pmyListCtrl.InsertItem(LVIF_TEXT | LVIF_PARAM, pmyListCtrl.GetItemCount(), strText, 0, 0, 0, (LPARAM)pItem);
+					pmyListCtrl.SetItemText(iNewIndex, 1, _T("1"));
+				}
+				else
+				{
+					pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(iItemPos);
+					strText.Format(_T("%u"), ++pItem->iCount);
+					pmyListCtrl.SetItemText(iItemPos, 1, strText);
+				} 
+			}
+		}
+d129 1
+a129 1
+	// Remove 0'ers
+@
+
+
+1.26
+log
+@Removed unrequired part file saving and list updates on part file renaming in file details dialog
+(update could take place when part file name wasn't changed or
+there could be double update when name was changed).
+@
+text
+@d92 1
+a92 1
+	FCtrlItem_Struct	*m_pItem;
+d99 2
+a100 2
+		m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+		m_pItem->iCount = 0;
+d112 1
+a112 1
+				if (pClient->m_pReqPartFile != m_pFile || pClient->GetClientFilename().GetLength() == 0)
+d115 2
+a116 1
+				info.psz = pClient->GetClientFilename();
+d119 4
+a122 4
+					m_pItem = new FCtrlItem_Struct();
+					m_pItem->iCount = 1;
+					m_pItem->strFileName = pClient->GetClientFilename();
+					iNewIndex = pmyListCtrl.InsertItem(LVIF_TEXT | LVIF_PARAM, pmyListCtrl.GetItemCount() ,pClient->GetClientFilename(), 0, 0, 0, (LPARAM)m_pItem);
+d127 2
+a128 3
+					m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(iItemPos);
+					m_pItem->iCount += 1;
+					strText.Format(_T("%i"), m_pItem->iCount);
+d138 2
+a139 2
+		m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+		if (m_pItem != NULL && m_pItem->iCount == 0)
+d141 1
+a141 1
+			delete m_pItem;
+a265 6
+	if (wParam == 2)
+	{
+		CPropertyPage::OnOK();
+		return TRUE;
+	}
+
+d271 2
+a272 2
+	FCtrlItem_Struct	*m_pItem1 = (FCtrlItem_Struct*) lParam1;
+	FCtrlItem_Struct	*m_pItem2 = (FCtrlItem_Struct*) lParam2;
+d277 1
+a277 1
+			return (m_pItem1->strFileName.CompareNoCase(m_pItem2->strFileName));
+d280 1
+a280 1
+			return (m_pItem2->strFileName.CompareNoCase(m_pItem1->strFileName));
+d283 1
+a283 1
+			return (m_pItem1->iCount - m_pItem2->iCount);
+d286 1
+a286 1
+			return (m_pItem2->iCount - m_pItem1->iCount);
+d336 1
+a336 1
+	FCtrlItem_Struct	*m_pItem;
+d340 2
+a341 2
+		m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+		delete m_pItem;
+@
+
+
+1.25
+log
+@Eliminated erroneous possibility to rename completed file in file details by pressing Enter.
+@
+text
+@d160 4
+a163 2
+	m_pFile->SetFileName(strNewFileName);
+	m_pFile->SavePartFile();
+d165 1
+a165 1
+	CFileDetails	*pParent = (CFileDetails*)GetParent();
+d167 2
+a168 7
+	if (pParent != NULL)
+		pParent->UpdateData();
+
+//	Update the lists
+	m_pFile->UpdateDisplayedInfo();
+	g_eMuleApp.m_pSharedFilesList->UpdateItem((CKnownFile*)m_pFile);
+	g_eMuleApp.m_pdlgEmule->m_wndTransfer.UpdateInfoHeader();
+d170 5
+@
+
+
+1.24
+log
+@Added tooltips for truncated items in File Details->Sources Names.
+@
+text
+@d76 1
+d160 1
+a160 1
+	m_pFile->SetFileName(strNewFileName.GetBuffer());
+a177 2
+	EMULE_TRY
+
+a187 2
+
+	EMULE_CATCH
+a191 2
+	EMULE_TRY
+
+a197 2
+
+	EMULE_CATCH
+d245 1
+a245 1
+BOOL CFDSrcNames::OnCommand(WPARAM wParam,LPARAM lParam )
+@
+
+
+1.23
+log
+@Removed unused code.
+@
+text
+@d180 1
+a180 3
+	int				iStart = 0;
+	int				iEnd = 0;
+	int				iSize = 0;
+d184 1
+a184 3
+	iSize = iEnd - iStart;
+
+	if (m_ctrlFilename.GetWindowTextLength() != iSize)
+a196 2
+	int				itemPosition;
+
+d199 1
+a199 1
+		POSITION pos = pmyListCtrl.GetFirstSelectedItemPosition();
+d201 1
+a201 2
+		itemPosition = pmyListCtrl.GetNextSelectedItem(pos);
+		SetDlgItemText(IDC_FILENAME, pmyListCtrl.GetItemText(itemPosition, 0));
+d314 1
+@
+
+
+1.22
+log
+@Changed alignment of sources column to fit the overall design {muleteer}.
+@
+text
+@a164 1
+	{
+a165 1
+	}
+d167 2
+a168 2
+	//update a grapical list
+	m_pFile->UpdateDisplayedInfo(true);
+d332 1
+a332 1
+	static const int aiResTbl[][2] =
+d341 2
+a342 2
+		for (uint32 i = 0; i < ELEMENT_COUNT(aiResTbl); i++)
+			SetDlgItemText(aiResTbl[i][0], GetResString(static_cast<UINT>(aiResTbl[i][1])));
+d361 1
+a361 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////@
+
+
+1.21
+log
+@Fixed list sorting direction while switching <thanks xrmb>.
+@
+text
+@d320 1
+a320 1
+	pmyListCtrl.InsertColumn(1, GetResString(IDS_DL_SOURCES), LVCFMT_LEFT, 75, 1);
+@
+
+
+1.20
+log
+@minor changes
+@
+text
+@d22 2
+a23 2
+	m_byteSortIndex = 1;
+	m_bSortOrder = false;
+d146 1
+a146 1
+	pmyListCtrl.SortItems(&CompareListNameItems, m_byteSortIndex + ((m_bSortOrder) ? MLC_SORTASC : MLC_SORTDESC));
+d220 7
+a226 1
+	LPNMLISTVIEW	pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+d228 2
+a229 9
+	if (m_byteSortIndex != pNMLV->iSubItem)
+		m_bSortOrder = 1;
+	else
+		m_bSortOrder = !(bool)m_bSortOrder;
+
+	m_byteSortIndex = pNMLV->iSubItem;
+
+	pmyListCtrl.SetSortArrow(m_byteSortIndex, m_bSortOrder);
+	pmyListCtrl.SortItems(&CompareListNameItems, m_byteSortIndex + ((m_bSortOrder) ? MLC_SORTASC : MLC_SORTDESC));
+d321 2
+a322 2
+	pmyListCtrl.SetSortArrow(m_byteSortIndex, m_bSortOrder);
+	pmyListCtrl.SortItems(&CompareListNameItems, m_byteSortIndex + ((m_bSortOrder) ? MLC_SORTASC : MLC_SORTDESC));
+@
+
+
+1.19
+log
+@Fixed file details Source Names sorting
+@
+text
+@d64 1
+a64 1
+	if(m_pFile == NULL)
+d67 1
+a67 1
+	if(!::IsWindow(GetSafeHwnd()))
+d86 6
+a91 1
+	LVFINDINFO	info;
+a94 5
+	int				iItemPos, iNewIndex;
+	CString			strText;
+	CUpDownClient	*pClient;
+	POSITION		pos;
+
+d98 2
+a99 2
+		FCtrlItem_Struct	*m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+		m_pItem->iCount=0;
+d117 4
+a120 6
+					FCtrlItem_Struct	*m_pNewItem = new FCtrlItem_Struct();
+
+					m_pNewItem->iCount = 1;
+					m_pNewItem->strFileName = pClient->GetClientFilename();
+
+					iNewIndex = pmyListCtrl.InsertItem(LVIF_TEXT | LVIF_PARAM, pmyListCtrl.GetItemCount() ,pClient->GetClientFilename(), 0, 0, 0, (LPARAM)m_pNewItem);
+d125 1
+a125 2
+					FCtrlItem_Struct	*m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(iItemPos);
+
+d134 1
+a134 1
+	// Remove 0'er
+d137 1
+a137 2
+		FCtrlItem_Struct	*m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+
+d164 1
+a164 1
+	if(pParent != NULL)
+d190 1
+a190 1
+	if(m_ctrlFilename.GetWindowTextLength() != iSize)
+d205 1
+a205 1
+	if(pmyListCtrl.GetSelectedCount() > 0)
+d220 1
+a220 1
+	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+d264 1
+a264 1
+	if(pmyListCtrl.GetSelectionMark() != -1)
+d281 1
+a281 1
+	if(wParam == 2)
+d292 2
+a293 2
+	FCtrlItem_Struct*	m_pItem1 = (FCtrlItem_Struct*) lParam1;
+	FCtrlItem_Struct*	m_pItem2 = (FCtrlItem_Struct*) lParam2;
+d356 2
+d360 1
+a360 2
+		FCtrlItem_Struct*	m_pItem = (FCtrlItem_Struct*)pmyListCtrl.GetItemData(i);
+
+@
+
+
+1.18
+log
+@fixed filename update after rename
+@
+text
+@d22 2
+d36 1
+d54 1
+d71 1
+a71 1
+	bool	bEnable = ((eFileStatus == PS_COMPLETE) || (eFileStatus == PS_COMPLETING)) ? false : true;
+d86 1
+a86 2
+	CListCtrl	   *pmyListCtrl;
+	LVFINDINFO		info;
+a88 1
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+d90 7
+a96 1
+	if(pmyListCtrl->GetHeaderCtrl()->GetItemCount() < 2)
+d98 2
+a99 3
+		pmyListCtrl->DeleteColumn(0);
+		pmyListCtrl->InsertColumn(0, GetResString(IDS_DL_FILENAME), LVCFMT_LEFT, 240, -1);
+		pmyListCtrl->InsertColumn(1, GetResString(IDS_DL_SOURCES), LVCFMT_LEFT, 60, 1);
+d102 1
+a102 7
+	pmyListCtrl->DeleteAllItems();
+
+	CUpDownClient	   *pClient;
+	int					iItemPos, iNameCount;
+	CString				strNameCount, strFileName;
+	POSITION			pos;
+
+d107 2
+a108 2
+			for (pos = m_pFile->m_srcLists[sl].GetHeadPosition(); pos != NULL; )
+			{
+d111 15
+a125 1
+				if (pClient->m_pReqPartFile == m_pFile)
+d127 6
+a132 23
+					strFileName = pClient->GetClientFilename();
+					if (strFileName.GetLength() != 0)
+					{
+						info.psz = strFileName;
+						if ((iItemPos = pmyListCtrl->FindItem(&info, -1)) == -1)
+						{
+							pmyListCtrl->InsertItem(0, strFileName);
+							pmyListCtrl->SetItemText(0, 1, _T("1"));
+							pmyListCtrl->SetItemData(0, 1);
+						}
+						else
+						{
+							iNameCount = _tstoi(pmyListCtrl->GetItemText(iItemPos, 1));
+							iNameCount ++;
+							strNameCount.Format(_T("%i"), iNameCount);
+							pmyListCtrl->SetItemText(iItemPos, 1, strNameCount.GetString());
+							pmyListCtrl->SetItemData(iItemPos, iNameCount);
+						}
+						pmyListCtrl->SortItems(CompareListNameItems, 11);
+						m_bSortAscending[0] =true;
+						m_bSortAscending[1] =false;
+					}
+				}
+d137 15
+d159 2
+a160 1
+	CString strNewFileName;
+d166 2
+a167 1
+	CFileDetails* pParent = (CFileDetails*)GetParent();
+d185 4
+a188 5
+	CString strFilename = "";
+
+	int iStart = 0;
+	int iEnd = 0;
+	int iSize = 0;
+d207 1
+a207 2
+	CListCtrl* pmyListCtrl;
+	int itemPosition;
+d209 3
+a211 1
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+d213 2
+a214 5
+	if(pmyListCtrl->GetSelectedCount() > 0)
+	{
+		POSITION pos = pmyListCtrl->GetFirstSelectedItemPosition();
+		itemPosition = pmyListCtrl->GetNextSelectedItem(pos);
+		SetDlgItemText(IDC_FILENAME, pmyListCtrl->GetItemText(itemPosition, 0));
+d226 4
+a229 2
+	m_bSortAscending[pNMLV->iSubItem] = !m_bSortAscending[pNMLV->iSubItem];
+	////SetSortArrow(pNMLV->iSubItem, m_bSortAscending[pNMLV->iSubItem]);
+d231 1
+a231 2
+	CListCtrl* pmyListCtrl;
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+d233 2
+a234 1
+	pmyListCtrl->SortItems(&CompareListNameItems, pNMLV->iSubItem + ((m_bSortAscending[pNMLV->iSubItem]) ? 0 : 10));
+d249 2
+a250 3
+	CListCtrl *pmyListCtrl = reinterpret_cast<CListCtrl*>(GetDlgItem(IDC_SOURCENAMES));
+	POINT point;
+	CTitleMenu	popupMenu;
+d256 1
+a256 1
+		((pmyListCtrl->GetSelectionMark() == -1) ? MF_GRAYED : 0),
+d268 1
+a268 4
+	CListCtrl* pmyListCtrl;
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+
+	if(pmyListCtrl->GetSelectionMark() != -1)
+d296 3
+d301 6
+d308 1
+a308 1
+			return (lParam1 - lParam2);
+d310 2
+a311 3
+
+		case 11:
+			return (lParam2 - lParam1);
+a312 1
+
+d323 6
+d357 10
+@
+
+
+1.17
+log
+@On file rename update Details panel header
+@
+text
+@d53 1
+a53 1
+/////////////////////////////////////////////////////////////////////////////
+d55 1
+a55 1
+
+d77 1
+a77 1
+
+d141 1
+a141 1
+
+d158 3
+d165 1
+a165 1
+
+d188 1
+a188 1
+
+d207 1
+a207 1
+
+d226 1
+a226 1
+
+d232 1
+a232 1
+
+d252 1
+a252 1
+
+d283 1
+a283 1
+
+d300 1
+a300 1
+
+d313 1
+a313 1
+
+d329 1
+a329 1
+
+d334 1
+@
+
+
+1.16
+log
+@minor optimization
+@
+text
+@d158 2
+@
+
+
+1.15
+log
+@replaced TrackPopupMenu over TrackPopupMenuEx
+@
+text
+@d197 1
+a197 1
+		GetDlgItem(IDC_FILENAME)->SetWindowText(pmyListCtrl->GetItemText(itemPosition,0));
+d320 2
+a321 2
+		for (uint32 i = 0; i < (sizeof(aiResTbl) / sizeof(aiResTbl[0])); i++)
+			GetDlgItem(aiResTbl[i][0])->SetWindowText(GetResString(static_cast<UINT>(aiResTbl[i][1])));
+@
+
+
+1.14
+log
+@list processing optimization
+@
+text
+@d241 1
+a241 1
+	popupMenu.TrackPopupMenu(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this);
+@
+
+
+1.13
+log
+@Unified localization; whitespace corrections
+@
+text
+@d62 1
+a62 1
+	
+d82 3
+a84 3
+	CUpDownClient* cur_src;
+	CListCtrl* pmyListCtrl;
+	LVFINDINFO info;
+d86 1
+a86 2
+	int itempos;
+	int namecount;
+a87 2
+	CString nameCountStr;
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+d90 1
+a90 1
+		pmyListCtrl->DeleteColumn(0); 
+a94 3
+	//v- eklmn: bugfix(16): don't show empty string in FileDetails
+	CString strFileName;
+	POSITION pos1, pos2;
+d96 6
+d104 1
+a104 1
+		if(!m_pFile->m_srcLists[sl].IsEmpty())
+d106 1
+a106 1
+			for(pos1 = m_pFile->m_srcLists[sl].GetHeadPosition(); (pos2 = pos1) != NULL;)
+d108 1
+a108 2
+				m_pFile->m_srcLists[sl].GetNext(pos1);
+				cur_src = m_pFile->m_srcLists[sl].GetAt(pos2);
+d110 1
+a110 1
+				if(cur_src->m_pReqPartFile == m_pFile)
+d112 2
+a113 2
+					strFileName = cur_src->GetClientFilename();
+					if(strFileName.GetLength() != 0)
+d116 1
+a116 1
+						if((itempos=pmyListCtrl->FindItem(&info, -1)) == -1)
+d124 5
+a128 5
+							namecount = _tstoi(pmyListCtrl->GetItemText(itempos, 1));
+							namecount ++;
+							nameCountStr.Format(_T("%i"), namecount);
+							pmyListCtrl->SetItemText(itempos, 1, nameCountStr.GetString());
+							pmyListCtrl->SetItemData(itempos, namecount);
+d208 1
+a208 1
+	
+d286 1
+a286 1
+		
+d290 1
+a290 1
+		
+@
+
+
+1.12
+log
+@minor improvement
+@
+text
+@d78 1
+a78 1
+void CFDSrcNames::FillSourcenameList() 
+d83 4
+a86 4
+	CListCtrl* pmyListCtrl; 
+	LVFINDINFO info; 
+	info.flags = LVFI_STRING; 
+	int itempos; 
+d90 2
+a91 2
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES); 
+	if(pmyListCtrl->GetHeaderCtrl()->GetItemCount() < 2) 
+d94 2
+a95 2
+		pmyListCtrl->InsertColumn(0, GetResString(IDS_DL_FILENAME), LVCFMT_LEFT, 240, -1); 
+		pmyListCtrl->InsertColumn(1, GetResString(IDS_DL_SOURCES), LVCFMT_LEFT, 60, 1); 
+d99 1
+a99 1
+	CString strFileName; 
+d101 2
+a102 2
+	pmyListCtrl->DeleteAllItems(); 
+	for(int sl=0;sl<SOURCESSLOTS;sl++) 
+d106 1
+a106 1
+			for(pos1 = m_pFile->m_srcLists[sl].GetHeadPosition(); (pos2 = pos1) != NULL;) 
+d113 3
+a115 3
+					strFileName = cur_src->GetClientFilename(); 
+					if(strFileName.GetLength() != 0) 
+					{ 
+d117 11
+a127 11
+						if((itempos=pmyListCtrl->FindItem(&info, -1)) == -1) 
+						{ 
+							pmyListCtrl->InsertItem(0, strFileName); 
+							pmyListCtrl->SetItemText(0, 1, _T("1")); 
+							pmyListCtrl->SetItemData(0, 1); 
+						} 
+						else 
+						{ 
+							namecount = _tstoi(pmyListCtrl->GetItemText(itempos, 1)); 
+							namecount ++; 
+							nameCountStr.Format(_T("%i"), namecount); 
+d129 3
+a131 3
+							pmyListCtrl->SetItemData(itempos, namecount); 
+						} 
+						pmyListCtrl->SortItems(CompareListNameItems, 11); 
+d136 1
+a136 1
+			} 
+d147 1
+a147 1
+	CString strNewFileName; 
+d150 2
+a151 2
+	m_pFile->SetFileName(strNewFileName.GetBuffer()); 
+	m_pFile->SavePartFile(); 
+d189 2
+a190 2
+	CListCtrl* pmyListCtrl; 
+	int itemPosition; 
+d194 1
+a194 1
+	if(pmyListCtrl->GetSelectedCount() > 0) 
+d196 2
+a197 2
+		POSITION pos = pmyListCtrl->GetFirstSelectedItemPosition(); 
+		itemPosition = pmyListCtrl->GetNextSelectedItem(pos); 
+d199 1
+a199 1
+	} 
+d213 1
+a213 1
+	CListCtrl* pmyListCtrl; 
+d251 1
+a251 1
+	CListCtrl* pmyListCtrl; 
+d253 1
+a253 1
+	
+d263 1
+a263 1
+			case MP_RESTORE: 
+d281 1
+a281 1
+{ 
+d284 2
+a285 2
+		case 1: 
+			return (lParam1 - lParam2); 
+d288 2
+a289 2
+		case 11: 
+			return (lParam2 - lParam1); 
+d292 1
+a292 1
+		default: 
+d295 1
+a295 1
+} 
+d312 8
+a319 1
+	if(GetSafeHwnd())
+d321 2
+a322 3
+		GetDlgItem(IDC_FDS_TAKEOVER)->SetWindowText(GetResString(IDS_TAKEOVER));
+		GetDlgItem(IDC_CLEANUP)->SetWindowText(GetResString(IDS_CLEANUP));
+		GetDlgItem(IDC_RENAME)->SetWindowText(GetResString(IDS_RENAME));
+@
+
+
+1.11
+log
+@Improved context menu creation
+@
+text
+@d66 2
+a67 2
+	bool bEnable =	m_pFile->GetStatus() == PS_COMPLETE		||
+					m_pFile->GetStatus() == PS_COMPLETING	?	false : true;
+d71 1
+a71 1
+	m_ctrlTakeOver.EnableWindow(bEnable);	
+@
+
+
+1.10
+log
+@Changed the way cleanup works when all the file name is selected. What's the point on removing all the filename?
+@
+text
+@d231 1
+a231 2
+	CListCtrl* pmyListCtrl; 
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+a232 1
+	::GetCursorPos(&point);
+d235 1
+a235 6
+	UINT flag;
+	flag = MF_STRING;
+	if(pmyListCtrl->GetSelectionMark() == -1) 
+	{
+		flag = MF_GRAYED;
+	}
+d238 3
+a240 1
+	popupMenu.AppendMenu(flag,MP_MESSAGE, GetResString(IDS_TAKEOVER));
+d242 3
+a244 2
+	popupMenu.TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this);
+	popupMenu.DestroyMenu();
+@
+
+
+1.9
+log
+@Added new File Status icons and some compilation fixes.
+@
+text
+@d167 12
+a178 1
+	m_ctrlFilename.ReplaceSel(strFilename.GetBuffer());
+@
+
+
+1.8
+log
+@Added again the enter renames file in the Sources Names dialog
+@
+text
+@d111 1
+a111 1
+				if(cur_src->reqfile == m_pFile)
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+@
+text
+@d311 6
+a316 1
+}@
+
+
+1.6
+log
+@bugfix for context-menu
+@
+text
+@d104 1
+a104 1
+		if(!m_pFile->srclists[sl].IsEmpty())
+d106 1
+a106 1
+			for(pos1 = m_pFile->srclists[sl].GetHeadPosition(); (pos2 = pos1) != NULL;) 
+d108 2
+a109 2
+				m_pFile->srclists[sl].GetNext(pos1);
+				cur_src = m_pFile->srclists[sl].GetAt(pos2);
+@
+
+
+1.5
+log
+@added missing include
+@
+text
+@d48 3
+a50 3
+	ON_NOTIFY(LVN_COLUMNCLICK, IDC_LISTCTRLFILENAMES, OnLvnColumnclick)
+	ON_NOTIFY(NM_DBLCLK, IDC_LISTCTRLFILENAMES, OnNMDblclkList)
+	ON_NOTIFY(NM_RCLICK, IDC_LISTCTRLFILENAMES, OnNMRclickList)
+@
+
+
+1.4
+log
+@Minor changes.
+Returned project to VS2002 ;-)
+@
+text
+@d141 1
+a141 1
+ }
+@
+
+
+1.3
+log
+@TRY & CATCH
+@
+text
+@d111 4
+a114 5
+				strFileName = cur_src->GetClientFilename(); 
+				if(strFileName.GetLength() != 0) 
+				{ 
+					info.psz = strFileName;
+					if((itempos=pmyListCtrl->FindItem(&info, -1)) == -1) 
+d116 20
+a135 16
+						pmyListCtrl->InsertItem(0, strFileName); 
+						pmyListCtrl->SetItemText(0, 1, _T("1")); 
+						pmyListCtrl->SetItemData(0, 1); 
+					} 
+					else 
+					{ 
+						namecount = _tstoi(pmyListCtrl->GetItemText(itempos, 1)); 
+						namecount ++; 
+						nameCountStr.Format(_T("%i"), namecount); 
+						pmyListCtrl->SetItemText(itempos, 1, nameCountStr.GetString());
+						pmyListCtrl->SetItemData(itempos, namecount); 
+					} 
+					pmyListCtrl->SortItems(CompareListNameItems, 11); 
+					m_bSortAscending[0] =true;
+					m_bSortAscending[1] =false;
+				} 
+@
+
+
+1.2
+log
+@Localization and some fixes for new detail dialogs by FoRcHa
+@
+text
+@d58 2
+d74 2
+d80 2
+d136 2
+d142 2
+d155 2
+d161 2
+d167 2
+d173 2
+d186 2
+d192 2
+d205 2
+@
+
+
+1.1
+log
+@new dialogs for file- & client-details
+@
+text
+@d270 2
+d278 6
+a283 1
+
+@
+

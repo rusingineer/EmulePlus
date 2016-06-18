@@ -1,0 +1,498 @@
+head	1.8;
+access;
+symbols
+	PublicRelease_1_2e:1.8
+	Interim_Release_1-2e_RC1:1.8
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.8
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.6
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.5
+	Interim_Release_1-1g_RC3:1.5
+	Interim_Release_1-1g_RC2:1.5
+	Interim_Release_1-1g_RC1:1.5
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.5
+	Interim_Release_1-1f_RC1:1.5
+	PublicRelease_1_1e:1.5
+	Interim_Release_1-1e_RC2:1.5
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.5
+	Interim_Release_1-1c_beta1:1.5
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.5
+	PublicRelease_1_1:1.5
+	Interim_Release_1-1_beta1:1.5
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	Interim_Release_1n_beta1:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.5
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.4
+	PublicRelease_1g:1.4
+	Interim_Release_1g_RC6_Final:1.4
+	Interim_Release_1g_RC6:1.4
+	Interim_Release_1g_RC5:1.4
+	Interim_Release_1g_RC4:1.4
+	Interim_Release_1g_RC3:1.4
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.8
+date	2008.03.03.04.38.38;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.04.03.18.55.17;	author kush_eplus;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.01.25.05.21.29;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.18.15.41.48;	author katsyonak;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.06.15.13.48.00;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.15.13.41.14;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.06.15.09.10.05;	author partyckip;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.32;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@ELEMENT_COUNT -> ARRSIZE.
+@
+text
+@#include "stdafx.h"
+#include "ThemeHelperST.h"
+#include "otherfunctions.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+CThemeHelperST::CThemeHelperST()
+{
+//	Load DLL. This call will fails (and return NULL)
+//	if we are not running under Windows XP (or greater)
+	m_hDll = ::LoadLibrary(_T("UxTheme.dll"));
+
+	typedef	void (*ThemeCBProc)(void);
+	static const struct
+	{
+		ThemeCBProc	*pOut;
+		LPCSTR		szFnNm;
+		ThemeCBProc	pIn;
+	} s_stProcAddress[] =
+	{
+		{(ThemeCBProc*)&m_pfnOpenThemeData, "OpenThemeData", (ThemeCBProc)OpenThemeDataFail},
+		{(ThemeCBProc*)&m_pfnCloseThemeData, "CloseThemeData", (ThemeCBProc)CloseThemeDataFail},
+		{(ThemeCBProc*)&m_pfnDrawThemeBackground, "DrawThemeBackground", (ThemeCBProc)DrawThemeBackgroundFail},
+		{(ThemeCBProc*)&m_pfnDrawThemeText, "DrawThemeText", (ThemeCBProc)DrawThemeTextFail},
+		{(ThemeCBProc*)&m_pfnIsThemeActive, "IsThemeActive", (ThemeCBProc)IsThemeActiveFail},
+		{(ThemeCBProc*)&m_pfnIsAppThemed, "IsAppThemed", (ThemeCBProc)IsAppThemedFail},
+		{(ThemeCBProc*)&m_pfnGetCurrentThemeName, "GetCurrentThemeName", (ThemeCBProc)GetCurrentThemeNameFail},
+		{(ThemeCBProc*)&m_pfnDrawThemeParentBackground, "DrawThemeParentBackground", (ThemeCBProc)DrawThemeParentBackgroundFail},
+		{(ThemeCBProc*)&m_pfnGetThemeTextExtent, "GetThemeTextExtent", (ThemeCBProc)GetThemeTextExtentFail}
+	};
+
+	for (unsigned ui = 0; ui < ARRSIZE(s_stProcAddress); ui++)
+		*(s_stProcAddress[ui].pOut) = (m_hDll != NULL) ?
+			reinterpret_cast<ThemeCBProc>(GetProcAddress(m_hDll, s_stProcAddress[ui].szFnNm)) : s_stProcAddress[ui].pIn;
+}
+
+CThemeHelperST::~CThemeHelperST()
+{
+//	Unload DLL (if any)
+	if (m_hDll != NULL)
+		::FreeLibrary(m_hDll);
+	m_hDll = NULL;
+}
+
+HTHEME CThemeHelperST::OpenThemeData(HWND hwnd, LPCWSTR pszClassList)
+{
+	return (*m_pfnOpenThemeData)(hwnd, pszClassList);
+}
+
+HRESULT CThemeHelperST::CloseThemeData(HTHEME hTheme)
+{
+	return (*m_pfnCloseThemeData)(hTheme);
+}
+
+HRESULT CThemeHelperST::GetCurrentThemeName(LPWSTR pszThemeFileName, int cchMaxNameChars, 
+	LPWSTR pszColorBuff, int cchMaxColorChars, LPWSTR pszSizeBuff, int cchMaxSizeChars)
+{
+	return (*m_pfnGetCurrentThemeName)(pszThemeFileName, cchMaxNameChars, pszColorBuff, cchMaxColorChars, pszSizeBuff, cchMaxSizeChars);
+}
+
+HRESULT CThemeHelperST::DrawThemeBackground(HTHEME hTheme, HWND hWnd, HDC hdc, int iPartId, int iStateId, const RECT* pRect, const RECT* pClipRect)
+{
+	if (hWnd != NULL)
+		(*m_pfnDrawThemeParentBackground)(hWnd, hdc, const_cast<RECT*>(pRect));
+
+	return (*m_pfnDrawThemeBackground)(hTheme, hdc, iPartId, iStateId, pRect, pClipRect);
+}
+
+HRESULT CThemeHelperST::DrawThemeText(HTHEME hTheme, HDC hdc, int iPartId, int iStateId, LPCWSTR pszText, int iCharCount, DWORD dwTextFlags, DWORD dwTextFlags2, const RECT *pRect)
+{
+	return (*m_pfnDrawThemeText)(hTheme, hdc, iPartId, iStateId, pszText, iCharCount, dwTextFlags, dwTextFlags2, pRect);
+}
+
+BOOL CThemeHelperST::IsAppThemed()
+{
+	return (*m_pfnIsAppThemed)();
+}
+
+BOOL CThemeHelperST::IsThemeActive()
+{
+	return (*m_pfnIsThemeActive)();
+}
+
+HRESULT CThemeHelperST::GetThemeTextExtent(HTHEME hTheme, HDC hdc, int iPartId, int iStateId,
+		LPCWSTR pszText, int iCharCount, DWORD dwTextFlags, LPCRECT pBoundingRect, LPRECT pExtentRect)
+{
+	return (*m_pfnGetThemeTextExtent)(hTheme, hdc, iPartId, iStateId, pszText, iCharCount, dwTextFlags, pBoundingRect, pExtentRect);
+}
+@
+
+
+1.7
+log
+@Merged theme code into ThemeHelperST, remove VisualStylesXP;
+uxtheme.dll load optimization;
+Some updates from original and code cleanup
+@
+text
+@d36 1
+a36 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_stProcAddress); ui++)
+@
+
+
+1.6
+log
+@Unicode improvements.
+@
+text
+@d3 1
+d13 2
+a14 2
+	// Load DLL. This call will fails (and return NULL) if
+	// we are not running under Windows XP (or greater)
+d16 23
+d43 2
+a44 2
+	// Unload DLL (if any)
+	if (m_hDll)
+d49 1
+a49 1
+LPVOID CThemeHelperST::GetProc(LPCSTR szProc, LPVOID pfnFail)
+d51 2
+a52 1
+	LPVOID lpRet = pfnFail;
+d54 1
+a54 7
+	if (m_hDll)
+		lpRet = GetProcAddress(m_hDll, szProc);
+
+	return lpRet;
+} // End of GetProc
+
+HTHEME CThemeHelperST::OpenThemeData(HWND hwnd, LPCWSTR pszClassList)
+d56 2
+a57 3
+	PFNOPENTHEMEDATA pfnOpenThemeData = (PFNOPENTHEMEDATA)GetProc("OpenThemeData", (LPVOID)OpenThemeDataFail);
+	return (*pfnOpenThemeData)(hwnd, pszClassList);
+} // End of OpenThemeData
+d59 2
+a60 1
+HRESULT CThemeHelperST::CloseThemeData(HTHEME hTheme)
+d62 2
+a63 3
+	PFNCLOSETHEMEDATA pfnCloseThemeData = (PFNCLOSETHEMEDATA)GetProc("CloseThemeData", (LPVOID)CloseThemeDataFail);
+	return (*pfnCloseThemeData)(hTheme);
+} // End of CloseThemeData
+d67 5
+a71 9
+  PFNDRAWTHEMEPARENTBACKGROUND pfnDrawThemeParentBackground = (PFNDRAWTHEMEPARENTBACKGROUND)GetProc("DrawThemeParentBackground", NULL);
+  if (pfnDrawThemeParentBackground && hWnd)
+  {    
+	  (*pfnDrawThemeParentBackground)(hWnd, hdc, (PRECT)pRect);  
+  } // if
+  
+  PFNDRAWTHEMEBACKGROUND pfnDrawThemeBackground = (PFNDRAWTHEMEBACKGROUND)GetProc("DrawThemeBackground", (LPVOID)DrawThemeBackgroundFail);
+	return (*pfnDrawThemeBackground)(hTheme, hdc, iPartId, iStateId, pRect, pClipRect);
+} // End of DrawThemeBackground
+d75 2
+a76 3
+	PFNDRAWTHEMETEXT pfn = (PFNDRAWTHEMETEXT)GetProc("DrawThemeText", (LPVOID)DrawThemeTextFail);
+	return (*pfn)(hTheme, hdc, iPartId, iStateId, pszText, iCharCount, dwTextFlags, dwTextFlags2, pRect);
+} // End of DrawThemeText
+d80 2
+a81 3
+	PFNISAPPTHEMED pfnIsAppThemed = (PFNISAPPTHEMED)GetProc("IsAppThemed", (LPVOID)IsAppThemedFail);
+	return (*pfnIsAppThemed)();
+} // End of IsAppThemed
+d85 8
+a92 3
+	PFNISTHEMEACTIVE pfn = (PFNISTHEMEACTIVE)GetProc("IsThemeActive", (LPVOID)IsThemeActiveFail);
+	return (*pfn)();
+} // End of IsThemeActive
+@
+
+
+1.5
+log
+@Fixed Mantis bug #500 - Display bug in Server window (buttons) when using XP Visual Styles
+@
+text
+@d25 1
+a25 1
+LPVOID CThemeHelperST::GetProc(LPCTSTR szProc, LPVOID pfnFail)
+d28 1
+a28 1
+	USES_CONVERSION;
+d30 1
+a30 1
+		lpRet = GetProcAddress(m_hDll, CT2A(szProc));
+d37 1
+a37 1
+	PFNOPENTHEMEDATA pfnOpenThemeData = (PFNOPENTHEMEDATA)GetProc(_T("OpenThemeData"), (LPVOID)OpenThemeDataFail);
+d43 1
+a43 1
+	PFNCLOSETHEMEDATA pfnCloseThemeData = (PFNCLOSETHEMEDATA)GetProc(_T("CloseThemeData"), (LPVOID)CloseThemeDataFail);
+d49 1
+a49 1
+  PFNDRAWTHEMEPARENTBACKGROUND pfnDrawThemeParentBackground = (PFNDRAWTHEMEPARENTBACKGROUND)GetProc(_T("DrawThemeParentBackground"), NULL);
+d55 1
+a55 1
+  PFNDRAWTHEMEBACKGROUND pfnDrawThemeBackground = (PFNDRAWTHEMEBACKGROUND)GetProc(_T("DrawThemeBackground"), (LPVOID)DrawThemeBackgroundFail);
+d61 1
+a61 1
+	PFNDRAWTHEMETEXT pfn = (PFNDRAWTHEMETEXT)GetProc(_T("DrawThemeText"), (LPVOID)DrawThemeTextFail);
+d67 1
+a67 1
+	PFNISAPPTHEMED pfnIsAppThemed = (PFNISAPPTHEMED)GetProc(_T("IsAppThemed"), (LPVOID)IsAppThemedFail);
+d73 1
+a73 1
+	PFNISTHEMEACTIVE pfn = (PFNISTHEMEACTIVE)GetProc(_T("IsThemeActive"), (LPVOID)IsThemeActiveFail);
+@
+
+
+1.4
+log
+@unicode cleanup
+@
+text
+@d20 2
+a21 1
+	if (m_hDll)	::FreeLibrary(m_hDll);
+@
+
+
+1.3
+log
+@unicode cleanup
+@
+text
+@d29 1
+a29 1
+		lpRet = GetProcAddress(m_hDll, T2A(szProc));
+@
+
+
+1.2
+log
+@unicode cleanup
+@
+text
+@d27 1
+a27 1
+
+d29 1
+a29 1
+		lpRet = GetProcAddress(m_hDll, szProc);
+d36 1
+a36 1
+	PFNOPENTHEMEDATA pfnOpenThemeData = (PFNOPENTHEMEDATA)GetProc("OpenThemeData", (LPVOID)OpenThemeDataFail);
+d42 1
+a42 1
+	PFNCLOSETHEMEDATA pfnCloseThemeData = (PFNCLOSETHEMEDATA)GetProc("CloseThemeData", (LPVOID)CloseThemeDataFail);
+d48 1
+a48 1
+  PFNDRAWTHEMEPARENTBACKGROUND pfnDrawThemeParentBackground = (PFNDRAWTHEMEPARENTBACKGROUND)GetProc("DrawThemeParentBackground", NULL);
+d54 1
+a54 1
+  PFNDRAWTHEMEBACKGROUND pfnDrawThemeBackground = (PFNDRAWTHEMEBACKGROUND)GetProc("DrawThemeBackground", (LPVOID)DrawThemeBackgroundFail);
+d60 1
+a60 1
+	PFNDRAWTHEMETEXT pfn = (PFNDRAWTHEMETEXT)GetProc("DrawThemeText", (LPVOID)DrawThemeTextFail);
+d66 1
+a66 1
+	PFNISAPPTHEMED pfnIsAppThemed = (PFNISAPPTHEMED)GetProc("IsAppThemed", (LPVOID)IsAppThemedFail);
+d72 1
+a72 1
+	PFNISTHEMEACTIVE pfn = (PFNISTHEMEACTIVE)GetProc("IsThemeActive", (LPVOID)IsThemeActiveFail);
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d24 1
+a24 1
+LPVOID CThemeHelperST::GetProc(LPCSTR szProc, LPVOID pfnFail)
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

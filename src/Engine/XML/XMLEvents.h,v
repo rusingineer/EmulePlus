@@ -1,0 +1,92 @@
+head	1.1;
+access;
+symbols
+	PublicRelease_1_2e:1.1
+	Interim_Release_1-2e_RC1:1.1
+	PublicRelease_1_2d:1.1
+	Interim_Release_1-2d_RC1:1.1
+	Interim_Release_1-2d_beta1:1.1
+	PublicRelease_1_2c:1.1
+	Interim_Release_1-2c_RC1:1.1
+	Interim_Release_1-2c_beta1:1.1
+	PublicRelease_1_2b:1.1
+	Interim_Release_1-2b_RC1:1.1
+	PublicRelease_1_2a:1.1
+	Interim_Release_1-2a_RC1:1.1
+	Interim_Release_1-2a_beta2:1.1
+	Interim_Release_1-2a_beta1:1.1
+	PublicRelease_1_2:1.1
+	Interim_Release_1-2_RC1:1.1
+	Interim_Release_1-2_beta1:1.1
+	PublicRelease_1_1g:1.1
+	Interim_Release_1-1g_RC3:1.1
+	Interim_Release_1-1g_RC2:1.1
+	Interim_Release_1-1g_RC1:1.1
+	Interim_Release_1-1g_beta2:1.1
+	Interim_Release_1-1g_beta1:1.1
+	PublicRelease_1_1f:1.1
+	Interim_Release_1-1f_RC1:1.1
+	PublicRelease_1_1e:1.1
+	Interim_Release_1-1e_RC2:1.1
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2005.04.16.00.05.00;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@v2 - Xml events and other improvements
+@
+text
+@// XMLEvents.h: interface for the CXMLEvents class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+enum EnumXmlEvents
+{
+	XML_EVENT_SERVER
+};
+
+class CXMLEvents : public CLoggable2
+{
+public:
+	// Control functions
+	void SetStopEvent(HANDLE hStop){ m_hStop = hStop; }
+
+	void SetXmlResponse(ULONG ulId, LPCTSTR sResponse);
+	CString WaitForXmlResponse(ULONG ulId, DWORD dwTimeout = 5000);
+
+	// Events subscriptions
+	void SubscribeToEvent(SOCKET hSocket, EnumXmlEvents eType);
+	void UnsubscribeFromAllEvents(SOCKET hSocket);
+
+	// Events
+	void Fire_OnConnectedToServer(DWORD dwAddr, USHORT uPort, long lClientID);
+	void Fire_OnDisconnectedFromServer();
+
+protected:
+	void FireEventToSubscribed(EnumXmlEvents eType, CString sData);
+
+protected:
+	typedef map<ULONG, CString> XmlRespMap;
+	XmlRespMap	m_stXmlResponses;
+//	CMutex		m_mutexXmlResponses;
+	HANDLE		m_hStop;
+
+	typedef multimap<EnumXmlEvents, SOCKET>	EventSocketMap;
+	typedef pair<EnumXmlEvents, SOCKET> EventSocketPair;
+	EventSocketMap	m_stEventMap;
+};@

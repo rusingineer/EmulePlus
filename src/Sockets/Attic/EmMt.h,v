@@ -1,0 +1,133 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.2
+	Interim_Release_1i_beta2:1.2
+	Interim_Release_1i_beta1:1.2
+	PublicRelease_1h:1.2
+	Interim_Release_1h_rc2:1.2
+	Interim_Release_1h_RC1:1.2
+	Interim_Release_1h_beta2:1.2
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2003.12.16.17.48.07;	author kuchin;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.26.16.54.24;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.23.18.06.39;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@New engine
+@
+text
+@// EmMt.h
+//
+//////////////////////////////////////////////////////////////////////
+#ifdef NEW_SOCKETS
+#if !defined(AFX_ARLMT_H__6886ED1D_C47B_48B7_9467_47E10EF205E7__INCLUDED_)
+#define AFX_ARLMT_H__6886ED1D_C47B_48B7_9467_47E10EF205E7__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "EmWinNT.h"
+
+#ifndef CCriticalSection_INL_implemented
+#define CCriticalSection_INL_implemented
+class CCriticalSection_INL : public CRITICAL_SECTION {
+
+	DWORD m_dwSafeValue;
+	static const DWORD s_dwSafeValue;
+public:
+	inline CCriticalSection_INL() { InitializeCriticalSection(this); m_dwSafeValue = s_dwSafeValue; }
+	inline ~CCriticalSection_INL() { m_dwSafeValue = 0; DeleteCriticalSection(this); }
+	inline void Enter() { if (m_dwSafeValue == s_dwSafeValue) EnterCriticalSection(this); }
+	inline void Leave() { if (m_dwSafeValue == s_dwSafeValue) LeaveCriticalSection(this); }
+
+	// The following function will just return FALSE unless we are running in WinNT
+	inline BOOL TryEnter() { return
+		(m_dwSafeValue == s_dwSafeValue) &&
+		CEmWinNT::s_stWinNT.IsInitialized() &&
+		CEmWinNT::s_stWinNT.m_pfnTryEnterCriticalSection(this);
+	}
+
+	class CScope {
+		CCriticalSection_INL& m_csLock;
+	public:
+		inline CScope(CCriticalSection_INL& csLock) : m_csLock(csLock) { m_csLock.Enter(); }
+		inline CScope(CScope& stOther) : m_csLock(stOther.m_csLock) { m_csLock.Enter(); }
+		inline ~CScope()	{ m_csLock.Leave(); }
+	};
+
+	inline CScope zget_Scope() { CScope stScope(*this); return stScope; }
+	__declspec (property(get=zget_Scope)) CScope _Scope;
+};
+
+#endif // CCriticalSection_INL_implemented
+
+#endif // !defined(AFX_ARLMT_H__6886ED1D_C47B_48B7_9467_47E10EF205E7__INCLUDED_)
+#endif@
+
+
+1.2
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d12 2
+@
+

@@ -1,0 +1,139 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.3
+	PublicRelease_1_1a:1.3
+	Interim_Release_1-1a_RC2:1.3
+	Interim_Release_1-1a_RC1:1.3
+	Interim_Release_1-1a_beta2:1.3
+	Interim_Release_1-1a_beta1:1.2
+	PublicRelease_1_1:1.2
+	Interim_Release_1-1_beta1:1.2
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2004.11.11.05.34.10;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.10.04.23.33.50;	author kush_eplus;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.10.12.43.45;	author eklmn;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Added number of items to enum.
+@
+text
+@#pragma once
+#include "types.h"
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+//	File Types (NB: used as index for tables)
+enum EED2KFileType
+{
+	ED2KFT_ANY = 0,
+	ED2KFT_AUDIO,
+	ED2KFT_VIDEO,
+	ED2KFT_IMAGE,
+	ED2KFT_PROGRAM,
+	ED2KFT_DOCUMENT,
+	ED2KFT_ARCHIVE,
+	ED2KFT_CDIMAGE,
+
+	ED2KFT_COUNT
+};
+//typedef EnumDomain<_EED2KFileType> EED2KFileType;
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+struct SED2KFileType
+{
+	LPCTSTR pszExt;
+	EED2KFileType iFileType;
+};
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+bool InitFileTypeArray(void);
+int __cdecl CompareE2DKFileType(const void* p1, const void* p2);
+EED2KFileType GetED2KFileTypeID(LPCTSTR pszFileName);
+@
+
+
+1.2
+log
+@updated ed2k filetype list
++ code formatting
+@
+text
+@d4 1
+a4 1
+//filetype in ed2k network
+d14 3
+a16 1
+	ED2KFT_CDIMAGE
+@
+
+
+1.1
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d14 1
+a14 1
+	ED2KFT_CDIMAGE,
+@
+

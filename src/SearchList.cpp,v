@@ -1,0 +1,5092 @@
+head	1.128;
+access;
+symbols
+	PublicRelease_1_2e:1.123
+	Interim_Release_1-2e_RC1:1.123
+	PublicRelease_1_2d:1.118
+	Interim_Release_1-2d_RC1:1.118
+	Interim_Release_1-2d_beta1:1.118
+	PublicRelease_1_2c:1.113
+	Interim_Release_1-2c_RC1:1.113
+	Interim_Release_1-2c_beta1:1.111
+	PublicRelease_1_2b:1.111
+	Interim_Release_1-2b_RC1:1.111
+	PublicRelease_1_2a:1.109
+	Interim_Release_1-2a_RC1:1.109
+	Interim_Release_1-2a_beta2:1.105
+	Interim_Release_1-2a_beta1:1.103
+	PublicRelease_1_2:1.99
+	Interim_Release_1-2_RC1:1.99
+	Interim_Release_1-2_beta1:1.97
+	PublicRelease_1_1g:1.96
+	Interim_Release_1-1g_RC3:1.96
+	Interim_Release_1-1g_RC2:1.96
+	Interim_Release_1-1g_RC1:1.96
+	Interim_Release_1-1g_beta2:1.94
+	Interim_Release_1-1g_beta1:1.91
+	PublicRelease_1_1f:1.89
+	Interim_Release_1-1f_RC1:1.89
+	PublicRelease_1_1e:1.89
+	Interim_Release_1-1e_RC2:1.89
+	Interim_Release_1-1e_RC1:1.89
+	Interim_Release_1-1e_beta1:1.89
+	PublicRelease_1_1d:1.85
+	Interim_Release_1-1d_RC1:1.85
+	PublicRelease_1_1c:1.85
+	Interim_Release_1-1c_RC1:1.85
+	Interim_Release_1-1c_beta2:1.85
+	Interim_Release_1-1c_beta1:1.83
+	PublicRelease_1_1b:1.83
+	Interim_Release_1-1b_RC1:1.83
+	PublicRelease_1_1a:1.83
+	Interim_Release_1-1a_RC2:1.83
+	Interim_Release_1-1a_RC1:1.80
+	Interim_Release_1-1a_beta2:1.80
+	Interim_Release_1-1a_beta1:1.79
+	PublicRelease_1_1:1.77
+	Interim_Release_1-1_beta1:1.77
+	PublicRelease_1o:1.77
+	Interim_Release_1o_RC1:1.77
+	Interim_Release_1o_beta1:1.77
+	PublicRelease_1n:1.76
+	Interim_Release_1n_RC2:1.76
+	Interim_Release_1n_RC1:1.76
+	Interim_Release_1n_beta2:1.75
+	Interim_Release_1n_beta1:1.75
+	PublicRelease_1m:1.74
+	Interim_Release_1m_beta1:1.74
+	PublicRelease_1l:1.74
+	Interim_Release_1l_RC3:1.74
+	Interim_Release_1l_RC2:1.73
+	Interim_Release_1l_RC1:1.73
+	Interim_Release_1l_beta2:1.71
+	Interim_Release_1l_beta1:1.71
+	PublicRelease_1k:1.70
+	Interim_Release_1k_RC4:1.70
+	Interim_1k_RC3:1.70
+	Interim_1k_RC2:1.69
+	Interim_Release_1k_RC1:1.68
+	Interim_Release_1k_beta5:1.67
+	Intrerim_Release_1k_beta4:1.67
+	Interim_Release_1k_beta1:1.57
+	PublicRelease_1j:1.46
+	Interim_Release_1J_RC3:1.46
+	Interim_Release_1j_RC3:1.46
+	Interim_Release_1j_RC2:1.46
+	Interim_Release_1j_RC1:1.46
+	Interim_Release_1j_beta2:1.45
+	Interim_Release_1j_beta1:1.45
+	PublicRelease_1i:1.44
+	Interim_Release_1i_RC6:1.44
+	Interim_Release_1i_RC3:1.42
+	Interim_Release_1i_RC2:1.42
+	Interim_Release_1i_RC1:1.40
+	Interim_Release_1i_beta3:1.39
+	Interim_Release_1i_beta2:1.38
+	Interim_Release_1i_beta1:1.34
+	PublicRelease_1h:1.29
+	Interim_Release_1h_rc2:1.29
+	Interim_Release_1h_RC1:1.29
+	Interim_Release_1h_beta2:1.29
+	Interim_Release_1h_beta1_now:1.26
+	Interim_Release_1h_beta1:1.26
+	PublicRelease_1g:1.24
+	Interim_Release_1g_RC6_Final:1.24
+	Interim_Release_1g_RC6:1.24
+	Interim_Release_1g_RC5:1.22
+	Interim_Release_1g_RC4:1.22
+	Interim_Release_1g_RC3:1.22
+	Interim_Release_1g_beta2:1.20
+	Interim_Release_1g_beta1:1.16
+	Interim_Release_1f_RC4:1.14
+	Interim_Release_1f_RC3:1.14
+	Interim_Release_1f_RC2:1.13
+	Interim_Release_1f_RC:1.13
+	Interim_Release_1f_beta2:1.11
+	Interim_Release_1f_beta1:1.11
+	PublicRelease_1e:1.7
+	Interim_Release_1e_RC2:1.7
+	Interim_Release_1e_RC:1.7
+	Interim_Release_1e_beta3:1.7
+	Interim_Release_1e_beta2:1.7
+	Interim_Release_1e_beta2_before_kuchin:1.7
+	Interim_Release_1e_beta1:1.6
+	PublicRelease_1c:1.5
+	featurestest:1.5.0.4
+	Interim_Release_1c_RC:1.5
+	Interim_Release_1c_beta2:1.5
+	Interim_Release_1c_beta1:1.5
+	threaded_downloadqueue:1.5.0.2
+	PublicRelease_1b:1.4
+	Interim_Release_1b_beta2:1.4
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.3.0.4
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.128
+date	2013.02.07.04.42.41;	author aw3;	state Exp;
+branches;
+next	1.127;
+
+1.127
+date	2012.09.20.03.21.54;	author aw3;	state Exp;
+branches;
+next	1.126;
+
+1.126
+date	2009.09.10.03.13.18;	author aw3;	state Exp;
+branches;
+next	1.125;
+
+1.125
+date	2009.07.26.14.06.08;	author aw3;	state Exp;
+branches;
+next	1.124;
+
+1.124
+date	2009.06.02.02.19.42;	author aw3;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2008.11.12.21.03.13;	author kush_eplus;	state Exp;
+branches;
+next	1.122;
+
+1.122
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.121;
+
+1.121
+date	2008.11.03.05.45.23;	author aw3;	state Exp;
+branches;
+next	1.120;
+
+1.120
+date	2008.10.28.02.41.52;	author aw3;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2008.10.03.04.25.40;	author aw3;	state Exp;
+branches;
+next	1.118;
+
+1.118
+date	2008.01.14.01.19.31;	author aw3;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2008.01.11.15.34.03;	author eklmn;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2007.12.28.09.48.50;	author eklmn;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2007.12.19.21.02.42;	author aw3;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2007.11.12.23.46.40;	author fuxie-dk;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2007.07.23.03.45.19;	author aw3;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2007.06.07.04.31.20;	author aw3;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2007.01.17.07.54.32;	author aw3;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2007.01.11.19.57.05;	author eklmn;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2006.08.21.03.47.45;	author aw3;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2006.08.16.04.25.49;	author aw3;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2006.08.14.02.38.44;	author aw3;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2006.07.23.00.29.15;	author aw3;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2006.05.22.03.45.00;	author aw3;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2006.05.06.17.32.47;	author aw3;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2006.04.09.15.18.10;	author kush_eplus;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2006.04.06.04.46.12;	author aw3;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2006.04.06.04.07.27;	author aw3;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2006.03.05.23.57.52;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2006.02.13.05.39.00;	author aw3;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2006.02.05.03.53.01;	author aw3;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2006.01.10.21.27.34;	author morphisthebrave;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2005.11.27.22.11.49;	author eklmn;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2005.09.05.17.25.17;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2005.09.04.03.42.52;	author aw3;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2005.08.29.03.06.06;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2005.08.06.17.59.03;	author aw3;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2005.08.04.03.34.41;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2005.04.03.20.50.36;	author aw3;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2005.04.03.04.51.44;	author kuchin;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2005.04.02.22.33.19;	author aw3;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2005.03.22.05.20.16;	author aw3;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2005.02.16.05.07.24;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2005.02.01.03.58.05;	author aw3;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.12.06.20.15.57;	author dongato;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2004.12.06.19.32.20;	author dongato;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.12.06.17.55.51;	author dongato;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.11.11.05.37.58;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.11.02.17.23.29;	author aw3;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.10.29.03.17.47;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.09.15.19.01.48;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.08.10.12.43.39;	author eklmn;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.06.04.15.54.23;	author dongato;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.05.26.13.37.33;	author dongato;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.05.25.03.17.59;	author kush_eplus;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.04.22.05.51.51;	author kush_eplus;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.04.04.13.19.48;	author syrus77;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.03.31.08.05.09;	author eklmn;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.03.25.09.17.18;	author eklmn;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.03.22.18.45.17;	author eklmn;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.03.21.10.34.05;	author eklmn;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.03.18.15.20.06;	author kush_eplus;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.03.14.20.13.33;	author aw3;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.03.08.18.03.26;	author kush_eplus;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.03.08.17.11.18;	author kush_eplus;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.03.03.21.45.23;	author dropf;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.02.23.02.04.50;	author kush_eplus;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.02.23.00.17.40;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.02.22.20.19.04;	author kush_eplus;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.02.20.00.22.26;	author kush_eplus;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.02.19.12.59.52;	author kush_eplus;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.02.19.06.22.59;	author dongato;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.02.19.01.49.06;	author kush_eplus;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.02.19.00.40.33;	author kush_eplus;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.02.17.22.02.51;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.02.14.21.35.25;	author kush_eplus;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.02.13.16.13.35;	author netwolf1;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.02.04.19.06.00;	author morevit;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.02.03.12.53.48;	author morevit;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.01.10.00.07.49;	author dongato;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.11.22.13.11.19;	author eklmn;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.11.21.20.24.58;	author eklmn;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.11.16.14.55.06;	author syrus77;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.11.11.23.30.07;	author syrus77;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.10.31.18.33.22;	author puritynn666;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.10.26.15.57.56;	author morevit;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.10.06.21.57.05;	author puritynn666;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.10.02.00.58.14;	author morevit;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.09.22.16.08.55;	author morevit;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.09.21.21.35.33;	author puritynn666;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.09.19.00.13.38;	author morevit;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.09.02.18.28.57;	author puritynn666;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.08.24.20.28.04;	author zegzav;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.08.24.15.55.18;	author bond006;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.08.10.16.42.02;	author kuchin;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.07.30.12.29.31;	author kuchin;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.07.16.22.01.17;	author partyckip;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.07.13.09.09.04;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.06.25.22.43.32;	author partyckip;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.06.21.17.52.33;	author partyckip;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.06.06.19.56.46;	author partyckip;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.06.05.19.57.16;	author partyckip;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.06.05.05.51.21;	author partyckip;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.06.04.20.27.29;	author partyckip;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.05.28.04.57.04;	author partyckip;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.05.27.23.03.08;	author partyckip;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.05.20.21.14.41;	author netwolf1;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.05.11.12.18.01;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.05.11.11.37.48;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.05.04.12.30.58;	author dongato;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.05.04.10.05.33;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.04.29.15.48.51;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.04.29.08.37.45;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.04.19.07.17.00;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.04.09.14.03.35;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.11.22.08.49;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.05.13.28.51;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.20.14.48.17;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.22;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.25;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.128
+log
+@Corrected compilation.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "updownclient.h"
+#include "packets.h"
+#include "emule.h"
+#include "Category.h"
+#include "KnownFile.h"
+#include "SearchList.h"
+#include "Preferences.h"
+#include "QArray.h"
+#include "MMServer.h"
+#include "otherfunctions.h"
+#include "SharedFileList.h"
+#include "server.h"
+#include "SafeFile.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//SyruS CQArray-Sorting operators for SearchFileStruct
+bool operator > (SearchFileStruct &first, SearchFileStruct &second)
+{
+	return (first.strIndex.CompareNoCase(second.strIndex) > 0);
+}
+
+bool operator < (SearchFileStruct &first, SearchFileStruct &second)
+{
+	return (first.strIndex.CompareNoCase(second.strIndex) < 0);
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	ConvertED2KTag() converts media tag type and value if required
+static void ConvertED2KTag(CTag **ppTag)
+{
+	CTag *pTag = *ppTag;
+
+	if ((pTag->GetTagID() == 0) && (pTag->GetTagName() != NULL))
+	{
+		static const struct
+		{
+			byte	byteID;
+			byte	byteED2KType;
+			LPCSTR	pszED2KName;
+		} s_aEmuleToED2KMetaTagsMap[] =
+		{
+			// Artist, Album and Title are disabled because they should be already part of the filename
+			// and would therefore be redundant information sent to the servers.. and the servers count the
+			// amount of sent data!
+			{ FT_MEDIA_ARTIST,  TAGTYPE_STRING, FT_ED2K_MEDIA_ARTIST },
+			{ FT_MEDIA_ALBUM,   TAGTYPE_STRING, FT_ED2K_MEDIA_ALBUM },
+			{ FT_MEDIA_TITLE,   TAGTYPE_STRING, FT_ED2K_MEDIA_TITLE },
+			{ FT_MEDIA_LENGTH,  TAGTYPE_STRING, FT_ED2K_MEDIA_LENGTH },
+			{ FT_MEDIA_LENGTH,  TAGTYPE_UINT32, FT_ED2K_MEDIA_LENGTH },
+			{ FT_MEDIA_BITRATE, TAGTYPE_UINT32, FT_ED2K_MEDIA_BITRATE },
+			{ FT_MEDIA_CODEC,   TAGTYPE_STRING, FT_ED2K_MEDIA_CODEC }
+		};
+
+		for (uint32 j = 0; j < ARRSIZE(s_aEmuleToED2KMetaTagsMap); j++)
+		{
+			if ( CmpED2KTagName(pTag->GetTagName(), s_aEmuleToED2KMetaTagsMap[j].pszED2KName) == 0
+				&& ( (pTag->IsStr() && s_aEmuleToED2KMetaTagsMap[j].byteED2KType == TAGTYPE_STRING)
+					|| (pTag->IsInt() && s_aEmuleToED2KMetaTagsMap[j].byteED2KType == TAGTYPE_UINT32) ) )
+			{
+				if (pTag->IsStr())
+				{
+					if (s_aEmuleToED2KMetaTagsMap[j].byteID == FT_MEDIA_LENGTH)
+					{
+						CString	strVal = pTag->GetStringValue();
+						uint32	dwHour, dwMin, dwSec, dwMediaLength = 0;
+						int		iRc = _stscanf(strVal, _T("%u : %u : %u"), &dwHour, &dwMin, &dwSec);
+
+						if ((iRc > 0) && (iRc <= 3))
+						{
+							if (iRc < 3)
+							{
+								if (iRc < 2)
+								{
+									dwSec = dwHour;
+									dwMin = 0;
+								}
+								else
+								{
+									dwSec = dwMin;
+									dwMin = dwHour;
+								}
+								dwHour = 0;
+							}
+							if ((dwSec > 59) || (dwMin > 59))
+								dwMediaLength = 0;
+							else
+								dwMediaLength = dwHour * 3600 + dwMin * 60 + dwSec;
+						}
+
+						*ppTag = NULL;
+						delete pTag;
+
+						if (dwMediaLength != 0)
+							*ppTag = new CTag(s_aEmuleToED2KMetaTagsMap[j].byteID, dwMediaLength);
+					}
+					else if (pTag->IsStringValueEmpty())	// delete useless tag
+					{
+						*ppTag = NULL;
+						delete pTag;
+					}
+					else
+						pTag->ChangeTagID(s_aEmuleToED2KMetaTagsMap[j].byteID);	// change tag ID keeping the same value
+				}
+				else if (pTag->IsInt())
+				{
+					if (pTag->GetIntValue() == 0)	// delete useless tag
+					{
+						*ppTag = NULL;
+						delete pTag;
+					}
+					else
+						pTag->ChangeTagID(s_aEmuleToED2KMetaTagsMap[j].byteID);	// change tag ID keeping the same value
+				}
+				break;
+			}
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CSearchFile::CSearchFile(CFile &in_stream, ECodingFormat eCF, uint32 dwSearchID, CServer *pSrv, CUpDownClient *pClient/*=NULL*/, LPCTSTR pszDirectory/*=NULL*/)
+{
+	EMULE_TRY
+
+	m_nSearchID = dwSearchID;
+	m_iSrvRating = PF_RATING_NONE;
+	in_stream.Read(&m_fileHash, 16);		// <filehash 16>
+	in_stream.Read(&m_dwClientID, 4);		// <clientip 4>
+	in_stream.Read(&m_uClientPort, 2);		// <clientport 2>
+	if ((m_dwClientID != 0) || (m_uClientPort != 0))
+	{	// IsValidSearchResultClientIPPort
+		if ((m_dwClientID == 0) || (m_uClientPort == 0) || (fast_ntohl(m_dwClientID) == m_uClientPort))
+		{
+			m_dwClientID = 0;
+			m_uClientPort = 0;
+		}
+	}
+
+	uint32		dwTagCnt, dwFileSzHi;
+
+	in_stream.Read(&dwTagCnt, 4);			// <tagcount 4>
+
+	CTag	*pTag = NULL;
+	try
+	{
+		for (uint32 i = 0; i < dwTagCnt; i++)
+		{
+			pTag = new CTag();				// (tag) * tagcount
+
+			pTag->FillFromStream(in_stream, eCF);
+			ConvertED2KTag(&pTag);		// convert format of media tags
+			if (pTag != NULL)
+			{
+			// Convert ED2K-server file rating tag
+				if ((pTag->GetTagID() == FT_FILERATING) && pTag->IsInt())
+				{
+					uint32	dwPackedRating = pTag->GetIntValue();
+					uint32	dwAvgRating = dwPackedRating & 0xFF;	//	Average rating used by clients
+
+				//	Percentage of clients (related to 'Availability') who rated this file
+					m_dwVoters = (dwPackedRating >> 8) & 0xFF;
+					m_iSrvRating = dwAvgRating / (255 / 5/*RatingExcellent*/);
+					m_dSrvRating = static_cast<double>(dwAvgRating) / (255.0 / 5.0);
+
+					delete pTag;
+				}
+				else
+					m_tagArray.Add(pTag);
+				pTag = NULL;
+			}
+		}
+	}
+	catch(...)
+	{
+		delete pTag;
+		throw;
+	}
+
+	CString strFileName = GetStrTagValue(FT_FILENAME);
+
+	if (!strFileName.IsEmpty())
+		SetFileName(strFileName);
+
+	if (m_iSrvRating != PF_RATING_NONE)	// Valid rating tag was received
+	{
+		if (m_dwVoters > 100)
+			m_dwVoters = 100;	// Check the range, as it is a percentage
+	//	Server sends a percentage of clients who rated this file and total number of
+	//	file sources ('Availability'), based on that we can estimate number of voters
+		m_dwVoters = (m_dwVoters * GetIntTagValue(FT_SOURCES) + 50) / 100;
+		if (m_dwVoters == 0)
+			m_dwVoters = 1;	// If a server send rating tag, there should be at least 1 user
+	}
+
+	uint64	qwFileSz = GetInt64TagValue(FT_FILESIZE);
+
+	if (((dwFileSzHi = GetIntTagValue(FT_FILESIZE_HI)) != 0) && (qwFileSz <= 0xFFFFFFFF))
+		qwFileSz += (static_cast<uint64>(dwFileSzHi) << 32ui64);
+	if (qwFileSz > MAX_EMULE_FILE_SIZE)
+	{
+		g_App.m_pMDlg->AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, _T("Search file size larger than supported %#I64x '%s'"), qwFileSz, strFileName);
+		qwFileSz = 0;
+	}
+	SetFileSize(qwFileSz);
+
+//	Modify some tags for easier and correct future processing
+	if (GetFileSize() <= PARTSIZE)
+	{
+		SetIntTagValue(FT_COMPLETE_SOURCES, GetSourceCount());
+		SetIntTagValue(FT_LASTSEENCOMPLETE, 0);	//currently available
+	}
+	else if (GetCompleteSourceCount() != 0)
+		SetIntTagValue(FT_LASTSEENCOMPLETE, 0);	//currently available
+	else
+		AddExistentIntTag(FT_LASTSEENCOMPLETE, 1);	//modify value to distinguish from 'available'
+
+	if (pClient != NULL)
+	{
+	//	To be capable of adding the client from which we got that search result
+	//	as a source, we have to explicitly store that client's data in the search result.
+	//	NOTE: Do *NOT* store the 'pClient' ptr here! At the time when using the 'toadd'
+	//	struct, the 'pClient' may have been deleted (just if the user has waited too long before
+	//	using one of the client's search results) -> Crash!
+		m_eType = SFT_CLIENT;
+
+	//	Explicitly overwrite the already available client's IP, Port with the already validated UserID and Port.
+	//	So, we have proper (low)UserID+Server pair.
+		m_dwClientIDHybrid = pClient->GetUserIDHybrid();
+		m_uClientPort = pClient->GetUserPort();
+
+		m_nClientServerIP = pClient->GetServerIP();
+		m_nClientServerPort = pClient->GetServerPort();
+		md4cpy(abyteClientHash, pClient->GetUserHash());
+	}
+	else
+	{
+		m_eType = SFT_SERVER;
+		m_dwClientIDHybrid = (IsLowID(m_dwClientID)) ? m_dwClientID : fast_ntohl(m_dwClientID);
+		m_nClientServerIP = (pSrv != NULL) ? pSrv->GetIP() : 0;
+		m_nClientServerPort = (pSrv != NULL) ? pSrv->GetPort() : 0;
+		md4clr(abyteClientHash);
+	}
+
+	m_strSearchFileDirectory = pszDirectory ? pszDirectory : _T("");
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CSearchFile::~CSearchFile()
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint32 CSearchFile::GetIntTagValue(byte tagname)
+{
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		const CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == tagname) && pTag->IsInt())
+			return pTag->GetIntValue();
+	}
+	EMULE_CATCH
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	GetIntTagValue() returns true if tag was found (in this case pdwOut will contain a valid value on exit)
+bool CSearchFile::GetIntTagValue(byte tagname, uint32 *pdwOut)
+{
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		const CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == tagname) && pTag->IsInt())
+		{
+			*pdwOut = pTag->GetIntValue();
+			return true;
+		}
+	}
+	EMULE_CATCH
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint64 CSearchFile::GetInt64TagValue(byte tagname)
+{
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		const CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == tagname) && pTag->IsAnyInt())
+			return pTag->GetInt64Value();
+	}
+	EMULE_CATCH
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchFile::SetIntTagValue(byte tagname, uint32 dwVal)
+{
+	EMULE_TRY
+
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == tagname) && pTag->IsInt())
+		{
+			pTag->SetIntValue(dwVal);
+			return;
+		}
+	}
+//	if tag was not found, add it
+	CTag*	pTag = new CTag(tagname, dwVal);
+	m_tagArray.Add(pTag);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CString CSearchFile::GetStrTagValue(byte tagname)
+{
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		const CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == tagname) && pTag->IsStr())
+			return pTag->GetStringValue();
+	}
+	EMULE_CATCH
+	return _T("");
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchFile::AddExistentIntTag(byte tagname, uint32 dwInc)
+{
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == tagname) && pTag->IsInt())
+		{
+			pTag->SetIntValue(pTag->GetIntValue() + dwInc);
+			break;
+		}
+	}
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchFile::AddCompleteSources(uint32 in_dwCount)
+{
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == FT_COMPLETE_SOURCES) && pTag->IsInt())
+		{
+			pTag->SetIntValue(pTag->GetIntValue() + in_dwCount);
+			return;
+		}
+	}
+//	if tag was not found, add it
+	CTag*	pTag = new CTag(FT_COMPLETE_SOURCES, in_dwCount);
+	m_tagArray.Add(pTag);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchFile::UpdateLastSeenComplete(uint32 dwSeconds)
+{
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		CTag *pTag = m_tagArray[i];
+
+		if ((pTag->GetTagID() == FT_LASTSEENCOMPLETE) && pTag->IsInt())
+		{
+			if (dwSeconds < pTag->GetIntValue())
+				pTag->SetIntValue(dwSeconds);
+			return;
+		}
+	}
+//	if tag was not found, add it
+	CTag*	pTag = new CTag(FT_LASTSEENCOMPLETE, dwSeconds);
+	m_tagArray.Add(pTag);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchFile::UpdateSrvRating(CSearchFile *pAdd)
+{
+	if (pAdd->m_iSrvRating != PF_RATING_NONE)	// Valid rating tag was received
+	{
+		if (m_iSrvRating != PF_RATING_NONE)	// Update previous value
+		{
+			uint32	dwNewVoters = m_dwVoters + pAdd->m_dwVoters;
+
+		//	Estimate an overall rating for cases when several servers provided us with it
+		//	The value is not precise as we don't know exact number of voters
+			m_dSrvRating = ( m_dSrvRating * static_cast<double>(m_dwVoters) +
+				pAdd->m_dSrvRating * static_cast<double>(pAdd->m_dwVoters) ) / static_cast<double>(dwNewVoters);
+			m_dwVoters = dwNewVoters;
+		//	Make sure we still within the range
+			if (m_dSrvRating > 5.0)
+			{
+				m_dSrvRating = 5.0;
+				m_iSrvRating = 5;
+			}
+			else if ((m_iSrvRating = static_cast<int>(m_dSrvRating)) < 1)
+			{
+				m_dSrvRating = 1.0;
+				m_iSrvRating = 1;
+			}
+		}
+		else
+		{
+			m_dSrvRating = pAdd->m_dSrvRating;
+			m_iSrvRating = pAdd->m_iSrvRating;
+			m_dwVoters = pAdd->m_dwVoters;
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CSearchFile::AnyMediaTagExists() const
+{
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+	{
+		const CTag *pTag = m_tagArray[i];
+
+		if (pTag->IsInt())
+		{
+			if ((pTag->GetTagID() == FT_MEDIA_LENGTH) || (pTag->GetTagID() == FT_MEDIA_BITRATE))
+				return true;
+		}
+		else if (pTag->IsStr() && (pTag->GetTagID() == FT_MEDIA_CODEC))
+			return true;
+	}
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchFile::UpdateMediaTags(CSearchFile *pAdd)
+{
+	CTag	*pNewTag;
+
+	for (int i = 0; i < pAdd->m_tagArray.GetSize(); i++)
+	{
+		const CTag *pTag = pAdd->m_tagArray[i];
+
+		if (pTag->IsInt())
+		{
+			if ((pTag->GetTagID() == FT_MEDIA_LENGTH) || (pTag->GetTagID() == FT_MEDIA_BITRATE))
+			{
+				pNewTag = new CTag(pTag->GetTagID(), pTag->GetIntValue());
+				m_tagArray.Add(pNewTag);
+			}
+		}
+		else if (pTag->IsStr() && (pTag->GetTagID() == FT_MEDIA_CODEC))
+		{
+			pNewTag = new CTag(pTag->GetTagID(), pTag->GetStringValue());
+			m_tagArray.Add(pNewTag);
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CSearchList::CSearchList()
+{
+	m_pctlSearchList = NULL;
+	m_dwCurrentSearchCount = 0;
+	m_bMobilMuleSearch = false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CSearchList::~CSearchList()
+{
+	Clear();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchList::Clear()
+{
+	EMULE_TRY
+
+	while (!list.IsEmpty())
+		delete list.RemoveHead();
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchList::RemoveResults(uint32 nSearchID)
+{
+	EMULE_TRY
+	// this will not delete the item from the window, make sure your code does it if you call this
+	ASSERT( m_pctlSearchList );
+
+	POSITION		pos1, pos2;
+	CSearchFile	   *pSearchFile;
+
+	for (pos1 = list.GetHeadPosition();( pos2 = pos1 ) != NULL; )
+	{
+		pSearchFile = list.GetNext(pos1);
+		if (pSearchFile->GetSearchID() == nSearchID)
+		{
+			list.RemoveAt(pos2);
+			delete pSearchFile;
+		}
+	}
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchList::ShowResults(uint32 nSearchID)
+{
+	EMULE_TRY
+	ASSERT( m_pctlSearchList );
+	m_pctlSearchList->SetRedraw(false);
+
+	CSearchFile	   *pSearchFile;
+
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; )
+	{
+		pSearchFile = list.GetNext(pos);
+		if( pSearchFile->GetSearchID() == nSearchID )
+		{
+			m_pctlSearchList->AddResult(pSearchFile);
+		}
+	}
+	m_pctlSearchList->SetRedraw(true);
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchList::RemoveResults(CSearchFile *todel)
+{
+	EMULE_TRY
+
+	POSITION remove_pos = list.Find(todel);
+	if (remove_pos != NULL)
+	{
+		g_App.m_pMDlg->m_dlgSearch.m_ctlSearchList.RemoveResult( todel );
+		list.RemoveAt(remove_pos);
+		delete todel;
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchList::NewSearch(CSearchListCtrl *in_wnd, const CString &strTypes, uint32 dwSearchID, bool MobilMuleSearch)
+{
+	if(in_wnd)
+		m_pctlSearchList = in_wnd;
+
+	m_strResultType = strTypes;
+	m_dwCurrentSearchCount = dwSearchID;
+	m_bMobilMuleSearch = MobilMuleSearch;
+
+	foundFilesCount.SetAt(dwSearchID, 0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint16 CSearchList::ProcessSearchAnswer(char *pPacketBuffer, uint32 dwSize, ECodingFormat eCF, bool *pbIsMoreResultsAvailable, CServer *pSrv)
+{
+	EMULE_TRY
+
+	if ( g_App.m_pMDlg->m_dlgSearch.IsLastSearchCanceled() &&
+		 !g_App.m_pMDlg->m_dlgSearch.IsMoreEnabled() )
+		return 0;
+
+	CSafeMemFile	packetStream(reinterpret_cast<BYTE*>(pPacketBuffer), dwSize, 0);
+	uint32			dwNumResults;
+
+	packetStream.Read(&dwNumResults, 4);		// <numresults 4>
+
+	for (uint32 i = 0; i < dwNumResults; i++)
+	{
+		CSearchFile	*pSearchFile = new CSearchFile(packetStream, eCF, m_dwCurrentSearchCount, pSrv);
+
+		AddToList(pSearchFile, false);
+	}
+	if (m_bMobilMuleSearch)
+	{
+#ifdef OLD_SOCKETS_ENABLED
+		g_App.m_pMMServer->SearchFinished(false);
+#endif OLD_SOCKETS_ENABLED
+		m_bMobilMuleSearch = false;
+	}
+
+	if (pbIsMoreResultsAvailable != NULL)
+	{
+		*pbIsMoreResultsAvailable = false;
+		if (packetStream.GetLength() - packetStream.GetPosition() == 1)
+		{
+			byte	byteMore;
+
+			packetStream.Read(&byteMore, 1);
+			if (byteMore == 0x01)
+			{
+				*pbIsMoreResultsAvailable = true;
+			}
+		}
+	}
+
+	EMULE_CATCH
+
+	return GetFoundFiles(m_dwCurrentSearchCount);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchList::ProcessSharedFileListAnswer(byte *pbytePacket, uint32 dwSize, CUpDownClient *pClient, LPCTSTR pszDirectory, bool bFirstDir)
+{
+	EMULE_TRY
+
+	CSafeMemFile	packetStream(pbytePacket, dwSize, 0);
+	uint32			dwNumResults;
+
+	packetStream.Read(&dwNumResults, 4);		// <numresults 4>
+
+	uint32			dwMySearchID = reinterpret_cast<uint32>(pClient);
+
+	if (bFirstDir)
+	{
+		g_App.m_pMDlg->m_dlgSearch.DeleteSearch(dwMySearchID);
+		g_App.m_pMDlg->m_dlgSearch.CreateNewTab(pClient->GetUserName(), dwMySearchID);
+		foundFilesCount.SetAt(dwMySearchID,0);
+	}
+
+	for (uint32 i = 0; i < dwNumResults; i++)
+	{
+		CSearchFile		*pSearchFile = new CSearchFile(packetStream, pClient->GetStrCodingFormat(), dwMySearchID, NULL, pClient, pszDirectory);
+
+		if (pSearchFile->IsLargeFile() && !pClient->SupportsLargeFiles())
+		{
+		//	Client offers large file but didn't announced support for that
+			delete pSearchFile;
+			continue;
+		}
+		AddToList(pSearchFile, true);
+	}
+#ifdef OLD_SOCKETS_ENABLED
+	if (m_bMobilMuleSearch)
+	{
+		g_App.m_pMMServer->SearchFinished(false);
+	}
+#endif OLD_SOCKETS_ENABLED
+	m_bMobilMuleSearch = false;
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CSearchList::AllowUDPSearchAnswer()
+{
+	return ( !g_App.m_pMDlg->m_dlgSearch.IsLastSearchCanceled() ||
+		g_App.m_pMDlg->m_dlgSearch.IsMoreEnabled() );
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint16 CSearchList::ProcessUDPSearchAnswer(CMemFile &pckStream, ECodingFormat eCF, CServer *pSrv)
+{
+	CSearchFile	   *toadd = new CSearchFile(pckStream, eCF, m_dwCurrentSearchCount, pSrv);
+
+	AddToList(toadd, false);
+
+	return GetFoundFiles(m_dwCurrentSearchCount);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CSearchList::AddToList(CSearchFile *pAddedFile, bool bClientResponse)
+{
+	EMULE_TRY
+
+	CString		thisType = pAddedFile->GetFileTypeString();
+
+	if ( (!bClientResponse &&
+		!( thisType == m_strResultType
+			|| m_strResultType == GetResString(IDS_SEARCH_ANY)
+			|| m_strResultType == GetResString(IDS_SEARCH_DOC)
+			|| (m_strResultType == GetResString(IDS_SEARCH_PRG) && thisType == GetResString(IDS_SEARCH_ARC))) )
+		|| ( g_App.m_pMDlg->m_dlgSearch.IsDocumentSearch(pAddedFile->GetSearchID())
+			&& thisType != GetResString(IDS_SEARCH_DOC) )
+		|| ((pAddedFile->GetFileSize() == 0) || pAddedFile->IsFileNameEmpty()) )
+	{
+		delete pAddedFile;
+		return false;
+	}
+
+	CString	sNotSearch = g_App.m_pMDlg->m_dlgSearch.GetNotSearch(pAddedFile->GetSearchID());
+
+	//	Combine words from filter list and except box and exclude any searches
+	//	with those words in the file name
+	sNotSearch += g_App.m_pPrefs->GetFilterWords();
+
+	if (!sNotSearch.IsEmpty())
+	{
+		CString	strNotSearchWord, strFileName = pAddedFile->GetFileName();
+		int		iNotSearchPos = 0;
+
+		strFileName.MakeLower();
+
+		for (;;)
+		{
+			strNotSearchWord = sNotSearch.Tokenize(_T(" "), iNotSearchPos);
+			if (strNotSearchWord.IsEmpty())
+				break;
+			if (strFileName.Find(strNotSearchWord) >= 0)
+			{
+				delete pAddedFile;
+				return false;
+			}
+		}
+	}
+
+	CSearchFile	   *pSearchFile;
+
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; )
+	{
+		pSearchFile = list.GetNext(pos);
+
+		if ( (md4cmp(pAddedFile->GetFileHash(), pSearchFile->GetFileHash()) == 0) &&
+			(pSearchFile->GetSearchID() == pAddedFile->GetSearchID()) )
+		{
+			uint32	dwTmp, dwAvailableSources = pAddedFile->GetIntTagValue(FT_SOURCES);
+
+		//	Add complete sources tag only if it exists
+			if (pAddedFile->GetIntTagValue(FT_COMPLETE_SOURCES, &dwTmp))
+			{
+				pSearchFile->AddCompleteSources(dwTmp);
+				pSearchFile->SetIntTagValue(FT_LASTSEENCOMPLETE, 0);	//currently available
+			}
+			else if (pAddedFile->GetIntTagValue(FT_LASTSEENCOMPLETE, &dwTmp))
+			{
+			//	FT_LASTSEENCOMPLETE shouldn't be sent together with FT_COMPLETE_SOURCES
+				pSearchFile->UpdateLastSeenComplete(dwTmp);
+			}
+
+			pSearchFile->AddExistentIntTag(FT_SOURCES, dwAvailableSources);
+		//	Copy media information only if it doesn't exist yet
+			if (!pSearchFile->AnyMediaTagExists())
+				pSearchFile->UpdateMediaTags(pAddedFile);
+			pSearchFile->UpdateSrvRating(pAddedFile);
+
+			if (m_pctlSearchList && !m_bMobilMuleSearch)
+				m_pctlSearchList->UpdateChangingColumns(pSearchFile);
+
+			delete pAddedFile;
+			return true;
+		}
+	}
+
+	if (list.AddTail(pAddedFile))
+	{
+		uint16	uVal;
+
+		foundFilesCount.Lookup(pAddedFile->GetSearchID(), uVal);
+		foundFilesCount.SetAt(pAddedFile->GetSearchID(), uVal + 1);
+	}
+	if (m_pctlSearchList && !m_bMobilMuleSearch)
+		m_pctlSearchList->AddResult(pAddedFile);
+
+	return true;
+
+	EMULE_CATCH
+
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CString CSearchList::GetWebList(const CString &strLinePattern, int iSortBy, bool bAscending, bool bShowColumn1, bool bShowColumn2, bool bShowColumn3, bool bShowColumn4, bool bShowColumn5) const
+{
+	EMULE_TRY
+
+	static const TCHAR s_apcRatingFile[][13] =
+	{
+		_T("is_none"),
+		_T("l_fake"),
+		_T("l_sources_5"),
+		_T("l_sources_10"),
+		_T("l_sources_25"),
+		_T("l_sources_50")
+	};
+#ifdef _DEBUG
+	DWORD dwStart = ::GetTickCount();
+	DWORD dwSortTime;
+#endif
+
+	CSearchFile* pFile;
+	SearchFileStruct structFile, *pFData;
+	CQArray<SearchFileStruct, SearchFileStruct> SearchFileArray;
+
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL;)
+	{
+		pFile = list.GetNext(pos);
+
+		if ((pFile == NULL) || (pFile->GetFileSize() == 0) || pFile->IsFileNameEmpty())
+			continue;
+
+		structFile.strFileName = pFile->GetFileName();
+		structFile.pcFileType = GetFileTypeForWebServer(structFile.strFileName);
+		structFile.strFileHash = HashToString(pFile->GetFileHash());
+		structFile.dwSourceCount = pFile->GetSourceCount();
+		structFile.dwCompleteSourceCount = pFile->GetCompleteSourceCount();
+		structFile.qwFileSize = pFile->GetFileSize();
+		g_App.m_pFakeCheck->GetFakeComment(structFile.strFileHash, structFile.qwFileSize, &structFile.strFakeCheck);
+		structFile.dwSrvRating = pFile->GetSrvFileRating();
+		if (structFile.dwSrvRating >= ARRSIZE(s_apcRatingFile))
+			structFile.dwSrvRating = 0;
+
+		switch (iSortBy)
+		{
+			case WS_SLCOL_FILENAME:
+			default:
+				structFile.strIndex = structFile.strFileName;
+				break;
+			case WS_SLCOL_SIZE:
+				structFile.strIndex.Format(_T("%13I64u"), structFile.qwFileSize);
+				break;
+			case WS_SLCOL_HASH:
+				structFile.strIndex = structFile.strFileHash;
+				break;
+			case WS_SLCOL_SOURCES:
+				structFile.strIndex.Format(_T("%09u"), structFile.dwSourceCount);
+				break;
+			case WS_SLCOL_FAKECHECK:
+				structFile.strIndex = structFile.strFakeCheck;
+				break;
+			case WS_SLCOL_TYPE:
+				structFile.strIndex = structFile.pcFileType;
+				break;
+			case WS_SLCOL_RATING:
+				structFile.strIndex.Format(_T("%u"), structFile.dwSrvRating);
+				break;
+		}
+		SearchFileArray.Add(structFile);
+	}
+
+	SearchFileArray.QuickSort(bAscending);
+
+#ifdef _DEBUG
+	DWORD dwEnd = ::GetTickCount();
+	dwSortTime = dwEnd - dwStart;
+#endif
+
+	byte	abyteFileHash[16];
+	uchar	nRed, nGreen, nBlue;
+	CKnownFile	*pSameFile;
+	const TCHAR	*pcOverlayImage;
+	CString strColorPrefix;
+	CString strColorSuffix = _T("</font>");
+	CString strSources;
+	CString strFilename;
+	CString strTemp2;
+	CString strOutput;
+
+	pFData = SearchFileArray.GetData();
+	for (int i = 0; i < SearchFileArray.GetCount(); i++)
+	{
+		nRed = nGreen = nBlue = 255;
+
+		if ((pSameFile = g_App.m_pSharedFilesList->GetFileByID(StringToHash(pFData[i].strFileHash, abyteFileHash))) == NULL)
+			pSameFile = g_App.m_pDownloadQueue->GetFileByID(abyteFileHash);
+
+		if (pSameFile == NULL)
+			pcOverlayImage = _T("none");
+		else
+		{
+			if (pSameFile->IsPartFile())
+			{
+				pcOverlayImage = _T("jumpstart");
+				nBlue = 0;
+				nRed = 0;
+			}
+			else
+			{
+				pcOverlayImage = _T("release");
+				nBlue = 0;
+			}
+		}
+		strColorPrefix.Format(_T("<font color=\"#%02x%02x%02x\">"), nRed, nGreen, nBlue);
+
+		strSources.Format(_T("%u(%u)"), pFData[i].dwSourceCount, pFData[i].dwCompleteSourceCount);
+		strFilename = pFData[i].strFileName;
+		strFilename.Replace(_T("'"),_T("\\'"));
+
+		strTemp2.Format(_T("ed2k://|file|%s|%I64u|%s|/"),
+			strFilename, pFData[i].qwFileSize, pFData[i].strFileHash);
+
+		strOutput.AppendFormat( strLinePattern,
+			pFData[i].pcFileType, strTemp2, pcOverlayImage,
+			reinterpret_cast<const TCHAR*>(&s_apcRatingFile[pFData[i].dwSrvRating]),
+			(bShowColumn1) ? strColorPrefix + StringLimit(pFData[i].strFileName, 70) + strColorSuffix : _T(""),
+			(bShowColumn2) ? strColorPrefix + CastItoXBytes(pFData[i].qwFileSize) + strColorSuffix : _T(""),
+			(bShowColumn3) ? strColorPrefix + pFData[i].strFileHash + strColorSuffix : _T(""),
+			(bShowColumn4) ? strColorPrefix + strSources + strColorSuffix : _T(""),
+			(bShowColumn5) ? strColorPrefix + pFData[i].strFakeCheck + strColorSuffix : _T(""),
+			pFData[i].strFileHash );
+	}
+
+#ifdef _DEBUG
+	g_App.m_pMDlg->AddLogLine(LOG_FL_DBG, _T("WebServer: Searchlist with %u elements sorted in %u ms, output generated in %u ms"), SearchFileArray.GetSize(), dwSortTime, ::GetTickCount() - dwEnd);
+#endif
+
+	return strOutput;
+
+	EMULE_CATCH
+	return _T("");
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CSearchList::AddFileToDownloadByHash(uchar* hash,EnumCategories eCatID)
+{
+	EMULE_TRY
+
+	CSearchFile		*pSearchFile;
+
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; )
+	{
+		pSearchFile = list.GetNext(pos);
+		if (!md4cmp(hash,pSearchFile->GetFileHash()))
+		{
+			g_App.m_pDownloadQueue->AddSearchToDownload(pSearchFile, eCatID, g_App.m_pPrefs->StartDownloadPaused());
+			break;
+		}
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CSearchFile* CSearchList::DetachNextFile(uint32 nSearchID)
+{
+// mobilemule
+	EMULE_TRY
+	// the files are NOT deleted, make sure you do this if you call this function
+	// find, removes and returns the searchresult with most Sources
+	uint32			nHighSource = 0;
+	POSITION		resultpos = 0;
+	CSearchFile	   *pSearchFile;
+
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; )
+	{
+		pSearchFile = list.GetNext(pos);
+		if (pSearchFile->GetSearchID() == nSearchID)
+		{
+			if (pSearchFile->GetIntTagValue(FT_SOURCES) > nHighSource)
+			{
+				nHighSource = pSearchFile->GetIntTagValue(FT_SOURCES);
+				resultpos = pos;
+			}
+		}
+	}
+	if (resultpos == NULL)
+	{
+		ASSERT ( false );
+		return NULL;
+	}
+	CSearchFile* result = list.GetAt(resultpos);
+	list.RemoveAt(resultpos);
+	return result;
+	EMULE_CATCH
+	return NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.127
+log
+@Dropped some rare bad sources received with search results (from original).
+@
+text
+@d154 1
+a154 1
+	if ((m_dwClientID || m_uClientPort)
+@
+
+
+1.126
+log
+@Show media information in the search results received from consecutive servers (before media information was shown only when the server provided file information was attaching it; media information wasn't added to the list even when next server sent it for the same file).
+@
+text
+@d154 8
+@
+
+
+1.125
+log
+@Ability to add LowID sources with a file from search list results (before if a local server was providing LowID source with search result they were not used).
+@
+text
+@d441 41
+d748 3
+@
+
+
+1.124
+log
+@Ability to add known LowID source through remote client shared files list; Fast byte swap for ntohl and ntohs.
+@
+text
+@d30 1
+d145 1
+a145 1
+CSearchFile::CSearchFile(CFile &in_stream, ECodingFormat eCF, uint32 dwSearchID, CUpDownClient *pClient, LPCTSTR pszDirectory)
+d255 2
+a256 2
+		m_nClientServerIP = 0;
+		m_nClientServerPort = 0;
+d535 1
+a535 1
+uint16 CSearchList::ProcessSearchAnswer(char *pPacketBuffer, uint32 dwSize, ECodingFormat eCF, bool* pbIsMoreResultsAvailable)
+d550 1
+a550 1
+		CSearchFile	*pSearchFile = new CSearchFile(packetStream, eCF, m_dwCurrentSearchCount);
+d602 1
+a602 1
+		CSearchFile		*pSearchFile = new CSearchFile(packetStream, pClient->GetStrCodingFormat(), dwMySearchID, pClient, pszDirectory);
+d629 1
+a629 1
+uint16 CSearchList::ProcessUDPSearchAnswer(CMemFile &pckStream, ECodingFormat eCF)
+d631 1
+a631 1
+	CSearchFile	   *toadd = new CSearchFile(pckStream, eCF, m_dwCurrentSearchCount);
+@
+
+
+1.123
+log
+@Fix uninitialized member variable.
+@
+text
+@d248 1
+d253 1
+a253 1
+		m_dwClientIDHybrid = (IsLowID(m_dwClientID)) ? m_dwClientID : ntohl(m_dwClientID);
+d256 1
+@
+
+
+1.122
+log
+@Simplified logging system implementation.
+@
+text
+@d445 1
+@
+
+
+1.121
+log
+@Reduced H-file dependency.
+@
+text
+@d216 1
+a216 1
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Search file size larger than supported %#I64x '%s'"), qwFileSz, strFileName);
+d861 1
+a861 1
+	g_App.m_pMDlg->AddDebugLogLine(_T("WebServer: Searchlist with %u elements sorted in %u ms, output generated in %u ms"), SearchFileArray.GetSize(), dwSortTime, ::GetTickCount()-dwEnd);
+@
+
+
+1.120
+log
+@Reduced H-file dependency.
+@
+text
+@d29 1
+@
+
+
+1.119
+log
+@Added static for some local functions.
+@
+text
+@d19 1
+@
+
+
+1.118
+log
+@Tag array was moved to abstract class to unify processing; Reduced H-file dependency.
+@
+text
+@d50 1
+a50 1
+void ConvertED2KTag(CTag **ppTag)
+@
+
+
+1.117
+log
+@added Unicode support for server search
+@
+text
+@d20 3
+a261 2
+	for (int i = 0; i < m_tagArray.GetSize(); i++)
+		safe_delete(m_tagArray[i]);
+@
+
+
+1.116
+log
+@1) renamed GetFakeCheckComment() into GetFakeComment()
+2) GetFakeComment() returns the string over parameter
+3) removed LastHit interface
+@
+text
+@d139 1
+a139 1
+CSearchFile::CSearchFile(CFile &in_stream,uint32 dwSearchID,CUpDownClient *pClient,LPCTSTR pszDirectory)
+d160 1
+a160 1
+			pTag->FillFromStream(in_stream);
+d528 1
+a528 1
+uint16 CSearchList::ProcessSearchAnswer(char *pPacketBuffer, uint32 dwSize, bool* pbIsMoreResultsAvailable)
+d543 1
+a543 1
+		CSearchFile	*pSearchFile = new CSearchFile(packetStream, m_dwCurrentSearchCount);
+d595 1
+a595 1
+		CSearchFile		*pSearchFile = new CSearchFile(packetStream, dwMySearchID, pClient, pszDirectory);
+d622 1
+a622 1
+uint16 CSearchList::ProcessUDPSearchAnswer(CMemFile &pckStream)
+d624 1
+a624 1
+	CSearchFile	   *toadd = new CSearchFile(pckStream, m_dwCurrentSearchCount);
+@
+
+
+1.115
+log
+@Suppressed compiler warnings.
+@
+text
+@d762 1
+a762 1
+		structFile.strFakeCheck = g_App.m_pFakeCheck->GetFakeCheckComment(structFile.strFileHash, structFile.qwFileSize);
+@
+
+
+1.114
+log
+@Preserve WebServer list statuses between restarts [Aw3];
+Fixed WebServer sorting by size in the search list (introduced by large file support) [Aw3].
+@
+text
+@d309 1
+a309 1
+void CSearchFile::SetIntTagValue(EnumFileTags tagname, uint32 dwVal)
+d516 1
+a516 1
+void CSearchList::NewSearch(CSearchListCtrl *in_wnd, const CString &strTypes, uint16 nSearchID, bool MobilMuleSearch)
+d522 1
+a522 1
+	m_dwCurrentSearchCount = nSearchID;
+d525 1
+a525 1
+	foundFilesCount.SetAt(nSearchID, 0);
+d593 1
+a593 1
+	for (int i = 0; i != dwNumResults; i++)
+@
+
+
+1.113
+log
+@Reduced #include dependency.
+@
+text
+@d764 1
+a764 1
+		if (structFile.dwSrvRating >= ELEMENT_COUNT(s_apcRatingFile))
+d769 1
+a769 1
+			case 0:
+d773 2
+a774 2
+			case 1:
+				structFile.strIndex.Format(_T("%I64u"), structFile.qwFileSize);
+d776 1
+a776 1
+			case 2:
+d779 1
+a779 1
+			case 3:
+d782 1
+a782 1
+			case 4:
+d785 1
+a785 1
+			case 5:
+d788 1
+a788 1
+			case 6:
+@
+
+
+1.112
+log
+@WebServer: show overall file rating provided by servers in the search list;
+Speeded up preparation of the search list.
+@
+text
+@d25 1
+@
+
+
+1.111
+log
+@Newly added stuff was renamed according to the original for easier reference;
+Removed unused code; Formatting.
+@
+text
+@d730 9
+d745 1
+a745 1
+	SearchFileStruct structFile;
+d748 1
+a748 1
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; )
+d762 3
+d769 1
+d787 3
+a789 2
+			default:
+				structFile.strIndex.Empty();
+d804 1
+a804 1
+	const TCHAR	*pcOverlayImage, *pcSourcesImage;
+d812 2
+a813 1
+	for (uint16 i = 0; i < SearchFileArray.GetCount(); ++i)
+a814 1
+		structFile = SearchFileArray.GetAt(i);
+d817 1
+a817 1
+		if ((pSameFile = g_App.m_pSharedFilesList->GetFileByID(StringToHash(structFile.strFileHash, abyteFileHash))) == NULL)
+d838 2
+a839 13
+		if (structFile.dwSourceCount < 5)
+			pcSourcesImage = _T("0");
+		else if (structFile.dwSourceCount > 4 && structFile.dwSourceCount < 10)
+			pcSourcesImage = _T("5");
+		else if (structFile.dwSourceCount > 9 && structFile.dwSourceCount < 25)
+			pcSourcesImage = _T("10");
+		else if (structFile.dwSourceCount > 24 && structFile.dwSourceCount < 50)
+			pcSourcesImage = _T("25");
+		else
+			pcSourcesImage = _T("50");
+
+		strSources.Format(_T("%u(%u)"), structFile.dwSourceCount, structFile.dwCompleteSourceCount);
+		strFilename = structFile.strFileName;
+d843 1
+a843 1
+			strFilename, structFile.qwFileSize, structFile.strFileHash);
+d846 5
+a850 5
+			pcSourcesImage, strTemp2, pcOverlayImage,
+			structFile.pcFileType,
+			(bShowColumn1) ? strColorPrefix + StringLimit(structFile.strFileName,70) + strColorSuffix : _T(""),
+			(bShowColumn2) ? strColorPrefix + CastItoXBytes(structFile.qwFileSize) + strColorSuffix : _T(""),
+			(bShowColumn3) ? strColorPrefix + structFile.strFileHash + strColorSuffix : _T(""),
+d852 2
+a853 2
+			(bShowColumn5) ? strColorPrefix + structFile.strFakeCheck + strColorSuffix : _T(""),
+			structFile.strFileHash );
+@
+
+
+1.110
+log
+@1) updated source exchange protocol to ver.3
+2) support of HighID clients with IP "x.x.x.0"  (see description in updownclient.h)
+3) removed dublicated ip check for LowID clients in TryToConnect()
+4) fixed a client name change by download start from remote client shared file list.
+5) some formating
+@
+text
+@d21 1
+d147 1
+a147 1
+	
+d237 1
+a237 1
+		m_dwClientHybridID = pClient->GetHybridUserID();
+d246 1
+a246 6
+
+		if (IsLowID(m_dwClientID))
+			m_dwClientHybridID = m_dwClientID;
+		else 
+			m_dwClientHybridID = ntohl(m_dwClientID);
+
+a516 1
+	EMULE_TRY
+d524 1
+a524 3
+	foundFilesCount.SetAt(nSearchID,0);
+	foundSourcesCount.SetAt(nSearchID,0);
+	EMULE_CATCH
+a698 2
+			AddResultCount(pSearchFile->GetSearchID(), pAddedFile->GetFileHash(), dwAvailableSources);
+
+d711 1
+a711 3
+		uint16 tempValue;
+		foundFilesCount.Lookup(pAddedFile->GetSearchID(), tempValue);
+		foundFilesCount.SetAt(pAddedFile->GetSearchID(), tempValue + 1);
+d713 2
+a714 1
+		AddResultCount(pAddedFile->GetSearchID(), pAddedFile->GetFileHash(), pAddedFile->GetIntTagValue(FT_SOURCES));
+a725 29
+void CSearchList::AddResultCount(uint32 dwSearchID, const uchar* hash, uint32 dwCount)
+{
+	//	Do not count already available or downloading files for the search result limit
+	if ( g_App.m_pDownloadQueue->GetFileByID(hash) == NULL
+		&& g_App.m_pSharedFilesList->GetFileByID(hash) == NULL )
+	{
+		uint16	uOldSourcesCount = 0;
+
+		foundSourcesCount.Lookup(dwSearchID,uOldSourcesCount);
+		foundSourcesCount.SetAt(dwSearchID,uOldSourcesCount + dwCount);
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint16 CSearchList::GetResultCount(uint32 dwSearchID)
+{
+	uint16	uSourcesCount = 0;
+	EMULE_TRY
+
+	VERIFY( foundSourcesCount.Lookup(dwSearchID, uSourcesCount) );
+
+	EMULE_CATCH
+	return uSourcesCount;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint16 CSearchList::GetResultCount()
+{
+	return GetResultCount(m_dwCurrentSearchCount);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.109
+log
+@Added 64bit tag support.
+@
+text
+@d144 3
+a146 3
+	in_stream.Read(&m_dwClientIP, 4);		// <clientip 4>
+	in_stream.Read(&clientport, 2);			// <clientport 2>
+
+d225 1
+a225 1
+	if (pClient)
+d227 5
+a231 5
+		// To be capable of adding the client from which we got that search result
+		// as a source, we have to explicitly store that client's data in the search result.
+		// NOTE: Do *NOT* store the 'pClient' ptr here! At the time when using the 'toadd'
+		// struct, the 'pClient' may have been deleted (just if the user has waited too long before
+		// using one of the client's search results) -> Crash!
+d234 4
+a237 4
+		// Explicitly overwrite the already available client's IP, Port with the already validated UserID and Port.
+		// So, we have proper (low)UserID+Server pair.
+		m_dwClientIP = pClient->GetUserID();
+		clientport = pClient->GetUserPort();
+d245 6
+@
+
+
+1.108
+log
+@Large file size support preparations; Some general optimization.
+@
+text
+@d299 2
+a300 5
+#if _LARGEFILE_READY
+#else
+		if ((pTag->GetTagID() == tagname) && pTag->IsInt())
+			return pTag->GetIntValue();
+#endif
+@
+
+
+1.107
+log
+@Large file size support preparations.
+@
+text
+@d147 1
+a147 1
+	uint32		dwTagCnt;
+d203 10
+a212 1
+	SetFileSize(GetIntTagValue(FT_FILESIZE));
+d292 17
+d647 1
+a647 1
+		|| (!(pAddedFile->GetIntTagValue(FT_FILESIZE)) || pAddedFile->GetFileName().IsEmpty()) )
+@
+
+
+1.106
+log
+@Unified packet buffer type.
+@
+text
+@d574 6
+@
+
+
+1.105
+log
+@Large file size support preparations.
+@
+text
+@d552 1
+a552 1
+void CSearchList::ProcessSharedFileListAnswer(char *pPacketBuffer, uint32 dwSize, CUpDownClient *pClient, LPCTSTR pszDirectory, bool bFirstDir)
+d556 1
+a556 1
+	CSafeMemFile	packetStream(reinterpret_cast<BYTE*>(pPacketBuffer), dwSize, 0);
+@
+
+
+1.104
+log
+@Better estimation (more accurate) of server rating voters.
+@
+text
+@d755 2
+a756 2
+		structFile.uFileSize = pFile->GetFileSize();
+		structFile.strFakeCheck = g_App.m_pFakeCheck->GetFakeCheckComment(structFile.strFileHash, structFile.uFileSize);
+d764 1
+a764 1
+				structFile.strIndex.Format(_T("%10u"), structFile.uFileSize);
+d843 2
+a844 2
+		strTemp2.Format(_T("ed2k://|file|%s|%u|%s|/"),
+			strFilename, structFile.uFileSize, structFile.strFileHash);
+d850 1
+a850 1
+			(bShowColumn2) ? strColorPrefix + CastItoXBytes(structFile.uFileSize) + strColorSuffix : _T(""),
+@
+
+
+1.103
+log
+@UNICODE preparations
+@
+text
+@d198 1
+a198 1
+		m_dwVoters = (m_dwVoters * GetIntTagValue(FT_SOURCES)) / 100;
+@
+
+
+1.102
+log
+@A fix for the case when rating wasn't sent by the first server.
+@
+text
+@d108 1
+a108 1
+						
+d509 1
+a509 1
+	if ( g_App.m_pMDlg->m_dlgSearch.IsLastSearchCanceled() && 
+d791 3
+a793 3
+	uchar aFileHash[16];
+	uchar nRed, nGreen, nBlue;
+	CKnownFile* sameFile;
+a805 1
+		DecodeBase16(structFile.strFileHash, 32, aFileHash, ARRSIZE(aFileHash));
+d807 2
+a808 3
+		sameFile = g_App.m_pSharedFilesList->GetFileByID(aFileHash);
+		if (sameFile == NULL)
+			sameFile = g_App.m_pDownloadQueue->GetFileByID(aFileHash);
+d810 1
+a810 1
+		if (sameFile == NULL)
+d814 1
+a814 1
+			if (sameFile->IsPartFile())
+@
+
+
+1.101
+log
+@Show overall file rating provided by servers in the search list; Reduced H-file dependency;
+Removed CLoggable based class (not much required here); Formatting.
+@
+text
+@d379 3
+a381 1
+		uint32	dwNewVoters = m_dwVoters + pAdd->m_dwVoters;
+d383 16
+a398 10
+	//	Estimate an overall rating for cases when several servers provided us with it
+	//	The value is not precise as we don't know exact number of voters
+		m_dSrvRating = ( m_dSrvRating * static_cast<double>(m_dwVoters) +
+			pAdd->m_dSrvRating * static_cast<double>(pAdd->m_dwVoters) ) / static_cast<double>(dwNewVoters);
+		m_dwVoters = dwNewVoters;
+	//	Make sure we still within the range
+		if (m_dSrvRating > 5.0)
+		{
+			m_dSrvRating = 5.0;
+			m_iSrvRating = 5;
+d400 1
+a400 1
+		else if ((m_iSrvRating = static_cast<int>(m_dSrvRating)) < 1)
+d402 3
+a404 2
+			m_dSrvRating = 1.0;
+			m_iSrvRating = 1;
+@
+
+
+1.100
+log
+@WebServer: faster preparation of the search page; Formatting.
+@
+text
+@d19 1
+d23 1
+d143 3
+a145 3
+	in_stream.Read(&m_fileHash,16);					// <filehash 16>
+	in_stream.Read(&m_dwClientIP,4);				// <clientip 4>
+	in_stream.Read(&clientport,2);					// <clientport 2>
+d166 2
+d169 1
+a169 4
+					uint32	dwPercentClientRated = (dwPackedRating >> 8) & 0xFF;
+				//	Average rating used by clients
+					uint32	dwAvgRating = dwPackedRating & 0xFF;
+
+d171 1
+d192 11
+d375 25
+a419 1
+	{
+a420 1
+	}
+d588 1
+a588 1
+	AddToList(toadd);
+d593 1
+a593 1
+bool CSearchList::AddToList(CSearchFile* pAddedFile, bool bClientResponse)
+d644 2
+a645 1
+		if ( (!md4cmp(pAddedFile->GetFileHash(),pSearchFile->GetFileHash())) && pSearchFile->GetSearchID() ==  pAddedFile->GetSearchID())
+d664 2
+d677 2
+a678 2
+		foundFilesCount.Lookup(pAddedFile->GetSearchID(),tempValue);
+		foundFilesCount.SetAt(pAddedFile->GetSearchID(),tempValue+1);
+d851 1
+a851 1
+	g_App.AddDebugLogLine(_T("WebServer: Searchlist with %u elements sorted in %u ms, output generated in %u ms"), SearchFileArray.GetSize(), dwSortTime, ::GetTickCount()-dwEnd);
+@
+
+
+1.99
+log
+@Show file rating received from the server in the search list.
+@
+text
+@d33 1
+a33 1
+	return (first.m_strIndex.CompareNoCase(second.m_strIndex) > 0);
+d38 1
+a38 1
+	return (first.m_strIndex.CompareNoCase(second.m_strIndex) < 0);
+d702 7
+a708 7
+		structFile.m_strFileName = pFile->GetFileName();
+		structFile.m_strFileType = GetFileTypeForWebServer(structFile.m_strFileName);
+		structFile.m_strFileHash = HashToString(pFile->GetFileHash());
+		structFile.m_uSourceCount = pFile->GetSourceCount();
+		structFile.m_dwCompleteSourceCount = pFile->GetCompleteSourceCount();
+		structFile.m_uFileSize = pFile->GetFileSize();
+		structFile.m_strFakeCheck = g_App.m_pFakeCheck->GetFakeCheckComment(structFile.m_strFileHash, structFile.m_uFileSize);
+d713 1
+a713 1
+				structFile.m_strIndex = structFile.m_strFileName;
+d716 1
+a716 1
+				structFile.m_strIndex.Format(_T("%10u"), structFile.m_uFileSize);
+d719 1
+a719 1
+				structFile.m_strIndex = structFile.m_strFileHash;
+d722 1
+a722 1
+				structFile.m_strIndex.Format(_T("%09u"), structFile.m_uSourceCount);
+d725 1
+a725 1
+				structFile.m_strIndex = structFile.m_strFakeCheck;
+d728 1
+a728 1
+				structFile.m_strIndex = structFile.m_strFileType;
+d731 1
+a731 1
+				structFile.m_strIndex.Empty();
+d746 1
+a746 2
+	CString strOverlayImage;
+	CString strSourcesImage;
+d758 1
+a758 1
+		DecodeBase16(structFile.m_strFileHash, 32, aFileHash, ARRSIZE(aFileHash));
+d765 1
+a765 3
+		{
+			strOverlayImage = _T("none");
+		}
+d770 1
+a770 1
+				strOverlayImage = _T("jumpstart");
+d776 1
+a776 1
+				strOverlayImage = _T("release");
+d782 8
+a789 8
+		if (structFile.m_uSourceCount < 5)
+			strSourcesImage = _T("0");
+		else if (structFile.m_uSourceCount > 4 && structFile.m_uSourceCount < 10)
+			strSourcesImage = _T("5");
+		else if (structFile.m_uSourceCount > 9 && structFile.m_uSourceCount < 25)
+			strSourcesImage = _T("10");
+		else if (structFile.m_uSourceCount > 24 && structFile.m_uSourceCount < 50)
+			strSourcesImage = _T("25");
+d791 1
+a791 1
+			strSourcesImage = _T("50");
+d793 2
+a794 2
+		strSources.Format(_T("%u(%u)"), structFile.m_uSourceCount, structFile.m_dwCompleteSourceCount);
+		strFilename = structFile.m_strFileName;
+d798 1
+a798 1
+			strFilename, structFile.m_uFileSize, structFile.m_strFileHash);
+d801 5
+a805 5
+			strSourcesImage, strTemp2, strOverlayImage,
+			structFile.m_strFileType,
+			(bShowColumn1) ? strColorPrefix + StringLimit(structFile.m_strFileName,70) + strColorSuffix : _T(""),
+			(bShowColumn2) ? strColorPrefix + CastItoXBytes(structFile.m_uFileSize) + strColorSuffix : _T(""),
+			(bShowColumn3) ? strColorPrefix + structFile.m_strFileHash + strColorSuffix : _T(""),
+d807 2
+a808 2
+			(bShowColumn5) ? strColorPrefix + structFile.m_strFakeCheck + strColorSuffix : _T(""),
+			structFile.m_strFileHash );
+@
+
+
+1.98
+log
+@Reduced string processing overhead while preparing WS search list.
+@
+text
+@d140 1
+d160 15
+a174 1
+				m_tagArray.Add(pTag);
+d203 2
+a204 1
+	if (pClient){		//netwolf 20.05.03 enhanced source finding (bluecow)
+d225 1
+a225 1
+	}									// netwolf END
+@
+
+
+1.97
+log
+@WebServer: Fix missing quote chars around color value of font tags
+@
+text
+@d736 2
+a737 2
+	CString strTemp, strTemp2;
+	CString strOutput = _T("");
+d787 1
+a787 1
+		strTemp.Format(strLinePattern,
+d795 1
+a795 3
+			structFile.m_strFileHash
+			);
+		strOutput.Append(strTemp);
+@
+
+
+1.96
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d767 1
+a767 1
+		strColorPrefix.Format(_T("<font color=#%02x%02x%02x>"), nRed, nGreen, nBlue);
+@
+
+
+1.95
+log
+@renamed 3 variables
+@
+text
+@d564 1
+a564 1
+	sNotSearch += g_App.g_pPrefs->GetFilterWords();
+d822 1
+a822 1
+			g_App.m_pDownloadQueue->AddSearchToDownload(pSearchFile, eCatID, g_App.g_pPrefs->StartDownloadPaused());
+@
+
+
+1.94
+log
+@Don't discard UDP search results of the same packet when search limit is reached.
+@
+text
+@d421 1
+a421 1
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ctlSearchList.RemoveResult( todel );
+d448 2
+a449 2
+	if ( g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsLastSearchCanceled() && 
+		 !g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsMoreEnabled() )
+d466 1
+a466 1
+		g_eMuleApp.m_pMMServer->SearchFinished(false);
+d504 2
+a505 2
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.DeleteSearch(dwMySearchID);
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.CreateNewTab(pClient->GetUserName(), dwMySearchID);
+d518 1
+a518 1
+		g_eMuleApp.m_pMMServer->SearchFinished(false);
+d528 2
+a529 2
+	return ( !g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsLastSearchCanceled() ||
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsMoreEnabled() );
+d552 1
+a552 1
+		|| ( g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsDocumentSearch(pAddedFile->GetSearchID())
+d560 1
+a560 1
+	CString	sNotSearch = g_eMuleApp.m_pdlgEmule->m_dlgSearch.GetNotSearch(pAddedFile->GetSearchID());
+d564 1
+a564 1
+	sNotSearch += g_eMuleApp.m_pGlobPrefs->GetFilterWords();
+d640 2
+a641 2
+	if ( g_eMuleApp.m_pDownloadQueue->GetFileByID(hash) == NULL
+		&& g_eMuleApp.m_pSharedFilesList->GetFileByID(hash) == NULL )
+d692 1
+a692 1
+		structFile.m_strFakeCheck = g_eMuleApp.m_pFakeCheck->GetFakeCheckComment(structFile.m_strFileHash, structFile.m_uFileSize);
+d745 1
+a745 1
+		sameFile = g_eMuleApp.m_pSharedFilesList->GetFileByID(aFileHash);
+d747 1
+a747 1
+			sameFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(aFileHash);
+d801 1
+a801 1
+	g_eMuleApp.AddDebugLogLine(_T("WebServer: Searchlist with %u elements sorted in %u ms, output generated in %u ms"), SearchFileArray.GetSize(), dwSortTime, ::GetTickCount()-dwEnd);
+d822 1
+a822 1
+			g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(pSearchFile, eCatID, g_eMuleApp.m_pGlobPrefs->StartDownloadPaused());
+@
+
+
+1.93
+log
+@More objective limiting of search results; Removed unrequired stream closures.
+@
+text
+@d526 6
+a533 4
+	if ( g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsLastSearchCanceled() && 
+		 !g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsMoreEnabled() )
+		return 0;
+
+@
+
+
+1.92
+log
+@Improved string processing.
+@
+text
+@d452 2
+a453 1
+	CSafeMemFile		packetStream(reinterpret_cast<BYTE*>(pPacketBuffer),dwSize,0);
+d455 1
+a455 2
+	uint32		dwNumResults;
+	packetStream.Read(&dwNumResults,4);		// <numresults 4>
+d459 1
+a459 1
+		CSearchFile		*pSearchFile = new CSearchFile(packetStream, m_dwCurrentSearchCount);
+a485 2
+	packetStream.Close();
+
+d488 1
+a488 1
+	return GetResultCount();
+d495 2
+a496 3
+	CSafeMemFile		packetStream(reinterpret_cast<BYTE*>(pPacketBuffer),dwSize,0);
+
+	uint32				dwNumResults;
+d498 1
+a498 1
+	packetStream.Read(&dwNumResults,4);		// <numresults 4>
+d500 1
+a500 1
+	uint32				dwMySearchID = reinterpret_cast<uint32>(pClient);
+a521 1
+	packetStream.Close();
+d536 1
+a536 1
+	return GetResultCount();
+@
+
+
+1.91
+log
+@Separate GetFileTypeString for search type.
+@
+text
+@d429 1
+a429 1
+void CSearchList::NewSearch(CSearchListCtrl* in_wnd, CString resTypes, uint16 nSearchID, bool MobilMuleSearch)
+d435 1
+a435 1
+	m_strResultType = resTypes;
+@
+
+
+1.90
+log
+@Slightly cleaned a mess of including one H-file into another.
+@
+text
+@a462 1
+#ifdef OLD_SOCKETS_ENABLED
+d465 1
+d467 2
+a469 2
+#endif OLD_SOCKETS_ENABLED
+	m_bMobilMuleSearch = false;
+d547 1
+a547 1
+	CString		thisType = pAddedFile->GetFileTypeString(true);
+@
+
+
+1.89
+log
+@Corrections and optimization for local exception filter.
+@
+text
+@d21 1
+@
+
+
+1.88
+log
+@happyslinky's changes to search
+@
+text
+@d563 3
+a565 7
+	//
+	// combine words from filter list and except box and exclude any searches
+	// with those words in the file name
+	//
+	
+	sNotSearch += _T(" ") + g_eMuleApp.m_pGlobPrefs->GetFilterWords();
+	sNotSearch.Trim();
+d569 2
+a570 1
+		CString	sFileName = pAddedFile->GetFileName();
+d572 1
+a572 1
+		sFileName.MakeLower();
+d574 1
+a574 4
+		int iNotSearchPos = 0;
+		CString strNotSearchWord = sNotSearch.Tokenize( _T(" "), iNotSearchPos );
+
+		while ( !strNotSearchWord.IsEmpty() )
+d576 4
+a579 1
+			if (sFileName.Find(strNotSearchWord) != -1)
+a583 2
+
+			strNotSearchWord = sNotSearch.Tokenize( _T(" "), iNotSearchPos );
+a584 1
+
+@
+
+
+1.87
+log
+@Show media information (length, bitrate and codec) for search results.
+@
+text
+@d563 8
+d576 5
+a580 1
+		if (sFileName.Find(sNotSearch) != -1)
+d582 7
+a588 2
+			delete pAddedFile;
+			return false;
+d590 1
+@
+
+
+1.86
+log
+@Added support for extended UDP server protocol to get multiple file search results in one UDP packet.
+@
+text
+@d41 92
+d155 6
+a160 2
+			m_tagArray.Add(pTag);
+			pTag = NULL;
+@
+
+
+1.85
+log
+@Removed unrequired array operations; Added tag type checks.
+@
+text
+@d433 1
+a433 1
+uint16 CSearchList::ProcessUDPSearchAnswer(byte* pbytePacketBuf, uint32 size)
+a434 2
+	EMULE_TRY
+
+d439 1
+a439 2
+	CSafeMemFile	packet(pbytePacketBuf,size,0);
+	CSearchFile	   *toadd = new CSearchFile(packet, m_dwCurrentSearchCount);
+a441 1
+	packet.Close();
+a442 1
+	EMULE_CATCH
+d545 1
+a546 1
+	uint16	uSourcesCount = 0;
+d550 1
+a551 2
+	EMULE_CATCH
+	return 0;
+@
+
+
+1.84
+log
+@Preparations and minor corrections for new tag processing.
+@
+text
+@d18 1
+a18 1
+#include "StdAfx.h"
+d51 1
+a51 1
+	uint32		tagcount;
+d53 4
+a56 2
+	in_stream.Read(&tagcount,4);					// <tagcount 4>
+	for (int i = 0;i != tagcount; i++)
+d58 3
+a60 1
+		CFileTag		*pFileTag = new CFileTag(in_stream);	// (tag) * tagcount
+d62 9
+a70 1
+		m_tagArray.Add(pFileTag);
+d121 1
+a121 2
+	EMULE_TRY
+	for (int i = 0; i < m_tagArray.GetSize();i++)
+a122 3
+	m_tagArray.RemoveAll();
+	m_tagArray.SetSize(0);
+	EMULE_CATCH
+d128 6
+a133 3
+	for (int i = 0; i < m_tagArray.GetSize(); i++){
+		if (m_tagArray[i]->GetTagID() == tagname)
+			return m_tagArray[i]->GetIntValue();
+d145 3
+a147 1
+		if (m_tagArray[i]->GetTagID() == tagname)
+d149 1
+a149 1
+			*pdwOut = m_tagArray[i]->GetIntValue();
+d163 3
+a165 1
+		if (m_tagArray[i]->GetTagID() == tagname)
+d167 1
+a167 1
+			m_tagArray[i]->SetIntValue(dwVal);
+d172 1
+a172 1
+	CFileTag*	pTag = new CFileTag(tagname, dwVal);
+d181 6
+a186 3
+	for (int i = 0; i < m_tagArray.GetSize(); i++){
+		if (m_tagArray[i]->GetTagID() == tagname)
+			return m_tagArray[i]->GetStringValue();
+d197 3
+a199 1
+		if (m_tagArray[i]->GetTagID() == tagname)
+d201 1
+a201 1
+			m_tagArray[i]->SetIntValue(m_tagArray[i]->GetIntValue() + dwInc);
+d213 3
+a215 1
+		if (m_tagArray[i]->GetTagID() == FT_COMPLETE_SOURCES)
+d217 1
+a217 1
+			m_tagArray[i]->SetIntValue(m_tagArray[i]->GetIntValue() + in_dwCount);
+d222 1
+a222 1
+	CFileTag*	pTag = new CFileTag(FT_COMPLETE_SOURCES, in_dwCount);
+d233 3
+a235 1
+		if (m_tagArray[i]->GetTagID() == FT_LASTSEENCOMPLETE)
+d237 2
+a238 2
+			if (dwSeconds < m_tagArray[i]->GetIntValue())
+				m_tagArray[i]->SetIntValue(dwSeconds);
+d243 1
+a243 1
+	CFileTag*	pTag = new CFileTag(FT_LASTSEENCOMPLETE, dwSeconds);
+d582 1
+a582 1
+		if (pFile == NULL || pFile->GetFileSize() == 0 || pFile->GetFileName().IsEmpty())
+@
+
+
+1.83
+log
+@Updated strings
+@
+text
+@d121 1
+a121 1
+		if (m_tagArray[i]->GetSpecialTag() == tagname)
+d134 1
+a134 1
+		if (m_tagArray[i]->GetSpecialTag() == tagname)
+d150 1
+a150 1
+		if (m_tagArray[i]->GetSpecialTag() == tagname)
+d167 1
+a167 1
+		if (m_tagArray[i]->GetSpecialTag() == tagname)
+d179 1
+a179 1
+		if (m_tagArray[i]->GetSpecialTag() == tagname)
+d193 1
+a193 1
+		if (m_tagArray[i]->GetSpecialTag() == FT_COMPLETE_SOURCES)
+d211 1
+a211 1
+		if (m_tagArray[i]->GetSpecialTag() == FT_LASTSEENCOMPLETE)
+@
+
+
+1.82
+log
+@Changed color from ERROR to WARNING
+@
+text
+@d575 1
+a575 1
+				structFile.m_strIndex.Format(_T("%09u"), structFile.m_uFileSize);
+@
+
+
+1.81
+log
+@Changes to last features
+@
+text
+@d519 1
+a519 1
+//		VERIFY( foundSourcesCount.Lookup(dwSearchID,uOldSourcesCount) );
+@
+
+
+1.80
+log
+@WebServer: faster way to detect file type as well as more file extentions added
+(thanks eklmn for idea);
+WebServer: some file types were incorrectly represented in the lists;
+Removed unused variable; Improved string processing.
+@
+text
+@d519 1
+a519 1
+		VERIFY( foundSourcesCount.Lookup(dwSearchID,uOldSourcesCount) );
+@
+
+
+1.79
+log
+@Last Seen Complete was added to search results;
+WebServer: show sources for a file smaller than PARTSIZE as complete in search results.
+@
+text
+@d316 1
+a316 2
+	myHashList = _T("");
+    m_bMobilMuleSearch = MobilMuleSearch;
+d541 1
+a541 1
+CString CSearchList::GetWebList(CString strLinePattern, int iSortBy, bool bAscending, bool bShowColumn1, bool bShowColumn2, bool bShowColumn3, bool bShowColumn4, bool bShowColumn5) const
+d562 1
+a562 1
+		structFile.m_strFileType = GetFileType(structFile.m_strFileName.Right(4).MakeLower());
+a685 41
+CString CSearchList::GetFileType(CString strFileName) const
+{
+	TCHAR e[_MAX_EXT];
+	_tsplitpath(strFileName, NULL, NULL, NULL, e);
+	CString ext(_tcslwr(e));
+
+	CString strFileType;
+	if (ext==".bmp" || ext==".jpg" || ext==".jpeg" || ext==".gif" || ext==".png" || ext==".tga" ||
+		ext==".tif" || ext==".xif" || ext==".tiff" || ext==".psd" || ext==".psp" || ext==".pcx" ||
+		ext==".dcx" || ext==".pic" || ext==".pict" || ext==".pct" || ext==".wmf" || ext==".emf")
+		strFileType = "picture";
+	else if (ext==".ccd"|| ext==".sub" || ext==".cue" || ext==".bin" || ext==".iso" || ext==".nrg" ||
+		ext==".img" || ext==".bwa" || ext==".bwi" || ext==".bws" || ext==".bwt" || ext==".mds" ||
+		ext==".mdf")
+		strFileType = "cdimage";
+	else if (ext==".doc" || ext==".txt" || ext==".xls" || ext==".rtf" || ext==".nfo" ||
+		ext==".xml" || ext==".htm" || ext==".html" || ext==".ppt")
+		strFileType = "document";
+	else if (ext==".pdf")
+		strFileType = "adobe";
+	else if (ext==".exe" || ext==".msi" || ext==".com" || ext==".bat" || ext==".pif")
+		strFileType = "application";
+	else if (ext==".zip" || ext==".rar" || ext==".ace" || ext==".tar" || ext==".gz" || ext==".tgz" ||
+		ext==".arj" || ext==".lha" || ext==".uc2")
+		strFileType = "archive";
+	else if (ext==".avi" || ext==".divx" || ext==".ram" || ext==".rm" || ext==".rv" || ext==".ogm" ||
+		ext==".mpg" || ext==".mpeg" || ext==".mpv" || ext==".mps" || ext==".m1v" || ext==".m2v" ||
+		ext==".mpe" || ext==".mpa" || ext==".mp4" || ext==".vob" || ext==".mov" || ext==".asf" ||
+		ext==".wmv" || ext==".vivo" || ext==".rmvb" || ext==".xvid")
+		strFileType = "movie";
+	else if (ext==".mp1" || ext==".mp2" || ext==".mp3" || ext==".mp4"|| ext==".mpc" || ext==".mp+" || ext==".mpp" ||
+		ext==".mpga" || ext==".au" || ext==".aac" || ext==".ape" || ext==".ogg" || ext==".flac" ||
+		ext==".midi" || ext==".mid" || ext==".ra" || ext==".rmi" || ext==".aif" || ext==".aiff" ||
+		ext==".wav" || ext==".wma" || ext==".au")
+		strFileType = "music";
+	else
+		strFileType = "other";
+	return strFileType;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.78
+log
+@Improved string processing.
+@
+text
+@d68 11
+d128 35
+d174 1
+a174 1
+uint32 CSearchFile::AddSources(uint32 count)
+d179 1
+a179 1
+		if (m_tagArray[i]->GetSpecialTag() == FT_SOURCES)
+d181 2
+a182 2
+			m_tagArray[i]->SetIntValue(m_tagArray[i]->GetIntValue() + count);
+			return m_tagArray[i]->GetIntValue();
+a185 1
+	return 0;
+d188 1
+a188 1
+uint32 CSearchFile::AddCompleteSources(uint32 in_dwCount)
+d196 20
+a215 1
+			return m_tagArray[i]->GetIntValue();
+d218 3
+a220 4
+//	if tag was not found, add him
+	CFileTag*	pCompleteSourcesTag = new CFileTag(FT_COMPLETE_SOURCES, in_dwCount);
+	m_tagArray.Add(pCompleteSourcesTag);
+	return in_dwCount;
+a222 1
+	return 0;
+d252 1
+a252 1
+void CSearchList::RemoveResults( uint32 nSearchID)
+d273 1
+a273 1
+void CSearchList::ShowResults( uint32 nSearchID)
+d293 1
+a293 1
+void CSearchList::RemoveResults( CSearchFile* todel )
+d469 1
+a469 2
+			uint32	dwAvailableSources = pAddedFile->GetIntTagValue(FT_SOURCES);
+			uint32	dwAvailableCompleteSources = pAddedFile->GetIntTagValue(FT_COMPLETE_SOURCES);
+d471 7
+a477 1
+			if (pSearchFile->GetIntTagValue(FT_FILESIZE) <= PARTSIZE)
+d479 2
+a480 1
+				dwAvailableCompleteSources = dwAvailableSources;
+d483 1
+a483 2
+			pSearchFile->AddSources(dwAvailableSources);
+			pSearchFile->AddCompleteSources(dwAvailableCompleteSources);
+d487 1
+a487 1
+				m_pctlSearchList->UpdateSources(pSearchFile);
+@
+
+
+1.77
+log
+@WebServer: honors 'Start Downloads Paused' setting.
+@
+text
+@d326 1
+a326 1
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.CreateNewTab(CString(pClient->GetUserName()),dwMySearchID);
+@
+
+
+1.76
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d672 1
+a672 1
+			g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(pSearchFile,eCatID);
+@
+
+
+1.75
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d61 4
+a64 3
+	SetFileName(GetStrTagValue(FT_FILENAME));
+	if (m_strFileName.IsEmpty())
+		m_strFileName = _T("-");
+d370 1
+a370 1
+	CString		thisType = pAddedFile->GetFileType(true);
+@
+
+
+1.74
+log
+@Moved FinSharedFiles to a timer to fix issues with hashing hung on start
+Fixed Search buttons activation issues and More not working
+@
+text
+@d609 1
+a609 1
+	g_eMuleApp.AddDebugLogLine(false, _T("WebServer: Searchlist with %u elements sorted in %u ms, output generated in %u ms"), SearchFileArray.GetSize(), dwSortTime, ::GetTickCount()-dwEnd);
+@
+
+
+1.73
+log
+@Minor fixes
+@
+text
+@d265 2
+a266 1
+	if (g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsLastSearchCanceled())
+d351 2
+a352 1
+	if (g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsLastSearchCanceled())
+@
+
+
+1.72
+log
+@fix for searches added to no tab
+updated the previous "Only one Search at a time can be done now" fix by EC to handle a return in one of the search edit control
+@
+text
+@a312 2
+	ASSERT(pClient == NULL);
+
+@
+
+
+1.71
+log
+@always show files smaller than or equal to a PARTSIZE as complete in search results
+@
+text
+@d265 3
+d352 3
+a368 2
+//	Cax2 bugfix: now searching for programs shows archives, TODO searching for users shows anything...
+
+d386 1
+a386 1
+	if(!sNotSearch.IsEmpty())
+d391 1
+a391 1
+		if(sFileName.Find(sNotSearch) != -1)
+d436 1
+d438 1
+d440 1
+d447 2
+a448 2
+	if ( g_eMuleApp.m_pDownloadQueue->GetFileByID(hash) != NULL
+		|| g_eMuleApp.m_pSharedFilesList->GetFileByID(hash) != NULL )
+d450 4
+a453 1
+		return;
+a454 5
+
+	uint16	uOldSourcesCount = 0;
+
+	VERIFY( foundSourcesCount.Lookup(dwSearchID,uOldSourcesCount) );
+	foundSourcesCount.SetAt(dwSearchID,uOldSourcesCount + dwCount);
+@
+
+
+1.70
+log
+@fixed security exploit in IRC module and Web server (from official) [katsyonak]
+@
+text
+@d405 5
+@
+
+
+1.69
+log
+@replaced  pos != 0 to pos != NULL
+@
+text
+@d541 1
+a541 1
+		DecodeBase16(structFile.m_strFileHash, 32, aFileHash);
+@
+
+
+1.68
+log
+@feature: show number of complete files by search (untested)
+@
+text
+@d656 1
+a656 1
+	for (POSITION pos = list.GetHeadPosition(); pos != 0; )
+@
+
+
+1.67
+log
+@"SLUGFILLER:SafeHash" partialy replaced by code, that produce minimal lock & more rubust
+@
+text
+@d130 2
+a131 1
+	for (int i = 0; i < m_tagArray.GetSize(); i++){
+d142 1
+a142 1
+uint32 CSearchFile::GetSourceCount()
+d144 16
+a159 1
+	return GetIntTagValue(FT_SOURCES);
+d402 2
+a403 1
+			uint32	dwAvail = pAddedFile->GetIntTagValue(FT_SOURCES);
+d405 3
+a407 2
+			pSearchFile->AddSources(dwAvail);
+			AddResultCount(pSearchFile->GetSearchID(), pAddedFile->GetFileHash(), dwAvail);
+d488 1
+d578 1
+a578 1
+		strSources.Format(_T("%u"), structFile.m_uSourceCount);
+@
+
+
+1.66
+log
+@name changes
+@
+text
+@d65 1
+a65 1
+	m_lFileSize = GetIntTagValue(FT_FILESIZE);
+@
+
+
+1.65
+log
+@fix for boggus search result counter (thanks to DonGato for pointing out)
+@
+text
+@d89 2
+a90 1
+	m_strDirectory= pszDirectory ? pszDirectory : _T("");
+@
+
+
+1.64
+log
+@WebServer: fixed search list ED2K link for file size > 2 Gb;
+Improved string processing.
+@
+text
+@d240 1
+a252 2
+	foundFilesCount.SetAt(m_dwCurrentSearchCount,0);
+
+@
+
+
+1.63
+log
+@removed debugging informations
+@
+text
+@a512 2
+	CString strColor;
+	CString strSize;
+d515 1
+a515 1
+	CString strTemp;
+d546 1
+a546 5
+		strColor = _T("#");
+		strColor.AppendFormat(_T("%02x"), nRed);
+		strColor.AppendFormat(_T("%02x"), nGreen);
+		strColor.AppendFormat(_T("%02x"), nBlue);
+		strColorPrefix = _T("<font color=") + strColor + _T(">");
+d559 1
+a559 2
+		strSize.Format(_T("%d"), structFile.m_uFileSize);
+		strSources.Format(_T("%d"), structFile.m_uSourceCount);
+d563 3
+d567 1
+a567 3
+			strSourcesImage,
+			_T("ed2k://|file|") + strFilename + _T("|") + strSize + _T("|") + structFile.m_strFileHash + _T("|/"),
+			strOverlayImage,
+@
+
+
+1.62
+log
+@removed old search code + some fix and changes
+@
+text
+@a275 1
+			AddDebugLogLine(false, RGB_LOG_ERROR + _T("[KuSh - test] More answer received : %#02x"), byteMore);
+@
+
+
+1.61
+log
+@improved fakelist download, and added fakes.rar file support
+@
+text
+@d130 2
+a131 1
+		if (m_tagArray[i]->GetSpecialTag() == FT_SOURCES){
+a242 1
+#ifdef NEW_SEARCH_ENABLED
+a328 46
+#else
+uint16 CSearchList::ProcessSearchAnswer(char *pPacketBuffer, uint32 dwSize, CUpDownClient *pClient, LPCTSTR pszDirectory, bool bFirstDir)
+{
+	EMULE_TRY
+
+	CSafeMemFile		packetStream(reinterpret_cast<BYTE*>(pPacketBuffer),dwSize,0);
+
+	uint32		dwNumResults;
+	packetStream.Read(&dwNumResults,4);		// <numresults 4>
+
+	uint32		dwMySearchID = ((pClient != NULL) ? reinterpret_cast<uint32>(pClient) : m_dwCurrentSearchCount);
+
+	if (pClient != NULL)
+	{
+		if (bFirstDir)
+		{
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.DeleteSearch(dwMySearchID);
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.CreateNewTab(CString(pClient->GetUserName()),dwMySearchID);
+			foundFilesCount.SetAt(dwMySearchID,0);
+		}
+	}
+	else
+	{
+		foundFilesCount.SetAt(dwMySearchID,0);
+	}
+
+	for (int i = 0; i != dwNumResults; i++)
+	{
+		CSearchFile		*pSearchFile = new CSearchFile(packetStream, dwMySearchID, pClient, pszDirectory);
+
+		AddToList(pSearchFile, (pClient != NULL) );
+	}
+#ifdef OLD_SOCKETS_ENABLED
+	if (m_bMobilMuleSearch)
+	{
+		g_eMuleApp.m_pMMServer->SearchFinished(false);
+	}
+#endif OLD_SOCKETS_ENABLED
+	m_bMobilMuleSearch = false;
+	packetStream.Close();
+
+	EMULE_CATCH
+
+	return GetResultCount();
+}
+#endif // NEW_SEARCH_ENABLED
+d353 1
+a353 1
+		!( thisType==m_strResultType
+a354 1
+			|| m_strResultType == GetResString(IDS_SEARCH_USER)
+d356 1
+a356 1
+			|| (m_strResultType==GetResString(IDS_SEARCH_PRG) && thisType==GetResString(IDS_SEARCH_ARC))) )
+d387 5
+a391 1
+			pSearchFile->AddSources(pAddedFile->GetIntTagValue(FT_SOURCES));
+d394 1
+d405 2
+d415 16
+a430 1
+uint16 CSearchList::GetResultCount(uint32 nSearchID)
+d433 1
+a433 1
+	uint16 hits = 0;
+d435 1
+a435 1
+	CSearchFile	   *pSearchFile;
+d437 1
+a437 7
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; )
+	{
+		pSearchFile = list.GetNext(pos);
+		if( pSearchFile->GetSearchID() == nSearchID )
+			hits += pSearchFile->GetIntTagValue(FT_SOURCES);
+	}
+	return hits;
+@
+
+
+1.60
+log
+@formatting;
+corrected last Aw3 change;
+tokenize the Search String to send multi AND arguments
+@
+text
+@d503 1
+a503 1
+		structFile.m_strFakeCheck = g_eMuleApp.m_pFakeCheck->IsFake(structFile.m_strFileHash, structFile.m_uFileSize);
+@
+
+
+1.59
+log
+@minor correction (no logic changes)
+@
+text
+@d432 2
+a433 1
+		if ( (!md4cmp(pAddedFile->GetFileHash(),pSearchFile->GetFileHash())) && pSearchFile->GetSearchID() ==  pAddedFile->GetSearchID()){
+@
+
+
+1.58
+log
+@formatting;
+more button code comitted but not compiled as default
+@
+text
+@d254 1
+a254 1
+	for (int i = 0; i != dwNumResults; i++)
+@
+
+
+1.57
+log
+@formatting;
+little optimiZation of the DownloadList sorting code;
+fixed sorting of ETA, AVG ETA, TimeRemaining, AvgTimeRemaining columns;
+changed and fixed new option 'Show paused and stopped files last', it works and now with all column sort
+@
+text
+@d242 88
+d374 1
+@
+
+
+1.56
+log
+@reverted a bogus change by me;
+added Extension field in Search Window
+@
+text
+@d322 3
+a324 1
+	CString sNotSearch = g_eMuleApp.m_pdlgEmule->m_dlgSearch.GetNotSearch(pAddedFile->GetSearchID());
+d327 2
+a328 1
+		CString sFileName = CString(pAddedFile->GetFileName());
+@
+
+
+1.55
+log
+@Can devs check before committing if it compiles?
+@
+text
+@d176 4
+a179 1
+	POSITION pos1, pos2;
+d182 2
+a183 1
+		if( list.GetNext(pos1)->GetSearchID() == nSearchID )
+d186 1
+d624 1
+@
+
+
+1.54
+log
+@formatting & optimisation
+@
+text
+@d181 1
+a181 1
+			delete list.RemoveAt(pos2);
+d618 1
+a618 1
+	CSearchFile* result = list.RemoveAt(resultpos);
+@
+
+
+1.53
+log
+@minor optimisations
+@
+text
+@d285 4
+a288 2
+	CSafeMemFile packet(pbytePacketBuf,size,0);
+	CSearchFile* toadd = new CSearchFile(packet, m_dwCurrentSearchCount);
+d291 1
+@
+
+
+1.52
+log
+@Improved hash to string conversion
+@
+text
+@d163 1
+a163 1
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL;)
+d165 1
+a165 1
+		delete list.GetNext(pos);
+a166 1
+	list.RemoveAll();
+d177 5
+a181 6
+	for (pos1 = list.GetHeadPosition();( pos2 = pos1 ) != NULL;){
+		list.GetNext(pos1);
+		CSearchFile* cur_file = list.GetAt(pos2);
+		if( cur_file->GetSearchID() == nSearchID ){
+			list.RemoveAt(pos2);
+			delete cur_file;
+d192 9
+a200 3
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;list.GetNext(pos)){
+		if( ((CSearchFile*)list.GetAt(pos))->GetSearchID() == nSearchID ){
+			m_pctlSearchList->AddResult(list.GetAt(pos));
+d212 1
+a212 1
+	if (remove_pos)
+d325 4
+a328 1
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; list.GetNext(pos))
+d330 4
+a333 3
+		CSearchFile* cur_file = list.GetAt(pos);
+		if ( (!md4cmp(pAddedFile->GetFileHash(),cur_file->GetFileHash())) && cur_file->GetSearchID() ==  pAddedFile->GetSearchID()){
+			cur_file->AddSources(pAddedFile->GetIntTagValue(FT_SOURCES));
+d335 1
+a335 1
+				m_pctlSearchList->UpdateSources(cur_file);
+d358 8
+a365 3
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; list.GetNext(pos)){
+		if( list.GetAt(pos)->GetSearchID() == nSearchID )
+			hits += list.GetAt(pos)->GetIntTagValue(FT_SOURCES);
+d390 1
+a390 1
+	for (POSITION pos = list.GetHeadPosition(); pos != 0;)
+d574 1
+a574 1
+	for (POSITION pos = list.GetHeadPosition(); pos != 0; list.GetNext(pos))
+d576 1
+a576 1
+		pSearchFile = static_cast<CSearchFile*>(list.GetAt(pos));//->GetSearchID() == nSearchID ){
+d594 12
+a605 7
+	uint32 nHighSource = 0;
+	POSITION resultpos = 0;
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; ){
+		CSearchFile* cur_file = list.GetNext(pos);
+		if( cur_file->GetSearchID() == nSearchID ){
+			if(cur_file->GetIntTagValue(FT_SOURCES) > nHighSource){
+				nHighSource = cur_file->GetIntTagValue(FT_SOURCES);
+d610 2
+a611 1
+	if (resultpos == 0){
+d615 1
+a615 2
+	CSearchFile* result = list.GetAt(resultpos);
+	list.RemoveAt(resultpos);
+@
+
+
+1.51
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d386 1
+a386 1
+		structFile.m_strFileHash = EncodeBase16(pFile->GetFileHash(), 16);
+@
+
+
+1.50
+log
+@few changes and formatting + corrected a previous change that is not working
+@
+text
+@d104 1
+a104 1
+uint32 CSearchFile::GetIntTagValue(uint8 tagname)
+d115 1
+a115 1
+CString CSearchFile::GetStrTagValue(uint8 tagname)
+d278 1
+a278 1
+uint16 CSearchList::ProcessUDPSearchAnswer(char* in_packet, uint32 size)
+d281 1
+a281 1
+	CSafeMemFile packet((BYTE*)in_packet,size,0);
+@
+
+
+1.49
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d120 1
+a120 1
+			return m_tagArray[i]->GetStringValue();			
+d224 1
+a224 1
+	m_strResultType=resTypes;
+d226 1
+a226 1
+	myHashList="";
+d228 1
+a228 1
+	
+d271 1
+a271 1
+	packetStream.Close();	
+d284 1
+a284 1
+	packet.Close();	
+d302 2
+a303 2
+			|| (m_strResultType==GetResString(IDS_SEARCH_PRG) && thisType==GetResString(IDS_SEARCH_ARC))) ) 
+		|| ( g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsDocumentSearch(pAddedFile->GetSearchID()) 
+d332 3
+a334 3
+	
+	if (list.AddTail(pAddedFile)) 
+	{	
+d418 1
+a418 1
+	
+d529 1
+a529 1
+	else if (ext==".doc" || ext==".txt" || ext==".xls" || ext==".rtf" || ext==".nfo" || 
+d532 1
+a532 1
+	else if (ext==".pdf") 
+d534 1
+a534 1
+	else if (ext==".exe" || ext==".msi" || ext==".com" || ext==".bat" || ext==".pif") 
+d549 1
+a549 1
+	else 
+d580 1
+a580 1
+	// find, removes and returns the searchresult with most Sources	
+@
+
+
+1.48
+log
+@Formatting, comments, and name changes.
+@
+text
+@a264 1
+#ifdef MOBILE_MULE
+a268 1
+#endif MOBILE_MULE
+@
+
+
+1.47
+log
+@Formatting, comments, and name changes.
+@
+text
+@d42 2
+a43 2
+CSearchFile::CSearchFile(CFile& in_data,uint32 nSearchID,CUpDownClient* Sender,LPCTSTR pszDirectory)
+{	// netwolf 20.05.03 enhanced source finding (bluecow)
+d45 14
+a58 9
+	m_nSearchID = nSearchID;
+	in_data.Read(&m_fileHash,16);
+	in_data.Read(&clientip,4);
+	in_data.Read(&clientport,2);
+	uint32 tagcount;
+	in_data.Read(&tagcount,4);
+	for (int i = 0;i != tagcount; i++){
+		CFileTag* toadd = new CFileTag(in_data);
+		m_tagArray.Add(toadd);
+a60 1
+	//m_strFileName = GetStrTagValue(FT_FILENAME);
+d67 1
+a67 1
+	if (Sender){		//netwolf 20.05.03 enhanced source finding (bluecow)
+d70 2
+a71 2
+		// NOTE: Do *NOT* store the 'Sender' ptr here! At the time when using the 'toadd'
+		// struct, the 'Sender' may have been deleted (just if the user has waited too long before
+d77 2
+a78 2
+		*((uint32*)clientip) = Sender->GetUserID();
+		clientport = Sender->GetUserPort();
+d80 2
+a81 2
+		m_nClientServerIP = Sender->GetServerIP();
+		m_nClientServerPort = Sender->GetServerPort();
+d83 2
+a84 1
+	else{
+d233 1
+a233 1
+uint16 CSearchList::ProcessSearchAnswer(char *in_packet, uint32 dwSize, CUpDownClient* pClient, LPCTSTR pszDirectory, bool bFirstDir)
+d237 1
+a237 1
+	CSafeMemFile		packet(reinterpret_cast<BYTE*>(in_packet),dwSize,0);
+d239 2
+a240 2
+	uint32		results;
+	packet.Read(&results,4);
+d242 1
+a242 1
+	uint32		mySearchID = ((pClient != NULL) ? reinterpret_cast<uint32>(pClient) : m_dwCurrentSearchCount);
+d248 3
+a250 3
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.DeleteSearch(mySearchID);
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.CreateNewTab(CString(pClient->GetUserName()),mySearchID);
+			foundFilesCount.SetAt(mySearchID,0);
+d255 1
+a255 1
+		foundFilesCount.SetAt(mySearchID,0);
+d258 1
+a258 1
+	for (int i = 0; i != results; i++)
+d260 1
+a260 1
+		CSearchFile		*pSearchFile = new CSearchFile(packet, mySearchID, pClient, pszDirectory);
+d270 2
+a271 2
+#endif //MOBILE_MULE
+#endif //OLD_SOCKETS_ENABLED
+d273 1
+a273 1
+	packet.Close();	
+d576 1
+@
+
+
+1.46
+log
+@Fixed documents search
+@
+text
+@d228 1
+a228 1
+uint16 CSearchList::ProcessSearchAnswer(char* in_packet, uint32 size, CUpDownClient* Sender, LPCTSTR pszDirectory, bool bFirstDir)
+d231 4
+a234 2
+	CSafeMemFile packet((BYTE*)in_packet,size,0);
+	uint32 results;
+d237 1
+a237 1
+	uint32 mySearchID=( (Sender != NULL)? (uint32)Sender : m_dwCurrentSearchCount);
+d239 1
+a239 1
+	if (Sender)
+d243 2
+a244 2
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.DeleteSearch(mySearchID); // DonGato
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.CreateNewTab(CString(Sender->GetUserName()),mySearchID);
+d255 3
+a257 2
+		CSearchFile* toadd = new CSearchFile(packet, mySearchID, Sender, pszDirectory);	// netwolf 20.05.03 enhanced source finding (bluecow)
+		AddToList(toadd, (Sender != NULL) );
+d262 1
+d264 1
+d269 1
+d271 1
+@
+
+
+1.45
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d287 9
+a295 14
+	if (
+		(!bClientResponse 
+			&& !(thisType==m_strResultType
+				|| m_strResultType == GetResString(IDS_SEARCH_ANY)
+				||m_strResultType == GetResString(IDS_SEARCH_USER)
+				||m_strResultType == GetResString(IDS_SEARCH_DOC)
+				||(m_strResultType==GetResString(IDS_SEARCH_PRG) 
+					&& thisType==GetResString(IDS_SEARCH_ARC)))
+		) 
+		|| (g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsDocumentSearch(pAddedFile->GetSearchID()) 
+			&& thisType != GetResString(IDS_SEARCH_DOC)) 
+		|| (!(pAddedFile->GetIntTagValue(FT_FILESIZE)) 
+			|| pAddedFile->GetFileName().IsEmpty())
+	   )
+@
+
+
+1.44
+log
+@fix for serch with new filetyp
+@
+text
+@d499 1
+a499 1
+	g_eMuleApp.AddDebugLogLine(false,_T("WebServer: Searchlist with %u elements sorted in %u ms, output generated in %u ms"), SearchFileArray.GetSize(), dwSortTime, ::GetTickCount()-dwEnd);
+@
+
+
+1.43
+log
+@File Type correction & related name changes
+@
+text
+@d285 1
+a285 2
+	//CString		thisType = GetFiletypeByName(pAddedFile->GetFileName());
+	CString		thisType = pAddedFile->GetFileType(false);
+@
+
+
+1.42
+log
+@preventing invalid filename-chars with SetFileName()
+@
+text
+@d228 1
+a228 1
+uint16 CSearchList::ProcessSearchanswer(char* in_packet, uint32 size, CUpDownClient* Sender, LPCTSTR pszDirectory, bool bFirstDir)
+d251 2
+a252 1
+	for (int i = 0; i != results; i++){
+d268 1
+a268 1
+uint16 CSearchList::ProcessUDPSearchanswer(char* in_packet, uint32 size)
+d279 1
+a279 1
+bool CSearchList::AddToList(CSearchFile* toadd, bool bClientResponse)
+d285 2
+a286 1
+	CString		thisType = GetFiletypeByName(toadd->GetFileName());
+d289 12
+a300 3
+		(!bClientResponse && !(m_strResultType == GetResString(IDS_SEARCH_ANY)||m_strResultType == GetResString(IDS_SEARCH_USER)||m_strResultType == GetResString(IDS_SEARCH_DOC)|| thisType==m_strResultType||(m_strResultType==GetResString(IDS_SEARCH_PRG)&&thisType==GetResString(IDS_SEARCH_ARC)))) ||
+		(g_eMuleApp.m_pdlgEmule->m_dlgSearch.IsDocumentSearch(toadd->GetSearchID()) && thisType != GetResString(IDS_SEARCH_DOC)) ||
+		(!(toadd->GetIntTagValue(FT_FILESIZE)) || toadd->GetFileName().IsEmpty())
+d303 1
+a303 1
+		delete toadd;
+d306 1
+a306 1
+	CString sNotSearch = g_eMuleApp.m_pdlgEmule->m_dlgSearch.GetNotSearch(toadd->GetSearchID());
+d309 1
+a309 1
+		CString sFileName = CString(toadd->GetFileName());
+d313 1
+a313 1
+			delete toadd;
+d320 2
+a321 2
+		if ( (!md4cmp(toadd->GetFileHash(),cur_file->GetFileHash())) && cur_file->GetSearchID() ==  toadd->GetSearchID()){
+			cur_file->AddSources(toadd->GetIntTagValue(FT_SOURCES));
+d324 1
+a324 1
+			delete toadd;
+d329 2
+a330 1
+	if (list.AddTail(toadd)) {	
+d332 2
+a333 2
+		foundFilesCount.Lookup(toadd->GetSearchID(),tempValue);
+		foundFilesCount.SetAt(toadd->GetSearchID(),tempValue+1);
+d336 1
+a336 1
+		m_pctlSearchList->AddResult(toadd);
+@
+
+
+1.41
+log
+@quicksorting of searchresults for webserver
+@
+text
+@d56 2
+a57 1
+	m_strFileName = GetStrTagValue(FT_FILENAME);
+d59 1
+a59 1
+		m_strFileName = _T("?");
+@
+
+
+1.40
+log
+@extended filetype recognisation for transfer list, shared files list and search result (WebServer)
+@
+text
+@d20 1
+d29 12
+a60 1
+	EMULE_CATCH
+d84 2
+d347 1
+a347 1
+CString CSearchList::GetWebList(CString linePattern,int sortby,bool asc,bool column1,bool column2,bool column3,bool column4,bool column5) const
+d351 14
+a364 15
+	CString buffer=_T("");
+	CString temp;
+	CArray<CSearchFile*, CSearchFile*> sortarray;
+	int swap;
+	bool inserted;
+
+	// insertsort
+	CSearchFile* sf1;
+	CSearchFile* sf2;
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;) {
+		
+		sf1= (CSearchFile*)list.GetAt(pos);
+		uint32 m_lFileSize = sf1->GetIntTagValue(FT_FILESIZE); 
+		uint32 nSources = sf1->GetIntTagValue(FT_SOURCES);
+		if(!m_lFileSize || /* !nSources || */ sf1->GetFileName().IsEmpty())
+d366 30
+a395 25
+		
+		inserted=false;
+		sf1 = list.GetNext(pos);
+		
+		for (uint16 i1=0;i1<sortarray.GetCount();++i1) {
+			sf2 = sortarray.GetAt(i1);
+			
+			CString sf1FileName = sf1->GetFileName();
+			sf1FileName.MakeLower();
+			CString sf1Temp = GetFileType(sf1FileName.Right(4));
+
+			CString sf2FileName = sf2->GetFileName();
+			sf2FileName.MakeLower();
+			CString sf2Temp = GetFileType(sf2FileName.Right(4));
+		
+			switch (sortby) {
+				case 0: swap=sf1->GetFileName().CompareNoCase(sf2->GetFileName()); break;
+				case 1: swap=sf1->GetFileSize()-sf2->GetFileSize();break;
+				case 2: swap=CString(sf1->GetFileHash()).CompareNoCase(CString(sf2->GetFileHash())); break;
+				case 3: swap=sf1->GetSourceCount()-sf2->GetSourceCount(); break;
+				case 4: swap=g_eMuleApp.m_pFakeCheck->IsFake(EncodeBase16(sf1->GetFileHash(), 16),sf1->GetFileSize())-g_eMuleApp.m_pFakeCheck->IsFake(EncodeBase16(sf2->GetFileHash(), 16),sf2->GetFileSize()); break;
+				case 5: swap=sf1Temp.CompareNoCase(sf2Temp); break;
+			}
+			if (!asc) swap=0-swap;
+			if (swap<0) {inserted=true; sortarray.InsertAt(i1,sf1);break;}
+d397 1
+a397 1
+		if (!inserted) sortarray.Add(sf1);
+d399 2
+d402 4
+a405 2
+	for (uint16 i=0;i<sortarray.GetCount();++i) {
+		CSearchFile* sf1 = sortarray.GetAt(i);
+d407 29
+a435 14
+		// colorize
+		CString coloraddonB=_T("");
+		CString coloraddonE=_T("");
+		CKnownFile* sameFile = g_eMuleApp.m_pSharedFilesList->GetFileByID(sf1->GetFileHash());
+		if (!sameFile)
+			sameFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(sf1->GetFileHash());
+
+		uint32 red = 255;
+		uint32 green = 255;
+		uint32 blue = 255;
+		CString OverlayImage;
+		CString SourcesImage;
+		int nSources;
+		if (sameFile)
+d439 3
+a441 3
+				OverlayImage = "jumpstart";
+				blue = 0;
+				red = 0;
+d445 2
+a446 2
+				OverlayImage = "release";
+				blue = 0;
+d449 14
+d464 1
+a464 14
+		{
+			OverlayImage = "none";
+		}
+		nSources = sf1->GetSourceCount();
+		if (nSources < 5)
+			SourcesImage = "0";
+		else if (nSources > 4 && nSources < 10)
+			SourcesImage = "5";
+		else if (nSources > 9 && nSources < 25)
+			SourcesImage = "10";
+		else if (nSources > 24 && nSources < 50)
+			SourcesImage = "25";
+		else
+			SourcesImage = "50";
+d466 3
+a468 20
+		CString strColor = "#";
+		CString strTemp;
+		strTemp.Format(_T("%x"),red);
+		if (strTemp.GetLength() == 1) strColor.AppendFormat("0" + strTemp);
+		else strColor.AppendFormat(strTemp);
+		strTemp.Format(_T("%x"),green);
+		if (strTemp.GetLength() == 1) strColor.AppendFormat("0" + strTemp); 
+		else strColor.AppendFormat(strTemp);
+		strTemp.Format(_T("%x"),blue);
+		if (strTemp.GetLength() == 1) strColor.AppendFormat("0" + strTemp); 
+		else strColor.AppendFormat(strTemp);
+		coloraddonB="<font color=" + strColor + ">";
+		coloraddonE="</font>";
+
+		CString strHash=EncodeBase16(sf1->GetFileHash(),16);
+		CString strSize;
+		strSize.Format(_T("%d"),sf1->GetFileSize());
+		CString strSources;
+		strSources.Format(_T("%d"),sf1->GetSourceCount());
+		CString strFilename = sf1->GetFileName();
+a469 2
+		CString strFakeCheck;
+		strFakeCheck = g_eMuleApp.m_pFakeCheck->IsFake(EncodeBase16(sf1->GetFileHash(), 16),sf1->GetFileSize()); //Purity -> FakeCheck
+d471 11
+a481 15
+		CString tmpFileName = sf1->GetFileName();
+		tmpFileName.MakeLower();
+		CString strExtension = GetFileType(tmpFileName.Right(4)); // Purity: show FileType Icons in WebServer
+
+		temp.Format(linePattern,
+			SourcesImage,
+			"ed2k://|file|" + strFilename + "|" + strSize + "|" + strHash + "|/",
+			OverlayImage,
+			strExtension,
+			(column1) ? coloraddonB + StringLimit(sf1->GetFileName(),70) + coloraddonE : "",
+			(column2) ? coloraddonB + CastItoXBytes(sf1->GetFileSize()) + coloraddonE : "",
+			(column3) ? coloraddonB + strHash + coloraddonE : "",
+			(column4) ? coloraddonB + strSources + coloraddonE : "",
+			(column5) ? coloraddonB + strFakeCheck + coloraddonE : "",
+			strHash
+d483 1
+a483 1
+		buffer.Append(temp);
+d485 6
+a490 1
+	return buffer;
+@
+
+
+1.39
+log
+@Formatting, comments, and name changes.
+Fixed a couple of sorting related bugs in SearchListCtrl.
+@
+text
+@d477 1
+a477 1
+CString CSearchList::GetFileType(CString strExtension) const
+d479 4
+d484 3
+a486 1
+	if (strExtension == ".jpg" || strExtension == ".gif" || strExtension == ".tif" || strExtension == ".bmp" || strExtension == ".png" || strExtension == "jpeg") 
+d488 3
+a490 1
+	else if (strExtension == ".cue" || strExtension == ".bin" || strExtension == ".iso" || strExtension == ".nrg" || strExtension == ".sub" || strExtension == ".img" || strExtension == ".ccd" || strExtension == ".mdf") 
+d492 2
+a493 1
+	else if (strExtension == ".doc" || strExtension == ".rtf" || strExtension == ".txt" || strExtension == ".nfo") 
+d495 1
+a495 1
+	else if (strExtension == ".pdf") 
+d497 1
+a497 1
+	else if (strExtension == ".exe" || strExtension == ".msi" || strExtension == ".com" || strExtension == ".bat") 
+d499 2
+a500 1
+	else if (strExtension == ".rar" || strExtension == ".zip" || strExtension == ".ace" || strExtension == ".tar" || strExtension == ".arj") 
+d502 4
+a505 1
+	else if (strExtension == ".mpg" || strExtension == "mpeg" || strExtension == ".avi" || strExtension == ".mov" || strExtension == ".ogm" || strExtension == ".wmv") 
+d507 4
+a510 1
+	else if (strExtension == ".mp3" || strExtension == ".wav" || strExtension == ".ogg" || strExtension == ".wma") 
+@
+
+
+1.38
+log
+@Formatting, comments, and name changes.
+@
+text
+@d130 1
+a130 1
+	m_ctlSearchList = NULL;
+d156 1
+a156 1
+	ASSERT( m_ctlSearchList );
+d172 2
+a173 2
+	ASSERT( m_ctlSearchList );
+	m_ctlSearchList->SetRedraw(false);
+d176 1
+a176 1
+			m_ctlSearchList->AddResult(list.GetAt(pos));
+d179 1
+a179 1
+	m_ctlSearchList->SetRedraw(true);
+d190 1
+a190 1
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.searchlistctrl.RemoveResult( todel );
+d202 1
+a202 1
+		m_ctlSearchList = in_wnd;
+d204 2
+a205 2
+	resultType=resTypes;
+	m_nCurrentSearch = nSearchID;
+d220 1
+a220 1
+	uint32 mySearchID=( (Sender != NULL)? (uint32)Sender : m_nCurrentSearch);
+d256 1
+a256 1
+	CSearchFile* toadd = new CSearchFile(packet, m_nCurrentSearch);
+d272 1
+a272 1
+		(!bClientResponse && !(resultType == GetResString(IDS_SEARCH_ANY)||resultType == GetResString(IDS_SEARCH_USER)||resultType == GetResString(IDS_SEARCH_DOC)|| thisType==resultType||(resultType==GetResString(IDS_SEARCH_PRG)&&thisType==GetResString(IDS_SEARCH_ARC)))) ||
+d296 2
+a297 2
+			if (m_ctlSearchList && !m_bMobilMuleSearch)
+				m_ctlSearchList->UpdateSources(cur_file);
+d308 2
+a309 2
+	if (m_ctlSearchList && !m_bMobilMuleSearch)
+		m_ctlSearchList->AddResult(toadd);
+d330 1
+a330 1
+	return GetResultCount(m_nCurrentSearch);
+@
+
+
+1.37
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d266 5
+a270 1
+	CString thisType=GetFiletypeByName(toadd->GetFileName());	//Cax2 bugfix: now searching for programs shows archives, TODO searching for users shows anything...
+@
+
+
+1.36
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d498 1
+a498 1
+void CSearchList::AddFileToDownloadByHash(uchar* hash,uint8 iCatID)
+d509 1
+a509 1
+			g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(pSearchFile,iCatID);
+@
+
+
+1.35
+log
+@FakeCheck for Search Result and Download List (Check and Report ... made by milobac ... merged by DropF ... tested by n@@boleo and me)
+@
+text
+@d39 1
+a39 1
+		CTag* toadd = new CTag(in_data);
+@
+
+
+1.34
+log
+@Formatting, comments, and name changes.
+@
+text
+@d329 1
+a329 1
+CString CSearchList::GetWebList(CString linePattern,int sortby,bool asc,bool column1,bool column2,bool column3,bool column4) const
+d356 8
+d369 2
+d443 1
+a443 2
+		CString strFilename;
+		strFilename = sf1->GetFileName();
+d445 2
+d448 3
+a450 20
+		CString strExtension; // Purity: show FileType Icons in WebServer
+		strTemp = strFilename.Right(4);
+		if (strTemp == ".jpg" || strTemp == ".gif" || strTemp == ".tif" || strTemp == ".bmp" || strTemp == ".png" || strTemp == "jpeg") 
+			strExtension = "picture";
+		else if (strTemp == ".cue" || strTemp == ".bin" || strTemp == ".iso" || strTemp == ".nrg" || strTemp == ".sub" || strTemp == ".img" || strTemp == ".ccd" || strTemp == ".mdf") 
+			strExtension = "cdimage";
+		else if (strTemp == ".doc" || strTemp == ".rtf" || strTemp == ".txt" || strTemp == ".nfo") 
+			strExtension = "document";
+		else if (strTemp == ".pdf") 
+			strExtension = "adobe";
+		else if (strTemp == ".exe" || strTemp == ".msi") 
+			strExtension = "application";
+		else if (strTemp == ".rar" || strTemp == ".zip" || strTemp == ".ace" || strTemp == ".tar" || strTemp == ".arj") 
+			strExtension = "archive";
+		else if (strTemp == ".mpg" || strTemp == "mpeg" || strTemp == ".avi" || strTemp == ".mov" || strTemp == ".ogm" || strTemp == ".wmv") 
+			strExtension = "movie";
+		else if (strTemp == ".mp3" || strTemp == ".wav" || strTemp == ".ogg" || strTemp == ".wma") 
+			strExtension = "music";
+		else 
+			strExtension = "other";
+d461 1
+d471 26
+@
+
+
+1.33
+log
+@Formatting, comments, and name changes.
+@
+text
+@d56 1
+a56 1
+		m_eType = Client;
+d67 1
+a67 1
+		m_eType = Server;
+d477 1
+a477 1
+void CSearchList::AddFileToDownloadByHash(uchar* hash,uint8 cat)
+d481 1
+a481 1
+	CSearchFile* sf;
+d483 6
+a488 4
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;list.GetNext(pos)){
+		sf=(CSearchFile*)list.GetAt(pos);//->GetSearchID() == nSearchID ){
+		if (!md4cmp(hash,sf->GetFileHash())) {
+			g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(sf,cat);
+@
+
+
+1.32
+log
+@stalled filestate and filetype icons in webserver
+@
+text
+@d27 4
+a30 1
+CSearchFile::CSearchFile(CFile& in_data,uint32 nSearchID,CUpDownClient* Sender,LPCTSTR pszDirectory){	// netwolf 20.05.03 enhanced source finding (bluecow)
+d40 1
+a40 1
+		taglist.Add(toadd);
+d73 3
+a75 2
+
+CSearchFile::~CSearchFile(){
+d77 4
+a80 4
+	for (int i = 0; i < taglist.GetSize();i++)
+		safe_delete(taglist[i]);
+	taglist.RemoveAll();
+	taglist.SetSize(0);
+d83 3
+a85 2
+
+uint32 CSearchFile::GetIntTagValue(uint8 tagname){
+d87 3
+a89 3
+	for (int i = 0; i < taglist.GetSize(); i++){
+		if (taglist[i]->GetSpecialTag() == tagname)
+			return taglist[i]->GetIntValue();
+d94 3
+a96 2
+
+CString CSearchFile::GetStrTagValue(uint8 tagname){
+d98 3
+a100 3
+	for (int i = 0; i < taglist.GetSize(); i++){
+		if (taglist[i]->GetSpecialTag() == tagname)
+			return taglist[i]->GetStringValue();			
+d105 3
+a107 2
+
+uint32 CSearchFile::AddSources(uint32 count){
+d109 4
+a112 4
+	for (int i = 0; i < taglist.GetSize(); i++){
+		if (taglist[i]->GetSpecialTag() == FT_SOURCES){
+			taglist[i]->SetIntValue(taglist[i]->GetIntValue() + count);
+			return taglist[i]->GetIntValue();
+d118 3
+a120 2
+
+uint32 CSearchFile::GetSourceCount(){
+d123 2
+d126 6
+a131 3
+CSearchList::CSearchList(){
+	outputwnd = 0;
+	m_MobilMuleSearch = false;
+d133 3
+a135 2
+
+CSearchList::~CSearchList(){
+d138 4
+d143 2
+a144 3
+void CSearchList::Clear(){
+	EMULE_TRY
+	for(POSITION pos = list.GetHeadPosition(); pos != NULL;) {
+d148 1
+d151 3
+a153 2
+
+void CSearchList::RemoveResults( uint32 nSearchID){
+d156 1
+a156 1
+	ASSERT( outputwnd );
+d168 3
+a170 2
+
+void CSearchList::ShowResults( uint32 nSearchID){
+d172 2
+a173 2
+	ASSERT( outputwnd );
+	outputwnd->SetRedraw(false);
+d176 1
+a176 1
+			outputwnd->AddResult(list.GetAt(pos));
+d179 1
+a179 1
+	outputwnd->SetRedraw(true);
+d182 3
+a184 2
+
+void CSearchList::RemoveResults( CSearchFile* todel ){
+d197 3
+a199 2
+
+void CSearchList::NewSearch(CSearchListCtrl* in_wnd, CString resTypes, uint16 nSearchID, bool MobilMuleSearch){
+d202 1
+a202 1
+		outputwnd = in_wnd;
+d207 1
+a207 1
+    m_MobilMuleSearch = MobilMuleSearch;
+d212 1
+a212 1
+
+d242 1
+a242 1
+	if (m_MobilMuleSearch)
+d246 1
+a246 1
+	m_MobilMuleSearch = false;
+d251 3
+a253 2
+
+uint16 CSearchList::ProcessUDPSearchanswer(char* in_packet, uint32 size){
+d262 3
+a264 2
+
+bool CSearchList::AddToList(CSearchFile* toadd, bool bClientResponse){
+d292 2
+a293 2
+			if (outputwnd && !m_MobilMuleSearch)
+				outputwnd->UpdateSources(cur_file);
+d304 2
+a305 2
+	if (outputwnd && !m_MobilMuleSearch)
+		outputwnd->AddResult(toadd);
+d310 3
+a312 2
+
+uint16 CSearchList::GetResultCount(uint32 nSearchID) {
+d323 3
+a325 3
+
+
+uint16 CSearchList::GetResultCount(){
+d328 3
+a330 2
+
+CString CSearchList::GetWebList(CString linePattern,int sortby,bool asc,bool column1,bool column2,bool column3,bool column4) const{
+d476 3
+a478 2
+
+void CSearchList::AddFileToDownloadByHash(uchar* hash,uint8 cat) {
+d493 3
+a495 1
+
+a496 2
+
+CSearchFile* CSearchList::DetachNextFile(uint32 nSearchID) {
+d520 3
+a522 1
+}@
+
+
+1.31
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d410 22
+d436 1
+@
+
+
+1.30
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d19 1
+a19 1
+#include "searchlist.h"
+d169 1
+a169 1
+		theApp.emuledlg->searchwnd.searchlistctrl.RemoveResult( todel );
+d204 2
+a205 2
+			theApp.emuledlg->searchwnd.DeleteSearch(mySearchID); // DonGato
+			theApp.emuledlg->searchwnd.CreateNewTab(CString(Sender->GetUserName()),mySearchID);
+d221 1
+a221 1
+		theApp.mmserver->SearchFinished(false);
+d245 1
+a245 1
+		(theApp.emuledlg->searchwnd.IsDocumentSearch(toadd->GetSearchID()) && thisType != GetResString(IDS_SEARCH_DOC)) ||
+d252 1
+a252 1
+	CString sNotSearch = theApp.emuledlg->searchwnd.GetNotSearch(toadd->GetSearchID());
+d348 1
+a348 1
+		CKnownFile* sameFile = theApp.sharedfiles->GetFileByID(sf1->GetFileHash());
+d350 1
+a350 1
+			sameFile = theApp.downloadqueue->GetFileByID(sf1->GetFileHash());
+d436 1
+a436 1
+			theApp.downloadqueue->AddSearchToDownload(sf,cat);
+@
+
+
+1.29
+log
+@merging category code for webserver
+@
+text
+@d30 1
+a30 1
+	in_data.Read(&filehash,16);
+d40 3
+a42 3
+	filename = GetStrTagValue(FT_FILENAME);
+	if (filename.IsEmpty())
+		filename = _T("?");
+d44 1
+a44 1
+	filesize = GetIntTagValue(FT_FILESIZE);
+d319 1
+a319 1
+		uint32 filesize = sf1->GetIntTagValue(FT_FILESIZE); 
+d321 1
+a321 1
+		if(!filesize || /* !nSources || */ sf1->GetFileName().IsEmpty())
+@
+
+
+1.28
+log
+@added OP_ASKSHAREDDIRS protocol
+@
+text
+@d304 1
+a304 1
+CString CSearchList::GetWebList(CString linePattern) {
+a306 1
+	CSearchFile* sf;
+d309 13
+a321 7
+
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;list.GetNext(pos)){
+		sf= (CSearchFile*)list.GetAt(pos);
+
+		uint32 filesize = sf->GetIntTagValue(FT_FILESIZE); 
+		uint32 nSources = sf->GetIntTagValue(FT_SOURCES);
+		if(!filesize || /* !nSources || */ sf->GetFileName().IsEmpty())
+d323 21
+d346 3
+a348 2
+		CString coloraddon=_T("");CString coloraddonE=_T("");
+		CKnownFile* sameFile = theApp.sharedfiles->GetFileByID(sf->GetFileHash());
+d350 1
+a350 1
+			sameFile = theApp.downloadqueue->GetFileByID(sf->GetFileHash());
+d352 8
+a359 1
+		if (sameFile) {
+d361 5
+a365 1
+				coloraddon="<div class=\"fdown\">";
+d367 4
+a370 1
+				coloraddon="<div class=\"fok\">";
+d372 38
+a409 3
+		if (coloraddon.GetLength()>0) coloraddonE="</div>";
+
+		CString myHash=EncodeBase16(sf->GetFileHash(),16);
+d411 8
+a418 5
+			coloraddon+StringLimit(sf->GetFileName(),70)+coloraddonE,
+			CastItoXBytes(sf->GetFileSize()),
+			myHash,
+			sf->GetSourceCount(),
+			myHash
+d428 1
+a428 1
+void CSearchList::AddFileToDownloadByHash(uchar* hash) {
+d436 1
+a436 1
+			theApp.downloadqueue->AddSearchToDownload(sf);
+@
+
+
+1.27
+log
+@built in compiler switch for mobileMule
+@
+text
+@d27 1
+a27 1
+CSearchFile::CSearchFile(CFile& in_data,uint32 nSearchID,CUpDownClient* Sender){	// netwolf 20.05.03 enhanced source finding (bluecow)
+d68 1
+d191 1
+a191 1
+uint16 CSearchList::ProcessSearchanswer(char* in_packet, uint32 size, CUpDownClient* Sender)
+a194 5
+	if (Sender)
+	{
+		theApp.emuledlg->searchwnd.DeleteSearch((uint32)Sender); // DonGato
+		theApp.emuledlg->searchwnd.CreateNewTab(CString(Sender->GetUserName()),(uint32)Sender);
+	}
+d199 14
+a212 1
+	foundFilesCount.SetAt(mySearchID,0);
+d215 1
+a215 1
+		CSearchFile* toadd = new CSearchFile(packet, mySearchID, Sender);	// netwolf 20.05.03 enhanced source finding (bluecow)
+@
+
+
+1.26
+log
+@Preparing for new sockets
+@
+text
+@d210 1
+d213 1
+@
+
+
+1.25
+log
+@Purity's changes
+@
+text
+@d209 1
+d212 1
+@
+
+
+1.24
+log
+@fixed access violation
+@
+text
+@d117 1
+d176 1
+a176 1
+void CSearchList::NewSearch(CSearchListCtrl* in_wnd, CString resTypes, uint16 nSearchID){
+d184 1
+d209 3
+a211 1
+	
+d255 1
+a255 1
+			if (outputwnd)
+d267 1
+a267 1
+	if (outputwnd)
+d352 27
+@
+
+
+1.23
+log
+@bug (icrorrect clearing) in Clear() function & optimization in RemoveResults()
+@
+text
+@d125 2
+a126 2
+	for(POSITION pos = list.GetHeadPosition(); pos != NULL; pos = list.GetHeadPosition()) {
+		delete list.GetAt(pos);
+@
+
+
+1.22
+log
+@unicode cleanup
+@
+text
+@a126 1
+		list.RemoveAt(pos);
+d128 1
+d139 1
+a139 1
+		CSearchFile* cur_file =	list.GetAt(pos2);
+d163 7
+a169 7
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;list.GetNext(pos)){
+		if( (CSearchFile*)list.GetAt(pos) == todel ){
+			theApp.emuledlg->searchwnd.searchlistctrl.RemoveResult( todel );
+			list.RemoveAt(pos);
+			delete todel;
+			return;
+		}
+d171 1
+@
+
+
+1.21
+log
+@char * to CString conversion
+@
+text
+@d228 1
+a228 1
+		(!(toadd->GetIntTagValue(FT_FILESIZE)) || !strlen(toadd->GetFileName()))
+d290 1
+a290 1
+	CString buffer="";
+d298 1
+a298 1
+		if(!filesize || /* !nSources || */ !strlen(sf->GetFileName()))
+d302 1
+a302 1
+		CString coloraddon="";CString coloraddonE="";
+d328 1
+a328 1
+	return "";
+@
+
+
+1.20
+log
+@code cleanup
+@
+text
+@d40 4
+a43 5
+	char* tempName = GetStrTagValue(FT_FILENAME);
+	if (tempName == NULL)
+		filename = "?";
+	else
+		filename = tempName;
+d82 2
+a83 2
+		if (taglist[i]->specialtag == tagname)
+			return taglist[i]->intvalue;
+d89 1
+a89 1
+char* CSearchFile::GetStrTagValue(uint8 tagname){
+d92 2
+a93 2
+		if (taglist[i]->specialtag == tagname)
+			return taglist[i]->stringvalue;			
+d96 1
+a96 1
+	return 0;
+d102 3
+a104 3
+		if (taglist[i]->specialtag == FT_SOURCES){
+			taglist[i]->intvalue += count;
+			return taglist[i]->intvalue;
+@
+
+
+1.19
+log
+@removed Tag_Struct usage from sources
+@
+text
+@d27 1
+a27 1
+CSearchFile::CSearchFile(CFile* in_data,uint32 nSearchID,CUpDownClient* Sender){	// netwolf 20.05.03 enhanced source finding (bluecow)
+d30 3
+a32 3
+	in_data->Read(&filehash,16);
+	in_data->Read(&clientip,4);
+	in_data->Read(&clientport,2);
+d34 1
+a34 1
+	in_data->Read(&tagcount,4);
+d191 1
+a191 1
+	CSafeMemFile* packet = new CSafeMemFile((BYTE*)in_packet,size,0);
+d198 1
+a198 1
+	packet->Read(&results,4);
+d208 1
+a208 2
+	packet->Close();
+	delete packet;
+d216 1
+a216 1
+	CSearchFile* toadd = new CSearchFile(&packet, m_nCurrentSearch);
+@
+
+
+1.18
+log
+@changes reverted
+@
+text
+@d83 2
+a84 2
+		if (taglist[i]->tag->specialtag == tagname)
+			return taglist[i]->tag->intvalue;
+d93 2
+a94 2
+		if (taglist[i]->tag->specialtag == tagname)
+			return taglist[i]->tag->stringvalue;			
+d103 3
+a105 3
+		if (taglist[i]->tag->specialtag == FT_SOURCES){
+			taglist[i]->tag->intvalue += count;
+			return taglist[i]->tag->intvalue;
+@
+
+
+1.17
+log
+@removed Tag_Struct usage from sources
+@
+text
+@d83 2
+a84 2
+		if (taglist[i]->specialtag == tagname)
+			return taglist[i]->intvalue;
+d93 2
+a94 2
+		if (taglist[i]->specialtag == tagname)
+			return taglist[i]->stringvalue;			
+d103 3
+a105 3
+		if (taglist[i]->specialtag == FT_SOURCES){
+			taglist[i]->intvalue += count;
+			return taglist[i]->intvalue;
+@
+
+
+1.16
+log
+@removed unused variable
+@
+text
+@d83 2
+a84 2
+		if (taglist[i]->tag->specialtag == tagname)
+			return taglist[i]->tag->intvalue;
+d93 2
+a94 2
+		if (taglist[i]->tag->specialtag == tagname)
+			return taglist[i]->tag->stringvalue;			
+d103 3
+a105 3
+		if (taglist[i]->tag->specialtag == FT_SOURCES){
+			taglist[i]->tag->intvalue += count;
+			return taglist[i]->tag->intvalue;
+@
+
+
+1.15
+log
+@coverted code from char * to CString
+@
+text
+@a39 1
+	int iSize = 2;
+a40 3
+	if( tempName != NULL && (strlen(tempName)>0) )
+		iSize = (int)strlen(tempName)+1;
+	
+@
+
+
+1.14
+log
+@enhanced source finding
+@
+text
+@d44 1
+a44 1
+	filename = new char[iSize];
+d46 1
+a46 1
+		strcpy(filename,"?");
+d48 1
+a48 1
+		strcpy(filename,tempName);
+@
+
+
+1.13
+log
+@Code cleanup
+@
+text
+@d27 1
+a27 1
+CSearchFile::CSearchFile(CFile* in_data,uint32 nSearchID){
+d51 22
+d208 1
+a208 1
+		CSearchFile* toadd = new CSearchFile(packet, mySearchID);
+@
+
+
+1.12
+log
+@documents search and 'NOT' search filter
+@
+text
+@d209 5
+a213 1
+	if (!bClientResponse && !(resultType == GetResString(IDS_SEARCH_ANY)||resultType == GetResString(IDS_SEARCH_USER)||resultType == GetResString(IDS_SEARCH_DOC)|| thisType==resultType||(resultType==GetResString(IDS_SEARCH_PRG)&&thisType==GetResString(IDS_SEARCH_ARC))))
+d218 2
+a219 2
+	if(theApp.emuledlg->searchwnd.IsDocumentSearch(toadd->GetSearchID()) &&
+		thisType != GetResString(IDS_SEARCH_DOC))
+d221 7
+a227 2
+		delete toadd;
+		return false;
+@
+
+
+1.11
+log
+@Fixed new column in DownloadList. Queue Min Size changed in languages and some minor web template fixes.
+@
+text
+@d209 7
+a215 1
+	if (!bClientResponse && !(resultType == GetResString(IDS_SEARCH_ANY)||resultType == GetResString(IDS_SEARCH_USER) || thisType==resultType||(resultType==GetResString(IDS_SEARCH_PRG)&&thisType==GetResString(IDS_SEARCH_ARC))))
+@
+
+
+1.10
+log
+@netwolf/SyruS/katsyonak changes - see changelog+
+@
+text
+@d278 1
+a278 1
+				coloraddon="<font color=\"#FF0000\">";
+d280 1
+a280 1
+				coloraddon="<font color=\"#00FF00\">";
+d282 1
+a282 1
+		if (coloraddon.GetLength()>0) coloraddonE="</font>";
+@
+
+
+1.9
+log
+@fixed memory leak
+@
+text
+@d55 1
+a55 1
+	for (int i = 0; i != taglist.GetSize();i++)
+d64 1
+a64 1
+	for (int i = 0; i != taglist.GetSize(); i++){
+d74 1
+a74 1
+	for (int i = 0; i != taglist.GetSize(); i++){
+d79 1
+a79 1
+	return NULL;
+d84 1
+a84 1
+	for (int i = 0; i != taglist.GetSize(); i++){
+d217 1
+a217 1
+		if ( (!memcmp(toadd->GetFileHash(),cur_file->GetFileHash(),16)) && cur_file->GetSearchID() ==  toadd->GetSearchID()){
+d267 1
+a267 1
+		if(!filesize || !nSources || !strlen(sf->GetFileName()))
+d307 1
+a307 1
+		if (!memcmp(hash,sf->GetFileHash(),16)) {
+@
+
+
+1.8
+log
+@fixes by BavarianSnail/obaldin/kuchin. see changelog+
+@
+text
+@d198 2
+a199 2
+	CSafeMemFile* packet = new CSafeMemFile((BYTE*)in_packet,size,0);
+	CSearchFile* toadd = new CSearchFile(packet, m_nCurrentSearch);
+d201 1
+a201 2
+	packet->Close();
+	delete packet;
+@
+
+
+1.7
+log
+@Upgrade to webserver official 0.28a
+@
+text
+@d266 5
+@
+
+
+1.6
+log
+@More exception handling
+@
+text
+@d255 57
+@
+
+
+1.5
+log
+@Show Files TAB is closed if the user files are requested again (BUG #0000032)
+@
+text
+@d28 1
+a28 1
+	
+d50 1
+d54 1
+d59 1
+d63 1
+d68 1
+d73 1
+d78 2
+a79 1
+	return 0;
+d83 1
+d90 1
+d107 1
+d112 1
+d116 1
+d128 1
+d132 1
+d141 1
+d145 1
+d154 1
+d158 1
+d167 1
+d172 1
+d192 1
+d197 1
+d203 1
+d208 1
+d235 2
+d240 1
+d247 2
+@
+
+
+1.4
+log
+@bugfixed server & global search
+@
+text
+@d151 2
+a152 1
+uint16 CSearchList::ProcessSearchanswer(char* in_packet, uint32 size, CUpDownClient* Sender){
+d155 2
+d158 1
+@
+
+
+1.3
+log
+@End of double check with official code.
+@
+text
+@d181 3
+a183 1
+	if (!bClientResponse && !(resultType == GetResString(IDS_SEARCH_ANY) || GetFiletypeByName(toadd->GetFileName())==resultType)){
+d187 2
+a188 1
+	for (POSITION pos = list.GetHeadPosition(); pos != NULL; list.GetNext(pos)){
+d197 1
+a197 1
+		}
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a17 1
+
+a26 1
+
+d66 1
+d74 1
+a84 1
+
+a218 1
+
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d22 7
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

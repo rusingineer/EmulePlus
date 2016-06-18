@@ -1,0 +1,102 @@
+head	1.2;
+access;
+symbols
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.8
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.6
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.4
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2003.04.29.16.34.25;	author kuchin;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.25.10.54.18;	author kuchin;	state Exp;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2003.02.25.13.42.25;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Rearrangements
+@
+text
+@/*-
+ * See the file LICENSE for redistribution information.
+ *
+ * Copyright (c) 1998-2002
+ *	Sleepycat Software.  All rights reserved.
+ *
+ *	@@(#)db_join.h	11.1 (Sleepycat) 7/25/99
+ */
+
+#ifndef _DB_JOIN_H_
+#define	_DB_JOIN_H_
+
+/*
+ * Joins use a join cursor that is similar to a regular DB cursor except
+ * that it only supports c_get and c_close functionality.  Also, it does
+ * not support the full range of flags for get.
+ */
+typedef struct __join_cursor {
+	u_int8_t *j_exhausted;	/* Array of flags; is cursor i exhausted? */
+	DBC	**j_curslist;	/* Array of cursors in the join: constant. */
+	DBC	**j_fdupcurs;	/* Cursors w/ first intances of current dup. */
+	DBC	**j_workcurs;	/* Scratch cursor copies to muck with. */
+	DB	 *j_primary;	/* Primary dbp. */
+	DBT	  j_key;	/* Used to do lookups. */
+	DBT	  j_rdata;	/* Memory used for data return. */
+	u_int32_t j_ncurs;	/* How many cursors do we have? */
+#define	JOIN_RETRY	0x01	/* Error on primary get; re-return same key. */
+	u_int32_t flags;
+} JOIN_CURSOR;
+
+#endif /* !_DB_JOIN_H_ */
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@@
+
+
+1.1.2.1
+log
+@*** empty log message ***
+@
+text
+@@
+

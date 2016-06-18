@@ -1,0 +1,302 @@
+head	1.8;
+access;
+symbols
+	PublicRelease_1_2e:1.8
+	Interim_Release_1-2e_RC1:1.8
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.7
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.5
+	Interim_Release_1-2c_RC1:1.5
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.5
+	PublicRelease_1_2a:1.5
+	Interim_Release_1-2a_RC1:1.5
+	Interim_Release_1-2a_beta2:1.5
+	Interim_Release_1-2a_beta1:1.5
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.5
+	PublicRelease_1_1g:1.5
+	Interim_Release_1-1g_RC3:1.5
+	Interim_Release_1-1g_RC2:1.5
+	Interim_Release_1-1g_RC1:1.5
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4
+	PublicRelease_1_1d:1.4
+	Interim_Release_1-1d_RC1:1.4
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.4
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.4
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.3
+	Interim_Release_1n_RC2:1.3
+	Interim_Release_1n_RC1:1.3
+	Interim_Release_1n_beta2:1.3
+	Interim_Release_1n_beta1:1.3
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.2
+	Interim_Release_1l_RC1:1.2
+	Interim_Release_1l_beta2:1.2
+	Interim_Release_1l_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.8
+date	2008.04.29.05.01.51;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2007.12.30.06.07.27;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.10.31.18.25.08;	author fuxie-dk;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.08.19.19.07.59;	author eklmn;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.09.21.03.05.07;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.04.18.13.17.30;	author bavariansnail;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.17.15.27.54;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Removed unused code.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+class CPreferences;
+
+class CPPgLogs : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgLogs)
+
+public:
+	CPPgLogs();
+	virtual ~CPPgLogs();
+
+	void SetPrefs(CPreferences* in_prefs) { m_pPrefs = in_prefs; }
+	void Localize(void);
+
+	enum { IDD = IDD_PPG_LOGS };
+
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+	afx_msg void OnSettingsChange()						{ SetModified(); }
+	afx_msg void OnChangeDebugLogging();
+
+protected:
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	DECLARE_MESSAGE_MAP()
+
+private:
+	void LoadSettings(void);
+
+protected:
+	CPreferences *m_pPrefs;
+	BOOL	m_bModified;
+	BOOL	m_bWriteLogToFile;
+	BOOL	m_bDebugLog;
+	BOOL	m_bCmNotLog;
+	BOOL	m_bUploadLog;
+	BOOL	m_bDownloadLog;
+	BOOL	m_bAutoSrcLog;
+	BOOL	m_bClientTransferLog;
+};
+@
+
+
+1.7
+log
+@Optimized dialog regarding required memory and speed;
+Suppressed compiler warnings; Formatting.
+@
+text
+@d35 1
+a35 1
+	afx_msg void OnSettingsChange()						{SetModified();}
+a45 1
+	afx_msg void OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar);
+@
+
+
+1.6
+log
+@Suppressed compiler warnings; Reduced H-file dependency [Aw3].
+@
+text
+@d28 1
+a28 1
+	void SetPrefs(CPreferences* in_prefs) {	m_pPrefs = in_prefs; }
+a30 1
+// Dialog Data
+d32 6
+a38 3
+	CPreferences *m_pPrefs;
+
+	BOOL	m_bModified;
+d48 1
+d51 1
+a51 5
+public:
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+	afx_msg void OnSettingsChange()						{SetModified();}
+	afx_msg void OnChangeDebugLogging();
+d53 9
+a61 15
+	BOOL writeLogToFile;
+	BOOL debugLog;
+	BOOL cmNotLog;
+	BOOL uploadLog;
+	BOOL downloadLog;
+	BOOL autoSourcesLogEnabled;
+	BOOL clientTransferLogEnabled;
+private:
+	CButton writeLogToFileCheck;
+	CButton debugLogCheck;
+	CButton cmNotLogCheck;
+	CButton uploadLogCheck;
+	CButton downloadLogCheck;
+	CButton autoSourcesLogEnabledCheck;
+	CButton clientTransferLogEnabledCheck;
+@
+
+
+1.5
+log
+@download log (part2: GUI)
+@
+text
+@d1 15
+d18 1
+a18 3
+#include "preferences.h"
+#include "Loggable.h"
+#include "afxwin.h"
+d20 1
+a20 3
+// CPPgLogs dialog
+
+class CPPgLogs : public CPropertyPage, public CLoggable
+d36 1
+a36 1
+	bool m_bModified;
+a44 1
+//	static CBarShader s_preview;
+@
+
+
+1.4
+log
+@Enable/disable Preferences->Logs controls dependent on the debug logging.
+@
+text
+@d48 1
+d56 1
+@
+
+
+1.3
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d42 2
+a43 1
+protected:		
+@
+
+
+1.2
+log
+@auto max sources per file
+@
+text
+@d48 1
+d55 1
+@
+
+
+1.1
+log
+@Updated preferences (moved logs to a new page so we can add more options in the future)
+@
+text
+@d47 1
+d53 1
+@
+

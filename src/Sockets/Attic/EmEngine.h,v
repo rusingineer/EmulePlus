@@ -1,0 +1,384 @@
+head	1.16;
+access;
+symbols
+	PublicRelease_1i:1.12
+	Interim_Release_1i_RC6:1.12
+	Interim_Release_1i_RC3:1.12
+	Interim_Release_1i_RC2:1.12
+	Interim_Release_1i_RC1:1.10
+	Interim_Release_1i_beta3:1.10
+	Interim_Release_1i_beta2:1.10
+	Interim_Release_1i_beta1:1.10
+	PublicRelease_1h:1.10
+	Interim_Release_1h_rc2:1.9
+	Interim_Release_1h_RC1:1.9
+	Interim_Release_1h_beta2:1.8
+	Interim_Release_1h_beta1_now:1.2
+	Interim_Release_1h_beta1:1.2
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.16
+date	2003.12.16.17.48.07;	author kuchin;	state dead;
+branches;
+next	1.15;
+
+1.15
+date	2003.12.16.14.28.59;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.12.15.14.47.32;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.12.14.17.15.56;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.11.17.10.24.33;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.11.15.12.31.46;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.16.16.34.40;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.08.17.55.38;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.04.11.19.28;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.03.17.56.29;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.03.12.40.32;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.03.11.50.54;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.27.09.27.14;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.26.16.54.24;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.15.10.08.19;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.23.18.06.39;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@New engine
+@
+text
+@// EmEngine.h: interface for the CEmEngine class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#define WM_TASK_UI WM_USER + 1000
+
+#ifdef NEW_SOCKETS
+#if !defined(AFX_EMENGINE_H__F77B635A_251D_4554_9D96_DACFCA968759__INCLUDED_)
+#define AFX_EMENGINE_H__F77B635A_251D_4554_9D96_DACFCA968759__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "../Loggable.h"
+#include "TaskProcessor_Main.h"
+#include "TcpEngine.h"
+#include "../EngineData.h"
+
+class CServer;
+
+class CEmEngine : public CLoggable
+{
+	HANDLE m_hStop; // termination event
+
+	HWND m_hWndUI;
+
+public:
+
+	CTaskProcessor_Main	m_stMain;
+	CTcpEngine			m_stTcp;
+	CEngineData			m_stData;
+
+	CEmEngine() :
+		m_hStop(NULL),
+		m_stMain(*this),
+		m_stTcp(*this),
+		m_hWndUI(NULL),
+		m_stData(*this)
+		{}
+	~CEmEngine() { Uninit(); }
+
+	bool Init(HWND hWndUI);
+	void Uninit();
+
+	bool InitializeDatabases();
+	void CloseDatabases();
+
+	// public methods
+	void ConnectToServer(CServer* pServer = NULL);
+	void ConnectToAnyServer();
+	void DisconnectFromServer(SOCKET hPrevServer = NULL);
+
+	void SendSharedListToServer();
+
+
+	inline bool IsShuttingDown() { return WAIT_TIMEOUT != WaitForSingleObject(m_hStop, 0); }
+
+	inline void PushToUI(CTask* pTask)
+	{
+		if (pTask && !PostMessage(m_hWndUI, WM_TASK_UI, (WPARAM) pTask, 0))
+		{
+			ASSERT(FALSE);
+			delete pTask;
+		}
+	}
+
+	DbEnv	*m_pDbEnv;				// Database environment
+	Db		*m_pDbServers;			// Servers list Db
+	Db		*m_pDbServersAddr;		// Servers list primary index by addr/port/dynIP
+	Db		*m_pDbServersStatic;	// Servers list secondary index by static
+	Db		*m_pDbServersPriority;	// Servers list secondary index by priority
+};
+
+#endif // !defined(AFX_EMENGINE_H__F77B635A_251D_4554_9D96_DACFCA968759__INCLUDED_)
+#endif@
+
+
+1.15
+log
+@New engine - server classes, database
+@
+text
+@@
+
+
+1.14
+log
+@New engine - server classes, database
+@
+text
+@d70 1
+a70 2
+	Db		*m_pDbServersAddr;		// Servers list primary index by addr/port
+	Db		*m_pDbServersDynIP;		// Servers list primary index by dynIP/port
+@
+
+
+1.13
+log
+@New engine - server classes, database
+@
+text
+@d70 4
+a73 2
+	Db		*m_pDbServersStatic;	// Servers list 'static' secondary index
+	Db		*m_pDbServersPriority;	// Servers list 'prioriry' secondary index
+@
+
+
+1.12
+log
+@New sockets
+@
+text
+@d46 3
+d67 5
+@
+
+
+1.11
+log
+@New sockets
+@
+text
+@d46 1
+d50 3
+@
+
+
+1.10
+log
+@New sockets
+@
+text
+@d56 1
+a56 1
+			// log
+@
+
+
+1.9
+log
+@New sockets - more server logic
+@
+text
+@d46 3
+a48 1
+	void ConnectToServer(CServer* pServer);
+@
+
+
+1.8
+log
+@New sockets
+@
+text
+@d20 2
+d46 1
+a46 1
+	void ConnectToServer(LPCTSTR sAddr, USHORT nPort, LPCTSTR sName);
+@
+
+
+1.7
+log
+@New sockets
+@
+text
+@d18 1
+a18 2
+
+class CEngineData;
+d30 1
+a30 2
+
+	CEngineData*		m_pEngineData;
+d36 2
+a37 1
+		m_hWndUI(NULL)
+@
+
+
+1.6
+log
+@Compilation fix
+@
+text
+@d19 2
+d31 2
+@
+
+
+1.5
+log
+@New sockets
+@
+text
+@d4 3
+a17 2
+
+const UINT WM_TASK_UI = WM_USER + 1000;
+@
+
+
+1.4
+log
+@New sockets. Connecting to server from server list
+@
+text
+@d16 1
+a16 1
+const UINT WM_TASK_UI = WM_USER + 1;
+d37 1
+a37 1
+	bool Init();
+@
+
+
+1.3
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@d40 2
+@
+
+
+1.2
+log
+@Another new sockets cumulative update
+@
+text
+@d12 3
+a14 1
+#include "Loggable.h"
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d14 2
+d20 2
+d30 2
+a31 1
+		m_stTcp(*this)
+d39 9
+@
+

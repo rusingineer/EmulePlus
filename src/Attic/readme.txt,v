@@ -1,0 +1,75 @@
+head	1.3;
+access;
+symbols
+	Interim_Release_1h_beta2:1.2
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2003.09.08.14.09.44;	author dongato;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.20.01.56.31;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.18.11.49.33;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Cleaned the CVS source. Now libs are distributed in another file.
+@
+text
+@Compilation Instructions
+========================
+
+1. Decompress the files amaudio.rar and amvideo.rar from the directory amvideo.h
+and overwrite the files in (or where your installation is):
+C:\Program Files\Microsoft Visual Studio .NET\Vc7\PlatformSDK\Include\prerelease\
+2. Decompress the file libdb41s.rar in the same directory (BerkeleyDb\build_win32)
+3. Decompress the file CxImage_lib.rar in the same directory (Cximage)
+4. Decompress the file CxImage.rar in the same directory (Cximage)
+5. Decompress the file libpng.rar in the same directory (png)
+6. Decompress the file strmbase.rar in the same directory (strmbase)
+7. Ready to go
+
+Debug build
+===========
+1. Download the BerkleyDb source from http://sourceforge.net/project/showfiles.php?group_id=71866
+2. Compile it
+3. Put the resulting lib (libdb41sd.lib) into 'BerkeleyDb\build_win32' directory
+4. Ready to go
+@
+
+
+1.2
+log
+@Fixes
+@
+text
+@@
+
+
+1.1
+log
+@Updates to QR code by cendre-eau and other changes.
+@
+text
+@d9 1
+a9 1
+4. Decompress ximage.cpp/h from the file CxImage.rar in the same directory (Cximage)
+@
+

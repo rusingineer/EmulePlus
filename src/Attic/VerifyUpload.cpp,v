@@ -1,0 +1,384 @@
+head	1.9;
+access;
+symbols
+	PublicRelease_1_1a:1.8
+	Interim_Release_1-1a_RC2:1.8
+	Interim_Release_1-1a_RC1:1.8
+	Interim_Release_1-1a_beta2:1.8
+	Interim_Release_1-1a_beta1:1.8
+	PublicRelease_1_1:1.8
+	Interim_Release_1-1_beta1:1.8
+	PublicRelease_1o:1.8
+	Interim_Release_1o_RC1:1.8
+	Interim_Release_1o_beta1:1.8
+	PublicRelease_1n:1.8
+	Interim_Release_1n_RC2:1.8
+	Interim_Release_1n_RC1:1.8
+	Interim_Release_1n_beta2:1.8
+	Interim_Release_1n_beta1:1.8
+	PublicRelease_1m:1.8
+	Interim_Release_1m_beta1:1.8
+	PublicRelease_1l:1.8
+	Interim_Release_1l_RC3:1.8
+	Interim_Release_1l_RC2:1.8
+	Interim_Release_1l_RC1:1.8
+	Interim_Release_1l_beta2:1.8
+	Interim_Release_1l_beta1:1.8
+	PublicRelease_1k:1.8
+	Interim_Release_1k_RC4:1.8
+	Interim_1k_RC3:1.8
+	Interim_1k_RC2:1.8
+	Interim_Release_1k_RC1:1.8
+	Interim_Release_1k_beta5:1.8
+	Intrerim_Release_1k_beta4:1.8
+	Interim_Release_1k_beta1:1.7
+	PublicRelease_1j:1.7
+	Interim_Release_1J_RC3:1.7
+	Interim_Release_1j_RC3:1.7
+	Interim_Release_1j_RC2:1.7
+	Interim_Release_1j_RC1:1.7
+	Interim_Release_1j_beta2:1.7
+	Interim_Release_1j_beta1:1.7
+	PublicRelease_1i:1.7
+	Interim_Release_1i_RC6:1.7
+	Interim_Release_1i_RC3:1.7
+	Interim_Release_1i_RC2:1.7
+	Interim_Release_1i_RC1:1.7
+	Interim_Release_1i_beta3:1.7
+	Interim_Release_1i_beta2:1.7
+	Interim_Release_1i_beta1:1.5
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3
+	Interim_Release_1h_beta2:1.3
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3
+	PublicRelease_1g:1.3
+	Interim_Release_1g_RC6_Final:1.3
+	Interim_Release_1g_RC6:1.3
+	Interim_Release_1g_RC5:1.3
+	Interim_Release_1g_RC4:1.3
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.2
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.8
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.6
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.9
+date	2004.12.21.06.39.43;	author aw3;	state dead;
+branches;
+next	1.8;
+
+1.8
+date	2004.02.27.01.25.09;	author kush_eplus;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.17.10.29.07;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.20.15.39.32;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.19.00.13.38;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.09.15.14.38;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.51;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.37;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@Removed unused code.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+//	ListenSocket.cpp : implementation file
+
+#include "stdafx.h"
+#include "emule.h"
+#include "ClientList.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#define new DEBUG_NEW
+#endif
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	VerifyUpload() returns true if the spec'd client is downloading and has a data rate over 1k/sec or has
+//		transferred over 400k. METHOD IS NOT USED.
+bool CClientList::VerifyUpload(uint32 dwClientIP, uint16 nPort)
+{
+	CUpDownClient		*pClient = FindClientByIP(dwClientIP, nPort);
+
+	if ( pClient != NULL
+	  && ( (pClient->GetDownloadState() == DS_DOWNLOADING && pClient->GetDataRate() > 1000)
+	    || (pClient->GetTransferredDown() > 400000) ) )
+	{
+		return true;
+	}
+
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CUpDownClient *CClientList::VUGetRandomClient()
+{
+	CTypedPtrList<CPtrList, CUpDownClient*>		clientList;
+	CUpDownClient							   *pClient;
+
+	for (POSITION pos = m_clientList.GetHeadPosition(); pos != NULL; )
+	{
+		pClient = m_clientList.GetNext(pos);
+
+#ifdef OLD_SOCKETS_ENABLED
+		if ( pClient->m_pRequestSocket != NULL && pClient->m_pRequestSocket->IsConnected()
+		  && pClient->GetMuleVersion() >= 0x20 && (pClient->GetTransferredUp() > 400000) )
+		{
+			clientList.AddTail(pClient);
+		}
+#endif //OLD_SOCKETS_ENABLED
+	}
+	if (clientList.IsEmpty())
+		return NULL;
+
+	uint16		nRandomIndex = static_cast<uint16>(ROUND((static_cast<double>(rand()) / RAND_MAX) * (clientList.GetCount() - 1)));
+
+	ASSERT (clientList.FindIndex(nRandomIndex) != NULL);
+
+	return clientList.GetAt(clientList.FindIndex(nRandomIndex));
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.8
+log
+@list processing and other optimizations
+@
+text
+@@
+
+
+1.7
+log
+@no message
+@
+text
+@d49 1
+d51 1
+a51 1
+	for (POSITION pos = m_clientList.GetHeadPosition(); pos != 0; m_clientList.GetNext(pos))
+d53 1
+a53 1
+		CUpDownClient		*pClient = m_clientList.GetAt(pos);
+@
+
+
+1.6
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d17 1
+a17 1
+// ListenSocket.cpp : implementation file
+d25 1
+a25 1
+static char THIS_FILE[]=__FILE__;
+d29 13
+a42 4
+bool CClientList::VerifyUpload(uint32 clientip,uint16 port){
+	CUpDownClient* tocheck = FindClientByIP(clientip,port);
+	if (tocheck && ( (tocheck->GetDownloadState() == DS_DOWNLOADING && tocheck->GetDataRate() > 1000) || ( tocheck->GetTransferredDown() > 400000 ) ))
+		return true;
+d45 8
+a53 4
+CUpDownClient* CClientList::VUGetRandomClient(){
+	CTypedPtrList<CPtrList, CUpDownClient*> templist;
+	for (POSITION pos = m_clientList.GetHeadPosition();pos != 0;m_clientList.GetNext(pos)){
+		CUpDownClient* cur_client = m_clientList.GetAt(pos);
+d55 4
+a58 2
+		if (cur_client->socket && cur_client->socket->IsConnected() && cur_client->GetMuleVersion() >= 0x20 && (cur_client->GetTransferredUp() > 400000) ){
+			templist.AddTail(cur_client);
+d62 8
+a69 5
+	if (templist.IsEmpty())
+		return 0;
+	uint16 randomness = (uint16)ROUND(((float)rand()/RAND_MAX)*(templist.GetCount()-1));
+	ASSERT ( templist.FindIndex(randomness) != NULL);
+	return templist.GetAt(templist.FindIndex(randomness));
+d71 1
+a71 1
+
+@
+
+
+1.5
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d39 2
+a40 2
+	for (POSITION pos = list.GetHeadPosition();pos != 0;list.GetNext(pos)){
+		CUpDownClient* cur_client = list.GetAt(pos);
+@
+
+
+1.4
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d21 1
+a21 1
+#include "clientlist.h"
+@
+
+
+1.3
+log
+@Preparing for new sockets
+@
+text
+@d32 1
+a32 1
+	if (tocheck && ( (tocheck->GetDownloadState() == DS_DOWNLOADING && tocheck->GetDatarate() > 1000) || ( tocheck->GetTransferedDown() > 400000 ) ))
+d42 1
+a42 1
+		if (cur_client->socket && cur_client->socket->IsConnected() && cur_client->GetMuleVersion() >= 0x20 && (cur_client->GetTransferedUp() > 400000) ){
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d41 1
+d45 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d23 7
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

@@ -1,0 +1,593 @@
+head	1.4;
+access;
+symbols
+	Interim_Release_1g_RC5:1.3
+	Interim_Release_1g_RC4:1.3
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.3
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.8
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.6
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.4
+date	2003.07.12.14.51.48;	author dongato;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2003.05.30.21.26.59;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.17.15.07.41;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.23;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.31;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Removed old Stored Sources files.
+@
+text
+@#include "stdafx.h"
+#ifdef OLD_SLS_ENABLED
+
+#pragma once
+#include "afx.h"
+#include "afxcoll.h"
+#include "afxtempl.h"
+#include "afxsock.h"
+
+//from eMule-project:
+#include "types.h"
+#include "opcodes.h"
+
+
+////////////////////////////////////////////////////////////////////////////////////
+//Class: CServerEntry
+
+//this class represents a server and contains 
+//a port-number (uint16), an ip-address (uint32) and a counter (int)
+//for the frequency of how often a user was on this server
+class CServerEntry :
+	public CObject
+{
+protected:
+	uint32	m_iServerIP;
+	uint16	m_iServerPort;
+		//counter: how often was the user on this server
+	uint16	m_iCounter;
+public:
+	#ifdef _DEBUG
+		virtual void Dump( CDumpContext& dc ) const;
+	#endif
+
+	CServerEntry(void);
+	CServerEntry(uint32 serverIP, uint16 serverPort);
+	CServerEntry(uint32 serverIP, uint16 serverPort, uint16 counter);
+	~CServerEntry(void);
+	virtual void	Serialize(CArchive& ar);
+	void			SetCounter(uint16 counter);
+	void			IncrementCounter()			{m_iCounter++;};
+	uint16			GetCounter()				{return m_iCounter;};
+	uint32			GetServerIP()				{return m_iServerIP;};
+
+		//you have to delete the object behind the char* pointer, when you
+		//do not need any longer; the char-Array to which the returned
+		//pointer points to is independent from the CServerEntry-object
+	char*			GetFullServerIP();
+	uint16			GetServerPort()				{return m_iServerPort;};
+
+	bool			IsEqual(CServerEntry* toCompare);
+
+DECLARE_SERIAL(CServerEntry)
+//DECLARE_DYNAMIC(CServerEntry)
+
+};
+
+////////////////////////////////////////////////////////////////////////////////////
+//Class: CSourceEntry
+
+//this class represents a source and contains all informations
+//to create a CUpDownClient
+//various User-IDs and Servers on which this user was, are also saved in this class
+class CSourceEntry :
+	public CObject
+{
+protected:
+	CString					m_strUserName;
+	uint16					m_iUserPort;
+		//volume of how much this source has uploaded yet
+		//(not implemented yet)
+	uint32					m_iTransfered;
+		//user-setted: claims that this source is reliable, and that
+		// therefor it must not be deleted, even if it's outdated
+	bool	m_bIsReliable;
+		//count of parts this source has but I don't have
+	uint16					m_iPartsCount;
+	COleDateTime			m_dtLastSeen;
+	unsigned int			m_nFailedConnections; // Added by Tarod (LS tweak)
+	unsigned int			m_referenceCount; // HACK by Md5Chap 2002-11-24 (ref in baseclient/ResetFailedConnections)
+	CList<uint32, uint32>	m_listUserIDs;
+		//ObjectArray of CServerEntry
+		//todo: integrate .SetSize()
+	CObArray				m_obarrayServerList;
+
+	uint16					m_iServerAtPositon;
+	POSITION				m_posUserIDAtPositon;
+
+		//standard initialisations (call only by the constructors)
+	void					Init( uint16 userPort
+								, uint32 userID
+								, uint32 serverIP
+								, uint16 serverPort
+								, uint16 partsCount
+								, CString userName	= NONAME
+								, uint32 transfered	= 0
+								, bool isReliable	= false);
+		//standard update-functionality (call only by void AddSourceInformation()
+	void					StandardAddInformation(uint32 userID
+												, uint32 serverIP
+												, uint16 serverPort
+												, uint16 partsCount
+												, CString userName = NONAME);
+public:
+	#ifdef _DEBUG
+		virtual void Dump( CDumpContext& dc ) const;
+	#endif
+	CSourceEntry(void);
+	CSourceEntry(CSourceEntry* toCopy);
+	CSourceEntry(uint16 userPort, uint32 userID, uint32 serverIP
+				, uint16 serverPort
+				, uint16 partsCount = 0, bool isReliable = false);
+	CSourceEntry(uint16 userPort, uint32 userID, uint32 transfered, uint32 serverIP
+				, uint16 serverPort
+				, uint16 partsCount = 0, bool isReliable = false);
+	CSourceEntry(CString userName, uint16 userPort, uint32 userID, uint32 serverIP
+				, uint16 serverPort
+				, uint16 partsCount = 0, bool isReliable = false);
+	CSourceEntry(CString userName, uint16 userPort, uint32 userID, uint32 transfered
+				, uint32 serverIP, uint16 serverPort
+				, uint16 partsCount = 0, bool isReliable = false);
+	~CSourceEntry(void);
+
+	bool	IsEqual(CSourceEntry* toCompare);//todo: integrate m_iPartsCount
+
+		// Added by Tarod (LS tweak)
+	void					IncrementFailedConnections() { m_nFailedConnections ++ ; }
+	void					ResetFailedConnections() { m_nFailedConnections = 0 ; }
+		// HACK by Md5Chap 2002-11-23 (reference counter -> see baseclient(ResetFailedConnections)) 
+	unsigned int			AddRef() {return ++m_referenceCount;}
+	unsigned int			Release(bool AutoDelete) {ASSERT(m_referenceCount>0);if (AutoDelete && (m_referenceCount==1)){delete this;return 0;};return --m_referenceCount;}
+	unsigned int			GetRef() {return m_referenceCount;}
+
+		//the function-name says it all
+		//returns -1 if either the m_dtLastSeen or
+		//the current time is invalid (that current time could
+		//be invalid is very unlikely, but you never know...)
+	int				GetTimeSpanSinceLastSeen();
+		//returns true, if this CSourceEntry is outdated (refering to m_dtLastSeen)
+		//(value for outdated (in days): check #define OUTDATED)
+		// Md5Chap 2002-11-27: Now smooth outdating is performed and rarefiles are honored too!!!
+		// Israrefiles is superseeded by this function and will is commented
+	bool			IsOutdatedSmooth(double fail,double age,double sources=-1);
+	bool			IsOutdated(int numSources=-1); // HACK by Md5Chap 2002-11-26 (using advanced aging now)
+		
+		//low IDs are outdated earlier, than high IDs (reduces the count of IDs to MAX_IDS_PER_SOURCE)
+		//returns false, if there are no user-IDs left for this SourceEntry
+		//(indicating that this SourceEntry must be deleted)
+	bool			DeleteOutdatedIDs();
+		//reduces the count of ServerEntries to (param) count
+		//(the newest ones are kept)
+		//returns the count of removed ServerEntries
+	uint16			ReduceServersTo(uint16 count);
+		//is (param) id a low-ID?
+	bool			IsLowID(uint32 id);
+
+	//todo: AddSourceInformation including (int) transfered
+		
+		//this one is for updating a CSourceEntry with another CSourceEntry
+		//if the values are not yet stored in this CSourceEntry
+		//, userID and server are added to this entry
+		//returns false, if the given CSourceEntry is not for
+		//for the same user (by comparison of the user name and port)
+	bool AddSourceInformation(CSourceEntry* newInformation);
+
+		//this one is for updating a source
+		//if the values are not yet stored in this CSourceEntry
+		//, userID and server are added to this entry
+	void AddSourceInformation(uint32 userID, uint32 serverIP, uint16 serverPort
+								, uint16 partsCount);
+								
+		//this one is for updating a source
+		//if the values are not yet stored in this CSourceEntry
+		//, userID and server are added to this entry
+		//(same as above but with name for user:
+		//if this user has no name yet, he gets
+		//the one from the parameters)
+	void AddSourceInformation(CString userName, uint32 userID, uint32 serverIP,
+								uint16 serverPort, uint16 partsCount);								
+
+	CString			GetUserName() const			{return m_strUserName;};  // Modified by Tarod [i_a]
+	void			SetUserName(CString new_username) { m_strUserName = new_username ; } // Modified by Tarod [i_a]
+	uint16			GetUserPort()				{return m_iUserPort;};
+	uint32			GetTransfered()				{return m_iTransfered;};
+	uint16			GetPartsCount()				{return m_iPartsCount;};
+	bool			GetReliable()				{return m_bIsReliable;};
+	void			SetReliable(bool setTo)		{m_bIsReliable = setTo;};
+		//returns the first user ID or 0, if no user ID was found		
+	uint32			GetFirstUserID();
+	
+		//returns the next (of userIDAtPositon) user ID
+		//or 0, if there is no (next) user ID
+	uint32			GetNextUserID();
+
+	bool			UserIDExists(uint32 userID)	{return (m_listUserIDs.Find(userID)==NULL?false:true);}
+	bool			RemoveUserID(uint32 userID);
+
+		//returns the first ServerEntry or NULL,
+		//if no ServerEntry was found
+	CServerEntry*	GetFirstServerEntry();	
+
+		//returns the next (of serverAtPositon)
+		//ServerEntry or NULL, if no (next)
+		//ServerEntry was found
+	CServerEntry*	GetNextServerEntry();
+		
+	//returns the previous (of serverAtPositon)
+		//ServerEntry or NULL, if no (previous)
+		//ServerEntry was found
+	CServerEntry*	GetPreviousServerEntry();
+		
+		//returns the last ServerEntry or
+		// NULL, if no CServerEntry exists yet
+	CServerEntry*	GetLastServerEntry();
+
+
+		//Get the time, when this User (Source) was last seen
+	COleDateTime	GetLastSeenTime() const {return m_dtLastSeen;};
+		//(re)set time, when this User (Source) was last seen
+	void			ResetLastSeenTime()	{m_dtLastSeen = COleDateTime::GetCurrentTime();};
+
+	virtual void Serialize(CArchive& ar);
+
+DECLARE_SERIAL(CSourceEntry)
+//DECLARE_DYNAMIC(CSourceEntr)
+
+};
+
+////////////////////////////////////////////////////////////////////////////////////
+//Class: CStoredSources
+
+//this class represents a collection of sources (CSourceEntry)
+//for one CPartFile (identified by its file-hash)
+class CStoredSources :
+	public CObject
+{
+protected:
+		// Name of the *.part File
+	CString m_strPartFileName;
+		// Name of the (original) File
+	CString m_strFileName;
+		// Hash of the File (eDonkey-ID)
+	CString m_strFileID;
+		//max. count of sources that will be saved (via serialization)
+	uint16 m_iMaxSourceEntries;
+		//time-interval for loading sources
+	uint32	m_iLoadingSourcesTimeInterval;
+		//time-interval for loading seperate blocks (size of a block is defined by the
+		//variable m_iLoadSourcesAtOnceLimit) in 'slow-loading' mode
+	uint32	m_iLoadingSourcesPartialTimeInterval;
+		//time-interval for saving sources
+	uint32	m_iSavingSourcesTimeInterval;
+		//size of a block that is loaded at once in 'slow-loading' mode
+	uint16	m_iLoadSourcesAtOnceLimit;
+		// Array of the eDonkey-Sources (CSourceEntry)
+		//todo: integrate .SetSize(...)
+	CObArray m_obarraySourceList;
+		//index of the current source (for GetFirstSource, GetNextSource)
+	uint16	m_iSourcesAtPosition;
+		//Version-Number of CStoredSources (needed for Serialization)
+	int		m_iVersion;
+		//indicates, if this StoredSources should be loaded by eMule
+	bool	m_bLoadTheseSources;
+		//standard initialisations (only allowed for the constructors)
+	void					Init(CString partFileName, CString fileName, const uchar* fileID
+								, uint16 maxSourceEntries = MAX_SOURCES_PER_FILE
+								, uint16 userPort	= 0
+								, uint32 userID		= 0
+								, uint32 serverIP	= 0
+								, uint16 serverPort	= 0
+								, CString userName	= NONAME);
+		//do an update (only allowed for the UpdateSource(...) functions
+	void					StandardUpdate(uint16 userPort
+											, uint32 userID
+											, uint32 serverIP
+											, uint16 serverPort
+											, uint16 partsCount	= 0
+											, CString userName	= NONAME);
+public:
+	#ifdef _DEBUG
+		virtual void Dump( CDumpContext& dc ) const;
+	#endif
+	CStoredSources(void);
+	CStoredSources(CString partFileName, CString fileName, const uchar* fileID
+						, uint16 maxSourceEntries=MAX_SOURCES_PER_FILE);
+	CStoredSources(CString partFileName, CString fileName, const uchar* fileID
+						, CString userName, uint16 userPort, uint32 userID
+						, uint32 serverIP,uint16 serverPort
+						, uint16 maxSourceEntries=MAX_SOURCES_PER_FILE);
+
+		//this one is without CString userName (sometimes users have no name!?)
+	CStoredSources(CString partFileName, CString fileName
+						, const uchar* fileID, uint16 userPort, uint32 userID
+						, uint32 serverIP, uint16 serverPort
+						, uint16 maxSourceEntries=MAX_SOURCES_PER_FILE);
+	~CStoredSources(void);
+	
+	bool			IsEqual(CStoredSources* toCompare);
+		//as you can see, a file is considered rare, if the count of sources
+		//is smaller than a third of m_iMaxSourceEntries
+	// HACK 2002-11-27 (Superseeded by IsOutatedSmooth)
+	//bool			IsRareFile()	{return (m_obarraySourceList.GetCount() <= RARE_FILE );};
+		//indicates, if all sources of this StoredSources were delivered once by
+		//GetNextSourceEntry()
+	bool			GetLoadSources()			{return m_bLoadTheseSources;};
+	void			SetLoadSources(bool setTo)	{m_bLoadTheseSources = setTo;};
+
+	void			SetPreferences(uint16 maxSourceEntries
+									, uint16 loadSourcesAtOnceLimit
+									, uint32 loadSourcesTimeInterval
+									, uint32 loadSourcesPartialTimeInterval
+									, uint32 saveSourcesTimeInterval);
+
+		//to add or update an existing source
+		//returns false if the FileID (hash) of this CStoredSources
+		//differs from the one of newSources
+		//this is more or less a copy-function for CStoredSources
+		//Param overWrite*Name: if true, *Name of the existing is
+		//						overwritten by the one of newSources
+	bool			UpdateSource(CStoredSources* newSources
+									, bool overWritePartFileName = false
+									, bool overWriteFileName = false
+									, bool checkForEquality = true);
+
+		//to add or update an existing source
+		//use this version, if the user has no valid user-name
+	void			UpdateSource(uint16 userPort, uint32 userID,
+									uint32 serverIP, uint16 serverPort, uint16 partsCount);
+	
+		//to add or update an existing source
+	void			UpdateSource(CString userName, uint16 userPort, uint32 userID,
+									uint32 serverIP, uint16 serverPort, uint16 partsCount);
+	
+		//to find an existing source (returns -1, if this source does not exists)
+		//it's kind of not trivial to decide on which criterium you identify
+		//users in the eDonkey-Net ... I decided the combination
+		//of Name and Port would do, because I think most of the users have
+		//dynamic IPs
+	int				FindSource(CString userName, uint16 userPort);
+		
+		// Added by Tarod (CPU usage optimizations)
+		// sorts m_obarraySourceList using "fast" non-recursive Quick Sort algorithm
+	int				Partition(int lb, int ub, bool compare_date);
+	void			InsertSort(int lb, int ub, bool compare_date);
+	void			QuickSort(int lb, int ub, bool compare_date);
+	int				CompareParts(CSourceEntry* entry1, CSourceEntry* entry2, bool compare_date);
+
+		//sorts m_obarraySourceList by CSourceEntry.m_iPartsCount
+		//returns false, if m_obarraySourceList could not be sorted
+		//(posible reasons for that:
+		//            m_obarraySourceList is empty,
+		//            m_obarraySourceList was already sorted)
+	bool			SortSourcesByPartsCount(void);
+
+		//sorts m_obarraySourceList by CSourceEntry.m_iPartsCount
+		//and if two CSourceEntries have the same value then these by
+		//CSourceEntry.m_dtLastSeen
+		//returns false, if m_obarraySourceList could not be sorted
+		//(posible reasons for that:
+		//            m_obarraySourceList is empty,
+		//            m_obarraySourceList was already sorted)
+	bool			SortSourcesByPartsNDate(void);
+		//remove all outdated sources
+		//returns the count of the removed sources
+	uint16			DeleteOutdatedSources(void);
+		//reduce the count of entries (CSourceEntry) in m_obarraySourceList to sourceCount
+		//returns the count of the removed entries
+	uint16			ReduceSourcesTo(sint32 sourceCount=MAX_SOURCES_PER_FILE);
+					
+		//returns the first SourceEntry
+	CSourceEntry*	GetFirstSourceEntry();
+		//returns the next SourceEntry
+		//or NULL, if the last Entry was reached (the index counter is then reseted to the first position)
+	CSourceEntry*	GetNextSourceEntry();
+	uint16			GetMaxSourceEntries()	{return m_iMaxSourceEntries;};
+	bool			SetMaxSourceEntries(uint64 maxSourceEntries);
+	uint16			GetCountSourceEntrys()	{return (uint16) m_obarraySourceList.GetCount();};
+	uint32			GetCountOfSources();
+	CString			GetPartFileName()		{return m_strPartFileName;};
+	CString			GetFileName()			{return m_strFileName;};
+	CString			GetFileID()				{return m_strFileID;};
+	uint32			GetLoadSourcesTime()	{return m_iLoadingSourcesTimeInterval;};
+	uint32			GetLoadSourcesSlowTime(){return m_iLoadingSourcesPartialTimeInterval;};
+	uint32			GetSaveSourcesTime()	{return	m_iSavingSourcesTimeInterval;};
+	uint16			GetLoadSourcesLimit()	{return m_iLoadSourcesAtOnceLimit;};
+	int				GetVersion()			{return m_iVersion;};
+		//get the actual index (zero-based) of the SourceEntries
+	uint16			GetSourceIndex()		{return m_iSourcesAtPosition;};
+		//set the actual index (zero-based) of the SourceEntries to (param) index
+		//returns false, if (param) index is out of boundary (index is not set then)
+	bool			SetSourceIndex(uint16 index);
+
+		//you have to delete the object behind the uchar* pointer, when you
+		//do not need it any longer; the uchar-Array to which the returned
+		//pointer points to is independent from the CStoredSources-object
+	uchar*			GetFileHash();
+
+	//todo: clean/optimize Serialize
+	virtual void	Serialize(CArchive& ar);
+
+DECLARE_SERIAL(CStoredSources)
+//DECLARE_DYNAMIC(CStoredSource)
+
+
+};
+
+////////////////////////////////////////////////////////////////////////////////////
+//Class: CStoredSourcesContainer
+
+//this class is a contianer for CStoredSources
+class CStoredSourcesContainer:
+	public CObject
+{
+protected:
+	uint16			m_iVersion;
+	CObArray		m_obarrayOfStoredSources;
+	COleDateTime	m_dtLastUpdated;
+public:
+	CStoredSourcesContainer(void);
+		//constructs a CStoredSourcesContainer and adds a copy 
+		//of toSave to m_obarrayOfStoredSources
+	CStoredSourcesContainer(CStoredSources* toSave);
+	~CStoredSourcesContainer(void);
+		//adds a copy of toSave to m_obarrayOfStoredSources
+		//returns true if toSave could be added or false
+		//there already was an entry for the CPartFile (search-key: file-hash)
+	bool	Add(CStoredSources* toSave);
+		//returns NULL, if iIndex is no vaild Index of m_obarrayOfStoredSources
+	CStoredSources*	GetAt(int iIndex);
+		//returns NULL, if partName is not found
+	CStoredSources*	GetByPartName(CString partName);
+		//returns NULL, if fileID is not found
+	CStoredSources*	GetByFileID(CString fileID);
+		//returns NULL, if fileHash is not found
+	CStoredSources*	GetByFileHash(uchar* fileHash);
+	virtual void	Serialize(CArchive& ar);
+
+
+DECLARE_SERIAL(CStoredSourcesContainer);
+//DECLARE_DYNAMIC(CStoredSourcesContainer)
+
+
+};
+#endif //OLD_SLS_ENABLED
+
+@
+
+
+1.3
+log
+@code cleanup
+@
+text
+@@
+
+
+1.2
+log
+@Preparing for new SLS code
+@
+text
+@d264 1
+a264 1
+	void					Init(CString partFileName, CString fileName, uchar* fileID
+d283 1
+a283 1
+	CStoredSources(CString partFileName, CString fileName, uchar* fileID
+d285 1
+a285 1
+	CStoredSources(CString partFileName, CString fileName, uchar* fileID
+d292 1
+a292 1
+						, uchar* fileID, uint16 userPort, uint32 userID
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d1 2
+a2 4
+//StoredSource for eMule (www.emule-project.net) by Mr.Fry
+//Version 0.07a
+
+
+d301 1
+a301 1
+	//bool			IsRareFile()	{return (m_obarraySourceList.GetCount() <= RARE_FILE /*(m_iMaxSourceEntries/3)*/);};
+d443 2
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

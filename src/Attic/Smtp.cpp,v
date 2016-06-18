@@ -1,0 +1,5003 @@
+head	1.21;
+access;
+symbols
+	PublicRelease_1_2:1.19
+	Interim_Release_1-2_RC1:1.19
+	Interim_Release_1-2_beta1:1.19
+	PublicRelease_1_1g:1.18
+	Interim_Release_1-1g_RC3:1.18
+	Interim_Release_1-1g_RC2:1.18
+	Interim_Release_1-1g_RC1:1.18
+	Interim_Release_1-1g_beta2:1.16
+	Interim_Release_1-1g_beta1:1.16
+	PublicRelease_1_1f:1.16
+	Interim_Release_1-1f_RC1:1.16
+	PublicRelease_1_1e:1.16
+	Interim_Release_1-1e_RC2:1.16
+	Interim_Release_1-1e_RC1:1.16
+	Interim_Release_1-1e_beta1:1.16
+	PublicRelease_1_1d:1.16
+	Interim_Release_1-1d_RC1:1.16
+	PublicRelease_1_1c:1.16
+	Interim_Release_1-1c_RC1:1.16
+	Interim_Release_1-1c_beta2:1.16
+	Interim_Release_1-1c_beta1:1.16
+	PublicRelease_1_1b:1.16
+	Interim_Release_1-1b_RC1:1.16
+	PublicRelease_1_1a:1.16
+	Interim_Release_1-1a_RC2:1.16
+	Interim_Release_1-1a_RC1:1.16
+	Interim_Release_1-1a_beta2:1.16
+	Interim_Release_1-1a_beta1:1.16
+	PublicRelease_1_1:1.15
+	Interim_Release_1-1_beta1:1.15
+	PublicRelease_1o:1.15
+	Interim_Release_1o_RC1:1.15
+	Interim_Release_1o_beta1:1.15
+	PublicRelease_1n:1.15
+	Interim_Release_1n_RC2:1.15
+	Interim_Release_1n_RC1:1.15
+	Interim_Release_1n_beta2:1.15
+	Interim_Release_1n_beta1:1.15
+	PublicRelease_1m:1.15
+	Interim_Release_1m_beta1:1.15
+	PublicRelease_1l:1.15
+	Interim_Release_1l_RC3:1.15
+	Interim_Release_1l_RC2:1.15
+	Interim_Release_1l_RC1:1.15
+	Interim_Release_1l_beta2:1.15
+	Interim_Release_1l_beta1:1.15
+	PublicRelease_1k:1.12
+	Interim_Release_1k_RC4:1.12
+	Interim_1k_RC3:1.12
+	Interim_1k_RC2:1.12
+	Interim_Release_1k_RC1:1.12
+	Interim_Release_1k_beta5:1.12
+	Intrerim_Release_1k_beta4:1.12
+	Interim_Release_1k_beta1:1.11
+	PublicRelease_1j:1.10
+	Interim_Release_1J_RC3:1.10
+	Interim_Release_1j_RC3:1.10
+	Interim_Release_1j_RC2:1.10
+	Interim_Release_1j_RC1:1.10
+	Interim_Release_1j_beta2:1.10
+	Interim_Release_1j_beta1:1.10
+	PublicRelease_1i:1.7
+	Interim_Release_1i_RC6:1.7
+	Interim_Release_1i_RC3:1.7
+	Interim_Release_1i_RC2:1.7
+	Interim_Release_1i_RC1:1.7
+	Interim_Release_1i_beta3:1.7
+	Interim_Release_1i_beta2:1.7
+	Interim_Release_1i_beta1:1.6
+	PublicRelease_1h:1.5
+	Interim_Release_1h_rc2:1.5
+	Interim_Release_1h_RC1:1.5
+	Interim_Release_1h_beta2:1.5
+	Interim_Release_1h_beta1_now:1.5
+	Interim_Release_1h_beta1:1.5;
+locks; strict;
+comment	@// @;
+
+
+1.21
+date	2006.04.04.23.43.28;	author kush_eplus;	state dead;
+branches;
+next	1.20;
+
+1.20
+date	2006.03.19.23.47.30;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.12.29.05.35.35;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.11.27.22.11.50;	author eklmn;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.10.30.00.18.28;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.05.05.06.09.21;	author katsyonak;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.04.22.19.45.14;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.04.13.01.01.35;	author katsyonak;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.03.17.23.09.13;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.02.11.04.13.01;	author katsyonak;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.20.15.39.32;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.07.31.18.45.51;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.07.30.14.04.16;	author puritynn666;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.07.28.14.57.52;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.07.27.19.56.57;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.07.27.17.43.39;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.21
+log
+@new email notifier code (adapted from original) - fully UNICODE ready
+@
+text
+@ /*
+Module : SMTP.CPP
+Purpose: Implementation for a MFC class encapsulation of the SMTP protocol
+Created: PJN / 22-05-1998
+
+Copyright (c) 1998 - 2003 by PJ Naughter.  (Web: www.naughter.com, Email: pjna@@naughter.com)
+
+All rights reserved.
+
+Copyright / Usage Details:
+
+You are allowed to include the source code in any product (commercial, shareware, freeware or otherwise) 
+when your product is released in binary form. You are allowed to modify the source code in any way you want 
+except you cannot modify the copyright details at the top of each module. If you want to distribute source 
+code with your application, then you are only allowed to distribute versions released by the author. This is 
+to maintain a single distribution point for the source code. 
+
+Please note that I have been informed recently that CSMTPConnection is being used to develop and send unsolicted bulk mail. 
+This was not the intention of the code and the author explicitly forbids use of the code for any software of this kind without 
+my explicit written consent.
+*/
+
+//////////////// Includes ////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Smtp.h"
+#include "emule.h"
+#include "otherfunctions.h"
+
+#ifndef CSMTP_NORSA
+#include "glob-md5.h"
+#include "md5.h"
+#endif
+
+#ifndef _WININET_
+#pragma message("To avoid this message, put wininet.h in your PCH (usually stdafx.h)")
+#include <wininet.h>
+#endif
+
+//////////////// Macros / Locals /////////////////////////////////////
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+#define SMTP_MAXLINE  76
+
+//Link in Winsock dll automatically
+#pragma comment(lib, "wsock32.lib")
+//Link in RPC runtimes dll automatically
+#pragma comment(lib, "rpcrt4.lib")
+
+
+
+//////////////// Implementation //////////////////////////////////////
+
+//Class which handles function which must be constructed at run time
+//since we cannot absolutely gurantee wininet will be available. To avoid the loader
+//bringing up a message such as "Failed to load due to missing export...", the
+//functions are constructed using GetProcAddress. The SMTP functions then checks to 
+//see if the function pointers are NULL and if it is it returns failure and sets the 
+//error code ERROR_CALL_NOT_IMPLEMENTED which is what the OS would have done if it had 
+//implemented a stub for it in the first place !!
+class _WININET_DATA
+{
+public:
+//Constructors /Destructors
+  _WININET_DATA();
+  ~_WININET_DATA();
+
+//typedefs of the function pointers
+  typedef BOOL (WINAPI INTERNETGETCONNECTEDSTATE)(LPDWORD, DWORD);
+  typedef INTERNETGETCONNECTEDSTATE* LPINTERNETGETCONNECTEDSTATE;
+  typedef BOOL (WINAPI INTERNETAUTODIALHANGUP)(DWORD);
+  typedef INTERNETAUTODIALHANGUP* LPINTERNETAUTODIALHANGUP;
+  typedef BOOL (WINAPI INTERNETATTEMPCONNECT)(DWORD);
+  typedef INTERNETATTEMPCONNECT* LPINTERNETATTEMPCONNECT;
+
+
+//Member variables
+  HINSTANCE                   m_hWininet;  //Instance handle of the "Wininet.dll" which houses the 2 functions we want
+  LPINTERNETGETCONNECTEDSTATE m_lpfnInternetGetConnectedState;
+  LPINTERNETAUTODIALHANGUP    m_lpfnInternetAutoDialHangup;
+  LPINTERNETATTEMPCONNECT     m_lpfnInternetAttemptConnect;
+};
+
+_WININET_DATA::_WININET_DATA()
+{
+  m_hWininet = LoadLibrary(_T("WININET.DLL"));
+  if (m_hWininet)
+  {
+    m_lpfnInternetGetConnectedState = (LPINTERNETGETCONNECTEDSTATE) GetProcAddress(m_hWininet, "InternetGetConnectedState");
+    m_lpfnInternetAutoDialHangup = (LPINTERNETAUTODIALHANGUP) GetProcAddress(m_hWininet, "InternetAutodialHangup");
+    m_lpfnInternetAttemptConnect = (LPINTERNETATTEMPCONNECT) GetProcAddress(m_hWininet, "InternetAttemptConnect");
+  }
+}
+
+_WININET_DATA::~_WININET_DATA()
+{
+  if (m_hWininet)
+  {
+    FreeLibrary(m_hWininet);
+    m_hWininet = NULL;
+  }
+}
+
+
+
+//The local variable which handle the function pointers
+
+_WININET_DATA _WinInetData;
+
+
+
+CSMTPSocket::CSMTPSocket()
+{
+  m_hSocket = INVALID_SOCKET; //default to an invalid scoket descriptor
+}
+
+CSMTPSocket::~CSMTPSocket()
+{
+  Close();
+}
+
+BOOL CSMTPSocket::Create()
+{
+  m_hSocket = socket(AF_INET, SOCK_STREAM, 0);
+  return (m_hSocket != INVALID_SOCKET);
+}
+
+BOOL CSMTPSocket::Connect(LPCTSTR pszHostAddress, int nPort, LPCTSTR pszLocalBoundAddress)
+{
+  ASSERT(pszHostAddress); //Must have a valid host
+  ASSERT(_tcslen(pszHostAddress)); //as above
+
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //must have been created first
+  ASSERT(m_hSocket != INVALID_SOCKET);
+
+  //Bind to the local address if need be
+  if (pszLocalBoundAddress && _tcslen(pszLocalBoundAddress))
+  {
+    LPSTR lpszAsciiLocalAddress = T2A((LPTSTR)pszLocalBoundAddress);
+
+    SOCKADDR_IN sockLocalAddress;
+    memzero(&sockLocalAddress, sizeof(sockLocalAddress));
+    sockLocalAddress.sin_family = AF_INET;
+    sockLocalAddress.sin_port = htons(0);
+    sockLocalAddress.sin_addr.s_addr = inet_addr(lpszAsciiLocalAddress);
+
+	  //If the address is not dotted notation, then do a DNS 
+	  //lookup of it.
+	  if (sockLocalAddress.sin_addr.s_addr == INADDR_NONE)
+	  {
+		  LPHOSTENT lphost;
+		  lphost = gethostbyname(lpszAsciiLocalAddress);
+		  if (lphost != NULL)
+			  sockLocalAddress.sin_addr.s_addr = ((LPIN_ADDR)lphost->h_addr)->s_addr;
+		  else
+		  {
+        WSASetLastError(WSAEINVAL); 
+			  return FALSE;
+		  }
+    }
+
+    //Finally bind to the address
+    if (bind(m_hSocket, (sockaddr*) &sockLocalAddress, sizeof(sockLocalAddress)) == SOCKET_ERROR)
+      return FALSE;
+  }
+
+  
+  //Work out the IP address of the machine we want to connect to
+	LPSTR lpszAsciiDestination = T2A((LPTSTR)pszHostAddress);
+
+	//Determine if the address is in dotted notation
+	SOCKADDR_IN sockDestinationAddr;
+	memzero(&sockDestinationAddr, sizeof(sockDestinationAddr));
+	sockDestinationAddr.sin_family = AF_INET;
+	sockDestinationAddr.sin_port = htons((u_short)nPort);
+	sockDestinationAddr.sin_addr.s_addr = inet_addr(lpszAsciiDestination);
+
+	//If the address is not dotted notation, then do a DNS 
+	//lookup of it.
+	if (sockDestinationAddr.sin_addr.s_addr == INADDR_NONE)
+	{
+		LPHOSTENT lphost;
+		lphost = gethostbyname(lpszAsciiDestination);
+		if (lphost != NULL)
+			sockDestinationAddr.sin_addr.s_addr = ((LPIN_ADDR)lphost->h_addr)->s_addr;
+		else
+		{
+      WSASetLastError(WSAEINVAL); 
+			return FALSE;
+		}
+	}
+
+	//Call the protected version which takes an address 
+	//in the form of a standard C style struct.
+	return Connect((SOCKADDR*)&sockDestinationAddr, sizeof(sockDestinationAddr));
+}
+
+BOOL CSMTPSocket::Connect(const SOCKADDR* lpSockAddr, int nSockAddrLen)
+{
+	return (connect(m_hSocket, lpSockAddr, nSockAddrLen) != SOCKET_ERROR);
+}
+
+BOOL CSMTPSocket::Send(LPCSTR pszBuf, int nBuf)
+{
+  //must have been created first
+  ASSERT(m_hSocket != INVALID_SOCKET);
+  return (send(m_hSocket, pszBuf, nBuf, 0) != SOCKET_ERROR);
+}
+
+int CSMTPSocket::Receive(LPSTR pszBuf, int nBuf)
+{
+  //must have been created first
+  ASSERT(m_hSocket != INVALID_SOCKET);
+
+  return recv(m_hSocket, pszBuf, nBuf, 0); 
+}
+
+void CSMTPSocket::Close()
+{
+	if (m_hSocket != INVALID_SOCKET)
+	{
+		VERIFY(SOCKET_ERROR != closesocket(m_hSocket));
+		m_hSocket = INVALID_SOCKET;
+	}
+}
+
+BOOL CSMTPSocket::IsReadable(BOOL& bReadible)
+{
+  timeval timeout = {0, 0};
+  fd_set fds;
+  FD_ZERO(&fds);
+  FD_SET(m_hSocket, &fds);
+  int nStatus = select(0, &fds, NULL, NULL, &timeout);
+  if (nStatus == SOCKET_ERROR)
+  {
+    return FALSE;
+  }
+  else
+  {
+    bReadible = !(nStatus == 0);
+    return TRUE;
+  }
+}
+
+
+
+
+CSMTPAddress::CSMTPAddress() 
+{
+}
+
+CSMTPAddress::CSMTPAddress(const CSMTPAddress& address)
+{
+  *this = address;
+}
+
+CSMTPAddress::CSMTPAddress(const CString& sAddress)
+{
+  //The local variable which we will operate on
+  CString sTemp(sAddress);
+  sTemp.Trim();
+
+	//divide the substring into friendly names and e-mail addresses
+	int nMark = sTemp.Find(_T('<'));
+	int nMark2 = sTemp.Find(_T('>'));
+	if ((nMark != -1) && (nMark2 != -1) && (nMark2 > (nMark+1)))
+	{
+		m_sEmailAddress = sTemp.Mid(nMark+1, nMark2 - nMark - 1);
+		m_sFriendlyName = sTemp.Left(nMark);
+    m_sFriendlyName.Trim();
+  }
+	else
+	{
+		m_sEmailAddress = sTemp;
+	}
+}
+
+CSMTPAddress::CSMTPAddress(const CString& sFriendly, const CString& sAddress) :
+              m_sFriendlyName(sFriendly), m_sEmailAddress(sAddress) 
+{
+  ASSERT(m_sEmailAddress.GetLength()); //An empty address is not allowed
+}
+
+CSMTPAddress& CSMTPAddress::operator=(const CSMTPAddress& r) 
+{
+  m_sFriendlyName = r.m_sFriendlyName; 
+	m_sEmailAddress = r.m_sEmailAddress; 
+	return *this;
+}
+
+CString CSMTPAddress::GetRegularFormat(BOOL bEncode, const CString& sCharset) const
+{
+  ASSERT(m_sEmailAddress.GetLength()); //Email Address must be valid
+
+  CString sAddress;
+  if (m_sFriendlyName.IsEmpty())
+    sAddress = m_sEmailAddress;  //Just transfer the address across directly
+  else
+  {
+    if (bEncode)
+    {
+      std::string sAsciiEncodedFriendly = CSMTPBodyPart::HeaderEncode(m_sFriendlyName, sCharset);
+      CString sEncodedFriendly(sAsciiEncodedFriendly.c_str());
+      sAddress.Format(_T("%s <%s>"), sEncodedFriendly, m_sEmailAddress);
+    }
+    else
+      sAddress.Format(_T("%s <%s>"), m_sFriendlyName, m_sEmailAddress);
+  }
+
+  return sAddress;
+}
+
+
+
+
+CSMTPBodyPart::CSMTPBodyPart() : m_sCharset(_T("iso-8859-1")), m_sContentType(_T("text/plain")), m_pParentBodyPart(NULL), m_bQuotedPrintable(TRUE), m_bBase64(FALSE)
+{
+  //Automatically generate a unique boundary separator for this body part by creating a guid
+  UUID uuid;
+  UuidCreate(&uuid);
+  
+  //Convert it to a string
+  #ifdef _UNICODE
+  TCHAR* pszGuid = NULL;
+  #else
+  unsigned char* pszGuid = NULL;
+  #endif
+  UuidToString(&uuid, &pszGuid);
+
+  m_sBoundary = pszGuid;
+
+  //Free up the temp memory
+  RpcStringFree(&pszGuid);
+}
+
+CSMTPBodyPart::CSMTPBodyPart(const CSMTPBodyPart& bodyPart)
+{
+  *this = bodyPart;
+}
+
+CSMTPBodyPart::~CSMTPBodyPart()
+{
+  //Free up the array memory
+  for (int i=0; i<m_ChildBodyParts.GetSize(); i++)
+    delete m_ChildBodyParts.GetAt(i);
+  m_ChildBodyParts.RemoveAll();
+}
+
+CSMTPBodyPart& CSMTPBodyPart::operator=(const CSMTPBodyPart& bodyPart)
+{
+  m_sFilename        = bodyPart.m_sFilename;
+  m_sText            = bodyPart.m_sText;       
+  m_sTitle           = bodyPart.m_sTitle;      
+  m_sContentType     = bodyPart.m_sContentType;
+  m_sCharset         = bodyPart.m_sCharset;
+  m_sContentBase     = bodyPart.m_sContentBase;
+  m_sContentID       = bodyPart.m_sContentID;
+  m_sContentLocation = bodyPart.m_sContentLocation;
+  m_pParentBodyPart  = bodyPart.m_pParentBodyPart;
+  m_sBoundary        = bodyPart.m_sBoundary;
+  m_bQuotedPrintable = bodyPart.m_bQuotedPrintable;
+  m_bBase64          = bodyPart.m_bBase64;
+
+  int	i;
+
+  //Free up the array memory
+  for (i = 0; i < m_ChildBodyParts.GetSize(); i++)
+    delete m_ChildBodyParts.GetAt(i);
+  m_ChildBodyParts.RemoveAll();
+  //Now copy over the new object
+  for (i = 0; i < bodyPart.m_ChildBodyParts.GetSize(); i++)
+  {
+    CSMTPBodyPart* pBodyPart = new CSMTPBodyPart(*bodyPart.m_ChildBodyParts.GetAt(i));
+    pBodyPart->m_pParentBodyPart  = this;
+    m_ChildBodyParts.Add(pBodyPart);
+  }
+
+  return *this;
+}
+
+BOOL CSMTPBodyPart::SetFilename(const CString& sFilename)
+{
+  ASSERT(sFilename.GetLength());  //Empty Filename !
+
+  //determine the file size
+  CFileStatus fs;
+  if (!CFile::GetStatus(sFilename, fs))
+  {
+    TRACE(_T("CSMTPBodyPart::SetFilename, Failed to get the status for file %s, probably does not exist\n"), m_sFilename);
+    return FALSE;
+  }
+
+	//Hive away the filename and form the title from the filename
+  TCHAR sPath[_MAX_PATH];
+  TCHAR sFname[_MAX_FNAME];
+  TCHAR sExt[_MAX_EXT];
+  _tsplitpath(sFilename, NULL, NULL, sFname, sExt);
+  _tmakepath(sPath, NULL, NULL, sFname, sExt);
+	m_sFilename = sFilename;
+  m_sTitle = sPath;
+
+  //Also sent the content type to be appropiate for an attachment
+  m_sContentType = _T("application/octet-stream");
+
+  return TRUE;
+}
+
+CString CSMTPBodyPart::Replace(const CString& sText, const CString& sToBeReplaced, const CString& sReplaceWith)
+{
+  //The string we will be returning
+  CString sFind(sText);
+  CString sReturn;
+
+  int nFind = -1;
+  int nToBeReplacedLength = sToBeReplaced.GetLength();
+  do
+  {
+    nFind = sFind.Find(sToBeReplaced);
+    if (nFind != -1)
+    {
+      sReturn += (sFind.Left(nFind) + sReplaceWith);
+      sFind = sFind.Right(sFind.GetLength() - nFind - nToBeReplacedLength);
+    }
+  }
+  while (nFind != -1);
+  sReturn += sFind;
+
+  return sReturn;
+}
+
+void CSMTPBodyPart::SetText(const CString& sText)
+{
+  m_sText = sText;
+
+  //Ensure lines are correctly wrapped
+  m_sText = Replace(m_sText, _T("\r\n"), _T("\n"));
+  m_sText = Replace(m_sText, _T("\r"), _T("\n"));
+  m_sText = Replace(m_sText, _T("\n"), _T("\r\n"));
+
+  //Fix the case of a single dot on a line in the message body
+  FixSingleDotT(m_sText);
+
+  //Also set the content type while we are at it
+  m_sContentType = _T("text/plain");
+}
+
+void CSMTPBodyPart::SetContentID(const CString& sContentID)
+{
+  m_sContentLocation.Empty();
+  m_sContentID = sContentID;
+}
+
+CString CSMTPBodyPart::GetContentID() const
+{
+  return m_sContentID;
+}
+
+void CSMTPBodyPart::SetContentLocation(const CString& sContentLocation)
+{
+  m_sContentID.Empty();
+  m_sContentLocation = sContentLocation;
+}
+
+CString CSMTPBodyPart::GetContentLocation() const
+{
+  return m_sContentLocation; 
+}
+
+char CSMTPBodyPart::HexDigit(int nDigit)
+{
+  if (nDigit < 10)
+    return (char) (nDigit + '0');
+  else
+    return (char) (nDigit - 10 + 'A');
+}
+
+//Converts text to its Quoted printable equivalent according to RFC 2045
+std::string CSMTPBodyPart::QuotedPrintableEncode(const std::string& sText)
+{
+  USES_CONVERSION;
+
+  //get the pointer to the internal buffer, its ASCII buffer
+  LPCSTR pszAsciiText =  sText.c_str();
+  std::string sTemp;
+  int	i, nSize = strlen(pszAsciiText);
+  for (i = 0; i < nSize; i++)
+  {
+    //Pull out the character to operate on
+    BYTE c = pszAsciiText[i];
+    
+    if (((c >= 33) && (c <= 60)) || ((c >= 62) && (c <= 126)) || (c == '\r') || (c == '\n') || (c == '\t') || (c == ' '))
+      sTemp += c;
+    else
+    {
+      //otherwise must quote the text
+      sTemp += '=';
+      sTemp += HexDigit((c & 0xF0) >> 4);
+      sTemp += HexDigit(c & 0x0F);
+    }
+  }
+
+  //Now insert soft line breaks where appropiate
+  std::string sOut;
+  int nStartLine = 0;
+  pszAsciiText =  sTemp.c_str();
+  int nLen = strlen(pszAsciiText);
+  for (i = 0; i < nLen; i++)
+  {
+    //Pull out the character to operate on
+    BYTE c = pszAsciiText[i];
+    
+    if (c == '\n' || c == '\r' || i == (nLen-1))
+    {
+      sOut += sTemp.substr(nStartLine, i-nStartLine+1);
+      nStartLine = i+1;
+      continue;
+    }
+
+    if ((i - nStartLine) > SMTP_MAXLINE)
+    {
+      BOOL bInWord = TRUE;
+      while (bInWord)
+      {
+        if (i>1)
+          bInWord = (!isspace(c) && sTemp[i-2] != _T('='));
+        if (bInWord)
+        {
+          --i;
+          c = (BYTE) sTemp[i];
+        }
+
+		    if (i == nStartLine)
+		    {
+			    i = nStartLine + SMTP_MAXLINE;
+			    break;
+		    }
+      }
+
+      sOut += sTemp.substr(nStartLine, i-nStartLine+1);
+      sOut += "=\r\n";
+      nStartLine = i+1;
+    }
+  }
+
+  return sOut;
+}
+
+int CSMTPBodyPart::ConvertToUTF8(const CString& in, std::string &out)
+{
+	USES_CONVERSION;
+
+	LPCWSTR psuBuff = T2CW(in);
+  int nULength = wcslen(psuBuff);
+	LPSTR pUtf8 = NULL;
+
+	//convert the data to utf-8
+  int iLength = UnicodeToUTF8(psuBuff, nULength, pUtf8, 0);
+  ASSERT(iLength);
+
+	pUtf8 = new char[iLength+1];
+  iLength = UnicodeToUTF8(psuBuff, nULength, pUtf8, iLength);
+	ASSERT(iLength);
+	pUtf8[iLength] = '\0';
+	out = pUtf8;
+	delete [] pUtf8;
+
+	return iLength;
+}
+
+//Copy of the function AtlUnicodeToUTF8 in ATL Server. This allows the 
+//SMTP class to operate on OS'es which do not support conversion to UTF-8 via
+//WideCharToMultiByte
+int CSMTPBodyPart::UnicodeToUTF8(LPCWSTR wszSrc, int nSrc, LPSTR szDest, int nDest)
+{
+	LPCWSTR pwszSrc = wszSrc;
+	int     nU8 = 0;                // # of UTF8 chars generated
+	DWORD   dwSurrogateChar;
+	WCHAR   wchHighSurrogate = 0;
+	BOOL    bHandled;
+
+	while ((nSrc--) && ((nDest == 0) || (nU8 < nDest)))
+	{
+		bHandled = FALSE;
+
+		//Check if high surrogate is available
+		if ((*pwszSrc >= 0xd800) && (*pwszSrc <= 0xdbff))
+		{
+			if (nDest)
+			{
+				//Another high surrogate, then treat the 1st as normal Unicode character.
+				if (wchHighSurrogate)
+				{
+					if ((nU8 + 2) < nDest)
+					{
+						szDest[nU8++] = (char)(0xe0 | (wchHighSurrogate >> 12));
+						szDest[nU8++] = (char)(0x80 | (((wchHighSurrogate) & 0x0fc0) >> 6));
+						szDest[nU8++] = (char)(0x80 | (wchHighSurrogate & 0x003f));
+					}
+					else
+					{
+						//not enough buffer
+						nSrc++;
+						break;
+					}
+				}
+			}
+			else
+			{
+				nU8 += 3;
+			}
+			wchHighSurrogate = *pwszSrc;
+			bHandled = TRUE;
+		}
+
+		if (!bHandled && wchHighSurrogate)
+		{
+			if ((*pwszSrc >= 0xdc00) && (*pwszSrc <= 0xdfff))
+			{
+				 //valid surrogate pairs
+				 if (nDest)
+				 {
+					 if ((nU8 + 3) < nDest)
+					 {
+						 dwSurrogateChar = (((wchHighSurrogate-0xD800) << 10) + (*pwszSrc - 0xDC00) + 0x10000);
+						 szDest[nU8++] = (unsigned char) (0xf0 | (unsigned char)(dwSurrogateChar >> 18));           // 3 bits from 1st byte
+						 szDest[nU8++] = (unsigned char) (0x80 | (unsigned char)((dwSurrogateChar >> 12) & 0x3f));  // 6 bits from 2nd byte
+						 szDest[nU8++] = (unsigned char) (0x80 | (unsigned char)((dwSurrogateChar >> 6) & 0x3f));   // 6 bits from 3rd byte
+						 szDest[nU8++] = (unsigned char) (0x80 | (unsigned char)(0x3f & dwSurrogateChar));          // 6 bits from 4th byte
+					 }
+					 else
+					 {
+						//not enough buffer
+						nSrc++;
+						break;
+					 }
+				 }
+				 else
+				 {
+					 //we already counted 3 previously (in high surrogate)
+					 nU8 += 1;
+				 }
+				 bHandled = TRUE;
+			}
+			else
+			{
+				 //Bad Surrogate pair : ERROR
+				 //Just process wchHighSurrogate , and the code below will
+				 //process the current code point
+				 if (nDest)
+				 {
+					 if ((nU8 + 2) < nDest)
+					 {
+						szDest[nU8++] = (char)(0xe0 | (wchHighSurrogate >> 12));
+						szDest[nU8++] = (char)(0x80 | (((wchHighSurrogate) & 0x0fc0) >> 6));
+						szDest[nU8++] = (char)(0x80 | (wchHighSurrogate & 0x003f));
+					 }
+					 else
+					 {
+						//not enough buffer
+						nSrc++;
+						break;
+					 }
+				 }
+			}
+			wchHighSurrogate = 0;
+		}
+
+		if (!bHandled)
+		{
+			if (*pwszSrc <= 0x007f)
+			{
+				//Found ASCII.
+				if (nDest)
+				{
+					szDest[nU8] = (char)*pwszSrc;
+				}
+				nU8++;
+			}
+			else if (*pwszSrc <= 0x07ff)
+			{
+				//Found 2 byte sequence if < 0x07ff (11 bits).
+				if (nDest)
+				{
+					if ((nU8 + 1) < nDest)
+					{
+						//Use upper 5 bits in first byte.
+						//Use lower 6 bits in second byte.
+						szDest[nU8++] = (char)(0xc0 | (*pwszSrc >> 6));
+						szDest[nU8++] = (char)(0x80 | (*pwszSrc & 0x003f));
+					}
+					else
+					{
+						//Error - buffer too small.
+						nSrc++;
+						break;
+					}
+				}
+				else
+				{
+					nU8 += 2;
+				}
+			}
+			else
+			{
+				//Found 3 byte sequence.
+				if (nDest)
+				{
+					if ((nU8 + 2) < nDest)
+					{
+						//Use upper  4 bits in first byte.
+						//Use middle 6 bits in second byte.
+						//Use lower  6 bits in third byte.
+						szDest[nU8++] = (char)(0xe0 | (*pwszSrc >> 12));
+						szDest[nU8++] = (char)(0x80 | (((*pwszSrc) & 0x0fc0) >> 6));
+						szDest[nU8++] = (char)(0x80 | (*pwszSrc & 0x003f));
+					}
+					else
+					{
+						//Error - buffer too small.
+						nSrc++;
+						break;
+					}
+				}
+				else
+				{
+					nU8 += 3;
+				}
+			}
+		}
+		pwszSrc++;
+	}
+
+	//If the last character was a high surrogate, then handle it as a normal unicode character.
+	if ((nSrc < 0) && (wchHighSurrogate != 0))
+	{
+		if (nDest)
+		{
+			if ((nU8 + 2) < nDest)
+			{
+				szDest[nU8++] = (char)(0xe0 | (wchHighSurrogate >> 12));
+				szDest[nU8++] = (char)(0x80 | (((wchHighSurrogate) & 0x0fc0) >> 6));
+				szDest[nU8++] = (char)(0x80 | (wchHighSurrogate & 0x003f));
+			}
+			else
+			{
+				nSrc++;
+			}
+		}
+	}
+
+	//Make sure the destination buffer was large enough.
+	if (nDest && (nSrc >= 0))
+	{
+		return 0;
+	}
+
+	//Return the number of UTF-8 characters written.
+	return nU8;
+}
+
+void CSMTPBodyPart::FreeHeader(LPSTR& pszHeader)
+{
+  //The CSMTPBodyPart class always allocates the memory for the header
+  delete [] pszHeader;
+  pszHeader = NULL;
+}
+
+void CSMTPBodyPart::FreeBody(LPSTR& pszBody)
+{
+  //The CSMTPBodyPart class allocates the memory for the body if it was not base 64 encoded
+  if (pszBody)
+  {
+    delete [] pszBody;
+    pszBody = NULL;
+  }
+}
+
+void CSMTPBodyPart::FreeFooter(LPSTR& pszFooter)
+{
+  //The CSMTPBodyPart class always allocates the memory for the footer
+  delete [] pszFooter;
+  pszFooter = NULL;
+}
+
+BOOL CSMTPBodyPart::GetHeader(LPSTR& pszHeader, int& nHeaderSize)
+{
+  //For correct operation of the T2A macro, see MFC Tech Note 59
+  USES_CONVERSION;
+
+  //Assume the worst
+  BOOL bSuccess = FALSE;
+  CString sHeader;
+  if (m_sFilename.GetLength())
+  {
+    //Ok, it's a file
+
+    //Form the header to go along with this body part
+    if (GetNumberOfChildBodyParts())
+		  sHeader.Format(_T("\r\n\r\n--%s\r\nContent-Type: %s; charset=%s; name=%s; Boundary=\"%s\"\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment; filename=\"%s\"\r\n"), 
+                     m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset, m_sTitle, m_sBoundary, m_sTitle);
+    else
+		  sHeader.Format(_T("\r\n\r\n--%s\r\nContent-Type: %s; charset=%s; name=%s\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment; filename=\"%s\"\r\n"), 
+                     m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset, m_sTitle, m_sTitle);
+
+    bSuccess = TRUE;
+  }
+  else
+  {
+    //ok, it's some text
+
+    //Form the header to go along with this body part
+    ASSERT(m_pParentBodyPart);
+    if (GetNumberOfChildBodyParts())
+    {
+      if (m_bBase64)
+        sHeader.Format(_T("\r\n--%s\r\nContent-Type: %s; charset=%s; Boundary=\"%s\"\r\nContent-Transfer-Encoding: base64\r\n"),
+                       m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset, m_sBoundary);
+      else if (m_bQuotedPrintable)
+        sHeader.Format(_T("\r\n--%s\r\nContent-Type: %s; charset=%s; Boundary=\"%s\"\r\nContent-Transfer-Encoding: quoted-printable\r\n"),
+                       m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset, m_sBoundary);
+      else
+        sHeader.Format(_T("\r\n--%s\r\nContent-Type: %s; charset=%s; Boundary=\"%s\"\r\n"),
+                       m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset, m_sBoundary);
+    }
+    else
+    {
+      if (m_bBase64)
+        sHeader.Format(_T("\r\n--%s\r\nContent-Type: %s; charset=%s\r\nContent-Transfer-Encoding: base64\r\n"),
+                       m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset);
+      else if (m_bQuotedPrintable)
+        sHeader.Format(_T("\r\n--%s\r\nContent-Type: %s; charset=%s\r\nContent-Transfer-Encoding: quoted-printable\r\n"),
+                       m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset);
+      else
+        sHeader.Format(_T("\r\n--%s\r\nContent-Type: %s; charset=%s\r\n"),
+                       m_pParentBodyPart->m_sBoundary, m_sContentType, m_sCharset);
+    }
+
+    bSuccess = TRUE;
+  }
+
+  //Add the other headers
+  if (m_sContentBase.GetLength())
+  {
+    CString sLine;
+    sLine.Format(_T("Content-Base: %s\r\n"), m_sContentBase);
+    sHeader += sLine;
+  }
+  if (m_sContentID.GetLength())
+  {
+    CString sLine;
+    sLine.Format(_T("Content-ID: %s\r\n"), m_sContentID);
+    sHeader += sLine;
+  }
+  if (m_sContentLocation.GetLength())
+  {
+    CString sLine;
+    sLine.Format(_T("Content-Location: %s\r\n"), m_sContentLocation);
+    sHeader += sLine;
+  }
+  sHeader += _T("\r\n");
+
+  nHeaderSize = _tcslen(sHeader);
+  pszHeader = new char[nHeaderSize+1];
+  strcpy(pszHeader, T2A((LPTSTR) (LPCTSTR) sHeader));
+
+  return bSuccess;
+}
+
+BOOL CSMTPBodyPart::GetBody(LPSTR& pszBody, int& nBodySize)
+{
+	//if the body is text we must convert is to the declared encoding, this could create some
+	//problems since windows conversion functions (such as WideCharToMultiByte) uses UINT
+	//code page and not a String like HTTP uses.
+	//For now we will add the support for UTF-8, to support other encodings we have to 
+	//implement a mapping between the "internet name" of the encoding and its LCID(UINT)
+	
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //Assume the worst
+  BOOL bSuccess = FALSE;
+
+  if (m_sFilename.GetLength())
+  {
+    //Ok, it's a file
+
+    //open up the file for reading in
+    CFile infile;
+    if (infile.Open(m_sFilename, CFile::modeRead | CFile::shareDenyWrite))
+    {
+      DWORD dwSize = 0;
+      BOOL bGotLength = FALSE;
+      try
+      {
+        dwSize = infile.GetLength();
+        bGotLength = TRUE;
+      }
+      catch (CFileException* pEx)
+      {
+        pEx->Delete();
+        TRACE(_T("CSMTPBodyPart::GetBody, Failed to get the length of the file, %s\n"), m_sFilename);
+      }
+
+      if (dwSize)
+      {
+        //read in the contents of the input file
+        BYTE* pszIn = new BYTE[dwSize];
+        try
+        {
+          infile.Read(pszIn, dwSize);
+          bSuccess = TRUE;
+        }
+        catch(CFileException* pEx)
+        {
+          bSuccess = FALSE;
+          pEx->Delete();
+          TRACE(_T("CSMTPBodyPart::GetBody, Failed to read the body parts file contents, %s\n"), m_sFilename);
+        }
+
+        if (bSuccess)
+        {
+          //Do the encoding
+          m_Coder.Encode(pszIn, dwSize);
+
+          //delete the input buffer
+          delete [] pszIn;
+
+          //Form the body for this body part
+          LPSTR pszEncoded = m_Coder.EncodedMessage();
+          int nEncodedSize = m_Coder.EncodedMessageSize();
+          nBodySize = nEncodedSize + (((nEncodedSize/76)+1)*2) + 1;
+          pszBody = new char[nBodySize];
+          --nBodySize; //We do not count the NULL terminator for the body size
+
+          int nInPos = 0;
+          int nOutPos = 0;
+          while (nInPos < nEncodedSize)
+          {
+            int nThisLineSize = min(nEncodedSize - nInPos, SMTP_MAXLINE);
+            memcpy2(&pszBody[nOutPos], &pszEncoded[nInPos], nThisLineSize);
+            nOutPos += nThisLineSize;
+            memcpy2(&pszBody[nOutPos], "\r\n", 2);
+            nOutPos += 2;
+            nInPos += nThisLineSize;
+          }
+          pszBody[nOutPos] = '\0'; //Don't forget to NULL terminate
+        }
+      }
+      else
+      {
+        if (bGotLength)
+        {
+          bSuccess = TRUE;
+          pszBody = NULL;
+          nBodySize = 0;
+        }
+      }
+
+      //Explicitly handle the closing of the file here with an exception handler
+      try
+      {
+        infile.Close();
+      }
+      catch(CFileException* pEx)
+      {
+        pEx->Delete();
+        TRACE(_T("CSMTPBodyPart::GetBody, A file exception occured while closing the file when saving the message to file %s\n"), m_sFilename);
+      }
+    }
+    else
+      TRACE(_T("CSMTPBodyPart::GetBody, No bodypart body text or filename specified!\n"));
+  }
+  else
+  {
+    //ok, it's some text
+    if (m_bBase64)
+    {
+      //Do the UTF8 conversion if necessary
+  	  std::string sBuff;
+      if (m_sCharset.CompareNoCase(_T("UTF-8")) == 0)
+	      ConvertToUTF8(m_sText, sBuff);
+      else
+        sBuff = T2CA(m_sText);
+
+      //Do the encoding
+      m_Coder.Encode((const PBYTE) sBuff.c_str(), sBuff.length());
+
+      //Form the body for this body part
+      LPSTR pszEncoded = m_Coder.EncodedMessage();
+      int nEncodedSize = m_Coder.EncodedMessageSize();
+      nBodySize = nEncodedSize + (((nEncodedSize/76)+1)*2) + 1;
+      pszBody = new char[nBodySize];
+      --nBodySize; //We do not count the NULL terminator for the body size
+
+      int nInPos = 0;
+      int nOutPos = 0;
+      while (nInPos < nEncodedSize)
+      {
+        int nThisLineSize = min(nEncodedSize - nInPos, SMTP_MAXLINE);
+        memcpy2(&pszBody[nOutPos], &pszEncoded[nInPos], nThisLineSize);
+        nOutPos += nThisLineSize;
+        memcpy2(&pszBody[nOutPos], "\r\n", 2);
+        nOutPos += 2;
+        nInPos += nThisLineSize;
+      }
+      pszBody[nOutPos] = '\0'; //Don't forget to NULL terminate
+    }
+    else if (m_bQuotedPrintable)
+    {
+      //Do the UTF8 conversion if necessary
+  	  std::string sBuff;
+      if (m_sCharset.CompareNoCase(_T("UTF-8")) == 0)
+	      ConvertToUTF8(m_sText, sBuff);
+      else
+        sBuff = T2CA(m_sText);
+
+      //Do the encoding
+	    std::string sBody = QuotedPrintableEncode(sBuff);
+      FixSingleDotA(sBody);
+
+      nBodySize = sBody.length();
+      pszBody = new char[nBodySize+1];
+      strcpy(pszBody, sBody.c_str());
+    }
+    else
+    {
+      //Do the UTF8 conversion if necessary
+  	  std::string sBody;
+      if (m_sCharset.CompareNoCase(_T("UTF-8")) == 0)
+	      ConvertToUTF8(m_sText, sBody);
+      else
+        sBody = T2CA(m_sText);
+
+      //No encoding to do
+      FixSingleDotA(sBody);
+
+		  nBodySize = sBody.length();
+		  pszBody = new char[nBodySize+1];
+		  strcpy(pszBody, sBody.c_str());
+    }
+
+    bSuccess = TRUE;
+  }
+
+  return bSuccess;
+}
+
+BOOL CSMTPBodyPart::GetFooter(LPSTR& pszFooter, int& nFooterSize)
+{
+  //For correct operation of the T2A macro, see MFC Tech Note 59
+  USES_CONVERSION;
+
+  //Form the MIME footer
+	CString sFooter;
+  sFooter.Format(_T("\r\n--%s--"), m_sBoundary);
+  nFooterSize = _tcslen(sFooter);
+  pszFooter = new char[nFooterSize+1];
+  strcpy(pszFooter, T2A((LPTSTR) (LPCTSTR) sFooter));
+
+  return TRUE;
+}
+
+int CSMTPBodyPart::GetNumberOfChildBodyParts() const
+{
+  return m_ChildBodyParts.GetSize();
+}
+
+int CSMTPBodyPart::AddChildBodyPart(CSMTPBodyPart& bodyPart)
+{
+  CSMTPBodyPart* pNewBodyPart = new CSMTPBodyPart(bodyPart);
+  pNewBodyPart->m_pParentBodyPart = this;
+  ASSERT(m_sContentType.GetLength()); //Did you forget to call SetContentType
+
+  return m_ChildBodyParts.Add(pNewBodyPart);
+}
+
+void CSMTPBodyPart::RemoveChildBodyPart(int nIndex)
+{
+  CSMTPBodyPart* pBodyPart = m_ChildBodyParts.GetAt(nIndex);
+  delete pBodyPart;
+  m_ChildBodyParts.RemoveAt(nIndex);
+}
+
+CSMTPBodyPart* CSMTPBodyPart::GetChildBodyPart(int nIndex)
+{
+  return m_ChildBodyParts.GetAt(nIndex);
+}
+
+CSMTPBodyPart* CSMTPBodyPart::GetParentBodyPart()
+{
+  return m_pParentBodyPart;
+}
+
+void CSMTPBodyPart::FixSingleDotT(CString &strBody)
+{
+	int iFind = strBody.Find(_T("\n."));
+
+	if (iFind != -1)
+	{
+		CString strLeft(strBody.Left(iFind + 1));
+		CString strRight(strBody.Right(strBody.GetLength() - (iFind + 1)));
+
+		FixSingleDotT(strRight);
+		strBody = strLeft;
+		strBody += _T('.');
+		strBody += strRight;
+	}
+}
+
+void CSMTPBodyPart::FixSingleDotA(std::string& sBody)
+{
+  int nFind = sBody.find("\n.");
+  if (nFind != -1)
+  {
+	  std::string sLeft(sBody.substr(0, nFind+1));
+	  std::string sRight(sBody.substr(nFind+1));
+	  FixSingleDotA(sRight);
+	  sBody = sLeft + "." + sRight;
+  }
+}
+
+CSMTPBodyPart* CSMTPBodyPart::FindFirstBodyPart(const CString sContentType)
+{
+  for (int i=0; i<m_ChildBodyParts.GetSize(); i++)
+  {
+    CSMTPBodyPart* pBodyPart = m_ChildBodyParts.GetAt(i);
+    if (pBodyPart->m_sContentType == sContentType)
+      return pBodyPart;
+  }
+  return NULL;
+}
+
+//Converts header text to its encoded form according to RFC 2047
+std::string CSMTPBodyPart::QEncode(LPCSTR sText, LPCSTR sCharset)
+{
+  USES_CONVERSION;
+
+  //Determine if a translation is needed
+  BOOL bTranslationNeeded = FALSE;
+  int	i, nSize = strlen(sText);
+  for (i = 0; i < nSize && !bTranslationNeeded; i++)
+  {
+    BYTE c = (BYTE) sText[i];
+    bTranslationNeeded = (c > 127);
+  }
+
+  std::string sOut;
+  if (bTranslationNeeded)
+  {
+    sOut = "=?";
+    sOut += sCharset;
+    sOut += "?q?";
+    for (i = 0; i < nSize; i++)
+    {
+      BYTE c = sText[i];
+      
+      if (c == ' ') // A space
+        sOut += _T('_');
+      else if ((c > 127) || (c == '=') || (c == '?') || (c == '_'))
+      {
+        //Must Quote the text
+        sOut += _T('=');
+        sOut += CSMTPBodyPart::HexDigit((c & 0xF0) >> 4);
+        sOut += CSMTPBodyPart::HexDigit(c & 0x0F);
+      }
+      else
+        sOut += c;
+    }
+    sOut += "?=";
+  }
+  else
+  {
+    //Just pass the text thro unmodified
+    sOut = sText;
+  }
+
+  return sOut;
+}
+
+std::string CSMTPBodyPart::HeaderEncode(const CString& sText, const CString& sCharset)
+{
+	USES_CONVERSION;
+
+  //Do the UTF8 conversion if necessary
+	std::string sLocalText;
+  if (sCharset.CompareNoCase(_T("UTF-8")) == 0)
+	  CSMTPBodyPart::ConvertToUTF8(sText, sLocalText);
+  else
+    sLocalText = T2CA(sText);
+
+  LPCSTR pszAsciiCharset = T2CA(sCharset);
+
+  std::string sOut;
+	LPCSTR itr = sLocalText.c_str();
+  int nCurrentLineLength = strlen(itr);
+	while (nCurrentLineLength > 70)
+	{
+		//copy the current line and move the pointer forward
+		int length = (70 > nCurrentLineLength) ? nCurrentLineLength : 70;
+
+		char buf[71];
+		strncpy(buf, itr, length);
+    buf[length] = '\0';
+
+    //Prepare for the next time around
+		itr += length;
+    nCurrentLineLength = strlen(itr);
+
+    //Encode the current
+		sOut += QEncode(buf, pszAsciiCharset);
+	}
+	sOut += QEncode(itr, pszAsciiCharset);
+
+  return sOut;
+}
+
+
+
+CSMTPMessage::CSMTPMessage() : m_sXMailer(_T("CSMTPConnection v2.32")), m_bMime(FALSE)
+{
+}
+
+CSMTPMessage::CSMTPMessage(const CSMTPMessage& message)
+{
+  *this = message;
+}
+
+CSMTPMessage& CSMTPMessage::operator=(const CSMTPMessage& message) 
+{ 
+  m_From     = message.m_From;
+  m_sSubject = message.m_sSubject;
+  m_sXMailer = message.m_sXMailer;
+  m_ReplyTo  = message.m_ReplyTo;
+  m_RootPart = message.m_RootPart;
+
+  int	i;
+
+  //Free up the To memory
+  for (i = 0; i < m_ToRecipients.GetSize(); i++)
+    delete m_ToRecipients.GetAt(i);
+  m_ToRecipients.RemoveAll();
+
+  //Now copy over the new object
+  for (i = 0; i < message.m_ToRecipients.GetSize(); i++)
+  {
+    CSMTPAddress* pAddress = new CSMTPAddress(*message.m_ToRecipients.GetAt(i));
+    m_ToRecipients.Add(pAddress);
+  }
+
+  //Free up the CC memory
+  for (i = 0; i < m_CCRecipients.GetSize(); i++)
+    delete m_CCRecipients.GetAt(i);
+  m_CCRecipients.RemoveAll();
+
+  //Now copy over the new object
+  for (i = 0; i < message.m_CCRecipients.GetSize(); i++)
+  {
+    CSMTPAddress* pAddress = new CSMTPAddress(*message.m_CCRecipients.GetAt(i));
+    m_CCRecipients.Add(pAddress);
+  }
+
+  //Free up the BCC memory
+  for (i = 0; i < m_BCCRecipients.GetSize(); i++)
+    delete m_BCCRecipients.GetAt(i);
+  m_BCCRecipients.RemoveAll();
+
+  //Now copy over the new object
+  for (i = 0; i < message.m_BCCRecipients.GetSize(); i++)
+  {
+    CSMTPAddress* pAddress = new CSMTPAddress(*message.m_BCCRecipients.GetAt(i));
+    m_BCCRecipients.Add(pAddress);
+  }
+
+  m_CustomHeaders.Copy(message.m_CustomHeaders);
+  m_bMime = message.m_bMime;
+
+	return *this;
+}
+
+CSMTPMessage::~CSMTPMessage()
+{
+  int	i;
+
+  //Free up the array memory
+  for (i = 0; i < m_ToRecipients.GetSize(); i++)
+    delete m_ToRecipients.GetAt(i);
+  m_ToRecipients.RemoveAll();
+
+  for (i = 0; i < m_CCRecipients.GetSize(); i++)
+    delete m_CCRecipients.GetAt(i);
+  m_CCRecipients.RemoveAll();
+
+  for (i = 0; i < m_BCCRecipients.GetSize(); i++)
+    delete m_BCCRecipients.GetAt(i);
+  m_BCCRecipients.RemoveAll();
+}
+
+void CSMTPMessage::SetCharset(const CString& sCharset)
+{
+  m_RootPart.SetCharset(sCharset);
+}
+
+CString CSMTPMessage::GetCharset() const
+{
+  return m_RootPart.GetCharset();
+}
+
+int CSMTPMessage::GetNumberOfRecipients(RECIPIENT_TYPE RecipientType) const
+{
+  int nSize = 0;
+  switch (RecipientType)
+  {
+    case TO:  nSize = m_ToRecipients.GetSize();  break;
+    case CC:  nSize = m_CCRecipients.GetSize();  break;
+    case BCC: nSize = m_BCCRecipients.GetSize(); break;
+    default: ASSERT(FALSE);                      break;
+  }
+
+	return nSize;
+}
+
+int CSMTPMessage::AddRecipient(CSMTPAddress& recipient, RECIPIENT_TYPE RecipientType)
+{
+  int nIndex = -1;
+
+  CSMTPAddress* pNewRecipient = new CSMTPAddress(recipient);
+
+  switch (RecipientType)
+  {
+    case TO:  nIndex = m_ToRecipients.Add(pNewRecipient);  break;
+    case CC:  nIndex = m_CCRecipients.Add(pNewRecipient);  break;
+    case BCC: nIndex = m_BCCRecipients.Add(pNewRecipient); break;
+    default: ASSERT(FALSE);                            break;
+  }
+
+  return nIndex;
+}
+
+void CSMTPMessage::RemoveRecipient(int nIndex, RECIPIENT_TYPE RecipientType)
+{
+  switch (RecipientType)
+  {
+    case TO:
+    {
+      delete m_ToRecipients.GetAt(nIndex);
+      m_ToRecipients.RemoveAt(nIndex);
+      break;
+    }
+    case CC:
+    {
+      delete m_CCRecipients.GetAt(nIndex);
+      m_CCRecipients.RemoveAt(nIndex);
+      break;
+    }
+    case BCC:
+    {
+      delete m_BCCRecipients.GetAt(nIndex);
+      m_BCCRecipients.RemoveAt(nIndex);
+      break;
+    }
+    default:
+    {
+      ASSERT(FALSE);
+      break;
+    }
+  }
+}
+
+CSMTPAddress* CSMTPMessage::GetRecipient(int nIndex, RECIPIENT_TYPE RecipientType)
+{
+  switch (RecipientType)
+  {
+    case TO:  return m_ToRecipients.GetAt(nIndex);   break;
+    case CC:  return m_CCRecipients.GetAt(nIndex);   break;
+    case BCC: return m_BCCRecipients.GetAt(nIndex);  break;
+    default: ASSERT(FALSE); return (CSMTPAddress*) NULL; break;
+  }
+}
+
+int CSMTPMessage::AddBodyPart(CSMTPBodyPart& Attachment)
+{
+  SetMime(TRUE); //Body parts implies Mime
+	return m_RootPart.AddChildBodyPart(Attachment);
+}
+
+void CSMTPMessage::RemoveBodyPart(int nIndex)
+{
+	m_RootPart.RemoveChildBodyPart(nIndex);
+}
+
+CSMTPBodyPart* CSMTPMessage::GetBodyPart(int nIndex)
+{
+	return m_RootPart.GetChildBodyPart(nIndex);
+}
+
+int CSMTPMessage::GetNumberOfBodyParts() const
+{
+	return m_RootPart.GetNumberOfChildBodyParts();
+}
+
+void CSMTPMessage::AddCustomHeader(const CString& sHeader)
+{
+  m_CustomHeaders.Add(sHeader);
+}
+
+CString CSMTPMessage::GetCustomHeader(int nIndex)
+{
+  return m_CustomHeaders.GetAt(nIndex);
+}
+
+int CSMTPMessage::GetNumberOfCustomHeaders() const
+{
+  return m_CustomHeaders.GetSize();
+}
+
+void CSMTPMessage::RemoveCustomHeader(int nIndex)
+{
+  m_CustomHeaders.RemoveAt(nIndex);
+}
+
+std::string CSMTPMessage::getHeader()
+{
+	USES_CONVERSION;
+
+  //Hive away the locale so that we can restore it later. We
+  //require the English locale to ensure the date header is
+  //formed correctly
+  CString sOldLocale = _tsetlocale(LC_TIME, NULL);
+  _tsetlocale(LC_TIME, _T("english"));
+
+  //Form the Timezone info which will form part of the Date header
+  TIME_ZONE_INFORMATION tzi;
+  int nTZBias;
+  if (GetTimeZoneInformation(&tzi) == TIME_ZONE_ID_DAYLIGHT)
+    nTZBias = tzi.Bias + tzi.DaylightBias;
+  else
+    nTZBias = tzi.Bias;
+  CString sTZBias;
+  sTZBias.Format(_T("%+.2d%.2d"), -nTZBias/60, nTZBias%60);
+
+  //Create the "Date:" part of the header
+  CTime now(CTime::GetCurrentTime());
+  CString sDate(now.Format(_T("%a, %d %b %Y %H:%M:%S ")));
+  sDate += sTZBias;
+
+  CString sCharset = m_RootPart.GetCharset();
+
+  //Create the "To:" part of the header
+  CString	sTo;
+  int		i;
+
+  for (i = 0; i < GetNumberOfRecipients(TO); i++)
+  {
+    CSMTPAddress* pRecipient = GetRecipient(i, TO);
+    if (i)
+ 		  sTo += _T(",");
+    ASSERT(pRecipient);
+    sTo += pRecipient->GetRegularFormat(TRUE, sCharset);
+  }
+
+  //Create the "Cc:" part of the header
+  CString sCc;
+  for (i = 0; i < GetNumberOfRecipients(CC); i++)
+  {
+    CSMTPAddress* pRecipient = GetRecipient(i, CC);
+    if (i)
+ 		  sCc += _T(",");
+    ASSERT(pRecipient);
+    sCc += pRecipient->GetRegularFormat(TRUE, sCharset);
+  }
+
+  //No Bcc info added in header
+
+
+  //Move to ASCII from CString at this stage
+
+  //Add the From and To fields
+  std::string suBuf("From: ");
+  suBuf += T2CA(m_From.GetRegularFormat(TRUE, sCharset));
+  suBuf += "\r\nTo: ";
+  suBuf += T2CA(sTo);
+  suBuf += "\r\n";
+
+  //Add the CC field if there is any
+  if (sCc.GetLength())
+  {
+    suBuf += "Cc: ";
+    suBuf += T2CA(sCc);
+    suBuf += "\r\n";
+  }
+
+  //add the subject
+  suBuf += "Subject: ";
+  suBuf += CSMTPBodyPart::HeaderEncode(m_sSubject, sCharset);
+
+  //X-Mailer fields
+  if (m_sXMailer.GetLength())
+  {
+    suBuf += "\r\nX-Mailer: ";
+    suBuf += T2CA(m_sXMailer);
+  }
+  suBuf += "\r\n";
+
+  //Add the Mime header if needed
+  BOOL bHasChildParts = (m_RootPart.GetNumberOfChildBodyParts() != 0);
+
+  if (m_bMime)
+  {
+    //QP and UTF8 encoding is only supported if the mail is being sent as MIME
+    if (m_RootPart.m_bBase64)
+      suBuf += "Content-Transfer-Encoding: base64\r\n";
+    else if (m_RootPart.m_bQuotedPrintable)
+      suBuf += "Content-Transfer-Encoding: quoted-printable\r\n";
+
+    if (bHasChildParts)
+    {
+      CString sReply;
+      sReply.Format(_T("MIME-Version: 1.0\r\nContent-Type: %s; boundary=\"%s\"\r\n"), m_RootPart.GetContentType(), m_RootPart.GetBoundary());
+      suBuf += T2CA(sReply);
+    }
+    else
+    {
+      CString sReply;
+      sReply.Format(_T("MIME-Version: 1.0\r\nContent-Type: %s\r\n"), m_RootPart.GetContentType());
+      suBuf += T2CA(sReply);
+    }
+  }
+  else
+  {
+    CString sReply;
+    sReply.Format(_T("Content-Type: %s;\r\n\tcharset=%s\r\n"), m_RootPart.GetContentType(), m_RootPart.GetCharset());
+    suBuf += T2CA(sReply);
+  }
+  
+	//Add the optional Reply-To Field
+	if (m_ReplyTo.m_sEmailAddress.GetLength())
+	{
+		suBuf += "Reply-To: ";
+		suBuf += T2CA(m_ReplyTo.GetRegularFormat(TRUE, sCharset));
+    suBuf += "\r\n";
+	}
+
+  //Date header
+  suBuf += "Date: ";
+  suBuf += T2CA(sDate);
+  suBuf += "\r\n";
+
+  //Add the custom headers
+  int nCustomHeaders = m_CustomHeaders.GetSize();
+  for (i = 0; i < nCustomHeaders; i++)
+  {
+    CString sHeader = m_CustomHeaders.GetAt(i);
+    suBuf += T2CA(sHeader);
+    
+    //Add line separators for each header
+    suBuf += "\r\n";
+  }
+
+  // restore original locale
+  _tsetlocale(LC_TIME, sOldLocale);
+
+	//Return the result
+	return suBuf;
+}
+
+int CSMTPMessage::ParseMultipleRecipients(const CString& sRecipients, CSMTPAddressArray& recipients)
+{
+	ASSERT(sRecipients.GetLength()); //An empty string is now allowed
+
+  //Empty out the array
+  recipients.SetSize(0);
+	
+	//Loop through the whole string, adding recipients as they are encountered
+	int length = sRecipients.GetLength();
+	TCHAR* buf = new TCHAR[length + 1];	// Allocate a work area (don't touch parameter itself)
+	_tcscpy(buf, sRecipients);
+	for (int pos=0, start=0; pos<=length; pos++)
+	{
+		//Valid separators between addresses are ',' or ';'
+		if ((buf[pos] == _T(',')) || (buf[pos] == _T(';')) || (buf[pos] == 0))
+		{
+			buf[pos] = 0;	//Redundant when at the end of string, but who cares.
+      CString sTemp(&buf[start]);
+      sTemp.Trim();
+
+      //Let the CSMTPAddress constructor do its work
+      CSMTPAddress To(sTemp);
+      if (To.m_sEmailAddress.GetLength())
+        recipients.Add(To);
+
+      //Move on to the next position
+			start = pos + 1;
+		}
+	}
+    
+  //Tidy up the heap memory we have used
+	delete [] buf;
+
+  //Return the number of recipients parsed
+	return recipients.GetSize();
+}
+
+BOOL CSMTPMessage::AddMultipleRecipients(const CString& sRecipients, RECIPIENT_TYPE RecipientType)
+{
+  CSMTPAddressArray Recipients;
+  int nRecipients = ParseMultipleRecipients(sRecipients, Recipients);
+
+  //Add them to the correct array
+  for (int i=0; i<nRecipients; i++)
+  {
+    CSMTPAddress& address = Recipients.ElementAt(i);
+    AddRecipient(address, RecipientType);
+  }
+
+	return (nRecipients != 0);
+}
+
+int CSMTPMessage::AddMultipleAttachments(const CString& sAttachments)
+{
+  //Assume the best
+  BOOL nAttachments = 0;
+
+	ASSERT(sAttachments.GetLength()); //An empty string is now allowed
+	
+	//Loop through the whole string, adding attachments as they are encountered
+	int length = sAttachments.GetLength();
+	TCHAR* buf = new TCHAR[length + 1];	// Allocate a work area (don't touch parameter itself)
+	_tcscpy(buf, sAttachments);
+	for (int pos=0, start=0; pos<=length; pos++)
+	{
+		//Valid separators between attachments are ',' or ';'
+		if ((buf[pos] == _T(',')) || (buf[pos] == _T(';')) || (buf[pos] == 0))
+		{
+			buf[pos] = 0;	//Redundant when at the end of string, but who cares.
+      CString sTemp(&buf[start]);
+
+      //Finally add the new attachment to the array of attachments
+      CSMTPBodyPart attachment;
+			sTemp.Trim();
+      if (sTemp.GetLength())
+      {
+        BOOL bAdded = attachment.SetFilename(sTemp);
+        if (bAdded)
+        {
+          ++nAttachments;
+          AddBodyPart(attachment);
+        }
+      }
+
+      //Move on to the next position
+			start = pos + 1;
+		}
+	}
+
+  //Tidy up the heap memory we have used
+	delete [] buf;
+
+	return nAttachments;
+}
+
+CString CSMTPMessage::ConvertHTMLToPlainText(const CString& sHtml)
+{
+  //First pull out whats within the body tags
+  CString sRet(sHtml);
+  sRet.MakeUpper();
+  int nStartCut = -1;
+  int nStartBody = sRet.Find(_T("<BODY"));
+  if (nStartBody != -1)
+  {
+    sRet = sHtml.Right(sHtml.GetLength() - nStartBody - 5);
+    int nTemp = sRet.Find(_T('>'));
+    nStartCut = nStartBody + nTemp + 6;
+    sRet = sRet.Right(sRet.GetLength() - nTemp - 1);
+  }
+  sRet.MakeUpper();
+  int nLength = sRet.Find(_T("</BODY"));
+
+  //Finally do the actual cutting
+  if (nLength != -1)
+    sRet = sHtml.Mid(nStartCut, nLength);
+  else
+    sRet = sHtml;
+
+  //Now strip all html tags
+  int nStartTag = sRet.Find(_T('<'));
+  int nEndTag = sRet.Find(_T('>'));
+  while (nStartTag != -1 && nEndTag != -1)
+  {
+    sRet = sRet.Left(nStartTag) + sRet.Right(sRet.GetLength() - nEndTag - 1);
+    nStartTag = sRet.Find(_T('<'));
+    nEndTag = sRet.Find(_T('>'));
+  }
+
+  sRet.Trim();
+  return sRet;
+}
+
+void CSMTPMessage::AddTextBody(const CString& sBody)
+{
+  if (m_bMime)
+  {
+    CSMTPBodyPart* pTextBodyPart = m_RootPart.FindFirstBodyPart(_T("text/plain"));
+    if (pTextBodyPart)
+      pTextBodyPart->SetText(sBody);
+    else
+    {
+      //Create a text body part
+      CSMTPBodyPart oldRoot = m_RootPart;
+
+      //Reset the root body part to be multipart/related
+      m_RootPart.SetCharset(oldRoot.GetCharset());
+      m_RootPart.SetText(_T("This is a multi-part message in MIME format"));
+      m_RootPart.SetContentType(_T("multipart/mixed"));
+
+      //Just add the text/plain body part (directly to the root)
+      CSMTPBodyPart text;
+      text.SetCharset(oldRoot.GetCharset());
+      text.SetText(sBody);
+
+      //Hook everything up to the root body part
+      m_RootPart.AddChildBodyPart(text);
+    }
+  }
+  else
+  {
+    //Let the body part class do all the work
+    m_RootPart.SetText(sBody);
+  }
+}
+
+void CSMTPMessage::AddHTMLBody(const CString& sBody, const CString& sContentBase)
+{
+  ASSERT(m_bMime); //You forgot to make this a MIME message using SetMime(TRUE)
+
+  CSMTPBodyPart* pHtmlBodyPart = m_RootPart.FindFirstBodyPart(_T("text/html"));
+  if (pHtmlBodyPart)
+    pHtmlBodyPart->SetText(sBody);
+  else
+  {
+    //Remember some of the old root settings before we write over it
+    CSMTPBodyPart oldRoot = m_RootPart;
+
+    //Reset the root body part to be multipart/related
+    m_RootPart.SetCharset(oldRoot.GetCharset());
+    m_RootPart.SetText(_T("This is a multi-part message in MIME format"));
+    m_RootPart.SetContentType(_T("multipart/related"));
+
+    //Just add the text/html body part (directly to the root)
+    CSMTPBodyPart html;
+    html.SetCharset(oldRoot.GetCharset());
+    html.SetText(sBody);
+    html.SetContentType(_T("text/html"));
+    html.SetContentBase(sContentBase);
+
+    //Hook everything up to the root body part
+    m_RootPart.AddChildBodyPart(html);
+  }
+}
+
+CString CSMTPMessage::GetHTMLBody()
+{
+  CString sRet;
+
+  if (m_RootPart.GetNumberOfChildBodyParts())
+  {
+    CSMTPBodyPart* pHtml = m_RootPart.GetChildBodyPart(0);
+    if (pHtml->GetContentType() == _T("text/html"))
+      sRet = pHtml->GetText();
+  }
+  return sRet;
+}
+
+CString CSMTPMessage::GetTextBody()
+{
+  return m_RootPart.GetText();
+}
+
+void CSMTPMessage::SetMime(BOOL bMime)
+{
+  if (m_bMime != bMime)
+  {
+    m_bMime = bMime;
+
+    //Reset the body body parts
+    for (int i=0; i<m_RootPart.GetNumberOfChildBodyParts(); i++)
+      m_RootPart.RemoveChildBodyPart(i);
+
+    if (bMime)
+    {
+      CString sText = GetTextBody();
+
+      //Remember some of the old root settings before we write over it
+      CSMTPBodyPart oldRoot = m_RootPart;
+
+      //Reset the root body part to be multipart/mixed
+      m_RootPart.SetCharset(oldRoot.GetCharset());
+      m_RootPart.SetText(_T("This is a multi-part message in MIME format"));
+      m_RootPart.SetContentType(_T("multipart/mixed"));
+
+      //Also readd the body if non - empty
+      if (sText.GetLength())
+        AddTextBody(sText);
+    }
+  }
+}
+
+BOOL CSMTPMessage::SaveToDisk(const CString& sFilename)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //Assume the worst
+  BOOL bSuccess = FALSE;
+
+  //Open the file for writing
+  CFile outFile;
+  if (outFile.Open(sFilename, CFile::modeCreate | CFile::modeWrite | CFile::shareDenyWrite))
+  {
+    try
+    {
+      //Write out the Message Header
+      std::string sHeader = getHeader();
+      int nCmdLength = sHeader.length();
+      outFile.Write(sHeader.c_str() , nCmdLength);
+
+	    //Write out the separator
+      char* pszBodyHeader = "\r\n";
+      nCmdLength = strlen(pszBodyHeader);
+      outFile.Write(pszBodyHeader, nCmdLength);
+
+      //Write out the rest of the message
+      BOOL bHasChildParts = (m_RootPart.GetNumberOfChildBodyParts() != 0);
+      if (bHasChildParts || m_bMime)
+      {
+        //Write the root body part (and all its children)
+        bSuccess = WriteToDisk(outFile, &m_RootPart, TRUE);
+      }
+      else
+      {
+        //Send the body
+        char* pszBody = T2A((LPTSTR) (LPCTSTR) m_RootPart.GetText());
+        ASSERT(pszBody);
+        nCmdLength = strlen(pszBody);
+
+        //Send the body
+        outFile.Write(pszBody, nCmdLength);
+        bSuccess = TRUE;
+      }
+    }
+    catch(CFileException* pEx)
+    {
+      TRACE(_T("CSMTPMessage::SaveToDisk, A file exception occured while trying to save the message to file %s\n"), sFilename);
+      pEx->Delete();
+    }
+
+    //Explicitly handle the closing of the file here with an exception handler
+    try
+    {
+      outFile.Close();
+    }
+    catch(CFileException* pEx)
+    {
+      TRACE(_T("CSMTPMessage::SaveToDisk, A file exception occured while closing the file when saving the message to file %s\n"), sFilename);
+      pEx->Delete();
+    }
+  }
+
+  return bSuccess;
+}
+
+BOOL CSMTPMessage::WriteToDisk(CFile& file, CSMTPBodyPart* pBodyPart, BOOL bRoot)
+{
+  //Assume success
+  BOOL bSuccess = TRUE;
+
+  if (!bRoot)
+  {
+    //First send this body parts header
+    LPSTR pszHeader = NULL;
+    int nHeaderSize = 0;
+    if (!pBodyPart->GetHeader(pszHeader, nHeaderSize))
+    {
+		  TRACE(_T("CSMTPMessage::WriteToDisk, Failed in call to send body parts header, GetLastError returns: %d\n"), GetLastError());
+		  return FALSE;
+    }
+		file.Write(pszHeader, nHeaderSize);
+
+    //Free up the temp memory we have used
+    pBodyPart->FreeHeader(pszHeader);
+  }
+  
+  //Then the body parts body
+  LPSTR pszBody = NULL;
+  int nBodySize = 0;
+  if (!pBodyPart->GetBody(pszBody, nBodySize))
+  {
+		TRACE(_T("CSMTPMessage::WriteToDisk, Failed in call to send body parts body, GetLastError returns: %d\n"), GetLastError());
+		return FALSE;
+  }
+	file.Write(pszBody, nBodySize);
+
+  //Free up the temp memory we have used
+  pBodyPart->FreeBody(pszBody);
+
+  //Recursively send all the child body parts
+  int nChildBodyParts = pBodyPart->GetNumberOfChildBodyParts();
+  for (int i=0; i<nChildBodyParts && bSuccess; i++)
+  {
+    CSMTPBodyPart* pChildBodyPart = pBodyPart->GetChildBodyPart(i);
+    bSuccess = WriteToDisk(file, pChildBodyPart, FALSE);
+  }
+
+  //Then the MIME footer if need be
+  BOOL bSendFooter = (pBodyPart->GetNumberOfChildBodyParts() != 0);
+  if (bSendFooter)
+  {
+    LPSTR pszFooter = NULL;
+    int nFooterSize = 0;
+    if (!pBodyPart->GetFooter(pszFooter, nFooterSize))
+    {
+		  TRACE(_T("CSMTPMessage::WriteToDisk, Failed in call to send body parts footer, GetLastError returns: %d\n"), GetLastError());
+		  return FALSE;
+    }
+
+	  file.Write(pszFooter, nFooterSize);
+
+    //Free up the temp memory we have used
+    pBodyPart->FreeFooter(pszFooter);
+  }
+  
+  return bSuccess;
+}
+
+
+
+CSMTPConnection::CSMTPConnection()
+{
+  m_bConnected = FALSE;
+#ifdef _DEBUG
+  m_dwTimeout = 90000; //default timeout of 90 seconds when debugging
+#else
+  m_dwTimeout = 60000;  //default timeout of 60 seconds for normal release code
+#endif
+  m_nLastCommandResponseCode = 0;
+  m_sHeloHostname = _T("auto");
+}
+
+CSMTPConnection::~CSMTPConnection()
+{
+  if (m_bConnected)
+    Disconnect(TRUE);
+}
+
+void CSMTPConnection::OnError(const CString& sError)
+{
+  //By default all we do is TRACE the string, derived classes can do
+  //something more useful with the info
+  TRACE(_T("%s\n"), sError);
+}
+
+BOOL CSMTPConnection::Connect(LPCTSTR pszHostName, LoginMethod lm, LPCTSTR pszUsername, LPCTSTR pszPassword, int nPort, LPCTSTR pszLocalBoundAddress)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+	//Validate our parameters
+  ASSERT(pszHostName);
+  ASSERT(!m_bConnected);
+
+  //Create the socket
+  if (!m_SMTP.Create())
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::Connect, Failed to create client socket, GetLastError returns: %d\n"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //Connect to the SMTP Host
+  if (!m_SMTP.Connect(pszHostName, nPort, pszLocalBoundAddress))
+  {
+    if (pszLocalBoundAddress  && _tcslen(pszLocalBoundAddress))
+    {
+      CString sError;
+      sError.Format(_T("CSMTPConnection::Connect, Could not connect to the SMTP server %s on port %d from LocalAddress:%s, GetLastError returns: %d"), pszHostName, nPort, pszLocalBoundAddress, GetLastError());
+      OnError(sError);
+    }
+    else
+    {
+      CString sError;
+      sError.Format(_T("CSMTPConnection::Connect, Could not connect to the SMTP server %s on port %d, GetLastError returns: %d"), pszHostName, nPort, GetLastError());
+      OnError(sError);
+    }
+    return FALSE;
+  }
+  else
+  {
+    //We're now connected !!
+    m_bConnected = TRUE;
+
+    //check the response to the login
+    if (!ReadCommandResponse(220))
+    {
+      OnError(_T("CSMTPConnection::Connect, An unexpected SMTP login response was received"));
+      Disconnect(TRUE);
+      return FALSE;
+    }
+
+	  //retreive the localhost name (assuming we are not using a custom one)
+		if (m_sHeloHostname == _T("auto"))
+		{
+			//retrieve the localhost name
+			char sHostName[_MAX_PATH];
+			gethostname(sHostName, sizeof(sHostName));
+			TCHAR* pszHostName = A2T(sHostName);
+			m_sHeloHostname = pszHostName;
+		}
+
+	  // negotiate Extended SMTP connection
+	  BOOL bConnectOk = FALSE;
+	  if (lm != NoLoginMethod)
+		  bConnectOk = ConnectESMTP(m_sHeloHostname, pszUsername, pszPassword, lm);
+    else
+		  bConnectOk = ConnectSMTP(m_sHeloHostname);
+
+	  // if bConnectOk is still false then connection failed
+	  if (!bConnectOk)
+	  {
+      Disconnect(TRUE);
+      OnError(_T("CSMTPConnection::Connect, An unexpected HELO/EHLO response was received"));
+      return FALSE;
+	  }
+
+    return TRUE;
+  }
+}
+
+// This function connects using one of the Extended SMTP methods i.e. EHLO
+BOOL CSMTPConnection::ConnectESMTP(LPCTSTR pszLocalName, LPCTSTR pszUsername, LPCTSTR pszPassword, LoginMethod lm)
+{
+  //Validate our parameters
+  ASSERT(pszUsername);
+  ASSERT(pszPassword);
+  ASSERT(lm != NoLoginMethod);
+
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //Send the EHLO command
+	CString sBuf;
+	sBuf.Format(_T("EHLO %s\r\n"), pszLocalName);
+  LPCSTR pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+  int nCmdLength = strlen(pszData);
+  if (!m_SMTP.Send(pszData, nCmdLength))
+  {
+    OnError(_T("CSMTPConnection::ConnectESMTP, An unexpected error occurred while sending the EHLO command"));
+    return FALSE;
+  }
+	
+  //check the response to the EHLO command
+  if (!ReadCommandResponse(250, TRUE))
+  {
+	  OnError(_T("CSMTPConnection::ConnectESMTP, An unexpected response was received occurred while sending the EHLO command"));
+	  return FALSE;
+	}
+
+	BOOL bLoginOk = FALSE;
+  switch (lm)
+  {
+    #ifndef CSMTP_NORSA
+    case CramMD5Method:
+    {
+      bLoginOk = CramLogin(pszUsername, pszPassword); // CRAM-MD5 authentication
+      break;
+    }
+    #endif
+    case AuthLoginMethod:
+    {
+      bLoginOk = AuthLogin(pszUsername, pszPassword); // LOGIN authentication
+      break;
+    }
+    case LoginPlainMethod:
+    {
+      bLoginOk = AuthLoginPlain(pszUsername, pszPassword); // PLAIN authentication
+      break;
+    }
+    default:
+    {
+      ASSERT(FALSE);
+      break;
+    }
+  }
+
+	return bLoginOk;
+}
+
+// This function connects using standard SMTP connection i.e. HELO
+BOOL CSMTPConnection::ConnectSMTP(LPCTSTR pszLocalName)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //Send the HELO command
+	CString sBuf;
+	sBuf.Format(_T("HELO %s\r\n"), pszLocalName);
+	LPCSTR pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+	int nCmdLength = strlen(pszData);
+	if (!m_SMTP.Send(pszData, nCmdLength))
+	{
+	  OnError(_T("CSMTPConnection::ConnectSMTP, An unexpected error occurred while sending the HELO command"));
+	  return FALSE;
+	}
+
+	//check the response to the HELO command
+	return ReadCommandResponse(250);
+}
+
+BOOL CSMTPConnection::Disconnect(BOOL bGracefully)
+{
+  BOOL bSuccess = FALSE;
+
+  //disconnect from the SMTP server if connected 
+  if (m_bConnected)
+  {
+    if (bGracefully)
+    {
+      char sBuf[10];
+      strcpy(sBuf, "QUIT\r\n");
+      int nCmdLength = strlen(sBuf);
+      if (!m_SMTP.Send(sBuf, nCmdLength))
+      {
+        CString sError;
+        sError.Format(_T("CSMTPConnection::Disconnect, Failed in call to send QUIT command, GetLastError returns: %d"), GetLastError());
+        OnError(sError);
+      }
+
+      //Check the reponse
+      bSuccess = ReadCommandResponse(221);
+      if (!bSuccess)
+      {
+        SetLastError(ERROR_BAD_COMMAND);
+        OnError(_T("CSMTPConnection::Disconnect, An unexpected QUIT response was received"));
+      }
+    }
+
+    //Reset all the state variables
+    m_bConnected = FALSE;
+  }
+  else
+    OnError(_T("CSMTPConnection::Disconnect, Already disconnected from SMTP server, doing nothing"));
+ 
+  //free up our socket
+  m_SMTP.Close();
+ 
+  return bSuccess;
+}
+
+BOOL CSMTPConnection::SendBodyPart(CSMTPBodyPart* pBodyPart, BOOL bRoot)
+{
+  //we must convert all the body parts to the declared encoding.
+
+  //Assume success
+  BOOL bSuccess = TRUE;
+
+  if (!bRoot)
+  {
+    //First send this body parts header
+    LPSTR pszHeader = NULL;
+    int nHeaderSize = 0;
+    if (!pBodyPart->GetHeader(pszHeader, nHeaderSize))
+    {
+      CString sError;
+      sError.Format(_T("CSMTPConnection::SendBodyPart, Failed in call to send body parts header, GetLastError returns: %d"), GetLastError());
+		  OnError(sError);
+		  return FALSE;
+    }
+		if (!m_SMTP.Send(pszHeader, nHeaderSize))
+		{
+      CString sError;
+      sError.Format(_T("CSMTPConnection::SendBodyPart, Failed in call to send body parts header, GetLastError returns: %d"), GetLastError());
+			OnError(sError);
+			bSuccess = FALSE;
+		}
+    //Free up the temp memory we have used
+    pBodyPart->FreeHeader(pszHeader);
+  }
+
+  //Then the body parts body
+  LPSTR pszBody = NULL;
+  int nBodySize = 0;
+  if (!pBodyPart->GetBody(pszBody, nBodySize))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendBodyPart, Failed in call to send body parts body, GetLastError returns: %d"), GetLastError());
+		OnError(sError);
+		return FALSE;
+  }
+
+
+  if (!m_SMTP.Send(pszBody, nBodySize))
+  {
+	  CString sError;
+	  sError.Format(_T("CSMTPConnection::SendBodyPart, Failed in call to send body parts body, GetLastError returns: %d"), GetLastError());
+	  OnError(sError);
+	  bSuccess = FALSE;
+  }
+  //Free up the temp memory we have used
+  pBodyPart->FreeBody(pszBody);
+
+  //The recursively send all the child body parts
+  int nChildBodyParts = pBodyPart->GetNumberOfChildBodyParts();
+  for (int i=0; i<nChildBodyParts && bSuccess; i++)
+  {
+    CSMTPBodyPart* pChildBodyPart = pBodyPart->GetChildBodyPart(i);
+    bSuccess = SendBodyPart(pChildBodyPart, FALSE);
+  }
+
+  //Then the MIME footer if need be
+  BOOL bSendFooter = (pBodyPart->GetNumberOfChildBodyParts() != 0);
+  if (bSendFooter)
+  {
+    LPSTR pszFooter = NULL;
+    int nFooterSize = 0;
+    if (!pBodyPart->GetFooter(pszFooter, nFooterSize))
+    {
+      CString sError;
+      sError.Format(_T("CSMTPConnection::SendBodyPart, Failed in call to send body parts footer, GetLastError returns: %d"), GetLastError());
+		  OnError(sError);
+		  return FALSE;
+    }
+	  if (!m_SMTP.Send(pszFooter, nFooterSize))
+	  {
+      CString sError;
+      sError.Format(_T("CSMTPConnection::SendBodyPart, Failed in call to send body parts footer, GetLastError returns: %d"), GetLastError());
+		  OnError(sError);
+		  bSuccess = FALSE;
+	  }
+    //Free up the temp memory we have used
+    pBodyPart->FreeFooter(pszFooter);
+  }
+
+  return bSuccess;
+}
+
+BOOL CSMTPConnection::SendMessage(CSMTPMessage& Message)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+	//paramater validity checking
+  ASSERT(m_bConnected); //Must be connected to send a message
+
+  //Send the MAIL command
+	ASSERT(Message.m_From.m_sEmailAddress.GetLength());
+  CString sBuf;
+  sBuf.Format(_T("MAIL FROM:<%s>\r\n"), Message.m_From.m_sEmailAddress);
+  LPCSTR pszMailFrom = T2A((LPTSTR) (LPCTSTR) sBuf);
+  int nCmdLength = strlen(pszMailFrom);
+  if (!m_SMTP.Send(pszMailFrom, nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send MAIL command, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //check the response to the MAIL command
+  if (!ReadCommandResponse(250))
+  {
+    SetLastError(ERROR_BAD_COMMAND);
+    OnError(_T("CSMTPConnection::SendMessage, An unexpected MAIL response was received"));
+    return FALSE;
+  } 
+
+  //Send the RCPT command, one for each recipient (includes the TO, CC & BCC recipients)
+
+  //Must be sending to someone
+  ASSERT(Message.GetNumberOfRecipients(CSMTPMessage::TO) + 
+         Message.GetNumberOfRecipients(CSMTPMessage::CC) + 
+         Message.GetNumberOfRecipients(CSMTPMessage::BCC));
+
+  int	i;
+
+  //First the "To" recipients
+  for (i = 0; i < Message.GetNumberOfRecipients(CSMTPMessage::TO); i++)
+  {
+    CSMTPAddress* pRecipient = Message.GetRecipient(i, CSMTPMessage::TO);
+    ASSERT(pRecipient);
+    if (!SendRCPTForRecipient(*pRecipient))
+      return FALSE;
+  }
+
+  //Then the "CC" recipients
+  for (i = 0; i < Message.GetNumberOfRecipients(CSMTPMessage::CC); i++)
+  {
+    CSMTPAddress* pRecipient = Message.GetRecipient(i, CSMTPMessage::CC);
+    ASSERT(pRecipient);
+    if (!SendRCPTForRecipient(*pRecipient))
+      return FALSE;
+  }
+
+  //Then the "BCC" recipients
+  for (i = 0; i < Message.GetNumberOfRecipients(CSMTPMessage::BCC); i++)
+  {
+    CSMTPAddress* pRecipient = Message.GetRecipient(i, CSMTPMessage::BCC);
+    ASSERT(pRecipient);
+    if (!SendRCPTForRecipient(*pRecipient))
+      return FALSE;
+  }
+
+  //Send the DATA command
+  char* pszDataCommand = "DATA\r\n";
+  nCmdLength = strlen(pszDataCommand);
+  if (!m_SMTP.Send(pszDataCommand, nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send MAIL command, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //check the response to the DATA command
+  if (!ReadCommandResponse(354))
+  {
+    SetLastError(ERROR_BAD_COMMAND);
+    OnError(_T("CSMTPConnection::SendMessage, An unexpected DATA response was received"));
+    return FALSE;
+  } 
+
+  //Send the Message Header
+  std::string sHeader = Message.getHeader();
+  nCmdLength = sHeader.length();
+  if (!m_SMTP.Send(sHeader.c_str(), nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send the header, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+	//Send the Header / body Separator
+  char* pszBodyHeader = "\r\n";
+  nCmdLength = strlen(pszBodyHeader);
+  if (!m_SMTP.Send(pszBodyHeader, nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send the header / body separator, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //Now send the contents of the mail    
+  BOOL bHasChildParts = (Message.m_RootPart.GetNumberOfChildBodyParts() != 0);
+  if (bHasChildParts || Message.m_bMime)
+  {
+    //Send the root body part (and all its children)
+    if (!SendBodyPart(&Message.m_RootPart, TRUE))
+      return FALSE;
+  }
+  else
+  {
+	  LPCSTR pszBody = T2CA(Message.m_RootPart.GetText());
+    ASSERT(pszBody);
+    nCmdLength = strlen(pszBody);
+
+    //Send the body
+    if (!m_SMTP.Send(pszBody, nCmdLength))
+    {
+      CString sError;
+      sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send the header, GetLastError returns: %d"), GetLastError());
+      OnError(sError);
+      return FALSE;
+    }
+  }
+
+  //Send the end of message indicator
+  char* pszEOM = "\r\n.\r\n";
+	nCmdLength = strlen(pszEOM);
+  if (!m_SMTP.Send(pszEOM, nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send end of message indicator, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //check the response to the End of Message command
+  if (!ReadCommandResponse(250))
+  {
+    SetLastError(ERROR_BAD_COMMAND);
+    OnError(_T("CSMTPConnection::SendMessage, An unexpected end of message response was received"));
+    return FALSE;
+  }
+
+	return TRUE;
+}
+
+BOOL CSMTPConnection::OnSendProgress(DWORD /*dwCurrentBytes*/, DWORD /*dwTotalBytes*/)
+{
+  //By default just return TRUE to allow the mail to continue to be sent
+  return TRUE; 
+}
+
+BOOL CSMTPConnection::SendMessage(BYTE* pMessage, DWORD dwTotalBytes, CSMTPAddressArray& Recipients, const CSMTPAddress& From, DWORD dwSendBufferSize)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+	//paramater validity checking
+  ASSERT(m_bConnected); //Must be connected to send a message
+
+  //Send the MAIL command
+	ASSERT(From.m_sEmailAddress.GetLength());
+  CString sBuf;
+  sBuf.Format(_T("MAIL FROM:<%s>\r\n"), From.m_sEmailAddress);
+  LPCSTR pszMailFrom = T2A((LPTSTR) (LPCTSTR) sBuf);
+  int nCmdLength = strlen(pszMailFrom);
+  if (!m_SMTP.Send(pszMailFrom, nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send MAIL command, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //check the response to the MAIL command
+  if (!ReadCommandResponse(250))
+  {
+    SetLastError(ERROR_BAD_COMMAND);
+    OnError(_T("CSMTPConnection::SendMessage, An unexpected MAIL response was received"));
+    return FALSE;
+  } 
+
+  //Must be sending to someone
+  int nRecipients = Recipients.GetSize();
+  ASSERT(nRecipients);
+
+  //Send the RCPT command, one for each recipient
+  for (int i=0; i<nRecipients; i++)
+  {
+    CSMTPAddress& recipient = Recipients.ElementAt(i);
+    if (!SendRCPTForRecipient(recipient))
+      return FALSE;
+  }
+
+  //Send the DATA command
+  char* pszDataCommand = "DATA\r\n";
+  nCmdLength = strlen(pszDataCommand);
+  if (!m_SMTP.Send(pszDataCommand, nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send MAIL command, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //check the response to the DATA command
+  if (!ReadCommandResponse(354))
+  {
+    SetLastError(ERROR_BAD_COMMAND);
+    OnError(_T("CSMTPConnection::SendMessage, An unexpected DATA response was received"));
+    return FALSE;
+  } 
+
+  //Read and send the data a chunk at a time
+  BOOL bMore = TRUE;
+  BOOL bSuccess = TRUE;
+  DWORD dwBytesSent = 0;
+  BYTE* pSendBuf = pMessage; 
+  do
+  {
+    DWORD dwRead = min(dwSendBufferSize, dwTotalBytes-dwBytesSent);
+    dwBytesSent += dwRead;
+
+    //Call the progress virtual method
+    if (OnSendProgress(dwBytesSent, dwTotalBytes))
+    {
+      if (!m_SMTP.Send((LPCSTR)pSendBuf, dwRead))
+      {
+        CString sError;
+        sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send the message, GetLastError returns: %d"), GetLastError());
+        OnError(sError);
+        bSuccess = FALSE;
+      }
+    }
+    else
+    {
+      //Abort the mail send (due to the progress virtual method returning FALSE
+      bSuccess = FALSE;
+    }
+
+    //Prepare for the next time around
+    pSendBuf += dwRead;
+    bMore = (dwBytesSent < dwTotalBytes);
+  }
+  while (bMore && bSuccess);
+
+  if (bSuccess)
+  {
+    //Send the end of message indicator
+    char* pszEOM = "\r\n.\r\n";
+	  nCmdLength = strlen(pszEOM);
+    if (!m_SMTP.Send(pszEOM, nCmdLength))
+    {
+      CString sError;
+      sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send end of message indicator, GetLastError returns: %d"), GetLastError());
+      OnError(sError);
+      return FALSE;
+    }
+
+    //check the response to the End of Message command
+    if (!ReadCommandResponse(250))
+    {
+      SetLastError(ERROR_BAD_COMMAND);
+      OnError(_T("CSMTPConnection::SendMessage, An unexpected end of message response was received"));
+      return FALSE;
+    } 
+
+    return TRUE;
+  }
+  else
+    return FALSE;
+}
+
+void CSMTPConnection::SafeCloseFile(CFile& file, const CString& sError)
+{
+  //Explicitly handle the closing of the file here with an exception handler
+  try
+  {
+    file.Close();
+  }
+  catch(CFileException* pEx)
+  {
+    pEx->Delete();
+    OnError(sError);
+  }
+}
+
+BOOL CSMTPConnection::SendMessage(const CString& sMessageOnFile, CSMTPAddressArray& Recipients, const CSMTPAddress& From, DWORD dwSendBufferSize)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+	//paramater validity checking
+  ASSERT(m_bConnected); //Must be connected to send a message
+
+  //Open up the file
+  CFile mailFile;
+  if (mailFile.Open(sMessageOnFile, CFile::modeRead | CFile::shareDenyWrite))
+  {
+    //Form a string which we need in the calls to SafeCloseFile
+    CString sTraceMsgOnClose;
+    sTraceMsgOnClose.Format(_T("CSMTPConnection::SendMessage, A file exception occured while closing the file when sending the message from the file %s\n"), sMessageOnFile);
+
+    //Get the length of the file
+    DWORD dwTotalBytes = 0;
+    try
+    {
+      dwTotalBytes = mailFile.GetLength();
+    }
+    catch (CFileException* pEx)
+    {
+      pEx->Delete();
+      CString sError;
+      sError.Format(_T("CSMTPConnection::SendMessage, Failed to get the length of the file, %s"), sMessageOnFile);
+      OnError(sError);
+    }
+
+    //Only try sending the mail if there is anything in the body
+    if (dwTotalBytes)
+    {
+      //Send the MAIL command
+	    ASSERT(From.m_sEmailAddress.GetLength());
+      CString sBuf;
+      sBuf.Format(_T("MAIL FROM:<%s>\r\n"), From.m_sEmailAddress);
+      LPCSTR pszMailFrom = T2A((LPTSTR) (LPCTSTR) sBuf);
+      int nCmdLength = strlen(pszMailFrom);
+      if (!m_SMTP.Send(pszMailFrom, nCmdLength))
+      {
+        CString sError;
+        sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send MAIL command, GetLastError returns: %d"), GetLastError());
+        OnError(sError);
+        SafeCloseFile(mailFile, sTraceMsgOnClose);
+        return FALSE;
+      }
+
+      //check the response to the MAIL command
+      if (!ReadCommandResponse(250))
+      {
+        SetLastError(ERROR_BAD_COMMAND);
+        OnError(_T("CSMTPConnection::SendMessage, An unexpected MAIL response was received"));
+        SafeCloseFile(mailFile, sTraceMsgOnClose);
+        return FALSE;
+      } 
+
+      //Must be sending to someone
+      int nRecipients = Recipients.GetSize();
+      ASSERT(nRecipients);
+
+      //Send the RCPT command, one for each recipient
+      for (int i=0; i<nRecipients; i++)
+      {
+        CSMTPAddress& recipient = Recipients.ElementAt(i);
+        if (!SendRCPTForRecipient(recipient))
+        {
+          SafeCloseFile(mailFile, sTraceMsgOnClose);
+          return FALSE;
+        }
+      }
+
+      //Send the DATA command
+      char* pszDataCommand = "DATA\r\n";
+      nCmdLength = strlen(pszDataCommand);
+      if (!m_SMTP.Send(pszDataCommand, nCmdLength))
+      {
+        CString sError;
+        sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send MAIL command, GetLastError returns: %d"), GetLastError());
+        OnError(sError);
+        SafeCloseFile(mailFile, sTraceMsgOnClose);
+        return FALSE;
+      }
+
+      //check the response to the DATA command
+      if (!ReadCommandResponse(354))
+      {
+        SetLastError(ERROR_BAD_COMMAND);
+        OnError(_T("CSMTPConnection::SendMessage, An unexpected DATA response was received"));
+        SafeCloseFile(mailFile, sTraceMsgOnClose);
+        return FALSE;
+      } 
+
+      //Allocate a buffer we will use in the sending
+      char* pSendBuf = new char[dwSendBufferSize];
+
+      //Read and send the data a chunk at a time
+      BOOL bMore = TRUE;
+      BOOL bSuccess = TRUE;
+      int nBytesSent = 0; 
+      do
+      {
+        try
+        {
+          //Read the chunk from file
+          UINT nRead = mailFile.Read(pSendBuf, dwSendBufferSize);
+          bMore = (nRead == dwSendBufferSize);
+
+          //Send the chunk
+          if (nRead)
+          {
+            nBytesSent += nRead;
+
+            //Call the progress virtual method
+            if (OnSendProgress(nBytesSent, dwTotalBytes))
+            {
+              if (!m_SMTP.Send(pSendBuf, nRead))
+              {
+                CString sError;
+                sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send the message, GetLastError returns: %d"), GetLastError());
+                OnError(sError);
+                SafeCloseFile(mailFile, sTraceMsgOnClose);
+                bSuccess = FALSE;
+              }
+            }
+            else
+            {
+              //Abort the mail send (due to the progress virtual method returning FALSE
+              bSuccess = FALSE;
+            }
+          }
+        }
+        catch(CFileException* pEx)
+        {
+          bSuccess = FALSE;
+          CString sError;
+          sError.Format(_T("CSMTPConnection::SendMessage, An error occurred reading from the file to send %s"), sMessageOnFile);
+          OnError(sError);
+          pEx->Delete();
+        }
+      }
+      while (bMore && bSuccess);
+
+      //Explicitly handle the closing of the file here with an exception handler
+      SafeCloseFile(mailFile, sTraceMsgOnClose);
+
+      //Tidy up the heap memory we have used
+      delete [] pSendBuf;
+
+      if (bSuccess)
+      {
+        //Send the end of message indicator
+        char* pszEOM = "\r\n.\r\n";
+	      nCmdLength = strlen(pszEOM);
+        if (!m_SMTP.Send(pszEOM, nCmdLength))
+        {
+          CString sError;
+          sError.Format(_T("CSMTPConnection::SendMessage, Failed in call to send end of message indicator, GetLastError returns: %d"), GetLastError());
+          OnError(sError);
+          return FALSE;
+        }
+
+        //check the response to the End of Message command
+        if (!ReadCommandResponse(250))
+        {
+          SetLastError(ERROR_BAD_COMMAND);
+          OnError(_T("CSMTPConnection::SendMessage, An unexpected end of message response was received"));
+          return FALSE;
+        } 
+
+    	  return TRUE;
+      }
+      else
+        return FALSE;
+    }
+    else
+    {
+      SafeCloseFile(mailFile, sTraceMsgOnClose);
+      return FALSE;
+    }
+  }
+  else
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendMessage, Could not open the file to send %s"), sMessageOnFile);
+    OnError(sError);
+    return FALSE;
+  }
+}
+
+BOOL CSMTPConnection::SendRCPTForRecipient(CSMTPAddress& recipient)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+	ASSERT(recipient.m_sEmailAddress.GetLength()); //must have an email address for this recipient
+
+  CString sBuf;
+  sBuf.Format(_T("RCPT TO:<%s>\r\n"), recipient.m_sEmailAddress);
+  LPSTR pszRCPT = T2A((LPTSTR) (LPCTSTR) sBuf);
+
+  int nCmdLength = strlen(pszRCPT);
+  if (!m_SMTP.Send(pszRCPT, nCmdLength))
+  {
+    CString sError;
+    sError.Format(_T("CSMTPConnection::SendRCPTForRecipient, Failed in call to send RCPT command, GetLastError returns: %d"), GetLastError());
+    OnError(sError);
+    return FALSE;
+  }
+
+  //check the response to the RCPT command
+  if (!ReadCommandResponse(250))
+  {
+    SetLastError(ERROR_BAD_COMMAND);
+    OnError(_T("CSMTPConnection::SendRCPTForRecipient, An unexpected RCPT response was received"));
+    return FALSE;
+  } 
+  
+  return TRUE;
+}
+
+BOOL CSMTPConnection::ReadCommandResponse(int nExpectedCode, BOOL bEHLO)
+{
+  LPSTR pszOverFlowBuffer = NULL;
+  char sBuf[256];
+  BOOL bSuccess = ReadResponse(sBuf, 256, "\r\n", nExpectedCode, &pszOverFlowBuffer, 4096, bEHLO);
+  if (pszOverFlowBuffer)
+    delete [] pszOverFlowBuffer;
+
+  return bSuccess;
+}
+
+BOOL CSMTPConnection::ReadResponse(LPSTR pszBuffer, int nInitialBufSize, LPSTR pszTerminator, int nExpectedCode, LPSTR* ppszOverFlowBuffer, int nGrowBy, BOOL bEHLO)
+{
+	ASSERT(ppszOverFlowBuffer);          //Must have a valid string pointer
+	ASSERT(*ppszOverFlowBuffer == NULL); //Initially it must point to a NULL string
+
+	//must have been created first
+	ASSERT(m_bConnected);
+
+	//Get length of terminator for later use
+	int nTerminatorLen = strlen(pszTerminator);
+
+	//The local variables which will receive the data
+	LPSTR pszRecvBuffer = pszBuffer;
+	int nBufSize = nInitialBufSize;
+
+	//retrieve the reponse using until we
+	//get the terminator or a timeout occurs
+	BOOL bFoundTerminator = FALSE;
+	int nReceived = 0;
+	DWORD dwStartTicks = ::GetTickCount();
+	while (!bFoundTerminator)
+	{
+		//Has the timeout occured
+		if ((::GetTickCount() - dwStartTicks) >	m_dwTimeout)
+		{
+			pszRecvBuffer[nReceived] = '\0';
+			SetLastError(WSAETIMEDOUT);
+			OnError(_T("CSMTPConnection::ReadResponse, Timed Out waiting for response from SMTP server"));
+			m_sLastCommandResponse = pszRecvBuffer; //Hive away the last command reponse
+			return FALSE;
+		}
+
+		//check the socket for readability
+		BOOL bReadible;
+		if (!m_SMTP.IsReadable(bReadible))
+		{
+			pszRecvBuffer[nReceived] = '\0';
+			m_sLastCommandResponse = pszRecvBuffer; //Hive away the last command reponse
+			return FALSE;
+		}
+		else if (!bReadible) //no data to receive, just loop around
+		{
+			Sleep(250); //Sleep for a while before we loop around again
+			continue;
+		}
+
+		//receive the data from the socket
+		int nBufRemaining = nBufSize-nReceived-1; //Allows allow one space for the NULL terminator
+		if (nBufRemaining<0)
+			nBufRemaining = 0;
+		int nData = m_SMTP.Receive(pszRecvBuffer+nReceived, nBufRemaining);
+
+		//Reset the idle timeout if data was received
+		if (nData > 0)
+		{
+			dwStartTicks = ::GetTickCount();
+			//Increment the count of data received
+			nReceived += nData;							   
+		}
+
+		//If an error occurred receiving the data
+		if (nData < 1)
+		{
+			//NULL terminate the data received
+			if (pszRecvBuffer)
+			pszBuffer[nReceived] = '\0';
+			m_sLastCommandResponse = pszRecvBuffer; //Hive away the last command reponse
+			return FALSE; 
+		}
+		else
+		{
+			//NULL terminate the data received
+			if (pszRecvBuffer)
+			  pszRecvBuffer[nReceived] = '\0';
+			if (nBufRemaining-nData == 0) //No space left in the current buffer
+			{
+				//Allocate the new receive buffer
+				nBufSize += nGrowBy; //Grow the buffer by the specified amount
+				LPSTR pszNewBuf = new char[nBufSize];
+
+				//copy the old contents over to the new buffer and assign 
+				//the new buffer to the local variable used for retreiving 
+				//from the socket
+				if (pszRecvBuffer)
+				  strcpy(pszNewBuf, pszRecvBuffer);
+				pszRecvBuffer = pszNewBuf;
+
+				//delete the old buffer if it was allocated
+				if (*ppszOverFlowBuffer)
+				  delete [] *ppszOverFlowBuffer;
+
+				//Remember the overflow buffer for the next time around
+				*ppszOverFlowBuffer = pszNewBuf;        
+			}
+		}
+
+		// Check to see if the terminator character(s) have been found
+		// (at the END of the response! otherwise read loop will terminate
+		// early if there are multiple lines in the response)
+		bFoundTerminator = (strncmp( &pszRecvBuffer[ nReceived - nTerminatorLen ], pszTerminator, nTerminatorLen ) == 0);
+
+    if (bEHLO)
+			bFoundTerminator &= strstr(pszRecvBuffer, "250 ") != NULL;
+	}
+
+	//Remove the terminator from the response data
+  pszRecvBuffer[ nReceived - nTerminatorLen ] = '\0';
+
+	// handle multi-line responses
+	BOOL bSuccess = FALSE;
+	do
+	{
+		// determine if the response is an error
+		char sCode[4];
+		strncpy(sCode, pszRecvBuffer, 3);
+		sCode[3] = '\0';
+		sscanf(sCode, "%d", &m_nLastCommandResponseCode );
+		bSuccess = (m_nLastCommandResponseCode == nExpectedCode);
+
+		// Hive away the last command reponse
+		m_sLastCommandResponse = pszRecvBuffer;
+
+		// see if there are more lines to this response
+		pszRecvBuffer = strstr( pszRecvBuffer, pszTerminator );
+		if (pszRecvBuffer)
+			pszRecvBuffer += nTerminatorLen;	// skip past terminator
+
+	} while ( !bSuccess && pszRecvBuffer );
+
+	if (!bSuccess)
+		SetLastError(WSAEPROTONOSUPPORT);
+
+	return bSuccess;
+}
+
+// This function negotiates AUTH LOGIN
+BOOL CSMTPConnection::AuthLogin(LPCTSTR pszUsername, LPCTSTR pszPassword)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //Send the AUTH LOGIN command
+	CString sBuf(_T("AUTH LOGIN\r\n"));
+	LPCSTR pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+	int nCmdLength = strlen(pszData);
+	if (!m_SMTP.Send(pszData, nCmdLength))
+	{
+	  OnError(_T("CSMTPConnection::AuthLogin, An unexpected error occurred while sending the AUTH command"));
+	  return FALSE;
+	}
+
+	//initialize the base64 encoder / decoder
+	CBase64Coder Coder;
+	if (!ReadCommandResponse(334))
+  {
+	  OnError(_T("CSMTPConnection::AuthLogin, Server does not support AUTH LOGIN"));
+	  return FALSE;
+  }
+	else
+	{
+		//send base64 encoded username
+		CString sLastCommandString = m_sLastCommandResponse;
+		sLastCommandString = sLastCommandString.Right(sLastCommandString.GetLength() - 4);
+    LPCSTR pszLastCommandString = T2A((LPTSTR) (LPCTSTR) sLastCommandString);
+		Coder.Decode(pszLastCommandString);
+		if (strcmp(Coder.DecodedMessage(), "Username:") == 0)
+		{
+			Coder.Encode(T2A((LPTSTR)pszUsername));
+			sBuf.Format(_T("%s\r\n"), A2T(Coder.EncodedMessage()));
+			pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+			nCmdLength = strlen(pszData);
+			if (!m_SMTP.Send(pszData, nCmdLength))
+			{
+			  OnError(_T("CSMTPConnection::AuthLogin, An unexpected error occurred while sending the username"));
+			  return FALSE;
+			}
+		}
+		else
+		{
+			OnError(_T("CSMTPConnection::AuthLogin, An unexpected request received when expecting username request"));
+			return FALSE;
+		}
+	}
+
+	//check the response to the username 
+	if (!ReadCommandResponse(334))
+  {
+	  OnError(_T("CSMTPConnection::AuthLogin, Server did not respond correctly to AUTH LOGIN username field"));
+	  return FALSE;
+  }
+	else
+	{
+		//send password as base64 encoded
+		CString sLastCommandString = m_sLastCommandResponse;
+		sLastCommandString = sLastCommandString.Right(sLastCommandString.GetLength() - 4);
+    LPCSTR pszLastCommandString = T2A((LPTSTR) (LPCTSTR) sLastCommandString);
+		Coder.Decode(pszLastCommandString);
+		if (strcmp(Coder.DecodedMessage(), "Password:") == 0)
+		{
+			Coder.Encode(T2A((LPTSTR)pszPassword));
+			sBuf.Format(_T("%s\r\n"), A2T(Coder.EncodedMessage()));
+			pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+			nCmdLength = strlen(pszData);
+			if (!m_SMTP.Send(pszData, nCmdLength))
+			{
+			  OnError(_T("CSMTPConnection::AuthLogin, An unexpected error occurred while sending the password"));
+			  return FALSE;
+			}
+
+			//check if authentication is successful
+			if (!ReadCommandResponse(235))
+      {
+        OnError(_T("CSMTPConnection::AuthLogin, AUTH LOGIN authentication was unsuccessful"));
+				return FALSE;
+      }
+		}
+		else
+		{
+			OnError(_T("CSMTPConnection::AuthLogin, An unexpected request received when expecting password request"));
+			return FALSE;
+		}
+	}
+
+	return TRUE;
+}
+
+// This function negotiates AUTH LOGIN PLAIN
+BOOL CSMTPConnection::AuthLoginPlain(LPCTSTR pszUsername, LPCTSTR pszPassword)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //Send the AUTH LOGIN PLAIN command
+	CString sBuf(_T("AUTH LOGIN PLAIN\r\n"));
+	LPCSTR pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+	int nCmdLength = strlen(pszData);
+	if (!m_SMTP.Send(pszData, nCmdLength))
+	{
+	  OnError(_T("CSMTPConnection::AuthLoginPlain, An unexpected error occurred while sending the AUTH command"));
+	  return FALSE;
+	}
+
+	if (!ReadCommandResponse(334))
+  {
+	  OnError(_T("CSMTPConnection::AuthLoginPlain, Server does not support AUTH LOGIN PLAIN"));
+	  return FALSE;
+  }
+	else
+	{
+		//send username in plain
+		CString sLastCommandString = m_sLastCommandResponse;
+		sLastCommandString = sLastCommandString.Right(sLastCommandString.GetLength() - 4);
+    LPCSTR pszLastCommandString = T2A((LPTSTR) (LPCTSTR) sLastCommandString);
+		if (strcmp(pszLastCommandString, "Username:") == 0)
+		{
+			sBuf.Format(_T("%s\r\n"), pszUsername);
+			pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+			nCmdLength = strlen(pszData);
+			if (!m_SMTP.Send(pszData, nCmdLength))
+			{
+			  OnError(_T("CSMTPConnection::AuthLoginPlain, An unexpected error occurred while sending the username"));
+			  return FALSE;
+			}
+		}
+	}
+
+	//check the response to the username 
+	if (!ReadCommandResponse(334))
+  {
+	  OnError(_T("CSMTPConnection::AuthLoginPlain, Server did not response correctly to AUTH LOGIN PLAIN username field"));
+	  return FALSE;
+  }
+	else
+	{
+		//send password in plain
+		CString LastCommandString = m_sLastCommandResponse;
+		LastCommandString = LastCommandString.Right(LastCommandString.GetLength() - 4);
+		if (lstrcmp(LastCommandString, _T("Password:")) == 0)
+		{
+			sBuf.Format(_T("%s\r\n"), pszPassword);
+			pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+			nCmdLength = strlen(pszData);
+			if (!m_SMTP.Send(pszData, nCmdLength))
+			{
+			  OnError(_T("CSMTPConnection::AuthLoginPlain, An unexpected error occurred while sending the password"));
+			  return FALSE;
+			}
+
+			// check if authentication is successful
+			if (!ReadCommandResponse(235))
+      {
+        OnError(_T("CSMTPConnection::AuthLoginPlain, AUTH LOGIN PLAIN authentication was unsuccessful"));
+				return FALSE;
+      }
+		}
+	}
+
+	return TRUE;
+}
+
+#ifndef CSMTP_NORSA
+BOOL CSMTPConnection::CramLogin(LPCTSTR pszUsername, LPCTSTR pszPassword)
+{
+	//For correct operation of the T2A macro, see MFC Tech Note 59
+	USES_CONVERSION;
+
+  //Send the AUTH CRAM-MD5 command
+	CString sBuf(_T("AUTH CRAM-MD5\r\n"));
+	LPCSTR pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+	int nCmdLength = strlen(pszData);
+	if (!m_SMTP.Send(pszData, nCmdLength))
+	{
+	  OnError(_T("CSMTPConnection::CramLogin, An unexpected error occurred while sending the AUTH command"));
+	  return FALSE;
+	}
+
+	// initialize base64 encoder / decoder
+	CBase64Coder Coder;
+	if (!ReadCommandResponse(334))
+  {
+	  OnError(_T("CSMTPConnection::CramLogin, Server does not support AUTH CRAM-MD5"));
+	  return FALSE;
+  }
+	else
+	{
+		CString sLastCommandString = m_sLastCommandResponse;
+		sLastCommandString = sLastCommandString.Right(sLastCommandString.GetLength() - 4);
+    LPCSTR pszLastCommandString = T2A((LPTSTR) (LPCTSTR) sLastCommandString);
+		Coder.Decode(pszLastCommandString);
+
+		// Get the base64 decoded challange 
+		LPCSTR pszChallenge = Coder.DecodedMessage();
+
+		// test data as per RFC 2195
+    //		pszChallenge = "<1896.697170952@@postoffice.reston.mci.net>";
+    //		pszUsername = "tim";
+    //		pszAsciiPassword = "tanstaaftanstaaf";
+		// generate the MD5 digest from the challange and password
+		unsigned char digest[16];    // message digest
+    LPSTR pszAsciiPassword = T2A((LPTSTR)pszPassword);
+		MD5Digest((unsigned char*) pszChallenge, strlen(pszChallenge), 
+              (unsigned char*) pszAsciiPassword, strlen(pszAsciiPassword), digest);
+		
+		// make the CRAM-MD5 response
+		CString strCramDigest = pszUsername;
+
+		strCramDigest += _T(' ');
+		for (int i = 0; i < 16; i++)
+			strCramDigest.AppendFormat(_T("%02x"), digest[i]);
+			
+		// send base64 encoded username digest
+    LPSTR pszCramDigest = T2A((LPTSTR) (LPCTSTR) strCramDigest);
+		Coder.Encode(pszCramDigest);
+		sBuf.Format(_T("%s\r\n"), A2T(Coder.EncodedMessage()));
+		pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+		nCmdLength = strlen(pszData);
+		if (!m_SMTP.Send(pszData, nCmdLength))
+		{
+		  OnError(_T("CSMTPConnection::CramLogin, An unexpected error occurred while sending the username"));
+		  return FALSE;
+		}
+	}
+
+	// check if authentication is successful
+	if (!ReadCommandResponse(235))
+  {
+    OnError(_T("CSMTPConnection::CramLogin, AUTH CRAM-MD5 authentication was unsuccessful"));
+		return FALSE;
+  }
+
+	return TRUE;
+}
+#endif
+
+#ifndef CSMTP_NORSA
+void CSMTPConnection::MD5Digest(unsigned char* text, int text_len, unsigned char* key, int key_len, unsigned char* digest)
+{
+  unsigned char tk[16];
+
+  // if key is longer than 64 bytes reset it to key=MD5(key)
+  if (key_len > 64) 
+  {
+    MD5_CTX tctx;
+    MD5Init(&tctx);
+    MD5Update(&tctx, key, key_len);
+    MD5Final(tk, &tctx);
+
+    key = tk;
+    key_len = 16;
+  }
+
+  // the HMAC_MD5 transform looks like:
+  //
+  // MD5(K XOR opad, MD5(K XOR ipad, text))
+  //
+  // where K is an n byte key
+  // ipad is the byte 0x36 repeated 64 times
+  // opad is the byte 0x5c repeated 64 times
+  // and text is the data being protected
+
+  //start out by storing key in pads
+  unsigned char k_ipad[65];    // inner padding - key XORd with ipad
+  memzero(k_ipad, 64);
+  unsigned char k_opad[65];    // outer padding - key XORd with opad
+  memzero(k_opad, 64);
+  memcpy2(k_ipad, key, key_len);
+  memcpy2(k_opad, key, key_len);
+
+  // XOR key with ipad and opad values
+  for (int i=0; i<64; i++) 
+  {
+    k_ipad[i] ^= 0x36;
+    k_opad[i] ^= 0x5c;
+  }
+
+  //perform inner MD5
+  MD5_CTX context;
+  MD5Init(&context);                   // init context for 1st pass
+  MD5Update(&context, k_ipad, 64);     // start with inner pad
+  MD5Update(&context, text, text_len); // then text of datagram
+  MD5Final(digest, &context);          // finish up 1st pass
+
+  //perform outer MD5
+  MD5Init(&context);                   // init context for 2nd pass
+  MD5Update(&context, k_opad, 64);     // start with outer pad
+  MD5Update(&context, digest, 16);     // then results of 1st hash
+  MD5Final(digest, &context);          // finish up 2nd pass
+}
+#endif
+
+BOOL CSMTPConnection::ConnectToInternet()
+{
+  if (_WinInetData.m_lpfnInternetGetConnectedState && _WinInetData.m_lpfnInternetAttemptConnect)
+  {
+    // Check to see if an internet connection exists already.
+    // bInternet = TRUE  internet connection exists.
+    // bInternet = FALSE internet connection does not exist
+    DWORD dwFlags;
+    BOOL bInternet = _WinInetData.m_lpfnInternetGetConnectedState(&dwFlags, 0);
+    if (!bInternet)
+    {
+      // Attempt to establish internet connection, probably
+      // using Dial-up connection.
+      // static method CloseInternetConnection() called when
+      // Mail dialog is destroyed.  Closes dial-up connection
+      // if any.
+      DWORD dwResult = _WinInetData.m_lpfnInternetAttemptConnect(0);
+      if (dwResult != ERROR_SUCCESS)
+      {
+        SetLastError(dwResult);
+        return FALSE;
+      }
+    }
+    return TRUE;
+  }
+  else
+  {
+    //Wininet is not available. Do what would happen if the dll
+    //was present but the function call failed
+    SetLastError(ERROR_CALL_NOT_IMPLEMENTED);  
+    return FALSE;
+  }
+}
+
+BOOL CSMTPConnection::CloseInternetConnection()
+{
+if (_WinInetData.m_lpfnInternetAutoDialHangup)
+  {
+    // Make sure any connection through a modem is 'closed'.
+    return _WinInetData.m_lpfnInternetAutoDialHangup(0);
+  }
+  else
+  {
+    //Wininet is not available. Do what would happen if the dll
+    //was present but the function call failed
+    SetLastError(ERROR_CALL_NOT_IMPLEMENTED);  
+    return FALSE;
+  }
+}
+
+DWORD WINAPI CSMTPConnection::SendMuleMessage(LPVOID lpParameter)
+{
+
+	char * strText=(char *)lpParameter;
+
+	CSMTPConnection smtp;
+
+	if (!smtp.Connect(g_App.m_pPrefs->GetSMTPServer()))
+	{
+		CString sResponse = smtp.GetLastCommandResponse();
+		g_App.m_pMDlg->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_SMTPMSG_ERROR), sResponse);
+		return false;
+	}
+
+	if(g_App.m_pPrefs->IsSMTPAuthenticated())
+		smtp.AuthLogin(g_App.m_pPrefs->GetSMTPUserName(), g_App.m_pPrefs->GetSMTPPassword());
+
+	CSMTPMessage msg;
+	CSMTPAddress From(g_App.m_pPrefs->GetSMTPName(), g_App.m_pPrefs->GetSMTPFrom());
+	CSMTPAddress To(g_App.m_pPrefs->GetSMTPTo());
+	msg.m_From = From;
+	msg.AddRecipient(To, CSMTPMessage::TO);
+	msg.m_sSubject = GetResString(IDS_SMTPMSG_SUBJECT);
+	msg.AddTextBody(strText);
+
+	delete [] strText;
+
+	if (!smtp.SendMessage(msg))
+	{
+		CString sResponse = smtp.GetLastCommandResponse();
+		g_App.m_pMDlg->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_SMTPMSG_ERROR), sResponse);
+		return false;
+	}
+	else
+		g_App.m_pMDlg->AddLogLine(false, IDS_SMTPMSG_SENT, g_App.m_pPrefs->GetSMTPTo());
+
+	smtp.Disconnect();
+
+	return 1L;
+}
+
+void CSMTPConnection::SendMail(const CString &strText, bool bMsgEnabled, bool bSendEnabled)  
+{
+	if (bMsgEnabled && bSendEnabled)
+	{
+		HANDLE	lTh;
+		DWORD	lThID;
+		char	*lAux;
+
+		lAux = new char[strText.GetLength()+1];
+
+		if (lAux != NULL)
+		{
+			strcpy(lAux, (LPCTSTR)strText);
+			lTh = CreateThread(NULL, 0L, SendMuleMessage, (LPVOID)lAux, 0, &lThID);
+			CloseHandle(lTh);
+		}
+	}
+}
+@
+
+
+1.20
+log
+@Crypt/Decrypt only on load/save.
+@
+text
+@@
+
+
+1.19
+log
+@Compatibility with VC2005 [brengarne]; Formatting.
+@
+text
+@d3274 1
+a3274 1
+		smtp.AuthLogin(g_App.m_pPrefs->GetSMTPUserName(), Decrypt(g_App.m_pPrefs->GetSMTPPassword()));
+@
+
+
+1.18
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d372 2
+d375 1
+a375 1
+  for (int i=0; i<m_ChildBodyParts.GetSize(); i++)
+d379 1
+a379 1
+  for (i=0; i<bodyPart.m_ChildBodyParts.GetSize(); i++)
+d493 2
+a494 2
+  int nSize = strlen(pszAsciiText);
+  for (int i=0; i<nSize; i++)
+d515 1
+a515 1
+  for (i=0; i<nLen; i++)
+d1148 2
+a1149 2
+  int nSize = strlen(sText);
+  for (int i=0; i<nSize && !bTranslationNeeded; i++)
+d1161 1
+a1161 1
+    for (i=0; i<nSize; i++)
+d1244 2
+d1247 1
+a1247 1
+  for (int i=0; i<m_ToRecipients.GetSize(); i++)
+d1252 1
+a1252 1
+  for (i=0; i<message.m_ToRecipients.GetSize(); i++)
+d1259 1
+a1259 1
+  for (i=0; i<m_CCRecipients.GetSize(); i++)
+d1264 1
+a1264 1
+  for (i=0; i<message.m_CCRecipients.GetSize(); i++)
+d1271 1
+a1271 1
+  for (i=0; i<m_BCCRecipients.GetSize(); i++)
+d1276 1
+a1276 1
+  for (i=0; i<message.m_BCCRecipients.GetSize(); i++)
+d1290 2
+d1293 1
+a1293 1
+  for (int i=0; i<m_ToRecipients.GetSize(); i++)
+d1297 1
+a1297 1
+  for (i=0; i<m_CCRecipients.GetSize(); i++)
+d1301 1
+a1301 1
+  for (i=0; i<m_BCCRecipients.GetSize(); i++)
+d1457 4
+a1460 2
+  CString sTo;
+  for (int i=0; i<GetNumberOfRecipients(TO); i++)
+d1471 1
+a1471 1
+  for (i=0; i<GetNumberOfRecipients(CC); i++)
+d1558 1
+a1558 1
+  for (i=0; i<nCustomHeaders; i++)
+d2290 2
+d2293 1
+a2293 1
+  for (int i=0; i<Message.GetNumberOfRecipients(CSMTPMessage::TO); i++)
+d2302 1
+a2302 1
+  for (i=0; i<Message.GetNumberOfRecipients(CSMTPMessage::CC); i++)
+d2311 1
+a2311 1
+  for (i=0; i<Message.GetNumberOfRecipients(CSMTPMessage::BCC); i++)
+d2401 1
+a2401 1
+  } 
+@
+
+
+1.17
+log
+@renamed 3 variables
+@
+text
+@d3256 1
+a3256 1
+	if (!smtp.Connect(g_App.g_pPrefs->GetSMTPServer()))
+d3263 2
+a3264 2
+	if(g_App.g_pPrefs->IsSMTPAuthenticated())
+		smtp.AuthLogin(g_App.g_pPrefs->GetSMTPUserName(), Decrypt(g_App.g_pPrefs->GetSMTPPassword()));
+d3267 2
+a3268 2
+	CSMTPAddress From(g_App.g_pPrefs->GetSMTPName(), g_App.g_pPrefs->GetSMTPFrom());
+	CSMTPAddress To(g_App.g_pPrefs->GetSMTPTo());
+d3283 1
+a3283 1
+		g_App.m_pMDlg->AddLogLine(false, IDS_SMTPMSG_SENT, g_App.g_pPrefs->GetSMTPTo());
+@
+
+
+1.16
+log
+@Safer service prototype; Whitespace formatting.
+@
+text
+@d3256 1
+a3256 1
+	if (!smtp.Connect(g_eMuleApp.m_pGlobPrefs->GetSMTPServer()))
+d3259 1
+a3259 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_SMTPMSG_ERROR), sResponse);
+d3263 2
+a3264 2
+	if(g_eMuleApp.m_pGlobPrefs->IsSMTPAuthenticated())
+		smtp.AuthLogin(g_eMuleApp.m_pGlobPrefs->GetSMTPUserName(), Decrypt(g_eMuleApp.m_pGlobPrefs->GetSMTPPassword()));
+d3267 2
+a3268 2
+	CSMTPAddress From(g_eMuleApp.m_pGlobPrefs->GetSMTPName(), g_eMuleApp.m_pGlobPrefs->GetSMTPFrom());
+	CSMTPAddress To(g_eMuleApp.m_pGlobPrefs->GetSMTPTo());
+d3279 1
+a3279 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_SMTPMSG_ERROR), sResponse);
+d3283 1
+a3283 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, IDS_SMTPMSG_SENT, g_eMuleApp.m_pGlobPrefs->GetSMTPTo());
+@
+
+
+1.15
+log
+@Connected server is now background highlighted; Aw3 fix for IP2Country constant DB/LIB loading from preferences; Replaced all ZeroMemory with memzero; Replaced all CopyMemory with memcpy2
+@
+text
+@d26 1
+a26 1
+#include "smtp.h"
+d286 1
+a286 1
+CSMTPAddress::CSMTPAddress(const CString& sFriendly, const CString& sAddress) : 
+d293 1
+a293 1
+{ 
+d453 1
+a453 1
+void CSMTPBodyPart::SetContentID(const CString& sContentID) 
+d456 1
+a456 1
+  m_sContentID = sContentID; 
+d459 3
+a461 3
+CString CSMTPBodyPart::GetContentID() const 
+{ 
+  return m_sContentID; 
+d464 2
+a465 2
+void CSMTPBodyPart::SetContentLocation(const CString& sContentLocation) 
+{ 
+d467 1
+a467 1
+  m_sContentLocation = sContentLocation; 
+d470 2
+a471 2
+CString CSMTPBodyPart::GetContentLocation() const 
+{ 
+d801 1
+a801 1
+    //Ok, it's a file  
+d891 1
+a891 1
+    //Ok, it's a file  
+d1066 1
+a1066 1
+  return TRUE;  
+d1345 1
+a1345 1
+    case TO:  
+d1348 1
+a1348 1
+      m_ToRecipients.RemoveAt(nIndex);  
+d1351 1
+a1351 1
+    case CC:  
+d1354 1
+a1354 1
+      m_CCRecipients.RemoveAt(nIndex);  
+d1357 1
+a1357 1
+    case BCC: 
+d1360 1
+a1360 1
+      m_BCCRecipients.RemoveAt(nIndex); 
+d1363 1
+a1363 1
+    default:  
+d1365 1
+a1365 1
+      ASSERT(FALSE);                    
+d1430 1
+a1430 1
+  CString sOldLocale = _tsetlocale(LC_TIME, NULL);    
+d2120 1
+a2120 1
+  BOOL bSuccess = FALSE;      
+d2161 1
+a2161 1
+    
+d2187 1
+a2187 1
+  
+d2198 1
+a2198 1
+  
+d2241 1
+a2241 1
+  
+d3290 1
+a3290 1
+void CSMTPConnection::SendMail(CString &strText, bool bMsgEnabled, bool bSendEnabled)  
+@
+
+
+1.14
+log
+@Improved string processing.
+@
+text
+@d150 1
+a150 1
+    ZeroMemory(&sockLocalAddress, sizeof(sockLocalAddress));
+d181 1
+a181 1
+	ZeroMemory(&sockDestinationAddr, sizeof(sockDestinationAddr));
+d946 1
+a946 1
+            CopyMemory(&pszBody[nOutPos], &pszEncoded[nInPos], nThisLineSize);
+d948 1
+a948 1
+            CopyMemory(&pszBody[nOutPos], "\r\n", 2);
+d1006 1
+a1006 1
+        CopyMemory(&pszBody[nOutPos], &pszEncoded[nInPos], nThisLineSize);
+d1008 1
+a1008 1
+        CopyMemory(&pszBody[nOutPos], "\r\n", 2);
+@
+
+
+1.13
+log
+@Some string processing improvements (thx Aw3)
+@
+text
+@d3290 4
+a3293 4
+void CSMTPConnection::SendMail(CString strText, bool bMsgEnabled, bool bSendEnabled)  
+{  
+	if (bMsgEnabled && bSendEnabled)  
+    {
+d3306 1
+a3306 1
+    }
+@
+
+
+1.12
+log
+@Improved string processing
+@
+text
+@d269 1
+a269 2
+  sTemp.TrimLeft();
+  sTemp.TrimRight();
+d278 1
+a278 2
+    m_sFriendlyName.TrimLeft();
+    m_sFriendlyName.TrimRight();
+d1584 1
+a1584 2
+      sTemp.TrimLeft();
+      sTemp.TrimRight();
+d1639 1
+a1639 2
+			sTemp.TrimRight();
+			sTemp.TrimLeft();
+d1694 1
+a1694 2
+  sRet.TrimLeft();
+  sRet.TrimRight();
+@
+
+
+1.11
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d1102 1
+a1102 1
+void CSMTPBodyPart::FixSingleDotT(CString& sBody)
+d1104 12
+a1115 8
+  int nFind = sBody.Find(_T("\n."));
+  if (nFind != -1)
+  {
+	  CString sLeft(sBody.Left(nFind+1));
+	  CString sRight(sBody.Right(sBody.GetLength()-(nFind+1)));
+	  FixSingleDotT(sRight);
+	  sBody = sLeft + _T(".") + sRight;
+  }
+d3118 5
+a3122 9
+		CString sCramDigest;
+		sCramDigest = pszUsername;
+		sCramDigest += " ";
+		for (int i=0; i<16; i++)
+		{
+		  CString csTemp;
+			csTemp.Format(_T("%02x"), digest[i]);
+			sCramDigest += csTemp;
+		}
+d3125 1
+a3125 1
+    LPSTR pszCramDigest = T2A((LPTSTR) (LPCTSTR) sCramDigest);
+@
+
+
+1.10
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d3176 1
+a3176 1
+  memset2(k_ipad, 0, 64);
+d3178 1
+a3178 1
+  memset2(k_opad, 0, 64);
+@
+
+
+1.9
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d3264 1
+a3264 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_RED + GetResString(IDS_SMTPMSG_ERROR), sResponse);
+d3284 1
+a3284 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_RED + GetResString(IDS_SMTPMSG_ERROR), sResponse);
+@
+
+
+1.8
+log
+@Added some colors to the logs...
+@
+text
+@d3264 1
+a3264 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false,_T("<COLOR=255,0,0>") + GetResString(IDS_SMTPMSG_ERROR),sResponse);
+d3284 1
+a3284 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false,_T("<COLOR=255,0,0>") + GetResString(IDS_SMTPMSG_ERROR),sResponse);
+d3288 1
+a3288 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false,IDS_SMTPMSG_SENT,g_eMuleApp.m_pGlobPrefs->GetSMTPTo());
+@
+
+
+1.7
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d3264 1
+a3264 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false,IDS_SMTPMSG_ERROR,sResponse);
+d3284 1
+a3284 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false,IDS_SMTPMSG_ERROR,sResponse);
+@
+
+
+1.6
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d3176 1
+a3176 1
+  memset(k_ipad, 0, 64);
+d3178 3
+a3180 3
+  memset(k_opad, 0, 64);
+  memcpy(k_ipad, key, key_len);
+  memcpy(k_opad, key, key_len);
+@
+
+
+1.5
+log
+@Added threads to eMail Notifier
+@
+text
+@d3261 1
+a3261 1
+	if (!smtp.Connect(theApp.glob_prefs->GetSMTPServer()))
+d3264 1
+a3264 1
+		theApp.emuledlg->AddLogLine(false,IDS_SMTPMSG_ERROR,sResponse);
+d3268 2
+a3269 2
+	if(theApp.glob_prefs->IsSMTPAuthenticated())
+		smtp.AuthLogin(theApp.glob_prefs->GetSMTPUserName(), Decrypt(theApp.glob_prefs->GetSMTPPassword()));
+d3272 2
+a3273 2
+	CSMTPAddress From(theApp.glob_prefs->GetSMTPName(), theApp.glob_prefs->GetSMTPFrom());
+	CSMTPAddress To(theApp.glob_prefs->GetSMTPTo());
+d3284 1
+a3284 1
+		theApp.emuledlg->AddLogLine(false,IDS_SMTPMSG_ERROR,sResponse);
+d3288 1
+a3288 1
+		theApp.emuledlg->AddLogLine(false,IDS_SMTPMSG_SENT,theApp.glob_prefs->GetSMTPTo());
+@
+
+
+1.4
+log
+@added SendMail function ... can we add them to Cemuleapp ???
+@
+text
+@d3254 1
+a3254 1
+BOOL CSMTPConnection::SendMuleMessage(CString& txt)
+d3256 3
+d3277 3
+a3279 1
+	msg.AddTextBody(txt);
+d3292 1
+a3292 1
+	return true;
+d3298 13
+a3310 3
+    { 
+         CSMTPConnection mail; 
+         mail.SendMuleMessage(strText); 
+d3312 1
+a3312 1
+}@
+
+
+1.3
+log
+@Added simple encription of SMTP password.
+@
+text
+@d3289 9
+@
+
+
+1.2
+log
+@SMTP Messenger: added authentication
+@
+text
+@d28 1
+a39 2
+
+
+d3240 1
+a3240 1
+  if (_WinInetData.m_lpfnInternetAutoDialHangup)
+d3266 1
+a3266 1
+		smtp.AuthLogin(theApp.glob_prefs->GetSMTPUserName(), theApp.glob_prefs->GetSMTPPassword());
+@
+
+
+1.1
+log
+@SMTP Messenger (ops!, forgot these files)
+@
+text
+@d1 1
+a1 1
+/*
+d6 2
+a7 1
+Copyright (c) 1998 - 2000 by PJ Naughter.  
+d9 12
+d24 1
+d26 1
+a26 1
+#include "Smtp.h"
+d29 12
+d42 1
+d49 8
+a56 4
+char CSMTPAttachment::m_base64tab[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                                      "abcdefghijklmnopqrstuvwxyz0123456789+/";
+#define BASE64_MAXLINE  76
+#define EOL  "\r\n"
+d59 59
+d120 1
+a120 1
+	m_hSocket = INVALID_SOCKET; //default to an invalid scoket descriptor
+d125 1
+a125 1
+	Close();
+d130 2
+a131 2
+	m_hSocket = socket(AF_INET, SOCK_STREAM, 0);
+	return (m_hSocket != INVALID_SOCKET);
+d134 1
+a134 1
+BOOL CSMTPSocket::Connect(LPCTSTR pszHostAddress, int nPort)
+d136 3
+d142 34
+a175 2
+	//must have been created first
+  	ASSERT(m_hSocket != INVALID_SOCKET);
+d177 2
+a178 1
+	LPSTR lpszAscii = T2A((LPTSTR)pszHostAddress);
+d181 5
+a185 5
+	SOCKADDR_IN sockAddr;
+	ZeroMemory(&sockAddr, sizeof(sockAddr));
+	sockAddr.sin_family = AF_INET;
+	sockAddr.sin_port = htons((u_short)nPort);
+	sockAddr.sin_addr.s_addr = inet_addr(lpszAscii);
+d189 1
+a189 1
+	if (sockAddr.sin_addr.s_addr == INADDR_NONE)
+d192 1
+a192 1
+		lphost = gethostbyname(lpszAscii);
+d194 1
+a194 1
+			sockAddr.sin_addr.s_addr = ((LPIN_ADDR)lphost->h_addr)->s_addr;
+d197 1
+a197 1
+      		WSASetLastError(WSAEINVAL); 
+d204 1
+a204 1
+	return Connect((SOCKADDR*)&sockAddr, sizeof(sockAddr));
+d214 3
+a216 4
+	//must have been created first
+	ASSERT(m_hSocket != INVALID_SOCKET);
+
+	return (send(m_hSocket, pszBuf, nBuf, 0) != SOCKET_ERROR);
+d221 2
+a222 2
+	//must have been created first
+	ASSERT(m_hSocket != INVALID_SOCKET);
+d224 1
+a224 1
+	return recv(m_hSocket, pszBuf, nBuf, 0); 
+d236 1
+a236 1
+BOOL CSMTPSocket::IsReadible(BOOL& bReadible)
+d238 14
+a251 12
+	timeval timeout = {0, 0};
+	fd_set fds;
+	FD_ZERO(&fds);
+	FD_SET(m_hSocket, &fds);
+	int nStatus = select(0, &fds, NULL, NULL, &timeout);
+	if (nStatus == SOCKET_ERROR)
+		return FALSE;
+	else
+	{
+		bReadible = !(nStatus == 0);
+		return TRUE;
+	}
+d255 2
+d263 1
+a263 1
+	*this = address;
+d266 1
+a266 2
+CSMTPAddress::CSMTPAddress(const CString& sAddress) : 
+              m_sEmailAddress(sAddress) 
+d268 19
+a286 1
+	ASSERT(m_sEmailAddress.GetLength()); //An empty address is not allowed
+d292 1
+a292 1
+	ASSERT(m_sEmailAddress.GetLength()); //An empty address is not allowed
+d297 1
+a297 1
+	m_sFriendlyName = r.m_sFriendlyName; 
+d302 1
+a302 1
+CString CSMTPAddress::GetRegularFormat() const
+d304 1
+a304 1
+	ASSERT(m_sEmailAddress.GetLength()); //Email Address must be valid
+d306 14
+a319 5
+	CString sAddress;
+	if (m_sFriendlyName.IsEmpty())
+    	sAddress = m_sEmailAddress;  //Just transfer the address across directly
+  	else
+    	sAddress.Format(_T("%s <%s>"), m_sFriendlyName, m_sEmailAddress);
+d321 1
+a321 1
+	return sAddress;
+d324 4
+a327 1
+CSMTPAttachment::CSMTPAttachment()
+d329 16
+a344 2
+	m_pszEncoded = NULL;
+	m_nEncodedSize = 0;
+d347 1
+a347 1
+CSMTPAttachment::~CSMTPAttachment()
+d349 228
+a576 6
+	//free up any memory we allocated
+	if (m_pszEncoded)
+	{
+    	delete [] m_pszEncoded;
+		m_pszEncoded = NULL;
+	}
+d579 4
+a582 1
+BOOL CSMTPAttachment::Attach(const CString& sFilename)
+d584 5
+a588 1
+	ASSERT(sFilename.GetLength());  //Empty Filename !
+d590 1
+a590 2
+	//free up any memory we previously allocated
+	if (m_pszEncoded)
+d592 148
+a739 2
+    	delete [] m_pszEncoded;
+    	m_pszEncoded = NULL;
+d742 2
+a743 3
+	//determine the file size
+	CFileStatus fs;
+	if (!CFile::GetStatus(sFilename, fs))
+d745 13
+a757 2
+    	TRACE(_T("Failed to get the status for file %s, probably does not exist\n"), sFilename);
+    	return FALSE;
+d760 2
+a761 3
+	//open up the file for reading in
+	CFile infile;
+	if (!infile.Open(sFilename, CFile::modeRead | CFile::shareDenyWrite))
+d763 453
+a1215 2
+		TRACE(_T("Failed to open file to be attached\n"));
+		return FALSE;
+d1217 4
+a1221 25
+	//read in the contents of the input file
+	char* pszIn = new char[fs.m_size];
+	infile.Read(pszIn, fs.m_size);
+
+	//allocate the encoded buffer
+	int nOutSize = Base64BufferSize(fs.m_size);
+	m_pszEncoded = new char[nOutSize];
+
+	//Do the encoding
+	EncodeBase64(pszIn, fs.m_size, m_pszEncoded, nOutSize, &m_nEncodedSize);
+
+	//delete the input buffer
+	delete [] pszIn;
+
+	//Close the input file
+	infile.Close();
+
+	//Hive away the filename
+	TCHAR sPath[_MAX_PATH];
+	TCHAR sFname[_MAX_FNAME];
+	TCHAR sExt[_MAX_EXT];
+	_tsplitpath(sFilename, NULL, NULL, sFname, sExt);
+	_tmakepath(sPath, NULL, NULL, sFname, sExt);
+	m_sFilename = sPath;
+	m_sTitle = sPath;
+d1223 3
+a1225 1
+	return TRUE;
+d1228 1
+a1228 1
+int CSMTPAttachment::Base64BufferSize(int nInputSize)
+d1230 1
+a1230 3
+	int nOutSize = (nInputSize+2)/3*4;                    // 3:4 conversion ratio
+	nOutSize += strlen(EOL)*nOutSize/BASE64_MAXLINE + 3;  // Space for newlines and NUL
+	return nOutSize;
+d1233 51
+a1283 1
+BOOL CSMTPAttachment::EncodeBase64(const char* pszIn, int nInLen, char* pszOut, int nOutSize, int* nOutLen)
+d1285 4
+a1288 5
+	//Input Parameter validation
+	ASSERT(pszIn);
+	ASSERT(pszOut);
+	ASSERT(nOutSize);
+	ASSERT(nOutSize >= Base64BufferSize(nInLen));
+d1290 3
+a1292 5
+#ifndef _DEBUG
+	//justs get rid of "unreferenced formal parameter"
+	//compiler warning when doing a release build
+	nOutSize;
+#endif
+d1294 3
+a1296 79
+	//Set up the parameters prior to the main encoding loop
+	int nInPos  = 0;
+	int nOutPos = 0;
+	int nLineLen = 0;
+
+	// Get three characters at a time from the input buffer and encode them
+	for (int i=0; i<nInLen/3; ++i) 
+	{
+		//Get the next 2 characters
+		int c1 = pszIn[nInPos++] & 0xFF;
+		int c2 = pszIn[nInPos++] & 0xFF;
+		int c3 = pszIn[nInPos++] & 0xFF;
+
+		//Encode into the 4 6 bit characters
+		pszOut[nOutPos++] = m_base64tab[(c1 & 0xFC) >> 2];
+		pszOut[nOutPos++] = m_base64tab[((c1 & 0x03) << 4) | ((c2 & 0xF0) >> 4)];
+		pszOut[nOutPos++] = m_base64tab[((c2 & 0x0F) << 2) | ((c3 & 0xC0) >> 6)];
+		pszOut[nOutPos++] = m_base64tab[c3 & 0x3F];
+		nLineLen += 4;
+
+		//Handle the case where we have gone over the max line boundary
+		if (nLineLen >= BASE64_MAXLINE-3) 
+		{
+			char* cp = EOL;
+			pszOut[nOutPos++] = *cp++;
+			if (*cp) 
+        		pszOut[nOutPos++] = *cp;
+      		nLineLen = 0;
+    	}
+	}
+
+	// Encode the remaining one or two characters in the input buffer
+	char* cp;
+	switch (nInLen % 3) 
+	{
+	    case 0:
+	    {
+			cp = EOL;
+			pszOut[nOutPos++] = *cp++;
+			if (*cp) 
+				pszOut[nOutPos++] = *cp;
+			break;
+		}
+		case 1:
+		{
+			int c1 = pszIn[nInPos] & 0xFF;
+			pszOut[nOutPos++] = m_base64tab[(c1 & 0xFC) >> 2];
+			pszOut[nOutPos++] = m_base64tab[((c1 & 0x03) << 4)];
+			pszOut[nOutPos++] = '=';
+			pszOut[nOutPos++] = '=';
+			cp = EOL;
+			pszOut[nOutPos++] = *cp++;
+			if (*cp) 
+        		pszOut[nOutPos++] = *cp;
+      		break;
+		}
+		case 2:
+		{
+			int c1 = pszIn[nInPos++] & 0xFF;
+			int c2 = pszIn[nInPos] & 0xFF;
+			pszOut[nOutPos++] = m_base64tab[(c1 & 0xFC) >> 2];
+			pszOut[nOutPos++] = m_base64tab[((c1 & 0x03) << 4) | ((c2 & 0xF0) >> 4)];
+			pszOut[nOutPos++] = m_base64tab[((c2 & 0x0F) << 2)];
+			pszOut[nOutPos++] = '=';
+			cp = EOL;
+			pszOut[nOutPos++] = *cp++;
+			if (*cp) 
+        		pszOut[nOutPos++] = *cp;
+      		break;
+		}
+		default: 
+		{
+			ASSERT(FALSE); 
+			break;
+    	}
+  	}
+	pszOut[nOutPos] = 0;
+	*nOutLen = nOutPos;
+	return TRUE;
+d1299 1
+a1299 1
+CSMTPMessage::CSMTPMessage() : m_sXMailer(_T("CSMTPConnection v1.3"))
+d1301 1
+d1304 1
+a1304 1
+CSMTPMessage::~CSMTPMessage()
+d1306 1
+d1311 8
+a1318 8
+	int nSize = 0;
+	switch (RecipientType)
+	{
+		case TO:  nSize = m_ToRecipients.GetSize();  break;
+		case CC:  nSize = m_CCRecipients.GetSize();  break;
+		case BCC: nSize = m_BCCRecipients.GetSize(); break;
+		default: ASSERT(FALSE);                      break;
+  	}
+d1325 11
+a1335 8
+	int nIndex = -1;
+	switch (RecipientType)
+	{
+		case TO:  nIndex = m_ToRecipients.Add(recipient);  break;
+		case CC:  nIndex = m_CCRecipients.Add(recipient);  break;
+		case BCC: nIndex = m_BCCRecipients.Add(recipient); break;
+		default: ASSERT(FALSE);                            break;
+  	}
+d1337 1
+a1337 1
+  	return nIndex;
+d1342 26
+a1367 7
+	switch (RecipientType)
+	{
+		case TO:  m_ToRecipients.RemoveAt(nIndex);  break;
+		case CC:  m_CCRecipients.RemoveAt(nIndex);  break;
+		case BCC: m_BCCRecipients.RemoveAt(nIndex); break;
+		default:  ASSERT(FALSE);                    break;
+  	}
+d1370 1
+a1370 1
+CSMTPAddress CSMTPMessage::GetRecipient(int nIndex, RECIPIENT_TYPE RecipientType) const
+d1372 8
+a1379 1
+	CSMTPAddress address;
+d1381 5
+a1385 7
+	switch (RecipientType)
+	{
+		case TO:  address = m_ToRecipients.GetAt(nIndex);  break;
+		case CC:  address = m_CCRecipients.GetAt(nIndex);  break;
+		case BCC: address = m_BCCRecipients.GetAt(nIndex); break;
+		default: ASSERT(FALSE);                            break;
+  	}
+d1387 3
+a1389 1
+  	return address;
+d1392 1
+a1392 1
+int CSMTPMessage::AddAttachment(CSMTPAttachment* pAttachment)
+d1394 1
+a1394 2
+  	ASSERT(pAttachment->GetFilename().GetLength()); //an empty filename !
+	return m_Attachments.Add(pAttachment);
+d1397 1
+a1397 1
+void CSMTPMessage::RemoveAttachment(int nIndex)
+d1399 1
+a1399 1
+	m_Attachments.RemoveAt(nIndex);
+d1402 1
+a1402 1
+CSMTPAttachment* CSMTPMessage::GetAttachment(int nIndex) const
+d1404 1
+a1404 1
+	return m_Attachments.GetAt(nIndex);
+d1407 1
+a1407 1
+int CSMTPMessage::GetNumberOfAttachments() const
+d1409 1
+a1409 1
+	return m_Attachments.GetSize();
+d1412 1
+a1412 1
+CString CSMTPMessage::GetHeader() const
+d1414 2
+a1415 34
+	//Form the Timezone info which will form part of the Date header
+	TIME_ZONE_INFORMATION tzi;
+	int nTZBias;
+	if (GetTimeZoneInformation(&tzi) == TIME_ZONE_ID_DAYLIGHT)
+		nTZBias = tzi.Bias + tzi.DaylightBias;
+	else
+		nTZBias = tzi.Bias;
+	CString sTZBias;
+	sTZBias.Format(_T("%+.2d%.2d"), -nTZBias/60, nTZBias%60);
+
+	//Create the "Date:" part of the header
+	CTime now(CTime::GetCurrentTime());
+	CString sDate(now.Format(_T("%a, %d %b %Y %H:%M:%S ")));
+	sDate += sTZBias;
+
+	//Create the "To:" part of the header
+	CString sTo;
+	for (int i=0; i<GetNumberOfRecipients(TO); i++)
+	{
+		CSMTPAddress recipient = GetRecipient(i, TO);
+		if (i)
+			sTo += _T(",");
+    	sTo += recipient.GetRegularFormat();
+  	}
+
+	//Create the "Cc:" part of the header
+	CString sCc;
+	for (i=0; i<GetNumberOfRecipients(CC); i++)
+	{
+		CSMTPAddress recipient = GetRecipient(i, CC);
+		if (i)
+			  sCc += _T(",");
+		sCc += recipient.GetRegularFormat();
+  	}
+d1417 4
+a1420 1
+  	//No Bcc info added in header
+d1422 3
+a1424 26
+	//Stick everything together
+	CString sBuf;
+  	if (sCc.GetLength())
+		sBuf.Format(_T("From: %s\r\n")\
+					_T("To: %s\r\n")\
+					_T("Cc: %s\r\n")\
+					_T("Subject: %s\r\n")\
+					_T("Date: %s\r\n")\
+					_T("X-Mailer: %s\r\n"), 
+					m_From.GetRegularFormat(),
+                	sTo, 
+                	sCc,
+					m_sSubject,
+					sDate,
+					m_sXMailer);
+	else
+		sBuf.Format(_T("From: %s\r\n")\
+        			_T("To: %s\r\n")\
+					_T("Subject: %s\r\n")\
+					_T("Date: %s\r\n")\
+					_T("X-Mailer: %s\r\n"), 
+					m_From.GetRegularFormat(),
+                	sTo, 
+					m_sSubject,
+					sDate,
+					m_sXMailer);
+d1426 108
+d1537 3
+a1539 3
+		CString sReply;
+		sReply.Format(_T("Reply-To: %s\r\n"), m_ReplyTo.GetRegularFormat());
+		sBuf += sReply;
+d1542 15
+a1556 6
+	//Add the optional fields if attachments are included
+	if (m_Attachments.GetSize())
+		sBuf += _T("MIME-Version: 1.0\r\nContent-type: multipart/mixed; boundary=\"#BOUNDARY#\"\r\n");
+  	else
+		// avoid long textual message being automatically converted by the server:
+	  	sBuf += _T("MIME-Version: 1.0\r\nContent-type: text/plain; charset=US-ASCII\r\n");    
+d1558 2
+a1559 1
+	sBuf += _T("\r\n");
+d1562 1
+a1562 1
+	return sBuf;
+d1565 1
+a1565 1
+void CSMTPMessage::FixSingleDot(CString& sBody)
+d1567 10
+a1576 2
+	int nFind = sBody.Find(_T("\n."));
+	if (nFind != -1)
+d1578 23
+a1600 5
+		CString sLeft(sBody.Left(nFind+1));
+		CString sRight(sBody.Right(sBody.GetLength()-(nFind+1)));
+		FixSingleDot(sRight);
+		sBody = sLeft + _T(".") + sRight;
+  	}
+d1603 1
+a1603 1
+void CSMTPMessage::AddBody(const CString& sBody)
+d1605 9
+a1613 1
+	m_sBody = sBody;
+d1615 1
+a1615 2
+	//Fix the case of a single dot on a line in the message body
+	FixSingleDot(m_sBody);
+d1618 1
+a1618 1
+BOOL CSMTPMessage::AddMultipleRecipients(const CString& sRecipients, RECIPIENT_TYPE RecipientType)
+d1620 4
+a1623 1
+	ASSERT(sRecipients.GetLength()); //An empty string is now allowed
+d1625 2
+a1626 2
+	//Loop through the whole string, adding recipients as they are encountered
+	int length = sRecipients.GetLength();
+d1628 1
+a1628 1
+	_tcscpy(buf, sRecipients);
+d1631 1
+a1631 1
+		//Valid separators between addresses are ',' or ';'
+d1635 1
+a1635 26
+      		CString sTemp(&buf[start]);
+
+			// Now divide the substring into friendly names and e-mail addresses
+      		CSMTPAddress To;
+			int nMark = sTemp.Find(_T('<'));
+			if (nMark >= 0)
+			{
+				To.m_sFriendlyName = sTemp.Left(nMark);
+				int nMark2 = sTemp.Find(_T('>'));
+				if (nMark2 < nMark)
+				{
+         			//An invalid string was sent in, fail the call
+					delete[] buf;
+          			SetLastError(ERROR_INVALID_DATA);
+          			TRACE(_T("An error occurred while parsing the recipients string\n"));
+					return FALSE;
+				}
+				// End of mark at closing bracket or end of string
+				nMark2 > -1 ? nMark2 = nMark2 : nMark2 = sTemp.GetLength() - 1;
+				To.m_sEmailAddress = sTemp.Mid(nMark + 1, nMark2 - (nMark + 1));
+			}
+			else
+			{
+				To.m_sEmailAddress = sTemp;
+				To.m_sFriendlyName = _T(_T(""));
+			}
+d1637 13
+a1649 7
+      		//Finally add the new recipient to the array of recipients
+			To.m_sEmailAddress.TrimRight();
+			To.m_sEmailAddress.TrimLeft();
+			To.m_sFriendlyName.TrimRight();
+			To.m_sFriendlyName.TrimLeft();
+      		if (To.m_sEmailAddress.GetLength())
+        		AddRecipient(To, RecipientType);
+d1651 1
+a1651 1
+      		//Move on to the next position
+d1655 279
+a1933 2
+	delete[] buf;
+	return TRUE;
+d1936 2
+d1940 1
+a1940 1
+	m_bConnected = FALSE;
+d1942 1
+a1942 1
+	m_dwTimeout = 60000; //default timeout of 60 seconds when debugging
+d1944 1
+a1944 1
+	m_dwTimeout = 2000;  //default timeout of 2 seconds for normal release code
+d1946 2
+d1952 9
+a1960 2
+	if (m_bConnected)
+		Disconnect();
+d1963 1
+a1963 1
+BOOL CSMTPConnection::Connect(LPCTSTR pszHostName, int nPort)
+d1968 42
+a2009 2
+	//paramater validity checking
+	ASSERT(pszHostName);
+d2011 9
+a2019 6
+	//Create the socket
+	if (!m_SMTP.Create())
+	{
+	    TRACE(_T("Failed to create client socket, GetLastError returns: %d\n"), GetLastError());
+	    return FALSE;
+	}
+d2021 26
+a2046 18
+	//Connect to the SMTP Host
+	if (!m_SMTP.Connect(pszHostName, nPort))
+	{
+	    TRACE(_T("Could not connect to the SMTP server %s on port %d, GetLastError returns: %d\n"), pszHostName, nPort, GetLastError());
+	    return FALSE;
+  	}
+	else
+  	{
+	    //We're now connected !!
+	    m_bConnected = TRUE;
+
+	    //check the response to the login
+	    if (!ReadCommandResponse(220))
+	    {
+			TRACE(_T("An unexpected SMTP login response was received\n"));
+			Disconnect();
+			return FALSE;
+	    }
+d2048 2
+a2049 23
+		//retreive the localhost name
+	    char sHostName[100];
+		gethostname(sHostName, sizeof(sHostName));
+	    TCHAR* pszHostName = A2T(sHostName);
+
+	    //Send the HELO command
+		CString sBuf;
+		sBuf.Format(_T("HELO %s\r\n"), pszHostName);
+	    LPCSTR pszData = T2A((LPTSTR) (LPCTSTR) sBuf);
+	    int nCmdLength = strlen(pszData);
+	    if (!m_SMTP.Send(pszData, nCmdLength))
+	    {
+			Disconnect();
+			TRACE(_T("An unexpected error occurred while sending the HELO command\n"));
+			return FALSE;
+	    }
+		//check the response to the HELO command
+	    if (!ReadCommandResponse(250))
+	    {
+			Disconnect();
+			TRACE(_T("An unexpected HELO response was received\n"));
+			return FALSE;
+	    } 
+d2051 16
+a2066 1
+	    return TRUE;
+d2068 29
+d2099 2
+a2100 1
+BOOL CSMTPConnection::Disconnect()
+d2102 2
+a2103 1
+	BOOL bSuccess = FALSE;      
+d2105 6
+a2110 2
+	//disconnect from the SMTP server if connected 
+	if (m_bConnected)
+d2112 3
+a2114 5
+	    char sBuf[10];
+	    strcpy(sBuf, "QUIT\r\n");
+	    int nCmdLength = strlen(sBuf);
+	    if (!m_SMTP.Send(sBuf, nCmdLength))
+	    	TRACE(_T("Failed in call to send QUIT command, GetLastError returns: %d\n"), GetLastError());
+d2116 7
+a2122 7
+	    //Check the reponse
+	    bSuccess = ReadCommandResponse(221);
+	    if (!bSuccess)
+	    {
+			SetLastError(ERROR_BAD_COMMAND);
+			TRACE(_T("An unexpected QUIT response was received\n"));
+	    }
+d2124 32
+a2155 5
+	    //Reset all the state variables
+	    m_bConnected = FALSE;
+	}
+	else
+    	TRACE(_T("Already disconnected from SMTP server, doing nothing\n"));
+d2157 2
+a2158 2
+	//free up our socket
+	m_SMTP.Close();
+d2160 85
+a2244 1
+	return bSuccess;
+d2253 1
+a2253 1
+  	ASSERT(m_bConnected); //Must be connected to send a message
+d2255 1
+a2255 1
+  	//Send the MAIL command
+d2257 151
+a2407 89
+	CString sBuf;
+	sBuf.Format(_T("MAIL FROM:<%s>\r\n"), Message.m_From.m_sEmailAddress);
+	LPCSTR pszMailFrom = T2A((LPTSTR) (LPCTSTR) sBuf);
+	int nCmdLength = strlen(pszMailFrom);
+	if (!m_SMTP.Send(pszMailFrom, nCmdLength))
+	{
+	    TRACE(_T("Failed in call to send MAIL command, GetLastError returns: %d\n"), GetLastError());
+	    return FALSE;
+	}
+
+	//check the response to the MAIL command
+	if (!ReadCommandResponse(250))
+	{
+	    SetLastError(ERROR_BAD_COMMAND);
+	    TRACE(_T("An unexpected MAIL response was received\n"));
+	    return FALSE;
+	} 
+
+	//Send the RCPT command, one for each recipient (includes the TO, CC & BCC recipients)
+
+	//Must be sending to someone
+	ASSERT(Message.GetNumberOfRecipients(CSMTPMessage::TO) + 
+		   Message.GetNumberOfRecipients(CSMTPMessage::CC) + 
+		   Message.GetNumberOfRecipients(CSMTPMessage::BCC));
+
+	//First the "To" recipients
+	for (int i=0; i<Message.GetNumberOfRecipients(CSMTPMessage::TO); i++)
+	{
+	    CSMTPAddress recipient = Message.GetRecipient(i, CSMTPMessage::TO);
+	    if (!SendRCPTForRecipient(recipient))
+	    	return FALSE;
+  	}
+
+	//Then the "CC" recipients
+	for (i=0; i<Message.GetNumberOfRecipients(CSMTPMessage::CC); i++)
+	{
+	    CSMTPAddress recipient = Message.GetRecipient(i, CSMTPMessage::CC);
+	    if (!SendRCPTForRecipient(recipient))
+      		return FALSE;
+  	}
+
+	//Then the "BCC" recipients
+	for (i=0; i<Message.GetNumberOfRecipients(CSMTPMessage::BCC); i++)
+	{
+	    CSMTPAddress recipient = Message.GetRecipient(i, CSMTPMessage::BCC);
+	    if (!SendRCPTForRecipient(recipient))
+      		return FALSE;
+  	}
+
+	//Send the DATA command
+	char* pszDataCommand = "DATA\r\n";
+	nCmdLength = strlen(pszDataCommand);
+	if (!m_SMTP.Send(pszDataCommand, nCmdLength))
+	{
+	    TRACE(_T("Failed in call to send MAIL command, GetLastError returns: %d\n"), GetLastError());
+	    return FALSE;
+  	}
+
+	//check the response to the DATA command
+	if (!ReadCommandResponse(354))
+	{
+	    SetLastError(ERROR_BAD_COMMAND);
+	    TRACE(_T("An unexpected DATA response was received\n"));
+	    return FALSE;
+  	} 
+
+	//Send the Header
+	CString sHeader = Message.GetHeader();
+	char* pszHeader = T2A((LPTSTR) (LPCTSTR) sHeader);
+	nCmdLength = strlen(pszHeader);
+	if (!m_SMTP.Send(pszHeader, nCmdLength))
+	{
+	    TRACE(_T("Failed in call to send the header, GetLastError returns: %d\n"), GetLastError());
+	    return FALSE;
+  	}
+
+	//Send the Mime Header for the body
+  	if (Message.m_Attachments.GetSize())
+  	{
+		char* psBodyHeader = (_T("\r\n--#BOUNDARY#\r\n")\
+		                      _T("Content-Type: text/plain; charset=us-ascii\r\n")\
+							  _T("Content-Transfer-Encoding: quoted-printable\r\n\r\n"));
+	    nCmdLength = strlen(psBodyHeader);
+	    if (!m_SMTP.Send(psBodyHeader, nCmdLength))
+	    {
+			TRACE(_T("Failed in call to send the body header, GetLastError returns: %d\n"), GetLastError());
+			return FALSE;
+    	}
+  	}
+d2409 2
+a2410 29
+	//Send the body
+	char* pszBody = T2A((LPTSTR) (LPCTSTR) Message.m_sBody);
+	nCmdLength = strlen(pszBody);
+	if (!m_SMTP.Send(pszBody, nCmdLength))
+	{
+	    TRACE(_T("Failed in call to send the header, GetLastError returns: %d\n"), GetLastError());
+	    return FALSE;
+ 	}
+
+	//Send all the attachments
+	for (i=0; i<Message.m_Attachments.GetSize(); i++)
+	{
+    	CSMTPAttachment* pAttachment = Message.m_Attachments.GetAt(i);
+
+		//First send the Mime header for each attachment
+		CString sContent;
+		sContent.Format(_T("\r\n\r\n--#BOUNDARY#\r\n")\
+		                _T("Content-Type: application/octet-stream; name=%s\r\n")\
+						_T("Content-Transfer-Encoding: base64\r\n")\
+						_T("Content-Disposition: attachment; filename=%s\r\n\r\n"), 
+		pAttachment->GetFilename(), pAttachment->GetTitle());
+
+		char* pszContent = T2A((LPTSTR) (LPCTSTR) sContent);
+		nCmdLength = strlen(pszContent);
+		if (!m_SMTP.Send(pszContent, nCmdLength))
+		{
+			TRACE(_T("Failed in call to send Mime attachment header, GetLastError returns: %d\n"), GetLastError());
+			return FALSE;
+		}
+d2412 126
+a2537 7
+		//Then send the encoded attachment
+		if (!m_SMTP.Send(pAttachment->GetEncodedBuffer(), pAttachment->GetEncodedSize()))
+		{
+			TRACE(_T("Failed in call to send the attachment, GetLastError returns: %d\n"), GetLastError());
+			return FALSE;
+	    }
+	}
+d2539 4
+a2542 11
+	//Send the final mime boundary
+	if (Message.m_Attachments.GetSize())
+	{
+		char* pszFinalBoundary = "\r\n--#BOUNDARY#--";
+		nCmdLength = strlen(pszFinalBoundary);
+		if (!m_SMTP.Send(pszFinalBoundary, nCmdLength))
+		{
+			TRACE(_T("Failed in call to send Mime attachment header, GetLastError returns: %d\n"), GetLastError());
+			return FALSE;
+	  	}
+  	}
+d2544 2
+a2545 16
+	//Send the end of message indicator
+	char* pszEOM = "\r\n.\r\n";
+	nCmdLength = strlen(pszEOM);
+	if (!m_SMTP.Send(pszEOM, nCmdLength))
+	{
+	    TRACE(_T("Failed in call to send end of message indicator, GetLastError returns: %d\n"), GetLastError());
+	    return FALSE;
+  	}
+
+	//check the response to the End of Message command
+	if (!ReadCommandResponse(250))
+	{
+	    SetLastError(ERROR_BAD_COMMAND);
+	    TRACE(_T("An unexpected end of message response was received\n"));
+	    return FALSE;
+  	} 
+d2547 180
+a2726 1
+	return TRUE;
+d2736 20
+a2755 18
+	CString sBuf;
+	sBuf.Format(_T("RCPT TO:<%s>\r\n"), recipient.m_sEmailAddress);
+	LPTSTR pszRCPT = T2A((LPTSTR) (LPCTSTR) sBuf);
+
+	int nCmdLength = strlen(pszRCPT);
+	if (!m_SMTP.Send(pszRCPT, nCmdLength))
+	{
+	    TRACE(_T("Failed in call to send RCPT command, GetLastError returns: %d\n"), GetLastError());
+	    return FALSE;
+  	}
+
+	//check the response to the RCPT command
+	if (!ReadCommandResponse(250))
+	{
+	    SetLastError(ERROR_BAD_COMMAND);
+	    TRACE(_T("An unexpected RCPT response was received\n"));
+	    return FALSE;
+  	} 
+d2757 1
+a2757 1
+  	return TRUE;
+d2760 1
+a2760 1
+BOOL CSMTPConnection::ReadCommandResponse(int nExpectedCode)
+d2762 5
+a2766 5
+	LPSTR pszOverFlowBuffer = NULL;
+	char sBuf[256];
+	BOOL bSuccess = ReadResponse(sBuf, 256, "\r\n", nExpectedCode, &pszOverFlowBuffer);
+	if (pszOverFlowBuffer)
+    	delete [] pszOverFlowBuffer;
+d2768 1
+a2768 1
+  	return bSuccess;
+d2771 1
+a2771 1
+BOOL CSMTPConnection::ReadResponse(LPSTR pszBuffer, int nInitialBufSize, LPSTR pszTerminator, int nExpectedCode, LPSTR* ppszOverFlowBuffer, int nGrowBy)
+d2779 3
+d2798 1
+d2803 5
+a2807 5
+	    //check the socket for readability
+	    BOOL bReadible;
+	    if (!m_SMTP.IsReadible(bReadible))
+	    {
+	    	pszRecvBuffer[nReceived] = '\0';
+d2810 3
+a2812 3
+	    }
+	    else if (!bReadible) //no data to receive, just loop around
+	    {
+d2815 1
+a2815 1
+    	}
+d2818 3
+a2820 3
+	    int nBufRemaining = nBufSize-nReceived-1; //Allows allow one space for the NULL terminator
+	    if (nBufRemaining<0)
+		nBufRemaining = 0;
+d2824 1
+a2824 1
+		if (nData)
+a2826 1
+
+d2829 1
+a2829 1
+    	}
+d2831 2
+a2832 2
+   		//If an error occurred receiving the data
+		if (nData == SOCKET_ERROR)
+a2836 1
+
+d2844 1
+a2844 2
+				pszRecvBuffer[nReceived] = '\0';
+
+d2855 1
+a2855 1
+					strcpy(pszNewBuf, pszRecvBuffer);
+d2860 1
+a2860 1
+					delete [] *ppszOverFlowBuffer;
+d2864 1
+a2864 1
+      		}
+d2867 7
+a2873 2
+    	//Check to see if the terminator character(s) have been found
+		bFoundTerminator = (strstr(pszRecvBuffer, pszTerminator) != NULL);
+d2877 1
+a2877 1
+  	pszRecvBuffer[nReceived - strlen(pszTerminator)] = '\0';
+d2879 20
+a2898 6
+  	//determine if the response is an error
+	char sCode[4];
+	strncpy(sCode, pszRecvBuffer, 3);
+	sCode[3] = '\0';
+	sscanf(sCode, "%d", &m_nLastCommandResponseCode);
+	BOOL bSuccess = (m_nLastCommandResponseCode == nExpectedCode);
+d2901 16
+d2918 3
+a2920 3
+	    SetLastError(WSAEPROTONOSUPPORT);
+	    m_sLastCommandResponse = pszRecvBuffer; //Hive away the last command reponse
+  	}
+d2922 331
+a3252 1
+  	return bSuccess;
+d3266 3
+d3275 1
+a3275 1
+	msg.AddBody(txt);
+@
+

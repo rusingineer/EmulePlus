@@ -1,0 +1,1929 @@
+head	1.25;
+access;
+symbols
+	PublicRelease_1_2e:1.25
+	Interim_Release_1-2e_RC1:1.25
+	PublicRelease_1_2d:1.25
+	Interim_Release_1-2d_RC1:1.25
+	Interim_Release_1-2d_beta1:1.25
+	PublicRelease_1_2c:1.25
+	Interim_Release_1-2c_RC1:1.25
+	Interim_Release_1-2c_beta1:1.25
+	PublicRelease_1_2b:1.25
+	Interim_Release_1-2b_RC1:1.25
+	PublicRelease_1_2a:1.25
+	Interim_Release_1-2a_RC1:1.25
+	Interim_Release_1-2a_beta2:1.25
+	Interim_Release_1-2a_beta1:1.25
+	PublicRelease_1_2:1.25
+	Interim_Release_1-2_RC1:1.25
+	Interim_Release_1-2_beta1:1.25
+	PublicRelease_1_1g:1.25
+	Interim_Release_1-1g_RC3:1.25
+	Interim_Release_1-1g_RC2:1.25
+	Interim_Release_1-1g_RC1:1.25
+	Interim_Release_1-1g_beta2:1.25
+	Interim_Release_1-1g_beta1:1.25
+	PublicRelease_1_1f:1.25
+	Interim_Release_1-1f_RC1:1.25
+	PublicRelease_1_1e:1.25
+	Interim_Release_1-1e_RC2:1.25
+	Interim_Release_1-1e_RC1:1.25
+	Interim_Release_1-1e_beta1:1.25
+	PublicRelease_1_1d:1.21
+	Interim_Release_1-1d_RC1:1.21
+	PublicRelease_1_1c:1.20
+	Interim_Release_1-1c_RC1:1.18
+	Interim_Release_1-1c_beta2:1.12
+	Interim_Release_1-1c_beta1:1.12
+	PublicRelease_1_1b:1.9
+	Interim_Release_1-1b_RC1:1.9
+	PublicRelease_1_1a:1.9
+	Interim_Release_1-1a_RC2:1.9
+	Interim_Release_1-1a_RC1:1.9
+	Interim_Release_1-1a_beta2:1.9
+	Interim_Release_1-1a_beta1:1.9
+	PublicRelease_1_1:1.9
+	Interim_Release_1-1_beta1:1.9
+	PublicRelease_1o:1.9
+	Interim_Release_1o_RC1:1.9
+	Interim_Release_1o_beta1:1.9
+	PublicRelease_1n:1.9
+	Interim_Release_1n_RC2:1.9
+	Interim_Release_1n_RC1:1.9
+	PublicRelease_1m:1.8
+	Interim_Release_1m_beta1:1.8
+	PublicRelease_1l:1.8
+	Interim_Release_1l_RC3:1.8
+	Interim_Release_1l_RC2:1.8
+	Interim_Release_1l_RC1:1.8
+	Interim_Release_1l_beta2:1.8
+	Interim_Release_1l_beta1:1.8
+	PublicRelease_1k:1.8
+	Interim_Release_1k_RC4:1.8
+	Interim_1k_RC3:1.8
+	Interim_1k_RC2:1.8
+	Interim_Release_1k_RC1:1.8
+	Interim_Release_1k_beta5:1.8
+	Intrerim_Release_1k_beta4:1.8
+	Interim_Release_1k_beta1:1.8
+	PublicRelease_1j:1.5
+	Interim_Release_1J_RC3:1.5
+	Interim_Release_1j_RC3:1.5
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.2;
+locks; strict;
+comment	@// @;
+
+
+1.25
+date	2005.04.17.05.16.25;	author kuchin;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.04.08.11.09.35;	author kuchin;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.03.27.05.01.51;	author kuchin;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.03.22.22.02.10;	author kuchin;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.03.08.17.09.08;	author kuchin;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.02.26.17.52.05;	author kuchin;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.02.26.09.48.22;	author kuchin;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.02.23.22.13.02;	author kuchin;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.02.23.20.40.42;	author kuchin;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.02.23.19.34.39;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.02.23.18.58.04;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.02.20.19.44.48;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.02.19.20.40.57;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.01.29.14.55.01;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.01.28.20.13.52;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.12.29.16.04.23;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.07.14.14.19.30;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.02.06.20.50.07;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.02.06.13.57.27;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.02.05.19.31.56;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.16.14.50.59;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.01.07.10.54.33;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.07.09.18.16;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.21.10.29.05;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.25
+log
+@v2 - corrected protocol, tags
+@
+text
+@// OpCode.cpp: implementation of the COpCode class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#pragma pack(1)
+
+#include "stdafx.h"
+#include "../../packets.h"
+#include "../Other/TaskProcessorLogger.h"
+#include "OpCode.h"
+#include "../Data/Prefs.h"
+
+#pragma pack(1)
+
+//////////////////////////////////////////////////////////////////////
+template <> void CStream::operator << (const CString& strTxt)
+{
+	*this << (USHORT) strTxt.GetLength();
+	DumpString(strTxt);
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::DumpString(const CString& strTxt)
+{
+	USHORT nLen = (USHORT) strTxt.GetLength();
+
+#ifdef UNICODE
+	if (m_bUnicode)
+		Write((LPCWSTR) strTxt, nLen * sizeof(WCHAR));
+	else
+	{
+		// convert it to ANSI string
+		CQuickBuf stBuf;
+		stBuf.Alloc(nLen);
+		if (nLen != WideCharToMultiByte(AP_ACP, 0, strTxt, nLen, (PSTR) stBuf.m_pBufUse, nLen, NULL, NULL))
+			Exception();
+
+		Write(stBuf.m_pBufUse, nLen);
+	}
+
+#else // UNICODE
+
+	if (m_bUnicode)
+	{
+		// convert it to unicode
+		CQuickBuf stBuf;
+		stBuf.Alloc(nLen * sizeof(WCHAR));
+		if (nLen != MultiByteToWideChar(CP_ACP, 0, strTxt, nLen, (PWSTR) stBuf.m_pBufUse, nLen))
+			Exception();
+
+		Write(stBuf.m_pBufUse, nLen * sizeof(WCHAR));
+	} else
+		Write((LPCSTR) strTxt, nLen);
+
+#endif // UNICODE
+}
+
+//////////////////////////////////////////////////////////////////////
+template <> void CStream::operator >> (CString& strTxt)
+{
+	USHORT nLen;
+	*this >> nLen;
+	InitString(strTxt, nLen);
+}
+
+//////////////////////////////////////////////////////////////////////
+//void CStream::InitTrailingString(CString& strTxt) {
+//	DWORD dwSize = SizeLeft();
+//	if (m_bUnicode)
+//		dwSize >>= 1; // /= 2
+//	if (dwSize > 0xFFFF)
+//		Exception();
+//	InitString(strTxt, (USHORT) SizeLeft());
+//}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::InitString(CString& strTxt, USHORT nLen)
+{
+	strTxt.Empty();
+	PVOID pStr = strTxt.GetBuffer(nLen);
+
+#ifdef UNICODE
+
+	if (m_bUnicode)
+		Read(pStr, nLen * sizeof(WCHAR));
+	} else
+	{
+		// convert it to unicode
+		CQuickBuf stBuf;
+		stBuf.Alloc(nLen);
+		Read(stBuf.m_pBufUse, nLen);
+
+		if (nLen != MultiByteToWideChar(CP_ACP, 0, (PCSTR) stBuf.m_pBufUse, nLen, (PWSTR) pStr, nLen))
+			Exception();
+	}
+#else // UNICODE
+	if (m_bUnicode)
+	{
+		// convert it to ansi
+		CQuickBuf stBuf;
+		stBuf.Alloc(nLen * sizeof(WCHAR));
+		Read(stBuf.m_pBufUse, nLen * sizeof(WCHAR));
+
+		if (nLen != WideCharToMultiByte(CP_ACP, 0, (PCWSTR) stBuf.m_pBufUse, nLen, (PSTR) pStr, nLen, NULL, NULL))
+			Exception();
+	} else
+		Read(pStr, nLen);
+#endif // UNICODE
+
+	strTxt.ReleaseBuffer(nLen);
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::DumpTags(bool bNewTagsFormat, CTagEntry* pTags, DWORD dwCount)
+{
+	// count how many tags we have
+	DWORD dwTagsCount = 0;
+	for (DWORD dwIndex = 0; dwIndex < dwCount; dwIndex++)
+		if (pTags[dwIndex].m_pTag->Valid)
+			dwTagsCount++;
+
+	*this << dwTagsCount;
+
+	// dump tags
+	for (; dwCount--; pTags++)
+		if (pTags->m_pTag->Valid)
+		{
+/*			*this << pTags->m_nType;
+
+			// put this tag's id (or name)
+			*this << pTags->m_nNameLen;
+			if (1 == pTags->m_nNameLen)
+				*this << (BYTE) pTags->m_dwName;
+			else
+				Write((PVOID) pTags->m_dwName, pTags->m_nNameLen);
+*/			
+			// tag's value
+			switch (pTags->m_nType)
+			{
+			case TAGTYPE_UINT32:
+				{
+					DWORD dwValue = ((CTag_DWORD*)pTags->m_pTag)->m_dwValue;
+					if(bNewTagsFormat)
+					{
+						if(dwValue <= 0xFF)
+						{
+							*this << (BYTE)(TAGTYPE_UINT8 | 0x80);
+							*this << (BYTE)(pTags->m_dwName);
+							*this << (BYTE)(dwValue);
+						}
+						else if(dwValue <= 0xFFFF)
+						{
+							*this << (BYTE)(TAGTYPE_UINT16 | 0x80);
+							*this << (BYTE)(pTags->m_dwName);
+							*this << (USHORT)(dwValue);
+						}
+						else
+						{
+							*this << (BYTE)(TAGTYPE_UINT32 | 0x80);
+							*this << (BYTE)(pTags->m_dwName);
+							*this << (DWORD)(dwValue);
+						}
+					}
+					else
+					{
+						*this << (BYTE)(TAGTYPE_UINT32);
+						*this << (USHORT)(pTags->m_nNameLen);
+						*this << (BYTE)(pTags->m_dwName);
+						*this << (DWORD)(dwValue);
+					}
+				}
+				break;
+
+			case TAGTYPE_STRING:
+				{
+					CString sValue = ((CTag_String*) pTags->m_pTag)->m_strValue;
+					USHORT uLength = sValue.GetLength();
+					if(bNewTagsFormat)
+					{
+						if(uLength >= 1 && uLength <= 16)
+						{
+							*this << (BYTE)((TAGTYPE_STR1 + uLength - 1) | 0x80);
+							*this << (BYTE)(pTags->m_dwName);
+						}
+						else
+						{
+							*this << (BYTE)(TAGTYPE_STRING | 0x80);
+							*this << (BYTE)(pTags->m_dwName);
+							*this << (USHORT)(uLength);
+						}
+						Write((PVOID)sValue.GetBuffer(0), uLength);
+					}
+					else
+					{
+						*this << (BYTE)(TAGTYPE_STRING);
+						*this << (USHORT)(pTags->m_nNameLen);
+						*this << (BYTE)(pTags->m_dwName);
+						*this << sValue;
+					}
+				}
+				break;
+
+			default:
+				Exception();
+			}
+
+		}
+}
+
+template <class T> void StreamDumpElement(CStream& stStream, const T& stElement, bool bSupportNewTags)
+{
+	stStream << stElement;
+}
+template <class T> void StreamInitElement(CStream& stStream, T& stElement)
+{
+	stStream >> stElement;
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::DumpBitArray(const vector<BYTE>& arrValue)
+{
+	int nSize = arrValue.size();
+	Write(&nSize, sizeof(USHORT));
+	uint16 done = 0;
+	while (done != nSize)
+	{
+		BYTE towrite = 0;
+		for(int i = 0; i < 8; i++)
+		{
+			if(arrValue[done])
+				towrite |= (1 << i);
+
+			if (++done == nSize)
+				break;
+		}
+		*this << towrite;
+	}
+}
+
+//////////////////////////////////////////////////////////////////////
+template <class T>
+void CStream::DumpArr(const vector<T>& arrValue, int nCounterLen, bool bSupportNewTags)
+{
+	int nSize = arrValue.size();
+	ASSERT(nCounterLen <= sizeof(nSize));
+	if((sizeof(nCounterLen) == 1 && nSize > 255) || (sizeof(nCounterLen) == 2 && nSize > 65535))
+		Exception(); // too long
+
+	Write(&nSize, nCounterLen);
+	for (int nItem = 0; nItem < nSize; nItem++)
+		StreamDumpElement(*this, arrValue[nItem], bSupportNewTags);
+}
+
+
+//////////////////////////////////////////////////////////////////////
+template <class T>
+void CStream::InitArr(vector<T>& arrValue, int nCounterLen)
+{
+	int nSize;
+	ASSERT(nCounterLen <= sizeof(nSize));
+	Read(&nSize, nCounterLen);
+
+//	arrValue.SetSize(nSize);
+	arrValue.resize(nSize);
+	for (int nItem = 0; nItem < nSize; nItem++)
+		StreamInitElement(*this, arrValue[nItem]);
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::InitTags(CTagEntry* pTags, DWORD dwCount)
+{
+	DWORD dwTagsCount;
+	*this >> dwTagsCount;
+
+	while (dwTagsCount--)
+	{
+		BYTE nType;
+		*this >> nType;
+
+		USHORT nLen;
+		if (nType & 0x80)
+		{
+			nType &= 0x7F;
+			nLen = 1;
+		}
+		else
+			*this >> nLen;
+
+		BYTE nTagID;
+		CQuickBuf stTagName;
+
+		if (1 == nLen)
+			*this >> nTagID;
+		else
+		{
+			stTagName.Alloc(nLen);
+			Read(stTagName.m_pBufUse, nLen);
+		}
+
+		// check if we have such a tag id (or name)
+		for (DWORD dwIndex = 0; dwIndex < dwCount; dwIndex++)
+			if ((pTags[dwIndex].m_nNameLen == nLen) &&
+				((1 == nLen) ? (nTagID == (BYTE) pTags[dwIndex].m_dwName) : !memcmp(stTagName.m_pBufUse, (PVOID) pTags[dwIndex].m_dwName, nLen)))
+				break; // match
+
+		CTagEntry* pTarget = (dwIndex < dwCount) ? pTags + dwIndex : NULL;
+
+//		if (pTarget && pTarget->m_nType != nType && pTarget->m_nType != TAGTYPE_STRING)
+//			Exception(); // type mismatch
+
+		switch (nType)
+		{
+		case TAGTYPE_UINT32:
+		{
+			DWORD dwVal;
+			*this >> dwVal;
+			if (pTarget && pTarget->m_nType == TAGTYPE_UINT32)
+				((CTag_DWORD*) pTarget->m_pTag)->m_dwValue = dwVal;
+			break;
+		}
+		case TAGTYPE_UINT16:
+		{
+			USHORT nVal;
+			*this >> nVal;
+			if (pTarget && pTarget->m_nType == TAGTYPE_UINT32)
+				((CTag_DWORD*) pTarget->m_pTag)->m_dwValue = nVal;
+			break;
+		}
+		case TAGTYPE_UINT8:
+		{
+			BYTE byteVal;
+			*this >> byteVal;
+			if (pTarget && pTarget->m_nType == TAGTYPE_UINT32)
+				((CTag_DWORD*) pTarget->m_pTag)->m_dwValue = byteVal;
+			break;
+		}
+		case TAGTYPE_FLOAT32:
+		{
+			float fVal;
+			*this >> fVal;
+			break;
+		}
+		case TAGTYPE_HASH:
+			break;
+		case TAGTYPE_BOOL:
+		{
+			bool bVal;
+			*this >> bVal;
+			if (pTarget && pTarget->m_nType == TAGTYPE_UINT32)
+				((CTag_DWORD*) pTarget->m_pTag)->m_dwValue = bVal;
+			break;
+		}
+		case TAGTYPE_BOOLARRAY:
+		{
+			USHORT nLen;
+			*this >> nLen;
+			CQuickBuf stBoolArray;
+			stBoolArray.Alloc(nLen);
+			Read(stBoolArray.m_pBufUse, nLen);
+			break;
+		}
+		case TAGTYPE_BLOB:
+		{
+			DWORD dwLen;
+			*this >> dwLen;
+			CQuickBuf stBlob;
+			stBlob.Alloc(dwLen);
+			Read(stBlob.m_pBufUse, dwLen);
+			break;
+		}
+		case TAGTYPE_STRING:
+		{
+			if (pTarget)
+				*this >> ((CTag_String*) pTarget->m_pTag)->m_strValue;
+			else
+			{
+				CString strVal;
+				*this >> strVal; // This is a bit heave. Better just to skip this string
+			}
+			break;
+		}
+		default:
+			if (nType >= TAGTYPE_STR1 && nType <= TAGTYPE_STR16)
+			{
+				USHORT nLen = nType - TAGTYPE_STR1 + 1;
+				CQuickBuf stStr;
+				stStr.Alloc(nLen);
+				Read(stStr.m_pBufUse, nLen);
+				BYTE* pBuf = (BYTE*)stStr.m_pBufUse;
+				pBuf[nLen] = NULL;
+				if (pTarget)
+					((CTag_String*) pTarget->m_pTag)->m_strValue = (LPCTSTR)pBuf;
+				nType = TAGTYPE_STRING;
+				break;
+			}
+			Exception();
+		}
+
+		if (pTarget)
+			pTarget->m_pTag->m_bValid = true;
+	}
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::Write(PCVOID, DWORD)
+{
+	Exception(); // not implemented
+}
+
+//////////////////////////////////////////////////////////////////////
+DWORD CStream::ReadData(PVOID, DWORD)
+{
+	return 0; // not implemented
+}
+
+//////////////////////////////////////////////////////////////////////
+CStream::~CStream()
+{
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::Skip(DWORD dwSize)
+{
+	BYTE pBuf[0x1000];
+	while (dwSize)
+	{
+		DWORD dwPortion = min(dwSize, sizeof(pBuf));
+		Read(pBuf, dwPortion);
+		dwSize -= dwPortion;
+	}
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream::Exception()
+{
+	CException stException;
+	throw stException;
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream_Measure::Write(PCVOID, DWORD dwSize)
+{
+	m_dwSize += dwSize;
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream_Mem::Write(PCVOID pBuf, DWORD dwSize)
+{
+	if (dwSize > m_dwSize)
+		Exception();
+	CopyMemory(m_pPtr, pBuf, dwSize);
+	m_pPtr += dwSize;
+	m_dwSize -= dwSize;
+}
+
+//////////////////////////////////////////////////////////////////////
+DWORD CStream_Mem::ReadData(PVOID pBuf, DWORD dwSize)
+{
+	if (dwSize > m_dwSize)
+	{
+		dwSize = m_dwSize;
+		m_dwSize = 0;
+	} else
+		m_dwSize -= dwSize;
+
+	CopyMemory(pBuf, m_pPtr, dwSize);
+	m_pPtr += dwSize;
+	return dwSize;
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream_MemEx::Write(PCVOID pBuf, DWORD dwSize)
+{
+	if (dwSize > m_dwSize)
+	{
+		m_dwSizeExtra += dwSize;
+		if (m_dwSize)
+		{
+			m_dwSizeExtra -= m_dwSize;
+			m_dwSize = 0;
+		}
+
+	} else
+	{
+		CopyMemory(m_pPtr, pBuf, dwSize);
+		m_pPtr += dwSize;
+		m_dwSize -= dwSize;
+	}
+}
+
+//////////////////////////////////////////////////////////////////////
+void CStream_ZLib::Write(PCVOID pBuf, DWORD dwSize)
+{
+	Exception(); // not yet.
+}
+
+//////////////////////////////////////////////////////////////////////
+DWORD CStream_ZLib::ReadData(PVOID pBuf, DWORD dwSize)
+{
+	if(m_pBuf == NULL)
+	{
+		DWORD dwPackedSize = m_stSrc.GetSize();
+		if(dwPackedSize == 0)
+			throw;	// we already tried to unpack and failed
+		DWORD dwMaxUnpackedSize = dwPackedSize * 10 + 300;
+		m_pBuf = new BYTE[dwMaxUnpackedSize];
+
+		BYTE* pbytePackedBuffer = new BYTE[dwPackedSize];
+		m_stSrc.ReadData(pbytePackedBuffer, dwPackedSize);
+
+		uLongf dwUnpackedSize = dwMaxUnpackedSize;
+		uint16 nResult = uncompress(m_pBuf, &dwUnpackedSize, pbytePackedBuffer, dwPackedSize);
+
+		if (nResult == Z_OK)
+		{
+			m_stUnpacked.m_pPtr = (PBYTE)m_pBuf;
+			m_stUnpacked.m_dwSize = dwUnpackedSize;
+		}
+		else
+		{
+			delete[] m_pBuf;
+			m_pBuf = NULL;
+			throw;
+		}
+	}
+	return m_stUnpacked.ReadData(pBuf, dwSize);
+}
+
+CStream_ZLib::~CStream_ZLib()
+{
+	if(m_pBuf)
+		delete[] m_pBuf;
+}
+
+//////////////////////////////////////////////////////////////////////
+COpCode::~COpCode()
+{
+}
+
+//////////////////////////////////////////////////////////////////////
+bool COpCode::Write(CStream& stStream, BYTE nTransport, bool bSupportNewTags) const
+{
+	try
+	{
+		BYTE nProtocol = GetProtocol();
+		stStream.m_bUnicode = (OP_PROT_UNICODE == nProtocol);
+		stStream << nProtocol;
+
+		switch (nTransport)
+		{
+		case OP_TRANSPORT_TCP:
+			{
+				// write the body size
+				CStream_Measure stMeasure;
+				Z_Dump(stMeasure, bSupportNewTags);
+
+				stStream << stMeasure.m_dwSize + 1;
+			}
+			break;
+		case OP_TRANSPORT_UDP:
+			break;
+		default:
+			stStream.Exception(); // undefined transport format
+		}
+
+		stStream << GetID();
+
+		// dump the rest of the opcode
+		Z_Dump(stStream, bSupportNewTags);
+
+	}
+	catch (CStream::CException)
+	{
+		return false;
+	}
+	return true; // ok
+}
+
+//////////////////////////////////////////////////////////////////////
+COpCode *COpCode::CreateRaw(BYTE nID, BYTE nProtocol, T_CLIENT_TYPE eType, LPTSTR strOpCode)
+{
+	// Some messages with OP_PROT_EMULE protocol are received in a compressed way, and their
+	// protocol ID is OP_PROT_PACKED. But this doesn't matter in this function.
+	if (OP_PROT_PACKED == nProtocol)
+		nProtocol = OP_PROT_EMULE;
+
+//	switch ((eType << 16) | (nProtocol << 8) | nID)
+	{
+//		#define BEGIN_OPCODE(id, name, prot, source)	case (T_CLIENT_##source << 16) | (OP_PROT_##prot << 8) | id: _tcscpy(strOpCode, _T(#name)); return new COpCode_##name;
+		#define BEGIN_OPCODE(id, name, prot, source) \
+			if(nID == id && \
+			(nProtocol == OP_PROT_##prot || (OP_PROT_##prot == OP_PROT_EDONKEY_EMULE && (nProtocol == OP_PROT_EMULE || nProtocol == OP_PROT_EDONKEY))) && \
+			(eType == T_CLIENT_##source || (T_CLIENT_##source == T_CLIENT_PEER_SERVER && (eType == T_CLIENT_PEER || eType == T_CLIENT_SERVER)))) \
+			{ \
+				_tcscpy(strOpCode, _T(#name)); \
+				return new COpCode_##name; \
+			} \
+
+		#define END_OPCODE
+		#define PARAM_BYTE_JUNK(value)
+		#define PARAM_BUF(name, type, count)
+		#define PARAM_DATABLOCK(name)
+		#define PARAM_SIMPLE(name, type)
+		#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+		#define PARAM_TAGS_BEGIN
+		#define PARAM_TAGS_END
+		#define PARAM_TAG_STR(name, id)
+		#define PARAM_TAG_DWORD(name, id)
+		//#define PARAM_TEXT_TRAILING(name)
+		#define PARAM_ARRAY(name, type, counter)
+		#define PARAM_BITARRAY(name)
+		#define PARAM_COMPLEXARRAY_BEGIN(msg, name)
+		#define PARAM_COMPLEXARRAY_END(name)
+
+		#include "EmMsgs.h"
+		#include "EmUndef.h"
+	}
+	_tcscpy(strOpCode, _T("Unknown"));
+	return NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+COpCode *COpCode::Read(CStream &stStream, BYTE nID, BYTE nProtocol, T_CLIENT_TYPE eType, LPTSTR strOpCode)
+{
+	COpCode* pNewOpCode = CreateRaw(nID, nProtocol, eType, strOpCode);
+
+	if (pNewOpCode != NULL)
+	{
+		try
+		{
+			switch (nProtocol)
+			{
+			case OP_PROT_PACKED:
+				{
+					CStream_ZLib stZStream(stStream);
+					pNewOpCode->Z_Init(stZStream);
+				}
+				break;
+			case OP_PROT_UNICODE:
+				stStream.m_bUnicode = true;
+				// no break;
+			default:
+				pNewOpCode->Z_Init(stStream);
+			}
+		}
+		catch (CStream::CException)
+		{
+			delete pNewOpCode;
+			pNewOpCode = NULL;
+		}
+	}
+
+	return pNewOpCode;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+DWORD COpCode::GetSize(BYTE nTransport, bool bSupportNewTags) const
+{
+	CStream_Measure stStream;
+	return Write(stStream, nTransport, bSupportNewTags) ? stStream.m_dwSize : 0;
+}
+
+//////////////////////////////////////////////////////////////////////
+bool COpCode::Process()
+{
+	CEmClient* pClient = NULL;
+	if (g_stEngine.m_pSocketsProcessor->IsInContext(*this))
+	{
+		pClient = g_stEngine.Sockets.Lookup(m_hSocket);
+		if (!pClient)
+			return true; // no more relevant!
+
+		if (m_bJustReceived)
+		{
+			m_bJustReceived = false;
+			// write it to log
+			if(g_stEngine.Prefs.SaveLogsIO)
+				g_stEngine.m_pLoggerProcessor->Post(*this, pClient->GetType(), pClient->m_nClientID, FALSE);
+		}
+	}
+
+	AddLog(LOG_DEBUG, _T("Processing opcode %s (%x), (socket=%u)"), TaskName(), GetID(), pClient ? pClient->m_hSocket : 0);
+#if defined(_DEBUG) && !defined(OPCODE_SKIP_DBGDUMP)
+	ShowSelf(false);
+#endif //_DEBUG && OPCODE_SKIP_DBGDUMP
+
+	if(pClient->GetType() != T_CLIENT_PEER && pClient->GetType() != T_CLIENT_SERVER)
+		return false;
+
+	return ProcessForClient(reinterpret_cast<CEmClient_Peer*>(pClient));
+}
+
+//////////////////////////////////////////////////////////////////////
+// Debug stuff
+#ifndef OPCODE_SKIP_DBGDUMP
+
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, DWORD dwValue)
+{
+	CString strDelta;
+	strDelta.Format(_T("\r\n%s = %u"), szName, dwValue);
+	m_strTxt += strDelta;
+}
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, const CString& strValue)
+{
+	CString strDelta;
+	strDelta.Format(_T("\r\n%s = %s"), szName, strValue);
+	m_strTxt += strDelta;
+}
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, const AddrPort& stValue)
+{
+	CString strDelta;
+	strDelta.Format(_T("\r\n%s = %u.%u.%u.%u:%u"), szName,
+		((in_addr&)stValue._IPAddr).S_un.S_un_b.s_b1,
+		((in_addr&)stValue._IPAddr).S_un.S_un_b.s_b2,
+		((in_addr&)stValue._IPAddr).S_un.S_un_b.s_b3,
+		((in_addr&)stValue._IPAddr).S_un.S_un_b.s_b4,
+		stValue._Port);
+
+	m_strTxt += strDelta;
+}
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, const void*, DWORD dwCount, DWORD)
+{
+	CString strDelta;
+	strDelta.Format(_T("\r\n%s = [Count=%u]"), szName, dwCount);
+	m_strTxt += strDelta;
+}
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, const CTag_DWORD& stValue)
+{
+	CString strDelta;
+	strDelta.Format(_T("\r\n%s = [%c] %u"), szName, stValue.m_bValid ? _T('+') : _T('-'), stValue.m_dwValue);
+	m_strTxt += strDelta;
+}
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, const CTag_String& stValue)
+{
+	CString strDelta;
+	strDelta.Format(_T("\r\n%s = [%c] %s"), szName, stValue.m_bValid ? _T('+') : _T('-'), stValue.m_strValue);
+	m_strTxt += strDelta;
+}
+template <class T>
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, const vector<T>& arrValue)
+{
+	CString strDelta;
+	strDelta.Format(_T("\r\n%s = [Count=%u]"), szName, arrValue.size());
+	m_strTxt += strDelta;
+}
+
+int COpCode::ShowSelf(bool bMessageBox /* = true */, int nStyle /* = MB_ICONINFORMATION | MB_OK | MB_TOPMOST */)
+{
+	CDbgDump stDump;
+	stDump.m_strTxt.Format(_T("Opcode ID=%u, Ptr=%08X"), GetID(), this);
+	Z_DbgDump(stDump);
+
+	if(bMessageBox)
+		return ::MessageBox(NULL, stDump.m_strTxt, _T("Opcode parameters"), nStyle);
+
+	AddLog(LOG_DEBUG, "%s", stDump.m_strTxt);
+
+	return 0;
+}
+#endif // OPCODE_SKIP_DBGDUMP
+
+
+//////////////////////////////////////////////////////////////////////
+// All OpCodes
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+// Constructors
+
+#define BEGIN_OPCODE(id, name, prot, source)	COpCode_##name::COpCode_##name() {
+#define END_OPCODE						}
+#define PARAM_BYTE_JUNK(value)
+#define PARAM_BUF(name, type, count)	ZeroMemory(_##name, count * sizeof(type));
+#define PARAM_DATABLOCK(name)			_##name = NULL; _Start##name = 0; _End##name = 0;
+#define PARAM_SIMPLE(name, type)
+#define PARAM_SIMPLE_ORD(name, type)	_##name = 0;
+#define PARAM_TAGS_BEGIN
+#define PARAM_TAGS_END
+#define PARAM_TAG_STR(name, id)
+#define PARAM_TAG_DWORD(name, id)
+//#define PARAM_TEXT_TRAILING(name)
+#define PARAM_ARRAY(name, type, counter)
+#define PARAM_BITARRAY(name)
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name) } COpCode_##msg::CStruct_##name::CStruct_##name() {
+#define PARAM_COMPLEXARRAY_END(name)
+
+#include "EmMsgs.h"
+#include "EmUndef.h"
+
+//////////////////////////////////////////////////////////////////////
+// Destructors
+
+
+#define BEGIN_OPCODE(id, name, prot, source)	COpCode_##name::~COpCode_##name() {
+#define END_OPCODE						}
+#define PARAM_BYTE_JUNK(value)
+#define PARAM_BUF(name, type, count)
+#define PARAM_DATABLOCK(name)		if(_##name){ delete[] _##name; _##name = NULL; }
+#define PARAM_SIMPLE(name, type)
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+#define PARAM_TAGS_BEGIN
+#define PARAM_TAGS_END
+#define PARAM_TAG_STR(name, id)
+#define PARAM_TAG_DWORD(name, id)
+//#define PARAM_TEXT_TRAILING(name)
+#define PARAM_ARRAY(name, type, counter)
+#define PARAM_BITARRAY(name)
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name)
+#define PARAM_COMPLEXARRAY_END(name)
+
+#include "EmMsgs.h"
+#include "EmUndef.h"
+
+//////////////////////////////////////////////////////////////////////
+// GetID()
+
+#define BEGIN_OPCODE(id, name, prot, source)	BYTE COpCode_##name::GetID() const { return id;
+#define END_OPCODE						}
+#define PARAM_BYTE_JUNK(value)
+#define PARAM_BUF(name, type, count)
+#define PARAM_DATABLOCK(name)
+#define PARAM_SIMPLE(name, type)
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+#define PARAM_TAGS_BEGIN
+#define PARAM_TAGS_END
+#define PARAM_TAG_STR(name, id)
+#define PARAM_TAG_DWORD(name, id)
+//#define PARAM_TEXT_TRAILING(name)
+#define PARAM_ARRAY(name, type, counter)
+#define PARAM_BITARRAY(name)
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name)
+#define PARAM_COMPLEXARRAY_END(name)
+
+#include "EmMsgs.h"
+#include "EmUndef.h"
+
+//////////////////////////////////////////////////////////////////////
+// GetProtocol()
+
+#define BEGIN_OPCODE(id, name, prot, source)	BYTE COpCode_##name::GetProtocol() const { return OP_PROT_##prot;
+#define END_OPCODE						}
+#define PARAM_BYTE_JUNK(value)
+#define PARAM_BUF(name, type, count)
+#define PARAM_DATABLOCK(name)
+#define PARAM_SIMPLE(name, type)
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+#define PARAM_TAGS_BEGIN
+#define PARAM_TAGS_END
+#define PARAM_TAG_STR(name, id)
+#define PARAM_TAG_DWORD(name, id)
+//#define PARAM_TEXT_TRAILING(name)
+#define PARAM_ARRAY(name, type, counter)
+#define PARAM_BITARRAY(name)
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name)
+#define PARAM_COMPLEXARRAY_END(name)
+
+#include "EmMsgs.h"
+#include "EmUndef.h"
+
+//////////////////////////////////////////////////////////////////////
+// Z_Dump
+
+#define BEGIN_OPCODE(id, name, prot, source)	void COpCode_##name::Z_Dump(CStream& stStream, bool bSupportNewTags) const {
+#define END_OPCODE						}
+#define PARAM_BYTE_JUNK(value)			stStream << (BYTE) value;
+#define PARAM_BUF(name, type, count)	stStream.Write(_##name, count * sizeof(type));
+#define PARAM_DATABLOCK(name)			stStream << _Start##name; stStream << _End##name; stStream.Write(_##name, (_End##name - _Start##name));
+#define PARAM_SIMPLE(name, type)		stStream << _##name;
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+#define PARAM_TAGS_BEGIN				CTagEntry pTagsInfo[] = { 
+#define PARAM_TAGS_END					}; stStream.DumpTags(bSupportNewTags, pTagsInfo, _countof(pTagsInfo));
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, id, 1, TAGTYPE_STRING,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, id, 1, TAGTYPE_UINT32,
+//#define PARAM_TEXT_TRAILING(name)		stStream.DumpString(_##name);
+#define PARAM_ARRAY(name, type, counter) stStream.DumpArr(_##name, sizeof(counter), bSupportNewTags);
+#define PARAM_BITARRAY(name)			stStream.DumpBitArray(_##name);
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name) stStream.DumpArr(_##name, sizeof(DWORD), bSupportNewTags); } template <> void StreamDumpElement(CStream& stStream, const COpCode_##msg::CStruct_##name& stElement, bool bSupportNewTags) { stElement.Z_Dump(stStream, bSupportNewTags); } void COpCode_##msg::CStruct_##name::Z_Dump(CStream& stStream, bool bSupportNewTags) const {
+#define PARAM_COMPLEXARRAY_END(name)
+
+#include "EmMsgs.h"
+#include "EmUndef.h"
+
+//////////////////////////////////////////////////////////////////////
+// Z_Init
+
+#define BEGIN_OPCODE(id, name, prot, source)	void COpCode_##name::Z_Init(CStream& stStream) {
+#define END_OPCODE						}
+#define PARAM_BYTE_JUNK(value)			BYTE nJunk; stStream >> nJunk; if (value != nJunk) stStream.Exception();
+#define PARAM_BUF(name, type, count)	stStream.Read(_##name, count * sizeof(type));
+#define PARAM_DATABLOCK(name)			stStream >> _Start##name; stStream >> _End##name; stStream.Read(_##name, (_End##name - _Start##name));
+#define PARAM_SIMPLE(name, type)		stStream >> _##name;
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+#define PARAM_TAGS_BEGIN				CTagEntry pTagsInfo[] = { 
+#define PARAM_TAGS_END					}; stStream.InitTags(pTagsInfo, _countof(pTagsInfo));
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, id, 1, TAGTYPE_STRING,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, id, 1, TAGTYPE_UINT32,
+//#define PARAM_TEXT_TRAILING(name)		stStream.InitTrailingString(_##name);
+#define PARAM_ARRAY(name, type, counter) stStream.InitArr(_##name, sizeof(counter));
+#define PARAM_BITARRAY(name)			stStream.InitArr(_##name, sizeof(USHORT));
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name) stStream.InitArr(_##name, sizeof(DWORD)); } template <> void StreamInitElement(CStream& stStream, COpCode_##msg::CStruct_##name& stElement) { stElement.Z_Init(stStream); } void COpCode_##msg::CStruct_##name::Z_Init(CStream& stStream) {
+#define PARAM_COMPLEXARRAY_END(name)
+
+#include "EmMsgs.h"
+#include "EmUndef.h"
+
+//////////////////////////////////////////////////////////////////////
+// Z_DbgDump
+
+#ifndef OPCODE_SKIP_DBGDUMP
+
+#define BEGIN_OPCODE(id, name, prot, source)	void COpCode_##name::Z_DbgDump(CDbgDump& stDump) const { stDump.m_strTxt.Format("%s (%u)  Ptr=%08X  Protocol=%u  Size=%u\n", #name, id, this, OP_PROT_##prot, GetSize(OP_TRANSPORT_UDP));
+#define END_OPCODE						}
+#define PARAM_BYTE_JUNK(value)
+#define PARAM_BUF(name, type, count)	stDump.WriteParam(#name, _##name, count, sizeof(type));
+#define PARAM_DATABLOCK(name)
+#define PARAM_SIMPLE(name, type)		stDump.WriteParam(#name, _##name);
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+#define PARAM_TAGS_BEGIN
+#define PARAM_TAGS_END
+#define PARAM_TAG_STR(name, id)			stDump.WriteParam(#name, _##name);
+#define PARAM_TAG_DWORD(name, id)		stDump.WriteParam(#name, _##name);
+//#define PARAM_TEXT_TRAILING(name)		stDump.WriteParam(#name, _##name);
+#define PARAM_ARRAY(name, type, counter) stDump.WriteParam(#name, _##name);
+#define PARAM_BITARRAY(name)			stDump.WriteParam(#name, _##name);
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name) stDump.WriteParam(#name, _##name); } void COpCode_##msg::CStruct_##name::Z_DbgDump(CDbgDump& stDump) const {
+#define PARAM_COMPLEXARRAY_END(name)
+//#define PARAM_COMPLEXARRAY_BEGIN(msg, name) stStream.InitArr(_##name, sizeof(DWORD)); } template <> void StreamInitElement(CStream& stStream, COpCode_##msg::CStruct_##name& stElement) { stElement.Z_Init(stStream); } void COpCode_##msg::CStruct_##name::Z_Init(CStream& stStream) {
+//#define PARAM_COMPLEXARRAY_END(name)
+
+#include "EmMsgs.h"
+#include "EmUndef.h"
+
+#endif // OPCODE_SKIP_DBGDUMP
+
+#pragma pack()
+@
+
+
+1.24
+log
+@v2 - increased level of abstraction + minor improvements
+@
+text
+@d114 1
+a114 1
+void CStream::DumpTags(CTagEntry* pTags, DWORD dwCount)
+d128 1
+a128 1
+			*this << pTags->m_nType;
+d136 1
+a136 1
+			
+d141 31
+a171 1
+				*this << ((CTag_DWORD*) pTags->m_pTag)->m_dwValue;
+d175 26
+a200 1
+				*this << ((CTag_String*) pTags->m_pTag)->m_strValue;
+d210 1
+a210 1
+template <class T> void StreamDumpElement(CStream& stStream, const T& stElement)
+d242 1
+a242 1
+void CStream::DumpArr(const vector<T>& arrValue, int nCounterLen)
+d251 1
+a251 1
+		StreamDumpElement(*this, arrValue[nItem]);
+d541 1
+a541 1
+bool COpCode::Write(CStream& stStream, BYTE nTransport) const
+d555 1
+a555 1
+				Z_Dump(stMeasure);
+d569 1
+a569 1
+		Z_Dump(stStream);
+d655 1
+a655 1
+DWORD COpCode::GetSize(BYTE nTransport) const
+d658 1
+a658 1
+	return Write(stStream, nTransport) ? stStream.m_dwSize : 0;
+d673 1
+a673 1
+			m_bJustReceived = FALSE;
+d861 1
+a861 1
+#define BEGIN_OPCODE(id, name, prot, source)	void COpCode_##name::Z_Dump(CStream& stStream) const {
+d869 1
+a869 1
+#define PARAM_TAGS_END					}; stStream.DumpTags(pTagsInfo, _countof(pTagsInfo));
+d873 1
+a873 1
+#define PARAM_ARRAY(name, type, counter) stStream.DumpArr(_##name, sizeof(counter));
+d875 1
+a875 1
+#define PARAM_COMPLEXARRAY_BEGIN(msg, name) stStream.DumpArr(_##name, sizeof(DWORD)); } template <> void StreamDumpElement(CStream& stStream, const COpCode_##msg::CStruct_##name& stElement) { stElement.Z_Dump(stStream); } void COpCode_##msg::CStruct_##name::Z_Dump(CStream& stStream) const {
+@
+
+
+1.23
+log
+@v2 - minor improvements
+@
+text
+@d11 1
+d620 2
+a621 1
+			g_stEngine.m_pLoggerProcessor->Post(*this, pClient->GetType(), pClient->m_nClientID, FALSE);
+@
+
+
+1.22
+log
+@v2 - enhancing logging subsystem
+@
+text
+@d623 1
+a623 1
+	AddLog(LOG_DEBUG, _T("\nProcessing opcode %s (%x), (socket=%u)\n"), TaskName(), GetID(), pClient ? pClient->m_hSocket : 0);
+@
+
+
+1.21
+log
+@v2 - minor rearrangements, started defining client and clientlist
+@
+text
+@d623 1
+a623 1
+	TRACE(_T("\nProcessing opcode %s (%x), (socket=%u)\n"), TaskName(), GetID(), pClient ? pClient->m_hSocket : 0);
+d697 1
+a697 1
+	TRACE("%s", stDump.m_strTxt);
+@
+
+
+1.20
+log
+@v2 - upload already works, of course it has very poor implementation, without queues yet, but it works! Also webserver improvements - now you can enter commands through webinterface
+@
+text
+@d5 2
+d118 1
+a118 1
+		if (pTags[dwIndex].m_pTag->m_bValid)
+d125 1
+a125 1
+		if (pTags->m_pTag->m_bValid)
+d650 1
+a650 1
+void COpCode::CDbgDump::WriteParam(LPCTSTR szName, const ADDRPORT& stValue)
+@
+
+
+1.19
+log
+@v2 - opcodes handling improvement, webserver enhancement
+@
+text
+@d162 21
+d196 1
+d544 1
+d553 1
+d609 1
+a609 1
+		pClient = g_stEngine.m_pSocketsProcessor->Lookup(m_hSocket);
+d626 4
+a629 1
+	return ProcessForClient(pClient);
+d713 1
+d722 1
+d737 1
+d746 1
+d760 1
+d769 1
+d783 1
+d792 1
+d806 1
+d815 1
+d829 1
+d838 1
+d854 1
+d863 1
+@
+
+
+1.18
+log
+@v2 - minor improvements
+@
+text
+@d523 1
+d534 1
+a534 14
+
+		#undef BEGIN_OPCODE
+		#undef END_OPCODE
+		#undef PARAM_BYTE_JUNK
+		#undef PARAM_BUF
+		#undef PARAM_SIMPLE
+		#undef PARAM_TAGS_BEGIN
+		#undef PARAM_TAGS_END
+		#undef PARAM_TAG_STR
+		#undef PARAM_TAG_DWORD
+		//#undef PARAM_TEXT_TRAILING
+		#undef PARAM_ARRAY
+		#undef PARAM_COMPLEXARRAY_BEGIN
+		#undef PARAM_COMPLEXARRAY_END
+a681 1
+#undef PARAM_SIMPLE_ORD
+d698 1
+a698 16
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+//#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_SIMPLE_ORD
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+#define PARAM_SIMPLE_ORD PARAM_SIMPLE
+d709 1
+d720 1
+a720 14
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+//#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+d730 1
+d741 1
+a741 14
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+//#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+d751 1
+d762 1
+a762 14
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+//#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+d772 1
+d775 2
+a776 2
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, 1, id, TAGTYPE_STRING,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, 1, id, TAGTYPE_UINT32,
+d783 1
+a783 14
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+//#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+d793 1
+d796 2
+a797 2
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, 1, id, TAGTYPE_STRING,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, 1, id, TAGTYPE_UINT32,
+d804 1
+a804 14
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+//#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+d816 1
+d829 1
+a829 14
+
+#undef BEGIN_OPCODE
+#undef END_OPCODE
+#undef PARAM_BYTE_JUNK
+#undef PARAM_BUF
+#undef PARAM_SIMPLE
+#undef PARAM_TAGS_BEGIN
+#undef PARAM_TAGS_END
+#undef PARAM_TAG_STR
+#undef PARAM_TAG_DWORD
+//#undef PARAM_TEXT_TRAILING
+#undef PARAM_ARRAY
+#undef PARAM_COMPLEXARRAY_BEGIN
+#undef PARAM_COMPLEXARRAY_END
+@
+
+
+1.17
+log
+@v2 - packed protocol fixed
+@
+text
+@d838 2
+a839 2
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, TAGTYPE_STRING, 1, id,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, TAGTYPE_UINT32, 1, id,
+d871 2
+a872 2
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, TAGTYPE_STRING, 1, id,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, TAGTYPE_UINT32, 1, id,
+@
+
+
+1.16
+log
+@v2 - updated protocol, need to fix packed protocol
+@
+text
+@d420 10
+a429 2
+	if (!m_stStream.zalloc && (Z_OK != inflateInit(&m_stStream)))
+		Exception();
+d431 2
+a432 2
+	m_stStream.next_out = (PBYTE) pBuf;
+	m_stStream.avail_out = dwSize;
+d434 6
+a439 2
+	do {
+		if (!m_stStream.avail_in)
+d441 3
+a443 3
+			m_stStream.next_in = m_pBuf;
+			if (!(m_stStream.avail_in = m_stSrc.ReadData(m_pBuf, sizeof(m_pBuf))))
+				break; // no more input data.
+d445 2
+a446 7
+
+		if (Z_OK != inflate(&m_stStream, Z_SYNC_FLUSH))
+			Exception();
+
+	} while(m_stStream.avail_out);
+
+	return dwSize - m_stStream.avail_out;
+d451 2
+a452 2
+	if (m_stStream.zalloc)
+		VERIFY(Z_OK == inflateEnd(&m_stStream));
+d504 1
+a504 1
+	if (OP_PROT_PACKED == (nProtocol & 0xFF))
+d560 1
+a560 1
+			switch (nProtocol & 0xFF)
+@
+
+
+1.15
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@d493 1
+a493 1
+COpCode *COpCode::CreateRaw(BYTE nID, BYTE nProtocol, T_CLIENT_TYPE eType)
+d497 1
+a497 1
+	if (OP_PROT_PACKED == nProtocol)
+d500 1
+a500 1
+	switch ((eType << 16) | (nProtocol << 8) | nID)
+d502 9
+a511 2
+
+#define BEGIN_OPCODE(id, name, prot, source)	case (T_CLIENT_##source << 16) | (OP_PROT_##prot << 8) | id: return new COpCode_##name;
+d541 1
+d545 1
+a545 1
+COpCode *COpCode::Read(CStream &stStream, BYTE nID, BYTE nProtocol, T_CLIENT_TYPE eType)
+d547 1
+a547 1
+	COpCode		*pNewOpCode = CreateRaw(nID, nProtocol, eType);
+d553 1
+a553 1
+			switch (nProtocol)
+d602 1
+a602 1
+	TRACE2(_T("\nProcessing opcode=%s (%x), (socket=%u)\n"), TaskName(), GetID(), pClient ? pClient->m_hSocket : 0);
+@
+
+
+1.14
+log
+@v2 - more shared files, other minor changes
+@
+text
+@d10 2
+d594 1
+a594 1
+	TRACE2(_T("\nProcessing opcode=%x, (socket=%u)\n"), GetID(), pClient ? pClient->m_hSocket : 0);
+d917 2
+@
+
+
+1.13
+log
+@v2 - connecting to server, updated protocol, bugfixes
+@
+text
+@d593 1
+a593 1
+#ifdef _DEBUG
+d595 1
+a595 1
+#endif //_DEBUG
+@
+
+
+1.12
+log
+@Xml and database functionality
+@
+text
+@d6 1
+d135 1
+a135 1
+			case OP_TAG_DWORD:
+d139 1
+a139 1
+			case OP_TAG_STRING:
+d199 7
+a205 1
+		*this >> nLen;
+d226 2
+a227 2
+		if (pTarget && (pTarget->m_nType != nType))
+			Exception(); // type mismatch
+d231 56
+a286 8
+		case OP_TAG_DWORD:
+			if (pTarget)
+				*this >> ((CTag_DWORD*) pTarget->m_pTag)->m_dwValue;
+			else
+			{
+				DWORD dwVal;
+				*this >> dwVal;
+			}
+d288 3
+a290 1
+		case OP_TAG_STRING:
+d299 1
+d301 13
+d592 1
+a592 1
+	TRACE2(_T("\nProcessing opcode=%x, (socket=%u)"), GetID(), pClient ? pClient->m_hSocket : 0);
+d637 1
+a637 1
+	strDelta.Format(_T("\r\n%s = [%c] %u"), stValue.m_bValid ? _T('+') : _T('-'), stValue.m_dwValue);
+d643 1
+a643 1
+	strDelta.Format(_T("\r\n%s = [%c] %s"), stValue.m_bValid ? _T('+') : _T('-'), stValue.m_strValue);
+d821 2
+a822 2
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, OP_TAG_STRING, 1, id,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, OP_TAG_DWORD, 1, id,
+d854 2
+a855 2
+#define PARAM_TAG_STR(name, id)			(CTag_Pure*) &_##name, OP_TAG_STRING, 1, id,
+#define PARAM_TAG_DWORD(name, id)		(CTag_Pure*) &_##name, OP_TAG_DWORD, 1, id,
+@
+
+
+1.11
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@d6 1
+a6 1
+
+a7 1
+#include "../EmEngine.h"
+d507 1
+a507 1
+	if (g_stEngine.m_stSocketsTP.IsInContext(*this))
+d509 1
+a509 1
+		pClient = g_stEngine.m_stSocketsTP.Lookup(m_hSocket);
+d517 1
+a517 1
+			g_stEngine.m_stLoggerTP.Post(*this, pClient->GetType(), pClient->m_nClientID, FALSE);
+@
+
+
+1.10
+log
+@There can be only one engine :-)
+@
+text
+@d518 1
+a518 1
+			g_stEngine.m_stLogger.Post(*this, pClient->GetType(), pClient->m_nClientID, FALSE);
+@
+
+
+1.9
+log
+@v2 - compressed opcodes
+@
+text
+@d505 1
+a505 1
+bool COpCode::Process(CEmEngine& stEngine)
+d508 1
+a508 1
+	if (stEngine.m_stSocketsTP.IsInContext(*this))
+d510 1
+a510 1
+		pClient = stEngine.m_stSocketsTP.Lookup(m_hSocket);
+d518 1
+a518 1
+			stEngine.m_stLogger.Post(*this, pClient->GetType(), pClient->m_nClientID, FALSE);
+d527 1
+a527 1
+	return ProcessForClient(stEngine, pClient);
+@
+
+
+1.8
+log
+@New engine - logging
+@
+text
+@d62 8
+a69 8
+void CStream::InitTrailingString(CString& strTxt) {
+	DWORD dwSize = SizeLeft();
+	if (m_bUnicode)
+		dwSize >>= 1; // /= 2
+	if (dwSize > 0xFFFF)
+		Exception();
+	InitString(strTxt, (USHORT) SizeLeft());
+}
+d259 1
+a259 1
+void CStream::Read(PVOID, DWORD)
+d261 1
+a261 1
+	Exception(); // not implemented
+d265 1
+a265 1
+DWORD CStream::SizeLeft()
+a266 2
+	Exception(); // not implemented
+	return 0;
+d305 1
+a305 1
+void CStream_Mem::Read(PVOID pBuf, DWORD dwSize)
+d308 6
+a313 1
+		Exception();
+d316 1
+a316 1
+	m_dwSize -= dwSize;
+d340 37
+d423 5
+d441 1
+a441 1
+		#define PARAM_TEXT_TRAILING(name)
+d457 1
+a457 1
+		#undef PARAM_TEXT_TRAILING
+d473 14
+a486 2
+			stStream.m_bUnicode = (OP_PROT_UNICODE == nProtocol);
+			pNewOpCode->Z_Init(stStream);
+d618 1
+a618 1
+#define PARAM_TEXT_TRAILING(name)
+d634 1
+a634 1
+#undef PARAM_TEXT_TRAILING
+d654 1
+a654 1
+#define PARAM_TEXT_TRAILING(name)
+d670 1
+a670 1
+#undef PARAM_TEXT_TRAILING
+d687 1
+a687 1
+#define PARAM_TEXT_TRAILING(name)
+d703 1
+a703 1
+#undef PARAM_TEXT_TRAILING
+d720 1
+a720 1
+#define PARAM_TEXT_TRAILING(name)
+d736 1
+a736 1
+#undef PARAM_TEXT_TRAILING
+d753 1
+a753 1
+#define PARAM_TEXT_TRAILING(name)		stStream.DumpString(_##name);
+d769 1
+a769 1
+#undef PARAM_TEXT_TRAILING
+d786 1
+a786 1
+#define PARAM_TEXT_TRAILING(name)		stStream.InitTrailingString(_##name);
+d802 1
+a802 1
+#undef PARAM_TEXT_TRAILING
+d821 1
+a821 1
+#define PARAM_TEXT_TRAILING(name)		stDump.WriteParam(#name, _##name);
+d839 1
+a839 1
+#undef PARAM_TEXT_TRAILING
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+@
+text
+@d346 1
+a346 1
+		BYTE nProtocol = Z_Protocol();
+a395 1
+		#define PARAM_NTAG_DWORD(name, id)
+a411 1
+		#undef PARAM_NTAG_DWORD
+a560 1
+#define PARAM_NTAG_DWORD(name, id)
+a576 1
+#undef PARAM_NTAG_DWORD
+a596 1
+#define PARAM_NTAG_DWORD(name, id)
+a612 1
+#undef PARAM_NTAG_DWORD
+a629 1
+#define PARAM_NTAG_DWORD(name, id)
+a645 1
+#undef PARAM_NTAG_DWORD
+d652 1
+a652 1
+// Z_Protocol()
+d654 1
+a654 1
+#define BEGIN_OPCODE(id, name, prot, source)	BYTE COpCode_##name::Z_Protocol() const { return OP_PROT_##prot;
+a662 1
+#define PARAM_NTAG_DWORD(name, id)
+a678 1
+#undef PARAM_NTAG_DWORD
+a695 1
+#define PARAM_NTAG_DWORD(name, id)		(CTag_Pure*) &_##name, OP_TAG_DWORD, sizeof(id) - 1, (DWORD) id,
+a711 1
+#undef PARAM_NTAG_DWORD
+a728 1
+#define PARAM_NTAG_DWORD(name, id)		(CTag_Pure*) &_##name, OP_TAG_DWORD, sizeof(id) - 1, (DWORD) id,
+a744 1
+#undef PARAM_NTAG_DWORD
+a763 1
+#define PARAM_NTAG_DWORD(name, id)		stDump.WriteParam(#name, _##name);
+a781 1
+#undef PARAM_NTAG_DWORD
+@
+
+
+1.6
+log
+@Formatting, comments, and name changes, the usual.
+@
+text
+@d381 1
+a381 1
+COpCode* COpCode::CreateRaw(BYTE nID, BYTE nProtocol, T_CLIENT_TYPE eType)
+d421 4
+d426 2
+a427 5
+//////////////////////////////////////////////////////////////////////
+COpCode* COpCode::Read(CStream& stStream, BYTE nID, BYTE nProtocol, T_CLIENT_TYPE eType)
+{
+	COpCode* pRet = CreateRaw(nID, nProtocol, eType);
+	if (pRet)
+d431 1
+a431 1
+			pRet->Z_Init(stStream);
+d435 2
+a436 2
+			delete pRet;
+			pRet = NULL;
+d438 1
+d440 1
+a440 1
+	return pRet;
+d442 1
+a442 2
+
+//////////////////////////////////////////////////////////////////////
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d494 4
+a497 4
+		((in_addr&)stValue._Addr).S_un.S_un_b.s_b1,
+		((in_addr&)stValue._Addr).S_un.S_un_b.s_b2,
+		((in_addr&)stValue._Addr).S_un.S_un_b.s_b3,
+		((in_addr&)stValue._Addr).S_un.S_un_b.s_b4,
+@
+
+
+1.4
+log
+@New engine - cosmetic changes
+@
+text
+@d68 1
+a68 1
+	InitString(strTxt, SizeLeft());
+d457 7
+@
+
+
+1.3
+log
+@New engine - cosmetic changes
+@
+text
+@d56 1
+a56 1
+	ushort nLen;
+d72 1
+a72 1
+void CStream::InitString(CString& strTxt, ushort nLen)
+@
+
+
+1.2
+log
+@New engine - name changes
+@
+text
+@d6 1
+a6 1
+#ifdef NEW_SOCKETS
+a795 2
+
+#endif
+@
+
+
+1.1
+log
+@New engine
+@
+text
+@d452 1
+a452 1
+	if (stEngine.m_stMain.IsInContext(*this))
+d454 1
+a454 1
+		pClient = stEngine.m_stMain.Lookup(m_hSocket);
+@
+

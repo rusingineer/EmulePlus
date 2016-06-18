@@ -1,0 +1,649 @@
+head	1.16;
+access;
+symbols
+	PublicRelease_1_2e:1.16
+	Interim_Release_1-2e_RC1:1.16
+	PublicRelease_1_2d:1.16
+	Interim_Release_1-2d_RC1:1.16
+	Interim_Release_1-2d_beta1:1.16
+	PublicRelease_1_2c:1.16
+	Interim_Release_1-2c_RC1:1.16
+	Interim_Release_1-2c_beta1:1.16
+	PublicRelease_1_2b:1.16
+	Interim_Release_1-2b_RC1:1.16
+	PublicRelease_1_2a:1.16
+	Interim_Release_1-2a_RC1:1.16
+	Interim_Release_1-2a_beta2:1.16
+	Interim_Release_1-2a_beta1:1.16
+	PublicRelease_1_2:1.16
+	Interim_Release_1-2_RC1:1.15
+	Interim_Release_1-2_beta1:1.15
+	PublicRelease_1_1g:1.13
+	Interim_Release_1-1g_RC3:1.13
+	Interim_Release_1-1g_RC2:1.13
+	Interim_Release_1-1g_RC1:1.13
+	Interim_Release_1-1g_beta2:1.13
+	Interim_Release_1-1g_beta1:1.13
+	PublicRelease_1_1f:1.13
+	Interim_Release_1-1f_RC1:1.13
+	PublicRelease_1_1e:1.13
+	Interim_Release_1-1e_RC2:1.13
+	Interim_Release_1-1e_RC1:1.13
+	Interim_Release_1-1e_beta1:1.13
+	PublicRelease_1_1d:1.13
+	Interim_Release_1-1d_RC1:1.13
+	PublicRelease_1_1c:1.13
+	Interim_Release_1-1c_RC1:1.13
+	Interim_Release_1-1c_beta2:1.13
+	Interim_Release_1-1c_beta1:1.13
+	PublicRelease_1_1b:1.13
+	Interim_Release_1-1b_RC1:1.13
+	PublicRelease_1_1a:1.13
+	Interim_Release_1-1a_RC2:1.13
+	Interim_Release_1-1a_RC1:1.13
+	Interim_Release_1-1a_beta2:1.13
+	Interim_Release_1-1a_beta1:1.13
+	PublicRelease_1_1:1.13
+	Interim_Release_1-1_beta1:1.13
+	PublicRelease_1o:1.13
+	Interim_Release_1o_RC1:1.13
+	Interim_Release_1o_beta1:1.13
+	PublicRelease_1n:1.13
+	Interim_Release_1n_RC2:1.13
+	Interim_Release_1n_RC1:1.12
+	Interim_Release_1n_beta2:1.12
+	Interim_Release_1n_beta1:1.12
+	PublicRelease_1m:1.12
+	Interim_Release_1m_beta1:1.12
+	PublicRelease_1l:1.12
+	Interim_Release_1l_RC3:1.12
+	Interim_Release_1l_RC2:1.11
+	Interim_Release_1l_RC1:1.10
+	Interim_Release_1l_beta2:1.10
+	Interim_Release_1l_beta1:1.10
+	PublicRelease_1k:1.10
+	Interim_Release_1k_RC4:1.10
+	Interim_1k_RC3:1.10
+	Interim_1k_RC2:1.10
+	Interim_Release_1k_RC1:1.10
+	Interim_Release_1k_beta5:1.10
+	Intrerim_Release_1k_beta4:1.10
+	Interim_Release_1k_beta1:1.10
+	PublicRelease_1j:1.8
+	Interim_Release_1J_RC3:1.8
+	Interim_Release_1j_RC3:1.8
+	Interim_Release_1j_RC2:1.7
+	Interim_Release_1j_RC1:1.7
+	Interim_Release_1j_beta2:1.7
+	Interim_Release_1j_beta1:1.7
+	PublicRelease_1i:1.7
+	Interim_Release_1i_RC6:1.7
+	Interim_Release_1i_RC3:1.7
+	Interim_Release_1i_RC2:1.7
+	Interim_Release_1i_RC1:1.6
+	Interim_Release_1i_beta3:1.5
+	Interim_Release_1i_beta2:1.5
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3;
+locks; strict;
+comment	@ * @;
+
+
+1.16
+date	2006.02.26.22.12.54;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2006.01.19.04.52.11;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2006.01.15.18.20.01;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.09.07.19.45.03;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.06.08.20.14.24;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.06.02.18.27.35;	author kush_eplus;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.02.13.16.13.35;	author netwolf1;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.22.20.46.52;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.11.04.22.24.44;	author puritynn666;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.31.18.27.54;	author puritynn666;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.06.19.19.12;	author puritynn666;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.24.15.55.18;	author bond006;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.17.13.15.04;	author puritynn666;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.10.16.42.02;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.07.30.12.29.32;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@Fixed not working MobileMule -- oh, shit we hit compiler bug in WriteString() {Fuxie - DK};
+Dynamic memory file object is substituted with static one.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2003 Merkur ( devs@@emule-project.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#pragma once
+#include "SafeFile.h"
+
+class CMMServer;
+
+//****** Outgoing Packets Class
+class CMMPacket
+{
+public:
+	CMMPacket(byte byOpcode)	{m_memFile.Write(&byOpcode,1); m_bSpecialHeader = false;}
+	~CMMPacket()				{}
+	void	WriteByte(byte write)		{m_memFile.Write(&write, 1);}
+	void	WriteShort(uint16 write)	{m_memFile.Write(&write, 2);}
+	void	WriteInt(uint32 write)		{m_memFile.Write(&write, 4);}
+	void	WriteInt64(uint64 write)	{m_memFile.Write(&write, 8);}
+	void	WriteMem(byte *pbyteBuff, uint32 dwBytes)	{m_memFile.Write(pbyteBuff, dwBytes);}
+	void	WriteString(const CStringA &write){
+		unsigned	uiLen = (write.GetLength() > 255) ? 255 : write.GetLength();
+		WriteByte(static_cast<byte>(uiLen));
+		m_memFile.Write(write.GetString(), uiLen);
+	}
+#ifdef _UNICODE
+	void	WriteString(const CString &write){
+		CStringA strA(write);
+		WriteString(strA);
+	}
+#endif
+	CMemFile	m_memFile;
+	bool		m_bSpecialHeader;
+};
+
+//****** Incoming Packets Class
+class CMMData: public CSafeMemFile
+{
+public:
+	CMMData(char* pData,uint32 nSize):CSafeMemFile((BYTE*)pData,nSize)	{}
+
+	byte	ReadByte(){
+		byte buf;
+		Read(&buf,1);
+		return buf;
+	}
+	uint16	ReadShort(){
+		uint16 buf;
+		Read(&buf,2);
+		return buf;
+	}
+	uint32	ReadInt(){
+		uint32 buf;
+		Read(&buf,4);
+		return buf;
+	}
+	uint64	ReadInt64(){
+		uint64 buf;
+		Read(&buf,8);
+		return buf;
+	}
+	CString ReadString(){
+		byte buf;
+		char str[256];
+		buf = ReadByte();
+		Read(str,buf);
+		return CString(str,buf);
+	}
+};
+
+#ifdef OLD_SOCKETS_ENABLED
+
+//****** Socket
+class CMMSocket: public CAsyncSocket
+{
+public:
+	CMMSocket(CMMServer* pOwner);
+	~CMMSocket(void);
+	bool	SendPacket(CMMPacket* packet, bool bQueueFirst = false);
+	bool	m_bClosed;
+	uint32	m_dwTimedShutdown;
+protected:
+	void	OnReceive(int nErrorCode);
+	void	OnClose(int nErrorCode);
+	void	Close();
+	void	OnRequestReceived(char* pHeader, DWORD dwHeaderLen, char* pData, DWORD dwDataLen);
+	void	OnSend(int nErrorCode);
+	void	CheckForClosing();
+private:
+	char* m_pBuf;
+	DWORD m_dwRecv;
+	DWORD m_dwBufSize;
+	DWORD m_dwHttpHeaderLen;
+	DWORD m_dwHttpContentLen;
+	CMMServer* m_pOwner;
+	char*	  m_pSendBuffer;
+	uint32	  m_nSendLen;
+	uint32	  m_nSent;
+
+	CTypedPtrList<CPtrList, CMMPacket*> m_PacketQueue;
+};
+
+//****** Listening Socket
+class CListenMMSocket: public CAsyncSocket
+{
+public:
+	CListenMMSocket(CMMServer* pOwner);
+	~CListenMMSocket(void);
+	bool	Create();
+	void	Process();
+	virtual void OnAccept(int nErrorCode);
+protected:
+	void	DeleteClosedSockets();
+private:
+	CMMServer* m_pOwner;
+	CTypedPtrList<CPtrList, CMMSocket*> m_socket_list;
+};
+
+
+#endif //OLD_SOCKETS_ENABLED
+
+
+//opcodes
+#define MMP_HELLO			0x01
+#define MMP_HELLOANS		0x02
+#define MMP_INVALIDID		0x03
+#define MMP_GENERALERROR	0x04
+#define MMP_STATUSREQ		0x05
+#define MMP_STATUSANSWER	0x06
+#define MMP_FILELISTREQ		0x07
+#define MMP_FILELISTANS		0x08
+#define MMP_FILECOMMANDREQ	0x09
+#define MMP_FILECOMMANDANS	0x10
+#define MMP_FILEDETAILREQ	0x11
+#define MMP_FILEDETAILANS	0x12
+#define MMP_COMMANDREQ		0x13
+#define MMP_COMMANDANS		0x14
+#define MMP_SEARCHREQ		0x15
+#define MMP_SEARCHANS		0x16
+#define MMP_DOWNLOADREQ		0x17
+#define MMP_DOWNLOADANS		0x18
+#define MMP_PREVIEWREQ		0x19
+#define MMP_PREVIEWANS		0x20
+#define MMP_FINISHEDREQ		0x21
+#define MMP_FINISHEDANS		0x22
+#define MMP_CHANGELIMIT		0x23
+#define MMP_CHANGELIMITANS	0x24
+#define MMP_STATISTICSREQ	0x25
+#define MMP_STATISTICSANS	0x26
+
+// tags
+#define MMT_OK				0x01
+#define MMT_WRONGVERSION	0x02
+#define MMT_WRONGPASSWORD	0x03
+#define MMT_FAILED			0x00
+#define MMT_PAUSED			0x00
+#define MMT_WAITING			0x01
+#define MMT_DOWNLOADING		0x02
+
+#define MMT_PAUSE			0x03
+#define MMT_RESUME			0x02
+#define MMT_CANCEL			0x01
+
+#define MMT_SDEMULE			0x01
+#define MMT_SDPC			0x02
+#define MMT_SERVERCONNECT	0x03
+#define MMT_SEARCH			0x30
+#define MMT_PREVIEW			0x40
+
+// OK = 0x01
+#define MMT_NOTCONNECTED	0x02
+#define MMT_TIMEDOUT		0x03
+#define MMT_NORESULTS		0x04
+
+// failed = 0x00
+// OK = 0x01
+#define MMT_NOTAVAILABLE	0x02
+#define MMT_NOTSUPPORTED	0x03
+
+#define MMT_PARTFILFE		0x01
+#define MMT_FINISHEDFILE	0x02
+
+#define MM_VERSION			0x9B
+#define MM_STRVERSION		"0.9x"
+@
+
+
+1.15
+log
+@Protocol update to support 64-bit file size support (not finished yet).
+@
+text
+@d27 8
+a34 8
+	CMMPacket(byte byOpcode)	{m_pBuffer = new CMemFile; m_pBuffer->Write(&byOpcode,1); m_bSpecialHeader = false;}
+	~CMMPacket()				{delete m_pBuffer;}
+	void	WriteByte(byte write)		{m_pBuffer->Write(&write,1);}
+	void	WriteShort(uint16 write)	{m_pBuffer->Write(&write,2);}
+	void	WriteInt(uint32 write)		{m_pBuffer->Write(&write,4);}
+	void	WriteInt64(uint64 write)	{m_pBuffer->Write(&write,8);}
+	void	WriteMem(byte *pbyteBuff, uint32 dwBytes)	{m_pBuffer->Write(pbyteBuff, dwBytes);}
+	void	WriteString(CStringA write){
+d37 1
+a37 1
+		m_pBuffer->Write(write.GetString(), uiLen);
+d40 1
+a40 1
+	void	WriteString(CString write){
+d45 2
+a46 2
+	CMemFile* m_pBuffer;
+	bool	  m_bSpecialHeader;
+@
+
+
+1.14
+log
+@Unicode corrections; Removed base class CLoggable as unrequired; Formatting.
+@
+text
+@d32 1
+d35 3
+a37 3
+		byte len = (write.GetLength() > 255) ? 255 : write.GetLength();
+		WriteByte(len);
+		m_pBuffer->Write(write.GetBuffer(),len);
+d70 5
+d196 2
+a197 2
+#define MM_VERSION			0x09
+#define MM_STRVERSION		"0.9a"
+@
+
+
+1.13
+log
+@Updated MobileMule protocol up to v0.9a.
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2003 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+a18 1
+#include "types.h"
+a19 1
+#include "Loggable.h"
+d33 1
+a33 1
+	void	WriteString(CString write){
+d38 6
+d81 1
+a81 1
+class CMMSocket: public CAsyncSocket, public CLoggable
+d133 16
+a148 16
+#define	MMP_INVALIDID		0x03
+#define	MMP_GENERALERROR	0x04
+#define	MMP_STATUSREQ		0x05
+#define	MMP_STATUSANSWER	0x06
+#define	MMP_FILELISTREQ		0x07
+#define	MMP_FILELISTANS		0x08
+#define	MMP_FILECOMMANDREQ	0x09
+#define	MMP_FILECOMMANDANS	0x10
+#define	MMP_FILEDETAILREQ	0x11
+#define	MMP_FILEDETAILANS	0x12
+#define	MMP_COMMANDREQ		0x13
+#define	MMP_COMMANDANS		0x14
+#define	MMP_SEARCHREQ		0x15
+#define	MMP_SEARCHANS		0x16
+#define	MMP_DOWNLOADREQ		0x17
+#define	MMP_DOWNLOADANS		0x18
+d159 4
+a162 4
+#define	MMT_OK				0x01
+#define	MMT_WRONGVERSION	0x02
+#define	MMT_WRONGPASSWORD	0x03
+#define	MMT_FAILED			0x00
+d167 1
+a167 1
+#define	MMT_PAUSE			0x03
+@
+
+
+1.12
+log
+@Optimization of MobileMule status packet preparation.
+@
+text
+@d186 2
+a187 2
+#define MM_VERSION			0x08
+#define MM_STRVERSION		"0.8a"
+@
+
+
+1.11
+log
+@updated MobileMule up to 0.8a
+@
+text
+@d20 2
+a21 2
+#include "safefile.h"
+#include "loggable.h"
+d34 1
+@
+
+
+1.10
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d185 2
+a186 2
+#define MM_VERSION			0x7a
+#define MM_STRVERSION		"0.7a"@
+
+
+1.9
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d29 1
+a29 1
+	CMMPacket(uint8 byOpcode)	{m_pBuffer = new CMemFile; m_pBuffer->Write(&byOpcode,1); m_bSpecialHeader = false;}
+d31 1
+a31 1
+	void	WriteByte(uint8 write)		{m_pBuffer->Write(&write,1);}
+d35 1
+a35 1
+		uint8 len = (write.GetLength() > 255) ? 255 : write.GetLength();
+d49 2
+a50 2
+	uint8	ReadByte(){
+		uint8 buf;
+d65 1
+a65 1
+		uint8 buf;
+@
+
+
+1.8
+log
+@Update to MobileMule 0.7a
+@
+text
+@a0 1
+#ifdef MOBILE_MULE
+d186 1
+a186 2
+#define MM_STRVERSION		"0.7a"
+#endif //MOBILE_MULE@
+
+
+1.7
+log
+@MobileMule Update 0.6b (>0.30C) ;-)
+@
+text
+@d151 2
+d186 3
+a188 3
+#define MM_VERSION			0x6b
+#define MM_STRVERSION		"0.6b"
+#endif //MOBILE MULE@
+
+
+1.6
+log
+@mobileMule update -> 0.6a (>0.30c hey we are ahead of official mule ;-)
+@
+text
+@d184 3
+a186 4
+#define MM_VERSION			0x6a
+#define MM_STRVERSION		"0.6x"
+
+#endif //MOBILE_MULE@
+
+
+1.5
+log
+@mobileMule update -> 0.5a (0.30b)
+@
+text
+@d149 2
+d184 2
+a185 2
+#define MM_VERSION			0x5a
+#define MM_STRVERSION		"0.5x"
+d187 1
+a187 1
+#endif //OLD_SOCKETS_ENABLED@
+
+
+1.4
+log
+@built in compiler switch for mobileMule
+@
+text
+@d22 1
+d77 1
+a77 1
+class CMMSocket: public CAsyncSocket
+d167 1
+d182 2
+a183 2
+#define MM_VERSION			0x4a
+#define MM_STRVERSION		"0.4x"
+d185 1
+a185 1
+#endif //MOBILE_MULE
+@
+
+
+1.3
+log
+@latest mobile mule changes + some additional webserver stuff (see changelog)
+@
+text
+@d1 1
+d182 2
+@
+
+
+1.2
+log
+@Preparing for new sockets
+@
+text
+@d143 4
+d171 7
+a177 1
+#define MM_VERSION			0x3a
+d179 2
+@
+
+
+1.1
+log
+@Purity's changes
+@
+text
+@d72 2
+d121 1
+@
+

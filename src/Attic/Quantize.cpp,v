@@ -1,0 +1,337 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_1g:1.2
+	Interim_Release_1-1g_RC3:1.2
+	Interim_Release_1-1g_RC2:1.2
+	Interim_Release_1-1g_RC1:1.2
+	Interim_Release_1-1g_beta2:1.2
+	Interim_Release_1-1g_beta1:1.2
+	PublicRelease_1_1f:1.2
+	Interim_Release_1-1f_RC1:1.2
+	PublicRelease_1_1e:1.2
+	Interim_Release_1-1e_RC2:1.2
+	Interim_Release_1-1e_RC1:1.2
+	Interim_Release_1-1e_beta1:1.2
+	PublicRelease_1_1d:1.2
+	Interim_Release_1-1d_RC1:1.2
+	PublicRelease_1_1c:1.2
+	Interim_Release_1-1c_RC1:1.2
+	Interim_Release_1-1c_beta2:1.2
+	Interim_Release_1-1c_beta1:1.2
+	PublicRelease_1_1b:1.2
+	Interim_Release_1-1b_RC1:1.2
+	PublicRelease_1_1a:1.2
+	Interim_Release_1-1a_RC2:1.2
+	Interim_Release_1-1a_RC1:1.2
+	Interim_Release_1-1a_beta2:1.2
+	Interim_Release_1-1a_beta1:1.2
+	PublicRelease_1_1:1.2
+	Interim_Release_1-1_beta1:1.2
+	PublicRelease_1o:1.2
+	Interim_Release_1o_RC1:1.2
+	Interim_Release_1o_beta1:1.2
+	PublicRelease_1n:1.2
+	Interim_Release_1n_RC2:1.2
+	Interim_Release_1n_RC1:1.2
+	Interim_Release_1n_beta2:1.2
+	Interim_Release_1n_beta1:1.2
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.2
+	Interim_Release_1l_RC1:1.2
+	Interim_Release_1l_beta2:1.2
+	Interim_Release_1l_beta1:1.2
+	PublicRelease_1k:1.2
+	Interim_Release_1k_RC4:1.2
+	Interim_1k_RC3:1.2
+	Interim_1k_RC2:1.2
+	Interim_Release_1k_RC1:1.2
+	Interim_Release_1k_beta5:1.2
+	Intrerim_Release_1k_beta4:1.2
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.2
+	Interim_Release_1i_beta3:1.2
+	Interim_Release_1i_beta2:1.2
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2005.12.28.18.32.12;	author aw3;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.17.13.15.04;	author puritynn666;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Removed unused files.
+@
+text
+@#include "StdAfx.h"
+#include <windows.h>
+#include "Quantize.h"
+#include "otherfunctions.h"
+
+/////////////////////////////////////////////////////////////////////////////
+CQuantizer::CQuantizer (UINT nMaxColors, UINT nColorBits)
+{
+	m_nColorBits = nColorBits < 8 ? nColorBits : 8;
+
+	m_pTree	= NULL;
+	m_nLeafCount = 0;
+	for	(int i=0; i<=(int) m_nColorBits; i++)
+		m_pReducibleNodes[i] = NULL;
+	m_nMaxColors = nMaxColors;
+}
+/////////////////////////////////////////////////////////////////////////////
+CQuantizer::~CQuantizer	()
+{
+	if (m_pTree	!= NULL)
+		DeleteTree (&m_pTree);
+}
+/////////////////////////////////////////////////////////////////////////////
+BOOL CQuantizer::ProcessImage (HANDLE hImage)
+{
+	BYTE r,	g, b;
+	int	i, j;
+
+	BITMAPINFOHEADER ds;
+	memcpy2(&ds,hImage, sizeof(ds));
+	int effwdt = ((((ds.biBitCount * ds.biWidth ) + 31) / 32) * 4);
+
+	int	nPad = effwdt - (((ds.biWidth *	ds.biBitCount) + 7) / 8);
+
+	BYTE* pbBits = (BYTE*)hImage + *(LPDWORD)hImage;
+
+	switch (ds.biBitCount) {
+
+	case 1:	// 1-bit DIB
+	case 4:	// 4-bit DIB
+	case 8:	// 8-bit DIB
+		for	(i=0; i<ds.biHeight;	i++) {
+			for	(j=0; j<ds.biWidth; j++)	{
+				BYTE idx=GetPixelIndex(j,i,ds.biBitCount,effwdt,pbBits);
+				BYTE* pal = (BYTE*)(hImage) + sizeof(BITMAPINFOHEADER);
+				long ldx = idx*sizeof(RGBQUAD);
+				b = pal[ldx++];
+				g = pal[ldx++];
+				r = pal[ldx];
+				AddColor (&m_pTree,	r, g, b, m_nColorBits, 0, &m_nLeafCount,
+					m_pReducibleNodes);
+				while (m_nLeafCount	> m_nMaxColors)
+					ReduceTree (m_nColorBits, &m_nLeafCount,
+						m_pReducibleNodes);
+			}
+		}
+
+		break;
+	case 24: //	24-bit DIB
+		for	(i=0; i<ds.biHeight;	i++) {
+			for	(j=0; j<ds.biWidth; j++)	{
+				b =	*pbBits++;
+				g =	*pbBits++;
+				r =	*pbBits++;
+				AddColor (&m_pTree,	r, g, b, m_nColorBits, 0, &m_nLeafCount,
+					m_pReducibleNodes);
+				while (m_nLeafCount	> m_nMaxColors)
+					ReduceTree (m_nColorBits, &m_nLeafCount, m_pReducibleNodes);
+			}
+			pbBits += nPad;
+		}
+		break;
+
+	default: //	Unrecognized color format
+		return FALSE;
+	}
+	return TRUE;
+}
+/////////////////////////////////////////////////////////////////////////////
+void CQuantizer::AddColor (NODE** ppNode, BYTE r, BYTE g, BYTE b,
+	UINT nColorBits, UINT nLevel, UINT*	pLeafCount,	NODE** pReducibleNodes)
+{
+	static BYTE	mask[8]	= {	0x80, 0x40,	0x20, 0x10,	0x08, 0x04,	0x02, 0x01 };
+
+	// If the node doesn't exist, create it.
+	if (*ppNode	== NULL)
+		*ppNode	= (NODE*)CreateNode (nLevel, nColorBits, pLeafCount, pReducibleNodes);
+
+	// Update color	information	if it's	a leaf node.
+	if ((*ppNode)->bIsLeaf)	{
+		(*ppNode)->nPixelCount++;
+		(*ppNode)->nRedSum += r;
+		(*ppNode)->nGreenSum +=	g;
+		(*ppNode)->nBlueSum	+= b;
+	} else {	// Recurse a level deeper if the node is not a leaf.
+		int	shift =	7 -	nLevel;
+		int	nIndex =(((r & mask[nLevel]) >> shift) << 2) |
+					(((g & mask[nLevel]) >>	shift) << 1) |
+					(( b & mask[nLevel]) >> shift);
+		AddColor (&((*ppNode)->pChild[nIndex]),	r, g, b, nColorBits,
+					nLevel + 1,	pLeafCount,	pReducibleNodes);
+	}
+}
+/////////////////////////////////////////////////////////////////////////////
+void* CQuantizer::CreateNode (UINT nLevel, UINT	nColorBits,	UINT* pLeafCount,
+	NODE** pReducibleNodes)
+{
+	NODE* pNode = (NODE*)calloc(1,sizeof(NODE));
+
+	if (pNode== NULL) return NULL;
+
+	pNode->bIsLeaf = (nLevel ==	nColorBits)	? TRUE : FALSE;
+	if (pNode->bIsLeaf) (*pLeafCount)++;
+	else {
+		pNode->pNext = pReducibleNodes[nLevel];
+		pReducibleNodes[nLevel]	= pNode;
+	}
+	return pNode;
+}
+/////////////////////////////////////////////////////////////////////////////
+void CQuantizer::ReduceTree	(UINT nColorBits, UINT*	pLeafCount,
+	NODE** pReducibleNodes)
+{
+	// Find	the	deepest	level containing at	least one reducible	node.
+	for	(int i=nColorBits -	1; (i>0) &&	(pReducibleNodes[i]	== NULL); i--);
+
+	// Reduce the node most	recently added to the list at level	i.
+	NODE* pNode	= pReducibleNodes[i];
+	pReducibleNodes[i] = pNode->pNext;
+
+	UINT nRedSum = 0;
+	UINT nGreenSum = 0;
+	UINT nBlueSum =	0;
+	UINT nChildren = 0;
+
+	for	(i=0; i<8; i++)	{
+		if (pNode->pChild[i] !=	NULL) {
+			nRedSum	+= pNode->pChild[i]->nRedSum;
+			nGreenSum += pNode->pChild[i]->nGreenSum;
+			nBlueSum +=	pNode->pChild[i]->nBlueSum;
+			pNode->nPixelCount += pNode->pChild[i]->nPixelCount;
+			free(pNode->pChild[i]);
+			pNode->pChild[i] = NULL;
+			nChildren++;
+		}
+	}
+
+	pNode->bIsLeaf = TRUE;
+	pNode->nRedSum = nRedSum;
+	pNode->nGreenSum = nGreenSum;
+	pNode->nBlueSum	= nBlueSum;
+	*pLeafCount	-= (nChildren -	1);
+}
+/////////////////////////////////////////////////////////////////////////////
+void CQuantizer::DeleteTree	(NODE**	ppNode)
+{
+	for	(int i=0; i<8; i++)	{
+		if ((*ppNode)->pChild[i] !=	NULL) DeleteTree (&((*ppNode)->pChild[i]));
+	}
+	free(*ppNode);
+	*ppNode	= NULL;
+}
+/////////////////////////////////////////////////////////////////////////////
+void CQuantizer::GetPaletteColors (NODE* pTree,	RGBQUAD* prgb, UINT* pIndex)
+{
+	if (pTree){
+		if (pTree->bIsLeaf)	{
+			prgb[*pIndex].rgbRed = (BYTE)((pTree->nRedSum)/(pTree->nPixelCount));
+			prgb[*pIndex].rgbGreen = (BYTE)((pTree->nGreenSum)/(pTree->nPixelCount));
+			prgb[*pIndex].rgbBlue = (BYTE)((pTree->nBlueSum)/(pTree->nPixelCount));
+			prgb[*pIndex].rgbReserved =	0;
+			(*pIndex)++;
+		} else {
+			for	(int i=0; i<8; i++)	{
+				if (pTree->pChild[i] !=	NULL)
+					GetPaletteColors (pTree->pChild[i],	prgb, pIndex);
+			}
+		}
+	}
+}
+/////////////////////////////////////////////////////////////////////////////
+UINT CQuantizer::GetColorCount ()
+{
+	return m_nLeafCount;
+}
+/////////////////////////////////////////////////////////////////////////////
+void CQuantizer::SetColorTable (RGBQUAD* prgb)
+{
+	UINT nIndex	= 0;
+	GetPaletteColors (m_pTree, prgb, &nIndex);
+}
+/////////////////////////////////////////////////////////////////////////////
+BYTE CQuantizer::GetPixelIndex(long x, long y, int nbit, long effwdt, BYTE *pimage)
+{
+	if (nbit==8){
+		return pimage[y*effwdt + x];
+	} else {
+		BYTE pos;
+		BYTE iDst= pimage[y*effwdt + (x*nbit >> 3)];
+		if (nbit==4){
+			pos = 4*(1-x%2);
+			iDst &= (0x0F<<pos);
+			return iDst >> pos;
+		} else if (nbit==1){
+			pos = 7-x%8;
+			iDst &= (0x01<<pos);
+			return iDst >> pos;
+		}
+	}
+	return 0;
+}
+@
+
+
+1.2
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@@
+
+
+1.1
+log
+@latest mobile mule changes + some additional webserver stuff (see changelog)
+@
+text
+@d4 1
+d30 1
+a30 1
+	memcpy(&ds,hImage, sizeof(ds));
+@
+

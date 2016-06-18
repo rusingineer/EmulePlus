@@ -1,0 +1,7662 @@
+head	1.163;
+access;
+symbols
+	PublicRelease_1_2e:1.162
+	Interim_Release_1-2e_RC1:1.162
+	PublicRelease_1_2d:1.157
+	Interim_Release_1-2d_RC1:1.157
+	Interim_Release_1-2d_beta1:1.150
+	PublicRelease_1_2c:1.147
+	Interim_Release_1-2c_RC1:1.147
+	Interim_Release_1-2c_beta1:1.146
+	PublicRelease_1_2b:1.145
+	Interim_Release_1-2b_RC1:1.145
+	PublicRelease_1_2a:1.145
+	Interim_Release_1-2a_RC1:1.145
+	Interim_Release_1-2a_beta2:1.145
+	Interim_Release_1-2a_beta1:1.145
+	PublicRelease_1_2:1.143
+	Interim_Release_1-2_RC1:1.143
+	Interim_Release_1-2_beta1:1.143
+	PublicRelease_1_1g:1.142
+	Interim_Release_1-1g_RC3:1.142
+	Interim_Release_1-1g_RC2:1.142
+	Interim_Release_1-1g_RC1:1.142
+	Interim_Release_1-1g_beta2:1.140
+	Interim_Release_1-1g_beta1:1.140
+	PublicRelease_1_1f:1.140
+	Interim_Release_1-1f_RC1:1.140
+	PublicRelease_1_1e:1.140
+	Interim_Release_1-1e_RC2:1.140
+	Interim_Release_1-1e_RC1:1.140
+	Interim_Release_1-1e_beta1:1.138
+	PublicRelease_1_1d:1.136
+	Interim_Release_1-1d_RC1:1.136
+	PublicRelease_1_1c:1.136
+	Interim_Release_1-1c_RC1:1.136
+	Interim_Release_1-1c_beta2:1.135
+	Interim_Release_1-1c_beta1:1.135
+	PublicRelease_1_1b:1.131
+	Interim_Release_1-1b_RC1:1.131
+	PublicRelease_1_1a:1.131
+	Interim_Release_1-1a_RC2:1.131
+	Interim_Release_1-1a_RC1:1.131
+	Interim_Release_1-1a_beta2:1.131
+	Interim_Release_1-1a_beta1:1.130
+	PublicRelease_1_1:1.128
+	Interim_Release_1-1_beta1:1.128
+	PublicRelease_1o:1.128
+	Interim_Release_1o_RC1:1.128
+	Interim_Release_1o_beta1:1.128
+	PublicRelease_1n:1.128
+	Interim_Release_1n_RC2:1.128
+	Interim_Release_1n_RC1:1.128
+	Interim_Release_1n_beta2:1.128
+	Interim_Release_1n_beta1:1.123
+	PublicRelease_1m:1.122
+	Interim_Release_1m_beta1:1.122
+	PublicRelease_1l:1.121
+	Interim_Release_1l_RC3:1.121
+	Interim_Release_1l_RC2:1.119
+	Interim_Release_1l_RC1:1.118
+	Interim_Release_1l_beta2:1.118
+	Interim_Release_1l_beta1:1.116
+	PublicRelease_1k:1.97
+	Interim_Release_1k_RC4:1.97
+	Interim_1k_RC3:1.97
+	Interim_1k_RC2:1.96
+	Interim_Release_1k_RC1:1.96
+	Interim_Release_1k_beta5:1.95
+	Intrerim_Release_1k_beta4:1.95
+	Interim_Release_1k_beta1:1.90
+	PublicRelease_1j:1.87
+	Interim_Release_1J_RC3:1.87
+	Interim_Release_1j_RC3:1.87
+	Interim_Release_1j_RC2:1.82
+	Interim_Release_1j_RC1:1.82
+	Interim_Release_1j_beta2:1.82
+	Interim_Release_1j_beta1:1.82
+	PublicRelease_1i:1.82
+	Interim_Release_1i_RC6:1.82
+	Interim_Release_1i_RC3:1.77
+	Interim_Release_1i_RC2:1.77
+	Interim_Release_1i_RC1:1.75
+	Interim_Release_1i_beta3:1.73
+	Interim_Release_1i_beta2:1.70
+	Interim_Release_1i_beta1:1.62
+	PublicRelease_1h:1.45
+	Interim_Release_1h_rc2:1.45
+	Interim_Release_1h_RC1:1.44
+	Interim_Release_1h_beta2:1.44
+	Interim_Release_1h_beta1_now:1.40
+	Interim_Release_1h_beta1:1.40
+	PublicRelease_1g:1.37
+	Interim_Release_1g_RC6_Final:1.37
+	Interim_Release_1g_RC6:1.37
+	Interim_Release_1g_RC5:1.37
+	Interim_Release_1g_RC4:1.37
+	Interim_Release_1g_RC3:1.37
+	Interim_Release_1g_beta2:1.34
+	Interim_Release_1g_beta1:1.34
+	Interim_Release_1f_RC4:1.32
+	Interim_Release_1f_RC3:1.32
+	Interim_Release_1f_RC2:1.31
+	Interim_Release_1f_RC:1.31
+	Interim_Release_1f_beta2:1.30
+	Interim_Release_1f_beta1:1.29
+	PublicRelease_1e:1.29
+	Interim_Release_1e_RC2:1.29
+	Interim_Release_1e_RC:1.29
+	Interim_Release_1e_beta3:1.29
+	Interim_Release_1e_beta2:1.29
+	Interim_Release_1e_beta2_before_kuchin:1.29
+	Interim_Release_1e_beta1:1.29
+	PublicRelease_1c:1.29
+	featurestest:1.29.0.2
+	Interim_Release_1c_RC:1.29
+	Interim_Release_1c_beta2:1.29
+	Interim_Release_1c_beta1:1.28
+	threaded_downloadqueue:1.28.0.2
+	PublicRelease_1b:1.23
+	Interim_Release_1b_beta2:1.23
+	Interim_Release_1b_beta1:1.23
+	proxydeadlake:1.23.0.2
+	PublicRelease_1a:1.22
+	Interim_Release_1a_beta2:1.22
+	BerkeleyDb:1.21.0.2
+	Interim_Release_1a_beta1:1.20
+	PublicRelease_1:1.18
+	goldfish:1.18
+	eMulePlus_1_RC2:1.16
+	eMulePlus_26b_1RC1:1.14
+	PreRelease_26b_i0e:1.14
+	before_26d_merge:1.12
+	Interim_Release_26b_i0d:1.10
+	Interim_Release_26b_i0c:1.7
+	Interim_Release_26b_i0b:1.6
+	Interim_Release_26b_i0a:1.6
+	systraydlg:1.4.0.6
+	plus26based:1.4.0.4
+	Interim_Release_25b_i0b:1.4
+	Proxy_Dev:1.4
+	Interim_Release_25b_i0a:1.4.2.1
+	proxytest:1.4.2.1.0.2
+	official_sockets:1.4.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.163
+date	2009.05.14.03.10.30;	author aw3;	state Exp;
+branches;
+next	1.162;
+
+1.162
+date	2008.11.07.05.30.24;	author aw3;	state Exp;
+branches;
+next	1.161;
+
+1.161
+date	2008.11.03.05.58.27;	author aw3;	state Exp;
+branches;
+next	1.160;
+
+1.160
+date	2008.10.28.02.44.49;	author aw3;	state Exp;
+branches;
+next	1.159;
+
+1.159
+date	2008.09.02.02.49.55;	author aw3;	state Exp;
+branches;
+next	1.158;
+
+1.158
+date	2008.08.13.13.21.11;	author kush_eplus;	state Exp;
+branches;
+next	1.157;
+
+1.157
+date	2008.04.16.19.44.17;	author eklmn;	state Exp;
+branches;
+next	1.156;
+
+1.156
+date	2008.04.10.01.41.31;	author aw3;	state Exp;
+branches;
+next	1.155;
+
+1.155
+date	2008.04.06.11.34.43;	author eklmn;	state Exp;
+branches;
+next	1.154;
+
+1.154
+date	2008.04.05.20.22.50;	author eklmn;	state Exp;
+branches;
+next	1.153;
+
+1.153
+date	2008.04.05.09.49.09;	author eklmn;	state Exp;
+branches;
+next	1.152;
+
+1.152
+date	2008.03.29.13.32.40;	author eklmn;	state Exp;
+branches;
+next	1.151;
+
+1.151
+date	2008.03.10.04.09.38;	author aw3;	state Exp;
+branches;
+next	1.150;
+
+1.150
+date	2007.12.29.05.48.24;	author aw3;	state Exp;
+branches;
+next	1.149;
+
+1.149
+date	2007.12.01.11.17.51;	author eklmn;	state Exp;
+branches;
+next	1.148;
+
+1.148
+date	2007.10.24.19.09.36;	author fuxie-dk;	state Exp;
+branches;
+next	1.147;
+
+1.147
+date	2007.07.08.00.11.57;	author aw3;	state Exp;
+branches;
+next	1.146;
+
+1.146
+date	2007.02.19.03.41.21;	author aw3;	state Exp;
+branches;
+next	1.145;
+
+1.145
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.144;
+
+1.144
+date	2006.03.27.03.53.27;	author aw3;	state Exp;
+branches;
+next	1.143;
+
+1.143
+date	2006.01.06.20.05.55;	author kush_eplus;	state Exp;
+branches;
+next	1.142;
+
+1.142
+date	2005.11.27.22.11.51;	author eklmn;	state Exp;
+branches;
+next	1.141;
+
+1.141
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.140;
+
+1.140
+date	2005.06.19.05.09.32;	author aw3;	state Exp;
+branches;
+next	1.139;
+
+1.139
+date	2005.06.11.14.38.38;	author aw3;	state Exp;
+branches;
+next	1.138;
+
+1.138
+date	2005.05.21.20.11.10;	author aw3;	state Exp;
+branches;
+next	1.137;
+
+1.137
+date	2005.05.10.04.01.32;	author aw3;	state Exp;
+branches;
+next	1.136;
+
+1.136
+date	2005.02.16.23.38.05;	author aw3;	state Exp;
+branches;
+next	1.135;
+
+1.135
+date	2005.01.24.03.25.15;	author aw3;	state Exp;
+branches;
+next	1.134;
+
+1.134
+date	2005.01.19.21.10.52;	author netwolf1;	state Exp;
+branches;
+next	1.133;
+
+1.133
+date	2005.01.16.00.35.00;	author netwolf1;	state Exp;
+branches;
+next	1.132;
+
+1.132
+date	2005.01.14.14.43.46;	author kush_eplus;	state Exp;
+branches;
+next	1.131;
+
+1.131
+date	2004.11.11.05.35.13;	author aw3;	state Exp;
+branches;
+next	1.130;
+
+1.130
+date	2004.11.06.04.47.39;	author aw3;	state Exp;
+branches;
+next	1.129;
+
+1.129
+date	2004.10.28.15.24.23;	author aw3;	state Exp;
+branches;
+next	1.128;
+
+1.128
+date	2004.08.06.17.00.46;	author eklmn;	state Exp;
+branches;
+next	1.127;
+
+1.127
+date	2004.08.04.04.17.05;	author aw3;	state Exp;
+branches;
+next	1.126;
+
+1.126
+date	2004.07.25.08.30.42;	author dongato;	state Exp;
+branches;
+next	1.125;
+
+1.125
+date	2004.07.24.06.57.22;	author aw3;	state Exp;
+branches;
+next	1.124;
+
+1.124
+date	2004.07.22.23.46.04;	author aw3;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2004.07.18.12.20.31;	author eklmn;	state Exp;
+branches;
+next	1.122;
+
+1.122
+date	2004.06.19.05.27.54;	author aw3;	state Exp;
+branches;
+next	1.121;
+
+1.121
+date	2004.06.06.04.59.22;	author aw3;	state Exp;
+branches;
+next	1.120;
+
+1.120
+date	2004.06.03.05.20.53;	author aw3;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2004.06.01.22.31.03;	author aw3;	state Exp;
+branches;
+next	1.118;
+
+1.118
+date	2004.05.11.02.41.13;	author aw3;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2004.05.07.04.56.18;	author aw3;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2004.05.05.17.17.43;	author netwolf1;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2004.05.05.15.38.39;	author netwolf1;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2004.05.04.06.09.33;	author aw3;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2004.04.28.19.47.17;	author aw3;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2004.04.27.03.04.06;	author kush_eplus;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2004.04.26.14.23.39;	author katsyonak;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2004.04.26.14.08.33;	author katsyonak;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2004.04.26.07.45.02;	author katsyonak;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2004.04.26.06.14.45;	author katsyonak;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2004.04.25.20.00.54;	author katsyonak;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2004.04.25.13.04.10;	author katsyonak;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2004.04.25.12.11.39;	author katsyonak;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2004.04.25.11.58.00;	author katsyonak;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2004.04.25.08.33.01;	author dongato;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2004.04.25.06.03.19;	author katsyonak;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2004.04.23.22.13.55;	author katsyonak;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2004.04.16.20.14.50;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2004.04.15.14.54.11;	author katsyonak;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2004.04.13.02.47.42;	author katsyonak;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2004.04.03.12.45.35;	author dongato;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2004.03.25.06.15.38;	author aw3;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2004.03.06.19.50.59;	author eklmn;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2004.03.03.15.18.58;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2004.02.25.04.46.32;	author aw3;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2004.02.24.03.41.03;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2004.02.23.13.33.24;	author kush_eplus;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2004.02.12.10.38.01;	author morevit;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2004.02.11.04.13.01;	author katsyonak;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2004.02.08.22.51.21;	author kush_eplus;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2004.01.19.21.21.54;	author eklmn;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2004.01.19.18.21.28;	author dropf;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2004.01.16.22.03.10;	author eklmn;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2004.01.15.23.27.53;	author dongato;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.01.14.23.13.26;	author eklmn;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2003.11.30.17.52.44;	author eklmn;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2003.11.27.13.57.18;	author eklmn;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2003.11.23.13.33.37;	author katsyonak;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2003.11.20.20.07.24;	author katsyonak;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2003.11.20.09.56.47;	author katsyonak;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2003.11.11.21.36.56;	author dropf;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2003.11.05.01.07.20;	author katsyonak;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2003.11.04.18.55.40;	author eklmn;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2003.11.03.21.35.33;	author eklmn;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2003.10.30.02.44.38;	author morevit;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2003.10.29.22.13.33;	author dropf;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2003.10.26.14.00.53;	author morevit;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2003.10.20.13.20.04;	author morevit;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2003.10.10.04.12.21;	author dongato;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2003.10.08.15.39.48;	author morevit;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2003.10.08.12.56.35;	author morevit;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2003.10.06.17.01.03;	author dongato;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2003.10.05.06.22.51;	author dongato;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2003.10.04.10.04.43;	author morevit;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2003.10.04.00.48.21;	author morevit;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2003.10.04.00.34.41;	author dongato;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2003.10.03.23.17.56;	author morevit;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2003.10.03.13.04.36;	author morevit;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2003.10.02.18.29.51;	author dongato;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.10.02.15.32.59;	author dongato;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.10.01.15.08.36;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.09.25.11.23.29;	author morevit;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.09.25.01.09.10;	author dongato;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.09.24.20.37.30;	author dongato;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.09.22.00.17.22;	author morevit;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.09.21.22.05.20;	author morevit;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.09.20.15.39.32;	author morevit;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.09.19.14.42.46;	author morevit;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.09.19.00.13.38;	author morevit;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.09.14.13.48.42;	author dongato;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.08.31.23.19.16;	author dongato;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.08.31.13.20.46;	author emoulari;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.08.30.11.23.26;	author emoulari;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.08.23.00.20.51;	author forcha;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.08.15.21.14.35;	author forcha;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.08.15.15.11.29;	author forcha;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.07.27.23.16.08;	author dongato;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.06.27.18.15.27;	author netwolf1;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.06.15.09.10.05;	author partyckip;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.06.11.18.27.13;	author eklmn;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.06.01.08.59.03;	author kuchin;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.05.31.17.14.28;	author partyckip;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.05.20.20.46.32;	author netwolf1;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.05.13.16.55.41;	author moosetea;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.05.08.17.08.25;	author netwolf1;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.03.17.05.59.30;	author recdvst;	state Exp;
+branches
+	1.29.2.1;
+next	1.28;
+
+1.28
+date	2003.03.14.16.08.18;	author cax2;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.03.14.15.27.23;	author obaldin;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.03.14.09.45.24;	author lord_kiron;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.03.14.00.10.30;	author lord_kiron;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.03.10.23.04.22;	author cax2;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.02.28.00.53.24;	author dongato;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.02.25.14.17.42;	author obaldin;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.02.25.02.34.37;	author dongato;	state Exp;
+branches
+	1.21.2.1;
+next	1.20;
+
+1.20
+date	2003.02.23.20.20.38;	author obaldin;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.02.23.19.16.13;	author cax2;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.02.20.20.46.54;	author obaldin;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.02.20.14.48.19;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.02.20.07.25.22;	author cax2;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.02.19.00.47.02;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.02.18.14.52.39;	author dongato;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.02.16.22.01.51;	author lord_kiron;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.02.14.13.24.30;	author lord_kiron;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.13.17.45.45;	author cax2;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.12.21.55.34;	author obaldin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.11.19.38.49;	author lord_kiron;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.11.11.11.50;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.10.19.24.52;	author cax2;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.09.18.39.42;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.01.24.22.07.51;	author maverick65;	state Exp;
+branches
+	1.4.2.1
+	1.4.4.1;
+next	1.3;
+
+1.3
+date	2003.01.24.14.07.10;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.23.12.49.06;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2003.01.28.16.54.33;	author cax2;	state Exp;
+branches;
+next	;
+
+1.4.4.1
+date	2003.02.05.01.58.42;	author obaldin;	state Exp;
+branches;
+next	1.4.4.2;
+
+1.4.4.2
+date	2003.02.05.17.03.16;	author obaldin;	state Exp;
+branches;
+next	1.4.4.3;
+
+1.4.4.3
+date	2003.02.06.15.56.14;	author obaldin;	state Exp;
+branches;
+next	1.4.4.4;
+
+1.4.4.4
+date	2003.02.08.13.37.05;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.21.2.1
+date	2003.02.28.22.44.56;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.29.2.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	1.29.2.2;
+
+1.29.2.2
+date	2003.03.24.09.39.44;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.163
+log
+@Save sorting directions for all GUI lists; Unified list sort initialization and click processing;
+Simplified list arrow configuration interface.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "updownclient.h"
+#include "UploadListCtrl.h"
+#include "SharedFileList.h"
+#include "TitleMenu.h"
+#include "otherfunctions.h"
+#include "opcodes.h"
+#include "Details\clientdetails.h"
+#include "IP2Country.h"
+#include "MemDC.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+BEGIN_MESSAGE_MAP(CUploadListCtrl, CMuleListCtrl)
+	ON_WM_CONTEXTMENU()
+	ON_NOTIFY_REFLECT(NM_CLICK, OnNMClick)
+	ON_NOTIFY_REFLECT(LVN_COLUMNCLICK, OnLvnColumnClick)
+	ON_NOTIFY_REFLECT(NM_DBLCLK, OnNMDblclkUploadlist)
+	ON_NOTIFY_REFLECT(LVN_GETDISPINFO, OnGetDispInfo)
+	ON_WM_KEYUP()
+END_MESSAGE_MAP()
+
+IMPLEMENT_DYNAMIC(CUploadListCtrl, CMuleListCtrl)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CUploadListCtrl::CUploadListCtrl()
+{
+	SetGeneralPurposeFind(true);
+
+	m_pvecDirtyClients = new ClientVector();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::Init()
+{
+	static const uint16 s_auColHdr[][2] =
+	{
+		{ LVCFMT_LEFT, 150 },	//ULCOL_USERNAME
+		{ LVCFMT_LEFT, 275 },	//ULCOL_FILENAME
+		{ LVCFMT_RIGHT, 60 },	//ULCOL_SPEED
+		{ LVCFMT_RIGHT, 65 },	//ULCOL_TRANSFERRED
+		{ LVCFMT_LEFT,  60 },	//ULCOL_WAITED
+		{ LVCFMT_LEFT,  60 },	//ULCOL_UPLOADTIME
+		{ LVCFMT_LEFT, 110 },	//ULCOL_STATUS
+		{ LVCFMT_LEFT,  60 },	//ULCOL_PARTS
+		{ LVCFMT_LEFT, 110 },	//ULCOL_PROGRESS
+		{ LVCFMT_LEFT, 110 },	//ULCOL_COMPRESSION
+		{ LVCFMT_LEFT, 150 }	//ULCOL_COUNTRY
+	};
+
+	EMULE_TRY
+
+	CImageList		ilDummyImageList;
+
+	ilDummyImageList.Create(1, 17, g_App.m_iDfltImageListColorFlags | ILC_MASK, 1, 1);
+	SetImageList(&ilDummyImageList, LVSIL_SMALL);
+	ilDummyImageList.Detach();
+
+	memzero(m_iColumnMaxWidths, sizeof(m_iColumnMaxWidths));
+//	Index of the column being measured. -1 for none.
+	m_iMeasuringColumn = -1;
+
+	SetExtendedStyle(LVS_EX_FULLROWSELECT);
+	for (unsigned ui = 0; ui < ARRSIZE(s_auColHdr); ui++)
+		InsertColumn(ui, _T(""), static_cast<int>(s_auColHdr[ui][0]), static_cast<int>(s_auColHdr[ui][1]), ui);
+
+	Localize();
+
+	LoadSettings(CPreferences::TABLE_UPLOAD);
+	SetSortProcedure(SortProc);
+	if (g_App.m_pPrefs->DoUseSort())
+		SortInit(g_App.m_pPrefs->GetUploadSortCol());
+	else
+		SortInit(g_App.m_pPrefs->GetColumnSortCode(CPreferences::TABLE_UPLOAD));
+
+	EMULE_CATCH2
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CUploadListCtrl::~CUploadListCtrl()
+{
+	safe_delete(m_pvecDirtyClients);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::Localize()
+{
+	static const uint16 s_auResTbl[] =
+	{
+		IDS_QL_USERNAME,	//ULCOL_USERNAME
+		IDS_FILE,			//ULCOL_FILENAME
+		IDS_DL_SPEED,		//ULCOL_SPEED
+		IDS_DL_TRANSF,		//ULCOL_TRANSFERRED
+		IDS_WAITED,			//ULCOL_WAITED
+		IDS_UPLOADTIME,		//ULCOL_UPLOADTIME
+		IDS_STATUS,			//ULCOL_STATUS
+		IDS_UP_PARTS,		//ULCOL_PARTS
+		IDS_DL_PROGRESS,	//ULCOL_PROGRESS
+		IDS_COMPRESSION,	//ULCOL_COMPRESSION
+		IDS_COUNTRY			//ULCOL_COUNTRY
+	};
+
+	EMULE_TRY
+
+	if (GetSafeHwnd())
+	{
+		CHeaderCtrl	*pHeaderCtrl = GetHeaderCtrl();
+		CString		strRes;
+		HDITEM		hdi;
+
+		hdi.mask = HDI_TEXT;
+
+		for (unsigned ui = 0; ui < ARRSIZE(s_auResTbl); ui++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[ui]));
+			hdi.pszText = const_cast<LPTSTR>(strRes.GetString());
+			pHeaderCtrl->SetItem(static_cast<int>(ui), &hdi);
+		}
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::AddClient(CUpDownClient* pClient)
+{
+	EMULE_TRY
+
+	uint32		iNumItems = GetItemCount();
+
+	iNumItems = InsertItem(LVIF_TEXT|LVIF_PARAM,iNumItems,LPSTR_TEXTCALLBACK,0,0,1,reinterpret_cast<LPARAM>(pClient));
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::RemoveClient(CUpDownClient *pClient)
+{
+	EMULE_TRY
+
+	if (g_App.m_pMDlg->m_wndTransfer.m_ctlInfoList.GetType() == INFOLISTTYPE_SOURCE)
+	{
+		if (g_App.m_pMDlg->m_wndTransfer.m_ctlInfoList.GetClient() == pClient)
+		{
+ 			g_App.m_pMDlg->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_NONE);
+		}
+	}
+
+	LVFINDINFO		find;
+
+	find.flags = LVFI_PARAM;
+	find.lParam = (LPARAM)pClient;
+
+	sint32		result = FindItem(&find);
+
+	if (result != (-1))
+		DeleteItem(result);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::UpdateClient(CUpDownClient *pClient)
+{
+	EMULE_TRY
+
+	if (pClient != NULL)
+	{
+		if (AddDirtyClient(pClient))
+			PostUniqueMessage(WM_UL_REFRESH);
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#define DLC_DT_TEXT (DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_END_ELLIPSIS)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct)
+{
+#define LIST_CELL_PADDING	6		//should be even number
+	EMULE_TRY
+
+	if (!g_App.m_pMDlg->IsRunning() || !lpDrawItemStruct->itemData)
+		return;
+
+	CDC		*odc = CDC::FromHandle(lpDrawItemStruct->hDC);
+	BOOL	bCtrlFocused = ((GetFocus() == this ) || (GetStyle() & LVS_SHOWSELALWAYS));
+	COLORREF	crBk, crWinBk;
+
+	crWinBk = crBk = GetBkColor();
+	if (lpDrawItemStruct->itemState & ODS_SELECTED)
+		crBk = (bCtrlFocused) ? m_crHighlight : m_crNoHighlight;
+
+	CUpDownClient	*pClient = reinterpret_cast<CUpDownClient*>(lpDrawItemStruct->itemData);
+	CMemDC			dc(odc, &lpDrawItemStruct->rcItem, crWinBk, crBk);
+	CFont			*pOldFont = dc.SelectObject(GetFont());
+	COLORREF		crOldTextColor = dc->SetTextColor(::GetSysColor(COLOR_WINDOWTEXT));
+	int				iWidth, iColumn;
+	bool			bMeasuring = (m_iMeasuringColumn >= 0);
+	UINT			iCalcFlag = bMeasuring ? (DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_NOCLIP|DT_CALCRECT) : (DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_NOCLIP|DT_END_ELLIPSIS);
+
+	if (IsRightToLeftLanguage())
+		iCalcFlag |= DT_RTLREADING;
+
+	RECT			r = lpDrawItemStruct->rcItem;
+	CString			strBuffer;
+	CKnownFile		*pKnownFile = g_App.m_pSharedFilesList->GetFileByID(pClient->m_reqFileHash);
+	CHeaderCtrl		*pHeaderCtrl = GetHeaderCtrl();
+	int				iNumColumns = pHeaderCtrl->GetItemCount();
+
+	r.right = r.left - LIST_CELL_PADDING / 2;
+	r.left += LIST_CELL_PADDING / 2;
+	iWidth = LIST_CELL_PADDING;
+
+	for (int iCurrent = 0; iCurrent < iNumColumns; iCurrent++)
+	{
+		iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+		if (IsColumnHidden(iColumn) || (bMeasuring && iColumn != m_iMeasuringColumn))
+			continue;
+
+		r.right += CListCtrl::GetColumnWidth(iColumn);
+		switch (iColumn)
+		{
+			case ULCOL_USERNAME:
+			{
+				if (!bMeasuring)
+				{
+					POINT		point = {r.left, r.top + 1};
+					int			iImgLstIdx = CLIENT_IMGLST_PLAIN;
+
+				//	Select corresponding image list depending on client properties
+					if (pClient->IsBanned())
+						iImgLstIdx = CLIENT_IMGLST_BANNED;
+					else if (pClient->IsFriend())
+						iImgLstIdx = CLIENT_IMGLST_FRIEND;
+					else if (pClient->m_pCredits->HasHigherScoreRatio(pClient->GetIP()))
+						iImgLstIdx = CLIENT_IMGLST_CREDITUP;
+
+				//	Display Client icon
+					g_App.m_pMDlg->m_clientImgLists[iImgLstIdx].Draw(dc, pClient->GetClientIconIndex(), point, ILD_NORMAL);
+
+					r.left += 20;
+					if (g_App.m_pIP2Country->ShowCountryFlag())
+					{
+						point.x += 20;
+						point.y += 2;
+						g_App.m_pIP2Country->GetFlagImageList()->Draw(dc, pClient->GetCountryIndex(), point, ILD_NORMAL);
+						r.left += 22;
+					}
+				}
+				else
+				{
+					iWidth += 20;
+					if (g_App.m_pIP2Country->ShowCountryFlag())
+						iWidth += 22;
+				}
+
+				strBuffer = pClient->GetUserName();
+				break;
+			}
+			case ULCOL_FILENAME:
+				if (pKnownFile != NULL)
+					strBuffer = pKnownFile->GetFileName();
+				else
+					strBuffer = _T("?");
+				break;
+
+			case ULCOL_SPEED:
+				strBuffer.Format(_T("%.1f"), static_cast<double>(pClient->GetUpDataRate()) / 1024.0);
+				break;
+
+			case ULCOL_TRANSFERRED:
+				strBuffer = CastItoXBytes(pClient->GetSessionUp());
+				break;
+
+			case ULCOL_WAITED:
+				strBuffer = CastSecondsToHM(pClient->GetWaitTime() / 1000);
+				break;
+
+			case ULCOL_UPLOADTIME:
+				strBuffer = CastSecondsToHM((pClient->GetUpStartTimeDelay()) / 1000);
+				break;
+
+			case ULCOL_STATUS:
+				GetStatusULQueueString(&strBuffer, pClient->GetUploadState());
+				if (pClient->HasLowID())
+				{
+					strBuffer += _T('/');
+					strBuffer += GetResString(IDS_LOWID);
+				}
+				break;
+
+			case ULCOL_PARTS:
+			{
+				uint32		iPartNum = pClient->GetCurrentlyUploadingPart();
+
+				strBuffer.Truncate(0);
+				if (pClient->GetUpPartCount())
+					strBuffer.Format(_T("%u/%u"), pClient->GetAvailUpPartCount(), pClient->GetUpPartCount());
+				if (iPartNum != 0xFFFF)
+					strBuffer.AppendFormat(_T(" (%u)"), iPartNum);
+				break;
+			}
+			case ULCOL_PROGRESS:
+				if (pClient->GetUpPartCount() && g_App.m_pPrefs->IsUploadPartsEnabled())
+				{
+					if (!bMeasuring)
+					{
+						RECT	r2;
+
+						r2.bottom = r.bottom - 1;
+						r2.top = r.top + 1;
+						r2.right = r.right + LIST_CELL_PADDING / 2;
+						r2.left = r.left - LIST_CELL_PADDING / 2;
+						pClient->DrawUpStatusBar(dc, &r2, g_App.m_pPrefs->UseFlatBar());
+					}
+					iWidth = 300;
+				}
+				break;
+
+			case ULCOL_COMPRESSION:
+			{
+				double		dblCompression = pClient->GetCompression();
+
+				if (dblCompression < 0.1)
+					strBuffer = _T("-");
+				else
+					strBuffer.Format(_T("%.1f"), dblCompression);
+				break;
+			}
+			case ULCOL_COUNTRY:
+				strBuffer = pClient->GetCountryName();
+				break;
+		}
+		if (iColumn != ULCOL_PROGRESS)
+		{
+			UINT		dwCalcFlag = iCalcFlag;
+
+			if ((iColumn == ULCOL_TRANSFERRED) || (iColumn == ULCOL_SPEED))
+				dwCalcFlag |= DT_RIGHT;
+			dc->DrawText(strBuffer, &r, dwCalcFlag);
+			if (bMeasuring && !strBuffer.IsEmpty())
+				iWidth += r.right - r.left + 1;
+		}
+		r.left = r.right + LIST_CELL_PADDING;
+
+		if (bMeasuring)
+		{
+		//	Pin the column widths at some reasonable value
+			if (iWidth < 40)
+				iWidth = 40;
+			if (iWidth > m_iColumnMaxWidths[m_iMeasuringColumn])
+				m_iColumnMaxWidths[m_iMeasuringColumn] = iWidth;
+		}
+	}
+//	Draw rectangle around selected item(s)
+	if (!bMeasuring && (lpDrawItemStruct->itemState & ODS_SELECTED))
+	{
+		RECT	rOutline = lpDrawItemStruct->rcItem;
+		CBrush	FrmBrush((bCtrlFocused) ? m_crFocusLine : m_crNoFocusLine);
+
+		rOutline.left++;
+		rOutline.right--;
+		dc->FrameRect(&rOutline, &FrmBrush);
+	}
+	if (pOldFont)
+		dc.SelectObject(pOldFont);
+	if (crOldTextColor)
+		dc.SetTextColor(crOldTextColor);
+
+	EMULE_CATCH
+#undef LIST_CELL_PADDING
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CUploadListCtrl::OnWndMsg(UINT iMessage,WPARAM wParam, LPARAM lParam, LRESULT *pResult)
+{
+	BOOL		bHandled = TRUE;
+
+	EMULE_TRY
+
+	switch (iMessage)
+	{
+		case WM_UL_REFRESH:
+		{
+			CUploadListCtrl::ClientVector	   *pvecDirtyClients = GetDirtyClients();
+
+			if (pvecDirtyClients != NULL)
+			{
+				SetRedraw(FALSE);
+
+				int		iNumDirtySources = pvecDirtyClients->size();
+
+				for (int i = 0; i < iNumDirtySources; i++)
+				{
+					LVFINDINFO		find;
+
+					find.flags = LVFI_PARAM;
+					find.lParam = (LPARAM)(*pvecDirtyClients)[i];
+
+					int	iResult = FindItem(&find);
+
+					if (iResult != -1)
+						Update(iResult);
+				}
+
+				delete pvecDirtyClients;
+
+				SetRedraw(TRUE);
+			}
+			break;
+		}
+		default:
+		{
+			bHandled = FALSE;
+			break;
+		}
+	}
+
+	EMULE_CATCH
+
+	if (!bHandled)
+		bHandled = CMuleListCtrl::OnWndMsg(iMessage, wParam, lParam, pResult);
+
+	return bHandled;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::OnNMDividerDoubleClick(NMHEADER *pHeader)
+{
+	EMULE_TRY
+
+	int		iColumn = pHeader->iItem;
+
+	m_iColumnMaxWidths[iColumn] = 0;
+	m_iMeasuringColumn = iColumn;
+	Invalidate();
+	UpdateWindow();
+	m_iMeasuringColumn = -1;
+	if (m_iColumnMaxWidths[iColumn] > 0)
+		SetColumnWidth(iColumn, m_iColumnMaxWidths[iColumn]);
+	else
+		CMuleListCtrl::OnNMDividerDoubleClick(pHeader);
+	Invalidate();
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// CUploadListCtrl message handlers
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::OnContextMenu(CWnd *pWnd, CPoint point)
+{
+	NOPRM(pWnd);
+	EMULE_TRY
+
+	CTitleMenu		menuClient;
+	POSITION		posSelClient = GetFirstSelectedItemPosition();
+	UINT			dwFlags = MF_STRING | MF_GRAYED;
+	CUpDownClient	*pClient = NULL;
+
+	if (posSelClient)
+	{
+		dwFlags = MF_STRING;
+		pClient = reinterpret_cast<CUpDownClient*>(GetItemData(GetNextSelectedItem(posSelClient)));
+
+		if (pClient)
+		{
+			g_App.m_pMDlg->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_SOURCE, pClient);
+		}
+	}
+
+	menuClient.CreatePopupMenu();
+	menuClient.AddMenuTitle(GetResString(IDS_CLIENTS));
+	menuClient.AppendMenu(dwFlags, MP_DETAIL, GetStringFromShortcutCode(IDS_SHOWDETAILS, SCUT_SRC_DETAILS, SSP_TAB_PREFIX));
+
+	UINT_PTR	dwRes = MP_ADDFRIEND;
+	UINT		dwResStrId = IDS_ADDFRIEND;
+
+	if (pClient && pClient->IsFriend())
+	{
+		dwRes = MP_REMOVEFRIEND;
+		dwResStrId = IDS_REMOVEFRIEND;
+	}
+	menuClient.AppendMenu(dwFlags, dwRes, GetStringFromShortcutCode(dwResStrId, SCUT_SRC_FRIEND, SSP_TAB_PREFIX));
+	menuClient.AppendMenu(dwFlags, MP_MESSAGE, GetStringFromShortcutCode(IDS_SEND_MSG, SCUT_SRC_MSG, SSP_TAB_PREFIX));
+	menuClient.AppendMenu( dwFlags | ((pClient && pClient->GetViewSharedFilesSupport()) ? MF_ENABLED : MF_GRAYED),
+		MP_SHOWLIST, GetStringFromShortcutCode(IDS_VIEWFILES, SCUT_SRC_SHAREDFILES, SSP_TAB_PREFIX) );
+
+	menuClient.SetDefaultItem((g_App.m_pPrefs->GetDetailsOnClick()) ? MP_DETAIL : MP_MESSAGE);
+	menuClient.TrackPopupMenuEx(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this, NULL);
+
+//	Menu objects are destroyed in their destructor
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CUploadListCtrl::OnCommand(WPARAM wParam, LPARAM lParam)
+{
+	NOPRM(lParam);
+	EMULE_TRY
+	POSITION posSelClient = GetFirstSelectedItemPosition();
+
+	if (posSelClient)
+	{
+		CUpDownClient* 	pClient = (CUpDownClient*)GetItemData(GetNextSelectedItem(posSelClient));
+
+		switch (wParam)
+		{
+			case MP_SHOWLIST:
+				pClient->RequestSharedFileList();
+				break;
+			case MP_MESSAGE:
+				g_App.m_pMDlg->m_wndChat.StartSession(pClient);
+				break;
+			case MP_ADDFRIEND:
+				g_App.m_pFriendList->AddFriend(pClient);
+				break;
+			case MP_REMOVEFRIEND:
+				g_App.m_pFriendList->RemoveFriend(pClient);
+				break;
+			case MP_DETAIL:
+				{
+					CClientDetails dialog(IDS_CD_TITLE, pClient, this, 0);
+					dialog.DoModal();
+				}
+				break;
+		}
+	}
+
+	EMULE_CATCH
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CUploadListCtrl::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+{
+	CUpDownClient* item1 = (CUpDownClient*)lParam1;
+	CUpDownClient* item2 = (CUpDownClient*)lParam2;
+
+	//check parameters
+	if (item1 == NULL || item2 == NULL)
+		return 0;
+
+	CKnownFile* file1 = g_App.m_pSharedFilesList->GetFileByID(item1->m_reqFileHash);
+	CKnownFile* file2 = g_App.m_pSharedFilesList->GetFileByID(item2->m_reqFileHash);
+
+	int	iCompare = 0;
+	bool	bSortAscending = (lParamSort & MLC_SORTDESC) == 0;
+	int	iSortMod = bSortAscending ? 1 : -1;
+	int	iSortColumn = (lParamSort & MLC_COLUMNMASK);
+
+	switch(iSortColumn)
+	{
+		case ULCOL_USERNAME:
+		{
+			iCompare = item1->CmpUserNames(item2->GetUserName());
+			break;
+		}
+		case ULCOL_COUNTRY:
+		{
+			CString strCountry1 = item1->GetCountryName();
+			CString strCountry2 = item2->GetCountryName();
+
+			if (!strCountry1.IsEmpty() && !strCountry2.IsEmpty())
+			{
+				iCompare = _tcsicmp(strCountry1, strCountry2);
+			}
+			else
+			{
+				iCompare = strCountry1.IsEmpty() ? (strCountry2.IsEmpty() ? 0 : 1) : -1;
+				iSortMod = 1;		//empty entries at the bottom in any case
+			}
+
+			if (iCompare == 0)
+			{
+				iCompare = SortProc(lParam1,lParam2,ULCOL_USERNAME);
+				iSortMod = 1;		//sort allways in ascending order
+			}
+			break;
+		}
+		case ULCOL_FILENAME:
+			if ((file1 != NULL) && (file2 != NULL))
+				iCompare = _tcsicmp(file1->GetFileName(),file2->GetFileName());
+			else
+				iCompare = ( file1 == NULL ) ? ((file2 == NULL) ? 0 : 1) : -1;
+			if (iCompare == 0)
+			{
+				iCompare = SortProc(lParam1,lParam2, ULCOL_USERNAME);
+				iSortMod = 1;		//eklmn: sort allways in ascending order
+			}
+			break;
+		case ULCOL_SPEED:
+			iCompare = item1->GetUpDataRate() - item2->GetUpDataRate();
+			break;
+		case ULCOL_TRANSFERRED:
+			iCompare = item1->GetSessionUp() - item2->GetSessionUp();
+			break;
+		case ULCOL_WAITED:
+			iCompare = item1->GetWaitTime() - item2->GetWaitTime();
+			break;
+		case ULCOL_UPLOADTIME:
+			iCompare = item1->GetUpStartTimeDelay() - item2->GetUpStartTimeDelay();
+			break;
+		case ULCOL_STATUS:
+			iCompare = item1->GetUploadState() - item2->GetUploadState();
+			break;
+		case ULCOL_PARTS:
+		case ULCOL_PROGRESS:
+		{  // obaldin: sort by upload progress
+			uint32 partcnt1 = item1->GetUpPartCount();
+			uint32 partcnt2 = item2->GetUpPartCount();
+
+			if((partcnt1!=0) && (partcnt2!=0))
+			{
+				double	dblProgress1 = static_cast<double>(item1->GetAvailUpPartCount())/static_cast<double>(partcnt1);
+				double	dblProgress2 = static_cast<double>(item2->GetAvailUpPartCount())/static_cast<double>(partcnt2);
+
+				iCompare = (dblProgress1 > dblProgress2) ? 1 : ((dblProgress1 < dblProgress2) ? -1: 0);
+			}
+			else
+				iCompare = ( partcnt1 == 0 ) ? ((partcnt2 == 0) ? 0 : 1) : -1;
+			break;
+		}
+		case ULCOL_COMPRESSION: // Add sort compression
+			iCompare = (item1->GetCompression() < item2->GetCompression())?-1:1;
+			break;
+		default:
+			iCompare = 0;
+	}
+
+	return iCompare * iSortMod;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::OnNMClick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NOPRM(pNMHDR);
+	EMULE_TRY
+
+//	Reset selection in DL list
+	POSITION posSelClient = g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.GetFirstSelectedItemPosition();
+
+	while (posSelClient != NULL)
+	{
+		int iSelClientListIndex = g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.GetNextSelectedItem(posSelClient);
+		g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.SetItemState(iSelClientListIndex, 0, LVIS_SELECTED);
+	}
+
+	RefreshInfo();
+	*pResult = 0;
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::OnNMDblclkUploadlist(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NOPRM(pNMHDR);
+	EMULE_TRY
+	POSITION posSelClient = GetFirstSelectedItemPosition();
+
+	if (posSelClient)
+	{
+		CUpDownClient* pClient = reinterpret_cast<CUpDownClient*>(GetItemData(GetNextSelectedItem(posSelClient)));
+
+		if (g_App.m_pPrefs->GetDetailsOnClick())
+		{
+			CClientDetails dialog(IDS_CD_TITLE, pClient, this, 0);
+			dialog.DoModal();
+		}
+		else
+		{
+			g_App.m_pMDlg->m_wndChat.StartSession(pClient);
+		}
+	}
+	*pResult = 0;
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags)
+{
+	EMULE_TRY
+
+	RefreshInfo();
+	CMuleListCtrl::OnKeyUp(nChar, nRepCnt, nFlags);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::RefreshInfo(void)
+{
+	EMULE_TRY
+
+	if (GetFocus() == this)
+	{
+		POSITION posSelClient = GetFirstSelectedItemPosition();
+
+		if(posSelClient == 0)
+		{
+	 		g_App.m_pMDlg->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_NONE);
+		}
+		else
+		{
+			CUpDownClient* pClient = reinterpret_cast<CUpDownClient*>(GetItemData(GetNextSelectedItem(posSelClient)));
+
+	 		g_App.m_pMDlg->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_SOURCE,pClient);
+		}
+	}
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::OnGetDispInfo(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NMLVDISPINFO	*pDispInfo = reinterpret_cast<NMLVDISPINFO*>(pNMHDR);
+
+	if (g_App.m_pMDlg->IsRunning())
+	{
+		// Although we have an owner drawn listview control we store the text for the primary item in the listview, to be
+		// capable of quick searching those items via the keyboard. Because our listview items may change their contents,
+		// we do this via a text callback function. The listview control will send us the LVN_DISPINFO notification if
+		// it needs to know the contents of the primary item.
+		//
+		// But, the listview control sends this notification all the time, even if we do not search for an item. At least
+		// this notification is only sent for the visible items and not for all items in the list. Though, because this
+		// function is invoked *very* often, no *NOT* put any time consuming code here in.
+
+		if ((pDispInfo->item.mask & LVIF_TEXT) != 0)
+		{
+		//	Check for own search request, the rest of the flood comes from list control
+		//	and isn't used as list is drawn by us
+			if (pDispInfo->item.cchTextMax == ML_SEARCH_SZ)
+			{
+				CUpDownClient	*pClient = reinterpret_cast<CUpDownClient*>(pDispInfo->item.lParam);
+
+				if (pClient != NULL)
+				{
+					switch (pDispInfo->item.iSubItem)
+					{
+						case ULCOL_USERNAME:
+							_tcsncpy(pDispInfo->item.pszText, pClient->GetUserName(), pDispInfo->item.cchTextMax);
+							pDispInfo->item.pszText[pDispInfo->item.cchTextMax - 1] = _T('\0');
+							break;
+
+						case ULCOL_COUNTRY:
+							_tcsncpy(pDispInfo->item.pszText, pClient->GetCountryName(), pDispInfo->item.cchTextMax);
+							pDispInfo->item.pszText[pDispInfo->item.cchTextMax - 1] = _T('\0');
+							break;
+
+						case ULCOL_FILENAME:
+						{
+							CKnownFile	*pKnownFile = g_App.m_pSharedFilesList->GetFileByID(pClient->m_reqFileHash);
+
+							if (pKnownFile != NULL)
+							{
+								_tcsncpy(pDispInfo->item.pszText, pKnownFile->GetFileName(), pDispInfo->item.cchTextMax);
+								pDispInfo->item.pszText[pDispInfo->item.cchTextMax - 1] = _T('\0');
+								break;
+							}
+						}
+						default:
+							pDispInfo->item.pszText[0] = _T('\0');
+							break;
+					}
+				}
+			}
+			else if (pDispInfo->item.cchTextMax != 0)
+				pDispInfo->item.pszText[0] = _T('\0');
+		}
+	}
+	*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CUploadListCtrl::PreTranslateMessage(MSG *pMsg)
+{
+	if ((pMsg->message == WM_KEYDOWN) || (pMsg->message == WM_SYSKEYDOWN))
+	{
+		int		 iMessage	  = 0;
+		POSITION posSelClient = GetFirstSelectedItemPosition();
+
+		if (posSelClient != NULL)
+		{
+			short			nCode = GetCodeFromPressedKeys(pMsg);
+			CUpDownClient	*pSource = reinterpret_cast<CUpDownClient*>(GetItemData(GetNextSelectedItem(posSelClient)));
+
+			iMessage = GetClientListActionFromShortcutCode(nCode, pSource);
+
+			if (iMessage > 0)
+			{
+				PostMessage(WM_COMMAND, static_cast<WPARAM>(iMessage));
+				return TRUE;
+			}
+		}
+	}
+
+	return CMuleListCtrl::PreTranslateMessage(pMsg);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::ShowSelectedUserDetails()
+{
+	POINT point;
+
+	::GetCursorPos(&point);
+
+	CPoint p = point;
+
+	ScreenToClient(&p);
+
+	int it = HitTest(p);
+
+	if (it == -1)
+		return;
+
+	SetSelectionMark(it);
+
+	CUpDownClient* pClient = reinterpret_cast<CUpDownClient*>(GetItemData(GetSelectionMark()));
+
+	if (pClient != NULL)
+	{
+			CClientDetails dialog(IDS_CD_TITLE, pClient, this, 0);
+			dialog.DoModal();
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CUploadListCtrl::AddDirtyClient(CUpDownClient* pClientItem)
+{
+	bool bResult = false;
+
+//	If 'pClient' is not already in the dirty client list...
+	if (m_pvecDirtyClients != NULL
+		&& ::find(m_pvecDirtyClients->begin(),m_pvecDirtyClients->end(), pClientItem) == m_pvecDirtyClients->end())
+	{
+		m_pvecDirtyClients->push_back(pClientItem);
+		bResult = true;
+	}
+
+	return bResult;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	GetDirtySources() detaches the current dirty source list and returns it to the caller (who's responsible
+//		for destroying it). This allows the download list control to update without locking down the download list.
+CUploadListCtrl::ClientVector* CUploadListCtrl::GetDirtyClients()
+{
+	ClientVector		*pDirtyClients = NULL;
+
+	if (!m_pvecDirtyClients->empty())
+	{
+		pDirtyClients = m_pvecDirtyClients;
+		m_pvecDirtyClients = new ClientVector();
+	}
+
+	return pDirtyClients;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.162
+log
+@Slightly more efficient GetColumnWidth to speed up list drawing.
+@
+text
+@d39 1
+a39 1
+	ON_NOTIFY_REFLECT(LVN_COLUMNCLICK, OnColumnClick)
+a49 1
+	memset(&m_bSortAscending, true, sizeof(m_bSortAscending));
+d91 1
+d95 1
+a95 7
+	{
+	//	Use preferred sort order from preferences
+		int		iSortCode = g_App.m_pPrefs->GetColumnSortItem(CPreferences::TABLE_UPLOAD);
+
+		iSortCode |= g_App.m_pPrefs->GetColumnSortAscending(CPreferences::TABLE_UPLOAD) ? MLC_SORTASC : MLC_SORTDESC;
+		SortInit(iSortCode);
+	}
+a104 16
+void CUploadListCtrl::SortInit(int iSortCode)
+{
+	EMULE_TRY
+
+//	Get the sort column
+	int iSortColumn = (iSortCode & MLC_COLUMNMASK);
+//	Get the sort order
+	bool bSortAscending = (iSortCode & MLC_SORTDESC) == 0;
+
+	SetSortArrow(iSortColumn, bSortAscending);
+	SortItems(SortProc, iSortCode);
+	m_bSortAscending[iSortColumn] = bSortAscending;
+
+	EMULE_CATCH2
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+a552 21
+void CUploadListCtrl::OnColumnClick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	EMULE_TRY
+
+	NM_LISTVIEW	*pNMListView = reinterpret_cast<NM_LISTVIEW*>(pNMHDR);
+	int			iSubItem = pNMListView->iSubItem;
+	bool		bSortOrder = m_bSortAscending[iSubItem];
+
+// Reverse sorting direction for the same column and keep the same if column was changed
+	if (static_cast<int>(m_dwParamSort & MLC_COLUMNMASK) == iSubItem)
+		m_bSortAscending[iSubItem] = bSortOrder = !bSortOrder;
+
+	SetSortArrow(iSubItem, bSortOrder);
+	SortItems(SortProc, iSubItem + ((bSortOrder) ? MLC_SORTASC : MLC_SORTDESC));
+	g_App.m_pPrefs->SetColumnSortItem(CPreferences::TABLE_UPLOAD, iSubItem);
+	g_App.m_pPrefs->SetColumnSortAscending(CPreferences::TABLE_UPLOAD, bSortOrder);
+	*pResult = 0;
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.161
+log
+@Simplified column resize interface; Minor generic optimization; Reduced H-file dependency.
+@
+text
+@d261 1
+a261 1
+		r.right += GetColumnWidth(iColumn);
+@
+
+
+1.160
+log
+@Optimized list drawing; Slightly reduced column margins (space between actual data); Reduced H-file dependency.
+@
+text
+@d22 1
+d238 1
+a238 1
+	int				iWidth, iRight, iColumn;
+a261 1
+		iRight = r.right;
+d385 1
+a385 1
+		r.left = iRight + LIST_CELL_PADDING;
+d467 1
+a467 1
+BOOL CUploadListCtrl::OnNMDividerDoubleClick(NMHEADER *pHeader, LRESULT *pResult)
+d479 1
+a479 1
+		SetColumnWidth(iColumn,m_iColumnMaxWidths[iColumn]);
+d481 1
+a481 1
+		CMuleListCtrl::OnNMDividerDoubleClick(pHeader,pResult);
+a484 2
+
+	return *pResult = TRUE;
+d700 1
+a700 1
+	//eklmn: reset selection in DL list
+d703 1
+a703 1
+	if (posSelClient)
+d705 2
+a706 5
+		while (posSelClient)
+		{
+			int iSelClientListIndex = g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.GetNextSelectedItem(posSelClient);
+			g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.SetItemState(iSelClientListIndex, (UINT)~LVIS_SELECTED, LVIS_SELECTED);
+		}
+@
+
+
+1.159
+log
+@Allow search by file, hash, country and client software in source lists on transfer page (by client software in the download source list; by file and country in the upload and wait lists; by client software, hash and country in the known client list);
+Fixed recently broken search in the transfer pane lists;
+Increased transfer page list performance by not processing meaningless list control GetDispInfo requests.
+@
+text
+@d20 1
+d219 1
+d237 1
+a237 1
+	int				iWidth;
+d250 3
+a252 3
+	r.right = r.left - 4;
+	r.left += 4;
+	iWidth = 8;
+d256 3
+a258 1
+		int		iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+d260 3
+a262 1
+		if (!IsColumnHidden(iColumn) && !(bMeasuring && iColumn != m_iMeasuringColumn))
+d264 1
+a264 2
+			r.right += GetColumnWidth(iColumn);
+			switch (iColumn)
+d266 1
+a266 1
+				case ULCOL_USERNAME:
+d268 2
+a269 1
+					RECT			r2 = r;
+d271 7
+a277 12
+					if (!bMeasuring)
+					{
+						POINT		point = {r2.left, r2.top + 1};
+						int			iImgLstIdx = CLIENT_IMGLST_PLAIN;
+
+					//	Select corresponding image list depending on client properties
+						if (pClient->IsBanned())
+							iImgLstIdx = CLIENT_IMGLST_BANNED;
+						else if (pClient->IsFriend())
+							iImgLstIdx = CLIENT_IMGLST_FRIEND;
+						else if (pClient->m_pCredits->HasHigherScoreRatio(pClient->GetIP()))
+							iImgLstIdx = CLIENT_IMGLST_CREDITUP;
+d279 2
+a280 2
+					//	Display Client icon
+						g_App.m_pMDlg->m_clientImgLists[iImgLstIdx].Draw(dc, pClient->GetClientIconIndex(), point, ILD_NORMAL);
+d282 2
+a283 10
+						r2.left += 20;
+						if (g_App.m_pIP2Country->ShowCountryFlag())
+						{
+							point.x += 20;
+							point.y += 2;
+							g_App.m_pIP2Country->GetFlagImageList()->Draw(dc, pClient->GetCountryIndex(), point, ILD_NORMAL);
+							r2.left += 22;
+						}
+					}
+					else
+d285 4
+a288 3
+						iWidth += 20;
+						if (g_App.m_pIP2Country->ShowCountryFlag())
+							iWidth += 22;
+d290 21
+d312 3
+a314 2
+					strBuffer = pClient->GetUserName();
+					dc->DrawText(strBuffer, &r2, iCalcFlag);
+d316 3
+a318 2
+					if (bMeasuring && strBuffer.GetLength() != 0)
+						iWidth += (r2.right - r2.left + 1);
+d320 3
+a322 33
+					break;
+				}
+				case ULCOL_FILENAME:
+					if (pKnownFile != NULL)
+						strBuffer = pKnownFile->GetFileName();
+					else
+						strBuffer = _T("?");
+					break;
+
+				case ULCOL_SPEED:
+					strBuffer.Format(_T("%.1f"), static_cast<double>(pClient->GetUpDataRate()) / 1024.0);
+					break;
+
+				case ULCOL_TRANSFERRED:
+					strBuffer = CastItoXBytes(pClient->GetSessionUp());
+					break;
+
+				case ULCOL_WAITED:
+					strBuffer = CastSecondsToHM(pClient->GetWaitTime() / 1000);
+					break;
+
+				case ULCOL_UPLOADTIME:
+					strBuffer = CastSecondsToHM((pClient->GetUpStartTimeDelay()) / 1000);
+					break;
+
+				case ULCOL_STATUS:
+					GetStatusULQueueString(&strBuffer, pClient->GetUploadState());
+					if (pClient->HasLowID())
+					{
+						strBuffer += _T('/');
+						strBuffer += GetResString(IDS_LOWID);
+					}
+					break;
+d324 3
+a326 1
+				case ULCOL_PARTS:
+d328 2
+a329 8
+					uint32		iPartNum = pClient->GetCurrentlyUploadingPart();
+
+					strBuffer.Empty();
+					if (pClient->GetUpPartCount())
+						strBuffer.Format(_T("%u/%u"), pClient->GetAvailUpPartCount(), pClient->GetUpPartCount());
+					if (iPartNum != 0xFFFF)
+						strBuffer.AppendFormat(_T(" (%u)"), iPartNum);
+					break;
+d331 1
+a331 6
+				case ULCOL_PROGRESS:
+					if (pClient->GetUpPartCount() && g_App.m_pPrefs->IsUploadPartsEnabled())
+					{
+						if (!bMeasuring)
+						{
+							RECT	r2;
+d333 3
+a335 9
+							r2.bottom = r.bottom - 1;
+							r2.top = r.top + 1;
+							r2.right = r.right + 6;
+							r2.left = r.left - 3;
+							pClient->DrawUpStatusBar(dc, &r2, g_App.m_pPrefs->UseFlatBar());
+						}
+						iWidth = 300;
+					}
+					break;
+d337 9
+a345 1
+				case ULCOL_COMPRESSION:
+d347 3
+a349 1
+					double		dblCompression = pClient->GetCompression();
+d351 7
+a357 5
+					if (dblCompression < 0.1)
+						strBuffer = _T("-");
+					else
+						strBuffer.Format(_T("%.1f"), dblCompression);
+					break;
+d359 3
+a361 5
+				case ULCOL_COUNTRY:
+					strBuffer = pClient->GetCountryName();
+					break;
+			}
+			if (iColumn != ULCOL_PROGRESS && iColumn != ULCOL_USERNAME)
+d363 1
+a363 1
+				UINT		dwCalcFlag = iCalcFlag;
+d365 5
+a369 5
+				if ((iColumn == ULCOL_TRANSFERRED) || (iColumn == ULCOL_SPEED))
+					dwCalcFlag |= DT_RIGHT;
+				dc->DrawText(strBuffer, &r, dwCalcFlag);
+				if (bMeasuring && !strBuffer.IsEmpty())
+					iWidth += r.right - r.left + 1;
+d371 15
+a385 1
+			r.left += GetColumnWidth(iColumn);
+d387 7
+a393 8
+			if (bMeasuring)
+			{
+			//	Pin the column widths at some reasonable value
+				if (iWidth < 40 && iWidth != 0)
+					iWidth = 40;
+				if (iWidth > m_iColumnMaxWidths[m_iMeasuringColumn])
+					m_iColumnMaxWidths[m_iMeasuringColumn] = iWidth;
+			}
+d412 1
+d872 1
+a872 1
+    ScreenToClient(&p);
+d874 1
+a874 1
+    int it = HitTest(p);
+d876 1
+a876 2
+    if (it == -1)
+	{
+d878 1
+a878 1
+	}
+@
+
+
+1.158
+log
+@Fixed crash caused by invalid pointers casting {Nestor};
+Minor code cleanup.
+@
+text
+@a17 3
+// UploadListCtrl.cpp : implementation file
+//
+
+d797 1
+a797 1
+		if ((pDispInfo->item.mask & (LVIF_TEXT | LVIF_PARAM)) == (LVIF_TEXT | LVIF_PARAM))
+d799 5
+a803 1
+			CUpDownClient	*pClient = reinterpret_cast<CUpDownClient*>(pDispInfo->item.lParam);
+d805 1
+a805 3
+			if (pClient != NULL)
+			{
+				switch (pDispInfo->item.iSubItem)
+d807 3
+a809 3
+					case 0:
+						if (!pClient->IsUserNameEmpty() && (pDispInfo->item.cchTextMax > 0))
+						{
+d812 17
+d830 4
+a833 5
+						break;
+					default:
+						// shouldn't happen
+						pDispInfo->item.pszText[0] = _T('\0');
+						break;
+d836 2
+@
+
+
+1.157
+log
+@removed duplicated GetuserName() method
+@
+text
+@d787 1
+a787 1
+	NMLVDISPINFO *pDispInfo = reinterpret_cast<NMLVDISPINFO*>(pNMHDR);
+d789 2
+a790 1
+	if (g_App.m_pMDlg->IsRunning()){
+d800 8
+a807 4
+		if (pDispInfo->item.mask & LVIF_TEXT){
+			CUpDownClient* pClient = reinterpret_cast<CUpDownClient*>(pDispInfo->item.lParam);
+			if (pClient != NULL){
+				switch (pDispInfo->item.iSubItem){
+@
+
+
+1.156
+log
+@Rolled back recent change 'do not send an update messages if windows is not visible' as it broke proper list sorting.
+@
+text
+@d300 1
+a300 1
+					pClient->GetUserName(&strBuffer);
+@
+
+
+1.155
+log
+@do not send an update messages if windows is not visible
+@
+text
+@d206 1
+a206 1
+	if (IsWindowVisible() && pClient != NULL)
+a208 1
+		{
+a209 1
+		}
+d212 1
+a212 1
+    EMULE_CATCH
+@
+
+
+1.154
+log
+@rolled back last changes.
+@
+text
+@d206 1
+a206 1
+	if (pClient != NULL)
+@
+
+
+1.153
+log
+@changed the handlig of embedded GUI list header
+@
+text
+@a89 2
+	InitHeader();
+
+d149 1
+d159 1
+a159 1
+			m_pHeaderCtrl->SetItem(static_cast<int>(ui), &hdi);
+d250 2
+a251 1
+	int				iNumColumns = m_pHeaderCtrl->GetItemCount();
+d259 1
+a259 1
+		int		iColumn = m_pHeaderCtrl->OrderToIndex(iCurrent);
+@
+
+
+1.152
+log
+@removed useless methods
+@
+text
+@d90 2
+a150 1
+		CHeaderCtrl	*pHeaderCtrl = GetHeaderCtrl();
+d160 1
+a160 1
+			pHeaderCtrl->SetItem(static_cast<int>(ui), &hdi);
+d251 1
+a251 2
+	CHeaderCtrl		*pHeaderCtrl = GetHeaderCtrl();
+	int				iNumColumns = pHeaderCtrl->GetItemCount();
+d259 1
+a259 1
+		int		iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+@
+
+
+1.151
+log
+@Optimized setting title for client details dialog.
+@
+text
+@a38 1
+	ON_WM_ERASEBKGND()
+a705 5
+BOOL CUploadListCtrl::OnEraseBkgnd(CDC *pDC)
+{
+	return CMuleListCtrl::OnEraseBkgnd(pDC);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+a786 6
+// eklmn: let MuleListCtrl to do the job
+BOOL CUploadListCtrl::OnChildNotify(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* pLResult)
+{
+	return CMuleListCtrl::OnChildNotify(message, wParam, lParam, pLResult);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.150
+log
+@Optimized string shortcut representation.
+@
+text
+@d575 1
+a575 1
+					CClientDetails dialog(GetResString(IDS_CD_TITLE), pClient, this, 0);
+d747 1
+a747 1
+			CClientDetails dialog(GetResString(IDS_CD_TITLE), pClient, this, 0);
+d882 1
+a882 1
+			CClientDetails dialog(GetResString(IDS_CD_TITLE), pClient, this, 0);
+@
+
+
+1.149
+log
+@removed the set of ODA_SELECT action on item drawing
+@
+text
+@d526 1
+a526 1
+	menuClient.AppendMenu(dwFlags,MP_DETAIL, GetResString(IDS_SHOWDETAILS) + GetStringFromShortcutCode(SCUT_SRC_DETAILS, SSP_TAB_PREFIX));
+d536 2
+a537 2
+	menuClient.AppendMenu(dwFlags, dwRes, GetResString(dwResStrId) + GetStringFromShortcutCode(SCUT_SRC_FRIEND, SSP_TAB_PREFIX));
+	menuClient.AppendMenu(dwFlags,MP_MESSAGE, GetResString(IDS_SEND_MSG) + GetStringFromShortcutCode(SCUT_SRC_MSG, SSP_TAB_PREFIX));
+d539 1
+a539 1
+		MP_SHOWLIST, GetResString(IDS_VIEWFILES) + GetStringFromShortcutCode(SCUT_SRC_SHAREDFILES, SSP_TAB_PREFIX) );
+@
+
+
+1.148
+log
+@Suppressed level 4 warnings; Formatting [Aw3].
+@
+text
+@d234 1
+a234 1
+	if ((lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED))
+d408 1
+a408 1
+	if (!bMeasuring && (lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED))
+@
+
+
+1.147
+log
+@Simplified DrawText code -- no logic changed.
+@
+text
+@d88 1
+a88 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auColHdr); ui++)
+d156 1
+a156 1
+		for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auResTbl); ui++)
+d331 1
+a331 1
+					strBuffer = CastSecondsToHM((pClient->GetUpStartTimeDelay())/1000);
+a348 1
+					{
+a349 1
+					}
+a350 1
+					{
+a351 1
+					}
+a354 1
+				{
+d370 1
+a370 1
+				}
+d410 2
+a411 1
+		RECT		rOutline = lpDrawItemStruct->rcItem;
+d415 1
+a415 1
+		dc->FrameRect(&rOutline, &CBrush((bCtrlFocused) ? m_crFocusLine : m_crNoFocusLine));
+d505 1
+d549 1
+a549 1
+BOOL CUploadListCtrl::OnCommand(WPARAM wParam,LPARAM lParam )
+d551 1
+d596 1
+a596 1
+	if ((m_dwParamSort & MLC_COLUMNMASK) == iSubItem)
+d714 1
+d725 1
+a725 1
+			g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.SetItemState(iSelClientListIndex, ~LVIS_SELECTED, LVIS_SELECTED);
+a726 1
+
+d737 1
+@
+
+
+1.146
+log
+@Fixed rare crash while processing client lists (score access when pClient->m_pCredits = NULL) {ompz};
+Optimized score calculation and higher score status detection.
+@
+text
+@d304 1
+a304 1
+					dc->DrawText(strBuffer, strBuffer.GetLength(), &r2, iCalcFlag);
+d396 1
+a396 1
+				dc->DrawText(strBuffer, strBuffer.GetLength(), &r, dwCalcFlag);
+@
+
+
+1.145
+log
+@Reduced H-file dependency.
+@
+text
+@d226 1
+a226 4
+	if (!g_App.m_pMDlg->IsRunning())
+		return;
+
+	if (!lpDrawItemStruct->itemData)
+d281 1
+a281 1
+						else if (pClient->m_pCredits->GetScoreRatio(pClient->GetIP()) > 1)
+@
+
+
+1.144
+log
+@Simplified client upload data rate processing -- never return negative (Mantis #518).
+@
+text
+@d24 1
+d27 1
+a27 1
+#include ".\Details\clientdetails.h"
+d29 1
+a46 2
+// CUploadListCtrl
+
+@
+
+
+1.143
+log
+@UNICODE preparation (first shot)
+@
+text
+@d322 1
+a322 1
+					strBuffer.Format(_T("%.1f"),max(static_cast<double>(pClient->GetDataRate())/1024.0, 0.0));
+d671 1
+a671 1
+			iCompare = item1->GetDataRate() - item2->GetDataRate();
+@
+
+
+1.142
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d159 1
+a159 1
+			hdi.pszText = (LPSTR)strRes.GetString();
+@
+
+
+1.141
+log
+@renamed 3 variables
+@
+text
+@d94 2
+a95 2
+	if (g_App.g_pPrefs->DoUseSort())
+		SortInit(g_App.g_pPrefs->GetUploadSortCol());
+d99 1
+a99 1
+		int		iSortCode = g_App.g_pPrefs->GetColumnSortItem(CPreferences::TABLE_UPLOAD);
+d101 1
+a101 1
+		iSortCode |= g_App.g_pPrefs->GetColumnSortAscending(CPreferences::TABLE_UPLOAD) ? MLC_SORTASC : MLC_SORTDESC;
+d363 1
+a363 1
+					if (pClient->GetUpPartCount() && g_App.g_pPrefs->IsUploadPartsEnabled())
+d373 1
+a373 1
+							pClient->DrawUpStatusBar(dc, &r2, g_App.g_pPrefs->UseFlatBar());
+d547 1
+a547 1
+	menuClient.SetDefaultItem((g_App.g_pPrefs->GetDetailsOnClick()) ? MP_DETAIL : MP_MESSAGE);
+d606 2
+a607 2
+	g_App.g_pPrefs->SetColumnSortItem(CPreferences::TABLE_UPLOAD, iSubItem);
+	g_App.g_pPrefs->SetColumnSortAscending(CPreferences::TABLE_UPLOAD, bSortOrder);
+d749 1
+a749 1
+		if (g_App.g_pPrefs->GetDetailsOnClick())
+@
+
+
+1.140
+log
+@Faster remote client name handling.
+@
+text
+@d79 1
+a79 1
+	ilDummyImageList.Create(1, 17, g_eMuleApp.m_iDfltImageListColorFlags | ILC_MASK, 1, 1);
+d94 2
+a95 2
+	if (g_eMuleApp.m_pGlobPrefs->DoUseSort())
+		SortInit(g_eMuleApp.m_pGlobPrefs->GetUploadSortCol());
+d99 1
+a99 1
+		int		iSortCode = g_eMuleApp.m_pGlobPrefs->GetColumnSortItem(CPreferences::TABLE_UPLOAD);
+d101 1
+a101 1
+		iSortCode |= g_eMuleApp.m_pGlobPrefs->GetColumnSortAscending(CPreferences::TABLE_UPLOAD) ? MLC_SORTASC : MLC_SORTDESC;
+d182 1
+a182 1
+	if (g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.GetType() == INFOLISTTYPE_SOURCE)
+d184 1
+a184 1
+		if (g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.GetClient() == pClient)
+d186 1
+a186 1
+ 			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_NONE);
+d226 1
+a226 1
+	if (!g_eMuleApp.m_pdlgEmule->IsRunning())
+d253 1
+a253 1
+	CKnownFile		*pKnownFile = g_eMuleApp.m_pSharedFilesList->GetFileByID(pClient->m_reqFileHash);
+d288 1
+a288 1
+						g_eMuleApp.m_pdlgEmule->m_clientImgLists[iImgLstIdx].Draw(dc, pClient->GetClientIconIndex(), point, ILD_NORMAL);
+d291 1
+a291 1
+						if (g_eMuleApp.m_pIP2Country->ShowCountryFlag())
+d295 1
+a295 1
+							g_eMuleApp.m_pIP2Country->GetFlagImageList()->Draw(dc, pClient->GetCountryIndex(), point, ILD_NORMAL);
+d302 1
+a302 1
+						if (g_eMuleApp.m_pIP2Country->ShowCountryFlag())
+d363 1
+a363 1
+					if (pClient->GetUpPartCount() && g_eMuleApp.m_pGlobPrefs->IsUploadPartsEnabled())
+d373 1
+a373 1
+							pClient->DrawUpStatusBar(dc, &r2, g_eMuleApp.m_pGlobPrefs->UseFlatBar());
+d526 1
+a526 1
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_SOURCE, pClient);
+d547 1
+a547 1
+	menuClient.SetDefaultItem((g_eMuleApp.m_pGlobPrefs->GetDetailsOnClick()) ? MP_DETAIL : MP_MESSAGE);
+d570 1
+a570 1
+				g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(pClient);
+d573 1
+a573 1
+				g_eMuleApp.m_pFriendList->AddFriend(pClient);
+d576 1
+a576 1
+				g_eMuleApp.m_pFriendList->RemoveFriend(pClient);
+d606 2
+a607 2
+	g_eMuleApp.m_pGlobPrefs->SetColumnSortItem(CPreferences::TABLE_UPLOAD, iSubItem);
+	g_eMuleApp.m_pGlobPrefs->SetColumnSortAscending(CPreferences::TABLE_UPLOAD, bSortOrder);
+d622 2
+a623 2
+	CKnownFile* file1 = g_eMuleApp.m_pSharedFilesList->GetFileByID(item1->m_reqFileHash);
+	CKnownFile* file2 = g_eMuleApp.m_pSharedFilesList->GetFileByID(item2->m_reqFileHash);
+d722 1
+a722 1
+	POSITION posSelClient = g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.GetFirstSelectedItemPosition();
+d728 2
+a729 2
+			int iSelClientListIndex = g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.GetNextSelectedItem(posSelClient);
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.SetItemState(iSelClientListIndex, ~LVIS_SELECTED, LVIS_SELECTED);
+d749 1
+a749 1
+		if (g_eMuleApp.m_pGlobPrefs->GetDetailsOnClick())
+d756 1
+a756 1
+			g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(pClient);
+d784 1
+a784 1
+	 		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_NONE);
+d790 1
+a790 1
+	 		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_SOURCE,pClient);
+d807 1
+a807 1
+	if (g_eMuleApp.m_pdlgEmule->IsRunning()){
+@
+
+
+1.139
+log
+@Unified and regrouped shortcuts.
+@
+text
+@d306 2
+a307 2
+					strBuffer = pClient->GetUserName();
+					dc->DrawText(strBuffer,strBuffer.GetLength(),&r2, iCalcFlag);
+d634 1
+a634 1
+			iCompare = _tcsicmp(item1->GetUserName(),item2->GetUserName());
+d822 2
+a823 1
+						if (pClient->GetUserName() && pDispInfo->item.cchTextMax > 0){
+d825 1
+a825 1
+							pDispInfo->item.pszText[pDispInfo->item.cchTextMax-1] = _T('\0');
+@
+
+
+1.138
+log
+@Unified and slightly faster way to draw list cursor;
+More space for data in upload pane lists (reduced column margins);
+Removed unused OnPaint().
+@
+text
+@d532 1
+a532 1
+	menuClient.AppendMenu(dwFlags,MP_DETAIL, GetResString(IDS_SHOWDETAILS) + GetStringFromShortcutCode(IndexULDetails, SSP_TAB_PREFIX));
+d542 2
+a543 2
+	menuClient.AppendMenu(dwFlags, dwRes, GetResString(dwResStrId) + GetStringFromShortcutCode(IndexULFriend, SSP_TAB_PREFIX));
+	menuClient.AppendMenu(dwFlags,MP_MESSAGE, GetResString(IDS_SEND_MSG) + GetStringFromShortcutCode(IndexULMessage, SSP_TAB_PREFIX));
+d545 1
+a545 1
+		MP_SHOWLIST, GetResString(IDS_VIEWFILES) + GetStringFromShortcutCode(IndexULFiles, SSP_TAB_PREFIX) );
+@
+
+
+1.137
+log
+@Faster drawing of some list elements.
+@
+text
+@d234 5
+a238 4
+	if (odc && (lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED))
+		odc->SetBkColor((bCtrlFocused) ? m_crHighlight : m_crNoHighlight);
+	else
+		odc->SetBkColor(GetBkColor());
+d241 1
+a241 1
+	CMemDC			dc(odc,&CRect(lpDrawItemStruct->rcItem));
+d244 1
+a244 1
+	int				iWidth = 0;
+a252 1
+
+d257 1
+a257 1
+	r.right = r.left - 8;
+d259 1
+a259 1
+	iWidth = 12;
+d313 1
+a313 1
+	    		}
+a314 1
+				{
+d320 1
+a320 1
+				}
+a321 1
+				{
+d324 1
+a324 1
+				}
+a325 1
+				{
+d327 2
+a328 2
+    				break;
+				}
+a329 1
+				{
+d332 1
+a332 1
+				}
+a333 1
+				{
+d336 1
+a336 1
+				}
+a337 1
+				{
+d345 1
+a345 1
+				}
+a383 1
+					{
+a384 1
+					}
+a385 1
+					{
+a386 1
+					}
+a389 1
+				{
+a391 1
+				}
+d418 1
+a418 1
+		RECT		outline_rec = lpDrawItemStruct->rcItem;
+d420 3
+a422 4
+		dc->FrameRect(&outline_rec, &CBrush(GetBkColor()));
+		outline_rec.left++;
+		outline_rec.right--;
+		dc->FrameRect(&outline_rec, &CBrush((bCtrlFocused) ? m_crFocusLine : m_crNoFocusLine));
+a716 22
+void CUploadListCtrl::OnPaint()
+{
+	EMULE_TRY
+
+	CPaintDC dc(this);
+
+	CRect headerRect;
+	GetDlgItem(0)->GetWindowRect(&headerRect);
+	ScreenToClient(&headerRect);
+	dc.ExcludeClipRect(&headerRect);
+
+	CMemDC2 memDC(&dc);
+
+	CRect clip;
+	memDC.GetClipBox(&clip);
+	memDC.FillSolidRect(clip, GetSysColor(COLOR_WINDOW));
+
+	DefWindowProc(WM_PAINT, (WPARAM)memDC->m_hDC, (LPARAM)0); // causes resource memory leak
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.136
+log
+@Move displaying of LowID from Waited to Status column;
+Faster conversion of upload status into string.
+@
+text
+@d234 2
+a235 6
+	if( odc && (lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED )){
+		if(bCtrlFocused)
+			odc->SetBkColor(m_crHighlight);
+		else
+			odc->SetBkColor(m_crNoHighlight);
+	}
+d432 1
+a432 8
+		outline_rec.top--;
+		outline_rec.bottom++;
+		CBrush gdiBrush(GetBkColor());
+		CBrush *pOldBrush = dc->SelectObject(&gdiBrush);
+		dc->FrameRect(&outline_rec, &gdiBrush);
+		dc->SelectObject(pOldBrush);
+		outline_rec.top++;
+		outline_rec.bottom--;
+d435 1
+a435 15
+
+		if (bCtrlFocused)
+		{
+			CBrush fl_Brush(m_crFocusLine);
+			dc->SelectObject(&fl_Brush);
+			dc->FrameRect(&outline_rec, &fl_Brush);
+		}
+		else
+		{
+			CBrush nfl_Brush(m_crNoFocusLine);
+			dc->SelectObject(&nfl_Brush);
+			dc->FrameRect(&outline_rec, &nfl_Brush);
+		}
+
+		dc->SelectObject(pOldBrush);
+@
+
+
+1.135
+log
+@memset2 change rollback.
+@
+text
+@d26 1
+a26 1
+#include ".\Details\ClientDetails.h"
+d338 1
+a338 4
+					if (pClient->HasLowID())
+						strBuffer.Format(_T("%s %s"), CastSecondsToHM((pClient->GetWaitTime())/1000), GetResString(IDS_LOWID));
+					else
+						strBuffer = CastSecondsToHM((pClient->GetWaitTime())/1000);
+d348 6
+a353 1
+					strBuffer = GetStatusULQueueString(pClient->GetUploadState());
+@
+
+
+1.134
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d52 1
+a52 1
+	memset2(&m_bSortAscending, true, sizeof(m_bSortAscending));
+d79 1
+a79 1
+	ilDummyImageList.Create(1, 17,g_eMuleApp.m_iDfltImageListColorFlags | ILC_MASK, 1, 1);
+@
+
+
+1.133
+log
+@Add sources possibly received from global search (official).
+Added missing translations in case countryflag.dll / ip-to-country.cvs is not found.
+Notifier informs if a new version is available (not annoying, but still more likely
+ to be noticed than just a log line).
+Added 'Folder' column to Shared files window.
+Prevent adding install/working dirs (\Webserver, \Db...) to Shared files.
++ some other minor changes/fixes.
+@
+text
+@d79 1
+a79 1
+	ilDummyImageList.Create(1, 17,ILC_COLOR32 | ILC_MASK, 1, 1);
+@
+
+
+1.132
+log
+@Use of CPU optimised memset2 function
+Code refactoring
+@
+text
+@d338 4
+a341 1
+					strBuffer = CastSecondsToHM((pClient->GetWaitTime())/1000);
+@
+
+
+1.131
+log
+@Removed some suspicious message_map declaration.
+@
+text
+@d52 1
+a52 1
+	memset(&m_bSortAscending, true, sizeof(m_bSortAscending));
+d283 1
+a283 1
+					// Select corresponding image list depending on client properties
+d320 1
+a320 1
+					if (pKnownFile)
+d489 1
+a489 1
+						
+d503 1
+d506 1
+d666 1
+d669 1
+d676 1
+d678 1
+d693 1
+a693 1
+			if( (file1 != NULL) && (file2 != NULL))
+d918 1
+a918 1
+void CUploadListCtrl::ShowSelectedUserDetails() 
+d924 1
+a924 1
+	CPoint p = point; 
+d926 1
+a926 1
+    ScreenToClient(&p); 
+d928 1
+a928 1
+    int it = HitTest(p); 
+d950 1
+a950 1
+	if (m_pvecDirtyClients != NULL 
+@
+
+
+1.130
+log
+@Inform a remote client when 'See my share = No one' to save traffic (original).
+@
+text
+@d37 1
+a37 1
+	ON_WM_ERASEBKGND() // added by FoRcHa
+a42 1
+	ON_WM_DRAWITEM()
+@
+
+
+1.129
+log
+@Probable solution for crashes reported by users crash dumps.
+@
+text
+@d576 2
+a577 3
+	menuClient.AppendMenu(dwFlags,MP_SHOWLIST, GetResString(IDS_VIEWFILES) + GetStringFromShortcutCode(IndexULFiles, SSP_TAB_PREFIX));
+//	menuClient.AppendMenu(MF_SEPARATOR);
+//	menuClient.AppendMenu(MF_STRING,MP_SWITCHCTRL, GetResString(IDS_SHOWQUEUE));
+@
+
+
+1.128
+log
+@SSWQ
+@
+text
+@d468 1
+a468 1
+	BOOL		bHandled = FALSE;
+a500 1
+			bHandled = true;
+d503 3
+d511 1
+a511 3
+	{
+		bHandled = CMuleListCtrl::OnWndMsg(iMessage,wParam,lParam,pResult);
+	}
+@
+
+
+1.127
+log
+@Faster shortcuts handling.
+@
+text
+@a174 1
+	UpdateClient(pClient);
+d210 4
+a213 3
+		AddDirtyClient(pClient);
+
+		PostRefreshMessage();
+d491 1
+a491 1
+					sint16	result = FindItem(&find);
+d493 2
+a494 2
+					if (result != -1)
+						Update(result);
+d941 1
+a941 3
+//	PostRefreshMessage() puts a message into the list control's message queue telling it it needs to
+//	refresh dirty sources and then immediately returns.
+void CUploadListCtrl::PostRefreshMessage()
+d943 1
+a943 3
+	if (::IsWindow(GetSafeHwnd()) && g_eMuleApp.m_app_state != CEmuleApp::APP_STATE_SHUTINGDOWN)
+	{
+		MSG		msg;
+d945 3
+a947 13
+	//	If there's no refresh message already in the message queue... (don't want to flood it)
+		if (!::PeekMessage(&msg,m_hWnd,WM_UL_REFRESH,WM_UL_REFRESH,false))
+		{
+		//	... then post one with the current time so we know how long the request has been pending when we get it.
+			PostMessage(WM_UL_REFRESH,0,static_cast<LPARAM>(::GetCurrentTime()));
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUploadListCtrl::AddDirtyClient(CUpDownClient* pClientItem)
+{
+//	If 'pSourceItem' is not already in the dirty source list...
+	if (::find(m_pvecDirtyClients->begin(), m_pvecDirtyClients->end(), pClientItem) == m_pvecDirtyClients->end())
+d950 1
+d952 2
+@
+
+
+1.126
+log
+@Some changes and a string removal (UDP).
+@
+text
+@d564 1
+a564 1
+	menuClient.AppendMenu(dwFlags,MP_DETAIL, GetResString(IDS_SHOWDETAILS) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULDetails),SSP_TAB_PREFIX));
+d574 3
+a576 3
+	menuClient.AppendMenu(dwFlags, dwRes, GetResString(dwResStrId) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFriend), SSP_TAB_PREFIX));
+	menuClient.AppendMenu(dwFlags,MP_MESSAGE, GetResString(IDS_SEND_MSG) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULMessage),SSP_TAB_PREFIX));
+	menuClient.AppendMenu(dwFlags,MP_SHOWLIST, GetResString(IDS_VIEWFILES) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFiles),SSP_TAB_PREFIX));
+d889 1
+a889 1
+BOOL CUploadListCtrl::PreTranslateMessage(MSG* pMsg)
+d891 1
+a891 1
+	if (pMsg->message == WM_KEYDOWN || pMsg->message == WM_SYSKEYDOWN)
+a893 1
+		short	 nCode		  = GetCodeFromPressedKeys(pMsg);
+d898 2
+a899 1
+			CUpDownClient* pSource = reinterpret_cast<CUpDownClient*>(GetItemData(GetNextSelectedItem(posSelClient)));
+@
+
+
+1.125
+log
+@Faster client icon drawing in the lists;
+Unified processing of client icon images; Minor optimization.
+@
+text
+@d78 6
+d247 1
+a247 1
+	COLORREF		crOldTextColor = dc.SetTextColor(m_crWindowText);
+d258 1
+a258 1
+	CKnownFile		*file = g_eMuleApp.m_pSharedFilesList->GetFileByID(pClient->m_reqFileHash);
+d321 2
+a322 2
+					if (file)
+						strBuffer = file->GetFileName();
+d369 1
+a369 1
+					if (pClient->GetUpPartCount() && g_eMuleApp.m_pGlobPrefs->IsUploadPartsEnabled())		//Cax2 re-enabled toggle for progress bars
+d412 1
+a412 1
+				if (bMeasuring && strBuffer.GetLength() != 0)
+a981 1
+
+@
+
+
+1.124
+log
+@Unified list column creature;
+Set list column labels only in one place to avoid future incorrections.
+@
+text
+@a60 15
+	static const uint16 s_auIconResID[] =
+	{
+		IDI_NORMAL,			// 0
+		IDI_COMPROT,		// 1
+		IDI_MLDONKEY,		// 2
+		IDI_EDONKEYHYBRID,	// 3
+		IDI_CREDIT_ONLY,	// 4
+		IDI_FRIEND_ONLY,	// 5
+		IDI_BANNED_ONLY,	// 6
+		IDI_UNKNOWN,		// 7
+		IDI_AMULE,			// 8
+		IDI_LMULE,			// 9
+		IDI_SHAREAZA,		// 10
+		IDI_SECUREHASH		// 11
+	};
+a85 5
+	m_imageList.Create(16,16,ILC_COLOR32|ILC_MASK,0,10);
+	m_imageList.SetBkColor(CLR_NONE);
+	FillImgLstWith16x16Icons(&m_imageList, s_auIconResID, ELEMENT_COUNT(s_auIconResID));
+	SetImageList(&m_imageList,LVSIL_SMALL);
+
+a104 1
+	m_imageList.DeleteImageList();	//eklmn: bugfix(01): resource cleanup due to ImageLists recreation
+d276 1
+d278 1
+a278 34
+					//	Display Client icon
+						switch (pClient->GetClientSoft())
+						{
+							case SO_AMULE:
+								m_imageList.Draw(dc, UL_ICON_AMULE, point, ILD_TRANSPARENT);
+								break;
+							case SO_LMULE:
+								m_imageList.Draw(dc, UL_ICON_LMULE, point, ILD_TRANSPARENT);
+								break;
+							case SO_SHAREAZA:
+								m_imageList.Draw(dc, UL_ICON_SHAREAZA, point, ILD_TRANSPARENT);
+								break;
+							case SO_EDONKEYHYBRID:
+								m_imageList.Draw(dc, UL_ICON_EDONKEYHYBRID, point, ILD_TRANSPARENT);
+								break;
+							case SO_MLDONKEY:
+								m_imageList.Draw(dc, UL_ICON_MLDONKEY, point, ILD_TRANSPARENT);
+								break;
+							case SO_EMULE:
+							case SO_OLDEMULE:
+								if (pClient->m_pCredits->GetCurrentIdentState(pClient->GetIP()) != IS_IDENTIFIED)
+									m_imageList.Draw(dc, UL_ICON_SECUREHASH, point, ILD_TRANSPARENT);
+								else
+									m_imageList.Draw(dc, UL_ICON_COMPROT, point, ILD_TRANSPARENT);
+								break;
+							case SO_EDONKEY:
+								m_imageList.Draw(dc, UL_ICON_NORMAL, point, ILD_TRANSPARENT);
+								break;
+							default:
+								m_imageList.Draw(dc, UL_ICON_UNKNOWN, point, ILD_TRANSPARENT);
+								break;
+						}
+
+					//	Display any Extra Overlay icons
+d280 1
+a280 1
+							m_imageList.Draw(dc, UL_ICON_BANNED_ONLY, point, ILD_TRANSPARENT);
+d282 1
+a282 1
+							m_imageList.Draw(dc, UL_ICON_FRIEND_ONLY, point, ILD_TRANSPARENT);
+d284 4
+a287 1
+							m_imageList.Draw(dc, UL_ICON_CREDIT_ONLY, point, ILD_TRANSPARENT);
+d289 1
+d295 1
+a295 1
+							r2.left += 42;
+a296 2
+						else
+							r2.left += 20;
+d300 1
+d302 1
+a302 3
+							iWidth += 42;
+						else
+							iWidth += 20;
+@
+
+
+1.123
+log
+@1) corrected default toolbar definition
+2) improved processing of the username by anti-leecher feature
+3) unified async GUI updade of Upload, Queue & Client lists
+@
+text
+@a37 1
+	//ON_WM_PAINT() // added by FoRcHa
+d76 14
+d98 2
+a99 11
+	InsertColumn(ULCOL_USERNAME,GetResString(IDS_QL_USERNAME),LVCFMT_LEFT,150,0);
+	InsertColumn(ULCOL_FILENAME,GetResString(IDS_FILE),LVCFMT_LEFT,275,1);
+	InsertColumn(ULCOL_SPEED,GetResString(IDS_DL_SPEED),LVCFMT_RIGHT,60,2);
+	InsertColumn(ULCOL_TRANSFERRED,GetResString(IDS_DL_TRANSF),LVCFMT_RIGHT,65,3);
+	InsertColumn(ULCOL_WAITED,GetResString(IDS_WAITED),LVCFMT_LEFT,60,4);
+	InsertColumn(ULCOL_UPLOADTIME,GetResString(IDS_UPLOADTIME),LVCFMT_LEFT,60,5);
+	InsertColumn(ULCOL_STATUS,GetResString(IDS_STATUS),LVCFMT_LEFT,110,6);
+	InsertColumn(ULCOL_PARTS,GetResString(IDS_UP_PARTS),LVCFMT_LEFT,60,7);
+	InsertColumn(ULCOL_PROGRESS,GetResString(IDS_DL_PROGRESS),LVCFMT_LEFT,110,8);
+	InsertColumn(ULCOL_COMPRESSION,GetResString(IDS_COMPRESSION),LVCFMT_LEFT,110,9);
+	InsertColumn(ULCOL_COUNTRY,GetResString(IDS_COUNTRY),LVCFMT_LEFT,150,10);
+d106 2
+@
+
+
+1.122
+log
+@Faster list header localizations.
+@
+text
+@d56 2
+d120 1
+d218 3
+a220 1
+	LVFINDINFO		find;
+d222 2
+a223 8
+	find.flags = LVFI_PARAM;
+	find.lParam = (LPARAM)pClient;
+
+	sint16		result = FindItem(&find);
+
+	if (result != -1)
+		Update(result);
+	return;
+d514 1
+a514 1
+		case WM_UL_REFRESHCLIENT:
+d516 16
+a531 1
+			CUpDownClient	*pClient = reinterpret_cast<CUpDownClient*>(lParam);
+d533 8
+a540 1
+			UpdateClient(pClient);
+d981 42
+@
+
+
+1.121
+log
+@Fixed Client & Upload lists initial sort direction when sort settings aren't in use.
+@
+text
+@d138 15
+d157 1
+a157 2
+		CHeaderCtrl		*pHeaderCtrl = GetHeaderCtrl();
+		HDITEM			hdi;
+d159 1
+d163 6
+a168 65
+		strRes = GetResString(IDS_QL_USERNAME);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_USERNAME, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_FILE);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_FILENAME, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_DL_SPEED);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_SPEED, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_DL_TRANSF);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_TRANSFERRED, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_WAITED);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_WAITED, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_UPLOADTIME);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_UPLOADTIME, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_STATUS);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_STATUS, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_UP_PARTS);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_PARTS, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_DL_PROGRESS);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_PROGRESS, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_COMPRESSION);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_COMPRESSION, &hdi);
+		strRes.ReleaseBuffer();
+
+		strRes = GetResString(IDS_COUNTRY);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_COUNTRY, &hdi);
+		strRes.ReleaseBuffer();
+@
+
+
+1.120
+log
+@Fixed list sorting direction while switching <thanks xrmb>; minor optimization.
+@
+text
+@d105 2
+a106 3
+	//	Barry - Use preferred sort order from preferences
+		int sortItem = g_eMuleApp.m_pGlobPrefs->GetColumnSortItem(CPreferences::TABLE_UPLOAD);
+		bool	bSortAscending = g_eMuleApp.m_pGlobPrefs->GetColumnSortAscending(CPreferences::TABLE_UPLOAD);
+d108 2
+a109 2
+		SetSortArrow(sortItem, bSortAscending);
+		SortItems(SortProc, sortItem + (bSortAscending ? 0 : MLC_SORTDESC));
+@
+
+
+1.119
+log
+@Add aMule client support;
+CDonkey client support is eliminated.
+@
+text
+@d54 1
+a54 1
+	memzero(&m_bSortAscending, sizeof(m_bSortAscending));
+d131 1
+a131 1
+	SortItems(&SortProc, iSortCode);
+d689 1
+a689 1
+void CUploadListCtrl::OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult)
+d693 12
+a704 6
+	NM_LISTVIEW* pNMListView = (NM_LISTVIEW*)pNMHDR;
+	// if it's a second click on the same column then reverse the sort order,
+	// otherwise sort the new column in ascending order.
+	m_bSortAscending[pNMListView->iSubItem] = !m_bSortAscending[pNMListView->iSubItem];
+	SetSortArrow(pNMListView->iSubItem, m_bSortAscending[pNMListView->iSubItem]);
+	SortItems(&SortProc,pNMListView->iSubItem + ((m_bSortAscending[pNMListView->iSubItem]) ? 0 : MLC_SORTDESC));
+a705 2
+    g_eMuleApp.m_pGlobPrefs->SetColumnSortItem(CPreferences::TABLE_UPLOAD, pNMListView->iSubItem);
+    g_eMuleApp.m_pGlobPrefs->SetColumnSortAscending(CPreferences::TABLE_UPLOAD, m_bSortAscending[pNMListView->iSubItem]);
+@
+
+
+1.118
+log
+@Show default context menu item in client lists (thanks xrmb for the idea).
+@
+text
+@d70 1
+a70 1
+		IDI_CDONKEY,		// 8
+d341 2
+a342 2
+							case SO_CDONKEY:
+								m_imageList.Draw(dc, UL_ICON_CDONKEY, point, ILD_TRANSPARENT);
+@
+
+
+1.117
+log
+@Totally reworked country information feature to minimaze memory usage.
+@
+text
+@d644 1
+@
+
+
+1.116
+log
+@Find in lists
+@
+text
+@d383 1
+a383 1
+							g_eMuleApp.m_pIP2Country->GetFlagImageList()->Draw(dc, pClient->GetCountryFlagIndex(), point, ILD_NORMAL);
+@
+
+
+1.115
+log
+@Middle mouse button click opens details of selected client or file
+@
+text
+@d55 1
+@
+
+
+1.114
+log
+@Improve image list filling.
+@
+text
+@d972 27
+@
+
+
+1.113
+log
+@Deleted icon top & bottom transparent margins to save memory & speed up drawing;
+Better drawing method.
+@
+text
+@d59 16
+d77 1
+a77 4
+	for (int i = 0; i < ULCOL_NUMCOLUMNS; i++)
+	{
+		m_iColumnMaxWidths[i] = 0;
+	}
+d96 1
+a96 14
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_NORMAL),16,16));			// 0
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_COMPROT),16,16));			// 1
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MLDONKEY),16,16));			// 2
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_EDONKEYHYBRID),16,16));  	// 3
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CREDIT_ONLY),16,16));      // 4
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIEND_ONLY),16,16));      // 5
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_BANNED_ONLY),16,16));      // 6
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_UNKNOWN),16,16));  		// 7
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CDONKEY),16,16));  		// 8
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_LMULE),16,16));  			// 9
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SHAREAZA),16,16));  		// 10
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SECUREHASH),16,16));  		// 11
+
+	LoadImgLstIcon(NULL,0,0); // delete temp-icon
+@
+
+
+1.112
+log
+@upload progress bars fit their file's size; improved drawing of upload progress bar
+@
+text
+@d381 2
+a382 1
+							g_eMuleApp.m_pIP2Country->GetFlagImageList()->DrawIndirect(dc, pClient->GetCountryFlagIndex(), point, CSize(18,16), CPoint(0,0), ILD_NORMAL);
+@
+
+
+1.111
+log
+@minor changes
+@
+text
+@d370 1
+a370 1
+						//	Display any Extra Overlay icons
+d463 1
+a463 1
+							pClient->DrawUpStatusBar(dc, &r2, false, g_eMuleApp.m_pGlobPrefs->UseFlatBar());
+d627 1
+a627 1
+	
+@
+
+
+1.110
+log
+@added tooltips in On Queue & Known Clients lists
+@
+text
+@a376 1
+						r2.left += 20;
+d382 1
+a382 1
+							r2.left += 22;
+d384 2
+@
+
+
+1.109
+log
+@increased icon/username spacing to 2 pixels + minor improvement
+@
+text
+@d370 1
+a370 1
+					//	Display any Extra Overlay icons
+a377 1
+						point.x += 20;
+d381 1
+@
+
+
+1.108
+log
+@no longer loading mid size names + some small changes
+@
+text
+@d378 1
+d382 2
+a383 4
+							POINT		point2 = {r2.left, r2.top + 1};
+
+							g_eMuleApp.m_pIP2Country->GetFlagImageList()->DrawIndirect(dc, pClient->GetCountryFlagIndex(), point2, CSize(18,16), CPoint(0,0), ILD_NORMAL);
+							r2.left += 20;
+d389 1
+a389 1
+							iWidth += 40;
+@
+
+
+1.107
+log
+@reduced the space between flag and user name + minor fix in client details
+@
+text
+@d485 1
+a485 1
+					strBuffer = pClient->GetCountryName(true);
+@
+
+
+1.106
+log
+@moved the country icon back near the client type icon
+@
+text
+@d331 2
+d335 1
+a335 1
+						POINT		point = {r.left, r.top + 1};
+d377 1
+a377 2
+
+						r.left += 20;
+d381 1
+a381 1
+							POINT		point2 = {r.left, r.top + 1};
+d384 1
+a384 1
+							r.left += 25;
+d390 1
+a390 1
+							iWidth += 45;
+d396 1
+a396 1
+					dc->DrawText(strBuffer,strBuffer.GetLength(),&r, iCalcFlag);
+d399 1
+a399 1
+						iWidth += (r.right - r.left + 1);
+a400 4
+					if (g_eMuleApp.m_pIP2Country->ShowCountryFlag())
+						r.left -= 45;
+					else
+						r.left -= 20;
+@
+
+
+1.105
+log
+@minor changes
+@
+text
+@d333 1
+a333 1
+						POINT		point = {r.left, r.top+1};
+d377 8
+d387 6
+a392 1
+						iWidth += 20;
+d399 5
+a403 1
+					r.left -= 20;
+d488 1
+a488 17
+					if (g_eMuleApp.m_pIP2Country->ShowCountryFlag())
+					{
+						if (!bMeasuring)
+						{
+
+							POINT point = {r.left,r.top + 1};
+							g_eMuleApp.m_pIP2Country->GetFlagImageList()->DrawIndirect(dc, pClient->GetCountryFlagIndex(), point, CSize(18,16), CPoint(0,0), ILD_NORMAL);
+							strBuffer = pClient->GetCountryName(true);
+							r.left += 25;
+							dc->DrawText(strBuffer,strBuffer.GetLength(),&r, iCalcFlag);
+							r.left -= 25;
+						}
+						else
+							iWidth += 25;
+					}
+					else
+						iWidth += r.right - r.left + 1;
+d492 1
+a492 1
+			if (iColumn != ULCOL_PROGRESS && iColumn != ULCOL_USERNAME && iColumn != ULCOL_COUNTRY)
+@
+
+
+1.104
+log
+@minor changes
+@
+text
+@d487 1
+a487 1
+						iWidth += r.right-r.left+1;
+a492 1
+				RECT		r2 = r;
+d497 1
+a497 1
+				dc->DrawText(strBuffer, strBuffer.GetLength(), &r2, dwCalcFlag);
+d499 1
+a499 1
+					iWidth += r2.right - r2.left + 1;
+@
+
+
+1.103
+log
+@Please, DO NOT alter column order. This messes with users column customization and don't bring a standard as people likings are different.
+@
+text
+@d70 7
+a76 7
+	InsertColumn(ULCOL_FILENAME,GetResString(IDS_FILE),LVCFMT_LEFT,275,2);
+	InsertColumn(ULCOL_SPEED,GetResString(IDS_DL_SPEED),LVCFMT_RIGHT,60,3);
+	InsertColumn(ULCOL_TRANSFERRED,GetResString(IDS_DL_TRANSF),LVCFMT_RIGHT,65,4);
+	InsertColumn(ULCOL_WAITED,GetResString(IDS_WAITED),LVCFMT_LEFT,60,5);
+	InsertColumn(ULCOL_UPLOADTIME,GetResString(IDS_UPLOADTIME),LVCFMT_LEFT,60,6);
+	InsertColumn(ULCOL_STATUS,GetResString(IDS_STATUS),LVCFMT_LEFT,110,7);
+	InsertColumn(ULCOL_PARTS,GetResString(IDS_UP_PARTS),LVCFMT_LEFT,60,8);
+d78 2
+a79 2
+	InsertColumn(ULCOL_COMPRESSION,GetResString(IDS_COMPRESSION),LVCFMT_LEFT,110,10);
+	InsertColumn(ULCOL_COUNTRY,GetResString(IDS_COUNTRY),LVCFMT_LEFT,150,1);
+@
+
+
+1.102
+log
+@Added "Country" column in Uploads/On Queue/Known Clients lists
+@
+text
+@a69 1
+	InsertColumn(ULCOL_COUNTRY,GetResString(IDS_COUNTRY),LVCFMT_LEFT,150,1);
+d79 1
+a153 6
+		strRes = GetResString(IDS_COUNTRY);
+		hdi.pszText = strRes.GetBuffer();
+		hdi.cchTextMax = strRes.GetLength();
+		pHeaderCtrl->SetItem(ULCOL_COUNTRY, &hdi);
+		strRes.ReleaseBuffer();
+
+d207 6
+d388 1
+a388 22
+	    		}				
+				case ULCOL_COUNTRY:
+				{
+					if (g_eMuleApp.m_pIP2Country->ShowCountryFlag())
+					{
+						if (!bMeasuring)
+						{
+
+							POINT point = {r.left,r.top + 1};
+							g_eMuleApp.m_pIP2Country->GetFlagImageList()->DrawIndirect(dc, pClient->GetCountryFlagIndex(), point, CSize(18,16), CPoint(0,0), ILD_NORMAL);
+							strBuffer = pClient->GetCountryName(true);
+							r.left += 25;
+							dc->DrawText(strBuffer,strBuffer.GetLength(),&r, iCalcFlag);
+							r.left -= 25;
+						}
+						else
+							iWidth += 25;
+					}
+					else
+						iWidth += r.right-r.left+1;
+					break;
+				}
+d469 21
+@
+
+
+1.101
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d70 8
+a77 7
+	InsertColumn(ULCOL_FILENAME,GetResString(IDS_FILE),LVCFMT_LEFT,275,1);
+	InsertColumn(ULCOL_SPEED,GetResString(IDS_DL_SPEED),LVCFMT_RIGHT,60,2);
+	InsertColumn(ULCOL_TRANSFERRED,GetResString(IDS_DL_TRANSF),LVCFMT_RIGHT,65,3);
+	InsertColumn(ULCOL_WAITED,GetResString(IDS_WAITED),LVCFMT_LEFT,60,4);
+	InsertColumn(ULCOL_UPLOADTIME,GetResString(IDS_UPLOADTIME),LVCFMT_LEFT,60,5);
+	InsertColumn(ULCOL_STATUS,GetResString(IDS_STATUS),LVCFMT_LEFT,110,6);
+	InsertColumn(ULCOL_PARTS,GetResString(IDS_UP_PARTS),LVCFMT_LEFT,60,7);
+d79 1
+a79 1
+	InsertColumn(ULCOL_COMPRESSION,GetResString(IDS_COMPRESSION),LVCFMT_LEFT,110,9); // Add show compression	//netwolf 05.05.03 (left justified)
+d154 6
+a381 14
+
+					SIZE TextSize;
+
+					if (g_eMuleApp.m_pIP2Country->ShowCountryFlag())
+					{
+						POINT point2 = {r.left,r.top + 1};
+						g_eMuleApp.m_pIP2Country->GetFlagImageList()->DrawIndirect(dc, pClient->GetCountryFlagIndex(), point2, CSize(18,16), CPoint(0,0), ILD_NORMAL);
+						r.left += 20;
+						GetTextExtentPoint32(dc, _T("N/A  "), 5, &TextSize);
+						CString strBuffer2 = pClient->GetCountryName();
+						strBuffer2 += _T("  ");
+						dc->DrawText(strBuffer2,strBuffer2.GetLength(),&r, iCalcFlag);
+						r.left += TextSize.cx;
+					}
+d386 9
+d396 10
+a405 2
+					if (g_eMuleApp.m_pIP2Country->ShowCountryFlag())
+						r.left -= (40 + TextSize.cx);
+d407 1
+a407 1
+						r.left -= 20;
+d409 1
+a409 1
+	    		}
+d491 1
+a491 1
+			if (iColumn != ULCOL_PROGRESS && iColumn != ULCOL_USERNAME)
+d728 20
+@
+
+
+1.100
+log
+@Minor optimization.
+@
+text
+@d27 1
+d376 1
+a376 1
+					RECT	r2 = r;
+d378 12
+a389 1
+					dc->DrawText(strBuffer, strBuffer.GetLength(), &r2, iCalcFlag);
+d392 1
+a392 1
+						iWidth += (r2.right - r2.left + 1);
+d394 4
+a397 1
+					r.left -=20;
+@
+
+
+1.99
+log
+@xrmb fix for unused pixel in Upload/On Queue progress bar; xrmb different shades of yellow in progress bar for current transfer position and remaining
+@
+text
+@d439 7
+a445 9
+							r.bottom--;
+							r.top++;
+							r.right+=6;
+							r.left-=3;
+							pClient->DrawUpStatusBar(dc, &r, false, g_eMuleApp.m_pGlobPrefs->UseFlatBar());
+							r.right-=6;
+							r.left+=3;
+							r.bottom++;
+							r.top--;
+@
+
+
+1.98
+log
+@xrmb changes
+@
+text
+@d441 2
+d444 2
+@
+
+
+1.97
+log
+@Changes to Upload Log, enabled addsource for second client on same computer (different port) and other minor changes
+@
+text
+@d649 4
+a652 2
+				CClientDetails dialog(GetResString(IDS_CD_TITLE), pClient, this, 0);
+				dialog.DoModal();
+@
+
+
+1.96
+log
+@Improved string processing; minor optimization.
+@
+text
+@d425 1
+a425 8
+						if (iPartNum != 0xFFFF)
+						{
+							strBuffer.Format(_T("%u/%u "), pClient->GetAvailUpPartCount(), pClient->GetUpPartCount());
+						}
+						else
+						{
+							strBuffer.Format(_T("%u/%u"), pClient->GetAvailUpPartCount(), pClient->GetUpPartCount());
+						}
+d429 1
+a429 1
+						strBuffer.AppendFormat(_T("(%u)"), iPartNum);
+@
+
+
+1.95
+log
+@replaced "TrackPopupMenu" to "TrackPopupMenuEx"
+@
+text
+@d296 1
+a296 1
+	UINT			iCalcFlag = bMeasuring ? (DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_CALCRECT) : (DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_END_ELLIPSIS);
+d373 1
+a373 1
+					strBuffer.Format(_T("%s"), pClient->GetUserName());
+d377 1
+a377 1
+					dc->DrawText(strBuffer,strBuffer.GetLength(),&r2,iCalcFlag);
+d388 1
+a388 1
+						strBuffer.Format(_T("%s"), file->GetFileName());
+d390 1
+a390 1
+						strBuffer = "?";
+d422 1
+a422 1
+					strBuffer = _T("");
+d427 1
+a427 1
+							strBuffer.Format(_T("%d/%d "), pClient->GetAvailUpPartCount(), pClient->GetUpPartCount());
+d431 1
+a431 1
+							strBuffer.Format(_T("%d/%d"), pClient->GetAvailUpPartCount(), pClient->GetUpPartCount());
+d434 6
+a439 6
+                    if (iPartNum != 0xFFFF)
+                    {
+                        strBuffer.AppendFormat(_T("(%d)"), iPartNum);
+                    }
+                    break;
+                }
+a443 6
+						r.bottom--;
+						r.top++;
+
+						int		iBarWidth = r.right - r.left;
+						int		iBarHeight = r.bottom - r.top;
+
+d445 7
+a451 4
+							pClient->DrawUpStatusBar(dc,&r,false,g_eMuleApp.m_pGlobPrefs->UseFlatBar());
+						r.bottom++;
+						r.top--;
+
+d458 1
+a458 1
+	                double		dblCompression = pClient->GetCompression();
+d460 4
+a463 4
+	                if (dblCompression < 0.1)
+	                {
+    					strBuffer.Format(_T("-"));
+	                }
+d466 1
+a466 1
+    					strBuffer.Format(_T("%.1f"),dblCompression);
+d468 1
+a468 1
+                    break;
+d474 1
+d476 3
+a478 4
+				if (iColumn != ULCOL_TRANSFERRED && iColumn != ULCOL_SPEED)
+					dc->DrawText(strBuffer,strBuffer.GetLength(),&r2,iCalcFlag);
+				else
+					dc->DrawText(strBuffer,strBuffer.GetLength(),&r2,(iCalcFlag | DT_RIGHT));
+@
+
+
+1.94
+log
+@SetMenu shouldn't be called for popup menu (removed)
+@
+text
+@d628 1
+a628 1
+	menuClient.TrackPopupMenu(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this);
+@
+
+
+1.93
+log
+@minor memory copy improvements
+@
+text
+@a627 1
+	SetMenu(reinterpret_cast<CMenu*>(&menuClient));
+@
+
+
+1.92
+log
+@Improved context menu creation
+@
+text
+@a293 1
+	RECT			r;
+d301 1
+a301 2
+	memcpy2(&r,&lpDrawItemStruct->rcItem,sizeof(RECT));
+
+d500 1
+a500 2
+		RECT		outline_rec;
+		memcpy2(&outline_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+@
+
+
+1.91
+log
+@formatting;
+optimzations in UploadQueue.cpp;
+removing doubled ';'
+@
+text
+@d593 1
+a593 1
+void CUploadListCtrl::OnContextMenu(CWnd* pWnd, CPoint point)
+a594 4
+	UINT flags=MF_STRING|MF_GRAYED;
+	CTitleMenu*	pMenuClient = NULL;
+	CUpDownClient* pClient = NULL;
+
+d597 4
+a600 1
+	POSITION posSelClient = GetFirstSelectedItemPosition();
+d604 1
+a610 1
+		flags=MF_STRING;
+d613 17
+a629 12
+	pMenuClient = new  CTitleMenu();
+	pMenuClient->CreatePopupMenu();
+	pMenuClient->AddMenuTitle(GetResString(IDS_CLIENTS));
+	pMenuClient->AppendMenu(flags,MP_DETAIL, GetResString(IDS_SHOWDETAILS) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULDetails),SSP_TAB_PREFIX));
+	if(pClient && pClient->IsFriend())
+		pMenuClient->AppendMenu(flags,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFriend),SSP_TAB_PREFIX));
+	else
+		pMenuClient->AppendMenu(flags,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFriend),SSP_TAB_PREFIX));
+	pMenuClient->AppendMenu(flags,MP_MESSAGE, GetResString(IDS_SEND_MSG) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULMessage),SSP_TAB_PREFIX));
+	pMenuClient->AppendMenu(flags,MP_SHOWLIST, GetResString(IDS_VIEWFILES) + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFiles),SSP_TAB_PREFIX));
+//	pMenuClient->AppendMenu(MF_SEPARATOR);
+//	pMenuClient->AppendMenu(MF_STRING,MP_SWITCHCTRL, GetResString(IDS_SHOWQUEUE));
+d631 2
+a632 2
+	SetMenu(reinterpret_cast<CMenu*>(pMenuClient));
+	pMenuClient->TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this);
+d634 1
+a634 1
+	pMenuClient->DestroyMenu();
+a636 2
+
+	safe_delete(pMenuClient);
+@
+
+
+1.90
+log
+@Formatting, comments, and name changes.
+Removed old #defines
+@
+text
+@d761 1
+a761 1
+	return iCompare * iSortMod;;
+@
+
+
+1.89
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@a765 6
+#ifdef OLD
+//	MOREVIT - I don't know why this was overridden in the first place, but it causes
+//		constant flashing of the upload list on my machine. Reverting to the parent
+//		class method appears to have fixed the problem.
+	return CListCtrl::OnEraseBkgnd(pDC);
+#else
+a766 1
+#endif
+@
+
+
+1.88
+log
+@minor changes
+@
+text
+@d53 1
+a53 1
+	memset2(&m_bSortAscending, 0, sizeof(m_bSortAscending));
+@
+
+
+1.87
+log
+@small corrections & some optimizations
+@
+text
+@d134 1
+a134 1
+void CUploadListCtrl::Localize() 
+d233 1
+a233 1
+	
+d369 1
+a369 1
+		                
+d383 1
+a383 1
+					
+d402 1
+a402 1
+					strBuffer = CastItoXBytes(pClient->GetSessionUp());	
+d421 2
+a422 8
+                {
+					CString		strBuffer2;
+                    uint32		iPartNum = pClient->GetCurrentlyUploadingPart();
+
+                    if (iPartNum == 0xFFFF)
+                        strBuffer2 = "";
+                    else
+                        strBuffer2.Format(_T(" (%d)"), iPartNum);
+d424 1
+d426 14
+a439 3
+					    strBuffer.Format(_T("%d/%d%s"), pClient->GetAvailUpPartCount(), pClient->GetUpPartCount(), strBuffer2);
+                    else
+					    strBuffer.Format(_T("%s"), strBuffer2);
+d449 1
+a449 1
+						int		iBarWidth = r.right - r.left;	
+d451 1
+a451 1
+						
+d466 1
+a466 1
+	                {						
+d600 1
+a600 1
+	
+d606 1
+a606 1
+		
+d633 1
+a633 1
+		
+d645 1
+a645 1
+		
+d697 1
+a697 1
+	
+d711 1
+a711 1
+		case ULCOL_FILENAME: 
+d722 1
+a722 1
+		case ULCOL_SPEED: 
+d728 1
+a728 1
+		case ULCOL_WAITED: 
+d731 1
+a731 1
+		case ULCOL_UPLOADTIME: 
+d734 1
+a734 1
+		case ULCOL_STATUS: 
+d781 1
+a781 1
+    
+d786 1
+a786 1
+			
+d792 1
+a792 1
+	
+d812 1
+a812 1
+		
+d815 1
+a815 1
+	RefreshInfo();	
+d829 1
+a829 1
+		
+d834 2
+a835 2
+		} 
+		else 
+d862 1
+a862 1
+		
+d870 1
+a870 1
+			
+d930 1
+a930 1
+			
+@
+
+
+1.86
+log
+@Some corrections in shortcut management code to keep new engine hierarchy (thanks to eklmn ;-))
+@
+text
+@d912 1
+a912 1
+
+d924 1
+a925 1
+		}
+d927 5
+a931 4
+		if (iMessage > 0)
+		{
+			PostMessage(WM_COMMAND, iMessage);
+			return TRUE;
+@
+
+
+1.85
+log
+@solution for selection & clicking (hopefuilly it will be final)
+@
+text
+@d912 24
+@
+
+
+1.84
+log
+@Minor fix on item selection and InfoList update
+@
+text
+@d594 2
+d597 1
+a597 6
+	if(GetFirstSelectedItemPosition() == NULL)
+		return;
+
+	const int iClientListIndex = GetSelectionMark();
+	
+	if ( iClientListIndex != -1)
+d599 3
+a601 3
+		if(GetSelectedCount()>0)
+			flags=MF_STRING;
+		if(pClient = (CUpDownClient*)GetItemData(iClientListIndex))
+d603 1
+a603 1
+ 			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_SOURCE,const_cast<CUpDownClient*>(pClient));
+d605 1
+d634 1
+a634 1
+	const int iClientListIndex = GetSelectionMark();
+d636 1
+a636 1
+	if (iClientListIndex != -1)
+d638 2
+a639 1
+		CUpDownClient* pClient = (CUpDownClient*)GetItemData(iClientListIndex);
+d796 13
+d818 1
+d820 1
+a820 4
+	if(GetFirstSelectedItemPosition() == NULL)
+		return;
+
+	if (GetSelectionMark() != (-1))
+d822 2
+a823 1
+		CUpDownClient* client = (CUpDownClient*)GetItemData(GetSelectionMark());
+d826 1
+a826 1
+			CClientDetails dialog(GetResString(IDS_CD_TITLE), client, this, 0);
+d831 1
+a831 1
+			g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(client);
+a852 1
+	//eklmn: refresh an InfoList if it active at the moment
+d855 3
+a857 3
+		POSITION		pos = GetFirstSelectedItemPosition();
+
+		if(pos == NULL)
+d863 1
+a863 3
+			const int iSelClientListIndex = GetSelectionMark();
+
+			CUpDownClient* pClient = reinterpret_cast<CUpDownClient*>(GetItemData(iSelClientListIndex));
+d865 1
+a865 1
+	 		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_SOURCE, pClient);
+@
+
+
+1.83
+log
+@refresh an InfoList only if ListCtrl is active
+@
+text
+@d594 4
+a597 1
+	
+d807 3
+d845 4
+a848 4
+		const int iSelClientListIndex = GetSelectionMark();
+		
+		if(iSelClientListIndex == -1)
+		{			
+d853 2
+@
+
+
+1.82
+log
+@fixed crash  due context menu, shortcut optimiation & update to UNICODE
+@
+text
+@d836 2
+a837 6
+	POSITION pos = GetFirstSelectedItemPosition();
+	if(pos == NULL)
+	{			
+ 		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_NONE);
+	}
+	else
+d839 1
+a839 1
+		const CUpDownClient* pClient = (CUpDownClient*)GetItemData(GetSelectionMark());
+d841 11
+a851 2
+ 		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SetList(INFOLISTTYPE_SOURCE,const_cast<CUpDownClient*>(pClient));
+	}	
+@
+
+
+1.81
+log
+@proper InfoList handling
+@
+text
+@d588 1
+a588 6
+{	
+	EMULE_TRY
+
+//	POINT point;
+//	::GetCursorPos(&point);	
+
+d590 1
+d592 6
+a597 1
+	if (GetSelectionMark() != -1)
+d601 1
+a601 1
+		if(pClient = (CUpDownClient*)GetItemData(GetSelectionMark()))
+d607 4
+a610 4
+	if (m_menuClient) m_menuClient.DestroyMenu();
+	m_menuClient.CreatePopupMenu();
+	m_menuClient.AddMenuTitle(GetResString(IDS_CLIENTS));
+	m_menuClient.AppendMenu(flags,MP_DETAIL, GetResString(IDS_SHOWDETAILS) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULDetails)));
+d612 1
+a612 1
+		m_menuClient.AppendMenu(flags,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFriend)));
+d614 10
+a623 9
+		m_menuClient.AppendMenu(flags,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFriend)));
+	m_menuClient.AppendMenu(flags,MP_MESSAGE, GetResString(IDS_SEND_MSG) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULMessage)));
+	m_menuClient.AppendMenu(flags,MP_SHOWLIST, GetResString(IDS_VIEWFILES) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFiles)));
+//	m_menuClient.AppendMenu(MF_SEPARATOR);
+//	m_menuClient.AppendMenu(MF_STRING,MP_SWITCHCTRL, GetResString(IDS_SHOWQUEUE));
+	SetMenu(&m_menuClient);
+	m_menuClient.TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this);
+//	*pResult = 0;
+	m_menuClient.DestroyMenu();
+d626 2
+d633 1
+d635 5
+a639 3
+	if (GetSelectionMark() != (-1)){
+		CUpDownClient* client = (CUpDownClient*)GetItemData(GetSelectionMark());
+		switch (wParam){
+d641 1
+a641 1
+				client->RequestSharedFileList();
+d644 1
+a644 1
+				g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(client);
+d647 1
+a647 1
+				g_eMuleApp.m_pFriendList->AddFriend(client);
+d650 1
+a650 1
+				g_eMuleApp.m_pFriendList->RemoveFriend(client);
+d653 1
+a653 1
+				CClientDetails dialog(GetResString(IDS_CD_TITLE), client, this, 0);
+a655 1
+
+@
+
+
+1.80
+log
+@Correct localization of decimal point & thousands seperator + Correct encoding for Hebrew language in WebServer
+@
+text
+@d230 1
+a230 2
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SwitchToFile(NULL);
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.UpdateInfoHeader();
+d595 1
+a595 1
+	const CUpDownClient* client = NULL;
+d600 1
+a600 1
+		if(client = (CUpDownClient*)GetItemData(GetSelectionMark()))
+d602 1
+a602 2
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SwitchToUser((CUpDownClient*)client);
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.UpdateInfoHeader();
+d610 1
+a610 1
+	if(client && client->IsFriend())
+d833 1
+a833 2
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SwitchToFile(NULL);
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.UpdateInfoHeader();
+d837 3
+a839 3
+		const CUpDownClient* client = (CUpDownClient*)GetItemData(GetSelectionMark());
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.SwitchToUser((CUpDownClient*)client);
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.UpdateInfoHeader();
+@
+
+
+1.79
+log
+@Added a function: bool IsRightToLeftLanguage(); + Fixed Hebrew text alignment in Shared Files list + Hebrew translation update
+@
+text
+@d301 1
+a301 1
+		iCalcFlag = (iCalcFlag | DT_RTLREADING);
+@
+
+
+1.78
+log
+@Fixed Hebrew text alignment in Client, Downlod, Queue & Upload lists to Right-To-Left
+@
+text
+@d300 1
+a300 1
+	if ( g_eMuleApp.m_pGlobPrefs->GetLanguageID() == 1037 )
+@
+
+
+1.77
+log
+@Change to shortcut management code (it's easier to add an action now) / Added a lot of actions to shortcut management / Added some keys to shortcut management
+@
+text
+@d300 3
+@
+
+
+1.76
+log
+@Fixed selection background color on Uploads, On Queue & Known Clients lists and some other fixes
+@
+text
+@d608 1
+a608 1
+	m_menuClient.AppendMenu(flags,MP_DETAIL, GetResString(IDS_SHOWDETAILS) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadViewClientDetailsShortcutCode()));
+d610 1
+a610 1
+		m_menuClient.AppendMenu(flags,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadAddClientToFriendsShortcutCode()));
+d612 3
+a614 3
+		m_menuClient.AppendMenu(flags,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadAddClientToFriendsShortcutCode()));
+	m_menuClient.AppendMenu(flags,MP_MESSAGE, GetResString(IDS_SEND_MSG) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadSendMessageClientShortcutCode()));
+	m_menuClient.AppendMenu(flags,MP_SHOWLIST, GetResString(IDS_VIEWFILES) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadViewClientFilesShortcutCode()));
+@
+
+
+1.75
+log
+@1) sorting update
+2) double-click issue
+3) OnChildNotify() replaced by MuleListCtrl::OnChildNotify()
+@
+text
+@d274 3
+d282 8
+a289 2
+
+	odc->SetBkColor(GetBkColor());	//Cax2 - bkColor fix!
+d294 1
+a305 1
+
+d331 1
+a331 1
+								m_imageList.Draw(dc, UL_ICON_CDONKEY, point, ILD_NORMAL);
+d334 1
+a334 1
+								m_imageList.Draw(dc, UL_ICON_LMULE, point, ILD_NORMAL);
+d337 1
+a337 1
+								m_imageList.Draw(dc, UL_ICON_SHAREAZA, point, ILD_NORMAL);
+d340 1
+a340 1
+								m_imageList.Draw(dc, UL_ICON_EDONKEYHYBRID, point, ILD_NORMAL);
+d343 1
+a343 1
+								m_imageList.Draw(dc, UL_ICON_MLDONKEY, point, ILD_NORMAL);
+d348 1
+a348 1
+									m_imageList.Draw(dc, UL_ICON_SECUREHASH, point, ILD_NORMAL);
+d350 1
+a350 1
+									m_imageList.Draw(dc, UL_ICON_COMPROT, point, ILD_NORMAL);
+d353 1
+a353 1
+								m_imageList.Draw(dc, UL_ICON_NORMAL, point, ILD_NORMAL);
+d356 1
+a356 1
+								m_imageList.Draw(dc, UL_ICON_UNKNOWN, point, ILD_NORMAL);
+a494 2
+		CBrush		*pOldBrush;
+
+d499 2
+a500 4
+
+		CBrush		gdiBrush(GetBkColor());
+
+		pOldBrush = dc->SelectObject(&gdiBrush);	//eklmn: select a new brush
+d502 1
+d510 2
+a511 3
+			CBrush		fl_Brush(m_crFocusLine);
+
+			dc->SelectObject(&fl_Brush);	//eklmn: select a new brush
+d517 1
+a517 1
+			dc->SelectObject(&nfl_Brush);	//eklmn: select a new brush
+d521 1
+a521 1
+		dc->SelectObject(pOldBrush);		//eklmn: recover an old brush
+a522 1
+
+a523 1
+	{
+d525 2
+a526 1
+	}
+@
+
+
+1.74
+log
+@item check by sorting
+@
+text
+@d129 1
+d142 1
+a144 3
+		hdi.fmt = HDF_LEFT;
+
+		CString		strRes;
+d841 1
+d844 1
+a844 18
+	if(message != WM_DRAWITEM) {
+		//catch the prepaint and copy struct
+		if(message == WM_NOTIFY && (reinterpret_cast<NMHDR*>(lParam))->code == NM_CUSTOMDRAW &&
+		  ((LPNMLVCUSTOMDRAW)lParam)->nmcd.dwDrawStage == CDDS_ITEMPREPAINT) {
+
+			m_bCustomDraw = CListCtrl::OnChildNotify(message, wParam, lParam, pLResult);
+			if(m_bCustomDraw)
+				memcpy2(&m_lvcd, reinterpret_cast<void*>(lParam), sizeof(NMLVCUSTOMDRAW));
+			return m_bCustomDraw;
+		}
+
+		return CListCtrl::OnChildNotify(message, wParam, lParam, pLResult);
+	}
+	ASSERT(pLResult == NULL); // no return value expected
+	UNUSED(pLResult);         // unused in release builds
+
+	DrawItem(reinterpret_cast<LPDRAWITEMSTRUCT>(lParam));
+	return TRUE;
+@
+
+
+1.73
+log
+@Formatting, comments, and name changes.
+@
+text
+@d103 1
+a103 1
+		int		sortItem = g_eMuleApp.m_pGlobPrefs->GetColumnSortItem(CPreferences::TABLE_UPLOAD);
+d122 4
+a125 1
+	int		iCurrentSortItem = (iSortCode < ULCOL_NUMCOLUMNS) ? iSortCode : iSortCode - ULCOL_NUMCOLUMNS;
+d127 1
+a127 1
+	SetSortArrow(iCurrentSortItem,(iSortCode < ULCOL_NUMCOLUMNS));
+d143 1
+d145 1
+a145 1
+		CString			strRes;
+d149 1
+d155 1
+d161 1
+d167 1
+d173 1
+d179 1
+d185 1
+d191 1
+d197 1
+d201 5
+a205 4
+	    strRes = GetResString(IDS_COMPRESSION);
+	    hdi.pszText = strRes.GetBuffer();
+	    pHeaderCtrl->SetItem(ULCOL_COMPRESSION, &hdi);
+	    strRes.ReleaseBuffer();
+a672 2
+	EMULE_TRY
+
+d675 5
+d683 46
+a728 67
+	switch(lParamSort){
+	case 0:
+		return CString(item1->GetUserName()).CompareNoCase(item2->GetUserName());
+	case 0+MLC_SORTDESC:
+		return CString(item2->GetUserName()).CompareNoCase(item1->GetUserName());
+	case 1: 
+		if( (file1 != NULL) && (file2 != NULL))
+			return CString(file1->GetFileName()).CompareNoCase(file2->GetFileName());
+		else if( file1 == NULL )
+			return 1;
+		else
+			return (file2 == NULL)?0:-1;
+	case 1+MLC_SORTDESC:
+		if( (file1 != NULL) && (file2 != NULL))
+			return CString(file2->GetFileName()).CompareNoCase(file1->GetFileName());
+		else if( file1 == NULL )
+			return 1;
+		else
+			return (file2 == NULL)?0:-1;
+	case 2: 
+			return item1->GetDataRate() - item2->GetDataRate();
+	case 2+MLC_SORTDESC:
+			return item2->GetDataRate() - item1->GetDataRate();
+
+	case 3:
+		return item1->GetSessionUp() - item2->GetSessionUp();
+	case 3+MLC_SORTDESC: 
+		return item2->GetSessionUp() - item1->GetSessionUp();
+
+	case 4: 
+		return item1->GetWaitTime() - item2->GetWaitTime();
+	case 4+MLC_SORTDESC: 
+		return item2->GetWaitTime() - item1->GetWaitTime();
+	case 5: 
+		return item1->GetUpStartTimeDelay() - item2->GetUpStartTimeDelay();
+	case 5+MLC_SORTDESC: 
+		return item2->GetUpStartTimeDelay() - item1->GetUpStartTimeDelay();
+	case 6: 
+		return item1->GetUploadState() - item2->GetUploadState();
+	case 6+MLC_SORTDESC: 
+		return item2->GetUploadState() - item1->GetUploadState();
+
+    case 7:
+    case 7+MLC_SORTDESC:
+    case 8:
+    case 8+MLC_SORTDESC:
+            {  // obaldin: sort by upload progress
+                int res;
+                uint32 partcnt1 = item1->GetUpPartCount();
+                uint32 partcnt2 = item2->GetUpPartCount();
+                if( (partcnt1==0) && (partcnt2==0))
+                    res=0;
+                else if(partcnt1==0)
+                    res = -1;
+                else if(partcnt2==0)
+                    res = 1;
+                else {
+                    double		dblProgress1 = static_cast<double>(item1->GetAvailUpPartCount())/static_cast<double>(partcnt1);
+                    double		dblProgress2 = static_cast<double>(item2->GetAvailUpPartCount())/static_cast<double>(partcnt2);
+
+                    if (dblProgress1 < dblProgress2)
+                        res = -1;
+                    else if (dblProgress1 > dblProgress2)
+                        res = 1;
+                    else 
+                        res = 0;
+                }
+d730 11
+a740 10
+                if((lParamSort & MLC_SORTDESC)==0)
+                    return res;
+                else 
+                    return -res;
+            }
+
+	case 9: // Add sort compression
+		return (item1->GetCompression() < item2->GetCompression())?-1:1;
+	case 9+MLC_SORTDESC: // Add sort compression
+		return (item2->GetCompression() < item1->GetCompression())?-1:1;
+a741 1
+	EMULE_CATCH
+d743 1
+a743 1
+	return 0;
+d771 3
+a773 3
+    CRect clip;
+    memDC.GetClipBox(&clip);
+    memDC.FillSolidRect(clip, GetSysColor(COLOR_WINDOW));
+@
+
+
+1.72
+log
+@*** empty log message ***
+@
+text
+@d591 1
+a591 1
+	m_menuClient.AppendMenu(flags,MP_DETAIL, GetResString(IDS_SHOWDETAILS) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadViewClientDetailsShortcutCode()));	// DropF - Keyboard Shortcuts
+d593 1
+a593 1
+		m_menuClient.AppendMenu(flags,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadAddClientToFriendsShortcutCode()));	// DropF - Keyboard Shortcuts
+d595 3
+a597 3
+		m_menuClient.AppendMenu(flags,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadAddClientToFriendsShortcutCode()));	// DropF - Keyboard Shortcuts
+	m_menuClient.AppendMenu(flags,MP_MESSAGE, GetResString(IDS_SEND_MSG) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadSendMessageClientShortcutCode()));	// DropF - Keyboard Shortcuts
+	m_menuClient.AppendMenu(flags,MP_SHOWLIST, GetResString(IDS_VIEWFILES) + "\t" + GetStringFromShortcutCode(g_eMuleApp.m_pGlobPrefs->GetUploadViewClientFilesShortcutCode()));	// DropF - Keyboard Shortcuts
+@
+
+
+1.71
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d591 1
+a591 1
+	m_menuClient.AppendMenu(flags,MP_DETAIL, GetResString(IDS_SHOWDETAILS));
+d593 1
+a593 1
+		m_menuClient.AppendMenu(flags,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND));
+d595 3
+a597 3
+		m_menuClient.AppendMenu(flags,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND));
+	m_menuClient.AppendMenu(flags,MP_MESSAGE, GetResString(IDS_SEND_MSG));
+	m_menuClient.AppendMenu(flags,MP_SHOWLIST, GetResString(IDS_VIEWFILES));
+@
+
+
+1.70
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@d686 1
+a686 1
+			return (float)item1->GetDataRate() - (float)item2->GetDataRate();
+d688 1
+a688 1
+			return (float)item2->GetDataRate() - (float)item1->GetDataRate();
+d723 4
+a726 3
+                    float progr1 = float(item1->GetAvailUpPartCount())/float(partcnt1);
+                    float progr2 = float(item2->GetAvailUpPartCount())/float(partcnt2);
+                    if(progr1<progr2)
+d728 1
+a728 1
+                    else if(progr1>progr2)
+@
+
+
+1.69
+log
+@Formatting, comments, and name changes.
+... and a few bug fixes.
+@
+text
+@d107 1
+a107 1
+		SortItems(SortProc, sortItem + (bSortAscending ? 0 : 10));
+d122 1
+a122 1
+	int		m_iCurrentSortItem = (iSortCode < ULCOL_NUMCOLUMNS) ? iSortCode : iSortCode - ULCOL_NUMCOLUMNS;
+d124 1
+a124 1
+	SetSortArrow(m_iCurrentSortItem,(iSortCode < ULCOL_NUMCOLUMNS));
+d649 1
+a649 1
+	SortItems(&SortProc,pNMListView->iSubItem + ((m_bSortAscending[pNMListView->iSubItem]) ? 0 : 10));
+d669 1
+a669 1
+	case 10:
+d678 1
+a678 1
+	case 11:
+d687 1
+a687 1
+	case 12:
+d690 1
+a690 1
+	case 3:		//bugfixed 22/02
+d692 1
+a692 1
+	case 13: 
+d697 1
+a697 1
+	case 14: 
+d701 1
+a701 1
+	case 15: 
+d705 1
+a705 1
+	case 16: 
+d709 1
+a709 1
+    case 17:
+d711 1
+a711 1
+    case 18:
+d733 1
+a733 1
+                if(lParamSort<10)
+d741 1
+a741 1
+	case 19: // Add sort compression
+@
+
+
+1.68
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d281 1
+a281 1
+	CKnownFile		*file = g_eMuleApp.m_pSharedFilesList->GetFileByID(pClient->reqfileid);
+d325 1
+a325 1
+								if (pClient->credits->GetCurrentIdentState(pClient->GetIP()) != IS_IDENTIFIED)
+d343 1
+a343 1
+						else if (pClient->credits->GetScoreRatio(pClient->GetIP()) > 1)
+d663 2
+a664 2
+	CKnownFile* file1 = g_eMuleApp.m_pSharedFilesList->GetFileByID(item1->reqfileid);
+	CKnownFile* file2 = g_eMuleApp.m_pSharedFilesList->GetFileByID(item2->reqfileid);
+@
+
+
+1.67
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d34 1
+a34 1
+BEGIN_MESSAGE_MAP(CWndUploadList, CMuleListCtrl)
+d46 1
+a46 1
+// CWndUploadList
+d48 1
+a48 1
+IMPLEMENT_DYNAMIC(CWndUploadList, CMuleListCtrl)
+d51 1
+a51 1
+CWndUploadList::CWndUploadList()
+d56 1
+a56 1
+void CWndUploadList::Init()
+d113 1
+a113 1
+CWndUploadList::~CWndUploadList()
+d118 1
+a118 1
+void CWndUploadList::SortInit(int iSortCode)
+d130 1
+a130 1
+void CWndUploadList::Localize() 
+d197 1
+a197 1
+void CWndUploadList::AddClient(CUpDownClient* pClient)
+d204 1
+a204 1
+	RefreshClient(pClient);
+d209 1
+a209 1
+void CWndUploadList::RemoveClient(CUpDownClient *pClient)
+d235 1
+a235 1
+void CWndUploadList::RefreshClient(CUpDownClient *pClient)
+d257 1
+a257 1
+void CWndUploadList::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct)
+d514 1
+a514 1
+BOOL CWndUploadList::OnWndMsg(UINT iMessage,WPARAM wParam, LPARAM lParam, LRESULT *pResult)
+d526 1
+a526 1
+			RefreshClient(pClient);
+d542 1
+a542 1
+BOOL CWndUploadList::OnNMDividerDoubleClick(NMHEADER *pHeader, LRESULT *pResult)
+d565 1
+a565 1
+// CWndUploadList message handlers
+d568 1
+a568 1
+void CWndUploadList::OnContextMenu(CWnd* pWnd, CPoint point)
+d608 1
+a608 1
+BOOL CWndUploadList::OnCommand(WPARAM wParam,LPARAM lParam )
+d640 1
+a640 1
+void CWndUploadList::OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult)
+d657 1
+a657 1
+int CWndUploadList::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+d749 1
+a749 1
+BOOL CWndUploadList::OnEraseBkgnd(CDC *pDC)
+d761 1
+a761 1
+void CWndUploadList::OnPaint()
+d783 1
+a783 1
+void CWndUploadList::OnNMClick(NMHDR *pNMHDR, LRESULT *pResult)
+d793 1
+a793 1
+void CWndUploadList::OnNMDblclkUploadlist(NMHDR *pNMHDR, LRESULT *pResult)
+d815 1
+a815 1
+void CWndUploadList::OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags)
+d825 1
+a825 1
+void CWndUploadList::RefreshInfo(void)
+d845 1
+a845 1
+BOOL CWndUploadList::OnChildNotify(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* pLResult)
+d867 1
+a867 1
+void CWndUploadList::OnGetDispInfo(NMHDR *pNMHDR, LRESULT *pResult)
+@
+
+
+1.66
+log
+@Removed old details code, added more keyboard shortcuts (now with only Ctrl instead of all three keys)
+@
+text
+@d53 1
+a53 1
+	memset(&m_bSortAscending, 0, sizeof(m_bSortAscending));
+@
+
+
+1.65
+log
+@Formatting, comments, and name changes. Factored various UI update methods out and modified to use async. messaging instead of sync. call.
+@
+text
+@a25 1
+#ifdef _USE_NEW_DETAILS_
+a26 3
+#else
+#include "ClientDetailDialog.h"
+#endif
+a627 1
+			#if _USE_NEW_DETAILS_
+a628 3
+			#else
+				CClientDetailDialog dialog(client);
+			#endif
+a801 1
+		#if _USE_NEW_DETAILS_
+a802 3
+		#else
+			CClientDetailDialog dialog(client);
+		#endif
+@
+
+
+1.64
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d518 28
+@
+
+
+1.63
+log
+@Removed KB/s from speed columns (we already know that and some people don't like it).
+@
+text
+@a30 1
+#include "memcpy_amd.h"
+@
+
+
+1.62
+log
+@Localization update
+@
+text
+@d75 1
+a75 3
+	CString strSpeed;
+	strSpeed.Format(_T("%s (%s)"),GetResString(IDS_DL_SPEED),GetResString(IDS_KBYTESEC));
+	InsertColumn(ULCOL_SPEED,strSpeed,LVCFMT_RIGHT,60,2);
+d158 1
+a158 3
+		CString strSpeed;
+		strSpeed.Format(_T("%s (%s)"),GetResString(IDS_DL_SPEED),GetResString(IDS_KBYTESEC));
+		strRes = strSpeed;
+@
+
+
+1.61
+log
+@Modified column resizing to resize to header text in empty columns.
+@
+text
+@d610 1
+a610 1
+				CClientDetails dialog("Client Details", client, this, 0);
+d788 1
+a788 1
+			CClientDetails dialog("Client Details", client, this, 0);
+@
+
+
+1.60
+log
+@Fix for a bug in the column resizing fix.
+@
+text
+@d471 1
+a471 1
+				if (iWidth < 40)
+d534 4
+a537 1
+	SetColumnWidth(iColumn,m_iColumnMaxWidths[iColumn]);
+d734 1
+a734 1
+BOOL CWndUploadList::OnEraseBkgnd(CDC* pDC)
+d736 4
+d741 3
+@
+
+
+1.59
+log
+@Alignment fix
+@
+text
+@d303 1
+a303 1
+		if (!IsColumnHidden(iColumn) && !(bMeasuring && iCurrent != m_iMeasuringColumn))
+@
+
+
+1.58
+log
+@Formatting, comments, and name changes.
+Fixed column resizing on double-click.
+@
+text
+@d459 4
+a462 1
+				dc->DrawText(strBuffer,strBuffer.GetLength(),&r2,iCalcFlag);
+@
+
+
+1.57
+log
+@Formatting, comments, and name changes.
+@
+text
+@d39 12
+d54 5
+a58 2
+CWndUploadList::CWndUploadList(){
+	memset(&asc_sort, 0, sizeof(asc_sort)); // i_a 
+d60 1
+a60 1
+
+d65 7
+d73 2
+a74 2
+	InsertColumn(0,GetResString(IDS_QL_USERNAME),LVCFMT_LEFT,150,0);
+	InsertColumn(1,GetResString(IDS_FILE),LVCFMT_LEFT,275,1);
+d77 23
+a99 23
+	InsertColumn(2,strSpeed,LVCFMT_RIGHT,60,2);
+	InsertColumn(3,GetResString(IDS_DL_TRANSF),LVCFMT_RIGHT,65,3);
+	InsertColumn(4,GetResString(IDS_WAITED),LVCFMT_LEFT,60,4);
+	InsertColumn(5,GetResString(IDS_UPLOADTIME),LVCFMT_LEFT,60,5);
+	InsertColumn(6,GetResString(IDS_STATUS),LVCFMT_LEFT,110,6);
+	InsertColumn(7,GetResString(IDS_UP_PARTS),LVCFMT_LEFT,60,7);
+	InsertColumn(8,GetResString(IDS_DL_PROGRESS),LVCFMT_LEFT,110,8);
+	InsertColumn(9,GetResString(IDS_COMPRESSION),LVCFMT_LEFT,110,9); // Add show compression	//netwolf 05.05.03 (left justified)
+
+	imagelist.Create(16,16,ILC_COLOR32|ILC_MASK,0,10);
+	imagelist.SetBkColor(CLR_NONE);
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_NORMAL),16,16));			// 0
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_COMPROT),16,16));			// 1
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MLDONKEY),16,16));			// 2
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_EDONKEYHYBRID),16,16));  	// 3
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CREDIT_ONLY),16,16));      // 4
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIEND_ONLY),16,16));      // 5
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_BANNED_ONLY),16,16));      // 6
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_UNKNOWN),16,16));  		// 7
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CDONKEY),16,16));  		// 8
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_LMULE),16,16));  			// 9
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SHAREAZA),16,16));  		// 10
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SECUREHASH),16,16));  		// 11
+d102 1
+a102 1
+	SetImageList(&imagelist,LVSIL_SMALL);
+d105 10
+a114 7
+	if (g_eMuleApp.m_pGlobPrefs->DoUseSort()) SortInit(g_eMuleApp.m_pGlobPrefs->GetUploadSortCol());
+	else {
+		// Barry - Use preferred sort order from preferences
+		int sortItem = g_eMuleApp.m_pGlobPrefs->GetColumnSortItem(CPreferences::TABLE_UPLOAD);
+		bool sortAscending = g_eMuleApp.m_pGlobPrefs->GetColumnSortAscending(CPreferences::TABLE_UPLOAD);
+		SetSortArrow(sortItem, sortAscending);
+		SortItems(SortProc, sortItem + (sortAscending ? 0:10));
+d119 4
+a122 3
+
+CWndUploadList::~CWndUploadList(){
+	imagelist.DeleteImageList();	//eklmn: bugfix(01): resource cleanup due to ImageLists recreation
+d124 2
+a125 2
+
+void CWndUploadList::SortInit(int sortCode)	//Cax2 sortdlg
+d129 4
+a132 3
+	int m_iCurrentSortItem=(sortCode<10)?sortCode:sortCode-10;
+	SetSortArrow(m_iCurrentSortItem,(sortCode<10));
+	SortItems(&SortProc, sortCode);
+d136 1
+a136 1
+
+d141 1
+a141 1
+	if(GetSafeHwnd())
+d143 3
+a145 2
+		CHeaderCtrl* pHeaderCtrl = GetHeaderCtrl();
+		HDITEM hdi;
+d147 2
+a148 1
+		CString strRes;
+d152 1
+a152 1
+		pHeaderCtrl->SetItem(0, &hdi);
+d157 1
+a157 1
+		pHeaderCtrl->SetItem(1, &hdi);
+d164 1
+a164 1
+		pHeaderCtrl->SetItem(2, &hdi);
+d169 1
+a169 1
+		pHeaderCtrl->SetItem(3, &hdi);
+d174 1
+a174 1
+		pHeaderCtrl->SetItem(4, &hdi);
+d179 1
+a179 1
+		pHeaderCtrl->SetItem(5, &hdi);
+d184 1
+a184 1
+		pHeaderCtrl->SetItem(6, &hdi);
+d189 1
+a189 1
+		pHeaderCtrl->SetItem(7, &hdi);
+d194 1
+a194 1
+		pHeaderCtrl->SetItem(8, &hdi);
+d199 1
+a199 1
+	    pHeaderCtrl->SetItem(9, &hdi);
+d205 4
+d210 1
+a210 2
+void CWndUploadList::AddClient(CUpDownClient* client){
+	EMULE_TRY
+d212 2
+a213 3
+	uint32 itemnr = GetItemCount();
+	itemnr = InsertItem(LVIF_TEXT|LVIF_PARAM,itemnr,LPSTR_TEXTCALLBACK,0,0,1,(LPARAM)client);
+	RefreshClient(client);
+d217 3
+a219 2
+
+void CWndUploadList::RemoveClient(CUpDownClient* client){
+d222 1
+a222 1
+	if(g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.GetType() == INFOLISTTYPE_SOURCE)
+d224 1
+a224 1
+		if(g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlInfoList.GetClient() == client)
+d231 2
+a232 1
+	LVFINDINFO find;
+d234 5
+a238 3
+	find.lParam = (LPARAM)client;
+	sint32 result = FindItem(&find);
+	if (result != (-1) )
+d243 2
+a244 2
+
+void CWndUploadList::RefreshClient(CUpDownClient* client)
+d248 2
+a249 1
+	LVFINDINFO find;
+d251 5
+a255 3
+	find.lParam = (LPARAM)client;
+	sint16 result = FindItem(&find);
+	if(result != -1)
+d261 1
+d265 1
+d273 3
+a275 2
+	CDC* odc = CDC::FromHandle(lpDrawItemStruct->hDC);
+	BOOL bCtrlFocused = ((GetFocus() == this ) || (GetStyle() & LVS_SHOWSELALWAYS));
+a276 14
+	CUpDownClient* client = (CUpDownClient*)lpDrawItemStruct->itemData;
+	CMemDC dc(odc,&CRect(lpDrawItemStruct->rcItem));
+	CFont *pOldFont = dc.SelectObject(GetFont());
+	RECT cur_rec;
+
+	memcpy2(&cur_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+
+	CString Sbuffer;
+
+	CKnownFile* file = g_eMuleApp.m_pSharedFilesList->GetFileByID(client->reqfileid);
+	CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+	int iCount = pHeaderCtrl->GetItemCount();
+	cur_rec.right = cur_rec.left - 8;
+	cur_rec.left += 4;
+d278 22
+a299 1
+	for(int iCurrent = 0; iCurrent < iCount; iCurrent++)
+d301 3
+a303 2
+		int iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+		if(!IsColumnHidden(iColumn))
+d305 2
+a306 2
+			cur_rec.right += GetColumnWidth(iColumn);
+			switch(iColumn)
+d308 3
+a310 1
+				case 0:
+d312 5
+a316 4
+					    POINT point = {cur_rec.left, cur_rec.top+1};
+	
+						// Display client icon
+						switch(client->GetClientSoft()) {
+d318 1
+a318 1
+								imagelist.Draw(dc, 8, point, ILD_NORMAL);
+d321 1
+a321 1
+								imagelist.Draw(dc, 9, point, ILD_NORMAL);
+d324 1
+a324 1
+								imagelist.Draw(dc, 10, point, ILD_NORMAL);
+d327 1
+a327 1
+								imagelist.Draw(dc, 3, point, ILD_NORMAL);
+d330 1
+a330 1
+								imagelist.Draw(dc, 2, point, ILD_NORMAL);
+d334 2
+a335 2
+								if (client->credits->GetCurrentIdentState(client->GetIP()) != IS_IDENTIFIED)
+									imagelist.Draw(dc, 11, point, ILD_NORMAL);
+d337 1
+a337 1
+									imagelist.Draw(dc, 1, point, ILD_NORMAL);
+d340 1
+a340 1
+								imagelist.Draw(dc, 0, point, ILD_NORMAL);
+d343 1
+a343 1
+								imagelist.Draw(dc, 7, point, ILD_NORMAL);
+d347 16
+a362 11
+						// Display any Extra Overlay icons
+						if (client->IsBanned())
+							imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+						else if (client->IsFriend())
+							imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+						else if (client->credits->GetScoreRatio(client->GetIP()) > 1)
+							imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+
+	                    
+						Sbuffer.Format(_T("%s"), client->GetUserName());
+						cur_rec.left +=20;
+d364 12
+a375 8
+						dc->DrawText(Sbuffer,Sbuffer.GetLength(),&cur_rec,DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_END_ELLIPSIS);
+						
+						cur_rec.left -=20;
+						break;
+	    			}
+				case 1:
+					if(file)
+						Sbuffer.Format(_T("%s"), file->GetFileName());
+d377 1
+a377 1
+						Sbuffer = "?";
+d379 4
+a382 2
+				case 2:
+					Sbuffer.Format(_T("%.1f"),max((float)client->GetDataRate()/1024, 0.0));
+d384 4
+a387 2
+				case 3:
+					Sbuffer = CastItoXBytes(client->GetSessionUp());	
+d389 4
+a392 2
+				case 4:
+					Sbuffer = CastSecondsToHM((client->GetWaitTime())/1000);
+d394 4
+a397 2
+				case 5:
+					Sbuffer = CastSecondsToHM((client->GetUpStartTimeDelay())/1000);
+d399 4
+a402 2
+				case 6:
+					Sbuffer	=	GetStatusULQueueString(client->GetUploadState());
+d404 15
+a418 14
+				case 7:
+                    {
+						CString buffer;
+                        uint32 partno = client->GetCurrentlyUploadingPart();
+                        if(partno==0xFFFF)
+                            buffer = "";
+                        else
+                            buffer.Format(_T(" (%d)"), partno);
+
+					    if(client->GetUpPartCount())
+					        Sbuffer.Format(_T("%d/%d%s"), client->GetAvailUpPartCount(), client->GetUpPartCount(), buffer);
+                        else
+					        Sbuffer.Format(_T("%s"), buffer);
+                    }
+d420 4
+a423 2
+				case 8:
+					if(client->GetUpPartCount() && g_eMuleApp.m_pGlobPrefs->IsUploadPartsEnabled())		//Cax2 re-enabled toggle for progress bars
+d425 12
+a436 8
+						cur_rec.bottom--;
+						cur_rec.top++;
+						int iWidth = cur_rec.right - cur_rec.left;	
+						int iHeight = cur_rec.bottom - cur_rec.top;
+						client->DrawUpStatusBar(dc,&cur_rec,false,g_eMuleApp.m_pGlobPrefs->UseFlatBar());
+						cur_rec.bottom++;
+						cur_rec.top--;
+	
+d439 6
+a444 3
+				case 9:
+	                float compress = client->GetCompression();
+	                if (compress < 0.1f)
+d446 6
+a451 3
+    					Sbuffer.Format(_T("-"));
+	                } else
+    					Sbuffer.Format(_T("%.1f"),compress);
+d453 19
+a472 3
+			if( iColumn != 8 && iColumn != 0 )
+				dc->DrawText(Sbuffer,Sbuffer.GetLength(),&cur_rec,DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_END_ELLIPSIS);
+			cur_rec.left += GetColumnWidth(iColumn);
+d475 2
+a476 2
+	//draw rectangle around selected item(s)
+	if ((lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED))
+d478 3
+a480 2
+		RECT outline_rec;
+		CBrush* pOldBrush;
+d485 3
+a487 1
+		CBrush gdiBrush(GetBkColor());
+d495 1
+a495 1
+		if(bCtrlFocused)
+d497 2
+a498 1
+			CBrush fl_Brush(m_crFocusLine);
+a500 1
+			//eklmn: recover of old brush will be done below
+a506 1
+			//eklmn: recover of old brush will be done below
+d512 1
+a512 1
+	if ( pOldFont )
+d519 16
+d536 3
+a538 11
+BEGIN_MESSAGE_MAP(CWndUploadList, CMuleListCtrl)
+	ON_WM_CONTEXTMENU()
+	ON_WM_ERASEBKGND() // added by FoRcHa
+	//ON_WM_PAINT() // added by FoRcHa
+	ON_NOTIFY_REFLECT(NM_CLICK, OnNMClick)
+	ON_NOTIFY_REFLECT(LVN_COLUMNCLICK, OnColumnClick)
+	ON_NOTIFY_REFLECT(NM_DBLCLK, OnNMDblclkUploadlist)
+	ON_NOTIFY_REFLECT(LVN_GETDISPINFO, OnGetDispInfo)
+	ON_WM_KEYUP()
+	ON_WM_DRAWITEM()
+END_MESSAGE_MAP()
+d541 2
+d582 3
+a584 2
+
+BOOL CWndUploadList::OnCommand(WPARAM wParam,LPARAM lParam ){
+a612 5
+/*	switch(wParam){
+		case MP_SWITCHCTRL:
+		{
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.PostMessage(WM_COMMAND, USRMSG_SWITCHUPLOADLIST, (long)m_hWnd);
+		}
+a613 2
+	}
+*/
+d618 1
+a618 2
+
+
+d626 3
+a628 3
+	asc_sort[pNMListView->iSubItem] = !asc_sort[pNMListView->iSubItem];
+	SetSortArrow(pNMListView->iSubItem, asc_sort[pNMListView->iSubItem]);
+	SortItems(&SortProc,pNMListView->iSubItem + ((asc_sort[pNMListView->iSubItem]) ? 0 : 10));
+d631 1
+a631 1
+    g_eMuleApp.m_pGlobPrefs->SetColumnSortAscending(CPreferences::TABLE_UPLOAD, asc_sort[pNMListView->iSubItem]);
+d635 1
+a635 1
+
+d646 1
+a646 1
+	case 0: 
+d727 1
+a727 2
+
+// added by FoRcHa: //////////////////////////////////
+d732 1
+a732 1
+
+d754 1
+a754 1
+
+d764 1
+a764 1
+
+d790 1
+a790 1
+
+d800 1
+a800 1
+
+d820 1
+a820 1
+
+d825 1
+a825 1
+		if(message == WM_NOTIFY && ((NMHDR*)lParam)->code == NM_CUSTOMDRAW &&
+d830 1
+a830 1
+				memcpy2(&m_lvcd, (void*)lParam, sizeof(NMLVCUSTOMDRAW));
+d839 1
+a839 1
+	DrawItem((LPDRAWITEMSTRUCT)lParam);
+d842 1
+a842 1
+
+d877 1
+a877 1
+
+@
+
+
+1.56
+log
+@Column alignment standarization
+@
+text
+@d103 2
+a104 2
+	int m_CurrentSortItem=(sortCode<10)?sortCode:sortCode-10;
+	SetSortArrow(m_CurrentSortItem,(sortCode<10));
+d451 4
+a454 4
+	if (m_ClientMenu) m_ClientMenu.DestroyMenu();
+	m_ClientMenu.CreatePopupMenu();
+	m_ClientMenu.AddMenuTitle(GetResString(IDS_CLIENTS));
+	m_ClientMenu.AppendMenu(flags,MP_DETAIL, GetResString(IDS_SHOWDETAILS));
+d456 1
+a456 1
+		m_ClientMenu.AppendMenu(flags,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND));
+d458 7
+a464 7
+		m_ClientMenu.AppendMenu(flags,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND));
+	m_ClientMenu.AppendMenu(flags,MP_MESSAGE, GetResString(IDS_SEND_MSG));
+	m_ClientMenu.AppendMenu(flags,MP_SHOWLIST, GetResString(IDS_VIEWFILES));
+//	m_ClientMenu.AppendMenu(MF_SEPARATOR);
+//	m_ClientMenu.AppendMenu(MF_STRING,MP_SWITCHCTRL, GetResString(IDS_SHOWQUEUE));
+	SetMenu(&m_ClientMenu);
+	m_ClientMenu.TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this);
+d466 1
+a466 1
+	m_ClientMenu.DestroyMenu();
+@
+
+
+1.55
+log
+@Localization fixes
+@
+text
+@d55 2
+a56 2
+	InsertColumn(2,strSpeed,LVCFMT_LEFT,60,2);
+	InsertColumn(3,GetResString(IDS_DL_TRANSF),LVCFMT_LEFT,65,3);
+@
+
+
+1.54
+log
+@an incorrect use of GDI resources (CBrush class)
+@
+text
+@d53 3
+a55 1
+	InsertColumn(2,GetResString(IDS_DL_SPEED),LVCFMT_LEFT,60,2);
+d131 3
+a133 1
+		strRes = GetResString(IDS_DL_SPEED);
+d319 1
+a319 1
+					Sbuffer.Format(_T("%.1f kB/s"),max((float)client->GetDataRate()/1024, 0.0));
+@
+
+
+1.53
+log
+@Formatting, comments, and name changes.
+@
+text
+@d67 8
+a74 8
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_EDONKEYHYBRID),16,16));  	// 3
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CREDIT_ONLY),16,16));      // 4
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIEND_ONLY),16,16));      // 5
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_BANNED_ONLY),16,16));      // 6
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_UNKNOWN),16,16));  		// 7
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CDONKEY),16,16));  		// 8
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_LMULE),16,16));  			// 9
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SHAREAZA),16,16));  		// 10
+d77 1
+a77 1
+    LoadImgLstIcon(NULL,0,0); // delete temp-icon
+d375 1
+d380 3
+a382 1
+		dc->FrameRect(&outline_rec, &CBrush(GetBkColor()));
+d389 6
+a394 1
+			dc->FrameRect(&outline_rec, &CBrush(m_crFocusLine));
+d396 8
+a403 1
+			dc->FrameRect(&outline_rec, &CBrush(m_crNoFocusLine));
+d405 1
+a405 1
+	
+@
+
+
+1.52
+log
+@Empy Incoming dir for category fix, Official fix [Katsyonak], WS templates updated for file status icons.
+@
+text
+@d504 1
+a504 1
+	SortItems(&SortProc,pNMListView->iSubItem + ((asc_sort[pNMListView->iSubItem]) ? 0:10));
+d754 1
+@
+
+
+1.51
+log
+@Added Known List to transfer window. Hope no major bug was introduced. Should be tested!
+@
+text
+@d222 2
+a223 1
+void CWndUploadList::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct){
+d228 1
+a233 1
+
+a234 2
+	COLORREF crOldTextColor = dc->GetTextColor();
+	COLORREF crOldBkColor = dc->GetBkColor();
+d236 2
+a237 5
+	#ifndef AMD
+	memcpy(&cur_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+	#else
+	memcpy_amd(&cur_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+	#endif
+a301 5
+	                    // EC - Use Dark Green for SUI Clients
+						//COLORREF crOldTxtColor;
+						
+						//if (client->credits->GetCurrentIdentState(client->GetIP()) == IS_IDENTIFIED)
+						//	crOldTxtColor = dc->SetTextColor((COLORREF)RGB(0,130,0));								
+a304 3
+						//if (client->credits->GetCurrentIdentState(client->GetIP()) == IS_IDENTIFIED)
+						//	dc->SetTextColor(crOldTxtColor);
+						
+d375 1
+a375 5
+		#ifndef AMD
+		memcpy(&outline_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+		#else
+		memcpy_amd(&outline_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+		#endif
+d390 1
+d395 1
+a603 1
+
+a628 1
+
+a753 1
+
+@
+
+
+1.50
+log
+@A little more method factoring, a few name changes, no (intended) logic changes.
+@
+text
+@d456 2
+a457 2
+	m_ClientMenu.AppendMenu(MF_SEPARATOR);
+	m_ClientMenu.AppendMenu(MF_STRING,MP_SWITCHCTRL, GetResString(IDS_SHOWQUEUE));
+d495 1
+a495 1
+	switch(wParam){
+d502 1
+a502 1
+
+d518 1
+a518 1
+	SortItems(&SortProc,pNMListView->iSubItem+ ((asc_sort[pNMListView->iSubItem])? 0:10));
+@
+
+
+1.49
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d80 1
+a80 1
+	LoadSettings(CPreferences::tableUpload);
+d84 2
+a85 2
+		int sortItem = g_eMuleApp.m_pGlobPrefs->GetColumnSortItem(CPreferences::tableUpload);
+		bool sortAscending = g_eMuleApp.m_pGlobPrefs->GetColumnSortAscending(CPreferences::tableUpload);
+d520 2
+a521 2
+    g_eMuleApp.m_pGlobPrefs->SetColumnSortItem(CPreferences::tableUpload, pNMListView->iSubItem);
+    g_eMuleApp.m_pGlobPrefs->SetColumnSortAscending(CPreferences::tableUpload, asc_sort[pNMListView->iSubItem]);
+@
+
+
+1.48
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d723 1
+a723 5
+				#ifndef AMD
+				memcpy(&m_lvcd, (void*)lParam, sizeof(NMLVCUSTOMDRAW));
+				#else
+				memcpy_amd(&m_lvcd, (void*)lParam, sizeof(NMLVCUSTOMDRAW));
+				#endif
+@
+
+
+1.47
+log
+@Second batch of name changes
+@
+text
+@d81 1
+a81 1
+	if (theApp.glob_prefs->DoUseSort()) SortInit(theApp.glob_prefs->GetUploadSortCol());
+d84 2
+a85 2
+		int sortItem = theApp.glob_prefs->GetColumnSortItem(CPreferences::tableUpload);
+		bool sortAscending = theApp.glob_prefs->GetColumnSortAscending(CPreferences::tableUpload);
+d186 1
+a186 1
+	if(theApp.emuledlg->transferwnd.m_wndInfoList.GetType() == 1)
+d188 1
+a188 1
+		if(theApp.emuledlg->transferwnd.m_wndInfoList.GetClient() == client)
+d190 2
+a191 2
+			theApp.emuledlg->transferwnd.m_wndInfoList.SwitchToFile(NULL);
+			theApp.emuledlg->transferwnd.UpdateInfoHeader();
+d245 1
+a245 1
+	CKnownFile* file = theApp.sharedfiles->GetFileByID(client->reqfileid);
+d357 1
+a357 1
+					if(client->GetUpPartCount() && theApp.glob_prefs->IsUploadPartsEnabled())		//Cax2 re-enabled toggle for progress bars
+d363 1
+a363 1
+						client->DrawUpStatusBar(dc,&cur_rec,false,theApp.glob_prefs->UseFlatBar());
+d441 2
+a442 2
+			theApp.emuledlg->transferwnd.m_wndInfoList.SwitchToUser((CUpDownClient*)client);
+			theApp.emuledlg->transferwnd.UpdateInfoHeader();
+d476 1
+a476 1
+				theApp.emuledlg->chatwnd.StartSession(client);
+d479 1
+a479 1
+				theApp.friendlist->AddFriend(client);
+d482 1
+a482 1
+				theApp.friendlist->RemoveFriend(client);
+d498 1
+a498 1
+			theApp.emuledlg->transferwnd.PostMessage(WM_COMMAND, USRMSG_SWITCHUPLOADLIST, (long)m_hWnd);
+d520 2
+a521 2
+    theApp.glob_prefs->SetColumnSortItem(CPreferences::tableUpload, pNMListView->iSubItem);
+    theApp.glob_prefs->SetColumnSortAscending(CPreferences::tableUpload, asc_sort[pNMListView->iSubItem]);
+d532 2
+a533 2
+	CKnownFile* file1 = theApp.sharedfiles->GetFileByID(item1->reqfileid);
+	CKnownFile* file2 = theApp.sharedfiles->GetFileByID(item2->reqfileid);
+d665 1
+a665 1
+		if (theApp.glob_prefs->GetDetailsOnClick())
+d676 1
+a676 1
+			theApp.emuledlg->chatwnd.StartSession(client);
+d701 2
+a702 2
+		theApp.emuledlg->transferwnd.m_wndInfoList.SwitchToFile(NULL);
+		theApp.emuledlg->transferwnd.UpdateInfoHeader();
+d707 2
+a708 2
+		theApp.emuledlg->transferwnd.m_wndInfoList.SwitchToUser((CUpDownClient*)client);
+		theApp.emuledlg->transferwnd.UpdateInfoHeader();
+d744 1
+a744 1
+	if (theApp.emuledlg->IsRunning()){
+@
+
+
+1.46
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d39 1
+a39 1
+// Cm_wndUploadList
+d41 2
+a42 2
+IMPLEMENT_DYNAMIC(Cm_wndUploadList, CMuleListCtrl)
+Cm_wndUploadList::Cm_wndUploadList(){
+d46 1
+a46 1
+void Cm_wndUploadList::Init()
+d93 1
+a93 1
+Cm_wndUploadList::~Cm_wndUploadList(){
+d97 1
+a97 1
+void Cm_wndUploadList::SortInit(int sortCode)	//Cax2 sortdlg
+d108 1
+a108 1
+void Cm_wndUploadList::Localize() 
+d173 1
+a173 1
+void Cm_wndUploadList::AddClient(CUpDownClient* client){
+d183 1
+a183 1
+void Cm_wndUploadList::RemoveClient(CUpDownClient* client){
+d205 1
+a205 1
+void Cm_wndUploadList::RefreshClient(CUpDownClient* client)
+d222 1
+a222 1
+void Cm_wndUploadList::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct){
+d413 1
+a413 1
+BEGIN_MESSAGE_MAP(Cm_wndUploadList, CMuleListCtrl)
+d425 2
+a426 2
+// Cm_wndUploadList message handlers
+void Cm_wndUploadList::OnContextMenu(CWnd* pWnd, CPoint point)
+d466 1
+a466 1
+BOOL Cm_wndUploadList::OnCommand(WPARAM wParam,LPARAM lParam ){
+d509 1
+a509 1
+void Cm_wndUploadList::OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult)
+d526 1
+a526 1
+int Cm_wndUploadList::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+d620 1
+a620 1
+BOOL Cm_wndUploadList::OnEraseBkgnd(CDC* pDC)
+d625 1
+a625 1
+void Cm_wndUploadList::OnPaint()
+d648 1
+a648 1
+void Cm_wndUploadList::OnNMClick(NMHDR *pNMHDR, LRESULT *pResult)
+d658 1
+a658 1
+void Cm_wndUploadList::OnNMDblclkUploadlist(NMHDR *pNMHDR, LRESULT *pResult)
+d684 1
+a684 1
+void Cm_wndUploadList::OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags)
+d694 1
+a694 1
+void Cm_wndUploadList::RefreshInfo(void)
+d714 1
+a714 1
+BOOL Cm_wndUploadList::OnChildNotify(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* pLResult)
+d740 1
+a740 1
+void Cm_wndUploadList::OnGetDispInfo(NMHDR *pNMHDR, LRESULT *pResult)
+d774 1
+@
+
+
+1.45
+log
+@Fix for lists navigation [from official]
+@
+text
+@d327 1
+a327 1
+					Sbuffer.Format(_T("%.1f kB/s"),max((float)client->GetDatarate()/1024, 0.0));
+d555 1
+a555 1
+			return (float)item1->GetDatarate() - (float)item2->GetDatarate();
+d557 1
+a557 1
+			return (float)item2->GetDatarate() - (float)item1->GetDatarate();
+@
+
+
+1.44
+log
+@Chnaged SUI again to icon based
+@
+text
+@d177 1
+a177 1
+	itemnr = InsertItem(LVIF_TEXT|LVIF_PARAM,itemnr,0,0,0,1,(LPARAM)client);
+d420 1
+d738 35
+@
+
+
+1.43
+log
+@SUI Clients are shown with a green name now instead of a check in the icon
+@
+text
+@d282 4
+a285 1
+								imagelist.Draw(dc, 1, point, ILD_NORMAL);
+d307 1
+a307 1
+						COLORREF crOldTxtColor;
+d309 2
+a310 2
+						if (client->credits->GetCurrentIdentState(client->GetIP()) == IS_IDENTIFIED)
+							crOldTxtColor = dc->SetTextColor((COLORREF)RGB(0,130,0));								
+d314 2
+a315 2
+						if (client->credits->GetCurrentIdentState(client->GetIP()) == IS_IDENTIFIED)
+							dc->SetTextColor(crOldTxtColor);
+@
+
+
+1.42
+log
+@SecureIdent Support Mainly
+Too many changes to mention here
+@
+text
+@a298 3
+	
+	                    if (client->credits->GetCurrentIdentState(client->GetIP()) == IS_IDENTIFIED)
+							imagelist.Draw(dc, 11, point, ILD_TRANSPARENT);
+d300 2
+a301 1
+	                    Sbuffer.Format(_T("%s"), client->GetUserName());
+d303 6
+d310 4
+@
+
+
+1.41
+log
+@*** empty log message ***
+@
+text
+@d75 1
+a75 1
+
+d297 1
+a297 1
+						else if (client->credits->GetScoreRatio() > 1)
+d300 3
+@
+
+
+1.40
+log
+@*** empty log message ***
+@
+text
+@d39 1
+a39 1
+// CUploadListCtrl
+d41 2
+a42 2
+IMPLEMENT_DYNAMIC(CUploadListCtrl, CMuleListCtrl)
+CUploadListCtrl::CUploadListCtrl(){
+d46 1
+a46 1
+void CUploadListCtrl::Init()
+d93 1
+a93 1
+CUploadListCtrl::~CUploadListCtrl(){
+d97 1
+a97 1
+void CUploadListCtrl::SortInit(int sortCode)	//Cax2 sortdlg
+d108 1
+a108 1
+void CUploadListCtrl::Localize() 
+d173 1
+a173 1
+void CUploadListCtrl::AddClient(CUpDownClient* client){
+d183 1
+a183 1
+void CUploadListCtrl::RemoveClient(CUpDownClient* client){
+d186 1
+a186 1
+	if(theApp.emuledlg->transferwnd.infolistctrl.GetType() == 1)
+d188 1
+a188 1
+		if(theApp.emuledlg->transferwnd.infolistctrl.GetClient() == client)
+d190 1
+a190 1
+			theApp.emuledlg->transferwnd.infolistctrl.SwitchToFile(NULL);
+d205 1
+a205 1
+void CUploadListCtrl::RefreshClient(CUpDownClient* client)
+d222 1
+a222 1
+void CUploadListCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct){
+d399 1
+a399 1
+BEGIN_MESSAGE_MAP(CUploadListCtrl, CMuleListCtrl)
+d410 2
+a411 2
+// CUploadListCtrl message handlers
+void CUploadListCtrl::OnContextMenu(CWnd* pWnd, CPoint point)
+d426 1
+a426 1
+			theApp.emuledlg->transferwnd.infolistctrl.SwitchToUser((CUpDownClient*)client);
+d451 1
+a451 1
+BOOL CUploadListCtrl::OnCommand(WPARAM wParam,LPARAM lParam ){
+d494 1
+a494 1
+void CUploadListCtrl::OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult)
+d511 1
+a511 1
+int CUploadListCtrl::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+d605 1
+a605 1
+BOOL CUploadListCtrl::OnEraseBkgnd(CDC* pDC)
+d610 1
+a610 1
+void CUploadListCtrl::OnPaint()
+d633 1
+a633 1
+void CUploadListCtrl::OnNMClick(NMHDR *pNMHDR, LRESULT *pResult)
+d643 1
+a643 1
+void CUploadListCtrl::OnNMDblclkUploadlist(NMHDR *pNMHDR, LRESULT *pResult)
+d669 1
+a669 1
+void CUploadListCtrl::OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags)
+d679 1
+a679 1
+void CUploadListCtrl::RefreshInfo(void)
+d686 1
+a686 1
+		theApp.emuledlg->transferwnd.infolistctrl.SwitchToFile(NULL);
+d692 1
+a692 1
+		theApp.emuledlg->transferwnd.infolistctrl.SwitchToUser((CUpDownClient*)client);
+d699 1
+a699 1
+BOOL CUploadListCtrl::OnChildNotify(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* pLResult)
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d26 3
+d30 1
+a30 1
+#include ".\Details\ClientDetails.h"
+@
+
+
+1.38
+log
+@updated GUI graphic information about file status [psy]
+@
+text
+@d27 1
+d467 3
+d471 1
+d649 3
+d653 1
+d655 3
+a657 1
+		} else {
+@
+
+
+1.37
+log
+@CHANGE: WebServer: separated upload queue into friends, banned clients, high credit clients and other client queues [Purity]
+@
+text
+@d67 4
+a70 5
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_26_ONLY),16,16));         	// 7
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_UNKNOWN),16,16));  		// 8
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CDONKEY),16,16));  		// 9
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_LMULE),16,16));  			// 10
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_SHAREAZA),16,16));  		// 11
+d262 1
+a262 1
+								imagelist.Draw(dc, 9, point, ILD_NORMAL);
+d265 1
+a265 1
+								imagelist.Draw(dc, 10, point, ILD_NORMAL);
+d268 1
+a268 1
+								imagelist.Draw(dc, 11, point, ILD_NORMAL);
+d284 1
+a284 1
+								imagelist.Draw(dc, 8, point, ILD_NORMAL);
+a294 42
+
+						/*
+	                    if(client->GetClientSoft() == SO_EDONKEYHYBRID) {
+	                        imagelist.Draw(dc, 3, point, ILD_NORMAL);
+	                        if (client->IsBanned())
+	                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+	                        else if (client->IsFriend())
+	                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+	                        else if (client->credits->GetScoreRatio() > 1)
+	                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+	                    }
+			            else if (client->GetClientSoft() == SO_MLDONKEY) {
+	                        imagelist.Draw(dc, 2, point, ILD_NORMAL);
+	                        if (client->IsBanned())
+	                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+	                        else if (client->IsFriend())
+	                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+	                        else if (client->credits->GetScoreRatio() > 1)
+	                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+			            }
+			            else if (client->GetClientSoft()==SO_EMULE || client->GetClientSoft()==SO_OLDEMULE) {
+	                        imagelist.Draw(dc, 1, point, ILD_NORMAL);
+	                        if (client->IsBanned())
+	                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+	                        else if (client->IsFriend())
+	                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+	                        else if (client->credits->GetScoreRatio() > 1)
+	                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+	                    }
+					    else {
+	                        imagelist.Draw(dc, 0, point, ILD_NORMAL);
+	                        if (client->IsBanned())
+	                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+	                        else if (client->IsFriend())
+	                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+	                        else if (client->credits->GetScoreRatio() > 1)
+	                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+						}*/
+	
+	                    //if((client->GetClientSoft()==SO_EMULE) && (client->GetMuleVersion()==0x26)) {
+	                    //    imagelist.Draw(dc, 7, point, ILD_TRANSPARENT);
+	                    //}
+@
+
+
+1.36
+log
+@unicode cleanup
+@
+text
+@d481 1
+a481 1
+	m_ClientMenu.AppendMenu(MF_STRING,MP_SWITCHCTRL, GetResString(IDS_VIEWQUEUE));
+@
+
+
+1.35
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d339 1
+a339 1
+	                    Sbuffer.Format("%s", client->GetUserName());
+d347 1
+a347 1
+						Sbuffer.Format("%s", file->GetFileName());
+d352 1
+a352 1
+					Sbuffer.Format("%.1f kB/s",max((float)client->GetDatarate()/1024, 0.0));
+d373 1
+a373 1
+                            buffer.Format(" (%d)", partno);
+d376 1
+a376 1
+					        Sbuffer.Format("%d/%d%s", client->GetAvailUpPartCount(), client->GetUpPartCount(), buffer);
+d378 1
+a378 1
+					        Sbuffer.Format("%s", buffer);
+d398 1
+a398 1
+    					Sbuffer.Format("-");
+d400 1
+a400 1
+    					Sbuffer.Format("%.1f",compress);
+@
+
+
+1.34
+log
+@Eklmn and BavarianSnail changes. see changelog+
+@
+text
+@d27 1
+d234 1
+d236 3
+d412 1
+d414 3
+d737 1
+d739 3
+a741 1
+
+@
+
+
+1.33
+log
+@code cleanup
+@
+text
+@d90 1
+@
+
+
+1.32
+log
+@minor fixes and improvements
+@
+text
+@a234 1
+	char buffer[100];
+d362 1
+d365 1
+a365 1
+                            sprintf(buffer, "");
+d367 1
+a367 1
+                            sprintf(buffer, " (%d)", partno);
+d391 1
+a391 2
+	                {
+		                sprintf(buffer, "-", compress);
+@
+
+
+1.31
+log
+@New icons for unknown, lmule cdonkey and shareaza clients
+@
+text
+@d430 1
+a430 1
+	ON_NOTIFY_REFLECT (NM_RCLICK, OnNMRclick)
+d441 1
+a441 1
+void CUploadListCtrl::OnNMRclick(NMHDR *pNMHDR, LRESULT *pResult)
+d445 2
+a446 2
+	POINT point;
+	::GetCursorPos(&point);	
+d475 1
+a475 1
+	*pResult = 0;
+@
+
+
+1.30
+log
+@*** empty log message ***
+@
+text
+@d67 5
+d255 38
+d328 1
+a328 1
+						}
+@
+
+
+1.29
+log
+@various bugfixes for "friends"
+@
+text
+@d55 1
+a55 1
+	InsertColumn(9,GetResString(IDS_COMPRESSION),LVCFMT_RIGHT,110,9); // Add show compression
+@
+
+
+1.29.2.1
+log
+@27a partial merge
+@
+text
+@d232 1
+a232 1
+	CKnownFile* file = theApp.sharedfiles->GetFileByID(client->GetUploadFileID());
+a382 20
+	//draw rectangle around selected item(s)
+	if ((lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED))
+	{
+		RECT outline_rec;
+		memcpy(&outline_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+
+		outline_rec.top--;
+		outline_rec.bottom++;
+		dc->FrameRect(&outline_rec, &CBrush(GetBkColor()));
+		outline_rec.top++;
+		outline_rec.bottom--;
+		outline_rec.left++;
+		outline_rec.right--;
+
+		if(bCtrlFocused)
+			dc->FrameRect(&outline_rec, &CBrush(m_crFocusLine));
+		else
+			dc->FrameRect(&outline_rec, &CBrush(m_crNoFocusLine));
+	}
+
+d500 3
+a502 2
+	CKnownFile* file1 = theApp.sharedfiles->GetFileByID(item1->GetUploadFileID());
+	CKnownFile* file2 = theApp.sharedfiles->GetFileByID(item2->GetUploadFileID());
+a504 1
+		if(item1->GetUserName() && item2->GetUserName())
+a505 4
+		else if(item1->GetUserName())
+			return 1;
+		else
+			return -1;
+a506 1
+			if(item1->GetUserName() && item2->GetUserName())
+a507 4
+			else if(item2->GetUserName())
+				return 1;
+			else
+				return -1;
+@
+
+
+1.29.2.2
+log
+@27c
+@
+text
+@d407 1
+a407 1
+	ON_WM_CONTEXTMENU()
+d418 1
+a418 1
+void CUploadListCtrl::OnContextMenu(CWnd* pWnd, CPoint point)
+d422 3
+d452 1
+@
+
+
+1.28
+log
+@minor uploadlistctrl bugfix!
+@
+text
+@d405 12
+a416 2
+	UINT flags=MF_STRING || MF_DISABLED;
+	if (GetSelectionMark() != -1 && GetSelectedCount()>0) flags=MF_STRING;
+d422 4
+a425 1
+	m_ClientMenu.AppendMenu(flags,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND));
+a429 11
+	
+	if(GetSelectionMark() != (-1)) // added by FoRcHa
+	{
+		const CUpDownClient* client = (CUpDownClient*)GetItemData(GetSelectionMark());
+		if(client)
+		{
+			theApp.emuledlg->transferwnd.infolistctrl.SwitchToUser((CUpDownClient*)client);
+			theApp.emuledlg->transferwnd.UpdateInfoHeader();
+		}
+	}
+	
+d447 1
+a447 1
+			case MP_MESSAGE:{
+d450 1
+a450 2
+			}
+			case MP_ADDFRIEND:{
+d453 3
+a455 1
+			}
+@
+
+
+1.27
+log
+@*** empty log message ***
+@
+text
+@d219 1
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d484 2
+@
+
+
+1.25
+log
+@small leak fix
+@
+text
+@d388 1
+a388 1
+	ON_WM_PAINT() // added by FoRcHa
+d393 1
+d584 1
+a584 1
+	return FALSE;
+d668 23
+@
+
+
+1.24
+log
+@some sorting bugfixes
+@
+text
+@d220 1
+a220 1
+	CMemDC dc(CDC::FromHandle(lpDrawItemStruct->hDC),&CRect(lpDrawItemStruct->rcItem));
+d222 1
+a222 1
+	dc.SelectObject(GetFont());
+d378 4
+a381 1
+
+d602 2
+a604 1
+    DefWindowProc(WM_PAINT, (WPARAM)memDC->m_hDC, (LPARAM)0);
+@
+
+
+1.23
+log
+@Messages friend details working & solved context menu problems (Damn! we need a redesign of that). Now version 1b beta 1.
+@
+text
+@d567 1
+a567 1
+		return item1->GetCompression() - item2->GetCompression();
+d569 1
+a569 1
+		return item2->GetCompression() - item1->GetCompression();
+@
+
+
+1.22
+log
+@cosmetic fix for -0.0 speed
+@
+text
+@d401 1
+a401 1
+	if (GetSelectionMark() != -1) flags=MF_STRING;
+@
+
+
+1.21
+log
+@Updated conetext menus.
+@
+text
+@d303 1
+a303 1
+					Sbuffer.Format("%.1f kB/s",(float)client->GetDatarate()/1024);
+@
+
+
+1.21.2.1
+log
+@v1a upgrade
+@
+text
+@d303 1
+a303 1
+					Sbuffer.Format("%.1f kB/s",max((float)client->GetDatarate()/1024, 0.0));
+d401 1
+a401 1
+	if (GetSelectionMark() != -1 && GetSelectedCount()>0) flags=MF_STRING;
+@
+
+
+1.20
+log
+@Show the uploaded part number the Uploads
+@
+text
+@d397 16
+a421 13
+	
+	POINT point;
+	::GetCursorPos(&point);	
+
+	if (m_ClientMenu) m_ClientMenu.DestroyMenu();
+	m_ClientMenu.CreatePopupMenu();
+	m_ClientMenu.AddMenuTitle(GetResString(IDS_CLIENTS));
+	m_ClientMenu.AppendMenu(MF_STRING,MP_DETAIL, GetResString(IDS_SHOWDETAILS));
+	m_ClientMenu.AppendMenu(MF_STRING,MP_ADDFRIEND, GetResString(IDS_ADDFRIEND));
+	m_ClientMenu.AppendMenu(MF_STRING,MP_MESSAGE, GetResString(IDS_SEND_MSG));
+	m_ClientMenu.AppendMenu(MF_STRING,MP_SHOWLIST, GetResString(IDS_VIEWFILES));
+	m_ClientMenu.AppendMenu(MF_SEPARATOR);
+	m_ClientMenu.AppendMenu(MF_STRING,MP_SWITCHCTRL, GetResString(IDS_VIEWQUEUE));
+@
+
+
+1.19
+log
+@control panel limits, optimizations, bugfixes
+@
+text
+@d318 12
+a329 4
+					if(client->GetUpPartCount())
+					    Sbuffer.Format("%d/%d", client->GetAvailUpPartCount(), client->GetUpPartCount());
+                    else
+					    Sbuffer.Format("");
+@
+
+
+1.18
+log
+@enable sorting by upload progress
+@
+text
+@d506 2
+a507 2
+	case 3: 
+		return item1->GetTransferedUp() - item2->GetTransferedUp();
+d509 1
+a509 1
+		return item2->GetTransferedUp() - item1->GetTransferedUp();
+@
+
+
+1.17
+log
+@End of double check with official code.
+@
+text
+@d523 32
+@
+
+
+1.16
+log
+@minor updates & bugfixes
+@
+text
+@a27 1
+
+@
+
+
+1.15
+log
+@Removed .26 icon modification (debug purpose not needed anymore)
+@
+text
+@d325 1
+a325 1
+					if(client->GetUpPartCount())
+@
+
+
+1.14
+log
+@Updated ListCtrls to new icon management to be more tidy and practical. Hope didn't broke anything.
+@
+text
+@d238 2
+a239 1
+	for(int iCurrent = 0; iCurrent < iCount; iCurrent++){
+d241 2
+a242 1
+		if( !IsColumnHidden(iColumn) ){
+d244 54
+a297 52
+			switch(iColumn){
+		case 0:{
+				    POINT point = {cur_rec.left, cur_rec.top+1};
+
+                    if(client->GetClientSoft() == SO_EDONKEYHYBRID) {
+                        imagelist.Draw(dc, 3, point, ILD_NORMAL);
+                        if (client->IsBanned())
+                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+                        else if (client->IsFriend())
+                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+                        else if (client->credits->GetScoreRatio() > 1)
+                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+                    }
+		            else if (client->GetClientSoft() == SO_MLDONKEY) {
+                        imagelist.Draw(dc, 2, point, ILD_NORMAL);
+                        if (client->IsBanned())
+                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+                        else if (client->IsFriend())
+                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+                        else if (client->credits->GetScoreRatio() > 1)
+                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+		            }
+		            else if (client->GetClientSoft()==SO_EMULE || client->GetClientSoft()==SO_OLDEMULE) {
+                        imagelist.Draw(dc, 1, point, ILD_NORMAL);
+                        if (client->IsBanned())
+                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+                        else if (client->IsFriend())
+                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+                        else if (client->credits->GetScoreRatio() > 1)
+                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+                    }
+				    else {
+                        imagelist.Draw(dc, 0, point, ILD_NORMAL);
+                        if (client->IsBanned())
+                            imagelist.Draw(dc, 6, point, ILD_TRANSPARENT);
+                        else if (client->IsFriend())
+                            imagelist.Draw(dc, 5, point, ILD_TRANSPARENT);
+                        else if (client->credits->GetScoreRatio() > 1)
+                            imagelist.Draw(dc, 4, point, ILD_TRANSPARENT);
+					}
+
+                    if((client->GetClientSoft()==SO_EMULE) && (client->GetMuleVersion()==0x26)) {
+                        imagelist.Draw(dc, 7, point, ILD_TRANSPARENT);
+                    }
+
+                    Sbuffer.Format("%s", client->GetUserName());
+					cur_rec.left +=20;
+					dc->DrawText(Sbuffer,Sbuffer.GetLength(),&cur_rec,DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_END_ELLIPSIS);
+					cur_rec.left -=20;
+					break;
+    			}
+		case 1:
+d303 1
+a303 1
+		case 2:
+d306 1
+a306 2
+		case 3:
+					
+d309 1
+a309 1
+		case 4:
+d312 1
+a312 1
+		case 5:
+d315 1
+a315 1
+		case 6:
+d318 2
+a319 2
+		case 7:
+					if( client->GetUpPartCount() ){
+d321 1
+a321 1
+                    } else {
+a322 1
+                    }
+d324 3
+a326 2
+		case 8:
+					if( client->GetUpPartCount() ){
+d337 5
+a341 4
+		case 9:
+	                float compress = client->GetCompression() ;
+	                if (compress < 0.1f) {
+		                sprintf(buffer, "-", compress) ;
+d343 1
+a343 1
+	                } else {
+a344 1
+	                }
+d346 1
+a346 1
+		}
+d349 1
+a349 1
+				cur_rec.left += GetColumnWidth(iColumn);
+@
+
+
+1.13
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@d56 1
+d58 1
+a58 2
+	InsertColumn(9,GetResString(IDS_COMPRESSION),LVCFMT_RIGHT,110,9); // Add show compression
+	imagelist.Create(16,16,ILC_COLOR32 | ILC_MASK,0,10);
+d60 8
+a67 17
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_NORMAL),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_COMPROT),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PLUS),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PLUSCOMPROT),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_TAROD),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_TARODPLUS),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIEND),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDCOMPROT),16,16));
+	// By Maverick
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MLDONKEY),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MLDONKEYPLUS),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MLDONKEYFRIEND),16,16));
+	// END Maverick
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_EDONKEYHYBRID),16,16));  // 11
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CREDIT_ONLY),16,16));         // 12
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIEND_ONLY),16,16));         // 13
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_26_ONLY),16,16));         // 14
+d71 1
+a210 96
+/*
+	uint8 image;
+	if (client->IsFriend() && !client->ExtProtocolAvailable())
+		// By Maverick
+		// Added MLDONKEY Friend
+		if (client->GetClientSoft() == SO_MLDONKEY)
+			image = 10;
+		else
+			image = 6;
+		// END MAverick
+	else if (client->IsFriend() && client->ExtProtocolAvailable())
+		image = 7;
+	else if (client->ExtProtocolAvailable())
+	{
+		if (client->credits->GetScoreRatio() > 1)
+		{
+			if (client->TarodVersion())
+			{
+				image = 5;
+			} else {
+				image = 3;
+			}
+		} else {
+			if (client->TarodVersion())
+			{
+				image = 4; 
+			} else {
+				image = 1;
+			}
+		}
+	}
+	else{
+		// By MaverickeMule
+		// Add MlDonkeyPicture
+		if (client->GetClientSoft() == SO_MLDONKEY)
+		{
+			if (client->credits->GetScoreRatio() > 1)
+				image = 9;
+			else
+				image = 8;
+		} else {
+			if (client->credits->GetScoreRatio() > 1)
+				image = 2;
+			else
+				image = 0;
+		}
+		// End Maverick
+	}
+	SetItem(itemnr,0,LVIF_IMAGE,0,image,0,0,0,0);
+	char buffer[100];
+	CKnownFile* file = theApp.sharedfiles->GetFileByID(client->reqfileid);
+	if (file)
+		SetItemText(itemnr,1,file->GetFileName());
+	else
+		SetItemText(itemnr,1,"?");
+	sprintf(buffer,"%.1f kB/s",(float)client->GetDatarate()/1024);
+	SetItemText(itemnr,2,buffer);
+	CastItoXBytes(client->GetTransferedUp(),buffer,100);
+	SetItemText(itemnr,3,buffer);
+	CastSecondsToHM((client->GetWaitTime())/1000, buffer);
+	SetItemText(itemnr,4,buffer);
+	CastSecondsToHM((client->GetUpStartTimeDelay())/1000, buffer,100);
+	SetItemText(itemnr,5,buffer);
+	CString status;
+	switch (client->GetUploadState()){
+		case US_CONNECTING:
+			status = GetResString(IDS_CONNECTING);
+			break;
+		case US_WAITCALLBACK:
+			status = GetResString(IDS_CONNVIASERVER);
+			break;
+		case US_UPLOADING:
+			status = GetResString(IDS_TRANSFERRING);
+			break;
+		default:
+			status = GetResString(IDS_UNKNOWN);
+	}
+	SetItemText(itemnr,6,status);
+	
+	// UUU
+	sprintf(buffer,"%d/%d", client->GetUpAvailPartCount(), client->GetUpPartCount());
+	SetItemText(itemnr,7,buffer);
+	
+	float compress = client->GetCompression() ;
+	if (compress < 0.1f) {
+		sprintf(buffer, "-", compress) ;
+	} else {
+		sprintf(buffer, "%.1f%%", compress);// Add show compression
+		SetItemText(itemnr,9,buffer); // Add show compression
+	}
+
+	EMULE_CATCH
+} */
+
+
+
+d245 1
+a245 1
+    				
+d247 25
+a271 5
+                        imagelist.Draw(dc, 11, point, ILD_NORMAL);
+                        if (client->credits->GetScoreRatio() > 1)
+                            imagelist.Draw(dc, 12, point, ILD_TRANSPARENT);
+                        if (client->IsFriend())
+                            imagelist.Draw(dc, 13, point, ILD_TRANSPARENT);
+d273 9
+a281 41
+                    else
+				    if (client->IsFriend() && !client->ExtProtocolAvailable())
+		                if (client->GetClientSoft() == SO_MLDONKEY)
+                            imagelist.Draw(dc, 10, point, ILD_NORMAL);
+		                else
+                            imagelist.Draw(dc, 6, point, ILD_NORMAL);
+				    else if (client->IsFriend() && client->ExtProtocolAvailable())
+					    imagelist.Draw(dc, 7, point, ILD_NORMAL);
+				    else if (client->ExtProtocolAvailable())
+				    {
+					    if (client->credits->GetScoreRatio() > 1)
+					    {
+						    if (client->TarodVersion())
+						    {
+                                imagelist.Draw(dc, 5, point, ILD_NORMAL);
+						    } else {
+                                imagelist.Draw(dc, 3, point, ILD_NORMAL);
+						    }
+					    } else {
+						    if (client->TarodVersion())
+						    {
+                                imagelist.Draw(dc, 4, point, ILD_NORMAL);
+						    } else {
+                                imagelist.Draw(dc, 1, point, ILD_NORMAL);
+						    }
+					    }
+				    }
+				    else{
+		                if (client->GetClientSoft() == SO_MLDONKEY)
+		                {
+			                if (client->credits->GetScoreRatio() > 1)
+                                imagelist.Draw(dc, 9, point, ILD_NORMAL);
+			                else
+                                imagelist.Draw(dc, 8, point, ILD_NORMAL);
+		                } else {
+					        if (client->credits->GetScoreRatio() > 1)
+                                imagelist.Draw(dc, 2, point, ILD_NORMAL);
+					        else
+                                imagelist.Draw(dc, 0, point, ILD_NORMAL);
+                        }
+				    }
+d284 1
+a284 1
+                        imagelist.Draw(dc, 14, point, ILD_TRANSPARENT);
+d287 1
+a287 1
+					Sbuffer.Format("%s", client->GetUserName());
+d292 1
+a292 1
+				}
+a377 1
+	/**AK start**/
+a378 1
+	/**AK finish**/
+a380 2
+
+
+@
+
+
+1.12
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d405 1
+a405 1
+					dc->DrawText(Sbuffer,Sbuffer.GetLength(),&cur_rec,DT_LEFT|DT_SINGLELINE|DT_VCENTER);
+d420 1
+a420 1
+					Sbuffer = CastItoXBytes(client->GetTransferedUp());	
+d461 1
+a461 1
+				dc->DrawText(Sbuffer,Sbuffer.GetLength(),&cur_rec,DT_LEFT|DT_SINGLELINE|DT_VCENTER);
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d28 7
+@
+
+
+1.10
+log
+@bugifxes & improvements
+@
+text
+@d422 1
+a422 13
+					switch (client->GetUploadState()){
+						case US_CONNECTING:
+							Sbuffer = GetResString(IDS_CONNECTING);
+							break;
+						case US_WAITCALLBACK:
+							Sbuffer = GetResString(IDS_CONNVIASERVER);
+							break;
+						case US_UPLOADING:
+							Sbuffer = GetResString(IDS_TRANSFERRING);
+							break;
+						default:
+							Sbuffer = GetResString(IDS_UNKNOWN);
+						}
+@
+
+
+1.9
+log
+@Show the number of remote client's parts
+@
+text
+@a316 9
+	if( odc && (lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED )){
+		if(bCtrlFocused)
+			odc->SetBkColor(m_crHighlight);
+		else
+			odc->SetBkColor(m_crNoHighlight);
+	}
+	else
+		odc->SetBkColor(GetBkColor());
+
+d319 1
+d469 19
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d445 5
+a449 2
+                    // MERGE26
+					Sbuffer.Format("N/A");
+@
+
+
+1.7
+log
+@Little fix
+@
+text
+@d269 1
+a269 1
+	CastItoXBytes(client->GetTransferedUp(),buffer);
+d273 1
+a273 1
+	CastSecondsToHM((client->GetUpStartTimeDelay())/1000, buffer);
+@
+
+
+1.6
+log
+@.26b port
+@
+text
+@d421 1
+a421 1
+					Sbuffer.Format("%s",CastItoXBytes(client->GetTransferedUp()));	
+d424 1
+a424 1
+					Sbuffer.Format("%s",CastSecondsToHM((client->GetWaitTime())/1000));
+d427 1
+a427 1
+					Sbuffer.Format("%s",CastSecondsToHM((client->GetUpStartTimeDelay())/1000));
+@
+
+
+1.5
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d420 2
+a421 2
+					CastItoXBytes(client->GetTransferedUp(),buffer);
+					Sbuffer.Format("%s",buffer);	
+d424 1
+a424 2
+					CastSecondsToHM((client->GetWaitTime())/1000, buffer);
+					Sbuffer.Format("%s",buffer);
+d427 1
+a427 2
+					CastSecondsToHM((client->GetUpStartTimeDelay())/1000, buffer);
+					Sbuffer.Format("%s",buffer);
+@
+
+
+1.4
+log
+@updated to .25b codebase
+@
+text
+@d47 2
+a48 2
+	InsertColumn(7,GetResString(IDS_UP_PARTS),LVCFMT_LEFT,60,7); // UUU
+	InsertColumn(8,GetResString(IDS_DL_PROGRESS),LVCFMT_LEFT,110,8); // UUU
+d52 1
+a52 1
+	imagelist.SetBkColor(RGB(255,255,255));
+d66 6
+a71 1
+    	LoadImgLstIcon(NULL,0,0); // delete temp-icon
+d165 1
+a165 2
+void CUploadListCtrl::AddClient(CUpDownClient* client)
+{
+d169 1
+a169 1
+	itemnr = InsertItem(LVIF_TEXT|LVIF_PARAM,itemnr,client->GetUserName(),0,0,1,(LPARAM)client);
+d175 1
+a175 2
+void CUploadListCtrl::RemoveClient(CUpDownClient* client)
+{
+a196 156
+// UUU
+#define DLC_DT_TEXT (DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_END_ELLIPSIS)
+
+void CUploadListCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct)
+{
+	EMULE_TRY
+
+	if (!lpDrawItemStruct->itemData)
+		return;
+
+	CUpDownClient* client=((CUpDownClient*)lpDrawItemStruct->itemData);
+
+	CDC* odc = CDC::FromHandle(lpDrawItemStruct->hDC);
+
+	// background
+	BOOL bCtrlFocused = ((GetFocus() == this));
+
+	COLORREF crOldBkColor;
+	if((lpDrawItemStruct->itemAction | ODA_SELECT) &&
+		(lpDrawItemStruct->itemState & ODS_SELECTED)) 
+	{
+		if(bCtrlFocused)
+			crOldBkColor = odc->SetBkColor(m_crHighlight);
+		else
+			crOldBkColor = odc->SetBkColor(m_crNoHighlight);
+
+	}  
+	else
+		crOldBkColor = odc->SetBkColor(GetBkColor());
+
+	CMemDC dc(odc, &CRect(lpDrawItemStruct->rcItem));
+	CFont *pOldFont = dc->SelectObject(GetFont());
+	COLORREF crOldTxtColor = dc->SetTextColor(::GetSysColor(COLOR_WINDOWTEXT));
+
+	RECT cur_rec;
+	memcpy(&cur_rec, &lpDrawItemStruct->rcItem, sizeof(RECT));
+
+	//--- all 0.. columns ---
+	for(int c=0; c<ColumnsTracked(); c++)
+	{
+		//--- get real column, may its moved ---
+		int cc=GetColumnColumn(c);
+
+		//--- if the column is hidden, dont do anything ---
+		if(IsColumnHidden(cc))
+			continue;
+
+ 		if(c)
+			cur_rec.left = cur_rec.right;
+		cur_rec.right = cur_rec.left + GetColumnWidth(cc);
+		cur_rec.left += 4;
+
+		switch(cc)
+		{
+		case 0:
+			{
+				POINT point = {cur_rec.left, cur_rec.top+1};
+				uint8 image;
+				if (client->IsFriend() && !client->ExtProtocolAvailable())
+					image = 6;
+				else if (client->IsFriend() && client->ExtProtocolAvailable())
+					image = 7;
+				else if (client->ExtProtocolAvailable())
+				{
+					if (client->credits->GetScoreRatio() > 1)
+					{
+						if (client->TarodVersion())
+						{
+							image = 5;
+						} else {
+							image = 3;
+						}
+					} else {
+						if (client->TarodVersion())
+						{
+							image = 4; 
+						} else {
+							image = 1;
+						}
+					}
+				}
+				else{
+					if (client->credits->GetScoreRatio() > 1)
+						image = 2;
+					else
+						image = 0;
+				}
+				imagelist.Draw(dc, image, point, ILD_NORMAL);
+				cur_rec.left += 20;
+			}
+			// fall through
+		case 1:
+		case 2:
+		case 3:
+		case 4:
+		case 5:
+		case 6:
+		case 7:
+		case 9:
+			dc->DrawText(GetItemText(lpDrawItemStruct->itemID, cc), -1, &cur_rec, DLC_DT_TEXT);
+			break;
+		case 8:
+			if(ASK_FOR_PARTS_ON_UPLOAD)
+			{
+				cur_rec.bottom--;
+				cur_rec.top++;
+
+				// added
+				int iWidth = cur_rec.right - cur_rec.left-4; 
+				int iHeight = cur_rec.bottom - cur_rec.top;
+				if(iWidth>0)
+				{
+					CDC cdcStatus; 
+					cdcStatus.CreateCompatibleDC(&dc); 
+					CBitmap status, *poldbmp;
+					status.CreateCompatibleBitmap(&dc, iWidth, iHeight); 
+					status.SetBitmapDimension(iWidth, iHeight); 
+					poldbmp = cdcStatus.SelectObject(&status); 
+
+					RECT rec_status; 
+					rec_status.left = 0; 
+					rec_status.top = 0; 
+					rec_status.bottom = iHeight; 
+					rec_status.right = iWidth; 
+
+					client->DrawStatusBar(&cdcStatus,  &rec_status, false, theApp.glob_prefs->UseFlatBar(), true);
+					dc->BitBlt(cur_rec.left, cur_rec.top, iWidth, iHeight,  &cdcStatus, 0, 0, SRCCOPY); 
+					cdcStatus.SelectObject(poldbmp);
+				}
+				//added end
+				cur_rec.bottom++;
+				cur_rec.top--;
+			}
+			break;
+		}
+	}
+
+	//--- draw rectangle around selected item ---
+	if(lpDrawItemStruct->itemState & ODS_FOCUS)
+	{
+		RECT focus_rec;
+		focus_rec.top    = lpDrawItemStruct->rcItem.top;
+		focus_rec.bottom = lpDrawItemStruct->rcItem.bottom;
+		focus_rec.left   = lpDrawItemStruct->rcItem.left + 1;
+		focus_rec.right  = lpDrawItemStruct->rcItem.right - 1;
+		dc->FrameRect(&focus_rec, &CBrush(m_crNoFocusLine));
+	}
+
+	// restore the dc before destroying it:
+	dc->SelectObject(pOldFont);			
+	dc->SetTextColor(crOldTxtColor);
+	dc->SetBkColor(crOldBkColor);
+
+	EMULE_CATCH
+}
+
+d204 9
+a212 3
+	sint32 itemnr = FindItem(&find);
+	if (itemnr == (-1))
+		return;
+d304 175
+d531 1
+a531 2
+BOOL CUploadListCtrl::OnCommand(WPARAM wParam,LPARAM lParam )
+{
+@
+
+
+1.4.4.1
+log
+@initial upgrade to .26
+@
+text
+@d160 2
+a161 1
+void CUploadListCtrl::AddClient(CUpDownClient* client){
+d165 1
+a165 1
+	itemnr = InsertItem(LVIF_TEXT|LVIF_PARAM,itemnr,0,0,0,1,(LPARAM)client);
+d171 2
+a172 1
+void CUploadListCtrl::RemoveClient(CUpDownClient* client){
+d194 156
+d357 3
+a359 7
+	sint16 result = FindItem(&find);
+	if(result != -1)
+		Update(result);
+	return;
+}
+
+/*
+a450 146
+} */
+
+
+
+// UUU
+#define DLC_DT_TEXT (DT_LEFT|DT_SINGLELINE|DT_VCENTER|DT_NOPREFIX|DT_END_ELLIPSIS)
+
+void CUploadListCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct){
+	EMULE_TRY
+
+	if (!lpDrawItemStruct->itemData)
+		return;
+	CDC* odc = CDC::FromHandle(lpDrawItemStruct->hDC);
+	BOOL bCtrlFocused = ((GetFocus() == this ) || (GetStyle() & LVS_SHOWSELALWAYS));
+	if( odc && (lpDrawItemStruct->itemAction | ODA_SELECT) && (lpDrawItemStruct->itemState & ODS_SELECTED )){
+		if(bCtrlFocused)
+			odc->SetBkColor(m_crHighlight);
+		else
+			odc->SetBkColor(m_crNoHighlight);
+	}
+	else
+		odc->SetBkColor(GetBkColor());
+
+	CUpDownClient* client = (CUpDownClient*)lpDrawItemStruct->itemData;
+	CMemDC dc(CDC::FromHandle(lpDrawItemStruct->hDC),&CRect(lpDrawItemStruct->rcItem));
+	dc.SelectObject(GetFont());
+	COLORREF crOldTextColor = dc->GetTextColor();
+	COLORREF crOldBkColor = dc->GetBkColor();
+	RECT cur_rec;
+	memcpy(&cur_rec,&lpDrawItemStruct->rcItem,sizeof(RECT));
+
+	CString Sbuffer;
+	char buffer[100];
+
+	CKnownFile* file = theApp.sharedfiles->GetFileByID(client->reqfileid);
+	CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+	int iCount = pHeaderCtrl->GetItemCount();
+	cur_rec.right = cur_rec.left - 8;
+	cur_rec.left += 4;
+
+	for(int iCurrent = 0; iCurrent < iCount; iCurrent++){
+		int iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+		if( !IsColumnHidden(iColumn) ){
+			cur_rec.right += GetColumnWidth(iColumn);
+			switch(iColumn){
+		case 0:{
+				uint8 image;
+				if (client->IsFriend() && !client->ExtProtocolAvailable())
+					image = 6;
+				else if (client->IsFriend() && client->ExtProtocolAvailable())
+					image = 7;
+				else if (client->ExtProtocolAvailable())
+				{
+					if (client->credits->GetScoreRatio() > 1)
+					{
+						if (client->TarodVersion())
+						{
+							image = 5;
+						} else {
+							image = 3;
+						}
+					} else {
+						if (client->TarodVersion())
+						{
+							image = 4; 
+						} else {
+							image = 1;
+						}
+					}
+				}
+				else{
+					if (client->credits->GetScoreRatio() > 1)
+						image = 2;
+					else
+						image = 0;
+				}
+					POINT point = {cur_rec.left, cur_rec.top+1};
+					imagelist.Draw(dc,image, point, ILD_NORMAL);
+					Sbuffer.Format("%s", client->GetUserName());
+					cur_rec.left +=20;
+					dc->DrawText(Sbuffer,Sbuffer.GetLength(),&cur_rec,DT_LEFT|DT_SINGLELINE|DT_VCENTER);
+					cur_rec.left -=20;
+					break;
+				}
+		case 1:
+					if(file)
+						Sbuffer.Format("%s", file->GetFileName());
+					else
+						Sbuffer = "?";
+					break;
+		case 2:
+					Sbuffer.Format("%.1f kB/s",(float)client->GetDatarate()/1024);
+					break;
+		case 3:
+					CastItoXBytes(client->GetTransferedUp(),buffer);
+					Sbuffer.Format("%s",buffer);	
+				break;
+		case 4:
+					CastSecondsToHM((client->GetWaitTime())/1000, buffer);
+					Sbuffer.Format("%s",buffer);
+					break;
+		case 5:
+					CastSecondsToHM((client->GetUpStartTimeDelay())/1000, buffer);
+					Sbuffer.Format("%s",buffer);
+					break;
+		case 6:
+					switch (client->GetUploadState()){
+						case US_CONNECTING:
+							Sbuffer = GetResString(IDS_CONNECTING);
+							break;
+						case US_WAITCALLBACK:
+							Sbuffer = GetResString(IDS_CONNVIASERVER);
+							break;
+						case US_UPLOADING:
+							Sbuffer = GetResString(IDS_TRANSFERRING);
+							break;
+						default:
+							Sbuffer = GetResString(IDS_UNKNOWN);
+						}
+					break;
+		case 7:
+                    // MERGE26
+                    break;
+		case 8:
+					if( client->GetUpPartCount() ){
+						cur_rec.bottom--;
+						cur_rec.top++;
+						int iWidth = cur_rec.right - cur_rec.left;	
+						int iHeight = cur_rec.bottom - cur_rec.top;
+						client->DrawUpStatusBar(dc,&cur_rec,false,false);
+						cur_rec.bottom++;
+						cur_rec.top--;
+	
+					}
+					break;
+		case 9:
+                    // MERGE26
+                    break;
+		}
+			if( iColumn != 7 && iColumn != 0 )
+				dc->DrawText(Sbuffer,Sbuffer.GetLength(),&cur_rec,DT_LEFT|DT_SINGLELINE|DT_VCENTER);
+				cur_rec.left += GetColumnWidth(iColumn);
+		}
+	}
+
+	EMULE_CATCH
+d503 2
+a504 1
+BOOL CUploadListCtrl::OnCommand(WPARAM wParam,LPARAM lParam ){
+@
+
+
+1.4.4.2
+log
+@Fixing list controls, adding support for eDonkey Hybrid
+@
+text
+@d47 2
+a48 2
+	InsertColumn(7,GetResString(IDS_UP_PARTS),LVCFMT_LEFT,60,7);
+	InsertColumn(8,GetResString(IDS_DL_PROGRESS),LVCFMT_LEFT,110,8);
+d52 1
+a52 1
+	imagelist.SetBkColor(CLR_NONE);
+d66 1
+a66 6
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_EDONKEYHYBRID),16,16));  // 11
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_CREDIT_ONLY),16,16));         // 12
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIEND_ONLY),16,16));         // 13
+    imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_26_ONLY),16,16));         // 14
+
+    LoadImgLstIcon(NULL,0,0); // delete temp-icon
+d343 32
+a374 55
+				    POINT point = {cur_rec.left, cur_rec.top+1};
+    				
+                    if(client->GetClientSoft() == SO_EDONKEYHYBRID) {
+                        imagelist.Draw(dc, 11, point, ILD_NORMAL);
+                        if (client->credits->GetScoreRatio() > 1)
+                            imagelist.Draw(dc, 12, point, ILD_TRANSPARENT);
+                        if (client->IsFriend())
+                            imagelist.Draw(dc, 13, point, ILD_TRANSPARENT);
+                    }
+                    else
+				    if (client->IsFriend() && !client->ExtProtocolAvailable())
+		                if (client->GetClientSoft() == SO_MLDONKEY)
+                            imagelist.Draw(dc, 10, point, ILD_NORMAL);
+		                else
+                            imagelist.Draw(dc, 6, point, ILD_NORMAL);
+				    else if (client->IsFriend() && client->ExtProtocolAvailable())
+					    imagelist.Draw(dc, 7, point, ILD_NORMAL);
+				    else if (client->ExtProtocolAvailable())
+				    {
+					    if (client->credits->GetScoreRatio() > 1)
+					    {
+						    if (client->TarodVersion())
+						    {
+                                imagelist.Draw(dc, 5, point, ILD_NORMAL);
+						    } else {
+                                imagelist.Draw(dc, 3, point, ILD_NORMAL);
+						    }
+					    } else {
+						    if (client->TarodVersion())
+						    {
+                                imagelist.Draw(dc, 4, point, ILD_NORMAL);
+						    } else {
+                                imagelist.Draw(dc, 1, point, ILD_NORMAL);
+						    }
+					    }
+				    }
+				    else{
+		                if (client->GetClientSoft() == SO_MLDONKEY)
+		                {
+			                if (client->credits->GetScoreRatio() > 1)
+                                imagelist.Draw(dc, 9, point, ILD_NORMAL);
+			                else
+                                imagelist.Draw(dc, 8, point, ILD_NORMAL);
+		                } else {
+					        if (client->credits->GetScoreRatio() > 1)
+                                imagelist.Draw(dc, 2, point, ILD_NORMAL);
+					        else
+                                imagelist.Draw(dc, 0, point, ILD_NORMAL);
+                        }
+				    }
+
+                    if((client->GetClientSoft()==SO_EMULE) && (client->GetMuleVersion()==0x26)) {
+                        imagelist.Draw(dc, 14, point, ILD_TRANSPARENT);
+                    }
+
+d393 1
+a393 1
+    				break;
+a418 1
+					Sbuffer.Format("N/A");
+d433 1
+a433 7
+	                float compress = client->GetCompression() ;
+	                if (compress < 0.1f) {
+		                sprintf(buffer, "-", compress) ;
+    					Sbuffer.Format("-");
+	                } else {
+    					Sbuffer.Format("%.1f",compress);
+	                }
+d436 1
+a436 1
+			if( iColumn != 8 && iColumn != 0 )
+@
+
+
+1.4.4.3
+log
+@further fixes
+@
+text
+@d455 1
+a455 1
+						client->DrawUpStatusBar(dc,&cur_rec,false,theApp.glob_prefs->UseFlatBar());
+@
+
+
+1.4.4.4
+log
+@more fixes, more merging, try/catch balancing
+@
+text
+@a207 2
+
+    EMULE_CATCH
+d306 1
+@
+
+
+1.4.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d61 5
+d362 7
+a368 1
+		image = 6;
+d391 15
+a405 4
+		if (client->credits->GetScoreRatio() > 1)
+			image = 2;
+		else
+			image = 0;
+@
+
+
+1.2
+log
+@port to .25 b codebase...
+@
+text
+@d35 4
+a38 1
+void CUploadListCtrl::Init(){
+d72 2
+d79 4
+a82 1
+void CUploadListCtrl::SortInit(int sortCode){	//Cax2 sortdlg
+d86 2
+d92 2
+d151 2
+d155 4
+a158 1
+void CUploadListCtrl::AddClient(CUpDownClient* client){
+d162 2
+d168 2
+d185 2
+d194 2
+d341 2
+d347 2
+d427 2
+d448 2
+d453 5
+a457 2
+		theApp.emuledlg->transferwnd.infolistctrl.SwitchToUser((CUpDownClient*)client);
+		theApp.emuledlg->transferwnd.UpdateInfoHeader();
+d477 2
+d481 4
+a484 1
+BOOL CUploadListCtrl::OnCommand(WPARAM wParam,LPARAM lParam ){
+d513 3
+d520 3
+a522 1
+void CUploadListCtrl::OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult){
+d531 2
+d535 4
+a538 1
+int CUploadListCtrl::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort){
+d543 46
+a588 47
+		switch(lParamSort){
+		case 0: 
+			return CString(item1->GetUserName()).CompareNoCase(item2->GetUserName());
+		case 10:
+			return CString(item2->GetUserName()).CompareNoCase(item1->GetUserName());
+		case 1: 
+			if( (file1 != NULL) && (file2 != NULL))
+				return CString(file1->GetFileName()).CompareNoCase(file2->GetFileName());
+			else if( file1 == NULL )
+				return 1;
+			else
+				return (file2 == NULL)?0:-1;
+		case 11:
+			if( (file1 != NULL) && (file2 != NULL))
+				return CString(file2->GetFileName()).CompareNoCase(file1->GetFileName());
+			else if( file1 == NULL )
+				return 1;
+			else
+				return (file2 == NULL)?0:-1;
+		case 2: 
+				return (float)item1->GetDatarate() - (float)item2->GetDatarate();
+		case 12:
+				return (float)item2->GetDatarate() - (float)item1->GetDatarate();
+
+		case 3: 
+			return item1->GetTransferedUp() - item2->GetTransferedUp();
+		case 13: 
+			return item2->GetTransferedUp() - item1->GetTransferedUp();
+
+		case 4: 
+			return item1->GetWaitTime() - item2->GetWaitTime();
+		case 14: 
+			return item2->GetWaitTime() - item1->GetWaitTime();
+		case 5: 
+			return item1->GetUpStartTimeDelay() - item2->GetUpStartTimeDelay();
+		case 15: 
+			return item2->GetUpStartTimeDelay() - item1->GetUpStartTimeDelay();
+		case 6: 
+			return item1->GetUploadState() - item2->GetUploadState();
+		case 16: 
+			return item2->GetUploadState() - item1->GetUploadState();
+		case 9: // Add sort compression
+			return item1->GetCompression() - item2->GetCompression();
+		case 19: // Add sort compression
+			return item2->GetCompression() - item1->GetCompression();
+		default:
+			return 0;
+d590 3
+d604 2
+d620 2
+d626 2
+d630 2
+d636 2
+d650 2
+d656 2
+d660 2
+d666 2
+d680 2
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d62 7
+a68 1
+	else SortInit(12);
+d503 1
+a503 1
+				return 0;
+d510 1
+a510 1
+				return 0;
+@
+

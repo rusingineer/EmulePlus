@@ -1,0 +1,433 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.7
+	Interim_Release_1-2d_RC1:1.7
+	Interim_Release_1-2d_beta1:1.6
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.6
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.6
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.3
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.7
+date	2008.03.10.02.24.10;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.10.01.04.44.26;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.25.19.45.18;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.24.01.21.22;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.05.07.24.39;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.23.00.32.24;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Formatting.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "..\resource.h"
+#include "CDGeneral.h"
+#include "CDTransfer.h"
+#include "CDScores.h"
+
+class CClientDetails : public CPropertySheet
+{
+	DECLARE_DYNAMIC(CClientDetails)
+
+public:
+	CClientDetails(UINT uiIDCaption, CUpDownClient *pClient, CWnd *pParentWnd = NULL, UINT iSelectPage = 0);
+	CClientDetails(LPCTSTR pszCaption, CUpDownClient* pClient, CWnd* pParentWnd = NULL, UINT iSelectPage = 0);
+	virtual ~CClientDetails();
+
+	virtual BOOL OnInitDialog();
+	afx_msg void OnTimer(UINT nIDEvent);
+
+protected:
+	void Init(CUpDownClient* pClient);
+	DECLARE_MESSAGE_MAP()
+
+protected:
+	CCDGeneral	m_proppageGeneral;
+	CCDTransfer	m_wndTransfer;
+	CCDScores	m_wndScores;
+
+	CUpDownClient*	m_pClient;
+	UINT		m_nTimer;
+
+	CString		m_strGeneralTitle;
+	CString		m_strTransferTitle;
+	CString		m_strScoresTitle;
+};
+@
+
+
+1.6
+log
+@Cleanup.
+@
+text
+@d1 1
+a1 1
+// ClientDetails.h : header file
+d3 13
+a22 3
+/////////////////////////////////////////////////////////////////////////////
+// CClientDetails
+
+a26 1
+// Construction
+d28 1
+a28 1
+	CClientDetails(UINT nIDCaption, CUpDownClient* pClient, CWnd* pParentWnd = NULL, UINT iSelectPage = 0);
+d32 7
+a49 15
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CClientDetails)
+	//}}AFX_VIRTUAL
+
+protected:
+	void Init(CUpDownClient* pClient);
+	//{{AFX_MSG(CClientDetails)
+		// NOTE - the ClassWizard will add and remove member functions here.
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+public:
+	virtual BOOL OnInitDialog();
+	afx_msg void OnTimer(UINT nIDEvent);
+@
+
+
+1.5
+log
+@Improved string processing;
+Removed property page localization during property sheet creature (every property page is localized at its creature)
+@
+text
+@a0 6
+#if !defined(AFX_CLIENTDETAILS_H__CC4338B0_98F0_4B15_9DC1_0E5C47222CD6__INCLUDED_)
+#define AFX_CLIENTDETAILS_H__CC4338B0_98F0_4B15_9DC1_0E5C47222CD6__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+d3 1
+d21 1
+a21 3
+
+// Attributes
+public:
+a39 5
+// Implementation
+public:
+	virtual ~CClientDetails();
+
+	// Generated message map functions
+a46 1
+	void Update(void);
+a49 8
+
+/////////////////////////////////////////////////////////////////////////////
+
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_CLIENTDETAILS_H__CC4338B0_98F0_4B15_9DC1_0E5C47222CD6__INCLUDED_)
+@
+
+
+1.4
+log
+@Formatting, comments, and name changes.
+@
+text
+@a59 1
+	void Localize(void);
+@
+
+
+1.3
+log
+@Localization update
+@
+text
+@d31 1
+a31 1
+	CCDGeneral	m_wndGeneral;
+@
+
+
+1.2
+log
+@new dialogs for file- & client-details
+@
+text
+@d38 4
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d11 3
+a13 121
+#include "..\Edit2.h"
+#include "..\UpDownClient.h"
+#include "ScrollStatic.h"
+#include "Separator.h"
+
+/////////////////////////////////////////////////////////////////////////////
+// CCDGeneral dialog
+
+class CCDGeneral : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CCDGeneral)
+		
+		// Construction
+public:
+	CCDGeneral();
+	~CCDGeneral();
+
+// Dialog Data
+	//{{AFX_DATA(CCDGeneral)
+	enum { IDD = IDD_CDPPG_GENERAL };
+	CEdit2			m_ctrlUserName;
+	CScrollStatic	m_ctrlUserHash;
+	CScrollStatic	m_ctrlServerName;
+	CScrollStatic	m_ctrlServerIP;
+	CScrollStatic	m_ctrlClientIP;
+	CScrollStatic	m_ctrlClientID;
+	CScrollStatic	m_ctrlClientVersion;
+	CScrollStatic	m_ctrlClientSoftware;
+	CStatic			m_ctrlClientIcon;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CCDGeneral)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	// Generated message map functions
+	//{{AFX_MSG(CCDGeneral)
+		// NOTE: the ClassWizard will add member functions here
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// CCDTransfer dialog
+
+class CCDTransfer : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CCDTransfer)
+
+// Construction
+public:
+	CCDTransfer();
+	~CCDTransfer();
+
+// Dialog Data
+	//{{AFX_DATA(CCDTransfer)
+	enum { IDD = IDD_CDPPG_TRANSFER };
+	CScrollStatic	m_ctrlCurrentDownload;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CCDTransfer)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	// Generated message map functions
+	//{{AFX_MSG(CCDTransfer)
+		// NOTE: the ClassWizard will add member functions here
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+
+};
+
+/////////////////////////////////////////////////////////////////////////////
+// CCDScores dialog
+
+class CCDScores : public CPropertyPage
+{
+	DECLARE_DYNCREATE(CCDScores)
+
+// Construction
+public:
+	CCDScores();
+	~CCDScores();
+
+// Dialog Data
+	//{{AFX_DATA(CCDScores)
+	enum { IDD = IDD_CDPPG_SCORES };
+	CSeparator	m_ctrlScores;
+	CSeparator	m_ctrlRemoteScores;
+	//}}AFX_DATA
+
+
+// Overrides
+	// ClassWizard generate virtual function overrides
+	//{{AFX_VIRTUAL(CCDScores)
+	protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	//}}AFX_VIRTUAL
+
+// Implementation
+protected:
+	// Generated message map functions
+	//{{AFX_MSG(CCDScores)
+		// NOTE: the ClassWizard will add member functions here
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+
+};
+d35 3
+d49 1
+a49 1
+	void Init();
+d54 5
+@
+

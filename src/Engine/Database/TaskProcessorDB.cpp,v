@@ -1,0 +1,486 @@
+head	1.8;
+access;
+symbols
+	PublicRelease_1_2e:1.8
+	Interim_Release_1-2e_RC1:1.8
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.8
+	Interim_Release_1-2d_beta1:1.8
+	PublicRelease_1_2c:1.8
+	Interim_Release_1-2c_RC1:1.8
+	Interim_Release_1-2c_beta1:1.8
+	PublicRelease_1_2b:1.8
+	Interim_Release_1-2b_RC1:1.8
+	PublicRelease_1_2a:1.8
+	Interim_Release_1-2a_RC1:1.8
+	Interim_Release_1-2a_beta2:1.8
+	Interim_Release_1-2a_beta1:1.8
+	PublicRelease_1_2:1.8
+	Interim_Release_1-2_RC1:1.8
+	Interim_Release_1-2_beta1:1.8
+	PublicRelease_1_1g:1.8
+	Interim_Release_1-1g_RC3:1.8
+	Interim_Release_1-1g_RC2:1.8
+	Interim_Release_1-1g_RC1:1.8
+	Interim_Release_1-1g_beta2:1.8
+	Interim_Release_1-1g_beta1:1.8
+	PublicRelease_1_1f:1.8
+	Interim_Release_1-1f_RC1:1.8
+	PublicRelease_1_1e:1.8
+	Interim_Release_1-1e_RC2:1.8
+	Interim_Release_1-1e_RC1:1.8
+	Interim_Release_1-1e_beta1:1.8
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.2
+	Interim_Release_1-1c_beta1:1.2;
+locks; strict;
+comment	@// @;
+
+
+1.8
+date	2005.04.11.16.32.20;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.03.29.14.36.13;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.03.22.22.02.09;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.02.22.02.34.50;	author kush_eplus;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.02.21.16.47.43;	author kush_eplus;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.02.18.16.19.48;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.01.29.14.55.01;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.28.20.13.53;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@v2 - logging subsystem
+@
+text
+@// TaskProcessorDB.cpp: implementation of the CTaskProcessor_DB class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "TaskProcessorDB.h"
+#include <time.h>
+#ifdef USE_BERKELEY_DB
+	#include "../../BerkeleyDb/build_win32/db_cxx.h"
+#endif //USE_BERKELEY_DB
+
+//#define SERVERLIST_DB _T("Servers.db")
+//#define FILES_DB _T("files.db")
+
+CTaskProcessor_DB::CTaskProcessor_DB()
+#ifdef USE_BERKELEY_DB
+	: m_pDbEnv(NULL)
+	,m_pDbLogs(NULL)
+#endif //USE_BERKELEY_DB
+//	,m_pDbServers(NULL)
+//	,m_pDbFiles(NULL)
+//	,m_pDbMD4Parts(NULL)
+
+{
+	m_dwStartupTimeout = 10000;	// 10 seconds timeout to open all databases
+}
+
+CTaskProcessor_DB::~CTaskProcessor_DB()
+{
+	Stop();
+}
+
+bool CTaskProcessor_DB::Start()
+{
+	m_dwWaitTimeout = 1000;
+
+#ifdef USE_BERKELEY_DB
+	try
+	{
+		CString sDbHome = _T("./Db"); //CString(m_pGlobPrefs->GetAppDir()) + _T("Db");
+
+		::CreateDirectory(sDbHome, NULL);	// In case it doesn't exist
+
+		// Create environment
+		m_pDbEnv = new DbEnv(0);
+		m_pDbEnv->set_cachesize(0, 256 * 1024, 0);	// 256kb cache size
+//		m_pDbEnv->set_alloc(&malloc,&realloc,&free);
+		USES_CONVERSION;
+		m_pDbEnv->open( CT2CA(sDbHome), DB_CREATE | DB_INIT_LOCK | DB_INIT_LOG
+			| DB_INIT_MPOOL | DB_INIT_TXN | DB_RECOVER
+			| DB_THREAD, 0 );
+
+		m_pDbEnv->set_flags(DB_AUTO_COMMIT, 1);
+
+		// Servers list
+		m_pDbLogs = new Db(m_pDbEnv, 0);
+		m_pDbLogs->set_pagesize(16 * 1024); // 16Kb page size
+		m_pDbLogs->open(NULL, _T("Logs.db"), _T("Logs"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+
+
+/*
+		// Servers list
+		m_pDbServers = new Db(m_pDbEnv, 0);
+		m_pDbServers->set_pagesize(16 * 1024); // 16Kb page size
+		m_pDbServers->open(NULL, SERVERLIST_DB, _T("Server-List"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+*/
+/*		// Servers list - primary index by addr/port
+		m_pDbServersAddr = new Db(m_pDbEnv, 0);
+		m_pDbServersAddr->open(NULL, SERVERLIST_DB, _T("Server-List-Addr"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+
+		m_pDbServers->associate(NULL, m_pDbServersAddr, CServer::PrimaryIndex, NULL);
+
+		// Servers list - secondary index by 'static' field
+		m_pDbServersStatic = new Db(m_pDbEnv, 0);
+		m_pDbServersStatic->set_flags(DB_DUP | DB_DUPSORT);
+		m_pDbServersStatic->open(NULL, SERVERLIST_DB, _T("Server-List-Static"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+
+		m_pDbServers->associate(NULL, m_pDbServersStatic, CServer::SecondaryIndexStatic, NULL);
+
+		// Servers list - secondary index by 'priority' field
+		m_pDbServersPriority = new Db(m_pDbEnv, 0);
+		m_pDbServersPriority->set_flags(DB_DUP | DB_DUPSORT);
+		m_pDbServersPriority->open(NULL, SERVERLIST_DB, _T("Server-List-Priority"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+
+		m_pDbServers->associate(NULL, m_pDbServersPriority, CServer::SecondaryIndexPriority, NULL);
+*/
+/*		// files DB
+		m_pDbFiles = new Db(m_pDbEnv, 0);
+		m_pDbFiles->set_pagesize(16 * 1024); // 16Kb page m_lSize
+		m_pDbFiles->open(NULL, FILES_DB, _T("FileDB"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+*/
+/*		// files DB - secondary index by hash
+		m_pDbFilesHash = new Db(m_pDbEnv, 0);
+		m_pDbFilesHash->set_flags(DB_DUP | DB_DUPSORT);
+		m_pDbFilesHash->open(NULL, FILES_DB, _T("FileDB-Hash"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+
+///		m_pDbFiles->associate(NULL, m_pDbFilesHash, CKnownFile::FileHashIndex, NULL);
+*/
+/*		// part DB
+		m_pDbMD4Parts = new Db(m_pDbEnv, 0);
+		m_pDbMD4Parts->set_pagesize(16 * 1024); // 16Kb page size
+		m_pDbMD4Parts->open(NULL, FILES_DB, _T("MD4PartDB"), DB_BTREE, DB_CREATE | DB_THREAD | DB_AUTO_COMMIT, 0);
+*/
+	}
+	catch (DbRunRecoveryException &dbe)
+	{
+		AddLog(LOG_ERROR, _T("DB recovery exception: "), dbe.what());
+		return false;
+	}
+	catch (DbException &dbe)
+	{
+//		m_pDbServers = NULL;
+		m_pDbLogs = NULL;
+		m_pDbEnv = NULL;
+		AddLog(LOG_ERROR, _T("Problems create database objects: %s. Closing."), dbe.what());
+		return false;
+	}
+	catch(...)
+	{
+//		m_pDbServers = NULL;
+		m_pDbLogs = NULL;
+		m_pDbEnv = NULL;
+		AddLog(LOG_ERROR, _T("Problems create database objects. Closing."));
+		return false;
+	}
+#endif //USE_BERKELEY_DB
+
+	return true;
+}
+
+void CTaskProcessor_DB::Stop()
+{
+#ifdef USE_BERKELEY_DB
+	try
+	{
+/*		if(m_pDbServers)
+		{
+			m_pDbServers->close(0);
+			safe_delete(m_pDbServers);
+		}
+
+		//close file DB
+		if(m_pDbFilesHash)
+		{
+			m_pDbFilesHash->close(0);
+			safe_delete(m_pDbFilesHash);
+		}
+
+		if(m_pDbFiles)
+		{
+			m_pDbFiles->close(0);
+			safe_delete(m_pDbFiles);
+		}
+*/
+		if(m_pDbLogs)
+		{
+			m_pDbLogs->close(0);
+			// [kuchin] see below
+//			safe_delete(m_pDbLogs);
+		}
+
+/*		if(m_pDbMD4Parts)
+		{
+			m_pDbMD4Parts->close(0);
+			safe_delete(m_pDbMD4Parts);
+		}*/
+
+	//	Always close m_pDbEnv last to avoid strange behaviors
+//		FILE *f = fopen("_a", "w");
+//		m_pDbEnv->set_errfile(f);
+
+		if(m_pDbEnv)
+		{
+			m_pDbEnv->txn_checkpoint(0,0,0);
+			m_pDbEnv->close(0);
+			// [kuchin] if i delete this object, program crash
+			// i don't have time to debug it now, anyway it won't hurt anything since everything is already closed
+//			safe_delete(m_pDbEnv);
+		}
+	}
+	catch(DbException &dbe)
+	{
+		AddLog(LOG_ERROR, _T("Problems delete database objects: %s."), dbe.what());
+	}
+	catch(...)
+	{
+	//	AddLog(LOG_ERROR, _T("Problems delete database objects."));
+	}
+#endif //USE_BERKELEY_DB
+}
+
+void CTaskProcessor_DB::ProcessTimeout()
+{
+	m_dwWaitTimeout = 1000; // perform check once per second
+}
+
+CTask_AddToLog::CTask_AddToLog(EnumLogType eType, CPreciseTime tmTime, LPCTSTR sLine)
+{
+	m_Log.eType  = eType;
+	m_Log.tmTime = tmTime;
+	m_Log.sLine  = sLine;
+}
+
+bool CTask_AddToLog::Process()
+{
+	g_stEngine.DB.m_LogsList.push_back(m_Log);
+	return true;
+}
+
+/*CTask_AddToLog::CTask_AddToLog(DbEnv *pDbEnv, Db *pDb, BOOL bDebug, LPCTSTR sLine)
+	:m_lTime(time(NULL))
+	,m_bDebug(bDebug)
+	,m_sLine(sLine)
+#ifdef USE_BERKELEY_DB
+	,m_pDbEnv(pDbEnv)
+	,m_pDb(pDb)
+#endif //USE_BERKELEY_DB
+{
+}
+
+bool CTask_AddToLog::Process()
+{
+#ifdef USE_BERKELEY_DB
+	try
+	{
+		if(m_pDbEnv && m_pDb)
+		{
+//			DbTxn *tid;
+//			m_pDbEnv->txn_begin(NULL, &tid, 0);
+
+			DWORD dwSize = sizeof(BOOL) + m_sLine.GetLength() + 1;
+			BYTE *pData = new BYTE[dwSize];
+			CopyMemory(pData, &m_bDebug, sizeof(m_bDebug));
+			CopyMemory(pData + sizeof(m_bDebug), (LPCTSTR)m_sLine, m_sLine.GetLength() + 1);
+			Dbt key((void*)&m_lTime, sizeof(m_lTime));
+			Dbt data((void*)pData, dwSize);
+
+			m_pDb->put(NULL, &key, &data, DB_AUTO_COMMIT);
+
+			delete[] pData;
+
+//			tid->commit(0);
+		}
+	}
+	catch(DbException &dbe)
+	{
+		AddLog(LOG_ERROR, _T("DB Problems: %s."), dbe.what());
+	}
+	catch(...)
+	{
+		AddLog(LOG_ERROR, _T("Problems add log to database."));
+	}
+#endif //USE_BERKELEY_DB
+	return true;
+}
+*/@
+
+
+1.7
+log
+@v2 - increasing level of abstraction, more upload logic
+@
+text
+@d8 3
+a10 1
+#include "../../BerkeleyDb/build_win32/db_cxx.h"
+d15 3
+a17 2
+CTaskProcessor_DB::CTaskProcessor_DB() :
+	 m_pDbEnv(NULL)
+d19 1
+d37 1
+d126 1
+d133 1
+d168 1
+a168 1
+	//	Always close m_pDbEnv last to avoid strange behaviours
+d189 1
+d197 14
+a210 1
+CTask_AddToLog::CTask_AddToLog(DbEnv *pDbEnv, Db *pDb, BOOL bDebug, LPCTSTR sLine)
+d212 3
+d217 1
+a217 2
+	,m_bDebug(bDebug)
+	,m_sLine(sLine)
+d223 1
+d238 1
+a238 1
+			m_pDb->put(/*tid*/NULL, &key, &data, DB_AUTO_COMMIT);
+d253 1
+d256 1
+@
+
+
+1.6
+log
+@v2 - enhancing logging subsystem
+@
+text
+@d180 1
+a180 1
+		AddLog(LOG_ERROR, _T("Problems delete database objects."));
+@
+
+
+1.5
+log
+@corrected comment
+@
+text
+@d102 1
+a102 1
+		TRACE(CString(dbe.what()));
+d110 1
+a110 1
+		TRACE("Problems create database objects: %s. Closing.\n", dbe.what());
+d118 1
+a118 1
+		TRACE("Problems create database objects. Closing.\n");
+d176 1
+a176 1
+		TRACE("Problems delete database objects: %s.\n", dbe.what());
+d180 1
+a180 1
+		TRACE("Problems delete database objects.\n");
+d223 1
+a223 1
+		TRACE("Problems: %s.\n", dbe.what());
+d227 1
+a227 1
+		TRACE("Problems add log to database.\n");
+@
+
+
+1.4
+log
+@avoid futur strange behaviours
+@
+text
+@d161 1
+a161 1
+//	Always close m_pDbEnv to avoid strange behaviours
+@
+
+
+1.3
+log
+@v2 - shared files
+@
+text
+@d19 1
+a19 1
+	
+d155 7
+a172 7
+
+/*		if(m_pDbMD4Parts)
+		{
+			m_pDbMD4Parts->close(0);
+			safe_delete(m_pDbMD4Parts);
+		}*/
+
+@
+
+
+1.2
+log
+@Xml and database functionality
+@
+text
+@d190 5
+a195 5
+	m_lTime = time(NULL);
+	m_pDbEnv = pDbEnv;
+	m_pDb = pDb;
+	m_bDebug = bDebug;
+	m_sLine = sLine;
+@
+
+
+1.1
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@a5 1
+#include "../EmEngine.h"
+d155 2
+a156 2
+		FILE *f = fopen("_a", "w");
+		m_pDbEnv->set_errfile(f);
+@
+

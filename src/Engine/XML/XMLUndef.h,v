@@ -1,0 +1,95 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.2
+	Interim_Release_1-1d_RC1:1.2
+	PublicRelease_1_1c:1.2
+	Interim_Release_1-1c_RC1:1.2
+	Interim_Release_1-1c_beta2:1.2
+	Interim_Release_1-1c_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2005.04.11.16.32.38;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.01.29.14.55.02;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.01.04.13.21.28;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@v2 - logging subsystem
+@
+text
+@// Removing old definitions
+#undef BEGIN_XML_CMD
+#undef XML_PARAM_STRING
+#undef XML_PARAM_DWORD
+#undef END_XML_CMD
+#undef XML_INTERNAL_VAR
+@
+
+
+1.2
+log
+@Xml and database functionality
+@
+text
+@d4 1
+a4 1
+#undef XML_PARAM_ULONG
+@
+
+
+1.1
+log
+@XML connecting, tray app
+@
+text
+@d6 1
+@
+

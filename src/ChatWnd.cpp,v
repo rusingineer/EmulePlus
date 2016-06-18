@@ -1,0 +1,1754 @@
+head	1.45;
+access;
+symbols
+	PublicRelease_1_2e:1.44
+	Interim_Release_1-2e_RC1:1.44
+	PublicRelease_1_2d:1.43
+	Interim_Release_1-2d_RC1:1.43
+	Interim_Release_1-2d_beta1:1.40
+	PublicRelease_1_2c:1.38
+	Interim_Release_1-2c_RC1:1.38
+	Interim_Release_1-2c_beta1:1.37
+	PublicRelease_1_2b:1.37
+	Interim_Release_1-2b_RC1:1.37
+	PublicRelease_1_2a:1.37
+	Interim_Release_1-2a_RC1:1.37
+	Interim_Release_1-2a_beta2:1.37
+	Interim_Release_1-2a_beta1:1.37
+	PublicRelease_1_2:1.35
+	Interim_Release_1-2_RC1:1.35
+	Interim_Release_1-2_beta1:1.35
+	PublicRelease_1_1g:1.35
+	Interim_Release_1-1g_RC3:1.35
+	Interim_Release_1-1g_RC2:1.35
+	Interim_Release_1-1g_RC1:1.35
+	Interim_Release_1-1g_beta2:1.33
+	Interim_Release_1-1g_beta1:1.30
+	PublicRelease_1_1f:1.29
+	Interim_Release_1-1f_RC1:1.29
+	PublicRelease_1_1e:1.26
+	Interim_Release_1-1e_RC2:1.26
+	Interim_Release_1-1e_RC1:1.26
+	Interim_Release_1-1e_beta1:1.25
+	PublicRelease_1_1d:1.25
+	Interim_Release_1-1d_RC1:1.25
+	PublicRelease_1_1c:1.25
+	Interim_Release_1-1c_RC1:1.25
+	Interim_Release_1-1c_beta2:1.25
+	Interim_Release_1-1c_beta1:1.24
+	PublicRelease_1_1b:1.21
+	Interim_Release_1-1b_RC1:1.21
+	PublicRelease_1_1a:1.20
+	Interim_Release_1-1a_RC2:1.20
+	Interim_Release_1-1a_RC1:1.20
+	Interim_Release_1-1a_beta2:1.20
+	Interim_Release_1-1a_beta1:1.20
+	PublicRelease_1_1:1.20
+	Interim_Release_1-1_beta1:1.20
+	PublicRelease_1o:1.19
+	Interim_Release_1o_RC1:1.19
+	Interim_Release_1o_beta1:1.19
+	PublicRelease_1n:1.19
+	Interim_Release_1n_RC2:1.19
+	Interim_Release_1n_RC1:1.19
+	Interim_Release_1n_beta2:1.19
+	Interim_Release_1n_beta1:1.19
+	PublicRelease_1m:1.15
+	Interim_Release_1m_beta1:1.15
+	PublicRelease_1l:1.15
+	Interim_Release_1l_RC3:1.15
+	Interim_Release_1l_RC2:1.15
+	Interim_Release_1l_RC1:1.15
+	Interim_Release_1l_beta2:1.15
+	Interim_Release_1l_beta1:1.14
+	PublicRelease_1k:1.14
+	Interim_Release_1k_RC4:1.14
+	Interim_1k_RC3:1.14
+	Interim_1k_RC2:1.14
+	Interim_Release_1k_RC1:1.14
+	Interim_Release_1k_beta5:1.12
+	Intrerim_Release_1k_beta4:1.12
+	Interim_Release_1k_beta1:1.12
+	PublicRelease_1j:1.12
+	Interim_Release_1J_RC3:1.12
+	Interim_Release_1j_RC3:1.12
+	Interim_Release_1j_RC2:1.12
+	Interim_Release_1j_RC1:1.12
+	Interim_Release_1j_beta2:1.12
+	Interim_Release_1j_beta1:1.12
+	PublicRelease_1i:1.11
+	Interim_Release_1i_RC6:1.11
+	Interim_Release_1i_RC3:1.8
+	Interim_Release_1i_RC2:1.8
+	Interim_Release_1i_RC1:1.8
+	Interim_Release_1i_beta3:1.8
+	Interim_Release_1i_beta2:1.8
+	Interim_Release_1i_beta1:1.8
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.4
+	PublicRelease_1g:1.4
+	Interim_Release_1g_RC6_Final:1.4
+	Interim_Release_1g_RC6:1.4
+	Interim_Release_1g_RC5:1.4
+	Interim_Release_1g_RC4:1.4
+	Interim_Release_1g_RC3:1.4
+	Interim_Release_1g_beta2:1.4
+	Interim_Release_1g_beta1:1.4
+	Interim_Release_1f_RC4:1.4
+	Interim_Release_1f_RC3:1.4
+	Interim_Release_1f_RC2:1.4
+	Interim_Release_1f_RC:1.4
+	Interim_Release_1f_beta2:1.4
+	Interim_Release_1f_beta1:1.4
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.4
+	Interim_Release_1e_beta1:1.4
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.4
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.2
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.3.0.4
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.45
+date	2009.07.30.03.50.48;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2008.10.28.02.41.51;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2008.03.10.04.09.38;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2008.03.09.23.19.51;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2008.03.08.22.48.52;	author eklmn;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2008.02.03.02.20.37;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2007.12.23.17.40.00;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2007.07.08.22.31.18;	author kush_eplus;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2006.04.16.04.14.58;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2005.09.26.05.15.57;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2005.09.23.10.56.08;	author eklmn;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2005.09.19.22.14.59;	author eklmn;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.08.20.04.33.13;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.07.21.00.56.08;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.07.19.02.14.38;	author katsyonak;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.07.17.23.54.29;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.06.19.04.16.22;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.02.07.04.58.21;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.01.20.14.52.40;	author katsyonak;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.01.17.18.34.48;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.01.12.05.11.15;	author katsyonak;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.12.16.21.06.23;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.10.12.13.43.27;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.07.14.09.46.57;	author katsyonak;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.07.13.23.05.58;	author katsyonak;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.07.13.15.10.38;	author katsyonak;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.07.12.14.10.41;	author katsyonak;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.05.17.01.45.15;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.03.26.23.16.59;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.03.26.08.55.19;	author eklmn;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.12.18.13.35.30;	author katsyonak;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.05.01.04.54;	author katsyonak;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.02.04.33.13;	author katsyonak;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.01.02.03.47;	author katsyonak;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.03.18.08.49;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.27.16.01.12;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.27.14.59.37;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.13.21.16.33;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.20.14.28.59;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.45;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.17.59.09;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.53.58;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.45
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "updownclient.h"
+#include "ChatWnd.h"
+#include "Friend.h"
+#include "IP2Country.h"
+#include "ListenSocket.h"
+#include "Details\clientdetails.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+#define	SPLITTER_RANGE_WIDTH	200
+#define	SPLITTER_RANGE_HEIGHT	686
+
+#define	SPLITTER_MARGIN			2
+#define	SPLITTER_WIDTH			4
+
+IMPLEMENT_DYNAMIC(CChatWnd, CDialog)
+CChatWnd::CChatWnd(CWnd* pParent /*=NULL*/)
+	: CResizableDialog(CChatWnd::IDD, pParent)
+{
+}
+
+CChatWnd::~CChatWnd()
+{
+}
+
+void CChatWnd::DoDataExchange(CDataExchange* pDX)
+{
+	CResizableDialog::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_CHATSEL, m_ctlChatSelector);
+	DDX_Control(pDX, IDC_LIST2, m_FriendListCtrl);
+	DDX_Control(pDX, IDC_CMESSAGE, m_ctlInputText);
+	DDX_Control(pDX, IDC_CSEND, m_ctlSendButton);
+	DDX_Control(pDX, IDC_CCLOSE, m_ctlCloseButton);
+}
+
+BEGIN_MESSAGE_MAP(CChatWnd, CResizableDialog)
+	ON_WM_KEYDOWN()
+	ON_WM_SHOWWINDOW()
+	ON_MESSAGE(WM_CLOSETAB, OnCloseTab)
+	ON_MESSAGE(WM_TAB_PROPERTIES, OnTabProperties)
+	ON_BN_CLICKED(IDC_CCLOSE, OnBnClickedCclose)
+	ON_BN_CLICKED(IDC_CSEND, OnBnClickedCsend)
+	ON_WM_DESTROY()
+END_MESSAGE_MAP()
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// CChatWnd message handlers
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CChatWnd::OnInitDialog()
+{
+	CResizableDialog::OnInitDialog();
+
+	m_ctlInputText.SetLimitText(MAX_CLIENT_MSG_LEN);
+	oldMessageIcon = GetMessageStatic()->SetIcon(GetMessageIcon());
+	oldFriendsIcon = GetFriendsStatic()->SetIcon(GetFriendsIcon());
+
+//	Create window splitter
+	CRect rcSpl;
+
+	GetDlgItem(IDC_LIST2)->GetWindowRect(rcSpl);
+	ScreenToClient(rcSpl);
+
+	rcSpl.left = rcSpl.right + SPLITTER_MARGIN;
+	rcSpl.right = rcSpl.left + SPLITTER_WIDTH;
+	m_wndSplitterChat.Create(WS_CHILD | WS_VISIBLE, rcSpl, this, IDC_SPLITTER_FRIEND);
+
+	uint32	dwPosStatVinit = rcSpl.left;
+	uint32	dwPosStatVnew = g_App.m_pPrefs->GetSplitterbarPositionFriend();
+
+	if (dwPosStatVnew > SPLITTER_RANGE_HEIGHT)
+		dwPosStatVnew = SPLITTER_RANGE_HEIGHT;
+	else if (dwPosStatVnew < SPLITTER_RANGE_WIDTH)
+		dwPosStatVnew = SPLITTER_RANGE_WIDTH;
+	rcSpl.left = dwPosStatVnew;
+	rcSpl.right = dwPosStatVnew + SPLITTER_WIDTH;
+	m_wndSplitterChat.MoveWindow(rcSpl);
+
+	m_ctlChatSelector.Init();
+	m_FriendListCtrl.Init();
+
+	DoResize(dwPosStatVnew - dwPosStatVinit);
+
+	AddAnchor(IDC_CSEND, BOTTOM_RIGHT);
+	AddAnchor(IDC_CCLOSE, BOTTOM_RIGHT);
+	AddAnchor(IDC_FRIENDS_LBL,TOP_LEFT);
+	AddAnchor(IDC_FRIENDSICON,TOP_LEFT);
+
+	m_ttip.Create(this);
+	m_ttip.SetDelayTime(TTDT_AUTOPOP, 15000);
+	m_ttip.SetDelayTime(TTDT_INITIAL, g_App.m_pPrefs->GetToolTipDelay()*1000);
+	m_ttip.SendMessage(TTM_SETMAXTIPWIDTH, 0, SHRT_MAX);
+	m_ttip.SetBehaviour(PPTOOLTIP_MULTIPLE_SHOW);
+	m_ttip.SetNotify(m_hWnd);
+	m_ttip.AddTool(&m_FriendListCtrl, _T(""));
+
+	Localize();
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::DoResize(int iDelta)
+{
+	CSplitterControl::ChangeWidth(this, IDC_LIST2, iDelta);
+	CSplitterControl::ChangeWidth(this, IDC_CHATSEL, -iDelta, CW_RIGHTALIGN);
+	CSplitterControl::ChangeWidth(this, IDC_CMESSAGE, -iDelta, CW_RIGHTALIGN);
+	CSplitterControl::ChangePos(this, IDC_MESSAGES_LBL, -iDelta, 0);
+	CSplitterControl::ChangePos(this, IDC_MESSAGEICON, -iDelta, 0);
+
+	CRect rc;
+
+	GetDlgItem(IDC_LIST2)->GetWindowRect(rc);
+	ScreenToClient(rc);
+
+	g_App.m_pPrefs->SetSplitterbarPositionFriend(rc.right + SPLITTER_MARGIN);
+
+	GetClientRect(rc);
+
+	RemoveAnchor(m_wndSplitterChat);
+	AddAnchor(m_wndSplitterChat, TOP_LEFT);
+
+	RemoveAnchor(IDC_LIST2);
+	AddAnchor(IDC_LIST2, TOP_LEFT, BOTTOM_LEFT);
+
+	RemoveAnchor(IDC_CHATSEL);
+	AddAnchor(IDC_CHATSEL, TOP_LEFT, BOTTOM_RIGHT);
+
+	RemoveAnchor(IDC_MESSAGES_LBL);
+	AddAnchor(IDC_MESSAGES_LBL, TOP_LEFT);
+
+	RemoveAnchor(IDC_MESSAGEICON);
+	AddAnchor(IDC_MESSAGEICON, TOP_LEFT);
+
+	RemoveAnchor(IDC_CMESSAGE);
+	AddAnchor(IDC_CMESSAGE, BOTTOM_LEFT, BOTTOM_RIGHT);
+
+	m_wndSplitterChat.SetRange(rc.left + SPLITTER_RANGE_WIDTH, rc.left + SPLITTER_RANGE_HEIGHT);
+
+	Invalidate();
+	UpdateWindow();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+LRESULT CChatWnd::DefWindowProc(UINT Msg, WPARAM wParam, LPARAM lParam) 
+{
+	CRect rc;
+
+	switch (Msg)
+	{
+		case WM_PAINT:
+			GetClientRect(rc);
+			if (rc.Width() > 0)
+			{
+				GetDlgItem(IDC_LIST2)->GetWindowRect(rc);
+				ScreenToClient(rc);
+
+				rc.left = rc.right + SPLITTER_MARGIN;
+				rc.right = rc.left + SPLITTER_WIDTH;
+
+				m_wndSplitterChat.MoveWindow(rc, TRUE);
+			}
+			break;
+
+		case WM_NOTIFY:
+			if (wParam == IDC_SPLITTER_FRIEND)
+				DoResize((reinterpret_cast<SPC_NMHDR*>(lParam))->delta);
+			break;
+
+		case WM_WINDOWPOSCHANGED:
+			GetClientRect(rc);
+			if (rc.Width() > 0)
+				Invalidate();
+			break;
+
+		case WM_SIZE:
+			GetClientRect(rc);
+			m_wndSplitterChat.SetRange(rc.left + SPLITTER_RANGE_WIDTH, rc.left + SPLITTER_RANGE_HEIGHT);
+			break;
+	}
+
+	return CResizableDialog::DefWindowProc(Msg, wParam, lParam);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::StartSession(CUpDownClient* client)
+{
+	g_App.m_pMDlg->SetActiveDialog(this);
+	m_ctlChatSelector.StartSession(client);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::OnShowWindow(BOOL bShow, UINT nStatus)
+{
+	NOPRM(nStatus);
+	if (bShow)
+		m_ctlChatSelector.ShowChat();
+	else
+		m_wndSplitterChat.CancelTracking();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::OnBnClickedCclose()
+{
+	m_ctlChatSelector.EndSession();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::OnBnClickedCsend()
+{
+	CString			strNewMessage;
+
+	m_ctlInputText.GetWindowText(strNewMessage);
+
+	strNewMessage.Trim();
+	if (!strNewMessage.IsEmpty() && m_ctlChatSelector.SendMessage(strNewMessage))
+		m_ctlInputText.SetWindowText(_T(""));
+	m_ctlInputText.SetFocus();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CChatWnd::PreTranslateMessage(MSG* pMsg)
+{
+	EMULE_TRY
+
+	if (pMsg->message == WM_KEYDOWN && (pMsg->hwnd == m_ctlInputText.m_hWnd))
+	{
+		if (pMsg->wParam == VK_RETURN)
+		{
+			OnBnClickedCsend();
+			return TRUE;
+		}
+
+		if (pMsg->wParam == VK_UP || pMsg->wParam == VK_DOWN)
+		{
+			ScrollHistory(pMsg->wParam == VK_DOWN);
+			return TRUE;
+		}
+	}
+
+	if (g_App.m_pPrefs->GetToolTipDelay() != 0)
+		m_ttip.RelayEvent(pMsg);
+
+	return CResizableDialog::PreTranslateMessage(pMsg);
+
+	EMULE_CATCH
+
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CChatWnd::OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult)
+{
+	NMHDR* pNMHDR = (NMHDR*)lParam;
+
+	switch(pNMHDR->code)
+	{
+		case UDM_TOOLTIP_DISPLAY:
+		{
+			NM_PPTOOLTIP_DISPLAY *pNotify = (NM_PPTOOLTIP_DISPLAY*)lParam;
+
+			GetInfo4ToolTip(pNotify);
+			return TRUE;
+		}
+		case UDM_TOOLTIP_POP:
+		{
+			m_ttip.Pop();
+			return TRUE;
+		}
+	}
+
+	return CResizableDialog::OnNotify(wParam, lParam, pResult);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::GetInfo4ToolTip(NM_PPTOOLTIP_DISPLAY *pNotify)
+{ 
+	int						iControlId = CWnd::FromHandle(pNotify->ti->hWnd)->GetDlgCtrlID();
+
+	if (iControlId == IDC_LIST2)
+	{
+		int					iSel = GetItemUnderMouse(&m_FriendListCtrl);
+
+		if (iSel < 0 || iSel == 65535)
+			return;
+
+		CFriend             *pFriend = reinterpret_cast<CFriend*>(m_FriendListCtrl.GetItemData(iSel));
+
+		if (pFriend == NULL)
+			return;
+
+		CString				strUserName = pFriend->m_strName, strLaseSeen, strLastChat, strCountry;
+
+		strUserName.Replace(_T("<"), _T("<<"));
+
+		if (g_App.m_pIP2Country->IsIP2Country())
+				strCountry.Format(_T(" (<b>%s</b>)"), g_App.m_pIP2Country->GetCountryNameByIndex(g_App.m_pIP2Country->GetCountryFromIP(pFriend->m_dwLastUsedIP)));
+
+		if (pFriend->GetLastSeen() == 0)
+			GetResString(&strLaseSeen, IDS_NEVER);
+		else
+		{
+			SYSTEMTIME		st;
+
+			CTime(pFriend->GetLastSeen()).GetAsSystemTime(st);
+			strLaseSeen = COleDateTime(st).Format(_T("%c"));
+		}
+
+		if (pFriend->m_dwLastChatted == NULL)
+			GetResString(&strLastChat, IDS_NEVER);
+		else
+		{
+			SYSTEMTIME		st;
+
+			CTime(pFriend->m_dwLastChatted).GetAsSystemTime(st);
+			strLastChat = COleDateTime(st).Format(_T("%c"));
+		}
+
+		pNotify->ti->sTooltip.Format(_T("<t=1><b>%s</b><br><hr=100%%><br><b>%s<t></b>%s<br><b>%s<t></b>%s:%u%s<br><b>%s:<t></b>%s<br><b>%s:<t></b>%s"),
+			strUserName,
+			GetResString(IDS_CD_UHASH), HashToString(pFriend->GetUserHash()),
+			GetResString(IDS_CD_UIP), ipstr(pFriend->m_dwLastUsedIP), pFriend->m_nLastUsedPort, strCountry,
+			GetResString(IDS_LASTSEEN), strLaseSeen,
+			GetResString(IDS_TT_LAST_CHAT), strLastChat);
+
+		int			iImageIndex;
+
+		if (pFriend->GetLinkedClient() == NULL)
+			iImageIndex = 0;
+#ifdef OLD_SOCKETS_ENABLED
+		else if (pFriend->GetLinkedClient()->m_pRequestSocket && pFriend->GetLinkedClient()->m_pRequestSocket->IsConnected())
+			iImageIndex = 2;
+#endif //OLD_SOCKETS_ENABLED
+		else
+			iImageIndex = 1;
+
+		pNotify->ti->hIcon = m_FriendListCtrl.m_imageList.ExtractIcon(iImageIndex);
+	}
+} 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+void CChatWnd::Localize()
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_MESSAGES_LBL, IDS_MESSAGES },
+		{ IDC_CSEND, IDS_CW_SEND },
+		{ IDC_CCLOSE, IDS_CW_CLOSE }
+	};
+
+	if (m_hWnd)
+	{
+		for (unsigned ui = 0; ui < ARRSIZE(s_auResTbl); ui++)
+			SetDlgItemText(s_auResTbl[ui][0], GetResString(s_auResTbl[ui][1]));
+		m_FriendListCtrl.Localize();
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+LRESULT CChatWnd::OnCloseTab(WPARAM wparam, LPARAM lparam)
+{
+	TCITEM		tcItem;
+	int			iItem = (int)wparam;
+	NOPRM(lparam);
+
+	tcItem.mask = TCIF_PARAM;
+	m_ctlChatSelector.GetItem(iItem, &tcItem);
+	
+	m_ctlChatSelector.EndSession(((CChatItem*)tcItem.lParam)->m_pClient);
+
+	if (iItem > 0)
+		iItem--;
+
+	if (iItem >= 0)
+	{
+		m_ctlChatSelector.SetCurSel(iItem);
+		m_ctlChatSelector.ShowChat();
+	}
+
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+LRESULT CChatWnd::OnTabProperties(WPARAM wparam, LPARAM lparam)
+{
+	TCITEM		tcItem;
+	int			iItem = (int)wparam;
+	NOPRM(lparam);
+
+	tcItem.mask = TCIF_PARAM;
+	m_ctlChatSelector.GetItem(iItem, &tcItem);
+
+	CClientDetails		dialog(IDS_CD_TITLE, reinterpret_cast<CChatItem*>(tcItem.lParam)->m_pClient, this, 0);
+	dialog.DoModal();
+
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::ScrollHistory(bool down)
+{
+	CChatItem		*pChatItem = m_ctlChatSelector.GetCurrentChatItem();
+
+	if ((pChatItem == NULL) || ((pChatItem->m_iHistoryIndex == 0 && !down)
+		|| (pChatItem->m_iHistoryIndex == pChatItem->m_strHistoryArray.GetCount() && down)))
+		return;
+
+	if (down)
+		++pChatItem->m_iHistoryIndex;
+	else
+		--pChatItem->m_iHistoryIndex;
+
+	CString			strBuffer;
+
+	if (pChatItem->m_iHistoryIndex != pChatItem->m_strHistoryArray.GetCount())
+		strBuffer = pChatItem->m_strHistoryArray.GetAt(pChatItem->m_iHistoryIndex);
+
+	m_ctlInputText.SetWindowText(strBuffer);
+	m_ctlInputText.SetSel(strBuffer.GetLength(), strBuffer.GetLength());
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CChatWnd::OnDestroy()
+{
+	CResizableDialog::OnDestroy();
+	DestroyIcon(GetMessageStatic()->SetIcon(oldMessageIcon));
+	DestroyIcon(GetFriendsStatic()->SetIcon(oldFriendsIcon));
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.44
+log
+@Reduced H-file dependency.
+@
+text
+@d24 1
+@
+
+
+1.43
+log
+@Optimized setting title for client details dialog.
+@
+text
+@d20 1
+@
+
+
+1.42
+log
+@CRect variable was placed to the place where it was before the previous modification (CRect is a simple class it doesn't allocate and destroy anything, so there's no point doing that).
+@
+text
+@d400 1
+a400 1
+	CClientDetails		dialog(GetResString(IDS_CD_TITLE), reinterpret_cast<CChatItem*>(tcItem.lParam)->m_pClient, this, 0);
+@
+
+
+1.41
+log
+@show client properties on right mouseclick on tab in chat window
+@
+text
+@a17 2
+// ChatWnd.cpp : implementation file
+//
+a36 2
+// CChatWnd dialog
+
+d164 2
+a168 3
+		{
+			CRect rc;
+
+a180 1
+		}
+a187 3
+		{
+			CRect rc;
+
+a191 1
+		}
+a193 3
+		{
+			CRect rc;
+
+a196 1
+		}
+@
+
+
+1.40
+log
+@Fixed stuck splitter control in messages window when focus is lost while holding mouse (ways to reproduce: Alt-Tab, shortcut to minimize, shortcut to switch to the next window).
+@
+text
+@d25 1
+d65 1
+a167 2
+	CRect rc;
+
+d171 5
+a175 1
+			if (m_wndSplitterChat)
+d177 2
+a178 5
+				GetClientRect(rc);
+				if (rc.Width() > 0)
+				{
+					GetDlgItem(IDC_LIST2)->GetWindowRect(rc);
+					ScreenToClient(rc);
+d180 2
+a181 2
+					rc.left = rc.right + SPLITTER_MARGIN;
+					rc.right = rc.left + SPLITTER_WIDTH;
+d183 1
+a183 2
+					m_wndSplitterChat.MoveWindow(rc, TRUE);
+				}
+d186 1
+d194 6
+a199 6
+			if (m_wndSplitterChat)
+			{
+				GetClientRect(rc);
+				if (rc.Width() > 0)
+					Invalidate();
+			}
+d201 1
+d204 5
+a208 5
+			if (m_wndSplitterChat)
+			{
+				GetClientRect(rc);
+				m_wndSplitterChat.SetRange(rc.left + SPLITTER_RANGE_WIDTH, rc.left + SPLITTER_RANGE_HEIGHT);
+			}
+d210 1
+d212 1
+d402 16
+a417 1
+	return true;
+@
+
+
+1.39
+log
+@Suppressed compiler warnings; Formatting.
+@
+text
+@d223 2
+@
+
+
+1.38
+log
+@fix time disappearing at midnight
+@
+text
+@d218 1
+a218 1
+void CChatWnd::OnShowWindow(BOOL bShow,UINT nStatus)
+d220 1
+d370 1
+a370 1
+		for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auResTbl); ui++)
+d380 1
+@
+
+
+1.37
+log
+@Reduced H-file dependency.
+@
+text
+@d323 1
+a323 1
+			strLaseSeen = COleDateTime(st).Format();
+d333 1
+a333 1
+			strLastChat = COleDateTime(st).Format();
+@
+
+
+1.36
+log
+@Unicode preparations.
+@
+text
+@d23 1
+@
+
+
+1.35
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a308 1
+		in_addr				host;
+a310 1
+		host.S_un.S_addr = pFriend->m_dwLastUsedIP;
+d338 1
+a338 1
+			GetResString(IDS_CD_UIP), inet_ntoa(host), pFriend->m_nLastUsedPort, strCountry,
+@
+
+
+1.34
+log
+@renamed 3 variables
+@
+text
+@d89 1
+a89 1
+	uint32	dwPosStatVnew = g_App.g_pPrefs->GetSplitterbarPositionFriend();
+d111 1
+a111 1
+	m_ttip.SetDelayTime(TTDT_INITIAL, g_App.g_pPrefs->GetToolTipDelay()*1000);
+d135 1
+a135 1
+	g_App.g_pPrefs->SetSplitterbarPositionFriend(rc.right + SPLITTER_MARGIN);
+d259 1
+a259 1
+	if (g_App.g_pPrefs->GetToolTipDelay() != 0)
+@
+
+
+1.33
+log
+@Improved string processing.
+@
+text
+@d89 1
+a89 1
+	uint32	dwPosStatVnew = g_eMuleApp.m_pGlobPrefs->GetSplitterbarPositionFriend();
+d111 1
+a111 1
+	m_ttip.SetDelayTime(TTDT_INITIAL, g_eMuleApp.m_pGlobPrefs->GetToolTipDelay()*1000);
+d135 1
+a135 1
+	g_eMuleApp.m_pGlobPrefs->SetSplitterbarPositionFriend(rc.right + SPLITTER_MARGIN);
+d213 1
+a213 1
+	g_eMuleApp.m_pdlgEmule->SetActiveDialog(this);
+d259 1
+a259 1
+	if (g_eMuleApp.m_pGlobPrefs->GetToolTipDelay() != 0)
+d314 2
+a315 2
+		if (g_eMuleApp.m_pIP2Country->IsIP2Country())
+				strCountry.Format(_T(" (<b>%s</b>)"), g_eMuleApp.m_pIP2Country->GetCountryNameByIndex(g_eMuleApp.m_pIP2Country->GetCountryFromIP(pFriend->m_dwLastUsedIP)));
+@
+
+
+1.32
+log
+@correction for string processing by tooltip notify. thanks Aw3
+@
+text
+@d308 1
+a308 2
+		CString				strInfo;
+		CString				strUserName = pFriend->m_strName, strUserIP, strLaseSeen, strLastChat, strCountry;
+a312 1
+		strUserIP = inet_ntoa(host);
+d337 1
+a337 1
+		strInfo.Format(_T("<t=1><b>%s</b><br><hr=100%%><br><b>%s<t></b>%s<br><b>%s<t></b>%s:%u%s<br><b>%s:<t></b>%s<br><b>%s:<t></b>%s"),
+d340 1
+a340 1
+			GetResString(IDS_CD_UIP), strUserIP, pFriend->m_nLastUsedPort, strCountry,
+a355 1
+		pNotify->ti->sTooltip = strInfo;
+a356 1
+
+@
+
+
+1.31
+log
+@fixed hanging tooltip by focus switch; the "OnToolTipNotify" replaced over OnNotify because it works faster as using ON_NOTIFY_EX_RANGE(...)
+@
+text
+@d279 1
+a279 1
+			pNotify->ti->sTooltip = GetInfo4ToolTip(pNotify);
+d292 1
+a292 1
+CString  CChatWnd::GetInfo4ToolTip(NM_PPTOOLTIP_DISPLAY *pNotify)
+a294 1
+	CString					strInfo(_T(""));
+d301 1
+a301 1
+			return FALSE;
+d306 1
+a306 1
+			return FALSE;
+d308 1
+d358 1
+a360 1
+	return strInfo;
+@
+
+
+1.30
+log
+@IDS_CW_MESSAGES renamed into IDS_MESSAGES.
+@
+text
+@a62 1
+	ON_NOTIFY_EX_RANGE(UDM_TOOLTIP_DISPLAY,0,0xFFFF,OnToolTipNotify)
+d269 24
+a292 1
+BOOL CChatWnd::OnToolTipNotify(UINT id, NMHDR *pNMH, LRESULT *pResult) 
+a293 1
+	NM_PPTOOLTIP_DISPLAY	*pNotify = (NM_PPTOOLTIP_DISPLAY*)pNMH;
+d295 1
+a295 1
+	CString					strInfo;
+a358 1
+	pNotify->ti->sTooltip = strInfo;
+d360 1
+a360 1
+	return TRUE;
+@
+
+
+1.29
+log
+@Slightly increased splitter right limit; More compact code to prepare time string.
+@
+text
+@d347 1
+a347 1
+		{ IDC_MESSAGES_LBL, IDS_CW_MESSAGES },
+@
+
+
+1.28
+log
+@Some control declarations to avoid conflicts [Aw3].
+@
+text
+@d32 1
+a32 1
+#define	SPLITTER_RANGE_HEIGHT	676
+a301 1
+			CTime			ctTime(pFriend->GetLastSeen());
+d304 2
+a305 5
+			ctTime.GetAsSystemTime(st);
+
+			COleDateTime    odtTime(st);
+
+			strLaseSeen = odtTime.Format();
+a311 1
+			CTime			ctTime(pFriend->m_dwLastChatted);
+d314 2
+a315 5
+			ctTime.GetAsSystemTime(st);
+
+			COleDateTime    odtTime(st);
+
+			strLastChat = odtTime.Format();
+@
+
+
+1.27
+log
+@Adjustable splitter for Messages window (adapted from original with optimization and fixes);
+Limitation of possible chat message length.
+@
+text
+@d100 3
+a109 3
+	m_ctlChatSelector.Init();
+	m_FriendListCtrl.Init();
+
+@
+
+
+1.26
+log
+@Removed incorrect piece of code.
+@
+text
+@d31 6
+d75 1
+d79 23
+a101 2
+	AddAnchor(IDC_CHATSEL,TOP_LEFT,BOTTOM_RIGHT);
+	AddAnchor(IDC_LIST2,TOP_LEFT,BOTTOM_LEFT);
+a103 1
+	AddAnchor(IDC_CMESSAGE, BOTTOM_LEFT, BOTTOM_RIGHT);
+d123 89
+a268 1
+
+d337 1
+a337 1
+		#ifdef OLD_SOCKETS_ENABLED
+d340 1
+a340 1
+		#endif //OLD_SOCKETS_ENABLED
+@
+
+
+1.25
+log
+@Several friend class members were moved from public to private section.
+@
+text
+@a97 3
+	if (!client->GetUserName())
+		return;
+
+@
+
+
+1.24
+log
+@Removed IDS_TT_LAST_SEEN.
+@
+text
+@d186 1
+a186 1
+		if (pFriend->m_dwLastSeen == NULL)
+d190 1
+a190 1
+			CTime			ctTime(pFriend->m_dwLastSeen);
+d216 1
+a216 1
+			GetResString(IDS_CD_UHASH), HashToString(pFriend->m_abyUserhash),
+d223 1
+a223 1
+		if (!pFriend->m_pLinkedClient)
+d226 1
+a226 1
+		else if (pFriend->m_pLinkedClient->m_pRequestSocket && pFriend->m_pLinkedClient->m_pRequestSocket->IsConnected())
+@
+
+
+1.23
+log
+@Moved GetItemUnderMouse to otherfunctions.
+@
+text
+@d218 1
+a218 1
+			GetResString(IDS_TT_LAST_SEEN), strLaseSeen,
+@
+
+
+1.22
+log
+@Added tooltips to the Friends list.
+@
+text
+@a157 28
+int CChatWnd::GetItemUnderMouse(CListCtrl* ctrl)
+{ 
+	EMULE_TRY
+
+	CPoint			pt;
+
+	::GetCursorPos(&pt);
+	ctrl->ScreenToClient(&pt);
+
+	LVHITTESTINFO	hit, subhit;
+
+	hit.pt = pt;
+	subhit.pt = pt;
+	ctrl->SubItemHitTest(&subhit);
+
+	int				iSel = ctrl->HitTest(&hit);
+
+	if (iSel != LB_ERR && (hit.flags & LVHT_ONITEM))
+	{
+		if (subhit.iSubItem == 0)
+			return iSel;
+	}
+
+	EMULE_CATCH
+
+	return LB_ERR;
+} 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@
+
+
+1.21
+log
+@Simplified way to display list labels with count.
+@
+text
+@d23 1
+d57 1
+d83 8
+d147 3
+d156 1
+d158 109
+@
+
+
+1.20
+log
+@Unified localization.
+@
+text
+@a147 1
+		{ IDC_FRIENDS_LBL, IDS_CW_FRIENDS },
+d211 1
+a211 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////@
+
+
+1.19
+log
+@some changes + reverted a previous change
+@
+text
+@d146 8
+d156 2
+a157 4
+		SetDlgItemText(IDC_FRIENDS_LBL, GetResString(IDS_CW_FRIENDS));
+		SetDlgItemText(IDC_MESSAGES_LBL, GetResString(IDS_CW_MESSAGES));
+		SetDlgItemText(IDC_CSEND, GetResString(IDS_CW_SEND));
+		SetDlgItemText(IDC_CCLOSE, GetResString(IDS_CW_CLOSE));
+@
+
+
+1.18
+log
+@small change
+@
+text
+@d137 1
+a137 4
+	if (IsDialogMessage(pMsg))
+		return TRUE;
+	else
+		return CResizableDialog::PreTranslateMessage(pMsg);
+@
+
+
+1.17
+log
+@some more fixes and changes
+@
+text
+@d137 4
+a140 1
+	return CResizableDialog::PreTranslateMessage(pMsg);
+@
+
+
+1.16
+log
+@Fixed a GUI glitch in Messages window when multiple tabs are open and windows is themed;
+Name changes, formatting etc.
+@
+text
+@d120 3
+a122 1
+	if (pMsg->message == WM_KEYDOWN)
+d126 2
+a127 2
+			if (pMsg->hwnd == m_ctlInputText.m_hWnd)
+				OnBnClickedCsend();
+d130 1
+a130 2
+		if ( (pMsg->hwnd == m_ctlInputText.m_hWnd) &&
+		     (pMsg->wParam == VK_UP || pMsg->wParam == VK_DOWN) )
+d136 1
+d138 4
+@
+
+
+1.15
+log
+@Some changes to track the Ban Messages crashes
+@
+text
+@d45 1
+a45 1
+	DDX_Control(pDX, IDC_CHATSEL, chatselector);
+d47 3
+a49 1
+	DDX_Control(pDX, IDC_CMESSAGE, inputtext);
+d56 2
+a66 3
+	chatselector.Init();
+	m_FriendListCtrl.Init();
+	
+d72 3
+d78 3
+d90 1
+d92 1
+a92 1
+	chatselector.StartSession(client);
+d98 18
+a115 1
+		chatselector.ShowChat();
+d118 1
+a118 1
+BOOL CChatWnd::PreTranslateMessage(MSG* pMsg) 
+d120 16
+a135 1
+   return CResizableDialog::PreTranslateMessage(pMsg);
+d140 1
+a140 1
+	if(m_hWnd)
+d144 2
+a146 1
+		chatselector.Localize();
+d152 5
+a156 4
+	TCITEM item;
+	item.mask = TCIF_PARAM;
+	int i = (int)wparam;
+	chatselector.GetItem(i,&item);
+d158 4
+a161 1
+	chatselector.EndSession(((CChatItem*)item.lParam)->m_pClient);
+d163 1
+a163 1
+	if(i != -1 && i > 0)
+d165 2
+a166 7
+		chatselector.SetCurSel(i-1);
+		chatselector.ShowChat();
+	}
+	else if (i != -1 && i == 0)
+	{
+		chatselector.SetCurSel(i);
+		chatselector.ShowChat();
+d174 1
+a174 1
+	CString buffer;
+d176 2
+a177 2
+	CChatItem* ci = chatselector.GetCurrentChatItem();
+	if (ci==NULL)
+a179 3
+	if ( (ci->m_iHistoryIndex==0 && !down) || (ci->m_iHistoryIndex==ci->m_strHistoryArray.GetCount() && down))
+		return;
+	
+d181 1
+a181 1
+		++ci->m_iHistoryIndex;
+d183 3
+a185 1
+		--ci->m_iHistoryIndex;
+d187 2
+a188 1
+	buffer= (ci->m_iHistoryIndex==ci->m_strHistoryArray.GetCount())?"":ci->m_strHistoryArray.GetAt(ci->m_iHistoryIndex);
+d190 2
+a191 2
+	inputtext.SetWindowText(buffer);
+	inputtext.SetSel(buffer.GetLength(),buffer.GetLength());
+@
+
+
+1.14
+log
+@minor improvements
+@
+text
+@d84 1
+a84 1
+	chatselector.StartSession(client,true);
+@
+
+
+1.13
+log
+@some measurements to increase stability + name change
+@
+text
+@d102 2
+a103 2
+		GetDlgItem(IDC_FRIENDS_LBL)->SetWindowText(GetResString(IDS_CW_FRIENDS));
+		GetDlgItem(IDC_MESSAGES_LBL)->SetWindowText(GetResString(IDS_CW_MESSAGES));
+@
+
+
+1.12
+log
+@Converted IRC/Messages to Rich Edit  (added copy text to clipboard & save logs with colors as RTF)
+@
+text
+@d56 1
+a56 1
+
+d58 1
+a58 1
+
+d78 1
+a78 1
+
+d86 1
+a86 1
+
+d92 1
+a92 1
+
+d97 1
+a97 1
+
+d108 1
+a108 1
+
+d116 1
+a116 1
+	chatselector.EndSession(((CChatItem*)item.lParam)->client);
+d131 1
+a131 1
+
+d140 1
+a140 1
+	if ( (ci->history_pos==0 && !down) || (ci->history_pos==ci->history.GetCount() && down))
+d144 1
+a144 1
+		++ci->history_pos;
+d146 1
+a146 1
+		--ci->history_pos;
+d148 1
+a148 1
+	buffer= (ci->history_pos==ci->history.GetCount())?"":ci->history.GetAt(ci->history_pos);
+d153 1
+a153 1
+
+d160 1
+@
+
+
+1.11
+log
+@Fixed messages save log context menu
+@
+text
+@a22 1
+#include "HyperTextCtrl.h"
+a53 1
+	ON_WM_CONTEXTMENU()
+a151 48
+}
+
+BOOL CChatWnd::OnCommand(WPARAM wParam,LPARAM lParam )
+{ 
+	switch (wParam)
+	{ 
+		case MP_SAVELOG:
+		{
+			CChatItem* ci = chatselector.GetCurrentChatItem();
+			if (!ci)
+				return TRUE;
+			CString buffer,tmpPath;
+			buffer.Format("%s.log",ci->client->GetUserName());
+			if (DialogBrowseFile(tmpPath, _T("Log (*.log)|*.log||"), buffer, 0, FALSE))
+			{
+				HANDLE hFile=CreateFile(tmpPath,GENERIC_WRITE,0,NULL,CREATE_ALWAYS,FILE_ATTRIBUTE_ARCHIVE,NULL);
+				if (hFile != INVALID_HANDLE_VALUE)
+				{
+					DWORD written;
+					buffer=ci->log->GetText();
+					buffer.Replace("\n","\r\n");
+					WriteFile(hFile,buffer,buffer.GetLength(),&written,NULL);
+					CloseHandle(hFile);
+				}				
+			}
+		}
+	}
+	return TRUE;
+}
+
+void CChatWnd::OnContextMenu(CWnd* pWnd, CPoint point)
+{ 
+   if (!chatselector.GetCurrentChatItem() || WindowFromPoint(point)->m_hWnd!=chatselector.chatout.m_hWnd)
+	   return;
+
+   CPoint p = point; 
+   ScreenToClient(&p); 
+
+   CTitleMenu m_ChatMenu;
+
+   m_ChatMenu.CreatePopupMenu(); 
+   m_ChatMenu.AddMenuTitle(GetResString(IDS_CW_MESSAGES));
+   m_ChatMenu.AppendMenu(MF_STRING,MP_SAVELOG, GetResString(IDS_LOGTOFILE)); 
+
+   m_ChatMenu.SetDefaultItem(MP_SAVELOG);
+   m_ChatMenu.TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this); 
+
+   VERIFY( m_ChatMenu.DestroyMenu() );
+@
+
+
+1.10
+log
+@Formatting + minor changes
+@
+text
+@d55 1
+d139 2
+a140 1
+	if (ci==NULL) return;
+d142 2
+a143 1
+	if ( (ci->history_pos==0 && !down) || (ci->history_pos==ci->history.GetCount() && down)) return;
+d145 4
+a148 1
+	if (down) ++ci->history_pos; else --ci->history_pos;
+d163 2
+a164 1
+			if (!ci) return TRUE;
+d186 1
+a186 1
+   if (!chatselector.GetCurrentChatItem())
+@
+
+
+1.9
+log
+@added context menu to save IRC/Messages to disk from official v0.30d
+@
+text
+@d160 1
+a160 1
+			if (tmpPath = DialogBrowseFile(_T("Log (*.log)|*.log||"),buffer))
+@
+
+
+1.8
+log
+@Localization fixes.
+@
+text
+@d60 2
+a61 1
+BOOL CChatWnd::OnInitDialog(){
+d67 2
+a68 2
+	oldMessageIcon = GetMessageStatic()->SetIcon(GetMessageIcon());	//[TwoBottle Mod]
+	oldFriendsIcon = GetFriendsStatic()->SetIcon(GetFriendsIcon());	//[TwoBottle Mod]
+d80 2
+a81 1
+void CChatWnd::StartSession(CUpDownClient* client){
+d88 2
+a89 1
+void CChatWnd::OnShowWindow(BOOL bShow,UINT nStatus){
+d105 1
+a105 1
+		m_FriendListCtrl.Localize(); //Localization fix
+d110 2
+a111 1
+LRESULT CChatWnd::OnCloseTab(WPARAM wparam, LPARAM lparam) {
+d133 2
+a134 1
+void CChatWnd::ScrollHistory(bool down) {
+d150 47
+a199 1
+//Resources cleanup - [TwoBottle Mod]
+@
+
+
+1.7
+log
+@Extended fix
+@
+text
+@d102 1
+@
+
+
+1.6
+log
+@Updated Chat & IRC code. Workaround for bug #0000322
+@
+text
+@d119 5
+@
+
+
+1.5
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d48 1
+d54 1
+d104 33
+@
+
+
+1.4
+log
+@fixed resource leak
+@
+text
+@d80 1
+a80 1
+	theApp.emuledlg->SetActiveDialog(this);
+@
+
+
+1.3
+log
+@Code clean up and double check wit official code.
+@
+text
+@d53 1
+d63 3
+a65 2
+	((CStatic*)GetDlgItem(IDC_MESSAGEICON))->SetIcon((HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_MESSAGE), IMAGE_ICON, 16, 16, 0));
+	((CStatic*)GetDlgItem(IDC_FRIENDSICON))->SetIcon((HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_FRIEND_LBL), IMAGE_ICON, 16, 16, 0));
+d102 8
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a24 1
+
+a29 1
+
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d26 7
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

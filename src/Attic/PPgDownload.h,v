@@ -1,0 +1,120 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2004.04.25.02.33.04;	author dongato;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2004.04.18.13.17.30;	author bavariansnail;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.03.27.19.42.50;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Preferences reorganization
+@
+text
+@#pragma once
+
+#include "preferences.h"
+#include "afxwin.h"
+
+// CPPgDownload dialog
+
+class CPPgDownload : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgDownload)
+
+public:
+	CPPgDownload();
+	virtual ~CPPgDownload();
+	void SetPrefs(CPreferences* in_prefs) {	m_pPrefs = in_prefs; }
+
+// Dialog Data
+	enum { IDD = IDD_PPG_DOWNLOAD };
+protected:
+	CPreferences *m_pPrefs;
+
+	bool m_bModified;
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+	virtual void DoDataExchange(CDataExchange* pDX);
+	void LoadSettings(void);
+	DECLARE_MESSAGE_MAP()
+public:
+	virtual BOOL OnInitDialog();
+	void Localize(void);
+	virtual BOOL OnApply();
+	afx_msg void OnSettingsChange()						{ SetModified(); }
+protected:
+	BOOL showA4AF;
+	BOOL showA4AFCount;
+	BOOL showAvgDataRate;
+	BOOL showFileTypeIcons;
+	BOOL showTransferredOnCompleted;
+	BOOL showDownloadPercentage;
+	BOOL showPausedGray;
+	BOOL showFileStatusIcons;
+	BOOL bSmartFilterShowSourcesOQ;
+	CString strSmartFilterMaxQR;
+	CString strSmartFilterDesc;
+	BOOL autoClearCompleted;
+private:
+	CButton showA4AFCheck;
+	CButton showA4AFCountCheck;
+	CButton showAvgDataRateCheck;
+	CButton showFileTypeIconsCheck;
+	CButton showTransferredOnCompletedCheck;
+	CButton showDownloadPercentageCheck;
+	CButton showPausedGrayCheck;
+	CButton showFileStatusIconsCheck;
+	CButton SmartFilterShowSourcesOQCheck;
+	CEdit   SmartFilterMaxQREdit;
+	CStatic SmartFilterMaxQRLabel;
+	CButton autoClearCompletedCheck;
+};
+@
+
+
+1.2
+log
+@auto max sources per file
+@
+text
+@@
+
+
+1.1
+log
+@Updated preferences dialogs.
+Added upload log file (should be tested).
+@
+text
+@d48 1
+d61 1
+@
+

@@ -1,0 +1,405 @@
+head	1.10;
+access;
+symbols
+	PublicRelease_1_2e:1.9
+	Interim_Release_1-2e_RC1:1.9
+	PublicRelease_1_2d:1.9
+	Interim_Release_1-2d_RC1:1.9
+	Interim_Release_1-2d_beta1:1.9
+	PublicRelease_1_2c:1.9
+	Interim_Release_1-2c_RC1:1.9
+	Interim_Release_1-2c_beta1:1.9
+	PublicRelease_1_2b:1.9
+	Interim_Release_1-2b_RC1:1.9
+	PublicRelease_1_2a:1.9
+	Interim_Release_1-2a_RC1:1.9
+	Interim_Release_1-2a_beta2:1.9
+	Interim_Release_1-2a_beta1:1.9
+	PublicRelease_1_2:1.8
+	Interim_Release_1-2_RC1:1.8
+	Interim_Release_1-2_beta1:1.8
+	PublicRelease_1_1g:1.8
+	Interim_Release_1-1g_RC3:1.8
+	Interim_Release_1-1g_RC2:1.8
+	Interim_Release_1-1g_RC1:1.8
+	Interim_Release_1-1g_beta2:1.8
+	Interim_Release_1-1g_beta1:1.8
+	PublicRelease_1_1f:1.8
+	Interim_Release_1-1f_RC1:1.8
+	PublicRelease_1_1e:1.8
+	Interim_Release_1-1e_RC2:1.8
+	Interim_Release_1-1e_RC1:1.8
+	Interim_Release_1-1e_beta1:1.8
+	PublicRelease_1_1d:1.8
+	Interim_Release_1-1d_RC1:1.8
+	PublicRelease_1_1c:1.8
+	Interim_Release_1-1c_RC1:1.8
+	Interim_Release_1-1c_beta2:1.8
+	Interim_Release_1-1c_beta1:1.7
+	PublicRelease_1_1b:1.7
+	Interim_Release_1-1b_RC1:1.7
+	PublicRelease_1_1a:1.7
+	Interim_Release_1-1a_RC2:1.7
+	Interim_Release_1-1a_RC1:1.7
+	Interim_Release_1-1a_beta2:1.7
+	Interim_Release_1-1a_beta1:1.7
+	PublicRelease_1_1:1.7
+	Interim_Release_1-1_beta1:1.7
+	PublicRelease_1o:1.7
+	Interim_Release_1o_RC1:1.7
+	Interim_Release_1o_beta1:1.7
+	PublicRelease_1n:1.7
+	Interim_Release_1n_RC2:1.7
+	Interim_Release_1n_RC1:1.7
+	Interim_Release_1n_beta2:1.7
+	Interim_Release_1n_beta1:1.7
+	PublicRelease_1m:1.7
+	Interim_Release_1m_beta1:1.7
+	PublicRelease_1l:1.7
+	Interim_Release_1l_RC3:1.7
+	Interim_Release_1l_RC2:1.7
+	Interim_Release_1l_RC1:1.7
+	Interim_Release_1l_beta2:1.7
+	Interim_Release_1l_beta1:1.7
+	PublicRelease_1k:1.7
+	Interim_Release_1k_RC4:1.7
+	Interim_1k_RC3:1.7
+	Interim_1k_RC2:1.7
+	Interim_Release_1k_RC1:1.7
+	Interim_Release_1k_beta5:1.7
+	Intrerim_Release_1k_beta4:1.7
+	Interim_Release_1k_beta1:1.7
+	PublicRelease_1j:1.6
+	Interim_Release_1J_RC3:1.6
+	Interim_Release_1j_RC3:1.6
+	Interim_Release_1j_RC2:1.6
+	Interim_Release_1j_RC1:1.6
+	Interim_Release_1j_beta2:1.6
+	Interim_Release_1j_beta1:1.6
+	PublicRelease_1i:1.6
+	Interim_Release_1i_RC6:1.6
+	Interim_Release_1i_RC3:1.6
+	Interim_Release_1i_RC2:1.6
+	Interim_Release_1i_RC1:1.6
+	Interim_Release_1i_beta3:1.6
+	Interim_Release_1i_beta2:1.6
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.4
+	PublicRelease_1g:1.4
+	Interim_Release_1g_RC6_Final:1.4
+	Interim_Release_1g_RC6:1.4
+	Interim_Release_1g_RC5:1.4
+	Interim_Release_1g_RC4:1.4
+	Interim_Release_1g_RC3:1.4
+	Interim_Release_1g_beta2:1.4
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.10
+date	2009.05.24.21.42.05;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.02.07.04.58.21;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.02.17.21.56.49;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.17.10.29.06;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.06.06.20.37.17;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.06.19.56.46;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.05.20.20.46.27;	author netwolf1;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.09;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@Added ability to preserve unknown friend list tags (required to keep new official Kad tag).
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+class CUpDownClient;
+class CTag;
+
+class CFriend
+{
+public:
+						CFriend(void);
+						CFriend(CUpDownClient *client);
+						CFriend( uchar t_m_abyUserhash[16], uint32 tm_dwLastSeen,
+								 uint32 tm_dwLastUsedIP, uint32 tm_nLastUsedPort,
+								 uint32 tm_dwLastChatted, CString tm_strName,
+								 uint32 tm_dwHasHash );
+					   ~CFriend(void);
+	uint32				m_dwLastUsedIP;
+	uint32				m_nLastUsedPort;
+	uint32				m_dwLastChatted;
+	uint32				m_dwHasHash;
+	CString				m_strName;
+
+
+	CUpDownClient*		GetLinkedClient() const		{ return m_pLinkedClient; }
+	uint32				GetLastSeen() const			{ return m_dwLastSeen; }
+	const uchar*		GetUserHash() const			{ return m_abyUserhash; }
+	void				SetLinkedClient(CUpDownClient *pLinkedClient);
+
+	void				LoadFromFile(CFile &file);
+	void				WriteToFile(CFile &file);
+
+private:
+	uchar				m_abyUserhash[16];
+	uint32				m_dwLastSeen;
+	CUpDownClient		*m_pLinkedClient;
+	CArray<CTag*, CTag*>	m_tagArray;
+};
+@
+
+
+1.9
+log
+@Reduced H-file dependency.
+@
+text
+@a17 1
+#include "types.h"
+d20 1
+d51 1
+@
+
+
+1.8
+log
+@Several friend class members were moved from public to private section.
+@
+text
+@d19 2
+a20 1
+#include "updownclient.h"
+@
+
+
+1.7
+log
+@Unused variable is removed
+@
+text
+@a30 2
+	uchar				m_abyUserhash[16];
+	uint32				m_dwLastSeen;
+a36 1
+	CUpDownClient	   *m_pLinkedClient;
+d38 7
+a44 2
+	void				LoadFromFile(CFile& file);
+	void				WriteToFile(CFile& file);
+d46 4
+a49 1
+	static const char	sm_abyNullHash[16];
+@
+
+
+1.6
+log
+@no message
+@
+text
+@a43 1
+	static const char	sm_abyNoHash[16];
+@
+
+
+1.5
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d24 14
+a37 11
+	CFriend(void);
+	CFriend(CUpDownClient* client);
+	CFriend( uchar t_m_abyUserhash[16], uint32 tm_dwLastSeen, uint32 tm_dwLastUsedIP, uint32 tm_nLastUsedPort, uint32 tm_dwLastChatted, CString tm_strName, uint32 tm_dwHasHash);
+	~CFriend(void);
+	uchar	m_abyUserhash[16];
+	uint32	m_dwLastSeen;
+	uint32	m_dwLastUsedIP;
+	uint32	m_nLastUsedPort;
+	uint32	m_dwLastChatted;
+	uint32	m_dwHasHash;
+	CString m_strName;
+d39 1
+a39 1
+	CUpDownClient* m_LinkedClient;
+d41 2
+a42 2
+	void	LoadFromFile(CFile& file);
+	void	WriteToFile(CFile& file);
+d44 2
+a45 2
+	static const char sm_abyNoHash[16];
+	static const char sm_abyNullHash[16];
+@
+
+
+1.4
+log
+@code cleanup
+@
+text
+@a20 2
+#define	FF_NAME		0x01
+
+@
+
+
+1.3
+log
+@code cleanup
+@
+text
+@d41 1
+a41 1
+	void	WriteToFile(CFile* file);
+@
+
+
+1.2
+log
+@minor fixes and improvements
+@
+text
+@d40 1
+a40 1
+	void	LoadFromFile(CFile* file);
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d42 3
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

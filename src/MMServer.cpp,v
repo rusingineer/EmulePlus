@@ -1,0 +1,3601 @@
+head	1.67;
+access;
+symbols
+	PublicRelease_1_2e:1.65
+	Interim_Release_1-2e_RC1:1.65
+	PublicRelease_1_2d:1.62
+	Interim_Release_1-2d_RC1:1.62
+	Interim_Release_1-2d_beta1:1.62
+	PublicRelease_1_2c:1.58
+	Interim_Release_1-2c_RC1:1.58
+	Interim_Release_1-2c_beta1:1.56
+	PublicRelease_1_2b:1.56
+	Interim_Release_1-2b_RC1:1.56
+	PublicRelease_1_2a:1.56
+	Interim_Release_1-2a_RC1:1.56
+	Interim_Release_1-2a_beta2:1.53
+	Interim_Release_1-2a_beta1:1.53
+	PublicRelease_1_2:1.53
+	Interim_Release_1-2_RC1:1.52
+	Interim_Release_1-2_beta1:1.52
+	PublicRelease_1_1g:1.48
+	Interim_Release_1-1g_RC3:1.48
+	Interim_Release_1-1g_RC2:1.48
+	Interim_Release_1-1g_RC1:1.48
+	Interim_Release_1-1g_beta2:1.46
+	Interim_Release_1-1g_beta1:1.45
+	PublicRelease_1_1f:1.45
+	Interim_Release_1-1f_RC1:1.45
+	PublicRelease_1_1e:1.45
+	Interim_Release_1-1e_RC2:1.45
+	Interim_Release_1-1e_RC1:1.45
+	Interim_Release_1-1e_beta1:1.44
+	PublicRelease_1_1d:1.44
+	Interim_Release_1-1d_RC1:1.44
+	PublicRelease_1_1c:1.44
+	Interim_Release_1-1c_RC1:1.44
+	Interim_Release_1-1c_beta2:1.44
+	Interim_Release_1-1c_beta1:1.44
+	PublicRelease_1_1b:1.44
+	Interim_Release_1-1b_RC1:1.44
+	PublicRelease_1_1a:1.44
+	Interim_Release_1-1a_RC2:1.44
+	Interim_Release_1-1a_RC1:1.44
+	Interim_Release_1-1a_beta2:1.44
+	Interim_Release_1-1a_beta1:1.44
+	PublicRelease_1_1:1.44
+	Interim_Release_1-1_beta1:1.44
+	PublicRelease_1o:1.43
+	Interim_Release_1o_RC1:1.43
+	Interim_Release_1o_beta1:1.43
+	PublicRelease_1n:1.39
+	Interim_Release_1n_RC2:1.39
+	Interim_Release_1n_RC1:1.38
+	Interim_Release_1n_beta2:1.37
+	Interim_Release_1n_beta1:1.37
+	PublicRelease_1m:1.35
+	Interim_Release_1m_beta1:1.35
+	PublicRelease_1l:1.35
+	Interim_Release_1l_RC3:1.34
+	Interim_Release_1l_RC2:1.31
+	Interim_Release_1l_RC1:1.30
+	Interim_Release_1l_beta2:1.30
+	Interim_Release_1l_beta1:1.30
+	PublicRelease_1k:1.30
+	Interim_Release_1k_RC4:1.30
+	Interim_1k_RC3:1.30
+	Interim_1k_RC2:1.30
+	Interim_Release_1k_RC1:1.30
+	Interim_Release_1k_beta5:1.30
+	Intrerim_Release_1k_beta4:1.30
+	Interim_Release_1k_beta1:1.29
+	PublicRelease_1j:1.25
+	Interim_Release_1J_RC3:1.25
+	Interim_Release_1j_RC3:1.25
+	Interim_Release_1j_RC2:1.23
+	Interim_Release_1j_RC1:1.23
+	Interim_Release_1j_beta2:1.23
+	Interim_Release_1j_beta1:1.23
+	PublicRelease_1i:1.20
+	Interim_Release_1i_RC6:1.20
+	Interim_Release_1i_RC3:1.20
+	Interim_Release_1i_RC2:1.20
+	Interim_Release_1i_RC1:1.19
+	Interim_Release_1i_beta3:1.18
+	Interim_Release_1i_beta2:1.18
+	Interim_Release_1i_beta1:1.13
+	PublicRelease_1h:1.9
+	Interim_Release_1h_rc2:1.8
+	Interim_Release_1h_RC1:1.8
+	Interim_Release_1h_beta2:1.6
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.4;
+locks; strict;
+comment	@// @;
+
+
+1.67
+date	2009.10.28.04.34.59;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2009.07.14.03.54.08;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2009.03.06.06.08.22;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2008.11.12.16.56.27;	author kush_eplus;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2007.12.23.17.50.11;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2007.10.31.18.14.40;	author fuxie-dk;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2007.10.24.19.09.35;	author fuxie-dk;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2007.10.11.18.06.25;	author fuxie-dk;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2007.07.07.04.07.37;	author aw3;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2007.05.28.12.39.27;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2006.09.06.05.54.41;	author aw3;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2006.08.14.02.38.44;	author aw3;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2006.07.31.03.44.08;	author aw3;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2006.02.26.21.36.28;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2006.01.20.04.17.07;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2006.01.16.01.56.48;	author aw3;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2006.01.15.18.23.48;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2006.01.03.03.24.55;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2005.08.29.03.08.32;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2005.06.18.01.02.45;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.10.08.04.41.03;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.09.21.20.17.18;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.09.20.07.16.40;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.09.17.03.07.39;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.09.13.22.51.59;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.09.07.19.45.03;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.08.21.11.42.56;	author eklmn;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.07.02.09.12.32;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.07.01.04.38.15;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.06.10.20.17.12;	author kush_eplus;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.06.08.20.18.17;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.06.08.18.18.00;	author dongato;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.06.04.15.15.12;	author kush_eplus;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.06.02.18.27.35;	author kush_eplus;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.03.14.21.10.11;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.02.19.01.49.06;	author kush_eplus;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.02.13.16.13.34;	author netwolf1;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.01.31.12.17.08;	author morevit;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.01.22.20.46.42;	author dongato;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.01.14.17.47.53;	author netwolf1;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.11.04.22.24.44;	author puritynn666;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.10.31.18.27.54;	author puritynn666;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.10.15.10.24.20;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.10.08.01.55.12;	author morevit;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.06.19.19.12;	author puritynn666;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.02.00.58.14;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.23.20.42.39;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.19.00.13.37;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.16.17.40.03;	author puritynn666;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.09.16.21.58;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.06.21.13.45;	author puritynn666;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.02.18.28.14;	author puritynn666;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.08.24.15.55.18;	author bond006;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.17.13.15.04;	author puritynn666;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.10.16.42.02;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.10.01.25.41;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.07.30.12.29.32;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.67
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2003-2004 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "MMServer.h"
+#include "MMsocket.h"
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#endif
+#include "PartFile.h"
+#include "KnownFile.h"
+#include "opcodes.h"
+#include "MD5Sum.h"
+#include "SearchDlg.h"
+#include "packets.h"
+#include "SearchList.h"
+#include "WebServer.h"
+#include "otherfunctions.h"
+#include "UploadQueue.h"
+#include "server.h"
+
+#ifdef OLD_SOCKETS_ENABLED
+
+CMMServer::CMMServer(void)
+{
+	h_timer = NULL;
+	m_cPWFailed = 0;
+	m_dwBlocked = 0;
+	m_pSocket = NULL;
+	m_nSessionID = 0;
+	m_byPendingCommand = 0;
+	m_pPendingCommandSocket = NULL;
+	m_bUseFakeContent = false;
+	m_nMaxDownloads = 0;
+	m_nMaxBufDownloads = 0;
+	m_bGrabListLogin = false;
+}
+
+CMMServer::~CMMServer(void)
+{
+	DeleteSearchFiles();
+	delete m_pSocket;
+	if (h_timer != NULL)
+	{
+		KillTimer(0,h_timer);
+	}
+}
+
+void CMMServer::Init()
+{
+	if (g_App.m_pPrefs->IsMMServerEnabled() && !m_pSocket)
+	{
+		m_pSocket = new CListenMMSocket(this);
+		if (!m_pSocket->Create())
+		{
+			StopServer();
+			g_App.m_pMDlg->AddLogLine(LOG_RGB_ERROR, IDS_MMFAILED);
+		}
+		else
+		{
+			g_App.m_pMDlg->AddLogLine(0, IDS_MMSTARTED, g_App.m_pPrefs->GetMMPort(), _T(MM_STRVERSION));
+		}
+	}
+}
+
+void CMMServer::StopServer()
+{
+	delete m_pSocket;
+	m_pSocket = NULL;
+}
+
+void CMMServer::DeleteSearchFiles()
+{
+	for (int i = 0; i != m_SendSearchList.GetSize(); i++)
+	{
+		delete m_SendSearchList[i];
+	}
+	m_SendSearchList.SetSize(0);
+}
+
+bool CMMServer::PreProcessPacket(char* pPacket, uint32 nSize, CMMSocket* sender)
+{
+	if (nSize >= 3)
+	{
+		uint16 nSessionID;
+		memcpy2(&nSessionID, pPacket + 1, sizeof(nSessionID));
+		if ((m_nSessionID && nSessionID == m_nSessionID) || pPacket[0] == MMP_HELLO)
+		{
+			return true;
+		}
+		else
+		{
+			CMMPacket* packet = new CMMPacket(MMP_INVALIDID);
+			sender->SendPacket(packet);
+			m_nSessionID = 0;
+			return false;
+		}
+	}
+
+	CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+	sender->SendPacket(packet);
+	return false;
+}
+
+void CMMServer::ProcessHelloPacket(CMMData* data, CMMSocket* sender)
+{
+	CMMPacket* packet = new CMMPacket(MMP_HELLOANS);
+	if (data->ReadByte() != MM_VERSION)
+	{
+		packet->WriteByte(MMT_WRONGVERSION);
+		sender->SendPacket(packet);
+		return;
+	}
+	else
+	{
+		if(m_dwBlocked && m_dwBlocked > ::GetTickCount())
+		{
+			packet->WriteByte(MMT_WRONGPASSWORD);
+			sender->SendPacket(packet);
+			return;
+		}
+		byte	abyteDigest[16];
+		CString	strPlainPW = data->ReadString();
+
+		if ( (md4cmp(MD5Sum(strPlainPW, abyteDigest), g_App.m_pPrefs->GetMMPass()) != 0) ||
+			strPlainPW.IsEmpty() )
+		{
+			m_dwBlocked = 0;
+			packet->WriteByte(MMT_WRONGPASSWORD);
+			sender->SendPacket(packet);
+			m_cPWFailed++;
+			if (m_cPWFailed == 3)
+			{
+				g_App.m_pMDlg->AddLogLine(LOG_RGB_WARNING, IDS_MM_LOGIN_WARNING);
+				m_cPWFailed = 0;
+				m_dwBlocked = ::GetTickCount() + MMS_BLOCKTIME;
+			}
+			return;
+		}
+		else
+		{
+			m_bUseFakeContent = (data->ReadByte() != 0);
+			m_nMaxDownloads = data->ReadShort();
+			m_nMaxBufDownloads = data->ReadShort();
+			m_bGrabListLogin = (data->ReadByte() != 0);
+		//	Everything is ok, new session id
+			g_App.m_pMDlg->AddLogLine(LOG_RGB_NOTICE, IDS_MM_SUCCESS_LOGIN);
+			packet->WriteByte(MMT_OK);
+			m_nSessionID = static_cast<uint16>(rand());
+			packet->WriteShort(m_nSessionID);
+			packet->WriteString(g_App.m_pPrefs->GetUserNick());
+			packet->WriteShort(g_App.m_pPrefs->GetMaxUpload() / 10);
+			packet->WriteShort((g_App.m_pPrefs->GetMaxDownload() == UNLIMITED) ? 0 : (g_App.m_pPrefs->GetMaxDownload() / 10));
+			ProcessStatusRequest(sender,packet);
+		}
+	}
+}
+
+void CMMServer::ProcessStatusRequest(CMMSocket* sender, CMMPacket* packet)
+{
+	if (packet == NULL)
+		packet = new CMMPacket(MMP_STATUSANSWER);
+	else
+		packet->WriteByte(MMP_STATUSANSWER);
+
+	packet->WriteShort((uint16)g_App.m_pUploadQueue->GetDataRate()/100);
+	packet->WriteShort((uint16)((g_App.m_pPrefs->GetMaxGraphUploadRate()*1024)/1000));
+	packet->WriteShort((uint16)g_App.m_pDownloadQueue->GetDataRate()/100);
+	packet->WriteShort((uint16)((g_App.m_pPrefs->GetMaxGraphDownloadRate()*1024)/1000));
+	packet->WriteByte((byte)g_App.m_pDownloadQueue->GetTransferringFiles());
+	packet->WriteByte((byte)g_App.m_pDownloadQueue->GetPausedFileCount());
+	packet->WriteInt(static_cast<uint32>(g_App.stat_sessionReceivedBytes / 1048576ui64));
+	packet->WriteShort((uint16)((g_App.m_pMDlg->m_dlgStatistics.GetAvgDownloadRate(0)*1024)/100));
+	if (g_App.m_pServerConnect->IsConnected())
+	{
+		if(g_App.m_pServerConnect->IsLowID())
+			packet->WriteByte(1);
+		else
+			packet->WriteByte(2);
+
+		CServer	*pCurServer;
+
+		if ((pCurServer = g_App.m_pServerConnect->GetCurrentServer()) != NULL)
+		{
+			packet->WriteInt(pCurServer->GetNumUsers());
+			packet->WriteString(pCurServer->GetListName());
+		}
+		else
+		{
+			packet->WriteInt(0);
+			packet->WriteString("");
+		}
+	}
+	else
+	{
+		packet->WriteByte(0);
+		packet->WriteInt(0);
+		packet->WriteString("");
+	}
+
+//	Kademlia isn't supported by eMule Plus - inform the MobileMule client
+	packet->WriteByte(0);
+	packet->WriteInt(0);
+
+	sender->SendPacket(packet);
+}
+
+void CMMServer::ProcessFileListRequest(CMMSocket* sender, CMMPacket* packet)
+{
+	if (packet == NULL)
+		packet = new CMMPacket(MMP_FILELISTANS);
+	else
+		packet->WriteByte(MMP_FILELISTANS);
+
+	int	nCount = CCat::GetNumUserCats() + 1;
+
+	packet->WriteByte(static_cast<byte>(nCount));
+	packet->WriteString(CCat::GetPredefinedCatTitle(CAT_ALL));
+	for (int i = 1; i < nCount; i++)
+	{
+		packet->WriteString(CCat::GetCatByUserIndex(i)->GetTitle());
+	}
+
+	nCount = g_App.m_pDownloadQueue->GetFileCount();
+	if (nCount > m_nMaxDownloads)
+		nCount = m_nMaxDownloads;
+	m_SentFileList.SetSize(nCount);
+	packet->WriteByte(static_cast<byte>(nCount));
+	for (int i = 0; i < nCount; i++)
+	{
+	//	While this is not the fastest method to trace this list, it's not timecritical here
+		CPartFile* cur_file = g_App.m_pDownloadQueue->GetFileByIndex(i);
+		if (cur_file == NULL)
+		{
+			delete packet;
+			packet = new CMMPacket(MMP_GENERALERROR);
+			sender->SendPacket(packet);
+			ASSERT(false);
+			return;
+		}
+		m_SentFileList[i] = cur_file;
+		if (cur_file->IsPaused())
+			packet->WriteByte(MMT_PAUSED);
+		else
+		{
+			if (cur_file->GetTransferringSrcCount() > 0)
+				packet->WriteByte(MMT_DOWNLOADING);
+			else
+				packet->WriteByte(MMT_WAITING);
+		}
+
+		packet->WriteString(cur_file->GetFileName());
+		packet->WriteByte(static_cast<byte>(CCat::GetUserCatIndexByID(cur_file->GetCatID())));
+
+		if (i < m_nMaxBufDownloads)
+		{
+			packet->WriteByte(1);
+			WriteFileInfo(cur_file, packet);
+		}
+		else
+		{
+			packet->WriteByte(0);
+		}
+	}
+	sender->SendPacket(packet);
+}
+
+void CMMServer::ProcessFinishedListRequest(CMMSocket* sender)
+{
+	CMMPacket  *packet = new CMMPacket(MMP_FINISHEDANS);
+	int			nCount = CCat::GetNumUserCats() + 1;
+
+	packet->WriteByte(static_cast<byte>(nCount));
+	packet->WriteString(CCat::GetPredefinedCatTitle(CAT_ALL));
+	for (int i = 1; i < nCount; i++)
+	{
+		packet->WriteString(CCat::GetCatByUserIndex(i)->GetTitle());
+	}
+
+	nCount = (m_SentFinishedList.GetCount() > 30)? 30 : m_SentFinishedList.GetCount();
+	packet->WriteByte(static_cast<byte>(nCount));
+	for (int i = 0; i < nCount; i++)
+	{
+		CKnownFile	*cur_file = m_SentFinishedList[i];
+
+		packet->WriteByte(0xFF);
+		packet->WriteString(cur_file->GetFileName());
+
+		CPartFile	*pPartFile = dynamic_cast<CPartFile*>(cur_file);
+
+		if (pPartFile != NULL)
+			packet->WriteByte(static_cast<byte>(CCat::GetUserCatIndexByID(pPartFile->GetCatID())));
+		else
+			packet->WriteByte(0);
+	}
+	sender->SendPacket(packet);
+}
+
+void CMMServer::ProcessFileCommand(CMMData* data, CMMSocket* sender)
+{
+	byte byCommand = data->ReadByte();
+	byte byFileIndex = data->ReadByte();
+	if (byFileIndex >= m_SentFileList.GetSize()
+		|| !g_App.m_pDownloadQueue->IsInDLQueue(m_SentFileList[byFileIndex]))
+	{
+		CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+		sender->SendPacket(packet);
+		ASSERT ( false );
+		return;
+	}
+	CPartFile* selFile = m_SentFileList[byFileIndex];
+	switch (byCommand)
+	{
+		case MMT_PAUSE:
+			selFile->PauseFile();
+			break;
+		case MMT_RESUME:
+			selFile->ResumeFile();
+			break;
+		case MMT_CANCEL:
+		{
+			switch(selFile->GetStatus())
+			{
+				case PS_WAITINGFORHASH:
+				case PS_HASHING:
+				case PS_COMPLETING:
+				case PS_COMPLETE:
+					break;
+				default:
+					if (g_App.m_pPrefs->StartDownloadPaused())
+						g_App.m_pDownloadQueue->StartNextFile(CCat::GetAllCatType());
+				case PS_PAUSED:
+				case PS_STOPPED:
+					selFile->DeleteFile();
+					g_App.m_pMDlg->m_wndTransfer.UpdateCatTabTitles();
+					break;
+			}
+			break;
+		}
+		default:
+			CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+			sender->SendPacket(packet);
+			return;
+	}
+	CMMPacket* packet = new CMMPacket(MMP_FILECOMMANDANS);
+	ProcessFileListRequest(sender,packet);
+}
+
+void  CMMServer::ProcessDetailRequest(CMMData* data, CMMSocket* sender)
+{
+	byte byFileIndex = data->ReadByte();
+	if (byFileIndex >= m_SentFileList.GetSize()
+		|| !g_App.m_pDownloadQueue->IsInDLQueue(m_SentFileList[byFileIndex]))
+	{
+		CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+		sender->SendPacket(packet);
+		ASSERT ( false );
+		return;
+	}
+	CPartFile* selFile = m_SentFileList[byFileIndex];
+	CMMPacket* packet = new CMMPacket(MMP_FILEDETAILANS);
+	WriteFileInfo(selFile, packet);
+	sender->SendPacket(packet);
+}
+
+void  CMMServer::ProcessCommandRequest(CMMData* data, CMMSocket* sender)
+{
+	byte byCommand = data->ReadByte();
+	bool bSuccess = false;
+	bool bQueueCommand = false;
+	switch (byCommand)
+	{
+		case MMT_SDEMULE:
+		case MMT_SDPC:
+			h_timer = SetTimer(0,0,5000,CommandTimer);
+			if (h_timer)
+				bSuccess = true;
+			bQueueCommand = true;
+			break;
+		case MMT_SERVERCONNECT:
+			g_App.m_pServerConnect->ConnectToAnyServer();
+			bSuccess = true;
+			break;
+	}
+	if (bSuccess)
+	{
+		CMMPacket* packet = new CMMPacket(MMP_COMMANDANS);
+		sender->SendPacket(packet);
+		if (bQueueCommand)
+			m_byPendingCommand = byCommand;
+	}
+	else
+	{
+		CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+		sender->SendPacket(packet);
+		ASSERT ( false );
+		return;
+	}
+}
+
+void  CMMServer::ProcessSearchRequest(CMMData* data, CMMSocket* sender)
+{
+	DeleteSearchFiles();
+
+	if (!g_App.m_pServerConnect->IsConnected())
+	{
+		CMMPacket	   *packet = new CMMPacket(MMP_SEARCHANS);
+
+		packet->WriteByte(MMT_NOTCONNECTED);
+		sender->SendPacket(packet);
+		return;
+	}
+
+	CString	strSearch = data->ReadString();
+	byte	byType = data->ReadByte();
+	UINT	dwStringID = IDS_SEARCH_ANY;
+
+	switch (byType)
+	{
+		case 1:
+			dwStringID = IDS_SEARCH_ARC;
+			break;
+		case 2:
+			dwStringID = IDS_SEARCH_AUDIO;
+			break;
+		case 3:
+			dwStringID = IDS_SEARCH_CDIMG;
+			break;
+		case 4:
+			dwStringID = IDS_SEARCH_PRG;
+			break;
+		case 5:
+			dwStringID = IDS_SEARCH_VIDEO;
+			break;
+	}
+
+	CString	strLocalSearchType = GetResString(dwStringID);
+
+	h_timer = SetTimer(0,0,20000,CommandTimer);
+	if (h_timer == NULL)
+	{
+		CMMPacket	   *packet = new CMMPacket(MMP_GENERALERROR);
+
+		sender->SendPacket(packet);
+		ASSERT ( false );
+		return;
+	}
+
+	m_byPendingCommand = MMT_SEARCH;
+	m_pPendingCommandSocket = sender;
+
+	g_App.m_pSearchList->NewSearch(NULL, strLocalSearchType , MMS_SEARCHID, true);
+	g_App.m_pMDlg->m_dlgSearch.DoNewEd2kSearch(strSearch, strLocalSearchType, 0, 0, 0, _T(""), false, _T(""), MMS_SEARCHID);
+
+	char	buffer[500];
+	int		iBuffLen = wsprintfA(buffer, "HTTP/1.1 200 OK\r\nConnection: Close\r\nContent-Type: %s\r\n", GetContentType());
+
+	sender->Send(buffer, iBuffLen);
+}
+
+
+void  CMMServer::ProcessChangeLimitRequest(CMMData* data, CMMSocket* sender)
+{
+	uint16 uNewUpload = data->ReadShort();
+	uint16 uNewDownload = data->ReadShort();
+
+	g_App.m_pPrefs->SetMaxUploadWithCheck(uNewUpload * 10);
+	if (uNewDownload != UNLIMITED)
+		g_App.m_pPrefs->SetMaxDownloadWithCheck(uNewDownload * 10);
+	else
+		g_App.m_pPrefs->SetMaxDownload(uNewDownload);
+
+	CMMPacket* packet = new CMMPacket(MMP_CHANGELIMITANS);
+	packet->WriteShort(g_App.m_pPrefs->GetMaxUpload() / 10);
+	packet->WriteShort((g_App.m_pPrefs->GetMaxDownload() == UNLIMITED) ? 0 : (g_App.m_pPrefs->GetMaxDownload() / 10));
+	sender->SendPacket(packet);
+}
+
+
+void CMMServer::SearchFinished(bool bTimeOut)
+{
+#define MAXRESULTS	20
+	if (h_timer != 0)
+	{
+		KillTimer(0,h_timer);
+		h_timer = 0;
+	}
+	if (m_pPendingCommandSocket == NULL)
+		return;
+	if (bTimeOut)
+	{
+		CMMPacket* packet = new CMMPacket(MMP_SEARCHANS);
+		packet->WriteByte(MMT_TIMEDOUT);
+		packet->m_bSpecialHeader = true;
+		m_pPendingCommandSocket->SendPacket(packet);
+	}
+	else if (g_App.m_pSearchList->GetFoundFiles(MMS_SEARCHID) == 0)
+	{
+		CMMPacket* packet = new CMMPacket(MMP_SEARCHANS);
+		packet->WriteByte(MMT_NORESULTS);
+		packet->m_bSpecialHeader = true;
+		m_pPendingCommandSocket->SendPacket(packet);
+	}
+	else
+	{
+		unsigned uiResults = g_App.m_pSearchList->GetFoundFiles(MMS_SEARCHID);
+		if (uiResults > MAXRESULTS)
+			uiResults = MAXRESULTS;
+		m_SendSearchList.SetSize(uiResults);
+		CMMPacket* packet = new CMMPacket(MMP_SEARCHANS);
+		packet->m_bSpecialHeader = true;
+		packet->WriteByte(MMT_OK);
+		packet->WriteByte(static_cast<byte>(uiResults));
+		for (unsigned ui = 0; ui < uiResults; ui++)
+		{
+			CSearchFile* cur_file = g_App.m_pSearchList->DetachNextFile(MMS_SEARCHID);
+			m_SendSearchList[ui] = cur_file;
+			packet->WriteString(cur_file->GetFileName());
+			packet->WriteShort(static_cast<uint16>(cur_file->GetSourceCount()));
+			packet->WriteInt64(cur_file->GetFileSize());
+		}
+		m_pPendingCommandSocket->SendPacket(packet);
+		g_App.m_pMDlg->m_dlgSearch.DeleteSearch(MMS_SEARCHID);
+	}
+	m_pPendingCommandSocket = NULL;
+}
+
+void  CMMServer::ProcessDownloadRequest(CMMData* data, CMMSocket* sender)
+{
+	byte byFileIndex = data->ReadByte();
+
+	if (byFileIndex >= m_SendSearchList.GetSize() )
+	{
+		CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+		sender->SendPacket(packet);
+		ASSERT ( false );
+		return;
+	}
+
+	CSearchFile* todownload = m_SendSearchList[byFileIndex];
+
+	g_App.m_pDownloadQueue->AddSearchToDownload(todownload, CAT_NONE, g_App.m_pPrefs->StartDownloadPaused());
+
+	CMMPacket* packet = new CMMPacket(MMP_DOWNLOADANS);
+
+	if (g_App.m_pDownloadQueue->GetFileByID(todownload->GetFileHash()) != NULL)
+	{
+		packet->WriteByte(MMT_OK);
+	}
+	else
+	{
+		packet->WriteByte(MMT_FAILED);
+	}
+	sender->SendPacket(packet);
+}
+
+//	Preview isn't supported in eMule Plus - return an error
+void  CMMServer::ProcessPreviewRequest(CMMData *data, CMMSocket *sender)
+{
+	CMMPacket	*packet = new CMMPacket(MMP_PREVIEWANS);
+	NOPRM(data);
+
+	packet->WriteByte(MMT_FAILED);
+	sender->SendPacket(packet);
+	return;
+}
+
+void CMMServer::Process()
+{
+	if (m_pSocket)
+		m_pSocket->Process();
+}
+
+const char* CMMServer::GetContentType()
+{
+	return (m_bUseFakeContent) ? "image/vnd.wap.wbmp" : "application/octet-stream";
+}
+
+VOID CALLBACK CMMServer::CommandTimer(HWND hwnd, UINT uMsg, UINT_PTR idEvent, DWORD dwTime)
+{
+	NOPRM(hwnd); NOPRM(uMsg); NOPRM(idEvent); NOPRM(dwTime);
+	// NOTE: Always handle all type of MFC exceptions in TimerProcs - otherwise we'll get mem leaks
+	EMULE_TRY
+
+	KillTimer(0, g_App.m_pMMServer->h_timer);
+	g_App.m_pMMServer->h_timer = 0;
+	switch(g_App.m_pMMServer->m_byPendingCommand)
+	{
+		case MMT_SDPC:
+		{
+			HANDLE hToken;
+			TOKEN_PRIVILEGES tkp;	// Get a token for this process.
+			try
+			{
+				if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken))
+					throw;
+				LookupPrivilegeValue(NULL, SE_SHUTDOWN_NAME, &tkp.Privileges[0].Luid);
+				tkp.PrivilegeCount = 1;  // one privilege to set
+				tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;	// Get the shutdown privilege for this process.
+				AdjustTokenPrivileges(hToken, FALSE, &tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
+			}
+			catch(...)
+			{
+				g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR | LOG_RGB_NOTICE, GetResString(IDS_WEB_SHUTDOWN) + _T(' ') + GetResString(IDS_FAILED));
+			}
+			if (!ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCE, 0))
+				break;
+		}
+		case MMT_SDEMULE:
+			g_App.m_app_state = g_App.APP_STATE_SHUTTINGDOWN;
+			SendMessage(g_App.m_pMDlg->m_hWnd, WM_CLOSE, 0, 0);
+			break;
+		case MMT_SEARCH:
+			g_App.m_pMMServer->SearchFinished(true);
+			break;
+	}
+
+	EMULE_CATCH
+}
+
+void  CMMServer::ProcessStatisticsRequest(CMMData* data, CMMSocket* sender)
+{
+	uint16 nWidth = data->ReadShort();
+	CArray<UpDown>* rawData = g_App.m_pWebServer->GetPointsForWeb();
+	int nRawDataSize = rawData->GetSize();
+	uint32 dwCompressEvery = (nRawDataSize > nWidth) ? static_cast<uint32>(nRawDataSize) / nWidth : 1;
+	int nPos = (nRawDataSize > nWidth) ? (nRawDataSize % nWidth) : 0;
+	uint32 dwAddUp, dwAddDown, dwAddCon, i, i2;
+	ASSERT(nPos + dwCompressEvery * nWidth == nRawDataSize || (nPos == 0 && nRawDataSize < nWidth));
+
+	CMMPacket* packet = new CMMPacket(MMP_STATISTICSANS);
+	packet->WriteShort(static_cast<uint16>((nRawDataSize - nPos) * g_App.m_pPrefs->GetTrafficOMeterInterval()));
+	packet->WriteShort(static_cast<uint16>(min(nWidth, nRawDataSize)));
+	while (nPos < nRawDataSize)
+	{
+		dwAddUp = dwAddDown = dwAddCon = 0;
+		for (i = 0; i < dwCompressEvery; i++)
+		{
+			if (nPos >= nRawDataSize)
+			{
+				ASSERT ( false );
+				break;
+			}
+			else
+			{
+				dwAddUp += rawData->ElementAt(nPos).dwDownRate;
+				dwAddDown += rawData->ElementAt(nPos).dwUpRate;
+				dwAddCon += rawData->ElementAt(nPos).dwConnections;
+			}
+			nPos++;
+		}
+		i2 = i >> 1;
+		packet->WriteInt((dwAddUp + i2) / i);
+		packet->WriteInt((dwAddDown + i2) / i);
+		packet->WriteShort(static_cast<uint16>((dwAddCon + i2) / i));
+	}
+	ASSERT( nPos == nRawDataSize );
+	sender->SendPacket(packet);
+}
+
+void CMMServer::WriteFileInfo(CPartFile* selFile, CMMPacket* packet)
+{
+	packet->WriteInt64(selFile->GetFileSize());
+	packet->WriteInt64(selFile->GetTransferred());
+	packet->WriteInt64(selFile->GetCompletedSize());
+	packet->WriteShort(static_cast<uint16>(selFile->GetDataRate() / 100));
+	packet->WriteShort(selFile->GetSourceCount());
+	packet->WriteShort(selFile->GetTransferringSrcCount());
+	if (selFile->IsAutoPrioritized())
+	{
+		packet->WriteByte(4);
+	}
+	else
+	{
+		packet->WriteByte(selFile->GetPriority());
+	}
+	byte	*pbyteParts = selFile->MMCreatePartStatus();
+	uint32	dwPartCnt = selFile->GetPartCount();
+
+	packet->WriteShort(static_cast<uint16>(dwPartCnt));
+	packet->WriteMem(pbyteParts, dwPartCnt);
+	delete []pbyteParts;
+}
+#endif //OLD_SOCKETS_ENABLED
+@
+
+
+1.66
+log
+@Reduced H-file dependency.
+@
+text
+@d22 3
+@
+
+
+1.65
+log
+@Some code improvements from original.
+@
+text
+@d31 1
+@
+
+
+1.64
+log
+@Fix uninitialized member variables;
+Fix a division with mismatching sign operators.
+@
+text
+@d635 1
+a635 1
+	CArray<UpDown, UpDown&>* rawData = g_App.m_pWebServer->GetPointsForWeb();
+@
+
+
+1.63
+log
+@Simplified logging system implementation.
+@
+text
+@a36 1
+	m_SendSearchList.SetSize(0);
+d42 1
+d44 1
+d637 1
+a637 1
+	uint32 dwCompressEvery = (nRawDataSize > nWidth) ? nRawDataSize / nWidth : 1;
+@
+
+
+1.62
+log
+@Removed secure protection for password hashes -- no point to do it for something changed once in a blue moon.
+@
+text
+@d67 1
+a67 1
+			g_App.m_pMDlg->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_MMFAILED));
+d71 1
+a71 1
+			g_App.m_pMDlg->AddLogLine(false, IDS_MMSTARTED, g_App.m_pPrefs->GetMMPort(), _T(MM_STRVERSION));
+d144 1
+a144 1
+				g_App.m_pMDlg->AddLogLine(false, RGB_LOG_WARNING + GetResString(IDS_MM_LOGIN_WARNING));
+d157 1
+a157 1
+			g_App.m_pMDlg->AddLogLine(false, RGB_LOG_NOTICE + GetResString(IDS_MM_SUCCESS_LOGIN));
+d614 1
+a614 1
+				g_App.m_pMDlg->AddLogLine(true, RGB_LOG_NOTICE + GetResString(IDS_WEB_SHUTDOWN) + _T(' ') + GetResString(IDS_FAILED));
+@
+
+
+1.61
+log
+@Suppressed compiler warnings; Shortened category services [Aw3].
+@
+text
+@d132 1
+a132 1
+		byte	abyteDigest[16], abytePass[16];
+d135 1
+a135 1
+		if ( (md4cmp(MD5Sum(strPlainPW, abyteDigest), g_App.m_pPrefs->GetMMPass(abytePass)) != 0) ||
+@
+
+
+1.60
+log
+@Suppressed level 4 warnings; Formatting [Aw3].
+@
+text
+@d182 1
+a182 1
+	packet->WriteInt(g_App.stat_sessionReceivedBytes/1048576);
+d231 1
+a231 1
+		packet->WriteString(CCat::GetCatByIndex(CCat::UserCatIndexToCatIndex(i))->GetTitle());
+d287 1
+a287 1
+		packet->WriteString(CCat::GetCatByIndex(CCat::UserCatIndexToCatIndex(i))->GetTitle());
+d529 1
+a529 1
+			packet->WriteShort(cur_file->GetSourceCount());
+@
+
+
+1.59
+log
+@Generate less code for some logging; Clean-up [Aw3].
+@
+text
+@d568 1
+a568 1
+void  CMMServer::ProcessPreviewRequest(CMMData* data, CMMSocket* sender)
+d571 1
+a580 1
+	{
+a581 1
+	}
+d589 1
+a589 1
+VOID CALLBACK CMMServer::CommandTimer(HWND hwnd, UINT uMsg,UINT_PTR idEvent,DWORD dwTime)
+d591 1
+@
+
+
+1.58
+log
+@Reduced #include depedency.
+@
+text
+@d71 1
+a71 1
+			g_App.m_pMDlg->AddLogLine(false, GetResString(IDS_MMSTARTED), g_App.m_pPrefs->GetMMPort(), _T(MM_STRVERSION));
+@
+
+
+1.57
+log
+@Minor optimization in preparation of search reply.
+@
+text
+@d31 1
+@
+
+
+1.56
+log
+@Renamed APP_STATE_SHUTINGDOWN -> APP_STATE_SHUTTINGDOWN.
+@
+text
+@d465 1
+d467 1
+a467 2
+	wsprintfA(buffer, "HTTP/1.1 200 OK\r\nConnection: Close\r\nContent-Type: %s\r\n", GetContentType());
+	sender->Send(buffer,strlen(buffer));
+@
+
+
+1.55
+log
+@Large file size support preparations.
+@
+text
+@d619 2
+a620 2
+			g_App.m_app_state = g_App.APP_STATE_SHUTINGDOWN;
+			SendMessage(g_App.m_pMDlg->m_hWnd,WM_CLOSE,0,0);
+@
+
+
+1.54
+log
+@Faster plot statistics processing for WebServer and MobileMule.
+@
+text
+@d462 1
+a462 1
+	g_App.m_pMDlg->m_dlgSearch.DoNewSearch(strSearch, strLocalSearchType, 0, 0, 0, _T(""), false, _T(""), MMS_SEARCHID);
+@
+
+
+1.53
+log
+@Formatting.
+@
+text
+@d633 1
+a633 1
+	CArray<UpDown, UpDown>* rawData = g_App.m_pWebServer->GetPointsForWeb();
+d635 1
+a635 1
+	int nCompressEvery = (nRawDataSize > nWidth) ? nRawDataSize / nWidth : 1;
+d637 2
+a638 2
+	int nAddUp, nAddDown, nAddCon, i, i2;
+	ASSERT (nPos + nCompressEvery * nWidth == nRawDataSize || (nPos == 0 && nRawDataSize < nWidth));
+d645 2
+a646 2
+		nAddUp = nAddDown = nAddCon = 0;
+		for (i = 0; i != nCompressEvery; i++)
+d655 3
+a657 3
+				nAddUp += (int) (rawData->ElementAt(nPos).upload * 1024);
+				nAddDown += (int) (rawData->ElementAt(nPos).download * 1024);
+				nAddCon += rawData->ElementAt(nPos).connections;
+d662 3
+a664 3
+		packet->WriteInt(static_cast<uint32>((nAddUp + i2) / i));
+		packet->WriteInt(static_cast<uint32>((nAddDown + i2) / i));
+		packet->WriteShort(static_cast<uint16>((nAddCon + i2) / i));
+@
+
+
+1.52
+log
+@MobileMule: protocol update (related to 64-bit file size support).
+@
+text
+@d95 2
+a96 2
+		memcpy2(&nSessionID,pPacket+1,sizeof(nSessionID));
+		if ( (m_nSessionID && nSessionID == m_nSessionID) || pPacket[0] == MMP_HELLO)
+d247 1
+a247 1
+			ASSERT ( false );
+d267 1
+a267 1
+			WriteFileInfo(cur_file,packet);
+@
+
+
+1.51
+log
+@Removed processing of unsupported limitless upload.
+@
+text
+@d51 1
+a51 2
+	if (m_pSocket)
+		delete m_pSocket;
+d77 2
+a78 5
+	if (m_pSocket)
+	{
+		delete m_pSocket;
+		m_pSocket = NULL;
+	}
+d83 1
+a83 1
+	for (int i = 0; i!= m_SendSearchList.GetSize(); i++)
+d86 1
+a86 1
+	};
+d158 1
+a158 1
+			m_nSessionID = rand();
+d226 1
+a226 1
+	packet->WriteByte(nCount);
+d237 1
+a237 1
+	packet->WriteByte(nCount);
+d282 1
+a282 1
+	packet->WriteByte(nCount);
+d290 1
+a290 1
+	packet->WriteByte(nCount);
+a300 1
+		{
+a301 1
+		}
+a302 1
+		{
+a303 1
+		}
+d515 4
+a518 4
+		uint16 results = g_App.m_pSearchList->GetFoundFiles(MMS_SEARCHID);
+		if (results > MAXRESULTS)
+			results = MAXRESULTS;
+		m_SendSearchList.SetSize(results);
+d522 2
+a523 2
+		packet->WriteByte(results);
+		for (int i = 0; i != results; i++)
+d526 1
+a526 1
+			m_SendSearchList[i] = cur_file;
+d529 1
+a529 1
+			packet->WriteInt(cur_file->GetFileSize());
+d641 2
+a642 2
+	packet->WriteShort((nRawDataSize-nPos)*g_App.m_pPrefs->GetTrafficOMeterInterval());
+	packet->WriteShort(min(nWidth, nRawDataSize));
+d672 4
+a675 4
+	packet->WriteInt(selFile->GetFileSize());
+	packet->WriteInt(selFile->GetTransferred());
+	packet->WriteInt(selFile->GetCompletedSize());
+	packet->WriteShort(selFile->GetDataRate()/100);
+@
+
+
+1.50
+log
+@Removed processing of unsupported limitless upload; Unicode corrections;
+Some optimization of calculations; Reduced H-files dependency;
+Formatting and type casting.
+@
+text
+@d491 1
+a491 1
+	packet->WriteShort((g_App.m_pPrefs->GetMaxUpload() == UNLIMITED) ? 0 : (g_App.m_pPrefs->GetMaxUpload() / 10));
+@
+
+
+1.49
+log
+@Corrected comment.
+@
+text
+@d18 2
+a19 1
+#include "StdAfx.h"
+d21 3
+a23 1
+#include "emule.h"
+d71 1
+a71 1
+			g_App.m_pMDlg->AddLogLine(false, GetResString(IDS_MMSTARTED), g_App.m_pPrefs->GetMMPort(), MM_STRVERSION);
+d147 1
+a147 1
+				AddLogLine(false, RGB_LOG_WARNING + GetResString(IDS_MM_LOGIN_WARNING));
+d160 1
+a160 1
+			AddLogLine(false, RGB_LOG_NOTICE + GetResString(IDS_MM_SUCCESS_LOGIN));
+d165 1
+a165 1
+			packet->WriteShort((g_App.m_pPrefs->GetMaxUpload() == UNLIMITED) ? 0 : (g_App.m_pPrefs->GetMaxUpload() / 10));
+d231 1
+a231 2
+	EnumCategories eCatID = CAT_ALL;
+	packet->WriteString(CCat::GetPredefinedCatTitle(eCatID));
+d287 1
+a287 2
+	EnumCategories eCatID = CAT_ALL;
+	packet->WriteString(CCat::GetPredefinedCatTitle(eCatID));
+d484 1
+a484 4
+	if (uNewUpload != UNLIMITED)
+		g_App.m_pPrefs->SetMaxUploadWithCheck(uNewUpload * 10);
+	else
+		g_App.m_pPrefs->SetMaxUpload(uNewUpload);
+a557 1
+	EnumCategories   eCatID = CAT_NONE;
+d559 1
+a559 1
+	g_App.m_pDownloadQueue->AddSearchToDownload(todownload, eCatID, g_App.m_pPrefs->StartDownloadPaused());
+d592 1
+a592 1
+CString CMMServer::GetContentType()
+d594 1
+a594 4
+	if (m_bUseFakeContent)
+		return CString("image/vnd.wap.wbmp");
+	else
+		return CString("application/octet-stream");
+d602 5
+a606 3
+		KillTimer(0,g_App.m_pMMServer->h_timer);
+		g_App.m_pMMServer->h_timer = 0;
+		switch(g_App.m_pMMServer->m_byPendingCommand)
+d608 12
+a619 1
+			case MMT_SDPC:
+d621 1
+a621 17
+				HANDLE hToken;
+				TOKEN_PRIVILEGES tkp;	// Get a token for this process.
+				try
+				{
+					if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken))
+						throw;
+					LookupPrivilegeValue(NULL, SE_SHUTDOWN_NAME, &tkp.Privileges[0].Luid);
+					tkp.PrivilegeCount = 1;  // one privilege to set
+					tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;	// Get the shutdown privilege for this process.
+					AdjustTokenPrivileges(hToken, FALSE, &tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
+				}
+				catch(...)
+				{
+					g_App.m_pMDlg->AddLogLine(true, RGB_LOG_NOTICE + GetResString(IDS_WEB_SHUTDOWN) + _T(' ') + GetResString(IDS_FAILED));
+				}
+				if (!ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCE, 0))
+					break;
+d623 1
+a623 6
+			case MMT_SDEMULE:
+				g_App.m_app_state = g_App.APP_STATE_SHUTINGDOWN;
+				SendMessage(g_App.m_pMDlg->m_hWnd,WM_CLOSE,0,0);
+				break;
+			case MMT_SEARCH:
+				g_App.m_pMMServer->SearchFinished(true);
+d626 9
+d645 1
+a645 1
+	int nAddUp, nAddDown, nAddCon, i;
+d669 4
+a672 3
+		packet->WriteInt(ROUND(nAddUp/i));
+		packet->WriteInt(ROUND(nAddDown/i));
+		packet->WriteShort(ROUND(nAddCon/i));
+d674 1
+a674 1
+	ASSERT ( nPos == nRawDataSize );
+d697 1
+a697 1
+	packet->WriteShort(dwPartCnt);
+@
+
+
+1.48
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d211 1
+a211 1
+//	Kademlia isn't supported in ePlus - inform the MobileMule client
+@
+
+
+1.47
+log
+@renamed 3 variables
+@
+text
+@d58 1
+a58 1
+	if (g_App.g_pPrefs->IsMMServerEnabled() && !m_pSocket)
+d68 1
+a68 1
+			g_App.m_pMDlg->AddLogLine(false, GetResString(IDS_MMSTARTED), g_App.g_pPrefs->GetMMPort(), MM_STRVERSION);
+d135 1
+a135 1
+		if ( (md4cmp(MD5Sum(strPlainPW, abyteDigest), g_App.g_pPrefs->GetMMPass(abytePass)) != 0) ||
+d161 3
+a163 3
+			packet->WriteString(g_App.g_pPrefs->GetUserNick());
+			packet->WriteShort((g_App.g_pPrefs->GetMaxUpload() == UNLIMITED) ? 0 : (g_App.g_pPrefs->GetMaxUpload() / 10));
+			packet->WriteShort((g_App.g_pPrefs->GetMaxDownload() == UNLIMITED) ? 0 : (g_App.g_pPrefs->GetMaxDownload() / 10));
+d177 1
+a177 1
+	packet->WriteShort((uint16)((g_App.g_pPrefs->GetMaxGraphUploadRate()*1024)/1000));
+d179 1
+a179 1
+	packet->WriteShort((uint16)((g_App.g_pPrefs->GetMaxGraphDownloadRate()*1024)/1000));
+d346 1
+a346 1
+					if (g_App.g_pPrefs->StartDownloadPaused())
+d484 1
+a484 1
+		g_App.g_pPrefs->SetMaxUploadWithCheck(uNewUpload * 10);
+d486 1
+a486 1
+		g_App.g_pPrefs->SetMaxUpload(uNewUpload);
+d488 1
+a488 1
+		g_App.g_pPrefs->SetMaxDownloadWithCheck(uNewDownload * 10);
+d490 1
+a490 1
+		g_App.g_pPrefs->SetMaxDownload(uNewDownload);
+d493 2
+a494 2
+	packet->WriteShort((g_App.g_pPrefs->GetMaxUpload() == UNLIMITED) ? 0 : (g_App.g_pPrefs->GetMaxUpload() / 10));
+	packet->WriteShort((g_App.g_pPrefs->GetMaxDownload() == UNLIMITED) ? 0 : (g_App.g_pPrefs->GetMaxDownload() / 10));
+d562 1
+a562 1
+	g_App.m_pDownloadQueue->AddSearchToDownload(todownload, eCatID, g_App.g_pPrefs->StartDownloadPaused());
+d654 1
+a654 1
+	packet->WriteShort((nRawDataSize-nPos)*g_App.g_pPrefs->GetTrafficOMeterInterval());
+@
+
+
+1.46
+log
+@Modified preparation of the server search request packet to make it clearer.
+@
+text
+@d58 1
+a58 1
+	if (g_eMuleApp.m_pGlobPrefs->IsMMServerEnabled() && !m_pSocket)
+d64 1
+a64 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_MMFAILED));
+d68 1
+a68 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_MMSTARTED), g_eMuleApp.m_pGlobPrefs->GetMMPort(), MM_STRVERSION);
+d135 1
+a135 1
+		if ( (md4cmp(MD5Sum(strPlainPW, abyteDigest), g_eMuleApp.m_pGlobPrefs->GetMMPass(abytePass)) != 0) ||
+d161 3
+a163 3
+			packet->WriteString(g_eMuleApp.m_pGlobPrefs->GetUserNick());
+			packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxUpload() == UNLIMITED) ? 0 : (g_eMuleApp.m_pGlobPrefs->GetMaxUpload() / 10));
+			packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxDownload() == UNLIMITED) ? 0 : (g_eMuleApp.m_pGlobPrefs->GetMaxDownload() / 10));
+d176 9
+a184 9
+	packet->WriteShort((uint16)g_eMuleApp.m_pUploadQueue->GetDataRate()/100);
+	packet->WriteShort((uint16)((g_eMuleApp.m_pGlobPrefs->GetMaxGraphUploadRate()*1024)/1000));
+	packet->WriteShort((uint16)g_eMuleApp.m_pDownloadQueue->GetDataRate()/100);
+	packet->WriteShort((uint16)((g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate()*1024)/1000));
+	packet->WriteByte((byte)g_eMuleApp.m_pDownloadQueue->GetTransferringFiles());
+	packet->WriteByte((byte)g_eMuleApp.m_pDownloadQueue->GetPausedFileCount());
+	packet->WriteInt(g_eMuleApp.stat_sessionReceivedBytes/1048576);
+	packet->WriteShort((uint16)((g_eMuleApp.m_pdlgEmule->m_dlgStatistics.GetAvgDownloadRate(0)*1024)/100));
+	if (g_eMuleApp.m_pServerConnect->IsConnected())
+d186 1
+a186 1
+		if(g_eMuleApp.m_pServerConnect->IsLowID())
+d193 1
+a193 1
+		if ((pCurServer = g_eMuleApp.m_pServerConnect->GetCurrentServer()) != NULL)
+d235 1
+a235 1
+	nCount = g_eMuleApp.m_pDownloadQueue->GetFileCount();
+d243 1
+a243 1
+		CPartFile* cur_file = g_eMuleApp.m_pDownloadQueue->GetFileByIndex(i);
+d320 1
+a320 1
+		|| !g_eMuleApp.m_pDownloadQueue->IsInDLQueue(m_SentFileList[byFileIndex]))
+d346 2
+a347 2
+					if (g_eMuleApp.m_pGlobPrefs->StartDownloadPaused())
+						g_eMuleApp.m_pDownloadQueue->StartNextFile(CCat::GetAllCatType());
+d351 1
+a351 1
+					g_eMuleApp.m_pdlgEmule->m_wndTransfer.UpdateCatTabTitles();
+d369 1
+a369 1
+		|| !g_eMuleApp.m_pDownloadQueue->IsInDLQueue(m_SentFileList[byFileIndex]))
+d397 1
+a397 1
+			g_eMuleApp.m_pServerConnect->ConnectToAnyServer();
+d421 1
+a421 1
+	if (!g_eMuleApp.m_pServerConnect->IsConnected())
+d468 2
+a469 2
+	g_eMuleApp.m_pSearchList->NewSearch(NULL, strLocalSearchType , MMS_SEARCHID, true);
+	g_eMuleApp.m_pdlgEmule->m_dlgSearch.DoNewSearch(strSearch, strLocalSearchType, 0, 0, 0, _T(""), false, _T(""), MMS_SEARCHID);
+d484 1
+a484 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxUploadWithCheck(uNewUpload * 10);
+d486 1
+a486 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxUpload(uNewUpload);
+d488 1
+a488 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxDownloadWithCheck(uNewDownload * 10);
+d490 1
+a490 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxDownload(uNewDownload);
+d493 2
+a494 2
+	packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxUpload() == UNLIMITED) ? 0 : (g_eMuleApp.m_pGlobPrefs->GetMaxUpload() / 10));
+	packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxDownload() == UNLIMITED) ? 0 : (g_eMuleApp.m_pGlobPrefs->GetMaxDownload() / 10));
+d516 1
+a516 1
+	else if (g_eMuleApp.m_pSearchList->GetFoundFiles(MMS_SEARCHID) == 0)
+d525 1
+a525 1
+		uint16 results = g_eMuleApp.m_pSearchList->GetFoundFiles(MMS_SEARCHID);
+d535 1
+a535 1
+			CSearchFile* cur_file = g_eMuleApp.m_pSearchList->DetachNextFile(MMS_SEARCHID);
+d542 1
+a542 1
+		g_eMuleApp.m_pdlgEmule->m_dlgSearch.DeleteSearch(MMS_SEARCHID);
+d562 1
+a562 1
+	g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(todownload, eCatID, g_eMuleApp.m_pGlobPrefs->StartDownloadPaused());
+d566 1
+a566 1
+	if (g_eMuleApp.m_pDownloadQueue->GetFileByID(todownload->GetFileHash()) != NULL)
+d608 3
+a610 3
+		KillTimer(0,g_eMuleApp.m_pMMServer->h_timer);
+		g_eMuleApp.m_pMMServer->h_timer = 0;
+		switch(g_eMuleApp.m_pMMServer->m_byPendingCommand)
+d627 1
+a627 1
+					g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_NOTICE + GetResString(IDS_WEB_SHUTDOWN) + _T(' ') + GetResString(IDS_FAILED));
+d633 2
+a634 2
+				g_eMuleApp.m_app_state = g_eMuleApp.APP_STATE_SHUTINGDOWN;
+				SendMessage(g_eMuleApp.m_pdlgEmule->m_hWnd,WM_CLOSE,0,0);
+d637 1
+a637 1
+				g_eMuleApp.m_pMMServer->SearchFinished(true);
+d646 1
+a646 1
+	CArray<UpDown, UpDown>* rawData = g_eMuleApp.m_pWebServer->GetPointsForWeb();
+d654 1
+a654 1
+	packet->WriteShort((nRawDataSize-nPos)*g_eMuleApp.m_pGlobPrefs->GetTrafficOMeterInterval());
+@
+
+
+1.45
+log
+@Optimized GetCurrentServer() calls (cache value for consecutive usage).
+@
+text
+@d469 1
+a469 1
+	g_eMuleApp.m_pdlgEmule->m_dlgSearch.DoNewSearch(strSearch, strLocalSearchType, 0, 0, -1, _T(""), false, _T(""), MMS_SEARCHID);
+@
+
+
+1.44
+log
+@Fractional upload/download limits (min 1 KB/s, granularity 0.1 KB/s);
+Corrected speed configuration (possible speed limits weren't check in many places).
+@
+text
+@d190 4
+a193 1
+		if (g_eMuleApp.m_pServerConnect->GetCurrentServer() != NULL)
+d195 2
+a196 2
+			packet->WriteInt(g_eMuleApp.m_pServerConnect->GetCurrentServer()->GetNumUsers());
+			packet->WriteString(g_eMuleApp.m_pServerConnect->GetCurrentServer()->GetListName());
+@
+
+
+1.43
+log
+@Final stage of MD5 changes (MobileMule code).
+@
+text
+@d162 2
+a163 2
+			packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxUpload() == UNLIMITED) ? 0 : g_eMuleApp.m_pGlobPrefs->GetMaxUpload());
+			packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxDownload() == UNLIMITED) ? 0 : g_eMuleApp.m_pGlobPrefs->GetMaxDownload());
+d177 1
+a177 1
+	packet->WriteShort((uint16)((g_eMuleApp.m_pGlobPrefs->GetMaxGraphUploadRate()*1024)/100));
+d179 1
+a179 1
+	packet->WriteShort((uint16)((g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate()*1024)/100));
+d477 11
+a487 4
+	uint16 nNewUpload = data->ReadShort();
+	uint16 nNewDownload = data->ReadShort();
+	g_eMuleApp.m_pGlobPrefs->SetMaxUpload(nNewUpload);
+	g_eMuleApp.m_pGlobPrefs->SetMaxDownload(nNewDownload);
+d490 2
+a491 2
+	packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxUpload() == UNLIMITED) ? 0 : g_eMuleApp.m_pGlobPrefs->GetMaxUpload());
+	packet->WriteShort((g_eMuleApp.m_pGlobPrefs->GetMaxDownload() == UNLIMITED) ? 0 : g_eMuleApp.m_pGlobPrefs->GetMaxDownload());
+@
+
+
+1.42
+log
+@MD5 optimization.
+@
+text
+@d132 1
+a132 1
+		byte	abyteDigest[16];
+d135 2
+a136 2
+		if ( (HashToString(MD5Sum(strPlainPW, abyteDigest)) != g_eMuleApp.m_pGlobPrefs->GetMMPass()) ||
+			(strPlainPW.GetLength() == 0) )
+@
+
+
+1.41
+log
+@MobileMule: localization of some login messages.
+@
+text
+@d42 1
+a42 2
+	m_bGrabListLogin =false;
+
+d132 5
+a136 3
+		CString plainPW = data->ReadString();
+		CString testValue = MD5Sum(plainPW).GetHash();
+		if (testValue != g_eMuleApp.m_pGlobPrefs->GetMMPass() || plainPW.GetLength() == 0 )
+@
+
+
+1.40
+log
+@Fixed GUI update after file deletion from Web Server and MobileMule {reported by Fuxie - DK}.
+@
+text
+@d65 1
+a65 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_MMFAILED) );
+d69 1
+a69 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_MMSTARTED), g_eMuleApp.m_pGlobPrefs->GetMMPort(), MM_STRVERSION );
+d134 1
+a134 1
+		CString testValue =MD5Sum(plainPW).GetHash();
+d143 1
+a143 1
+				AddLogLine(false, RGB_LOG_NOTICE + _T("3 failed logins for MobileMule logged - any further attempt is blocked for 10 min!"));
+d155 2
+a156 2
+		//	Everything is ok, new sessionid
+			AddLogLine(false, RGB_LOG_NOTICE + _T("New user successfully logged into MobileMule-Server"));
+@
+
+
+1.39
+log
+@Updated MobileMule protocol up to v0.9a.
+@
+text
+@a164 1
+
+a165 1
+
+d341 3
+d347 1
+a348 4
+				default:
+					if (g_eMuleApp.m_pGlobPrefs->StartDownloadPaused())
+						g_eMuleApp.m_pDownloadQueue->StartNextFile(CCat::GetAllCatType());
+					selFile->DeleteFile();
+a358 1
+
+@
+
+
+1.38
+log
+@optimized datarate calcualtion for UL queue, removed unneeded code
+@
+text
+@d693 1
+a693 6
+//	Current protocol version doesn't allow to send status of more than 255 chunks;
+//	Send status only of the first 255 chunks if file size is more than 2.3 Gb
+	if (dwPartCnt > 255)
+		dwPartCnt = 255;
+
+	packet->WriteByte(dwPartCnt);
+@
+
+
+1.37
+log
+@Fixed issue with MM and starting downloads paused
+@
+text
+@d177 1
+a177 1
+	packet->WriteShort((uint16)g_eMuleApp.m_pUploadQueue->GetDataRateShown()/100);
+@
+
+
+1.36
+log
+@Fixed display of complete files in their categories.
+@
+text
+@d542 1
+d550 1
+d553 3
+a555 1
+	g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(todownload, eCatID);
+d557 1
+@
+
+
+1.35
+log
+@more correct "all cat" title used
+@
+text
+@d301 1
+a301 1
+		if  (pPartFile != NULL && pPartFile->IsPartFile())
+@
+
+
+1.34
+log
+@Fixed sending incorrect MobileMule status packet when file size > 2.3 Gb;
+Optimization of MobileMule status packet preparation.
+@
+text
+@d226 2
+a227 1
+	packet->WriteString(CCat::GetPredefinedCatTitle(CCat::GetAllCatType()));
+d283 2
+a284 1
+	packet->WriteString(CCat::GetPredefinedCatTitle(CCat::GetAllCatType()));
+@
+
+
+1.33
+log
+@Formating of Light template, minor changes
+MM code fixes
+@
+text
+@d683 11
+a693 7
+	byte	*parts = selFile->MMCreatePartStatus();
+	packet->WriteByte(selFile->GetPartCount());
+	for (int i = 0; i != selFile->GetPartCount(); i++)
+	{
+		packet->WriteByte(parts[i]);
+	}
+	delete[] parts;
+@
+
+
+1.32
+log
+@fixed category bug in MM code but it still doesn't work in release mode :(
+@
+text
+@d226 1
+a226 1
+	packet->WriteString(CCat::GetPredefinedCatTitle(CAT_ALL));
+d282 1
+a282 1
+	packet->WriteString(CCat::GetPredefinedCatTitle(CAT_ALL));
+d548 2
+a549 1
+	g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(todownload,CAT_NONE);
+@
+
+
+1.31
+log
+@updated MobileMule up to 0.8a
+@
+text
+@a217 1
+
+d237 1
+a237 1
+	for (int i = 0; i != nCount; i++)
+d259 1
+d261 1
+a261 1
+		packet->WriteByte(static_cast<byte>(cur_file->GetCatID()));
+d290 1
+a290 1
+	for (int i = 0; i != nCount; i++)
+d300 3
+a302 1
+			packet->WriteByte(static_cast<byte>(pPartFile->GetCatID()));
+d304 1
+d306 1
+d429 1
+a429 1
+	UINT	dwStringID;
+a432 3
+		case 0:
+			dwStringID = IDS_SEARCH_ANY;
+			break;
+a447 3
+		default:
+			ASSERT ( false );
+			dwStringID = IDS_SEARCH_ANY;
+@
+
+
+1.30
+log
+@Improved string processing
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2003 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d22 2
+a23 2
+#include "md5sum.h"
+#include "searchdlg.h"
+d38 1
+d40 3
+d152 4
+a155 1
+			// everything ok, new sessionid
+a163 1
+			//sender->SendPacket(packet);
+d177 1
+a177 1
+	packet->WriteShort((uint16)g_eMuleApp.m_pUploadQueue->GetDataRate()/100);
+d209 4
+d224 2
+a225 1
+	int nCount = CCat::GetNumCats();
+d227 2
+a228 1
+	for (int i = 0; i != nCount; i++)
+d230 1
+a230 1
+		packet->WriteString(CCat::GetCatByIndex(i)->GetTitle());
+d233 3
+a235 1
+	nCount = (g_eMuleApp.m_pDownloadQueue->GetFileCount() > 30)? 30 : g_eMuleApp.m_pDownloadQueue->GetFileCount();
+d240 1
+a240 1
+		// while this is not the fastest method the trace this list, it's not timecritical here
+d251 1
+a251 1
+		if (cur_file->GetStatus(false) == PS_PAUSED || cur_file->GetStatus(false) == PS_STOPPED)
+d261 11
+a271 1
+		packet->WriteByte(cur_file->GetCatID());
+d278 3
+a280 2
+	CMMPacket* packet = new CMMPacket(MMP_FINISHEDANS);
+	int nCount = CCat::GetNumCats();
+d282 2
+a283 1
+	for (int i = 0; i != nCount; i++)
+d285 1
+a285 1
+		packet->WriteString(CCat::GetCatByIndex(i)->GetTitle());
+d292 2
+a293 1
+		CKnownFile* cur_file = m_SentFinishedList[i];
+d296 5
+a300 3
+		CPartFile *pPartFile = dynamic_cast<CPartFile*>(cur_file);
+		if  (pPartFile != NULL)
+			packet->WriteByte(pPartFile->GetCatID());
+d371 1
+a371 22
+	uint32 test = selFile->GetFileSize();
+	packet->WriteInt(selFile->GetFileSize());
+	packet->WriteInt(selFile->GetTransferred());
+	packet->WriteInt(selFile->GetCompletedSize());
+	packet->WriteShort(selFile->GetDataRate()/100);
+	packet->WriteShort(selFile->GetSourceCount());
+	packet->WriteShort(selFile->GetTransferringSrcCount());
+	if (selFile->IsAutoPrioritized())
+	{
+		packet->WriteByte(4);
+	}
+	else
+	{
+		packet->WriteByte(selFile->GetPriority());
+	}
+	byte* parts = selFile->MMCreatePartStatus();
+	packet->WriteByte(selFile->GetPartCount());
+	for (int i = 0; i != selFile->GetPartCount(); i++)
+	{
+		packet->WriteByte(parts[i]);
+	}
+	delete[] parts;
+d414 9
+d425 1
+a425 1
+	CString	strLocalSearchType;
+d427 1
+a427 1
+	switch(byType)
+d430 1
+a430 1
+			strLocalSearchType = GetResString(IDS_SEARCH_ANY);
+d433 1
+a433 1
+			strLocalSearchType = GetResString(IDS_SEARCH_ARC);
+d436 1
+a436 1
+			strLocalSearchType = GetResString(IDS_SEARCH_AUDIO);
+d439 1
+a439 1
+			strLocalSearchType = GetResString(IDS_SEARCH_CDIMG);
+d442 1
+a442 1
+			strLocalSearchType = GetResString(IDS_SEARCH_PRG);
+d445 1
+a445 1
+			strLocalSearchType = GetResString(IDS_SEARCH_VIDEO);
+d449 1
+a449 1
+			strLocalSearchType = GetResString(IDS_SEARCH_ANY);
+d452 1
+a452 1
+	bool bServerError = false;
+d454 2
+a455 23
+	if (!g_eMuleApp.m_pServerConnect->IsConnected())
+	{
+		CMMPacket	   *packet = new CMMPacket(MMP_SEARCHANS);
+
+		packet->WriteByte(MMT_NOTCONNECTED);
+		sender->SendPacket(packet);
+		return;
+	}
+
+	CSafeMemFile searchdata(100);
+//	if (!GetSearchPacket(searchdata, strSearch, strLocalSearchType, 0, 0, -1, "", false) || searchdata.GetLength() == 0)
+//	{
+//		bServerError = true;
+//	}
+//	else
+//	{
+		h_timer = SetTimer(0,0,20000,CommandTimer);
+		if (!h_timer)
+		{
+			bServerError = true;
+		}
+//	}
+	if (bServerError)
+d468 1
+d470 1
+a470 7
+	Packet	   *searchpacket = new Packet(&searchdata);
+
+	searchpacket->m_eOpcode = OP_SEARCHREQUEST;
+	g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(searchpacket->m_dwSize);
+	g_eMuleApp.m_pServerConnect->SendPacket(searchpacket,true);
+
+	char		buffer[500];
+d530 1
+a530 1
+			packet->WriteShort( cur_file->GetSourceCount() );
+d534 1
+a534 1
+		g_eMuleApp.m_pSearchList->RemoveResults(MMS_SEARCHID);
+d563 1
+d566 6
+a571 6
+	byte byFileType = data->ReadByte();
+	byte byFileIndex = data->ReadByte();
+	uint16 nDisplayWidth = data->ReadShort();
+	byte nNumber = data->ReadByte();
+	CKnownFile* knownfile;
+	bool bError = false;
+d573 3
+a575 1
+	if (byFileType == MMT_PARTFILFE)
+d577 1
+a577 17
+		if (byFileIndex >= m_SentFileList.GetSize()
+		|| !g_eMuleApp.m_pDownloadQueue->IsInDLQueue(m_SentFileList[byFileIndex]))
+		{
+			bError = true;
+		}
+		else
+			knownfile = m_SentFileList[byFileIndex];
+			}
+	else if (byFileType == MMT_FINISHEDFILE)
+	{
+		if (byFileIndex >= m_SentFinishedList.GetSize()
+		|| !g_eMuleApp.m_pKnownFilesList->IsKnownFile(m_SentFinishedList[byFileIndex]))
+		{
+			bError = true;
+		}
+		else
+			knownfile = m_SentFinishedList[byFileIndex];
+d579 9
+d589 8
+a596 5
+	if (!bError)
+	{
+		if (h_timer != 0)
+					bError = true;
+		else
+d598 1
+a598 2
+			h_timer = SetTimer(0,0,20000,CommandTimer);
+			if (!h_timer)
+d600 17
+a616 10
+				bError = true;
+			}
+			else
+			{
+				if (nDisplayWidth > 140)
+					nDisplayWidth = 140;
+				m_byPendingCommand = MMT_PREVIEW;
+				m_pPendingCommandSocket = sender;
+				//if (!knownfile->GrabImage(1,(nNumber+1)*50.0,true,nDisplayWidth,this))
+				//	PreviewFinished(NULL,0);
+d618 7
+d626 1
+a626 9
+	}
+
+	if (bError)
+	{
+		CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+		sender->SendPacket(packet);
+		ASSERT ( false );
+		return;
+	}
+d668 1
+a668 3
+
+
+void CMMServer::PreviewFinished(CxImage** imgFrames, byte nCount)
+d670 7
+a676 1
+	if (h_timer != 0)
+d678 1
+a678 29
+		KillTimer(0,h_timer);
+		h_timer = 0;
+	}
+	if (m_byPendingCommand != MMT_PREVIEW)
+		return;
+	m_byPendingCommand = 0;
+	if (m_pPendingCommandSocket == NULL)
+		return;
+
+	CMMPacket* packet = new CMMPacket(MMP_PREVIEWANS);
+	if (imgFrames != NULL && nCount != 0)
+	{
+		packet->WriteByte(MMT_OK);
+		CxImage* cur_frame = imgFrames[0];
+		if (cur_frame == NULL)
+		{
+			ASSERT ( false );
+			return;
+		}
+		BYTE* abyResultBuffer = NULL;
+		long nResultSize = 0;
+	//	if (!cur_frame->Encode(abyResultBuffer, nResultSize, CXIMAGE_FORMAT_PNG))
+	//	{
+	//		ASSERT ( false );
+	//		return;
+	//	}
+		packet->WriteInt(nResultSize);
+		packet->m_pBuffer->Write(abyResultBuffer, nResultSize);
+		free(abyResultBuffer);
+d682 1
+a682 1
+		packet->WriteByte(MMT_FAILED);
+d684 3
+a686 8
+
+	m_pPendingCommandSocket->SendPacket(packet);
+	m_pPendingCommandSocket = NULL;
+}
+
+void CMMServer::Process()
+{
+	if (m_pSocket)
+d688 1
+a688 1
+		m_pSocket->Process();
+d690 1
+a690 51
+}
+
+CString CMMServer::GetContentType()
+{
+	if (m_bUseFakeContent)
+		return CString("image/vnd.wap.wbmp");
+	else
+		return CString("application/octet-stream");
+}
+
+VOID CALLBACK CMMServer::CommandTimer(HWND hwnd, UINT uMsg,UINT_PTR idEvent,DWORD dwTime)
+{
+	// NOTE: Always handle all type of MFC exceptions in TimerProcs - otherwise we'll get mem leaks
+	//try
+	//{
+		KillTimer(0,g_eMuleApp.m_pMMServer->h_timer);
+		g_eMuleApp.m_pMMServer->h_timer = 0;
+		switch(g_eMuleApp.m_pMMServer->m_byPendingCommand)
+		{
+			case MMT_SDPC:
+			{
+				HANDLE hToken;
+				TOKEN_PRIVILEGES tkp;	// Get a token for this process.
+				try
+				{
+					if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken))
+						throw;
+					LookupPrivilegeValue(NULL, SE_SHUTDOWN_NAME, &tkp.Privileges[0].Luid);
+					tkp.PrivilegeCount = 1;  // one privilege to set
+					tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED;	// Get the shutdown privilege for this process.
+					AdjustTokenPrivileges(hToken, FALSE, &tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0);
+					ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCE, 0);
+				}
+				catch(...)
+				{
+					g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_NOTICE + GetResString(IDS_WEB_SHUTDOWN) + _T(' ') + GetResString(IDS_FAILED));
+				}
+			}
+			case MMT_SDEMULE:
+				g_eMuleApp.m_app_state = g_eMuleApp.APP_STATE_SHUTINGDOWN;
+				SendMessage(g_eMuleApp.m_pdlgEmule->m_hWnd,WM_CLOSE,0,0);
+				break;
+			case MMT_SEARCH:
+				g_eMuleApp.m_pMMServer->SearchFinished(true);
+				break;
+			case MMT_PREVIEW:
+				g_eMuleApp.m_pMMServer->PreviewFinished(NULL,0);
+				break;
+		}
+	//}
+	//CATCH_DFLT_EXCEPTIONS("CMMServer::CommandTimer")
+@
+
+
+1.29
+log
+@formatting & optimisation
+@
+text
+@d759 1
+a759 1
+					g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_NOTICE + GetResString(IDS_WEB_SHUTDOWN) + _T(" ") + GetResString(IDS_FAILED));
+@
+
+
+1.28
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d47 2
+a48 1
+	if (h_timer != NULL){
+d53 4
+a56 2
+void CMMServer::Init(){
+	if (g_eMuleApp.m_pGlobPrefs->IsMMServerEnabled() && !m_pSocket){
+d58 2
+a59 1
+		if (!m_pSocket->Create()){
+d63 2
+a64 1
+		else{
+d70 4
+a73 2
+void CMMServer::StopServer(){
+	if (m_pSocket){
+d79 4
+a82 2
+void CMMServer::DeleteSearchFiles(){
+	for (int i = 0; i!= m_SendSearchList.GetSize(); i++){
+d88 4
+a91 2
+bool CMMServer::PreProcessPacket(char* pPacket, uint32 nSize, CMMSocket* sender){
+	if (nSize >= 3){
+d94 2
+a95 1
+		if ( (m_nSessionID && nSessionID == m_nSessionID) || pPacket[0] == MMP_HELLO){
+d98 2
+a99 1
+		else{
+d106 1
+a106 1
+	
+d112 2
+a113 1
+void CMMServer::ProcessHelloPacket(CMMData* data, CMMSocket* sender){
+d115 2
+a116 1
+	if (data->ReadByte() != MM_VERSION){
+d121 4
+a124 2
+	else{
+		if(m_dwBlocked && m_dwBlocked > ::GetTickCount()){
+d131 2
+a132 1
+		if (testValue != g_eMuleApp.m_pGlobPrefs->GetMMPass() || plainPW.GetLength() == 0 ){
+d137 2
+a138 1
+			if (m_cPWFailed == 3){
+d145 3
+a147 2
+		else{
+			m_bUseFakeContent = (data->ReadByte() != 0); 
+d164 2
+a165 1
+void CMMServer::ProcessStatusRequest(CMMSocket* sender, CMMPacket* packet){
+d179 2
+a180 1
+	if (g_eMuleApp.m_pServerConnect->IsConnected()){
+d196 2
+a197 1
+	else{
+d206 3
+a208 2
+void CMMServer::ProcessFileListRequest(CMMSocket* sender, CMMPacket* packet){
+	
+d213 1
+a213 1
+	
+d252 2
+a253 1
+void CMMServer::ProcessFinishedListRequest(CMMSocket* sender){
+d278 2
+a279 1
+void CMMServer::ProcessFileCommand(CMMData* data, CMMSocket* sender){
+d288 1
+a288 1
+		return;		
+d291 2
+a292 1
+	switch (byCommand){
+d299 8
+a306 6
+		case MMT_CANCEL:{
+			switch(selFile->GetStatus()) { 
+				case PS_WAITINGFORHASH: 
+				case PS_HASHING: 
+				case PS_COMPLETING: 
+				case PS_COMPLETE:  
+d310 1
+a310 1
+					selFile->DeleteFile(); 
+d313 1
+a313 1
+					if (g_eMuleApp.m_pGlobPrefs->StartDownloadPaused()) 
+d315 1
+a315 1
+					selFile->DeleteFile(); 
+d325 1
+a325 1
+	ProcessFileListRequest(sender,packet); 
+d329 2
+a330 1
+void  CMMServer::ProcessDetailRequest(CMMData* data, CMMSocket* sender){
+d338 1
+a338 1
+		return;		
+d349 2
+a350 1
+	if (selFile->IsAutoPrioritized()){
+d353 2
+a354 1
+	else{
+d367 2
+a368 1
+void  CMMServer::ProcessCommandRequest(CMMData* data, CMMSocket* sender){
+d372 2
+a373 1
+	switch(byCommand){
+d386 2
+a387 1
+	if (bSuccess){
+d393 2
+a394 1
+	else{
+d402 2
+a403 1
+void  CMMServer::ProcessSearchRequest(CMMData* data, CMMSocket* sender){
+d405 7
+a411 4
+	CString strSearch = data->ReadString();
+	byte byType = data->ReadByte();
+	CString strLocalSearchType;
+	switch(byType){
+d437 4
+a440 2
+	if (!g_eMuleApp.m_pServerConnect->IsConnected()){
+		CMMPacket* packet = new CMMPacket(MMP_SEARCHANS);
+d447 6
+a452 4
+	//if (!GetSearchPacket(searchdata, strSearch, strLocalSearchType, 0, 0, -1, "", false) || searchdata.GetLength() == 0){
+	//	bServerError = true;
+	//}
+	//else{
+d454 2
+a455 1
+		if (!h_timer){
+d457 6
+a462 4
+	//	}
+	}
+	if (bServerError){
+		CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+d472 3
+a474 1
+	Packet* searchpacket = new Packet(&searchdata);
+d478 3
+a480 1
+	char buffer[500];
+d486 2
+a487 1
+void  CMMServer::ProcessChangeLimitRequest(CMMData* data, CMMSocket* sender){
+d500 2
+a501 1
+void CMMServer::SearchFinished(bool bTimeOut){
+d503 2
+a504 1
+	if (h_timer != 0){
+d510 2
+a511 1
+	if (bTimeOut){
+d517 2
+a518 1
+	else if (g_eMuleApp.m_pSearchList->GetFoundFiles(MMS_SEARCHID) == 0){
+d524 2
+a525 1
+	else{
+d548 2
+a549 1
+void  CMMServer::ProcessDownloadRequest(CMMData* data, CMMSocket* sender){
+d556 1
+a556 1
+		return;		
+d561 2
+a562 1
+	if (g_eMuleApp.m_pDownloadQueue->GetFileByID(todownload->GetFileHash()) != NULL){
+d565 2
+a566 1
+	else{
+d572 2
+a573 1
+void  CMMServer::ProcessPreviewRequest(CMMData* data, CMMSocket* sender){
+d581 2
+a582 1
+	if (byFileType == MMT_PARTFILFE){
+d586 1
+a586 1
+			bError = true;	
+d591 2
+a592 1
+	else if (byFileType == MMT_FINISHEDFILE){
+d596 1
+a596 1
+			bError = true;	
+d602 2
+a603 1
+	if (!bError){
+d606 2
+a607 1
+		else{
+d609 2
+a610 1
+			if (!h_timer){
+d613 2
+a614 1
+			else{
+d625 2
+a626 1
+	if (bError){
+d634 2
+a635 1
+void  CMMServer::ProcessStatisticsRequest(CMMData* data, CMMSocket* sender){
+d643 1
+a643 1
+	
+d647 2
+a648 1
+	while (nPos < nRawDataSize){
+d650 4
+a653 2
+		for (i = 0; i != nCompressEvery; i++){
+			if (nPos >= nRawDataSize){
+d657 2
+a658 1
+			else{
+d675 4
+a678 2
+void CMMServer::PreviewFinished(CxImage** imgFrames, byte nCount){
+	if (h_timer != 0){
+d689 2
+a690 1
+	if (imgFrames != NULL && nCount != 0){
+d693 2
+a694 1
+		if (cur_frame == NULL){
+d696 1
+a696 1
+			return;			
+d700 5
+a704 4
+//		if (!cur_frame->Encode(abyResultBuffer, nResultSize, CXIMAGE_FORMAT_PNG)){
+//			ASSERT ( false );			
+//			return;
+//		}
+d709 2
+a710 1
+	else{
+d718 6
+a723 4
+void CMMServer::Process(){
+	if (m_pSocket){ 
+		m_pSocket->Process(); 
+	} 
+d726 2
+a727 1
+CString CMMServer::GetContentType(){
+d741 5
+a745 3
+		switch(g_eMuleApp.m_pMMServer->m_byPendingCommand){
+			case MMT_SDPC:{
+				HANDLE hToken; 
+d747 6
+a752 5
+				try {
+					if (!OpenProcessToken(GetCurrentProcess(), TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken)) 
+						throw; 
+					LookupPrivilegeValue(NULL, SE_SHUTDOWN_NAME, &tkp.Privileges[0].Luid); 
+					tkp.PrivilegeCount = 1;  // one privilege to set    
+d754 1
+a754 1
+					AdjustTokenPrivileges(hToken, FALSE, &tkp, 0, (PTOKEN_PRIVILEGES)NULL, 0); 
+d757 2
+a758 1
+				catch(...) {
+@
+
+
+1.27
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d154 2
+a155 2
+	packet->WriteByte((uint8)g_eMuleApp.m_pDownloadQueue->GetTransferringFiles());
+	packet->WriteByte((uint8)g_eMuleApp.m_pDownloadQueue->GetPausedFileCount());
+d254 2
+a255 2
+	uint8 byCommand = data->ReadByte();
+	uint8 byFileIndex = data->ReadByte();
+d301 1
+a301 1
+	uint8 byFileIndex = data->ReadByte();
+d325 1
+a325 1
+	uint8* parts = selFile->MMCreatePartStatus();
+d336 1
+a336 1
+	uint8 byCommand = data->ReadByte();
+d369 1
+a369 1
+	uint8 byType = data->ReadByte();
+d492 1
+a492 1
+	uint8 byFileIndex = data->ReadByte();
+d513 2
+a514 2
+	uint8 byFileType = data->ReadByte();
+	uint8 byFileIndex = data->ReadByte();
+d516 1
+a516 1
+	uint8 nNumber = data->ReadByte();
+d602 1
+a602 1
+void CMMServer::PreviewFinished(CxImage** imgFrames, uint8 nCount){
+@
+
+
+1.26
+log
+@Formatting, comments, and name changes.
+@
+text
+@a28 1
+#ifdef MOBILE_MULE
+a690 1
+#endif //MOBILE_MULE
+@
+
+
+1.25
+log
+@Update to MobileMule 0.7a
+@
+text
+@d164 2
+a165 1
+		if (g_eMuleApp.m_pServerConnect->GetCurrentServer() != NULL){
+d169 2
+a170 1
+		else{
+d193 2
+a194 1
+	for (int i = 0; i != nCount; i++){
+d201 2
+a202 1
+	for (int i = 0; i != nCount; i++){
+d205 2
+a206 1
+		if (cur_file == NULL){
+d216 2
+a217 1
+		else{
+d233 2
+a234 1
+	for (int i = 0; i != nCount; i++){
+d240 2
+a241 1
+	for (int i = 0; i != nCount; i++){
+d328 2
+a329 1
+	for (int i = 0; i != selFile->GetPartCount(); i++){
+d478 2
+a479 1
+		for (int i = 0; i != results; i++){
+@
+
+
+1.24
+log
+@some minor loop corrections
+@
+text
+@d26 1
+d164 1
+a164 1
+		if (g_eMuleApp.m_pServerConnect->GetCurrentServer() != NULL)
+d166 6
+d176 1
+d191 1
+a191 2
+	for (int i = 0; i < nCount; i++)
+	{
+d198 1
+a198 2
+	for (int i = 0; i < nCount; i++)
+	{
+d201 1
+a201 2
+		if (cur_file == NULL)
+		{
+d211 1
+a211 2
+		else
+		{
+d227 1
+a227 2
+	for (int i = 0; i < nCount; i++)
+	{
+d233 1
+a233 2
+	for (int i = 0; i < nCount; i++)
+	{
+d320 1
+a320 2
+	for (int i = 0; i < selFile->GetPartCount(); i++)
+	{
+d469 1
+a469 2
+		for (int i = 0; i < results; i++)
+		{
+d557 36
+@
+
+
+1.23
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d183 2
+a184 1
+	for (int i = 0; i != nCount; i++){
+d191 2
+a192 1
+	for (int i = 0; i != nCount; i++){
+d195 2
+a196 1
+		if (cur_file == NULL){
+d206 2
+a207 1
+		else{
+d223 2
+a224 1
+	for (int i = 0; i != nCount; i++){
+d230 2
+a231 1
+	for (int i = 0; i != nCount; i++){
+d318 2
+a319 1
+	for (int i = 0; i != selFile->GetPartCount(); i++){
+d468 2
+a469 1
+		for (int i = 0; i != results; i++){
+@
+
+
+1.22
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d57 1
+a57 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_RED + GetResString(IDS_MMFAILED) );
+d120 1
+a120 1
+				AddLogLine(false, RGB_PLUM + _T("3 failed logins for MobileMule logged - any further attempt is blocked for 10 min!"));
+d129 1
+a129 1
+			AddLogLine(false, RGB_PLUM + _T("New user successfully logged into MobileMule-Server"));
+d620 1
+a620 1
+					g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_PLUM + GetResString(IDS_WEB_SHUTDOWN) + _T(" ") + GetResString(IDS_FAILED));
+@
+
+
+1.21
+log
+@Added some colors to the logs...
+@
+text
+@d57 1
+a57 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_MMFAILED) );
+d120 1
+a120 1
+				AddLogLine(false, _T("<COLOR=153,51,102>3 failed logins for MobileMule logged - any further attempt is blocked for 10 min!"));
+d129 1
+a129 1
+			AddLogLine(false, _T("<COLOR=153,51,102>New user successfully logged into MobileMule-Server"));
+d620 1
+a620 1
+					g_eMuleApp.m_pdlgEmule->AddLogLine(true,_T("<COLOR=153,51,102>") + GetResString(IDS_WEB_SHUTDOWN) + _T(" ") + GetResString(IDS_FAILED));
+@
+
+
+1.20
+log
+@MobileMule Update 0.6b (>0.30C) ;-)
+@
+text
+@d57 1
+a57 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_MMFAILED) );
+d120 1
+a120 1
+				AddLogLine(false, _T("3 failed logins for MobileMule logged - any further attempt is blocked for 10 min!"));
+d129 1
+a129 1
+			AddLogLine(false, _T("New user successfully logged into MobileMule-Server"));
+d620 1
+a620 1
+					g_eMuleApp.m_pdlgEmule->AddLogLine(true,IDS_WEB_SHUTDOWN+" "+IDS_FAILED);
+@
+
+
+1.19
+log
+@mobileMule update -> 0.6a (>0.30c hey we are ahead of official mule ;-)
+@
+text
+@d127 1
+d413 2
+a414 1
+	char buffer[] = "HTTP/1.1 200 OK\r\nConnection: Close\r\nContent-Type: image/vnd.wap.wbmp\r\n";
+d590 7
+@
+
+
+1.18
+log
+@A number of robustification changes.
+@
+text
+@d120 1
+d128 1
+d133 2
+d412 1
+a412 1
+	char buffer[] = "HTTP/1.1 200 OK\r\nConnection: close\r\nContent-Type: application/octet-stream\r\n";
+d415 14
+@
+
+
+1.17
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d464 1
+a464 1
+	g_eMuleApp.m_pDownloadQueue->AddSearchToDownload(todownload,0);
+@
+
+
+1.16
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d26 1
+d82 1
+a82 1
+		memcpy(&nSessionID,pPacket+1,sizeof(nSessionID));
+@
+
+
+1.15
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d158 1
+a158 1
+			packet->WriteInt(g_eMuleApp.m_pServerConnect->GetCurrentServer()->GetUsers());
+@
+
+
+1.14
+log
+@mobileMule update -> 0.5a (0.30b)
+@
+text
+@d404 2
+a405 2
+	searchpacket->opcode = OP_SEARCHREQUEST;
+	g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(searchpacket->size);
+@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+@
+text
+@a26 9
+#ifdef	DIRECTX_SDK_AVAILABLE
+#include "AtlBase.h"
+#include "dShow.h"
+#include "Qedit.h"
+#include "./CxImage/xImage.h"
+#include <Windows.h>
+#include "quantize.h"
+#endif
+
+d157 2
+d160 1
+a160 1
+	else
+d162 3
+d174 8
+a181 1
+	int nCount = (g_eMuleApp.m_pDownloadQueue->GetFileCount() > 30)? 30 : g_eMuleApp.m_pDownloadQueue->GetFileCount();
+d204 1
+d211 7
+a217 1
+	int nCount = (m_SentFinishedList.GetCount() > 30)? 30 : m_SentFinishedList.GetCount();
+d223 5
+d412 5
+a416 1
+#define MAXRESULTS	15
+a449 4
+	if (h_timer != 0){
+		KillTimer(0,h_timer);
+		h_timer = 0;
+	}
+a474 1
+#ifdef	DIRECTX_SDK_AVAILABLE
+d478 4
+a481 1
+	CString strFileName;
+a482 2
+		bool bError = false;
+		CPartFile* partfile;
+d488 2
+a489 7
+		else{
+			partfile = m_SentFileList[byFileIndex];
+			if (!partfile->PreviewAvailable()){
+				CMMPacket* packet = new CMMPacket(MMP_PREVIEWANS);
+				packet->WriteByte(MMT_NOTAVAILABLE);
+				sender->SendPacket(packet);
+				return;
+a490 38
+
+			if (partfile->m_FileCompleteMutex.Lock(100)){
+				strFileName = RemoveFileExtension(partfile->GetFullName());
+				try{
+					if (partfile->m_hPartFile.m_hFile != INVALID_HANDLE_VALUE){
+						partfile->m_hPartFile.Close();
+					}
+				}
+				catch(CFileException* exception){
+					bError = true;
+					exception->Delete();
+					partfile->m_FileCompleteMutex.Unlock();
+				}
+			}
+		}
+
+		if (bError){
+			CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+			sender->SendPacket(packet);
+			ASSERT ( false );
+			return;
+		}
+		CMMPacket* packet = new CMMPacket(MMP_PREVIEWANS);
+		if (GrabAndWriteFrame(nDisplayWidth,strFileName,packet)){
+
+		}
+		else{
+			packet->WriteByte(MMT_FAILED);
+		}
+		sender->SendPacket(packet);
+		if (!partfile->m_hPartFile.Open(strFileName, CFile::modeReadWrite|CFile::shareDenyWrite|CFile::osSequentialScan)){
+			// uhuh, that's really bad
+			partfile->SetStatus(PS_ERROR);
+			partfile->StopFile();
+		}
+		partfile->m_FileCompleteMutex.Unlock();
+
+	}
+a491 1
+		CKnownFile* knownfile;
+d495 1
+a495 4
+			CMMPacket* packet = new CMMPacket(MMP_GENERALERROR);
+			sender->SendPacket(packet);
+			ASSERT ( false );
+			return;			
+d497 1
+a497 1
+		else{
+d499 1
+a499 2
+			strFileName = knownfile->GetPath() + CString("\\") + knownfile->GetFileName();
+		}
+d501 3
+a503 4
+		CMMPacket* packet = new CMMPacket(MMP_PREVIEWANS);
+		if (GrabAndWriteFrame(nDisplayWidth,strFileName,packet)){
+
+		}
+d505 12
+a516 1
+			packet->WriteByte(MMT_FAILED);
+d518 4
+d523 2
+a525 6
+
+#else
+	CMMPacket* packet = new CMMPacket(MMP_PREVIEWANS);
+	packet->WriteByte(MMT_NOTSUPPORTED);
+	sender->SendPacket(packet);
+#endif
+d528 10
+a537 5
+void CMMServer::Process(){
+	if (m_pSocket){ 
+		m_pSocket->Process(); 
+	} 
+}
+d539 7
+a545 102
+
+
+
+#ifdef	DIRECTX_SDK_AVAILABLE
+bool CMMServer::GrabAndWriteFrame(int nMaxWidth, CString strFileName, CMMPacket* packet)
+{
+	try{
+		WCHAR wFile[MAX_PATH];
+		MultiByteToWideChar( CP_ACP, 0, strFileName, -1, wFile, MAX_PATH );
+		// grab image
+		CComPtr<IGraphBuilder> pGraphBuilder;
+		if ( FAILED(::CoCreateInstance(CLSID_FilterGraph, NULL, CLSCTX_INPROC_SERVER, IID_IGraphBuilder, (void**)&pGraphBuilder)) )
+			return false;
+		ASSERT(pGraphBuilder != NULL);
+		CComPtr<IBaseFilter>    pGrabberBaseFilter;
+		CComPtr<ISampleGrabber> pSampleGrabber;
+		AM_MEDIA_TYPE   mt;
+		if ( FAILED(::CoCreateInstance(CLSID_SampleGrabber, NULL, CLSCTX_INPROC_SERVER, IID_IBaseFilter, (LPVOID *)&pGrabberBaseFilter)) )
+			return false;
+		pGrabberBaseFilter->QueryInterface(IID_ISampleGrabber, (void**)&pSampleGrabber);
+		if (pSampleGrabber == NULL)
+			return false;
+		if ( FAILED(pGraphBuilder->AddFilter(pGrabberBaseFilter,L"Grabber")))
+			return false;
+		ZeroMemory(&mt, sizeof(AM_MEDIA_TYPE));
+		mt.majortype = MEDIATYPE_Video;
+		mt.subtype = MEDIASUBTYPE_RGB24;
+		mt.formattype = FORMAT_VideoInfo;
+		if ( FAILED(pSampleGrabber->SetMediaType(&mt)))    
+			return false;
+		if ( FAILED(pGraphBuilder->RenderFile(wFile,NULL)))
+			return false;
+
+		CComPtr<IMediaControl> pMediaControl;
+		CComPtr<IMediaEvent> pMediaEventEx;
+		pGraphBuilder->QueryInterface(IID_IMediaControl, (void **)&pMediaControl);
+		pGraphBuilder->QueryInterface(IID_IMediaEvent, (void **)&pMediaEventEx);
+		if (pMediaControl == NULL || pMediaEventEx == NULL)
+			return false;
+		if ( FAILED(pSampleGrabber->SetBufferSamples(TRUE)) )
+			return false;
+		if ( FAILED(pSampleGrabber->SetOneShot(TRUE)) )
+			return false;
+		CComQIPtr<IMediaSeeking> pSeek = pMediaControl;
+		if (pSeek == NULL)
+			return false;
+
+		LONGLONG Duration;
+		if ( FAILED(pSeek->GetDuration(&Duration)) )
+			return false;
+		int NumSecs = int(Duration/10000000);
+
+		REFERENCE_TIME rtStart = 0;
+		REFERENCE_TIME rtStop = 0; 
+		if ( FAILED(pSeek->SetPositions(&rtStart, AM_SEEKING_AbsolutePositioning, &rtStop, AM_SEEKING_AbsolutePositioning)) )
+			return false;
+		CComQIPtr<IVideoWindow> pVideoWindow = pGraphBuilder;
+
+		if ( FAILED(pVideoWindow->put_AutoShow(OAFALSE)) )
+			return false;
+		if ( FAILED(pMediaControl->Run()) )
+			return false;
+
+		long evCode;
+		if ( FAILED(pMediaEventEx->WaitForCompletion(INFINITE, &evCode)) )
+			return false;
+		
+		AM_MEDIA_TYPE MediaType;
+		ZeroMemory(&MediaType,sizeof(MediaType));
+	
+		if ( FAILED(pSampleGrabber->GetConnectedMediaType(&MediaType)) )
+			return false;
+		VIDEOINFOHEADER *pVideoHeader = (VIDEOINFOHEADER*)MediaType.pbFormat;
+		if (pVideoHeader == NULL)
+			return false;
+
+		
+		long size = 0;
+		if ( FAILED(pSampleGrabber->GetCurrentBuffer(&size, NULL)) )
+			return false;
+		uint32 nFullBufferLen = sizeof( BITMAPFILEHEADER ) + size + sizeof( BITMAPINFOHEADER );
+		BYTE* buffer = new BYTE[nFullBufferLen];
+		
+		BITMAPFILEHEADER bfh;
+        memset( &bfh, 0, sizeof( bfh ) );
+        bfh.bfType = 'MB';
+        bfh.bfSize = nFullBufferLen;
+        bfh.bfOffBits = sizeof( BITMAPINFOHEADER ) + sizeof( BITMAPFILEHEADER );
+		memcpy(buffer,&bfh,sizeof( bfh ) );
+
+        BITMAPINFOHEADER bih;
+        memset( &bih, 0, sizeof( bih ) );
+        bih.biSize = sizeof( bih );
+        bih.biWidth = pVideoHeader->bmiHeader.biWidth;
+        bih.biHeight = pVideoHeader->bmiHeader.biHeight;
+        bih.biPlanes = 1;
+        bih.biBitCount = 24;
+		memcpy(buffer+sizeof( bfh ), &bih,sizeof( bih ) );
+
+		if ( FAILED(pSampleGrabber->GetCurrentBuffer(&size, (long*)(buffer + sizeof( bfh ) + sizeof( bih )) )) ){
+			delete[] buffer;
+			return false;
+a546 22
+
+		// resize and decrease bpp
+		CxImage pngimage;
+		pngimage.Decode(buffer, nFullBufferLen, CXIMAGE_FORMAT_BMP);
+		delete[] buffer;
+		if (!pngimage.IsValid())
+			return false;
+		
+		if (nMaxWidth > 140)
+			nMaxWidth = 140;
+		float scale = (float)nMaxWidth / pngimage.GetWidth();
+		int nMaxHeigth = pngimage.GetHeight() * scale;
+		pngimage.Resample(nMaxWidth, nMaxHeigth, 0);
+
+		CQuantizer q(256,8);
+		q.ProcessImage(pngimage.GetDIB());
+		RGBQUAD* ppal=(RGBQUAD*)malloc(256*sizeof(RGBQUAD));
+		q.SetColorTable(ppal);
+		pngimage.DecreaseBpp(8, true, ppal);
+
+
+		// convert
+d549 4
+a552 5
+		if (!pngimage.Encode(abyResultBuffer, nResultSize, CXIMAGE_FORMAT_PNG))
+			return false;
+		// pngimage.Save("G:\\testframe.png",CXIMAGE_FORMAT_PNG);
+		// done
+		packet->WriteByte(MMT_OK);
+d555 5
+a559 1
+		pngimage.Destroy();
+d561 3
+a563 3
+		free(ppal);
+		//free(abyResultBuffer);
+		return true;
+d565 4
+a568 4
+	}
+	catch(...){
+		return false;
+	}
+a569 1
+#endif
+d601 3
+@
+
+
+1.12
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@d221 1
+a221 1
+		|| !g_eMuleApp.m_pDownloadQueue->IsPartFile(m_SentFileList[byFileIndex]))
+d249 1
+a249 1
+						g_eMuleApp.m_pDownloadQueue->StartPausedDownload(CCat::GetAllCatType());
+d267 1
+a267 1
+		|| !g_eMuleApp.m_pDownloadQueue->IsPartFile(m_SentFileList[byFileIndex]))
+d469 1
+a469 1
+		|| !g_eMuleApp.m_pDownloadQueue->IsPartFile(m_SentFileList[byFileIndex]))
+@
+
+
+1.11
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d249 1
+a249 1
+						g_eMuleApp.m_pDownloadQueue->StartPausedDownload(g_eMuleApp.m_pGlobPrefs->GetAllcatType());
+@
+
+
+1.10
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d19 1
+a19 1
+#include "mmserver.h"
+d25 1
+a25 1
+#include "searchlist.h"
+d61 1
+a61 1
+	if (theApp.glob_prefs->IsMMServerEnabled() && !m_pSocket){
+d65 1
+a65 1
+			theApp.emuledlg->AddLogLine(false, GetResString(IDS_MMFAILED) );
+d68 1
+a68 1
+			theApp.emuledlg->AddLogLine(false, GetResString(IDS_MMSTARTED), theApp.glob_prefs->GetMMPort(), MM_STRVERSION );
+d122 1
+a122 1
+		if (testValue != theApp.glob_prefs->GetMMPass() || plainPW.GetLength() == 0 ){
+d138 1
+a138 1
+			packet->WriteString(theApp.glob_prefs->GetUserNick());
+d153 10
+a162 10
+	packet->WriteShort((uint16)theApp.uploadqueue->GetDataRate()/100);
+	packet->WriteShort((uint16)((theApp.glob_prefs->GetMaxGraphUploadRate()*1024)/100));
+	packet->WriteShort((uint16)theApp.downloadqueue->GetDataRate()/100);
+	packet->WriteShort((uint16)((theApp.glob_prefs->GetMaxGraphDownloadRate()*1024)/100));
+	packet->WriteByte((uint8)theApp.downloadqueue->GetTransferringFiles());
+	packet->WriteByte((uint8)theApp.downloadqueue->GetPausedFileCount());
+	packet->WriteInt(theApp.stat_sessionReceivedBytes/1048576);
+	packet->WriteShort((uint16)((theApp.emuledlg->statisticswnd.GetAvgDownloadRate(0)*1024)/100));
+	if (theApp.serverconnect->IsConnected()){
+		if(theApp.serverconnect->IsLowID())
+d178 1
+a178 1
+	int nCount = (theApp.downloadqueue->GetFileCount() > 30)? 30 : theApp.downloadqueue->GetFileCount();
+d183 1
+a183 1
+		CPartFile* cur_file = theApp.downloadqueue->GetFileByIndex(i);
+d221 1
+a221 1
+		|| !theApp.downloadqueue->IsPartFile(m_SentFileList[byFileIndex]))
+d248 2
+a249 2
+					if (theApp.glob_prefs->StartDownloadPaused()) 
+						theApp.downloadqueue->StartPausedDownload(theApp.glob_prefs->GetAllcatType());
+d267 1
+a267 1
+		|| !theApp.downloadqueue->IsPartFile(m_SentFileList[byFileIndex]))
+d311 1
+a311 1
+			theApp.serverconnect->ConnectToAnyServer();
+d360 1
+a360 1
+	if (!theApp.serverconnect->IsConnected()){
+d387 1
+a387 1
+	theApp.searchlist->NewSearch(NULL, strLocalSearchType , MMS_SEARCHID, true);
+d390 2
+a391 2
+	theApp.uploadqueue->AddUpDataOverheadServer(searchpacket->size);
+	theApp.serverconnect->SendPacket(searchpacket,true);
+d406 1
+a406 1
+	else if (theApp.searchlist->GetFoundFiles(MMS_SEARCHID) == 0){
+d413 1
+a413 1
+		uint16 results = theApp.searchlist->GetFoundFiles(MMS_SEARCHID);
+d422 1
+a422 1
+			CSearchFile* cur_file = theApp.searchlist->DetachNextFile(MMS_SEARCHID);
+d429 1
+a429 1
+		theApp.searchlist->RemoveResults(MMS_SEARCHID);
+d448 1
+a448 1
+	theApp.downloadqueue->AddSearchToDownload(todownload,0);
+d450 1
+a450 1
+	if (theApp.downloadqueue->GetFileByID(todownload->GetFileHash()) != NULL){
+d469 1
+a469 1
+		|| !theApp.downloadqueue->IsPartFile(m_SentFileList[byFileIndex]))
+d522 1
+a522 1
+		|| !theApp.knownfiles->IsKnownFile(m_SentFinishedList[byFileIndex]))
+d709 3
+a711 3
+		KillTimer(0,theApp.mmserver->h_timer);
+		theApp.mmserver->h_timer = 0;
+		switch(theApp.mmserver->m_byPendingCommand){
+d725 1
+a725 1
+					theApp.emuledlg->AddLogLine(true,IDS_WEB_SHUTDOWN+" "+IDS_FAILED);
+d729 2
+a730 2
+				theApp.m_app_state = theApp.APP_STATE_SHUTINGDOWN;
+				SendMessage(theApp.emuledlg->m_hWnd,WM_CLOSE,0,0);
+d733 1
+a733 1
+				theApp.mmserver->SearchFinished(true);
+@
+
+
+1.9
+log
+@- webserver: shutdown PC doesn't work here (netwolf) ... [FIXED] ... thanks EC
+- webserver: quickstats bar background (125px) is bigger than max bar (100px) width (Purity) ... [FIXED]
+- webserver: completed column in webserver upload list shows funny values [Mantis] (thisIsRandom) ... [FIXED]
+- mobileMule: shutdown PC doesn't work here (Purity) ... [FIXED] ... thanks EC
+@
+text
+@d153 1
+a153 1
+	packet->WriteShort((uint16)theApp.uploadqueue->GetDatarate()/100);
+d155 1
+a155 1
+	packet->WriteShort((uint16)theApp.downloadqueue->GetDatarate()/100);
+d157 1
+a157 1
+	packet->WriteByte((uint8)theApp.downloadqueue->GetTransferingFiles());
+d195 1
+a195 1
+			if (cur_file->GetTransferingSrcCount() > 0)
+d278 1
+a278 1
+	packet->WriteInt(selFile->GetTransfered());
+d280 1
+a280 1
+	packet->WriteShort(selFile->GetDatarate()/100);
+d282 1
+a282 1
+	packet->WriteShort(selFile->GetTransferingSrcCount());
+d485 2
+a486 2
+					if (partfile->m_hpartfile.m_hFile != INVALID_HANDLE_VALUE){
+						partfile->m_hpartfile.Close();
+d511 1
+a511 1
+		if (!partfile->m_hpartfile.Open(strFileName, CFile::modeReadWrite|CFile::shareDenyWrite|CFile::osSequentialScan)){
+@
+
+
+1.8
+log
+@Fixed start paused files by category (when option set or by menu)
+Removed Reset All Statistics (agreed with Eklmn that has no use and it brings problems)
+Removed Mobile Mule profile
+Localized 'All' tab when language changed
+@
+text
+@d714 2
+a715 2
+				TOKEN_PRIVILEGES tkp; 
+				try{
+d720 1
+a720 1
+					tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED; 
+d722 1
+d724 2
+a725 1
+				catch(...){
+a726 2
+				//if (!ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCEIFHUNG, 0)) 
+				//	break;
+@
+
+
+1.7
+log
+@outcommeted code not supported by emule+ ... now there are 0 warnings and 0 errors left by compiling _with_ mobilemule
+@
+text
+@d249 1
+a249 1
+						theApp.downloadqueue->StartPausedDownload();
+@
+
+
+1.6
+log
+@mobile mule 29c<>30a changes
+@
+text
+@d707 2
+a708 2
+	try
+	{
+d725 2
+a726 2
+				if (!ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCEIFHUNG, 0)) 
+					break;
+d736 2
+a737 2
+	}
+	CATCH_DFLT_EXCEPTIONS("CMMServer::CommandTimer")
+@
+
+
+1.5
+log
+@built in compiler switch for mobileMule
+@
+text
+@d305 1
+a305 1
+			h_timer = SetTimer(0,4564,5000,CommandTimer);
+d372 1
+a372 1
+		h_timer = SetTimer(0,4564,20000,CommandTimer);
+d432 1
+a432 1
+		KillTimer(0,theApp.mmserver->h_timer);
+d448 1
+a448 1
+	theApp.downloadqueue->AddSearchToDownload(todownload);
+d513 1
+a513 1
+			partfile->UpdateDisplayedInfo();
+a700 2
+
+
+d706 21
+a726 16
+	KillTimer(0,theApp.mmserver->h_timer);
+	theApp.mmserver->h_timer = 0;
+	switch(theApp.mmserver->m_byPendingCommand){
+		case MMT_SDPC:
+			HANDLE hToken; 
+			TOKEN_PRIVILEGES tkp; 
+			try{
+			if (!OpenProcessToken(GetCurrentProcess(), 
+				TOKEN_ADJUST_PRIVILEGES | TOKEN_QUERY, &hToken)) 
+				throw; 
+			LookupPrivilegeValue(NULL, SE_SHUTDOWN_NAME, 
+				&tkp.Privileges[0].Luid); 
+			tkp.PrivilegeCount = 1;  // one privilege to set    
+			tkp.Privileges[0].Attributes = SE_PRIVILEGE_ENABLED; 
+			AdjustTokenPrivileges(hToken, FALSE, &tkp, 0, 
+				(PTOKEN_PRIVILEGES)NULL, 0); 
+d728 6
+a733 4
+			catch(...){
+			}
+#define EWX_FORCEIFHUNG     0x00000010
+			if (!ExitWindowsEx(EWX_SHUTDOWN | EWX_FORCEIFHUNG, 0)) 
+d735 1
+a735 8
+		case MMT_SDEMULE:
+			theApp.m_app_state = theApp.APP_STATE_SHUTINGDOWN;
+			SendMessage(theApp.emuledlg->m_hWnd,WM_CLOSE,0,0);
+			break;
+		case MMT_SEARCH:
+			theApp.mmserver->SearchFinished(true);
+			break;
+		
+d737 1
+a737 1
+
+a738 1
+
+@
+
+
+1.4
+log
+@latest mobile mule changes + some additional webserver stuff (see changelog)
+@
+text
+@d36 1
+d743 1
+@
+
+
+1.3
+log
+@Preparing for new sockets
+@
+text
+@d27 9
+d64 4
+a67 2
+			// will use res string later, makes it easier for merging for now
+			theApp.emuledlg->AddLogLine(false, "Failed to create MobileMule Socket!");
+d204 12
+d458 92
+d557 147
+@
+
+
+1.2
+log
+@Added STOP visual notification.
+@
+text
+@d27 2
+d479 1
+@
+
+
+1.1
+log
+@Purity's changes
+@
+text
+@d178 1
+a178 1
+		if (cur_file->GetStatus(false) == PS_PAUSED)
+d218 1
+@
+

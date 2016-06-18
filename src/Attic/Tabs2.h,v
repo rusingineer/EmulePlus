@@ -1,0 +1,110 @@
+head	1.2;
+access;
+symbols
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2004.03.22.05.23.51;	author aw3;	state dead;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.23.00.20.51;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Tabs2.cpp & Tabs2.h removal
+@
+text
+@#if !defined(AFX_TABS_H__5077F77F_27FB_4993_AE53_4F17DDB62B56__INCLUDED_)
+#define AFX_TABS_H__5077F77F_27FB_4993_AE53_4F17DDB62B56__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+// Tabs2.h : header file
+//
+
+#include "TabCtrl.hpp"
+
+/////////////////////////////////////////////////////////////////////////////
+// CTabs2 window
+
+class CTabs2 : public TabControl
+{
+// Construction
+public:
+	CTabs2();
+
+// Attributes
+public:
+
+// Operations
+public:
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CTabs2)
+	//}}AFX_VIRTUAL
+
+// Implementation
+public:
+	virtual ~CTabs2();
+
+	// Generated message map functions
+protected:
+	void DrawItem(LPDRAWITEMSTRUCT lpDIS);
+	void DrawItem(CDC *pDC, int iItem);
+	//{{AFX_MSG(CTabs2)
+	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
+	afx_msg void OnPaint();
+	//}}AFX_MSG
+
+	DECLARE_MESSAGE_MAP()
+};
+
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_TABS_H__5077F77F_27FB_4993_AE53_4F17DDB62B56__INCLUDED_)
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@@
+

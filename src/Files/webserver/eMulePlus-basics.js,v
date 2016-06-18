@@ -1,0 +1,356 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.6
+	Interim_Release_1-2d_RC1:1.6
+	Interim_Release_1-2d_beta1:1.6
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.6
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.4;
+locks; strict;
+comment	@# @;
+
+
+1.7
+date	2008.10.31.08.31.26;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2006.04.12.08.45.34;	author morphisthebrave;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2006.01.31.13.55.42;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2006.01.27.16.12.35;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2006.01.10.14.14.56;	author morphisthebrave;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2006.01.10.08.19.35;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2006.01.10.01.46.35;	author aw3;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@WebServer: "Don't scroll toolbar" feature fixed for Firefox 3
+@
+text
+@// ########## Image Preload ##########
+function preload_images(pics)
+{
+	var images = new Array;
+
+	if (document.images)
+	{
+		for (var pic_num=0; pic_num<pics.length; pic_num++)
+		{
+			images[pic_num] = new Image();
+			images[pic_num].src = pics[pic_num];
+		}
+	}
+
+	return (images);
+}
+// ########################################
+
+
+// ########## ShowHide ##########
+function ShowHide(id)
+{
+	var itm = null;
+
+	if (document.getElementById)
+		itm = document.getElementById(id);
+	else if (document.all)
+		itm = document.all[id];
+	else if (document.layers)
+		itm = document.layers[id];
+
+	if (!itm)
+	{
+		// do nothing
+	}
+	else if (itm.style)
+	{
+		if (itm.style.display == "none")
+			itm.style.display = "";
+		else
+			itm.style.display = "none";
+	}
+	else
+	{
+		itm.visibility = "show";
+	}
+}
+// ########################################
+
+
+// ########## MenuLock ##########
+function menulockmain()
+{
+	if (menulockedstate)
+	{
+		image_swap("menuicon","/menudown.gif");
+		menulock_pos = '0';
+		menulock();
+	}
+}
+
+function image_swap(id,imgsrc)
+{
+	document.getElementById(id).setAttribute("src",imgsrc);
+}
+
+function menulock()
+{
+	var bAppName = window.navigator.appName;
+	var isIE = (bAppName.indexOf("Explorer") >= 0);
+
+	if (isIE)
+		setInterval ('menulock_ie()',5);
+	else
+		menulock_css();
+}
+
+function menulock_css()
+{
+	var pos = menulock_pos;
+	var menu_height = document.getElementById('menu').scrollHeight;
+
+	document.getElementById('menu').style.float = "top";
+	document.getElementById('menu').style.width = "100%";
+	document.getElementById('menu').style.position = "fixed";
+	document.getElementById('menu').style.top = pos + "px";
+	if (menu_height)
+		document.body.style.marginTop = menu_height + "px";
+	else
+		document.body.style.marginTop = "145px";
+}
+
+function menulock_ie()
+{
+	var pos = menulock_pos;
+	var sc = document.body.scrollTop;
+	pos = Math.round((sc + pos)/10);
+	document.getElementById('menu').style.top = pos + "px";
+}
+// ########################################
+
+
+// ########## Copy text to clipboard (IE/Mozilla) ##########
+function ToClipboard(txt)
+{
+	if(window.clipboardData)
+	{
+		window.clipboardData.clearData();
+		window.clipboardData.setData("Text", txt);
+	}
+	else if(navigator.userAgent.indexOf("Opera")!=-1)
+	{
+		window.location=txt;
+	}
+	else if (window.netscape)
+	{
+		try
+		{
+			netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+		}
+		catch (e)
+		{
+			alert("Permission denied! Browse to 'about:config' in your browser\nand set 'signed.applets.codebase_principal_support' to true");
+		}
+
+		var clip = Components.classes['@@mozilla.org/widget/clipboard;1'].createInstance(Components.interfaces.nsIClipboard);
+
+		if (!clip)
+			return;
+
+		var trans = Components.classes['@@mozilla.org/widget/transferable;1'].createInstance(Components.interfaces.nsITransferable);
+
+		if (!trans)
+			return;
+
+		trans.addDataFlavor('text/unicode');
+		var str = new Object();
+		var len = new Object();
+		var str = Components.classes["@@mozilla.org/supports-string;1"].createInstance(Components.interfaces.nsISupportsString);
+		var copytext=txt;
+		str.data=copytext;
+		trans.setTransferData("text/unicode",str,copytext.length*2);
+		var clipid=Components.interfaces.nsIClipboard;
+
+		if (!clip)
+			return false;
+
+		clip.setData(trans,null,clipid.kGlobalClipboard);
+	}
+}
+// ########################################
+
+
+// ########## Warn when inputing login information in caps ##########
+var warnedalready = false;
+
+function capsDetect(e)
+{
+	if(warnedalready) { return; }
+	if(!e) { e = window.event; }
+	if(!e) { return; }
+	var theKey = e.which ? e.which : (e.keyCode ? e.keyCode : (e.charCode ? e.charCode : 0));
+	var theShift = e.shiftKey || (e.modifiers && (e.modifiers & 4));
+	if ((theKey > 64 && theKey < 91 && !theShift) || (theKey > 96 && theKey < 123 && theShift)) { alert(capsError); warnedalready = true; }
+}
+// ########################################
+@
+
+
+1.6
+log
+@Webserver Templates: Fix for image preloading.
+@
+text
+@d77 1
+d82 3
+@
+
+
+1.5
+log
+@Localization of Caps Lock Web error message
+@
+text
+@d6 1
+a6 1
+	for (var pic_num=0; pic_num<pics.length; pic_num++)
+d8 5
+a12 2
+		images[pic_num] = new Image();
+		images[pic_num].src = pics[pic_num];
+@
+
+
+1.4
+log
+@WebServer: added detection of caps lock while loging in
+@
+text
+@a147 1
+var capsError = 'WARNING: Caps Lock is enabled!\n\nThis field is case sensitive.';
+@
+
+
+1.3
+log
+@WebServer: Fix for InternetExplorer MenuLock {Fuxie - DK}
+@
+text
+@d145 16
+@
+
+
+1.2
+log
+@Updated installer to contain .JS files
+@
+text
+@d90 1
+a90 2
+	if (pos < sc) pos = pos + Math.round((sc-pos)/10) + 1;
+	if (pos > sc) pos = pos - Math.round((pos-sc)/10) - 1;
+@
+
+
+1.1
+log
+@WebServer: permanent javascripts were moved to .js files to reduce traffic [morphis].
+@
+text
+@d1 1
+a1 1
+// ######## Image Preload >>>>
+d14 1
+a14 1
+// <<<<################################
+d17 1
+a17 1
+// ######## ShowHide >>>>
+d45 1
+a45 1
+// <<<<################################
+d48 5
+a52 3
+// ######## MenuLock >>>>
+function menulockmain() {
+	if (menulockedstate) {
+d59 2
+a60 1
+function image_swap(id,imgsrc) {
+d64 2
+a65 1
+function menulock() {
+d69 1
+a69 1
+	if (isIE){
+d71 1
+a71 1
+	} else {
+a72 1
+	}
+d74 2
+a75 1
+function menulock_css() {
+d80 1
+a80 1
+	if (menu_height) {
+d82 1
+a82 1
+	} else {
+a83 1
+	}
+d86 2
+a87 1
+function menulock_ie() {
+d94 1
+a94 1
+// <<<<################################
+d97 1
+a97 1
+// ######## Copy text to clipboard (IE/Mozilla) >>>>
+d145 1
+a145 2
+// <<<<################################
+
+@
+

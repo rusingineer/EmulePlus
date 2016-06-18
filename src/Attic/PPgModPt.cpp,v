@@ -1,0 +1,654 @@
+head	1.13;
+access;
+symbols
+	PublicRelease_1k:1.12
+	Interim_Release_1k_RC4:1.12
+	Interim_1k_RC3:1.12
+	Interim_1k_RC2:1.12
+	Interim_Release_1k_RC1:1.12
+	Interim_Release_1k_beta5:1.12
+	Intrerim_Release_1k_beta4:1.12
+	Interim_Release_1k_beta1:1.12
+	PublicRelease_1j:1.12
+	Interim_Release_1J_RC3:1.12
+	Interim_Release_1j_RC3:1.12
+	Interim_Release_1j_RC2:1.12
+	Interim_Release_1j_RC1:1.12
+	Interim_Release_1j_beta2:1.12
+	Interim_Release_1j_beta1:1.12
+	PublicRelease_1i:1.12
+	Interim_Release_1i_RC6:1.12
+	Interim_Release_1i_RC3:1.12
+	Interim_Release_1i_RC2:1.12
+	Interim_Release_1i_RC1:1.12
+	Interim_Release_1i_beta3:1.12
+	Interim_Release_1i_beta2:1.12
+	Interim_Release_1i_beta1:1.10
+	PublicRelease_1h:1.8
+	Interim_Release_1h_rc2:1.8
+	Interim_Release_1h_RC1:1.8
+	Interim_Release_1h_beta2:1.8
+	Interim_Release_1h_beta1_now:1.7
+	Interim_Release_1h_beta1:1.7
+	PublicRelease_1g:1.6
+	Interim_Release_1g_RC6_Final:1.6
+	Interim_Release_1g_RC6:1.6
+	Interim_Release_1g_RC5:1.6
+	Interim_Release_1g_RC4:1.6
+	Interim_Release_1g_RC3:1.6
+	Interim_Release_1g_beta2:1.6
+	Interim_Release_1g_beta1:1.6
+	Interim_Release_1f_RC4:1.6
+	Interim_Release_1f_RC3:1.6
+	Interim_Release_1f_RC2:1.6
+	Interim_Release_1f_RC:1.6
+	Interim_Release_1f_beta2:1.6
+	Interim_Release_1f_beta1:1.6
+	PublicRelease_1e:1.6
+	Interim_Release_1e_RC2:1.6
+	Interim_Release_1e_RC:1.6
+	Interim_Release_1e_beta3:1.6
+	Interim_Release_1e_beta2:1.6
+	Interim_Release_1e_beta2_before_kuchin:1.6
+	Interim_Release_1e_beta1:1.6
+	PublicRelease_1c:1.6
+	featurestest:1.6.0.4
+	Interim_Release_1c_RC:1.6
+	Interim_Release_1c_beta2:1.6
+	Interim_Release_1c_beta1:1.6
+	threaded_downloadqueue:1.6.0.2
+	PublicRelease_1b:1.6
+	Interim_Release_1b_beta2:1.6
+	Interim_Release_1b_beta1:1.5
+	proxydeadlake:1.5.0.4
+	PublicRelease_1a:1.5
+	Interim_Release_1a_beta2:1.5
+	BerkeleyDb:1.5.0.2
+	Interim_Release_1a_beta1:1.5
+	PublicRelease_1:1.5
+	goldfish:1.5
+	eMulePlus_1_RC2:1.5
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.3
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.4
+	plus26based:1.2.0.2
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.13
+date	2004.04.25.02.33.04;	author dongato;	state dead;
+branches;
+next	1.12;
+
+1.12
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.10.08.15.39.48;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.08.23.00.20.50;	author forcha;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.08.07.16.17.30;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.08.13.36.22;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.20.07.25.21;	author cax2;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.18.22.37.59;	author obaldin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.02.13.27.42;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.21;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.13
+log
+@Preferences reorganization
+@
+text
+@//--- xrmb:partTrafficPrefs ---
+
+// PgTweaks.cpp : implementation file
+//
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgModPt.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+// CPPgModPT dialog
+
+IMPLEMENT_DYNAMIC(CPPgModPT, CPropertyPage)
+
+CPPgModPT::CPPgModPT()
+	: CPropertyPage(CPPgModPT::IDD)
+	, uploadBarStyle(0)
+	, uploadBarColor(0)
+	, displayPartTraffic(FALSE)
+	, displayUploadParts(FALSE)
+	, upBarStDesc(_T(""))
+	, upBarClDesc(_T(""))
+{
+}
+
+CPPgModPT::~CPPgModPT()
+{
+}
+
+void CPPgModPT::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Radio(pDX, IDC_UPBARST1, uploadBarStyle);
+	DDX_Radio(pDX, IDC_UPBARCL1, uploadBarColor);
+	DDX_Check(pDX, IDC_PT_USEIT, displayPartTraffic);
+	DDX_Check(pDX, IDC_UPLOADPARTS, displayUploadParts);
+	DDX_Control(pDX, IDC_PT_USEIT, displayPartTrafficCheck);
+	DDX_Control(pDX, IDC_UPLOADPARTS, displayUploadPartsCheck);	
+	DDX_Control(pDX, IDC_UPBARST1, upBarSt1Radio);
+	DDX_Control(pDX, IDC_UPBARST2, upBarSt2Radio);
+	DDX_Control(pDX, IDC_UPBARST3, upBarSt3Radio);	
+	DDX_Control(pDX, IDC_UPBARST4, upBarSt4Radio);
+	DDX_Control(pDX, IDC_UPBARCL1, upBarCl1Radio);
+	DDX_Control(pDX, IDC_UPBARCL2, upBarCl2Radio);
+	DDX_Control(pDX, IDC_UPBARCL3, upBarCl3Radio);
+	DDX_Control(pDX, IDC_UPBARCL4, upBarCl4Radio);
+	DDX_Text(pDX, IDC_UPBARST, upBarStDesc);
+	DDX_Text(pDX, IDC_UPBARCL, upBarClDesc);
+}
+
+BEGIN_MESSAGE_MAP(CPPgModPT, CPropertyPage)
+	ON_BN_CLICKED(IDC_UPBARST1, OnBnClickedUpbarst1)
+	ON_BN_CLICKED(IDC_UPBARST2, OnBnClickedUpbarst2)
+	ON_BN_CLICKED(IDC_UPBARST3, OnBnClickedUpbarst3)
+	ON_BN_CLICKED(IDC_UPBARST4, OnBnClickedUpbarst4)
+	ON_BN_CLICKED(IDC_UPBARCL1, OnBnClickedUpbarcl1)
+	ON_BN_CLICKED(IDC_UPBARCL2, OnBnClickedUpbarcl2)
+	ON_BN_CLICKED(IDC_UPBARCL3, OnBnClickedUpbarcl3)
+	ON_BN_CLICKED(IDC_UPBARCL4, OnBnClickedUpbarcl4)
+	ON_BN_CLICKED(IDC_PT_USEIT, OnBnClickedPtUseit)
+	ON_BN_CLICKED(IDC_UPLOADPARTS, OnBnClickedUploadParts)
+END_MESSAGE_MAP()
+
+
+// CPPgModPT message handlers
+
+
+BOOL CPPgModPT::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+
+void CPPgModPT::LoadSettings(void)
+{
+	if(::IsWindow(m_hWnd))
+	{
+		displayPartTraffic = m_pPrefs->DoUsePT(); // Cax2 05/01/03
+
+		uploadBarStyle = m_pPrefs->GetUpbarStyle();
+		uploadBarColor = m_pPrefs->GetUpbarColor();
+
+        //Cax2 re-enabled toggle progress bars
+		displayUploadParts = m_pPrefs->IsUploadPartsEnabled();
+
+		UpdateData(FALSE);
+
+		OnBnClickedPtUseit();
+
+		SetModified(FALSE);	// FoRcHa
+	}
+}
+
+BOOL CPPgModPT::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		if(!displayPartTraffic==m_pPrefs->DoUsePT())	//Cax2 if we changed it, display/hide column accordingly
+		{
+			m_pPrefs->SetUsePT(displayPartTraffic);
+			if(m_pPrefs->DoUsePT())
+				g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.ShowColumn(9);	//Cax2 part traffic column
+			else
+				g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.HideColumn(9);	//Cax2 part traffic column
+		}
+
+		m_pPrefs->SetUpbarStyle(uploadBarStyle);
+		m_pPrefs->SetUpbarColor(uploadBarColor);
+		
+		if(m_pPrefs->IsUploadPartsEnabled()==!displayUploadParts)		//Cax2 if we changed it, display/hide columns accordingly
+		{
+			m_pPrefs->SetUploadPartsEnabled(displayUploadParts);
+			if(m_pPrefs->IsUploadPartsEnabled())
+			{
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.ShowColumn(8);		//Cax2 if the progressbar column change change this number
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.ShowColumn(4);		
+			}
+			else
+			{
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.HideColumn(8);		//Cax2 if the progressbar column change change this number
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.HideColumn(4);		
+			}
+		}
+
+		OnBnClickedPtUseit();
+		
+		g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.SetDisplay(m_pPrefs->GetUpbarStyle(), true);
+		g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.SetColoring(m_pPrefs->GetUpbarColor());
+
+		LoadSettings();
+		SetModified(FALSE);
+	}
+	return CPropertyPage::OnApply();
+}
+
+void CPPgModPT::Localize(void)
+{	
+	if(::IsWindow(m_hWnd))
+	{
+		displayPartTrafficCheck.SetWindowText(GetResString(IDS_PT_USEIT));
+		upBarStDesc = GetResString(IDS_UPBARST);
+		upBarSt1Radio.SetWindowText(GetResString(IDS_UPBARST1));
+		upBarSt2Radio.SetWindowText(GetResString(IDS_UPBARST2));
+		upBarSt3Radio.SetWindowText(GetResString(IDS_UPBARST3));		
+		upBarClDesc = GetResString(IDS_UPBARCL);
+		upBarCl1Radio.SetWindowText(GetResString(IDS_UPBARCL1));
+		upBarCl2Radio.SetWindowText(GetResString(IDS_UPBARCL2));
+		upBarCl3Radio.SetWindowText(GetResString(IDS_UPBARCL3));
+		upBarCl4Radio.SetWindowText(GetResString(IDS_UPBARCL4));
+		displayUploadPartsCheck.SetWindowText(GetResString(IDS_UPLOADPARTS));
+
+		UpdateData(FALSE);
+	}
+}
+
+void CPPgModPT::OnBnClickedPtUseit()
+{
+	UpdateData(TRUE);
+
+	upBarSt1Radio.EnableWindow(displayPartTraffic);
+	upBarSt2Radio.EnableWindow(displayPartTraffic);
+	upBarSt3Radio.EnableWindow(displayPartTraffic);
+	upBarSt4Radio.EnableWindow(displayPartTraffic);
+	upBarCl1Radio.EnableWindow(displayPartTraffic);
+	upBarCl2Radio.EnableWindow(displayPartTraffic);
+	upBarCl3Radio.EnableWindow(displayPartTraffic);
+	upBarCl4Radio.EnableWindow(displayPartTraffic);
+
+	SetModified();
+}
+@
+
+
+1.12
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@@
+
+
+1.11
+log
+@Formatting, comments, and name changes. Factored various UI update methods out and modified to use async. messaging instead of sync. call.
+@
+text
+@d127 2
+a128 2
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndUploadList.ShowColumn(8);		//Cax2 if the progressbar column change change this number
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndQueueList.ShowColumn(4);		
+d132 2
+a133 2
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndUploadList.HideColumn(8);		//Cax2 if the progressbar column change change this number
+				g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndQueueList.HideColumn(4);		
+@
+
+
+1.10
+log
+@Formatting, comments, and name changes.
+@
+text
+@d114 1
+a114 1
+				g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.ShowColumn(9);	//Cax2 part traffic column
+d116 1
+a116 1
+				g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.HideColumn(9);	//Cax2 part traffic column
+d139 2
+a140 2
+		g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.SetDisplay(m_pPrefs->GetUpbarStyle(), true);
+		g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.SetColoring(m_pPrefs->GetUpbarColor());
+@
+
+
+1.9
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d88 1
+a88 1
+		displayPartTraffic = app_prefs->DoUsePT(); // Cax2 05/01/03
+d90 2
+a91 2
+		uploadBarStyle = app_prefs->GetUpbarStyle();
+		uploadBarColor = app_prefs->GetUpbarColor();
+d94 1
+a94 1
+		displayUploadParts = app_prefs->IsUploadPartsEnabled();
+d110 1
+a110 1
+		if(!displayPartTraffic==app_prefs->DoUsePT())	//Cax2 if we changed it, display/hide column accordingly
+d112 2
+a113 2
+			app_prefs->SetUsePT(displayPartTraffic);
+			if(app_prefs->DoUsePT())
+d119 2
+a120 2
+		app_prefs->SetUpbarStyle(uploadBarStyle);
+		app_prefs->SetUpbarColor(uploadBarColor);
+d122 1
+a122 1
+		if(app_prefs->IsUploadPartsEnabled()==!displayUploadParts)		//Cax2 if we changed it, display/hide columns accordingly
+d124 2
+a125 2
+			app_prefs->SetUploadPartsEnabled(displayUploadParts);
+			if(app_prefs->IsUploadPartsEnabled())
+d139 2
+a140 2
+		g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.SetDisplay(app_prefs->GetUpbarStyle(), true);
+		g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.SetColoring(app_prefs->GetUpbarColor());
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d114 1
+a114 1
+				theApp.emuledlg->sharedfileswnd.sharedfilesctrl.ShowColumn(9);	//Cax2 part traffic column
+d116 1
+a116 1
+				theApp.emuledlg->sharedfileswnd.sharedfilesctrl.HideColumn(9);	//Cax2 part traffic column
+d127 2
+a128 2
+				theApp.emuledlg->transferwnd.m_wndUploadList.ShowColumn(8);		//Cax2 if the progressbar column change change this number
+				theApp.emuledlg->transferwnd.m_wndQueueList.ShowColumn(4);		
+d132 2
+a133 2
+				theApp.emuledlg->transferwnd.m_wndUploadList.HideColumn(8);		//Cax2 if the progressbar column change change this number
+				theApp.emuledlg->transferwnd.m_wndQueueList.HideColumn(4);		
+d139 2
+a140 2
+		theApp.emuledlg->sharedfileswnd.sharedfilesctrl.SetDisplay(app_prefs->GetUpbarStyle(), true);
+		theApp.emuledlg->sharedfileswnd.sharedfilesctrl.SetColoring(app_prefs->GetUpbarColor());
+@
+
+
+1.7
+log
+@converted to use DDX framework
+@
+text
+@d127 2
+a128 2
+				theApp.emuledlg->transferwnd.uploadlistctrl.ShowColumn(8);		//Cax2 if the progressbar column change change this number
+				theApp.emuledlg->transferwnd.queuelistctrl.ShowColumn(4);		
+d132 2
+a133 2
+				theApp.emuledlg->transferwnd.uploadlistctrl.HideColumn(8);		//Cax2 if the progressbar column change change this number
+				theApp.emuledlg->transferwnd.queuelistctrl.HideColumn(4);		
+@
+
+
+1.6
+log
+@Updated PartTraffic preferences.
+@
+text
+@d23 6
+d39 16
+d86 1
+a86 1
+	if(m_hWnd)
+d88 1
+a88 1
+		CheckDlgButton(IDC_PT_USEIT,(app_prefs->DoUsePT())?1:0); // Cax2 05/01/03
+d90 2
+a91 15
+		switch(app_prefs->GetUpbarStyle())
+		{
+			case 1:  this->CheckDlgButton(IDC_UPBARST2,1); break;
+			case 2:	 this->CheckDlgButton(IDC_UPBARST3,1); break;
+			case 3:	 this->CheckDlgButton(IDC_UPBARST4,1); break;
+			default: this->CheckDlgButton(IDC_UPBARST1,1); break;
+		}
+		
+		switch(app_prefs->GetUpbarColor())
+		{
+			case 1:  this->CheckDlgButton(IDC_UPBARCL2,1); break;
+			case 2:  this->CheckDlgButton(IDC_UPBARCL3,1); break;
+			case 3:  this->CheckDlgButton(IDC_UPBARCL4,1); break;
+			default: this->CheckDlgButton(IDC_UPBARCL1,1); break;
+		}
+d94 3
+a96 1
+		CheckDlgButton(IDC_UPLOADPARTS,(app_prefs->IsUploadPartsEnabled())?1:0);
+a105 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d108 3
+a110 1
+		if(!IsDlgButtonChecked(IDC_PT_USEIT)==app_prefs->DoUsePT())	//Cax2 if we changed it, display/hide column accordingly
+d112 1
+a112 1
+			app_prefs->SetUsePT(IsDlgButtonChecked(IDC_PT_USEIT));
+d119 4
+a122 25
+		if(IsDlgButtonChecked(IDC_UPBARST1))
+			app_prefs->SetUpbarStyle(0);
+		else 
+		if(IsDlgButtonChecked(IDC_UPBARST2))
+			app_prefs->SetUpbarStyle(1);
+		else 
+		if(IsDlgButtonChecked(IDC_UPBARST3))
+			app_prefs->SetUpbarStyle(2);
+		else 
+		if(IsDlgButtonChecked(IDC_UPBARST4))
+			app_prefs->SetUpbarStyle(3);
+
+		if(IsDlgButtonChecked(IDC_UPBARCL1))
+			app_prefs->SetUpbarColor(0);
+		else 
+		if(IsDlgButtonChecked(IDC_UPBARCL2))
+			app_prefs->SetUpbarColor(1);
+		else 
+		if(IsDlgButtonChecked(IDC_UPBARCL3))
+			app_prefs->SetUpbarColor(2);
+		else 
+		if(IsDlgButtonChecked(IDC_UPBARCL4))
+			app_prefs->SetUpbarColor(3);
+
+		if(app_prefs->IsUploadPartsEnabled()==!IsDlgButtonChecked(IDC_UPLOADPARTS))		//Cax2 if we changed it, display/hide columns accordingly
+d124 1
+a124 1
+			app_prefs->SetUploadPartsEnabled(IsDlgButtonChecked(IDC_UPLOADPARTS));
+d150 1
+a150 1
+	if(m_hWnd)
+d152 13
+a164 11
+		GetDlgItem(IDC_PT_USEIT)->SetWindowText(GetResString(IDS_PT_USEIT));
+		GetDlgItem(IDC_UPBARST)->SetWindowText(GetResString(IDS_UPBARST));
+		GetDlgItem(IDC_UPBARST1)->SetWindowText(GetResString(IDS_UPBARST1));
+		GetDlgItem(IDC_UPBARST2)->SetWindowText(GetResString(IDS_UPBARST2));
+		GetDlgItem(IDC_UPBARST3)->SetWindowText(GetResString(IDS_UPBARST3));
+		GetDlgItem(IDC_UPBARCL)->SetWindowText(GetResString(IDS_UPBARCL));
+		GetDlgItem(IDC_UPBARCL1)->SetWindowText(GetResString(IDS_UPBARCL1));
+		GetDlgItem(IDC_UPBARCL2)->SetWindowText(GetResString(IDS_UPBARCL2));
+		GetDlgItem(IDC_UPBARCL3)->SetWindowText(GetResString(IDS_UPBARCL3));
+		GetDlgItem(IDC_UPBARCL4)->SetWindowText(GetResString(IDS_UPBARCL4));
+		GetDlgItem(IDC_UPLOADPARTS)->SetWindowText(GetResString(IDS_UPLOADPARTS));
+d170 10
+a179 8
+	GetDlgItem(IDC_UPBARST1)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+	GetDlgItem(IDC_UPBARST2)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+	GetDlgItem(IDC_UPBARST3)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+	GetDlgItem(IDC_UPBARST4)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+	GetDlgItem(IDC_UPBARCL1)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+	GetDlgItem(IDC_UPBARCL2)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+	GetDlgItem(IDC_UPBARCL3)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+	GetDlgItem(IDC_UPBARCL4)->EnableWindow(IsDlgButtonChecked(IDC_PT_USEIT));
+@
+
+
+1.5
+log
+@minor updates & bugfixes
+@
+text
+@d87 2
+d147 2
+d174 14
+@
+
+
+1.4
+log
+@Checkbox disabled until the functionality is enabled
+@
+text
+@d84 1
+a84 1
+        GetDlgItem(IDC_UPLOADPARTS)->EnableWindow(0); // obaldin: disabled until properly integrated
+d97 8
+a104 1
+		app_prefs->SetUsePT(IsDlgButtonChecked(IDC_PT_USEIT)); // Cax2 05/01/03
+d130 14
+a143 1
+		app_prefs->SetUploadPartsEnabled(IsDlgButtonChecked(IDC_UPLOADPARTS));
+@
+
+
+1.3
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d84 1
+@
+
+
+1.2
+log
+@Removed SingleLock - no need there.
+@
+text
+@d10 7
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d85 1
+a85 1
+	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

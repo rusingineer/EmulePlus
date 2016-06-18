@@ -1,0 +1,457 @@
+head	1.18;
+access;
+symbols
+	PublicRelease_1_2e:1.14
+	Interim_Release_1-2e_RC1:1.14
+	PublicRelease_1_2d:1.10
+	Interim_Release_1-2d_RC1:1.9
+	Interim_Release_1-2d_beta1:1.9
+	PublicRelease_1_2c:1.8
+	Interim_Release_1-2c_RC1:1.8
+	Interim_Release_1-2c_beta1:1.8
+	PublicRelease_1_2b:1.8
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.7
+	Interim_Release_1-2a_RC1:1.7
+	Interim_Release_1-2a_beta2:1.7
+	Interim_Release_1-2a_beta1:1.7
+	PublicRelease_1_2:1.7
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.5
+	Interim_Release_1-1f_RC1:1.5
+	PublicRelease_1_1e:1.5
+	Interim_Release_1-1e_RC2:1.5
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.5
+	Interim_Release_1-1c_beta1:1.5
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.5
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.3
+	Interim_Release_1n_RC2:1.2
+	Interim_Release_1n_RC1:1.2
+	Interim_Release_1n_beta2:1.2
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.2
+	Interim_Release_1l_RC1:1.2
+	Interim_Release_1l_beta2:1.2
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1;
+locks; strict;
+comment	@# @;
+expand	@b@;
+
+
+1.18
+date	2014.01.07.04.59.31;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2009.10.10.19.14.28;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2009.07.16.01.10.59;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2009.06.28.21.48.34;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2009.03.25.02.46.36;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2009.01.04.23.03.39;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2008.11.17.00.15.47;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2008.08.06.01.02.32;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2008.05.13.01.26.30;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2008.01.17.10.10.47;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.02.05.19.27.20;	author fuxie-dk;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.02.22.04.40.26;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.09.21.17.47.45;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.11.08.01.51.57;	author syrus77;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.09.16.17.24.35;	author katsyonak;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.09.08.21.58.20;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.05.10.16.34.37;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.09.24.07.09.16;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.18
+log
+@Updated static server list.
+@
+text
+@############################################
+# Static Servers File
+# enter one server per line
+#
+# Format:
+# ServerIP/Hostname:Port,Priority,ServerName
+#
+# Priority:
+# 2 = High, 1 = Normal, 0 = Low
+#
+# Examples:
+# 120.120.120.120:4661,0,TestServer1
+# myserver.yi.org:4662,1,TestServer2
+
+91.200.42.46:1176,2,eMule Security No1
+91.200.42.47:3883,2,eMule Security No2
+176.103.48.36:4184,1,TV Underground No1
+88.191.221.121:7111,0,PEERATES.NET
+@
+
+
+1.17
+log
+@TVU is back.
+@
+text
+@d15 4
+a18 4
+212.63.206.35:4242,2,eDonkeyServer No2
+88.191.81.111:7111,0,PEERATES.NET
+88.80.28.48:4321,1,!-= Porn Pit =-!
+91.194.40.23:4184,2,TV Underground
+@
+
+
+1.16
+log
+@Removed dead servers; Added new one.
+@
+text
+@d18 1
+@
+
+
+1.15
+log
+@Updated PEERATES.NET keeping backup one while it still works.
+@
+text
+@a15 2
+89.248.174.84:6543,1,TVU DonkeyServer No1
+88.191.50.111:1111,0,PEERATES.NET
+d17 1
+@
+
+
+1.14
+log
+@Updated PEERATES.NET.
+@
+text
+@d18 1
+@
+
+
+1.13
+log
+@Removed DS No1; Added backup servers.
+@
+text
+@d17 1
+a17 1
+88.191.81.111:1111,0,PEERATES.NET
+@
+
+
+1.12
+log
+@Update.
+@
+text
+@a14 1
+77.247.178.244:4242,1,eDonkeyServer No1
+d16 2
+@
+
+
+1.11
+log
+@Updated server list.
+@
+text
+@d16 1
+a16 2
+77.247.178.245:4242,1,eDonkeyServer No2
+81.171.125.8:4242,0,!! Saugstube !!
+@
+
+
+1.10
+log
+@Update static server list -- removed dead server, added several new ones.
+@
+text
+@d17 1
+a17 5
+85.17.52.92:5000,2,Razorback 3.0
+85.17.52.124:5000,1,Razorback 3.2
+193.138.205.25:5000,2,Razorback 3.1
+193.138.221.214:4242,0,!! Saugstube !!
+92.48.193.14:5000,1,Razorback 3.3 
+@
+
+
+1.9
+log
+@Updated static server list with current trusted servers
+@
+text
+@d2 2
+a3 5
+# Static Servers File 
+# input only one server per line 
+# 
+# Formats:
+# ServerIP/Hostname:Port,Priority,ServerName 
+d5 4
+a8 1
+# Priorities: 
+d11 1
+a11 1
+# Examples: 
+d13 1
+a13 4
+# 65.20.130.10:8080,2,TestServer2
+# myserver.yi.org:4662,1,TestServer3
+#
+# Comment lines begin with # or /
+d16 1
+d20 2
+a21 1
+212.112.243.146:4661,1,www.UseNeXT.to
+@
+
+
+1.8
+log
+@Removed:
+213.186.60.106:4661,1,ChezToff
+213.251.136.83:4661,1,ChezToff 2
+@
+text
+@d18 4
+a21 6
+194.213.0.20:3306,1,Byte Devils
+62.241.53.2:4242,1,DonkeyServer No1
+62.241.53.16:4242,1,DonkeyServer No2
+62.241.53.17:4242,1,DonkeyServer No3
+62.241.53.15:4242,1,DonkeyServer No4 
+62.241.53.4:4242,1,DonkeyServer No6
+@
+
+
+1.7
+log
+@Updated static servers, update lists and web services
+@
+text
+@a18 2
+213.186.60.106:4661,1,ChezToff
+213.251.136.83:4661,1,ChezToff 2
+@
+
+
+1.6
+log
+@Updated servers
+@
+text
+@d18 3
+a20 2
+195.245.244.243:4661,2,Razorback 2.0
+195.245.244.244:3000,2,Razorback 2.1
+d26 1
+@
+
+
+1.5
+log
+@removed dead Byte Devils
+@
+text
+@d18 2
+a19 1
+195.245.244.243:4661,2,Razorback 2
+a24 2
+140.123.108.139:7654,1,TLF Taiwan ED Server
+207.150.166.150:3306,0,Byte Devils
+@
+
+
+1.4
+log
+@Some static servers names update.
+@
+text
+@d19 1
+a19 3
+62.241.53.2:4242,1,DonkeyServer No4
+62.241.53.4:4242,0,DonkeyServer No6
+62.241.53.15:4242,0,DonkeyServer No1
+d21 5
+a25 7
+62.241.53.17:4242,0,DonkeyServer No3
+211.233.41.235:4661,1,Korea_Only
+67.15.18.46:3306,0,Byte Devils
+67.15.18.45:3306,0,Byte Devils
+67.15.18.57:3306,0,Byte Devils
+66.98.192.99:3306,0,Byte Devils
+140.123.108.139:7654,0,TLF Taiwan ED Server
+@
+
+
+1.3
+log
+@Removed dead Produkt-Tipp servers.
+@
+text
+@d19 5
+a23 4
+62.241.53.2:4242,1,ProbenPrinz.de
+62.241.53.4:4242,0,ProbenPrinz.de
+62.241.53.17:4242,0,ProbenPrinz.de
+62.241.53.15:4242,0,ProbenPrinz.de
+a24 1
+62.241.53.16:4242,1,DateAttacke.de
+@
+
+
+1.2
+log
+@updated static servers list
+@
+text
+@a28 4
+64.246.54.76:4660,0,Produkt-Tipp
+64.246.54.71:4661,0,Produkt-Tipp
+207.44.196.36:4660,0,Produkt-Tipp
+207.44.196.35:4660,0,Produkt-Tipp
+@
+
+
+1.1
+log
+@Reorganization
+@
+text
+@d18 16
+a33 6
+195.112.128.222:6667,2,AdaNET
+195.245.244.243:4661,2,Razorback
+195.69.196.58:4242,2,O-C-N's Donkey Server
+66.111.52.200:4224,2,Eshock & Red Total Online
+38.119.96.17:3000,2,WSL
+38.119.96.15:4661,2,S.E.D.G.
+@
+

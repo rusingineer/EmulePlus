@@ -1,0 +1,241 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.2
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2005.01.04.04.41.40;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.12.26.06.50.21;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.05.12.13.20.34;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@More BerkeleyDb ignoring
+@
+text
+@libdb41sd.lib
+libdb41s.lib
+Berkeley_DB.dsw
+Berkeley_DB.sln
+Berkeley_DB.ncb
+Berkeley_DB.suo
+build_all.dsp
+build_all.vcproj
+db_archive.dsp
+db_archive.vcproj
+db_checkpoint.dsp
+db_checkpoint.vcproj
+db_config.h
+db_deadlock.dsp
+db_deadlock.vcproj
+db_dll.dsp
+db_dll.vcproj
+db_dump.dsp
+db_dump.vcproj
+db_int.h
+db_java.dsp
+db_java.vcproj
+db_java_xa.dsp
+db_java_xaj.mak
+db_lib.dsp
+db_lib.vcproj
+db_load.dsp
+db_load.vcproj
+db_perf.dsp
+db_perf.vcproj
+db_printlog.dsp
+db_printlog.vcproj
+db_recover.dsp
+db_recover.vcproj
+db_stat.dsp
+db_stat.vcproj
+db_static.dsp
+db_static.vcproj
+db_tcl.dsp
+db_tcl.vcproj
+db_test.dsp
+db_test.exe
+db_test.vcproj
+db_test.src
+db_upgrade.dsp
+db_upgrade.vcproj
+db_verify.dsp
+db_verify.vcproj
+dbkill.exe
+dbkill.cpp
+dllmain.c
+dynamic_dsp.src
+ex_access.dsp
+ex_access.vcproj
+ex_btrec.dsp
+ex_btrec.vcproj
+ex_env.dsp
+ex_env.vcproj
+ex_lock.dsp
+ex_lock.vcproj
+ex_mpool.dsp
+ex_mpool.vcproj
+ex_tpcb.dsp
+ex_tpcb.vcproj
+excxx_access.dsp
+excxx_access.vcproj
+excxx_btrec.dsp
+excxx_btrec.vcproj
+excxx_env.dsp
+excxx_env.vcproj
+excxx_lock.dsp
+excxx_lock.vcproj
+excxx_mpool.dsp
+excxx_mpool.vcproj
+excxx_tpcb.dsp
+excxx_tpcb.vcproj
+include.tcl
+java_dsp.src
+libdb41.dll
+libdb41.lib
+libdb41d.lib
+libdb.def
+libdb.rc
+libdb_tcl.def
+libdbrc.src
+srcfile_dsp.src
+static_dsp.src
+tcl_dsp.src
+app_dsp.src
+Debug
+Release@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d5 2
+@
+
+
+1.1
+log
+@Updated by TortoiseCVS
+@
+text
+@d3 87
+@
+

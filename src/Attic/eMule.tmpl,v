@@ -1,0 +1,929 @@
+head	1.5;
+access;
+symbols
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.6
+	plus26based:1.1.0.4
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.2.1
+	proxytest:1.1.2.1.0.2
+	official_sockets:1.1.0.2;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2003.02.17.19.17.29;	author dongato;	state dead;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.16.17.29.40;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.16.11.07.19;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.13.18.34.30;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.22.09.56.51;	author cax2;	state Exp;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2003.01.28.16.54.38;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Little fixes and Static Servers additions from 26d
+@
+text
+@<--TMPL_VERSION-->
+1
+<--TMPL_VERSION_END-->
+<--TMPL_HEADER-->
+<html>
+<meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+<head>
+<title>[eMulePlus] [version]</title>
+[HeaderMeta]
+[StyleSheet]
+</head>
+<body bgcolor=#FFFFF8 text=white link=#3399FF vlink=#3399FF alink=#3399FF marginwidth=0 marginheight=0 topmargin=0 leftmargin=0 style="margin:0px">
+<table border=0 width="100%" align=center cellpadding=4 cellspacing=0>
+<tr>
+ <td class=header colspan=2>
+  <p><font face="Arial Black" style="font-size:18pt;">&nbsp;[eMulePlus] [WebControl]</span></font></p>
+ </td>
+</tr>
+<tr>
+ <td class=tabs colspan=2>
+  &nbsp;&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=transfer">[Transfer]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=server">[Server]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=shared">[Shared]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=download">[Download]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=options">[Options]</a></b><br>
+  &nbsp;&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=graphs">[Graphs]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=log">[Log]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=sinfo">[ServerInfo]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=debuglog">[DebugLog]</a></b>
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=stats">[Stats]</a></b>
+ </td>
+</tr>
+<tr>
+ <td class=tabs>
+  &nbsp;&nbsp;<font color=black>[Connected]</font> &nbsp; [Speed] &nbsp; 
+  <font color=black>
+	<script language="javascript">
+	var d = new Date();
+	s = "{ " + d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear() + " " + d.getHours() + ":" + (d.getMinutes() < 10 ? "0" : "") + d.getMinutes() + ":" + (d.getSeconds() < 10 ? "0" : "") + d.getSeconds() + " }";
+	document.write(s);
+	</script>
+  </font>
+ </td>
+ <td align=right class=tabs>
+  <b><a href="/?ses=[Session]&w=logout">[Logout]</a></b>
+ </td>
+</tr>
+</table>
+<--TMPL_HEADER_END-->
+<--TMPL_HEADER_META_REFRESH-->
+<meta http-equiv=refresh content="[RefreshVal]; url=/?ses=[Session]&w=[wCommand]">
+<--TMPL_HEADER_META_REFRESH_END-->
+<--TMPL_HEADER_STYLESHEET-->
+<style type="text/css">
+img
+{
+border : 0px;
+}
+a, a:active, a:link, a:visited
+{
+color: white;
+}
+.down-header, .down-header-left, .down-header-right,
+.down-line, .down-line-good, .down-line-left, .down-line-good-left,
+.down-line-right, .down-line-good-right,
+.up-header, .up-header-left, .up-line, .up-line-left,
+.server-header, .server-header-left, .server-line, .server-line-left,
+.shared-header, .shared-header-left, .shared-line, .shared-line-changed, 
+.shared-line-left, .shared-line-left-changed,
+.header, .smallheader, .commontext,
+.upqueue-header, .upqueue-line, .upqueue-line-left,
+.websearch-header, .websearch-line, .addserver-header, .addserver-line
+{
+font-family : Verdana;
+font-size : 10pt;
+}
+.tabs
+{
+font-family : Arial;
+font-size : 11pt;
+background-color : #3399FF;
+}
+.down-header, .down-line, .down-line-good, .up-header, .up-line,
+.server-header, .server-line, .shared-header, .shared-line, .shared-line-changed,
+.upqueue-header, .upqueue-line,
+.websearch-header, .websearch-line, .addserver-header, .addserver-line
+{
+text-align : center;
+}
+.down-header-left, .down-line-left, .down-line-good-left,
+.server-header-left, .server-line-left, .shared-header-left,
+.up-header-left, .up-line-left, .shared-line-left, .shared-line-left-changed, .upqueue-line-left
+{
+text-align : left;
+}
+.down-line-right, .down-line-good-right, .down-header-right
+{
+text-align : right;
+}
+.down-header, .down-header-left, .down-header-right,
+.up-header, .up-header-left, .server-header, .server-header-left,
+.shared-header, .shared-header-left, .upqueue-header,
+.websearch-header, .addserver-header
+{
+background-color : #0066CC;
+}
+.header
+{
+background-color : #0046AC;
+}
+.smallheader
+{
+background-color : #003399;
+color : #FFFFFF;
+}
+.commontext
+{
+background-color : #FFFFFF;
+color : #000000;
+}
+.down-line, .down-line-good, .down-line-left, .down-line-good-left,
+.down-line-right, .down-line-good-right,
+.up-line, .up-line-left, .server-line, .server-line-left,
+.shared-line, .shared-line-changed, .shared-line-left, .shared-line-left-changed,
+.upqueue-line, .upqueue-line-left,
+.websearch-line, .addserver-line
+{
+background-color : #3399FF;
+}
+.down-line-good, .down-line-good-left, .down-line-good-right, .shared-line-changed, .shared-line-left-changed
+{
+color : #FFFF00;
+}
+.percent_table
+{
+border-collapse: collapse;
+border-style: solid;
+border-width: 1;
+}
+.message
+{
+font-size: 12pt;
+font-weight: bold;
+color: #FF0000;
+}
+.dinput
+{
+border-width: 1px;
+border-color: black;
+border-style:dotted;
+}
+</style>
+<--TMPL_HEADER_STYLESHEET_END-->
+<--TMPL_FOOTER-->
+</body>
+</html>
+<--TMPL_FOOTER_END-->
+<--TMPL_SERVER_LIST-->
+<script language="javascript">
+img_connect = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x41, 0x8, 0x21, 0x8, 0x11, 0x8, 0xe1, 0x8,\
+0x1, 0x9, 0xa1, 0x8, 0x61, 0x8, 0xe1, 0x8, 0x1, 0x8, 0xfe, 0x7\
+}'
+img_cancel = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x1, 0x8, 0x99, 0x9, 0x91, 0x8, 0x61, 0x8,\
+0x61, 0x8, 0x91, 0x8, 0x99, 0x9, 0x1, 0x8, 0x1, 0x8, 0xfe, 0x7\
+}'
+</script>
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="95%">
+<tr>
+  <td align=center valign=top>
+[AddServerBox]<p>&nbps;</p>
+[ConnectedServerData]
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+<tr>
+ <td valign=center class="smallheader" colspan=6><b>[ServerList]</b></td>
+</tr>
+<tr>
+ <td valign=center class="server-header-left"><a href="/?ses=[Session]&w=server&sort=name[SortName]"><b>[Servername]</b></a></td>
+ <td valign=center class="server-header"><a href="/?ses=[Session]&w=server&sort=description[SortDescription]"><b>[Description]</b></a></td>
+ <td valign=center class="server-header"><a href="/?ses=[Session]&w=server&sort=ip[SortIP]"><b>[Address]</b></a></td>
+ <td valign=center class="server-header"><a href="/?ses=[Session]&w=server&sort=users[SortUsers]"><b>[Users]</b></a></td>
+ <td valign=center class="server-header"><a href="/?ses=[Session]&w=server&sort=files[SortFiles]"><b>[Files]</b></a></td>
+ <td valign=center class="server-header"><b>[Actions]</b></td>
+</tr>
+[ServersList]
+</table>
+ </td>
+</tr>
+</table>
+<--TMPL_SERVER_LIST_END-->
+<--TMPL_SERVER_LINE-->
+<tr>
+ <td valign=center class="server-line-left">[1]</td>
+ <td valign=center class="server-line">[2]</td>
+ <td valign=center class="server-line">[3]</td>
+ <td valign=center class="server-line">[4]</td>
+ <td valign=center class="server-line">[5]</td>
+ <td valign=center class="server-line"><acronym title="[Connect]"><a href="[6]" style="text-decoration: none"><img src="javascript:img_connect" alt="[Connect]"></a></acronym>
+<acronym title="[RemoveServer]"><a href="[LinkRemove]" onclick="return confirm('[ConfirmRemove]')"><img src="javascript:img_cancel" alt="[RemoveServer]"></a></acronym>
+</td>
+</tr>
+<--TMPL_SERVER_LINE_END-->
+<--TMPL_TRANSFER_IMAGES-->
+<script language="javascript">
+img_resume = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x1, 0x8, 0x31, 0x8, 0x71, 0x8, 0xf1, 0x8,\
+0xf1, 0x9, 0xf1, 0x8, 0x71, 0x8, 0x31, 0x8, 0x1, 0x8, 0xfe, 0x7\
+}'
+img_pause = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x1, 0x8, 0x99, 0x9, 0x99, 0x9, 0x99, 0x9,\
+0x99, 0x9, 0x99, 0x9, 0x99, 0x9, 0x1, 0x8, 0x1, 0x8, 0xfe, 0x7\
+}'
+img_info = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x61, 0x8, 0x1, 0x8, 0x61, 0x8, 0x61, 0x8,\
+0x61, 0x8, 0x61, 0x8, 0x61, 0x8, 0x61, 0x8, 0x1, 0x8, 0xfe, 0x7\
+}'
+img_cancel = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x1, 0x8, 0x99, 0x9, 0x91, 0x8, 0x61, 0x8,\
+0x61, 0x8, 0x91, 0x8, 0x99, 0x9, 0x1, 0x8, 0x1, 0x8, 0xfe, 0x7\
+}'
+img_link = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x1, 0x8, 0xf1, 0x8, 0xe1, 0x8, 0xf1, 0x8,\
+0xb9, 0x8, 0x19, 0x8, 0x9, 0x8, 0x11, 0x8, 0x01, 0x8, 0xfe, 0x7\
+}'
+img_black = '#define _width 4\n#define _height 4\nstatic unsigned char _bits[] = {\
+0xf, 0xf, 0xf, 0xf\
+}'
+</script>
+&nbsp;
+<--TMPL_TRANSFER_IMAGES_END-->
+<--TMPL_TRANSFER_LIST-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="95%">
+<tr>
+ <td align=center valign=center>
+[DownloadHeader]
+[DownloadFilesList]
+[DownloadFooter]
+&nbsp;
+[UploadHeader]
+[UploadFilesList]
+[UploadFooter]
+&nbsp;
+[UploadQueue]
+</td>
+</tr>
+</table>
+<--TMPL_TRANSFER_LIST_END-->
+<--TMPL_TRANSFER_DOWN_HEADER-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+<tr>
+ <td valign=center class="smallheader" colspan=7><b>[DownloadList]</b></td>
+</tr>
+<tr>
+ <td valign=center class="down-header-left"><a href="/?ses=[Session]&w=transfer&sort=name[SortName]"><b>[Filename]</b></a></td>
+ <td valign=center class="down-header"><a href="/?ses=[Session]&w=transfer&sort=size[SortSize]"><b>[Size]</b></a></td>
+ <td valign=center class="down-header"><a href="/?ses=[Session]&w=transfer&sort=transferred[SortTransferred]"><b>[Transferred]</b></a></td>
+ <td valign=center class="down-header"><a href="/?ses=[Session]&w=transfer&sort=transferred[SortTransferred]"><b>[Percent]</b></a></td>
+ <td valign=center class="down-header"><a href="/?ses=[Session]&w=transfer&sort=speed[SortSpeed]"><b>[Speed]</b></a></td>
+ <td valign=center class="down-header"><b>[Sources]</b></td>
+ <td valign=center class="down-header"><b>[Actions]</b></td>
+</tr>
+<--TMPL_TRANSFER_DOWN_HEADER_END-->
+<--TMPL_TRANSFER_DOWN_FOOTER-->
+<tr>
+ <td valign=center class="down-header-left"><b>[TotalDown]</b></td>
+ <td valign=center class="down-header-right"><b>[TotalDownSize]</b></td>
+ <td valign=center class="down-header-right"><b>[TotalDownTransferred]</b></td>
+ <td valign=center class="down-header">&nbsp;</td>
+ <td valign=center class="down-header-right"><b>[TotalDownSpeed]</b></td>
+ <td valign=center class="down-header">&nbsp;</td>
+ <td valign=center class="down-header">&nbsp;</td>
+</tr>
+</table>
+<--TMPL_TRANSFER_DOWN_FOOTER_END-->
+<--TMPL_TRANSFER_DOWN_LINE-->
+<tr>
+ <td valign=top class="down-line-left"><acronym title="[FileInfo]">[ShortFileName]</acronym></td>
+ <td valign=top class="down-line-right">[2]</td>
+ <td valign=top class="down-line-right">[3]</td>
+ <td valign=middle class="down-line"><table width=100 height=4 border=1 class="percent_table" bordercolor=black cellpadding=0 cellspacing=0><tr><td><img src="javascript:img_black" height=4 width="[Percent]" alt="[Percent] %"></td></tr></table></td>
+ <td valign=top class="down-line-right">[4]</td>
+ <td valign=top class="down-line">[5]</td>
+ <td valign=top class="down-line">[6]</td>
+</tr>
+<--TMPL_TRANSFER_DOWN_LINE_END-->
+<--TMPL_TRANSFER_DOWN_LINE_GOOD-->
+<tr>
+ <td valign=top class="down-line-good-left"><acronym title="[FileInfo]">[ShortFileName]</acronym></td>
+ <td valign=top class="down-line-good-right">[2]</td>
+ <td valign=top class="down-line-good-right">[3]</td>
+ <td valign=middle class="down-line-good"><table width=100 height=4 border=1 class="percent_table" bordercolor=black cellpadding=0 cellspacing=0><tr><td><img src="javascript:img_black" height=4 width="[Percent]" alt="[Percent] %"></td></tr></table></td>
+ <td valign=top class="down-line-good-right">[4]</td>
+ <td valign=top class="down-line-good">[5]</td>
+ <td valign=top class="down-line-good">[6]</td>
+</tr>
+<--TMPL_TRANSFER_DOWN_LINE_GOOD_END-->
+<--TMPL_TRANSFER_UP_HEADER-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+<tr>
+ <td valign=center class="smallheader" colspan=4><b>[UploadList]</b></td>
+</tr>
+<tr>
+ <td valign=center class="up-header-left"><b>[User]</b></td>
+ <td valign=center class="up-header"><b>[Filename]</b></td>
+ <td valign=center class="up-header"><b>[Transferred]</b></td>
+ <td valign=center class="up-header"><b>[Speed]</b></td>
+</tr>
+<--TMPL_TRANSFER_UP_HEADER_END-->
+<--TMPL_TRANSFER_UP_FOOTER-->
+<tr>
+ <td valign=center class="up-header-left"><b>[TotalUp]</b></td>
+ <td valign=center class="up-header"></td>
+ <td valign=center class="up-header"><b>[TotalUpTransferred]</b></td>
+ <td valign=center class="up-header"><b>[TotalUpSpeed]</b></td>
+</tr>
+</table>
+<--TMPL_TRANSFER_UP_FOOTER_END-->
+<--TMPL_TRANSFER_UP_LINE-->
+<tr>
+ <td valign=top class="up-line-left"><acronym title="[FileInfo]">[1]</acronym></td>
+ <td valign=top class="up-line-left"><acronym title="[FileInfo]">[2]</acronym></td>
+ <td valign=top class="up-line">[3]</td>
+ <td valign=top class="up-line">[4]</td>
+</tr>
+<--TMPL_TRANSFER_UP_LINE_END-->
+<--TMPL_TRANSFER_UP_QUEUE_SHOW-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+<tr>
+ <td valign=center class="smallheader" colspan=4><b>[UploadQueueList]</b></td>
+</tr>
+<tr>
+ <td valign=center class="upqueue-header"><b>[UserNameTitle]</b></td>
+ <td valign=center class="upqueue-header"><b>[FileNameTitle]</b></td>
+ <td valign=center class="upqueue-header"><b>[ScoreTitle]</b></td>
+ <td valign=center class="upqueue-header"><b>[BannedTitle]</b></td>
+</tr>
+[QueueList]
+</table>
+<br>
+<p align=center><a href="/?ses=[Session]&w=transfer&showuploadqueue=false"><div class=commontext>[HideQueue]</div></a></p>
+<--TMPL_TRANSFER_UP_QUEUE_SHOW_END-->
+<--TMPL_TRANSFER_UP_QUEUE_LINE-->
+<tr>
+ <td valign=top class="upqueue-line-left">[UserName]</td>
+ <td valign=top class="upqueue-line">[FileName]</td>
+ <td valign=top class="upqueue-line">[Score]</td>
+ <td valign=top class="upqueue-line">[Banned]</td>
+</tr>
+<--TMPL_TRANSFER_UP_QUEUE_LINE_END-->
+<--TMPL_TRANSFER_UP_QUEUE_HIDE-->
+<br>
+<p align=center><a href="/?ses=[Session]&w=transfer&showuploadqueue=true"><div class=commontext>[ShowQueue]</div></a></p>
+<--TMPL_TRANSFER_UP_QUEUE_HIDE_END-->
+<--TMPL_TRANSFER_BAD_LINK-->
+<div class="message">[InvalidLink]<br>[Link]</div>
+<--TMPL_TRANSFER_BAD_LINK_END-->
+<--TMPL_DOWNLOAD_LINK-->
+&nbsp;
+<table align=center border=0 cellpadding=4 cellspacing=0 width="80%">
+<tr>
+<td align=center valign=center bgcolor="#0066CC">
+<p><font face=Arial style="font-size:12pt;"><b>[Download]</b></font></p>
+</td>
+</tr>
+<tr>
+ <td align=center valign=top bgcolor="#3399FF">
+  <form action="/" method="GET">
+   <font face=Arial style="font-size:12pt;">&nbsp;<br>[Ed2klink]<br><br>
+   <input type="hidden" name=ses value="[Session]">
+   <input type="hidden" name=w value=transfer>
+   <input type="text" name=c size=100 class=dinput>
+   <br><br><input type=submit value="[Start]"></font>
+  </form>
+  </font>
+ </td>
+</tr>
+</table>
+<--TMPL_DOWNLOAD_LINK_END-->
+<--TMPL_SHARED_LIST-->
+<script language="javascript">
+img_link = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x7, 0x1, 0x8, 0x1, 0x8, 0xf1, 0x8, 0xe1, 0x8, 0xf1, 0x8,\
+0xb9, 0x8, 0x19, 0x8, 0x9, 0x8, 0x11, 0x8, 0x01, 0x8, 0xfe, 0x7\
+}'
+img_up = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x07, 0x01, 0x08, 0x61, 0x08, 0xf1, 0x08, 0xf9, 0x09, 0xfd, 0x0b,\
+0x61, 0x08, 0x61, 0x08, 0x61, 0x08, 0x61, 0x08, 0x01, 0x08, 0xfe, 0x07\
+}'
+img_down = '#define _width 12\n#define _height 12\nstatic unsigned char _bits[] = {\
+0xfe, 0x07, 0x01, 0x08, 0x61, 0x08, 0x61, 0x08, 0x61, 0x08, 0x61, 0x08,\
+0xfd, 0x0b, 0xf9, 0x09, 0xf1, 0x08, 0x61, 0x08, 0x01, 0x08, 0xfe, 0x07\
+}'
+</script>
+<p>&nbsp;</p>
+<table align=center border=0 cellpadding=4 cellspacing=0 width="95%">
+<tr>
+ <td valign=center class="shared-header-left"><a href="/?ses=[Session]&w=shared&[SortName]"><b>[Filename]</b></a></td>
+ <td valign=center class="shared-header"><a href="/?ses=[Session]&w=shared&[SortTransferred]"><b>[FileTransferred]</b></a></td>
+ <td valign=center class="shared-header"><a href="/?ses=[Session]&w=shared&[SortRequests]"><b>[FileRequests]</b></a></td>
+ <td valign=center class="shared-header"><a href="/?ses=[Session]&w=shared&[SortAccepts]"><b>[FileAccepts]</b></a></td>
+ <td valign=center class="shared-header"><a href="/?ses=[Session]&w=shared&[SortSize]"><b>[Size]</b></a></td>
+ <td valign=center class="shared-header"><a href="/?ses=[Session]&w=shared&[SortPriority]"><b>[Priority]</b></a></td>
+ <td valign=center width="10%" class="shared-header"><b>[Ed2klink]</b></td>
+</tr>
+<p align=center><div class="message">[Message]</div></p>
+<p><a href="/?ses=[Session]&w=shared&reload=true"><font face=Arial style="font-size:10pt;" color=black><b>[Reload]</b></font></a></p><br>
+[SharedFilesList]
+</table>
+<--TMPL_SHARED_LIST_END-->
+<--TMPL_SHARED_LINE-->
+<tr>
+ <td valign=top class="shared-line-left"><acronym title="[FileName]
+ Hash: [FileHash]">[ShortFileName]</td>
+ <td valign=top class="shared-line">[FileTransferred]([FileAllTimeTransferred])</td>
+ <td valign=top class="shared-line">[FileRequests]([FileAllTimeRequests])</td>
+ <td valign=top class="shared-line">[FileAccepts]([FileAllTimeAccepts])</td>
+ <td valign=top class="shared-line">[FileSize]</td>
+ <td valign=top class="shared-line">[Priority]</td>
+ <td valign=top class="shared-line">
+<acronym title="[Ed2klink]"><a href="[FileLink]"><img src="javascript:img_link" alt="[Ed2klink]"></a></acronym>
+<acronym title="[PriorityUp]"><a href="/?ses=[Session]&w=shared&[PriorityUpLink]"><img src="javascript:img_up" alt="[PriorityUp]"></a></acronym>
+<acronym title="[PriorityDown]"><a href="/?ses=[Session]&w=shared&[PriorityDownLink]"><img src="javascript:img_down" alt="[PriorityDown]"></a></acronym>
+</td>
+</tr>
+<--TMPL_SHARED_LINE_END-->
+<--TMPL_SHARED_LINE_CHANGED-->
+<tr>
+ <td valign=top class="shared-line-left-changed"><acronym title="[FileName]
+ Hash: [FileHash]">[ShortFileName]</td>
+ <td valign=top class="shared-line-changed">[FileTransferred]([FileAllTimeTransferred])</td>
+ <td valign=top class="shared-line-changed">[FileRequests]([FileAllTimeRequests])</td>
+ <td valign=top class="shared-line-changed">[FileAccepts]([FileAllTimeAccepts])</td>
+ <td valign=top class="shared-line-changed">[FileSize]</td>
+ <td valign=top class="shared-line-changed">[Priority]</td>
+ <td valign=top class="shared-line-changed">
+<acronym title="[Ed2klink]"><a href="[FileLink]"><img src="javascript:img_link" alt="[Ed2klink]"></a></acronym>
+<acronym title="[PriorityUp]"><a href="/?ses=[Session]&w=shared&[PriorityUpLink]"><img src="javascript:img_up" alt="[PriorityUp]"></a></acronym>
+<acronym title="[PriorityDown]"><a href="/?ses=[Session]&w=shared&[PriorityDownLink]"><img src="javascript:img_down" alt="[PriorityDown]"></a></acronym>
+</td>
+</tr>
+<--TMPL_SHARED_LINE_CHANGED_END-->
+<--TMPL_GRAPHS-->
+&nbsp;
+<table border=0 align=center cellpadding=0 cellspacing=0>
+<tr><td style="border-width:1px; border-color:green; border-style:solid;">
+<table border=0 cellpadding=1 cellspacing=0>
+<tr>[GraphDownload]</tr></table>
+</td></tr>
+<tr><td align=center><font color=black>[TxtDownload]: Max [MaxDownload]</font><br>&nbsp;</td></tr>
+<tr><td style="border-width:1px; border-color:red; border-style:solid;">
+<table border=0 cellpadding=1 cellspacing=0>
+<tr>[GraphUpload]</tr></table>
+</td></tr>
+<tr><td align=center><font color=black>[TxtUpload]: Max [MaxUpload]</font></td></tr>
+</table>
+<--TMPL_GRAPHS_END-->
+<--TMPL_LOG-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+<tr>
+<td align=left valign=center class="commontext">
+<font color=#000000><pre>
+[Log]
+</pre></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=center>
+<form action="/" method="GET">
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=log>
+<input type="hidden" name=clear value=yes>
+<input type=submit value="[Clear]"></form>
+</td>
+</tr>
+</table>
+<--TMPL_LOG_END-->
+<--TMPL_SERVERINFO-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+<tr>
+<td align=left valign=center class="commontext">
+<font color=#000000><pre>
+[ServerInfo]
+</pre></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=center>
+<form action="/" method="GET">
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=sinfo>
+<input type="hidden" name=clear value=yes>
+<input type=submit value="[Clear]"></form>
+</td>
+</tr>
+</table>
+<--TMPL_SERVERINFO_END-->
+<--TMPL_DEBUGLOG-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+<tr>
+<td align=left valign=center class="commontext">
+<font color=#000000><pre>
+[DebugLog]
+</pre></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=center>
+<form action="/" method="GET">
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=debuglog>
+<input type="hidden" name=clear value=yes>
+<input type=submit value="[Clear]"></form>
+</td>
+</tr>
+</table>
+<--TMPL_DEBUGLOG_END-->
+<--TMPL_STATS-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="80%">
+<tr>
+<td align=left valign=center class="commontext">
+<font color=#000000><pre>
+[Stats]
+</pre></font>
+</td>
+</tr>
+</table>
+<--TMPL_STATS_END-->
+<--TMPL_PREFERENCES-->
+&nbsp;
+<table border=0 align=center cellpadding=4 cellspacing=0 width="90%">
+<tr>
+<td align=left valign=center bgcolor="#0066CC">
+<font face=Arial style="font-size:10pt;"><b>[UseGzipForm]</b></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=top bgcolor="#3399FF">
+<form action="/" method="GET">
+<table border=0 cellspacing=0 width="100%">
+<tr>
+<td align=left>
+<br>
+[UseGzipComment]
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=options>
+<input type="radio" name=gzip value="true" [UseGzipVal]> [UseGzip]
+&nbsp;
+<input type="radio" name=gzip value="false" [NotUseGzipVal]> [NotUseGzip]
+</td>
+<td align=right>
+<br>
+<input type=submit value="[Apply]">
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+<tr>
+<td align=left valign=center bgcolor="#0066CC">
+<font face=Arial style="font-size:10pt;"><b>[ShowUploadQueueForm]</b></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=top bgcolor="#3399FF">
+<form action="/" method="GET">
+<table border=0 cellspacing=0 width="100%">
+<tr>
+<td align=left>
+<br>
+[ShowUploadQueueComment]
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=options>
+<input type="radio" name=showuploadqueue value="true" [ShowUploadQueueVal]> [ShowUploadQueue]
+&nbsp;
+<input type="radio" name=showuploadqueue value="false" [HideUploadQueueVal]> [HideUploadQueue]
+</td>
+<td align=right>
+<br>
+<input type=submit value="[Apply]">
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+<tr>
+<td align=left valign=center bgcolor="#0066CC">
+<font face=Arial style="font-size:10pt;"><b>[RefreshTimeForm]</b></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=top bgcolor="#3399FF">
+<form action="/" method="GET">
+<table border=0 cellspacing=0 width="100%">
+<tr>
+<td align=left>
+<br>
+[RefreshTimeComment]
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=options>
+<input type="text" name=refresh size="5" class=dinput value="[RefreshVal]">
+</td>
+<td align=right>
+<br>
+<input type=submit value="[Apply]">
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+<tr>
+<td align=left valign=center bgcolor="#0066CC">
+<font face=Arial style="font-size:10pt;"><b>[SpeedForm]</b></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=top bgcolor="#3399FF">
+<form action="/" method="GET">
+<table border=0 cellspacing=0 width="100%">
+<tr>
+<td align=left>
+<br>
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=options>
+[MaxDown]: <input type="text" name=maxdown size="5" class=dinput value="[MaxDownVal]">
+[MaxUp]: <input type="text" name=maxup size="5" class=dinput value="[MaxUpVal]">
+</td>
+<td align=right>
+<br>
+<input type=submit value="[Apply]">
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+<tr>
+<td align=left valign=center bgcolor="#0066CC">
+<font face=Arial style="font-size:10pt;"><b>[SpeedCapForm]</b></font>
+</td>
+</tr>
+<tr>
+<td align=left valign=top bgcolor="#3399FF">
+<form action="/" method="GET">
+<table border=0 cellspacing=0 width="100%">
+<tr>
+<td align=left>
+<br>
+<input type="hidden" name=ses value="[Session]">
+<input type="hidden" name=w value=options>
+[MaxCapDown]: <input type="text" name=maxcapdown size="5" class=dinput value="[MaxCapDownVal]">
+[MaxCapUp]: <input type="text" name=maxcapup size="5" class=dinput value="[MaxCapUpVal]">
+</td>
+<td align=right>
+<br>
+<input type=submit value="[Apply]">
+</td>
+</tr>
+</table>
+</form>
+</td>
+</tr>
+</table>
+&nbsp;
+<--TMPL_PREFERENCES_END-->
+<--TMPL_LOGIN-->
+<html>
+<meta http-equiv="content-type" content="text/html; charset=[CharSet]">
+<head>
+<title>[eMulePlus] [version]</title>
+</head>
+<body bgcolor=#FFFFF8 text=white link=white vlink=white alink=white onload="javascript:document.login.p.focus();">
+<table align=center border=0 cellpadding=4 cellspacing=0 width="100%" height="100%">
+<tr><td align=center valign=middle>
+<table align=center border=0 cellpadding=4 cellspacing=0 width="80%">
+<tr>
+<td align=center valign=center bgcolor="#0066CC">
+<p><font face=Arial style="font-size:12pt;"><b>[Login]</b></font></p>
+</td>
+</tr>
+<tr>
+<td align=center valign=top bgcolor="#3399FF">
+<form action="/" method="POST" name="login">
+<font face=Arial style="font-size:12pt;">&nbsp;<br>[EnterPassword]<br><br>
+<input type="password" name=p maxlength=12 size=37 style="border-width: 1px; border-color: black; border-style:dotted;" value="">
+<input type="hidden" name=w value="password">
+<br><br><input type=submit value="[LoginNow]"></font>
+</form>
+</font>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+<--TMPL_LOGIN_END-->
+<--TMPL_CONNECTED_SERVER-->
+<table border=0 align=center cellpadding=4 cellspacing=0 width="100%">
+<tr>
+ <td valign=center class="smallheader" colspan=5><b>[ConnectedServer]</b></td>
+</tr>
+<tr>
+ <td valign=center class="server-header"><b>[Status]</b></td>
+ <td valign=center class="server-header"><b>[Servername]</b></td>
+ <td valign=center class="server-header"><b>[Usercount]</b></td>
+ <td valign=center class="server-line"><a href="[URL_Disconnect]">[Disconnect]</a></td>
+ <td valign=center class="server-header"><a href="[URL_ServerOptions]">[ServerOptions]</td>
+</tr>
+<tr>
+ <td valign=center class="server-line">[1]</td>
+ <td valign=center class="server-line">[2]</td>
+ <td valign=center class="server-line">[3]</td>
+ <td valign=center class="server-header"><a href="[URL_Connect]">[Connect]</a></td>
+ <td valign=center class="server-line"><a href="/?ses=[Session]&w=websearch">[WebSearch]</td>
+</tr>
+</table>
+&nbsp;
+<--TMPL_CONNECTED_SERVER_END-->
+<--TMPL_ADDSERVERBOX-->
+<div class="message">[Message]</div>
+<table border=0 align=center cellpadding=4 cellspacing=0 width="40%">
+<tr>
+<td valign=center class="addserver-header"><b>[AddServer]</b></td>
+</tr>
+<tr>
+ <td valign=center class="addserver-line">
+<form action="/" method="GET">
+  [IP] <input name="serveraddr" type="text" size="15">
+  [Port] <input name="serverport" type="text" size="6"><br>
+  [Name] <input name="servername" type="text" size="30"><br>
+  <input type="hidden" name=ses value="[Session]">
+  <input type="hidden" name=w value="server">
+  <input type="hidden" name=c value="options">
+  <input name="addserver" type="hidden" value="true"><br>
+  <input type="submit" value="[Add]">
+</form>
+ </td>
+</tr>
+<tr>
+<td valign=center class="addserver-header"><b>[UpdateServerMetFromURL]</b></td>
+</tr>
+<tr>
+ <td valign=center class="addserver-line">
+<form action="/" method="GET">
+  [URL] <input name="servermeturl" type="text" size="30"><br>
+  <input type="hidden" name=ses value="[Session]">
+  <input type="hidden" name=w value="server">
+  <input type="hidden" name=c value="options">
+  <input name="updateservermetfromurl" type="hidden" value="true"><br>
+  <input type="submit" value="[Apply]">
+</form>
+ </td>
+</tr>
+</table>
+<--TMPL_ADDSERVERBOX_END-->
+<--TMPL_WEBSEARCH-->
+<form action="/" method="GET">
+<table border=0 align=center cellpadding=4 cellspacing=0 width="40%">
+<tr>
+<td valign=center class="websearch-header"><b>[WebSearch]</b></td>
+</tr>
+<tr>
+ <td valign=center class="websearch-line">
+  [Name] <input name="tosearch" type="text" size="15">
+  <br><br>
+  [Type] <select name="media">
+  <option value="">[Any]</option>
+  <option value="Audio">[Audio]</option>
+  <option value="Video">[Video]</option>
+  <option value="Pro">[Other]</option>
+  </select>
+  <br><br>
+  <input type="hidden" name=ses value="[Session]">
+  <input type="hidden" name=w value="websearch">
+  <input type="submit" value="[Search]">
+ </td>
+</tr>
+</table>
+</form>
+<--TMPL_WEBSEARCH_END-->@
+
+
+1.4
+log
+@Templates version check
+@
+text
+@@
+
+
+1.3
+log
+@Little fix
+@
+text
+@d1 3
+@
+
+
+1.2
+log
+@WebServer improvements
+@
+text
+@d143 6
+d338 2
+a339 2
+<p><b>&nbsp;</b></p>
+<p align=center><a href="/?ses=[Session]&w=transfer&showuploadqueue=false"><font face=Arial style="font-size:10pt;" color=black>[HideQueue]</font></a></p>
+d350 2
+a351 2
+<p><b>&nbsp;</b></p>
+<p align=center><a href="/?ses=[Session]&w=transfer&showuploadqueue=true"><font face=Arial style="font-size:10pt;" color=black>[ShowQueue]</font></a></p>
+d370 1
+a370 1
+   <input type="text" name=c size=100 style="border-width:1px; border-color:black; border-style:dotted;">
+d605 1
+a605 1
+<input type="text" name=refresh size="5" value="[RefreshVal]">
+d630 2
+a631 2
+[MaxDown]: <input type="text" name=maxdown size="5" value="[MaxDownVal]">
+[MaxUp]: <input type="text" name=maxup size="5" value="[MaxUpVal]">
+d656 2
+a657 2
+[MaxCapDown]: <input type="text" name=maxcapdown size="5" value="[MaxCapDownVal]">
+[MaxCapUp]: <input type="text" name=maxcapup size="5" value="[MaxCapUpVal]">
+d669 1
+d690 1
+a690 1
+<input type="password" name=p maxlength=12 size=37 style="border-width:1px; border-color:black; border-style:dotted;" value="">
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d13 1
+a13 1
+  <p><font face="Arial Black" style="font-size:22pt;">&nbsp;[eMulePlus] [WebControl]</span></font></p>
+d22 2
+a23 1
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=graphs">[Graphs]</a></b>
+d26 2
+a27 1
+  &nbsp;&nbsp;|&nbsp;&nbsp;<b><a href="/?ses=[Session]&w=options">[Options]</a></b>
+d492 33
+@
+
+
+1.1.2.1
+log
+@updating this branch...
+@
+text
+@@
+

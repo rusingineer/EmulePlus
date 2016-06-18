@@ -1,0 +1,555 @@
+head	1.10;
+access;
+symbols
+	PublicRelease_1i:1.9
+	Interim_Release_1i_RC6:1.9
+	Interim_Release_1i_RC3:1.9
+	Interim_Release_1i_RC2:1.9
+	Interim_Release_1i_RC1:1.9
+	Interim_Release_1i_beta3:1.9
+	Interim_Release_1i_beta2:1.7
+	Interim_Release_1i_beta1:1.7
+	PublicRelease_1h:1.5
+	Interim_Release_1h_rc2:1.5
+	Interim_Release_1h_RC1:1.5
+	Interim_Release_1h_beta2:1.5
+	Interim_Release_1h_beta1_now:1.5
+	Interim_Release_1h_beta1:1.5
+	PublicRelease_1g:1.5
+	Interim_Release_1g_RC6_Final:1.5
+	Interim_Release_1g_RC6:1.5
+	Interim_Release_1g_RC5:1.5
+	Interim_Release_1g_RC4:1.5
+	Interim_Release_1g_RC3:1.5
+	Interim_Release_1g_beta2:1.5
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.5
+	Interim_Release_1f_RC3:1.5
+	Interim_Release_1f_RC2:1.5
+	Interim_Release_1f_RC:1.5
+	Interim_Release_1f_beta2:1.5
+	Interim_Release_1f_beta1:1.5
+	PublicRelease_1e:1.5
+	Interim_Release_1e_RC2:1.5
+	Interim_Release_1e_RC:1.5
+	Interim_Release_1e_beta3:1.5
+	Interim_Release_1e_beta2:1.5
+	Interim_Release_1e_beta2_before_kuchin:1.5
+	Interim_Release_1e_beta1:1.5
+	PublicRelease_1c:1.5
+	featurestest:1.5.0.2
+	Interim_Release_1c_RC:1.5
+	Interim_Release_1c_beta2:1.5
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.2
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.3.0.4
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.3
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.3
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.10
+date	2003.12.18.13.36.59;	author katsyonak;	state dead;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.30.02.44.37;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.29.17.04.51;	author katsyonak;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.19.00.13.37;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.18.04.10.49;	author recdvst;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.14.10.33.49;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.09.18.39.41;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.24.22.07.48;	author maverick65;	state Exp;
+branches
+	1.2.2.1
+	1.2.4.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.18;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.10;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.4.1
+date	2003.02.05.01.58.41;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@/********************************************************************
+
+		HyperTextCtrl.h - Controls that shows hyperlinks 
+		in text
+
+		Copyright (C) 2001-2002 Magomed G. Abdurakhmanov			
+
+********************************************************************/
+//edited by (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//-> converted it to MFC
+//-> included colored keywords
+//-> fixed GPF bugs
+//-> made it flickerfree
+//-> some other small changes
+// (the whole code still needs some work though)
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#pragma once
+
+#include <list>
+#include <vector>
+#include "types.h"
+
+//namespace HyperTextControl 
+//{
+
+#define HTC_WORDWRAP			1	// word wrap text
+#define HTC_AUTO_SCROLL_BARS	2	// auto hide scroll bars
+#define HTC_UNDERLINE_LINKS		4	// underline links
+#define HTC_UNDERLINE_HOVER		8	// underline hover links
+#define HTC_ENABLE_TOOLTIPS		16	// enable hyperlink tool tips
+
+// --------------------------------------------------------------
+// CHyperLink
+
+class CHyperLink{
+	friend class CPreparedHyperText;
+public:
+	CHyperLink(); // i_a 
+	CHyperLink(int iBegin, uint16 iEnd, const CString& sTitle, const CString& sCommand, const CString& sDirectory);
+	CHyperLink(int iBegin, uint16 iEnd, const CString& sTitle, HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	CHyperLink(const CHyperLink& Src);
+
+	void Execute();
+	 bool operator < (const CHyperLink& Arg)		{return m_iEnd < Arg.m_iEnd;}
+	 uint16 Begin()									{return m_iBegin;}
+	 uint16 End()									{return m_iEnd;}
+	 uint16 Len()									{return m_iEnd - m_iBegin + 1;}
+	 CString Title()								{return m_sTitle;}
+	 void SetBegin( uint16 m_iInBegin )				{m_iBegin = m_iInBegin;}
+	 void SetEnd( uint16 m_iInEnd )					{m_iEnd = m_iInEnd;}
+
+protected:
+	int m_iBegin;
+	int m_iEnd;
+	CString m_sTitle;
+
+	enum LinkType
+	{
+		lt_Unknown = 0,  // i_a 
+		lt_Shell = 0, /* http:// mailto:*/
+		lt_Message = 1 /* WM_COMMAND */
+	} m_Type;
+
+	// used for lt_Shell
+	CString m_sCommand;
+	CString m_sDirectory;
+	// used for lt_Message
+	HWND m_hWnd; 
+	UINT m_uMsg;
+	WPARAM m_wParam;
+	LPARAM m_lParam;
+};
+
+// --------------------------------------------------------------
+// CKeyWord
+
+class CKeyWord{
+	friend class CPreparedHyperText;
+public:
+	CKeyWord(int iBegin, uint16 iEnd, COLORREF icolor);
+
+	 bool operator < (const CKeyWord& Arg)		{return m_iEnd < Arg.m_iEnd;}
+	 uint16 Begin()									{return m_iBegin;}
+	 uint16 End()									{return m_iEnd;}
+	 void SetBegin( uint16 m_iInBegin )				{m_iBegin = m_iInBegin;}
+	 void SetEnd( uint16 m_iInEnd )					{m_iEnd = m_iInEnd;}
+	 COLORREF Color()								{return color;}
+	 uint16 Len()									{return m_iEnd - m_iBegin + 1;}
+protected:
+	int m_iBegin;
+	int m_iEnd;
+	COLORREF color;
+};
+
+// --------------------------------------------------------------
+// CPreparedHyperText
+
+class CPreparedHyperText{
+public:
+	CPreparedHyperText()						{}
+	CPreparedHyperText(const CString& sText);
+	CPreparedHyperText(const CPreparedHyperText& src);
+
+	void Clear();
+	void SetText(const CString& sText);
+	void AppendText(const CString& sText);
+	void AppendHyperLink(const CString& sText, const CString& sTitle, const CString& sCommand, const CString& sDirectory);
+	void AppendHyperLink(const CString& sText, const CString& sTitle, HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam);
+	void AppendKeyWord(const CString& sText, COLORREF iColor);
+
+	 CString& GetText()					{return m_sText;}
+	 std::list<CHyperLink>& GetLinks()	{return m_Links;}
+	 std::list<CKeyWord>& GetKeywords()	{return m_KeyWords;}
+	//friend class CHyperTextCtrl;
+
+protected:
+	CString m_sText;
+	std::list<CHyperLink> m_Links;
+	std::list<CKeyWord> m_KeyWords;
+
+	 void RemoveLastSign(CString& sLink);
+	void PrepareText(const CString& sText);
+	bool tspace(TCHAR c)						{return _istspace(c) || c < _T(' ') || c == _T(';') || /*c == _T(',') ||*/ c == _T('!');}
+
+};
+// --------------------------------------------------------------
+// CLinePartInfo
+class CLinePartInfo{
+public:
+	uint16 m_xBegin;
+	uint16 m_xEnd;
+	CHyperLink* m_pHyperLink;
+	CKeyWord* m_pKeyWord;
+
+	 CLinePartInfo(int iBegin, uint16 iEnd, CHyperLink* pHyperLink = NULL, CKeyWord* pKeyWord = NULL);
+	 CLinePartInfo(const CLinePartInfo& Src);
+	 uint16 Begin()							{return m_xBegin;}
+	 uint16 End()							{return m_xEnd;}
+	 uint16 Len()							{return ((m_xEnd - m_xBegin) + 1);}
+};
+
+// --------------------------------------------------------------
+// CLineInfo
+class CLineInfo : public std::vector<CLinePartInfo>{
+public:
+	int m_iBegin;
+	int m_iEnd;
+
+	 CLineInfo(int iBegin, uint16 iEnd);
+	 CLineInfo(const CLineInfo& Src);
+	 uint16 Begin()						{return m_iBegin;}
+	 uint16 End()						{return m_iEnd;}
+	 uint16 Len()						{return m_iEnd - m_iBegin + 1;}
+};
+
+// --------------------------------------------------------------
+// CVisPart
+class CVisPart : public CLinePartInfo {
+public:
+	CRect m_rcBounds;
+	int m_iRealBegin;
+	int m_iRealLen;
+	CVisPart* m_pPrev;
+	CVisPart* m_pNext;
+
+	 CVisPart(const CLinePartInfo& LinePartInfo, const CRect& rcBounds, 
+		int iRealBegin, uint16 iRealLen,CVisPart* pPrev,CVisPart* pNext);
+	 CVisPart(const CVisPart& Src);
+};
+
+class CVisLine : public std::vector<CVisPart>
+{	};
+
+
+// --------------------------------------------------------------
+// CHyperTextCtrl
+
+class CHyperTextCtrl : public CWnd{
+	DECLARE_DYNAMIC(CHyperTextCtrl)
+protected:
+	CPreparedHyperText* m_Text;
+	CPreparedHyperText  standard_Text;
+	std::vector<CLineInfo> m_Lines;	
+	CFont* m_Font;
+	COLORREF m_BkColor;
+	COLORREF m_TextColor;
+	COLORREF m_LinkColor;
+	COLORREF m_HoverColor;
+	HCURSOR m_LinkCursor;
+	HCURSOR m_DefaultCursor;
+
+	CToolTipCtrl m_tip;
+
+	//temporary variables
+	bool vscrollon;
+	int m_iMaxWidth;				// The maximum line width
+	int m_iLineHeight;				// Height of one line
+	int m_iLinesHeight;				// Sum of height of all lines
+	bool m_bDontUpdateSizeInfo;		// Used to prevent recursive call of the UpdateSize() method
+	int m_iVertPos;					// Vertical position in percents
+	int m_iHorzPos;					// Horizontal position in percents
+	CFont m_fontDefault;			// This font is set by default
+	CFont m_LinksFont;				// Copied from main font to faster draw (link)
+	CFont m_HoverFont;				// Copied from main font to faster draw (hover link)
+	std::vector<CVisLine> m_VisLines;	// Currently visible text
+	CVisPart* m_pActivePart;		// Active part of link (hovered)
+	int m_iWheelDelta;				// Mouse wheel scroll delta
+	DECLARE_MESSAGE_MAP()
+
+public:
+	CHyperTextCtrl();
+	virtual BOOL PreTranslateMessage(MSG* pMsg)			{return FALSE;}
+	void Clear()					{m_Text->Clear();UpdateSize(true);}
+
+	//message handlers
+	afx_msg void OnMouseMove(UINT nFlags,CPoint pt);
+	afx_msg void OnLButtonDown(UINT nFlags,CPoint pt);
+	afx_msg BOOL OnMouseWheel(UINT nFlags,short zDelta,CPoint pt);
+	afx_msg LRESULT OnCreate(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnDestroy(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnPaint(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnSize(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnShowWindow(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnSetText(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnGetText(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnSetFont(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnGetFont(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnHScroll(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnVScroll(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnCaptureChanged(WPARAM wParam, LPARAM lParam);
+	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
+	afx_msg void OnSysColorChange();
+	// Operations
+	 CPreparedHyperText* GetHyperText();
+	 void SetHyperText(CPreparedHyperText* Src, bool bInvalidate = true);
+	 void AppendText(const CString& sText, bool bInvalidate = true);
+	 void AppendHyperLink(const CString& sText, const CString& sTitle, const CString& sCommand, const CString& sDirectory, bool bInvalidate = true);
+	 void AppendHyperLink(const CString& sText, const CString& sTitle, HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam, bool bInvalidate = true);
+	 void AppendKeyWord(const CString& sText, COLORREF icolor);
+	 COLORREF GetBkColor()							{return m_BkColor;}
+	 void SetBkColor(COLORREF Color)				{m_BkColor = Color;}	
+	 COLORREF GetTextColor()						{return m_TextColor;}
+	 void SetTextColor(COLORREF Color)				{m_TextColor = Color;}	
+	 COLORREF GetLinkColor()						{return m_LinkColor;}
+	 void SetLinkColor(COLORREF LinkColor, bool bInvalidate = true);
+	 COLORREF GetHoverColor()						{return m_HoverColor;}
+	 void SetHoverColor(COLORREF HoverColor)		{m_HoverColor = HoverColor;}	
+	 HCURSOR GetLinkCursor()						{return m_LinkCursor;}
+	 void SetLinkCursor(HCURSOR LinkCursor)			{m_LinkCursor = LinkCursor;}
+	 HCURSOR GetDefaultCursor()						{return m_DefaultCursor;}
+	 void SetDefaultCursor(HCURSOR DefaultCursor)	{m_DefaultCursor = DefaultCursor;}
+	 void UpdateSize(bool bRepaint);
+protected:
+	bool check_bits(DWORD Value, DWORD Mask)		{return (Value & Mask) == Mask;}
+	void UpdateFonts();
+	void UpdateVisLines();
+	void HighlightLink(CVisPart* Part, const CPoint& MouseCoords);
+	void RestoreLink();
+	void SetColors();
+	void LoadHandCursor();
+};
+
+@
+
+
+1.9
+log
+@Formatting, comments, and name changes.
+@
+text
+@@
+
+
+1.8
+log
+@Rich Edit control for all logs (from official v0.30c) ;
+Fixed bug #0000023 - Mouse wheel in Serverinfo window does not work
+@
+text
+@d276 1
+@
+
+
+1.7
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@a221 1
+	bool tracked;
+d225 1
+a225 1
+	CHyperTextCtrl():tracked(false)	{m_Text = &standard_Text;vscrollon = false;m_LinkCursor=NULL;}
+a226 1
+	virtual ~CHyperTextCtrl();
+d234 1
+d274 1
+a274 3
+	static HCURSOR LoadHandCursor();
+public:
+	afx_msg void OnDestroy();
+a275 3
+
+
+
+@
+
+
+1.6
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d216 1
+a216 1
+	CFont m_DefaultFont;			// This font is set by default
+@
+
+
+1.5
+log
+@Fixed bug #29
+@
+text
+@d196 1
+a196 1
+	CPreparedHyperText  standart_Text;
+d226 1
+a226 1
+	CHyperTextCtrl():tracked(false)	{m_Text = &standart_Text;vscrollon = false;m_LinkCursor=NULL;}
+@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@d222 1
+d226 1
+a226 1
+	CHyperTextCtrl()				{m_Text = &standart_Text;vscrollon = false;m_LinkCursor=NULL;}
+@
+
+
+1.3
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d225 1
+a225 1
+	CHyperTextCtrl()				{m_Text = &standart_Text;vscrollon = false;}
+d227 1
+d275 2
+@
+
+
+1.2
+log
+@updated to .25b codebase
+@
+text
+@d227 1
+@
+
+
+1.2.4.1
+log
+@initial upgrade to .26
+@
+text
+@a226 1
+	void Clear()					{m_Text->Clear();UpdateSize(true);}
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d137 1
+a137 1
+	bool tspace(TCHAR c)						{return _istspace(c) || c < _T(' ') || c == _T(';') || c == _T(',') || c == _T('!');}
+@
+

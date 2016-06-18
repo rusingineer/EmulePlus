@@ -1,0 +1,2402 @@
+head	1.97;
+access;
+symbols
+	PublicRelease_1_2e:1.96
+	Interim_Release_1-2e_RC1:1.96
+	PublicRelease_1_2d:1.95
+	Interim_Release_1-2d_RC1:1.95
+	Interim_Release_1-2d_beta1:1.95
+	PublicRelease_1_2c:1.94
+	Interim_Release_1-2c_RC1:1.94
+	Interim_Release_1-2c_beta1:1.93
+	PublicRelease_1_2b:1.92
+	Interim_Release_1-2b_RC1:1.92
+	PublicRelease_1_2a:1.91
+	Interim_Release_1-2a_RC1:1.91
+	Interim_Release_1-2a_beta2:1.91
+	Interim_Release_1-2a_beta1:1.91
+	PublicRelease_1_2:1.90
+	Interim_Release_1-2_RC1:1.90
+	Interim_Release_1-2_beta1:1.89
+	PublicRelease_1_1g:1.87
+	Interim_Release_1-1g_RC3:1.87
+	Interim_Release_1-1g_RC2:1.86
+	Interim_Release_1-1g_RC1:1.85
+	Interim_Release_1-1g_beta2:1.85
+	Interim_Release_1-1g_beta1:1.84
+	PublicRelease_1_1f:1.83
+	Interim_Release_1-1f_RC1:1.83
+	PublicRelease_1_1e:1.82
+	Interim_Release_1-1e_RC2:1.82
+	Interim_Release_1-1e_RC1:1.81
+	Interim_Release_1-1e_beta1:1.81
+	PublicRelease_1_1d:1.80
+	Interim_Release_1-1d_RC1:1.80
+	PublicRelease_1_1c:1.79
+	Interim_Release_1-1c_RC1:1.79
+	Interim_Release_1-1c_beta2:1.79
+	Interim_Release_1-1c_beta1:1.79
+	PublicRelease_1_1b:1.78
+	Interim_Release_1-1b_RC1:1.78
+	PublicRelease_1_1a:1.77
+	Interim_Release_1-1a_RC2:1.77
+	Interim_Release_1-1a_RC1:1.77
+	Interim_Release_1-1a_beta2:1.74
+	Interim_Release_1-1a_beta1:1.73
+	PublicRelease_1_1:1.71
+	Interim_Release_1-1_beta1:1.71
+	PublicRelease_1o:1.68
+	Interim_Release_1o_RC1:1.68
+	Interim_Release_1o_beta1:1.66
+	PublicRelease_1n:1.65
+	Interim_Release_1n_RC2:1.65
+	Interim_Release_1n_RC1:1.65
+	Interim_Release_1n_beta2:1.63
+	PublicRelease_1m:1.61
+	Interim_Release_1m_beta1:1.61
+	PublicRelease_1l:1.60
+	Interim_Release_1l_RC3:1.60
+	Interim_Release_1l_RC2:1.58
+	Interim_Release_1l_RC1:1.58
+	Interim_Release_1l_beta2:1.57
+	Interim_Release_1l_beta1:1.57
+	PublicRelease_1k:1.54
+	Interim_Release_1k_RC4:1.53
+	Interim_1k_RC3:1.53
+	Interim_1k_RC2:1.53
+	Interim_Release_1k_RC1:1.53
+	Interim_Release_1k_beta5:1.53
+	Intrerim_Release_1k_beta4:1.53
+	Interim_Release_1k_beta1:1.52
+	PublicRelease_1j:1.51
+	Interim_Release_1J_RC3:1.50
+	Interim_Release_1j_RC3:1.50
+	Interim_Release_1j_RC2:1.50
+	Interim_Release_1j_RC1:1.50
+	Interim_Release_1j_beta2:1.50
+	Interim_Release_1j_beta1:1.50
+	PublicRelease_1i:1.49
+	Interim_Release_1i_RC6:1.49
+	Interim_Release_1i_RC3:1.49
+	Interim_Release_1i_RC2:1.49
+	Interim_Release_1i_RC1:1.49
+	Interim_Release_1i_beta3:1.48
+	Interim_Release_1i_beta2:1.48
+	Interim_Release_1i_beta1:1.42
+	PublicRelease_1h:1.36
+	Interim_Release_1h_rc2:1.35
+	Interim_Release_1h_RC1:1.35
+	Interim_Release_1h_beta2:1.33
+	Interim_Release_1h_beta1_now:1.29
+	Interim_Release_1h_beta1:1.29
+	PublicRelease_1g:1.27
+	Interim_Release_1g_RC6_Final:1.27
+	Interim_Release_1g_RC6:1.25
+	Interim_Release_1g_RC5:1.25
+	Interim_Release_1g_RC4:1.20
+	Interim_Release_1g_RC3:1.18
+	Interim_Release_1g_beta2:1.16
+	Interim_Release_1g_beta1:1.14
+	Interim_Release_1f_RC4:1.12
+	Interim_Release_1f_RC3:1.12
+	Interim_Release_1f_RC2:1.11
+	Interim_Release_1f_RC:1.11
+	Interim_Release_1f_beta2:1.11
+	Interim_Release_1f_beta1:1.11
+	PublicRelease_1e:1.10
+	Interim_Release_1e_RC2:1.9
+	Interim_Release_1e_RC:1.8
+	Interim_Release_1e_beta3:1.8
+	Interim_Release_1e_beta2:1.8
+	Interim_Release_1e_beta2_before_kuchin:1.8
+	Interim_Release_1e_beta1:1.7
+	PublicRelease_1c:1.6
+	featurestest:1.5.0.4
+	Interim_Release_1c_RC:1.5
+	Interim_Release_1c_beta2:1.5
+	Interim_Release_1c_beta1:1.5
+	threaded_downloadqueue:1.5.0.2
+	PublicRelease_1b:1.5
+	Interim_Release_1b_beta2:1.5
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.4.0.2
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.97
+date	2009.04.21.02.22.59;	author aw3;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2008.05.18.18.24.07;	author aw3;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2007.09.18.18.54.18;	author fuxie-dk;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2007.06.07.04.40.14;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2007.02.08.03.48.41;	author aw3;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2006.10.13.13.35.00;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2006.03.03.02.56.46;	author aw3;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2006.02.12.09.13.13;	author morphisthebrave;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2006.01.10.08.19.35;	author dongato;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2005.12.22.12.54.48;	author aw3;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2005.12.14.17.22.37;	author dongato;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2005.12.09.04.23.25;	author aw3;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2005.11.07.02.15.19;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2005.08.01.15.18.35;	author aw3;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2005.07.13.01.30.55;	author aw3;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2005.06.26.04.07.56;	author aw3;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2005.03.22.04.17.52;	author aw3;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2005.03.02.02.54.40;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.12.27.19.37.23;	author aw3;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.12.12.17.31.50;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.11.22.20.56.12;	author dongato;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.11.22.14.48.03;	author dongato;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.11.22.06.49.46;	author dongato;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.11.11.16.14.40;	author aw3;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.10.23.04.55.34;	author aw3;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.10.22.17.54.25;	author aw3;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.10.10.19.48.14;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.10.03.14.37.26;	author dongato;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.09.29.15.38.23;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.09.27.05.39.09;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.09.25.07.02.33;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.09.14.13.09.53;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.08.26.17.51.35;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.08.26.12.49.25;	author dongato;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.07.05.20.51.00;	author dongato;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.06.25.19.24.44;	author dongato;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.06.14.22.42.49;	author dongato;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.06.07.20.54.52;	author dongato;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.06.07.19.01.07;	author dongato;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.05.22.20.04.42;	author dongato;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.04.27.21.28.52;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.04.24.12.12.28;	author dongato;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.04.09.11.42.57;	author dongato;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.04.08.17.02.48;	author dongato;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.03.03.21.45.24;	author dropf;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.01.29.12.18.04;	author dongato;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.01.24.20.09.26;	author dongato;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.12.09.12.47.00;	author dongato;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.11.04.20.03.58;	author dongato;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.10.21.14.34.02;	author dongato;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.10.20.23.18.13;	author dongato;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.10.16.22.02.17;	author syrus77;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.10.07.11.36.34;	author dongato;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.10.07.00.01.57;	author dongato;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.10.06.22.04.02;	author puritynn666;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.09.24.19.18.41;	author bavariansnail;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.09.24.07.12.16;	author dongato;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.09.24.07.09.08;	author dongato;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.09.21.21.32.53;	author puritynn666;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.09.21.21.13.21;	author puritynn666;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.09.21.14.41.03;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.09.18.13.41.23;	author dongato;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.09.07.14.20.01;	author puritynn666;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.09.06.12.06.52;	author puritynn666;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.09.02.19.21.33;	author puritynn666;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.09.01.23.03.13;	author dongato;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.08.31.20.52.06;	author dongato;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.08.31.17.20.19;	author dongato;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.08.17.16.11.55;	author dongato;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.08.06.00.18.35;	author dongato;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.07.26.08.33.48;	author dongato;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.07.21.20.43.47;	author dongato;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.07.11.14.34.25;	author dongato;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.07.10.21.00.26;	author dongato;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.07.10.15.37.34;	author dongato;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.07.09.23.56.02;	author dongato;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.07.09.14.00.06;	author dongato;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.07.08.19.51.17;	author dongato;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.07.08.04.01.36;	author dongato;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.06.23.02.26.23;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.06.16.13.20.59;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.04.23.17.06;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.03.18.58.49;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.05.27.12.28.07;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.05.27.04.48.25;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.05.15.10.21.50;	author dongato;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.04.29.10.42.28;	author dongato;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.04.28.12.20.51;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.04.27.00.10.04;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.04.19.12.46.58;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.24.00.16.30;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.23.12.38.20;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.08.17.33.35;	author dongato;	state Exp;
+branches
+	1.5.4.1;
+next	1.4;
+
+1.4
+date	2003.02.27.16.01.12;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.26.02.24.37;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.24.21.01.41;	author dongato;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.02.21.11.53.20;	author dongato;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.02.28.22.45.00;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.5.4.1
+date	2003.03.24.09.39.55;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.97
+log
+@Starting 1.2f.
+@
+text
+@; Script generated by the Inno Setup Script Wizard.
+; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
+
+[Setup]
+AllowNoIcons=yes
+AppName=eMule Plus
+AppPublisher=eMule Plus Team
+AppPublisherURL=http://emuleplus.info
+AppSupportURL=http://emuleplus.info/forum/index.php?showforum=23
+AppUpdatesURL=http://emuleplus.info
+Compression=lzma/max
+DefaultDirName={pf}\eMule
+DefaultGroupName=eMule
+LicenseFile=..\files\license.txt
+PrivilegesRequired=admin
+SolidCompression=yes
+VersionInfoDescription=eMule Plus, The eye candy eMule client
+WizardImageFile=..\res\Graphics\InstallerScreen.bmp
+; Values to be changed with each new release
+AppVerName=eMule Plus 1.2f
+VersionInfoVersion=1.2.6.0
+OutputBaseFilename=eMulePlus-1.2f.Installer
+
+[Tasks]
+Name: desktopicon; Description: "Create a &desktop icon"; GroupDescription: "Additional icons:"
+Name: quicklaunchicon; Description: "Create a &Quick Launch icon"; GroupDescription: "Additional icons:"; Flags: unchecked
+
+[Files]
+Source: "..\Release\eMule.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\changelog+.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\countryflag.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\eMuleLight.tmpl"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\eMuleXP.tmpl"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\license.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\readme.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\unrar.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\files\config\addresses.dat"; DestDir: "{app}\Config"; Flags: confirmoverwrite uninsneveruninstall
+Source: "..\files\config\ip-to-country.csv"; DestDir: "{app}\Config"; Flags: confirmoverwrite uninsneveruninstall
+Source: "..\files\config\ipfilter.dat"; DestDir: "{app}\Config"; Flags: confirmoverwrite uninsneveruninstall
+Source: "..\files\config\staticservers.dat"; DestDir: "{app}\Config"; Flags: confirmoverwrite uninsneveruninstall
+Source: "..\files\config\webservices.dat"; DestDir: "{app}\Config"; Flags: confirmoverwrite uninsneveruninstall
+Source: "..\files\webserver\eMuleLight.css"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\eMuleXP.css"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\dynamicdrive-popitmenu.js"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\dynamicdrive-tooltip2.js"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\eMulePlus-basics.js"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\add_server.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\arrow_down.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\arrow_up.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\arrow_up_q.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\black.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\blue1.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\blue2.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\blue3.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\blue4.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\blue5.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\blue6.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\checked.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\checked_no.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_0.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_1.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_2.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_3.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_4.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_5.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_6.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_7.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_8.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_9.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\client_type_10.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\complete.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\completing.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\connecting.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_0.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_1.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_2.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_3.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_4.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_5.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_6.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_7.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_8.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_9.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_10.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\disconnected.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\downloading.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\error.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\failed.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\file.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filedown.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_application.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_archive.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_cdimage.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_document.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_movie.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_music.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_other.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\filetype_picture.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\green.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\greenpercent.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_emule.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_graph.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_log.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_preferences.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_search.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_server.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_shared.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_statistic.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\h_transfer.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\hashing.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\high.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_a4af.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_banned.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_credit.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_friend.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_getflc.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_halfnone.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_jumpstart.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_none.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_release.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\is_static.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_a4af.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_add.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_auto_a4af.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_calendar.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_cancel.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_catarrow.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_category.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_catprio.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_clear.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_clock.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_close.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_con.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_connect.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_downarrow.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_dndoublearrow.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_ed2klink.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_fake.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_filedonkey.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_filesearch.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_forum.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_friend.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_getflc.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_hasherror.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_homepage.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_info.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_jumpstart.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_logout.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_none.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_options.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_pause.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_reboot.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_remove.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_rename.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_resume.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_search.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_server.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_shared.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_showcat.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_shutdown.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_sources_10.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_sources_25.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_sources_5.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_sources_50.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_static.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_stop.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_timer.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_timer_off.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_uparrow.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_updoublearrow.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_users.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\l_version.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_bottom.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_downmain.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_lefttop.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_righttop.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_top.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_topdown.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_topseperator.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\logo.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\low.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\m_category.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\m_catprio.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\m_clearcompleted.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\main_bg.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\main_menubg.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\main_topbar.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\main_topbardarker.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\main_topbarseperator.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\menudown.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\menuup.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_black.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_blue1.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_blue2.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_blue3.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_blue4.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_blue5.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_blue6.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_green.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_greenpercent.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_red.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\p_yellow.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\paused.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\red.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stalled.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_0.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_1.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_10.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_11.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_12.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_13.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_14.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_15.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_16.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_2.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_3.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_4.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_5.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_6.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_7.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_8.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_9.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_back.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_con.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_down.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_hidden.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_space.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_up.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stats_visible.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\stopped.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_complete.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_completing.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_connecting.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_downloading.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_error.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_hashing.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_next.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_paused.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_stalled.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_stopped.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_uploading.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_waiting.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\t_waitinghash.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\tooltip.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\transparent.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\waiting.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\waitinghash.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\yellow.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\favicon.ico"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\qs_con.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\qs_down.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\qs_up.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\qs_user.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+
+[Icons]
+Name: "{group}\eMule Plus"; Filename: "{app}\eMule.exe"
+Name: "{group}\eMule Plus on the Web"; Filename: "{app}\eMule.url"
+Name: "{group}\Uninstall eMule Plus"; Filename: "{uninstallexe}"
+Name: "{userdesktop}\eMule Plus"; Filename: "{app}\eMule.exe"; Tasks: desktopicon
+Name: "{userappdata}\Microsoft\Internet Explorer\Quick Launch\eMule Plus"; Filename: "{app}\eMule.exe"; Tasks: quicklaunchicon
+
+[INI]
+Filename: "{app}\eMule.url"; Section: "InternetShortcut"; Key: "URL"; String: "http://emuleplus.info"
+
+[Run]
+Filename: "{app}\eMule.exe"; Description: "Launch eMule Plus"; Flags: nowait postinstall skipifsilent
+
+[UninstallDelete]
+Type: files; Name: "{app}\eMule.url"
+@
+
+
+1.96
+log
+@Starting v1.2e.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.2e
+VersionInfoVersion=1.2.5.0
+OutputBaseFilename=eMulePlus-1.2e.Installer
+@
+
+
+1.95
+log
+@Comment: Starting 1.2d [Aw3]
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.2d
+VersionInfoVersion=1.2.4.0
+OutputBaseFilename=eMulePlus-1.2d.Installer
+@
+
+
+1.94
+log
+@Removed l_sources_0.gif which is not required anymore after implementation of "show overall file rating provided by servers in the search list".
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.2c
+VersionInfoVersion=1.2.3.0
+OutputBaseFilename=eMulePlus-1.2c.Installer
+@
+
+
+1.93
+log
+@v1.2c.
+@
+text
+@a160 1
+Source: "..\files\webserver\l_sources_0.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.92
+log
+@1.2b preparations.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.2b
+VersionInfoVersion=1.2.2.0
+OutputBaseFilename=eMulePlus-1.2b.Installer
+@
+
+
+1.91
+log
+@1.2a.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.2a
+VersionInfoVersion=1.2.1.0
+OutputBaseFilename=eMulePlus-1.2a.Installer
+@
+
+
+1.90
+log
+@Replaced four progress bar jpg's with gif's
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.2
+VersionInfoVersion=1.2.0.0
+OutputBaseFilename=eMulePlus-1.2.Installer
+@
+
+
+1.89
+log
+@Updated installer to contain .JS files
+@
+text
+@d251 4
+a254 4
+Source: "..\files\webserver\qs_con.jpg"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\qs_down.jpg"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\qs_up.jpg"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\qs_user.jpg"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.88
+log
+@Let's start 1.2.
+@
+text
+@d44 3
+@
+
+
+1.87
+log
+@Changed WebServer Tooltip code and minor fix for XP template download menu
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1g
+VersionInfoVersion=1.1.7.0
+OutputBaseFilename=eMulePlus-1.1g.Installer
+@
+
+
+1.86
+log
+@Added WebServer CSS files to the installation.
+@
+text
+@d242 1
+@
+
+
+1.85
+log
+@Removed l_donkeyfakes.gif.
+@
+text
+@d42 2
+@
+
+
+1.84
+log
+@1.1g.
+@
+text
+@a129 1
+Source: "..\files\webserver\l_donkeyfakes.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.83
+log
+@It's time for v1.1f.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1f
+VersionInfoVersion=1.1.6.0
+OutputBaseFilename=eMulePlus-1.1f.Installer
+@
+
+
+1.82
+log
+@Added new WebServer pictures to installation script.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1e
+VersionInfoVersion=1.1.5.0
+OutputBaseFilename=eMulePlus-1.1e.Installer
+@
+
+
+1.81
+log
+@v1.1e.
+@
+text
+@d187 2
+@
+
+
+1.80
+log
+@v1.1d.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1d
+VersionInfoVersion=1.1.4.0
+OutputBaseFilename=eMulePlus-1.1d.Installer
+@
+
+
+1.79
+log
+@1.1c.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1c
+VersionInfoVersion=1.1.3.0
+OutputBaseFilename=eMulePlus-1.1c.Installer
+@
+
+
+1.78
+log
+@Starting v1.1b.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1b
+VersionInfoVersion=1.1.2.0
+OutputBaseFilename=eMulePlus-1.1b.Installer
+@
+
+
+1.77
+log
+@More updates by Aw3 request
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1a
+VersionInfoVersion=1.1.1.0
+OutputBaseFilename=eMulePlus-1.1a.Installer
+@
+
+
+1.76
+log
+@Ops!
+@
+text
+@a45 1
+Source: "..\files\webserver\back.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+a81 1
+Source: "..\files\webserver\emule.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+a169 1
+Source: "..\files\webserver\log.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.75
+log
+@Removed eMule.tmpl (and associated files)
+@
+text
+@a31 1
+Source: "..\files\eMule.tmpl"; DestDir: "{app}"; Flags: ignoreversion
+@
+
+
+1.74
+log
+@PDF WebServer file type is merged with Document file type.
+@
+text
+@a70 7
+Source: "..\files\webserver\cp_download.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\cp_search.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\cp_servers.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\cp_settings.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\cp_shared.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\cp_stats.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\cp_stats2.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.73
+log
+@Removed unused pictures.
+@
+text
+@a95 1
+Source: "..\files\webserver\filetype_adobe.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.72
+log
+@v1.1a.
+@
+text
+@a47 4
+Source: "..\files\webserver\bar_bg.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\bar_bg_bot.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\bar_bg_head.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\bar_bg_top.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+a181 2
+Source: "..\files\webserver\login_bg_bot.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\login_bg_top.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.71
+log
+@WebServer: added double sorting arrows for the second level sorting.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1
+VersionInfoVersion=1.1.0.0
+OutputBaseFilename=eMulePlus-1.1.Installer
+@
+
+
+1.70
+log
+@Minor change
+@
+text
+@d147 1
+d182 1
+@
+
+
+1.69
+log
+@We are moving to v1.1.
+@
+text
+@d17 1
+a17 1
+VersionInfoDescription=eMule Plus, The eye candy eMule Mod
+@
+
+
+1.68
+log
+@v1o is back.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1o
+VersionInfoVersion=1.0.15.0
+OutputBaseFilename=eMulePlus-1o.Installer
+@
+
+
+1.67
+log
+@Removed client_type_x.gif & ct_x.gif; Added client_type_10.gif & ct_10.gif;
+Changed release version into v1.1.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1.1
+VersionInfoVersion=1.1.0.0
+OutputBaseFilename=eMulePlus-1.1.Installer
+@
+
+
+1.66
+log
+@v1o.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1o
+VersionInfoVersion=1.0.15.0
+OutputBaseFilename=eMulePlus-1o.Installer
+d71 1
+a71 1
+Source: "..\files\webserver\client_type_x.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+d92 1
+a92 1
+Source: "..\files\webserver\ct_x.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.65
+log
+@WebServer: updated client icons according to the main style.
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1n
+VersionInfoVersion=1.0.14.0
+OutputBaseFilename=eMulePlus-1n.Installer
+@
+
+
+1.64
+log
+@Updated WS client identification per Aw3 request
+@
+text
+@a91 2
+Source: "..\files\webserver\ct_c.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+Source: "..\files\webserver\ct_h.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.63
+log
+@WebServer: added Get First/Last chunk for Preview
+@
+text
+@d70 1
+d91 1
+a93 1
+Source: "..\files\webserver\ct_p.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.62
+log
+@Not anymore release... so we can start with changes for 1n. :-)
+@
+text
+@d127 1
+d154 1
+@
+
+
+1.61
+log
+@No more 1l release...
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1m
+VersionInfoVersion=1.0.13.0
+OutputBaseFilename=eMulePlus-1m.Installer
+@
+
+
+1.60
+log
+@Fixed image preload and added a clear timeout image
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1l
+VersionInfoVersion=1.0.12.0
+OutputBaseFilename=eMulePlus-1l.Installer
+@
+
+
+1.59
+log
+@Removed old code and fixed issues with categories in WebServer templates
+@
+text
+@d177 2
+@
+
+
+1.58
+log
+@Removed Drop SuperCompressed blocks feature from WebServer
+@
+text
+@a155 1
+Source: "..\files\webserver\l_jigle.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+a167 1
+Source: "..\files\webserver\l_sharereactor.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.57
+log
+@countryflag32.dll is removal from the installation (32bit icons won't be supported).
+@
+text
+@a130 1
+Source: "..\files\webserver\is_scb.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+a146 1
+Source: "..\files\webserver\l_dropscb.gif"; DestDir: "{app}\WebServer"; Flags: ignoreversion
+@
+
+
+1.56
+log
+@It's better we keep the file uncompressed so updates will be managed by CVS and we can make the installer properly ;)
+@
+text
+@a31 1
+Source: "..\files\countryflag32.dll"; DestDir: "{app}"; Flags: ignoreversion
+@
+
+
+1.55
+log
+@Moving onto 1l
+@
+text
+@d31 2
+d40 1
+@
+
+
+1.54
+log
+@Preparing for release... Updated installer profile for Inno 4.x
+@
+text
+@d20 3
+a22 3
+AppVerName=eMule Plus 1k
+VersionInfoVersion=1.0.11.0
+OutputBaseFilename=eMulePlus-1k.Installer
+@
+
+
+1.53
+log
+@improved fakelist download, and added fakes.rar file support
+@
+text
+@d5 1
+a6 1
+AppVerName=eMule Plus 1k
+d11 1
+a13 1
+AllowNoIcons=yes
+d15 3
+d19 4
+d25 2
+a26 2
+Name: "desktopicon"; Description: "Create a &desktop icon"; GroupDescription: "Additional icons:"
+Name: "quicklaunchicon"; Description: "Create a &Quick Launch icon"; GroupDescription: "Additional icons:"; Flags: unchecked
+d29 234
+a262 225
+Source: "..\Release\eMule.exe"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\changelog+.txt"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\eMule.tmpl"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\eMuleLight.tmpl"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\eMuleXP.tmpl"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\license.txt"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\readme.txt"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\unrar.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\config\addresses.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+Source: "..\files\config\ipfilter.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+Source: "..\files\config\staticservers.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+Source: "..\files\config\webservices.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+Source: "..\files\webserver\add_server.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\arrow_down.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\arrow_up.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\arrow_up_q.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\back.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\bar_bg.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\bar_bg_bot.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\bar_bg_head.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\bar_bg_top.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\black.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\blue1.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\blue2.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\blue3.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\blue4.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\blue5.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\blue6.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\checked.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\checked_no.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_0.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_1.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_2.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_3.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_4.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_5.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_6.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_7.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_8.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_type_x.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\complete.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\completing.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\connecting.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\cp_download.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\cp_search.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\cp_servers.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\cp_settings.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\cp_shared.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\cp_stats.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\cp_stats2.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_0.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_1.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_2.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_3.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_4.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_5.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_6.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_7.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_8.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_c.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_h.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_p.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\ct_x.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\disconnected.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\downloading.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\emule.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\error.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\failed.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\file.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filedown.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_adobe.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_application.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_archive.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_cdimage.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_document.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_movie.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_music.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_other.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\filetype_picture.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\green.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\greenpercent.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_emule.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_graph.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_log.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_preferences.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_search.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_server.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_shared.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_statistic.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\h_transfer.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\hashing.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\high.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_a4af.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_banned.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_credit.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_friend.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_halfnone.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_jumpstart.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_none.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_release.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_scb.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\is_static.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_a4af.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_add.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_auto_a4af.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_calendar.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_cancel.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_catarrow.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_category.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_catprio.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_clear.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_clock.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_close.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_con.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_connect.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_donkeyfakes.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_downarrow.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_dropscb.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_ed2klink.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_fake.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_filedonkey.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_filesearch.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_forum.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_friend.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_hasherror.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_homepage.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_info.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_jigle.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_jumpstart.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_logout.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_none.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_options.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_pause.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_reboot.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_remove.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_resume.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_search.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_server.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_shared.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_sharereactor.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_showcat.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_shutdown.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_sources_0.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_sources_10.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_sources_25.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_sources_5.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_sources_50.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_static.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_stop.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_uparrow.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_users.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_version.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\log.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_bg_bot.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_bg_top.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_bottom.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_downmain.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_lefttop.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_righttop.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_top.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_topdown.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_topseperator.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\logo.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\low.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\m_category.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\m_catprio.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\m_clearcompleted.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\main_bg.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\main_menubg.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\main_topbar.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\main_topbardarker.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\main_topbarseperator.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\paused.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\red.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stalled.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_0.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_1.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_10.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_11.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_12.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_13.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_14.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_15.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_16.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_2.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_3.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_4.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_5.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_6.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_7.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_8.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_9.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_back.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_con.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_down.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_hidden.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_space.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_up.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_visible.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stopped.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_complete.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_completing.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_connecting.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_downloading.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_error.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_hashing.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_next.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_paused.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_stalled.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_stopped.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_uploading.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_waiting.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\t_waitinghash.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\transparent.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\waiting.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\waitinghash.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\yellow.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\favicon.ico"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\qs_con.jpg"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\qs_down.jpg"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\qs_up.jpg"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\qs_user.jpg"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+
+[INI]
+Filename: "{app}\eMule.url"; Section: "InternetShortcut"; Key: "URL"; String: "http://emuleplus.info"
+d267 1
+d271 3
+@
+
+
+1.52
+log
+@To not forget again. :P
+@
+text
+@d29 1
+@
+
+
+1.51
+log
+@Minor changes
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1i
+@
+
+
+1.50
+log
+@1i
+@
+text
+@d8 3
+a10 3
+AppPublisherURL=http://emuleplus.sourceforge.net
+AppSupportURL=http://emuleplus.sourceforge.net
+AppUpdatesURL=http://emuleplus.sourceforge.net
+d245 1
+a245 1
+Filename: "{app}\eMule.url"; Section: "InternetShortcut"; Key: "URL"; String: "http://emuleplus.sourceforge.net"
+@
+
+
+1.49
+log
+@Some updates
+@
+text
+@a122 1
+
+d128 1
+d175 1
+d182 1
+a182 1
+Source: "..\files\webserver\login_topseparator.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d223 1
+@
+
+
+1.48
+log
+@Removed NNS feature and changed SLS
+@
+text
+@a22 1
+Source: "..\files\Config\addresses.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+a26 1
+Source: "..\files\Config\ipfilter.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+d29 4
+a32 2
+Source: "..\files\Config\staticservers.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+Source: "..\files\Config\webservices.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+d71 13
+d123 1
+a123 5
+Source: "..\files\webserver\log.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_bg_bot.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_bg_top.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\logo.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\low.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d136 2
+d140 1
+d143 1
+d146 1
+d154 1
+d160 2
+a161 1
+Source: "..\files\webserver\l_reboot.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d170 1
+d172 15
+d188 4
+d220 12
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@a126 1
+Source: "..\files\webserver\l_dropnns.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+@
+
+
+1.46
+log
+@Added an option to Reboot the PC from the WebServer [katsyonak]
+@
+text
+@d138 1
+d187 1
+@
+
+
+1.45
+log
+@Reinstated ShowFileStatusIcons
+@
+text
+@d145 1
+@
+
+
+1.44
+log
+@Updates
+@
+text
+@d27 1
+a27 1
+Source: "..\files\eMuleNeo.tmpl"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+@
+
+
+1.43
+log
+@fake check in webserver download list and search results (eMulePlus) ... fake check menu per file (eMulePlus) ... link menu (eMulePlus) ... version check (eMulePlus) ... new menu icons (eMulePlus) ... show failed servers in grey color (all templates) ... some minor bugfixes and improvements (all templates) ... image preload and copy additions (all templates + iss)
+@
+text
+@d27 1
+a27 1
+Source: "..\files\eMulePlus.tmpl"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+d89 9
+@
+
+
+1.42
+log
+@added 2 new webserver icons
+@
+text
+@d75 1
+@
+
+
+1.41
+log
+@Name change
+@
+text
+@d129 1
+d172 1
+@
+
+
+1.40
+log
+@Reorganization
+@
+text
+@d23 1
+a23 1
+Source: "..\files\Config\adresses.dat"; DestDir: "{app}\Config"; CopyMode: onlyifdoesntexist
+@
+
+
+1.39
+log
+@preload images update
+@
+text
+@d23 1
+a23 1
+Source: "..\files\adresses.dat"; DestDir: "{app}"; CopyMode: onlyifdoesntexist
+d28 1
+a28 1
+Source: "..\files\ipfilter.dat"; DestDir: "{app}"; CopyMode: onlyifdoesntexist
+d31 2
+a32 2
+Source: "..\files\staticservers.dat"; DestDir: "{app}"; CopyMode: onlyifdoesntexist
+Source: "..\files\webservices.dat"; DestDir: "{app}"; CopyMode: onlyifdoesntexist
+@
+
+
+1.38
+log
+@stalled filestate + filetype icons
+@
+text
+@d27 1
+d37 1
+d40 1
+a41 2
+Source: "..\files\webserver\bar_bg_head.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\back.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d100 5
+a131 1
+Source: "..\files\webserver\l_shutdown.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d134 1
+a142 5
+Source: "..\files\webserver\login_bg_bot.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\login_bg_top.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\log.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\logo.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\low.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+a146 1
+Source: "..\files\webserver\stats_back.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d164 2
+a166 2
+Source: "..\files\webserver\stats_up.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_con.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d169 1
+@
+
+
+1.37
+log
+@Katsyonak fix
+@
+text
+@d36 4
+d76 9
+a84 3
+Source: "..\files\webserver\GraphCon.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\GraphDL.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\GraphUL.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+a113 1
+Source: "..\files\webserver\l_file.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d127 2
+d137 2
+d142 1
+d145 2
+d164 3
+@
+
+
+1.36
+log
+@Public Release 1h
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1h
+@
+
+
+1.35
+log
+@jigle search (webserver)
+@
+text
+@d92 1
+d94 2
+a95 1
+Source: "..\files\webserver\l_calendar.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+a98 1
+Source: "..\files\webserver\l_category.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d118 5
+d131 1
+a131 5
+Source: "..\files\webserver\sources_0.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\sources_5.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\sources_10.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\sources_25.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\sources_50.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d133 7
+a147 7
+Source: "..\files\webserver\stats_10.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_11.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_12.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_13.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_14.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_15.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\stats_16.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+@
+
+
+1.34
+log
+@800x600 optimisation
+@
+text
+@d104 1
+d109 1
+@
+
+
+1.33
+log
+@latest webserver icons (stats + categories + sources + search dialog)
+@
+text
+@d93 1
+@
+
+
+1.32
+log
+@WebServer: added specific priority change for Downloads, Servers and Shared Files
+@
+text
+@d55 1
+d96 1
+d103 1
+d112 1
+d122 24
+@
+
+
+1.31
+log
+@Removed unused DLLs
+@
+text
+@a96 1
+Source: "..\files\webserver\l_down.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+a111 1
+Source: "..\files\webserver\l_up.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+@
+
+
+1.30
+log
+@Changed template and fied other files
+@
+text
+@a31 2
+Source: "..\files\libpng.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+Source: "..\files\zlib.dll"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+@
+
+
+1.29
+log
+@remote queue progress is now shown and color coded [cendre-eau]
+now you can set multiple files to Drop supercompressed blocks
+Some fixes to images and installer profile
+@
+text
+@a120 4
+Source: "..\files\webserver\qs_con.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\qs_down.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\qs_up.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\qs_user.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d126 4
+@
+
+
+1.28
+log
+@*** empty log message ***
+@
+text
+@d32 2
+d95 3
+d104 1
+d108 2
+d112 1
+d116 1
+d121 4
+@
+
+
+1.27
+log
+@Added missing file to distro.
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1g
+d56 1
+@
+
+
+1.26
+log
+@Updated Light Template and Installer script.
+@
+text
+@d84 1
+@
+
+
+1.25
+log
+@Added Jumpstart selection to WebServer [Purity]
+Minor fix for Win9x users
+@
+text
+@d44 2
+d55 1
+d67 1
+d75 1
+d108 1
+a111 4
+Source: "..\files\webserver\waiting_q.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\waiting_q_b.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\waiting_q_c.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\waiting_q_f.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+@
+
+
+1.24
+log
+@WebServer update for better browser compatibility and some other graphic changes [Purity/DonGato]
+@
+text
+@d94 1
+@
+
+
+1.23
+log
+@WebServer: updated code to take care of erroneous and hashing files
+@
+text
+@d65 1
+d71 1
+d76 2
+a79 1
+Source: "..\files\webserver\is_scba4af.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+a80 1
+Source: "..\files\webserver\high.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d91 1
+a93 2
+Source: "..\files\webserver\l_keepscb.gif.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\l_noauto_a4af.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d96 1
+@
+
+
+1.22
+log
+@WebServer:
+- auto A4AF file now it's shown
+- added fialed login message to login screen (no tries shown as it is a security concern)
+ServerList:
+- now static DynDns servers are accepted if no server filtering selected
+@
+text
+@d89 1
+@
+
+
+1.21
+log
+@Web Server: showing SCB files and Static servers, and updated icons to be smaller.
+@
+text
+@d70 1
+d76 1
+@
+
+
+1.20
+log
+@Last changes to WebServer (allow caching of images by browser)
+@
+text
+@a43 4
+Source: "..\files\webserver\client_extra_banned.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_extra_credit.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_extra_friend.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\client_extra_none.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d70 6
+@
+
+
+1.19
+log
+@Added eMuleLight template
+@
+text
+@d77 1
+d87 1
+@
+
+
+1.18
+log
+@Updated installer files.
+@
+text
+@d26 1
+d68 1
+a74 3
+Source: "..\files\webserver\log.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\logo.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+Source: "..\files\webserver\low.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+a75 1
+Source: "..\files\webserver\l_a4af_no.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d81 2
+d85 1
+d90 3
+d101 1
+@
+
+
+1.17
+log
+@Update to WebServer graphics
+@
+text
+@d23 1
+a23 1
+Source: "..\files\adresses.dat"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+d76 2
+d93 3
+@
+
+
+1.16
+log
+@WebServer: 3d bars with shades of blue
+@
+text
+@d34 2
+d43 14
+d64 2
+d67 3
+d72 1
+d74 3
+a76 1
+Source: "..\files\webserver\logo.jpg"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+d78 1
+d83 2
+d89 2
+@
+
+
+1.15
+log
+@WebServer: added different shades of blue (added by janes bong)
+@
+text
+@a34 1
+Source: "..\files\webserver\blue.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1f
+d36 6
+@
+
+
+1.13
+log
+@WebServer minifix
+@
+text
+@a52 1
+Source: "..\files\webserver\l_pause.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+@
+
+
+1.12
+log
+@Polishing and removal of changelog.txt from the installer script.
+@
+text
+@d54 1
+a54 1
+Source: "..\files\webserver\l_resume.gif"; DestDir: "{app}\WebServer"; CopyMode: alwaysoverwrite
+@
+
+
+1.11
+log
+@1f version numbering update
+@
+text
+@a23 1
+Source: "..\files\changelog.txt"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+@
+
+
+1.10
+log
+@Added one webserver file
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1e
+@
+
+
+1.9
+log
+@Minor updates
+@
+text
+@d43 1
+@
+
+
+1.8
+log
+@WebServer: update to template and solved another filename issue in the Upload Queue
+@
+text
+@d32 3
+d37 7
+d46 2
+@
+
+
+1.7
+log
+@1d Beta 1 version change and About minor correction.
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1d
+d32 15
+@
+
+
+1.6
+log
+@Languages update and 1c final touches.
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1c
+@
+
+
+1.5
+log
+@Updates to reCDVst changes (missing strings) and some changes to the context menu (lost an hour for a f****** define). Added standard web services.
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1b
+@
+
+
+1.5.4.1
+log
+@27c
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1d
+@
+
+
+1.4
+log
+@A4AF shown gray, context menus updated and minor updates. Beta 3 numbering.
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1a
+d31 1
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1
+@
+
+
+1.2
+log
+@Removed upload slots configuration.
+@
+text
+@d27 1
+a27 1
+Source: "..\files\ipfilter.dat"; DestDir: "{app}"; CopyMode: alwaysoverwrite
+@
+
+
+1.2.2.1
+log
+@v1a upgrade
+@
+text
+@d6 1
+a6 1
+AppVerName=eMule Plus 1a
+d27 1
+a27 1
+Source: "..\files\ipfilter.dat"; DestDir: "{app}"; CopyMode: onlyifdoesntexist
+@
+
+
+1.1
+log
+@Added instalation script and changed some minor text errors in log. Revision 1 at last. ,-)
+@
+text
+@d27 1
+@
+

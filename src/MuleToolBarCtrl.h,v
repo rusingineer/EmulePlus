@@ -1,0 +1,575 @@
+head	1.15;
+access;
+symbols
+	PublicRelease_1_2e:1.15
+	Interim_Release_1-2e_RC1:1.15
+	PublicRelease_1_2d:1.14
+	Interim_Release_1-2d_RC1:1.14
+	Interim_Release_1-2d_beta1:1.13
+	PublicRelease_1_2c:1.13
+	Interim_Release_1-2c_RC1:1.13
+	Interim_Release_1-2c_beta1:1.12
+	PublicRelease_1_2b:1.12
+	Interim_Release_1-2b_RC1:1.12
+	PublicRelease_1_2a:1.12
+	Interim_Release_1-2a_RC1:1.12
+	Interim_Release_1-2a_beta2:1.12
+	Interim_Release_1-2a_beta1:1.12
+	PublicRelease_1_2:1.12
+	Interim_Release_1-2_RC1:1.12
+	Interim_Release_1-2_beta1:1.12
+	PublicRelease_1_1g:1.12
+	Interim_Release_1-1g_RC3:1.12
+	Interim_Release_1-1g_RC2:1.12
+	Interim_Release_1-1g_RC1:1.12
+	Interim_Release_1-1g_beta2:1.12
+	Interim_Release_1-1g_beta1:1.12
+	PublicRelease_1_1f:1.12
+	Interim_Release_1-1f_RC1:1.12
+	PublicRelease_1_1e:1.12
+	Interim_Release_1-1e_RC2:1.12
+	Interim_Release_1-1e_RC1:1.12
+	Interim_Release_1-1e_beta1:1.12
+	PublicRelease_1_1d:1.12
+	Interim_Release_1-1d_RC1:1.12
+	PublicRelease_1_1c:1.12
+	Interim_Release_1-1c_RC1:1.12
+	Interim_Release_1-1c_beta2:1.12
+	Interim_Release_1-1c_beta1:1.12
+	PublicRelease_1_1b:1.11
+	Interim_Release_1-1b_RC1:1.11
+	PublicRelease_1_1a:1.11
+	Interim_Release_1-1a_RC2:1.11
+	Interim_Release_1-1a_RC1:1.11
+	Interim_Release_1-1a_beta2:1.11
+	Interim_Release_1-1a_beta1:1.11
+	PublicRelease_1_1:1.11
+	Interim_Release_1-1_beta1:1.11
+	PublicRelease_1o:1.11
+	Interim_Release_1o_RC1:1.11
+	Interim_Release_1o_beta1:1.11
+	PublicRelease_1n:1.11
+	Interim_Release_1n_RC2:1.11
+	Interim_Release_1n_RC1:1.11
+	Interim_Release_1n_beta2:1.11
+	Interim_Release_1n_beta1:1.10
+	PublicRelease_1m:1.10
+	Interim_Release_1m_beta1:1.10
+	PublicRelease_1l:1.10
+	Interim_Release_1l_RC3:1.10
+	Interim_Release_1l_RC2:1.10
+	Interim_Release_1l_RC1:1.10
+	Interim_Release_1l_beta2:1.10
+	Interim_Release_1l_beta1:1.10
+	PublicRelease_1k:1.10
+	Interim_Release_1k_RC4:1.10
+	Interim_1k_RC3:1.10
+	Interim_1k_RC2:1.10
+	Interim_Release_1k_RC1:1.10
+	Interim_Release_1k_beta5:1.10
+	Intrerim_Release_1k_beta4:1.10
+	Interim_Release_1k_beta1:1.9
+	PublicRelease_1j:1.9
+	Interim_Release_1J_RC3:1.9
+	Interim_Release_1j_RC3:1.9
+	Interim_Release_1j_RC2:1.9
+	Interim_Release_1j_RC1:1.9
+	Interim_Release_1j_beta2:1.9
+	Interim_Release_1j_beta1:1.9
+	PublicRelease_1i:1.9
+	Interim_Release_1i_RC6:1.9
+	Interim_Release_1i_RC3:1.9
+	Interim_Release_1i_RC2:1.9
+	Interim_Release_1i_RC1:1.9
+	Interim_Release_1i_beta3:1.9
+	Interim_Release_1i_beta2:1.9
+	Interim_Release_1i_beta1:1.8
+	PublicRelease_1h:1.6
+	Interim_Release_1h_rc2:1.6
+	Interim_Release_1h_RC1:1.6
+	Interim_Release_1h_beta2:1.6
+	Interim_Release_1h_beta1_now:1.6
+	Interim_Release_1h_beta1:1.6
+	PublicRelease_1g:1.6
+	Interim_Release_1g_RC6_Final:1.6
+	Interim_Release_1g_RC6:1.6
+	Interim_Release_1g_RC5:1.6
+	Interim_Release_1g_RC4:1.6
+	Interim_Release_1g_RC3:1.6
+	Interim_Release_1g_beta2:1.5
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.5
+	Interim_Release_1f_RC3:1.5
+	Interim_Release_1f_RC2:1.5
+	Interim_Release_1f_RC:1.5
+	Interim_Release_1f_beta2:1.5
+	Interim_Release_1f_beta1:1.5
+	PublicRelease_1e:1.5
+	Interim_Release_1e_RC2:1.5
+	Interim_Release_1e_RC:1.5
+	Interim_Release_1e_beta3:1.5
+	Interim_Release_1e_beta2:1.5
+	Interim_Release_1e_beta2_before_kuchin:1.5
+	Interim_Release_1e_beta1:1.5
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.2
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.2
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.15
+date	2008.09.13.23.05.13;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.03.19.03.31.43;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.07.27.06.21.20;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.01.14.14.23.25;	author kush_eplus;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.08.05.21.31.20;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.02.22.20.19.04;	author kush_eplus;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.05.10.32.23;	author eklmn;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.29.12.14.25;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.16.04.44.44;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.24.17.40.33;	author pooz;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.16.01.50.53;	author recdvst;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.15.20.53.47;	author lord_kiron;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.02.04.41.22;	author recdvst;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.20;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.16;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.15
+log
+@Temporary force alignment (until alignment by 1 is removed) to avoid garbled label on the tool bar {geodimo}.
+@
+text
+@#pragma once
+
+#include "DblScope.h"
+
+#define IDC_TOOLBAR			16127
+#define IDC_TOOLBARBUTTON	16129
+
+//#define USE_TEXTURE
+#define USE_REBAR
+
+enum EnumMuleToolbarButtons
+{
+	MTB_CONNECT,
+	MTB_SERVERS,
+	MTB_TRANSFER,
+	MTB_SEARCH,
+	MTB_SHAREDFILES,
+	MTB_MESSAGES,
+	MTB_IRC,
+	MTB_STATISTICS,
+	MTB_PREFS,
+
+	MTB_NUMBUTTONS
+};
+
+class CMuleToolbarCtrl : public CToolBarCtrl
+{
+	DECLARE_DYNAMIC(CMuleToolbarCtrl)
+
+public:
+					CMuleToolbarCtrl();
+	virtual		   ~CMuleToolbarCtrl();
+
+	BOOL			Create(DWORD dwStyle, const RECT& rect, CWnd* pParentWnd, UINT nID);
+
+	afx_msg void	OnSize(UINT nType, int cx, int cy);
+	afx_msg void	OnNMRclick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnTbnQueryDelete(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnTbnQueryInsert(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnTbnGetButtonInfo(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnTbnToolbarChange(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg UINT	OnGetDlgCode() { return DLGC_WANTALLKEYS; }
+	afx_msg void	OnSysKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags) {NOPRM(nChar); NOPRM(nRepCnt); NOPRM(nFlags);};
+	afx_msg void	OnTbnReset(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnTbnInitCustomize(NMHDR *pNMHDR, LRESULT *pResult);
+
+	void			Init(void);
+	void			Localize(void);
+	void SetSpeedMeterValues(int iValue1, int iValue2)
+	{
+		m_ctrlSpeedMeter.AddValues(iValue1,iValue2);
+	}
+	void SetSpeedMeterRange(UINT nMax, UINT nMin)
+	{
+		m_ctrlSpeedMeter.SetRange(nMin, nMax);
+	}
+	void GetSpeedMeterRange(UINT& nMax, UINT& nMin)
+	{
+		m_ctrlSpeedMeter.GetRange(nMax, nMin);
+	}
+	void ShowSpeedMeter(bool bShow = true);
+	void SetBtnWidth();
+
+//	Customization might split up the button-group, so we have to (un-)press them on our own
+	void PressMuleButton(int nID)
+	{
+		if (m_iLastPressedButton != -1)
+			CheckButton(m_iLastPressedButton, FALSE);
+		CheckButton(nID, TRUE);
+		m_iLastPressedButton = nID;
+	}
+	void		ChangeToolbarBitmap(const CString &strPath, bool bRefresh);
+	void		ChangeTextLabelStyle(int settings, bool refresh);
+	void		Refresh();
+
+protected:
+	CDblScope		m_ctrlSpeedMeter;
+
+	int				m_iLastPressedButton;
+	TBBUTTON		m_buttonDefs[MTB_NUMBUTTONS];
+	__declspec(align(2)) TCHAR			m_tstrButtonTitles[MTB_NUMBUTTONS][128];
+	CStringArray	m_strBitmapPaths;
+	int				m_iToolbarLabelSettings;
+
+	virtual BOOL	OnCommand(WPARAM wParam, LPARAM lParam);
+
+	DECLARE_MESSAGE_MAP()
+
+	bool			m_bUseSpeedMeter;
+
+private:
+	uint32	m_dwSeparatorCnt;
+	int m_oldcx;
+	int m_oldcy;
+};
+@
+
+
+1.14
+log
+@Fixed toolbar button alignment (when label is below icon) {geodimo};
+Formatting; Some preparations for future.
+@
+text
+@d81 1
+a81 1
+	TCHAR			m_tstrButtonTitles[MTB_NUMBUTTONS][128];
+@
+
+
+1.13
+log
+@Suppressed level 4 warnings.
+@
+text
+@a22 2
+	MTB_LASTBUTTON = MTB_PREFS,
+
+a25 2
+// CMuleToolbarCtrl
+
+a35 14
+protected:
+	CDblScope		m_ctrlSpeedMeter;
+	bool			m_bUseSpeedMeter;
+
+	int				m_iLastPressedButton;
+	TBBUTTON		m_buttonDefs[9];
+	TCHAR			m_tstrButtonTitles[9][128];
+	CStringArray	m_strBitmapPaths;
+	int				m_iToolbarLabelSettings;
+
+	virtual BOOL	OnCommand(WPARAM wParam, LPARAM lParam);
+
+	DECLARE_MESSAGE_MAP()
+public:
+a36 3
+
+	void			Init(void);
+	void			Localize(void);
+d44 5
+d72 1
+a72 2
+// [FoRcHa]
+	void		ChangeToolbarBitmap(CString path, bool refresh);
+d76 14
+a89 2
+	afx_msg void	OnTbnReset(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void	OnTbnInitCustomize(NMHDR *pNMHDR, LRESULT *pResult);
+d92 1
+@
+
+
+1.12
+log
+@Better fix for gui bugs (not need to force redraw anymore)
+Code refactoring and optimisation
+@
+text
+@d64 1
+a64 1
+	afx_msg void	OnSysKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags) {};
+@
+
+
+1.11
+log
+@Reduced memory used by button labels.
+@
+text
+@d38 2
+@
+
+
+1.10
+log
+@formatting;
+more button code comitted but not compiled as default
+@
+text
+@d25 1
+a25 1
+	MTB_NUMBUTTONS,
+d44 1
+a44 1
+	TCHAR			m_tstrButtonTitles[9][200];
+a97 2
+
+
+@
+
+
+1.9
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d41 1
+a41 1
+	
+@
+
+
+1.8
+log
+@speed optimization in OnSize()
+@
+text
+@d61 2
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+@
+text
+@d91 4
+@
+
+
+1.6
+log
+@unicode cleanup
+@
+text
+@d11 17
+d35 2
+a36 2
+	CMuleToolbarCtrl();
+	virtual ~CMuleToolbarCtrl();
+d39 2
+a40 2
+	CDblScope m_ctrlSpeedMeter;
+	bool 	m_bUseSpeedMeter;
+d42 8
+a49 6
+	int	m_iLastPressedButton;
+	TBBUTTON TBButtons[9];
+	TCHAR TBStrings[9][200];
+	CStringArray bitmappaths;
+	int m_iToolbarLabelSettings;
+	virtual BOOL OnCommand(WPARAM wParam, LPARAM lParam);
+d52 1
+a52 1
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+d54 7
+a60 7
+	void Init(void);
+	void Localize(void);
+	afx_msg void OnNMRclick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnTbnQueryDelete(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnTbnQueryInsert(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnTbnGetButtonInfo(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnTbnToolbarChange(NMHDR *pNMHDR, LRESULT *pResult);
+d76 1
+a76 1
+	// Customization might splits up the button-group, so we have to (un-)press them on our own
+d79 1
+a79 1
+		if(m_iLastPressedButton != -1)
+d84 7
+a90 6
+	// [FoRcHa]
+	void ChangeToolbarBitmap(CString path, bool refresh);
+	void ChangeTextLabelStyle(int settings, bool refresh);
+	void Refresh();
+	afx_msg void OnTbnReset(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnTbnInitCustomize(NMHDR *pNMHDR, LRESULT *pResult);
+@
+
+
+1.5
+log
+@Added rebar. You can disable rebar by undefining USE_REBAR.
+@
+text
+@d27 1
+a27 1
+	char TBStrings[9][200];
+@
+
+
+1.4
+log
+@hid help button
+@
+text
+@d9 1
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d69 1
+@
+
+
+1.2
+log
+@Toolbar Enhancements (preliminary)
+@
+text
+@d68 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d25 5
+a29 1
+
+a35 2
+	TBBUTTON TBButtons[9];
+	char TBStrings[9][200];
+d65 3
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

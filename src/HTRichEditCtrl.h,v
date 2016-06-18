@@ -1,0 +1,1175 @@
+head	1.46;
+access;
+symbols
+	PublicRelease_1_2e:1.46
+	Interim_Release_1-2e_RC1:1.46
+	PublicRelease_1_2d:1.44
+	Interim_Release_1-2d_RC1:1.44
+	Interim_Release_1-2d_beta1:1.41
+	PublicRelease_1_2c:1.41
+	Interim_Release_1-2c_RC1:1.41
+	Interim_Release_1-2c_beta1:1.39
+	PublicRelease_1_2b:1.39
+	Interim_Release_1-2b_RC1:1.39
+	PublicRelease_1_2a:1.39
+	Interim_Release_1-2a_RC1:1.39
+	Interim_Release_1-2a_beta2:1.39
+	Interim_Release_1-2a_beta1:1.39
+	PublicRelease_1_2:1.38
+	Interim_Release_1-2_RC1:1.38
+	Interim_Release_1-2_beta1:1.38
+	PublicRelease_1_1g:1.38
+	Interim_Release_1-1g_RC3:1.38
+	Interim_Release_1-1g_RC2:1.38
+	Interim_Release_1-1g_RC1:1.38
+	Interim_Release_1-1g_beta2:1.38
+	Interim_Release_1-1g_beta1:1.38
+	PublicRelease_1_1f:1.38
+	Interim_Release_1-1f_RC1:1.38
+	PublicRelease_1_1e:1.38
+	Interim_Release_1-1e_RC2:1.38
+	Interim_Release_1-1e_RC1:1.38
+	Interim_Release_1-1e_beta1:1.38
+	PublicRelease_1_1d:1.38
+	Interim_Release_1-1d_RC1:1.38
+	PublicRelease_1_1c:1.38
+	Interim_Release_1-1c_RC1:1.38
+	Interim_Release_1-1c_beta2:1.38
+	Interim_Release_1-1c_beta1:1.38
+	PublicRelease_1_1b:1.38
+	Interim_Release_1-1b_RC1:1.38
+	PublicRelease_1_1a:1.38
+	Interim_Release_1-1a_RC2:1.38
+	Interim_Release_1-1a_RC1:1.38
+	Interim_Release_1-1a_beta2:1.38
+	Interim_Release_1-1a_beta1:1.38
+	PublicRelease_1_1:1.38
+	Interim_Release_1-1_beta1:1.38
+	PublicRelease_1o:1.38
+	Interim_Release_1o_RC1:1.38
+	Interim_Release_1o_beta1:1.38
+	PublicRelease_1n:1.38
+	Interim_Release_1n_RC2:1.38
+	Interim_Release_1n_RC1:1.38
+	Interim_Release_1n_beta2:1.38
+	Interim_Release_1n_beta1:1.33
+	PublicRelease_1m:1.29
+	Interim_Release_1m_beta1:1.26
+	PublicRelease_1l:1.23
+	Interim_Release_1l_RC3:1.23
+	Interim_Release_1l_RC2:1.22
+	Interim_Release_1l_RC1:1.22
+	Interim_Release_1l_beta2:1.21
+	Interim_Release_1l_beta1:1.20
+	PublicRelease_1k:1.20
+	Interim_Release_1k_RC4:1.20
+	Interim_1k_RC3:1.20
+	Interim_1k_RC2:1.20
+	Interim_Release_1k_RC1:1.20
+	Interim_Release_1k_beta5:1.20
+	Intrerim_Release_1k_beta4:1.20
+	Interim_Release_1k_beta1:1.19
+	PublicRelease_1j:1.18
+	Interim_Release_1J_RC3:1.18
+	Interim_Release_1j_RC3:1.18
+	Interim_Release_1j_RC2:1.18
+	Interim_Release_1j_RC1:1.16
+	Interim_Release_1j_beta2:1.16
+	Interim_Release_1j_beta1:1.10
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.46
+date	2008.12.15.22.38.52;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2008.07.31.12.05.17;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2008.03.06.20.42.00;	author eklmn;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2008.03.05.21.46.15;	author eklmn;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2008.02.28.19.46.05;	author eklmn;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2007.07.29.04.14.24;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2007.07.27.06.22.17;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.07.29.02.13.01;	author katsyonak;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.07.27.17.38.16;	author katsyonak;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.07.27.11.14.40;	author katsyonak;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.07.26.02.29.42;	author katsyonak;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.07.25.15.15.47;	author katsyonak;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.07.17.03.51.42;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.07.15.09.59.16;	author katsyonak;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.07.11.16.24.58;	author katsyonak;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.06.28.02.31.29;	author katsyonak;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.06.23.21.10.47;	author katsyonak;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.06.23.04.59.34;	author katsyonak;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.06.22.17.04.03;	author katsyonak;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.06.21.12.28.43;	author katsyonak;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.06.20.19.15.24;	author katsyonak;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.06.15.05.05.47;	author katsyonak;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.06.04.13.29.40;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.05.23.15.00.05;	author katsyonak;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.05.16.21.37.30;	author katsyonak;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.03.03.15.22.58;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.02.04.21.56.49;	author katsyonak;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.12.10.40.08;	author katsyonak;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.11.19.18.24;	author katsyonak;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.01.05.13.18.24;	author katsyonak;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.01.05.11.19.55;	author katsyonak;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.01.05.08.09.11;	author katsyonak;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.12.31.12.17.26;	author katsyonak;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.12.31.07.04.15;	author katsyonak;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.30.17.44.39;	author katsyonak;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.12.25.08.06.24;	author katsyonak;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.12.23.23.41.12;	author katsyonak;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.12.23.12.05.04;	author katsyonak;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.12.22.22.41.31;	author katsyonak;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.12.21.14.24.33;	author katsyonak;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.20.21.45.22;	author katsyonak;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.19.11.05.30;	author katsyonak;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.18.13.35.30;	author katsyonak;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.11.11.16.06.12;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.29.17.24.23;	author katsyonak;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.46
+log
+@Fixed link highlighting for long IRC links {Paola} (only the first line was identified as a link for links broken in several lines);
+Optimized link identification and output to RichEdit controls (logs, chats, IRC)..
+@
+text
+@#pragma once
+
+// Control flags
+#define HTC_ISAUTOSCROLL	0x0000001
+#define HTC_ISWORDWRAP		0x0000002
+#define HTC_ISLIMITED		0x0000004
+#define HTC_ISDEFAULTLINKS	0x0000008
+#define HTC_ISARROWCURSOR	0x0000010
+
+// Text style flags
+#define HTC_BOLD			0x0000001
+#define HTC_ITALIC			0x0000002
+#define HTC_UNDERLINE		0x0000004
+#define HTC_STRIKEOUT		0x0000008
+#define HTC_HAVENOLINK		0x0000010
+#define HTC_LINK			0x0000020
+
+typedef struct
+{
+	LPCTSTR		pszScheme;
+	unsigned	uiLen;
+} LinkDetect_Table;
+
+#define LINKDETECT_TABLESZ	12
+extern LinkDetect_Table		_apszSchemes[LINKDETECT_TABLESZ];
+
+class CHTRichEditCtrl : public CRichEditCtrl
+{
+	DECLARE_DYNAMIC(CHTRichEditCtrl)
+
+public:
+	CHTRichEditCtrl();
+	virtual ~CHTRichEditCtrl();
+
+	void SetTitle(LPCTSTR pszTitle);
+	void Reset();
+	void GetLastLogEntry(CString *pstrOut);
+
+	void AppendText(LPCTSTR pszMsg, int iMsgLen, COLORREF crTextColor = CLR_DEFAULT, COLORREF crBackColor = CLR_DEFAULT, DWORD dwFlags = 0);
+	void AppendText(const CString &strMsg, COLORREF crTextColor = CLR_DEFAULT, COLORREF crBackColor = CLR_DEFAULT, DWORD dwFlags = 0);
+
+	CString GetHtml();
+	CString GetToolTip();
+
+	void SetFont(CFont* pFont, bool bRedraw = true);
+	void ScrollToLastLine();
+
+	DWORD				m_dwFlags;
+	COLORREF			m_crDefaultForeground;
+	COLORREF			m_crDefaultBackground;
+	CString				m_strURL;
+
+protected:
+	CString				m_strTitle;
+	long				m_lMaxBufSize;
+	HCURSOR				m_hArrowCursor;
+
+	void SaveLogToDisk();
+	void SaveRtfToDisk();
+
+	DECLARE_MESSAGE_MAP()
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
+	virtual BOOL OnCommand(WPARAM wParam, LPARAM lParam);
+	afx_msg BOOL OnSetCursor(CWnd* pWnd, UINT nHitTest, UINT message);
+	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg BOOL OnEnLink(NMHDR *pNMHDR, LRESULT *pResult);
+
+private:
+	static DWORD __stdcall MEditStreamOutCallbackA(DWORD dwCookie, LPBYTE pbBuff, LONG cb, LONG *pcb)
+	{
+		CStringA		*pstrBufferA = reinterpret_cast<CStringA*>(dwCookie);
+
+		pstrBufferA->Append(reinterpret_cast<char*>(pbBuff), cb);
+		*pcb = cb;
+
+		return 0;
+	}
+	static DWORD __stdcall MEditStreamOutCallbackW(DWORD dwCookie, LPBYTE pbBuff, LONG cb, LONG *pcb)
+	{
+		CStringW		*pstrBufferW = reinterpret_cast<CStringW*>(dwCookie);
+
+		pstrBufferW->Append(reinterpret_cast<WCHAR*>(pbBuff), cb/2);;
+		*pcb = cb;
+
+		return 0;
+	}
+};
+@
+
+
+1.45
+log
+@Fixed WebServer last log message report for Servers and Shared Files (broken since v1g; it displays last log message on adding new server, updating server list and shared files reload).
+@
+text
+@a8 1
+#define HTC_ISHANDCURSOR	0x0000020
+d13 1
+a13 1
+#define HTC_LINK			0x0000004
+d15 2
+a16 1
+#define HTC_UNDERLINE		0x0000010
+d39 2
+a40 1
+	void AppendText(LPCTSTR pszMsg, COLORREF crTextColor = CLR_DEFAULT, COLORREF crBackColor = CLR_DEFAULT, DWORD dwFlags = 0);
+a56 1
+	HCURSOR				m_hHandCursor;
+a64 1
+	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+@
+
+
+1.44
+log
+@optimized the callback functions (thanks Aw3)
+@
+text
+@d37 1
+@
+
+
+1.43
+log
+@fixed output into log file on Win9x systems
+@
+text
+@d72 1
+a72 2
+		CStringA		strThisWriteA;
+		CStringA		*pstrBufferA = (CStringA *)dwCookie;
+d74 1
+a74 3
+		strThisWriteA.SetString(reinterpret_cast<char*>(pbBuff), cb);
+
+		*pstrBufferA += strThisWriteA;
+d81 1
+a81 4
+		CStringW		strThisWriteW;
+		CStringW		*pstrBufferW = (CStringW *)dwCookie;
+
+		strThisWriteW.SetString(reinterpret_cast<WCHAR*>(pbBuff), cb/2);
+d83 1
+a83 1
+		*pstrBufferW += strThisWriteW;
+@
+
+
+1.42
+log
+@fixed log output in tooltip and webserver that was brocken after unicode switch
+@
+text
+@d73 3
+d77 2
+a78 1
+		strThisWriteA.GetBufferSetLength(cb);
+d80 6
+a85 1
+		CStringA		*pstrBufferA = (CStringA *)dwCookie;
+d87 1
+a87 4
+		for (int i = 0; i < cb; i++)
+		{
+			strThisWriteA.SetAt(i, static_cast<char>(*(pbBuff + i)));
+		}
+d89 2
+a90 1
+		*pstrBufferA += strThisWriteA;
+a91 2
+		*pcb = strThisWriteA.GetLength();
+		strThisWriteA.ReleaseBuffer();
+@
+
+
+1.41
+log
+@Avoid multiple instances of _apszSchemes table (static declaration in H-file creates multiple instances).
+@
+text
+@d70 1
+a70 1
+	static DWORD __stdcall MEditStreamOutCallback(DWORD dwCookie, LPBYTE pbBuff, LONG cb, LONG *pcb)
+d72 1
+a72 1
+		CString		strThisWrite;
+d74 1
+a74 1
+		strThisWrite.GetBufferSetLength(cb);
+d76 1
+a76 1
+		CString		*pstrBuffer = (CString *)dwCookie;
+d80 1
+a80 1
+			strThisWrite.SetAt(i, *(pbBuff + i));
+d83 1
+a83 1
+		*pstrBuffer += strThisWrite;
+d85 2
+a86 2
+		*pcb = strThisWrite.GetLength();
+		strThisWrite.ReleaseBuffer();
+@
+
+
+1.40
+log
+@Introduces usage of new macro CSTRLEN.
+@
+text
+@d18 1
+a18 1
+static const struct
+d22 4
+a25 15
+} _apszSchemes[] =
+{
+	{ _T("ed2k://"), CSTRLEN(_T("ed2k://")) },
+	{ _T("ftp."), CSTRLEN(_T("ftp.")) },
+	{ _T("ftp://"), CSTRLEN(_T("ftp://")) },
+	{ _T("http://"), CSTRLEN(_T("http://")) },
+	{ _T("https://"), CSTRLEN(_T("https://")) },
+	{ _T("mailto:"), CSTRLEN(_T("mailto:")) },
+	{ _T("www."), CSTRLEN(_T("www.")) },
+	{ _T("www1."), CSTRLEN(_T("www1.")) },
+	{ _T("www2."), CSTRLEN(_T("www2.")) },
+	{ _T("www3."), CSTRLEN(_T("www3.")) },
+	{ _T("www4."), CSTRLEN(_T("www4.")) },
+	{ _T("www5."), CSTRLEN(_T("www5.")) }
+};
+@
+
+
+1.39
+log
+@Reduced H-file dependency.
+@
+text
+@d24 12
+a35 12
+	{ _T("ed2k://"), sizeof(_T("ed2k://")) / sizeof(TCHAR) - 1 },
+	{ _T("ftp."), sizeof(_T("ftp.")) / sizeof(TCHAR) - 1 },
+	{ _T("ftp://"), sizeof(_T("ftp://")) / sizeof(TCHAR) - 1 },
+	{ _T("http://"), sizeof(_T("http://")) / sizeof(TCHAR) - 1 },
+	{ _T("https://"), sizeof(_T("https://")) / sizeof(TCHAR) - 1 },
+	{ _T("mailto:"), sizeof(_T("mailto:")) / sizeof(TCHAR) - 1 },
+	{ _T("www."), sizeof(_T("www.")) / sizeof(TCHAR) - 1 },
+	{ _T("www1."), sizeof(_T("www1.")) / sizeof(TCHAR) - 1 },
+	{ _T("www2."), sizeof(_T("www2.")) / sizeof(TCHAR) - 1 },
+	{ _T("www3."), sizeof(_T("www3.")) / sizeof(TCHAR) - 1 },
+	{ _T("www4."), sizeof(_T("www4.")) / sizeof(TCHAR) - 1 },
+	{ _T("www5."), sizeof(_T("www5.")) / sizeof(TCHAR) - 1 }
+@
+
+
+1.38
+log
+@Added an option in IRC to send Bold, Underline & Colored messages.
+Small optimization in IRC and some minor changes/fixes.
+@
+text
+@a1 1
+#include "TitleMenu.h"
+@
+
+
+1.37
+log
+@Different way to handle IRC links + Minor fix in rich edit color handling.
+@
+text
+@d50 1
+a50 1
+	void AppendText(LPCTSTR pszMsg, COLORREF crTextColor = 0x1000000, COLORREF crBackColor = 0x1000000, DWORD dwFlags = 0);
+@
+
+
+1.36
+log
+@Auto-detected IRC links are not marked.
+@
+text
+@d19 20
+d59 3
+a64 1
+	CString				m_strURL;
+a75 1
+	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+@
+
+
+1.35
+log
+@Small optimization + Removed unused code.
+@
+text
+@d8 3
+a10 2
+#define HTC_ISARROWCURSOR	0x0000008
+#define HTC_ISHANDCURSOR	0x0000010
+d58 1
+@
+
+
+1.34
+log
+@Links are no longer marked in Logs/IRC/Messages.
+@
+text
+@d4 13
+a16 5
+#define HTC_BOLD		0x0000001
+#define HTC_ITALIC		0x0000002
+#define HTC_LINK		0x0000004
+#define HTC_STRIKEOUT	0x0000008
+#define HTC_UNDERLINE	0x0000010
+a30 1
+	CString GetText() const;
+d37 1
+a37 3
+	bool				m_bAutoScroll;
+	bool				m_bWordWrap;
+	bool				m_bLimited;
+a41 1
+	byte				m_byCursorIndex;
+@
+
+
+1.33
+log
+@AppendText prototype rollback to have better performance.
+@
+text
+@d21 1
+a21 1
+	void AppendText(const CString &strText, COLORREF crTextColor = 0x1000000, COLORREF crBackColor = 0x1000000, DWORD dwFlags = 0);
+d36 2
+a37 1
+	bool				m_bInMenu;
+d39 2
+a40 1
+	HCURSOR				m_hCursor;
+a41 1
+	void AddLine(LPCTSTR pszMsg, COLORREF crTextColor = 0x1000000, COLORREF crBackColor = 0x1000000, DWORD dwFlags = 0);
+d49 2
+a52 1
+	afx_msg BOOL OnEnLink(NMHDR *pNMHDR, LRESULT *pResult);
+@
+
+
+1.32
+log
+@changed some code
+@
+text
+@d2 1
+a2 1
+#include "titlemenu.h"
+d21 1
+a21 1
+	void AppendText(CString strText, COLORREF crTextColor = 0x1000000, COLORREF crBackColor = 0x1000000, DWORD dwFlags = 0);
+@
+
+
+1.31
+log
+@Color coded IRC channel title
+@
+text
+@d21 1
+a21 1
+	void AppendText(const CString& strText, COLORREF crTextColor = 0x1000000, COLORREF crBackColor = 0x1000000, DWORD dwFlags = 0);
+@
+
+
+1.30
+log
+@some fixes/changes
+@
+text
+@d32 1
+@
+
+
+1.29
+log
+@small improvement and some minor fixes
+@
+text
+@a17 1
+	void Init();
+a34 1
+	bool				m_bNoPaint;
+a42 2
+	virtual LRESULT WindowProc(UINT message, WPARAM wParam, LPARAM lParam);
+
+@
+
+
+1.28
+log
+@more fixes/changes
+@
+text
+@d4 6
+d22 1
+a22 2
+	void AppendText(const CString& strText, COLORREF crTextColor = 0x1000000, COLORREF crBackColor = 0x1000000, bool bBold = false, bool bItalic = false, bool bStrikeout = false, bool bUnderline = false);
+	void AppendHyperLink(const CString& strText, const CString& strTitle, const CString& strCommand, const CString& strDirectory);
+d41 1
+a41 1
+	void AddLine(LPCTSTR pszMsg, COLORREF crTextColor = 0x1000000, COLORREF crBackColor = 0x1000000, bool bLink = false, bool bBold = false, bool bItalic = false, bool bStrikeout = false, bool bUnderline = false);
+@
+
+
+1.27
+log
+@Expanded [+]/[-] test area by 3 pixels from each side + minor change
+@
+text
+@a34 1
+	POINT				m_ptOldPos;
+@
+
+
+1.26
+log
+@minor changes; removed unused functions
+@
+text
+@d35 1
+@
+
+
+1.25
+log
+@Removed CPreparedRTFText class
+@
+text
+@a15 3
+	CString GetLastLogEntry();
+	CString GetAllLogEntries();
+
+a23 1
+	CFont* GetFont() const;
+a38 1
+	int GetMaxSize();
+@
+
+
+1.24
+log
+@IRC channel messages now supports background color coded messages (Thanks SyruS!);
+Added a Word Wrap context menu option to logs, IRC & messages;
+Fixed category tabs padding (Mantis bug #0000415);
+Improved logs, IRC & messages code + formatting & name changes
+@
+text
+@a3 27
+class CPreparedRTFText
+{
+public:
+	CPreparedRTFText();
+	~CPreparedRTFText();
+
+	const CString& GetText();
+
+	void AppendText(const CString& strText, COLORREF crColor = 0x1000000);
+
+	int GetColorIndex(CString& strTable, COLORREF crColor);
+	int GetUnformattedLength(CString& strTable, CString& strText);
+
+//protected:
+	CString				m_strText;
+	CString				m_strRtfHeader;
+	long				m_lTextEnd;
+	long				m_lLastTextPos;
+	long				m_lLastStartChar;
+	long				m_lLastEndChar;
+	CUIntArray			m_aiLinkStart;
+	CUIntArray			m_aiLinkSize;
+	bool				m_bAutoScroll;
+	bool				m_bWordWrap;
+	POINT				m_ptLastPos;
+};
+
+a13 1
+	void AddEntry(LPCTSTR pszMsg);
+d19 1
+a19 1
+	void AppendText(const CString& strText, COLORREF crColor = 0x1000000);
+a24 1
+	CPreparedRTFText* GetHyperText();
+a25 2
+	void SetHyperText(CPreparedRTFText*);
+	void UpdateSize(UINT iFlags);
+a33 1
+	CStringArray		m_astrBuff;
+a38 1
+	CPreparedRTFText	*m_pPreparedText;
+d40 1
+a40 1
+	void AddLine(LPCTSTR pszMsg, bool bLink = false, COLORREF crColor = 0x1000000);
+a43 1
+	void FlushBuffer();
+@
+
+
+1.23
+log
+@Formatting, old code removal and a minor fix
+@
+text
+@d12 1
+a12 1
+	void AppendText(const CString& sText, COLORREF crColor = 0x1000000);
+d14 2
+a15 1
+	void CheckTable(CString& sColor, CString& sTable, COLORREF crColor) const;
+d18 11
+a28 6
+	CString m_sText;
+	CString m_sRtfHeader;
+	long m_iMaxBufSize;
+	long m_iTextEnd;
+	CUIntArray m_aiLinkStart;
+	CUIntArray m_aiLinkSize;
+d47 2
+a48 2
+	void AppendText(const CString& sText, COLORREF crColor = -1);
+	void AppendHyperLink(const CString& sText, const CString& sTitle, const CString& sCommand, const CString& sDirectory);
+d55 3
+a57 3
+	void SetHyperText(CPreparedRTFText*, bool bInvalidate = true);
+	void UpdateSize();
+	void SetFont(CFont* pFont, BOOL bRedraw = TRUE);
+d60 3
+a62 1
+	bool m_bAutoScroll;
+d65 9
+a73 12
+	CStringArray m_astrBuff;
+	CString m_strTitle;
+	bool m_bNoPaint;
+	bool m_bInMenu;
+	long m_iMaxBufSize;
+	long m_iTextEnd;
+	HCURSOR	m_hCursor;
+	CPreparedRTFText* m_pPreparedText;
+
+	void AddLine(LPCTSTR pszMsg, bool bLink = false, COLORREF crColor = -1);
+	void SelectAllItems();
+	void CopySelectedItems();
+d92 3
+a94 2
+		CString sThisWrite;
+		sThisWrite.GetBufferSetLength(cb);
+d96 1
+a96 1
+		CString *psBuffer = (CString *)dwCookie;
+d98 3
+a100 2
+		for (int i=0;i<cb;i++) {
+			sThisWrite.SetAt(i,*(pbBuff+i));
+d103 1
+a103 1
+		*psBuffer += sThisWrite;
+d105 2
+a106 2
+		*pcb = sThisWrite.GetLength();
+		sThisWrite.ReleaseBuffer();
+@
+
+
+1.22
+log
+@Advanced Log tooltip on status bar;
+Tooltip width should be now correct
+@
+text
+@a59 1
+	//bool m_bEnErrSpace;
+a81 2
+	/*afx_msg void OnEnErrspace();
+	afx_msg void OnEnMaxtext();*/
+@
+
+
+1.21
+log
+@IRC now supports font style coded messages + some fixes
+@
+text
+@d46 1
+@
+
+
+1.20
+log
+@Improved context menu creation
+@
+text
+@d12 1
+a12 1
+	void AppendText(const CString& sText, COLORREF crColor = -1);
+@
+
+
+1.19
+log
+@added color to the WebServer logs
+@
+text
+@a55 1
+	CTitleMenu m_LogMenu;
+@
+
+
+1.18
+log
+@minor fixes & cleanup
+@
+text
+@d45 1
+@
+
+
+1.17
+log
+@fixed a minor scrolling problem when a log window is not visible
+@
+text
+@d33 1
+a33 1
+	void Init(LPCTSTR pszTitle);
+d48 1
+a48 1
+	void UpdateSize(bool bRepaint);
+@
+
+
+1.16
+log
+@a different way to get the last character in the control
+@
+text
+@d51 2
+a55 2
+	int m_iMaxLogMessages;
+	bool m_bAutoScroll;
+a72 1
+	void ScrollToLastLine();
+@
+
+
+1.15
+log
+@and s'more changes...
+@
+text
+@d62 1
+@
+
+
+1.14
+log
+@some more changes
+@
+text
+@a70 1
+	void SafeAddLine(long nPos, LPCTSTR pszLine, long& nStartChar, long& nEndChar, bool bLink, COLORREF crColor);
+@
+
+
+1.13
+log
+@Fixed a problem with log cutting when size limit is reached - Thanks BavarianSnail ;-)
+@
+text
+@a52 1
+	bool m_bRichEdit;
+d59 1
+a59 1
+	bool m_bEnErrSpace;
+d83 2
+a84 2
+	afx_msg void OnEnErrspace();
+	afx_msg void OnEnMaxtext();
+@
+
+
+1.12
+log
+@Maximum log size by CPU: 32KB for PI, 64KB for PII, anything else 128KB
+@
+text
+@d19 1
+a19 1
+	long MaxBufSize;
+d62 1
+a62 1
+	long MaxBufSize;
+@
+
+
+1.11
+log
+@fixes/changes
+@
+text
+@d19 1
+d62 1
+@
+
+
+1.10
+log
+@re-added the option to save as .log
+@
+text
+@d19 3
+d33 1
+a33 1
+	void Localize();
+d57 1
+@
+
+
+1.9
+log
+@some more fixes
+@
+text
+@d64 1
+@
+
+
+1.8
+log
+@removed prepared RTF predefined colors (uses RGB(#, #, #) now) + some fixes
+@
+text
+@d14 2
+a30 1
+
+d33 1
+d42 1
+a44 1
+
+@
+
+
+1.7
+log
+@more fixes/changes
+@
+text
+@d12 1
+a12 1
+	void AppendText(const CString& sText, int iColor = 0);
+d16 1
+d35 2
+a36 3
+	void AppendText(const CString& sText, bool bInvalidate = true);
+	void AppendKeyWord(const CString& sText, COLORREF crColor);
+	void AppendHyperLink(const CString& sText, const CString& sTitle, const CString& sCommand, const CString& sDirectory, bool bInvalidate = true);
+d58 1
+a58 1
+	void AddLine(LPCTSTR pszMsg, bool bLink = false, bool bColor = false, COLORREF crColor = RGB(0, 0, 0));
+d63 1
+a63 1
+	void SafeAddLine(long nPos, LPCTSTR pszLine, long& nStartChar, long& nEndChar, bool bLink, bool bColor, COLORREF crColor);
+@
+
+
+1.6
+log
+@Fixed mouse cursor on logs context menu + All logs are now saved as RTF
+@
+text
+@d12 1
+a12 2
+	void AppendText(const CString& sText);
+	void AppendKeyWord(const CString& sText, int iColor);
+@
+
+
+1.5
+log
+@small fix
+@
+text
+@d55 2
+d74 1
+d79 19
+@
+
+
+1.4
+log
+@Got rid of LogEditCtrl + Some minor changes
+@
+text
+@d62 1
+a62 1
+	void SafeAddLine(int nPos, LPCTSTR pszLine, long& nStartChar, long& nEndChar, bool bLink, bool bColor, COLORREF crColor);
+@
+
+
+1.3
+log
+@Converted IRC/Messages to Rich Edit  (added copy text to clipboard & save logs with colors as RTF)
+@
+text
+@d36 1
+d57 1
+a57 1
+	void AddLine(LPCTSTR pszMsg, bool bLink = false);
+d62 1
+a62 1
+	void SafeAddLine(int nPos, LPCTSTR pszLine, long& nStartChar, long& nEndChar, bool bLink);
+@
+
+
+1.2
+log
+@minor changes
+@
+text
+@d2 1
+d13 1
+a13 1
+	void AppendKeyWord(const CString& sText, COLORREF iColor);
+d59 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d60 1
+@
+

@@ -1,0 +1,2127 @@
+head	1.54;
+access;
+symbols
+	PublicRelease_1_2e:1.54
+	Interim_Release_1-2e_RC1:1.54
+	PublicRelease_1_2d:1.53
+	Interim_Release_1-2d_RC1:1.53
+	Interim_Release_1-2d_beta1:1.53
+	PublicRelease_1_2c:1.53
+	Interim_Release_1-2c_RC1:1.53
+	Interim_Release_1-2c_beta1:1.52
+	PublicRelease_1_2b:1.52
+	Interim_Release_1-2b_RC1:1.52
+	PublicRelease_1_2a:1.52
+	Interim_Release_1-2a_RC1:1.52
+	Interim_Release_1-2a_beta2:1.52
+	Interim_Release_1-2a_beta1:1.52
+	PublicRelease_1_2:1.52
+	Interim_Release_1-2_RC1:1.52
+	Interim_Release_1-2_beta1:1.52
+	PublicRelease_1_1g:1.52
+	Interim_Release_1-1g_RC3:1.52
+	Interim_Release_1-1g_RC2:1.52
+	Interim_Release_1-1g_RC1:1.52
+	Interim_Release_1-1g_beta2:1.50
+	Interim_Release_1-1g_beta1:1.50
+	PublicRelease_1_1f:1.47
+	Interim_Release_1-1f_RC1:1.47
+	PublicRelease_1_1e:1.47
+	Interim_Release_1-1e_RC2:1.47
+	Interim_Release_1-1e_RC1:1.47
+	Interim_Release_1-1e_beta1:1.46
+	PublicRelease_1_1d:1.46
+	Interim_Release_1-1d_RC1:1.46
+	PublicRelease_1_1c:1.46
+	Interim_Release_1-1c_RC1:1.46
+	Interim_Release_1-1c_beta2:1.46
+	Interim_Release_1-1c_beta1:1.43
+	PublicRelease_1_1b:1.42
+	Interim_Release_1-1b_RC1:1.42
+	PublicRelease_1_1a:1.42
+	Interim_Release_1-1a_RC2:1.42
+	Interim_Release_1-1a_RC1:1.42
+	Interim_Release_1-1a_beta2:1.42
+	Interim_Release_1-1a_beta1:1.42
+	PublicRelease_1_1:1.41
+	Interim_Release_1-1_beta1:1.41
+	PublicRelease_1o:1.40
+	Interim_Release_1o_RC1:1.40
+	Interim_Release_1o_beta1:1.40
+	PublicRelease_1n:1.40
+	Interim_Release_1n_RC2:1.40
+	Interim_Release_1n_RC1:1.40
+	Interim_Release_1n_beta2:1.40
+	Interim_Release_1n_beta1:1.40
+	PublicRelease_1m:1.39
+	Interim_Release_1m_beta1:1.39
+	PublicRelease_1l:1.39
+	Interim_Release_1l_RC3:1.39
+	Interim_Release_1l_RC2:1.39
+	Interim_Release_1l_RC1:1.39
+	Interim_Release_1l_beta2:1.39
+	Interim_Release_1l_beta1:1.38
+	PublicRelease_1k:1.33
+	Interim_Release_1k_RC4:1.33
+	Interim_1k_RC3:1.33
+	Interim_1k_RC2:1.33
+	Interim_Release_1k_RC1:1.33
+	Interim_Release_1k_beta5:1.32
+	Intrerim_Release_1k_beta4:1.32
+	Interim_Release_1k_beta1:1.28
+	PublicRelease_1j:1.26
+	Interim_Release_1J_RC3:1.26
+	Interim_Release_1j_RC3:1.26
+	Interim_Release_1j_RC2:1.26
+	Interim_Release_1j_RC1:1.26
+	Interim_Release_1j_beta2:1.26
+	Interim_Release_1j_beta1:1.26
+	PublicRelease_1i:1.26
+	Interim_Release_1i_RC6:1.26
+	Interim_Release_1i_RC3:1.26
+	Interim_Release_1i_RC2:1.26
+	Interim_Release_1i_RC1:1.25
+	Interim_Release_1i_beta3:1.24
+	Interim_Release_1i_beta2:1.21
+	Interim_Release_1i_beta1:1.19
+	PublicRelease_1h:1.17
+	Interim_Release_1h_rc2:1.17
+	Interim_Release_1h_RC1:1.16
+	Interim_Release_1h_beta2:1.16
+	Interim_Release_1h_beta1_now:1.16
+	Interim_Release_1h_beta1:1.16
+	PublicRelease_1g:1.12
+	Interim_Release_1g_RC6_Final:1.12
+	Interim_Release_1g_RC6:1.12
+	Interim_Release_1g_RC5:1.12
+	Interim_Release_1g_RC4:1.12
+	Interim_Release_1g_RC3:1.12
+	Interim_Release_1g_beta2:1.11
+	Interim_Release_1g_beta1:1.11
+	Interim_Release_1f_RC4:1.11
+	Interim_Release_1f_RC3:1.11
+	Interim_Release_1f_RC2:1.11
+	Interim_Release_1f_RC:1.11
+	Interim_Release_1f_beta2:1.11
+	Interim_Release_1f_beta1:1.11
+	PublicRelease_1e:1.11
+	Interim_Release_1e_RC2:1.11
+	Interim_Release_1e_RC:1.11
+	Interim_Release_1e_beta3:1.11
+	Interim_Release_1e_beta2:1.11
+	Interim_Release_1e_beta2_before_kuchin:1.11
+	Interim_Release_1e_beta1:1.11
+	PublicRelease_1c:1.9
+	featurestest:1.9.0.2
+	Interim_Release_1c_RC:1.9
+	Interim_Release_1c_beta2:1.8
+	Interim_Release_1c_beta1:1.8
+	threaded_downloadqueue:1.8.0.2
+	PublicRelease_1b:1.8
+	Interim_Release_1b_beta2:1.8
+	Interim_Release_1b_beta1:1.7
+	proxydeadlake:1.6.0.4
+	PublicRelease_1a:1.6
+	Interim_Release_1a_beta2:1.6
+	BerkeleyDb:1.6.0.2
+	Interim_Release_1a_beta1:1.6
+	PublicRelease_1:1.6
+	goldfish:1.6
+	eMulePlus_1_RC2:1.6
+	eMulePlus_26b_1RC1:1.6
+	PreRelease_26b_i0e:1.5
+	before_26d_merge:1.5
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.54
+date	2008.10.19.16.03.03;	author aw3;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2007.07.27.06.21.20;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2005.11.27.22.11.49;	author eklmn;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.08.21.17.58.24;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.08.20.04.30.31;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.08.09.02.34.54;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2005.06.08.04.54.47;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2005.02.08.07.25.35;	author dongato;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2005.02.07.10.41.59;	author dongato;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2005.02.06.17.58.11;	author kuchin;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2005.01.19.21.10.48;	author netwolf1;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.10.26.21.14.12;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.09.30.18.39.34;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.07.09.02.21.47;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.05.12.17.47.53;	author dongato;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.05.04.06.09.33;	author aw3;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.05.03.05.09.09;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.04.25.02.33.04;	author dongato;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.04.20.23.49.38;	author dropf;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.04.17.15.22.25;	author dongato;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.03.27.19.39.45;	author dongato;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.02.23.16.46.43;	author dropf;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.02.23.13.33.24;	author kush_eplus;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.02.22.00.43.02;	author kush_eplus;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.02.21.00.29.52;	author dropf;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.02.20.17.06.02;	author dropf;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.02.12.10.38.01;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.11.16.15.20.03;	author kuchin;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.11.04.17.37.26;	author dongato;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.10.30.02.44.37;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.10.29.22.13.33;	author dropf;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.10.24.19.33.45;	author dongato;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.10.24.09.18.12;	author morevit;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.09.26.19.59.43;	author dongato;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.09.22.16.41.18;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.09.13.01.06.06;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.07.29.20.19.19;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.07.29.19.26.30;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.07.28.02.33.12;	author dongato;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.07.27.22.15.32;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.06.14.13.05.58;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.28.10.19.09;	author dongato;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.24.23.15.23;	author moosetea;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.03.21.18.55.17;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.03.08.12.09.42;	author recdvst;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.28.18.43.45;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.18.20.16.01;	author cax2;	state Exp;
+branches
+	1.6.2.1
+	1.6.4.1;
+next	1.5;
+
+1.5
+date	2003.02.16.22.29.00;	author forcha;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.10.17.16.19;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.17.43.01;	author kuchin;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2003.03.01.20.59.36;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.6.4.1
+date	2003.02.28.10.48.30;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.54
+log
+@Fixed update of preferences category list on <Ctrl-Tab>/<Ctrl-Shift-Tab> (sometimes if the following combinations were pressed fast <Ctrl-Tab>/<Ctrl-Shift-Tab>/<Ctrl-PageUp>/<Ctrl-PageDown> preferences page was switched without navigation panel update).
+@
+text
+@//	PreferencesDlg.cpp : implementation file
+//
+#include "stdafx.h"
+#include "emule.h"
+#include "PreferencesDlg.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#define new DEBUG_NEW
+#endif
+
+BEGIN_MESSAGE_MAP(CPreferencesDlg, CPropertySheet)
+	ON_WM_DESTROY()
+	ON_MESSAGE(WM_SBN_SELCHANGED, OnSlideBarSelChanged)
+	ON_COMMAND(ID_APPLY_NOW, OnApplyNow)
+	ON_COMMAND(IDOK, OnOk)
+END_MESSAGE_MAP()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPreferencesDlg::CPreferencesDlg()
+{
+	static const uint16 s_auIconResID[] =
+	{
+		IDI_PREF_GENERAL,		//  0
+		IDI_PREF_CONNECTION,	//  1
+		IDI_PREF_PROXY,			//  2
+		IDI_PREF_SERVER,		//  3
+		IDI_PREF_ADVANCED,		//  4
+		IDI_PREF_BACKUP,		//  5
+		IDI_PREF_FOLDERS,		//  6
+		IDI_PREF_FILES,			//  7
+		IDI_PREF_IRC,			//  8
+		IDI_PREF_WEBSERVER,		//  9
+		IDI_PREF_STATISTICS,	// 10
+		IDI_MPENDING,			// 11
+		IDI_PREF_NOTIFICATIONS,	// 12
+		IDI_PREF_SMTP,			// 13
+		IDI_PREF_PARTTRAFFIC,	// 14
+		IDI_PREF_SCHEDULER,		// 15
+		IDI_PREF_SHORTCUTS,		// 16
+		IDI_PREF_SORTING,		// 17
+		IDI_PREF_WINDOW,		// 18
+		IDI_PREF_LISTS,			// 19
+		IDI_PREF_LOGS,			// 20
+		IDI_PREF_SECURITY,		// 21
+		IDI_USERS,				// 22
+		IDI_PREF_AUTODL			// 23
+	};
+
+	m_bIsVisible = false;
+
+	EnableStackedTabs(FALSE);
+
+//	WARNING: Pages must be added with the same order as the slidebar group items.
+	AddPage(&m_proppageGeneral);		// <-- General pages
+	AddPage(&m_proppageDirectories);
+	AddPage(&m_proppageFiles);
+	AddPage(&m_proppageSources);
+	AddPage(&m_proppageStats);
+	AddPage(&m_proppageLogs);
+	AddPage(&m_proppageWindow);
+	AddPage(&m_proppageLists);
+	AddPage(&m_proppageConnection);		// <-- Connection pages
+	AddPage(&m_proppageProxy);
+	AddPage(&m_proppageServer);
+	AddPage(&m_proppageHTTPD);
+	AddPage(&m_proppageSMTP);			// <-- Messaging pages
+	AddPage(&m_proppageIRC);
+	AddPage(&m_proppageMessaging);
+	AddPage(&m_proppageNotify);
+	AddPage(&m_proppageAdvanced);		// <-- Advanced pages
+	AddPage(&m_proppageAutoDL);
+	AddPage(&m_proppageBackup);
+	AddPage(&m_proppagePartTraffic);
+	AddPage(&m_proppageScheduler);
+	AddPage(&m_proppageSecurity);
+	AddPage(&m_proppageShortcuts);
+	AddPage(&m_proppageSorting);
+
+	m_dwActiveWnd = 0;
+
+	m_imageList.Create(16, 16, g_App.m_iDfltImageListColorFlags | ILC_MASK, ARRSIZE(s_auIconResID), 0);
+	FillImgLstWith16x16Icons(&m_imageList, s_auIconResID, ARRSIZE(s_auIconResID));
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPreferencesDlg::~CPreferencesDlg()
+{
+	m_imageList.DeleteImageList();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+INT_PTR CPreferencesDlg::DoModal()
+{
+	if (!m_bIsVisible)
+	{
+		m_bIsVisible = true;
+		return CPropertySheet::DoModal();
+	}
+	else
+	{
+		return FALSE;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPreferencesDlg::OnDestroy()
+{
+	m_bIsVisible = false;
+	CPropertySheet::OnDestroy();
+	m_dwActiveWnd = GetActiveIndex();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPreferencesDlg::OnApplyNow()
+{
+	Default();
+	g_App.m_pPrefs->Save();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPreferencesDlg::OnOk()
+{
+	Default();
+	g_App.m_pPrefs->Save();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPreferencesDlg::OnInitDialog()
+{
+	m_slideBar.CreateEx(WS_EX_CLIENTEDGE, WS_CHILD | WS_VISIBLE | WS_BORDER, CRect(0, 0, 0, 0), this, IDC_PREFS_SLIDEBAR);
+	m_slideBar.SetImageList(&m_imageList);
+	m_slideBar.SetHAlignCaption(DT_CENTER);
+
+//	Sets a bold font for the group buttons
+	CFont* pGroupFont = m_slideBar.GetGroupFont();
+	ASSERT_VALID(pGroupFont);
+	LOGFONT logFont;
+	pGroupFont->GetLogFont(&logFont);
+	logFont.lfWeight *= 2;
+	if (logFont.lfWeight > FW_BLACK)
+	{
+		logFont.lfWeight = FW_BLACK;
+	}
+	pGroupFont->DeleteObject();
+	pGroupFont->CreateFontIndirect(&logFont);
+
+	ASSERT_VALID(pGroupFont);
+
+	CPropertySheet::OnInitDialog();
+
+	SetActivePage(m_dwActiveWnd);
+	Localize();
+	m_slideBar.SetFocus();
+
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+LRESULT CPreferencesDlg::OnSlideBarSelChanged(WPARAM wParam, LPARAM lParam)
+{
+	int iCurrentGlobalSel = m_slideBar.GetGlobalSelectedItem();
+	NOPRM(wParam);
+	NOPRM(lParam);
+
+	SetActivePage(iCurrentGlobalSel);
+
+	CListBoxST* pListBox = m_slideBar.GetGroupListBox(m_slideBar.GetSelectedGroupIndex());
+	ASSERT_VALID(pListBox);
+
+	CString strTemp = m_slideBar.GetGroupName(m_slideBar.GetSelectedGroupIndex());
+	CString strTitle = GetResString(IDS_PREFERENCES);
+
+	strTitle += _T(" -> ");
+	strTitle += strTemp;
+	strTitle += _T(" -> ");
+	pListBox->GetText(pListBox->GetCurSel(), strTemp);
+	strTitle += strTemp;
+	SetWindowText(strTitle);
+
+	pListBox->SetFocus();
+
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPreferencesDlg::Localize()
+{
+	m_proppageGeneral.Localize();
+	m_proppageDirectories.Localize();
+	m_proppageFiles.Localize();
+	m_proppageSources.Localize();
+	m_proppageStats.Localize();
+	m_proppageLogs.Localize();
+	m_proppageWindow.Localize();
+	m_proppageLists.Localize();
+	m_proppageConnection.Localize();
+	m_proppageProxy.Localize();
+	m_proppageServer.Localize();
+	m_proppageHTTPD.Localize();
+	m_proppageSMTP.Localize();
+	m_proppageIRC.Localize();
+	m_proppageMessaging.Localize();
+	m_proppageNotify.Localize();
+	m_proppageAdvanced.Localize();
+	m_proppageAutoDL.Localize();
+	m_proppageBackup.Localize();
+	m_proppagePartTraffic.Localize();
+	m_proppageScheduler.Localize();
+	m_proppageSecurity.Localize();
+	m_proppageShortcuts.Localize();
+	m_proppageSorting.Localize();
+
+	m_slideBar.ResetContent();
+
+//	General group
+	int iGroup = m_slideBar.AddGroup(GetResString(IDS_PW_GENERAL)/*, 0*/);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_GENERAL), iGroup, 0);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_DIR), iGroup, 6);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_FILES), iGroup, 7);
+	m_slideBar.AddGroupItem(GetResString(IDS_DL_SOURCES), iGroup, 22);
+	m_slideBar.AddGroupItem(GetResString(IDS_STATISTICS), iGroup, 10);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_LOGS), iGroup, 20);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_WINDOW), iGroup, 18);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_LISTS), iGroup, 19);
+
+//	Connetion group
+	iGroup = m_slideBar.AddGroup(GetResString(IDS_PW_CONNECTION)/*, 1*/);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_CONNECTION), iGroup, 1);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_PROXY), iGroup, 2);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_SERVER), iGroup, 3);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_HTTPD), iGroup, 9);
+
+//	Messaging group
+	iGroup = m_slideBar.AddGroup(GetResString(IDS_PW_IM_OPTIONS)/*, 11*/);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_SMTP), iGroup, 13);
+	m_slideBar.AddGroupItem(GetResString(IDS_IRC), iGroup, 8);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_IM_OPTIONS), iGroup, 11);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_EKDEV_OPTIONS), iGroup, 12);
+
+//	Advanced group
+	iGroup = m_slideBar.AddGroup(GetResString(IDS_PW_ADVANCED)/*, 4*/);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_ADVANCED), iGroup, 4);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_AUTODL), iGroup, 23);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_BACKUP), iGroup, 5);
+	m_slideBar.AddGroupItem(GetResString(IDS_SF_PARTTRAFFIC), iGroup, 14);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_SCHEDULER), iGroup, 15);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_SECURITY), iGroup, 21);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_SHORTCUTS), iGroup, 16);
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_SORTING), iGroup, 17);
+
+//	Determines the width needed to the slidebar, and its position
+	int width = m_slideBar.GetGreaterStringWidth();
+	CRect rectOld;
+	int xoffset;
+	int yoffset;
+
+	width += 60;
+	m_slideBar.GetWindowRect(rectOld);
+
+	if (IsWindowVisible())
+	{
+		yoffset = 0;
+		xoffset = width - rectOld.Width();
+	}
+	else
+	{
+		xoffset = width - rectOld.Width() + 10;
+		GetActivePage()->GetWindowRect(rectOld);
+		ScreenToClient (rectOld);
+		yoffset = -rectOld.top;
+	}
+
+//	Resizes the Preferences window
+	GetWindowRect(rectOld);
+	SetWindowPos(NULL, 0, 0, rectOld.Width() + xoffset, rectOld.Height() + yoffset, SWP_NOMOVE | SWP_NOZORDER | SWP_NOACTIVATE);
+	CTabCtrl* tab = GetTabControl();
+	tab->GetWindowRect (rectOld);
+	ScreenToClient (rectOld);
+	tab->SetWindowPos(NULL, rectOld.left + xoffset, rectOld.top + yoffset, 0, 0, SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE);
+	CPropertyPage* activepage = GetActivePage();
+	activepage->GetWindowRect(rectOld);
+	ScreenToClient (rectOld);
+	activepage->SetWindowPos(NULL, rectOld.left + xoffset, rectOld.top + yoffset, 0, 0, SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE);
+	GetClientRect(rectOld);
+	m_slideBar.SetWindowPos(NULL, 6, 6, width, rectOld.Height() - 12, SWP_NOZORDER | SWP_NOACTIVATE);
+	int _PropSheetButtons[] = {IDOK, IDCANCEL, ID_APPLY_NOW, IDHELP };
+	CWnd* PropSheetButton;
+
+	for (int i = 0; i < ARRSIZE(_PropSheetButtons); i++)
+	{
+		if ((PropSheetButton = GetDlgItem(_PropSheetButtons[i])) != NULL)
+		{
+			PropSheetButton->GetWindowRect(rectOld);
+			ScreenToClient(rectOld);
+			PropSheetButton->SetWindowPos(NULL, rectOld.left + xoffset, rectOld.top + yoffset, 0, 0, SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE);
+		}
+	}
+	tab->ShowWindow(SW_HIDE);
+	m_slideBar.SelectGlobalItem(GetActiveIndex());
+	OnSlideBarSelChanged(NULL, NULL);
+	CenterWindow();
+	Invalidate();
+	RedrawWindow();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPreferencesDlg::PreTranslateMessage(MSG *pMsg)
+{
+	BOOL	bRc = CPropertySheet::PreTranslateMessage(pMsg);
+
+//	Update current page view on Ctrl+Tab, Shift+Ctrl+Tab, Ctrl+PageUp and Ctrl+PageDown
+	if ( (pMsg->message == WM_KEYDOWN) && ((pMsg->wParam == VK_TAB) || (pMsg->wParam == VK_PRIOR) || (pMsg->wParam == VK_NEXT)) &&
+		(GetAsyncKeyState(VK_CONTROL) < 0) && (GetPageCount() > 1))
+	{
+		m_slideBar.SelectGlobalItem(m_dwActiveWnd = GetActiveIndex());
+		OnSlideBarSelChanged(0, 0);
+	}
+	return bRc;
+}
+@
+
+
+1.53
+log
+@Suppressed level 4 warnings.
+@
+text
+@d302 2
+d305 1
+a305 1
+	if ( (pMsg->message == WM_KEYUP) && ((pMsg->wParam == VK_TAB) || (pMsg->wParam == VK_PRIOR) || (pMsg->wParam == VK_NEXT)) &&
+d311 1
+a311 1
+	return CPropertySheet::PreTranslateMessage(pMsg);
+@
+
+
+1.52
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d83 2
+a84 2
+	m_imageList.Create(16, 16, g_App.m_iDfltImageListColorFlags | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+	FillImgLstWith16x16Icons(&m_imageList, s_auIconResID, ELEMENT_COUNT(s_auIconResID));
+d145 1
+a145 1
+	BOOL bResult = CPropertySheet::OnInitDialog();
+d156 3
+a158 1
+	int iCurrentGlobalSel	= m_slideBar.GetGlobalSelectedItem();
+d282 2
+a283 1
+	for (int i = 0; i < sizeof (_PropSheetButtons) / sizeof(_PropSheetButtons[0]); i++)
+d285 1
+a285 1
+		if (PropSheetButton = GetDlgItem(_PropSheetButtons[i]))
+d287 3
+a289 3
+			PropSheetButton->GetWindowRect (rectOld);
+			ScreenToClient (rectOld);
+			PropSheetButton->SetWindowPos (NULL, rectOld.left + xoffset, rectOld.top + yoffset, 0, 0, SWP_NOSIZE | SWP_NOZORDER | SWP_NOACTIVATE);
+@
+
+
+1.51
+log
+@renamed 3 variables
+@
+text
+@d115 1
+a115 1
+	g_App.g_pPrefs->Save();
+d121 1
+a121 1
+	g_App.g_pPrefs->Save();
+@
+
+
+1.50
+log
+@IDS_STATISTICS substitutes IDS_STATSSETUPINFO.
+@
+text
+@d83 1
+a83 1
+	m_imageList.Create(16, 16, g_eMuleApp.m_iDfltImageListColorFlags | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+d115 1
+a115 1
+	g_eMuleApp.m_pGlobPrefs->Save();
+d121 1
+a121 1
+	g_eMuleApp.m_pGlobPrefs->Save();
+@
+
+
+1.49
+log
+@IDS_EM_PREFS renamed into IDS_PREFERENCES.
+@
+text
+@d213 1
+a213 1
+	m_slideBar.AddGroupItem(GetResString(IDS_STATSSETUPINFO), iGroup, 10);
+@
+
+
+1.48
+log
+@Fixed update of preferences category list after <Ctrl-Tab>/<Ctrl-Shift-Tab> navigation [gonzlogu];
+Removed local preferences pointer.
+@
+text
+@d164 1
+a164 1
+	CString strTitle = GetResString(IDS_EM_PREFS);
+@
+
+
+1.47
+log
+@Removed several identical user icons (one is enough).
+@
+text
+@a2 2
+
+//#region headers
+a11 1
+//#endregion headers
+a12 1
+//#region message map
+a18 1
+//#endregion
+d115 1
+a115 1
+	m_pPrefs->Save();
+d121 1
+a121 1
+	m_pPrefs->Save();
+d218 1
+a218 1
+//	Connexion group
+d297 11
+@
+
+
+1.46
+log
+@Proper alphabetic order of new preferences
+@
+text
+@d52 1
+a52 1
+		IDI_PREF_SOURCES,		// 22
+@
+
+
+1.45
+log
+@*** empty log message ***
+@
+text
+@d78 1
+a81 1
+	AddPage(&m_proppageAutoDL);
+d202 1
+a208 1
+	m_proppageAutoDL.Localize();
+d240 1
+a243 1
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_AUTODL), iGroup, 23);
+@
+
+
+1.44
+log
+@AutoDL GUI preferences, to be finished
+@
+text
+@d53 1
+a53 1
+		IDI_PREF_GENERAL		// 23	- should add icon for AutoDL feature?
+d243 1
+a243 1
+	m_slideBar.AddGroupItem(_T("AutoDownload"), iGroup, 23);
+@
+
+
+1.43
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d52 2
+a53 1
+		IDI_PREF_SOURCES		// 22
+d81 1
+d208 1
+d243 1
+@
+
+
+1.42
+log
+@Faster image lists icon loading; reduced memory usage.
+@
+text
+@d86 1
+a86 1
+	m_imageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+@
+
+
+1.41
+log
+@IDS_PW_MODPT string was removed as duplicate.
+@
+text
+@d86 1
+a86 1
+	m_imageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 10);
+@
+
+
+1.40
+log
+@Improved string processing.
+@
+text
+@d238 1
+a238 1
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_MODPT), iGroup, 14);
+@
+
+
+1.39
+log
+@Reorganized preferences
+@
+text
+@d166 2
+a167 5
+	CString strCurrentItemText;
+	pListBox->GetText(pListBox->GetCurSel(), strCurrentItemText);
+
+	CString strCurrentGroupText = m_slideBar.GetGroupName(m_slideBar.GetSelectedGroupIndex());
+	strCurrentGroupText.Remove('&');
+d169 6
+a174 3
+	CString strTitle = GetResString(IDS_EM_PREFS);
+	strTitle.Remove('&');
+	SetWindowText(strTitle + _T(" -> ") + strCurrentGroupText + _T(" -> ") + strCurrentItemText);
+@
+
+
+1.38
+log
+@Improve image list filling.
+@
+text
+@d51 2
+a52 1
+		IDI_PREF_SECURITY		// 21
+d63 1
+d186 1
+d214 1
+@
+
+
+1.37
+log
+@Updated Reload button disable behavior to handle hashing on client start
+Minor order change on preferences
+@
+text
+@d28 26
+d85 1
+a85 23
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_GENERAL), 16, 16));			//  0
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_CONNECTION), 16, 16));		//  1
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PROXY), 16, 16));			//  2
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SERVER), 16, 16));			//  3
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_ADVANCED), 16, 16));		//  4
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_BACKUP), 16, 16));			//  5
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_FOLDERS), 16, 16));			//  6
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_FILES), 16, 16));			//  7
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_IRC), 16, 16));				//  8
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_WEBSERVER), 16, 16));		//  9
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_STATISTICS), 16, 16));		// 10
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MPENDING), 16, 16));				// 11
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_NOTIFICATIONS), 16, 16));	// 12
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SMTP), 16, 16));			// 13
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PARTTRAFFIC), 16, 16));		// 14
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SCHEDULER), 16, 16));		// 15
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SHORTCUTS),16,16));			// 16
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SORTING), 16, 16));			// 17
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_WINDOW), 16, 16));			// 18
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_LISTS), 16, 16));			// 19
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_LOGS), 16, 16));			// 20
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SECURITY), 16, 16));		// 21
+	LoadImgLstIcon(NULL, 0, 0);
+@
+
+
+1.36
+log
+@Preferences reorganization
+@
+text
+@d37 1
+a39 1
+	AddPage(&m_proppageLogs);
+a180 1
+	m_proppageLists.Localize();
+d183 1
+d208 1
+a210 1
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_LOGS), iGroup, 20);
+@
+
+
+1.35
+log
+@added auto-update for ipfilter
+@
+text
+@d38 1
+a38 1
+	AddPage(&m_proppageDownload);
+d50 1
+a50 1
+	AddPage(&m_proppageModPT);
+d73 1
+a73 1
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_MODPT), 16, 16));			// 14
+d78 1
+a78 1
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_DOWNLOAD), 16, 16));		// 19
+d181 1
+a181 1
+	m_proppageDownload.Localize();
+d194 1
+a194 1
+	m_proppageModPT.Localize();
+d209 1
+a209 1
+	m_slideBar.AddGroupItem(GetResString(IDS_PW_DOWNLOAD_WND), iGroup, 19);
+@
+
+
+1.34
+log
+@Updated preferences (moved logs to a new page so we can add more options in the future)
+@
+text
+@d52 1
+d80 1
+d196 1
+d232 1
+@
+
+
+1.33
+log
+@Updated preferences dialogs.
+Added upload log file (should be tested).
+@
+text
+@a31 1
+//
+d39 1
+d78 1
+a109 1
+
+a115 1
+
+a124 1
+//
+a128 1
+	//memzero(&logFont, sizeof(LOGFONT));
+d137 1
+a142 1
+
+a143 1
+
+d180 1
+a198 1
+//
+d207 1
+a208 1
+//
+a215 1
+//
+a222 1
+//
+a231 1
+//
+a253 1
+//
+@
+
+
+1.32
+log
+@The font of the slidebar group button is now bold + little corrections of the code
+@
+text
+@d39 1
+d77 1
+d183 1
+d210 1
+@
+
+
+1.31
+log
+@formatting;
+optimzations in UploadQueue.cpp;
+removing doubled ';'
+@
+text
+@d19 1
+a19 1
+	ON_MESSAGE(WM_SBN_SELCHANGE, OnSlideBarSelChanged)
+d124 16
+@
+
+
+1.30
+log
+@fix: min search doesn't work, due to my changes
+@
+text
+@d120 1
+a120 1
+	m_slideBar.CreateEx(WS_EX_CLIENTEDGE, WS_CHILD | WS_VISIBLE | WS_BORDER, CRect(0, 0, 0, 0), this, IDC_PREFS_SLIDEBAR);;
+@
+
+
+1.29
+log
+@Slight changes to the slidebar code + minor graphical bug fixed: when the system colors were changed during the eMule session, the colors of the group buttons of the slidebar weren't changed.
+@
+text
+@d53 1
+a53 1
+	
+d149 1
+a149 1
+	
+@
+
+
+1.28
+log
+@Added slidebar in the Preferences dialog
+@
+text
+@a185 1
+	ASSERT(iGroup == 0); // TODO: remove this line
+@
+
+
+1.27
+log
+@Formatting, comments, and name changes.
+Removed old #defines
+@
+text
+@d19 1
+a19 1
+	ON_LBN_SELCHANGE(IDC_PREFS_LISTBOX, OnSelChanged)
+d32 8
+a39 2
+	AddPage(&m_proppageGeneral);
+	AddPage(&m_proppageConnection);
+d42 2
+a43 4
+	AddPage(&m_proppageAdvanced);
+	AddPage(&m_proppageBackup);
+	AddPage(&m_proppageDirectories);
+	AddPage(&m_proppageFiles);
+a44 2
+	AddPage(&m_proppageHTTPD);
+	AddPage(&m_proppageStats);
+d47 2
+a48 1
+	AddPage(&m_proppageSMTP);
+d53 1
+a53 1
+	AddPage(&m_proppageWindow);
+d57 19
+a75 19
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_GENERAL), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_CONNECTION), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PROXY), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SERVER), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_ADVANCED), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_BACKUP), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_FOLDERS), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_FILES), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_IRC), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_WEBSERVER), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_STATISTICS), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MPENDING), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_NOTIFICATIONS), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SMTP), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_MODPT), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SCHEDULER), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SHORTCUTS),16,16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SORTING), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_WINDOW), 16, 16));
+d92 1
+d94 1
+d120 3
+a122 4
+	m_listBox.CreateEx(WS_EX_CLIENTEDGE, _T("Listbox"), 0, WS_VSCROLL | WS_CHILD | WS_VISIBLE | LBS_NOTIFY | WS_TABSTOP | LBS_HASSTRINGS | LBS_OWNERDRAWVARIABLE | WS_BORDER, CRect(0, 0, 0, 0), this, IDC_PREFS_LISTBOX);
+	::SendMessage(m_listBox.m_hWnd, WM_SETFONT, (WPARAM) ::GetStockObject(DEFAULT_GUI_FONT), 0);
+
+	m_listBox.SetImageList(&m_imageList);
+d130 1
+a130 1
+	m_listBox.SetFocus();
+d135 1
+a135 1
+void CPreferencesDlg::OnSelChanged()
+d137 20
+a156 9
+	int curSel = m_listBox.GetCurSel();
+	SetActivePage(curSel);
+	CString currenttext;
+	m_listBox.GetText(curSel, currenttext);
+	CString title = GetResString(IDS_EM_PREFS);
+	title.Remove('&');
+	SetWindowText(title + _T(": ") + currenttext);
+//	SetIcon(m_imageList.ExtractIcon(curSel),FALSE);
+	m_listBox.SetFocus();
+d162 4
+d167 1
+a167 1
+	m_proppageProxy.Localize();    // Maverick
+d169 2
+a170 4
+	m_proppageAdvanced.Localize();
+	m_proppageBackup.Localize(); //N@@boleo
+	m_proppageDirectories.Localize();
+	m_proppageFiles.Localize();
+d172 1
+a172 3
+	m_proppageHTTPD.Localize();
+	m_proppageStats.Localize();
+	m_proppageMessaging.Localize(); //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+d174 2
+a175 1
+	m_proppageSMTP.Localize();
+a179 1
+	m_proppageWindow.Localize();
+d181 45
+a225 35
+	CStringArray buffer;
+	buffer.Add(GetResString(IDS_PW_GENERAL));
+	buffer.Add(GetResString(IDS_PW_CONNECTION));
+	buffer.Add(GetResString(IDS_PW_PROXY));  // Maverick
+	buffer.Add(GetResString(IDS_PW_SERVER));
+	buffer.Add(GetResString(IDS_PW_ADVANCED));
+	buffer.Add(GetResString(IDS_PW_BACKUP)); //N@@boleo
+	buffer.Add(GetResString(IDS_PW_DIR));
+	buffer.Add(GetResString(IDS_PW_FILES));
+	buffer.Add(GetResString(IDS_IRC));
+	buffer.Add(GetResString(IDS_PW_HTTPD));
+	buffer.Add(GetResString(IDS_STATSSETUPINFO));
+	buffer.Add(GetResString(IDS_PW_IM_OPTIONS));  //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+	buffer.Add(GetResString(IDS_PW_EKDEV_OPTIONS));
+	buffer.Add(GetResString(IDS_PW_SMTP));
+	buffer.Add(GetResString(IDS_PW_MODPT));
+	buffer.Add(GetResString(IDS_PW_SCHEDULER));
+	buffer.Add(GetResString(IDS_PW_SHORTCUTS));
+	buffer.Add(GetResString(IDS_PW_SORTING));
+	buffer.Add(GetResString(IDS_PW_WINDOW));
+
+	m_listBox.ResetContent();
+	int width = 0;
+	CClientDC dc(this);
+	CFont * f = m_listBox.GetFont();
+	CFont * pOldFont = dc.SelectObject(f);
+	CSize sz;
+	for (int i = 0; i < GetPageCount(); i++)
+	{
+		m_listBox.AddString(buffer[i], i);
+		sz = dc.GetTextExtent(buffer[i]);
+		if (sz.cx > width)
+			width = sz.cx;
+	}
+	dc.SelectObject(pOldFont);
+d227 2
+a228 3
+	CRect rectOld;
+	m_listBox.GetWindowRect(&rectOld);
+	int xoffset, yoffset;
+d241 3
+d255 1
+a255 1
+	m_listBox.SetWindowPos(NULL, 6, 6, width, rectOld.Height() - 12, SWP_NOZORDER | SWP_NOACTIVATE);
+d268 2
+a269 2
+	m_listBox.SetCurSel(GetActiveIndex());
+	OnSelChanged();
+@
+
+
+1.26
+log
+@Minor fixes
+@
+text
+@d29 1
+a29 24
+//#region OLD
+#ifdef OLD
+	m_psh.dwFlags = PSH_PROPSHEETPAGE;
+	m_proppageGeneral.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageConnection.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageProxy.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageServer.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageAdvanced.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageBackup.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageDirectories.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageFiles.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageIRC.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageHTTPD.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageStats.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageMessaging.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageNotify.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageSMTP.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageModPT.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageScheduler.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageShortcuts.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageSorting.m_psp.dwFlags = PSP_USECALLBACK;
+	m_proppageWindow.m_psp.dwFlags = PSP_USECALLBACK;
+#endif OLD
+//#endregion
+@
+
+
+1.25
+log
+@Little change
+@
+text
+@d101 1
+a101 1
+	m_imageList.Detach();
+@
+
+
+1.24
+log
+@Formatting, comments, and name changes.
+@
+text
+@d48 1
+a50 1
+	m_proppageShortcuts.m_psp.dwFlags = PSP_USECALLBACK;
+d71 1
+a73 1
+	AddPage(&m_proppageShortcuts);
+d93 1
+a95 1
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SHORTCUTS),16,16));
+d185 1
+a187 1
+	m_proppageShortcuts.Localize();
+d206 1
+a208 1
+	buffer.Add(GetResString(IDS_PW_SHORTCUTS));
+@
+
+
+1.23
+log
+@*** empty log message ***
+@
+text
+@d50 1
+a50 1
+	m_proppageShortcuts.m_psp.dwFlags = PSP_USECALLBACK;	// DropF - Keyboard Shortcuts
+d73 1
+a73 1
+	AddPage(&m_proppageShortcuts);		// DropF - Keyboard Shortcuts
+d95 1
+a95 1
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SHORTCUTS),16,16));	// DropF - Keyboard Shortcuts
+d187 1
+a187 1
+	m_proppageShortcuts.Localize();	// DropF - Keyboard Shortcuts
+d208 1
+a208 1
+	buffer.Add(GetResString(IDS_PW_SHORTCUTS));	// DropF - Keyboard Shortcuts
+@
+
+
+1.22
+log
+@Fix for not remembering last preferences selection
+@
+text
+@d50 1
+d73 1
+d95 1
+d187 1
+d208 1
+@
+
+
+1.21
+log
+@Removed debugging code.
+@
+text
+@a138 1
+	SetActivePage(m_dwActiveWnd);
+d141 2
+@
+
+
+1.20
+log
+@Formatting, comments, and name changes.
+@
+text
+@a54 1
+#ifdef LATER
+a71 1
+#endif 
+@
+
+
+1.19
+log
+@Fix for #0000328
+@
+text
+@d1 1
+a1 1
+// PreferencesDlg.cpp : implementation file
+d4 1
+d11 1
+a11 1
+static char THIS_FILE[]=__FILE__;
+d14 1
+d16 37
+a52 1
+// CPreferencesDlg
+d54 42
+a95 64
+IMPLEMENT_DYNAMIC(CPreferencesDlg, CPropertySheet)
+CPreferencesDlg::CPreferencesDlg(){
+	m_visible = false;
+	m_psh.dwFlags;
+	m_wndGeneral.m_psp.dwFlags;
+	m_wndConnection.m_psp.dwFlags;
+	m_wndProxy.m_psp.dwFlags;		// Maverick
+	m_wndServer.m_psp.dwFlags;
+	m_wndAdvanced.m_psp.dwFlags;
+	m_wndBackup.m_psp.dwFlags;		//N@@boleo
+	m_wndDirectories.m_psp.dwFlags;
+	m_wndFiles.m_psp.dwFlags;
+	m_wndIRC.m_psp.dwFlags;
+	m_wndHTTPD.m_psp.dwFlags;  		// LENN HT
+	m_wndStats.m_psp.dwFlags;
+	m_wndMessaging.m_psp.dwFlags;
+	m_wndNotify.m_psp.dwFlags;
+	m_wndSMTP.m_psp.dwFlags;  		// DonGato
+	m_wndModPT.m_psp.dwFlags;
+	m_wndScheduler.m_psp.dwFlags;	// DonGato
+	m_wndSorting.m_psp.dwFlags;		// Cax2
+	m_wndWindow.m_psp.dwFlags;		// DonGato
+	
+	AddPage(&m_wndGeneral);
+	AddPage(&m_wndConnection);
+	AddPage(&m_wndProxy);			// Maverick
+	AddPage(&m_wndServer);
+	AddPage(&m_wndAdvanced);
+	AddPage(&m_wndBackup);			//N@@boleo
+	AddPage(&m_wndDirectories);
+	AddPage(&m_wndFiles);
+	AddPage(&m_wndIRC);
+	AddPage(&m_wndHTTPD);  			// LENN HT
+	AddPage(&m_wndStats);
+	AddPage(&m_wndMessaging);		//<<-- enkeyDEV(kei-kun) -Messaging preferences-
+	AddPage(&m_wndNotify);
+	AddPage(&m_wndSMTP);  			// DonGato
+	AddPage(&m_wndModPT);
+	AddPage(&m_wndScheduler);		// DonGato
+	AddPage(&m_wndSorting);			// Cax2
+	AddPage(&m_wndWindow);			// DonGato
+
+	m_nActiveWnd = 0;
+
+	ImageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 10);
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_GENERAL),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_CONNECTION),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PROXY),16,16)); // Maverick
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SERVER),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_ADVANCED),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_BACKUP),16,16)); //N@@boleo
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_FOLDERS),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_FILES),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_IRC),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_WEBSERVER),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_STATISTICS),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MPENDING),16,16)); //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_NOTIFICATIONS),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SMTP),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_MODPT),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SCHEDULER),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SORTING),16,16));
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_WINDOW),16,16));
+	LoadImgLstIcon(NULL,0,0);	// delete temp-icon
+d97 1
+a97 1
+
+d100 1
+a100 1
+	ImageList.Detach();
+d102 1
+a102 1
+
+d105 3
+a107 2
+	if(!m_visible){
+		m_visible = true;
+d113 1
+a113 8
+
+BEGIN_MESSAGE_MAP(CPreferencesDlg, CPropertySheet)
+	ON_WM_DESTROY()
+	ON_LBN_SELCHANGE(111,OnSelChanged)
+	ON_COMMAND(ID_APPLY_NOW, OnApplyNow)
+	ON_COMMAND(IDOK, OnOk)
+END_MESSAGE_MAP()
+
+d116 1
+a116 1
+	m_visible = false;
+d118 1
+a118 2
+//	m_pPrefs->Save();
+	m_nActiveWnd = GetActiveIndex();
+d120 1
+a120 1
+
+d127 1
+a127 1
+
+d134 8
+a142 3
+BOOL CPreferencesDlg::OnInitDialog()
+{		
+	EnableStackedTabs(FALSE);
+d145 3
+a147 2
+	m_listbox.CreateEx(WS_EX_CLIENTEDGE,_T("Listbox"),0,WS_VSCROLL|WS_CHILD|WS_VISIBLE|LBS_NOTIFY|WS_TABSTOP|LBS_HASSTRINGS|LBS_OWNERDRAWVARIABLE|WS_BORDER,CRect(0,0,0,0),this,111);
+	::SendMessage(m_listbox.m_hWnd, WM_SETFONT, (WPARAM) ::GetStockObject(DEFAULT_GUI_FONT),0);
+d149 1
+a149 5
+	m_listbox.SetImageList(&ImageList);
+	SetActivePage(m_nActiveWnd);
+	Localize();
+	m_listbox.SetFocus();
+	return bResult;
+d151 1
+a151 1
+
+d154 1
+a154 1
+	int curSel=m_listbox.GetCurSel();
+d157 1
+a157 1
+	m_listbox.GetText(curSel,currenttext);
+d160 3
+a162 3
+	SetWindowText(title+_T(": ")+currenttext);
+	// SetIcon(ImageList.ExtractIcon(curSel),FALSE);
+	m_listbox.SetFocus();
+d164 1
+a164 1
+
+d167 22
+a188 22
+	m_wndGeneral.Localize();
+	m_wndConnection.Localize();
+	m_wndProxy.Localize();    // Maverick
+	m_wndServer.Localize();
+	m_wndAdvanced.Localize();
+	m_wndBackup.Localize(); //N@@boleo
+	m_wndDirectories.Localize();
+	m_wndFiles.Localize();
+	m_wndIRC.Localize();
+	m_wndHTTPD.Localize();
+	m_wndStats.Localize();
+	m_wndMessaging.Localize(); //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+	m_wndNotify.Localize();
+	m_wndSMTP.Localize();
+	m_wndModPT.Localize();
+	m_wndScheduler.Localize();
+	m_wndSorting.Localize();
+	m_wndWindow.Localize();
+
+	CStringArray buffer; 
+	buffer.Add(GetResString(IDS_PW_GENERAL)); 
+	buffer.Add(GetResString(IDS_PW_CONNECTION)); 
+d190 1
+a190 1
+	buffer.Add(GetResString(IDS_PW_SERVER)); 
+d193 3
+a195 3
+	buffer.Add(GetResString(IDS_PW_DIR)); 
+	buffer.Add(GetResString(IDS_PW_FILES)); 
+	buffer.Add(GetResString(IDS_IRC)); 
+d197 1
+a197 1
+	buffer.Add(GetResString(IDS_STATSSETUPINFO)); 
+d206 1
+a206 1
+	m_listbox.ResetContent();
+d209 2
+a210 2
+	CFont * f = m_listbox.GetFont();
+	CFont * pOldFont=dc.SelectObject(f);
+d212 3
+a214 3
+	for(int i = 0; i < GetPageCount(); i++) 
+	{ 
+		m_listbox.AddString(buffer[i],i);
+d216 1
+a216 1
+		if(sz.cx > width)
+d220 1
+a220 1
+	width+=60;
+d222 1
+a222 1
+	m_listbox.GetWindowRect(&rectOld);
+d224 1
+a224 1
+	if(IsWindowVisible())
+d226 2
+a227 2
+		yoffset=0;
+		xoffset=width-rectOld.Width();
+d231 1
+a231 1
+		xoffset=width-rectOld.Width()+10;
+d234 1
+a234 1
+		yoffset=-rectOld.top;
+d237 1
+a237 1
+	SetWindowPos(NULL,0,0,rectOld.Width()+xoffset,rectOld.Height()+yoffset,SWP_NOMOVE|SWP_NOZORDER|SWP_NOACTIVATE);
+d241 1
+a241 1
+	tab->SetWindowPos(NULL,rectOld.left+xoffset,rectOld.top+yoffset,0,0,SWP_NOSIZE|SWP_NOZORDER|SWP_NOACTIVATE);
+d245 1
+a245 1
+	activepage->SetWindowPos(NULL,rectOld.left+xoffset,rectOld.top+yoffset,0,0,SWP_NOSIZE|SWP_NOZORDER|SWP_NOACTIVATE);
+d247 1
+a247 1
+	m_listbox.SetWindowPos(NULL,6,6,width,rectOld.Height()-12,SWP_NOZORDER|SWP_NOACTIVATE);
+d252 1
+a252 1
+		if (PropSheetButton=GetDlgItem(_PropSheetButtons[i]))
+d256 1
+a256 1
+			PropSheetButton->SetWindowPos (NULL, rectOld.left+xoffset,rectOld.top+yoffset,0,0,SWP_NOSIZE|SWP_NOZORDER|SWP_NOACTIVATE);
+d260 1
+a260 1
+	m_listbox.SetCurSel(GetActiveIndex());		
+d266 1
+@
+
+
+1.18
+log
+@Formatting, comments, and name changes.
+@
+text
+@d19 19
+a37 19
+	m_psh.dwFlags &= ~PSH_HASHELP;
+	m_wndGeneral.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndConnection.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndProxy.m_psp.dwFlags &= ~PSP_HASHELP;   // Maverick
+	m_wndServer.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndAdvanced.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndBackup.m_psp.dwFlags &= ~PSP_HASHELP; //N@@boleo
+	m_wndDirectories.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndFiles.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndIRC.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndHTTPD.m_psp.dwFlags &= ~PSP_HASHELP;  	// LENN HT
+	m_wndStats.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndMessaging.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndNotify.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndSMTP.m_psp.dwFlags &= ~PSP_HASHELP;  	// DonGato
+	m_wndModPT.m_psp.dwFlags &= ~PSP_HASHELP;
+	m_wndScheduler.m_psp.dwFlags &= ~PSH_HASHELP; // DonGato
+	m_wndSorting.m_psp.dwFlags &= ~PSP_HASHELP; // Cax2
+	m_wndWindow.m_psp.dwFlags &= ~PSP_HASHELP;	// DonGato
+d41 1
+a41 1
+	AddPage(&m_wndProxy);       // Maverick
+d44 1
+a44 1
+	AddPage(&m_wndBackup);		//N@@boleo
+d48 1
+a48 1
+	AddPage(&m_wndHTTPD);  		// LENN HT
+d50 1
+a50 1
+	AddPage(&m_wndMessaging); //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+d52 1
+a52 1
+	AddPage(&m_wndSMTP);  		// DonGato
+d54 3
+a56 3
+	AddPage(&m_wndScheduler);	// DonGato
+	AddPage(&m_wndSorting);		// Cax2
+	AddPage(&m_wndWindow);		// DonGato
+@
+
+
+1.17
+log
+@Fixed TabTooltip update and Preferences vertical scroolbar
+@
+text
+@d108 1
+a108 1
+//	app_prefs->Save();
+d116 1
+a116 1
+	app_prefs->Save();
+d123 1
+a123 1
+	app_prefs->Save();
+@
+
+
+1.16
+log
+@Fixed HTTPD preferences.
+@
+text
+@d131 1
+a131 1
+	m_listbox.CreateEx(WS_EX_CLIENTEDGE,_T("Listbox"),0,WS_CHILD|WS_VISIBLE|LBS_NOTIFY|WS_TABSTOP|LBS_HASSTRINGS|LBS_OWNERDRAWVARIABLE|WS_BORDER,CRect(0,0,0,0),this,111);
+d136 1
+a136 1
+	Localize();	
+d209 1
+a209 1
+	width+=50;
+@
+
+
+1.15
+log
+@Updated notifications (for eMail alerts feature compatibility).
+@
+text
+@d50 1
+a51 1
+	AddPage(&m_wndMessaging); //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+@
+
+
+1.14
+log
+@BackUp feature [n@@boleo]
+@
+text
+@d33 1
+a35 1
+	m_wndSMTP.m_psp.dwFlags &= ~PSP_HASHELP;  	// DonGato
+d52 1
+a54 1
+	AddPage(&m_wndSMTP);  		// DonGato
+d72 1
+d74 1
+a74 1
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_MPENDING),16,16)); //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+a76 1
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SMTP),16,16));
+d167 1
+d169 1
+a169 1
+	m_wndMessaging.Localize(); //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+a171 1
+	m_wndSMTP.Localize();
+d187 1
+d189 1
+a189 1
+	buffer.Add(GetResString(IDS_PW_IM_OPTIONS));  //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+a191 1
+	buffer.Add(GetResString(IDS_PW_SMTP));
+@
+
+
+1.13
+log
+@SMTP Messenger: finished code & configuration phase, now we need to add the messages.
+@
+text
+@d25 1
+d35 1
+a37 1
+	m_wndSMTP.m_psp.dwFlags &= ~PSP_HASHELP;  	// DonGato
+d44 1
+d54 1
+a56 1
+	AddPage(&m_wndSMTP);  		// DonGato
+d66 1
+d76 1
+a78 1
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_SMTP),16,16));
+d161 1
+d171 1
+a173 1
+	m_wndSMTP.Localize();
+d181 1
+d191 1
+a193 1
+	buffer.Add(GetResString(IDS_PW_SMTP));
+@
+
+
+1.12
+log
+@unicode cleanup
+@
+text
+@d36 1
+d54 1
+d75 1
+d169 1
+d188 1
+@
+
+
+1.11
+log
+@Minor changes
+@
+text
+@d125 1
+a125 1
+	m_listbox.CreateEx(WS_EX_CLIENTEDGE,"Listbox",0,WS_CHILD|WS_VISIBLE|LBS_NOTIFY|WS_TABSTOP|LBS_HASSTRINGS|LBS_OWNERDRAWVARIABLE|WS_BORDER,CRect(0,0,0,0),this,111);
+d143 1
+a143 1
+	SetWindowText(title+": "+currenttext);
+@
+
+
+1.10
+log
+@ Opening multiple Preferences from tray causes lockup when trying to close them.
+@
+text
+@d56 1
+a56 1
+	ImageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 15, 0);
+@
+
+
+1.9
+log
+@Updated Night Shift to Scheduller (needs more testing and a new icon from DrSiRiUs... coming!)
+@
+text
+@d18 1
+d81 10
+d100 1
+@
+
+
+1.8
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d29 1
+d32 1
+a34 1
+	m_wndMessaging.m_psp.dwFlags &= ~PSH_HASHELP;
+d49 1
+d69 1
+d151 1
+d169 1
+@
+
+
+1.7
+log
+@Proxy Support (deadlake)
+@
+text
+@d33 1
+d46 1
+d53 1
+a53 1
+	ImageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 11, 0);
+d65 1
+d146 1
+d162 2
+a163 1
+	buffer.Add(GetResString(IDS_PW_EKDEV_OPTIONS)); 
+@
+
+
+1.6
+log
+@4 RC1
+@
+text
+@d21 1
+a21 1
+	//m_wndProxy.m_psp.dwFlags &= ~PSP_HASHELP;   // Maverick
+d36 1
+a36 1
+	//AddPage(&m_wndProxy);       // Maverick
+d54 1
+a54 1
+	//ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PROXY),16,16)); // Maverick
+d134 1
+a134 1
+	//m_wndProxy.Localize();    // Maverick
+d150 1
+a150 1
+	//buffer.Add(GetResString(IDS_PW_PROXY));  // Maverick
+@
+
+
+1.6.2.1
+log
+@keeping in sync with the main cvs line
+@
+text
+@d21 1
+a21 1
+	m_wndProxy.m_psp.dwFlags &= ~PSP_HASHELP;   // Maverick
+d36 1
+a36 1
+	AddPage(&m_wndProxy);       // Maverick
+d54 1
+a54 1
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PROXY),16,16)); // Maverick
+d134 1
+a134 1
+	m_wndProxy.Localize();    // Maverick
+d150 1
+a150 1
+	buffer.Add(GetResString(IDS_PW_PROXY));  // Maverick
+@
+
+
+1.6.4.1
+log
+@Proxy support fixes from deadlake.
+@
+text
+@d21 1
+a21 1
+	m_wndProxy.m_psp.dwFlags &= ~PSP_HASHELP;   // Maverick + enabled by deadlake
+d36 1
+a36 1
+	AddPage(&m_wndProxy);       // Maverick + enabled by deadlake
+d54 1
+a54 1
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PROXY),16,16)); // Maverick + enabled by deadlake
+d134 1
+a134 1
+	m_wndProxy.Localize();    // Maverick + enabled by deadlake
+d150 1
+a150 1
+	buffer.Add(GetResString(IDS_PW_PROXY));  // Maverick + enabled by deadlake
+@
+
+
+1.5
+log
+@removed the help button
+@
+text
+@d21 1
+a21 1
+	m_wndProxy.m_psp.dwFlags &= ~PSP_HASHELP;   // Maverick
+d36 1
+a36 1
+	AddPage(&m_wndProxy);       // Maverick
+d53 2
+a54 2
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_CONNECTION),16,16)); // Maverick
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_PROXY),16,16));
+d134 1
+a134 1
+	m_wndProxy.Localize();    // Maverick
+d150 1
+a150 1
+	buffer.Add(GetResString(IDS_PW_PROXY));  // Maverick
+@
+
+
+1.4
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d19 14
+a32 14
+	m_wndGeneral.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndConnection.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndProxy.m_psp.dwFlags &= ~PSH_HASHELP;   // Maverick
+	m_wndServer.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndAdvanced.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndDirectories.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndFiles.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndIRC.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndHTTPD.m_psp.dwFlags &= ~PSH_HASHELP;  	// LENN HT
+	m_wndStats.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndNotify.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndModPT.m_psp.dwFlags &= ~PSH_HASHELP;
+	m_wndSorting.m_psp.dwFlags &= ~PSH_HASHELP; // Cax2
+	m_wndWindow.m_psp.dwFlags &= ~PSH_HASHELP;	// DonGato
+@
+
+
+1.3
+log
+@Preferences save logic fixed
+@
+text
+@d8 5
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d72 2
+d79 15
+a94 1
+	m_nActiveWnd = GetActiveIndex();
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d16 1
+d31 1
+d48 2
+a49 1
+	ImageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_PREF_CONNECTION),16,16));
+d113 1
+d129 1
+@
+

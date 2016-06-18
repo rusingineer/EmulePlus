@@ -1,0 +1,157 @@
+head	1.5;
+access;
+symbols
+	PublicRelease_1_2e:1.5
+	Interim_Release_1-2e_RC1:1.5
+	PublicRelease_1_2d:1.5
+	Interim_Release_1-2d_RC1:1.5
+	Interim_Release_1-2d_beta1:1.5
+	PublicRelease_1_2c:1.5
+	Interim_Release_1-2c_RC1:1.5
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.5
+	PublicRelease_1_2a:1.5
+	Interim_Release_1-2a_RC1:1.5
+	Interim_Release_1-2a_beta2:1.5
+	Interim_Release_1-2a_beta1:1.5
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.5
+	PublicRelease_1_1g:1.5
+	Interim_Release_1-1g_RC3:1.5
+	Interim_Release_1-1g_RC2:1.5
+	Interim_Release_1-1g_RC1:1.5
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.5
+	Interim_Release_1-1f_RC1:1.5
+	PublicRelease_1_1e:1.5
+	Interim_Release_1-1e_RC2:1.5
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.1;
+locks; strict;
+comment	@# @;
+
+
+1.5
+date	2005.02.23.22.13.02;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.02.03.15.14.14;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.01.23.07.36.32;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.01.04.13.21.27;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.12.26.06.50.32;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@v2 - minor improvements
+@
+text
+@﻿<templates>
+   <template for="/">
+      <item type="dynamic" name="header"/>
+      <item type="static" name="welcome"/>
+   </template>
+   <template for="servers">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="servers"/>
+   </template>
+   <template for="files">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="files"/>
+   </template>
+   <template for="search">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="search"/>
+   </template>
+   <template for="shared">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="shared"/>
+   </template>
+   <template for="stats">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="stats"/>
+   </template>
+   <template for="graphs">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="graphs"/>
+   </template>
+   <template for="logs">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="logs"/>
+   </template>
+   <template for="debug">
+      <item type="dynamic" name="header"/>
+      <item type="dynamic" name="debug"/>
+   </template>
+</templates>
+@
+
+
+1.4
+log
+@Ideological switch (may be considered as temporary, but for long term) - ATL to MFC
+Actually we don't need them both, but I want to work with our current KnownFile-based classes, which use MFC a lot
+@
+text
+@d14 16
+@
+
+
+1.3
+log
+@More v2 Xml WebInterface
+@
+text
+@d14 4
+@
+
+
+1.2
+log
+@XML connecting, tray app
+@
+text
+@d1 1
+a1 1
+<templates>
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d10 8
+@
+

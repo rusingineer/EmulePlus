@@ -1,0 +1,3920 @@
+head	1.60;
+access;
+symbols
+	PublicRelease_1_2e:1.59
+	Interim_Release_1-2e_RC1:1.59
+	PublicRelease_1_2d:1.59
+	Interim_Release_1-2d_RC1:1.59
+	Interim_Release_1-2d_beta1:1.59
+	PublicRelease_1_2c:1.57
+	Interim_Release_1-2c_RC1:1.57
+	Interim_Release_1-2c_beta1:1.56
+	PublicRelease_1_2b:1.56
+	Interim_Release_1-2b_RC1:1.56
+	PublicRelease_1_2a:1.56
+	Interim_Release_1-2a_RC1:1.56
+	Interim_Release_1-2a_beta2:1.56
+	Interim_Release_1-2a_beta1:1.56
+	PublicRelease_1_2:1.55
+	Interim_Release_1-2_RC1:1.55
+	Interim_Release_1-2_beta1:1.55
+	PublicRelease_1_1g:1.54
+	Interim_Release_1-1g_RC3:1.54
+	Interim_Release_1-1g_RC2:1.54
+	Interim_Release_1-1g_RC1:1.54
+	Interim_Release_1-1g_beta2:1.53
+	Interim_Release_1-1g_beta1:1.52
+	PublicRelease_1_1f:1.52
+	Interim_Release_1-1f_RC1:1.52
+	PublicRelease_1_1e:1.51
+	Interim_Release_1-1e_RC2:1.51
+	Interim_Release_1-1e_RC1:1.51
+	Interim_Release_1-1e_beta1:1.51
+	PublicRelease_1_1d:1.50
+	Interim_Release_1-1d_RC1:1.50
+	PublicRelease_1_1c:1.50
+	Interim_Release_1-1c_RC1:1.50
+	Interim_Release_1-1c_beta2:1.50
+	Interim_Release_1-1c_beta1:1.49
+	PublicRelease_1_1b:1.48
+	Interim_Release_1-1b_RC1:1.48
+	PublicRelease_1_1a:1.47
+	Interim_Release_1-1a_RC2:1.47
+	Interim_Release_1-1a_RC1:1.47
+	Interim_Release_1-1a_beta2:1.47
+	Interim_Release_1-1a_beta1:1.47
+	PublicRelease_1_1:1.46
+	Interim_Release_1-1_beta1:1.46
+	PublicRelease_1o:1.43
+	Interim_Release_1o_RC1:1.43
+	Interim_Release_1o_beta1:1.43
+	PublicRelease_1n:1.43
+	Interim_Release_1n_RC2:1.43
+	Interim_Release_1n_RC1:1.43
+	Interim_Release_1n_beta2:1.43
+	Interim_Release_1n_beta1:1.42
+	PublicRelease_1m:1.42
+	Interim_Release_1m_beta1:1.42
+	PublicRelease_1l:1.41
+	Interim_Release_1l_RC3:1.40
+	Interim_Release_1l_RC2:1.40
+	Interim_Release_1l_RC1:1.40
+	Interim_Release_1l_beta2:1.40
+	Interim_Release_1l_beta1:1.39
+	PublicRelease_1k:1.34
+	Interim_Release_1k_RC4:1.34
+	Interim_1k_RC3:1.34
+	Interim_1k_RC2:1.34
+	Interim_Release_1k_RC1:1.34
+	Interim_Release_1k_beta5:1.34
+	Intrerim_Release_1k_beta4:1.34
+	Interim_Release_1k_beta1:1.34
+	PublicRelease_1j:1.33
+	Interim_Release_1J_RC3:1.33
+	Interim_Release_1j_RC3:1.33
+	Interim_Release_1j_RC2:1.32
+	Interim_Release_1j_RC1:1.32
+	Interim_Release_1j_beta2:1.32
+	Interim_Release_1j_beta1:1.31
+	PublicRelease_1i:1.29
+	Interim_Release_1i_RC6:1.29
+	Interim_Release_1i_RC3:1.29
+	Interim_Release_1i_RC2:1.29
+	Interim_Release_1i_RC1:1.29
+	Interim_Release_1i_beta3:1.29
+	Interim_Release_1i_beta2:1.28
+	Interim_Release_1i_beta1:1.23
+	PublicRelease_1h:1.18
+	Interim_Release_1h_rc2:1.18
+	Interim_Release_1h_RC1:1.18
+	Interim_Release_1h_beta2:1.18
+	Interim_Release_1h_beta1_now:1.15
+	Interim_Release_1h_beta1:1.15
+	PublicRelease_1g:1.13
+	Interim_Release_1g_RC6_Final:1.13
+	Interim_Release_1g_RC6:1.13
+	Interim_Release_1g_RC5:1.13
+	Interim_Release_1g_RC4:1.13
+	Interim_Release_1g_RC3:1.12
+	Interim_Release_1g_beta2:1.11
+	Interim_Release_1g_beta1:1.11
+	Interim_Release_1f_RC4:1.9
+	Interim_Release_1f_RC3:1.9
+	Interim_Release_1f_RC2:1.7
+	Interim_Release_1f_RC:1.7
+	Interim_Release_1f_beta2:1.7
+	Interim_Release_1f_beta1:1.7
+	PublicRelease_1e:1.7
+	Interim_Release_1e_RC2:1.7
+	Interim_Release_1e_RC:1.7
+	Interim_Release_1e_beta3:1.7
+	Interim_Release_1e_beta2:1.7
+	Interim_Release_1e_beta2_before_kuchin:1.7
+	Interim_Release_1e_beta1:1.7
+	PublicRelease_1c:1.7
+	featurestest:1.7.0.2
+	Interim_Release_1c_RC:1.7
+	Interim_Release_1c_beta2:1.7
+	Interim_Release_1c_beta1:1.6
+	threaded_downloadqueue:1.6.0.2
+	PublicRelease_1b:1.4
+	Interim_Release_1b_beta2:1.4
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.4.0.4
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.4.0.2
+	Interim_Release_1a_beta1:1.4
+	PublicRelease_1:1.4
+	goldfish:1.4
+	eMulePlus_1_RC2:1.4
+	eMulePlus_26b_1RC1:1.4
+	PreRelease_26b_i0e:1.4
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.3.0.4
+	plus26based:1.3.0.2
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.60
+date	2009.05.14.03.11.58;	author aw3;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2007.12.30.04.46.08;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2007.10.24.19.06.01;	author fuxie-dk;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2007.04.02.23.14.14;	author kush_eplus;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2006.04.09.01.31.16;	author aw3;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2006.01.25.05.23.50;	author aw3;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2005.11.08.04.52.58;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2005.07.21.04.43.06;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2005.03.29.03.43.42;	author aw3;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.02.02.07.15.51;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.01.16.00.34.59;	author netwolf1;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.12.16.00.26.16;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.11.02.17.17.07;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.10.18.04.41.38;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.10.09.02.27.05;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.10.06.22.16.04;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.07.22.03.36.03;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.06.17.23.47.37;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.06.10.23.00.19;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.05.18.21.07.43;	author katsyonak;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.04.29.10.36.10;	author netwolf1;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.04.25.12.46.42;	author dongato;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.04.25.08.33.01;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.04.25.06.03.19;	author katsyonak;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.04.24.12.26.31;	author katsyonak;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.02.17.13.36.06;	author dongato;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.01.21.10.32.32;	author dongato;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.12.31.14.01.53;	author dongato;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.12.22.10.48.11;	author dongato;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.12.16.07.30.02;	author dongato;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.10.26.15.57.56;	author morevit;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.10.20.13.20.01;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.10.08.15.39.48;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.10.04.22.18.39;	author morevit;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.10.01.17.26.47;	author morevit;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.09.24.20.37.29;	author dongato;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.09.04.03.53.30;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.08.23.00.20.50;	author forcha;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.08.20.19.16.01;	author partyckip;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.08.03.14.21.20;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.07.30.22.56.00;	author zegzav;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.07.08.08.10.23;	author netwolf1;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.06.14.13.05.58;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.06.01.12.57.43;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.01.10.14.17;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.05.20.16.30.40;	author netwolf1;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.05.17.11.19.31;	author netwolf1;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.16.13.08.55;	author dongato;	state Exp;
+branches
+	1.7.2.1;
+next	1.6;
+
+1.6
+date	2003.03.13.06.23.50;	author recdvst;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.10.23.04.17;	author cax2;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.02.13.27.42;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.01.14.45.39;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.23;	author cax2;	state Exp;
+branches;
+next	1.1.4.2;
+
+1.1.4.2
+date	2003.02.02.02.36.27;	author cax2;	state Exp;
+branches;
+next	;
+
+1.7.2.1
+date	2003.03.23.09.12.47;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.60
+log
+@Unified list column definitions.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgSorting.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgSorting, CPropertyPage)
+CPPgSorting::CPPgSorting()
+	: CPropertyPage(CPPgSorting::IDD)
+	, m_bUseSorting(FALSE)
+	, m_bUseSourcesSorting(FALSE)
+	, m_bPausedStoppedLast(FALSE)
+{
+}
+
+CPPgSorting::~CPPgSorting()
+{
+}
+
+void CPPgSorting::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_SORT_SERVERS, m_ServerColsCombo);
+	DDX_Control(pDX, IDC_SORT_FILES, m_FileColsCombo);
+	DDX_Control(pDX, IDC_SORT_DOWNLOADS, m_DownloadColsCombo);
+	DDX_Control(pDX, IDC_SORT_UPLOADS, m_UploadColsCombo);
+	DDX_Control(pDX, IDC_SORT_QUEUE, m_QueueColsCombo);
+	DDX_Control(pDX, IDC_SORT_SEARCH, m_SearchColsCombo);
+	DDX_Control(pDX, IDC_SORT_IRC, m_IrcColsCombo);
+	DDX_Control(pDX, IDC_SORT_CLIENTLIST, m_ClientListColsCombo);
+	DDX_Control(pDX, IDC_SORT_SOURCES1, m_SourceCols1Combo);
+	DDX_Control(pDX, IDC_SORT_SOURCES2, m_SourceCols2Combo);
+	DDX_Check(pDX, IDC_SORT_USEIT, m_bUseSorting);
+	DDX_Check(pDX, IDC_SORT_SOURCES2_BOX, m_bUseSourcesSorting);
+	DDX_Check(pDX, IDC_SORT_NONACTIVELAST, m_bPausedStoppedLast);
+}
+
+BEGIN_MESSAGE_MAP(CPPgSorting, CPropertyPage)
+	ON_WM_SYSCOMMAND()
+	ON_WM_PAINT()
+	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_SORT_USEIT, OnBnClickedUseSort)
+	ON_CBN_SELCHANGE(IDC_SORT_SERVERS, OnCbnSelchangeSortServers)
+	ON_CBN_SELCHANGE(IDC_SORT_FILES, OnCbnSelchangeSortFiles)
+	ON_CBN_SELCHANGE(IDC_SORT_DOWNLOADS, OnCbnSelchangeSortDownloads)
+	ON_CBN_SELCHANGE(IDC_SORT_SOURCES1, OnCbnSelchangeSortSources1)
+	ON_CBN_SELCHANGE(IDC_SORT_SOURCES2, OnCbnSelchangeSortSources2)
+	ON_CBN_SELCHANGE(IDC_SORT_UPLOADS, OnCbnSelchangeSortUploads)
+	ON_CBN_SELCHANGE(IDC_SORT_QUEUE, OnCbnSelchangeSortQueue)
+	ON_CBN_SELCHANGE(IDC_SORT_SEARCH, OnCbnSelchangeSortSearch)
+	ON_CBN_SELCHANGE(IDC_SORT_IRC, OnCbnSelchangeSortIrc)
+	ON_CBN_SELCHANGE(IDC_SORT_CLIENTLIST, OnCbnSelchangeSortClientList)
+	ON_BN_CLICKED(IDC_SORT_SOURCES2_BOX, OnBnClickedSortSources2Box)
+	ON_BN_CLICKED(IDC_SORT_NONACTIVELAST, OnBnClickedPausedStoppedLast)
+END_MESSAGE_MAP()
+
+BOOL CPPgSorting::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+	LoadSettings();
+	Localize();
+	return TRUE;
+}
+
+void CPPgSorting::LoadSettings(void)
+{
+	m_bUseSorting = m_pPrefs->DoUseSort();
+	m_bUseSourcesSorting = m_pPrefs->DoUseSrcSortCol2();
+	m_bPausedStoppedLast = m_pPrefs->DoPausedStoppedLast();
+
+	UpdateData(FALSE);
+	OnBnClickedUseSort();
+	SetModified(FALSE);
+}
+
+BOOL CPPgSorting::OnApply()
+{
+	if (m_bModified)
+	{
+		UpdateData(TRUE);
+
+		m_pPrefs->SetUseSort(B2b(m_bUseSorting));
+		m_pPrefs->SetUseSrcSortCol2(B2b(m_bUseSourcesSorting));
+		m_pPrefs->SetPausedStoppedLast(B2b(m_bPausedStoppedLast));
+		m_pPrefs->SetServerSortCol(m_ServerColsCombo.GetItemData(m_ServerColsCombo.GetCurSel()));
+		m_pPrefs->SetUploadSortCol(m_UploadColsCombo.GetItemData(m_UploadColsCombo.GetCurSel()));
+		m_pPrefs->SetQueueSortCol(m_QueueColsCombo.GetItemData(m_QueueColsCombo.GetCurSel()));
+		m_pPrefs->SetSearchSortCol(m_SearchColsCombo.GetItemData(m_SearchColsCombo.GetCurSel()));
+		m_pPrefs->SetIrcSortCol(m_IrcColsCombo.GetItemData(m_IrcColsCombo.GetCurSel()));
+		m_pPrefs->SetClientListSortCol(m_ClientListColsCombo.GetItemData(m_ClientListColsCombo.GetCurSel()));
+		m_pPrefs->SetFileSortCol(m_FileColsCombo.GetItemData(m_FileColsCombo.GetCurSel()));
+		m_pPrefs->SetDownloadSortCol(m_DownloadColsCombo.GetItemData(m_DownloadColsCombo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol1(m_SourceCols1Combo.GetItemData(m_SourceCols1Combo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol2(m_SourceCols2Combo.GetItemData(m_SourceCols2Combo.GetCurSel()));
+
+		SetModified();
+
+		if (m_pPrefs->DoUseSort())
+		{
+			g_App.m_pMDlg->m_wndServer.m_ctlServerList.SortInit(m_pPrefs->GetServerSortCol());
+			g_App.m_pMDlg->m_wndTransfer.m_ctlUploadList.SortInit(m_pPrefs->GetUploadSortCol());
+			g_App.m_pMDlg->m_wndTransfer.m_ctlQueueList.SortInit(m_pPrefs->GetQueueSortCol());
+			g_App.m_pMDlg->m_wndTransfer.m_ctlClientList.SortInit(m_pPrefs->GetClientListSortCol());
+			g_App.m_pMDlg->m_dlgSearch.m_ctlSearchList.SortInit(m_pPrefs->GetSearchSortCol());
+			g_App.m_pMDlg->m_wndIRC.serverChannelList.SortInit(m_pPrefs->GetIrcSortCol());
+			g_App.m_pMDlg->m_wndSharedFiles.m_ctlSharedFilesList.SortInit(m_pPrefs->GetFileSortCol());
+			SetModified(FALSE); //needs the settings for downloadlistcontrol
+			g_App.m_pMDlg->m_wndTransfer.m_ctlDownloadList.SortInit(DL_OVERRIDESORT); //major override...
+		}
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgSorting::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_SORT_USEIT, IDS_SORT_USEIT },
+		{ IDC_SORT_NONACTIVELAST, IDS_SORT_NONACTIVELAST },
+		{ IDC_SORT_SERVERS_LBL, IDS_SORT_SERVERS_LBL },
+		{ IDC_SORT_DOWNLOADS_LBL, IDS_SORT_DOWNLOADS_LBL },
+		{ IDC_SORT_UPLOADS_LBL, IDS_SORT_UPLOADS_LBL },
+		{ IDC_SORT_QUEUE_LBL, IDS_SORT_QUEUE_LBL },
+		{ IDC_SORT_SEARCH_LBL, IDS_SORT_SEARCH_LBL },
+		{ IDC_SORT_FILES_LBL, IDS_SORT_FILES_LBL },
+		{ IDC_SORT_IRC_LBL, IDS_SORT_IRC_LBL },
+		{ IDC_SORT_CLIENTLIST_LBL, IDS_SORT_CLIENTLIST_LBL },
+		{ IDC_SORT_GRP, IDS_SORT_GRP },
+		{ IDC_SORT_SOURCES1_LBL, IDS_SORT_SOURCES1_LBL },
+		{ IDC_SORT_SOURCES2_BOX, IDS_SORT_SOURCES2_LBL }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+
+		LoadCombo();
+	}
+}
+
+void CPPgSorting::OnBnClickedSortSources2Box()
+{
+	UpdateData(TRUE);
+
+	m_SourceCols2Combo.EnableWindow(m_bUseSourcesSorting);
+
+	SetModified();
+}
+
+void CPPgSorting::OnBnClickedUseSort()
+{
+	UpdateData(TRUE);
+
+	m_ServerColsCombo.EnableWindow(m_bUseSorting);
+	m_FileColsCombo.EnableWindow(m_bUseSorting);
+	m_DownloadColsCombo.EnableWindow(m_bUseSorting);
+	m_UploadColsCombo.EnableWindow(m_bUseSorting);
+	m_QueueColsCombo.EnableWindow(m_bUseSorting);
+	m_SearchColsCombo.EnableWindow(m_bUseSorting);
+	m_IrcColsCombo.EnableWindow(m_bUseSorting);
+	m_ClientListColsCombo.EnableWindow(m_bUseSorting);
+	m_SourceCols1Combo.EnableWindow(m_bUseSorting);
+	m_SourceCols2Combo.EnableWindow((m_bUseSorting && m_bUseSourcesSorting) ? true : false);
+	GetDlgItem(IDC_SORT_SOURCES2_BOX)->EnableWindow(m_bUseSorting);
+
+	SetModified();
+}
+
+void CPPgSorting::LoadCombo(void)
+{
+	static const uint16 s_auServerCols[][2] =
+	{
+		{ IDS_SL_SERVERNAME,	SRVCOL_SERVERNAME },
+		{ IDS_IP,				SRVCOL_SERVERIP },
+		{ IDS_DESCRIPTION,		SRVCOL_DESCRIPTION },
+		{ IDS_PING,				SRVCOL_PING },
+		{ IDS_UUSERS,			SRVCOL_NUMUSERS },
+		{ IDS_MAXUSERS,			SRVCOL_NUMUSERS | MLC_SORTALT },
+		{ IDS_PW_FILES,			SRVCOL_NUMFILES },
+		{ IDS_PRIORITY,			SRVCOL_PRIORITY },
+		{ IDS_UFAILED,			SRVCOL_FAILEDCOUNT },
+		{ IDS_STATICSERVER,		SRVCOL_STATIC },
+		{ IDS_SERVER_SOFTLIMIT,	SRVCOL_FILELIMIT },
+		{ IDS_SERVER_HARDLIMIT,	SRVCOL_FILELIMIT | MLC_SORTALT },
+		{ IDS_SERVER_VERSION,	SRVCOL_SOFTWAREVER },
+		{ IDS_COUNTRY,			SRVCOL_COUNTRY },
+		{ IDS_LOWIDUSERS,		SRVCOL_LOWIDUSERS }
+	};
+	static const uint16 s_auSharedFilesCols[][2] =
+	{
+		{ IDS_DL_FILENAME,		SFLCOL_FILENAME },
+		{ IDS_DL_SIZE,			SFLCOL_FILESIZE },
+		{ IDS_TYPE,				SFLCOL_TYPE },
+		{ IDS_PRIORITY,			SFLCOL_PRIORITY },
+		{ IDS_PERMISSION,		SFLCOL_PERMISSION },
+		{ IDS_FILEHASH,			SFLCOL_FILEHASH },
+		{ IDS_SF_REQUESTS,		SFLCOL_REQUESTS },
+		{ IDS_SF_REQUESTS,		SFLCOL_REQUESTS | MLC_SORTALT },
+		{ IDS_SF_ACCEPTS,		SFLCOL_ACCEPTED },
+		{ IDS_SF_ACCEPTS,		SFLCOL_ACCEPTED | MLC_SORTALT },
+		{ IDS_SF_TRANSFERRED,	SFLCOL_TRANSFERRED },
+		{ IDS_SF_TRANSFERRED,	SFLCOL_TRANSFERRED | MLC_SORTALT },
+		{ IDS_SF_PARTTRAFFIC,	SFLCOL_PARTTRAFFIC },
+		{ IDS_SF_PARTTRAFFIC,	SFLCOL_PARTTRAFFIC | MLC_SORTALT },
+		{ IDS_SF_COLUPLOADS,	SFLCOL_UPLOADS },
+		{ IDS_SF_COLUPLOADS,	SFLCOL_UPLOADS | MLC_SORTALT },
+		{ IDS_SF_COMPLETESRC,	SFLCOL_COMPLETESRC },
+		{ IDS_SF_COMPLETESRC,	SFLCOL_COMPLETESRC | MLC_SORTALT },
+		{ IDS_SF_FOLDER,		SFLCOL_FOLDER }
+	};
+	static const uint16 s_auUploadCols[][2] =
+	{
+		{ IDS_QL_USERNAME,	ULCOL_USERNAME },
+		{ IDS_FILE,			ULCOL_FILENAME },
+		{ IDS_DL_SPEED,		ULCOL_SPEED },
+		{ IDS_DL_TRANSF,	ULCOL_TRANSFERRED },
+		{ IDS_WAITED,		ULCOL_WAITED },
+		{ IDS_UPLOADTIME,	ULCOL_UPLOADTIME },
+		{ IDS_STATUS,		ULCOL_STATUS },
+		{ IDS_UP_PARTS,		ULCOL_PARTS },
+		{ IDS_DL_PROGRESS,	ULCOL_PROGRESS },
+		{ IDS_COMPRESSION,	ULCOL_COMPRESSION },
+		{ IDS_COUNTRY,		ULCOL_COUNTRY }
+	};
+	static const uint16 s_auQueueCols[][2] =
+	{
+		{ IDS_QL_USERNAME,	QLCOL_USERNAME },
+		{ IDS_FILE,			QLCOL_FILENAME },
+		{ IDS_FILEPRIO,		QLCOL_FILEPRIORITY },
+		{ IDS_UP_PARTS,		QLCOL_PARTS },
+		{ IDS_DL_PROGRESS,	QLCOL_PROGRESS },
+		{ IDS_RATING,		QLCOL_QLRATING },
+		{ IDS_SCORE,		QLCOL_SCORE },
+		{ IDS_SFRATIO,		QLCOL_SFRATIO },
+		{ IDS_RFRATIO,		QLCOL_RFRATIO },
+		{ IDS_ASKED,		QLCOL_TIMESASKED },
+		{ IDS_LASTSEEN,		QLCOL_LASTSEEN },
+		{ IDS_ENTERQUEUE,	QLCOL_ENTEREDQUEUE },
+		{ IDS_BANNED,		QLCOL_BANNED },
+		{ IDS_COUNTRY,		QLCOL_COUNTRY }
+	};
+	static const uint16 s_auSearchCols[][2] =
+	{
+		{ IDS_DL_FILENAME,		SEARCHCOL_FILENAME },
+		{ IDS_DL_SIZE,			SEARCHCOL_SIZE },
+		{ IDS_DL_SOURCES,		SEARCHCOL_SOURCES },
+		{ IDS_DL_SOURCES,		SEARCHCOL_SOURCES | MLC_SORTALT },
+		{ IDS_TYPE,				SEARCHCOL_TYPE },
+		{ IDS_FILEHASH,			SEARCHCOL_FILEHASH },
+		{ IDS_LASTSEENCOMPLETE,	SEARCHCOL_LASTSEENCOMPLETE },
+		{ IDS_LENGTH,			SEARCHCOL_LENGTH },
+		{ IDS_BITRATE,			SEARCHCOL_BITRATE },
+		{ IDS_CODEC,			SEARCHCOL_CODEC }
+	};
+	static const uint16 s_auIrcChanCols[][2] =
+	{
+		{ IDS_IRC_NAME,		IRC2COL_NAME },
+		{ IDS_UUSERS,		IRC2COL_USERS },
+		{ IDS_DESCRIPTION,	IRC2COL_DESCRIPTION }
+	};
+	static const uint16 s_auClientCols[][2] =
+	{
+		{ IDS_QL_USERNAME,					CLCOL_USERNAME },
+		{ IDS_CL_UPLOADSTATUS,				CLCOL_UPLOADSTATUS },
+		{ IDS_CL_TRANSFUP,					CLCOL_TRANSFERREDUP },
+		{ IDS_CL_DOWNLSTATUS,				CLCOL_DOWNLOADSTATUS },
+		{ IDS_CL_TRANSFDOWN,				CLCOL_TRANSFERREDDOWN },
+		{ IDS_INFLST_USER_CLIENTSOFTWARE,	CLCOL_CLIENTSOFTWARE },
+		{ IDS_CONNECTED,					CLCOL_CONNECTEDTIME },
+		{ IDS_INFLST_USER_USERHASH,			CLCOL_USERHASH },
+		{ IDS_COUNTRY,						CLCOL_COUNTRY }
+	};
+	static const uint16 s_auDownloadCols[][2] =
+	{
+		{ IDS_DL_FILENAME,			DLCOL_FILENAME },
+		{ IDS_DL_SIZE,				DLCOL_SIZE },
+		{ IDS_DL_TRANSF,			DLCOL_TRANSFERRED },
+		{ IDS_SF_COMPLETED,			DLCOL_COMPLETED },
+		{ IDS_DL_SPEED,				DLCOL_SPEED },
+		{ IDS_DL_PROGRESS,			DLCOL_PROGRESS },
+		{ IDS_DL_SOURCES,			DLCOL_NUMSOURCES },
+		{ IDS_PRIORITY,				DLCOL_PRIORITY },
+		{ IDS_STATUS,				DLCOL_STATUS },
+		{ IDS_DL_REMAINS,			DLCOL_REMAINING },
+		{ IDS_DLCOL_REMAININGTIME,	DLCOL_REMAININGTIME },
+		{ IDS_LASTSEENCOMPLETE,		DLCOL_LASTSEENCOMPLETE },
+		{ IDS_LASTRECEPTION,		DLCOL_LASTRECEIVED },
+		{ IDS_CAT,					DLCOL_CATEGORY },
+		{ IDS_WAITED,				DLCOL_WAITED },
+		{ IDS_DLCOL_AVGSPEED,		DLCOL_AVGSPEED },
+		{ IDS_DLCOL_AVGREMTIME,		DLCOL_AVGREMTIME },
+		{ IDS_DLCOL_ETA,			DLCOL_ETA },
+		{ IDS_DLCOL_AVGETA,			DLCOL_AVGETA }
+	};
+	static const uint16 s_auDownloadSrcCols[][2] =
+	{
+		{ IDS_QL_USERNAME,					DLCOL_FILENAME },
+		{ IDS_DL_TRANSF,					DLCOL_TRANSFERRED },
+		{ IDS_SF_COMPLETED,					DLCOL_COMPLETED },
+		{ IDS_DL_SPEED,						DLCOL_SPEED },
+		{ IDS_DL_PROGRESS,					DLCOL_PROGRESS },
+		{ IDS_INFLST_USER_CLIENTSOFTWARE,	DLCOL_NUMSOURCES },
+		{ 0,								DLCOL_PRIORITY },	//QR
+		{ IDS_STATUS,						DLCOL_STATUS },
+		{ IDS_DL_REMAINS,					DLCOL_REMAINING },
+		{ IDS_DLCOL_REMAININGTIME,			DLCOL_REMAININGTIME },
+		{ IDS_DL_ULDL,						DLCOL_ULDLRATIO },
+		{ IDS_RATING,						DLCOL_QLRATING }
+	};
+	CString	strResStr, strAux;
+	int		iRc, iCurSel;
+	uint32	dwCode;
+
+	m_ServerColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auServerCols); ui++)
+	{
+		GetResString(&strResStr, s_auServerCols[ui][0]);
+		strAux = strResStr;
+		if ((s_auServerCols[ui][1] & MLC_SORTALT) != 0)
+		{
+			strAux += _T("[^^]");
+			strResStr += _T("[vv]");
+		}
+		else
+			strAux += _T("[^]");
+
+		m_ServerColsCombo.SetItemData(iRc = m_ServerColsCombo.AddString(strAux), dwCode = s_auServerCols[ui][1]);
+		if (dwCode == m_pPrefs->GetServerSortCol())
+			iCurSel = iRc;
+		m_ServerColsCombo.SetItemData(iRc = m_ServerColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetServerSortCol())
+			iCurSel = iRc;
+	}
+	m_ServerColsCombo.SetCurSel(iCurSel);
+
+	m_FileColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auSharedFilesCols); ui++)
+	{
+		GetResString(&strResStr, s_auSharedFilesCols[ui][0]);
+		strAux = strResStr;
+		if ((s_auSharedFilesCols[ui][1] & MLC_SORTALT) != 0)
+		{
+			strAux += _T("[^^]");
+			strResStr += _T("[vv]");
+		}
+		else
+			strAux += _T("[^]");
+
+		m_FileColsCombo.SetItemData(iRc = m_FileColsCombo.AddString(strAux), dwCode = s_auSharedFilesCols[ui][1]);
+		if (dwCode == m_pPrefs->GetFileSortCol())
+			iCurSel = iRc;
+		m_FileColsCombo.SetItemData(iRc = m_FileColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetFileSortCol())
+			iCurSel = iRc;
+	}
+	m_FileColsCombo.SetCurSel(iCurSel);
+
+	m_UploadColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auUploadCols); ui++)
+	{
+		GetResString(&strResStr, s_auUploadCols[ui][0]);
+		strAux = strResStr;
+		strAux += _T("[^]");
+
+		m_UploadColsCombo.SetItemData(iRc = m_UploadColsCombo.AddString(strAux), dwCode = s_auUploadCols[ui][1]);
+		if (dwCode == m_pPrefs->GetUploadSortCol())
+			iCurSel = iRc;
+		m_UploadColsCombo.SetItemData(iRc = m_UploadColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetUploadSortCol())
+			iCurSel = iRc;
+	}
+	m_UploadColsCombo.SetCurSel(iCurSel);
+
+	m_QueueColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auQueueCols); ui++)
+	{
+		GetResString(&strResStr, s_auQueueCols[ui][0]);
+		strAux = strResStr;
+		strAux += _T("[^]");
+
+		m_QueueColsCombo.SetItemData(iRc = m_QueueColsCombo.AddString(strAux), dwCode = s_auQueueCols[ui][1]);
+		if (dwCode == m_pPrefs->GetQueueSortCol())
+			iCurSel = iRc;
+		m_QueueColsCombo.SetItemData(iRc = m_QueueColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetQueueSortCol())
+			iCurSel = iRc;
+	}
+	m_QueueColsCombo.SetCurSel(iCurSel);
+
+	m_SearchColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auSearchCols); ui++)
+	{
+		GetResString(&strResStr, s_auSearchCols[ui][0]);
+		strAux = strResStr;
+		if ((s_auSearchCols[ui][1] & MLC_SORTALT) != 0)
+		{
+			strAux += _T("[^^]");
+			strResStr += _T("[vv]");
+		}
+		else
+			strAux += _T("[^]");
+
+		m_SearchColsCombo.SetItemData(iRc = m_SearchColsCombo.AddString(strAux), dwCode = s_auSearchCols[ui][1]);
+		if (dwCode == m_pPrefs->GetSearchSortCol())
+			iCurSel = iRc;
+		m_SearchColsCombo.SetItemData(iRc = m_SearchColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetSearchSortCol())
+			iCurSel = iRc;
+	}
+	m_SearchColsCombo.SetCurSel(iCurSel);
+
+	m_IrcColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auIrcChanCols); ui++)
+	{
+		GetResString(&strResStr, s_auIrcChanCols[ui][0]);
+		strAux = strResStr;
+		strAux += _T("[^]");
+
+		m_IrcColsCombo.SetItemData(iRc = m_IrcColsCombo.AddString(strAux), dwCode = s_auIrcChanCols[ui][1]);
+		if (dwCode == m_pPrefs->GetIrcSortCol())
+			iCurSel = iRc;
+		m_IrcColsCombo.SetItemData(iRc = m_IrcColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetIrcSortCol())
+			iCurSel = iRc;
+	}
+	m_IrcColsCombo.SetCurSel(iCurSel);
+
+	m_ClientListColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auClientCols); ui++)
+	{
+		GetResString(&strResStr, s_auClientCols[ui][0]);
+		strAux = strResStr;
+		strAux += _T("[^]");
+
+		m_ClientListColsCombo.SetItemData(iRc = m_ClientListColsCombo.AddString(strAux), dwCode = s_auClientCols[ui][1]);
+		if (dwCode == m_pPrefs->GetClientListSortCol())
+			iCurSel = iRc;
+		m_ClientListColsCombo.SetItemData(iRc = m_ClientListColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetClientListSortCol())
+			iCurSel = iRc;
+	}
+	m_ClientListColsCombo.SetCurSel(iCurSel);
+
+	m_DownloadColsCombo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auDownloadCols); ui++)
+	{
+		GetResString(&strResStr, s_auDownloadCols[ui][0]);
+		strAux = strResStr;
+		strAux += _T("[^]");
+
+		m_DownloadColsCombo.SetItemData(iRc = m_DownloadColsCombo.AddString(strAux), dwCode = s_auDownloadCols[ui][1]);
+		if (dwCode == m_pPrefs->GetDownloadSortCol())
+			iCurSel = iRc;
+		m_DownloadColsCombo.SetItemData(iRc = m_DownloadColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetDownloadSortCol())
+			iCurSel = iRc;
+	}
+	m_DownloadColsCombo.SetCurSel(iCurSel);
+
+	m_SourceCols1Combo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auDownloadSrcCols); ui++)
+	{
+		if (s_auDownloadSrcCols[ui][1] == DLCOL_PRIORITY)
+			strResStr = _T("QR");
+		else
+			GetResString(&strResStr, s_auDownloadSrcCols[ui][0]);
+		strAux = strResStr;
+		strAux += _T("[^]");
+
+		m_SourceCols1Combo.SetItemData(iRc = m_SourceCols1Combo.AddString(strAux), dwCode = s_auDownloadSrcCols[ui][1]);
+		if (dwCode == m_pPrefs->GetSrcSortCol1())
+			iCurSel = iRc;
+		m_SourceCols1Combo.SetItemData(iRc = m_SourceCols1Combo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetSrcSortCol1())
+			iCurSel = iRc;
+	}
+	m_SourceCols1Combo.SetCurSel(iCurSel);
+
+	m_SourceCols2Combo.ResetContent();
+	iCurSel = 0;
+	for (unsigned ui = 0; ui < ARRSIZE(s_auDownloadSrcCols); ui++)
+	{
+		if (s_auDownloadSrcCols[ui][1] == DLCOL_PRIORITY)
+			strResStr = _T("QR");
+		else
+			GetResString(&strResStr, s_auDownloadSrcCols[ui][0]);
+		strAux = strResStr;
+		strAux += _T("[^]");
+
+		m_SourceCols2Combo.SetItemData(iRc = m_SourceCols2Combo.AddString(strAux), dwCode = s_auDownloadSrcCols[ui][1]);
+		if (dwCode == m_pPrefs->GetSrcSortCol2())
+			iCurSel = iRc;
+		m_SourceCols2Combo.SetItemData(iRc = m_SourceCols2Combo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+		if (dwCode == m_pPrefs->GetSrcSortCol2())
+			iCurSel = iRc;
+	}
+	m_SourceCols2Combo.SetCurSel(iCurSel);
+}
+@
+
+
+1.59
+log
+@Removed unused Button instance; Suppressed compiler warnings; Formatting;
+Removed old not used localization.
+@
+text
+@d125 1
+a125 1
+			g_App.m_pMDlg->m_wndIRC.SortInit(m_pPrefs->GetIrcSortCol());
+d200 15
+a214 15
+		{ IDS_SL_SERVERNAME,	SL_COLUMN_SERVERNAME },
+		{ IDS_IP,				SL_COLUMN_SERVERIP },
+		{ IDS_DESCRIPTION,		SL_COLUMN_DESCRIPTION },
+		{ IDS_PING,				SL_COLUMN_PING },
+		{ IDS_UUSERS,			SL_COLUMN_NUMUSERS },
+		{ IDS_MAXUSERS,			SL_COLUMN_NUMUSERS | MLC_SORTALT },
+		{ IDS_PW_FILES,			SL_COLUMN_NUMFILES },
+		{ IDS_PRIORITY,			SL_COLUMN_PREFERENCES },
+		{ IDS_UFAILED,			SL_COLUMN_FAILEDCOUNT },
+		{ IDS_STATICSERVER,		SL_COLUMN_STATIC },
+		{ IDS_SERVER_SOFTLIMIT,	SL_COLUMN_SOFTFILELIMIT },
+		{ IDS_SERVER_HARDLIMIT,	SL_COLUMN_SOFTFILELIMIT | MLC_SORTALT },
+		{ IDS_SERVER_VERSION,	SL_COLUMN_SOFTWAREVER },
+		{ IDS_COUNTRY,			SL_COLUMN_COUNTRY },
+		{ IDS_LOWIDUSERS,		SL_COLUMN_LOWIDUSERS }
+d218 19
+a236 19
+		{ IDS_DL_FILENAME,		SFL_COLUMN_FILENAME },
+		{ IDS_DL_SIZE,			SFL_COLUMN_FILESIZE },
+		{ IDS_TYPE,				SFL_COLUMN_TYPE },
+		{ IDS_PRIORITY,			SFL_COLUMN_PRIORITY },
+		{ IDS_PERMISSION,		SFL_COLUMN_PERMISSION },
+		{ IDS_FILEHASH,			SFL_COLUMN_FILEID },
+		{ IDS_SF_REQUESTS,		SFL_COLUMN_REQUESTS },
+		{ IDS_SF_REQUESTS,		SFL_COLUMN_REQUESTS | MLC_SORTALT },
+		{ IDS_SF_ACCEPTS,		SFL_COLUMN_ACCEPTED },
+		{ IDS_SF_ACCEPTS,		SFL_COLUMN_ACCEPTED | MLC_SORTALT },
+		{ IDS_SF_TRANSFERRED,	SFL_COLUMN_TRANSFERRED },
+		{ IDS_SF_TRANSFERRED,	SFL_COLUMN_TRANSFERRED | MLC_SORTALT },
+		{ IDS_SF_PARTTRAFFIC,	SFL_COLUMN_PARTTRAFFIC },
+		{ IDS_SF_PARTTRAFFIC,	SFL_COLUMN_PARTTRAFFIC | MLC_SORTALT },
+		{ IDS_SF_COLUPLOADS,	SFL_COLUMN_UPLOADS },
+		{ IDS_SF_COLUPLOADS,	SFL_COLUMN_UPLOADS | MLC_SORTALT },
+		{ IDS_SF_COMPLETESRC,	SFL_COLUMN_COMPLETESRC },
+		{ IDS_SF_COMPLETESRC,	SFL_COLUMN_COMPLETESRC | MLC_SORTALT },
+		{ IDS_SF_FOLDER,		SFL_COLUMN_FOLDER }
+d271 10
+a280 10
+		{ IDS_DL_FILENAME,		SL_COLUMN_FILENAME },
+		{ IDS_DL_SIZE,			SL_COLUMN_SIZE },
+		{ IDS_DL_SOURCES,		SL_COLUMN_SOURCES },
+		{ IDS_DL_SOURCES,		SL_COLUMN_SOURCES | MLC_SORTALT },
+		{ IDS_TYPE,				SL_COLUMN_TYPE },
+		{ IDS_FILEHASH,			SL_COLUMN_FILEHASH },
+		{ IDS_LASTSEENCOMPLETE,	SL_COLUMN_LASTSEENCOMPLETE },
+		{ IDS_LENGTH,			SL_COLUMN_LENGTH },
+		{ IDS_BITRATE,			SL_COLUMN_BITRATE },
+		{ IDS_CODEC,			SL_COLUMN_CODEC }
+@
+
+
+1.58
+log
+@Speeded up dialog localization [Aw3].
+@
+text
+@a26 2
+// PPgSorting dialog
+
+d30 3
+a32 3
+	, bUseSorting(FALSE)
+	, bUseSourcesSorting(FALSE)
+	, bPausedStoppedLast(FALSE)
+d43 13
+a55 14
+	DDX_Control(pDX, IDC_SORT_SERVERS, serverColsCombo);
+	DDX_Control(pDX, IDC_SORT_FILES, fileColsCombo);
+	DDX_Control(pDX, IDC_SORT_DOWNLOADS, downloadColsCombo);
+	DDX_Control(pDX, IDC_SORT_UPLOADS, uploadColsCombo);
+	DDX_Control(pDX, IDC_SORT_QUEUE, queueColsCombo);
+	DDX_Control(pDX, IDC_SORT_SEARCH, searchColsCombo);
+	DDX_Control(pDX, IDC_SORT_IRC, ircColsCombo);
+	DDX_Control(pDX, IDC_SORT_CLIENTLIST, clientListColsCombo);
+	DDX_Control(pDX, IDC_SORT_SOURCES1, sourceCols1Combo);
+	DDX_Control(pDX, IDC_SORT_SOURCES2, sourceCols2Combo);
+	DDX_Check(pDX, IDC_SORT_USEIT, bUseSorting);
+	DDX_Check(pDX, IDC_SORT_SOURCES2_BOX, bUseSourcesSorting);
+	DDX_Check(pDX, IDC_SORT_NONACTIVELAST, bPausedStoppedLast);
+	DDX_Control(pDX, IDC_SORT_SOURCES2_BOX, sortSources2Check);
+d87 3
+a89 3
+	bUseSorting = m_pPrefs->DoUseSort();
+	bUseSourcesSorting = m_pPrefs->DoUseSrcSortCol2();
+	bPausedStoppedLast = m_pPrefs->DoPausedStoppedLast();
+d102 13
+a114 13
+		m_pPrefs->SetUseSort(bUseSorting);
+		m_pPrefs->SetUseSrcSortCol2(bUseSourcesSorting);
+		m_pPrefs->SetPausedStoppedLast(bPausedStoppedLast);
+		m_pPrefs->SetServerSortCol((uint16)serverColsCombo.GetItemData(serverColsCombo.GetCurSel()));
+		m_pPrefs->SetUploadSortCol((uint16)uploadColsCombo.GetItemData(uploadColsCombo.GetCurSel()));
+		m_pPrefs->SetQueueSortCol((uint16)queueColsCombo.GetItemData(queueColsCombo.GetCurSel()));
+		m_pPrefs->SetSearchSortCol((uint16)searchColsCombo.GetItemData(searchColsCombo.GetCurSel()));
+		m_pPrefs->SetIrcSortCol((uint16)ircColsCombo.GetItemData(ircColsCombo.GetCurSel()));
+		m_pPrefs->SetClientListSortCol((uint16)clientListColsCombo.GetItemData(clientListColsCombo.GetCurSel()));
+		m_pPrefs->SetFileSortCol((uint16)fileColsCombo.GetItemData(fileColsCombo.GetCurSel()));
+		m_pPrefs->SetDownloadSortCol((uint16)downloadColsCombo.GetItemData(downloadColsCombo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol1((uint16)sourceCols1Combo.GetItemData(sourceCols1Combo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol2((uint16)sourceCols2Combo.GetItemData(sourceCols2Combo.GetCurSel()));
+a157 2
+		::GetResString(&strRes, IDS_PW_SORTING);
+		SetWindowText(strRes);
+d172 1
+a172 1
+	sourceCols2Combo.EnableWindow(bUseSourcesSorting);
+d181 11
+a191 11
+	serverColsCombo.EnableWindow(bUseSorting);
+	fileColsCombo.EnableWindow(bUseSorting);
+	downloadColsCombo.EnableWindow(bUseSorting);
+	uploadColsCombo.EnableWindow(bUseSorting);
+	queueColsCombo.EnableWindow(bUseSorting);
+	searchColsCombo.EnableWindow(bUseSorting);
+	ircColsCombo.EnableWindow(bUseSorting);
+	clientListColsCombo.EnableWindow(bUseSorting);
+	sourceCols1Combo.EnableWindow(bUseSorting);
+	sourceCols2Combo.EnableWindow((bUseSorting && bUseSourcesSorting) ? true : false);
+	GetDlgItem(IDC_SORT_SOURCES2_BOX)->EnableWindow(bUseSorting);
+d341 1
+a341 1
+	serverColsCombo.ResetContent();
+d355 1
+a355 1
+		serverColsCombo.SetItemData(iRc = serverColsCombo.AddString(strAux), dwCode = s_auServerCols[ui][1]);
+d358 1
+a358 1
+		serverColsCombo.SetItemData(iRc = serverColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d362 1
+a362 1
+	serverColsCombo.SetCurSel(iCurSel);
+d364 1
+a364 1
+	fileColsCombo.ResetContent();
+d378 1
+a378 1
+		fileColsCombo.SetItemData(iRc = fileColsCombo.AddString(strAux), dwCode = s_auSharedFilesCols[ui][1]);
+d381 1
+a381 1
+		fileColsCombo.SetItemData(iRc = fileColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d385 1
+a385 1
+	fileColsCombo.SetCurSel(iCurSel);
+d387 1
+a387 1
+	uploadColsCombo.ResetContent();
+d395 1
+a395 1
+		uploadColsCombo.SetItemData(iRc = uploadColsCombo.AddString(strAux), dwCode = s_auUploadCols[ui][1]);
+d398 1
+a398 1
+		uploadColsCombo.SetItemData(iRc = uploadColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d402 1
+a402 1
+	uploadColsCombo.SetCurSel(iCurSel);
+d404 1
+a404 1
+	queueColsCombo.ResetContent();
+d412 1
+a412 1
+		queueColsCombo.SetItemData(iRc = queueColsCombo.AddString(strAux), dwCode = s_auQueueCols[ui][1]);
+d415 1
+a415 1
+		queueColsCombo.SetItemData(iRc = queueColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d419 1
+a419 1
+	queueColsCombo.SetCurSel(iCurSel);
+d421 1
+a421 1
+	searchColsCombo.ResetContent();
+d435 1
+a435 1
+		searchColsCombo.SetItemData(iRc = searchColsCombo.AddString(strAux), dwCode = s_auSearchCols[ui][1]);
+d438 1
+a438 1
+		searchColsCombo.SetItemData(iRc = searchColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d442 1
+a442 1
+	searchColsCombo.SetCurSel(iCurSel);
+d444 1
+a444 1
+	ircColsCombo.ResetContent();
+d452 1
+a452 1
+		ircColsCombo.SetItemData(iRc = ircColsCombo.AddString(strAux), dwCode = s_auIrcChanCols[ui][1]);
+d455 1
+a455 1
+		ircColsCombo.SetItemData(iRc = ircColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d459 1
+a459 1
+	ircColsCombo.SetCurSel(iCurSel);
+d461 1
+a461 1
+	clientListColsCombo.ResetContent();
+d469 1
+a469 1
+		clientListColsCombo.SetItemData(iRc = clientListColsCombo.AddString(strAux), dwCode = s_auClientCols[ui][1]);
+d472 1
+a472 1
+		clientListColsCombo.SetItemData(iRc = clientListColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d476 1
+a476 1
+	clientListColsCombo.SetCurSel(iCurSel);
+d478 1
+a478 1
+	downloadColsCombo.ResetContent();
+d486 1
+a486 1
+		downloadColsCombo.SetItemData(iRc = downloadColsCombo.AddString(strAux), dwCode = s_auDownloadCols[ui][1]);
+d489 1
+a489 1
+		downloadColsCombo.SetItemData(iRc = downloadColsCombo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d493 1
+a493 1
+	downloadColsCombo.SetCurSel(iCurSel);
+d495 1
+a495 1
+	sourceCols1Combo.ResetContent();
+d506 1
+a506 1
+		sourceCols1Combo.SetItemData(iRc = sourceCols1Combo.AddString(strAux), dwCode = s_auDownloadSrcCols[ui][1]);
+d509 1
+a509 1
+		sourceCols1Combo.SetItemData(iRc = sourceCols1Combo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d513 1
+a513 1
+	sourceCols1Combo.SetCurSel(iCurSel);
+d515 1
+a515 1
+	sourceCols2Combo.ResetContent();
+d526 1
+a526 1
+		sourceCols2Combo.SetItemData(iRc = sourceCols2Combo.AddString(strAux), dwCode = s_auDownloadSrcCols[ui][1]);
+d529 1
+a529 1
+		sourceCols2Combo.SetItemData(iRc = sourceCols2Combo.AddString(strResStr), dwCode |= MLC_SORTDESC);
+d533 1
+a533 1
+	sourceCols2Combo.SetCurSel(iCurSel);
+@
+
+
+1.57
+log
+@Removed unneeded CString initializations.
+@
+text
+@d1 1
+a1 1
+// PPgSorting.cpp : implementation file
+d3 13
+a57 10
+	DDX_Text(pDX, IDC_SORT_SERVERS_LBL, sortServersDesc);
+	DDX_Text(pDX, IDC_SORT_DOWNLOADS_LBL, sortDownloadsDesc);
+	DDX_Text(pDX, IDC_SORT_UPLOADS_LBL, sortUploadsDesc);
+	DDX_Text(pDX, IDC_SORT_QUEUE_LBL, sortQueueDesc);
+	DDX_Text(pDX, IDC_SORT_SEARCH_LBL, sortSearchDesc);
+	DDX_Text(pDX, IDC_SORT_IRC_LBL, sortIrcDesc);
+	DDX_Text(pDX, IDC_SORT_CLIENTLIST_LBL, sortClientListDesc);
+	DDX_Text(pDX, IDC_SORT_FILES_LBL, sortFilesDesc);
+	DDX_Text(pDX, IDC_SORT_SOURCES1_LBL, sortSources1Desc);
+	DDX_Text(pDX, IDC_SORT_GRP, sortGrpDesc);
+a58 2
+	DDX_Control(pDX, IDC_SORT_USEIT, useItCheck);
+	DDX_Control(pDX, IDC_SORT_NONACTIVELAST, pausedStoppedLastCheck);
+d140 18
+a157 1
+	if(::IsWindow(m_hWnd))
+d159 9
+a167 15
+		SetWindowText(GetResString(IDS_PW_SORTING));
+		useItCheck.SetWindowText(GetResString(IDS_SORT_USEIT));
+		pausedStoppedLastCheck.SetWindowText(GetResString(IDS_SORT_NONACTIVELAST));
+		GetResString(&sortServersDesc, IDS_SORT_SERVERS_LBL);
+		GetResString(&sortDownloadsDesc, IDS_SORT_DOWNLOADS_LBL);
+		GetResString(&sortUploadsDesc, IDS_SORT_UPLOADS_LBL);
+		GetResString(&sortQueueDesc, IDS_SORT_QUEUE_LBL);
+		GetResString(&sortSearchDesc, IDS_SORT_SEARCH_LBL);
+		GetResString(&sortFilesDesc, IDS_SORT_FILES_LBL);
+		GetResString(&sortIrcDesc, IDS_SORT_IRC_LBL);
+		GetResString(&sortClientListDesc, IDS_SORT_CLIENTLIST_LBL);
+
+		GetResString(&sortGrpDesc, IDS_SORT_GRP);
+		GetResString(&sortSources1Desc, IDS_SORT_SOURCES1_LBL);
+		sortSources2Check.SetWindowText(GetResString(IDS_SORT_SOURCES2_LBL));
+a169 2
+
+		UpdateData(FALSE);
+a194 1
+	sortSources2Check.EnableWindow(bUseSorting);
+d196 1
+d348 1
+a348 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auServerCols); ui++)
+d371 1
+a371 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auSharedFilesCols); ui++)
+d394 1
+a394 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auUploadCols); ui++)
+d411 1
+a411 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auQueueCols); ui++)
+d428 1
+a428 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auSearchCols); ui++)
+d451 1
+a451 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auIrcChanCols); ui++)
+d468 1
+a468 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auClientCols); ui++)
+d485 1
+a485 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auDownloadCols); ui++)
+d502 1
+a502 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auDownloadSrcCols); ui++)
+d522 1
+a522 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auDownloadSrcCols); ui++)
+@
+
+
+1.56
+log
+@Renamed IDS_QL_RATING into IDS_RATING.
+@
+text
+@a21 10
+	, sortServersDesc(_T(""))
+	, sortDownloadsDesc(_T(""))
+	, sortUploadsDesc(_T(""))
+	, sortQueueDesc(_T(""))
+	, sortSearchDesc(_T(""))
+	, sortIrcDesc(_T(""))
+	, sortClientListDesc(_T(""))
+	, sortFilesDesc(_T(""))
+	, sortSources1Desc(_T(""))
+	, sortGrpDesc(_T(""))
+@
+
+
+1.55
+log
+@Renamed IDS_LASTCHANGE into IDS_LASTRECEPTION;
+Removed duplicate string IDS_FD_LASTCHANGE & IDS_LASTSEENCOMPL.
+@
+text
+@d264 1
+a264 1
+		{ IDS_QL_RATING,	QLCOL_QLRATING },
+d340 1
+a340 1
+		{ IDS_QL_RATING,					DLCOL_QLRATING }
+@
+
+
+1.54
+log
+@renamed 3 variables
+@
+text
+@d319 1
+a319 1
+		{ IDS_LASTCHANGE,			DLCOL_LASTRECEIVED },
+@
+
+
+1.53
+log
+@Removed double #include.
+@
+text
+@d132 7
+a138 7
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SortInit(m_pPrefs->GetServerSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.SortInit(m_pPrefs->GetUploadSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.SortInit(m_pPrefs->GetQueueSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlClientList.SortInit(m_pPrefs->GetClientListSortCol());
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ctlSearchList.SortInit(m_pPrefs->GetSearchSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndIRC.SortInit(m_pPrefs->GetIrcSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.SortInit(m_pPrefs->GetFileSortCol());
+d140 1
+a140 1
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.SortInit(DL_OVERRIDESORT); //major override...
+@
+
+
+1.52
+log
+@Removed double search list resorting after a setting change in Preferences->Sorting.
+@
+text
+@a6 1
+#include "ArrowCombo.h"
+@
+
+
+1.51
+log
+@Preparations to show media information.
+@
+text
+@a141 1
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ctlSearchList.SortInit(m_pPrefs->GetSearchSortCol());
+@
+
+
+1.50
+log
+@Server LowID users statistics.
+@
+text
+@d284 4
+a287 1
+		{ IDS_LASTSEENCOMPLETE,	SL_COLUMN_LASTSEENCOMPLETE }
+@
+
+
+1.49
+log
+@Add sources possibly received from global search (official).
+Added missing translations in case countryflag.dll / ip-to-country.cvs is not found.
+Notifier informs if a new version is available (not annoying, but still more likely
+ to be noticed than just a log line).
+Added 'Folder' column to Shared files window.
+Prevent adding install/working dirs (\Webserver, \Db...) to Shared files.
++ some other minor changes/fixes.
+@
+text
+@d220 2
+a221 1
+		{ IDS_COUNTRY,			SL_COLUMN_COUNTRY }
+@
+
+
+1.48
+log
+@Search list sorting by Complete Sources; Removed some non-required code.
+@
+text
+@d241 2
+a242 1
+		{ IDS_SF_COMPLETESRC,	SFL_COLUMN_COMPLETESRC | MLC_SORTALT }
+@
+
+
+1.47
+log
+@Renamed string IDS_INFLST_FILE_LASTSEENCOMPLETE -> IDS_LASTSEENCOMPLETE;
+Last Seen Complete was added to search results.
+@
+text
+@d142 1
+a142 1
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ctlSearchList.SetLastSortCode(m_pPrefs->GetSearchSortCol());
+d279 1
+d429 7
+a435 1
+		strAux += _T("[^]");
+@
+
+
+1.46
+log
+@Unified GUI strings for "file hash" (removed duplicate,
+new full form is "File Hash" instead of "FileID").
+@
+text
+@d276 6
+a281 5
+		{ IDS_DL_FILENAME,	SL_COLUMN_FILENAME },
+		{ IDS_DL_SIZE,		SL_COLUMN_SIZE },
+		{ IDS_DL_SOURCES,	SL_COLUMN_SOURCES },
+		{ IDS_TYPE,			SL_COLUMN_TYPE },
+		{ IDS_FILEHASH,		SL_COLUMN_FILEHASH }
+d303 19
+a321 19
+		{ IDS_DL_FILENAME,					DLCOL_FILENAME },
+		{ IDS_DL_SIZE,						DLCOL_SIZE },
+		{ IDS_DL_TRANSF,					DLCOL_TRANSFERRED },
+		{ IDS_SF_COMPLETED,					DLCOL_COMPLETED },
+		{ IDS_DL_SPEED,						DLCOL_SPEED },
+		{ IDS_DL_PROGRESS,					DLCOL_PROGRESS },
+		{ IDS_DL_SOURCES,					DLCOL_NUMSOURCES },
+		{ IDS_PRIORITY,						DLCOL_PRIORITY },
+		{ IDS_STATUS,						DLCOL_STATUS },
+		{ IDS_DL_REMAINS,					DLCOL_REMAINING },
+		{ IDS_DLCOL_REMAININGTIME,			DLCOL_REMAININGTIME },
+		{ IDS_INFLST_FILE_LASTSEENCOMPLETE,	DLCOL_LASTSEENCOMPLETE },
+		{ IDS_LASTCHANGE,					DLCOL_LASTRECEIVED },
+		{ IDS_CAT,							DLCOL_CATEGORY },
+		{ IDS_WAITED,						DLCOL_WAITED },
+		{ IDS_DLCOL_AVGSPEED,				DLCOL_AVGSPEED },
+		{ IDS_DLCOL_AVGREMTIME,				DLCOL_AVGREMTIME },
+		{ IDS_DLCOL_ETA,					DLCOL_ETA },
+		{ IDS_DLCOL_AVGETA,					DLCOL_AVGETA }
+@
+
+
+1.45
+log
+@Fast preferences sorting page loading;
+Added preferences sorting settings for sources remaining size & time;
+Corrected preferences sorting column name to be exactly like column title.
+@
+text
+@d229 1
+a229 1
+		{ IDS_FILEID,			SFL_COLUMN_FILEID },
+d280 1
+a280 1
+		{ IDS_FILEID,		SL_COLUMN_FILEHASH }
+@
+
+
+1.44
+log
+@Removed suspicious 'Default Sorting' option.
+@
+text
+@a103 1
+	LoadCombo();
+d205 136
+d342 21
+a362 28
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SL_SERVERNAME)+_T("[^]")),0);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SL_SERVERNAME)),0+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_IP)+_T("[^]")),1);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_IP)),1+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_DESCRIPTION)+_T("[^]")),2);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_DESCRIPTION)),2+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PING)+_T("[^]")),3);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PING)),3+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[^]")),4);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)),4+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_MAXUSERS)+_T("[^^]")),4+MLC_SORTALT);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_MAXUSERS)+_T("[vv]")),4+MLC_SORTALT+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PW_FILES)+_T("[^]")),5);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PW_FILES)),5+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),6);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PRIORITY)),6+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UFAILED)+_T("[^]")),7);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UFAILED)),7+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_STATICSERVER)+_T("[^]")),8);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_STATICSERVER)),8+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_SOFTLIMIT)+_T("[^]")),9);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_SOFTLIMIT)),9+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[^^]")),9+MLC_SORTALT);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[vv]")),9+MLC_SORTALT+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_VERSION)+_T("[^]")),10);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_VERSION)),10+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),11);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_COUNTRY)),11+MLC_SORTDESC);
+d365 21
+a385 36
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_DL_FILENAME)+_T("[^]")),0);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_DL_FILENAME)),0+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_DL_SIZE)+_T("[^]")),1);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_DL_SIZE)),1+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_TYPE)+_T("[^]")),2);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_TYPE)),2+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),3);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_PRIORITY)),3+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_PERMISSION)+_T("[^]")),4);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_PERMISSION)),4+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_FILEID)+_T("[^]")),5);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_FILEID)),5+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_REQUESTS)+_T("[^]")),6);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_REQUESTS)),6+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_REQUESTS)+_T("[^^]")),6+MLC_SORTALT);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_REQUESTS)+_T("[vv]")),6+MLC_SORTALT+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[^]")),7);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_ACCEPTS)),7+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[^^]")),7+MLC_SORTALT);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[vv]")),7+MLC_SORTALT+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[^]")),8);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_TRANSFERRED)),8+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[^^]")),8+MLC_SORTALT);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[vv]")),8+MLC_SORTALT+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[^]")),9);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_PARTTRAFFIC)),9+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[^^]")),9+MLC_SORTALT);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[vv]")),9+MLC_SORTALT+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[^]")),10);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COLUPLOADS)),10+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[^^]")),10+MLC_SORTALT);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[vv]")),10+MLC_SORTALT+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[^]")),11);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)),11+MLC_SORTDESC);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[^^]")),11+MLC_SORTALT);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[vv]")),11+MLC_SORTALT+MLC_SORTDESC);
+d388 15
+a402 22
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_QL_USERNAME)),0+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_FILE)+_T("[^]")),1);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_FILE)),1+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),2);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_SPEED)),2+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),3);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_TRANSF)),3+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_WAITED)+_T("[^]")),4);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_WAITED)),4+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UPLOADTIME)+_T("[^]")),5);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UPLOADTIME)),5+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_STATUS)+_T("[^]")),6);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_STATUS)),6+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UP_PARTS)+_T("[^]")),7);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UP_PARTS)),7+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),8);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),8+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COMPRESSION)+_T("[^]")),9);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COMPRESSION)),9+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),10);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COUNTRY)),10+MLC_SORTDESC);
+d405 15
+a419 28
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_USERNAME)),0+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILE)+_T("[^]")),1);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILE)),1+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILEPRIO)+_T("[^]")),2);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILEPRIO)),2+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_UP_PARTS)+_T("[^]")),3);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_UP_PARTS)),3+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),4);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),4+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_RATING)+_T("[^]")),5);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_RATING)),5+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SCORE)+_T("[^]")),6);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SCORE)),6+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SFRATIO)+_T("[^]")),7);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SFRATIO)),7+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_RFRATIO)+_T("[^]")),8);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_RFRATIO)),8+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ASKED)+_T("[^]")),9);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ASKED)),9+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_LASTSEEN)+_T("[^]")),10);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_LASTSEEN)),10+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ENTERQUEUE)+_T("[^]")),11);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ENTERQUEUE)),11+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_BANNED)+_T("[^]")),12);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_BANNED)),12+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),13);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_COUNTRY)),13+MLC_SORTDESC);
+d422 15
+a436 10
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_FILENAME)+_T("[^]")),0);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_FILENAME)),0+MLC_SORTDESC);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_SIZE)+_T("[^]")),1);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_SIZE)),1+MLC_SORTDESC);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_SOURCES)+_T("[^]")),2);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_SOURCES)),2+MLC_SORTDESC);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_TYPE)+_T("[^]")),3);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_TYPE)),3+MLC_SORTDESC);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_FILEID)+_T("[^]")),4);
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_FILEID)),4+MLC_SORTDESC);
+d439 15
+a453 6
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_IRC_NAME)+_T("[^]")),0);
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_IRC_NAME)),0+MLC_SORTDESC);
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[^]")),1);
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_UUSERS)),1+MLC_SORTDESC);
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_DESCRIPTION)+_T("[^]")),2);
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_DESCRIPTION)),2+MLC_SORTDESC);
+d456 15
+a470 18
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_QL_USERNAME)),0+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_UPLOADSTATUS)+_T("[^]")),1);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_UPLOADSTATUS)),1+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFUP)+_T("[^]")),2);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFUP)),2+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_DOWNLSTATUS)+_T("[^]")),3);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_DOWNLSTATUS)),3+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFDOWN)+_T("[^]")),4);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFDOWN)),4+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)+_T("[^]")),5);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)),5+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CONNECTED)+_T("[^]")),6);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CONNECTED)),6+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_INFLST_USER_USERHASH)+_T("[^]")),7);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_INFLST_USER_USERHASH)),7+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),8);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_COUNTRY)),8+MLC_SORTDESC);
+d473 15
+a487 38
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_FILENAME)+_T("[^]")),0);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_FILENAME)),0+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SIZE)+_T("[^]")),1);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SIZE)),1+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),2);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_TRANSF)),2+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_SF_COMPLETED)+_T("[^]")),3);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_SF_COMPLETED)),3+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),4);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SPEED)),4+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),5);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),5+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SOURCES)+_T("[^]")),6);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SOURCES)),6+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),7);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_PRIORITY)),7+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_STATUS)+_T("[^]")),8);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_STATUS)),8+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_REMAINS)+_T("[^]")),9);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_REMAINS)),9+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_TIME)+_T("[^]")),10);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_TIME)),10+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)+_T("[^]")),13);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)),13+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_LASTCHANGE)+_T("[^]")),14);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_LASTCHANGE)),14+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_CAT)+_T("[^]")),15);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_CAT)),15+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_WAITED)+_T("[^]")),DLCOL_WAITED);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_WAITED)),DLCOL_WAITED+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGSPEED)+_T("[^]")),DLCOL_AVGSPEED);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGSPEED)),DLCOL_AVGSPEED+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGREMTIME)+_T("[^]")),DLCOL_AVGREMTIME);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGREMTIME)),DLCOL_AVGREMTIME+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_ETA)+_T("[^]")),DLCOL_ETA);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_ETA)),DLCOL_ETA+MLC_SORTDESC);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGETA)+_T("[^]")),DLCOL_AVGETA);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGETA)),DLCOL_AVGETA+MLC_SORTDESC);
+d490 18
+a507 20
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_QL_USERNAME)),0+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),2);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_TRANSF)),2+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_SF_COMPLETED)+_T("[^]")),3);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_SF_COMPLETED)),3+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),4);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_SPEED)),4+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),5);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_PROGRESS)),5+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)+_T("[^]")),6);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)),6+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(_T("QR[^]")),7);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(_T("QR")),7+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_STATUS)+_T("[^]")),8);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_STATUS)),8+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_ULDL)+_T("[^]")),11);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_ULDL)),11+MLC_SORTDESC);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_QL_RATING)+_T("[^]")),12);
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_QL_RATING)),12+MLC_SORTDESC);
+d510 18
+a527 102
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_QL_USERNAME)),0+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),2);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_TRANSF)),2+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_SF_COMPLETED)+_T("[^]")),3);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_SF_COMPLETED)),3+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),4);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_SPEED)),4+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),5);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_PROGRESS)),5+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)+_T("[^]")),6);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)),6+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(_T("QR[^]")),7);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(_T("QR")),7+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_STATUS)+_T("[^]")),8);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_STATUS)),8+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_ULDL)+_T("[^]")),11);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_ULDL)),11+MLC_SORTDESC);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_QL_RATING)+_T("[^]")),12);
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_QL_RATING)),12+MLC_SORTDESC);
+
+	int i, gc;
+
+	serverColsCombo.SetCurSel(0);
+	gc = serverColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(serverColsCombo.GetItemData(i) == m_pPrefs->GetServerSortCol()) {
+			serverColsCombo.SetCurSel(i);
+			break;
+		}
+
+	fileColsCombo.SetCurSel(0);
+	gc = fileColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(fileColsCombo.GetItemData(i) == m_pPrefs->GetFileSortCol()) {
+			fileColsCombo.SetCurSel(i);
+			break;
+		}
+
+	downloadColsCombo.SetCurSel(0);
+	gc = downloadColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(downloadColsCombo.GetItemData(i) == m_pPrefs->GetDownloadSortCol()) {
+			downloadColsCombo.SetCurSel(i);
+			break;
+		}
+
+	uploadColsCombo.SetCurSel(0);
+	gc = uploadColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(uploadColsCombo.GetItemData(i) == m_pPrefs->GetUploadSortCol()) {
+			uploadColsCombo.SetCurSel(i);
+			break;
+		}
+
+	queueColsCombo.SetCurSel(0);
+	gc = queueColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(queueColsCombo.GetItemData(i) == m_pPrefs->GetQueueSortCol()) {
+			queueColsCombo.SetCurSel(i);
+			break;
+		}
+
+	searchColsCombo.SetCurSel(0);
+	gc = searchColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(searchColsCombo.GetItemData(i) == m_pPrefs->GetSearchSortCol()) {
+			searchColsCombo.SetCurSel(i);
+			break;
+		}
+
+	ircColsCombo.SetCurSel(0);
+	gc = ircColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(ircColsCombo.GetItemData(i) == m_pPrefs->GetIrcSortCol()) {
+			ircColsCombo.SetCurSel(i);
+			break;
+		}
+
+	clientListColsCombo.SetCurSel(0);
+	gc = clientListColsCombo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(clientListColsCombo.GetItemData(i) == m_pPrefs->GetClientListSortCol()) {
+			clientListColsCombo.SetCurSel(i);
+			break;
+		}
+
+	sourceCols1Combo.SetCurSel(0);
+	gc = sourceCols1Combo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(sourceCols1Combo.GetItemData(i) == m_pPrefs->GetSrcSortCol1()) {
+			sourceCols1Combo.SetCurSel(i);
+			break;
+		}
+
+	sourceCols2Combo.SetCurSel(0);
+	gc = sourceCols2Combo.GetCount();
+	for(i = 0; i != gc; i++)
+		if(sourceCols2Combo.GetItemData(i) == m_pPrefs->GetSrcSortCol2()) {
+			sourceCols2Combo.SetCurSel(i);
+			break;
+		}
+@
+
+
+1.43
+log
+@Improved string processing;
+Make one sorting option be exactly equal to column label for all languages.
+@
+text
+@a430 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_SORT_DEFAULT)),DL_DEFAULTSOURCESORT);
+@
+
+
+1.42
+log
+@Improved preferences localization.
+@
+text
+@a347 5
+	CString colsoft = GetResString(IDS_CD_CSOFT);
+	CString connected = GetResString(IDS_CONNECTED);
+	colsoft.Remove(':');
+	connected.Remove(':');
+
+d359 4
+a362 4
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(colsoft+_T("[^]")),5);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(colsoft),5+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(connected+_T("[^]")),6);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(connected),6+MLC_SORTDESC);
+@
+
+
+1.41
+log
+@Removed extra download list resort after change of sort mode.
+@
+text
+@d157 8
+a164 8
+		sortServersDesc = GetResString(IDS_SORT_SERVERS_LBL);
+		sortDownloadsDesc = GetResString(IDS_SORT_DOWNLOADS_LBL);
+		sortUploadsDesc = GetResString(IDS_SORT_UPLOADS_LBL);
+		sortQueueDesc = GetResString(IDS_SORT_QUEUE_LBL);
+		sortSearchDesc = GetResString(IDS_SORT_SEARCH_LBL);
+		sortFilesDesc = GetResString(IDS_SORT_FILES_LBL);
+		sortIrcDesc = GetResString(IDS_SORT_IRC_LBL);
+		sortClientListDesc = GetResString(IDS_SORT_CLIENTLIST_LBL);
+d166 2
+a167 2
+		sortGrpDesc = GetResString(IDS_SORT_GRP);
+		sortSources1Desc = GetResString(IDS_SORT_SOURCES1_LBL);
+d458 1
+a458 2
+int i;
+	int gc;
+@
+
+
+1.40
+log
+@Tooltips string improvements
+@
+text
+@a142 1
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.SortInit(true); //normal override, in case we show sources...
+@
+
+
+1.39
+log
+@minor changes / fixes
+@
+text
+@d399 2
+a400 2
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_FD_LASTCHANGE)+_T("[^]")),14);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_FD_LASTCHANGE)),14+MLC_SORTDESC);
+@
+
+
+1.38
+log
+@Fixed some changes
+@
+text
+@a189 1
+	pausedStoppedLastCheck.EnableWindow(bUseSorting);
+d199 2
+a200 5
+	sourceCols2Combo.EnableWindow(bUseSorting);
+	if(bUseSorting)
+		sourceCols2Combo.EnableWindow(bUseSourcesSorting);
+	else
+		sourceCols2Combo.EnableWindow(bUseSorting);
+d459 1
+a459 4
+
+	sourceCols2Combo.EnableWindow(bUseSourcesSorting);
+
+	int i;
+@
+
+
+1.37
+log
+@Please, DO NOT alter column order. This messes with users column customization and don't bring a standard as people likings are different.
+@
+text
+@d373 4
+a376 2
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),7);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_COUNTRY)),7+MLC_SORTDESC);
+@
+
+
+1.36
+log
+@Added "Country" column in Uploads/On Queue/Known Clients lists
+@
+text
+@d216 24
+a239 24
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),2);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_COUNTRY)),2+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_DESCRIPTION)+_T("[^]")),3);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_DESCRIPTION)),3+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PING)+_T("[^]")),4);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PING)),4+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[^]")),5);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)),5+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_MAXUSERS)+_T("[^^]")),5+MLC_SORTALT);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_MAXUSERS)+_T("[vv]")),5+MLC_SORTALT+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PW_FILES)+_T("[^]")),6);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PW_FILES)),6+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),7);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PRIORITY)),7+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UFAILED)+_T("[^]")),8);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UFAILED)),8+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_STATICSERVER)+_T("[^]")),9);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_STATICSERVER)),9+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_SOFTLIMIT)+_T("[^]")),10);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_SOFTLIMIT)),10+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[^^]")),10+MLC_SORTALT);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[vv]")),10+MLC_SORTALT+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_VERSION)+_T("[^]")),11);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_VERSION)),11+MLC_SORTDESC);
+d282 20
+a301 20
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),1);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COUNTRY)),1+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_FILE)+_T("[^]")),2);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_FILE)),2+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),3);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_SPEED)),3+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),4);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_TRANSF)),4+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_WAITED)+_T("[^]")),5);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_WAITED)),5+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UPLOADTIME)+_T("[^]")),6);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UPLOADTIME)),6+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_STATUS)+_T("[^]")),7);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_STATUS)),7+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UP_PARTS)+_T("[^]")),8);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UP_PARTS)),8+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),9);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),9+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COMPRESSION)+_T("[^]")),10);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COMPRESSION)),10+MLC_SORTDESC);
+d306 26
+a331 26
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),1);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_COUNTRY)),1+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILE)+_T("[^]")),2);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILE)),2+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILEPRIO)+_T("[^]")),3);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILEPRIO)),3+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_UP_PARTS)+_T("[^]")),4);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_UP_PARTS)),4+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),5);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),5+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_RATING)+_T("[^]")),6);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_RATING)),6+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SCORE)+_T("[^]")),7);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SCORE)),7+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SFRATIO)+_T("[^]")),8);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SFRATIO)),8+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_RFRATIO)+_T("[^]")),9);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_RFRATIO)),9+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ASKED)+_T("[^]")),10);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ASKED)),10+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_LASTSEEN)+_T("[^]")),11);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_LASTSEEN)),11+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ENTERQUEUE)+_T("[^]")),12);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ENTERQUEUE)),12+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_BANNED)+_T("[^]")),13);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_BANNED)),13+MLC_SORTDESC);
+d361 14
+a374 14
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),1);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_COUNTRY)),1+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_UPLOADSTATUS)+_T("[^]")),2);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_UPLOADSTATUS)),2+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFUP)+_T("[^]")),3);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFUP)),3+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_DOWNLSTATUS)+_T("[^]")),4);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_DOWNLSTATUS)),4+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFDOWN)+_T("[^]")),5);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFDOWN)),5+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(colsoft+_T("[^]")),6);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(colsoft),6+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(connected+_T("[^]")),7);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(connected),7+MLC_SORTDESC);
+@
+
+
+1.35
+log
+@added Country column in server list
+@
+text
+@d216 24
+a239 24
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_COUNTRY)+_T("[^]")),1);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_COUNTRY)),1+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_DESCRIPTION)+_T("[^]")),2);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_DESCRIPTION)),2+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PING)+_T("[^]")),3);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PING)),3+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[^]")),4);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)),4+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_MAXUSERS)+_T("[^^]")),4+MLC_SORTALT);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_MAXUSERS)+_T("[vv]")),4+MLC_SORTALT+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PW_FILES)+_T("[^]")),5);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PW_FILES)),5+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),6);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PRIORITY)),6+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UFAILED)+_T("[^]")),7);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UFAILED)),7+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_STATICSERVER)+_T("[^]")),8);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_STATICSERVER)),8+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_SOFTLIMIT)+_T("[^]")),9);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_SOFTLIMIT)),9+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[^^]")),9+MLC_SORTALT);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[vv]")),9+MLC_SORTALT+MLC_SORTDESC);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_VERSION)+_T("[^]")),10);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_VERSION)),10+MLC_SORTDESC);
+d282 20
+a301 18
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_FILE)+_T("[^]")),1);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_FILE)),1+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),2);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_SPEED)),2+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),3);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_TRANSF)),3+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_WAITED)+_T("[^]")),4);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_WAITED)),4+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UPLOADTIME)+_T("[^]")),5);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UPLOADTIME)),5+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_STATUS)+_T("[^]")),6);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_STATUS)),6+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UP_PARTS)+_T("[^]")),7);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UP_PARTS)),7+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),8);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),8+MLC_SORTDESC);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COMPRESSION)+_T("[^]")),9);
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COMPRESSION)),9+MLC_SORTDESC);
+d306 26
+a331 24
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILE)+_T("[^]")),1);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILE)),1+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILEPRIO)+_T("[^]")),2);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILEPRIO)),2+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_UP_PARTS)+_T("[^]")),3);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_UP_PARTS)),3+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),4);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),4+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_RATING)+_T("[^]")),5);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_RATING)),5+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SCORE)+_T("[^]")),6);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SCORE)),6+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SFRATIO)+_T("[^]")),7);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SFRATIO)),7+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_RFRATIO)+_T("[^]")),8);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_RFRATIO)),8+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ASKED)+_T("[^]")),9);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ASKED)),9+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_LASTSEEN)+_T("[^]")),10);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_LASTSEEN)),10+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ENTERQUEUE)+_T("[^]")),11);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ENTERQUEUE)),11+MLC_SORTDESC);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_BANNED)+_T("[^]")),12);
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_BANNED)),12+MLC_SORTDESC);
+d353 2
+a354 4
+	CString colsoft;
+	CString connected;
+	colsoft=GetResString(IDS_CD_CSOFT);
+	connected=GetResString(IDS_CONNECTED);
+d361 14
+a374 12
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_UPLOADSTATUS)+_T("[^]")),1);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_UPLOADSTATUS)),1+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFUP)+_T("[^]")),2);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFUP)),2+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_DOWNLSTATUS)+_T("[^]")),3);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_DOWNLSTATUS)),3+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFDOWN)+_T("[^]")),4);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFDOWN)),4+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(colsoft+_T("[^]")),5);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(colsoft),5+MLC_SORTDESC);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(connected+_T("[^]")),6);
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(connected),6+MLC_SORTDESC);
+@
+
+
+1.34
+log
+@Changed some code by other devs
+@
+text
+@d216 2
+@
+
+
+1.33
+log
+@More Kush changes for localization
+@
+text
+@d22 1
+d55 1
+d68 1
+d87 1
+d102 1
+d118 1
+d157 1
+d190 1
+@
+
+
+1.32
+log
+@Changed the way the preference for update of upload lists is handled
+@
+text
+@d99 104
+d268 1
+a268 1
+		
+d401 1
+a401 1
+		
+d418 1
+a418 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_STATUS)),8+MLC_SORTDESC);	
+d449 1
+a449 1
+	
+d452 1
+a452 1
+	
+a531 100
+
+	UpdateData(FALSE);
+	
+	OnBnClickedUseSort();
+
+	SetModified(FALSE);	// FoRcHa
+}
+
+BOOL CPPgSorting::OnApply()
+{	
+	if (m_bModified)
+	{
+		UpdateData(TRUE);
+
+		m_pPrefs->SetUseSort(bUseSorting);
+		m_pPrefs->SetUseSrcSortCol2(bUseSourcesSorting);
+		m_pPrefs->SetServerSortCol((uint16)serverColsCombo.GetItemData(serverColsCombo.GetCurSel()));
+		m_pPrefs->SetUploadSortCol((uint16)uploadColsCombo.GetItemData(uploadColsCombo.GetCurSel()));
+		m_pPrefs->SetQueueSortCol((uint16)queueColsCombo.GetItemData(queueColsCombo.GetCurSel()));
+		m_pPrefs->SetSearchSortCol((uint16)searchColsCombo.GetItemData(searchColsCombo.GetCurSel()));
+		m_pPrefs->SetIrcSortCol((uint16)ircColsCombo.GetItemData(ircColsCombo.GetCurSel()));
+		m_pPrefs->SetClientListSortCol((uint16)clientListColsCombo.GetItemData(clientListColsCombo.GetCurSel()));
+		m_pPrefs->SetFileSortCol((uint16)fileColsCombo.GetItemData(fileColsCombo.GetCurSel()));
+		m_pPrefs->SetDownloadSortCol((uint16)downloadColsCombo.GetItemData(downloadColsCombo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol1((uint16)sourceCols1Combo.GetItemData(sourceCols1Combo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol2((uint16)sourceCols2Combo.GetItemData(sourceCols2Combo.GetCurSel()));
+
+		SetModified();
+
+		if (m_pPrefs->DoUseSort())
+		{
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SortInit(m_pPrefs->GetServerSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlUploadList.SortInit(m_pPrefs->GetUploadSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlQueueList.SortInit(m_pPrefs->GetQueueSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlClientList.SortInit(m_pPrefs->GetClientListSortCol());
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ctlSearchList.SortInit(m_pPrefs->GetSearchSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndIRC.SortInit(m_pPrefs->GetIrcSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.m_ctlSharedFilesList.SortInit(m_pPrefs->GetFileSortCol());
+			SetModified(FALSE);//needs the settings for downloadlistcontrol
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.SortInit(DL_OVERRIDESORT);//major override...
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.SortInit(true);//normal override, in case we show sources...
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ctlSearchList.SetLastSortCode(m_pPrefs->GetSearchSortCol());
+		}
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgSorting::Localize(void)
+{
+	if(::IsWindow(m_hWnd))
+	{
+		SetWindowText(GetResString(IDS_PW_SORTING));
+		useItCheck.SetWindowText(GetResString(IDS_SORT_USEIT));
+		sortServersDesc = GetResString(IDS_SORT_SERVERS_LBL);
+		sortDownloadsDesc = GetResString(IDS_SORT_DOWNLOADS_LBL);
+		sortUploadsDesc = GetResString(IDS_SORT_UPLOADS_LBL);
+		sortQueueDesc = GetResString(IDS_SORT_QUEUE_LBL);
+		sortSearchDesc = GetResString(IDS_SORT_SEARCH_LBL);
+		sortFilesDesc = GetResString(IDS_SORT_FILES_LBL);
+		sortIrcDesc = GetResString(IDS_SORT_IRC_LBL);
+		sortClientListDesc = GetResString(IDS_SORT_CLIENTLIST_LBL);
+		
+		sortGrpDesc = GetResString(IDS_SORT_GRP);
+		sortSources1Desc = GetResString(IDS_SORT_SOURCES1_LBL);
+		sortSources2Check.SetWindowText(GetResString(IDS_SORT_SOURCES2_LBL));		
+
+		UpdateData(FALSE);		
+	}	
+}
+
+void CPPgSorting::OnBnClickedSortSources2Box()
+{
+	UpdateData(TRUE);
+
+	sourceCols2Combo.EnableWindow(bUseSourcesSorting);
+
+	SetModified();
+}
+
+void CPPgSorting::OnBnClickedUseSort()
+{
+	UpdateData(TRUE);
+	
+	serverColsCombo.EnableWindow(bUseSorting);
+	fileColsCombo.EnableWindow(bUseSorting);
+	downloadColsCombo.EnableWindow(bUseSorting);
+	uploadColsCombo.EnableWindow(bUseSorting);
+	queueColsCombo.EnableWindow(bUseSorting);
+	searchColsCombo.EnableWindow(bUseSorting);
+	ircColsCombo.EnableWindow(bUseSorting);
+	clientListColsCombo.EnableWindow(bUseSorting);
+	sourceCols1Combo.EnableWindow(bUseSorting);
+	sourceCols2Combo.EnableWindow(bUseSorting);
+	if(bUseSorting)
+		sourceCols2Combo.EnableWindow(bUseSourcesSorting);
+	else
+		sourceCols2Combo.EnableWindow(bUseSorting);
+
+	SetModified();
+@
+
+
+1.31
+log
+@Changed way of setting a variable.
+@
+text
+@a19 1
+	, updateQueue(FALSE)
+a51 1
+	DDX_Check(pDX, IDC_UPDATEQUEUE, updateQueue);
+a63 1
+	DDX_Control(pDX, IDC_UPDATEQUEUE, updateQueueCheck);
+a83 1
+	ON_BN_CLICKED(IDC_UPDATEQUEUE, OnBnClickedUpdateQueueList)
+a97 1
+	updateQueue = m_pPrefs->GetUpdateQueueList();
+a454 2
+		m_pPrefs->SetUpdateQueueList(updateQueue);
+
+a493 1
+		updateQueueCheck.SetWindowText(GetResString(IDS_UPDATEQUEUE));
+@
+
+
+1.30
+log
+@Minor fixes
+@
+text
+@d476 1
+a476 1
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.m_ctlSearchList.m_dwLastSortCode = m_pPrefs->GetSearchSortCol();
+@
+
+
+1.29
+log
+@Formatting, comments, and name changes.
+Fixed a couple of sorting related bugs in SearchListCtrl.
+@
+text
+@d115 2
+a116 2
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[^^]")),4+MLC_SORTALT);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[vv]")),4+MLC_SORTALT+MLC_SORTDESC);
+d449 6
+a454 6
+		m_pPrefs->SetServerSortCol((int8)serverColsCombo.GetItemData(serverColsCombo.GetCurSel()));
+		m_pPrefs->SetUploadSortCol((int8)uploadColsCombo.GetItemData(uploadColsCombo.GetCurSel()));
+		m_pPrefs->SetQueueSortCol((int8)queueColsCombo.GetItemData(queueColsCombo.GetCurSel()));
+		m_pPrefs->SetSearchSortCol((int8)searchColsCombo.GetItemData(searchColsCombo.GetCurSel()));
+		m_pPrefs->SetIrcSortCol((int8)ircColsCombo.GetItemData(ircColsCombo.GetCurSel()));
+		m_pPrefs->SetClientListSortCol((int8)clientListColsCombo.GetItemData(clientListColsCombo.GetCurSel()));
+d456 3
+a458 3
+		m_pPrefs->SetDownloadSortCol((int8)downloadColsCombo.GetItemData(downloadColsCombo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol1((int8)sourceCols1Combo.GetItemData(sourceCols1Combo.GetCurSel()));
+		m_pPrefs->SetSrcSortCol2((int8)sourceCols2Combo.GetItemData(sourceCols2Combo.GetCurSel()));
+d476 1
+@
+
+
+1.28
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@d470 1
+a470 1
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.searchlistctrl.SortInit(m_pPrefs->GetSearchSortCol());
+@
+
+
+1.27
+log
+@Formatting, comments, and name changes.
+... and a few bug fixes.
+@
+text
+@d106 1
+a106 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SL_SERVERNAME)),100);
+d108 1
+a108 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_IP)),101);
+d110 1
+a110 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_DESCRIPTION)),102);
+d112 1
+a112 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PING)),103);
+d114 3
+a116 3
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)),104);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[^^]")),54);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UUSERS)+_T("[vv]")),154);
+d118 1
+a118 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PW_FILES)),105);
+d120 1
+a120 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_PRIORITY)),106);
+d122 1
+a122 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_UFAILED)),107);
+d124 1
+a124 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_STATICSERVER)),108);
+d126 3
+a128 3
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_SOFTLIMIT)),109);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[^^]")),59);
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[vv]")),159);
+d130 1
+a130 1
+	serverColsCombo.SetItemData(serverColsCombo.AddString(GetResString(IDS_SERVER_VERSION)),110);
+d134 1
+a134 1
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_DL_FILENAME)),100);
+d136 1
+a136 1
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_DL_SIZE)),101);
+d138 1
+a138 1
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_TYPE)),102);
+d140 1
+a140 1
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_PRIORITY)),103);
+d142 1
+a142 1
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_PERMISSION)),104);
+d144 1
+a144 1
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_FILEID)),105);
+d146 3
+a148 3
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_REQUESTS)),106);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_REQUESTS)+_T("[^^]")),10006);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_REQUESTS)+_T("[vv]")),10106);
+d150 3
+a152 3
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_ACCEPTS)),107);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[^^]")),10007);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[vv]")),10107);
+d154 3
+a156 3
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_TRANSFERRED)),108);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[^^]")),10008);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[vv]")),10108);
+d158 3
+a160 3
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_PARTTRAFFIC)),109);	//Cax2 bugfix 05/01/03
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[^^]")),10009);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[vv]")),10109);
+d162 7
+a168 7
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COLUPLOADS)),110);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[^^]")),10010);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[vv]")),10110);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[^]")),11);	//netwolf (zegzav)
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)),111);
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[^^]")),10011);	//netwolf (zegzav)
+	fileColsCombo.SetItemData(fileColsCombo.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[vv]")),10111);
+d172 1
+a172 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_QL_USERNAME)),10);
+d174 1
+a174 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_FILE)),11);
+d176 1
+a176 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_SPEED)),12);
+d178 1
+a178 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_TRANSF)),13);
+d180 1
+a180 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_WAITED)),14);
+d182 1
+a182 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UPLOADTIME)),15);
+d184 1
+a184 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_STATUS)),16);
+d186 1
+a186 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_UP_PARTS)),17);
+d188 1
+a188 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),18);
+d190 1
+a190 1
+	uploadColsCombo.SetItemData(uploadColsCombo.AddString(GetResString(IDS_COMPRESSION)),19);
+d194 1
+a194 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_USERNAME)),100);
+d196 1
+a196 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILE)),101);
+d198 1
+a198 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_FILEPRIO)),102);
+d200 1
+a200 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_UP_PARTS)),103);
+d202 1
+a202 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),104);
+d204 1
+a204 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_QL_RATING)),105);
+d206 1
+a206 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SCORE)),106);
+d208 1
+a208 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_SFRATIO)),107);
+d210 1
+a210 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_RFRATIO)),108);
+d212 1
+a212 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ASKED)),109);
+d214 1
+a214 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_LASTSEEN)),110);
+d216 1
+a216 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_ENTERQUEUE)),111);
+d218 1
+a218 1
+	queueColsCombo.SetItemData(queueColsCombo.AddString(GetResString(IDS_BANNED)),112);
+d222 1
+a222 1
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_FILENAME)),10);
+d224 1
+a224 1
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_SIZE)),11);
+d226 1
+a226 1
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_DL_SOURCES)),12);
+d228 1
+a228 1
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_TYPE)),13);
+d230 1
+a230 1
+	searchColsCombo.SetItemData(searchColsCombo.AddString(GetResString(IDS_FILEID)),14);
+d234 1
+a234 1
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_IRC_NAME)),10);
+d236 1
+a236 1
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_UUSERS)),11);
+d238 1
+a238 1
+	ircColsCombo.SetItemData(ircColsCombo.AddString(GetResString(IDS_DESCRIPTION)),12);
+d249 1
+a249 1
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_QL_USERNAME)),100);
+d251 1
+a251 1
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_UPLOADSTATUS)),101);
+d253 1
+a253 1
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFUP)),102);
+d255 1
+a255 1
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_DOWNLSTATUS)),103);
+d257 1
+a257 1
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(GetResString(IDS_CL_TRANSFDOWN)),104);
+d259 1
+a259 1
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(colsoft),105);
+d261 1
+a261 1
+	clientListColsCombo.SetItemData(clientListColsCombo.AddString(connected),106);
+d265 1
+a265 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_FILENAME)),100);
+d267 1
+a267 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SIZE)),101);
+d269 1
+a269 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_TRANSF)),102);
+d271 1
+a271 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_SF_COMPLETED)),103);
+d273 1
+a273 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SPEED)),104);
+d275 1
+a275 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_PROGRESS)),105);
+d277 1
+a277 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_SOURCES)),106);
+d279 1
+a279 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_PRIORITY)),107);
+d281 1
+a281 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_STATUS)),108);
+d283 1
+a283 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_REMAINS)),109);
+d285 3
+a287 3
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_TIME)),110);
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)+_T("[^]")),13); //katsyonak 01.06.03
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)),113); //Cax2 - more than 10 columns //katsyonak 01.06.03
+d289 1
+a289 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_FD_LASTCHANGE)),114);
+d291 1
+a291 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_CAT)),115);
+d293 1
+a293 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_WAITED)),DLCOL_WAITED+DL_SORTDESC);
+d295 1
+a295 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGSPEED)),DLCOL_AVGSPEED+DL_SORTDESC);
+d297 1
+a297 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGREMTIME)),DLCOL_AVGREMTIME+DL_SORTDESC);
+d299 1
+a299 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_ETA)),DLCOL_ETA+DL_SORTDESC);
+d301 1
+a301 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DLCOL_AVGETA)),DLCOL_AVGETA+DL_SORTDESC);
+d305 1
+a305 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_QL_USERNAME)),100);		//Cax2 - more than 10 columns
+d307 1
+a307 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_TRANSF)),102);
+d309 1
+a309 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_SF_COMPLETED)),103);
+d311 1
+a311 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_SPEED)),104);
+d313 1
+a313 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_PROGRESS)),105);
+d315 1
+a315 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)),106);
+d317 1
+a317 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(_T("QR")),107);
+d319 1
+a319 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_STATUS)),108);	
+d321 1
+a321 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_DL_ULDL)),111);
+d323 1
+a323 1
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_QL_RATING)),112);
+d326 1
+a326 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_SORT_DEFAULT)),255);
+d328 1
+a328 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_QL_USERNAME)),100);
+d330 1
+a330 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_TRANSF)),102);
+d332 1
+a332 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_SF_COMPLETED)),103);
+d334 1
+a334 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_SPEED)),104);
+d336 1
+a336 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_PROGRESS)),105);
+d338 1
+a338 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_INFLST_USER_CLIENTSOFTWARE)),106);
+d340 1
+a340 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(_T("QR")),107);
+d342 1
+a342 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_STATUS)),108);
+d344 1
+a344 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_DL_ULDL)),111);
+d346 1
+a346 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_QL_RATING)),112);
+@
+
+
+1.26
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d474 1
+a474 1
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.SortInit(99);//major override...
+@
+
+
+1.25
+log
+@Formatting, comments, and name changes. Factored various UI update methods out and modified to use async. messaging instead of sync. call.
+@
+text
+@d467 3
+a469 3
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndUploadList.SortInit(m_pPrefs->GetUploadSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndQueueList.SortInit(m_pPrefs->GetQueueSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndClientList.SortInit(m_pPrefs->GetClientListSortCol());
+d474 2
+a475 2
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndDownloadList.SortInit(99);//major override...
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndDownloadList.SortInit(true);//normal override, in case we show sources...
+@
+
+
+1.24
+log
+@Formatting, comments, and name changes.
+@
+text
+@d472 1
+a472 1
+			g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.SortInit(m_pPrefs->GetFileSortCol());
+@
+
+
+1.23
+log
+@Formatting, comments, and name changes.
+@
+text
+@d466 1
+a466 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.SortInit(m_pPrefs->GetServerSortCol());
+@
+
+
+1.22
+log
+@Added new download list columns
+@
+text
+@d21 2
+a22 2
+	, useIt(FALSE)
+	, sources2Sort(FALSE)
+d54 2
+a55 2
+	DDX_Check(pDX, IDC_SORT_USEIT, useIt);
+	DDX_Check(pDX, IDC_SORT_SOURCES2_BOX, sources2Sort);
+d100 2
+a101 2
+	useIt = m_pPrefs->DoUseSort();
+	sources2Sort = m_pPrefs->DoUseSrcSortCol2();
+a262 2
+#define DL_SORTDESC	100
+
+d349 1
+a349 1
+	sourceCols2Combo.EnableWindow(sources2Sort);
+d443 1
+a443 1
+	if(m_bModified)
+d447 2
+a448 2
+		m_pPrefs->SetUseSort(useIt);
+		m_pPrefs->SetUseSrcSortCol2(sources2Sort);
+d464 1
+a464 1
+		if(m_pPrefs->DoUseSort())
+d510 1
+a510 1
+	sourceCols2Combo.EnableWindow(sources2Sort);
+d519 12
+a530 12
+	serverColsCombo.EnableWindow(useIt);
+	fileColsCombo.EnableWindow(useIt);
+	downloadColsCombo.EnableWindow(useIt);
+	uploadColsCombo.EnableWindow(useIt);
+	queueColsCombo.EnableWindow(useIt);
+	searchColsCombo.EnableWindow(useIt);
+	ircColsCombo.EnableWindow(useIt);
+	clientListColsCombo.EnableWindow(useIt);
+	sourceCols1Combo.EnableWindow(useIt);
+	sourceCols2Combo.EnableWindow(useIt);
+	if(useIt)
+		sourceCols2Combo.EnableWindow(sources2Sort);
+d532 1
+a532 1
+		sourceCols2Combo.EnableWindow(useIt);
+@
+
+
+1.21
+log
+@Added Known List to transfer window. Hope no major bug was introduced. Should be tested!
+@
+text
+@d263 2
+d294 10
+@
+
+
+1.20
+log
+@Formatting, comments, and name changes.
+@
+text
+@d29 1
+d50 1
+d62 1
+d85 1
+d240 23
+d400 8
+d444 1
+d459 1
+d485 1
+d516 1
+@
+
+
+1.19
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d96 3
+a98 3
+	useIt = app_prefs->DoUseSort();
+	sources2Sort = app_prefs->DoUseSrcSortCol2();
+	updateQueue = app_prefs->GetUpdateQueueList();
+d320 1
+a320 1
+		if(serverColsCombo.GetItemData(i) == app_prefs->GetServerSortCol()) {
+d328 1
+a328 1
+		if(fileColsCombo.GetItemData(i) == app_prefs->GetFileSortCol()) {
+d336 1
+a336 1
+		if(downloadColsCombo.GetItemData(i) == app_prefs->GetDownloadSortCol()) {
+d344 1
+a344 1
+		if(uploadColsCombo.GetItemData(i) == app_prefs->GetUploadSortCol()) {
+d352 1
+a352 1
+		if(queueColsCombo.GetItemData(i) == app_prefs->GetQueueSortCol()) {
+d360 1
+a360 1
+		if(searchColsCombo.GetItemData(i) == app_prefs->GetSearchSortCol()) {
+d368 1
+a368 1
+		if(ircColsCombo.GetItemData(i) == app_prefs->GetIrcSortCol()) {
+d376 1
+a376 1
+		if(sourceCols1Combo.GetItemData(i) == app_prefs->GetSrcSortCol1()) {
+d384 1
+a384 1
+		if(sourceCols2Combo.GetItemData(i) == app_prefs->GetSrcSortCol2()) {
+d402 11
+a412 11
+		app_prefs->SetUseSort(useIt);
+		app_prefs->SetUseSrcSortCol2(sources2Sort);
+		app_prefs->SetServerSortCol((int8)serverColsCombo.GetItemData(serverColsCombo.GetCurSel()));
+		app_prefs->SetUploadSortCol((int8)uploadColsCombo.GetItemData(uploadColsCombo.GetCurSel()));
+		app_prefs->SetQueueSortCol((int8)queueColsCombo.GetItemData(queueColsCombo.GetCurSel()));
+		app_prefs->SetSearchSortCol((int8)searchColsCombo.GetItemData(searchColsCombo.GetCurSel()));
+		app_prefs->SetIrcSortCol((int8)ircColsCombo.GetItemData(ircColsCombo.GetCurSel()));
+		app_prefs->SetFileSortCol((uint16)fileColsCombo.GetItemData(fileColsCombo.GetCurSel()));
+		app_prefs->SetDownloadSortCol((int8)downloadColsCombo.GetItemData(downloadColsCombo.GetCurSel()));
+		app_prefs->SetSrcSortCol1((int8)sourceCols1Combo.GetItemData(sourceCols1Combo.GetCurSel()));
+		app_prefs->SetSrcSortCol2((int8)sourceCols2Combo.GetItemData(sourceCols2Combo.GetCurSel()));
+d414 1
+a414 1
+		app_prefs->SetUpdateQueueList(updateQueue);
+d418 1
+a418 1
+		if(app_prefs->DoUseSort())
+d420 6
+a425 6
+			g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.SortInit(app_prefs->GetServerSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndUploadList.SortInit(app_prefs->GetUploadSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndQueueList.SortInit(app_prefs->GetQueueSortCol());
+			g_eMuleApp.m_pdlgEmule->m_dlgSearch.searchlistctrl.SortInit(app_prefs->GetSearchSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndIRC.SortInit(app_prefs->GetIrcSortCol());
+			g_eMuleApp.m_pdlgEmule->m_wndSharedFiles.sharedfilesctrl.SortInit(app_prefs->GetFileSortCol());
+@
+
+
+1.18
+log
+@Fixes and updates (read forum to know)
+@
+text
+@d420 6
+a425 6
+			theApp.emuledlg->serverwnd.serverlistctrl.SortInit(app_prefs->GetServerSortCol());
+			theApp.emuledlg->transferwnd.m_wndUploadList.SortInit(app_prefs->GetUploadSortCol());
+			theApp.emuledlg->transferwnd.m_wndQueueList.SortInit(app_prefs->GetQueueSortCol());
+			theApp.emuledlg->searchwnd.searchlistctrl.SortInit(app_prefs->GetSearchSortCol());
+			theApp.emuledlg->ircwnd.SortInit(app_prefs->GetIrcSortCol());
+			theApp.emuledlg->sharedfileswnd.sharedfilesctrl.SortInit(app_prefs->GetFileSortCol());
+d427 2
+a428 2
+			theApp.emuledlg->transferwnd.m_wndDownloadList.SortInit(99);//major override...
+			theApp.emuledlg->transferwnd.m_wndDownloadList.SortInit(true);//normal override, in case we show sources...
+@
+
+
+1.17
+log
+@*** empty log message ***
+@
+text
+@d181 4
+d195 4
+d238 1
+a238 1
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_DL_FILENAME)),100);	//Cax2 - more than 10 columns
+d257 8
+a264 4
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_TIME)+_T("[^]")),10); //katsyonak 28.05.03
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_TIME)),110); //katsyonak 28.05.03
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)+_T("[^]")),11); //katsyonak 01.06.03
+	downloadColsCombo.SetItemData(downloadColsCombo.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)),111); //Cax2 - more than 10 columns //katsyonak 01.06.03
+d277 2
+d281 6
+a286 2
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_STATUS)+_T("[^]")),8);	//Cax2 changed for lord Kiron's
+	sourceCols1Combo.SetItemData(sourceCols1Combo.AddString(GetResString(IDS_STATUS)),108);			//Cax2 - more than 10 columns
+d291 1
+a291 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_QL_USERNAME)),100);		//Cax2 - more than 10 columns
+d300 2
+d305 5
+a309 1
+	sourceCols2Combo.SetItemData(sourceCols2Combo.AddString(GetResString(IDS_STATUS)),108);		//Cax2 - more than 10 columns
+@
+
+
+1.16
+log
+@converted to use DDX framework
+@
+text
+@d397 2
+a398 2
+			theApp.emuledlg->transferwnd.uploadlistctrl.SortInit(app_prefs->GetUploadSortCol());
+			theApp.emuledlg->transferwnd.queuelistctrl.SortInit(app_prefs->GetQueueSortCol());
+d403 2
+a404 2
+			theApp.emuledlg->transferwnd.downloadlistctrl.SortInit(99);//major override...
+			theApp.emuledlg->transferwnd.downloadlistctrl.SortInit(true);//normal override, in case we show sources...
+@
+
+
+1.15
+log
+@Bugfix for #226 - Disabling advanced sorting in Prefs resorts your lists
+@
+text
+@d20 12
+d42 24
+a65 9
+	DDX_Control(pDX, IDC_SORT_SERVERS, m_serverCols);
+	DDX_Control(pDX, IDC_SORT_FILES, m_fileCols);
+	DDX_Control(pDX, IDC_SORT_DOWNLOADS, m_downloadCols);
+	DDX_Control(pDX, IDC_SORT_UPLOADS, m_uploadCols);
+	DDX_Control(pDX, IDC_SORT_QUEUE, m_queueCols);
+	DDX_Control(pDX, IDC_SORT_SEARCH, m_searchCols);
+	DDX_Control(pDX, IDC_SORT_IRC, m_ircCols);
+	DDX_Control(pDX, IDC_SORT_SOURCES1, m_sourceCols1);
+	DDX_Control(pDX, IDC_SORT_SOURCES2, m_sourceCols2);
+d89 1
+a89 1
+
+d96 194
+a289 3
+	CheckDlgButton(IDC_SORT_USEIT,(app_prefs->DoUseSort())?1:0);
+	CheckDlgButton(IDC_SORT_SOURCES2_BOX,(app_prefs->DoUseSrcSortCol2())?1:0);
+	GetDlgItem(IDC_SORT_SOURCES2)->EnableWindow(IsDlgButtonChecked(IDC_SORT_SOURCES2_BOX));
+d291 65
+a355 37
+	m_serverCols.SetCurSel(0);
+	for(i = 0; i != m_serverCols.GetCount(); i++)
+		if(m_serverCols.GetItemData(i) == app_prefs->GetServerSortCol())
+			m_serverCols.SetCurSel(i);
+	m_fileCols.SetCurSel(0);
+	for(i = 0; i != m_fileCols.GetCount(); i++)
+		if(m_fileCols.GetItemData(i) == app_prefs->GetFileSortCol())
+			m_fileCols.SetCurSel(i);
+	m_downloadCols.SetCurSel(0);
+	m_previousDownCol=app_prefs->GetDownloadSortCol();
+	for(i = 0; i != m_downloadCols.GetCount(); i++)
+		if(m_downloadCols.GetItemData(i) == m_previousDownCol)
+			m_downloadCols.SetCurSel(i);
+	m_uploadCols.SetCurSel(0);
+	for(i = 0; i != m_uploadCols.GetCount(); i++)
+		if(m_uploadCols.GetItemData(i) == app_prefs->GetUploadSortCol())
+			m_uploadCols.SetCurSel(i);
+	m_queueCols.SetCurSel(0);
+	for(i = 0; i != m_queueCols.GetCount(); i++)
+		if(m_queueCols.GetItemData(i) == app_prefs->GetQueueSortCol())
+			m_queueCols.SetCurSel(i);
+	m_searchCols.SetCurSel(0);
+	for(i = 0; i != m_searchCols.GetCount(); i++)
+		if(m_searchCols.GetItemData(i) == app_prefs->GetSearchSortCol())
+			m_searchCols.SetCurSel(i);
+	m_ircCols.SetCurSel(0);
+	for(i = 0; i != m_ircCols.GetCount(); i++)
+		if(m_ircCols.GetItemData(i) == app_prefs->GetIrcSortCol())
+			m_ircCols.SetCurSel(i);
+	m_sourceCols1.SetCurSel(0);
+	for(i = 0; i != m_sourceCols1.GetCount(); i++)
+		if(m_sourceCols1.GetItemData(i) == app_prefs->GetSrcSortCol1())
+			m_sourceCols1.SetCurSel(i);
+	m_sourceCols2.SetCurSel(0);
+	for(i = 0; i != m_sourceCols2.GetCount(); i++)
+		if(m_sourceCols2.GetItemData(i) == app_prefs->GetSrcSortCol2())
+			m_sourceCols2.SetCurSel(i);
+d357 7
+a363 4
+	if(app_prefs->GetUpdateQueueList())
+		CheckDlgButton(IDC_UPDATEQUEUE,1);
+	else
+		CheckDlgButton(IDC_UPDATEQUEUE,0);
+d365 2
+a373 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d376 1
+a376 11
+		app_prefs->SetUseSort(IsDlgButtonChecked(IDC_SORT_USEIT));
+		app_prefs->SetUseSrcSortCol2(IsDlgButtonChecked(IDC_SORT_SOURCES2_BOX));
+		app_prefs->SetServerSortCol((int8)m_serverCols.GetItemData(m_serverCols.GetCurSel()));
+		app_prefs->SetUploadSortCol((int8)m_uploadCols.GetItemData(m_uploadCols.GetCurSel()));
+		app_prefs->SetQueueSortCol((int8)m_queueCols.GetItemData(m_queueCols.GetCurSel()));
+		app_prefs->SetSearchSortCol((int8)m_searchCols.GetItemData(m_searchCols.GetCurSel()));
+		app_prefs->SetIrcSortCol((int8)m_ircCols.GetItemData(m_ircCols.GetCurSel()));
+		app_prefs->SetFileSortCol((uint16)m_fileCols.GetItemData(m_fileCols.GetCurSel()));
+		app_prefs->SetDownloadSortCol((int8)m_downloadCols.GetItemData(m_downloadCols.GetCurSel()));
+		app_prefs->SetSrcSortCol1((int8)m_sourceCols1.GetItemData(m_sourceCols1.GetCurSel()));
+		app_prefs->SetSrcSortCol2((int8)m_sourceCols2.GetItemData(m_sourceCols2.GetCurSel()));
+d378 13
+a390 1
+		app_prefs->SetUpdateQueueList(IsDlgButtonChecked(IDC_UPDATEQUEUE));
+d413 1
+a413 1
+	if(m_hWnd)
+d416 8
+a423 167
+		GetDlgItem(IDC_SORT_USEIT)->SetWindowText(GetResString(IDS_SORT_USEIT));
+		GetDlgItem(IDC_SORT_SERVERS_LBL)->SetWindowText(GetResString(IDS_SORT_SERVERS_LBL));
+		GetDlgItem(IDC_SORT_DOWNLOADS_LBL)->SetWindowText(GetResString(IDS_SORT_DOWNLOADS_LBL));
+		GetDlgItem(IDC_SORT_UPLOADS_LBL)->SetWindowText(GetResString(IDS_SORT_UPLOADS_LBL));
+		GetDlgItem(IDC_SORT_QUEUE_LBL)->SetWindowText(GetResString(IDS_SORT_QUEUE_LBL));
+		GetDlgItem(IDC_SORT_SEARCH_LBL)->SetWindowText(GetResString(IDS_SORT_SEARCH_LBL));
+		GetDlgItem(IDC_SORT_IRC_LBL)->SetWindowText(GetResString(IDS_SORT_IRC_LBL));
+		GetDlgItem(IDC_SORT_GRP)->SetWindowText(GetResString(IDS_SORT_GRP));
+		GetDlgItem(IDC_SORT_SOURCES1_LBL)->SetWindowText(GetResString(IDS_SORT_SOURCES1_LBL));
+		GetDlgItem(IDC_SORT_SOURCES2_BOX)->SetWindowText(GetResString(IDS_SORT_SOURCES2_LBL));
+		GetDlgItem(IDC_SORT_FILES_LBL)->SetWindowText(GetResString(IDS_SORT_FILES_LBL));
+
+		GetDlgItem(IDC_UPDATEQUEUE)->SetWindowText(GetResString(IDS_UPDATEQUEUE));
+
+		m_serverCols.ResetContent();
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SL_SERVERNAME)+_T("[^]")),0);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SL_SERVERNAME)),100);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_IP)+_T("[^]")),1);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_IP)),101);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_DESCRIPTION)+_T("[^]")),2);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_DESCRIPTION)),102);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PING)+_T("[^]")),3);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PING)),103);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+_T("[^]")),4);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)),104);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+_T("[^^]")),54);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+_T("[vv]")),154);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PW_FILES)+_T("[^]")),5);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PW_FILES)),105);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),6);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PRIORITY)),106);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UFAILED)+_T("[^]")),7);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UFAILED)),107);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_STATICSERVER)+_T("[^]")),8);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_STATICSERVER)),108);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SERVER_SOFTLIMIT)+_T("[^]")),9);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SERVER_SOFTLIMIT)),109);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[^^]")),59);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SERVER_HARDLIMIT)+_T("[vv]")),159);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SERVER_VERSION)+_T("[^]")),10);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SERVER_VERSION)),110);
+
+		m_fileCols.ResetContent();
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_DL_FILENAME)+_T("[^]")),0);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_DL_FILENAME)),100);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_DL_SIZE)+_T("[^]")),1);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_DL_SIZE)),101);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_TYPE)+_T("[^]")),2);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_TYPE)),102);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),3);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_PRIORITY)),103);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_PERMISSION)+_T("[^]")),4);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_PERMISSION)),104);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_FILEID)+_T("[^]")),5);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_FILEID)),105);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_REQUESTS)+_T("[^]")),6);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_REQUESTS)),106);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_REQUESTS)+_T("[^^]")),10006);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_REQUESTS)+_T("[vv]")),10106);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[^]")),7);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_ACCEPTS)),107);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[^^]")),10007);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_ACCEPTS)+_T("[vv]")),10107);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[^]")),8);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_TRANSFERRED)),108);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[^^]")),10008);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_TRANSFERRED)+_T("[vv]")),10108);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[^]")),9);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_PARTTRAFFIC)),109);	//Cax2 bugfix 05/01/03
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[^^]")),10009);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_PARTTRAFFIC)+_T("[vv]")),10109);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[^]")),10);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COLUPLOADS)),110);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[^^]")),10010);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COLUPLOADS)+_T("[vv]")),10110);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[^]")),11);	//netwolf (zegzav)
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COMPLETESRC)),111);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[^^]")),10011);	//netwolf (zegzav)
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COMPLETESRC)+_T("[vv]")),10111);
+		
+		m_uploadCols.ResetContent();
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_QL_USERNAME)),10);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_FILE)+_T("[^]")),1);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_FILE)),11);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),2);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_DL_SPEED)),12);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),3);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_DL_TRANSF)),13);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_WAITED)+_T("[^]")),4);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_WAITED)),14);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_UPLOADTIME)+_T("[^]")),5);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_UPLOADTIME)),15);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_STATUS)+_T("[^]")),6);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_STATUS)),16);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_COMPRESSION)+_T("[^]")),9);
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_COMPRESSION)),19);
+
+		m_queueCols.ResetContent();
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_QL_USERNAME)),100);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_FILE)+_T("[^]")),1);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_FILE)),101);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_FILEPRIO)+_T("[^]")),2);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_FILEPRIO)),102);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_QL_RATING)+_T("[^]")),5);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_QL_RATING)),105);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_SCORE)+_T("[^]")),6);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_SCORE)),106);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_SFRATIO)+_T("[^]")),7);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_SFRATIO)),107);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_RFRATIO)+_T("[^]")),8);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_RFRATIO)),108);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_ASKED)+_T("[^]")),9);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_ASKED)),109);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_LASTSEEN)+_T("[^]")),10);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_LASTSEEN)),110);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_ENTERQUEUE)+_T("[^]")),11);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_ENTERQUEUE)),111);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_BANNED)+_T("[^]")),12);
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_BANNED)),112);
+
+		m_searchCols.ResetContent();
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_FILENAME)+_T("[^]")),0);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_FILENAME)),10);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_SIZE)+_T("[^]")),1);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_SIZE)),11);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_SOURCES)+_T("[^]")),2);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_SOURCES)),12);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_TYPE)+_T("[^]")),3);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_TYPE)),13);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_FILEID)+_T("[^]")),4);
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_FILEID)),14);
+
+		m_ircCols.ResetContent();
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_IRC_NAME)+_T("[^]")),0);
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_IRC_NAME)),10);
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_UUSERS)+_T("[^]")),1);
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_UUSERS)),11);
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_DESCRIPTION)+_T("[^]")),2);
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_DESCRIPTION)),12);
+
+		m_downloadCols.ResetContent();
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_FILENAME)+_T("[^]")),0);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_FILENAME)),100);	//Cax2 - more than 10 columns
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SIZE)+_T("[^]")),1);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SIZE)),101);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),2);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_TRANSF)),102);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_SF_COMPLETED)+_T("[^]")),3);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_SF_COMPLETED)),103);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),4);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SPEED)),104);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),5);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_PROGRESS)),105);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SOURCES)+_T("[^]")),6);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SOURCES)),106);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_PRIORITY)+_T("[^]")),7);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_PRIORITY)),107);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_STATUS)+_T("[^]")),8);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_STATUS)),108);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_REMAINS)+_T("[^]")),9);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_REMAINS)),109);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_TIME)+_T("[^]")),10); //katsyonak 28.05.03
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_TIME)),110); //katsyonak 28.05.03
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)+_T("[^]")),11); //katsyonak 01.06.03
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)),111); //Cax2 - more than 10 columns //katsyonak 01.06.03
+d425 4
+a428 32
+		m_sourceCols1.ResetContent();
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_QL_USERNAME)),100);		//Cax2 - more than 10 columns
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),2);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_TRANSF)),102);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_SF_COMPLETED)+_T("[^]")),3);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_SF_COMPLETED)),103);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),4);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_SPEED)),104);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),5);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_PROGRESS)),105);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(_T("QR[^]")),7);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(_T("QR")),107);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_STATUS)+_T("[^]")),8);	//Cax2 changed for lord Kiron's
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_STATUS)),108);			//Cax2 - more than 10 columns
+
+		m_sourceCols2.ResetContent();
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_SORT_DEFAULT)),255);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_QL_USERNAME)+_T("[^]")),0);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_QL_USERNAME)),100);		//Cax2 - more than 10 columns
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_TRANSF)+_T("[^]")),2);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_TRANSF)),102);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_SF_COMPLETED)+_T("[^]")),3);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_SF_COMPLETED)),103);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_SPEED)+_T("[^]")),4);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_SPEED)),104);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_PROGRESS)+_T("[^]")),5);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_PROGRESS)),105);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(_T("QR[^]")),7);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(_T("QR")),107);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_STATUS)+_T("[^]")),8);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_STATUS)),108);		//Cax2 - more than 10 columns
+d430 1
+a430 1
+		LoadSettings();
+d436 3
+a438 1
+	GetDlgItem(IDC_SORT_SOURCES2)->EnableWindow(IsDlgButtonChecked(IDC_SORT_SOURCES2_BOX));
+d445 13
+a457 11
+	GetDlgItem(IDC_SORT_SERVERS)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_FILES)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_DOWNLOADS)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_UPLOADS)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_QUEUE)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_SEARCH)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_IRC)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_SOURCES1)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	GetDlgItem(IDC_SORT_SOURCES2_BOX)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+	if(IsDlgButtonChecked(IDC_SORT_USEIT))
+		GetDlgItem(IDC_SORT_SOURCES2)->EnableWindow(IsDlgButtonChecked(IDC_SORT_SOURCES2_BOX));
+d459 1
+a459 1
+		GetDlgItem(IDC_SORT_SOURCES2)->EnableWindow(IsDlgButtonChecked(IDC_SORT_USEIT));
+@
+
+
+1.14
+log
+@added columns Soft/Hard Files Limit and Version in server window (merge from official)
+@
+text
+@d143 12
+a154 9
+		theApp.emuledlg->serverwnd.serverlistctrl.SortInit(app_prefs->GetServerSortCol());
+		theApp.emuledlg->transferwnd.uploadlistctrl.SortInit(app_prefs->GetUploadSortCol());
+		theApp.emuledlg->transferwnd.queuelistctrl.SortInit(app_prefs->GetQueueSortCol());
+		theApp.emuledlg->searchwnd.searchlistctrl.SortInit(app_prefs->GetSearchSortCol());
+		theApp.emuledlg->ircwnd.SortInit(app_prefs->GetIrcSortCol());
+		theApp.emuledlg->sharedfileswnd.sharedfilesctrl.SortInit(app_prefs->GetFileSortCol());
+		SetModified(FALSE);//needs the settings for downloadlistcontrol
+		theApp.emuledlg->transferwnd.downloadlistctrl.SortInit(99);//major override...
+		theApp.emuledlg->transferwnd.downloadlistctrl.SortInit(true);//normal override, in case we show sources...
+@
+
+
+1.13
+log
+@minor complete sources changes
+@
+text
+@d178 1
+a178 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SL_SERVERNAME)),10);
+d180 1
+a180 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_IP)),11);
+d182 1
+a182 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_DESCRIPTION)),12);
+d184 1
+a184 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PING)),13);
+d186 3
+a188 3
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)),14);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+_T("[^^]")),9);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+_T("[vv]")),19);
+d190 1
+a190 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PW_FILES)),15);
+d192 1
+a192 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PRIORITY)),16);
+d194 1
+a194 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UFAILED)),17);
+d196 7
+a202 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_STATICSERVER)),18);
+@
+
+
+1.12
+log
+@unicode cleanup
+@
+text
+@d233 2
+@
+
+
+1.11
+log
+@katsyonak's fix #2 for sorting
+@
+text
+@d177 1
+a177 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_SL_SERVERNAME)+"[^]"),0);
+d179 1
+a179 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_IP)+"[^]"),1);
+d181 1
+a181 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_DESCRIPTION)+"[^]"),2);
+d183 1
+a183 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PING)+"[^]"),3);
+d185 1
+a185 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+"[^]"),4);
+d187 3
+a189 3
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+"[^^]"),9);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UUSERS)+"[vv]"),19);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PW_FILES)+"[^]"),5);
+d191 1
+a191 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PRIORITY)+"[^]"),6);
+d193 1
+a193 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UFAILED)+"[^]"),7);
+d195 1
+a195 1
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_STATICSERVER)+"[^]"),8);
+d199 1
+a199 1
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_DL_FILENAME)+"[^]"),0);
+d201 1
+a201 1
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_DL_SIZE)+"[^]"),1);
+d203 1
+a203 1
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_TYPE)+"[^]"),2);
+d205 1
+a205 1
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_PRIORITY)+"[^]"),3);
+d207 1
+a207 1
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_PERMISSION)+"[^]"),4);
+d209 1
+a209 1
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_FILEID)+"[^]"),5);
+d211 1
+a211 1
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_REQUESTS)+"[^]"),6);
+d213 3
+a215 3
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_REQUESTS)+"[^^]"),10006);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_REQUESTS)+"[vv]"),10106);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_ACCEPTS)+"[^]"),7);
+d217 3
+a219 3
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_ACCEPTS)+"[^^]"),10007);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_ACCEPTS)+"[vv]"),10107);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_TRANSFERRED)+"[^]"),8);
+d221 3
+a223 3
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_TRANSFERRED)+"[^^]"),10008);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_TRANSFERRED)+"[vv]"),10108);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_PARTTRAFFIC)+"[^]"),9);
+d225 3
+a227 3
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_PARTTRAFFIC)+"[^^]"),10009);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_PARTTRAFFIC)+"[vv]"),10109);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COLUPLOADS)+"[^]"),10);
+d229 3
+a231 3
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COLUPLOADS)+"[^^]"),10010);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COLUPLOADS)+"[vv]"),10110);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_SF_COMPLETESRC)+"[^]"),11);	//netwolf (zegzav)
+d235 1
+a235 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_QL_USERNAME)+"[^]"),0);
+d237 1
+a237 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_FILE)+"[^]"),1);
+d239 1
+a239 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_DL_SPEED)+"[^]"),2);
+d241 1
+a241 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_DL_TRANSF)+"[^]"),3);
+d243 1
+a243 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_WAITED)+"[^]"),4);
+d245 1
+a245 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_UPLOADTIME)+"[^]"),5);
+d247 1
+a247 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_STATUS)+"[^]"),6);
+d249 1
+a249 1
+		m_uploadCols.SetItemData(m_uploadCols.AddString(GetResString(IDS_COMPRESSION)+"[^]"),9);
+d253 1
+a253 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_QL_USERNAME)+"[^]"),0);
+d255 1
+a255 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_FILE)+"[^]"),1);
+d257 1
+a257 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_FILEPRIO)+"[^]"),2);
+d259 1
+a259 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_QL_RATING)+"[^]"),5);
+d261 1
+a261 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_SCORE)+"[^]"),6);
+d263 1
+a263 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_SFRATIO)+"[^]"),7);
+d265 1
+a265 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_RFRATIO)+"[^]"),8);
+d267 1
+a267 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_ASKED)+"[^]"),9);
+d269 1
+a269 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_LASTSEEN)+"[^]"),10);
+d271 1
+a271 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_ENTERQUEUE)+"[^]"),11);
+d273 1
+a273 1
+		m_queueCols.SetItemData(m_queueCols.AddString(GetResString(IDS_BANNED)+"[^]"),12);
+d277 1
+a277 1
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_FILENAME)+"[^]"),0);
+d279 1
+a279 1
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_SIZE)+"[^]"),1);
+d281 1
+a281 1
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_DL_SOURCES)+"[^]"),2);
+d283 1
+a283 1
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_TYPE)+"[^]"),3);
+d285 1
+a285 1
+		m_searchCols.SetItemData(m_searchCols.AddString(GetResString(IDS_FILEID)+"[^]"),4);
+d289 1
+a289 1
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_IRC_NAME)+"[^]"),0);
+d291 1
+a291 1
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_UUSERS)+"[^]"),1);
+d293 1
+a293 1
+		m_ircCols.SetItemData(m_ircCols.AddString(GetResString(IDS_DESCRIPTION)+"[^]"),2);
+d297 1
+a297 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_FILENAME)+"[^]"),0);
+d299 1
+a299 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SIZE)+"[^]"),1);
+d301 1
+a301 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_TRANSF)+"[^]"),2);
+d303 1
+a303 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_SF_COMPLETED)+"[^]"),3);
+d305 1
+a305 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SPEED)+"[^]"),4);
+d307 1
+a307 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_PROGRESS)+"[^]"),5);
+d309 1
+a309 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SOURCES)+"[^]"),6);
+d311 1
+a311 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_PRIORITY)+"[^]"),7);
+d313 1
+a313 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_STATUS)+"[^]"),8);
+d315 1
+a315 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_REMAINS)+"[^]"),9);
+d317 1
+a317 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_TIME)+"[^]"),10); //katsyonak 28.05.03
+d319 1
+a319 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_INFLST_FILE_LASTSEENCOMPLETE)+"[^]"),11); //katsyonak 01.06.03
+d323 1
+a323 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_QL_USERNAME)+"[^]"),0);
+d325 1
+a325 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_TRANSF)+"[^]"),2);
+d327 1
+a327 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_SF_COMPLETED)+"[^]"),3);
+d329 1
+a329 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_SPEED)+"[^]"),4);
+d331 1
+a331 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_PROGRESS)+"[^]"),5);
+d333 3
+a335 3
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString("QR[^]"),7);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString("QR"),107);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_STATUS)+"[^]"),8);	//Cax2 changed for lord Kiron's
+d340 1
+a340 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_QL_USERNAME)+"[^]"),0);
+d342 1
+a342 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_TRANSF)+"[^]"),2);
+d344 1
+a344 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_SF_COMPLETED)+"[^]"),3);
+d346 1
+a346 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_SPEED)+"[^]"),4);
+d348 1
+a348 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_PROGRESS)+"[^]"),5);
+d350 3
+a352 3
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString("QR[^]"),7);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString("QR"),107);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_STATUS)+"[^]"),8);
+@
+
+
+1.10
+log
+@katsyonak's fixes for sorting
+@
+text
+@d319 3
+a321 3
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_LASTSEENCOMPL)+"[^]"),11); //katsyonak 28.05.03
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_LASTSEENCOMPL)),111); //Cax2 - more than 10 columns //katsyonak 28.05.03
+
+@
+
+
+1.9
+log
+@complete sources column
+@
+text
+@d317 4
+a320 2
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_LASTSEENCOMPL)+"[^]"),10);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_LASTSEENCOMPL)),110);	//Cax2 - more than 10 columns
+@
+
+
+1.8
+log
+@fixed wrong labeling
+@
+text
+@d231 3
+a233 1
+
+@
+
+
+1.7
+log
+@When "Use These Settings" is unchecked all sorting settings are grayed (BUG #0000142)
+@
+text
+@d191 2
+a192 2
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PREFERENCE)+"[^]"),6);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PREFERENCE)),16);
+@
+
+
+1.7.2.1
+log
+@uncompleted stuff...
+@
+text
+@d187 10
+a196 10
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_MAXUSERS)+"[^]"),5);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_MAXUSERS)),15);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PW_FILES)+"[^]"),6);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PW_FILES)),16);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PREFERENCE)+"[^]"),7);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_PREFERENCE)),17);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UFAILED)+"[^]"),8);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_UFAILED)),18);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_STATICSERVER)+"[^]"),9);
+		m_serverCols.SetItemData(m_serverCols.AddString(GetResString(IDS_STATICSERVER)),19);
+a230 3
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_FOLDER)+"[^]"),11);
+		m_fileCols.SetItemData(m_fileCols.AddString(GetResString(IDS_FOLDER)),111);
+
+d315 2
+a316 8
+		CString lsctitle=GetResString(IDS_LASTSEENCOMPL);
+		lsctitle.Remove(':');
+		m_downloadCols.SetItemData(m_downloadCols.AddString(lsctitle+"[^]"),10);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(lsctitle),110);
+		lsctitle=GetResString(IDS_LAST_FILE_PROGRESS);
+		lsctitle.Remove(':');
+		m_downloadCols.SetItemData(m_downloadCols.AddString(lsctitle+"[^]"),11);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(lsctitle),111);	//Cax2 - more than 10 columns
+@
+
+
+1.6
+log
+@added columns from official and changed transferred column
+@
+text
+@d116 2
+d352 1
+a352 2
+	}
+	
+d358 19
+@
+
+
+1.5
+log
+@some sorting bugfixes
+@
+text
+@d299 16
+a314 12
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SPEED)+"[^]"),3);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SPEED)),103);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_PROGRESS)+"[^]"),4);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_PROGRESS)),104);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SOURCES)+"[^]"),5);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SOURCES)),105);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_PRIORITY)+"[^]"),6);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_PRIORITY)),106);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_STATUS)+"[^]"),7);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_STATUS)),107);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_REMAINS)+"[^]"),8);
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_REMAINS)),108);	//Cax2 - more than 10 columns
+d321 10
+a330 8
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_SPEED)+"[^]"),3);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_SPEED)),103);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_PROGRESS)+"[^]"),4);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_PROGRESS)),104);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString("QR[^]"),6);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString("QR"),106);
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_STATUS)+"[^]"),7);	//Cax2 changed for lord Kiron's
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_STATUS)),107);			//Cax2 - more than 10 columns
+d338 10
+a347 8
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_SPEED)+"[^]"),3);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_SPEED)),103);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_PROGRESS)+"[^]"),4);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_PROGRESS)),104);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString("QR[^]"),6);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString("QR"),106);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_STATUS)+"[^]"),7);
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_STATUS)),107);		//Cax2 - more than 10 columns
+@
+
+
+1.4
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d294 1
+a294 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_FILENAME)),10);
+d296 1
+a296 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SIZE)),11);
+d298 1
+a298 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_TRANSF)),12);
+d300 1
+a300 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SPEED)),13);
+d302 1
+a302 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_PROGRESS)),14);
+d304 1
+a304 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_SOURCES)),15);
+d306 1
+a306 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_PRIORITY)),16);
+d308 1
+a308 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_STATUS)),17);
+d310 1
+a310 1
+		m_downloadCols.SetItemData(m_downloadCols.AddString(GetResString(IDS_DL_REMAINS)),18);
+d314 1
+a314 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_QL_USERNAME)),10);
+d316 1
+a316 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_TRANSF)),12);
+d318 1
+a318 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_SPEED)),13);
+d320 1
+a320 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_DL_PROGRESS)),14);
+d322 1
+a322 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString("QR"),16);
+d324 1
+a324 1
+		m_sourceCols1.SetItemData(m_sourceCols1.AddString(GetResString(IDS_STATUS)),17);
+d329 1
+a329 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_QL_USERNAME)),10);
+d331 1
+a331 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_TRANSF)),12);
+d333 1
+a333 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_SPEED)),13);
+d335 1
+a335 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_DL_PROGRESS)),14);
+d337 1
+a337 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString("QR"),16);
+d339 1
+a339 1
+		m_sourceCols2.SetItemData(m_sourceCols2.AddString(GetResString(IDS_STATUS)),17);
+@
+
+
+1.3
+log
+@Removed SingleLock - no need there.
+@
+text
+@d9 5
+@
+
+
+1.2
+log
+@Updates to Preferences (and enabling/disabling options in code because of that)
+@
+text
+@d116 1
+a116 1
+	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d51 1
+d105 6
+d132 2
+d166 2
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1.4.2
+log
+@updated control panes, and assorted bugfixes
+@
+text
+@a50 1
+	ON_BN_CLICKED(IDC_UPDATEQUEUE, OnBnClickedUpdateQueueList)
+a103 6
+
+	if(app_prefs->GetUpdateQueueList())
+		CheckDlgButton(IDC_UPDATEQUEUE,1);
+	else
+		CheckDlgButton(IDC_UPDATEQUEUE,0);
+
+a124 2
+		app_prefs->SetUpdateQueueList(IsDlgButtonChecked(IDC_UPDATEQUEUE));
+
+a156 2
+
+		GetDlgItem(IDC_UPDATEQUEUE)->SetWindowText(GetResString(IDS_UPDATEQUEUE));
+@
+
+

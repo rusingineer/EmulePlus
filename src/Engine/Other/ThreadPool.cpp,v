@@ -1,0 +1,289 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3
+	PublicRelease_1_1d:1.3
+	Interim_Release_1-1d_RC1:1.3
+	PublicRelease_1_1c:1.3
+	Interim_Release_1-1c_RC1:1.3
+	Interim_Release_1-1c_beta2:1.3
+	Interim_Release_1-1c_beta1:1.3
+	PublicRelease_1_1b:1.3
+	Interim_Release_1-1b_RC1:1.3
+	PublicRelease_1_1a:1.3
+	Interim_Release_1-1a_RC2:1.3
+	Interim_Release_1-1a_RC1:1.3
+	Interim_Release_1-1a_beta2:1.3
+	Interim_Release_1-1a_beta1:1.3
+	PublicRelease_1_1:1.3
+	Interim_Release_1-1_beta1:1.3
+	PublicRelease_1o:1.3
+	Interim_Release_1o_RC1:1.3
+	Interim_Release_1o_beta1:1.3
+	PublicRelease_1n:1.3
+	Interim_Release_1n_RC2:1.3
+	Interim_Release_1n_RC1:1.3
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.2
+	Interim_Release_1J_RC3:1.2
+	Interim_Release_1j_RC3:1.2
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2004.02.07.11.31.47;	author morevit;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.01.07.09.18.16;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Modified code so Task caller can specify completion behavior.
+@
+text
+@// ThreadPool.cpp: implementation of the CThreadPool class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "StdAfx.h"
+
+#include <process.h>
+#include "ThreadPool.h"
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CThreadPool::~CThreadPool()
+{
+	UninitPool();
+}
+
+DWORD CThreadPool::InitPool(DWORD dwThreads /* = 0 */, DWORD dwMaxConcurrent /* = 0 */)
+{
+	ASSERT(!m_hIoCompletionPort && !m_dwThreads & !m_pThreads);
+
+	if (!CEmWinNT::s_stWinNT.IsInitialized())
+		return 0; // not running on windows NT. Cannot create the thread pool.
+
+	if (!dwThreads)
+	{
+		// Determine the number of processors on this machine
+		SYSTEM_INFO stSysInfo;
+		GetSystemInfo(&stSysInfo);
+		dwThreads = stSysInfo.dwNumberOfProcessors;
+	}
+
+	m_hIoCompletionPort = CEmWinNT::s_stWinNT.m_pfnCreateIoCompletionPort(INVALID_HANDLE_VALUE, NULL, 0, dwMaxConcurrent);
+	if (!m_hIoCompletionPort)
+		return 0;
+
+	// Create now threads.
+	m_pThreads = new HANDLE[dwThreads];
+	if (m_pThreads)
+	{
+		for (; m_dwThreads < dwThreads; m_dwThreads++)
+		{
+			UINT nThreadID;
+			m_pThreads[m_dwThreads] = (HANDLE) _beginthreadex(NULL, 0, CompletionFunc, this, 0, &nThreadID);
+			if (!m_pThreads[m_dwThreads])
+				break;
+
+		}
+
+		if (!m_dwThreads)
+		{
+			// cannot create even one thread!
+			delete[] m_pThreads;
+			m_pThreads = NULL;
+		}
+	}
+
+	return m_dwThreads;
+}
+
+void CThreadPool::UninitPool(DWORD dwMaxWaitTimeout /* = 500 */)
+{
+	if (m_hIoCompletionPort)
+	{
+		if (m_pThreads)
+		{
+			if (m_dwThreads)
+			{
+				// post all threads instruction to terminate
+				for (DWORD dwThread = 0; dwThread < m_dwThreads; dwThread++)
+					VERIFY(CEmWinNT::s_stWinNT.m_pfnPostQueuedCompletionStatus(m_hIoCompletionPort, 0, 0xFFFFFFFF, NULL));
+
+				BOOL bAllShutDown = TRUE;
+				if (m_dwThreads <= MAXIMUM_WAIT_OBJECTS)
+				{
+					DWORD dwRes = WaitForMultipleObjects(m_dwThreads, m_pThreads, TRUE, dwMaxWaitTimeout);
+					bAllShutDown = (dwRes >= WAIT_OBJECT_0) && (dwRes < WAIT_OBJECT_0 + m_dwThreads);
+				}
+				else
+				{
+					// because there is a huge amount of threads - we can't use WaitForMultipleObjects.
+					// Ensure manually that threads are terminated
+					DWORD dwTicksBeg = GetTickCount();
+					for (dwThread = 0; dwThread < m_dwThreads; dwThread++)
+					{
+						DWORD dwWait = GetTickCount() - dwTicksBeg;
+						if (dwWait < dwMaxWaitTimeout)
+							dwWait = dwMaxWaitTimeout - dwWait;
+						else
+							dwWait = 0;
+
+						if (WAIT_OBJECT_0 != WaitForSingleObject(m_pThreads[dwThread], dwWait))
+							bAllShutDown = FALSE;
+					}
+				}
+
+				for (dwThread = 0; dwThread < m_dwThreads; dwThread++)
+				{
+					if (!bAllShutDown && (WAIT_OBJECT_0 != WaitForSingleObject(m_pThreads[dwThread], 0)))
+						VERIFY(TerminateThread(m_pThreads[dwThread], -1));
+
+					VERIFY(CloseHandle(m_pThreads[dwThread]));
+				}
+
+				m_dwThreads = 0;
+			}
+
+			delete[] m_pThreads;
+			m_pThreads = NULL;
+		}
+
+		VERIFY(CloseHandle(m_hIoCompletionPort));
+		m_hIoCompletionPort = NULL;
+	}
+}
+
+UINT WINAPI CThreadPool::CompletionFunc(PVOID pPtr)
+{
+	CThreadPool* pThis = (CThreadPool*) pPtr;
+	ASSERT(pThis);
+	if (pThis)
+		while (true)
+		{
+			DWORD dwBytes = 0, dwKey = 0;
+			OVERLAPPED* pOverlapped = NULL;
+
+			BOOL bRes = CEmWinNT::s_stWinNT.m_pfnGetQueuedCompletionStatus(pThis->m_hIoCompletionPort, &dwBytes, &dwKey, &pOverlapped, pThis->m_dwWaitTimeout);
+			if (bRes && !dwBytes && !pOverlapped && (0xFFFFFFFF == dwKey))
+				break;
+
+			pThis->ProcessCompletion(bRes, dwBytes, dwKey, pOverlapped);
+		}
+	return 0;
+}
+
+
+//////////////////////////////////////////////////////////////////////
+// Implementation of CDataQueue
+//////////////////////////////////////////////////////////////////////
+
+
+bool CDataQueue::Push(PVOID pData, DWORD dwDataSize)
+{
+	if (!IsInitialized())
+	{
+		ASSERT(FALSE);
+		return false; // not initialized!
+	}
+
+	// allocate a new tail
+	TAIL* pTail = new (dwDataSize) TAIL;
+	ASSERT(pTail);
+	if (!pTail)
+		return false;
+
+	pTail->m_dwSize = dwDataSize;
+	CopyMemory(pTail->m_pData, pData, dwDataSize);
+
+	CPtrQueue<TAIL>::Push(pTail);
+	return true;
+}
+@
+
+
+1.2
+log
+@New engine - cosmetic changes
+@
+text
+@d7 1
+@
+
+
+1.1
+log
+@New engine
+@
+text
+@a5 1
+#ifdef NEW_SOCKETS
+a161 1
+#endif@
+

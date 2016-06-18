@@ -1,0 +1,319 @@
+head	1.4;
+access;
+symbols
+	PublicRelease_1_2e:1.4
+	Interim_Release_1-2e_RC1:1.4
+	PublicRelease_1_2d:1.4
+	Interim_Release_1-2d_RC1:1.4
+	Interim_Release_1-2d_beta1:1.4
+	PublicRelease_1_2c:1.4
+	Interim_Release_1-2c_RC1:1.4
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.2
+	PublicRelease_1_2a:1.2
+	Interim_Release_1-2a_RC1:1.2
+	Interim_Release_1-2a_beta2:1.2
+	Interim_Release_1-2a_beta1:1.2
+	PublicRelease_1_2:1.2
+	Interim_Release_1-2_RC1:1.2
+	Interim_Release_1-2_beta1:1.2
+	PublicRelease_1_1g:1.2
+	Interim_Release_1-1g_RC3:1.2
+	Interim_Release_1-1g_RC2:1.2
+	Interim_Release_1-1g_RC1:1.2
+	Interim_Release_1-1g_beta2:1.2
+	Interim_Release_1-1g_beta1:1.2
+	PublicRelease_1_1f:1.2
+	Interim_Release_1-1f_RC1:1.2
+	PublicRelease_1_1e:1.2
+	Interim_Release_1-1e_RC2:1.2
+	Interim_Release_1-1e_RC1:1.2
+	Interim_Release_1-1e_beta1:1.2
+	PublicRelease_1_1d:1.2
+	Interim_Release_1-1d_RC1:1.2
+	PublicRelease_1_1c:1.2
+	Interim_Release_1-1c_RC1:1.2
+	Interim_Release_1-1c_beta2:1.2
+	Interim_Release_1-1c_beta1:1.2
+	PublicRelease_1_1b:1.2
+	Interim_Release_1-1b_RC1:1.2
+	PublicRelease_1_1a:1.2
+	Interim_Release_1-1a_RC2:1.2
+	Interim_Release_1-1a_RC1:1.2
+	Interim_Release_1-1a_beta2:1.2
+	Interim_Release_1-1a_beta1:1.2
+	PublicRelease_1_1:1.2
+	Interim_Release_1-1_beta1:1.2
+	PublicRelease_1o:1.2
+	Interim_Release_1o_RC1:1.2
+	Interim_Release_1o_beta1:1.2
+	PublicRelease_1n:1.2
+	Interim_Release_1n_RC2:1.2
+	Interim_Release_1n_RC1:1.2
+	Interim_Release_1n_beta2:1.2
+	Interim_Release_1n_beta1:1.2
+	PublicRelease_1m:1.2
+	Interim_Release_1m_beta1:1.2
+	PublicRelease_1l:1.2
+	Interim_Release_1l_RC3:1.2
+	Interim_Release_1l_RC2:1.2
+	Interim_Release_1l_RC1:1.2
+	Interim_Release_1l_beta2:1.2
+	Interim_Release_1l_beta1:1.2
+	PublicRelease_1k:1.2
+	Interim_Release_1k_RC4:1.2
+	Interim_1k_RC3:1.2
+	Interim_1k_RC2:1.2
+	Interim_Release_1k_RC1:1.2
+	Interim_Release_1k_beta5:1.2
+	Intrerim_Release_1k_beta4:1.2
+	Interim_Release_1k_beta1:1.2
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.4
+date	2007.04.03.18.59.04;	author kush_eplus;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2007.02.04.10.49.09;	author kush_eplus;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.02.18.15.41.48;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.38;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Moved #includes to C-file;
+Minor code cleanup.
+@
+text
+@//
+//	Class:		CXPStyleButtonST
+//
+//	Compiler:	Visual C++
+//	Tested on:	Visual C++ 6.0
+//
+//	Version:	See GetVersionC() or GetVersionI()
+//
+//	Created:	21/January/2002
+//	Updated:	24/January/2003
+//
+//	Author:		Davide Calabro'		davide_calabro@@yahoo.com
+//									http://www.softechsoftware.it
+//
+//	Disclaimer
+//	----------
+//	THIS SOFTWARE AND THE ACCOMPANYING FILES ARE DISTRIBUTED "AS IS" AND WITHOUT
+//	ANY WARRANTIES WHETHER EXPRESSED OR IMPLIED. NO REPONSIBILITIES FOR POSSIBLE
+//	DAMAGES OR EVEN FUNCTIONALITY CAN BE TAKEN. THE USER MUST ASSUME THE ENTIRE
+//	RISK OF USING THIS SOFTWARE.
+//
+//	Terms of use
+//	------------
+//	THIS SOFTWARE IS FREE FOR PERSONAL USE OR FREEWARE APPLICATIONS.
+//	IF YOU USE THIS SOFTWARE IN COMMERCIAL OR SHAREWARE APPLICATIONS YOU
+//	ARE GENTLY ASKED TO DONATE 5$ (FIVE U.S. DOLLARS) TO THE AUTHOR:
+//
+//		Davide Calabro'
+//		P.O. Box 65
+//		21019 Somma Lombardo (VA)
+//		Italy
+//
+#ifndef _XPSTYLEBTNST_H
+#define _XPSTYLEBTNST_H
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "BtnST.h"
+
+class CThemeHelperST;
+
+class CXPStyleButtonST  : public CButtonST
+{
+public:
+	CXPStyleButtonST();
+	virtual ~CXPStyleButtonST();
+
+	void SetThemeHelper(CThemeHelperST *pTheme);
+	DWORD DrawAsToolbar(BOOL bDrawAsToolbar, BOOL bRepaint = TRUE);
+
+	static short GetVersionI()		{return 12;}
+	static LPCTSTR GetVersionC()	{return (LPCTSTR)_T("1.2");}
+
+protected:
+	virtual DWORD OnDrawBackground(CDC* pDC, CRect* pRect);
+	virtual DWORD OnDrawBorder(CDC* pDC, CRect* pRect);
+	LRESULT OnThemeChanged(WPARAM wParam, LPARAM lParam);
+
+private:
+	CThemeHelperST	*m_pTheme;
+	BOOL			m_bDrawAsToolbar;	// Use flat toolbar-style ?
+
+	DECLARE_MESSAGE_MAP()
+};
+
+#endif
+@
+
+
+1.3
+log
+@crash on visual style change {theirix}
+@
+text
+@d41 2
+a42 1
+#include "ThemeHelperST.h"
+d50 1
+a50 1
+	void SetThemeHelper(CThemeHelperST* pTheme);
+d62 2
+a63 2
+	CThemeHelperST*		m_pTheme;
+	BOOL				m_bDrawAsToolbar;	// Use flat toolbar-style ?
+@
+
+
+1.2
+log
+@Fixed Mantis bug #500 - Display bug in Server window (buttons) when using XP Visual Styles
+@
+text
+@d58 1
+d63 2
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d10 1
+a10 1
+//	Updated:	31/October/2002
+d50 1
+d52 2
+a53 2
+	static short GetVersionI()		{return 11;}
+	static LPCTSTR GetVersionC()	{return (LPCTSTR)_T("1.1");}
+d56 2
+a57 8
+	virtual DWORD OnDrawBackground(CDC* pDC, LPCRECT pRect);
+	virtual DWORD OnDrawBorder(CDC* pDC, LPCRECT pRect);
+
+	// Generated message map functions
+	//{{AFX_MSG(CXPStyleButtonST)
+	afx_msg void OnSysColorChange();
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+d61 1
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

@@ -1,0 +1,651 @@
+head	1.17;
+access;
+symbols
+	PublicRelease_1_2e:1.17
+	Interim_Release_1-2e_RC1:1.17
+	PublicRelease_1_2d:1.16
+	Interim_Release_1-2d_RC1:1.16
+	Interim_Release_1-2d_beta1:1.16
+	PublicRelease_1_2c:1.16
+	Interim_Release_1-2c_RC1:1.16
+	Interim_Release_1-2c_beta1:1.16
+	PublicRelease_1_2b:1.16
+	Interim_Release_1-2b_RC1:1.16
+	PublicRelease_1_2a:1.16
+	Interim_Release_1-2a_RC1:1.16
+	Interim_Release_1-2a_beta2:1.16
+	Interim_Release_1-2a_beta1:1.16
+	PublicRelease_1_2:1.16
+	Interim_Release_1-2_RC1:1.16
+	Interim_Release_1-2_beta1:1.15
+	PublicRelease_1_1g:1.15
+	Interim_Release_1-1g_RC3:1.15
+	Interim_Release_1-1g_RC2:1.15
+	Interim_Release_1-1g_RC1:1.15
+	Interim_Release_1-1g_beta2:1.15
+	Interim_Release_1-1g_beta1:1.15
+	PublicRelease_1_1f:1.15
+	Interim_Release_1-1f_RC1:1.15
+	PublicRelease_1_1e:1.15
+	Interim_Release_1-1e_RC2:1.15
+	Interim_Release_1-1e_RC1:1.15
+	Interim_Release_1-1e_beta1:1.15
+	PublicRelease_1_1d:1.15
+	Interim_Release_1-1d_RC1:1.15
+	PublicRelease_1_1c:1.15
+	Interim_Release_1-1c_RC1:1.15
+	Interim_Release_1-1c_beta2:1.15
+	Interim_Release_1-1c_beta1:1.15
+	PublicRelease_1_1b:1.15
+	Interim_Release_1-1b_RC1:1.15
+	PublicRelease_1_1a:1.15
+	Interim_Release_1-1a_RC2:1.15
+	Interim_Release_1-1a_RC1:1.15
+	Interim_Release_1-1a_beta2:1.15
+	Interim_Release_1-1a_beta1:1.11
+	PublicRelease_1_1:1.11
+	Interim_Release_1-1_beta1:1.11
+	PublicRelease_1o:1.11
+	Interim_Release_1o_RC1:1.11
+	Interim_Release_1o_beta1:1.11
+	PublicRelease_1n:1.11
+	Interim_Release_1n_RC2:1.11
+	Interim_Release_1n_RC1:1.11
+	Interim_Release_1n_beta2:1.11
+	Interim_Release_1n_beta1:1.11
+	PublicRelease_1m:1.11
+	Interim_Release_1m_beta1:1.11
+	PublicRelease_1l:1.11
+	Interim_Release_1l_RC3:1.11
+	Interim_Release_1l_RC2:1.11
+	Interim_Release_1l_RC1:1.11
+	Interim_Release_1l_beta2:1.11
+	Interim_Release_1l_beta1:1.11
+	PublicRelease_1k:1.11
+	Interim_Release_1k_RC4:1.11
+	Interim_1k_RC3:1.11
+	Interim_1k_RC2:1.11
+	Interim_Release_1k_RC1:1.11
+	Interim_Release_1k_beta5:1.11
+	Intrerim_Release_1k_beta4:1.11
+	Interim_Release_1k_beta1:1.11
+	PublicRelease_1j:1.10
+	Interim_Release_1J_RC3:1.10
+	Interim_Release_1j_RC3:1.10
+	Interim_Release_1j_RC2:1.10
+	Interim_Release_1j_RC1:1.10
+	Interim_Release_1j_beta2:1.10
+	Interim_Release_1j_beta1:1.10
+	PublicRelease_1i:1.10
+	Interim_Release_1i_RC6:1.10
+	Interim_Release_1i_RC3:1.10
+	Interim_Release_1i_RC2:1.10
+	Interim_Release_1i_RC1:1.8
+	Interim_Release_1i_beta3:1.8
+	Interim_Release_1i_beta2:1.6
+	Interim_Release_1i_beta1:1.6
+	PublicRelease_1h:1.5
+	Interim_Release_1h_rc2:1.5
+	Interim_Release_1h_RC1:1.5
+	Interim_Release_1h_beta2:1.5
+	Interim_Release_1h_beta1_now:1.5
+	Interim_Release_1h_beta1:1.5
+	PublicRelease_1g:1.5
+	Interim_Release_1g_RC6_Final:1.5
+	Interim_Release_1g_RC6:1.5
+	Interim_Release_1g_RC5:1.5
+	Interim_Release_1g_RC4:1.5
+	Interim_Release_1g_RC3:1.5
+	Interim_Release_1g_beta2:1.5
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.5
+	Interim_Release_1f_RC3:1.5
+	Interim_Release_1f_RC2:1.5
+	Interim_Release_1f_RC:1.5
+	Interim_Release_1f_beta2:1.5
+	Interim_Release_1f_beta1:1.5
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.4
+	Interim_Release_1e_beta1:1.4
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.8
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.6
+	PublicRelease_1b:1.4
+	Interim_Release_1b_beta2:1.4
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.4.0.4
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.4.0.2
+	Interim_Release_1a_beta1:1.4
+	PublicRelease_1:1.4
+	goldfish:1.4
+	eMulePlus_1_RC2:1.4
+	eMulePlus_26b_1RC1:1.4
+	PreRelease_26b_i0e:1.4
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.17
+date	2008.11.24.03.13.33;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2006.02.05.03.30.18;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.11.21.23.53.07;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.11.18.06.57.49;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.11.16.22.43.33;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.11.15.19.07.32;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.11.15.18.24.17;	author eklmn;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.11.12.02.59.48;	author katsyonak;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.29.14.14.17;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.26.13.50.15;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.19.14.42.45;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.04.14.13.23;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.18.19.10.36;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.17.19.29.46;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.14.14.22;	author cax2;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.17.59.08;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.53.57;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.17
+log
+@WebServer: improved download progress bar representation for large files {DonGato}.
+@
+text
+@#pragma once
+
+class CBarShader
+{
+public:
+	CBarShader(uint32 dwHeight, uint32 dwWidth, COLORREF crColor = 0, uint64 qwFileSize = 1ui64);
+	~CBarShader(void);
+
+	void SetWidth(int width);
+	void SetHeight(int height);
+
+	int GetWidth() const		{ return m_iWidth; }
+	int GetHeight() const		{ return m_iHeight; }
+
+	//sets new file size and resets the shader
+	void SetFileSize(uint64 qwFileSize);
+
+	//fills in a range with a certain color, new ranges overwrite old
+	void FillRange(uint64 qwStart, uint64 qwEnd, COLORREF crColor);
+
+	//fills in entire range with a certain color
+	void Fill(COLORREF crColor);
+
+	//draws the bar
+	void Draw(CDC* dc, int iLeft, int iTop, bool bFlat);
+	void DrawPreview(CDC* dc, int iLeft, int iTop, byte previewLevel);
+	void GenerateWSBar(CString *pstrBar);
+
+protected:
+	void BuildModifiers();
+	void FillRect(CDC *dc, LPCRECT rectSpan, COLORREF crColor, bool bFlat);
+
+	uint64		m_qwFileSize;
+	int			m_iWidth;
+	int			m_iHeight;
+	double		m_dblPixelsPerByte;
+	double		m_dblBytesPerPixel;
+
+private:
+	CRBMap<uint64, COLORREF> m_Spans;
+	double		*m_pdblModifiers;
+	byte		m_used3dlevel;
+	bool		m_bIsPreview;
+};
+@
+
+
+1.16
+log
+@Make progress bar ready for 64-bit file size.
+@
+text
+@a1 1
+#include "types.h"
+a8 1
+	//set the width of the bar
+a9 2
+
+	//set the height of the bar
+d12 2
+a13 11
+	//returns the width of the bar
+	int GetWidth()
+	{
+		return m_iWidth;
+	}
+
+	//returns the height of the bar
+	int GetHeight()
+	{
+		return m_iHeight;
+	}
+d26 2
+a27 1
+	void DrawPreview(CDC* dc, int iLeft, int iTop, byte previewLevel);		//Cax2 aqua bar
+@
+
+
+1.15
+log
+@BarShader optimization to speed up progress bar drawing.
+@
+text
+@d7 1
+a7 1
+	CBarShader(uint32 dwHeight, uint32 dwWidth, COLORREF crColor = 0, uint32 dwFileSize = 1);
+d29 1
+a29 1
+	void SetFileSize(uint32 fileSize);
+d32 1
+a32 1
+	void FillRange(uint32 m_dwStartOffset, uint32 m_dwEndOffset, COLORREF crColor);
+d45 1
+a49 1
+	uint32		m_dwFileSize;
+d52 1
+a52 1
+	CRBMap<uint32, COLORREF> m_Spans;
+@
+
+
+1.14
+log
+@Improved BarShader constructor/destructor.
+@
+text
+@a42 1
+	void FillRect(CDC *dc, LPCRECT rectSpan, double dblRed, double dblGreen, double dblBlue, bool bFlat);
+@
+
+
+1.13
+log
+@Rearrange variables to make better alignment to the variable type (for faster access).
+@
+text
+@d7 1
+a7 1
+	CBarShader(uint32 dwHeight, uint32 dwWidth, uint32 dwFileSize = 1);
+a27 3
+	//call this to blank the shaderwithout changing file size
+	void Reset();
+
+@
+
+
+1.12
+log
+@Improved BarShared constructor.
+@
+text
+@d46 2
+a47 2
+	void FillRect(CDC *dc, LPRECT rectSpan, double dblRed, double dblGreen, double dblBlue, bool bFlat);
+	void FillRect(CDC *dc, LPRECT rectSpan, COLORREF crColor, bool bFlat);
+a53 1
+	bool		m_bIsPreview;
+d57 3
+a59 2
+	double	*m_pdblModifiers;
+	byte	m_used3dlevel;
+@
+
+
+1.11
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d7 1
+a7 1
+	CBarShader(uint32 height = 1, uint32 width = 1);
+@
+
+
+1.10
+log
+@forgotten variable init & type correction
+@
+text
+@d42 1
+a42 1
+	void DrawPreview(CDC* dc, int iLeft, int iTop, uint8 previewLevel);		//Cax2 aqua bar
+d59 1
+a59 1
+	uint8	m_used3dlevel;
+@
+
+
+1.9
+log
+@speed improvements on the bar shader (from official v0.30c) + possible division by zero bug fix
+@
+text
+@d58 2
+a59 2
+	double *m_pdblModifiers;
+	uint16 m_used3dlevel;
+@
+
+
+1.8
+log
+@Formatting, comments, and name changes.
+@
+text
+@d11 1
+a11 10
+	void SetWidth(int iWidth)
+	{
+		if (iWidth < 1) iWidth = 1;	 //netwolf 03.05.03
+		if (m_iWidth != iWidth)
+		{
+			m_iWidth = iWidth;
+			m_dblPixelsPerByte = static_cast<double>(m_iWidth) / m_dwFileSize;
+			m_dblBytesPerPixel = static_cast<double>(m_dwFileSize) / m_iWidth;
+		}
+	}
+d14 1
+a14 9
+	void SetHeight(int height)
+	{
+		if (m_iHeight != height)
+		{
+			m_iHeight = height;
+
+			BuildModifiers();
+		}
+	}
+d57 1
+a57 45
+	struct BarSpan {
+		uint32		m_dwStartOffset;
+		uint32		m_dwEndOffset;
+		COLORREF	m_crColor;
+		BarSpan		*next;
+
+		BarSpan(uint32 s, uint32 e, COLORREF cr = RGB(0, 0, 0)) {
+			m_dwStartOffset = s;
+			m_dwEndOffset = e;
+			m_crColor = cr;
+			next = NULL;
+		}
+
+		BarSpan(BarSpan *prev, uint32 s, uint32 e, COLORREF cr) {
+			m_dwStartOffset = s;
+			m_dwEndOffset = e;
+			m_crColor = cr;
+			next = prev->next;
+			prev->next = this;
+		}
+
+		void DeleteNext() {
+			BarSpan *del = next;
+			next = next->next;
+			delete del;
+		}
+
+		void DeleteUpTo(BarSpan *last) {
+			BarSpan *del = next;
+			BarSpan *temp;
+			while(del != last) {
+				temp = del->next;
+				delete del;
+				del = temp;
+			}
+			next = last;
+		}
+
+		/*void DeleteAll() {
+			DeleteUpTo(NULL);
+			delete this;
+		}*/
+	};
+
+	BarSpan *m_FirstSpan;
+d59 1
+a59 1
+	int8 m_used3dlevel;		//Cax2 aqua bar
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d52 1
+a52 1
+	void FillRange(uint32 start, uint32 end, COLORREF crColor);
+d75 2
+a76 2
+		uint32		start;
+		uint32		end;
+d81 2
+a82 2
+			start = s;
+			end = e;
+d88 2
+a89 2
+			start = s;
+			end = e;
+@
+
+
+1.6
+log
+@Second batch of name changes
+@
+text
+@d11 8
+a18 6
+	void SetWidth(int width) {
+		if(width < 1) width = 1;	 //netwolf 03.05.03
+		if(m_iWidth != width) {
+			m_iWidth = width;
+			m_dPixelsPerByte = (double)m_iWidth / m_uFileSize;
+			m_dBytesPerPixel = (double)m_uFileSize / m_iWidth;
+d23 4
+a26 2
+	void SetHeight(int height) {
+		if(m_iHeight != height) {
+d34 2
+a35 1
+	int GetWidth() {
+d40 2
+a41 1
+	int GetHeight() {
+d63 1
+a63 1
+	void FillRect(CDC *dc, LPRECT rectSpan, float fRed, float fGreen, float fBlue, bool bFlat);
+d66 6
+a71 6
+	int    m_iWidth;
+	int    m_iHeight;
+	double m_dPixelsPerByte;
+	double m_dBytesPerPixel;
+	uint32 m_uFileSize;
+	bool m_IsPreview;		//Cax2 aqua bar
+d119 1
+a119 1
+	float *m_Modifiers;
+@
+
+
+1.5
+log
+@More netwolf's changes
+@
+text
+@d46 1
+a46 1
+	void FillRange(uint32 start, uint32 end, COLORREF color);
+d49 1
+a49 1
+	void Fill(COLORREF color);
+d58 1
+a58 1
+	void FillRect(CDC *dc, LPRECT rectSpan, COLORREF color, bool bFlat);
+d71 1
+a71 1
+		COLORREF	color;
+d77 1
+a77 1
+			color = cr;
+d84 1
+a84 1
+			color = cr;
+@
+
+
+1.4
+log
+@minor improvements
+@
+text
+@d12 1
+@
+
+
+1.3
+log
+@minor bugfixes + aqua bars! :)
+@
+text
+@d52 1
+d64 1
+d113 1
+a113 1
+	int8 m_used3dlevel;		//Cax2 innie bar
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d111 1
+a111 1
+	uint16 m_used3dlevel;
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d111 1
+@
+

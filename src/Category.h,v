@@ -1,0 +1,765 @@
+head	1.18;
+access;
+symbols
+	PublicRelease_1_2e:1.18
+	Interim_Release_1-2e_RC1:1.18
+	PublicRelease_1_2d:1.18
+	Interim_Release_1-2d_RC1:1.18
+	Interim_Release_1-2d_beta1:1.17
+	PublicRelease_1_2c:1.14
+	Interim_Release_1-2c_RC1:1.14
+	Interim_Release_1-2c_beta1:1.14
+	PublicRelease_1_2b:1.12
+	Interim_Release_1-2b_RC1:1.12
+	PublicRelease_1_2a:1.11
+	Interim_Release_1-2a_RC1:1.11
+	Interim_Release_1-2a_beta2:1.11
+	Interim_Release_1-2a_beta1:1.11
+	PublicRelease_1_2:1.11
+	Interim_Release_1-2_RC1:1.11
+	Interim_Release_1-2_beta1:1.11
+	PublicRelease_1_1g:1.11
+	Interim_Release_1-1g_RC3:1.11
+	Interim_Release_1-1g_RC2:1.11
+	Interim_Release_1-1g_RC1:1.10
+	Interim_Release_1-1g_beta2:1.10
+	Interim_Release_1-1g_beta1:1.10
+	PublicRelease_1_1f:1.10
+	Interim_Release_1-1f_RC1:1.10
+	PublicRelease_1_1e:1.10
+	Interim_Release_1-1e_RC2:1.10
+	Interim_Release_1-1e_RC1:1.10
+	Interim_Release_1-1e_beta1:1.10
+	PublicRelease_1_1d:1.10
+	Interim_Release_1-1d_RC1:1.10
+	PublicRelease_1_1c:1.10
+	Interim_Release_1-1c_RC1:1.10
+	Interim_Release_1-1c_beta2:1.10
+	Interim_Release_1-1c_beta1:1.10
+	PublicRelease_1_1b:1.10
+	Interim_Release_1-1b_RC1:1.10
+	PublicRelease_1_1a:1.10
+	Interim_Release_1-1a_RC2:1.10
+	Interim_Release_1-1a_RC1:1.10
+	Interim_Release_1-1a_beta2:1.10
+	Interim_Release_1-1a_beta1:1.10
+	PublicRelease_1_1:1.10
+	Interim_Release_1-1_beta1:1.10
+	PublicRelease_1o:1.9
+	Interim_Release_1o_RC1:1.9
+	Interim_Release_1o_beta1:1.9
+	PublicRelease_1n:1.9
+	Interim_Release_1n_RC2:1.9
+	Interim_Release_1n_RC1:1.9
+	Interim_Release_1n_beta2:1.9
+	Interim_Release_1n_beta1:1.9
+	PublicRelease_1m:1.9
+	Interim_Release_1m_beta1:1.9
+	PublicRelease_1l:1.9
+	Interim_Release_1l_RC3:1.9
+	Interim_Release_1l_RC2:1.9
+	Interim_Release_1l_RC1:1.9
+	Interim_Release_1l_beta2:1.9
+	Interim_Release_1l_beta1:1.9
+	PublicRelease_1k:1.9
+	Interim_Release_1k_RC4:1.9
+	Interim_1k_RC3:1.9
+	Interim_1k_RC2:1.9
+	Interim_Release_1k_RC1:1.9
+	Interim_Release_1k_beta5:1.9
+	Intrerim_Release_1k_beta4:1.9
+	Interim_Release_1k_beta1:1.9
+	PublicRelease_1j:1.8
+	Interim_Release_1J_RC3:1.8
+	Interim_Release_1j_RC3:1.8
+	Interim_Release_1j_RC2:1.8
+	Interim_Release_1j_RC1:1.8
+	Interim_Release_1j_beta2:1.8
+	Interim_Release_1j_beta1:1.8
+	PublicRelease_1i:1.8
+	Interim_Release_1i_RC6:1.8
+	Interim_Release_1i_RC3:1.8
+	Interim_Release_1i_RC2:1.8
+	Interim_Release_1i_RC1:1.8
+	Interim_Release_1i_beta3:1.8
+	Interim_Release_1i_beta2:1.8
+	Interim_Release_1i_beta1:1.6
+	PublicRelease_1h:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.18
+date	2008.02.27.04.15.11;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2007.12.16.21.37.59;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2007.11.12.23.52.19;	author fuxie-dk;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2007.10.31.18.26.48;	author fuxie-dk;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2007.02.20.00.07.30;	author kush_eplus;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.02.11.22.00.33;	author eklmn;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.01.17.21.02.24;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.12.06.05.52.23;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.10.08.03.28.31;	author dongato;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.11.16.30.51;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.30.11.25.09;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.29.13.46.14;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.27.18.19.24;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.26.23.35.39;	author morevit;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.23.16.52.49;	author morevit;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.09.16.20.20.01;	author morevit;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.18
+log
+@Resolved compiler warning.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#pragma warning(push)
+#pragma warning(disable:4702) // unreachable code
+#include <map>
+#pragma warning(pop)
+
+//	Predefined category IDs
+enum _EnumCategories
+{
+	CAT_NONE = 0,
+	CAT_FIRSTUSERCAT = 1,
+	CAT_LASTUSERCAT = 99,
+
+	CAT_PREDEFINED = 100,
+	CAT_ALL = CAT_PREDEFINED,
+	CAT_UNCATEGORIZED,
+	CAT_INCOMPLETE,
+	CAT_COMPLETED,
+	CAT_WAITING,
+	CAT_DOWNLOADING,
+	CAT_ERRONEOUS,
+	CAT_PAUSED,
+	CAT_STOPPED,
+	CAT_STALLED,
+	CAT_ACTIVE,
+	CAT_INACTIVE,
+
+	CAT_LASTSTATUSCAT = CAT_INACTIVE,	// Update this if you add a new status category
+
+	CAT_VIDEO,
+	CAT_AUDIO,
+	CAT_ARCHIVES,
+	CAT_CDIMAGES,
+
+	CAT_LASTPREDEFINEDCAT,
+	CAT_TOTALPREDEFINEDCATS = CAT_LASTPREDEFINEDCAT-CAT_PREDEFINED, // NOTE: _total_ to distinguish it
+																//		from _numPredefinedCats_ which would be
+																//		the number visible
+
+	CAT_MAXPREDEFINEDCATS = 155
+};
+typedef EnumDomain<_EnumCategories>		EnumCategories;
+
+class CPreferences;
+class CCatDialog;
+class CPartFile;
+
+class CCat
+{
+//	Making these two classes friends means we don't have to put public
+//		setters on this class which would make our data members writable
+//		by classes which shouldn't be mucking with them.
+friend class	CPreferences;
+friend class	CCatDialog;
+
+public:
+				CCat();
+				CCat( LPCTSTR strTitle,
+					  LPCTSTR strSavePath=NULL,
+					  LPCTSTR strTempPath=NULL,
+					  LPCTSTR strComment=NULL,
+					  LPCTSTR strAutoCatExt=NULL );
+				CCat(EnumCategories ePredefinedCatID);
+
+private:
+	CString				m_strSavePath;
+	CString				m_strTempPath;
+	CString				m_strTitle;
+	CString				m_strComment;
+	CString				m_strAutoCatExt;
+	COLORREF			m_crColor;
+	byte				m_iPriority;
+	bool				m_bIsPredefined;
+	EnumCategories		m_eCatID;
+
+	typedef CArray<CCat*,CCat*>				CCatArray;
+	typedef std::map<EnumCategories,byte>	CCatIDMap;
+
+	static EnumCategories	g_eAllCatType;
+	static CCatArray		g_arrCat;
+	static CCatIDMap		g_mapCatID;
+	static byte				g_iNumPredefinedCats;
+
+public:
+//	Accessors
+	const CString	&GetPath() const		{ return m_strSavePath; }
+	const CString	&GetTempPath() const	{ return m_strTempPath; }
+	const CString	&GetTitle() const		{ return m_strTitle; }
+	void SetTitle(const CString &strVal)	{ m_strTitle = strVal; }
+	const CString	&GetComment() const		{ return m_strComment; }
+	COLORREF		GetColor() const		{ return m_crColor; }
+	byte			GetPriority() const		{ return m_iPriority; }
+	const CString	&GetAutoCatExt() const	{ return m_strAutoCatExt; }
+	bool			IsPredefined() const	{ return m_bIsPredefined; }
+	EnumCategories	GetID() const			{ return m_eCatID; }
+
+//	NOTE: Category indices are:					0 .. GetNumCats()-1
+//		  Indices for user categories are:		1 .. GetNumUserCats()
+//		  IDs for user categories are:			1 .. CAT_PREDEFINED-1
+//		  IDs for predefined categories are:	CAT_PREDEFINED .. CAT_PREDEFINED + GetNumPredefinedCats()-1
+	static void				Finalize();
+	static int				AddCat(CCat* pCat, bool bAssignNewID = true);
+	static int				AddPredefinedCat(CCat *pCat);
+	static bool				MoveCat(unsigned uiFromIdx, unsigned uiToIdx);
+	static void				RemoveCatByIndex(int iIndex);
+	static int				GetNumCats()						{ return g_arrCat.GetCount(); }
+	static int				GetNumUserCats()					{ return g_arrCat.GetCount() - g_iNumPredefinedCats; }
+	static const TCHAR*		GetCatPathByIndex(int index)		{ return g_arrCat[index]->m_strSavePath; }
+	static int				CatIndexToUserCatIndex(int index)	{ return index - g_iNumPredefinedCats + 1; }
+	static int				UserCatIndexToCatIndex(int iUserIdx) { return iUserIdx - 1 + g_iNumPredefinedCats; }
+	static COLORREF			GetCatColorByIndex(unsigned uiIdx)	{ return (uiIdx >= static_cast<unsigned>(g_arrCat.GetCount())) ? 0 : g_arrCat[uiIdx]->m_crColor; }
+	static COLORREF			GetCatColorByID(const EnumCategories &eCatID)	{ CCat* pCat = GetCatByID(eCatID); return pCat == NULL ? 0 : pCat->GetColor(); }
+	static EnumCategories	GetAllCatType()						{ return g_eAllCatType; }
+	static void				SetAllCatType(const EnumCategories &e)	{ g_eAllCatType = e; }
+	static bool				CatIndexIsValid(int iIndex)			{ return (iIndex >= 0 && iIndex < g_arrCat.GetCount()); }
+	static byte				GetNumPredefinedCats()				{ return g_iNumPredefinedCats; }
+	static EnumCategories	GetCatIDByIndex(int index)			{ return GetCatByIndex(index)!=NULL ? GetCatByIndex(index)->m_eCatID : CAT_NONE; }
+	static EnumCategories	GetCatIDByUserIndex(int iUserIdx)	{ return GetCatIDByIndex(UserCatIndexToCatIndex(iUserIdx)); }
+	static int				GetCatIndexByID(const EnumCategories &eCatID);
+	static int				GetUserCatIndexByID(const EnumCategories &eCatID) { return CatIndexToUserCatIndex(GetCatIndexByID(eCatID)); }
+	static CCat				*GetCatByIndex(int index)			{ if (CatIndexIsValid(index)) return g_arrCat[index]; else return NULL; }
+	static CCat				*GetCatByUserIndex(int iUserIdx)	{ return GetCatByIndex(UserCatIndexToCatIndex(iUserIdx)); }
+	static CCat				*GetCatByID(const EnumCategories &eCatID) { return GetCatByIndex(GetCatIndexByID(eCatID)); }
+	static EnumCategories	GetNewCatID();
+	static bool				FileBelongsToGivenCat(CPartFile *file,EnumCategories eCatID, bool bIgnoreViewFilter = false);
+	static CString			GetPredefinedCatTitle(EnumCategories eCatID, int langID = 0);
+};
+@
+
+
+1.17
+log
+@Suppressed level 4 warnings; Formatting.
+@
+text
+@a21 1
+#include "types.h"
+d124 1
+a124 1
+	static const TCHAR*		GetCatPathByIndex(byte index)		{ return g_arrCat[index]->m_strSavePath; }
+d142 1
+a142 1
+	static CString			GetPredefinedCatTitle(EnumCategories eCatID,int langID = 0);
+@
+
+
+1.16
+log
+@Suppressed compiler warnings [KuSh/Aw3].
+@
+text
+@d121 1
+a121 1
+	static bool				MoveCat(byte iFromIndex, byte iToIndex);
+d128 1
+a128 1
+	static COLORREF			GetCatColorByIndex(byte index)		{ if (index >= static_cast<byte>(g_arrCat.GetCount())) return 0; else return g_arrCat[index]->m_crColor; }
+@
+
+
+1.15
+log
+@Suppressed compiler warnings; Reduced H-file dependency; Removed duplicate service [Aw3].
+@
+text
+@d18 2
+d21 1
+@
+
+
+1.14
+log
+@Remove use of aliases.
+@
+text
+@d1 1
+a1 2
+//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d3 4
+a6 4
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+d8 4
+a11 4
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+d13 3
+a15 4
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+a19 7
+#include "opcodes.h"
+
+//	MOREVIT - I'm abbreviating Category here to be consistent with the
+//		method name abbreviations used throughout the code. These
+//		methods often come in long chains and I decided to take
+//		some mercy on my fellow teammembers by shortening it.
+//		In this limited case it actually improves readability.
+d54 1
+a54 1
+	CAT_MAXPREDEFINEDCATS = 155,
+d110 1
+a110 1
+//
+d120 6
+a125 6
+	static int				GetNumCats()		{ return g_arrCat.GetCount();}
+	static int				GetNumUserCats()	{ return g_arrCat.GetCount() - g_iNumPredefinedCats; }
+	static const TCHAR		*GetCatPathByIndex(byte index)	{ return g_arrCat[index]->m_strSavePath;}
+	static byte				CatIndexToUserCatIndex(byte index) { return index - g_iNumPredefinedCats + 1; }
+	static byte				UserCatIndexToCatIndex(byte userIndex) { return userIndex - 1 + g_iNumPredefinedCats; }
+	static COLORREF			GetCatColorByIndex(byte index)	{ if (index >= static_cast<byte>(g_arrCat.GetCount())) return 0; else return g_arrCat[index]->m_crColor;}
+d127 1
+a127 1
+	static EnumCategories	GetAllCatType()	{ return g_eAllCatType;}
+d129 4
+a132 4
+	static bool				CatIndexIsValid(int iIndex) { return (iIndex >= 0 && iIndex < g_arrCat.GetCount()); }
+	static byte				GetNumPredefinedCats()	{ return g_iNumPredefinedCats; }
+	static EnumCategories	GetCatIDByIndex(int index) { return GetCatByIndex(index)!=NULL ? GetCatByIndex(index)->m_eCatID : CAT_NONE; }
+	static EnumCategories	GetCatIDByUserIndex(int iUserIndex) { byte index = UserCatIndexToCatIndex(iUserIndex); return GetCatIDByIndex(index); }
+d135 2
+a136 3
+	static CCat				*GetUserCatByIndex(int userIndex) { int index = UserCatIndexToCatIndex(userIndex); return(GetCatByIndex(index));}
+	static CCat				*GetCatByIndex(int index) { if (CatIndexIsValid(index)) return g_arrCat[index]; else return NULL;}
+	static CCat				*GetCatByUserIndex(int iUserIndex) { return GetCatByIndex(UserCatIndexToCatIndex(iUserIndex)); }
+@
+
+
+1.13
+log
+@tiny optimizations
+@
+text
+@a66 14
+//	The resource editor strips out aliases now so we have to define them here :(
+#define IDS_CAT_WAITING		IDS_WAITING
+#define IDS_CAT_DOWNLOADING	IDS_DOWNLOADING
+#define IDS_CAT_ERRONEOUS	IDS_ERRORLIKE
+#define IDS_CAT_PAUSED		IDS_PAUSED
+#define IDS_CAT_STOPPED		IDS_STOPPED
+#define IDS_CAT_STALLED		IDS_STALLED
+#define IDS_CAT_ACTIVE		IDS_ST_ACTIVE
+#define IDS_CAT_INACTIVE	IDS_ST_INACTIVE
+#define IDS_CAT_VIDEO		IDS_VIDEO
+#define IDS_CAT_AUDIO		IDS_AUDIO
+#define IDS_CAT_ARCHIVES	IDS_SEARCH_ARC
+#define IDS_CAT_CDIMAGES	IDS_SEARCH_CDIMG
+
+@
+
+
+1.12
+log
+@removed unused variables & tiny optimization
+@
+text
+@d148 2
+a149 2
+	static COLORREF			GetCatColorByIndex(byte index)	{ if (index>=0 && index<g_arrCat.GetCount()) return g_arrCat[index]->m_crColor; else return 0;}
+	static COLORREF			GetCatColorByID(EnumCategories eCatID)	{ CCat* pCat = GetCatByID(eCatID); return pCat == NULL ? 0 : pCat->GetColor(); }
+@
+
+
+1.11
+log
+@Fixed localization of the predefined categories after language switch {Vladimir (SV)};
+Use default alignment; Formatting.
+@
+text
+@d151 1
+a151 1
+	static void				SetAllCatType(EnumCategories e)	{ g_eAllCatType = e; }
+d156 2
+a157 2
+	static int				GetCatIndexByID(EnumCategories eCatID);
+	static int				GetUserCatIndexByID(EnumCategories eCatID) { return CatIndexToUserCatIndex(GetCatIndexByID(eCatID)); }
+d161 1
+a161 1
+	static CCat				*GetCatByID(EnumCategories eCatID) { return GetCatByIndex(GetCatIndexByID(eCatID)); }
+@
+
+
+1.10
+log
+@Customizable temporary directory for categories
+@
+text
+@d18 2
+a21 1
+
+a23 2
+#pragma once
+
+d63 1
+a63 1
+	CAT_MAXPREDEFINEDCATS=155,
+a84 1
+#pragma pack(1)
+d107 1
+a109 1
+	CString				m_strAutoCatExt;
+d126 1
+a165 1
+#pragma pack()
+@
+
+
+1.9
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d99 1
+d106 1
+d121 1
+a121 1
+	static byte			g_iNumPredefinedCats;
+d126 1
+d132 1
+a132 1
+	bool			IsPredefined() const		{ return m_bIsPredefined; }
+d147 2
+a148 2
+	static byte			CatIndexToUserCatIndex(byte index) { return index - g_iNumPredefinedCats + 1; }
+	static byte			UserCatIndexToCatIndex(byte userIndex) { return userIndex - 1 + g_iNumPredefinedCats; }
+d154 1
+a154 1
+	static byte			GetNumPredefinedCats()	{ return g_iNumPredefinedCats; }
+@
+
+
+1.8
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d108 1
+a108 1
+	uint8				m_iPriority;
+d114 1
+a114 1
+	typedef std::map<EnumCategories,uint8>	CCatIDMap;
+d119 1
+a119 1
+	static uint8			g_iNumPredefinedCats;
+d127 1
+a127 1
+	uint8			GetPriority() const		{ return m_iPriority; }
+d139 1
+a139 1
+	static bool				MoveCat(uint8 iFromIndex, uint8 iToIndex);
+d143 4
+a146 4
+	static const TCHAR		*GetCatPathByIndex(uint8 index)	{ return g_arrCat[index]->m_strSavePath;}
+	static uint8			CatIndexToUserCatIndex(uint8 index) { return index - g_iNumPredefinedCats + 1; }
+	static uint8			UserCatIndexToCatIndex(uint8 userIndex) { return userIndex - 1 + g_iNumPredefinedCats; }
+	static COLORREF			GetCatColorByIndex(uint8 index)	{ if (index>=0 && index<g_arrCat.GetCount()) return g_arrCat[index]->m_crColor; else return 0;}
+d151 1
+a151 1
+	static uint8			GetNumPredefinedCats()	{ return g_iNumPredefinedCats; }
+d153 1
+a153 1
+	static EnumCategories	GetCatIDByUserIndex(int iUserIndex) { uint8 index = UserCatIndexToCatIndex(iUserIndex); return GetCatIDByIndex(index); }
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+@
+text
+@d21 2
+d32 1
+a32 1
+enum EnumPredefinedCats
+d34 4
+d66 1
+d101 1
+a101 1
+				CCat(uint8 iPredefinedCatID);
+d104 16
+a119 16
+	CString		m_strSavePath;
+	CString		m_strTitle;
+	CString		m_strComment;
+	COLORREF	m_crColor;
+	uint8		m_iPriority;
+	CString		m_strAutoCatExt;
+	bool		m_bIsPredefined;
+	uint8		m_iCatID;
+
+	typedef CArray<CCat*,CCat*>		CCatArray;
+	typedef std::map<uint8,uint8>	CCatIDMap;
+
+	static uint8		g_nAllCatType;
+	static CCatArray	g_arrCat;
+	static CCatIDMap	g_mapCatID;
+	static uint8		g_iNumPredefinedCats;
+d130 1
+a130 1
+	uint8			GetID() const			{ return m_iCatID; }
+d136 27
+a162 27
+	static void		Finalize();
+	static int		AddCat(CCat* pCat, bool bAssignNewID = true);
+	static int		AddPredefinedCat(CCat *pCat);
+	static bool		MoveCat(uint8 iFromIndex, uint8 iToIndex);
+	static void		RemoveCatByIndex(int iIndex);
+	static int		GetNumCats()		{ return g_arrCat.GetCount();}
+	static int		GetNumUserCats()	{ return g_arrCat.GetCount() - g_iNumPredefinedCats; }
+	static const TCHAR	*GetCatPathByIndex(uint8 index)	{ return g_arrCat[index]->m_strSavePath;}
+	static uint8	CatIndexToUserCatIndex(uint8 index) { return index - g_iNumPredefinedCats + 1; }
+	static uint8	UserCatIndexToCatIndex(uint8 userIndex) { return userIndex - 1 + g_iNumPredefinedCats; }
+	static COLORREF	GetCatColorByIndex(uint8 index)	{ if (index>=0 && index<g_arrCat.GetCount()) return g_arrCat[index]->m_crColor; else return 0;}
+	static COLORREF	GetCatColorByID(uint8 catID)	{ CCat* pCat = GetCatByID(catID); return pCat == NULL ? 0 : pCat->GetColor(); }
+	static int		GetAllCatType()	{ return g_nAllCatType;}
+	static void		SetAllCatType(int in)	{ g_nAllCatType=in; }
+	static bool		CatIndexIsValid(int iIndex) { return (iIndex >= 0 && iIndex < g_arrCat.GetCount()); }
+	static uint8	GetNumPredefinedCats()	{ return g_iNumPredefinedCats; }
+	static uint8	GetCatIDByIndex(int index) { return GetCatByIndex(index)!=NULL ? GetCatByIndex(index)->m_iCatID : 0; }
+	static uint8	GetCatIDByUserIndex(int iUserIndex) { uint8 index = UserCatIndexToCatIndex(iUserIndex); return GetCatIDByIndex(index); }
+	static int		GetCatIndexByID(uint8 catID);
+	static int		GetUserCatIndexByID(uint8 catID) { return CatIndexToUserCatIndex(GetCatIndexByID(catID)); }
+	static CCat		*GetUserCatByIndex(int userIndex) { int index = UserCatIndexToCatIndex(userIndex); return(GetCatByIndex(index));}
+	static CCat		*GetCatByIndex(int index) { if (CatIndexIsValid(index)) return g_arrCat[index]; else return NULL;}
+	static CCat		*GetCatByUserIndex(int iUserIndex) { return GetCatByIndex(UserCatIndexToCatIndex(iUserIndex)); }
+	static CCat		*GetCatByID(int iCatID) { return GetCatByIndex(GetCatIndexByID(iCatID)); }
+	static uint8	GetNewCatID();
+	static bool		FileBelongsToGivenCat(CPartFile *file,int iCatID, bool bIgnoreViewFilter = false);
+	static CString	GetPredefinedCatTitle(int iCatID,int langID = 0);
+@
+
+
+1.6
+log
+@Added some user index helper methods
+@
+text
+@d30 1
+a30 1
+enum PREDEFINED_CATS
+@
+
+
+1.5
+log
+@Please, do not add method flags like "For Webserver". If you need to modify a method to ignore the view filter setting under some circumstances then name it that way. This way we avoid implementation dependencies between modules.
+@
+text
+@d148 1
+d151 1
+@
+
+
+1.4
+log
+@Fixed showing All cat on WS when filter applied in GUI
+@
+text
+@d152 1
+a152 1
+	static bool		FileBelongsToGivenCat(CPartFile *file,int iCatID, bool bForWS = false);
+@
+
+
+1.3
+log
+@Added new predefined category "Inactive".
+@
+text
+@d152 1
+a152 1
+	static bool		FileBelongsToGivenCat(CPartFile *file,int iCatID);
+@
+
+
+1.2
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@d44 1
+d46 1
+a46 1
+	CAT_LASTSTATUSCAT = CAT_ACTIVE,	// Update this if you add a new status category
+d69 1
+@
+
+
+1.1
+log
+@MOREVIT: Category management code extracted into it's own class (no other classes modified at this time).
+@
+text
+@d29 2
+a30 2
+//	Permanent category IDs
+enum PERMANENT_CATS
+d32 2
+a33 2
+	CAT_PERMANENT = 100,
+	CAT_ALL = CAT_PERMANENT,
+d42 2
+d45 1
+a45 1
+	CAT_LASTSTATUSCAT = CAT_STOPPED,	// Update this if you add a new status category
+d52 3
+a54 3
+	CAT_LASTPERMANENTCAT,
+	CAT_TOTALPERMANENTCATS = CAT_LASTPERMANENTCAT-CAT_PERMANENT, // NOTE: _total_ to distinguish it
+																//		from _numPermanentCats_ which would be
+d57 1
+a57 1
+	CAT_MAXPERMANENTCATS=155,
+d60 13
+d75 1
+d92 2
+d101 1
+a101 1
+	bool		m_bIsPermanent;
+d110 1
+a110 1
+	static uint8		g_iNumPermanentCats;
+d120 1
+a120 1
+	bool			IsPermanent() const		{ return m_bIsPermanent; }
+d123 4
+a126 4
+//	NOTE: Category indices are:				0 .. GetNumCats()-1
+//		  Indices for user categories are:	1 .. GetNumUserCats()
+//		  IDs for user categories are:		1 .. CAT_PERMANENT-1
+//		  IDs for permanent categories are:	CAT_PERMANENT .. CAT_PERMANENT + GetNumPermanentCats()-1
+d129 1
+d133 1
+a133 1
+	static int		GetNumUserCats()	{ return g_arrCat.GetCount() - g_iNumPermanentCats; }
+d135 2
+a136 2
+	static uint8	CatIndexToUserCatIndex(uint8 index) { return index - g_iNumPermanentCats + 1; }
+	static uint8	UserCatIndexToCatIndex(uint8 userIndex) { return userIndex - 1 + g_iNumPermanentCats; }
+d142 1
+a142 1
+	static uint8	GetNumPermanentCats()	{ return g_iNumPermanentCats; }
+d144 1
+d150 2
+@
+

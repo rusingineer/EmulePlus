@@ -1,0 +1,301 @@
+head	1.9;
+access;
+symbols
+	PublicRelease_1_2e:1.9
+	Interim_Release_1-2e_RC1:1.9
+	PublicRelease_1_2d:1.9
+	Interim_Release_1-2d_RC1:1.9
+	Interim_Release_1-2d_beta1:1.9
+	PublicRelease_1_2c:1.9
+	Interim_Release_1-2c_RC1:1.9
+	Interim_Release_1-2c_beta1:1.9
+	PublicRelease_1_2b:1.9
+	Interim_Release_1-2b_RC1:1.9
+	PublicRelease_1_2a:1.9
+	Interim_Release_1-2a_RC1:1.9
+	Interim_Release_1-2a_beta2:1.9
+	Interim_Release_1-2a_beta1:1.9
+	PublicRelease_1_2:1.9
+	Interim_Release_1-2_RC1:1.9
+	Interim_Release_1-2_beta1:1.9
+	PublicRelease_1_1g:1.9
+	Interim_Release_1-1g_RC3:1.9
+	Interim_Release_1-1g_RC2:1.9
+	Interim_Release_1-1g_RC1:1.9
+	Interim_Release_1-1g_beta2:1.9
+	Interim_Release_1-1g_beta1:1.9
+	PublicRelease_1_1f:1.9
+	Interim_Release_1-1f_RC1:1.9
+	PublicRelease_1_1e:1.9
+	Interim_Release_1-1e_RC2:1.9
+	Interim_Release_1-1e_RC1:1.9
+	Interim_Release_1-1e_beta1:1.9
+	PublicRelease_1_1d:1.7
+	Interim_Release_1-1d_RC1:1.7
+	PublicRelease_1_1c:1.7
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.2
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.9
+date	2005.04.16.00.05.00;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.04.11.16.32.38;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.02.26.17.52.05;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.02.23.18.58.06;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.02.20.19.44.49;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.01.29.14.55.02;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.01.04.13.21.28;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.12.26.15.45.32;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.01.03.11.19.55;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@v2 - Xml events and other improvements
+@
+text
+@/////////////////////////////////////////////////////////
+// XMLMsgs.h - definition of all XML messages
+// (communication between Engine and GUI
+//
+// NOTE Don't put <#pragma once> directive here. 
+// This file should be included multiple times.
+
+BEGIN_XML_CMD(hello)
+	XML_PARAM_STRING(Client)
+END_XML_CMD
+
+
+BEGIN_XML_CMD(quit)
+END_XML_CMD
+
+
+BEGIN_XML_CMD(connect)
+	XML_PARAM_STRING(Addr)
+	XML_PARAM_DWORD(Port)
+END_XML_CMD
+
+
+BEGIN_XML_CMD(disconnect)
+END_XML_CMD
+
+
+BEGIN_XML_CMD(get_logs)
+	XML_PARAM_DWORD(TypeMin)
+	XML_PARAM_DWORD(TypeMax)
+	XML_INTERNAL_VAR(int m_nState, m_nState = XML_GET_START)
+	XML_INTERNAL_VAR(XmlDoc m_spDoc, )
+END_XML_CMD
+
+
+BEGIN_XML_CMD(get_shared)
+	XML_INTERNAL_VAR(int m_nState, m_nState = XML_GET_START)
+	XML_INTERNAL_VAR(XmlDoc m_spDoc, )
+END_XML_CMD
+
+
+BEGIN_XML_CMD(set_param)
+	XML_PARAM_DWORD(Type)
+	XML_PARAM_DWORD(Value)
+END_XML_CMD
+
+// Events
+BEGIN_XML_CMD(server_connected)
+END_XML_CMD
+
+BEGIN_XML_CMD(server_disconnected)
+END_XML_CMD
+@
+
+
+1.8
+log
+@v2 - logging subsystem
+@
+text
+@a8 1
+
+a9 1
+
+a13 1
+
+a17 1
+
+a19 1
+
+a23 1
+
+a27 1
+
+a31 1
+
+a35 1
+
+d38 2
+d41 3
+d46 6
+@
+
+
+1.7
+log
+@v2 - upload already works, of course it has very poor implementation, without queues yet, but it works! Also webserver improvements - now you can enter commands through webinterface
+@
+text
+@d23 1
+a23 1
+	XML_PARAM_ULONG(Port)
+d35 2
+a36 1
+	//XML_PARAM_ULONG(Type)
+@
+
+
+1.6
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@d36 1
+a36 1
+	XML_INTERNAL_VAR(int m_nState, m_nState = XML_GETLOGS_START)
+d40 9
+@
+
+
+1.5
+log
+@v2 - more shared files, other minor changes
+@
+text
+@a16 2
+	//XML_PARAM_STRING(Reason)
+
+d28 5
+@
+
+
+1.4
+log
+@Xml and database functionality
+@
+text
+@d33 1
+a33 1
+	XML_INTERNAL_VAR(int m_nState, m_nState = 0)
+@
+
+
+1.3
+log
+@XML connecting, tray app
+@
+text
+@d10 1
+a10 1
+XML_PARAM_STRING(Client)
+d17 1
+a17 1
+//XML_PARAM_STRING(Reason)
+d28 9
+@
+
+
+1.2
+log
+@Rearrangements
+@
+text
+@d8 14
+@
+
+
+1.1
+log
+@New engine - XML
+@
+text
+@d10 2
+a11 2
+	XML_PARAM_STRING(addr)
+	XML_PARAM_ULONG(port)
+@
+

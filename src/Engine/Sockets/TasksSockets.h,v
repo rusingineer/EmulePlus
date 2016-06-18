@@ -1,0 +1,523 @@
+head	1.11;
+access;
+symbols
+	PublicRelease_1_2e:1.11
+	Interim_Release_1-2e_RC1:1.11
+	PublicRelease_1_2d:1.11
+	Interim_Release_1-2d_RC1:1.11
+	Interim_Release_1-2d_beta1:1.11
+	PublicRelease_1_2c:1.11
+	Interim_Release_1-2c_RC1:1.11
+	Interim_Release_1-2c_beta1:1.11
+	PublicRelease_1_2b:1.11
+	Interim_Release_1-2b_RC1:1.11
+	PublicRelease_1_2a:1.11
+	Interim_Release_1-2a_RC1:1.11
+	Interim_Release_1-2a_beta2:1.11
+	Interim_Release_1-2a_beta1:1.11
+	PublicRelease_1_2:1.11
+	Interim_Release_1-2_RC1:1.11
+	Interim_Release_1-2_beta1:1.11
+	PublicRelease_1_1g:1.11
+	Interim_Release_1-1g_RC3:1.11
+	Interim_Release_1-1g_RC2:1.11
+	Interim_Release_1-1g_RC1:1.11
+	Interim_Release_1-1g_beta2:1.11
+	Interim_Release_1-1g_beta1:1.11
+	PublicRelease_1_1f:1.11
+	Interim_Release_1-1f_RC1:1.11
+	PublicRelease_1_1e:1.11
+	Interim_Release_1-1e_RC2:1.11
+	Interim_Release_1-1e_RC1:1.11
+	Interim_Release_1-1e_beta1:1.11
+	PublicRelease_1_1d:1.10
+	Interim_Release_1-1d_RC1:1.10
+	PublicRelease_1_1c:1.10
+	Interim_Release_1-1c_RC1:1.10
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.6
+	Interim_Release_1n_RC2:1.6
+	Interim_Release_1n_RC1:1.6
+	PublicRelease_1m:1.6
+	Interim_Release_1m_beta1:1.6
+	PublicRelease_1l:1.6
+	Interim_Release_1l_RC3:1.6
+	Interim_Release_1l_RC2:1.6
+	Interim_Release_1l_RC1:1.6
+	Interim_Release_1l_beta2:1.6
+	Interim_Release_1l_beta1:1.6
+	PublicRelease_1k:1.6
+	Interim_Release_1k_RC4:1.6
+	Interim_1k_RC3:1.6
+	Interim_1k_RC2:1.6
+	Interim_Release_1k_RC1:1.6
+	Interim_Release_1k_beta5:1.6
+	Intrerim_Release_1k_beta4:1.6
+	Interim_Release_1k_beta1:1.6
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.3
+	Interim_Release_1j_beta2:1.3
+	Interim_Release_1j_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.11
+date	2005.03.22.22.02.10;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.02.23.18.58.05;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.01.28.20.13.52;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.01.04.13.21.28;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.12.29.16.04.23;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.02.07.11.37.09;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.07.11.31.46;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.02.06.13.55.47;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.07.10.54.33;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.23.18.13.48;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@v2 - enhancing logging subsystem
+@
+text
+@// Tasks.h
+//
+//////////////////////////////////////////////////////////////////////
+#ifdef NEW_SOCKETS
+#if !defined(AFX_TASKS_H__595D01B7_787E_4BAA_8F57_B70CFE759503__INCLUDED_)
+#define AFX_TASKS_H__595D01B7_787E_4BAA_8F57_B70CFE759503__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "../TaskProcessor.h"
+#include "TaskProcessorSockets.h"
+
+//class CServer;
+//struct CEmClient;
+//struct CEmClient_Server;
+//struct CEmClient_Peer;
+
+
+//////////////////////////////////////////////////////////////////////
+// Internal socket tasks
+struct CTask_Tcp : public CTask
+{
+	SOCKET m_hSocket;
+	CTask_Tcp() : m_hSocket(INVALID_SOCKET) {}
+};
+
+struct CTask_Tcp_Accepted : public CTask_Tcp {
+	virtual bool Process();
+	in_addr m_nAddr;
+	USHORT m_uPort;
+	T_CLIENT_TYPE m_eType;
+	virtual LPCTSTR TaskName(){ return _T("Tcp_Accepted"); }
+};
+
+struct CTask_Tcp_Connected : public CTask_Tcp {
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("Tcp_Connected"); }
+};
+
+struct CTask_Tcp_Web : public CTask_Tcp {
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("Tcp_Web"); }
+	DWORD m_dwHeaderLen;
+	DWORD m_dwContentLen;
+	BYTE m_pBuf[0]; // variable size
+	void* operator new (size_t nSize, DWORD dwDataSize) { return malloc(nSize + dwDataSize); }
+	void operator delete (void* pPtr) { free(pPtr); }
+	void operator delete (void* pPtr, DWORD) { free(pPtr); }
+};
+
+struct CTask_Tcp_Xml : public CTask_Tcp {
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("Tcp_Xml"); }
+	DWORD m_dwLength;
+	BYTE m_pBuf[0]; // variable size
+	void* operator new (size_t nSize, DWORD dwDataSize) { return malloc(nSize + dwDataSize); }
+	void operator delete (void* pPtr) { free(pPtr); }
+	void operator delete (void* pPtr, DWORD) { free(pPtr); }
+};
+
+struct CTask_Tcp_Err : public CTask_Tcp {
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("Tcp_Err"); }
+	int m_nError;
+
+	static bool Post(SOCKET hSocket, int nErrorCode);
+};
+// End of internal socket tasks
+
+//////////////////////////////////////////////////////////////////////
+struct CTcpCompletionTask : public CTask
+{
+	virtual void			SetClient(CEmClient *pClient) = 0;
+
+	int						m_iMessage; // Socket completion message
+};
+
+//////////////////////////////////////////////////////////////////////
+// connect to any client (or server)
+struct CTask_Connect : public CTask
+{
+	CTask_Connect(ULONG, USHORT, T_CLIENT_TYPE, CTcpCompletionTask *pOnCompletionTask);
+	CTask_Connect(LPCTSTR, USHORT, T_CLIENT_TYPE, CTcpCompletionTask *pOnCompletionTask);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("Connect"); }
+
+	ULONG			m_dwAddr;
+	USHORT			m_uPort;
+	T_CLIENT_TYPE	m_eType;
+
+	CTcpCompletionTask	   *m_pOnCompletionTask;
+};
+
+//////////////////////////////////////////////////////////////////////
+// disconnect from any client
+struct CTask_KillClient : public CTask {
+	CTask_KillClient(CEmClient*);
+	virtual bool Process();
+	virtual LPCTSTR TaskName(){ return _T("KillClient"); }
+
+	CEmClient* m_pClient;
+};
+
+
+
+#endif // !defined(AFX_TASKS_H__595D01B7_787E_4BAA_8F57_B70CFE759503__INCLUDED_)
+#endif@
+
+
+1.10
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@a11 2
+#include "../../Loggable.h"
+
+@
+
+
+1.9
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@d36 1
+d41 1
+d46 1
+d57 1
+d67 1
+d89 1
+d103 1
+@
+
+
+1.8
+log
+@XML connecting, tray app
+@
+text
+@d81 7
+a87 7
+							CTask_Connect(ULONG, USHORT, T_CLIENT_TYPE, CTcpCompletionTask *pOnCompletionTask);
+							CTask_Connect(LPCTSTR, USHORT, T_CLIENT_TYPE, CTcpCompletionTask *pOnCompletionTask);
+	virtual bool			Process();
+
+	ULONG					m_dwAddr;
+	USHORT					m_uPort;
+	T_CLIENT_TYPE			m_eType;
+@
+
+
+1.7
+log
+@There can be only one engine :-)
+@
+text
+@d52 9
+@
+
+
+1.6
+log
+@Modified my modifications for better genericness (I like genericity but it's not in the dictionary :P ).
+@
+text
+@a22 9
+struct OFFEREDFILE
+{
+	BYTE		_Hash[16];
+	ULONG		_Addr; // client ID? = 0
+	USHORT		_Port; // client port? = 0
+	CString		_FileName;
+	DWORD		_FileSize;
+};
+
+d32 1
+a32 1
+	virtual bool Process(CEmEngine&);
+d39 1
+a39 1
+	virtual bool Process(CEmEngine&);
+d43 1
+a43 1
+	virtual bool Process(CEmEngine&);
+d53 1
+a53 1
+	virtual bool Process(CEmEngine&);
+d56 1
+a56 1
+	static bool Post(CEmEngine& stEngine, SOCKET hSocket, int nErrorCode);
+a66 36
+//////////////////////////////////////////////////////////////////////
+struct CTask_LoginToServer : public CTcpCompletionTask
+{
+							CTask_LoginToServer()
+								: m_pServer(NULL) {}
+
+	virtual void			SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+	virtual bool			Process(CEmEngine &rEngine);
+
+	CEmClient_Server		*m_pServer;
+};
+//////////////////////////////////////////////////////////////////////
+struct CTask_DisconnectServer : public CTcpCompletionTask
+{
+							CTask_DisconnectServer()
+								: m_pServer(NULL) {}
+
+	virtual void			SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+	virtual bool			Process(CEmEngine &rEngine);
+
+	CEmClient_Server		*m_pServer;
+};
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+struct CTask_SayHelloToPeer : public CTcpCompletionTask
+{
+							CTask_SayHelloToPeer()
+								: m_pPeer(NULL) {}
+
+	virtual void			SetClient(CEmClient *pClient) { m_pPeer = dynamic_cast<CEmClient_Peer*>(pClient); }
+	virtual bool			Process(CEmEngine &rEngine);
+
+	CEmClient_Peer		   *m_pPeer;
+};
+//////////////////////////////////////////////////////////////////////
+d74 1
+a74 1
+	virtual bool			Process(CEmEngine&);
+d87 1
+a87 1
+	virtual bool Process(CEmEngine&);
+a91 9
+//////////////////////////////////////////////////////////////////////
+// send list of shared files
+struct CTask_SendSharedList : public CTask {
+	CTask_SendSharedList();
+	virtual bool Process(CEmEngine&);
+
+	bool m_bProcessedUI;
+//	CArray<OFFEREDFILE, OFFEREDFILE&> m_Files;
+};
+@
+
+
+1.5
+log
+@Modified code so Task caller can specify completion behavior.
+@
+text
+@d68 1
+d70 3
+d74 1
+a74 3
+struct COnConnectedTask : public CTask
+{
+	virtual void		SetClient(CEmClient *pClient) = 0;
+a75 1
+
+d77 1
+a77 1
+struct CTask_LoginToServer : public COnConnectedTask
+d79 2
+a80 2
+						CTask_LoginToServer()
+							: m_pServer(NULL) {}
+d82 2
+a83 2
+	virtual void		SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+	virtual bool		Process(CEmEngine &rEngine);
+d85 1
+a85 1
+	CEmClient_Server	*m_pServer;
+d88 1
+a88 1
+struct CTask_DisconnectServer : public CTask
+d90 2
+a91 2
+						CTask_DisconnectServer()
+							: m_pServer(NULL) {}
+d93 2
+a94 2
+//	virtual void		SetClient(CEmClient *pClient) { m_pServer = dynamic_cast<CEmClient_Server*>(pClient); }
+	virtual bool		Process(CEmEngine &rEngine);
+d96 1
+a96 1
+	CEmClient_Server	*m_pServer;
+d101 1
+a101 1
+struct CTask_SayHelloToPeer : public COnConnectedTask
+d103 2
+a104 2
+						CTask_SayHelloToPeer()
+							: m_pPeer(NULL) {}
+d106 2
+a107 2
+	virtual void		SetClient(CEmClient *pClient) { m_pPeer = dynamic_cast<CEmClient_Peer*>(pClient); }
+	virtual bool		Process(CEmEngine &rEngine);
+d109 1
+a109 1
+	CEmClient_Peer	   *m_pPeer;
+d117 7
+a123 7
+						CTask_Connect(ULONG, USHORT, T_CLIENT_TYPE, COnConnectedTask *pOnConnectTask = NULL);
+						CTask_Connect(LPCTSTR, USHORT, T_CLIENT_TYPE, COnConnectedTask *pOnConnectTask = NULL);
+	virtual bool		Process(CEmEngine&);
+
+	ULONG				m_dwAddr;
+	USHORT				m_uPort;
+	T_CLIENT_TYPE		m_eType;
+d125 1
+a125 1
+	COnConnectedTask   *m_pOnConnectedTask;
+@
+
+
+1.4
+log
+@Formatting, comments, and name changes.
+@
+text
+@d15 1
+d17 4
+a20 3
+class CServer;
+struct CEmClient;
+struct CEmClient_Server;
+d70 13
+d84 27
+d114 9
+a122 4
+struct CTask_Connect : public CTask {
+	CTask_Connect(ULONG, USHORT, T_CLIENT_TYPE);
+	CTask_Connect(LPCTSTR, USHORT, T_CLIENT_TYPE);
+	virtual bool Process(CEmEngine&);
+d124 1
+a124 3
+	ULONG	m_dwAddr;
+	USHORT	m_uPort;
+	T_CLIENT_TYPE m_eType;
+@
+
+
+1.3
+log
+@New engine - cosmetic changes
+@
+text
+@d77 1
+a77 1
+	ULONG	m_nAddr;
+@
+
+
+1.2
+log
+@New engine - connecting to server
+@
+text
+@a15 2
+#include "../EngineData.h"
+
+@
+
+
+1.1
+log
+@New engine
+@
+text
+@a74 1
+	CTask_Connect(CServer* pServer = NULL);
+@
+

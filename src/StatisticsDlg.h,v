@@ -1,0 +1,1774 @@
+head	1.62;
+access;
+symbols
+	PublicRelease_1_2e:1.61
+	Interim_Release_1-2e_RC1:1.61
+	PublicRelease_1_2d:1.60
+	Interim_Release_1-2d_RC1:1.60
+	Interim_Release_1-2d_beta1:1.59
+	PublicRelease_1_2c:1.56
+	Interim_Release_1-2c_RC1:1.56
+	Interim_Release_1-2c_beta1:1.56
+	PublicRelease_1_2b:1.55
+	Interim_Release_1-2b_RC1:1.55
+	PublicRelease_1_2a:1.53
+	Interim_Release_1-2a_RC1:1.53
+	Interim_Release_1-2a_beta2:1.52
+	Interim_Release_1-2a_beta1:1.52
+	PublicRelease_1_2:1.50
+	Interim_Release_1-2_RC1:1.50
+	Interim_Release_1-2_beta1:1.50
+	PublicRelease_1_1g:1.49
+	Interim_Release_1-1g_RC3:1.49
+	Interim_Release_1-1g_RC2:1.49
+	Interim_Release_1-1g_RC1:1.49
+	Interim_Release_1-1g_beta2:1.48
+	Interim_Release_1-1g_beta1:1.47
+	PublicRelease_1_1f:1.47
+	Interim_Release_1-1f_RC1:1.47
+	PublicRelease_1_1e:1.47
+	Interim_Release_1-1e_RC2:1.47
+	Interim_Release_1-1e_RC1:1.47
+	Interim_Release_1-1e_beta1:1.45
+	PublicRelease_1_1d:1.43
+	Interim_Release_1-1d_RC1:1.43
+	PublicRelease_1_1c:1.43
+	Interim_Release_1-1c_RC1:1.43
+	Interim_Release_1-1c_beta2:1.43
+	Interim_Release_1-1c_beta1:1.43
+	PublicRelease_1_1b:1.43
+	Interim_Release_1-1b_RC1:1.43
+	PublicRelease_1_1a:1.43
+	Interim_Release_1-1a_RC2:1.43
+	Interim_Release_1-1a_RC1:1.43
+	Interim_Release_1-1a_beta2:1.42
+	Interim_Release_1-1a_beta1:1.42
+	PublicRelease_1_1:1.41
+	Interim_Release_1-1_beta1:1.41
+	PublicRelease_1o:1.41
+	Interim_Release_1o_RC1:1.41
+	Interim_Release_1o_beta1:1.40
+	PublicRelease_1n:1.40
+	Interim_Release_1n_RC2:1.40
+	Interim_Release_1n_RC1:1.40
+	Interim_Release_1n_beta2:1.39
+	Interim_Release_1n_beta1:1.38
+	PublicRelease_1m:1.38
+	Interim_Release_1m_beta1:1.38
+	PublicRelease_1l:1.37
+	Interim_Release_1l_RC3:1.37
+	Interim_Release_1l_RC2:1.37
+	Interim_Release_1l_RC1:1.37
+	Interim_Release_1l_beta2:1.37
+	Interim_Release_1l_beta1:1.36
+	PublicRelease_1k:1.34
+	Interim_Release_1k_RC4:1.33
+	Interim_1k_RC3:1.33
+	Interim_1k_RC2:1.33
+	Interim_Release_1k_RC1:1.33
+	Interim_Release_1k_beta5:1.32
+	Intrerim_Release_1k_beta4:1.32
+	Interim_Release_1k_beta1:1.32
+	PublicRelease_1j:1.26
+	Interim_Release_1J_RC3:1.26
+	Interim_Release_1j_RC3:1.26
+	Interim_Release_1j_RC2:1.26
+	Interim_Release_1j_RC1:1.26
+	Interim_Release_1j_beta2:1.26
+	Interim_Release_1j_beta1:1.26
+	PublicRelease_1i:1.26
+	Interim_Release_1i_RC6:1.26
+	Interim_Release_1i_RC3:1.26
+	Interim_Release_1i_RC2:1.26
+	Interim_Release_1i_RC1:1.26
+	Interim_Release_1i_beta3:1.26
+	Interim_Release_1i_beta2:1.25
+	Interim_Release_1i_beta1:1.23
+	PublicRelease_1h:1.20
+	Interim_Release_1h_rc2:1.20
+	Interim_Release_1h_RC1:1.19
+	Interim_Release_1h_beta2:1.19
+	Interim_Release_1h_beta1_now:1.17
+	Interim_Release_1h_beta1:1.17
+	PublicRelease_1g:1.14
+	Interim_Release_1g_RC6_Final:1.14
+	Interim_Release_1g_RC6:1.14
+	Interim_Release_1g_RC5:1.14
+	Interim_Release_1g_RC4:1.14
+	Interim_Release_1g_RC3:1.14
+	Interim_Release_1g_beta2:1.14
+	Interim_Release_1g_beta1:1.14
+	Interim_Release_1f_RC4:1.13
+	Interim_Release_1f_RC3:1.13
+	Interim_Release_1f_RC2:1.13
+	Interim_Release_1f_RC:1.13
+	Interim_Release_1f_beta2:1.13
+	Interim_Release_1f_beta1:1.13
+	PublicRelease_1e:1.13
+	Interim_Release_1e_RC2:1.13
+	Interim_Release_1e_RC:1.13
+	Interim_Release_1e_beta3:1.13
+	Interim_Release_1e_beta2:1.13
+	Interim_Release_1e_beta2_before_kuchin:1.13
+	Interim_Release_1e_beta1:1.13
+	PublicRelease_1c:1.13
+	featurestest:1.13.0.2
+	Interim_Release_1c_RC:1.13
+	Interim_Release_1c_beta2:1.12
+	Interim_Release_1c_beta1:1.12
+	threaded_downloadqueue:1.12.0.6
+	PublicRelease_1b:1.12
+	Interim_Release_1b_beta2:1.12
+	Interim_Release_1b_beta1:1.12
+	proxydeadlake:1.12.0.4
+	PublicRelease_1a:1.12
+	Interim_Release_1a_beta2:1.12
+	BerkeleyDb:1.12.0.2
+	Interim_Release_1a_beta1:1.12
+	PublicRelease_1:1.11
+	goldfish:1.11
+	eMulePlus_1_RC2:1.11
+	eMulePlus_26b_1RC1:1.10
+	PreRelease_26b_i0e:1.10
+	before_26d_merge:1.10
+	Interim_Release_26b_i0d:1.7
+	Interim_Release_26b_i0c:1.4
+	Interim_Release_26b_i0b:1.4
+	Interim_Release_26b_i0a:1.4
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.62
+date	2009.05.01.04.20.41;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2008.10.27.03.42.59;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2008.03.03.05.22.35;	author aw3;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2008.02.09.20.24.24;	author eklmn;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2008.01.29.03.21.48;	author aw3;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2007.11.12.23.52.20;	author fuxie-dk;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2007.02.18.16.00.49;	author eklmn;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2006.12.10.20.58.39;	author aw3;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2006.12.05.21.59.24;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2006.07.31.03.44.08;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2006.04.23.04.07.09;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2006.04.05.01.37.26;	author aw3;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2006.01.25.05.37.54;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.11.28.05.27.38;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.11.11.05.54.31;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2005.06.12.13.53.37;	author eklmn;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2005.06.08.04.55.54;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2005.06.04.06.59.54;	author eklmn;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2005.03.28.02.54.00;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.11.27.05.03.22;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.10.25.20.41.53;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.09.25.07.25.10;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.08.10.12.43.39;	author eklmn;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.08.01.05.51.57;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.06.16.16.29.46;	author dongato;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.05.12.15.35.58;	author katsyonak;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.05.05.02.22.51;	author netwolf1;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.05.02.15.51.35;	author katsyonak;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.04.08.00.23.32;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.03.28.10.55.01;	author eklmn;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.02.18.11.43.26;	author netwolf1;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.02.17.13.36.06;	author dongato;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.02.16.15.27.55;	author netwolf1;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.02.15.19.48.35;	author eklmn;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.02.15.11.55.58;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.02.15.10.12.15;	author eklmn;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.26.14.00.49;	author morevit;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.09.27.21.23.14;	author dongato;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.09.27.19.59.42;	author dongato;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.09.20.15.39.32;	author morevit;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.09.12.04.46.59;	author dongato;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.08.21.20.38.45;	author dongato;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.08.21.00.56.03;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.08.16.17.58.55;	author eklmn;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.08.13.15.55.27;	author eklmn;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.08.10.04.42.50;	author eklmn;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.06.01.08.59.03;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.22.02.42.10;	author cax2;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.02.21.12.01.30;	author lord_kiron;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.02.19.19.37.40;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.14.13.24.30;	author lord_kiron;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.14.12.22.36;	author lord_kiron;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.13.20.56.40;	author lord_kiron;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.12.20.35.04;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.12.18.04.01;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.11.22.50.45;	author lord_kiron;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.09.18.39.42;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.06.21.32.36;	author lord_kiron;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.24.22.07.50;	author maverick65;	state Exp;
+branches
+	1.2.2.1
+	1.2.4.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.23;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.28;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.4.1
+date	2003.02.05.01.58.42;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.62
+log
+@Removed meaningless Average Up/Download Time cumulative statistics (our code can't preserve and calculate it properly, so better to remove it than show some wrong stuff).
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "ResizableLib\ResizableDialog.h"
+#include "OScopeCtrl.h"
+#include "StatisticsTree.h"
+#include "ColorFrameCtrl.h"
+#pragma warning(push)
+#pragma warning(disable:4702) // unreachable code
+#include <list>
+#pragma warning(pop)
+
+#define STAT_CLIENT_MOD_NODES		3
+
+// CStatisticsDlg dialog
+
+class CStatisticsDlg : public CResizableDialog
+{
+	DECLARE_DYNAMIC(CStatisticsDlg)
+
+	friend class CWebServer;
+	
+public:
+	CStatisticsDlg(CWnd* pParent = NULL);   // standard constructor
+	~CStatisticsDlg();
+	enum { IDD = IDD_STATISTICS };
+
+	void	Localize();
+	void	SetCurrentRate(uint32 dwUpRate, uint32 dwDownRate);
+	void	ShowInterval();
+	void	SetARange(bool SetDownload,int maxValue);
+	void	RecordRate();
+	double	GetAvgDownloadRate(int averageType);
+	double	GetAvgUploadRate(int averageType);
+	void	RepaintMeters();
+	void	UpdateConnectionsStatus();
+
+	uint32	GetActiveConnections()		{ return activeconnections; }
+	uint32	GetPeakConnections()		{ return peakconnections; }
+	uint32	GetTotalConnectionChecks()	{ return totalconnectionchecks; }
+	double	GetAverageConnections()		{ return averageconnections; }
+	
+	uint32	GetTransferTime()			{ return timeTransfers + time_thisTransfer; }
+	uint32	GetUploadTime()				{ return timeUploads + time_thisUpload; }
+	uint32	GetDownloadTime()			{ return timeDownloads + time_thisDownload; }
+	uint32	GetServerDuration()			{ return timeServerDuration + time_thisServerDuration; }
+	void	Add2TotalServerDuration()	{ timeServerDuration += time_thisServerDuration;  time_thisServerDuration = 0; }
+	void	UpdateActConScale();
+	void	UpdateConnectionStats(double uploadrate, double downloadrate);
+	void	CreateStatsTree();
+	void	DoTreeMenu();
+	void	ShowStatistics(bool forceUpdate = false);
+
+	CString		GetUpEndReason(unsigned uiState);
+	CStatisticsTree stattree;
+	CImageList	m_imagelistStatTree;
+
+private:
+	COScopeCtrl m_DownloadOMeter, m_UploadOMeter, m_Statistics;
+	CColorFrameCtrl m_Led1[3];
+	CColorFrameCtrl m_Led2[3];
+	CColorFrameCtrl m_Led3[3];
+
+	double	maxDownavg;
+	double	maxDown;
+	uint32	m_ilastMaxConnReached;
+	byte	m_byteStatGraphRatio;
+
+//	Cumulative Stats
+	double	cum_DL_maximal;		//maxcumDown
+	double	cum_DL_average;		//Downavg
+	double	cum_DL_max_average;	//maxcumDownavg
+
+	double	cum_UL_maximal;		//maxcumUp
+	double	cum_UL_average;		//cumUpavg
+	double	cum_UL_max_average;	//maxcumUpavg
+	
+	double	maxUp;
+	double	maxUpavg;
+	double	rateDown;
+	double	rateUp;
+	uint32	timeTransfers;
+	uint32	timeDownloads;
+	uint32	timeUploads;
+	uint32	start_timeTransfers;
+	uint32	start_timeDownloads;
+	uint32	start_timeUploads;
+	uint32	time_thisTransfer;
+	uint32	time_thisDownload;
+	uint32	time_thisUpload;
+	uint32	timeServerDuration;
+	uint32	time_thisServerDuration;
+
+//	Tree Declarations 
+	HTREEITEM	h_transfer, trans[2]; // Transfer Header and Items
+	HTREEITEM	h_upload, h_up_session, up_S[4], h_up_total, up_T[2]; // Uploads Session and Total Items and Headers
+	HTREEITEM	hup_scb, up_scb[SO_LAST], hup_ssb, up_ssb[2], hup_scomb, up_scomb[2], hULPrioDataNode, hULPrioDataItems[5]; // Session Uploaded Byte Breakdowns
+	HTREEITEM	hup_tcb, up_tcb[SO_LAST], hup_tsb, up_tsb[2], hup_tcomb, up_tcomb[2]; // Total Uploaded Byte Breakdowns
+	HTREEITEM	hup_soh, up_soh[4], hup_toh, up_toh[4]; // Upline Overhead
+	HTREEITEM	up_ssessions[4], up_ssessions_s[2],up_ssessions_spc[ETS_TERMINATOR],up_ssessions_f[ETS_TERMINATOR], up_tsessions[3]; // Breakdown of Upload Sessions
+	HTREEITEM	h_download, h_down_session, down_S[17], h_down_total, down_T[6]; // Downloads Session and Total Items and Headers
+	HTREEITEM	hdown_scb, down_scb[SO_LAST]; // Session Downloaded Byte Breakdowns
+	HTREEITEM	hdown_tcb, down_tcb[SO_LAST]; // Total Downloaded Byte Breakdowns
+	HTREEITEM	hdown_soh, down_soh[4], hdown_toh, down_toh[4]; // Downline Overhead
+	HTREEITEM	down_ssessions[4], htiDLFailedSesNRD, down_tsessions[3], down_sources[STATS_DLSRC_COUNT - 1]; // Breakdown of Download Sessions and Sources
+	HTREEITEM	h_connection, h_conn_session, h_conn_total; // Connection Section Headers
+	HTREEITEM	hconn_sg, conn_sg[5], hconn_su, conn_su[4], hconn_sd, conn_sd[4]; // Connection Session Section Headers and Items
+	HTREEITEM	hconn_tg, conn_tg[4], hconn_tu, conn_tu[3], hconn_td, conn_td[3]; // Connection Total Section Headers and Items
+	HTREEITEM	h_clients, hcliconnected, cligen[5], hclisoft, clisoft[SO_LAST], cli_versions[SO_LAST][4], cli_versions_other[SO_LAST], hcliport, cliport[2];	// Clients Section
+	HTREEITEM	hFiltered, hFilteredItems[3], hCountries; // Clients Section
+	HTREEITEM	h_servers, srv[7], srv_w[3], hsrv_records, srv_r[3]; // Servers Section
+	HTREEITEM	h_shared, shar[4], hshar_records, shar_r[4]; // Shared Section
+	HTREEITEM	h_time, tvitime[2], htime_s, tvitime_s[4], tvitime_st[2], htime_t, tvitime_t[3], tvitime_tt[2];
+	HTREEITEM	htime_aap, time_aaph[3], time_aap_hup[3], time_aap_hdown[3];
+	HTREEITEM	time_aap_up_hd[3][3], time_aap_down_hd[3][2];
+	HTREEITEM	time_aap_up[3][3], time_aap_up_dc[3][SO_LAST];
+	HTREEITEM	time_aap_up_ds[3][2], time_aap_up_com[3][2], time_aap_up_s[3][2], time_aap_up_oh[3][4];
+	HTREEITEM	time_aap_down[3][7], time_aap_down_dc[3][SO_LAST];
+	HTREEITEM	time_aap_down_s[3][2], time_aap_down_oh[3][4];
+	HTREEITEM	hclisoftMODs, hclisoftPlusMODs, clisoftMODs[STAT_CLIENT_MOD_NODES];
+
+	uint32 m_nMODs[STAT_CLIENT_MOD_NODES];
+
+	void	SetupLegend(int ResIdx, int ElmtIdx, int legendNr);
+	CString	GetMODType(uint32 dwIndex);
+
+//	Data lists (DL, UL & time)
+	std::list<uint64> uprateHistory;
+	std::list<uint64> downrateHistory;
+	std::list<DWORD>timeHistory;
+
+//	Connections
+	uint32	activeconnections;
+	uint32	peakconnections;
+	uint32	totalconnectionchecks;
+	double	averageconnections;
+	
+	int		m_oldcx;
+	int		m_oldcy;
+	
+protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	DECLARE_MESSAGE_MAP()
+	virtual BOOL OnInitDialog();
+	virtual void OnSize(UINT nType,int cx,int cy);
+	afx_msg void OnMenuButtonClicked();
+	afx_msg void OnDestroy();
+};
+@
+
+
+1.61
+log
+@Implified interface by replacing external for this class enum type.
+@
+text
+@d115 1
+a115 1
+	HTREEITEM	up_ssessions[4], up_ssessions_s[2],up_ssessions_spc[ETS_TERMINATOR],up_ssessions_f[ETS_TERMINATOR], up_tsessions[4]; // Breakdown of Upload Sessions
+d120 1
+a120 1
+	HTREEITEM	down_ssessions[4], htiDLFailedSesNRD, down_tsessions[4], down_sources[STATS_DLSRC_COUNT - 1]; // Breakdown of Download Sessions and Sources
+@
+
+
+1.60
+log
+@Removed namespace usage.
+@
+text
+@d69 1
+a69 1
+	CString		GetUpEndReason(EnumEndTransferSession index);
+@
+
+
+1.59
+log
+@1) removed duplicated invalidation of the plots on initialization
+2) removed statistic forced update plots on initialization (it does not required at this palce)
+3) formating
+@
+text
+@a26 1
+using namespace std;
+d143 3
+a145 3
+	list<uint64> uprateHistory;
+	list<uint64> downrateHistory;
+	list<DWORD>timeHistory;
+@
+
+
+1.58
+log
+@Removed unrequired includes; Formatting.
+@
+text
+@d83 1
+a83 1
+	byte	oldRatio;
+@
+
+
+1.57
+log
+@Suppressed compiler warnings [KuSh/Aw3].
+@
+text
+@a20 1
+#include "otherfunctions.h"
+a22 1
+#include "ClientList.h"
+d161 1
+a162 2
+public:
+	virtual void OnSize(UINT nType,int cx,int cy);
+@
+
+
+1.56
+log
+@removed the port statistic (part 2)
+@
+text
+@d25 2
+d28 1
+@
+
+
+1.55
+log
+@Removed separate statistics branch for eChanblard due to low percentage.
+@
+text
+@d112 2
+a113 2
+	HTREEITEM	hup_scb, up_scb[SO_LAST], hup_spb, up_spb[2], hup_ssb, up_ssb[2], hup_scomb, up_scomb[2], hULPrioDataNode, hULPrioDataItems[5]; // Session Uploaded Byte Breakdowns
+	HTREEITEM	hup_tcb, up_tcb[SO_LAST], hup_tpb, up_tpb[2], hup_tsb, up_tsb[2], hup_tcomb, up_tcomb[2]; // Total Uploaded Byte Breakdowns
+d117 2
+a118 2
+	HTREEITEM	hdown_scb, down_scb[SO_LAST], hdown_spb, down_spb[2]; // Session Downloaded Byte Breakdowns
+	HTREEITEM	hdown_tcb, down_tcb[SO_LAST], hdown_tpb, down_tpb[2]; // Total Downloaded Byte Breakdowns
+d130 2
+a131 2
+	HTREEITEM	time_aap_up_hd[3][4], time_aap_down_hd[3][2];
+	HTREEITEM	time_aap_up[3][3], time_aap_up_dc[3][SO_LAST], time_aap_up_dp[3][2];
+d133 1
+a133 1
+	HTREEITEM	time_aap_down[3][7], time_aap_down_dc[3][SO_LAST], time_aap_down_dp[3][2];
+@
+
+
+1.54
+log
+@removed "unfair *" statistic
+@
+text
+@d17 1
+a18 1
+#pragma once
+d28 1
+a28 1
+#define STAT_CLIENT_MOD_NODES		4
+d85 7
+a91 7
+	double	cum_DL_maximal;		//maxcumDown;
+	double	cum_DL_average;		//Downavg;
+	double	cum_DL_max_average;	//maxcumDownavg;
+
+	double	cum_UL_maximal;		//maxcumUp;
+	double	cum_UL_average;		//cumUpavg;
+	double	cum_UL_max_average;	//maxcumUpavg;
+@
+
+
+1.53
+log
+@Faster plot statistics processing for WebServer and MobileMule.
+@
+text
+@d124 2
+a125 2
+	HTREEITEM	h_clients, hcliconnected, cligen[6], hclisoft, clisoft[SO_LAST], cli_versions[SO_LAST][4], cli_versions_other[SO_LAST], hcliport, cliport[2];	// Clients Section
+	HTREEITEM	hUnfairAction, hUnfairActionItems[4], hFiltered, hFilteredItems[3], hCountries; // Clients Section
+@
+
+
+1.52
+log
+@Reduced H-file dependency.
+@
+text
+@d44 1
+a44 1
+	void	SetCurrentRate(double uploadrate, double downloadrate);
+@
+
+
+1.51
+log
+@Removed one of the mod's node in statistics (due to low user base).
+@
+text
+@a18 1
+#include "afxdlgs.h"
+@
+
+
+1.50
+log
+@Not popular mods were removed from statistics tree.
+@
+text
+@d29 1
+a29 1
+#define STAT_CLIENT_MOD_NODES		5
+@
+
+
+1.49
+log
+@Fixed session statistics 'Parts Saved Due To ICH' {Fuxie - DK}.
+@
+text
+@d29 1
+a29 1
+#define STAT_CLIENT_MOD_NODES		8
+@
+
+
+1.48
+log
+@Unified download queue statistics, removed unused stuff.
+@
+text
+@d121 1
+a121 1
+	HTREEITEM	down_ssessions[4], htiDLFailedSesNRD, down_tsessions[4], down_sources[STATS_DLSRC_COUNT - 2]; // Breakdown of Download Sessions and Sources
+@
+
+
+1.47
+log
+@added number of download failed sessions due to NNS sources to the statistic
+@
+text
+@d121 1
+a121 1
+	HTREEITEM	down_ssessions[4], htiDLFailedSesNRD, down_tsessions[4], down_sources[STATS_DL_SOURCES_TYPE]; // Breakdown of Download Sessions and Sources
+@
+
+
+1.46
+log
+@Member renaming.
+@
+text
+@d121 1
+a121 1
+	HTREEITEM	down_ssessions[4], down_tsessions[4], down_sources[STATS_DL_SOURCES_TYPE]; // Breakdown of Download Sessions and Sources
+@
+
+
+1.45
+log
+@reimplemented "connection in 5 sec" condition, now it does not use average
+@
+text
+@d64 1
+a64 1
+	void 	UpdateActConScale();
+d72 1
+a72 1
+	CImageList	imagelistStatTree;
+d152 1
+a152 1
+	double		averageconnections;
+@
+
+
+1.44
+log
+@Removed suspicious OnShowWindow processing.
+@
+text
+@a52 1
+	double	GetMaxConPerFiveModifier();
+@
+
+
+1.43
+log
+@Added MODs client statistics for eMule Plus;
+Removed separate client statistics node for emule.de.
+@
+text
+@d81 3
+a83 3
+	double maxDownavg;
+	double maxDown;
+	uint32 	m_ilastMaxConnReached;
+d161 1
+a161 2
+	virtual BOOL OnInitDialog(); 
+	void	OnShowWindow(BOOL bShow,UINT nStatus);
+@
+
+
+1.42
+log
+@Additional branch for WebCache MOD;
+Removed possibility to expand eDonkey client statistics (it became quite rare).
+@
+text
+@d29 1
+a29 1
+#define STAT_CLIENT_MOD_NODES		9
+d137 1
+a137 1
+	HTREEITEM	hclisoftMODs, clisoftMODs[STAT_CLIENT_MOD_NODES];
+@
+
+
+1.41
+log
+@Own client type for eMule Plus clients;
+Separate eMule Plus statistics; Removed unused class variables.
+@
+text
+@d29 1
+a29 1
+#define STAT_CLIENT_MOD_NODES		8
+@
+
+
+1.40
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d29 1
+a29 1
+#define STAT_CLIENT_MOD_NODES		9
+d76 4
+a79 4
+	COScopeCtrl m_DownloadOMeter,m_UploadOMeter,m_Statistics;
+	CColorFrameCtrl m_Led1[ 3 ];
+	CColorFrameCtrl m_Led2[ 3 ];
+	CColorFrameCtrl m_Led3[ 3 ];
+a80 2
+	int dl_users,dl_active;
+	int stat_max;
+a109 2
+	uint32	cli_lastCount[SO_LAST];
+	byte	cntDelay;
+d141 1
+a141 2
+	void	SetupLegend( int ResIdx, int ElmtIdx, int legendNr);
+	void	SetStatsRanges(int min, int max);
+a154 1
+	bool	bInited;
+@
+
+
+1.39
+log
+@Improved processing of MODs branch in client statistics tree.
+@
+text
+@d118 1
+a118 1
+	HTREEITEM	hup_scb, up_scb[SO_LAST], hup_spb, up_spb[2], hup_ssb, up_ssb[2], hup_scomb, up_scomb[2]; // Session Uploaded Byte Breakdowns
+@
+
+
+1.38
+log
+@Community statistics
+@
+text
+@d29 2
+a70 2
+	
+	CString 	GetMODType (uint16 index);
+d141 1
+a141 1
+	HTREEITEM	hclisoftMODs, clisoftMODs[8];
+d143 1
+a143 1
+	uint32 m_nMODs[8];
+d145 3
+a147 2
+	void SetupLegend( int ResIdx, int ElmtIdx, int legendNr);
+	void SetStatsRanges(int min, int max);
+d165 1
+a165 1
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support	
+@
+
+
+1.37
+log
+@double clicking the status bar's session time switches to statistics dialog;
+added session time tooltip;
+added uploaded/downloaded data to clients tooltips
+@
+text
+@d118 2
+a119 2
+	HTREEITEM	hup_scb, up_scb[SO_LAST], hup_spb, up_spb[2], hup_ssb, up_ssb[2]; // Session Uploaded Byte Breakdowns
+	HTREEITEM	hup_tcb, up_tcb[SO_LAST], hup_tpb, up_tpb[2], hup_tsb, up_tsb[2]; // Total Uploaded Byte Breakdowns
+d136 1
+a136 1
+	HTREEITEM	time_aap_up_hd[3][3], time_aap_down_hd[3][2];
+d138 1
+a138 1
+	HTREEITEM	time_aap_up_ds[3][2], time_aap_up_s[3][2], time_aap_up_oh[3][4];
+@
+
+
+1.36
+log
+@Added 'filesize on disk' info to details pane, file details, category tooltips and statistics
+@
+text
+@d73 1
+a114 1
+	CImageList	imagelistStatTree;
+@
+
+
+1.35
+log
+@added connected clients country statistics
+@
+text
+@a22 1
+// -khaos--+++>
+a23 1
+// <-----khaos-
+d42 10
+a51 10
+	void Localize();
+	void SetCurrentRate(double uploadrate, double downloadrate);
+	void ShowInterval();
+	void SetARange(bool SetDownload,int maxValue);
+	void RecordRate();
+	double GetAvgDownloadRate(int averageType);
+	double GetAvgUploadRate(int averageType);
+	void RepaintMeters();
+	void UpdateConnectionsStatus();
+	double GetMaxConPerFiveModifier();
+a52 1
+	// -khaos--+++> (2-11-03)
+d56 1
+a56 1
+	double		GetAverageConnections()	{ return averageconnections; }
+d58 1
+a58 1
+	uint32	GetTransferTime()				{ return timeTransfers + time_thisTransfer; }
+d62 1
+a62 2
+	void		Add2TotalServerDuration()	{ timeServerDuration += time_thisServerDuration;  time_thisServerDuration = 0; }
+	//void	UpdateConnectionsGraph();
+d64 4
+a67 7
+	void		UpdateConnectionStats(double uploadrate, double downloadrate);
+	//eklmn: new stats function
+	void		CreateStatsTree();
+	void		DoTreeMenu();
+	// -khaos--+++> Optional force update parameter.
+	void ShowStatistics(bool forceUpdate = false);
+	// <-----khaos-
+d71 1
+a71 2
+	CString	GetUpEndReason(EnumEndTransferSession index);
+	// -khaos--+++> New class for our humble little tree.
+a72 1
+	// <-----khaos-
+d87 1
+a87 2
+	// -khaos--+++>
+	//Cumulative Stats
+d113 1
+a113 1
+	//	Tree image list (2-18-03)
+d115 1
+a115 3
+	//	Tree Font (2-24-03)
+	//CFont		fontStatTree;
+	//	Tree Declarations (2-10-03)
+d122 1
+a122 1
+	HTREEITEM	h_download, h_down_session, down_S[16], h_down_total, down_T[6]; // Downloads Session and Total Items and Headers
+a133 1
+	// The time/projections section.  Yes, it's huge.
+a142 2
+	// <-----khaos- End Changes
+
+d148 1
+a148 1
+	// data lists (DL, UL & time)
+a151 2
+	//list<TransferredData> uprateHistory; // By BadWolf
+	//list<TransferredData> downrateHistory; // By BadWolf
+d153 1
+a153 1
+	//connections
+d168 1
+a168 1
+	afx_msg void OnMenuButtonClicked();	// -khaos--+++> Buttons, stuff.
+d171 1
+a171 1
+	afx_msg void OnDestroy();	// eklmn: bugfix(00): resource cleanup due to CResizableDialog
+@
+
+
+1.34
+log
+@Removal of old never used stuff.
+@
+text
+@d143 1
+a143 1
+	HTREEITEM	hUnfairAction, hUnfairActionItems[4], hFiltered, hFilteredItems[3]; // Clients Section
+@
+
+
+1.33
+log
+@header correction :(
+@
+text
+@d87 1
+a87 1
+	CColorFrameCtrl m_Led3[ 4 ];
+a89 1
+	double m_dPlotDataMore[4];
+@
+
+
+1.32
+log
+@added Active Downloads to stats + some other changes
+@
+text
+@d144 1
+a144 1
+	HTREEITEM	hUnfairAction, hUnfairActionItems[3], hFiltered, hFilteredItems[3]; // Clients Section
+@
+
+
+1.31
+log
+@Changed some code by other devs
+@
+text
+@d135 1
+a135 1
+	HTREEITEM	h_download, h_down_session, down_S[15], h_down_total, down_T[6]; // Downloads Session and Total Items and Headers
+@
+
+
+1.30
+log
+@added SUI and LowID stats + more accurate clients stats ouput
+@
+text
+@d143 1
+a143 1
+	HTREEITEM	h_clients, hcliconnected, cligen[5], hclisoft, clisoft[SO_LAST], cli_versions[SO_LAST][4], cli_versions_other[SO_LAST], hcliport, cliport[2];	// Clients Section
+@
+
+
+1.29
+log
+@extended filtered stats
+@
+text
+@d143 1
+a143 1
+	HTREEITEM	h_clients, hcliconnected, cligen[2], hclisoft, clisoft[SO_LAST], cli_versions[SO_LAST][4], cli_versions_other[SO_LAST], hcliport, cliport[2];	// Clients Section
+@
+
+
+1.28
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d143 2
+a144 1
+	HTREEITEM	h_clients, hcliconnected, cligen[4], hclisoft, clisoft[SO_LAST], cli_versions[SO_LAST][4], cli_versions_other[SO_LAST], hcliport, cliport[2], hUnfairAction, hUnfairActionItems[3]; // Clients Section
+@
+
+
+1.27
+log
+@speed optimization & output in stats of the feature "countermeasures against unfair client"
+@
+text
+@d95 1
+a95 1
+	uint8	oldRatio;
+d123 1
+a123 1
+	uint8	cntDelay;
+@
+
+
+1.26
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d143 1
+a143 1
+	HTREEITEM	h_clients, hcliconnected, cligen[2], hclisoft, clisoft[SO_LAST], cli_versions[SO_LAST][4], cli_versions_other[SO_LAST], hcliport, cliport[2]; // Clients Section
+@
+
+
+1.25
+log
+@Formatting, comments, and name changes.
+@
+text
+@d45 1
+a45 1
+	void SetCurrentRate(float uploadrate, float downloadrate);
+d49 2
+a50 2
+	float GetAvgDownloadRate(int averageType);
+	float GetAvgUploadRate(int averageType);
+d53 1
+a53 1
+	float GetMaxConPerFiveModifier();
+d59 1
+a59 1
+	float		GetAverageConnections()	{ return averageconnections; }
+d68 1
+a68 1
+	void		UpdateConnectionStats(float uploadrate, float downloadrate);
+d92 2
+a93 2
+	float maxDownavg;
+	float maxDown;
+d99 7
+a105 7
+	float	cum_DL_maximal;		//maxcumDown;
+	float	cum_DL_average;		//Downavg;
+	float	cum_DL_max_average;	//maxcumDownavg;
+
+	float	cum_UL_maximal;		//maxcumUp;
+	float	cum_UL_average;		//cumUpavg;
+	float	cum_UL_max_average;	//maxcumUpavg;
+d107 4
+a110 4
+	float	maxUp;
+	float	maxUpavg;
+	float	rateDown;
+	float	rateUp;
+d174 1
+a174 1
+	float		averageconnections;
+@
+
+
+1.24
+log
+@Formatting, comments, and name changes.
+@
+text
+@d124 1
+a124 1
+	//	Tree ImageList (2-18-03)
+@
+
+
+1.23
+log
+@Completed statistics fix (now new values stored in preferences)
+@
+text
+@d53 1
+a53 1
+	float GetMaxConperFiveModifier();
+@
+
+
+1.22
+log
+@Some statistics fixes
+@
+text
+@d133 1
+a133 1
+	HTREEITEM	hup_soh, up_soh[4], hup_toh, up_toh[3]; // Upline Overhead
+d138 1
+a138 1
+	HTREEITEM	hdown_soh, down_soh[4], hdown_toh, down_toh[3]; // Downline Overhead
+d151 1
+a151 1
+	HTREEITEM	time_aap_up_ds[3][2], time_aap_up_s[3][2], time_aap_up_oh[3][3];
+d153 1
+a153 1
+	HTREEITEM	time_aap_down_s[3][2], time_aap_down_oh[3][3];
+@
+
+
+1.21
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d133 1
+a133 1
+	HTREEITEM	hup_soh, up_soh[3], hup_toh, up_toh[3]; // Upline Overhead
+d138 1
+a138 1
+	HTREEITEM	hdown_soh, down_soh[3], hdown_toh, down_toh[3]; // Downline Overhead
+@
+
+
+1.20
+log
+@Added UDP Search to statistics.
+@
+text
+@d27 1
+a27 1
+#include "clientlist.h"
+d78 1
+a78 1
+	CString	GetUpEndReason(eEndTransferSession index);
+@
+
+
+1.19
+log
+@katsyonak Statistics changes.
+@
+text
+@d144 1
+a144 1
+	HTREEITEM	h_servers, srv[6], srv_w[3], hsrv_records, srv_r[3]; // Servers Section
+@
+
+
+1.18
+log
+@Updates (Paused Progress Bar/Statistic)
+@
+text
+@d135 1
+a135 1
+	HTREEITEM	h_download, h_down_session, down_S[13], h_down_total, down_T[6]; // Downloads Session and Total Items and Headers
+@
+
+
+1.17
+log
+@1) extended Upload Session statistic
+2) fix 100% load after connect
+@
+text
+@d135 1
+a135 1
+	HTREEITEM	h_download, h_down_session, down_S[8], h_down_total, down_T[6]; // Downloads Session and Total Items and Headers
+@
+
+
+1.16
+log
+@1) fix with 100% load after connect to server
+2) MOD are sorted now
+@
+text
+@d78 1
+d134 1
+a134 1
+	HTREEITEM	up_ssessions[4], up_tsessions[4]; // Breakdown of Upload Sessions
+@
+
+
+1.15
+log
+@new statistic (khaos based)
+@
+text
+@d75 1
+d77 1
+d142 1
+a142 1
+	HTREEITEM	h_clients, hcliconnected, cligen[2], hclisoft, hclisoftMODs, clisoft[SO_LAST], cli_versions[SO_LAST][4], cli_versions_other[SO_LAST], hcliport, cliport[2]; // Clients Section
+d153 1
+d156 2
+@
+
+
+1.14
+log
+@Eklmn and BavarianSnail changes. see changelog+
+@
+text
+@d1 1
+a1 1
+ //this file is part of eMule
+d23 3
+d27 1
+a27 1
+#include "COPTIONTREE\OptionTree.h"
+a28 2
+#include "clientlist.h"
+#include "WebServer.h"
+a30 54
+extern bool g_bUseNewStyle;
+
+class CStatisticsData
+{
+public:
+	virtual ~CStatisticsData();
+	void AddEntry(unsigned int nID, CString sTitle, unsigned int nLevel);
+	void SetTitle(unsigned int nID, CString sTitle);
+	void SetStatic(unsigned int nID, CString sStatic);
+	void SetValue(unsigned int nID, CString sValue, bool bReverse = false);
+	void Expand(unsigned int nID, bool bExpand);
+	bool IsExpanded(unsigned int nID);
+	HWND GetListHWND();
+	void SetRedraw(BOOL bRedraw);
+	void SetColumn(unsigned int nWidth){ m_ctrlStatsList.SetColumn(nWidth); }
+	unsigned int GetColumn(){ return m_ctrlStatsList.GetColumn(); }
+	void CreateNewStyle(CWnd *pParent, CRect &rect)
+	{
+		m_ctrlStatsList.Create(WS_VISIBLE | WS_CHILD | WS_BORDER | WS_TABSTOP |
+			LVS_REPORT | LVS_ALIGNLEFT | LVS_SINGLESEL,
+			rect, pParent, OT_OPTIONS_SHADEEXPANDCOLUMN | OT_OPTIONS_SHADEROOTITEMS, rand());
+	}
+	void ExpandAllItems();
+	CString ExportHTML();
+
+	CTreeCtrl	stattree;
+
+private:
+	class CDataEntry
+	{
+	public:
+		unsigned int			m_nID;
+		CString					m_sTitle;
+		CString					m_sValue;
+		unsigned int			m_nLevel;
+		COptionTreeItem*		m_pTopItem;
+		COptionTreeItemStatic*	m_pSubItem;
+		CDataEntry*				m_pParent;
+		HTREEITEM				m_hItem;
+
+		CDataEntry(unsigned int nID = 0, CString sTitle = _T(""), CDataEntry* pParent = NULL);
+		COptionTreeItem* GetItem();
+		CDataEntry* GetParent(unsigned int nParentLevel);
+		void Expand(bool bExpand);
+		bool IsExpanded();
+	};
+
+	CDataEntry* FindItem(unsigned int nID);
+
+	CArray<CDataEntry*, CDataEntry*> m_DataList;
+
+	COptionTree	m_ctrlStatsList;
+};
+
+d38 1
+a38 1
+
+d44 8
+a51 11
+	void 	Localize();
+	void 	SetCurrentRate(float uploadrate, float downloadrate);
+	void 	ShowInterval();
+	void 	ShowStatistics();
+	void 	UpdateActConScale();
+		
+	void 	SetARange(bool SetDownload,int maxValue);
+	void 	RecordRate();
+	float 	GetAvgDownloadRate(int averageType);
+	float 	GetAvgUploadRate(int averageType);
+	void 	RepaintMeters();
+d54 25
+a78 5
+	CString GetStatsListExpanded();
+	long 	GetStatsColumnWidth()
+	{
+		return g_bUseNewStyle ? m_Stats.GetColumn() : 150;
+	}
+d81 1
+a81 3
+	bool m_bFirstShow;
+
+    COScopeCtrl m_DownloadOMeter,m_UploadOMeter,m_Statistics;
+d86 5
+a90 7
+	void CreateStatsList();
+
+	int 	dl_users,dl_active;
+	double 	m_dPlotDataMore[4];
+	int 	stat_max;
+	float 	maxDownavg;
+	float 	maxDown;
+d94 57
+a150 2
+	void 	SetupLegend( int ResIdx, int ElmtIdx, int legendNr);
+	void 	SetStatsRanges(int min, int max);
+d152 6
+a157 2
+	const 	static int AVG_SESSION =0;
+	const 	static int AVG_TIME =1;
+d161 6
+a166 1
+    uint32	peakconnections;
+d168 2
+a169 2
+	float	averageconnections;
+	uint32	activeconnections;
+d171 3
+d179 1
+d181 1
+a181 1
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+a182 2
+private:
+	CStatisticsData	m_Stats;
+@
+
+
+1.13
+log
+@finally fixed the average display!
+@
+text
+@d154 1
+@
+
+
+1.12
+log
+@Fix for memory leak problem
+@
+text
+@d141 1
+@
+
+
+1.11
+log
+@Rewrite of statistics tree + full export to webserver
+@
+text
+@d35 1
+d79 1
+a79 1
+	CArray<CDataEntry, CDataEntry&> m_DataList;
+@
+
+
+1.10
+log
+@*** empty log message ***
+@
+text
+@d27 1
+d30 1
+d32 21
+d54 28
+d88 3
+a99 2
+	void 	ShowStatisticsNT();
+	void 	ShowStatistics9X();
+d112 1
+a112 1
+		return m_bUseNewStyle ? m_ctrlStatsList.GetColumn() : 150;
+a116 1
+	bool m_bUseNewStyle;
+a124 47
+// NT:
+	COptionTree m_ctrlStatsList;	
+	COptionTreeItem			*m_pTransferM, 
+							*m_pConnectionM,
+							*m_pClientsM,
+							*m_pQueueM,
+							*m_pServerM,
+							*m_pSharedFilesM,
+							*m_pDownloadsTotalM;
+
+	COptionTreeItemStatic	*m_pTransfer[3],
+							*m_pUpload[6],
+							*m_pDownload[3],
+							*m_pConnection[11],
+							*m_pClients[SO_LAST],
+							*m_pClientVersions[SO_LAST][3],
+							/**m_pClientVersionExt[3],
+							*m_pClientVersionCDonkey[3],
+							*m_pClientVersionHybrid[3],
+							*m_pClientVersion[3],
+							*m_pClientVersionMLDonkey[3],
+							*m_pClientVersionOldEmule[3],*/
+							*m_pQueue[DS_LAST],
+							*m_pServer[9],
+							*m_pSharedFiles[3],
+							*m_pDownloadsTotal[6];
+
+	void CreateStatsListNT();
+
+// 9X:
+	CTreeCtrl stattree;
+	// tree-folders
+	HTREEITEM h_shared,h_transfer,h_connection,h_clients,h_servers,h_upload,h_download,h_xchipx ;	//xChipx
+	HTREEITEM down1,down2,down3;
+	HTREEITEM up1,up2,up3,up4,up5,up6;
+	HTREEITEM tran0;
+	HTREEITEM con1,con2,con3,con4,con5,con6,con7,con8,con9,con10,con11;
+	HTREEITEM shar1,shar2,shar3;
+	HTREEITEM cli[SO_LAST];
+	HTREEITEM srv1,srv2,srv3,srv4,srv5,srv6,srv7,srv8,srv9;
+	HTREEITEM hd0,hd1,hd2,hd3,hd4,hd5;	//xChipx
+	//--- xrmb:statsclientstatus ---
+	HTREEITEM cls[DS_LAST];
+	HTREEITEM h_clientsstatus,h_clientssoftware;
+	HTREEITEM cliv[SO_LAST][3];
+	void CreateStatsList9X();
+
+d131 1
+a131 1
+	uint8	oldRatio;	//Cax2 - Resize active connections line...
+d153 1
+a153 1
+	
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d116 1
+a116 1
+	HTREEITEM cls1,cls2,cls3,cls4,cls5,cls6,cls7;
+@
+
+
+1.8
+log
+@Final client statistics changes
+@
+text
+@d96 1
+a96 1
+							*m_pQueue[7],
+@
+
+
+1.7
+log
+@*** empty log message ***
+@
+text
+@d89 2
+a90 1
+							*m_pClientVersionExt[3],
+d95 1
+a95 1
+							*m_pClientVersionOldEmule[3],
+@
+
+
+1.6
+log
+@Less parameters for GetStatistics()  function , first step before redesign
+@
+text
+@d88 4
+a91 1
+							*m_pClients[5],
+d93 2
+a94 2
+							*m_pClientVersionHybrid[3],
+							*m_pClientVersionExt[3],
+d111 1
+a111 1
+	HTREEITEM cli1,cli2,cli3,cli4,cli5;
+d117 1
+a117 1
+	HTREEITEM cliv[3][3];
+d147 2
+@
+
+
+1.5
+log
+@look changes+
+@
+text
+@d26 1
+d28 3
+@
+
+
+1.4
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d86 1
+d104 1
+a104 1
+	HTREEITEM cli1,cli2,cli3,cli4;
+d110 1
+a110 1
+	HTREEITEM cliv[2][3];
+@
+
+
+1.3
+log
+@Statistics for Hybrid client fixed
+@
+text
+@d51 2
+a121 1
+	void	UpdateConnectionsStatus();
+@
+
+
+1.2
+log
+@updated to .25b codebase
+@
+text
+@d82 1
+a82 1
+							*m_pClients[4],
+@
+
+
+1.2.4.1
+log
+@initial upgrade to .26
+@
+text
+@a50 2
+	void UpdateConnectionsStatus();
+	float GetMaxConperFiveModifier();
+d120 1
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d126 4
+a129 4
+    uint32 	peakconnections;
+	uint32 	totalconnectionchecks;
+	float 	averageconnections;
+	uint32 	activeconnections;
+@
+

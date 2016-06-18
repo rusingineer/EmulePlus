@@ -1,0 +1,7669 @@
+head	1.160;
+access;
+symbols
+	PublicRelease_1_2e:1.149
+	Interim_Release_1-2e_RC1:1.147
+	PublicRelease_1_2d:1.141
+	Interim_Release_1-2d_RC1:1.140
+	Interim_Release_1-2d_beta1:1.140
+	PublicRelease_1_2c:1.133
+	Interim_Release_1-2c_RC1:1.133
+	Interim_Release_1-2c_beta1:1.122
+	PublicRelease_1_2b:1.122
+	Interim_Release_1-2b_RC1:1.122
+	PublicRelease_1_2a:1.122
+	Interim_Release_1-2a_RC1:1.122
+	Interim_Release_1-2a_beta2:1.119
+	Interim_Release_1-2a_beta1:1.119
+	PublicRelease_1_2:1.117
+	Interim_Release_1-2_RC1:1.117
+	Interim_Release_1-2_beta1:1.117
+	PublicRelease_1_1g:1.116
+	Interim_Release_1-1g_RC3:1.116
+	Interim_Release_1-1g_RC2:1.116
+	Interim_Release_1-1g_RC1:1.116
+	Interim_Release_1-1g_beta2:1.114
+	Interim_Release_1-1g_beta1:1.113
+	PublicRelease_1_1f:1.111
+	Interim_Release_1-1f_RC1:1.111
+	PublicRelease_1_1e:1.111
+	Interim_Release_1-1e_RC2:1.111
+	Interim_Release_1-1e_RC1:1.110
+	Interim_Release_1-1e_beta1:1.110
+	PublicRelease_1_1d:1.110
+	Interim_Release_1-1d_RC1:1.110
+	PublicRelease_1_1c:1.109
+	Interim_Release_1-1c_RC1:1.109
+	Interim_Release_1-1c_beta2:1.109
+	Interim_Release_1-1c_beta1:1.105
+	PublicRelease_1_1b:1.104
+	Interim_Release_1-1b_RC1:1.104
+	PublicRelease_1_1a:1.103
+	Interim_Release_1-1a_RC2:1.103
+	Interim_Release_1-1a_RC1:1.103
+	Interim_Release_1-1a_beta2:1.103
+	Interim_Release_1-1a_beta1:1.103
+	PublicRelease_1_1:1.103
+	Interim_Release_1-1_beta1:1.103
+	PublicRelease_1o:1.103
+	Interim_Release_1o_RC1:1.103
+	Interim_Release_1o_beta1:1.103
+	PublicRelease_1n:1.103
+	Interim_Release_1n_RC2:1.103
+	Interim_Release_1n_RC1:1.103
+	Interim_Release_1n_beta2:1.103
+	Interim_Release_1n_beta1:1.103
+	PublicRelease_1m:1.101
+	Interim_Release_1m_beta1:1.101
+	PublicRelease_1l:1.101
+	Interim_Release_1l_RC3:1.101
+	Interim_Release_1l_RC2:1.101
+	Interim_Release_1l_RC1:1.101
+	Interim_Release_1l_beta2:1.101
+	Interim_Release_1l_beta1:1.98
+	PublicRelease_1k:1.88
+	Interim_Release_1k_RC4:1.88
+	Interim_1k_RC3:1.86
+	Interim_1k_RC2:1.86
+	Interim_Release_1k_RC1:1.77
+	Interim_Release_1k_beta5:1.77
+	Intrerim_Release_1k_beta4:1.77
+	Interim_Release_1k_beta1:1.76
+	PublicRelease_1j:1.73
+	Interim_Release_1J_RC3:1.71
+	Interim_Release_1j_RC3:1.71
+	Interim_Release_1j_RC2:1.70
+	Interim_Release_1j_RC1:1.68
+	Interim_Release_1j_beta2:1.67
+	Interim_Release_1j_beta1:1.67
+	PublicRelease_1i:1.64
+	Interim_Release_1i_RC6:1.64
+	Interim_Release_1i_RC3:1.62
+	Interim_Release_1i_RC2:1.61
+	Interim_Release_1i_RC1:1.61
+	Interim_Release_1i_beta3:1.60
+	Interim_Release_1i_beta2:1.57
+	Interim_Release_1i_beta1:1.52
+	PublicRelease_1h:1.47
+	Interim_Release_1h_rc2:1.47
+	Interim_Release_1h_RC1:1.47
+	Interim_Release_1h_beta2:1.46
+	Interim_Release_1h_beta1_now:1.45
+	Interim_Release_1h_beta1:1.45
+	PublicRelease_1g:1.44
+	Interim_Release_1g_RC6_Final:1.44
+	Interim_Release_1g_RC6:1.42
+	Interim_Release_1g_RC5:1.41
+	Interim_Release_1g_RC4:1.38
+	Interim_Release_1g_RC3:1.38
+	Interim_Release_1g_beta2:1.27
+	Interim_Release_1g_beta1:1.22
+	Interim_Release_1f_RC4:1.20
+	Interim_Release_1f_RC3:1.19
+	Interim_Release_1f_RC2:1.17
+	Interim_Release_1f_RC:1.16
+	Interim_Release_1f_beta2:1.14
+	Interim_Release_1f_beta1:1.13
+	PublicRelease_1e:1.12
+	Interim_Release_1e_RC2:1.12
+	Interim_Release_1e_RC:1.12
+	Interim_Release_1e_beta3:1.12
+	Interim_Release_1e_beta2:1.12
+	Interim_Release_1e_beta2_before_kuchin:1.12
+	Interim_Release_1e_beta1:1.12
+	PublicRelease_1c:1.11
+	featurestest:1.11.0.2
+	Interim_Release_1c_RC:1.11
+	Interim_Release_1c_beta2:1.11
+	Interim_Release_1c_beta1:1.11
+	threaded_downloadqueue:1.10.0.2
+	PublicRelease_1b:1.8
+	Interim_Release_1b_beta2:1.8
+	Interim_Release_1b_beta1:1.7
+	proxydeadlake:1.7.0.4
+	PublicRelease_1a:1.7
+	Interim_Release_1a_beta2:1.7
+	BerkeleyDb:1.7.0.2
+	Interim_Release_1a_beta1:1.7
+	PublicRelease_1:1.7
+	goldfish:1.7
+	eMulePlus_1_RC2:1.6
+	eMulePlus_26b_1RC1:1.6
+	PreRelease_26b_i0e:1.6
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.160
+date	2011.10.20.04.08.52;	author aw3;	state Exp;
+branches;
+next	1.159;
+
+1.159
+date	2011.08.16.03.17.16;	author aw3;	state Exp;
+branches;
+next	1.158;
+
+1.158
+date	2011.08.07.03.35.40;	author aw3;	state Exp;
+branches;
+next	1.157;
+
+1.157
+date	2010.08.06.01.53.53;	author aw3;	state Exp;
+branches;
+next	1.156;
+
+1.156
+date	2010.02.10.23.58.24;	author aw3;	state Exp;
+branches;
+next	1.155;
+
+1.155
+date	2009.10.28.04.34.59;	author aw3;	state Exp;
+branches;
+next	1.154;
+
+1.154
+date	2009.08.01.01.45.19;	author aw3;	state Exp;
+branches;
+next	1.153;
+
+1.153
+date	2009.07.14.03.54.08;	author aw3;	state Exp;
+branches;
+next	1.152;
+
+1.152
+date	2009.06.23.03.44.41;	author aw3;	state Exp;
+branches;
+next	1.151;
+
+1.151
+date	2009.06.20.21.37.56;	author aw3;	state Exp;
+branches;
+next	1.150;
+
+1.150
+date	2009.06.17.02.27.14;	author aw3;	state Exp;
+branches;
+next	1.149;
+
+1.149
+date	2009.04.07.03.57.59;	author aw3;	state Exp;
+branches;
+next	1.148;
+
+1.148
+date	2009.04.05.02.39.23;	author aw3;	state Exp;
+branches;
+next	1.147;
+
+1.147
+date	2009.03.21.22.47.43;	author aw3;	state Exp;
+branches;
+next	1.146;
+
+1.146
+date	2009.03.20.02.52.23;	author aw3;	state Exp;
+branches;
+next	1.145;
+
+1.145
+date	2008.12.08.13.26.56;	author kush_eplus;	state Exp;
+branches;
+next	1.144;
+
+1.144
+date	2008.11.13.05.32.32;	author aw3;	state Exp;
+branches;
+next	1.143;
+
+1.143
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.142;
+
+1.142
+date	2008.11.03.12.33.49;	author kush_eplus;	state Exp;
+branches;
+next	1.141;
+
+1.141
+date	2008.05.14.18.50.13;	author eklmn;	state Exp;
+branches;
+next	1.140;
+
+1.140
+date	2008.02.18.22.55.47;	author eklmn;	state Exp;
+branches;
+next	1.139;
+
+1.139
+date	2008.01.23.05.10.47;	author aw3;	state Exp;
+branches;
+next	1.138;
+
+1.138
+date	2008.01.04.05.07.06;	author aw3;	state Exp;
+branches;
+next	1.137;
+
+1.137
+date	2008.01.02.04.09.21;	author aw3;	state Exp;
+branches;
+next	1.136;
+
+1.136
+date	2008.01.01.10.34.33;	author eklmn;	state Exp;
+branches;
+next	1.135;
+
+1.135
+date	2007.12.28.22.13.53;	author eklmn;	state Exp;
+branches;
+next	1.134;
+
+1.134
+date	2007.12.05.22.02.48;	author eklmn;	state Exp;
+branches;
+next	1.133;
+
+1.133
+date	2007.08.16.12.36.57;	author aw3;	state Exp;
+branches;
+next	1.132;
+
+1.132
+date	2007.08.08.01.50.19;	author aw3;	state Exp;
+branches;
+next	1.131;
+
+1.131
+date	2007.07.14.20.34.57;	author aw3;	state Exp;
+branches;
+next	1.130;
+
+1.130
+date	2007.07.07.04.12.02;	author aw3;	state Exp;
+branches;
+next	1.129;
+
+1.129
+date	2007.05.22.04.37.33;	author aw3;	state Exp;
+branches;
+next	1.128;
+
+1.128
+date	2007.05.15.12.23.17;	author aw3;	state Exp;
+branches;
+next	1.127;
+
+1.127
+date	2007.05.15.00.55.02;	author aw3;	state Exp;
+branches;
+next	1.126;
+
+1.126
+date	2007.05.08.04.57.12;	author aw3;	state Exp;
+branches;
+next	1.125;
+
+1.125
+date	2007.04.20.11.58.57;	author aw3;	state Exp;
+branches;
+next	1.124;
+
+1.124
+date	2007.04.18.00.23.36;	author aw3;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2007.04.14.04.25.42;	author aw3;	state Exp;
+branches;
+next	1.122;
+
+1.122
+date	2006.09.17.13.54.55;	author aw3;	state Exp;
+branches;
+next	1.121;
+
+1.121
+date	2006.08.21.03.47.45;	author aw3;	state Exp;
+branches;
+next	1.120;
+
+1.120
+date	2006.07.26.00.16.16;	author aw3;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2006.04.16.23.52.29;	author kush_eplus;	state Exp;
+branches;
+next	1.118;
+
+1.118
+date	2006.04.16.00.36.20;	author aw3;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2005.12.29.05.34.52;	author aw3;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2005.11.27.22.11.49;	author eklmn;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2005.10.29.04.46.05;	author aw3;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2005.08.07.06.52.06;	author aw3;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2005.08.04.03.27.46;	author aw3;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2005.07.07.03.13.20;	author aw3;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2005.03.15.03.26.49;	author aw3;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2005.02.12.21.46.44;	author aw3;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2005.02.10.04.36.05;	author aw3;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2005.02.04.23.41.56;	author aw3;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2005.02.02.07.08.25;	author aw3;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2005.01.19.21.10.50;	author netwolf1;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2004.12.16.19.40.53;	author aw3;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2004.07.07.05.14.39;	author aw3;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2004.05.21.16.04.23;	author dongato;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2004.05.20.20.49.12;	author kush_eplus;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2004.05.19.14.55.56;	author dongato;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2004.05.05.21.12.25;	author aw3;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2004.05.04.14.45.24;	author dropf;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2004.05.04.11.28.01;	author netwolf1;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2004.05.04.09.45.35;	author netwolf1;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2004.04.23.22.13.53;	author katsyonak;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2004.04.23.14.02.51;	author dropf;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2004.04.20.23.49.38;	author dropf;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2004.04.20.23.25.38;	author dropf;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2004.04.17.03.28.36;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2004.04.11.11.45.59;	author eklmn;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2004.04.07.06.58.10;	author dongato;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2004.04.06.18.45.39;	author dongato;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2004.03.31.22.54.08;	author kush_eplus;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2004.03.31.22.26.56;	author dropf;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2004.03.31.21.32.20;	author dongato;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2004.03.31.08.05.09;	author eklmn;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2004.03.30.21.50.04;	author dongato;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2004.03.30.21.02.15;	author aw3;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2004.03.30.16.13.34;	author eklmn;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2004.03.30.15.26.00;	author dongato;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2004.03.30.12.32.55;	author dongato;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2004.03.13.05.33.36;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2004.02.12.12.50.03;	author dongato;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2004.02.12.10.38.01;	author morevit;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2004.02.09.16.39.50;	author kush_eplus;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2004.01.26.00.49.35;	author dongato;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2004.01.24.20.13.04;	author dongato;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.01.15.15.48.57;	author dongato;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.01.11.23.49.30;	author dongato;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.01.11.14.59.31;	author syrus77;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.01.10.13.56.33;	author dongato;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2003.12.08.15.11.41;	author dongato;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2003.11.23.15.10.37;	author syrus77;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2003.11.18.01.05.56;	author katsyonak;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2003.11.01.13.32.31;	author eklmn;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2003.10.31.06.47.00;	author eklmn;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2003.10.29.14.14.18;	author morevit;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2003.10.26.13.50.16;	author morevit;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2003.10.08.12.56.34;	author morevit;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.10.06.21.57.05;	author puritynn666;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.10.04.00.48.37;	author morevit;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.09.22.16.39.44;	author morevit;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.09.22.00.17.22;	author morevit;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.09.21.22.05.17;	author morevit;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.09.08.17.55.36;	author kuchin;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.08.31.16.49.55;	author dongato;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.07.30.22.56.00;	author zegzav;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.07.22.16.31.58;	author eklmn;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.07.20.09.16.52;	author eklmn;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.07.13.09.32.42;	author eklmn;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.07.10.10.48.23;	author dongato;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.07.09.23.56.07;	author dongato;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.07.09.14.00.23;	author dongato;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.07.02.15.39.04;	author eklmn;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.06.30.17.44.36;	author eklmn;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.06.25.22.43.32;	author partyckip;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.06.23.21.55.16;	author partyckip;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.06.22.15.03.11;	author netwolf1;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.06.21.21.54.00;	author netwolf1;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.06.15.22.22.29;	author dongato;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.06.15.09.09.28;	author partyckip;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.06.11.18.27.12;	author eklmn;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.06.10.09.36.46;	author kuchin;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.06.09.15.14.38;	author kuchin;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.06.08.18.06.18;	author partyckip;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.06.08.07.36.57;	author partyckip;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.06.06.19.56.47;	author partyckip;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.06.04.19.57.48;	author partyckip;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.06.03.19.41.30;	author partyckip;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.05.31.16.45.18;	author partyckip;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.05.27.04.24.12;	author partyckip;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.05.23.18.16.36;	author partyckip;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.05.20.20.46.31;	author netwolf1;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.05.14.15.10.16;	author lord_kiron;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.05.13.17.59.38;	author lord_kiron;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.05.11.19.56.03;	author lord_kiron;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.05.11.19.25.47;	author lord_kiron;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.05.08.16.22.20;	author partyckip;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.04.30.11.37.57;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.25.15.23.51;	author dongato;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.15.08.07.15;	author kuchin;	state Exp;
+branches
+	1.11.2.1;
+next	1.10;
+
+1.10
+date	2003.03.14.16.24.21;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.03.13.11.29.43;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.03.08.12.09.42;	author recdvst;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.20.14.48.17;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.17.19.17.20;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.10.13.15.40;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.24.22.07.49;	author maverick65;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.22;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.25;	author cax2;	state Exp;
+branches;
+next	;
+
+1.11.2.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	1.11.2.2;
+
+1.11.2.2
+date	2003.03.24.09.39.44;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.160
+log
+@DynIP servers are checked for filtering after domain name resolution -- from original (previously they were filtered unconditionaly when server filtering was enabled);
+Don't preserve resolved DynIP server address in server.met, as it might change.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "ServerList.h"
+#include "emule.h"
+#include "server.h"
+#include "HttpDownloadDlg.h"
+#include "SafeFile.h"
+#include "otherfunctions.h"
+#include "UploadQueue.h"
+#include "IPFilter.h"
+#include "packets.h"
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#endif
+#include <share.h>
+#include <io.h>
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#define new DEBUG_NEW
+#endif
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServerList::CServerList() : m_serverList(20)
+{
+	m_dwServerPos = 0;
+	searchserverpos = 0;
+	statserverpos = 0;
+	m_dwDelSrvCnt = 0;
+	m_bListLoaded = false;
+	m_nLastSaved = ::GetTickCount();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::AutoUpdate()
+{
+	g_App.m_pPrefs->LoadServerlistAddresses();
+	if (g_App.m_pPrefs->m_addressesList.IsEmpty())
+	{
+		MessageBox(g_App.m_pMDlg->m_wndServer.m_hWnd, GetResString(IDS_ERR_EMPTYADRESSESDAT), GetResString(IDS_ERR_EMPTYADRESSESDAT_TITLE), MB_ICONASTERISK);
+		return;
+	}
+	bool bDownloaded = false;
+	CString servermet;
+	CString oldservermet;
+	CString strURLToDownload;
+	CSingleLock AccessLock(&m_csServerMetFile, TRUE);
+	servermet.Format(_T("%sserver.met"), g_App.m_pPrefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"), g_App.m_pPrefs->GetConfigDir());
+	_tremove(oldservermet);
+	_trename(servermet, oldservermet);
+
+	POSITION Pos = g_App.m_pPrefs->m_addressesList.GetHeadPosition();
+	while ((!bDownloaded) && (Pos != NULL))
+	{
+		CHttpDownloadDlg dlgDownload;
+		strURLToDownload = g_App.m_pPrefs->m_addressesList.GetNext(Pos);
+		dlgDownload.m_strInitializingTitle = GetResString(IDS_HTTP_CAPTION);
+		dlgDownload.m_nIDPercentage = IDS_HTTPDOWNLOAD_PERCENTAGE;
+		dlgDownload.m_sURLToDownload = strURLToDownload;
+		dlgDownload.m_sFileToDownloadInto = servermet;
+		if (dlgDownload.DoModal() == IDOK)
+		{
+			_tremove(oldservermet);
+			bDownloaded = true;
+		}
+		else
+			AddLogLine(LOG_FL_SBAR | LOG_RGB_WARNING, IDS_ERR_FAILEDDOWNLOADMET, strURLToDownload);
+	}
+	if (!bDownloaded)
+		_trename(oldservermet, servermet);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CServerList::Init()
+{
+//	Update IPFilter
+	bool	bLoaded = false;
+
+	if (g_App.m_pPrefs->IsIPFilterUpdateOnStart())
+	{
+		if (g_App.m_pPrefs->GetIPFilterUpdateFrequency() >= 0)
+		{
+			CTime	LastUpdate(static_cast<time_t>(g_App.m_pPrefs->GetLastIPFilterUpdate()));
+			time_t	tLastUpdate = mktime(LastUpdate.GetLocalTm(NULL));
+			time_t	tNow = mktime(CTime::GetCurrentTime().GetLocalTm(NULL));
+
+			if ((difftime(tNow, tLastUpdate) >= ((g_App.m_pPrefs->GetIPFilterUpdateFrequency() + 1) * 60 * 60 * 24)))
+			{
+				bLoaded = g_App.m_pIPFilter->DownloadIPFilter();
+				if (bLoaded)
+					g_App.m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(tNow));
+			}
+		}
+	}
+
+//	Only loads IPFilter.dat if auto-update is disabled or has failed (it avoids loading it twice).
+	if (!bLoaded)
+		g_App.m_pIPFilter->LoadFromDefaultFile(false);
+
+//	Auto update the list by using an url
+	if (g_App.m_pPrefs->AutoServerlist())
+		AutoUpdate();
+
+//	Load Metfile
+	CString	strPath(g_App.m_pPrefs->GetConfigDir());
+		
+	strPath += _T("server.met");
+
+	CSingleLock	AccessLock(&m_csServerMetFile, TRUE);
+
+//	Disable redraw during the time, when server will be added & sorted
+	g_App.m_pMDlg->m_wndServer.m_ctlServerList.SetRedraw(FALSE);
+
+//	Don't delete existing servers, because we might have added one by command line
+	bool	bRes = AddServerMetToList(strPath, false);
+
+//	Insert static servers from textfile
+	strPath.Format(_T("%s") CFGFILE_STATICSERVERS, g_App.m_pPrefs->GetConfigDir());
+	LoadServersFromTextFile(strPath);
+
+	m_bListLoaded = true;	//	Protection from list erase on fast closure 
+
+//	Make first list sort after all initial information is added
+	g_App.m_pMDlg->m_wndServer.m_ctlServerList.SortFirstInit();
+
+//	Enable redraw since servers were already added & sorted
+	g_App.m_pMDlg->m_wndServer.m_ctlServerList.SetRedraw(TRUE);
+
+//	Autoconnect to server
+	if (g_App.m_pPrefs->DoAutoConnect())
+		g_App.m_pMDlg->OnBnClickedConnect();
+
+	return bRes;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CServerList::AddServerMetToList(const CString& strFile, bool bMergeWithPrevList /*= true*/)
+{
+	CSafeBufferedFile	servermet;
+	CServer		*pNewServer = NULL, *pExistingServer = NULL;
+	byte		byteServerListVersion;
+
+	try
+	{
+		if (!servermet.Open(strFile, CFile::modeRead | CFile::typeBinary | CFile::shareDenyWrite))
+		{
+			if (!bMergeWithPrevList)
+			{
+				AddLogLine(LOG_RGB_ERROR, IDS_ERR_LOADSERVERMET);
+				g_App.m_pMDlg->DisableAutoBackup();
+			}
+			return false;
+		}
+		servermet.Read(&byteServerListVersion, 1);
+		if ((byteServerListVersion != 0xE0) && (byteServerListVersion != MET_HEADER))
+		{
+			servermet.Close();
+			AddLogLine(LOG_RGB_ERROR, IDS_ERR_BADSERVERMETVERSION, byteServerListVersion);
+			g_App.m_pMDlg->DisableAutoBackup();
+			return false;
+		}
+		
+		uint32 dwServerCount;
+		servermet.Read(&dwServerCount, 4);
+
+		ServerMet_Struct sCurSavingServer;
+		uint32 dwAddedServerCount = 0;
+		CString strListName;
+		
+		for (uint32 j = 0; j != dwServerCount; j++)
+		{
+		//	get server
+			servermet.Read(&sCurSavingServer, sizeof(ServerMet_Struct));
+			try
+			{
+				pNewServer = new CServer(&sCurSavingServer);
+			}
+			catch (CMemoryException* error)
+			{
+				error->Delete();
+				continue;
+			}
+			
+		//add tags
+			for (uint32 i = 0; i < sCurSavingServer.m_dwTagCount; i++)
+				pNewServer->AddTagFromFile(servermet);
+		//	set listname for server
+			if (pNewServer->GetListName().IsEmpty())
+			{
+				strListName.Format(_T("Server %s"), pNewServer->GetAddress());
+				pNewServer->SetListName(strListName);
+			}
+			
+			if (!g_App.m_pMDlg->m_wndServer.m_ctlServerList.AddServer(pNewServer, true, true))
+			{
+				pExistingServer = g_App.m_pServerList->GetServerByAddress(pNewServer->GetAddress(), pNewServer->GetPort());
+				if (pExistingServer)
+				{
+					pExistingServer->SetListName(pNewServer->GetListName());
+					if (pNewServer->GetDescription())
+						pExistingServer->SetDescription(pNewServer->GetDescription());
+					g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+				}
+				safe_delete(pNewServer);
+			}
+			else
+				dwAddedServerCount++;
+
+			pNewServer = NULL;
+		}
+
+		if (!bMergeWithPrevList)
+			AddLogLine(LOG_FL_SBAR, IDS_SERVERSFOUND, dwServerCount);
+		else
+			AddLogLine(LOG_FL_SBAR, IDS_SERVERSADDED, dwAddedServerCount, dwServerCount - dwAddedServerCount);
+		servermet.Close();
+	}
+	catch (CFileException *pError)
+	{
+		safe_delete(pNewServer);
+		
+		OUTPUT_DEBUG_TRACE();
+		if (pError->m_cause == CFileException::endOfFile)
+			AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, _T("Error: the file server.met is corrupted, unable to load serverlist!"));
+		else
+			AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, _T("Unexpected file error while reading server.met: %s, unable to load serverlist!"), GetErrorMessage(pError));
+		pError->Delete();
+		g_App.m_pMDlg->DisableAutoBackup();
+	}
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CServerList::AddServer(CServer *pNewServer, bool bChangeServerInfo/*=false*/)
+{
+	if (pNewServer == NULL)
+		return false;
+
+	if(pNewServer->GetDynIP() == _T("255.255.255.255"))
+		return false;
+
+	if (g_App.m_pPrefs->IsFilterBadIPs())
+	{
+		if (!IsGoodServerIP(pNewServer))
+			return false;
+		if (g_App.m_pPrefs->IsFilterServersByIP())
+		{
+		// IP-Filter: We don't need to reject dynIP-servers here. After the DN was
+		// resolved, the IP will get filtered and the server will get removed. This applies
+		// for TCP-connections as well as for outgoing UDP-packets because for both protocols
+		// we resolve the DN and filter the received IP.
+			if (g_App.m_pIPFilter->IsFiltered(pNewServer->GetIP()))
+			{
+				if (!g_App.m_pPrefs->IsCMNotLog())
+					AddLogLine( LOG_FL_DBG | LOG_RGB_DIMMED, _T("AddServer: Filtered Server: %s (IP=%s) %hs"),
+						pNewServer->GetFullIP(), ipstr(pNewServer->GetIP()), g_App.m_pIPFilter->GetLastHit() );
+				return false;
+			}
+		}
+	}
+
+	CServer	*pExistingServer = FindServerByAddress(*pNewServer, false);
+
+	if (pExistingServer != NULL)
+	{
+		if (bChangeServerInfo)
+		{
+			pExistingServer->SetListName(pNewServer->GetListName());
+			pExistingServer->SetPort(pNewServer->GetPort());
+			pExistingServer->SetAuxPort(pNewServer->GetAuxPort());
+			pExistingServer->ResetFailedCount();
+			g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+
+			return true;
+		}
+
+		pExistingServer->ResetFailedCount();
+		g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+		return false;
+	}
+
+	m_serverList.AddTail(pNewServer);
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::ServerStats()
+{
+#ifdef OLD_SOCKETS_ENABLED
+	if (g_App.m_pServerConnect->IsConnected() && m_serverList.GetCount() > 0)
+	{
+		uint32	dwChallenge, dwCurTime, dwRnd;
+		CServer	*pTestServer, *pPingServer = GetNextStatServer();
+
+		if ((pTestServer = pPingServer) == NULL)
+			return;
+
+		dwRnd = rand();
+		dwCurTime = static_cast<uint32>(time(NULL));
+		while ( (pPingServer->GetLastPingedTime() != 0) &&
+			((dwCurTime - pPingServer->GetLastPingedTime()) < UDPSERVSTATREASKTIME) )
+		{
+			pPingServer = GetNextStatServer();
+			if (pPingServer == pTestServer)
+				return;
+		}
+		if ( pPingServer->GetFailedCount() >= g_App.m_pPrefs->GetDeadserverRetries()
+		  && g_App.m_pPrefs->DeadServer()
+		  && !pPingServer->IsStaticMember() )
+		{
+			g_App.m_pMDlg->m_wndServer.m_ctlServerList.RemoveServer(pPingServer);
+			return;
+		}
+
+		pPingServer->SetRealLastPingedTime(dwCurTime);
+		if ( !pPingServer->GetCryptPingReplyPending() && (g_App.GetPublicIP() != 0) &&
+			g_App.m_pPrefs->IsServerCryptLayerUDPEnabled() )
+		{
+		//	We try a obfsucation ping first and wait 20 seconds for an answer
+		//	if it doesn't get replied, it isn't counted as error with following normal ping
+			pPingServer->SetCryptPingReplyPending(true);
+
+			uint32	dwPktLen = 4 + (dwRnd & 15); // max padding 16 bytes
+			byte	abyteRawPacket[4 + 15];
+
+			dwChallenge = (rand() << 17) | (rand() << 2) | ((dwRnd >> 8) & 3);
+			if (dwChallenge == 0)
+				dwChallenge++;
+			POKE_DWORD(abyteRawPacket, dwChallenge);
+			for (uint32 i = 4; i < dwPktLen; i++) // filling up the remaining bytes with random data
+				abyteRawPacket[i] = static_cast<byte>(rand());
+
+			pPingServer->SetChallenge(dwChallenge);
+			pPingServer->SetLastPinged(GetTickCount());
+			pPingServer->SetLastPingedTime(dwCurTime - UDPSERVSTATREASKTIME + 20); // give it 20 seconds to respond
+			
+			g_App.m_pUploadQueue->AddUpDataOverheadServer(dwPktLen);
+			g_App.m_pServerConnect->SendUDPPacket(NULL, pPingServer, false, pPingServer->GetPort() + 12, abyteRawPacket, dwPktLen);
+		}
+		else
+		{
+		//	Obfsucation ping request wasn't answered (or not sent at all), so probably
+		//	the server doesn't support obfuscation -- continue with a normal request
+			Packet	*pPacket = new Packet(OP_GLOBSERVSTATREQ, 4);
+
+			pPingServer->SetCryptPingReplyPending(false);
+			dwChallenge = 0x55AA0000 + (dwRnd & 0xFFFF);
+			pPingServer->SetChallenge(dwChallenge);
+			POKE_DWORD(pPacket->m_pcBuffer, dwChallenge);
+			pPingServer->SetLastPinged(::GetTickCount());
+			pPingServer->SetLastPingedTime(dwCurTime - (dwRnd % UDPSRVSTATREASKRNDTIME));
+			pPingServer->AddFailedCount();
+			g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pPingServer);
+			g_App.m_pUploadQueue->AddUpDataOverheadServer(pPacket->m_dwSize);
+			g_App.m_pServerConnect->SendUDPPacket(pPacket, pPingServer, true);
+		}
+	}
+#endif //OLD_SOCKETS_ENABLED
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*filter Servers with invalid IP's / Port
+0.*
+10.*
+172.16.0.0 - 172.31.255.255
+192.168.0.0 - 192.168.255.255
+127.*
+*/
+bool CServerList::IsGoodServerIP(const CServer *pServer) const
+{
+	if (pServer->HasDynIP())
+		return true;
+	return pServer->HasPublicAddress();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::RemoveServer(CServer* out_server)
+{
+	POSITION remove_pos = m_serverList.Find(out_server);
+
+	if (remove_pos != NULL)
+	{
+	//	Reset UDP server
+		if (g_App.m_pDownloadQueue->m_pCurUDPServer == out_server)
+			g_App.m_pDownloadQueue->m_pCurUDPServer = GetSuccServer(out_server);
+	//	Finally delete a server
+		delete m_serverList.GetAt(remove_pos);
+		m_serverList.RemoveAt(remove_pos);
+		m_dwDelSrvCnt++;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::GetServersStatus(uint32 &total, uint32 &failed, uint32 &user, uint32 &file,
+																	 uint32 &dwLowIdUsers, uint32 &tuser, uint32 &tfile, double &occ)
+{
+	total = m_serverList.GetCount();
+	failed = 0;
+	user = 0;
+	file = 0;
+	tuser = 0;
+	tfile = 0;
+	occ = 0;
+	dwLowIdUsers = 0;
+
+	uint32 dwMaxUsers = 0;
+	uint32 tuserk = 0;
+
+	CServer	*pServer;
+
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; )
+	{
+		pServer = m_serverList.GetNext(pos);
+
+		if (pServer->GetFailedCount())
+			failed++;
+		else
+		{
+			user += pServer->GetNumUsers();
+			file += pServer->GetFiles();
+			dwLowIdUsers += pServer->GetLowIDUsers();
+		}
+		tuser += pServer->GetNumUsers();
+		tfile += pServer->GetFiles();
+
+		if (pServer->GetMaxUsers())
+		{
+			tuserk += pServer->GetNumUsers();
+			dwMaxUsers += pServer->GetMaxUsers();
+		}
+	}
+	if (dwMaxUsers > 0)
+		occ = static_cast<double>(tuserk * 100.0) / dwMaxUsers;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::GetUserFileStatus(uint32 &user, uint32 &file)
+{
+	user = 0;
+	file = 0;
+
+	CServer	   *pServer;
+
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; )
+	{
+		pServer = m_serverList.GetNext(pos);
+		if (!pServer->GetFailedCount())
+		{
+			user += pServer->GetNumUsers();
+			file += pServer->GetFiles();
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServerList::~CServerList()
+{
+	if (m_bListLoaded)	//	Save only if the list was already loaded to avoid list reset
+		SaveServerMetToFile();
+
+	for (POSITION pos1 = m_serverList.GetHeadPosition(); pos1 != NULL;)
+		delete m_serverList.GetNext(pos1);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::MoveServerDown(CServer *pSrv)
+{
+	POSITION	pos1, pos2;
+	int			i = 0;
+	CServer		*pServer;
+
+	for (pos1 = m_serverList.GetHeadPosition(); (pos2 = pos1) != NULL;)
+	{
+		pServer = m_serverList.GetNext(pos1);
+		if (pServer == pSrv)
+		{
+			m_serverList.AddTail(pServer);
+			m_serverList.RemoveAt(pos2);
+			return;
+		}
+		i++;
+		if (i == m_serverList.GetCount())
+			break;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	Sort() reorders the server list by priority.
+void CServerList::Sort()
+{
+	POSITION	pos1, pos2;
+	int			i = 0;
+	CServer		*pServer;
+
+//	For each server in the list...
+	for (pos1 = m_serverList.GetHeadPosition(); (pos2 = pos1) != NULL;)
+	{
+		pServer = m_serverList.GetNext(pos1);
+
+	//	If the server is high priority, stick it at the head of the list.
+		if (pServer->GetPreferences() == PR_HIGH)
+		{
+			m_serverList.AddHead(pServer);
+			m_serverList.RemoveAt(pos2);
+		}
+	//	If the server is low priority, stick it at the tail of the list.
+		else if (pServer->GetPreferences() == PR_LOW)
+		{
+			m_serverList.AddTail(pServer);
+			m_serverList.RemoveAt(pos2);
+		}
+		i++;
+	//	If we're at the end of the list...
+		if (i == m_serverList.GetCount())
+			break;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	GetNextServer() returns actually pointed server & move pointer to the next one in the list or NULL
+//	if the list pointer is past the end of the list. (Right now there is no usability checking).
+CServer* CServerList::GetNextServer(bool bOnlyObfuscated)
+{
+	CServer		*pNextServer = NULL;
+	POSITION	posIndex;
+
+	if (m_serverList.IsEmpty())
+		return NULL;
+	
+	const uint32	dwSrvCount = static_cast<uint32>(m_serverList.GetCount());
+
+//	If we're at the end or past the end of the list
+//	move pointer to the begin of the list & return NULL as server
+	if (m_dwServerPos >= dwSrvCount)
+	{
+		m_dwServerPos = 0;
+		return NULL;
+	}
+
+//	Find next server
+	while ((pNextServer == NULL) && (m_dwServerPos < dwSrvCount))
+	{
+		posIndex = m_serverList.FindIndex(m_dwServerPos);
+		// Check if search position is still valid (could be corrupted by server delete operation)
+		if (posIndex == NULL)
+		{
+			posIndex = m_serverList.GetHeadPosition();
+			m_dwServerPos = 0;
+		}
+
+		m_dwServerPos++;	//	Move the pointer to the next one
+		if (!bOnlyObfuscated || m_serverList.GetAt(posIndex)->SupportsObfuscationTCP())
+			pNextServer = m_serverList.GetAt(posIndex);	//	Get actual server
+	}
+
+	return pNextServer;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServer* CServerList::GetNextSearchServer()
+{
+	CServer		*nextserver = NULL;
+	unsigned	ui = 0;
+
+	while (!nextserver && (ui < static_cast<unsigned>(m_serverList.GetCount())))
+	{
+		POSITION posIndex = m_serverList.FindIndex(searchserverpos);
+	//	Check if search position is still valid (could be corrupted by server delete operation)
+		if (posIndex == NULL)
+		{
+			posIndex = m_serverList.GetHeadPosition();
+			searchserverpos = 0;
+		}
+		nextserver = m_serverList.GetAt(posIndex);
+		searchserverpos++;
+		ui++;
+		if (searchserverpos >= static_cast<unsigned>(m_serverList.GetCount()))
+			searchserverpos = 0;
+	}
+	return nextserver;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServer* CServerList::GetNextStatServer()
+{
+	CServer		*nextserver = NULL;
+	unsigned	ui = 0;
+
+	while (!nextserver && (ui < static_cast<unsigned>(m_serverList.GetCount())))
+	{
+		POSITION posIndex = m_serverList.FindIndex(statserverpos);
+	//	Check if search position is still valid (could be corrupted by server delete operation)
+		if (posIndex == NULL)
+		{
+			posIndex = m_serverList.GetHeadPosition();
+			statserverpos = 0;
+		}
+		nextserver = m_serverList.GetAt(posIndex);
+		statserverpos++;
+		ui++;
+		if (statserverpos >= static_cast<unsigned>(m_serverList.GetCount()))
+			statserverpos = 0;
+	}
+	return nextserver;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServer* CServerList::GetSuccServer(const CServer *pLastSrv) const
+{
+	if (m_serverList.IsEmpty())
+		return NULL;
+	if (pLastSrv == NULL)
+		return m_serverList.GetHead();
+
+	POSITION pos = m_serverList.Find(const_cast<CServer*>(pLastSrv));
+
+	if (pos == NULL)
+		return m_serverList.GetHead();
+
+	m_serverList.GetNext(pos);
+	if (pos == NULL)
+		return NULL;
+	return m_serverList.GetAt(pos);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServer* CServerList::FindServerByAddress(const CServer& in_server, bool bCheckPort/* = true*/)
+{
+	CServer	   *pServer;
+
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; )
+	{
+		pServer = m_serverList.GetNext(pos);
+		if (pServer->HasSameAddress(in_server, bCheckPort))
+			return pServer;
+	}
+	return NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	GetServerByAddress() searches the server list for a server with stringified IP address 'strAddress'
+//	and port 'nPort'. If none is found, NULL is returned.
+CServer *CServerList::GetServerByAddress(const CString& strAddress, uint16 nPort)
+{
+//	Perform a linear search through the server list for a Server with the specified IP and port
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL;)
+	{
+		CServer	*pServer = m_serverList.GetNext(pos);
+
+		if ((nPort == pServer->GetPort() || nPort == pServer->GetAuxPort() || nPort == 0) && pServer->GetAddress() == strAddress)
+		{
+			return pServer;
+		}
+	}
+	return NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServer* CServerList::GetServerByIPTCP(uint32 nIP, uint16 nTCPPort) const
+{
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL;)
+	{
+		CServer* s = m_serverList.GetNext(pos);
+		if (s->GetIP() == nIP && (nTCPPort == 0 || s->GetPort() == nTCPPort))
+			return s;
+	}
+	return NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CServer* CServerList::GetServerByIPUDP(uint32 nIP, uint16 nUDPPort, bool bObfuscationPorts/*=true*/) const
+{
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL;)
+	{
+		CServer	*s = m_serverList.GetNext(pos);
+
+		if ((s->GetIP() == nIP) && (s->GetPort() == (nUDPPort - 4) ||
+			(bObfuscationPorts && (s->GetObfuscationPortUDP() == nUDPPort) || (s->GetPort() == (nUDPPort - 12)))))
+			return s;
+	}
+	return NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CServerList::SaveServerMetToFile()
+{
+	CSingleLock AccessLock(&m_csServerMetFile, TRUE);
+
+//	To save data safely CMemFile is used first to prepare the whole output (to reduce
+//	number of filesystem I/O), then data is flushed to CFile in one shot.
+//	Previous solution based on CStdioFile is not suitable for this case, as
+//	CStdioFile can't generate proper exceptions due to the fact that it buffers
+//	data before writing. As a result exceptions were not generated for many error cases
+//	causing different file corruptions...
+	CSafeMemFile		MFile(8 * 1024);
+	ServerMet_Struct	sCurSavingServer;
+	CFile		file;
+	byte		byteServerListVersion = 0xE0;
+	uint32		dwTmp, dwTagFilePos, dwServerCount = m_serverList.GetCount();
+	CServer		*pNextServer;
+	CString		strTmp;
+	CWrTag		tagWr;
+
+	MFile.Write(&byteServerListVersion, 1);
+	MFile.Write(&dwServerCount, 4);
+
+	for (uint32 j = 0; j < dwServerCount; j++)
+	{
+		dwTagFilePos = static_cast<uint32>(MFile.GetPosition()) + sizeof(ServerMet_StructShort);
+		pNextServer = GetServerAt(j);
+		// Don't write potential out-dated IPs of dynIP-servers
+		sCurSavingServer.m_dwIP = (pNextServer->HasDynIP()) ? 0 : pNextServer->GetIP();
+		sCurSavingServer.m_uPort = pNextServer->GetPort();
+
+		uint32	dwTagCnt = 0;
+			
+		sCurSavingServer.m_dwTagCount = dwTagCnt;
+		MFile.Write(&sCurSavingServer, sizeof(ServerMet_Struct));
+
+		strTmp = pNextServer->GetListName();
+		if (!strTmp.IsEmpty())
+		{
+			if (IsUTF8Required(strTmp))
+			{
+				tagWr.WriteToFile(ST_SERVERNAME, strTmp, MFile, cfUTF8withBOM);
+				dwTagCnt++;
+			}
+			tagWr.WriteToFile(ST_SERVERNAME, strTmp, MFile);
+			dwTagCnt++;
+		}
+		strTmp = pNextServer->GetDynIP();
+		if (!strTmp.IsEmpty())
+		{
+			if (IsUTF8Required(strTmp))
+			{
+				tagWr.WriteToFile(ST_DYNIP, strTmp, MFile, cfUTF8withBOM);
+				dwTagCnt++;
+			}
+			tagWr.WriteToFile(ST_DYNIP, strTmp, MFile);
+			dwTagCnt++;
+		}
+		strTmp = pNextServer->GetDescription();
+		if (!strTmp.IsEmpty())
+		{
+			if (IsUTF8Required(strTmp))
+			{
+				tagWr.WriteToFile(ST_DESCRIPTION, strTmp, MFile, cfUTF8withBOM);
+				dwTagCnt++;
+			}
+			tagWr.WriteToFile(ST_DESCRIPTION, strTmp, MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetFailedCount() != 0)
+		{
+			tagWr.WriteToFile(ST_FAIL, pNextServer->GetFailedCount(), MFile);
+			dwTagCnt++;
+		}
+	//	Save server preferences using eDonkey correct values
+		if ((dwTmp = pNextServer->eMule2ed2k(pNextServer->GetPreferences())) != 0)
+		{
+			tagWr.WriteToFile(ST_PREFERENCE, dwTmp, MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetNumUsers() != 0)
+		{
+			tagWr.WriteToFile("users", pNextServer->GetNumUsers(), MFile, false);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetFiles() != 0)
+		{
+			tagWr.WriteToFile("files", pNextServer->GetFiles(), MFile, false);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetPing() != 0)
+		{
+			tagWr.WriteToFile(ST_PING, pNextServer->GetPing(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetRealLastPingedTime() != 0)
+		{
+			tagWr.WriteToFile(ST_LASTPING, pNextServer->GetRealLastPingedTime(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetMaxUsers() != 0)
+		{
+			tagWr.WriteToFile(ST_MAXUSERS, pNextServer->GetMaxUsers(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetSoftMaxFiles() != 0)
+		{
+			tagWr.WriteToFile(ST_SOFTFILES, pNextServer->GetSoftMaxFiles(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetHardMaxFiles() != 0)
+		{
+			tagWr.WriteToFile(ST_HARDFILES, pNextServer->GetHardMaxFiles(), MFile);
+			dwTagCnt++;
+		}
+		strTmp = pNextServer->GetVersion();
+		if (!strTmp.IsEmpty())
+		{
+			tagWr.WriteToFile(ST_VERSION, strTmp, MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetUDPFlags() != 0)
+		{
+			tagWr.WriteToFile(ST_UDPFLAGS, pNextServer->GetUDPFlags(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetLowIDUsers() != 0)
+		{
+			tagWr.WriteToFile(ST_LOWIDUSERS, pNextServer->GetLowIDUsers(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetServerKeyUDPForce())
+		{
+			tagWr.WriteToFile(ST_UDPKEY, pNextServer->GetServerKeyUDPForce(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetServerKeyUDPIP())
+		{
+			tagWr.WriteToFile(ST_UDPKEYIP, pNextServer->GetServerKeyUDPIP(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetObfuscationPortTCP())
+		{
+			tagWr.WriteToFile(ST_TCPPORTOBFUSCATION, pNextServer->GetObfuscationPortTCP(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetObfuscationPortUDP())
+		{
+			tagWr.WriteToFile(ST_UDPPORTOBFUSCATION, pNextServer->GetObfuscationPortUDP(), MFile);
+			dwTagCnt++;
+		}
+		if (pNextServer->GetAuxPort() != 0 && pNextServer->GetAuxPort() != pNextServer->GetPort())
+		{
+			tagWr.WriteToFile("AuxPort", pNextServer->GetAuxPort(), MFile, false);
+			dwTagCnt++;
+		}
+	//	Save valid tag count
+		MFile.Seek(dwTagFilePos, CFile::begin);
+		MFile.Write(&dwTagCnt, 4);
+		MFile.SeekToEnd();
+	}
+
+	strTmp.Format(_T("%sserver.met.new"), g_App.m_pPrefs->GetConfigDir());
+	try
+	{
+		if (!file.Open(strTmp, CFile::modeCreate | CFile::modeWrite | CFile::shareDenyWrite))
+		{
+			AddLogLine(LOG_RGB_ERROR, IDS_ERROR_SAVEFILE, _T("server.met"));
+			return false;
+		}
+	//	Steal stream buffer pointer and length without detaching it for easier destruction
+		file.Write(MFile.GetBuffer(), static_cast<unsigned>(MFile.GetLength()));
+
+		file.Close();	// Close can generate an exception as well - keep in try/catch
+	}
+	catch (CFileException *error)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_RGB_ERROR, IDS_ERROR_SAVEFILE2, _T("server.met"), GetErrorMessage(error));
+		error->Delete();
+	//	About is used instead of Close as it doesn't generate exception which we don't need here
+		file.Abort();
+ 	//	Remove the partially written or otherwise damaged temporary file
+ 		::DeleteFile(strTmp);
+		return false;
+	}
+	m_nLastSaved = ::GetTickCount();
+
+	CString strCurServerMet, strOldServerMet;
+
+	strCurServerMet.Format(_T("%sserver.met"), g_App.m_pPrefs->GetConfigDir());
+	strOldServerMet.Format(_T("%sserver_met.old"), g_App.m_pPrefs->GetConfigDir());
+	_tremove(strOldServerMet);
+	_trename(strCurServerMet, strOldServerMet);
+	_trename(strTmp, strCurServerMet);
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::LoadServersFromTextFile(const CString &strFilename)
+{
+	FILE	*pSL = _tfsopen(strFilename, _T("rb"), _SH_DENYWR);
+
+	if (pSL == NULL)
+		return;
+
+	CString		strLine, strHost, strPriority, strPort;
+	uint16		uPort = 0;
+
+	fread(&uPort, sizeof(uint16), 1, pSL);
+	if (uPort != 0xFEFFu)
+	{
+		fclose(pSL);
+		if ((pSL = _tfsopen(strFilename, _T("r"), _SH_DENYWR)) == NULL)
+			return;
+	}
+
+	while (!feof(pSL))
+	{
+		LPTSTR		pcLine = strLine.GetBuffer(1024);
+
+		if (_fgetts(pcLine, 1024, pSL) == NULL)
+			break;
+
+		strLine.ReleaseBuffer();
+
+		if (*pcLine == _T('#') || *pcLine == _T('/'))
+			continue;
+
+	//	Format is host:port,priority,Name
+		if (strLine.GetLength() < 5)
+			continue;
+
+	//	Fetch host
+		int pos = strLine.Find(_T(':'));
+		if (pos < 0)
+		{
+			if ((pos = strLine.Find(_T(','))) < 0)
+				continue;
+		}
+		strHost = strLine.Left(pos);
+		strLine = strLine.Mid(pos + 1);
+
+	//	Fetch port
+		if ((pos = strLine.Find(_T(','))) < 0)
+			continue;
+		strPort = strLine.Left(pos);
+		strLine = strLine.Mid(pos + 1);
+
+	//	Fetch priority
+		pos = strLine.Find(_T(','));
+
+		uint32	dwPriority = PR_HIGH;
+
+		if (pos == 1)
+		{
+			strPriority = strLine.Left(pos);
+			dwPriority = _tstoi(strPriority);
+			if (dwPriority > PR_HIGH)
+				dwPriority = PR_HIGH;
+			strLine = strLine.Mid(pos + 1);
+		}
+
+	//	Here only name is left in string
+		strLine.Remove(_T('\r'));
+		strLine.Remove(_T('\n'));
+
+		uPort = static_cast<uint16>(_tstoi(strPort));
+
+	//	Check existence of server, create server object add it to the list 
+		CServer	*pExistingServer = GetServerByAddress(strHost, uPort);
+		if (pExistingServer == NULL)
+		{
+			CServer	*pNewServer = new CServer(uPort, strHost);
+			if (pNewServer != NULL)
+			{
+			//	Set properties
+				pNewServer->SetListName(strLine);
+				pNewServer->SetIsStaticMember(true);
+				pNewServer->SetPreference(static_cast<byte>(dwPriority));
+				if (!g_App.m_pMDlg->m_wndServer.m_ctlServerList.AddServer(pNewServer, true))
+					delete pNewServer;
+			}
+		}
+		else
+		{
+		//	Change properties
+			pExistingServer->SetListName(strLine);
+			pExistingServer->SetIsStaticMember(true);
+			pExistingServer->SetPreference(static_cast<byte>(dwPriority));
+			if (g_App.m_pMDlg->m_wndServer)
+				g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+		}
+	}
+
+	fclose(pSL);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CServerList::SaveServersToTextFile()
+{
+	static const TCHAR s_acHeader[] = {
+		_T("############################################\n")
+		_T("# Static Servers File\n")
+		_T("# enter one server per line\n")
+		_T("#\n")
+		_T("# Format:\n")
+		_T("# ServerIP/Hostname:Port,Priority,ServerName\n")
+		_T("#\n")
+		_T("# Priority:\n")
+		_T("# 2 = High, 1 = Normal, 0 = Low\n")
+		_T("#\n")
+		_T("# Examples:\n")
+		_T("# 120.120.120.120:4661,0,TestServer1\n")
+		_T("# myserver.yi.org:4662,1,TestServer2\n\n")
+	};
+	bool	bResult = false;
+	const CServer *pSrv;
+	CString strBuf(s_acHeader);
+
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL;)
+	{
+		pSrv = m_serverList.GetNext(pos);
+		if (pSrv->IsStaticMember())
+		{
+			strBuf.AppendFormat(_T("%s:%u,%u,%s\n"),
+								pSrv->GetAddress(), pSrv->GetPort(),
+								pSrv->GetPreferences(), pSrv->GetListName());
+		}
+	}
+
+#ifdef _UNICODE
+	bool	bIsUnicode = IsUTF8Required(strBuf);
+#else
+	bool	bIsUnicode = false;
+#endif
+	FILE	*pStaticFile;
+	CString	strStaticFilePath = g_App.m_pPrefs->GetConfigDir();
+	int iWriteResult = 0;
+
+	strStaticFilePath += CFGFILE_STATICSERVERS;
+	if ((pStaticFile = _tfsopen(strStaticFilePath, (bIsUnicode) ? _T("wb") : _T("w"), _SH_DENYWR)) == NULL)
+		return bResult;
+
+	if (bIsUnicode)
+	{
+		iWriteResult = fputwc(0xFEFF, pStaticFile);
+		strBuf.Replace(_T("\n"), _T("\r\n"));
+	}
+
+	if (iWriteResult != _TEOF)
+	{
+		if (_fputts(strBuf.GetString(), pStaticFile) != _TEOF)
+			bResult = true;
+	}
+
+	fclose(pStaticFile);
+	return bResult;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::Process()
+{
+	if (::GetTickCount() - m_nLastSaved > MIN2MS(17))
+		SaveServerMetToFile();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::ResetIP2Country()
+{
+	CServer *cur_server;
+
+	for(POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; m_serverList.GetNext(pos))
+	{
+		cur_server = m_serverList.GetAt(pos);
+		cur_server->ResetIP2Country();
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::RemoveDuplicates(const CServer *pExceptThis, bool bByIP)
+{
+	CServer	   *pServer;
+
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; )
+	{
+		pServer = m_serverList.GetNext(pos);
+		if (pServer == pExceptThis)
+			continue;
+		if ( (pServer->GetPort() == pExceptThis->GetPort()) &&
+			( (bByIP && (pServer->GetIP() == pExceptThis->GetIP())) ||
+			(!bByIP && (_tcsicmp(pServer->GetAddress(), pExceptThis->GetAddress()) == 0)) ) )
+		{
+			g_App.m_pMDlg->m_wndServer.m_ctlServerList.RemoveServer(pServer);
+			break;
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::CheckForExpiredUDPKeys()
+{
+	if (!g_App.m_pPrefs->IsServerCryptLayerUDPEnabled())
+		return;
+
+	uint32	dwKeysTotal = 0, dwKeysExpired = 0, dwPingDelayed = 0;
+	uint32	dwDiff, dwNow = static_cast<uint32>(time(NULL));
+	uint32	dwIP = g_App.GetPublicIP();
+	CServer	*pSrv;
+
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL;)
+	{
+		pSrv = m_serverList.GetNext(pos);
+		if (pSrv->SupportsObfuscationUDP())
+		{
+			if ((pSrv->GetServerKeyUDPForce() != 0) && (pSrv->GetServerKeyUDPIP() != dwIP))
+			{
+				dwKeysTotal++;
+				dwKeysExpired++;
+				if ((dwDiff = (dwNow - pSrv->GetRealLastPingedTime())) < UDPSERVSTATMINREASKTIME)
+				{
+					dwPingDelayed++;
+				//	Next ping: Now + (MinimumDelay - already elapsed time)
+					pSrv->SetLastPingedTime(dwNow - UDPSERVSTATREASKTIME + UDPSERVSTATMINREASKTIME - dwDiff);
+				}
+				else
+					pSrv->SetLastPingedTime(0);
+			}
+			else if (pSrv->GetServerKeyUDP() != 0)
+				dwKeysTotal++;
+		}
+	}
+
+	AddLogLine(LOG_FL_DBG, _T("Possible IP Change - check for expired server UDP-keys: total keys %u, expired %u, pings forced %u, delayed pings %u"),
+		dwKeysTotal, dwKeysExpired, dwKeysExpired - dwPingDelayed, dwPingDelayed); 
+}
+@
+
+
+1.159
+log
+@Handle duplicate DynIP servers.
+@
+text
+@d258 1
+d261 15
+d383 1
+a383 1
+bool CServerList::IsGoodServerIP(CServer* in_server)
+d385 3
+a387 16
+	if (!in_server->HasPublicAddress() && !in_server->HasDynIP())
+		return false;
+
+//	Using filters from m_pIPFilter.dat for server filtering
+//	Now filtering servers listed in m_pIPFilter.dat and DynIP servers
+	if (g_App.m_pPrefs->IsFilterServersByIP())
+	{
+		if (in_server->HasDynIP() || g_App.m_pIPFilter->IsFiltered(in_server->GetIP()))
+		{
+			if (!g_App.m_pPrefs->IsCMNotLog())
+				AddLogLine(LOG_FL_DBG | LOG_RGB_DIMMED, _T("Filtered Server: %s %hs"), in_server->GetFullIP(), g_App.m_pIPFilter->GetLastHit());
+			return false;
+		}
+	}
+
+	return true;
+d710 2
+a711 1
+		sCurSavingServer.m_dwIP = pNextServer->GetIP();
+@
+
+
+1.158
+log
+@Encryption preparations.
+@
+text
+@d1054 19
+@
+
+
+1.157
+log
+@Renaming to sync up with original.
+@
+text
+@a336 1
+#ifdef _CRYPT_READY
+a337 1
+#endif
+@
+
+
+1.156
+log
+@Simplified stream manipulation while saving server.met and .part.met files.
+@
+text
+@d147 1
+a147 1
+		g_App.m_pMDlg->OnBnClickedButton2();
+@
+
+
+1.155
+log
+@Reduced H-file dependency.
+@
+text
+@d693 2
+a695 1
+	CMemFile	MFile(8 * 1024);
+a697 2
+	ServerMet_Struct sCurSavingServer;
+	void		*pBufBeg, *pBufEnd;
+a841 1
+	MFile.SeekToBegin();
+d852 1
+a852 2
+		dwTmp = MFile.GetBufferPtr(CMemFile::bufferRead, ~0u, &pBufBeg, &pBufEnd);
+		file.Write(pBufBeg, dwTmp);
+@
+
+
+1.154
+log
+@Reduced H-file dependency.
+@
+text
+@d28 3
+@
+
+
+1.153
+log
+@Reduced H-file dependency.
+@
+text
+@d27 1
+@
+
+
+1.152
+log
+@Some formatting.
+@
+text
+@d25 1
+@
+
+
+1.151
+log
+@Encryption preparations.
+@
+text
+@d339 1
+a339 1
+		//	the server doesn't supports obfuscation -- continue with a normal request
+d391 2
+a392 2
+		if (g_App.m_pDownloadQueue->pCurUDPServer == out_server)
+			g_App.m_pDownloadQueue->pCurUDPServer = GetSuccServer(out_server);
+@
+
+
+1.150
+log
+@Updated server list search API for encryption implementation.
+@
+text
+@d665 1
+a665 1
+CServer* CServerList::GetServerByIPUDP(uint32 nIP, uint16 nUDPPort, bool bObfuscationPorts) const
+d667 8
+@
+
+
+1.149
+log
+@Corrected error message regarding saving to staticservers.dat (more accurate message; removed duplicated report for every error message);
+Unified definition for the staticservers configuration file.
+@
+text
+@d654 1
+a654 1
+CServer* CServerList::GetServerByIP(uint32 nIP, uint16 port)
+d659 1
+a659 1
+		if (s->GetIP() == nIP && (port == 0 || s->GetPort() == port))
+d665 5
+@
+
+
+1.148
+log
+@Fixed corruption of server.met files when disk is full (server.met and server_met.old);
+Mutex replaced with more efficient critical sections object.
+@
+text
+@d129 1
+a129 1
+	strPath.Format(_T("%sstaticservers.dat"), g_App.m_pPrefs->GetConfigDir());
+d1004 1
+a1004 1
+	strStaticFilePath += _T("staticservers.dat");
+a1005 2
+	{
+		AddLogLine(LOG_RGB_ERROR, IDS_ERROR_SSF);
+a1006 1
+	}
+@
+
+
+1.147
+log
+@Reduced #include dependency.
+@
+text
+@d58 1
+a58 1
+	CSingleLock AccessLock(&m_ServerMetMutex, TRUE);
+d116 5
+a120 2
+	CString	strPath = g_App.m_pPrefs->GetConfigDir() + CString(_T("server.met"));
+	CSingleLock	AccessLock(&m_ServerMetMutex, TRUE);
+d667 1
+a667 8
+	CSingleLock AccessLock(&m_ServerMetMutex, TRUE);
+	CString strNewServerMet;
+	strNewServerMet.Format(_T("%sserver.met.new"), g_App.m_pPrefs->GetConfigDir());
+
+	try
+	{
+		CStdioFile	servermet;
+		byte		byteServerListVersion;
+d669 25
+a693 23
+		if (!servermet.Open(strNewServerMet, CFile::modeCreate | CFile::modeWrite | CFile::shareDenyWrite | CFile::typeBinary))
+		{
+			AddLogLine(LOG_RGB_ERROR, IDS_ERROR_SAVEFILE, _T("server.met"));
+			return false;
+		}
+		byteServerListVersion = 0xE0;
+		servermet.Write(&byteServerListVersion, 1);
+		
+		uint32 dwServerCount = m_serverList.GetCount();
+		servermet.Write(&dwServerCount, 4);
+		
+		ServerMet_Struct sCurSavingServer;
+		CServer		*pNextServer;
+		CString		strTmp;
+		uint32		dwTmp, dwTagFilePos;
+		CWrTag		tagWr;
+
+		for (uint32 j = 0; j < dwServerCount; j++)
+		{
+			dwTagFilePos = static_cast<uint32>(servermet.GetPosition()) + sizeof(ServerMet_StructShort);
+			pNextServer = GetServerAt(j);
+			sCurSavingServer.m_dwIP = pNextServer->GetIP();
+			sCurSavingServer.m_uPort = pNextServer->GetPort();
+d695 1
+a695 1
+			uint32	dwTagCnt = 0;
+d697 2
+a698 2
+			sCurSavingServer.m_dwTagCount = dwTagCnt;
+			servermet.Write(&sCurSavingServer, sizeof(ServerMet_Struct));
+d700 4
+a703 2
+			strTmp = pNextServer->GetListName();
+			if (!strTmp.IsEmpty())
+d705 1
+a705 6
+				if (IsUTF8Required(strTmp))
+				{
+					tagWr.WriteToFile(ST_SERVERNAME, strTmp, servermet, cfUTF8withBOM);
+					dwTagCnt++;
+				}
+				tagWr.WriteToFile(ST_SERVERNAME, strTmp, servermet);
+d708 7
+a714 2
+			strTmp = pNextServer->GetDynIP();
+			if (!strTmp.IsEmpty())
+d716 1
+a716 6
+				if (IsUTF8Required(strTmp))
+				{
+					tagWr.WriteToFile(ST_DYNIP, strTmp, servermet, cfUTF8withBOM);
+					dwTagCnt++;
+				}
+				tagWr.WriteToFile(ST_DYNIP, strTmp, servermet);
+d719 7
+a725 2
+			strTmp = pNextServer->GetDescription();
+			if (!strTmp.IsEmpty())
+d727 1
+a727 6
+				if (IsUTF8Required(strTmp))
+				{
+					tagWr.WriteToFile(ST_DESCRIPTION, strTmp, servermet, cfUTF8withBOM);
+					dwTagCnt++;
+				}
+				tagWr.WriteToFile(ST_DESCRIPTION, strTmp, servermet);
+d730 110
+a839 104
+			if (pNextServer->GetFailedCount() != 0)
+			{
+				tagWr.WriteToFile(ST_FAIL, pNextServer->GetFailedCount(), servermet);
+				dwTagCnt++;
+			}
+		//	Save server preferences using eDonkey correct values
+			if ((dwTmp = pNextServer->eMule2ed2k(pNextServer->GetPreferences())) != 0)
+			{
+				tagWr.WriteToFile(ST_PREFERENCE, dwTmp, servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetNumUsers() != 0)
+			{
+				tagWr.WriteToFile("users", pNextServer->GetNumUsers(), servermet, false);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetFiles() != 0)
+			{
+				tagWr.WriteToFile("files", pNextServer->GetFiles(), servermet, false);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetPing() != 0)
+			{
+				tagWr.WriteToFile(ST_PING, pNextServer->GetPing(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetRealLastPingedTime() != 0)
+			{
+				tagWr.WriteToFile(ST_LASTPING, pNextServer->GetRealLastPingedTime(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetMaxUsers() != 0)
+			{
+				tagWr.WriteToFile(ST_MAXUSERS, pNextServer->GetMaxUsers(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetSoftMaxFiles() != 0)
+			{
+				tagWr.WriteToFile(ST_SOFTFILES, pNextServer->GetSoftMaxFiles(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetHardMaxFiles() != 0)
+			{
+				tagWr.WriteToFile(ST_HARDFILES, pNextServer->GetHardMaxFiles(), servermet);
+				dwTagCnt++;
+			}
+			strTmp = pNextServer->GetVersion();
+			if (!strTmp.IsEmpty())
+			{
+				tagWr.WriteToFile(ST_VERSION, strTmp, servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetUDPFlags() != 0)
+			{
+				tagWr.WriteToFile(ST_UDPFLAGS, pNextServer->GetUDPFlags(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetLowIDUsers() != 0)
+			{
+				tagWr.WriteToFile(ST_LOWIDUSERS, pNextServer->GetLowIDUsers(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetServerKeyUDPForce())
+			{
+				tagWr.WriteToFile(ST_UDPKEY, pNextServer->GetServerKeyUDPForce(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetServerKeyUDPIP())
+			{
+				tagWr.WriteToFile(ST_UDPKEYIP, pNextServer->GetServerKeyUDPIP(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetObfuscationPortTCP())
+			{
+				tagWr.WriteToFile(ST_TCPPORTOBFUSCATION, pNextServer->GetObfuscationPortTCP(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetObfuscationPortUDP())
+			{
+				tagWr.WriteToFile(ST_UDPPORTOBFUSCATION, pNextServer->GetObfuscationPortUDP(), servermet);
+				dwTagCnt++;
+			}
+			if (pNextServer->GetAuxPort() != 0 && pNextServer->GetAuxPort() != pNextServer->GetPort())
+			{
+				tagWr.WriteToFile("AuxPort", pNextServer->GetAuxPort(), servermet, false);
+				dwTagCnt++;
+			}
+		//	Save valid tag count
+			servermet.Seek(dwTagFilePos, CFile::begin);
+			servermet.Write(&dwTagCnt, 4);
+			servermet.SeekToEnd();
+		}
+	//	By shutdown force OS flush data direct to disk
+		if (!g_App.m_pMDlg->IsRunning())
+			_commit(_fileno(servermet.m_pStream));
+		servermet.Close();
+		
+		CString strCurServerMet;
+		CString strOldServerMet;
+		strCurServerMet.Format(_T("%sserver.met"), g_App.m_pPrefs->GetConfigDir());
+		strOldServerMet.Format(_T("%sserver_met.old"), g_App.m_pPrefs->GetConfigDir());
+		_tremove(strOldServerMet);
+		_trename(strCurServerMet, strOldServerMet);
+		_trename(strNewServerMet, strCurServerMet);
+d844 1
+a844 1
+		AddLogLine(LOG_RGB_ERROR, IDS_ERR_SAVESERVERMET2);
+d846 4
+d853 8
+@
+
+
+1.146
+log
+@Keep IP-filter description strings in ASCII to reduce memory usage.
+@
+text
+@d25 1
+@
+
+
+1.145
+log
+@Don't autoconnect using a timer;
+Load IPFilter before autoupdating the server list;
+This should completly fix the possibility of adding filtered servers.
+@
+text
+@d372 1
+a372 1
+				AddLogLine(LOG_FL_DBG | LOG_RGB_DIMMED, _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_App.m_pIPFilter->GetLastHit());
+@
+
+
+1.144
+log
+@Unified save file error reports.
+@
+text
+@d86 24
+a135 24
+//	Update IPFilter
+	bool	bLoaded = false;
+
+	if (g_App.m_pPrefs->IsIPFilterUpdateOnStart())
+	{
+		if (g_App.m_pPrefs->GetIPFilterUpdateFrequency() >= 0)
+		{
+			CTime	LastUpdate(static_cast<time_t>(g_App.m_pPrefs->GetLastIPFilterUpdate()));
+			time_t	tLastUpdate = mktime(LastUpdate.GetLocalTm(NULL));
+			time_t	tNow = mktime(CTime::GetCurrentTime().GetLocalTm(NULL));
+
+			if ((difftime(tNow, tLastUpdate) >= ((g_App.m_pPrefs->GetIPFilterUpdateFrequency() + 1) * 60 * 60 * 24)))
+			{
+				bLoaded = g_App.m_pIPFilter->DownloadIPFilter();
+				if (bLoaded)
+					g_App.m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(tNow));
+			}
+		}
+	}
+
+//	Only loads IPFilter.dat if auto-update is disabled or has failed (it avoids loading it twice).
+	if (!bLoaded)
+		g_App.m_pIPFilter->LoadFromDefaultFile(false);
+
+d137 1
+a137 1
+	if (g_App.m_pPrefs->DoAutoConnect() && g_App.m_pPrefs->AutoServerlist())
+@
+
+
+1.143
+log
+@Simplified logging system implementation.
+@
+text
+@d674 1
+a674 1
+			AddLogLine(LOG_RGB_ERROR, IDS_ERR_SAVESERVERMET);
+d1016 1
+a1016 1
+		this->SaveServerMetToFile();
+@
+
+
+1.142
+log
+@Don't autoconnect before loading ipfilter.dat (this avoid saving received servers that should have been filtered);
+Minor optimization;
+Formatting
+@
+text
+@d78 1
+a78 1
+			AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURLToDownload);
+d155 1
+a155 1
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_LOADSERVERMET));
+d164 1
+a164 1
+			AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_BADSERVERMETVERSION), byteServerListVersion);
+d219 1
+a219 1
+			AddLogLine(true, IDS_SERVERSFOUND, dwServerCount);
+d221 1
+a221 1
+			AddLogLine(true, IDS_SERVERSADDED, dwAddedServerCount, dwServerCount - dwAddedServerCount);
+d230 1
+a230 1
+			AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Error: the file server.met is corrupted, unable to load serverlist!"));
+d232 1
+a232 1
+			AddDebugLogLine(RGB_LOG_ERROR_TXT _T("Unexpected file error while reading server.met: %s, unable to load serverlist!"), GetErrorMessage(pError));
+d372 1
+a372 1
+				AddDebugLogLine(RGB_LOG_DIMMED_TXT _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_App.m_pIPFilter->GetLastHit());
+d674 1
+a674 1
+			AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_SAVESERVERMET));
+d842 1
+a842 1
+		AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_SAVESERVERMET2));
+d993 1
+a993 1
+		AddLogLine(false, IDS_ERROR_SSF);
+d1063 1
+a1063 1
+	AddDebugLogLine(_T("Possible IP Change - check for expired server UDP-keys: total keys %u, expired %u, pings forced %u, delayed pings %u"),
+@
+
+
+1.141
+log
+@change unicode support for "staticsevers.dat" to be compatible with official eMule
+@
+text
+@d86 1
+a86 1
+//	auto update the list by using an url
+d89 1
+d91 2
+a92 3
+	CString strPath = g_App.m_pPrefs->GetConfigDir() + CString(_T("server.met"));
+
+	CSingleLock AccessLock(&m_ServerMetMutex, TRUE);
+d94 1
+a94 1
+//	disable redraw during the time, when server will be added & sorted
+d97 2
+a98 2
+//	don't delete existing servers, because we might have added one by command line
+	bool bRes = AddServerMetToList(strPath, false);
+d104 1
+a104 1
+	m_bListLoaded = true;	//	list's loaded -- protection from list erase on fast closure 
+d109 1
+a109 1
+//	enable redraw since servers were already added & sorted
+d112 2
+a113 8
+//	Autoconnect to server (moved back to eMuleDlg)
+	if (g_App.m_pPrefs->DoAutoConnect() && g_App.m_pPrefs->AutoServerlist())
+		g_App.m_pMDlg->OnBnClickedButton2();
+
+//
+//	IPFilter
+//
+	BOOL bSuccessDownload = FALSE;
+d119 3
+a121 3
+			CTime LastUpdate(static_cast<time_t>(g_App.m_pPrefs->GetLastIPFilterUpdate()));
+			time_t tLastUpdate = mktime(LastUpdate.GetLocalTm(NULL));
+			time_t tNow = mktime(CTime::GetCurrentTime().GetLocalTm(NULL));
+d125 3
+a127 5
+				bSuccessDownload = g_App.m_pIPFilter->DownloadIPFilter();
+				if (bSuccessDownload)
+				{
+					g_App.m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm(NULL))));
+				}
+d131 3
+a133 6
+//
+//	Loads IPFilter.dat only if the auto-update is disabled or if the update failed,
+//	because it was already loaded if the update was successfull (it avoids loading
+//	it twice at startup).
+	if (!bSuccessDownload)
+	{
+d135 4
+a138 1
+	}
+@
+
+
+1.140
+log
+@improved string processing
+@
+text
+@d102 1
+a102 1
+	AddServersFromTextFile(strPath);
+d858 1
+a858 1
+void CServerList::AddServersFromTextFile(const CString &strFilename)
+d860 1
+a860 1
+	FILE	*pSL = _tfsopen(strFilename, _T("r"), _SH_DENYWR);
+a864 2
+	CStringA	strUTF8Line;
+	LPSTR		pcUTF8Line = strUTF8Line.GetBuffer(1024);
+d866 9
+a874 1
+	uint16		uPort;
+d878 3
+a880 1
+		if (fgets(pcUTF8Line, 1024, pSL) == NULL)
+d883 3
+a885 1
+		if (*pcUTF8Line == '#' || *pcUTF8Line == '/')
+a887 8
+	//	Since we don't using the BOM for this file we need to detect encoding format of the line
+	//	and decode it accordingly
+	//	Note: in ANSI version line will be copied without decoding
+		if (IsUTF8(pcUTF8Line))
+			MB2Str(cfUTF8, &strLine, pcUTF8Line);
+		else
+			MB2Str(cfLocalCodePage, &strLine, pcUTF8Line);
+	
+d957 64
+@
+
+
+1.139
+log
+@Proper share mode for open files (before other applications could write to a file while we were reading).
+@
+text
+@d202 1
+a202 1
+			if (pNewServer->GetListName().IsEmpty() || pNewServer->GetListName().Trim().IsEmpty())
+d266 1
+a266 1
+			pExistingServer->SetListName(pNewServer->GetListName().GetBuffer());
+@
+
+
+1.138
+log
+@Fixed modeless server list update message box (warning for autostart list update when it's empty);
+Used appropriate constants intead of numbers; Suppressed compiler warnings.
+@
+text
+@d25 1
+d860 1
+a860 1
+	FILE* pSL = _tfopen(strFilename, _T("rt"));
+@
+
+
+1.137
+log
+@Minor correction; Some parsing improvements.
+@
+text
+@d49 1
+a49 1
+		MessageBox(0, GetResString(IDS_ERR_EMPTYADRESSESDAT), GetResString(IDS_ERR_EMPTYADRESSESDAT_TITLE), 64);
+d935 1
+a935 1
+				pNewServer->SetPreference(dwPriority);
+d945 1
+a945 1
+			pExistingServer->SetPreference(dwPriority);
+@
+
+
+1.136
+log
+@Happy New Year!
+changed the mode for staticsrever.dat after review.
+@
+text
+@d874 3
+d886 1
+a886 3
+		if (strLine.GetLength() < 7)	// 5 + 2 for "\r\n"
+			continue;
+		if (strLine.GetAt(0) == _T('#') || strLine.GetAt(0) == _T('/'))
+@
+
+
+1.135
+log
+@added Unicode support for staticservers.dat
+@
+text
+@d859 1
+a859 1
+	FILE* pSL = _tfopen(strFilename, _T("rb"));
+@
+
+
+1.134
+log
+@added Unicode support for met-files
+@
+text
+@d857 1
+a857 1
+void CServerList::AddServersFromTextFile(CString strFilename)
+d859 1
+a859 1
+	CStdioFile f;
+d861 1
+a861 1
+	if (!f.Open(strFilename, CFile::modeRead | CFile::shareDenyWrite | CFile::typeText))
+d864 4
+a867 2
+	CString	strLine, strHost, strPriority, strPort;
+	uint16	uPort;
+d869 1
+a869 1
+	while (f.ReadString(strLine))
+d871 11
+d883 1
+a883 1
+		if (strLine.GetLength() < 5)
+d950 1
+a950 1
+	f.Close();
+@
+
+
+1.133
+log
+@Encryption preparations.
+@
+text
+@d711 5
+d722 5
+d733 5
+@
+
+
+1.132
+log
+@Encryption preparations.
+@
+text
+@d545 1
+a545 1
+	while (pNextServer == NULL && m_dwServerPos < dwSrvCount)
+d556 2
+a557 1
+		pNextServer = m_serverList.GetAt(posIndex);	//	Get actual server
+@
+
+
+1.131
+log
+@Encryption preparations.
+@
+text
+@d943 33
+@
+
+
+1.130
+log
+@Encryption preparations; Unicode corrections; Reduced #include depedency; Formatting.
+@
+text
+@d313 1
+a313 4
+		if ( !pPingServer->GetCryptPingReplyPending() &&
+#ifdef _CRYPT_READY
+			(theApp.GetPublicIP() != 0) &&
+#endif
+@
+
+
+1.129
+log
+@Encryption preparations.
+@
+text
+@d21 1
+d528 2
+a529 2
+//  if the list pointer is past the end of the list. (Right now there is no usability checking).
+CServer *CServerList::GetNextServer()
+d531 2
+a532 2
+	CServer*		pNextServer = NULL;
+	POSITION		posIndex;
+d537 1
+a537 1
+	const uint32	dwServerCounter = static_cast<uint32>(m_serverList.GetCount());
+d539 3
+a541 3
+// 	If we're at the end or past the end of the list 
+// 	move pointer to begin of the list & return NULL as server
+	if (m_dwServerPos >= dwServerCounter)
+d547 2
+a548 2
+//	Find next server 
+	while (pNextServer == NULL && m_dwServerPos < dwServerCounter)
+d561 1
+a561 1
+	
+d859 1
+a859 1
+		if (strLine.GetAt(0) == '#' || strLine.GetAt(0) == '/')
+d863 1
+a863 1
+		int pos = strLine.Find(':');
+d866 1
+a866 1
+			if ((pos = strLine.Find(',')) < 0)
+d873 1
+a873 1
+		if ((pos = strLine.Find(',')) < 0)
+d879 1
+a879 1
+		pos = strLine.Find(',');
+d944 3
+@
+
+
+1.128
+log
+@Server statistics request is done now after successful ping (before was together with ping).
+@
+text
+@d312 30
+d343 2
+@
+
+
+1.127
+log
+@Corrected issues introduced by recent integration -- last ping time was incorrect in tooltips.
+@
+text
+@a324 17
+
+		pPingServer->SetLastDescPingedCount(false);
+		if (pPingServer->GetLastDescPingedCount() < 2)
+		{
+		// eserver 16.45+ supports a new OP_SERVER_DESC_RES answer, if the OP_SERVER_DESC_REQ contains a uint32
+		// challenge, the server returns additional info with OP_SERVER_DESC_RES. To properly distinguish the
+		// old and new OP_SERVER_DESC_RES answer, the challenge has to be selected carefully. The first 2 bytes
+		// of the challenge (in network byte order) MUST NOT be a valid string-len-int16!
+			pPacket = new Packet(OP_SERVER_DESC_REQ, 4);
+			dwChallenge = (rand() << 16) | INV_SERV_DESC_LEN; // 0xF0FF = 'invalid' string length
+			pPingServer->SetDescReqChallenge(dwChallenge);
+			POKE_DWORD(pPacket->m_pcBuffer, dwChallenge);
+			g_App.m_pUploadQueue->AddUpDataOverheadServer(pPacket->m_dwSize);
+			g_App.m_pServerConnect->SendUDPPacket(pPacket, pPingServer, true);
+		}
+		else
+			pPingServer->SetLastDescPingedCount(true);
+@
+
+
+1.126
+log
+@Changed randomization algorithm for UDP server ping to simplify encryption implementation.
+@
+text
+@d311 1
+d542 1
+a543 3
+		m_dwServerPos++;	//	Move the pointer to the next one
+
+	//	TODO: Add more option to filter bad server like min ping, min users etc
+d738 1
+a738 1
+			if (pNextServer->GetLastPingedTime() != 0)
+d740 1
+a740 1
+				tagWr.WriteToFile(ST_LASTPING, pNextServer->GetLastPingedTime(), servermet);
+@
+
+
+1.125
+log
+@Resolved some compiling warnings.
+@
+text
+@d246 1
+a246 1
+bool CServerList::AddServer(CServer	*pNewServer, bool bChangeServerInfo/* = false*/)
+d297 1
+a297 1
+			((dwCurTime - pPingServer->GetLastPingedTime()) < (UDPSERVSTATREASKTIME + (dwRnd & 1023))) )
+d311 2
+a312 1
+		Packet		*pPacket = new Packet(OP_GLOBSERVSTATREQ, 4);
+d314 10
+a323 9
+		dwChallenge = 0x55AA0000 + (dwRnd & 0xFFFF);
+		pPingServer->SetChallenge(dwChallenge);
+		POKE_DWORD(pPacket->m_pcBuffer, dwChallenge);
+		pPingServer->SetLastPinged(::GetTickCount());
+		pPingServer->SetLastPingedTime(dwCurTime);
+		pPingServer->AddFailedCount();
+		g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pPingServer);
+		g_App.m_pUploadQueue->AddUpDataOverheadServer(pPacket->m_dwSize);
+		g_App.m_pServerConnect->SendUDPPacket(pPacket, pPingServer, true);
+d341 1
+@
+
+
+1.124
+log
+@Code restructuring, update and formatting.
+@
+text
+@d552 1
+a552 1
+	while (!nextserver && (ui < m_serverList.GetCount()))
+d564 1
+a564 1
+		if (searchserverpos >= m_serverList.GetCount())
+d575 1
+a575 1
+	while (!nextserver && (ui < m_serverList.GetCount()))
+d587 1
+a587 1
+		if (statserverpos >= m_serverList.GetCount())
+@
+
+
+1.123
+log
+@Encryption preparations; Minor formatting.
+@
+text
+@d378 1
+a378 1
+			g_App.m_pDownloadQueue->pCurUDPServer = GetNextServer(out_server);
+d538 2
+a539 4
+	//	Get actuall server
+		pNextServer = m_serverList.GetAt(posIndex);
+	//	Move the pointer to the next one
+		m_dwServerPos++;
+d549 4
+a552 3
+	CServer * nextserver = NULL;
+	uint32 i = 0;
+	while (!nextserver && i != m_serverList.GetCount())
+d563 2
+a564 2
+		i++;
+		if (searchserverpos == m_serverList.GetCount())
+d572 4
+a575 3
+	CServer * nextserver = NULL;
+	uint32 i = 0;
+	while (!nextserver && i != m_serverList.GetCount())
+d586 2
+a587 2
+		i++;
+		if (statserverpos == m_serverList.GetCount())
+d593 1
+a593 1
+CServer* CServerList::GetNextServer(CServer* lastserver)
+d596 2
+a597 3
+		return 0;
+
+	if (lastserver == NULL)
+d600 1
+a600 1
+	POSITION pos = m_serverList.Find(lastserver);
+a602 2
+	{
+		TRACE("Error: CServerList::GetNextServer");
+a603 1
+	}
+a605 1
+
+d608 1
+a608 2
+	else
+		return m_serverList.GetAt(pos);
+@
+
+
+1.122
+log
+@Removed some suspicious code which was supposed to remove adding server from the server list if it is filtered (the thing is that server object is created for every attempt to add, so it can't be in the server list).
+@
+text
+@d455 1
+a455 1
+void CServerList::MoveServerDown(CServer* aServer)
+d457 3
+a459 3
+	POSITION pos1, pos2;
+	uint16 i = 0;
+	CServer	   *pServer;
+d464 1
+a464 1
+		if (pServer == aServer)
+d480 2
+a481 2
+	uint16	i = 0;
+	CServer	   *pServer;
+d778 20
+@
+
+
+1.121
+log
+@Added 64bit tag support.
+@
+text
+@a362 4
+
+			if (!g_App.m_pPrefs->GetAddServersFromConn())
+			//	Remove filtered servers only if 'update from servers/clients' disabled (otherwise receive-remove loop)
+				RemoveServer(in_server);
+@
+
+
+1.120
+log
+@String processing speed-up in static servers loading routine.
+@
+text
+@d733 1
+a733 1
+				tagWr.WriteToFile("users", pNextServer->GetNumUsers(), servermet);
+d738 1
+a738 1
+				tagWr.WriteToFile("files", pNextServer->GetFiles(), servermet);
+d784 1
+a784 1
+				tagWr.WriteToFile("AuxPort", pNextServer->GetAuxPort(), servermet);
+@
+
+
+1.119
+log
+@Improved string processing.
+@
+text
+@d68 1
+a68 1
+		dlgDownload.m_sURLToDownload = strURLToDownload.GetBuffer();
+d76 1
+a76 1
+			AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURLToDownload.GetBuffer());
+d823 2
+a824 1
+	CString strLine, strHost, strPriority, strPort;
+d836 1
+a836 1
+		if (pos == -1)
+d838 1
+a838 2
+			pos = strLine.Find(','); 
+			if (pos == -1)
+d845 1
+a845 2
+		pos = strLine.Find(',');
+		if (pos == -1)
+d858 3
+a860 8
+			try
+			{
+				dwPriority = _tstoi(strPriority.GetBuffer(0));
+				if (dwPriority > PR_HIGH)
+					dwPriority = PR_HIGH;
+			}
+			catch (...)
+			{}
+d864 5
+a868 4
+	//	Fetch name
+		CString strName = strLine;
+		strName.Remove(_T('\r'));
+		strName.Remove(_T('\n'));
+d871 1
+a871 1
+		CServer* pExistingServer = GetServerByAddress(strHost.GetBuffer(), _tstoi(strPort));
+d874 2
+a875 2
+			CServer* pNewServer = new CServer(_tstoi(strPort), strHost.GetBuffer());
+			if (pNewServer)
+d878 1
+a878 1
+				pNewServer->SetListName(strName.GetBuffer());
+a881 1
+				{
+a882 1
+				}
+d888 1
+a888 1
+			pExistingServer->SetListName(strName);
+a891 1
+			{
+a892 1
+			}
+@
+
+
+1.118
+log
+@Unicode corrections.
+@
+text
+@d230 1
+a230 1
+	catch (CFileException *error)
+d235 2
+a236 2
+		if (error->m_cause == CFileException::endOfFile)
+			AddDebugLogLine(RGB_LOG_ERROR + _T("Error: the file server.met is corrupted, unable to load serverlist!"));
+d238 2
+a239 2
+			AddDebugLogLine(RGB_LOG_ERROR + _T("Unexpected file error while reading server.met: %s, unable to load serverlist!"), GetErrorMessage(error));
+		error->Delete();
+d362 1
+a362 1
+				AddDebugLogLine(RGB_LOG_DIMMED + _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_App.m_pIPFilter->GetLastHit());
+@
+
+
+1.117
+log
+@Compatibility with VC2005 [brengarne].
+@
+text
+@d251 1
+a251 1
+	if(pNewServer->GetDynIP() == "255.255.255.255")
+d638 2
+a639 2
+//	Perform a linear search through the server list for a Server with the specified IP and port.
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; )
+d641 1
+a641 1
+		CServer	   *pServer = m_serverList.GetNext(pos);
+d643 1
+a643 1
+		if ((nPort == pServer->GetPort()  || nPort == pServer->GetAuxPort() || nPort == 0) && pServer->GetAddress() == strAddress)
+d895 1
+a895 1
+			pExistingServer->SetListName(strName.GetBuffer());
+@
+
+
+1.116
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d124 2
+a125 2
+			time_t tLastUpdate = mktime(LastUpdate.GetLocalTm());
+			time_t tNow = mktime(CTime::GetCurrentTime().GetLocalTm());
+d132 1
+a132 1
+					g_App.m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm())));
+@
+
+
+1.115
+log
+@renamed 3 variables
+@
+text
+@d45 2
+a46 2
+	g_App.g_pPrefs->LoadServerlistAddresses();
+	if (g_App.g_pPrefs->m_addressesList.IsEmpty())
+d56 2
+a57 2
+	servermet.Format(_T("%sserver.met"), g_App.g_pPrefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"), g_App.g_pPrefs->GetConfigDir());
+d61 1
+a61 1
+	POSITION Pos = g_App.g_pPrefs->m_addressesList.GetHeadPosition();
+d65 1
+a65 1
+		strURLToDownload = g_App.g_pPrefs->m_addressesList.GetNext(Pos);
+d85 1
+a85 1
+	if (g_App.g_pPrefs->AutoServerlist())
+d88 1
+a88 1
+	CString strPath = g_App.g_pPrefs->GetConfigDir() + CString(_T("server.met"));
+d99 1
+a99 1
+	strPath.Format(_T("%sstaticservers.dat"), g_App.g_pPrefs->GetConfigDir());
+d111 1
+a111 1
+	if (g_App.g_pPrefs->DoAutoConnect() && g_App.g_pPrefs->AutoServerlist())
+d119 1
+a119 1
+	if (g_App.g_pPrefs->IsIPFilterUpdateOnStart())
+d121 1
+a121 1
+		if (g_App.g_pPrefs->GetIPFilterUpdateFrequency() >= 0)
+d123 1
+a123 1
+			CTime LastUpdate(static_cast<time_t>(g_App.g_pPrefs->GetLastIPFilterUpdate()));
+d127 1
+a127 1
+			if ((difftime(tNow, tLastUpdate) >= ((g_App.g_pPrefs->GetIPFilterUpdateFrequency() + 1) * 60 * 60 * 24)))
+d132 1
+a132 1
+					g_App.g_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm())));
+d254 1
+a254 1
+	if (g_App.g_pPrefs->IsFilterBadIPs())
+d303 2
+a304 2
+		if ( pPingServer->GetFailedCount() >= g_App.g_pPrefs->GetDeadserverRetries()
+		  && g_App.g_pPrefs->DeadServer()
+d357 1
+a357 1
+	if (g_App.g_pPrefs->IsFilterServersByIP())
+d361 1
+a361 1
+			if (!g_App.g_pPrefs->IsCMNotLog())
+d364 1
+a364 1
+			if (!g_App.g_pPrefs->GetAddServersFromConn())
+d666 1
+a666 1
+	strNewServerMet.Format(_T("%sserver.met.new"), g_App.g_pPrefs->GetConfigDir());
+d799 2
+a800 2
+		strCurServerMet.Format(_T("%sserver.met"), g_App.g_pPrefs->GetConfigDir());
+		strOldServerMet.Format(_T("%sserver_met.old"), g_App.g_pPrefs->GetConfigDir());
+@
+
+
+1.114
+log
+@Removed list clean up as it is done automatically in destructor.
+@
+text
+@d45 2
+a46 2
+	g_eMuleApp.m_pGlobPrefs->LoadServerlistAddresses();
+	if (g_eMuleApp.m_pGlobPrefs->m_addressesList.IsEmpty())
+d56 2
+a57 2
+	servermet.Format(_T("%sserver.met"), g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"), g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+d61 1
+a61 1
+	POSITION Pos = g_eMuleApp.m_pGlobPrefs->m_addressesList.GetHeadPosition();
+d65 1
+a65 1
+		strURLToDownload = g_eMuleApp.m_pGlobPrefs->m_addressesList.GetNext(Pos);
+d85 1
+a85 1
+	if (g_eMuleApp.m_pGlobPrefs->AutoServerlist())
+d88 1
+a88 1
+	CString strPath = g_eMuleApp.m_pGlobPrefs->GetConfigDir() + CString(_T("server.met"));
+d93 1
+a93 1
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(FALSE);
+d99 1
+a99 1
+	strPath.Format(_T("%sstaticservers.dat"), g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+d105 1
+a105 1
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SortFirstInit();
+d108 1
+a108 1
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(TRUE);
+d111 2
+a112 2
+	if (g_eMuleApp.m_pGlobPrefs->DoAutoConnect() && g_eMuleApp.m_pGlobPrefs->AutoServerlist())
+		g_eMuleApp.m_pdlgEmule->OnBnClickedButton2();
+d119 1
+a119 1
+	if (g_eMuleApp.m_pGlobPrefs->IsIPFilterUpdateOnStart())
+d121 1
+a121 1
+		if (g_eMuleApp.m_pGlobPrefs->GetIPFilterUpdateFrequency() >= 0)
+d123 1
+a123 1
+			CTime LastUpdate(static_cast<time_t>(g_eMuleApp.m_pGlobPrefs->GetLastIPFilterUpdate()));
+d127 1
+a127 1
+			if ((difftime(tNow, tLastUpdate) >= ((g_eMuleApp.m_pGlobPrefs->GetIPFilterUpdateFrequency() + 1) * 60 * 60 * 24)))
+d129 1
+a129 1
+				bSuccessDownload = g_eMuleApp.m_pIPFilter->DownloadIPFilter();
+d132 1
+a132 1
+					g_eMuleApp.m_pGlobPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm())));
+d143 1
+a143 1
+		g_eMuleApp.m_pIPFilter->LoadFromDefaultFile(false);
+d162 1
+a162 1
+				g_eMuleApp.m_pdlgEmule->DisableAutoBackup();
+d171 1
+a171 1
+			g_eMuleApp.m_pdlgEmule->DisableAutoBackup();
+d206 1
+a206 1
+			if (!g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.AddServer(pNewServer, true, true))
+d208 1
+a208 1
+				pExistingServer = g_eMuleApp.m_pServerList->GetServerByAddress(pNewServer->GetAddress(), pNewServer->GetPort());
+d214 1
+a214 1
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+d240 1
+a240 1
+		g_eMuleApp.m_pdlgEmule->DisableAutoBackup();
+d254 1
+a254 1
+	if (g_eMuleApp.m_pGlobPrefs->IsFilterBadIPs())
+d268 1
+a268 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+d274 1
+a274 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+d286 1
+a286 1
+	if (g_eMuleApp.m_pServerConnect->IsConnected() && m_serverList.GetCount() > 0)
+d303 2
+a304 2
+		if ( pPingServer->GetFailedCount() >= g_eMuleApp.m_pGlobPrefs->GetDeadserverRetries()
+		  && g_eMuleApp.m_pGlobPrefs->DeadServer()
+d307 1
+a307 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RemoveServer(pPingServer);
+d319 3
+a321 3
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pPingServer);
+		g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(pPacket->m_dwSize);
+		g_eMuleApp.m_pServerConnect->SendUDPPacket(pPacket, pPingServer, true);
+d334 2
+a335 2
+			g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(pPacket->m_dwSize);
+			g_eMuleApp.m_pServerConnect->SendUDPPacket(pPacket, pPingServer, true);
+d357 1
+a357 1
+	if (g_eMuleApp.m_pGlobPrefs->IsFilterServersByIP())
+d359 1
+a359 1
+		if (in_server->HasDynIP() || g_eMuleApp.m_pIPFilter->IsFiltered(in_server->GetIP()))
+d361 2
+a362 2
+			if (!g_eMuleApp.m_pGlobPrefs->IsCMNotLog())
+				AddDebugLogLine(RGB_LOG_DIMMED + _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_eMuleApp.m_pIPFilter->GetLastHit());
+d364 1
+a364 1
+			if (!g_eMuleApp.m_pGlobPrefs->GetAddServersFromConn())
+d381 2
+a382 2
+		if (g_eMuleApp.m_pDownloadQueue->pCurUDPServer == out_server)
+			g_eMuleApp.m_pDownloadQueue->pCurUDPServer = GetNextServer(out_server);
+d666 1
+a666 1
+	strNewServerMet.Format(_T("%sserver.met.new"), g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+d793 1
+a793 1
+		if (!g_eMuleApp.m_pdlgEmule->IsRunning())
+d799 2
+a800 2
+		strCurServerMet.Format(_T("%sserver.met"), g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+		strOldServerMet.Format(_T("%sserver_met.old"), g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+d886 1
+a886 1
+				if (!g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.AddServer(pNewServer, true))
+d898 1
+a898 1
+			if (g_eMuleApp.m_pdlgEmule->m_wndServer)
+d900 1
+a900 1
+				g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pExistingServer);
+@
+
+
+1.113
+log
+@Changed server ping to avoid UDP ping storm {lugdunummaster};
+Removed srand(), the base is set on start -- no need to reset it before every rand().
+@
+text
+@d452 1
+a452 1
+	if (m_bListLoaded)	//	Save only if list was already loaded to avoid list reset
+d455 1
+a455 4
+	POSITION pos1, pos2;
+
+	for (pos1 = m_serverList.GetHeadPosition(); (pos2 = pos1) != NULL;)
+	{
+a456 2
+		m_serverList.RemoveAt(pos2);
+	}
+@
+
+
+1.112
+log
+@Global preferences reference instead of local pointer.
+@
+text
+@d288 1
+a288 1
+		uint32	dwChallenge, dwCurTime;
+d294 1
+d296 2
+a297 1
+		while (pPingServer->GetLastPingedTime() != 0 && (dwCurTime - pPingServer->GetLastPingedTime()) < UDPSERVSTATREASKTIME)
+d313 1
+a313 3
+		srand(dwCurTime);
+
+		dwChallenge = 0x55AA0000 + (uint16)rand();
+@
+
+
+1.111
+log
+@Fixed loss of server list caused by fast client closure right after startup;
+Removed unused class member; Formatting.
+@
+text
+@d33 1
+a33 1
+CServerList::CServerList(CPreferences *in_prefs) : m_serverList(20)
+a37 1
+	m_pPrefs = in_prefs;
+d45 2
+a46 2
+	g_eMuleApp.m_pGlobPrefs->LoadServerlistAddresses() ; // Added by Tarod
+	if (m_pPrefs->m_addressesList.IsEmpty())
+d56 2
+a57 2
+	servermet.Format(_T("%sserver.met"), m_pPrefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"), m_pPrefs->GetConfigDir());
+d61 1
+a61 1
+	POSITION Pos = m_pPrefs->m_addressesList.GetHeadPosition();
+d65 1
+a65 1
+		strURLToDownload = m_pPrefs->m_addressesList.GetNext(Pos);
+d85 1
+a85 1
+	if (m_pPrefs->AutoServerlist())
+d88 1
+a88 1
+	CString strPath = m_pPrefs->GetConfigDir() + CString(_T("server.met"));
+d99 1
+a99 1
+	strPath.Format(_T("%sstaticservers.dat"), m_pPrefs->GetConfigDir());
+d111 1
+a111 1
+	if (m_pPrefs->DoAutoConnect() && m_pPrefs->AutoServerlist())
+d119 1
+a119 1
+	if (m_pPrefs->IsIPFilterUpdateOnStart())
+d121 1
+a121 1
+		if (m_pPrefs->GetIPFilterUpdateFrequency() >= 0)
+d123 1
+a123 1
+			CTime LastUpdate(static_cast<time_t>(m_pPrefs->GetLastIPFilterUpdate()));
+d127 1
+a127 1
+			if ((difftime(tNow, tLastUpdate) >= ((m_pPrefs->GetIPFilterUpdateFrequency() + 1) * 60 * 60 * 24)))
+d132 1
+a132 1
+					m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm())));
+d671 1
+a671 1
+	strNewServerMet.Format(_T("%sserver.met.new"), m_pPrefs->GetConfigDir());
+d804 2
+a805 2
+		strCurServerMet.Format(_T("%sserver.met"), m_pPrefs->GetConfigDir());
+		strOldServerMet.Format(_T("%sserver_met.old"), m_pPrefs->GetConfigDir());
+@
+
+
+1.110
+log
+@Updated algorithm to retrieve server description.
+@
+text
+@d35 1
+a35 2
+	m_iNumServers = 0;
+	m_iServerPos = 0;
+d39 2
+a40 1
+	delservercount = 0;
+d103 2
+d387 1
+a387 1
+		delservercount++;
+d453 2
+a454 1
+	SaveServerMetToFile();
+d531 1
+a531 1
+	if (m_iServerPos >= dwServerCounter)
+d533 1
+a533 1
+		m_iServerPos = 0;
+d538 1
+a538 1
+	while (pNextServer == NULL && m_iServerPos < dwServerCounter)
+d540 1
+a540 1
+		posIndex = m_serverList.FindIndex(m_iServerPos);
+d545 1
+a545 1
+			m_iServerPos = 0;
+d551 1
+a551 1
+		m_iServerPos++;
+@
+
+
+1.109
+log
+@Faster loading and saving of configuration files.
+@
+text
+@d287 2
+a288 2
+		CServer		*pPingServer = GetNextStatServer();
+		CServer		*pTestServer = pPingServer;
+d290 1
+a290 2
+		if (pPingServer == NULL)
+		{
+d292 3
+a294 2
+		}
+		while (pPingServer->GetLastPingedTime() != 0 && (static_cast<uint32>(time(NULL)) - pPingServer->GetLastPingedTime()) < UDPSERVSTATREASKTIME)
+d310 1
+a310 1
+		srand((unsigned)time(NULL));
+d312 3
+a314 4
+		uint32		c = 0x55AA0000 + (uint16)rand();
+
+		pPingServer->SetChallenge(c);
+		memcpy2(pPacket->m_pcBuffer, &c, 4);
+d316 1
+a316 1
+		pPingServer->SetLastPingedTime((uint32)time(NULL));
+d320 1
+a321 1
+		g_eMuleApp.m_pServerConnect->SendUDPPacket(pPacket, pPingServer, true);
+d325 8
+a332 1
+			pPacket = new Packet(OP_SERVER_DESC_REQ);
+@
+
+
+1.108
+log
+@Removed unused UDP broadcast code.
+@
+text
+@d22 1
+a22 1
+#include "safefile.h"
+d150 1
+a150 1
+	CSafeFile	servermet;
+d156 1
+a156 1
+		if (!servermet.Open(strFile, CFile::modeRead | CFile::osSequentialScan | CFile::shareDenyWrite))
+a783 1
+
+@
+
+
+1.107
+log
+@Optimized parameter tag processing (preparation and parsing).
+@
+text
+@a39 1
+	udp_timer = 0;
+a453 2
+	if (udp_timer)
+		KillTimer(0, udp_timer);
+a593 64
+//	Unused atm. but might be useful later
+bool CServerList::BroadCastPacket(Packet* packet)
+{
+	if (udp_timer)
+		return false;
+
+	udp_timer = SetTimer(0, 4322, UDPSEARCHSPEED, UDPTimerProc);
+	broadcastpos = m_serverList.GetHeadPosition();
+	broadcastpacket = packet;
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::SendNextPacket()
+{
+#ifdef OLD_SOCKETS_ENABLED
+	if (g_eMuleApp.m_pListenSocket->TooManySockets())
+	{
+		KillTimer(0, udp_timer);
+		udp_timer = 0;
+		delete broadcastpacket;
+		return;
+	}
+#endif //OLD_SOCKETS_ENABLED
+
+	if (broadcastpos)
+	{
+		CServer *pServer = m_serverList.GetAt(broadcastpos);
+#ifdef OLD_SOCKETS_ENABLED
+
+		if (pServer != g_eMuleApp.m_pServerConnect->GetCurrentServer())
+			g_eMuleApp.m_pServerConnect->SendUDPPacket(broadcastpacket, pServer, false);
+#endif //OLD_SOCKETS_ENABLED
+
+		m_serverList.GetNext(broadcastpos);
+	}
+	else
+	{
+		KillTimer(0, udp_timer);
+		udp_timer = 0;
+		delete broadcastpacket;
+
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::CancelUDPBroadcast()
+{
+	if (udp_timer)
+	{
+		KillTimer(0, udp_timer);
+		udp_timer = 0;
+		delete broadcastpacket;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CALLBACK CServerList::UDPTimerProc(HWND hwnd, UINT uMsg, UINT_PTR idEvent, DWORD dwTime)
+{
+	EMULE_TRY
+
+	g_eMuleApp.m_pServerList->SendNextPacket();
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.106
+log
+@Server LowID users statistics; Unified processing of server priorities;
+Changed the method of saving server tags to server.met;
+Don't save tags with zero values to server.met; Removed unrequired variables.
+@
+text
+@d749 4
+a752 3
+		CServer	*pNextServer;
+		CString	strTmp;
+		uint32	dwTmp, dwTagFilePos;
+d769 1
+a769 2
+				CServerTag servername(ST_SERVERNAME, strTmp);
+				servername.WriteToFile(servermet);
+d775 1
+a775 2
+				CServerTag serverdynip(ST_DYNIP, strTmp);
+				serverdynip.WriteToFile(servermet);
+d781 1
+a781 2
+				CServerTag serverdesc(ST_DESCRIPTION, strTmp);
+				serverdesc.WriteToFile(servermet);
+d786 1
+a786 2
+				CServerTag serverfail(ST_FAIL, pNextServer->GetFailedCount());
+				serverfail.WriteToFile(servermet);
+d792 1
+a792 2
+				CServerTag serverpref(ST_PREFERENCE, dwTmp);
+				serverpref.WriteToFile(servermet);
+d797 1
+a797 2
+				CServerTag serveruser(_T("users"), pNextServer->GetNumUsers());
+				serveruser.WriteToFile(servermet);
+d802 1
+a802 2
+				CServerTag serverfiles(_T("files"), pNextServer->GetFiles());
+				serverfiles.WriteToFile(servermet);
+d807 1
+a807 2
+				CServerTag serverping(ST_PING, pNextServer->GetPing());
+				serverping.WriteToFile(servermet);
+d812 1
+a812 2
+				CServerTag serverlastp(ST_LASTPING, pNextServer->GetLastPingedTime());
+				serverlastp.WriteToFile(servermet);
+d817 1
+a817 2
+				CServerTag servermaxusers(ST_MAXUSERS, pNextServer->GetMaxUsers());
+				servermaxusers.WriteToFile(servermet);
+d822 1
+a822 2
+				CServerTag serversoftfiles(ST_SOFTFILES, pNextServer->GetSoftMaxFiles());
+				serversoftfiles.WriteToFile(servermet);
+d827 1
+a827 2
+				CServerTag serverhardfiles(ST_HARDFILES, pNextServer->GetHardMaxFiles());
+				serverhardfiles.WriteToFile(servermet);
+d833 1
+a833 2
+				CServerTag serverversion(ST_VERSION, strTmp);
+				serverversion.WriteToFile(servermet);
+d838 1
+a838 2
+				CServerTag serverUDPFlags(ST_UDPFLAGS, pNextServer->GetUDPFlags());
+				serverUDPFlags.WriteToFile(servermet);
+d843 1
+a843 2
+				CServerTag tagSrv(ST_LOWIDUSERS, pNextServer->GetLowIDUsers());
+				tagSrv.WriteToFile(servermet);
+d848 1
+a848 2
+				CServerTag ServerAuxPort(_T("AuxPort"), pNextServer->GetAuxPort());
+				ServerAuxPort.WriteToFile(servermet);
+@
+
+
+1.105
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@a35 1
+	m_uServerListVersion = 0;
+d151 3
+a153 3
+	CSafeFile servermet;
+	CServer* pNewServer = NULL;
+	CServer* pExistingServer = NULL;
+d166 2
+a167 2
+		servermet.Read(&m_uServerListVersion, 1);
+		if (m_uServerListVersion != 0xE0 && m_uServerListVersion != MET_HEADER)
+d170 1
+a170 1
+			AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_BADSERVERMETVERSION), m_uServerListVersion);
+d197 1
+a197 1
+			for (uint32 i = 0;i != sCurSavingServer.m_dwTagCount;i++)
+d230 1
+a230 1
+	catch (CFileException * error)
+d384 2
+a385 1
+void CServerList::GetStatus(uint32 &total, uint32 &failed, uint32 &user, uint32 &file, uint32 &tuser, uint32 &tfile, double &occ)
+d394 3
+a396 1
+	uint32 m_dwMaxUsers = 0;
+d411 1
+d419 1
+a419 1
+			m_dwMaxUsers += pServer->GetMaxUsers();
+d422 2
+a423 2
+	if (m_dwMaxUsers > 0)
+		occ = static_cast<double>(tuserk * 100.0) / m_dwMaxUsers;
+d493 1
+a493 1
+		if (pServer->GetPreferences() == CServer::SERVERPRIORITY_HIGH)
+d499 1
+a499 1
+		else if (pServer->GetPreferences() == CServer::SERVERPRIORITY_LOW)
+d734 4
+a737 2
+		FILE* servermet = _tfopen(strNewServerMet, _T("wb"));
+		if (!servermet)
+d742 2
+a743 2
+		m_uServerListVersion = 0xE0;
+		fwrite(&m_uServerListVersion, 1, 1, servermet);
+d746 1
+a746 1
+		fwrite(&dwServerCount, 4, 1, servermet);
+d749 3
+a751 1
+		CServer* pNextServer;
+d753 1
+a753 1
+		for (uint32 j = 0; j != dwServerCount; j++)
+d755 1
+d760 1
+a760 12
+			uint16 uTagcount = 10;
+			
+			if (!pNextServer->GetListName().IsEmpty())
+				uTagcount++;
+			if (!pNextServer->GetDynIP().IsEmpty())
+				uTagcount++;
+			if (!pNextServer->GetDescription().IsEmpty())
+				uTagcount++;
+			if (!pNextServer->GetVersion().IsEmpty())
+				uTagcount++;
+			if (pNextServer->GetAuxPort() != 0 && pNextServer->GetAuxPort() != pNextServer->GetPort())
+				uTagcount++;
+d762 2
+a763 2
+			sCurSavingServer.m_dwTagCount = uTagcount;
+			fwrite(&sCurSavingServer, 1, sizeof(ServerMet_Struct), servermet);
+d765 2
+a766 1
+			if (!pNextServer->GetListName().IsEmpty())
+d768 1
+a768 1
+				CServerTag servername(ST_SERVERNAME, pNextServer->GetListName());
+d770 1
+d772 2
+a773 1
+			if (!pNextServer->GetDynIP().IsEmpty())
+d775 1
+a775 1
+				CServerTag serverdynip(ST_DYNIP, pNextServer->GetDynIP());
+d777 1
+d779 2
+a780 1
+			if (!pNextServer->GetDescription().IsEmpty())
+d782 1
+a782 1
+				CServerTag serverdesc(ST_DESCRIPTION, pNextServer->GetDescription());
+d784 7
+a791 2
+			CServerTag serverfail(ST_FAIL, pNextServer->GetFailedCount());
+			serverfail.WriteToFile(servermet);
+d793 25
+a817 17
+			CServerTag serverpref(ST_PREFERENCE, pNextServer->eMule2ed2k(pNextServer->GetPreferences()));
+			serverpref.WriteToFile(servermet);
+			CServerTag serveruser(_T("users"), pNextServer->GetNumUsers());
+			serveruser.WriteToFile(servermet);
+			CServerTag serverfiles(_T("files"), pNextServer->GetFiles());
+			serverfiles.WriteToFile(servermet);
+			CServerTag serverping(ST_PING, pNextServer->GetPing());
+			serverping.WriteToFile(servermet);
+			CServerTag serverlastp(ST_LASTPING, pNextServer->GetLastPingedTime());
+			serverlastp.WriteToFile(servermet);
+			CServerTag servermaxusers(ST_MAXUSERS, pNextServer->GetMaxUsers());
+			servermaxusers.WriteToFile(servermet);
+			CServerTag serversoftfiles(ST_SOFTFILES, pNextServer->GetSoftMaxFiles());
+			serversoftfiles.WriteToFile(servermet);
+			CServerTag serverhardfiles(ST_HARDFILES, pNextServer->GetHardMaxFiles());
+			serverhardfiles.WriteToFile(servermet);
+			if (!pNextServer->GetVersion().IsEmpty())
+d819 26
+a844 1
+				CServerTag serverversion(ST_VERSION, pNextServer->GetVersion());
+d846 13
+a859 2
+			CServerTag serverUDPFlags(ST_UDPFLAGS, pNextServer->GetUDPFlags() );
+			serverUDPFlags.WriteToFile(servermet);
+d862 1
+a862 1
+				CServerTag ServerAuxPort(_T("AuxPort"), static_cast<int>(pNextServer->GetAuxPort()));
+d864 1
+d866 5
+d874 2
+a875 2
+			_commit(_fileno(servermet));
+		fclose(servermet);
+d885 1
+a885 1
+	catch (CFileException * error)
+d933 3
+a935 1
+		int priority = PR_HIGH;
+d941 3
+a943 3
+				priority = _tstoi(strPriority.GetBuffer(0));
+				if ((priority < 0) || (priority > 2))
+					priority = PR_HIGH;
+d965 1
+a965 1
+				pNewServer->SetPreference((CServer::EnumServerPriority)priority);
+d977 1
+a977 1
+			pExistingServer->SetPreference((CServer::EnumServerPriority)priority);
+@
+
+
+1.104
+log
+@Removed 'Remove all Servers' menu item.
+@
+text
+@d600 1
+a600 1
+	udp_timer = SetTimer(0, 4322, UDPSEARCHSPEED, CServerList::UDPTimerProc);
+@
+
+
+1.103
+log
+@More file sharing corrections to allow read-only access for other applications (official).
+@
+text
+@d18 1
+a18 1
+#include "StdAfx.h"
+a151 5
+//	if (!bMergeWithPrevList)
+//	{
+//		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.DeleteAllItems();
+//		RemoveAllServers();
+//	}
+d385 1
+a385 13
+void CServerList::RemoveAllServers()
+{
+	POSITION pos1, pos2;
+
+	for (pos1 = m_serverList.GetHeadPosition(); (pos2 = pos1) != NULL;)
+	{
+		delete m_serverList.GetNext(pos1);
+		m_serverList.RemoveAt(pos2);
+		delservercount++;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CServerList::GetStatus (uint32 &total, uint32 &failed, uint32 &user, uint32 &file, uint32 &tuser, uint32 &tfile, double &occ)
+@
+
+
+1.102
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d163 1
+a163 1
+		if (!servermet.Open(strFile, CFile::modeRead | CFile::osSequentialScan))
+d206 1
+a206 1
+			if (!pNewServer->GetListName() || pNewServer->GetListName().Trim().IsEmpty())
+@
+
+
+1.101
+log
+@More DebugLog formating and changes
+@
+text
+@d242 1
+a242 1
+			AddDebugLogLine(true, RGB_LOG_ERROR + _T("Error: the file server.met is corrupted, unable to load serverlist!"));
+d244 1
+a244 1
+			AddDebugLogLine(true, RGB_LOG_ERROR + _T("Unexpected file error while reading server.met: %s, unable to load serverlist!"), GetErrorMessage(error));
+d362 1
+a362 1
+				AddDebugLogLine(false, RGB_LOG_DIMMED + _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_eMuleApp.m_pIPFilter->GetLastHit());
+@
+
+
+1.100
+log
+@code formatting
+@
+text
+@d242 1
+a242 1
+			AddDebugLogLine(true, RGB_LOG_ERROR + GetResString(IDS_ERR_BADSERVERLIST));
+d244 1
+a244 1
+			AddDebugLogLine(true, RGB_LOG_ERROR + GetResString(IDS_ERR_FILEERROR_SERVERMET), GetErrorMessage(error));
+d355 2
+a356 2
+//	--- no4one : using filters from m_pIPFilter.dat for server filtering ---
+//	netwolf: option for filtering servers listed in m_pIPFilter.dat and DynIP server
+d358 1
+d365 1
+a365 1
+				//netwolf: remove filtered servers only if 'update from servers/clients' disabled (otherwise receive-remove loop)
+d369 1
+a369 1
+//	--- no4one end ---
+d380 1
+a380 1
+	//	reset UDP server
+d383 1
+a383 1
+	//	finally delete a server
+d386 1
+a386 1
+		delservercount++;	//statistic value
+d398 1
+a398 1
+		delservercount++;	//statistic value
+d432 1
+a432 1
+			tuserk += pServer->GetNumUsers(); // total users on servers with known maximum
+d537 2
+a538 2
+	// If we're at the end or past the end of the list 
+	// move pointer to begin of the list & return NULL as server
+d545 1
+a545 1
+	// find next server 
+d556 1
+a556 1
+		// get actuall server
+d558 1
+a558 1
+		// move the pointer to the next one
+d574 1
+d576 1
+a576 1
+		{	// check if search position is still valid (could be corrupted by server delete operation)
+d596 2
+a597 1
+		if (posIndex == NULL)	// check if search position is still valid (could be corrupted by server delete operation)
+d611 1
+d613 1
+a613 1
+{ // unused atm . but might be useful later
+d616 1
+d620 1
+d669 1
+d671 1
+d679 1
+d690 1
+d692 1
+a715 1
+//
+d745 1
+a745 1
+//	AddLogLine( false, "%s", strNewServerMet );
+d802 1
+a802 1
+		//	Modified by Tarod [txh Hein] - save server preferences using eDonkey correct values
+d832 1
+a832 1
+	//	eklmn: by shutdown force OS flush data direct to disk [SlugFiller]
+d867 1
+a867 1
+	//	format is host:port,priority,Name
+d873 1
+a873 1
+	//	fetch host
+d884 1
+a884 1
+	//	fetch  port
+d891 1
+a891 1
+	//	Barry - fetch priority
+d908 1
+a908 1
+	//	fetch name
+d913 1
+a913 1
+	//	 check existence of server, create server object add it to the list 
+d920 1
+a920 1
+				// set properties
+d932 1
+a932 1
+			// change properties
+@
+
+
+1.99
+log
+@I hate 'smart' server admins not setting names for their servers to be at the top of the list.
+@
+text
+@d206 1
+a206 1
+			if (!pNewServer->GetListName() || pNewServer->GetListName().Trim() == "" )
+@
+
+
+1.98
+log
+@Fixed open of configuration files accessed for reading by other processes
+<thanks Fuxie - DK for report and testing>.
+@
+text
+@d206 1
+a206 1
+			if (!pNewServer->GetListName())
+@
+
+
+1.97
+log
+@new FakeCheck autoupdate system
+@
+text
+@d850 1
+a850 1
+	if (!f.Open(strFilename, CFile::modeRead | CFile::typeText))
+@
+
+
+1.96
+log
+@minor changes (function renamings, unused typedef removal)
+@
+text
+@a114 6
+//	FakeCheck
+	if (m_pPrefs->IsUpdateFakeStartupEnabled())
+	{
+		g_eMuleApp.m_pFakeCheck->DownloadFakeList();
+	}
+
+@
+
+
+1.95
+log
+@Disable scheduled backup and backup on exit if a file corruption is detected on start + minor changes
+@
+text
+@d366 1
+a366 1
+			if (!g_eMuleApp.m_pGlobPrefs->GetCMNotLog())
+@
+
+
+1.94
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d174 1
+d183 1
+d252 1
+@
+
+
+1.93
+log
+@comments formatting / Update button for IPFilter is now disabled for 24h after a successfull update.
+@
+text
+@d945 11
+@
+
+
+1.92
+log
+@added auto-update for ipfilter
+@
+text
+@d128 1
+a128 3
+		BOOL bPerformUpdate = (m_pPrefs->GetIPFilterUpdateFrequency() == 0);
+
+		if (m_pPrefs->GetIPFilterUpdateFrequency() > 0)
+d134 1
+a134 7
+			bPerformUpdate = (difftime(tNow, tLastUpdate) >= (m_pPrefs->GetIPFilterUpdateFrequency() * 60 * 60 * 24));
+		}
+
+		if (bPerformUpdate)
+		{
+			bSuccessDownload = g_eMuleApp.m_pIPFilter->DownloadIPFilter();
+			if (bSuccessDownload)
+d136 5
+a140 1
+				m_pPrefs->SetLastIPFilterUpdate(static_cast<uint32>(mktime(CTime::GetCurrentTime().GetLocalTm())));
+@
+
+
+1.91
+log
+@bugfix: wrong titles were displayed in HTTP download dialogs
+@
+text
+@d121 36
+d267 1
+a267 1
+	if (g_eMuleApp.m_pGlobPrefs->FilterBadIPs())
+d364 1
+a364 1
+	if (g_eMuleApp.m_pGlobPrefs->FilterServersByIP())
+@
+
+
+1.90
+log
+@Increase granularity for long lists (that reduces memory fragmentation and slightly reduces memory usage).
+@
+text
+@d69 2
+@
+
+
+1.89
+log
+@optimization of sorting over SetRedraw
+@
+text
+@d33 1
+a33 1
+CServerList::CServerList(CPreferences *in_prefs)
+@
+
+
+1.88
+log
+@Redone some changes on server connect and moved ed2k link processing
+@
+text
+@d92 4
+d106 3
+d910 1
+a910 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////@
+
+
+1.87
+log
+@Changed the fix for auto server connect and serverlist update on start as it brought problems to some users. Now it should be ok.
+@
+text
+@d103 2
+a104 2
+//	if (m_pPrefs->DoAutoConnect())
+//		g_eMuleApp.m_pdlgEmule->OnBnClickedButton2();
+@
+
+
+1.86
+log
+@tab alignement correction + remove a double ;;
+@
+text
+@d102 3
+a104 3
+//	Autoconnect to server
+	if (m_pPrefs->DoAutoConnect())
+		g_eMuleApp.m_pdlgEmule->OnBnClickedButton2();
+@
+
+
+1.85
+log
+@added auxiliary port support from KuSh (commited with eklmn's authorization)
+@
+text
+@d465 1
+a465 1
+		pServer = m_serverList.GetNext(pos1);;
+d676 1
+a676 1
+	}
+@
+
+
+1.84
+log
+@Added again the auto server connect fix
+@
+text
+@d108 1
+d110 1
+d214 1
+a214 1
+bool CServerList::AddServer(CServer* in_server)
+d216 1
+a216 1
+	if (in_server == NULL)
+d219 1
+a219 1
+	if(in_server->GetDynIP() == "255.255.255.255")
+d223 1
+a223 1
+		if (!IsGoodServerIP(in_server))
+d226 1
+a226 1
+	CServer* test_server = FindServerByAddress(*in_server);
+d228 1
+a228 1
+	if (test_server)
+d230 13
+a242 2
+		test_server->ResetFailedCount();
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*test_server);
+d246 1
+a246 1
+	m_serverList.AddTail(in_server);
+d338 2
+a339 1
+	if (remove_pos)
+d354 1
+d357 1
+a357 2
+		m_serverList.GetNext(pos1);
+		delete m_serverList.GetAt(pos2);
+d375 3
+a377 2
+	CServer* curr;
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; m_serverList.GetNext(pos))
+d379 3
+a381 2
+		curr = (CServer*)m_serverList.GetAt(pos);
+		if (curr->GetFailedCount())
+d385 2
+a386 2
+			user += curr->GetNumUsers();
+			file += curr->GetFiles();
+d388 2
+a389 2
+		tuser += curr->GetNumUsers();
+		tfile += curr->GetFiles();
+d391 1
+a391 1
+		if (curr->GetMaxUsers())
+d393 2
+a394 2
+			tuserk += curr->GetNumUsers(); // total users on servers with known maximum
+			m_dwMaxUsers += curr->GetMaxUsers();
+d405 4
+a408 2
+	CServer* curr;
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; m_serverList.GetNext(pos))
+d410 2
+a411 2
+		curr = (CServer*)m_serverList.GetAt(pos);
+		if (!curr->GetFailedCount())
+d413 2
+a414 2
+			user += curr->GetNumUsers();
+			file += curr->GetFiles();
+d422 1
+d424 1
+d427 1
+a427 2
+		m_serverList.GetNext(pos1);
+		delete m_serverList.GetAt(pos2);
+d438 2
+d442 2
+a443 3
+		m_serverList.GetNext(pos1);
+		CServer* cur_server = m_serverList.GetAt(pos2);
+		if (cur_server == aServer)
+d445 1
+a445 1
+			m_serverList.AddTail(cur_server);
+d460 1
+d465 1
+a465 3
+		m_serverList.GetNext(pos1);
+
+		CServer	*pServer = m_serverList.GetAt(pos2);
+d594 1
+a594 1
+		CServer * cur_server = m_serverList.GetAt(broadcastpos);
+d597 2
+a598 2
+		if (cur_server != g_eMuleApp.m_pServerConnect->GetCurrentServer())
+			g_eMuleApp.m_pServerConnect->SendUDPPacket(broadcastpacket, cur_server, false);
+d633 1
+a633 1
+	if (!lastserver)
+d635 1
+d637 2
+a638 1
+	if (!pos)
+d644 1
+a644 1
+	if (!pos)
+d650 1
+a650 1
+CServer* CServerList::FindServerByAddress(const CServer& in_server)
+d652 3
+a654 1
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; m_serverList.GetNext(pos))
+d656 3
+a658 3
+		CServer * s = m_serverList.GetAt(pos); // i_a: small speed optimization
+		if (s->HasSameAddress(in_server))
+			return s;
+d669 1
+a669 1
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != NULL; m_serverList.GetNext(pos))
+d671 1
+a671 1
+		CServer	* pServer = m_serverList.GetAt(pos);
+d673 2
+a674 1
+		if ((nPort == pServer->GetPort() || nPort == 0) && pServer->GetAddress() == strAddress)
+d677 1
+d731 2
+d778 5
+@
+
+
+1.83
+log
+@replaced  pos != 0 to pos != NULL
+@
+text
+@d102 4
+a107 1
+	{
+a108 1
+	}
+@
+
+
+1.82
+log
+@Minor fix...
+@
+text
+@d360 1
+a360 1
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != 0;m_serverList.GetNext(pos))
+d388 1
+a388 1
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != 0; m_serverList.GetNext(pos))
+d629 1
+a629 1
+	for (POSITION pos = m_serverList.GetHeadPosition();pos != 0;m_serverList.GetNext(pos))
+d644 1
+a644 1
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos != 0; m_serverList.GetNext(pos))
+d656 1
+a656 1
+	for (POSITION pos = m_serverList.GetHeadPosition();pos != 0;)
+@
+
+
+1.81
+log
+@Fixed initial sorting of server list by Static criteria;
+Faster initial sorting of server list;
+Removed list hiding because it isn't required and causes graphical blink.
+@
+text
+@d851 1
+@
+
+
+1.80
+log
+@corrected Server addition in ServerList
+@
+text
+@a91 2
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(FALSE);
+
+d93 1
+a93 1
+	bool bRes = AddServerMetToList(false, strPath, false);
+d95 2
+a96 2
+//	insert static servers from textfile
+	strPath = m_pPrefs->GetConfigDir() + CString(_T("staticservers.dat"));
+d99 2
+a100 1
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(TRUE);
+d111 1
+a111 1
+bool CServerList::AddServerMetToList(bool bRedraw, const CString& strFile, bool bMergeWithPrevList /*= true*/)
+a112 7
+	// hide serverlist & stop redrawing until list will be filled
+	if (bRedraw)
+	{
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.Hide();
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(FALSE);
+	}
+
+a129 2
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(TRUE);
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.Show();
+a136 2
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(TRUE);
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.Show();
+a206 7
+	if (bRedraw)
+	{
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(TRUE);
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.Show();
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.ShowFilesCount();
+	}
+
+a775 1
+	CString strLine;
+d777 1
+d780 3
+d799 1
+a799 1
+		CString strHost = strLine.Left(pos);
+d806 1
+a806 1
+		CString strPort = strLine.Left(pos);
+d814 1
+a814 1
+			CString strPriority = strLine.Left(pos);
+@
+
+
+1.79
+log
+@Changed last fix (no need to be as complex as before).
+@
+text
+@d82 1
+a82 1
+
+d90 1
+d92 2
+d95 2
+a96 1
+	bool bRes = AddServerMetToList(strPath, false);
+d101 2
+d105 1
+d107 1
+a107 4
+
+//	Autoconnect to server
+	if (m_pPrefs->DoAutoConnect())
+		g_eMuleApp.m_pdlgEmule->OnBnClickedButton2();
+d111 2
+a112 2
+
+bool CServerList::AddServerMetToList(const CString& strFile, bool merge)
+d115 5
+a119 2
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.Hide();
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(FALSE);
+d121 1
+a121 1
+//	if (!merge)
+d127 3
+d134 2
+a135 1
+			if (!merge)
+d137 1
+a157 2
+		CServer* pNewServer = NULL;
+		CServer* pExistingServer = NULL;
+d197 2
+d201 1
+a201 1
+		if (!merge)
+d209 2
+d218 8
+a225 3
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.SetRedraw(TRUE);
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.Show();
+	g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.ShowFilesCount();
+d228 1
+a228 1
+
+d308 1
+a308 1
+
+d338 1
+a338 1
+
+d353 1
+a353 1
+
+d365 1
+a365 1
+
+d401 1
+a401 1
+
+d417 1
+a417 1
+
+d431 1
+a431 1
+
+d546 1
+a546 1
+
+d567 1
+a567 1
+
+d577 1
+a577 1
+
+d609 1
+a609 1
+
+d619 1
+a619 1
+
+d626 1
+a626 1
+
+d645 1
+a645 1
+
+d683 1
+a683 1
+
+d792 1
+a792 1
+
+d847 25
+a871 18
+	//	create server object and add it to the list
+		CServer* nsrv = new CServer(_tstoi(strPort), strHost.GetBuffer());
+		nsrv->SetListName(strName.GetBuffer());
+		nsrv->SetIsStaticMember(true);
+	//	Barry - Was always high
+		nsrv->SetPreference((CServer::EnumServerPriority)priority);
+		if (!g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.AddServer(nsrv, true))
+		{
+			delete nsrv;
+			CServer* srvexisting = GetServerByAddress(strHost.GetBuffer(), _tstoi(strPort));
+			if (srvexisting)
+			{
+				srvexisting->SetListName(strName.GetBuffer());
+				srvexisting->SetIsStaticMember(true);
+			//	Barry - Was always high
+				srvexisting->SetPreference((CServer::EnumServerPriority)priority);
+				if (g_eMuleApp.m_pdlgEmule->m_wndServer)
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*srvexisting);
+a872 1
+
+d878 1
+a878 1
+
+d884 1
+@
+
+
+1.78
+log
+@Fix for auto server connection when update server list on start is used
+@
+text
+@d101 2
+a102 1
+	if (m_pPrefs->AutoServerlist() && m_pPrefs->DoAutoConnect())
+@
+
+
+1.77
+log
+@Improved string processing
+@
+text
+@d101 3
+@
+
+
+1.76
+log
+@Can devs compile before committing?
+@
+text
+@d821 2
+a822 2
+		strName.Replace(_T("\r"), _T(""));
+		strName.Replace(_T("\n"), _T(""));
+@
+
+
+1.75
+log
+@Formatting, comments, and name changes.
+Removed old #defines
+@
+text
+@d238 1
+@
+
+
+1.74
+log
+@formating
+@
+text
+@d231 1
+a231 1
+
+d237 1
+a237 2
+		CServer	   *ping_server = GetNextStatServer();
+		CServer	   *test = ping_server;
+d239 2
+a240 1
+		if (ping_server == NULL)
+d242 2
+a243 1
+		while (ping_server->GetLastPingedTime() != 0 && ((uint32)time(NULL) - ping_server->GetLastPingedTime()) < UDPSERVSTATREASKTIME)
+d245 2
+a246 2
+			ping_server = GetNextStatServer();
+			if (ping_server == test)
+d249 3
+a251 3
+		if ( ping_server->GetFailedCount() >= g_eMuleApp.m_pGlobPrefs->GetDeadserverRetries() &&
+		     g_eMuleApp.m_pGlobPrefs->DeadServer() &&
+		     !ping_server->IsStaticMember() )
+d253 1
+a253 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RemoveServer(ping_server);
+d256 3
+a260 1
+		Packet	   *packet = new Packet(OP_GLOBSERVSTATREQ, 4);
+d263 15
+a277 14
+		ping_server->SetChallenge(c);
+		memcpy2(packet->m_pcBuffer, &c, 4);
+		ping_server->SetLastPinged(::GetTickCount());
+		ping_server->SetLastPingedTime((uint32)time(NULL));
+		ping_server->AddFailedCount();
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*ping_server);
+		g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(packet->m_dwSize);
+		g_eMuleApp.m_pServerConnect->SendUDPPacket(packet, ping_server, true);
+		ping_server->SetLastDescPingedCount(false);
+		if (ping_server->GetLastDescPingedCount() < 2)
+		{
+			packet = new Packet(OP_SERVER_DESC_REQ);
+			g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(packet->m_dwSize);
+			g_eMuleApp.m_pServerConnect->SendUDPPacket(packet, ping_server, true);
+d280 1
+a280 1
+			ping_server->SetLastDescPingedCount(true);
+@
+
+
+1.73
+log
+@Reverted a change
+@
+text
+@d237 4
+a240 3
+		CServer * ping_server = GetNextStatServer();
+		CServer* test = ping_server;
+		if (!ping_server)
+a254 1
+		Packet* packet = new Packet(OP_GLOBSERVSTATREQ, 4);
+d256 4
+a259 1
+		uint32 c = 0x55AA0000 + (uint16)rand();
+@
+
+
+1.72
+log
+@Minor changes
+@
+text
+@d211 1
+a211 1
+	if(in_server->GetDynIP() == "255.255.255.255" || in_server->GetFullIP() == "0.0.0.0")
+@
+
+
+1.71
+log
+@Fixed server log issue on start
+@
+text
+@d198 1
+a198 1
+		error->Delete();	//memleak fix
+a199 1
+	//enable list redrawing & show the list
+d209 1
+a209 1
+		return false;	//eklmn: check NULL case at server addition
+d211 1
+a211 1
+	if (in_server->HasInvalidAddress())
+d841 1
+@
+
+
+1.70
+log
+@Changed the filtering of 255.255.255.255 servers
+@
+text
+@d92 1
+a92 1
+	bool bRes = AddServerMetToList(strPath, true);
+d110 5
+a114 5
+	if (!merge)
+	{
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.DeleteAllItems();
+		RemoveAllServers();
+	}
+@
+
+
+1.69
+log
+@do not log "filtered"-messages if "do not log coutermeasures" is enabled
+@
+text
+@d212 3
+d218 1
+d220 1
+d227 1
+d229 1
+@
+
+
+1.68
+log
+@fixed command line server link loading (server was removed)
+@
+text
+@d289 2
+a290 1
+			AddDebugLogLine(false, RGB_LOG_DIMMED + _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_eMuleApp.m_pIPFilter->GetLastHit());
+@
+
+
+1.67
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d91 2
+a92 1
+	bool bRes = AddServerMetToList(strPath, false);	// this deletes all existing servers
+@
+
+
+1.66
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d77 1
+a77 1
+			AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURLToDownload.GetBuffer());
+d120 1
+a120 1
+				AddLogLine(false, RGB_RED + GetResString(IDS_ERR_LOADSERVERMET));
+d129 1
+a129 1
+			AddLogLine(false, RGB_RED + GetResString(IDS_ERR_BADSERVERMETVERSION), m_uServerListVersion);
+d194 1
+a194 1
+			AddDebugLogLine(true, RGB_RED + GetResString(IDS_ERR_BADSERVERLIST));
+d196 1
+a196 1
+			AddDebugLogLine(true, RGB_RED + GetResString(IDS_ERR_FILEERROR_SERVERMET), GetErrorMessage(error));
+d288 1
+a288 1
+			AddDebugLogLine(false, RGB_BLUE_GRAY + _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_eMuleApp.m_pIPFilter->GetLastHit());
+d656 1
+a656 1
+			AddLogLine(false, RGB_RED + GetResString(IDS_ERR_SAVESERVERMET));
+d746 1
+a746 1
+		AddLogLine(false, RGB_RED + GetResString(IDS_ERR_SAVESERVERMET2));
+@
+
+
+1.65
+log
+@Added some colors to the logs...
+@
+text
+@d77 1
+a77 1
+			AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURLToDownload.GetBuffer());
+d120 1
+a120 1
+				AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERR_LOADSERVERMET));
+d129 1
+a129 1
+			AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERR_BADSERVERMETVERSION), m_uServerListVersion);
+d194 1
+a194 1
+			AddDebugLogLine(true, _T("<COLOR=255,0,0>") + GetResString(IDS_ERR_BADSERVERLIST));
+d196 1
+a196 1
+			AddDebugLogLine(true, _T("<COLOR=255,0,0>") + GetResString(IDS_ERR_FILEERROR_SERVERMET), GetErrorMessage(error));
+d288 1
+a288 1
+			AddDebugLogLine(false, _T("<COLOR=102,102,153>Filtered Server: %s %s "), in_server->GetFullIP(), g_eMuleApp.m_pIPFilter->GetLastHit());
+d656 1
+a656 1
+			AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERR_SAVESERVERMET));
+d746 1
+a746 1
+		AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERR_SAVESERVERMET2));
+@
+
+
+1.64
+log
+@Fix for server connection problems (with eklmn help)
+@
+text
+@d77 1
+a77 1
+			AddLogLine(true, IDS_ERR_FAILEDDOWNLOADMET, strURLToDownload.GetBuffer());
+d120 1
+a120 1
+				AddLogLine(false, IDS_ERR_LOADSERVERMET);
+d129 1
+a129 1
+			AddLogLine(false, IDS_ERR_BADSERVERMETVERSION, m_uServerListVersion);
+d194 1
+a194 1
+			AddDebugLogLine(true, IDS_ERR_BADSERVERLIST);
+d196 1
+a196 1
+			AddDebugLogLine(true, IDS_ERR_FILEERROR_SERVERMET, GetErrorMessage(error));
+d288 1
+a288 1
+			AddDebugLogLine(false, _T("Filtered Server: %s %s "), in_server->GetFullIP(), g_eMuleApp.m_pIPFilter->GetLastHit());
+d656 1
+a656 1
+			AddLogLine(false, IDS_ERR_SAVESERVERMET);
+d746 1
+a746 1
+		AddLogLine(false, IDS_ERR_SAVESERVERMET2);
+@
+
+
+1.63
+log
+@bugfix 469 (no serverlist at 1st run if no server.met found) imp2000
+@
+text
+@d445 2
+a446 2
+//	GetNextServer() returns the next usable server in the list or NULL if the list pointer is past
+//	the end of the list. (Right now there is no usability checking).
+d449 2
+a450 2
+	CServer	* pNextServer = NULL;
+	uint32	i = 0;
+d452 1
+a452 2
+//	If we're past the end of the list...
+	if (m_iServerPos >= static_cast<uint32>(m_serverList.GetCount()))
+d454 2
+d457 3
+a459 1
+	while (pNextServer == NULL && i != m_serverList.GetCount())
+d461 9
+a469 3
+		POSITION	posIndex = m_serverList.FindIndex(m_iServerPos);
+	//
+	//	Check if search position is still valid (could be corrupted by server delete operation)
+d476 1
+d478 1
+d480 1
+a480 1
+		i++;
+a481 4
+	//	if (pNextServer->preferences = ?)
+	//	pNextServer = 0;
+		if (m_iServerPos == m_serverList.GetCount())
+			return NULL; // m_iServerPos = 0;
+d483 1
+@
+
+
+1.62
+log
+@Formatting + minor changes
+@
+text
+@d121 2
+d130 2
+@
+
+
+1.61
+log
+@bug with save and load of server list
+@
+text
+@a76 1
+		{
+a77 1
+		}
+a191 1
+		{
+a192 1
+		}
+a261 1
+		{
+a262 1
+		}
+d287 1
+a287 1
+			{  //netwolf: remove filtered servers only if 'update from servers/clients' disabled (otherwise receive-remove loop)
+a288 1
+			}
+a339 1
+		{
+a340 1
+		}
+d470 1
+a470 1
+			m_iServerPos = 0;
+a526 1
+
+a577 1
+	POSITION pos;
+d582 1
+a582 2
+	else
+		pos = m_serverList.Find(lastserver);
+d759 5
+a763 1
+			continue;
+d823 1
+a823 1
+	if (::GetTickCount() - m_nLastSaved > 180000)
+@
+
+
+1.60
+log
+@1) compession support within communicatio client<->server
+2) extended UDP file search support
+@
+text
+@d36 1
+a36 1
+	version = 0;
+d107 4
+d125 2
+a126 2
+		servermet.Read(&version, 1);
+		if (version != 0xE0 && version != MET_HEADER)
+d129 1
+a129 1
+			AddLogLine(false, IDS_ERR_BADSERVERMETVERSION, version);
+d132 11
+a142 7
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.Hide();
+		uint32 fservercount;
+		servermet.Read(&fservercount, 4);
+
+		ServerMet_Struct sbuffer;
+		uint32 iAddCount = 0;
+		for (uint32 j = 0;j != fservercount;j++)
+d145 11
+a155 2
+			servermet.Read(&sbuffer, sizeof(ServerMet_Struct));
+			CServer* newserver = new CServer(&sbuffer);
+d157 2
+a158 2
+			for (uint32 i = 0;i != sbuffer.m_dwTagCount;i++)
+				newserver->AddTagFromFile(servermet);
+d160 1
+a160 1
+			if (!newserver->GetListName())
+d162 2
+a163 3
+				CString listname;
+				listname.Format(_T("Server %s"), newserver->GetAddress());
+				newserver->SetListName(listname);
+d165 2
+a166 1
+			if (!g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.AddServer(newserver, true, true))
+d168 2
+a169 2
+				CServer * update = g_eMuleApp.m_pServerList->GetServerByAddress(newserver->GetAddress(), newserver->GetPort());
+				if (update)
+d171 4
+a174 4
+					update->SetListName(newserver->GetListName());
+					if (newserver->GetDescription())
+						update->SetDescription(newserver->GetDescription());
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*update);
+d176 1
+a176 1
+				delete newserver;
+d179 1
+a179 1
+				iAddCount++;
+d183 1
+a183 1
+			AddLogLine(true, IDS_SERVERSFOUND, fservercount);
+d185 1
+a185 1
+			AddLogLine(true, IDS_SERVERSADDED, iAddCount, fservercount - iAddCount);
+d199 2
+d648 3
+a650 3
+	CString newservermet;
+	newservermet.Format(_T("%sserver.met.new"), m_pPrefs->GetConfigDir());
+//	AddLogLine( false, "%s", newservermet );
+d653 1
+a653 1
+		FILE* servermet = _tfopen(newservermet, _T("wb"));
+d659 7
+a665 6
+		version = 0xE0;
+
+		fwrite(&version, 1, 1, servermet);
+		uint32 fservercount = m_serverList.GetCount();
+		fwrite(&fservercount, 4, 1, servermet);
+		ServerMet_Struct sbuffer;
+d668 1
+a668 1
+		for (uint32 j = 0;j != fservercount;j++)
+d671 5
+a675 3
+			sbuffer.m_dwIP = pNextServer->GetIP();
+			sbuffer.m_uPort = pNextServer->GetPort();
+			uint16 tagcount = 9;
+d677 1
+a677 1
+				tagcount++;
+d679 1
+a679 1
+				tagcount++;
+d681 1
+a681 1
+				tagcount++;
+d683 4
+a686 3
+				tagcount++;
+			sbuffer.m_dwTagCount = tagcount;
+			fwrite(&sbuffer, 1, sizeof(ServerMet_Struct), servermet);
+d734 8
+a741 7
+		CString curservermet;
+		CString oldservermet;
+		curservermet.Format(_T("%sserver.met"), m_pPrefs->GetConfigDir());
+		oldservermet.Format(_T("%sserver_met.old"), m_pPrefs->GetConfigDir());
+		_tremove(oldservermet);
+		_trename(curservermet, oldservermet);
+		_trename(newservermet, curservermet);
+@
+
+
+1.59
+log
+@Formatting, comments, and name changes.
+@
+text
+@d289 4
+a295 3
+	//	reset UDP server
+		if (g_eMuleApp.m_pDownloadQueue->cur_udpserver == out_server)
+			g_eMuleApp.m_pDownloadQueue->cur_udpserver = 0;
+d646 1
+a646 1
+		CServer* nextserver;
+d650 3
+a652 3
+			nextserver = GetServerAt(j);
+			sbuffer.m_dwIP = nextserver->GetIP();
+			sbuffer.m_uPort = nextserver->GetPort();
+d654 1
+a654 1
+			if (!nextserver->GetListName().IsEmpty())
+d656 1
+a656 1
+			if (!nextserver->GetDynIP().IsEmpty())
+d658 1
+a658 1
+			if (!nextserver->GetDescription().IsEmpty())
+d660 1
+a660 1
+			if (!nextserver->GetVersion().IsEmpty())
+d665 1
+a665 1
+			if (!nextserver->GetListName().IsEmpty())
+d667 1
+a667 1
+				CServerTag servername(ST_SERVERNAME, nextserver->GetListName());
+d670 1
+a670 1
+			if (!nextserver->GetDynIP().IsEmpty())
+d672 1
+a672 1
+				CServerTag serverdynip(ST_DYNIP, nextserver->GetDynIP());
+d675 1
+a675 1
+			if (!nextserver->GetDescription().IsEmpty())
+d677 1
+a677 1
+				CServerTag serverdesc(ST_DESCRIPTION, nextserver->GetDescription());
+d680 1
+a680 1
+			CServerTag serverfail(ST_FAIL, nextserver->GetFailedCount());
+d683 1
+a683 1
+			CServerTag serverpref(ST_PREFERENCE, nextserver->eMule2ed2k(nextserver->GetPreferences()));
+d685 1
+a685 1
+			CServerTag serveruser(_T("users"), nextserver->GetNumUsers());
+d687 1
+a687 1
+			CServerTag serverfiles(_T("files"), nextserver->GetFiles());
+d689 1
+a689 1
+			CServerTag serverping(ST_PING, nextserver->GetPing());
+d691 1
+a691 1
+			CServerTag serverlastp(ST_LASTPING, nextserver->GetLastPingedTime());
+d693 1
+a693 1
+			CServerTag servermaxusers(ST_MAXUSERS, nextserver->GetMaxUsers());
+d695 1
+a695 1
+			CServerTag serversoftfiles(ST_SOFTFILES, nextserver->GetSoftMaxFiles());
+d697 1
+a697 1
+			CServerTag serverhardfiles(ST_HARDFILES, nextserver->GetHardMaxFiles());
+d699 1
+a699 1
+			if (!nextserver->GetVersion().IsEmpty())
+d701 1
+a701 1
+				CServerTag serverversion(ST_VERSION, nextserver->GetVersion());
+d704 2
+d707 1
+a707 1
+	//	v1:- eklmn: bugfix(19): by shutdown force OS flush data direct to disk [SlugFiller]
+@
+
+
+1.58
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d140 1
+a140 1
+			for (uint32 i = 0;i != sbuffer.m_iTagCount;i++)
+d650 2
+a651 2
+			sbuffer.m_iIP = nextserver->GetIP();
+			sbuffer.m_nPort = nextserver->GetPort();
+d661 1
+a661 1
+			sbuffer.m_iTagCount = tagcount;
+@
+
+
+1.57
+log
+@Formatting, comments, and name changes.
+@
+text
+@d310 1
+a310 1
+void CServerList::GetStatus (uint32 &total, uint32 &failed, uint32 &user, uint32 &file, uint32 &tuser, uint32 &tfile, float &occ)
+d345 1
+a345 1
+		occ = (float)(tuserk * 100) / m_dwMaxUsers;
+@
+
+
+1.56
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d28 1
+a28 1
+static char THIS_FILE[]=__FILE__;
+d46 2
+a47 1
+void CServerList::AutoUpdate(){
+d49 3
+a51 2
+	if (m_pPrefs->m_addressesList.IsEmpty()){
+		MessageBox(0,GetResString(IDS_ERR_EMPTYADRESSESDAT),GetResString(IDS_ERR_EMPTYADRESSESDAT_TITLE),64);
+d54 1
+a54 1
+	bool bDownloaded=false;
+d57 4
+a60 4
+	CString strURLToDownload; 
+	CSingleLock AccessLock(&m_ServerMetMutex,TRUE);
+	servermet.Format(_T("%sserver.met"),m_pPrefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"),m_pPrefs->GetConfigDir());
+d62 5
+a66 4
+	_trename(servermet,oldservermet);
+	
+	POSITION Pos = m_pPrefs->m_addressesList.GetHeadPosition(); 
+	while ((!bDownloaded) && (Pos != NULL)){
+d68 2
+a69 2
+		strURLToDownload = m_pPrefs->m_addressesList.GetNext(Pos); 
+		dlgDownload.m_sURLToDownload = strURLToDownload.GetBuffer(); 
+d71 2
+a72 1
+		if (dlgDownload.DoModal() == IDOK){
+d74 1
+a74 1
+			bDownloaded=true;
+d76 2
+a77 1
+		else{
+d82 1
+a82 1
+		_trename(oldservermet,servermet);	
+d85 3
+a87 2
+bool CServerList::Init(){
+	// auto update the list by using an url
+d90 1
+a90 1
+	// Load Metfile
+d92 3
+a94 3
+	CSingleLock AccessLock(&m_ServerMetMutex,TRUE);
+	bool bRes = AddServermetToList(strPath, false);	// this deletes all existing servers
+	// insert static servers from textfile
+d98 1
+a98 1
+	//FakeCheck
+d105 2
+a106 1
+bool CServerList::AddServermetToList(const CString& strFile, bool merge){
+d113 5
+a117 3
+	try{
+		if (!servermet.Open(strFile,CFile::modeRead|CFile::osSequentialScan)){
+			if(!merge)
+d121 3
+a123 2
+		servermet.Read(&version,1);
+		if (version != 0xE0 && version != MET_HEADER){
+d130 2
+a131 2
+		servermet.Read(&fservercount,4);
+		
+d134 4
+a137 3
+		for (uint32 j = 0;j != fservercount;j++){
+			// get server
+			servermet.Read(&sbuffer,sizeof(ServerMet_Struct));
+d139 2
+a140 2
+			//add tags
+			for (uint32 i=0;i != sbuffer.m_iTagCount;i++)
+d142 3
+a144 2
+			// set listname for server
+			if (!newserver->GetListName()){
+d146 2
+a147 2
+				listname.Format(_T("Server %s"),newserver->GetAddress());				
+				newserver->SetListName(listname);				
+d149 8
+a156 6
+			if (!g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.AddServer(newserver,true, true) ){
+				CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress(newserver->GetAddress(), newserver->GetPort());
+				if(update){
+					update->SetListName( newserver->GetListName());
+					if( newserver->GetDescription() )
+						update->SetDescription( newserver->GetDescription());
+d166 1
+a166 1
+			AddLogLine(true, IDS_SERVERSFOUND,fservercount);
+d168 1
+a168 1
+			AddLogLine(true, IDS_SERVERSADDED, iAddCount, fservercount-iAddCount);
+d171 2
+a172 1
+	catch(CFileException* error){
+d175 4
+a178 3
+			AddDebugLogLine(true,IDS_ERR_BADSERVERLIST);
+		else{			
+			AddDebugLogLine(true,IDS_ERR_FILEERROR_SERVERMET, GetErrorMessage(error));
+d189 5
+a193 4
+	if (in_server == NULL) return false;	//eklmn: check NULL case at server addition
+	
+	if (g_eMuleApp.m_pGlobPrefs->FilterBadIPs()) 
+		if ( !IsGoodServerIP( in_server ))
+d196 2
+a197 1
+	if (test_server){
+d199 1
+a199 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer( *test_server );		
+d206 2
+a207 1
+void CServerList::ServerStats() {
+d209 1
+a209 1
+	if( g_eMuleApp.m_pServerConnect->IsConnected() && m_serverList.GetCount() > 0 )
+d211 1
+a211 1
+		CServer* ping_server = GetNextStatServer();
+d213 1
+a213 1
+		if( !ping_server )
+d216 1
+a216 1
+        	{ 
+d218 1
+a218 1
+			if( ping_server == test )
+d221 4
+a224 3
+		if( ping_server->GetFailedCount() >= g_eMuleApp.m_pGlobPrefs->GetDeadserverRetries() && 
+			g_eMuleApp.m_pGlobPrefs->DeadServer() &&
+			!ping_server->IsStaticMember()){
+d228 1
+a228 1
+		Packet* packet = new Packet( OP_GLOBSERVSTATREQ, 4 );
+d232 1
+a232 1
+		memcpy2( packet->m_pcBuffer, &c, 4 );
+d236 1
+a236 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*ping_server );		
+d238 1
+a238 1
+		g_eMuleApp.m_pServerConnect->SendUDPPacket( packet, ping_server, true );
+d242 1
+a242 1
+			packet = new Packet( OP_SERVER_DESC_REQ);
+d244 1
+a244 1
+			g_eMuleApp.m_pServerConnect->SendUDPPacket( packet, ping_server, true );
+d266 3
+a268 3
+	// --- no4one : using filters from m_pIPFilter.dat for server filtering ---
+	// netwolf: option for filtering servers listed in m_pIPFilter.dat and DynIP server
+	if (g_eMuleApp.m_pGlobPrefs->FilterServersByIP())	
+d271 1
+a271 1
+			AddDebugLogLine(false,_T("Filtered Server: %s %s "),in_server->GetFullIP(),g_eMuleApp.m_pIPFilter->GetLastHit());
+d273 4
+a276 2
+			if(!g_eMuleApp.m_pGlobPrefs->GetAddServersFromConn()) {  //netwolf: remove filtered servers only if 'update from servers/clients' disabled (otherwise receive-remove loop)
+				RemoveServer(in_server); }
+d279 1
+a279 1
+		// --- no4one end ---
+d281 1
+a281 1
+	return true; 
+d292 1
+a292 1
+		// reset UDP server
+d300 2
+a301 2
+	POSITION pos1,pos2;
+	for ( pos1 = m_serverList.GetHeadPosition(); ( pos2 = pos1 ) != NULL;)
+d310 1
+a310 1
+void CServerList::GetStatus (uint32 &total, uint32 &failed, uint32 &user, uint32 &file, uint32 &tuser, uint32 &tfile,float &occ)
+d318 1
+a318 1
+	occ=0;
+d323 1
+a323 1
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos !=0;m_serverList.GetNext(pos))
+d326 2
+a327 1
+		if( curr->GetFailedCount() ){
+d330 2
+a331 1
+		else{
+d337 3
+a339 2
+		
+		if (curr->GetMaxUsers()) {
+d341 1
+a341 1
+			m_dwMaxUsers+=curr->GetMaxUsers();
+d344 2
+a345 1
+	if (m_dwMaxUsers>0) occ=(float)(tuserk*100)/m_dwMaxUsers;
+d348 2
+a349 1
+void CServerList::GetUserFileStatus(uint32 &user, uint32 &file){
+d353 1
+a353 1
+	for (POSITION pos = m_serverList.GetHeadPosition(); pos !=0; m_serverList.GetNext(pos))
+d356 1
+a356 1
+		if( !curr->GetFailedCount() )
+d364 2
+a365 1
+CServerList::~CServerList(){
+d367 2
+a368 2
+	POSITION pos1,pos2;
+	for ( pos1 = m_serverList.GetHeadPosition(); ( pos2 = pos1 ) != NULL;)
+d375 1
+a375 1
+		KillTimer(0,udp_timer);
+d378 18
+a395 16
+void CServerList::MoveServerDown(CServer* aServer){
+   POSITION pos1, pos2;
+   uint16 i = 0;
+   for( pos1 = m_serverList.GetHeadPosition(); ( pos2 = pos1 ) != NULL; )
+   {
+	   m_serverList.GetNext(pos1);
+	   CServer* cur_server = m_serverList.GetAt(pos2);
+	   if (cur_server==aServer){
+		   m_serverList.AddTail(cur_server);
+		   m_serverList.RemoveAt(pos2);
+		   return;
+	   }
+	   i++;
+	   if (i == m_serverList.GetCount())
+		   break;
+   }
+d402 1
+a402 1
+	uint16		i = 0;
+d405 1
+a405 1
+	for (pos1 = m_serverList.GetHeadPosition(); (pos2 = pos1) != NULL; )
+d409 1
+a409 1
+		CServer		*pServer = m_serverList.GetAt(pos2);
+d427 1
+a427 1
+   }
+d431 1
+a431 1
+//		the end of the list. (Right now there is no usability checking).
+d434 2
+a435 2
+	CServer		*pNextServer = NULL;
+	uint32		i = 0;
+d455 1
+a455 1
+	// TODO: Add more option to filter bad server like min ping, min users etc
+d458 1
+a458 1
+		if (m_iServerPos == m_serverList.GetCount()) 	
+d464 3
+a466 2
+CServer* CServerList::GetNextSearchServer(){
+	CServer* nextserver = NULL;
+d471 2
+a472 1
+		if (posIndex == NULL) {	// check if search position is still valid (could be corrupted by server delete operation)
+d474 1
+a474 1
+			searchserverpos=0;
+d485 3
+a487 2
+CServer* CServerList::GetNextStatServer(){
+	CServer* nextserver = NULL;
+d493 1
+a493 1
+		{	
+d495 1
+a495 1
+			statserverpos=0;
+d506 2
+a507 1
+bool CServerList::BroadCastPacket(Packet* packet){ // unused atm . but might be useful later
+d510 1
+a510 1
+	udp_timer = SetTimer(0,4322,UDPSEARCHSPEED,CServerList::UDPTimerProc);
+d517 2
+a518 1
+void CServerList::SendNextPacket(){
+d520 3
+a522 2
+	if (g_eMuleApp.m_pListenSocket->TooManySockets()){
+		KillTimer(0,udp_timer);
+d531 1
+a531 1
+		CServer* cur_server = m_serverList.GetAt(broadcastpos);
+d533 1
+d535 1
+a535 1
+			g_eMuleApp.m_pServerConnect->SendUDPPacket(broadcastpacket,cur_server,false);
+d537 1
+d540 3
+a542 2
+	else{
+		KillTimer(0,udp_timer);
+d549 2
+a550 1
+void CServerList::CancelUDPBroadcast(){
+d553 1
+a553 1
+		KillTimer(0,udp_timer);
+d559 1
+a559 1
+void CALLBACK CServerList::UDPTimerProc(HWND hwnd, UINT uMsg,UINT_PTR idEvent,DWORD dwTime)
+d569 3
+a571 2
+	if (m_serverList.IsEmpty()) return 0;
+	if (!lastserver) 
+d575 5
+a579 5
+		if (!pos)
+		{
+			TRACE("Error: CServerList::GetNextServer");
+			return m_serverList.GetHead();
+		}
+d587 2
+a588 1
+CServer* CServerList::FindServerByAddress(const CServer& in_server){
+d591 3
+a593 3
+		CServer *s = m_serverList.GetAt(pos); // i_a: small speed optimization
+		if (s->HasSameAddress(in_server)) 
+			return s; 
+d599 1
+a599 1
+//		and port 'nPort'. If none is found, NULL is returned.
+d606 1
+a606 1
+		CServer		*pServer = m_serverList.GetAt(pos);
+d608 2
+a609 2
+		if ((nPort == pServer->GetPort() || nPort == 0) && pServer->GetAddress() == strAddress) 
+			return pServer; 
+d614 5
+a618 3
+CServer* CServerList::GetServerByIP(uint32 nIP, uint16 port){
+	for (POSITION pos = m_serverList.GetHeadPosition();pos != 0;){
+        CServer* s = m_serverList.GetNext(pos);
+d620 1
+a620 1
+			return s; 
+d625 3
+a627 2
+bool CServerList::SaveServerMetToFile(){
+	CSingleLock AccessLock(&m_ServerMetMutex,TRUE);
+d629 1
+a629 1
+	newservermet.Format(_T("%sserver.met.new"),m_pPrefs->GetConfigDir());
+d631 32
+a662 7
+	try{
+	FILE* servermet = _tfopen(newservermet, _T("wb"));
+	if (!servermet){
+		AddLogLine(false, IDS_ERR_SAVESERVERMET);		
+		return false;
+	}
+	version = 0xE0;
+d664 51
+a714 68
+	fwrite( &version, 1, 1, servermet);
+	uint32 fservercount = m_serverList.GetCount();
+	fwrite(&fservercount,4,1,servermet);
+	ServerMet_Struct sbuffer;
+	CServer* nextserver;
+
+	for (uint32 j = 0;j != fservercount;j++){
+		nextserver = GetServerAt(j);
+		sbuffer.m_iIP = nextserver->GetIP();
+		sbuffer.m_nPort = nextserver->GetPort();
+		uint16 tagcount = 9;
+		if (!nextserver->GetListName().IsEmpty())
+			tagcount++;
+		if (!nextserver->GetDynIP().IsEmpty())
+			tagcount++;
+		if (!nextserver->GetDescription().IsEmpty())
+			tagcount++;
+		if (!nextserver->GetVersion().IsEmpty())
+			tagcount++;
+		sbuffer.m_iTagCount = tagcount;
+		fwrite( &sbuffer, 1, sizeof(ServerMet_Struct),servermet);
+		
+		if( !nextserver->GetListName().IsEmpty() ){
+			CServerTag servername( ST_SERVERNAME, nextserver->GetListName() );
+			servername.WriteToFile(servermet);
+		}
+		if( !nextserver->GetDynIP().IsEmpty() ){
+			CServerTag serverdynip( ST_DYNIP, nextserver->GetDynIP() );
+			serverdynip.WriteToFile(servermet);
+		}
+		if( !nextserver->GetDescription().IsEmpty() ){
+			CServerTag serverdesc( ST_DESCRIPTION, nextserver->GetDescription() );
+			serverdesc.WriteToFile(servermet);
+		}
+		CServerTag serverfail(ST_FAIL, nextserver->GetFailedCount() );
+		serverfail.WriteToFile(servermet);
+		// Modified by Tarod [txh Hein] - save server preferences using eDonkey correct values
+		CServerTag serverpref( ST_PREFERENCE, nextserver->eMule2ed2k(nextserver->GetPreferences()));
+		serverpref.WriteToFile(servermet);
+		CServerTag serveruser(_T("users"), nextserver->GetNumUsers() );
+		serveruser.WriteToFile(servermet);
+		CServerTag serverfiles(_T("files"), nextserver->GetFiles() );
+		serverfiles.WriteToFile(servermet);
+		CServerTag serverping(ST_PING, nextserver->GetPing() );
+		serverping.WriteToFile(servermet);
+		CServerTag serverlastp(ST_LASTPING, nextserver->GetLastPingedTime() );
+		serverlastp.WriteToFile(servermet);
+		CServerTag servermaxusers(ST_MAXUSERS, nextserver->GetMaxUsers() );
+		servermaxusers.WriteToFile(servermet);
+		CServerTag serversoftfiles(ST_SOFTFILES, nextserver->GetSoftMaxFiles() );
+		serversoftfiles.WriteToFile(servermet);
+		CServerTag serverhardfiles(ST_HARDFILES, nextserver->GetHardMaxFiles() );
+		serverhardfiles.WriteToFile(servermet);
+		if( !nextserver->GetVersion().IsEmpty() ){
+			CServerTag serverversion( ST_VERSION, nextserver->GetVersion() );
+			serverversion.WriteToFile(servermet);
+		}
+	}
+	// v1:- eklmn: bugfix(19): by shutdown force OS flush data direct to disk [SlugFiller]
+	if ( !g_eMuleApp.m_pdlgEmule->IsRunning() ) _commit(_fileno(servermet));
+	fclose(servermet);
+	CString curservermet;
+	CString oldservermet;
+	curservermet.Format(_T("%sserver.met"),m_pPrefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"),m_pPrefs->GetConfigDir());
+	_tremove(oldservermet);
+	_trename(curservermet,oldservermet);
+	_trename(newservermet,curservermet);	
+d716 2
+a717 1
+	catch(CFileException* error) {
+d719 1
+a719 1
+		AddLogLine(false, IDS_ERR_SAVESERVERMET2);		
+d722 2
+a723 2
+	}	
+	m_nLastSaved = ::GetTickCount(); 
+d727 2
+a728 1
+void CServerList::AddServersFromTextFile(CString strFilename) {
+d733 3
+a735 2
+	while(f.ReadString(strLine)) {
+		// format is host:port,priority,Name
+d741 1
+a741 1
+		// fetch host
+d746 1
+a746 1
+		strLine = strLine.Mid(pos+1);
+d748 1
+a748 1
+		// fetch  port
+d753 1
+a753 1
+		strLine = strLine.Mid(pos+1);
+d755 1
+a755 1
+		// Barry - fetch priority
+d766 4
+a769 2
+			} catch (...) {}
+			strLine = strLine.Mid(pos+1);
+d771 2
+a772 2
+	
+		// fetch name
+d777 1
+a777 1
+		// create server object and add it to the list
+d781 2
+a782 2
+		// Barry - Was always high
+		nsrv->SetPreference((CServer::EnumServerPriority)priority); 
+d787 2
+a788 1
+			if (srvexisting) {
+d791 4
+a794 3
+				// Barry - Was always high
+				srvexisting->SetPreference((CServer::EnumServerPriority)priority); 
+				if (g_eMuleApp.m_pdlgEmule->m_wndServer) g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*srvexisting);
+@
+
+
+1.55
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d23 1
+a23 1
+#include "memcpy_amd.h"
+d222 1
+a222 1
+			packet = new Packet( OP_SERVER_DESC_REQ,0);
+d643 1
+a643 1
+		CServerTag serversoftfiles(ST_SOFTFILES, nextserver->GetSoftFiles() );
+d645 1
+a645 1
+		CServerTag serverhardfiles(ST_HARDFILES, nextserver->GetHardFiles() );
+@
+
+
+1.54
+log
+@FakeCheck for Search Result and Download List (Check and Report ... made by milobac ... merged by DropF ... tested by n@@boleo and me)
+@
+text
+@d129 1
+a129 1
+			for (uint32 i=0;i != sbuffer.tagcount;i++)
+d212 1
+a212 1
+		memcpy2( packet->pBuffer, &c, 4 );
+d217 1
+a217 1
+		g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(packet->size);
+d223 1
+a223 1
+			g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(packet->size);
+d297 1
+a297 1
+	uint32 maxusers = 0;
+d308 1
+a308 1
+			user += curr->GetUsers();
+d311 1
+a311 1
+		tuser += curr->GetUsers();
+d315 2
+a316 2
+			tuserk += curr->GetUsers(); // total users on servers with known maximum
+			maxusers+=curr->GetMaxUsers();
+d319 1
+a319 1
+	if (maxusers>0) occ=(float)(tuserk*100)/maxusers;
+d331 1
+a331 1
+			user += curr->GetUsers();
+d338 1
+a338 1
+	SaveServermetToFile();
+d555 10
+d566 2
+a567 6
+CServer* CServerList::GetServerByAddress(const CString& address, uint16 port){
+	for (POSITION pos = m_serverList.GetHeadPosition();pos != 0;m_serverList.GetNext(pos))
+	{
+		CServer *s = m_serverList.GetAt(pos); // i_a: small speed optimization
+		if (( port == s->GetPort() || port==0) && s->GetAddress() == address) 
+			return s; 
+d571 1
+a571 1
+
+d581 1
+a581 1
+bool CServerList::SaveServermetToFile(){
+d602 2
+a603 2
+		sbuffer.ip = nextserver->GetIP();
+		sbuffer.port = nextserver->GetPort();
+d613 1
+a613 1
+		sbuffer.tagcount = tagcount;
+d617 2
+a618 2
+			CTag servername( ST_SERVERNAME, nextserver->GetListName() );
+			servername.WriteTagToFile(servermet);
+d621 2
+a622 2
+			CTag serverdynip( ST_DYNIP, nextserver->GetDynIP() );
+			serverdynip.WriteTagToFile(servermet);
+d625 2
+a626 2
+			CTag serverdesc( ST_DESCRIPTION, nextserver->GetDescription() );
+			serverdesc.WriteTagToFile(servermet);
+d628 2
+a629 2
+		CTag serverfail(ST_FAIL, nextserver->GetFailedCount() );
+		serverfail.WriteTagToFile(servermet);
+d631 16
+a646 16
+		CTag serverpref( ST_PREFERENCE, nextserver->eMule2ed2k(nextserver->GetPreferences()));
+		serverpref.WriteTagToFile(servermet);
+		CTag serveruser(_T("users"), nextserver->GetUsers() );
+		serveruser.WriteTagToFile(servermet);
+		CTag serverfiles(_T("files"), nextserver->GetFiles() );
+		serverfiles.WriteTagToFile(servermet);
+		CTag serverping(ST_PING, nextserver->GetPing() );
+		serverping.WriteTagToFile(servermet);
+		CTag serverlastp(ST_LASTPING, nextserver->GetLastPingedTime() );
+		serverlastp.WriteTagToFile(servermet);
+		CTag servermaxusers(ST_MAXUSERS, nextserver->GetMaxUsers() );
+		servermaxusers.WriteTagToFile(servermet);
+		CTag serversoftfiles(ST_SOFTFILES, nextserver->GetSoftFiles() );
+		serversoftfiles.WriteTagToFile(servermet);
+		CTag serverhardfiles(ST_HARDFILES, nextserver->GetHardFiles() );
+		serverhardfiles.WriteTagToFile(servermet);
+d648 2
+a649 2
+			CTag serverversion( ST_VERSION, nextserver->GetVersion() );
+			serverversion.WriteTagToFile(servermet);
+d745 1
+a745 1
+		this->SaveServermetToFile();
+@
+
+
+1.53
+log
+@Formatting, comments, and name changes.
+@
+text
+@d91 5
+@
+
+
+1.52
+log
+@Formatting, comments, and name changes.
+@
+text
+@d37 1
+a37 1
+	serverpos = 0;
+d97 1
+a97 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.DeleteAllItems();
+d113 1
+a113 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.Hide();
+d132 1
+a132 1
+			if (!g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.AddServer(newserver,true, true) ){
+d138 1
+a138 1
+					g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*update);
+d161 2
+a162 2
+	g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.Show();
+	g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.ShowFilesCount();
+d176 1
+a176 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer( *test_server );		
+d179 1
+a179 1
+	list.AddTail(in_server);
+d185 1
+a185 1
+	if( g_eMuleApp.m_pServerConnect->IsConnected() && list.GetCount() > 0 )
+d200 1
+a200 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RemoveServer(ping_server);
+d211 1
+a211 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*ping_server );		
+d259 1
+a259 1
+	POSITION remove_pos = list.Find(out_server);
+d262 2
+a263 2
+		delete list.GetAt(remove_pos);
+		list.RemoveAt(remove_pos);
+d274 1
+a274 1
+	for ( pos1 = list.GetHeadPosition(); ( pos2 = pos1 ) != NULL;)
+d276 3
+a278 3
+		list.GetNext(pos1);
+		delete list.GetAt(pos2);
+		list.RemoveAt(pos2);
+d285 1
+a285 1
+	total = list.GetCount();
+d296 1
+a296 1
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;list.GetNext(pos))
+d298 1
+a298 1
+		curr = (CServer*)list.GetAt(pos);
+d321 1
+a321 1
+	for (POSITION pos = list.GetHeadPosition(); pos !=0; list.GetNext(pos))
+d323 1
+a323 1
+		curr = (CServer*)list.GetAt(pos);
+d335 1
+a335 1
+	for ( pos1 = list.GetHeadPosition(); ( pos2 = pos1 ) != NULL;)
+d337 3
+a339 3
+		list.GetNext(pos1);
+		delete list.GetAt(pos2);
+		list.RemoveAt(pos2);
+d348 1
+a348 1
+   for( pos1 = list.GetHeadPosition(); ( pos2 = pos1 ) != NULL; )
+d350 2
+a351 2
+	   list.GetNext(pos1);
+	   CServer* cur_server = list.GetAt(pos2);
+d353 2
+a354 2
+		   list.AddTail(cur_server);
+		   list.RemoveAt(pos2);
+d358 1
+a358 1
+	   if (i == list.GetCount())
+d362 11
+d374 18
+a391 20
+void CServerList::Sort(){
+   POSITION pos1, pos2;
+   uint16 i = 0;
+   for( pos1 = list.GetHeadPosition(); ( pos2 = pos1 ) != NULL; )
+   {
+	   list.GetNext(pos1);
+	   CServer* cur_server = list.GetAt(pos2);
+	   if (cur_server->GetPreferences()== CServer::ePR_HIGH)
+	   {
+		   list.AddHead(cur_server);
+		   list.RemoveAt(pos2);
+	   }
+	   else if (cur_server->GetPreferences() == CServer::ePR_LOW)
+	   {
+		   list.AddTail(cur_server);
+		   list.RemoveAt(pos2);
+	   }
+	   i++;
+	   if (i == list.GetCount())
+		   break;
+d394 7
+d402 2
+a403 4
+CServer* CServerList::GetNextServer(){
+	CServer* nextserver = NULL;
+	uint32 i = 0;
+	if (serverpos>=((uint32)list.GetCount()))
+d405 10
+a414 5
+	while (!nextserver && i != list.GetCount()){
+		POSITION posIndex = list.FindIndex(serverpos);
+		if (posIndex == NULL) {	// check if search position is still valid (could be corrupted by server delete operation)
+			posIndex = list.GetHeadPosition();
+			serverpos= 0;       //<<--9/27/02 zg
+d417 2
+a418 2
+		nextserver = list.GetAt(posIndex);
+		serverpos++;
+d420 5
+a424 5
+		// TODO: Add more option to filter bad server like min ping, min users etc
+		//if (nextserver->preferences = ?)
+		//	nextserver = 0;
+		if (serverpos == list.GetCount()) 	
+			serverpos = 0;
+d426 1
+a426 1
+	return nextserver;
+d428 1
+a428 1
+
+d432 1
+a432 1
+	while (!nextserver && i != list.GetCount())
+d434 1
+a434 1
+		POSITION posIndex = list.FindIndex(searchserverpos);
+d436 1
+a436 1
+			posIndex = list.GetHeadPosition();
+d439 1
+a439 1
+		nextserver = list.GetAt(posIndex);
+d442 1
+a442 1
+		if (searchserverpos == list.GetCount())
+d451 1
+a451 1
+	while (!nextserver && i != list.GetCount())
+d453 1
+a453 1
+		POSITION posIndex = list.FindIndex(statserverpos);
+d456 1
+a456 1
+			posIndex = list.GetHeadPosition();
+d459 1
+a459 1
+		nextserver = list.GetAt(posIndex);
+d462 1
+a462 1
+		if (statserverpos == list.GetCount())
+d472 1
+a472 1
+	broadcastpos = list.GetHeadPosition();
+d490 1
+a490 1
+		CServer* cur_server = list.GetAt(broadcastpos);
+d495 1
+a495 1
+		list.GetNext(broadcastpos);
+d524 1
+a524 1
+	if (list.IsEmpty()) return 0;
+d526 1
+a526 1
+		return list.GetHead();
+d528 1
+a528 1
+		pos = list.Find(lastserver);
+d532 1
+a532 1
+			return list.GetHead();
+d534 1
+a534 1
+	list.GetNext(pos);
+d538 1
+a538 1
+		return list.GetAt(pos);
+d542 1
+a542 1
+	for (POSITION pos = list.GetHeadPosition();pos != 0;list.GetNext(pos))
+d544 1
+a544 1
+		CServer *s = list.GetAt(pos); // i_a: small speed optimization
+d552 1
+a552 1
+	for (POSITION pos = list.GetHeadPosition();pos != 0;list.GetNext(pos))
+d554 1
+a554 1
+		CServer *s = list.GetAt(pos); // i_a: small speed optimization
+d562 2
+a563 2
+	for (POSITION pos = list.GetHeadPosition();pos != 0;){
+        CServer* s = list.GetNext(pos);
+d584 1
+a584 1
+	uint32 fservercount = list.GetCount();
+d713 2
+a714 2
+		nsrv->SetPreference((CServer::eServerPriority)priority); 
+		if (!g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.AddServer(nsrv, true))
+d722 2
+a723 2
+				srvexisting->SetPreference((CServer::eServerPriority)priority); 
+				if (g_eMuleApp.m_pdlgEmule->m_wndServer) g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*srvexisting);
+@
+
+
+1.51
+log
+@Formatting, comments, and name changes.
+@
+text
+@d161 1
+a161 1
+	g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.Visable();
+@
+
+
+1.50
+log
+@A little more method factoring, a few name changes, no (intended) logic changes.
+@
+text
+@d32 4
+a35 2
+CServerList::CServerList(CPreferences* in_prefs){
+	servercount = 0;
+d40 1
+a40 1
+	app_prefs = in_prefs;
+d45 1
+a45 1
+
+d48 1
+a48 1
+	if (app_prefs->m_addressesList.IsEmpty()){
+d57 2
+a58 2
+	servermet.Format(_T("%sserver.met"),app_prefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"),app_prefs->GetConfigDir());
+d62 1
+a62 1
+	POSITION Pos = app_prefs->m_addressesList.GetHeadPosition(); 
+d65 1
+a65 1
+		strURLToDownload = app_prefs->m_addressesList.GetNext(Pos); 
+d82 1
+a82 1
+	if (app_prefs->AutoServerlist())
+d85 1
+a85 1
+	CString strPath = app_prefs->GetConfigDir() + CString(_T("server.met"));
+d89 1
+a89 1
+	strPath = app_prefs->GetConfigDir() + CString(_T("staticservers.dat"));
+d554 1
+a554 1
+	newservermet.Format(_T("%sserver.met.new"),app_prefs->GetConfigDir());
+d627 2
+a628 2
+	curservermet.Format(_T("%sserver.met"),app_prefs->GetConfigDir());
+	oldservermet.Format(_T("%sserver_met.old"),app_prefs->GetConfigDir());
+@
+
+
+1.49
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d46 1
+a46 1
+	if (app_prefs->adresses_list.IsEmpty()){
+d60 1
+a60 1
+	POSITION Pos = app_prefs->adresses_list.GetHeadPosition(); 
+d63 1
+a63 1
+		strURLToDownload = app_prefs->adresses_list.GetNext(Pos); 
+@
+
+
+1.48
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d205 1
+a205 5
+		#ifndef AMD
+		memcpy( packet->pBuffer, &c, 4 );
+		#else
+		memcpy_amd( packet->pBuffer, &c, 4 );
+		#endif
+@
+
+
+1.47
+log
+@New sockets - more server logic
+@
+text
+@d19 1
+a19 1
+#include "serverlist.h"
+d45 1
+a45 1
+	theApp.glob_prefs->LoadServerlistAddresses() ; // Added by Tarod
+d95 1
+a95 1
+		theApp.emuledlg->serverwnd.serverlistctrl.DeleteAllItems();
+d111 1
+a111 1
+		theApp.emuledlg->serverwnd.serverlistctrl.Hide();
+d130 2
+a131 2
+			if (!theApp.emuledlg->serverwnd.serverlistctrl.AddServer(newserver,true, true) ){
+				CServer* update = theApp.serverlist->GetServerByAddress(newserver->GetAddress(), newserver->GetPort());
+d136 1
+a136 1
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*update);
+d159 2
+a160 2
+	theApp.emuledlg->serverwnd.serverlistctrl.Visable();
+	theApp.emuledlg->serverwnd.serverlistctrl.ShowFilesCount();
+d168 1
+a168 1
+	if (theApp.glob_prefs->FilterBadIPs()) 
+d174 1
+a174 1
+		theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( *test_server );		
+d183 1
+a183 1
+	if( theApp.serverconnect->IsConnected() && list.GetCount() > 0 )
+d195 2
+a196 2
+		if( ping_server->GetFailedCount() >= theApp.glob_prefs->GetDeadserverRetries() && 
+			theApp.glob_prefs->DeadServer() &&
+d198 1
+a198 1
+			theApp.emuledlg->serverwnd.serverlistctrl.RemoveServer(ping_server);
+d213 3
+a215 3
+		theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*ping_server );		
+		theApp.uploadqueue->AddUpDataOverheadServer(packet->size);
+		theApp.serverconnect->SendUDPPacket( packet, ping_server, true );
+d220 2
+a221 2
+			theApp.uploadqueue->AddUpDataOverheadServer(packet->size);
+			theApp.serverconnect->SendUDPPacket( packet, ping_server, true );
+d243 4
+a246 4
+	// --- no4one : using filters from ipfilter.dat for server filtering ---
+	// netwolf: option for filtering servers listed in ipfilter.dat and DynIP server
+	if (theApp.glob_prefs->FilterServersByIP())	
+		if (in_server->HasDynIP() || theApp.ipfilter->IsFiltered(in_server->GetIP()))
+d248 1
+a248 1
+			AddDebugLogLine(false,_T("Filtered Server: %s %s "),in_server->GetFullIP(),theApp.ipfilter->GetLastHit());
+d250 1
+a250 1
+			if(!theApp.glob_prefs->GetAddServersFromConn()) {  //netwolf: remove filtered servers only if 'update from servers/clients' disabled (otherwise receive-remove loop)
+d268 2
+a269 2
+		if (theApp.downloadqueue->cur_udpserver == out_server)
+			theApp.downloadqueue->cur_udpserver = 0;
+d463 1
+a463 1
+	if (theApp.listensocket->TooManySockets()){
+d475 2
+a476 2
+		if (cur_server != theApp.serverconnect->GetCurrentServer())
+			theApp.serverconnect->SendUDPPacket(broadcastpacket,cur_server,false);
+d500 1
+a500 1
+	theApp.serverlist->SendNextPacket();
+d625 1
+a625 1
+	if ( !theApp.emuledlg->IsRunning() ) _commit(_fileno(servermet));
+d697 1
+a697 1
+		if (!theApp.emuledlg->serverwnd.serverlistctrl.AddServer(nsrv, true))
+d706 1
+a706 1
+				if (theApp.emuledlg->serverwnd) theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*srvexisting);
+@
+
+
+1.46
+log
+@Implemented ConfigDir
+@
+text
+@d544 1
+a544 1
+CServer* CServerList::GetServerByIP(uint32 nIP){
+d547 1
+a547 1
+		if (s->GetIP() == nIP)
+@
+
+
+1.45
+log
+@added columns Soft/Hard Files Limit and Version in server window (merge from official)
+@
+text
+@d55 2
+a56 2
+	servermet.Format(_T("%sserver.met"),app_prefs->GetAppDir());
+	oldservermet.Format(_T("%sserver_met.old"),app_prefs->GetAppDir());
+d83 1
+a83 1
+	CString strPath = app_prefs->GetAppDir() + CString(_T("server.met"));
+d87 1
+a87 1
+	strPath = app_prefs->GetAppDir() + CString(_T("staticservers.dat"));
+d556 1
+a556 1
+	newservermet.Format(_T("%sserver.met.new"),app_prefs->GetAppDir());
+d629 2
+a630 2
+	curservermet.Format(_T("%sserver.met"),app_prefs->GetAppDir());
+	oldservermet.Format(_T("%sserver_met.old"),app_prefs->GetAppDir());
+@
+
+
+1.44
+log
+@fixed search of static servers (now will be scanned all servers in the list)
+@
+text
+@d189 1
+a189 1
+        	while (ping_server->GetLastPinged() != 0 && (::GetTickCount() - ping_server->GetLastPinged()) < UDPSERVSTATREASKTIME)
+d203 2
+a204 2
+		uint32 time = 0x55AA0000 + (uint16)rand();
+		ping_server->SetChallenge(time);
+d206 1
+a206 1
+		memcpy( packet->pBuffer, &time, 4 );
+d208 1
+a208 1
+		memcpy_amd( packet->pBuffer, &time, 4 );
+d210 2
+a211 1
+		ping_server->SetLastPinged( ::GetTickCount() );
+d214 1
+d216 11
+d576 4
+a579 2
+		uint16 tagcount = 7;
+		if (nextserver->GetListName())
+d581 1
+a581 1
+		if (nextserver->GetDynIP())
+d583 1
+a583 1
+		if (nextserver->GetDescription())
+d588 1
+a588 1
+		if( nextserver->GetListName() ){
+d592 1
+a592 1
+		if( nextserver->GetDynIP() ){
+d596 1
+a596 1
+		if( nextserver->GetDescription() ){
+d611 1
+a611 1
+		CTag serverlastp(ST_LASTPING, nextserver->GetLastPinged() );
+d615 8
+@
+
+
+1.43
+log
+@GetNextServer() was changed in order to get information about end of the list
+@
+text
+@a378 2
+	{
+		serverpos = 0;
+a379 1
+	}
+d393 2
+a394 1
+		//if (serverpos == list.GetCount()) 	serverpos = 0;
+@
+
+
+1.42
+log
+@check NULL case in AddServer()
+@
+text
+@d379 2
+d382 1
+d396 1
+a396 2
+		if (serverpos == list.GetCount()) 
+			serverpos = 0;
+@
+
+
+1.41
+log
+@Serverlist: bug in GetNextServer, added timer exception & some optimization [Eklmn]
+@
+text
+@d166 2
+@
+
+
+1.40
+log
+@WebServer:
+- auto A4AF file now it's shown
+- added fialed login message to login screen (no tries shown as it is a security concern)
+ServerList:
+- now static DynDns servers are accepted if no server filtering selected
+@
+text
+@d164 2
+a165 1
+bool CServerList::AddServer(CServer* in_server){
+a174 1
+#ifndef USE_SAFE_ARRAY
+a175 3
+#else
+	array.Add(in_server);
+#endif
+d179 1
+a179 1
+void CServerList::ServerStats(){
+d181 2
+a182 5
+#ifndef USE_SAFE_ARRAY
+	if( theApp.serverconnect->IsConnected() && list.GetCount() > 0 ) {
+#else
+	if( theApp.serverconnect->IsConnected() && array.GetCount() > 0 ) {
+#endif
+d187 2
+a188 1
+        	while(ping_server->GetLastPinged() != 0 && (::GetTickCount() - ping_server->GetLastPinged()) < UDPSERVSTATREASKTIME){ 
+d229 2
+a230 1
+	if (theApp.glob_prefs->FilterServersByIP())	// netwolf: option for filtering servers listed in ipfilter.dat and DynIP server
+d244 4
+a247 17
+void CServerList::RemoveServer(CServer* out_server){
+#ifndef USE_SAFE_ARRAY
+	for(POSITION pos = list.GetHeadPosition(); pos != NULL; )
+	{
+		POSITION pos2 = pos;
+		CServer* test_server = list.GetNext(pos);
+		if (test_server == out_server){
+			if (theApp.downloadqueue->cur_udpserver == out_server)
+				theApp.downloadqueue->cur_udpserver = 0;
+			list.RemoveAt(pos2);
+			delservercount++;
+			delete test_server;
+			return;
+		}
+	}
+#else
+	for( INT_PTR pos = 0; pos < array.GetCount(); pos++ )
+d249 6
+a254 9
+		CServer* test_server = array[pos];
+		if (test_server == out_server){
+			if (theApp.downloadqueue->cur_udpserver == out_server)
+				theApp.downloadqueue->cur_udpserver = 0;
+			array.RemoveAt(pos);
+			delservercount++;
+			delete test_server;
+			return;
+		}
+a255 1
+#endif
+d258 9
+a266 6
+void CServerList::RemoveAllServers(){
+#ifndef USE_SAFE_ARRAY
+	for(POSITION pos = list.GetHeadPosition(); pos != NULL; pos = list.GetHeadPosition()) {
+		delete list.GetAt(pos);
+		list.RemoveAt(pos);
+		delservercount++;
+a267 7
+#else
+	for(INT_PTR pos = 0; pos < array.GetCount(); pos++) {
+		delete array[pos];
+		delservercount++;
+	}
+	array.RemoveAll();
+#endif
+d270 2
+a271 2
+void CServerList::GetStatus(uint32 &total, uint32 &failed, uint32 &user, uint32 &file, uint32 &tuser, uint32 &tfile,float &occ){
+#ifndef USE_SAFE_ARRAY
+a272 3
+#else
+	total = array.GetCount();
+#endif
+d283 2
+a284 2
+#ifndef USE_SAFE_ARRAY
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;list.GetNext(pos)){
+a285 4
+#else
+	for (INT_PTR pos = 0; pos < array.GetCount() ; pos++ ){
+		curr = (CServer*)array[pos];
+#endif
+d308 2
+a309 2
+#ifndef USE_SAFE_ARRAY
+	for (POSITION pos = list.GetHeadPosition(); pos !=0;list.GetNext(pos)){
+d311 2
+a312 5
+#else
+	for (INT_PTR pos = 0; pos < array.GetCount() ; pos++){
+		curr = (CServer*)array[pos];
+#endif
+		if( !curr->GetFailedCount() ){
+d321 2
+a322 7
+#ifndef USE_SAFE_ARRAY
+	for(POSITION pos = list.GetHeadPosition(); pos != NULL; pos = list.GetHeadPosition()) {
+		delete list.GetAt(pos);
+		list.RemoveAt(pos);
+	}
+#else
+	for(INT_PTR pos = 0; pos < array.GetCount(); pos++ )
+d324 3
+a326 1
+		delete array[pos];
+a327 2
+	array.RemoveAll();
+#endif
+a332 1
+#ifndef USE_SAFE_ARRAY
+d335 2
+a336 1
+   for( pos1 = list.GetHeadPosition(); ( pos2 = pos1 ) != NULL; ){
+a347 12
+#else
+	for (INT_PTR pos = 0; pos < array.GetCount(); pos++ )
+	{
+		CServer* cur_server = array[pos];
+		if (cur_server==aServer)
+		{
+			array.RemoveAt(pos);
+			array.Add(cur_server);
+			return;
+		}
+	}
+#endif
+a350 1
+#ifndef USE_SAFE_ARRAY
+d353 2
+a354 1
+   for( pos1 = list.GetHeadPosition(); ( pos2 = pos1 ) != NULL; ){
+d357 2
+a358 1
+	   if (cur_server->GetPreferences()== CServer::ePR_HIGH){
+d362 2
+a363 1
+	   else if (cur_server->GetPreferences() == CServer::ePR_LOW){
+a370 3
+#else
+	array.Sort(PRCompare);
+#endif
+a374 1
+#ifndef USE_SAFE_ARRAY
+d391 2
+a392 14
+		//if (serverpos == list.GetCount()) return 0;
+		//serverpos = 0;
+	}
+#else
+	if (serverpos>=((uint32)array.GetCount()))
+		return NULL;
+	serverpos++;
+	if ( serverpos >= (uint32)array.GetCount() )
+	{
+		serverpos	=	0;
+	}
+	if ( array.GetCount() )
+	{
+		nextserver	=	array[serverpos];
+a393 1
+#endif
+a398 1
+#ifndef USE_SAFE_ARRAY
+d400 2
+a401 1
+	while (!nextserver && i != list.GetCount()){
+a412 11
+#else
+	searchserverpos++;
+	if ( searchserverpos >= (uint32)array.GetCount() )
+	{
+		searchserverpos	=	0;
+	}
+	if ( array.GetCount() )
+	{
+		nextserver	=	array[searchserverpos];
+	}
+#endif
+a417 1
+#ifndef USE_SAFE_ARRAY
+d419 2
+a420 1
+	while (!nextserver && i != list.GetCount()){
+d422 2
+a423 1
+		if (posIndex == NULL) {	// check if search position is still valid (could be corrupted by server delete operation)
+a426 1
+
+a432 11
+#else
+	statserverpos++;
+	if ( statserverpos >= (uint32)array.GetCount() )
+	{
+		statserverpos	=	0;
+	}
+	if ( array.GetCount() )
+	{
+		nextserver	=	array[statserverpos];
+	}
+#endif
+a439 1
+#ifndef USE_SAFE_ARRAY
+a440 3
+#else
+	broadcastpos = 0;
+#endif
+d445 1
+d456 2
+a457 2
+	if (broadcastpos != 0){
+#ifndef USE_SAFE_ARRAY
+a458 5
+		if (cur_server != theApp.serverconnect->GetCurrentServer())
+			theApp.serverconnect->SendUDPPacket(broadcastpacket,cur_server,false);
+		list.GetNext(broadcastpos);
+#else
+		CServer* cur_server = array[broadcastpos];
+d463 1
+a463 6
+		broadcastpos++;
+		if ( broadcastpos >= array.GetCount() )
+		{
+			broadcastpos	=	0;
+		}
+#endif
+d474 2
+a475 1
+	if (udp_timer){
+d482 3
+a484 1
+void CALLBACK CServerList::UDPTimerProc(HWND hwnd, UINT uMsg,UINT_PTR idEvent,DWORD dwTime){
+d486 1
+d489 5
+a493 5
+CServer* CServerList::GetNextServer(CServer* lastserver){
+#ifndef USE_SAFE_ARRAY
+	if (list.IsEmpty())
+		return 0;
+	if (!lastserver)
+d495 7
+a501 5
+	POSITION pos = list.Find(lastserver);
+	if (!pos){
+		TRACE("Error: CServerList::GetNextServer");
+		return list.GetHead();
+	}
+a506 21
+#else
+	if (array.IsEmpty())
+		return 0;
+	if (!lastserver)
+		return array[0];
+	INT_PTR pos = array.FindIndex(lastserver);
+	if (pos == -1){
+		TRACE("Error: CServerList::GetNextServer");
+		//return array[0];
+		return NULL; //japg2000: Maybe it can reduce "all files paused" hangs (is more safe)
+	}
+	pos++;
+	if ( pos >= array.GetCount() )
+	{
+		return NULL;
+	}
+	else
+	{
+		return array[pos];
+	}
+#endif
+d510 2
+a511 2
+#ifndef USE_SAFE_ARRAY
+	for (POSITION pos = list.GetHeadPosition();pos != 0;list.GetNext(pos)){
+d513 1
+a513 6
+#else
+	for ( INT_PTR pos =	0; pos < array.GetCount() ; pos++ )
+	{
+		CServer *s = array[pos]; 
+#endif
+        if (s->HasSameAddress(in_server)) 
+d520 2
+a521 2
+#ifndef USE_SAFE_ARRAY
+	for (POSITION pos = list.GetHeadPosition();pos != 0;list.GetNext(pos)){
+d523 1
+a523 6
+#else
+	for ( INT_PTR pos =	0; pos < array.GetCount() ; pos++ )
+	{
+		CServer *s = array[pos]; 
+#endif
+        if (( port == s->GetPort() || port==0) && s->GetAddress() == address) 
+d529 2
+a530 5
+CServer* CServerList::GetServerByIP(uint32 nIP)
+{
+#ifndef USE_SAFE_ARRAY
+	for (POSITION pos = list.GetHeadPosition();pos != 0;)
+	{
+a531 5
+#else
+	for (INT_PTR pos = array.GetCount();pos != 0;)
+	{
+		CServer* s = array[pos];
+#endif
+a551 1
+#ifndef USE_SAFE_ARRAY
+a552 3
+#else
+	uint32 fservercount = (uint32)array.GetCount();
+#endif
+a693 18
+
+#ifdef USE_SAFE_ARRAY
+int __cdecl CServerList::PRCompare(const void* pItem1, const void* pItem2)
+{
+	CServer* pServer1	=	(CServer*)pItem1;
+	CServer* pServer2	=	(CServer*)pItem2;
+	
+	if ( pServer1->GetPreferences() > pServer2->GetPreferences() )
+	{
+		return 1;
+	}
+	else if (pServer1->GetPreferences() < pServer2->GetPreferences())
+	{
+		return -1;
+	}
+	return 0;
+}
+#endif
+@
+
+
+1.39
+log
+@Web Server: showing SCB files and Static servers, and updated icons to be smaller.
+@
+text
+@d228 3
+a230 5
+bool CServerList::IsGoodServerIP(CServer* in_server){ 
+	/*if (in_server->HasDynIP())
+	return true;*/
+
+	if (!in_server->HasPublicAddress())
+@
+
+
+1.38
+log
+@added GetServerByIP function for better identification HighID<->LowID change
+@
+text
+@d658 5
+a662 2
+CServer* CServerList::GetServerByIP(uint32 nIP){
+	for (POSITION pos = list.GetHeadPosition();pos != 0;){
+d664 5
+@
+
+
+1.37
+log
+@by shutdown force OS flush data direct to disk [Eklmn]&[SlugFiller]
+@
+text
+@d658 9
+@
+
+
+1.36
+log
+@unicode cleanup
+@
+text
+@d24 1
+d723 2
+@
+
+
+1.35
+log
+@unicode cleanup
+@
+text
+@d126 1
+a126 1
+				listname.Format("Server %s",newserver->GetAddress());				
+d238 1
+a238 1
+			AddDebugLogLine(false,"Filtered Server: %s %s ",in_server->GetFullIP(),theApp.ipfilter->GetLastHit());
+d663 1
+a663 1
+	FILE* servermet = _tfopen(newservermet, "wb");
+d711 1
+a711 1
+		CTag serveruser("users", nextserver->GetUsers() );
+d713 1
+a713 1
+		CTag serverfiles("files", nextserver->GetFiles() );
+d784 2
+a785 2
+		strName.Replace("\r", "");
+		strName.Replace("\n", "");
+@
+
+
+1.34
+log
+@remove filtered servers only if 'update serverlist from servers/clients' is disabled
+@
+text
+@d56 2
+a57 2
+	remove(oldservermet);
+	rename(servermet,oldservermet);
+d66 1
+a66 1
+			remove(oldservermet);
+d74 1
+a74 1
+		rename(oldservermet,servermet);	
+d727 3
+a729 3
+	remove(oldservermet);
+	rename(curservermet,oldservermet);
+	rename(newservermet,curservermet);	
+@
+
+
+1.33
+log
+@FEATURE: filter servers listed in ipfilter.dat and DynIP servers (for now)
+@
+text
+@d228 3
+a230 3
+	if (in_server->HasDynIP())
+		return true;
+	
+d235 1
+a235 1
+	if (theApp.glob_prefs->FilterServersByIP())	
+d239 3
+a241 1
+			RemoveServer(in_server);
+d244 1
+a244 1
+	// --- no4one end ---
+@
+
+
+1.32
+log
+@Added countermeasures for unfair clients and some forum bugfixing
+@
+text
+@d235 7
+a241 5
+	if (theApp.ipfilter->IsFiltered(in_server->GetIP()))
+	{
+		AddDebugLogLine(false,"Filtered Server: %s %s ",in_server->GetFullIP(),theApp.ipfilter->GetLastHit());
+		return false;
+	}
+@
+
+
+1.31
+log
+@unicode cleanup
+@
+text
+@d608 2
+a609 1
+		return array[0];
+@
+
+
+1.30
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d658 1
+a658 1
+	FILE* servermet = fopen(newservermet, "wb");
+d770 1
+a770 1
+				priority = atoi(strPriority.GetBuffer(0));
+d783 1
+a783 1
+		CServer* nsrv = new CServer(atoi(strPort), strHost.GetBuffer());
+d791 1
+a791 1
+			CServer* srvexisting = GetServerByAddress(strHost.GetBuffer(), atoi(strPort));
+@
+
+
+1.29
+log
+@Preparing for new sockets
+@
+text
+@d23 1
+d207 1
+d209 3
+d827 1
+a827 1
+#endif@
+
+
+1.28
+log
+@Preparing for new sockets
+@
+text
+@d181 1
+d212 1
+d548 1
+d551 1
+@
+
+
+1.27
+log
+@converted to helper function GetErrorMessage
+@
+text
+@d529 1
+d536 1
+@
+
+
+1.26
+log
+@converted to new logger methods
+@
+text
+@d152 2
+a153 4
+		else{
+			char buffer[150];
+			error->GetErrorMessage(buffer,150);
+			AddDebugLogLine(true,IDS_ERR_FILEERROR_SERVERMET,buffer);
+@
+
+
+1.25
+log
+@code cleanup
+@
+text
+@d69 1
+a69 1
+			AddLogLine(true,GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURLToDownload.GetBuffer());
+d100 1
+a100 1
+				AddLogLine(false,GetResString(IDS_ERR_LOADSERVERMET));
+d106 1
+a106 1
+			AddLogLine(false,GetResString(IDS_ERR_BADSERVERMETVERSION),version);
+d143 1
+a143 1
+			AddLogLine(true,GetResString(IDS_SERVERSFOUND),fservercount);
+d145 1
+a145 1
+			AddLogLine(true,GetResString(IDS_SERVERSADDED), iAddCount, fservercount-iAddCount);
+d151 1
+a151 1
+			AddDebugLogLine(true,GetResString(IDS_ERR_BADSERVERLIST));
+d155 1
+a155 1
+			AddDebugLogLine(true,GetResString(IDS_ERR_FILEERROR_SERVERMET),buffer);
+d651 1
+a651 1
+		AddLogLine(false,GetResString(IDS_ERR_SAVESERVERMET));		
+d719 1
+a719 1
+		AddLogLine(false,GetResString(IDS_ERR_SAVESERVERMET2));		
+@
+
+
+1.24
+log
+@small optimisations in server list handling
+@
+text
+@d121 1
+a121 1
+				newserver->AddTagFromFile(&servermet);
+@
+
+
+1.23
+log
+@use faster method to compare servers
+@
+text
+@d128 1
+a128 1
+			if (!theApp.emuledlg->serverwnd.serverlistctrl.AddServer(newserver,true) ){
+d134 1
+a134 1
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(update);
+d160 1
+d171 1
+a171 1
+		theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( test_server );		
+d210 1
+a210 1
+		theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( ping_server );		
+d788 1
+a788 1
+				if (theApp.emuledlg->serverwnd) theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(srvexisting);
+@
+
+
+1.22
+log
+@code cleanup
+@
+text
+@d167 1
+a167 1
+	CServer* test_server = GetServerByAddress(in_server->GetAddress(), in_server->GetPort());
+d610 15
+@
+
+
+1.21
+log
+@coverted code from char * to CString
+@
+text
+@a223 4
+	char * pch;
+
+	char ipx[24];
+	sprintf(ipx,"%s",in_server->GetFullIP());
+d225 2
+a226 11
+	// Determine first and second number if the given IP
+	pch = strtok (ipx,".");	CString first=pch;pch=strtok(NULL,".");	CString second=pch;
+
+	int secondI=atoi(second);
+
+	if (first=="172" && (secondI>=16 && secondI<=31) ) return false;
+
+	if (first=="192" && secondI==168 ) return false;
+
+	if (first=="0" || first=="10" || first=="127"
+		|| in_server->GetPort()==0) return false;
+@
+
+
+1.20
+log
+@reverted to previous state (becouse memory leaks in new code)
+@
+text
+@d49 2
+a50 2
+	char* servermet = new char[strlen(app_prefs->GetAppDir())+20];
+	char* oldservermet = new char[strlen(app_prefs->GetAppDir())+20];
+d53 2
+a54 2
+	sprintf(servermet,_T("%sserver.met"),app_prefs->GetAppDir());
+	sprintf(oldservermet,_T("%sserver_met.old"),app_prefs->GetAppDir());
+d73 1
+a73 3
+		rename(oldservermet,servermet);
+	delete[] servermet;
+	delete[] oldservermet;
+d642 2
+a643 2
+	char* newservermet = new char[strlen(app_prefs->GetAppDir())+MAX_PATH];
+	sprintf(newservermet,_T("%sserver.met.new"),app_prefs->GetAppDir());
+d648 1
+a648 2
+		AddLogLine(false,GetResString(IDS_ERR_SAVESERVERMET));
+		delete[] newservermet;	//mf
+d706 4
+a709 4
+	char* curservermet = new char[strlen(app_prefs->GetAppDir())+20];
+	char* oldservermet = new char[strlen(app_prefs->GetAppDir())+20];
+	sprintf(curservermet,_T("%sserver.met"),app_prefs->GetAppDir());
+	sprintf(oldservermet,_T("%sserver_met.old"),app_prefs->GetAppDir());
+d712 1
+a712 3
+	rename(newservermet,curservermet);
+	delete[] oldservermet;
+	delete[] curservermet;
+d716 1
+a716 2
+		AddLogLine(false,GetResString(IDS_ERR_SAVESERVERMET2));
+		delete[] newservermet;	//mf
+d719 1
+a719 2
+	}
+	delete[] newservermet;
+@
+
+
+1.19
+log
+@minor fixes and improvements
+@
+text
+@d211 1
+a211 2
+		theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( ping_server );
+		packet = new Packet( OP_SERVER_DESC_REQ,0);
+@
+
+
+1.18
+log
+@Thread safe storing/loading of the server.met files (for future use) .
+@
+text
+@d212 1
+@
+
+
+1.17
+log
+@Some code housekeeping changes
+@
+text
+@d52 3
+a54 2
+	sprintf(servermet,"%sserver.met",app_prefs->GetAppDir());
+	sprintf(oldservermet,"%sserver_met.old",app_prefs->GetAppDir());
+d83 2
+a84 1
+	CString strPath = app_prefs->GetAppDir() + CString("server.met");
+d87 1
+a87 1
+	strPath = app_prefs->GetAppDir() + CString("staticservers.dat");
+d643 1
+a643 1
+	m_nLastSaved = ::GetTickCount(); 
+d645 1
+a645 1
+	sprintf(newservermet,"%sserver.met.new",app_prefs->GetAppDir());
+d711 2
+a712 2
+	sprintf(curservermet,"%sserver.met",app_prefs->GetAppDir());
+	sprintf(oldservermet,"%sserver_met.old",app_prefs->GetAppDir());
+d727 1
+@
+
+
+1.16
+log
+@Forgot to implement sort :( , here it goes
+@
+text
+@d413 1
+a413 1
+	   if (cur_server->GetPreferences()== PR_HIGH){
+d417 1
+a417 1
+	   else if (cur_server->GetPreferences() == PR_LOW){
+d779 1
+a779 1
+		nsrv->SetPreference(priority); 
+d788 1
+a788 1
+				srvexisting->SetPreference(priority); 
+d808 6
+a813 2
+	// if prioraty not equal
+	if ( pServer1->GetPreferences() != pServer1->GetPreferences() )
+d815 1
+a815 15
+		// if not equal and first is high then second normal or low
+		if ( pServer1->GetPreferences() == PR_HIGH )
+		{
+			return 1;
+		}
+		// if first low and not equal then second NORMAL or HIGH
+		else if ( pServer1->GetPreferences() == PR_LOW )
+		{
+			return -1;
+		}
+		// if not equal , first not LOW and second HIGH then first NORMAL 
+		else if ( pServer2->GetPreferences() == PR_HIGH )
+		{
+			return -1;
+		}
+@
+
+
+1.15
+log
+@CServerList moved to use new CSafe array , suppouse to work faster , safer  and to be the step to the virtual list controls .
+@
+text
+@d806 21
+@
+
+
+1.14
+log
+@code cleanup
+@
+text
+@d173 1
+d175 3
+d182 1
+d184 3
+d253 1
+d267 14
+d284 1
+d290 7
+d300 1
+d302 3
+d315 1
+d318 4
+d344 1
+d347 4
+d360 1
+d365 7
+d377 1
+d392 12
+d407 1
+d425 3
+d431 2
+a432 1
+	CServer* nextserver = 0;
+d435 1
+a435 1
+		return 0;
+d452 13
+d469 2
+a470 1
+	CServer* nextserver = 0;
+d484 11
+d499 2
+a500 1
+	CServer* nextserver = 0;
+d515 11
+d533 1
+d535 3
+d551 1
+d556 10
+d588 1
+d603 20
+d626 1
+d629 5
+d655 1
+d657 3
+d802 7
+@
+
+
+1.13
+log
+@netwolf's changes
+@
+text
+@d90 1
+a90 1
+bool CServerList::AddServermetToList(CString strFile, bool merge){
+d124 3
+a126 4
+				char* listname = new char[strlen(newserver->GetAddress())+8];
+				sprintf(listname,"Server %s",newserver->GetAddress());
+				newserver->SetListName(listname);
+				delete listname;
+d481 1
+a481 1
+CServer* CServerList::GetServerByAddress(char* address, uint16 port){
+d484 1
+a484 1
+        if (( port == s->GetPort() || port==0) && !strcmp(s->GetAddress(),address)) 
+@
+
+
+1.12
+log
+@fix for LanCast detection [BavarianSnail]
+@
+text
+@d485 1
+a485 1
+		if (port == s->GetPort() && !strcmp(s->GetAddress(),address)) 
+@
+
+
+1.11
+log
+@Fixed bug #130
+@
+text
+@d237 1
+a237 1
+		AddDebugLogLine(false,"Filtered-IP Server: %s",in_server->GetFullIP());
+@
+
+
+1.11.2.1
+log
+@27a partial merge
+@
+text
+@a202 4
+		theApp.uploadqueue->AddUpDataOverheadServer(packet->size);
+		theApp.serverconnect->SendUDPPacket( packet, ping_server, true );
+		packet = new Packet( OP_SERVER_DESC_REQ,0);
+		theApp.uploadqueue->AddUpDataOverheadServer(packet->size);
+@
+
+
+1.11.2.2
+log
+@27c
+@
+text
+@d489 1
+a489 1
+        if (( port == s->GetPort() || port==0) && !strcmp(s->GetAddress(),address)) 
+@
+
+
+1.10
+log
+@converted to new logging method
+@
+text
+@d189 3
+a191 1
+		if( ping_server->GetFailedCount() >= theApp.glob_prefs->GetDeadserverRetries() && theApp.glob_prefs->DeadServer() ){
+@
+
+
+1.9
+log
+@Updated statics server management (BUG #0000110)
+@
+text
+@d68 1
+a68 1
+			theApp.emuledlg->AddLogLine(true,GetResString(IDS_ERR_FAILEDDOWNLOADMET), strURLToDownload.GetBuffer());
+d100 1
+a100 1
+				theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_LOADSERVERMET));
+d106 1
+a106 1
+			theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_BADSERVERMETVERSION),version);
+d144 1
+a144 1
+			theApp.emuledlg->AddLogLine(true,GetResString(IDS_SERVERSFOUND),fservercount);
+d146 1
+a146 1
+			theApp.emuledlg->AddLogLine(true,GetResString(IDS_SERVERSADDED), iAddCount, fservercount-iAddCount);
+d152 1
+a152 1
+			theApp.emuledlg->AddDebugLogLine(true,GetResString(IDS_ERR_BADSERVERLIST));
+d156 1
+a156 1
+			theApp.emuledlg->AddDebugLogLine(true,GetResString(IDS_ERR_FILEERROR_SERVERMET),buffer);
+d235 1
+a235 1
+		theApp.emuledlg->AddDebugLogLine(false,"Filtered-IP Server: %s",in_server->GetFullIP());
+d493 1
+a493 1
+//	theApp.emuledlg->AddLogLine( false, "%s", newservermet );
+d497 1
+a497 1
+		theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_SAVESERVERMET));
+d564 1
+a564 1
+		theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_SAVESERVERMET2));
+@
+
+
+1.8
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d587 1
+a587 3
+		if (pos == -1){
+			pos = strLine.Find(','); 
+			if (pos == -1) 
+a588 1
+		}
+d591 1
+@
+
+
+1.7
+log
+@End of double check with official code.
+@
+text
+@d232 8
+@
+
+
+1.6
+log
+@Little fixes and Static Servers additions from 26d
+@
+text
+@a17 1
+
+a28 1
+
+@
+
+
+1.5
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@a97 3
+	// DonGato - 25/10/2002 
+	CString strPath = app_prefs->GetAppDir() + CString("staticservers.dat"); 
+	AddServersFromTextFile(strPath); 
+d101 2
+a102 1
+			theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_LOADSERVERMET));
+d567 1
+a567 1
+void CServerList::AddServersFromTextFile(CString strFilename,bool isstaticserver) {
+d597 1
+a597 1
+		int priority = SRV_PR_HIGH;
+d605 1
+a605 1
+					priority = SRV_PR_HIGH;
+d618 1
+a618 1
+		nsrv->SetIsStaticMember(isstaticserver);
+d627 1
+a627 1
+				srvexisting->SetIsStaticMember(isstaticserver);
+@
+
+
+1.4
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d41 1
+d486 1
+d639 5
+@
+
+
+1.3
+log
+@Small changes
+@
+text
+@d25 7
+@
+
+
+1.2
+log
+@updated to .25b codebase
+@
+text
+@d161 1
+a161 1
+	if (theApp.glob_prefs->FilerBadIPs()) 
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d105 1
+d148 1
+a148 1
+			theApp.emuledlg->AddLogLine(true,GetResString(IDS_ERR_BADSERVERLIST));
+d152 1
+a152 1
+			theApp.emuledlg->AddLogLine(true,GetResString(IDS_ERR_FILEERROR_SERVERMET),buffer);
+d156 1
+d566 1
+a566 1
+		// format is host:port,Name
+d587 16
+d612 2
+a613 1
+		nsrv->SetPreference(2);
+d621 2
+a622 1
+				srvexisting->SetPreference(2);
+@
+

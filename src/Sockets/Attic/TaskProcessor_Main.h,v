@@ -1,0 +1,325 @@
+head	1.12;
+access;
+symbols
+	PublicRelease_1i:1.10
+	Interim_Release_1i_RC6:1.10
+	Interim_Release_1i_RC3:1.10
+	Interim_Release_1i_RC2:1.10
+	Interim_Release_1i_RC1:1.10
+	Interim_Release_1i_beta3:1.10
+	Interim_Release_1i_beta2:1.9
+	Interim_Release_1i_beta1:1.8
+	PublicRelease_1h:1.8
+	Interim_Release_1h_rc2:1.7
+	Interim_Release_1h_RC1:1.7
+	Interim_Release_1h_beta2:1.6
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.4
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.12
+date	2003.12.16.17.48.07;	author kuchin;	state dead;
+branches;
+next	1.11;
+
+1.11
+date	2003.12.11.14.32.48;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.10.29.14.14.25;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.23.18.50.26;	author uid77509;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.16.16.34.40;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.08.17.55.38;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.03.17.56.29;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.08.26.16.54.24;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.15.12.51.25;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.15.10.08.19;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.10.14.19.55;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.23.18.06.39;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@New engine
+@
+text
+@// TaskProcessor_Main.h: interface for the CTaskProcessor_Main class.
+//
+//////////////////////////////////////////////////////////////////////
+#ifdef NEW_SOCKETS
+#if !defined(AFX_TASKPROCESSOR_MAIN_H__E3110A38_4DB8_41A3_B7B4_F4481D9DDCB1__INCLUDED_)
+#define AFX_TASKPROCESSOR_MAIN_H__E3110A38_4DB8_41A3_B7B4_F4481D9DDCB1__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "../Loggable.h"
+#include "TaskProcessor.h"
+
+class CEmEngine;
+
+struct CEmClient : public CLoggable {
+	SOCKET	m_hSocket;
+	bool	m_bIsConnected;
+
+	ULONG	m_nAddr;
+	USHORT	m_uPort;
+
+	virtual ~CEmClient();
+	virtual T_CLIENT_TYPE GetType() const = 0;
+
+	virtual void OnConnected(CEmEngine&);
+	virtual void OnAccepted(CEmEngine&);
+	virtual void OnDisconnected(CEmEngine&);
+};
+
+struct CEmClient_Peer : public CEmClient {
+	virtual T_CLIENT_TYPE GetType() const;
+	virtual void OnConnected(CEmEngine&);
+};
+
+struct CEmClient_Server : public CEmClient {
+	virtual T_CLIENT_TYPE GetType() const;
+	virtual void OnConnected(CEmEngine&);
+	virtual void OnDisconnected(CEmEngine&);
+
+	int	m_nCredits; // Will use later to check for credits left
+	int	m_nMsgCount; // To check that server version appears in first message
+};
+
+struct CEmClient_Web : public CEmClient {
+
+	virtual T_CLIENT_TYPE GetType() const;
+	// Possibly some user's stuff.
+	virtual void OnConnected(CEmEngine&);
+};
+
+typedef map<SOCKET, CEmClient*> SocketClientMap;
+
+class CTaskProcessor_Main : public CTaskProcessor
+{
+	virtual bool Start();
+	virtual void Stop();
+	virtual void ProcessTimeout();
+
+
+public:
+	CTaskProcessor_Main(CEmEngine& stEngine) :
+		CTaskProcessor(stEngine)
+		{}
+
+	SocketClientMap m_mapClients;
+
+	CEmClient* AllocClient(T_CLIENT_TYPE);
+	CEmClient* CTaskProcessor_Main::Lookup(SOCKET hSocket)
+	{
+		SocketClientMap::iterator pos = m_mapClients.find(hSocket);
+		return (pos != m_mapClients.end() ? (*pos).second : NULL);
+	}
+
+	CEmClient* AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE);
+
+	void KillClient(CEmClient*);
+};
+#endif // !defined(AFX_TASKPROCESSOR_MAIN_H__E3110A38_4DB8_41A3_B7B4_F4481D9DDCB1__INCLUDED_)
+#endif@
+
+
+1.11
+log
+@New engine
+@
+text
+@@
+
+
+1.10
+log
+@Formatting, comments, and name changes.
+@
+text
+@a11 2
+#include <afxtempl.h>
+
+d53 2
+d67 1
+a67 1
+	CMap<SOCKET, SOCKET, CEmClient*, CEmClient*> m_mapClients;
+d72 2
+a73 2
+		CEmClient* pClient;
+		return m_mapClients.Lookup(hSocket, pClient) ? pClient : NULL;
+@
+
+
+1.9
+log
+@New sockets - more server code
+@
+text
+@d24 1
+a24 1
+	USHORT	m_nPort;
+@
+
+
+1.8
+log
+@New sockets
+@
+text
+@d44 2
+a45 1
+	int	m_nCredits;
+d51 1
+a51 1
+	// possibly some user's stuff.
+@
+
+
+1.7
+log
+@New sockets - more server logic
+@
+text
+@d77 1
+@
+
+
+1.6
+log
+@New sockets
+@
+text
+@d20 5
+a24 2
+	SOCKET m_hSocket;
+	bool m_bIsConnected;
+@
+
+
+1.5
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@d39 1
+@
+
+
+1.4
+log
+@Server OpCodes
+@
+text
+@d14 4
+a17 1
+#include "Loggable.h"
+d28 1
+@
+
+
+1.3
+log
+@Another new sockets cumulative update
+@
+text
+@d35 2
+@
+
+
+1.2
+log
+@Cumulative update. Not working yet.
+@
+text
+@d14 3
+a16 1
+struct CEmClient {
+a37 3
+
+	bool m_bIsJunky;
+	CEmClient_Web() : m_bIsJunky(false) {}
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d12 33
+d50 2
+d56 12
+a68 1
+
+@
+

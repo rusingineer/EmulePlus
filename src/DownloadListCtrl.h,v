@@ -1,0 +1,2393 @@
+head	1.78;
+access;
+symbols
+	PublicRelease_1_2e:1.77
+	Interim_Release_1-2e_RC1:1.77
+	PublicRelease_1_2d:1.76
+	Interim_Release_1-2d_RC1:1.76
+	Interim_Release_1-2d_beta1:1.75
+	PublicRelease_1_2c:1.73
+	Interim_Release_1-2c_RC1:1.73
+	Interim_Release_1-2c_beta1:1.73
+	PublicRelease_1_2b:1.73
+	Interim_Release_1-2b_RC1:1.73
+	PublicRelease_1_2a:1.71
+	Interim_Release_1-2a_RC1:1.71
+	Interim_Release_1-2a_beta2:1.71
+	Interim_Release_1-2a_beta1:1.71
+	PublicRelease_1_2:1.70
+	Interim_Release_1-2_RC1:1.70
+	Interim_Release_1-2_beta1:1.70
+	PublicRelease_1_1g:1.70
+	Interim_Release_1-1g_RC3:1.70
+	Interim_Release_1-1g_RC2:1.70
+	Interim_Release_1-1g_RC1:1.70
+	Interim_Release_1-1g_beta2:1.70
+	Interim_Release_1-1g_beta1:1.68
+	PublicRelease_1_1f:1.68
+	Interim_Release_1-1f_RC1:1.68
+	PublicRelease_1_1e:1.68
+	Interim_Release_1-1e_RC2:1.68
+	Interim_Release_1-1e_RC1:1.68
+	Interim_Release_1-1e_beta1:1.68
+	PublicRelease_1_1d:1.67
+	Interim_Release_1-1d_RC1:1.67
+	PublicRelease_1_1c:1.67
+	Interim_Release_1-1c_RC1:1.67
+	Interim_Release_1-1c_beta2:1.67
+	Interim_Release_1-1c_beta1:1.67
+	PublicRelease_1_1b:1.67
+	Interim_Release_1-1b_RC1:1.67
+	PublicRelease_1_1a:1.67
+	Interim_Release_1-1a_RC2:1.67
+	Interim_Release_1-1a_RC1:1.67
+	Interim_Release_1-1a_beta2:1.67
+	Interim_Release_1-1a_beta1:1.67
+	PublicRelease_1_1:1.67
+	Interim_Release_1-1_beta1:1.67
+	PublicRelease_1o:1.65
+	Interim_Release_1o_RC1:1.65
+	Interim_Release_1o_beta1:1.65
+	PublicRelease_1n:1.64
+	Interim_Release_1n_RC2:1.64
+	Interim_Release_1n_RC1:1.64
+	Interim_Release_1n_beta2:1.64
+	Interim_Release_1n_beta1:1.62
+	PublicRelease_1m:1.62
+	Interim_Release_1m_beta1:1.62
+	PublicRelease_1l:1.62
+	Interim_Release_1l_RC3:1.61
+	Interim_Release_1l_RC2:1.61
+	Interim_Release_1l_RC1:1.60
+	Interim_Release_1l_beta2:1.60
+	Interim_Release_1l_beta1:1.60
+	PublicRelease_1k:1.59
+	Interim_Release_1k_RC4:1.59
+	Interim_1k_RC3:1.59
+	Interim_1k_RC2:1.59
+	Interim_Release_1k_RC1:1.59
+	Interim_Release_1k_beta5:1.59
+	Intrerim_Release_1k_beta4:1.59
+	Interim_Release_1k_beta1:1.59
+	PublicRelease_1j:1.55
+	Interim_Release_1J_RC3:1.55
+	Interim_Release_1j_RC3:1.55
+	Interim_Release_1j_RC2:1.55
+	Interim_Release_1j_RC1:1.55
+	Interim_Release_1j_beta2:1.55
+	Interim_Release_1j_beta1:1.55
+	PublicRelease_1i:1.55
+	Interim_Release_1i_RC6:1.55
+	Interim_Release_1i_RC3:1.55
+	Interim_Release_1i_RC2:1.55
+	Interim_Release_1i_RC1:1.55
+	Interim_Release_1i_beta3:1.53
+	Interim_Release_1i_beta2:1.51
+	Interim_Release_1i_beta1:1.36
+	PublicRelease_1h:1.27
+	Interim_Release_1h_rc2:1.27
+	Interim_Release_1h_RC1:1.26
+	Interim_Release_1h_beta2:1.26
+	Interim_Release_1h_beta1_now:1.25
+	Interim_Release_1h_beta1:1.25
+	PublicRelease_1g:1.23
+	Interim_Release_1g_RC6_Final:1.23
+	Interim_Release_1g_RC6:1.23
+	Interim_Release_1g_RC5:1.22
+	Interim_Release_1g_RC4:1.22
+	Interim_Release_1g_RC3:1.22
+	Interim_Release_1g_beta2:1.20
+	Interim_Release_1g_beta1:1.18
+	Interim_Release_1f_RC4:1.18
+	Interim_Release_1f_RC3:1.18
+	Interim_Release_1f_RC2:1.18
+	Interim_Release_1f_RC:1.18
+	Interim_Release_1f_beta2:1.18
+	Interim_Release_1f_beta1:1.18
+	PublicRelease_1e:1.18
+	Interim_Release_1e_RC2:1.18
+	Interim_Release_1e_RC:1.18
+	Interim_Release_1e_beta3:1.18
+	Interim_Release_1e_beta2:1.18
+	Interim_Release_1e_beta2_before_kuchin:1.18
+	Interim_Release_1e_beta1:1.18
+	PublicRelease_1c:1.18
+	featurestest:1.18.0.4
+	Interim_Release_1c_RC:1.18
+	Interim_Release_1c_beta2:1.18
+	Interim_Release_1c_beta1:1.18
+	threaded_downloadqueue:1.18.0.2
+	PublicRelease_1b:1.17
+	Interim_Release_1b_beta2:1.17
+	Interim_Release_1b_beta1:1.14
+	proxydeadlake:1.14.0.2
+	PublicRelease_1a:1.14
+	Interim_Release_1a_beta2:1.13
+	BerkeleyDb:1.12.0.2
+	Interim_Release_1a_beta1:1.12
+	PublicRelease_1:1.6
+	goldfish:1.6
+	eMulePlus_1_RC2:1.6
+	eMulePlus_26b_1RC1:1.5
+	PreRelease_26b_i0e:1.5
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.4
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.2.0.6
+	plus26based:1.2.0.4
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.2.2.1
+	proxytest:1.2.2.1.0.2
+	official_sockets:1.2.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.78
+date	2009.05.14.03.10.30;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2008.11.03.05.56.16;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2008.03.03.05.22.35;	author aw3;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2007.11.12.23.52.20;	author fuxie-dk;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2007.10.31.18.18.52;	author fuxie-dk;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2006.12.17.18.58.01;	author eklmn;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2006.12.17.11.13.18;	author eklmn;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2005.09.29.03.35.09;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2005.09.17.03.43.09;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2005.04.14.03.15.59;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.10.06.22.16.04;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.09.30.19.09.31;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.09.12.20.40.52;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.08.04.04.14.10;	author aw3;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.07.24.06.56.43;	author aw3;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.06.09.04.49.32;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.06.01.22.30.45;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.05.05.15.38.39;	author netwolf1;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.02.20.00.22.26;	author kush_eplus;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.02.17.01.58.30;	author kush_eplus;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.02.14.21.35.25;	author kush_eplus;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.11.01.17.59.29;	author morevit;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.10.31.19.43.58;	author morevit;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.10.30.02.44.37;	author morevit;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.10.29.22.13.32;	author dropf;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.10.20.14.27.53;	author dongato;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.10.17.21.53.30;	author morevit;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.10.17.18.11.26;	author morevit;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.10.17.10.29.06;	author morevit;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.10.15.14.15.33;	author morevit;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.10.13.15.08.40;	author morevit;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.10.11.18.01.07;	author morevit;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.10.11.16.35.33;	author morevit;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.10.09.11.55.02;	author morevit;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.10.08.15.39.47;	author morevit;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.10.07.20.50.01;	author dongato;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.10.06.23.43.00;	author dongato;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.10.06.13.24.11;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.10.04.22.17.07;	author morevit;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.10.03.23.19.22;	author morevit;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.10.03.13.42.05;	author morevit;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.09.30.19.53.17;	author morevit;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.09.26.23.38.05;	author morevit;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.09.23.16.52.49;	author morevit;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.09.22.17.17.39;	author morevit;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.09.19.00.13.37;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.09.14.13.48.42;	author dongato;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.08.23.00.20.50;	author forcha;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.08.15.15.07.12;	author forcha;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.08.03.16.51.07;	author dongato;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.07.16.23.12.52;	author syrus77;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.06.28.18.17.24;	author eklmn;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.06.22.13.40.41;	author syrus77;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.06.06.00.42.42;	author syrus77;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.06.05.20.49.50;	author syrus77;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.03.14.15.53.06;	author partyckip;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.03.08.17.33.32;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.03.08.12.09.41;	author recdvst;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.03.08.02.26.22;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.02.27.10.06.33;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.02.26.18.36.22;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.02.24.17.20.15;	author kuchin;	state Exp;
+branches
+	1.12.2.1;
+next	1.11;
+
+1.11
+date	2003.02.24.16.06.47;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.24.11.49.32;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.24.11.10.20;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.23.18.21.18;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.21.12.46.55;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.19.20.53.07;	author cax2;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.18.14.52.38;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.12.20.18.21;	author obaldin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.09.18.39.41;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.23.01.42.30;	author cax2;	state Exp;
+branches
+	1.2.2.1
+	1.2.4.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.01.28.16.54.04;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.4.1
+date	2003.02.06.22.56.22;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.12.2.1
+date	2003.02.28.22.44.54;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.78
+log
+@Save sorting directions for all GUI lists; Unified list sort initialization and click processing;
+Simplified list arrow configuration interface.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "Loggable.h"
+#include "MuleCtrlItem.h"
+#include "DownloadList.h"
+#include "MuleListCtrl.h"
+#pragma warning(push)
+#pragma warning(disable:4702) // unreachable code
+#include <map>
+#pragma warning(pop)
+
+#define DL_OVERRIDESORT			99
+
+class CPartFile;
+class CUpDownClient;
+
+enum EnumDownloadListIcons
+{
+	DL_ICON_DCS1,
+	DL_ICON_DCS2,
+	DL_ICON_DCS3,
+	DL_ICON_DCS4,
+	DL_ICON_DCS5,
+	DL_ICON_LISTMINUS,
+	DL_ICON_LISTNONE,
+	DL_ICON_LISTPLUS,
+	DL_ICON_RATING_NO,
+	DL_ICON_RATING_EXCELLENT,
+	DL_ICON_RATING_GOOD,
+	DL_ICON_RATING_FAIR,
+	DL_ICON_RATING_POOR,
+	DL_ICON_RATING_FAKE,
+	DL_ICON_A4AFAUTO,
+
+	DL_ICON_STATUS_COMPLETE,
+	DL_ICON_STATUS_COMPLETING,
+	DL_ICON_STATUS_DOWNLOADING,
+	DL_ICON_STATUS_ERRONEOUS,
+	DL_ICON_STATUS_HASHING,
+	DL_ICON_STATUS_PAUSED,
+	DL_ICON_STATUS_STALLED,
+	DL_ICON_STATUS_STOPPED,
+	DL_ICON_STATUS_WAITING,
+	DL_ICON_STATUS_WAITINGHASH
+};
+
+class CDownloadListCtrl : public CMuleListCtrl, public CLoggable
+{
+	DECLARE_DYNAMIC(CDownloadListCtrl)
+
+public:
+	CDownloadListCtrl();
+	virtual ~CDownloadListCtrl();
+
+	void	Init();
+
+	void	AddFileItem(CPartFileDLItem* pFileItem);
+	void	AddSourceItem(CSourceDLItem *pSourceItem);
+	void	RemoveFileItem(CPartFileDLItem *pFileItem);
+	void	RemoveSourceItem(CSourceDLItem *pSourceItem);
+
+	virtual void DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct);
+	void	UpdateSourceItem(CSourceDLItem *pSourceItem);
+	void	UpdateFileItem(CPartFileDLItem *pPartFileItem);
+
+	void	SetStyle();
+	void	Localize();
+
+	void	HideFileItem(CPartFileDLItem *pFileItem);
+	void	ShowFileItem(CPartFileDLItem *pFileItem);
+	void	HideSources(CPartFile* pFileItem/*,bool isShift = false,bool isCtrl = false,bool isAlt = false*/);
+	void	HideSourceItem(CSourceDLItem *pSourceItem);
+	void	ShowSourceItem(CSourceDLItem *pSourceItem);
+	bool	IsSourceFiltered(CSourceDLItem *pSourceItem);
+	void	AutoSetSourceFilters(CPartFileDLItem *pFileItem);
+	void	ResetSourceFiltersForAllFiles();
+
+	void	ShowFilesCount();
+	void	ShowSelectedFileOrUserDetails();
+	void	ShowAllUploadingSources();
+
+
+	void	ExpandCollapseItem(int iItem, enum EnumExpandType expand,bool bCollapseSource = false);
+	bool	GetDisplayedFiles(CArray<CPartFile*,CPartFile*> *list);
+
+	void	ChangeCategoryByID(EnumCategories eNewCatID);
+	void	ChangeCategoryByIndex(int iNewCatIdx);
+	EnumCategories	GetCurTabCat() { return m_eCurTabCat; }
+	byte	GetCurTabIndex() { return static_cast<byte>(m_iCurTabIndex); }
+
+	virtual BOOL OnCommand(WPARAM wParam,LPARAM lParam);
+
+	void	RestartWaitingDownloads();
+	void	RefreshList();
+	void	SortInit(int override);
+	bool	IsShowingSources() {return m_bShowSrc;}
+
+	void	PostRefreshMessage();
+	void	FilterNoSources();
+	void	FilterAllSources();
+	void	UpdateSourceItems(CPartFileDLItem *pFileItem = NULL);
+	void	UpdateFileItems();
+	virtual BOOL PreTranslateMessage(MSG *pMsg);
+
+protected:
+	void	DrawFileItem(CDC *dc, int nColumn, LPRECT lpRect, CPartFileDLItem *pFileItem);
+	void	DrawSourceItem(CDC *dc, int nColumn, LPRECT lpRect, CSourceDLItem *lpSourceItem);
+
+	afx_msg void OnItemActivate(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
+	afx_msg void OnColumnClick(NMHDR* pNMHDR, LRESULT* pResult);
+	afx_msg void OnListModified(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnNMDblclkDownloadlist(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnGetDispInfo(NMHDR* pNMHDR, LRESULT* pResult);
+
+	static int CALLBACK SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
+	static int Compare(CPartFile* file1, CPartFile* file2, LPARAM lParamSortItem, WPARAM wParamSortMod);
+	static int Compare(CUpDownClient* client1,CUpDownClient* client2, LPARAM lParamSort, bool bDisambiguate = true);
+
+	DECLARE_MESSAGE_MAP()
+
+	afx_msg void OnNMClick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	afx_msg void OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void OnKillFocus(CWnd *pNewWnd);
+
+	virtual void OnNMDividerDoubleClick(NMHEADER *pNMHDR);
+	virtual BOOL OnWndMsg(UINT iMessage, WPARAM wParam, LPARAM lParam, LRESULT *pResult);
+
+	void RefreshInfo(void);
+
+private:
+	EnumCategories	m_eCurTabCat;
+	int				m_iCurTabIndex;
+	int				m_iColumnMaxWidths[DLCOL_NUMCOLUMNS];
+	int				m_iMeasuringColumn;
+	struct	//anonymous struct - allows the use of bit fields as if they were direct members
+	{
+		bool		m_bShowUploadingSources : 1;
+		bool		m_bShowOnQueueSources : 1;
+		bool		m_bShowFullQueueSources : 1;
+		bool		m_bShowConnectedSources : 1;
+		bool		m_bShowConnectingSources : 1;
+		bool		m_bShowNNPSources : 1;
+		bool		m_bShowWaitForFileReqSources : 1;
+		bool		m_bShowLowToLowIDSources : 1;
+		bool		m_bShowLowIDOnOtherSrvSources : 1;
+		bool		m_bShowBannedSources : 1;
+		bool		m_bShowErrorSources : 1;
+		bool		m_bShowA4AFSources : 1;
+		bool		m_bShowUnknownSources : 1;
+		bool		m_bSmartFilter : 1;
+	};
+
+	CImageList		m_imageList;
+
+	bool			m_bShowSrc;
+
+private:
+//	Map methods
+	CPartFileDLItem	   *GetFileItem(const CDownloadList::PFIter &itFile) { return itFile->second; }
+	CSourceDLItem	   *GetSourceItem(const CDownloadList::SourceIter &itSource) { return itSource->second; }
+
+//	List methods
+	void			ListInsertFileItem(CPartFileDLItem *pFileItem,int iPos);
+	void			ListInsertSourceItem(CSourceDLItem *pSourceItem, int iPos);
+	int				ListGetFileItemIndex(CPartFileDLItem *pFileItem);
+	int				ListGetSourceItemIndex(CSourceDLItem *pSourceItem);
+	CMuleCtrlItem  *ListGetItemAt(int iIndex);
+	bool			ListSelectionIsEmpty() { return GetSelectionMark() == -1 || GetSelectedCount() < 1; }
+};
+@
+
+
+1.77
+log
+@Simplified column resize interface.
+@
+text
+@a62 1
+// CDownloadListCtrl
+a173 7
+	byte			m_byteSortAscending[DLCOL_NUMCOLUMNS];	// bit 0 - 1st sort direction, bit 1 - 2nd sort direction, etc.
+	int				m_iCurrentSortItem;
+	bool			m_bSortAscending;
+	int				m_iSourceSortItem;
+	bool			m_bSortSourcesAscending;
+	int				m_iSourceSortItem2;			// Secondary sort column
+	bool			m_bSortSourcesAscending2;
+@
+
+
+1.76
+log
+@Removed namespace usage.
+@
+text
+@a18 1
+#include "types.h"
+a29 1
+// Forward declaration
+d145 2
+a146 2
+	virtual BOOL OnNMDividerDoubleClick(NMHEADER* pNMHDR, LRESULT* pResult);
+	virtual BOOL OnWndMsg(UINT iMessage,WPARAM wParam, LPARAM lParam, LRESULT *pResult);
+@
+
+
+1.75
+log
+@Suppressed compiler warnings [KuSh/Aw3].
+@
+text
+@a30 2
+using namespace std;
+
+@
+
+
+1.74
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@d24 2
+d27 1
+@
+
+
+1.73
+log
+@corrected my changes to follow coding guidelines (thanks Aw3)
+@
+text
+@d105 1
+a105 1
+	void	ChangeCategoryByIndex(byte newCategoryIndex);
+d107 1
+a107 1
+	byte	GetCurTabIndex() { return m_iCurTabIndex; }
+d153 1
+a153 1
+	byte			m_iCurTabIndex;
+@
+
+
+1.72
+log
+@speed optimization (don't create a copy of iterator )
+@
+text
+@d187 2
+a188 2
+	CPartFileDLItem	   *GetFileItem(const CDownloadList::PFIter& itFile) { return itFile->second; }
+	CSourceDLItem	   *GetSourceItem(const CDownloadList::SourceIter& itSource) { return itSource->second; }
+@
+
+
+1.71
+log
+@Reduced H-file dependency.
+@
+text
+@d187 2
+a188 2
+	CPartFileDLItem	   *GetFileItem(CDownloadList::PFIter itFile) { return itFile->second; }
+	CSourceDLItem	   *GetSourceItem(CDownloadList::SourceIter itSource) { return itSource->second; }
+@
+
+
+1.70
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@d17 1
+a18 1
+#pragma once
+a19 2
+#include "memdc.h"
+#include "TitleMenu.h"
+a23 1
+
+@
+
+
+1.69
+log
+@Some eklmn's modifications.
+@
+text
+@d169 1
+@
+
+
+1.68
+log
+@Removed ListGetOneSelectedItem method;
+Some section reorganization.
+@
+text
+@d167 1
+a167 1
+		bool		m_bShowTooManyConnSources : 1;
+@
+
+
+1.67
+log
+@Removed suspicious 'Default Sorting' option.
+@
+text
+@d112 1
+a112 1
+	virtual BOOL OnCommand(WPARAM wParam,LPARAM lParam );
+d119 7
+d132 1
+a132 1
+	afx_msg	void OnColumnClick( NMHDR* pNMHDR, LRESULT* pResult);
+d176 11
+a187 2
+	CImageList  	m_imageList;
+
+a198 18
+	CMuleCtrlItem  *ListGetOneSelectedItem() { return reinterpret_cast<CMuleCtrlItem*>(GetItemData(GetSelectionMark())); }
+
+	byte			m_byteSortAscending[DLCOL_NUMCOLUMNS];	// bit 0 - 1st sort direction, bit 1 - 2nd sort direction, etc.
+	int         	m_iCurrentSortItem;
+	bool        	m_bSortAscending;
+	int				m_iSourceSortItem;
+	bool			m_bSortSourcesAscending;
+	int				m_iSourceSortItem2;			// Secondary sort column
+	bool			m_bSortSourcesAscending2;
+	bool			m_bShowSrc;
+
+public:
+	void			PostRefreshMessage();
+	void			FilterNoSources();
+	void			FilterAllSources();
+	void			UpdateSourceItems(CPartFileDLItem *pFileItem = NULL);
+	void			UpdateFileItems();
+	virtual BOOL	PreTranslateMessage(MSG *pMsg);
+@
+
+
+1.66
+log
+@Preferences storage reorganization and minor optimization.
+@
+text
+@a28 1
+#define DL_DEFAULTSOURCESORT	255
+@
+
+
+1.65
+log
+@Removed old unused code.
+@
+text
+@a67 27
+enum EnumDownloadListColumns
+{
+	DLCOL_FILENAME = 0,
+	DLCOL_SIZE,
+	DLCOL_TRANSFERRED,
+	DLCOL_COMPLETED,
+	DLCOL_SPEED,
+	DLCOL_PROGRESS,
+	DLCOL_NUMSOURCES,
+	DLCOL_PRIORITY,
+	DLCOL_STATUS,
+	DLCOL_REMAINING,
+	DLCOL_REMAININGTIME,
+	DLCOL_ULDLRATIO,
+	DLCOL_QLRATING,
+	DLCOL_LASTSEENCOMPLETE,
+	DLCOL_LASTRECEIVED,
+	DLCOL_CATEGORY,
+	DLCOL_WAITED,
+	DLCOL_AVGSPEED,
+	DLCOL_AVGREMTIME,
+	DLCOL_ETA,
+	DLCOL_AVGETA,
+
+	DLCOL_NUMCOLUMNS
+};
+
+@
+
+
+1.64
+log
+@Final fix for lost Sources sorting indicator(s) in download list.
+@
+text
+@a220 1
+	DWORD			m_dwSortTime;
+@
+
+
+1.63
+log
+@Faster client icon drawing in the lists;
+Unified processing of client icon images; Unused methods are removed.
+@
+text
+@d168 1
+@
+
+
+1.62
+log
+@Fixed list sorting direction while switching <thanks xrmb>;
+Removed unused code and class member.
+@
+text
+@a39 7
+	DL_ICON_NORMAL = 0,
+	DL_ICON_COMPROT,
+	DL_ICON_MLDONKEY,
+	DL_ICON_EDONKEYHYBRID,
+	DL_ICON_CREDIT_DOWNESTIMATED,
+	DL_ICON_FRIEND_ONLY,
+	DL_ICON_BANNED_ONLY,
+a53 5
+	DL_ICON_UNKNOWN,
+	DL_ICON_AMULE,
+	DL_ICON_LMULE,
+	DL_ICON_SHAREAZA,
+	DL_ICON_SECUREHASH,
+d65 1
+a65 1
+	DL_ICON_STATUS_WAITINGHASH,
+@
+
+
+1.61
+log
+@Add aMule client support;
+CDonkey client support is eliminated.
+@
+text
+@d21 1
+a21 1
+#include "titlemenu.h"
+d104 1
+a104 1
+	DLCOL_NUMCOLUMNS,
+a157 1
+	byte	m_iFilesSortIndex;
+d171 1
+a171 1
+    static int Compare(CPartFile* file1, CPartFile* file2, LPARAM lParamSortItem, WPARAM wParamSortMod);
+d224 1
+a231 1
+	DWORD			m_dwLastSortCode;
+@
+
+
+1.60
+log
+@Middle mouse button click opens details of selected client or file
+@
+text
+@d62 1
+a62 1
+	DL_ICON_CDONKEY,
+@
+
+
+1.59
+log
+@formatting;
+little optimiZation of the DownloadList sorting code;
+fixed sorting of ETA, AVG ETA, TimeRemaining, AvgTimeRemaining columns;
+changed and fixed new option 'Show paused and stopped files last', it works and now with all column sort
+@
+text
+@d140 1
+a140 1
+	void	ShowSelectedFileDetails();
+d154 4
+a157 5
+// PLUS -----------------------------------------------------------------------
+	void	RestartWaitingDownloads(); 				// Rod
+	void	RefreshList();							// Cax2
+	void	SortInit(int override);					// Cax2
+	bool	IsShowingSources() {return m_bShowSrc;}	// Cax2
+a158 1
+// ----------------------------------------------------------------------------
+a176 1
+// PLUS -----------------------------------------------------------------------
+a185 1
+// ----------------------------------------------------------------------------
+a205 1
+
+a212 2
+//	bool				IsValidIterator(CDownloadList::PFIter itFile) { return g_eMuleApp.m_pDownloadList->IsValidIterator(itFile); }
+//	bool				IsValidIterator(CDownloadList::SourceIter itSource) { return g_eMuleApp.m_pDownloadList->IsValidIterator(itSource); }
+a224 1
+// PLUS -----------------------------------------------------------------------
+a233 1
+// ----------------------------------------------------------------------------
+@
+
+
+1.58
+log
+@formatting; minor changes; something was missed in last commit (Aw3 ???); always keep paused and stopped files at bottom in downloadlist
+@
+text
+@a173 1
+	static int CompareFiles(CPartFile* pFile1, CPartFile* pFile2);
+@
+
+
+1.57
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d174 2
+a175 2
+	static int CompareFileNames(CPartFile* pFile1, CPartFile* pFile2);
+    static int Compare(CPartFile* file1, CPartFile* file2, LPARAM lParamSort);
+@
+
+
+1.56
+log
+@few changes and formatting + corrected a previous change that is not working
+@
+text
+@d148 1
+a148 1
+	void	ChangeCategoryByIndex(uint8 newCategoryIndex);
+d150 1
+a150 1
+	uint8	GetCurTabIndex() { return m_iCurTabIndex; }
+d159 1
+a159 1
+	int8	m_iFilesSortIndex;
+d194 1
+a194 1
+	uint8			m_iCurTabIndex;
+@
+
+
+1.55
+log
+@Modified so that disabling "Smart Filtering" resets the source filtering on all file items.
+@
+text
+@d126 1
+a126 1
+		
+d129 1
+a129 1
+	
+d146 1
+a146 1
+	
+d151 1
+a151 1
+	
+d165 1
+a165 1
+	
+d180 1
+a180 1
+// PLUS -----------------------------------------------------------------------	
+d189 2
+a190 2
+	void RefreshInfo(void);	
+// ----------------------------------------------------------------------------	
+d233 1
+a233 1
+// PLUS -----------------------------------------------------------------------	
+d243 1
+a243 1
+// ----------------------------------------------------------------------------	
+@
+
+
+1.54
+log
+@Added "smart" source filtering code. Fixed IsSourceFiltered() so it filters out "connecting via server" sources if the "connecting" filter is on.
+@
+text
+@d137 1
+@
+
+
+1.53
+log
+@Formatting, comments, and name changes.
+@
+text
+@d130 3
+a132 3
+	void	HideFileItem(CPartFileDLItem *pPartFile);
+	void	ShowFileItem(CPartFileDLItem *pPartFile);
+	void	HideSources(CPartFile* toCollapse/*,bool isShift = false,bool isCtrl = false,bool isAlt = false*/);
+d136 1
+d248 2
+a249 1
+	void			UpdateSourceItems();
+@
+
+
+1.52
+log
+@*** empty log message ***
+@
+text
+@d248 1
+a248 1
+	virtual BOOL PreTranslateMessage(MSG* pMsg);	// DropF - Keyboard Shortcuts
+@
+
+
+1.51
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@d248 1
+@
+
+
+1.50
+log
+@Added new File Status icons and some compilation fixes.
+@
+text
+@d29 2
+a30 5
+#define DL_SORTASC		0
+#define DL_SORTDESC		100
+#define DL_SORTFILES	0
+#define DL_SORTSOURCES	1000
+#define DL_OVERRIDESORT	99
+d174 1
+a174 1
+	static int Compare(CUpDownClient* client1,CUpDownClient* client2, LPARAM lParamSort);
+d236 2
+@
+
+
+1.49
+log
+@Added "Queue Full" and "Unknown" to source filtering.
+@
+text
+@d80 1
+@
+
+
+1.48
+log
+@First working version of the new source filtering code and some bugfixes for the new sorting code.
+@
+text
+@d201 1
+d210 1
+@
+
+
+1.47
+log
+@no message
+@
+text
+@d176 1
+a176 1
+	static int Compare(CUpDownClient* client1,CUpDownClient* client2, LPARAM lParamSort, int sortMod);
+d243 3
+a245 1
+
+@
+
+
+1.46
+log
+@More fixes for a compiler bug in VS2002. Compile with -D VS2002 if you're using it.
+@
+text
+@d234 2
+d237 1
+a237 1
+	int				m_iLastSortCode;
+@
+
+
+1.45
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d126 2
+a127 2
+	void	UpdateItem(CSourceDLItem *pSourceItem);
+	void	UpdateItem(CPartFileDLItem *pPartFileItem);
+@
+
+
+1.44
+log
+@Started source filter rewrite.
+Restructured list code (more to come)
+@
+text
+@d24 2
+d120 4
+a123 6
+	void	AddFile(CPartFile* toadd);
+	void	AddSource(CPartFile* owner,CUpDownClient* source,bool notavailable);
+	void	RemoveFile(CPartFile* toremove);
+	void	RemoveSource(CUpDownClient* source,CPartFile* owner);
+	void	ClearCompleted(uint8 iCategoryID = 0); // 0 means use GUI current cat.
+	void	ClearCompleted(const uchar* FileHash /*= NULL*/);	//SyruS clear single completed files
+d126 2
+a127 2
+	void	UpdateItem(CUpDownClient *pSource);
+	void	UpdateItem(CPartFile *pPartFile);
+d132 2
+a133 2
+	void	HideFile(CPartFile* tohide);
+	void	ShowFile(CPartFile* toshow);
+d135 2
+a136 2
+	void	HideSource(CUpDownClient *pSource);
+	void	ShowSource(CUpDownClient *pSource);
+a142 1
+	CString GetPartFilesStatusString();
+d147 1
+a147 1
+	void	ChangeCategoryByID(uint8 iNewCatID);
+d149 1
+a149 1
+	uint8	GetCurTabCat() { return m_iCurTabCat; }
+d174 1
+a174 1
+	static int CDownloadListCtrl::CompareFileNames(CPartFile* pFile1, CPartFile* pFile2);
+d193 1
+a193 1
+	uint8			m_iCurTabCat;
+a215 13
+	typedef map<CPartFile*, CPartFileDLItem*>	PartFileMap;
+	typedef PartFileMap::iterator				PFIter;
+	typedef pair<PFIter,PFIter>					PFRange;
+	typedef const pair<PFIter,bool>				FileInserted;
+
+	typedef multimap<CUpDownClient*, CSourceDLItem*>	SourceMap;
+	typedef SourceMap::iterator					SourceIter;
+	typedef pair<SourceIter,SourceIter>			SourceRange;
+	typedef const pair<SourceIter,bool>			SourceInserted;
+
+	PartFileMap									m_mapFiles;
+	SourceMap									m_mapSources;	// non-ownership - source items owned by part items
+
+d217 4
+a220 11
+	void			MapRemoveAllFiles();
+	bool			IsValidIterator(PFIter itFile) { return itFile != m_mapFiles.end(); }
+	bool			IsValidIterator(SourceIter itSource) { return itSource != m_mapSources.end(); }
+	CPartFileDLItem *MapGetFileItem(PFIter itFile) { return itFile->second; }
+	CSourceDLItem	*MapGetSourceItem(SourceIter itSource) { return itSource->second; }
+	PFIter			MapFindFileItem(CPartFile *pPartFile) {	return(m_mapFiles.find(pPartFile)); }
+	SourceRange		MapFindSourceItems(CUpDownClient *pSource);
+	FileInserted	MapInsertFileItem(CPartFile *pPartFile, CPartFileDLItem *pFileItem)
+						{ return m_mapFiles.insert(make_pair(pPartFile, pFileItem)); }
+	SourceIter		MapInsertSourceItem(CUpDownClient *pSource,CSourceDLItem *pSourceItem)
+						{ return m_mapSources.insert(make_pair(pSource, pSourceItem)); }
+a230 4
+//	Map + List methods
+	CSourceDLItem  *RemoveSourceItem(CUpDownClient *pSource, CPartFile *pParentFile = NULL);
+
+
+d240 1
+@
+
+
+1.43
+log
+@Changed the default value in ClearCompleted from CAT_UNCATEGORIZED to 0.
+@
+text
+@d126 2
+a127 1
+	void	UpdateItem(void* toupdate);
+d137 1
+a137 1
+	bool	IsSourceFiltered(CMuleCtrlItem* pSourceItem);
+d143 1
+a143 1
+	CString getTextList();
+d164 2
+a165 2
+	void	DrawFileItem(CDC *dc, int nColumn, LPRECT lpRect, CMuleCtrlItem* lpCtrlItem);
+	void	DrawSourceItem(CDC *dc, int nColumn, LPRECT lpRect, CMuleCtrlItem* lpCtrlItem);
+d198 15
+a215 9
+	CTitleMenu		m_menuClient;
+	CMenu			m_menuPriority;
+	CMenu			m_menuAdvanced;
+	CTitleMenu		m_menuFile;
+	CMenu			m_menuWeb;
+
+	typedef multimap<void*, CMuleCtrlItem*>	MuleMultiMap;
+    typedef MuleMultiMap::iterator			MuleIter;
+    typedef pair<MuleIter, MuleIter>		MuleRange;
+d217 38
+a254 1
+	MuleMultiMap							m_mapItems;
+@
+
+
+1.42
+log
+@Modified ClearCompleted() to take a category ID instead of a boolean, allowing the GUI category to be overridden.
+@
+text
+@d122 1
+a122 1
+	void	ClearCompleted(uint8 iCategoryID = CAT_UNCATEGORIZED); // CAT_UNCATEGORIZED means use GUI current cat.
+@
+
+
+1.41
+log
+@Separated CMuleCtrlItem out of DownloadListCtrl files.
+@
+text
+@d122 1
+a122 1
+	void	ClearCompleted(bool bIgnoreCats = false);
+@
+
+
+1.40
+log
+@Formatting, comments, and name changes. Factored various UI update methods out and modified to use async. messaging instead of sync. call.
+@
+text
+@d23 1
+a104 48
+};
+
+class CMuleCtrlItem
+{
+public:
+//	Constructor
+	CMuleCtrlItem(CPartFile *pFile, CMuleCtrlItem *pFileItem, CUpDownClient *pSource)
+		: m_pFile(pFile), m_pFileItem(pFileItem), m_pSource(pSource), m_dwUpdateTimer(0), m_bSourceIsAvailable(false),
+		  m_bSrcsAreVisible(false), m_bShowOnlySrcsUploading(false), m_bShowOnlySrcsAllowingUsInUploadQueue(false),
+		  m_bShowOnlySrcsWithNeededParts(false) { }
+	~CMuleCtrlItem()
+		{ m_bmpStatus.DeleteObject(); }
+
+//	Accessors
+	CPartFile		*GetFile() const { return m_pFile; }
+	CMuleCtrlItem   *GetFileItem() const { return m_pFileItem; }
+	CUpDownClient	*GetSource() const { return m_pSource; }
+	bool			SourceIsAvailable() const { return m_bSourceIsAvailable; }
+	DWORD			GetUpdateTimer() const { return m_dwUpdateTimer; }
+	CBitmap			&GetBitmap() { return m_bmpStatus; }
+
+	void			SetUpdateTimer(DWORD dwUpdate) { m_dwUpdateTimer = dwUpdate; }
+	void			SetSourceAvailability(bool bSourceIsAvailable) { m_bSourceIsAvailable = bSourceIsAvailable; }
+	void			ResetUpdateTimer() { m_dwUpdateTimer = 0; }
+
+//	Methods
+	bool			IsFile() const { return m_pSource == NULL; }
+	bool			IsSource() const { return m_pSource != NULL; }
+	bool			IsAskedForAnotherFile() const;
+
+public:
+// For Files ONLY
+	bool			m_bSrcsAreVisible;
+	bool			m_bShowOnlySrcsUploading;
+	bool			m_bShowOnlySrcsAllowingUsInUploadQueue;
+	bool			m_bShowOnlySrcsWithNeededParts;
+
+// For Sources ONLY
+	CMuleCtrlItem	*m_pFileItem;
+
+private:
+	DWORD			m_dwUpdateTimer;
+	CBitmap			m_bmpStatus;
+	CPartFile	   *m_pFile;
+
+//	For Sources ONLY
+	CUpDownClient  *m_pSource;
+	bool			m_bSourceIsAvailable;
+@
+
+
+1.39
+log
+@Fixed a problem with rating icon and removed old code not used anymore
+@
+text
+@d234 1
+@
+
+
+1.38
+log
+@Updates
+@
+text
+@a263 1
+	bool			m_bDblClicked;
+d267 1
+a267 1
+	
+a268 1
+
+@
+
+
+1.37
+log
+@Removed option to disable File Status icons
+Added old actions to new File Status icons
+Removed spamming log from Source Saver
+Removed old non used icons from resources
+Updated +/- icons with Psy suggestion
+@
+text
+@d248 1
+@
+
+
+1.36
+log
+@Added some constants for use in clarifying the sorting code.
+@
+text
+@a46 1
+	DL_ICON_LISTPAUSED,
+a64 2
+	DL_ICON_LISTCOMPLETE,
+	DL_ICON_LISTSTOPPED,
+@
+
+
+1.35
+log
+@Formatting, comments, and name changes.
+Possible fix for the drawing problem in DrawItem().
+@
+text
+@d26 6
+@
+
+
+1.34
+log
+@Formatting, comments, and name changes.
+Fixed column resizing on double-click.
+@
+text
+@d34 40
+a73 40
+	ICON_NORMAL = 0,
+	ICON_COMPROT,
+	ICON_MLDONKEY,
+	ICON_EDONKEYHYBRID,
+	ICON_CREDIT_DOWNESTIMATED,
+	ICON_FRIEND_ONLY,
+	ICON_BANNED_ONLY,
+	ICON_LISTPAUSED,
+	ICON_DCS1,
+	ICON_DCS2,
+	ICON_DCS3,
+	ICON_DCS4,
+	ICON_DCS5,
+	ICON_LISTMINUS,
+	ICON_LISTNONE,
+	ICON_LISTPLUS,
+	ICON_RATING_NO,
+	ICON_RATING_EXCELLENT,
+	ICON_RATING_GOOD,
+	ICON_RATING_FAIR,
+	ICON_RATING_POOR,
+	ICON_RATING_FAKE,
+	ICON_UNKNOWN,
+	ICON_CDONKEY,
+	ICON_LMULE,
+	ICON_SHAREAZA,
+	ICON_LISTCOMPLETE,
+	ICON_LISTSTOPPED,
+	ICON_SECUREHASH,
+	ICON_A4AFAUTO,
+
+	ICON_STATUS_COMPLETE,
+	ICON_STATUS_COMPLETING,
+	ICON_STATUS_DOWNLOADING,
+	ICON_STATUS_ERRONEOUS,
+	ICON_STATUS_HASHING,
+	ICON_STATUS_PAUSED,
+	ICON_STATUS_STALLED,
+	ICON_STATUS_STOPPED,
+	ICON_STATUS_WAITING,
+d257 1
+a257 1
+	bool			m_bShowSrc;  		// Cax2 
+d260 1
+a260 1
+	bool			m_bDblClicked;		// DonGato
+@
+
+
+1.33
+log
+@Added download list columns for average speed, averaged time remaining, ETA, and averaged ETA. Renamed "Time" column to "Remaining Time".
+@
+text
+@d202 1
+a202 1
+	bool	IsShowingSources() {return m_ShowSrc;}	// Cax2
+d229 3
+d238 2
+d243 10
+a252 9
+	CTitleMenu		m_ClientMenu;
+	CMenu			m_PrioMenu;
+	CTitleMenu		m_FileMenu;
+	CMenu			m_Web;
+
+	typedef multimap<void*, CMuleCtrlItem*> MuleMultiMap;
+    typedef MuleMultiMap::iterator MuleIter;
+    typedef pair<MuleIter, MuleIter> MuleRange;
+	MuleMultiMap	m_ListItems;
+d255 6
+a260 7
+	int         	m_CurrentSortItem;
+	bool        	m_SortAscending;
+	bool			m_ShowSrc;  		// Cax2 
+	int				m_lastSort;
+	DWORD			m_sortTime;
+	bool			m_dblclicked;		// DonGato
+	CMutex			m_MutexAccess;
+@
+
+
+1.32
+log
+@Added static method CompareFileNames().
+@
+text
+@d88 1
+a88 1
+	DLCOL_TIME,
+a91 1
+
+d95 4
+@
+
+
+1.31
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@d215 1
+@
+
+
+1.30
+log
+@Added new hotkey Ctrl-Alt-Shift 'U' which expands all files but filters so only uploading sources show.
+@
+text
+@d188 4
+a191 2
+	void	ChangeCategory(int newsel);
+	void	MoveCompletedfilesCat(uint8 from, uint8 to);
+d228 3
+a230 2
+public:
+	uint8	m_nCurTab;
+@
+
+
+1.29
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d180 2
+a181 1
+	void	ShowSelectedFileDetails();	
+@
+
+
+1.28
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d26 2
+d41 1
+a41 1
+	ICON_26_ONLY,
+d60 4
+d65 1
+a65 1
+	ICON_STATUS_COMPLETE = 26,
+d100 1
+a100 1
+enum EnumItemType
+d102 35
+a136 4
+	FILE_TYPE = 1,
+	AVAILABLE_SOURCE,
+	UNAVAILABLE_SOURCE
+};
+d138 8
+a145 13
+struct ST_CTRLITEM
+{
+	EnumItemType		eType;
+	CPartFile*			pOwner;
+	void*				pValue;	// could be both CPartFile or CUpDownClient
+	ST_CTRLITEM*		pParent;
+	DWORD				dwUpdated;
+	CBitmap				bmpStatus;
+
+	~ST_CTRLITEM()	
+	{
+		bmpStatus.DeleteObject();
+	}
+a147 2
+bool IsAskedForAnotherFile(ST_CTRLITEM *pItem);
+
+d173 5
+a177 2
+	void	ShowFile(CPartFile* tohide);
+	void	HideSources(CPartFile* toCollapse,bool isShift = false,bool isCtrl = false,bool isAlt = false);
+d184 1
+a184 1
+	void	ExpandCollapseItem(int item,uint8 expand,bool collapsesource=false);
+d197 1
+a197 1
+	int8	FilesSortIndex;
+d201 2
+a202 2
+	void	DrawFileItem(CDC *dc, int nColumn, LPRECT lpRect, ST_CTRLITEM* lpCtrlItem);
+	void	DrawSourceItem(CDC *dc, int nColumn, LPRECT lpRect, ST_CTRLITEM* lpCtrlItem);
+d221 1
+d229 1
+a229 1
+	CImageList  	m_pImageList;
+d235 4
+a238 3
+	typedef std::pair<void*, ST_CTRLITEM*> ListItemsPair;
+	typedef std::multimap<void*, ST_CTRLITEM*> ListItems;
+    ListItems		m_ListItems;
+@
+
+
+1.27
+log
+@Fix for lists navigation [from official]
+@
+text
+@d23 1
+d30 65
+a94 1
+enum ItemType
+d103 1
+a103 1
+	ItemType			eType;
+d133 2
+a134 2
+	void	ClearCompleted(bool ignorecats=false);
+	void	ClearCompleted(const uchar* FileHash /*=NULL*/);
+d195 1
+a195 1
+	CImageList  	m_ImageList;
+d203 1
+a203 1
+    ListItems	m_ListItems;
+d218 1
+@
+
+
+1.26
+log
+@*** empty log message ***
+@
+text
+@d111 1
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@a19 1
+#include "partfile.h"
+a22 1
+
+d25 3
+a27 1
+using namespace std;
+d29 1
+a29 1
+class CMuleCtrlItem
+d31 4
+a34 13
+public:
+	// Constructor
+	CMuleCtrlItem(CPartFile* pFile, CUpDownClient* pSource)
+		{ m_pFile = pFile; m_pSource = pSource; m_dwUpdated = 0; }
+	~CMuleCtrlItem()
+		{ m_Status.DeleteObject(); }
+
+	// Methods
+	bool IsFile(){ return m_pSource == NULL; }
+	bool IsSource(){ return m_pSource != NULL; }
+	CPartFile* GetFile(){ return m_pFile; }
+	CUpDownClient* GetSource(){ return m_pSource; }
+	bool IsAskedForAnotherFile();
+d36 13
+a48 8
+public:
+	// Public data (too lazy to hide :)
+	DWORD	m_dwUpdated;
+	CBitmap	m_Status;
+
+private:
+	CPartFile*		m_pFile;
+	CUpDownClient*	m_pSource;
+d51 1
+a51 4
+typedef multimap<void*, CMuleCtrlItem*> MuleMultiMap;
+typedef MuleMultiMap::iterator MuleIter;
+typedef pair<MuleIter, MuleIter> MuleRange;
+
+d61 1
+a61 2
+	virtual void DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct);
+	void	UpdateItem(void* toupdate);
+d63 1
+d66 1
+d68 6
+a73 3
+	void	RemoveFile(CPartFile* toremove);
+	void	ClearCompleted(const uchar* FileHash = NULL);	//SyruS clear single completed files
+	virtual BOOL OnCommand(WPARAM wParam,LPARAM lParam );
+d76 19
+d96 1
+a96 1
+	void	RefreshList();						// Cax2
+d98 1
+a98 1
+	bool	IsShowingSources() {return m_ShowSrc;}			// Cax2
+d100 1
+a100 8
+	void	HideSources(CPartFile* partfile);  			// Cax2 closefile bugfix
+	CString getTextList();
+	bool	GetDisplayedFiles(CArray<CPartFile*,CPartFile*> *list);	//SyruS (failsafe) show completed files (0.28b)
+
+#ifdef __USE_CATEGORIES__
+	uint8	curTab;
+	void	ChangeCategory(int newsel);
+#endif
+d103 5
+a107 3
+	void	DrawFileItem(CDC *dc, int nColumn, LPRECT lpRect, CMuleCtrlItem *lpCtrlItem);
+	void	DrawSourceItem(CDC *dc, int nColumn, LPRECT lpRect, CMuleCtrlItem *lpCtrlItem);
+	afx_msg void OnLvnItemActivate(NMHDR *pNMHDR, LRESULT *pResult);
+d110 2
+d117 11
+d129 11
+a139 1
+	CImageList  	imagelist;
+a145 2
+
+	MuleMultiMap	m_ListData;
+d147 1
+d150 1
+a150 6
+	afx_msg void OnNMClick(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnNMDblclkDownloadlist(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	afx_msg void OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+	void RefreshInfo(void);
+@
+
+
+1.24
+log
+@Fix for a bug introduced by me (double-clicking with the new actions triggered the clear or unpause action for the selected file).
+@
+text
+@d88 4
+@
+
+
+1.23
+log
+@using const uchar* for parameter to ClearCompleted
+@
+text
+@d107 1
+@
+
+
+1.22
+log
+@New A4AF mangement
+@
+text
+@d75 1
+a75 1
+	void	ClearCompleted(uchar FileHash[16]=NULL);	//SyruS clear single completed files
+@
+
+
+1.21
+log
+@CHANGE: WebServer: show filename in cancel-confirmation
+CHANGE: WebServer: download a4af only possible on non-paused files with sources
+BUGFIX: WebServer: code optimization and stabilisation of transferlist
+@
+text
+@a84 1
+	void	DownloadAllA4AF(CPartFile* file); 			// Tarod
+@
+
+
+1.20
+log
+@WebServer: clear all or single completed files [SyruS]
+@
+text
+@d87 1
+a87 1
+	void	GetDisplayedFiles(CArray<CPartFile*,CPartFile*> *list);	//SyruS show completed files (0.28b)
+@
+
+
+1.19
+log
+@WebServer: show completed files (0.28b) [SuruS]
+@
+text
+@d75 1
+a75 1
+	void	ClearCompleted();
+d87 1
+a87 1
+	void	GetDisplayedFiles(CArray<CPartFile*,CPartFile*> *list);	//SuruS show completed files (0.28b)
+@
+
+
+1.18
+log
+@converted to new logging method
+@
+text
+@d87 1
+@
+
+
+1.17
+log
+@Updates to reCDVst changes (missing strings) and some changes to the context menu (lost an hour for a f****** define). Added standard web services.
+@
+text
+@d23 1
+d61 1
+a61 1
+class CDownloadListCtrl : public CMuleListCtrl
+@
+
+
+1.16
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@a76 1
+	void	CreateMenues();
+a91 1
+	afx_msg void OnNMRclick(NMHDR *pNMHDR, LRESULT *pResult);
+a100 5
+	CTitleMenu		m_ClientMenu;
+	CMenu			m_PrioMenu;
+	CMenu			m_MovieMenu;		// DonGato
+	CTitleMenu		m_FileMenu;
+	CMenu			m_Web;
+d113 1
+@
+
+
+1.15
+log
+@Another rewrite - now very close to Maella's code
+@
+text
+@d107 1
+@
+
+
+1.14
+log
+@Bugfixes and some simplifying of code
+@
+text
+@d33 3
+a35 1
+		{ m_pFile = pFile; m_pSource = pSource; }
+d54 1
+a54 1
+typedef multimap<void*, void*> MuleMultiMap;
+a57 29
+class CMuleItemMgr
+{
+public:
+	virtual ~CMuleItemMgr();
+
+	// File
+	CMuleCtrlItem* AddFile(CPartFile* pFile);
+	void RemoveFile(CMuleCtrlItem* pFile);
+	CMuleCtrlItem* FindFile(CPartFile* pFile);
+	MuleRange GetAllFiles();
+	MuleRange GetItemsByFile(CPartFile* pFile);
+
+	// Source
+	CMuleCtrlItem* AddSource(CUpDownClient* pSource, CPartFile* pFile);
+	void RemoveSource(CMuleCtrlItem* pSource);
+	void RemoveSource(CUpDownClient* pSource);
+	CMuleCtrlItem* FindSource(CUpDownClient* pSource, CPartFile* pFile, BOOL bLock = TRUE);
+
+	// Lock
+	void LockRemove(){ m_MutexRemove.Lock(); }
+	void UnlockRemove(){ m_MutexRemove.Unlock(); }
+
+private:
+	MuleMultiMap m_ListData;	// NxN list, files and sources vs. data
+
+	CMutex m_MutexAccess;
+	CMutex m_MutexRemove;
+};
+
+d113 2
+a114 1
+	CMuleItemMgr	m_ItemMgr;
+@
+
+
+1.13
+log
+@Bugfixes
+@
+text
+@a78 1
+	MuleMultiMap m_ListFS;	// NxN list, files vs. sources
+@
+
+
+1.12
+log
+@Proper fix
+@
+text
+@d33 1
+a33 1
+		{ m_pFile = pFile; m_pSource = pSource; m_bA4AF = false; }
+d40 1
+a40 2
+	void SetAskedForAnotherFile(bool bA4AF){ m_bA4AF = bA4AF; }
+	bool IsAskedForAnotherFile(){ return m_bA4AF; }
+a49 1
+	bool			m_bA4AF;
+@
+
+
+1.12.2.1
+log
+@v1a upgrade
+@
+text
+@d33 1
+a33 1
+		{ m_pFile = pFile; m_pSource = pSource; }
+d40 2
+a41 1
+	bool IsAskedForAnotherFile();
+d51 1
+d81 1
+@
+
+
+1.11
+log
+@Improvements
+@
+text
+@d73 1
+@
+
+
+1.10
+log
+@Small fix
+@
+text
+@d75 4
+d84 1
+@
+
+
+1.9
+log
+@3rd rewrite - multimap rulez
+@
+text
+@a68 1
+	int GetSourcesCount(CPartFile* pFile);
+@
+
+
+1.8
+log
+@listcontent rewrite - second try
+@
+text
+@d24 1
+a24 3
+class CMuleFileEntry;
+class CMuleSourceEntry;
+class CMuleCtrlItem;
+d26 1
+a26 15
+class CMuleFileEntry
+{
+public:
+	CMuleFileEntry(CPartFile* pFile){ m_pFile = pFile; m_pItem = NULL; }
+	CPartFile* GetFile(){ return m_pFile; }
+	void SetCtrlItem(CMuleCtrlItem* pItem){ m_pItem = pItem; }
+	CMuleCtrlItem* GetCtrlItem(){ return m_pItem; }
+	void AddSource(CMuleSourceEntry* pSource);
+	void RemoveSource(CMuleSourceEntry* pSource);
+	bool IsEmpty();
+private:
+	CPartFile* m_pFile;	// File
+	CMuleCtrlItem* m_pItem; // Item in list
+	// All sources that have this file
+	CMap<CMuleSourceEntry*, CMuleSourceEntry*, void*, void*> m_List;
+d28 1
+a28 4
+	CMutex m_AccessMutex;
+};
+
+class CMuleSourceEntry
+d31 3
+a33 13
+	CMuleSourceEntry(CUpDownClient*	pSource){ m_pSource = pSource; m_pFile = NULL; }
+	void SetCurrentFile(CPartFile* pFile){ m_pFile = pFile; }
+	CPartFile* GetCurrentFile(){ return m_pFile; }
+	CUpDownClient* GetSource(){ return m_pSource; }
+	void AddFile(CMuleFileEntry* pFile);
+	void RemoveFile(CMuleFileEntry* pFile);
+	bool IsEmpty();
+	bool IsInList(CMuleFileEntry* pFile);
+private:
+	CUpDownClient*	m_pSource;	// Source
+	CPartFile*		m_pFile;	// Current used file
+	// All files and items that have this source
+	CMap<CMuleFileEntry*, CMuleFileEntry*, void*, void*> m_List;
+d35 1
+a35 10
+	CMutex m_AccessMutex;
+};
+
+class CMuleCtrlItem
+{
+public:
+	CMuleCtrlItem(CMuleFileEntry* pFile, CMuleSourceEntry* pSource)
+		{ m_pFile = pFile; m_pSource = pSource; }
+	CMuleFileEntry* GetFile(){ return m_pFile; }
+	CMuleSourceEntry* GetSource(){ return m_pSource; }
+d38 5
+a42 1
+	bool IsAskedForAnotherFile(){ return m_pFile->GetFile() == m_pSource->GetCurrentFile(); }
+d44 1
+d47 1
+d49 3
+a51 2
+	CMuleSourceEntry*	m_pSource;	// Source, NULL if file-entry
+	CMuleFileEntry*		m_pFile;	// File, to which source belongs
+d54 4
+d66 4
+a69 1
+	CMuleFileEntry* FindFile(CPartFile* pFile);
+d74 1
+a74 10
+	CMuleSourceEntry* FindSource(CUpDownClient* pClient);
+/*
+	CMuleCtrlItem* FindFile(CPartFile *pFile);
+	CMuleCtrlItem* FindRealSource(CUpDownClient* pSource);
+	CMuleCtrlItem* FindSource(CUpDownClient* pSource);
+*/
+
+	CMap<CMuleCtrlItem*, CMuleCtrlItem*, void*, void*> m_ListItems;
+	CTypedPtrMap<CMapPtrToPtr, CPartFile*, CMuleFileEntry*> m_ListFiles;
+	CTypedPtrMap<CMapPtrToPtr, CUpDownClient*, CMuleSourceEntry*>	m_ListSources;
+d77 3
+a82 49
+/*
+class CMuleCtrlItem
+{
+	typedef enum
+	{
+		CTRLITEM_FILE,
+		CTRLITEM_SOURCE,
+		CTRLITEM_SOURCEUNIQUE
+	} MuleCtrlItemType;
+
+public:
+	// Common methods
+	virtual ~CMuleCtrlItem();
+	void SetCurrentFile(CPartFile* pFile); // for source and realsource
+	CUpDownClient* GetSource(){ return m_pSource; } // for source and realsource
+	int  GetSourceCount(){ return m_Sources.GetCount(); } // for file and realsource
+	CMuleCtrlItem* GetSource(int n){ return m_Sources[n]; } // for file and realsource
+
+	// File methods
+	CMuleCtrlItem(CPartFile* pFile);
+	bool IsFile(){ return m_nType == CTRLITEM_FILE; }
+	CPartFile* GetFile(){ return m_pFile; } // for file and source
+
+	// Source methods
+	CMuleCtrlItem(CUpDownClient* pSource, CPartFile* pFile, CMuleCtrlItem* pRealSource);
+	bool IsSource(){ return m_nType == CTRLITEM_SOURCE; }
+	CMuleCtrlItem* GetRealSource(){ return m_pRealSource; }
+	bool IsAskedForAnotherFile(){ return m_pFile != m_pRealSource->m_pFile; }
+
+	// Unique source methods
+	CMuleCtrlItem(CUpDownClient* pSource);
+	bool IsRealSource(){ return m_nType == CTRLITEM_SOURCEUNIQUE; }
+	void RemoveSource(CMuleCtrlItem* pSource);
+	bool IsInFileList(CPartFile* pFile);
+	void AddSource(CMuleCtrlItem* pSource); // for file and unique source
+	void RemoveFile(CPartFile* pFile);
+
+public:
+	DWORD	m_dwUpdated;
+	CBitmap	m_Status;
+
+private:
+	MuleCtrlItemType m_nType;
+	CPartFile* m_pFile;
+	CUpDownClient*	m_pSource;
+	CMuleCtrlItem*	m_pRealSource;
+	CTypedPtrMap<CMapPtrToPtr, void*, CMuleCtrlItem*> m_List;
+};
+*/
+@
+
+
+1.7
+log
+@Rewrite of listcontent
+@
+text
+@d24 90
+a127 2
+	CPartFile* GetFile(){ return m_pFile; } // for all types
+	void AddSource(CMuleCtrlItem* pSource); // for file and realsource
+d134 1
+d147 2
+d159 1
+a159 17
+	CArray<CMuleCtrlItem*, CMuleCtrlItem*> m_Sources;
+};
+
+class CMuleItemMgr
+{
+public:
+	virtual ~CMuleItemMgr();
+	CMuleCtrlItem* AddFile(CPartFile* pFile);
+	CMuleCtrlItem* AddSource(CUpDownClient* pSource, CPartFile* pFile);
+	CMuleCtrlItem* FindFile(CPartFile *pFile);
+	CMuleCtrlItem* FindRealSource(CUpDownClient* pSource);
+	CMuleCtrlItem* FindSource(CUpDownClient* pSource);
+	void RemoveFile(CMuleCtrlItem* pFile);
+	void RemoveSource(CMuleCtrlItem* pSource);
+
+	CTypedPtrMap<CMapPtrToPtr, void*, CMuleCtrlItem*> m_ListFiles;
+	CTypedPtrMap<CMapPtrToPtr, void*, CMuleCtrlItem*> m_ListSources;
+d161 1
+@
+
+
+1.6
+log
+@minor graphic improvements. search bugfix
+@
+text
+@d24 61
+a84 8
+struct CtrlItem_Struct{
+   uint8            type;
+   void*            owner;
+   void*            value;
+   CtrlItem_Struct* parent;
+   DWORD            dwUpdated;
+   CBitmap          status;
+   ~CtrlItem_Struct() { status.DeleteObject(); }
+d118 2
+a119 2
+	void	DrawFileItem(CDC *dc, int nColumn, LPRECT lpRect, CtrlItem_Struct *lpCtrlItem);
+	void	DrawSourceItem(CDC *dc, int nColumn, LPRECT lpRect, CtrlItem_Struct *lpCtrlItem);
+a129 1
+        CTypedPtrMap<CMapPtrToPtr, void*, CtrlItem_Struct*> listcontent; // zz
+d140 2
+@
+
+
+1.5
+log
+@Updated ListCtrls to new icon management to be more tidy and practical. Hope didn't broke anything.
+@
+text
+@d58 1
+@
+
+
+1.4
+log
+@more 26b merges
+@
+text
+@d71 1
+a71 1
+    	static int Compare(CPartFile* file1, CPartFile* file2, LPARAM lParamSort);
+d77 1
+a77 1
+	CImageList  	m_ImageList;
+@
+
+
+1.3
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@a75 1
+	//CTypedPtrList<CPtrList, CtrlItem_Struct*> listcontent;
+@
+
+
+1.2
+log
+@update to .25b codebase
+@
+text
+@d76 2
+a77 1
+	CTypedPtrList<CPtrList, CtrlItem_Struct*> listcontent;
+@
+
+
+1.2.4.1
+log
+@speedups by zz
+@
+text
+@d76 1
+a76 2
+	//CTypedPtrList<CPtrList, CtrlItem_Struct*> listcontent;
+        CTypedPtrMap<CMapPtrToPtr, void*, CtrlItem_Struct*> listcontent; // zz
+@
+
+
+1.2.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d60 2
+@
+

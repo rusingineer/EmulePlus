@@ -1,0 +1,7404 @@
+head	1.244;
+access;
+symbols
+	PublicRelease_1_2e:1.241
+	Interim_Release_1-2e_RC1:1.240
+	PublicRelease_1_2d:1.238
+	Interim_Release_1-2d_RC1:1.238
+	Interim_Release_1-2d_beta1:1.235
+	PublicRelease_1_2c:1.230
+	Interim_Release_1-2c_RC1:1.230
+	Interim_Release_1-2c_beta1:1.222
+	PublicRelease_1_2b:1.220
+	Interim_Release_1-2b_RC1:1.220
+	PublicRelease_1_2a:1.211
+	Interim_Release_1-2a_RC1:1.211
+	Interim_Release_1-2a_beta2:1.208
+	Interim_Release_1-2a_beta1:1.207
+	PublicRelease_1_2:1.202
+	Interim_Release_1-2_RC1:1.202
+	Interim_Release_1-2_beta1:1.201
+	PublicRelease_1_1g:1.197
+	Interim_Release_1-1g_RC3:1.197
+	Interim_Release_1-1g_RC2:1.197
+	Interim_Release_1-1g_RC1:1.196
+	Interim_Release_1-1g_beta2:1.196
+	Interim_Release_1-1g_beta1:1.182
+	PublicRelease_1_1f:1.177
+	Interim_Release_1-1f_RC1:1.177
+	PublicRelease_1_1e:1.176
+	Interim_Release_1-1e_RC2:1.176
+	Interim_Release_1-1e_RC1:1.176
+	Interim_Release_1-1e_beta1:1.173
+	PublicRelease_1_1d:1.172
+	Interim_Release_1-1d_RC1:1.172
+	PublicRelease_1_1c:1.171
+	Interim_Release_1-1c_RC1:1.171
+	Interim_Release_1-1c_beta2:1.170
+	Interim_Release_1-1c_beta1:1.170
+	PublicRelease_1_1b:1.166
+	Interim_Release_1-1b_RC1:1.166
+	PublicRelease_1_1a:1.163
+	Interim_Release_1-1a_RC2:1.163
+	Interim_Release_1-1a_RC1:1.163
+	Interim_Release_1-1a_beta2:1.163
+	Interim_Release_1-1a_beta1:1.159
+	PublicRelease_1_1:1.156
+	Interim_Release_1-1_beta1:1.156
+	PublicRelease_1o:1.155
+	Interim_Release_1o_RC1:1.155
+	Interim_Release_1o_beta1:1.155
+	PublicRelease_1n:1.154
+	Interim_Release_1n_RC2:1.154
+	Interim_Release_1n_RC1:1.153
+	Interim_Release_1n_beta2:1.144
+	Interim_Release_1n_beta1:1.140
+	PublicRelease_1m:1.138
+	Interim_Release_1m_beta1:1.138
+	PublicRelease_1l:1.137
+	Interim_Release_1l_RC3:1.137
+	Interim_Release_1l_RC2:1.137
+	Interim_Release_1l_RC1:1.134
+	Interim_Release_1l_beta2:1.133
+	Interim_Release_1l_beta1:1.127
+	PublicRelease_1k:1.118
+	Interim_Release_1k_RC4:1.118
+	Interim_1k_RC3:1.117
+	Interim_1k_RC2:1.116
+	Interim_Release_1k_RC1:1.116
+	Interim_Release_1k_beta5:1.114
+	Intrerim_Release_1k_beta4:1.114
+	Interim_Release_1k_beta1:1.112
+	PublicRelease_1j:1.103
+	Interim_Release_1J_RC3:1.103
+	Interim_Release_1j_RC3:1.103
+	Interim_Release_1j_RC2:1.100
+	Interim_Release_1j_RC1:1.100
+	Interim_Release_1j_beta2:1.100
+	Interim_Release_1j_beta1:1.97
+	PublicRelease_1i:1.97
+	Interim_Release_1i_RC6:1.97
+	Interim_Release_1i_RC3:1.94
+	Interim_Release_1i_RC2:1.94
+	Interim_Release_1i_RC1:1.93
+	Interim_Release_1i_beta3:1.93
+	Interim_Release_1i_beta2:1.90
+	Interim_Release_1i_beta1:1.85
+	PublicRelease_1h:1.81
+	Interim_Release_1h_rc2:1.81
+	Interim_Release_1h_RC1:1.81
+	Interim_Release_1h_beta2:1.80
+	Interim_Release_1h_beta1_now:1.77
+	Interim_Release_1h_beta1:1.77
+	PublicRelease_1g:1.73
+	Interim_Release_1g_RC6_Final:1.73
+	Interim_Release_1g_RC6:1.73
+	Interim_Release_1g_RC5:1.73
+	Interim_Release_1g_RC4:1.71
+	Interim_Release_1g_RC3:1.70
+	Interim_Release_1g_beta2:1.59
+	Interim_Release_1g_beta1:1.53
+	Interim_Release_1f_RC4:1.51
+	Interim_Release_1f_RC3:1.51
+	Interim_Release_1f_RC2:1.47
+	Interim_Release_1f_RC:1.47
+	Interim_Release_1f_beta2:1.46
+	Interim_Release_1f_beta1:1.41
+	PublicRelease_1e:1.40
+	Interim_Release_1e_RC2:1.40
+	Interim_Release_1e_RC:1.40
+	Interim_Release_1e_beta3:1.40
+	Interim_Release_1e_beta2:1.40
+	Interim_Release_1e_beta2_before_kuchin:1.40
+	Interim_Release_1e_beta1:1.40
+	PublicRelease_1c:1.37
+	featurestest:1.37.0.2
+	Interim_Release_1c_RC:1.37
+	Interim_Release_1c_beta2:1.35
+	Interim_Release_1c_beta1:1.31
+	threaded_downloadqueue:1.31.0.2
+	PublicRelease_1b:1.30
+	Interim_Release_1b_beta2:1.30
+	Interim_Release_1b_beta1:1.28
+	proxydeadlake:1.25.0.2
+	PublicRelease_1a:1.25
+	Interim_Release_1a_beta2:1.25
+	BerkeleyDb:1.23.0.2
+	Interim_Release_1a_beta1:1.23
+	PublicRelease_1:1.21
+	goldfish:1.21
+	eMulePlus_1_RC2:1.21
+	eMulePlus_26b_1RC1:1.21
+	PreRelease_26b_i0e:1.21
+	before_26d_merge:1.19
+	Interim_Release_26b_i0d:1.17
+	Interim_Release_26b_i0c:1.11
+	Interim_Release_26b_i0b:1.11
+	Interim_Release_26b_i0a:1.11
+	systraydlg:1.7.0.4
+	plus26based:1.7.0.2
+	Interim_Release_25b_i0b:1.7
+	Proxy_Dev:1.7
+	Interim_Release_25b_i0a:1.6.2.2
+	proxytest:1.6.2.1.0.2
+	official_sockets:1.6.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.244
+date	2009.06.20.14.26.32;	author aw3;	state Exp;
+branches;
+next	1.243;
+
+1.243
+date	2009.05.26.03.53.21;	author aw3;	state Exp;
+branches;
+next	1.242;
+
+1.242
+date	2009.05.18.20.36.41;	author aw3;	state Exp;
+branches;
+next	1.241;
+
+1.241
+date	2009.04.16.04.25.20;	author aw3;	state Exp;
+branches;
+next	1.240;
+
+1.240
+date	2009.03.01.05.50.14;	author aw3;	state Exp;
+branches;
+next	1.239;
+
+1.239
+date	2008.07.23.04.08.23;	author aw3;	state Exp;
+branches;
+next	1.238;
+
+1.238
+date	2008.04.16.19.44.17;	author eklmn;	state Exp;
+branches;
+next	1.237;
+
+1.237
+date	2008.03.24.14.09.42;	author eklmn;	state Exp;
+branches;
+next	1.236;
+
+1.236
+date	2008.03.03.05.25.41;	author aw3;	state Exp;
+branches;
+next	1.235;
+
+1.235
+date	2007.12.28.04.03.22;	author aw3;	state Exp;
+branches;
+next	1.234;
+
+1.234
+date	2007.12.01.10.38.07;	author eklmn;	state Exp;
+branches;
+next	1.233;
+
+1.233
+date	2007.11.12.23.51.27;	author fuxie-dk;	state Exp;
+branches;
+next	1.232;
+
+1.232
+date	2007.10.31.18.18.58;	author fuxie-dk;	state Exp;
+branches;
+next	1.231;
+
+1.231
+date	2007.10.03.18.09.18;	author eklmn;	state Exp;
+branches;
+next	1.230;
+
+1.230
+date	2007.08.09.02.59.39;	author aw3;	state Exp;
+branches;
+next	1.229;
+
+1.229
+date	2007.07.23.04.31.18;	author aw3;	state Exp;
+branches;
+next	1.228;
+
+1.228
+date	2007.06.14.02.49.53;	author aw3;	state Exp;
+branches;
+next	1.227;
+
+1.227
+date	2007.06.04.01.32.15;	author aw3;	state Exp;
+branches;
+next	1.226;
+
+1.226
+date	2007.06.01.04.49.26;	author aw3;	state Exp;
+branches;
+next	1.225;
+
+1.225
+date	2007.05.27.21.58.08;	author aw3;	state Exp;
+branches;
+next	1.224;
+
+1.224
+date	2007.05.27.15.23.11;	author aw3;	state Exp;
+branches;
+next	1.223;
+
+1.223
+date	2007.05.21.23.51.58;	author aw3;	state Exp;
+branches;
+next	1.222;
+
+1.222
+date	2007.02.25.05.30.46;	author aw3;	state Exp;
+branches;
+next	1.221;
+
+1.221
+date	2007.02.17.05.48.45;	author aw3;	state Exp;
+branches;
+next	1.220;
+
+1.220
+date	2007.01.17.07.43.32;	author aw3;	state Exp;
+branches;
+next	1.219;
+
+1.219
+date	2007.01.11.19.57.05;	author eklmn;	state Exp;
+branches;
+next	1.218;
+
+1.218
+date	2007.01.08.05.59.45;	author aw3;	state Exp;
+branches;
+next	1.217;
+
+1.217
+date	2006.11.27.19.01.49;	author eklmn;	state Exp;
+branches;
+next	1.216;
+
+1.216
+date	2006.11.27.13.58.52;	author aw3;	state Exp;
+branches;
+next	1.215;
+
+1.215
+date	2006.11.23.11.00.43;	author eklmn;	state Exp;
+branches;
+next	1.214;
+
+1.214
+date	2006.11.21.12.09.41;	author eklmn;	state Exp;
+branches;
+next	1.213;
+
+1.213
+date	2006.11.10.15.03.55;	author eklmn;	state Exp;
+branches;
+next	1.212;
+
+1.212
+date	2006.10.25.13.25.40;	author aw3;	state Exp;
+branches;
+next	1.211;
+
+1.211
+date	2006.09.05.00.49.29;	author aw3;	state Exp;
+branches;
+next	1.210;
+
+1.210
+date	2006.07.23.17.49.42;	author aw3;	state Exp;
+branches;
+next	1.209;
+
+1.209
+date	2006.07.23.00.31.29;	author aw3;	state Exp;
+branches;
+next	1.208;
+
+1.208
+date	2006.06.05.04.38.18;	author aw3;	state Exp;
+branches;
+next	1.207;
+
+1.207
+date	2006.04.26.03.21.23;	author aw3;	state Exp;
+branches;
+next	1.206;
+
+1.206
+date	2006.03.27.03.53.27;	author aw3;	state Exp;
+branches;
+next	1.205;
+
+1.205
+date	2006.03.25.04.23.43;	author aw3;	state Exp;
+branches;
+next	1.204;
+
+1.204
+date	2006.03.23.17.31.46;	author eklmn;	state Exp;
+branches;
+next	1.203;
+
+1.203
+date	2006.03.21.21.51.27;	author eklmn;	state Exp;
+branches;
+next	1.202;
+
+1.202
+date	2006.02.14.15.52.16;	author aw3;	state Exp;
+branches;
+next	1.201;
+
+1.201
+date	2006.01.24.04.04.30;	author aw3;	state Exp;
+branches;
+next	1.200;
+
+1.200
+date	2006.01.15.07.18.50;	author aw3;	state Exp;
+branches;
+next	1.199;
+
+1.199
+date	2006.01.14.19.53.10;	author aw3;	state Exp;
+branches;
+next	1.198;
+
+1.198
+date	2006.01.12.17.58.09;	author eklmn;	state Exp;
+branches;
+next	1.197;
+
+1.197
+date	2005.12.03.07.57.57;	author eklmn;	state Exp;
+branches;
+next	1.196;
+
+1.196
+date	2005.11.25.05.11.44;	author aw3;	state Exp;
+branches;
+next	1.195;
+
+1.195
+date	2005.11.15.06.05.11;	author aw3;	state Exp;
+branches;
+next	1.194;
+
+1.194
+date	2005.11.06.00.58.44;	author aw3;	state Exp;
+branches;
+next	1.193;
+
+1.193
+date	2005.11.04.06.50.58;	author aw3;	state Exp;
+branches;
+next	1.192;
+
+1.192
+date	2005.11.02.18.10.56;	author eklmn;	state Exp;
+branches;
+next	1.191;
+
+1.191
+date	2005.10.29.04.54.13;	author aw3;	state Exp;
+branches;
+next	1.190;
+
+1.190
+date	2005.10.24.11.14.10;	author aw3;	state Exp;
+branches;
+next	1.189;
+
+1.189
+date	2005.10.20.02.29.20;	author aw3;	state Exp;
+branches;
+next	1.188;
+
+1.188
+date	2005.09.13.05.59.18;	author aw3;	state Exp;
+branches;
+next	1.187;
+
+1.187
+date	2005.09.09.03.58.02;	author aw3;	state Exp;
+branches;
+next	1.186;
+
+1.186
+date	2005.09.05.21.43.14;	author aw3;	state Exp;
+branches;
+next	1.185;
+
+1.185
+date	2005.08.29.03.00.34;	author aw3;	state Exp;
+branches;
+next	1.184;
+
+1.184
+date	2005.08.28.08.28.56;	author eklmn;	state Exp;
+branches;
+next	1.183;
+
+1.183
+date	2005.08.27.15.08.17;	author aw3;	state Exp;
+branches;
+next	1.182;
+
+1.182
+date	2005.08.17.18.49.43;	author eklmn;	state Exp;
+branches;
+next	1.181;
+
+1.181
+date	2005.08.16.00.47.55;	author eklmn;	state Exp;
+branches;
+next	1.180;
+
+1.180
+date	2005.08.15.02.38.17;	author aw3;	state Exp;
+branches;
+next	1.179;
+
+1.179
+date	2005.08.11.21.03.52;	author eklmn;	state Exp;
+branches;
+next	1.178;
+
+1.178
+date	2005.08.10.05.20.41;	author eklmn;	state Exp;
+branches;
+next	1.177;
+
+1.177
+date	2005.07.23.11.04.37;	author eklmn;	state Exp;
+branches;
+next	1.176;
+
+1.176
+date	2005.06.19.04.48.54;	author aw3;	state Exp;
+branches;
+next	1.175;
+
+1.175
+date	2005.06.17.15.20.09;	author eklmn;	state Exp;
+branches;
+next	1.174;
+
+1.174
+date	2005.06.15.05.09.11;	author eklmn;	state Exp;
+branches;
+next	1.173;
+
+1.173
+date	2005.05.15.03.36.08;	author aw3;	state Exp;
+branches;
+next	1.172;
+
+1.172
+date	2005.03.03.20.38.36;	author eklmn;	state Exp;
+branches;
+next	1.171;
+
+1.171
+date	2005.02.20.20.29.34;	author aw3;	state Exp;
+branches;
+next	1.170;
+
+1.170
+date	2005.01.25.16.53.05;	author aw3;	state Exp;
+branches;
+next	1.169;
+
+1.169
+date	2005.01.20.16.24.42;	author kush_eplus;	state Exp;
+branches;
+next	1.168;
+
+1.168
+date	2005.01.19.21.10.54;	author netwolf1;	state Exp;
+branches;
+next	1.167;
+
+1.167
+date	2005.01.15.09.55.33;	author eklmn;	state Exp;
+branches;
+next	1.166;
+
+1.166
+date	2004.12.21.06.38.35;	author aw3;	state Exp;
+branches;
+next	1.165;
+
+1.165
+date	2004.12.19.13.43.28;	author eklmn;	state Exp;
+branches;
+next	1.164;
+
+1.164
+date	2004.12.13.05.25.08;	author aw3;	state Exp;
+branches;
+next	1.163;
+
+1.163
+date	2004.11.19.21.00.15;	author eklmn;	state Exp;
+branches;
+next	1.162;
+
+1.162
+date	2004.11.17.05.46.58;	author aw3;	state Exp;
+branches;
+next	1.161;
+
+1.161
+date	2004.11.10.17.24.34;	author aw3;	state Exp;
+branches;
+next	1.160;
+
+1.160
+date	2004.11.08.21.07.16;	author aw3;	state Exp;
+branches;
+next	1.159;
+
+1.159
+date	2004.11.07.12.28.55;	author eklmn;	state Exp;
+branches;
+next	1.158;
+
+1.158
+date	2004.11.06.04.45.10;	author aw3;	state Exp;
+branches;
+next	1.157;
+
+1.157
+date	2004.11.05.18.43.39;	author eklmn;	state Exp;
+branches;
+next	1.156;
+
+1.156
+date	2004.10.02.15.20.06;	author eklmn;	state Exp;
+branches;
+next	1.155;
+
+1.155
+date	2004.09.24.03.20.36;	author aw3;	state Exp;
+branches;
+next	1.154;
+
+1.154
+date	2004.08.31.05.18.05;	author eklmn;	state Exp;
+branches;
+next	1.153;
+
+1.153
+date	2004.08.28.04.59.25;	author aw3;	state Exp;
+branches;
+next	1.152;
+
+1.152
+date	2004.08.23.14.46.22;	author eklmn;	state Exp;
+branches;
+next	1.151;
+
+1.151
+date	2004.08.23.13.21.50;	author eklmn;	state Exp;
+branches;
+next	1.150;
+
+1.150
+date	2004.08.23.12.45.35;	author eklmn;	state Exp;
+branches;
+next	1.149;
+
+1.149
+date	2004.08.21.07.57.08;	author aw3;	state Exp;
+branches;
+next	1.148;
+
+1.148
+date	2004.08.17.16.55.01;	author aw3;	state Exp;
+branches;
+next	1.147;
+
+1.147
+date	2004.08.12.21.54.12;	author eklmn;	state Exp;
+branches;
+next	1.146;
+
+1.146
+date	2004.08.12.04.55.01;	author aw3;	state Exp;
+branches;
+next	1.145;
+
+1.145
+date	2004.08.10.12.43.42;	author eklmn;	state Exp;
+branches;
+next	1.144;
+
+1.144
+date	2004.08.07.08.52.07;	author eklmn;	state Exp;
+branches;
+next	1.143;
+
+1.143
+date	2004.08.06.17.00.46;	author eklmn;	state Exp;
+branches;
+next	1.142;
+
+1.142
+date	2004.08.05.21.36.45;	author aw3;	state Exp;
+branches;
+next	1.141;
+
+1.141
+date	2004.07.24.06.58.33;	author aw3;	state Exp;
+branches;
+next	1.140;
+
+1.140
+date	2004.07.18.12.20.31;	author eklmn;	state Exp;
+branches;
+next	1.139;
+
+1.139
+date	2004.07.16.19.40.53;	author eklmn;	state Exp;
+branches;
+next	1.138;
+
+1.138
+date	2004.06.22.05.43.57;	author aw3;	state Exp;
+branches;
+next	1.137;
+
+1.137
+date	2004.06.02.21.02.06;	author aw3;	state Exp;
+branches;
+next	1.136;
+
+1.136
+date	2004.05.31.19.29.30;	author aw3;	state Exp;
+branches;
+next	1.135;
+
+1.135
+date	2004.05.29.08.39.48;	author bavariansnail;	state Exp;
+branches;
+next	1.134;
+
+1.134
+date	2004.05.26.06.18.51;	author aw3;	state Exp;
+branches;
+next	1.133;
+
+1.133
+date	2004.05.21.04.37.08;	author aw3;	state Exp;
+branches;
+next	1.132;
+
+1.132
+date	2004.05.19.10.34.22;	author netwolf1;	state Exp;
+branches;
+next	1.131;
+
+1.131
+date	2004.05.18.01.00.31;	author kush_eplus;	state Exp;
+branches;
+next	1.130;
+
+1.130
+date	2004.05.12.23.28.44;	author kush_eplus;	state Exp;
+branches;
+next	1.129;
+
+1.129
+date	2004.05.11.14.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.128;
+
+1.128
+date	2004.05.07.04.56.18;	author aw3;	state Exp;
+branches;
+next	1.127;
+
+1.127
+date	2004.05.04.17.51.20;	author netwolf1;	state Exp;
+branches;
+next	1.126;
+
+1.126
+date	2004.05.01.05.31.28;	author aw3;	state Exp;
+branches;
+next	1.125;
+
+1.125
+date	2004.04.27.03.04.06;	author kush_eplus;	state Exp;
+branches;
+next	1.124;
+
+1.124
+date	2004.04.26.14.08.33;	author katsyonak;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2004.04.26.06.14.45;	author katsyonak;	state Exp;
+branches;
+next	1.122;
+
+1.122
+date	2004.04.23.22.14.10;	author katsyonak;	state Exp;
+branches;
+next	1.121;
+
+1.121
+date	2004.04.22.02.56.05;	author kush_eplus;	state Exp;
+branches;
+next	1.120;
+
+1.120
+date	2004.04.15.14.54.11;	author katsyonak;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2004.04.13.02.47.42;	author katsyonak;	state Exp;
+branches;
+next	1.118;
+
+1.118
+date	2004.04.06.17.33.40;	author eklmn;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2004.04.05.06.54.54;	author aw3;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2004.03.27.17.22.13;	author eklmn;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2004.03.24.09.51.22;	author eklmn;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2004.02.26.06.18.13;	author eklmn;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2004.02.25.21.43.17;	author aw3;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2004.02.17.01.58.30;	author kush_eplus;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2004.02.16.17.31.08;	author eklmn;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2004.02.15.11.55.58;	author morevit;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2004.02.15.10.12.16;	author eklmn;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2004.02.14.21.35.25;	author kush_eplus;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2004.02.13.16.13.35;	author netwolf1;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2004.02.05.00.00.07;	author kush_eplus;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2004.01.31.13.08.02;	author syrus77;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2004.01.31.12.17.08;	author morevit;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2004.01.23.05.27.25;	author kush_eplus;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2004.01.21.12.45.40;	author kuchin;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2004.01.16.19.46.50;	author eklmn;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2004.01.07.16.40.47;	author dongato;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2004.01.07.15.41.49;	author dongato;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2004.01.04.15.13.17;	author dongato;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2003.12.05.16.42.11;	author eklmn;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2003.12.04.06.52.08;	author eklmn;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2003.11.30.17.58.59;	author eklmn;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2003.11.17.17.20.58;	author eklmn;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2003.10.29.14.14.19;	author morevit;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2003.10.28.21.40.31;	author morevit;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2003.10.26.14.00.52;	author morevit;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2003.10.20.13.20.04;	author morevit;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2003.10.17.14.13.31;	author morevit;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2003.10.17.10.29.07;	author morevit;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2003.10.10.17.59.02;	author morevit;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2003.09.24.20.37.32;	author dongato;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2003.09.23.19.01.34;	author netwolf1;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2003.09.20.15.39.32;	author morevit;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2003.09.19.00.13.38;	author morevit;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2003.09.08.18.30.19;	author eklmn;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2003.08.30.11.23.26;	author emoulari;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2003.08.24.20.28.04;	author zegzav;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2003.08.23.00.20.51;	author forcha;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2003.08.17.16.11.54;	author dongato;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2003.08.10.04.42.50;	author eklmn;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2003.08.06.11.48.26;	author syrus77;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2003.07.26.11.27.02;	author zegzav;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2003.07.12.14.10.37;	author dongato;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2003.07.12.06.15.29;	author eklmn;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2003.07.08.05.08.11;	author eklmn;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2003.07.02.15.36.05;	author eklmn;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2003.06.29.01.15.08;	author eklmn;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2003.06.28.18.17.24;	author eklmn;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2003.06.17.02.15.19;	author dongato;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2003.06.16.05.26.14;	author partyckip;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2003.06.15.23.27.46;	author dongato;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2003.06.15.22.22.29;	author dongato;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2003.06.13.17.18.51;	author eklmn;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2003.06.11.18.27.15;	author eklmn;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2003.06.09.20.17.37;	author partyckip;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2003.06.09.19.58.35;	author partyckip;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2003.06.09.11.57.43;	author kuchin;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2003.06.09.00.31.11;	author syrus77;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2003.06.06.20.37.18;	author partyckip;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2003.06.05.01.22.32;	author netwolf1;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.06.04.22.35.47;	author netwolf1;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.06.02.22.18.48;	author partyckip;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.05.31.06.15.55;	author partyckip;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.05.26.17.26.34;	author partyckip;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.05.22.13.12.24;	author obaldin;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.05.20.20.46.35;	author netwolf1;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.05.20.16.30.42;	author netwolf1;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.05.18.09.34.15;	author obaldin;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.05.12.13.22.10;	author kuchin;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.05.09.23.07.44;	author moosetea;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.05.09.11.57.06;	author kuchin;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.05.08.20.58.57;	author syrus77;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.05.08.19.35.31;	author netwolf1;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.05.06.15.51.44;	author partyckip;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.04.30.11.37.57;	author kuchin;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.04.03.10.12.31;	author kuchin;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.03.30.00.59.09;	author moosetea;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.03.25.12.39.38;	author cax2;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.03.22.01.14.00;	author cax2;	state Exp;
+branches
+	1.37.2.1;
+next	1.36;
+
+1.36
+date	2003.03.21.10.58.06;	author recdvst;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.03.21.09.53.11;	author cax2;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.03.19.00.35.56;	author recdvst;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.03.17.05.59.30;	author recdvst;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.03.16.06.09.31;	author cax2;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.03.14.15.59.55;	author partyckip;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.03.08.12.09.43;	author recdvst;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.03.06.21.01.54;	author obaldin;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.03.03.22.10.15;	author moosetea;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.02.28.13.15.02;	author cax2;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.02.28.11.15.45;	author cax2;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.02.26.03.26.52;	author cax2;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.02.25.19.54.20;	author cax2;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.02.23.20.20.39;	author obaldin;	state Exp;
+branches
+	1.23.2.1;
+next	1.22;
+
+1.22
+date	2003.02.22.16.22.35;	author obaldin;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.02.17.15.05.35;	author kuchin;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.02.14.13.24.30;	author lord_kiron;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.02.14.12.22.36;	author lord_kiron;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.02.13.18.27.43;	author lord_kiron;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.02.13.18.00.12;	author lord_kiron;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.02.12.21.55.34;	author obaldin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.02.12.20.35.04;	author lord_kiron;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.02.12.20.18.25;	author obaldin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.02.12.18.04.01;	author lord_kiron;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.02.10.19.24.54;	author cax2;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.02.09.18.39.42;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.06.21.49.09;	author lord_kiron;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.06.21.13.57;	author lord_kiron;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.01.30.22.40.33;	author cax2;	state Exp;
+branches
+	1.7.2.1;
+next	1.6;
+
+1.6
+date	2003.01.24.22.07.53;	author maverick65;	state Exp;
+branches
+	1.6.2.1;
+next	1.5;
+
+1.5
+date	2003.01.24.12.26.44;	author obaldin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.01.23.17.00.45;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.23.12.49.07;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.17.30.48;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.25;	author cax2;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2003.01.28.16.54.41;	author cax2;	state Exp;
+branches;
+next	1.6.2.2;
+
+1.6.2.2
+date	2003.01.30.22.37.00;	author cax2;	state Exp;
+branches;
+next	;
+
+1.7.2.1
+date	2003.02.05.01.58.42;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.23.2.1
+date	2003.02.28.22.44.57;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.37.2.1
+date	2003.03.23.06.22.03;	author recdvst;	state Exp;
+branches;
+next	1.37.2.2;
+
+1.37.2.2
+date	2003.03.24.09.39.45;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.244
+log
+@Fixed a loss of the connected source on file completion (A4AF source or remote source will lose position in our queue; this was introduced in v1.2e with code restructoring similar to original) {glaskrug}.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "PartFile.h"
+#include "ClientCredits.h"
+#include "BarShader.h"
+#include "Loggable.h"
+#include "StringConversion.h"
+#pragma warning(push)
+#pragma warning(disable:4702) // unreachable code
+#include <vector>
+#include <list>
+#pragma warning(pop)
+
+enum _EnumChatStates
+{
+	MS_NONE				= 0,
+	MS_CHATTING			= 1,
+	MS_CONNECTING		= 2,
+	MS_UNABLETOCONNECT	= 3
+};
+typedef EnumDomain<_EnumChatStates>	EnumChatStates;
+
+enum EnumSecureIdentState
+{
+	IS_UNAVAILABLE		= 0,
+	IS_ALLREQUESTSSEND	= 0,
+	IS_SIGNATURENEEDED	= 1,
+	IS_KEYANDSIGNEEDED	= 2
+};
+
+//	0) The ed2k ID was created to inform about LowID client that can't be accessed
+//	The ed2k ID has following format:
+//		0x00000000 - 0x00FFFFFF - LowID
+//		0x10000000 - 0xFFFFFFFF - IP in reversed network order
+//	Initial design sacrificed "x.x.x.0" addresses for the simplicity, thus they were treated as LowID
+//	1) The Hybrid ID is a modification of ed2k ID that allows to resolve this disadvantage:
+//	The Hybrid ID has following format:
+//		0x00000000 - 0x00FFFFFF - LowID
+//		0x10000000 - 0xFFFFFFFF - IP in network order
+//	NOTE: "0.x.x.x" addresses're reserved and not routed, so they can be considered as illegal
+enum EnumUserIDType
+{
+	UID_ED2K			= 0,
+	UID_HYBRID			= 1
+};
+
+enum _EnumInfoPacketState
+{
+	IP_NONE				= 0,
+	IP_EDONKEYPROTPACK	= 1,
+	IP_EMULEPROTPACK	= 2,
+	IP_BOTH				= 3
+};
+
+enum _EnumBlockSendResult
+{
+	BSR_BUSY							= 0,		// Socket is busy, the data sending is impossible
+	BSR_OK								= 1,		// All data was sent
+	BSR_OK_WANTS_MORE_BANDWIDTH			= 2,		// Data was sent, there is more data
+	BSR_FAILED_NOT_ENOUGHT_BANDWIDTH	= 3,		// No data was sent, because allowed bandwidth is more narrow than next packet size
+	BSR_FAILED_CLIENT_LEFT_UQ			= 4,		// No data was sent & client left UPLOAD queue
+	BSR_FAILED_NO_REQUESTED_BLOCKS		= 5			// No data was sent, because we don't have any block request from remote client
+};
+typedef EnumDomain<_EnumBlockSendResult> EnumBlockSendResult;
+
+enum _EnumBlockPacketCreationResult
+{
+	BPCR_OK							= 0,		// Packet was created
+	BPCR_FAILED_NO_REQUESTED_BLOCKS	= 1,		// Failed, because there're no request blocks to process
+	BPCR_FAILED_BLOCKED_PART		= 2,		// Failed, because part was blocked
+	BPCR_FAILED_FILE_ERROR			= 3,		// Failed, because file is blocked or does not exist
+	BPCR_FAILED_TIME_LIMIT			= 4			// Failed, because client reached the limit
+};
+typedef EnumDomain<_EnumBlockPacketCreationResult> EnumBlockPacketCreationResult;
+
+enum _EnumBanState
+{
+	BAN_CLIENT_NONE,
+	BAN_CLIENT_AGGRESSIVE,
+	BAN_CLIENT_SPAMMING,
+	BAN_CLIENT_USE_OUR_HASH,
+	BAN_CLIENT_HASH_STEALER,
+	BAN_CLIENT_KWOWN_LEECHER,
+
+	BAN_CLIENT_LAST
+};
+typedef EnumDomain<_EnumBanState> EnumBanState;
+
+class EnumInfoPacketState : public EnumDomain<_EnumInfoPacketState>
+{
+public:
+							EnumInfoPacketState() {};
+							EnumInfoPacketState(const _EnumInfoPacketState eValue)
+								: EnumDomain<_EnumInfoPacketState>(eValue) {}
+	EnumInfoPacketState		&operator |=(const EnumInfoPacketState &e2) { m_value |= e2.m_value; return *this; }
+};
+
+typedef std::list<CUpDownClient*> ClientList;
+typedef std::vector<CUpDownClient*> ClientVector;
+
+//	D0..D13 - Update, D14..D23 - Minor version, D24..D31 - Major version
+#define	FORM_CLIENT_VER(Maj, Min, Upd)	(((Maj) << 24) | ((Min) << 14) | (Upd))
+#define	GET_CLIENT_MAJVER(Ver)	(((Ver) >> 24) & 0xFF)
+#define	GET_CLIENT_MINVER(Ver)	(((Ver) >> 14) & 0x3FF)
+#define	GET_CLIENT_UDPVER(Ver)	((Ver) & 0x3FFF)
+
+//	Defines for actions on name change
+#define AONC_FORBIDDEN_NAME_CHECK	0x01
+#define AONC_COMMUNITY_CHECK		0x02
+
+#define CLIENT_COMPARE_SAME_IP		0x01
+#define CLIENT_COMPARE_SAME_ID		0x02
+#define CLIENT_COMPARE_SAME_HASH	0x04
+
+#define A4AF_ONE_WAY				0x01
+#define A4AF_TO_PAUSED				0x02
+#define A4AF_IGNORE_TIME_LIMIT		0x04
+
+// predifined situation
+#define A4AF_REMOVE			(A4AF_ONE_WAY | A4AF_TO_PAUSED | A4AF_IGNORE_TIME_LIMIT)
+
+#ifdef OLD_SOCKETS_ENABLED
+class CClientReqSocket;
+#endif //OLD_SOCKETS_ENABLED
+class CFriend;
+class CSafeMemFile;
+struct Pending_Block_Struct;
+struct Requested_File_Struct;
+
+class CUpDownClient : public CLoggable
+{
+public:
+#ifdef OLD_SOCKETS_ENABLED
+	CClientReqSocket   *m_pRequestSocket;
+#endif //OLD_SOCKETS_ENABLED
+
+//	Upload variables
+	CFriend			   *m_pFriend;
+	CClientCredits	   *m_pCredits;
+	uchar				m_reqFileHash[16];
+
+//	Download variables
+	CPartFile		   *m_pReqPartFile;
+	CTypedPtrList<CPtrList, CPartFile*>		m_otherRequestsList;
+	CTypedPtrMap<CMapPtrToWord,CPartFile*, uint32>		m_otherNoNeededMap;
+
+private:
+	typedef deque<Packet*>					PacketDeque;
+	typedef deque<Requested_Block_Struct*>	ReqBlockDeque;
+
+//	Client identification
+	BYTE				m_userHash[16];
+	uint16				m_uUserCountryIdx;
+
+//	Client name & related properties
+	bool				m_bHasUserNameForbiddenStrings;
+	bool				m_bIsCommunity;
+	CString				m_strUserName;
+	byte				m_byteActionsOnNameChange;
+
+//	MOD string & related properties
+	bool				m_bIsMODNameChanged;
+	CString				m_strModString;
+	bool				m_bHasMODNameForbiddenStrings;
+
+//	Remote client software identification
+	EnumClientTypes		m_eClientSoft;
+	CString				m_strClientSoft;
+	uint32				m_dwClientVersion;
+	uint32				m_dwPlusVers;
+	byte				m_byteEmuleVersion;
+	byte				m_byteCompatibleClient;
+	bool				m_bIsHybrid;
+	bool				m_bIsML;
+
+//	Supported protocols & features
+	bool				m_bIsOnLan;	// LANCAST
+	bool				m_bEmuleProtocol;	// eMule protocol
+	bool				m_bIsHandshakeFinished;
+
+	byte				m_byteAcceptCommentVer;
+	byte				m_byteDataCompVer;
+	byte				m_byteExtendedRequestsVer;
+	byte				m_byteSourceExchange1Ver;
+	byte				m_byteUDPVer;
+	byte				m_byteSupportSecIdent;
+	ECodingFormat		m_eStrCodingFormat;
+
+//	User IP, ports & related properties
+	uint32				m_dwUserIP;			// reflect last user real IP in reversed network order
+	uint32				m_dwConnectIP;	// IP (in reversed network order) used to connect to HighID clients and for country indetification
+	uint32				m_dwUserIDHybrid;	// HighID: IP in network order, LowID: ID assigned by the server
+	uint16				m_uUserPort;
+	uint16				m_uUDPPort;
+	CString				m_strFullUserIP;
+	bool				m_bIsLowID;
+
+	uint32				m_dwServerIP;
+	uint16				m_uServerPort;
+
+//	Secure identification
+	EnumSecureIdentState		m_eSecureIdentState;
+	EnumInfoPacketState		m_eInfoPacketsReceived;	// Have we received the edonkeyprot and emuleprot packet already (see InfoPacketsReceived())
+	uint32					m_dwLastSignatureIP;
+
+//	Request of shared files & dirs
+	int					m_iFileListRequested;
+	int					m_iFileListRequestedSave;
+
+	byte				m_byteFailedCount;	// Count failed connection tries
+
+//	Download
+	EnumDLQState		m_eDownloadState;
+	bool				m_bLimitlessDL;
+	uint32				m_dwDownAskedCount;
+	uint32				m_dwTransferredDown;
+	uint32				m_dwSessionDownloadedData;
+	uint64				m_qwLastBlockOffset;
+	CTypedPtrList<CPtrList, Pending_Block_Struct*>		m_pendingBlocksList;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*>	m_downloadBlocksList;
+	bool				m_bTransferredDownMini;
+	bool				m_bReaskPending;
+	bool				m_bUDPPending;
+	byte				m_byteNumUDPPendingReqs;
+
+//	Download: Remote queue
+	int					m_iDeltaQueueRank;
+	uint16				m_uRemoteQueueRank;
+
+//	Download: requested file properties
+	CString				m_strClientFilename;
+	byte				*m_pbytePartStatuses;
+	uint16				m_uPartCount;
+	uint16				m_uLastPartAsked;
+	uint16				m_uAvailPartCount;
+	uint16				m_uNeededParts;	// Number of parts which can be downloaded from this source
+
+//	Download: Speed calculation
+	uint32				m_dwDownDataRate;
+	std::deque<int>		m_averageDLDataRateList;
+	std::deque<uint32>	m_averageDLTickList;
+	uint32				m_dwClientSumDLDataRateOverLastNMeasurements;
+	uint32				m_dwClientSumDLTickOverLastNMeasurements;
+	uint32				m_dwLastDataRateCalculationTime;
+	uint32				m_dwTransferredInLastPeriod;
+
+//	Download: time variables
+	uint32				m_dwEnteredConnectedState;
+	uint32				m_dwLastAskedTime;
+	uint32				m_dwNextFileReaskTime;
+	uint32				m_dwDownStartTime;
+	uint32				m_dwDLQueueWaitTime;
+	uint32				m_dwLastSourceRequest;
+	uint32				m_dwLastSourceAnswer;
+	uint32				m_dwLastBlockReceived;
+
+//	Upload
+	EnumULQState		m_eUploadState;
+	EnumBanState		m_eBanState;
+	uint32				m_dwTransferredUp;
+	uint32				m_dwCurSessionUp;
+	uint32				m_dwAskedCount;
+	byte				m_byteFailedFileRequestsCount;
+	byte 				m_byteIncorrectBlockRequests;
+	uint32				m_dwCompressionGain;
+	uint32				m_dwUncompressed;
+
+	PacketDeque			m_blockSendQueue;
+	ReqBlockDeque		m_blockRequestsQueue;
+	ReqBlockDeque		m_doneBlocksList;
+
+	CTypedPtrList<CPtrList, Requested_File_Struct*>		m_requestedFilesList;
+
+//	Upload: Speed calculation
+	uint32				m_dwUpDataRate;
+	std::deque<uint32>	m_averageUDRList;
+	std::deque<uint32>	m_averageULTickList;
+
+//	Parts & sources information from remote client, which is sent by every file request
+	byte				*m_pbyteUpPartStatuses;
+	uint16				m_uUpPartCount;
+	uint16				m_uAvailUpPartCount;
+	uint16				m_uUpCompleteSourcesCount;
+	uint32				m_dwUpCompleteSourcesTime;
+
+//	Upload time variables
+	uint32				m_dwUploadTime;
+	uint32				m_dwBanTime;
+	uint32				m_dwLastGotULDataTime;
+	uint32				m_dwLastUpRequest;
+
+//	Chat
+	EnumChatStates		m_eChatState;
+	uint32				m_dwAwayMessageResendCount;
+
+//	Comment & rating
+	CString				m_strComment;
+	EnumPartFileRating	m_eRating;
+	bool				m_bCommentDirty;
+
+//	L2HAC Mod: Low ID to High ID automatic callback
+	uint32				m_dwL2HACTime;
+	uint32				m_dwLastL2HACExec;
+	bool				m_bL2HACEnabled;
+
+//	Using bitfield for less important flags, to save some bytes
+	uint32				m_fRequestingHashSet : 1,		// We have sent a hashset request to this client in the current connection
+						m_fNoViewSharedFiles : 1,		// Client has disabled the 'View Shared Files' feature, if this flag isn't set, we just know that we don't know for sure if it's enabled
+						m_fSupportsAskSharedDirs : 1,	// Client supports OP_ASKSHAREDIRS opcodes
+						m_fBlocksWereRequested : 1, 	// Download block request was sent to the client
+						m_fNoDataForRemoteClient : 1,	// Remote client cannot download any part from us
+						m_fAddNextConnect : 1,			// LowID client which missed an attempt to get an upload slot
+						m_fSupportsLargeFiles : 1,
+						m_fServerWasChanged : 1,
+						m_fUserInfoWasReceived : 1,
+						m_fRxWrongFileRequest : 1,		// Received file request with mismatched part count
+						m_fRequestsCryptLayer : 1,
+						m_fSupportsCryptLayer : 1,
+						m_fRequiresCryptLayer : 1,
+						m_fSentCancelTransfer : 1,		// OP_CANCELTRANSFER was sent in the current session to stop downloading
+						m_fSupportsSourceEx2 : 1,
+						m_fSupportsMultiPacket : 1,
+						m_fSupportsExtMultiPacket : 1,
+						m_fPeerCache : 1,
+						m_fIdenThief : 1;
+
+public:
+#ifdef OLD_SOCKETS_ENABLED
+	CUpDownClient(CClientReqSocket* sender = NULL);
+#endif //OLD_SOCKETS_ENABLED
+	CUpDownClient(uint16 uPort, uint32 dwUserID, uint32 dwSrvIP, uint16 uSrvPort, CPartFile *pReqFile, EnumUserIDType eIDType);
+	~CUpDownClient();
+
+	uint32		Compare(CUpDownClient *pClient) const;
+
+	bool			Disconnected(bool bRetryConnection = true);
+	bool			TryToConnect(bool bIgnoreMaxCon = false);
+	void			ConnectionEstablished();
+//	Accessors
+	uint32			GetUserIDHybrid() const		{ return m_dwUserIDHybrid; }
+	void			SetUserIDHybrid(uint32 dwUserIDHyb)
+	{
+		m_dwUserIDHybrid = dwUserIDHyb;
+		m_bIsLowID = (m_dwUserIDHybrid < 0x1000000);
+	}
+	bool			HasLowID() const			{ return m_bIsLowID; }
+
+	const CString&		GetUserName() const						{ return m_strUserName; }
+	void			SetUserName(const CString &strNewName)	{ m_strUserName = strNewName; }
+	bool			IsUserNameEmpty() const					{ return m_strUserName.IsEmpty(); }
+	int				CmpUserNames(const TCHAR *pcName2) const	{ return _tcsicmp(m_strUserName, pcName2); }
+	bool			HasUserNameForbiddenStrings();
+	bool			IsCommunity();
+
+	uint32			GetIP()	const				{ return m_dwUserIP; }
+	const CString&		GetFullIP() const			{ return m_strFullUserIP; }
+	uint16			GetUserPort() const			{ return m_uUserPort; }
+	uint16			GetUDPPort()				{ return m_uUDPPort; }
+
+	uint32			GetTransferredUp() const	{ return m_dwTransferredUp; }
+	uint32			GetTransferredDown() const	{ return m_dwTransferredDown; }
+
+	uint32			GetServerIP() const			{ return m_dwServerIP; }
+	void			SetServerIP(uint32 dwIP)	{ m_dwServerIP = dwIP; }
+	uint16			GetServerPort()	const		{ return m_uServerPort; }
+	void			SetServerPort(uint16 uPort)	{ m_uServerPort = uPort; }
+
+	const uchar*	GetUserHash() const			{ return m_userHash; }
+	void			SetUserHash(const uchar *pbyteUserHash)		{ md4cpy(m_userHash, pbyteUserHash); }
+	int				GetHashType();
+	bool			HasValidHash() const		{ return (((uint32*)m_userHash)[0] != 0) || (((uint32*)m_userHash)[1] != 0)
+														|| (((uint32*)m_userHash)[2] != 0) || (((uint32*)m_userHash)[3] != 0); }
+
+	bool			IsFriend()	const			{ return m_pFriend != NULL; }
+
+	bool			IsOnLAN()					{ return m_bIsOnLan; }
+
+	ECodingFormat	GetStrCodingFormat() const	{ return m_eStrCodingFormat; }
+
+	bool			IsEmuleClient()				{ return (m_byteEmuleVersion != 0); }
+	EnumClientTypes	GetClientSoft() const		{ return m_eClientSoft; }
+	uint32			GetVersion() const			{ return m_dwClientVersion; }
+	byte			GetMuleVersion() const		{ return m_byteEmuleVersion; }
+	uint32			GetPlusVersion()			{ return m_dwPlusVers; }
+	const CString&		GetModString() const		{ return m_strModString; }
+	bool			IsModStringEmpty() const	{ return m_strModString.IsEmpty(); }
+	bool			HasMODNameForbiddenStrings();
+	const CString&		GetFullSoftVersionString() const;
+	CString			GetClientNameWithSoftware() const;
+	void			ReGetClientSoft();
+
+	bool			ExtProtocolAvailable()		{ return m_bEmuleProtocol; }
+	byte			GetUDPVersion() const		{ return m_byteUDPVer; }
+	bool			SupportsLargeFiles() const	{ return m_fSupportsLargeFiles; }
+	byte			GetExtendedRequestsVersion(){ return m_byteExtendedRequestsVer; }
+	byte			GetSourceExchange1Version() const			{ return m_byteSourceExchange1Ver; }
+	bool			SupportsSourceExchange2() const				{ return m_fSupportsSourceEx2; }
+
+	void			Ban(EnumBanState eReason);
+	void			UnBan();
+	bool			IsBanned(bool bIgnoreDS = false) const		{ return ((m_eBanState != BAN_CLIENT_NONE) && (bIgnoreDS || m_eDownloadState != DS_DOWNLOADING)); }
+	void			SendBanMessage();
+	CString			GetBanString();
+
+	const CString&		GetClientFilename() const	{ return m_strClientFilename; }
+	bool			IsClientFilenameEmpty() const		{ return m_strClientFilename.IsEmpty(); }
+
+	bool			GetViewSharedFilesSupport() const	{ return (m_fNoViewSharedFiles == 0); }
+	void			RequestSharedFileList();
+	void			ProcessSharedFileList(byte *pbytePacket, uint32 dwPacketSize, LPCTSTR pszDirectory = NULL);
+
+	void			SetLastSrcReqTime()							{ m_dwLastSourceRequest = ::GetTickCount(); }
+	void			SetLastSrcAnswerTime()						{ m_dwLastSourceAnswer = ::GetTickCount(); }
+	uint32			GetLastSrcReqTime()							{ return m_dwLastSourceRequest; }
+	uint32			GetLastSrcAnswerTime()						{ return m_dwLastSourceAnswer; }
+	uint32			GetEnteredConnectedState()					{ return m_dwEnteredConnectedState; }
+	void			SetCommentDirty(bool bCommentDirty = true)	{ m_bCommentDirty = bCommentDirty; }
+
+	CClientCredits* Credits()					{ return m_pCredits; }
+	EnumSecureIdentState	GetSecureIdentState() const			{ return m_eSecureIdentState; }
+
+// Encryption
+	bool			SupportsCryptLayer() const						{ return m_fSupportsCryptLayer; }
+	bool			RequestsCryptLayer() const						{ return m_fRequestsCryptLayer; }
+	bool			RequiresCryptLayer() const						{ return m_fRequiresCryptLayer; }
+	void			SetConnectOptions(int iCryptOpt);
+	byte			GetCryptLayer() const
+	{
+		return static_cast<byte>((m_fSupportsCryptLayer & 1) | ((m_fRequestsCryptLayer ? 1 : 0) << 1) | ((m_fRequiresCryptLayer ? 1 : 0) << 2));
+	}
+	bool			IsObfuscatedConnectionEstablished() const;
+	bool			ShouldReceiveCryptUDPPackets() const;
+
+//	Packets sending & processing
+	void			SetHandshakeStatus(bool b)			{ m_bIsHandshakeFinished = b; }
+	bool			IsHandshakeFinished() const			{ return m_bIsHandshakeFinished; }
+	EnumInfoPacketState	GetInfoPacketsReceived() const	{ return m_eInfoPacketsReceived; }
+	void			InfoPacketsReceived();
+
+	void			SendHelloAnswer();
+	void			ProcessHelloAnswer(byte *pbytePacket, uint32 dwPacketSize);
+	void			SendHelloPacket();
+	bool			ProcessHelloPacket(BYTE *pbytePacket, uint32 dwPacketSize);
+	void			SendCancelTransfer();
+	void			SendHashsetPacket(byte *pbytePacket);
+	uint32			SendBlockData(uint32 dwMaxAmount, EnumBlockSendResult &eResult);
+	void			SendRankingInfo();
+	void			SendBlockRequests();
+	int				ProcessBlockPacket(byte *pbytePacket, uint32 dwPacketSize, bool bPacked, bool b64bOffsets);
+	void			SendFileRequest();
+	void			SendStartUploadRequest();
+	void			SendHashsetRequest();
+	bool	 		ProcessFileHash(CSafeMemFile &packetStream);
+	void			ProcessFileInfo(CSafeMemFile &packetStream);
+	void			ProcessFileStatus(CSafeMemFile &packetStream, bool bUDPPacket = false);
+	void			ProcessHashSet(byte *pbytePacket, uint32 dwPacketSize);
+
+	void			SendMuleInfoPacket(bool bAnswer);
+	void			ProcessMuleInfoPacket(BYTE *pbytePacket, uint32 dwPacketSize);
+	void			ProcessMuleCommentPacket(byte *pbytePacket, uint32 dwPacketSize);
+	void			SendCommentInfo(CKnownFile *pKnownFile);
+
+	void			SendPublicKeyPacket();
+	void			ProcessPublicKeyPacket(uchar *pbytePacket, uint32 dwPacketSize);
+	void			SendSignaturePacket();
+	void			ProcessSignaturePacket(uchar *pbytePacket, uint32 dwPacketSize);
+	void			SendSecIdentStatePacket();
+	void			ProcessSecIdentStatePacket(uchar *pbytePacket, uint32 dwPacketSize);
+
+//	Upload
+	EnumULQState	GetUploadState()			{ return m_eUploadState; }
+	void			SetUploadState(EnumULQState eNewState);
+	bool			IsDownloading() const		{ return (m_eUploadState == US_UPLOADING); }
+	bool			IsInWaitingQueue() const		{ return (m_eUploadState == US_ONUPLOADQUEUE); }
+//	Upload: time functions
+	void			SetUpStartTime()				{ m_dwUploadTime = ::GetTickCount(); }
+	uint32			GetUpStartTimeDelay()		{ return ::GetTickCount() - m_dwUploadTime; }
+	uint32			GetWaitStartTime() const;
+	void			SetWaitStartTime();
+	uint32			GetWaitTime()				{ return (m_dwUploadTime - GetWaitStartTime()); }
+	uint32			GetLastAskedDelay();
+	uint32			GetBanTime()				{ return m_dwBanTime; }
+	void			SetLastUpRequest()			{ m_dwLastUpRequest = ::GetTickCount(); }
+	uint32			GetLastUpRequest()			{ return m_dwLastUpRequest; }
+	void			SetLastGotULData()			{ m_dwLastGotULDataTime = ::GetTickCount(); }
+	uint32			GetLastGotULData()			{ return m_dwLastGotULDataTime; }
+//	Upload: data statistics
+	uint32			GetUpDataRate() const		{ return m_dwUpDataRate; }
+	uint32			GetSessionUp()				{ return m_dwTransferredUp - m_dwCurSessionUp; }
+	void			ResetSessionUp()			{ m_dwCurSessionUp = m_dwTransferredUp; }
+	uint32			GetScore(bool bOnlyBaseValue = false);
+	double			GetCompression()	{ return static_cast<double>(m_dwCompressionGain)/m_dwUncompressed*100.0; }	// Add rod show compression
+	void			ResetCompressionGain()		{ m_dwCompressionGain = 0; m_dwUncompressed=1; }	// Add show compression
+//	Upload: file
+	void			SetUploadFileID(uchar *pbyteReqFileID);
+	uchar*			GetUploadFileID()	{ return m_reqFileHash; }
+	void			AddRequestCount(uchar *pbyteFileId);
+//	Upload: parts
+	void			AddReqBlock(Requested_Block_Struct *pReqBlock);
+	void			ClearUploadBlockRequests();
+	uint32			GetCurrentlyUploadingPart();
+	void			FlushSendBlocks();	// Call this when you stop upload, or the m_pRequestSocket might be not able to send
+//	Parts & sources information from remote client, which is sent by every file request
+	bool			ProcessExtendedInfo(CSafeMemFile *pPktStream, CKnownFile *pKnownFile);
+	uint16			GetUpPartCount() const		{ return m_uUpPartCount; }
+	uint16			GetAvailUpPartCount() const	{ return m_uAvailUpPartCount; }
+	const byte*		GetUpPartStatus() const		{ return m_pbyteUpPartStatuses; }
+	void			CheckForUpPartsInfo();
+	bool			IsThereDataForRemoteClient() const	{ return (m_fNoDataForRemoteClient == 0); }
+	void			SetWrongFileRequest()				{ m_fRxWrongFileRequest = 1; }
+	void			ResetWrongFileRequest()				{ m_fRxWrongFileRequest = 0; }
+	bool			IsWrongFileRequest() const			{ return (m_fRxWrongFileRequest == 1); }
+//	Upload: file request counter
+	uint32			GetAskedCount()						{ return m_dwAskedCount; }
+	void			AddAskedCount()						{ m_dwAskedCount++; }
+	void			SetAskedCount(uint32 dwAskedCount)	{ m_dwAskedCount = dwAskedCount; }
+	byte			GetFailedFileRequests()				{ return m_byteFailedFileRequestsCount; }
+	void			UpdateFailedFileRequests()			{ m_byteFailedFileRequestsCount++; }
+	void			ResetFailedFileRequests()			{ m_byteFailedFileRequestsCount = 0; }
+// Upload: block request counter
+	void			AddIncorrectBlockRequest()			{ m_byteIncorrectBlockRequests++; }
+	void			ResetIncorrectBlockRequestCounter()	{ m_byteIncorrectBlockRequests = 0; }
+	byte			GetIncorrectBlockRequests()			{ return m_byteIncorrectBlockRequests; }
+	bool			IsAddNextConnect() const			{ return (m_fAddNextConnect == 1); }
+	void			SetAddNextConnect(bool bVal)		{ m_fAddNextConnect = (bVal) ? 1 : 0; }
+
+// Upload: source exchange
+	void			LeaveSourceLists();
+
+//	Download
+	void			SetDLRequiredFile(CPartFile *pPartFile)	{ m_pReqPartFile = pPartFile; }
+	EnumDLQState	GetDownloadState()			{ return m_eDownloadState; }
+	void			SetDownloadState(EnumDLQState eNewState);
+	void			ChangeDownloadState(EnumDLQState eNewState)	{ m_eDownloadState = eNewState; }
+	void			UpdateDownloadStateAfterFileReask();
+	void			UpdateOnqueueDownloadState();
+	CString			GetDownloadStateAsString(void);
+	uint32			DownloadProcess(uint32 dwReduceDownload);
+	bool			AskForDownload();
+	uint32			GetDownloadDataRate()		{ return m_dwDownDataRate; }
+	void			SendReask();
+
+	uint32			GetAskedCountDown()							{ return m_dwDownAskedCount; }
+	void			AddAskedCountDown()							{ m_dwDownAskedCount++; }
+	void			SetAskedCountDown(uint32 dwDownAskedCount)	{ m_dwDownAskedCount = dwDownAskedCount; }
+
+	bool			IsUDPRequestAllowed();
+	bool			IsUDPFileReqPending() const		{ return m_bUDPPending; }
+
+	bool			WasCancelTransferSent() const	{ return m_fSentCancelTransfer; }
+
+//	Download: time functions
+	uint32			GetNextFileReaskTime() const	{ return m_dwNextFileReaskTime; }
+	void			SetNextFileReaskTime();
+	uint32			GetLastAskedTime() const		{ return m_dwLastAskedTime; }
+	void			SetLastAskedTime();
+	void			ResetLastAskedTime()			{ m_dwLastAskedTime = 0; m_dwNextFileReaskTime = 0; }
+	uint32			GetDLQueueWaitTime()			{ return ::GetTickCount() - m_dwDLQueueWaitTime; }
+	void			StartDLQueueWaitTimer()			{ m_dwDLQueueWaitTime = ::GetTickCount(); }
+	void			UpdateLastBlockReceivedTime()	{ m_dwLastBlockReceived = ::GetTickCount(); }
+//	Download: parts info
+	bool			IsPartAvailable(uint32 dwPart)			{ return ((dwPart >= m_uPartCount) || (m_pbytePartStatuses == NULL)) ? false : ((m_pbytePartStatuses[dwPart] != 0) ? true : false); }
+	uint16			GetClientNeededParts() const			{ return m_uNeededParts; }
+	const byte*		GetPartStatus() const					{ return m_pbytePartStatuses; }
+	uint16			GetPartCount() const					{ return m_uPartCount; }
+	uint16			GetAvailablePartCount() const			{ return m_uAvailPartCount; }
+	bool			IsCompleteSource()						{ return ((m_uAvailPartCount == m_uPartCount) && (m_uAvailPartCount != 0)); }
+	uint32			GetRemainingTimeForCurrentPart();
+	uint32			GetRemainingSizeForCurrentPart(uint32 *pdwDownloadingPart);
+	uint16			GetLastDownPartAsked()					{ return m_uLastPartAsked; }
+	void			SetLastDownPartAsked(uint16 uLastPart)	{ m_uLastPartAsked = uLastPart; }
+	void			ShowDownloadingParts(std::_Bvector& parts);
+//	Download: blocks
+	void			ClearPendingBlocksList(void);
+	void			ClearDownloadBlocksList(void);
+//	Download: remote queue rank
+	uint16			GetRemoteQueueRank()						{ return m_uRemoteQueueRank; }
+	int				GetDifference()								{ return m_iDeltaQueueRank; }
+	bool 			IsRemoteQueueFull()								{ return ((m_uRemoteQueueRank == 0) && IsEmuleClient()); }
+	void			SetRemoteQueueRank(uint16 uRemoteQueueRank, bool bUpdateGUI = true);
+//	Download: A4AF
+	bool			AddRequestForAnotherFile(CPartFile *pPartFile);
+	void			RemoveRequestForAnotherFile(CPartFile *pPartFile);
+	bool			SwapToAnotherFile(CPartFile *pPartFile, uint32 dwOptions = 0);
+
+	void			UDPReaskACK(uint16 uQueueRank);
+	void			UDPReaskFNF();
+	bool			UDPReaskForDownload();
+	bool			IsSourceRequestAllowed();
+	uint32			GetRemoteRatio();
+	double			GetRemoteBaseModifier();
+	uint16			GetUpCompleteSourcesCount()			{ return m_uUpCompleteSourcesCount; }
+	uint32			GetUpCompleteSourcesTime()			{ return m_dwUpCompleteSourcesTime; }
+	void			SetUpCompleteSourcesCount(uint16 uUpCompleteSourcesCount)	{ m_uUpCompleteSourcesCount = uUpCompleteSourcesCount; m_dwUpCompleteSourcesTime = ::GetTickCount(); }
+
+//	Chat
+	EnumChatStates		GetChatState()							{ return m_eChatState; }
+	void				SetChatState(EnumChatStates eChatState)	{ m_eChatState = eChatState; }
+	uint32			GetAwayMessageResendCount()					{ return m_dwAwayMessageResendCount; }
+	void			SetAwayMessageResendCount(uint32 dwAwayMessageResendCount)	{ m_dwAwayMessageResendCount = dwAwayMessageResendCount; }
+
+//	File Comment
+	const CString&		GetFileComment()					{ return m_strComment; }
+	bool			IsFileCommentEmpty() const				{ return m_strComment.IsEmpty(); }
+	void			SetFileComment(const CString &strComment)		{ m_strComment = strComment; }
+	EnumPartFileRating	GetFileRating()								{ return m_eRating; }
+	void				SetFileRating(EnumPartFileRating eRating)	{ m_eRating = eRating; }
+
+//	GUI 
+	void			UpdateDisplayedInfo();
+	void			DrawStatusBar(CDC *pDC, RECT *pRect, bool bOnlyGreyRect, bool bFlat);
+	void			DrawUpStatusBar(CDC *pDC, RECT *pRect, bool bFlat);
+	int				GetClientIconIndex() const;
+	CString			GetUploadFileInfo();
+	HICON			GetClientInfo4Tooltips(CString &strInfo, bool bForUpload = false);
+
+//	Request of shared files & dirs
+	int				GetFileListRequested() { return m_iFileListRequested; }
+	void			SetFileListRequested(int iFileListRequested) { m_iFileListRequested = m_iFileListRequestedSave = iFileListRequested; }
+
+//	LowID 2 High ID callback request feature
+	uint32			GetL2HACTime()								{ return m_dwL2HACTime ? (m_dwL2HACTime - L2HAC_CALLBACK_PRECEDE) : 0; }
+	void			SetLastL2HACExecution(uint32 dwLastL2HACExec = 0)	{ m_dwLastL2HACExec = dwLastL2HACExec ? dwLastL2HACExec : ::GetTickCount(); }
+	uint32			GetLastL2HACExecution()						{ return m_dwLastL2HACExec; }
+	void			EnableL2HAC()								{ m_bL2HACEnabled = true; }
+	void			DisableL2HAC()								{ m_bL2HACEnabled = false; }
+	bool			IsL2HACEnabled()							{ return m_bL2HACEnabled; }
+
+//	Country feature
+	CString			GetCountryName() const;
+	int				GetCountryIndex() const			{ return m_uUserCountryIdx; }
+	void			ResetIP2Country();
+
+private:
+	void			Init();
+//	Hello packet
+	bool			ProcessHelloTypePacket(CSafeMemFile &packetStream);
+	void			SendHelloTypePacket(CMemFile &packetStream);
+	void			ClearHelloProperties();
+
+	int				unzip(Pending_Block_Struct *pRequestedBlock, BYTE *pbyteZipped, uint32 dwLenZipped, uint32 *pdwLenUnzipped);
+
+//	Upload packet creation
+	EnumBlockPacketCreationResult	CreateNextBlockPackage();
+	bool			CreateStandardPackets(byte *pbyteFileData, uint32 dwToGo, Requested_Block_Struct *pCurrentBlock, byte byteFilePriority, bool bFromPF = true);
+	bool			CreatePackedPackets(byte *pbyteFileData, uint32 dwToGo, Requested_Block_Struct *pCurrentBlock, byte byteFilePriority, bool bFromPF = true);
+	bool			SplitAndAddPacketsToSendQueue(Packet *pPacket, PacketDeque *pSendQueue, byte byteFilePriority, bool bFromPF);
+	int				IsDifferentPartBlock(bool *pbJSBlocked);
+
+//	Misc
+	void			ClearPartStatuses();	// delete allocated array & related flags
+};
+@
+
+
+1.243
+log
+@Encryption preparations.
+@
+text
+@d469 1
+a469 1
+	void	 		ProcessFileHash(CSafeMemFile &packetStream);
+@
+
+
+1.242
+log
+@Unified ProcessExtendedInfo processing; Reduced H-file dependency.
+@
+text
+@d442 1
+a442 10
+	void			SetCryptLayer(int iCryptOpt)
+	{
+		int	iTmp = iCryptOpt & 1;
+
+		m_fSupportsCryptLayer = iTmp;
+		iTmp &= (iCryptOpt >> 1);
+		m_fRequestsCryptLayer = iTmp;
+		iTmp &= (iCryptOpt >> 2);
+		m_fRequiresCryptLayer = iTmp;
+	}
+@
+
+
+1.241
+log
+@Identity thief countermeasures {Fuxie - DK/muleteer/Bro-DK}.
+@
+text
+@a18 3
+#ifdef OLD_SOCKETS_ENABLED
+#include "ListenSocket.h"
+#endif //OLD_SOCKETS_ENABLED
+d144 1
+d529 1
+a529 1
+	bool			ProcessExtendedInfo(byte *pbytePacket, uint32 dwPacketSz, CKnownFile *pKnownFile);
+@
+
+
+1.240
+log
+@Added multipacket encoding support (helps to combine several packets together for p2p handshaking, as a result slightly reduces overhead and handshaking time) [eklmn/Aw3].
+@
+text
+@d341 3
+a343 1
+						m_fSupportsExtMultiPacket : 1;
+@
+
+
+1.239
+log
+@Added multipacket support preparation [eklmn].
+@
+text
+@d478 1
+d480 1
+a480 1
+	void			ProcessFileStatus(CSafeMemFile *pPacketStream, CPartFile *pReqPartFile, bool bUDPPacket = false);
+@
+
+
+1.238
+log
+@removed duplicated GetuserName() method
+@
+text
+@d339 3
+a341 1
+						m_fSupportsSourceEx2 : 1;
+d478 1
+a478 1
+	void			ProcessFileInfo(byte *pbytePacket, uint32 dwPacketSize);
+@
+
+
+1.237
+log
+@optimized string processing
+@
+text
+@a362 1
+	void			GetUserName(CString *strOut) const		{ *strOut = m_strUserName; }
+@
+
+
+1.236
+log
+@Pending_Block_Struct moved to client implementation from otherstructs.h.
+@
+text
+@d403 1
+a403 1
+	CString			GetFullSoftVersionString() const;
+@
+
+
+1.235
+log
+@Suppressed compiler warnings.
+@
+text
+@a18 1
+#include "types.h"
+d27 2
+d30 2
+d117 2
+a118 2
+typedef list<CUpDownClient*> ClientList;
+typedef vector<CUpDownClient*> ClientVector;
+d146 1
+@
+
+
+1.234
+log
+@unicode prepararions:
+1) added the code for conversion
+2) unicode support for ini files
+3) unicode support for URL en(de)coding
+4) statistic output in UTF8 format
+@
+text
+@d201 1
+a201 1
+	ECodingFormat			m_eStrCodingFormat;
+d389 1
+a389 1
+	ECodingFormat		GetStrCodingFormat() const {return m_eStrCodingFormat;}
+d609 1
+a609 1
+	uint16			GetRemoteRatio();
+@
+
+
+1.233
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@d27 1
+a193 1
+	bool				m_bUnicodeSupport;
+d201 1
+d389 1
+a389 1
+	bool			IsUnicodeSupported() const		{ return m_bUnicodeSupport; }
+@
+
+
+1.232
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@d580 1
+a580 1
+	bool			IsPartAvailable(uint16 uPart)			{ return ((uPart >= m_uPartCount) || (m_pbytePartStatuses == NULL)) ? false : ((m_pbytePartStatuses[uPart] != 0) ? true : false); }
+@
+
+
+1.231
+log
+@improved the string handling
+@
+text
+@d390 1
+a390 1
+	bool			IsEmuleClient()				{ return m_byteEmuleVersion; }
+d430 1
+a430 1
+	byte			GetSecureIdentState()		{ return m_eSecureIdentState; }
+d580 1
+a580 1
+	bool			IsPartAvailable(uint16 uPart)			{ return ((uPart >= m_uPartCount) || (m_pbytePartStatuses == NULL)) ? 0 : m_pbytePartStatuses[uPart]; }
+@
+
+
+1.230
+log
+@Fixed source selection for p2p source exchange (for downloading files: not SX replied were sent unless one chunk was downloaded).
+@
+text
+@d357 1
+a357 1
+	CString			GetUserName() const						{ return m_strUserName; }
+d366 1
+a366 1
+	CString			GetFullIP() const			{ return m_strFullUserIP; }
+d388 2
+d395 1
+a395 1
+	CString			GetModString() const		{ return m_strModString; }
+d415 1
+a415 1
+	CString			GetClientFilename() const	{ return m_strClientFilename; }
+d621 3
+a623 3
+	CString				GetFileComment()							{ return m_strComment; }
+	bool				IsFileCommentEmpty() const					{ return m_strComment.IsEmpty(); }
+	void				SetFileComment(const CString &strComment)	{ m_strComment = strComment; }
+@
+
+
+1.229
+log
+@Improved calculation of available remote client parts; Reduced #include dependency;
+Removed friend CUploadQueue class (not really required);
+Introduced GetUpPartStatus();
+m_bHasClientNeededParts replaced with m_uNeededParts (target functionality is not fully implemented though).
+@
+text
+@d581 1
+@
+
+
+1.228
+log
+@Simplified SetUserHash() to remove functionality we're are not using.
+@
+text
+@d17 1
+a18 2
+#pragma once
+#include "stdafx.h"
+a24 1
+#include "safefile.h"
+d141 1
+a144 2
+	friend class CUploadQueue;
+
+d248 2
+a249 2
+	bool				m_bCompleteSource;
+	bool 				m_bHasClientNeededParts;
+d518 1
+d522 2
+a523 1
+	uint16			GetAvailUpPartCount()		{ return m_uAvailUpPartCount; }
+d578 5
+a582 5
+	bool			IsPartAvailable(uint16 uPart)			{ return ((uPart >= m_uPartCount) || (!m_pbytePartStatuses)) ? 0 : m_pbytePartStatuses[uPart]; }
+	bool			HasClientNeededParts() const			{ return m_bHasClientNeededParts; }
+	byte*			GetPartStatus() const					{ return m_pbytePartStatuses; }
+	uint16			GetAvailablePartCount();
+	bool			IsCompleteSource()						{ return m_bCompleteSource; }
+a666 1
+	void			FlushSendBlocks();	// Call this when you stop upload, or the m_pRequestSocket might be not able to send
+@
+
+
+1.227
+log
+@Encryption preparations.
+@
+text
+@d382 1
+a382 1
+	void			SetUserHash(uchar *pbyteTempUserHash);
+@
+
+
+1.226
+log
+@Added Source Exchange 2 support (adapted from original 0.48a).
+@
+text
+@d451 2
+@
+
+
+1.225
+log
+@Corrected implementation of GetCryptLayer().
+@
+text
+@d201 1
+a201 1
+	byte				m_byteSourceExchangeVer;
+d407 1
+a407 1
+	byte			GetSourceExchangeVersion() const			{ return m_byteSourceExchangeVer; }
+@
+
+
+1.224
+log
+@Preparation to support SourceExchange2 (0.48a); Stricter class method prototypes.
+@
+text
+@d449 1
+a449 1
+		return static_cast<byte>((m_fSupportsCryptLayer & 1) | ((m_fRequestsCryptLayer ? 1 : 0) >> 1) | ((m_fRequiresCryptLayer ? 1 : 0) >> 2));
+@
+
+
+1.223
+log
+@Encryption preparations.
+@
+text
+@d336 2
+a337 1
+						m_fSentCancelTransfer : 1;		// OP_CANCELTRANSFER was sent in the current session to stop downloading
+d346 1
+a346 1
+	uint32		Compare(CUpDownClient *pClient);
+d381 1
+a381 1
+	uchar*			GetUserHash()				{ return m_userHash; }
+d407 2
+a408 1
+	byte			GetSourceExchangeVersion()	{ return m_byteSourceExchangeVer; }
+d521 1
+a521 1
+	uint16			GetUpPartCount()			{ return m_uUpPartCount; }
+d579 1
+a579 1
+	byte*			GetPartStatus()							{ return m_pbytePartStatuses; }
+@
+
+
+1.222
+log
+@Faster upload data block preparation.
+@
+text
+@a338 1
+//	Base
+d431 18
+@
+
+
+1.221
+log
+@Don't calculate score for downloading sources.
+@
+text
+@d643 1
+a643 2
+	bool			IsDifferentPartBlock(bool bSilent = false);
+	bool			IsForbiddenByJumpstart();
+@
+
+
+1.220
+log
+@Newly added stuff was renamed according to the original for easier reference;
+Ranaming and formatting.
+@
+text
+@d489 1
+a489 1
+	uint32			GetScore(bool bIsDownloading, bool bOnlyBaseValue = false);
+@
+
+
+1.219
+log
+@1) updated source exchange protocol to ver.3
+2) support of HighID clients with IP "x.x.x.0"  (see description in updownclient.h)
+3) removed dublicated ip check for LowID clients in TryToConnect()
+4) fixed a client name change by download start from remote client shared file list.
+5) some formating
+@
+text
+@d43 1
+a43 1
+	IS_ALLREQUESTSSEND  = 0,
+d48 2
+a49 2
+//	0) The Ed2k ID was created to inform client about LowID client that cann't be accessed.
+//	The Ed2k ID has following format:
+d51 3
+a53 3
+//		0x10000000 - 0xFFFFFFFF - IP in little endian format (due to read of big endian value on x86 platform)
+//	It's seems that by design was forgot about endianness therefore  the IP addresses "x.x.x.0" are interpreted as LowID
+//	1) The Hybrid ID is a modification of ed2k ID that allow to solve a problem with "x.x.x.0" IP addresses:
+d56 3
+a58 3
+//		0x10000000 - 0xFFFFFFFF - IP
+//	NOTE: that addresses "0.x.x.x" are reserved and not routed, so they can be cosidered as illegal.
+enum EnumClientIDType
+d60 2
+a61 2
+	CIDT_ED2K			= 0,
+	CIDT_HYBRID			= 1
+d67 1
+a67 1
+	IP_EDONKEYPROTPACK  = 1,
+d206 3
+a208 6
+//	note: IP's are stored in memory in big-endian format (read in CPU registers as little endian) 
+//		to prevent permanent conversion between little & big endian formats
+	uint32				m_dwUserIP;			// reflect last user real IP
+	uint32				m_dwConnectIP;		// an IP that used to connect to the HighID clietns and for country indetification
+											// contains copy of user IP after the first connection 
+	uint32				m_dwHybridUserID;	// HighID: IP in little endian format, LowID: sever id assigned from server
+d343 1
+a343 1
+	CUpDownClient(uint16 in_port, uint32 in_dwUserID, uint32 in_serverup, uint16 in_serverport, CPartFile* in_reqfile, EnumClientIDType eIDType);
+d352 2
+a353 2
+	uint32			GetHybridUserID()	const			{ return m_dwHybridUserID; }
+	void			SetHybridUserID(uint32 dwHybridUserID)
+d355 2
+a356 2
+		m_dwHybridUserID = dwHybridUserID;
+		m_bIsLowID = (m_dwHybridUserID < 0x1000000);
+@
+
+
+1.218
+log
+@Fixed source loss at the time of unexpected downloading disconnection {muleteer}.
+@
+text
+@d47 17
+d206 6
+a211 2
+	uint32				m_dwUserIP;
+	uint32				m_dwConnectIP;	// Copy of IP used for country indetification
+a214 1
+	uint32				m_dwUserID;
+d346 1
+a346 1
+	CUpDownClient(uint16 in_port, uint32 in_userid, uint32 in_serverup, uint16 in_serverport, CPartFile* in_reqfile);
+d355 2
+a356 2
+	uint32			GetUserID()	const			{ return m_dwUserID; }
+	void			SetUserID(uint32 dwUserID)
+d358 2
+a359 2
+		m_dwUserID = dwUserID;
+		m_bIsLowID = (m_dwUserID < 0x1000000);
+@
+
+
+1.217
+log
+@corrected the output of the waiting time in client details. sadditional correction
+@
+text
+@d318 2
+a319 1
+						m_fRequiresCryptLayer : 1;
+d529 2
+@
+
+
+1.216
+log
+@Removed some leftovers.
+@
+text
+@d454 1
+@
+
+
+1.215
+log
+@ban client who try to change the userhash on second connection
+@
+text
+@a352 1
+	uint64			GetUID() const				{ return (static_cast<uint64>(m_dwUserIP)<<32)+(static_cast<uint64>(m_uUserPort)<<16); }
+@
+
+
+1.214
+log
+@protect the waiting time with SUI
+@
+text
+@d314 1
+d367 2
+a368 2
+	bool			HasValidHash() const		{ return (((int*)m_userHash)[0] != 0) || (((int*)m_userHash)[1] != 0)
+														|| (((int*)m_userHash)[2] != 0) || (((int*)m_userHash)[3] != 0); }
+@
+
+
+1.213
+log
+@remove the hash stealer detection from xrmb because:
+1) duplicated functionaly, i.e. it has similar functionaly as client credits
+2) useless when client changes a ports (remember an random ports)
+as result less CPU load and memory consumption
+@
+text
+@a285 1
+	uint32				m_dwWaitTime;
+d453 1
+a453 1
+	bool			IsDownloading()				{ return (m_eUploadState == US_UPLOADING); }
+d455 1
+a455 1
+	void			SetUpStartTime(uint32 dwTime = 0);
+d457 3
+a459 3
+	uint32			GetWaitStartTime()			{ return m_dwWaitTime; }
+	void			SetWaitStartTime(uint32 dwTime = 0);
+	uint32			GetWaitTime()				{ return m_dwUploadTime-m_dwWaitTime; }
+@
+
+
+1.212
+log
+@Encryption preparations.
+@
+text
+@d82 1
+a82 1
+	BAN_CLIENT_CHANGED_HASH_3_TIMES,
+@
+
+
+1.211
+log
+@Removed unused method.
+@
+text
+@d315 4
+a318 1
+						m_fRxWrongFileRequest : 1;		// Received file request with mismatched part count
+@
+
+
+1.210
+log
+@Stop communication with a source after mismatch file request.
+@
+text
+@a477 1
+	bool			HasBlocks()					{ return !(m_blockSendQueue.empty() && m_blockRequestsQueue.empty()); }
+@
+
+
+1.209
+log
+@Faster processing of remote part status packets (eliminated double search in the shared files list);
+Unified packet buffer type.
+@
+text
+@d314 2
+a315 1
+						m_fServerWasChanged : 1;
+d486 3
+@
+
+
+1.208
+log
+@Corrected download state change for remote LowID sources.
+@
+text
+@d399 1
+a399 1
+	void			ProcessSharedFileList(char *pcPacket, uint32 dwPacketSize, LPCTSTR pszDirectory = NULL);
+d419 1
+a419 1
+	void			ProcessHelloAnswer(char *pcPacket, uint32 dwPacketSize);
+d423 1
+a423 1
+	void			SendHashsetPacket(char *pcFileHash);
+d427 1
+a427 1
+	int				ProcessBlockPacket(char *pcPacket, uint32 dwPacketSize, bool bPacked, bool b64bOffsets);
+d431 1
+a431 1
+	void			ProcessFileInfo(char *pcPacket, uint32 dwPacketSize);
+d433 1
+a433 1
+	void			ProcessHashSet(char *pcPacket, uint32 dwPacketSize);
+d437 1
+a437 1
+	void			ProcessMuleCommentPacket(char *pcPacket, uint32 dwPacketSize);
+d480 1
+a480 1
+	void			ProcessUpFileStatus(char *pcPacket, uint32 dwPacketSize);
+@
+
+
+1.207
+log
+@Large file size support preparations.
+@
+text
+@d508 1
+@
+
+
+1.206
+log
+@Simplified client upload data rate processing -- never return negative (Mantis #518).
+@
+text
+@d217 1
+a217 1
+	uint32				m_dwLastBlockOffset;
+@
+
+
+1.205
+log
+@Formatting.
+@
+text
+@d274 2
+a275 2
+	sint32				m_lUpDataRate;
+	std::deque<int>		m_averageUDRList;
+d464 1
+a464 1
+	sint32			GetDataRate()				{ return m_lUpDataRate; }
+@
+
+
+1.204
+log
+@prevent data exchange before hello-handshake will be finished
+@
+text
+@d178 1
+a178 1
+	bool 				m_bIsHandshakeFinished;
+d413 2
+a414 2
+	void 			SetHandshakeStatus(bool b)			{m_bIsHandshakeFinished = b;}
+	bool 			IsHandshakeFinished() const			{return m_bIsHandshakeFinished;}
+d507 1
+a507 1
+	void 			UpdateDownloadStateAfterFileReask();
+@
+
+
+1.203
+log
+@rare incorrect setting of NNS state by download
+@
+text
+@d178 1
+d413 2
+@
+
+
+1.202
+log
+@Minor preparations for 64bit file support.
+@
+text
+@d312 2
+a313 1
+						m_fSupportsLargeFiles : 1;
+d504 1
+@
+
+
+1.201
+log
+@Some updates from the original related to 64-bit file size support.
+@
+text
+@d423 1
+a423 1
+	int				ProcessBlockPacket(char *pcPacket, uint32 dwPacketSize, bool bPacked = false);
+@
+
+
+1.200
+log
+@Added a class member to keep Unicode support.
+@
+text
+@d311 2
+a312 1
+						m_fAddNextConnect : 1;			// LowID client which missed an attempt to get an upload slot
+d381 2
+a382 2
+	bool			SupportsUDP()				{ return m_byteUDPVer != 0 && m_uUDPPort != 0; }
+	byte			GetUDPVersion()				{ return m_byteUDPVer; }
+@
+
+
+1.199
+log
+@Minor formatting.
+@
+text
+@d178 1
+@
+
+
+1.198
+log
+@1) keep ban reason information (part 1 - logic)
+2) disable incoming FR for LowID if file was paused
+@
+text
+@d84 1
+a84 1
+	
+@
+
+
+1.197
+log
+@AFAF fixes (see change log)
+@
+text
+@d76 13
+d256 1
+a256 1
+	bool				m_bBanned;
+d384 1
+a384 1
+	void			Ban(LPCTSTR pszLine, const CString &strReason,...);
+d386 3
+a388 1
+	bool			IsBanned(bool bIgnoreDS = false) const		{ return (m_bBanned && (bIgnoreDS || m_eDownloadState != DS_DOWNLOADING)); }
+@
+
+
+1.196
+log
+@State Slotted Download Queue (SSDQ) [eklmn].
+@
+text
+@d102 7
+d530 1
+a530 1
+	bool			SwapToAnotherFile(CPartFile *pPartFile, bool bOneWaySwap = false, bool bIgnoreReasktime = false);
+@
+
+
+1.195
+log
+@Faster processing of file comments; One more step to integrate eklmn's SSDQ.
+@
+text
+@a122 1
+	int					m_iSourcesSlot;
+d483 1
+@
+
+
+1.194
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@d479 1
+d543 1
+@
+
+
+1.193
+log
+@Improved LowID users handling in waiting queue to minimize unfare waiting time.
+@
+text
+@d488 3
+d492 2
+a493 2
+	uint32			GetNextFileReaskTime() const		{ return m_dwNextFileReaskTime; }
+	void			SetAllowFileReaskTime();
+@
+
+
+1.192
+log
+@renamed variable "m_dwAllowFileReaskTime"
+@
+text
+@d290 2
+a291 1
+						m_fNoDataForRemoteClient : 1;	// Remote client cannot download any part from us
+d469 2
+@
+
+
+1.191
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@d228 1
+a228 1
+	uint32				m_dwAllowFileReaskTime;
+d486 1
+a486 1
+	uint32			GetAllowReaskTime() const		{ return m_dwAllowFileReaskTime; }
+d490 1
+a490 1
+	void			ResetLastAskedTime()			{ m_dwLastAskedTime = 0; m_dwAllowFileReaskTime = 0; }
+@
+
+
+1.190
+log
+@One more thing for eklmn's SSDQ.
+@
+text
+@d290 1
+a290 2
+						m_fNoDataForRemoteClient : 1,	// Remote client cannot download any part from us
+						m_fIsLastDownloadRequestTCP : 1;	// type of last download request (0 = UDP, 1 - TCP)
+a483 1
+	bool			IsLastDownloadRequestTCP() const			{ return (m_fIsLastDownloadRequestTCP == 1); }
+@
+
+
+1.189
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@d488 1
+@
+
+
+1.188
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@d228 1
+d488 2
+a489 1
+	uint32			GetLastAskedTime()				{ return m_dwLastAskedTime; }
+d491 1
+a491 1
+	void			ResetLastAskedTime()			{ m_dwLastAskedTime = 0; }
+@
+
+
+1.187
+log
+@Added some minor stuff from new eklmn's changes.
+@
+text
+@d488 1
+a488 1
+	void			SetLastAskedTime()				{ m_dwLastAskedTime = ::GetTickCount(); }
+d519 1
+a519 1
+	void			UDPReaskForDownload();
+@
+
+
+1.186
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@d202 1
+d289 2
+a290 1
+						m_fNoDataForRemoteClient : 1;	// Remote client cannot download any part from us
+d484 1
+@
+
+
+1.185
+log
+@Formatting.
+@
+text
+@a207 1
+	uint16				m_uPartCount;
+d210 1
+d213 1
+d491 2
+a492 1
+	bool			IsPartAvailable(uint16 uPart)			{ return	((uPart >= m_uPartCount) || (!m_pbytePartStatuses)) ? 0 : m_pbytePartStatuses[uPart]; }
+@
+
+
+1.184
+log
+@fixed indefication of the client IP identiifcatio has more higher priority as Userhash.
+@
+text
+@d98 3
+a100 3
+#define CLIENT_COMPARE_SAME_IP		(0x1 << 0)
+#define CLIENT_COMPARE_SAME_ID		(0x1 << 1)
+#define CLIENT_COMPARE_SAME_HASH	(0x1 << 2)
+d297 1
+a297 1
+	uint32 		Compare(CUpDownClient *pClient);
+d484 1
+a484 1
+	void 			SetLastAskedTime()				{m_dwLastAskedTime = ::GetTickCount();}
+@
+
+
+1.183
+log
+@The second step to integrate eklmn's SSDQ.
+@
+text
+@d98 4
+d297 1
+a297 1
+	bool			Compare(CUpDownClient *pClient);
+d484 1
+@
+
+
+1.182
+log
+@new way of queue handling
+@
+text
+@d466 1
+@
+
+
+1.181
+log
+@enum's defined as private
+@
+text
+@d283 1
+a283 2
+						m_fNoDataForRemoteClient : 1,	// Remote client cannot download any part from us
+						m_fReceivedQR:1;				// Shows if the QR was received
+d499 1
+a499 3
+	bool 			IsRemoteQueueFull()								{ return (m_uRemoteQueueRank == 0); }
+	void 			SetReceivedQueueRank()						{m_fReceivedQR = 1;}
+	bool 			IsQueueRankReceived()							{ return (m_fReceivedQR == 1); }
+@
+
+
+1.180
+log
+@Formatting.
+@
+text
+@a122 4
+protected:
+	EnumDLQState		m_eDownloadState;
+	EnumULQState		m_eUploadState;
+
+d187 1
+d229 1
+@
+
+
+1.179
+log
+@download log (part1: without GUI)
+@
+text
+@d452 1
+a452 1
+	bool 			IsThereDataForRemoteClient() const	{ return (m_fNoDataForRemoteClient == 0); }
+d461 3
+a463 3
+	void 		AddIncorrectBlockRequest()				{m_byteIncorrectBlockRequests++;}
+	void 		ResetIncorrectBlockRequestCounter()			{m_byteIncorrectBlockRequests = 0;}
+	byte 		GetIncorrectBlockRequests()				{ return m_byteIncorrectBlockRequests; }
+d466 1
+a466 1
+	void 			LeaveSourceLists();
+d576 1
+a576 1
+	void 		ClearPartStatuses();	// delete allocated array & related flags
+@
+
+
+1.178
+log
+@1. QR highlighting
+2. output "Queue Full" if eMule client did not send QR
+3. possible download abort
+@
+text
+@d194 1
+@
+
+
+1.177
+log
+@flood protection against block request packets
+@
+text
+@d123 4
+a190 1
+	EnumDLQState		m_eDownloadState;
+a201 1
+	bool				m_bRemoteQueueFull;
+a230 1
+	EnumULQState		m_eUploadState;
+d284 2
+a285 1
+						m_fNoDataForRemoteClient : 1; 	// Remote client cannot download any part from us
+d501 3
+a503 2
+	void			SetRemoteQueueFull(bool bRemoteQueueFull)	{ m_bRemoteQueueFull = bRemoteQueueFull; }
+	bool			IsRemoteQueueFull()							{ return m_bRemoteQueueFull; }
+d575 1
+@
+
+
+1.176
+log
+@Faster remote client name handling; Unified way to display client name and version;
+Improved string processing.
+@
+text
+@d235 1
+d457 5
+@
+
+
+1.175
+log
+@added statistic that show the number of failed DL sessions in case that remote client has nothing to request
+@
+text
+@d281 2
+a282 2
+						m_fBlocksWereRequested : 1, 	// status bif if we send request to the client
+						m_fNoDataForRemoteClient : 1; 	// status bif if remote client can donwload something from us
+d307 1
+d309 2
+d346 2
+a347 1
+	CString			GetClientNameAndVersionString() const;
+d448 1
+a448 1
+	bool 			IsThereDataForRemoteClient()		{return (m_fNoDataForRemoteClient == 0);}
+@
+
+
+1.174
+log
+@rewirite the statistic "failed download session"
+@
+text
+@d281 2
+a282 1
+						m_fBlocksWereRequested : 1; 	// status bif if we send request to the client
+d444 1
+@
+
+
+1.173
+log
+@Improved string processing.
+@
+text
+@d280 2
+a281 1
+						m_fSupportsAskSharedDirs : 1;	// Client supports OP_ASKSHAREDIRS opcodes
+@
+
+
+1.172
+log
+@new source exchange system
+@
+text
+@d355 1
+@
+
+
+1.171
+log
+@Fixed score comparison bugs committed on Jan 20 'Removed GetScore() unused parameter' {xalbux}.
+@
+text
+@d448 2
+@
+
+
+1.170
+log
+@Missed commitment of changed prototype;
+Variables alignment to slightly increase performance, as previous grouping significantly reduced it;
+Corrected variable prefixes.
+@
+text
+@d424 1
+a424 1
+	uint32			GetScore(bool bIsDownloading = false, bool bOnlyBaseValue = false);
+d555 1
+a555 1
+//	???
+@
+
+
+1.169
+log
+@Removed GetScore() unused parameter
+More Coding GuideLines compliant code
+@
+text
+@d132 2
+a135 2
+	bool				m_bHasUserNameForbiddenStrings;
+	bool				m_bIsCommunity;
+d138 1
+a139 1
+	bool				m_bIsMODNameChanged;
+d143 1
+a143 2
+	byte				m_byteEmuleVersion;
+	byte				m_byteCompatibleClient;
+a144 1
+	EnumClientTypes		m_eClientSoft;
+d147 2
+d167 1
+a169 1
+	uint16				m_uUDPPort;
+d177 1
+a177 1
+	EnumInfoPacketState		m_eInfoPacketsReceived;	// Have we received the edonkeyprot and emuleprot packet already (see InfoPacketsReceived() )
+d188 1
+a189 1
+	bool				m_bLimitlessDL;
+d191 3
+a194 1
+	uint32				m_dwLastBlockOffset;
+a197 3
+	CTypedPtrList<CPtrList, Pending_Block_Struct*>		m_pendingBlocksList;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*>	m_downloadBlocksList;
+
+d200 1
+a201 1
+	int					m_iDeltaQueueRank;
+d204 1
+a206 1
+	uint16				m_uPartCount;
+a313 1
+//	void			SetUDPPort(uint16 uPort)	{ m_uUDPPort = uPort; }
+d324 1
+a324 1
+	void			SetUserHash(uchar *pachTempUserHash);
+d358 1
+a358 1
+	void			ProcessSharedFileList(char *pachPacketBuf, uint32 dwPacketSize, LPCTSTR pszDirectory = NULL);
+d376 1
+a376 1
+	void			ProcessHelloAnswer(char *pachPacketBuf, uint32 dwPacketSize);
+d378 1
+a378 1
+	bool			ProcessHelloPacket(BYTE *pbytePacketBuf, uint32 dwPacketSize);
+d380 1
+a380 1
+	void			SendHashsetPacket(char *pachFileHash);
+d384 1
+a384 1
+	int				ProcessBlockPacket(char *pachPacketBuf, uint32 dwPacketSize, bool bPacked = false);
+d388 1
+a388 1
+	void			ProcessFileInfo(char *pachPacketBuf, uint32 dwPacketSize);
+d390 1
+a390 1
+	void			ProcessHashSet(char *pachPacketBuf, uint32 dwPacketSize);
+d393 2
+a394 2
+	void			ProcessMuleInfoPacket(BYTE *pbytePacketBuf, uint32 dwPacketSize);
+	void			ProcessMuleCommentPacket(char *pachPacketBuf, uint32 dwPacketSize);
+d398 1
+a398 1
+	void			ProcessPublicKeyPacket(uchar *pachPacketBuf, uint32 dwPacketSize);
+d400 1
+a400 1
+	void			ProcessSignaturePacket(uchar *pachPacketBuf, uint32 dwPacketSize);
+d402 1
+a402 1
+	void			ProcessSecIdentStatePacket(uchar *pachPacketBuf, uint32 dwPacketSize);
+d428 1
+a428 1
+	void			SetUploadFileID(uchar *pachReqFileID);
+d430 1
+a430 1
+	void			AddRequestCount(uchar *pachFileId);
+d437 1
+a437 1
+	void			ProcessUpFileStatus(char *pachPacketBuf, uint32 dwPacketSize);
+d441 1
+a441 1
+//	Ipload: file request counter
+d473 1
+a473 1
+	uint32			GetRemainingSizeForCurrentPart();
+d499 1
+a499 1
+	void			SetUpCompleteSourcesCount(uint16 UpCompleteSourcesCount)	{ m_uUpCompleteSourcesCount = UpCompleteSourcesCount; m_dwUpCompleteSourcesTime = ::GetTickCount(); }
+d556 2
+a557 2
+	void			FlushSendBlocks();	// Call this when you stop upload, or the m_pRequestSocket might be not able to send 
+};@
+
+
+1.168
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d57 6
+a62 6
+	BSR_BUSY				= 0,		// socket is busy, the data sending is impossible
+	BSR_OK					= 1,		// all data was sent
+	BSR_OK_WANTS_MORE_BANDWIDTH		= 2,		// data was sent, there is more data
+	BSR_FAILED_NOT_ENOUGHT_BANDWIDTH	= 3,		// no data was sent, because allowed bandwidth is more narrow than next packet size
+	BSR_FAILED_CLIENT_LEFT_UQ		= 4,		// no data was sent & client left UPLOAD queue
+	BSR_FAILED_NO_REQUESTED_BLOCKS		= 5		// no data was sent, because we don't have any block request from remote client
+d68 5
+a72 5
+	BPCR_OK				= 0,		// packet was created
+	BPCR_FAILED_NO_REQUESTED_BLOCKS	= 1,		// failed, because there're no request blocks to process
+	BPCR_FAILED_BLOCKED_PART	= 2,		// failed, because part was blocked
+	BPCR_FAILED_FILE_ERROR		= 3,		// failed, because file is blocked or does not exist
+	BPCR_FAILED_TIME_LIMIT		= 4		// failed, because client reached the limit
+d94 3
+a96 3
+//defines for actions on name change
+#define AONC_FORBIDDEN_NAME_CHECK 0x01
+#define AONC_COMMUNITY_CHECK 0x02
+d112 1
+a112 1
+// Upload variables
+d117 1
+a117 1
+// Download variables
+d124 1
+a124 1
+	typedef deque<Packet*>		PacketDeque;
+d127 1
+a127 1
+// Client identification
+d131 2
+a132 2
+// Client name & related propeperties
+	CString			m_strUserName;
+d137 1
+a137 1
+// MOD string & related prperties
+d142 3
+a144 3
+// Remote client software identification
+	byte 				m_byteEmuleVersion;
+	byte 				m_byteCompatibleClient;
+d149 2
+a150 2
+	bool 				m_bIsHybrid;
+	bool 				m_bIsML;
+d152 3
+a154 3
+// Supported protocols & features
+	bool				m_bIsOnLan;			// LANCAST
+	bool				m_bEmuleProtocol;		// eMule protocol
+d163 1
+a163 1
+// user IP, ports & related properties
+d165 1
+a165 1
+	uint32				m_dwConnectIP;		//copy of IP used for country indetification
+d170 1
+a170 1
+	bool 				m_bIsLowID;
+d175 1
+a175 1
+// Secure identification
+d177 1
+a177 1
+	EnumInfoPacketState		m_eInfoPacketsReceived;// have we received the edonkeyprot and emuleprot packet already (see InfoPacketsReceived() )
+d180 1
+a180 1
+// request of shared files & dirs
+d184 1
+a184 1
+	byte				m_byteFailedCount;		// count failed connection tries
+d186 1
+a186 1
+// Download
+d189 1
+a189 1
+	bool 				m_bLimitlessDL;
+d191 1
+a191 1
+	bool 				m_bTransferredDownMini;
+d196 2
+a197 2
+	CTypedPtrList<CPtrList, Pending_Block_Struct*>	 	m_pendingBlocksList;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_downloadBlocksList;
+d199 2
+a200 2
+// Download: Remote queue
+	bool 				m_bRemoteQueueFull;
+d204 1
+a204 1
+// Download: requested file properties
+d206 1
+a206 1
+	byte 				*m_pbytePartStatuses;
+d209 1
+a209 1
+	bool 				m_bCompleteSource;
+d211 1
+a211 1
+// Download: Speed calculation
+d220 1
+a220 1
+// Download: time variables
+d229 1
+a229 1
+// Upload
+d231 1
+a231 1
+	bool 				m_bBanned;
+d235 1
+a235 1
+	byte 				m_byteFailedFileRequestsCount;
+d245 1
+a245 1
+// Upload: Speed calculation
+d250 2
+a251 2
+// parts & sources information from remote client, which is sent by every file request
+	byte 				*m_pbyteUpPartStatuses;
+d257 1
+a257 1
+// Upload time variables
+d264 1
+a264 1
+// Chat
+d268 1
+a268 1
+// Comment & rating
+d270 2
+a271 2
+	EnumPartFileRating 	m_eRating;
+	bool 				m_bCommentDirty;
+d278 4
+a281 4
+// Using bitfield for less important flags, to save some bytes
+	uint32				m_fRequestingHashSet : 1,	// we have sent a hashset request to this client in the current connection
+						m_fNoViewSharedFiles : 1,	// client has disabled the 'View Shared Files' feature, if this flag isn't set, we just know that we don't know for sure if it's enabled
+						m_fSupportsAskSharedDirs : 1;	// client supports OP_ASKSHAREDIRS opcodes
+a283 1
+//
+a284 1
+//
+d291 1
+a291 1
+	bool			Compare(CUpDownClient* tocomp);
+d296 3
+a298 3
+// Accessors
+	uint32			GetUserID()	const			{return m_dwUserID;}
+	void 			SetUserID(uint32 newUserID)
+d300 1
+a300 1
+		m_dwUserID = newUserID;
+d303 1
+a303 1
+	bool 			HasLowID() const			{return m_bIsLowID;}
+d305 8
+a312 8
+	CString			GetUserName() const			{return m_strUserName;}
+	void 			SetUserName(const CString& pszNewName) {m_strUserName = pszNewName;}
+	bool 			HasUserNameForbiddenStrings();
+	bool 			IsCommunity();
+
+	uint32			GetIP()	const				{return m_dwUserIP;}
+	CString			GetFullIP() const 			{return m_strFullUserIP;}
+	uint16			GetUserPort() const			{return m_uUserPort;}
+d314 2
+a315 2
+	uint16			GetUDPPort()				{return m_uUDPPort;}
+//	void 			SetUDPPort(uint16 nPort)	{ m_uUDPPort = nPort; }
+d317 2
+a318 2
+	uint32			GetTransferredUp() const	{return m_dwTransferredUp;}
+	uint32			GetTransferredDown() const	{return m_dwTransferredDown;}
+d320 4
+a323 4
+	uint32			GetServerIP() const			{return m_dwServerIP;}
+	void 			SetServerIP(uint32 dwIP)	{ m_dwServerIP = dwIP; }
+	uint16			GetServerPort()	const		{return m_uServerPort;}
+	void 			SetServerPort(uint16 uPort)	{m_uServerPort = uPort;}
+d325 2
+a326 2
+	uchar*			GetUserHash()				{return m_userHash;}
+	void 			SetUserHash(uchar* m_achTempUserHash);
+d328 2
+a329 2
+	bool 			HasValidHash() const		{return (((int*)m_userHash)[0] != 0) || (((int*)m_userHash)[1] != 0) ||
+														(((int*)m_userHash)[2] != 0) || (((int*)m_userHash)[3] != 0); }
+d331 1
+a331 1
+	bool 			IsFriend()	const			{return m_pFriend != NULL;}
+d333 1
+a333 1
+	bool 			IsOnLAN()						{return m_bIsOnLan;};
+d335 8
+a342 8
+	bool 			IsEmuleClient()				{return m_byteEmuleVersion;}
+	EnumClientTypes	GetClientSoft() const		{return m_eClientSoft;}
+	uint32			GetVersion() const			{return m_dwClientVersion;}
+	byte 			GetMuleVersion() const		{return m_byteEmuleVersion;}
+	uint32			GetPlusVersion()			{return m_dwPlusVers;}
+	CString			GetModString() const		{return m_strModString;}
+	bool 			IsModStringEmpty() const	{return m_strModString.IsEmpty();}
+	bool 			HasMODNameForbiddenStrings();
+d344 1
+a344 1
+	void 			ReGetClientSoft();
+d346 5
+a350 5
+	bool 			ExtProtocolAvailable()		{return m_bEmuleProtocol;}
+	bool 			SupportsUDP()				{return m_byteUDPVer != 0 && m_uUDPPort != 0;}
+	byte 			GetUDPVersion()				{return m_byteUDPVer;}
+	byte 			GetExtendedRequestsVersion(){return m_byteExtendedRequestsVer;}
+	byte 			GetSourceExchangeVersion()	{return m_byteSourceExchangeVer;}
+d352 1
+a352 1
+	void			Ban(LPCTSTR line, const CString& reason,...); //katsyonak 16.06.03
+d354 1
+a354 1
+	bool			IsBanned(bool bIgnoreDS = false) const		{return (m_bBanned && (bIgnoreDS || m_eDownloadState != DS_DOWNLOADING));}
+d356 1
+a356 1
+	CString			GetClientFilename() const	{return m_strClientFilename;}
+d358 1
+a358 1
+	bool			GetViewSharedFilesSupport() const	{return (m_fNoViewSharedFiles == 0);}
+d360 1
+a360 1
+	void			ProcessSharedFileList(char* pachPacket, uint32 nSize, LPCTSTR pszDirectory = NULL);
+d362 31
+a392 31
+	void			SetLastSrcReqTime()			{m_dwLastSourceRequest = ::GetTickCount();}
+	void			SetLastSrcAnswerTime()		{m_dwLastSourceAnswer = ::GetTickCount();}
+	uint32			GetLastSrcReqTime()			{return m_dwLastSourceRequest;}
+	uint32			GetLastSrcAnswerTime()		{return m_dwLastSourceAnswer;}
+	uint32			GetEnteredConnectedState()	{return m_dwEnteredConnectedState;}
+	void			SetCommentDirty(bool bDirty = true) {m_bCommentDirty = bDirty;}
+
+	CClientCredits* Credits()					{return m_pCredits;}
+	byte			GetSecureIdentState()		{return m_eSecureIdentState;}
+
+
+// packets sending & processing
+	EnumInfoPacketState	GetInfoPacketsReceived() const	{return m_eInfoPacketsReceived;}
+	void 			InfoPacketsReceived();
+
+	void 			SendHelloAnswer();
+	void 			ProcessHelloAnswer(char* pachPacket, uint32 nSize);
+	void 			SendHelloPacket();
+	bool 			ProcessHelloPacket(BYTE* pbytePacket, uint32 nSize);
+	void 			SendCancelTransfer();
+	void 			SendHashsetPacket(char* forfileid);
+	uint32			SendBlockData(uint32 dwMaxAmount, EnumBlockSendResult& eResult);
+	void 			SendRankingInfo();
+	void 			SendBlockRequests();
+	int 				ProcessBlockPacket(char *pcPacketBuf, uint32 dwPacketSize, bool bPacked = false);
+	void 			SendFileRequest();
+	void 			SendStartupLoadRequest();
+	void 			SendHashsetRequest();
+	void 			ProcessFileInfo(char* packet,uint32 size);
+	void 			ProcessFileStatus(CSafeMemFile *packetStream, CPartFile *pReqPartFile, bool bUDPPacket = false);
+	void 			ProcessHashSet(char* packet,uint32 size);
+d395 3
+a397 3
+	void			ProcessMuleInfoPacket(BYTE* pbytePacket, uint32 dwSize);
+	void			ProcessMuleCommentPacket(char* pbytePacket, uint32 dwSize);
+	void			SendCommentInfo(CKnownFile *file);
+d400 1
+a400 1
+	void			ProcessPublicKeyPacket(uchar* pachPacket, uint32 nSize);
+d402 1
+a402 1
+	void			ProcessSignaturePacket(uchar* pachPacket, uint32 nSize);
+d404 1
+a404 1
+	void			ProcessSecIdentStatePacket(uchar* pachPacket, uint32 nSize);
+d406 10
+a415 10
+// upload
+	EnumULQState	GetUploadState()			{return m_eUploadState;}
+	void 			SetUploadState(EnumULQState eNewState);
+	bool 			IsDownloading()				{return (m_eUploadState == US_UPLOADING);}
+// upload: time functions
+	void 			SetUpStartTime(uint32 dwTime = 0);
+	uint32			GetUpStartTimeDelay()		{return ::GetTickCount() - m_dwUploadTime;}
+	uint32			GetWaitStartTime()			{return m_dwWaitTime;}
+	void 			SetWaitStartTime(uint32 dwTime = 0);
+	uint32			GetWaitTime()				{return m_dwUploadTime-m_dwWaitTime;}
+d417 20
+a436 20
+	uint32			GetBanTime()				{return m_dwBanTime;}
+	void 			SetLastUpRequest()			{m_dwLastUpRequest = ::GetTickCount();}
+	uint32			GetLastUpRequest()			{return m_dwLastUpRequest;}
+	void 			SetLastGotULData()			{ m_dwLastGotULDataTime = ::GetTickCount(); };
+	uint32			GetLastGotULData()			{ return m_dwLastGotULDataTime; };
+// upload: data statistic
+	sint32			GetDataRate()				{return m_lUpDataRate;}
+	uint32			GetSessionUp()				{return m_dwTransferredUp - m_dwCurSessionUp;}
+	void 			ResetSessionUp()			{m_dwCurSessionUp = m_dwTransferredUp;}
+	uint32			GetScore(bool sysvalue, bool isdownloading = false, bool onlybasevalue = false);
+	double			GetCompression()	{return static_cast<double>(m_dwCompressionGain)/m_dwUncompressed*100.0;} // Add rod show compression
+	void 			ResetCompressionGain() {m_dwCompressionGain = 0; m_dwUncompressed=1;} // Add show compression
+// upload: file
+	void 			SetUploadFileID(uchar* tempreqfileid);
+	uchar*			GetUploadFileID()	{return m_reqFileHash;}
+	void 			AddRequestCount(uchar* fileid);
+// upload: parts
+	void 			AddReqBlock(Requested_Block_Struct* reqblock);
+	void 			ClearUploadBlockRequests();
+	bool 			HasBlocks()					{return !(m_blockSendQueue.empty() && m_blockRequestsQueue.empty());}
+d438 16
+a453 16
+// parts & sources information from remote client, which is sent by every file request
+	void 			ProcessUpFileStatus(char* packet,uint32 size);
+	uint16			GetUpPartCount()			{return m_uUpPartCount;}
+	uint16			GetAvailUpPartCount()		{return m_uAvailUpPartCount;}
+	void 			CheckForUpPartsInfo();
+//upload: file request counter
+	uint32			GetAskedCount()				{return m_dwAskedCount;}
+	void 			AddAskedCount()				{m_dwAskedCount++;}
+	void 			SetAskedCount( uint32 m_cInAsked)	{m_dwAskedCount = m_cInAsked;}
+	byte 			GetFailedFileRequests()		{return m_byteFailedFileRequestsCount;}
+	void 			UpdateFailedFileRequests()	{m_byteFailedFileRequestsCount++;}
+	void 			ResetFailedFileRequests()	{m_byteFailedFileRequestsCount = 0;}
+
+// Download
+	EnumDLQState	GetDownloadState()			{return m_eDownloadState;}
+	void 			SetDownloadState(EnumDLQState eNewState);
+d456 2
+a457 2
+	bool 			AskForDownload();
+	uint32			GetDownloadDataRate()		{return m_dwDownDataRate;}
+d459 13
+a471 13
+	uint32			GetAskedCountDown()			{return m_dwDownAskedCount;}
+	void 			AddAskedCountDown()			{m_dwDownAskedCount++;}
+	void 			SetAskedCountDown(uint32 m_cInDownAsked)				{m_dwDownAskedCount = m_cInDownAsked;}
+
+// download: time functions
+	uint32			GetLastAskedTime()			{return m_dwLastAskedTime;}
+	void 			ResetLastAskedTime()		{m_dwLastAskedTime = 0;}
+	uint32			GetDLQueueWaitTime()		{return ::GetTickCount() - m_dwDLQueueWaitTime;}
+	void 			StartDLQueueWaitTimer()	{m_dwDLQueueWaitTime = ::GetTickCount();}
+	void 			UpdateLastBlockReceivedTime()		{m_dwLastBlockReceived = ::GetTickCount();}
+// download: parts info
+	bool 			IsPartAvailable(uint16 iPart)	{return	( (iPart >= m_uPartCount) || (!m_pbytePartStatuses) )? 0:m_pbytePartStatuses[iPart];}
+	byte*			GetPartStatus()				{return m_pbytePartStatuses;}
+d473 1
+a473 1
+	bool 			IsCompleteSource()			{return m_bCompleteSource;}
+d476 4
+a479 4
+	uint16			GetLastDownPartAsked() {return m_uLastPartAsked;};
+	void 			SetLastDownPartAsked(uint16 uLastPart) { m_uLastPartAsked = uLastPart; };
+	void 			ShowDownloadingParts(std::_Bvector& parts);
+// download: blocks
+d482 10
+a491 10
+// download: remote queue rank
+	uint16			GetRemoteQueueRank()		{return m_uRemoteQueueRank;}
+	int 				GetDifference()    			{return m_iDeltaQueueRank;} //cendre-eau
+	void 			SetRemoteQueueFull(bool flag)	{m_bRemoteQueueFull = flag;}
+	bool 			IsRemoteQueueFull()			{return m_bRemoteQueueFull;}
+	void 			SetRemoteQueueRank(uint16 nr, bool bUpdateGUI = true);
+// download: A4AF
+	bool			AddRequestForAnotherFile(CPartFile* file);
+	void			RemoveRequestForAnotherFile(CPartFile* pPartFile);
+	bool			SwapToAnotherFile(CPartFile* SwapTo, bool bOneWaySwap = false, bool bIgnoreReasktime = false);
+d493 1
+a493 1
+	void			UDPReaskACK(uint16 nNewQR);
+d499 9
+a507 9
+	uint16			GetUpCompleteSourcesCount()	{return m_uUpCompleteSourcesCount;}
+	uint32			GetUpCompleteSourcesTime()	{return m_dwUpCompleteSourcesTime;}
+	void 			SetUpCompleteSourcesCount(uint16 n)	{m_uUpCompleteSourcesCount= n; m_dwUpCompleteSourcesTime= ::GetTickCount();}
+
+//	chat
+	EnumChatStates		GetChatState()				{return m_eChatState;}
+	void 				SetChatState(EnumChatStates nNewS)	{m_eChatState = nNewS;}
+	uint32			GetAwayMessageResendCount()				{return m_dwAwayMessageResendCount;};
+	void 			SetAwayMessageResendCount(uint32 newVal) {m_dwAwayMessageResendCount = newVal;};
+d510 9
+a518 9
+	CString				GetFileComment()         	{return m_strComment;}
+	void				SetFileComment(const CString& desc) 	{m_strComment = desc;}
+	EnumPartFileRating	GetFileRating()            	{return m_eRating;}
+	void				SetFileRating(EnumPartFileRating eNewRating) 	{m_eRating = eNewRating;}
+
+// GUI 
+	void 			UpdateDisplayedInfo();
+	void 			DrawStatusBar(CDC* dc, RECT* rect, bool onlygreyrect, bool  bFlat);
+	void 			DrawUpStatusBar(CDC* dc, RECT* rect, bool bFlat);
+d523 1
+a523 1
+// request of shared files & dirs
+d527 7
+a533 7
+// LowID 2 High ID callback request feature
+	uint32			GetL2HACTime()							{return m_dwL2HACTime ? (m_dwL2HACTime - L2HAC_CALLBACK_PRECEDE) : 0;}
+	void 			SetLastL2HACExecution(uint32 m_set_to = 0)	{m_dwLastL2HACExec = m_set_to ? m_set_to : ::GetTickCount();}
+	uint32			GetLastL2HACExecution()					{return m_dwLastL2HACExec;}
+	void 			EnableL2HAC()								{m_bL2HACEnabled = true;}
+	void 			DisableL2HAC()								{m_bL2HACEnabled = false;}
+	bool 			IsL2HACEnabled()							{return m_bL2HACEnabled;}
+d535 1
+a535 1
+//Country feature
+d537 1
+a537 1
+	int				GetCountryIndex() const			{return m_uUserCountryIdx;}
+d542 3
+a544 3
+// Hello packet
+	bool			ProcessHelloTypePacket(CSafeMemFile& data);
+	void			SendHelloTypePacket(CMemFile& data);
+d549 6
+a554 6
+// upload packet creation
+	EnumBlockPacketCreationResult 	CreateNextBlockPackage();
+	bool			CreateStandardPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, byte byteFilePriority, bool bFromPF = true);
+	bool			CreatePackedPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, byte byteFilePriority, bool bFromPF = true);
+	bool			SplitAndAddPacketsToSendQueue(Packet* packet, PacketDeque* pSendQueue, byte byteFilePriority, bool bFromPF);
+	bool			IsDifferentPartBlock(bool silent=false);
+d557 3
+a559 3
+//???
+	void			FlushSendBlocks();			// call this when you stop upload, or the m_pRequestSocket might be not able to send 
+};
+@
+
+
+1.167
+log
+@sorted "UpDownClient.h"; removed unused variables
+@
+text
+@d317 1
+a317 1
+	void 			SetUDPPort(uint16 nPort)	{ m_uUDPPort = nPort; }
+@
+
+
+1.166
+log
+@Removed unused code.
+@
+text
+@d111 3
+a114 4
+	CFriend			   *m_pFriend;
+//	Upload
+	uint32				m_dwCompressionGain;
+	uint32				m_dwUncompressed;
+d116 2
+a119 2
+	byte			   *m_pbyteUpPartStatuses;
+
+d126 7
+a132 1
+	
+d134 5
+a139 1
+	bool				m_bHasUserNameForbiddenStrings;
+d141 5
+a145 7
+	bool				m_bIsCommunity;
+	bool				m_bIsOnLan;
+	bool				m_bIsLowID;
+	bool				m_bEmuleProtocol;
+	bool				m_bCommentDirty;
+	bool				m_bIsHybrid;
+	bool				m_bIsML;
+a146 6
+	uint32				m_dwConnectIP;
+	uint32				m_dwUserIP;
+	uint32				m_dwServerIP;
+	uint32				m_dwUserID;
+	uint16				m_uUserPort;
+	uint16				m_uServerPort;
+a147 3
+	sint32				m_lUpDataRate;
+	byte				m_byteEmuleVersion;
+	byte				m_byteDataCompVer;
+d149 7
+a155 8
+	CString				m_strModString;
+	CString				m_strUserName;
+	CString				m_strFullUserIP;
+	CString				m_strClientSoft;
+	BYTE				m_userHash[16];
+	uint16				m_uUDPPort;
+	byte				m_byteUDPVer;
+	byte				m_byteSourceExchangeVer;
+d157 1
+d159 3
+a161 7
+	byte				m_byteFailedCount;
+	byte				m_byteCompatibleClient;
+	uint32				m_dwLastSourceRequest;
+	uint32				m_dwLastSourceAnswer;
+	uint32				m_dwEnteredConnectedState;
+	int					m_iFileListRequested;
+	int					m_iFileListRequestedSave;
+d163 8
+a170 1
+	CTypedPtrList<CPtrList, Packet*>		 m_waitingPacketsList;
+d172 2
+a173 1
+	DWORD					m_dwLastRefreshedDLDisplayTime;
+d175 2
+a176 1
+	EnumSecureIdentState	m_eSecureIdentState;
+a178 1
+	byte					m_byteSupportSecIdent;
+d180 3
+a182 15
+	uint16					m_uLastPartAsked;
+
+	bool				m_bBanned;
+	uint32				m_dwTransferredUp;
+	EnumULQState		m_eUploadState;
+	uint32				m_dwWaitTime;
+	uint32				m_dwUploadTime;
+	uint32				m_dwMaxSendAllowed;
+	uint32				m_dwAvgUpDataRate;
+	uint32				m_dwAskedCount;
+	uint32				m_dwLastUpRequest;
+	uint32				m_dwBanTime;
+	uint32				m_dwCurSessionUp;
+	std::list<int>		m_averageUDRList;
+	std::list<DWORD>	m_averageULTickList;
+d184 1
+a184 8
+	//CTypedPtrList<CPtrList, Packet*>		 			m_blockSendQueue;
+	//CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_blockRequestsQueue;
+	//CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_doneBlocksList;
+	PacketDeque		m_blockSendQueue;
+	ReqBlockDeque		m_blockRequestsQueue;
+	ReqBlockDeque		m_doneBlocksList;
+	CTypedPtrList<CPtrList, Requested_File_Struct*>		m_requestedFilesList;
+	DWORD				m_dwLastGotULDataTime;
+d186 1
+a186 9
+//	Remote client's parts
+	uint16				m_uUpPartCount;
+	uint16				m_uAvailUpPartCount;
+	uint16				m_uUpCompleteSourcesCount;
+	uint32				m_dwUpCompleteSourcesTime;
+
+	byte				m_byteFailedFileRequestsCount;
+//	Download
+	bool				m_bRemoteQueueFull;
+a187 1
+	uint16				m_uPartCount;
+d189 1
+a189 3
+	byte			   *m_pbytePartStatuses;
+	uint32				m_dwLastAskedTime;
+	CString				m_strClientFilename;
+d191 1
+a191 2
+	bool				m_bTransferredDownMini;
+	uint32				m_dwDownStartTime;
+d193 8
+a200 3
+	uint32				m_dwDownDataRate;
+	uint32				m_dwAvgDownDataRate;
+	uint32				m_dwLastBlockReceived;
+d203 10
+a212 5
+	bool				m_bCompleteSource;
+	bool				m_bReaskPending;
+	bool				m_bUDPPending;
+	bool				m_bLimitlessDL;
+	uint32				m_dwDLQueueWaitTime;
+d214 1
+a214 1
+	std::deque<DWORD>	m_averageDLTickList;
+d220 36
+a255 2
+	CTypedPtrList<CPtrList, Pending_Block_Struct*>	 	m_pendingBlocksList;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_downloadBlocksList;
+d257 6
+a262 1
+	uint16				m_uUserCountryIdx;
+d264 1
+a264 1
+//	Chat
+d266 3
+d270 2
+a271 2
+	EnumPartFileRating	m_eRating;
+	uint32				m_dwAwayMessageResendCount;
+d293 2
+d298 1
+a298 1
+//	Accessors
+d300 7
+d308 4
+a312 1
+	bool			HasLowID() const			{return m_bIsLowID;}
+d315 4
+d321 1
+d323 1
+a323 1
+	void			SetServerIP(uint32 dwIP)	{ m_dwServerIP = dwIP; }
+d325 2
+a326 1
+	void			SetServerPort(uint16 uPort)	{m_uServerPort = uPort;}
+d328 3
+a330 1
+	bool			HasValidHash() const		{return (((int*)m_userHash)[0] != 0) || (((int*)m_userHash)[1] != 0) ||
+d332 7
+a338 1
+	void			SetUserHash(uchar* m_achTempUserHash);
+d340 2
+a341 4
+	int				GetHashType();
+	uint64			GetUID() const				{ return (static_cast<uint64>(m_dwUserIP)<<32)+(static_cast<uint64>(m_uUserPort)<<16); }
+
+	byte			GetMuleVersion() const		{return m_byteEmuleVersion;}
+d343 2
+d346 10
+a355 5
+	bool			IsModStringEmpty() const	{return m_strModString.IsEmpty();}
+	bool			ExtProtocolAvailable()		{return m_bEmuleProtocol;}
+	uint32			GetPlusVersion()			{return m_dwPlusVers;}
+	bool			IsEmuleClient()				{return m_byteEmuleVersion;}
+	CClientCredits* Credits()					{return m_pCredits;}
+d357 1
+a357 2
+	bool 			HasUserNameForbiddenStrings();
+	bool 			HasMODNameForbiddenStrings();
+a358 8
+	bool			SupportsUDP()				{return m_byteUDPVer != 0 && m_uUDPPort != 0;}
+	uint16			GetUDPPort()				{return m_uUDPPort;}
+	void			SetUDPPort(uint16 nPort)	{ m_uUDPPort = nPort; }
+	byte			GetUDPVersion()				{return m_byteUDPVer;}
+	byte			GetExtendedRequestsVersion(){return m_byteExtendedRequestsVer;}
+	bool			IsFriend()	const			{return m_pFriend != NULL;}
+	double			GetCompression()	{return static_cast<double>(m_dwCompressionGain)/m_dwUncompressed*100.0;} // Add rod show compression
+	void			ResetCompressionGain() {m_dwCompressionGain = 0; m_dwUncompressed=1;} // Add show compression
+d360 1
+a363 17
+	void			SetUserID(uint32 newUserID)
+	{
+		m_dwUserID = newUserID;
+		m_bIsLowID = (m_dwUserID < 0x1000000);
+	}
+	void			SetUserName(const CString& pszNewName) {m_strUserName = pszNewName;}
+	bool            IsCommunity();
+	EnumClientTypes	GetClientSoft() const		{return m_eClientSoft;}
+	void			ReGetClientSoft();
+	void			ProcessHelloAnswer(char* pachPacket, uint32 nSize);
+	bool			ProcessHelloPacket(BYTE* pbytePacket, uint32 nSize);
+	void			SendHelloAnswer();
+	void			SendHelloPacket();
+	void			SendMuleInfoPacket(bool bAnswer);
+	void			ProcessMuleInfoPacket(BYTE* pbytePacket, uint32 dwSize);
+	void			ProcessMuleCommentPacket(char* pbytePacket, uint32 dwSize);
+	bool			Compare(CUpDownClient* tocomp);
+d370 30
+a399 1
+	byte			GetSourceExchangeVersion()	{return m_byteSourceExchangeVer;}
+d402 1
+a403 1
+	void			ProcessPublicKeyPacket(uchar* pachPacket, uint32 nSize);
+a404 1
+	byte			GetSecureIdentState()		{return m_eSecureIdentState;}
+a406 3
+	EnumInfoPacketState	GetInfoPacketsReceived() const	{return m_eInfoPacketsReceived;}
+	void			InfoPacketsReceived();
+	void			ResetFileStatusInfo();
+d408 1
+d410 5
+a414 1
+	void			SetUploadState(EnumULQState eNewState);
+d416 1
+a417 17
+	bool			IsDownloading()				{return (m_eUploadState == US_UPLOADING);}
+	bool			HasBlocks()					{return !(m_blockSendQueue.empty() && m_blockRequestsQueue.empty());}
+	sint32			GetDataRate()				{return m_lUpDataRate;}
+	uint32			GetScore(bool sysvalue, bool isdownloading = false, bool onlybasevalue = false);
+	void			AddReqBlock(Requested_Block_Struct* reqblock);
+	EnumBlockPacketCreationResult 	CreateNextBlockPackage();
+	void			SetUpStartTime(uint32 dwTime = 0);
+	uint32			GetUpStartTimeDelay()		{return ::GetTickCount() - m_dwUploadTime;}
+	void			SetWaitStartTime(uint32 dwTime = 0);
+	void			SendHashsetPacket(char* forfileid);
+	void 			SendCancelTransfer();
+	void			SetUploadFileID(uchar* tempreqfileid);
+	uchar*			GetUploadFileID()	{return m_reqFileHash;}
+	uint32			SendBlockData(uint32 dwMaxAmount, EnumBlockSendResult& eResult);
+	void			ClearUploadBlockRequests();
+	void			SendRankingInfo();
+	void			SendCommentInfo(CKnownFile *file);
+a418 5
+	void			AddRequestCount(uchar* fileid);
+	bool			IsDifferentPartBlock(bool silent=false);
+	bool			IsForbiddenByJumpstart();
+	void			UnBan();
+	void			Ban(LPCTSTR line, const CString& reason,...); //katsyonak 16.06.03
+d420 1
+a420 5
+	uint32			GetAskedCount()				{return m_dwAskedCount;}
+	void			AddAskedCount()				{m_dwAskedCount++;}
+	void			SetAskedCount( uint32 m_cInAsked)	{m_dwAskedCount = m_cInAsked;}
+	void			FlushSendBlocks();			// call this when you stop upload, or the m_pRequestSocket might be not able to send
+	void			SetLastUpRequest()			{m_dwLastUpRequest = ::GetTickCount();}
+d422 4
+a425 1
+
+d427 12
+a438 3
+	void			ResetSessionUp()			{m_dwCurSessionUp = m_dwTransferredUp;}
+	void			SetLastGotULData()			{ m_dwLastGotULDataTime = ::GetTickCount(); };
+	DWORD			GetLastGotULData()			{ return m_dwLastGotULDataTime; };
+d440 2
+a441 3
+
+//	Remote client's parts
+	void			ProcessUpFileStatus(char* packet,uint32 size);
+d444 8
+a451 2
+	void			DrawUpStatusBar(CDC* dc, RECT* rect, bool bFlat);
+	void			CheckForUpPartsInfo();
+d453 7
+a459 4
+//	File request counter
+	byte			GetFailedFileRequests()		{return m_byteFailedFileRequestsCount;}
+	void			UpdateFailedFileRequests()	{m_byteFailedFileRequestsCount++;}
+	void			ResetFailedFileRequests()	{m_byteFailedFileRequestsCount = 0;}
+a460 1
+//	Download
+d462 4
+a465 4
+	void			AddAskedCountDown()			{m_dwDownAskedCount++;}
+	void			SetAskedCountDown(uint32 m_cInDownAsked)				{m_dwDownAskedCount = m_cInDownAsked;}
+	EnumDLQState	GetDownloadState()			{return m_eDownloadState;}
+	void			SetDownloadState(EnumDLQState eNewState);
+d467 6
+a472 2
+	void			ResetLastAskedTime()		{m_dwLastAskedTime = 0;}
+	bool			IsPartAvailable(uint16 iPart)	{return	( (iPart >= m_uPartCount) || (!m_pbytePartStatuses) )? 0:m_pbytePartStatuses[iPart];}
+d474 11
+a484 1
+	uint32			GetDownloadDataRate()		{return m_dwDownDataRate;}
+d486 5
+a490 13
+	int   			GetDifference()    			{return m_iDeltaQueueRank;} //cendre-eau
+	void			SetRemoteQueueFull(bool flag)	{m_bRemoteQueueFull = flag;}
+	bool			IsRemoteQueueFull()			{return m_bRemoteQueueFull;}
+	void			SetRemoteQueueRank(uint16 nr, bool bUpdateGUI = true);
+	void			DrawStatusBar(CDC* dc, RECT* rect, bool onlygreyrect, bool  bFlat);
+	bool			AskForDownload();
+	void			SendFileRequest();
+	void			SendStartupLoadRequest();
+	void			SendHashsetRequest();
+//	void			SendFileRequestForUpload();
+	void			ProcessFileInfo(char* packet,uint32 size);
+	void			ProcessFileStatus(CSafeMemFile *packetStream, CPartFile *pReqPartFile, bool bUDPPacket = false);
+	void			ProcessHashSet(char* packet,uint32 size);
+a492 5
+	void			SendBlockRequests();
+	int				ProcessBlockPacket(char *pcPacketBuf, uint32 dwPacketSize, bool bPacked = false);
+	uint32			DownloadProcess(uint32 dwReduceDownload);
+//	void			ResetMeasurementPeriodTimer(uint32 time)	{m_dwLastDataRateCalculationTime = time;}
+	uint16			GetAvailablePartCount();
+d494 1
+a494 2
+	uint32			GetDLQueueWaitTime()		{return ::GetTickCount() - m_dwDLQueueWaitTime;}
+	void			StartDLQueueWaitTimer()	{m_dwDLQueueWaitTime = ::GetTickCount();}
+a500 1
+	bool			IsCompleteSource()			{return m_bCompleteSource;}
+d503 1
+a503 6
+	void			SetUpCompleteSourcesCount(uint16 n)	{m_uUpCompleteSourcesCount= n; m_dwUpCompleteSourcesTime= ::GetTickCount();}
+
+	CString			GetDownloadStateAsString(void);
+
+	uint16			GetLastDownPartAsked() {return m_uLastPartAsked;};
+	void			SetLastDownPartAsked(uint16 uLastPart) { m_uLastPartAsked = uLastPart; };
+d507 3
+a509 1
+	void				SetChatState(EnumChatStates nNewS)	{m_eChatState = nNewS;}
+d517 7
+a523 4
+	void			ShowDownloadingParts(std::_Bvector& parts);
+	uint32			GetAwayMessageResendCount()				{return m_dwAwayMessageResendCount;};
+	void			SetAwayMessageResendCount(uint32 newVal) {m_dwAwayMessageResendCount = newVal;};
+	void			UpdateDisplayedInfo();
+d525 1
+d529 1
+a529 4
+	bool			IsOnLAN()						{return m_bIsOnLan;};
+
+	CString			GetUploadFileInfo();
+
+d531 1
+a531 1
+	void			SetLastL2HACExecution(uint32 m_set_to = 0)	{m_dwLastL2HACExec = m_set_to ? m_set_to : ::GetTickCount();}
+d533 3
+a535 10
+	void			EnableL2HAC()								{m_bL2HACEnabled = true;}
+	void			DisableL2HAC()								{m_bL2HACEnabled = false;}
+	bool			IsL2HACEnabled()							{return m_bL2HACEnabled;}
+
+	int				GetClientIconIndex() const;
+	HICON			GetClientInfo4Tooltips(CString &strInfo, bool bForUpload = false);
+	void			UpdateLastBlockReceivedTime()		{m_dwLastBlockReceived = ::GetTickCount();}
+
+	void			ClearPendingBlocksList(void);
+	void			ClearDownloadBlocksList(void);
+d537 1
+a541 5
+	uint32			GetRemainingTimeForCurrentPart();
+	uint32			GetRemainingSizeForCurrentPart();
+
+	bool			GetViewSharedFilesSupport() const	{return (m_fNoViewSharedFiles == 0);}
+
+a542 1
+//	base
+d544 1
+d551 2
+a552 1
+//	upload
+d556 5
+@
+
+
+1.165
+log
+@improvement for UL queue:
+1) used STL
+2) fixed access to the queue from WebServer
+@
+text
+@a107 1
+	bool				m_bIsHashThief;
+d378 1
+a378 1
+    bool            IsForbiddenByJumpstart();
+@
+
+
+1.164
+log
+@Removed unused code.
+@
+text
+@d85 3
+@
+
+
+1.163
+log
+@improved processing of user name & mod string
+@
+text
+@d462 1
+a462 1
+	void		   		SetFileComment(const CString& desc) 	{m_strComment = desc;}
+d464 1
+a464 1
+	void		   		SetFileRating(EnumPartFileRating eNewRating) 	{m_eRating = eNewRating;}
+d469 1
+a469 1
+	void			UpdateDisplayedInfo(boolean force=false);
+@
+
+
+1.162
+log
+@Removed some draft never used code.
+@
+text
+@d91 4
+d126 1
+a126 1
+	bool				m_bIsUserNameChanged;
+@
+
+
+1.161
+log
+@Removed socket closure after sending cancel as it led to exceptions
+(e.i. CClientReqSocket::PacketReceived: Unknown exception. Protocol=...).
+@
+text
+@d385 2
+a386 2
+    void            SetLastGotULData()			{ m_dwLastGotULDataTime = ::GetTickCount(); };
+    DWORD           GetLastGotULData()			{ return m_dwLastGotULDataTime; };
+a387 3
+#ifdef LATER
+	uint32			GetCurrentlyDownloadingPart();
+#endif LATER
+@
+
+
+1.160
+log
+@Removed non-working code (reducing of used memory); One more rare used bit is added to bit field.
+@
+text
+@d362 1
+a362 1
+	void 			SendCancelTransfer(bool bShutdownSocket);
+@
+
+
+1.159
+log
+@improved socket usage (centralized cancel of the transfer)
+@
+text
+@d133 1
+a133 1
+	bool				m_bSupportsAskSharedDirs;
+d156 1
+a156 1
+	EnumClientTypes		m_eClientSoft;
+a162 7
+	uint32				m_dwRemoteScore;
+	uint16				m_uRemoteRatio;
+	uint16				m_uRemoteBaseModifier;
+	uint16				m_uRemoteClientSpeed;
+	bool				m_bRemoteInfoAvailable;
+	byte				m_byteCompatibleClient;
+
+d224 1
+d226 2
+a227 2
+	std::deque<int>			m_averageDLDataRateList;
+	std::deque<DWORD>		m_averageDLTickList;
+a231 1
+	bool					m_bLimitlessDL;
+d250 3
+a252 2
+	uint32				m_fRequestingHashSet : 1, // we have sent a hashset request to this client in the current connection
+						m_fNoViewSharedFiles : 1; // client has disabled the 'View Shared Files' feature, if this flag isn't set, we just know that we don't know for sure if it's enabled
+a442 1
+	uint32			GetRemoteScore();
+a444 2
+	bool			IsRemoteInfoAvaiable(){return m_bRemoteInfoAvailable;}
+	uint16			GetRemoteClientSpeed(){return m_uRemoteClientSpeed;}
+a504 1
+	double			GetClientSpeed();
+@
+
+
+1.158
+log
+@Updated eMule protocol up to version 0.4x (original);
+Inform a remote client when 'See my share = No one' to save traffic (original);
+Removed unused struct definition.
+@
+text
+@d368 1
+@
+
+
+1.157
+log
+@1) improved ZZ upload process
+2) fixed possible upload break at last block in part
+@
+text
+@a75 2
+struct IPRange_Struct2;
+
+d255 4
+a258 1
+	bool				m_bRequestingHashSet;
+d350 1
+d503 4
+a506 2
+	uint32 		GetRemainingTimeForCurrentPart();
+	uint32 		GetRemainingSizeForCurrentPart();
+d514 1
+@
+
+
+1.156
+log
+@added sorting for remaining size & time; corrected DL limit
+@
+text
+@d55 21
+d361 1
+a361 1
+	bool			CreateNextBlockPackage();
+d368 1
+a368 1
+	uint32			SendBlockData(uint32 maxammount, bool& wantsMoreBandwidth);
+@
+
+
+1.155
+log
+@Faster calculation.
+@
+text
+@d480 3
+@
+
+
+1.154
+log
+@corrected source swap by file deletion & fixed competion hang up
+@
+text
+@d215 2
+a216 2
+	uint64				m_qwClientSumDLDataRateOverLastNMeasurements;
+	uint64				m_qwClientSumDLTickOverLastNMeasurements;
+@
+
+
+1.153
+log
+@Completely reworked remote clients version detection;
+Fixed eMule Plus identification; Removed unused code.
+@
+text
+@d418 1
+a418 1
+	bool			SwapToAnotherFile(CPartFile* SwapTo, bool bIgnoreReasktime = false);
+@
+
+
+1.152
+log
+@fixed hashset request for file with filesize = PARTSIZE; new function created
+@
+text
+@d66 6
+d125 2
+a126 3
+	byte				m_byteDataTarodVer;
+	uint32				m_dwDataPlusVers;
+	CString				m_strModVersion;
+d129 1
+a142 1
+	uint32				m_dwCompatibleClient;
+d147 1
+d149 1
+a149 1
+	uint16				m_uRemoteClientSpeed;
+d273 3
+a275 2
+	CString			GetModVersion()				{return m_strModVersion;}
+	CString			GetClientNameAndVersionString();
+d277 1
+a277 1
+	uint32			GetPlusVersion()			{return m_dwDataPlusVers;}
+@
+
+
+1.151
+log
+@created new function with socket check
+@
+text
+@d399 1
+@
+
+
+1.150
+log
+@fixed switching between limited & limitless DL; improved bandwidth control for  limited DL; fixed request of hashset
+@
+text
+@d213 1
+a213 1
+	bool				m_bLimitlessDL;
+d398 1
+@
+
+
+1.149
+log
+@Removed unused code.
+@
+text
+@d213 1
+d406 1
+a406 1
+	uint32			CalculateDownloadRate();
+@
+
+
+1.148
+log
+@Fixed exception caused by protection against bad RX data.
+@
+text
+@a429 3
+//	Returns the count of available parts that this user has but we not have
+	uint16			GetAvailableOfNeededPartsCount(); //added by Mr.Fry
+
+@
+
+
+1.147
+log
+@rollback of old waiting queue
+@
+text
+@d404 1
+a404 1
+	void			ProcessBlockPacket(char *ucPacketBuf, uint32 dwPacketSize, bool bPacked = false);
+@
+
+
+1.146
+log
+@Removed old stuff.
+@
+text
+@a230 3
+	uint16			m_uPosInWaitingQueue;
+	uint32			m_dwWaitingScore;
+
+a329 1
+	uint32			GetWaitingScore()			{return m_dwWaitingScore;}
+a472 4
+	void			SetPosInWaitingQueue(uint16 dwNewPos)		{m_uPosInWaitingQueue = dwNewPos;};
+	uint16		GetPosInWaitingQueue()						{return m_uPosInWaitingQueue;};
+	uint32 		CalculateWaitingScore();
+
+@
+
+
+1.145
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@a121 1
+	CString				m_strModExtended;
+@
+
+
+1.144
+log
+@1) varios correction for SSWQ & Co
+2) the file ratios moved to file class
+3) corrected measurement of time on remote queue
+@
+text
+@d492 3
+a494 3
+	bool			CreateStandardPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	bool			CreatePackedPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	bool			SplitAndAddPacketsToSendQueue(Packet* packet, PacketDeque* pSendQueue, bool bFromPF);
+@
+
+
+1.143
+log
+@SSWQ
+@
+text
+@d207 1
+a207 1
+	uint32				m_dwQueueWaitTime;
+a335 2
+	double			GetRareFilePushRatio(void);
+	double			GetSmallFilePushRatio(void);
+d414 2
+a415 2
+	uint32			GetQueueWaitTime()		{return ::GetTickCount() - m_dwQueueWaitTime;}
+	void			StartQueueWaitTimer()	{m_dwQueueWaitTime = ::GetTickCount();}
+@
+
+
+1.142
+log
+@Preparations for new client version report code; Removed old unused service.
+@
+text
+@a28 1
+#include <deque>
+a29 2
+#include <list>
+#include <hash_map>
+d232 3
+d334 1
+d480 4
+@
+
+
+1.141
+log
+@Unified processing of client icon images.
+@
+text
+@d271 1
+a272 1
+	bool			TarodVersion()				{return (m_byteDataTarodVer == 1 || m_byteDataTarodVer == 2);}
+@
+
+
+1.140
+log
+@1) corrected default toolbar definition
+2) improved processing of the username by anti-leecher feature
+3) unified async GUI updade of Upload, Queue & Client lists
+@
+text
+@d299 1
+a299 1
+	EnumClientTypes	GetClientSoft()				{return m_eClientSoft;}
+d377 1
+a377 1
+    void            CheckForUpPartsInfo();
+d454 2
+a455 2
+    int             GetFileListRequested() { return m_iFileListRequested; }
+    void            SetFileListRequested(int iFileListRequested) { m_iFileListRequested = m_iFileListRequestedSave = iFileListRequested; }
+d468 1
+@
+
+
+1.139
+log
+@fixed flaw in packet creation, that could lead to corrupted part
+@
+text
+@d100 4
+a104 2
+	bool				m_bCommunityIsCached;
+	bool				m_bScoreBaseIsCached;
+a180 1
+	DWORD				m_dwLastRefreshedULDisplayTime;
+d211 2
+a212 2
+	std::list<int>		m_averageDLDataRateList;
+	std::list<DWORD>	m_averageDLTickList;
+d240 1
+a240 1
+					CUpDownClient(CClientReqSocket* sender = NULL);
+d242 3
+a244 2
+					CUpDownClient(uint16 in_port, uint32 in_userid, uint32 in_serverup, uint16 in_serverport, CPartFile* in_reqfile);
+				   ~CUpDownClient();
+d277 2
+a298 1
+	void            ResetValueCache();
+@
+
+
+1.138
+log
+@Fixed sending of additional incorrect OP_REASKACK packet;
+Fixed double asked count increment during OP_REASKFILEPING processing.
+@
+text
+@d29 1
+d97 3
+d172 6
+a177 3
+	CTypedPtrList<CPtrList, Packet*>		 			m_blockSendQueue;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_blockRequestsQueue;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_doneBlocksList;
+d329 1
+a329 1
+	bool			HasBlocks()					{return !(m_blockSendQueue.IsEmpty() && m_blockRequestsQueue.IsEmpty());}
+d485 3
+a487 3
+	void			CreateStandardPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	void			CreatePackedPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	void			SplitAndAddPacketsToSendQueue(Packet* packet, bool bFromPF);
+@
+
+
+1.137
+log
+@No need to save that in the class <thanks xrmb>.
+@
+text
+@d24 1
+a24 1
+#include "partfile.h"
+d38 1
+a38 1
+	MS_UNABLETOCONNECT	= 3,
+d47 1
+a47 1
+	IS_KEYANDSIGNEEDED	= 2,
+d54 1
+a54 1
+	IP_BOTH				= 3,
+a351 1
+	void			UDPFileReasked();
+@
+
+
+1.136
+log
+@Removed never used service.
+@
+text
+@a163 1
+	uint16				m_uFilePriority;
+@
+
+
+1.135
+log
+@another auto A4AF bugfix
+@
+text
+@a244 1
+	uint32			GetConnectIP() const		{return m_dwConnectIP;}
+@
+
+
+1.134
+log
+@Fixed processing of corrupted compressed packets.
+@
+text
+@d407 1
+a407 1
+	bool			SwapToAnotherFile(CPartFile* SwapTo, bool bIgnoreNoNeeded = false);
+@
+
+
+1.133
+log
+@Removed unused code.
+@
+text
+@a441 2
+//	Barry - Process zip file as it arrives, don't need to wait until end of block
+	int				unzip(Pending_Block_Struct *pRequestedBlock, BYTE *pbyteZipped, uint32 dwLenZipped, BYTE **ppbyteUzipped, uint32 *pdwLenUnzipped);
+d478 2
+d481 3
+a483 3
+	void 			CreateStandardPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	void 			CreatePackedPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	void 			SplitAndAddPacketsToSendQueue(Packet* packet, bool bFromPF);
+@
+
+
+1.132
+log
+@Prevent unwanted clients from becoming friends;
+Fix for possible crash due to corrupt comment packet;
+Fix for delayed remote answer to hashset request.
+@
+text
+@a164 1
+	bool				m_bUsedCompressionUp;		// only used for interface output
+a184 1
+	bool				m_bUsedCompressionDown; //only used for interface output
+d327 2
+a328 2
+	double			GetRareFilePushRatio(void) ; // Added by Tarod
+	double			GetSmallFilePushRatio(void) ; // Added by Tarod
+d343 1
+a343 1
+	bool 			IsDifferentPartBlock(bool silent=false);
+d348 1
+a348 1
+	uint32			GetAskedCount()				{return m_dwAskedCount;} //<<--
+d378 1
+a378 1
+	uint32			GetAskedCountDown()			{return m_dwDownAskedCount;} //<<--
+@
+
+
+1.131
+log
+@fixed my really incorrect and bugged way of processing StatusFile packets
+@
+text
+@d228 1
+@
+
+
+1.130
+log
+@updated UDP Protocol to v4
+@
+text
+@d399 1
+a399 1
+	void			ProcessFileStatus(char* packet,uint32 size, bool bUDPPacket = false);
+@
+
+
+1.129
+log
+@Formatting and some improvements in tooltips code
+@
+text
+@d289 3
+a291 3
+	void			SetUserName(const CString& pszNewName) { m_strUserName = pszNewName;}
+	bool            IsCommunity();  	// i_a
+	void            ResetValueCache(); 	// i_a
+d399 1
+a399 1
+	void			ProcessFileStatus(char* packet,uint32 size);
+@
+
+
+1.128
+log
+@Totally reworked country information feature to minimaze memory usage.
+@
+text
+@d464 1
+a464 2
+	CString			GetUploadFileInfo4Tooltips();
+	CString			GetClientInfo4Tooltips();
+@
+
+
+1.127
+log
+@better estimation of own score on remote client + no more friend/community guess + minor Infolist fix + removed unused functions
+@
+text
+@d97 2
+a98 2
+    bool				m_bCommunityIsCached;
+    bool				m_bScoreBaseIsCached;
+d100 1
+a100 1
+    bool				m_bIsLowID;
+d133 1
+a133 1
+    int					m_iFileListRequested;
+d174 2
+a175 2
+    DWORD				m_dwLastRefreshedULDisplayTime;
+    DWORD				m_dwLastGotULDataTime;
+d205 1
+a205 1
+    uint32				m_dwQueueWaitTime;
+d216 2
+d287 2
+a288 2
+        m_bIsLowID = (m_dwUserID < 0x1000000);
+    }
+d346 1
+a346 1
+    void			UnBan();
+d361 1
+a361 1
+    uint32			GetCurrentlyUploadingPart();
+d363 1
+a363 1
+    uint32			GetCurrentlyDownloadingPart();
+d470 5
+a485 7
+
+public:
+	CString			GetCountryName(bool bShortName = false) const;
+	int				GetCountryFlagIndex() const;
+	void			ResetIP2Country();
+private:
+	struct			IPRange_Struct2* m_structUserCountry;
+@
+
+
+1.126
+log
+@Reworked file completion algorithm to eliminate file locking in completing state.
+@
+text
+@a140 2
+	bool				m_bRemoteCommunity;
+	bool				m_bRemoteCommunityEnabled;
+d283 1
+a283 1
+	{		//netwolf 08.05.03 made public for OP_CLIENT_CHANGE_ID //SyruS moved-up to "base"
+d371 1
+a371 1
+//	eklmn: file request counter
+a415 7
+	bool			GetRemoteCommunity(){return (m_bRemoteInfoAvailable && m_bRemoteCommunity);}
+	bool			GetRemoteCommunityEnabled(){return (m_bRemoteInfoAvailable && m_bRemoteCommunityEnabled);}
+	void			SetRemoteScore(uint32 Score){m_dwRemoteScore = Score; m_bRemoteInfoAvailable=true;}
+	void			SetRemoteRatio(uint16 Ratio){m_uRemoteRatio = Ratio; m_bRemoteInfoAvailable=true;}
+	void			SetRemoteBaseModifier(byte BaseModifier){m_uRemoteBaseModifier = BaseModifier * 10; m_bRemoteInfoAvailable=true;}
+	void			SetRemoteCommunity(bool Community){m_bRemoteCommunity = Community; m_bRemoteInfoAvailable=true;}
+	void			SetRemoteCommunityEnabled(bool CommunityEnabled){m_bRemoteCommunityEnabled = CommunityEnabled; m_bRemoteInfoAvailable=true;}
+a416 1
+	void			SetRemoteClientSpeed(uint16 speed){m_uRemoteClientSpeed = speed;}
+@
+
+
+1.125
+log
+@upload progress bars fit their file's size; improved drawing of upload progress bar
+@
+text
+@a78 1
+	CPartFile		   *pUploadingPartFile;
+@
+
+
+1.124
+log
+@added tooltips in On Queue & Known Clients lists
+@
+text
+@d371 1
+a371 1
+	void			DrawUpStatusBar(CDC* dc, RECT* rect, bool onlygreyrect, bool  bFlat);
+@
+
+
+1.123
+log
+@no longer loading mid size names + some small changes
+@
+text
+@d474 1
+@
+
+
+1.122
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d491 1
+a491 1
+	CString			GetCountryName(bool longName = false) const;
+@
+
+
+1.121
+log
+@removed uneeded GetCurrentlyUploadingPos()
+@
+text
+@d56 3
+d107 1
+d247 1
+d489 7
+@
+
+
+1.120
+log
+@xrmb fix for unused pixel in Upload/On Queue progress bar; xrmb different shades of yellow in progress bar for current transfer position and remaining
+@
+text
+@a357 1
+	uint32			GetCurrentlyUploadingPos();
+@
+
+
+1.119
+log
+@xrmb changes
+@
+text
+@d358 1
+@
+
+
+1.118
+log
+@corrected SetDownloadState (thanks Aw3)
+optimized SetRemoteQueueRank
+@
+text
+@d257 1
+a257 1
+	uint64			GetUID() { return (static_cast<uint64>(m_dwUserIP)<<32)+(static_cast<uint64>(m_uUserPort)<<16); }
+@
+
+
+1.117
+log
+@Fixed processing of corrupted compression stream;
+Fixed very rare decompression problem for highly compressed data;
+Added protection againts packets with zero data size;
+Removed initialization of 'opaque' zstream parameter (not required because external memory allocation procedures aren't provided);
+Recursive calls are changed into a loop (faster).
+@
+text
+@d389 1
+a389 1
+	void			SetRemoteQueueRank(uint16 nr);
+@
+
+
+1.116
+log
+@corretions in "hash thieves", added Leecher type statistic
+@
+text
+@d448 1
+a448 1
+	int				unzip(Pending_Block_Struct *block, BYTE *zipped, uint32 lenZipped, BYTE **unzipped, uint32 *lenUnzipped, bool recursive = false);
+@
+
+
+1.115
+log
+@some refactoring : IsStolenName & IsLeecherType were moved into otherfunctions.cpp
+@
+text
+@a64 12
+
+//--- xrmb:hashthieves1 ---
+//typedef CMap <uint64, uint64, uint32, uint32>	OffenseCounterMap;
+//typedef CMap <uint64, uint64, uint64, uint64>	HashBaseMap;
+using namespace std;
+#ifndef VS2002
+	using namespace stdext;
+#endif
+
+typedef hash_map<uint64, uint32>	OffenseCounterMap;
+typedef hash_map<uint64, uint64>	HashBaseMap;
+
+a93 3
+	static OffenseCounterMap	g_mapOffenseCounter;
+	static HashBaseMap			g_mapHashBase;
+
+@
+
+
+1.114
+log
+@functional optimization
+@
+text
+@a444 1
+	bool			IsLeecherType() const;
+a488 2
+	bool			IsStolenName() const;
+
+@
+
+
+1.113
+log
+@Fixed valid user hash check (before only 1st 4 bytes were checked)
+@
+text
+@d488 1
+@
+
+
+1.112
+log
+@formatting; minor changes; something was missed in last commit (Aw3 ???); always keep paused and stopped files at bottom in downloadlist
+@
+text
+@d267 2
+a268 2
+	bool			HasValidHash() const		{return ((int*)m_userHash[0]) != 0 || ((int*)m_userHash[1]) != 0 ||
+												        ((int*)m_userHash[2]) != 0 || ((int*)m_userHash[3]) != 0; }
+@
+
+
+1.111
+log
+@prevent desyncronisation of requested blocks between local & remote client (fix for written from ... to ...)
+@
+text
+@d487 1
+a487 1
+	void 		ClearPendingBlocksList(void);
+@
+
+
+1.110
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d486 2
+@
+
+
+1.109
+log
+@speed optimization & output in stats of the feature "countermeasures against unfair client"
+@
+text
+@d100 1
+a100 1
+	uint8			   *m_pbyteUpPartStatuses;
+d126 3
+a128 3
+	uint8				m_byteEmuleVersion;
+	uint8				m_byteDataCompVer;
+	uint8				m_byteDataTarodVer;
+d136 5
+a140 5
+	uint8				m_byteUDPVer;
+	uint8				m_byteSourceExchangeVer;
+	uint8				m_byteAcceptCommentVer;
+	uint8				m_byteExtendedRequestsVer;
+	uint8				m_byteFailedCount;
+d164 1
+a164 1
+	uint8					m_byteSupportSecIdent;
+d178 1
+a178 1
+	int16				m_uFilePriority;
+d197 1
+a197 1
+	uint8				m_byteFailedFileRequestsCount;
+d204 1
+a204 1
+	uint8			   *m_pbytePartStatuses;
+d274 1
+a274 1
+	uint8			GetMuleVersion() const		{return m_byteEmuleVersion;}
+d286 2
+a287 2
+	uint8			GetUDPVersion()				{return m_byteUDPVer;}
+	uint8			GetExtendedRequestsVersion(){return m_byteExtendedRequestsVer;}
+d319 1
+a319 1
+	uint8			GetSourceExchangeVersion()	{return m_byteSourceExchangeVer;}
+d325 1
+a325 1
+	uint8			GetSecureIdentState()		{return m_eSecureIdentState;}
+d385 1
+a385 1
+	uint8			GetFailedFileRequests()		{return m_byteFailedFileRequestsCount;}
+d398 1
+a398 1
+	uint8*			GetPartStatus()				{return m_pbytePartStatuses;}
+d433 1
+a433 1
+	void			SetRemoteBaseModifier(uint8 BaseModifier){m_uRemoteBaseModifier = BaseModifier * 10; m_bRemoteInfoAvailable=true;}
+@
+
+
+1.108
+log
+@few changes and formatting + corrected a previous change that is not working
+@
+text
+@d31 1
+d67 9
+a75 2
+typedef CMap <uint64, uint64, uint32, uint32>	OffenseCounterMap;
+typedef CMap <uint64, uint64, uint64, uint64>	HashBaseMap;
+d85 1
+@
+
+
+1.107
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d364 3
+@
+
+
+1.106
+log
+@Formatting, name changes and deleting spaces and tabs at end of lines
+@
+text
+@a346 1
+#if JUMPSTART
+a347 1
+#endif // JUMPSTART
+@
+
+
+1.105
+log
+@forgotten name changes :o) don't u compile b4 commit, morevit?
+@
+text
+@d224 1
+a224 1
+	EnumPartFileRating	m_eRating; 
+d285 1
+a285 1
+	
+d292 2
+a293 2
+	bool            IsCommunity();  	// i_a                
+	void            ResetValueCache(); 	// i_a                
+d328 1
+a328 1
+	sint32			GetDataRate()				{return m_lUpDataRate;}	
+d362 1
+a362 1
+	void			ResetSessionUp()			{m_dwCurSessionUp = m_dwTransferredUp;} 
+d387 1
+a387 1
+	bool			IsPartAvailable(uint16 iPart)	{return	( (iPart >= m_uPartCount) || (!m_pbytePartStatuses) )? 0:m_pbytePartStatuses[iPart];} 	
+d407 1
+a407 1
+//	void			ResetMeasurementPeriodTimer(uint32 time)	{m_dwLastDataRateCalculationTime = time;}	
+d436 1
+a436 1
+	
+d439 1
+a439 1
+		
+d447 2
+a448 2
+//	File Comment 
+	CString				GetFileComment()         	{return m_strComment;} 
+@
+
+
+1.104
+log
+@Formatting, comments, and name changes.
+@
+text
+@d302 1
+a302 1
+	void			ProcessMuleCommentPacket(char* pachPacket, uint32 nSize);
+@
+
+
+1.103
+log
+@best QR variation calculation thX to Aw3
+@
+text
+@d79 1
+a79 1
+	CPartFile*		pUploadingPartFile;
+d206 1
+a206 1
+	int				m_iDeltaQueueRank;
+d297 1
+a297 1
+	bool			ProcessHelloPacket(char* pachPacket, uint32 nSize);
+d301 1
+a301 1
+	void			ProcessMuleInfoPacket(char* pachPacket, uint32 nSize);
+@
+
+
+1.102
+log
+@eklmn's changes
+@
+text
+@d206 1
+a206 1
+	uint16				m_uDeltaQueueRank;
+d391 1
+a391 1
+	uint16   		GetDifference()    			{return m_uDeltaQueueRank;} //cendre-eau
+@
+
+
+1.101
+log
+@new way of syncronization by file completion
+@
+text
+@d79 1
+a79 1
+	bool				bPartFileIsUploading;
+@
+
+
+1.100
+log
+@Beta 2
+@
+text
+@d79 1
+a93 1
+	//CTypedPtrList<CPtrList, CPartFile*>		m_otherNoNeededList;
+a94 1
+	
+@
+
+
+1.99
+log
+@Removed debug code
+@
+text
+@d387 1
+@
+
+
+1.98
+log
+@Added some data for debug, changed some log lines.
+@
+text
+@a91 2
+	CList<uint8, uint8>			m_ReqPartResetList; // DonGato: for testing purposes
+
+@
+
+
+1.97
+log
+@fixed a memleak that was introduced my stability measurements
+@
+text
+@d92 2
+@
+
+
+1.96
+log
+@infinite cancel issue
+@
+text
+@d298 1
+a298 1
+	void			ProcessHelloPacket(char* pachPacket, uint32 nSize);
+d481 1
+a481 1
+	void			ProcessHelloTypePacket(CSafeMemFile& data);
+@
+
+
+1.95
+log
+@1) remove file from m_otherRequestList in case Stop or Complete
+2) handling of data blocks was slightly changed
+@
+text
+@d475 1
+a475 1
+
+@
+
+
+1.94
+log
+@improved NNS handling in A4AF
+@
+text
+@d403 1
+@
+
+
+1.93
+log
+@Formatting, comments, and name changes.
+@
+text
+@d93 3
+a95 1
+	CTypedPtrList<CPtrList, CPartFile*>		m_otherNoNeededList;
+a463 1
+	void			CleanOtherRequests()	{m_otherRequestsList.RemoveAll();m_otherNoNeededList.RemoveAll();}	//Cax2 - remove sources bugfix
+@
+
+
+1.92
+log
+@Formatting, comments, and name changes.
+@
+text
+@d66 2
+a67 5
+typedef CMap <uint64, uint64, uint32, uint32> t_offensecounter;
+extern t_offensecounter offensecounter;
+typedef CMap <uint64, uint64, uint64, uint64> t_hashbase;
+extern t_hashbase hashbase;
+//--- :xrmb ---
+d96 3
+d122 1
+a122 1
+	CString				m_strUsername;
+d245 1
+a245 1
+	CString			GetUserName() const			{return m_strUsername;}
+d290 1
+a290 1
+	void			SetUserName(const CString& pszNewName) { m_strUsername = pszNewName;}
+@
+
+
+1.91
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d268 1
+a268 1
+	uint32			PlusVersion()				{return m_dwDataPlusVers;}
+@
+
+
+1.90
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@d279 1
+a279 1
+	float			GetCompression()	{return (float)m_dwCompressionGain/m_dwUncompressed*100.0f;} // Add rod show compression
+d329 2
+a330 2
+	float			GetRareFilePushRatio(void) ; // Added by Tarod
+	float			GetSmallFilePushRatio(void) ; // Added by Tarod
+d415 1
+a415 1
+	float			GetRemoteBaseModifier();
+d481 1
+a481 1
+	float			GetClientSpeed();
+@
+
+
+1.89
+log
+@Formatting, comments, and name changes.
+... and a few bug fixes.
+@
+text
+@d402 1
+a402 1
+	void			ProcessBlockPacket(char* packet, uint32 size, bool packed = false);
+d434 2
+a435 2
+	uint16			GetLastDownPart() {return m_uLastPartAsked;};
+	void			SetLastDownPart(uint32 last_part) {m_uLastPartAsked=last_part;};
+@
+
+
+1.88
+log
+@no message
+@
+text
+@d48 1
+a48 1
+enum EnumInfoPacketState
+d55 8
+d81 154
+a234 1
+	//base
+d241 1
+a241 1
+	bool			TryToConnect(bool bIgnoreMaxCon = false);	// SLUGFILLER: SafeDisconnect
+d243 3
+a245 2
+	uint32			GetUserID()	const			{return m_nUserID;}
+	CString			GetUserName() const			{return m_pszUsername;}
+d248 11
+a258 11
+	CString			GetFullIP() const 			{return m_szFullUserIP;}
+	uint32			GetUserPort() const			{return m_nUserPort;}
+	uint32			GetTransferredUp() const		{return m_nTransferredUp;}
+	uint32			GetTransferredDown() const	{return m_nTransferredDown;}
+	uint32			GetServerIP() const				{return m_dwServerIP;}
+	void				SetServerIP(uint32 nIP)			{m_dwServerIP = nIP;}
+	uint16			GetServerPort()	const		{return m_nServerPort;}
+	void				SetServerPort(uint16 nPort)		{m_nServerPort = nPort;}
+	uchar*			GetUserHash()				{return (uchar*)m_achUserHash;}
+	bool			HasValidHash() const		{return ((int*)m_achUserHash[0]) != 0 || ((int*)m_achUserHash[1]) != 0 ||
+												        ((int*)m_achUserHash[2]) != 0 || ((int*)m_achUserHash[3]) != 0; }
+d260 1
+a260 1
+	uint32			GetVersion() const			{return m_nClientVersion;}
+d262 1
+a262 4
+	//--- xrmb:hashthieves1 ---
+	bool  hashthief;
+	uint64  getUID() { return ((uint64)m_dwUserIP<<32)+((uint64)m_nUserPort<<16); }
+	//--- :xrmb ---
+d264 2
+a265 2
+	uint8			GetMuleVersion() const		{return m_byEmuleVersion;}
+	CString			GetModVersion()				{return m_modVerString;}	//StaTiK - mods tag
+d267 1
+a267 1
+	bool			TarodVersion()				{return (m_byDataTarodVer == 1 || m_byDataTarodVer == 2);} // Added by Tarod
+d269 2
+a270 2
+	bool			IsEmuleClient()				{return m_byEmuleVersion;}
+	CClientCredits* Credits()					{return credits;}
+d273 5
+a277 5
+	bool			SupportsUDP()				{return m_byUDPVer != 0 && m_nUDPPort != 0;}
+	uint16			GetUDPPort()				{return m_nUDPPort;}
+	void			SetUDPPort(uint16 nPort)	{ m_nUDPPort = nPort; }
+	uint8			GetUDPVersion()				{return m_byUDPVer;}
+	uint8			GetExtendedRequestsVersion(){return m_byExtendedRequestsVer;}
+d279 2
+a280 2
+	float			GetCompression()	{return (float)compressiongain/notcompressed*100.0f;} // Add rod show compression
+	void			ResetCompressionGain() {compressiongain = 0; notcompressed=1;} // Add show compression
+d285 4
+a288 3
+	void    SetUserID(uint32 newUserID) {		//netwolf 08.05.03 made public for OP_CLIENT_CHANGE_ID //SyruS moved-up to "base"
+		m_nUserID = newUserID;
+        m_bIsLowID = (m_nUserID < 16777216);
+d290 1
+a290 1
+	void			SetUserName(const CString& pszNewName) { m_pszUsername = pszNewName;}
+d293 1
+a293 1
+	EnumClientTypes	GetClientSoft()				{return m_clientSoft;}
+d309 1
+a309 1
+	uint8			GetSourceExchangeVersion()	{return m_bySourceExchangeVer;}
+d315 1
+a315 1
+	uint8			GetSecureIdentState()		{return m_SecureIdentState;}
+a320 8
+#ifdef OLD_SOCKETS_ENABLED
+	CClientReqSocket*	m_pRequestSocket;
+#endif //OLD_SOCKETS_ENABLED
+	CClientCredits*		credits;
+	CFriend*			m_pFriend;
+	//upload
+	uint32	compressiongain; /// Add show compression
+	uint32  notcompressed; // Add show compression
+d326 2
+a327 2
+	bool			HasBlocks()					{return !(m_BlockSend_queue.IsEmpty() && m_BlockRequests_queue.IsEmpty());}
+	sint32			GetDataRate()				{return m_nUpDataRate;}	
+a336 1
+	uchar			reqfileid[16];
+d338 1
+a338 1
+	uchar*			GetUploadFileID()	{return reqfileid;}
+d352 3
+a354 3
+	uint32			GetAskedCount()				{return m_cAsked;} //<<--
+	void			AddAskedCount()				{m_cAsked++;}
+	void			SetAskedCount( uint32 m_cInAsked)	{m_cAsked = m_cInAsked;}
+d360 4
+a363 4
+	uint32			GetSessionUp()			{return m_nTransferredUp - m_nCurSessionUp;}
+	void			ResetSessionUp()		{m_nCurSessionUp = m_nTransferredUp;} 
+    void            SetLastGotULData()         { m_LastGotULData = ::GetTickCount(); };
+    DWORD           GetLastGotULData()         { return m_LastGotULData; };
+d366 1
+a366 1
+	// remote client's parts
+d368 2
+a369 2
+	uint16			GetUpPartCount()			{return m_nUpPartCount;}
+	uint16			GetAvailUpPartCount()			{return m_nAvailUpPartCount;}
+d373 9
+a381 10
+	//eklmn: file request counter
+	uint8		GetFailedFileRequests()			{return m_cFailFileRequests;}
+	void			UpdateFailedFileRequests()		{m_cFailFileRequests++;}
+	void			ResetFailedFileRequests()		{m_cFailFileRequests = 0;}
+
+
+	//download
+	uint32			GetAskedCountDown()				{return m_cDownAsked;} //<<--
+	void			AddAskedCountDown()				{m_cDownAsked++;}
+	void			SetAskedCountDown( uint32 m_cInDownAsked)				{m_cDownAsked = m_cInDownAsked;}
+d385 6
+a390 6
+	bool			IsPartAvailable(uint16 iPart)	{return	( (iPart >= m_nPartCount) || (!m_abyPartStatus) )? 0:m_abyPartStatus[iPart];} 	
+	uint8*			GetPartStatus()				{return m_abyPartStatus;}
+	uint32			GetDownloadDataRate()		{return m_nDownDataRate;}
+	uint16			GetRemoteQueueRank()		{return m_nRemoteQueueRank;}
+	uint16   		GetDifference()    			{return m_nDifferenceQueueRank;} //cendre-eau
+	void			SetRemoteQueueFull( bool flag )	{m_bRemoteQueueFull = flag;}
+d403 6
+a408 6
+	uint32		CalculateDownloadRate();
+	//void			ResetMeasurementPeriodTimer(uint32 time)	{m_dwLastTimeCalculatedDR = time;}	
+	uint16		GetAvailablePartCount();
+	bool			SwapToAnotherFile(CPartFile* SwapTo, bool bIgnoreNoNeeded = false);     // eklmn: bugfix(08): A4AF switching
+	uint32		GetQueueWaitTime()		{return ::GetTickCount() - m_dwQueueWaitTime;} //<<-- enkeyDEV(Ottavio84) -Show download queue wait time-
+	void			StartQueueWaitTimer()	{m_dwQueueWaitTime = ::GetTickCount();}	 //<<-- enkeyDEV(Ottavio84) -Show download queue wait time-
+d413 17
+a429 22
+	uint32			GetRemoteScore(); //Maverick
+	uint16			GetRemoteRatio(); //Maverick
+	float			GetRemoteBaseModifier(); //Maverick
+	bool			GetRemoteCommunity(){return (m_RemoteInfoAvaiable && m_RemoteCommunity);} //Maverick
+	bool			GetRemoteCommunityEnabled(){return (m_RemoteInfoAvaiable && m_RemoteCommunityEnabled);} //Maverick
+	void			SetRemoteScore(uint32 Score){m_RemoteScore = Score; m_RemoteInfoAvaiable=true;} //Maverick
+	void			SetRemoteRatio(uint16 Ratio){m_RemoteRatio = Ratio; m_RemoteInfoAvaiable=true;} // Maverick
+	void			SetRemoteBaseModifier(uint8 BaseModifier){m_RemoteBaseModifier = BaseModifier * 10; m_RemoteInfoAvaiable=true;} // Maverick
+	void			SetRemoteCommunity(bool Community){m_RemoteCommunity = Community; m_RemoteInfoAvaiable=true;} //Maverick
+	void			SetRemoteCommunityEnabled(bool CommunityEnabled){m_RemoteCommunityEnabled = CommunityEnabled; m_RemoteInfoAvaiable=true;} //Maverick
+	bool			IsRemoteInfoAvaiable(){return m_RemoteInfoAvaiable;} //Maverick
+	void			SetRemoteClientSpeed(uint16 speed){m_RemoteClientSpeed = speed;} //Maverick
+	uint16			GetRemoteClientSpeed(){return m_RemoteClientSpeed;} // Maverick
+	bool			IsCompleteSource()			{return m_bCompleteSource;}		// netwolf: complete sources (zegzav) 13.05.03 
+	uint16			GetUpCompleteSourcesCount()	{return m_nUpCompleteSourcesCount;}		// netwolf: complete sources (zegzav) 13.05.03
+	uint32			GetUpCompleteSourcesTime()	{return m_nUpCompleteSourcesTime;}
+	void			SetUpCompleteSourcesCount(uint16 n)	{m_nUpCompleteSourcesCount= n; m_nUpCompleteSourcesTime= ::GetTickCount();}
+
+	CString			GetDownloadStateAsString(void); // Lord KiRon
+
+	CPartFile*		reqfile;
+	int				sourcesslot;
+d431 2
+a432 5
+private:
+	bool IsStolenName() const;
+
+public:
+	bool IsLeecherType() const;
+d434 2
+a435 2
+	uint16 GetLastDownPart() {return m_LastPartAsked;};
+	void   SetLastDownPart(uint32 last_part) {m_LastPartAsked=last_part;};
+d437 2
+a438 2
+	//returns the count of avaible parts that this user has but we not have
+	uint16	GetAvailableOfNeededPartsCount(); //added by Mr.Fry
+d440 1
+a440 1
+	//chat
+d444 1
+a444 1
+	//File Comment 
+d450 6
+a455 8
+	// Barry - Process zip file as it arrives, don't need to wait until end of block
+	int unzip(Pending_Block_Struct *block, BYTE *zipped, uint32 lenZipped, BYTE **unzipped, uint32 *lenUnzipped, bool recursive = false);
+	void ShowDownloadingParts(std::_Bvector& parts);
+	//START enkeyDEV(kei-kun) -Messaging preferences-	
+	uint32			GetAwayMessageResendCount()				{return m_awayMessageResendCount;};
+	void			SetAwayMessageResendCount(uint32 newVal) {m_awayMessageResendCount = newVal;};
+	//END enkeyDEV(kei-kun) -Messaging preferences-
+	void UpdateDisplayedInfo(boolean force=false);
+d460 1
+a460 2
+	bool isOnLAN()						{return b_IsOnLan;};
+	uint16 m_LastPartAsked; //jicxicmic
+d462 1
+a462 1
+	void CleanOtherRequests()	{m_OtherRequests_list.RemoveAll();m_OtherNoNeeded_list.RemoveAll();}	//Cax2 - remove sources bugfix
+d465 6
+a470 8
+	// START enkeyDEV(th1) -L2HAC-
+	uint32 GetL2HACTime()							{return m_L2HAC_time ? (m_L2HAC_time - L2HAC_CALLBACK_PRECEDE) : 0;}
+	void SetLastL2HACExecution(uint32 m_set_to = 0)	{m_last_l2hac_exec = m_set_to ? m_set_to : ::GetTickCount();}
+	uint32 GetLastL2HACExecution()					{return m_last_l2hac_exec;}
+	void EnableL2HAC()								{m_l2hac_enabled = true;}
+	void DisableL2HAC()								{m_l2hac_enabled = false;}
+	bool IsL2HACEnabled()							{return m_l2hac_enabled;}
+	// END enkeyDEV(th1) -L2HAC-
+a471 1
+	//BEGIN Improved Tooltips
+a472 3
+	//END Improved Tooltips
+	CTypedPtrList<CPtrList, CPartFile*>	m_OtherRequests_list;  //eklmn: bugfix(09): hang up by start if all files are paused(???)
+	CTypedPtrList<CPtrList, CPartFile*>	m_OtherNoNeeded_list;
+d475 1
+a475 157
+	// base
+	void	Init();
+	void	ProcessHelloTypePacket(CSafeMemFile& data);
+	void	SendHelloTypePacket(CMemFile& data);
+	float	GetClientSpeed();		// Maverick
+	//bool		m_bIsBotuser;		//Cax2: removed punishment 
+	bool	isfriend;				// Tarod (herbert code)
+	bool    isemuleclient;   		// Tarod (herbert code) 
+	bool    iscommunity;    		// DonGato 
+    bool    community_cached;    	// i_a: CPU load reduction 
+    bool    score_base_cached;      // i_a: CPU load reduction 
+	bool	b_IsOnLan;
+	uint32	m_dwUserIP;
+	uint32	m_dwServerIP;
+	uint32	m_nUserID;
+    bool    m_bIsLowID;
+	uint16	m_nUserPort;
+	uint16	m_nServerPort;
+	uint32	m_nClientVersion;
+	sint32	m_nUpDataRate;
+	//uint32	m_cSendblock;
+	uint8	m_byEmuleVersion;
+	uint8	m_byDataCompVer;
+	uint8	m_byDataTarodVer; // Added by Tarod (just curiosity)
+	uint32   m_dwDataPlusVers;
+	CString m_modVerString;		 //Cax2 - mods tag
+	CString m_modExtendedString;
+	bool	m_bEmuleProtocol;
+	CString	m_pszUsername;
+	CString	m_szFullUserIP;
+	char	m_achUserHash[16];
+	uint16	m_nUDPPort;
+	uint8	m_byUDPVer;
+	uint8	m_bySourceExchangeVer;
+	uint8	m_byAcceptCommentVer;
+	uint8	m_byExtendedRequestsVer;
+	uint8	m_iFailedCount;
+	EnumClientTypes	m_clientSoft;
+	uint32	m_dwLastSourceRequest;
+	uint32	m_dwLastSourceAnswer;
+	uint32	m_dwEnteredConnectedState;
+    int     m_iFileListRequested;
+	int     m_iFileListRequestedSave;
+	bool	m_bCommentDirty;
+	bool	m_bIsHybrid;
+	uint32	m_byCompatableClient;
+	bool	m_bIsML;				// Moosetea, from official
+
+	uint32	m_RemoteScore; //By Maverick
+	uint16	m_RemoteRatio; //By Maverick
+	uint16	m_RemoteBaseModifier; //By Maverick
+	bool	m_RemoteInfoAvaiable; //By Maverick
+	bool	m_RemoteCommunity; //By Maverick
+	bool	m_RemoteCommunityEnabled; // By Maverick
+	uint16	m_RemoteClientSpeed;
+	CTypedPtrList<CPtrList, Packet*>		 m_WaitingPackets_list;
+	DWORD	m_lastRefreshedDLDisplay;
+
+	EnumSecureIdentState	m_SecureIdentState;
+	uint8	m_byInfopacketsReceived;			// have we received the edonkeyprot and emuleprot packet already (see InfoPacketsReceived() )
+	uint32	m_dwLastSignatureIP;
+	uint8	m_bySupportSecIdent;
+
+
+	//upload
+	// -khaos--+++> Added parameters: bool bFromPF = true
+	void 	CreateStandardPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	void 	CreatePackedPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+	void 	splitAndAddPacketsToSendQueue(Packet* packet, bool bFromPF);
+	// <-----khaos-
+	bool		m_bBanned;
+	uint32		m_nTransferredUp;
+	EnumULQState	m_eUploadState;
+	uint32		m_dwWaitTime;
+	uint32		m_dwUploadTime;
+	uint32		m_nMaxSendAllowed;
+	uint32		m_nAvUpDataRate;
+	uint32		m_cAsked; //<<--
+	uint32		m_dwLastUpRequest;
+	uint32		m_dwBanTime;
+	int16		filepriority;	// Added by Tarod (herbert code)
+	bool		m_bUsedComprUp;	//only used for interface output
+	uint32		m_nCurSessionUp; // VQB add for UL slot control
+	std::list<int>				m_AverageUDR_list;	//Cax2 - memory optimization
+	std::list<DWORD>		m_Average_UL_tick_list;	//Cax2 - memory optimization
+	CTypedPtrList<CPtrList, Packet*>		 			m_BlockSend_queue;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_BlockRequests_queue;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_DoneBlocks_list;
+	CTypedPtrList<CPtrList, Requested_File_Struct*>	m_RequestedFiles_list;
+    DWORD       m_lastRefreshedULDisplay;
+    uint32 m_LastGotULData;
+
+	// remote client's parts
+	uint16		m_nUpPartCount;
+	uint16		m_nAvailUpPartCount;
+	uint16		m_nUpCompleteSourcesCount;	//netwolf: complete sources (zegzav) 13.05.03
+	uint32		m_nUpCompleteSourcesTime;
+	static		CBarShader s_UpStatusBar;
+	public:
+	uint8*		m_abyUpPartStatus;
+
+private:
+	// eklmn: file request counter
+	uint8	m_cFailFileRequests;
+	//download
+	bool		m_bRemoteQueueFull;
+	bool		usedcompressiondown; //only used for interface output
+	EnumDLQState	m_eDownloadState;
+	uint16		m_nPartCount;
+	uint32		m_cDownAsked;
+	uint8*		m_abyPartStatus;
+	uint32		m_dwLastAskedTime;
+	CString		m_strClientFilename;
+	uint32		m_nTransferredDown;
+	// -khaos--+++> Download Session Stats
+	bool		m_bTransferredDownMini;
+	uint32		m_dwDownStartTime;
+	// <-----khaos-
+	uint32      m_nLastBlockOffset;   //<--NEW Cax2 Packet ? from
+	uint32		m_nDownDataRate;
+	uint32		m_nAvDownDataRate;
+	//uint16		m_cShowDR;
+	uint32		m_dwLastBlockReceived;
+	uint16		m_nRemoteQueueRank;
+	uint16		m_nDifferenceQueueRank; //cendre-eau
+	bool		m_bCompleteSource;
+	bool		m_bReaskPending;
+	bool		m_bUDPPending;
+    uint32		m_dwQueueWaitTime; //<<-- enkeyDEV(Ottavio84) -Show download queue wait time-
+    	//download speed measurement
+	std::list<int>			m_Average_DL_DR_list;		//Cax2 - memory optimization
+	std::list<DWORD>		m_Average_DL_tick_list;		//Cax2 - memory optimization
+	uint64				m_Client_Sum_DL_DR_over_last_N_measurements;
+	uint64				m_Client_Sum_DL_tick_over_last_N_measurements;
+	uint32				m_dwLastTimeCalculatedDR;
+	uint32				m_TransferredInLastPeriod;
+	//DWORD       m_lastCalculatedDownloadRate;
+
+	CTypedPtrList<CPtrList, Pending_Block_Struct*>	 	m_PendingBlocks_list;
+	CTypedPtrList<CPtrList, Requested_Block_Struct*> 	m_DownloadBlocks_list;
+
+
+//	uint32	sumavgddr; // enkeyDEV(Ottavio84) -Accurate speed measurement-
+//	uint32	sumavgudr; // enkeyDEV(Ottavio84) -Accurate speed measurement-
+
+	static CBarShader s_StatusBar;
+	// chat
+	EnumChatStates		m_eChatState;
+	CString				m_strComment;
+	EnumPartFileRating	m_eRating; 
+	uint32				m_awayMessageResendCount; //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+
+	// START enkeyDEV(th1) -L2HAC-
+	uint32 m_L2HAC_time;
+	uint32 m_last_l2hac_exec;
+	bool m_l2hac_enabled;
+	// END enkeyDEV(th1) -L2HAC-
+d477 10
+a486 1
+	bool m_fSharedDirectories; // client supports OP_ASKSHAREDIRS opcodes
+@
+
+
+1.87
+log
+@no message
+@
+text
+@d75 1
+a75 1
+	CUpDownClient(CClientReqSocket* sender = 0);
+d77 3
+a79 3
+	CUpDownClient(uint16 in_port, uint32 in_userid, uint32 in_serverup, uint16 in_serverport, CPartFile* in_reqfile);
+	~CUpDownClient();
+	bool			Disconnected();
+@
+
+
+1.86
+log
+@Formatting, comments, and name changes.
+@
+text
+@a68 34
+enum EnumDLQState
+{
+// downloadstate
+	DS_DOWNLOADING	=	0,
+	DS_ONQUEUE			 ,
+	DS_CONNECTED		 ,
+	DS_CONNECTING		 ,
+	DS_WAITCALLBACK		 ,
+	DS_REQHASHSET		 ,
+	DS_NONEEDEDPARTS	 ,
+	DS_TOOMANYCONNS		 ,
+	DS_LOWTOLOWIP		 ,
+	DS_BANNED			 ,
+	DS_ERROR			 ,
+	DS_NONE				 ,
+
+	DS_LASTSTATE
+};
+
+enum EnumULQState
+{
+	// uploadstate
+	US_UPLOADING		=	0,
+	US_ONUPLOADQUEUE		 ,
+	US_WAITCALLBACK			 ,	
+	US_CONNECTING			 ,
+	US_PENDING				 ,	
+	US_LOWTOLOWIP			 ,
+	US_BANNED				 ,
+	US_ERROR				 ,	
+	US_NONE					 ,
+	US_LAST					
+};
+
+d79 1
+a79 1
+	void			Disconnected();
+d112 1
+a112 1
+	bool			IsBanned(bool bIgnoreDS = false) const		{return (m_bBanned && (bIgnoreDS || m_nDownloadState != DS_DOWNLOADING));}
+d119 1
+a119 1
+	bool			IsFriend()	const			{return m_Friend != NULL;}
+d162 1
+a162 1
+	CClientReqSocket*	socket;
+d165 1
+a165 1
+	CFriend*			m_Friend;
+d169 2
+a170 2
+	EnumULQState	GetUploadState()			{return m_byUploadState;}
+	void			SetUploadState(EnumULQState news);
+d173 1
+a173 1
+	bool			IsDownloading()				{return (m_byUploadState == US_UPLOADING);}
+d204 1
+a204 1
+	void			FlushSendBlocks();			// call this when you stop upload, or the socket might be not able to send
+d232 2
+a233 2
+	EnumDLQState		GetDownloadState()			{return m_nDownloadState;}
+	void			SetDownloadState(EnumDLQState byNewState);
+d378 1
+a378 1
+	uint8	m_cFailed;
+d414 1
+a414 1
+	EnumULQState	m_byUploadState;
+d449 1
+a449 1
+	EnumDLQState	m_nDownloadState;
+@
+
+
+1.85
+log
+@Added Known List to transfer window. Hope no major bug was introduced. Should be tested!
+@
+text
+@d32 8
+a39 5
+// m_byChatstate
+#define	MS_NONE				0
+#define	MS_CHATTING			1
+#define	MS_CONNECTING		2
+#define	MS_UNABLETOCONNECT	3
+d41 2
+a42 1
+enum ESecureIdentState{
+d48 2
+a49 1
+enum EInfoPacketState{
+d69 34
+d333 2
+a334 2
+	uint8			GetChatState()				{return m_byChatstate;}
+	void			SetChatState(uint8 nNewS)	{m_byChatstate = nNewS;}
+d337 4
+a340 4
+	CString         GetFileComment()         	{return m_strComment;} 
+	void		   	SetFileComment(const CString& desc) 	{m_strComment = desc;}
+	uint8       	GetFileRate()            	{return m_iRate;}
+	void		   	SetFileRate(int8 iNewRate) 	{m_iRate=iNewRate;}
+d434 1
+a434 1
+	ESecureIdentState	m_SecureIdentState;
+d505 1
+a505 1
+    	//download speed measuremet
+d523 4
+a526 4
+	uint8 m_byChatstate;
+	CString m_strComment;
+	int8 m_iRate; 
+	uint32 m_awayMessageResendCount; //<<-- enkeyDEV(kei-kun) -Messaging preferences-
+@
+
+
+1.84
+log
+@cleanup (friendslot)
+@
+text
+@d164 2
+a165 2
+	EnumULQState		GetUploadState()			{return m_byUploadState;}
+	void			SetUploadState(EnumULQState news)	{m_byUploadState = news;}
+@
+
+
+1.83
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@a142 2
+	bool			GetFriendSlot()				{return m_bFriendSlot;}
+	void			SetFriendSlot(bool bNV)		{m_bFriendSlot = bNV;}
+a379 1
+	bool	m_bFriendSlot;
+@
+
+
+1.82
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d22 1
+a22 1
+#include "listensocket.h"
+d25 1
+a25 1
+#include "clientcredits.h"
+d128 1
+a128 1
+	eClientTypes	GetClientSoft()				{return m_clientSoft;}
+d166 2
+a167 2
+	eULQState		GetUploadState()			{return m_byUploadState;}
+	void			SetUploadState(eULQState news)	{m_byUploadState = news;}
+d229 2
+a230 2
+	eDLQState		GetDownloadState()			{return m_nDownloadState;}
+	void			SetDownloadState(eDLQState byNewState);
+d376 1
+a376 1
+	eClientTypes	m_clientSoft;
+d412 1
+a412 1
+	eULQState	m_byUploadState;
+d447 1
+a447 1
+	eDLQState	m_nDownloadState;
+@
+
+
+1.81
+log
+@antiscaning measures
+@
+text
+@d83 2
+a84 2
+	uint32			GetTransferedUp() const		{return m_nTransferedUp;}
+	uint32			GetTransferedDown() const	{return m_nTransferedDown;}
+d172 1
+a172 1
+	sint32			GetDatarate()				{return m_nUpDatarate;}	
+d206 2
+a207 2
+	uint32			GetSessionUp()			{return m_nTransferedUp - m_nCurSessionUp;}
+	void			ResetSessionUp()		{m_nCurSessionUp = m_nTransferedUp;} 
+d234 1
+a234 1
+	uint32			GetDownloadDatarate()		{return m_nDownDatarate;}
+d358 1
+a358 1
+	sint32	m_nUpDatarate;
+d406 1
+a406 1
+	void 	CreateStandartPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock, bool bFromPF = true);
+d411 1
+a411 1
+	uint32		m_nTransferedUp;
+d416 1
+a416 1
+	uint32		m_nAvUpDatarate;
+d453 1
+a453 1
+	uint32		m_nTransferedDown;
+d459 2
+a460 2
+	uint32		m_nDownDatarate;
+	uint32		m_nAvDownDatarate;
+d475 1
+a475 1
+	uint32				m_TransferedInLastPeriod;
+@
+
+
+1.80
+log
+@SecureIdent Support Mainly
+Too many changes to mention here
+@
+text
+@d219 6
+d408 1
+a409 1
+	void 	splitAndAddPacketsToSendQueue(Packet* packet);
+d442 2
+@
+
+
+1.79
+log
+@added OP_ASKSHAREDDIRS protocol
+@
+text
+@d38 13
+d148 10
+d391 6
+@
+
+
+1.78
+log
+@*** empty log message ***
+@
+text
+@d106 1
+a106 1
+	void			ProcessSharedFileList(char* pachPacket, uint32 nSize);
+d285 2
+d351 2
+a352 1
+	bool	m_bFileListRequested;
+d460 2
+@
+
+
+1.77
+log
+@remote queue progress is now shown and color coded [cendre-eau]
+now you can set multiple files to Drop supercompressed blocks
+Some fixes to images and installer profile
+@
+text
+@d38 1
+d200 2
+a201 2
+	uint8			GetDownloadState()			{return m_nDownloadState;}
+	void			SetDownloadState(uint8 byNewState);
+d407 1
+a407 1
+	uint8		m_nDownloadState;
+@
+
+
+1.76
+log
+@new statistic (khaos based)
+@
+text
+@d206 1
+d423 1
+@
+
+
+1.75
+log
+@BUGFIX: never upload to a banned client
+@
+text
+@d128 1
+d210 1
+a210 1
+	void			AskForDownload();
+d254 1
+d256 1
+d346 1
+d365 5
+a369 3
+	void CreateStandartPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock);
+	void CreatePackedPackets(byte* data,uint32 togo, Requested_Block_Struct* currentblock);
+    void CUpDownClient::splitAndAddPacketsToSendQueue(Packet* packet);
+a399 1
+	private:
+d401 1
+d412 4
+@
+
+
+1.74
+log
+@updated complete sources (0.06b: display range of values)
+@
+text
+@d93 1
+a93 1
+	bool			IsBanned() const			{return (m_bBanned && m_nDownloadState != DS_DOWNLOADING);}
+@
+
+
+1.73
+log
+@Removed old Stored Sources from all code.
+@
+text
+@d243 2
+a244 1
+	void			SetUpCompleteSourcesCount(uint16 n)	{m_nUpCompleteSourcesCount= n;}		// netwolf: complete sources (zegzav) UDP
+d390 1
+@
+
+
+1.72
+log
+@new DL client speed measurement system
+@
+text
+@a27 3
+#ifdef OLD_SLS_ENABLED
+#include "StoredSources.h" // Added by Tarod (LS tweak)
+#endif //OLD_SLS_ENABLED
+d58 1
+a58 5
+	CUpDownClient(uint16 in_port, uint32 in_userid, uint32 in_serverup, uint16 in_serverport, CPartFile* in_reqfile
+#ifdef OLD_SLS_ENABLED
+, CSourceEntry* source_entry = (CSourceEntry*)NULL
+#endif //OLD_SLS_ENABLED
+	);
+a85 3
+#ifdef OLD_SLS_ENABLED
+	const CSourceEntry*	const GetSourceEntry() const		{return m_sourceEntry;} // Added by Tarod to remove dupes
+#endif //OLD_SLS_ENABLED
+a357 3
+#ifdef OLD_SLS_ENABLED
+	CSourceEntry*	m_sourceEntry;	// Added by Tarod (LS tweak)
+#endif //OLD_SLS_ENABLED
+@
+
+
+1.71
+log
+@SafeConnect from SlugFiller
+@
+text
+@d228 2
+a229 1
+	sint32		CalculateDownloadRate();
+d427 9
+a435 2
+	std::list<int>							m_AverageDDR_list;		//Cax2 - memory optimization
+	std::list<DWORD>					m_Average_DL_tick_list;		//Cax2 - memory optimization
+a438 1
+    DWORD       m_lastCalculatedDownloadRate;
+@
+
+
+1.70
+log
+@add 2 function for better identification HighID<->LowID change
+@
+text
+@d68 1
+a68 1
+	void			TryToConnect(bool bIgnoreMaxCon = false);
+@
+
+
+1.69
+log
+@major bug in Download
+@
+text
+@d78 2
+a79 1
+	uint32			GetServerIP() const			{return m_dwServerIP;}
+d81 1
+@
+
+
+1.68
+log
+@New A4AF mangement
+@
+text
+@a257 1
+    uint32 lastDownPart; // remember the chunk we're downloading from this client
+d260 3
+a262 2
+    uint32 GetLastDownPart() {return lastDownPart;};
+    void   SetLastDownPart(uint32 last_part) {lastDownPart=last_part;};
+@
+
+
+1.67
+log
+@Updated Banning messages.
+@
+text
+@d306 1
+a427 1
+	CTypedPtrList<CPtrList, CPartFile*>		 			m_OtherNoNeeded_list;
+@
+
+
+1.66
+log
+@small convertion to CString methods
+@
+text
+@d179 1
+a179 1
+	void			Ban(LPCTSTR line,...); //katsyonak 16.06.03
+@
+
+
+1.65
+log
+@Updated banning message
+@
+text
+@d259 1
+@
+
+
+1.64
+log
+@Added countermeasures for unfair clients and some forum bugfixing
+@
+text
+@d179 1
+a179 1
+	void			Ban();
+@
+
+
+1.63
+log
+@A4AF switching
+@
+text
+@d41 6
+a46 1
+
+d86 4
+@
+
+
+1.62
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d217 4
+a220 5
+	sint32		    CalculateDownloadRate();
+	uint16			GetAvailablePartCount();
+	bool			SwapToAnotherFile(bool bIgnoreNoNeeded = false, bool bManualChange = false);
+	void			HandoverToAnotherFile(CPartFile* file);      // A4AF - Amdribant 
+    uint32			GetQueueWaitTime()		{return ::GetTickCount() - m_dwQueueWaitTime;} //<<-- enkeyDEV(Ottavio84) -Show download queue wait time-
+@
+
+
+1.61
+log
+@unicode cleanup
+@
+text
+@d296 1
+d381 1
+a381 1
+	CTypedPtrList<CPtrList, Requested_File_Struct*>	 	m_RequestedFiles_list;
+a417 1
+	CTypedPtrList<CPtrList, CPartFile*>		 			m_OtherRequests_list;
+@
+
+
+1.60
+log
+@code cleanup (removed namespaces header pollution)
+@
+text
+@d264 1
+a264 1
+	void		   	SetFileComment(char *desc) 	{m_strComment.Format("%s",desc);}
+@
+
+
+1.59
+log
+@Purity's webserver changes. Mostly.
+@
+text
+@d270 1
+a270 1
+	void ShowDownloadingParts(_Bvector& parts);
+d375 2
+a376 2
+	list<int>				m_AverageUDR_list;	//Cax2 - memory optimization
+	list<DWORD>		m_Average_UL_tick_list;	//Cax2 - memory optimization
+d413 2
+a414 2
+	list<int>							m_AverageDDR_list;		//Cax2 - memory optimization
+	list<DWORD>					m_Average_DL_tick_list;		//Cax2 - memory optimization
+@
+
+
+1.58
+log
+@CHANGE: code cleanup (m_modVerString & m_modExtendedString coverting to CString) [DoubleT]
+@
+text
+@d21 1
+d23 1
+d28 1
+d30 1
+d43 1
+d45 1
+d53 1
+d55 1
+d132 1
+d134 1
+@
+
+
+1.57
+log
+@code cleanup
+@
+text
+@d78 1
+a78 1
+	char*			GetModVersion()			{ return (m_modVerString[0])? m_modVerString:NULL; }	//StaTiK - mods tag
+d313 2
+a314 2
+	char m_modVerString[40];		//Cax2 - mods tag
+//	char m_modExtendedString[???]; // DbT: ET_MOD_PROTOCOL
+@
+
+
+1.56
+log
+@DoubleT: bug #295 fixed (bypass part blocking on opcode StartUploadReq)
+@
+text
+@d291 1
+a291 1
+	void	SendHelloTypePacket(CMemFile* data);
+@
+
+
+1.55
+log
+@complete sources update (UDP)
+@
+text
+@d314 1
+@
+
+
+1.54
+log
+@code cleanup
+@
+text
+@d230 3
+a232 2
+	bool			IsCompleteSource()			{return m_bCompleteSource;}		//netwolf: complete sources (zegzav) 13.05.03 
+	uint16			GetUpCompleteSourcesCount()	{return m_nUpCompleteSourcesCount;}		//netwolf: complete sources (zegzav) 13.05.03
+@
+
+
+1.53
+log
+@code cleanup
+@
+text
+@d85 1
+a85 1
+	char*			GetClientFilename()			{return m_pszClientFilename;}
+d389 1
+a389 1
+	char*		m_pszClientFilename;
+@
+
+
+1.52
+log
+@coverted code from char * to CString
+@
+text
+@d57 1
+a57 1
+	uint32			GetUserID()					{return m_nUserID;}
+d59 8
+a66 8
+	uint32			GetIP()						{return m_dwUserIP;}
+	bool			HasLowID()					{return m_bIsLowID;}
+	char*			GetFullIP()					{return m_szFullUserIP;}
+	uint32			GetUserPort()				{return m_nUserPort;}
+	uint32			GetTransferedUp()			{return m_nTransferedUp;}
+	uint32			GetTransferedDown()			{return m_nTransferedDown;}
+	uint32			GetServerIP()				{return m_dwServerIP;}
+	uint16			GetServerPort()				{return m_nServerPort;}
+d68 1
+a68 1
+	bool			HasValidHash()				{return ((int*)m_achUserHash[0]) != 0 || ((int*)m_achUserHash[1]) != 0 ||
+d71 1
+a71 1
+	uint32			GetVersion()				{return m_nClientVersion;}
+d77 1
+a77 1
+	uint8			GetMuleVersion()			{return m_byEmuleVersion;}
+d315 1
+a315 1
+	char	m_szFullUserIP[21];
+@
+
+
+1.51
+log
+@fix for Jumpstart insisting on turning itself on
+@
+text
+@d58 1
+a58 1
+	char*			GetUserName()				{return m_pszUsername;}
+d102 1
+a102 1
+	void			SetUserName(char* pszNewName);
+d314 1
+a314 1
+	char*	m_pszUsername;
+@
+
+
+1.50
+log
+@minor fixes and improvements
+@
+text
+@d156 4
+a159 1
+	void			UnBan();
+@
+
+
+1.49
+log
+@complete sources column
+@
+text
+@d300 2
+a301 2
+	int16	m_nUserPort;
+	int16	m_nServerPort;
+@
+
+
+1.48
+log
+@slight download speedup in some cases
+@
+text
+@d97 1
+a97 1
+
+d227 2
+d372 1
+@
+
+
+1.47
+log
+@Enhanced tooltips by JoeyRamone
+@
+text
+@d232 6
+@
+
+
+1.46
+log
+@Added lmule detection, better mldonkey detection and fixed bug 208
+@
+text
+@d271 4
+@
+
+
+1.45
+log
+@L2HAC by EnkeyDev
+@
+text
+@d70 1
+d72 2
+d316 2
+@
+
+
+1.44
+log
+@*** empty log message ***
+@
+text
+@d259 9
+d398 6
+@
+
+
+1.43
+log
+@*** empty log message ***
+@
+text
+@d94 5
+a98 1
+	
+a257 4
+	void    SetUserID(uint32 newUserID) {		//netwolf 08.05.03 made public for OP_CLIENT_CHANGE_ID
+		m_nUserID = newUserID;
+        m_bIsLowID = (m_nUserID < 16777216);
+    }
+@
+
+
+1.42
+log
+@code cleanup
+@
+text
+@d254 5
+a261 4
+    void    SetUserID(uint32 newUserID) {
+        m_nUserID = newUserID;
+        m_bIsLowID = (m_nUserID < 16777216);
+    }
+@
+
+
+1.41
+log
+@netwolf's changes
+@
+text
+@d261 1
+a261 1
+	void	ProcessHelloTypePacket(CSafeMemFile* data);
+@
+
+
+1.40
+log
+@Webserver from official 0.27c
+@
+text
+@d68 2
+a69 2
+	bool			HasValidHash()				{return ((int*)m_achUserHash)[0] != 0 || ((int*)m_achUserHash[1]) != 0 ||
+												        ((int*)m_achUserHash)[2] != 0 || ((int*)m_achUserHash[3]) != 0; }
+@
+
+
+1.39
+log
+@*** empty log message ***
+@
+text
+@d253 1
+@
+
+
+1.38
+log
+@bugfix: sort column doesn't change when not in advanced sort mode. lower memory usage
+@
+text
+@d248 2
+a249 2
+	// LANCAST (moosetea) returns true if this client is is on the LAN and LANCAST is enabled!
+	bool isOnLAN();
+d269 1
+@
+
+
+1.37
+log
+@last bugfixes!
+@
+text
+@d29 1
+a29 1
+
+d331 2
+a332 2
+	CList<int,int>									 m_AvarageUDR_list;
+	CList<DWORD,DWORD>                               m_avarage_UL_tick_list;
+d368 2
+a369 3
+//	CList<TransferredData,TransferredData>				m_AvarageDDR_list;
+	CList<int,int>									 m_AvarageDDR_list;
+	CList<DWORD,DWORD>                               m_avarage_DL_tick_list;
+@
+
+
+1.37.2.1
+log
+@27a partial merge
+@
+text
+@a133 1
+	bool			AddNextConnect;  // VQB Fix for LowID slots only on connection
+d135 1
+a135 1
+	void 			SetUpStartTime() {m_dwUploadTime = ::GetTickCount();}
+d137 1
+a137 1
+	void 			SetWaitStartTime() {m_dwWaitTime = ::GetTickCount();}
+d139 1
+a246 2
+    int             GetFileListRequested() { return m_iFileListRequested; }
+    void            SetFileListRequested(int iFileListRequested) { m_iFileListRequested = iFileListRequested; }
+d296 1
+a296 1
+    int     m_iFileListRequested;
+d300 1
+a300 1
+	uint32	m_byCompatibleClient;
+a330 1
+	uchar		reqfileid[16];
+@
+
+
+1.37.2.2
+log
+@27c
+@
+text
+@d68 2
+a69 3
+	void			SetUserHash(uchar* m_achTempUserHash);
+	bool			HasValidHash()				{return ((int*)m_achUserHash[0]) != 0 || ((int*)m_achUserHash[1]) != 0 ||
+												        ((int*)m_achUserHash[2]) != 0 || ((int*)m_achUserHash[3]) != 0; }
+a93 1
+	CString			GetUploadFileInfo();
+d275 2
+a276 2
+	uint16	m_nUserPort;
+	uint16	m_nServerPort;
+@
+
+
+1.36
+log
+@*** empty log message ***
+@
+text
+@d75 1
+d282 1
+@
+
+
+1.35
+log
+@better lancast support & clearer error log messages
+@
+text
+@d139 2
+@
+
+
+1.34
+log
+@changed official code using a CString!!! as a boolean vector
+@
+text
+@d145 1
+a145 1
+	bool 			IsDifferentPartBlock();
+@
+
+
+1.33
+log
+@various bugfixes for "friends"
+@
+text
+@d28 1
+a28 1
+
+d238 1
+a238 2
+	// Barry - Sets string to show parts downloading, eg NNNYNNNNYYNYN
+	void ShowDownloadingParts(CString *partsYN);
+@
+
+
+1.32
+log
+@bugfix: should download better from .26 and above( bug 61)
+@
+text
+@d80 1
+a80 1
+	bool			IsBanned()					{return (m_bBanned && m_nDownloadState != DS_DOWNLOADING);}
+d87 1
+a87 1
+	bool			IsFriend()					{return m_Friend != NULL;}
+@
+
+
+1.31
+log
+@converted to new logging method
+@
+text
+@d248 1
+@
+
+
+1.30
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d27 1
+a27 1
+
+d42 1
+a42 1
+class CUpDownClient
+@
+
+
+1.29
+log
+@restore Plus version recognition
+@
+text
+@d198 2
+d240 4
+d363 1
+d382 1
+@
+
+
+1.28
+log
+@Lancast : Help other emules on your lan complete/download files quicker, saving bandwith.
+
+1) UDP broadcasts your hashs over your lan
+2) Listens for other clients sending broadcasts and adds them as sources
+3) Clients on your lan bypass the queue, and have unlimited upload (download rate is still limited by emule downlaod speed)
+@
+text
+@d77 1
+d272 1
+a272 1
+	uint8   m_byDataPlusVers;
+@
+
+
+1.27
+log
+@bugfix: all 'weird' clients should be gone... Some duplicate clients still showing....
+@
+text
+@d238 4
+@
+
+
+1.26
+log
+@should eliminate 'unknown friends'
+@
+text
+@d238 1
+a238 1
+	void CleanOtherRequests()	{m_OtherRequests_list.RemoveAll();}
+@
+
+
+1.25
+log
+@minimize to tray button v4a, updated connections control panel
+@
+text
+@d238 1
+@
+
+
+1.24
+log
+@cpu optimization!!!
+@
+text
+@a343 1
+	bool			m_bHadDownData;		//Cax2 - CPU saving
+@
+
+
+1.23
+log
+@Show the uploaded part number the Uploads
+@
+text
+@d344 1
+a344 1
+	//uint32		m_nDownDataRateMS;
+@
+
+
+1.23.2.1
+log
+@v1a upgrade
+@
+text
+@a237 1
+	void CleanOtherRequests()	{m_OtherRequests_list.RemoveAll();m_OtherNoNeeded_list.RemoveAll();}	//Cax2 - remove sources bugfix
+d344 1
+@
+
+
+1.22
+log
+@the famous zz upload system! :)
+@
+text
+@d160 1
+@
+
+
+1.21
+log
+@Preparing for new SLS code
+@
+text
+@d60 1
+a60 1
+	bool			HasLowID()					{return (m_nUserID < 16777216);}
+d127 1
+a127 1
+	uint32			GetDatarate()				{return m_nUpDatarate;}	
+d138 1
+a138 1
+	uint32			SendBlockData(uint32 maxammount);
+d142 1
+a142 1
+	uint32			GetLastAskedDelay(); // <<--
+d155 1
+d158 3
+d192 1
+a192 1
+	uint32			CalculateDownloadRate();
+d240 4
+d256 1
+d260 2
+a261 3
+	uint32	m_nUpDatarate;
+	uint32	dataratems;
+	uint32	m_cSendblock;
+d300 1
+d314 2
+a315 1
+	CList<TransferredData,TransferredData>			    m_AvarageUDR_list;
+d320 2
+d343 1
+a343 2
+	uint32		m_nDownDataRateMS;
+	// uint32		downdataratems; --obaldin: it's called m_nDownDataRateMS now
+d345 1
+a345 1
+	uint16		m_cShowDR;
+d351 3
+a353 1
+	CList<TransferredData,TransferredData>				m_AvarageDDR_list;
+d359 4
+a362 2
+	uint32	sumavgddr; // enkeyDEV(Ottavio84) -Accurate speed measurement-
+	uint32	sumavgudr; // enkeyDEV(Ottavio84) -Accurate speed measurement-
+@
+
+
+1.20
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@d19 1
+d48 5
+a52 1
+	CUpDownClient(uint16 in_port, uint32 in_userid, uint32 in_serverup, uint16 in_serverport,CPartFile* in_reqfile, CSourceEntry* source_entry = (CSourceEntry*)NULL);
+d71 1
+d73 1
+d285 1
+d287 1
+@
+
+
+1.19
+log
+@*** empty log message ***
+@
+text
+@a58 3
+	uint32			GetSessionUp()				{return m_nSessionUp;} // VQB Add UL Session Control
+	void			ClearSessionUp()			{m_nSessionUp = 0;} // VQB Clear UL Session Control
+	void			UDPFileReasked();
+d147 3
+d155 1
+d267 1
+a284 1
+	uint32		m_nSessionUp; // VQB add for UL slot control
+d295 1
+@
+
+
+1.18
+log
+@*** empty log message ***
+@
+text
+@a26 10
+// uploadstate
+#define	US_UPLOADING		0
+#define	US_ONUPLOADQUEUE	1
+#define	US_WAITCALLBACK		2
+#define	US_CONNECTING		3
+#define	US_PENDING			4
+#define	US_LOWTOLOWIP		5
+#define US_BANNED			6
+#define US_ERROR			7
+#define US_NONE				8
+d117 2
+a118 2
+	uint8			GetUploadState()			{return m_byUploadState;}
+	void			SetUploadState(uint8 news)	{m_byUploadState = news;}
+d284 1
+a284 1
+	uint8		m_byUploadState;
+@
+
+
+1.17
+log
+@Statistics related changes
+@
+text
+@d38 1
+a38 13
+// downloadstate
+#define	DS_DOWNLOADING		0
+#define	DS_ONQUEUE			1
+#define	DS_CONNECTED		2
+#define	DS_CONNECTING		3
+#define	DS_WAITCALLBACK		4
+#define	DS_REQHASHSET		5
+#define	DS_NONEEDEDPARTS	6
+#define	DS_TOOMANYCONNS		7
+#define	DS_LOWTOLOWIP		8
+#define DS_BANNED			9
+#define DS_ERROR			10
+#define	DS_NONE				11
+@
+
+
+1.16
+log
+@Further Statistics changes
+@
+text
+@d114 1
+a114 1
+	uint8			GetClientSoft()				{return m_clientSoft;}
+d282 1
+a282 1
+	uint8	m_clientSoft;
+@
+
+
+1.15
+log
+@Show the number of remote client's parts
+@
+text
+@d58 1
+a58 12
+// clientsoft
+enum eClientTypes
+{
+	SO_EMULE		=	0,
+	SO_CDONKEY			,
+	SO_EDONKEYHYBRID	,
+	SO_EDONKEY			,
+	SO_MLDONKEY			,
+	SO_OLDEMULE			,
+	SO_UNKNOWN			, // should be always befor the last
+	SO_LAST
+};
+@
+
+
+1.14
+log
+@*** empty log message ***
+@
+text
+@d186 1
+d335 1
+@
+
+
+1.13
+log
+@more 26b merges
+@
+text
+@d67 1
+a67 1
+	SO_UNKNOWN			,
+@
+
+
+1.12
+log
+@Less parameters for GetStatistics()  function , first step before redesign
+@
+text
+@d298 1
+d307 1
+a309 1
+	DWORD	m_lastRefreshedDLDisplay;
+@
+
+
+1.11
+log
+@.26b port
+@
+text
+@d59 11
+a69 7
+#define SO_EMULE			0
+#define SO_CDONKEY			1
+#define SO_EDONKEYHYBRID	2
+#define	SO_EDONKEY			3
+#define SO_MLDONKEY			4
+#define SO_OLDEMULE			5
+#define SO_UNKNOWN			6
+@
+
+
+1.10
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d252 1
+a252 1
+
+d304 1
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d28 6
+a33 4
+#define US_NONE				0
+#define	US_PENDING			1
+#define	US_ONUPLOADQUEUE	2
+#define	US_UPLOADING		4
+d36 1
+a36 3
+#define	US_WAITCALLBACK		8
+#define	US_CONNECTING		9
+#define	US_LOWTOLOWIP		10
+d39 3
+a41 3
+#define	DS_NONE				0
+#define	DS_DOWNLOADING		1
+#define	DS_ONQUEUE			2
+d44 7
+a50 7
+#define	DS_NONEEDEDPARTS	5
+#define DS_BANNED			6
+#define DS_ERROR			7
+#define	DS_CONNECTED		9
+#define	DS_LOWTOLOWIP		10
+#define	DS_REQHASHSET		11
+#define	DS_TOOMANYCONNS		12
+d97 1
+a97 1
+	uint8			GetVersion()				{return m_nClientVersion;}
+d121 2
+a122 1
+	uint8			GetClientSoft();
+d180 3
+a182 2
+	uint16			GetUpAvailPartCount();
+	uint16			GetUpPartCount();
+d198 1
+a198 1
+	void			DrawStatusBar(CDC* dc, RECT* rect, bool onlygreyrect, bool  bFlat, bool bUpParts=false);
+d201 1
+a201 1
+	void			SendFileRequestForUpload();
+d233 1
+d241 1
+d288 1
+a300 1
+	uint8	m_clientSoft;
+d328 2
+d331 1
+a331 1
+	uint32      m_nUpFileSize;
+a367 4
+protected:
+	void ReGetClientSoft(void);
+public:
+	void ProcessUpFileStatus(char* packet, uint32 size);
+@
+
+
+1.8
+log
+@Hybrid client and CDonkey detection
+@
+text
+@d364 2
+@
+
+
+1.7
+log
+@bugfix: column size & settings remembered, removed 'punishments'
+@
+text
+@d59 7
+a65 5
+#define SO_UNKNOWN			0
+#define SO_EMULE			1
+#define	SO_EDONKEY			2
+#define SO_MLDONKEY			3
+#define SO_OLDEMULE			4
+d296 1
+d362 2
+@
+
+
+1.7.2.1
+log
+@initial upgrade to .26
+@
+text
+@d28 4
+a31 6
+#define	US_UPLOADING		0
+#define	US_ONUPLOADQUEUE	1
+#define	US_WAITCALLBACK		2
+#define	US_CONNECTING		3
+#define	US_PENDING			4
+#define	US_LOWTOLOWIP		5
+d34 3
+a36 1
+#define US_NONE				8
+d39 3
+a41 3
+#define	DS_DOWNLOADING		0
+#define	DS_ONQUEUE			1
+#define	DS_CONNECTED		2
+d44 7
+a50 7
+#define	DS_REQHASHSET		5
+#define	DS_NONEEDEDPARTS	6
+#define	DS_TOOMANYCONNS		7
+#define	DS_LOWTOLOWIP		8
+#define DS_BANNED			9
+#define DS_ERROR			10
+#define	DS_NONE				11
+d59 5
+a63 7
+#define SO_EMULE			0
+#define SO_CDONKEY			1
+#define SO_EDONKEYHYBRID	2
+#define	SO_EDONKEY			3
+#define SO_MLDONKEY			4
+#define SO_OLDEMULE			5
+#define SO_UNKNOWN			6
+d95 1
+a95 1
+	uint32			GetVersion()				{return m_nClientVersion;}
+d119 1
+a119 2
+	uint8			GetClientSoft()				{return m_clientSoft;}
+	void			ReGetClientSoft();
+d177 2
+a178 3
+	void			ProcessUpFileStatus(char* packet,uint32 size);
+	uint16			GetUpPartCount()			{return m_nUpPartCount;}
+	void			DrawUpStatusBar(CDC* dc, RECT* rect, bool onlygreyrect, bool  bFlat);
+d194 1
+a194 1
+	void			DrawStatusBar(CDC* dc, RECT* rect, bool onlygreyrect, bool  bFlat);
+d197 1
+a197 1
+//	void			SendFileRequestForUpload();
+a228 1
+	int				sourcesslot;
+a235 1
+
+d237 4
+a240 4
+    CString			GetFileComment()			{return m_strComment;} 
+    void			SetFileComment(char *desc)	{m_strComment.Format("%s",desc);}
+    uint8			GetFileRate()				{return m_iRate;}
+    void			SetFileRate(int8 iNewRate)	{m_iRate=iNewRate;}
+a281 1
+	uint8	m_clientSoft;
+a320 2
+	static		CBarShader s_UpStatusBar;
+	public:
+d322 1
+a322 1
+	private:
+@
+
+
+1.6
+log
+@updated to .25b codebase
+@
+text
+@d253 1
+a253 1
+	bool	m_bIsBotuser;
+@
+
+
+1.6.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.6.2.2
+log
+@removed punishments & bugfixed load column positions
+@
+text
+@d253 1
+a253 1
+	//bool		m_bIsBotuser;		//Cax2: removed punishment 
+@
+
+
+1.5
+log
+@some variables got duplicated during merge
+@
+text
+@d30 2
+a31 2
+#define	US_ONUPLOADQUEUE		2
+#define	US_UPLOADING			4
+d34 3
+a36 3
+#define	US_WAITCALLBACK			8
+#define	US_CONNECTING			9
+#define	US_LOWTOLOWIP			10
+d40 1
+a40 1
+#define	DS_DOWNLOADING			1
+d42 3
+a44 3
+#define	DS_CONNECTING			3
+#define	DS_WAITCALLBACK			4
+#define	DS_NONEEDEDPARTS		5
+d47 4
+a50 4
+#define	DS_CONNECTED			9
+#define	DS_LOWTOLOWIP			10
+#define	DS_REQHASHSET			11
+#define	DS_TOOMANYCONNS			12
+d55 2
+a56 2
+#define	MS_CONNECTING			2
+#define	MS_UNABLETOCONNECT		3
+d79 1
+a79 1
+	uint32			GetUserID()				{return m_nUserID;}
+d81 3
+a83 3
+	uint32			GetIP()					{return m_dwUserIP;}
+	bool			HasLowID()				{return (m_nUserID < 16777216);}
+	char*			GetFullIP()				{return m_szFullUserIP;}
+d98 1
+a98 1
+	bool			ExtProtocolAvailable()			{return m_bEmuleProtocol;}
+d102 1
+a102 1
+	bool			IsBanned()				{return (m_bBanned && m_nDownloadState != DS_DOWNLOADING);}
+d106 1
+a106 1
+	void			SetUDPPort(uint16 nPort)		{ m_nUDPPort = nPort; }
+d109 1
+a109 1
+	bool			IsFriend()				{return m_Friend != NULL;}
+d117 2
+a118 2
+	bool            	IsCommunity();  	// i_a                
+	void            	ResetValueCache(); 	// i_a                
+d129 1
+a129 1
+	void			SetLastSrcAnswerTime()			{m_dwLastSourceAnswer = ::GetTickCount();}
+d131 1
+a131 1
+	uint32			GetLastSrcAnswerTime()			{return m_dwLastSourceAnswer;}	
+d138 2
+a139 2
+	CClientCredits* 	credits;
+	CFriend*		m_Friend;
+d141 2
+a142 2
+	uint32			compressiongain; // Add show compression
+	uint32  		notcompressed; // Add show compression
+d144 1
+a144 1
+	void			SetUploadState(uint8 news)		{m_byUploadState = news;}
+d148 1
+a148 1
+	bool			HasBlocks()				{return !(m_BlockSend_queue.IsEmpty() && m_BlockRequests_queue.IsEmpty());}
+d187 1
+a187 1
+	bool			IsPartAvailable(uint16 iPart)		{return	( (iPart >= m_nPartCount) || (!m_abyPartStatus) )? 0:m_abyPartStatus[iPart];} 	
+d189 1
+a189 1
+	uint32			GetDownloadDatarate()			{return m_nDownDatarate;}
+d271 1
+d334 1
+a334 1
+	uint32      m_nLastBlockOffset;   //Cax2 Packet is from...
+@
+
+
+1.4
+log
+@final port to .25b!
+@
+text
+@d176 1
+a176 1
+	// UUU
+d178 1
+a178 1
+	uint16			GetUpPartCount(); // {return m_nUpPartCount;}
+d318 1
+a318 1
+	// UUU
+d336 1
+a336 1
+	uint32		downdataratems;
+@
+
+
+1.3
+log
+@port to .25 b codebase...
+@
+text
+@d88 1
+d333 1
+a333 1
+	uint32      m_nLastBlockOffset;   //<--NEW Cax2 Packet ? from
+d335 1
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d103 1
+d106 2
+d134 1
+d165 1
+a174 2
+	void			UDPFileReasked();
+
+d180 3
+d189 3
+a191 1
+	uint16			GetRemoteQueueRank()			{return (m_nDownDatarate>0&&m_nRemoteQueueRank>0)?1:m_nRemoteQueueRank;} //QR sort Cax2
+a210 1
+	bool 			IsDifferentPartBlock(); // Tarod
+d240 6
+d275 4
+d311 1
+a311 1
+	CList<TransferredData,TransferredData>		 		m_AvarageUDR_list; // enkeyDEV(Ottavio84) -Accurate speed measurement-
+d323 1
+d327 1
+d342 1
+a342 1
+	CList<TransferredData,TransferredData>		 		m_AvarageDDR_list; // enkeyDEV(Ottavio84) -Accurate speed measurement-
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d204 13
+d226 1
+a226 1
+	uint8			GetChatState()			{return m_byChatstate;}
+d238 1
+d268 7
+@
+

@@ -1,0 +1,2730 @@
+head	1.9;
+access;
+symbols
+	PublicRelease_1h:1.8
+	Interim_Release_1h_rc2:1.8
+	Interim_Release_1h_RC1:1.8
+	Interim_Release_1h_beta2:1.8
+	Interim_Release_1h_beta1_now:1.8
+	Interim_Release_1h_beta1:1.8
+	PublicRelease_1g:1.6
+	Interim_Release_1g_RC6_Final:1.6
+	Interim_Release_1g_RC6:1.6
+	Interim_Release_1g_RC5:1.6
+	Interim_Release_1g_RC4:1.6
+	Interim_Release_1g_RC3:1.6
+	Interim_Release_1g_beta2:1.4
+	Interim_Release_1g_beta1:1.4
+	Interim_Release_1f_RC4:1.4
+	Interim_Release_1f_RC3:1.4
+	Interim_Release_1f_RC2:1.4
+	Interim_Release_1f_RC:1.4
+	Interim_Release_1f_beta2:1.4
+	Interim_Release_1f_beta1:1.4
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.4
+	Interim_Release_1e_beta1:1.4
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.2
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.3
+	threaded_downloadqueue:1.3.0.2
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.1.0.4
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.2;
+locks; strict;
+comment	@# @;
+expand	@b@;
+
+
+1.9
+date	2003.09.24.07.09.08;	author dongato;	state dead;
+branches;
+next	1.8;
+
+1.8
+date	2003.08.11.01.32.11;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.08.09.13.18.35;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.22.14.21.09;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.06.20.22.08.46;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.19.11.02.40;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.01.16.06.18;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.01.16.00.39;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.24.21.01.42;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.9
+log
+@Reorganization
+@
+text
+@# IPFilter.dat
+# 
+# All entered IP ranges will be blocked in eMule Plus for both Upload and Download.
+# Be extremely careful with what you put here.
+# Wrong entries might block eMule Plus from performing well.
+#
+# Format:
+# IP-Range , Access Level , Description
+# 000.000.000.000 - 000.255.255.255 , 100 , LOW_ID (invalid)
+#
+# Access Levels:
+# <  127 blocked
+# >= 127 permitted
+
+000.000.000.000 - 000.255.255.255 , 100 , LOW_ID (invalid)
+003.000.000.000 - 003.255.255.255 , 100 , General Electric Company
+004.023.000.000 - 004.023.255.255 , 100 , IRC spybots
+004.036.109.000 - 004.036.109.255 , 100 , Universal Studios Inc. UNIVORLANDO-109-24
+004.042.244.160 - 004.042.244.175 , 100 , Federal Bureau of Investigation
+004.042.244.192 - 004.042.244.223 , 100 , Federal Bureau of Investigation
+004.043.096.000 - 004.043.096.255 , 100 , Media Force (P2P monitoring) (valid)  and  Media Force (P2P monitoring) (valid)  and  MediaForce  and  MediaForce
+004.043.108.000 - 004.043.108.255 , 100 , IRC spybots
+004.043.124.192 - 004.043.124.255 , 100 , MediaForce
+004.067.043.000 - 004.067.043.255 , 100 , IRC spybots
+011.000.000.000 - 011.255.255.255 , 100 , DoD Network Information Center
+012.038.031.216 - 012.038.031.223 , 100 , Federal Bureau of Investigation
+012.148.209.192 - 012.148.209.255 , 100 , NameProtect
+012.150.191.000 - 012.150.191.255 , 100 , RECORDING INDUSTRY ASSOC OF AMERICA (valid)  and  RECORDING INDUSTRY ASSOC OF AMERICA (valid)  and  RIAA
+018.215.000.015 - 018.215.000.015 , 100 , Massachusettes Institute Of Technology
+020.000.000.000 - 020.255.255.255 , 100 , Computer Sciences Corporation
+024.049.160.000 - 024.049.191.255 , 100 , Adelphia
+024.053.096.000 - 024.053.111.255 , 100 , Adelphia
+024.225.128.000 - 024.225.223.255 , 100 , Patriot-Media-Communications  and  patriot-media-communications
+025.000.000.000 - 025.255.255.255 , 100 , Royal Signals and Radar Establishment
+029.000.000.000 - 029.255.255.255 , 100 , DoD Network Information Center
+034.000.000.000 - 034.255.255.255 , 100 , Halliburton Company
+038.144.057.000 - 038.144.057.255 , 100 , IRC spybots
+038.144.198.024 - 038.144.198.024 , 100 , Replies with ..exe and !_.exe
+038.144.198.150 - 038.144.198.150 , 100 , Replies with ..exe and !_.exe
+051.000.000.000 - 051.255.255.255 , 100 , Department of Social Security of UK
+053.000.000.000 - 053.255.255.255 , 100 , cap debis ccs
+054.000.000.000 - 054.255.255.255 , 100 , Merck and Co., Inc
+055.000.000.000 - 055.255.255.255 , 100 , Army National Guard Bureau
+056.000.000.000 - 056.255.255.255 , 100 , U.S. Postal Service (state agency)
+061.060.000.000 - 061.060.031.255 , 100 , Taiwan Government Service Network
+061.062.000.000 - 061.062.255.255 , 100 , Sony NetTw Limited (add. range)
+061.064.128.000 - 061.064.255.255 , 100 , Sony Taiwan Extended Range !!! (usefull)  and  Hacking attempts on port 8575  and  Sony-Network-Taiwan-Limited
+061.088.128.038 - 061.088.128.038 , 100 , Australian Federal Police--- 
+061.172.250.096 - 061.172.250.111 , 100 , SOFT-WORLD-INTERNATIONAL
+061.197.225.096 - 061.197.225.128 , 100 , BSA.or.jp
+061.197.255.096 - 061.197.255.211 , 100 , BSA.or.ip
+061.206.130.240 - 061.206.130.255 , 100 , BSA.lu
+062.072.107.000 - 062.072.107.255 , 100 , www.amcrecords.com
+062.111.212.001 - 062.111.212.001 , 100 , eMule leecher
+062.145.135.192 - 062.145.135.255 , 100 , BSA.is
+062.156.146.128 - 062.156.147.127 , 100 , IFPI Germany
+062.156.153.000 - 062.156.153.255 , 100 , IFPI Germany  and  IFPI.de
+062.210.138.000 - 062.210.138.255 , 100 , P2P Overflow
+062.210.176.134 - 062.210.176.134 , 100 , Studios Guillaume Tell / Paris,France
+063.064.005.000 - 063.064.005.255 , 100 , Cyveillance (P2P monitoring)  and  Cyveillance (P2P monitoring)  and  Cyveillance
+063.076.173.032 - 063.076.173.047 , 100 , MediaForce
+063.087.238.000 - 063.087.239.255 , 100 , NMPA (National Music Publishers Association)
+063.100.163.000 - 063.100.163.255 , 100 , CYVEILLANCE (unlisted)
+063.127.255.000 - 063.127.255.255 , 100 , Cyveillance   and  Cyveillance   and  Cyveillance
+063.148.099.000 - 063.148.099.255 , 100 , Cyveillance (63.148.99.224   - 63.148.99.255)  and  Cyveillance (63.148.99.224   - 63.148.99.255)  and  Cyveillance  and  Cyveillance  and  Cyveillance  and  Cyveillance
+063.199.057.096 - 063.199.057.128 , 100 , MPAA Phoenix Manufacturing  and  MPAA Phoenix Manufacturing  and  MPAA Phoenix Manufacturing (fix of previously posted range)  and  MPAA
+063.212.171.000 - 063.212.171.255 , 100 , Web Sense
+063.236.052.020 - 063.236.052.020 , 100 , Xupiter.com - Site
+063.240.000.000 - 063.240.255.255 , 100 , FBI
+063.242.000.000 - 063.242.255.255 , 100 , FBI
+064.014.037.128 - 064.014.037.159 , 100 , OverPeer
+064.014.040.160 - 064.014.040.191 , 100 , OverPeer
+064.015.224.000 - 064.015.255.255 , 100 , OverPeer  and  Overpeer (64.15.226.160/27)  and  OVERPEER  and  OverPeer(correction)  and  Overpeer (source sr.com)  and  OverPeer  and  Overpeer (source sr.com)
+064.032.128.000 - 064.032.255.255 , 100 , IRMA (Mail)
+064.049.254.000 - 064.049.254.255 , 100 , Big Champagne
+064.062.000.000 - 064.062.127.255 , 100 , Sony Taiwan Host
+064.062.143.064 - 064.062.143.095 , 100 , Audible Magic #2 (Correction) Please Remove Other
+064.071.166.000 - 064.071.166.255 , 100 , Audible Magic  and  Audible Magic #3 (Correction) Please Remove Other  and  www.audiblemagic.com [very specific IP address]
+064.075.004.192 - 064.075.004.223 , 100 , OverPeer
+064.094.089.000 - 064.094.089.255 , 100 , Gator.com  and  Gator.com  and  Gain(Gator)  and  Gator
+064.106.170.128 - 064.106.170.192 , 100 , C&DCop (Warner)  and  C&DCop (Warner)  and  Unknown C&D Cop
+064.152.000.000 - 064.152.255.255 , 100 , IRMA
+064.153.000.000 - 064.153.255.255 , 100 , IRMA
+064.158.221.050 - 064.158.221.050 , 100 , IRMA
+064.159.002.041 - 064.159.002.041 , 100 , Presence Studios Westport/Westport, CT
+064.166.187.128 - 064.166.187.192 , 100 , MPAA Valerie Bourne  and  MPAA Valerie Bourne  and  MPAA Valerie Bourne(correction)  and  MPAA
+064.201.096.000 - 064.201.111.255 , 100 , Race Technologies P2P Scanners  and  P2P port scanner
+064.208.086.128 - 064.208.086.159 , 100 , Conway Recording Studios/Hollywood/Los Angeles, CA
+064.224.000.000 - 064.224.255.255 , 100 , MPAA
+064.225.000.000 - 064.225.255.255 , 100 , MPAA  and  MediaDefender  and  MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender
+064.226.000.000 - 064.226.255.255 , 100 , MPAA
+064.227.000.000 - 064.227.255.255 , 100 , MPAA
+064.236.032.050 - 064.236.032.050 , 100 , xupiter.com
+064.241.031.000 - 064.241.031.255 , 100 , RIAA
+065.101.193.000 - 065.101.193.255 , 100 , media signature Virtual Portal Corporation
+065.118.041.000 - 065.118.041.255 , 100 , Cyveillance (P2P monitoring)  and  Cyveillance
+065.160.000.000 - 065.160.127.225 , 100 , OverPeer
+065.174.000.000 - 065.174.255.255 , 100 , OverPeer  and  BAY SOFTWARE (65.174.254.0    - 65.174.255.255)
+065.192.000.000 - 065.192.000.255 , 100 , Media Force (P2P monitoring)  and  Media Force (P2P monitoring)  and  MediaForce
+065.215.219.000 - 065.215.219.255 , 100 , IRC spybots
+065.217.219.000 - 065.217.219.255 , 100 , Media Force (P2P monitoring)  and  Media Force (P2P monitoring)  and  Media Force  and  MediaForce
+065.223.000.000 - 065.223.255.255 , 100 , MediaForce (Obsidian Holdings)  and  MediaForce (Obsidian Holdings)  and  MediaForce
+065.233.255.000 - 065.233.255.255 , 100 , Media Force (P2P monitoring)  and  Media Force (P2P monitoring)  and  Media Force
+065.243.215.000 - 065.243.215.063 , 100 , MediaForce
+065.244.101.001 - 065.244.101.255 , 100 , betis.com ==> RIAA Host  and  RIAA.COM  and  RIAA.com
+065.247.105.240 - 065.247.105.255 , 100 , MediaForce
+066.028.103.000 - 066.028.103.255 , 100 , Bogus File Server
+066.028.148.000 - 066.028.148.255 , 100 , CogentSystems
+066.028.151.000 - 066.028.151.255 , 100 , Bogus File Server
+066.035.229.000 - 066.035.229.255 , 100 , GainCME (Spyware)
+066.035.247.000 - 066.035.247.255 , 100 , GainCME (Spyware)
+066.077.124.007 - 066.077.124.007 , 100 , Universal Studios (ns3.mca.com)
+066.079.000.000 - 066.079.255.255 , 100 , MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender  and  MediaDefender  and  MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender  and  MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender
+066.111.054.167 - 066.111.054.182 , 100 , Replies with .html
+066.111.055.150 - 066.111.055.165 , 100 , Fake Files Source
+066.113.128.000 - 066.113.255.255 , 100 , RIAA (Hostway Corp)
+066.117.002.000 - 066.117.002.255 , 100 , XBMC.COM (Correction)
+066.118.165.120 - 066.118.165.120 , 100 , AVI Faker
+066.118.165.180 - 066.118.165.180 , 100 , AVI Faker
+066.118.181.004 - 066.118.181.004 , 100 , P2P Scanner
+066.150.161.133 - 066.150.161.136 , 100 , Retspan
+066.212.125.000 - 066.212.125.255 , 100 , BMI (Broadcast Music, Inc. )
+066.220.031.128 - 066.220.031.159 , 100 , Audible Magic #1 (Correction) Please Remove Other
+066.230.219.137 - 066.230.219.137 , 100 , popupad.net (Annoying but not *AA)
+066.250.024.002 - 066.250.024.009 , 100 , Bogus File Server  and  Fake mp3 file server  and  Fake mp3 File Server
+066.250.032.227 - 066.250.032.242 , 100 , Cogent Systems  and  Cogent
+066.252.128.000 - 066.252.143.255 , 100 , MPAA - Correction
+068.055.066.177 - 068.055.066.177 , 100 , Hacking, Port Scanning
+069.028.148.033 - 069.028.148.033 , 100 , limelight networks
+080.078.128.000 - 080.078.129.255 , 100 , BSA.mr
+080.239.022.064 - 080.239.022.127 , 100 , Secure Group
+081.000.202.000 - 081.000.202.255 , 100 , www.BSA.sk  and  BSA.sk
+081.000.210.152 - 081.000.210.152 , 100 , Replies with search>_cool.mpg
+081.016.038.000 - 081.016.038.031 , 100 , BSA.at
+081.091.161.000 - 081.091.161.031 , 100 , IFPI Germany
+081.101.016.009 - 081.101.016.009 , 100 , Fakefinder
+081.220.198.171 - 081.220.198.171 , 100 , ???
+081.220.198.253 - 081.220.198.253 , 100 , ???
+081.240.072.127 - 081.240.072.127 , 100 , eMule leechers on Skynet.be
+128.121.215.173 - 128.121.215.173 , 100 , BSA.org
+128.241.000.000 - 128.241.255.255 , 100 , NetPD
+129.250.002.220 - 129.250.002.220 , 100 , Right Track Studios/New York, NY_(Fixed)_Sorry
+129.250.005.115 - 129.250.005.115 , 100 , World Music Group
+130.094.000.000 - 130.094.255.255 , 100 , Crescent Moon Studios/Miami, FL  and  Crescent Moon Studios/Miami, FL_(fixed)_Sorry
+140.113.000.000 - 140.113.255.255 , 100 , Ministry of Education Computer Center
+142.145.000.000 - 142.145.255.255 , 100 , Government Of The Province Of Ontario (Canada)
+143.001.000.000 - 143.040.255.255 , 100 , The Procter and Gamble Company
+144.232.000.000 - 144.232.255.255 , 100 , Chicago Recording Company  and  Chicago Recording Company/Fixed sorry  and  Ardent Studios UK  and  Remote Recording Services/New York/Philadelphia
+145.228.000.000 - 145.228.255.255 , 100 , Bertelsmann  and  Bertelsmann  and  Bertelsmann group world wide (includes BMG Music)
+145.253.163.128 - 145.253.163.143 , 100 , WILD-NET
+145.253.172.032 - 145.253.172.047 , 100 , Aug. Prien Bauunternehmung ???
+146.082.174.000 - 146.082.174.255 , 100 , RIAA
+147.186.254.000 - 147.186.254.255 , 100 , Swedish Police
+149.101.000.000 - 149.101.255.255 , 100 , US Department of Justices
+150.187.000.000 - 150.187.255.255 , 100 , Consejo Nacional de Investigaciones
+151.037.099.001 - 151.037.099.001 , 100 , UNASIGNED ?
+152.019.000.000 - 152.019.255.255 , 100 , North Carolina Research and Education Network
+152.023.000.000 - 152.023.255.255 , 100 , North Carolina Research and Education Network
+152.063.018.025 - 152.063.018.025 , 100 , National Music Publishers of America
+152.063.066.013 - 152.063.066.013 , 100 , misra records
+152.063.113.057 - 152.063.113.057 , 100 , Verve Music Group/Los Angeles Ca
+152.063.113.065 - 152.063.113.065 , 100 , Universal Music Enterprises/Los Angeles
+152.063.113.069 - 152.063.113.069 , 100 , Universal Music Group/(Motown Records)/Los Angeles  and  MCA Records  and  Universal Classics /Los Angeles Ca
+153.031.000.000 - 153.031.255.255 , 100 , Federal Bureau of Investigation - CJIS  and  Federal Bureau of Investigation - CJIS  and  Federal Bureau of Investigation-CJIS
+157.086.113.004 - 157.086.113.004 , 100 , ???
+158.044.000.000 - 158.044.255.255 , 100 , TriGem
+158.169.000.000 - 158.169.255.255 , 100 , European Union
+159.141.000.000 - 159.141.255.255 , 100 , Eisenhower Medical Center
+162.023.000.000 - 162.023.255.255 , 100 , Swiss Federal Government, Swiss Federal Office of Information Technology and Systems, Bundesamt fur Informatik
+162.033.154.069 - 162.033.154.069 , 100 , Secret paysite passwords .html
+164.128.037.017 - 164.128.223.145 , 100 , Police of Switzerland
+166.063.167.010 - 166.063.167.010 , 100 , British Phonographic Industry
+166.090.148.200 - 166.090.148.200 , 100 , Metro-Goldwyn-Mayer
+166.121.000.000 - 166.121.255.255 , 100 , Ministry of Education Computer Services
+167.167.000.000 - 167.167.255.255 , 100 , MCA
+168.160.250.191 - 168.160.250.191 , 100 , Unknown..persistent connection attempts (revised)
+168.161.000.000 - 168.161.255.255 , 100 , Time Warner Inc
+172.015.254.254 - 172.015.254.254 , 100 , not resolvable (whois)
+172.178.102.003 - 172.178.102.003 , 100 , BayTSP ?? Port : 3131
+174.049.006.232 - 174.049.006.232 , 100 , ???
+177.107.170.085 - 177.107.170.085 , 100 , not resolvable (whois)
+179.089.033.173 - 179.089.033.173 , 100 , not resolvable (whois)
+179.099.212.077 - 179.099.212.077 , 100 , ???
+180.001.171.001 - 180.001.171.001 , 100 , ???
+180.013.170.085 - 180.013.170.085 , 100 , ???
+183.102.156.223 - 183.102.156.223 , 100 , ???
+184.073.111.018 - 184.073.111.018 , 100 , not resolvable (whois)
+190.051.073.131 - 190.051.073.131 , 100 , not resolvable (whois)
+190.100.000.001 - 190.100.000.001 , 100 , ???
+192.001.001.000 - 192.001.001.255 , 100 , Bolt Beranek and Newman Inc
+192.083.166.000 - 192.083.166.255 , 100 , Ministry of Education Computer Center (tw)
+192.108.053.001 - 192.108.053.031 , 100 , When-U
+192.188.162.000 - 192.188.162.255 , 100 , Palisade Systems
+192.205.000.000 - 192.205.255.255 , 100 , http://www.worldstudio.com/ peer to peer monitoring on winmx
+192.251.066.000 - 192.251.066.255 , 100 , Universal Studios
+192.251.067.009 - 192.251.067.009 , 100 , Universal Studios (gate.mca.com)
+192.251.067.132 - 192.251.067.132 , 100 , Universal Studios (ns2.mca.com)
+193.005.088.000 - 193.005.095.255 , 100 , World Intellectual Property Organization  and  WIPO.ORG
+193.074.019.000 - 193.074.019.255 , 100 , IFPI Belgium
+193.108.008.000 - 193.108.015.255 , 100 , GEMA - German Copyright Society
+193.111.198.139 - 193.111.199.193 , 100 , RIPE Network Coordination Centre
+193.121.026.001 - 193.121.027.255 , 100 , Sabam (Belgian Society of Authors, Composers and Publishers)
+193.121.083.001 - 193.121.083.255 , 100 , Federale politie - Police federale (BELGIUM)
+193.158.124.000 - 193.158.125.255 , 100 , IFPI Germany
+193.172.176.000 - 193.172.177.255 , 100 , Dutch Covernment
+193.191.209.192 - 193.191.209.207 , 100 , Belgium Federal Government
+193.251.047.158 - 193.251.047.158 , 100 , France Telecom
+193.252.029.094 - 193.252.029.094 , 100 , France Telecom
+193.252.072.142 - 193.252.072.142 , 100 , French Department of Defense
+193.252.228.000 - 193.252.228.255 , 100 , Prefecture de police de Paris
+193.253.178.142 - 193.253.178.142 , 100 , France Telecom
+193.253.183.188 - 193.253.183.188 , 100 , France Telecom
+193.253.232.167 - 193.253.232.167 , 100 , France Telecom
+194.079.208.000 - 194.079.208.255 , 100 , it.cw.net used by Guardia di Finanza (Italy)
+194.089.205.000 - 194.089.205.255 , 100 , Finnish Police
+194.102.077.000 - 194.102.077.255 , 100 , Ogilvy & Mather advertising
+194.129.073.000 - 194.129.073.255 , 100 , www.emigroup.com
+194.179.107.029 - 194.179.107.029 , 100 , Direccion General de la Guardia Civil
+194.179.107.131 - 194.179.107.131 , 100 , Direccion General de la Guardia Civil (Spain)
+194.194.240.000 - 194.194.240.255 , 100 , Teosto
+194.213.194.037 - 194.213.194.037 , 100 , Replies with .url and .mpg
+194.213.210.000 - 194.213.210.255 , 100 , BSA.cz
+194.228.211.204 - 194.228.211.204 , 100 , Replies with .mpg .html .url
+195.000.000.000 - 195.000.007.255 , 100 , Audit Services, Tax Consultants
+195.002.039.000 - 195.002.039.255 , 100 , Sony Europe Front Network
+195.006.115.038 - 195.006.115.038 , 100 , APP
+195.013.160.032 - 195.013.160.163 , 100 , www.BSA.lv  and  BSA.lv
+195.014.000.000 - 195.015.037.255 , 100 , netcologne.de  and  netblock of bsa.lt (nslookup www.bsa.lt)  and  BSA.it  and  bsa.lt  and  EMI Electrola GmbH (Germany)
+195.020.032.099 - 195.020.032.099 , 100 , MPAA
+195.029.168.000 - 195.029.168.255 , 100 , netblock of bsa.hr (nslookup www.bsa.hr)  and  netblock of bsa.hr (nslookup www.bsa.hr)  and  BSA.hr (Watches many crack sites)
+195.037.192.000 - 195.037.207.255 , 100 , Regierung
+195.040.000.128 - 195.040.000.255 , 100 , IFPI
+195.040.001.000 - 195.040.001.255 , 100 , IFPI
+195.040.039.005 - 195.040.039.005 , 100 , IFPI (mail)
+195.042.192.000 - 195.042.192.255 , 100 , Antipiracybyra Sweden
+195.046.218.178 - 195.046.218.178 , 100 , French Military Police
+195.068.059.001 - 195.068.059.007 , 100 , ADAMI (Society of civil rights for performing artists, France)
+195.076.172.000 - 195.076.172.255 , 100 , Direccion General de la Policia (SPAIN)  and  Direcciion General de la Policia (Spain)
+195.076.204.034 - 195.076.204.034 , 100 , Ministerio del Interior (Spain)
+195.076.238.000 - 195.076.238.255 , 100 , SGAE  and  sgAe
+195.101.232.000 - 195.101.232.255 , 100 , Interpol
+195.102.060.040 - 195.102.060.050 , 100 , Alpa Association
+195.121.011.142 - 195.121.011.142 , 100 , MGM.COM
+195.122.136.008 - 195.122.136.008 , 100 , Puk Recording Studios/Gjerlev,Denmark
+195.141.090.004 - 195.141.090.063 , 100 , Beaulieu Software sarl
+195.142.192.000 - 195.142.192.255 , 100 , Antipiracybyra Sweden
+195.143.092.132 - 195.143.092.188 , 100 , BMG Ariola München GmbH (Germany)
+195.154.072.000 - 195.154.072.255 , 100 , Sacem
+195.215.006.042 - 195.215.006.042 , 100 , Gigasoft
+195.222.252.000 - 195.222.252.127 , 100 , Edel Records GmbH (Hamburg/Germany)
+195.228.224.000 - 195.228.229.255 , 100 , www.bsa.hu
+195.243.162.000 - 195.243.162.255 , 100 , netblock of bsa.de (nsloopup www.bsa.de)  and  netblock of bsa.de (nsloopup www.bsa.de)  and  BSA.or.at.de.ch  and  host of BSA.CH  and  host of BSA.CH + BSA.DE
+196.002.128.000 - 196.002.159.255 , 100 , BSA.co.za
+198.066.034.066 - 198.066.034.066 , 100 , Red Led Studios / Madrid,Spain
+198.070.114.000 - 198.070.114.255 , 100 , Motion Picture Association (198.70.114.0/24)  and  MPAA  and  Motion Picture Association (198.70.114.0/24)  and  MPAA
+198.190.209.000 - 198.190.209.255 , 100 , Federal Bureau of Investigation
+199.095.206.000 - 199.095.207.255 , 100 , Double Click  and  Double Click  and  DoubleClick  and  doubleclick.net
+199.095.208.000 - 199.095.209.255 , 100 , doubleclick.net  and  Double Click  and  doubleclick.net  and  Double Click  and  doubleclick.net
+200.004.218.038 - 200.004.218.038 , 100 , BSAPERU.org
+200.059.091.010 - 200.059.091.010 , 100 , MSN Popup
+200.075.000.000 - 200.075.255.255 , 100 , imedia
+200.157.042.051 - 200.157.042.051 , 100 , LACNIC-200
+200.163.190.151 - 200.163.190.151 , 100 , MSN Popup
+202.039.048.000 - 202.039.048.255 , 100 , BSA.org.tw
+202.044.041.084 - 202.044.041.084 , 100 , Secret paysite passwords .html
+202.103.038.000 - 202.103.038.063 , 100 , Wuhan Research Institute of Posts and Telecommunications
+202.139.113.106 - 202.139.113.106 , 100 , Festival Mushroom Records/Sydney Au
+202.139.224.000 - 202.139.255.255 , 100 , BSAA.com.au
+203.022.000.000 - 203.022.015.255 , 100 , Communications and Entertainment Television Pty Ltd
+203.026.016.000 - 203.026.031.255 , 100 , bsa.com.au  and  BSA.COM.AU
+203.147.240.000 - 203.147.240.255 , 100 , BSA.com.au  and  host of www.bsaa.au
+204.092.244.000 - 204.092.244.255 , 100 , Ranger
+204.178.112.160 - 204.178.112.191 , 100 , Double Click  and  Double Click  and  DoubleClick  and  doubleclick.net  and  doubleclick.net  and  DoubleClick
+205.138.003.000 - 205.138.003.255 , 100 , Double Click  and  doubleclick.net
+205.150.075.000 - 205.150.075.255 , 100 , CAAST.org
+205.170.026.000 - 205.170.026.255 , 100 , media signature Tomas Jablonski
+205.229.233.000 - 205.229.233.255 , 100 , Federal Bureau of Investigation
+206.129.000.000 - 206.129.000.255 , 100 , Interliant
+206.129.001.000 - 206.129.001.255 , 100 , BESS
+206.241.030.000 - 206.241.031.255 , 100 , US Customs
+206.245.128.000 - 206.245.128.255 , 100 , Warner Music Group (206.245.64.0-206.245.127.255)  and  Warner Music Group (206.245.64.0-206.245.127.255)  and  Warner Music Group
+207.043.055.000 - 207.043.055.255 , 100 , Federal Bureau of Investigation
+207.044.222.047 - 207.044.222.047 , 100 , Everyones Internet, Inc.
+207.079.074.222 - 207.079.074.222 , 100 , R. R. Donnelly (Harvesting/Marketing)
+207.095.032.000 - 207.095.047.255 , 100 , host of www.spa.org + www.siia.net  and  SPA
+207.139.069.000 - 207.139.069.255 , 100 , www.CAAST.org  and  CAAST.org
+207.150.192.000 - 207.150.223.255 , 100 , BSAPERU.org
+207.155.128.000 - 207.155.255.255 , 100 , NetPD  and  Vidius
+207.178.128.000 - 207.178.255.255 , 100 , host of www.grammy.com (207.178.164.210)
+208.050.066.224 - 208.050.066.255 , 100 , MPAA
+208.162.216.000 - 208.162.219.255 , 100 , IRMA
+208.192.000.000 - 208.192.255.255 , 100 , RIAA Pathlink Technology  and  RIAA Pathlink Technology  and  RIAA
+208.196.168.000 - 208.196.175.255 , 100 , The Allegro Group
+208.207.098.025 - 208.207.098.025 , 100 , RIAA
+208.209.002.110 - 208.209.002.113 , 100 , RIAA
+208.218.191.010 - 208.218.191.010 , 100 , UUnet Technologies-RIAA ??
+208.225.090.000 - 208.225.090.255 , 100 , RIAA
+208.229.253.049 - 208.229.253.049 , 100 , riaa
+208.244.233.000 - 208.244.233.255 , 100 , Skywalker Sound/Marin County, CA
+208.251.137.000 - 208.251.137.255 , 100 , MediaForce
+209.067.000.000 - 209.067.255.255 , 100 , MPAA  and  Cable & Wireless  and  MPAA or Double Click ???  and  doubleclick.net  and  doubleclick.net  and  DoubleClick  and  Double Click
+209.068.004.000 - 209.068.004.255 , 100 , Grayzone.com
+209.122.130.000 - 209.122.130.255 , 100 , BayTSP
+209.132.098.000 - 209.132.098.255 , 100 , Web Sense
+209.132.099.000 - 209.132.099.255 , 100 , Web Sense
+209.203.064.000 - 209.203.127.255 , 100 , Warner Music Group
+209.204.128.000 - 209.204.253.255 , 100 , BayTSP (Sonic.net InHouseA) (p2p monitoring)  and  BayTSP (Sonic.net InHouseA) (p2p monitoring)  and  BayTSP(correction)  and  BayTSP  and  BayTSP  and  BayTSP  and  BayTSP (p2p monitoring)  and  BayTSP (p2p monitoring)  and  BayTSP(correction)
+209.255.006.077 - 209.255.006.077 , 100 , bannerfarm.ace.advertising
+210.077.155.000 - 210.077.158.255 , 100 , CHINESEBSA.org
+210.160.094.192 - 210.160.094.199 , 100 , ACCS
+212.001.049.000 - 212.001.049.031 , 100 , Universal Entertainment GmbH, Berlin/Germany (Universal Music Group)
+212.018.032.000 - 212.018.047.255 , 100 , netblock of bsa.si (nslookup www.bsa.si)  and  netblock of bsa.si (nslookup www.bsa.si)  and  bsa.si (correction)  and  bsa.si(correction)  and  BSA.si
+212.019.195.008 - 212.019.195.008 , 100 , politie.nl
+212.037.044.052 - 212.037.044.052 , 100 , Single IP ?
+212.037.044.151 - 212.037.044.151 , 100 , Single IP ?
+212.037.045.000 - 212.037.045.015 , 100 , DR3NET ??? (look 212.37.47.0)  and  DR3NET ??? (look 212.37.47.0)  and  DR3NET
+212.037.047.000 - 212.037.047.015 , 100 , DR4NET ??? (look 212.37.45.0)  and  DR4NET ??? (look 212.37.45.0)  and  DR3NET
+212.079.056.128 - 212.079.056.187 , 100 , Warner Music (Germany)  and  Warner Music (Germany) - corrected, sorry
+212.083.174.091 - 212.083.174.091 , 100 , Restpan Fighter (Good this one)
+212.098.253.000 - 212.098.253.255 , 100 , BSA.org.tr (FIX) Sorry!
+212.105.232.128 - 212.105.232.159 , 100 , BSA.hu
+212.107.032.000 - 212.107.035.191 , 100 , BSA.ee
+212.123.028.000 - 212.123.028.255 , 100 , www.arsproductions.com
+212.123.224.160 - 212.123.224.191 , 100 , SickofPolice  and  BumaStemra (Sorry Correction)
+212.131.000.000 - 212.131.255.255 , 100 , BSA.it  and  Telecom Italia >>> BSA Host  and  BSA.it
+212.152.174.000 - 212.152.174.127 , 100 , KOCH International Multimedia
+212.227.116.140 - 212.227.116.140 , 100 , MG Sound Studios/Vienna,Austria
+213.037.086.014 - 213.037.086.014 , 100 , Single IP ?
+213.037.086.108 - 213.037.086.108 , 100 , Single IP ?
+213.061.148.000 - 213.061.148.255 , 100 , Audiofon Chat & Play GmbH
+213.068.248.000 - 213.068.248.127 , 100 , KOS-Online Internetdienstleistungen
+213.083.174.091 - 213.083.174.091 , 100 , Retspan (Chat Warning)
+213.150.032.000 - 213.150.063.255 , 100 , APG  and  Scan Error
+213.183.177.000 - 213.183.177.255 , 100 , nordCom (test network for automatet process)
+213.186.035.203 - 213.186.035.203 , 100 , Capri Digital Studios/Isle of Capri, Italy
+213.210.018.000 - 213.210.018.255 , 100 , Zomba Records
+213.229.017.088 - 213.229.017.095 , 100 , Meyer Ernst u Wilhelmine, Meyer-Holz Wood-Industries
+214.000.000.000 - 214.255.255.255 , 100 , DoD Network Information Center
+215.000.000.000 - 215.255.255.255 , 100 , DoD Network Information Center (More)
+216.035.073.128 - 216.035.073.159 , 100 , OverPeer
+216.046.246.238 - 216.046.246.238 , 100 , hexillion (email harvesting)
+216.052.242.000 - 216.052.242.255 , 100 , Warner Music Group (216.52.242.0-216.52.242.255)  and  Warner Music Group (216.52.242.0-216.52.242.255)  and  Warner Music Group  and  Warner Music Group
+216.064.128.000 - 216.064.191.255 , 100 , Time Warner Telecom
+216.073.080.000 - 216.073.095.255 , 100 , DoubleClick
+216.074.057.197 - 216.074.057.216 , 100 , n-Case Ad Delivery
+216.074.128.000 - 216.074.191.255 , 100 , Cable & Wireless  and  Sony Music Entertainment Inc.  and  Sony Music Belgium
+216.118.066.000 - 216.118.066.255 , 100 , Brussel politie - Police bruxelles
+216.120.077.000 - 216.120.077.255 , 100 , AFMA (American Film Marketing Association) (Correction)
+216.122.000.000 - 216.122.255.255 , 100 , Ranger
+216.144.224.000 - 216.144.239.255 , 100 , SHA1 Hash Faker
+216.146.085.224 - 216.146.085.255 , 100 , Federal Bureau of Investigation
+216.194.192.000 - 216.194.255.255 , 100 , IDSA  and  host of www.idsa.com
+216.205.094.000 - 216.205.094.255 , 100 , Interliant
+216.218.000.000 - 216.218.255.255 , 100 , Audible Magic (copyright breach tracking org)
+217.167.182.001 - 217.167.182.255 , 100 , French Department of Defense
+217.204.027.212 - 217.204.027.215 , 100 , IFPI  and  IFPI.com  and  IFPI (dr IFPI)
+@
+
+
+1.8
+log
+@Updated again.
+@
+text
+@@
+
+
+1.7
+log
+@Removed IANA address as they are being assigned to legit ISPs.
+@
+text
+@a129 3
+080.024.000.000 - 080.024.255.255 , 100 , rima-tde.net
+080.036.000.000 - 080.036.255.255 , 100 , rima-tde.net 2
+080.058.000.000 - 080.058.255.255 , 100 , rima-tde.net
+@
+
+
+1.6
+log
+@Updated PPG_HTTPD
+@
+text
+@d1 14
+a15 2
+001.000.000.000 - 001.255.255.255 , 100 , Internet Assigned Numbers Authority
+002.000.000.000 - 002.255.255.255 , 100 , Internet Assigned Numbers Authority
+d18 4
+a21 1
+004.043.096.000 - 004.043.096.255 , 100 , Media Force (P2P monitoring) (valid)  and  MediaForce  and  MediaForce
+a24 1
+005.000.000.000 - 005.255.255.255 , 100 , Internet Assigned Numbers Authority
+d26 1
+d28 1
+a28 1
+012.150.191.000 - 012.150.191.255 , 100 , RECORDING INDUSTRY ASSOC OF AMERICA (valid)  and  RIAA
+a30 1
+023.000.000.000 - 023.255.255.255 , 100 , Internet Assigned Numbers Authority
+d33 1
+a33 2
+024.225.128.000 - 024.225.223.255 , 100 , Patriot-Media-Communications
+024.225.202.190 - 024.225.202.190 , 100 , patriot-media-communications
+a35 1
+031.000.000.000 - 031.255.255.255 , 100 , Internet Assigned Numbers Authority
+a36 2
+036.000.000.000 - 036.255.255.255 , 100 , Internet Assigned Numbers Authority
+037.000.000.000 - 037.255.255.255 , 100 , Internet Assigned Numbers Authority
+a39 2
+046.000.000.000 - 046.255.255.255 , 100 , Internet Assigned Numbers Authority
+050.000.000.000 - 050.255.255.255 , 100 , Internet Assigned Numbers Authority
+a44 2
+058.000.000.000 - 058.255.255.255 , 100 , Internet Assigned Numbers Authority
+060.000.000.000 - 060.255.255.255 , 100 , Internet Assigned Numbers Authority
+d47 1
+a47 3
+061.064.128.000 - 061.064.255.255 , 100 , Sony Taiwan Extended Range !!! (usefull)
+061.064.192.019 - 061.064.192.019 , 100 , Hacking attempts on port 8575
+061.064.232.198 - 061.064.232.198 , 100 , Sony-Network-Taiwan-Limited
+d50 1
+d57 1
+a57 2
+062.156.153.000 - 062.156.153.255 , 100 , IFPI Germany
+062.156.153.103 - 062.156.153.104 , 100 , IFPI.de
+d60 1
+a60 1
+063.064.005.000 - 063.064.005.255 , 100 , Cyveillance (P2P monitoring)  and  Cyveillance
+d64 3
+a66 3
+063.127.255.000 - 063.127.255.255 , 100 , Cyveillance   and  Cyveillance
+063.148.099.000 - 063.148.099.255 , 100 , Cyveillance (63.148.99.224   - 63.148.99.255)  and  Cyveillance  and  Cyveillance  and  Cyveillance
+063.199.057.096 - 063.199.057.128 , 100 , MPAA Phoenix Manufacturing  and  MPAA Phoenix Manufacturing (fix of previously posted range)  and  MPAA
+d73 1
+a73 5
+064.015.224.000 - 064.015.255.255 , 100 , OverPeer
+064.015.226.160 - 064.015.226.191 , 100 , Overpeer (64.15.226.160/27)
+064.015.226.166 - 064.015.226.166 , 100 , OVERPEER
+064.015.228.016 - 064.015.228.191 , 100 , OverPeer(correction)
+064.015.228.160 - 064.015.228.191 , 100 , OverPeer  and  Overpeer (source sr.com)
+d78 1
+a78 3
+064.071.166.000 - 064.071.166.255 , 100 , Audible Magic
+064.071.166.128 - 064.071.166.191 , 100 , Audible Magic #3 (Correction) Please Remove Other
+064.071.166.133 - 064.071.166.133 , 100 , www.audiblemagic.com [very specific IP address]
+d80 2
+a81 2
+064.094.089.000 - 064.094.089.255 , 100 , Gator.com  and  Gain(Gator)  and  Gator
+064.106.170.128 - 064.106.170.192 , 100 , C&DCop (Warner)  and  Unknown C&D Cop
+d86 2
+a87 3
+064.166.187.128 - 064.166.187.192 , 100 , MPAA Valerie Bourne  and  MPAA Valerie Bourne(correction)  and  MPAA
+064.201.096.000 - 064.201.111.255 , 100 , Race Technologies P2P Scanners
+064.201.104.002 - 064.201.104.002 , 100 , P2P port scanner
+d90 1
+a90 3
+064.225.000.000 - 064.225.255.255 , 100 , MPAA
+064.225.192.000 - 064.225.192.127 , 100 , MediaDefender
+064.225.202.000 - 064.225.202.255 , 100 , MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender
+d96 1
+a96 2
+065.118.041.000 - 065.118.041.255 , 100 , Cyveillance (P2P monitoring)
+065.118.041.192 - 065.118.041.223 , 100 , Cyveillance
+d98 2
+a99 3
+065.174.000.000 - 065.174.255.255 , 100 , OverPeer
+065.174.254.000 - 065.174.254.255 , 100 , BAY SOFTWARE (65.174.254.0    - 65.174.255.255)
+065.192.000.000 - 065.192.000.255 , 100 , Media Force (P2P monitoring)  and  MediaForce
+d101 3
+a103 4
+065.217.219.000 - 065.217.219.255 , 100 , Media Force (P2P monitoring)  and  Media Force
+065.217.219.192 - 065.217.219.233 , 100 , MediaForce
+065.223.000.000 - 065.223.255.255 , 100 , MediaForce (Obsidian Holdings)  and  MediaForce
+065.233.255.000 - 065.233.255.255 , 100 , Media Force (P2P monitoring)  and  Media Force
+d105 1
+a105 3
+065.244.101.001 - 065.244.101.255 , 100 , betis.com ==> RIAA Host
+065.244.101.222 - 065.244.101.222 , 100 , RIAA.COM
+065.244.101.224 - 065.244.101.224 , 100 , RIAA.com
+d113 1
+a113 3
+066.079.000.000 - 066.079.255.255 , 100 , MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender  and  MediaDefender
+066.079.010.000 - 066.079.010.255 , 100 , MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender
+066.079.095.000 - 066.079.095.255 , 100 , MediaDefender (P2P fakes/spam/monitoring)  and  MediaDefender
+a129 1
+070.000.000.000 - 079.255.255.255 , 100 , Internet Assigned Numbers Authority
+d135 1
+a135 1
+081.000.202.000 - 081.000.202.255 , 100 , BSA.sk
+a142 3
+083.000.000.000 - 095.255.255.255 , 100 , Internet Assigned Numbers Authority
+096.000.000.000 - 126.255.255.255 , 100 , Internet Assigned Numbers Authority
+128.000.000.000 - 128.000.255.255 , 100 , Internet Assigned Numbers Authority
+d147 1
+a147 2
+130.094.000.000 - 130.094.255.255 , 100 , Crescent Moon Studios/Miami, FL
+130.094.000.170 - 130.094.000.170 , 100 , Crescent Moon Studios/Miami, FL_(fixed)_Sorry
+d151 2
+a152 5
+144.232.000.000 - 144.232.255.255 , 100 , Chicago Recording Company
+144.232.010.108 - 144.232.010.108 , 100 , Chicago Recording Company/Fixed sorry
+144.232.011.245 - 144.232.011.245 , 100 , Ardent Studios UK
+144.232.026.002 - 144.232.026.002 , 100 , Remote Recording Services/New York/Philadelphia
+145.228.000.000 - 145.228.255.255 , 100 , Bertelsmann  and  Bertelsmann group world wide (includes BMG Music)
+d167 1
+a167 1
+153.031.000.000 - 153.031.255.255 , 100 , Federal Bureau of Investigation - CJIS  and  Federal Bureau of Investigation-CJIS
+d201 1
+a201 2
+193.005.088.000 - 193.005.095.255 , 100 , World Intellectual Property Organization
+193.005.093.080 - 193.005.093.080 , 100 , WIPO.ORG
+d230 2
+a231 6
+195.013.160.032 - 195.013.160.163 , 100 , BSA.lv
+195.014.000.000 - 195.014.255.255 , 100 , netcologne.de
+195.014.160.000 - 195.014.191.255 , 100 , netblock of bsa.lt (nslookup www.bsa.lt)
+195.014.162.014 - 195.014.162.014 , 100 , BSA.it
+195.014.166.000 - 195.015.037.255 , 100 , bsa.lt
+195.014.240.128 - 195.014.240.159 , 100 , EMI Electrola GmbH (Germany)
+d233 1
+a233 1
+195.029.168.000 - 195.029.168.255 , 100 , netblock of bsa.hr (nslookup www.bsa.hr)  and  BSA.hr (Watches many crack sites)
+d241 1
+a241 2
+195.076.172.000 - 195.076.172.255 , 100 , Direccion General de la Policia (SPAIN)
+195.076.172.014 - 195.076.172.014 , 100 , Direcciion General de la Policia (Spain)
+d254 3
+a256 3
+195.243.162.000 - 195.243.162.255 , 100 , netblock of bsa.de (nsloopup www.bsa.de)  and  BSA.or.at.de.ch  and  host of BSA.CH  and  host of BSA.CH + BSA.DE
+196.002.147.241 - 196.002.147.241 , 100 , BSA.co.za
+197.000.000.000 - 197.255.255.255 , 100 , Internet Assigned Numbers Authority
+d258 4
+a261 4
+198.070.114.000 - 198.070.114.255 , 100 , MPAA  and  Motion Picture Association (198.70.114.0/24)  and  MPAA
+199.095.206.000 - 199.095.207.255 , 100 , Double Click  and  DoubleClick
+199.095.207.000 - 199.095.207.000 , 100 , doubleclick.net
+199.095.208.000 - 199.095.209.255 , 100 , doubleclick.net  and  Double Click  and  doubleclick.net
+a266 1
+201.000.000.000 - 201.255.255.255 , 100 , Internet Assigned Numbers Authority
+d271 1
+d273 1
+a273 2
+203.026.016.000 - 203.026.031.255 , 100 , bsa.com.au
+203.026.024.080 - 203.026.024.080 , 100 , BSA.COM.AU
+d276 2
+a277 4
+204.178.112.160 - 204.178.112.191 , 100 , Double Click  and  DoubleClick
+204.178.112.170 - 204.178.112.170 , 100 , doubleclick.net  and  DoubleClick
+205.138.003.000 - 205.138.003.255 , 100 , Double Click
+205.138.003.062 - 205.138.003.062 , 100 , doubleclick.net
+d280 1
+d284 2
+a285 1
+206.245.128.000 - 206.245.128.255 , 100 , Warner Music Group (206.245.64.0-206.245.127.255)  and  Warner Music Group
+d288 3
+a290 4
+207.095.032.000 - 207.095.047.255 , 100 , host of www.spa.org + www.siia.net
+207.095.037.000 - 207.095.037.255 , 100 , SPA
+207.139.069.000 - 207.139.069.255 , 100 , CAAST.org
+207.150.221.096 - 207.150.221.096 , 100 , BSAPERU.org
+d295 1
+a295 1
+208.192.000.000 - 208.192.255.255 , 100 , RIAA Pathlink Technology  and  RIAA
+d304 1
+a304 3
+209.067.000.000 - 209.067.255.255 , 100 , MPAA  and  Cable & Wireless
+209.067.001.131 - 209.067.001.131 , 100 , MPAA or Double Click ???
+209.067.038.099 - 209.067.038.099 , 100 , doubleclick.net  and  DoubleClick  and  Double Click
+d310 1
+a310 3
+209.204.128.000 - 209.204.253.255 , 100 , BayTSP (Sonic.net InHouseA) (p2p monitoring)  and  BayTSP(correction)  and  BayTSP  and  BayTSP
+209.204.190.003 - 209.204.190.255 , 100 , BayTSP
+209.204.191.000 - 209.204.191.255 , 100 , BayTSP (p2p monitoring)  and  BayTSP(correction)
+d312 1
+a312 1
+210.077.158.057 - 210.077.158.057 , 100 , CHINESEBSA.org
+d315 1
+a315 2
+212.018.032.000 - 212.018.047.255 , 100 , netblock of bsa.si (nslookup www.bsa.si)  and  bsa.si (correction)  and  bsa.si(correction)
+212.018.032.020 - 212.018.032.020 , 100 , BSA.si
+d319 2
+a320 2
+212.037.045.000 - 212.037.045.015 , 100 , DR3NET ??? (look 212.37.47.0)  and  DR3NET
+212.037.047.000 - 212.037.047.015 , 100 , DR4NET ??? (look 212.37.45.0)  and  DR3NET
+d325 1
+a325 2
+212.107.032.152 - 212.107.032.152 , 100 , BSA.ee
+212.107.032.153 - 212.107.032.153 , 100 , BSA.ee
+d328 1
+a328 2
+212.131.000.000 - 212.131.255.255 , 100 , Telecom Italia >>> BSA Host
+212.131.142.004 - 212.131.142.004 , 100 , BSA.it
+d336 1
+a336 2
+213.150.032.000 - 213.150.063.255 , 100 , APG
+213.150.042.178 - 213.150.042.178 , 100 , Scan Error
+d345 1
+a345 1
+216.052.242.000 - 216.052.242.255 , 100 , Warner Music Group (216.52.242.0-216.52.242.255)  and  Warner Music Group  and  Warner Music Group
+d349 1
+a349 2
+216.074.128.000 - 216.074.191.255 , 100 , Cable & Wireless
+216.074.154.000 - 216.074.154.255 , 100 , Sony Music Entertainment Inc.  and  Sony Music Belgium
+d354 1
+d359 1
+a359 2
+217.204.027.212 - 217.204.027.215 , 100 , IFPI
+217.204.027.214 - 217.204.027.214 , 100 , IFPI.com  and  IFPI (dr IFPI)
+@
+
+
+1.5
+log
+@Update.
+@
+text
+@a0 1871
+004.003.058.000 - 004.003.058.255 , 200 , GTE Intelligent Network Services
+004.035.012.000 - 004.035.015.255 , 200 , dsl.genuity.net
+004.046.072.000 - 004.046.072.255 , 200 , dsl-verizon.net
+004.046.120.000 - 004.046.175.255 , 200 , GTE Intelligent Network Services
+004.062.054.000 - 004.062.054.255 , 200 , dsl-verizon.net
+004.063.000.000 - 004.063.007.255 , 200 , GTE Intelligent Network Services
+010.000.000.000 - 010.255.255.255 , 200 , Private Networks
+012.102.022.000 - 012.102.022.255 , 200 , dsl.att.net
+012.134.000.000 - 012.134.000.255 , 200 , dsl.att.net
+012.208.064.000 - 012.208.064.255 , 200 , client.attbi.com
+012.209.074.000 - 012.209.074.255 , 200 , client.attbi.com
+012.209.159.000 - 012.209.159.255 , 200 , client.attbi.com
+012.211.114.000 - 012.211.114.255 , 200 , client.attbi.com
+012.213.105.000 - 012.213.105.255 , 200 , client.attbi.com
+012.213.179.000 - 012.213.179.255 , 200 , client.attbi.com 
+012.213.197.000 - 012.213.197.255 , 200 , client.attbi.com 
+012.215.072.000 - 012.215.072.255 , 200 , client.mchsi.com
+012.217.002.000 - 012.217.002.255 , 200 , client.mchsi.com
+012.218.034.000 - 012.218.034.255 , 200 , client.mchsi.com
+012.218.240.000 - 012.218.240.255 , 200 , client.mchsi.com
+012.220.201.000 - 012.220.201.255 , 200 , client.insightBB.com
+012.221.070.000 - 012.221.070.255 , 200 , client.insightBB.com
+012.221.110.000 - 012.221.110.255 , 200 , client.insightBB.com
+012.222.106.000 - 012.222.106.255 , 200 , client.insightBB.com
+012.224.130.000 - 012.224.130.255 , 200 , client.attbi.com 
+012.224.160.000 - 012.224.160.255 , 200 , client.attbi.com 
+012.224.163.000 - 012.224.163.255 , 200 , client.attbi.com 
+012.225.129.000 - 012.225.129.255 , 200 , client.attbi.com 
+012.225.173.000 - 012.225.173.255 , 200 , client.attbi.com 
+012.226.043.000 - 012.226.043.255 , 200 , client.attbi.com 
+012.227.020.000 - 012.227.020.255 , 200 , client.attbi.com 
+012.230.022.000 - 012.230.022.255 , 200 , client.attbi.com 
+012.231.152.000 - 012.231.152.255 , 200 , client.attbi.com 
+012.233.114.000 - 012.233.114.255 , 200 , client.attbi.com 
+012.234.118.000 - 012.234.118.255 , 200 , client.attbi.com 
+012.234.161.000 - 012.234.161.255 , 200 , client.attbi.com 
+012.235.103.000 - 012.235.103.255 , 200 , client.attbi.com 
+012.235.163.000 - 012.235.163.255 , 200 , client.attbi.com 
+012.235.193.000 - 012.235.193.255 , 200 , client.attbi.com 
+012.237.094.000 - 012.237.094.255 , 200 , client.attbi.com 
+012.237.143.000 - 012.237.143.255 , 200 , client.attbi.com 
+012.237.195.000 - 012.237.195.255 , 200 , client.attbi.com 
+012.238.078.000 - 012.238.078.255 , 200 , client.attbi.com 
+012.238.120.000 - 012.238.120.255 , 200 , client.attbi.com 
+012.238.236.000 - 012.238.236.255 , 200 , client.attbi.com 
+012.240.204.000 - 012.240.204.255 , 200 , client.attbi.com 
+012.241.073.000 - 012.241.073.255 , 200 , client.attbi.com 
+012.246.040.000 - 012.246.040.255 , 200 , client.attbi.com 
+012.246.179.000 - 012.246.179.255 , 200 , client.attbi.com 
+012.247.050.000 - 012.247.050.255 , 200 , client.attbi.com 
+012.247.171.000 - 012.247.171.255 , 200 , client.attbi.com 
+012.248.199.000 - 012.248.199.255 , 200 , client.attbi.com 
+012.249.166.000 - 012.249.166.255 , 200 , client.attbi.com 
+012.249.171.000 - 012.249.171.255 , 200 , client.attbi.com 
+012.249.203.000 - 012.249.203.255 , 200 , client.attbi.com 
+012.250.064.000 - 012.250.064.255 , 200 , client.attbi.com 
+012.252.113.000 - 012.252.113.255 , 200 , client.attbi.com 
+012.252.197.000 - 012.252.197.255 , 200 , client.attbi.com 
+012.253.001.000 - 012.253.001.255 , 200 , client.attbi.com 
+012.253.005.000 - 012.253.005.255 , 200 , client.attbi.com 
+012.254.140.000 - 012.254.140.255 , 200 , client.attbi.com 
+012.254.153.000 - 012.254.153.255 , 200 , client.attbi.com 
+012.254.161.000 - 012.254.161.255 , 200 , client.attbi.com 
+012.254.218.000 - 012.254.218.255 , 200 , client.attbi.com 
+012.254.241.000 - 012.254.241.255 , 200 , client.attbi.com 
+012.254.246.000 - 012.254.246.255 , 200 , client.attbi.com 
+012.255.039.000 - 012.255.039.255 , 200 , client.attbi.com 
+014.000.000.000 - 014.255.255.255 , 200 , RFC 3330     Public-Data Networks (X25  stuff)
+018.000.000.000 - 018.255.255.255 , 200 , Massachusetts Institute of Technology
+024.024.000.000 - 024.029.255.255 , 200 , nyc.rr.com
+024.042.005.000 - 024.042.005.127 , 200 , Rogers Cable Inc.
+024.042.087.000 - 024.042.087.127 , 200 , Rogers Cable Inc.
+024.042.238.192 - 024.042.238.255 , 200 , Rogers Cable Inc.
+024.103.014.000 - 024.103.014.127 , 200 , Rogers Cable Inc.
+024.112.208.000 - 024.112.209.255 , 200 , Rogers Cable Inc.
+024.126.000.000 - 024.127.191.255 , 200 , AT&T Broadband West
+024.132.090.000 - 024.132.092.000 , 200 , UPC/A2000/ Kabeltelevisie Amsterdam
+024.147.000.000 - 024.147.255.255 , 200 , AT&T Broadband West
+024.193.000.000 - 024.193.255.255 , 200 , nyc.rr.com
+024.198.000.000 - 024.198.255.255 , 200 , ROADRUNNER-NYC
+024.202.003.000 - 024.202.003.255 , 200 , Videotron 
+024.232.000.000 - 024.232.255.255 , 200 , CABLEVISION
+029.000.000.000 - 029.255.255.255 , 200 , DoD Network Information Center
+035.008.000.000 - 035.010.255.255 , 200 , Michigan State University
+035.011.000.000 - 035.011.255.255 , 200 , Michigan State University
+043.000.000.000 - 043.255.255.255 , 200 , Japan Inet
+048.000.000.000 - 048.255.255.255 , 200 , Prudential Securities Inc.
+057.000.000.000 - 057.255.255.255 , 200 , SITA-Societe Internationale de Telecommunications Aeronautiques
+061.010.128.000 - 061.010.255.255 , 200 , hkcable.com.hk
+061.015.000.000 - 061.015.127.255 , 200 , hkcable.com.hk
+061.064.128.000 - 061.064.255.255 , 200 , sonet      
+061.072.000.000 - 061.077.255.255 , 200 , KOREA TELECOM
+061.073.152.000 - 061.073.163.255 , 200 , KORNET-XDSL
+061.073.210.000 - 061.073.210.255 , 200 , Kornet (dsl)
+061.074.002.000 - 061.074.003.255 , 200 , KORNET (DSL)
+061.074.100.000 - 061.074.119.255 , 200 , Kornet (dsl)
+061.074.218.000 - 061.074.227.255 , 200 , KORNET-XDSL
+061.076.054.000 - 061.076.063.255 , 200 , KORNET (dsl)
+061.076.105.000 - 061.076.114.255 , 200 , KORNET (DSL)
+061.078.000.000 - 061.085.255.255 , 200 , KOREA TELECOM
+061.096.000.000 - 061.111.255.255 , 200 , Korea Network Information Center
+061.172.000.000 - 061.173.255.255 , 200 , CHINANET
+061.177.000.000 - 061.177.255.255 , 200 , 
+061.216.000.000 - 061.219.255.255 , 200 , HiNet (dsl)
+061.228.000.000 - 061.231.255.255 , 200 , HINET-IP.hinet.net
+061.232.000.000 - 061.237.255.255 , 200 , CHINA RAILWAY TELECOMMUNICATIONS
+061.248.113.000 - 061.248.113.255 , 200 , Onse Telecom
+061.248.130.000 - 061.248.130.255 , 200 , Onse Telecom
+062.000.064.000 - 062.000.191.255 , 200 , Netvision pop sites
+062.004.016.000 - 062.004.020.255 , 200 , Nerim is an Internet Service Provider
+062.006.064.000 - 062.006.095.255 , 200 , in-addr.btopenworld.com
+062.014.000.000 - 062.015.255.255 , 200 , by Jazztel Telecom S.A.
+062.016.196.000 - 062.016.201.255 , 200 , Telenor Avidi
+062.021.000.000 - 062.021.099.255 , 200 , Internet Cable Provider
+062.030.000.000 - 062.031.255.255 , 200 , Cable Internet (blueyonder.co.uk)
+062.031.176.000 - 062.031.191.255 , 200 , blueyonder.co.uk
+062.031.224.000 - 062.031.255.255 , 200 , bra.cvx.blueyonder.co.uk
+062.037.032.000 - 062.037.063.255 , 200 , UNI2 IP Data Network
+062.043.000.000 - 062.043.127.255 , 200 , ONO
+062.046.000.000 - 062.046.255.255 , 200 , dipool.highway.telekom.at
+062.047.000.000 - 062.047.063.255 , 200 , Telekom Austria Aktiengesellschaft
+062.047.128.000 - 062.047.255.255 , 200 , adsl.highway.telekom.at
+062.057.000.000 - 062.057.031.255 , 200 , Cable i Televisio de Catalunya
+062.057.032.000 - 062.057.063.255 , 200 , 
+062.057.112.000 - 062.057.119.255 , 200 , Cable i Televisio de Catalunya
+062.057.138.000 - 062.057.139.255 , 200 , Internet de Banda Ampla
+062.057.144.000 - 062.057.145.255 , 200 , Cable i Televisio de Catalunya
+062.057.152.000 - 062.057.153.255 , 200 , Cable i Televisio de Catalunya
+062.057.168.000 - 062.057.169.255 , 200 , Cable i Televisio de Catalunya
+062.057.170.000 - 062.057.171.255 , 200 , Cable i Televisio de Catalunya
+062.057.192.000 - 062.057.193.255 , 200 , 
+062.057.240.000 - 062.057.241.255 , 200 , Cable i Televisio de Catalunya
+062.062.166.000 - 062.062.183.255 , 200 , 9TELECOM (dsl)
+062.062.188.000 - 062.062.191.255 , 200 , 9TEL.NET (dsl)
+062.062.212.000 - 062.062.215.255 , 200 , 9tel.net (dsl)
+062.062.220.000 - 062.062.223.255 , 200 , 9tel.net (dsl)
+062.062.228.000 - 062.062.239.255 , 200 , 9TELECOM (dsl)
+062.062.248.000 - 062.062.255.255 , 200 , 9tel.net (dsl)
+062.077.240.000 - 062.077.240.255 , 200 , VIVENDI (dsl)
+062.078.224.000 - 062.078.239.255 , 200 , Helsinki Televisio
+062.079.000.000 - 062.079.255.255 , 200 , Tiscali
+062.087.198.000 - 062.087.198.255 , 200 , net.pl
+062.099.064.000 - 062.099.079.255 , 200 , euskaltel.es
+062.099.120.000 - 062.099.127.255 , 200 , Euskaltel (dsl)
+062.107.064.000 - 062.107.127.255 , 200 , Telia
+062.109.064.000 - 062.109.083.255 , 200 , hansenet.de
+062.109.096.000 - 062.109.127.255 , 200 , hansenet.de
+062.121.064.000 - 062.121.095.255 , 200 , Aster City Cable Sp z o.o.
+062.121.096.000 - 062.121.111.255 , 200 , Domaniewska
+062.123.000.000 - 062.123.127.255 , 200 , Atlanet Network
+062.131.000.000 - 062.131.127.255 , 200 , planet.nl (dsl)
+062.131.128.000 - 062.131.255.255 , 200 , speed.planet.nl
+062.142.008.000 - 062.142.015.255 , 200 , Jippii Group
+062.142.069.000 - 062.142.069.255 , 200 , jippii.net
+062.143.000.000 - 062.143.255.255 , 200 , ish.de
+062.146.024.000 - 062.146.024.255 , 200 , Leodom Housing
+062.147.000.000 - 062.147.078.255 , 200 , Proxad 
+062.147.079.000 - 062.147.255.255 , 200 , Proxad / Free Telecom
+062.155.128.000 - 062.155.255.255 , 200 , dip.t-dialin.net
+062.158.000.000 - 062.158.255.255 , 200 , dip.t-dialin.net
+062.161.204.000 - 062.161.204.031 , 200 , FR-ICS
+062.167.144.000 - 062.167.175.255 , 200 , SUNRISE-ADSL
+062.167.176.000 - 062.167.217.255 , 200 , adslplus.ch
+062.174.128.000 - 062.174.191.255 , 200 , Retevision
+062.178.000.000 - 062.179.255.255 , 200 , chello.at
+062.178.084.000 - 062.178.114.255 , 200 , @@chello.at
+062.178.132.000 - 062.178.157.255 , 200 , chello.at
+062.178.172.000 - 062.178.184.255 , 200 , chello Austria
+062.178.186.000 - 062.178.231.255 , 200 , Customers in Vienna headend 15
+062.178.242.000 - 062.178.245.255 , 200 , chello.at
+062.189.000.000 - 062.190.255.255 , 200 , ???
+062.199.202.000 - 062.199.205.255 , 200 , mobilix.dk
+062.202.000.000 - 062.202.127.255 , 200 , bluewin.ch
+062.203.000.000 - 062.203.127.255 , 200 , bluewin.ch
+062.210.000.000 - 062.210.255.255 , 200 , ISDnet
+062.211.030.000 - 062.211.031.255 , 200 , Telecom Italia
+062.211.052.000 - 062.211.052.255 , 200 , 
+062.211.128.000 - 062.211.255.255 , 200 , Telecom Italia (dsl)
+062.212.096.000 - 062.212.111.255 , 200 , Netissimo (dsl)
+062.212.112.000 - 062.212.119.255 , 200 , France Telecom(dsl)
+062.214.000.000 - 062.214.255.255 , 200 , KomTel GmbH
+062.218.235.000 - 062.218.235.255 , 200 , Bohnsteiger
+062.219.064.000 - 062.219.079.255 , 200 , bezeqint.net
+062.219.112.000 - 062.219.151.255 , 200 , bezeqint.net (dsl)
+062.219.152.000 - 062.219.159.255 , 200 , bezeqint.net (dsl)
+062.220.012.000 - 062.220.015.255 , 200 , berlikomm.net (dsl)
+062.224.000.000 - 062.224.127.255 , 200 , dip.t-dialin.net
+062.225.192.000 - 062.227.255.255 , 200 , dip.t-dialin.net
+062.234.000.000 - 062.234.127.255 , 200 , cable.wanadoo.nl
+062.235.000.000 - 062.235.255.255 , 200 , World Online
+062.243.080.000 - 062.243.095.255 , 200 , TDC Tele Danmark
+062.243.117.000 - 062.243.117.255 , 200 , Tele Danmark Kabel TV
+062.243.128.000 - 062.243.128.255 , 200 , adsl.tele.dk
+062.243.151.000 - 062.243.151.255 , 200 , tele.dk (dsl)
+062.243.170.000 - 062.243.170.255 , 200 , adsl-dhcp.tele.dk
+062.243.178.000 - 062.243.178.255 , 200 , Tele Danmark (dsl)
+062.245.160.000 - 062.245.161.255 , 200 , mnet-online.de
+062.245.162.000 - 062.245.162.255 , 200 , M"net Telekommunikations
+062.245.163.000 - 062.245.163.255 , 200 , M"net Telekommunikations
+062.245.208.000 - 062.245.209.255 , 200 , m-net.de
+062.246.000.000 - 062.246.255.255 , 200 , dialo.tiscali.de
+062.248.144.000 - 062.248.147.255 , 200 , @@kolumbus.fi
+062.251.064.000 - 062.251.127.255 , 200 , hccnet.nl (dsl)
+062.253.104.000 - 062.253.111.255 , 200 , ntl
+062.254.000.000 - 062.254.031.255 , 200 , NTL Internet
+062.254.112.000 - 062.254.119.255 , 200 , ntl
+063.224.000.000 - 063.231.255.255 , 200 , U S WEST Internet Services
+064.113.064.000 - 064.113.095.255 , 200 , owa State University
+064.151.000.000 - 064.151.063.255 , 200 , EVEREST
+064.161.028.000 - 064.161.031.255 , 200 , Pac Bell Internet (PPPoX)
+064.166.060.000 - 064.166.063.255 , 200 , Pac Bell Internet (PPPoX)
+064.166.084.000 - 064.166.087.255 , 200 , Pac Bell Internet (PPPoX)
+064.166.198.000 - 064.166.199.255 , 200 , Pac Bell Internet (PPPoX)
+064.171.012.000 - 064.171.015.255 , 200 , Pac Bell Internet (PPPoX)
+064.175.112.000 - 064.175.115.255 , 200 , Pac Bell Internet (PPPoX)
+064.180.000.000 - 064.180.255.255 , 200 , bc.hsia.telus.net
+064.216.000.000 - 064.219.255.255 , 200 , SBC Internet Services
+064.246.000.000 - 064.246.047.255 , 200 , Everyones Internet, Inc.
+064.254.008.000 - 064.254.009.255 , 200 , Cognicase ISP (dsl)
+065.024.000.000 - 065.027.255.255 , 200 , ROADRUNNER
+065.028.000.000 - 065.031.255.255 , 200 , ROADRUNNER
+065.032.000.000 - 065.034.031.255 , 200 , ROADRUNNER
+065.060.128.000 - 065.060.255.255 , 200 , WideOpenWest LLC WIDEOPENWEST
+065.162.190.000 - 065.162.191.255 , 200 , COMMUNICATION DESIGN
+066.056.000.000 - 066.056.095.255 , 200 , AT&T Broadband
+066.058.000.000 - 066.058.127.255 , 200 , UUNET Technologies, Inc
+066.066.000.000 - 066.067.255.255 , 200 , ROADRUNNER-NYC
+066.087.000.000 - 066.087.255.255 , 200 , SPRINT BWG
+066.111.032.000 - 066.111.063.255 , 200 , United Colocation Group, Inc.
+067.117.146.000 - 067.117.146.255 , 200 , Rback1.snfc21 PPPoX
+080.000.000.000 - 080.007.255.255 , 200 , ntl
+080.000.044.000 - 080.000.047.255 , 200 , ntl
+080.000.096.000 - 080.000.111.255 , 200 , NTL
+080.000.170.000 - 080.000.175.255 , 200 , ntl
+080.000.250.000 - 080.000.251.255 , 200 , ntl
+080.001.096.000 - 080.001.169.063 , 200 , ntl
+080.001.224.000 - 080.001.255.255 , 200 , ntl
+080.002.248.000 - 080.002.255.255 , 200 , ntl
+080.003.000.000 - 080.003.031.255 , 200 , ntl
+080.003.032.000 - 080.003.063.255 , 200 , NTL Internet - Hersham POP
+080.003.064.000 - 080.003.095.255 , 200 , NTL Internet
+080.003.160.000 - 080.003.191.255 , 200 , ntl
+080.003.200.000 - 080.003.207.255 , 200 , ntl
+080.004.072.000 - 080.004.079.255 , 200 , ntl
+080.004.104.000 - 080.004.111.255 , 200 , ntl
+080.004.160.000 - 080.004.175.255 , 200 , ntl
+080.004.224.000 - 080.004.255.255 , 200 , NTL
+080.005.128.000 - 080.005.143.255 , 200 , NTL
+080.005.144.000 - 080.005.159.255 , 200 , NTL
+080.005.240.000 - 080.005.247.255 , 200 , ntl
+080.006.064.000 - 080.006.071.255 , 200 , NTL Middlesbrough
+080.006.200.000 - 080.006.207.255 , 200 , NTL
+080.006.208.000 - 080.006.215.255 , 200 , NTL Infrastructure - Cardiff
+080.006.232.000 - 080.006.239.255 , 200 , NTL
+080.007.064.000 - 080.007.079.255 , 200 , NTL
+080.007.080.000 - 080.007.095.255 , 200 , ntl
+080.007.104.000 - 080.007.111.255 , 200 , ntl
+080.007.112.000 - 080.007.127.255 , 200 , NTL
+080.007.192.000 - 080.007.215.255 , 200 , NTL
+080.007.224.000 - 080.007.255.255 , 200 , cable.ntl.com
+080.008.000.000 - 080.008.003.255 , 200 , cablewanadoo.com
+080.008.006.000 - 080.008.015.255 , 200 , wanadoo.fr
+080.008.025.000 - 080.008.035.255 , 200 , cablewanadoo.com
+080.008.036.000 - 080.008.042.255 , 200 , cablewanadoo.com
+080.008.043.000 - 080.008.049.255 , 200 , wanadoo.fr
+080.008.050.000 - 080.008.053.255 , 200 , cablewanadoo.com
+080.008.054.000 - 080.008.072.255 , 200 , cablewanadoo.com
+080.008.073.000 - 080.008.092.255 , 200 , wanadoo.fr
+080.008.128.000 - 080.008.149.255 , 200 , cablewanadoo.com
+080.008.150.000 - 080.008.171.255 , 200 , cablewanadoo.com
+080.008.175.000 - 080.008.175.255 , 200 , cablewanadoo.com
+080.009.199.000 - 080.009.199.255 , 200 , wanadoo.fr
+080.011.004.000 - 080.011.004.255 , 200 , wanadoo.fr(dsl)
+080.011.013.000 - 080.011.013.255 , 200 , wanadoo.fr (dsl)
+080.011.015.000 - 080.011.015.255 , 200 , wanadoo.fr 
+080.011.017.000 - 080.011.017.255 , 200 , wanadoo.fr (dsl)
+080.011.025.000 - 080.011.025.255 , 200 , wanadoo.com (dsl)
+080.011.030.000 - 080.011.030.255 , 200 , wanadoo.fr (dsl)
+080.011.032.000 - 080.011.032.255 , 200 , wanadoo.fr (dsl)
+080.011.033.000 - 080.011.033.255 , 200 , wanadoo.fr (dsl)
+080.011.036.000 - 080.011.036.255 , 200 , wanadoo.fr (dsl)
+080.011.038.000 - 080.011.038.255 , 200 , wanadoo.fr (dsl)
+080.011.039.000 - 080.011.039.255 , 200 , wanadoo.fr(dsl)
+080.011.044.000 - 080.011.044.255 , 200 , wanadoo.fr(dsl)
+080.011.046.000 - 080.011.046.255 , 200 , wanadoo.fr (dsl)
+080.011.048.000 - 080.011.048.255 , 200 , wanadoo.fr (dsl)
+080.011.049.000 - 080.011.049.255 , 200 , wanadoo.fr (dsl)
+080.011.054.000 - 080.011.054.255 , 200 , wanadoo.fr (dsl)
+080.011.064.000 - 080.011.064.255 , 200 , wanadoo.fr(dsl)
+080.011.068.000 - 080.011.068.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.011.070.000 - 080.011.070.255 , 200 , wanadoo.fr (dsl)
+080.011.071.000 - 080.011.071.255 , 200 , wanadoo.fr (dsl)
+080.011.078.000 - 080.011.078.255 , 200 , wanadoo.fr (dsl)
+080.011.084.000 - 080.011.084.255 , 200 , wanadoo.fr (dsl)
+080.011.089.000 - 080.011.089.255 , 200 , wanadoo.fr(dsl)
+080.011.090.000 - 080.011.090.255 , 200 , wanadoo.fr(dsl)
+080.011.092.000 - 080.011.092.255 , 200 , wanadoo.fr (dsl)
+080.011.094.000 - 080.011.094.255 , 200 , wanadoo.fr (dsl)
+080.011.095.000 - 080.011.095.255 , 200 , wanadoo.fr (dsl)
+080.011.100.000 - 080.011.100.255 , 200 , wanadoo.fr(dsl)
+080.011.111.000 - 080.011.111.255 , 200 , wanadoo.fr(dsl)
+080.011.135.000 - 080.011.135.255 , 200 , wanadoo.com (dsl)
+080.011.136.000 - 080.011.136.255 , 200 , wanadoo.fr (dsl)
+080.011.138.000 - 080.011.138.255 , 200 , wanadoo.fr(dsl)
+080.011.143.000 - 080.011.143.255 , 200 , wanadoo.fr (dsl)
+080.011.144.000 - 080.011.144.255 , 200 , wanadoo.fr (dsl)
+080.011.148.000 - 080.011.148.255 , 200 , wanadoo.fr(dsl)
+080.011.171.000 - 080.011.171.255 , 200 , wanadoo.fr (dsl)
+080.011.172.000 - 080.011.172.255 , 200 , wanadoo.com (dsl)
+080.011.173.000 - 080.011.173.255 , 200 , wanadoo.fr (dsl)
+080.011.174.000 - 080.011.174.255 , 200 , wanadoo.fr (dsl)
+080.011.178.000 - 080.011.178.255 , 200 , wanadoo.fr (dsl)
+080.011.179.000 - 080.011.179.255 , 200 , wanadoo.fr (dsl)
+080.011.187.000 - 080.011.187.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.011.188.000 - 080.011.188.255 , 200 , wanadoo.fr (dsl)
+080.011.189.000 - 080.011.189.255 , 200 , wanadoo.fr(dsl)
+080.011.192.000 - 080.011.192.255 , 200 , wanadoo.fr (dsl)
+080.011.194.000 - 080.011.194.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.011.195.000 - 080.011.195.255 , 200 , wanadoo.fr (dsl)
+080.011.196.000 - 080.011.196.255 , 200 , wanadoo.com (dsl)
+080.011.197.000 - 080.011.197.255 , 200 , wanadoo.fr (dsl)
+080.011.199.000 - 080.011.199.255 , 200 , wanadoo.fr (dsl)
+080.011.201.000 - 080.011.201.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.011.202.000 - 080.011.202.255 , 200 , wanadoo.fr (dsl)
+080.011.209.000 - 080.011.209.255 , 200 , wanadoo.fr
+080.011.215.000 - 080.011.215.255 , 200 , wanadoo.fr (dsl)
+080.011.219.000 - 080.011.219.255 , 200 , wanadoo.fr (dsl)
+080.011.230.000 - 080.011.230.255 , 200 , wanadoo.fr (dsl)
+080.011.231.000 - 080.011.231.255 , 200 , wanadoo.fr (dsl)
+080.011.238.000 - 080.011.238.255 , 200 , wanadoo.fr (dsl)
+080.011.239.000 - 080.011.239.255 , 200 , wanadoo.fr (dsl)
+080.011.241.000 - 080.011.241.255 , 200 , wanadoo.com (dsl)
+080.011.242.000 - 080.011.242.255 , 200 , wanadoo.fr (dsl)
+080.011.245.000 - 080.011.245.255 , 200 , wanadoo.fr(dsl)
+080.013.004.000 - 080.013.004.255 , 200 , wanadoo.fr (dsl)
+080.013.018.000 - 080.013.018.255 , 200 , wanadoo.com (dsl)
+080.013.019.000 - 080.013.019.255 , 200 , wanadoo.com (dsl)
+080.013.029.000 - 080.013.029.255 , 200 , wanadoo.fr (dsl)
+080.013.032.000 - 080.013.032.255 , 200 , wanadoo.com (dsl)
+080.013.034.000 - 080.013.034.255 , 200 , wanadoo.fr(dsl)
+080.013.042.000 - 080.013.042.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.013.044.000 - 080.013.044.255 , 200 , wanadoo.com (dsl)
+080.013.048.000 - 080.013.048.255 , 200 , wanadoo.fr (dsl)
+080.013.050.000 - 080.013.050.255 , 200 , wanadoo.com (dsl)
+080.013.060.000 - 080.013.060.255 , 200 , wanadoo.fr (dsl)
+080.013.071.000 - 080.013.071.255 , 200 , wanadoo.fr
+080.013.072.000 - 080.013.072.255 , 200 , wanadoo.fr (dsl) 
+080.013.073.000 - 080.013.073.255 , 200 , wanadoo.fr (dsl)
+080.013.075.000 - 080.013.075.255 , 200 , wanadoo.fr
+080.013.079.000 - 080.013.079.255 , 200 , wanadoo.fr(dsl)
+080.013.080.000 - 080.013.080.255 , 200 , wanadoo.com (dsl)
+080.013.081.000 - 080.013.081.255 , 200 , wanadoo.fr(dsl)
+080.013.083.000 - 080.013.083.255 , 200 , wanadoo.fr (dsl)
+080.013.084.000 - 080.013.084.255 , 200 , wanadoo.fr (dsl)
+080.013.087.000 - 080.013.087.255 , 200 , wanadoo.fr (dsl)
+080.013.089.000 - 080.013.089.255 , 200 , wanadoo.fr (dsl)
+080.013.093.000 - 080.013.093.255 , 200 , wanadoo.fr(dsl)
+080.013.102.000 - 080.013.102.255 , 200 , wanadoo.fr (dsl)
+080.013.110.000 - 080.013.110.255 , 200 , wanadoo.fr (dsl)
+080.013.113.000 - 080.013.113.255 , 200 , wanadoo.fr
+080.013.116.000 - 080.013.116.255 , 200 , wanadoo.fr(dsl)
+080.013.117.000 - 080.013.117.255 , 200 , wanadoo.fr (dsl)
+080.013.123.000 - 080.013.123.255 , 200 , wanadoo.fr (dsl)
+080.013.131.000 - 080.013.131.255 , 200 , wanadoo.com (dsl)
+080.013.137.000 - 080.013.137.255 , 200 , wanadoo.com (dsl)
+080.013.139.000 - 080.013.139.255 , 200 , wanadoo.fr (dsl)
+080.013.141.000 - 080.013.141.255 , 200 , wanadoo.fr
+080.013.151.000 - 080.013.151.255 , 200 , wanadoo.com (dsl)
+080.013.153.000 - 080.013.153.255 , 200 , wanadoo.fr(dsl)
+080.013.156.000 - 080.013.156.255 , 200 , wanadoo.fr (dsl)
+080.013.158.000 - 080.013.158.255 , 200 , wanadoo.fr (dsl)
+080.013.159.000 - 080.013.159.255 , 200 , wanadoo.fr (dsl)
+080.013.161.000 - 080.013.161.255 , 200 , wanadoo.com (dsl)
+080.013.162.000 - 080.013.162.255 , 200 , wanadoo.fr (dsl)
+080.013.165.000 - 080.013.165.255 , 200 , wanadoo.com (dsl)
+080.013.168.000 - 080.013.168.255 , 200 , wanadoo.fr (dsl)
+080.013.176.000 - 080.013.176.255 , 200 , wanadoo.com (dsl)
+080.013.184.000 - 080.013.184.255 , 200 , wanadoo.com (dsl)
+080.013.187.000 - 080.013.187.255 , 200 , wanadoo.fr (dsl)
+080.013.190.000 - 080.013.190.255 , 200 , wanadoo.fr (dsl)
+080.013.195.000 - 080.013.195.255 , 200 , wanadoo.fr (dsl)
+080.013.201.000 - 080.013.201.255 , 200 , wanadoo.fr (dsl)
+080.013.202.000 - 080.013.202.255 , 200 , wanadoo.fr (dsl)
+080.013.203.000 - 080.013.203.255 , 200 , wanadoo.fr (dsl)
+080.013.204.000 - 080.013.204.255 , 200 , wanadoo.fr(dsl)
+080.013.205.000 - 080.013.205.255 , 200 , wanadoo.fr (dsl)
+080.013.207.000 - 080.013.207.255 , 200 , wanadoo.fr (dsl)
+080.013.209.000 - 080.013.209.255 , 200 , wanadoo.fr (dsl)
+080.013.211.000 - 080.013.211.255 , 200 , wanadoo.fr (dsl)
+080.013.219.000 - 080.013.219.255 , 200 , wanadoo.fr (dsl)
+080.013.220.000 - 080.013.220.255 , 200 , wanadoo.fr (dsl)
+080.013.221.000 - 080.013.221.255 , 200 , wanadoo.fr (dsl)
+080.013.222.000 - 080.013.222.255 , 200 , wanadoo.com (dsl)
+080.013.233.000 - 080.013.233.255 , 200 , wanadoo.fr (dsl)
+080.013.236.000 - 080.013.236.255 , 200 , wanadoo.fr (dsl)
+080.013.244.000 - 080.013.244.255 , 200 , wanadoo.fr (dsl)
+080.013.247.000 - 080.013.247.255 , 200 , wanadoo.fr (dsl)
+080.013.251.000 - 080.013.251.255 , 200 , wanadoo.fr(dsl)
+080.013.252.000 - 080.013.252.255 , 200 , wanadoo.fr (dsl)
+080.013.255.000 - 080.013.255.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.014.006.000 - 080.014.006.255 , 200 , wanadoo.fr (dsl)
+080.014.009.000 - 080.014.009.255 , 200 , wanadoo.fr (dsl)
+080.014.013.000 - 080.014.013.255 , 200 , wanadoo.fr (dsl)
+080.014.015.000 - 080.014.015.255 , 200 , wanadoo.fr (dsl)
+080.014.017.000 - 080.014.017.255 , 200 , wanadoo.fr (dsl)
+080.014.031.000 - 080.014.031.255 , 200 , wanadoo.fr (dsl)
+080.014.035.000 - 080.014.035.255 , 200 , wanadoo.fr
+080.014.036.000 - 080.014.036.255 , 200 , wanadoo.fr (dsl)
+080.014.039.000 - 080.014.039.255 , 200 , wanadoo.fr (dsl)
+080.014.040.000 - 080.014.040.255 , 200 , wanadoo.fr (dsl)
+080.014.042.000 - 080.014.042.255 , 200 , wanadoo.com (dsl)
+080.014.052.000 - 080.014.052.255 , 200 , wanadoo.com (dsl)
+080.014.055.000 - 080.014.055.255 , 200 , wanadoo.fr (dsl)
+080.014.056.000 - 080.014.056.255 , 200 , wanadoo.fr
+080.014.058.000 - 080.014.058.255 , 200 , wanadoo.fr (dsl)
+080.014.062.000 - 080.014.062.255 , 200 , wanadoo.fr
+080.014.063.000 - 080.014.063.255 , 200 , wanadoo.fr (dsl)
+080.014.066.000 - 080.014.066.255 , 200 , wanadoo.fr(dsl)
+080.014.067.000 - 080.014.067.255 , 200 , wanadoo.fr (dsl)
+080.014.069.000 - 080.014.069.255 , 200 , wanadoo.fr (dsl)
+080.014.070.000 - 080.014.070.255 , 200 , wanadoo.fr (dsl)
+080.014.072.000 - 080.014.072.255 , 200 , wanadoo.fr (dsl)
+080.014.074.000 - 080.014.074.255 , 200 , wanadoo.fr (dsl)
+080.014.082.000 - 080.014.082.255 , 200 , wanadoo.fr (dsl)
+080.014.091.000 - 080.014.091.255 , 200 , wanadoo.fr (dsl)
+080.014.101.000 - 080.014.101.255 , 200 , wanadoo.fr (dsl)
+080.014.102.000 - 080.014.102.255 , 200 , wanadoo.com (dsl)
+080.014.103.000 - 080.014.103.255 , 200 , wanadoo.com (dsl)
+080.014.114.000 - 080.014.114.255 , 200 , wanadoo.com (dsl)
+080.014.116.000 - 080.014.116.255 , 200 , wanadoo.fr (dsl)
+080.014.117.000 - 080.014.117.255 , 200 , wanadoo.fr (dsl)
+080.014.118.000 - 080.014.118.255 , 200 , wanadoo.fr (dsl)
+080.014.122.000 - 080.014.122.255 , 200 , wanadoo.fr(dsl)
+080.014.123.000 - 080.014.123.255 , 200 , wanadoo.fr(dsl)
+080.014.127.000 - 080.014.127.255 , 200 , wanadoo.fr (dsl)
+080.014.128.000 - 080.014.128.255 , 200 , wanadoo.com (dsl)
+080.014.129.000 - 080.014.129.255 , 200 , wanadoo.fr(dsl)
+080.014.130.000 - 080.014.130.255 , 200 , wanadoo.fr (dsl)
+080.014.142.000 - 080.014.142.255 , 200 , wanadoo.fr(dsl)
+080.014.146.000 - 080.014.146.255 , 200 , wanadoo.fr (dsl)
+080.014.150.000 - 080.014.150.255 , 200 , wanadoo.fr(dsl)
+080.014.151.000 - 080.014.151.255 , 200 , wanadoo.fr (dsl)
+080.014.161.000 - 080.014.161.255 , 200 , wanadoo.fr (dsl)
+080.014.165.000 - 080.014.165.255 , 200 , wanadoo.fr (dsl)
+080.014.166.000 - 080.014.166.255 , 200 , wanadoo.fr (dsl)
+080.014.170.000 - 080.014.170.255 , 200 , wanadoo.com (dsl)
+080.014.177.000 - 080.014.177.255 , 200 , wanadoo.com (dsl)
+080.014.179.000 - 080.014.179.255 , 200 , wanadoo.com (dsl)
+080.014.181.000 - 080.014.181.255 , 200 , wanadoo.fr(dsl)
+080.014.188.000 - 080.014.188.255 , 200 , wanadoo.fr (dsl)
+080.014.190.000 - 080.014.190.255 , 200 , wanadoo.fr(dsl)
+080.014.201.000 - 080.014.201.255 , 200 , wanadoo.fr (dsl)
+080.014.203.000 - 080.014.203.255 , 200 , wanadoo.fr (dsl)
+080.014.213.000 - 080.014.213.255 , 200 , wanadoo.fr (dsl)
+080.014.214.000 - 080.014.214.255 , 200 , wanadoo.fr(dsl)
+080.014.215.000 - 080.014.215.255 , 200 , wanadoo.com (dsl)
+080.014.218.000 - 080.014.218.255 , 200 , wanadoo.fr (dsl)
+080.014.219.000 - 080.014.219.255 , 200 , wanadoo.fr (dsl)
+080.014.223.000 - 080.014.223.255 , 200 , wanadoo.fr (dsl)
+080.014.229.000 - 080.014.229.255 , 200 , wanadoo.fr
+080.014.232.000 - 080.014.232.255 , 200 , wanadoo.fr (dsl)
+080.014.235.000 - 080.014.235.255 , 200 , wanadoo.fr (dsl)
+080.014.236.000 - 080.014.236.255 , 200 , wanadoo.fr (dsl)
+080.014.239.000 - 080.014.239.255 , 200 , wanadoo.fr(dsl)
+080.014.243.000 - 080.014.243.255 , 200 , wanadoo.fr (dsl)
+080.014.247.000 - 080.014.247.255 , 200 , wanadoo.fr (dsl)
+080.015.001.000 - 080.015.001.127 , 200 , wanadoo.fr (dsl)
+080.015.005.000 - 080.015.005.255 , 200 , wanadoo.com (dsl)
+080.015.007.000 - 080.015.007.255 , 200 , wanadoo.fr (dsl)
+080.015.010.000 - 080.015.010.255 , 200 , wanadoo.fr (dsl)
+080.015.013.000 - 080.015.013.255 , 200 , wanadoo.fr (dsl)
+080.015.016.000 - 080.015.016.255 , 200 , wanadoo.fr (dsl)
+080.015.017.000 - 080.015.017.255 , 200 , wanadoo.fr
+080.015.021.000 - 080.015.021.255 , 200 , wanadoo.fr (dsl)
+080.015.023.000 - 080.015.023.255 , 200 , wanadoo.fr (dsl)
+080.015.024.000 - 080.015.024.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.015.026.000 - 080.015.026.255 , 200 , wanadoo.fr (dsl)
+080.015.029.000 - 080.015.029.255 , 200 , wanadoo.fr (dsl)
+080.015.033.000 - 080.015.033.255 , 200 , wanadoo.com (dsl)
+080.015.037.000 - 080.015.037.255 , 200 , wanadoo.fr (dsl)
+080.015.038.000 - 080.015.038.255 , 200 , wanadoo.fr (dsl)
+080.015.040.000 - 080.015.040.255 , 200 , wanadoo.com (dsl)
+080.015.041.000 - 080.015.041.255 , 200 , wanadoo.fr(dsl)
+080.015.045.000 - 080.015.045.255 , 200 , wanadoo.fr (dsl)
+080.015.047.000 - 080.015.047.255 , 200 , wanadoo.fr
+080.015.048.000 - 080.015.048.255 , 200 , wanadoo.fr (dsl)
+080.015.054.000 - 080.015.054.255 , 200 , wanadoo.fr
+080.015.055.000 - 080.015.055.255 , 200 , wanadoo.com (dsl)
+080.015.056.000 - 080.015.056.255 , 200 , wanadoo.fr (dsl)
+080.015.058.000 - 080.015.058.255 , 200 , wanadoo.fr (dsl)
+080.015.063.000 - 080.015.063.255 , 200 , wanadoo.fr (dsl)
+080.015.064.000 - 080.015.064.255 , 200 , wanadoo.fr (dsl)
+080.015.067.000 - 080.015.067.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.015.068.000 - 080.015.068.255 , 200 , wanadoo.fr (dsl)
+080.015.073.000 - 080.015.073.255 , 200 , wanadoo.fr (dsl)
+080.015.075.000 - 080.015.075.255 , 200 , wanadoo.fr(dsl)
+080.015.076.000 - 080.015.076.255 , 200 , wanadoo.fr (dsl)
+080.015.080.000 - 080.015.080.255 , 200 , wanadoo.fr (dsl)
+080.015.089.000 - 080.015.089.255 , 200 , wanadoo.com (dsl)
+080.015.092.000 - 080.015.092.255 , 200 , wanadoo.com (dsl)
+080.015.094.000 - 080.015.094.255 , 200 , wanadoo.fr (dsl)
+080.015.102.000 - 080.015.102.255 , 200 , wanadoo.com (dsl)
+080.015.105.000 - 080.015.105.255 , 200 , wanadoo.fr(dsl)
+080.015.111.000 - 080.015.111.255 , 200 , wanadoo.fr (dsl)
+080.015.114.000 - 080.015.114.255 , 200 , wanadoo.fr
+080.015.118.000 - 080.015.118.255 , 200 , wanadoo.fr (dsl)
+080.015.122.000 - 080.015.122.255 , 200 , wanadoo.fr(dsl)
+080.015.126.000 - 080.015.126.255 , 200 , wanadoo.fr(dsl)
+080.015.127.000 - 080.015.127.255 , 200 , wanadoo.fr (dsl)
+080.015.129.128 - 080.015.129.255 , 200 , wanadoo.fr
+080.015.130.000 - 080.015.130.255 , 200 , wanadoo.fr (dsl)
+080.015.138.000 - 080.015.138.255 , 200 , wanadoo.fr (dsl)
+080.015.140.000 - 080.015.140.255 , 200 , wanadoo.fr (dsl)
+080.015.145.000 - 080.015.145.255 , 200 , wanadoo.fr
+080.015.147.000 - 080.015.147.255 , 200 , wanadoo.fr(dsl)
+080.015.150.000 - 080.015.150.255 , 200 , wanadoo.fr (dsl)
+080.015.152.000 - 080.015.152.255 , 200 , wanadoo.fr (dsl)
+080.015.153.000 - 080.015.153.255 , 200 , wanadoo.fr (dsl)
+080.015.167.000 - 080.015.167.255 , 200 , wanadoo.fr (dsl)
+080.015.168.000 - 080.015.168.255 , 200 , wanadoo.fr (dsl)
+080.015.170.000 - 080.015.170.255 , 200 , wanadoo.fr (dsl)
+080.015.176.000 - 080.015.176.255 , 200 , wanadoo.fr (dsl)
+080.015.178.000 - 080.015.178.255 , 200 , wanadoo.fr (dsl)
+080.015.180.000 - 080.015.180.255 , 200 , wanadoo.com (dsl)
+080.015.181.000 - 080.015.181.255 , 200 , wanadoo.fr (dsl)
+080.015.186.000 - 080.015.186.255 , 200 , wanadoo.fr(dsl)
+080.015.187.000 - 080.015.187.255 , 200 , wanadoo.fr(dsl)
+080.015.188.000 - 080.015.188.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+080.015.189.000 - 080.015.189.255 , 200 , wanadoo.fr (dsl)
+080.015.190.000 - 080.015.190.255 , 200 , wanadoo.fr (dsl)
+080.015.191.000 - 080.015.191.255 , 200 , wanadoo.fr (dsl)
+080.015.193.000 - 080.015.193.255 , 200 , wanadoo.fr (dsl)
+080.015.194.000 - 080.015.194.255 , 200 , wanadoo.fr (dsl)
+080.015.195.000 - 080.015.195.255 , 200 , wanadoo.com (dsl)
+080.015.196.000 - 080.015.196.255 , 200 , wanadoo.com (dsl)
+080.015.197.000 - 080.015.197.255 , 200 , wanadoo.com (dsl)
+080.015.199.000 - 080.015.199.255 , 200 , wanadoo.fr (dsl)
+080.015.203.000 - 080.015.203.255 , 200 , wanadoo.fr (dsl)
+080.015.204.000 - 080.015.204.255 , 200 , wanadoo.com (dsl)
+080.015.208.000 - 080.015.208.255 , 200 , wanadoo.com (dsl)
+080.015.218.000 - 080.015.218.255 , 200 , wanadoo.com (dsl)
+080.024.000.000 - 080.026.143.255 , 200 , uc.nombres.ttd.es
+080.028.048.000 - 080.028.051.255 , 200 , ttd.net (dsl)
+080.032.000.000 - 080.035.255.255 , 200 , pooles.rima-tde.net
+080.036.000.000 - 080.039.255.255 , 200 , pooles.rima-tde.net
+080.040.000.000 - 080.047.255.255 , 200 , tiscali.com
+080.048.000.000 - 080.055.255.255 , 200 , Polish Telecom
+080.056.000.000 - 080.057.255.255 , 200 , chello.com
+080.059.000.000 - 080.059.255.255 , 200 , pooles.rima-tde.net
+080.060.000.000 - 080.060.255.255 , 200 , speed.planet.nl
+080.061.000.000 - 080.061.255.255 , 200 , speed.planet.nl
+080.062.002.000 - 080.062.002.255 , 200 , Tele Danmark (dsl)
+080.062.011.000 - 080.062.011.255 , 200 , tele.dk (dsl)
+080.062.020.000 - 080.062.020.255 , 200 , Tele Danmark (dsl)
+080.062.032.000 - 080.062.032.255 , 200 , tele.dk (dsl)
+080.062.052.000 - 080.062.055.255 , 200 , tele.dk (dsl)
+080.062.056.000 - 080.062.059.255 , 200 , tele.dk (dsl)
+080.062.080.000 - 080.062.083.255 , 200 , ip.tele.dk (dsl)
+080.062.084.000 - 080.062.087.255 , 200 , tele.dk (dsl)
+080.062.119.000 - 080.062.119.127 , 200 , tele.dk (dsl)
+080.062.121.000 - 080.062.121.255 , 200 , tele.dk (dsl)
+080.062.124.000 - 080.062.124.255 , 200 , tele.dk (dsl)
+080.062.126.000 - 080.062.126.255 , 200 , tele.dk (dsl)
+080.062.128.000 - 080.062.139.255 , 200 , tele.dk (dsl)
+080.062.152.000 - 080.062.152.255 , 200 , tele.dk (dsl)
+080.062.163.000 - 080.062.163.255 , 200 , tele.dk (dsl)
+080.062.180.000 - 080.062.195.255 , 200 , tele.dk (dsl)
+080.062.224.000 - 080.062.227.255 , 200 , tele.dk (dsl)
+080.062.247.000 - 080.062.247.255 , 200 , tele.dk (dsl)  and  wanadoo.fr (dsl)
+080.062.253.000 - 080.062.253.255 , 200 , Tele Danmark (dsl)
+080.062.254.000 - 080.062.255.255 , 200 , tele.dk (dsl)
+080.063.005.000 - 080.063.005.255 , 200 , Tele Danmark Kabel
+080.063.021.000 - 080.063.021.255 , 200 , Tele Danmark Kabel
+080.063.022.000 - 080.063.022.255 , 200 , Tele Danmark Kabel TV
+080.063.095.000 - 080.063.095.255 , 200 , Tele Danmarks (dsl)
+080.063.100.000 - 080.063.100.255 , 200 , adsl.tele.dk
+080.063.106.000 - 080.063.106.255 , 200 , Tele Danmarks (dsl) 
+080.063.187.000 - 080.063.187.255 , 200 , Tele Danmark (breitband)
+080.063.227.000 - 080.063.227.127 , 200 , tele.dk (dsl)
+080.065.224.000 - 080.065.227.255 , 200 , nerim.net (dsl)
+080.074.193.000 - 080.074.197.255 , 200 , Auria (dsl)
+080.074.201.000 - 080.074.204.255 , 200 , Auria (dsl)
+080.081.000.000 - 080.081.007.127 , 200 , augustakom.de
+080.086.187.000 - 080.086.187.255 , 200 , LNCDE-DUSCIX-XANTRONONLINE
+080.090.032.000 - 080.090.033.255 , 200 , Visual Online S.A. Internet Services
+080.108.000.000 - 080.111.255.255 , 200 , vie.surfer.at
+080.116.000.000 - 080.116.127.255 , 200 , interbusiness.it (dsl)
+080.116.128.000 - 080.116.255.255 , 200 , pool80116.interbusiness.it
+080.117.000.000 - 080.117.255.255 , 200 , pool80117.interbusiness.it
+080.126.000.000 - 080.126.031.255 , 200 , XS4AL (dsl)
+080.126.032.000 - 080.126.063.255 , 200 , xs4all.net
+080.128.000.000 - 080.146.159.255 , 200 , dip.t-dialin.net
+080.146.194.000 - 080.146.195.255 , 200 , KABEL-SACHSEN
+080.160.093.000 - 080.160.093.255 , 200 , DC NetExpres (dsl)
+080.160.096.000 - 080.160.096.255 , 200 , TDC Tele Danmark (dsl)
+080.160.108.000 - 080.160.111.255 , 200 , TDC Tele Danmark (dsl)
+080.160.123.000 - 080.160.123.255 , 200 , TDC NetExpres users (dsl)
+080.161.000.000 - 080.161.063.255 , 200 , ip.tele.dk (dsl)
+080.161.064.000 - 080.161.127.255 , 200 , adsl-dhcp.tele.dk
+080.161.128.000 - 080.161.143.255 , 200 , tele.dk (tv)
+080.161.216.000 - 080.161.219.255 , 200 , TDC Tele Danmark (dsl)
+080.162.192.000 - 080.162.255.255 , 200 , Dansk Kabel TV 
+080.178.000.000 - 080.179.255.255 , 200 , 012.net.il
+080.178.065.000 - 080.178.069.255 , 200 , @@012.net.il (dsl)
+080.180.000.000 - 080.183.255.255 , 200 , Telecom Italia (dsl)
+080.190.000.000 - 080.190.255.255 , 200 , IP Partner
+080.192.000.000 - 080.195.255.255 , 200 , Telewest Broadband  and  telewest.co.uk
+080.192.152.000 - 080.192.167.255 , 200 , Telewest (HSD)  and  Telewest HSD
+080.194.016.000 - 080.194.047.255 , 200 , Telewest HSD
+080.195.032.000 - 080.195.095.255 , 200 , telewest.co.uk
+080.195.144.000 - 080.195.159.255 , 200 , blueyonder.co.uk
+080.195.192.000 - 080.195.223.255 , 200 , bra.cvx.blueyonder.co.uk
+080.196.000.000 - 080.199.255.255 , 200 , adsl-dhcp.tele.dk
+080.200.000.000 - 080.200.255.255 , 200 , Skynet Belgium (dsl)
+080.201.000.000 - 080.201.255.255 , 200 , Belgacom Skynet (dsl)
+080.202.016.000 - 080.202.122.255 , 200 , nextgentel.com (dsl)  and  NextGenTel (dsl)
+080.202.168.000 - 080.202.175.255 , 200 , NEXTGENTEL (dsl)
+080.202.194.000 - 080.202.215.255 , 200 , NEXTGENTEL (dsl)
+080.203.016.000 - 080.203.047.255 , 200 , NEXTGENTEL (dsl)
+080.212.000.000 - 080.212.255.255 , 200 , Telenor Business(dsl)
+080.213.000.000 - 080.213.255.255 , 200 , Telenor Business(dsl)
+080.218.000.000 - 080.218.107.255 , 200 , Cablecom GmbH
+080.222.000.000 - 080.223.255.255 , 200 , tele.fi (dsl)
+080.224.064.000 - 080.224.095.255 , 200 , RETENET
+080.224.096.000 - 080.224.097.255 , 200 , Retevision
+080.224.120.000 - 080.224.121.255 , 200 , Retevision
+080.224.176.000 - 080.224.177.255 , 200 , wanadoo.fr (dsl)
+080.224.180.000 - 080.224.183.255 , 200 , Retevision S.A.
+080.224.188.000 - 080.224.189.255 , 200 , RETENET
+080.224.194.000 - 080.224.195.255 , 200 , retevision.es
+080.224.202.000 - 080.224.203.255 , 200 , Retevision S.A.
+080.224.208.000 - 080.224.209.255 , 200 , RETENET
+080.224.232.000 - 080.224.233.255 , 200 , Retevision
+080.224.240.000 - 080.224.248.255 , 200 , RETENET
+080.228.000.000 - 080.228.015.255 , 200 , ewetel.de
+080.228.064.000 - 080.228.079.255 , 200 , EWETEL-DYNDSL-POOL1
+080.228.096.000 - 080.228.096.255 , 200 , nordCom (dsl)
+080.228.097.000 - 080.228.097.255 , 200 , nordCom (dsl)
+080.230.000.000 - 080.230.255.255 , 200 , Euronet Digital Communications
+080.235.032.000 - 080.235.047.255 , 200 , estpak.ee (dsl)
+080.235.088.000 - 080.235.091.255 , 200 , estpak.ee (dsl)
+080.236.132.000 - 080.236.136.255 , 200 , be.wanadoo.com(dsl)
+080.236.137.000 - 080.236.138.255 , 200 , wanadoo.fr (dsl)
+080.238.032.000 - 080.238.035.255 , 200 , Urbanet.ch
+080.238.044.000 - 080.238.047.255 , 200 , tvtservices.ch
+080.238.131.000 - 080.238.133.255 , 200 , Netstream (dsl)
+080.248.104.000 - 080.248.107.255 , 200 , KTR Cable Modem Services
+080.254.170.000 - 080.254.175.255 , 200 , green.ch AG, Brugg, Switzerland
+081.002.148.128 - 081.002.148.255 , 200 , Marktanzeigenblatt, Hamburg
+081.005.132.000 - 081.005.135.255 , 200 , eclipse.net.uk (dsl)
+081.005.138.000 - 081.005.138.255 , 200 , eclipse.net.uk (dsl)
+081.005.146.000 - 081.005.146.255 , 200 , eclipse.net.uk (dsl)
+081.005.151.000 - 081.005.151.255 , 200 , eclipse.net.uk (dsl)
+081.006.008.000 - 081.006.031.255 , 200 , green.ch (dsl) 
+081.006.032.000 - 081.006.063.255 , 200 , green.ch
+081.006.216.000 - 081.006.216.255 , 200 , Nildram (dsl)
+081.006.217.000 - 081.006.217.255 , 200 , Nildram (dsl)
+081.006.219.000 - 081.006.219.255 , 200 , Nildram Ltd (dsl)
+081.006.236.000 - 081.006.236.255 , 200 , Nildram (dsl)
+081.009.128.000 - 081.009.159.255 , 200 , TeleCable
+081.010.128.000 - 081.010.255.255 , 200 , LIWEST
+081.013.128.000 - 081.013.255.255 , 200 , CATV network in Switzerland
+081.026.003.000 - 081.026.003.255 , 200 , Kielce University of Technology
+081.026.096.000 - 081.026.107.255 , 200 , KBmedia (dsl)
+081.048.003.000 - 081.048.003.255 , 200 , wanadoo.fr (dsl)
+081.048.004.000 - 081.048.004.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.048.012.000 - 081.048.012.255 , 200 , wanadoo.fr (dsl)
+081.048.013.000 - 081.048.013.255 , 200 , wanadoo.fr (dsl)
+081.048.018.000 - 081.048.018.255 , 200 , wanadoo.fr (dsl)
+081.048.019.000 - 081.048.019.255 , 200 , wanadoo.fr (dsl)
+081.048.020.000 - 081.048.020.255 , 200 , wanadoo.fr (dsl)
+081.048.027.000 - 081.048.027.255 , 200 , wanadoo.fr
+081.048.040.000 - 081.048.040.255 , 200 , wanadoo.fr (dsl)
+081.048.042.000 - 081.048.042.255 , 200 , wanadoo.fr (dsl)
+081.048.050.000 - 081.048.050.255 , 200 , wanadoo.fr (dsl)
+081.048.051.000 - 081.048.051.255 , 200 , wanadoo.fr (dsl)
+081.048.054.000 - 081.048.054.255 , 200 , wanadoo.fr (dsl)
+081.048.055.000 - 081.048.055.255 , 200 , wanadoo.fr (dsl)
+081.048.056.000 - 081.048.056.255 , 200 , wanadoo.fr (dsl)
+081.048.057.000 - 081.048.057.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.048.059.000 - 081.048.059.255 , 200 , wanadoo.fr (dsl)
+081.048.060.000 - 081.048.060.255 , 200 , wanadoo.fr (dsl)
+081.048.062.000 - 081.048.062.255 , 200 , wanadoo.fr (dsl)
+081.048.067.000 - 081.048.067.255 , 200 , wanadoo.fr(dsl)
+081.048.070.000 - 081.048.070.255 , 200 , wanadoo.fr (dsl)
+081.048.073.000 - 081.048.073.255 , 200 , wanadoo.fr
+081.048.074.000 - 081.048.074.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.048.076.000 - 081.048.076.255 , 200 , wanadoo.fr (dsl)
+081.048.078.000 - 081.048.078.255 , 200 , wanadoo.fr (dsl)
+081.048.079.000 - 081.048.079.255 , 200 , wanadoo.fr (dsl)
+081.048.085.000 - 081.048.085.255 , 200 , wanadoo.fr (dsl)
+081.048.086.000 - 081.048.086.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.048.089.000 - 081.048.089.255 , 200 , wanadoo.fr (dsl)
+081.048.103.000 - 081.048.103.255 , 200 , wanadoo.fr (dsl)
+081.048.104.000 - 081.048.104.255 , 200 , wanadoo.fr
+081.048.105.000 - 081.048.105.255 , 200 , wanadoo.fr (dsl)
+081.048.111.000 - 081.048.111.255 , 200 , wanadoo.fr (dsl)
+081.048.114.000 - 081.048.114.255 , 200 , wanadoo.fr (dsl)
+081.048.119.000 - 081.048.119.255 , 200 , wanadoo.fr (dsl)
+081.048.120.000 - 081.048.120.255 , 200 , wanadoo.fr (dsl)
+081.048.122.000 - 081.048.122.255 , 200 , wanadoo.fr (dsl)
+081.048.123.000 - 081.048.123.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.048.128.000 - 081.048.128.255 , 200 , wanadoo.fr (dsl)
+081.048.131.000 - 081.048.131.255 , 200 , wanadoo.fr (dsl)
+081.048.132.000 - 081.048.132.255 , 200 , wanadoo.fr(dsl)
+081.048.136.000 - 081.048.136.255 , 200 , wanadoo.fr (dsl)
+081.048.140.000 - 081.048.140.255 , 200 , wanadoo.fr (dsl)
+081.048.142.000 - 081.048.142.255 , 200 , wanadoo.fr
+081.048.144.000 - 081.048.144.255 , 200 , wanadoo.fr
+081.048.150.000 - 081.048.150.255 , 200 , wanadoo.fr (dsl)
+081.048.153.000 - 081.048.153.255 , 200 , wanadoo.fr(dsl)
+081.048.155.000 - 081.048.156.255 , 200 , wanadoo.fr
+081.048.160.000 - 081.048.160.255 , 200 , wanadoo.fr(dsl)
+081.048.164.000 - 081.048.164.255 , 200 , wanadoo.fr (dsl)
+081.048.166.000 - 081.048.166.255 , 200 , wanadoo.fr (dsl)
+081.048.167.000 - 081.048.167.255 , 200 , wanadoo.fr (dsl)
+081.048.168.000 - 081.048.168.255 , 200 , wanadoo.fr (dsl)
+081.048.170.000 - 081.048.170.255 , 200 , wanadoo.fr (dsl)
+081.048.173.000 - 081.048.173.255 , 200 , wanadoo.fr (dsl)
+081.048.174.000 - 081.048.174.255 , 200 , wanadoo.fr (dsl)
+081.048.177.000 - 081.048.177.255 , 200 , wanadoo.fr (dsl)
+081.048.179.000 - 081.048.179.255 , 200 , wanadoo.fr (dsl)
+081.048.187.000 - 081.048.187.255 , 200 , wanadoo.fr (dsl)
+081.048.197.000 - 081.048.197.255 , 200 , wanadoo.fr(dsl)
+081.048.200.000 - 081.048.200.255 , 200 , wanadoo.fr (dsl)
+081.048.208.000 - 081.048.208.255 , 200 , wanadoo.fr (dsl)
+081.048.210.000 - 081.048.210.255 , 200 , wanadoo.fr (dsl)
+081.048.212.000 - 081.048.212.255 , 200 , wanadoo.fr (dsl)
+081.048.214.000 - 081.048.214.255 , 200 , wanadoo.fr
+081.048.219.000 - 081.048.219.255 , 200 , wanadoo.fr (dsl)
+081.048.220.000 - 081.048.220.255 , 200 , wanadoo.fr (dsl)
+081.048.221.000 - 081.048.221.255 , 200 , wanadoo.fr (dsl)
+081.048.222.000 - 081.048.222.255 , 200 , wanadoo.fr (dsl)
+081.048.224.000 - 081.048.224.255 , 200 , wanadoo.fr (dsl)
+081.048.227.000 - 081.048.227.255 , 200 , wanadoo.fr (dsl)
+081.048.228.000 - 081.048.228.255 , 200 , wanadoo.fr (dsl)
+081.048.233.000 - 081.048.233.255 , 200 , wanadoo.fr (dsl)
+081.048.235.000 - 081.048.235.255 , 200 , wanadoo.fr (dsl)
+081.048.237.000 - 081.048.237.255 , 200 , wanadoo.fr (dsl)
+081.048.244.000 - 081.048.244.255 , 200 , wanadoo.fr (dsl)
+081.048.251.000 - 081.048.251.255 , 200 , wanadoo.fr (dsl)
+081.048.253.000 - 081.048.253.255 , 200 , wanadoo.fr (dsl)
+081.048.254.000 - 081.048.254.255 , 200 , wanadoo.fr (dsl)
+081.049.000.000 - 081.049.000.255 , 200 , wanadoo.fr (dsl)
+081.049.022.000 - 081.049.022.255 , 200 , wanadoo.fr (dsl)
+081.049.024.000 - 081.049.024.255 , 200 , wanadoo.fr (dsl)
+081.049.025.000 - 081.049.025.255 , 200 , wanadoo.fr(dsl)
+081.049.027.000 - 081.049.027.255 , 200 , wanadoo.fr (dsl)
+081.049.035.000 - 081.049.035.255 , 200 , wanadoo.fr (dsl)
+081.049.036.000 - 081.049.036.255 , 200 , wanadoo.fr (dsl)
+081.049.043.000 - 081.049.043.255 , 200 , wanadoo.fr (dsl)
+081.049.044.000 - 081.049.044.255 , 200 , wanadoo.fr (dsl)
+081.049.047.000 - 081.049.047.255 , 200 , wanadoo.fr (dsl)
+081.049.051.000 - 081.049.051.255 , 200 , wanadoo.fr (dsl)
+081.049.053.000 - 081.049.053.255 , 200 , wanadoo.fr (dsl)
+081.049.054.000 - 081.049.054.255 , 200 , wanadoo.fr (dsl)
+081.049.059.000 - 081.049.059.255 , 200 , wanadoo.fr (dsl)
+081.049.062.000 - 081.049.062.255 , 200 , wanadoo.fr (dsl)
+081.049.068.000 - 081.049.068.255 , 200 , wanadoo.fr (dsl)
+081.049.078.000 - 081.049.078.255 , 200 , wanadoo.fr (dsl)
+081.049.079.000 - 081.049.079.255 , 200 , wanadoo.fr (dsl)
+081.049.080.000 - 081.049.080.255 , 200 , wanadoo.fr (dsl)
+081.049.081.000 - 081.049.081.255 , 200 , wanadoo.fr (dsl)
+081.049.082.000 - 081.049.082.255 , 200 , wanadoo.fr (dsl)
+081.049.086.000 - 081.049.086.255 , 200 , wanadoo.fr (dsl)
+081.049.093.000 - 081.049.093.255 , 200 , wanadoo.fr (dsl)
+081.049.094.000 - 081.049.094.255 , 200 , wanadoo.fr (dsl)
+081.049.096.000 - 081.049.096.255 , 200 , wanadoo.fr (dsl)
+081.049.103.000 - 081.049.103.255 , 200 , wanadoo.fr (dsl)
+081.049.106.000 - 081.049.106.255 , 200 , wanadoo.fr (dsl)
+081.049.111.000 - 081.049.111.255 , 200 , wanadoo.fr
+081.049.112.000 - 081.049.112.255 , 200 , wanadoo.fr (dsl)
+081.049.126.000 - 081.049.126.255 , 200 , wanadoo.fr (dsl)
+081.049.127.000 - 081.049.127.255 , 200 , wanadoo.fr (dsl)
+081.049.128.000 - 081.049.128.255 , 200 , wanadoo.fr (dsl)
+081.049.130.000 - 081.049.130.255 , 200 , wanadoo.fr
+081.049.131.000 - 081.049.131.255 , 200 , wanadoo.fr (dsl)
+081.049.132.000 - 081.049.132.255 , 200 , wanadoo.fr (dsl)
+081.049.136.000 - 081.049.136.255 , 200 , wanadoo.fr (dsl)
+081.049.138.000 - 081.049.138.255 , 200 , wanadoo.fr (dsl)
+081.049.150.000 - 081.049.150.255 , 200 , wanadoo.fr (dsl)
+081.049.152.000 - 081.049.152.255 , 200 , wanadoo.fr (dsl)
+081.049.155.000 - 081.049.155.255 , 200 , wanadoo.fr (dsl)
+081.049.160.000 - 081.049.160.255 , 200 , wanadoo.fr(dsl)
+081.049.162.000 - 081.049.162.255 , 200 , wanadoo.fr (dsl)
+081.049.168.000 - 081.049.168.255 , 200 , wanadoo.fr (dsl)
+081.049.169.000 - 081.049.169.255 , 200 , wanadoo.fr (dsl)
+081.049.170.000 - 081.049.170.255 , 200 , wanadoo.fr (dsl)
+081.049.171.000 - 081.049.171.255 , 200 , wanadoo.fr (dsl)
+081.049.173.000 - 081.049.173.255 , 200 , wanadoo.fr (dsl)
+081.049.175.000 - 081.049.175.255 , 200 , wanadoo.fr (dsl)
+081.049.178.000 - 081.049.178.255 , 200 , wanadoo.fr (dsl)
+081.049.183.000 - 081.049.183.255 , 200 , wanadoo.fr
+081.049.185.000 - 081.049.185.255 , 200 , wanadoo.fr (dsl)
+081.049.186.000 - 081.049.186.255 , 200 , wanadoo.fr (dsl)
+081.049.196.000 - 081.049.196.255 , 200 , wanadoo.fr (dsl)
+081.049.197.000 - 081.049.197.255 , 200 , wanadoo.fr (dsl)
+081.049.199.000 - 081.049.199.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.049.204.000 - 081.049.204.255 , 200 , wanadoo.fr (dsl)
+081.049.211.000 - 081.049.211.255 , 200 , wanadoo.fr (dsl)
+081.049.215.000 - 081.049.215.255 , 200 , wanadoo.fr (dsl)
+081.049.216.000 - 081.049.216.255 , 200 , wanadoo.fr (dsl)
+081.049.217.000 - 081.049.217.255 , 200 , wanadoo.fr (dsl)
+081.049.225.000 - 081.049.225.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.049.233.000 - 081.049.233.255 , 200 , wanadoo.fr (dsl)
+081.049.236.000 - 081.049.236.255 , 200 , wanadoo.fr (dsl)
+081.049.237.000 - 081.049.238.255 , 200 , wanadoo.fr
+081.049.243.000 - 081.049.243.255 , 200 , wanadoo.fr (dsl)
+081.049.245.000 - 081.049.245.255 , 200 , wanadoo.fr (dsl)
+081.049.247.000 - 081.049.247.255 , 200 , wanadoo.fr (dsl)
+081.049.250.000 - 081.049.250.255 , 200 , wanadoo.fr (dsl)
+081.049.251.000 - 081.049.251.255 , 200 , wanadoo.fr (dsl)
+081.050.000.000 - 081.050.000.255 , 200 , wanadoo.fr (dsl)
+081.050.001.000 - 081.050.001.255 , 200 , wanadoo.fr (dsl)
+081.050.002.000 - 081.050.002.255 , 200 , wanadoo.fr (dsl)
+081.050.005.000 - 081.050.005.255 , 200 , wanadoo.fr (dsl)
+081.050.006.000 - 081.050.006.255 , 200 , wanadoo.fr(dsl)
+081.050.009.000 - 081.050.009.255 , 200 , wanadoo.fr
+081.050.011.000 - 081.050.011.255 , 200 , wanadoo.fr(dsl)
+081.050.013.000 - 081.050.013.255 , 200 , wanadoo.fr (dsl)
+081.050.015.000 - 081.050.015.255 , 200 , wanadoo.fr (dsl)
+081.050.017.000 - 081.050.017.255 , 200 , wanadoo.fr(dsl)
+081.050.018.000 - 081.050.018.255 , 200 , wanadoo.fr (dsl)
+081.050.019.000 - 081.050.019.255 , 200 , wanadoo.fr (dsl)
+081.050.020.000 - 081.050.020.255 , 200 , wanadoo.fr (dsl)
+081.050.029.000 - 081.050.029.255 , 200 , wanadoo.fr (dsl)
+081.050.034.000 - 081.050.034.255 , 200 , wanadoo.fr (dsl)
+081.050.035.000 - 081.050.035.255 , 200 , wanadoo.fr (dsl)
+081.050.037.000 - 081.050.037.255 , 200 , wanadoo.fr (dsl)
+081.050.038.000 - 081.050.038.255 , 200 , wanadoo.fr (dsl)
+081.050.039.000 - 081.050.039.255 , 200 , wanadoo.fr (dsl)
+081.050.041.000 - 081.050.041.255 , 200 , wanadoo.fr (dsl)
+081.050.043.000 - 081.050.043.255 , 200 , wanadoo.fr (dsl)
+081.050.045.000 - 081.050.045.255 , 200 , wanadoo.fr (dsl)
+081.050.046.000 - 081.050.046.255 , 200 , wanadoo.fr (dsl)
+081.050.050.000 - 081.050.050.255 , 200 , wanadoo.fr (dsl)
+081.050.081.000 - 081.050.081.255 , 200 , wanadoo.fr
+081.050.083.000 - 081.050.083.255 , 200 , wanadoo.fr (dsl)
+081.050.084.000 - 081.050.084.255 , 200 , wanadoo.fr (dsl)
+081.050.089.000 - 081.050.089.255 , 200 , wanadoo.fr
+081.050.090.000 - 081.050.090.255 , 200 , wanadoo.fr
+081.050.095.000 - 081.050.095.255 , 200 , wanadoo.fr
+081.050.100.000 - 081.050.100.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.050.108.000 - 081.050.108.255 , 200 , wanadoo.fr (dsl)
+081.050.109.000 - 081.050.109.255 , 200 , wanadoo.fr (dsl)
+081.050.112.000 - 081.050.112.255 , 200 , wanadoo.fr (dsl)
+081.050.113.000 - 081.050.113.255 , 200 , wanadoo.fr (dsl)
+081.050.114.000 - 081.050.114.255 , 200 , wanadoo.fr (dsl)
+081.050.117.000 - 081.050.117.255 , 200 , wanadoo.fr (dsl)
+081.050.123.000 - 081.050.123.255 , 200 , wanadoo.fr (dsl)
+081.050.127.000 - 081.050.127.255 , 200 , wanadoo.fr (dsl)
+081.050.128.000 - 081.050.128.255 , 200 , wanadoo.fr (dsl)
+081.050.151.000 - 081.050.151.255 , 200 , wanadoo.fr (dsl)
+081.050.152.000 - 081.050.152.255 , 200 , wanadoo.fr(dsl)
+081.050.153.000 - 081.050.153.255 , 200 , wanadoo.fr (dsl)
+081.050.157.000 - 081.050.157.255 , 200 , wanadoo.fr (dsl)
+081.050.161.000 - 081.050.161.255 , 200 , wanadoo.fr (dsl)
+081.050.164.000 - 081.050.164.255 , 200 , wanadoo.fr (dsl)
+081.050.166.000 - 081.050.166.255 , 200 , wanadoo.fr
+081.050.168.000 - 081.050.168.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.050.170.000 - 081.050.170.255 , 200 , wanadoo.fr (dsl)
+081.050.172.000 - 081.050.172.255 , 200 , wanadoo.fr (dsl)
+081.050.173.000 - 081.050.173.255 , 200 , wanadoo.fr (dsl)
+081.050.174.000 - 081.050.174.255 , 200 , wanadoo.fr (dsl)
+081.050.175.000 - 081.050.175.255 , 200 , wanadoo.fr (dsl)
+081.050.182.000 - 081.050.182.255 , 200 , wanadoo.fr (dsl)
+081.050.186.000 - 081.050.186.255 , 200 , wanadoo.fr (dsl)
+081.050.187.000 - 081.050.187.255 , 200 , wanadoo.fr (dsl)
+081.050.189.000 - 081.050.189.255 , 200 , wanadoo.fr (dsl)
+081.050.193.000 - 081.050.193.255 , 200 , wanadoo.fr (dsl)
+081.050.194.000 - 081.050.194.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.050.196.000 - 081.050.196.255 , 200 , wanadoo.fr (dsl)
+081.050.197.000 - 081.050.197.255 , 200 , wanadoo.fr (dsl)
+081.050.198.000 - 081.050.198.255 , 200 , wanadoo.fr (dsl)
+081.050.201.000 - 081.050.201.255 , 200 , wanadoo.fr (dsl)
+081.050.203.000 - 081.050.203.255 , 200 , wanadoo.fr (dsl)
+081.050.205.000 - 081.050.205.255 , 200 , wanadoo.fr (dsl)
+081.050.206.000 - 081.050.206.255 , 200 , wanadoo.fr
+081.050.208.000 - 081.050.208.255 , 200 , wanadoo.fr (dsl)
+081.050.209.000 - 081.050.209.255 , 200 , wanadoo.fr (dsl)
+081.050.218.000 - 081.050.218.255 , 200 , wanadoo.fr (dsl)
+081.050.219.000 - 081.050.219.255 , 200 , wanadoo.fr (dsl)
+081.050.221.000 - 081.050.221.255 , 200 , wanadoo.fr (dsl)
+081.050.222.000 - 081.050.222.255 , 200 , wanadoo.fr(dsl)
+081.050.229.000 - 081.050.229.255 , 200 , wanadoo.fr (dsl)
+081.050.231.000 - 081.050.231.255 , 200 , wanadoo.fr (dsl)
+081.050.238.000 - 081.050.238.255 , 200 , wanadoo.fr (dsl)
+081.050.249.000 - 081.050.249.255 , 200 , wanadoo.fr (dsl)
+081.050.250.000 - 081.050.250.255 , 200 , wanadoo.fr (dsl)
+081.051.000.000 - 081.051.000.255 , 200 , wanadoo.fr (dsl)
+081.051.004.000 - 081.051.004.255 , 200 , wanadoo.fr (dsl)
+081.051.005.000 - 081.051.005.255 , 200 , wanadoo.fr
+081.051.006.000 - 081.051.006.255 , 200 , wanadoo.fr (dsl)
+081.051.010.000 - 081.051.010.255 , 200 , wanadoo.fr (dsl)
+081.051.012.000 - 081.051.012.255 , 200 , wanadoo.fr (dsl)
+081.051.013.000 - 081.051.013.255 , 200 , wanadoo.fr (dsl)
+081.051.016.000 - 081.051.016.255 , 200 , wanadoo.fr(dsl)
+081.051.017.000 - 081.051.017.255 , 200 , wanadoo.fr (dsl)
+081.051.019.000 - 081.051.019.255 , 200 , wanadoo.fr (dsl)
+081.051.021.000 - 081.051.021.255 , 200 , wanadoo.fr(dsl)
+081.051.026.000 - 081.051.026.255 , 200 , wanadoo.fr
+081.051.029.000 - 081.051.029.255 , 200 , wanadoo.fr
+081.051.033.000 - 081.051.033.255 , 200 , wanadoo.fr (dsl)
+081.051.034.000 - 081.051.034.255 , 200 , wanadoo.fr (dsl)
+081.051.039.000 - 081.051.039.255 , 200 , wanadoo.fr (dsl)
+081.051.040.000 - 081.051.040.255 , 200 , wanadoo.fr
+081.051.045.000 - 081.051.045.255 , 200 , wanadoo.fr (dsl)
+081.051.047.000 - 081.051.047.255 , 200 , wanadoo.fr (dsl)
+081.051.053.000 - 081.051.053.255 , 200 , wanadoo.fr(dsl)
+081.051.071.000 - 081.051.071.255 , 200 , wanadoo.fr (dsl)
+081.051.072.000 - 081.051.072.255 , 200 , wanadoo.fr (dsl)
+081.051.074.000 - 081.051.074.255 , 200 , wanadoo.fr (dsl)
+081.051.077.000 - 081.051.077.255 , 200 , wanadoo.fr (dsl)
+081.051.080.000 - 081.051.080.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.051.083.000 - 081.051.083.255 , 200 , wanadoo.fr (dsl)
+081.051.084.000 - 081.051.084.255 , 200 , wanadoo.fr (dsl)
+081.051.085.000 - 081.051.085.255 , 200 , wanadoo.fr (dsl)
+081.051.089.000 - 081.051.089.255 , 200 , wanadoo.fr (dsl)
+081.051.101.000 - 081.051.101.255 , 200 , wanadoo.fr (dsl)
+081.051.102.000 - 081.051.102.255 , 200 , wanadoo.fr (dsl)
+081.051.105.000 - 081.051.105.255 , 200 , wanadoo.fr (dsl)
+081.051.113.000 - 081.051.113.255 , 200 , wanadoo.fr (dsl)
+081.051.114.000 - 081.051.114.255 , 200 , wanadoo.fr (dsl)
+081.051.115.000 - 081.051.115.255 , 200 , wanadoo.fr (dsl)
+081.051.117.000 - 081.051.117.255 , 200 , wanadoo.fr (dsl)
+081.051.119.000 - 081.051.119.255 , 200 , wanadoo.fr (dsl)
+081.051.121.000 - 081.051.121.255 , 200 , wanadoo.fr (dsl)
+081.051.122.000 - 081.051.122.255 , 200 , wanadoo.fr (dsl)
+081.051.128.000 - 081.051.128.255 , 200 , wanadoo.fr (dsl)
+081.051.138.000 - 081.051.138.255 , 200 , wanadoo.fr (dsl)
+081.051.140.000 - 081.051.140.255 , 200 , wanadoo.fr (dsl)
+081.051.142.000 - 081.051.142.255 , 200 , wanadoo.fr (dsl)
+081.051.143.000 - 081.051.143.255 , 200 , wanadoo.fr(dsl)
+081.051.145.000 - 081.051.145.255 , 200 , wanadoo.fr (dsl)
+081.051.148.000 - 081.051.148.255 , 200 , wanadoo.fr(dsl)
+081.051.156.000 - 081.051.156.255 , 200 , wanadoo.fr (dsl)
+081.051.158.000 - 081.051.158.255 , 200 , wanadoo.fr (dsl)
+081.051.159.000 - 081.051.159.255 , 200 , wanadoo.fr (dsl)
+081.051.160.000 - 081.051.160.255 , 200 , wanadoo.fr(dsl)
+081.051.166.000 - 081.051.166.255 , 200 , wanadoo.fr (dsl)
+081.051.169.000 - 081.051.169.255 , 200 , wanadoo.fr (dsl)
+081.051.172.000 - 081.051.172.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.051.177.000 - 081.051.177.255 , 200 , wanadoo.fr (dsl)
+081.051.181.000 - 081.051.181.255 , 200 , wanadoo.fr (dsl)
+081.051.183.000 - 081.051.183.255 , 200 , wanadoo.fr (dsl)
+081.051.186.000 - 081.051.186.255 , 200 , wanadoo.fr (dsl)
+081.051.187.000 - 081.051.187.255 , 200 , wanadoo.fr (dsl)
+081.051.196.000 - 081.051.196.255 , 200 , wanadoo.fr(dsl)
+081.051.205.000 - 081.051.205.255 , 200 , wanadoo.fr(dsl)
+081.051.206.000 - 081.051.206.255 , 200 , wanadoo.fr (dsl)
+081.051.210.000 - 081.051.210.255 , 200 , wanadoo.fr (dsl)
+081.051.211.000 - 081.051.211.255 , 200 , wanadoo.fr (dsl)
+081.051.213.000 - 081.051.213.255 , 200 , wanadoo.fr (dsl)
+081.051.215.000 - 081.051.215.255 , 200 , wanadoo.fr (dsl)
+081.051.251.000 - 081.051.251.255 , 200 , wanadoo.fr (dsl)
+081.053.003.000 - 081.053.003.255 , 200 , wanadoo.fr(dsl)
+081.053.004.000 - 081.053.004.255 , 200 , wanadoo.fr (dsl)
+081.053.009.000 - 081.053.009.255 , 200 , wanadoo.fr (dsl)
+081.053.011.000 - 081.053.011.255 , 200 , wanadoo.fr (dsl)
+081.053.017.000 - 081.053.017.255 , 200 , wanadoo.fr (dsl)
+081.053.021.000 - 081.053.021.255 , 200 , wanadoo.fr (dsl)
+081.053.024.000 - 081.053.024.255 , 200 , wanadoo.fr (dsl)
+081.053.036.000 - 081.053.036.255 , 200 , wanadoo.fr (dsl)
+081.053.038.000 - 081.053.038.255 , 200 , wanadoo.fr (dsl)
+081.053.046.000 - 081.053.046.255 , 200 , wanadoo.fr (dsl)
+081.053.053.000 - 081.053.053.255 , 200 , wanadoo.fr (dsl) 
+081.053.054.000 - 081.053.054.255 , 200 , wanadoo.fr (dsl)
+081.053.056.000 - 081.053.056.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+081.053.064.000 - 081.053.064.255 , 200 , wanadoo.fr (dsl)
+081.053.080.000 - 081.053.080.255 , 200 , wanadoo.fr (dsl)
+081.053.082.000 - 081.053.082.255 , 200 , wanadoo.fr (dsl)
+081.053.136.000 - 081.053.136.255 , 200 , wanadoo.fr (dsl)
+081.053.152.000 - 081.053.152.255 , 200 , wanadoo.fr (dsl)
+081.053.158.000 - 081.053.158.255 , 200 , wanadoo.fr(dsl)
+081.056.000.000 - 081.057.255.255 , 200 , adsl.proxad.net
+081.064.000.000 - 081.067.255.255 , 200 , LYONNAISE COMMUNICATIONS
+081.068.192.000 - 081.068.255.255 , 200 , euro.net (dsl)
+081.077.000.000 - 081.077.127.255 , 200 , energis.com (dsl)
+081.077.128.000 - 081.077.255.255 , 200 , energis.com (dsl)
+081.079.000.000 - 081.079.127.255 , 200 , energis.com (dsl)
+081.086.112.000 - 081.086.127.255 , 200 , pipex (dsl)
+081.086.128.000 - 081.086.191.255 , 200 , Pipex Internet (DSL)
+081.086.192.000 - 081.086.223.255 , 200 , Pipex Internet Ltd (dsl)
+081.086.224.000 - 081.086.255.255 , 200 , dsl.pipex.com
+081.089.224.000 - 081.089.225.255 , 200 , Teleos (dsl)
+081.089.233.000 - 081.089.238.255 , 200 , teleos
+081.096.160.000 - 081.096.191.255 , 200 , NTL Infrastructure - Nottingham
+081.098.080.000 - 081.098.087.255 , 200 , ntl
+081.099.000.000 - 081.099.023.255 , 200 , NTL
+081.099.144.000 - 081.099.159.255 , 200 , NTL
+081.099.192.000 - 081.099.207.255 , 200 , NTL Infrastructure - Hersham
+081.101.064.000 - 081.101.071.255 , 200 , ntli.net
+081.107.192.000 - 081.107.255.255 , 200 , ntli.net (dsl)
+081.108.000.000 - 081.108.103.255 , 200 , NTL
+081.132.000.000 - 081.132.143.255 , 200 , btopenworld.com (dsl)
+081.132.168.000 - 081.132.191.255 , 200 , btopenworld.com (dsl)
+081.152.000.000 - 081.152.250.255 , 200 , BT Public Internet Service
+081.172.000.000 - 081.172.127.255 , 200 , retecal.es
+081.202.000.000 - 081.202.255.255 , 200 , ono
+081.202.222.000 - 081.202.222.255 , 200 , user.ono.com
+081.203.000.000 - 081.203.255.255 , 200 , ono
+081.217.000.000 - 081.217.159.255 , 200 , Kabelsignal
+081.218.096.000 - 081.218.111.255 , 200 , bezeq-international (dsl)
+081.218.112.000 - 081.218.127.255 , 200 , bezeqint.net (dsl)
+081.220.000.000 - 081.220.255.255 , 200 , ncnumericable.com
+081.220.212.000 - 081.220.215.255 , 200 , Numericable
+095.070.096.000 - 095.070.104.255 , 200 , salzburg-ag.at
+128.002.000.000 - 128.002.255.255 , 200 , Carnegie Mellon University
+128.012.000.000 - 128.012.255.255 , 200 , Stanford University
+128.054.000.000 - 128.054.255.255 , 200 , University of California, San Diego
+128.061.000.000 - 128.061.255.255 , 200 , Georgia Institute of Technology
+128.062.000.000 - 128.062.255.255 , 200 , The University of Texas at Austin
+128.083.000.000 - 128.083.255.255 , 200 , University of Texas at Austin
+128.095.000.000 - 128.095.255.255 , 200 , University of Washington
+128.097.000.000 - 128.097.255.255 , 200 , University of California
+128.101.000.000 - 128.101.255.255 , 200 , University of Minnesota
+128.104.000.000 - 128.104.255.255 , 200 , University of Wisconsin-Madison
+128.122.000.000 - 128.122.255.255 , 200 , New York University
+128.130.000.000 - 128.130.255.255 , 200 , Technische Universitat Wien
+128.131.000.000 - 128.131.255.255 , 200 , Technische Universitat Wien 
+128.134.000.000 - 128.134.255.255 , 200 , Korea Telecom
+128.135.000.000 - 128.135.255.255 , 200 , University of Chicago
+128.138.000.000 - 128.138.255.255 , 200 , University of Colorado
+128.176.000.000 - 128.176.255.255 , 200 , Westfaelische Wilhelms - Universitaet
+128.187.000.000 - 128.187.255.255 , 200 , Brigham Young University
+128.211.000.000 - 128.211.255.255 , 200 , Purdue University
+128.223.000.000 - 128.223.255.255 , 200 , University of Oregon
+128.230.000.000 - 128.230.255.255 , 200 , Syracuse University
+128.239.000.000 - 128.239.255.255 , 200 , College of William and Mary
+128.252.000.000 - 128.252.255.255 , 200 , Washington University
+128.253.000.000 - 128.253.255.255 , 200 , Cornell University
+128.255.000.000 - 128.255.255.255 , 200 , University of Iowa
+129.001.000.000 - 129.001.255.255 , 200 , Bowling Green State University
+129.003.000.000 - 129.003.255.255 , 200 , State University of New York
+129.015.000.000 - 129.015.255.255 , 200 , University of Oklahoma
+129.021.000.000 - 129.021.255.255 , 200 , Rochester Institute of Technology
+129.025.000.000 - 129.025.255.255 , 200 , The Drexel University Campus
+129.027.000.000 - 129.027.255.255 , 200 , Technische Universitaet Graz
+129.059.000.000 - 129.059.255.255 , 200 , Vanderbilt University 
+129.082.000.000 - 129.082.255.255 , 200 , Colorado State University
+129.093.000.000 - 129.093.255.255 , 200 , University of Nebraska-Lincoln
+129.105.000.000 - 129.105.255.255 , 200 , Northwestern University
+129.108.000.000 - 129.108.255.255 , 200 , University of Texas at El Paso
+129.110.000.000 - 129.110.255.255 , 200 , University of Texas at Dallas
+129.125.000.000 - 129.125.255.255 , 200 , RUG University 
+129.130.000.000 - 129.130.255.255 , 200 , Kansas State University
+129.143.000.000 - 129.143.255.255 , 200 , BELWUE
+129.206.000.000 - 129.206.255.255 , 200 , Ruprecht-Karls-Universitaet
+129.217.000.000 - 129.217.255.255 , 200 , University of Dortmund
+129.240.000.000 - 129.240.255.255 , 200 , University of Oslo
+129.241.000.000 - 129.241.255.255 , 200 , Norwegian University of Science and Technology
+129.244.000.000 - 129.244.255.255 , 200 , University of Tulsa
+129.247.000.000 - 129.247.255.255 , 200 , Deutsche Forschungsanstalt fuer Luft- und Raumfahrt
+130.013.000.000 - 130.013.255.255 , 200 , U S WEST Internet Services
+130.015.000.000 - 130.015.255.255 , 200 , Queen's University
+130.017.000.000 - 130.017.255.255 , 200 , California State University
+130.037.000.000 - 130.037.255.255 , 200 , Vrije University 
+130.039.000.000 - 130.039.255.255 , 200 , Louisiana State University
+130.073.000.000 - 130.073.255.255 , 200 , Konrad-Zuse-Zentrum fuer Informationstechnik
+130.075.000.000 - 130.075.255.255 , 200 , University of Hannover
+130.079.000.000 - 130.079.255.255 , 200 , Universite Louis Pasteur Strasbourg 
+130.083.000.000 - 130.083.255.255 , 200 , Technical University Darmstadt
+130.088.000.000 - 130.088.255.255 , 200 , University of Manchester
+130.089.000.000 - 130.089.255.255 , 200 , University Twente
+130.104.000.000 - 130.104.255.255 , 200 , Universite Catholique de Louvain
+130.126.000.000 - 130.126.255.255 , 200 , University of Illinois
+130.127.000.000 - 130.127.255.255 , 200 , Clemson University 
+130.149.000.000 - 130.149.255.255 , 200 , Technische Universitaet Berlin
+130.160.000.000 - 130.160.255.255 , 200 , University of Alabama 
+130.161.000.000 - 130.161.255.255 , 200 , Technische Universiteit Delft
+130.183.000.000 - 130.183.255.255 , 200 , Max-Planck-Institut fur Plasmaphysik
+130.207.000.000 - 130.207.255.255 , 200 , Georgia Institute of Technology
+130.212.000.000 - 130.212.255.255 , 200 , San Francisco State University
+130.226.000.000 - 130.226.255.255 , 200 , Danish Network for Research and Education
+130.230.000.000 - 130.230.255.255 , 200 , Tampere University of Technology
+130.232.000.000 - 130.232.255.255 , 200 , University of Turku
+130.233.000.000 - 130.233.255.255 , 200 , Helsinki University of Technology
+130.234.000.000 - 130.234.255.255 , 200 , University of Jyvaskyla 
+130.235.000.000 - 130.235.255.255 , 200 , Lund University
+130.236.000.000 - 130.236.255.255 , 200 , University of Linkoping-UNIT
+130.240.000.000 - 130.240.255.255 , 200 , University of Lulea
+131.111.000.000 - 131.111.255.255 , 200 , University of Cambridge
+131.114.000.000 - 131.114.255.255 , 200 , Instituto del Consiglio Nazionale Delle Ricerche
+131.128.000.000 - 131.128.255.255 , 200 , University of Rhode Island
+131.130.000.000 - 131.130.255.255 , 200 , Vienna University
+131.155.000.000 - 131.155.255.255 , 200 , Eindhoven University
+131.164.000.000 - 131.164.255.255 , 200 , adsl-dhcp.tele.dk
+131.174.000.000 - 131.174.255.255 , 200 , University of Nijmegen
+131.193.000.000 - 131.193.255.255 , 200 , University of Illinois
+131.202.000.000 - 131.202.255.255 , 200 , University of New Brunswick
+131.204.000.000 - 131.204.255.255 , 200 , Auburn University
+131.211.000.000 - 131.211.255.255 , 200 , Universiteit Utrecht
+131.220.000.000 - 131.220.255.255 , 200 , University of Bonn
+131.230.000.000 - 131.230.255.255 , 200 , Southern Illinois University
+131.234.000.000 - 131.234.255.255 , 200 , University of Paderborn
+132.064.000.000 - 132.064.255.255 , 200 , The Hebrew University of Jerusalem
+132.177.000.000 - 132.177.255.255 , 200 , University of New Hampshire
+132.180.000.000 - 132.180.255.255 , 200 , University of Bayreuth
+132.199.000.000 - 132.199.255.255 , 200 , University of Regensburg
+132.208.000.000 - 132.208.255.255 , 200 , Universite du Quebec a Montreal 
+132.209.000.000 - 132.209.255.255 , 200 , Universite du Quebec
+132.229.000.000 - 132.229.255.255 , 200 , Rijks Universiteit Leiden
+132.239.000.000 - 132.239.255.255 , 200 , University of California
+132.248.000.000 - 132.248.255.255 , 200 , Universidad Nacional Autonoma de Mexico
+133.041.000.000 - 133.041.255.255 , 200 , Hiroshima University
+133.070.000.000 - 133.070.149.255 , 200 , Shizuoka University
+134.002.000.000 - 134.002.255.255 , 200 , Universitaet Tuebingen
+134.048.000.000 - 134.048.255.255 , 200 , Marquette University
+134.059.000.000 - 134.059.255.255 , 200 , Universite de Nice Sophia
+134.060.000.000 - 134.060.255.255 , 200 , University of Ulm
+134.076.000.000 - 134.076.255.255 , 200 , gesellschaft für wissenschaftliche datenverarbeitung göttingen 
+134.093.000.000 - 134.093.255.255 , 200 , Johannes Gutenberg-Universitaet
+134.094.000.000 - 134.094.255.255 , 200 , Forschungszentrum Juelich
+134.095.000.000 - 134.095.255.255 , 200 , UNI-KOELN
+134.096.000.000 - 134.096.255.255 , 200 , University of the Saarland
+134.099.000.000 - 134.099.255.255 , 200 , University of Duesseldorf
+134.102.000.000 - 134.102.255.255 , 200 , UNI-BREMEN
+134.106.000.000 - 134.106.255.255 , 200 , University Oldenburg
+134.107.000.000 - 134.107.255.255 , 200 , Max-Planck-Institut fuer Physik
+134.109.000.000 - 134.109.255.255 , 200 , Technische Universitaet Chemnitz
+134.130.000.000 - 134.130.255.255 , 200 , Rechenzentrum der RWTH Aachen
+134.147.000.000 - 134.147.255.255 , 200 , Ruhr-Universitaet Bochum 
+134.169.000.000 - 134.169.255.255 , 200 , Technische Universitaet Braunschweig
+134.245.000.000 - 134.245.255.255 , 200 , Universitaet Kiel
+135.040.000.000 - 135.054.255.255 , 200 , AT&T Bell Laboratories
+136.142.000.000 - 136.142.255.255 , 200 , University of Pittsburgh
+136.145.000.000 - 136.145.255.255 , 200 , University of Puerto Rico 
+136.165.000.000 - 136.165.255.255 , 200 , University of Louisville
+136.167.000.000 - 136.167.255.255 , 200 , Boston College
+136.223.000.000 - 136.223.255.255 , 200 , State University of New York
+136.242.000.000 - 136.242.255.255 , 200 , The Catholic University of American
+137.048.000.000 - 137.048.255.255 , 200 , University of Nebraska at Omaha
+137.054.000.000 - 137.054.255.255 , 200 , University of Virginia
+137.120.000.000 - 137.120.255.255 , 200 , University of Limburg
+137.151.000.000 - 137.151.255.255 , 200 , California State University, Fullerton
+137.193.000.000 - 137.193.255.255 , 200 , Universitaet der Bundeswehr Muenchen
+137.204.000.000 - 137.204.255.255 , 200 , Universita' di Bologna 
+137.222.000.000 - 137.222.255.255 , 200 , The University of Bristol 
+137.224.000.000 - 137.224.255.255 , 200 , Agricultural University Wageningen
+137.226.000.000 - 137.226.255.255 , 200 , Aachen University of Technology
+138.004.000.000 - 138.004.255.255 , 200 , Technical University of Madrid
+138.023.000.000 - 138.023.255.255 , 200 , University of California
+138.037.000.000 - 138.037.255.255 , 200 , Queen Mary and Westfield College
+138.047.000.000 - 138.047.255.255 , 200 , Louisiana Tech University
+138.078.000.000 - 138.078.255.255 , 200 , St. Mary's College of Maryland
+138.253.000.000 - 138.253.255.255 , 200 , University of Liverpool
+139.018.000.000 - 139.018.255.255 , 200 , Universitaet Leipzig 
+139.030.000.000 - 139.030.255.255 , 200 , University of Rostock
+139.222.000.000 - 139.222.255.255 , 200 , University of East Anglia
+140.077.000.000 - 140.077.255.255 , 200 , Ecole Normale Superieure de Lyon
+140.109.000.000 - 140.109.255.255 , 200 , Academia Sinica Computing Centre
+140.114.000.000 - 140.114.255.255 , 200 , National Tsing Hua University
+140.115.000.000 - 140.115.255.255 , 200 , Ministry of Education Computer Center
+140.117.000.000 - 140.117.255.255 , 200 , National Sun Yat-sen University
+140.119.000.000 - 140.119.255.255 , 200 , National Chengchi University
+140.121.000.000 - 140.121.255.255 , 200 , National Taiwan Ocean University
+140.136.000.000 - 140.136.255.255 , 200 , FuJen Catholic University
+140.164.000.000 - 140.164.255.255 , 200 , Istituto do Cibernetica/C.N.R.
+140.180.000.000 - 140.180.255.255 , 200 , Princeton University
+140.209.000.000 - 140.209.255.255 , 200 , St.Thomas University
+140.247.000.000 - 140.247.255.255 , 200 , Harvard University
+141.014.000.000 - 141.014.255.255 , 200 , Fritz Haber Institut
+141.020.000.000 - 141.020.255.255 , 200 , Humboldt-Universitaet
+141.030.000.000 - 141.030.255.255 , 200 , Technische Universitaet Dresden
+141.035.000.000 - 141.035.255.255 , 200 , Rechenzentrum der Universitaet Jena
+141.044.000.000 - 141.044.255.255 , 200 , Otto-von-Guericke-Universitaet
+141.048.000.000 - 141.048.255.255 , 200 , Martin-Luther-Universitaet Halle-Wittenberg
+141.051.000.000 - 141.051.255.255 , 200 , Universitaet Kassel
+141.057.000.000 - 141.057.255.255 , 200 , Hochschule fuer Technik, Wirtschaft und Kultur
+141.061.000.000 - 141.061.255.255 , 200 , Max-Planck-Intitut fuer Biochemie
+141.085.000.000 - 141.085.255.255 , 200 , University of Bucharest
+141.089.000.000 - 141.089.255.255 , 200 , Deutsches Forschungsnetz
+141.099.000.000 - 141.099.255.255 , 200 , University Siegen Campus Network
+141.100.000.000 - 141.100.255.255 , 200 , FH Darmstadt
+141.195.000.000 - 141.195.255.255 , 200 , Allegheny College
+141.209.000.000 - 141.209.255.255 , 200 , Central Michigan University 
+141.213.000.000 - 141.213.255.255 , 200 , University of Michigan
+141.223.000.000 - 141.223.255.255 , 200 , Pohang Institute of Science and Technology
+142.103.000.000 - 142.103.255.255 , 200 , University of British Columbia
+142.163.000.000 - 142.163.255.255 , 200 , Stentor National Integrated Communications Network
+142.166.000.000 - 142.166.255.255 , 200 , Stentor National Integrated Communications Network
+142.173.000.000 - 142.173.255.255 , 200 , Stentor National Integrated Communications Network
+142.176.000.000 - 142.176.255.255 , 200 , Stentor National Integrated Communications Network
+142.177.000.000 - 142.177.255.255 , 200 , Stentor National Integrated Communications Network
+142.179.000.000 - 142.179.255.255 , 200 , Stentor National Integrated Communications Network
+142.204.000.000 - 142.204.255.255 , 200 , Seneca College
+143.050.000.000 - 143.050.255.255 , 200 , Karl Franzen Universitaet
+143.060.000.000 - 143.060.255.255 , 200 , The University of Virginia
+143.089.000.000 - 143.089.255.255 , 200 , Hong Kong University of Science & Technology
+143.093.000.000 - 143.093.255.255 , 200 , Fachhochschule Rheinland-Pfalz
+143.107.000.000 - 143.107.255.255 , 200 , Universidade de Sao Paulo
+143.129.000.000 - 143.129.255.255 , 200 , RUCA Rekencentrum
+143.205.000.000 - 143.205.255.255 , 200 , Universitaet Klagenfurt 
+143.248.000.000 - 143.248.255.255 , 200 , Korea Institute of Technology
+144.013.000.000 - 144.013.255.255 , 200 , University of Wisconsin
+144.096.000.000 - 144.096.255.255 , 200 , Stephen F. Austin State University
+144.118.000.000 - 144.118.255.255 , 200 , Drexel University
+144.122.000.000 - 144.122.255.255 , 200 , Middle East Technical University
+144.138.000.000 - 144.138.255.255 , 200 , Telstra
+145.000.000.000 - 145.127.255.255 , 200 , SURFnet BV RIPE-NL
+145.254.032.000 - 145.254.255.255 , 200 , arcor-ip.net
+146.050.000.000 - 146.050.255.255 , 200 , Univertsiteit van Amsterdam
+146.110.000.000 - 146.110.255.255 , 200 , University of Economic Sciences
+146.115.000.000 - 146.115.255.255 , 200 , RCN Corporation
+146.163.000.000 - 146.163.255.255 , 200 , Southern Illinois University
+146.201.000.000 - 146.201.255.255 , 200 , Florida State University
+146.244.000.000 - 146.244.255.255 , 200 , San Diego State University
+147.046.000.000 - 147.046.255.255 , 200 , Seoul National University 
+147.083.000.000 - 147.083.255.255 , 200 , Universitat Politecnica de Catalunya
+147.086.000.000 - 147.086.255.255 , 200 , Hoehere Technische Lehranstalt Brugg-Windisch
+147.096.000.000 - 147.096.255.255 , 200 , Universidad Complutense de Madrid 
+147.102.000.000 - 147.102.255.255 , 200 , National Technical University of Athens 
+147.156.000.000 - 147.156.255.255 , 200 , Valencia University
+147.175.000.000 - 147.175.255.255 , 200 , Slovak Technical University
+147.210.000.000 - 147.210.255.255 , 200 , University de Bordeaux
+147.213.000.000 - 147.213.255.255 , 200 , Computing Centre of Slovak Academy 
+147.228.000.000 - 147.228.255.255 , 200 , University of West Bohemia
+147.229.000.000 - 147.229.255.255 , 200 , Technical University of Brno
+148.062.000.000 - 148.078.255.255 , 200 ,  Spacenet, Inc
+148.088.000.000 - 148.088.255.255 , 200 , University of Lancaster
+148.202.000.000 - 148.202.255.255 , 200 , Universidad de Guadalajara
+148.214.000.000 - 148.214.255.255 , 200 , Universidad de Guanajuato
+149.084.000.000 - 149.084.255.255 , 200 , Alfred University
+149.106.000.000 - 149.106.255.255 , 200 , Union College
+149.142.000.000 - 149.142.255.255 , 200 , UCLA Campus Network Services
+149.149.000.000 - 149.149.255.255 , 200 , Tennessee Technological University
+149.156.000.000 - 149.156.255.255 , 200 , University MCS (2 blocks)
+149.159.000.000 - 149.159.255.255 , 200 , Indiana University Computing Services
+149.166.000.000 - 149.166.255.255 , 200 , Indiana University-Purdue University
+149.203.000.000 - 149.203.255.255 , 200 , Medizinische Akademie Magdeburg
+150.046.000.000 - 150.046.255.255 , 200 , Okayama University
+150.101.000.000 - 150.101.255.255 , 200 , Internode Professional Access
+150.128.000.000 - 150.128.255.255 , 200 , Jaume I University Computer Center
+150.135.000.000 - 150.135.255.255 , 200 , University of Arizona
+150.244.000.000 - 150.244.255.255 , 200 , Universidad Autonoma de Madrid
+150.254.066.000 - 150.254.066.255 , 200 , Adam Mickiewicz Univercity
+151.024.000.000 - 151.031.255.255 , 200 , Free Internet Dial-up Services
+151.037.000.000 - 151.037.255.255 , 200 , IUnet
+151.038.000.000 - 151.038.255.255 , 200 , IUnet
+151.042.000.000 - 151.042.255.255 , 200 , IUnet
+151.188.000.000 - 151.188.255.255 , 200 , Fairfax County Public Schools 
+151.200.080.000 - 151.200.080.255 , 200 , Trinity College
+152.013.000.000 - 152.013.255.255 , 200 , University of North Carolina at Greensboro
+152.016.000.000 - 152.016.255.255 , 200 , North Carolina Research and Education Network
+152.066.000.000 - 152.066.255.255 , 200 , Technical University of Budapest
+152.078.000.000 - 152.078.255.255 , 200 , University of Southampton
+152.092.000.000 - 152.092.255.255 , 200 , Universidade do Estado do Rio de Janeiro
+152.093.000.000 - 152.093.255.255 , 200 , Rogaland Fylkeskommune
+152.149.000.000 - 152.149.255.255 , 200 , Daewoo Information Systems
+153.019.000.000 - 153.019.255.255 , 200 , University MCS (2 blocks)
+155.230.000.000 - 155.230.255.255 , 200 , Kyungpook National University
+155.246.000.000 - 155.246.255.255 , 200 , Stevens Institute of Technology
+156.018.000.000 - 156.018.255.255 , 200 , Ecole Centrale de Lyon
+157.025.000.000 - 157.025.255.255 , 200 , Advanced Technology Manufacturing
+157.092.000.000 - 157.092.255.255 , 200 , Universidad Nacional de Buenos Aires
+157.158.000.000 - 157.158.255.255 , 200 , Silesian Technical University
+158.042.000.000 - 158.042.255.255 , 200 , Politechnical Valencia University
+158.227.000.000 - 158.227.255.255 , 200 , Sociedad para la Promocion y Reconversion Industrial
+159.130.000.000 - 159.130.255.255 , 200 , Skien Kommune 
+159.134.000.000 - 159.134.255.255 , 200 , Telecom Eireann
+159.148.000.000 - 159.148.255.255 , 200 , Academic Network of Latvian Universities
+159.149.000.000 - 159.149.255.255 , 200 , CSI Univ. degli Studi di Milano
+160.008.000.000 - 160.008.255.255 , 200 , AMU-Gruppen i Jamtland
+160.036.000.000 - 160.036.255.255 , 200 , University of Tennessee
+160.039.000.000 - 160.039.255.255 , 200 , Columbia University Computer Operations
+160.045.000.000 - 160.045.255.255 , 200 , Freie Universitaet Berlin
+160.075.000.000 - 160.075.255.255 , 200 , Istanbul Technical University
+160.080.000.000 - 160.080.255.255 , 200 , Universita "Tor Vergata"-Roma
+160.129.000.000 - 160.129.255.255 , 200 , Vanderbilt University
+160.252.000.000 - 160.252.255.255 , 200 , Shinshu University
+161.053.000.000 - 161.053.255.255 , 200 , University Computing Centre
+161.067.000.000 - 161.067.255.255 , 200 , UNIVERSIDAD DE CASTILLA
+161.074.000.000 - 161.074.255.255 , 200 , University of Westminster
+161.200.000.000 - 161.200.255.255 , 200 , Chulalongkorn University
+163.001.000.000 - 163.001.255.255 , 200 , Oxford University Computing Service 
+163.027.000.000 - 163.027.255.255 , 200 , Chiayi-Yunlin Education Network
+163.117.000.000 - 163.117.255.255 , 200 , Universidad Carlos III
+164.002.000.000 - 164.002.255.255 , 200 , Assistance Publique-Hopitaux de Paris
+164.008.000.000 - 164.008.255.255 , 200 , University of Maribor
+164.015.000.000 - 164.015.255.255 , 200 , Universite Libre de Bruxelles
+164.077.032.000 - 164.077.255.255 , 200 , ENTEL CHILE
+164.125.000.000 - 164.125.255.255 , 200 , Pusan National University
+165.123.000.000 - 165.123.255.255 , 200 , University of Pennsylvania
+165.132.000.000 - 165.132.255.255 , 200 , Yonsei University
+165.194.000.000 - 165.194.255.255 , 200 , Chungang University
+165.229.000.000 - 165.229.255.255 , 200 , Yeungnam University
+165.246.000.000 - 165.246.255.255 , 200 , Inha University
+166.070.000.000 - 166.070.255.255 , 200 , XMISSION.COM
+166.072.000.000 - 166.072.255.255 , 200 , AT&T Global Network Services
+166.102.000.000 - 166.102.255.255 , 200 , ALLTEL Corporation
+166.104.000.000 - 166.104.255.255 , 200 , Hanyang University
+166.114.000.000 - 166.114.255.255 , 200 , Red Bolivina de Comunicacion de Datos
+167.142.000.000 - 167.142.255.255 , 200 , Iowa Network Services, Inc.
+168.105.000.000 - 168.105.255.255 , 200 , Hawaii Medical Network
+168.115.000.000 - 168.115.255.255 , 200 , Dong-A University
+168.122.000.000 - 168.122.255.255 , 200 , Boston University 
+168.131.000.000 - 168.131.255.255 , 200 , Chonnam University
+168.226.000.000 - 168.226.255.255 , 200 , Telefonica de Argentina
+169.197.000.000 - 169.197.063.255 , 200 , TUCSON NEWSPAPERS
+169.226.000.000 - 169.226.255.255 , 200 , University at Albany
+169.229.000.000 - 169.229.255.255 , 200 , University of California
+169.232.000.000 - 169.232.255.255 , 200 , University of California
+169.237.000.000 - 169.237.255.255 , 200 , University of California
+169.254.000.000 - 169.254.255.255 , 200 , Spezial block (DHCP)
+170.001.000.000 - 170.001.255.255 , 200 , Columbia Health Care
+170.140.000.000 - 170.140.255.255 , 200 , Emory University
+170.210.000.000 - 170.210.255.255 , 200 , Red de Interconexion Universitaria
+171.064.000.000 - 171.067.255.255 , 200 , Stanford University Network
+172.016.000.000 - 172.031.255.255 , 200 , Private Networks
+172.128.000.000 - 172.191.255.255 , 200 , ipt.aol.com
+172.192.000.000 - 172.205.255.255 , 200 , ipt.aol.com  and  America Online
+192.000.000.000 - 192.000.127.255 , 200 , RESERVED-192
+192.000.002.000 - 192.000.002.255 , 200 , RFC 3330     Test-Net
+192.088.099.000 - 192.088.099.255 , 200 , RFC 3330     6to4 Relay Anycast
+192.168.000.000 - 192.168.255.255 , 200 , Private Networks
+192.204.000.000 - 192.204.255.255 , 200 , Verio, Inc.
+193.010.166.000 - 193.100.175.255 , 200 , HB.SE network
+193.077.000.000 - 193.077.255.255 , 200 , dsl.siol.net
+193.095.192.000 - 193.095.255.255 , 200 , SiOL d.o.o
+193.111.198.000 - 193.111.199.255 , 200 , FastHousing colocation customers
+193.140.148.000 - 193.140.155.255 , 200 , Dokuz Eylul University
+193.140.224.000 - 193.140.239.255 , 200 , Hacettepe University
+193.144.176.000 - 193.144.223.255 , 200 , Universidad de Cantabria
+193.146.032.000 - 193.146.047.255 , 200 , Universidad de Vigo
+193.147.128.000 - 193.147.148.255 , 200 , Universidad Miguel Hernandez
+193.170.220.000 - 193.170.223.255 , 200 , Austrian School Network
+193.171.032.000 - 193.171.047.255 , 200 , Johannes Kepler Universitaet Linz
+193.171.240.000 - 193.171.247.255 , 200 , Virtual Campus Graz
+193.205.230.000 - 193.205.230.255 , 200 , Università Studi di Napoli 'Parthenope'
+193.219.160.000 - 193.219.160.255 , 200 , Kaunas University of Technology (subnets)
+193.231.030.000 - 193.231.030.255 , 200 , The "Al.I.Cuza" University 
+193.233.185.000 - 193.233.185.255 , 200 , Voronezh State Technical University
+193.250.136.000 - 193.250.143.255 , 200 , wanadoo.fr
+193.251.000.000 - 193.251.066.255 , 200 , wanadoo.fr (dsl)
+193.251.068.000 - 193.251.095.255 , 200 , wanadoo.fr (dsl)
+193.251.179.000 - 193.251.179.255 , 200 , wanadoo.fr (dsl)
+193.251.180.000 - 193.251.184.255 , 200 , wanadoo.fr (dsl)
+193.251.185.000 - 193.251.185.255 , 200 , wanadoo.fr (dsl)
+193.251.189.000 - 193.251.189.255 , 200 , wanadoo.fr (dsl)
+193.251.191.000 - 193.251.191.255 , 200 , wanadoo.fr (dsl)
+193.252.002.000 - 193.252.002.255 , 200 , wanadoo.fr (dsl)
+193.252.011.000 - 193.252.011.255 , 200 , wanadoo.fr (dsl)
+193.252.025.000 - 193.252.025.255 , 200 , wanadoo.fr (dsl)
+193.252.027.000 - 193.252.027.255 , 200 , wanadoo.fr (dsl)
+193.252.028.000 - 193.252.028.255 , 200 , wanadoo.fr (dsl)
+193.252.029.000 - 193.252.029.255 , 200 , wanadoo.fr (dsl)
+193.252.051.000 - 193.252.051.255 , 200 , wanadoo.fr (dsl)
+193.252.058.000 - 193.252.058.255 , 200 , wanadoo.fr (dsl)
+193.252.062.000 - 193.252.062.255 , 200 , wanadoo.fr (dsl)
+193.252.108.000 - 193.252.108.255 , 200 , wanadoo.fr (dsl)
+193.252.170.000 - 193.252.170.255 , 200 , wanadoo.fr (dsl)
+193.252.174.000 - 193.252.174.255 , 200 , wanadoo.fr (dsl)
+193.252.175.000 - 193.252.175.255 , 200 , wanadoo.fr (dsl)
+193.252.177.000 - 193.252.177.255 , 200 , wanadoo.fr (dsl)
+193.252.181.000 - 193.252.181.255 , 200 , wanadoo.fr
+193.252.184.000 - 193.252.184.255 , 200 , wanadoo.fr (dsl)
+193.252.186.000 - 193.252.186.255 , 200 , wanadoo.fr (dsl)
+193.252.187.000 - 193.252.187.255 , 200 , wanadoo.fr(dsl)
+193.252.190.000 - 193.252.190.255 , 200 , wanadoo.fr(dsl)
+193.252.202.000 - 193.252.202.255 , 200 , wanadoo.fr (dsl)
+193.252.203.000 - 193.252.203.255 , 200 , wanadoo.fr (dsl)
+193.252.205.000 - 193.252.205.255 , 200 , wanadoo.fr (dsl)
+193.252.206.000 - 193.252.206.255 , 200 , wanadoo.fr (dsl)
+193.252.221.000 - 193.252.221.255 , 200 , wanadoo.fr (dsl)
+193.253.042.000 - 193.253.042.255 , 200 , wanadoo.fr (dsl)
+193.253.046.000 - 193.253.046.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+193.253.053.000 - 193.253.053.255 , 200 , wanadoo.fr (dsl)
+193.253.062.000 - 193.253.062.255 , 200 , wanadoo.fr (dsl)
+193.253.179.000 - 193.253.179.127 , 200 , wanadoo.fr (dsl)
+193.253.180.000 - 193.253.180.255 , 200 , wanadoo.fr (dsl)
+193.253.202.000 - 193.253.202.255 , 200 , wanadoo.fr (dsl)
+193.253.209.000 - 193.253.209.255 , 200 , wanadoo.fr (dsl)
+193.253.221.000 - 193.253.221.255 , 200 , wanadoo.fr (dsl)
+193.253.224.000 - 193.253.224.255 , 200 , wanadoo.fr (dsl)
+193.253.227.000 - 193.253.227.255 , 200 , wanadoo.fr (dsl)
+193.253.232.000 - 193.253.233.255 , 200 , wanadoo.fr (dsl)
+193.253.238.000 - 193.253.238.255 , 200 , wanadoo.fr (dsl)
+193.253.240.000 - 193.253.240.255 , 200 , wanadoo.fr (dsl)
+193.253.247.000 - 193.253.247.255 , 200 , wanadoo.fr (dsl) 
+193.253.248.000 - 193.253.248.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+193.253.250.000 - 193.253.250.255 , 200 , wanadoo.fr (dsl)
+193.253.255.000 - 193.253.255.255 , 200 , wanadoo.fr (dsl)
+194.027.020.000 - 194.027.023.255 , 200 , Akdeniz Universitesi
+194.029.020.000 - 194.029.020.255 , 200 , tinet.ch
+194.063.160.000 - 194.063.239.255 , 200 , Greek High-School
+194.097.040.160 - 194.097.040.167 , 200 , topnet AG MobilCom Business
+194.105.096.000 - 194.105.103.255 , 200 , Kabelfernsehen Muenchen
+194.109.220.000 - 194.109.223.255 , 200 , x4all (dsl)
+194.109.224.000 - 194.109.255.255 , 200 , xs4all.nl (dsl)
+194.153.232.000 - 194.153.232.255 , 200 , National Radiocommunications Company - Romania
+194.204.062.000 - 194.204.062.255 , 200 , Uninet Data Communications Ltd.
+194.209.090.000 - 194.209.090.255 , 200 , klein.ch
+194.236.060.000 - 194.236.060.255 , 200 , Bostream
+194.249.032.000 - 194.249.037.255 , 200 , arnes.si
+194.255.000.000 - 194.255.255.255 , 200 , telia.dk
+195.014.197.000 - 195.014.197.255 , 200 , Netcologne GmbH
+195.014.198.000 - 195.014.198.255 , 200 , NetCologne (cable)
+195.014.200.000 - 195.014.200.255 , 200 , netcologne.de
+195.014.201.000 - 195.014.201.255 , 200 , Netcologne (DSL)
+195.014.202.000 - 195.014.202.255 , 200 , netcologne.de
+195.014.203.000 - 195.014.203.255 , 200 , netcologne.de (dsl)
+195.014.204.000 - 195.014.204.255 , 200 , Netcologne (dsl)
+195.014.205.000 - 195.014.205.255 , 200 , Netcologne (DSL)
+195.014.206.000 - 195.014.206.255 , 200 , Netcologne (dsl)
+195.014.207.000 - 195.014.207.255 , 200 , Netcologne (DSL)
+195.014.216.000 - 195.014.216.255 , 200 , Netcologne (DSL)
+195.014.217.000 - 195.014.217.255 , 200 , Netcologne(dsl)
+195.014.218.000 - 195.014.218.255 , 200 , xDSL Pool Netcologne GmbH
+195.014.219.000 - 195.014.223.255 , 200 , netcologne.de
+195.022.019.000 - 195.022.031.255 , 200 , VIA NET.WORKS Portugal
+195.041.000.000 - 195.041.255.255 , 200 , adsl-dhcp.tele.dk
+195.064.088.000 - 195.064.089.255 , 200 , Cistron Broadband (dsl)
+195.071.000.000 - 195.071.255.255 , 200 , mediaWays GmbH
+195.112.128.000 - 195.112.128.255 , 200 , ADA-NET Internet Services
+195.134.064.000 - 195.134.127.255 , 200 , University of Athens
+195.146.224.000 - 195.146.247.255 , 200 , nordnet.fr
+195.158.096.000 - 195.158.127.255 , 200 , maltanet.net
+195.158.137.000 - 195.158.137.255 , 200 , ISIS Multimedia Net
+195.158.146.000 - 195.158.146.255 , 200 , ISIS Multimedia Net GmbH
+195.158.147.000 - 195.158.147.255 , 200 , ISIS Multimedia Net
+195.158.148.000 - 195.158.148.255 , 200 , ISIS 
+195.158.152.000 - 195.158.153.255 , 200 , ISIS
+195.158.156.000 - 195.158.156.255 , 200 , ISIS Multimedia (dialin)
+195.162.171.000 - 195.162.181.255 , 200 , YETNET is an ISP in Switzerland
+195.177.084.000 - 195.177.087.255 , 200 , WobCom
+195.186.096.000 - 195.186.255.255 , 200 , Bluewin  and  BLUEWINNET
+195.197.000.000 - 195.197.255.255 , 200 , Scifi Communications
+195.202.035.000 - 195.202.035.255 , 200 , Citykom Muenster GmbH Telekommunikationsservice
+195.202.050.000 - 195.202.051.255 , 200 , citykom.de
+195.202.169.000 - 195.202.170.255 , 200 , Kabelsignal AG 
+195.241.020.000 - 195.241.021.255 , 200 , Tiscali (ppp)
+195.241.164.000 - 195.241.165.255 , 200 , 
+195.242.064.000 - 195.242.079.255 , 200 , Tiscali
+195.242.080.000 - 195.242.127.255 , 200 , Tiscali
+195.249.000.000 - 195.249.255.255 , 200 , adsl-dhcp.tele.dk
+195.251.192.000 - 195.251.201.255 , 200 , University of Ioannina
+196.003.001.000 - 196.003.001.255 , 200 , University of the West Indies
+198.018.000.000 - 198.019.255.255 , 200 , RFC 2544
+200.045.224.000 - 200.045.255.255 , 200 , Apolo-Gold-Telecom
+202.045.096.000 - 202.045.127.255 , 200 , netspace.net.au
+202.156.128.000 - 202.156.191.255 , 200 , Singapore Cable Vision
+202.156.192.000 - 202.156.255.255 , 200 , Singapore Cable Vision
+202.166.064.000 - 202.166.127.255 , 200 , Magix Broadband Network
+202.180.064.000 - 202.180.095.255 , 200 , Attica Communications Limited
+203.059.000.000 - 203.059.255.255 , 200 , iiNet Technologies Pty
+203.149.016.000 - 203.149.031.255 , 200 , Mahanakorn University
+203.217.096.000 - 203.217.127.255 , 200 , Monad Digitnamic Corp.
+203.220.000.000 - 203.220.255.255 , 200 , COMINDICO
+203.232.016.192 - 203.232.016.223 , 200 , KORNET-NETINFRA-PUSAN
+203.234.157.000 - 203.234.158.255 , 200 , Kornet (dsl)
+203.246.000.000 - 203.246.031.255 , 200 , Changwon National University
+203.253.160.000 - 203.253.191.255 , 200 , kyungnam.ac.kr
+206.000.000.000 - 206.002.255.255 , 200 , PSINET/B&B Electronics
+207.044.128.000 - 207.044.255.255 , 200 , Everyones Internet, Inc.
+209.126.128.000 - 209.126.255.255 , 200 , California Regional Internet, Inc.
+209.180.000.000 - 209.181.255.255 , 200 , U S WEST Internet Services
+210.105.041.000 - 210.105.043.255 , 200 , Kornet (dsl)
+210.180.124.000 - 210.180.124.255 , 200 , HANANET
+211.047.118.000 - 211.047.127.255 , 200 , KCNET
+211.048.198.000 - 211.048.199.255 , 200 , Kornet (dsl)
+211.104.038.000 - 211.104.043.255 , 200 , KORNET (dsl)  and  Kornet (dsl)
+211.108.049.000 - 211.108.049.255 , 200 , HANANET
+211.117.004.000 - 211.117.004.255 , 200 , HANANET
+211.176.160.000 - 211.176.160.255 , 200 , HANANET-INCHEON
+211.177.048.000 - 211.177.048.255 , 200 , HANANET-CATV
+211.178.046.000 - 211.178.046.255 , 200 , HANANET
+211.179.171.000 - 211.179.171.255 , 200 , HANARO Telecom 
+211.192.220.000 - 211.192.220.255 , 200 , Kornet (dsl)
+211.193.183.000 - 211.193.183.255 , 200 , KORNET  and  Kornet
+211.193.216.000 - 211.193.218.127 , 200 , Kornet (dsl)
+211.195.141.000 - 211.195.142.255 , 200 , KORNET
+211.199.223.000 - 211.199.228.255 , 200 , KORNET
+211.200.160.000 - 211.200.161.255 , 200 , Hananet
+211.200.184.000 - 211.200.187.255 , 200 , HANANET
+211.202.000.000 - 211.202.003.255 , 200 , HANANET-IDC-NGENE
+211.203.032.000 - 211.203.035.255 , 200 , HANANET
+211.203.129.000 - 211.203.129.255 , 200 , HANANET
+211.205.210.000 - 211.205.211.255 , 200 , HANANET
+211.206.245.000 - 211.206.245.255 , 200 , Hananet (tv)
+211.207.064.000 - 211.207.067.255 , 200 , HANANET (dsl)
+211.207.168.000 - 211.207.171.255 , 200 , HANANET (dsl)
+211.207.172.000 - 211.207.175.255 , 200 , HANANET (dsl)
+211.207.194.000 - 211.207.195.255 , 200 , HANANET (dsl)
+211.207.208.000 - 211.207.211.255 , 200 , HanaNet (dsl)
+211.208.074.000 - 211.208.075.255 , 200 , HANANET
+211.208.117.000 - 211.208.117.255 , 200 , HANANET
+211.208.176.000 - 211.208.179.255 , 200 , HANANET
+211.209.006.000 - 211.209.006.255 , 200 , hananet (dsl)
+211.209.010.000 - 211.209.010.255 , 200 , HANANET (dsl)
+211.209.125.000 - 211.209.125.255 , 200 , Hananet (tv)
+211.209.240.000 - 211.209.243.255 , 200 , HANANET
+211.211.005.000 - 211.211.005.255 , 200 , Proxad / Free Telecom
+211.212.236.000 - 211.212.236.255 , 200 , HANANET (tv)
+211.213.026.000 - 211.213.026.255 , 200 , HANANET
+211.213.145.000 - 211.213.145.255 , 200 , Hananet (tv)
+211.215.057.000 - 211.215.057.255 , 200 , HANANET (dsl)
+211.215.097.000 - 211.215.097.255 , 200 , HANANET (dsl)
+211.215.120.000 - 211.215.120.255 , 200 , HANANET-CATV
+211.215.122.000 - 211.215.122.255 , 200 , HANANET (dsl)
+211.215.141.000 - 211.215.141.255 , 200 , Hananet (dsl)
+211.215.145.000 - 211.215.145.255 , 200 , Hananet (dsl)
+211.215.149.000 - 211.215.149.255 , 200 , HANANET (dsl)
+211.215.209.000 - 211.215.209.255 , 200 , HANANET (dsl)
+211.220.027.000 - 211.220.040.255 , 200 , KORNET (dsl)
+211.226.204.000 - 211.226.207.255 , 200 , Kornet (dsl)
+211.226.212.000 - 211.226.219.255 , 200 , KORNET-XDSL
+211.227.184.000 - 211.227.189.255 , 200 , KORNET (dsl)
+211.227.220.000 - 211.227.220.255 , 200 , Kornet (dsl)
+211.228.224.000 - 211.228.249.255 , 200 , KORNET (dsl)  and  Kornet (dsl)
+211.233.012.000 - 211.233.015.255 , 200 , KIDC-INFRA-SERVERHOSTING-INEMPIRE
+211.245.029.000 - 211.245.031.255 , 200 , THRUNET-CATV-SONGPAOWN
+212.006.067.000 - 212.006.083.255 , 200 , ewetel
+212.006.114.000 - 212.006.114.255 , 200 , EWETEL-DIALINNET9
+212.007.128.000 - 212.007.143.255 , 200 , KOMTEL
+212.017.105.000 - 212.017.105.255 , 200 , 
+212.033.084.000 - 212.033.086.255 , 200 , Medical Academy in Bialystok
+212.037.032.000 - 212.037.041.175 , 200 , hamcom.de
+212.041.064.000 - 212.041.071.255 , 200 , SolNet ADSL
+212.041.072.000 - 212.041.079.255 , 200 , SolNet ADSL 
+212.056.088.000 - 212.056.088.255 , 200 , plus.net(dsl)
+212.056.103.000 - 212.056.103.207 , 200 , PLUSNET
+212.058.177.000 - 212.058.185.255 , 200 , multikabel.nl (dsl)
+212.059.056.001 - 212.059.058.255 , 200 , htp-tel.net
+212.060.050.000 - 212.060.050.255 , 200 , CATV-Internet
+212.062.071.000 - 212.062.074.255 , 200 , Teleos
+212.062.076.000 - 212.062.076.255 , 200 , Teleos
+212.062.078.000 - 212.062.079.255 , 200 , teleos
+212.062.080.000 - 212.062.084.255 , 200 , Teleos GmbH 
+212.062.086.000 - 212.062.086.255 , 200 , teleos (dsl)
+212.062.092.000 - 212.062.092.255 , 200 , Teleos 
+212.063.046.000 - 212.063.046.255 , 200 , KKFnet (dsl)
+212.064.107.000 - 212.064.116.223 , 200 , Wanadoo Cable
+212.083.033.000 - 212.083.033.255 , 200 , Star 21 Networks AG Datacenter Frankfurt (???)
+212.083.069.000 - 212.083.080.255 , 200 , chello.nl
+212.083.128.000 - 212.083.153.255 , 200 , tiscali.fr
+212.088.172.000 - 212.088.172.255 , 200 , TAADSL-Customers1
+212.090.064.000 - 212.090.074.255 , 200 , HELSINKI-TELEVISIO-OY
+212.093.000.000 - 212.093.031.255 , 200 , VersaTel Deutschland
+212.095.099.000 - 212.095.099.255 , 200 , osnatel
+212.095.100.000 - 212.095.100.255 , 200 , osnatel (dsl)
+212.095.101.000 - 212.095.101.255 , 200 , osnatel-subnet for ADSL dial-up
+212.095.102.000 - 212.095.102.255 , 200 , osnatel (DSL)
+212.095.103.000 - 212.095.103.255 , 200 , osnatel-subnet for ADSL dial-up
+212.095.104.000 - 212.095.104.255 , 200 , osnatel (dsl)
+212.095.105.000 - 212.095.105.255 , 200 , osnatel (dsl)
+212.095.106.000 - 212.095.106.254 , 200 , osnatel (DSL)
+212.095.107.000 - 212.095.107.255 , 200 , osnatel (dsl)
+212.101.016.000 - 212.101.016.255 , 200 , solnet (fixed dsl ip)
+212.114.165.000 - 212.114.167.255 , 200 , nefkom.de
+212.114.213.000 - 212.114.213.255 , 200 , NEFkom Telekommunikation (DSL) 
+212.114.214.000 - 212.114.214.255 , 200 , NEFkom.net
+212.114.232.000 - 212.114.239.255 , 200 , NEFkom.net
+212.120.064.000 - 212.120.127.255 , 200 , home.nl
+212.120.098.000 - 212.120.099.255 , 200 , home.nl
+212.122.068.000 - 212.122.071.255 , 200 , City LAN Provider
+212.129.022.000 - 212.129.029.255 , 200 , tiscali.fr 
+212.129.030.000 - 212.129.055.255 , 200 , fr.tiscali.com
+212.129.128.000 - 212.129.223.255 , 200 , Euronet (dsl)
+212.142.181.000 - 212.142.191.255 , 200 , euskaltel.es
+212.143.148.000 - 212.143.149.255 , 200 , Tevel Cable experiment
+212.144.000.000 - 212.144.255.255 , 200 , o.tel.o
+212.144.128.000 - 212.144.191.255 , 200 , arcor-ip.net
+212.144.192.000 - 212.144.255.255 , 200 , arcor-ip.net
+212.145.160.000 - 212.145.252.255 , 200 , Comunitel Global
+212.159.096.000 - 212.159.106.255 , 200 , plus.net(dsl)
+212.159.108.000 - 212.159.127.255 , 200 , plus.net(dsl)
+212.170.000.000 - 212.170.026.255 , 200 , uc.nombres.ttd.es
+212.171.018.000 - 212.171.019.255 , 200 , telecomitalia.it (dsl)
+212.171.045.000 - 212.171.045.255 , 200 , telecomitalia.it (dsl)
+212.179.192.000 - 212.179.255.255 , 200 , red.bezeqint.net
+212.182.025.000 - 212.182.025.063 , 200 , Agriculture University, Lublin
+212.183.064.000 - 212.183.127.255 , 200 , Telekom Austria Aktiengesellschaft
+212.185.208.000 - 212.185.255.255 , 200 , dip.t-dialin.net
+212.186.108.000 - 212.186.109.255 , 200 , Student Customers in Vienna
+212.186.160.000 - 212.186.161.255 , 200 , chello
+212.187.112.000 - 212.187.119.255 , 200 , Chello.nl
+212.194.000.000 - 212.194.191.255 , 200 , w.club-internet.fr
+212.194.192.000 - 212.195.063.255 , 200 , t-online.fr
+212.195.064.000 - 212.195.255.255 , 200 , w.club-internet.fr
+212.202.000.000 - 212.202.255.255 , 200 , reverse.qdsl-home.de
+212.204.016.000 - 212.204.023.255 , 200 , DSL-POOL-01
+212.204.024.000 - 212.204.031.255 , 200 , Versatel Deutschland (DSL)
+212.204.056.000 - 212.204.056.255 , 200 , RFT Brandenburg
+212.232.000.000 - 212.232.015.255 , 200 , Tiscali
+212.232.024.000 - 212.232.039.255 , 200 , Tiscali.fr
+212.232.040.000 - 212.232.047.255 , 200 , Tiscali
+212.232.048.000 - 212.232.079.255 , 200 , tiscali.fr
+212.238.144.000 - 212.238.151.255 , 200 , demon.nl
+212.238.240.000 - 212.238.247.255 , 200 , demon.nl
+212.241.064.000 - 212.241.095.255 , 200 , LIWEST (cable)
+212.242.048.000 - 212.242.063.255 , 200 , cybercity.dk
+212.242.096.000 - 212.242.127.255 , 200 , CYBERCITY
+212.242.128.000 - 212.242.255.255 , 200 , cybercity.dk
+212.254.096.000 - 212.254.103.255 , 200 , TISCALI-ADSL-ZH
+212.254.248.000 - 212.254.253.255 , 200 , Tiscali (dsl)
+213.003.000.000 - 213.003.127.255 , 200 , 
+213.006.000.000 - 213.006.255.255 , 200 , MOBILCOM-CITYLINE-NET
+213.009.244.000 - 213.009.245.255 , 200 , BT Telecomunicaciones (dsl)
+213.013.016.000 - 213.013.031.255 , 200 , Telepac - Comunicacoes (dsl)
+213.020.000.000 - 213.020.255.255 , 200 , mediaWays.net
+213.023.000.000 - 213.023.071.255 , 200 , arcor-ip.net 
+213.023.128.000 - 213.023.191.255 , 200 , Arcor(dsl)
+213.023.192.000 - 213.023.223.255 , 200 , Arcor (dsl)
+213.023.224.000 - 213.023.239.255 , 200 , Arcor (dsl)
+213.023.240.000 - 213.023.247.255 , 200 , Arcor (dsl)
+213.023.248.000 - 213.023.251.255 , 200 , Arcor (dsl)
+213.023.254.000 - 213.023.254.255 , 200 , Arcor (dsl)
+213.023.255.000 - 213.023.255.255 , 200 , Arcor (dsl)
+213.036.000.000 - 213.036.031.255 , 200 , Tiscali France
+213.037.000.000 - 213.037.065.255 , 200 , isp.madritel.es
+213.037.066.000 - 213.037.109.255 , 200 , madritel.es
+213.037.110.000 - 213.037.131.245 , 200 , madritel.es
+213.037.150.000 - 213.037.255.255 , 200 , madritel.es
+213.039.128.000 - 213.039.166.255 , 200 , hansenet.de
+213.039.167.000 - 213.039.174.255 , 200 , HanseNet Telekommunikation GmbH
+213.039.175.000 - 213.039.181.255 , 200 , HanseNet Telekommunikation (DSL)
+213.039.182.000 - 213.039.197.255 , 200 , hansenet.de
+213.039.198.000 - 213.039.213.255 , 200 , HanseNet (dsl)
+213.039.214.000 - 213.039.218.255 , 200 , HanseNet (dsl)
+213.041.128.000 - 213.041.191.255 , 200 , NERIM-ADSL-FT-20020605
+213.044.144.000 - 213.044.255.255 , 200 , w.club-internet.fr
+213.045.028.000 - 213.045.029.255 , 200 , Telecom Italia S.p.A
+213.047.106.000 - 213.047.123.255 , 200 , chello Austria
+213.047.168.000 - 213.047.169.255 , 200 , chello
+213.047.176.000 - 213.047.180.255 , 200 , chello.at
+213.048.076.000 - 213.048.076.255 , 200 , bra.cvx.blueyonder.co.uk
+213.051.022.000 - 213.051.023.255 , 200 , 
+213.051.088.000 - 213.051.089.255 , 200 , @@Home Benelux
+213.051.162.000 - 213.051.163.255 , 200 , @@Home
+213.051.188.000 - 213.051.189.255 , 200 , @@Home Benelux
+213.054.000.000 - 213.054.127.255 , 200 , Tiscali Business
+213.060.000.000 - 213.060.003.255 , 200 , 
+213.060.040.000 - 213.060.043.255 , 200 , 
+213.060.100.000 - 213.060.103.255 , 200 , cablegalicia.com
+213.078.143.000 - 213.078.159.255 , 200 , onetel.net.uk (dsl)
+213.093.000.000 - 213.093.007.255 , 200 , Chello DHCP
+213.096.000.000 - 213.097.255.255 , 200 , uc.nombres.ttd.es
+213.098.000.000 - 213.098.180.255 , 200 , uc.nombres.ttd.es
+213.105.104.000 - 213.105.111.255 , 200 , ntl
+213.106.016.000 - 213.106.031.255 , 200 , NTL (cable)
+213.106.097.000 - 213.106.111.255 , 200 , ntli.net
+213.107.080.000 - 213.107.087.255 , 200 , NTL Birmingham - CABLE HEADEND
+213.123.112.000 - 213.123.119.255 , 200 , btopenworld.com (dsl)
+213.128.124.000 - 213.128.127.255 , 200 , ISIS Multimedia Net GmbH
+213.129.168.000 - 213.129.175.255 , 200 , Tiscali Spain
+213.130.152.000 - 213.130.159.255 , 200 , Netservices (dsl)
+213.132.144.000 - 213.132.159.255 , 200 , TVD-INTERNET
+213.135.225.000 - 213.135.225.255 , 200 , pt.lu
+213.146.112.000 - 213.146.127.255 , 200 , kamp.de (dsl)
+213.153.032.000 - 213.153.046.255 , 200 , SALZBURG
+213.153.047.000 - 213.153.055.255 , 200 , salzburg-ag
+213.157.026.000 - 213.157.026.255 , 200 , @@heagmedianet.de
+213.166.048.000 - 213.166.048.255 , 200 , Entreprise des P&T
+213.166.049.000 - 213.166.049.255 , 200 , Entreprise des P&T
+213.166.056.000 - 213.166.056.255 , 200 , Entreprise des P&T
+213.166.063.000 - 213.166.063.255 , 200 , pt.lu
+213.166.192.000 - 213.166.201.063 , 200 , VIALIS - Regie Municipale de Colmar
+213.168.104.000 - 213.168.111.255 , 200 , netcologne.de
+213.168.116.000 - 213.168.123.255 , 200 , netcologne.de
+213.170.160.000 - 213.170.183.255 , 200 , EWE-TEL
+213.177.144.000 - 213.177.144.255 , 200 , be.wanadoo.com (dsl)
+213.183.161.000 - 213.183.161.255 , 200 , nordCom ADSL, dynamic addresses
+213.183.168.000 - 213.183.168.255 , 200 , nordCom (dsl) 
+213.183.179.000 - 213.183.179.255 , 200 , nordcom (dsl)
+213.183.180.000 - 213.183.180.255 , 200 , @@nordcom.net
+213.183.184.000 - 213.183.184.255 , 200 , nordCom (dsl)
+213.183.189.000 - 213.183.189.255 , 200 , nordCom (DSL)
+213.189.160.000 - 213.189.183.255 , 200 , Brutele SC
+213.191.087.000 - 213.191.092.255 , 200 , HanseNet Telekommunikation GmbH
+213.191.094.000 - 213.191.094.255 , 200 , HANSENE (dsl)
+213.196.192.000 - 213.196.255.255 , 200 , netcologne.de
+213.196.216.000 - 213.196.216.255 , 200 , netcologne.de
+213.196.225.000 - 213.196.225.255 , 200 , netcologne.de
+213.196.228.000 - 213.196.228.255 , 200 , Netcologne (dsl)
+213.196.229.000 - 213.196.229.255 , 200 , dynamic xDSL IP Pool
+213.196.230.000 - 213.196.230.255 , 200 , Netcologne (dsl)
+213.196.231.000 - 213.196.231.255 , 200 , Netcologne  (dsl)
+213.196.232.000 - 213.196.232.255 , 200 , NetCologne (dsl)
+213.196.240.000 - 213.196.240.255 , 200 , Netcologne GmbH (DSL)
+213.196.241.000 - 213.196.241.255 , 200 , Netcologne GmbH (DSL)
+213.196.242.000 - 213.196.242.255 , 200 , Netcologne GmbH (DSL)
+213.196.243.000 - 213.196.243.255 , 200 , Netcologne GmbH (DSL)
+213.196.244.000 - 213.196.244.255 , 200 , Netcologne  (dsl)
+213.196.245.000 - 213.196.245.255 , 200 , Netcologne (dsl)
+213.196.246.000 - 213.196.246.255 , 200 , Netcologne (dsl)
+213.196.247.000 - 213.196.247.255 , 200 , Netcologne GmbH (DSL)
+213.196.248.000 - 213.196.248.255 , 200 , Netcologne (dsl)
+213.196.250.000 - 213.196.250.255 , 200 , Netcologne (dsl)
+213.196.252.000 - 213.196.252.255 , 200 , Netcologne  (dsl)
+213.196.255.000 - 213.196.255.255 , 200 , netcologne.de (dsl)
+213.200.000.000 - 213.200.020.255 , 200 , Balcab
+213.200.224.000 - 213.200.224.255 , 200 , Cybernet (dsl)
+213.203.080.000 - 213.203.095.255 , 200 , 9TELECOM
+213.203.108.000 - 213.203.111.255 , 200 , 9tel.net
+213.203.116.000 - 213.203.119.255 , 200 , 9tel.net (dsl)
+213.207.064.000 - 213.207.127.255 , 200 , Balcab AG
+213.209.064.000 - 213.209.071.255 , 200 , wilhelm.tel
+213.209.072.000 - 213.209.079.255 , 200 , WTNET
+213.209.080.000 - 213.209.083.255 , 200 , wilhelm.tel
+213.209.084.000 - 213.209.087.255 , 200 , wilhelm.tel
+213.209.088.000 - 213.209.091.255 , 200 , wilhelm.tel
+213.209.092.000 - 213.209.095.255 , 200 , wilhelm.tel
+213.209.096.000 - 213.209.097.255 , 200 , wilhelm.tel
+213.209.098.000 - 213.209.099.255 , 200 , wilhelm.tel (ISDN)
+213.209.114.000 - 213.209.115.255 , 200 , wilhelm.tel
+213.219.106.000 - 213.219.106.255 , 200 , estpak.ee (dsl)
+213.225.028.000 - 213.225.039.255 , 200 , etel.at (dsl)
+213.230.032.000 - 213.230.037.255 , 200 , YETNET is an ISP in Switzerland
+213.231.064.000 - 213.231.092.255 , 200 , CANARIASTELECOM
+213.234.108.000 - 213.234.115.255 , 200 , no.tiscali.com
+213.237.001.000 - 213.237.043.255 , 200 , tiscali.com
+213.237.064.000 - 213.237.068.255 , 200 , Tiscali
+213.237.070.000 - 213.237.078.255 , 200 , Tiscali (dsl)
+213.237.087.000 - 213.237.099.255 , 200 , Tiscali
+213.245.044.000 - 213.245.045.255 , 200 , chello.at
+213.245.080.000 - 213.245.107.255 , 200 , Chello France
+213.245.234.000 - 213.245.255.255 , 200 , chello.at
+213.254.038.000 - 213.254.039.255 , 200 , Medianet KFA
+214.000.000.000 - 214.255.255.255 , 200 , DoD Network Information Center
+215.000.000.000 - 215.255.255.255 , 200 , DoD Network Information Center
+216.040.192.000 - 216.040.255.255 , 200 , Everyones Internet, Inc
+216.239.064.000 - 216.239.095.255 , 200 , 
+217.000.000.000 - 217.005.127.255 , 200 , dip.t-dialin.net
+217.008.048.000 - 217.008.063.255 , 200 , DITRA 'isp'
+217.009.056.000 - 217.009.059.255 , 200 , BerliKomm (dsl)
+217.011.044.000 - 217.011.047.255 , 200 , Cybernet (dsl)
+217.013.004.000 - 217.013.007.255 , 200 , NEXTGENTEL
+217.017.016.000 - 217.017.031.255 , 200 , teliko.de
+217.020.192.000 - 217.020.207.255 , 200 , callino.ch
+217.032.112.000 - 217.032.119.255 , 200 , BTinternet(dsl)
+217.034.064.000 - 217.034.095.255 , 200 , in-addr.btopenworld.com
+217.035.000.000 - 217.035.079.255 , 200 , 
+217.035.144.000 - 217.035.168.255 , 200 , BTinternet(dsl)
+217.036.000.000 - 217.036.127.255 , 200 , in-addr.btopenworld.com
+217.036.192.000 - 217.036.255.255 , 200 , btopenworld.com (dsl)
+217.039.000.000 - 217.039.255.255 , 200 , in-addr.btopenworld.com
+217.040.192.000 - 217.040.255.255 , 200 , BTinternet(dsl)
+217.041.000.000 - 217.041.074.255 , 200 , in-addr.btopenworld.com
+217.042.000.000 - 217.044.255.255 , 200 , bt.com
+217.046.128.000 - 217.046.177.255 , 200 , in-addr.btopenworld.com
+217.056.201.000 - 217.056.201.007 , 200 , COMUNE DI PONTE 
+217.068.162.000 - 217.068.175.255 , 200 , Primacom
+217.068.176.000 - 217.068.179.255 , 200 , Primacom AG
+217.068.180.000 - 217.068.183.255 , 200 , Primacom
+217.080.000.000 - 217.089.031.255 , 200 , dip.t-dialin.net
+217.118.048.000 - 217.118.051.255 , 200 , bluecom.no (dsl)
+217.120.072.000 - 217.120.075.255 , 200 , @@Home Benelux
+217.120.116.000 - 217.120.117.255 , 200 , @@Home Benelux 
+217.120.158.000 - 217.120.159.255 , 200 , @@Home Benelux
+217.120.164.000 - 217.120.165.255 , 200 , @@Home Benelux
+217.120.168.000 - 217.120.169.255 , 200 , @@Home Benelux
+217.120.214.000 - 217.120.215.255 , 200 , @@Home Benelux
+217.121.108.000 - 217.121.109.255 , 200 , @@Home Benelux
+217.121.126.000 - 217.121.127.255 , 200 , @@Home Benelux 
+217.121.138.000 - 217.121.139.255 , 200 , @@Home Benelux
+217.121.140.000 - 217.121.141.255 , 200 , @@Home Benelux
+217.125.000.000 - 217.125.148.255 , 200 , uc.nombres.ttd.es
+217.126.000.000 - 217.127.255.255 , 200 , uc.nombres.ttd.es
+217.128.000.000 - 217.128.000.255 , 200 , wanadoo.fr (dsl)
+217.128.004.000 - 217.128.004.255 , 200 , wanadoo.fr (dsl)
+217.128.005.000 - 217.128.005.255 , 200 , wanadoo.fr (dsl)
+217.128.011.000 - 217.128.011.255 , 200 , wanadoo.fr (dsl)
+217.128.013.000 - 217.128.013.255 , 200 , wanadoo.fr (dsl)
+217.128.015.000 - 217.128.015.255 , 200 , wanadoo.fr (dsl)
+217.128.016.000 - 217.128.016.255 , 200 , wanadoo.fr (dsl)
+217.128.017.000 - 217.128.017.255 , 200 , wanadoo.fr (dsl)
+217.128.020.000 - 217.128.020.255 , 200 , wanadoo.fr (dsl)
+217.128.021.000 - 217.128.021.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+217.128.022.000 - 217.128.022.255 , 200 , wanadoo.fr (dsl)
+217.128.023.000 - 217.128.023.255 , 200 , wanadoo.fr (dsl)
+217.128.024.000 - 217.128.024.255 , 200 , wanadoo.fr (dsl)
+217.128.025.000 - 217.128.025.255 , 200 , wanadoo.fr (dsl)
+217.128.026.000 - 217.128.026.255 , 200 , wanadoo.fr (dsl)
+217.128.027.000 - 217.128.027.255 , 200 , wanadoo.fr (dsl)
+217.128.028.000 - 217.128.028.255 , 200 , wanadoo.fr (dsl)
+217.128.029.000 - 217.128.029.255 , 200 , wanadoo.fr (dsl)
+217.128.036.000 - 217.128.036.255 , 200 , wanadoo.fr (dsl)
+217.128.043.000 - 217.128.043.255 , 200 , wanadoo.fr (dsl)
+217.128.048.000 - 217.128.048.255 , 200 , wanadoo.fr (dsl)
+217.128.049.000 - 217.128.049.255 , 200 , wanadoo.fr (dsl)
+217.128.050.000 - 217.128.050.255 , 200 , abo.wanadoo.fr
+217.128.051.000 - 217.128.051.255 , 200 , wanadoo.fr (dsl)
+217.128.053.000 - 217.128.053.255 , 200 , wanadoo.fr (dsl)
+217.128.055.000 - 217.128.055.255 , 200 , wanadoo.fr (dsl)
+217.128.058.000 - 217.128.058.255 , 200 , abo.wanadoo.fr
+217.128.059.000 - 217.128.059.255 , 200 , wanadoo.fr (dsl)
+217.128.063.000 - 217.128.063.255 , 200 , wanadoo.fr
+217.128.067.000 - 217.128.067.255 , 200 , wanadoo.fr (dsl)
+217.128.078.000 - 217.128.078.255 , 200 , wanadoo.fr (dsl)
+217.128.079.000 - 217.128.079.255 , 200 , abo.wanadoo.fr
+217.128.080.000 - 217.128.080.255 , 200 , wanadoo.fr (dsl)
+217.128.084.000 - 217.128.084.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+217.128.089.000 - 217.128.089.255 , 200 , wanadoo.fr (dsl)
+217.128.092.000 - 217.128.092.255 , 200 , wanadoo.fr (dsl)
+217.128.106.000 - 217.128.106.255 , 200 , wanadoo.fr (dsl)
+217.128.107.000 - 217.128.107.255 , 200 , wanadoo.fr (dsl)
+217.128.116.000 - 217.128.116.255 , 200 , wanadoo.fr (dsl)
+217.128.125.000 - 217.128.125.255 , 200 , wanadoo.fr (dsl)
+217.128.135.000 - 217.128.135.255 , 200 , wanadoo.fr (dsl)
+217.128.143.000 - 217.128.143.255 , 200 , wanadoo.fr (dsl)
+217.128.144.000 - 217.128.144.255 , 200 , wanadoo.fr (dsl)
+217.128.148.000 - 217.128.148.255 , 200 , wanadoo.fr (dsl)
+217.128.155.000 - 217.128.155.255 , 200 , wanadoo.fr (dsl
+217.128.156.000 - 217.128.156.255 , 200 , wanadoo.fr (dsl)
+217.128.158.000 - 217.128.158.255 , 200 , wanadoo.fr (dsl)
+217.128.160.000 - 217.128.169.255 , 200 , abo.wanadoo.fr
+217.128.170.000 - 217.128.170.255 , 200 , wanadoo.fr (dsl)
+217.128.174.000 - 217.128.174.255 , 200 , wanadoo.fr (dsl)
+217.128.180.000 - 217.128.180.255 , 200 , wanadoo.fr (dsl) 
+217.128.181.000 - 217.128.181.255 , 200 , wanadoo.fr (dsl)
+217.128.195.000 - 217.128.195.255 , 200 , wanadoo.fr (dsl)
+217.128.198.000 - 217.128.198.255 , 200 , wanadoo.fr (dsl)
+217.128.199.000 - 217.128.199.255 , 200 , wanadoo.fr (dsl)
+217.128.201.000 - 217.128.201.255 , 200 , wanadoo.fr (dsl)
+217.128.202.000 - 217.128.202.255 , 200 , abo.wanadoo.fr
+217.128.205.000 - 217.128.205.255 , 200 , wanadoo.fr (dsl)
+217.128.207.000 - 217.128.207.255 , 200 , wanadoo.fr (dsl)
+217.128.208.000 - 217.128.208.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+217.128.210.000 - 217.128.210.255 , 200 , wanadoo.fr (dsl)
+217.128.211.000 - 217.128.211.255 , 200 , wanadoo.fr (dsl)
+217.128.214.000 - 217.128.214.255 , 200 , wanadoo.fr (dsl)
+217.128.215.000 - 217.128.215.255 , 200 , wanadoo.com (dsl)  and  wanadoo.fr (dsl)
+217.128.216.000 - 217.128.216.255 , 200 , abo.wanadoo.fr
+217.128.217.000 - 217.128.217.255 , 200 , wanadoo.fr (dsl)
+217.128.221.000 - 217.128.221.255 , 200 , wanadoo.fr (dsl)
+217.128.225.000 - 217.128.225.255 , 200 , abo.wanadoo.fr
+217.128.226.000 - 217.128.226.255 , 200 , wanadoo.fr (dsl)
+217.128.232.000 - 217.128.232.255 , 200 , abo.wanadoo.fr
+217.128.233.000 - 217.128.233.255 , 200 , wanadoo.fr (dsl)
+217.128.235.000 - 217.128.235.255 , 200 , abo.wanadoo.fr
+217.128.239.000 - 217.128.240.255 , 200 , abo.wanadoo.fr
+217.128.242.000 - 217.128.242.255 , 200 , wanadoo.fr (dsl
+217.128.247.000 - 217.128.247.255 , 200 , wanadoo.fr (dsl)
+217.128.248.000 - 217.128.248.255 , 200 , wanadoo.fr (dsl)
+217.128.250.000 - 217.128.250.255 , 200 , wanadoo.fr (dsl)
+217.128.253.000 - 217.128.253.255 , 200 , wanadoo.fr (dsl)
+217.136.000.000 - 217.136.127.255 , 200 , skynet.be (dsl)
+217.136.128.000 - 217.136.255.255 , 200 , Belgacom Skynet SA/NV
+217.157.000.000 - 217.157.255.255 , 200 , adsl.cybercity.dk
+217.160.096.000 - 217.160.111.255 , 200 , Schlund + Partner
+217.162.000.000 - 217.162.095.255 , 200 , Cablecom
+217.162.108.000 - 217.162.255.255 , 200 , Cablecom GmbH
+217.164.240.000 - 217.164.255.255 , 200 , emirates.net.ae (dsl)
+217.172.174.000 - 217.172.181.255 , 200 , 
+217.184.000.000 - 217.191.255.255 , 200 , mediaWays.net
+217.196.072.000 - 217.196.072.255 , 200 , ServerOffice 100Mbit Flat-Rate Housing
+217.199.070.000 - 217.199.071.255 , 200 , BerliKomm Internet DSLnet 2
+217.199.078.000 - 217.199.079.255 , 200 , BerliKomm DSL
+217.207.127.000 - 217.207.127.255 , 200 , easynet.net (dsl)
+217.209.000.000 - 217.209.255.255 , 200 , bredband.skanova.com
+217.215.024.000 - 217.215.031.255 , 200 , Bostream AB
+217.224.000.000 - 217.237.161.047 , 200 , dip.t-dialin.net
+217.238.000.000 - 217.239.036.255 , 200 , dip.t-dialin.net
+218.026.000.000 - 218.026.255.255 , 200 , chinaNet  and  chinaNet      
+218.036.000.000 - 218.039.255.255 , 200 , Korea Network Information Center
+218.048.000.000 - 218.049.255.255 , 200 , HANANET
+218.050.000.000 - 218.055.255.255 , 200 , HANANET
+218.144.000.000 - 218.159.255.255 , 200 , KOREA TELECOM  and  KORNET  and  KORNET
+218.146.243.065 - 218.146.243.065 , 200 , temp block malformed packet
+218.146.243.113 - 218.146.243.113 , 200 , temp block malformed packet
+218.147.114.000 - 218.147.115.255 , 200 , KORNET (dsl)
+218.148.132.000 - 218.148.139.255 , 200 , KORNET-XDSL
+218.148.182.000 - 218.148.187.255 , 200 , KORNET (dsl)
+218.160.000.000 - 218.175.255.255 , 200 , HiNet
+218.186.000.000 - 218.186.127.255 , 200 , Singapore Cable Vision
+218.234.000.000 - 218.239.255.255 , 200 , Hanaro Telecom Co.
+219.068.000.000 - 219.069.255.255 , 200 , Hoshin Gigamedia Center(DSL)
+219.088.208.000 - 219.088.223.255 , 200 , Telecom New Zealand
+220.086.020.000 - 220.086.027.255 , 200 , KORNET (dsl)
+224.000.000.000 - 239.000.000.000 , 200 , RFC 3171
+240.000.000.000 - 255.255.255.255 , 200 , RFC 3330
+@
+
+
+1.4
+log
+@Separators on Web Services [Sp4rK]
+@
+text
+@d1 1871
+d1873 326
+a2198 52
+001.000.000.000 - 001.255.255.255 , 011 , Internet Assigned Numbers Authority
+004.043.096.000 - 004.043.096.255 , 000 , Media Force (P2P monitoring) (valid)
+004.043.124.192 - 004.043.124.255 , 000 , Media Force
+005.000.000.000 - 005.255.255.255 , 011 , Internet Assigned Numbers Authority
+010.000.000.000 - 010.255.255.255 , 150 , Private Networks
+012.148.209.192 - 012.148.209.255 , 000 , NameProtect 
+012.150.191.000 - 012.150.191.255 , 000 , RECORDING INDUSTRY ASSOC OF AMERICA (valid)
+023.000.000.000 - 023.255.255.255 , 011 , Internet Assigned Numbers Authority
+025.000.000.000 - 025.255.255.255 , 000 , Royal Signals and Radar Establishment
+036.000.000.000 - 036.255.255.255 , 011 , Internet Assigned Numbers Authority
+046.000.000.000 - 046.255.255.255 , 011 , Internet Assigned Numbers Authority
+050.000.000.000 - 050.255.255.255 , 011 , Internet Assigned Numbers Authority
+051.000.000.000 - 051.255.255.255 , 000 , Department of Social Security of UK
+058.000.000.000 - 058.255.255.255 , 011 , Internet Assigned Numbers Authority
+060.000.000.000 - 060.255.255.255 , 011 , Internet Assigned Numbers Authority
+063.064.005.000 - 063.064.005.255 , 000 , Cyveillance (P2P monitoring)
+063.127.255.000 - 063.127.255.255 , 000 , Cyveillance 
+063.148.099.000 - 063.148.099.255 , 000 , Cyveillance (63.148.99.224 - 63.148.99.255)
+063.199.057.096 - 063.199.057.111 , 000 , MPAA Subdel Phoenix Manufacturing 
+063.208.235.030 - 063.208.235.031 , 000 , Xupiter.com 
+063.236.032.000 - 063.236.032.062 , 000 , Xupiter.com 
+064.094.089.000 - 064.094.089.255 , 000 , Gator.com
+064.106.170.128 - 064.106.170.191 , 100 , C&DCop (Warner)
+064.166.187.128 - 064.166.187.158 , 100 , MPAA Subdel Valerie Bourne 
+064.180.000.000 - 064.180.255.255 , 255 , bc.hsia.telus.net
+064.225.202.000 - 064.225.202.255 , 000 , MediaDefender (P2P fakes/spam/monitoring)
+065.118.041.000 - 065.118.041.255 , 000 , Cyveillance (P2P monitoring)
+065.160.000.000 - 065.160.001.255 , 000 , OverPeer Subdel to Raw Hide., Inc Fon 
+065.174.000.000 - 065.174.255.255 , 000 , OverPeer Subdel to Tumwater Internet Fon 
+065.192.000.000 - 065.192.000.255 , 000 , Media Force (P2P monitoring)
+065.217.219.000 - 065.217.219.255 , 000 , Media Force (P2P monitoring)
+065.223.000.000 - 065.223.255.255 , 000 , Media Force (Obsidian Holdings)
+065.247.105.240 - 065.247.105.255 , 000 , Media Force
+066.035.247.000 - 066.035.247.255 , 000 , GAINCME
+066.035.299.000 - 066.035.229.255 , 000 , GAINCME 
+066.079.000.000 - 066.079.000.255 , 000 , MediaDefender (P2P fakes/spam/monitoring)
+066.079.010.000 - 066.079.010.255 , 000 , MediaDefender (P2P fakes/spam/monitoring)
+066.079.095.000 - 066.079.095.255 , 000 , MediaDefender (P2P fakes/spam/monitoring)
+070.000.000.000 - 079.255.255.255 , 011 , Internet Assigned Numbers Authority
+083.000.000.000 - 095.255.255.255 , 011 , Internet Assigned Numbers Authority
+096.000.000.000 - 126.255.255.255 , 011 , Internet Assigned Numbers Authority
+127.000.000.000 - 127.255.255.255 , 050 , Loopback interface
+128.241.000.000 - 128.241.255.255 , 000 , NetPD 
+142.145.000.000 - 142.145.255.255 , 000 , Government Of The Province Of Ontario 
+153.031.000.000 - 153.031.255.255 , 000 , Federal Bureau of Investigation - CJIS
+172.016.000.000 - 172.031.255.255 , 150 , Private Networks
+192.168.000.000 - 192.168.255.255 , 150 , Private Networks
+198.070.114.000 - 198.070.114.255 , 000 , Motion Picture Association (198.70.114.0/24)
+203.022.000.000 - 203.022.015.255 , 101 , Communications and Entertainment Television Pty Ltd
+204.092.244.000 - 204.092.244.255 , 000 , Ranger Subdel Syndesis, Ltd. 
+206.245.128.000 - 206.245.128.255 , 000 , Warner Music Group (206.245.64.0-206.245.127.255)
+207.155.128.000 - 207.155.255.255 , 000 , Vidius 
+d2200 68
+a2267 12
+208.192.000.000 - 208.192.255.255 , 100 , RIAA (Pathlink Technology PATHLINK2)
+209.067.000.000 - 209.067.255.255 , 000 , MPAA Subdel Exodus 
+209.122.130.000 - 209.122.130.255 , 000 , BayTSP Illegal DMCA enforcer/scanner/spider 
+209.204.128.000 - 209.204.189.255 , 000 , BayTSP Illegal DMCA enforcer/scanner/spider 
+209.204.190.003 - 209.204.191.255 , 000 , BayTSP Illegal DMCA enforcer/scanner/spider 
+214.000.000.000 - 214.255.255.255 , 000 , DoD Network Information Center 
+215.000.000.000 - 215.255.255.255 , 000 , DoD Network Information Center 
+216.052.242.000 - 216.052.242.255 , 000 , Warner Music Group (216.52.242.0-216.52.242.255)
+216.122.015.255 - 216.122.255.255 , 000 , Ranger Subdel HostPro, Inc 
+216.194.192.000 - 216.194.255.255 , 000 , IDSA 
+224.000.000.000 - 239.255.255.255 , 050 , IPv4 multicast address
+240.000.000.000 - 255.255.255.255 , 050 , Reserved class E address
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d6 1
+a6 1
+010.000.000.000 - 010.255.255.255 , 127 , Private Networks
+d43 1
+a43 1
+127.000.000.000 - 127.255.255.255 , 127 , Private Networks
+d47 2
+d65 2
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@a42 1
+096.000.000.000 - 126.255.255.255 , 100 , Internet Assigned Numbers Authority
+a53 1
+208.192.000.000 - 208.192.000.255 , 100 , RIAA Pathlink Technology
+@
+
+
+1.1
+log
+@Removed upload slots configuration.
+@
+text
+@d4 1
+d7 1
+d20 3
+a22 1
+063.199.057.096 - 063.199.057.103 , 100 , MPAA Phoenix Manufacturing
+d25 1
+a25 1
+064.166.187.128 - 064.166.187.135 , 100 , MPAA Valerie Bourne
+d29 2
+a30 1
+065.174.254.000 - 065.174.254.255 , 000 , BAY SOFTWARE (65.174.254.0 - 65.174.255.255)
+d33 4
+a36 2
+065.223.000.000 - 065.223.007.255 , 100 , MediaForce (Obsidian Holdings)
+065.233.255.000 - 065.233.255.255 , 000 , Media Force (P2P monitoring)
+d45 3
+d50 1
+d52 1
+d56 6
+a61 2
+209.204.128.000 - 209.204.128.255 , 100 , BayTSP (Sonic.net InHouseA) (p2p monitoring)
+209.204.191.000 - 209.204.191.255 , 000 , BayTSP (p2p monitoring)
+d63 2
+a64 1
+153.031.000.000 - 153.031.255.255 , 000 , Federal Bureau of Investigation - CJIS
+@
+

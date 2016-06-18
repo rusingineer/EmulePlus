@@ -1,0 +1,3736 @@
+head	1.82;
+access;
+symbols
+	PublicRelease_1_2e:1.72
+	Interim_Release_1-2e_RC1:1.70
+	PublicRelease_1_2d:1.67
+	Interim_Release_1-2d_RC1:1.67
+	Interim_Release_1-2d_beta1:1.67
+	PublicRelease_1_2c:1.63
+	Interim_Release_1-2c_RC1:1.63
+	Interim_Release_1-2c_beta1:1.59
+	PublicRelease_1_2b:1.59
+	Interim_Release_1-2b_RC1:1.59
+	PublicRelease_1_2a:1.57
+	Interim_Release_1-2a_RC1:1.57
+	Interim_Release_1-2a_beta2:1.56
+	Interim_Release_1-2a_beta1:1.56
+	PublicRelease_1_2:1.55
+	Interim_Release_1-2_RC1:1.55
+	Interim_Release_1-2_beta1:1.55
+	PublicRelease_1_1g:1.55
+	Interim_Release_1-1g_RC3:1.55
+	Interim_Release_1-1g_RC2:1.55
+	Interim_Release_1-1g_RC1:1.55
+	Interim_Release_1-1g_beta2:1.54
+	Interim_Release_1-1g_beta1:1.52
+	PublicRelease_1_1f:1.52
+	Interim_Release_1-1f_RC1:1.52
+	PublicRelease_1_1e:1.52
+	Interim_Release_1-1e_RC2:1.52
+	Interim_Release_1-1e_RC1:1.52
+	Interim_Release_1-1e_beta1:1.52
+	PublicRelease_1_1d:1.51
+	Interim_Release_1-1d_RC1:1.51
+	PublicRelease_1_1c:1.50
+	Interim_Release_1-1c_RC1:1.50
+	Interim_Release_1-1c_beta2:1.50
+	Interim_Release_1-1c_beta1:1.46
+	PublicRelease_1_1b:1.45
+	Interim_Release_1-1b_RC1:1.45
+	PublicRelease_1_1a:1.45
+	Interim_Release_1-1a_RC2:1.45
+	Interim_Release_1-1a_RC1:1.45
+	Interim_Release_1-1a_beta2:1.45
+	Interim_Release_1-1a_beta1:1.43
+	PublicRelease_1_1:1.43
+	Interim_Release_1-1_beta1:1.43
+	PublicRelease_1o:1.43
+	Interim_Release_1o_RC1:1.43
+	Interim_Release_1o_beta1:1.43
+	PublicRelease_1n:1.43
+	Interim_Release_1n_RC2:1.43
+	Interim_Release_1n_RC1:1.43
+	Interim_Release_1n_beta2:1.43
+	Interim_Release_1n_beta1:1.43
+	PublicRelease_1m:1.42
+	Interim_Release_1m_beta1:1.42
+	PublicRelease_1l:1.42
+	Interim_Release_1l_RC3:1.42
+	Interim_Release_1l_RC2:1.42
+	Interim_Release_1l_RC1:1.42
+	Interim_Release_1l_beta2:1.42
+	Interim_Release_1l_beta1:1.39
+	PublicRelease_1k:1.39
+	Interim_Release_1k_RC4:1.39
+	Interim_1k_RC3:1.39
+	Interim_1k_RC2:1.39
+	Interim_Release_1k_RC1:1.39
+	Interim_Release_1k_beta5:1.39
+	Intrerim_Release_1k_beta4:1.39
+	Interim_Release_1k_beta1:1.39
+	PublicRelease_1j:1.36
+	Interim_Release_1J_RC3:1.36
+	Interim_Release_1j_RC3:1.36
+	Interim_Release_1j_RC2:1.36
+	Interim_Release_1j_RC1:1.36
+	Interim_Release_1j_beta2:1.35
+	Interim_Release_1j_beta1:1.35
+	PublicRelease_1i:1.30
+	Interim_Release_1i_RC6:1.30
+	Interim_Release_1i_RC3:1.29
+	Interim_Release_1i_RC2:1.29
+	Interim_Release_1i_RC1:1.28
+	Interim_Release_1i_beta3:1.28
+	Interim_Release_1i_beta2:1.27
+	Interim_Release_1i_beta1:1.20
+	PublicRelease_1h:1.18
+	Interim_Release_1h_rc2:1.18
+	Interim_Release_1h_RC1:1.18
+	Interim_Release_1h_beta2:1.18
+	Interim_Release_1h_beta1_now:1.18
+	Interim_Release_1h_beta1:1.18
+	PublicRelease_1g:1.17
+	Interim_Release_1g_RC6_Final:1.17
+	Interim_Release_1g_RC6:1.17
+	Interim_Release_1g_RC5:1.17
+	Interim_Release_1g_RC4:1.17
+	Interim_Release_1g_RC3:1.17
+	Interim_Release_1g_beta2:1.14
+	Interim_Release_1g_beta1:1.11
+	Interim_Release_1f_RC4:1.10
+	Interim_Release_1f_RC3:1.10
+	Interim_Release_1f_RC2:1.9
+	Interim_Release_1f_RC:1.9
+	Interim_Release_1f_beta2:1.9
+	Interim_Release_1f_beta1:1.9
+	PublicRelease_1e:1.9
+	Interim_Release_1e_RC2:1.9
+	Interim_Release_1e_RC:1.9
+	Interim_Release_1e_beta3:1.9
+	Interim_Release_1e_beta2:1.9
+	Interim_Release_1e_beta2_before_kuchin:1.8
+	Interim_Release_1e_beta1:1.8
+	PublicRelease_1c:1.8
+	featurestest:1.8.0.8
+	Interim_Release_1c_RC:1.8
+	Interim_Release_1c_beta2:1.8
+	Interim_Release_1c_beta1:1.8
+	threaded_downloadqueue:1.8.0.6
+	PublicRelease_1b:1.8
+	Interim_Release_1b_beta2:1.8
+	Interim_Release_1b_beta1:1.8
+	proxydeadlake:1.8.0.4
+	PublicRelease_1a:1.8
+	Interim_Release_1a_beta2:1.8
+	BerkeleyDb:1.8.0.2
+	Interim_Release_1a_beta1:1.8
+	PublicRelease_1:1.8
+	goldfish:1.8
+	eMulePlus_1_RC2:1.8
+	eMulePlus_26b_1RC1:1.8
+	PreRelease_26b_i0e:1.8
+	before_26d_merge:1.8
+	Interim_Release_26b_i0d:1.7
+	Interim_Release_26b_i0c:1.6
+	Interim_Release_26b_i0b:1.6
+	Interim_Release_26b_i0a:1.6
+	systraydlg:1.5.0.6
+	plus26based:1.5.0.4
+	Interim_Release_25b_i0b:1.5
+	Proxy_Dev:1.5
+	Interim_Release_25b_i0a:1.5.2.1
+	proxytest:1.5.2.1.0.2
+	official_sockets:1.5.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.82
+date	2011.08.16.03.17.16;	author aw3;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2011.08.07.03.35.00;	author aw3;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2010.05.13.04.48.49;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2009.10.28.04.35.00;	author aw3;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2009.07.26.14.06.08;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2009.07.15.02.23.48;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2009.06.20.21.37.56;	author aw3;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2009.06.12.02.03.45;	author aw3;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2009.06.10.02.49.36;	author aw3;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2009.06.02.02.10.08;	author aw3;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2009.04.10.03.37.49;	author aw3;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2009.04.08.04.05.38;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2008.09.29.22.47.41;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2008.07.17.05.01.23;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2008.01.11.15.34.03;	author eklmn;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2008.01.11.03.13.26;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2008.01.08.21.50.21;	author eklmn;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2007.10.24.19.09.36;	author fuxie-dk;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2007.07.01.05.27.45;	author aw3;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2007.06.04.01.35.20;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2007.05.15.12.23.50;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2007.04.14.04.28.04;	author aw3;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2007.01.17.21.04.08;	author eklmn;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2007.01.11.19.57.05;	author eklmn;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2006.07.29.01.40.26;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2006.04.16.04.14.58;	author aw3;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2005.11.05.05.07.54;	author aw3;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2005.09.05.17.25.17;	author aw3;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2005.03.22.05.20.16;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2005.03.15.03.29.11;	author aw3;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.02.14.16.42.54;	author aw3;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.02.12.03.31.00;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.02.09.23.08.02;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2005.02.02.07.01.20;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2005.01.19.21.10.51;	author netwolf1;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.11.10.17.50.47;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.11.09.15.04.37;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.06.30.13.38.42;	author dongato;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.05.21.18.37.19;	author dongato;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.05.19.16.03.23;	author netwolf1;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.05.19.10.14.33;	author netwolf1;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.02.15.11.55.58;	author morevit;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.02.12.10.38.01;	author morevit;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.02.11.04.13.01;	author katsyonak;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.01.10.20.33.29;	author eklmn;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.12.29.12.28.19;	author eklmn;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.12.25.16.29.23;	author dongato;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.11.21.20.24.58;	author eklmn;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.11.06.09.59.52;	author dongato;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.10.31.06.47.00;	author eklmn;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.10.20.13.20.03;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.10.09.11.54.23;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.10.09.09.25.17;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.10.08.12.56.35;	author morevit;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.10.08.01.53.33;	author morevit;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.09.21.22.05.19;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.09.20.15.39.32;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.07.30.22.56.00;	author zegzav;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.06.15.09.09.28;	author partyckip;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.06.11.18.27.13;	author eklmn;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.10.09.36.47;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.06.08.07.36.58;	author partyckip;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.06.06.20.37.18;	author partyckip;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.06.04.19.57.49;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.05.30.20.35.19;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.05.20.20.46.32;	author netwolf1;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.04.22.12.41.52;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.16.22.01.50;	author lord_kiron;	state Exp;
+branches
+	1.8.8.1;
+next	1.7;
+
+1.7
+date	2003.02.13.14.57.48;	author obaldin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.09.18.39.42;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.01.24.22.07.51;	author maverick65;	state Exp;
+branches
+	1.5.2.1
+	1.5.4.1;
+next	1.4;
+
+1.4
+date	2003.01.24.14.06.27;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.23.12.49.06;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.17.33.24;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.2.1
+date	2003.01.28.16.54.32;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.4.1
+date	2003.02.05.01.58.42;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.8.8.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.82
+log
+@Handle duplicate DynIP servers.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2008 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "packets.h"
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#endif
+#include "UDPSocket.h"
+#include "ServerList.h"
+#include "otherfunctions.h"
+#include "otherstructs.h"
+#include "UploadQueue.h"
+#include "SafeFile.h"
+#include "server.h"
+#include "IPFilter.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+#ifdef OLD_SOCKETS_ENABLED
+
+struct SRawServerPacket
+{
+	SRawServerPacket(BYTE* pPacket, UINT uSize, uint16 nPort) {
+		m_pPacket = pPacket;
+		m_uSize = uSize;
+		m_nPort = nPort;
+	}
+	~SRawServerPacket() {
+		delete[] m_pPacket;
+	}
+	BYTE* m_pPacket;
+	UINT m_uSize;
+	uint16 m_nPort;
+};
+
+struct SServerDNSRequest
+{
+	SServerDNSRequest(HANDLE hDNSTask, CServer *pServer) : m_aPackets(3) {
+		m_dwCreated = GetTickCount();
+		m_hDNSTask = hDNSTask;
+		m_pServer = pServer;
+		memzero(m_DnsHostBuffer, sizeof(m_DnsHostBuffer));
+	}
+	~SServerDNSRequest() {
+		if (m_hDNSTask)
+			WSACancelAsyncRequest(m_hDNSTask);
+		delete m_pServer;
+		POSITION pos = m_aPackets.GetHeadPosition();
+		while (pos)
+			delete m_aPackets.GetNext(pos);
+	}
+	DWORD m_dwCreated;
+	HANDLE m_hDNSTask;
+	CServer* m_pServer;
+	CTypedPtrList<CPtrList, SRawServerPacket*> m_aPackets;
+	char m_DnsHostBuffer[MAXGETHOSTSTRUCT];
+};
+
+#define	ERR_UDP_MISCONFIGURED_SERVER _T("Error: Failed to process server UDP packet")
+
+#define WM_DNSLOOKUPDONE WM_USER+280
+
+BEGIN_MESSAGE_MAP(CUDPSocketWnd, CWnd)
+	ON_MESSAGE(WM_DNSLOOKUPDONE, OnDNSLookupDone)
+END_MESSAGE_MAP()
+
+LRESULT CUDPSocketWnd::OnDNSLookupDone(WPARAM wParam, LPARAM lParam)
+{
+	EMULE_TRY
+
+	if(m_pOwner)
+		m_pOwner->DnsLookupDone(wParam, lParam);
+	return true;
+
+	EMULE_CATCH
+
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CUDPSocket::CUDPSocket() : m_aDNSReqs(3)
+{
+	m_hWndResolveMessage = NULL;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CUDPSocket::~CUDPSocket()
+{
+	EMULE_TRY
+
+	m_udpwnd.DestroyWindow();
+
+	POSITION pos = m_aDNSReqs.GetHeadPosition();
+	while (pos)
+		delete m_aDNSReqs.GetNext(pos);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool  CUDPSocket::Create()
+{
+	EMULE_TRY
+
+	VERIFY( m_udpwnd.CreateEx(0, AfxRegisterWndClass(0),_T("Emule Socket Wnd"),WS_OVERLAPPED, 0, 0, 0, 0, NULL, NULL));
+	m_hWndResolveMessage = m_udpwnd.m_hWnd;
+	m_udpwnd.m_pOwner = this;
+
+	return (CAsyncSocket::Create(0, SOCK_DGRAM, FD_READ, g_App.m_pPrefs->GetBindAddr())) ? true : false;
+
+	EMULE_CATCH
+
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUDPSocket::OnReceive(int iErrorCode)
+{
+	NOPRM(iErrorCode);
+	EMULE_TRY
+
+	byte		abyteBuffer[5000], *pbyteBuf;
+	SOCKADDR_IN	sockAddr = {0};
+	int			iSockAddrLen = sizeof(sockAddr), iPayloadLen;
+	int			iLength = ReceiveFrom(abyteBuffer, sizeof(abyteBuffer), (SOCKADDR*)&sockAddr, &iSockAddrLen);
+
+	if (iLength >= 2)	//SOCKET_ERROR = -1
+	{
+		pbyteBuf = abyteBuffer;
+		iPayloadLen = iLength;
+
+		CServer	*pServer = g_App.m_pServerList->GetServerByIPUDP(sockAddr.sin_addr.S_un.S_addr, fast_ntohs(sockAddr.sin_port), true);
+
+		if (pServer != NULL && g_App.m_pPrefs->IsServerCryptLayerUDPEnabled() &&
+			((pServer->GetServerKeyUDP() != 0 && pServer->SupportsObfuscationUDP()) || (pServer->GetCryptPingReplyPending() && pServer->GetChallenge() != 0)))
+		{
+			uint32 dwKey = 0;
+			if (pServer->GetCryptPingReplyPending() && pServer->GetChallenge() != 0 /* && pServer->GetPort() == ntohs(sockAddr.sin_port) - 12 */)
+				dwKey = pServer->GetChallenge();
+			else
+				dwKey = pServer->GetServerKeyUDP();
+
+			ASSERT( dwKey != 0 );
+			iPayloadLen = DecryptReceivedServer(abyteBuffer, iLength, &pbyteBuf, dwKey, sockAddr.sin_addr.S_un.S_addr);
+		}
+		g_App.m_pDownloadQueue->AddDownDataOverheadServer(iPayloadLen - 2);
+		if (pbyteBuf[0] == OP_EDONKEYPROT)
+			ProcessPacket(pbyteBuf + 2, iPayloadLen - 2, pServer, pbyteBuf[1], sockAddr.sin_addr.s_addr, fast_ntohs(sockAddr.sin_port));
+	}
+	
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CUDPSocket::ProcessPacket(byte *pbytePacket, uint32 dwSize, CServer *pServer, byte uOpcode, uint32 dwIP, uint16 uUDPPort)
+{
+	bool	bUpdateServerDesc;
+
+	try
+	{
+		if (pServer == NULL)
+			return false;	//	Don't process packets from unknown servers
+
+		if ((bUpdateServerDesc = (pServer->GetFailedCount() != 0)) == true)
+			pServer->ResetFailedCount();
+
+		switch (uOpcode)
+		{
+			case OP_GLOBSEARCHRES:
+			{
+				CSafeMemFile	pckStream(pbytePacket, dwSize);
+				uint32			dwLeft;
+				uint16			uResults;
+				byte			byteTmp;
+
+				if (g_App.m_pSearchList->AllowUDPSearchAnswer())
+				{
+					do
+					{
+						uResults = g_App.m_pSearchList->ProcessUDPSearchAnswer(pckStream, cfUTF8, pServer);
+
+					//	Check if there is another search results packet
+						dwLeft = static_cast<uint32>(pckStream.GetLength() - pckStream.GetPosition());
+						if (dwLeft >= 2)
+						{
+							pckStream.Read(&byteTmp, 1);
+							dwLeft--;
+							if (byteTmp != OP_EDONKEYPROT)
+								break;
+
+							pckStream.Read(&byteTmp, 1);
+							dwLeft--;
+							if (byteTmp != OP_GLOBSEARCHRES)
+								break;
+						}
+					} while(dwLeft != 0);
+					g_App.m_pMDlg->m_dlgSearch.AddGlobalEd2kSearchResults(uResults);
+				}
+				break;
+			}
+			case OP_GLOBFOUNDSOURCES:
+			{
+				CSafeMemFile	sources((BYTE*)pbytePacket, dwSize);
+				uchar			abyteFileId[16];
+				uint32			dwLeft;
+				byte			byteTmp;
+
+				do
+				{
+					sources.Read(abyteFileId, 16);
+
+					CPartFile* 		pPartFile = g_App.m_pDownloadQueue->GetFileByID(abyteFileId);
+
+					if (pPartFile)
+						pPartFile->AddServerSources(sources, dwIP, uUDPPort - 4, false);
+					else
+					{
+					//	Skip sources for that file
+						sources.Read(&byteTmp, 1);
+						sources.Seek(byteTmp * (4 + 2), SEEK_CUR);
+					}
+
+				//	Check if there is another source packet
+					dwLeft = static_cast<uint32>(sources.GetLength() - sources.GetPosition());
+					if (dwLeft >= 2)
+					{
+						sources.Read(&byteTmp, 1);
+						dwLeft--;
+						if (byteTmp != OP_EDONKEYPROT)
+							break;
+
+						sources.Read(&byteTmp, 1);
+						dwLeft--;
+						if (byteTmp != OP_GLOBFOUNDSOURCES)
+							break;
+					}
+				} while(dwLeft != 0);
+				break;
+			}
+ 			case OP_GLOBSERVSTATRES:
+			{
+			//	Check minimal allowed size (contain basic information)
+				if ((dwSize < 12) || (PEEK_DWORD(pbytePacket) != pServer->GetChallenge()))
+					return false;
+				pServer->SetChallenge(0);
+				pServer->SetCryptPingReplyPending(false);
+
+				uint32	dwCurTime = static_cast<uint32>(time(NULL));
+
+			//	If we used Obfuscated ping, we still need to reset the time properly
+				pServer->SetLastPingedTime(dwCurTime - (rand() % UDPSRVSTATREASKRNDTIME));
+
+				pServer->SetUserCount(PEEK_DWORD(pbytePacket + 4));
+				pServer->SetFileCount(PEEK_DWORD(pbytePacket + 8));
+
+				pServer->SetMaxUsers((dwSize >= 16) ? PEEK_DWORD(pbytePacket + 12) : 0);
+				pServer->SetSoftMaxFiles((dwSize >= 24) ? PEEK_DWORD(pbytePacket + 16) : 0);
+				pServer->SetHardMaxFiles((dwSize >= 24) ? PEEK_DWORD(pbytePacket + 20) : 0);
+
+				pServer->SetUDPFlags((dwSize >= 28) ? PEEK_DWORD(pbytePacket + 24) : 0);
+				pServer->SetLowIDUsers((dwSize >= 32) ? PEEK_DWORD(pbytePacket + 28) : 0);
+
+				pServer->SetObfuscationPortUDP((dwSize >= 40) ? PEEK_WORD(pbytePacket + 32) : 0);
+				pServer->SetObfuscationPortTCP((dwSize >= 40) ? PEEK_WORD(pbytePacket + 34) : 0);
+				pServer->SetServerKeyUDP((dwSize >= 40) ? PEEK_DWORD(pbytePacket + 36) : 0);
+
+				pServer->SetPing(::GetTickCount() - pServer->GetLastPinged());
+
+				pServer->SetLastDescPingedCount(false);
+				if (pServer->GetLastDescPingedCount() < 2)
+				{
+				// eserver 16.45+ supports a new OP_SERVER_DESC_RES answer, if the OP_SERVER_DESC_REQ contains a uint32
+				// challenge, the server returns additional info with OP_SERVER_DESC_RES. To properly distinguish the
+				// old and new OP_SERVER_DESC_RES answer, the challenge has to be selected carefully. The first 2 bytes
+				// of the challenge (in network byte order) MUST NOT be a valid string-len-int16!
+					Packet	*pPacket = new Packet(OP_SERVER_DESC_REQ, 4);
+					uint32	dwChallenge = (rand() << 16) | INV_SERV_DESC_LEN; // 0xF0FF = 'invalid' string length
+					pServer->SetDescReqChallenge(dwChallenge);
+					POKE_DWORD(pPacket->m_pcBuffer, dwChallenge);
+					g_App.m_pUploadQueue->AddUpDataOverheadServer(pPacket->m_dwSize);
+					g_App.m_pServerConnect->SendUDPPacket(pPacket, pServer, true);
+				}
+				else
+					pServer->SetLastDescPingedCount(true);
+
+				bUpdateServerDesc = true;
+				break;
+			}
+
+ 			case OP_SERVER_DESC_RES:
+			{
+				// old packet: <name_len 2><name name_len><desc_len 2><desc desc_len>
+				// new packet: <challenge 4><taglist>
+				//
+				// NOTE: To properly distinguish between the two packets which are both using the same opcode...
+				// the first two bytes of <challenge> (in network byte order) have to be an invalid <name_len> at least.
+
+				CSafeMemFile	srvinfo((BYTE*)pbytePacket, dwSize);
+				uint32			ui, dwTmp;
+
+				if ((dwSize >= 8) && (PEEK_WORD(pbytePacket) == INV_SERV_DESC_LEN))
+				{
+					srvinfo.Read(&dwTmp, 4);	 // read challenge
+					if ((pServer->GetDescReqChallenge() != 0) && (dwTmp == pServer->GetDescReqChallenge()))
+					{
+						pServer->SetDescReqChallenge(0);
+						srvinfo.Read(&dwTmp, 4);	 // read tag count
+						for (ui = 0; ui < dwTmp; ui++)
+						{
+							CTag	TempTag;
+
+							TempTag.FillFromStream(srvinfo, cfUTF8);
+							if (TempTag.GetTagID() == ST_SERVERNAME)
+							{
+								if (TempTag.IsStr() && !pServer->IsStaticMember())
+									pServer->SetListName(TempTag.GetStringValue());
+							}
+							else if (TempTag.GetTagID() == ST_DESCRIPTION)
+							{
+								if (TempTag.IsStr())
+									pServer->SetDescription(TempTag.GetStringValue());
+							}
+							else if (TempTag.GetTagID() == ST_DYNIP)
+							{
+								// Verify that we really received a DN
+								if (TempTag.IsStr() && (inet_addr(TempTag.GetStringValue()) == INADDR_NONE))
+								{
+									int	iRc = pServer->GetDynIP().CompareNoCase(TempTag.GetStringValue());
+
+									pServer->SetDynIP(TempTag.GetStringValue());
+									// If a dynIP-server changed its address or, if this is the
+									// first time we get the dynIP-address for a server which we
+									// already have as non-dynIP in our list, we need to remove
+									// an already available server with the same 'dynIP:port'.
+									if (iRc != 0)
+										g_App.m_pServerList->RemoveDuplicates(pServer, false);
+								}
+							}
+							else if (TempTag.GetTagID() == ST_VERSION)
+							{
+								if (TempTag.IsStr())
+									pServer->SetVersion(TempTag.GetStringValue());
+								else if (TempTag.IsInt())
+								{
+									CString strVersion;
+
+									strVersion.Format(_T("%u.%02u"), TempTag.GetIntValue() >> 16, TempTag.GetIntValue() & 0xFFFF);
+									pServer->SetVersion(strVersion);
+								}
+							}
+							else if (TempTag.GetTagID() == ST_AUXPORTSLIST)
+							{
+								if (TempTag.IsStr())	// <string> = <port> [, <port>...]
+								{
+								}
+							}
+						}
+					}
+				}
+				else
+				{
+					uint16	uStringLen;
+					CString	strBuf;
+
+					srvinfo.Read(&uStringLen, 2);
+					ReadMB2Str(cfUTF8, &strBuf, srvinfo, uStringLen);
+
+					if(!pServer->IsStaticMember())
+						pServer->SetListName(strBuf);
+
+					srvinfo.Read(&uStringLen, 2);
+					ReadMB2Str(cfUTF8, &strBuf, srvinfo, uStringLen);
+
+					pServer->SetDescription(strBuf);
+				}
+				bUpdateServerDesc = true;
+				break;
+			}
+			default:
+				return false;
+		}
+
+		if (bUpdateServerDesc)
+			g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+
+		return true;
+	}
+	catch(CFileException* error)
+	{
+		CString	strBuff(ERR_UDP_MISCONFIGURED_SERVER);
+
+		if (pServer != NULL)
+			strBuff.AppendFormat(_T(" %s:%u"), pServer->GetAddress(), pServer->GetPort());
+
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, strBuff);
+		error->Delete();
+		if (uOpcode == OP_GLOBSEARCHRES || uOpcode == OP_GLOBFOUNDSOURCES)
+			return true;
+	}
+	catch(CMemoryException* error)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, ERR_UDP_MISCONFIGURED_SERVER _T(" - CMemoryException"));
+		error->Delete();
+		if (uOpcode == OP_GLOBSEARCHRES || uOpcode == OP_GLOBFOUNDSOURCES)
+			return true;
+	}
+	catch(CString error)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, ERR_UDP_MISCONFIGURED_SERVER _T(" - ") + error);
+	}
+	catch(...)
+	{
+		OUTPUT_DEBUG_TRACE();
+		AddLogLine(LOG_FL_DBG | LOG_RGB_ERROR, ERR_UDP_MISCONFIGURED_SERVER);
+	}
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUDPSocket::DnsLookupDone(WPARAM wp, LPARAM lp)
+{
+	EMULE_TRY
+
+	// A Winsock DNS task has completed. Search the according application data for that
+	// task handle.
+	SServerDNSRequest* pDNSReq = NULL;
+	HANDLE hDNSTask = (HANDLE)wp;
+	POSITION pos = m_aDNSReqs.GetHeadPosition();
+	while (pos) {
+		POSITION posPrev = pos;
+		SServerDNSRequest* pCurDNSReq = m_aDNSReqs.GetNext(pos);
+		if (pCurDNSReq->m_hDNSTask == hDNSTask) {
+			// Remove this DNS task from our list
+			m_aDNSReqs.RemoveAt(posPrev);
+			pDNSReq = pCurDNSReq;
+			break;
+		}
+	}
+	if (pDNSReq == NULL) {
+		return;
+	}
+
+	// DNS task did complete successfully?
+	if (WSAGETASYNCERROR(lp) != 0)
+	{
+		AddLogLine( LOG_FL_DBG | LOG_RGB_WARNING,
+			_T("Error: Server UDP socket: Failed to resolve address for server '%s' (%s) - %s"),
+			pDNSReq->m_pServer->GetListName(), pDNSReq->m_pServer->GetAddress(), GetErrorMessage(WSAGETASYNCERROR(lp), 1) );
+		delete pDNSReq;
+		return;
+	}
+
+	// Get the IP value
+	uint32 nIP = INADDR_NONE;
+	int iBufLen = WSAGETASYNCBUFLEN(lp);
+	if (iBufLen >= sizeof(HOSTENT)) {
+		LPHOSTENT pHost = (LPHOSTENT)pDNSReq->m_DnsHostBuffer;
+		if (pHost->h_length == 4 && pHost->h_addr_list && pHost->h_addr_list[0])
+			nIP = ((LPIN_ADDR)(pHost->h_addr_list[0]))->s_addr;
+	}
+	if (nIP != INADDR_NONE)
+	{
+		bool bRemoveServer = false;
+#ifdef _CRYPT_READY
+		if (!IsGoodIP(nIP)) {
+			if (!g_App.m_pPrefs->IsCMNotLog())
+				AddLogLine( LOG_FL_DBG | LOG_RGB_DIMMED, _T("Filtered server '%s' (IP=%s) - Invalid IP or LAN address"),
+									pDNSReq->m_pServer->GetAddress(), ipstr(nIP) );
+			bRemoveServer = true;
+		}
+		else
+#endif
+			if (g_App.m_pIPFilter->IsFiltered(nIP))
+		{
+			if (!g_App.m_pPrefs->IsCMNotLog())
+				AddLogLine( LOG_FL_DBG | LOG_RGB_DIMMED, _T("Filtered Server: %s (IP=%s) %hs"),
+					pDNSReq->m_pServer->GetAddress(), ipstr(nIP), g_App.m_pIPFilter->GetLastHit() );
+			bRemoveServer = true;
+		}
+
+		CServer* pServer = g_App.m_pServerList->GetServerByAddress(pDNSReq->m_pServer->GetAddress(), pDNSReq->m_pServer->GetPort());
+		if (pServer) {
+			pServer->SetIP(nIP);
+			// If we already have entries in the server list (dynIP-servers without a DN)
+			// with the same IP as this dynIP-server, remove the duplicates.
+			g_App.m_pServerList->RemoveDuplicates(pServer, true);
+		}
+
+		if (bRemoveServer) {
+			if (pServer)
+				g_App.m_pMDlg->m_wndServer.m_ctlServerList.RemoveServer(pServer);
+			delete pDNSReq;
+			return;
+		}
+
+		// Send all of the queued packets for this server.
+		POSITION posPacket = pDNSReq->m_aPackets.GetHeadPosition();
+		while (posPacket) {
+			SRawServerPacket* pServerPacket = pDNSReq->m_aPackets.GetNext(posPacket);
+			SendBuffer(nIP, pServerPacket->m_nPort, pServerPacket->m_pPacket, pServerPacket->m_uSize);
+			// Detach packet data
+			pServerPacket->m_pPacket = NULL;
+		}
+	}
+	else
+	{
+		// still no valid IP for this server
+		AddLogLine( LOG_FL_DBG | LOG_RGB_WARNING,
+			_T("Error: Server UDP socket: Failed to resolve address for server '%s' (%s)"),
+			pDNSReq->m_pServer->GetListName(), pDNSReq->m_pServer->GetAddress() );
+	}
+	delete pDNSReq;
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUDPSocket::SendBuffer(uint32 dwIP, uint16 uPort, byte *pPacket, unsigned uiSize)
+{
+	SOCKADDR_IN		sockAddr = {0};
+
+	sockAddr.sin_family = AF_INET;
+	sockAddr.sin_port = fast_htons(uPort);
+	sockAddr.sin_addr.s_addr = dwIP;
+	SendTo(pPacket, uiSize, reinterpret_cast<SOCKADDR*>(&sockAddr), sizeof(sockAddr));
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUDPSocket::SendPacket(Packet *pPacket, CServer *pServer, uint16 uSpecPort, byte *pbyteInRawPkt, uint32 dwRawLen)
+{
+	USES_CONVERSION;
+
+	byte		*pbyteRawPkt;
+	unsigned	uiRawPktSize;
+	uint16		uPort = 0;
+
+	if (pPacket != NULL)
+	{
+		pbyteRawPkt = new byte[pPacket->m_dwSize + sizeof(UDP_Header_Struct)];
+		memcpy(pbyteRawPkt, pPacket->GetUDPHeader(), sizeof(UDP_Header_Struct));
+		memcpy2(pbyteRawPkt + sizeof(UDP_Header_Struct), pPacket->m_pcBuffer, pPacket->m_dwSize);
+		uiRawPktSize = pPacket->m_dwSize + sizeof(UDP_Header_Struct);
+
+		if ( g_App.m_pPrefs->IsServerCryptLayerUDPEnabled() &&
+			(pServer->GetServerKeyUDP() != 0) && pServer->SupportsObfuscationUDP() )
+		{
+			uiRawPktSize = EncryptSendServer(&pbyteRawPkt, uiRawPktSize, pServer->GetServerKeyUDP());
+			uPort = pServer->GetObfuscationPortUDP();
+		}
+		else
+			uPort = pServer->GetPort() + 4;
+	}
+	else if (pbyteInRawPkt != 0)
+	{
+		// we don't encrypt rawpackets (!)
+		pbyteRawPkt = new byte[dwRawLen];
+		memcpy2(pbyteRawPkt, pbyteInRawPkt, dwRawLen);
+		uiRawPktSize = dwRawLen;
+		uPort = pServer->GetPort() + 4;
+	}
+	else
+		return;
+
+	uPort = (uSpecPort == 0) ? uPort : uSpecPort;
+
+	// Do we need to resolve the DN of this server?
+	LPCSTR pszHostAddressA = T2CA(pServer->GetAddress());
+	uint32 dwIP = inet_addr(pszHostAddressA);
+
+	if (dwIP == INADDR_NONE)
+	{
+		POSITION	posPrev, pos = m_aDNSReqs.GetHeadPosition();
+		SServerDNSRequest	*pDNSReq;
+		SRawServerPacket	*pServerPacket;
+
+		if (pos) {
+			DWORD dwNow = GetTickCount();
+			do {
+				posPrev = pos;
+				pDNSReq = m_aDNSReqs.GetNext(pos);
+				// Just for safety. Ensure that there are no stalled DNS queries and/or packets
+				// hanging endlessly in the queue.
+				if (dwNow - pDNSReq->m_dwCreated >= SEC2MS(60*2))
+				{
+					m_aDNSReqs.RemoveAt(posPrev);
+					delete pDNSReq;
+				}
+				// If there is already a DNS query ongoing or queued for this server, append the
+				// current packet to this DNS query. The packet(s) will be sent later after the DNS
+				// query has completed.
+				else if (stricmp(CStringA(pDNSReq->m_pServer->GetAddress()), pszHostAddressA) == 0)
+				{
+					pServerPacket = new SRawServerPacket(pbyteRawPkt, uiRawPktSize, uPort);
+					pDNSReq->m_aPackets.AddTail(pServerPacket);
+					return;
+				}
+			} while (pos);
+		}
+
+		// Create a new DNS query for this server
+		pDNSReq = new SServerDNSRequest(NULL, new CServer(pServer));
+		pDNSReq->m_hDNSTask = WSAAsyncGetHostByName(m_hWndResolveMessage, WM_DNSLOOKUPDONE,
+					pszHostAddressA, pDNSReq->m_DnsHostBuffer, sizeof(pDNSReq->m_DnsHostBuffer));
+		if (pDNSReq->m_hDNSTask == NULL) {
+			AddLogLine( LOG_FL_DBG | LOG_RGB_WARNING,
+				_T("Error: Server UDP socket: Failed to resolve address for '%hs' - %s"),
+				pszHostAddressA, GetErrorMessage(GetLastError(), 1) );
+			delete pDNSReq;
+			delete[] pbyteRawPkt;
+			return;
+		}
+
+		pServerPacket = new SRawServerPacket(pbyteRawPkt, uiRawPktSize, uPort);
+		pDNSReq->m_aPackets.AddTail(pServerPacket);
+		m_aDNSReqs.AddTail(pDNSReq);
+	}
+	else
+	{
+		// No DNS query needed for this server. Just send the packet.
+		SendBuffer(dwIP, uPort, pbyteRawPkt, uiRawPktSize);
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#endif //OLD_SOCKETS_ENABLED
+@
+
+
+1.81
+log
+@Encryption preparations; Ported improvement for dynIP server support from original.
+@
+text
+@a342 1
+#ifdef _CRYPT_READY
+a343 1
+#endif
+a349 1
+#ifdef _CRYPT_READY
+d351 1
+a351 2
+										g_App.m_pServerList->RemoveDuplicatesByAddress(pServer);
+#endif
+d503 1
+a503 3
+#ifdef _CRYPT_READY
+			g_App.m_pServerList->RemoveDuplicatesByIP(pServer);
+#endif
+@
+
+
+1.80
+log
+@Added an option to bind to specific network interface (from original) {Zom}.
+@
+text
+@d31 1
+d41 38
+d81 2
+d98 1
+a98 1
+};
+d100 1
+a100 1
+CUDPSocket::CUDPSocket()
+a102 3
+	m_pcSendBuffer = NULL;
+	m_pServer = NULL;
+	m_hDNSTask = 0;
+d109 1
+a109 2
+	delete m_pServer;
+	delete[] m_pcSendBuffer;
+d111 3
+a113 1
+	m_udpwnd.DestroyWindow();
+d340 7
+a346 1
+								if (TempTag.IsStr())
+d348 9
+d441 1
+a441 1
+void CUDPSocket::AsyncResolveDNS(LPCTSTR lpszHostAddress, UINT nHostPort)
+d445 18
+a462 13
+	m_lpszHostAddress = lpszHostAddress;
+	m_nHostPort = nHostPort;
+	if (m_hDNSTask)
+		WSACancelAsyncRequest(m_hDNSTask);
+	m_hDNSTask = NULL;
+// 	See if we have an IP already
+	USES_CONVERSION;
+	SOCKADDR_IN sockAddr;
+	memzero(&sockAddr, sizeof(sockAddr));
+	LPSTR lpszAscii = T2A((LPTSTR)m_lpszHostAddress);
+	sockAddr.sin_family = AF_INET;
+	sockAddr.sin_addr.s_addr = inet_addr(lpszAscii);
+	sockAddr.sin_port = fast_htons((u_short)m_nHostPort);
+d464 2
+a465 4
+//	Backup for send socket
+	m_SaveAddr = sockAddr;
+
+	if (sockAddr.sin_addr.s_addr == INADDR_NONE)
+d467 6
+a472 2
+	//	Resolve hostname "hostname" asynchronously
+		memzero(DnsHostBuffer, sizeof(DnsHostBuffer));
+d474 27
+a500 6
+		USES_CONVERSION;
+		m_hDNSTask = WSAAsyncGetHostByName( m_hWndResolveMessage,
+											   WM_DNSLOOKUPDONE,
+											   CT2A(lpszHostAddress),
+											   DnsHostBuffer,
+											   MAXGETHOSTSTRUCT );
+d502 7
+a508 8
+		if (m_hDNSTask == 0)
+		{
+			delete[] m_pcSendBuffer;
+			m_pcSendBuffer = NULL;
+			delete m_pServer;
+			m_pServer = NULL;
+#ifdef _DEBUG
+			AfxMessageBox(_T("LOOKUPERROR DNSTASKHANDLE = 0"));
+a510 5
+	}
+	else
+	{
+		SendBuffer();
+	}
+d512 6
+a517 7
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CUDPSocket::DnsLookupDone(WPARAM wp, LPARAM lp)
+{
+	NOPRM(wp);
+	EMULE_TRY
+d519 8
+a526 10
+	m_hDNSTask = NULL;
+
+//	An asynchronous database routine completed
+	if (WSAGETASYNCERROR(lp) != 0)
+	{
+		delete[] m_pcSendBuffer;
+		m_pcSendBuffer = NULL;
+		delete m_pServer;
+		m_pServer = NULL;
+		return;
+d528 1
+a528 1
+	if (m_SaveAddr.sin_addr.s_addr == INADDR_NONE)
+d530 4
+a533 15
+	//	Get the structure length
+		int iBufLen = WSAGETASYNCBUFLEN(lp);
+		LPHOSTENT lphost = (LPHOSTENT)malloc(iBufLen);
+		memcpy2(lphost, DnsHostBuffer, iBufLen);
+		m_SaveAddr.sin_addr.s_addr = ((LPIN_ADDR)lphost->h_addr)->s_addr;
+		free(lphost);
+	//	Also reset the receive buffer
+		memzero(DnsHostBuffer, sizeof(DnsHostBuffer));
+	}
+	if (m_pServer)
+	{
+		CServer* update = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(), m_pServer->GetPort());
+		if (update)
+			update->SetIP(m_SaveAddr.sin_addr.S_un.S_addr);
+		SendBuffer();
+d535 1
+d539 1
+a539 1
+void CUDPSocket::SendBuffer()
+d541 1
+a541 1
+	EMULE_TRY
+d543 4
+a546 9
+	if(m_pServer && m_pcSendBuffer)
+	{
+		SendTo(m_pcSendBuffer, m_dwSendBufLength, (SOCKADDR*)&m_SaveAddr, sizeof(m_SaveAddr));
+	}
+	safe_delete(m_pServer);
+	delete[] m_pcSendBuffer;
+	m_pcSendBuffer = NULL;
+
+	EMULE_CATCH
+d551 1
+a551 5
+//	At this point m_pServer & m_pcSendBuffer must be already NULL but it seems that sometime we are not able
+//	to get WM_DNSLOOKUPDONE before we send a new packet therefore the existency of the objects will be checked
+	safe_delete(m_pServer);
+	delete[] m_pcSendBuffer;
+	m_pcSendBuffer = NULL;
+a558 1
+		m_pServer = new CServer(pServer);
+a582 2
+	m_pcSendBuffer = reinterpret_cast<char*>(pbyteRawPkt);
+	m_dwSendBufLength = uiRawPktSize;
+d586 56
+a641 1
+	AsyncResolveDNS(m_pServer->GetAddress(), uPort);
+@
+
+
+1.79
+log
+@Reduced H-file dependency.
+@
+text
+@d87 1
+a87 1
+	return (CAsyncSocket::Create(0, SOCK_DGRAM, FD_READ)) ? true : false;
+@
+
+
+1.78
+log
+@Ability to add LowID sources with a file from search list results (before if a local server was providing LowID source with search result they were not used).
+@
+text
+@d21 3
+@
+
+
+1.77
+log
+@Reduced H-file dependency.
+@
+text
+@d153 1
+a153 1
+						uResults = g_App.m_pSearchList->ProcessUDPSearchAnswer(pckStream, cfUTF8);
+@
+
+
+1.76
+log
+@Encryption preparations.
+@
+text
+@d25 1
+@
+
+
+1.75
+log
+@Encryption preparations; Some clean-up.
+@
+text
+@d36 1
+a36 1
+#define	ERR_UDP_MISCONFIGURED_SERVER _T("Error while processing incoming UDP Packet (most likely a misconfigured server)")
+d95 1
+a95 1
+	byte		abyteBuffer[5000];
+d97 1
+a97 1
+	int			iSockAddrLen = sizeof(sockAddr);
+d100 23
+a122 2
+	if ((iLength >= 2) && (abyteBuffer[0] == OP_EDONKEYPROT))	//SOCKET_ERROR = -1
+		ProcessPacket(abyteBuffer + 2, iLength - 2, abyteBuffer[1], sockAddr.sin_addr.s_addr, fast_ntohs(sockAddr.sin_port));
+d127 1
+a127 1
+bool CUDPSocket::ProcessPacket(byte *pbytePacket, uint32 dwSize, byte uOpcode, uint32 dwIP, uint16 uUDPPort)
+a128 1
+	CServer	*pServer = NULL;
+d133 3
+a135 6
+		g_App.m_pDownloadQueue->AddDownDataOverheadServer(dwSize);
+		if ((pServer = g_App.m_pServerList->GetServerByAddress(ipstr(dwIP), uUDPPort - 4)) == NULL)
+		{
+		//	Don't process packet from unknown servers
+			return false;
+		}
+a509 1
+#ifdef _CRYPT_READY
+a510 1
+#endif
+@
+
+
+1.74
+log
+@Encryption preparations.
+@
+text
+@a37 3
+CUDPSocketWnd::CUDPSocketWnd(){
+}
+
+d42 1
+a42 1
+LRESULT CUDPSocketWnd::OnDNSLookupDone(WPARAM wParam,LPARAM lParam)
+d47 1
+a47 1
+		m_pOwner->DnsLookupDone(wParam,lParam);
+d55 1
+a55 1
+CUDPSocket::CUDPSocket(CServerConnect* in_serverconnect)
+a59 1
+	m_pServerConnect = in_serverconnect;
+d470 1
+a470 1
+void CUDPSocket::SendPacket(Packet *pPacket, CServer *pServer, uint16 uSpecPort, byte *pInRawPkt, uint32 dwRawLen)
+d478 5
+a482 2
+//	Now we are trying to create a new objects
+	try
+d485 15
+a499 5
+		m_pcSendBuffer = new char[pPacket->m_dwSize + sizeof(UDP_Header_Struct)];
+		memcpy(m_pcSendBuffer, pPacket->GetUDPHeader(), sizeof(UDP_Header_Struct));
+		memcpy2(m_pcSendBuffer + sizeof(UDP_Header_Struct), pPacket->m_pcBuffer, pPacket->m_dwSize);
+		m_dwSendBufLength = pPacket->m_dwSize + sizeof(UDP_Header_Struct);
+		AsyncResolveDNS(m_pServer->GetAddress(), m_pServer->GetPort() + 4);
+d501 1
+a501 1
+	catch (CException * error)
+d503 5
+a507 5
+		OUTPUT_DEBUG_TRACE();
+		error->Delete();
+		safe_delete(m_pServer);
+		delete[] m_pcSendBuffer;
+		m_pcSendBuffer = NULL;
+d509 8
+@
+
+
+1.73
+log
+@Fast byte swap for ntohl and ntohs.
+@
+text
+@d26 1
+d474 1
+a474 1
+void CUDPSocket::SendPacket(Packet *pPacket, CServer *pHostServer)
+d485 1
+a485 1
+		m_pServer = new CServer(pHostServer);
+@
+
+
+1.72
+log
+@Reduced H-file dependency.
+@
+text
+@d104 1
+a104 1
+		ProcessPacket(abyteBuffer + 2, iLength - 2, abyteBuffer[1], sockAddr.sin_addr.s_addr, ntohs(sockAddr.sin_port));
+@
+
+
+1.71
+log
+@Reduced H-file dependency.
+@
+text
+@d25 1
+@
+
+
+1.70
+log
+@Simplified logging system implementation.
+@
+text
+@d22 1
+@
+
+
+1.69
+log
+@Fixed incorrect destructor for some allocated buffers; Removed useless checked around delete operators; Renaming.
+@
+text
+@d335 1
+a335 1
+		CString	strBuff(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED_SERVER);
+d341 1
+a341 1
+		AddDebugLogLine(strBuff);
+d349 1
+a349 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED_SERVER _T(" - CMemoryException"));
+d357 1
+a357 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED_SERVER _T(" - ") + error);
+d362 1
+a362 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED_SERVER);
+@
+
+
+1.68
+log
+@Faster (intrinsic) htonl and htons implementation.
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+a17 1
+
+d58 2
+a59 2
+	m_pcSendBuffer = 0;
+	m_pServer = 0;
+d61 1
+a61 1
+	DnsTaskHandle = 0;
+d68 2
+a69 4
+	if (m_pServer)
+		delete m_pServer;
+	if (m_pcSendBuffer)
+		delete[] m_pcSendBuffer;
+d373 3
+a375 3
+	if (DnsTaskHandle)
+		WSACancelAsyncRequest(DnsTaskHandle);
+	DnsTaskHandle = NULL;
+d394 1
+a394 1
+		DnsTaskHandle = WSAAsyncGetHostByName( m_hWndResolveMessage,
+d400 1
+a400 1
+		if (DnsTaskHandle == 0)
+d403 1
+a403 1
+			m_pcSendBuffer = 0;
+d405 1
+a405 1
+			m_pServer = 0;
+d424 1
+a424 1
+	DnsTaskHandle = NULL;
+d429 4
+a432 6
+		if (m_pcSendBuffer)
+			delete[] m_pcSendBuffer;
+		m_pcSendBuffer = 0;
+		if (m_pServer)
+			delete m_pServer;
+		m_pServer = 0;
+d448 1
+a448 1
+		CServer* update = g_App.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+d462 1
+a462 1
+		SendTo(m_pcSendBuffer,m_dwSendBufLength,(SOCKADDR*)&m_SaveAddr, sizeof(m_SaveAddr));
+d465 2
+a466 1
+	safe_delete(m_pcSendBuffer);
+d476 2
+a477 1
+	safe_delete(m_pcSendBuffer);
+d494 2
+a495 1
+		safe_delete(m_pcSendBuffer);
+@
+
+
+1.67
+log
+@added Unicode support for server search
+@
+text
+@d386 1
+a386 1
+	sockAddr.sin_port = htons((u_short)m_nHostPort);
+@
+
+
+1.66
+log
+@Removed server flag check, as it should be fine without it; Suppressed compiler warnings.
+@
+text
+@d139 1
+a139 1
+						uResults = g_App.m_pSearchList->ProcessUDPSearchAnswer(pckStream);
+@
+
+
+1.65
+log
+@added Unicode support for UDP opcode OP_SERVER_DESC_RES
+@
+text
+@d87 1
+a87 1
+	return CAsyncSocket::Create(0,SOCK_DGRAM,FD_READ);
+d96 1
+d142 1
+a142 1
+						dwLeft = pckStream.GetLength() - pckStream.GetPosition();
+d183 1
+a183 1
+					dwLeft = sources.GetLength() - sources.GetPosition();
+a258 1
+				ECodingFormat	eCF = (pServer->GetTCPFlags() & SRV_UDPFLG_UNICODE) ? cfUTF8 : cfLocalCodePage;
+d271 1
+a271 1
+							TempTag.FillFromStream(srvinfo, eCF);
+d314 1
+a314 1
+					ReadMB2Str(eCF, &strBuf, srvinfo, static_cast<unsigned>(uStringLen));
+d320 1
+a320 1
+					ReadMB2Str(eCF, &strBuf, srvinfo, static_cast<unsigned>(uStringLen));
+d424 1
+@
+
+
+1.64
+log
+@Suppressed level 4 warnings; Formatting [Aw3].
+@
+text
+@d258 1
+d271 1
+a271 1
+							TempTag.FillFromStream(srvinfo);
+d314 1
+a314 2
+					srvinfo.Read(strBuf.GetBuffer(uStringLen), uStringLen);
+					strBuf.ReleaseBuffer(uStringLen);
+d320 1
+a320 2
+					srvinfo.Read(strBuf.GetBuffer(uStringLen), uStringLen);
+					strBuf.ReleaseBuffer(uStringLen);
+@
+
+
+1.63
+log
+@Simplified interface -- pointer instead of a reference.
+@
+text
+@d122 1
+a122 1
+		if (bUpdateServerDesc = (pServer->GetFailedCount() != 0))
+@
+
+
+1.62
+log
+@Better formatting of server version string (14.09 instead of 14.9) for proper sorting (original);
+Encryption preparations.
+@
+text
+@d475 1
+a475 1
+void CUDPSocket::SendPacket(Packet *pPacket,CServer *pHostServer)
+d485 1
+a485 1
+		m_pServer = new CServer(*pHostServer);
+@
+
+
+1.61
+log
+@Encryption preparations;
+Server statistics request is done now after successful ping (before was together with ping).
+@
+text
+@d173 1
+a173 1
+						pPartFile->AddServerSources(sources, dwIP, uUDPPort - 4);
+d294 1
+a294 1
+									strVersion.Format(_T("%u.%u"), TempTag.GetIntValue() >> 16, TempTag.GetIntValue() & 0xFFFF);
+@
+
+
+1.60
+log
+@Minor renaming.
+@
+text
+@d201 1
+a201 1
+				if (dwSize < 12)
+d203 4
+d208 2
+a209 3
+				if (PEEK_DWORD(pbytePacket) != pServer->GetChallenge())
+					return true; 
+				pServer->SetChallenge(0);
+d221 4
+d226 18
+@
+
+
+1.59
+log
+@smart update of the server desciption on incomming UDP packet
+@
+text
+@d430 1
+a430 1
+			update->SetID(m_SaveAddr.sin_addr.S_un.S_addr);
+@
+
+
+1.58
+log
+@1) updated source exchange protocol to ver.3
+2) support of HighID clients with IP "x.x.x.0"  (see description in updownclient.h)
+3) removed dublicated ip check for LowID clients in TryToConnect()
+4) fixed a client name change by download start from remote client shared file list.
+5) some formating
+@
+text
+@d112 1
+d122 2
+a123 2
+		pServer->ResetFailedCount();
+		g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d219 1
+a219 1
+				g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d300 1
+a300 1
+				g_App.m_pMDlg->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d306 4
+@
+
+
+1.57
+log
+@Renamed AddUDPResult -> AddGlobalEd2kSearchResults (original).
+@
+text
+@d172 1
+a172 1
+						pPartFile->AddSources(sources, dwIP, uUDPPort - 4);
+@
+
+
+1.56
+log
+@Unicode preparations.
+@
+text
+@d154 1
+a154 1
+					g_App.m_pMDlg->m_dlgSearch.AddUDPResult(uResults);
+@
+
+
+1.55
+log
+@renamed 3 variables
+@
+text
+@d116 1
+a116 1
+		if ((pServer = g_App.m_pServerList->GetServerByAddress(inet_ntoa(*(in_addr*)&dwIP), uUDPPort - 4)) == NULL)
+@
+
+
+1.54
+log
+@Modified passing of IP address to make it easier for Unicode.
+@
+text
+@d115 2
+a116 2
+		g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(dwSize);
+		if ((pServer = g_eMuleApp.m_pServerList->GetServerByAddress(inet_ntoa(*(in_addr*)&dwIP), uUDPPort - 4)) == NULL)
+d122 1
+a122 1
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d133 1
+a133 1
+				if (g_eMuleApp.m_pSearchList->AllowUDPSearchAnswer())
+d137 1
+a137 1
+						uResults = g_eMuleApp.m_pSearchList->ProcessUDPSearchAnswer(pckStream);
+d154 1
+a154 1
+					g_eMuleApp.m_pdlgEmule->m_dlgSearch.AddUDPResult(uResults);
+d169 1
+a169 1
+					CPartFile* 		pPartFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(abyteFileId);
+d218 1
+a218 1
+				g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d299 1
+a299 1
+				g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d423 1
+a423 1
+		CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress(m_pServer->GetAddress(),m_pServer->GetPort());
+@
+
+
+1.53
+log
+@Don't discard UDP search results of the same packet when search limit is reached.
+@
+text
+@d94 1
+a94 1
+void CUDPSocket::OnReceive(int nErrorCode)
+d99 3
+a101 3
+	CString		serverbuffer;
+	UINT		uiUDPPort;
+	int			iLength = ReceiveFrom(abyteBuffer, sizeof(abyteBuffer), serverbuffer, uiUDPPort);
+d104 1
+a104 1
+		ProcessPacket(abyteBuffer + 2, iLength - 2, abyteBuffer[1], serverbuffer, uiUDPPort);
+d109 1
+a109 1
+bool CUDPSocket::ProcessPacket(byte *pbytePacket, uint32 dwSize, byte uOpcode, LPCTSTR host, uint16 uUDPPort)
+d116 1
+a116 1
+		if ((pServer = g_eMuleApp.m_pServerList->GetServerByAddress(host, uUDPPort - 4)) == NULL)
+d172 1
+a172 1
+						pPartFile->AddSources(sources, inet_addr(host), uUDPPort - 4);
+@
+
+
+1.52
+log
+@Added support for extended UDP server protocol to get multiple file search results in one UDP packet.
+@
+text
+@d130 1
+d133 1
+a133 1
+				do
+d135 1
+a135 5
+					g_eMuleApp.m_pdlgEmule->m_dlgSearch.AddUDPResult(g_eMuleApp.m_pSearchList->ProcessUDPSearchAnswer(pckStream));
+
+				//	Check if there is another search results packet
+					dwLeft = pckStream.GetLength() - pckStream.GetPosition();
+					if (dwLeft >= 2)
+d137 1
+a137 4
+						pckStream.Read(&byteTmp, 1);
+						dwLeft--;
+						if (byteTmp != OP_EDONKEYPROT)
+							break;
+d139 17
+a155 6
+						pckStream.Read(&byteTmp, 1);
+						dwLeft--;
+						if (byteTmp != OP_GLOBSEARCHRES)
+							break;
+					}
+				} while(dwLeft != 0);
+@
+
+
+1.51
+log
+@Corrected initialization of some server parameters; Make size a 32-bit variable.
+@
+text
+@d128 23
+a150 1
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.AddUDPResult(g_eMuleApp.m_pSearchList->ProcessUDPSearchAnswer(pbytePacket, dwSize));
+@
+
+
+1.50
+log
+@Corrected calculation of server download overhead.
+@
+text
+@d109 1
+a109 1
+bool CUDPSocket::ProcessPacket(byte* pbytePacketBuf, uint16 uSize, byte uOpcode, LPCTSTR host, uint16 uUDPPort)
+d115 1
+a115 1
+		g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadServer(uSize);
+d128 1
+a128 1
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.AddUDPResult(g_eMuleApp.m_pSearchList->ProcessUDPSearchAnswer(pbytePacketBuf,uSize));
+d133 1
+a133 1
+				CSafeMemFile	sources((BYTE*)pbytePacketBuf,uSize);
+d173 1
+a173 1
+				if (uSize < 12)
+d176 1
+a176 1
+				if (PEEK_DWORD(pbytePacketBuf) != pServer->GetChallenge()) 
+d180 2
+a181 2
+				pServer->SetUserCount(PEEK_DWORD(pbytePacketBuf + 4));
+				pServer->SetFileCount(PEEK_DWORD(pbytePacketBuf + 8));
+d183 3
+a185 3
+				pServer->SetMaxUsers((uSize >= 16) ? PEEK_DWORD(pbytePacketBuf + 12) : 0);
+				pServer->SetSoftMaxFiles((uSize >= 24) ? PEEK_DWORD(pbytePacketBuf + 16) : 0);
+				pServer->SetHardMaxFiles((uSize >= 24) ? PEEK_DWORD(pbytePacketBuf + 20) : 0);
+d187 2
+a188 2
+				pServer->SetUDPFlags((uSize >= 28) ? PEEK_DWORD(pbytePacketBuf + 24) : 0);
+				pServer->SetLowIDUsers((uSize >= 32) ? PEEK_DWORD(pbytePacketBuf + 28) : 0);
+d197 5
+a201 1
+				CSafeMemFile srvinfo((BYTE*)pbytePacketBuf,uSize);
+d203 2
+a204 10
+				uint16 uStringLen;
+				srvinfo.Read(&uStringLen,2);
+				CString strName;
+				srvinfo.Read(strName.GetBuffer(uStringLen),uStringLen);
+				strName.ReleaseBuffer(uStringLen);
+				
+				srvinfo.Read(&uStringLen,2);
+				CString strDesc;
+				srvinfo.Read(strDesc.GetBuffer(uStringLen),uStringLen);
+				strDesc.ReleaseBuffer(uStringLen);
+d206 1
+a206 1
+				if(pServer)
+d208 55
+a262 1
+					pServer->SetDescription(strDesc);
+d264 7
+a270 2
+						pServer->SetListName(strName);
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+d272 1
+@
+
+
+1.49
+log
+@Fixed parsing of UDP server packet (in some rare cases) {Kry}.
+@
+text
+@d115 1
+a115 1
+		g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(uSize);
+@
+
+
+1.48
+log
+@Support several UDP server source packets in one UDP packet;
+Corrected initial servers port of the source found by UDP source request;
+Faster memcpy during packet processing;
+Removed unused UDP broadcast code.
+@
+text
+@d150 1
+a150 1
+						sources.Seek(byteTmp * (4 + 2), SEEK_SET);
+@
+
+
+1.47
+log
+@Server LowID users statistics; Faster server packet dispatch.
+@
+text
+@d134 3
+a136 1
+				uchar			fileid[16];
+d138 3
+a140 3
+				sources.Read(fileid,16);
+
+				CPartFile* 		pPartFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(fileid);
+d142 1
+a142 4
+				if (pPartFile)
+					pPartFile->AddSources(sources,inet_addr(host),uUDPPort);
+				else
+					g_eMuleApp.m_pServerList->CancelUDPBroadcast();				
+d144 24
+d373 5
+a377 5
+		m_pcSendBuffer = new char[pPacket->m_dwSize+sizeof(UDP_Header_Struct)];
+		memcpy2(m_pcSendBuffer,pPacket->GetUDPHeader(),sizeof(UDP_Header_Struct));
+		memcpy2(m_pcSendBuffer+sizeof(UDP_Header_Struct),pPacket->m_pcBuffer,pPacket->m_dwSize);
+		m_dwSendBufLength = pPacket->m_dwSize+sizeof(UDP_Header_Struct);
+		AsyncResolveDNS(m_pServer->GetAddress(),m_pServer->GetPort()+4);
+@
+
+
+1.46
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d153 6
+a158 3
+				uint32		dwChallenge;
+				
+				memcpy2(&dwChallenge,pbytePacketBuf,4);
+d160 3
+a162 2
+				if (dwChallenge != pServer->GetChallenge()) 
+					return true; 
+d164 2
+a165 9
+				uint32		dwCurUsersNumber;
+				uint32		dwCurFilesNumber;
+				uint32		dwMaxUsersNumber = 0;
+				uint32		dwCurSoftFilesLimit = 0;
+				uint32		dwCurHardFilesLimit = 0;
+				uint32		dwUDPFlags = 0;
+				
+				memcpy2(&dwCurUsersNumber,pbytePacketBuf+4,4);
+				memcpy2(&dwCurFilesNumber,pbytePacketBuf+8,4);
+d167 2
+a168 24
+				if (uSize >= 16)
+				{
+					memcpy2(&dwMaxUsersNumber, pbytePacketBuf+12,4);
+				}
+				if (uSize >= 24)
+				{
+					memcpy2(&dwCurSoftFilesLimit, pbytePacketBuf+16,4);
+					memcpy2(&dwCurHardFilesLimit, pbytePacketBuf+20,4);
+				}
+				if (uSize >= 28)
+				{
+					memcpy2(&dwUDPFlags, pbytePacketBuf+24,4);
+				}
+				if (pServer)
+				{
+					pServer->SetPing(::GetTickCount() - pServer->GetLastPinged());
+					pServer->SetUserCount(dwCurUsersNumber);
+					pServer->SetFileCount(dwCurFilesNumber);
+					pServer->SetMaxUsers(dwMaxUsersNumber);
+					pServer->SetSoftMaxFiles(dwCurSoftFilesLimit);
+					pServer->SetHardMaxFiles(dwCurHardFilesLimit);
+					pServer->SetUDPFlags(dwUDPFlags);
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+				}
+@
+
+
+1.45
+log
+@Corrected message text; Changed messages color; Improved string processing.
+@
+text
+@d34 1
+a34 1
+#define	ERR_UDP_MISCONFIGURED _T("Error while processing incoming UDP Packet (most likely a misconfigured server)")
+d100 2
+a101 2
+	UINT		uiPort;
+	int			iLength = ReceiveFrom(abyteBuffer, sizeof(abyteBuffer), serverbuffer, uiPort);
+d104 1
+a104 1
+		ProcessPacket(abyteBuffer + 2, iLength - 2, abyteBuffer[1], serverbuffer.GetBuffer(), uiPort);
+d109 1
+a109 1
+bool CUDPSocket::ProcessPacket(byte* pbytePacketBuf, uint16 uSize, byte uOpcode, LPCTSTR host, uint16 uPort)
+d116 1
+a116 1
+		if ((pServer = g_eMuleApp.m_pServerList->GetServerByAddress(host, uPort - 4)) == NULL)
+d141 1
+a141 1
+					pPartFile->AddSources(sources,inet_addr(host),uPort);
+d228 1
+a228 1
+		CString	strBuff(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED);
+d236 2
+d242 1
+a242 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED _T(" - CMemoryException"));
+d244 2
+d250 1
+a250 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED _T(" - ") + error);
+d255 1
+a255 1
+		AddDebugLogLine(RGB_LOG_ERROR_TXT ERR_UDP_MISCONFIGURED);
+@
+
+
+1.44
+log
+@Protection against short invalid packets; Removed old unused code.
+@
+text
+@d34 1
+a34 1
+#define	ERR_UDP_MISCONFIGURED "Error while processing incoming UDP Packet (Most likely a misconfigured server)"
+d111 2
+d116 1
+a116 7
+		CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress(host, uPort-4);
+		if (pServer)
+		{
+			pServer->ResetFailedCount();
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+		}
+		else
+d118 1
+a118 1
+		//	Don't process packet from unknow servers
+d121 2
+d228 5
+d234 1
+a234 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED);
+a235 2
+		if (uOpcode == OP_GLOBSEARCHRES || uOpcode == OP_GLOBFOUNDSOURCES)
+			return true;
+d240 1
+a240 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - CMemoryException"));
+a241 2
+		if (uOpcode == OP_GLOBSEARCHRES || uOpcode == OP_GLOBFOUNDSOURCES)
+			return true;
+d246 1
+a246 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - ") + error);
+d251 1
+a251 1
+		AddDebugLogLine(RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED);
+@
+
+
+1.43
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d98 1
+a98 1
+	byte		buffer[5000];
+d101 4
+a104 8
+	uint32		dwLength = ReceiveFrom(buffer,5000,serverbuffer,uiPort);
+	byte		byteProtocol = buffer[0];
+	byte		byteOpcode = buffer[1];
+
+	if ( byteProtocol == OP_EDONKEYPROT && dwLength != SOCKET_ERROR)
+		ProcessPacket(buffer+2,dwLength-2,byteOpcode,serverbuffer.GetBuffer(),uiPort);
+	else if ((byteProtocol == OP_EMULEPROT) && dwLength != SOCKET_ERROR)
+		ProcessExtPacket(buffer+2,dwLength-2,byteOpcode,serverbuffer.GetBuffer(),uiPort);
+a256 49
+bool CUDPSocket::ProcessExtPacket(byte* pbytePacketBuf, uint16 size, byte opcode, LPCTSTR host, uint16 port)
+{
+	EMULE_TRY
+
+	try
+	{
+		switch (opcode)
+		{
+			/*
+			case OP_UDPVERIFYUPREQ:
+			{
+				ASSERT (size == 6);
+				if (size == 6)
+				{
+					uint32 checkclientip = 0;
+					uint16 checkclientport = 0;
+					memcpy2(&checkclientip,pbytePacketBuf,4);
+					memcpy2(&checkclientport,pbytePacketBuf,2);
+					if (g_eMuleApp.m_pClientList->VerifyUpload(checkclientip,checkclientport))
+					{
+						Packet answer(OP_UDPVERIFYUPA,0,OP_EMULEPROT);
+						SendTo(answer.GetUDPHeader(),2,port,host);
+					}
+				}
+				break;
+			}*/
+			case OP_UDPVERIFYUPA:
+			{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+				break;
+			}
+			default:
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+				return false;
+		}
+		return true;
+	}
+	catch(...)
+	{
+		OUTPUT_DEBUG_TRACE();
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(RGB_LOG_WARNING + _T("Error while processing incoming extended protocol UDP Packet"));
+		return false;
+	}
+
+	EMULE_CATCH
+
+	return false;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.42
+log
+@Final DebugLog formating and changes
+@
+text
+@d235 1
+a235 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED);
+d243 1
+a243 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - CMemoryException"));
+d251 1
+a251 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED + _T(" - ") + error);
+d256 1
+a256 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + ERR_UDP_MISCONFIGURED);
+d301 1
+a301 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("Error while processing incoming extended protocol UDP Packet"));
+@
+
+
+1.41
+log
+@Fixed bugs with AV-support; reverted unneeded changes, removed redundant try/catch (thanks to Aw3 !)
+@
+text
+@d34 2
+d73 1
+d86 1
+d90 1
+d118 2
+a119 2
+		CServer* pServer = g_eMuleApp.m_pServerList->GetServerByAddress( host, uPort-4 );
+		if( pServer )
+d122 1
+a122 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer );
+d125 6
+a130 2
+			return false;	//eklmn: don't process packet from unknow servers
+		switch(uOpcode)
+d139 1
+a139 1
+				CSafeMemFile		sources((BYTE*)pbytePacketBuf,uSize);
+d143 3
+a145 1
+				CPartFile* pPartFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(fileid);
+d150 1
+d155 1
+a155 1
+			//	check minimal allowed size (contain basic information)
+d162 1
+d175 1
+d191 8
+a198 8
+					pServer->SetPing( ::GetTickCount() - pServer->GetLastPinged() );
+					pServer->SetUserCount( dwCurUsersNumber );
+					pServer->SetFileCount( dwCurFilesNumber );
+					pServer->SetMaxUsers( dwMaxUsersNumber );
+					pServer->SetSoftMaxFiles( dwCurSoftFilesLimit );
+					pServer->SetHardMaxFiles( dwCurHardFilesLimit );
+					pServer->SetUDPFlags( dwUDPFlags );
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer );
+d223 1
+a223 1
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer( *pServer );
+d235 1
+a235 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF));
+d243 1
+a243 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF) + _T(" - CMemoryException"));
+d251 1
+a251 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF) + _T(" - ") + error);
+d256 1
+a256 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDP_MISCONF));
+d265 19
+a283 13
+	try{
+	switch(opcode){
+		/*
+		case OP_UDPVERIFYUPREQ:{
+			ASSERT (size == 6);
+			if (size == 6){
+				uint32 checkclientip = 0;
+				uint16 checkclientport = 0;
+				memcpy2(&checkclientip,pbytePacketBuf,4);
+				memcpy2(&checkclientport,pbytePacketBuf,2);
+				if (g_eMuleApp.m_pClientList->VerifyUpload(checkclientip,checkclientport)){
+					Packet answer(OP_UDPVERIFYUPA,0,OP_EMULEPROT);
+					SendTo(answer.GetUDPHeader(),2,port,host);
+d285 6
+d292 3
+a294 5
+			break;
+		}*/
+		case OP_UDPVERIFYUPA:{
+			g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+			break;
+d296 1
+a296 3
+		default:
+			g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+			return false;
+d298 2
+a299 3
+	return true;
+	}
+	catch(...){
+d301 1
+a301 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_UDPEXT));
+d319 1
+a319 1
+	// see if we have a ip already
+d328 1
+a328 1
+	// backup for send socket
+d331 3
+a333 2
+	if (sockAddr.sin_addr.s_addr == INADDR_NONE){
+		/* Resolve hostname "hostname" asynchronously */ 
+d337 5
+a341 6
+		DnsTaskHandle = WSAAsyncGetHostByName(
+			m_hWndResolveMessage,
+			WM_DNSLOOKUPDONE,
+			CT2A(lpszHostAddress),
+			DnsHostBuffer,
+			MAXGETHOSTSTRUCT);
+d343 2
+a344 1
+		if (DnsTaskHandle == 0){
+d354 2
+a355 1
+	else{
+d368 3
+a370 2
+	/* An asynchronous database routine completed. */
+	if (WSAGETASYNCERROR(lp) != 0){
+d379 3
+a381 2
+	if (m_SaveAddr.sin_addr.s_addr == INADDR_NONE){
+		// get the structure length
+d387 1
+a387 1
+		// also reset the receive buffer
+d390 2
+a391 1
+	if (m_pServer){
+d416 2
+a417 3
+	//eklmn: at this point m_pServer & m_pcSendBuffer must be already NULL,
+	//  but it seems, that sometime we not a able to get WM_DNSLOOKUPDONE before we send a new packet
+	//  therefore the existency of the objects will be checked
+d420 2
+a421 1
+	// eklmn: now we are trying to create a new objects
+d429 1
+a429 1
+		AsyncResolveDNS(m_pServer->GetAddress(),m_pServer->GetPort()+4);	// +4???
+d434 1
+a434 1
+		error->Delete();	//mf
+@
+
+
+1.40
+log
+@minor changes, fixes and improvements
+@
+text
+@a109 2
+	EMULE_TRY
+
+a244 4
+
+	EMULE_CATCH
+
+	return false;
+@
+
+
+1.39
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d108 1
+a108 1
+bool CUDPSocket::ProcessPacket(byte* pbytePacketBuf, uint16 uSize, byte uOpcode, TCHAR* host, uint16 uPort)
+d220 2
+a221 1
+	catch(CFileException* error){
+d225 15
+a239 1
+		return false;
+d241 2
+a242 1
+	catch(...){
+a244 1
+		return false;
+d246 1
+d253 1
+a253 1
+bool CUDPSocket::ProcessExtPacket(byte* pbytePacketBuf, uint16 size, byte opcode, TCHAR* host, uint16 port)
+@
+
+
+1.38
+log
+@Formatting, comments, and name changes.
+Removed old #defines
+@
+text
+@d93 11
+a103 10
+	char buffer[5000];
+	CString serverbuffer;
+	uint32 port;
+	int32 length = ReceiveFrom(buffer,5000,serverbuffer,port);
+	uint8 uProtocol = (uint8)buffer[0];
+	uint8 uOpcode = (uint8)buffer[1];
+	if ( uProtocol == OP_EDONKEYPROT && length != SOCKET_ERROR)
+		ProcessPacket(buffer+2,length-2,uOpcode,serverbuffer.GetBuffer(),port);
+	else if ((uProtocol == OP_EMULEPROT) && length != SOCKET_ERROR)
+		ProcessExtPacket(buffer+2,length-2,uOpcode,serverbuffer.GetBuffer(),port);
+d108 1
+a108 1
+bool CUDPSocket::ProcessPacket(char* pcPacketBuf, int16 uSize, uint8 uOpcode, TCHAR* host, uint16 uPort)
+d127 1
+a127 1
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.AddUDPResult(g_eMuleApp.m_pSearchList->ProcessUDPSearchAnswer(pcPacketBuf,uSize));
+d132 1
+a132 1
+				CSafeMemFile		sources((BYTE*)pcPacketBuf,uSize);
+d151 1
+a151 1
+				memcpy2(&dwChallenge,pcPacketBuf,4);
+d162 2
+a163 2
+				memcpy2(&dwCurUsersNumber,pcPacketBuf+4,4);
+				memcpy2(&dwCurFilesNumber,pcPacketBuf+8,4);
+d166 1
+a166 1
+					memcpy2(&dwMaxUsersNumber, pcPacketBuf+12,4);
+d170 2
+a171 2
+					memcpy2(&dwCurSoftFilesLimit, pcPacketBuf+16,4);
+					memcpy2(&dwCurHardFilesLimit, pcPacketBuf+20,4);
+d175 1
+a175 1
+					memcpy2(&dwUDPFlags, pcPacketBuf+24,4);
+d193 1
+a193 1
+				CSafeMemFile srvinfo((BYTE*)pcPacketBuf,uSize);
+d237 1
+a237 1
+bool CUDPSocket::ProcessExtPacket(char* packet, int16 size, int8 opcode, TCHAR* host, uint16 port)
+d249 2
+a250 2
+				memcpy2(&checkclientip,packet,4);
+				memcpy2(&checkclientport,packet,2);
+@
+
+
+1.37
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d144 2
+a145 2
+				// check minimal allowed size (contain a basic information)
+				if( uSize < 12)
+d148 1
+a148 1
+				uint32 dwChallenge;
+d151 1
+a151 1
+				if ( dwChallenge != pServer->GetChallenge() ) 
+d154 6
+a159 6
+				uint32 dwCurUsersNumber;
+				uint32 dwCurFilesNumber;
+				uint32 dwMaxUsersNumber = 0;
+				uint32 dwCurSoftFilesLimit = 0;
+				uint32 dwCurHardFilesLimit = 0;
+				uint32 dwUDPFlags = 0;
+d164 1
+d166 2
+a167 1
+				if( uSize >= 24 )
+d172 2
+a173 1
+				if( uSize >= 28 )
+d175 2
+a176 1
+				if( pServer )
+@
+
+
+1.36
+log
+@memleak fix
+@
+text
+@d286 1
+a286 1
+	memset2(&sockAddr,0,sizeof(sockAddr));
+d297 1
+a297 1
+		memset2(DnsHostBuffer, 0, sizeof(DnsHostBuffer));
+d348 1
+a348 1
+		memset2(DnsHostBuffer, 0, sizeof(DnsHostBuffer));
+@
+
+
+1.35
+log
+@some measurements to prevent memleaks
+@
+text
+@d363 2
+a364 1
+	if(m_pServer && m_pcSendBuffer){
+a365 4
+		delete[] m_pcSendBuffer;
+		m_pcSendBuffer = 0;
+		delete m_pServer;
+		m_pServer = 0;
+d367 2
+d375 6
+@
+
+
+1.34
+log
+@Fixes (Log2File, ServerList static names, Stop/Pause files)
+@
+text
+@d376 16
+a391 10
+	EMULE_TRY
+
+	m_pServer = new CServer(*pHostServer);
+	m_pcSendBuffer = new char[pPacket->m_dwSize+sizeof(UDP_Header_Struct)];
+	memcpy2(m_pcSendBuffer,pPacket->GetUDPHeader(),sizeof(UDP_Header_Struct));
+	memcpy2(m_pcSendBuffer+sizeof(UDP_Header_Struct),pPacket->m_pcBuffer,pPacket->m_dwSize);
+	m_dwSendBufLength = pPacket->m_dwSize+sizeof(UDP_Header_Struct);
+	AsyncResolveDNS(m_pServer->GetAddress(),m_pServer->GetPort()+4);	// +4???
+
+	EMULE_CATCH
+@
+
+
+1.33
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d204 2
+a205 1
+					pServer->SetListName(strName);
+@
+
+
+1.32
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d216 1
+a216 1
+		AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_UDP_MISCONF));
+d222 1
+a222 1
+		AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_UDP_MISCONF));
+d264 1
+a264 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_UDPEXT));
+@
+
+
+1.31
+log
+@Added some colors to the logs...
+@
+text
+@d216 1
+a216 1
+		AddDebugLogLine(false,_T("<COLOR=255,102,0>") + GetResString(IDS_ERR_UDP_MISCONF));
+d222 1
+a222 1
+		AddDebugLogLine(false,_T("<COLOR=255,102,0>") + GetResString(IDS_ERR_UDP_MISCONF));
+d264 1
+a264 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false,_T("<COLOR=255,102,0>") + GetResString(IDS_ERR_UDPEXT));
+@
+
+
+1.30
+log
+@File Type correction & related name changes
+@
+text
+@d216 1
+a216 1
+		AddDebugLogLine(false,IDS_ERR_UDP_MISCONF);
+d222 1
+a222 1
+		AddDebugLogLine(false,IDS_ERR_UDP_MISCONF);
+d264 1
+a264 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false,IDS_ERR_UDPEXT);
+@
+
+
+1.29
+log
+@Fix for max users wrong values
+@
+text
+@d126 1
+a126 1
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.AddUDPResult(g_eMuleApp.m_pSearchList->ProcessUDPSearchanswer(pcPacketBuf,uSize));
+@
+
+
+1.28
+log
+@1) compession support within communicatio client<->server
+2) extended UDP file search support
+@
+text
+@d164 1
+a164 1
+					memcpy2(&dwCurUsersNumber, pcPacketBuf+12,4);
+d177 1
+a177 1
+					pServer->SetMaxUsers( dwCurUsersNumber );
+@
+
+
+1.27
+log
+@Formatting, comments, and name changes.
+... and a few bug fixes.
+@
+text
+@d53 1
+a53 1
+
+d62 1
+a62 1
+
+d75 1
+a75 1
+
+d88 1
+a88 1
+
+d97 6
+a102 4
+	if ((uint8)buffer[0] == OP_EDONKEYPROT && length != SOCKET_ERROR)
+		ProcessPacket(buffer+2,length-2,buffer[1],serverbuffer.GetBuffer(),port);
+	else if (((uint8)buffer[0] == OP_EMULEPROT) && length != SOCKET_ERROR)
+		ProcessExtPacket(buffer+2,length-2,buffer[1],serverbuffer.GetBuffer(),port);
+d106 2
+a107 2
+
+bool CUDPSocket::ProcessPacket(char* packet, int16 size, int8 opcode, TCHAR* host, uint16 port)
+d111 8
+a118 6
+	try{
+		CServer* update;
+		update = g_eMuleApp.m_pServerList->GetServerByAddress( host, port-4 );
+		if( update ){
+			update->ResetFailedCount();
+			g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*update );
+d120 7
+a126 4
+		switch(opcode){
+			case OP_GLOBSEARCHRES:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+				g_eMuleApp.m_pdlgEmule->m_dlgSearch.AddUDPResult(g_eMuleApp.m_pSearchList->ProcessUDPSearchanswer(packet,size));
+d131 2
+a132 4
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+
+				CSafeMemFile		sources((BYTE*)packet,size);
+				uchar				fileid[16];
+d135 3
+a137 2
+				if (CPartFile* file = g_eMuleApp.m_pDownloadQueue->GetFileByID(fileid))
+					file->AddSources(sources,inet_addr(host),port);
+d142 27
+a168 16
+ 			case OP_GLOBSERVSTATRES:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+				if( size < 12 || update == NULL )
+					return true;
+				uint32 challenge;
+				uint32 cur_user;
+				uint32 cur_files;
+				memcpy2(&challenge,packet,4);
+				if ( challenge != update->GetChallenge() ) return true; 
+				memcpy2(&cur_user,packet+4,4);
+				memcpy2(&cur_files,packet+8,4);
+				uint32 cur_maxusers = 0;
+				uint32 cur_softfiles = 0;
+				uint32 cur_hardfiles = 0;
+				if (size >= 16) {
+					memcpy2(&cur_maxusers, packet+12,4);
+d170 12
+a181 12
+				if( size >= 24 ){
+					memcpy2(&cur_softfiles, packet+16,4);
+					memcpy2(&cur_hardfiles, packet+20,4);
+				}
+				if( update ){
+					update->SetPing( ::GetTickCount() - update->GetLastPinged() );
+					update->SetUserCount( cur_user );
+					update->SetFileCount( cur_files );
+					update->SetMaxUsers( cur_maxusers );
+					update->SetSoftMaxFiles( cur_softfiles );
+					update->SetHardMaxFiles( cur_hardfiles );
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*update );
+d186 3
+a188 3
+ 			case OP_SERVER_DESC_RES:{
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+				CSafeMemFile srvinfo((BYTE*)packet,size);
+d190 2
+a191 2
+				uint16 stringlen;
+				srvinfo.Read(&stringlen,2);
+d193 2
+a194 2
+				srvinfo.Read(strName.GetBuffer(stringlen),stringlen);
+				strName.ReleaseBuffer(stringlen);
+d196 1
+a196 1
+				srvinfo.Read(&stringlen,2);
+d198 2
+a199 2
+				srvinfo.Read(strDesc.GetBuffer(stringlen),stringlen);
+				strDesc.ReleaseBuffer(stringlen);
+d201 5
+a205 4
+				if(update){
+					update->SetDescription(strDesc);
+					update->SetListName(strName);
+					g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer( *update );
+a209 1
+				g_eMuleApp.m_pDownloadQueue->AddDownDataOverheadOther(size);
+d230 1
+a230 1
+
+d272 1
+a272 1
+
+d322 1
+a322 1
+
+d357 1
+a357 1
+
+@
+
+
+1.26
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d122 2
+a123 1
+			case OP_GLOBFOUNDSOURCES:{
+d125 4
+a128 2
+				CSafeMemFile sources((BYTE*)packet,size);
+				uchar fileid[16];
+@
+
+
+1.25
+log
+@Shouldn't try programming sober. Sorry.
+@
+text
+@d223 2
+a224 2
+				memcpy(&checkclientip,packet,4);
+				memcpy(&checkclientport,packet,2);
+d265 1
+a265 1
+	memset(&sockAddr,0,sizeof(sockAddr));
+d276 1
+a276 1
+		memset(DnsHostBuffer, 0, sizeof(DnsHostBuffer));
+d327 1
+a327 1
+		memset(DnsHostBuffer, 0, sizeof(DnsHostBuffer));
+@
+
+
+1.24
+log
+@Formatting, comments, and name changes.
+@
+text
+@d58 1
+a58 1
+	cur_server = 0;
+d67 2
+a68 2
+	if (cur_server)
+		delete cur_server;
+d289 2
+a290 2
+			delete cur_server;
+			cur_server = 0;
+d314 3
+a316 3
+		if (cur_server)
+			delete cur_server;
+		cur_server = 0;
+d329 2
+a330 2
+	if (cur_server){
+		CServer* update = g_eMuleApp.m_pServerList->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort());
+d342 1
+a342 1
+	if(cur_server && m_pcSendBuffer){
+d346 2
+a347 2
+		delete cur_server;
+		cur_server = 0;
+d357 1
+a357 1
+	pServer = new CServer(*pHostServer);
+d362 1
+a362 1
+	AsyncResolveDNS(pServer->GetAddress(),pServer->GetPort()+4);	// +4???
+@
+
+
+1.23
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d24 1
+d343 1
+a343 1
+		SendTo(m_pcSendBuffer,sendblen,(SOCKADDR*)&m_SaveAddr, sizeof(m_SaveAddr));
+d352 2
+a353 2
+
+void CUDPSocket::SendPacket(Packet* packet,CServer* host)
+d357 6
+a362 6
+	cur_server = new CServer(*host);
+	m_pcSendBuffer = new char[packet->m_dwSize+2];
+	memcpy2(m_pcSendBuffer,packet->GetUDPHeader(),2);
+	memcpy2(m_pcSendBuffer+2,packet->m_pcBuffer,packet->m_dwSize);
+	sendblen = packet->m_dwSize+2;
+	AsyncResolveDNS(cur_server->GetAddress(),cur_server->GetPort()+4);
+d366 1
+@
+
+
+1.22
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d23 1
+a23 1
+#include "memcpy_amd.h"
+d158 2
+a159 2
+					update->SetSoftFiles( cur_softfiles );
+					update->SetHardFiles( cur_hardfiles );
+@
+
+
+1.21
+log
+@Formatting, comments, and name changes.
+@
+text
+@d56 1
+a56 1
+	sendbuffer = 0;
+d68 2
+a69 2
+	if (sendbuffer)
+		delete[] sendbuffer;
+d286 2
+a287 2
+			delete[] sendbuffer;
+			sendbuffer = 0;
+d310 3
+a312 3
+		if (sendbuffer)
+			delete[] sendbuffer;
+		sendbuffer = 0;
+d341 4
+a344 4
+	if(cur_server && sendbuffer){
+		SendTo(sendbuffer,sendblen,(SOCKADDR*)&m_SaveAddr, sizeof(m_SaveAddr));
+		delete[] sendbuffer;
+		sendbuffer = 0;
+d357 4
+a360 4
+	sendbuffer = new char[packet->size+2];
+	memcpy2(sendbuffer,packet->GetUDPHeader(),2);
+	memcpy2(sendbuffer+2,packet->pBuffer,packet->size);
+	sendblen = packet->size+2;
+@
+
+
+1.20
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d113 1
+a113 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*update );
+d160 1
+a160 1
+					g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer(*update );
+d183 1
+a183 1
+					g_eMuleApp.m_pdlgEmule->m_wndServer.serverlistctrl.RefreshServer( *update );
+@
+
+
+1.19
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d139 1
+a139 2
+				#ifndef AMD
+				memcpy(&challenge,packet,4);
+d141 2
+a142 8
+				memcpy(&cur_user,packet+4,4);
+				memcpy(&cur_files,packet+8,4);
+				#else
+				memcpy_amd(&challenge,packet,4);
+				if ( challenge != update->GetChallenge() ) return true; 
+				memcpy_amd(&cur_user,packet+4,4);
+				memcpy_amd(&cur_files,packet+8,4);
+				#endif
+d147 1
+a147 5
+					#ifndef AMD
+					memcpy(&cur_maxusers, packet+12,4);
+					#else
+					memcpy_amd(&cur_maxusers, packet+12,4);
+					#endif
+d150 2
+a151 7
+					#ifndef AMD
+					memcpy(&cur_softfiles, packet+16,4);
+					memcpy(&cur_hardfiles, packet+20,4);
+					#else
+					memcpy_amd(&cur_softfiles, packet+16,4);
+					memcpy_amd(&cur_hardfiles, packet+20,4);
+					#endif
+d322 1
+a322 5
+		#ifndef AMD
+		memcpy(lphost, DnsHostBuffer, iBufLen);
+		#else
+		memcpy_amd(lphost, DnsHostBuffer, iBufLen);
+		#endif
+d358 2
+a359 7
+	#ifndef AMD
+	memcpy(sendbuffer,packet->GetUDPHeader(),2);
+	memcpy(sendbuffer+2,packet->pBuffer,packet->size);
+	#else
+	memcpy_amd(sendbuffer,packet->GetUDPHeader(),2);
+	memcpy_amd(sendbuffer+2,packet->pBuffer,packet->size);
+	#endif
+@
+
+
+1.18
+log
+@added columns Soft/Hard Files Limit and Version in server window (merge from official)
+@
+text
+@d58 1
+a58 1
+	serverconnect = in_serverconnect;
+d110 1
+a110 1
+		update = theApp.serverlist->GetServerByAddress( host, port-4 );
+d113 1
+a113 1
+			theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*update );
+d117 2
+a118 2
+				theApp.downloadqueue->AddDownDataOverheadOther(size);
+				theApp.emuledlg->searchwnd.AddUDPResult(theApp.searchlist->ProcessUDPSearchanswer(packet,size));
+d122 1
+a122 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size);
+d126 1
+a126 1
+				if (CPartFile* file = theApp.downloadqueue->GetFileByID(fileid))
+d129 1
+a129 1
+					theApp.serverlist->CancelUDPBroadcast();				
+d133 1
+a133 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size);
+d176 1
+a176 1
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer(*update );
+d182 1
+a182 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size);
+d199 1
+a199 1
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( *update );
+d204 1
+a204 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size);
+d240 1
+a240 1
+				if (theApp.clientlist->VerifyUpload(checkclientip,checkclientport)){
+d248 1
+a248 1
+			theApp.downloadqueue->AddDownDataOverheadOther(size);
+d252 1
+a252 1
+			theApp.downloadqueue->AddDownDataOverheadOther(size);
+d259 1
+a259 1
+		theApp.emuledlg->AddDebugLogLine(false,IDS_ERR_UDPEXT);
+d349 1
+a349 1
+		CServer* update = theApp.serverlist->GetServerByAddress(cur_server->GetAddress(),cur_server->GetPort());
+@
+
+
+1.17
+log
+@unicode cleanup
+@
+text
+@d151 2
+d160 9
+d174 2
+a181 2
+				if(!update)
+					return true;
+d184 1
+d187 4
+a190 3
+				TCHAR* name = new TCHAR[stringlen+1];
+				srvinfo.Read(name,stringlen);
+				name[stringlen] = 0;
+d192 3
+a194 6
+				TCHAR* desc = new TCHAR[stringlen+1];
+				srvinfo.Read(desc,stringlen);
+				desc[stringlen] = 0;
+				
+				update->SetDescription(desc);
+				update->SetListName(name);
+d196 5
+a200 2
+				delete name;
+				delete desc;				
+@
+
+
+1.16
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d104 1
+a104 1
+bool CUDPSocket::ProcessPacket(char* packet, int16 size, int8 opcode, char* host, uint16 port)
+d175 1
+a175 1
+				char* name = new char[stringlen+1];
+d179 1
+a179 1
+				char* desc = new char[stringlen+1];
+d213 1
+a213 1
+bool CUDPSocket::ProcessExtPacket(char* packet, int16 size, int8 opcode, char* host, uint16 port)
+d280 1
+d284 1
+a284 1
+			lpszHostAddress,
+d294 1
+a294 1
+			AfxMessageBox("LOOKUPERROR DNSTASKHANDLE = 0");
+@
+
+
+1.15
+log
+@Preparing for new sockets
+@
+text
+@d23 1
+d137 3
+d141 1
+a141 3
+				if( challenge != update->GetChallenge() )
+					return true; 
+				uint32 cur_user;
+a142 1
+				uint32 cur_files;
+d144 6
+d152 1
+d154 3
+d324 1
+d326 3
+d364 1
+d367 4
+@
+
+
+1.14
+log
+@converted to new logger methods
+@
+text
+@d30 2
+d356 2
+@
+
+
+1.13
+log
+@code cleanup
+@
+text
+@d185 1
+a185 1
+		AddDebugLogLine(false,GetResString(IDS_ERR_UDP_MISCONF));
+d191 1
+a191 1
+		AddDebugLogLine(false,GetResString(IDS_ERR_UDP_MISCONF));
+d233 1
+a233 1
+		theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_UDPEXT));
+@
+
+
+1.12
+log
+@small optimisations in server list handling
+@
+text
+@d120 1
+a120 1
+				CSafeMemFile* sources = new CSafeMemFile((BYTE*)packet,size);
+d122 1
+a122 1
+				sources->Read(fileid,16);
+d126 1
+a126 2
+					theApp.serverlist->CancelUDPBroadcast();
+				delete sources;
+d159 1
+a159 1
+				CSafeMemFile* srvinfo = new CSafeMemFile((BYTE*)packet,size);
+d161 1
+a161 1
+				srvinfo->Read(&stringlen,2);
+d163 1
+a163 1
+				srvinfo->Read(name,stringlen);
+d165 1
+a165 1
+				srvinfo->Read(&stringlen,2);
+d167 1
+a167 1
+				srvinfo->Read(desc,stringlen);
+d169 4
+a172 4
+				if(update){
+					update->SetDescription(desc);
+					update->SetListName(name);
+				}
+d174 1
+a174 2
+				delete desc;
+				delete srvinfo;
+@
+
+
+1.11
+log
+@code cleanup
+@
+text
+@d110 1
+a110 1
+			theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( update );
+d151 1
+a151 1
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( update );
+@
+
+
+1.10
+log
+@minor fixes and improvements
+@
+text
+@d347 1
+a347 1
+	cur_server = new CServer(host);
+@
+
+
+1.9
+log
+@Upgrade to 0.28a
+@
+text
+@d118 1
+a118 1
+			case OP_GLOBFOUNDSORUCES:{
+d156 23
+@
+
+
+1.8
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d79 1
+a79 3
+	// By Maverick Added CUDPSocketBaseClass 
+	// to make it easier to change BaseSocket
+	return CUDPSocketBaseClass::Create(0,SOCK_DGRAM,FD_READ);
+a81 1
+
+d105 6
+a110 11
+	theApp.downloadqueue->AddDownDataOverheadOther(size);
+	CServer* update;
+	update = theApp.serverlist->GetServerByAddress( host, port-4 );
+	if( update ){
+		update->ResetFailedCount();
+		theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( update );
+	}
+	switch(opcode){
+		case OP_GLOBSEARCHRES:{
+			theApp.emuledlg->searchwnd.AddUDPResult(theApp.searchlist->ProcessUDPSearchanswer(packet,size));
+			break;
+d112 17
+a128 25
+		case OP_GLOBFOUNDSORUCES:{
+			CSafeMemFile* sources = new CSafeMemFile((BYTE*)packet,size);
+			uchar fileid[16];
+			sources->Read(fileid,16);
+			if (CPartFile* file = theApp.downloadqueue->GetFileByID(fileid))
+				file->AddSources(sources,inet_addr(host),port);
+			else
+				theApp.serverlist->CancelUDPBroadcast();
+			delete sources;
+			break;
+		}
+ 		case OP_GLOBSERVSTATRES:{
+			if( size < 12 || update == NULL )
+				return true;
+			uint32 challenge;
+			memcpy(&challenge,packet,4);
+			if( challenge != update->GetChallenge() )
+				return true; 
+			uint32 cur_user;
+			memcpy(&cur_user,packet+4,4);
+			uint32 cur_files;
+			memcpy(&cur_files,packet+8,4);
+			uint32 cur_maxusers = 0;
+			if (size >= 16) {
+				memcpy(&cur_maxusers, packet+12,4);
+d130 24
+a153 6
+			if( update ){
+				update->SetPing( ::GetTickCount() - update->GetLastPinged() );
+				update->SetUserCount( cur_user );
+				update->SetFileCount( cur_files );
+				update->SetMaxUsers( cur_maxusers );
+				theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( update );
+d155 4
+a158 1
+			break;
+d160 12
+a171 3
+
+		default:
+			return false;
+a172 1
+	return true;
+d183 1
+a183 1
+	theApp.downloadqueue->AddDownDataOverheadOther(size);
+d201 1
+d205 1
+d209 6
+@
+
+
+1.8.8.1
+log
+@27a partial merge
+@
+text
+@a155 22
+ 			case OP_SERVER_DESC_RES:{
+				if(!update)
+					return true;
+				CSafeMemFile* srvinfo = new CSafeMemFile((BYTE*)packet,size);
+				uint16 stringlen;
+				srvinfo->Read(&stringlen,2);
+				char* name = new char[stringlen+1];
+				srvinfo->Read(name,stringlen);
+				name[stringlen] = 0;
+				srvinfo->Read(&stringlen,2);
+				char* desc = new char[stringlen+1];
+				srvinfo->Read(desc,stringlen);
+				desc[stringlen] = 0;
+				if(update){
+					update->SetDescription(desc);
+					update->SetListName(name);
+				}
+				delete name;
+				delete desc;
+				delete srvinfo;
+				break;
+			}
+@
+
+
+1.7
+log
+@overhead parameters change
+@
+text
+@d24 6
+@
+
+
+1.6
+log
+@Merge from plus26based branch (without new sockets code yet)
+@
+text
+@d102 1
+a102 1
+	theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+d164 1
+a164 1
+	theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+@
+
+
+1.5
+log
+@updated to .25b codebase
+@
+text
+@d102 1
+a102 1
+	theApp.downloadqueue->AddDownDataRateMSOverhead(size, 224);
+d164 1
+a164 1
+	theApp.downloadqueue->AddDownDataRateMSOverhead(size, 224);
+a296 1
+	theApp.uploadqueue->AddUpDataRateMSOverhead(packet->size, 224);
+@
+
+
+1.5.4.1
+log
+@initial upgrade to .26
+@
+text
+@d102 1
+a110 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+a114 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+a125 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+a150 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+d164 1
+a181 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+a184 1
+				theApp.downloadqueue->AddDownDataOverheadOther(size, 0);
+d297 1
+@
+
+
+1.5.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.4
+log
+@*** empty log message ***
+@
+text
+@a274 1
+
+@
+
+
+1.3
+log
+@port to .25 b codebase...
+@
+text
+@d31 6
+a36 2
+LRESULT CUDPSocketWnd::OnDNSLookupDone(WPARAM wParam,LPARAM lParam){
+	m_pOwner->DnsLookupDone(wParam,lParam);
+d38 4
+d44 2
+a45 1
+CUDPSocket::CUDPSocket(CServerConnect* in_serverconnect){
+d53 4
+a56 1
+CUDPSocket::~CUDPSocket(){
+d62 2
+d66 4
+a69 1
+bool  CUDPSocket::Create(){
+d76 4
+d82 4
+a85 1
+void CUDPSocket::OnReceive(int nErrorCode){
+d95 1
+d98 26
+a123 8
+bool CUDPSocket::ProcessPacket(char* packet, int16 size, int8 opcode, char* host, uint16 port){
+	try{
+		theApp.downloadqueue->AddDownDataRateMSOverhead(size, 224);
+		CServer* update;
+		update = theApp.serverlist->GetServerByAddress( host, port-4 );
+		if( update ){
+			update->ResetFailedCount();
+			theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( update );
+d125 14
+a138 4
+		switch(opcode){
+			case OP_GLOBSEARCHRES:{
+				theApp.emuledlg->searchwnd.AddUDPResult(theApp.searchlist->ProcessUDPSearchanswer(packet,size));
+				break;
+d140 6
+a145 34
+			case OP_GLOBFOUNDSORUCES:{
+				CSafeMemFile* sources = new CSafeMemFile((BYTE*)packet,size);
+				uchar fileid[16];
+				sources->Read(fileid,16);
+				if (CPartFile* file = theApp.downloadqueue->GetFileByID(fileid))
+					file->AddSources(sources,inet_addr(host),port);
+				else
+					theApp.serverlist->CancelUDPBroadcast();
+				delete sources;
+				break;
+			}
+ 			case OP_GLOBSERVSTATRES:{
+				if( size < 12 || update == NULL )
+					return true;
+				uint32 challenge;
+				memcpy(&challenge,packet,4);
+				if( challenge != update->GetChallenge() )
+					return true; 
+				uint32 cur_user;
+				memcpy(&cur_user,packet+4,4);
+				uint32 cur_files;
+				memcpy(&cur_files,packet+8,4);
+				uint32 cur_maxusers = 0;
+				if (size >= 16) {
+					memcpy(&cur_maxusers, packet+12,4);
+				}
+				if( update ){
+					update->SetPing( ::GetTickCount() - update->GetLastPinged() );
+					update->SetUserCount( cur_user );
+					update->SetFileCount( cur_files );
+					update->SetMaxUsers( cur_maxusers );
+					theApp.emuledlg->serverwnd.serverlistctrl.RefreshServer( update );
+				}
+				break;
+d147 2
+d150 2
+a151 9
+			default:
+				return false;
+		}
+		return true;
+	}
+	catch(...){
+		OUTPUT_DEBUG_TRACE();
+		theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_UDP_MISCONF));
+		return false;
+d153 5
+d160 17
+a176 16
+bool CUDPSocket::ProcessExtPacket(char* packet, int16 size, int8 opcode, char* host, uint16 port){
+	try{
+		theApp.downloadqueue->AddDownDataRateMSOverhead(size, 224);
+		switch(opcode){
+			/*
+			case OP_UDPVERIFYUPREQ:{
+				ASSERT (size == 6);
+				if (size == 6){
+					uint32 checkclientip = 0;
+					uint16 checkclientport = 0;
+					memcpy(&checkclientip,packet,4);
+					memcpy(&checkclientport,packet,2);
+					if (theApp.clientlist->VerifyUpload(checkclientip,checkclientport)){
+						Packet answer(OP_UDPVERIFYUPA,0,OP_EMULEPROT);
+						SendTo(answer.GetUDPHeader(),2,port,host);
+					}
+a177 4
+				break;
+			}*/
+			case OP_UDPVERIFYUPA:{
+				break;
+d179 4
+a182 2
+			default:
+				return false;
+d184 2
+a185 6
+		return true;
+	}
+	catch(...){
+		OUTPUT_DEBUG_TRACE();
+		theApp.emuledlg->AddDebugLogLine(false,GetResString(IDS_ERR_UDPEXT));
+		return false;
+d187 5
+d194 4
+a197 1
+void CUDPSocket::AsyncResolveDNS(LPCTSTR lpszHostAddress, UINT nHostPort){
+d239 2
+d243 4
+a246 1
+void CUDPSocket::DnsLookupDone(WPARAM wp, LPARAM lp){
+d273 4
+a276 2
+	SendBuffer();
+}
+d279 4
+a282 1
+void CUDPSocket::SendBuffer(){
+d290 2
+d294 4
+a297 1
+void CUDPSocket::SendPacket(Packet* packet,CServer* host){
+d305 2
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d75 1
+a75 1
+
+d130 1
+a130 1
+		theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_UDP_MISCONF));
+d137 1
+d164 1
+a164 1
+		theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_UDPEXT));
+d255 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d56 3
+a58 1
+	return CAsyncSocket::Create(0,SOCK_DGRAM,FD_READ);
+@
+

@@ -1,0 +1,101 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.3
+date	2003.12.19.11.05.30;	author katsyonak;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.18.13.35.30;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.29.17.24.23;	author katsyonak;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Got rid of LogEditCtrl + Some minor changes
+@
+text
+@#pragma once
+
+class CLogEditCtrl : public CEdit
+{
+	DECLARE_DYNAMIC(CLogEditCtrl)
+public:
+	CLogEditCtrl();
+	virtual ~CLogEditCtrl();
+
+	void Init(LPCTSTR pszTitle);
+	void Localize();
+
+	void AddEntry(LPCTSTR pszMsg);
+	void Reset();
+	CString GetLastLogEntry();
+	CString GetAllLogEntries();
+
+protected:
+	bool m_bRichEdit;
+	CTitleMenu m_LogMenu;
+	int m_iMaxLogMessages;
+	bool m_bAutoScroll;
+	CStringArray m_astrBuff;
+	bool m_bNoPaint;
+	bool m_bEnErrSpace;
+
+	void AddLine(LPCTSTR pszMsg);
+	void SelectAllItems();
+	void CopySelectedItems();
+	void SaveLogToDisk();
+	int GetMaxSize();
+	void SafeAddLine(int nPos, LPCTSTR pszLine, int& nStartChar, int& nEndChar);
+	void FlushBuffer();
+	void ScrollToLastLine();
+
+	virtual LRESULT WindowProc(UINT message, WPARAM wParam, LPARAM lParam);
+
+	DECLARE_MESSAGE_MAP()
+	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
+	virtual BOOL OnCommand(WPARAM wParam, LPARAM lParam);
+	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
+	afx_msg void OnEnErrspace();
+	afx_msg void OnEnMaxtext();
+};
+@
+
+
+1.2
+log
+@Converted IRC/Messages to Rich Edit  (added copy text to clipboard & save logs with colors as RTF)
+@
+text
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d30 1
+@
+

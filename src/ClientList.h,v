@@ -1,0 +1,1063 @@
+head	1.37;
+access;
+symbols
+	PublicRelease_1_2e:1.36
+	Interim_Release_1-2e_RC1:1.36
+	PublicRelease_1_2d:1.36
+	Interim_Release_1-2d_RC1:1.36
+	Interim_Release_1-2d_beta1:1.35
+	PublicRelease_1_2c:1.35
+	Interim_Release_1-2c_RC1:1.35
+	Interim_Release_1-2c_beta1:1.35
+	PublicRelease_1_2b:1.34
+	Interim_Release_1-2b_RC1:1.34
+	PublicRelease_1_2a:1.31
+	Interim_Release_1-2a_RC1:1.31
+	Interim_Release_1-2a_beta2:1.31
+	Interim_Release_1-2a_beta1:1.31
+	PublicRelease_1_2:1.31
+	Interim_Release_1-2_RC1:1.31
+	Interim_Release_1-2_beta1:1.31
+	PublicRelease_1_1g:1.31
+	Interim_Release_1-1g_RC3:1.31
+	Interim_Release_1-1g_RC2:1.30
+	Interim_Release_1-1g_RC1:1.30
+	Interim_Release_1-1g_beta2:1.30
+	Interim_Release_1-1g_beta1:1.29
+	PublicRelease_1_1f:1.28
+	Interim_Release_1-1f_RC1:1.28
+	PublicRelease_1_1e:1.28
+	Interim_Release_1-1e_RC2:1.28
+	Interim_Release_1-1e_RC1:1.28
+	Interim_Release_1-1e_beta1:1.28
+	PublicRelease_1_1d:1.28
+	Interim_Release_1-1d_RC1:1.28
+	PublicRelease_1_1c:1.28
+	Interim_Release_1-1c_RC1:1.28
+	Interim_Release_1-1c_beta2:1.28
+	Interim_Release_1-1c_beta1:1.27
+	PublicRelease_1_1b:1.27
+	Interim_Release_1-1b_RC1:1.27
+	PublicRelease_1_1a:1.26
+	Interim_Release_1-1a_RC2:1.26
+	Interim_Release_1-1a_RC1:1.26
+	Interim_Release_1-1a_beta2:1.25
+	Interim_Release_1-1a_beta1:1.25
+	PublicRelease_1_1:1.25
+	Interim_Release_1-1_beta1:1.25
+	PublicRelease_1o:1.25
+	Interim_Release_1o_RC1:1.25
+	Interim_Release_1o_beta1:1.25
+	PublicRelease_1n:1.25
+	Interim_Release_1n_RC2:1.25
+	Interim_Release_1n_RC1:1.25
+	Interim_Release_1n_beta2:1.25
+	Interim_Release_1n_beta1:1.24
+	PublicRelease_1m:1.23
+	Interim_Release_1m_beta1:1.23
+	PublicRelease_1l:1.23
+	Interim_Release_1l_RC3:1.23
+	Interim_Release_1l_RC2:1.23
+	Interim_Release_1l_RC1:1.23
+	Interim_Release_1l_beta2:1.23
+	Interim_Release_1l_beta1:1.23
+	PublicRelease_1k:1.20
+	Interim_Release_1k_RC4:1.20
+	Interim_1k_RC3:1.20
+	Interim_1k_RC2:1.20
+	Interim_Release_1k_RC1:1.20
+	Interim_Release_1k_beta5:1.19
+	Intrerim_Release_1k_beta4:1.19
+	Interim_Release_1k_beta1:1.18
+	PublicRelease_1j:1.18
+	Interim_Release_1J_RC3:1.18
+	Interim_Release_1j_RC3:1.18
+	Interim_Release_1j_RC2:1.18
+	Interim_Release_1j_RC1:1.18
+	Interim_Release_1j_beta2:1.18
+	Interim_Release_1j_beta1:1.18
+	PublicRelease_1i:1.18
+	Interim_Release_1i_RC6:1.18
+	Interim_Release_1i_RC3:1.18
+	Interim_Release_1i_RC2:1.18
+	Interim_Release_1i_RC1:1.18
+	Interim_Release_1i_beta3:1.18
+	Interim_Release_1i_beta2:1.16
+	Interim_Release_1i_beta1:1.13
+	PublicRelease_1h:1.11
+	Interim_Release_1h_rc2:1.11
+	Interim_Release_1h_RC1:1.11
+	Interim_Release_1h_beta2:1.11
+	Interim_Release_1h_beta1_now:1.11
+	Interim_Release_1h_beta1:1.11
+	PublicRelease_1g:1.10
+	Interim_Release_1g_RC6_Final:1.10
+	Interim_Release_1g_RC6:1.10
+	Interim_Release_1g_RC5:1.10
+	Interim_Release_1g_RC4:1.10
+	Interim_Release_1g_RC3:1.10
+	Interim_Release_1g_beta2:1.9
+	Interim_Release_1g_beta1:1.9
+	Interim_Release_1f_RC4:1.8
+	Interim_Release_1f_RC3:1.8
+	Interim_Release_1f_RC2:1.7
+	Interim_Release_1f_RC:1.7
+	Interim_Release_1f_beta2:1.7
+	Interim_Release_1f_beta1:1.7
+	PublicRelease_1e:1.7
+	Interim_Release_1e_RC2:1.7
+	Interim_Release_1e_RC:1.7
+	Interim_Release_1e_beta3:1.7
+	Interim_Release_1e_beta2:1.7
+	Interim_Release_1e_beta2_before_kuchin:1.7
+	Interim_Release_1e_beta1:1.7
+	PublicRelease_1c:1.7
+	featurestest:1.7.0.8
+	Interim_Release_1c_RC:1.7
+	Interim_Release_1c_beta2:1.7
+	Interim_Release_1c_beta1:1.7
+	threaded_downloadqueue:1.7.0.6
+	PublicRelease_1b:1.7
+	Interim_Release_1b_beta2:1.7
+	Interim_Release_1b_beta1:1.7
+	proxydeadlake:1.7.0.4
+	PublicRelease_1a:1.7
+	Interim_Release_1a_beta2:1.7
+	BerkeleyDb:1.7.0.2
+	Interim_Release_1a_beta1:1.7
+	PublicRelease_1:1.7
+	goldfish:1.7
+	eMulePlus_1_RC2:1.7
+	eMulePlus_26b_1RC1:1.7
+	PreRelease_26b_i0e:1.7
+	before_26d_merge:1.7
+	Interim_Release_26b_i0d:1.6
+	Interim_Release_26b_i0c:1.4
+	Interim_Release_26b_i0b:1.4
+	Interim_Release_26b_i0a:1.4
+	systraydlg:1.3.0.6
+	plus26based:1.3.0.4
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.3.2.1
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.37
+date	2009.08.01.01.45.19;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2008.03.03.05.24.04;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2007.02.17.10.40.13;	author eklmn;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2007.01.17.07.42.41;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2007.01.11.19.57.04;	author eklmn;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2006.11.10.15.03.54;	author eklmn;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2005.12.13.01.58.02;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.09.29.03.35.09;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.08.21.21.26.40;	author eklmn;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.02.13.22.57.54;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.12.21.06.38.35;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.11.27.05.01.39;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.08.03.03.48.58;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.07.18.12.20.31;	author eklmn;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.05.04.17.51.07;	author netwolf1;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.05.02.15.51.35;	author katsyonak;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.04.23.22.13.42;	author katsyonak;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.03.27.17.22.13;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.02.25.17.58.54;	author kush_eplus;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.10.29.14.14.17;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.10.26.12.02.50;	author eklmn;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.10.20.15.49.35;	author eklmn;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.09.24.20.37.29;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.08.10.04.42.50;	author eklmn;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.09.15.14.37;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.05.30.21.26.57;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.05.20.16.30.40;	author netwolf1;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.13.20.56.40;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.12.20.35.03;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.12.18.04.00;	author lord_kiron;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.06.21.13.55;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.24.22.07.47;	author maverick65;	state Exp;
+branches
+	1.3.2.1
+	1.3.4.1;
+next	1.2;
+
+1.2
+date	2003.01.22.14.14.22;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.07.05;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.53.59;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.4.1
+date	2003.02.05.01.58.41;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.37
+log
+@Reduced H-file dependency.
+@
+text
+@//	this file is part of eMule
+//	Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "loggable.h"
+
+typedef CMap<uint32, uint32, uint32, uint32>	ClientInfoList;
+
+class CClientReqSocket;
+class CUpDownClient;
+
+class ClientsData
+{
+public:
+	ClientInfoList* m_pClients;
+
+	ClientsData()
+	{
+	//	+1 so on SO_LAST position we hold all clients data
+		m_pClients	= new ClientInfoList[SO_LAST + 1];
+	};
+	virtual ~ClientsData()
+	{
+		if (m_pClients)
+		{
+			for (int i = 0; i < SO_LAST + 1; i++)
+			{
+				m_pClients[i].RemoveAll();
+			}
+			delete []m_pClients;
+		}
+	}
+};
+
+class CClientList : public CLoggable
+{
+	friend class CClientListCtrl;
+
+public:
+	CClientList();
+	~CClientList();
+
+	void	SetClientListCtrl(CClientListCtrl *pctlClientList)
+	{
+		m_pctlClientList = pctlClientList;
+	}
+
+	bool	AddClient(CUpDownClient* toadd, bool bSkipDupTest = false);
+#ifdef OLD_SOCKETS_ENABLED
+
+	bool	AttachToAlreadyKnown(CUpDownClient** client, CClientReqSocket* sender);
+#endif //OLD_SOCKETS_ENABLED
+
+	void	RemoveClient(CUpDownClient *pClient);
+	void	UpdateClient(CUpDownClient *pClient);
+	void	DeleteAll();
+//	Statistical functions
+	void	GetStatistics(uint32 &totalclient, uint32 stats[], ClientsData *pData, uint32 &totalMODs, uint32 *pdwTotalPlusMODs, CMap<POSITION, POSITION, uint32, uint32> *MODs, CMap<POSITION, POSITION, uint32, uint32> *PlusMODs, CMap<int, int, uint32, uint32> *pCountries);
+	uint32	GetA4AFSourcesCount();
+	int	GetClientCount()
+	{
+		return m_clientList.GetCount();
+	}
+
+	void GetMODType(POSITION pos_in, CString *pstrOut)
+	{
+		if (pos_in != 0)
+			*pstrOut = liMODsTypes.GetAt(pos_in);
+		else
+			*pstrOut = _T("");
+	}
+
+	bool	IsValidClient(CUpDownClient* tocheck);
+	CUpDownClient* FindClientByIP(uint32 clientip, uint16 port);
+	CUpDownClient* FindClientByUserHash(uchar* clienthash);
+	CUpDownClient* FindClient(uint32 dwUserIDHyb, uint16 uUserPort, uint32 dwSrvIP, uint16 uSrvPort, uchar *pbyteUserHash);
+	
+	void	GetClientListByFileID(CTypedPtrList<CPtrList, CUpDownClient*> *pClientList, const uchar *fileid);
+#ifdef OLD_SOCKETS_ENABLED
+
+	void	Debug_SocketDeleted(CClientReqSocket* deleted);
+#endif //OLD_SOCKETS_ENABLED
+	void	ResetIP2Country();
+
+	void	UpdateBanCounters();
+
+private:
+	typedef CTypedPtrList<CPtrList, CUpDownClient*>	ClientList;
+
+	CClientListCtrl		   *m_pctlClientList;
+	ClientList				m_clientList;
+
+protected:
+	CList<CString, CString&> liMODsTypes;
+};
+@
+
+
+1.36
+log
+@H-file reorganization.
+@
+text
+@a18 3
+#ifdef OLD_SOCKETS_ENABLED
+#include "ListenSocket.h"
+#endif //OLD_SOCKETS_ENABLED
+d23 1
+@
+
+
+1.35
+log
+@1) removed detection over the country
+2) removed port statistic (part1)
+@
+text
+@d17 1
+a18 3
+#pragma once
+#include "updownclient.h"
+#include "types.h"
+d24 1
+a24 1
+#include <vector>
+d26 1
+a26 3
+using namespace std;
+
+typedef CMap<uint32, uint32, uint32, uint32>	ClientInfoList;
+d30 1
+a30 1
+public :
+@
+
+
+1.34
+log
+@Ranaming and formatting.
+@
+text
+@d78 1
+a78 1
+	void	GetStatistics(uint32 &totalclient, uint32 stats[], uint32 clientsPorts[], ClientsData *pData, uint32 &totalMODs, uint32 *pdwTotalPlusMODs, CMap<POSITION, POSITION, uint32, uint32> *MODs, CMap<POSITION, POSITION, uint32, uint32> *PlusMODs, CMap<int, int, uint32, uint32> *pCountries);
+@
+
+
+1.33
+log
+@1) updated source exchange protocol to ver.3
+2) support of HighID clients with IP "x.x.x.0"  (see description in updownclient.h)
+3) removed dublicated ip check for LowID clients in TryToConnect()
+4) fixed a client name change by download start from remote client shared file list.
+5) some formating
+@
+text
+@d96 1
+a96 1
+	CUpDownClient* FindClient(uint32 dwHybridUsedID, uint16 nUserPort, uint32 dwServerIP, uint16 nServerPort, uchar *pbyteUserHash);
+@
+
+
+1.32
+log
+@remove the hash stealer detection from xrmb because:
+1) duplicated functionaly, i.e. it has similar functionaly as client credits
+2) useless when client changes a ports (remember an random ports)
+as result less CPU load and memory consumption
+@
+text
+@d96 1
+a96 1
+	CUpDownClient* FindClient(uint32 dwUserID, uint16 nUserPort, uint32 dwServerIP, uint16 nServerPort, uchar *pbyteUserHash);
+@
+
+
+1.31
+log
+@Removed superseded service FindClientByPortAndID.
+@
+text
+@d98 1
+a98 1
+	void	GetClientListByFileID(CTypedPtrList<CPtrList, CUpDownClient*> *m_pClientList, const uchar *fileid);	
+a114 4
+
+public:
+	HashBaseMap			m_mapHashBase;
+	OffenseCounterMap	m_mapOffenseCounter;
+@
+
+
+1.30
+log
+@One more step to integrate eklmn's SSDQ.
+@
+text
+@a95 1
+	CUpDownClient* FindClientByPortAndID(uint32 dwUserID,uint16 nPort);
+@
+
+
+1.29
+log
+@improved LowID check by SX (part 2)
+@
+text
+@d104 3
+a106 1
+	void ResetIP2Country();
+@
+
+
+1.28
+log
+@Improved string processing.
+@
+text
+@d97 2
+@
+
+
+1.27
+log
+@Removed unused code.
+@
+text
+@d85 1
+a85 1
+	CString	GetMODType(POSITION pos_in)
+d88 1
+a88 1
+			return liMODsTypes.GetAt(pos_in);
+d90 1
+a90 1
+			return _T("");
+@
+
+
+1.26
+log
+@Added MODs client statistics for eMule Plus.
+@
+text
+@d82 2
+a83 2
+		return m_clientList.GetCount() ;
+	} 
+a96 2
+	CUpDownClient* VUGetRandomClient();
+	bool	VerifyUpload(uint32 clientip, uint16 port);
+@
+
+
+1.25
+log
+@Reduced memory used by country statistics.
+@
+text
+@d78 1
+a78 1
+	void	GetStatistics(uint32 &totalclient, uint32 stats[], uint32 clientsPorts[], ClientsData *pData, uint32 &totalMODs, CMap<POSITION, POSITION, uint32, uint32> *MODs, CMap<int, int, uint32, uint32> *pCountries);
+@
+
+
+1.24
+log
+@1) corrected default toolbar definition
+2) improved processing of the username by anti-leecher feature
+3) unified async GUI updade of Upload, Queue & Client lists
+@
+text
+@d78 1
+a78 1
+	void	GetStatistics(uint32 &totalclient, uint32 stats[], uint32 clientsPorts[], ClientsData *pData, uint32 &totalMODs, CMap<POSITION, POSITION, uint32, uint32> *MODs, CMap<POSITION, POSITION, uint32, uint32> *Countries);
+a92 8
+	CString	GetClientCountry(POSITION pos_in)
+	{
+		if (pos_in != 0)
+			return liCountryNames.GetAt(pos_in);
+		else
+			return _T("");
+	}
+
+a113 1
+	CList<CString, CString&> liCountryNames;
+@
+
+
+1.23
+log
+@better estimation of own score on remote client + no more friend/community guess + minor Infolist fix + removed unused functions
+@
+text
+@d60 2
+a61 4
+	typedef vector<CUpDownClient*>		ClientVector;
+
+			CClientList();
+		   ~CClientList();
+a106 1
+	void	ResetAllValueCaches();
+d112 2
+a113 2
+	void					AddDirtyClient(CUpDownClient *pClient);
+	ClientVector		   *GetDirtyClients();
+a118 1
+	ClientVector		   *m_pvecDirtyClients;	// List of clients that need client list ctrl refresh
+a126 1
+	void ResetIP2Country();
+@
+
+
+1.22
+log
+@added connected clients country statistics
+@
+text
+@d39 2
+a40 1
+		m_pClients	= new ClientInfoList[SO_LAST + 1]; // +1 so on SO_LAST position we hold all clients data
+a52 7
+	/*	ClientInfoList clientStatus;
+		ClientInfoList clientVersionEMule;
+		ClientInfoList clientVersionCDonkey;
+		ClientInfoList clientVersionEDonkeyHybrid;
+		ClientInfoList clientVersionEDonkey;
+		ClientInfoList clientVersionMLDonkey;
+		ClientInfoList clientVersionOldEMule;*/
+d79 1
+a79 1
+//	statistical functions
+d81 1
+a81 2
+	uint32 GetA4AFSourcesCount();	//eklmn: count A4AF sources
+
+d85 1
+a85 1
+	} // Added by Mr.Fry
+d110 1
+a110 1
+	void	GetClientListByFileID(CTypedPtrList<CPtrList, CUpDownClient*> *m_pClientList, const uchar *fileid);		//netwolf: complete sources (zegzav) 13.05.03
+@
+
+
+1.21
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d86 1
+a86 1
+	void	GetStatistics(uint32 &totalclient, uint32 stats[], uint32 clientsPorts[], ClientsData *pData, uint32 &totalMODs, CMap<POSITION, POSITION, uint32, uint32> *MODs);
+d102 8
+d133 1
+@
+
+
+1.20
+log
+@corretions in "hash thieves", added Leecher type statistic
+@
+text
+@d129 1
+@
+
+
+1.19
+log
+@list processing optimization
+@
+text
+@d125 4
+@
+
+
+1.18
+log
+@Formatting, comments, and name changes.
+@
+text
+@d99 1
+a99 1
+			return "";
+@
+
+
+1.17
+log
+@stability improvements, i.e. delete a client (sorce) if addition to the client list was failed.
+@
+text
+@d82 2
+a83 2
+	void	RemoveClient(CUpDownClient* toremove);
+	void	UpdateClient(CUpDownClient* pClient);
+@
+
+
+1.16
+log
+@new way of adding sources
+@
+text
+@d76 1
+a76 1
+	void	AddClient(CUpDownClient* toadd, bool bSkipDupTest = false);
+@
+
+
+1.15
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@a85 1
+//	void		GetStatistics(uint32 &totalclient, uint32 stats[], ClientsData *pData );
+d102 1
+d105 1
+a109 2
+
+	bool	IsValidClient(CUpDownClient* tocheck);
+@
+
+
+1.14
+log
+@Formatting, comments, and name changes.
+@
+text
+@d1 2
+a2 2
+//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d4 4
+a7 4
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+d9 4
+a12 4
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+d14 3
+a16 3
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d26 1
+a26 1
+typedef CMap<uint32, uint32, uint32, uint32>		ClientInfoList;
+d28 3
+d36 1
+d39 1
+a39 1
+		m_pClients	=	new ClientInfoList[SO_LAST+1]; // +1 so on SO_LAST position we hold all clients data
+d43 1
+a43 1
+		if ( m_pClients )
+d45 1
+a45 1
+			for (int i=0; i < SO_LAST+1; i++)
+d52 7
+a58 7
+/*	ClientInfoList clientStatus;
+	ClientInfoList clientVersionEMule;
+	ClientInfoList clientVersionCDonkey;
+	ClientInfoList clientVersionEDonkeyHybrid;
+	ClientInfoList clientVersionEDonkey;
+	ClientInfoList clientVersionMLDonkey;
+	ClientInfoList clientVersionOldEMule;*/
+d63 1
+a63 1
+	friend class CWndClientList;
+d66 11
+a76 3
+	CClientList();
+	~CClientList();
+	void	AddClient(CUpDownClient* toadd,bool bSkipDupTest = false);
+d78 1
+d81 23
+a103 10
+	void		RemoveClient(CUpDownClient* toremove);
+	void		DeleteAll();
+	//statistical functions
+	//void		GetStatistics(uint32 &totalclient, uint32 stats[], ClientsData *pData );
+	void		GetStatistics(uint32 &totalclient, uint32 stats[], uint32 clientsPorts[], ClientsData *pData, uint32 &totalMODs, CMap<POSITION, POSITION,uint32, uint32> *MODs);
+	uint32 	GetA4AFSourcesCount();	//eklmn: count A4AF sources
+	int	    GetClientCount() { return list.GetCount() ; } // Added by Mr.Fry
+	CString	GetMODType(POSITION pos_in) {if (pos_in != 0) return liMODsTypes.GetAt(pos_in); else return "";}
+	
+	CUpDownClient* FindClientByIP(uint32 clientip,uint16 port);
+d106 1
+a106 1
+	bool	VerifyUpload(uint32 clientip,uint16 port);
+d109 1
+a109 1
+		
+d112 1
+d115 2
+d118 6
+a123 1
+	CTypedPtrList<CPtrList, CUpDownClient*> list;
+d125 1
+a125 1
+	CList<CString,CString&> liMODsTypes;
+@
+
+
+1.13
+log
+@Added Known List to transfer window. Hope no major bug was introduced. Should be tested!
+@
+text
+@d84 1
+a84 1
+	bool	Debug_IsValidClient(CUpDownClient* tocheck);
+@
+
+
+1.12
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d59 2
+@
+
+
+1.11
+log
+@new statistic (khaos based)
+@
+text
+@d22 1
+a22 1
+#include "listensocket.h"
+d80 1
+a80 1
+	void	GetClientListByFileID(CTypedPtrList<CPtrList, CUpDownClient*> *clientlist, const uchar *fileid);		//netwolf: complete sources (zegzav) 13.05.03
+@
+
+
+1.10
+log
+@Preparing for new sockets
+@
+text
+@d24 1
+a24 1
+
+d57 1
+a57 1
+class CClientList
+a62 3
+	void	RemoveClient(CUpDownClient* toremove);
+	void	GetStatistics(uint32 &totalclient, int stats[], ClientsData *pData );
+	void	DeleteAll();
+d66 6
+d73 2
+d88 2
+@
+
+
+1.9
+log
+@code cleanup
+@
+text
+@d21 1
+d23 1
+d66 1
+d68 1
+d78 1
+d80 1
+@
+
+
+1.8
+log
+@complete sources column
+@
+text
+@d71 1
+a71 1
+	void	GetClientListByFileID(CTypedPtrList<CPtrList, CUpDownClient*> *clientlist, uchar *fileid);		//netwolf: complete sources (zegzav) 13.05.03
+@
+
+
+1.7
+log
+@Final client statistics changes
+@
+text
+@d71 1
+@
+
+
+1.6
+log
+@*** empty log message ***
+@
+text
+@d27 1
+a27 1
+struct ClientsData
+d29 18
+a46 1
+	ClientInfoList clientStatus;
+d52 1
+a52 1
+	ClientInfoList clientVersionOldEMule;
+@
+
+
+1.5
+log
+@Less parameters for GetStatistics()  function , first step before redesign
+@
+text
+@d35 1
+@
+
+
+1.4
+log
+@Hybrid client and CDonkey detection
+@
+text
+@d23 14
+d44 1
+a44 1
+	void	GetStatistics(uint32 &totalclient, int stats[], CMap<uint8, uint8, uint32, uint32> *clientStatus=NULL, CMap<uint32, uint32, uint32, uint32> *clientVersionEDonkey=NULL, CMap<uint32, uint32, uint32, uint32> *clientVersionEDonkeyHybrid=NULL, CMap<uint8, uint8, uint32, uint32> *clientVersionEMule=NULL); // xrmb : statsclientstatus
+@
+
+
+1.3
+log
+@updated to .25b codebase
+@
+text
+@d30 1
+a30 1
+	void	GetStatistics(uint32 &totalclient, int stats[], CMap<uint8, uint8, uint32, uint32> *clientStatus=NULL, CMap<uint8, uint8, uint32, uint32> *clientVersionEDonkey=NULL, CMap<uint8, uint8, uint32, uint32> *clientVersionEMule=NULL); // xrmb : statsclientstatus
+@
+
+
+1.3.4.1
+log
+@initial upgrade to .26
+@
+text
+@d30 1
+a30 1
+	void	GetStatistics(uint32 &totalclient, int stats[], CMap<uint8, uint8, uint32, uint32> *clientStatus=NULL, CMap<uint32, uint32, uint32, uint32> *clientVersionEDonkey=NULL, CMap<uint32, uint32, uint32, uint32> *clientVersionEDonkeyHybrid=NULL, CMap<uint8, uint8, uint32, uint32> *clientVersionEMule=NULL); // xrmb : statsclientstatus
+@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d33 1
+a33 1
+	int	GetClientCount() { return list.GetCount() ; } // Added by Mr.Fry
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d30 1
+a30 1
+	void	GetStatistics(int stats[], CMap<uint8, uint8, uint32, uint32> *clientStatus=NULL, CMap<uint8, uint8, uint32, uint32> *clientVersionEDonkey=NULL, CMap<uint8, uint8, uint32, uint32> *clientVersionEMule=NULL); // xrmb : statsclientstatus
+@
+

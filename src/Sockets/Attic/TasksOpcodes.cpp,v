@@ -1,0 +1,799 @@
+head	1.24;
+access;
+symbols
+	PublicRelease_1i:1.22
+	Interim_Release_1i_RC6:1.22
+	Interim_Release_1i_RC3:1.22
+	Interim_Release_1i_RC2:1.21
+	Interim_Release_1i_RC1:1.19
+	Interim_Release_1i_beta3:1.19
+	Interim_Release_1i_beta2:1.17
+	Interim_Release_1i_beta1:1.12
+	PublicRelease_1h:1.11
+	Interim_Release_1h_rc2:1.10
+	Interim_Release_1h_RC1:1.10
+	Interim_Release_1h_beta2:1.9
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.24
+date	2003.12.16.17.48.07;	author kuchin;	state dead;
+branches;
+next	1.23;
+
+1.23
+date	2003.12.11.14.32.48;	author kuchin;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.11.19.16.51.53;	author kuchin;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.11.17.10.24.33;	author kuchin;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.11.15.12.31.46;	author kuchin;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.10.30.16.57.42;	author kuchin;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.10.29.14.14.25;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.10.23.18.50.26;	author uid77509;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.10.22.17.30.41;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.22.14.43.59;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.17.18.06.19;	author morevit;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.11.14.43.56;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.20.15.44.22;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.09.16.16.34.40;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.08.17.55.38;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.04.11.19.29;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.03.12.40.32;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.03.11.50.54;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.08.27.09.27.14;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.08.26.16.54.24;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.08.24.06.17.30;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.15.12.51.25;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.15.10.08.19;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.10.14.19.55;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.24
+log
+@New engine
+@
+text
+@// Tasks.cpp: implementation of the CTasks class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+
+#ifdef NEW_SOCKETS
+#include "OpCode.h"
+#include "EmEngine.h"
+#include "../EngineData.h"
+#include "../otherfunctions.h"
+
+//////////////////////////////////////////////////////////////////////
+// Client OpCodes
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+// HELLO opcode
+bool COpCode_HELLO::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+//	// here we should grab all user's info
+	COpCode_HELLOANSWER stMsg;
+	md4cpy(stMsg._Hash, stEngine.m_stData.GetUserHash());
+	stMsg._Client._Addr = stEngine.m_stData.GetClientID();
+	stMsg._Client._Port = stEngine.m_stData.GetPort();
+	stMsg._UserName.m_strValue = stEngine.m_stData.GetUserNick();
+	stMsg._UserName.m_bValid = TRUE;
+	stMsg._ClientVersion.m_dwValue = EDONKEYVERSION;
+	stMsg._ClientVersion.m_bValid = TRUE;
+	if(stEngine.m_stData.IsConnected())
+	{
+		stMsg._Server._Addr = stEngine.m_stData.GetConnectedState()->nAddr;
+		stMsg._Server._Port = stEngine.m_stData.GetConnectedState()->nPort;
+	}
+	else
+	{
+		stMsg._Server._Addr = 0;
+		stMsg._Server._Port = 0;
+	}
+
+	stEngine.m_stTcp.AllocSend(m_hSocket, stMsg);
+
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// HELLO ANSWER
+bool COpCode_HELLOANSWER::ProcessForClient(CEmEngine& stEngine, CEmClient*)
+{
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// OFFER FILES
+bool COpCode_OFFERFILES::ProcessForClient(CEmEngine& stEngine, CEmClient*)
+{
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// Server OpCodes
+//////////////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////////////
+// SERVER MESSAGE
+bool COpCode_SERVERMESSAGE::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	CEmClient_Server* pSrv = reinterpret_cast<CEmClient_Server*>(pClient);
+
+	// Increase message count
+	m_nMsgCount = pSrv->m_nMsgCount++;
+
+	// Set address and port
+	m_Server._Addr = pSrv->m_nAddr;
+	m_Server._Port = pSrv->m_uPort;
+
+	// Push itself to GUI processing thread
+	stEngine.PushToUI(this);
+
+	return false; // Always return false when going to GUI, otherwise this object will be destroyed!
+}
+
+//////////////////////////////////////////////////////////////////////
+// SERVER MESSAGE in GUI
+bool COpCode_SERVERMESSAGE::ProcessForUI(CEmEngine&)
+{
+	// Print message
+/*	g_eMuleApp.m_pdlgEmule->AddServerMessageLine(_Msg);
+
+	// Check for server version
+	if ((m_nMsgCount < 2) && (_Msg.Left(14).CompareNoCase(_T("server version")) == 0))
+	{
+		CString strVer = _Msg.Mid(14);
+		strVer.Trim();
+		strVer = strVer.Left(64); // Truncate string to avoid misuse by servers in showing ads
+		int n = strVer.FindOneOf("\x09\x0A\x0D");
+		if (n >= 0)
+			strVer = strVer.Left(n);
+		CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_Server._Addr, m_Server._Port);
+		if (pServer)
+			pServer->SetVersion(strVer);
+	}
+
+	// Check for dynamic IP
+	int nDynIP = _Msg.Find(_T("[emDynIP: "));
+	int nCloseBracket = _Msg.Find(_T("]"));
+	if (nDynIP != -1 && nCloseBracket != -1 && nDynIP < nCloseBracket)
+	{
+		CString sDynIP = _Msg.Mid(nDynIP + 10, nCloseBracket - (nDynIP + 10));
+		sDynIP.Trim(_T(" "));
+		if (sDynIP.GetLength() && sDynIP.GetLength() < 51)
+		{
+			CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_Server._Addr, m_Server._Port);
+			if (pServer)
+			{
+				pServer->SetDynIP(sDynIP.GetBuffer());
+				g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+			}
+		}
+	}
+*/
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// ID CHANGE
+bool COpCode_IDCHANGE::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+	// TODO: Smart ID checks, notifiers
+
+	// Disconnect from previous connected server, if any
+	if(stEngine.m_stData.GetConnectingServer() != pClient->m_hSocket &&
+		stEngine.m_stData.GetConnectingServer())
+		stEngine.DisconnectFromServer(stEngine.m_stData.GetConnectingServer());
+	if(stEngine.m_stData.GetConnectedServer() != pClient->m_hSocket &&
+		stEngine.m_stData.GetConnectedServer())
+		stEngine.DisconnectFromServer(stEngine.m_stData.GetConnectedServer());
+
+	// Set server connection info
+	stEngine.m_stData.ConnectedTo(reinterpret_cast<CEmClient_Server*>(pClient));
+	stEngine.m_stData.SetClientID(_ClientID);
+	stEngine.m_stData.SetConnectionState(true, SERVER_CONNECTED);
+
+/*
+	if (g_eMuleApp.m_pGlobPrefs->GetAddServersFromConn())
+	{
+		Packet* packet = new Packet(OP_GETSERVERLIST);
+		g_eMuleApp.m_pUploadQueue->AddUpDataOverheadServer(packet->size);
+		SendPacket(packet,true);
+	}
+	if(g_eMuleApp.m_pGlobPrefs->RestartWaiting())
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_ctlDownloadList.RestartWaitingDownloads();
+ */
+
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// SEARCH RESULT
+bool COpCode_SEARCHRESULT::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// FOUND SOURCES
+bool COpCode_FOUNDSOURCES::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+	// Checking and adding sources (logic moved from PartFile.cpp, later should make this separate task),
+	// later rebuild (?) PartFile to separate task processor
+/*	if (CPartFile* pFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(_Hash))
+	{
+		if(  !(pFile->GetStatus() == PS_STOPPED
+			|| pFile->GetStatus() == PS_COMPLETE
+			|| pFile->GetStatus() == PS_COMPLETING))
+		{
+			uint8 debug_lowiddropped = 0;
+			uint8 debug_possiblesources = 0;
+
+			//	If there is needed place for more sources, just remove NNS
+			if ( pFile->GetSourceCount() + _Sources.GetSize() > g_eMuleApp.m_pGlobPrefs->GetMaxSourcePerFile()
+				&& ((pFile->GetLastPurgeTime() == 0) || (::GetTickCount() - pFile->GetLastPurgeTime()) > PURGE_TIME) )
+			{
+				pFile->RemoveNoNeededSources(pFile->GetSourceCount() + _Sources.GetSize() - g_eMuleApp.m_pGlobPrefs->GetMaxSourcePerFile());
+			}
+
+			for (int i = 0; i < _Sources.GetSize(); i++)
+			{
+				//	check first if we are this source
+				if (stEngine.m_stData.IsConnected() && stEngine.m_stData.IsLowID())
+				{
+					if ((stEngine.m_stData.GetClientID() == _Sources[i]._Addr) )
+// should fix that later, when add FullIP workout
+//						&& inet_addr(g_eMuleApp.m_pServerConnect->GetCurrentServer()->GetFullIP()) == pClient->m_nAddr)
+						continue;
+				}
+				else if (stEngine.m_stData.GetClientID() == _Sources[i]._Addr)
+					continue;
+				else if (_Sources[i]._Addr < 0x1000000 && !stEngine.m_stData.IsLocalServer(pClient->m_nAddr, pClient->m_uPort))
+					continue;
+
+				if (g_eMuleApp.m_pGlobPrefs->GetMaxSourcePerFile() > pFile->GetSourceCount())
+				{
+					CUpDownClient* pNewSource = g_eMuleApp.m_pDownloadQueue->CheckAndAddSource(pFile, _Sources[i]._Addr, _Sources[i]._Port, pClient->m_nAddr, pClient->m_uPort);
+					if (pNewSource)
+						pNewSource->SetUserName(GetResString(IDS_SERVER_SOURCE));
+				}
+
+			}
+		}
+	}*/
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// SERVER STATUS
+bool COpCode_SERVERSTATUS::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+	// Set address and port
+	m_Server._Addr = pClient->m_nAddr;
+	m_Server._Port = pClient->m_uPort;
+
+	// Push itself to GUI processing thread
+	stEngine.PushToUI(this);
+
+	return false; // Always return false when going to GUI, otherwise this object will be destroyed!
+}
+
+//////////////////////////////////////////////////////////////////////
+// SERVER STATUS in GUI
+bool COpCode_SERVERSTATUS::ProcessForUI(CEmEngine&)
+{
+/*	CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_Server._Addr, m_Server._Port);
+	if (pServer)
+	{
+		pServer->SetUserCount(_NumberOfUsers); 
+		pServer->SetFileCount(_NumberOfFiles);
+		g_eMuleApp.m_pdlgEmule->ShowUserCount(_NumberOfUsers, _NumberOfFiles);
+		g_eMuleApp.m_pdlgEmule->m_wndServer.m_ctlServerList.RefreshServer(*pServer);
+	}
+*/
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// SERVER IDENTification
+bool COpCode_SERVERIDENT::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// SERVER LIST
+bool COpCode_SERVERLIST::ProcessForClient(CEmEngine& stEngine, CEmClient* pClient)
+{
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// CALLBACK REQUESTED
+bool COpCode_CALLBACKREQUESTED::ProcessForClient(CEmEngine& stEngine, CEmClient* )
+{
+	CTask_Connect *pTask = new CTask_Connect(_Client._Addr, _Client._Port, T_CLIENT_PEER);
+	stEngine.m_stMain.Push(pTask);
+
+	AddDebugLogLine(false, "Callback requested");
+
+	return true;
+}
+
+//////////////////////////////////////////////////////////////////////
+// LOGIN REQUEST
+bool COpCode_LOGINREQUEST::ProcessForClient(CEmEngine& stEngine, CEmClient* )
+{
+	return true;
+}
+
+#endif@
+
+
+1.23
+log
+@New engine
+@
+text
+@@
+
+
+1.22
+log
+@New sockets
+@
+text
+@a9 1
+#include "../emule.h"
+d11 1
+a11 1
+#include "../PartFile.h"
+d90 1
+a90 1
+	g_eMuleApp.m_pdlgEmule->AddServerMessageLine(_Msg);
+d123 1
+a123 1
+
+d179 1
+a179 1
+	if (CPartFile* pFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(_Hash))
+d219 1
+a219 1
+	}
+d243 1
+a243 1
+	CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_Server._Addr, m_Server._Port);
+d251 1
+a251 1
+
+@
+
+
+1.21
+log
+@New sockets
+@
+text
+@d24 21
+a44 3
+//	// here we can grab all user's info
+//	COpCode_HELLOANSWER msg;
+//	stEngine.m_stTcp.AllocSend(m_hSocket, msg);
+d278 2
+a279 1
+	stEngine.m_stMain.AllocTcpConnect(_Client._Addr, _Client._Port, T_CLIENT_PEER);
+@
+
+
+1.20
+log
+@New sockets
+@
+text
+@d70 1
+a70 1
+void COpCode_SERVERMESSAGE::ProcessForUI(CEmEngine&)
+d106 2
+d224 1
+a224 1
+void COpCode_SERVERSTATUS::ProcessForUI(CEmEngine&)
+d234 2
+@
+
+
+1.19
+log
+@New sockets - more server code
+@
+text
+@d14 1
+d16 1
+d18 2
+d31 2
+d38 8
+d47 1
+d49 2
+d68 2
+d108 2
+d143 2
+d152 2
+d172 1
+d174 1
+d179 1
+a179 1
+				if (stEngine.m_stData.GetClientID() < 0x1000000 && stEngine.m_stData.IsConnected())
+d204 2
+d220 2
+d234 2
+d243 2
+d252 2
+d263 2
+@
+
+
+1.18
+log
+@Formatting, comments, and name changes.
+@
+text
+@d12 1
+d42 2
+a43 2
+	m_nAddr = pSrv->m_nAddr;
+	m_uPort = pSrv->m_uPort;
+d48 1
+a48 1
+	return false;
+d65 1
+a65 1
+		CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_nAddr, m_uPort);
+d79 1
+a79 1
+			CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_nAddr, m_uPort);
+d133 41
+d182 2
+a183 2
+	m_nAddr = pClient->m_nAddr;
+	m_uPort = pClient->m_uPort;
+d188 1
+a188 1
+	return false;
+d193 1
+a193 1
+	CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_nAddr, m_uPort);
+@
+
+
+1.17
+log
+@New sockets - more server code
+@
+text
+@d42 1
+a42 1
+	m_nPort = pSrv->m_nPort;
+d64 1
+a64 1
+		CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_nAddr, m_nPort);
+d78 1
+a78 1
+			CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_nAddr, m_nPort);
+d141 1
+a141 1
+	m_nPort = pClient->m_nPort;
+d151 1
+a151 1
+	CServer* pServer = g_eMuleApp.m_pServerList->GetServerByIP(m_nAddr, m_nPort);
+@
+
+
+1.16
+log
+@New sockets - more server code
+@
+text
+@d35 9
+d52 1
+d54 32
+d92 2
+d102 1
+a102 1
+	// Set info
+d106 1
+d139 20
+a158 1
+	return true;
+@
+
+
+1.15
+log
+@New Sockets + Russian update
+@
+text
+@d51 6
+a56 2
+	stEngine.DisconnectFromServer(stEngine.m_stData.GetConnectingServer());
+	stEngine.DisconnectFromServer(stEngine.m_stData.GetConnectedServer());
+d61 1
+a61 1
+	stEngine.m_stData.SetConnectionState(SERVER_CONNECTED);
+@
+
+
+1.14
+log
+@Formatting, comments, and name changes.
+@
+text
+@d52 1
+@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+@
+text
+@d65 1
+a65 1
+		g_eMuleApp.m_pdlgEmule->m_wndTransfer.m_wndDownloadList.RestartWaitingDownloads();
+@
+
+
+1.12
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d60 1
+a60 1
+		Packet* packet = new Packet(OP_GETSERVERLIST,0);
+@
+
+
+1.11
+log
+@New sockets
+@
+text
+@d43 1
+a43 1
+	theApp.emuledlg->AddServerMessageLine(_Msg);
+d58 1
+a58 1
+	if (theApp.glob_prefs->GetAddServersFromConn())
+d61 1
+a61 1
+		theApp.uploadqueue->AddUpDataOverheadServer(packet->size);
+d64 2
+a65 2
+	if(theApp.glob_prefs->RestartWaiting())
+		theApp.emuledlg->transferwnd.m_wndDownloadList.RestartWaitingDownloads();
+@
+
+
+1.10
+log
+@New sockets - more server logic
+@
+text
+@d35 1
+a35 2
+	ASSERT(pClient); // this opcode is processed only in the main context
+
+d50 5
+@
+
+
+1.9
+log
+@New sockets
+@
+text
+@d53 10
+@
+
+
+1.8
+log
+@Compilation fix
+@
+text
+@d11 1
+d50 3
+@
+
+
+1.7
+log
+@New sockets
+@
+text
+@d92 2
+@
+
+
+1.6
+log
+@New sockets. Connecting to server from server list
+@
+text
+@d36 7
+a43 2
+
+	return true;
+@
+
+
+1.5
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@d10 1
+d35 2
+@
+
+
+1.4
+log
+@New sockets
+@
+text
+@d9 1
+d17 3
+a19 4
+	// here we can grab all user's info
+	COpCode_HELLOANSWER msg;
+
+	stEngine.m_stTcp.AllocSend(m_hSocket, msg);
+d87 4
+@
+
+
+1.3
+log
+@Server OpCodes
+@
+text
+@d82 1
+a82 1
+	stEngine.m_stMain.AllocTcpConnect(_ClientIP, _ClientPort, T_CLIENT_PEER);
+@
+
+
+1.2
+log
+@Another new sockets cumulative update
+@
+text
+@d10 2
+d28 59
+@
+
+
+1.1
+log
+@Cumulative update. Not working yet.
+@
+text
+@d10 1
+a10 1
+bool COpCode_HELLO::ProcessForClient(CEmEngine& stEngine, CEmClient*)
+d12 3
+@
+

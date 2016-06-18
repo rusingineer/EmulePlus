@@ -1,0 +1,187 @@
+head	1.5;
+access;
+symbols
+	PublicRelease_1_2e:1.5
+	Interim_Release_1-2e_RC1:1.5
+	PublicRelease_1_2d:1.5
+	Interim_Release_1-2d_RC1:1.5
+	Interim_Release_1-2d_beta1:1.5
+	PublicRelease_1_2c:1.5
+	Interim_Release_1-2c_RC1:1.5
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.5
+	PublicRelease_1_2a:1.5
+	Interim_Release_1-2a_RC1:1.5
+	Interim_Release_1-2a_beta2:1.5
+	Interim_Release_1-2a_beta1:1.5
+	PublicRelease_1_2:1.5
+	Interim_Release_1-2_RC1:1.5
+	Interim_Release_1-2_beta1:1.5
+	PublicRelease_1_1g:1.5
+	Interim_Release_1-1g_RC3:1.5
+	Interim_Release_1-1g_RC2:1.5
+	Interim_Release_1-1g_RC1:1.5
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.5
+	Interim_Release_1-1f_RC1:1.5
+	PublicRelease_1_1e:1.5
+	Interim_Release_1-1e_RC2:1.5
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.5
+date	2005.02.26.09.47.57;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2005.01.28.20.13.51;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2005.01.23.07.36.38;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.01.22.20.47.57;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.12.26.06.50.33;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@v2 - opcodes handling improvement, webserver enhancement
+@
+text
+@#pragma once
+
+#define WEBSERVER_ENABLED	true	//g_eMuleApp.m_pGlobPrefs->GetWSIsEnabled()
+#define WEBSERVER_PORT		8080	//g_eMuleApp.m_pGlobPrefs->GetWSPort()
+#define WEBSERVER_DIR		_T("./WebServer/Files/")	//g_eMuleApp.m_pGlobPrefs->GetAppDir()
+#define WEBSERVER_GZIP		false	//g_eMuleApp.m_pGlobPrefs->GetWebUseGzip();
+
+#include "../../Engine/Other/XMLhelper.h"
+
+class CWebSocket;
+
+typedef struct
+{
+	CString			sURL;
+	CString			sArgs;
+	void			*pThis;
+	CWebSocket		*pSocket;
+} ThreadData;
+
+class CWebServer
+{
+	friend class CWebSocket;
+
+public:
+	CWebServer(void);
+	virtual ~CWebServer(void);
+
+	bool Start();
+	void Stop();
+	void Restart();
+	const bool IsRunning()	{ return m_bServerWorking; }
+
+	// Override methods
+	virtual void ProcessDynamicItem(XmlDoc spDoc, const CString sItem, const vector<CString> arrParams, const CString sArgs) = 0;
+	virtual void ProcessFinalize(XmlDoc spDoc, const vector<CString> arrParams, const CString sArgs) = 0;
+
+protected:
+	bool LoadTemplates();
+	XmlDoc CreateFromTemplate(const vector<CString> arrParams, const CString sArgs);
+
+	CString ReadParam(const CString sData, const CString sParamName);
+
+	void ProcessURL(ThreadData data);
+	void ProcessFileRequest(ThreadData data);
+
+	CString GetContentType(CString sExt);
+
+protected:
+	bool	m_bServerWorking;
+	XmlDoc	m_spSkeleton;
+	XmlDoc	m_spConfig;
+};
+@
+
+
+1.4
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@d15 1
+d34 2
+a35 2
+	virtual void ProcessDynamicItem(XmlDoc spDoc, const CString sItem, const vector<CString> arrParams){}
+	virtual void ProcessFinalize(XmlDoc spDoc, const vector<CString> arrParams){}
+d39 3
+a41 2
+	XmlDoc CreateFromTemplate(const vector<CString> arrParams);
+	CString GetURLParam(const CString URL, const TCHAR *pcFieldName);
+a49 1
+
+@
+
+
+1.3
+log
+@More v2 Xml WebInterface
+@
+text
+@d33 2
+a34 1
+	virtual void ProcessDynamicItem(XmlDoc doc, const CString sItem, const vector<CString> arrParams){}
+@
+
+
+1.2
+log
+@v2 Xml WebInterface
+@
+text
+@a33 1
+	virtual void ProcessStaticItem(XmlDoc doc, const CString sItem, const vector<CString> arrParams){}
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d33 2
+a34 2
+	virtual void ProcessDynamicItem(const CString sItem){}
+	virtual void ProcessStaticItem(const CString sItem){}
+d38 1
+a38 1
+	bool CreateFromTemplate(const CString szTemplate);
+@
+

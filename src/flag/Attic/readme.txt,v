@@ -1,0 +1,63 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2004.04.29.16.32.40;	author aw3;	state dead;
+branches;
+next	1.2;
+
+1.2
+date	2004.04.25.10.38.11;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.24.05.25.14;	author katsyonak;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@File content doesn't have any sense anymore.
+@
+text
+@thanks for the flags to Commander[GER] :)
+
+simply decide 24bits or 32bits that you want,
+rename ~/res32/ or ~/res24/ to ~/res/,
+and compile to get what you want :)
+the 32bit's one should be renamed to countryflag32.dll to correctly load under Windows XP
+@
+
+
+1.2
+log
+@unrequired/duplicate files removal
+@
+text
+@@
+
+
+1.1
+log
+@forgot about the flag dir (thanx SyruS)
+@
+text
+@d1 1
+a1 1
+thanks for the flag from Commander[GER] :)
+d5 2
+a6 2
+then compile, get what you want :)
+the 32bit's one will require be renamed to countryflag32.dll to be correct load in Morph under winXP
+@
+

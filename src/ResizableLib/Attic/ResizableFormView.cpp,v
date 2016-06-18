@@ -1,0 +1,511 @@
+head	1.5;
+access;
+symbols
+	Interim_Release_1-2_RC1:1.4
+	Interim_Release_1-2_beta1:1.4
+	PublicRelease_1_1g:1.4
+	Interim_Release_1-1g_RC3:1.4
+	Interim_Release_1-1g_RC2:1.4
+	Interim_Release_1-1g_RC1:1.4
+	Interim_Release_1-1g_beta2:1.4
+	Interim_Release_1-1g_beta1:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4
+	PublicRelease_1_1d:1.4
+	Interim_Release_1-1d_RC1:1.4
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.4
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.4
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.4
+	Interim_Release_1n_RC2:1.4
+	Interim_Release_1n_RC1:1.4
+	PublicRelease_1m:1.4
+	Interim_Release_1m_beta1:1.4
+	PublicRelease_1l:1.4
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.4
+	Interim_Release_1l_beta1:1.4
+	PublicRelease_1k:1.4
+	Interim_Release_1k_RC4:1.4
+	Interim_1k_RC3:1.4
+	Interim_1k_RC2:1.4
+	Interim_Release_1k_RC1:1.4
+	Interim_Release_1k_beta5:1.4
+	Intrerim_Release_1k_beta4:1.4
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3
+	Interim_Release_1h_beta2:1.3
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3
+	PublicRelease_1g:1.3
+	Interim_Release_1g_RC6_Final:1.3
+	Interim_Release_1g_RC6:1.3
+	Interim_Release_1g_RC5:1.3
+	Interim_Release_1g_RC4:1.3
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.3
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.3
+	Interim_Release_1f_RC3:1.3
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.3
+	Interim_Release_1f_beta2:1.3
+	Interim_Release_1f_beta1:1.3
+	PublicRelease_1e:1.3
+	Interim_Release_1e_RC2:1.3
+	Interim_Release_1e_RC:1.3
+	Interim_Release_1e_beta3:1.3
+	Interim_Release_1e_beta2:1.3
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.8
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.6
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.5
+date	2006.02.27.00.27.48;	author aw3;	state dead;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.03.08.12.26;	author eklmn;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.04.22.13.10.12;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.22.05.01.38;	author recdvst;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.27.08;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.17.20.21;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.5
+log
+@Removed unused files.
+@
+text
+@// ResizableFormView.cpp : implementation file
+//
+/////////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2000-2002 by Paolo Messina
+// (http://www.geocities.com/ppescher - ppescher@@yahoo.com)
+//
+// The contents of this file are subject to the Artistic License (the "License").
+// You may not use this file except in compliance with the License. 
+// You may obtain a copy of the License at:
+// http://www.opensource.org/licenses/artistic-license.html
+//
+// If you find this code useful, credits would be nice!
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "ResizableFormView.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CResizableFormView
+
+IMPLEMENT_DYNAMIC(CResizableFormView, CFormView)
+
+inline void CResizableFormView::PrivateConstruct()
+{
+	m_dwGripTempState = GHR_SCROLLBAR | GHR_ALIGNMENT | GHR_MAXIMIZED;
+}
+
+CResizableFormView::CResizableFormView(UINT nIDTemplate)
+	: CFormView(nIDTemplate)
+{
+	PrivateConstruct();
+}
+
+CResizableFormView::CResizableFormView(LPCTSTR lpszTemplateName)
+	: CFormView(lpszTemplateName)
+{
+	PrivateConstruct();
+}
+
+CResizableFormView::~CResizableFormView()
+{
+}
+
+
+BEGIN_MESSAGE_MAP(CResizableFormView, CFormView)
+	//{{AFX_MSG_MAP(CResizableFormView)
+	ON_WM_SIZE()
+	ON_WM_ERASEBKGND()
+	ON_WM_CREATE()
+	ON_WM_GETMINMAXINFO()
+	ON_WM_DESTROY()
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CResizableFormView diagnostics
+
+#ifdef _DEBUG
+void CResizableFormView::AssertValid() const
+{
+	CFormView::AssertValid();
+}
+
+void CResizableFormView::Dump(CDumpContext& dc) const
+{
+	CFormView::Dump(dc);
+}
+#endif //_DEBUG
+
+/////////////////////////////////////////////////////////////////////////////
+// CResizableFormView message handlers
+
+void CResizableFormView::OnSize(UINT nType, int cx, int cy) 
+{
+	CFormView::OnSize(nType, cx, cy);
+
+	CWnd* pParent = GetParentFrame();
+
+	// hide size grip when parent is maximized
+	if (pParent->IsZoomed())
+		HideSizeGrip(&m_dwGripTempState, GHR_MAXIMIZED);
+	else
+		ShowSizeGrip(&m_dwGripTempState, GHR_MAXIMIZED);
+
+	// hide size grip when there are scrollbars
+	CSize size = GetTotalSize();
+	if ((cx < size.cx || cy < size.cy) && (m_nMapMode >= 0))
+		HideSizeGrip(&m_dwGripTempState, GHR_SCROLLBAR);
+	else
+		ShowSizeGrip(&m_dwGripTempState, GHR_SCROLLBAR);
+
+	// hide size grip when the parent frame window is not resizable
+	// or the form is not bottom-right aligned (e.g. there's a statusbar)
+	DWORD dwStyle = pParent->GetStyle();
+	CRect rect, rectChild;
+	GetWindowRect(rect);
+
+	BOOL bCanResize = TRUE; // whether the grip can size the frame
+	for (HWND hWndChild = ::GetWindow(m_hWnd, GW_HWNDFIRST); hWndChild != NULL;
+		hWndChild = ::GetNextWindow(hWndChild, GW_HWNDNEXT))
+	{
+		::GetWindowRect(hWndChild, rectChild);
+		// TODO: check RTL layouts!
+		if (rectChild.right > rect.right || rectChild.bottom > rect.bottom)
+		{
+			bCanResize = FALSE;
+			break;
+		}
+	}
+	if ((dwStyle & WS_THICKFRAME) && bCanResize)
+		ShowSizeGrip(&m_dwGripTempState, GHR_ALIGNMENT);
+	else
+		HideSizeGrip(&m_dwGripTempState, GHR_ALIGNMENT);
+
+	// update grip and layout
+	UpdateSizeGrip();
+	ArrangeLayout();
+}
+
+void CResizableFormView::GetTotalClientRect(LPRECT lpRect)
+{
+	GetClientRect(lpRect);
+
+	// get dialog template's size
+	// (this is set in CFormView::Create)
+	CSize sizeTotal, sizePage, sizeLine;
+	int nMapMode = 0;
+	GetDeviceScrollSizes(nMapMode, sizeTotal, sizePage, sizeLine);
+
+	// otherwise, give the correct size if scrollbars active
+
+	if (nMapMode < 0)	// scrollbars disabled
+		return;
+
+	// enlarge reported client area when needed
+	CRect rect(lpRect);
+	if (rect.Width() < sizeTotal.cx)
+		rect.right = rect.left + sizeTotal.cx;
+	if (rect.Height() < sizeTotal.cy)
+		rect.bottom = rect.top + sizeTotal.cy;
+
+	rect.OffsetRect(-GetDeviceScrollPosition());
+	*lpRect = rect;
+}
+
+BOOL CResizableFormView::OnEraseBkgnd(CDC* pDC) 
+{
+	// Windows XP doesn't like clipping regions ...try this!
+	EraseBackground(pDC);
+	return TRUE;
+
+/*	ClipChildren(pDC, FALSE);
+
+	BOOL bRet = CFormView::OnEraseBkgnd(pDC);
+
+	ClipChildren(pDC, TRUE);
+
+	return bRet;*/
+}
+
+int CResizableFormView::OnCreate(LPCREATESTRUCT lpCreateStruct) 
+{
+	if (CFormView::OnCreate(lpCreateStruct) == -1)
+		return -1;
+	
+	// create and init the size-grip
+	if (!CreateSizeGrip(lpCreateStruct))
+		return -1;
+
+	return 0;
+}
+
+void CResizableFormView::OnGetMinMaxInfo(MINMAXINFO FAR* lpMMI) 
+{
+	MinMaxInfo(lpMMI);
+}
+
+void CResizableFormView::OnDestroy() 
+{
+	RemoveAllAnchors();
+
+	CFormView::OnDestroy();
+}
+
+LRESULT CResizableFormView::WindowProc(UINT message, WPARAM wParam, LPARAM lParam) 
+{
+	if (message == WM_INITDIALOG)
+		return (LRESULT)OnInitDialog();
+
+	return CFormView::WindowProc(message, wParam, lParam);
+}
+
+BOOL CResizableFormView::OnInitDialog() 
+{
+	const MSG* pMsg = GetCurrentMessage();
+
+	BOOL bRet = (BOOL)CFormView::WindowProc(pMsg->message, pMsg->wParam, pMsg->lParam);
+
+	// we need to associate member variables with control IDs
+	UpdateData(FALSE);
+	
+	// set default scroll size
+	CRect rectTemplate;
+	GetWindowRect(rectTemplate);
+	SetScrollSizes(MM_TEXT, rectTemplate.Size());
+
+	return bRet;
+}
+@
+
+
+1.4
+log
+@fixed creattion of grip window from ResizableDialog
+@
+text
+@@
+
+
+1.3
+log
+@Upgrade to 0.28a
+@
+text
+@d175 1
+a175 1
+	if (!CreateSizeGrip())
+@
+
+
+1.2
+log
+@Updates from latest cvs source
+@
+text
+@d156 5
+a160 1
+	ClipChildren(pDC, FALSE);
+d166 1
+a166 1
+	return bRet;
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a32 1
+	m_bInitDone = FALSE;
+d85 1
+a85 1
+	CWnd* pParent = GetParent();
+d87 1
+a87 1
+	// hide zise grip when parent is maximized
+d95 1
+a95 1
+	if (cx < size.cx || cy < size.cy)
+d100 1
+a100 1
+	// hide size grip when the parent window is not resizable
+d103 18
+a120 6
+	CRect rectParent, rectChild;
+	GetWindowRect(rectChild);
+	::MapWindowPoints(NULL, pParent->GetSafeHwnd(), (LPPOINT)&rectChild, 2);
+	pParent->GetClientRect(rectParent);
+	if (!(dwStyle & WS_THICKFRAME)
+		|| (rectChild.BottomRight() != rectParent.BottomRight()))
+a121 2
+	else
+		ShowSizeGrip(&m_dwGripTempState, GHR_ALIGNMENT);
+a127 10
+void CResizableFormView::OnInitialUpdate() 
+{
+	CFormView::OnInitialUpdate();
+	
+	m_bInitDone = TRUE;
+
+	// MDI child need this
+	ArrangeLayout();
+}
+
+d134 3
+a136 9
+	CSize size = GetTotalSize();
+
+	// before initialization use dialog's size
+	if (!m_bInitDone)
+	{
+		lpRect->right = lpRect->left + size.cx;
+		lpRect->bottom = lpRect->top + size.cy;
+		return;
+	}
+d140 1
+a140 1
+	if (m_nMapMode < 0)	// scrollbars disabled
+d145 4
+a148 4
+	if (rect.Width() < size.cx)
+		rect.right = rect.left + size.cx;
+	if (rect.Height() < size.cy)
+		rect.bottom = rect.top + size.cy;
+d150 1
+a150 1
+	rect.OffsetRect(-GetScrollPosition());
+d156 3
+a158 3
+	// Windows XP doesn't like clipping regions ...try this!
+	EraseBackground(pDC);
+	return TRUE;
+d160 1
+a160 1
+/*	ClipChildren(pDC);	// old-method (for safety)
+d162 1
+a162 2
+	return CFormView::OnEraseBkgnd(pDC);
+*/
+d187 25
+@
+
+
+1.1.4.1
+log
+@added to branch
+@
+text
+@@
+

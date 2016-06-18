@@ -1,0 +1,255 @@
+head	1.1;
+access;
+symbols
+	PublicRelease_1_2e:1.1
+	Interim_Release_1-2e_RC1:1.1
+	PublicRelease_1_2d:1.1
+	Interim_Release_1-2d_RC1:1.1
+	Interim_Release_1-2d_beta1:1.1
+	PublicRelease_1_2c:1.1
+	Interim_Release_1-2c_RC1:1.1
+	Interim_Release_1-2c_beta1:1.1
+	PublicRelease_1_2b:1.1
+	Interim_Release_1-2b_RC1:1.1
+	PublicRelease_1_2a:1.1
+	Interim_Release_1-2a_RC1:1.1
+	Interim_Release_1-2a_beta2:1.1
+	Interim_Release_1-2a_beta1:1.1
+	PublicRelease_1_2:1.1
+	Interim_Release_1-2_RC1:1.1
+	Interim_Release_1-2_beta1:1.1
+	PublicRelease_1_1g:1.1
+	Interim_Release_1-1g_RC3:1.1
+	Interim_Release_1-1g_RC2:1.1
+	Interim_Release_1-1g_RC1:1.1
+	Interim_Release_1-1g_beta2:1.1
+	Interim_Release_1-1g_beta1:1.1
+	Interim_Release_1-1f_RC1:1.1
+	PublicRelease_1_1e:1.1
+	Interim_Release_1-1e_RC2:1.1
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1
+	PublicRelease_1_1d:1.1
+	Interim_Release_1-1d_RC1:1.1
+	PublicRelease_1_1c:1.1
+	Interim_Release_1-1c_RC1:1.1
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1
+	PublicRelease_1_1b:1.1
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.1
+date	2003.01.21.18.27.08;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.17.20.23;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@#if !defined(AFX_RESIZABLEPAGE_H__INCLUDED_)
+#define AFX_RESIZABLEPAGE_H__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+// ResizablePage.h : header file
+//
+/////////////////////////////////////////////////////////////////////////////
+//
+// Copyright (C) 2000-2002 by Paolo Messina
+// (http://www.geocities.com/ppescher - ppescher@@yahoo.com)
+//
+// The contents of this file are subject to the Artistic License (the "License").
+// You may not use this file except in compliance with the License. 
+// You may obtain a copy of the License at:
+// http://www.opensource.org/licenses/artistic-license.html
+//
+// If you find this code useful, credits would be nice!
+//
+/////////////////////////////////////////////////////////////////////////////
+
+#include "ResizableLayout.h"
+
+
+/////////////////////////////////////////////////////////////////////////////
+// CResizablePage window
+
+class CResizablePage : public CPropertyPage, public CResizableLayout
+{
+	DECLARE_DYNCREATE(CResizablePage)
+
+// Construction
+public:
+	CResizablePage();
+	CResizablePage(UINT nIDTemplate, UINT nIDCaption = 0);
+	CResizablePage(LPCTSTR lpszTemplateName, UINT nIDCaption = 0);
+
+// Attributes
+public:
+
+// Operations
+public:
+
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CResizablePage)
+	//}}AFX_VIRTUAL
+
+// Implementation
+public:
+	virtual ~CResizablePage();
+
+// callable from derived classes
+protected:
+
+	virtual CWnd* GetResizableWnd()
+	{
+		// make the layout know its parent window
+		return this;
+	};
+
+// Generated message map functions
+protected:
+	//{{AFX_MSG(CResizablePage)
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
+	//}}AFX_MSG
+	DECLARE_MESSAGE_MAP()
+};
+
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+
+#endif // !defined(AFX_RESIZABLEPAGE_H__INCLUDED_)
+@
+
+
+1.1.4.1
+log
+@added to branch
+@
+text
+@@
+

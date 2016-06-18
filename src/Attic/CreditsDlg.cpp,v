@@ -1,0 +1,277 @@
+head	1.4;
+access;
+symbols
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.3.0.10
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.3.0.8
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.3
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.3
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.3.0.6
+	plus26based:1.3.0.4
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.3.2.1
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.4
+date	2003.03.13.05.57.10;	author recdvst;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.24.22.07.47;	author maverick65;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2003.01.22.15.05.38;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.16;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.54.01;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@files not used anymore
+@
+text
+@// TVCreditsDlg.cpp : implementation file
+//
+/*
+		You may NOT modify this copyright message. You may add your name, if you
+		changed or improved this code, but you mot not delete any part of this message or
+		make it invisible etc.
+*/
+#include "stdafx.h"
+#include "CreditsDlg.h"
+#include "CreditsThread.h"
+#include "EnBitmap.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+// drawable area of the dialog
+#define SCREEN_LEFT		6
+#define SCREEN_TOP		175
+#define SCREEN_RIGHT	345
+#define SCREEN_BOTTOM	296
+
+// button to dismiss dialog
+#define BUTTON_TOP_Y	0
+#define BUTTON_BOTTOM_Y	300
+#define BUTTON_LEFT_X	0
+#define BUTTON_RIGHT_X	350
+
+/////////////////////////////////////////////////////////////////////////////
+// CCreditsDlg dialog
+
+
+CCreditsDlg::CCreditsDlg(CWnd* pParent /*=NULL*/)
+	: CDialog(CCreditsDlg::IDD, pParent)
+{
+	//{{AFX_DATA_INIT(CCreditsDlg)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+
+	m_pDC = NULL;
+}
+
+CCreditsDlg::~CCreditsDlg(){
+	m_imgSplash.DeleteObject();
+}
+
+void CCreditsDlg::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CCreditsDlg)
+	// NOTE: the ClassWizard will add DDX and DDV calls here
+	//}}AFX_DATA_MAP
+	DDX_Control(pDX, IDC_BACKGROUND, m_ctrlBackground);
+}
+
+
+BEGIN_MESSAGE_MAP(CCreditsDlg, CDialog)
+	ON_WM_LBUTTONDOWN()
+	ON_WM_DESTROY()
+	ON_WM_CREATE()
+	ON_WM_LBUTTONDBLCLK()
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CCreditsDlg message handlers
+
+void CCreditsDlg::OnLButtonDown(UINT nFlags, CPoint point) 
+{
+	CDialog::OnLButtonDown(nFlags, point);
+
+	// see if they clicked on our button to dismiss the dialog
+	if((point.x >= BUTTON_LEFT_X) && (point.x <= BUTTON_RIGHT_X))
+	{
+		if((point.y >= BUTTON_TOP_Y) && (point.y <= BUTTON_BOTTOM_Y))
+		{
+			CDialog::OnOK();
+			return;
+		}
+	}
+
+	PostMessage(WM_NCLBUTTONDOWN, HTCAPTION, MAKELPARAM(point.x, point.y));
+}
+
+BOOL CCreditsDlg::OnInitDialog() 
+{
+	InitializeCriticalSection(&CGDIThread::m_csGDILock);
+	CDialog::OnInitDialog();
+	
+	m_rectScreen.SetRect(SCREEN_LEFT, SCREEN_TOP, SCREEN_RIGHT, SCREEN_BOTTOM);
+	StartThread();
+
+	return TRUE;
+}
+
+void CCreditsDlg::OnDestroy() 
+{
+	KillThread();
+
+	delete m_pDC;
+	m_pDC = NULL;
+
+	CDialog::OnDestroy();
+}
+
+void CCreditsDlg::StartThread()
+{
+	m_pThread = new CCreditsThread(this, m_pDC->GetSafeHdc(), m_rectScreen);
+
+	if (m_pThread == NULL)
+		return;
+
+	ASSERT_VALID(m_pThread);
+	m_pThread->m_pThreadParams = NULL;
+
+	// Create Thread in a suspended state so we can set the Priority 
+	// before it starts getting away from us
+	if (!m_pThread->CreateThread(CREATE_SUSPENDED))
+	{
+		delete m_pThread;
+		return;
+	}
+
+	// thread priority has been set at idle priority to keep from bogging
+	// down other apps that may also be running.
+	VERIFY(m_pThread->SetThreadPriority(THREAD_PRIORITY_IDLE));
+	// Now the thread can run wild
+	m_pThread->ResumeThread();
+}
+
+void CCreditsDlg::KillThread()
+{
+	// tell thread to shutdown
+	VERIFY(SetEvent(m_pThread->m_hEventKill));
+
+	// wait for thread to finish shutdown
+	VERIFY(WaitForSingleObject(m_pThread->m_hThread, INFINITE) == WAIT_OBJECT_0);
+
+	delete m_pThread;
+}
+
+int CCreditsDlg::OnCreate(LPCREATESTRUCT lpCreateStruct) 
+{
+	if (CDialog::OnCreate(lpCreateStruct) == -1)
+		return -1;
+	
+	// m_pDC must be initialized here instead of the constructor
+	// because the HWND isn't created until Create is called.
+	m_pDC = new CClientDC(this);
+	
+	return 0;
+}
+
+void CCreditsDlg::OnLButtonDblClk(UINT nFlags, CPoint point)
+{	
+	CDialog::OnLButtonDblClk(nFlags, point);
+	CDialog::OnOK();
+}
+@
+
+
+1.3
+log
+@updated to .25b codebase
+@
+text
+@@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.2
+log
+@update to .25b codebase
+@
+text
+@d20 4
+a23 4
+#define SCREEN_LEFT		16
+#define SCREEN_TOP		176
+#define SCREEN_RIGHT	326
+#define SCREEN_BOTTOM	257
+d26 4
+a29 4
+#define BUTTON_TOP_Y	267
+#define BUTTON_BOTTOM_Y	290
+#define BUTTON_LEFT_X	239
+#define BUTTON_RIGHT_X	332
+d90 1
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@a89 1
+	
+@
+

@@ -1,0 +1,627 @@
+head	1.11;
+access;
+symbols
+	PublicRelease_1_2e:1.11
+	Interim_Release_1-2e_RC1:1.11
+	PublicRelease_1_2d:1.11
+	Interim_Release_1-2d_RC1:1.11
+	Interim_Release_1-2d_beta1:1.11
+	PublicRelease_1_2c:1.10
+	Interim_Release_1-2c_RC1:1.10
+	Interim_Release_1-2c_beta1:1.10
+	PublicRelease_1_2b:1.10
+	Interim_Release_1-2b_RC1:1.10
+	PublicRelease_1_2a:1.10
+	Interim_Release_1-2a_RC1:1.10
+	Interim_Release_1-2a_beta2:1.10
+	Interim_Release_1-2a_beta1:1.10
+	PublicRelease_1_2:1.8
+	Interim_Release_1-2_RC1:1.8
+	Interim_Release_1-2_beta1:1.7
+	PublicRelease_1_1g:1.7
+	Interim_Release_1-1g_RC3:1.7
+	Interim_Release_1-1g_RC2:1.7
+	Interim_Release_1-1g_RC1:1.7
+	Interim_Release_1-1g_beta2:1.7
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.6
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	Interim_Release_1n_beta1:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.4
+	Interim_Release_1l_RC3:1.4
+	Interim_Release_1l_RC2:1.4
+	Interim_Release_1l_RC1:1.4
+	Interim_Release_1l_beta2:1.4
+	Interim_Release_1l_beta1:1.4
+	PublicRelease_1k:1.4
+	Interim_Release_1k_RC4:1.4
+	Interim_1k_RC3:1.4
+	Interim_1k_RC2:1.4
+	Interim_Release_1k_RC1:1.4
+	Interim_Release_1k_beta5:1.4
+	Intrerim_Release_1k_beta4:1.4
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3
+	Interim_Release_1h_beta2:1.3
+	Interim_Release_1h_beta1_now:1.3
+	Interim_Release_1h_beta1:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.11
+date	2008.01.02.05.32.03;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2006.04.04.22.28.40;	author kush_eplus;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.03.19.23.47.30;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2006.02.19.22.53.08;	author kush_eplus;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.11.18.05.39.22;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.10.15.17.01.57;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.06.19.05.34.24;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.07.28.20.41.02;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.07.28.14.57.51;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.07.27.22.15.32;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "otherfunctions.h"
+#include "PPgSMTP.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgSMTP, CPropertyPage)
+CPPgSMTP::CPPgSMTP()
+	: CPropertyPage(CPPgSMTP::IDD)
+{
+}
+
+CPPgSMTP::~CPPgSMTP()
+{
+}
+
+void CPPgSMTP::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Text(pDX, IDC_SMTPSERVER, m_strSMTPServer);
+	DDX_Text(pDX, IDC_SMTPNAME, m_strSMTPName);
+	DDX_Text(pDX, IDC_SMTPFROM, m_strSMTPFrom);
+	DDX_Text(pDX, IDC_SMTPTO, m_strSMTPTo);
+	DDX_Text(pDX, IDC_SMTPUSERNAME, m_strSMTPUserName);
+	DDX_Text(pDX, IDC_SMTPPASSWORD, m_strSMTPPassword);
+	DDX_Check(pDX, IDC_SMTPAUTHENTICATED, m_bSMTPAuthenticated);
+	DDX_Check(pDX, IDC_SMTPINFOENABLED, m_bSMTPInfoEnabled);
+	DDX_Check(pDX, IDC_SMTPWARNINGENABLED, m_bSMTPWarningEnabled);
+	DDX_Check(pDX, IDC_SMTPMSGINSUBJECT, m_bSMTPMsgInSubjEnabled);
+}
+
+BEGIN_MESSAGE_MAP(CPPgSMTP, CPropertyPage)
+	ON_EN_CHANGE(IDC_SMTPSERVER, OnDataChange)
+	ON_EN_CHANGE(IDC_SMTPNAME, OnDataChange)
+	ON_EN_CHANGE(IDC_SMTPFROM, OnDataChange)
+	ON_EN_CHANGE(IDC_SMTPTO, OnDataChange)
+	ON_EN_CHANGE(IDC_SMTPUSERNAME, OnDataChange)
+	ON_EN_CHANGE(IDC_SMTPPASSWORD, OnDataChange)
+	ON_BN_CLICKED(IDC_SMTPAUTHENTICATED, OnEnChangeSMTPAuthenticated)
+	ON_BN_CLICKED(IDC_SMTPINFOENABLED, OnDataChange)
+	ON_BN_CLICKED(IDC_SMTPWARNINGENABLED, OnDataChange)
+	ON_BN_CLICKED(IDC_SMTPMSGINSUBJECT, OnDataChange)
+END_MESSAGE_MAP()
+
+BOOL CPPgSMTP::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+
+void CPPgSMTP::LoadSettings(void)
+{
+	m_strSMTPServer = m_pPrefs->GetSMTPServer();
+	m_strSMTPName = m_pPrefs->GetSMTPName();
+	m_strSMTPFrom = m_pPrefs->GetSMTPFrom();
+	m_strSMTPTo = m_pPrefs->GetSMTPTo();
+	m_strSMTPUserName = m_pPrefs->GetSMTPUserName();
+	m_strSMTPPassword = m_pPrefs->GetSMTPPassword();
+
+	m_bSMTPAuthenticated = m_pPrefs->IsSMTPAuthenticated();
+	m_bSMTPInfoEnabled = m_pPrefs->IsSMTPInfoEnabled();
+	m_bSMTPWarningEnabled = m_pPrefs->IsSMTPWarningEnabled();
+	m_bSMTPMsgInSubjEnabled = m_pPrefs->IsSMTPMsgInSubjEnabled();
+
+	UpdateData(FALSE);
+
+	OnEnChangeSMTPAuthenticated();
+
+	SetModified(FALSE);
+}
+
+BOOL CPPgSMTP::OnApply()
+{
+	if (m_bModified)
+	{
+		UpdateData(TRUE);
+
+		if (!m_strSMTPServer.IsEmpty())
+			m_pPrefs->SetSMTPServer(m_strSMTPServer);
+		if (!m_strSMTPName.IsEmpty())
+			m_pPrefs->SetSMTPName(m_strSMTPName);
+		if (!m_strSMTPFrom.IsEmpty())
+			m_pPrefs->SetSMTPFrom(m_strSMTPFrom);
+		if (!m_strSMTPTo.IsEmpty())
+			m_pPrefs->SetSMTPTo(m_strSMTPTo);
+		if (!m_strSMTPUserName.IsEmpty())
+			m_pPrefs->SetSMTPUserName(m_strSMTPUserName);
+		if (!m_strSMTPPassword.IsEmpty())
+			m_pPrefs->SetSMTPPassword(m_strSMTPPassword);
+
+		m_pPrefs->SetSMTPAuthenticated(B2b(m_bSMTPAuthenticated));
+		m_pPrefs->SetSMTPInfoEnabled(B2b(m_bSMTPInfoEnabled));
+		m_pPrefs->SetSMTPWarningEnabled(B2b(m_bSMTPWarningEnabled));
+		m_pPrefs->SetSMTPMsgInSubjEnabled(B2b(m_bSMTPMsgInSubjEnabled));
+
+		UpdateData(FALSE);
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgSMTP::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_SMTPAUTHENTICATION_FRM, IDS_AUTHENTICATION },
+		{ IDC_SMTPSERVER_LBL, IDS_PW_SERVER },
+		{ IDC_SMTPNAME_LBL, IDS_SW_NAME },
+		{ IDC_SMTPFROM_LBL, IDS_FROM },
+		{ IDC_SMTPTO_LBL, IDS_TO },
+		{ IDC_SMTPUSERNAME_LBL, IDS_PROXY_USERNAME },
+		{ IDC_SMTPPASSWORD_LBL, IDS_PASSWORD },
+		{ IDC_SMTPAUTHENTICATED, IDS_ENABLED },
+		{ IDC_SMTPINFOENABLED, IDS_SMTPMSG_INFO },
+		{ IDC_SMTPWARNINGENABLED, IDS_SMTPMSG_WARNING },
+		{ IDC_SMTPMSGINSUBJECT, IDS_SMTPMSGINSUBJECT }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+	}
+}
+
+void CPPgSMTP::OnEnChangeSMTPAuthenticated()
+{
+	UpdateData(TRUE);
+
+	GetDlgItem(IDC_SMTPUSERNAME)->EnableWindow(m_bSMTPAuthenticated);
+	GetDlgItem(IDC_SMTPPASSWORD)->EnableWindow(m_bSMTPAuthenticated);
+
+	SetModified();
+}
+@
+
+
+1.10
+log
+@new email notifier code (adapted from original) - fully UNICODE ready;
+option to send email notification messages in subject
+@
+text
+@d1 16
+a50 17
+	DDX_Control(pDX, IDC_SMTPSERVER, SMTPServerEdit);
+	DDX_Control(pDX, IDC_SMTPNAME, SMTPNameEdit);
+	DDX_Control(pDX, IDC_SMTPFROM, SMTPFromEdit);
+	DDX_Control(pDX, IDC_SMTPTO, SMTPToEdit);
+	DDX_Control(pDX, IDC_SMTPUSERNAME, SMTPUserNameEdit);
+	DDX_Control(pDX, IDC_SMTPPASSWORD, SMTPPasswordEdit);
+	DDX_Control(pDX, IDC_SMTPAUTHENTICATED, SMTPAuthenticatedCheck);
+	DDX_Control(pDX, IDC_SMTPINFOENABLED, SMTPInfoEnabledCheck);
+	DDX_Control(pDX, IDC_SMTPWARNINGENABLED, SMTPWarningEnabledCheck);
+	DDX_Control(pDX, IDC_SMTPMSGINSUBJECT, SMTPMsgInSubjectCheck);
+	DDX_Text(pDX, IDC_SMTPSERVER_LBL, m_strSMTPServerDesc);
+	DDX_Text(pDX, IDC_SMTPNAME_LBL, m_strSMTPNameDesc);
+	DDX_Text(pDX, IDC_SMTPFROM_LBL, m_strSMTPFromDesc);
+	DDX_Text(pDX, IDC_SMTPTO_LBL, m_strSMTPToDesc);
+	DDX_Text(pDX, IDC_SMTPUSERNAME_LBL, m_strSMTPUserNameDesc);
+	DDX_Text(pDX, IDC_SMTPPASSWORD_LBL, m_strSMTPPasswordDesc);
+	DDX_Text(pDX, IDC_SMTPAUTHENTICATION_FRM, m_strSMTPAuthenticationFrame);
+d116 4
+a119 4
+		m_pPrefs->SetSMTPAuthenticated(m_bSMTPAuthenticated);
+		m_pPrefs->SetSMTPInfoEnabled(m_bSMTPInfoEnabled);
+		m_pPrefs->SetSMTPWarningEnabled(m_bSMTPWarningEnabled);
+		m_pPrefs->SetSMTPMsgInSubjEnabled(m_bSMTPMsgInSubjEnabled);
+d131 15
+d148 1
+a148 12
+		SetWindowText(GetResString(IDS_PW_SMTP));
+		GetResString(&m_strSMTPAuthenticationFrame, IDS_AUTHENTICATION);
+		GetResString(&m_strSMTPServerDesc, IDS_PW_SERVER);
+		GetResString(&m_strSMTPNameDesc, IDS_SW_NAME);
+		GetResString(&m_strSMTPFromDesc, IDS_FROM);
+		GetResString(&m_strSMTPToDesc, IDS_TO);
+		GetResString(&m_strSMTPUserNameDesc, IDS_PROXY_USERNAME);
+		GetResString(&m_strSMTPPasswordDesc, IDS_PASSWORD);
+		SMTPAuthenticatedCheck.SetWindowText(GetResString(IDS_ENABLED));
+		SMTPInfoEnabledCheck.SetWindowText(GetResString(IDS_SMTPMSG_INFO));
+		SMTPWarningEnabledCheck.SetWindowText(GetResString(IDS_SMTPMSG_WARNING));
+		SMTPMsgInSubjectCheck.SetWindowText(GetResString(IDS_SMTPMSGINSUBJECT));
+d150 5
+a154 1
+		UpdateData(FALSE);
+d162 2
+a163 2
+	SMTPUserNameEdit.EnableWindow(m_bSMTPAuthenticated);
+	SMTPPasswordEdit.EnableWindow(m_bSMTPAuthenticated);
+@
+
+
+1.9
+log
+@Crypt/Decrypt only on load/save.
+@
+text
+@d25 10
+a34 9
+	DDX_Text(pDX, IDC_SMTPSERVER, SMTPServer);
+	DDX_Text(pDX, IDC_SMTPNAME, SMTPName);
+	DDX_Text(pDX, IDC_SMTPFROM, SMTPFrom);
+	DDX_Text(pDX, IDC_SMTPTO, SMTPTo);
+	DDX_Text(pDX, IDC_SMTPUSERNAME, SMTPUserName);
+	DDX_Text(pDX, IDC_SMTPPASSWORD, SMTPPassword);
+	DDX_Check(pDX, IDC_SMTPAUTHENTICATED, SMTPAuthenticated);
+	DDX_Check(pDX, IDC_SMTPINFOENABLED, SMTPInfoEnabled);
+	DDX_Check(pDX, IDC_SMTPWARNINGENABLED, SMTPWarningEnabled);
+d44 8
+a51 7
+	DDX_Text(pDX, IDC_SMTPSERVER_LBL, SMTPServerDesc);
+	DDX_Text(pDX, IDC_SMTPNAME_LBL, SMTPNameDesc);
+	DDX_Text(pDX, IDC_SMTPFROM_LBL, SMTPFromDesc);
+	DDX_Text(pDX, IDC_SMTPTO_LBL, SMTPToDesc);
+	DDX_Text(pDX, IDC_SMTPUSERNAME_LBL, SMTPUserNameDesc);
+	DDX_Text(pDX, IDC_SMTPPASSWORD_LBL, SMTPPasswordDesc);
+	DDX_Text(pDX, IDC_SMTPAUTHENTICATION_FRM, SMTPAuthenticationFrame);
+d64 1
+d79 11
+a89 10
+	SMTPServer = m_pPrefs->GetSMTPServer();
+	SMTPName = m_pPrefs->GetSMTPName();
+	SMTPFrom = m_pPrefs->GetSMTPFrom();
+	SMTPTo = m_pPrefs->GetSMTPTo();
+	SMTPUserName = m_pPrefs->GetSMTPUserName();
+	SMTPPassword = m_pPrefs->GetSMTPPassword();
+
+	SMTPAuthenticated = m_pPrefs->IsSMTPAuthenticated();
+	SMTPInfoEnabled = m_pPrefs->IsSMTPInfoEnabled();
+	SMTPWarningEnabled = m_pPrefs->IsSMTPWarningEnabled();
+d100 1
+a100 1
+	if(m_bModified)
+d104 17
+a120 16
+		if(!SMTPServer.IsEmpty())
+			m_pPrefs->SetSMTPServer(SMTPServer);
+		if(!SMTPName.IsEmpty())
+			m_pPrefs->SetSMTPName(SMTPName);
+		if(!SMTPFrom.IsEmpty())
+			m_pPrefs->SetSMTPFrom(SMTPFrom);
+		if(!SMTPTo.IsEmpty())
+			m_pPrefs->SetSMTPTo(SMTPTo);
+		if(!SMTPUserName.IsEmpty())
+			m_pPrefs->SetSMTPUserName(SMTPUserName);
+		if(!SMTPPassword.IsEmpty())
+			m_pPrefs->SetSMTPPassword(SMTPPassword);
+
+		m_pPrefs->SetSMTPAuthenticated(SMTPAuthenticated);
+		m_pPrefs->SetSMTPInfoEnabled(SMTPInfoEnabled);
+		m_pPrefs->SetSMTPWarningEnabled(SMTPWarningEnabled);
+d132 1
+a132 1
+	if(::IsWindow(m_hWnd))
+d135 7
+a141 7
+		GetResString(&SMTPAuthenticationFrame, IDS_AUTHENTICATION);
+		GetResString(&SMTPServerDesc, IDS_PW_SERVER);
+		GetResString(&SMTPNameDesc, IDS_SW_NAME);
+		GetResString(&SMTPFromDesc, IDS_FROM);
+		GetResString(&SMTPToDesc, IDS_TO);
+		GetResString(&SMTPUserNameDesc, IDS_PROXY_USERNAME);
+		GetResString(&SMTPPasswordDesc, IDS_PASSWORD);
+d145 1
+d155 2
+a156 2
+	SMTPUserNameEdit.EnableWindow(SMTPAuthenticated);
+	SMTPPasswordEdit.EnableWindow(SMTPAuthenticated);
+@
+
+
+1.8
+log
+@removed uneeded CString object initialization
+@
+text
+@d81 1
+a81 1
+	SMTPPassword = Decrypt(m_pPrefs->GetSMTPPassword());
+d111 1
+a111 1
+			m_pPrefs->SetSMTPPassword(Crypt(SMTPPassword));
+@
+
+
+1.7
+log
+@Some clean-up.
+@
+text
+@a14 16
+	, SMTPServer(_T(""))
+	, SMTPName(_T(""))
+	, SMTPFrom(_T(""))
+	, SMTPTo(_T(""))
+	, SMTPUserName(_T(""))
+	, SMTPPassword(_T(""))
+	, SMTPAuthenticated(FALSE)
+	, SMTPInfoEnabled(FALSE)
+	, SMTPWarningEnabled(FALSE)
+	, SMTPServerDesc(_T(""))
+	, SMTPNameDesc(_T(""))
+	, SMTPFromDesc(_T(""))
+	, SMTPToDesc(_T(""))
+	, SMTPUserNameDesc(_T(""))
+	, SMTPPasswordDesc(_T(""))
+	, SMTPAuthenticationFrame(_T(""))
+d75 1
+a75 1
+{	
+d82 1
+a82 1
+	
+d95 1
+a95 1
+{	
+d99 1
+a99 1
+		
+@
+
+
+1.6
+log
+@Removed duplicate string.
+@
+text
+@a0 2
+// Apfelteig Patch ;-)
+
+d107 1
+a107 1
+	SetModified(FALSE);	// FoRcHa
+a144 1
+
+@
+
+
+1.5
+log
+@Improved preferences localization.
+@
+text
+@d155 1
+a155 1
+		GetResString(&SMTPPasswordDesc, IDS_PROXY_PASSWORD);
+@
+
+
+1.4
+log
+@Formatting, comments, and name changes.
+@
+text
+@d149 7
+a155 7
+		SMTPAuthenticationFrame = GetResString(IDS_AUTHENTICATION);
+		SMTPServerDesc = GetResString(IDS_PW_SERVER);
+		SMTPNameDesc = GetResString(IDS_SW_NAME);
+		SMTPFromDesc = GetResString(IDS_FROM);
+		SMTPToDesc = GetResString(IDS_TO);
+		SMTPUserNameDesc = GetResString(IDS_PROXY_USERNAME);
+		SMTPPasswordDesc = GetResString(IDS_PROXY_PASSWORD);
+@
+
+
+1.3
+log
+@Corrections to last code.
+@
+text
+@d94 6
+a99 6
+	SMTPServer = app_prefs->GetSMTPServer();
+	SMTPName = app_prefs->GetSMTPName();
+	SMTPFrom = app_prefs->GetSMTPFrom();
+	SMTPTo = app_prefs->GetSMTPTo();
+	SMTPUserName = app_prefs->GetSMTPUserName();
+	SMTPPassword = Decrypt(app_prefs->GetSMTPPassword());
+d101 3
+a103 3
+	SMTPAuthenticated = app_prefs->IsSMTPAuthenticated();
+	SMTPInfoEnabled = app_prefs->IsSMTPInfoEnabled();
+	SMTPWarningEnabled = app_prefs->IsSMTPWarningEnabled();
+d119 1
+a119 1
+			app_prefs->SetSMTPServer(SMTPServer);
+d121 1
+a121 1
+			app_prefs->SetSMTPName(SMTPName);
+d123 1
+a123 1
+			app_prefs->SetSMTPFrom(SMTPFrom);
+d125 1
+a125 1
+			app_prefs->SetSMTPTo(SMTPTo);
+d127 1
+a127 1
+			app_prefs->SetSMTPUserName(SMTPUserName);
+d129 1
+a129 1
+			app_prefs->SetSMTPPassword(Crypt(SMTPPassword));
+d131 3
+a133 3
+		app_prefs->SetSMTPAuthenticated(SMTPAuthenticated);
+		app_prefs->SetSMTPInfoEnabled(SMTPInfoEnabled);
+		app_prefs->SetSMTPWarningEnabled(SMTPWarningEnabled);
+@
+
+
+1.2
+log
+@Added simple encription of SMTP password.
+@
+text
+@d99 1
+a99 1
+	SMTPPassword = app_prefs->GetSMTPPassword();
+@
+
+
+1.1
+log
+@SMTP Messenger: finished code & configuration phase, now we need to add the messages.
+@
+text
+@d5 1
+d129 1
+a129 1
+			app_prefs->SetSMTPPassword(SMTPPassword);
+@
+

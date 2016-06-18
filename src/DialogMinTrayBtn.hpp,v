@@ -1,0 +1,1780 @@
+head	1.16;
+access;
+symbols
+	PublicRelease_1_2e:1.14
+	Interim_Release_1-2e_RC1:1.14
+	PublicRelease_1_2d:1.14
+	Interim_Release_1-2d_RC1:1.14
+	Interim_Release_1-2d_beta1:1.13
+	PublicRelease_1_2c:1.13
+	Interim_Release_1-2c_RC1:1.13
+	Interim_Release_1-2c_beta1:1.11
+	PublicRelease_1_2b:1.11
+	Interim_Release_1-2b_RC1:1.11
+	PublicRelease_1_2a:1.11
+	Interim_Release_1-2a_RC1:1.11
+	Interim_Release_1-2a_beta2:1.11
+	Interim_Release_1-2a_beta1:1.11
+	PublicRelease_1_2:1.11
+	Interim_Release_1-2_RC1:1.11
+	Interim_Release_1-2_beta1:1.11
+	PublicRelease_1_1g:1.11
+	Interim_Release_1-1g_RC3:1.11
+	Interim_Release_1-1g_RC2:1.11
+	Interim_Release_1-1g_RC1:1.11
+	Interim_Release_1-1g_beta2:1.9
+	Interim_Release_1-1g_beta1:1.9
+	PublicRelease_1_1f:1.9
+	Interim_Release_1-1f_RC1:1.9
+	PublicRelease_1_1e:1.9
+	Interim_Release_1-1e_RC2:1.9
+	Interim_Release_1-1e_RC1:1.9
+	Interim_Release_1-1e_beta1:1.9
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.9
+	Interim_Release_1-1b_RC1:1.9
+	PublicRelease_1_1a:1.9
+	Interim_Release_1-1a_RC2:1.9
+	Interim_Release_1-1a_RC1:1.9
+	Interim_Release_1-1a_beta2:1.9
+	Interim_Release_1-1a_beta1:1.9
+	PublicRelease_1_1:1.9
+	Interim_Release_1-1_beta1:1.9
+	PublicRelease_1o:1.9
+	Interim_Release_1o_RC1:1.9
+	Interim_Release_1o_beta1:1.9
+	PublicRelease_1n:1.9
+	Interim_Release_1n_RC2:1.9
+	Interim_Release_1n_RC1:1.9
+	Interim_Release_1n_beta2:1.9
+	Interim_Release_1n_beta1:1.9
+	PublicRelease_1m:1.9
+	Interim_Release_1m_beta1:1.9
+	PublicRelease_1l:1.9
+	Interim_Release_1l_RC3:1.9
+	Interim_Release_1l_RC2:1.8
+	Interim_Release_1l_RC1:1.8
+	Interim_Release_1l_beta2:1.8
+	Interim_Release_1l_beta1:1.8
+	PublicRelease_1k:1.8
+	Interim_Release_1k_RC4:1.8
+	Interim_1k_RC3:1.8
+	Interim_1k_RC2:1.8
+	Interim_Release_1k_RC1:1.8
+	Interim_Release_1k_beta5:1.8
+	Intrerim_Release_1k_beta4:1.8
+	Interim_Release_1k_beta1:1.8
+	PublicRelease_1j:1.8
+	Interim_Release_1J_RC3:1.8
+	Interim_Release_1j_RC3:1.8
+	Interim_Release_1j_RC2:1.8
+	Interim_Release_1j_RC1:1.8
+	Interim_Release_1j_beta2:1.8
+	Interim_Release_1j_beta1:1.8
+	PublicRelease_1i:1.8
+	Interim_Release_1i_RC6:1.8
+	Interim_Release_1i_RC3:1.8
+	Interim_Release_1i_RC2:1.8
+	Interim_Release_1i_RC1:1.8
+	Interim_Release_1i_beta3:1.8
+	Interim_Release_1i_beta2:1.8
+	Interim_Release_1i_beta1:1.7
+	PublicRelease_1h:1.5
+	Interim_Release_1h_rc2:1.5
+	Interim_Release_1h_RC1:1.5
+	Interim_Release_1h_beta2:1.5
+	Interim_Release_1h_beta1_now:1.5
+	Interim_Release_1h_beta1:1.5
+	PublicRelease_1g:1.5
+	Interim_Release_1g_RC6_Final:1.5
+	Interim_Release_1g_RC6:1.5
+	Interim_Release_1g_RC5:1.5
+	Interim_Release_1g_RC4:1.5
+	Interim_Release_1g_RC3:1.5
+	Interim_Release_1g_beta2:1.3
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.3
+	Interim_Release_1f_RC3:1.3
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.3
+	Interim_Release_1f_beta2:1.3
+	Interim_Release_1f_beta1:1.3
+	PublicRelease_1e:1.3
+	Interim_Release_1e_RC2:1.3
+	Interim_Release_1e_RC:1.3
+	Interim_Release_1e_beta3:1.3
+	Interim_Release_1e_beta2:1.3
+	Interim_Release_1e_beta2_before_kuchin:1.3
+	Interim_Release_1e_beta1:1.3
+	PublicRelease_1c:1.3
+	featurestest:1.3.0.6
+	Interim_Release_1c_RC:1.3
+	Interim_Release_1c_beta2:1.3
+	Interim_Release_1c_beta1:1.3
+	threaded_downloadqueue:1.3.0.4
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.3.0.2
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.16
+date	2009.07.31.12.40.32;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2009.06.28.04.22.45;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.03.03.04.38.38;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.04.08.22.30.45;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.04.03.18.57.39;	author kush_eplus;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.06.08.16.12.36;	author katsyonak;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.24.01.21.19;	author morevit;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.02.00.58.14;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.01.15.08.35;	author eklmn;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.06.14.13.05.58;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.06.09.20.57.48;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.26.03.26.50;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches
+	1.2.2.1;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.17;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.03;	author cax2;	state Exp;
+branches;
+next	;
+
+1.2.2.1
+date	2003.02.28.22.44.54;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.16
+log
+@Some improvement for newer compilers (from original).
+@
+text
+@// ------------------------------------------------------------
+//  CDialogMinTrayBtn template class
+//  MFC CDialog with minimize to systemtray button (0.04a)
+//  Supports WinXP styles (thanks to David Yuheng Zhao for CVisualStylesXP - yuheng_zhao@@yahoo.com)
+// ------------------------------------------------------------
+//  DialogMinTrayBtn.hpp
+//  zegzav - 2002,2003 - eMule project (http://www.emule-project.net)
+// ------------------------------------------------------------
+
+#include "AfxBeginMsgMapTemplate.h"
+
+#define CAPTION_BUTTONSPACE		(2)
+
+#define TIMERMINTRAYBTN_ID		0x76617a67
+#define TIMERMINTRAYBTN_PERIOD	200	// ms
+
+BEGIN_TM_PART_STATES(TRAYBUTTON)
+	TM_STATE(1, TRAYBS, NORMAL)
+	TM_STATE(2, TRAYBS, HOT)
+	TM_STATE(3, TRAYBS, PUSHED)
+	TM_STATE(4, TRAYBS, DISABLED)
+	// Inactive
+	TM_STATE(5, TRAYBS, INORMAL)
+	TM_STATE(6, TRAYBS, IHOT)
+	TM_STATE(7, TRAYBS, IPUSHED)
+	TM_STATE(8, TRAYBS, IDISABLED)
+END_TM_PART_STATES()
+
+#define BMP_TRAYBTN_WIDTH		(21)
+#define BMP_TRAYBTN_HEIGHT		(21)
+#define BMP_TRAYBTN_BLUE		_T("IDB_LUNA_BLUE")
+#define BMP_TRAYBTN_METALLIC	_T("IDB_LUNA_METALLIC")
+#define BMP_TRAYBTN_HOMESTEAD	_T("IDB_LUNA_HOMESTEAD")
+#define BMP_TRAYBTN_TRANSCOLOR	(RGB(255,0,255))
+
+#define VISUALSTYLESXP_DEFAULTFILE		L"LUNA.MSSTYLES"
+#define VISUALSTYLESXP_NAMEBLUE			L"NORMALCOLOR"
+#define VISUALSTYLESXP_NAMEMETALLIC		L"METALLIC"
+#define VISUALSTYLESXP_NAMEHOMESTEAD	L"HOMESTEAD"
+
+// _WIN32_WINNT >= 0x0501 (XP only)
+#define _WM_THEMECHANGED	0x031A
+#if _MFC_VER>=0x0800
+#define _ON_WM_THEMECHANGED() \
+	{ _WM_THEMECHANGED, 0, 0, 0, AfxSig_l, \
+		(AFX_PMSG)(AFX_PMSGW) \
+		(static_cast< LRESULT (AFX_MSG_CALL CWnd::*)(void) > ( &ThisClass :: _OnThemeChanged)) },
+#else
+#define _ON_WM_THEMECHANGED()														\
+	{	_WM_THEMECHANGED, 0, 0, 0, AfxSig_l,										\
+		(AFX_PMSG)(AFX_PMSGW)														\
+		(static_cast< LRESULT (AFX_MSG_CALL CWnd::*)(void) > (_OnThemeChanged))		\
+	},
+#endif
+
+template <class BASE> CThemeHelperST CDialogMinTrayBtn<BASE>::m_themeHelper = CThemeHelperST();
+
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn() :
+	m_MinTrayBtnPos(0,0), m_MinTrayBtnSize(0,0), m_bMinTrayBtnEnabled(TRUE), m_bMinTrayBtnVisible(TRUE),
+	m_bMinTrayBtnUp(TRUE), m_bMinTrayBtnCapture(FALSE), m_bMinTrayBtnActive(FALSE), m_bMinTrayBtnHitTest(FALSE),
+	m_pfnTransparentBlt(NULL), m_hMsImg32(NULL)
+{
+	MinTrayBtnInit();
+}
+
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn(LPCTSTR lpszTemplateName, CWnd *pParentWnd) : BASE(lpszTemplateName, pParentWnd),
+	m_MinTrayBtnPos(0,0), m_MinTrayBtnSize(0,0), m_bMinTrayBtnEnabled(TRUE), m_bMinTrayBtnVisible(TRUE),
+	m_bMinTrayBtnUp(TRUE), m_bMinTrayBtnCapture(FALSE), m_bMinTrayBtnActive(FALSE), m_bMinTrayBtnHitTest(FALSE),
+	m_pfnTransparentBlt(NULL), m_hMsImg32(NULL)
+{
+	MinTrayBtnInit();
+}
+
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn(UINT nIDTemplate, CWnd* pParentWnd) : BASE(nIDTemplate, pParentWnd),
+	m_MinTrayBtnPos(0,0), m_MinTrayBtnSize(0,0), m_bMinTrayBtnEnabled(TRUE), m_bMinTrayBtnVisible(TRUE),
+	m_bMinTrayBtnUp(TRUE), m_bMinTrayBtnCapture(FALSE), m_bMinTrayBtnActive(FALSE), m_bMinTrayBtnHitTest(FALSE),
+	m_pfnTransparentBlt(NULL), m_hMsImg32(NULL)
+{
+	MinTrayBtnInit();
+}
+
+template <class BASE> CDialogMinTrayBtn<BASE>::~CDialogMinTrayBtn()
+{
+	if (m_hMsImg32 != NULL)
+		FreeLibrary(m_hMsImg32);
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnInit()
+{
+	m_nMinTrayBtnTimerId = 0;
+
+	// - Never use the 'TransparentBlt' function under Win9x (read SDK)
+	// - Load the 'MSIMG32.DLL' only, if it's really needed.
+	MinTrayBtnInitBitmap();
+	if (g_App.m_pPrefs->GetWindowsVersion() != _WINVER_95_ && m_pfnTransparentBlt == NULL)
+	{
+		m_hMsImg32 = LoadLibrary(_T("MSIMG32.DLL"));
+
+		if (m_hMsImg32 != NULL)
+		{
+			(FARPROC &)m_pfnTransparentBlt = GetProcAddress(m_hMsImg32, "TransparentBlt");
+			if (m_pfnTransparentBlt == NULL)
+			{
+				FreeLibrary(m_hMsImg32);
+				m_hMsImg32 = NULL;
+			}
+		}
+	}
+}
+
+BEGIN_MESSAGE_MAP_TEMPLATE(template <class BASE>, CDialogMinTrayBtn<BASE>, CDialogMinTrayBtn, BASE)
+	ON_WM_NCPAINT()
+	ON_WM_NCACTIVATE()
+	ON_WM_NCHITTEST()
+	ON_WM_NCLBUTTONDOWN()
+	ON_WM_NCRBUTTONDOWN()
+	ON_WM_LBUTTONUP()
+	ON_WM_MOUSEMOVE()
+	ON_WM_TIMER()
+	_ON_WM_THEMECHANGED()
+END_MESSAGE_MAP()
+
+template <class BASE> BOOL CDialogMinTrayBtn<BASE>::OnInitDialog()
+{
+	BOOL	bReturn = BASE::OnInitDialog();
+
+	m_nMinTrayBtnTimerId = SetTimer(TIMERMINTRAYBTN_ID, TIMERMINTRAYBTN_PERIOD, NULL);
+	return bReturn;
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::OnNcPaint() 
+{
+	BASE::OnNcPaint();
+	MinTrayBtnUpdatePosAndSize();
+	MinTrayBtnDraw();
+}
+
+template <class BASE> BOOL CDialogMinTrayBtn<BASE>::OnNcActivate(BOOL bActive)
+{
+	MinTrayBtnUpdatePosAndSize();
+
+	BOOL	bResult = BASE::OnNcActivate(bActive);
+
+	m_bMinTrayBtnActive = bActive;
+	MinTrayBtnDraw();
+	return bResult;
+}
+
+#if _MFC_VER>=0x0800
+template <class BASE> LRESULT CDialogMinTrayBtn<BASE>::OnNcHitTest(CPoint point)
+#else
+template <class BASE> UINT CDialogMinTrayBtn<BASE>::OnNcHitTest(CPoint point)
+#endif
+{
+	BOOL	bPreviousHitTest = m_bMinTrayBtnHitTest;
+
+	m_bMinTrayBtnHitTest = MinTrayBtnHitTest(point);
+	if (!IsWindowsClassicStyle() && m_bMinTrayBtnHitTest != bPreviousHitTest)
+		MinTrayBtnDraw();	// Windows XP Style (hot button)
+	if (m_bMinTrayBtnHitTest)
+		return HTMINTRAYBUTTON;
+	return BASE::OnNcHitTest(point);
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::OnNcLButtonDown(UINT nHitTest, CPoint point) 
+{
+	if ((GetStyle() & WS_DISABLED) != 0 || (!MinTrayBtnIsEnabled()) || (!MinTrayBtnIsVisible()) || (!MinTrayBtnHitTest(point)))
+	{
+		BASE::OnNcLButtonDown(nHitTest, point);
+		return;
+	}
+
+	SetCapture();
+	m_bMinTrayBtnCapture = TRUE;
+	MinTrayBtnSetDown();
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::OnNcRButtonDown(UINT nHitTest, CPoint point) 
+{
+	if ((GetStyle() & WS_DISABLED) != 0 || (!MinTrayBtnIsVisible()) || (!MinTrayBtnHitTest(point)))
+		BASE::OnNcRButtonDown(nHitTest, point);
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::OnMouseMove(UINT nFlags, CPoint point) 
+{
+	if ((GetStyle() & WS_DISABLED) != 0 || (!m_bMinTrayBtnCapture))
+	{ 
+		BASE::OnMouseMove(nFlags, point);
+		return;
+	}
+
+	ClientToScreen(&point);
+	m_bMinTrayBtnHitTest = MinTrayBtnHitTest(point);
+	if (m_bMinTrayBtnHitTest)
+	{
+		if (m_bMinTrayBtnUp)
+			MinTrayBtnSetDown();
+	}
+	else if (!m_bMinTrayBtnUp)
+		MinTrayBtnSetUp();
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::OnLButtonUp(UINT nFlags, CPoint point) 
+{
+	if ((GetStyle() & WS_DISABLED) || (!m_bMinTrayBtnCapture))
+	{
+		BASE::OnLButtonUp(nFlags, point);
+		return;
+	}
+
+	ReleaseCapture();
+	m_bMinTrayBtnCapture = FALSE;
+	MinTrayBtnSetUp();
+
+	ClientToScreen(&point);
+	if (MinTrayBtnHitTest(point))
+		SendMessage(WM_SYSCOMMAND, SC_MINIMIZETRAY, MAKEWPARAM(point.x, point.y)); 
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::OnTimer(UINT_PTR nIDEvent)
+{
+	if (!IsWindowsClassicStyle() && (nIDEvent == m_nMinTrayBtnTimerId))
+	{
+	//	Visual XP Style (hot button)
+		CPoint	point;
+
+		GetCursorPos(&point);
+
+		BOOL	bHitTest = MinTrayBtnHitTest(point);
+
+		if (m_bMinTrayBtnHitTest != bHitTest)
+		{
+			m_bMinTrayBtnHitTest = bHitTest;
+			MinTrayBtnDraw();
+		}
+	}
+}
+
+template <class BASE> LRESULT CDialogMinTrayBtn<BASE>::_OnThemeChanged()
+{
+	MinTrayBtnInitBitmap();
+	return 0;
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnUpdatePosAndSize()
+{
+	bool	bNrmWnd = (GetExStyle() & WS_EX_TOOLWINDOW) == 0;
+	int		iXSz;
+
+	if (IsWindowsClassicStyle())
+		iXSz = GetSystemMetrics(bNrmWnd ? SM_CXSIZE : SM_CXSMSIZE) - 2;
+	else
+	//	SM_SX*SIZE seems wrong when theming is on, as buttons are squares, we use Y size.
+		iXSz = GetSystemMetrics(bNrmWnd ? SM_CYSIZE : SM_CYSMSIZE) - 4;
+
+	m_MinTrayBtnSize = CSize(iXSz, GetSystemMetrics(bNrmWnd ? SM_CYSIZE : SM_CYSMSIZE) - 4);
+
+	DWORD	dwStyle = GetStyle();
+	bool	bSzFrm = (dwStyle & WS_THICKFRAME) != 0;
+	CRect	rcWnd;
+
+	GetWindowRect(&rcWnd);
+	iXSz += CAPTION_BUTTONSPACE;
+
+	m_MinTrayBtnPos = CSize( rcWnd.Width() - ((iXSz + CAPTION_BUTTONSPACE) << 1) + GetSystemMetrics(bSzFrm ? SM_CXSIZEFRAME : SM_CXFIXEDFRAME),
+		CAPTION_BUTTONSPACE + GetSystemMetrics(bSzFrm ? SM_CYSIZEFRAME : SM_CYFIXEDFRAME) );
+
+//	If it isn't a toolbox and minimize/maximize buttons are present, include their size
+	if (bNrmWnd && (dwStyle & (WS_MINIMIZEBOX | WS_MAXIMIZEBOX)) != 0)
+		m_MinTrayBtnPos.x -= IsWindowsClassicStyle() ? ((iXSz << 1) + CAPTION_BUTTONSPACE) : ((iXSz + CAPTION_BUTTONSPACE) << 1);
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnShow()
+{
+	if (MinTrayBtnIsVisible())
+		return;
+
+	m_bMinTrayBtnVisible = TRUE;
+	if (IsWindowVisible())
+		RedrawWindow(NULL, NULL, RDW_FRAME | RDW_INVALIDATE | RDW_UPDATENOW);
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnHide()
+{
+	if (!MinTrayBtnIsVisible())
+		return;
+
+	m_bMinTrayBtnVisible = FALSE;
+	if (IsWindowVisible())
+		RedrawWindow(NULL, NULL, RDW_FRAME | RDW_INVALIDATE | RDW_UPDATENOW);
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnEnable()
+{
+	if (MinTrayBtnIsEnabled())
+		return;
+
+	m_bMinTrayBtnEnabled = TRUE;
+	MinTrayBtnSetUp();
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnDisable()
+{
+	if (!MinTrayBtnIsEnabled())
+		return;
+
+	m_bMinTrayBtnEnabled = FALSE;
+	if (m_bMinTrayBtnCapture)
+	{
+		ReleaseCapture();
+		m_bMinTrayBtnCapture = FALSE;
+	}
+	MinTrayBtnSetUp();
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnDraw()
+{
+	if (!MinTrayBtnIsVisible())
+		return;
+
+	CDC	*pDC = GetWindowDC();
+
+	if (pDC == NULL)
+		return;
+
+	CRect	rcBtn = MinTrayBtnGetRect();
+	UINT	uiState;
+
+	if (IsWindowsClassicStyle())
+	{
+	//	Button
+		uiState = DFCS_BUTTONPUSH;
+
+		if (!m_bMinTrayBtnUp)
+			uiState |= DFCS_PUSHED;
+
+		pDC->DrawFrameControl(rcBtn, DFC_BUTTON, uiState);
+
+	//	Dot
+		rcBtn.DeflateRect(2,2);
+
+		UINT	iCptWdth = MinTrayBtnGetSize().cy + (CAPTION_BUTTONSPACE << 1);
+		UINT	iPixRatio1 = iCptWdth >= 20 ? 2 + ((iCptWdth - 20) >> 3) : (iCptWdth >= 14 ? 2 : 1);
+		UINT	iPixRatio2 = iCptWdth >= 12 ? 1 + ((iCptWdth - 12) >> 3) : 0;
+		CRect	rcDot(CPoint(0, 0), CPoint((1 + iPixRatio1 * 3) >> 1, iPixRatio1));
+		CSize	szSpc((1 + iPixRatio2 * 3) >> 1, iPixRatio2);
+
+		rcDot += rcBtn.BottomRight() - rcDot.Size() - szSpc;
+
+		if (!m_bMinTrayBtnUp)
+			rcDot += CPoint(1, 1);
+
+		int	iColor = COLOR_BTNTEXT;
+
+		if (!m_bMinTrayBtnEnabled)
+		{
+			iColor = COLOR_GRAYTEXT;
+			pDC->FillSolidRect(rcDot + CPoint(1, 1), GetSysColor(COLOR_BTNHILIGHT));
+		}
+		pDC->FillSolidRect(rcDot, GetSysColor(iColor));
+	}
+	else
+	{
+	//	VisualStylesXP
+		uiState = MINBS_NORMAL;
+
+		if (!m_bMinTrayBtnEnabled)
+			uiState = TRAYBS_DISABLED;
+		else if ((GetStyle() & WS_DISABLED) == 0 && m_bMinTrayBtnHitTest)
+			uiState = (m_bMinTrayBtnCapture) ? MINBS_PUSHED : MINBS_HOT;
+
+	//	Inactive
+		if (!m_bMinTrayBtnActive)
+			uiState += 4;	// Inactive state TRAYBS_Ixxx
+
+		if (m_bmMinTrayBtnBitmap.m_hObject != NULL && m_pfnTransparentBlt != NULL)
+		{
+		//	Known theme (bitmap)
+			CBitmap	*pBmpOld;
+			CDC		dcMem;
+
+			if (dcMem.CreateCompatibleDC(pDC) && (pBmpOld = dcMem.SelectObject(&m_bmMinTrayBtnBitmap)) != NULL)
+			{
+				m_pfnTransparentBlt( pDC->m_hDC, rcBtn.left, rcBtn.top, rcBtn.Width(), rcBtn.Height(), dcMem.m_hDC, 0,
+					BMP_TRAYBTN_HEIGHT * (uiState - 1), BMP_TRAYBTN_WIDTH, BMP_TRAYBTN_HEIGHT, BMP_TRAYBTN_TRANSCOLOR );
+				dcMem.SelectObject(pBmpOld);
+			}
+		}
+		else
+		{
+			HTHEME	hTheme = m_themeHelper.OpenThemeData(m_hWnd, L"Window");
+
+			if (hTheme != NULL)
+			{
+				m_themeHelper.DrawThemeBackground(hTheme, NULL, pDC->m_hDC, WP_MINBUTTON, uiState, &rcBtn, NULL);
+				m_themeHelper.CloseThemeData(hTheme);
+			}
+		}
+	}
+
+	ReleaseDC(pDC);
+}
+
+template <class BASE> BOOL CDialogMinTrayBtn<BASE>::MinTrayBtnHitTest(CPoint point) const
+{
+	CRect	r;
+
+	GetWindowRect(&r);
+	point.Offset(-r.TopLeft());
+	r = MinTrayBtnGetRect();
+	r.InflateRect(0, CAPTION_BUTTONSPACE);
+	return r.PtInRect(point);
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnSetUp()
+{
+	m_bMinTrayBtnUp = TRUE;
+	MinTrayBtnDraw();
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::MinTrayBtnSetDown()
+{
+	m_bMinTrayBtnUp = FALSE;
+	MinTrayBtnDraw();
+}
+
+template <class BASE> BOOL CDialogMinTrayBtn<BASE>::IsWindowsClassicStyle() const
+{
+	return m_bMinTrayBtnWindowsClassicStyle;
+}
+
+template <class BASE> void CDialogMinTrayBtn<BASE>::SetWindowText(LPCTSTR lpszString)
+{
+	BASE::SetWindowText(lpszString);
+	MinTrayBtnDraw();
+}
+
+template <class BASE> TCHAR* CDialogMinTrayBtn<BASE>::GetVisualStylesXPColor()
+{
+	if (IsWindowsClassicStyle())
+		return NULL;
+
+	WCHAR	szwThemeFile[MAX_PATH];
+	WCHAR	szwThemeColor[256];
+
+	if (m_themeHelper.GetCurrentThemeName(szwThemeFile, ARRSIZE(szwThemeFile), szwThemeColor, ARRSIZE(szwThemeColor), NULL, 0) != S_OK)
+		return NULL;
+
+	WCHAR	*p;
+
+	if ((p = wcsrchr(szwThemeFile, L'\\')) == NULL)
+		return NULL;
+
+	if (_wcsicmp(++p, VISUALSTYLESXP_DEFAULTFILE) == 0)
+	{
+		if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEBLUE) == 0)
+			return BMP_TRAYBTN_BLUE;
+		else if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEMETALLIC) == 0)
+			return BMP_TRAYBTN_METALLIC;
+		else if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEHOMESTEAD) == 0)
+			return BMP_TRAYBTN_HOMESTEAD;
+	}
+
+	return NULL;
+}
+
+template <class BASE> BOOL CDialogMinTrayBtn<BASE>::MinTrayBtnInitBitmap()
+{
+	m_bMinTrayBtnWindowsClassicStyle = !m_themeHelper.IsThemeActive() || !m_themeHelper.IsAppThemed();
+
+	m_bmMinTrayBtnBitmap.DeleteObject();
+
+	TCHAR	*pcBmp;
+
+	if ((pcBmp = GetVisualStylesXPColor()) == NULL)
+		return FALSE;
+
+	return m_bmMinTrayBtnBitmap.LoadBitmap(pcBmp);
+}
+@
+
+
+1.15
+log
+@Reduced H-file dependency.
+@
+text
+@d43 6
+d54 1
+@
+
+
+1.14
+log
+@ELEMENT_COUNT -> ARRSIZE.
+@
+text
+@a10 1
+#include "emule.h"
+@
+
+
+1.13
+log
+@Fixed recently introduced issues; Formatting.
+@
+text
+@d440 1
+a440 1
+	if (m_themeHelper.GetCurrentThemeName(szwThemeFile, ELEMENT_COUNT(szwThemeFile), szwThemeColor, ELEMENT_COUNT(szwThemeColor), NULL, 0) != S_OK)
+@
+
+
+1.12
+log
+@Merged theme code into ThemeHelperST, remove VisualStylesXP;
+Some updates from original, code cleanup and optimization;
+Fixed MinTray button size and position
+@
+text
+@d60 1
+a60 1
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn(LPCTSTR lpszTemplateName, CWnd *pParentWnd) : CResizableDialog(lpszTemplateName, pParentWnd),
+d68 1
+a68 1
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn(UINT nIDTemplate, CWnd* pParentWnd) : CResizableDialog(nIDTemplate, pParentWnd),
+a90 1
+
+d451 5
+a455 5
+	        return BMP_TRAYBTN_BLUE;
+	    else if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEMETALLIC) == 0)
+	        return BMP_TRAYBTN_METALLIC;
+	    else if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEHOMESTEAD) == 0)
+	        return BMP_TRAYBTN_HOMESTEAD;
+@
+
+
+1.11
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a10 2
+#include "DialogMinTrayBtn.h"
+#include "VisualStylesXP.h"
+d13 1
+d15 2
+a16 11
+// ------------------------------
+//  constants
+// ------------------------------
+
+#define CAPTION_BUTTONSPACE      (2)
+#define CAPTION_MINHEIGHT        (8)
+
+#define TIMERMINTRAYBTN_ID       0x76617a67
+#define TIMERMINTRAYBTN_PERIOD   200    // ms
+
+#define WP_TRAYBUTTON WP_MINBUTTON
+d19 4
+a22 4
+    TM_STATE(1, TRAYBS, NORMAL)
+    TM_STATE(2, TRAYBS, HOT)
+    TM_STATE(3, TRAYBS, PUSHED)
+    TM_STATE(4, TRAYBS, DISABLED)
+d24 4
+a27 4
+    TM_STATE(5, TRAYBS, INORMAL)	
+    TM_STATE(6, TRAYBS, IHOT)
+    TM_STATE(7, TRAYBS, IPUSHED)
+    TM_STATE(8, TRAYBS, IDISABLED)
+a36 2
+template <class BASE> const TCHAR *CDialogMinTrayBtn<BASE>::m_pszMinTrayBtnBmpName[] = { BMP_TRAYBTN_BLUE, BMP_TRAYBTN_METALLIC, BMP_TRAYBTN_HOMESTEAD };
+
+a37 3
+#define VISUALSTYLESXP_BLUE				0
+#define VISUALSTYLESXP_METALLIC			1
+#define VISUALSTYLESXP_HOMESTEAD		2
+d43 1
+a43 1
+#define _WM_THEMECHANGED                0x031A	
+d50 1
+a50 2
+// _WIN32_WINDOWS >= 0x0410 (95 not supported)
+template <class BASE> BOOL (WINAPI *CDialogMinTrayBtn<BASE>::_TransparentBlt)(HDC, int, int, int, int, HDC, int, int, int, int, UINT)= NULL;
+d52 7
+d60 4
+a63 7
+// ------------------------------
+//  contructor/init
+// ------------------------------
+
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn() :
+    m_MinTrayBtnPos(0,0), m_MinTrayBtnSize(0,0), m_bMinTrayBtnEnabled(TRUE), m_bMinTrayBtnVisible(TRUE), 
+    m_bMinTrayBtnUp(TRUE), m_bMinTrayBtnCapture(FALSE), m_bMinTrayBtnActive(FALSE), m_bMinTrayBtnHitTest(FALSE)
+d65 1
+a65 1
+    MinTrayBtnInit();
+d68 4
+a71 3
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn(LPCTSTR lpszTemplateName, CWnd* pParentWnd) : BASE(lpszTemplateName, pParentWnd),
+    m_MinTrayBtnPos(0,0), m_MinTrayBtnSize(0,0), m_bMinTrayBtnEnabled(TRUE), m_bMinTrayBtnVisible(TRUE), 
+    m_bMinTrayBtnUp(TRUE), m_bMinTrayBtnCapture(FALSE), m_bMinTrayBtnActive(FALSE), m_bMinTrayBtnHitTest(FALSE)
+d73 1
+a73 1
+    MinTrayBtnInit();
+d76 1
+a76 3
+template <class BASE> CDialogMinTrayBtn<BASE>::CDialogMinTrayBtn(UINT nIDTemplate, CWnd* pParentWnd) : BASE(nIDTemplate, pParentWnd),
+    m_MinTrayBtnPos(0,0), m_MinTrayBtnSize(0,0), m_bMinTrayBtnEnabled(TRUE), m_bMinTrayBtnVisible(TRUE), 
+    m_bMinTrayBtnUp(TRUE), m_bMinTrayBtnCapture(FALSE), m_bMinTrayBtnActive(FALSE), m_bMinTrayBtnHitTest(FALSE)
+d78 2
+a79 1
+    MinTrayBtnInit();
+d84 2
+a85 2
+	m_nMinTrayBtnTimerId= 0;
+	bool bBmpResult = MinTrayBtnInitBitmap();
+d88 2
+a89 1
+	if (g_App.m_pPrefs->GetWindowsVersion() != _WINVER_95_ && bBmpResult && !_TransparentBlt)
+d91 4
+a94 2
+		HMODULE	hMsImg32= LoadLibrary(_T("MSIMG32.DLL"));
+		if (hMsImg32)
+d96 6
+a101 3
+			(FARPROC &)_TransparentBlt= GetProcAddress(hMsImg32, "TransparentBlt");
+			if (!_TransparentBlt)
+				FreeLibrary(hMsImg32);
+a105 1
+
+d107 8
+a114 8
+    ON_WM_NCPAINT()
+    ON_WM_NCACTIVATE()
+    ON_WM_NCHITTEST()
+    ON_WM_NCLBUTTONDOWN()
+    ON_WM_NCRBUTTONDOWN()
+    ON_WM_LBUTTONUP()
+    ON_WM_MOUSEMOVE()
+    ON_WM_TIMER()
+a117 4
+// ------------------------------
+//  messages
+// ------------------------------
+
+d120 4
+a123 3
+     BOOL bReturn= BASE::OnInitDialog();
+     m_nMinTrayBtnTimerId= SetTimer(TIMERMINTRAYBTN_ID, TIMERMINTRAYBTN_PERIOD, NULL);
+     return bReturn;
+d128 3
+a130 3
+    BASE::OnNcPaint();
+    MinTrayBtnUpdatePosAndSize();
+    MinTrayBtnDraw();
+d135 7
+a141 5
+    MinTrayBtnUpdatePosAndSize();
+    BOOL bResult= BASE::OnNcActivate(bActive);
+    m_bMinTrayBtnActive= bActive;
+    MinTrayBtnDraw();
+    return bResult;
+d144 3
+d148 1
+d150 8
+a157 9
+    BOOL bPreviousHitTest= m_bMinTrayBtnHitTest;
+    m_bMinTrayBtnHitTest= MinTrayBtnHitTest(point);
+    if ((!IsWindowsClassicStyle()) && (m_bMinTrayBtnHitTest != bPreviousHitTest))
+        MinTrayBtnDraw(); // Windows XP Style (hot button)
+    if (m_bMinTrayBtnHitTest)
+    {
+       return HTMINTRAYBUTTON;
+    }
+    return BASE::OnNcHitTest(point);
+d162 9
+a170 9
+    if ((GetStyle() & WS_DISABLED) || (!MinTrayBtnIsEnabled()) || (!MinTrayBtnIsVisible()) || (!MinTrayBtnHitTest(point)))
+    {
+        BASE::OnNcLButtonDown(nHitTest, point);
+        return;
+    }
+
+    SetCapture();
+    m_bMinTrayBtnCapture= TRUE;
+    MinTrayBtnSetDown();
+d175 2
+a176 2
+    if ((GetStyle() & WS_DISABLED) || (!MinTrayBtnIsVisible()) || (!MinTrayBtnHitTest(point)))
+        BASE::OnNcRButtonDown(nHitTest, point);
+d181 15
+a195 18
+    if ((GetStyle() & WS_DISABLED) || (!m_bMinTrayBtnCapture))
+    { 
+        BASE::OnMouseMove(nFlags, point);
+        return;
+    }
+
+    ClientToScreen(&point);
+    m_bMinTrayBtnHitTest= MinTrayBtnHitTest(point);
+    if (m_bMinTrayBtnHitTest)
+    {
+        if (m_bMinTrayBtnUp)
+            MinTrayBtnSetDown();
+    }
+    else
+    {
+        if (!m_bMinTrayBtnUp)
+            MinTrayBtnSetUp();
+    }
+d200 13
+a212 13
+    if ((GetStyle() & WS_DISABLED) || (!m_bMinTrayBtnCapture))
+    {
+        BASE::OnLButtonUp(nFlags, point);
+        return;
+    }
+
+    ReleaseCapture();
+    m_bMinTrayBtnCapture= FALSE;
+    MinTrayBtnSetUp();
+
+    ClientToScreen(&point);
+    if (MinTrayBtnHitTest(point))
+       SendMessage(WM_SYSCOMMAND, SC_MINIMIZETRAY, MAKELONG(point.x, point.y)); 
+d217 15
+a231 12
+    if ((!IsWindowsClassicStyle()) && (nIDEvent == m_nMinTrayBtnTimerId))
+    {
+        // Visual XP Style (hot button)
+        CPoint point;
+        GetCursorPos(&point);
+        BOOL bHitTest= MinTrayBtnHitTest(point);
+        if (m_bMinTrayBtnHitTest != bHitTest)
+        {
+            m_bMinTrayBtnHitTest= bHitTest;
+            MinTrayBtnDraw();
+        }
+    }
+a235 1
+	// BASE::OnThemeChanged();
+a239 5
+
+// ------------------------------
+//  methods
+// ------------------------------
+
+d242 2
+a243 2
+    DWORD dwStyle= GetStyle();
+    DWORD dwExStyle= GetExStyle();
+d245 2
+a246 15
+    INT cyCaption = ((dwExStyle & WS_EX_TOOLWINDOW) == 0) ? GetSystemMetrics(SM_CYCAPTION) - 1 : GetSystemMetrics(SM_CYSMCAPTION) - 1;
+    if (cyCaption < CAPTION_MINHEIGHT)
+		cyCaption = CAPTION_MINHEIGHT;
+
+    CSize borderfixed(-GetSystemMetrics(SM_CXFIXEDFRAME), GetSystemMetrics(SM_CYFIXEDFRAME));
+    CSize bordersize(-GetSystemMetrics(SM_CXSIZEFRAME), GetSystemMetrics(SM_CYSIZEFRAME));
+
+    CRect rcWnd;
+    GetWindowRect(&rcWnd);
+
+	// get Windows' frame window button width/height (this may not always be a square!)
+    CSize szBtn;
+    szBtn.cy = cyCaption - (CAPTION_BUTTONSPACE * 2);
+    if (IsWindowsClassicStyle())
+		szBtn.cx = GetSystemMetrics(SM_CXSIZE) - 2;
+d248 2
+a249 1
+		szBtn.cx = GetSystemMetrics(SM_CXSIZE) - 4;
+d251 8
+a258 12
+	// set our frame window button width/height...
+	if (IsWindowsClassicStyle())
+	{
+		// ...this is same as Windows' buttons for non WinXP
+		m_MinTrayBtnSize = szBtn;
+	}
+	else
+	{
+		// ...this is a square for WinXP
+		m_MinTrayBtnSize.cx = szBtn.cy;
+		m_MinTrayBtnSize.cy = szBtn.cy;
+	}
+d260 2
+a261 2
+	m_MinTrayBtnPos.x = rcWnd.Width() - (CAPTION_BUTTONSPACE + m_MinTrayBtnSize.cx + CAPTION_BUTTONSPACE + szBtn.cx);
+    m_MinTrayBtnPos.y= CAPTION_BUTTONSPACE;
+d263 4
+a266 19
+    if ((dwStyle & WS_THICKFRAME) != 0)
+    {
+        // resizable window
+        m_MinTrayBtnPos+= bordersize;
+    }
+    else
+    {
+        // fixed window
+        m_MinTrayBtnPos+= borderfixed;
+    }
+
+    if ( ((dwExStyle & WS_EX_TOOLWINDOW) == 0) && (((dwStyle & WS_MINIMIZEBOX) != 0) || ((dwStyle & WS_MAXIMIZEBOX) != 0)) )
+    {
+        if (IsWindowsClassicStyle())
+            m_MinTrayBtnPos.x -= (szBtn.cx * 2) + CAPTION_BUTTONSPACE;
+        else
+            m_MinTrayBtnPos.x -= (szBtn.cx + CAPTION_BUTTONSPACE) * 2;
+    }
+ }
+d270 2
+a271 2
+    if (MinTrayBtnIsVisible())
+       return;
+d273 3
+a275 5
+    m_bMinTrayBtnVisible= TRUE;
+    if (IsWindowVisible())
+    {
+        RedrawWindow(NULL, NULL, RDW_FRAME | RDW_INVALIDATE | RDW_UPDATENOW);
+    }
+d280 2
+a281 2
+    if (!MinTrayBtnIsVisible())
+       return;
+d283 3
+a285 5
+    m_bMinTrayBtnVisible= FALSE;
+    if (IsWindowVisible())
+    {
+        RedrawWindow(NULL, NULL, RDW_FRAME | RDW_INVALIDATE | RDW_UPDATENOW);
+    }
+d290 2
+a291 2
+    if (MinTrayBtnIsEnabled())
+       return;
+d293 2
+a294 2
+    m_bMinTrayBtnEnabled= TRUE;
+    MinTrayBtnSetUp();
+d299 2
+a300 2
+    if (!MinTrayBtnIsEnabled())
+       return;
+d302 7
+a308 7
+    m_bMinTrayBtnEnabled= FALSE;
+    if (m_bMinTrayBtnCapture)
+    {
+       ReleaseCapture();
+       m_bMinTrayBtnCapture= FALSE;
+    }
+    MinTrayBtnSetUp();
+d313 2
+a314 2
+    if (!MinTrayBtnIsVisible())
+       return;
+d316 1
+a316 1
+	CDC *pDC= GetWindowDC();
+d318 5
+a322 1
+	if (!pDC) return; // panic!
+d326 16
+a341 3
+		CBrush black(GetSysColor(COLOR_BTNTEXT));
+		CBrush gray(GetSysColor(COLOR_GRAYTEXT));
+		CBrush gray2(GetSysColor(COLOR_BTNHILIGHT));
+d343 1
+a343 5
+		// button
+		if (m_bMinTrayBtnUp)
+			pDC->DrawFrameControl(MinTrayBtnGetRect(), DFC_BUTTON, DFCS_BUTTONPUSH);
+		else
+			pDC->DrawFrameControl(MinTrayBtnGetRect(), DFC_BUTTON, DFCS_BUTTONPUSH | DFCS_PUSHED);
+a344 13
+        	// dot
+        	CRect btn= MinTrayBtnGetRect();
+		btn.DeflateRect(2,2);
+		UINT caption= MinTrayBtnGetSize().cy + (CAPTION_BUTTONSPACE * 2);
+		UINT pixratio= (caption >= 14) ? ((caption >= 20) ? 2 + ((caption - 20) / 8) : 2) : 1;
+		UINT pixratio2= (caption >= 12) ? 1 + (caption - 12) / 8: 0;
+		UINT dotwidth= (1 + pixratio * 3) >> 1;
+		UINT dotheight= pixratio;
+		CRect dot(CPoint(0,0), CPoint(dotwidth, dotheight));
+		CSize spc((1 + pixratio2 * 3) >> 1, pixratio2);
+		dot-= dot.Size();
+		dot+= btn.BottomRight();
+		dot-= spc;
+d346 5
+a350 2
+			dot+= CPoint(1,1);
+		if (m_bMinTrayBtnEnabled)
+d352 2
+a353 11
+			CBrush* pOldBrush = pDC->SelectObject(&black);
+			pDC->FillRect(dot, &black);
+			pDC->SelectObject(pOldBrush);
+		}
+		else
+		{
+			CBrush* pOldBrush = pDC->SelectObject(&gray2);
+			pDC->FillRect(dot + CPoint(1,1), &gray2);
+			pDC->SelectObject(&gray);
+			pDC->FillRect(dot, &gray);
+			pDC->SelectObject(pOldBrush);
+d355 1
+d359 3
+a361 3
+		// VisualStylesXP
+		CRect btn= MinTrayBtnGetRect();
+		int iState;
+d363 5
+a367 8
+			iState= TRAYBS_DISABLED;
+		else if (GetStyle() & WS_DISABLED)
+			iState= MINBS_NORMAL;
+		else if (m_bMinTrayBtnHitTest)
+			iState= (m_bMinTrayBtnCapture) ? MINBS_PUSHED : MINBS_HOT;
+		else
+			iState= MINBS_NORMAL;
+		// inactive
+d369 1
+a369 1
+			iState+= 4; // inactive state TRAYBS_Ixxx
+d371 1
+a371 1
+		if ((m_bmMinTrayBtnBitmap.m_hObject) && (_TransparentBlt))
+d373 5
+a377 4
+			// known theme (bitmap)
+			CBitmap *pBmpOld;
+			CDC dcMem;
+			if ((dcMem.CreateCompatibleDC(pDC)) && ((pBmpOld= dcMem.SelectObject(&m_bmMinTrayBtnBitmap)) != NULL))
+d379 2
+a380 1
+				_TransparentBlt(pDC->m_hDC, btn.left, btn.top, btn.Width(), btn.Height(), dcMem.m_hDC, 0, BMP_TRAYBTN_HEIGHT * (iState - 1), BMP_TRAYBTN_WIDTH, BMP_TRAYBTN_HEIGHT, BMP_TRAYBTN_TRANSCOLOR);
+d386 3
+a388 3
+			// unknown theme (ThemeData)
+			HTHEME hTheme= g_xpStyle.OpenThemeData(m_hWnd, L"Window");
+			if (hTheme)
+d390 2
+a391 3
+				btn.top+= btn.Height() / 8;
+				g_xpStyle.DrawThemeBackground(hTheme, pDC->m_hDC, WP_TRAYBUTTON, iState, &btn, NULL);
+				g_xpStyle.CloseThemeData(hTheme);
+d394 1
+a394 1
+    }
+d396 1
+a396 1
+    ReleaseDC(pDC);
+d401 7
+a407 6
+    CRect rWnd;
+    GetWindowRect(&rWnd);
+    point.Offset(-rWnd.TopLeft());
+    CRect rBtn= MinTrayBtnGetRect();
+    rBtn.InflateRect(0, CAPTION_BUTTONSPACE);
+    return (rBtn.PtInRect(point));
+d412 2
+a413 2
+    m_bMinTrayBtnUp= TRUE;
+    MinTrayBtnDraw();
+d418 2
+a419 2
+    m_bMinTrayBtnUp= FALSE;
+    MinTrayBtnDraw();
+d433 1
+a433 1
+template <class BASE> INT CDialogMinTrayBtn<BASE>::GetVisualStylesXPColor() const
+d436 7
+a442 1
+		return -1;
+d444 16
+a459 17
+	WCHAR szwThemeFile[MAX_PATH];
+	WCHAR szwThemeColor[256];
+	if (g_xpStyle.GetCurrentThemeName(szwThemeFile, MAX_PATH, szwThemeColor, 256, NULL, 0) != S_OK)
+		return -1;
+	WCHAR *p;
+	if ((p= wcsrchr(szwThemeFile, '\\')) == NULL)
+		return -1;
+	p++;
+	if (_wcsicmp(p, VISUALSTYLESXP_DEFAULTFILE) != 0)
+		return -1;
+	if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEBLUE) == 0)
+		return VISUALSTYLESXP_BLUE;
+	if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEMETALLIC) == 0)
+		return VISUALSTYLESXP_METALLIC;
+	if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEHOMESTEAD) == 0)
+		return VISUALSTYLESXP_HOMESTEAD;
+	return -1;
+d464 1
+a464 1
+	m_bMinTrayBtnWindowsClassicStyle = !(g_xpStyle.IsThemeActive() && g_xpStyle.IsAppThemed());
+a465 1
+	INT nColor;
+d467 4
+a470 1
+	if ((nColor= GetVisualStylesXPColor()) == -1)
+d472 2
+a473 2
+	const TCHAR *pszBmpName= m_pszMinTrayBtnBmpName[nColor];
+	return m_bmMinTrayBtnBitmap.LoadBitmap(pszBmpName);
+@
+
+
+1.10
+log
+@renamed 3 variables
+@
+text
+@d100 1
+a100 1
+	if (g_App.g_pPrefs->GetWindowsVersion() != _WINVER_95_ && bBmpResult && !_TransparentBlt)
+@
+
+
+1.9
+log
+@minor update
+@
+text
+@d100 1
+a100 1
+	if (g_eMuleApp.m_pGlobPrefs->GetWindowsVersion() != _WINVER_95_ && bBmpResult && !_TransparentBlt)
+@
+
+
+1.8
+log
+@Formatting, comments, and name changes.
+@
+text
+@d13 1
+d96 5
+a100 3
+    m_nMinTrayBtnTimerId= 0;
+	MinTrayBtnInitBitmap();
+	if (!_TransparentBlt)
+d102 1
+a102 1
+		HMODULE hMsImg32= LoadLibrary(_T("MSIMG32.DLL"));
+d225 1
+a225 7
+	if (nIDEvent != m_nMinTrayBtnTimerId)
+	{
+		BASE::OnTimer(nIDEvent);
+		return;
+	}
+
+	if (!IsWindowsClassicStyle())
+d256 3
+a258 3
+    INT caption= ((dwExStyle & WS_EX_TOOLWINDOW) == 0) ? GetSystemMetrics(SM_CYCAPTION) - 1 : GetSystemMetrics(SM_CYSMCAPTION) - 1;
+    if (caption < CAPTION_MINHEIGHT)
+       caption= CAPTION_MINHEIGHT;
+d263 2
+a264 2
+    CRect window;
+    GetWindowRect(&window);
+d266 3
+a268 3
+    CSize button;
+    button.cy= caption - (CAPTION_BUTTONSPACE * 2);
+    button.cx= button.cy;
+d270 3
+a272 1
+        button.cx+= 2;
+d274 12
+a285 1
+    m_MinTrayBtnSize= button;
+d287 1
+a287 1
+    m_MinTrayBtnPos.x= window.Width() - ((CAPTION_BUTTONSPACE + button.cx) * 2);
+d304 1
+a304 1
+            m_MinTrayBtnPos.x-= (button.cx * 2) + CAPTION_BUTTONSPACE;
+d306 1
+a306 1
+            m_MinTrayBtnPos.x-= (button.cx + CAPTION_BUTTONSPACE) * 2;
+d308 1
+a308 2
+       
+}
+d395 1
+a395 1
+			CBrush* pOldBrush = pDC->SelectObject(&black);		//eklmn: select a new brush
+d397 1
+a397 1
+			pDC->SelectObject(pOldBrush);	//eklmn: recover an old brush
+d401 1
+a401 1
+			CBrush* pOldBrush = pDC->SelectObject(&gray2);		//eklmn: select a new brush
+d403 1
+a403 1
+			pDC->SelectObject(&gray);		//eklmn: select a second brush
+d405 1
+a405 1
+			pDC->SelectObject(pOldBrush);	//eklmn: recover an old brush
+d476 1
+a476 1
+    return (!((g_xpStyle.IsThemeActive()) && (g_xpStyle.IsAppThemed())));
+d511 2
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+@
+text
+@a134 2
+    // TODO: Add your message handler code here
+
+@
+
+
+1.6
+log
+@an incorrect use of GDI resources (CBrush class)
+@
+text
+@d352 2
+a353 1
+	if (!MinTrayBtnIsVisible()) return;
+@
+
+
+1.5
+log
+@unicode cleanup
+@
+text
+@d352 1
+a352 2
+    if (!MinTrayBtnIsVisible())
+       return;
+d354 48
+a401 43
+    CDC *pDC= GetWindowDC();
+    if (!pDC)
+       return; // panic!
+
+    if (IsWindowsClassicStyle())
+    {
+        CBrush black(GetSysColor(COLOR_BTNTEXT));
+        CBrush gray(GetSysColor(COLOR_GRAYTEXT));
+        CBrush gray2(GetSysColor(COLOR_BTNHILIGHT));
+
+        // button
+        if (m_bMinTrayBtnUp)
+           pDC->DrawFrameControl(MinTrayBtnGetRect(), DFC_BUTTON, DFCS_BUTTONPUSH);
+        else
+           pDC->DrawFrameControl(MinTrayBtnGetRect(), DFC_BUTTON, DFCS_BUTTONPUSH | DFCS_PUSHED);
+
+        // dot
+        CRect btn= MinTrayBtnGetRect();
+        btn.DeflateRect(2,2);
+        UINT caption= MinTrayBtnGetSize().cy + (CAPTION_BUTTONSPACE * 2);
+        UINT pixratio= (caption >= 14) ? ((caption >= 20) ? 2 + ((caption - 20) / 8) : 2) : 1;
+        UINT pixratio2= (caption >= 12) ? 1 + (caption - 12) / 8: 0;
+        UINT dotwidth= (1 + pixratio * 3) >> 1;
+        UINT dotheight= pixratio;
+        CRect dot(CPoint(0,0), CPoint(dotwidth, dotheight));
+        CSize spc((1 + pixratio2 * 3) >> 1, pixratio2);
+        dot-= dot.Size();
+        dot+= btn.BottomRight();
+        dot-= spc;
+        if (!m_bMinTrayBtnUp)
+           dot+= CPoint(1,1);
+        if (m_bMinTrayBtnEnabled)
+        {
+           pDC->FillRect(dot, &black);
+        }
+        else
+        {
+           pDC->FillRect(dot + CPoint(1,1), &gray2);
+           pDC->FillRect(dot, &gray);
+        }
+    }
+    else
+    {
+d404 1
+a404 1
+            int iState;
+d407 1
+a407 1
+                else if (GetStyle() & WS_DISABLED)
+d411 1
+a411 1
+                else
+d423 1
+a423 1
+            {
+d426 4
+a429 4
+            }
+         }
+         else
+         {
+d437 2
+a438 2
+            }
+        }
+@
+
+
+1.4
+log
+@unicode cleanup
+@
+text
+@d99 1
+a99 1
+		HMODULE hMsImg32= LoadLibrary("MSIMG32.DLL");
+@
+
+
+1.3
+log
+@minimize to tray button v4a, updated connections control panel
+@
+text
+@d41 3
+a43 3
+#define BMP_TRAYBTN_BLUE		"IDB_LUNA_BLUE"
+#define BMP_TRAYBTN_METALLIC	"IDB_LUNA_METALLIC"
+#define BMP_TRAYBTN_HOMESTEAD	"IDB_LUNA_HOMESTEAD"
+d46 1
+a46 1
+template <class BASE> const CHAR *CDialogMinTrayBtn<BASE>::m_pszMinTrayBtnBmpName[] = { BMP_TRAYBTN_BLUE, BMP_TRAYBTN_METALLIC, BMP_TRAYBTN_HOMESTEAD };
+d503 1
+a503 1
+	const CHAR *pszBmpName= m_pszMinTrayBtnBmpName[nColor];
+@
+
+
+1.2
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@d3 1
+a3 1
+//  MFC CDialog with minimize to systemtray button (0.03a)
+d7 1
+a7 1
+//  zegzav - 31/12/2002 - eMule project (http://www.emule-project.net)
+d14 5
+d25 41
+a65 3
+#ifndef MINBS_INACTIVE
+#define MINBS_INACTIVE 5
+#endif
+d68 4
+d96 11
+d119 1
+d224 7
+a230 1
+    if ((!IsWindowsClassicStyle()) && (nIDEvent == m_nMinTrayBtnTimerId))
+d244 7
+d372 1
+a372 1
+        CRect &btn= MinTrayBtnGetRect();
+d398 2
+a399 6
+        HTHEME hTheme= g_xpStyle.OpenThemeData(m_hWnd, L"Window");
+        if (hTheme)
+        {
+            CRect &btn= MinTrayBtnGetRect();
+            // btn.TopLeft()+= CSize(btn.Width() / 8, btn.Height() / 8);
+            btn.top+= btn.Height() / 8;
+d401 2
+a402 4
+            if (m_bMinTrayBtnHitTest)
+            {
+                if (m_bMinTrayBtnCapture)
+                    iState= MINBS_PUSHED;
+d404 3
+a406 1
+					iState= MINBS_INACTIVE;
+d408 11
+a418 3
+                    iState= MINBS_HOT;
+            }
+            else if (!m_bMinTrayBtnActive)
+d420 2
+a421 1
+                iState= MINBS_INACTIVE;
+d423 10
+a432 3
+            else if (m_bMinTrayBtnEnabled)
+            {
+                iState= MINBS_NORMAL;
+a433 7
+            else
+            {
+                iState= MINBS_DISABLED;
+            }
+            g_xpStyle.DrawThemeBackground(hTheme, pDC->m_hDC, WP_MINBUTTON, iState, &btn, NULL);
+
+            g_xpStyle.CloseThemeData(hTheme);
+d464 1
+a464 1
+    return (!g_xpStyle.IsThemeActive());
+d473 33
+@
+
+
+1.2.2.1
+log
+@v1a upgrade
+@
+text
+@d3 1
+a3 1
+//  MFC CDialog with minimize to systemtray button (0.04a)
+d7 1
+a7 1
+//  zegzav - 2002,2003 - eMule project (http://www.emule-project.net)
+a13 5
+
+// ------------------------------
+//  constants
+// ------------------------------
+
+d20 3
+a22 41
+#define WP_TRAYBUTTON WP_MINBUTTON
+
+BEGIN_TM_PART_STATES(TRAYBUTTON)
+    TM_STATE(1, TRAYBS, NORMAL)
+    TM_STATE(2, TRAYBS, HOT)
+    TM_STATE(3, TRAYBS, PUSHED)
+    TM_STATE(4, TRAYBS, DISABLED)
+	// Inactive
+    TM_STATE(5, TRAYBS, INORMAL)	
+    TM_STATE(6, TRAYBS, IHOT)
+    TM_STATE(7, TRAYBS, IPUSHED)
+    TM_STATE(8, TRAYBS, IDISABLED)
+END_TM_PART_STATES()
+
+#define BMP_TRAYBTN_WIDTH		(21)
+#define BMP_TRAYBTN_HEIGHT		(21)
+#define BMP_TRAYBTN_BLUE		"IDB_LUNA_BLUE"
+#define BMP_TRAYBTN_METALLIC	"IDB_LUNA_METALLIC"
+#define BMP_TRAYBTN_HOMESTEAD	"IDB_LUNA_HOMESTEAD"
+#define BMP_TRAYBTN_TRANSCOLOR	(RGB(255,0,255))
+
+template <class BASE> const CHAR *CDialogMinTrayBtn<BASE>::m_pszMinTrayBtnBmpName[] = { BMP_TRAYBTN_BLUE, BMP_TRAYBTN_METALLIC, BMP_TRAYBTN_HOMESTEAD };
+
+#define VISUALSTYLESXP_DEFAULTFILE		L"LUNA.MSSTYLES"
+#define VISUALSTYLESXP_BLUE				0
+#define VISUALSTYLESXP_METALLIC			1
+#define VISUALSTYLESXP_HOMESTEAD		2
+#define VISUALSTYLESXP_NAMEBLUE			L"NORMALCOLOR"
+#define VISUALSTYLESXP_NAMEMETALLIC		L"METALLIC"
+#define VISUALSTYLESXP_NAMEHOMESTEAD	L"HOMESTEAD"
+
+// _WIN32_WINNT >= 0x0501 (XP only)
+#define _WM_THEMECHANGED                0x031A	
+#define _ON_WM_THEMECHANGED()														\
+	{	_WM_THEMECHANGED, 0, 0, 0, AfxSig_l,										\
+		(AFX_PMSG)(AFX_PMSGW)														\
+		(static_cast< LRESULT (AFX_MSG_CALL CWnd::*)(void) > (_OnThemeChanged))		\
+	},
+
+// _WIN32_WINDOWS >= 0x0410 (95 not supported)
+template <class BASE> BOOL (WINAPI *CDialogMinTrayBtn<BASE>::_TransparentBlt)(HDC, int, int, int, int, HDC, int, int, int, int, UINT)= NULL;
+a24 4
+// ------------------------------
+//  contructor/init
+// ------------------------------
+
+a48 11
+	MinTrayBtnInitBitmap();
+	if (!_TransparentBlt)
+	{
+		HMODULE hMsImg32= LoadLibrary("MSIMG32.DLL");
+		if (hMsImg32)
+		{
+			(FARPROC &)_TransparentBlt= GetProcAddress(hMsImg32, "TransparentBlt");
+			if (!_TransparentBlt)
+				FreeLibrary(hMsImg32);
+		}
+	}
+a60 1
+	_ON_WM_THEMECHANGED()
+d165 1
+a165 7
+	if (nIDEvent != m_nMinTrayBtnTimerId)
+	{
+		BASE::OnTimer(nIDEvent);
+		return;
+	}
+
+	if (!IsWindowsClassicStyle())
+a178 7
+template <class BASE> LRESULT CDialogMinTrayBtn<BASE>::_OnThemeChanged()
+{
+	// BASE::OnThemeChanged();
+	MinTrayBtnInitBitmap();
+	return 0;
+}
+
+d300 1
+a300 1
+        CRect btn= MinTrayBtnGetRect();
+d326 6
+a331 2
+		// VisualStylesXP
+		CRect btn= MinTrayBtnGetRect();
+d333 4
+a336 2
+		if (!m_bMinTrayBtnEnabled)
+			iState= TRAYBS_DISABLED;
+d338 1
+a338 3
+			iState= MINBS_NORMAL;
+		else if (m_bMinTrayBtnHitTest)
+			iState= (m_bMinTrayBtnCapture) ? MINBS_PUSHED : MINBS_HOT;
+d340 3
+a342 11
+			iState= MINBS_NORMAL;
+		// inactive
+		if (!m_bMinTrayBtnActive)
+			iState+= 4; // inactive state TRAYBS_Ixxx
+
+		if ((m_bmMinTrayBtnBitmap.m_hObject) && (_TransparentBlt))
+		{
+			// known theme (bitmap)
+			CBitmap *pBmpOld;
+			CDC dcMem;
+			if ((dcMem.CreateCompatibleDC(pDC)) && ((pBmpOld= dcMem.SelectObject(&m_bmMinTrayBtnBitmap)) != NULL))
+d344 1
+a344 2
+				_TransparentBlt(pDC->m_hDC, btn.left, btn.top, btn.Width(), btn.Height(), dcMem.m_hDC, 0, BMP_TRAYBTN_HEIGHT * (iState - 1), BMP_TRAYBTN_WIDTH, BMP_TRAYBTN_HEIGHT, BMP_TRAYBTN_TRANSCOLOR);
+				dcMem.SelectObject(pBmpOld);
+d346 3
+a348 10
+         }
+         else
+         {
+			// unknown theme (ThemeData)
+			HTHEME hTheme= g_xpStyle.OpenThemeData(m_hWnd, L"Window");
+			if (hTheme)
+			{
+				btn.top+= btn.Height() / 8;
+				g_xpStyle.DrawThemeBackground(hTheme, pDC->m_hDC, WP_TRAYBUTTON, iState, &btn, NULL);
+				g_xpStyle.CloseThemeData(hTheme);
+d350 7
+d387 1
+a387 1
+    return (!((g_xpStyle.IsThemeActive()) && (g_xpStyle.IsAppThemed())));
+a395 33
+template <class BASE> INT CDialogMinTrayBtn<BASE>::GetVisualStylesXPColor() const
+{
+	if (IsWindowsClassicStyle())
+		return -1;
+
+	WCHAR szwThemeFile[MAX_PATH];
+	WCHAR szwThemeColor[256];
+	if (g_xpStyle.GetCurrentThemeName(szwThemeFile, MAX_PATH, szwThemeColor, 256, NULL, 0) != S_OK)
+		return -1;
+	WCHAR *p;
+	if ((p= wcsrchr(szwThemeFile, '\\')) == NULL)
+		return -1;
+	p++;
+	if (_wcsicmp(p, VISUALSTYLESXP_DEFAULTFILE) != 0)
+		return -1;
+	if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEBLUE) == 0)
+		return VISUALSTYLESXP_BLUE;
+	if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEMETALLIC) == 0)
+		return VISUALSTYLESXP_METALLIC;
+	if (_wcsicmp(szwThemeColor, VISUALSTYLESXP_NAMEHOMESTEAD) == 0)
+		return VISUALSTYLESXP_HOMESTEAD;
+	return -1;
+}
+
+template <class BASE> BOOL CDialogMinTrayBtn<BASE>::MinTrayBtnInitBitmap()
+{
+	INT nColor;
+	m_bmMinTrayBtnBitmap.DeleteObject();
+	if ((nColor= GetVisualStylesXPColor()) == -1)
+		return FALSE;
+	const CHAR *pszBmpName= m_pszMinTrayBtnBmpName[nColor];
+	return m_bmMinTrayBtnBitmap.LoadBitmap(pszBmpName);
+}
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d3 1
+a3 1
+//  MFC CDialog with minimize to systemtray button (0.03)
+d107 1
+a107 1
+    if ((!MinTrayBtnIsEnabled()) || (!MinTrayBtnIsVisible()) || (!MinTrayBtnHitTest(point)))
+d120 1
+a120 1
+    if ((!MinTrayBtnIsVisible()) || (!MinTrayBtnHitTest(point)))
+d126 1
+a126 1
+    if (!m_bMinTrayBtnCapture)
+d148 1
+a148 1
+    if (!m_bMinTrayBtnCapture)
+d337 2
+d389 7
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

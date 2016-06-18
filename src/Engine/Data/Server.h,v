@@ -1,0 +1,417 @@
+head	1.10;
+access;
+symbols
+	PublicRelease_1_2e:1.10
+	Interim_Release_1-2e_RC1:1.10
+	PublicRelease_1_2d:1.10
+	Interim_Release_1-2d_RC1:1.10
+	Interim_Release_1-2d_beta1:1.10
+	PublicRelease_1_2c:1.10
+	Interim_Release_1-2c_RC1:1.10
+	Interim_Release_1-2c_beta1:1.10
+	PublicRelease_1_2b:1.10
+	Interim_Release_1-2b_RC1:1.10
+	PublicRelease_1_2a:1.10
+	Interim_Release_1-2a_RC1:1.10
+	Interim_Release_1-2a_beta2:1.10
+	Interim_Release_1-2a_beta1:1.10
+	PublicRelease_1_2:1.10
+	Interim_Release_1-2_RC1:1.10
+	Interim_Release_1-2_beta1:1.10
+	PublicRelease_1_1g:1.10
+	Interim_Release_1-1g_RC3:1.10
+	Interim_Release_1-1g_RC2:1.10
+	Interim_Release_1-1g_RC1:1.10
+	Interim_Release_1-1g_beta2:1.10
+	Interim_Release_1-1g_beta1:1.10
+	PublicRelease_1_1f:1.10
+	Interim_Release_1-1f_RC1:1.10
+	PublicRelease_1_1e:1.10
+	Interim_Release_1-1e_RC2:1.10
+	Interim_Release_1-1e_RC1:1.10
+	Interim_Release_1-1e_beta1:1.10
+	PublicRelease_1_1d:1.8
+	Interim_Release_1-1d_RC1:1.8
+	PublicRelease_1_1c:1.8
+	Interim_Release_1-1c_RC1:1.8
+	Interim_Release_1-1c_beta2:1.8
+	Interim_Release_1-1c_beta1:1.8
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.5
+	PublicRelease_1_1:1.5
+	Interim_Release_1-1_beta1:1.5
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.5
+	PublicRelease_1j:1.5
+	Interim_Release_1J_RC3:1.5
+	Interim_Release_1j_RC3:1.5
+	Interim_Release_1j_RC2:1.5
+	Interim_Release_1j_RC1:1.5
+	Interim_Release_1j_beta2:1.5
+	Interim_Release_1j_beta1:1.5;
+locks; strict;
+comment	@ * @;
+
+
+1.10
+date	2005.04.05.05.49.06;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.03.22.22.02.09;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.01.29.14.55.00;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.01.28.20.13.51;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.12.29.16.04.21;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.21.16.49.37;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.16.14.28.59;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.15.14.47.32;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.14.17.15.57;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@v2 - more upload logic, light configuration (without BerkeleyDb)
+@
+text
+@// Server.h: interface for the server classes
+//
+//////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+#ifdef USE_BERKELEY_DB
+
+#include "../../BerkeleyDb/build_win32/db_cxx.h"
+
+#define MAX_SERVER_CREDITS	1200
+
+// Strings lengths
+#define MAX_DYNIP_LEN		50
+#define MAX_SERVERNAME_LEN	50
+#define MAX_SERVERDESC_LEN	150
+#define MAX_SERVER_VER_LEN	50
+
+struct CServerKey
+{
+	BYTE	byteVersion;	// Structure version. Should be 1 until we change this structure
+	ULONG	ulAddr;			// Server address
+	USHORT	uPort;			// Server port (key should be unique and we can have many servers on the same IP)
+	BYTE	szDynIP[MAX_DYNIP_LEN*sizeof(TCHAR)];	// Dynamic IP address string
+	bool	bStatic;		// Is static
+	USHORT	uPriority;		// Priority - can be 0, 1 or 2
+};
+
+struct CServerPrimaryKey
+{
+	ULONG	ulAddr;			// Server address
+	USHORT	uPort;			// Server port
+	BYTE	szDynIP[MAX_DYNIP_LEN*sizeof(TCHAR)];	// Dynamic IP address string
+};
+
+struct CServerSecondaryKeyPriority
+{
+	USHORT	uPriority;
+};
+
+struct CServerSecondaryKeyStatic
+{
+	bool	bStatic;
+};
+
+struct CServerData
+{
+	BYTE	byteVersion;	// Structure version. Should be 1 until we change this structure
+
+	BYTE	szName[MAX_SERVERNAME_LEN*sizeof(TCHAR)];			// List name
+	BYTE	szDescription[MAX_SERVERDESC_LEN*sizeof(TCHAR)];	// Description
+	BYTE	szVersion[MAX_SERVER_VER_LEN*sizeof(TCHAR)];		// Server version
+
+	DWORD	dwTCPFlags;		// TCP flags
+	DWORD	dwUDPFlags;		// UDP flags
+
+	DWORD	dwChallenge;	// Unique identifier for UDP requests
+	ULONG	ulPingTime;		// Ping time
+	USHORT	uPingCount;		// Pings counter
+	ULONG	ulLastPingTime;	// Last time when we ping'ed server
+	USHORT	uFailedCount;	// Number of failed connection tries
+
+	DWORD	dwFilesNum;		// Number of files
+	DWORD	dwUsersNum;		// Number of users
+	DWORD	dwMaxUsers;		// Maximum users
+	DWORD	dwSoftMaxFiles;	// Soft files limit
+	DWORD	dwHardMaxFiles;	// Hard files limit
+
+	DWORD	dwCreditChangeTime;	// Last time we changed credits
+	USHORT	uCreditsLeft;	// Credits left
+};
+
+class CServer : public CLoggable2
+{
+public:
+	// Constructor
+	CServer(CServerKey *pKey = NULL, CServerData *pData = NULL);
+
+	// Operations
+	static bool Find(ULONG ulAddr, USHORT uPort, CServer *pFound);
+	static bool Find(CString sDynIP, USHORT uPort, CServer *pFound);
+	bool Save();
+	//	bool Delete();
+
+	// Import
+	static bool ImportFromServerMet(CString sFile);
+
+	// List operations
+	bool ListStartByAddr();
+	bool ListStartByPriority();
+	bool ListStartByStatic();
+	bool ListGetNext();
+	bool ListFinish();
+
+	// Properties
+	ULONG	GetAddress();
+	USHORT	GetPort();
+	CString GetName();
+	CString GetStrAddress();
+	CString GetDynIP();
+
+	// Index callbacks
+/*	static int PrimaryIndex(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey);
+	static int SecondaryIndexPriority(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey);
+	static int SecondaryIndexStatic(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey);
+*/
+	// Data
+	CServerKey	m_Key;
+	CServerData	m_Data;
+
+private:
+	Dbc	*m_pCursor;
+};
+#endif //USE_BERKELEY_DB
+@
+
+
+1.9
+log
+@v2 - enhancing logging subsystem
+@
+text
+@d7 2
+d114 1
+@
+
+
+1.8
+log
+@Xml and database functionality
+@
+text
+@d71 1
+a71 1
+class CServer
+@
+
+
+1.7
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@a6 1
+#include "../EmEngine.h"
+@
+
+
+1.6
+log
+@There can be only one engine :-)
+@
+text
+@d8 1
+@
+
+
+1.5
+log
+@New engine
+@
+text
+@d78 4
+a81 4
+	static bool Find(CEmEngine &stEngine, ULONG ulAddr, USHORT uPort, CServer *pFound);
+	static bool Find(CEmEngine &stEngine, CString sDynIP, USHORT uPort, CServer *pFound);
+	bool Save(CEmEngine &stEngine);
+	//	bool Delete(CEmEngine &stEngine);
+d84 1
+a84 1
+	static bool ImportFromServerMet(CEmEngine &stEngine, CString sFile);
+d87 3
+a89 3
+	bool ListStartByAddr(CEmEngine &stEngine);
+	bool ListStartByPriority(CEmEngine &stEngine);
+	bool ListStartByStatic(CEmEngine &stEngine);
+d101 1
+a101 1
+	static int PrimaryIndex(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey);
+d104 1
+a104 1
+
+@
+
+
+1.4
+log
+@New engine
+@
+text
+@d83 1
+d86 7
+d108 3
+@
+
+
+1.3
+log
+@New engine - server classes, database
+@
+text
+@d7 1
+a7 1
+#include "../../Sockets/EmEngine.h"
+d9 3
+d67 2
+d86 2
+d89 1
+a89 1
+	CString GetAddress();
+@
+
+
+1.2
+log
+@New engine - server classes, database
+@
+text
+@d9 4
+a12 1
+#define MAX_DYNIP_LEN 50
+d19 1
+a19 1
+	BYTE	byteDynIP[MAX_DYNIP_LEN+1];	// Dynamic IP address string (MAX_DYNIP_LEN characters max)
+d28 1
+d31 1
+a31 1
+struct CServerPrimaryKey2
+d33 6
+a38 2
+	USHORT	uPort;			// Server port
+	BYTE	byteDynIP[MAX_DYNIP_LEN+1];	// Dynamic IP address string (MAX_DYNIP_LEN characters max)
+d45 3
+a47 3
+	CString	sName;			// List name
+	CString	sDescription;	// Description
+	CString	sVersion;		// Server version
+d81 1
+a86 1
+	static int PrimaryIndex2(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey);
+@
+
+
+1.1
+log
+@New engine - server classes, database
+@
+text
+@d7 4
+d14 1
+a14 1
+	ULONG	lAddr;			// Server address
+d16 1
+d19 12
+a30 1
+	BYTE	byteDynIP[31];	// Dynamic IP address string (30 characters max)
+d45 1
+a45 1
+	ULONG	lPingTime;		// Last time when we ping'ed server
+d47 1
+d50 3
+a52 2
+	DWORD	dwFilesNum;		// Number of files at this server
+	DWORD	dwUsersNum;		// Number of users at this server
+d62 1
+a62 3
+	CServer(ULONG lAddr, USHORT uPort, CString sDynIP = _T(""), CServerKey *pKey = NULL, CServerData *pData = NULL);
+
+	bool Delete();
+d64 15
+a81 4
+private:
+	bool Save();
+
+public:
+@
+

@@ -1,0 +1,1820 @@
+head	1.24;
+access;
+symbols
+	PublicRelease_1_2e:1.24
+	Interim_Release_1-2e_RC1:1.24
+	PublicRelease_1_2d:1.23
+	Interim_Release_1-2d_RC1:1.23
+	Interim_Release_1-2d_beta1:1.22
+	PublicRelease_1_2c:1.22
+	Interim_Release_1-2c_RC1:1.22
+	Interim_Release_1-2c_beta1:1.22
+	PublicRelease_1_2b:1.22
+	Interim_Release_1-2b_RC1:1.22
+	PublicRelease_1_2a:1.21
+	Interim_Release_1-2a_RC1:1.21
+	Interim_Release_1-2a_beta2:1.21
+	Interim_Release_1-2a_beta1:1.20
+	PublicRelease_1_2:1.20
+	Interim_Release_1-2_RC1:1.20
+	Interim_Release_1-2_beta1:1.20
+	PublicRelease_1_1g:1.20
+	Interim_Release_1-1g_RC3:1.20
+	Interim_Release_1-1g_RC2:1.20
+	Interim_Release_1-1g_RC1:1.20
+	Interim_Release_1-1g_beta2:1.20
+	Interim_Release_1-1g_beta1:1.20
+	PublicRelease_1_1f:1.19
+	Interim_Release_1-1f_RC1:1.19
+	PublicRelease_1_1e:1.19
+	Interim_Release_1-1e_RC2:1.19
+	Interim_Release_1-1e_RC1:1.19
+	Interim_Release_1-1e_beta1:1.19
+	PublicRelease_1_1d:1.19
+	Interim_Release_1-1d_RC1:1.19
+	PublicRelease_1_1c:1.19
+	Interim_Release_1-1c_RC1:1.19
+	Interim_Release_1-1c_beta2:1.19
+	Interim_Release_1-1c_beta1:1.19
+	PublicRelease_1_1b:1.19
+	Interim_Release_1-1b_RC1:1.19
+	PublicRelease_1_1a:1.19
+	Interim_Release_1-1a_RC2:1.19
+	Interim_Release_1-1a_RC1:1.19
+	Interim_Release_1-1a_beta2:1.19
+	Interim_Release_1-1a_beta1:1.19
+	PublicRelease_1_1:1.19
+	Interim_Release_1-1_beta1:1.19
+	PublicRelease_1o:1.16
+	Interim_Release_1o_RC1:1.16
+	Interim_Release_1o_beta1:1.16
+	PublicRelease_1n:1.16
+	Interim_Release_1n_RC2:1.16
+	Interim_Release_1n_RC1:1.16
+	Interim_Release_1n_beta2:1.16
+	PublicRelease_1m:1.15
+	Interim_Release_1m_beta1:1.15
+	PublicRelease_1l:1.15
+	Interim_Release_1l_RC3:1.15
+	Interim_Release_1l_RC2:1.15
+	Interim_Release_1l_RC1:1.15
+	Interim_Release_1l_beta2:1.15
+	Interim_Release_1l_beta1:1.15
+	PublicRelease_1k:1.14
+	Interim_Release_1k_RC4:1.14
+	Interim_1k_RC3:1.14
+	Interim_1k_RC2:1.14
+	Interim_Release_1k_RC1:1.14
+	Interim_Release_1k_beta5:1.14
+	Intrerim_Release_1k_beta4:1.14
+	Interim_Release_1k_beta1:1.13
+	PublicRelease_1j:1.13
+	Interim_Release_1J_RC3:1.13
+	Interim_Release_1j_RC3:1.13
+	Interim_Release_1j_RC2:1.13
+	Interim_Release_1j_RC1:1.13
+	Interim_Release_1j_beta2:1.13
+	Interim_Release_1j_beta1:1.13
+	PublicRelease_1i:1.13
+	Interim_Release_1i_RC6:1.13
+	Interim_Release_1i_RC3:1.13
+	Interim_Release_1i_RC2:1.13
+	Interim_Release_1i_RC1:1.13
+	Interim_Release_1i_beta3:1.13
+	Interim_Release_1i_beta2:1.13
+	Interim_Release_1i_beta1:1.12
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.24
+date	2008.10.29.03.06.33;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2008.03.10.02.25.30;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2006.11.13.00.39.15;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2006.05.19.04.07.27;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.08.22.01.37.08;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.10.05.15.43.49;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.10.04.22.50.49;	author kush_eplus;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.10.01.04.45.43;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.07.24.05.55.11;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.04.22.18.06.43;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.02.25.04.56.30;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.24.01.21.22;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.10.05.13.40.35;	author dongato;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.10.05.10.45.18;	author forcha;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.10.05.07.24.39;	author dongato;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.10.05.05.19.58;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.10.04.22.25.40;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.25.08.57.40;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.24.18.39.15;	author syrus77;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.23.16.52.53;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.20.15.40.45;	author morevit;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.09.19.00.31.00;	author morevit;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.23.00.32.24;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.24
+log
+@Reduced H-file dependency; Formatting.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "..\emule.h"
+#include "..\resource.h"
+#include "filedetails.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+IMPLEMENT_DYNAMIC(CFileDetails, CPropertySheet)
+
+CFileDetails::CFileDetails(UINT nIDCaption, CPartFile* pFile, CWnd* pParentWnd, UINT iSelectPage)
+	: CPropertySheet(GetResString(nIDCaption), pParentWnd, iSelectPage)
+{
+	Init(pFile);
+}
+
+CFileDetails::CFileDetails(LPCTSTR pszCaption, CPartFile* pFile, CWnd* pParentWnd, UINT iSelectPage)
+	: CPropertySheet(pszCaption, pParentWnd, iSelectPage)
+{
+	Init(pFile);
+}
+
+CFileDetails::~CFileDetails()
+{
+}
+
+void CFileDetails::Init(CPartFile* pFile)
+{
+	EMULE_TRY
+
+	m_nTimer = 0;
+
+	m_wndGeneral.m_pFile = pFile;
+	m_wndTransfer.m_pFile = pFile;
+	m_wndSourceNames.m_pFile = pFile;
+	m_wndAviInfo.m_pFile = pFile;
+	m_wndParts.m_pFile = pFile;
+
+	m_psh.dwFlags = (m_psh.dwFlags | PSH_NOAPPLYNOW) & ~PSH_HASHELP;
+
+	GetResString(&m_strGeneralTitle, IDS_PW_GENERAL);
+	m_wndGeneral.m_psp.dwFlags = (m_wndGeneral.m_psp.dwFlags | PSP_USETITLE) & ~PSP_HASHELP;
+	m_wndGeneral.m_pPSP->pszTitle = m_strGeneralTitle;
+
+	GetResString(&m_strTransferTitle, IDS_TRANSFER_NOUN);
+	m_wndTransfer.m_psp.dwFlags = (m_wndTransfer.m_psp.dwFlags | PSP_USETITLE) & ~PSP_HASHELP;
+	m_wndTransfer.m_pPSP->pszTitle = m_strTransferTitle;
+
+	GetResString(&m_strSourceNamesTitle, IDS_INFLST_FILE_SOURCENAMES);
+	m_wndSourceNames.m_psp.dwFlags = (m_wndSourceNames.m_psp.dwFlags | PSP_USETITLE) & ~PSP_HASHELP;
+	m_wndSourceNames.m_pPSP->pszTitle = m_strSourceNamesTitle;
+
+	GetResString(&m_strPartsTitle, IDS_UP_PARTS);
+	m_wndParts.m_psp.dwFlags = (m_wndParts.m_psp.dwFlags | PSP_USETITLE) & ~PSP_HASHELP;
+	m_wndParts.m_pPSP->pszTitle = m_strPartsTitle;
+
+	AddPage(&m_wndGeneral);
+	AddPage(&m_wndTransfer);
+	AddPage(&m_wndSourceNames);
+
+	if (pFile != NULL && pFile->IsAviMovie())
+	{
+		GetResString(&m_strAviInfoTitle, IDS_FD_AVIINFO);
+		m_wndAviInfo.m_psp.dwFlags = (m_wndAviInfo.m_psp.dwFlags | PSP_USETITLE) & ~PSP_HASHELP;
+		m_wndAviInfo.m_pPSP->pszTitle = m_strAviInfoTitle;
+
+		AddPage(&m_wndAviInfo);
+	}
+
+	AddPage(&m_wndParts);
+
+	EMULE_CATCH
+}
+
+BEGIN_MESSAGE_MAP(CFileDetails, CPropertySheet)
+	ON_WM_TIMER()
+	ON_WM_DESTROY()
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFileDetails message handlers
+
+BOOL CFileDetails::OnInitDialog()
+{
+	CPropertySheet::OnInitDialog();
+	
+	m_nTimer = SetTimer(301, 15000, NULL);
+
+	return true;
+}
+
+void CFileDetails::OnTimer(UINT nIDEvent)
+{
+	if (nIDEvent == m_nTimer)
+	{
+		m_wndGeneral.Update();
+		m_wndTransfer.Update();
+		m_wndSourceNames.Update();
+		m_wndParts.Update();
+	}
+
+	CPropertySheet::OnTimer(nIDEvent);
+}
+
+void CFileDetails::OnDestroy()
+{
+	if (m_nTimer != 0)
+	{
+		KillTimer(m_nTimer);
+	}
+
+	CPropertySheet::OnDestroy();
+}
+@
+
+
+1.23
+log
+@Fixed unused code regarding client/file details dialog title localization.
+@
+text
+@a15 2
+//
+// FileDetails.cpp : implementation file
+a20 2
+#include "..\PartFile.h"
+#include "afxwin.h"
+a27 3
+/////////////////////////////////////////////////////////////////////////////
+// CFileDetails
+
+@
+
+
+1.22
+log
+@Removed unused Apply and Help buttons from client/file details dialogs.
+@
+text
+@d38 1
+a38 1
+	: CPropertySheet(nIDCaption, pParentWnd, iSelectPage)
+@
+
+
+1.21
+log
+@Reduced H-file dependency.
+@
+text
+@d65 2
+d68 1
+a68 1
+	m_wndGeneral.m_psp.dwFlags |= PSP_USETITLE;
+d72 1
+a72 1
+	m_wndTransfer.m_psp.dwFlags |= PSP_USETITLE;
+d76 1
+a76 1
+	m_wndSourceNames.m_psp.dwFlags |= PSP_USETITLE;
+d80 1
+a80 1
+	m_wndParts.m_psp.dwFlags |= PSP_USETITLE;
+d90 1
+a90 1
+		m_wndAviInfo.m_psp.dwFlags |= PSP_USETITLE;
+a101 2
+	//{{AFX_MSG_MAP(CFileDetails)
+	//}}AFX_MSG_MAP
+@
+
+
+1.20
+log
+@IDS_INFLST_USER_TRANSFER renamed into IDS_TRANSFER_NOUN.
+@
+text
+@d1 16
+a17 1
+//
+d21 1
+d23 2
+@
+
+
+1.19
+log
+@Filenames in #includes must be the same as they are in CVS (required for portability).
+@
+text
+@d51 1
+a51 1
+	GetResString(&m_strTransferTitle, IDS_INFLST_USER_TRANSFER);
+@
+
+
+1.18
+log
+@updated and enabled file details Parts code
++ code formatting
+@
+text
+@d6 1
+a6 1
+#include "FileDetails.h"
+@
+
+
+1.17
+log
+@Improved string processing; Cleanup.
+@
+text
+@d6 1
+a6 1
+#include "filedetails.h"
+d36 1
+a36 1
+{	
+d40 2
+a41 2
+	
+	m_proppageGeneral.m_pFile = pFile;
+d48 2
+a49 2
+	m_proppageGeneral.m_psp.dwFlags |= PSP_USETITLE;
+	m_proppageGeneral.m_pPSP->pszTitle = m_strGeneralTitle;
+a58 1
+#if 0	// not working by now
+a61 1
+#endif
+d63 1
+a63 1
+	AddPage(&m_proppageGeneral);
+d67 1
+a67 1
+	if (pFile && pFile->IsAviMovie())
+d72 1
+d76 1
+a76 1
+//	AddPage(&m_wndParts);	// not working by now
+d102 1
+a102 1
+	if(nIDEvent == m_nTimer)
+d104 1
+a104 1
+		m_proppageGeneral.Update();
+d107 1
+a107 1
+	//	m_wndParts.Update();
+d116 1
+d118 1
+@
+
+
+1.16
+log
+@Comment correction.
+@
+text
+@d6 1
+a6 1
+#include "FileDetails.h"
+d20 1
+a20 1
+	:CPropertySheet(nIDCaption, pParentWnd, iSelectPage)
+d26 1
+a26 1
+	:CPropertySheet(pszCaption, pParentWnd, iSelectPage)
+d47 1
+a47 1
+	m_strGeneralTitle = GetResString(IDS_PW_GENERAL);
+d51 1
+a51 1
+	m_strTransferTitle = GetResString(IDS_INFLST_USER_TRANSFER);
+d55 1
+a55 1
+	m_strSourceNamesTitle = GetResString(IDS_INFLST_FILE_SOURCENAMES);
+d60 1
+a60 1
+	m_strPartsTitle = GetResString(IDS_UP_PARTS);
+d68 1
+a68 1
+	
+d71 1
+a71 1
+		m_strAviInfoTitle = GetResString(IDS_FD_AVIINFO);
+a73 1
+
+d96 1
+a96 2
+	Localize();
+	m_nTimer = SetTimer(301, 15000, 0);
+d105 4
+a108 1
+		Update();
+a113 19
+void CFileDetails::Update()
+{
+	m_proppageGeneral.Update();
+	m_wndTransfer.Update();
+	m_wndSourceNames.Update();
+
+//	m_wndParts.Update();
+}
+
+void CFileDetails::Localize()
+{
+	if(GetSafeHwnd())
+	{
+	//	Property pages are localized on their creation (when user activate them)
+
+//		m_wndParts.Localize();
+	}
+}
+
+d116 1
+a116 2
+	if(m_nTimer != 0)
+	{
+a117 1
+	}
+@
+
+
+1.15
+log
+@Unrequired class member removal.
+@
+text
+@d126 1
+a126 1
+	//	Property pages are localized on their creature (when user activate them)
+@
+
+
+1.14
+log
+@Improved string processing; whitespace corrections;
+Code for optional property pages executed only when required;
+Removed update for Media Info page (it worked wrong and nothing to update in real-time);
+Removed property page localization during property sheet creature (every property page is localized at its creature)
+@
+text
+@a38 1
+	m_pFile = pFile;
+d41 5
+a45 5
+	m_proppageGeneral.m_pFile = m_pFile;
+	m_wndTransfer.m_pFile = m_pFile;
+	m_wndSourceNames.m_pFile = m_pFile;
+	m_wndAviInfo.m_pFile = m_pFile;
+	m_wndParts.m_pFile = m_pFile;
+d69 1
+a69 1
+	if (m_pFile && m_pFile->IsAviMovie())
+@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+@
+text
+@d48 1
+a48 1
+	m_strGeneralTitle.Format("%s", GetResString(IDS_PW_GENERAL));
+d52 1
+a52 1
+	m_strTransferTitle.Format("%s", GetResString(IDS_INFLST_USER_TRANSFER));
+d56 1
+a56 1
+	m_strSourceNamesTitle.Format("%s", GetResString(IDS_INFLST_FILE_SOURCENAMES));
+d60 2
+a61 5
+	m_strAviInfoTitle.Format("%s", GetResString(IDS_FD_AVIINFO));
+	m_wndAviInfo.m_psp.dwFlags |= PSP_USETITLE;
+	m_wndAviInfo.m_pPSP->pszTitle = m_strAviInfoTitle;
+
+	m_strPartsTitle.Format("%s", GetResString(IDS_UP_PARTS));
+d64 1
+d70 1
+a70 1
+	if(m_pFile)
+d72 5
+a76 5
+		//if(m_pFile->IsMovie())
+		if(m_pFile->IsAviMovie())
+		{
+			AddPage(&m_wndAviInfo);
+		}
+a119 8
+	if(m_pFile)
+	{
+		if(m_pFile->IsMovie())
+		{
+			m_wndAviInfo.Update();
+		}
+	}
+
+d127 2
+a128 4
+		m_proppageGeneral.Localize();
+		m_wndTransfer.Localize();
+		m_wndSourceNames.Localize();
+		m_wndAviInfo.Localize();
+@
+
+
+1.12
+log
+@Minor changes
+@
+text
+@d42 1
+a42 1
+	m_wndGeneral.m_pFile = m_pFile;
+d49 2
+a50 2
+	m_wndGeneral.m_psp.dwFlags |= PSP_USETITLE;
+	m_wndGeneral.m_pPSP->pszTitle = m_strGeneralTitle;
+d68 1
+a68 1
+	AddPage(&m_wndGeneral);
+d118 1
+a118 1
+	m_wndGeneral.Update();
+d137 1
+a137 1
+		m_wndGeneral.Localize();
+@
+
+
+1.11
+log
+@TRY & CATCH
+@
+text
+@d101 1
+a101 1
+	m_nTimer = SetTimer(301, 5000, 0);
+@
+
+
+1.10
+log
+@Localization update
+@
+text
+@d37 2
+d82 2
+a101 1
+	Update();
+@
+
+
+1.9
+log
+@Localization and some fixes for new detail dialogs by FoRcHa
+@
+text
+@d46 20
+@
+
+
+1.8
+log
+@new dialogs for file- & client-details
+@
+text
+@d106 2
+a107 2
+		
+	//	m_wndParts.Update();
+d112 8
+a119 1
+
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+@
+text
+@a4 3
+#include "..\otherfunctions.h"
+#include "..\UpDownClient.h"
+#include "..\TitleMenu.h"
+a5 2
+#include "..\resource.h"
+#include "..\CommentDialogLst.h"
+a6 2
+#include "file_ver.h"
+
+d52 2
+a53 1
+		if(m_pFile->IsMovie())
+d59 1
+a59 1
+	AddPage(&m_wndParts);
+d75 1
+d78 2
+a79 1
+	UpdateData();
+d87 1
+a87 1
+	//	UpdateData();
+d93 1
+a93 1
+void CFileDetails::UpdateData()
+d95 3
+a97 3
+	m_wndGeneral.UpdateData();
+	m_wndTransfer.UpdateData();
+	m_wndSourceNames.UpdateData();
+d103 1
+a103 1
+			m_wndAviInfo.UpdateData();
+d107 1
+a107 1
+	//	m_wndParts.UpdateData();
+a122 957
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDGeneral property page
+
+IMPLEMENT_DYNCREATE(CFDGeneral, CPropertyPage)
+
+CFDGeneral::CFDGeneral() : CPropertyPage(CFDGeneral::IDD)
+{
+	//{{AFX_DATA_INIT(CFDGeneral)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+
+	m_pFile = NULL;
+	m_hFileIcon = NULL;
+}
+
+CFDGeneral::~CFDGeneral()
+{
+	if(m_hFileIcon != NULL)
+	{
+		::DestroyIcon(m_hFileIcon);
+	}
+}
+
+void CFDGeneral::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CFDGeneral)
+	DDX_Control(pDX, IDC_PARTFILESTATUS_VAL, m_ctrlPartfileStatus);
+	DDX_Control(pDX, IDC_METFILE_VAL, m_ctrlMetFile);
+	DDX_Control(pDX, IDC_HASH_VAL, m_ctrlHash);
+	DDX_Control(pDX, IDC_FOLDER_VAL, m_ctrlFolder);
+	DDX_Control(pDX, IDC_FILETYPE_VAL, m_ctrlFiletype);
+	DDX_Control(pDX, IDC_FILESIZE_VAL, m_ctrlFilesize);
+	DDX_Control(pDX, IDC_FILEICON, m_ctrlFileIcon);
+	DDX_Control(pDX, IDC_DESCRIPTION_VAL, m_ctrlDescription);
+	//}}AFX_DATA_MAP
+	DDX_Control(pDX, IDC_FDG_FILENAME, m_ctrlFilename);
+	DDX_Control(pDX, IDC_CATEGORY_VAL, m_ctrlCategory);
+}
+
+
+BEGIN_MESSAGE_MAP(CFDGeneral, CPropertyPage)
+	//{{AFX_MSG_MAP(CFDGeneral)
+	//}}AFX_MSG_MAP
+	ON_BN_CLICKED(IDC_COMMENTS_BTN, OnBnClickedCommentsBtn)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDGeneral message handlers
+
+BOOL IsExecuteable(CString strFile)
+{
+	int iDot = strFile.ReverseFind('.');
+	if(iDot == -1)
+	{		
+		return FALSE;		// no file extension found
+	}
+	
+	CString strExt = strFile.Right(strFile.GetLength() - iDot);
+	if(strExt.IsEmpty())
+	{
+		return FALSE;		// no file extension found
+	}
+
+	strExt.MakeUpper();
+	if(strExt == ".EXE" || strExt == ".DLL")
+	{
+		return TRUE;		// executeable
+	}
+
+	return FALSE;			// not executeable
+}
+
+void CFDGeneral::UpdateData()
+{
+	if(m_pFile == NULL)
+		return;
+
+	if(!::IsWindow(GetSafeHwnd()))
+		return;
+
+	CString strFilename = m_pFile->GetFileName();
+
+	SHFILEINFO shfi;
+	memset(&shfi,0,sizeof(shfi));
+	SHGetFileInfo(strFilename, FILE_ATTRIBUTE_NORMAL, &shfi, sizeof(shfi),
+					SHGFI_ICON|SHGFI_USEFILEATTRIBUTES|SHGFI_TYPENAME|SHGFI_DISPLAYNAME);
+	
+	if(m_hFileIcon != NULL)
+	{
+		::DestroyIcon(m_hFileIcon);
+	}
+	m_hFileIcon = shfi.hIcon;
+	m_ctrlFileIcon.SetIcon(m_hFileIcon);
+
+	m_ctrlFilename.SetWindowText(MakeStringEscaped(strFilename));
+	m_ctrlFiletype.SetWindowText(shfi.szTypeName);
+
+	if(IsExecuteable(strFilename))
+	{
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText("Description");
+		
+		CFileVersionInfo fvInfo;
+		fvInfo.ReadVersionInfo(strFilename);
+		if(fvInfo.IsValid() )
+		{
+			if(fvInfo.IsVersionInfoAvailable(SFI_FILEDESCRIPTION))
+			{				
+				m_ctrlDescription.SetWindowText(fvInfo.GetVersionInfo(SFI_FILEDESCRIPTION));
+			}
+			else
+			{
+				m_ctrlDescription.SetWindowText(shfi.szDisplayName);
+			}
+		}
+		else
+		{
+			m_ctrlDescription.SetWindowText(shfi.szDisplayName);
+		}
+	}
+	else
+	{
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText("Opens with:");
+		// ToDo: better solution needed	
+		CString strTempFile = g_eMuleApp.m_pGlobPrefs->GetTempDir() + "\\" + strFilename;
+		CFile cfTemp(strTempFile, CFile::modeCreate);
+		cfTemp.Close();
+		char szExecuteable[MAX_PATH];
+		FindExecutable(strTempFile, "", szExecuteable);
+		CFile::Remove(strTempFile);
+
+		CFileVersionInfo fvInfo;
+		fvInfo.ReadVersionInfo(szExecuteable);
+		if(fvInfo.IsValid() )
+		{
+			if(fvInfo.IsVersionInfoAvailable(SFI_FILEDESCRIPTION))
+			{				
+				m_ctrlDescription.SetWindowText(fvInfo.GetVersionInfo(SFI_FILEDESCRIPTION));
+			}
+			else
+			{
+				m_ctrlDescription.SetWindowText(szExecuteable);
+			}
+		}
+		else
+		{
+			m_ctrlDescription.SetWindowText(szExecuteable);
+		}
+	}
+		
+	CString		strCategory;
+
+	strCategory.Format("%s", CCat::GetCatByID(m_pFile->GetCatID())->GetTitle());
+	m_ctrlCategory.SetWindowText(strCategory);
+
+	m_ctrlFolder.SetWindowText(m_pFile->GetOutputDir() + CString("\\"));
+	m_ctrlFilesize.SetWindowText(CastItoXBytes(m_pFile->GetFileSize()));
+	m_ctrlMetFile.SetWindowText(m_pFile->GetFullName());
+	m_ctrlHash.SetWindowText(EncodeBase16(m_pFile->GetFileHash(), 16));
+	m_ctrlPartfileStatus.SetWindowText(m_pFile->GetPartfileStatus());
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDParts property page
+
+IMPLEMENT_DYNCREATE(CFDParts, CPropertyPage)
+
+CFDParts::CFDParts() : CPropertyPage(CFDParts::IDD)
+{
+	//{{AFX_DATA_INIT(CFDParts)
+	//}}AFX_DATA_INIT
+}
+
+CFDParts::~CFDParts()
+{
+}
+
+void CFDParts::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CFDParts)
+	DDX_Control(pDX, IDC_PARTS, m_ctrlParts);
+	//}}AFX_DATA_MAP
+}
+
+
+BEGIN_MESSAGE_MAP(CFDParts, CPropertyPage)
+	//{{AFX_MSG_MAP(CFDParts)
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDParts message handlers
+
+BOOL CFDParts::OnInitDialog() 
+{
+	CPropertyPage::OnInitDialog();
+
+	m_ctrlParts.Init();
+	UpdateData();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	              // EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CFDParts::UpdateData()
+{
+	if(m_pFile == NULL)
+		return;
+
+	if(!::IsWindow(GetSafeHwnd()))
+		return;
+
+	int iPartCount = m_pFile->GetPartCount();
+	
+	m_ctrlParts.SetItemCount(iPartCount);
+	
+	for(int i = 0; i < iPartCount; i++)
+	{		
+		DWORD dwData = m_pFile->GetBytesInPart(i);
+		m_ctrlParts.SetItemData(i, dwData);
+
+		//double d = 64 * dwData / PARTSIZE;
+		double d = rand() % 256;
+		m_ctrlParts.SetItemState(i, (BYTE)d, FALSE);	
+		
+	}
+	m_ctrlParts.Redraw();
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDTransfer property page
+
+IMPLEMENT_DYNCREATE(CFDTransfer, CPropertyPage)
+
+CFDTransfer::CFDTransfer() : CPropertyPage(CFDTransfer::IDD)
+{
+	//{{AFX_DATA_INIT(CFDTransfer)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+
+	m_pFile = NULL;
+}
+
+CFDTransfer::~CFDTransfer()
+{
+}
+
+void CFDTransfer::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CFDTransfer)
+	DDX_Control(pDX, IDC_TRANSFERRINGSRC_VAL, m_ctrlTransferingSources);
+	DDX_Control(pDX, IDC_TRANSFERRED_VAL, m_ctrlTransfered);
+	DDX_Control(pDX, IDC_PARTCNT_VAL, m_ctrlPartCnt);
+	DDX_Control(pDX, IDC_LASTSEENCOMPLETE_VAL, m_ctrlLastSeenComplete);
+	DDX_Control(pDX, IDC_ICHRECOVERED_VAL, m_ctrlICHrecovered);
+	DDX_Control(pDX, IDC_FOUNDSRC_VAL, m_ctrlFoundSources);
+	DDX_Control(pDX, IDC_DATARATE_VAL, m_ctrlDatarate);
+	DDX_Control(pDX, IDC_COMPLETEDSIZE_VAL, m_ctrlCompletedSize);
+	DDX_Control(pDX, IDC_AVAILABLEPARTS_VAL, m_ctrlAvailableParts);
+	DDX_Control(pDX, IDC_LASTRECEPTION_VAL, m_ctrlLastReception);
+	DDX_Control(pDX, IDC_COMPPERC_VAL, m_ctrlCompPerc);
+	DDX_Control(pDX, IDC_CORRUPTIONLOSS_VAL, m_ctrlCorruptionLoss);
+	DDX_Control(pDX, IDC_COMPRESSIONGAIN_VAL, m_ctrlCompressionGain);
+	//}}AFX_DATA_MAP
+}
+
+
+BEGIN_MESSAGE_MAP(CFDTransfer, CPropertyPage)
+	//{{AFX_MSG_MAP(CFDTransfer)
+		// NOTE: the ClassWizard will add message map macros here
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDTransfer message handlers
+/////////////////////////////////////////////////////////////////////////////
+// CFDAviInfo property page
+
+void CFDTransfer::UpdateData()
+{
+	if(m_pFile == NULL)
+		return;
+
+	if(!::IsWindow(GetSafeHwnd()))
+		return;
+
+	CString strBuffer;
+
+	strBuffer.Format(_T("%i"), m_pFile->GetSourceCount());
+	m_ctrlFoundSources.SetWindowText(strBuffer);
+	strBuffer.Format(_T("%i"), m_pFile->GetTransferringSrcCount());
+	m_ctrlTransferingSources.SetWindowText(strBuffer);
+	
+	strBuffer.Format(_T("%i(%i)"), m_pFile->GetPartCount(), m_pFile->GetHashCount());
+	m_ctrlPartCnt.SetWindowText(strBuffer);
+
+	float fPartsPercent = 0.f;
+	if(m_pFile->GetPartCount() > 0.f)
+	{
+		fPartsPercent = (float)((m_pFile->GetAvailablePartCount()*100) / m_pFile->GetPartCount());
+	}
+	strBuffer.Format(_T("%i (%.1f%%)"),m_pFile->GetAvailablePartCount(),fPartsPercent);
+	m_ctrlAvailableParts.SetWindowText(strBuffer);
+	
+	if(m_pFile->lastseencomplete == NULL) 
+	{	
+		strBuffer.Format(GetResString(IDS_NEVER)); 
+	}
+	else
+	{	
+		strBuffer.Format(_T("%s"), m_pFile->LocalizeLastSeenComplete());
+	}
+	m_ctrlLastSeenComplete.SetWindowText(strBuffer);
+		
+	m_ctrlTransfered.SetWindowText(CastItoXBytes(m_pFile->GetTransferred()));
+	m_ctrlCompletedSize.SetWindowText(CastItoXBytes(m_pFile->GetCompletedSize()));
+	
+	if(m_pFile->GetPercentCompleted() >= 0.f)
+	{
+		strBuffer.Format(_T("%.2f "), m_pFile->GetPercentCompleted());
+	}
+	else
+	{
+		strBuffer.Format(_T("?"));
+	}
+	m_ctrlCompPerc.SetWindowText(strBuffer);
+
+	if(m_pFile->GetDataRate() != (uint32)-1)
+	{
+		strBuffer.Format(_T("%.2f %s"), (float)m_pFile->GetDataRate()/1024, GetResString(IDS_KBYTESEC));
+	}
+	else
+	{
+		strBuffer.Format(_T("? %s"), GetResString(IDS_KBYTESEC));
+	}
+	m_ctrlDatarate.SetWindowText(strBuffer);
+	
+	if(m_pFile->GetTransferred() == 0)
+	{	
+		strBuffer.Format(_T("%s"), GetResString(IDS_NEVER));
+	}
+	else
+	{
+		strBuffer.Format(_T("%s"), m_pFile->LocalizeLastDownTransfer());
+	}
+	m_ctrlLastReception.SetWindowText(strBuffer);
+	
+	m_ctrlCorruptionLoss.SetWindowText(CastItoXBytes(m_pFile->GetLostDueToCorruption()));
+	m_ctrlCompressionGain.SetWindowText(CastItoXBytes(m_pFile->GetGainDueToCompression()));
+	m_ctrlICHrecovered.SetWindowText(CastItoXBytes(m_pFile->TotalPacketsSavedDueToICH()));
+}
+
+
+IMPLEMENT_DYNCREATE(CFDAviInfo, CPropertyPage)
+
+CFDAviInfo::CFDAviInfo() : CPropertyPage(CFDAviInfo::IDD)
+, m_bARoundBitrate(FALSE)
+{
+	//{{AFX_DATA_INIT(CFDAviInfo)
+	//}}AFX_DATA_INIT
+
+	m_pFile = NULL;
+}
+
+CFDAviInfo::~CFDAviInfo()
+{
+}
+
+void CFDAviInfo::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CFDAviInfo)
+	DDX_Control(pDX, IDC_WIDTH_VAL, m_ctrlWidth);
+	DDX_Control(pDX, IDC_VIDEOCODEC_VAL, m_ctrlVideoCodec);
+	DDX_Control(pDX, IDC_VIDEOBITRATE_VAL, m_ctrlVideoBitrate);
+	DDX_Control(pDX, IDC_SAMPLERATE_VAL, m_ctrlSamplerate);
+	DDX_Control(pDX, IDC_HEIGHT_VAL, m_ctrlHeight);
+	DDX_Control(pDX, IDC_FPS_VAL, m_ctrlFPS);
+	DDX_Control(pDX, IDC_CHANNEL_VAL, m_ctrlChannel);
+	DDX_Control(pDX, IDC_AUDIOCODEC_VAL, m_ctrlAudioCodec);
+	DDX_Control(pDX, IDC_AUDIOBITRATE_VAL, m_ctrlAudioBitrate);
+	DDX_Control(pDX, IDC_VIDEO_LBL, m_ctrlVideoLbl);
+	DDX_Control(pDX, IDC_PICTURE_LBL, m_ctrlPictureLbl);
+	DDX_Control(pDX, IDC_AUDIO_LBL, m_ctrlAudioLbl);
+	//}}AFX_DATA_MAP
+	DDX_Check(pDX, IDC_ROUNDBITRATE_BTN, m_bARoundBitrate);
+	DDX_Control(pDX, IDC_FILESIZE_VAL, m_ctrlFilesize);
+	DDX_Control(pDX, IDC_FILELENGTH_VAL, m_ctrlFilelength);
+}
+
+
+BEGIN_MESSAGE_MAP(CFDAviInfo, CPropertyPage)
+	//{{AFX_MSG_MAP(CFDAviInfo)
+		// NOTE: the ClassWizard will add message map macros here
+	//}}AFX_MSG_MAP
+	ON_BN_CLICKED(IDC_ROUNDBITRATE_BTN, OnBnClickedRoundbitrateBtn)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDAviInfo message handlers
+
+void CFDAviInfo::UpdateData()
+{
+	if(m_pFile == NULL)
+	{	
+		return;
+	}
+
+	CFile* pFile = &m_pFile->m_hPartFile;
+	try
+	{
+		TCHAR szTemp[5];
+		CString strBuffer;
+		uint32 u32;
+		uint16 u16;
+
+		if(pFile == NULL)
+		{	
+			return;
+		}
+		
+		pFile->Seek(8, CFile::begin);
+		pFile->Read(szTemp, 4);
+		szTemp[4] = 0;
+		if(_tcscmp(szTemp, _T("AVI "))) // not avi
+		{	
+			return;
+		}
+		
+		// filesize
+		long lSize;
+		pFile->Seek(4, CFile::begin);
+		pFile->Read(&lSize, 4);
+		strBuffer.Format(_T("%.2f MB"), ((float)lSize / 1024 / 1024));
+		m_ctrlFilesize.SetWindowText(strBuffer);
+		
+		// header sizes
+		long lAviheadersize, lVheadersize;
+		pFile->Seek(28, CFile::begin);
+		pFile->Read(&lAviheadersize, 4);
+
+		long lAviheaderstart = 32;
+		long lVheaderstart = lAviheaderstart + lAviheadersize + 20;
+
+		// misc
+		long lMicrosec;
+		pFile->Seek(lAviheaderstart, CFile::begin);
+		pFile->Read(&lMicrosec, 4);
+
+		long lLengthInFrames;
+		pFile->Seek(lAviheaderstart + 16, CFile::begin);
+		pFile->Read(&lLengthInFrames, 4);
+
+		// fps
+		double dFps = (double)1000000 / (double)lMicrosec;
+		strBuffer.Format(_T("%.2f"), dFps);
+		m_ctrlFPS.SetWindowText(strBuffer);
+				
+		// length
+		long lLengthInSec = (long)(lLengthInFrames / dFps);
+		m_ctrlFilelength.SetWindowText(CastSecondsToHM(lLengthInSec));
+		
+		// video width
+		pFile->Seek(lAviheaderstart + 32, CFile::begin);
+		pFile->Read(&u32, 4);
+		strBuffer.Format(_T("%d"), u32);
+		m_ctrlWidth.SetWindowText(strBuffer);
+		
+		// video height
+		pFile->Seek(lAviheaderstart + 36, CFile::begin);
+		pFile->Read(&u32, 4);
+		strBuffer.Format(_T("%d"), u32);
+		m_ctrlHeight.SetWindowText(strBuffer);
+		
+		// video codec
+		pFile->Seek(lVheaderstart + 4, CFile::begin);
+		pFile->Read(szTemp, 4);
+		szTemp[4] = 0;
+		if(!_tcscmp(szTemp, _T("div3")) || !_tcscmp(szTemp, _T("DIV3")))
+		{
+			m_ctrlVideoCodec.SetWindowText(_T("DivX 3 Low-Motion"));
+		}
+		else if(!_tcscmp(szTemp, _T("div4")) || !_tcscmp(szTemp, _T("DIV4")))
+		{	
+			m_ctrlVideoCodec.SetWindowText(_T("DivX 3 High-Motion"));
+		}	
+		else if(!_tcscmp(szTemp, _T("divx")) || !_tcscmp(szTemp, _T("DIVX")))
+		{	
+			m_ctrlVideoCodec.SetWindowText(_T("DivX 4"));
+		}
+		else if(!_tcscmp(szTemp, _T("DX50")))
+		{
+			m_ctrlVideoCodec.SetWindowText(_T("DivX 5"));
+		}
+		else if(!_tcscmp(szTemp, _T("div2")) || !_tcscmp(szTemp, _T("DIV2")))
+		{
+			m_ctrlVideoCodec.SetWindowText(_T("MS MPEG4 v2"));
+		}
+		else if(!_tcscmp(szTemp, _T("mp43")))
+		{
+			m_ctrlVideoCodec.SetWindowText(_T("Microcrap MPEG4 v3"));
+		}
+		else if(!_tcscmp(szTemp, _T("xvid")) || !_tcscmp(szTemp, _T("XVID")))
+		{
+			m_ctrlVideoCodec.SetWindowText(_T("XviD"));
+		}
+		else
+		{	
+			m_ctrlVideoCodec.SetWindowText(szTemp);
+		}
+		
+		// header sizes
+		pFile->Seek(lAviheaderstart + lAviheadersize + 4, CFile::begin);
+		pFile->Read(&lVheadersize, 4);
+
+		long lAheaderstart = lVheaderstart + lVheadersize + 8;	//first databyte of audio header
+
+		long lAstrhsize;
+		pFile->Seek(lAheaderstart - 4, CFile::begin);
+		pFile->Read(&lAstrhsize, 4);
+
+		// audio codec
+		pFile->Seek(lAheaderstart + lAstrhsize + 8, CFile::begin);
+		pFile->Read(&u16, 2);
+		switch(u16)
+		{
+			case 0:
+			case 1:
+				m_ctrlAudioCodec.SetWindowText(_T("PCM"));
+				break;
+			case 353:
+				m_ctrlAudioCodec.SetWindowText(_T("DivX;-) Audio"));
+				break;
+			case 85:
+				m_ctrlAudioCodec.SetWindowText(_T("MPEG Layer 3"));
+				break;
+			case 8192:
+				m_ctrlAudioCodec.SetWindowText(_T("AC3-Digital"));
+				break;
+			default:
+				strBuffer.Format(_T("Unknown (%d)"), u16);
+				m_ctrlAudioCodec.SetWindowText(strBuffer);
+				break;
+		}			
+			
+		// audio channel
+		pFile->Seek(lAheaderstart + 2 + lAstrhsize + 8, CFile::begin);
+		pFile->Read(&u16, 2);
+		switch(u16)
+		{
+			case 1:
+				m_ctrlChannel.SetWindowText(_T("1 (mono)"));
+				break;
+			case 2:
+				m_ctrlChannel.SetWindowText(_T("2 (stereo)"));
+				break;
+			case 5:
+				m_ctrlChannel.SetWindowText(_T("5.1 (surround)"));
+				break;
+			default:
+				strBuffer.Format(_T("%d"), u16);
+				m_ctrlChannel.SetWindowText(strBuffer);
+				break;
+		}
+			
+		// audio samplerate
+		pFile->Seek(lAheaderstart + 4 + lAstrhsize + 8, CFile::begin);
+		pFile->Read(&u32, 2);
+		strBuffer.Format(_T("%d"), u32);
+		m_ctrlSamplerate.SetWindowText(strBuffer);
+
+		// audio bitrate
+		pFile->Seek(lAheaderstart + 8 + lAstrhsize + 8, CFile::begin);
+		pFile->Read(&m_lAbitrate, 4);
+		OnBnClickedRoundbitrateBtn();
+
+		// video bitrate
+		strBuffer.Format(_T("%d Kbit/s"), (lSize / lLengthInSec - m_lAbitrate) / 128);
+		m_ctrlVideoBitrate.SetWindowText(strBuffer);
+
+	}
+	catch(CFileException* error)
+	{
+		OUTPUT_DEBUG_TRACE();
+		error->Delete();	//memleak fix
+		return;
+	}
+}
+
+void CFDAviInfo::Localize()
+{
+
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDSrcNames property page
+
+IMPLEMENT_DYNCREATE(CFDSrcNames, CPropertyPage)
+
+CFDSrcNames::CFDSrcNames() : CPropertyPage(CFDSrcNames::IDD)
+{
+	//{{AFX_DATA_INIT(CFDSrcNames)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+
+	m_pFile = NULL;
+}
+
+CFDSrcNames::~CFDSrcNames()
+{
+}
+
+void CFDSrcNames::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CFDSrcNames)
+	// NOTE: the ClassWizard will add DDX and DDV calls here
+	//}}AFX_DATA_MAP
+	DDX_Control(pDX, IDC_FDS_TAKEOVER, m_ctrlTakeOver);
+	DDX_Control(pDX, IDC_CLEANUP, m_ctrlCleanUp);
+	DDX_Control(pDX, IDC_RENAME, m_ctrlRename);
+	DDX_Control(pDX, IDC_FILENAME, m_ctrlFilename);
+}
+
+
+BEGIN_MESSAGE_MAP(CFDSrcNames, CPropertyPage)
+	//{{AFX_MSG_MAP(CFDSrcNames)
+		// NOTE: the ClassWizard will add message map macros here
+	//}}AFX_MSG_MAP
+	ON_BN_CLICKED(IDC_RENAME, OnBnClickedRename)
+	ON_BN_CLICKED(IDC_CLEANUP, OnBnClickedCleanup)
+	ON_BN_CLICKED(IDC_FDS_TAKEOVER, OnBnClickedFdsTakeover)
+	ON_NOTIFY(LVN_COLUMNCLICK, IDC_LISTCTRLFILENAMES, OnLvnColumnclick)
+	ON_NOTIFY(NM_DBLCLK, IDC_LISTCTRLFILENAMES, OnNMDblclkList)
+	ON_NOTIFY(NM_RCLICK, IDC_LISTCTRLFILENAMES, OnNMRclickList)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDSrcNames message handlers
+
+void CFDSrcNames::UpdateData()
+{
+	if(m_pFile == NULL)
+		return;
+	
+	if(!::IsWindow(GetSafeHwnd()))
+		return;
+
+	bool bEnable =	m_pFile->GetStatus() == PS_COMPLETE		||
+					m_pFile->GetStatus() == PS_COMPLETING	?	false : true;
+
+	m_ctrlRename.EnableWindow(bEnable);
+	m_ctrlCleanUp.EnableWindow(bEnable);
+	m_ctrlTakeOver.EnableWindow(bEnable);	
+}
+
+void CFDSrcNames::FillSourcenameList() 
+{
+	CUpDownClient* cur_src;
+	CListCtrl* pmyListCtrl; 
+	LVFINDINFO info; 
+	info.flags = LVFI_STRING; 
+	int itempos; 
+	int namecount;
+
+	CString nameCountStr;
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES); 
+	if(pmyListCtrl->GetHeaderCtrl()->GetItemCount() < 2) 
+	{
+		pmyListCtrl->DeleteColumn(0); 
+		pmyListCtrl->InsertColumn(0, GetResString(IDS_DL_FILENAME), LVCFMT_LEFT, 340, -1); 
+		pmyListCtrl->InsertColumn(1, GetResString(IDS_DL_SOURCES), LVCFMT_LEFT, 60, 1); 
+	}
+
+	//v- eklmn: bugfix(16): don't show empty string in FileDetails
+	CString strFileName; 
+	POSITION pos1, pos2;
+	pmyListCtrl->DeleteAllItems(); 
+	for(int sl=0;sl<SOURCESSLOTS;sl++) 
+	{
+		if(!m_pFile->srclists[sl].IsEmpty())
+		{
+			for(pos1 = m_pFile->srclists[sl].GetHeadPosition(); (pos2 = pos1) != NULL;) 
+			{
+				m_pFile->srclists[sl].GetNext(pos1);
+				cur_src = m_pFile->srclists[sl].GetAt(pos2);
+
+				strFileName = cur_src->GetClientFilename(); 
+				if(strFileName.GetLength() != 0) 
+				{ 
+					info.psz = strFileName;
+					if((itempos=pmyListCtrl->FindItem(&info, -1)) == -1) 
+					{ 
+						pmyListCtrl->InsertItem(0, strFileName); 
+						pmyListCtrl->SetItemText(0, 1, _T("1")); 
+						pmyListCtrl->SetItemData(0, 1); 
+					} 
+					else 
+					{ 
+						namecount = _tstoi(pmyListCtrl->GetItemText(itempos, 1)); 
+						namecount ++; 
+						nameCountStr.Format(_T("%i"), namecount); 
+						pmyListCtrl->SetItemText(itempos, 1, nameCountStr.GetString());
+						pmyListCtrl->SetItemData(itempos, namecount); 
+					} 
+					pmyListCtrl->SortItems(CompareListNameItems, 11); 
+					m_bSortAscending[0] =true;
+					m_bSortAscending[1] =false;
+				} 
+			} 
+		}
+	}
+ }
+
+void CFDSrcNames::OnBnClickedRename()
+{
+	CString strNewFileName; 
+	m_ctrlFilename.GetWindowText(strNewFileName);
+
+	m_pFile->SetFileName(strNewFileName.GetBuffer()); 
+	m_pFile->SavePartFile(); 
+
+	CFileDetails* pParent = (CFileDetails*)GetParent();
+	if(pParent != NULL)
+	{
+		pParent->UpdateData();
+	}
+}
+
+void CFDSrcNames::OnBnClickedCleanup()
+{
+	CString strFilename = "";
+	m_ctrlFilename.ReplaceSel(strFilename.GetBuffer());
+	m_ctrlFilename.GetWindowText(strFilename);
+	m_ctrlFilename.SetWindowText(CleanupFilename(strFilename));
+}
+
+void CFDSrcNames::OnBnClickedFdsTakeover()
+{
+	CListCtrl* pmyListCtrl; 
+	int itemPosition; 
+
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+
+	if(pmyListCtrl->GetSelectedCount() > 0) 
+	{
+		POSITION pos = pmyListCtrl->GetFirstSelectedItemPosition(); 
+		itemPosition = pmyListCtrl->GetNextSelectedItem(pos); 
+		GetDlgItem(IDC_FILENAME)->SetWindowText(pmyListCtrl->GetItemText(itemPosition,0));
+	} 
+}
+
+void CFDSrcNames::OnLvnColumnclick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	LPNMLISTVIEW pNMLV = reinterpret_cast<LPNMLISTVIEW>(pNMHDR);
+	
+	m_bSortAscending[pNMLV->iSubItem] = !m_bSortAscending[pNMLV->iSubItem];
+//	SetSortArrow(pNMLV->iSubItem, m_bSortAscending[pNMLV->iSubItem]);
+
+	CListCtrl* pmyListCtrl; 
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+
+	pmyListCtrl->SortItems(&CompareListNameItems, pNMLV->iSubItem + ((m_bSortAscending[pNMLV->iSubItem]) ? 0 : 10));
+
+	*pResult = 0;
+}
+
+void CFDSrcNames::OnNMDblclkList(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	OnBnClickedFdsTakeover();
+	*pResult = 0;
+}
+
+void CFDSrcNames::OnNMRclickList(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	CListCtrl* pmyListCtrl; 
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+	POINT point;
+	::GetCursorPos(&point);
+	CTitleMenu	popupMenu;
+
+	UINT flag;
+	flag = MF_STRING;
+	if(pmyListCtrl->GetSelectionMark() == -1) 
+	{
+		flag = MF_GRAYED;
+	}
+
+	popupMenu.CreatePopupMenu();
+	popupMenu.AppendMenu(flag,MP_MESSAGE, GetResString(IDS_TAKEOVER));
+	popupMenu.AppendMenu(MF_STRING, MP_RESTORE, GetResString(IDS_SV_UPDATE));
+	popupMenu.TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this);
+	popupMenu.DestroyMenu();
+
+	*pResult = 0;
+}
+
+BOOL CFDSrcNames::OnCommand(WPARAM wParam,LPARAM lParam )
+{
+	CListCtrl* pmyListCtrl; 
+	pmyListCtrl = (CListCtrl*)GetDlgItem(IDC_SOURCENAMES);
+	
+	if(pmyListCtrl->GetSelectionMark() != -1)
+	{
+		switch (wParam)
+		{
+			case MP_MESSAGE:
+			{
+				OnBnClickedFdsTakeover();
+				return true;
+			}
+			case MP_RESTORE: 
+			{
+				FillSourcenameList();
+				return true;
+			}
+		}
+	}
+
+	if(wParam == 2)
+	{
+		CPropertyPage::OnOK();
+		return TRUE;
+	}
+
+	return CPropertyPage::OnCommand(wParam, lParam);
+}
+
+int CALLBACK CFDSrcNames::CompareListNameItems(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+{ 
+	switch(lParamSort)
+	{
+		case 1: 
+			return (lParam1 - lParam2); 
+			break;
+		
+		case 11: 
+			return (lParam2 - lParam1); 
+			break;
+		
+		default: 
+			return 0;
+	}
+} 
+
+void CFDGeneral::OnBnClickedCommentsBtn()
+{
+	CCommentDialogLst dialog(m_pFile); 
+	dialog.DoModal();
+}
+
+BOOL CFDAviInfo::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	m_bARoundBitrate = TRUE;
+	CPropertyPage::UpdateData(FALSE);
+	Localize();
+	UpdateData();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CFDAviInfo::OnBnClickedRoundbitrateBtn()
+{
+	if(m_lAbitrate != 0)
+	{
+		CPropertyPage::UpdateData();
+
+		if(m_bARoundBitrate)
+		{
+			long t = m_lAbitrate / (1024 / 8);
+			if(t >= 246 && t <= 260)
+			{	
+				m_ctrlAudioBitrate.SetWindowText(_T("256 Kbit/s"));
+			}	
+			else if(t >= 216 && t <= 228)
+			{
+				m_ctrlAudioBitrate.SetWindowText(_T("224 Kbit/s"));
+			}
+			else if(t >= 187 && t <= 196)
+			{
+				m_ctrlAudioBitrate.SetWindowText(_T("192 Kbit/s"));
+			}
+			else if(t >= 156 && t <= 164)
+			{	
+				m_ctrlAudioBitrate.SetWindowText(_T("160 Kbit/s"));
+			}
+			else if(t >= 124 && t <= 132)
+			{	
+				m_ctrlAudioBitrate.SetWindowText(_T("128 Kbit/s"));
+			}
+			else if(t >= 108 && t <= 116)
+			{	
+				m_ctrlAudioBitrate.SetWindowText(_T("112 Kbit/s"));
+			}
+			else if(t >= 92 && t <= 100)
+			{	
+				m_ctrlAudioBitrate.SetWindowText(_T("96 Kbit/s"));
+			}
+			else if(t >= 60 && t <= 68)
+			{	
+				m_ctrlAudioBitrate.SetWindowText(_T("64 Kbit/s"));
+			}
+			else
+			{
+				CString strBuffer;
+				strBuffer.Format(_T("%d Kbit/s"), t);
+				m_ctrlAudioBitrate.SetWindowText(strBuffer);
+			}
+		}
+		else
+		{
+			CString strBuffer;
+			strBuffer.Format(_T("%d Kbit/s"), m_lAbitrate / (1024 / 8));
+			m_ctrlAudioBitrate.SetWindowText(strBuffer);
+		}
+	}
+	else
+	{	
+		m_ctrlAudioBitrate.SetWindowText(_T(""));
+	}
+}
+
+BOOL CFDGeneral::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	UpdateData();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+BOOL CFDTransfer::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	UpdateData();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+BOOL CFDSrcNames::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	UpdateData();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+@
+
+
+1.6
+log
+@Nice, but you replace it with the wrong method ;) I guess I somehow missed committing this file first time around.
+@
+text
+@d888 1
+a888 1
+	//SetSortArrow(pNMLV->iSubItem, m_SortAscending[pNMLV->iSubItem]);
+@
+
+
+1.5
+log
+@2 missing renamings for LocalizeLastSeenComplete()
+@
+text
+@d474 1
+a474 1
+		strBuffer.Format(_T("%s"), m_pFile->LocalizeLastSeenComplete());
+@
+
+
+1.4
+log
+@Category rewrite with predefined status/media type categories.
+@
+text
+@d441 1
+a441 1
+		strBuffer.Format(_T("%s"), m_pFile->localelastseencomplete());
+d474 1
+a474 1
+		strBuffer.Format(_T("%s"), m_pFile->localelastdowntransfer());
+@
+
+
+1.3
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d166 1
+a166 1
+	DDX_Control(pDX, IDC_CATEGORY_VAL, m_ctrlCategorie);
+d279 4
+a282 3
+	CString strCategorie;
+	strCategorie.Format("%d", m_pFile->GetCategory());
+	m_ctrlCategorie.SetWindowText(strCategorie);
+@
+
+
+1.2
+log
+@The first batch of threatened name changes.
+@
+text
+@d253 1
+a253 1
+		CString strTempFile = theApp.glob_prefs->GetTempDir() + "\\" + strFilename;
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d166 1
+a166 1
+	DDX_Control(pDX, IDC_CATEGORIE_VAL, m_ctrlCategorie);
+d380 2
+a381 2
+	DDX_Control(pDX, IDC_TRANSFERINGSRC_VAL, m_ctrlTransferingSources);
+	DDX_Control(pDX, IDC_TRANSFERED_VAL, m_ctrlTransfered);
+d420 1
+a420 1
+	strBuffer.Format(_T("%i"), m_pFile->GetTransferingSrcCount());
+d444 1
+a444 1
+	m_ctrlTransfered.SetWindowText(CastItoXBytes(m_pFile->GetTransfered()));
+d457 1
+a457 1
+	if(m_pFile->GetDatarate() != (uint32)-1)
+d459 1
+a459 1
+		strBuffer.Format(_T("%.2f %s"), (float)m_pFile->GetDatarate()/1024, GetResString(IDS_KBYTESEC));
+d467 1
+a467 1
+	if(m_pFile->GetTransfered() == 0)
+d538 1
+a538 1
+	CFile* pFile = &m_pFile->m_hpartfile;
+@
+

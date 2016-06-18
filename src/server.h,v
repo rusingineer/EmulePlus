@@ -1,0 +1,1414 @@
+head	1.44;
+access;
+symbols
+	PublicRelease_1_2e:1.44
+	Interim_Release_1-2e_RC1:1.43
+	PublicRelease_1_2d:1.43
+	Interim_Release_1-2d_RC1:1.43
+	Interim_Release_1-2d_beta1:1.43
+	PublicRelease_1_2c:1.41
+	Interim_Release_1-2c_RC1:1.41
+	Interim_Release_1-2c_beta1:1.39
+	PublicRelease_1_2b:1.39
+	Interim_Release_1-2b_RC1:1.39
+	PublicRelease_1_2a:1.39
+	Interim_Release_1-2a_RC1:1.39
+	Interim_Release_1-2a_beta2:1.36
+	Interim_Release_1-2a_beta1:1.36
+	PublicRelease_1_2:1.36
+	Interim_Release_1-2_RC1:1.36
+	Interim_Release_1-2_beta1:1.36
+	PublicRelease_1_1g:1.35
+	Interim_Release_1-1g_RC3:1.35
+	Interim_Release_1-1g_RC2:1.35
+	Interim_Release_1-1g_RC1:1.35
+	Interim_Release_1-1g_beta2:1.35
+	Interim_Release_1-1g_beta1:1.34
+	PublicRelease_1_1f:1.34
+	Interim_Release_1-1f_RC1:1.34
+	PublicRelease_1_1e:1.33
+	Interim_Release_1-1e_RC2:1.33
+	Interim_Release_1-1e_RC1:1.33
+	Interim_Release_1-1e_beta1:1.33
+	PublicRelease_1_1d:1.33
+	Interim_Release_1-1d_RC1:1.33
+	PublicRelease_1_1c:1.32
+	Interim_Release_1-1c_RC1:1.32
+	Interim_Release_1-1c_beta2:1.32
+	Interim_Release_1-1c_beta1:1.27
+	PublicRelease_1_1b:1.27
+	Interim_Release_1-1b_RC1:1.27
+	PublicRelease_1_1a:1.27
+	Interim_Release_1-1a_RC2:1.27
+	Interim_Release_1-1a_RC1:1.27
+	Interim_Release_1-1a_beta2:1.27
+	Interim_Release_1-1a_beta1:1.27
+	PublicRelease_1_1:1.26
+	Interim_Release_1-1_beta1:1.26
+	PublicRelease_1o:1.26
+	Interim_Release_1o_RC1:1.26
+	Interim_Release_1o_beta1:1.26
+	PublicRelease_1n:1.26
+	Interim_Release_1n_RC2:1.26
+	Interim_Release_1n_RC1:1.26
+	Interim_Release_1n_beta2:1.26
+	Interim_Release_1n_beta1:1.26
+	PublicRelease_1m:1.26
+	Interim_Release_1m_beta1:1.26
+	PublicRelease_1l:1.26
+	Interim_Release_1l_RC3:1.26
+	Interim_Release_1l_RC2:1.26
+	Interim_Release_1l_RC1:1.26
+	Interim_Release_1l_beta2:1.26
+	Interim_Release_1l_beta1:1.23
+	PublicRelease_1k:1.20
+	Interim_Release_1k_RC4:1.20
+	Interim_1k_RC3:1.20
+	Interim_1k_RC2:1.20
+	Interim_Release_1k_RC1:1.19
+	Interim_Release_1k_beta5:1.19
+	Intrerim_Release_1k_beta4:1.19
+	Interim_Release_1k_beta1:1.19
+	PublicRelease_1j:1.18
+	Interim_Release_1J_RC3:1.17
+	Interim_Release_1j_RC3:1.17
+	Interim_Release_1j_RC2:1.17
+	Interim_Release_1j_RC1:1.16
+	Interim_Release_1j_beta2:1.16
+	Interim_Release_1j_beta1:1.16
+	PublicRelease_1i:1.16
+	Interim_Release_1i_RC6:1.16
+	Interim_Release_1i_RC3:1.16
+	Interim_Release_1i_RC2:1.16
+	Interim_Release_1i_RC1:1.16
+	Interim_Release_1i_beta3:1.16
+	Interim_Release_1i_beta2:1.14
+	Interim_Release_1i_beta1:1.10
+	PublicRelease_1h:1.9
+	Interim_Release_1h_rc2:1.9
+	Interim_Release_1h_RC1:1.9
+	Interim_Release_1h_beta2:1.9
+	Interim_Release_1h_beta1_now:1.9
+	Interim_Release_1h_beta1:1.9
+	PublicRelease_1g:1.8
+	Interim_Release_1g_RC6_Final:1.8
+	Interim_Release_1g_RC6:1.8
+	Interim_Release_1g_RC5:1.8
+	Interim_Release_1g_RC4:1.8
+	Interim_Release_1g_RC3:1.8
+	Interim_Release_1g_beta2:1.8
+	Interim_Release_1g_beta1:1.6
+	Interim_Release_1f_RC4:1.3
+	Interim_Release_1f_RC3:1.3
+	Interim_Release_1f_RC2:1.3
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.44
+date	2009.04.10.03.37.49;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2008.02.18.22.55.48;	author eklmn;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2007.11.22.20.46.02;	author eklmn;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2007.07.01.05.27.45;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2007.04.14.04.26.43;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2006.08.15.04.31.24;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2006.08.09.04.06.17;	author aw3;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2006.07.25.04.28.12;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2006.01.06.20.05.56;	author kush_eplus;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2005.08.29.03.08.32;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2005.07.30.02.20.30;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2005.03.15.03.26.49;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2005.02.12.21.46.44;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2005.02.09.23.05.03;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.02.02.23.45.30;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.02.02.07.09.45;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.02.01.03.53.04;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.11.06.04.43.50;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.05.11.14.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.05.10.01.25.33;	author katsyonak;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.05.07.04.56.18;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.05.06.01.39.09;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.04.26.06.14.45;	author katsyonak;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.04.23.22.14.10;	author katsyonak;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.03.31.22.26.56;	author dropf;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.24.20.14.28;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.01.11.23.49.30;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.10.31.06.47.00;	author eklmn;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.29.14.14.18;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.10.19.23.01;	author dongato;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.08.12.56.34;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.22.16.14.47;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.07.30.22.56.00;	author zegzav;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.06.19.56.47;	author partyckip;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.03.19.18.20;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.05.31.16.45.18;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.30.20.35.20;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.05.29.19.01.46;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.05.13.17.59.39;	author lord_kiron;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.05.08.16.22.20;	author partyckip;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.25;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.41;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.44
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2006 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#pragma pack(1)
+struct ServerMet_Struct
+{
+	uint32		m_dwIP;
+	uint16		m_uPort;
+	uint32		m_dwTagCount;
+};
+
+struct ServerMet_StructShort
+{
+	uint32		m_dwIP;
+	uint16		m_uPort;
+};
+#pragma pack()
+
+
+// Server TCP flags
+#define SRV_TCPFLG_COMPRESSION		0x00000001
+#define SRV_TCPFLG_NEWTAGS			0x00000008	//	Server accepts newtags (16.46+)
+#define SRV_TCPFLG_UNICODE			0x00000010
+#define SRV_TCPFLG_EXT_GETSOURCES	0x00000020	//	Server accepts OP_GETSOURCES containing several files, plus <HASH 16><SIZE 4> (16.44+)
+#define SRV_TCPFLG_RELATEDSEARCH	0x00000040	//	17.5+
+#define SRV_TCPFLG_TYPETAGINTEGER	0x00000080	//	FT_FILETYPE excepted in numeric format (17.6+)
+#define SRV_TCPFLG_LARGEFILES		0x00000100	//	17.8+
+#define SRV_TCPFLG_TCPOBFUSCATION	0x00000400	//	17.13+
+
+// Server UDP flags
+#define SRV_UDPFLG_EXT_GETSOURCES	0x00000001	//	Server accepts the UDP AskSource coalescing (several files in one OP_GLOBGETSOURCES)
+#define SRV_UDPFLG_EXT_GETFILES		0x00000002
+#define SRV_UDPFLG_NEWTAGS			0x00000008	//	Server accepts newtags (16.46+)
+#define SRV_UDPFLG_UNICODE			0x00000010
+#define SRV_UDPFLG_EXT_GETSOURCES2	0x00000020	//	Server accepts OP_GLOBGETSOURCES2
+#define SRV_UDPFLG_RELATEDSEARCH	0x00000040	//	Related search's supported by TCP only but capability is still reported to notify clients
+#define SRV_UDPFLG_TYPETAGINTEGER	0x00000080	//	FT_FILETYPE excepted in numeric format (17.6+)
+#define SRV_UDPFLG_LARGEFILES		0x00000100	//	17.8+
+#define SRV_UDPFLG_UDPOBFUSCATION	0x00000200	//	17.13+
+#define SRV_UDPFLG_TCPOBFUSCATION	0x00000400	//	17.13+
+
+class CServer
+{
+public:
+	CServer(ServerMet_Struct* in_data);
+	CServer(uint16 uPort, const CString &strAddr);
+	CServer(const CServer *pOld);
+	~CServer();
+	const CString&	GetListName() const								{return m_strListName;}
+	const CString&	GetFullIP() const								{return m_strFullIP;}
+	const CString&	GetAddress() const;
+	uint16	GetPort() const									{return m_uPort;}
+	void	SetPort(uint16 uPort)							{m_uPort = uPort;}
+	uint16	GetAuxPort() const								{return m_uAuxPort;}
+	void	SetAuxPort(uint16 uAuxPort)							{m_uAuxPort = uAuxPort;}
+	bool	HasPublicAddress() const;
+	bool	HasSameAddress(const CServer& server, bool bCheckPort = true) const;
+	bool	AddTagFromFile(CFile &servermet);
+	void	SetListName(const CString& newname) 			{ m_strListName = newname; }
+	void	SetDescription(const CString& newname) 			{ m_strDescription = newname; }
+	uint32	GetIP()	const		{return m_dwIP;}
+	uint32	GetFiles() const								{return m_dwFiles;}
+	uint32	GetNumUsers() const								{return m_dwNumUsers;}
+	CString	GetDescription() const							{return m_strDescription;}
+	uint32	GetPing() const									{return m_dwPingTime;}
+	byte	GetPreferences() const							{ return m_bytePreferences; }
+	uint32	GetMaxUsers() const								{return m_dwMaxUsers;}
+	void	SetMaxUsers(uint32 in_maxusers) 				{m_dwMaxUsers = in_maxusers;}
+	void	SetUserCount(uint32 in_users)					{m_dwNumUsers = in_users;}
+	void	SetFileCount(uint32 in_files)					{m_dwFiles = in_files;}
+	void	ResetFailedCount()								{m_dwFailedCount = 0;}
+	void	AddFailedCount()								{m_dwFailedCount++;}
+	uint32	GetFailedCount() const							{return m_dwFailedCount;}
+	void	SetIP(uint32 dwNewIP);
+	const CString&	GetDynIP() const								{return m_strDynIP;}
+	bool	HasDynIP() const								{return !m_strDynIP.IsEmpty();}
+	void	SetDynIP(const CString& newdynip)				{m_strDynIP = newdynip; }
+	uint32	GetLastPingedTime() const						{return lastpingedtime;}
+	void	SetLastPingedTime(uint32 dwTime)				{lastpingedtime = dwTime;}
+	uint32	GetRealLastPingedTime() const					{return m_dwRealLastPingedTime;}
+	void	SetRealLastPingedTime(uint32 dwTime)			{m_dwRealLastPingedTime = dwTime;}
+	uint32	GetLastPinged() const							{return lastpinged;}
+	void	SetLastPinged(uint32 in_lastpinged)				{lastpinged = in_lastpinged;}
+	byte	GetLastDescPingedCount()						{return lastdescpingedcount;}
+	void	SetLastDescPingedCount(bool reset)				{if(reset){lastdescpingedcount=0;}else{lastdescpingedcount++;}}
+	void	SetPing(uint32 in_ping)							{m_dwPingTime = in_ping;}
+	void	SetPreference(byte byteInPreferences)			{m_bytePreferences = byteInPreferences;}
+	void	SetIsStaticMember(bool bIsStatic)				{m_bIsStaticServerMember=bIsStatic;}
+	bool	IsStaticMember() const							{return m_bIsStaticServerMember;}
+	uint32	GetChallenge() const							{return m_dwChallenge;}
+	void	SetChallenge(uint32 dwChallenge)				{m_dwChallenge = dwChallenge;}
+	uint32	GetDescReqChallenge() const						{return m_dwDescReqChallenge;}
+	void	SetDescReqChallenge(uint32 dwDescReqChallenge)	{m_dwDescReqChallenge = dwDescReqChallenge;}
+	uint32	GetSoftMaxFiles() const							{return m_dwSoftMaxFiles;}
+	void	SetSoftMaxFiles(uint32 in_dwNumSoftFiles)		{m_dwSoftMaxFiles = in_dwNumSoftFiles;}
+	uint32	GetHardMaxFiles() const							{return m_dwHardMaxFiles;}
+	void	SetHardMaxFiles(uint32 in_dwNumHardFiles)		{m_dwHardMaxFiles = in_dwNumHardFiles;}
+	const	CString& GetVersion() const						{return m_strVersion;}
+	void	SetVersion(const CString &strVersion)			{m_strVersion = strVersion;}
+
+	uint32	ed2k2eMule(uint32 dwSrvPref);
+	uint32	eMule2ed2k(uint32 dwSrvPref);
+
+	void	SetTCPFlags(uint32 dwFlags)		{m_dwTCPFlags = dwFlags;}
+	uint32	GetTCPFlags() const				{return m_dwTCPFlags;}
+	void	SetUDPFlags(uint32 dwFlags)		{m_dwUDPFlags = dwFlags;}
+	uint32	GetUDPFlags() const				{return m_dwUDPFlags;}
+
+	HICON	GetServerInfo4Tooltips(CString &strInfo);
+	CString	GetUsersInfo4Tooltips();
+
+	uint32	GetLowIDUsers() const							{ return m_dwLowIDUsers; }
+	void	SetLowIDUsers(uint32 dwLowIDUsers)				{ m_dwLowIDUsers = dwLowIDUsers; }
+
+	uint16	GetObfuscationPortTCP() const					{ return m_uObfuscationPortTCP; }
+	void	SetObfuscationPortTCP(uint16 uPort)				{ m_uObfuscationPortTCP = uPort; }
+	uint16	GetObfuscationPortUDP() const					{ return m_uObfuscationPortUDP; }
+	void	SetObfuscationPortUDP(uint16 uPort)				{ m_uObfuscationPortUDP = uPort; }
+	uint32	GetServerKeyUDP() const;
+	uint32	GetServerKeyUDPForce() const					{ return m_dwServerKeyUDP; }
+	void	SetServerKeyUDP(uint32 dwServerKeyUDP);
+	bool	GetCryptPingReplyPending() const				{ return m_bCryptPingReplyPending; }
+	void	SetCryptPingReplyPending(bool bVal)				{ m_bCryptPingReplyPending = bVal; }
+	uint32	GetServerKeyUDPIP() const						{ return m_dwIPServerKeyUDP; }
+
+	bool	SupportsLargeFilesTCP() const					{ return (m_dwTCPFlags & SRV_TCPFLG_LARGEFILES) != 0; }
+	bool	SupportsObfuscationUDP() const					{ return (GetUDPFlags() & SRV_UDPFLG_UDPOBFUSCATION) != 0; }
+	bool	SupportsObfuscationTCP() const					{ return (GetObfuscationPortTCP() != 0) && (((GetUDPFlags() & SRV_UDPFLG_TCPOBFUSCATION) != 0) || ((GetTCPFlags() & SRV_TCPFLG_TCPOBFUSCATION) != 0)); }
+
+	CString	GetCountryName() const;
+	void	ResetIP2Country();
+	bool	HasServerName() const							{ return !_tcsstr(m_strListName, m_strFullIP); }
+
+private:
+	uint32		m_dwChallenge;
+	uint32		m_dwDescReqChallenge;
+	uint32		lastpinged;		//This is to get the ping delay. relative time (ms)
+	uint32		lastpingedtime; //This is to decided when we retry the ping. absolute time (seconds) also saved in server.met
+	byte		lastdescpingedcount;
+	byte		m_bytePreferences;
+	uint16		m_uServerCountryIdx;
+	uint32		m_dwFiles;
+	uint32		m_dwNumUsers;
+	uint32		m_dwMaxUsers;
+	uint32		m_dwSoftMaxFiles;
+	uint32		m_dwHardMaxFiles;
+	uint32		m_dwPingTime;
+	CString		m_strDescription;
+	CString		m_strListName;
+	CString		m_strDynIP;
+	CString		m_strFullIP;
+	CString		m_strVersion;
+	uint32		m_dwIP;
+	uint16		m_uPort;
+	uint16		m_uAuxPort;
+	uint32		m_dwFailedCount;
+	uint32		m_dwTCPFlags;
+	uint32		m_dwUDPFlags;
+	uint32		m_dwLowIDUsers;
+	uint32		m_dwServerKeyUDP;
+	uint32		m_dwIPServerKeyUDP;
+	uint16		m_uObfuscationPortTCP;
+	uint16		m_uObfuscationPortUDP;
+	uint32		m_dwRealLastPingedTime;	// last pinged time without any random modifier
+	bool		m_bIsStaticServerMember;
+	bool		m_bCryptPingReplyPending;
+};
+@
+
+
+1.43
+log
+@improved string processing
+@
+text
+@a18 3
+#include "SafeFile.h"
+#include "types.h"
+
+@
+
+
+1.42
+log
+@1) unicode preparation 2) variable rename
+@
+text
+@d67 3
+a69 3
+	CString	GetListName() const								{return m_strListName;}
+	CString	GetFullIP() const								{return m_strFullIP;}
+	CString	GetAddress() const;
+d93 1
+a93 1
+	CString	GetDynIP() const								{return m_strDynIP;}
+@
+
+
+1.41
+log
+@Simplified interface -- pointer instead of a reference.
+@
+text
+@d78 1
+a78 1
+	void	SetDescription(const CString& newname) 			{ description = newname; }
+d82 1
+a82 1
+	CString	GetDescription() const							{return description;}
+d166 1
+a166 1
+	CString		description;
+@
+
+
+1.40
+log
+@Encryption preparations; Removed unrequired #includes; Corresponding structures were moved here.
+@
+text
+@d65 1
+a65 1
+	CServer(const CServer& pOld);
+@
+
+
+1.39
+log
+@Large file size support preparations.
+@
+text
+@d2 1
+a2 1
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d17 1
+a18 1
+#pragma once
+d21 15
+a35 5
+#include "packets.h"
+#include "otherstructs.h"
+#include <afxcoll.h>
+#include <afxtempl.h>
+#include <afxcmn.h>
+d46 1
+d57 2
+d92 1
+a92 1
+	void	SetID(uint32 newip);
+d96 4
+a99 2
+	uint32	GetLastPingedTime()								{return lastpingedtime;}
+	void	SetLastPingedTime(uint32 in_lastpingedtime)		{lastpingedtime = in_lastpingedtime;}
+d133 11
+d145 2
+d178 5
+d184 1
+@
+
+
+1.38
+log
+@Comments.
+@
+text
+@a118 1
+	bool	SupportsLargeFilesUDP() const					{ return (m_dwUDPFlags & SRV_UDPFLG_LARGEFILES) != 0; }
+@
+
+
+1.37
+log
+@Large file size support preparations.
+@
+text
+@d32 1
+a32 1
+#define SRV_TCPFLG_EXT_GETSOURCES	0x00000020	//	Server accepts OP_GETSOURCES containing serveral files, plus <HASH 16><SIZE 4>
+d35 1
+a35 1
+#define SRV_TCPFLG_LARGEFILES		0x00000100
+d43 1
+d45 1
+a45 1
+#define SRV_UDPFLG_LARGEFILES		0x00000100
+@
+
+
+1.36
+log
+@UNICODE preparation (first shot)
+@
+text
+@d29 4
+a32 4
+#define	SRV_TCPFLG_COMPRESSION		0x00000001
+#define	SRV_TCPFLG_NEWTAGS			0x00000008	//	Server accepts newtags (16.46+)
+#define	SRV_TCPFLG_UNICODE			0x00000010
+#define	SRV_TCPFLG_EXT_GETSOURCES	0x00000020	//	Server accepts OP_GETSOURCES containing serveral files, plus <HASH 16><SIZE 4>
+d35 1
+d38 5
+a42 5
+#define	SRV_UDPFLG_EXT_GETSOURCES	0x00000001	//	Server accepts the UDP AskSource coalescing (several files in one OP_GLOBGETSOURCES)
+#define	SRV_UDPFLG_EXT_GETFILES		0x00000002
+#define	SRV_UDPFLG_NEWTAGS			0x00000008	//	Server accepts newtags (16.46+)
+#define	SRV_UDPFLG_UNICODE			0x00000010
+#define	SRV_UDPFLG_EXT_GETSOURCES2	0x00000020	//	Server accepts OP_GLOBGETSOURCES2
+d44 1
+d117 3
+@
+
+
+1.35
+log
+@Modified preparation of the server search request packet to make it clearer.
+@
+text
+@d48 1
+a48 1
+	CServer(uint16 in_port, const CString& i_addr);
+@
+
+
+1.34
+log
+@Added Related File Search.
+@
+text
+@d42 1
+@
+
+
+1.33
+log
+@Updated algorithm to retrieve server description.
+@
+text
+@d33 2
+@
+
+
+1.32
+log
+@Faster loading and saving of configuration files.
+@
+text
+@d87 4
+a90 2
+	uint32	GetChallenge() const							{return challenge;}
+	void	SetChallenge(uint32 in_challenge)				{challenge = in_challenge;}
+d117 2
+a118 1
+	uint32		challenge;
+d138 1
+a138 1
+	uint32		m_dwFailedCount; 
+@
+
+
+1.31
+log
+@New protocol security features: provide file size for TCP & UDP server source requests {lugdunummaster};
+Comments.
+@
+text
+@d57 1
+a57 1
+	bool	AddTagFromFile(CSafeFile& servermet);
+@
+
+
+1.30
+log
+@Optimized server list sorting.
+@
+text
+@d30 1
+a30 1
+#define	SRV_TCPFLG_NEWTAGS			0x00000008
+d32 1
+d35 1
+a35 1
+#define	SRV_UDPFLG_EXT_GETSOURCES	0x00000001
+d37 3
+@
+
+
+1.29
+log
+@Server LowID users statistics; Better data alignment;
+Removed unrequired variables; Unified processing of server priorities.
+@
+text
+@d57 5
+a61 5
+	uint32	GetFiles() const								{return m_dwFiles;} 
+	uint32	GetNumUsers() const								{return m_dwNumUsers;} 
+	CString	GetDescription() const							{return description;} 
+	uint32	GetPing() const									{return m_dwPingTime;} 
+	byte	GetPreferences() const							{ return m_bytePreferences; } 
+d108 1
+@
+
+
+1.28
+log
+@Removed unused code.
+@
+text
+@a39 7
+	enum EnumServerPriority
+	{
+		SERVERPRIORITY_LOW		= 0,
+		SERVERPRIORITY_NORMAL	= 1,
+		SERVERPRIORITY_HIGH		= 2,
+		SERVERPRIORITY_INVALID // this one invalid, should always be last
+	};
+d61 1
+a61 1
+	EnumServerPriority	GetPreferences() const				{return m_ePreferences;} 
+d80 1
+a80 1
+	void	SetPreference(EnumServerPriority in_preferences) {m_ePreferences = in_preferences;}
+d92 2
+a93 2
+	uint32	ed2k2eMule(uint32 srvPref);	// Added by Tarod [thx Hein] - Convert eDonkey pref values to eMule pref values
+	uint32	eMule2ed2k(uint32 srvPref);	// Added by Tarod [thx Hein] - Convert eMule pref values to eDonkey pref values
+d101 1
+a101 1
+	CString GetUsersInfo4Tooltips();
+d103 5
+a107 2
+	CString		GetCountryName() const;
+	void		ResetIP2Country();
+d114 2
+a120 1
+	EnumServerPriority		m_ePreferences;
+a124 1
+	uint32		m_dwTagCount;
+d126 1
+a130 3
+	bool		m_bIsStaticServerMember;
+	CString		m_strVersion;
+
+d133 2
+a134 2
+
+	uint16		m_uServerCountryIdx;
+@
+
+
+1.27
+log
+@Added server capabilities; Removed unused struct definition.
+@
+text
+@a50 1
+	void	AddTag(CServerTag* in_tag)						{m_tagList.AddTail(in_tag);}
+a59 1
+	void	FillWindowTags(CTreeCtrl* wnd,HTREEITEM rootitem);
+a133 1
+	CTypedPtrList<CPtrList, CServerTag*>	m_tagList;
+@
+
+
+1.26
+log
+@Formatting and some improvements in tooltips code
+@
+text
+@a17 1
+
+d30 2
+a31 1
+#define SRV_TCPFLG_AUXPORT			0x00000004
+a36 2
+struct IPRange_Struct2;
+
+d45 1
+a45 1
+		SERVERPRIORITY_INVALID, // this one invalid , should always be last
+d144 1
+a144 1
+};@
+
+
+1.25
+log
+@Tooltips alignment is now automatic;  Improved status bar tooltips
+@
+text
+@d106 1
+a106 1
+	void		SetTCPFlags(uint32 dwFlags)		{m_dwTCPFlags = dwFlags;}
+d108 1
+a108 1
+	void		SetUDPFlags(uint32 dwFlags)		{m_dwUDPFlags = dwFlags;}
+d110 2
+a111 1
+	CString GetServerInfo4Tooltips();
+@
+
+
+1.24
+log
+@Totally reworked country information feature to minimaze memory usage.
+@
+text
+@d111 2
+a112 1
+	
+@
+
+
+1.23
+log
+@added tooltips to the Server list
+@
+text
+@d20 1
+a20 1
+#include "safefile.h"
+d77 3
+a79 3
+	void	ResetFailedCount()								{m_dwFailedCount = 0;} 
+	void	AddFailedCount()								{m_dwFailedCount++;} 
+	uint32	GetFailedCount() const							{return m_dwFailedCount;} 
+d83 1
+a83 1
+	void	SetDynIP(const CString& newdynip) 				{m_strDynIP = newdynip; }
+d111 3
+d136 1
+a136 1
+	CTypedPtrList<CPtrList, CServerTag* >	m_tagList;
+d140 2
+a141 2
+	uint32 		m_dwTCPFlags;
+	uint32 		m_dwUDPFlags;
+d143 1
+a143 7
+public:
+	CString		GetCountryName(bool bShortName = false) const;
+	int			GetCountryFlagIndex() const;
+	void		ResetIP2Country();
+
+private:
+	struct		IPRange_Struct2* m_structServerCountry;
+@
+
+
+1.22
+log
+@no longer loading mid size names + some small changes
+@
+text
+@d110 2
+a111 1
+	
+@
+
+
+1.21
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d140 1
+a140 1
+	CString		GetCountryName() const;
+@
+
+
+1.20
+log
+@added auxiliary port support from KuSh (commited with eklmn's authorization)
+@
+text
+@d37 2
+d138 8
+@
+
+
+1.19
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d31 1
+d56 3
+d60 1
+a60 1
+	bool	HasSameAddress(const CServer& server) const;
+d128 1
+@
+
+
+1.18
+log
+@Minor changes
+@
+text
+@d82 1
+a82 1
+	uint8	GetLastDescPingedCount()						{return lastdescpingedcount;}
+d109 1
+a109 1
+	uint8		lastdescpingedcount;
+@
+
+
+1.17
+log
+@Changed the filtering of 255.255.255.255 servers
+@
+text
+@a55 1
+	bool	HasInvalidAddress() const;
+@
+
+
+1.16
+log
+@1) compession support within communicatio client<->server
+2) extended UDP file search support
+@
+text
+@d56 1
+@
+
+
+1.15
+log
+@Formatting, comments, and name changes.
+@
+text
+@d28 8
+d100 5
+d128 3
+@
+
+
+1.14
+log
+@Max users fix.
+@
+text
+@d46 1
+a46 1
+	uint16	GetPort() const									{return m_nPort;}
+d53 1
+a53 1
+	uint32	GetIP()	const		{return m_iIP;}
+d109 2
+a110 2
+	uint32		m_iIP;
+	uint16		m_nPort;
+@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d42 3
+a44 3
+	void	AddTag(CServerTag* in_tag)			{m_tagList.AddTail(in_tag);}
+	CString	GetListName() const					{return m_strListName;}
+	CString	GetFullIP() const						{return m_strFullIP;}
+d46 1
+a46 1
+	uint16	GetPort() const						{return m_nPort;}
+d51 2
+a52 2
+	void	SetListName(const CString& newname) { m_strListName = newname; }
+	void	SetDescription(const CString& newname) { description = newname; }
+d54 4
+a57 4
+	uint32	GetFiles() const						{return m_dwFiles;} 
+	uint32	GetNumUsers() const						{return m_dwNumUsers;} 
+	CString	GetDescription() const				{return description;} 
+	uint32	GetPing() const						{return m_dwPingTime;} 
+d59 7
+a65 7
+	uint32	GetMaxUsers() const					{return m_dwNumUsers;}
+	void	SetMaxUsers(uint32 in_maxusers) {m_dwMaxUsers = in_maxusers;}
+	void	SetUserCount(uint32 in_users)	{m_dwNumUsers = in_users;}
+	void	SetFileCount(uint32 in_files)	{m_dwFiles = in_files;}
+	void	ResetFailedCount()				{m_dwFailedCount = 0;} 
+	void	AddFailedCount()				{m_dwFailedCount++;} 
+	uint32	GetFailedCount() const				{return m_dwFailedCount;} 
+d67 21
+a87 21
+	CString	GetDynIP() const					{return m_strDynIP;}
+	bool	HasDynIP() const						{return !m_strDynIP.IsEmpty();}
+	void	SetDynIP(const CString& newdynip) {m_strDynIP = newdynip; }
+	uint32	GetLastPingedTime()				{return lastpingedtime;}
+	void	SetLastPingedTime(uint32 in_lastpingedtime)	{lastpingedtime = in_lastpingedtime;}
+	uint32	GetLastPinged() const					{return lastpinged;}
+	void	SetLastPinged(uint32 in_lastpinged)	{lastpinged = in_lastpinged;}
+	uint8	GetLastDescPingedCount()		{return lastdescpingedcount;}
+	void	SetLastDescPingedCount(bool reset)	{if(reset){lastdescpingedcount=0;}else{lastdescpingedcount++;}}
+	void	SetPing(uint32 in_ping)					{m_dwPingTime = in_ping;}
+	void	SetPreference(EnumServerPriority in_preferences)	{m_ePreferences = in_preferences;}
+	void	SetIsStaticMember(bool bIsStatic)			{m_bIsStaticServerMember=bIsStatic;}
+	bool	IsStaticMember() const						{return m_bIsStaticServerMember;}
+	uint32	GetChallenge() const						{return challenge;}
+	void	SetChallenge(uint32 in_challenge)			{challenge = in_challenge;}
+	uint32	GetSoftMaxFiles() const						{return m_dwSoftMaxFiles;}
+	void	SetSoftMaxFiles(uint32 in_dwNumSoftFiles)	{m_dwSoftMaxFiles = in_dwNumSoftFiles;}
+	uint32	GetHardMaxFiles() const						{return m_dwHardMaxFiles;}
+	void	SetHardMaxFiles(uint32 in_dwNumHardFiles)	{m_dwHardMaxFiles = in_dwNumHardFiles;}
+	const	CString& GetVersion() const					{return m_strVersion;}
+	void	SetVersion(const CString &strVersion)		{m_strVersion = strVersion;}
+@
+
+
+1.12
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d78 10
+a87 10
+	void	SetIsStaticMember(bool in)				{staticservermember=in;}
+	bool	IsStaticMember() const						{return staticservermember;}
+	uint32	GetChallenge() const							{return challenge;}
+	void	SetChallenge(uint32 in_challenge)		{challenge = in_challenge;}
+	uint32	GetSoftFiles() const					{return softfiles;}
+	void	SetSoftFiles(uint32 in_softfiles)		{softfiles = in_softfiles;}
+	uint32	GetHardFiles() const					{return hardfiles;}
+	void	SetHardFiles(uint32 in_hardfiles)		{hardfiles = in_hardfiles;}
+	const	CString& GetVersion() const				{return m_strVersion;}
+	void	SetVersion(const CString &strVersion)	{m_strVersion = strVersion;}
+d100 2
+a101 2
+	uint32		softfiles;
+	uint32		hardfiles;
+d113 1
+a113 1
+	uint8		staticservermember;
+@
+
+
+1.11
+log
+@Formatting, comments, and name changes.
+@
+text
+@d42 3
+a44 3
+	void	AddTag(CTag* in_tag)			{m_tagList.AddTail(in_tag);}
+	CString	GetListName() const					{return listname;}
+	CString	GetFullIP() const						{return ipfull;}
+d46 1
+a46 1
+	uint16	GetPort() const						{return port;}
+d51 1
+a51 1
+	void	SetListName(const CString& newname) { listname = newname; }
+d53 3
+a55 3
+	uint32	GetIP()	const		{return ip;}
+	uint32	GetFiles() const						{return files;} 
+	uint32	GetUsers() const						{return users;} 
+d57 1
+a57 1
+	uint32	GetPing() const						{return ping;} 
+d59 7
+a65 7
+	uint32	GetMaxUsers() const					{return maxusers;}
+	void	SetMaxUsers(uint32 in_maxusers) {maxusers = in_maxusers;}
+	void	SetUserCount(uint32 in_users)	{users = in_users;}
+	void	SetFileCount(uint32 in_files)	{files = in_files;}
+	void	ResetFailedCount()				{failedcount = 0;} 
+	void	AddFailedCount()				{failedcount++;} 
+	uint32	GetFailedCount() const				{return failedcount;} 
+d67 3
+a69 3
+	CString	GetDynIP() const					{return dynip;}
+	bool	HasDynIP() const						{return !dynip.IsEmpty();}
+	void	SetDynIP(const CString& newdynip) {dynip = newdynip; }
+d76 1
+a76 1
+	void	SetPing(uint32 in_ping)					{ping = in_ping;}
+d97 3
+a99 3
+	uint32		files;
+	uint32		users;
+	uint32		maxusers;
+d103 1
+a103 1
+	uint32		ping;
+d105 8
+a112 8
+	CString		listname;
+	CString		dynip;
+	uint32		tagcount;
+	CString		ipfull;
+	uint32		ip;
+	uint16		port;
+	uint32		failedcount; 
+	CTypedPtrList<CPtrList, CTag*>	m_tagList;
+@
+
+
+1.10
+log
+@Formatting, comments, and name changes.
+@
+text
+@d28 2
+a29 1
+class CServer{
+d31 1
+a31 1
+	enum eServerPriority
+d33 4
+a36 4
+		ePR_LOW		= 0,
+		ePR_NORMAL	=	1,
+		ePR_HIGH	=	2,
+		ePR_LAST_INVALID, // this one invalid , should always be last
+d58 1
+a58 1
+	eServerPriority	GetPreferences() const				{return m_ePreferences;} 
+d77 1
+a77 1
+	void	SetPreference(eServerPriority in_preferences)	{m_ePreferences = in_preferences;}
+d102 1
+a102 1
+	eServerPriority		m_ePreferences;
+@
+
+
+1.9
+log
+@added columns Soft/Hard Files Limit and Version in server window (merge from official)
+@
+text
+@d41 1
+a41 1
+	void	AddTag(CTag* in_tag)			{taglist.AddTail(in_tag);}
+d111 1
+a111 1
+	CTypedPtrList<CPtrList, CTag*>	taglist;
+@
+
+
+1.8
+log
+@code cleanup
+@
+text
+@d69 2
+d73 2
+d81 6
+d93 3
+a95 1
+	uint32		lastpinged;
+d99 2
+d113 1
+@
+
+
+1.7
+log
+@helper method to compare servers by ip and port
+@
+text
+@d49 1
+a49 1
+	bool	AddTagFromFile(CSafeFile* servermet);
+@
+
+
+1.6
+log
+@code cleanup
+@
+text
+@d47 1
+@
+
+
+1.5
+log
+@code cleanup
+@
+text
+@d46 1
+@
+
+
+1.4
+log
+@coverted code from char * to CString
+@
+text
+@d38 2
+a39 2
+	CServer(uint16 in_port, char* i_addr);
+	CServer(CServer* pOld);
+d41 1
+a41 1
+	void	AddTag(CTag* in_tag)			{taglist->AddTail(in_tag);}
+d44 1
+a44 1
+	CString	GetAddress();
+d50 7
+a56 7
+	uint32	GetIP()			{return ip;}
+	uint32	GetFiles()						{return files;} 
+	uint32	GetUsers()						{return users;} 
+	CString	GetDescription()				{return description;} 
+	uint32	GetPing()						{return ping;} 
+	eServerPriority	GetPreferences()				{return m_ePreferences;} 
+	uint32	GetMaxUsers()					{return maxusers;}
+d62 1
+a62 1
+	uint32	GetFailedCount()				{return failedcount;} 
+d64 2
+a65 2
+	CString	GetDynIP()						{return dynip;}
+	bool	HasDynIP()						{return !dynip.IsEmpty();}
+d67 1
+a67 1
+	uint32	GetLastPinged()					{return lastpinged;}
+d72 2
+a73 2
+	bool	IsStaticMember()						{return staticservermember;}
+	uint32	GetChallenge()							{return challenge;}
+d95 1
+a95 1
+	CTypedPtrList<CPtrList, CTag*>*	taglist;
+@
+
+
+1.3
+log
+@Some code housekeeping changes
+@
+text
+@d42 2
+a43 2
+	CString	GetListName()					{return listname;}
+	char*	GetFullIP()						{return ipfull;}
+d45 1
+a45 1
+	uint16	GetPort()						{return port;}
+d91 1
+a91 1
+	char		ipfull[17];
+@
+
+
+1.2
+log
+@code cleanup
+@
+text
+@d30 7
+d55 1
+a55 1
+	uint32	GetPreferences()				{return preferences;} 
+d70 1
+a70 1
+	void	SetPreference(uint32 in_preferences)	{preferences = in_preferences;}
+d85 1
+a85 1
+	uint32		preferences;
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d35 1
+a35 1
+	char*	GetListName()					{return listname;}
+d37 1
+a37 1
+	char*	GetAddress();
+d41 2
+a42 2
+	void	SetListName(char* newname);
+	void	SetDescription(char* newdescription);
+d46 1
+a46 1
+	char*	GetDescription()				{return description;} 
+d57 3
+a59 3
+	char*	GetDynIP()						{return dynip;}
+	bool	HasDynIP()						{return dynip;}
+	void	SetDynIP(char* newdynip);
+d80 3
+a82 3
+	char*		description;
+	char*		listname;
+	char*		dynip;
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

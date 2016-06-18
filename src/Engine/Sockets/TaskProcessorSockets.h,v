@@ -1,0 +1,600 @@
+head	1.18;
+access;
+symbols
+	PublicRelease_1_2e:1.18
+	Interim_Release_1-2e_RC1:1.18
+	PublicRelease_1_2d:1.18
+	Interim_Release_1-2d_RC1:1.18
+	Interim_Release_1-2d_beta1:1.18
+	PublicRelease_1_2c:1.18
+	Interim_Release_1-2c_RC1:1.18
+	Interim_Release_1-2c_beta1:1.18
+	PublicRelease_1_2b:1.18
+	Interim_Release_1-2b_RC1:1.18
+	PublicRelease_1_2a:1.18
+	Interim_Release_1-2a_RC1:1.18
+	Interim_Release_1-2a_beta2:1.18
+	Interim_Release_1-2a_beta1:1.18
+	PublicRelease_1_2:1.18
+	Interim_Release_1-2_RC1:1.18
+	Interim_Release_1-2_beta1:1.18
+	PublicRelease_1_1g:1.18
+	Interim_Release_1-1g_RC3:1.18
+	Interim_Release_1-1g_RC2:1.18
+	Interim_Release_1-1g_RC1:1.18
+	Interim_Release_1-1g_beta2:1.18
+	Interim_Release_1-1g_beta1:1.18
+	PublicRelease_1_1f:1.18
+	Interim_Release_1-1f_RC1:1.18
+	PublicRelease_1_1e:1.18
+	Interim_Release_1-1e_RC2:1.18
+	Interim_Release_1-1e_RC1:1.18
+	Interim_Release_1-1e_beta1:1.18
+	PublicRelease_1_1d:1.13
+	Interim_Release_1-1d_RC1:1.13
+	PublicRelease_1_1c:1.10
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.8
+	Interim_Release_1-1c_beta1:1.8
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.6
+	Interim_Release_1n_RC2:1.6
+	Interim_Release_1n_RC1:1.6
+	PublicRelease_1m:1.6
+	Interim_Release_1m_beta1:1.6
+	PublicRelease_1l:1.6
+	Interim_Release_1l_RC3:1.6
+	Interim_Release_1l_RC2:1.6
+	Interim_Release_1l_RC1:1.6
+	Interim_Release_1l_beta2:1.6
+	Interim_Release_1l_beta1:1.6
+	PublicRelease_1k:1.6
+	Interim_Release_1k_RC4:1.6
+	Interim_1k_RC3:1.6
+	Interim_1k_RC2:1.6
+	Interim_Release_1k_RC1:1.6
+	Interim_Release_1k_beta5:1.6
+	Intrerim_Release_1k_beta4:1.6
+	Interim_Release_1k_beta1:1.6
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.2
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.18
+date	2005.04.11.16.32.36;	author kuchin;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.04.08.14.16.36;	author kuchin;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.04.07.17.24.49;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.03.29.14.36.14;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.03.22.22.02.10;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.03.13.19.30.16;	author kuchin;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.03.11.14.45.20;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2005.03.08.17.09.08;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.02.26.17.52.05;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.02.18.18.31.25;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.01.04.13.21.28;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.12.29.16.04.23;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.02.07.11.37.09;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.07.11.31.46;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.02.06.13.55.47;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.16.14.51.00;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.21.10.29.05;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.18
+log
+@v2 - logging subsystem
+@
+text
+@// TaskProcessor_Main.h: interface for the CTaskProcessor_Sockets class.
+//
+//////////////////////////////////////////////////////////////////////
+#ifdef NEW_SOCKETS
+#if !defined(AFX_TASKPROCESSOR_MAIN_H__E3110A38_4DB8_41A3_B7B4_F4481D9DDCB1__INCLUDED_)
+#define AFX_TASKPROCESSOR_MAIN_H__E3110A38_4DB8_41A3_B7B4_F4481D9DDCB1__INCLUDED_
+
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+
+#include "../TaskProcessor.h"
+#ifdef SUPPORT_CLIENT_PEER
+	#include "../../OtherFunctions.h"
+#endif //SUPPORT_CLIENT_PEER
+
+
+struct CTcpCompletionTask;
+class CClientMule;
+
+struct CEmClient : public CLoggable2
+{
+	SOCKET	m_hSocket;
+	bool	m_bIsConnected;
+	bool	m_bFromOutside;
+
+	ULONG	m_dwAddr;
+	USHORT	m_uPort;
+	ULONG	m_nClientID; // must be generated automatically
+
+	CTcpCompletionTask	*m_pOnCompletionTask;
+
+	CEmClient()
+		: m_hSocket(0), m_bIsConnected(false), m_bFromOutside(false),
+			m_dwAddr(0), m_uPort(0), m_nClientID(0),
+			m_pOnCompletionTask(NULL) {}
+	virtual ~CEmClient();
+	virtual T_CLIENT_TYPE GetType() const = 0;
+
+	virtual void OnConnected();
+	virtual void OnAccepted();
+	virtual void OnDisconnected();
+};
+
+#ifdef SUPPORT_CLIENT_PEER
+struct CEmClient_Peer : public CEmClient
+{
+	CEmClient_Peer();
+	virtual T_CLIENT_TYPE GetType() const;
+//	virtual void OnConnected();
+	virtual void OnDisconnected();
+
+	__declspec(property(get=_GetClientMule, put=_PutClientMule)) CClientMule* Mule;
+
+	CClientMule* _GetClientMule();
+	void _PutClientMule(CClientMule* pMule){ m_pMule = pMule; }
+
+protected:
+	CClientMule* m_pMule;
+};
+
+struct CEmClient_Server : public CEmClient_Peer
+{
+	virtual T_CLIENT_TYPE GetType() const;
+//	virtual void OnConnected();
+//	virtual void OnDisconnected();
+
+	int	m_nCredits; // Will use later to check for credits left
+	int	m_nMsgCount; // To check that server version appears in first message
+};
+#endif //SUPPORT_CLIENT_PEER
+
+struct CEmClient_Web : public CEmClient {
+
+	virtual T_CLIENT_TYPE GetType() const;
+	// Possibly some user's stuff.
+//	virtual void OnConnected();
+};
+
+struct CEmClient_Xml : public CEmClient {
+
+	virtual T_CLIENT_TYPE GetType() const;
+};
+
+typedef map<SOCKET, CEmClient*> SocketClientMap;
+
+class CTaskProcessor_Sockets : public CTaskProcessor
+{
+	virtual bool Start();
+	virtual void Stop();
+	virtual void ProcessTimeout();
+
+	ULONG m_nLastClientID;
+
+public:
+	CTaskProcessor_Sockets() :
+		m_nLastClientID(0)
+		{}
+
+	SocketClientMap	m_mapClients;
+
+public:
+	CEmClient* AllocClient(T_CLIENT_TYPE);
+	CEmClient* CTaskProcessor_Sockets::Lookup(SOCKET hSocket)
+	{
+		SocketClientMap::iterator pos = m_mapClients.find(hSocket);
+		return (pos != m_mapClients.end() ? (*pos).second : NULL);
+	}
+
+	CEmClient* AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE, CTcpCompletionTask *pOnCompletionTask);
+	void AddClientToMap(SOCKET hSocket, CEmClient *pClient);
+	bool AllocSend(SOCKET hSocket, PCVOID pData, DWORD dwLen, EnumQueuePriority ePriority);
+
+	void KillClient(CEmClient*);
+};
+#endif // !defined(AFX_TASKPROCESSOR_MAIN_H__E3110A38_4DB8_41A3_B7B4_F4481D9DDCB1__INCLUDED_)
+#endif@
+
+
+1.17
+log
+@v2 - more abstraction + logic
+@
+text
+@d17 1
+a17 6
+/*#ifdef PROCESS_OPCODES
+	#include "TcpEngineMule.h"
+#else
+	#include "TcpEngine.h"
+#endif //PROCESS_OPCODES
+*/
+@
+
+
+1.16
+log
+@v2 - fixes for upload logic
+@
+text
+@d17 1
+a17 1
+#ifdef PROCESS_OPCODES
+d22 1
+a22 1
+
+a106 6
+#ifdef PROCESS_OPCODES
+	CTcpEngineMule	m_stTcp;
+#else
+	CTcpEngine		m_stTcp;
+#endif //PROCESS_OPCODES
+
+@
+
+
+1.15
+log
+@v2 - increasing level of abstraction, more upload logic
+@
+text
+@d123 1
+a123 1
+	bool AllocSend(SOCKET hSocket, PCVOID pData, DWORD dwLen, bool bToEnd = true);
+@
+
+
+1.14
+log
+@v2 - enhancing logging subsystem
+@
+text
+@a12 1
+#include "TcpEngine.h"
+d17 6
+d107 3
+d111 1
+d123 1
+a123 1
+	bool AllocSend(SOCKET hSocket, PCVOID pData, DWORD dwLen);
+@
+
+
+1.13
+log
+@v2 - little improvements
+@
+text
+@a11 1
+#include "../../Loggable.h"
+d21 1
+a21 1
+struct CEmClient : public CLoggable
+@
+
+
+1.12
+log
+@v2 - more improvements
+@
+text
+@d15 3
+a17 3
+#ifndef NEW_SOCKETS_TRAY
+	#include "../Data/Client.h"
+#endif //NEW_SOCKETS_TRAY
+d20 1
+d46 1
+a53 2
+#ifndef NEW_SOCKETS_TRAY
+
+a60 2
+
+#endif //NEW_SOCKETS_TRAY
+d72 1
+a104 4
+#ifndef NEW_SOCKETS_TRAY
+	CClientList	m_ClientList;
+#endif //NEW_SOCKETS_TRAY
+
+@
+
+
+1.11
+log
+@v2 - minor rearrangements, started defining client and clientlist
+@
+text
+@d53 7
+d61 1
+@
+
+
+1.10
+log
+@v2 - upload already works, of course it has very poor implementation, without queues yet, but it works! Also webserver improvements - now you can enter commands through webinterface
+@
+text
+@d15 3
+d47 1
+d50 1
+d52 3
+a54 1
+
+d98 5
+@
+
+
+1.9
+log
+@v2 - more minor rearrangements
+@
+text
+@d46 2
+d50 1
+a50 1
+struct CEmClient_Server : public CEmClient
+d98 1
+a98 1
+	CEmClient *AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE, CTcpCompletionTask *pOnCompletionTask);
+@
+
+
+1.8
+log
+@XML connecting, tray app
+@
+text
+@d97 2
+@
+
+
+1.7
+log
+@There can be only one engine :-)
+@
+text
+@d30 5
+a34 5
+				CEmClient()
+					: m_hSocket(0), m_bIsConnected(false), m_bFromOutside(false),
+					  m_dwAddr(0), m_uPort(0), m_nClientID(0),
+					  m_pOnCompletionTask(NULL) {}
+	virtual		~CEmClient();
+d65 5
+@
+
+
+1.6
+log
+@Modified my modifications for better genericness (I like genericity but it's not in the dictionary :P ).
+@
+text
+@d14 1
+a15 1
+class CEmEngine;
+d37 3
+a39 3
+	virtual void OnConnected(CEmEngine&);
+	virtual void OnAccepted(CEmEngine&);
+	virtual void OnDisconnected(CEmEngine&);
+d45 1
+a45 1
+//	virtual void OnConnected(CEmEngine&);
+d51 2
+a52 2
+//	virtual void OnConnected(CEmEngine&);
+//	virtual void OnDisconnected(CEmEngine&);
+d62 1
+a62 1
+//	virtual void OnConnected(CEmEngine&);
+d76 1
+a76 2
+	CTaskProcessor_Sockets(CEmEngine& stEngine) :
+		CTaskProcessor(stEngine),
+d80 3
+a82 1
+	SocketClientMap m_mapClients;
+@
+
+
+1.5
+log
+@Modified code so Task caller can specify completion behavior.
+@
+text
+@d16 1
+a16 1
+struct COnConnectedTask;
+d28 1
+a28 3
+	CTask	*m_pOnConnectedTask;
+	CTask	*m_pOnAcceptedTask;
+	CTask	*m_pOnDisconnectedTask;
+d33 1
+a33 1
+					  m_pOnConnectedTask(NULL), m_pOnAcceptedTask(NULL), m_pOnDisconnectedTask(NULL) {}
+d90 1
+a90 1
+	CEmClient *AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE, COnConnectedTask *pOnConnectedTask);
+@
+
+
+1.4
+log
+@Formatting, comments, and name changes.
+@
+text
+@d16 1
+d18 2
+a19 1
+struct CEmClient : public CLoggable {
+d28 9
+a36 1
+	virtual ~CEmClient();
+d44 2
+a45 1
+struct CEmClient_Peer : public CEmClient {
+d47 1
+a47 1
+	virtual void OnConnected(CEmEngine&);
+d50 2
+a51 1
+struct CEmClient_Server : public CEmClient {
+d53 2
+a54 2
+	virtual void OnConnected(CEmEngine&);
+	virtual void OnDisconnected(CEmEngine&);
+d64 1
+a64 1
+	virtual void OnConnected(CEmEngine&);
+d92 1
+a92 1
+	CEmClient* AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE);
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d22 1
+a22 1
+	ULONG	m_nAddr;
+@
+
+
+1.2
+log
+@New engine - name changes
+@
+text
+@d24 1
+d63 1
+d67 2
+a68 1
+		CTaskProcessor(stEngine)
+@
+
+
+1.1
+log
+@New engine
+@
+text
+@d1 1
+a1 1
+// TaskProcessor_Main.h: interface for the CTaskProcessor_Main class.
+d56 1
+a56 1
+class CTaskProcessor_Main : public CTaskProcessor
+d64 1
+a64 1
+	CTaskProcessor_Main(CEmEngine& stEngine) :
+d71 1
+a71 1
+	CEmClient* CTaskProcessor_Main::Lookup(SOCKET hSocket)
+@
+

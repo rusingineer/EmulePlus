@@ -1,0 +1,1393 @@
+head	1.23;
+access;
+symbols
+	PublicRelease_1_2e:1.21
+	Interim_Release_1-2e_RC1:1.21
+	PublicRelease_1_2d:1.21
+	Interim_Release_1-2d_RC1:1.21
+	Interim_Release_1-2d_beta1:1.21
+	PublicRelease_1_2c:1.21
+	Interim_Release_1-2c_RC1:1.21
+	Interim_Release_1-2c_beta1:1.19
+	PublicRelease_1_2b:1.19
+	Interim_Release_1-2b_RC1:1.17
+	PublicRelease_1_2a:1.17
+	Interim_Release_1-2a_RC1:1.15
+	Interim_Release_1-2a_beta2:1.15
+	Interim_Release_1-2a_beta1:1.15
+	PublicRelease_1_2:1.15
+	Interim_Release_1-2_RC1:1.15
+	Interim_Release_1-2_beta1:1.15
+	PublicRelease_1_1g:1.15
+	Interim_Release_1-1g_RC3:1.15
+	Interim_Release_1-1g_RC2:1.15
+	Interim_Release_1-1g_RC1:1.15
+	Interim_Release_1-1g_beta2:1.14
+	Interim_Release_1-1g_beta1:1.14
+	PublicRelease_1_1f:1.14
+	Interim_Release_1-1f_RC1:1.14
+	PublicRelease_1_1e:1.14
+	Interim_Release_1-1e_RC2:1.14
+	Interim_Release_1-1e_RC1:1.14
+	Interim_Release_1-1e_beta1:1.14
+	PublicRelease_1_1d:1.14
+	Interim_Release_1-1d_RC1:1.14
+	PublicRelease_1_1c:1.14
+	Interim_Release_1-1c_RC1:1.14
+	Interim_Release_1-1c_beta2:1.12
+	Interim_Release_1-1c_beta1:1.12
+	PublicRelease_1_1b:1.11
+	Interim_Release_1-1b_RC1:1.11
+	PublicRelease_1_1a:1.10
+	Interim_Release_1-1a_RC2:1.10
+	Interim_Release_1-1a_RC1:1.8
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.5
+	Interim_Release_1o_RC1:1.5
+	Interim_Release_1o_beta1:1.5
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.3
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.3
+	Interim_Release_1j_beta2:1.3
+	Interim_Release_1j_beta1:1.3
+	PublicRelease_1i:1.3
+	Interim_Release_1i_RC6:1.3
+	Interim_Release_1i_RC3:1.3
+	Interim_Release_1i_RC2:1.3
+	Interim_Release_1i_RC1:1.3
+	Interim_Release_1i_beta3:1.3
+	Interim_Release_1i_beta2:1.3
+	Interim_Release_1i_beta1:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.23
+date	2009.07.14.03.54.09;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2009.05.14.03.10.30;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2007.07.27.06.21.22;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2007.05.20.02.30.14;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2007.01.27.03.34.38;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2007.01.25.13.27.16;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2006.09.28.05.55.38;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2006.09.25.03.28.05;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.11.28.03.04.25;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2005.02.22.13.52.37;	author kush_eplus;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2005.02.22.02.37.35;	author kush_eplus;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.01.29.15.52.41;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.12.15.03.26.17;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.11.30.04.48.15;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.11.27.15.45.45;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.11.27.03.05.40;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.11.26.18.59.52;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.10.04.22.48.56;	author kush_eplus;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.08.15.16.42.27;	author eklmn;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.08.15.11.28.12;	author katsyonak;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.05.12.24.27;	author forcha;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.05.10.45.18;	author forcha;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.23
+log
+@Reduced H-file dependency.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "..\PartFile.h"
+#include "..\emule.h"
+#include "..\UploadQueue.h"
+#include "FDParts.h"
+
+#define FD_FILT_COMPLETE	0x01
+#define FD_FILT_NOTAVAIL	0x02
+
+#define BLUE_GRANULARITY	8
+#define BLUE_MAXGREEN		208
+#define BLUE_LEVELS			(BLUE_MAXGREEN / BLUE_GRANULARITY)
+
+//	Zooming is used as a light workaround to avoid artifacts caused by not perfect
+//	bar drawing algorithm which is not good when the number of parts is bigger
+//	than the number of width pixels
+#define BAR_ZOOM_SHIFT		8u
+
+// CFDParts dialog
+
+std::vector<PartInfoType>	CFDParts::s_aPartInfo;
+
+IMPLEMENT_DYNCREATE(CFDParts, CPropertyPage)
+
+CFDParts::CFDParts() : CPropertyPage(CFDParts::IDD)
+{
+	m_pFile = NULL;
+}
+
+CFDParts::~CFDParts()
+{
+}
+
+void CFDParts::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+
+	DDX_Control(pDX, IDC_PARTS, m_PartsListCtrl);
+}
+
+
+BEGIN_MESSAGE_MAP(CFDParts, CPropertyPage)
+	ON_NOTIFY(LVN_COLUMNCLICK, IDC_PARTS, OnLvnColumnclick)
+	ON_BN_CLICKED(IDC_HIDECOMPLETE, OnFilterChange)
+	ON_BN_CLICKED(IDC_HIDENOTAVAILABLE, OnFilterChange)
+	ON_WM_DESTROY()
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CFDParts message handlers
+
+BOOL CFDParts::OnInitDialog()
+{
+	static const int s_aiDoubleLevelCols[] = { FDPARTSCOL_SOURCES };
+	static const uint16 s_auColHdr[][3] =
+	{
+		{ IDS_PART,							LVCFMT_LEFT,  50 },		// FDPARTSCOL_NUMBER
+		{ IDS_INFLST_FILE_COMPLETEDSIZE,	LVCFMT_RIGHT, 110 },	// FDPARTSCOL_COMPLETESIZE
+		{ IDS_DL_SOURCES,					LVCFMT_RIGHT, 60 },		// FDPARTSCOL_SOURCES
+		{ IDS_STATUS,						LVCFMT_LEFT,  80 }		// FDPARTSCOL_STATUS
+	};
+
+	CPropertyPage::OnInitDialog();
+
+	Localize();
+
+	for (unsigned ui = 0; ui < ARRSIZE(s_auColHdr); ui++)
+		m_PartsListCtrl.InsertColumn(ui, GetResString(s_auColHdr[ui][0]), static_cast<int>(s_auColHdr[ui][1]), static_cast<int>(s_auColHdr[ui][2]), ui);
+
+//	Display constant information
+	CString	strBuff;
+
+	strBuff.Format(_T("%u %s"), m_pFile->GetLastPartSize(), GetResString(IDS_BYTES));
+	SetDlgItemText(IDC_LASTPARTSZ, strBuff);
+
+//	Initialize sorting
+	m_PartsListCtrl.LoadSettings(CPreferences::TABLE_PARTSTATUS);
+	m_PartsListCtrl.SetSortProcedure(SortProc);
+	m_PartsListCtrl.SetDoubleLayerSort(s_aiDoubleLevelCols, ARRSIZE(s_aiDoubleLevelCols));
+	m_PartsListCtrl.SortInit(g_App.m_pPrefs->GetColumnSortCode(CPreferences::TABLE_PARTSTATUS));
+
+//	Setup filters
+	byte	byteFilter = g_App.m_pPrefs->GetDetailedPartsFilter();
+
+	if ((byteFilter & FD_FILT_COMPLETE) != 0)
+		CheckDlgButton(IDC_HIDECOMPLETE, BST_CHECKED);
+	if ((byteFilter & FD_FILT_NOTAVAIL) != 0)
+		CheckDlgButton(IDC_HIDENOTAVAILABLE, BST_CHECKED);
+
+	s_aPartInfo.reserve(m_pFile->GetPartCount());
+
+	Update();
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	              // EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CFDParts::Localize()
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_DLPARTSTATUS_LBL, IDS_DLPARTSTATUS },
+		{ IDC_UPPARTSTATUS_LBL, IDS_UPPARTSTATUS },
+		{ IDC_PARTCOMPLSTATUS_LBL, IDS_PARTCOMPLETION },
+		{ IDC_HIDECOMPLETE, IDS_HIDECOMPLETE },
+		{ IDC_HIDENOTAVAILABLE, IDS_HIDENOTAVAILABLE },
+		{ IDC_LASTPARTSZ_LBL, IDS_LASTPARTSIZE }
+	};
+
+	if (GetSafeHwnd() != NULL)
+	{
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+			SetDlgItemText(s_auResTbl[i][0], GetResString(static_cast<UINT>(s_auResTbl[i][1])));
+	}
+}
+
+void CFDParts::Update()
+{
+	EMULE_TRY
+
+	if (m_pFile == NULL || !::IsWindow(GetSafeHwnd()))
+		return;
+
+	CString				astrStatus[FDPARTS_STAT_COUNT];
+	double				dPercent;
+	int					iIdx;
+	bool				bDelete, bFlat, bTmp, bUpdated = false;
+	byte				byteFilter;
+	TCHAR				acTmp[32];
+	LVITEM				lvi;
+	PartInfoType		PartItem;
+	uint32				ui, dwWidth, dwCompleteSz, dwTmp, dwPartCnt = m_pFile->GetPartCount();
+	std::vector<uint32>	adwUpPartStatuses(dwPartCnt, 0), adwDnPartStatuses(dwPartCnt, 0);
+	std::vector<uint32>	adwPartsInList(dwPartCnt, 0);
+	const COLORREF		crMissing = RGB(255, 0, 0);
+	COLORREF			crNoReception, crComplete;
+	RECT				rWnd;
+	POSITION			pos;
+
+	GetResString(&astrStatus[FDPARTS_STAT_DOWNLOADING], IDS_DOWNLOADING);	// Preload status strings
+	GetResString(&astrStatus[FDPARTS_STAT_RECOVERING], IDS_RECOVERING);
+	GetResString(&astrStatus[FDPARTS_STAT_CORRUPTED], IDS_CORRUPTED);
+	// [FDPARTS_STAT_NONE] is empty string
+	GetResString(&astrStatus[FDPARTS_STAT_NOTAVAILABLE], IDS_NOTAVAILABLE);
+	GetResString(&astrStatus[FDPARTS_STAT_COMPLETE], IDS_COMPLETE);
+
+	if ((bFlat = g_App.m_pPrefs->UseFlatBar()) == true)
+	{
+		crComplete = RGB(0, 150, 0);
+		crNoReception = RGB(0, 0, 0);
+	}
+	else
+	{
+		crComplete = RGB(0, 192, 0);
+		crNoReception = RGB(95, 95, 95);
+	}
+	m_PartsListCtrl.GetWindowRect(&rWnd);
+	dwWidth = rWnd.right - rWnd.left;
+
+//	Part counter is used as index instead of actual part offset in a file, because:
+//	1) it's faster; 2) to make last part width equal to others for better representation
+	CBarShader			DownloadStatusBar(16, dwWidth, crMissing, dwPartCnt << BAR_ZOOM_SHIFT);
+	CBarShader			UploadStatusBar(16, dwWidth, crMissing, dwPartCnt << BAR_ZOOM_SHIFT);
+	CBarShader			CompletionBar(16, dwWidth, crNoReception, dwPartCnt << BAR_ZOOM_SHIFT);
+
+	g_App.m_pUploadQueue->GetUploadFilePartsAvailability(&adwUpPartStatuses[0], dwPartCnt, m_pFile->GetFileHash());
+
+//	Search for max/min values for dynamic scaling
+//	(to provide better snap-shot of parts availability for files with many sources)
+	uint32				dwDnMax = 0, dwDnMin = ~0u, dwUpMax = 0, dwUpMin = ~0u, dwDnDiff, dwUpDiff;
+
+	for (ui = 0; ui < dwPartCnt; ui++)
+	{
+		if ((adwDnPartStatuses[ui] = m_pFile->GetSrcPartFrequency(ui)) != 0)
+		{
+			if (adwDnPartStatuses[ui] > dwDnMax)
+				dwDnMax = adwDnPartStatuses[ui];
+			if (adwDnPartStatuses[ui] < dwDnMin)
+				dwDnMin = adwDnPartStatuses[ui];
+		}
+		if (adwUpPartStatuses[ui] != 0)
+		{
+			if (adwUpPartStatuses[ui] > dwUpMax)
+				dwUpMax = adwUpPartStatuses[ui];
+			if (adwUpPartStatuses[ui] < dwUpMin)
+				dwUpMin = adwUpPartStatuses[ui];
+		}
+	}
+	dwDnDiff = 0;
+	if (dwDnMax > BLUE_LEVELS)
+		dwDnDiff = ((dwDnMax - dwDnMin) < BLUE_LEVELS) ? (dwDnMax - BLUE_LEVELS) : (dwDnMin - 1);
+	dwUpDiff = 0;
+	if (dwUpMax > BLUE_LEVELS)
+		dwUpDiff = ((dwUpMax - dwUpMin) < BLUE_LEVELS) ? (dwUpMax - BLUE_LEVELS) : (dwUpMin - 1);
+
+	byteFilter = ((IsDlgButtonChecked(IDC_HIDECOMPLETE)) ? FD_FILT_COMPLETE : 0) |
+		((IsDlgButtonChecked(IDC_HIDENOTAVAILABLE)) ? FD_FILT_NOTAVAIL : 0);
+	g_App.m_pPrefs->SetDetailedPartsFilter(byteFilter);
+
+	lvi.mask = LVIF_TEXT | LVIF_PARAM;
+	lvi.iSubItem = 0;
+
+	m_PartsListCtrl.SetRedraw(FALSE);
+	m_PartsListCtrl.SetSortProcedure(NULL);	//	Disable list sorting
+
+//	The whole processing here looks quite weird... it's done to make it fast, as
+//	otherwise it's very slow for large files. First current list elements are processed
+//	then the rest of the chunks is checked to avoid damn slow FindItem() calls
+	for (iIdx = 0, pos = m_PartsListCtrl.GetItemDataHeadPos(); pos != NULL; iIdx++)
+	{
+		ui = static_cast<uint32>(m_PartsListCtrl.GetItemDataByPos(pos, iIdx));
+		adwPartsInList[ui] = 1;	//	Mark that a part is/was in the list
+
+		bDelete = false;
+		if ((PartItem.uiSrcNum1 = adwDnPartStatuses[ui]) != 0)
+		{
+			dwTmp = PartItem.uiSrcNum1 - dwDnDiff;
+			DownloadStatusBar.FillRange( ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT,
+				RGB(0, (dwTmp > BLUE_LEVELS) ? 0 : (BLUE_MAXGREEN - BLUE_GRANULARITY * dwTmp), 255) );
+		}
+
+		if ((PartItem.uiSrcNum2 = adwUpPartStatuses[ui]) != 0)
+		{
+			dwTmp = PartItem.uiSrcNum2 - dwUpDiff;
+			UploadStatusBar.FillRange( ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT,
+				RGB(0, (dwTmp > BLUE_LEVELS) ? 0 : (BLUE_MAXGREEN - BLUE_GRANULARITY * dwTmp), 255) );
+		}
+
+		if (m_pFile->IsPartComplete(ui))
+		{
+		//	Filter complete parts
+			CompletionBar.FillRange(ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT, crComplete);
+			if ((byteFilter & FD_FILT_COMPLETE) != 0)
+			{
+				m_PartsListCtrl.DeleteItem(iIdx);	//	Delete filtered item
+				iIdx--;
+				continue;
+			}
+			PartItem.uiStatus = FDPARTS_STAT_COMPLETE;
+		}
+		else
+		{
+			PartItem.uiStatus = FDPARTS_STAT_NONE;
+			if (PartItem.uiSrcNum1 == 0)
+			{
+			//	Filter not available parts
+				if ((byteFilter & FD_FILT_NOTAVAIL) != 0)
+					bDelete = true;
+				PartItem.uiStatus = FDPARTS_STAT_NOTAVAILABLE;
+			}
+			if ((bTmp = m_pFile->IsPartDownloading(ui)) == true)
+				PartItem.uiStatus = FDPARTS_STAT_DOWNLOADING;
+			if (m_pFile->IsCorruptedPart(ui))
+				PartItem.uiStatus = (bTmp) ? FDPARTS_STAT_RECOVERING : FDPARTS_STAT_CORRUPTED;
+		}
+
+		dwTmp = m_pFile->GetPartSize(ui);
+		PartItem.uiCompleteSz = dwCompleteSz = dwTmp - m_pFile->GetPartLeftToDLSize(ui);
+		if (dwCompleteSz == dwTmp)
+			dPercent = 100.0;
+		else
+		{
+			dPercent = floor(static_cast<double>(dwCompleteSz) * 10000 / static_cast<double>(dwTmp)) / 100.0;
+			if (dwCompleteSz != 0)
+			{
+			//	Something was received for this part, show how much is filled
+				CompletionBar.FillRange(ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT, RGB(0, (220 - 2.2 * dPercent), 255));
+			}
+		}
+
+		if (bDelete)
+		{
+			m_PartsListCtrl.DeleteItem(iIdx);	//	Delete filtered item
+			iIdx--;
+			continue;
+		}
+		if (memcmp(&PartItem, &s_aPartInfo[ui], sizeof(PartItem)) != 0)
+		{
+			bUpdated = true;
+			s_aPartInfo[ui] = PartItem;
+
+			_stprintf(acTmp, _T("%u (%.2f%%)"), dwCompleteSz, dPercent);
+			m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_COMPLETESIZE, acTmp);
+			_stprintf(acTmp, _T("%u/%u"), PartItem.uiSrcNum1, PartItem.uiSrcNum2);
+			m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_SOURCES, acTmp);
+			m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_STATUS, astrStatus[PartItem.uiStatus]);
+		}
+	}
+	for (ui = 0; ui < dwPartCnt; ui++)
+	{
+		if (adwPartsInList[ui] != 0)
+			continue;
+
+		bDelete = false;
+		if ((PartItem.uiSrcNum1 = adwDnPartStatuses[ui]) != 0)
+		{
+			dwTmp = PartItem.uiSrcNum1 - dwDnDiff;
+			DownloadStatusBar.FillRange( ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT,
+				RGB(0, (dwTmp > BLUE_LEVELS) ? 0 : (BLUE_MAXGREEN - BLUE_GRANULARITY * dwTmp), 255) );
+		}
+
+		if ((PartItem.uiSrcNum2 = adwUpPartStatuses[ui]) != 0)
+		{
+			dwTmp = PartItem.uiSrcNum2 - dwUpDiff;
+			UploadStatusBar.FillRange( ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT,
+				RGB(0, (dwTmp > BLUE_LEVELS) ? 0 : (BLUE_MAXGREEN - BLUE_GRANULARITY * dwTmp), 255) );
+		}
+
+		if (m_pFile->IsPartComplete(ui))
+		{
+		//	Filter complete parts
+			CompletionBar.FillRange(ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT, crComplete);
+			if ((byteFilter & FD_FILT_COMPLETE) != 0)
+				continue;
+			PartItem.uiStatus = FDPARTS_STAT_COMPLETE;
+		}
+		else
+		{
+			PartItem.uiStatus = FDPARTS_STAT_NONE;
+			if (PartItem.uiSrcNum1 == 0)
+			{
+			//	Filter not available parts
+				if ((byteFilter & FD_FILT_NOTAVAIL) != 0)
+					bDelete = true;
+				PartItem.uiStatus = FDPARTS_STAT_NOTAVAILABLE;
+			}
+			if ((bTmp = m_pFile->IsPartDownloading(ui)) == true)
+				PartItem.uiStatus = FDPARTS_STAT_DOWNLOADING;
+			if (m_pFile->IsCorruptedPart(ui))
+				PartItem.uiStatus = (bTmp) ? FDPARTS_STAT_RECOVERING : FDPARTS_STAT_CORRUPTED;
+		}
+
+		dwTmp = m_pFile->GetPartSize(ui);
+		PartItem.uiCompleteSz = dwCompleteSz = dwTmp - m_pFile->GetPartLeftToDLSize(ui);
+		if (dwCompleteSz == dwTmp)
+			dPercent = 100.0;
+		else
+		{
+			dPercent = floor(static_cast<double>(dwCompleteSz) * 10000 / static_cast<double>(dwTmp)) / 100.0;
+			if (dwCompleteSz != 0)
+			{
+			//	Something was received for this part, show how much is filled
+				CompletionBar.FillRange(ui << BAR_ZOOM_SHIFT, (ui + 1u) << BAR_ZOOM_SHIFT, RGB(0, (220 - 2.2 * dPercent), 255));
+			}
+		}
+		if (bDelete)
+			continue;
+
+		_stprintf(acTmp, _T("%u"), ui);
+		lvi.iItem = m_PartsListCtrl.GetItemCount();
+		lvi.pszText = acTmp;
+		lvi.lParam = static_cast<LPARAM>(ui);
+		iIdx = m_PartsListCtrl.InsertItem(&lvi);
+
+		bUpdated = true;
+		s_aPartInfo[ui] = PartItem;
+
+		_stprintf(acTmp, _T("%u (%.2f%%)"), dwCompleteSz, dPercent);
+		m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_COMPLETESIZE, acTmp);
+		_stprintf(acTmp, _T("%u/%u"), PartItem.uiSrcNum1, PartItem.uiSrcNum2);
+		m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_SOURCES, acTmp);
+		m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_STATUS, astrStatus[PartItem.uiStatus]);
+	}
+	m_PartsListCtrl.SetSortProcedure(SortProc);	//	Enable list sorting
+	if (bUpdated)
+		m_PartsListCtrl.SortItems(SortProc, m_PartsListCtrl.GetSortParam());
+	m_PartsListCtrl.SetRedraw(TRUE);
+
+//	Draw status bars
+	CDC			memDC, *pDC = GetDC();
+	CBitmap	   *pOldBitmap;
+	HWND		hItemWnd;
+
+	memDC.CreateCompatibleDC(pDC);
+
+//	Prepare and draw Download Availability Status Bar
+	if (m_bmpDownloadStatus.m_hObject != NULL)
+		m_bmpDownloadStatus.DeleteObject();
+	m_bmpDownloadStatus.CreateCompatibleBitmap(pDC, dwWidth, 16);
+	pOldBitmap = memDC.SelectObject(&m_bmpDownloadStatus);
+	DownloadStatusBar.Draw(&memDC, 0, 0, bFlat);
+	GetDlgItem(IDC_DLPARTSTATUS, &hItemWnd);
+	::SendMessage(hItemWnd, STM_SETIMAGE, IMAGE_BITMAP, (LPARAM)m_bmpDownloadStatus.m_hObject);
+	::InvalidateRect(hItemWnd, NULL, FALSE);	// No need to erase background as the whole area is used by a picture
+
+//	Prepare and draw Upload Availability Status Bar
+	if (m_bmpUploadStatus.m_hObject != NULL)
+		m_bmpUploadStatus.DeleteObject();
+	m_bmpUploadStatus.CreateCompatibleBitmap(pDC, dwWidth, 16);
+	memDC.SelectObject(&m_bmpUploadStatus);
+	UploadStatusBar.Draw(&memDC, 0, 0, bFlat);
+	GetDlgItem(IDC_UPPARTSTATUS, &hItemWnd);
+	::SendMessage(hItemWnd, STM_SETIMAGE, IMAGE_BITMAP, (LPARAM)m_bmpUploadStatus.m_hObject);
+	::InvalidateRect(hItemWnd, NULL, FALSE);	// No need to erase background as the whole area is used by a picture
+
+//	Prepare and draw Parts Completion Status Bar
+	if (m_bmpCompletionStatus.m_hObject != NULL)
+		m_bmpCompletionStatus.DeleteObject();
+	m_bmpCompletionStatus.CreateCompatibleBitmap(pDC, dwWidth, 16);
+	memDC.SelectObject(&m_bmpCompletionStatus);
+	CompletionBar.Draw(&memDC, 0, 0, bFlat);
+	GetDlgItem(IDC_PARTCOMPLSTATUS, &hItemWnd);
+	::SendMessage(hItemWnd, STM_SETIMAGE, IMAGE_BITMAP, (LPARAM)m_bmpCompletionStatus.m_hObject);
+	::InvalidateRect(hItemWnd, NULL, FALSE);	// No need to erase background as the whole area is used by a picture
+
+	memDC.SelectObject(pOldBitmap);
+	ReleaseDC(pDC);
+
+	EMULE_CATCH
+}
+
+void CFDParts::OnLvnColumnclick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	m_PartsListCtrl.OnLvnColumnClick(pNMHDR, pResult);
+}
+
+void CFDParts::OnFilterChange()
+{
+	Update();
+}
+
+int CALLBACK CFDParts::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+{
+	PartInfoType	*pItem1 = &s_aPartInfo[lParam1];
+	PartInfoType	*pItem2 = &s_aPartInfo[lParam2];
+
+	int		iCompare = 0;
+	int		iSortColumn = (lParamSort & MLC_COLUMNMASK);
+	int		iSortAltFlag = (lParamSort & MLC_SORTALT);
+	int		iSortMod = ((lParamSort & MLC_SORTDESC) == 0) ? 1 : -1;
+
+	switch (iSortColumn)
+	{
+		case FDPARTSCOL_NUMBER:
+			iCompare = lParam1 - lParam2;
+			break;
+
+		case FDPARTSCOL_COMPLETESIZE:
+			iCompare = pItem1->uiCompleteSz - pItem2->uiCompleteSz;
+			break;
+
+		case FDPARTSCOL_SOURCES:
+			if (iSortAltFlag == 0)
+				iCompare = pItem1->uiSrcNum1 - pItem2->uiSrcNum1;
+			else
+				iCompare = pItem1->uiSrcNum2 - pItem2->uiSrcNum2;
+			break;
+
+		case FDPARTSCOL_STATUS:
+			iCompare = pItem1->uiStatus - pItem2->uiStatus;
+			break;
+	}
+	if (iCompare == 0)
+		return lParam1 - lParam2;	// Compare by part number if no difference by another criterion
+	return iCompare * iSortMod;
+}
+
+void CFDParts::OnDestroy()
+{
+	m_PartsListCtrl.SaveSettings(CPreferences::TABLE_PARTSTATUS);
+}
+@
+
+
+1.22
+log
+@Save sorting directions for all GUI lists; Unified list sort initialization and click processing;
+Simplified list arrow configuration interface.
+@
+text
+@d20 1
+@
+
+
+1.21
+log
+@Suppressed level 4 warnings.
+@
+text
+@d19 1
+a20 1
+#include "..\emule.h"
+a42 1
+	memset(&m_bSortAscending, true, sizeof(m_bSortAscending));
+d69 1
+a83 1
+	m_PartsListCtrl.LoadSettings(CPreferences::TABLE_PARTSTATUS);
+d92 4
+a95 4
+	int		iSortColumn = g_App.m_pPrefs->GetColumnSortItem(CPreferences::TABLE_PARTSTATUS);
+	bool	bSortAscending = g_App.m_pPrefs->GetColumnSortAscending(CPreferences::TABLE_PARTSTATUS);
+
+	SortInit(iSortColumn | (bSortAscending ? MLC_SORTASC : MLC_SORTDESC));
+d429 1
+a429 30
+	EMULE_TRY
+
+	NM_LISTVIEW	*pNMListView = reinterpret_cast<NM_LISTVIEW*>(pNMHDR);
+	int			iFlags = 0, iSubItem = pNMListView->iSubItem;
+	bool		bSortOrder = m_bSortAscending[iSubItem];
+
+//	For the double-level sorting columns, toggle the Alt column flag when the arrow is facing up
+	if (iSubItem == FDPARTSCOL_SOURCES)
+	{
+		if (((m_PartsListCtrl.GetSortParam() & MLC_COLUMNMASK) == static_cast<uint32>(iSubItem)) && bSortOrder)
+			m_bSortAscending[FDPARTSCOL_NUMCOLUMNS] = !m_bSortAscending[FDPARTSCOL_NUMCOLUMNS];
+		iFlags = m_bSortAscending[FDPARTSCOL_NUMCOLUMNS] ? 0 : MLC_SORTALT;
+	}
+
+// Reverse sorting direction for the same column and keep the same if column was changed
+	if ((m_PartsListCtrl.GetSortParam() & MLC_COLUMNMASK) == static_cast<uint32>(iSubItem))
+		m_bSortAscending[iSubItem] = bSortOrder = !bSortOrder;
+
+	if (iFlags == 0)
+		m_PartsListCtrl.SetSortArrow(iSubItem, bSortOrder);
+	else
+		m_PartsListCtrl.SetSortArrow(iSubItem, (bSortOrder) ? CMuleListCtrl::arrowDoubleUp : CMuleListCtrl::arrowDoubleDown);
+	m_PartsListCtrl.SortItems(SortProc, iSubItem + iFlags + ((bSortOrder) ? MLC_SORTASC : MLC_SORTDESC));
+
+	g_App.m_pPrefs->SetColumnSortItem(CPreferences::TABLE_PARTSTATUS, iSubItem | iFlags);	// Allow to save alternate criterion
+	g_App.m_pPrefs->SetColumnSortAscending(CPreferences::TABLE_PARTSTATUS, bSortOrder);
+
+	*pResult = 0;
+
+	EMULE_CATCH
+a472 21
+void CFDParts::SortInit(int iSortCode)
+{
+	int		iSortColumn = (iSortCode & MLC_COLUMNMASK);			// The sort column
+	bool	bSortAscending = (iSortCode & MLC_SORTDESC) == 0;	// The sort order
+	int		iSortAltFlag = (iSortCode & MLC_SORTALT);			// The alternate sort
+
+	if (iSortColumn != FDPARTSCOL_SOURCES)
+		iSortAltFlag = 0;
+
+	m_bSortAscending[iSortColumn] = bSortAscending;
+	if (iSortAltFlag == 0)
+		m_PartsListCtrl.SetSortArrow(iSortColumn, bSortAscending);
+	else
+	{
+		if (iSortColumn == FDPARTSCOL_SOURCES)
+			m_bSortAscending[FDPARTSCOL_NUMCOLUMNS] = false;
+		m_PartsListCtrl.SetSortArrow(iSortColumn, (bSortAscending) ? CMuleListCtrl::arrowDoubleUp : CMuleListCtrl::arrowDoubleDown);
+	}
+	m_PartsListCtrl.SortItems(SortProc, iSortCode);
+}
+
+@
+
+
+1.20
+log
+@Used proper define name.
+@
+text
+@d82 1
+a82 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auColHdr); ui++)
+d128 1
+a128 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_auResTbl); i++)
+d186 1
+a186 1
+	uint32				dwDnMax = 0, dwDnMin = ~0, dwUpMax = 0, dwUpMin = ~0, dwDnDiff, dwUpDiff;
+d439 1
+a439 1
+		if (((m_PartsListCtrl.GetSortParam() & MLC_COLUMNMASK) == iSubItem) && bSortOrder)
+d445 1
+a445 1
+	if ((m_PartsListCtrl.GetSortParam() & MLC_COLUMNMASK) == iSubItem)
+@
+
+
+1.19
+log
+@Corrected sorting order by status {muleteer}.
+@
+text
+@d102 1
+a102 1
+		CheckDlgButton(IDC_HIDECOMPLETE, 1);
+d104 1
+a104 1
+		CheckDlgButton(IDC_HIDENOTAVAILABLE, 1);
+@
+
+
+1.18
+log
+@Corrected drawing of chunk bars in file details for large files {Fuxie - DK};
+Displayed recovering chunk status {muleteer}.
+@
+text
+@d157 1
+a161 1
+	GetResString(&astrStatus[FDPARTS_STAT_RECOVERING], IDS_RECOVERING);
+@
+
+
+1.17
+log
+@Fixed introduced issue when list filters also modify Parts Completion bar.
+@
+text
+@d29 5
+d140 1
+a140 1
+	CString				astrStatus[5];
+d143 1
+a143 1
+	bool				bDelete, bFlat, bUpdated = false;
+d156 6
+a161 4
+	GetResString(&astrStatus[0], IDS_DOWNLOADING);	// Preload status strings
+	GetResString(&astrStatus[1], IDS_CORRUPTED);
+	GetResString(&astrStatus[3], IDS_NOTAVAILABLE);
+	GetResString(&astrStatus[4], IDS_COMPLETE);
+d176 5
+a180 3
+	CBarShader			DownloadStatusBar(16, dwWidth, crMissing, dwPartCnt);
+	CBarShader			UploadStatusBar(16, dwWidth, crMissing, dwPartCnt);
+	CBarShader			CompletionBar(16, dwWidth, crNoReception, dwPartCnt);
+d234 1
+a234 1
+			DownloadStatusBar.FillRange( ui, ui + 1,
+d241 1
+a241 1
+			UploadStatusBar.FillRange( ui, ui + 1,
+d248 1
+a248 1
+			CompletionBar.FillRange(ui, ui + 1, crComplete);
+d267 1
+a267 1
+			if (m_pFile->IsPartDownloading(ui))
+d269 2
+a270 2
+			else if (m_pFile->IsCorruptedPart(ui))
+				PartItem.uiStatus = FDPARTS_STAT_CORRUPTED;
+d283 1
+a283 1
+				CompletionBar.FillRange(ui, ui + 1, RGB(0, (220 - 2.2 * dPercent), 255));
+d314 1
+a314 1
+			DownloadStatusBar.FillRange( ui, ui + 1,
+d321 1
+a321 1
+			UploadStatusBar.FillRange( ui, ui + 1,
+d328 1
+a328 1
+			CompletionBar.FillRange(ui, ui + 1, crComplete);
+d343 1
+a343 1
+			if (m_pFile->IsPartDownloading(ui))
+d345 2
+a346 2
+			else if (m_pFile->IsCorruptedPart(ui))
+				PartItem.uiStatus = FDPARTS_STAT_CORRUPTED;
+d359 1
+a359 1
+				CompletionBar.FillRange(ui, ui + 1, RGB(0, (220 - 2.2 * dPercent), 255));
+@
+
+
+1.16
+log
+@Speeded up file parts info list processing to be suitable for large files;
+Moved #includes to C-file.
+@
+text
+@d138 1
+a138 1
+	bool				bFlat, bUpdated = false;
+d221 1
+d239 1
+a246 1
+			CompletionBar.FillRange(ui, ui + 1, crComplete);
+d255 1
+a255 5
+				{
+					m_PartsListCtrl.DeleteItem(iIdx);	//	Delete filtered item
+					iIdx--;
+					continue;
+				}
+d278 6
+d301 1
+d319 1
+a322 1
+			CompletionBar.FillRange(ui, ui + 1, crComplete);
+d331 1
+a331 1
+					continue;
+d353 3
+@
+
+
+1.15
+log
+@Finished renaming to make sources compilable again...
+@
+text
+@d1 1
+a1 1
+// FDParts.cpp : implementation file
+d3 13
+d18 1
+a36 2
+	//{{AFX_DATA_INIT(CFDParts)
+	//}}AFX_DATA_INIT
+a129 5
+	static const uint16 s_auStatuStr[] =
+	{
+		IDS_DOWNLOADING, IDS_CORRUPTED, 0, IDS_NOTAVAILABLE, IDS_COMPLETE
+	};
+
+d135 1
+d138 1
+a138 1
+	bool				bDelete, bFlat, bUpdated = false;
+d140 1
+a140 2
+	CString				strTmp;
+	LVFINDINFO			info;
+d145 1
+d149 6
+a206 2
+	info.flags = LVFI_PARAM;
+
+d211 1
+d213 4
+a216 1
+	for (ui = 0; ui < dwPartCnt; ui++)
+d218 3
+a220 1
+		bDelete = false;
+d239 5
+a243 1
+				bDelete = true;
+d254 5
+a258 1
+					bDelete = true;
+d281 18
+a298 2
+		info.lParam = ui;
+		if ((iIdx = m_PartsListCtrl.FindItem(&info)) < 0)
+d300 24
+a323 1
+			if (!bDelete)	// Don't add filtered items
+d325 4
+a328 5
+				strTmp.Format(_T("%u"), ui);
+				lvi.iItem = m_PartsListCtrl.GetItemCount();
+				lvi.pszText = (LPTSTR)strTmp.GetString();
+				lvi.lParam = static_cast<LPARAM>(ui);
+				iIdx = m_PartsListCtrl.InsertItem(&lvi);
+d330 4
+a334 2
+		else if (!bDelete && (memcmp(&PartItem, &s_aPartInfo[ui], sizeof(PartItem)) == 0))
+			iIdx = -1;	// Part status wasn't changed -> no need to update
+d336 5
+a340 1
+		if (iIdx >= 0)
+d342 2
+a343 1
+			if (bDelete)
+d345 2
+a346 3
+			//	Delete filtered item
+				m_PartsListCtrl.DeleteItem(iIdx);
+				continue;
+a347 12
+			bUpdated = true;
+			s_aPartInfo[ui] = PartItem;
+
+			strTmp.Format(_T("%u (%.2f%%)"), dwCompleteSz, dPercent);
+			m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_COMPLETESIZE, strTmp);
+			strTmp.Format(_T("%u/%u"), PartItem.uiSrcNum1, PartItem.uiSrcNum2);
+			m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_SOURCES, strTmp);
+			if (PartItem.uiStatus == FDPARTS_STAT_NONE)
+				strTmp = _T("");
+			else
+				GetResString(&strTmp, s_auStatuStr[PartItem.uiStatus]);
+			m_PartsListCtrl.SetItemText(iIdx, FDPARTSCOL_STATUS, strTmp);
+d349 14
+d364 1
+@
+
+
+1.14
+log
+@undo my last changes
+@
+text
+@d76 2
+a77 2
+	int		iSortColumn = g_eMuleApp.m_pGlobPrefs->GetColumnSortItem(CPreferences::TABLE_PARTSTATUS);
+	bool	bSortAscending = g_eMuleApp.m_pGlobPrefs->GetColumnSortAscending(CPreferences::TABLE_PARTSTATUS);
+d82 1
+a82 1
+	byte	byteFilter = g_eMuleApp.m_pGlobPrefs->GetDetailedPartsFilter();
+d142 1
+a142 1
+	if ((bFlat = g_eMuleApp.m_pGlobPrefs->UseFlatBar()) == true)
+d159 1
+a159 1
+	g_eMuleApp.m_pUploadQueue->GetUploadFilePartsAvailability(&adwUpPartStatuses[0], dwPartCnt, m_pFile->GetFileHash());
+d191 1
+a191 1
+	g_eMuleApp.m_pGlobPrefs->SetDetailedPartsFilter(byteFilter);
+d365 2
+a366 2
+	g_eMuleApp.m_pGlobPrefs->SetColumnSortItem(CPreferences::TABLE_PARTSTATUS, iSubItem | iFlags);	// Allow to save alternate criterion
+	g_eMuleApp.m_pGlobPrefs->SetColumnSortAscending(CPreferences::TABLE_PARTSTATUS, bSortOrder);
+@
+
+
+1.13
+log
+@Draw real last part size
+@
+text
+@d136 1
+a136 1
+	uint32				ui, dwWidth, dwCompleteSz, dwTmp, dwPartCnt = m_pFile->GetPartCount(), dwFileSize = m_pFile->GetFileSize();
+d155 3
+a157 3
+	CBarShader			DownloadStatusBar(16, dwWidth, crMissing, dwFileSize);
+	CBarShader			UploadStatusBar(16, dwWidth, crMissing, dwFileSize);
+	CBarShader			CompletionBar(16, dwWidth, crNoReception, dwFileSize);
+a199 3
+	bool	bIsPartComplete;
+	uint32	dwPartStart, dwPartEnd;
+
+a202 1
+		bIsPartComplete = m_pFile->IsPartComplete(ui, &dwPartStart, &dwPartEnd);
+d206 1
+a206 1
+			DownloadStatusBar.FillRange( dwPartStart, dwPartEnd,
+d213 1
+a213 1
+			UploadStatusBar.FillRange( dwPartStart, dwPartEnd,
+d217 1
+a217 4
+		dwTmp = m_pFile->GetPartSize(ui);
+		PartItem.uiCompleteSz = dwCompleteSz = dwTmp - m_pFile->GetPartLeftToDLSize(ui);
+
+		if (bIsPartComplete)
+d223 1
+a223 3
+			CompletionBar.FillRange(dwPartStart, dwPartEnd, crComplete);
+		//	Part is complete so there is 0% of the file left to DL
+			dPercent = 0.0;
+d239 1
+d241 8
+a248 4
+			if (dwCompleteSz == dwTmp)
+			//	Part is empty so there is 100% of the file left to DL
+				dPercent = 100.0;
+			else
+d251 1
+a251 2
+				dPercent = floor(static_cast<double>(dwCompleteSz) * 10000 / static_cast<double>(dwTmp)) / 100.0;
+				CompletionBar.FillRange(dwPartStart, dwPartEnd, RGB(0, (220 - 2.2 * dPercent), 255));
+@
+
+
+1.12
+log
+@Some KuSh formatting.
+@
+text
+@d136 1
+a136 1
+	uint32				ui, dwWidth, dwCompleteSz, dwTmp, dwPartCnt = m_pFile->GetPartCount();
+d155 3
+a157 3
+	CBarShader			DownloadStatusBar(16, dwWidth, crMissing, dwPartCnt);
+	CBarShader			UploadStatusBar(16, dwWidth, crMissing, dwPartCnt);
+	CBarShader			CompletionBar(16, dwWidth, crNoReception, dwPartCnt);
+d200 3
+d206 1
+d210 1
+a210 1
+			DownloadStatusBar.FillRange( ui, ui + 1,
+d217 1
+a217 1
+			UploadStatusBar.FillRange( ui, ui + 1,
+d221 4
+a224 1
+		if (m_pFile->IsPartComplete(ui))
+d230 3
+a232 1
+			CompletionBar.FillRange(ui, ui + 1, crComplete);
+a247 1
+		}
+d249 4
+a252 8
+		dwTmp = m_pFile->GetPartSize(ui);
+		PartItem.uiCompleteSz = dwCompleteSz = dwTmp - m_pFile->GetPartLeftToDLSize(ui);
+		if (dwCompleteSz == dwTmp)
+			dPercent = 100.0;
+		else
+		{
+			dPercent = floor(static_cast<double>(dwCompleteSz) * 10000 / static_cast<double>(dwTmp)) / 100.0;
+			if (dwCompleteSz != 0)
+d255 2
+a256 1
+				CompletionBar.FillRange(ui, ui + 1, RGB(0, (220 - 2.2 * dPercent), 255));
+@
+
+
+1.11
+log
+@Save state of the Parts Status list.
+@
+text
+@d55 4
+a58 4
+		{ IDS_PART,			LVCFMT_LEFT,  50 },	//FDPARTSCOL_NUMBER
+		{ IDS_INFLST_FILE_COMPLETEDSIZE,	LVCFMT_RIGHT, 110 },	//FDPARTSCOL_COMPLETESIZE
+		{ IDS_DL_SOURCES,	LVCFMT_RIGHT, 60 },	//FDPARTSCOL_SOURCES
+		{ IDS_STATUS,		LVCFMT_LEFT,  80 }	//FDPARTSCOL_STATUS
+d99 2
+a100 1
+	static const uint16 s_auResTbl[][2] = {
+d109 1
+a109 1
+	if (GetSafeHwnd())
+d118 2
+a119 1
+	static const uint16 s_auStatuStr[] = {
+d258 1
+a258 1
+			if (!bDelete)	//don't add filtered items
+d268 1
+a268 1
+			iIdx = -1;	//part status wasn't changed -> no need to update
+d297 3
+a299 3
+	CDC		memDC, *pDC = GetDC();
+	CBitmap	*pOldBitmap;
+	HWND	hItemWnd;
+d304 1
+a304 1
+	if (m_bmpDownloadStatus.m_hObject)
+d311 1
+a311 1
+	::InvalidateRect(hItemWnd, NULL, FALSE);	//no need to erase background as the whole area is used by a picture
+d314 1
+a314 1
+	if (m_bmpUploadStatus.m_hObject)
+d321 1
+a321 1
+	::InvalidateRect(hItemWnd, NULL, FALSE);	//no need to erase background as the whole area is used by a picture
+d324 1
+a324 1
+	if (m_bmpCompletionStatus.m_hObject)
+d331 1
+a331 1
+	::InvalidateRect(hItemWnd, NULL, FALSE);	//no need to erase background as the whole area is used by a picture
+d365 1
+a365 1
+	g_eMuleApp.m_pGlobPrefs->SetColumnSortItem(CPreferences::TABLE_PARTSTATUS, iSubItem | iFlags);	//allow to save alternate criterion
+d410 1
+a410 1
+		return lParam1 - lParam2;	//compare by part number if no difference by another criterion
+d416 3
+a418 3
+	int		iSortColumn = (iSortCode & MLC_COLUMNMASK);			//the sort column
+	bool	bSortAscending = (iSortCode & MLC_SORTDESC) == 0;	//the sort order
+	int		iSortAltFlag = (iSortCode & MLC_SORTALT);			//the alternate sort
+@
+
+
+1.10
+log
+@Fixed sorting issue for parts information list.
+@
+text
+@d45 1
+d67 1
+d432 5
+@
+
+
+1.9
+log
+@One more tweaking of default column widthes to match the list without horizontal scroll bar.
+@
+text
+@d126 1
+a126 1
+	bool				bDelete, bFlat;
+d274 1
+d288 2
+@
+
+
+1.8
+log
+@Arrange default column widthes to mathc the list without horizontal scroll bar.
+@
+text
+@d54 2
+a55 2
+		{ IDS_PART,			LVCFMT_LEFT,  51 },	//FDPARTSCOL_NUMBER
+		{ IDS_INFLST_FILE_COMPLETEDSIZE,	LVCFMT_RIGHT, 112 },	//FDPARTSCOL_COMPLETESIZE
+d57 1
+a57 1
+		{ IDS_STATUS,		LVCFMT_LEFT,  82 }	//FDPARTSCOL_STATUS
+@
+
+
+1.7
+log
+@Detailed file parts information.
+@
+text
+@d54 4
+a57 4
+		{ IDS_PART,			LVCFMT_LEFT,   64 },	//FDPARTSCOL_NUMBER
+		{ IDS_INFLST_FILE_COMPLETEDSIZE,	LVCFMT_RIGHT, 130 },	//FDPARTSCOL_COMPLETESIZE
+		{ IDS_DL_SOURCES,	LVCFMT_RIGHT,  85 },	//FDPARTSCOL_SOURCES
+		{ IDS_STATUS,		LVCFMT_LEFT,  125 }		//FDPARTSCOL_STATUS
+@
+
+
+1.6
+log
+@updated and enabled file details Parts code
+@
+text
+@d6 1
+a6 1
+#include "..\eMule.h"
+d8 6
+d17 2
+d25 2
+d36 2
+a37 3
+	//{{AFX_DATA_MAP(CFDParts)
+	DDX_Control(pDX, IDC_PARTS, m_ctrlParts);
+	//}}AFX_DATA_MAP
+d42 3
+a44 2
+	//{{AFX_MSG_MAP(CFDParts)
+	//}}AFX_MSG_MAP
+d52 8
+d63 26
+a88 1
+	m_ctrlParts.Init();
+d97 8
+a104 1
+	EMULE_TRY
+d106 5
+a110 1
+	EMULE_CATCH
+d115 4
+d124 66
+a189 1
+	int iPartCount = m_pFile->GetPartCount();
+d191 2
+a192 1
+	m_ctrlParts.SetItemCount(iPartCount);
+d194 1
+a194 2
+	DWORD	dwPartFilledSize, dwPartSize;
+	BYTE	byteState, byteFilledPercentage;
+d196 1
+a196 1
+	for (int i = 0; i < iPartCount; i++)
+d198 88
+a285 6
+		dwPartSize = m_pFile->GetPartSize(i);
+		dwPartFilledSize = m_pFile->GetPartFilledSize(i);
+		byteState = static_cast<BYTE>(ROUND(63.0 * dwPartFilledSize / dwPartSize));
+		byteFilledPercentage = static_cast<BYTE>(ROUND(100.0 * dwPartFilledSize / dwPartSize));
+		m_ctrlParts.SetItemData(i, byteFilledPercentage);
+		m_ctrlParts.SetItemState(i, byteState, FALSE);
+d287 1
+d289 73
+a361 1
+	m_ctrlParts.Redraw();
+d364 63
+a426 1
+}@
+
+
+1.5
+log
+@corrected compilation fix.
+@
+text
+@d40 1
+a40 1
+BOOL CFDParts::OnInitDialog() 
+d63 1
+a63 1
+	if(m_pFile == NULL)
+d66 1
+a66 2
+	if(!::IsWindow(GetSafeHwnd()))
+		return;
+a67 2
+	int iPartCount = m_pFile->GetPartCount();
+	
+d69 12
+a80 10
+	
+	for(int i = 0; i < iPartCount; i++)
+	{		
+		DWORD dwData = m_pFile->GetPartFilledSize(i);
+		m_ctrlParts.SetItemData(i, dwData);
+
+		//double d = 64 * dwData / PARTSIZE;
+		double d = rand() % 256;
+		m_ctrlParts.SetItemState(i, (BYTE)d, FALSE);	
+		
+d82 1
+@
+
+
+1.4
+log
+@Compilation fix
+@
+text
+@d75 1
+a75 1
+		DWORD dwData = m_pFile->GetPartLeftToDLSize(i);
+@
+
+
+1.3
+log
+@added missing include
+@
+text
+@d75 1
+a75 1
+		DWORD dwData = m_pFile->GetBytesInPart(i);
+@
+
+
+1.2
+log
+@TRY & CATCH
+@
+text
+@d6 1
+@
+
+
+1.1
+log
+@new dialogs for file- & client-details
+@
+text
+@d53 1
+d55 1
+d60 2
+d83 2
+@
+

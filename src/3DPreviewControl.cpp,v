@@ -1,0 +1,343 @@
+head	1.8;
+access;
+symbols
+	PublicRelease_1_2e:1.8
+	Interim_Release_1-2e_RC1:1.8
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.8
+	Interim_Release_1-2d_beta1:1.7
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.7
+	PublicRelease_1_2b:1.7
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.7
+	Interim_Release_1-2a_RC1:1.7
+	Interim_Release_1-2a_beta2:1.7
+	Interim_Release_1-2a_beta1:1.7
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.5
+	Interim_Release_1-1c_RC1:1.5
+	Interim_Release_1-1c_beta2:1.5
+	Interim_Release_1-1c_beta1:1.5
+	PublicRelease_1_1b:1.5
+	Interim_Release_1-1b_RC1:1.5
+	PublicRelease_1_1a:1.5
+	Interim_Release_1-1a_RC2:1.5
+	Interim_Release_1-1a_RC1:1.5
+	Interim_Release_1-1a_beta2:1.5
+	Interim_Release_1-1a_beta1:1.3
+	PublicRelease_1_1:1.3
+	Interim_Release_1-1_beta1:1.3
+	PublicRelease_1o:1.3
+	Interim_Release_1o_RC1:1.3
+	Interim_Release_1o_beta1:1.3
+	PublicRelease_1n:1.3
+	Interim_Release_1n_RC2:1.3
+	Interim_Release_1n_RC1:1.3
+	Interim_Release_1n_beta2:1.3
+	Interim_Release_1n_beta1:1.3
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.3
+	Interim_Release_1j_beta2:1.3
+	Interim_Release_1j_beta1:1.3
+	PublicRelease_1i:1.3
+	Interim_Release_1i_RC6:1.3
+	Interim_Release_1i_RC3:1.3
+	Interim_Release_1i_RC2:1.3
+	Interim_Release_1i_RC1:1.3
+	Interim_Release_1i_beta3:1.3
+	Interim_Release_1i_beta2:1.3
+	Interim_Release_1i_beta1:1.3
+	PublicRelease_1h:1.2
+	Interim_Release_1h_rc2:1.2
+	Interim_Release_1h_RC1:1.2
+	Interim_Release_1h_beta2:1.2
+	Interim_Release_1h_beta1_now:1.2
+	Interim_Release_1h_beta1:1.2
+	PublicRelease_1g:1.2
+	Interim_Release_1g_RC6_Final:1.2
+	Interim_Release_1g_RC6:1.2
+	Interim_Release_1g_RC5:1.2
+	Interim_Release_1g_RC4:1.2
+	Interim_Release_1g_RC3:1.2
+	Interim_Release_1g_beta2:1.2
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.2
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.8
+date	2008.03.08.02.04.14;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.04.26.01.49.38;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.05.09.02.27.08;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.11.18.06.57.49;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.11.15.19.07.32;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.01.15.08.35;	author eklmn;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.15.19.41.52;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.14.23.54.40;	author lord_kiron;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Suppressed compiler warnings.
+@
+text
+@// 3DPreviewControl.cpp : implementation file
+//
+
+#include "stdafx.h"
+#include "emule.h"
+#include "3DPreviewControl.h"
+#include "BarShader.h"
+
+CBarShader C3DPreviewControl::s_preview(16, 16, RGB(192,192,255), 16);
+
+IMPLEMENT_DYNAMIC(C3DPreviewControl, CStatic)
+C3DPreviewControl::C3DPreviewControl()
+: m_iSliderPos(0) // use flat
+{
+}
+
+C3DPreviewControl::~C3DPreviewControl()
+{
+}
+
+BEGIN_MESSAGE_MAP(C3DPreviewControl, CStatic)
+	ON_WM_PAINT()
+END_MESSAGE_MAP()
+
+
+// Sets "slider" position for type of preview
+void C3DPreviewControl::SetSliderPos(int iPos)
+{
+	if (iPos <= 5 && iPos >= -5)
+		m_iSliderPos = iPos;
+
+	if (GetSafeHwnd())
+	{
+		Invalidate();
+		UpdateWindow();
+	}
+}
+
+void C3DPreviewControl::OnPaint()
+{
+	CPaintDC	dc(this); // device context for painting
+	CBrush		FrameBrush(RGB(127, 127, 127));
+	RECT		outline_rec;
+
+	outline_rec.top = 0;
+	outline_rec.bottom = 18;
+	outline_rec.left = 0;
+	outline_rec.right = 18;
+	dc.FrameRect(&outline_rec, &FrameBrush);
+	s_preview.DrawPreview(&dc, 1, 1, static_cast<byte>(m_iSliderPos));
+}
+@
+
+
+1.7
+log
+@Reduced H-file dependency.
+@
+text
+@a10 2
+// C3DPreviewControl
+
+d13 1
+a13 1
+: m_iSliderPos(0) // use flat 
+d41 3
+a43 2
+	CPaintDC dc(this); // device context for painting
+	RECT outline_rec;
+d49 2
+a50 2
+	dc.FrameRect(&outline_rec, &CBrush(RGB(127,127,127)));
+	s_preview.DrawPreview(&dc, 1, 1, m_iSliderPos); 
+@
+
+
+1.6
+log
+@Faster drawing.
+@
+text
+@d7 1
+@
+
+
+1.5
+log
+@Improved BarShader constructor/destructor.
+@
+text
+@a7 1
+
+a21 1
+
+a26 1
+
+a27 1
+
+d44 6
+a49 8
+	outline_rec.top=0;
+	outline_rec.bottom=18;
+	outline_rec.left=0;
+	outline_rec.right=18;
+	CBrush gdiBrush(RGB(127,127,127));
+	CBrush* pOldBrush = dc.SelectObject(&gdiBrush);	//eklmn: select a new brush
+	dc.FrameRect(&outline_rec, &gdiBrush);
+	dc.SelectObject(pOldBrush);		//eklmn: recover an old brush
+@
+
+
+1.4
+log
+@Improved BarShared constructor.
+@
+text
+@d9 1
+a9 1
+CBarShader C3DPreviewControl::s_preview(16,16,16); 
+a55 1
+	s_preview.Fill(RGB(192,192,255)); 
+@
+
+
+1.3
+log
+@an incorrect use of GDI resources (CBrush class)
+@
+text
+@d5 1
+a5 1
+#include "eMule.h"
+d9 1
+a9 1
+CBarShader C3DPreviewControl::s_preview(16,16); 
+a31 1
+
+d34 4
+a37 5
+	if ( iPos <= 5 && iPos >= -5)
+	{
+		m_iSliderPos	=	iPos;
+	}
+	if ( GetSafeHwnd() )
+a55 1
+	s_preview.SetFileSize(16);
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d54 4
+a57 1
+	dc.FrameRect(&outline_rec, &CBrush(RGB(127,127,127)));
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d39 5
+a43 2
+	Invalidate();
+	UpdateWindow();
+@
+

@@ -1,0 +1,723 @@
+head	1.10;
+access;
+symbols
+	PublicRelease_1_2e:1.9
+	Interim_Release_1-2e_RC1:1.9
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.8
+	Interim_Release_1-2d_beta1:1.8
+	PublicRelease_1_2c:1.8
+	Interim_Release_1-2c_RC1:1.8
+	Interim_Release_1-2c_beta1:1.8
+	PublicRelease_1_2b:1.7
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.5
+	Interim_Release_1-1e_beta1:1.5
+	PublicRelease_1_1d:1.5
+	Interim_Release_1-1d_RC1:1.5
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.4
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.3
+	PublicRelease_1_1:1.3
+	Interim_Release_1-1_beta1:1.3
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.10
+date	2011.07.03.19.09.40;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2009.01.20.03.45.03;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2007.02.11.23.46.13;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2006.11.20.06.03.56;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.07.09.06.02.39;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.03.03.04.32.10;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.11.11.16.43.17;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.10.05.15.43.48;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.10.04.23.33.50;	author kush_eplus;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.08.10.12.43.45;	author eklmn;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@added .ogv and .webm as Video file types; .odp, .ods, .odt and .sxw as Document [gagar].
+@
+text
+@#include "stdafx.h"
+#include "ed2k_filetype.h"
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+static SED2KFileType aED2KFileTypes[] =
+{
+	{ _T("669"),	ED2KFT_AUDIO },
+	{ _T("aac"),	ED2KFT_AUDIO },
+	{ _T("aif"),	ED2KFT_AUDIO },
+	{ _T("aiff"),	ED2KFT_AUDIO },
+	{ _T("amf"),	ED2KFT_AUDIO },
+	{ _T("ams"),	ED2KFT_AUDIO },
+	{ _T("ape"),	ED2KFT_AUDIO },
+	{ _T("au"),		ED2KFT_AUDIO },
+	{ _T("dbm"),	ED2KFT_AUDIO },
+	{ _T("dmf"),	ED2KFT_AUDIO },
+	{ _T("dsm"),	ED2KFT_AUDIO },
+	{ _T("far"),	ED2KFT_AUDIO },
+	{ _T("flac"),	ED2KFT_AUDIO },
+	{ _T("it"),		ED2KFT_AUDIO },
+	{ _T("m4a"),	ED2KFT_AUDIO },
+	{ _T("m4b"),	ED2KFT_AUDIO },
+	{ _T("m4p"),	ED2KFT_AUDIO },
+	{ _T("m4r"),	ED2KFT_AUDIO },
+	{ _T("mdl"),	ED2KFT_AUDIO },
+	{ _T("med"),	ED2KFT_AUDIO },
+	{ _T("mid"),	ED2KFT_AUDIO },
+	{ _T("midi"),	ED2KFT_AUDIO },
+	{ _T("mod"),	ED2KFT_AUDIO },
+	{ _T("mol"),	ED2KFT_AUDIO },
+	{ _T("mp+"),	ED2KFT_AUDIO },
+	{ _T("mp1"),	ED2KFT_AUDIO },
+	{ _T("mp2"),	ED2KFT_AUDIO },
+	{ _T("mp3"),	ED2KFT_AUDIO },
+	{ _T("mpa"),	ED2KFT_AUDIO },
+	{ _T("mpc"),	ED2KFT_AUDIO },
+	{ _T("mpga"),	ED2KFT_AUDIO },
+	{ _T("mpp"),	ED2KFT_AUDIO },
+	{ _T("mtm"),	ED2KFT_AUDIO },
+	{ _T("nst"),	ED2KFT_AUDIO },
+	{ _T("ogg"),	ED2KFT_AUDIO },
+	{ _T("okt"),	ED2KFT_AUDIO },
+	{ _T("psm"),	ED2KFT_AUDIO },
+	{ _T("ptm"),	ED2KFT_AUDIO },
+	{ _T("ra"),		ED2KFT_AUDIO },
+	{ _T("rmi"),	ED2KFT_AUDIO },
+	{ _T("s3m"),	ED2KFT_AUDIO },
+	{ _T("stm"),	ED2KFT_AUDIO },
+	{ _T("ult"),	ED2KFT_AUDIO },
+	{ _T("umx"),	ED2KFT_AUDIO },
+	{ _T("wav"),	ED2KFT_AUDIO },
+	{ _T("wma"),	ED2KFT_AUDIO },
+	{ _T("wow"),	ED2KFT_AUDIO },
+	{ _T("xm"),		ED2KFT_AUDIO },
+
+	{ _T("3g2"),	ED2KFT_VIDEO },
+	{ _T("3gp"),	ED2KFT_VIDEO },
+	{ _T("asf"),	ED2KFT_VIDEO },
+	{ _T("avi"),	ED2KFT_VIDEO },
+	{ _T("divx"),	ED2KFT_VIDEO },
+	{ _T("m1v"),	ED2KFT_VIDEO },
+	{ _T("m2v"),	ED2KFT_VIDEO },
+	{ _T("m4v"),	ED2KFT_VIDEO },
+	{ _T("mkv"),	ED2KFT_VIDEO },
+	{ _T("mov"),	ED2KFT_VIDEO },
+	{ _T("mp1v"),	ED2KFT_VIDEO },
+	{ _T("mp2v"),	ED2KFT_VIDEO },
+	{ _T("mp4"),	ED2KFT_VIDEO },
+	{ _T("mpe"),	ED2KFT_VIDEO },
+	{ _T("mpeg"),	ED2KFT_VIDEO },
+	{ _T("mpg"),	ED2KFT_VIDEO },
+	{ _T("mps"),	ED2KFT_VIDEO },
+	{ _T("mpv"),	ED2KFT_VIDEO },
+	{ _T("mpv1"),	ED2KFT_VIDEO },
+	{ _T("mpv2"),	ED2KFT_VIDEO },
+	{ _T("ogm"),	ED2KFT_VIDEO },
+	{ _T("ogv"),	ED2KFT_VIDEO },
+	{ _T("qt"),		ED2KFT_VIDEO },
+	{ _T("ram"),	ED2KFT_VIDEO },
+	{ _T("rm"),		ED2KFT_VIDEO },
+	{ _T("rmvb"),	ED2KFT_VIDEO },
+	{ _T("rv"),		ED2KFT_VIDEO },
+	{ _T("rv9"),	ED2KFT_VIDEO },
+	{ _T("ts"),		ED2KFT_VIDEO },
+	{ _T("vivo"),	ED2KFT_VIDEO },
+	{ _T("vob"),	ED2KFT_VIDEO },
+	{ _T("webm"),	ED2KFT_VIDEO },
+	{ _T("wmv"),	ED2KFT_VIDEO },
+	{ _T("xvid"),	ED2KFT_VIDEO },
+
+	{ _T("bmp"),	ED2KFT_IMAGE },
+	{ _T("dcx"),	ED2KFT_IMAGE },
+	{ _T("emf"),	ED2KFT_IMAGE },
+	{ _T("gif"),	ED2KFT_IMAGE },
+	{ _T("ico"),	ED2KFT_IMAGE },
+	{ _T("jpeg"),	ED2KFT_IMAGE },
+	{ _T("jpg"),	ED2KFT_IMAGE },
+	{ _T("pct"),	ED2KFT_IMAGE },
+	{ _T("pcx"),	ED2KFT_IMAGE },
+	{ _T("pic"),	ED2KFT_IMAGE },
+	{ _T("pict"),	ED2KFT_IMAGE },
+	{ _T("png"),	ED2KFT_IMAGE },
+	{ _T("psd"),	ED2KFT_IMAGE },
+	{ _T("psp"),	ED2KFT_IMAGE },
+	{ _T("tga"),	ED2KFT_IMAGE },
+	{ _T("tif"),	ED2KFT_IMAGE },
+	{ _T("tiff"),	ED2KFT_IMAGE },
+	{ _T("wmf"),	ED2KFT_IMAGE },
+	{ _T("xif"),	ED2KFT_IMAGE },
+
+	{ _T("7z"),		ED2KFT_ARCHIVE },
+	{ _T("ace"),	ED2KFT_ARCHIVE },
+	{ _T("arj"),	ED2KFT_ARCHIVE },
+	{ _T("bz2"),	ED2KFT_ARCHIVE },
+	{ _T("cab"),	ED2KFT_ARCHIVE },
+	{ _T("gz"),		ED2KFT_ARCHIVE },
+	{ _T("hqx"),	ED2KFT_ARCHIVE },
+	{ _T("lha"),	ED2KFT_ARCHIVE },
+	{ _T("rar"),	ED2KFT_ARCHIVE },
+	{ _T("sea"),	ED2KFT_ARCHIVE },
+	{ _T("sit"),	ED2KFT_ARCHIVE },
+	{ _T("tar"),	ED2KFT_ARCHIVE },
+	{ _T("tgz"),	ED2KFT_ARCHIVE },
+	{ _T("uc2"),	ED2KFT_ARCHIVE },
+	{ _T("zip"),	ED2KFT_ARCHIVE },
+
+	{ _T("bat"),	ED2KFT_PROGRAM },
+	{ _T("cmd"),	ED2KFT_PROGRAM },
+	{ _T("com"),	ED2KFT_PROGRAM },
+	{ _T("exe"),	ED2KFT_PROGRAM },
+	{ _T("msi"),	ED2KFT_PROGRAM },
+	{ _T("pif"),	ED2KFT_PROGRAM },
+
+	{ _T("bin"),	ED2KFT_CDIMAGE },
+	{ _T("bwa"),	ED2KFT_CDIMAGE },
+	{ _T("bwi"),	ED2KFT_CDIMAGE },
+	{ _T("bws"),	ED2KFT_CDIMAGE },
+	{ _T("bwt"),	ED2KFT_CDIMAGE },
+	{ _T("ccd"),	ED2KFT_CDIMAGE },
+	{ _T("cue"),	ED2KFT_CDIMAGE },
+	{ _T("dmg"),	ED2KFT_CDIMAGE },
+	{ _T("dmz"),	ED2KFT_CDIMAGE },
+	{ _T("img"),	ED2KFT_CDIMAGE },
+	{ _T("iso"),	ED2KFT_CDIMAGE },
+	{ _T("mdf"),	ED2KFT_CDIMAGE },
+	{ _T("mds"),	ED2KFT_CDIMAGE },
+	{ _T("nrg"),	ED2KFT_CDIMAGE },
+	{ _T("ratdvd"),	ED2KFT_CDIMAGE },
+	{ _T("sub"),	ED2KFT_CDIMAGE },
+	{ _T("toast"),	ED2KFT_CDIMAGE },
+
+	{ _T("cbr"),	ED2KFT_DOCUMENT },	//actually .rar
+	{ _T("cbz"),	ED2KFT_DOCUMENT },	//actually .zip
+	{ _T("chm"),	ED2KFT_DOCUMENT },
+	{ _T("diz"),	ED2KFT_DOCUMENT },
+	{ _T("djv"),	ED2KFT_DOCUMENT },
+	{ _T("djvu"),	ED2KFT_DOCUMENT },
+	{ _T("doc"),	ED2KFT_DOCUMENT },
+	{ _T("htm"),	ED2KFT_DOCUMENT },
+	{ _T("html"),	ED2KFT_DOCUMENT },
+	{ _T("nfo"),	ED2KFT_DOCUMENT },
+	{ _T("odp"),	ED2KFT_DOCUMENT },
+	{ _T("ods"),	ED2KFT_DOCUMENT },
+	{ _T("odt"),	ED2KFT_DOCUMENT },
+	{ _T("pdf"),	ED2KFT_DOCUMENT },
+	{ _T("ppt"),	ED2KFT_DOCUMENT },
+	{ _T("rtf"),	ED2KFT_DOCUMENT },
+	{ _T("sxw"),	ED2KFT_DOCUMENT },
+	{ _T("txt"),	ED2KFT_DOCUMENT },
+	{ _T("xls"),	ED2KFT_DOCUMENT },
+	{ _T("xml"),	ED2KFT_DOCUMENT }
+};
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+bool InitFileTypeArray(void)
+{
+	qsort(aED2KFileTypes, _countof(aED2KFileTypes), sizeof(aED2KFileTypes[0]), CompareE2DKFileType);
+#ifdef _DEBUG
+	// check for duplicate entries
+	LPCTSTR pszLast = aED2KFileTypes[0].pszExt;
+	for (int i = 1; i < _countof(aED2KFileTypes); i++)
+	{
+		ASSERT( _tcscmp(pszLast, aED2KFileTypes[i].pszExt) != 0 );
+		pszLast = aED2KFileTypes[i].pszExt;
+	}
+#endif
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+int __cdecl CompareE2DKFileType(const void* p1, const void* p2)
+{
+	return _tcscmp( ((const SED2KFileType*)p1)->pszExt, ((const SED2KFileType*)p2)->pszExt );
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+EED2KFileType GetED2KFileTypeID(LPCTSTR pszFileName)
+{
+	EED2KFileType	eReturn = ED2KFT_ANY;
+	LPCTSTR			pszExt = _tcsrchr(pszFileName, _T('.'));
+
+	if (pszExt != NULL)
+	{
+		SED2KFileType	ft;
+		CString			strExt = ++pszExt;
+
+		strExt.MakeLower();
+		ft.pszExt = strExt;
+		ft.iFileType = ED2KFT_ANY;
+
+		const SED2KFileType	*pFound = (SED2KFileType*)bsearch(&ft, aED2KFileTypes, _countof(aED2KFileTypes), sizeof(aED2KFileTypes[0]), CompareE2DKFileType);
+
+		if (pFound != NULL)
+			eReturn = pFound->iFileType;
+	}
+
+	return eReturn;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.9
+log
+@Classify .m4a, .m4b, .m4p, .m4r file extensions as audio type; .m4v as video.
+@
+text
+@d77 1
+d87 1
+d162 3
+d168 1
+@
+
+
+1.8
+log
+@.ratDVD added to CD/DVD image type {Fuxie - DK}.
+@
+text
+@d21 4
+d63 1
+@
+
+
+1.7
+log
+@Added .3g2, .3gp and .mp4 (previously was Audio) as Video file types; .djv as Document;
+Applied some string optimizations.
+@
+text
+@d141 1
+@
+
+
+1.6
+log
+@Consider files .djvu as documents.
+@
+text
+@d5 1
+a5 1
+static SED2KFileType _aED2KFileTypes[] =
+d7 153
+a159 150
+	{ _T(".669"),	ED2KFT_AUDIO },
+	{ _T(".aac"),	ED2KFT_AUDIO },
+	{ _T(".aif"),	ED2KFT_AUDIO },
+	{ _T(".aiff"),	ED2KFT_AUDIO },
+	{ _T(".amf"),	ED2KFT_AUDIO },
+	{ _T(".ams"),	ED2KFT_AUDIO },
+	{ _T(".ape"),	ED2KFT_AUDIO },
+	{ _T(".au"),	ED2KFT_AUDIO },
+	{ _T(".dbm"),	ED2KFT_AUDIO },
+	{ _T(".dmf"),	ED2KFT_AUDIO },
+	{ _T(".dsm"),	ED2KFT_AUDIO },
+	{ _T(".far"),	ED2KFT_AUDIO },
+	{ _T(".flac"),	ED2KFT_AUDIO },
+	{ _T(".it"),	ED2KFT_AUDIO },
+	{ _T(".mdl"),	ED2KFT_AUDIO },
+	{ _T(".med"),	ED2KFT_AUDIO },
+	{ _T(".mid"),	ED2KFT_AUDIO },
+	{ _T(".midi"),	ED2KFT_AUDIO },
+	{ _T(".mod"),	ED2KFT_AUDIO },
+	{ _T(".mol"),	ED2KFT_AUDIO },
+	{ _T(".mp+"),	ED2KFT_AUDIO },
+	{ _T(".mp1"),	ED2KFT_AUDIO },
+	{ _T(".mp2"),	ED2KFT_AUDIO },
+	{ _T(".mp3"),	ED2KFT_AUDIO },
+	{ _T(".mp4"),	ED2KFT_AUDIO },
+	{ _T(".mpa"),	ED2KFT_AUDIO },
+	{ _T(".mpc"),	ED2KFT_AUDIO },
+	{ _T(".mpga"),	ED2KFT_AUDIO },
+	{ _T(".mpp"),	ED2KFT_AUDIO },
+	{ _T(".mtm"),	ED2KFT_AUDIO },
+	{ _T(".nst"),	ED2KFT_AUDIO },
+	{ _T(".ogg"),	ED2KFT_AUDIO },
+	{ _T(".okt"),	ED2KFT_AUDIO },
+	{ _T(".psm"),	ED2KFT_AUDIO },
+	{ _T(".ptm"),	ED2KFT_AUDIO },
+	{ _T(".ra"),	ED2KFT_AUDIO },
+	{ _T(".rmi"),	ED2KFT_AUDIO },
+	{ _T(".s3m"),	ED2KFT_AUDIO },
+	{ _T(".stm"),	ED2KFT_AUDIO },
+	{ _T(".ult"),	ED2KFT_AUDIO },
+	{ _T(".umx"),	ED2KFT_AUDIO },
+	{ _T(".wav"),	ED2KFT_AUDIO },
+	{ _T(".wma"),	ED2KFT_AUDIO },
+	{ _T(".wow"),	ED2KFT_AUDIO },
+	{ _T(".xm"),	ED2KFT_AUDIO },
+
+	{ _T(".asf"),	ED2KFT_VIDEO },
+	{ _T(".avi"),	ED2KFT_VIDEO },
+	{ _T(".divx"),	ED2KFT_VIDEO },
+	{ _T(".m1v"),	ED2KFT_VIDEO },
+	{ _T(".m2v"),	ED2KFT_VIDEO },
+	{ _T(".mkv"),	ED2KFT_VIDEO },
+	{ _T(".mov"),	ED2KFT_VIDEO },
+	{ _T(".mp1v"),	ED2KFT_VIDEO },
+	{ _T(".mp2v"),	ED2KFT_VIDEO },
+	{ _T(".mpe"),	ED2KFT_VIDEO },
+	{ _T(".mpeg"),	ED2KFT_VIDEO },
+	{ _T(".mpg"),	ED2KFT_VIDEO },
+	{ _T(".mps"),	ED2KFT_VIDEO },
+	{ _T(".mpv"),	ED2KFT_VIDEO },
+	{ _T(".mpv1"),	ED2KFT_VIDEO },
+	{ _T(".mpv2"),	ED2KFT_VIDEO },
+	{ _T(".ogm"),	ED2KFT_VIDEO },
+	{ _T(".qt"),	ED2KFT_VIDEO },
+	{ _T(".ram"),	ED2KFT_VIDEO },
+	{ _T(".rm"),	ED2KFT_VIDEO },
+	{ _T(".rmvb"),	ED2KFT_VIDEO },
+	{ _T(".rv"),	ED2KFT_VIDEO },
+	{ _T(".rv9"),	ED2KFT_VIDEO },
+	{ _T(".ts"),	ED2KFT_VIDEO },
+	{ _T(".vivo"),	ED2KFT_VIDEO },
+	{ _T(".vob"),	ED2KFT_VIDEO },
+	{ _T(".wmv"),	ED2KFT_VIDEO },
+	{ _T(".xvid"),	ED2KFT_VIDEO },
+
+	{ _T(".bmp"),	ED2KFT_IMAGE },
+	{ _T(".dcx"),	ED2KFT_IMAGE },
+	{ _T(".emf"),	ED2KFT_IMAGE },
+	{ _T(".gif"),	ED2KFT_IMAGE },
+	{ _T(".ico"),	ED2KFT_IMAGE },
+	{ _T(".jpeg"),	ED2KFT_IMAGE },
+	{ _T(".jpg"),	ED2KFT_IMAGE },
+	{ _T(".pct"),	ED2KFT_IMAGE },
+	{ _T(".pcx"),	ED2KFT_IMAGE },
+	{ _T(".pic"),	ED2KFT_IMAGE },
+	{ _T(".pict"),	ED2KFT_IMAGE },
+	{ _T(".png"),	ED2KFT_IMAGE },
+	{ _T(".psd"),	ED2KFT_IMAGE },
+	{ _T(".psp"),	ED2KFT_IMAGE },
+	{ _T(".tga"),	ED2KFT_IMAGE },
+	{ _T(".tif"),	ED2KFT_IMAGE },
+	{ _T(".tiff"),	ED2KFT_IMAGE },
+	{ _T(".wmf"),	ED2KFT_IMAGE },
+	{ _T(".xif"),	ED2KFT_IMAGE },
+
+	{ _T(".7z"),	ED2KFT_ARCHIVE },
+	{ _T(".ace"),	ED2KFT_ARCHIVE },
+	{ _T(".arj"),	ED2KFT_ARCHIVE },
+	{ _T(".bz2"),	ED2KFT_ARCHIVE },
+	{ _T(".cab"),	ED2KFT_ARCHIVE },
+	{ _T(".gz"),	ED2KFT_ARCHIVE },
+	{ _T(".hqx"),	ED2KFT_ARCHIVE },
+	{ _T(".lha"),	ED2KFT_ARCHIVE },
+	{ _T(".rar"),	ED2KFT_ARCHIVE },
+	{ _T(".sea"),	ED2KFT_ARCHIVE },
+	{ _T(".sit"),	ED2KFT_ARCHIVE },
+	{ _T(".tar"),	ED2KFT_ARCHIVE },
+	{ _T(".tgz"),	ED2KFT_ARCHIVE },
+	{ _T(".uc2"),	ED2KFT_ARCHIVE },
+	{ _T(".zip"),	ED2KFT_ARCHIVE },
+
+	{ _T(".bat"),	ED2KFT_PROGRAM },
+	{ _T(".cmd"),	ED2KFT_PROGRAM },
+	{ _T(".com"),	ED2KFT_PROGRAM },
+	{ _T(".exe"),	ED2KFT_PROGRAM },
+	{ _T(".msi"),	ED2KFT_PROGRAM },
+	{ _T(".pif"),	ED2KFT_PROGRAM },
+
+	{ _T(".bin"),	ED2KFT_CDIMAGE },
+	{ _T(".bwa"),	ED2KFT_CDIMAGE },
+	{ _T(".bwi"),	ED2KFT_CDIMAGE },
+	{ _T(".bws"),	ED2KFT_CDIMAGE },
+	{ _T(".bwt"),	ED2KFT_CDIMAGE },
+	{ _T(".ccd"),	ED2KFT_CDIMAGE },
+	{ _T(".cue"),	ED2KFT_CDIMAGE },
+	{ _T(".dmg"),	ED2KFT_CDIMAGE },
+	{ _T(".dmz"),	ED2KFT_CDIMAGE },
+	{ _T(".img"),	ED2KFT_CDIMAGE },
+	{ _T(".iso"),	ED2KFT_CDIMAGE },
+	{ _T(".mdf"),	ED2KFT_CDIMAGE },
+	{ _T(".mds"),	ED2KFT_CDIMAGE },
+	{ _T(".nrg"),	ED2KFT_CDIMAGE },
+	{ _T(".sub"),	ED2KFT_CDIMAGE },
+	{ _T(".toast"),	ED2KFT_CDIMAGE },
+
+	{ _T(".cbr"),	ED2KFT_DOCUMENT },	//actually .rar
+	{ _T(".cbz"),	ED2KFT_DOCUMENT },	//actually .zip
+	{ _T(".chm"),	ED2KFT_DOCUMENT },
+	{ _T(".diz"),	ED2KFT_DOCUMENT },
+	{ _T(".djvu"),	ED2KFT_DOCUMENT },
+	{ _T(".doc"),	ED2KFT_DOCUMENT },
+	{ _T(".htm"),	ED2KFT_DOCUMENT },
+	{ _T(".html"),	ED2KFT_DOCUMENT },
+	{ _T(".nfo"),	ED2KFT_DOCUMENT },
+	{ _T(".pdf"),	ED2KFT_DOCUMENT },
+	{ _T(".ppt"),	ED2KFT_DOCUMENT },
+	{ _T(".rtf"),	ED2KFT_DOCUMENT },
+	{ _T(".txt"),	ED2KFT_DOCUMENT },
+	{ _T(".xls"),	ED2KFT_DOCUMENT },
+	{ _T(".xml"),	ED2KFT_DOCUMENT }
+d164 1
+a164 1
+	qsort(_aED2KFileTypes, _countof(_aED2KFileTypes), sizeof _aED2KFileTypes[0], CompareE2DKFileType);
+d167 2
+a168 2
+	LPCTSTR pszLast = _aED2KFileTypes[0].pszExt;
+	for (int i = 1; i < _countof(_aED2KFileTypes); i++)
+d170 2
+a171 2
+		ASSERT( _tcscmp(pszLast, _aED2KFileTypes[i].pszExt) != 0 );
+		pszLast = _aED2KFileTypes[i].pszExt;
+d190 1
+a190 1
+		CString			strExt = pszExt;
+d196 1
+a196 1
+		const SED2KFileType	*pFound = (SED2KFileType*)bsearch(&ft, _aED2KFileTypes, _countof(_aED2KFileTypes), sizeof _aED2KFileTypes[0], CompareE2DKFileType);
+d204 1
+a204 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////@
+
+
+1.5
+log
+@Consider files .cbz and .cbr as documents {Beltxo}.
+@
+text
+@d7 1
+a7 1
+	{ _T(".669"),   ED2KFT_AUDIO },
+d11 2
+a12 2
+	{ _T(".amf"),   ED2KFT_AUDIO },
+	{ _T(".ams"),   ED2KFT_AUDIO },
+d15 4
+a18 4
+	{ _T(".dbm"),   ED2KFT_AUDIO },
+	{ _T(".dmf"),   ED2KFT_AUDIO },
+	{ _T(".dsm"),   ED2KFT_AUDIO },
+	{ _T(".far"),   ED2KFT_AUDIO },
+d20 3
+a22 3
+	{ _T(".it"),    ED2KFT_AUDIO },
+	{ _T(".mdl"),   ED2KFT_AUDIO },
+	{ _T(".med"),   ED2KFT_AUDIO },
+d25 2
+a26 2
+	{ _T(".mod"),   ED2KFT_AUDIO },
+	{ _T(".mol"),   ED2KFT_AUDIO },
+d36 2
+a37 2
+	{ _T(".mtm"),   ED2KFT_AUDIO },
+	{ _T(".nst"),   ED2KFT_AUDIO },
+d39 3
+a41 3
+	{ _T(".okt"),   ED2KFT_AUDIO },
+	{ _T(".psm"),   ED2KFT_AUDIO },
+	{ _T(".ptm"),   ED2KFT_AUDIO },
+d44 4
+a47 4
+	{ _T(".s3m"),   ED2KFT_AUDIO },
+	{ _T(".stm"),   ED2KFT_AUDIO },
+	{ _T(".ult"),   ED2KFT_AUDIO },
+	{ _T(".umx"),   ED2KFT_AUDIO },
+d50 2
+a51 2
+	{ _T(".wow"),   ED2KFT_AUDIO },
+	{ _T(".xm"),    ED2KFT_AUDIO },
+d140 1
+a140 1
+	{ _T(".toast"), ED2KFT_CDIMAGE },
+d142 10
+a151 9
+	{ _T(".cbr"),   ED2KFT_DOCUMENT },	//actually .rar
+	{ _T(".cbz"),   ED2KFT_DOCUMENT },	//actually .zip
+	{ _T(".chm"),   ED2KFT_DOCUMENT },
+	{ _T(".diz"),   ED2KFT_DOCUMENT },
+	{ _T(".doc"),   ED2KFT_DOCUMENT },
+	{ _T(".htm"),   ED2KFT_DOCUMENT },
+	{ _T(".html"),  ED2KFT_DOCUMENT },
+	{ _T(".nfo"),   ED2KFT_DOCUMENT },
+	{ _T(".pdf"),   ED2KFT_DOCUMENT },
+d153 3
+a155 3
+	{ _T(".rtf"),   ED2KFT_DOCUMENT },
+	{ _T(".txt"),   ED2KFT_DOCUMENT },
+	{ _T(".xls"),   ED2KFT_DOCUMENT },
+@
+
+
+1.4
+log
+@.chm is added to document file type {muleteer}.
+@
+text
+@d142 2
+a143 1
+//	To be uncommented after we use the 'Doc' ed2k filetype for search expressions
+d150 1
+a150 1
+	{ _T(".pdf"),   ED2KFT_DOCUMENT },	// Double check this!
+d154 1
+a154 1
+	{ _T(".xls"),   ED2KFT_DOCUMENT },	// Double check this!
+@
+
+
+1.3
+log
+@Filenames in #includes must be the same as they are in CVS (required for portability).
+@
+text
+@d143 1
+@
+
+
+1.2
+log
+@updated ed2k filetype list
++ code formatting
+@
+text
+@d1 1
+a1 2
+#include "StdAfx.h"
+
+d179 1
+a179 2
+
+	LPCTSTR pszExt = _tcsrchr(pszFileName, _T('.'));
+d183 2
+a184 1
+		CString		strExt = pszExt;
+a186 3
+
+		SED2KFileType ft;
+
+@
+
+
+1.1
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d1 2
+a2 1
+#include "stdafx.h"
+d28 1
+d35 1
+d74 1
+d103 1
+d106 2
+d123 2
+d143 1
+a143 3
+	// To be uncommented after we use the 'Doc' ed2k filetype for search expressions
+	{ _T(".txt"),   ED2KFT_DOCUMENT },
+	{ _T(".nfo"),   ED2KFT_DOCUMENT },
+d146 5
+d152 3
+a154 4
+	{ _T(".pdf"),   ED2KFT_DOCUMENT },	// double check this!
+	{ _T(".xls"),   ED2KFT_DOCUMENT },	// double check this!
+	{ _T(".html"),  ED2KFT_DOCUMENT },
+	{ _T(".htm"),   ED2KFT_DOCUMENT }
+d179 2
+d183 3
+a185 2
+	if (pszExt == NULL)
+		return ED2KFT_ANY;
+d187 1
+a187 1
+	CString strExt(pszExt);
+d189 1
+a189 1
+	strExt.MakeLower();
+d191 2
+a192 1
+	SED2KFileType ft;
+d194 5
+a198 7
+	ft.pszExt = strExt;
+	ft.iFileType = ED2KFT_ANY;
+	
+	const SED2KFileType	*pFound = (SED2KFileType*)bsearch(&ft, _aED2KFileTypes, _countof(_aED2KFileTypes), sizeof _aED2KFileTypes[0], CompareE2DKFileType);
+	
+	if (pFound != NULL)
+		return pFound->iFileType;
+d200 1
+a200 1
+	return ED2KFT_ANY;
+@
+

@@ -1,0 +1,496 @@
+head	1.12;
+access;
+symbols
+	PublicRelease_1_2e:1.12
+	Interim_Release_1-2e_RC1:1.12
+	PublicRelease_1_2d:1.12
+	Interim_Release_1-2d_RC1:1.12
+	Interim_Release_1-2d_beta1:1.11
+	PublicRelease_1_2c:1.9
+	Interim_Release_1-2c_RC1:1.9
+	Interim_Release_1-2c_beta1:1.9
+	PublicRelease_1_2b:1.9
+	Interim_Release_1-2b_RC1:1.9
+	PublicRelease_1_2a:1.8
+	Interim_Release_1-2a_RC1:1.8
+	Interim_Release_1-2a_beta2:1.8
+	Interim_Release_1-2a_beta1:1.8
+	PublicRelease_1_2:1.8
+	Interim_Release_1-2_RC1:1.8
+	Interim_Release_1-2_beta1:1.8
+	PublicRelease_1_1g:1.8
+	Interim_Release_1-1g_RC3:1.8
+	Interim_Release_1-1g_RC2:1.8
+	Interim_Release_1-1g_RC1:1.8
+	Interim_Release_1-1g_beta2:1.8
+	Interim_Release_1-1g_beta1:1.8
+	PublicRelease_1_1f:1.8
+	Interim_Release_1-1f_RC1:1.8
+	PublicRelease_1_1e:1.8
+	Interim_Release_1-1e_RC2:1.8
+	Interim_Release_1-1e_RC1:1.8
+	Interim_Release_1-1e_beta1:1.8
+	PublicRelease_1_1d:1.8
+	Interim_Release_1-1d_RC1:1.8
+	PublicRelease_1_1c:1.8
+	Interim_Release_1-1c_RC1:1.8
+	Interim_Release_1-1c_beta2:1.8
+	Interim_Release_1-1c_beta1:1.8
+	PublicRelease_1_1b:1.8
+	Interim_Release_1-1b_RC1:1.8
+	PublicRelease_1_1a:1.8
+	Interim_Release_1-1a_RC2:1.8
+	Interim_Release_1-1a_RC1:1.7
+	Interim_Release_1-1a_beta2:1.7
+	Interim_Release_1-1a_beta1:1.7
+	PublicRelease_1_1:1.7
+	Interim_Release_1-1_beta1:1.7
+	PublicRelease_1o:1.7
+	Interim_Release_1o_RC1:1.7
+	Interim_Release_1o_beta1:1.7
+	PublicRelease_1n:1.7
+	Interim_Release_1n_RC2:1.7
+	Interim_Release_1n_RC1:1.7
+	Interim_Release_1n_beta2:1.7
+	Interim_Release_1n_beta1:1.7
+	PublicRelease_1m:1.7
+	Interim_Release_1m_beta1:1.7
+	PublicRelease_1l:1.7
+	Interim_Release_1l_RC3:1.7
+	Interim_Release_1l_RC2:1.7
+	Interim_Release_1l_RC1:1.7
+	Interim_Release_1l_beta2:1.7
+	Interim_Release_1l_beta1:1.7
+	PublicRelease_1k:1.7
+	Interim_Release_1k_RC4:1.7
+	Interim_1k_RC3:1.7
+	Interim_1k_RC2:1.7
+	Interim_Release_1k_RC1:1.7
+	Interim_Release_1k_beta5:1.7
+	Intrerim_Release_1k_beta4:1.7
+	Interim_Release_1k_beta1:1.7
+	PublicRelease_1j:1.6
+	Interim_Release_1J_RC3:1.6
+	Interim_Release_1j_RC3:1.6
+	Interim_Release_1j_RC2:1.6
+	Interim_Release_1j_RC1:1.6
+	Interim_Release_1j_beta2:1.6
+	Interim_Release_1j_beta1:1.6
+	PublicRelease_1i:1.6
+	Interim_Release_1i_RC6:1.6
+	Interim_Release_1i_RC3:1.6
+	Interim_Release_1i_RC2:1.6
+	Interim_Release_1i_RC1:1.6
+	Interim_Release_1i_beta3:1.6
+	Interim_Release_1i_beta2:1.6
+	Interim_Release_1i_beta1:1.6
+	PublicRelease_1h:1.4
+	Interim_Release_1h_rc2:1.4
+	Interim_Release_1h_RC1:1.4
+	Interim_Release_1h_beta2:1.4
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.4
+	PublicRelease_1g:1.4
+	Interim_Release_1g_RC6_Final:1.4
+	Interim_Release_1g_RC6:1.4
+	Interim_Release_1g_RC5:1.4
+	Interim_Release_1g_RC4:1.4
+	Interim_Release_1g_RC3:1.3
+	Interim_Release_1g_beta2:1.2
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.8
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.6
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.12
+date	2008.02.25.04.54.52;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2007.12.30.06.10.57;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.10.31.18.25.07;	author fuxie-dk;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2006.11.29.13.31.50;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.12.03.20.38.17;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.02.19.20.42.29;	author naboleo;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.02.11.08.27;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.07.06.16.50.48;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.15.09.10.05;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.20.07.25.21;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.20;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.12
+log
+@Added Video Player parameters {glaskrug/Lastwebpage}.
+@
+text
+@#pragma once
+
+#include "DirectoryTreeCtrl.h"
+
+class CPreferences;
+
+class CPPgDirectories : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgDirectories)
+
+public:
+	CPPgDirectories();
+	virtual ~CPPgDirectories();
+
+	void SetPrefs(CPreferences* in_prefs) { m_pPrefs = in_prefs; }
+	void Localize(void);
+
+	enum { IDD = IDD_PPG_DIRECTORIES };
+
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+
+	afx_msg void OnBnClickedSelincdir();
+	afx_msg void OnBnClickedSeltempdir();
+	afx_msg void OnBnClickedSelvlc();
+	afx_msg void OnBnClickedBackupPreview();
+	afx_msg void OnEnChange()	{ SetModified(); }
+
+protected:
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+	virtual BOOL OnCommand(WPARAM wParam, LPARAM lParam);
+	DECLARE_MESSAGE_MAP()
+
+private:
+	void LoadSettings(void);
+	BOOL SelectDir(const TCHAR* indir, TCHAR* outdir, const CString& titletext);
+	void CheckSharedChanges(void);
+	void CheckTempChanges(void);
+
+protected:
+	BOOL	m_bModified;
+	CString	m_strIncomingDir;
+	CString	m_strMainTempDir;
+	CString	m_strPlayer;
+	CString	m_strPlayerArgs;
+	BOOL	m_bVideoBackup;
+	BOOL	m_bSmallBlocks;
+
+private:
+	CPreferences *m_pPrefs;
+	CDirectoryTreeCtrl m_ShareSelector;
+	CDirectoryTreeCtrl m_TempSelector;
+	bool	m_bSharedDirsModified;
+};
+@
+
+
+1.11
+log
+@Optimized dialog regarding required memory and speed;
+Suppressed compiler warnings; Formatting.
+@
+text
+@d51 1
+@
+
+
+1.10
+log
+@Suppressed compiler warnings; Reduced H-file dependency [Aw3].
+@
+text
+@a17 1
+// Dialog Data
+d26 1
+a29 1
+	BOOL	m_bModified;
+d42 1
+a42 1
+	bool SelectDir(const TCHAR* indir, TCHAR* outdir, const CString& titletext);
+d46 7
+a52 4
+public:
+	CDirectoryTreeCtrl m_ShareSelector;
+	CDirectoryTreeCtrl m_TempSelector;	// InterCeptor (multiple tempdirs)
+	CPreferences* m_pPrefs;
+a53 6
+protected:
+	CString incFiles;
+	CString tempFiles;
+	CString vlc;
+	BOOL videoBackup;
+	BOOL smallBlocks;
+d55 3
+a57 14
+	CEdit incFilesEdit;
+	CEdit tempFilesEdit;
+	CEdit vlcEdit;
+	CString incomingDesc;
+	CString tempDesc;
+	CString vlcDesc;
+	CString sharedDesc;
+	CString tempDirDesc;
+	CButton videoBackupCheck;
+	CButton smallBlocksCheck;
+	CButton selIncDirButton;
+	CButton selTempDirButton;
+	CButton selVlcButton;
+
+@
+
+
+1.9
+log
+@Unified way to preselect default folder for select dialog.
+@
+text
+@a2 1
+#include "preferences.h"
+a3 1
+#include "afxwin.h"
+d5 1
+a5 1
+// CPPgDirectories dialog
+d15 2
+a16 1
+	void SetPrefs(CPreferences* in_prefs) {	m_pPrefs = in_prefs; }
+d21 8
+d30 1
+a30 1
+	bool m_bModified;
+d36 1
+a36 2
+	
+protected:
+d38 1
+a40 6
+public:
+	virtual BOOL OnInitDialog();
+public:
+	CDirectoryTreeCtrl m_ShareSelector;
+	CDirectoryTreeCtrl m_TempSelector;	// InterCeptor (multiple tempdirs)
+	CPreferences* m_pPrefs;
+d44 2
+d48 3
+a50 13
+	virtual BOOL OnApply();
+
+	afx_msg void OnBnClickedSelincdir();
+	afx_msg void OnBnClickedSeltempdir();
+	afx_msg void OnBnClickedSelvlc();
+	afx_msg void OnEnChange()	{ SetModified(); }
+protected:
+	virtual BOOL OnCommand(WPARAM wParam, LPARAM lParam);
+public:
+	void Localize(void);
+private:
+	void CheckSharedChanges(void);
+	void CheckTempChanges(void);
+@
+
+
+1.8
+log
+@Avoid shared directories reloading after change of other preferences settings.
+@
+text
+@d14 1
+a14 1
+	CPPgDirectories();									// standard constructor
+a41 1
+	static int CALLBACK BrowseCallbackProc (HWND hwnd, UINT uMsg, LPARAM lParam, LPARAM lpData);
+@
+
+
+1.7
+log
+@Res' patch for selecting the currently set temp resp. incoming directory in the browser dialog
+@
+text
+@d80 2
+@
+
+
+1.6
+log
+@Official code merge (katsyonak)
+@
+text
+@d42 3
+a44 1
+	bool SelectDir(TCHAR* outdir, const CString& titletext);
+@
+
+
+1.5
+log
+@Formatting, comments, and name changes.
+@
+text
+@d63 1
+d74 1
+@
+
+
+1.4
+log
+@converted to use DDX framework
+@
+text
+@d17 1
+a17 1
+	void SetPrefs(CPreferences* in_prefs) {	app_prefs = in_prefs; }
+d39 1
+a39 1
+	CPreferences* app_prefs;
+@
+
+
+1.3
+log
+@unicode cleanup
+@
+text
+@d5 1
+d42 1
+a42 1
+	bool SelectDir(TCHAR* outdir, CString titletext);
+d58 18
+@
+
+
+1.2
+log
+@minor updates & bugfixes
+@
+text
+@d41 1
+a41 1
+	bool SelectDir(char* outdir, CString titletext);
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d48 1
+a48 4
+	
+	afx_msg void OnEnChangeIncfiles()	{ SetModified(); }
+	afx_msg void OnEnChangeTempfiles()	{ SetModified(); }
+	afx_msg void OnEnChangeVlc()		{ SetModified(); }
+d56 1
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

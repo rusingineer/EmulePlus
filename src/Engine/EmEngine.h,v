@@ -1,0 +1,1105 @@
+head	1.35;
+access;
+symbols
+	PublicRelease_1_2e:1.35
+	Interim_Release_1-2e_RC1:1.35
+	PublicRelease_1_2d:1.35
+	Interim_Release_1-2d_RC1:1.35
+	Interim_Release_1-2d_beta1:1.35
+	PublicRelease_1_2c:1.35
+	Interim_Release_1-2c_RC1:1.35
+	Interim_Release_1-2c_beta1:1.35
+	PublicRelease_1_2b:1.35
+	Interim_Release_1-2b_RC1:1.35
+	PublicRelease_1_2a:1.35
+	Interim_Release_1-2a_RC1:1.35
+	Interim_Release_1-2a_beta2:1.35
+	Interim_Release_1-2a_beta1:1.35
+	PublicRelease_1_2:1.35
+	Interim_Release_1-2_RC1:1.35
+	Interim_Release_1-2_beta1:1.35
+	PublicRelease_1_1g:1.35
+	Interim_Release_1-1g_RC3:1.35
+	Interim_Release_1-1g_RC2:1.35
+	Interim_Release_1-1g_RC1:1.35
+	Interim_Release_1-1g_beta2:1.35
+	Interim_Release_1-1g_beta1:1.35
+	PublicRelease_1_1f:1.35
+	Interim_Release_1-1f_RC1:1.35
+	PublicRelease_1_1e:1.35
+	Interim_Release_1-1e_RC2:1.35
+	Interim_Release_1-1e_RC1:1.35
+	Interim_Release_1-1e_beta1:1.35
+	PublicRelease_1_1d:1.26
+	Interim_Release_1-1d_RC1:1.25
+	PublicRelease_1_1c:1.24
+	Interim_Release_1-1c_RC1:1.23
+	Interim_Release_1-1c_beta2:1.19
+	Interim_Release_1-1c_beta1:1.17
+	PublicRelease_1_1b:1.13
+	Interim_Release_1-1b_RC1:1.13
+	PublicRelease_1_1a:1.13
+	Interim_Release_1-1a_RC2:1.13
+	Interim_Release_1-1a_RC1:1.13
+	Interim_Release_1-1a_beta2:1.13
+	Interim_Release_1-1a_beta1:1.13
+	PublicRelease_1_1:1.13
+	Interim_Release_1-1_beta1:1.13
+	PublicRelease_1o:1.13
+	Interim_Release_1o_RC1:1.13
+	Interim_Release_1o_beta1:1.13
+	PublicRelease_1n:1.13
+	Interim_Release_1n_RC2:1.13
+	Interim_Release_1n_RC1:1.13
+	PublicRelease_1m:1.13
+	Interim_Release_1m_beta1:1.13
+	PublicRelease_1l:1.13
+	Interim_Release_1l_RC3:1.12
+	Interim_Release_1l_RC2:1.12
+	Interim_Release_1l_RC1:1.12
+	Interim_Release_1l_beta2:1.10
+	Interim_Release_1l_beta1:1.10
+	PublicRelease_1k:1.10
+	Interim_Release_1k_RC4:1.10
+	Interim_1k_RC3:1.10
+	Interim_1k_RC2:1.10
+	Interim_Release_1k_RC1:1.10
+	Interim_Release_1k_beta5:1.10
+	Intrerim_Release_1k_beta4:1.10
+	Interim_Release_1k_beta1:1.10
+	PublicRelease_1j:1.9
+	Interim_Release_1J_RC3:1.9
+	Interim_Release_1j_RC3:1.9
+	Interim_Release_1j_RC2:1.8
+	Interim_Release_1j_RC1:1.8
+	Interim_Release_1j_beta2:1.7
+	Interim_Release_1j_beta1:1.4;
+locks; strict;
+comment	@ * @;
+
+
+1.35
+date	2005.04.17.05.16.25;	author kuchin;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2005.04.16.00.04.59;	author kuchin;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2005.04.11.16.32.21;	author kuchin;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2005.04.08.14.16.36;	author kuchin;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2005.04.08.11.09.34;	author kuchin;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2005.04.07.17.24.49;	author kuchin;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2005.04.05.05.48.56;	author kuchin;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.03.22.22.02.09;	author kuchin;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.03.22.15.54.09;	author kuchin;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.03.18.15.36.51;	author kuchin;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.03.13.19.30.16;	author kuchin;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.02.26.17.52.05;	author kuchin;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.02.23.18.57.46;	author kuchin;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2005.02.18.18.31.24;	author kuchin;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2005.02.18.18.03.29;	author kuchin;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2005.02.17.17.41.23;	author kuchin;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.02.05.13.57.11;	author kuchin;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.02.03.15.14.15;	author kuchin;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.01.29.14.55.01;	author kuchin;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2005.01.28.20.13.52;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2005.01.04.13.21.28;	author kuchin;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.12.29.16.04.22;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.06.13.21.56.43;	author eklmn;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.05.23.15.30.34;	author kuchin;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.05.23.14.55.09;	author eklmn;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.02.06.13.55.47;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.01.16.14.50.55;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.01.08.15.17.54;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.01.07.10.54.30;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.01.07.09.17.54;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.01.06.11.13.13;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.23.18.13.43;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.22.16.34.49;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.21.10.29.05;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.35
+log
+@v2 - corrected protocol, tags
+@
+text
+@// EmEngine.h: interface for the CEmEngine class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#pragma once
+
+
+#include "Base/EmEngineBase.h"
+
+class CServer;
+struct CTask;
+struct CEmClient;
+struct CEmClient_Server;
+struct CTcpCompletionTask;
+class COpCode;
+class CTaskProcessor_Main;
+class CTaskProcessor_Files;
+class CTaskProcessor_Logger;
+class CTaskProcessor_DB;
+class CPrefs;
+class CClientList;
+class CTcpEngineMule;
+class CXMLEvents;
+
+enum EnumServerStates
+{
+	SERVER_DISCONNECTED,
+	SERVER_CONNECTING,
+	SERVER_WAITFORLOGIN,
+	SERVER_CONNECTED
+};
+
+// Server TCP flags
+const UINT SRV_TCPFLG_COMPRESSION		= 0x00000001;
+const UINT SRV_TCPFLG_NEWTAGS			= 0x00000008;	//	Server accepts newtags (16.46+)
+const UINT SRV_TCPFLG_UNICODE			= 0x00000010;
+const UINT SRV_TCPFLG_EXT_GETSOURCES	= 0x00000020;	//	Server accepts OP_GETSOURCES containing serveral files, plus <HASH 16><SIZE 4>
+
+// Server UDP flags
+const UINT SRV_UDPFLG_EXT_GETSOURCES	= 0x00000001;	//	Server accepts the UDP AskSource coalescing (several files in one OP_GLOBGETSOURCES)
+const UINT SRV_UDPFLG_EXT_GETFILES		= 0x00000002;
+const UINT SRV_UDPFLG_NEWTAGS			= 0x00000008;	//	Server accepts newtags (16.46+)
+const UINT SRV_UDPFLG_UNICODE			= 0x00000010;
+const UINT SRV_UDPFLG_EXT_GETSOURCES2	= 0x00000020;	//	Server accepts OP_GLOBGETSOURCES2
+
+struct ServerState_Struct
+{
+	SOCKET		hSocket;
+	DWORD		dwAddr;
+	USHORT		uPort;
+	short		nConnState;
+	long		nClientID;
+	DWORD		dwServerFlags;
+
+	bool IsConnecting()
+	{
+		return (nConnState == SERVER_CONNECTING	|| nConnState == SERVER_WAITFORLOGIN);
+	}
+	bool IsConnected()
+	{ 
+		return (nConnState == SERVER_CONNECTED);
+	}
+	bool IsLowID()
+	{ 
+		return (nClientID < 0x1000000); 
+	}
+};
+
+class CEmEngine : public CEmEngineBase
+{
+public:
+	CEmEngine();
+
+	virtual bool Init();
+	virtual void UninitMiddle();
+	virtual void UninitFinal();
+
+	// Public methods
+	void ConnectToServer(CString sAddr = "", ULONG ulPort = 0);
+	void ConnectToAnyServer();
+	void DisconnectFromServer(SOCKET hPrevServer = NULL);
+
+	// Data
+	SOCKET GetServerSocket(){ return m_stServer.hSocket; }
+	long GetClientID(){ return m_stServer.nClientID; }
+	bool IsLocalServer(ULONG nAddr, USHORT uPort);
+
+	// Update Server Info
+	void SetConnectionState(short nConnectionState);
+	void SetClientID(long cID);
+	void ConnectedTo(CEmClient_Server* pClient);
+
+	void SetServerSupportedFeatures(DWORD dwFlags)	{ m_stServer.dwServerFlags = dwFlags; }
+	bool IsServerSupport(DWORD dwFeature)	const	{ return (m_stServer.dwServerFlags & dwFeature); }
+
+	inline void ShutDown()
+	{
+		PostThreadMessage(m_dwThreadId, WM_QUIT, 0, 0);
+	}
+
+	bool SendOpCode(SOCKET hSocket, const COpCode &stOpCode, CEmClient* pClient, EnumQueuePriority ePriority);
+
+	virtual void ProcessSocketsTimeout();
+
+	virtual bool AlertOnErrors() const;
+
+public:
+	__declspec(property(get=_GetFilesProcessor))	CTaskProcessor_Files&	Files;
+	__declspec(property(get=_GetPreferences))		CPrefs&					Prefs;
+	__declspec(property(get=_GetClientList))		CClientList&			ClientList;
+	__declspec(property(get=_GetServerState))		ServerState_Struct&		ServerState;
+	__declspec(property(get=_GetTcpEngineMule))		CTcpEngineMule&			TcpEngineMule;
+	__declspec(property(get=_GetDbProcessor))		CTaskProcessor_DB&		DB;
+	__declspec(property(get=_GetXmlEvents))			CXMLEvents&				XmlEvents;
+
+	CTaskProcessor_Files& 	_GetFilesProcessor()	const { if(!m_pFilesProcessor) throw;	return *m_pFilesProcessor; }
+	CTaskProcessor_DB& 		_GetDbProcessor()		const { if(!m_pDbProcessor) throw;	return *m_pDbProcessor; }
+	CPrefs& 				_GetPreferences()		const { if(!m_pPreferences) throw;		return *m_pPreferences; }
+	CClientList&			_GetClientList()		const { if(!m_pClientList) throw;		return *m_pClientList; }
+	ServerState_Struct&		_GetServerState()		      { return m_stServer; }
+	CTcpEngineMule&			_GetTcpEngineMule()		const { if(!m_pTcpEngineMule) throw;	return *m_pTcpEngineMule; }
+	CXMLEvents&				_GetXmlEvents()			const { if(!m_pXmlEvents) throw;		return *m_pXmlEvents; }
+
+	virtual CTcpEngine*		GetTcpEngine()			const { if(!m_pTcpEngineMule) throw;	return reinterpret_cast<CTcpEngine*>(m_pTcpEngineMule); }
+
+
+private:
+	// Task processors
+	CTaskProcessor_Main*	m_pMainProcessor;
+	CTaskProcessor_Files*	m_pFilesProcessor;
+	CTaskProcessor_Logger*	m_pLoggerProcessor;
+	CTaskProcessor_DB*		m_pDbProcessor;
+
+	CTcpEngineMule*			m_pTcpEngineMule;
+
+	CClientList*			m_pClientList;
+
+	CXMLEvents*				m_pXmlEvents;
+
+	CPrefs*					m_pPreferences;
+
+	// Low-level classes might have want to access our private vars
+	friend class CLoggable;
+	friend class COpCode;
+	friend struct CTask_LogOpcode;
+
+	ServerState_Struct	m_stServer;
+
+	DWORD	m_dwThreadId;
+};
+@
+
+
+1.34
+log
+@v2 - Xml events and other improvements
+@
+text
+@d33 13
+d53 1
+d93 3
+d140 1
+a140 1
+	CPrefs*			m_pPreferences;
+@
+
+
+1.33
+log
+@v2 - logging subsystem
+@
+text
+@d23 1
+d36 2
+a37 2
+	ULONG		nAddr;
+	USHORT		nPort;
+d97 1
+d105 1
+d119 3
+a121 1
+	CClientList*	m_pClientList;
+@
+
+
+1.32
+log
+@v2 - more abstraction + logic
+@
+text
+@d95 1
+d98 1
+a105 4
+#ifdef USE_BERKELEY_DB
+	__declspec(property(get=_GetDbProcessor))		CTaskProcessor_DB&		DB;
+	CTaskProcessor_DB& 		_GetDbProcessor()		const { if(!m_pDbProcessor) throw;	return *m_pDbProcessor; }
+#endif //USE_BERKELEY_DB
+d112 1
+a115 4
+#ifdef USE_BERKELEY_DB
+	CTaskProcessor_DB*		m_pDbProcessor;
+#endif //USE_BERKELEY_DB
+
+@
+
+
+1.31
+log
+@v2 - increased level of abstraction + minor improvements
+@
+text
+@d22 1
+d94 1
+d97 1
+a97 1
+	CPrefs& 				_GetPreferences()		const { if(!m_pPreferences) throw;	return *m_pPreferences; }
+d99 4
+a102 1
+	ServerState_Struct&		_GetServerState()		{ return m_stServer; }
+d115 2
+@
+
+
+1.30
+log
+@v2 - fixes for upload logic
+@
+text
+@d5 2
+a6 2
+#if !defined(AFX_EMENGINE_H__F77B635A_251D_4554_9D96_DACFCA968759__INCLUDED_)
+#define AFX_EMENGINE_H__F77B635A_251D_4554_9D96_DACFCA968759__INCLUDED_
+d8 1
+a8 3
+#if _MSC_VER > 1000
+#pragma once
+#endif // _MSC_VER > 1000
+a16 1
+class CTaskProcessor_Sockets;
+d53 1
+a53 2
+// Upload queue priorities
+enum EnumQueuePriority
+a54 11
+	QUE_IMMEDIATE	= 0,
+	QUE_HIGH		= 1,
+	QUE_NORMAL		= 2,
+	QUE_LOW			= 3
+};
+const UINT QUEUE_SIZE = 4;
+
+class CEmEngine : public CLoggable2
+{
+	HANDLE m_hStop; // termination event
+
+a55 1
+
+a56 1
+	~CEmEngine() { Uninit(); }
+d58 3
+a60 2
+	bool Init();
+	void Uninit();
+a76 5
+	inline bool IsShuttingDown() 
+	{
+		return WAIT_TIMEOUT != WaitForSingleObject(m_hStop, 0); 
+	}
+
+d84 3
+a86 1
+	void ProcessSocketsTimeout();
+a88 1
+	__declspec(property(get=_GetSocketsProcessor))	CTaskProcessor_Sockets&	Sockets;
+a93 1
+	CTaskProcessor_Sockets&	_GetSocketsProcessor()	const { if(!m_pSocketsProcessor)throw;return *m_pSocketsProcessor; }
+a106 1
+	CTaskProcessor_Sockets*	m_pSocketsProcessor;
+a126 2
+
+#endif // !defined(AFX_EMENGINE_H__F77B635A_251D_4554_9D96_DACFCA968759__INCLUDED_)
+@
+
+
+1.29
+log
+@v2 - more upload logic, light configuration (without BerkeleyDb)
+@
+text
+@d56 10
+d103 1
+a103 1
+	bool SendOpCode(SOCKET hSocket, const COpCode &stOpCode, CEmClient* pClient);
+@
+
+
+1.28
+log
+@v2 - enhancing logging subsystem
+@
+text
+@a98 1
+	__declspec(property(get=_GetDbProcessor))		CTaskProcessor_DB&		DB;
+a104 1
+	CTaskProcessor_DB& 		_GetDbProcessor()		const { if(!m_pDbProcessor) throw;	return *m_pDbProcessor; }
+d110 5
+d121 2
+d124 1
+@
+
+
+1.27
+log
+@v2 - more upload logic
+@
+text
+@a11 2
+#include "../Loggable.h"
+
+d56 1
+a56 1
+class CEmEngine : public CLoggable
+@
+
+
+1.26
+log
+@v2 - more upload logic
+@
+text
+@d25 1
+a25 1
+class CPreferences;
+d103 1
+a103 1
+	__declspec(property(get=_GetPreferences))		CPreferences&			Prefs;
+d110 1
+a110 1
+	CPreferences& 			_GetPreferences()		const { if(!m_pPreferences) throw;	return *m_pPreferences; }
+d124 1
+a124 1
+	CPreferences*	m_pPreferences;
+@
+
+
+1.25
+log
+@v2 - little improvements
+@
+text
+@d97 1
+@
+
+
+1.24
+log
+@v2 - upload already works, of course it has very poor implementation, without queues yet, but it works! Also webserver improvements - now you can enter commands through webinterface
+@
+text
+@d26 1
+d103 1
+d106 5
+a110 4
+	CTaskProcessor_Sockets&	_GetSocketsProcessor()	{ if(!m_pSocketsProcessor)throw;return *m_pSocketsProcessor; }
+	CTaskProcessor_DB& 		_GetDbProcessor()		{ if(!m_pDbProcessor) throw;	return *m_pDbProcessor; }
+	CTaskProcessor_Files& 	_GetFilesProcessor()	{ if(!m_pFilesProcessor) throw;	return *m_pFilesProcessor; }
+	CPreferences& 			_GetPreferences()		{ if(!m_pPreferences) throw;	return *m_pPreferences; }
+d121 1
+d123 1
+a123 1
+	CPreferences*			m_pPreferences;
+@
+
+
+1.23
+log
+@v2 - updated protocol, debug features, bugfix for completion task, revert to default struct byte alignment
+@
+text
+@a73 2
+	void SendSharedListToServer();
+
+@
+
+
+1.22
+log
+@v2 - more minor rearrangements
+@
+text
+@d35 1
+a35 1
+struct ServerState
+d42 13
+a76 2
+	bool IsConnecting();
+	bool IsConnected();
+a77 1
+	ServerState* GetConnectedState(){ return &m_stServer; }
+a79 1
+	bool IsLowID();
+d104 1
+d110 1
+d128 1
+a128 1
+	ServerState	m_stServer;
+@
+
+
+1.21
+log
+@v2 - minor rearrangements, fixes for EngineTray compilation
+@
+text
+@a86 8
+	void PushToSocketsTP(CTask *pTask);
+	void PushToLogger(CTask *pTask);
+	void KillClient(CEmClient *pClient);
+	CEmClient* LookupClient(SOCKET hSocket);
+	CEmClient* AllocClient(T_CLIENT_TYPE eType);
+	void AddClientToMap(SOCKET hSocket, CEmClient *pClient);
+	CEmClient* AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE eType, CTcpCompletionTask *pOnCompletionTask);
+	bool AllocSend(SOCKET hSocket, PCVOID pData, DWORD dwLen);
+d91 1
+d96 4
+a99 3
+	CTaskProcessor_DB& 		_GetDbProcessor()	{ if(!m_pDbProcessor) throw;	return *m_pDbProcessor; }
+	CTaskProcessor_Files& 	_GetFilesProcessor(){ if(!m_pFilesProcessor) throw;	return *m_pFilesProcessor; }
+	CPreferences& 			_GetPreferences()	{ if(!m_pPreferences) throw;	return *m_pPreferences; }
+@
+
+
+1.20
+log
+@v2 - shared files
+@
+text
+@a87 1
+	void PushToDB(CTask *pTask);
+d99 7
+a105 7
+	__declspec(property(get=_GetDbProcessor)) CTaskProcessor_DB& DB;
+	__declspec(property(get=_GetFilesProcessor)) CTaskProcessor_Files& Files;
+	__declspec(property(get=_GetPreferences)) CPreferences& Prefs;
+
+	CTaskProcessor_DB& 		_GetDbProcessor()	{ if(!m_pDbProcessor) throw; return *m_pDbProcessor; }
+	CTaskProcessor_Files& 	_GetFilesProcessor(){ if(!m_pFilesProcessor) throw; return *m_pFilesProcessor; }
+	CPreferences& 			_GetPreferences()	{ if(!m_pPreferences) throw; return *m_pPreferences; }
+@
+
+
+1.19
+log
+@Connecting preferences and known/shared files
+@
+text
+@d101 1
+d104 3
+a106 2
+	CTaskProcessor_DB& 	_GetDbProcessor(){ if(!m_pDbProcessor) throw; return *m_pDbProcessor; }
+	CPreferences& 		_GetPreferences(){ if(!m_pPreferences) throw; return *m_pPreferences; }
+@
+
+
+1.18
+log
+@Ideological switch (may be considered as temporary, but for long term) - ATL to MFC
+Actually we don't need them both, but I want to work with our current KnownFile-based classes, which use MFC a lot
+@
+text
+@a4 2
+#define WM_TASK_UI WM_USER + 1000
+
+d22 1
+d25 1
+a47 2
+	HWND m_hWndUI;
+
+d53 1
+a53 1
+	bool Init(HWND hWndUI);
+a56 2
+//	void ParseXmlCommand(CString sXml);
+
+a71 5
+	// Global preferences
+	BYTE* GetUserHash();
+	USHORT GetPort();
+	CString GetUserNick();
+
+a86 8
+/*	inline void PushToUI(CTask* pTask)
+	{
+		if (pTask && !PostMessage(m_hWndUI, WM_TASK_UI, (WPARAM) pTask, 0))
+		{
+			ASSERT(FALSE);
+			delete pTask;
+		}
+	}*/
+a97 1
+	CString	ConfigDirTemp();
+d100 7
+d110 1
+d114 3
+a120 8
+/*	friend struct CTask_Tcp_Err;
+	friend struct CTask_Tcp_Accepted;
+	friend struct CTask_Tcp_Connected;
+	friend struct CTask_Tcp_Web;
+	friend struct CTask_Connect;
+	friend struct CEmClient_Web;
+	friend class CTaskProcessor_Sockets;
+*/
+@
+
+
+1.17
+log
+@Xml and database functionality
+@
+text
+@d115 2
+@
+
+
+1.16
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@a14 3
+#include "Sockets/TaskProcessorSockets.h"
+#include "Database/TaskProcessorDB.h"
+#include "Other/TaskProcessorLogger.h"
+d17 9
+d104 10
+a113 32
+	inline void PushToSocketsTP(CTask *pTask)
+	{
+		m_stSocketsTP.Push(pTask);
+	}
+	inline void PushToDB(CTask *pTask)
+	{
+		m_stDBTP.Push(pTask);
+	}
+	inline void PushToLogger(CTask *pTask)
+	{
+		m_stLoggerTP.Push(pTask);
+	}
+	inline void KillClient(CEmClient *pClient)
+	{
+		m_stSocketsTP.KillClient(pClient);
+	}
+	inline CEmClient* LookupClient(SOCKET hSocket)
+	{
+		return m_stSocketsTP.Lookup(hSocket);
+	}
+	inline CEmClient* AllocClient(T_CLIENT_TYPE eType)
+	{
+		return m_stSocketsTP.AllocClient(eType);
+	}
+	inline void AddClientToMap(SOCKET hSocket, CEmClient *pClient)
+	{
+		m_stSocketsTP.m_mapClients[hSocket] = pClient;
+	}
+	CEmClient *AllocTcpConnect(ULONG nAddr, USHORT nPort, T_CLIENT_TYPE eType, CTcpCompletionTask *pOnCompletionTask)
+	{
+		return m_stSocketsTP.AllocTcpConnect(nAddr, nPort, eType, pOnCompletionTask);
+	}
+d115 1
+a115 14
+	inline bool AllocSend(SOCKET hSocket, PCVOID pData, DWORD dwLen)
+	{
+		return m_stSocketsTP.m_stTcp.AllocSend(hSocket, pData, dwLen);
+	}
+
+	inline bool SendOpCode(SOCKET hSocket, const COpCode &stOpCode, CEmClient* pClient)
+	{
+		if (pClient)
+			m_stLoggerTP.Post(stOpCode, pClient->GetType(), pClient->m_nClientID, TRUE);
+		return m_stSocketsTP.m_stTcp.AllocSend(hSocket, stOpCode);
+	}
+
+
+private:
+d117 4
+a120 4
+	CTaskProcessor_Main		m_stMainTP;
+	CTaskProcessor_Sockets	m_stSocketsTP;
+	CTaskProcessor_Logger	m_stLoggerTP;
+	CTaskProcessor_DB		m_stDBTP;
+@
+
+
+1.15
+log
+@XML connecting, tray app
+@
+text
+@d16 1
+a51 3
+	bool InitializeDatabases();
+	void CloseDatabases();
+
+d85 5
+d102 4
+d108 1
+a108 1
+		m_stLogger.Push(pTask);
+d139 1
+a139 1
+			m_stLogger.Post(stOpCode, pClient->GetType(), pClient->m_nClientID, TRUE);
+a142 4
+	DbEnv	*m_pDbEnv;				// Database environment
+	Db		*m_pDbServers;			// Servers list Db
+	Db		*m_pDbFiles;			// Files DB
+	Db		*m_pDbMD4Parts;			// Parts DB (for standard ed2k with MD4)
+d148 2
+a149 1
+	CTaskProcessor_Logger	m_stLogger;
+d152 1
+d165 2
+@
+
+
+1.14
+log
+@There can be only one engine :-)
+@
+text
+@d55 1
+a55 1
+	void ParseXmlCommand(CString sXml);
+d82 4
+a85 1
+	inline bool IsShuttingDown() { return WAIT_TIMEOUT != WaitForSingleObject(m_hStop, 0); }
+d124 5
+d148 3
+a150 1
+	friend struct CTask_Tcp_Err;
+d157 1
+a157 2
+	friend class COpCode;
+	friend struct CTask_LogOpcode;
+@
+
+
+1.13
+log
+@changed the way of data storage in file classes, add new classes
+@
+text
+@a16 1
+#include "Sockets/TcpEngine.h"
+d104 17
+d125 1
+a125 1
+		return m_stTcp.AllocSend(hSocket, stOpCode);
+a129 4
+	Db		*m_pDbServersAddr;		// Servers list primary index by addr/port/dynIP
+	Db		*m_pDbServersStatic;	// Servers list secondary index by static
+	Db		*m_pDbServersPriority;	// Servers list secondary index by priority
+
+a130 2
+	Db		*m_pDbFilesHash;		// secondary index - file hash
+
+a137 1
+	CTcpEngine				m_stTcp;
+@
+
+
+1.12
+log
+@Fix
+@
+text
+@d121 2
+@
+
+
+1.11
+log
+@basic support of tags save into DB
+@
+text
+@d119 1
+a119 1
+	Db		*m_pDbFileTags;		// primary index - file tags
+@
+
+
+1.10
+log
+@Formatting, comments, and name changes.
+@
+text
+@d118 3
+@
+
+
+1.9
+log
+@*** empty log message ***
+@
+text
+@d58 1
+a58 1
+	void ConnectToServer(CString sAddr, ULONG ulPort);
+@
+
+
+1.8
+log
+@*** empty log message ***
+@
+text
+@d16 1
+d97 4
+d105 1
+a105 1
+	inline bool SendOpCode(SOCKET hSocket, const COpCode &stOpCode)
+d107 2
+d122 1
+d134 1
+@
+
+
+1.7
+log
+@New engine - cosmetic changes
+@
+text
+@a110 3
+protected:
+	CTcpEngine				m_stTcp;
+
+d115 1
+@
+
+
+1.6
+log
+@New engine - cosmetic changes
+@
+text
+@a16 1
+#include "EngineData.h"
+d20 17
+d45 1
+a45 13
+	CTaskProcessor_Main		m_stMainTP;
+	CTaskProcessor_Sockets	m_stSocketsTP;
+	CTcpEngine				m_stTcp;
+	CEngineData				m_stData;
+
+	CEmEngine() :
+		m_hStop(NULL),
+		m_stMainTP(*this),
+		m_stSocketsTP(*this),
+		m_stTcp(*this),
+		m_hWndUI(NULL),
+		m_stData(*this)
+		{}
+d54 1
+a54 1
+	// public methods
+d63 18
+d92 12
+d110 20
+@
+
+
+1.5
+log
+@New engine - even more XML
+@
+text
+@a6 1
+#ifdef NEW_SOCKETS
+a78 1
+#endif@
+
+
+1.4
+log
+@New engine - connecting to server
+@
+text
+@d30 1
+d37 1
+d52 1
+a52 1
+	CString ParseXmlCommand(CString sXml);
+@
+
+
+1.3
+log
+@New engine - XML
+@
+text
+@d50 1
+a50 1
+	void ParseXmlCommand(CString sXml);
+d52 1
+a52 1
+	void ConnectToServer(CServer* pServer = NULL);
+d61 1
+a61 1
+	inline void PushToUI(CTask* pTask)
+d68 1
+a68 1
+	}
+@
+
+
+1.2
+log
+@New engine - name changes
+@
+text
+@d50 2
+@
+
+
+1.1
+log
+@New engine
+@
+text
+@d30 3
+a32 3
+	CTaskProcessor_Main	m_stMain;
+	CTcpEngine			m_stTcp;
+	CEngineData			m_stData;
+d36 1
+a36 1
+		m_stMain(*this),
+@
+

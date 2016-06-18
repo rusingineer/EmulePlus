@@ -1,0 +1,2466 @@
+head	1.65;
+access;
+symbols
+	PublicRelease_1_2e:1.63
+	Interim_Release_1-2e_RC1:1.63
+	PublicRelease_1_2d:1.61
+	Interim_Release_1-2d_RC1:1.61
+	Interim_Release_1-2d_beta1:1.58
+	PublicRelease_1_2c:1.55
+	Interim_Release_1-2c_RC1:1.55
+	Interim_Release_1-2c_beta1:1.54
+	PublicRelease_1_2b:1.54
+	Interim_Release_1-2b_RC1:1.54
+	PublicRelease_1_2a:1.52
+	Interim_Release_1-2a_RC1:1.52
+	Interim_Release_1-2a_beta2:1.52
+	Interim_Release_1-2a_beta1:1.52
+	PublicRelease_1_2:1.51
+	Interim_Release_1-2_RC1:1.51
+	Interim_Release_1-2_beta1:1.51
+	PublicRelease_1_1g:1.50
+	Interim_Release_1-1g_RC3:1.50
+	Interim_Release_1-1g_RC2:1.50
+	Interim_Release_1-1g_RC1:1.50
+	Interim_Release_1-1g_beta2:1.48
+	Interim_Release_1-1g_beta1:1.47
+	PublicRelease_1_1f:1.47
+	Interim_Release_1-1f_RC1:1.47
+	PublicRelease_1_1e:1.45
+	Interim_Release_1-1e_RC2:1.45
+	Interim_Release_1-1e_RC1:1.45
+	Interim_Release_1-1e_beta1:1.43
+	PublicRelease_1_1d:1.41
+	Interim_Release_1-1d_RC1:1.41
+	PublicRelease_1_1c:1.41
+	Interim_Release_1-1c_RC1:1.41
+	Interim_Release_1-1c_beta2:1.41
+	Interim_Release_1-1c_beta1:1.40
+	PublicRelease_1_1b:1.39
+	Interim_Release_1-1b_RC1:1.39
+	PublicRelease_1_1a:1.38
+	Interim_Release_1-1a_RC2:1.38
+	Interim_Release_1-1a_RC1:1.38
+	Interim_Release_1-1a_beta2:1.37
+	Interim_Release_1-1a_beta1:1.37
+	PublicRelease_1_1:1.35
+	Interim_Release_1-1_beta1:1.35
+	PublicRelease_1o:1.34
+	Interim_Release_1o_RC1:1.34
+	Interim_Release_1o_beta1:1.34
+	PublicRelease_1n:1.34
+	Interim_Release_1n_RC2:1.34
+	Interim_Release_1n_RC1:1.34
+	Interim_Release_1n_beta2:1.34
+	Interim_Release_1n_beta1:1.33
+	PublicRelease_1m:1.33
+	Interim_Release_1m_beta1:1.33
+	PublicRelease_1l:1.32
+	Interim_Release_1l_RC3:1.32
+	Interim_Release_1l_RC2:1.32
+	Interim_Release_1l_RC1:1.32
+	Interim_Release_1l_beta2:1.32
+	Interim_Release_1l_beta1:1.30
+	PublicRelease_1k:1.29
+	Interim_Release_1k_RC4:1.29
+	Interim_1k_RC3:1.29
+	Interim_1k_RC2:1.29
+	Interim_Release_1k_RC1:1.29
+	Interim_Release_1k_beta5:1.29
+	Intrerim_Release_1k_beta4:1.29
+	Interim_Release_1k_beta1:1.22
+	PublicRelease_1j:1.21
+	Interim_Release_1J_RC3:1.21
+	Interim_Release_1j_RC3:1.21
+	Interim_Release_1j_RC2:1.21
+	Interim_Release_1j_RC1:1.21
+	Interim_Release_1j_beta2:1.20
+	Interim_Release_1j_beta1:1.20
+	PublicRelease_1i:1.20
+	Interim_Release_1i_RC6:1.20
+	Interim_Release_1i_RC3:1.20
+	Interim_Release_1i_RC2:1.20
+	Interim_Release_1i_RC1:1.20
+	Interim_Release_1i_beta3:1.20
+	Interim_Release_1i_beta2:1.19
+	Interim_Release_1i_beta1:1.16
+	PublicRelease_1h:1.12
+	Interim_Release_1h_rc2:1.12
+	Interim_Release_1h_RC1:1.12
+	Interim_Release_1h_beta2:1.12
+	Interim_Release_1h_beta1_now:1.11
+	Interim_Release_1h_beta1:1.11
+	PublicRelease_1g:1.10
+	Interim_Release_1g_RC6_Final:1.10
+	Interim_Release_1g_RC6:1.10
+	Interim_Release_1g_RC5:1.10
+	Interim_Release_1g_RC4:1.10
+	Interim_Release_1g_RC3:1.10
+	Interim_Release_1g_beta2:1.8
+	Interim_Release_1g_beta1:1.8
+	Interim_Release_1f_RC4:1.8
+	Interim_Release_1f_RC3:1.8
+	Interim_Release_1f_RC2:1.7
+	Interim_Release_1f_RC:1.7
+	Interim_Release_1f_beta2:1.7
+	Interim_Release_1f_beta1:1.7
+	PublicRelease_1e:1.7
+	Interim_Release_1e_RC2:1.7
+	Interim_Release_1e_RC:1.7
+	Interim_Release_1e_beta3:1.7
+	Interim_Release_1e_beta2:1.7
+	Interim_Release_1e_beta2_before_kuchin:1.7
+	Interim_Release_1e_beta1:1.7
+	PublicRelease_1c:1.6
+	featurestest:1.6.0.2
+	Interim_Release_1c_RC:1.6
+	Interim_Release_1c_beta2:1.6
+	Interim_Release_1c_beta1:1.6
+	threaded_downloadqueue:1.5.0.4
+	PublicRelease_1b:1.5
+	Interim_Release_1b_beta2:1.5
+	Interim_Release_1b_beta1:1.5
+	proxydeadlake:1.5.0.2
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.4.0.2
+	Interim_Release_1a_beta1:1.4
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.65
+date	2009.07.30.03.50.48;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2009.05.14.03.10.30;	author aw3;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2008.11.03.05.06.39;	author aw3;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2008.10.28.02.41.52;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2008.04.05.20.22.49;	author eklmn;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2008.04.05.09.49.08;	author eklmn;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2008.03.10.04.09.38;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2007.12.29.05.48.24;	author aw3;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2007.12.03.03.51.19;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2007.10.24.19.09.35;	author fuxie-dk;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2007.07.08.22.31.18;	author kush_eplus;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2007.01.17.07.42.41;	author aw3;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2007.01.11.19.57.04;	author eklmn;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2006.01.06.20.05.54;	author kush_eplus;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.09.09.03.51.52;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2005.07.20.23.26.40;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2005.07.19.04.17.30;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2005.06.11.14.38.37;	author aw3;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2005.06.08.04.54.47;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2005.04.10.00.33.09;	author aw3;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2005.04.02.04.41.58;	author aw3;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2005.02.07.04.58.21;	author aw3;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2005.01.19.21.10.46;	author netwolf1;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.12.16.21.06.23;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.11.24.06.35.31;	author aw3;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.11.06.04.47.39;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.10.26.21.14.09;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.10.18.03.45.27;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.07.22.23.46.03;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.06.19.05.27.54;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.05.19.10.14.24;	author netwolf1;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.05.10.14.51.36;	author katsyonak;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.05.04.06.09.33;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.03.22.02.37.03;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.03.18.15.52.17;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.03.11.05.07.43;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.03.06.19.50.59;	author eklmn;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.03.03.15.21.05;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.02.26.10.03.17;	author dongato;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.02.24.03.41.03;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.01.09.18.50.32;	author dongato;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.10.26.12.02.51;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.10.24.01.21.19;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.10.17.10.29.06;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.10.10.04.12.21;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.10.05.06.22.51;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.03.13.04.36;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.09.23.19.01.33;	author netwolf1;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.08.31.20.48.06;	author dongato;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.08.15.15.07.12;	author forcha;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.19.07.47.47;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.06.09.15.14.37;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.05.20.20.46.27;	author netwolf1;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.28.17.03.40;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.15.12.04.21;	author dongato;	state Exp;
+branches
+	1.6.2.1;
+next	1.5;
+
+1.5
+date	2003.02.28.00.53.24;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.23.19.16.13;	author cax2;	state Exp;
+branches
+	1.4.2.1;
+next	1.3;
+
+1.3
+date	2003.02.20.14.29.01;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.46;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.18;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.09;	author cax2;	state Exp;
+branches;
+next	;
+
+1.4.2.1
+date	2003.02.28.22.44.55;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2003.03.23.06.22.02;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.65
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "updownclient.h"
+#include "Friend.h"
+#include "FriendListCtrl.h"
+#include "TitleMenu.h"
+#include "Details\clientdetails.h"
+#include "ListenSocket.h"
+#include "AddFriend.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CFriendListCtrl, CMuleListCtrl)
+
+CFriendListCtrl::CFriendListCtrl()
+{
+	SetGeneralPurposeFind(true);
+}
+
+CFriendListCtrl::~CFriendListCtrl()
+{
+}
+
+BEGIN_MESSAGE_MAP(CFriendListCtrl, CMuleListCtrl)
+	ON_WM_CONTEXTMENU()
+	ON_NOTIFY_REFLECT(NM_DBLCLK, OnDoubleclick)
+	ON_WM_KEYDOWN()
+	ON_NOTIFY_REFLECT(LVN_COLUMNCLICK, OnLvnColumnClick)
+END_MESSAGE_MAP()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::Init()
+{
+	static const uint16 s_auIconResID[] =
+	{
+		IDI_FRIENDS1,
+		IDI_FRIENDS2,
+		IDI_USERS
+	};
+	static const uint16 s_auColHdr[][2] =
+	{
+		{ LVCFMT_LEFT,  140 },	// FRIENDCOL_USERNAME
+		{ LVCFMT_LEFT,  110 }	// FRIENDCOL_LASTSEEN
+	};
+
+	SetExtendedStyle(LVS_EX_FULLROWSELECT);
+
+	m_imageList.Create(16, 16, g_App.m_iDfltImageListColorFlags | ILC_MASK, ARRSIZE(s_auIconResID), 0);
+	m_imageList.SetBkColor(RGB(255, 255, 255));
+	FillImgLstWith16x16Icons(&m_imageList, s_auIconResID, ARRSIZE(s_auIconResID));
+	SetImageList(&m_imageList, LVSIL_SMALL);
+
+	for (unsigned ui = 0; ui < ARRSIZE(s_auColHdr); ui++)
+		InsertColumn(ui, _T(""), static_cast<int>(s_auColHdr[ui][0]), static_cast<int>(s_auColHdr[ui][1]));
+
+	LoadSettings(CPreferences::TABLE_FRIENDLIST);
+
+	g_App.m_pFriendList->SetWindow(this);
+	g_App.m_pFriendList->ShowFriends();
+
+	SetSortProcedure(SortProc);
+	SortInit(g_App.m_pPrefs->GetColumnSortCode(CPreferences::TABLE_FRIENDLIST));
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::Localize()
+{
+	static const uint16 s_auResTbl[] =
+	{
+		IDS_QL_USERNAME,	// FRIENDCOL_USERNAME
+		IDS_LASTSEEN		// FRIENDCOL_LASTSEEN
+	};
+
+	if (GetSafeHwnd() != NULL)
+	{
+		CHeaderCtrl	*pHeaderCtrl = GetHeaderCtrl();
+		CString		strRes;
+		HDITEM		hdi;
+
+		hdi.mask = HDI_TEXT;
+
+		for (unsigned ui = 0; ui < ARRSIZE(s_auResTbl); ui++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[ui]));
+			hdi.pszText = const_cast<LPTSTR>(strRes.GetString());
+			pHeaderCtrl->SetItem(static_cast<int>(ui), &hdi);
+		}
+	}
+	ShowFriendCount();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::AddFriend(CFriend* toadd)
+{
+	uint32 itemnr = GetItemCount();
+	itemnr = InsertItem(LVIF_TEXT | LVIF_PARAM | LVIF_IMAGE, itemnr, toadd->m_strName.GetBuffer(), 0, 0, 1, (LPARAM)toadd);
+	RefreshFriend(toadd);
+	ShowFriendCount();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::RemoveFriend(CFriend* toremove)
+{
+	LVFINDINFO find;
+	find.flags = LVFI_PARAM;
+	find.lParam = (LPARAM)toremove;
+	sint32 result = FindItem(&find);
+	if (result != ( -1))
+		DeleteItem(result);
+	ShowFriendCount();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::RefreshFriend(CFriend *pFriend)
+{
+	if (!::IsWindow(GetSafeHwnd()))
+		return;
+
+	LVFINDINFO		find;
+
+	find.flags = LVFI_PARAM;
+	find.lParam = reinterpret_cast<LPARAM>(pFriend);
+
+	sint32		iIndex = FindItem(&find);
+
+	if (iIndex < 0)
+		return;
+
+	int		iImageIndex;
+	CString	strTemp;
+
+	if (pFriend->GetLinkedClient() == NULL)
+		iImageIndex = 0;
+#ifdef OLD_SOCKETS_ENABLED
+	else if (pFriend->GetLinkedClient()->m_pRequestSocket && pFriend->GetLinkedClient()->m_pRequestSocket->IsConnected())
+		iImageIndex = 2;
+#endif //OLD_SOCKETS_ENABLED
+	else
+		iImageIndex = 1;
+	SetItem(iIndex, FRIENDCOL_USERNAME, LVIF_TEXT | LVIF_IMAGE, pFriend->m_strName, iImageIndex, 0, 0, 0, 0);
+
+	if (pFriend->GetLastSeen() == 0)
+		GetResString(&strTemp, IDS_NEVER);
+	else
+	{
+		SYSTEMTIME		st;
+
+		CTime(pFriend->GetLastSeen()).GetAsSystemTime(st);
+		strTemp = COleDateTime(st).Format(_T("%c"));
+	}
+	SetItemText(iIndex, FRIENDCOL_LASTSEEN, strTemp);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::OnDoubleclick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NOPRM(pNMHDR);
+	EMULE_TRY
+
+	int		iSelectionMark = GetSelectionMark();
+
+	if ((iSelectionMark != -1) && (GetSelectedCount() > 0))
+	{
+		CFriend *cur_friend = reinterpret_cast<CFriend*>(GetItemData(iSelectionMark));
+		if (g_App.m_pPrefs->GetDetailsOnClick())
+		{
+			if (cur_friend->GetLinkedClient() != NULL)
+			{
+				CClientDetails dialog(IDS_CD_TITLE, cur_friend->GetLinkedClient(), this, 0);
+				dialog.DoModal();
+			}
+		}
+		else
+			PostMessage(WM_COMMAND, MP_MESSAGE);
+	}
+
+	EMULE_CATCH
+	*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::OnContextMenu(CWnd *pWnd, CPoint point)
+{
+//	On right click, we also want to change the current selection like the left click does
+	CPoint	p = point;
+	int		iIdx;
+	NOPRM(pWnd);
+
+	ScreenToClient(&p);
+	if ((iIdx = HitTest(p)) >= 0)
+		SetSelectionMark(iIdx);
+
+	CTitleMenu	menuClient;
+
+	menuClient.CreatePopupMenu();
+	menuClient.AddMenuTitle(GetResString(IDS_FRIENDS));
+
+	int			iSelectionMark = GetSelectionMark();
+	bool		bSelected = ((iSelectionMark != -1) && (GetSelectedCount() > 0));
+	CFriend		*pFriend = NULL;
+
+	if (bSelected)
+	{
+		pFriend = reinterpret_cast<CFriend*>(GetItemData(iSelectionMark));
+		menuClient.AppendMenu( MF_STRING | ((pFriend->GetLinkedClient() != NULL) ? MF_ENABLED : MF_GRAYED),
+			MP_DETAIL, GetStringFromShortcutCode(IDS_SHOWDETAILS, SCUT_SRC_DETAILS, SSP_TAB_PREFIX) );
+	}
+
+	menuClient.AppendMenu(MF_STRING, MP_ADDFRIEND, GetResString(IDS_ADDAFRIEND));
+
+	if (bSelected)
+	{
+		menuClient.AppendMenu(MF_STRING, MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND));
+		menuClient.AppendMenu(MF_STRING, MP_MESSAGE, GetStringFromShortcutCode(IDS_SEND_MSG, SCUT_SRC_MSG, SSP_TAB_PREFIX));
+		menuClient.AppendMenu( MF_STRING | ((pFriend && ((pFriend->GetLinkedClient() == NULL) || pFriend->GetLinkedClient()->GetViewSharedFilesSupport())) ? MF_ENABLED : MF_GRAYED),
+			MP_SHOWLIST, GetStringFromShortcutCode(IDS_VIEWFILES, SCUT_SRC_SHAREDFILES, SSP_TAB_PREFIX) );
+	}
+	menuClient.SetDefaultItem((g_App.m_pPrefs->GetDetailsOnClick()) ? MP_DETAIL : MP_MESSAGE);
+	menuClient.TrackPopupMenuEx(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this, NULL);
+//	Menu objects are destroyed in their destructor
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CFriendListCtrl::OnCommand(WPARAM wParam, LPARAM lParam)
+{
+	int		iSelectionMark = GetSelectionMark();
+	CFriend	*pFriend = NULL;
+	NOPRM(lParam);
+
+	if (iSelectionMark != -1)
+		pFriend = reinterpret_cast<CFriend*>(GetItemData(iSelectionMark));
+	switch (wParam)
+	{
+		case MP_MESSAGE:
+			if (pFriend != NULL)
+			{
+				if (pFriend->GetLinkedClient() != NULL)
+					g_App.m_pMDlg->m_wndChat.StartSession(pFriend->GetLinkedClient());
+				else
+				{
+					CUpDownClient* pChatClient = new CUpDownClient(static_cast<uint16>(pFriend->m_nLastUsedPort), pFriend->m_dwLastUsedIP, 0, 0, NULL, UID_ED2K);
+
+					pChatClient->SetUserName(pFriend->m_strName);
+					if (g_App.m_pClientList->AddClient(pChatClient))
+						g_App.m_pMDlg->m_wndChat.StartSession(pChatClient);
+					else
+						safe_delete(pChatClient);
+				}
+			}
+			break;
+
+		case MP_ADDFRIEND:
+		{
+			CAddFriend dialog2;
+			dialog2.DoModal();
+			break;
+		}
+		case MP_DETAIL:
+			if ((pFriend != NULL) && (pFriend->GetLinkedClient() != NULL))
+			{
+				CClientDetails dialog(IDS_CD_TITLE, pFriend->GetLinkedClient(), this, 0);
+				dialog.DoModal();
+			}
+			break;
+
+		case MP_SHOWLIST:
+			if (pFriend != NULL)
+			{
+				if (pFriend->GetLinkedClient() != NULL)
+					pFriend->GetLinkedClient()->RequestSharedFileList();
+				else
+				{
+					CUpDownClient* pNewClient = new CUpDownClient(static_cast<uint16>(pFriend->m_nLastUsedPort), pFriend->m_dwLastUsedIP, 0, 0, NULL, UID_ED2K);
+
+					pNewClient->SetUserName(pFriend->m_strName);
+					if (g_App.m_pClientList->AddClient(pNewClient))
+						pNewClient->RequestSharedFileList();
+					else
+						safe_delete(pNewClient);
+				}
+			}
+			break;
+
+		case MP_CANCEL:	// delete through pressing <DEL> key
+			if( (pFriend == NULL) || ( g_App.m_pPrefs->IsConfirmFriendDelEnabled() &&
+				( MessageBox(GetResString(IDS_BACKUP_SURE), GetResString(IDS_REMOVEFRIEND),
+				MB_ICONQUESTION | MB_YESNO) != IDYES ) ) )
+			{
+				break;
+			}
+		case MP_REMOVEFRIEND:	// delete through context menu
+			if (pFriend != NULL)
+			{
+				g_App.m_pFriendList->RemoveFriend(pFriend);
+			//	Auto-select next item after deleted one or the previous if it was the last
+				if ( (iSelectionMark < GetItemCount()) ||
+					((--iSelectionMark >= 0) && (iSelectionMark < GetItemCount())) )
+				{
+					SetSelectionMark(iSelectionMark);
+					SetItemState(iSelectionMark, LVIS_SELECTED | LVIS_FOCUSED, LVIS_SELECTED | LVIS_FOCUSED);
+				}
+			}
+			break;
+	}
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags)
+{
+	EMULE_TRY
+	
+	bool bHandled = false;
+
+	if (nChar == VK_INSERT)
+	{
+		CAddFriend dialog2;
+		dialog2.DoModal();
+
+		bHandled = true;
+	}
+
+	if (!bHandled)
+		CMuleListCtrl::OnKeyDown(nChar, nRepCnt, nFlags);
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CFriendListCtrl::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+{
+	CFriend	*pFriend1 = reinterpret_cast<CFriend*>(lParam1);
+	CFriend	*pFriend2 = reinterpret_cast<CFriend*>(lParam2);
+
+	if ((pFriend1 == NULL) || (pFriend2 == NULL))
+		return 0;
+
+	int		iCompare = 0;
+	int		iSortMod = ((lParamSort & MLC_SORTDESC) == 0) ? 1 : -1;
+	int		iSortCol = lParamSort & MLC_COLUMNMASK;
+
+	switch (iSortCol)
+	{
+		case FRIENDCOL_USERNAME:
+			iCompare = _tcsicmp(pFriend1->m_strName, pFriend2->m_strName);
+			break;
+
+		case FRIENDCOL_LASTSEEN:
+			iCompare = CompareUnsigned(pFriend1->GetLastSeen(), pFriend2->GetLastSeen());
+			break;
+	}
+	return iCompare * iSortMod;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::ShowFriendCount()
+{
+	CString		strTitle;
+
+	strTitle.Format(_T("%s (%u)"), GetResString(IDS_FRIENDS), GetItemCount());
+	g_App.m_pMDlg->m_wndChat.SetDlgItemText(IDC_FRIENDS_LBL, strTitle);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CFriendListCtrl::PreTranslateMessage(MSG *pMsg)
+{
+	if ((pMsg->message == WM_KEYDOWN) || (pMsg->message == WM_SYSKEYDOWN))
+	{
+		int		 iMessage	  = 0;
+		POSITION posSelClient = GetFirstSelectedItemPosition();
+
+		if (posSelClient != NULL)
+		{
+			short	nCode = GetCodeFromPressedKeys(pMsg);
+			CFriend	*pFriend = reinterpret_cast<CFriend*>(GetItemData(GetNextSelectedItem(posSelClient)));
+
+			iMessage = GetClientListActionFromShortcutCode(nCode, (pFriend != NULL) ? pFriend->GetLinkedClient() : NULL);
+
+			if (iMessage > 0)
+			{
+				PostMessage(WM_COMMAND, static_cast<WPARAM>(iMessage));
+				return TRUE;
+			}
+		}
+	}
+
+	return CMuleListCtrl::PreTranslateMessage(pMsg);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.64
+log
+@Save sorting directions for all GUI lists; Unified list sort initialization and click processing;
+Simplified list arrow configuration interface.
+@
+text
+@d25 1
+@
+
+
+1.63
+log
+@Speeded up list update by combining several window messages into one request.
+@
+text
+@a36 1
+	memset(&m_bSortAscending, true, sizeof(m_bSortAscending));
+d48 1
+a48 1
+	ON_NOTIFY_REFLECT(LVN_COLUMNCLICK, OnLvnColumnclick)
+d81 2
+a82 14
+	int		iSortCode = g_App.m_pPrefs->GetColumnSortItem(CPreferences::TABLE_FRIENDLIST);
+
+	iSortCode |= g_App.m_pPrefs->GetColumnSortAscending(CPreferences::TABLE_FRIENDLIST) ? MLC_SORTASC : MLC_SORTDESC;
+	SortInit(iSortCode);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CFriendListCtrl::SortInit(int iSortCode)
+{
+	int		iSortColumn = (iSortCode & MLC_COLUMNMASK);			//the sort column
+	bool	bSortAscending = (iSortCode & MLC_SORTDESC) == 0;	//the sort order
+
+	m_bSortAscending[iSortColumn] = bSortAscending;
+	SetSortArrow(iSortColumn, bSortAscending);
+	SortItems(SortProc, iSortCode);
+a340 19
+void CFriendListCtrl::OnLvnColumnclick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	NM_LISTVIEW	*pNMListView = reinterpret_cast<NM_LISTVIEW*>(pNMHDR);
+	int			iSubItem = pNMListView->iSubItem;
+	bool		bSortOrder = m_bSortAscending[iSubItem];
+
+// Reverse sorting direction for the same column and keep the same if column was changed
+	if (static_cast<int>(m_dwParamSort & MLC_COLUMNMASK) == iSubItem)
+		m_bSortAscending[iSubItem] = bSortOrder = !bSortOrder;
+
+	SetSortArrow(iSubItem, bSortOrder);
+	SortItems(SortProc, iSubItem | ((bSortOrder) ? MLC_SORTASC : MLC_SORTDESC));
+
+	g_App.m_pPrefs->SetColumnSortItem(CPreferences::TABLE_FRIENDLIST, iSubItem);
+	g_App.m_pPrefs->SetColumnSortAscending(CPreferences::TABLE_FRIENDLIST, bSortOrder);
+
+	*pResult = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.62
+log
+@Reduced H-file dependency.
+@
+text
+@d155 1
+a155 3
+	SetItemText(iIndex, FRIENDCOL_USERNAME, pFriend->m_strName);
+
+	if (iIndex == -1)
+d169 1
+a169 1
+	SetItem(iIndex, 0, LVIF_IMAGE, 0, iImageIndex, 0, 0, 0, 0);
+@
+
+
+1.61
+log
+@rolled back last changes.
+@
+text
+@a16 2
+//	FriendListCtrl.cpp : implementation file
+//
+d20 1
+@
+
+
+1.60
+log
+@changed the handlig of embedded GUI list header
+@
+text
+@a77 2
+	InitHeader();
+
+d109 1
+d119 1
+a119 1
+			m_pHeaderCtrl->SetItem(static_cast<int>(ui), &hdi);
+@
+
+
+1.59
+log
+@Optimized setting title for client details dialog.
+@
+text
+@d78 2
+a110 1
+		CHeaderCtrl	*pHeaderCtrl = GetHeaderCtrl();
+d120 1
+a120 1
+			pHeaderCtrl->SetItem(static_cast<int>(ui), &hdi);
+@
+
+
+1.58
+log
+@Optimized string shortcut representation.
+@
+text
+@d200 1
+a200 1
+				CClientDetails dialog(GetResString(IDS_CD_TITLE), cur_friend->GetLinkedClient(), this, 0);
+d290 1
+a290 1
+				CClientDetails dialog(GetResString(IDS_CD_TITLE), pFriend->GetLinkedClient(), this, 0);
+@
+
+
+1.57
+log
+@Proper selection cursor in the friend list after friend removal (through menu or DEL); Suppressed compiler warnings.
+@
+text
+@d236 1
+a236 1
+			MP_DETAIL, GetResString(IDS_SHOWDETAILS) + GetStringFromShortcutCode(SCUT_SRC_DETAILS, SSP_TAB_PREFIX) );
+d244 1
+a244 1
+		menuClient.AppendMenu(MF_STRING, MP_MESSAGE, GetResString(IDS_SEND_MSG) + GetStringFromShortcutCode(SCUT_SRC_MSG, SSP_TAB_PREFIX));
+d246 1
+a246 1
+			MP_SHOWLIST, GetResString(IDS_VIEWFILES) + GetStringFromShortcutCode(SCUT_SRC_SHAREDFILES, SSP_TAB_PREFIX) );
+@
+
+
+1.56
+log
+@Suppressed level 4 warnings; Formatting [Aw3].
+@
+text
+@d270 1
+a270 1
+					CUpDownClient* pChatClient = new CUpDownClient(pFriend->m_nLastUsedPort, pFriend->m_dwLastUsedIP, 0, 0, NULL, UID_ED2K);
+a280 5
+		case MP_REMOVEFRIEND:
+			if (pFriend != NULL)
+				g_App.m_pFriendList->RemoveFriend(pFriend);
+			break;
+
+d302 1
+a302 1
+					CUpDownClient* pNewClient = new CUpDownClient(pFriend->m_nLastUsedPort, pFriend->m_dwLastUsedIP, 0, 0, NULL, UID_ED2K);
+d313 2
+a314 2
+		case MP_CANCEL:
+			if( (pFriend != NULL) && ( !g_App.m_pPrefs->IsConfirmFriendDelEnabled() ||
+d316 6
+a321 1
+				MB_ICONQUESTION | MB_YESNO) == IDYES ) ) )
+d324 7
+@
+
+
+1.55
+log
+@fix time disappearing at midnight
+@
+text
+@d70 1
+a70 1
+	m_imageList.Create(16, 16, g_App.m_iDfltImageListColorFlags | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+d72 1
+a72 1
+	FillImgLstWith16x16Icons(&m_imageList, s_auIconResID, ELEMENT_COUNT(s_auIconResID));
+d75 1
+a75 1
+	for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auColHdr); ui++)
+d115 1
+a115 1
+		for (unsigned ui = 0; ui < ELEMENT_COUNT(s_auResTbl); ui++)
+d188 1
+d217 1
+d257 1
+d357 1
+a357 1
+	if ((m_dwParamSort & MLC_COLUMNMASK) == iSubItem)
+@
+
+
+1.54
+log
+@Ranaming and formatting.
+@
+text
+@d181 1
+a181 1
+		strTemp = COleDateTime(st).Format();
+@
+
+
+1.53
+log
+@1) updated source exchange protocol to ver.3
+2) support of HighID clients with IP "x.x.x.0"  (see description in updownclient.h)
+3) removed dublicated ip check for LowID clients in TryToConnect()
+4) fixed a client name change by download start from remote client shared file list.
+5) some formating
+@
+text
+@d267 1
+a267 1
+					CUpDownClient* pChatClient = new CUpDownClient(pFriend->m_nLastUsedPort, pFriend->m_dwLastUsedIP, 0, 0, NULL, CIDT_ED2K);
+d304 1
+a304 1
+					CUpDownClient* pNewClient = new CUpDownClient(pFriend->m_nLastUsedPort, pFriend->m_dwLastUsedIP, 0, 0, NULL, CIDT_ED2K);
+@
+
+
+1.52
+log
+@Reduced H-file dependency.
+@
+text
+@d267 5
+a271 4
+					CUpDownClient* chatclient = new CUpDownClient(pFriend->m_nLastUsedPort, pFriend->m_dwLastUsedIP, 0, 0, 0);
+					chatclient->SetUserName(pFriend->m_strName);
+					if (g_App.m_pClientList->AddClient(chatclient))
+						g_App.m_pMDlg->m_wndChat.StartSession(chatclient);
+d273 1
+a273 1
+						safe_delete(chatclient);
+d304 5
+a308 5
+					CUpDownClient* newclient = new CUpDownClient(pFriend->m_nLastUsedPort, pFriend->m_dwLastUsedIP, 0, 0, 0);
+					newclient->SetUserName(pFriend->m_strName);
+					//eklmn: check if client was inserted in client list
+					if (g_App.m_pClientList->AddClient(newclient))
+						newclient->RequestSharedFileList();
+d310 1
+a310 1
+						safe_delete(newclient);
+@
+
+
+1.51
+log
+@UNICODE preparation (first shot)
+@
+text
+@d22 1
+d24 1
+a24 1
+#include "Friend.h"
+a33 2
+//	CFriendListCtrl
+
+@
+
+
+1.50
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d119 1
+a119 1
+			hdi.pszText = (LPSTR)strRes.GetString();
+@
+
+
+1.49
+log
+@renamed 3 variables
+@
+text
+@d84 1
+a84 1
+	int		iSortCode = g_App.g_pPrefs->GetColumnSortItem(CPreferences::TABLE_FRIENDLIST);
+d86 1
+a86 1
+	iSortCode |= g_App.g_pPrefs->GetColumnSortAscending(CPreferences::TABLE_FRIENDLIST) ? MLC_SORTASC : MLC_SORTDESC;
+d196 1
+a196 1
+		if (g_App.g_pPrefs->GetDetailsOnClick())
+d247 1
+a247 1
+	menuClient.SetDefaultItem((g_App.g_pPrefs->GetDetailsOnClick()) ? MP_DETAIL : MP_MESSAGE);
+d316 1
+a316 1
+			if( (pFriend != NULL) && ( !g_App.g_pPrefs->IsConfirmFriendDelEnabled() ||
+d360 2
+a361 2
+	g_App.g_pPrefs->SetColumnSortItem(CPreferences::TABLE_FRIENDLIST, iSubItem);
+	g_App.g_pPrefs->SetColumnSortAscending(CPreferences::TABLE_FRIENDLIST, bSortOrder);
+@
+
+
+1.48
+log
+@IDS_CW_FRIENDS renamed into IDS_FRIENDS;
+IDS_FRIENDS substitutes IDS_FRIENDLIST.
+@
+text
+@d71 1
+a71 1
+	m_imageList.Create(16, 16, g_eMuleApp.m_iDfltImageListColorFlags | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+d81 2
+a82 2
+	g_eMuleApp.m_pFriendList->SetWindow(this);
+	g_eMuleApp.m_pFriendList->ShowFriends();
+d84 1
+a84 1
+	int		iSortCode = g_eMuleApp.m_pGlobPrefs->GetColumnSortItem(CPreferences::TABLE_FRIENDLIST);
+d86 1
+a86 1
+	iSortCode |= g_eMuleApp.m_pGlobPrefs->GetColumnSortAscending(CPreferences::TABLE_FRIENDLIST) ? MLC_SORTASC : MLC_SORTDESC;
+d196 1
+a196 1
+		if (g_eMuleApp.m_pGlobPrefs->GetDetailsOnClick())
+d247 1
+a247 1
+	menuClient.SetDefaultItem((g_eMuleApp.m_pGlobPrefs->GetDetailsOnClick()) ? MP_DETAIL : MP_MESSAGE);
+d265 1
+a265 1
+					g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(pFriend->GetLinkedClient());
+d270 2
+a271 2
+					if (g_eMuleApp.m_pClientList->AddClient(chatclient))
+						g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(chatclient);
+d280 1
+a280 1
+				g_eMuleApp.m_pFriendList->RemoveFriend(pFriend);
+d307 1
+a307 1
+					if (g_eMuleApp.m_pClientList->AddClient(newclient))
+d316 1
+a316 1
+			if( (pFriend != NULL) && ( !g_eMuleApp.m_pGlobPrefs->IsConfirmFriendDelEnabled() ||
+d320 1
+a320 1
+				g_eMuleApp.m_pFriendList->RemoveFriend(pFriend);
+d360 2
+a361 2
+	g_eMuleApp.m_pGlobPrefs->SetColumnSortItem(CPreferences::TABLE_FRIENDLIST, iSubItem);
+	g_eMuleApp.m_pGlobPrefs->SetColumnSortAscending(CPreferences::TABLE_FRIENDLIST, bSortOrder);
+d396 1
+a396 1
+	g_eMuleApp.m_pdlgEmule->m_wndChat.SetDlgItemText(IDC_FRIENDS_LBL, strTitle);
+@
+
+
+1.47
+log
+@Added Last Seen column for friends list.
+@
+text
+@d225 1
+a225 1
+	menuClient.AddMenuTitle(GetResString(IDS_FRIENDLIST));
+d395 1
+a395 1
+	strTitle.Format(_T("%s (%u)"), GetResString(IDS_CW_FRIENDS), GetItemCount());
+@
+
+
+1.46
+log
+@Save state of Friends list;
+Fixed activation of Friends list context menu by keyboard.
+@
+text
+@d157 1
+a157 1
+	SetItemText(iIndex, 0, pFriend->m_strName);
+d163 1
+d173 7
+d181 4
+a184 1
+	SetItem(iIndex, 0, LVIF_IMAGE, 0, iImageIndex, 0, 0, 0, 0);
+d385 1
+@
+
+
+1.45
+log
+@Unified and regrouped shortcuts.
+@
+text
+@d39 1
+d48 1
+a48 1
+	ON_NOTIFY_REFLECT(NM_RCLICK, OnNMRclick)
+a54 1
+//	CFriendListCtrl message handlers
+d63 5
+a69 4
+	RECT rcWindow;
+	GetWindowRect(&rcWindow);
+
+	InsertColumn(0, _T(""), LVCFMT_LEFT, rcWindow.right - rcWindow.left - 4, 0);
+d76 5
+d83 15
+a97 3
+	m_bSortAscending = true;
+	SetSortArrow(0, true);
+	SortItems(SortProc, 0);
+d102 21
+a122 7
+	CHeaderCtrl	*pHeaderCtrl = GetHeaderCtrl();
+	CString		strRes = GetResString(IDS_QL_USERNAME);
+	HDITEM		hdi;
+
+	hdi.mask = HDI_TEXT;
+	hdi.pszText = (LPSTR)strRes.GetString();
+	pHeaderCtrl->SetItem(0, &hdi);
+d201 1
+a201 1
+void CFriendListCtrl::OnNMRclick(NMHDR *pNMHDR, LRESULT *pResult)
+d203 8
+a211 3
+	POINT		point;
+
+	::GetCursorPos(&point);
+a237 1
+	*pResult = 0;
+d338 14
+a351 4
+	NM_LISTVIEW * pNMListView = (NM_LISTVIEW*)pNMHDR;
+	m_bSortAscending = !m_bSortAscending;
+	SetSortArrow(pNMListView->iSubItem, m_bSortAscending);
+	SortItems(SortProc, pNMListView->iSubItem + ((m_bSortAscending) ? MLC_SORTASC : MLC_SORTDESC));
+d357 2
+a358 2
+	CFriend* item1 = (CFriend*)lParam1;
+	CFriend* item2 = (CFriend*)lParam2;
+d360 1
+a360 1
+	if (item1 == NULL || item2 == NULL)
+d363 5
+a367 1
+	switch (LOWORD(lParamSort))
+d369 6
+a374 6
+		case 0:
+			return _tcsicmp(item1->m_strName, item2->m_strName);
+		case 0+MLC_SORTDESC:
+			return _tcsicmp(item2->m_strName, item1->m_strName);
+		default:
+			return 0;
+d376 1
+@
+
+
+1.44
+log
+@Removed several identical user icons (one is enough).
+@
+text
+@d187 1
+a187 1
+			MP_DETAIL, GetResString(IDS_SHOWDETAILS) + GetStringFromShortcutCode(IndexULDetails, SSP_TAB_PREFIX) );
+d195 1
+a195 1
+		menuClient.AppendMenu(MF_STRING, MP_MESSAGE, GetResString(IDS_SEND_MSG) + GetStringFromShortcutCode(IndexULMessage, SSP_TAB_PREFIX));
+d197 1
+a197 1
+			MP_SHOWLIST, GetResString(IDS_VIEWFILES) + GetStringFromShortcutCode(IndexULFiles, SSP_TAB_PREFIX) );
+@
+
+
+1.43
+log
+@Fixed Send Message action by double-click in friends list
+(when 'Doubleclick on client to display details' is disabled);
+Corrected friends list to display a default action in context menu.
+@
+text
+@d61 1
+a61 1
+		IDI_FRIENDS3
+@
+
+
+1.42
+log
+@Process client shortcuts for friend list too {DopeFish}.
+@
+text
+@d153 1
+a153 1
+		if (g_eMuleApp.m_pGlobPrefs->GetDetailsOnClick() && (cur_friend->GetLinkedClient() != NULL))
+d155 5
+a159 2
+			CClientDetails dialog(GetResString(IDS_CD_TITLE), cur_friend->GetLinkedClient(), this, 0);
+			dialog.DoModal();
+d161 2
+d199 1
+@
+
+
+1.41
+log
+@Several friend class members were moved from public to private section.
+@
+text
+@d182 1
+a182 1
+			MP_DETAIL, GetResString(IDS_SHOWDETAILS) );
+d190 1
+a190 1
+		menuClient.AppendMenu(MF_STRING, MP_MESSAGE, GetResString(IDS_SEND_MSG));
+d192 1
+a192 1
+			MP_SHOWLIST, GetResString(IDS_VIEWFILES) );
+a208 1
+		{
+d224 1
+a224 1
+		}
+a225 1
+		{
+d229 1
+a229 1
+		}
+d243 1
+a244 1
+		{
+d261 1
+a261 1
+		}
+d330 25
+@
+
+
+1.40
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d132 1
+a132 1
+	if (!pFriend->m_pLinkedClient)
+d135 1
+a135 1
+	else if (pFriend->m_pLinkedClient->m_pRequestSocket && pFriend->m_pLinkedClient->m_pRequestSocket->IsConnected())
+d153 1
+a153 1
+		if (g_eMuleApp.m_pGlobPrefs->GetDetailsOnClick() && cur_friend->m_pLinkedClient)
+d155 1
+a155 1
+			CClientDetails dialog(GetResString(IDS_CD_TITLE), cur_friend->m_pLinkedClient, this, 0);
+d181 1
+a181 1
+		menuClient.AppendMenu( MF_STRING | ((pFriend->m_pLinkedClient) ? MF_ENABLED : MF_GRAYED),
+d191 1
+a191 1
+		menuClient.AppendMenu( MF_STRING | ((pFriend && (!pFriend->m_pLinkedClient || pFriend->m_pLinkedClient->GetViewSharedFilesSupport())) ? MF_ENABLED : MF_GRAYED),
+d212 2
+a213 2
+				if (pFriend->m_pLinkedClient)
+					g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(pFriend->m_pLinkedClient);
+d239 1
+a239 1
+			if ((pFriend != NULL) && pFriend->m_pLinkedClient)
+d241 1
+a241 1
+				CClientDetails dialog(GetResString(IDS_CD_TITLE), pFriend->m_pLinkedClient, this, 0);
+d249 2
+a250 2
+				if (pFriend->m_pLinkedClient)
+					pFriend->m_pLinkedClient->RequestSharedFileList();
+@
+
+
+1.39
+log
+@Simplified way to display list labels with count.
+@
+text
+@d70 1
+a70 1
+	m_imageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, ELEMENT_COUNT(s_auIconResID), 0);
+@
+
+
+1.38
+log
+@Added list search for the friends list; Formatting.
+@
+text
+@d91 1
+a91 2
+	if (GetItemCount() != 0)
+		ShowFriendCount();
+@
+
+
+1.37
+log
+@Inform a remote client when 'See my share = No one' to save traffic (original).
+@
+text
+@d36 1
+d39 1
+d203 1
+a203 1
+	CFriend	*cur_friend = NULL;
+d206 1
+a206 1
+		cur_friend = reinterpret_cast<CFriend*>(GetItemData(iSelectionMark));
+d211 1
+a211 1
+			if (cur_friend)
+d213 2
+a214 2
+				if (cur_friend->m_pLinkedClient)
+					g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(cur_friend->m_pLinkedClient);
+d217 2
+a218 2
+					CUpDownClient* chatclient = new CUpDownClient(cur_friend->m_nLastUsedPort, cur_friend->m_dwLastUsedIP, 0, 0, 0);
+					chatclient->SetUserName(cur_friend->m_strName);
+d229 2
+a230 2
+			if (cur_friend)
+				g_eMuleApp.m_pFriendList->RemoveFriend(cur_friend);
+d237 1
+a238 1
+		break;
+d240 6
+a245 6
+		if (cur_friend && cur_friend->m_pLinkedClient)
+		{
+			CClientDetails dialog(GetResString(IDS_CD_TITLE), cur_friend->m_pLinkedClient, this, 0);
+			dialog.DoModal();
+		}
+		break;
+d248 1
+a248 1
+			if (cur_friend)
+d250 2
+a251 2
+				if (cur_friend->m_pLinkedClient)
+					cur_friend->m_pLinkedClient->RequestSharedFileList();
+d254 2
+a255 2
+					CUpDownClient* newclient = new CUpDownClient(cur_friend->m_nLastUsedPort, cur_friend->m_dwLastUsedIP, 0, 0, 0);
+					newclient->SetUserName(cur_friend->m_strName);
+d265 8
+d283 1
+a283 17
+	if (nChar == VK_DELETE)
+	{
+		int		iSelectionMark = GetSelectionMark();
+		CFriend	*pFriend = NULL;
+
+		if (iSelectionMark != -1)
+			pFriend = reinterpret_cast<CFriend*>(GetItemData(iSelectionMark));
+
+		if( (pFriend != NULL) && ( !g_eMuleApp.m_pGlobPrefs->IsConfirmFriendDelEnabled() ||
+			( MessageBox(GetResString(IDS_BACKUP_SURE), GetResString(IDS_REMOVEFRIEND),
+			MB_ICONQUESTION | MB_YESNO) == IDYES ) ) )
+		{
+			g_eMuleApp.m_pFriendList->RemoveFriend(pFriend);
+		}
+		bHandled = true;
+	}
+	else if (nChar == VK_INSERT)
+d292 1
+a292 1
+		CListCtrl::OnKeyDown(nChar, nRepCnt, nFlags);
+@
+
+
+1.36
+log
+@Faster image lists icon loading; reduced memory usage.
+@
+text
+@d175 1
+d179 2
+a180 3
+		CFriend		*cur_friend = reinterpret_cast<CFriend*>(GetItemData(iSelectionMark));
+
+		menuClient.AppendMenu( MF_STRING | ((cur_friend->m_pLinkedClient) ? MF_ENABLED : MF_GRAYED),
+d190 2
+a191 1
+		menuClient.AppendMenu(MF_STRING, MP_SHOWLIST, GetResString(IDS_VIEWFILES));
+@
+
+
+1.35
+log
+@Number of friends in the list (adopted from koizo).
+@
+text
+@d68 1
+a68 1
+	m_imageList.Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 10);
+@
+
+
+1.34
+log
+@Unified list column creature;
+Set list column labels only in one place to avoid future incorrections.
+@
+text
+@d24 1
+a24 1
+#include ".\\Details\\ClientDetails.h"
+d89 2
+d98 1
+d109 1
+d129 1
+a129 1
+	byte		iImageIndex;
+d329 9
+a337 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////@
+
+
+1.33
+log
+@Faster list header localizations.
+@
+text
+@d23 1
+a23 1
+#include "friend.h"
+d25 1
+a25 1
+#include "Addfriend.h"
+d65 3
+a67 1
+	InsertColumn(0, GetResString(IDS_QL_USERNAME), LVCFMT_LEFT, rcWindow.right - rcWindow.left - 4, 0);
+d72 1
+@
+
+
+1.32
+log
+@minor changes, fixes and improvements
+@
+text
+@d84 1
+a84 1
+	hdi.pszText = strRes.GetBuffer();
+a85 1
+	strRes.ReleaseBuffer();
+@
+
+
+1.31
+log
+@Ability to sort Friends list
+@
+text
+@d231 1
+a231 1
+		if (cur_friend->m_pLinkedClient)
+@
+
+
+1.30
+log
+@Improve image list filling.
+@
+text
+@d35 1
+a35 1
+IMPLEMENT_DYNAMIC(CFriendListCtrl, CListCtrl)
+d44 2
+a45 2
+BEGIN_MESSAGE_MAP(CFriendListCtrl, CListCtrl)
+	ON_NOTIFY_REFLECT (NM_RCLICK, OnNMRclick)
+d48 1
+d65 1
+a65 2
+	InsertColumn( 0, GetResString(IDS_QL_USERNAME), LVCFMT_LEFT,
+	              rcWindow.right - rcWindow.left - 20, 0 );
+d72 3
+d296 28
+@
+
+
+1.29
+log
+@Improved string processing
+@
+text
+@d54 7
+d68 1
+a68 4
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS1), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS2), 16, 16));
+	m_imageList.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS3), 16, 16));
+	LoadImgLstIcon(NULL, 0, 0);	// delete temp-icon
+@
+
+
+1.28
+log
+@Improved string processing
+@
+text
+@d72 4
+a75 2
+	CHeaderCtrl * pHeaderCtrl = GetHeaderCtrl();
+	HDITEM hdi;
+a76 3
+	CString strRes;
+
+	strRes = GetResString(IDS_QL_USERNAME);
+@
+
+
+1.27
+log
+@Added optional confirmations for disconnect and friend deletion
+@
+text
+@a110 1
+	CString		strTemp;
+d112 1
+a112 2
+	strTemp.Format(_T("%s"), pFriend->m_strName);
+	SetItemText(iIndex, 0, static_cast<LPCTSTR>(strTemp));
+@
+
+
+1.26
+log
+@replaced "TrackPopupMenu" to "TrackPopupMenuEx"
+@
+text
+@d270 6
+a275 5
+		if (pFriend)
+			if( MessageBox(GetResString(IDS_BACKUP_SURE), GetResString(IDS_REMOVEFRIEND),
+				MB_ICONQUESTION|MB_YESNO) == IDYES )
+				g_eMuleApp.m_pFriendList->RemoveFriend(pFriend);
+
+@
+
+
+1.25
+log
+@SetMenu shouldn't be called for popup menu (removed); general improvements;
+Fixed homeless MessageBox (should be assigned to the window to make it modal).
+@
+text
+@d182 1
+a182 1
+	menuClient.TrackPopupMenu(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this);
+@
+
+
+1.24
+log
+@Fixed localization issues, removed old non-used code
+@
+text
+@d137 3
+a139 1
+	if (GetSelectionMark() != ( -1) && GetSelectedCount() > 0)
+d141 1
+a141 1
+		CFriend * cur_friend = (CFriend*)GetItemData(GetSelectionMark());
+d163 2
+a164 1
+	bool		bSelected = ((GetSelectionMark() != -1) && (GetSelectedCount() > 0));
+d168 1
+a168 1
+		CFriend		*cur_friend = (CFriend*)GetItemData(GetSelectionMark());
+a181 1
+	SetMenu(&menuClient);
+d189 2
+a190 1
+	CFriend * cur_friend = NULL;
+d192 2
+a193 2
+	if (GetSelectionMark() != ( -1))
+		cur_friend = (CFriend*)GetItemData(GetSelectionMark());
+a260 4
+	CFriend *pFriend = NULL;
+
+	if (GetSelectionMark() != (-1))
+		pFriend = (CFriend*)GetItemData(GetSelectionMark());
+d264 6
+d271 1
+a271 1
+			if( ::MessageBox(NULL, GetResString(IDS_BACKUP_SURE), GetResString(IDS_REMOVEFRIEND),
+@
+
+
+1.23
+log
+@Improved context menu creation
+@
+text
+@d58 1
+a58 1
+	              rcWindow.right - rcWindow.left - 4, 0 );
+@
+
+
+1.22
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d153 3
+a155 1
+	POINT point;
+a156 1
+	CFriend* cur_friend = NULL;
+d158 4
+a161 4
+	if (m_menuClient)
+		m_menuClient.DestroyMenu();
+	m_menuClient.CreatePopupMenu();
+	m_menuClient.AddMenuTitle(GetResString(IDS_FRIENDLIST));
+d163 1
+a163 1
+	if (GetSelectionMark() != ( -1) && GetSelectedCount() > 0)
+d165 1
+a165 1
+		cur_friend = (CFriend*)GetItemData(GetSelectionMark());
+d167 2
+a168 2
+		m_menuClient.AppendMenu(MF_STRING, MP_DETAIL, GetResString(IDS_SHOWDETAILS));
+		m_menuClient.EnableMenuItem(MP_DETAIL, ((cur_friend->m_pLinkedClient) ? MF_ENABLED : MF_GRAYED));
+d171 1
+a171 1
+	m_menuClient.AppendMenu(MF_STRING, MP_ADDFRIEND, GetResString(IDS_ADDAFRIEND));
+d173 1
+a173 1
+	if (GetSelectionMark() != ( -1) && GetSelectedCount() > 0)
+d175 3
+a177 4
+
+		m_menuClient.AppendMenu(MF_STRING, MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND));
+		m_menuClient.AppendMenu(MF_STRING, MP_MESSAGE, GetResString(IDS_SEND_MSG));
+		m_menuClient.AppendMenu(MF_STRING, MP_SHOWLIST, GetResString(IDS_VIEWFILES));
+d179 2
+a180 2
+	SetMenu(&m_menuClient);
+	m_menuClient.TrackPopupMenu(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this);
+d182 1
+a182 1
+	m_menuClient.DestroyMenu();
+@
+
+
+1.21
+log
+@Added DEL and INS keys for Friends list easy operation
+@
+text
+@d119 1
+a119 1
+	uint8		iImageIndex;
+@
+
+
+1.20
+log
+@stability improvements, i.e. delete a client (sorce) if addition to the client list was failed.
+@
+text
+@d47 1
+d50 1
+a51 1
+
+d69 1
+a69 1
+
+d82 1
+a82 1
+
+d89 1
+a89 1
+
+d150 1
+a150 1
+
+d184 1
+a184 1
+
+d252 34
+@
+
+
+1.19
+log
+@Formatting, comments, and name changes.
+@
+text
+@d202 4
+a205 2
+					g_eMuleApp.m_pClientList->AddClient(chatclient);
+					g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(chatclient);
+d239 5
+a243 2
+					g_eMuleApp.m_pClientList->AddClient(newclient);
+					newclient->RequestSharedFileList();
+@
+
+
+1.18
+log
+@no message
+@
+text
+@d58 5
+a62 5
+	imagelist.Create(16, 16, ILC_COLOR32 | ILC_MASK, 0, 10);
+	imagelist.SetBkColor(RGB(255, 255, 255));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS1), 16, 16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS2), 16, 16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS3), 16, 16));
+d64 1
+a64 1
+	SetImageList(&imagelist, LVSIL_SMALL);
+d245 1
+a245 1
+}@
+
+
+1.17
+log
+@Removed old details code, added more keyboard shortcuts (now with only Ctrl instead of all three keys)
+@
+text
+@d17 1
+a17 1
+// FriendListCtrl.cpp : implementation file
+d29 1
+a29 1
+static char THIS_FILE[]=__FILE__;
+d33 1
+a33 1
+// CFriendListCtrl
+d49 1
+a49 1
+// CFriendListCtrl message handlers
+d51 2
+a52 1
+void CFriendListCtrl::Init(){
+d56 9
+a64 9
+	InsertColumn(0, GetResString(IDS_QL_USERNAME), LVCFMT_LEFT,
+		rcWindow.right - rcWindow.left - 4, 0);
+	imagelist.Create(16,16,ILC_COLOR32|ILC_MASK,0,10);
+	imagelist.SetBkColor(RGB(255,255,255));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS1),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS2),16,16));
+	imagelist.Add(LoadImgLstIcon(MAKEINTRESOURCE(IDI_FRIENDS3),16,16));
+	LoadImgLstIcon(NULL,0,0);	// delete temp-icon
+	SetImageList(&imagelist,LVSIL_SMALL);
+d69 3
+a71 2
+void CFriendListCtrl::Localize() {
+	CHeaderCtrl* pHeaderCtrl = GetHeaderCtrl();
+d75 1
+a75 1
+	
+d82 2
+a83 1
+void CFriendListCtrl::AddFriend(CFriend* toadd){
+d85 1
+a85 1
+	itemnr = InsertItem(LVIF_TEXT|LVIF_PARAM|LVIF_IMAGE,itemnr,toadd->m_strName.GetBuffer(),0,0,1,(LPARAM)toadd);
+d89 2
+a90 1
+void CFriendListCtrl::RemoveFriend(CFriend* toremove){
+d95 1
+a95 1
+	if (result != (-1) )
+d98 7
+a105 4
+void CFriendListCtrl::RefreshFriend(CFriend* toupdate){
+	if (!::IsWindow(m_hWnd))
+		return;
+	LVFINDINFO find;
+d107 9
+a115 6
+	find.lParam = (LPARAM)toupdate;
+	sint32 itemnr = FindItem(&find);
+	CString temp;
+	temp.Format( _T("%s"), toupdate->m_strName );
+	SetItemText(itemnr,0,(LPCTSTR)temp);
+	if (itemnr == (-1))
+d117 5
+a121 3
+	uint8 image;
+	if (!toupdate->m_LinkedClient)
+		image = 0;
+d123 2
+a124 2
+	else if (toupdate->m_LinkedClient->socket && toupdate->m_LinkedClient->socket->IsConnected())
+		image = 2;
+d127 3
+a129 2
+		image = 1;
+	SetItem(itemnr,0,LVIF_IMAGE,0,image,0,0,0,0);
+d131 1
+a131 1
+
+d136 1
+a136 1
+	if (GetSelectionMark() != (-1) && GetSelectedCount()>0)  
+d138 2
+a139 2
+		CFriend* cur_friend = (CFriend*)GetItemData(GetSelectionMark());
+		if (g_eMuleApp.m_pGlobPrefs->GetDetailsOnClick() && cur_friend->m_LinkedClient)
+d141 1
+a141 1
+			CClientDetails dialog(GetResString(IDS_CD_TITLE), cur_friend->m_LinkedClient, this, 0);
+d143 1
+a143 1
+		} 
+d145 1
+a145 1
+	
+d150 2
+a151 1
+void CFriendListCtrl::OnNMRclick(NMHDR *pNMHDR, LRESULT *pResult){	
+d153 2
+a154 2
+	::GetCursorPos(&point);	
+	CFriend* cur_friend=NULL;
+d156 2
+a157 1
+	if (m_menuClient) m_menuClient.DestroyMenu();
+d161 1
+a161 1
+	if (GetSelectionMark() != (-1) && GetSelectedCount()>0)
+d165 2
+a166 2
+		m_menuClient.AppendMenu(MF_STRING,MP_DETAIL, GetResString(IDS_SHOWDETAILS));
+		m_menuClient.EnableMenuItem(MP_DETAIL,((cur_friend->m_LinkedClient) ? MF_ENABLED:MF_GRAYED));
+d169 1
+a169 1
+	m_menuClient.AppendMenu(MF_STRING,MP_ADDFRIEND, GetResString(IDS_ADDAFRIEND));
+d171 1
+a171 1
+	if (GetSelectionMark() != (-1) && GetSelectedCount()>0)
+d174 3
+a176 3
+		m_menuClient.AppendMenu(MF_STRING,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND));
+		m_menuClient.AppendMenu(MF_STRING,MP_MESSAGE, GetResString(IDS_SEND_MSG));
+		m_menuClient.AppendMenu(MF_STRING,MP_SHOWLIST, GetResString(IDS_VIEWFILES));
+d179 1
+a179 1
+	m_menuClient.TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this);
+d184 3
+a186 2
+BOOL CFriendListCtrl::OnCommand(WPARAM wParam,LPARAM lParam ){
+	CFriend* cur_friend = NULL;
+d188 13
+a200 8
+	if (GetSelectionMark() != (-1)) cur_friend = (CFriend*)GetItemData(GetSelectionMark());
+		switch (wParam){
+			case MP_MESSAGE:{
+			if (cur_friend){
+				if (cur_friend->m_LinkedClient)
+					g_eMuleApp.m_pdlgEmule->m_wndChat.StartSession(cur_friend->m_LinkedClient);
+				else{
+					CUpDownClient* chatclient = new CUpDownClient(cur_friend->m_nLastUsedPort,cur_friend->m_dwLastUsedIP,0,0,0);
+d206 4
+a209 3
+				break;
+			}
+			case MP_REMOVEFRIEND:{
+d212 22
+a233 9
+				break;
+			}
+			case MP_ADDFRIEND:{
+				CAddFriend dialog2; 
+				dialog2.DoModal();
+				}
+				break;
+			case MP_DETAIL:
+				if (cur_friend->m_LinkedClient)
+d235 1
+a235 11
+					CClientDetails dialog(GetResString(IDS_CD_TITLE), cur_friend->m_LinkedClient, this, 0);
+					dialog.DoModal();
+				}
+				break;
+			case MP_SHOWLIST:
+			{
+			if (cur_friend){
+				if (cur_friend->m_LinkedClient)
+					cur_friend->m_LinkedClient->RequestSharedFileList();
+				else{
+					CUpDownClient* newclient = new CUpDownClient(cur_friend->m_nLastUsedPort,cur_friend->m_dwLastUsedIP,0,0,0);
+d241 2
+a242 2
+				break;
+			}
+@
+
+
+1.16
+log
+@Localization update
+@
+text
+@a23 1
+#ifdef _USE_NEW_DETAILS_
+a24 3
+#else
+#include "ClientDetailDialog.h"
+#endif
+d128 1
+a128 5
+			#if _USE_NEW_DETAILS_
+				CClientDetails dialog(GetResString(IDS_CD_TITLE), cur_friend->m_LinkedClient, this, 0);
+			#else
+				CClientDetailDialog dialog(cur_friend->m_LinkedClient);
+			#endif
+a199 1
+				#if _USE_NEW_DETAILS_
+a200 3
+				#else
+					CClientDetailDialog dialog(cur_friend->m_LinkedClient);
+				#endif
+@
+
+
+1.15
+log
+@Formatting, comments, and name changes.
+@
+text
+@d133 1
+a133 1
+				CClientDetails dialog("Client Details", cur_friend->m_LinkedClient, this, 0);
+d209 1
+a209 1
+					CClientDetails dialog("Client Details", cur_friend->m_LinkedClient, this, 0);
+@
+
+
+1.14
+log
+@cleanup (friendslot)
+@
+text
+@d150 3
+a152 3
+	if (m_ClientMenu) m_ClientMenu.DestroyMenu();
+	m_ClientMenu.CreatePopupMenu();
+	m_ClientMenu.AddMenuTitle(GetResString(IDS_FRIENDLIST));
+d158 2
+a159 2
+		m_ClientMenu.AppendMenu(MF_STRING,MP_DETAIL, GetResString(IDS_SHOWDETAILS));
+		m_ClientMenu.EnableMenuItem(MP_DETAIL,((cur_friend->m_LinkedClient) ? MF_ENABLED:MF_GRAYED));
+d162 1
+a162 1
+	m_ClientMenu.AppendMenu(MF_STRING,MP_ADDFRIEND, GetResString(IDS_ADDAFRIEND));
+d167 3
+a169 3
+		m_ClientMenu.AppendMenu(MF_STRING,MP_REMOVEFRIEND, GetResString(IDS_REMOVEFRIEND));
+		m_ClientMenu.AppendMenu(MF_STRING,MP_MESSAGE, GetResString(IDS_SEND_MSG));
+		m_ClientMenu.AppendMenu(MF_STRING,MP_SHOWLIST, GetResString(IDS_VIEWFILES));
+d171 2
+a172 2
+	SetMenu(&m_ClientMenu);
+	m_ClientMenu.TrackPopupMenu(TPM_LEFTALIGN |TPM_RIGHTBUTTON, point.x, point.y, this);
+d174 1
+a174 1
+	m_ClientMenu.DestroyMenu();
+@
+
+
+1.13
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@a169 7
+/*		m_ClientMenu.AppendMenu(MF_STRING,MP_FRIENDSLOT, GetResString(IDS_FRIENDSLOT));
+		if (cur_friend->m_LinkedClient){
+			m_ClientMenu.EnableMenuItem(MP_FRIENDSLOT,MF_ENABLED);
+			m_ClientMenu.CheckMenuItem(MP_FRIENDSLOT, ((cur_friend->m_LinkedClient->GetFriendSlot())?MF_CHECKED : MF_UNCHECKED) );  
+		}
+		else
+			m_ClientMenu.EnableMenuItem(MP_FRIENDSLOT,MF_GRAYED); */
+a229 11
+/*			case MP_FRIENDSLOT:
+			{
+				if (cur_friend->m_LinkedClient){
+					bool IsAlready;
+					IsAlready = cur_friend->m_LinkedClient->GetFriendSlot();
+					g_eMuleApp.m_pFriendList->RemoveAllFriendSlots();
+					if( !IsAlready )
+						cur_friend->m_LinkedClient->SetFriendSlot(true);
+				}
+				break;
+			} */
+@
+
+
+1.12
+log
+@Fixed problem with exchanged sources names.
+@
+text
+@d68 2
+a69 2
+	theApp.friendlist->SetWindow(this);
+	theApp.friendlist->ShowFriends();
+d130 1
+a130 1
+		if (theApp.glob_prefs->GetDetailsOnClick() && cur_friend->m_LinkedClient)
+d192 1
+a192 1
+					theApp.emuledlg->chatwnd.StartSession(cur_friend->m_LinkedClient);
+d196 2
+a197 2
+					theApp.clientlist->AddClient(chatclient);
+					theApp.emuledlg->chatwnd.StartSession(chatclient);
+d204 1
+a204 1
+				theApp.friendlist->RemoveFriend(cur_friend);
+d231 1
+a231 1
+					theApp.clientlist->AddClient(newclient);
+d242 1
+a242 1
+					theApp.friendlist->RemoveAllFriendSlots();
+@
+
+
+1.11
+log
+@*** empty log message ***
+@
+text
+@d195 1
+a195 1
+					chatclient->SetUserName(cur_friend->m_strName.GetBuffer());
+d230 1
+a230 1
+					newclient->SetUserName(cur_friend->m_strName.GetBuffer());
+@
+
+
+1.10
+log
+@unicode cleanup
+@
+text
+@d24 3
+d28 1
+d132 5
+a136 1
+			CClientDetailDialog dialog(cur_friend->m_LinkedClient);
+d213 5
+a217 1
+				if (cur_friend->m_LinkedClient){
+d219 1
+@
+
+
+1.9
+log
+@Preparing for new sockets
+@
+text
+@d103 1
+a103 1
+	temp.Format( "%s", toupdate->m_strName );
+@
+
+
+1.8
+log
+@minor fixes and improvements
+@
+text
+@d110 1
+d113 1
+@
+
+
+1.7
+log
+@fix crash at exit
+@
+text
+@d138 1
+a138 1
+	CFriend* cur_friend;
+d175 1
+a175 1
+	CFriend* cur_friend;
+d180 1
+d189 1
+d193 1
+d210 1
+d219 1
+@
+
+
+1.6
+log
+@Removed option for Establishing Friend Slot (not good for zz system) and changed the way of setting Auto priorities again (THX netwolf!)
+@
+text
+@d96 2
+@
+
+
+1.6.2.1
+log
+@27a partial merge
+@
+text
+@d159 1
+a159 1
+		if (cur_friend->m_LinkedClient && !cur_friend->m_LinkedClient->HasLowID()){
+@
+
+
+1.5
+log
+@Messages friend details working & solved context menu problems (Damn! we need a redesign of that). Now version 1b beta 1.
+@
+text
+@d158 1
+a158 1
+		m_ClientMenu.AppendMenu(MF_STRING,MP_FRIENDSLOT, GetResString(IDS_FRIENDSLOT));
+d164 1
+a164 1
+			m_ClientMenu.EnableMenuItem(MP_FRIENDSLOT,MF_GRAYED);
+d215 1
+a215 1
+			case MP_FRIENDSLOT:
+d225 1
+a225 1
+			}
+@
+
+
+1.4
+log
+@control panel limits, optimizations, bugfixes
+@
+text
+@d119 1
+a119 1
+	if (GetSelectionMark() != (-1))
+d121 2
+a122 2
+		CUpDownClient* client = (CUpDownClient*)GetItemData(GetSelectionMark());
+		if (theApp.glob_prefs->GetDetailsOnClick())
+d124 1
+a124 1
+			CClientDetailDialog dialog(client);
+d142 2
+a143 1
+	if (GetSelectionMark() != (-1)){
+d152 2
+a153 1
+	if (GetSelectionMark() != (-1)){
+@
+
+
+1.4.2.1
+log
+@v1a upgrade
+@
+text
+@d119 1
+a119 1
+	if (GetSelectionMark() != (-1) && GetSelectedCount()>0)  
+d121 2
+a122 2
+		CFriend* cur_friend = (CFriend*)GetItemData(GetSelectionMark());
+		if (theApp.glob_prefs->GetDetailsOnClick() && cur_friend->m_LinkedClient)
+d124 1
+a124 1
+			CClientDetailDialog dialog(cur_friend->m_LinkedClient);
+d142 1
+a142 2
+	if (GetSelectionMark() != (-1) && GetSelectedCount()>0)
+	{
+d151 1
+a151 2
+	if (GetSelectionMark() != (-1) && GetSelectedCount()>0)
+	{
+@
+
+
+1.3
+log
+@Code clean up and double check wit official code.
+@
+text
+@d46 1
+d113 18
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a32 3
+
+
+
+a43 1
+
+a46 2
+
+
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d26 10
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

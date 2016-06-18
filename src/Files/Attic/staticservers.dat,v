@@ -1,0 +1,145 @@
+head	1.4;
+access;
+symbols
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.2
+	Interim_Release_1h_RC1:1.2
+	Interim_Release_1h_beta2:1.2
+	Interim_Release_1h_beta1_now:1.2
+	Interim_Release_1h_beta1:1.2
+	PublicRelease_1g:1.2
+	Interim_Release_1g_RC6_Final:1.2
+	Interim_Release_1g_RC6:1.2
+	Interim_Release_1g_RC5:1.2
+	Interim_Release_1g_RC4:1.2
+	Interim_Release_1g_RC3:1.2
+	Interim_Release_1g_beta2:1.2
+	Interim_Release_1g_beta1:1.2
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.4
+	Interim_Release_1c_RC:1.2
+	Interim_Release_1c_beta2:1.2
+	Interim_Release_1c_beta1:1.2
+	threaded_downloadqueue:1.2.0.2
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.4
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.2
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1;
+locks; strict;
+comment	@# @;
+expand	@b@;
+
+
+1.4
+date	2003.09.24.07.09.08;	author dongato;	state dead;
+branches;
+next	1.3;
+
+1.3
+date	2003.09.17.00.05.49;	author syrus77;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.13.11.29.42;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.17.19.17.32;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.4
+log
+@Reorganization
+@
+text
+@############################################
+# Static Servers File 
+# input only one server per line 
+# 
+# Formats:
+# ServerIP/Hostname:Port,Priority,ServerName 
+#
+# Priorities: 
+# 2 = High, 1 = Normal, 0 = Low
+#
+# Examples: 
+# 120.120.120.120:4661,0,TestServer1
+# 65.20.130.10:8080,2,TestServer2
+# myserver.yi.org:4662,1,TestServer3
+#
+# Comment lines begin with # or /
+
+195.112.128.222:6667,2,AdaNET
+195.245.244.243:4661,2,Razorback
+195.69.196.58:4242,2,O-C-N's Donkey Server
+66.111.52.200:4224,2,Eshock & Red Total Online
+38.119.96.17:3000,2,WSL
+38.119.96.15:4661,2,S.E.D.G.
+@
+
+
+1.3
+log
+@replacements for silent bob
+@
+text
+@@
+
+
+1.2
+log
+@Updated statics server management (BUG #0000110)
+@
+text
+@d19 5
+a23 1
+194.97.40.162:4242,2,Silent Bob
+@
+
+
+1.1
+log
+@Little fixes and Static Servers additions from 26d
+@
+text
+@a5 1
+# ServerIP/Hostname,Port,Priority,ServerName 
+d12 1
+a12 1
+# 120.120.120.120,4661,0,TestServer1
+d18 2
+a19 2
+195.112.128.222,6667,2,AdaNET
+194.97.40.162,4242,2,Silent Bob
+@
+

@@ -1,0 +1,2788 @@
+head	1.91;
+access;
+symbols
+	PublicRelease_1_2e:1.89
+	Interim_Release_1-2e_RC1:1.88
+	PublicRelease_1_2d:1.85
+	Interim_Release_1-2d_RC1:1.84
+	Interim_Release_1-2d_beta1:1.84
+	PublicRelease_1_2c:1.81
+	Interim_Release_1-2c_RC1:1.80
+	Interim_Release_1-2c_beta1:1.78
+	PublicRelease_1_2b:1.78
+	Interim_Release_1-2b_RC1:1.78
+	PublicRelease_1_2a:1.78
+	Interim_Release_1-2a_RC1:1.78
+	Interim_Release_1-2a_beta2:1.78
+	Interim_Release_1-2a_beta1:1.78
+	PublicRelease_1_2:1.76
+	Interim_Release_1-2_RC1:1.76
+	Interim_Release_1-2_beta1:1.76
+	PublicRelease_1_1g:1.75
+	Interim_Release_1-1g_RC3:1.75
+	Interim_Release_1-1g_RC2:1.75
+	Interim_Release_1-1g_RC1:1.75
+	Interim_Release_1-1g_beta2:1.75
+	Interim_Release_1-1g_beta1:1.72
+	PublicRelease_1_1f:1.71
+	Interim_Release_1-1f_RC1:1.71
+	PublicRelease_1_1e:1.71
+	Interim_Release_1-1e_RC2:1.71
+	Interim_Release_1-1e_RC1:1.71
+	Interim_Release_1-1e_beta1:1.71
+	PublicRelease_1_1d:1.69
+	Interim_Release_1-1d_RC1:1.69
+	PublicRelease_1_1c:1.69
+	Interim_Release_1-1c_RC1:1.69
+	Interim_Release_1-1c_beta2:1.69
+	Interim_Release_1-1c_beta1:1.68
+	PublicRelease_1_1b:1.68
+	Interim_Release_1-1b_RC1:1.68
+	PublicRelease_1_1a:1.68
+	Interim_Release_1-1a_RC2:1.68
+	Interim_Release_1-1a_RC1:1.68
+	Interim_Release_1-1a_beta2:1.68
+	Interim_Release_1-1a_beta1:1.68
+	PublicRelease_1_1:1.67
+	Interim_Release_1-1_beta1:1.67
+	PublicRelease_1o:1.63
+	Interim_Release_1o_RC1:1.63
+	Interim_Release_1o_beta1:1.63
+	PublicRelease_1n:1.63
+	Interim_Release_1n_RC2:1.63
+	Interim_Release_1n_RC1:1.62
+	Interim_Release_1n_beta2:1.62
+	Interim_Release_1n_beta1:1.60
+	PublicRelease_1m:1.60
+	Interim_Release_1m_beta1:1.60
+	PublicRelease_1l:1.60
+	Interim_Release_1l_RC3:1.60
+	Interim_Release_1l_RC2:1.60
+	Interim_Release_1l_RC1:1.60
+	Interim_Release_1l_beta2:1.60
+	Interim_Release_1l_beta1:1.57
+	PublicRelease_1k:1.54
+	Interim_Release_1k_RC4:1.54
+	Interim_1k_RC3:1.54
+	Interim_1k_RC2:1.54
+	Interim_Release_1k_RC1:1.52
+	Interim_Release_1k_beta5:1.52
+	Intrerim_Release_1k_beta4:1.52
+	Interim_Release_1k_beta1:1.50
+	PublicRelease_1j:1.48
+	Interim_Release_1J_RC3:1.48
+	Interim_Release_1j_RC3:1.48
+	Interim_Release_1j_RC2:1.48
+	Interim_Release_1j_RC1:1.48
+	Interim_Release_1j_beta2:1.48
+	Interim_Release_1j_beta1:1.47
+	PublicRelease_1i:1.37
+	Interim_Release_1i_RC6:1.37
+	Interim_Release_1i_RC3:1.37
+	Interim_Release_1i_RC2:1.37
+	Interim_Release_1i_RC1:1.36
+	Interim_Release_1i_beta3:1.35
+	Interim_Release_1i_beta2:1.35
+	Interim_Release_1i_beta1:1.32
+	PublicRelease_1h:1.27
+	Interim_Release_1h_rc2:1.27
+	Interim_Release_1h_RC1:1.27
+	Interim_Release_1h_beta2:1.27
+	Interim_Release_1h_beta1_now:1.24
+	Interim_Release_1h_beta1:1.23
+	PublicRelease_1g:1.20
+	Interim_Release_1g_RC6_Final:1.20
+	Interim_Release_1g_RC6:1.20
+	Interim_Release_1g_RC5:1.20
+	Interim_Release_1g_RC4:1.20
+	Interim_Release_1g_RC3:1.20
+	Interim_Release_1g_beta2:1.18
+	Interim_Release_1g_beta1:1.17
+	Interim_Release_1f_RC4:1.17
+	Interim_Release_1f_RC3:1.17
+	Interim_Release_1f_RC2:1.17
+	Interim_Release_1f_RC:1.17
+	Interim_Release_1f_beta2:1.17
+	Interim_Release_1f_beta1:1.17
+	PublicRelease_1e:1.17
+	Interim_Release_1e_RC2:1.17
+	Interim_Release_1e_RC:1.17
+	Interim_Release_1e_beta3:1.17
+	Interim_Release_1e_beta2:1.17
+	Interim_Release_1e_beta2_before_kuchin:1.17
+	Interim_Release_1e_beta1:1.17
+	PublicRelease_1c:1.16
+	featurestest:1.16.0.2
+	Interim_Release_1c_RC:1.16
+	Interim_Release_1c_beta2:1.16
+	Interim_Release_1c_beta1:1.15
+	threaded_downloadqueue:1.14.0.2
+	PublicRelease_1b:1.11
+	Interim_Release_1b_beta2:1.11
+	Interim_Release_1b_beta1:1.10
+	proxydeadlake:1.8.0.4
+	PublicRelease_1a:1.8
+	Interim_Release_1a_beta2:1.8
+	BerkeleyDb:1.8.0.2
+	Interim_Release_1a_beta1:1.8
+	PublicRelease_1:1.8
+	goldfish:1.8
+	eMulePlus_1_RC2:1.8
+	eMulePlus_26b_1RC1:1.8
+	PreRelease_26b_i0e:1.8
+	before_26d_merge:1.8
+	Interim_Release_26b_i0d:1.7
+	Interim_Release_26b_i0c:1.6
+	Interim_Release_26b_i0b:1.6
+	Interim_Release_26b_i0a:1.6
+	systraydlg:1.6.0.6
+	plus26based:1.6.0.4
+	Interim_Release_25b_i0b:1.6
+	Proxy_Dev:1.6
+	Interim_Release_25b_i0a:1.6.2.1
+	proxytest:1.6.2.1.0.2
+	official_sockets:1.6.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.91
+date	2010.08.06.01.53.53;	author aw3;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2009.10.28.04.34.58;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2009.04.09.03.58.38;	author aw3;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2008.07.31.12.08.35;	author aw3;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2008.07.17.04.19.07;	author aw3;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2008.04.23.04.54.09;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2008.02.09.12.32.09;	author eklmn;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2007.11.02.14.43.10;	author kush_eplus;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2007.09.27.14.27.13;	author fuxie-dk;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2007.08.24.05.17.36;	author aw3;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2007.04.08.22.29.25;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2007.04.03.18.50.57;	author kush_eplus;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2006.04.22.23.45.43;	author aw3;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2006.04.04.22.28.41;	author kush_eplus;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2006.01.23.07.03.10;	author kush_eplus;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2005.11.22.12.26.23;	author aw3;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2005.09.23.10.56.08;	author eklmn;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2005.09.19.22.15.00;	author eklmn;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2005.08.09.02.24.20;	author aw3;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2005.06.06.04.36.11;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2005.03.28.02.53.00;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2005.02.03.14.40.17;	author kuchin;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.10.30.00.17.19;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.10.14.05.10.52;	author aw3;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.10.03.04.17.33;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.10.01.04.43.27;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.09.29.16.10.17;	author eklmn;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.09.07.19.58.43;	author aw3;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.07.28.11.39.31;	author katsyonak;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.07.24.06.58.33;	author aw3;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.05.12.16.14.35;	author katsyonak;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.05.11.23.27.41;	author katsyonak;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.05.10.01.25.33;	author katsyonak;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.05.05.19.47.11;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.05.04.09.45.35;	author netwolf1;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.04.22.19.45.14;	author aw3;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.03.30.20.55.49;	author dongato;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.03.30.12.32.56;	author dongato;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.03.17.11.10.41;	author eklmn;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.03.13.05.42.33;	author aw3;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.02.05.00.00.06;	author kush_eplus;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.01.05.16.14.47;	author katsyonak;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.12.27.18.16.52;	author dongato;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.12.27.11.26.50;	author katsyonak;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.12.24.19.21.48;	author katsyonak;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.12.24.19.08.18;	author katsyonak;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.12.24.18.43.19;	author katsyonak;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.12.21.22.06.01;	author katsyonak;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.12.20.00.40.28;	author katsyonak;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.12.11.10.44.40;	author kuchin;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.11.11.16.31.02;	author kuchin;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.11.02.10.36.41;	author katsyonak;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.10.24.01.21.19;	author morevit;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.10.13.15.10.07;	author morevit;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.10.04.22.18.08;	author morevit;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.09.29.13.12.40;	author dongato;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.09.24.16.47.32;	author morevit;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.09.22.16.27.46;	author morevit;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.09.03.17.56.27;	author kuchin;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.09.03.11.50.57;	author kuchin;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.08.23.00.20.51;	author forcha;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.08.18.16.09.38;	author bond006;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.07.31.15.25.49;	author bond006;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.07.31.15.02.20;	author puritynn666;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.07.28.02.33.12;	author dongato;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.06.11.18.35.45;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.06.09.15.14.38;	author kuchin;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.06.09.11.57.42;	author kuchin;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.03.24.17.40.34;	author pooz;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.03.16.20.41.23;	author lord_kiron;	state Exp;
+branches
+	1.16.2.1;
+next	1.15;
+
+1.15
+date	2003.03.15.00.54.08;	author cax2;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.03.14.12.03.08;	author lord_kiron;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.14.11.50.36;	author partyckip;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.13.21.50.43;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.08.12.09.42;	author recdvst;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.03.18.34.20;	author cax2;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.03.01.17.41.14;	author dongato;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.14.22.46.36;	author cax2;	state Exp;
+branches
+	1.8.2.1;
+next	1.7;
+
+1.7
+date	2003.02.12.17.06.28;	author cax2;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.01.24.22.07.53;	author maverick65;	state Exp;
+branches
+	1.6.2.1
+	1.6.6.1;
+next	1.5;
+
+1.5
+date	2003.01.24.12.26.44;	author obaldin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.01.23.17.27.15;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.23.01.42.30;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.01.22.15.05.40;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.25;	author cax2;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2003.01.28.16.54.40;	author cax2;	state Exp;
+branches;
+next	;
+
+1.6.6.1
+date	2003.02.05.23.25.17;	author forcha;	state Exp;
+branches;
+next	;
+
+1.8.2.1
+date	2003.02.25.15.31.55;	author kuchin;	state Exp;
+branches;
+next	1.8.2.2;
+
+1.8.2.2
+date	2003.03.01.11.25.56;	author obaldin;	state Exp;
+branches;
+next	1.8.2.3;
+
+1.8.2.3
+date	2003.03.01.20.59.37;	author obaldin;	state Exp;
+branches;
+next	1.8.2.4;
+
+1.8.2.4
+date	2003.03.02.08.46.06;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.16.2.1
+date	2003.03.23.06.22.03;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.91
+log
+@Renaming to sync up with original.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "ServerListCtrl.h"
+#include "KnownFileList.h"
+#include "TransferWnd.h"
+#include "ServerWnd.h"
+#include "PreferencesDlg.h"
+#include "SharedFilesWnd.h"
+#include "StringConversion.h"
+#include "SearchDlg.h"
+#include "ChatWnd.h"
+#include "TrayDialog.h"
+#include "BtnST.h"
+#include "StatisticsDlg.h"
+#include "MeterIcon.h"
+#include "MuleToolBarCtrl.h"
+#include "MuleStatusBarCtrl.h"
+#include "IrcWnd.h"
+#include "TaskbarNotifier.h"
+#include "MuleSystrayDlg.h"
+#include "Loggable.h"
+#include "ToolTips\PPToolTip.h"
+
+#define MP_RESTORE		4001
+#define MP_CONNECT		4002
+#define MP_DISCONNECT	4003
+#define MP_EXIT			4004
+
+class CKnownFileList;
+
+class CEmuleDlg : public CTrayDialog, public CLoggable
+{
+friend class CMuleToolbarCtrl;
+
+public:
+	CEmuleDlg(CWnd* pParent = NULL);
+	~CEmuleDlg();
+	enum { IDD = IDD_EMULE_DIALOG };
+
+	void			AddServerMessageLine(LPCTSTR line);
+	void			AddBugReport(LPCTSTR strFunctionName, LPCTSTR sFile, uint32 dwLine, LPCTSTR pcMsg);
+	void			OutputLogText(const CString& strLogText, CHTRichEditCtrl* pRichEditCtrl);
+	void			AddLogText(int iMode, const CString &strTxt);
+	void			ShowConnectionState();
+	void			ShowConnectionState(bool bConnected, const CString &strServer = _T(""), bool bIconOnly = false);
+	void			ShowNotifier(const CString &strText, int iMsgType, bool bForceSoundOFF = false, bool bMessageEnabled = false);
+	void			ShowUserCount(uint32 dwCount);
+	void			ShowMessageState(byte iconnr);
+	void			ShowSessionTime();
+	void			SetActiveDialog(CDialog* dlg);
+	void			ShowTransferRate(bool bUpdateAll = false);
+	void			Localize();
+	void			ResizeStatusBar();
+	bool			IsRunning();
+	void			RunBackupNow(bool automated);
+	void			DisableAutoBackup();
+	void			PostUniqueMessage(UINT uiMsg);
+	void			SendMail(LPCTSTR pcText, bool bMsgEnabled, bool bSendEnabled);
+	static UINT		CheckCurrentVersionAtInet(void *);
+
+	afx_msg BOOL OnQueryEndSession();
+	afx_msg void OnNcDestroy();
+	afx_msg void OnBnClickedConnect();
+	BOOL TrayShow(void);
+
+	CTransferWnd		m_wndTransfer;
+	CServerWnd			m_wndServer;
+	CPreferencesDlg		m_dlgPreferences;
+	CSharedFilesWnd		m_wndSharedFiles;
+	CSearchDlg			m_dlgSearch;
+	CChatWnd			m_wndChat;
+	CMuleStatusBarCtrl	m_ctlStatusBar;
+	CMuleToolbarCtrl	m_ctlToolBar;
+#ifdef USE_REBAR
+	CReBarCtrl			m_ctlReBar;
+#endif
+	CDialog				*m_pdlgActive;
+	CStatisticsDlg		m_dlgStatistics;
+	CIrcWnd				m_wndIRC;
+	CTaskbarNotifier	m_wndTaskbarNotifier;
+	int					m_iStatus;
+	CFont				m_fontDefault;
+	CPPToolTip			m_ttip;
+	CImageList			m_clientImgLists[CLIENT_IMGLST_COUNT];	//destroyed automatically in destructors
+	HICON				m_hiconSourceTray;
+#ifdef NEW_SOCKETS
+//	CEngineData*	m_pEngineData;
+#endif
+
+protected:
+	HICON				m_hIcon;
+
+	virtual void		DoDataExchange(CDataExchange* pDX);
+	virtual BOOL		OnInitDialog();
+	virtual BOOL		PreTranslateMessage(MSG* pMsg);
+	virtual void		OnTrayRButtonUp(CPoint pt);
+	virtual BOOL		OnCommand(WPARAM wParam, LPARAM lParam);
+	virtual BOOL		OnWndMsg(UINT iMessage,WPARAM wParam, LPARAM lParam, LRESULT *pResult);
+
+	afx_msg void		OnSysCommand(UINT nID, LPARAM lParam);
+	afx_msg void		OnPaint();
+	afx_msg HCURSOR		OnQueryDragIcon();
+	afx_msg void		OnTimer(UINT_PTR nIDEvent);
+	afx_msg int			OnCreate(LPCREATESTRUCT lpCreateStruct);
+
+	void QuickSpeedOther(UINT nID);
+
+	afx_msg LRESULT OnProcessTaskUI(WPARAM wParam, LPARAM lParam);
+
+	afx_msg LRESULT OnWebServerConnect(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnWebServerRemove(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnWebSharedFilesReload(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnWebServerAddToStatic(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnWebServerRemoveFromStatic(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnWebServerClearCompleted(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnWebServerFileRename(WPARAM wParam, LPARAM lParam);
+
+	afx_msg LRESULT OnTaskbarNotifierClicked(WPARAM wParam,LPARAM lParam);
+	afx_msg LRESULT OnWMData(WPARAM wParam,LPARAM lParam);
+	afx_msg LRESULT OnFileHashed(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnHashFailed(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnFileHashingStarted(WPARAM wParam, LPARAM lParam);
+	afx_msg LRESULT OnAreYouEmule(WPARAM, LPARAM);
+	afx_msg void OnActivate(UINT nState, CWnd *pWndOther, BOOL bMinimized);
+
+	virtual BOOL OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult);
+	virtual void OnSize(UINT nType, int cx, int cy);
+	void			OnOK()	{}
+	void			OnClose();
+	void			OnCancel();
+
+	DECLARE_MESSAGE_MAP()
+
+private:
+	CString			m_strDebugLogFilePath;
+	CString			m_strLogFilePath;
+
+	CString			*m_pstrNewLogTextLines;
+	CString			*m_pstrNewDebugLogTextLines;
+
+	HICON			m_hiconConn;
+	HICON			m_hiconTrans[4];
+	HICON			m_hiconIM[3];
+	HICON			m_hiconMyTray;
+	HICON			m_hiconUsers;
+
+	CMeterIcon		m_trayMeterIcon;
+
+	HICON			m_hiconSourceTrayLowID;
+	HICON			m_hiconSourceTrayGrey;
+
+	uint32			lastuprate;
+	uint32			lastdownrate;
+	CImageList		m_imageList;
+	CMuleSystrayDlg *m_pSystrayDlg;
+
+	UINT_PTR		m_hTimer;
+	bool			m_bStartUpMinimized;
+	bool			m_bCliExit;
+
+private:
+	static void CALLBACK Timer(HWND hwnd, UINT uiMsg, UINT idEvent, DWORD dwTime);
+
+	void			StartConnection();
+	void			CloseConnection();
+	void			RestoreWindow();
+	void			UpdateTrayIcon(int procent);
+	void			AddSpeedSelectorSys(CMenu* addToMenu);
+
+	void			BackupFromAppDir(LPCTSTR pcExtensionToBack, int iMode);
+	void			BackupFromTempDir(LPCTSTR pcExtensionToBack, int iMode);
+	void			BackupFiles(LPCTSTR pcExtensionToBack, int iMode, const CString &strPath, const CString &strBackupPath);
+
+	CString*		GetNewLogTextLines();
+	CString*		GetNewDebugLogTextLines();
+
+	void			GetInfo4ToolTip(NM_PPTOOLTIP_DISPLAY *pNotify);
+};
+@
+
+
+1.90
+log
+@Reduced H-file dependency.
+@
+text
+@d79 1
+a79 1
+	afx_msg void OnBnClickedButton2();
+a146 1
+	void			DisConnect();
+@
+
+
+1.89
+log
+@Don't apply GUI "Prompt on exit" for "exit" CLI command {Vladimir (SV)}.
+@
+text
+@a18 3
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#endif //OLD_SOCKETS_ENABLED
+@
+
+
+1.88
+log
+@Simplified logging system implementation.
+@
+text
+@d104 4
+a160 1
+	bool			m_bStartUpMinimized;
+a168 8
+public:
+	HICON			m_hiconSourceTray;
+
+#ifdef NEW_SOCKETS
+//	CEngineData*	m_pEngineData;
+#endif //NEW_SOCKETS
+
+private:
+d177 5
+a181 1
+	UINT_PTR m_hTimer;
+@
+
+
+1.87
+log
+@Reduced H-file dependency; Removed dangerous friend class CWebServer; Removed unused variables.
+@
+text
+@a52 1
+friend class CMuleStatusbarCtrl;
+d62 1
+a62 1
+	void			AddLogText(bool addtostatusbar,const CString& txt ,bool bDebug = false);
+@
+
+
+1.86
+log
+@Reduced H-file dependency.
+@
+text
+@a38 1
+#include "WebServer.h"
+a49 1
+// CEmuleDlg Dialogfeld
+a53 1
+friend class CWebServer;
+d81 5
+a115 1
+
+a142 1
+
+a151 2
+	CString			m_strLogText;
+	CString			m_strDebugLog;
+a199 6
+
+public:
+	afx_msg BOOL OnQueryEndSession();
+	afx_msg void OnNcDestroy();
+	afx_msg void OnBnClickedButton2();
+	BOOL TrayShow(void);
+@
+
+
+1.85
+log
+@Reduced H-file dependency.
+@
+text
+@d28 1
+@
+
+
+1.84
+log
+@removed statistic update function
+@
+text
+@a35 1
+#include "AboutDlg.h"
+@
+
+
+1.83
+log
+@Use AfxBeginThread function for thread creation to become CRT friendly.
+Get rid off an unused parameter.
+@
+text
+@a74 1
+	void			ShowStatistics();
+@
+
+
+1.82
+log
+@Fixed messed waiting for hash and hashing file statuses in GUI and WebServer {Fuxie - DK} [Aw3].
+@
+text
+@d70 1
+a70 1
+	void			ShowUserCount(uint32 users_toshow, uint32 files_toshow);
+d83 1
+@
+
+
+1.81
+log
+@Don't backup corrupted (zero size) .part.met files.
+@
+text
+@d137 1
+@
+
+
+1.80
+log
+@Removed unrequired (at this place) #includes.
+@
+text
+@d193 3
+a195 3
+	void			BackupFromAppDir(LPCTSTR pcExtensionToBack, bool bAutomated);
+	void			BackupFromTempDir(LPCTSTR pcExtensionToBack, bool bAutomated);
+	void			BackupFiles(LPCTSTR pcExtensionToBack, bool bAutomated, const CString &strPath, const CString &strBackupPath);
+@
+
+
+1.79
+log
+@Merged theme code into ThemeHelperST, remove VisualStylesXP
+@
+text
+@d17 1
+a18 3
+// emuleDlg.h
+
+#pragma once
+a21 2
+#include "afxcmn.h"
+#include "afxwin.h"
+a35 1
+#include "afxdlgs.h"
+@
+
+
+1.78
+log
+@Removed unused class member.
+@
+text
+@a41 1
+#include "ThemeHelperST.h"
+a104 1
+	CThemeHelperST		m_themeHelper;
+@
+
+
+1.77
+log
+@new email notifier code (adapted from original) - fully UNICODE ready;
+option to send email notification messages in subject
+@
+text
+@a188 1
+	CTitleMenu		trayPopup;
+@
+
+
+1.76
+log
+@UNICODE preparation (first shot)
+@
+text
+@d88 1
+@
+
+
+1.75
+log
+@Improved string processing; Formatting.
+@
+text
+@d200 3
+a202 3
+	void			BackupFromAppDir(LPCSTR extensionToBack,bool automated);
+	void			BackupFromTempDir(LPCSTR extensionToBack, bool automated);
+	void			BackupFiles(LPCSTR extensionToBack,bool automated, const CString &strPath, const CString &strBackupPath);
+@
+
+
+1.74
+log
+@correction for string processing by tooltip notify. thanks Aw3
+@
+text
+@d70 1
+a70 1
+	void			AddBugReport(LPCTSTR strFunctionName, LPCTSTR sFile, long nLine, CString msg);
+d200 3
+a202 3
+	void BackupFromAppDir(LPCSTR extensionToBack,bool automated);
+	void BackupFromTempDir(LPCSTR extensionToBack, bool automated);
+	void BackupFiles(LPCSTR extensionToBack,bool automated, const CString &strPath, const CString &strBackupPath);
+d207 1
+a207 1
+	void 		GetInfo4ToolTip(NM_PPTOOLTIP_DISPLAY *pNotify);
+@
+
+
+1.73
+log
+@fixed hanging tooltip by focus switch; the "OnToolTipNotify" replaced over OnNotify because it works faster as using ON_NOTIFY_EX_RANGE(...)
+@
+text
+@d207 1
+a207 1
+	CString 		GetInfo4ToolTip(NM_PPTOOLTIP_DISPLAY *pNotify);
+@
+
+
+1.72
+log
+@Removed double #include; Minor reorganization.
+@
+text
+@d145 2
+a146 1
+	afx_msg BOOL OnToolTipNotify(UINT id, NMHDR *pNMH, LRESULT *pResult);
+d207 2
+@
+
+
+1.71
+log
+@Fixed shared files hashing issues when hashing stopped {Juokelis/GMGMGM/taltamir};
+Removed unused code.
+@
+text
+@d18 1
+a19 2
+// emuleDlg.h : Headerdatei
+//
+d30 1
+a30 1
+#include "Preferencesdlg.h"
+a39 1
+#include "PreferencesDlg.h"
+d63 1
+a63 1
+// Construction
+d65 1
+a65 1
+	CEmuleDlg(CWnd* pParent = NULL);	// Standard constructor
+a88 1
+
+d109 1
+d145 1
+d154 1
+a210 3
+
+protected:
+	afx_msg BOOL OnToolTipNotify(UINT id, NMHDR *pNMH, LRESULT *pResult);
+@
+
+
+1.70
+log
+@Show message taskbar indicator also when Message pane is active but eMule Plus isn't topmost;
+Fixed disable of blinking new message taskbar indicator (when Message is current pane,
+new message notifier popped up and user activated eMule Plus from systray by tray icon clicking).
+@
+text
+@a56 2
+
+
+d87 1
+a87 1
+	void 			RunBackupNow(bool automated);
+d89 1
+a89 1
+	void 			PostUniqueMessage(UINT uiMsg);
+a107 1
+	CRect				m_rClientRect;
+a109 1
+	uint16				m_iFilesToBeHashed;
+d120 1
+a120 1
+	virtual BOOL 		OnWndMsg(UINT iMessage,WPARAM wParam, LPARAM lParam, LRESULT *pResult);
+a128 3
+	// quick-speed changer -- based on xrmb
+	//afx_msg void QuickSpeedUpload(UINT nID);
+	//afx_msg void QuickSpeedDownload(UINT nID);
+d143 2
+a144 1
+	afx_msg LRESULT OnFileHashed(WPARAM wParam,LPARAM lParam);
+d148 1
+a148 1
+	virtual void OnSize(UINT nType,int cx,int cy);
+d150 3
+a152 3
+	void		 	OnClose();
+	void		 	OnCancel();
+	void		 	DisConnect();
+d158 2
+a159 2
+	CString 		m_strDebugLogFilePath;
+	CString 		m_strLogFilePath;
+d164 1
+a164 1
+	bool			m_bReady,m_bStartUpMinimized;
+d171 1
+a171 1
+	CMeterIcon 		m_trayMeterIcon;
+d174 1
+a174 1
+	HICON 			m_hiconSourceTray;
+d181 2
+a182 2
+	HICON 			m_hiconSourceTrayLowID;
+	HICON 			m_hiconSourceTrayGrey;
+d193 5
+a197 5
+	void 			StartConnection();
+	void 			CloseConnection();
+	void 			RestoreWindow();
+	void 			UpdateTrayIcon(int procent);
+	void 			AddSpeedSelectorSys(CMenu* addToMenu);
+d203 2
+a204 2
+	CString* 		GetNewLogTextLines();
+	CString* 		GetNewDebugLogTextLines();
+@
+
+
+1.69
+log
+@Moved all RGB_ to Loggable header
+@
+text
+@d152 1
+@
+
+
+1.68
+log
+@Safer service prototype.
+@
+text
+@a56 335
+#define RGB_DEFAULT_TXT				_T("<COLOR=Default>")
+#define RGB_ALICE_BLUE_TXT			_T("<COLOR=240,248,255>")
+#define RGB_ANTIQUE_WHITE_TXT		_T("<COLOR=250,235,215>")
+#define RGB_AQUAMARINE_TXT			_T("<COLOR=127,255,212>")
+#define RGB_AQUA_TXT				_T("<COLOR=51,204,204>")
+#define RGB_AZURE_TXT				_T("<COLOR=240,255,255>")
+#define RGB_BEIGE_TXT				_T("<COLOR=245,245,220>")
+#define RGB_BLACK_TXT				_T("<COLOR=0,0,0>")
+#define RGB_BLANCHEDALMOND_TXT		_T("<COLOR=255,235,205>")
+#define RGB_BLUE_TXT				_T("<COLOR=0,0,255>")
+#define RGB_BLUE_GRAY_TXT			_T("<COLOR=102,102,153>")
+#define RGB_BLUE_VIOLET_TXT			_T("<COLOR=138,43,226>")
+#define RGB_BRIGHT_GREEN_TXT		_T("<COLOR=0,255,0>")
+#define RGB_BRIGHT_LAVENDER_TXT		_T("<COLOR=230,230,250>")
+#define RGB_BRIGHT_PLUM_TXT			_T("<COLOR=221,160,221>")
+#define RGB_BRIGHT_TAN_TXT			_T("<COLOR=255,204,153>")
+#define RGB_BRIGHT_YELLOW_TXT		_T("<COLOR=255,255,224>")
+#define RGB_BROWN_TXT				_T("<COLOR=153,51,0>")
+#define RGB_BROWN_WOOD_TXT			_T("<COLOR=165,42,42>")
+#define RGB_BISQUE_TXT				_T("<COLOR=255,228,196>")
+#define RGB_BURLY_WOOD_TXT			_T("<COLOR=222,184,135>")
+#define RGB_CADET_BLUE_TXT			_T("<COLOR=95,158,160>")
+#define RGB_CHARTREUSE_TXT			_T("<COLOR=127,255,0>")
+#define RGB_CHOCOLATE_TXT			_T("<COLOR=210,105,30>")
+#define RGB_CORAL_TXT				_T("<COLOR=255,127,80>")
+#define RGB_CORNFLOWER_BLUE_TXT		_T("<COLOR=100,149,237>")
+#define RGB_CORNSILK_TXT			_T("<COLOR=255,248,220>")
+#define RGB_CRIMSON_TXT				_T("<COLOR=220,20,60>")
+#define RGB_CYAN_TXT				_T("<COLOR=0,255,255>")
+#define RGB_DARK_BLUE_TXT			_T("<COLOR=0,0,128>")
+#define RGB_DARK_CYAN_TXT			_T("<COLOR=0,128,128>")
+#define RGB_DARK_GOLD_TXT			_T("<COLOR=255,204,0>")
+#define RGB_DARK_GOLDEN_ROD_TXT		_T("<COLOR=184,134,11>")
+#define RGB_DARK_GRAY_TXT			_T("<COLOR=169,169,169>")
+#define RGB_DARK_GREEN_TXT			_T("<COLOR=0,100,0>")
+#define RGB_DARK_KHAKI_TXT			_T("<COLOR=189,183,107>")
+#define RGB_DARK_OLIVE_TXT			_T("<COLOR=85,107,47>")
+#define RGB_DARK_ORANGE_TXT			_T("<COLOR=255,140,0>")
+#define RGB_DARK_ORCHID_TXT			_T("<COLOR=153,50,204>")
+#define RGB_DARK_RED_TXT			_T("<COLOR=128,0,0>")
+#define RGB_DARK_SALMON_TXT			_T("<COLOR=233,150,122>")
+#define RGB_DARK_SEA_GREEN_TXT		_T("<COLOR=143,188,143>")
+#define RGB_DARK_SLATE_BLUE_TXT		_T("<COLOR=72,61,139>")
+#define RGB_DARK_SLATE_GRAY_TXT		_T("<COLOR=47,79,79>")
+#define RGB_DARK_TEAL_TXT			_T("<COLOR=0,51,102>")
+#define RGB_DARK_TURQUOISE_TXT		_T("<COLOR=0,206,209>")
+#define RGB_DARK_VIOLET_TXT			_T("<COLOR=148,0,211>")
+#define RGB_DARK_YELLOW_TXT			_T("<COLOR=128,128,0>")
+#define RGB_DARKER_GREEN_TXT		_T("<COLOR=0,51,0>")
+#define RGB_DARKER_ORANGE_TXT		_T("<COLOR=255,102,0>")
+#define RGB_DARKER_SEA_GREEN_TXT	_T("<COLOR=46,139,87>")
+#define RGB_DEEP_PINK_TXT			_T("<COLOR=255,20,147>")
+#define RGB_DEEP_SKY_BLUE_TXT		_T("<COLOR=0,191,255>")
+#define RGB_DIM_GRAY_TXT			_T("<COLOR=105,105,105>")
+#define RGB_DODGER_BLUE_TXT			_T("<COLOR=30,144,255>")
+#define RGB_FIRE_BRICK_TXT			_T("<COLOR=178,34,34>")
+#define RGB_FLORAL_WHITE_TXT		_T("<COLOR=255,250,240>")
+#define RGB_FOREST_GREEN_TXT		_T("<COLOR=34,139,34>")
+#define RGB_GAINSBORO_TXT			_T("<COLOR=220,220,220>")
+#define RGB_GHOST_WHITE_TXT			_T("<COLOR=248,248,255>")
+#define RGB_GOLD_TXT				_T("<COLOR=255,215,0>")
+#define RGB_GOLDEN_ROD_TXT			_T("<COLOR=218,165,32>")
+#define RGB_GRAY25_TXT				_T("<COLOR=192,192,192>")
+#define RGB_GRAY40_TXT				_T("<COLOR=153,153,153>")
+#define RGB_GRAY50_TXT				_T("<COLOR=128,128,128>")
+#define RGB_GRAY80_TXT				_T("<COLOR=51,51,51>")
+#define RGB_GREEN_TXT				_T("<COLOR=0,128,0>")
+#define RGB_GREEN_YELLOW_TXT		_T("<COLOR=173,255,47>")
+#define RGB_HONEY_DEW_TXT			_T("<COLOR=240,255,240>")
+#define RGB_HOT_PINK_TXT			_T("<COLOR=255,105,180>")
+#define RGB_INDIAN_RED_TXT			_T("<COLOR=205,92,92>")
+#define RGB_INDIGO_TXT				_T("<COLOR=51,51,153>")
+#define RGB_INDIGO_PURPLE_TXT		_T("<COLOR=75,0,130>")
+#define RGB_IVORY_TXT				_T("<COLOR=255,255,240>")
+#define RGB_KHAKI_TXT				_T("<COLOR=240,232,108>")
+#define RGB_LAVENDER_TXT			_T("<COLOR=204,153,255>")
+#define RGB_LAVENDER_BLUSH_TXT		_T("<COLOR=255,240,245>")
+#define RGB_LAWN_GREEN_TXT			_T("<COLOR=124,252,0>")
+#define RGB_LEMON_CHIFFON_TXT		_T("<COLOR=255,250,205>")
+#define RGB_LIGHT_BLUE_TXT			_T("<COLOR=51,102,255>")
+#define RGB_LIGHT_CORAL_TXT			_T("<COLOR=240,128,128>")
+#define RGB_LIGHT_CYAN_TXT			_T("<COLOR=204,255,255>")
+#define RGB_LIGHT_GOLDEN_ROD_TXT	_T("<COLOR=250,250,210>")
+#define RGB_LIGHT_GRAY_TXT			_T("<COLOR=211,211,211>")
+#define RGB_LIGHT_GREEN_TXT			_T("<COLOR=204,255,204>")
+#define RGB_LIGHT_ORANGE_TXT		_T("<COLOR=255,153,0>")
+#define RGB_LIGHT_PINK_TXT			_T("<COLOR=255,182,193>")
+#define RGB_LIGHT_SALMON_TXT		_T("<COLOR=255,160,122>")
+#define RGB_LIGHT_SKY_BLUE_TXT		_T("<COLOR=135,206,250>")
+#define RGB_LIGHT_SEA_GREEN_TXT		_T("<COLOR=32,178,170>")
+#define RGB_LIGHT_SLATE_GRAY_TXT	_T("<COLOR=119,136,153>")
+#define RGB_LIGHT_STEEL_BLUE_TXT	_T("<COLOR=176,196,222>")
+#define RGB_LIGHT_YELLOW_TXT		_T("<COLOR=255,255,153>")
+#define RGB_LIGHTER_CYAN_TXT		_T("<COLOR=224,255,255>")
+#define RGB_LIGHTER_GREEN_TXT		_T("<COLOR=144,238,144>")
+#define RGB_LIGHTER_SKY_BLUE_TXT	_T("<COLOR=173,216,230>")
+#define RGB_LIME_TXT				_T("<COLOR=153,204,0>")
+#define RGB_LIME_GREEN_TXT			_T("<COLOR=50,205,50>")
+#define RGB_LINEN_TXT				_T("<COLOR=250,240,230>")
+#define RGB_MAGENTA_TXT				_T("<COLOR=255,0,255>")
+#define RGB_MAROON_TXT				_T("<COLOR=128,0,0>")
+#define RGB_MEDIUM_AQUAMARINE_TXT	_T("<COLOR=102,205,170>")
+#define RGB_MEDIUM_BLUE_TXT			_T("<COLOR=0,0,205>")
+#define RGB_MEDIUM_GREEN_TXT		_T("<COLOR=0,205,0>")
+#define RGB_MEDIUM_ORCHID_TXT		_T("<COLOR=186,85,211>")
+#define RGB_MEDIUM_PURPLE_TXT		_T("<COLOR=147,112,219>")
+#define RGB_MEDIUM_RED_TXT			_T("<COLOR=205,0,0>")
+#define RGB_MEDIUM_SEA_GREEN_TXT	_T("<COLOR=60,179,113>")
+#define RGB_MEDIUM_SLATE_BLUE_TXT	_T("<COLOR=123,104,238>")
+#define RGB_MEDIUM_SPRING_GREEN_TXT	_T("<COLOR=0,250,154>")
+#define RGB_MEDIUM_TURQUOISE_TXT	_T("<COLOR=72,209,204>")
+#define RGB_MEDIUM_VIOLET_RED_TXT	_T("<COLOR=199,21,133>")
+#define RGB_MIDNIGHT_BLUE_TXT		_T("<COLOR=25,25,112>")
+#define RGB_MINT_CREAM_TXT			_T("<COLOR=245,255,250>")
+#define RGB_MISTY_ROSE_TXT			_T("<COLOR=255,228,225>")
+#define RGB_MOCASSIN_TXT			_T("<COLOR=255,228,181>")
+#define RGB_NAVAJO_WHITE_TXT		_T("<COLOR=255,222,173>")
+#define RGB_OLD_LACE_TXT			_T("<COLOR=253,245,230>")
+#define RGB_OLIVE_TXT				_T("<COLOR=51,51,0>")
+#define RGB_OLIVE_DRAB_TXT			_T("<COLOR=107,142,35>")
+#define RGB_ORANGE_TXT				_T("<COLOR=255,165,0>")
+#define RGB_ORANGE_RED_TXT			_T("<COLOR=255,69,0>")
+#define RGB_ORCHID_TXT				_T("<COLOR=218,112,214>")
+#define RGB_PALE_BLUE_TXT			_T("<COLOR=153,204,255>")
+#define RGB_PALE_GOLDEN_ROD_TXT		_T("<COLOR=238,232,170>")
+#define RGB_PALE_GREEN_TXT			_T("<COLOR=152,251,152>")
+#define RGB_PALE_TURQUOISE_TXT		_T("<COLOR=175,238,238>")
+#define RGB_PALE_VIOLET_RED_TXT		_T("<COLOR=219,112,147>")
+#define RGB_PAPAYA_WHIP_TXT			_T("<COLOR=255,239,213>")
+#define RGB_PEACH_PUFF_TXT			_T("<COLOR=255,218,185>")
+#define RGB_PERU_TXT				_T("<COLOR=205,133,63>")
+#define RGB_PINK_TXT				_T("<COLOR=255,192,203>")
+#define RGB_PLUM_TXT				_T("<COLOR=153,51,102>")
+#define RGB_POWDER_BLUE_TXT			_T("<COLOR=176,224,230>")
+#define RGB_PURPLE_TXT				_T("<COLOR=128,0,128>")
+#define RGB_RED_TXT					_T("<COLOR=255,0,0>")
+#define RGB_ROSE_TXT				_T("<COLOR=255,153,204>")
+#define RGB_ROSY_BROWN_TXT			_T("<COLOR=188,143,143>")
+#define RGB_ROYAL_BLUE_TXT			_T("<COLOR=65,105,225>")
+#define RGB_SADDLE_BROWN_TXT		_T("<COLOR=139,69,19>")
+#define RGB_SALMON_TXT				_T("<COLOR=250,128,114>")
+#define RGB_SANDY_BROWN_TXT			_T("<COLOR=244,164,96>")
+#define RGB_SEA_GREEN_TXT			_T("<COLOR=51,153,102>")
+#define RGB_SEA_SHELL_TXT			_T("<COLOR=255,245,238>")
+#define RGB_SIENNA_TXT				_T("<COLOR=160,82,45>")
+#define RGB_SPRING_GREEN_TXT		_T("<COLOR=0,255,127>")
+#define RGB_SKY_BLUE_TXT			_T("<COLOR=135,206,235>")
+#define RGB_SLATE_BLUE_TXT			_T("<COLOR=106,90,205>")
+#define RGB_SLATE_GRAY_TXT			_T("<COLOR=112,128,144>")
+#define RGB_SNOW_TXT				_T("<COLOR=255,250,250>")
+#define RGB_STEEL_BLUE_TXT			_T("<COLOR=70,130,180>")
+#define RGB_TAN_TXT					_T("<COLOR=210,180,140>")
+#define RGB_TOMATO_TXT				_T("<COLOR=255,99,71>")
+#define RGB_TURQUOISE_TXT			_T("<COLOR=64,224,208>")
+#define RGB_THISTLE_TXT				_T("<COLOR=216,191,216>")
+#define RGB_VIOLET_TXT				_T("<COLOR=238,130,238>")
+#define RGB_WHEAT_TXT				_T("<COLOR=245,222,179>")
+#define RGB_WHITE_TXT				_T("<COLOR=255,255,255>")
+#define RGB_WHITE_SMOKE_TXT			_T("<COLOR=245,245,245>")
+#define RGB_YELLOW_TXT				_T("<COLOR=255,255,0>")
+#define RGB_YELLOW_GREEN_TXT		_T("<COLOR=154,205,50>")
+
+#define RGB_DEFAULT				CString(RGB_DEFAULT_TXT)
+#define RGB_ALICE_BLUE			CString(RGB_ALICE_BLUE_TXT)
+#define RGB_ANTIQUE_WHITE		CString(RGB_ANTIQUE_WHITE_TXT)
+#define RGB_AQUAMARINE			CString(RGB_AQUAMARINE_TXT)
+#define RGB_AQUA				CString(RGB_AQUA_TXT)
+#define RGB_AZURE				CString(RGB_AZURE_TXT)
+#define RGB_BEIGE				CString(RGB_BEIGE_TXT)
+#define RGB_BLACK				CString(RGB_BLACK_TXT)
+#define RGB_BLANCHEDALMOND		CString(RGB_BLANCHEDALMOND_TXT)
+#define RGB_BLUE				CString(RGB_BLUE_TXT)
+#define RGB_BLUE_GRAY			CString(RGB_BLUE_GRAY_TXT)
+#define RGB_BLUE_VIOLET			CString(RGB_BLUE_VIOLET_TXT)
+#define RGB_BRIGHT_GREEN		CString(RGB_BRIGHT_GREEN_TXT)
+#define RGB_BRIGHT_LAVENDER		CString(RGB_BRIGHT_LAVENDER_TXT)
+#define RGB_BRIGHT_PLUM			CString(RGB_BRIGHT_PLUM_TXT)
+#define RGB_BRIGHT_TAN			CString(RGB_BRIGHT_TAN_TXT)
+#define RGB_BRIGHT_YELLOW		CString(RGB_BRIGHT_YELLOW_TXT)
+#define RGB_BROWN				CString(RGB_BROWN_TXT)
+#define RGB_BROWN_WOOD			CString(RGB_BROWN_WOOD_TXT)
+#define RGB_BISQUE				CString(RGB_BISQUE_TXT)
+#define RGB_BURLY_WOOD			CString(RGB_BURLY_WOOD_TXT)
+#define RGB_CADET_BLUE			CString(RGB_CADET_BLUE_TXT)
+#define RGB_CHARTREUSE			CString(RGB_CHARTREUSE_TXT)
+#define RGB_CHOCOLATE			CString(RGB_CHOCOLATE_TXT)
+#define RGB_CORAL				CString(RGB_CORAL_TXT)
+#define RGB_CORNFLOWER_BLUE		CString(RGB_CORNFLOWER_BLUE_TXT)
+#define RGB_CORNSILK			CString(RGB_CORNSILK_TXT)
+#define RGB_CRIMSON				CString(RGB_CRIMSON_TXT)
+#define RGB_CYAN				CString(RGB_CYAN_TXT)
+#define RGB_DARK_BLUE			CString(RGB_DARK_BLUE_TXT)
+#define RGB_DARK_CYAN			CString(RGB_DARK_CYAN_TXT)
+#define RGB_DARK_GOLD			CString(RGB_DARK_GOLD_TXT)
+#define RGB_DARK_GOLDEN_ROD		CString(RGB_DARK_GOLDEN_ROD_TXT)
+#define RGB_DARK_GRAY			CString(RGB_DARK_GRAY_TXT)
+#define RGB_DARK_GREEN			CString(RGB_DARK_GREEN_TXT)
+#define RGB_DARK_KHAKI			CString(RGB_DARK_KHAKI_TXT)
+#define RGB_DARK_OLIVE			CString(RGB_DARK_OLIVE_TXT)
+#define RGB_DARK_ORANGE			CString(RGB_DARK_ORANGE_TXT)
+#define RGB_DARK_ORCHID			CString(RGB_DARK_ORCHID_TXT)
+#define RGB_DARK_RED			CString(RGB_DARK_RED_TXT)
+#define RGB_DARK_SALMON			CString(RGB_DARK_SALMON_TXT)
+#define RGB_DARK_SEA_GREEN		CString(RGB_DARK_SEA_GREEN_TXT)
+#define RGB_DARK_SLATE_BLUE		CString(RGB_DARK_SLATE_BLUE_TXT)
+#define RGB_DARK_SLATE_GRAY		CString(RGB_DARK_SLATE_GRAY_TXT)
+#define RGB_DARK_TEAL			CString(RGB_DARK_TEAL_TXT)
+#define RGB_DARK_TURQUOISE		CString(RGB_DARK_TURQUOISE_TXT)
+#define RGB_DARK_VIOLET			CString(RGB_DARK_VIOLET_TXT)
+#define RGB_DARK_YELLOW			CString(RGB_DARK_YELLOW_TXT)
+#define RGB_DARKER_GREEN		CString(RGB_DARKER_GREEN_TXT)
+#define RGB_DARKER_ORANGE		CString(RGB_DARKER_ORANGE_TXT)
+#define RGB_DARKER_SEA_GREEN	CString(RGB_DARKER_SEA_GREEN_TXT)
+#define RGB_DEEP_PINK			CString(RGB_DEEP_PINK_TXT)
+#define RGB_DEEP_SKY_BLUE		CString(RGB_DEEP_SKY_BLUE_TXT)
+#define RGB_DIM_GRAY			CString(RGB_DIM_GRAY_TXT)
+#define RGB_DODGER_BLUE			CString(RGB_DODGER_BLUE_TXT)
+#define RGB_FIRE_BRICK			CString(RGB_FIRE_BRICK_TXT)
+#define RGB_FLORAL_WHITE		CString(RGB_FLORAL_WHITE_TXT)
+#define RGB_FOREST_GREEN		CString(RGB_FOREST_GREEN_TXT)
+#define RGB_GAINSBORO			CString(RGB_GAINSBORO_TXT)
+#define RGB_GHOST_WHITE			CString(RGB_GHOST_WHITE_TXT)
+#define RGB_GOLD				CString(RGB_GOLD_TXT)
+#define RGB_GOLDEN_ROD			CString(RGB_GOLDEN_ROD_TXT)
+#define RGB_GRAY25				CString(RGB_GRAY25_TXT)
+#define RGB_GRAY40				CString(RGB_GRAY40_TXT)
+#define RGB_GRAY50				CString(RGB_GRAY50_TXT)
+#define RGB_GRAY80				CString(RGB_GRAY80_TXT)
+#define RGB_GREEN				CString(RGB_GREEN_TXT)
+#define RGB_GREEN_YELLOW		CString(RGB_GREEN_YELLOW_TXT)
+#define RGB_HONEY_DEW			CString(RGB_HONEY_DEW_TXT)
+#define RGB_HOT_PINK			CString(RGB_HOT_PINK_TXT)
+#define RGB_INDIAN_RED			CString(RGB_INDIAN_RED_TXT)
+#define RGB_INDIGO				CString(RGB_INDIGO_TXT)
+#define RGB_INDIGO_PURPLE		CString(RGB_INDIGO_PURPLE_TXT)
+#define RGB_IVORY				CString(RGB_IVORY_TXT)
+#define RGB_KHAKI				CString(RGB_KHAKI_TXT)
+#define RGB_LAVENDER			CString(RGB_LAVENDER_TXT)
+#define RGB_LAVENDER_BLUSH		CString(RGB_LAVENDER_BLUSH_TXT)
+#define RGB_LAWN_GREEN			CString(RGB_LAWN_GREEN_TXT)
+#define RGB_LEMON_CHIFFON		CString(RGB_LEMON_CHIFFON_TXT)
+#define RGB_LIGHT_BLUE			CString(RGB_LIGHT_BLUE_TXT)
+#define RGB_LIGHT_CORAL			CString(RGB_LIGHT_CORAL_TXT)
+#define RGB_LIGHT_CYAN			CString(RGB_LIGHT_CYAN_TXT)
+#define RGB_LIGHT_GOLDEN_ROD	CString(RGB_LIGHT_GOLDEN_ROD_TXT)
+#define RGB_LIGHT_GRAY			CString(RGB_LIGHT_GRAY_TXT)
+#define RGB_LIGHT_GREEN			CString(RGB_LIGHT_GREEN_TXT)
+#define RGB_LIGHT_ORANGE		CString(RGB_LIGHT_ORANGE_TXT)
+#define RGB_LIGHT_PINK			CString(RGB_LIGHT_PINK_TXT)
+#define RGB_LIGHT_SALMON		CString(RGB_LIGHT_SALMON_TXT)
+#define RGB_LIGHT_SKY_BLUE		CString(RGB_LIGHT_SKY_BLUE_TXT)
+#define RGB_LIGHT_SEA_GREEN		CString(RGB_LIGHT_SEA_GREEN_TXT)
+#define RGB_LIGHT_SLATE_GRAY	CString(RGB_LIGHT_SLATE_GRAY_TXT)
+#define RGB_LIGHT_STEEL_BLUE	CString(RGB_LIGHT_STEEL_BLUE_TXT)
+#define RGB_LIGHT_YELLOW		CString(RGB_LIGHT_YELLOW_TXT)
+#define RGB_LIGHTER_CYAN		CString(RGB_LIGHTER_CYAN_TXT)
+#define RGB_LIGHTER_GREEN		CString(RGB_LIGHTER_GREEN_TXT)
+#define RGB_LIGHTER_SKY_BLUE	CString(RGB_LIGHTER_SKY_BLUE_TXT)
+#define RGB_LIME				CString(RGB_LIME_TXT)
+#define RGB_LIME_GREEN			CString(RGB_LIME_GREEN_TXT)
+#define RGB_LINEN				CString(RGB_LINEN_TXT)
+#define RGB_MAGENTA				CString(RGB_MAGENTA_TXT)
+#define RGB_MAROON				CString(RGB_MAROON_TXT)
+#define RGB_MEDIUM_AQUAMARINE	CString(RGB_MEDIUM_AQUAMARINE_TXT)
+#define RGB_MEDIUM_BLUE			CString(RGB_MEDIUM_BLUE_TXT)
+#define RGB_MEDIUM_GREEN		CString(RGB_MEDIUM_GREEN_TXT)
+#define RGB_MEDIUM_ORCHID		CString(RGB_MEDIUM_ORCHID_TXT)
+#define RGB_MEDIUM_PURPLE		CString(RGB_MEDIUM_PURPLE_TXT)
+#define RGB_MEDIUM_RED			CString(RGB_MEDIUM_RED_TXT)
+#define RGB_MEDIUM_SEA_GREEN	CString(RGB_MEDIUM_SEA_GREEN_TXT)
+#define RGB_MEDIUM_SLATE_BLUE	CString(RGB_MEDIUM_SLATE_BLUE_TXT)
+#define RGB_MEDIUM_SPRING_GREEN	CString(RGB_MEDIUM_SPRING_GREEN_TXT)
+#define RGB_MEDIUM_TURQUOISE	CString(RGB_MEDIUM_TURQUOISE_TXT)
+#define RGB_MEDIUM_VIOLET_RED	CString(RGB_MEDIUM_VIOLET_RED_TXT)
+#define RGB_MIDNIGHT_BLUE		CString(RGB_MIDNIGHT_BLUE_TXT)
+#define RGB_MINT_CREAM			CString(RGB_MINT_CREAM_TXT)
+#define RGB_MISTY_ROSE			CString(RGB_MISTY_ROSE_TXT)
+#define RGB_MOCASSIN			CString(RGB_MOCASSIN_TXT)
+#define RGB_NAVAJO_WHITE		CString(RGB_NAVAJO_WHITE_TXT)
+#define RGB_OLD_LACE			CString(RGB_OLD_LACE_TXT)
+#define RGB_OLIVE				CString(RGB_OLIVE_TXT)
+#define RGB_OLIVE_DRAB			CString(RGB_OLIVE_DRAB_TXT)
+#define RGB_ORANGE				CString(RGB_ORANGE_TXT)
+#define RGB_ORANGE_RED			CString(RGB_ORANGE_RED_TXT)
+#define RGB_ORCHID				CString(RGB_ORCHID_TXT)
+#define RGB_PALE_BLUE			CString(RGB_PALE_BLUE_TXT)
+#define RGB_PALE_GOLDEN_ROD		CString(RGB_PALE_GOLDEN_ROD_TXT)
+#define RGB_PALE_GREEN			CString(RGB_PALE_GREEN_TXT)
+#define RGB_PALE_TURQUOISE		CString(RGB_PALE_TURQUOISE_TXT)
+#define RGB_PALE_VIOLET_RED		CString(RGB_PALE_VIOLET_RED_TXT)
+#define RGB_PAPAYA_WHIP			CString(RGB_PAPAYA_WHIP_TXT)
+#define RGB_PEACH_PUFF			CString(RGB_PEACH_PUFF_TXT)
+#define RGB_PERU				CString(RGB_PERU_TXT)
+#define RGB_PINK				CString(RGB_PINK_TXT)
+#define RGB_PLUM				CString(RGB_PLUM_TXT)
+#define RGB_POWDER_BLUE			CString(RGB_POWDER_BLUE_TXT)
+#define RGB_PURPLE				CString(RGB_PURPLE_TXT)
+#define RGB_RED					CString(RGB_RED_TXT)
+#define RGB_ROSE				CString(RGB_ROSE_TXT)
+#define RGB_ROSY_BROWN			CString(RGB_ROSY_BROWN_TXT)
+#define RGB_ROYAL_BLUE			CString(RGB_ROYAL_BLUE_TXT)
+#define RGB_SADDLE_BROWN		CString(RGB_SADDLE_BROWN_TXT)
+#define RGB_SALMON				CString(RGB_SALMON_TXT)
+#define RGB_SANDY_BROWN			CString(RGB_SANDY_BROWN_TXT)
+#define RGB_SEA_GREEN			CString(RGB_SEA_GREEN_TXT)
+#define RGB_SEA_SHELL			CString(RGB_SEA_SHELL_TXT)
+#define RGB_SIENNA				CString(RGB_SIENNA_TXT)
+#define RGB_SPRING_GREEN		CString(RGB_SPRING_GREEN_TXT)
+#define RGB_SKY_BLUE			CString(RGB_SKY_BLUE_TXT)
+#define RGB_SLATE_BLUE			CString(RGB_SLATE_BLUE_TXT)
+#define RGB_SLATE_GRAY			CString(RGB_SLATE_GRAY_TXT)
+#define RGB_SNOW				CString(RGB_SNOW_TXT)
+#define RGB_STEEL_BLUE			CString(RGB_STEEL_BLUE_TXT)
+#define RGB_TAN					CString(RGB_TAN_TXT)
+#define RGB_TOMATO				CString(RGB_TOMATO_TXT)
+#define RGB_TURQUOISE			CString(RGB_TURQUOISE_TXT)
+#define RGB_THISTLE				CString(RGB_THISTLE_TXT)
+#define RGB_VIOLET				CString(RGB_VIOLET_TXT)
+#define RGB_WHEAT				CString(RGB_WHEAT_TXT)
+#define RGB_WHITE				CString(RGB_WHITE_TXT)
+#define RGB_WHITE_SMOKE			CString(RGB_WHITE_SMOKE_TXT)
+#define RGB_YELLOW				CString(RGB_YELLOW_TXT)
+#define RGB_YELLOW_GREEN		CString(RGB_YELLOW_GREEN_TXT)
+
+#define RGB_LOG_ERROR			RGB_RED
+#define RGB_LOG_WARNING			RGB_DARKER_ORANGE
+#define RGB_LOG_NOTICE			RGB_PLUM
+#define RGB_LOG_DIMMED			RGB_DIM_GRAY
+#define RGB_LOG_SUCCESS			RGB_DARKER_SEA_GREEN
+
+#define RGB_LOG_ERROR_TXT		RGB_RED_TXT
+#define RGB_LOG_WARNING_TXT		RGB_DARKER_ORANGE_TXT
+#define RGB_LOG_NOTICE_TXT		RGB_PLUM_TXT
+#define RGB_LOG_DIMMED_TXT		RGB_DIM_GRAY_TXT
+#define RGB_LOG_SUCCESS_TXT		RGB_DARKER_SEA_GREEN_TXT
+@
+
+
+1.67
+log
+@Minor improvements.
+@
+text
+@d414 1
+a414 1
+	void			ShowNotifier(CString &strText, int iMsgType, bool bForceSoundOFF = false, bool bMessageEnabled = false);
+@
+
+
+1.66
+log
+@Removed old unused code.
+@
+text
+@d541 1
+a541 1
+	void BackupFiles(LPCSTR extensionToBack,bool automated, CString strPath, const CString &strBackupPath);
+@
+
+
+1.65
+log
+@Slightly reduced GUI resources usage; Improved string processing; General optimization.
+@
+text
+@a537 1
+	int  			GetRecMaxUpload();
+@
+
+
+1.64
+log
+@an asynchronous data output to log boxes
+@
+text
+@d413 1
+a413 2
+	void			ShowConnectionState(bool bConnected);
+	void			ShowConnectionState(bool bConnected,CString server, bool iconOnly = false);
+d505 1
+a505 1
+	HICON			m_hiconConn[3];
+@
+
+
+1.63
+log
+@Fixed directory creating [reported by Cheesy]; Improved string processing.
+@
+text
+@d427 2
+d460 2
+a496 2
+	CStringArray	m_astrMissedLogLines;
+	CStringArray	m_astrMissedDebugLogLines;
+d501 4
+d545 3
+@
+
+
+1.62
+log
+@Small optimization in OutputLogText.
+@
+text
+@d537 1
+a537 1
+	void BackupFiles(LPCSTR extensionToBack,bool automated, CString szPath, CString szBackupPath);
+@
+
+
+1.61
+log
+@Unified processing of client icon images.
+@
+text
+@d410 1
+a410 1
+	void			OutputLogText(const CString& strLogText, bool bDebug = false);
+@
+
+
+1.60
+log
+@Apply tooltip delay time from preferences to server list and status bar
+@
+text
+@d449 1
+@
+
+
+1.59
+log
+@Double clicking on the messages/server pane in the status bar now switches to the according dialog; Formatting and name changes
+@
+text
+@d448 1
+a505 1
+	CPPToolTip m_ttip;
+@
+
+
+1.58
+log
+@Tooltips alignment is now automatic;  Improved status bar tooltips
+@
+text
+@d40 1
+a392 12
+enum EnumStatusBarBoxes
+{
+	SB_MESSAGETEXT = 0,
+	SB_SESSIONTIME,
+	SB_MESSAGESTATUS,
+	SB_NUMUSERS,
+	SB_UPLOADRATE,
+	SB_DOWNLOADRATE,
+	SB_SERVER,
+
+	SB_NUMSBPARTS,
+};
+d400 2
+a401 1
+friend class 	CWebServer;
+d434 1
+a434 1
+	CStatusBarCtrl		m_ctlStatusBar;
+a487 1
+	int				GetPaneAtPosition(CPoint& point);
+@
+
+
+1.57
+log
+@Preparations for log message optimization.
+@
+text
+@d49 1
+d463 1
+d498 1
+d516 1
+d554 3
+@
+
+
+1.56
+log
+@Disable scheduled backup and backup on exit if a file corruption is detected on start + minor changes
+@
+text
+@d55 323
+a377 161
+#define RGB_DEFAULT				CString("<COLOR=Default>")
+#define RGB_ALICE_BLUE			CString("<COLOR=240,248,255>")
+#define RGB_ANTIQUE_WHITE		CString("<COLOR=250,235,215>")
+#define RGB_AQUAMARINE			CString("<COLOR=127,255,212>")
+#define RGB_AQUA				CString("<COLOR=51,204,204>")
+#define RGB_AZURE				CString("<COLOR=240,255,255>")
+#define RGB_BEIGE				CString("<COLOR=245,245,220>")
+#define RGB_BLACK				CString("<COLOR=0,0,0>")
+#define RGB_BLANCHEDALMOND		CString("<COLOR=255,235,205>")
+#define RGB_BLUE				CString("<COLOR=0,0,255>")
+#define RGB_BLUE_GRAY			CString("<COLOR=102,102,153>")
+#define RGB_BLUE_VIOLET			CString("<COLOR=138,43,226>")
+#define RGB_BRIGHT_GREEN		CString("<COLOR=0,255,0>")
+#define RGB_BRIGHT_LAVENDER		CString("<COLOR=230,230,250>")
+#define RGB_BRIGHT_PLUM			CString("<COLOR=221,160,221>")
+#define RGB_BRIGHT_TAN			CString("<COLOR=255,204,153>")
+#define RGB_BRIGHT_YELLOW		CString("<COLOR=255,255,224>")
+#define RGB_BROWN				CString("<COLOR=153,51,0>")
+#define RGB_BROWN_WOOD			CString("<COLOR=165,42,42>")
+#define RGB_BISQUE				CString("<COLOR=255,228,196>")
+#define RGB_BURLY_WOOD			CString("<COLOR=222,184,135>")
+#define RGB_CADET_BLUE			CString("<COLOR=95,158,160>")
+#define RGB_CHARTREUSE			CString("<COLOR=127,255,0>")
+#define RGB_CHOCOLATE			CString("<COLOR=210,105,30>")
+#define RGB_CORAL				CString("<COLOR=255,127,80>")
+#define RGB_CORNFLOWER_BLUE		CString("<COLOR=100,149,237>")
+#define RGB_CORNSILK			CString("<COLOR=255,248,220>")
+#define RGB_CRIMSON				CString("<COLOR=220,20,60>")
+#define RGB_CYAN				CString("<COLOR=0,255,255>")
+#define RGB_DARK_BLUE			CString("<COLOR=0,0,128>")
+#define RGB_DARK_CYAN			CString("<COLOR=0,128,128>")
+#define RGB_DARK_GOLD			CString("<COLOR=255,204,0>")
+#define RGB_DARK_GOLDEN_ROD		CString("<COLOR=184,134,11>")
+#define RGB_DARK_GRAY			CString("<COLOR=169,169,169>")
+#define RGB_DARK_GREEN			CString("<COLOR=0,100,0>")
+#define RGB_DARK_KHAKI			CString("<COLOR=189,183,107>")
+#define RGB_DARK_OLIVE			CString("<COLOR=85,107,47>")
+#define RGB_DARK_ORANGE			CString("<COLOR=255,140,0>")
+#define RGB_DARK_ORCHID			CString("<COLOR=153,50,204>")
+#define RGB_DARK_RED			CString("<COLOR=128,0,0>")
+#define RGB_DARK_SALMON			CString("<COLOR=233,150,122>")
+#define RGB_DARK_SEA_GREEN		CString("<COLOR=143,188,143>")
+#define RGB_DARK_SLATE_BLUE		CString("<COLOR=72,61,139>")
+#define RGB_DARK_SLATE_GRAY		CString("<COLOR=47,79,79>")
+#define RGB_DARK_TEAL			CString("<COLOR=0,51,102>")
+#define RGB_DARK_TURQUOISE		CString("<COLOR=0,206,209>")
+#define RGB_DARK_VIOLET			CString("<COLOR=148,0,211>")
+#define RGB_DARK_YELLOW			CString("<COLOR=128,128,0>")
+#define RGB_DARKER_GREEN		CString("<COLOR=0,51,0>")
+#define RGB_DARKER_ORANGE		CString("<COLOR=255,102,0>")
+#define RGB_DARKER_SEA_GREEN	CString("<COLOR=46,139,87>")
+#define RGB_DEEP_PINK			CString("<COLOR=255,20,147>")
+#define RGB_DEEP_SKY_BLUE		CString("<COLOR=0,191,255>")
+#define RGB_DIM_GRAY			CString("<COLOR=105,105,105>")
+#define RGB_DODGER_BLUE			CString("<COLOR=30,144,255>")
+#define RGB_FIRE_BRICK			CString("<COLOR=178,34,34>")
+#define RGB_FLORAL_WHITE		CString("<COLOR=255,250,240>")
+#define RGB_FOREST_GREEN		CString("<COLOR=34,139,34>")
+#define RGB_GAINSBORO			CString("<COLOR=220,220,220>")
+#define RGB_GHOST_WHITE			CString("<COLOR=248,248,255>")
+#define RGB_GOLD				CString("<COLOR=255,215,0>")
+#define RGB_GOLDEN_ROD			CString("<COLOR=218,165,32>")
+#define RGB_GRAY25				CString("<COLOR=192,192,192>")
+#define RGB_GRAY40				CString("<COLOR=153,153,153>")
+#define RGB_GRAY50				CString("<COLOR=128,128,128>")
+#define RGB_GRAY80				CString("<COLOR=51,51,51>")
+#define RGB_GREEN				CString("<COLOR=0,128,0>")
+#define RGB_GREEN_YELLOW		CString("<COLOR=173,255,47>")
+#define RGB_HONEY_DEW			CString("<COLOR=240,255,240>")
+#define RGB_HOT_PINK			CString("<COLOR=255,105,180>")
+#define RGB_INDIAN_RED			CString("<COLOR=205,92,92>")
+#define RGB_INDIGO				CString("<COLOR=51,51,153>")
+#define RGB_INDIGO_PURPLE		CString("<COLOR=75,0,130>")
+#define RGB_IVORY				CString("<COLOR=255,255,240>")
+#define RGB_KHAKI				CString("<COLOR=240,232,108>")
+#define RGB_LAVENDER			CString("<COLOR=204,153,255>")
+#define RGB_LAVENDER_BLUSH		CString("<COLOR=255,240,245>")
+#define RGB_LAWN_GREEN			CString("<COLOR=124,252,0>")
+#define RGB_LEMON_CHIFFON		CString("<COLOR=255,250,205>")
+#define RGB_LIGHT_BLUE			CString("<COLOR=51,102,255>")
+#define RGB_LIGHT_CORAL			CString("<COLOR=240,128,128>")
+#define RGB_LIGHT_CYAN			CString("<COLOR=204,255,255>")
+#define RGB_LIGHT_GOLDEN_ROD	CString("<COLOR=250,250,210>")
+#define RGB_LIGHT_GRAY			CString("<COLOR=211,211,211>")
+#define RGB_LIGHT_GREEN			CString("<COLOR=204,255,204>")
+#define RGB_LIGHT_ORANGE		CString("<COLOR=255,153,0>")
+#define RGB_LIGHT_PINK			CString("<COLOR=255,182,193>")
+#define RGB_LIGHT_SALMON		CString("<COLOR=255,160,122>")
+#define RGB_LIGHT_SKY_BLUE		CString("<COLOR=135,206,250>")
+#define RGB_LIGHT_SEA_GREEN		CString("<COLOR=32,178,170>")
+#define RGB_LIGHT_SLATE_GRAY	CString("<COLOR=119,136,153>")
+#define RGB_LIGHT_STEEL_BLUE	CString("<COLOR=176,196,222>")
+#define RGB_LIGHT_YELLOW		CString("<COLOR=255,255,153>")
+#define RGB_LIGHTER_CYAN		CString("<COLOR=224,255,255>")
+#define RGB_LIGHTER_GREEN		CString("<COLOR=144,238,144>")
+#define RGB_LIGHTER_SKY_BLUE	CString("<COLOR=173,216,230>")
+#define RGB_LIME				CString("<COLOR=153,204,0>")
+#define RGB_LIME_GREEN			CString("<COLOR=50,205,50>")
+#define RGB_LINEN				CString("<COLOR=250,240,230>")
+#define RGB_MAGENTA				CString("<COLOR=255,0,255>")
+#define RGB_MAROON				CString("<COLOR=128,0,0>")
+#define RGB_MEDIUM_AQUAMARINE	CString("<COLOR=102,205,170>")
+#define RGB_MEDIUM_BLUE			CString("<COLOR=0,0,205>")
+#define RGB_MEDIUM_GREEN		CString("<COLOR=0,205,0>")
+#define RGB_MEDIUM_ORCHID		CString("<COLOR=186,85,211>")
+#define RGB_MEDIUM_PURPLE		CString("<COLOR=147,112,219>")
+#define RGB_MEDIUM_RED			CString("<COLOR=205,0,0>")
+#define RGB_MEDIUM_SEA_GREEN	CString("<COLOR=60,179,113>")
+#define RGB_MEDIUM_SLATE_BLUE	CString("<COLOR=123,104,238>")
+#define RGB_MEDIUM_SPRING_GREEN	CString("<COLOR=0,250,154>")
+#define RGB_MEDIUM_TURQUOISE	CString("<COLOR=72,209,204>")
+#define RGB_MEDIUM_VIOLET_RED	CString("<COLOR=199,21,133>")
+#define RGB_MIDNIGHT_BLUE		CString("<COLOR=25,25,112>")
+#define RGB_MINT_CREAM			CString("<COLOR=245,255,250>")
+#define RGB_MISTY_ROSE			CString("<COLOR=255,228,225>")
+#define RGB_MOCASSIN			CString("<COLOR=255,228,181>")
+#define RGB_NAVAJO_WHITE		CString("<COLOR=255,222,173>")
+#define RGB_OLD_LACE			CString("<COLOR=253,245,230>")
+#define RGB_OLIVE				CString("<COLOR=51,51,0>")
+#define RGB_OLIVE_DRAB			CString("<COLOR=107,142,35>")
+#define RGB_ORANGE				CString("<COLOR=255,165,0>")
+#define RGB_ORANGE_RED			CString("<COLOR=255,69,0>")
+#define RGB_ORCHID				CString("<COLOR=218,112,214>")
+#define RGB_PALE_BLUE			CString("<COLOR=153,204,255>")
+#define RGB_PALE_GOLDEN_ROD		CString("<COLOR=238,232,170>")
+#define RGB_PALE_GREEN			CString("<COLOR=152,251,152>")
+#define RGB_PALE_TURQUOISE		CString("<COLOR=175,238,238>")
+#define RGB_PALE_VIOLET_RED		CString("<COLOR=219,112,147>")
+#define RGB_PAPAYA_WHIP			CString("<COLOR=255,239,213>")
+#define RGB_PEACH_PUFF			CString("<COLOR=255,218,185>")
+#define RGB_PERU				CString("<COLOR=205,133,63>")
+#define RGB_PINK				CString("<COLOR=255,192,203>")
+#define RGB_PLUM				CString("<COLOR=153,51,102>")
+#define RGB_POWDER_BLUE			CString("<COLOR=176,224,230>")
+#define RGB_PURPLE				CString("<COLOR=128,0,128>")
+#define RGB_RED					CString("<COLOR=255,0,0>")
+#define RGB_ROSE				CString("<COLOR=255,153,204>")
+#define RGB_ROSY_BROWN			CString("<COLOR=188,143,143>")
+#define RGB_ROYAL_BLUE			CString("<COLOR=65,105,225>")
+#define RGB_SADDLE_BROWN		CString("<COLOR=139,69,19>")
+#define RGB_SALMON				CString("<COLOR=250,128,114>")
+#define RGB_SANDY_BROWN			CString("<COLOR=244,164,96>")
+#define RGB_SEA_GREEN			CString("<COLOR=51,153,102>")
+#define RGB_SEA_SHELL			CString("<COLOR=255,245,238>")
+#define RGB_SIENNA				CString("<COLOR=160,82,45>")
+#define RGB_SPRING_GREEN		CString("<COLOR=0,255,127>")
+#define RGB_SKY_BLUE			CString("<COLOR=135,206,235>")
+#define RGB_SLATE_BLUE			CString("<COLOR=106,90,205>")
+#define RGB_SLATE_GRAY			CString("<COLOR=112,128,144>")
+#define RGB_SNOW				CString("<COLOR=255,250,250>")
+#define RGB_STEEL_BLUE			CString("<COLOR=70,130,180>")
+#define RGB_TAN					CString("<COLOR=210,180,140>")
+#define RGB_TOMATO				CString("<COLOR=255,99,71>")
+#define RGB_TURQUOISE			CString("<COLOR=64,224,208>")
+#define RGB_THISTLE				CString("<COLOR=216,191,216>")
+#define RGB_VIOLET				CString("<COLOR=238,130,238>")
+#define RGB_WHEAT				CString("<COLOR=245,222,179>")
+#define RGB_WHITE				CString("<COLOR=255,255,255>")
+#define RGB_WHITE_SMOKE			CString("<COLOR=245,245,245>")
+#define RGB_YELLOW				CString("<COLOR=255,255,0>")
+#define RGB_YELLOW_GREEN		CString("<COLOR=154,205,50>")
+d385 6
+@
+
+
+1.55
+log
+@Improved string processing.
+@
+text
+@d267 1
+@
+
+
+1.54
+log
+@I'm a sinner! WebServer rename feature added
+@
+text
+@d27 2
+a28 2
+#include "serverlistctrl.h"
+#include "knownfilelist.h"
+d35 1
+a35 1
+#include "traydialog.h"
+d42 1
+a42 1
+#include "aboutdlg.h"
+d48 1
+a48 1
+#include "loggable.h"
+d256 1
+a256 1
+	void			ShowNotifier(CString Text, int MsgType, bool ForceSoundOFF = false, bool bMessageEnabled = false);
+@
+
+
+1.53
+log
+@Fix for auto server connection when update server list on start is used
+@
+text
+@d266 1
+a266 1
+	void RunBackupNow(bool automated);
+d315 1
+d323 4
+a326 4
+	void		 OnOK()			{}
+	void		 OnClose();
+	void		 OnCancel();
+	void		 DisConnect();
+d334 2
+a335 2
+	CString 			m_strDebugLogFilePath;
+	CString 			m_strLogFilePath;
+@
+
+
+1.52
+log
+@speed optimization (removed recreation of log-filenames)
+@
+text
+@a299 1
+	afx_msg void		OnBnClickedButton2();
+d378 1
+@
+
+
+1.51
+log
+@Improved processing of the "startup"/"session time" timer;
+Improved string processing.
+@
+text
+@d334 2
+@
+
+
+1.50
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d274 2
+a275 2
+	CStatusBarCtrl   	m_ctlStatusBar;
+	CMuleToolbarCtrl 	m_ctlToolBar;
+d277 1
+a277 1
+	CReBarCtrl          m_ctlReBar;
+d279 2
+a280 2
+	CDialog			   *m_pdlgActive;
+	CStatisticsDlg  	m_dlgStatistics;
+d282 2
+a283 2
+	CTaskbarNotifier 	m_wndTaskbarNotifier;
+	byte				m_iStatus;
+@
+
+
+1.49
+log
+@Formatting, name changes and deleting spaces and tabs at end of lines
+@
+text
+@d258 1
+a258 1
+	void			ShowMessageState(uint8 iconnr);
+d283 1
+a283 1
+	uint8				m_iStatus;
+@
+
+
+1.48
+log
+@Ch-ch-ch-ch-Changes...
+@
+text
+@d236 1
+a236 1
+class CKnownFileList; 
+d256 1
+a256 1
+	void			ShowNotifier(CString Text, int MsgType, bool ForceSoundOFF = false, bool bMessageEnabled = false); 
+d302 1
+a302 1
+		
+d334 1
+a334 1
+	bool			m_bReady,m_bStartUpMinimized;	
+d340 1
+a340 1
+	
+d359 1
+a359 1
+	
+d369 1
+a369 1
+	
+d374 1
+a374 1
+public: 
+@
+
+
+1.47
+log
+@*** empty log message ***
+@
+text
+@d330 2
+a331 2
+	CString			m_strMissedLogLines;
+	CString			m_strMissedDebugLogLines;
+@
+
+
+1.46
+log
+@Better URL detection + minor changes
+@
+text
+@d220 1
+a220 1
+#define RGB_LOG_DIMMED			RGB_BLUE_GRAY
+@
+
+
+1.45
+log
+@removed another duplicate color
+@
+text
+@d158 1
+d161 1
+d221 1
+a221 1
+#define RGB_LOG_SUCCESS			RGB_SEA_GREEN
+@
+
+
+1.44
+log
+@Removed some duplicate colors
+@
+text
+@a90 1
+#define RGB_DARK_MAGENTA		CString("<COLOR=128,0,128>")
+@
+
+
+1.43
+log
+@Added some more color definitions
+@
+text
+@a170 1
+#define RGB_NAVY_BLUE			CString("<COLOR=0,0,128>")
+a198 1
+#define RGB_SILVER				CString("<COLOR=192,192,192>")
+a205 1
+#define RGB_TEAL				CString("<COLOR=0,128,128>")
+@
+
+
+1.42
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d55 163
+a217 47
+#define RGB_DEFAULT			CString("<COLOR=Default>")
+#define RGB_BLACK			CString("<COLOR=0,0,0>")
+#define RGB_BROWN			CString("<COLOR=153,51,0>")
+#define RGB_OLIVE_GREEN		CString("<COLOR=51,51,0>")
+#define RGB_DARK_GREEN		CString("<COLOR=0,51,0>")
+#define RGB_DARK_TEAL		CString("<COLOR=0,51,102>")
+#define RGB_DARK_BLUE		CString("<COLOR=0,0,128>")
+#define RGB_INDIGO			CString("<COLOR=51,51,153>")
+#define RGB_GRAY80			CString("<COLOR=51,51,51>")
+#define RGB_DARK_RED		CString("<COLOR=128,0,0>")
+#define RGB_ORANGE			CString("<COLOR=255,102,0>")
+#define RGB_DARK_YELLOW		CString("<COLOR=128,128,0>")
+#define RGB_GREEN			CString("<COLOR=0,128,0>")
+#define RGB_TEAL			CString("<COLOR=0,128,128>")
+#define RGB_BLUE			CString("<COLOR=0,0,255>")
+#define RGB_BLUE_GRAY		CString("<COLOR=102,102,153>")
+#define RGB_GRAY50			CString("<COLOR=128,128,128>")
+#define RGB_RED				CString("<COLOR=255,0,0>")
+#define RGB_LIGHT_ORANGE	CString("<COLOR=255,153,0>")
+#define RGB_LIME			CString("<COLOR=153,204,0>")
+#define RGB_SEA_GREEN		CString("<COLOR=51,153,102>")
+#define RGB_AQUA			CString("<COLOR=51,204,204>")
+#define RGB_LIGHT_BLUE		CString("<COLOR=51,102,255>")
+#define RGB_VIOLET			CString("<COLOR=128,0,128>")
+#define RGB_GRAY40			CString("<COLOR=153,153,153>")
+#define RGB_PINK			CString("<COLOR=255,0,255>")
+#define RGB_GOLD			CString("<COLOR=255,204,0>")
+#define RGB_YELLOW			CString("<COLOR=255,255,0>")
+#define RGB_BRIGHT_GREEN	CString("<COLOR=0,255,0>")
+#define RGB_TURQUOISE		CString("<COLOR=0,255,255>")
+#define RGB_SKY_BLUE		CString("<COLOR=0,204,255>")
+#define RGB_PLUM			CString("<COLOR=153,51,102>")
+#define RGB_GRAY25			CString("<COLOR=192,192,192>")
+#define RGB_ROSE			CString("<COLOR=255,153,204>")
+#define RGB_TAN				CString("<COLOR=255,204,153>")
+#define RGB_LIGHT_YELLOW	CString("<COLOR=255,255,153>")
+#define RGB_LIGHT_GREEN		CString("<COLOR=204,255,204>")
+#define RGB_LIGHT_TURQUOISE	CString("<COLOR=204,255,255>")
+#define RGB_PALE_BLUE		CString("<COLOR=153,204,255>")
+#define RGB_LAVENDER		CString("<COLOR=204,153,255>")
+#define RGB_WHITE			CString("<COLOR=255,255,255>")
+
+#define RGB_LOG_ERROR		RGB_RED
+#define RGB_LOG_WARNING		RGB_LIGHT_ORANGE
+#define RGB_LOG_NOTICE		RGB_PLUM
+#define RGB_LOG_DIMMED		RGB_BLUE_GRAY
+#define RGB_LOG_SUCCESS		RGB_SEA_GREEN
+d219 5
+@
+
+
+1.41
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d97 7
+@
+
+
+1.40
+log
+@Rich Edit logs with colors. To change color in a Log/Debug log  line use: <COLOR=#,#,#> ; To go back to default use: <COLOR=Default>
+@
+text
+@d55 42
+@
+
+
+1.39
+log
+@Log & Debug log scrollbars auto show + fixed IRC links click
+@
+text
+@d83 2
+a84 1
+	void			AddLogText(bool addtostatusbar,const CString& txt,bool bDebug=false);
+d87 1
+a87 1
+	void			ShowConnectionState(bool bConnected,CString server,bool iconOnly=false);
+@
+
+
+1.38
+log
+@Separating engine and GUI
+@
+text
+@d46 1
+a46 1
+#include "WebServer.h" // kuchin
+d81 1
+a81 1
+	void			AddServerMessageLine(LPCTSTR line); //merge from offic. 0.30a - bond006
+a82 2
+
+//[TwoBottle Mod]
+a83 2
+	//void			AddDebugLogText(bool addtostatusbar,const CString& txt);
+
+a91 1
+	//eklmn: bugfix(11): crazy output in statusbar (update only tray or window)
+a94 6
+	void			ResetLog();
+	void			ResetDebugLog();
+	CString			GetLastLogEntry();
+	CString			GetLastDebugLogEntry();
+	CString			GetAllLogEntries();
+	CString			GetAllDebugLogEntries();
+a95 1
+	// Barry - To find out if app is running or shutting/shut down
+a96 1
+	//N@@boleo Backup Feature
+d124 1
+a124 1
+	virtual void		OnTrayRButtonUp(CPoint pt); //bond006: systray menu gets stuck (bugfix)
+a137 1
+	// end of quick-speed changer
+d161 2
+a162 1
+	CMutex 			m_mutexLog; // i_a patch
+a200 1
+	//N@@boleo Backup Feature
+@
+
+
+1.37
+log
+@Fix for webserver, crash on clear completed files
+@
+text
+@a69 2
+class CEngineData;
+
+d191 1
+a191 1
+	CEngineData*	m_pEngineData;
+@
+
+
+1.36
+log
+@Fixed bug 0000443  - After clearing log via WebServer all messages from all Logs will appear in active Log tab
+@
+text
+@d162 1
+@
+
+
+1.35
+log
+@Formatting, comments, and name changes.
+@
+text
+@d104 4
+@
+
+
+1.34
+log
+@Formatting, comments, and name changes.
+@
+text
+@d197 1
+a197 1
+	CImageList		imagelist;
+@
+
+
+1.33
+log
+@Formatting, comments, and name changes.
+@
+text
+@d84 1
+a84 1
+	void			AddBugReport(LPCTSTR sFile, long nLine, CString msg);
+@
+
+
+1.32
+log
+@Formatting, comments, and name changes.
+@
+text
+@a54 7
+/* --obaldin: it lives in g_eMuleApp
+enum APPState {APP_STATE_RUNNING=0,
+			   APP_STATE_SHUTINGDOWN,
+			   APP_STATE_DONE
+};
+*/
+
+@
+
+
+1.31
+log
+@Changed log of files been hashed (better way of knowing remaining ones)
+@
+text
+@d62 13
+@
+
+
+1.30
+log
+@Rewrote the status bar code for extensibility and added session time display.
+@
+text
+@d123 1
+d211 3
+a213 3
+   afx_msg BOOL OnQueryEndSession();
+   afx_msg void OnNcDestroy();
+   BOOL TrayShow(void);
+@
+
+
+1.29
+log
+@Formatting, comments, and name changes.
+@
+text
+@d90 1
+@
+
+
+1.28
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d85 2
+a86 2
+	void			ShowConnectionState(bool connected);
+	void			ShowConnectionState(bool connected,CString server,bool iconOnly=false);
+@
+
+
+1.27
+log
+@New sockets
+@
+text
+@d55 1
+a55 1
+/* --obaldin: it lives in theApp
+d66 2
+a67 2
+// CemuleDlg Dialogfeld
+class CemuleDlg : public CTrayDialog, public CLoggable
+d70 2
+a71 1
+// Konstruktion
+d73 2
+a74 2
+	CemuleDlg(CWnd* pParent = NULL);	// Standardkonstruktor
+	~CemuleDlg();
+d103 8
+a110 8
+	CTransferWnd		transferwnd;
+	CServerWnd			serverwnd;
+	CPreferencesDlg		preferenceswnd;
+	CSharedFilesWnd		sharedfileswnd;
+	CSearchDlg			searchwnd;
+	CChatWnd			chatwnd;
+	CStatusBarCtrl   	statusbar;
+	CMuleToolbarCtrl 	toolbar;
+d112 1
+a112 1
+	CReBarCtrl          rebar;
+d114 3
+a116 3
+	CDialog*			activewnd;
+	CStatisticsDlg  	statisticswnd;
+	CIrcWnd				ircwnd;
+d118 1
+a118 2
+	//APPState			m_app_state; --obaldin: it lives in theApp
+	uint8				status;
+d120 2
+a121 2
+	CThemeHelperST		m_ThemeHelper;
+	CFont				m_DefaultFont;
+d123 13
+a135 12
+	HICON m_hIcon;
+	virtual void DoDataExchange(CDataExchange* pDX);
+	virtual BOOL OnInitDialog();
+	virtual void OnTrayRButtonUp(CPoint pt); //bond006: systray menu gets stuck (bugfix)
+	virtual BOOL OnCommand(WPARAM wParam, LPARAM lParam);
+
+	afx_msg void OnSysCommand(UINT nID, LPARAM lParam);
+	afx_msg void OnPaint();
+	afx_msg HCURSOR OnQueryDragIcon();
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+	afx_msg void OnBnClickedButton2();
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+d164 9
+a172 9
+	CMutex 	critical_log_section; // i_a patch
+	CString			logtext;
+	CString			debuglog;
+	bool			ready,startUpMinimized;	
+	HICON			connicons[3];
+	HICON			transicons[4];
+	HICON			imicons[3];
+	HICON			mytrayIcon;
+	HICON			usersicon;
+d174 1
+a174 1
+	CMeterIcon 		trayIcon;
+d177 1
+a177 1
+	HICON 			sourceTrayIcon;
+d184 2
+a185 2
+	HICON 			sourceTrayIconLowID;
+	HICON 			sourceTrayIconGrey;
+a202 2
+	friend class 		CWebServer;
+
+@
+
+
+1.26
+log
+@New sockets
+@
+text
+@d63 3
+d178 4
+d202 1
+a202 1
+	friend class 		CWebServer; // kuchin
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d139 2
+a140 1
+	//kuchin
+a143 2
+
+	//purity
+@
+
+
+1.24
+log
+@- updated CemuleDlg::AddServerMessageLine() to official 0.30a (better string handling)
+@
+text
+@d172 2
+d175 2
+@
+
+
+1.23
+log
+@BUGFIX: open systray dialog sticks when you right-click another area on desktop
+@
+text
+@d73 1
+a73 1
+	void			AddServerMessageLine(char* line,...);
+@
+
+
+1.22
+log
+@eMailNotifier and PopUp CleanUp
+@
+text
+@d123 1
+a123 1
+	virtual void OnTrayRButtonDown(CPoint pt);
+@
+
+
+1.21
+log
+@BackUp feature [n@@boleo]
+@
+text
+@d83 1
+a83 1
+	void			ShowNotifier(CString Text, int MsgType, bool ForceSoundOFF = false); 
+@
+
+
+1.20
+log
+@improved output in statusbar (update only tray or window) v2
+@
+text
+@d96 2
+d193 5
+@
+
+
+1.19
+log
+@Preparing for new sockets
+@
+text
+@d87 2
+a88 1
+	void			ShowTransferRate(bool bUpdateAll = true);
+@
+
+
+1.18
+log
+@Purity's webserver changes. Mostly.
+@
+text
+@d22 1
+d24 1
+@
+
+
+1.17
+log
+@Added rebar. You can disable rebar by undefining USE_REBAR.
+@
+text
+@d139 3
+@
+
+
+1.16
+log
+@Tray icon change
+@
+text
+@d102 3
+@
+
+
+1.16.2.1
+log
+@27a partial merge
+@
+text
+@a64 1
+friend class CSearchDlg;
+a179 2
+	void LoadNotifier(CString configuration); //<<--enkeyDEV(kei-kun) -TaskbarNotifier-
+	bool notifierenabled;					  //<<-- enkeyDEV(kei-kun) -Quick disable/enable notifier-
+a186 1
+	afx_msg void OnBnClickedHotmenu();
+@
+
+
+1.15
+log
+@further updated the addlog function + minor bugfix!
+@
+text
+@d186 1
+@
+
+
+1.14
+log
+@eMule priority set higher by default
+@
+text
+@d46 1
+d62 1
+a62 1
+class CemuleDlg : public CTrayDialog
+a70 2
+	void			AddDebugLogLine(bool addtostatusbar,CString line,...);
+	void			AddLogLine(bool addtostatusbar,CString line,...);
+d75 2
+a76 2
+	void			AddLogText(bool addtostatusbar,const CString& txt);
+	void			AddDebugLogText(bool addtostatusbar,const CString& txt);
+@
+
+
+1.13
+log
+@split some logging methods
+@
+text
+@d151 1
+a151 1
+	CCriticalSection 	critical_log_section; // i_a patch
+@
+
+
+1.12
+log
+@fix for some problems during app shutdown
+@
+text
+@d74 5
+@
+
+
+1.11
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d181 1
+@
+
+
+1.10
+log
+@commented out redundant code
+@
+text
+@d63 1
+@
+
+
+1.9
+log
+@Final lowID icon by DrSiRiUs
+@
+text
+@d121 3
+a123 3
+	afx_msg void QuickSpeedUpload(UINT nID);
+	afx_msg void QuickSpeedDownload(UINT nID);
+	afx_msg void QuickSpeedOther(UINT nID);
+@
+
+
+1.8
+log
+@overhead can be set in preferences now
+@
+text
+@d157 1
+@
+
+
+1.8.2.1
+log
+@First try
+@
+text
+@a46 2
+#include "BerkeleyDb/build_win32/db_cxx.h"
+
+a175 4
+
+	DbEnv	*pDbEnv;
+	Db		*pDbPrefs;
+//	Db		*pDbSecond; - example
+@
+
+
+1.8.2.2
+log
+@write the info on part senders
+@
+text
+@a178 1
+public: 
+a180 1
+	Db		*pDbSenders;
+@
+
+
+1.8.2.3
+log
+@keeping in sync with the main cvs line
+@
+text
+@a158 1
+	HICON 			sourceTrayIconLowID;
+@
+
+
+1.8.2.4
+log
+@process senders
+@
+text
+@d184 1
+a184 1
+	Db		*pDbSendersScore;
+@
+
+
+1.7
+log
+@new systray menu + small bugfix
+@
+text
+@d85 1
+@
+
+
+1.6
+log
+@updated to .25b codebase
+@
+text
+@d45 1
+d162 1
+@
+
+
+1.6.6.1
+log
+@*** empty log message ***
+@
+text
+@a44 1
+#include "MuleSystrayDlg.h"
+a160 2
+
+	CMuleSystrayDlg *m_pSystrayDlg;
+@
+
+
+1.6.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.5
+log
+@some variables got duplicated during merge
+@
+text
+@d99 2
+a100 2
+	//APPState		m_app_state; --obaldin: it lives in theApp
+	uint8			status;
+@
+
+
+1.4
+log
+@first compile with .25 codebase!
+@
+text
+@d51 1
+d56 1
+d99 1
+a99 1
+	APPState		m_app_state;
+@
+
+
+1.3
+log
+@update to .25b codebase
+@
+text
+@d97 1
+@
+
+
+1.2
+log
+@update to .25b codebase
+@
+text
+@d51 5
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d61 1
+d76 3
+d92 1
+d107 1
+d137 1
+d154 3
+@
+

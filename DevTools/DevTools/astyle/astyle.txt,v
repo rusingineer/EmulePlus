@@ -1,0 +1,49 @@
+head     1.1;
+branch   1.1.1;
+access   ;
+symbols  arelease:1.1.1.1 avendor:1.1.1;
+locks    ; strict;
+comment  @# @;
+
+
+1.1
+date     2003.10.12.18.45.05;  author morevit;  state Exp;
+branches 1.1.1.1;
+next     ;
+
+1.1.1.1
+date     2003.10.12.18.45.05;  author morevit;  state Exp;
+branches ;
+next     ;
+
+
+desc
+@@
+
+
+
+1.1
+log
+@Initial revision
+@
+text
+@style=ansi
+mode=c
+indent=tab=4
+indent-switches
+indent-cases
+indent-namespaces
+min-conditional-indent=2
+brackets=break
+pad=all
+padmod=parenbreaksonly
+break-blocks
+@
+
+
+1.1.1.1
+log
+@no message
+@
+text
+@@

@@ -1,0 +1,1251 @@
+head	1.23;
+access;
+symbols
+	PublicRelease_1_2e:1.23
+	Interim_Release_1-2e_RC1:1.23
+	PublicRelease_1_2d:1.23
+	Interim_Release_1-2d_RC1:1.22
+	Interim_Release_1-2d_beta1:1.22
+	PublicRelease_1_2c:1.20
+	Interim_Release_1-2c_RC1:1.20
+	Interim_Release_1-2c_beta1:1.19
+	PublicRelease_1_2b:1.19
+	Interim_Release_1-2b_RC1:1.19
+	PublicRelease_1_2a:1.19
+	Interim_Release_1-2a_RC1:1.19
+	Interim_Release_1-2a_beta2:1.19
+	Interim_Release_1-2a_beta1:1.19
+	PublicRelease_1_2:1.19
+	Interim_Release_1-2_RC1:1.19
+	Interim_Release_1-2_beta1:1.19
+	PublicRelease_1_1g:1.19
+	Interim_Release_1-1g_RC3:1.19
+	Interim_Release_1-1g_RC2:1.19
+	Interim_Release_1-1g_RC1:1.19
+	Interim_Release_1-1g_beta2:1.17
+	Interim_Release_1-1g_beta1:1.17
+	PublicRelease_1_1f:1.16
+	Interim_Release_1-1f_RC1:1.16
+	PublicRelease_1_1e:1.16
+	Interim_Release_1-1e_RC2:1.16
+	Interim_Release_1-1e_RC1:1.16
+	Interim_Release_1-1e_beta1:1.16
+	PublicRelease_1_1d:1.16
+	Interim_Release_1-1d_RC1:1.16
+	PublicRelease_1_1c:1.16
+	Interim_Release_1-1c_RC1:1.16
+	Interim_Release_1-1c_beta2:1.16
+	Interim_Release_1-1c_beta1:1.16
+	PublicRelease_1_1b:1.16
+	Interim_Release_1-1b_RC1:1.16
+	PublicRelease_1_1a:1.16
+	Interim_Release_1-1a_RC2:1.16
+	Interim_Release_1-1a_RC1:1.16
+	Interim_Release_1-1a_beta2:1.16
+	Interim_Release_1-1a_beta1:1.16
+	PublicRelease_1_1:1.16
+	Interim_Release_1-1_beta1:1.16
+	PublicRelease_1o:1.16
+	Interim_Release_1o_RC1:1.16
+	Interim_Release_1o_beta1:1.16
+	PublicRelease_1n:1.16
+	Interim_Release_1n_RC2:1.16
+	Interim_Release_1n_RC1:1.15
+	Interim_Release_1n_beta2:1.15
+	Interim_Release_1n_beta1:1.15
+	PublicRelease_1m:1.15
+	Interim_Release_1m_beta1:1.15
+	PublicRelease_1l:1.14
+	Interim_Release_1l_RC3:1.14
+	Interim_Release_1l_RC2:1.14
+	Interim_Release_1l_RC1:1.14
+	Interim_Release_1l_beta2:1.14
+	Interim_Release_1l_beta1:1.14
+	PublicRelease_1k:1.12
+	Interim_Release_1k_RC4:1.12
+	Interim_1k_RC3:1.12
+	Interim_1k_RC2:1.12
+	Interim_Release_1k_RC1:1.12
+	Interim_Release_1k_beta5:1.12
+	Intrerim_Release_1k_beta4:1.12
+	Interim_Release_1k_beta1:1.11
+	PublicRelease_1j:1.11
+	Interim_Release_1J_RC3:1.11
+	Interim_Release_1j_RC3:1.11
+	Interim_Release_1j_RC2:1.11
+	Interim_Release_1j_RC1:1.11
+	Interim_Release_1j_beta2:1.11
+	Interim_Release_1j_beta1:1.11
+	PublicRelease_1i:1.11
+	Interim_Release_1i_RC6:1.11
+	Interim_Release_1i_RC3:1.11
+	Interim_Release_1i_RC2:1.11
+	Interim_Release_1i_RC1:1.11
+	Interim_Release_1i_beta3:1.11
+	Interim_Release_1i_beta2:1.11
+	Interim_Release_1i_beta1:1.11
+	PublicRelease_1h:1.8
+	Interim_Release_1h_rc2:1.8
+	Interim_Release_1h_RC1:1.7
+	Interim_Release_1h_beta2:1.7
+	Interim_Release_1h_beta1_now:1.7
+	Interim_Release_1h_beta1:1.7
+	PublicRelease_1g:1.6
+	Interim_Release_1g_RC6_Final:1.6
+	Interim_Release_1g_RC6:1.6
+	Interim_Release_1g_RC5:1.6
+	Interim_Release_1g_RC4:1.6
+	Interim_Release_1g_RC3:1.6
+	Interim_Release_1g_beta2:1.5
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.4
+	Interim_Release_1f_RC3:1.4
+	Interim_Release_1f_RC2:1.4
+	Interim_Release_1f_RC:1.4
+	Interim_Release_1f_beta2:1.4
+	Interim_Release_1f_beta1:1.4
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.4
+	Interim_Release_1e_beta1:1.4
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.8
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.6
+	PublicRelease_1b:1.4
+	Interim_Release_1b_beta2:1.4
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.4.0.4
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.4.0.2
+	Interim_Release_1a_beta1:1.4
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.3
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.3
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.4
+	plus26based:1.2.0.2
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.23
+date	2008.05.01.04.29.44;	author aw3;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2008.01.04.05.11.02;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2007.10.31.18.18.56;	author fuxie-dk;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2007.04.02.23.14.14;	author kush_eplus;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.11.27.22.11.48;	author eklmn;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.08.21.17.58.24;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.08.31.17.56.54;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.06.19.05.34.24;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.04.15.03.31.20;	author katsyonak;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.04.15.02.32.55;	author katsyonak;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.03.22.05.01.40;	author aw3;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.22.00.17.22;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.09.16.11.02.34;	author dongato;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.08.02.15.56.27;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.14.13.05.58;	author partyckip;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.06.01.10.08.44;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.22.16.22.35;	author obaldin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.16.22.01.48;	author lord_kiron;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.02.13.27.42;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.21;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.23;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.23
+log
+@Removed unrequired reloading of GUI controls on update of slide labels; Formatting;
+Fixed wrong statistics slide control positions on consequential preferences open (the high slide position the more noticeable difference).
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2007 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgStats.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgStats, CPropertyPage)
+CPPgStats::CPPgStats()
+	: CPropertyPage(CPPgStats::IDD)
+	, m_iGraphsUpdateInterval(0)
+	, m_iAverageGraphTime(0)
+	, m_iStatisticsUpdInterval(0)
+{
+}
+
+CPPgStats::~CPPgStats()
+{
+}
+
+void CPPgStats::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_COLOR_BUTTON, m_ColorButton);
+	DDX_Control(pDX, IDC_COLORSELECTOR, m_ColorsCombo);
+	DDX_Control(pDX, IDC_RATIO, m_RatioCombo);
+	DDX_Text(pDX, IDC_ACSTAT, m_strStat);
+	DDX_Control(pDX, IDC_SLIDER, m_UpdateIntervalSlider);
+	DDX_Control(pDX, IDC_SLIDER3, m_AverageGraphTimeSlider);
+	DDX_Control(pDX, IDC_SLIDER2, m_StatisticsUpdateIntervalSlider);
+	DDX_Slider(pDX, IDC_SLIDER, m_iGraphsUpdateInterval);
+	DDX_Slider(pDX, IDC_SLIDER3, m_iAverageGraphTime);
+	DDX_Slider(pDX, IDC_SLIDER2, m_iStatisticsUpdInterval);
+}
+
+
+BEGIN_MESSAGE_MAP(CPPgStats, CPropertyPage)
+	ON_WM_HSCROLL()
+	ON_EN_CHANGE(IDC_ACSTAT, OnSettingsChange)
+	ON_CBN_SELCHANGE(IDC_COLORSELECTOR, OnCbnSelchangeColorselector)
+	ON_MESSAGE(CPN_SELCHANGE, OnSelChange)
+	ON_BN_CLICKED(IDC_COLOR_BUTTON, OnSettingsChange)
+	ON_CBN_SELCHANGE(IDC_RATIO, OnSettingsChange)
+END_MESSAGE_MAP()
+
+
+BOOL CPPgStats::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	for (int i = 0; i < 12; i++)
+		m_dwStatColors[i] = g_App.m_pPrefs->GetStatsColor(i);
+
+	m_UpdateIntervalSlider.SetRange(0, 120, true);
+	m_StatisticsUpdateIntervalSlider.SetRange(4, 120, true);
+	m_AverageGraphTimeSlider.SetRange(1, 60, true);
+
+	m_iGraphsUpdateInterval = m_pPrefs->GetTrafficOMeterInterval();
+	m_iStatisticsUpdInterval = m_pPrefs->GetStatsInterval();
+	m_iAverageGraphTime = m_pPrefs->GetStatsAverageMinutes();
+	
+	m_strStat.Format(_T("%u"), m_pPrefs->GetStatsMax());
+	
+	m_RatioCombo.AddString(_T("1:1"));
+	m_RatioCombo.AddString(_T("1:2"));
+	m_RatioCombo.AddString(_T("1:3"));
+	m_RatioCombo.AddString(_T("1:4"));
+	m_RatioCombo.AddString(_T("1:5"));
+	m_RatioCombo.AddString(_T("1:10"));
+	m_RatioCombo.AddString(_T("%"));
+	int n = m_pPrefs->GetGraphRatio();
+	if (n <= 5)
+		m_RatioCombo.SetCurSel(n - 1);
+	else if (n == 10)
+		m_RatioCombo.SetCurSel(5); // item 5 = 1:10
+	else
+		m_RatioCombo.SetCurSel(6); // item 6 = %
+	m_ColorButton.TrackSelection = TRUE;
+	Localize();
+	UpdateData(FALSE);
+	SetModified(FALSE);
+
+	return TRUE;
+}
+
+BOOL CPPgStats::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		for (int i = 0; i < 12; i++)
+			g_App.m_pPrefs->SetStatsColor(i, m_dwStatColors[i]);
+
+		g_App.m_pPrefs->SetTrafficOMeterInterval(static_cast<uint16>(m_iGraphsUpdateInterval));
+		g_App.m_pPrefs->SetStatsInterval(static_cast<uint16>(m_iStatisticsUpdInterval));
+		g_App.m_pPrefs->SetStatsAverageMinutes(static_cast<byte>(m_iAverageGraphTime));
+		int n = m_RatioCombo.GetCurSel();
+		m_pPrefs->SetGraphRatio(static_cast<byte>((n == 6) ? 255 : ((n == 5) ? 10 : n + 1)));
+		g_App.m_pMDlg->m_dlgStatistics.Localize();
+		g_App.m_pMDlg->m_dlgStatistics.ShowInterval();
+
+		uint16		uActiveConnScale = static_cast<uint16>(_tstoi(m_strStat));
+
+		if(uActiveConnScale > m_pPrefs->GetMaxConnections())
+		{
+			uActiveConnScale = m_pPrefs->GetMaxConnections();
+			m_strStat.Format(_T("%u"), uActiveConnScale);
+		}
+		m_pPrefs->SetStatsMax(uActiveConnScale);
+
+		UpdateData(FALSE);
+
+		g_App.m_pMDlg->m_dlgStatistics.UpdateActConScale();
+		g_App.m_pMDlg->m_dlgStatistics.RepaintMeters();
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+
+void CPPgStats::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_GRAPHS, IDS_GRAPHS },
+		{ IDC_STREE, IDS_STREE },
+		{ IDC_ACSTAT_LBL, IDS_ACSTAT_LBL },
+		{ IDC_ACRATIO_LBL, IDS_ACRATIO_LBL },
+		{ IDC_PREFCOLORS, IDS_COLORS }
+	};
+	static const UINT s_auResTbl2[] =
+	{
+		IDS_SP_BACKGROUND, IDS_SP_GRID,
+		IDS_SP_DL1, IDS_SP_DL2, IDS_SP_DL3,
+		IDS_SP_UL1, IDS_SP_UL2, IDS_SP_UL3,
+		IDS_SP_ACTCON, IDS_SP_ACTUL, IDS_SP_ACTDL
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+
+		m_ColorsCombo.ResetContent();
+		for (unsigned ui = 0; ui < ARRSIZE(s_auResTbl2); ui++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl2[ui]));
+			m_ColorsCombo.AddString(strRes);
+		}
+		m_ColorsCombo.SetCurSel(0);
+
+		ShowInterval();
+		::GetResString(&strRes, IDS_COL_MORECOLORS);
+		m_ColorButton.CustomText = strRes;
+		::GetResString(&strRes, IDS_COL_AUTOMATIC);
+		m_ColorButton.DefaultText = strRes;
+		OnCbnSelchangeColorselector();
+	}
+}
+
+void CPPgStats::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar) 
+{
+	SetModified(TRUE);
+	UpdateData(TRUE);
+
+	ShowInterval();
+	
+	CPropertyPage::OnHScroll(nSBCode, nPos, pScrollBar);
+}
+
+void CPPgStats::ShowInterval()
+{
+	CString	strRes;
+
+	if (m_iGraphsUpdateInterval == 0)
+		GetResString(&strRes, IDS_DISABLED);
+	else
+		strRes.Format(GetResString(IDS_STATS_UPDATELABEL), m_iGraphsUpdateInterval);
+	SetDlgItemText(IDC_SLIDERINFO, strRes);
+	
+	strRes.Format(GetResString(IDS_STATS_UPDATELABEL), m_iStatisticsUpdInterval);
+	SetDlgItemText(IDC_SLIDERINFO2, strRes);
+	strRes.Format(GetResString(IDS_STATS_AVGLABEL), m_iAverageGraphTime);
+	SetDlgItemText(IDC_SLIDERINFO3, strRes);
+}
+
+void CPPgStats::OnCbnSelchangeColorselector()
+{
+	int	iIdx = m_ColorsCombo.GetCurSel();
+
+	m_ColorButton.SetColor((COLORREF)m_dwStatColors[iIdx]);
+	m_ColorButton.SetDefaultColor(m_pPrefs->GetDefaultStatsColor(iIdx));
+}
+
+LONG CPPgStats::OnSelChange(UINT newColor, LONG /*wParam*/)
+{
+	m_dwStatColors[m_ColorsCombo.GetCurSel()] = (COLORREF)newColor;
+	SetModified(TRUE);
+	return TRUE;
+}
+@
+
+
+1.22
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings; Formatting.
+@
+text
+@d44 7
+a50 7
+	DDX_Control(pDX, IDC_COLOR_BUTTON, colorButton);
+	DDX_Control(pDX, IDC_COLORSELECTOR, colorsCombo);
+	DDX_Control(pDX, IDC_RATIO, ratioCombo);
+	DDX_Text(pDX, IDC_ACSTAT, acStat);
+	DDX_Control(pDX, IDC_SLIDER, updateIntervalSlider);
+	DDX_Control(pDX, IDC_SLIDER3, averageGraphTimeSlider);
+	DDX_Control(pDX, IDC_SLIDER2, statisticsUpdateIntervalSlider);
+d71 2
+a72 3
+	for (int i = 0; i < 12; i++) {
+		statcolors[i] = g_App.m_pPrefs->GetStatsColor(i);
+	}
+d74 3
+a76 3
+	updateIntervalSlider.SetRange(0, 120, false);
+	statisticsUpdateIntervalSlider.SetRange(4, 120, false);
+	averageGraphTimeSlider.SetRange(1, 60, false);
+d82 1
+a82 1
+	acStat.Format(_T("%u"), m_pPrefs->GetStatsMax());
+d84 7
+a90 7
+	ratioCombo.AddString(_T("1:1"));
+	ratioCombo.AddString(_T("1:2"));
+	ratioCombo.AddString(_T("1:3"));
+	ratioCombo.AddString(_T("1:4"));
+	ratioCombo.AddString(_T("1:5"));
+	ratioCombo.AddString(_T("1:10"));
+	ratioCombo.AddString(_T("%"));
+d93 1
+a93 1
+		ratioCombo.SetCurSel(n - 1);
+d95 1
+a95 1
+		ratioCombo.SetCurSel(5); // item 5 = 1:10
+d97 2
+a98 2
+		ratioCombo.SetCurSel(6); // item 6 = %
+	colorButton.TrackSelection = TRUE;
+d113 2
+a114 3
+		{
+			g_App.m_pPrefs->SetStatsColor(i, statcolors[i]);
+		}
+d118 1
+a118 1
+		int n = ratioCombo.GetCurSel();
+d123 1
+a123 1
+		uint16		uActiveConnScale = static_cast<uint16>(_tstoi(acStat));
+d128 1
+a128 1
+			acStat.Format(_T("%u"), uActiveConnScale);
+d171 1
+a171 1
+		colorsCombo.ResetContent();
+d175 1
+a175 1
+			colorsCombo.AddString(strRes);
+d177 1
+a177 1
+		colorsCombo.SetCurSel(0);
+d181 1
+a181 1
+		colorButton.CustomText = strRes;
+d183 1
+a183 1
+		colorButton.DefaultText = strRes;
+a211 2
+
+	UpdateData(FALSE);
+d216 1
+a216 1
+	int	iIdx = colorsCombo.GetCurSel();
+d218 2
+a219 2
+	colorButton.SetColor((COLORREF)statcolors[iIdx]);
+	colorButton.SetDefaultColor(m_pPrefs->GetDefaultStatsColor(iIdx));
+d224 1
+a224 1
+	statcolors[colorsCombo.GetCurSel()] = (COLORREF)newColor;
+@
+
+
+1.21
+log
+@Suppressed compiler warnings [Aw3].
+@
+text
+@d31 3
+a33 3
+	, graphsUpdateInterval(0)
+	, averageGraphTime(0)
+	, statisticsUpdateInterval(0)
+a43 1
+	//{{AFX_DATA_MAP(CPPgStats)
+a44 1
+	//}}AFX_DATA_MAP
+d51 3
+a53 11
+	DDX_Slider(pDX, IDC_SLIDER, graphsUpdateInterval);
+	DDX_Slider(pDX, IDC_SLIDER3, averageGraphTime);
+	DDX_Slider(pDX, IDC_SLIDER2, statisticsUpdateInterval);
+	DDX_Text(pDX, IDC_SLIDERINFO, graphUpdateIntervalDesc);
+	DDX_Text(pDX, IDC_SLIDERINFO2, statisticsUpdateIntervalDesc);
+	DDX_Text(pDX, IDC_SLIDERINFO3, avgGraphDesc);
+	DDX_Text(pDX, IDC_STREE, streeDesc);
+	DDX_Text(pDX, IDC_ACSTAT_LBL, acStatDesc);
+	DDX_Text(pDX, IDC_ACRATIO_LBL, acRatioDesc);
+	DDX_Text(pDX, IDC_PREFCOLORS, prefColorsDesc);
+	DDX_Text(pDX, IDC_GRAPHS, graphsDesc);
+d59 1
+a59 1
+	ON_EN_CHANGE(IDC_ACSTAT, OnEnChangeACStats)
+d62 2
+a63 2
+	ON_BN_CLICKED(IDC_COLOR_BUTTON, OnBnClickedColorButton)
+	ON_CBN_SELCHANGE(IDC_RATIO, OnCbnSelchangeRatio)
+d75 7
+a81 7
+	updateIntervalSlider.SetRange(0,120,false);
+	statisticsUpdateIntervalSlider.SetRange(4,120,false);
+	averageGraphTimeSlider.SetRange(1,60,false);
+
+	graphsUpdateInterval = m_pPrefs->GetTrafficOMeterInterval();
+	statisticsUpdateInterval = m_pPrefs->GetStatsInterval();
+	averageGraphTime = m_pPrefs->GetStatsAverageMinutes();
+d99 1
+a99 1
+	colorButton.TrackSelection	= TRUE;
+d117 3
+a119 3
+		g_App.m_pPrefs->SetTrafficOMeterInterval(static_cast<uint16>(graphsUpdateInterval));
+		g_App.m_pPrefs->SetStatsInterval(static_cast<uint16>(statisticsUpdateInterval));
+		g_App.m_pPrefs->SetStatsAverageMinutes(static_cast<byte>(averageGraphTime));
+d147 9
+a155 1
+	static const UINT s_adwResTbl[] =
+d163 1
+a163 1
+	if(::IsWindow(m_hWnd))
+d165 1
+a165 5
+		GetResString(&graphsDesc, IDS_GRAPHS);
+		GetResString(&streeDesc, IDS_STREE);
+		GetResString(&acStatDesc, IDS_ACSTAT_LBL);
+		GetResString(&acRatioDesc, IDS_ACRATIO_LBL);
+		SetWindowText(GetResString(IDS_STATISTICS));
+d167 5
+a171 1
+		GetResString(&prefColorsDesc, IDS_COLORS);
+d174 5
+a178 2
+		for (unsigned ui = 0; ui < ARRSIZE(s_adwResTbl); ui++)
+			colorsCombo.AddString(GetResString(s_adwResTbl[ui]));
+a180 2
+		UpdateData(FALSE);
+
+d182 4
+a185 2
+		colorButton.CustomText = GetResString(IDS_COL_MORECOLORS);
+		colorButton.DefaultText = GetResString(IDS_COL_AUTOMATIC);
+d202 4
+a205 2
+	if (graphsUpdateInterval == 0)
+		GetResString(&graphUpdateIntervalDesc, IDS_DISABLED);
+d207 2
+a208 1
+		graphUpdateIntervalDesc.Format(GetResString(IDS_STATS_UPDATELABEL), graphsUpdateInterval);
+d210 4
+a213 2
+	statisticsUpdateIntervalDesc.Format(GetResString(IDS_STATS_UPDATELABEL), statisticsUpdateInterval);
+	avgGraphDesc.Format(GetResString(IDS_STATS_AVGLABEL), averageGraphTime);
+@
+
+
+1.20
+log
+@Removed unneeded CString initializations.
+@
+text
+@d1 2
+a2 1
+// PPgStats.cpp : implementation file
+d4 13
+a27 2
+// CPPgStats dialog
+
+d127 3
+a129 3
+		g_App.m_pPrefs->SetTrafficOMeterInterval(graphsUpdateInterval);
+		g_App.m_pPrefs->SetStatsInterval(statisticsUpdateInterval);
+		g_App.m_pPrefs->SetStatsAverageMinutes(averageGraphTime);
+d131 1
+a131 1
+		m_pPrefs->SetGraphRatio((n == 6) ? 255 : ((n == 5) ? 10 : n + 1));
+d176 1
+a176 1
+		for (unsigned ui = 0; ui < ELEMENT_COUNT(s_adwResTbl); ui++)
+@
+
+
+1.19
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a18 1
+	, acStat(_T(""))
+a21 8
+	, graphUpdateIntervalDesc(_T(""))
+	, statisticsUpdateIntervalDesc(_T(""))
+	, avgGraphDesc(_T(""))
+	, streeDesc(_T(""))
+	, acStatDesc(_T(""))
+	, acRatioDesc(_T(""))
+	, prefColorsDesc(_T(""))
+	, graphsDesc(_T(""))
+@
+
+
+1.18
+log
+@renamed 3 variables
+@
+text
+@d79 1
+a79 1
+		statcolors[i] = g_App.g_pPrefs->GetStatsColor(i);
+d122 1
+a122 1
+			g_App.g_pPrefs->SetStatsColor(i, statcolors[i]);
+d124 3
+a126 3
+		g_App.g_pPrefs->SetTrafficOMeterInterval(graphsUpdateInterval);
+		g_App.g_pPrefs->SetStatsInterval(statisticsUpdateInterval);
+		g_App.g_pPrefs->SetStatsAverageMinutes(averageGraphTime);
+@
+
+
+1.17
+log
+@IDS_STATISTICS substitutes IDS_STATSSETUPINFO.
+@
+text
+@d79 1
+a79 1
+		statcolors[i] = g_eMuleApp.m_pGlobPrefs->GetStatsColor(i);
+d122 1
+a122 1
+			g_eMuleApp.m_pGlobPrefs->SetStatsColor(i, statcolors[i]);
+d124 3
+a126 3
+		g_eMuleApp.m_pGlobPrefs->SetTrafficOMeterInterval(graphsUpdateInterval);
+		g_eMuleApp.m_pGlobPrefs->SetStatsInterval(statisticsUpdateInterval);
+		g_eMuleApp.m_pGlobPrefs->SetStatsAverageMinutes(averageGraphTime);
+d129 2
+a130 2
+		g_eMuleApp.m_pdlgEmule->m_dlgStatistics.Localize();
+		g_eMuleApp.m_pdlgEmule->m_dlgStatistics.ShowInterval();
+d143 2
+a144 2
+		g_eMuleApp.m_pdlgEmule->m_dlgStatistics.UpdateActConScale();
+		g_eMuleApp.m_pdlgEmule->m_dlgStatistics.RepaintMeters();
+@
+
+
+1.16
+log
+@Minor optimization.
+@
+text
+@d168 1
+a168 1
+		SetWindowText(GetResString(IDS_STATSSETUPINFO));
+@
+
+
+1.15
+log
+@Improved preferences localization.
+@
+text
+@d211 4
+a214 2
+	colorButton.SetColor((COLORREF) statcolors[colorsCombo.GetCurSel()]);
+	colorButton.SetDefaultColor(m_pPrefs->GetDefaultStatsColor(colorsCombo.GetCurSel()));
+d219 1
+a219 1
+	statcolors[colorsCombo.GetCurSel()]=(COLORREF) newColor;
+@
+
+
+1.14
+log
+@fix for saving of connection utilization magic value [thx Aw3]
+@
+text
+@d164 4
+a167 4
+		graphsDesc = GetResString(IDS_GRAPHS);
+		streeDesc = GetResString(IDS_STREE);
+		acStatDesc = GetResString(IDS_ACSTAT_LBL);
+		acRatioDesc = GetResString(IDS_ACRATIO_LBL);
+d170 1
+a170 1
+		prefColorsDesc = GetResString(IDS_COLORS);
+d199 1
+a199 1
+		graphUpdateIntervalDesc = GetResString(IDS_DISABLED);
+@
+
+
+1.13
+log
+@scale connection utilization by percentage in statistics [xrmb]
+@
+text
+@d100 3
+a102 3
+	if (n<=5)
+		ratioCombo.SetCurSel(n-1);
+	else if (n==10)
+d128 1
+a128 1
+		m_pPrefs->SetGraphRatio((n==5)?10:n+1);
+@
+
+
+1.12
+log
+@Fixed max. value check of Preferences/Statistics/Active connections scale; optimization
+@
+text
+@d92 1
+a92 1
+	ratioCombo.AddString(_T("1:1"));		// propstats Cax2
+d98 1
+d100 6
+a105 2
+	ratioCombo.SetCurSel((n==10)?5:n-1); // propstats Cax2
+
+d128 1
+a128 1
+		m_pPrefs->SetGraphRatio((n==5)?10:n+1);	// propstats Cax2
+@
+
+
+1.11
+log
+@Formatting, comments, and name changes.
+@
+text
+@d68 1
+a68 1
+    ON_MESSAGE(CPN_SELCHANGE, OnSelChange)
+d90 1
+a90 1
+	acStat.Format(_T("%d"), m_pPrefs->GetStatsMax());
+d115 3
+a117 2
+		for (int i=0;i<12;i++) {
+			g_eMuleApp.m_pGlobPrefs->SetStatsColor(i,statcolors[i]);
+d126 4
+a129 2
+				
+		if(m_pPrefs->GetStatsMax() > m_pPrefs->GetMaxConnections())
+d131 2
+a132 4
+			m_pPrefs->SetStatsMax(m_pPrefs->GetMaxConnections());
+			acStat.Format(_T("%d"), m_pPrefs->GetStatsMax());			
+		} else {
+			m_pPrefs->SetStatsMax(_tstoi(acStat));
+d134 1
+d149 8
+d168 2
+a169 11
+		colorsCombo.AddString(GetResString(IDS_SP_BACKGROUND));
+		colorsCombo.AddString(GetResString(IDS_SP_GRID));
+		colorsCombo.AddString(GetResString(IDS_SP_DL1));
+		colorsCombo.AddString(GetResString(IDS_SP_DL2));
+		colorsCombo.AddString(GetResString(IDS_SP_DL3));
+		colorsCombo.AddString(GetResString(IDS_SP_UL1));
+		colorsCombo.AddString(GetResString(IDS_SP_UL2));
+		colorsCombo.AddString(GetResString(IDS_SP_UL3));
+		colorsCombo.AddString(GetResString(IDS_SP_ACTCON));
+		colorsCombo.AddString(GetResString(IDS_SP_ACTUL));
+		colorsCombo.AddString(GetResString(IDS_SP_ACTDL));
+a186 1
+
+d191 5
+a195 5
+void CPPgStats::ShowInterval() {
+		
+	if (graphsUpdateInterval == 0) 
+		graphUpdateIntervalDesc.Format(GetResString(IDS_DISABLED));
+	else 
+d198 2
+a199 6
+	if (statisticsUpdateInterval == 0)
+		statisticsUpdateIntervalDesc.Format(GetResString(IDS_DISABLED));
+	else
+		statisticsUpdateIntervalDesc.Format(GetResString(IDS_STATS_UPDATELABEL), statisticsUpdateInterval);
+	
+	avgGraphDesc.Format(GetResString(IDS_STATS_AVGLABEL), averageGraphTime);	
+d201 1
+a201 1
+	UpdateData(FALSE); 
+a215 1
+
+@
+
+
+1.10
+log
+@A little more method factoring, a few name changes, no (intended) logic changes.
+@
+text
+@d86 3
+a88 3
+	graphsUpdateInterval = app_prefs->GetTrafficOMeterInterval();
+	statisticsUpdateInterval = app_prefs->GetStatsInterval();
+	averageGraphTime = app_prefs->GetStatsAverageMinutes();
+d90 1
+a90 1
+	acStat.Format(_T("%d"), app_prefs->GetStatsMax());
+d98 1
+a98 1
+	int n = app_prefs->GetGraphRatio();
+d122 1
+a122 1
+		app_prefs->SetGraphRatio((n==5)?10:n+1);	// propstats Cax2
+d126 1
+a126 1
+		if(app_prefs->GetStatsMax() > app_prefs->GetMaxConnections())
+d128 2
+a129 2
+			app_prefs->SetStatsMax(app_prefs->GetMaxConnections());
+			acStat.Format(_T("%d"), app_prefs->GetStatsMax());			
+d131 1
+a131 1
+			app_prefs->SetStatsMax(_tstoi(acStat));
+d211 1
+a211 1
+	colorButton.SetDefaultColor(app_prefs->GetDefaultStatsColor(colorsCombo.GetCurSel()));
+@
+
+
+1.9
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d211 1
+a211 1
+	colorButton.SetDefaultColor(app_prefs->DefaultStatsColor(colorsCombo.GetCurSel()));
+@
+
+
+1.8
+log
+@Fixes for WebServices cat problem and statistics value being reset
+@
+text
+@d79 1
+a79 1
+		statcolors[i] = theApp.glob_prefs->GetStatsColor(i);
+d116 1
+a116 1
+			theApp.glob_prefs->SetStatsColor(i,statcolors[i]);
+d118 3
+a120 3
+		theApp.glob_prefs->SetTrafficOMeterInterval(graphsUpdateInterval);
+		theApp.glob_prefs->SetStatsInterval(statisticsUpdateInterval);
+		theApp.glob_prefs->SetStatsAverageMinutes(averageGraphTime);
+d123 2
+a124 2
+		theApp.emuledlg->statisticswnd.Localize();
+		theApp.emuledlg->statisticswnd.ShowInterval();
+d136 2
+a137 2
+		theApp.emuledlg->statisticswnd.UpdateActConScale();
+		theApp.emuledlg->statisticswnd.RepaintMeters();
+@
+
+
+1.7
+log
+@converted to use DDX framework
+@
+text
+@d120 1
+a120 1
+		theApp.glob_prefs->SetStatsAverageMinutes(statisticsUpdateInterval);
+@
+
+
+1.6
+log
+@unicode cleanup
+@
+text
+@d19 12
+d42 1
+a42 1
+	DDX_Control(pDX, IDC_COLOR_BUTTON, m_ctlColor);
+d44 17
+a60 2
+	DDX_Control(pDX, IDC_COLORSELECTOR, m_colors);
+	DDX_Control(pDX, IDC_RATIO, m_ratio);
+d77 3
+a79 2
+	for (int i=0;i<12;i++) {
+		statcolors[i]=theApp.glob_prefs->GetStatsColor(i);
+d82 18
+a99 22
+	mystats1=app_prefs->GetTrafficOMeterInterval();
+	mystats2=app_prefs->GetStatsInterval();
+	mystats3=app_prefs->GetStatsAverageMinutes();
+
+	((CSliderCtrl*)GetDlgItem(IDC_SLIDER))->SetRange(0,120,false);
+	((CSliderCtrl*)GetDlgItem(IDC_SLIDER2))->SetRange(4,120,false);
+	((CSliderCtrl*)GetDlgItem(IDC_SLIDER3))->SetRange(1,60,false);
+	((CSliderCtrl*)GetDlgItem(IDC_SLIDER))->SetPos(mystats1); 
+	((CSliderCtrl*)GetDlgItem(IDC_SLIDER2))->SetPos(mystats2);
+	((CSliderCtrl*)GetDlgItem(IDC_SLIDER3))->SetPos(mystats3);
+
+	CString strBuffer;
+	strBuffer.Format(_T("%d"), app_prefs->GetStatsMax());
+	GetDlgItem(IDC_ACSTAT)->SetWindowText(strBuffer);
+	m_ratio.AddString(_T("1:1"));		// propstats Cax2
+	m_ratio.AddString(_T("1:2"));
+	m_ratio.AddString(_T("1:3"));
+	m_ratio.AddString(_T("1:4"));
+	m_ratio.AddString(_T("1:5"));
+	m_ratio.AddString(_T("1:10"));
+	int n=app_prefs->GetGraphRatio();
+	m_ratio.SetCurSel((n==10)?5:n-1); // propstats Cax2
+d101 1
+a101 1
+	m_ctlColor.TrackSelection	= TRUE;
+a110 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d113 2
+a114 1
+		CString buffer;
+d118 4
+a121 4
+		theApp.glob_prefs->SetTrafficOMeterInterval(mystats1);
+		theApp.glob_prefs->SetStatsInterval(mystats2);
+		theApp.glob_prefs->SetStatsAverageMinutes(mystats3);
+		int n=m_ratio.GetCurSel();
+d125 1
+a125 2
+		
+		GetDlgItem(IDC_ACSTAT)->GetWindowText(buffer);
+d129 1
+a129 2
+			buffer.Format(_T("%d"), app_prefs->GetStatsMax());
+			GetDlgItem(IDC_ACSTAT)->SetWindowText(buffer);
+d131 1
+a131 1
+			app_prefs->SetStatsMax(_tstoi(buffer));
+d134 2
+d147 1
+a147 1
+	if(m_hWnd)
+d149 4
+a152 4
+		GetDlgItem(IDC_GRAPHS)->SetWindowText(GetResString(IDS_GRAPHS));
+		GetDlgItem(IDC_STREE)->SetWindowText(GetResString(IDS_STREE));
+		GetDlgItem(IDC_ACSTAT_LBL)->SetWindowText(GetResString(IDS_ACSTAT_LBL));
+		GetDlgItem(IDC_ACRATIO_LBL)->SetWindowText(GetResString(IDS_ACRATIO_LBL));
+d155 17
+a171 1
+		GetDlgItem(IDC_PREFCOLORS)->SetWindowText(GetResString(IDS_COLORS));
+a172 14
+		m_colors.ResetContent();
+		m_colors.AddString(GetResString(IDS_SP_BACKGROUND));
+		m_colors.AddString(GetResString(IDS_SP_GRID));
+		m_colors.AddString(GetResString(IDS_SP_DL1));
+		m_colors.AddString(GetResString(IDS_SP_DL2));
+		m_colors.AddString(GetResString(IDS_SP_DL3));
+		m_colors.AddString(GetResString(IDS_SP_UL1));
+		m_colors.AddString(GetResString(IDS_SP_UL2));
+		m_colors.AddString(GetResString(IDS_SP_UL3));
+		m_colors.AddString(GetResString(IDS_SP_ACTCON));
+//                m_colors.AddString(GetResString(IDS_SP_TOTALUL));
+		m_colors.AddString(GetResString(IDS_SP_ACTUL));
+		m_colors.AddString(GetResString(IDS_SP_ACTDL));
+		m_colors.SetCurSel(0);
+d174 2
+a175 2
+		m_ctlColor.CustomText = GetResString(IDS_COL_MORECOLORS);
+		m_ctlColor.DefaultText = GetResString(IDS_COL_AUTOMATIC);
+d183 1
+a183 11
+	
+	CSliderCtrl* slider =(CSliderCtrl*)pScrollBar;
+	int position = slider->GetPos();
+
+	if (pScrollBar==GetDlgItem(IDC_SLIDER))
+	{
+		mystats1=position;
+	} else if (pScrollBar==GetDlgItem(IDC_SLIDER2))	{
+		mystats2=(position<5)?0:position;	// Cax2
+	} else 
+		mystats3=position;
+d187 1
+a187 1
+	UpdateData(false); 
+d192 5
+a196 1
+	CString m_SliderValue;
+d198 2
+a199 8
+	if (mystats1==0) 
+		m_SliderValue.Format(GetResString(IDS_DISABLED));
+	else 
+		m_SliderValue.Format(GetResString(IDS_STATS_UPDATELABEL), mystats1);
+	GetDlgItem(IDC_SLIDERINFO)->SetWindowText(m_SliderValue);
+
+	if (mystats2==0)
+		m_SliderValue.Format(GetResString(IDS_DISABLED));
+d201 3
+a203 2
+		m_SliderValue.Format(GetResString(IDS_STATS_UPDATELABEL), mystats2);
+	GetDlgItem(IDC_SLIDERINFO2)->SetWindowText(m_SliderValue);
+d205 1
+a205 2
+	m_SliderValue.Format(GetResString(IDS_STATS_AVGLABEL), mystats3);
+	GetDlgItem(IDC_SLIDERINFO3)->SetWindowText(m_SliderValue);
+d210 2
+a211 2
+	m_ctlColor.SetColor((COLORREF) statcolors[m_colors.GetCurSel()]);
+	m_ctlColor.SetDefaultColor(app_prefs->DefaultStatsColor(m_colors.GetCurSel()));
+d216 1
+a216 1
+	statcolors[m_colors.GetCurSel()]=(COLORREF) newColor;
+@
+
+
+1.5
+log
+@code cleanup
+@
+text
+@d66 1
+a66 1
+	strBuffer.Format("%d", app_prefs->GetStatsMax());
+d68 6
+a73 6
+	m_ratio.AddString("1:1");		// propstats Cax2
+	m_ratio.AddString("1:2");
+	m_ratio.AddString("1:3");
+	m_ratio.AddString("1:4");
+	m_ratio.AddString("1:5");
+	m_ratio.AddString("1:10");
+d107 1
+a107 1
+			buffer.Format("%d", app_prefs->GetStatsMax());
+d110 1
+a110 1
+			app_prefs->SetStatsMax(atoi(buffer));
+d149 2
+a150 2
+		m_ctlColor.CustomText = _T(GetResString(IDS_COL_MORECOLORS));
+		m_ctlColor.DefaultText = _T(GetResString(IDS_COL_AUTOMATIC));
+@
+
+
+1.4
+log
+@the famous zz upload system! :)
+@
+text
+@d91 1
+a91 1
+		char buffer[100];
+d103 1
+a103 1
+		GetDlgItem(IDC_ACSTAT)->GetWindowText(buffer,20);
+d107 1
+a107 1
+			sprintf(buffer, "%d", app_prefs->GetStatsMax());
+@
+
+
+1.3
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d144 1
+@
+
+
+1.2
+log
+@Removed SingleLock - no need there.
+@
+text
+@d8 5
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d82 1
+a82 1
+	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

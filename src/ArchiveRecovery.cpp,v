@@ -1,0 +1,2657 @@
+head	1.40;
+access;
+symbols
+	PublicRelease_1_2e:1.39
+	Interim_Release_1-2e_RC1:1.39
+	PublicRelease_1_2d:1.37
+	Interim_Release_1-2d_RC1:1.37
+	Interim_Release_1-2d_beta1:1.36
+	PublicRelease_1_2c:1.33
+	Interim_Release_1-2c_RC1:1.33
+	Interim_Release_1-2c_beta1:1.30
+	PublicRelease_1_2b:1.30
+	Interim_Release_1-2b_RC1:1.30
+	PublicRelease_1_2a:1.30
+	Interim_Release_1-2a_RC1:1.30
+	Interim_Release_1-2a_beta2:1.30
+	Interim_Release_1-2a_beta1:1.28
+	PublicRelease_1_2:1.27
+	Interim_Release_1-2_RC1:1.27
+	Interim_Release_1-2_beta1:1.27
+	PublicRelease_1_1g:1.27
+	Interim_Release_1-1g_RC3:1.27
+	Interim_Release_1-1g_RC2:1.27
+	Interim_Release_1-1g_RC1:1.27
+	Interim_Release_1-1g_beta2:1.25
+	Interim_Release_1-1g_beta1:1.25
+	PublicRelease_1_1f:1.24
+	Interim_Release_1-1f_RC1:1.24
+	PublicRelease_1_1e:1.24
+	Interim_Release_1-1e_RC2:1.24
+	Interim_Release_1-1e_RC1:1.24
+	Interim_Release_1-1e_beta1:1.24
+	PublicRelease_1_1d:1.24
+	Interim_Release_1-1d_RC1:1.24
+	PublicRelease_1_1c:1.24
+	Interim_Release_1-1c_RC1:1.24
+	Interim_Release_1-1c_beta2:1.24
+	Interim_Release_1-1c_beta1:1.24
+	PublicRelease_1_1b:1.23
+	Interim_Release_1-1b_RC1:1.23
+	PublicRelease_1_1a:1.23
+	Interim_Release_1-1a_RC2:1.23
+	Interim_Release_1-1a_RC1:1.23
+	Interim_Release_1-1a_beta2:1.23
+	Interim_Release_1-1a_beta1:1.23
+	PublicRelease_1_1:1.23
+	Interim_Release_1-1_beta1:1.23
+	PublicRelease_1o:1.23
+	Interim_Release_1o_RC1:1.23
+	Interim_Release_1o_beta1:1.23
+	PublicRelease_1n:1.23
+	Interim_Release_1n_RC2:1.23
+	Interim_Release_1n_RC1:1.23
+	Interim_Release_1n_beta2:1.22
+	Interim_Release_1n_beta1:1.22
+	PublicRelease_1m:1.22
+	Interim_Release_1m_beta1:1.22
+	PublicRelease_1l:1.22
+	Interim_Release_1l_RC3:1.22
+	Interim_Release_1l_RC2:1.22
+	Interim_Release_1l_RC1:1.22
+	Interim_Release_1l_beta2:1.22
+	Interim_Release_1l_beta1:1.22
+	PublicRelease_1k:1.21
+	Interim_Release_1k_RC4:1.21
+	Interim_1k_RC3:1.21
+	Interim_1k_RC2:1.21
+	Interim_Release_1k_RC1:1.21
+	Interim_Release_1k_beta5:1.21
+	Intrerim_Release_1k_beta4:1.21
+	Interim_Release_1k_beta1:1.20
+	PublicRelease_1j:1.19
+	Interim_Release_1J_RC3:1.19
+	Interim_Release_1j_RC3:1.19
+	Interim_Release_1j_RC2:1.19
+	Interim_Release_1j_RC1:1.19
+	Interim_Release_1j_beta2:1.19
+	Interim_Release_1j_beta1:1.19
+	PublicRelease_1i:1.16
+	Interim_Release_1i_RC6:1.16
+	Interim_Release_1i_RC3:1.16
+	Interim_Release_1i_RC2:1.16
+	Interim_Release_1i_RC1:1.16
+	Interim_Release_1i_beta3:1.16
+	Interim_Release_1i_beta2:1.15
+	Interim_Release_1i_beta1:1.13
+	PublicRelease_1h:1.9
+	Interim_Release_1h_rc2:1.9
+	Interim_Release_1h_RC1:1.9
+	Interim_Release_1h_beta2:1.9
+	Interim_Release_1h_beta1_now:1.9
+	Interim_Release_1h_beta1:1.9
+	PublicRelease_1g:1.9
+	Interim_Release_1g_RC6_Final:1.9
+	Interim_Release_1g_RC6:1.9
+	Interim_Release_1g_RC5:1.9
+	Interim_Release_1g_RC4:1.9
+	Interim_Release_1g_RC3:1.9
+	Interim_Release_1g_beta2:1.7
+	Interim_Release_1g_beta1:1.5
+	Interim_Release_1f_RC4:1.4
+	Interim_Release_1f_RC3:1.4
+	Interim_Release_1f_RC2:1.4
+	Interim_Release_1f_RC:1.4
+	Interim_Release_1f_beta2:1.4
+	Interim_Release_1f_beta1:1.4
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.3
+	Interim_Release_1e_beta1:1.3
+	PublicRelease_1c:1.3
+	featurestest:1.3.0.4
+	Interim_Release_1c_RC:1.3
+	Interim_Release_1c_beta2:1.3
+	Interim_Release_1c_beta1:1.3
+	threaded_downloadqueue:1.3.0.2
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.6
+	plus26based:1.1.0.4
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.2.1
+	proxytest:1.1.2.1.0.2
+	official_sockets:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.40
+date	2009.07.30.03.50.48;	author aw3;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2008.09.29.04.49.57;	author aw3;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2008.02.25.04.27.51;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2008.01.31.22.50.30;	author eklmn;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2008.01.13.05.27.09;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2008.01.12.21.23.30;	author eklmn;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2007.07.27.06.22.17;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2007.04.14.04.21.41;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2007.03.18.15.38.29;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2006.05.22.22.32.27;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.05.05.11.55.54;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2006.03.17.07.07.16;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.08.07.17.13.23;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.01.19.17.10.07;	author netwolf1;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.08.20.07.37.25;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.05.01.03.55.16;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.02.25.17.58.54;	author kush_eplus;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.02.11.04.12.59;	author katsyonak;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.12.24.01.21.13;	author katsyonak;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.12.23.19.03.20;	author katsyonak;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.10.29.14.14.17;	author morevit;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.08.12.56.32;	author morevit;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.09.21.22.05.11;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.09.19.14.42.45;	author morevit;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.09.19.00.13.36;	author morevit;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.06.28.10.26.30;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.11.18.27.04;	author eklmn;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.06.08.07.36.57;	author partyckip;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.06.01.15.30.38;	author emoulari;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.29.13.51.39;	author emoulari;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.04.22.12.41.50;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.14.16.24.15;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.45;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.22.14.18.00;	author cax2;	state Exp;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2003.01.28.16.53.55;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.40
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2006 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#ifndef NEW_SOCKETS_ENGINE
+#include "emule.h"
+#endif //NEW_SOCKETS_ENGINE
+#include "PartFile.h"
+#include "ArchiveRecovery.h"
+#include "otherfunctions.h"
+#include "otherstructs.h"
+#include "zlib/zlib.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+#pragma pack(push,1)
+typedef struct {
+	BYTE	type;
+	WORD	flags;
+	WORD	size;
+} RARMAINHDR;
+#pragma pack(pop)
+
+#pragma pack(push,1)
+typedef struct {
+	BYTE	type;
+	WORD	flags;
+	WORD	size;
+	DWORD	packetSize;
+	DWORD	unpacketSize;
+	BYTE	hostOS;
+	DWORD	fileCRC;
+	DWORD	fileTime;
+	BYTE	unpVer;
+	BYTE	method;
+	WORD	nameSize;
+	DWORD	fileAttr;
+} RARFILEHDR;
+#pragma pack(pop)
+
+// At some point it may be worth displaying messages to alert the user if there were errors, or where to find the file.
+
+void CArchiveRecovery::recover(CPartFile *partFile)
+{
+	if (partFile->m_bPreviewing || partFile->m_bRecoveringArchive)
+		return;
+	partFile->m_bRecoveringArchive = true;
+
+	AddLogLine(LOG_FL_SBAR, IDS_ATTEMPTING_RECOVERY);
+
+// Get the current filled list for this file
+	CTypedPtrList<CPtrList, Gap_Struct*> *filled = new CTypedPtrList<CPtrList, Gap_Struct*>;
+	partFile->GetFilledList(filled);
+
+	// The rest of the work can be safely done in a new thread
+	ThreadParam *tp = new ThreadParam;
+	tp->partFile = partFile;
+	tp->filled = filled;
+
+//	Do NOT use Windows API 'CreateThread' to create a thread which uses MFC/CRT -> lots of mem leaks!
+	if (!AfxBeginThread(run, (LPVOID)tp))
+	{
+		partFile->m_bRecoveringArchive = false;
+		AddLogLine(LOG_FL_SBAR | LOG_RGB_WARNING, IDS_RECOVERY_FAILED);
+	//	Need to delete the memory here as it won't be done in thread
+		DeleteMemory(tp);
+	}
+}
+
+UINT AFX_CDECL CArchiveRecovery::run(LPVOID lpParam)
+{
+	g_App.m_pPrefs->InitThreadLocale();
+	ThreadParam *tp = (ThreadParam *)lpParam;
+
+//	If app is closed while preview running, main objects (e.g. Prefs) can be released when
+//	we reach this place (happens seldom), so avoid crash dump generation because of that
+	try
+	{
+		if (!performRecovery(tp->partFile, tp->filled))
+			AddLogLine(LOG_FL_SBAR | LOG_RGB_WARNING, IDS_RECOVERY_FAILED);
+
+		tp->partFile->m_bRecoveringArchive = false;
+	}
+	catch(...)
+	{
+	}
+
+	// Delete memory used by copied gap list
+	DeleteMemory(tp);
+
+	return 0;
+}
+
+bool CArchiveRecovery::performRecovery(CPartFile *partFile, CTypedPtrList<CPtrList, Gap_Struct*> *filled)
+{
+	int	iRC = -1;
+
+	try
+	{
+		// Copy the file
+		CString tempFileName = partFile->GetTempDir() + _T("\\") + partFile->GetFileName().Mid(0, 5) + _T("-rec.tmp");
+		if (!CopyFile(partFile, filled, tempFileName))
+			return false;
+
+		// Open temp file for reading
+		CFile temp;
+		if (!temp.Open(tempFileName, CFile::modeRead | CFile::shareDenyWrite | CFile::osSequentialScan | CFile::typeBinary))
+			return false;
+
+		// Open output file
+		CString	ext = partFile->GetFileExtension();
+		CString	outputFileName = partFile->GetTempDir() + _T("\\") + partFile->GetFileName().Mid(0, 5) + _T("-rec.") + ext;
+		CFile	output;
+		BOOL	bOutCreated = output.Open(outputFileName, CFile::modeWrite | CFile::shareDenyWrite | CFile::modeCreate | CFile::typeBinary);
+
+		if (bOutCreated)
+		{
+			// Process the output file
+			if ((ext.CompareNoCase(_T("zip")) == 0) || (ext.CompareNoCase(_T("cbz")) == 0))
+				iRC = recoverZip(&temp, &output, filled, IsFilled(partFile->GetFileSize() - 22ui64, partFile->GetFileSize(), filled));
+			else if ((ext.CompareNoCase(_T("rar")) == 0) || (ext.CompareNoCase(_T("cbr")) == 0))
+				iRC = recoverRar(&temp, &output, filled);
+
+			output.Close();
+		}
+		temp.Close();
+
+		::DeleteFile(tempFileName);
+
+	//	Run an application even if nothing was recovered to notify user about completion
+		if (iRC >= 0)
+		{
+			if (iRC > 0)	// something useful was recovered
+				AddLogLine(LOG_FL_SBAR, IDS_RECOVERY_SUCCESSFUL);
+
+			SHELLEXECUTEINFO SE;
+			memzero(&SE, sizeof(SE));
+			SE.fMask = SEE_MASK_NOCLOSEPROCESS;
+			SE.lpVerb = _T("open");
+			SE.lpFile = outputFileName;
+			SE.nShow = SW_SHOW;
+			SE.cbSize = sizeof(SE);
+			ShellExecuteEx(&SE);
+			if (SE.hProcess)
+			{
+				WaitForSingleObject(SE.hProcess, INFINITE);
+				CloseHandle(SE.hProcess);
+			}
+		}
+		if (bOutCreated)
+			::DeleteFile(outputFileName);
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...){
+	}
+
+	return (iRC > 0);	// something useful was recovered
+}
+
+int CArchiveRecovery::recoverZip(CFile *zipInput, CFile *zipOutput, CTypedPtrList<CPtrList, Gap_Struct*> *filled, bool fullSize)
+{
+	int	iRet = -1, fileCount = 0;
+	try
+	{
+		CTypedPtrList<CPtrList, ZIP_CentralDirectory*> centralDirectoryEntries;
+		Gap_Struct *fill;
+
+		// If the central directory is intact this is simple
+		if (fullSize && readZipCentralDirectory(zipInput, &centralDirectoryEntries, filled))
+		{
+			if (centralDirectoryEntries.GetCount() == 0)
+				return false;
+			ZIP_CentralDirectory *cdEntry;
+			POSITION del, pos = centralDirectoryEntries.GetHeadPosition();
+			bool deleteCD;
+			for (int i = centralDirectoryEntries.GetCount(); i > 0; i--)
+			{
+				deleteCD = false;
+				del = pos;
+				cdEntry = centralDirectoryEntries.GetNext(pos);
+				uint32 lenEntry = sizeof(ZIP_Entry) + cdEntry->lenFilename + cdEntry->lenExtraField + cdEntry->lenCompressed;
+				if (IsFilled(cdEntry->relativeOffsetOfLocalHeader, static_cast<uint64>(cdEntry->relativeOffsetOfLocalHeader) + lenEntry, filled))
+				{
+					zipInput->Seek(cdEntry->relativeOffsetOfLocalHeader, CFile::begin);
+					// Update offset
+					cdEntry->relativeOffsetOfLocalHeader = static_cast<uint32>(zipOutput->GetPosition());
+					if (!processZipEntry(zipInput, zipOutput, lenEntry, NULL))
+						deleteCD = true;
+				}
+				else
+					deleteCD = true;
+
+				if (deleteCD)
+				{
+					delete [] cdEntry->filename;
+					if (cdEntry->lenExtraField > 0)
+						delete [] cdEntry->extraField;
+					if (cdEntry->lenComment > 0)
+						delete [] cdEntry->comment;
+					delete cdEntry;
+					centralDirectoryEntries.RemoveAt(del);
+				}
+			}
+		}
+		else // Have to scan the file the hard way
+		{
+			// Loop through filled areas of the file looking for entries
+			POSITION pos = filled->GetHeadPosition();
+			while (pos != NULL)
+			{
+				fill = filled->GetNext(pos);
+				uint64 qwFilePos = zipInput->GetPosition();
+				// The file may have been positioned to the next entry in ScanForMarker() or processZipEntry()
+				if (qwFilePos > fill->qwEndOffset)
+					continue;
+				if (qwFilePos < fill->qwStartOffset)
+					zipInput->Seek(fill->qwStartOffset, CFile::begin);
+
+				// If there is any problem, then don't bother checking the rest of this part
+				for (;;)
+				{
+					// Scan for entry marker within this filled area
+					if (!scanForZipMarker(zipInput, ZIP_LOCAL_HEADER_MAGIC, static_cast<uint32>(fill->qwEndOffset - zipInput->GetPosition() + 1)))
+						break;
+					if (zipInput->GetPosition() > fill->qwEndOffset)
+						break;
+					if (!processZipEntry(zipInput, zipOutput, static_cast<uint32>(fill->qwEndOffset - zipInput->GetPosition() + 1), &centralDirectoryEntries))
+						break;
+				}
+			}
+		}
+
+		// Remember offset before CD entries
+		uint32 startOffset = static_cast<uint32>(zipOutput->GetPosition());
+
+		// Write all central directory entries
+		fileCount = centralDirectoryEntries.GetCount();
+		if (fileCount > 0)
+		{
+			ZIP_CentralDirectory *cdEntry;
+			POSITION pos = centralDirectoryEntries.GetHeadPosition();
+			while (pos != NULL)
+			{
+				cdEntry = centralDirectoryEntries.GetNext(pos);
+
+				writeUInt32(zipOutput, ZIP_CD_MAGIC);
+				writeUInt16(zipOutput, cdEntry->versionMadeBy);
+				writeUInt16(zipOutput, cdEntry->versionToExtract);
+				writeUInt16(zipOutput, cdEntry->generalPurposeFlag);
+				writeUInt16(zipOutput, cdEntry->compressionMethod);
+				writeUInt16(zipOutput, cdEntry->lastModFileTime);
+				writeUInt16(zipOutput, cdEntry->lastModFileDate);
+				writeUInt32(zipOutput, cdEntry->crc32);
+				writeUInt32(zipOutput, cdEntry->lenCompressed);
+				writeUInt32(zipOutput, cdEntry->lenUncompressed);
+				writeUInt16(zipOutput, cdEntry->lenFilename);
+				writeUInt16(zipOutput, cdEntry->lenExtraField);
+				writeUInt16(zipOutput, cdEntry->lenComment);
+				writeUInt16(zipOutput, 0); // Disk number start
+				writeUInt16(zipOutput, cdEntry->internalFileAttributes);
+				writeUInt32(zipOutput, cdEntry->externalFileAttributes);
+				writeUInt32(zipOutput, cdEntry->relativeOffsetOfLocalHeader);
+				zipOutput->Write(cdEntry->filename, cdEntry->lenFilename);
+				if (cdEntry->lenExtraField > 0)
+					zipOutput->Write(cdEntry->extraField, cdEntry->lenExtraField);
+				if (cdEntry->lenComment > 0)
+					zipOutput->Write(cdEntry->comment, cdEntry->lenComment);
+
+				delete [] cdEntry->filename;
+				if (cdEntry->lenExtraField > 0)
+					delete [] cdEntry->extraField;
+				if (cdEntry->lenComment > 0)
+					delete [] cdEntry->comment;
+				delete cdEntry;
+			}
+
+			// Remember offset before CD entries
+			uint32 endOffset = static_cast<uint32>(zipOutput->GetPosition());
+
+			// Write end of central directory
+			writeUInt32(zipOutput, ZIP_END_CD_MAGIC);
+			writeUInt16(zipOutput, 0); // Number of this disk
+			writeUInt16(zipOutput, 0); // Number of the disk with the start of the central directory
+			writeUInt16(zipOutput, static_cast<uint16>(fileCount));
+			writeUInt16(zipOutput, static_cast<uint16>(fileCount));
+			writeUInt32(zipOutput, endOffset - startOffset);
+			writeUInt32(zipOutput, startOffset);
+			writeUInt16(zipOutput, CSTRLEN(ZIP_COMMENT));
+			zipOutput->Write(ZIP_COMMENT, CSTRLEN(ZIP_COMMENT));
+
+			centralDirectoryEntries.RemoveAll();
+		}
+		iRet = fileCount;
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...) {}
+
+	// Tell the user how many files were recovered
+	AddLogLine(LOG_FL_SBAR, IDS_RECOVER_MULTIPLE, fileCount);
+
+	return iRet;
+}
+
+bool CArchiveRecovery::readZipCentralDirectory(CFile *zipInput, CTypedPtrList<CPtrList, ZIP_CentralDirectory*> *centralDirectoryEntries, CTypedPtrList<CPtrList, Gap_Struct*> *filled)
+{
+	bool retVal = false;
+	try
+	{
+		// Ideally this zip file will not have a comment and the End-CD will be easy to find
+		zipInput->Seek(-22, CFile::end);
+		if (!(readUInt32(zipInput) == ZIP_END_CD_MAGIC))
+		{
+			// Have to look for it, comment could be up to 65535 chars but only try with less than 1k
+			zipInput->Seek(-1046, CFile::end);
+			if (!scanForZipMarker(zipInput, ZIP_END_CD_MAGIC, 1046))
+				return false;
+			// Skip it again
+			readUInt32(zipInput);
+		}
+
+		// Found End-CD
+		// Only interested in offset of first CD
+		zipInput->Seek(12, CFile::current);
+		uint32 startOffset = readUInt32(zipInput);
+		if (!IsFilled(startOffset, zipInput->GetLength(), filled))
+			return false;
+
+		// Goto first CD and start reading
+		zipInput->Seek(startOffset, CFile::begin);
+		ZIP_CentralDirectory *cdEntry;
+		while (readUInt32(zipInput) == ZIP_CD_MAGIC)
+		{
+			cdEntry = new ZIP_CentralDirectory;
+			cdEntry->versionMadeBy				= readUInt16(zipInput);
+			cdEntry->versionToExtract			= readUInt16(zipInput);
+			cdEntry->generalPurposeFlag			= readUInt16(zipInput);
+			cdEntry->compressionMethod			= readUInt16(zipInput);
+			cdEntry->lastModFileTime			= readUInt16(zipInput);
+			cdEntry->lastModFileDate			= readUInt16(zipInput);
+			cdEntry->crc32						= readUInt32(zipInput);
+			cdEntry->lenCompressed				= readUInt32(zipInput);
+			cdEntry->lenUncompressed			= readUInt32(zipInput);
+			cdEntry->lenFilename				= readUInt16(zipInput);
+			cdEntry->lenExtraField				= readUInt16(zipInput);
+			cdEntry->lenComment					= readUInt16(zipInput);
+			cdEntry->diskNumberStart			= readUInt16(zipInput);
+			cdEntry->internalFileAttributes		= readUInt16(zipInput);
+			cdEntry->externalFileAttributes		= readUInt32(zipInput);
+			cdEntry->relativeOffsetOfLocalHeader= readUInt32(zipInput);
+
+			if (cdEntry->lenFilename > 0)
+			{
+				cdEntry->filename					= new BYTE[cdEntry->lenFilename];
+				zipInput->Read(cdEntry->filename, cdEntry->lenFilename);
+			}
+			if (cdEntry->lenExtraField > 0)
+			{
+				cdEntry->extraField					= new BYTE[cdEntry->lenExtraField];
+				zipInput->Read(cdEntry->extraField, cdEntry->lenExtraField);
+			}
+			if (cdEntry->lenComment > 0)
+			{
+				cdEntry->comment					= new BYTE[cdEntry->lenComment];
+				zipInput->Read(cdEntry->comment, cdEntry->lenComment);
+			}
+
+			centralDirectoryEntries->AddTail(cdEntry);
+		}
+
+		retVal = true;
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...) {}
+
+	return retVal;
+}
+
+bool CArchiveRecovery::processZipEntry(CFile *zipInput, CFile *zipOutput, uint32 available, CTypedPtrList<CPtrList, ZIP_CentralDirectory*> *centralDirectoryEntries)
+{
+	if (available < 26)
+		return false;
+
+	bool retVal = false;
+	try
+	{
+		// Need to know where it started
+		uint32	dwStartOffset = static_cast<uint32>(zipOutput->GetPosition());
+
+		// Entry format :
+		//  4      2 bytes  Version needed to extract
+		//  6      2 bytes  General purpose bit flag
+		//  8      2 bytes  Compression method
+		// 10      2 bytes  Last mod file time
+		// 12      2 bytes  Last mod file date
+		// 14      4 bytes  CRC-32
+		// 18      4 bytes  Compressed size (n)
+		// 22      4 bytes  Uncompressed size
+		// 26      2 bytes  Filename length (f)
+		// 28      2 bytes  Extra field length (e)
+		//        (f)bytes  Filename
+		//        (e)bytes  Extra field
+		//        (n)bytes  Compressed data
+
+		// Read header
+		if (readUInt32(zipInput) != ZIP_LOCAL_HEADER_MAGIC)
+			return false;
+
+		ZIP_Entry entry={0};
+		entry.versionToExtract		= readUInt16(zipInput);
+		entry.generalPurposeFlag	= readUInt16(zipInput);
+		entry.compressionMethod		= readUInt16(zipInput);
+		entry.lastModFileTime		= readUInt16(zipInput);
+		entry.lastModFileDate		= readUInt16(zipInput);
+		entry.crc32					= readUInt32(zipInput);
+		entry.lenCompressed			= readUInt32(zipInput);
+		entry.lenUncompressed		= readUInt32(zipInput);
+		entry.lenFilename			= readUInt16(zipInput);
+		entry.lenExtraField			= readUInt16(zipInput);
+
+		// Do some quick checks at this stage that data is looking ok
+		if ((entry.crc32 == 0) && (entry.lenCompressed == 0) && (entry.lenUncompressed == 0) && (entry.lenFilename != 0))
+			; // this is a directory entry
+		else if ((entry.crc32 == 0) || (entry.lenCompressed == 0) || (entry.lenUncompressed == 0) || (entry.lenFilename == 0))
+			return false;
+
+		// Is this entry complete
+		if ((entry.lenFilename + entry.lenExtraField + entry.lenCompressed) > (available - 26))
+		{
+			// Move the file pointer to the start of the next entry
+			zipInput->Seek((entry.lenFilename + entry.lenExtraField + entry.lenCompressed), CFile::current);
+			return false;
+		}
+
+		// Filename
+		if (entry.lenFilename > MAX_PATH)
+			return false; // Possibly corrupt, don't allocate lots of memory
+		entry.filename = new BYTE[entry.lenFilename];
+		if (zipInput->Read(entry.filename, entry.lenFilename) != entry.lenFilename)
+		{
+			delete[] entry.filename;
+			return false;
+		}
+
+		// Extra data
+		if (entry.lenExtraField > 0)
+		{
+			entry.extraField = new BYTE[entry.lenExtraField];
+			zipInput->Read(entry.extraField, entry.lenExtraField);
+		}
+
+		// Output
+		writeUInt32(zipOutput, ZIP_LOCAL_HEADER_MAGIC);
+		writeUInt16(zipOutput, entry.versionToExtract);
+		writeUInt16(zipOutput, entry.generalPurposeFlag);
+		writeUInt16(zipOutput, entry.compressionMethod);
+		writeUInt16(zipOutput, entry.lastModFileTime);
+		writeUInt16(zipOutput, entry.lastModFileDate);
+		writeUInt32(zipOutput, entry.crc32);
+		writeUInt32(zipOutput, entry.lenCompressed);
+		writeUInt32(zipOutput, entry.lenUncompressed);
+		writeUInt16(zipOutput, entry.lenFilename);
+		writeUInt16(zipOutput, entry.lenExtraField);
+		if (entry.lenFilename > 0)
+			zipOutput->Write(entry.filename, entry.lenFilename);
+		if (entry.lenExtraField > 0)
+			zipOutput->Write(entry.extraField, entry.lenExtraField);
+
+		// Read and write compressed data to avoid reading all into memory
+		uint32 written = 0;
+		BYTE buf[4096];
+		uint32 lenChunk;
+		while (written < entry.lenCompressed)
+		{
+			lenChunk = (entry.lenCompressed - written);
+			if (lenChunk > 4096)
+				lenChunk = 4096;
+			lenChunk = zipInput->Read(buf, lenChunk);
+			if (lenChunk == 0)
+				break;
+			written += lenChunk;
+			zipOutput->Write(buf, lenChunk);
+		}
+
+		//Central directory:
+		if (centralDirectoryEntries != NULL)
+		{
+			ZIP_CentralDirectory *cdEntry = new ZIP_CentralDirectory;
+			cdEntry->header = ZIP_CD_MAGIC;
+			cdEntry->versionMadeBy = entry.versionToExtract;
+			cdEntry->versionToExtract = entry.versionToExtract;
+			cdEntry->generalPurposeFlag = entry.generalPurposeFlag;
+			cdEntry->compressionMethod = entry.compressionMethod;
+			cdEntry->lastModFileTime = entry.lastModFileTime;
+			cdEntry->lastModFileDate = entry.lastModFileDate;
+			cdEntry->crc32 = entry.crc32;
+			cdEntry->lenCompressed = entry.lenCompressed;
+			cdEntry->lenUncompressed = entry.lenUncompressed;
+			cdEntry->lenFilename = entry.lenFilename;
+			cdEntry->lenExtraField = entry.lenExtraField;
+			cdEntry->lenComment = static_cast<uint16>(CSTRLEN(ZIP_COMMENT));
+			cdEntry->diskNumberStart = 0;
+			cdEntry->internalFileAttributes = 1;
+			cdEntry->externalFileAttributes = 0x81B60020;
+			cdEntry->relativeOffsetOfLocalHeader = dwStartOffset;
+			cdEntry->filename = entry.filename;
+			if (entry.lenExtraField > 0)
+				cdEntry->extraField = entry.extraField;
+			cdEntry->comment = new BYTE[cdEntry->lenComment];
+			memcpy(cdEntry->comment, ZIP_COMMENT, CSTRLEN(ZIP_COMMENT));
+
+			centralDirectoryEntries->AddTail(cdEntry);
+		}
+		else
+		{
+			delete[] entry.filename;
+			if (entry.lenExtraField > 0)
+				delete[] entry.extraField;
+		}
+		retVal = true;
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...) {}
+
+	return retVal;
+}
+
+void CArchiveRecovery::DeleteMemory(ThreadParam *tp)
+{
+	POSITION pos = tp->filled->GetHeadPosition();
+	while (pos != NULL)
+		delete tp->filled->GetNext(pos);
+	tp->filled->RemoveAll();
+	delete tp->filled;
+	delete tp;
+}
+
+bool CArchiveRecovery::CopyFile(CPartFile *partFile, CTypedPtrList<CPtrList, Gap_Struct*> *filled, CString tempFileName)
+{
+	bool	retVal = false;
+	CFile	*srcFile = NULL;
+
+	try
+	{
+	// Get a new handle to the part file
+		srcFile = partFile->GetPartFileHandle().Duplicate();
+
+		// Open destination file and set length to last filled end position
+		CFile destFile;
+		destFile.Open(tempFileName, CFile::modeWrite | CFile::shareDenyWrite | CFile::modeCreate | CFile::typeBinary);
+		Gap_Struct *fill = filled->GetTail();
+
+		if (fill != NULL)
+			destFile.SetLength(fill->qwEndOffset + 1ui64);
+
+		BYTE buffer[4096];
+		uint32 read;
+		uint64 qwCopied;
+
+		// Loop through filled areas and copy data
+		partFile->m_bPreviewing = true;
+		POSITION pos = filled->GetHeadPosition();
+		while (pos != NULL)
+		{
+			fill = filled->GetNext(pos);
+			qwCopied = 0;
+			srcFile->Seek(fill->qwStartOffset, CFile::begin);
+			destFile.Seek(fill->qwStartOffset, CFile::begin);
+			while ((read = srcFile->Read(buffer, 4096)) > 0)
+			{
+				destFile.Write(buffer, read);
+				qwCopied += static_cast<uint64>(read);
+				// Stop when finished fill (don't worry about extra)
+				if ((fill->qwStartOffset + qwCopied) > fill->qwEndOffset)
+					break;
+			}
+		}
+		destFile.Close();
+		srcFile->Close();
+		partFile->m_bPreviewing = false;
+
+		retVal = true;
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...) {}
+
+	delete srcFile;
+
+	return retVal;
+}
+
+int CArchiveRecovery::recoverRar(CFile *rarInput, CFile *rarOutput, CTypedPtrList<CPtrList, Gap_Struct*> *filled)
+{
+	int			iRet = -1;
+	unsigned	uiFileCnt = 0, uiRescueCnt = 0;
+
+	try
+	{
+		// Try to get file header and main header
+		//
+		bool bValidFileHeader = false;
+		bool bValidMainHeader = false;
+		BYTE fileHeader[7];
+		RARMAINHDR mainHeader;
+
+		if (rarInput->Read(fileHeader, sizeof(fileHeader)) == sizeof(fileHeader))
+		{
+			if (fileHeader[0] == 0x52)
+			{
+				if (fileHeader[1] == 0x45 && fileHeader[2] == 0x7e && fileHeader[3] == 0x5e)
+				{
+					bValidFileHeader = true;
+				}
+				else if (fileHeader[1] == 0x61 && fileHeader[2] == 0x72 && fileHeader[3] == 0x21 && fileHeader[4] == 0x1a && fileHeader[5] == 0x07 && fileHeader[6] == 0x00)
+				{
+					bValidFileHeader = true;
+
+					WORD checkCRC;
+
+					if (rarInput->Read(&checkCRC, sizeof(checkCRC)) == sizeof(checkCRC))
+					{
+						if (rarInput->Read(&mainHeader, sizeof(mainHeader)) == sizeof(mainHeader))
+						{
+							if (mainHeader.type == 0x73)
+							{
+								byte	byteBuf[6];	// sizeof(WORD) + sizeof(DWORD)
+								DWORD	crc = crc32(0, (Bytef*)&mainHeader, sizeof(mainHeader));
+
+								if (rarInput->Read(&byteBuf, sizeof(byteBuf)) == sizeof(byteBuf))
+								{
+									crc = crc32(crc, byteBuf, sizeof(byteBuf));
+									if (checkCRC == (WORD)crc)
+										bValidMainHeader = true;
+								}
+							}
+						}
+					}
+				}
+			}
+			rarInput->SeekToBegin();
+		}
+
+		static BYTE start[] =
+		{
+			// RAR file header
+			0x52, 0x61, 0x72, 0x21, 0x1a, 0x07, 0x00,
+
+			// main header
+			0x00, 0x00,			// CRC
+			0x73,				// type
+			0x02, 0x00,			// flags
+			0x3B, 0x00,			// size
+			0x00, 0x00,			// AV
+			0x00, 0x00,			// AV
+			0x00, 0x00,			// AV
+
+			// main comment
+			0x37, 0xDC,			// CRC
+			0x75,				// type
+			0x00, 0x00,			// flags
+			0x2E, 0x00,			// size
+
+			0x17, 0x00, 0x1D, 0x33, 0x94, 0xF9,
+			0x08, 0x15, 0x48, 0xBE, 0x90, 0xF1, 0x5F, 0xE4, 0x30, 0x25, 0x82, 0x4B, 0xEE, 0x68, 0x41, 0x23,
+			0x05, 0xBD, 0xDB, 0xFF, 0x6C, 0x8F, 0xBE, 0x9C, 0x21, 0x6B, 0xC8, 0xC5, 0xC8, 0x9A, 0x6E, 0xBE,
+			0x80
+		};
+
+		start[10] = 0x02;	/*MHD_COMMENT*/
+		if (bValidFileHeader && bValidMainHeader && (mainHeader.flags & 0x0008/*MHD_SOLID*/))
+		{
+		// If this is a 'solid' archive the chance to successfully decompress any entries gets higher,
+		// when we pass the 'solid' main header bit to the temp. archive
+			start[10] |= 0x08;	/*MHD_SOLID*/
+		}
+		*((short*)&start[7]) = (short)crc32(0, &start[9], 11);
+
+		rarOutput->Write(start, sizeof(start));
+
+		RAR_BlockFile *block;
+		while ((block = scanForRarFileHeader(rarInput, rarInput->GetLength())) != NULL)
+		{
+		//	Don't check availablity of the next byte in a file for zero data size entries,
+		//	which are directories and zero size files
+			if ( (block->dataLength == 0) ||
+				IsFilled(block->offsetData, block->offsetData + static_cast<uint64>(block->dataLength), filled) )
+			{
+				uiRescueCnt++;
+				// Don't include directories in file count
+				if ((block->HEAD_FLAGS & 0xE0) != 0xE0/*LHD_DIRECTORY*/)
+					uiFileCnt++;
+				writeRarBlock(rarInput, rarOutput, block);
+			}
+			else
+			{
+				rarInput->Seek(block->offsetData + block->dataLength, CFile::begin);
+			}
+			delete[] block->FILE_NAME;
+			delete block;
+		}
+		iRet = uiRescueCnt;
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...) {}
+
+	// Tell the user how many files were recovered
+	AddLogLine(LOG_FL_SBAR, IDS_RECOVER_MULTIPLE, uiFileCnt);
+
+	return iRet;
+}
+
+bool CArchiveRecovery::IsFilled(uint64 start, uint64 end, CTypedPtrList<CPtrList, Gap_Struct*> *filled)
+{
+	POSITION	pos = filled->GetHeadPosition();
+	Gap_Struct	*fill;
+	uint64		qwEnd = end - 1ui64;	// ranges in the list are inclusive
+
+	while (pos != NULL)
+	{
+		fill = filled->GetNext(pos);
+		if (fill->qwStartOffset > start)
+			return false;
+		if (fill->qwEndOffset >= qwEnd)
+			return true;
+	}
+	return false;
+}
+
+// This will find the marker in the file and leave it positioned at the position to read the marker again
+bool CArchiveRecovery::scanForZipMarker(CFile *input, uint32 marker, uint32 available)
+{
+	try
+	{
+		//uint32 originalOffset = input->GetPosition();
+		int lenChunk = 51200; // 50k buffer
+		BYTE chunk[51200];
+		BYTE *foundPos = NULL;
+		int pos = 0;
+
+		while ((available > 0) && ((lenChunk = input->Read(chunk, lenChunk)) > 0))
+		{
+			available -= lenChunk;
+			foundPos = &chunk[0];
+			// Move back one, will be incremented in loop
+			foundPos--;
+			while (foundPos != NULL)
+			{
+				// Find first matching byte
+				foundPos = (BYTE*)memchr( foundPos+1, (marker & 0xFF), (lenChunk - (foundPos+1 - (&chunk[0]))) );
+				if (foundPos == NULL)
+					continue;
+
+				// Test for end of buffer
+				pos = foundPos - &chunk[0];
+				if ((pos + 3) > lenChunk)
+				{
+					// Re-read buffer starting from found first byte position
+					input->Seek(pos - lenChunk, CFile::current);
+					break;
+				}
+
+				// Check for other bytes
+				if (chunk[pos + 1] == ((marker >> 8) & 0xFF))
+				{
+					if (chunk[pos + 2] == ((marker >> 16) & 0xFF))
+					{
+						if (chunk[pos + 3] == ((marker >> 24) & 0xFF))
+						{
+							// Found it
+							input->Seek(pos - lenChunk, CFile::current);
+							return true;
+						}
+					}
+				}
+			}
+		}
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...) {}
+
+	return false;
+}
+
+// This will find a file block in the file and leave it positioned at the end of the filename
+RAR_BlockFile *CArchiveRecovery::scanForRarFileHeader(CFile *input, uint64 qwAvailable)
+{
+	RAR_BlockFile *retVal = NULL;
+	try
+	{
+		int lenChunk = 51200; // 50k buffer
+		BYTE chunk[51200];
+		BYTE *foundPos = NULL;
+		int pos = 0;
+		ULONGLONG searchOffset;
+		uint16 headCRC;
+		BYTE checkCRC[sizeof(RARFILEHDR) + 2 * sizeof(DWORD) + 8 + 32];
+		unsigned checkCRCsize;
+		uint16 lenFileName;
+		BYTE *fileName;
+		uint32 crc;
+
+		while ((qwAvailable > 0) && ((lenChunk = input->Read(chunk, lenChunk)) > 0))
+		{
+			qwAvailable -= static_cast<uint64>(lenChunk);
+			foundPos = &chunk[0];
+			searchOffset = input->GetPosition() - static_cast<uint64>(lenChunk);
+
+			// Move back one, will be incremented in loop
+			foundPos--;
+			while (foundPos != NULL)
+			{
+				// Find rar head block marker
+				foundPos = (BYTE*)memchr(foundPos+1, RAR_HEAD_FILE, (lenChunk - (foundPos+1 - &chunk[0])));
+				if (foundPos == NULL)
+					continue;
+
+				// Move back 2 bytes to get crc and read block
+				pos = (int)(foundPos - &chunk[0] - 2);
+				input->Seek(pos - lenChunk, CFile::current);
+
+				// CRC of fields from HEAD_TYPE to ATTR + filename + ext. stuff
+				headCRC = readUInt16(input);
+
+				RARFILEHDR* hdr = (RARFILEHDR*)checkCRC;
+				input->Read(checkCRC, checkCRCsize = sizeof(*hdr));
+
+				// get high parts of 64-bit file size fields
+				if (hdr->flags & 0x0100/*LHD_LARGE*/)
+				{
+					input->Read(&checkCRC[checkCRCsize], sizeof(DWORD) * 2);
+					checkCRCsize += sizeof(DWORD) * 2;
+				}
+
+				// get filename
+				lenFileName = hdr->nameSize;
+				fileName = new BYTE[lenFileName];
+				input->Read(fileName, lenFileName);
+
+				// get encryption params
+				unsigned saltPos = 0;
+				if (hdr->flags & 0x0400/*LHD_SALT*/)
+				{
+					saltPos = checkCRCsize;
+					input->Read(&checkCRC[checkCRCsize], 8);
+					checkCRCsize += 8;
+				}
+
+				// get ext. file date/time
+				unsigned extTimePos = 0;
+				unsigned extTimeSize = 0;
+				if (hdr->flags & 0x1000/*LHD_EXTTIME*/)
+				{
+					extTimePos = checkCRCsize;
+					input->Read(&checkCRC[checkCRCsize], sizeof(WORD));
+					unsigned short Flags = *((WORD*)&checkCRC[checkCRCsize]);
+					checkCRCsize += sizeof(WORD);
+					for (int i = 0; i < 4; i++)
+					{
+						unsigned int rmode = Flags >> (3 - i) * 4;
+						if ((rmode & 8) == 0)
+							continue;
+						if (i != 0)
+						{
+							input->Read(&checkCRC[checkCRCsize], sizeof(DWORD));
+							checkCRCsize += sizeof(DWORD);
+						}
+						int count = (rmode & 3) * sizeof(BYTE);
+
+						input->Read(&checkCRC[checkCRCsize], count);
+						checkCRCsize += count;
+					}
+					extTimeSize = checkCRCsize - extTimePos;
+				}
+
+				crc = crc32(0, checkCRC, sizeof(*hdr));
+				crc = crc32(crc, fileName, lenFileName);
+				if (checkCRCsize > sizeof(*hdr))
+					crc = crc32(crc, &checkCRC[sizeof(*hdr)], checkCRCsize - sizeof(*hdr));
+				if ((crc & 0xFFFF) == headCRC)
+				{
+					// Found valid crc, build block and return
+					// Note that it may still be invalid data, so more checks should be performed
+					retVal = new RAR_BlockFile;
+					retVal->HEAD_CRC		= headCRC;
+					retVal->HEAD_TYPE		= 0x74;
+					retVal->HEAD_FLAGS		= calcUInt16(&checkCRC[ 1]);
+					retVal->HEAD_SIZE		= calcUInt16(&checkCRC[ 3]);
+					retVal->PACK_SIZE		= calcUInt32(&checkCRC[ 5]);
+					retVal->UNP_SIZE		= calcUInt32(&checkCRC[ 9]);
+					retVal->HOST_OS			= checkCRC[13];
+					retVal->FILE_CRC		= calcUInt32(&checkCRC[14]);
+					retVal->FTIME			= calcUInt32(&checkCRC[18]);
+					retVal->UNP_VER			= checkCRC[22];
+					retVal->METHOD			= checkCRC[23];
+					retVal->NAME_SIZE		= lenFileName;
+					retVal->ATTR			= calcUInt32(&checkCRC[26]);
+					// Optional values, present only if bit 0x100 in HEAD_FLAGS is set.
+					if ((retVal->HEAD_FLAGS & 0x100) == 0x100/*LHD_LARGE*/)
+					{
+						retVal->HIGH_PACK_SIZE	= calcUInt32(&checkCRC[30]);
+						retVal->HIGH_UNP_SIZE	= calcUInt32(&checkCRC[34]);
+					}
+					retVal->FILE_NAME		= fileName;
+					if (saltPos != 0)
+						memcpy(retVal->SALT, &checkCRC[saltPos], sizeof(retVal->SALT));
+					if (extTimePos != 0 && extTimeSize != 0)
+					{
+						retVal->EXT_DATE = new BYTE[extTimeSize];
+						memcpy(retVal->EXT_DATE, &checkCRC[extTimePos], retVal->EXT_DATE_SIZE = extTimeSize);
+					}
+
+					// Run some quick checks
+					if (validateRarFileBlock(retVal))
+					{
+						// Set some useful markers in the block
+						retVal->offsetData = input->GetPosition();
+						uint32 dataLength = retVal->PACK_SIZE;
+						// If comment present find length
+						if ((retVal->HEAD_FLAGS & 0x08) == 0x08/*LHD_COMMENT*/)
+						{
+							// Skip start of comment block
+							input->Seek(5, CFile::current);
+							// Read comment length
+							dataLength += readUInt16(input);
+						}
+						retVal->dataLength = dataLength;
+
+						return retVal;
+					}
+				}
+				// If not valid, return to original position, re-read and continue searching
+				delete[] fileName;
+				delete retVal;
+				retVal = NULL;
+				input->Seek(searchOffset, CFile::begin);
+				input->Read(chunk, lenChunk);
+			}
+		}
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+	}
+	catch (...) {}
+
+	return NULL;
+}
+
+// This assumes that head crc has already been checked
+bool CArchiveRecovery::validateRarFileBlock(RAR_BlockFile *block)
+{
+	if (block->HEAD_TYPE != 0x74)
+		return false;
+	if ((block->HEAD_FLAGS & 0x0400/*LHD_SALT*/) == 0 && block->UNP_SIZE < block->PACK_SIZE)
+		return false;
+	if (block->HOST_OS > 5)
+		return false;
+	switch (block->METHOD)
+	{
+		case 0x30: // storing
+		case 0x31: // fastest compression
+		case 0x32: // fast compression
+		case 0x33: // normal compression
+		case 0x34: // good compression
+		case 0x35: // best compression
+			break;
+		default:
+			return false;
+	}
+//	0x0200 - FILE_NAME contains both usual and encoded
+//	Unicode name separated by zero. In this case
+//	NAME_SIZE field is equal to the length
+//	of usual name plus encoded Unicode name plus 1.
+	if (block->HEAD_FLAGS & 0x0200/*LHD_UNICODE*/)
+	{
+		// ANSI+'\0'+Unicode name
+		if (block->NAME_SIZE > (MAX_PATH + MAX_PATH*sizeof(WCHAR) + 1))
+			return false;
+	}
+	else if (block->NAME_SIZE > MAX_PATH)	// ANSI
+		return false;
+	// Check directory entry has no size
+	if (((block->HEAD_FLAGS & 0xE0) == 0xE0/*LHD_DIRECTORY*/) && ((block->PACK_SIZE + block->UNP_SIZE + block->FILE_CRC) > 0))
+		return false;
+
+	return true;
+}
+
+void CArchiveRecovery::writeRarBlock(CFile *input, CFile *output, RAR_BlockFile *block)
+{
+	ULONGLONG offsetStart = output->GetPosition();
+	try
+	{
+		writeUInt16(output, block->HEAD_CRC);
+		output->Write(&block->HEAD_TYPE, 1);
+		writeUInt16(output, block->HEAD_FLAGS);
+		writeUInt16(output, block->HEAD_SIZE);
+		writeUInt32(output, block->PACK_SIZE);
+		writeUInt32(output, block->UNP_SIZE);
+		output->Write(&block->HOST_OS, 1);
+		writeUInt32(output, block->FILE_CRC);
+		writeUInt32(output, block->FTIME);
+		output->Write(&block->UNP_VER, 1);
+		output->Write(&block->METHOD, 1);
+		writeUInt16(output, block->NAME_SIZE);
+		writeUInt32(output, block->ATTR);
+		// Optional values, present only if bit 0x100 in HEAD_FLAGS is set.
+		if ((block->HEAD_FLAGS & 0x100) == 0x100/*LHD_LARGE*/)
+		{
+			writeUInt32(output, block->HIGH_PACK_SIZE);
+			writeUInt32(output, block->HIGH_UNP_SIZE);
+		}
+		output->Write(block->FILE_NAME, block->NAME_SIZE);
+		if (block->HEAD_FLAGS & 0x0400/*LHD_SALT*/)
+			output->Write(block->SALT, sizeof(block->SALT));
+		output->Write(block->EXT_DATE, block->EXT_DATE_SIZE);
+
+		// Now copy compressed data from input file
+		uint32 lenToCopy = block->dataLength;
+		if (lenToCopy > 0)
+		{
+			input->Seek(block->offsetData, CFile::begin);
+			uint32 written = 0;
+			BYTE chunk[4096];
+			uint32 lenChunk;
+			while (written < lenToCopy)
+			{
+				lenChunk = (lenToCopy - written);
+				if (lenChunk > 4096)
+					lenChunk = 4096;
+				lenChunk = input->Read(chunk, lenChunk);
+				if (lenChunk == 0)
+					break;
+				written += lenChunk;
+				output->Write(chunk, lenChunk);
+			}
+		}
+	}
+	catch (CFileException* error)
+	{
+		error->Delete();
+		try { output->SetLength(offsetStart); } catch (...) {}
+	}
+	catch (...)
+	{
+		try { output->SetLength(offsetStart); } catch (...) {}
+	}
+}
+
+uint16 CArchiveRecovery::readUInt16(CFile *input)
+{
+	uint16 retVal = 0;
+	BYTE b[2];
+	if (input->Read(b, 2) > 0)
+		retVal = (b[1] << 8) + b[0];
+	return retVal;
+}
+
+uint32 CArchiveRecovery::readUInt32(CFile *input)
+{
+	uint32 retVal = 0;
+	BYTE b[4];
+	if (input->Read(b, 4) > 0)
+		retVal = (b[3] << 24) + (b[2] << 16) + (b[1] << 8) + b[0];
+	return retVal;
+}
+
+uint16 CArchiveRecovery::calcUInt16(BYTE *input)
+{
+	return (((uint16)input[1]) << 8) + ((uint16)input[0]);
+}
+
+uint32 CArchiveRecovery::calcUInt32(BYTE *input)
+{
+	return (((uint32)input[3]) << 24) + (((uint32)input[2]) << 16) + (((uint32)input[1]) << 8) + ((uint32)input[0]);
+}
+
+void CArchiveRecovery::writeUInt16(CFile *output, uint16 val)
+{
+	BYTE b[2];
+	b[0] = static_cast<BYTE>(val & 0x000000ff);
+	b[1] = static_cast<BYTE>((val & 0x0000ff00) >>  8);
+	output->Write(b, 2);
+}
+
+void CArchiveRecovery::writeUInt32(CFile *output, uint32 val)
+{
+	BYTE b[4];
+	b[0] = static_cast<BYTE>(val & 0x000000ff);
+	b[1] = static_cast<BYTE>((val & 0x0000ff00) >>  8);
+	b[2] = static_cast<BYTE>((val & 0x00ff0000) >> 16);
+	b[3] = static_cast<BYTE>((val & 0xff000000) >> 24);
+	output->Write(b, 4);
+}
+@
+
+
+1.39
+log
+@Simplified logging system implementation.
+@
+text
+@d25 1
+@
+
+
+1.38
+log
+@Applied minor corrections from original; Removed check round delete operator.
+@
+text
+@d67 1
+a67 1
+	AddLogLine(true, IDS_ATTEMPTING_RECOVERY);
+d82 1
+a82 1
+		AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_RECOVERY_FAILED));
+d98 1
+a98 1
+			AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_RECOVERY_FAILED));
+d152 1
+a152 1
+				AddLogLine(true, IDS_RECOVERY_SUCCESSFUL);
+d323 1
+a323 4
+	CString msg;
+
+	msg.Format(GetResString(IDS_RECOVER_MULTIPLE), fileCount);
+	AddLogLine(true, msg);
+d742 1
+a742 4
+	CString msg;
+
+	msg.Format(GetResString(IDS_RECOVER_MULTIPLE), uiFileCnt);
+	AddLogLine(true, msg);
+@
+
+
+1.37
+log
+@Removed unreasonable file flush operations while saving recovered data; Combined resource strings.
+@
+text
+@d276 1
+a276 1
+				writeUInt32(zipOutput, cdEntry->lenUnompressed);
+d369 1
+a369 1
+			cdEntry->lenUnompressed				= readUInt32(zipInput);
+d527 1
+a527 1
+			cdEntry->lenUnompressed = entry.lenUncompressed;
+d622 1
+a622 2
+	if (srcFile)
+		delete srcFile;
+d1098 1
+a1098 1
+	if (input->Read(&b, 2) > 0)
+d1107 1
+a1107 1
+	if (input->Read(&b, 4) > 0)
+d1127 1
+a1127 1
+	output->Write(&b, 2);
+d1137 1
+a1137 1
+	output->Write(&b, 4);
+@
+
+
+1.36
+log
+@changed the intialization of thread locale
+@
+text
+@d324 2
+a325 4
+	if (fileCount == 1)
+		GetResString(&msg, IDS_RECOVER_SINGLE);
+	else
+		msg.Format(GetResString(IDS_RECOVER_MULTIPLE), fileCount);
+d504 1
+a504 1
+			lenChunk  = (entry.lenCompressed - written);
+a512 1
+		zipOutput->Flush();
+d726 1
+a726 1
+				if ((block->HEAD_FLAGS & 0xE0) != 0xE0)
+d747 2
+a748 4
+	if (uiFileCnt == 1)
+		GetResString(&msg, IDS_RECOVER_SINGLE);
+	else
+		msg.Format(GetResString(IDS_RECOVER_MULTIPLE), uiFileCnt);
+d943 1
+a943 1
+					if ((retVal->HEAD_FLAGS & 0x100) == 0x100)
+d964 1
+a964 1
+						if ((retVal->HEAD_FLAGS & 0x08) == 0x08)
+d1019 1
+a1019 1
+	if (block->HEAD_FLAGS & 0x0200)
+d1028 1
+a1028 1
+	if (((block->HEAD_FLAGS & 0xE0) == 0xE0) && ((block->PACK_SIZE + block->UNP_SIZE + block->FILE_CRC) > 0))
+d1053 1
+a1053 1
+		if ((block->HEAD_FLAGS & 0x100) == 0x100)
+d1073 1
+a1073 1
+				lenChunk  = (lenToCopy - written);
+a1082 1
+		output->Flush();
+@
+
+
+1.35
+log
+@Corrected previous modification; Suppressed compiler warnings.
+@
+text
+@d90 1
+a90 1
+	::SetThreadLocale(g_App.m_pPrefs->GetLanguageID());
+@
+
+
+1.34
+log
+@Unicode preparations
+@
+text
+@d132 1
+a132 1
+		bool	bOutCreated = output.Open(outputFileName, CFile::modeWrite | CFile::shareDenyWrite | CFile::modeCreate | CFile::typeBinary);
+d207 1
+a207 1
+					cdEntry->relativeOffsetOfLocalHeader = zipOutput->GetPosition();
+d244 1
+a244 1
+					if (!scanForZipMarker(zipInput, (uint32)ZIP_LOCAL_HEADER_MAGIC, (fill->qwEndOffset - zipInput->GetPosition() + 1)))
+d248 1
+a248 1
+					if (!processZipEntry(zipInput, zipOutput, (fill->qwEndOffset - zipInput->GetPosition() + 1), &centralDirectoryEntries))
+d255 1
+a255 1
+		uint32 startOffset = zipOutput->GetPosition();
+d299 1
+a299 1
+			uint32 endOffset = zipOutput->GetPosition();
+d344 1
+a344 1
+			if (!scanForZipMarker(zipInput, (uint32)ZIP_END_CD_MAGIC, 1046))
+d419 1
+a419 1
+		long startOffset = zipOutput->GetPosition();
+d537 1
+a537 1
+			cdEntry->relativeOffsetOfLocalHeader = startOffset;
+a1019 1
+
+d1024 1
+a1024 1
+	if (block->HEAD_FLAGS & 0x0200) 
+d1030 1
+a1030 8
+	else 
+	{
+		// ANSI
+		if (block->NAME_SIZE > MAX_PATH)
+			return false;
+	}
+	
+	if (block->NAME_SIZE > MAX_PATH)
+@
+
+
+1.33
+log
+@Introduces usage of new macro CSTRLEN.
+@
+text
+@d125 1
+a125 1
+		if (!temp.Open(tempFileName, CFile::modeRead | CFile::shareDenyWrite | CFile::osSequentialScan))
+d132 1
+a132 1
+		bool	bOutCreated = output.Open(outputFileName, CFile::modeWrite | CFile::shareDenyWrite | CFile::modeCreate);
+d585 1
+a585 1
+		destFile.Open(tempFileName, CFile::modeWrite | CFile::shareDenyWrite | CFile::modeCreate);
+d1020 18
+@
+
+
+1.32
+log
+@Added #include zlib.
+@
+text
+@d309 2
+a310 2
+			writeUInt16(zipOutput, sizeof(ZIP_COMMENT) / sizeof(char) - 1);
+			zipOutput->Write(ZIP_COMMENT, sizeof(ZIP_COMMENT) / sizeof(char) - 1);
+d533 1
+a533 1
+			cdEntry->lenComment = static_cast<uint16>(sizeof(ZIP_COMMENT) / sizeof(char) - 1);
+d542 1
+a542 1
+			memcpy(cdEntry->comment, ZIP_COMMENT, sizeof(ZIP_COMMENT) / sizeof(char) - 1);
+@
+
+
+1.31
+log
+@Potential fix for some seldom crash on closure while archive preview recovering still running {f.milione};
+Corrected report in the log about archive preview recovery status {Fuxie - DK};
+Removed unused parameter; Formatting.
+@
+text
+@d25 1
+@
+
+
+1.30
+log
+@Create temp. files for archive preview in corresponding temp. directory of part file.
+@
+text
+@d60 1
+a60 1
+void CArchiveRecovery::recover(CPartFile *partFile, bool preview)
+a75 1
+	tp->preview = preview;
+d92 6
+a97 2
+	if (!performRecovery(tp->partFile, tp->filled, tp->preview))
+		AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_RECOVERY_FAILED));
+d99 5
+a103 1
+	tp->partFile->m_bRecoveringArchive = false;
+d111 1
+a111 1
+bool CArchiveRecovery::performRecovery(CPartFile *partFile, CTypedPtrList<CPtrList, Gap_Struct*> *filled, bool preview)
+d113 2
+a114 1
+	bool success = false;
+d127 1
+a127 1
+		// Open the output file
+d137 1
+a137 1
+				success = recoverZip(&temp, &output, filled, IsFilled(partFile->GetFileSize() - 22ui64, partFile->GetFileSize(), filled));
+d139 1
+a139 1
+				success = recoverRar(&temp, &output, filled);
+a140 1
+			// Close output
+a142 1
+		// Close temp file
+a144 1
+		// Remove temp file
+d147 2
+a148 2
+		// Report success
+		if (success)
+d150 12
+a161 3
+			AddLogLine(true, IDS_RECOVERY_SUCCESSFUL);
+			// Preview file if required
+			if (preview)
+d163 2
+a164 13
+				SHELLEXECUTEINFO SE;
+				memzero(&SE, sizeof(SE));
+				SE.fMask = SEE_MASK_NOCLOSEPROCESS;
+				SE.lpVerb = _T("open");
+				SE.lpFile = outputFileName;
+				SE.nShow = SW_SHOW;
+				SE.cbSize = sizeof(SE);
+				ShellExecuteEx(&SE);
+				if (SE.hProcess)
+				{
+					WaitForSingleObject(SE.hProcess, INFINITE);
+					CloseHandle(SE.hProcess);
+				}
+d177 1
+a177 1
+	return success;
+d180 1
+a180 1
+bool CArchiveRecovery::recoverZip(CFile *zipInput, CFile *zipOutput, CTypedPtrList<CPtrList, Gap_Struct*> *filled, bool fullSize)
+d182 1
+a182 2
+	bool retVal = false;
+	long fileCount = 0;
+d313 1
+a313 1
+		retVal = true;
+d329 1
+a329 1
+	return retVal;
+d471 1
+a471 1
+			delete [] entry.filename;
+d547 1
+a547 1
+			delete [] entry.filename;
+d549 1
+a549 1
+				delete [] entry.extraField;
+d630 1
+a630 1
+bool CArchiveRecovery::recoverRar(CFile *rarInput, CFile *rarOutput, CTypedPtrList<CPtrList, Gap_Struct*> *filled)
+d632 3
+a634 2
+	bool retVal = false;
+	long fileCount = 0;
+d726 1
+d729 1
+a729 1
+					fileCount++;
+d736 1
+a736 1
+			delete [] block->FILE_NAME;
+d739 1
+a739 1
+		retVal = true;
+d749 1
+a749 1
+	if (fileCount == 1)
+d752 1
+a752 1
+		msg.Format(GetResString(IDS_RECOVER_MULTIPLE), fileCount);
+d755 1
+a755 1
+	return retVal;
+d981 1
+a981 1
+				delete [] fileName;
+@
+
+
+1.29
+log
+@Large file size support preparations.
+@
+text
+@d110 1
+a110 1
+		CString tempFileName = g_App.m_pPrefs->GetTempDir() + _T("\\") + partFile->GetFileName().Mid(0, 5) + _T("-rec.tmp");
+d121 1
+a121 1
+		CString	outputFileName = g_App.m_pPrefs->GetTempDir() + _T("\\") + partFile->GetFileName().Mid(0, 5) + _T("-rec.") + ext;
+@
+
+
+1.28
+log
+@Fixed Unicode issues;
+Delete intermediate temporary file copy faster to free disk space;
+Corrected file sharing mode to allow read-only access to an archive preview files;
+Removed double thread localization; Reduced H-file dependency;
+Added support for previewing encrypted and solid RAR archives (adapted from original);
+Deletion of output file after failed archive preview recovery {muleteer};
+Minor local optimization;
+Fixed preview of ZIP archive containing a directory archive entry (from original);
+Fixed archive preview recovery for some boundary conditions (some files inside archive couldn't be recovered).
+@
+text
+@d66 1
+a66 1
+	AddLogLine(true, IDS_ATTEMPTING_RECOVERY );
+d129 1
+a129 1
+				success = recoverZip(&temp, &output, filled, IsFilled(partFile->GetFileSize() - 22, partFile->GetFileSize(), filled));
+d200 1
+a200 1
+				if (IsFilled(cdEntry->relativeOffsetOfLocalHeader, cdEntry->relativeOffsetOfLocalHeader + lenEntry, filled))
+d230 1
+a230 1
+				uint32 filePos = zipInput->GetPosition();
+d232 1
+a232 1
+				if (filePos > fill->m_dwEndOffset)
+d234 2
+a235 2
+				if (filePos < fill->m_dwStartOffset)
+					zipInput->Seek(fill->m_dwStartOffset, CFile::begin);
+d241 1
+a241 1
+					if (!scanForZipMarker(zipInput, (uint32)ZIP_LOCAL_HEADER_MAGIC, (fill->m_dwEndOffset - zipInput->GetPosition() + 1)))
+d243 1
+a243 1
+					if (zipInput->GetPosition() > fill->m_dwEndOffset)
+d245 1
+a245 1
+					if (!processZipEntry(zipInput, zipOutput, (fill->m_dwEndOffset - zipInput->GetPosition() + 1), &centralDirectoryEntries))
+d586 1
+a586 1
+			destFile.SetLength(fill->m_dwEndOffset + 1);
+d590 1
+a590 1
+		uint32 copied;
+d598 3
+a600 3
+			copied = 0;
+			srcFile->Seek(fill->m_dwStartOffset, CFile::begin);
+			destFile.Seek(fill->m_dwStartOffset, CFile::begin);
+d604 1
+a604 1
+				copied += read;
+d606 1
+a606 1
+				if ((fill->m_dwStartOffset + copied) > fill->m_dwEndOffset)
+d716 1
+a716 1
+		while ((block = scanForRarFileHeader(rarInput, (uint32)rarInput->GetLength())) != NULL)
+d721 1
+a721 1
+				IsFilled(block->offsetData, block->offsetData + block->dataLength, filled) )
+d754 1
+a754 1
+bool CArchiveRecovery::IsFilled(uint32 start, uint32 end, CTypedPtrList<CPtrList, Gap_Struct*> *filled)
+d758 1
+a758 1
+	uint32		dwEnd = end - 1;	// ranges in the list are inclusive
+d763 1
+a763 1
+		if (fill->m_dwStartOffset > start)
+d765 1
+a765 1
+		if (fill->m_dwEndOffset >= dwEnd)
+d796 1
+a796 1
+				pos = foundPos - (&chunk[0]);
+d830 1
+a830 1
+RAR_BlockFile *CArchiveRecovery::scanForRarFileHeader(CFile *input, uint32 available)
+a839 1
+		ULONGLONG foundOffset;
+d847 1
+a847 1
+		while ((available > 0) && ((lenChunk = input->Read(chunk, lenChunk)) > 0))
+d849 1
+a849 1
+			available -= lenChunk;
+d851 1
+a851 1
+			searchOffset = input->GetPosition() - lenChunk;
+d858 1
+a858 1
+				foundPos = (BYTE*)memchr( foundPos+1, RAR_HEAD_FILE, (lenChunk - (foundPos+1 - (&chunk[0]))) );
+d863 1
+a863 1
+				pos = (int)(foundPos - (&chunk[0]) - 2);
+a864 1
+				foundOffset = input->GetPosition();
+@
+
+
+1.27
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d1 17
+d19 4
+d33 25
+a61 2
+	::SetThreadLocale(g_App.m_pPrefs->GetLanguageID()); // 29.5.03 EC - ArchiveRecovery Thread wasn't localized
+
+d90 1
+a90 1
+	::SetThreadLocale(g_App.m_pPrefs->GetLanguageID()); // 01.06.03 EC - ArchiveRecovery Thread wasn't localized
+d110 1
+a110 1
+		CString tempFileName = CString(g_App.m_pPrefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec.tmp");
+d116 1
+a116 1
+		if (!temp.Open(tempFileName, CFile::modeRead))
+d120 6
+a125 4
+		CString ext = partFile->GetFileExtension();
+		CString outputFileName = CString(g_App.m_pPrefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec.") + ext;
+		CFile output;
+		if (output.Open(outputFileName, CFile::modeWrite | CFile::shareExclusive | CFile::modeCreate))
+d129 1
+a129 1
+				success = recoverZip(&temp, &output, filled, (temp.GetLength() == partFile->GetFileSize()));
+d139 3
+d151 1
+a151 1
+				SE.fMask = SEE_MASK_NOCLOSEPROCESS ;
+d153 1
+a153 1
+				SE.lpFile = outputFileName.GetBuffer();
+a161 1
+				CFile::Remove(outputFileName);
+d164 2
+a165 3
+
+		// Remove temp file
+		CFile::Remove(tempFileName);
+d238 1
+a238 1
+				while (true)
+d302 2
+a303 2
+			writeUInt16(zipOutput, fileCount);
+			writeUInt16(zipOutput, fileCount);
+d306 2
+a307 2
+			writeUInt16(zipOutput, strlen(ZIP_COMMENT));
+			zipOutput->Write(ZIP_COMMENT, strlen(ZIP_COMMENT));
+d322 1
+a322 1
+		msg = GetResString(IDS_RECOVER_SINGLE);
+a324 1
+	//AfxMessageBox(msg, MB_OK | MB_ICONINFORMATION);
+d450 3
+a452 1
+		if ((entry.crc32 == 0) || (entry.lenCompressed == 0) || (entry.lenUncompressed == 0) || (entry.lenFilename == 0))
+d500 1
+a500 1
+		uint32 lenChunk = 4096;
+d530 1
+a530 1
+			cdEntry->lenComment = strlen(ZIP_COMMENT);
+d539 1
+a539 1
+			memcpy2(cdEntry->comment, ZIP_COMMENT, cdEntry->lenComment);
+d582 1
+a582 1
+		destFile.Open(tempFileName, CFile::modeWrite | CFile::shareExclusive | CFile::modeCreate);
+d584 3
+a586 1
+		destFile.SetLength(fill->m_dwEndOffset);
+d605 2
+a606 2
+				// Stop when finished fill (don't worry abuot extra)
+				if (fill->m_dwStartOffset + copied >= fill->m_dwEndOffset)
+d634 79
+a712 1
+		BYTE start[] = RAR_START_OF_FILE;
+d718 4
+a721 1
+			if (IsFilled(block->offsetData, block->offsetData + block->dataLength, filled))
+d746 1
+a746 1
+		msg = GetResString(IDS_RECOVER_SINGLE);
+a748 1
+	//AfxMessageBox(msg, MB_OK | MB_ICONINFORMATION);
+d756 4
+a759 2
+	POSITION pos = filled->GetHeadPosition();
+	Gap_Struct *fill;
+d765 1
+a765 1
+		if (fill->m_dwEndOffset >= end)
+d842 2
+a843 1
+		BYTE checkCRC[38];
+d867 16
+a882 4
+				headCRC = readUInt16(input); // CRC of fields from HEAD_TYPE to ATTR + filename
+				input->Read(&checkCRC[0], 30);
+				// Also need filename for crc
+				lenFileName = (((uint16)checkCRC[25]) << 8) + ((uint16)checkCRC[24]);
+a883 2
+				if (checkCRC[2] & 0x1) // If HEAD_FLAG & 0x100
+					input->Read(&checkCRC[30], 8);
+d885 38
+a922 1
+				crc = crc32(0, &checkCRC[0], 30);
+d924 2
+d951 8
+d980 1
+a980 2
+				if (retVal != NULL)
+					delete retVal;
+d993 1
+a993 1
+	return false;
+d1001 1
+a1001 1
+	if (block->UNP_SIZE < block->PACK_SIZE)
+d1051 3
+d1062 1
+a1062 1
+			uint32 lenChunk = 4096;
+d1108 1
+a1108 6
+	uint16 retVal = 0;
+	try
+	{
+		retVal = (((uint16)input[1]) << 8) + ((uint16)input[0]);
+	} catch (...) {}
+	return retVal;
+d1113 1
+a1113 6
+	uint32 retVal = 0;
+	try
+	{
+		retVal = (((uint32)input[3]) << 24) + (((uint32)input[2]) << 16) + (((uint32)input[1]) << 8) + ((uint32)input[0]);
+	} catch (...) {}
+	return retVal;
+d1119 2
+a1120 2
+	b[0] = (val & 0x000000ff);
+	b[1] = (val & 0x0000ff00) >>  8;
+d1127 4
+a1130 4
+	b[0] = (val & 0x000000ff);
+	b[1] = (val & 0x0000ff00) >>  8;
+	b[2] = (val & 0x00ff0000) >> 16;
+	b[3] = (val & 0xff000000) >> 24;
+@
+
+
+1.26
+log
+@renamed 3 variables
+@
+text
+@d16 1
+a16 1
+	::SetThreadLocale(g_App.g_pPrefs->GetLanguageID()); // 29.5.03 EC - ArchiveRecovery Thread wasn't localized
+d46 1
+a46 1
+	::SetThreadLocale(g_App.g_pPrefs->GetLanguageID()); // 01.06.03 EC - ArchiveRecovery Thread wasn't localized
+d66 1
+a66 1
+		CString tempFileName = CString(g_App.g_pPrefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec.tmp");
+d77 1
+a77 1
+		CString outputFileName = CString(g_App.g_pPrefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec.") + ext;
+@
+
+
+1.25
+log
+@An attempt to add preview support for .cbr and .cbz {purgossu}.
+@
+text
+@d16 1
+a16 1
+	::SetThreadLocale(g_eMuleApp.m_pGlobPrefs->GetLanguageID()); // 29.5.03 EC - ArchiveRecovery Thread wasn't localized
+d46 1
+a46 1
+	::SetThreadLocale(g_eMuleApp.m_pGlobPrefs->GetLanguageID()); // 01.06.03 EC - ArchiveRecovery Thread wasn't localized
+d66 1
+a66 1
+		CString tempFileName = CString(g_eMuleApp.m_pGlobPrefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec.tmp");
+d77 1
+a77 1
+		CString outputFileName = CString(g_eMuleApp.m_pGlobPrefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec.") + ext;
+@
+
+
+1.24
+log
+@Fixed mem leak.
+@
+text
+@d82 1
+a82 1
+			if (ext.CompareNoCase("zip") == 0)
+d84 1
+a84 1
+			else if (ext.CompareNoCase("rar") == 0)
+@
+
+
+1.23
+log
+@optimization in processing of file extension
+@
+text
+@a32 7
+	DWORD dwThreadId;
+	HANDLE hThread = CreateThread(	NULL,			// no security attributes
+									0,				// use default stack size
+									run,			// thread function
+									tp,				// argument to thread function
+									0,				// use default creation flags
+									&dwThreadId);	// returns the thread identifier
+d34 2
+a35 2
+	// Check the return value for success.
+	if (hThread == NULL)
+d39 1
+a39 1
+		// Need to delete the memory here as won't be done in thread
+d44 1
+a44 1
+DWORD WINAPI CArchiveRecovery::run(LPVOID lpParam)
+d76 1
+a76 1
+		CString ext = partFile->GetFileExtension();//CString(partFile->GetFileName()).Right(4);
+d82 1
+a82 1
+			if (ext ==_T("zip"))
+d84 1
+a84 1
+			else if (ext == _T("rar"))
+d119 8
+a126 1
+	} catch (...) {}
+d265 6
+a270 1
+	} catch (...) {}
+d351 7
+a357 1
+	} catch (...) {}
+d502 7
+a508 1
+	} catch (...) {}
+d565 6
+a570 1
+	} catch (...) {}
+d605 6
+a610 1
+	} catch (...) {}
+d687 7
+a693 1
+	} catch (...) {}
+d797 7
+a803 1
+	} catch (...) {}
+d885 5
+@
+
+
+1.22
+log
+@Fixed memory leak during archive preview.
+@
+text
+@d83 2
+a84 2
+		CString ext = CString(partFile->GetFileName()).Right(4);
+		CString outputFileName = CString(g_eMuleApp.m_pGlobPrefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec") + ext;
+d89 1
+a89 1
+			if (ext.CompareNoCase(_T(".zip")) == 0)
+d91 1
+a91 1
+			else if (ext.CompareNoCase(_T(".rar")) == 0)
+@
+
+
+1.21
+log
+@list processing optimization
+@
+text
+@d507 2
+a508 1
+	bool retVal = false;
+d512 2
+a513 2
+		// Get a new handle to the part file
+		CFile *srcFile = partFile->GetPartFileHandle().Duplicate();
+d550 3
+@
+
+
+1.20
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d17 1
+a17 1
+	
+d21 1
+a21 1
+	
+d23 1
+a23 1
+	
+d34 6
+a39 6
+	HANDLE hThread = CreateThread(	NULL,			// no security attributes 
+									0,				// use default stack size  
+									run,			// thread function 
+									tp,				// argument to thread function 
+									0,				// use default creation flags 
+									&dwThreadId);	// returns the thread identifier 
+d41 2
+a42 2
+	// Check the return value for success. 
+	if (hThread == NULL) 
+d145 1
+a145 1
+			POSITION pos = centralDirectoryEntries.GetHeadPosition();
+d147 1
+a147 1
+			for (int i=centralDirectoryEntries.GetCount(); i>0; i--)
+d150 2
+a151 1
+				cdEntry = centralDirectoryEntries.GetAt(pos);
+a171 2
+					POSITION del = pos;
+					centralDirectoryEntries.GetNext(pos);
+a173 2
+				else
+					centralDirectoryEntries.GetNext(pos);
+d177 1
+a177 1
+		{		
+d268 1
+a268 1
+	CString msg;	
+d391 1
+a391 1
+		
+d567 1
+a567 1
+				if ((block->HEAD_FLAGS & 0xE0) != 0xE0) 
+d582 1
+a582 1
+	CString msg;	
+d614 1
+a614 1
+		int lenChunk = 51200; // 50k buffer 
+d666 1
+a666 1
+		int lenChunk = 51200; // 50k buffer 
+@
+
+
+1.19
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d108 1
+a108 1
+				memset2(&SE,0,sizeof(SE));
+@
+
+
+1.18
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d45 1
+a45 1
+		AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_RECOVERY_FAILED));
+d57 1
+a57 1
+		AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_RECOVERY_FAILED));
+@
+
+
+1.17
+log
+@Added some colors to the logs...
+@
+text
+@d45 1
+a45 1
+		AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_RECOVERY_FAILED));
+d57 1
+a57 1
+		AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_RECOVERY_FAILED));
+d277 1
+a277 1
+	AddLogLine(true,msg);
+d591 1
+a591 1
+	AddLogLine(true,msg);
+@
+
+
+1.16
+log
+@Formatting, comments, and name changes.
+@
+text
+@d45 1
+a45 1
+		AddLogLine(true, IDS_RECOVERY_FAILED);
+d57 1
+a57 1
+		AddLogLine(true, IDS_RECOVERY_FAILED);
+@
+
+
+1.15
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d188 1
+a188 1
+				if (filePos > fill->end)
+d190 2
+a191 2
+				if (filePos < fill->start)
+					zipInput->Seek(fill->start, CFile::begin);
+d197 1
+a197 1
+					if (!scanForZipMarker(zipInput, (uint32)ZIP_LOCAL_HEADER_MAGIC, (fill->end - zipInput->GetPosition() + 1)))
+d199 1
+a199 1
+					if (zipInput->GetPosition() > fill->end)
+d201 1
+a201 1
+					if (!processZipEntry(zipInput, zipOutput, (fill->end - zipInput->GetPosition() + 1), &centralDirectoryEntries))
+d521 1
+a521 1
+		destFile.SetLength(fill->end);
+d534 2
+a535 2
+			srcFile->Seek(fill->start, CFile::begin);
+			destFile.Seek(fill->start, CFile::begin);
+d541 1
+a541 1
+				if (fill->start + copied >= fill->end)
+d603 1
+a603 1
+		if (fill->start > start)
+d605 1
+a605 1
+		if (fill->end >= end)
+@
+
+
+1.14
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d108 1
+a108 1
+				memset(&SE,0,sizeof(SE));
+@
+
+
+1.13
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d3 1
+a3 1
+#include "memcpy_amd.h"
+@
+
+
+1.12
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d483 1
+a483 5
+			#ifndef AMD
+			memcpy(cdEntry->comment, ZIP_COMMENT, cdEntry->lenComment);
+			#else
+			memcpy_amd(cdEntry->comment, ZIP_COMMENT, cdEntry->lenComment);
+			#endif
+@
+
+
+1.11
+log
+@Second batch of name changes
+@
+text
+@d16 1
+a16 1
+	::SetThreadLocale(theApp.glob_prefs->GetLanguageID()); // 29.5.03 EC - ArchiveRecovery Thread wasn't localized
+d53 1
+a53 1
+	::SetThreadLocale(theApp.glob_prefs->GetLanguageID()); // 01.06.03 EC - ArchiveRecovery Thread wasn't localized
+d73 1
+a73 1
+		CString tempFileName = CString(theApp.glob_prefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec.tmp");
+d84 1
+a84 1
+		CString outputFileName = CString(theApp.glob_prefs->GetTempDir()) + CString("\\") + CString(partFile->GetFileName()).Mid(0,5) + CString("-rec") + ext;
+@
+
+
+1.10
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@d519 1
+a519 1
+		CFile *srcFile = partFile->m_hPartFile.Duplicate();
+@
+
+
+1.9
+log
+@unicode cleanup
+@
+text
+@d519 1
+a519 1
+		CFile *srcFile = partFile->m_hpartfile.Duplicate();
+@
+
+
+1.8
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d89 1
+a89 1
+			if (ext.CompareNoCase(".zip") == 0)
+d91 1
+a91 1
+			else if (ext.CompareNoCase(".rar") == 0)
+d110 1
+a110 1
+				SE.lpVerb = "open";
+@
+
+
+1.7
+log
+@converted to new logger methods
+@
+text
+@d3 1
+d483 1
+d485 3
+@
+
+
+1.6
+log
+@better localization
+@
+text
+@d21 1
+a21 1
+	AddLogLine(true, GetResString(IDS_ATTEMPTING_RECOVERY) );
+d44 1
+a44 1
+		AddLogLine(true, GetResString(IDS_RECOVERY_FAILED));
+d56 1
+a56 1
+		AddLogLine(true, GetResString(IDS_RECOVERY_FAILED));
+d102 1
+a102 1
+			AddLogLine(true, GetResString(IDS_RECOVERY_SUCCESSFUL));
+@
+
+
+1.5
+log
+@ArchiveRecovery Thread is now localized
+@
+text
+@d15 1
+a15 1
+	SetThreadLocale(theApp.glob_prefs->GetLanguageID()); // 29.5.03 EC - ArchiveRecovery Thread wasn't localized
+d52 1
+@
+
+
+1.4
+log
+@Upgrade to 0.28a
+@
+text
+@d15 2
+d20 1
+a20 1
+
+d22 2
+a23 2
+
+	// Get the current filled list for this file
+@
+
+
+1.3
+log
+@converted to new logging method
+@
+text
+@d379 1
+a379 1
+		ZIP_Entry entry;
+d612 1
+a612 1
+		uint32 originalOffset = input->GetPosition();
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d19 1
+a19 1
+	theApp.emuledlg->AddLogLine(true, GetResString(IDS_ATTEMPTING_RECOVERY) );
+d42 1
+a42 1
+		theApp.emuledlg->AddLogLine(true, GetResString(IDS_RECOVERY_FAILED));
+d53 1
+a53 1
+		theApp.emuledlg->AddLogLine(true, GetResString(IDS_RECOVERY_FAILED));
+d99 1
+a99 1
+			theApp.emuledlg->AddLogLine(true, GetResString(IDS_RECOVERY_SUCCESSFUL));
+d273 1
+a273 1
+	theApp.emuledlg->AddLogLine(true,msg);
+d587 1
+a587 1
+	theApp.emuledlg->AddLogLine(true,msg);
+@
+
+
+1.1
+log
+@port to .25b codebase
+@
+text
+@d4 7
+@
+
+
+1.1.2.1
+log
+@updating this branch...
+@
+text
+@@
+

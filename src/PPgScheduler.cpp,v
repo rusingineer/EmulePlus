@@ -1,0 +1,1712 @@
+head	1.15;
+access;
+symbols
+	PublicRelease_1_2e:1.14
+	Interim_Release_1-2e_RC1:1.14
+	PublicRelease_1_2d:1.14
+	Interim_Release_1-2d_RC1:1.14
+	Interim_Release_1-2d_beta1:1.14
+	PublicRelease_1_2c:1.13
+	Interim_Release_1-2c_RC1:1.13
+	Interim_Release_1-2c_beta1:1.12
+	PublicRelease_1_2b:1.12
+	Interim_Release_1-2b_RC1:1.12
+	PublicRelease_1_2a:1.12
+	Interim_Release_1-2a_RC1:1.12
+	Interim_Release_1-2a_beta2:1.12
+	Interim_Release_1-2a_beta1:1.12
+	PublicRelease_1_2:1.12
+	Interim_Release_1-2_RC1:1.12
+	Interim_Release_1-2_beta1:1.12
+	PublicRelease_1_1g:1.12
+	Interim_Release_1-1g_RC3:1.12
+	Interim_Release_1-1g_RC2:1.12
+	Interim_Release_1-1g_RC1:1.12
+	Interim_Release_1-1g_beta2:1.11
+	Interim_Release_1-1g_beta1:1.11
+	PublicRelease_1_1f:1.11
+	Interim_Release_1-1f_RC1:1.11
+	PublicRelease_1_1e:1.11
+	Interim_Release_1-1e_RC2:1.11
+	Interim_Release_1-1e_RC1:1.11
+	Interim_Release_1-1e_beta1:1.11
+	PublicRelease_1_1d:1.11
+	Interim_Release_1-1d_RC1:1.11
+	PublicRelease_1_1c:1.11
+	Interim_Release_1-1c_RC1:1.11
+	Interim_Release_1-1c_beta2:1.11
+	Interim_Release_1-1c_beta1:1.11
+	PublicRelease_1_1b:1.11
+	Interim_Release_1-1b_RC1:1.11
+	PublicRelease_1_1a:1.11
+	Interim_Release_1-1a_RC2:1.11
+	Interim_Release_1-1a_RC1:1.11
+	Interim_Release_1-1a_beta2:1.11
+	Interim_Release_1-1a_beta1:1.11
+	PublicRelease_1_1:1.10
+	Interim_Release_1-1_beta1:1.10
+	PublicRelease_1o:1.8
+	Interim_Release_1o_RC1:1.8
+	Interim_Release_1o_beta1:1.8
+	PublicRelease_1n:1.8
+	Interim_Release_1n_RC2:1.8
+	Interim_Release_1n_RC1:1.8
+	Interim_Release_1n_beta2:1.8
+	Interim_Release_1n_beta1:1.8
+	PublicRelease_1m:1.8
+	Interim_Release_1m_beta1:1.8
+	PublicRelease_1l:1.7
+	Interim_Release_1l_RC3:1.7
+	Interim_Release_1l_RC2:1.7
+	Interim_Release_1l_RC1:1.7
+	Interim_Release_1l_beta2:1.7
+	Interim_Release_1l_beta1:1.7
+	PublicRelease_1k:1.7
+	Interim_Release_1k_RC4:1.7
+	Interim_1k_RC3:1.7
+	Interim_1k_RC2:1.7
+	Interim_Release_1k_RC1:1.7
+	Interim_Release_1k_beta5:1.7
+	Intrerim_Release_1k_beta4:1.7
+	Interim_Release_1k_beta1:1.7
+	PublicRelease_1j:1.7
+	Interim_Release_1J_RC3:1.7
+	Interim_Release_1j_RC3:1.7
+	Interim_Release_1j_RC2:1.7
+	Interim_Release_1j_RC1:1.7
+	Interim_Release_1j_beta2:1.7
+	Interim_Release_1j_beta1:1.7
+	PublicRelease_1i:1.7
+	Interim_Release_1i_RC6:1.7
+	Interim_Release_1i_RC3:1.7
+	Interim_Release_1i_RC2:1.7
+	Interim_Release_1i_RC1:1.7
+	Interim_Release_1i_beta3:1.7
+	Interim_Release_1i_beta2:1.7
+	Interim_Release_1i_beta1:1.7
+	PublicRelease_1h:1.5
+	Interim_Release_1h_rc2:1.5
+	Interim_Release_1h_RC1:1.5
+	Interim_Release_1h_beta2:1.5
+	Interim_Release_1h_beta1_now:1.4
+	Interim_Release_1h_beta1:1.4
+	PublicRelease_1g:1.4
+	Interim_Release_1g_RC6_Final:1.4
+	Interim_Release_1g_RC6:1.4
+	Interim_Release_1g_RC5:1.4
+	Interim_Release_1g_RC4:1.4
+	Interim_Release_1g_RC3:1.4
+	Interim_Release_1g_beta2:1.3
+	Interim_Release_1g_beta1:1.3
+	Interim_Release_1f_RC4:1.2
+	Interim_Release_1f_RC3:1.2
+	Interim_Release_1f_RC2:1.2
+	Interim_Release_1f_RC:1.2
+	Interim_Release_1f_beta2:1.2
+	Interim_Release_1f_beta1:1.2
+	PublicRelease_1e:1.2
+	Interim_Release_1e_RC2:1.2
+	Interim_Release_1e_RC:1.2
+	Interim_Release_1e_beta3:1.2
+	Interim_Release_1e_beta2:1.2
+	Interim_Release_1e_beta2_before_kuchin:1.2
+	Interim_Release_1e_beta1:1.2
+	PublicRelease_1c:1.2
+	featurestest:1.2.0.2
+	Interim_Release_1c_RC:1.2;
+locks; strict;
+comment	@// @;
+
+
+1.15
+date	2009.07.14.03.54.08;	author aw3;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2008.02.07.05.16.55;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.04.02.23.14.14;	author kush_eplus;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.11.08.00.28.42;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.10.08.04.35.58;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.10.03.15.53.03;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.06.19.05.34.24;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.09.22.16.40.49;	author morevit;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.09.20.15.39.31;	author morevit;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.08.26.05.02.14;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.06.14.18.08.22;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.06.01.10.08.44;	author partyckip;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.03.22.09.32.21;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.03.21.18.55.19;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.15
+log
+@Reduced H-file dependency.
+@
+text
+@// PPgScheduler.cpp : implementation file
+
+#include "stdafx.h"
+#include "emule.h"
+#include "UploadQueue.h"
+#include "PPgScheduler.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgScheduler, CPropertyPage)
+CPPgScheduler::CPPgScheduler()
+	: CPropertyPage(CPPgScheduler::IDD)
+	, m_bSchedulerEnabled(FALSE)
+	, m_bExceptMon(FALSE)
+	, m_bExceptTue(FALSE)
+	, m_bExceptWed(FALSE)
+	, m_bExceptThu(FALSE)
+	, m_bExceptFri(FALSE)
+	, m_bExceptSat(FALSE)
+	, m_bExceptSun(FALSE)
+{
+}
+
+CPPgScheduler::~CPPgScheduler()
+{
+}
+
+void CPPgScheduler::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_SCH_SHIFT1_TIME, m_Shift1TimeCombo);
+	DDX_Control(pDX, IDC_SCH_SHIFT2_TIME, m_Shift2TimeCombo);
+	DDX_Check(pDX, IDC_SCH_ENABLED, m_bSchedulerEnabled);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_MON, m_bExceptMon);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_TUE, m_bExceptTue);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_WED, m_bExceptWed);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_THU, m_bExceptThu);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_FRI, m_bExceptFri);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_SAT, m_bExceptSat);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_SUN, m_bExceptSun);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_DOWN, m_strShift1Down);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_UP, m_strShift1Up);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_CONN, m_strShift1Conn);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_5SEC, m_strShift1Conn5Sec);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_UP, m_strShift2Up);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_DOWN, m_strShift2Down);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_CONN, m_strShift2Conn);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_5SEC, m_strShift2Conn5Sec);
+}
+
+BEGIN_MESSAGE_MAP(CPPgScheduler, CPropertyPage)
+	ON_BN_CLICKED(IDC_SCH_ENABLED, OnBnClickedSCHEnabled)
+	ON_CBN_SELCHANGE(IDC_SCH_SHIFT1_TIME, OnSettingsChange)
+	ON_CBN_SELCHANGE(IDC_SCH_SHIFT2_TIME, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT1_UP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT1_DOWN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT1_CONN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT1_5SEC, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT2_UP, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT2_DOWN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT2_CONN, OnSettingsChange)
+	ON_EN_CHANGE(IDC_SCH_SHIFT2_5SEC, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCH_EXCEPT_MON, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCH_EXCEPT_TUE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCH_EXCEPT_WED, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCH_EXCEPT_THU, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCH_EXCEPT_FRI, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCH_EXCEPT_SAT, OnSettingsChange)
+	ON_BN_CLICKED(IDC_SCH_EXCEPT_SUN, OnSettingsChange)
+END_MESSAGE_MAP()
+
+BOOL CPPgScheduler::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	CString	strTime;
+	int		iRc;
+
+	for (uint32 dwInterval = 0; dwInterval < (24 * 3600); dwInterval += 1800)
+	{
+		strTime.Format(_T("%u:%02u"), dwInterval / 3600, dwInterval % 3600 / 60);
+		m_Shift1TimeCombo.SetItemData(iRc = m_Shift1TimeCombo.AddString(strTime), dwInterval);
+		if (dwInterval == m_pPrefs->GetSCHShift1())
+			m_Shift1TimeCombo.SetCurSel(iRc);
+		m_Shift2TimeCombo.SetItemData(iRc = m_Shift2TimeCombo.AddString(strTime), dwInterval);
+		if (dwInterval == m_pPrefs->GetSCHShift2())
+			m_Shift2TimeCombo.SetCurSel(iRc);
+	}
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+
+void CPPgScheduler::LoadSettings(void)
+{
+	if (::IsWindow(m_hWnd))
+	{
+		if(m_pPrefs->GetSCHShift1Upload() == UNLIMITED)
+			m_strShift1Up = _T("0");
+		else
+			FractionalRate2String(&m_strShift1Up, m_pPrefs->GetSCHShift1Upload());
+
+		if(m_pPrefs->GetSCHShift1Download() == UNLIMITED)
+			m_strShift1Down = _T("0");
+		else
+			FractionalRate2String(&m_strShift1Down, m_pPrefs->GetSCHShift1Download());
+			
+		m_strShift1Conn.Format(_T("%u"), m_pPrefs->GetSCHShift1conn());
+		m_strShift1Conn5Sec.Format(_T("%u"), m_pPrefs->GetSCHShift15sec());
+		
+		if(m_pPrefs->GetSCHShift2Upload() == UNLIMITED)
+			m_strShift2Up = _T("0");
+		else
+			FractionalRate2String(&m_strShift2Up, m_pPrefs->GetSCHShift2Upload());
+
+		if(m_pPrefs->GetSCHShift2Download() == UNLIMITED)
+			m_strShift2Down = _T("0");
+		else
+			FractionalRate2String(&m_strShift2Down, m_pPrefs->GetSCHShift2Download());
+
+		m_strShift2Conn.Format(_T("%u"), m_pPrefs->GetSCHShift2conn());
+		m_strShift2Conn5Sec.Format(_T("%u"), m_pPrefs->GetSCHShift25sec());
+
+		m_bExceptMon = m_pPrefs->IsSCHExceptMon();
+		m_bExceptTue = m_pPrefs->IsSCHExceptTue();
+		m_bExceptWed = m_pPrefs->IsSCHExceptWed();
+		m_bExceptThu = m_pPrefs->IsSCHExceptThu();
+		m_bExceptFri = m_pPrefs->IsSCHExceptFri();
+		m_bExceptSat = m_pPrefs->IsSCHExceptSat();
+		m_bExceptSun = m_pPrefs->IsSCHExceptSun();
+
+		m_bSchedulerEnabled = m_pPrefs->IsSCHEnabled();
+
+		UpdateData(FALSE);
+
+		OnBnClickedSCHEnabled();
+
+		SetModified(FALSE);
+	}
+}
+
+BOOL CPPgScheduler::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		uint32	dwVal;
+
+		if (!m_strShift1Up.IsEmpty())
+		{
+			dwVal = String2FranctionalRate(m_strShift1Up);
+			m_pPrefs->SetSCHShift1Upload((uint16)((dwVal < 10) ? ((dwVal != 0) ? 10 : UNLIMITED) : dwVal));
+		}
+		if (!m_strShift1Down.IsEmpty())
+		{
+			dwVal = String2FranctionalRate(m_strShift1Down);
+			m_pPrefs->SetSCHShift1Download((dwVal < 10) ? ((dwVal != 0) ? 10 : UNLIMITED) : dwVal);
+		}
+		g_App.m_pUploadQueue->SCHShift1UploadCheck();
+
+		if (!m_strShift1Conn.IsEmpty())
+		{
+			int i = _tstoi(m_strShift1Conn);
+			m_pPrefs->SetSCHShift1conn((uint16)((i != 0) ? i : 0xFFFF));
+		}
+		if (!m_strShift1Conn5Sec.IsEmpty())
+		{
+			int i = _tstoi(m_strShift1Conn5Sec);
+			m_pPrefs->SetSCHShift15sec((uint16)((i != 0) ? i : 0xFFFF));
+		}
+
+		if (!m_strShift2Up.IsEmpty())
+		{
+			dwVal = String2FranctionalRate(m_strShift2Up);
+			m_pPrefs->SetSCHShift2Upload((uint16)((dwVal < 10) ? ((dwVal != 0) ? 10 : UNLIMITED) : dwVal));
+		}
+		if (!m_strShift2Down.IsEmpty())
+		{
+			dwVal = String2FranctionalRate(m_strShift2Down);
+			m_pPrefs->SetSCHShift2Download((dwVal < 10) ? ((dwVal != 0) ? 10 : UNLIMITED) : dwVal);
+		}
+		g_App.m_pUploadQueue->SCHShift2UploadCheck();
+
+		if (!m_strShift2Conn.IsEmpty())
+		{
+			int i = _tstoi(m_strShift2Conn);
+			m_pPrefs->SetSCHShift2conn((uint16)((i != 0) ? i : 0xFFFF));
+		}
+		if (!m_strShift2Conn5Sec.IsEmpty())
+		{
+			int i = _tstoi(m_strShift2Conn5Sec);
+			m_pPrefs->SetSCHShift25sec((uint16)((i != 0) ? i : 0xFFFF));
+		}
+
+		if (m_Shift1TimeCombo.GetCurSel() != CB_ERR)
+			m_pPrefs->SetSCHShift1(m_Shift1TimeCombo.GetItemData(m_Shift1TimeCombo.GetCurSel()));
+
+		if (m_Shift2TimeCombo.GetCurSel() != CB_ERR)
+			m_pPrefs->SetSCHShift2(m_Shift2TimeCombo.GetItemData(m_Shift2TimeCombo.GetCurSel()));
+
+		m_pPrefs->SetSCHExceptMon(B2b(m_bExceptMon));
+		m_pPrefs->SetSCHExceptTue(B2b(m_bExceptTue));
+		m_pPrefs->SetSCHExceptWed(B2b(m_bExceptWed));
+		m_pPrefs->SetSCHExceptThu(B2b(m_bExceptThu));
+		m_pPrefs->SetSCHExceptFri(B2b(m_bExceptFri));
+		m_pPrefs->SetSCHExceptSat(B2b(m_bExceptSat));
+		m_pPrefs->SetSCHExceptSun(B2b(m_bExceptSun));
+
+		m_pPrefs->SetSCHEnabled(B2b(m_bSchedulerEnabled));
+
+		SetModified(FALSE);
+	}
+	return CPropertyPage::OnApply();
+}
+
+void CPPgScheduler::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_SCH_SHIFT1, IDS_SCH_SHIFT1 },
+		{ IDC_SCH_SHIFT2, IDS_SCH_SHIFT2 },
+		{ IDC_SCH_KB1, IDS_KBYTESEC },
+		{ IDC_SCH_KB2, IDS_KBYTESEC },
+		{ IDC_SCH_TIME, IDS_TIME },
+		{ IDC_SCH_DOWN, IDS_DOWNLOAD_NOUN },
+		{ IDC_SCH_UP, IDS_UPLOAD_NOUN },
+		{ IDC_SCH_CONN, IDS_PW_MAXC },
+		{ IDC_SCH_5SEC, IDS_MAXCON5_TEXT },
+		{ IDC_SCH_FRM, IDS_SCH_EXCEPT },
+		{ IDC_SCH_EXCEPT_MON, IDS_SCH_EXCEPT_MON },
+		{ IDC_SCH_EXCEPT_TUE, IDS_SCH_EXCEPT_TUE },
+		{ IDC_SCH_EXCEPT_WED, IDS_SCH_EXCEPT_WED },
+		{ IDC_SCH_EXCEPT_THU, IDS_SCH_EXCEPT_THU },
+		{ IDC_SCH_EXCEPT_FRI, IDS_SCH_EXCEPT_FRI },
+		{ IDC_SCH_EXCEPT_SAT, IDS_SCH_EXCEPT_SAT },
+		{ IDC_SCH_EXCEPT_SUN, IDS_SCH_EXCEPT_SUN },
+		{ IDC_SCH_ENABLED, IDS_ENABLED }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+	}
+}
+
+void CPPgScheduler::OnBnClickedSCHEnabled()
+{
+	static const uint16 s_auResTbl[] =
+	{
+		IDC_SCH_SHIFT1_TIME, IDC_SCH_SHIFT1_UP,
+		IDC_SCH_SHIFT1_DOWN, IDC_SCH_SHIFT1_CONN,
+		IDC_SCH_SHIFT1_5SEC, IDC_SCH_SHIFT2_TIME,
+		IDC_SCH_SHIFT2_UP,   IDC_SCH_SHIFT2_DOWN,
+		IDC_SCH_SHIFT2_CONN, IDC_SCH_SHIFT2_5SEC,
+		IDC_SCH_EXCEPT_MON,  IDC_SCH_EXCEPT_TUE,
+		IDC_SCH_EXCEPT_WED,  IDC_SCH_EXCEPT_THU,
+		IDC_SCH_EXCEPT_FRI,  IDC_SCH_EXCEPT_SAT,
+		IDC_SCH_EXCEPT_SUN
+	};
+
+	UpdateData(TRUE);
+
+	for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		GetDlgItem(s_auResTbl[i])->EnableWindow(m_bSchedulerEnabled);
+
+	SetModified();
+}
+@
+
+
+1.14
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings; Formatting.
+@
+text
+@d5 1
+@
+
+
+1.13
+log
+@Removed unneeded CString initializations.
+@
+text
+@a12 2
+// CPPgScheduler dialog
+
+d16 8
+a23 8
+	, schedulerEnabled(FALSE)
+	, exceptMonday(FALSE)
+	, exceptTuesday(FALSE)
+	, exceptWednesday(FALSE)
+	, exceptThursday(FALSE)
+	, exceptFriday(FALSE)
+	, exceptSaturday(FALSE)
+	, exceptSunday(FALSE)
+d34 18
+a51 44
+	DDX_Control(pDX, IDC_SCH_SHIFT1_TIME, shift1TimeCombo);
+	DDX_Control(pDX, IDC_SCH_SHIFT2_TIME, shift2TimeCombo);
+	DDX_Check(pDX, IDC_SCH_ENABLED, schedulerEnabled);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_MON, exceptMonday);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_TUE, exceptTuesday);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_WED, exceptWednesday);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_THU, exceptThursday);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_FRI, exceptFriday);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_SAT, exceptSaturday);
+	DDX_Check(pDX, IDC_SCH_EXCEPT_SUN, exceptSunday);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_DOWN, shift1Down);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_UP, shift1Up);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_CONN, shift1Conn);
+	DDX_Text(pDX, IDC_SCH_SHIFT1_5SEC, shift1Conn5Sec);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_UP, shift2Up);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_DOWN, shift2Down);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_CONN, shift2Conn);
+	DDX_Text(pDX, IDC_SCH_SHIFT2_5SEC, shift2Conn5Sec);
+	DDX_Control(pDX, IDC_SCH_EXCEPT_MON, exceptMondayCheck);
+	DDX_Control(pDX, IDC_SCH_EXCEPT_TUE, exceptTuesdayCheck);
+	DDX_Control(pDX, IDC_SCH_EXCEPT_WED, exceptWednesdayCheck);
+	DDX_Control(pDX, IDC_SCH_EXCEPT_THU, exceptThursdayCheck);
+	DDX_Control(pDX, IDC_SCH_EXCEPT_FRI, exceptFridayCheck);
+	DDX_Control(pDX, IDC_SCH_EXCEPT_SAT, exceptSaturdayCheck);
+	DDX_Control(pDX, IDC_SCH_EXCEPT_SUN, exceptSundayCheck);
+	DDX_Control(pDX, IDC_SCH_ENABLED, schedulerEnabledCheck);
+	DDX_Control(pDX, IDC_SCH_SHIFT1_DOWN, shift1DownEdit);
+	DDX_Control(pDX, IDC_SCH_SHIFT1_UP, shift1UpEdit);
+	DDX_Control(pDX, IDC_SCH_SHIFT1_CONN, shift1ConnEdit);
+	DDX_Control(pDX, IDC_SCH_SHIFT1_5SEC, shift1Conn5SecEdit);
+	DDX_Control(pDX, IDC_SCH_SHIFT2_UP, shift2UpEdit);
+	DDX_Control(pDX, IDC_SCH_SHIFT2_DOWN, shift2DownEdit);
+	DDX_Control(pDX, IDC_SCH_SHIFT2_CONN, shift2ConnEdit);
+	DDX_Control(pDX, IDC_SCH_SHIFT2_5SEC, shift2Conn5SecEdit);
+	DDX_Text(pDX, IDC_SCH_SHIFT1, schift1Desc);
+	DDX_Text(pDX, IDC_SCH_SHIFT2, schift2Desc);
+	DDX_Text(pDX, IDC_SCH_KB1, kb1Desc);
+	DDX_Text(pDX, IDC_SCH_KB2, kb2Desc);
+	DDX_Text(pDX, IDC_SCH_TIME, timeDesc);
+	DDX_Text(pDX, IDC_SCH_DOWN, downDesc);
+	DDX_Text(pDX, IDC_SCH_UP, upDesc);
+	DDX_Text(pDX, IDC_SCH_CONN, connDesc);
+	DDX_Text(pDX, IDC_SCH_5SEC, conn5Desc);
+	DDX_Text(pDX, IDC_SCH_FRM, frmDesc);
+d56 2
+a57 2
+	ON_CBN_SELCHANGE(IDC_SCH_SHIFT1_TIME, OnCbnSelchangeShift1Time)
+	ON_CBN_SELCHANGE(IDC_SCH_SHIFT2_TIME, OnCbnSelchangeShift2Time)
+d85 1
+a85 1
+		shift1TimeCombo.SetItemData(iRc = shift1TimeCombo.AddString(strTime), dwInterval);
+d87 2
+a88 2
+			shift1TimeCombo.SetCurSel(iRc);
+		shift2TimeCombo.SetItemData(iRc = shift2TimeCombo.AddString(strTime), dwInterval);
+d90 1
+a90 1
+			shift2TimeCombo.SetCurSel(iRc);
+d104 1
+a104 1
+			shift1Up = _T("0");
+d106 1
+a106 1
+			FractionalRate2String(&shift1Up, m_pPrefs->GetSCHShift1Upload());
+d109 1
+a109 1
+			shift1Down = _T("0");
+d111 1
+a111 1
+			FractionalRate2String(&shift1Down, m_pPrefs->GetSCHShift1Download());
+d113 2
+a114 2
+		shift1Conn.Format(_T("%d"), m_pPrefs->GetSCHShift1conn());
+		shift1Conn5Sec.Format(_T("%d"), m_pPrefs->GetSCHShift15sec());
+d117 1
+a117 1
+			shift2Up = _T("0");
+d119 1
+a119 1
+			FractionalRate2String(&shift2Up, m_pPrefs->GetSCHShift2Upload());
+d122 1
+a122 1
+			shift2Down = _T("0");
+d124 1
+a124 1
+			FractionalRate2String(&shift2Down, m_pPrefs->GetSCHShift2Download());
+d126 2
+a127 2
+		shift2Conn.Format(_T("%d"), m_pPrefs->GetSCHShift2conn());
+		shift2Conn5Sec.Format(_T("%d"), m_pPrefs->GetSCHShift25sec());
+d129 7
+a135 7
+		exceptMonday = m_pPrefs->IsSCHExceptMon();
+		exceptTuesday = m_pPrefs->IsSCHExceptTue();
+		exceptWednesday = m_pPrefs->IsSCHExceptWed();
+		exceptThursday = m_pPrefs->IsSCHExceptThu();
+		exceptFriday = m_pPrefs->IsSCHExceptFri();
+		exceptSaturday = m_pPrefs->IsSCHExceptSat();
+		exceptSunday = m_pPrefs->IsSCHExceptSun();
+d137 1
+a137 1
+		schedulerEnabled = m_pPrefs->IsSCHEnabled();
+d155 1
+a155 1
+		if(shift1Up.GetLength() != 0)
+d157 2
+a158 2
+			dwVal = String2FranctionalRate(shift1Up);
+			m_pPrefs->SetSCHShift1Upload((dwVal < 10) ? ((dwVal != 0) ? 10 : UNLIMITED) : dwVal);
+d160 1
+a160 1
+		if(shift1Down.GetLength() != 0)
+d162 1
+a162 1
+			dwVal = String2FranctionalRate(shift1Down);
+d167 1
+a167 1
+		if(shift1Conn.GetLength() != 0)
+d169 2
+a170 2
+			int i = _tstoi(shift1Conn);
+			m_pPrefs->SetSCHShift1conn((i != 0) ? i : 0xFFFF);
+d172 1
+a172 1
+		if(shift1Conn5Sec.GetLength() != 0)
+d174 2
+a175 2
+			int i = _tstoi(shift1Conn5Sec);
+			m_pPrefs->SetSCHShift15sec((i != 0) ? i : 0xFFFF);
+d178 1
+a178 1
+		if(shift2Up.GetLength() != 0)
+d180 2
+a181 2
+			dwVal = String2FranctionalRate(shift2Up);
+			m_pPrefs->SetSCHShift2Upload((dwVal < 10) ? ((dwVal != 0) ? 10 : UNLIMITED) : dwVal);
+d183 1
+a183 1
+		if(shift2Down.GetLength() != 0)
+d185 1
+a185 1
+			dwVal = String2FranctionalRate(shift2Down);
+d190 1
+a190 1
+		if(shift2Conn.GetLength() != 0)
+d192 2
+a193 2
+			int i = _tstoi(shift2Conn);
+			m_pPrefs->SetSCHShift2conn((i != 0) ? i : 0xFFFF);
+d195 1
+a195 1
+		if(shift2Conn5Sec.GetLength() != 0)
+d197 2
+a198 2
+			int i = _tstoi(shift2Conn5Sec);
+			m_pPrefs->SetSCHShift25sec((i != 0) ? i : 0xFFFF);
+d201 5
+a205 6
+		if (shift1TimeCombo.GetCurSel() != CB_ERR){
+			m_pPrefs->SetSCHShift1(shift1TimeCombo.GetItemData(shift1TimeCombo.GetCurSel()));
+		}
+		if (shift2TimeCombo.GetCurSel() != CB_ERR){
+			m_pPrefs->SetSCHShift2(shift2TimeCombo.GetItemData(shift2TimeCombo.GetCurSel()));
+		}
+d207 7
+a213 7
+		m_pPrefs->SetSCHExceptMon(exceptMonday);
+		m_pPrefs->SetSCHExceptTue(exceptTuesday);
+		m_pPrefs->SetSCHExceptWed(exceptWednesday);
+		m_pPrefs->SetSCHExceptThu(exceptThursday);
+		m_pPrefs->SetSCHExceptFri(exceptFriday);
+		m_pPrefs->SetSCHExceptSat(exceptSaturday);
+		m_pPrefs->SetSCHExceptSun(exceptSunday);
+d215 1
+a215 1
+		m_pPrefs->SetSCHEnabled(schedulerEnabled);
+d224 23
+a246 1
+	if(::IsWindow(m_hWnd))
+d248 1
+a248 19
+		SetWindowText(GetResString(IDS_PW_SCHEDULER));
+		GetResString(&schift1Desc, IDS_SCH_SHIFT1);
+		GetResString(&schift2Desc, IDS_SCH_SHIFT2);
+		GetResString(&kb1Desc, IDS_KBYTESEC);
+		GetResString(&kb2Desc, IDS_KBYTESEC);
+		GetResString(&timeDesc, IDS_TIME);
+		GetResString(&downDesc, IDS_DOWNLOAD_NOUN);
+		GetResString(&upDesc, IDS_UPLOAD_NOUN);
+		GetResString(&connDesc, IDS_PW_MAXC);
+		GetResString(&conn5Desc, IDS_MAXCON5_TEXT);
+		GetResString(&frmDesc, IDS_SCH_EXCEPT);
+		exceptMondayCheck.SetWindowText(GetResString(IDS_SCH_EXCEPT_MON));
+		exceptTuesdayCheck.SetWindowText(GetResString(IDS_SCH_EXCEPT_TUE));
+		exceptWednesdayCheck.SetWindowText(GetResString(IDS_SCH_EXCEPT_WED));
+		exceptThursdayCheck.SetWindowText(GetResString(IDS_SCH_EXCEPT_THU));
+		exceptFridayCheck.SetWindowText(GetResString(IDS_SCH_EXCEPT_FRI));
+		exceptSaturdayCheck.SetWindowText(GetResString(IDS_SCH_EXCEPT_SAT));
+		exceptSundayCheck.SetWindowText(GetResString(IDS_SCH_EXCEPT_SUN));
+		schedulerEnabledCheck.SetWindowText(GetResString(IDS_ENABLED));
+d250 5
+a254 1
+		UpdateData(FALSE);
+d260 13
+d275 2
+a276 17
+	shift1TimeCombo.EnableWindow(schedulerEnabled);
+	shift1UpEdit.EnableWindow(schedulerEnabled);
+	shift1DownEdit.EnableWindow(schedulerEnabled);
+	shift1ConnEdit.EnableWindow(schedulerEnabled);
+	shift1Conn5SecEdit.EnableWindow(schedulerEnabled);
+	shift2TimeCombo.EnableWindow(schedulerEnabled);
+	shift2UpEdit.EnableWindow(schedulerEnabled);
+	shift2DownEdit.EnableWindow(schedulerEnabled);
+	shift2ConnEdit.EnableWindow(schedulerEnabled);
+	shift2Conn5SecEdit.EnableWindow(schedulerEnabled);
+	exceptMondayCheck.EnableWindow(schedulerEnabled);
+	exceptTuesdayCheck.EnableWindow(schedulerEnabled);
+	exceptWednesdayCheck.EnableWindow(schedulerEnabled);
+	exceptThursdayCheck.EnableWindow(schedulerEnabled);
+	exceptFridayCheck.EnableWindow(schedulerEnabled);
+	exceptSaturdayCheck.EnableWindow(schedulerEnabled);
+	exceptSundayCheck.EnableWindow(schedulerEnabled);
+@
+
+
+1.12
+log
+@renamed 3 variables
+@
+text
+@a25 18
+	, shift1Down(_T(""))
+	, shift1Up(_T(""))
+	, shift1Conn(_T(""))
+	, shift1Conn5Sec(_T(""))
+	, shift2Up(_T(""))
+	, shift2Down(_T(""))
+	, shift2Conn(_T(""))
+	, shift2Conn5Sec(_T(""))
+	, schift1Desc(_T(""))
+	, schift2Desc(_T(""))
+	, kb1Desc(_T(""))
+	, kb2Desc(_T(""))
+	, timeDesc(_T(""))
+	, downDesc(_T(""))
+	, upDesc(_T(""))
+	, connDesc(_T(""))
+	, conn5Desc(_T(""))
+	, frmDesc(_T(""))
+@
+
+
+1.11
+log
+@Renamed resource strings tags for better meaning.
+@
+text
+@d211 1
+a211 1
+		g_eMuleApp.m_pUploadQueue->SCHShift1UploadCheck();
+d234 1
+a234 1
+		g_eMuleApp.m_pUploadQueue->SCHShift2UploadCheck();
+@
+
+
+1.10
+log
+@Fractional upload/download limits (min 1 KB/s, granularity 0.1 KB/s).
+@
+text
+@d279 2
+a280 2
+		GetResString(&downDesc, IDS_PW_CON_DOWNLBL);
+		GetResString(&upDesc, IDS_PW_CON_UPLBL);
+@
+
+
+1.9
+log
+@Unified and faster way to fill preferences->scheduler comboboxes;
+Use define instead of numbers; Whitespace formatting.
+@
+text
+@d152 1
+a152 1
+			shift1Up.Format(_T("%d"), m_pPrefs->GetSCHShift1Upload());
+d157 1
+a157 1
+			shift1Down.Format(_T("%d"), m_pPrefs->GetSCHShift1Download());
+d165 1
+a165 2
+			shift2Up.Format(_T("%d"), m_pPrefs->GetSCHShift2Upload());
+
+d170 1
+a170 1
+			shift2Down.Format(_T("%d"), m_pPrefs->GetSCHShift2Download());
+d199 2
+d203 2
+a204 2
+			int i = _tstoi(shift1Up);
+			m_pPrefs->SetSCHShift1Upload((i != 0) ? i : UNLIMITED);
+d208 2
+a209 2
+			int i = _tstoi(shift1Down);
+			m_pPrefs->SetSCHShift1Download((i != 0) ? i : UNLIMITED);
+d226 2
+a227 2
+			int i = _tstoi(shift2Up);
+			m_pPrefs->SetSCHShift2Upload((i != 0) ? i : UNLIMITED);
+d231 2
+a232 2
+			int i = _tstoi(shift2Down);
+			m_pPrefs->SetSCHShift2Download((i != 0) ? i : UNLIMITED);
+@
+
+
+1.8
+log
+@Improved preferences localization.
+@
+text
+@d54 2
+a55 2
+	DDX_Control(pDX, IDC_SCH_SHIFT1_TIME, shift1TimeCombo); // DonGato
+	DDX_Control(pDX, IDC_SCH_SHIFT2_TIME, shift2TimeCombo); // DonGato
+d125 13
+a137 97
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("0:00")),0);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("0:30")),1800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("1:00")),3600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("1:30")),5400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("2:00")),7200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("2:30")),9000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("3:00")),10800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("3:30")),12600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("4:00")),14400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("4:30")),16200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("5:00")),18000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("5:30")),19800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("6:00")),21600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("6:30")),23400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("7:00")),25200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("7:30")),27000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("8:00")),28800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("8:30")),30600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("9:00")),32400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("9:30")),34200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("10:00")),36000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("10:30")),37800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("11:00")),39600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("11:30")),41400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("12:00")),43200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("12:30")),45000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("13:00")),46800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("13:30")),48600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("14:00")),50400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("14:30")),52200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("15:00")),54000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("15:30")),55800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("16:00")),57600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("16:30")),59400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("17:00")),61200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("17:30")),63000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("18:00")),64800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("18:30")),66600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("19:00")),68400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("19:30")),70200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("20:00")),72000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("20:30")),73800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("21:00")),75600);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("21:30")),77400);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("22:00")),79200);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("22:30")),81000);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("23:00")),82800);
+	shift1TimeCombo.SetItemData(shift1TimeCombo.AddString(_T("23:30")),84600);
+
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("0:00")),0);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("0:30")),1800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("1:00")),3600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("1:30")),5400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("2:00")),7200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("2:30")),9000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("3:00")),10800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("3:30")),12600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("4:00")),14400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("4:30")),16200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("5:00")),18000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("5:30")),19800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("6:00")),21600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("6:30")),23400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("7:00")),25200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("7:30")),27000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("8:00")),28800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("8:30")),30600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("9:00")),32400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("9:30")),34200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("10:00")),36000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("10:30")),37800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("11:00")),39600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("11:30")),41400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("12:00")),43200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("12:30")),45000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("13:00")),46800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("13:30")),48600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("14:00")),50400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("14:30")),52200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("15:00")),54000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("15:30")),55800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("16:00")),57600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("16:30")),59400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("17:00")),61200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("17:30")),63000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("18:00")),64800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("18:30")),66600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("19:00")),68400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("19:30")),70200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("20:00")),72000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("20:30")),73800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("21:00")),75600);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("21:30")),77400);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("22:00")),79200);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("22:30")),81000);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("23:00")),82800);
+	shift2TimeCombo.SetItemData(shift2TimeCombo.AddString(_T("23:30")),84600);
+d149 1
+a149 19
+		for(int i = 0; i != shift1TimeCombo.GetCount(); i++)
+		{
+			if(shift1TimeCombo.GetItemData(i) == m_pPrefs->GetSCHShift1())
+			{
+				shift1TimeCombo.SetCurSel(i);
+				break;
+			}
+		}
+
+		for(int i = 0; i != shift2TimeCombo.GetCount(); i++)
+		{
+			if(shift2TimeCombo.GetItemData(i) == m_pPrefs->GetSCHShift2())
+			{
+				shift2TimeCombo.SetCurSel(i);
+				break;
+			}
+		}
+
+		if(m_pPrefs->GetSCHShift1Upload() == 0xFFFF)
+d151 1
+a151 1
+		else		
+d154 1
+a154 1
+		if(m_pPrefs->GetSCHShift1Download() == 0xFFFF)
+d156 1
+a156 1
+		else		
+d162 1
+a162 1
+		if(m_pPrefs->GetSCHShift2Upload() == 0xFFFF)
+d164 3
+a166 3
+		else		
+			shift2Up.Format(_T("%d"), m_pPrefs->GetSCHShift2Upload());			
+		
+d168 1
+a168 1
+		if(m_pPrefs->GetSCHShift2Download() == 0xFFFF)
+d170 1
+a170 1
+		else		
+d175 1
+a175 1
+	
+d195 1
+a195 1
+{	
+d203 1
+a203 1
+			m_pPrefs->SetSCHShift1Upload((i != 0) ? i : 0xFFFF);
+d208 1
+a208 1
+			m_pPrefs->SetSCHShift1Download((i != 0) ? i : 0xFFFF);
+d226 1
+a226 1
+			m_pPrefs->SetSCHShift2Upload((i != 0) ? i : 0xFFFF);
+d231 1
+a231 1
+			m_pPrefs->SetSCHShift2Download((i != 0) ? i : 0xFFFF);
+@
+
+
+1.7
+log
+@Formatting, comments, and name changes.
+@
+text
+@d375 10
+a384 10
+		schift1Desc = GetResString(IDS_SCH_SHIFT1);
+		schift2Desc = GetResString(IDS_SCH_SHIFT2);
+		kb1Desc = GetResString(IDS_KBYTESEC);
+		kb2Desc = GetResString(IDS_KBYTESEC);
+		timeDesc = GetResString(IDS_TIME);
+		downDesc = GetResString(IDS_PW_CON_DOWNLBL);
+		upDesc = GetResString(IDS_PW_CON_UPLBL);
+		connDesc = GetResString(IDS_PW_MAXC);
+		conn5Desc = GetResString(IDS_MAXCON5_TEXT);
+		frmDesc = GetResString(IDS_SCH_EXCEPT);
+@
+
+
+1.6
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d235 1
+a235 1
+			if(shift1TimeCombo.GetItemData(i) == app_prefs->GetSCHShift1())
+d244 1
+a244 1
+			if(shift2TimeCombo.GetItemData(i) == app_prefs->GetSCHShift2())
+d251 1
+a251 1
+		if(app_prefs->GetSCHShift1Upload() == 0xFFFF)
+d254 1
+a254 1
+			shift1Up.Format(_T("%d"), app_prefs->GetSCHShift1Upload());
+d256 1
+a256 1
+		if(app_prefs->GetSCHShift1Download() == 0xFFFF)
+d259 1
+a259 1
+			shift1Down.Format(_T("%d"), app_prefs->GetSCHShift1Download());
+d261 2
+a262 2
+		shift1Conn.Format(_T("%d"), app_prefs->GetSCHShift1conn());
+		shift1Conn5Sec.Format(_T("%d"), app_prefs->GetSCHShift15sec());
+d264 1
+a264 1
+		if(app_prefs->GetSCHShift2Upload() == 0xFFFF)
+d267 1
+a267 1
+			shift2Up.Format(_T("%d"), app_prefs->GetSCHShift2Upload());			
+d270 1
+a270 1
+		if(app_prefs->GetSCHShift2Download() == 0xFFFF)
+d273 1
+a273 1
+			shift2Down.Format(_T("%d"), app_prefs->GetSCHShift2Download());
+d275 2
+a276 2
+		shift2Conn.Format(_T("%d"), app_prefs->GetSCHShift2conn());
+		shift2Conn5Sec.Format(_T("%d"), app_prefs->GetSCHShift25sec());
+d278 7
+a284 7
+		exceptMonday = app_prefs->IsSCHExceptMon();
+		exceptTuesday = app_prefs->IsSCHExceptTue();
+		exceptWednesday = app_prefs->IsSCHExceptWed();
+		exceptThursday = app_prefs->IsSCHExceptThu();
+		exceptFriday = app_prefs->IsSCHExceptFri();
+		exceptSaturday = app_prefs->IsSCHExceptSat();
+		exceptSunday = app_prefs->IsSCHExceptSun();
+d286 1
+a286 1
+		schedulerEnabled = app_prefs->IsSCHEnabled();
+d305 1
+a305 1
+			app_prefs->SetSCHShift1Upload((i != 0) ? i : 0xFFFF);
+d310 1
+a310 1
+			app_prefs->SetSCHShift1Download((i != 0) ? i : 0xFFFF);
+d317 1
+a317 1
+			app_prefs->SetSCHShift1conn((i != 0) ? i : 0xFFFF);
+d322 1
+a322 1
+			app_prefs->SetSCHShift15sec((i != 0) ? i : 0xFFFF);
+d328 1
+a328 1
+			app_prefs->SetSCHShift2Upload((i != 0) ? i : 0xFFFF);
+d333 1
+a333 1
+			app_prefs->SetSCHShift2Download((i != 0) ? i : 0xFFFF);
+d340 1
+a340 1
+			app_prefs->SetSCHShift2conn((i != 0) ? i : 0xFFFF);
+d345 1
+a345 1
+			app_prefs->SetSCHShift25sec((i != 0) ? i : 0xFFFF);
+d349 1
+a349 1
+			app_prefs->SetSCHShift1(shift1TimeCombo.GetItemData(shift1TimeCombo.GetCurSel()));
+d352 1
+a352 1
+			app_prefs->SetSCHShift2(shift2TimeCombo.GetItemData(shift2TimeCombo.GetCurSel()));
+d355 7
+a361 7
+		app_prefs->SetSCHExceptMon(exceptMonday);
+		app_prefs->SetSCHExceptTue(exceptTuesday);
+		app_prefs->SetSCHExceptWed(exceptWednesday);
+		app_prefs->SetSCHExceptThu(exceptThursday);
+		app_prefs->SetSCHExceptFri(exceptFriday);
+		app_prefs->SetSCHExceptSat(exceptSaturday);
+		app_prefs->SetSCHExceptSun(exceptSunday);
+d363 1
+a363 1
+		app_prefs->SetSCHEnabled(schedulerEnabled);
+@
+
+
+1.5
+log
+@converted to use DDX framework
+@
+text
+@d312 1
+a312 1
+		theApp.uploadqueue->SCHShift1UploadCheck();
+d335 1
+a335 1
+		theApp.uploadqueue->SCHShift2UploadCheck();
+@
+
+
+1.4
+log
+@unicode cleanup
+@
+text
+@d18 26
+d54 44
+a97 2
+	DDX_Control(pDX, IDC_SCH_SHIFT1_TIME, m_shift1time); // DonGato
+	DDX_Control(pDX, IDC_SCH_SHIFT2_TIME, m_shift2time); // DonGato
+d125 97
+a221 97
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("0:00")),0);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("0:30")),1800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("1:00")),3600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("1:30")),5400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("2:00")),7200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("2:30")),9000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("3:00")),10800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("3:30")),12600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("4:00")),14400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("4:30")),16200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("5:00")),18000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("5:30")),19800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("6:00")),21600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("6:30")),23400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("7:00")),25200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("7:30")),27000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("8:00")),28800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("8:30")),30600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("9:00")),32400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("9:30")),34200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("10:00")),36000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("10:30")),37800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("11:00")),39600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("11:30")),41400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("12:00")),43200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("12:30")),45000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("13:00")),46800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("13:30")),48600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("14:00")),50400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("14:30")),52200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("15:00")),54000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("15:30")),55800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("16:00")),57600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("16:30")),59400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("17:00")),61200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("17:30")),63000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("18:00")),64800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("18:30")),66600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("19:00")),68400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("19:30")),70200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("20:00")),72000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("20:30")),73800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("21:00")),75600);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("21:30")),77400);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("22:00")),79200);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("22:30")),81000);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("23:00")),82800);
+	m_shift1time.SetItemData(m_shift1time.AddString(_T("23:30")),84600);
+
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("0:00")),0);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("0:30")),1800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("1:00")),3600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("1:30")),5400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("2:00")),7200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("2:30")),9000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("3:00")),10800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("3:30")),12600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("4:00")),14400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("4:30")),16200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("5:00")),18000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("5:30")),19800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("6:00")),21600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("6:30")),23400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("7:00")),25200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("7:30")),27000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("8:00")),28800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("8:30")),30600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("9:00")),32400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("9:30")),34200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("10:00")),36000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("10:30")),37800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("11:00")),39600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("11:30")),41400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("12:00")),43200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("12:30")),45000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("13:00")),46800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("13:30")),48600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("14:00")),50400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("14:30")),52200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("15:00")),54000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("15:30")),55800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("16:00")),57600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("16:30")),59400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("17:00")),61200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("17:30")),63000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("18:00")),64800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("18:30")),66600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("19:00")),68400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("19:30")),70200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("20:00")),72000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("20:30")),73800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("21:00")),75600);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("21:30")),77400);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("22:00")),79200);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("22:30")),81000);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("23:00")),82800);
+	m_shift2time.SetItemData(m_shift2time.AddString(_T("23:30")),84600);
+d231 1
+a231 13
+	CString buffer;
+
+	for(int i = 0; i != m_shift1time.GetCount(); i++)
+		if(m_shift1time.GetItemData(i) == app_prefs->GetSCHShift1())
+			m_shift1time.SetCurSel(i);
+
+	for(int i = 0; i != m_shift2time.GetCount(); i++)
+		if(m_shift2time.GetItemData(i) == app_prefs->GetSCHShift2())
+			m_shift2time.SetCurSel(i);
+
+	if(app_prefs->GetSCHShift1Upload() == 0xFFFF)
+		GetDlgItem(IDC_SCH_SHIFT1_UP)->SetWindowText(_T("0"));
+	else
+d233 8
+a240 10
+		buffer.Format(_T("%d"), app_prefs->GetSCHShift1Upload());
+		GetDlgItem(IDC_SCH_SHIFT1_UP)->SetWindowText(buffer);
+	}
+	if(app_prefs->GetSCHShift1Download() == 0xFFFF)
+		GetDlgItem(IDC_SCH_SHIFT1_DOWN)->SetWindowText(_T("0"));
+	else
+	{
+		buffer.Format(_T("%d"), app_prefs->GetSCHShift1Download());
+		GetDlgItem(IDC_SCH_SHIFT1_DOWN)->SetWindowText(buffer);
+	}
+d242 8
+a249 2
+	buffer.Format(_T("%d"), app_prefs->GetSCHShift1conn());
+	GetDlgItem(IDC_SCH_SHIFT1_CONN)->SetWindowText(buffer);
+d251 34
+a284 2
+	buffer.Format(_T("%d"), app_prefs->GetSCHShift15sec());
+	GetDlgItem(IDC_SCH_SHIFT1_5SEC)->SetWindowText(buffer);
+d286 1
+a286 14
+	if(app_prefs->GetSCHShift2Upload() == 0xFFFF)
+		GetDlgItem(IDC_SCH_SHIFT2_UP)->SetWindowText(_T("0"));
+	else
+	{
+		buffer.Format(_T("%d"), app_prefs->GetSCHShift2Upload());
+		GetDlgItem(IDC_SCH_SHIFT2_UP)->SetWindowText(buffer);
+	}
+	if(app_prefs->GetSCHShift2Download() == 0xFFFF)
+		GetDlgItem(IDC_SCH_SHIFT2_DOWN)->SetWindowText(_T("0"));
+	else
+	{
+		buffer.Format(_T("%d"), app_prefs->GetSCHShift2Download());
+		GetDlgItem(IDC_SCH_SHIFT2_DOWN)->SetWindowText(buffer);
+	}
+d288 1
+a288 2
+	buffer.Format(_T("%d"), app_prefs->GetSCHShift2conn());
+	GetDlgItem(IDC_SCH_SHIFT2_CONN)->SetWindowText(buffer);
+d290 1
+a290 2
+	buffer.Format(_T("%d"), app_prefs->GetSCHShift25sec());
+	GetDlgItem(IDC_SCH_SHIFT2_5SEC)->SetWindowText(buffer);
+d292 2
+a293 42
+	if(app_prefs->IsSCHExceptMon())
+		CheckDlgButton(IDC_SCH_EXCEPT_MON,1);
+	else
+		CheckDlgButton(IDC_SCH_EXCEPT_MON,0);
+
+	if(app_prefs->IsSCHExceptTue())
+		CheckDlgButton(IDC_SCH_EXCEPT_TUE,1);
+	else
+		CheckDlgButton(IDC_SCH_EXCEPT_TUE,0);
+
+	if(app_prefs->IsSCHExceptWed())
+		CheckDlgButton(IDC_SCH_EXCEPT_WED,1);
+	else
+		CheckDlgButton(IDC_SCH_EXCEPT_WED,0);
+
+	if(app_prefs->IsSCHExceptThu())
+		CheckDlgButton(IDC_SCH_EXCEPT_THU,1);
+	else
+		CheckDlgButton(IDC_SCH_EXCEPT_THU,0);
+
+	if(app_prefs->IsSCHExceptFri())
+		CheckDlgButton(IDC_SCH_EXCEPT_FRI,1);
+	else
+		CheckDlgButton(IDC_SCH_EXCEPT_FRI,0);
+
+	if(app_prefs->IsSCHExceptSat())
+		CheckDlgButton(IDC_SCH_EXCEPT_SAT,1);
+	else
+		CheckDlgButton(IDC_SCH_EXCEPT_SAT,0);
+
+	if(app_prefs->IsSCHExceptSun())
+		CheckDlgButton(IDC_SCH_EXCEPT_SUN,1);
+	else
+		CheckDlgButton(IDC_SCH_EXCEPT_SUN,0);
+
+	if(app_prefs->IsSCHEnabled())
+		CheckDlgButton(IDC_SCH_ENABLED,1);
+	else
+		CheckDlgButton(IDC_SCH_ENABLED,0);
+	OnBnClickedSCHEnabled();
+
+	SetModified(FALSE);
+a297 2
+//	CSingleLock PrefLock(&(app_prefs->m_Pref_Mutex),TRUE); 
+
+d300 1
+a300 1
+		TCHAR buffer[200];
+d302 1
+a302 1
+		if(GetDlgItem(IDC_SCH_SHIFT1_UP)->GetWindowTextLength())
+d304 2
+a305 2
+			GetDlgItem(IDC_SCH_SHIFT1_UP)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift1Upload((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d307 1
+a307 1
+		if(GetDlgItem(IDC_SCH_SHIFT1_DOWN)->GetWindowTextLength())
+d309 2
+a310 2
+			GetDlgItem(IDC_SCH_SHIFT1_DOWN)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift1Download((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d314 1
+a314 1
+		if(GetDlgItem(IDC_SCH_SHIFT1_CONN)->GetWindowTextLength())
+d316 2
+a317 2
+			GetDlgItem(IDC_SCH_SHIFT1_CONN)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift1conn((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d319 1
+a319 1
+		if(GetDlgItem(IDC_SCH_SHIFT1_5SEC)->GetWindowTextLength())
+d321 2
+a322 2
+			GetDlgItem(IDC_SCH_SHIFT1_5SEC)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift15sec((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d325 1
+a325 1
+		if(GetDlgItem(IDC_SCH_SHIFT2_UP)->GetWindowTextLength())
+d327 2
+a328 2
+			GetDlgItem(IDC_SCH_SHIFT2_UP)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift2Upload((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d330 1
+a330 1
+		if(GetDlgItem(IDC_SCH_SHIFT2_DOWN)->GetWindowTextLength())
+d332 2
+a333 2
+			GetDlgItem(IDC_SCH_SHIFT2_DOWN)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift2Download((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d337 1
+a337 1
+		if(GetDlgItem(IDC_SCH_SHIFT2_CONN)->GetWindowTextLength())
+d339 2
+a340 2
+			GetDlgItem(IDC_SCH_SHIFT2_CONN)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift2conn((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d342 1
+a342 1
+		if(GetDlgItem(IDC_SCH_SHIFT2_5SEC)->GetWindowTextLength())
+d344 2
+a345 2
+			GetDlgItem(IDC_SCH_SHIFT2_5SEC)->GetWindowText(buffer,20);
+			app_prefs->SetSCHShift25sec((_tstoi(buffer)) ? _tstoi(buffer) : 0xFFFF);
+d348 2
+a349 2
+		if (m_shift1time.GetCurSel() != CB_ERR){
+			app_prefs->SetSCHShift1(m_shift1time.GetItemData(m_shift1time.GetCurSel()));
+d351 2
+a352 2
+		if (m_shift2time.GetCurSel() != CB_ERR){
+			app_prefs->SetSCHShift2(m_shift2time.GetItemData(m_shift2time.GetCurSel()));
+d355 7
+a361 7
+		app_prefs->SetSCHExceptMon((int8)IsDlgButtonChecked(IDC_SCH_EXCEPT_MON));
+		app_prefs->SetSCHExceptTue((int8)IsDlgButtonChecked(IDC_SCH_EXCEPT_TUE));
+		app_prefs->SetSCHExceptWed((int8)IsDlgButtonChecked(IDC_SCH_EXCEPT_WED));
+		app_prefs->SetSCHExceptThu((int8)IsDlgButtonChecked(IDC_SCH_EXCEPT_THU));
+		app_prefs->SetSCHExceptFri((int8)IsDlgButtonChecked(IDC_SCH_EXCEPT_FRI));
+		app_prefs->SetSCHExceptSat((int8)IsDlgButtonChecked(IDC_SCH_EXCEPT_SAT));
+		app_prefs->SetSCHExceptSun((int8)IsDlgButtonChecked(IDC_SCH_EXCEPT_SUN));
+d363 1
+a363 1
+		app_prefs->SetSCHEnabled((int8)IsDlgButtonChecked(IDC_SCH_ENABLED));
+d372 2
+a373 1
+	if(m_hWnd){
+d375 20
+a394 18
+		GetDlgItem(IDC_SCH_SHIFT1)->SetWindowText(GetResString(IDS_SCH_SHIFT1));
+		GetDlgItem(IDC_SCH_SHIFT2)->SetWindowText(GetResString(IDS_SCH_SHIFT2));
+		GetDlgItem(IDC_SCH_KB1)->SetWindowText(GetResString(IDS_KBYTESEC));
+		GetDlgItem(IDC_SCH_KB2)->SetWindowText(GetResString(IDS_KBYTESEC));
+		GetDlgItem(IDC_SCH_TIME)->SetWindowText(GetResString(IDS_TIME));
+		GetDlgItem(IDC_SCH_DOWN)->SetWindowText(GetResString(IDS_PW_CON_DOWNLBL));
+		GetDlgItem(IDC_SCH_UP)->SetWindowText(GetResString(IDS_PW_CON_UPLBL));
+		GetDlgItem(IDC_SCH_CONN)->SetWindowText(GetResString(IDS_PW_MAXC));
+		GetDlgItem(IDC_SCH_5SEC)->SetWindowText(GetResString(IDS_MAXCON5_TEXT));
+		GetDlgItem(IDC_SCH_FRM)->SetWindowText(GetResString(IDS_SCH_EXCEPT));
+		GetDlgItem(IDC_SCH_EXCEPT_MON)->SetWindowText(GetResString(IDS_SCH_EXCEPT_MON));
+		GetDlgItem(IDC_SCH_EXCEPT_TUE)->SetWindowText(GetResString(IDS_SCH_EXCEPT_TUE));
+		GetDlgItem(IDC_SCH_EXCEPT_WED)->SetWindowText(GetResString(IDS_SCH_EXCEPT_WED));
+		GetDlgItem(IDC_SCH_EXCEPT_THU)->SetWindowText(GetResString(IDS_SCH_EXCEPT_THU));
+		GetDlgItem(IDC_SCH_EXCEPT_FRI)->SetWindowText(GetResString(IDS_SCH_EXCEPT_FRI));
+		GetDlgItem(IDC_SCH_EXCEPT_SAT)->SetWindowText(GetResString(IDS_SCH_EXCEPT_SAT));
+		GetDlgItem(IDC_SCH_EXCEPT_SUN)->SetWindowText(GetResString(IDS_SCH_EXCEPT_SUN));
+		GetDlgItem(IDC_SCH_ENABLED)->SetWindowText(GetResString(IDS_ENABLED));
+d400 19
+a418 17
+	GetDlgItem(IDC_SCH_SHIFT1_TIME)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT1_UP)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT1_DOWN)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT1_CONN)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT1_5SEC)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT2_TIME)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT2_UP)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT2_DOWN)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT2_CONN)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_SHIFT2_5SEC)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_EXCEPT_MON)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_EXCEPT_TUE)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_EXCEPT_WED)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_EXCEPT_THU)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_EXCEPT_FRI)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_EXCEPT_SAT)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+	GetDlgItem(IDC_SCH_EXCEPT_SUN)->EnableWindow(IsDlgButtonChecked(IDC_SCH_ENABLED));
+@
+
+
+1.3
+log
+@code cleanup
+@
+text
+@d57 97
+a153 97
+	m_shift1time.SetItemData(m_shift1time.AddString("0:00"),0);
+	m_shift1time.SetItemData(m_shift1time.AddString("0:30"),1800);
+	m_shift1time.SetItemData(m_shift1time.AddString("1:00"),3600);
+	m_shift1time.SetItemData(m_shift1time.AddString("1:30"),5400);
+	m_shift1time.SetItemData(m_shift1time.AddString("2:00"),7200);
+	m_shift1time.SetItemData(m_shift1time.AddString("2:30"),9000);
+	m_shift1time.SetItemData(m_shift1time.AddString("3:00"),10800);
+	m_shift1time.SetItemData(m_shift1time.AddString("3:30"),12600);
+	m_shift1time.SetItemData(m_shift1time.AddString("4:00"),14400);
+	m_shift1time.SetItemData(m_shift1time.AddString("4:30"),16200);
+	m_shift1time.SetItemData(m_shift1time.AddString("5:00"),18000);
+	m_shift1time.SetItemData(m_shift1time.AddString("5:30"),19800);
+	m_shift1time.SetItemData(m_shift1time.AddString("6:00"),21600);
+	m_shift1time.SetItemData(m_shift1time.AddString("6:30"),23400);
+	m_shift1time.SetItemData(m_shift1time.AddString("7:00"),25200);
+	m_shift1time.SetItemData(m_shift1time.AddString("7:30"),27000);
+	m_shift1time.SetItemData(m_shift1time.AddString("8:00"),28800);
+	m_shift1time.SetItemData(m_shift1time.AddString("8:30"),30600);
+	m_shift1time.SetItemData(m_shift1time.AddString("9:00"),32400);
+	m_shift1time.SetItemData(m_shift1time.AddString("9:30"),34200);
+	m_shift1time.SetItemData(m_shift1time.AddString("10:00"),36000);
+	m_shift1time.SetItemData(m_shift1time.AddString("10:30"),37800);
+	m_shift1time.SetItemData(m_shift1time.AddString("11:00"),39600);
+	m_shift1time.SetItemData(m_shift1time.AddString("11:30"),41400);
+	m_shift1time.SetItemData(m_shift1time.AddString("12:00"),43200);
+	m_shift1time.SetItemData(m_shift1time.AddString("12:30"),45000);
+	m_shift1time.SetItemData(m_shift1time.AddString("13:00"),46800);
+	m_shift1time.SetItemData(m_shift1time.AddString("13:30"),48600);
+	m_shift1time.SetItemData(m_shift1time.AddString("14:00"),50400);
+	m_shift1time.SetItemData(m_shift1time.AddString("14:30"),52200);
+	m_shift1time.SetItemData(m_shift1time.AddString("15:00"),54000);
+	m_shift1time.SetItemData(m_shift1time.AddString("15:30"),55800);
+	m_shift1time.SetItemData(m_shift1time.AddString("16:00"),57600);
+	m_shift1time.SetItemData(m_shift1time.AddString("16:30"),59400);
+	m_shift1time.SetItemData(m_shift1time.AddString("17:00"),61200);
+	m_shift1time.SetItemData(m_shift1time.AddString("17:30"),63000);
+	m_shift1time.SetItemData(m_shift1time.AddString("18:00"),64800);
+	m_shift1time.SetItemData(m_shift1time.AddString("18:30"),66600);
+	m_shift1time.SetItemData(m_shift1time.AddString("19:00"),68400);
+	m_shift1time.SetItemData(m_shift1time.AddString("19:30"),70200);
+	m_shift1time.SetItemData(m_shift1time.AddString("20:00"),72000);
+	m_shift1time.SetItemData(m_shift1time.AddString("20:30"),73800);
+	m_shift1time.SetItemData(m_shift1time.AddString("21:00"),75600);
+	m_shift1time.SetItemData(m_shift1time.AddString("21:30"),77400);
+	m_shift1time.SetItemData(m_shift1time.AddString("22:00"),79200);
+	m_shift1time.SetItemData(m_shift1time.AddString("22:30"),81000);
+	m_shift1time.SetItemData(m_shift1time.AddString("23:00"),82800);
+	m_shift1time.SetItemData(m_shift1time.AddString("23:30"),84600);
+
+	m_shift2time.SetItemData(m_shift2time.AddString("0:00"),0);
+	m_shift2time.SetItemData(m_shift2time.AddString("0:30"),1800);
+	m_shift2time.SetItemData(m_shift2time.AddString("1:00"),3600);
+	m_shift2time.SetItemData(m_shift2time.AddString("1:30"),5400);
+	m_shift2time.SetItemData(m_shift2time.AddString("2:00"),7200);
+	m_shift2time.SetItemData(m_shift2time.AddString("2:30"),9000);
+	m_shift2time.SetItemData(m_shift2time.AddString("3:00"),10800);
+	m_shift2time.SetItemData(m_shift2time.AddString("3:30"),12600);
+	m_shift2time.SetItemData(m_shift2time.AddString("4:00"),14400);
+	m_shift2time.SetItemData(m_shift2time.AddString("4:30"),16200);
+	m_shift2time.SetItemData(m_shift2time.AddString("5:00"),18000);
+	m_shift2time.SetItemData(m_shift2time.AddString("5:30"),19800);
+	m_shift2time.SetItemData(m_shift2time.AddString("6:00"),21600);
+	m_shift2time.SetItemData(m_shift2time.AddString("6:30"),23400);
+	m_shift2time.SetItemData(m_shift2time.AddString("7:00"),25200);
+	m_shift2time.SetItemData(m_shift2time.AddString("7:30"),27000);
+	m_shift2time.SetItemData(m_shift2time.AddString("8:00"),28800);
+	m_shift2time.SetItemData(m_shift2time.AddString("8:30"),30600);
+	m_shift2time.SetItemData(m_shift2time.AddString("9:00"),32400);
+	m_shift2time.SetItemData(m_shift2time.AddString("9:30"),34200);
+	m_shift2time.SetItemData(m_shift2time.AddString("10:00"),36000);
+	m_shift2time.SetItemData(m_shift2time.AddString("10:30"),37800);
+	m_shift2time.SetItemData(m_shift2time.AddString("11:00"),39600);
+	m_shift2time.SetItemData(m_shift2time.AddString("11:30"),41400);
+	m_shift2time.SetItemData(m_shift2time.AddString("12:00"),43200);
+	m_shift2time.SetItemData(m_shift2time.AddString("12:30"),45000);
+	m_shift2time.SetItemData(m_shift2time.AddString("13:00"),46800);
+	m_shift2time.SetItemData(m_shift2time.AddString("13:30"),48600);
+	m_shift2time.SetItemData(m_shift2time.AddString("14:00"),50400);
+	m_shift2time.SetItemData(m_shift2time.AddString("14:30"),52200);
+	m_shift2time.SetItemData(m_shift2time.AddString("15:00"),54000);
+	m_shift2time.SetItemData(m_shift2time.AddString("15:30"),55800);
+	m_shift2time.SetItemData(m_shift2time.AddString("16:00"),57600);
+	m_shift2time.SetItemData(m_shift2time.AddString("16:30"),59400);
+	m_shift2time.SetItemData(m_shift2time.AddString("17:00"),61200);
+	m_shift2time.SetItemData(m_shift2time.AddString("17:30"),63000);
+	m_shift2time.SetItemData(m_shift2time.AddString("18:00"),64800);
+	m_shift2time.SetItemData(m_shift2time.AddString("18:30"),66600);
+	m_shift2time.SetItemData(m_shift2time.AddString("19:00"),68400);
+	m_shift2time.SetItemData(m_shift2time.AddString("19:30"),70200);
+	m_shift2time.SetItemData(m_shift2time.AddString("20:00"),72000);
+	m_shift2time.SetItemData(m_shift2time.AddString("20:30"),73800);
+	m_shift2time.SetItemData(m_shift2time.AddString("21:00"),75600);
+	m_shift2time.SetItemData(m_shift2time.AddString("21:30"),77400);
+	m_shift2time.SetItemData(m_shift2time.AddString("22:00"),79200);
+	m_shift2time.SetItemData(m_shift2time.AddString("22:30"),81000);
+	m_shift2time.SetItemData(m_shift2time.AddString("23:00"),82800);
+	m_shift2time.SetItemData(m_shift2time.AddString("23:30"),84600);
+d174 1
+a174 1
+		GetDlgItem(IDC_SCH_SHIFT1_UP)->SetWindowText("0");
+d177 1
+a177 1
+		buffer.Format("%d", app_prefs->GetSCHShift1Upload());
+d181 1
+a181 1
+		GetDlgItem(IDC_SCH_SHIFT1_DOWN)->SetWindowText("0");
+d184 1
+a184 1
+		buffer.Format("%d", app_prefs->GetSCHShift1Download());
+d188 1
+a188 1
+	buffer.Format("%d", app_prefs->GetSCHShift1conn());
+d191 1
+a191 1
+	buffer.Format("%d", app_prefs->GetSCHShift15sec());
+d195 1
+a195 1
+		GetDlgItem(IDC_SCH_SHIFT2_UP)->SetWindowText("0");
+d198 1
+a198 1
+		buffer.Format("%d", app_prefs->GetSCHShift2Upload());
+d202 1
+a202 1
+		GetDlgItem(IDC_SCH_SHIFT2_DOWN)->SetWindowText("0");
+d205 1
+a205 1
+		buffer.Format("%d", app_prefs->GetSCHShift2Download());
+d209 1
+a209 1
+	buffer.Format("%d", app_prefs->GetSCHShift2conn());
+d212 1
+a212 1
+	buffer.Format("%d", app_prefs->GetSCHShift25sec());
+d265 1
+a265 1
+		char buffer[200];
+d270 1
+a270 1
+			app_prefs->SetSCHShift1Upload((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d275 1
+a275 1
+			app_prefs->SetSCHShift1Download((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d282 1
+a282 1
+			app_prefs->SetSCHShift1conn((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d287 1
+a287 1
+			app_prefs->SetSCHShift15sec((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d293 1
+a293 1
+			app_prefs->SetSCHShift2Upload((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d298 1
+a298 1
+			app_prefs->SetSCHShift2Download((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d305 1
+a305 1
+			app_prefs->SetSCHShift2conn((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d310 1
+a310 1
+			app_prefs->SetSCHShift25sec((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+@
+
+
+1.2
+log
+@Corrected scheduler
+@
+text
+@d163 1
+a163 1
+	char buffer[200];
+d177 1
+a177 1
+		sprintf(buffer,"%d", app_prefs->GetSCHShift1Upload());
+d184 1
+a184 1
+		sprintf(buffer,"%d", app_prefs->GetSCHShift1Download());
+d188 1
+a188 1
+	sprintf(buffer,"%d", app_prefs->GetSCHShift1conn());
+d191 1
+a191 1
+	sprintf(buffer,"%d", app_prefs->GetSCHShift15sec());
+d198 1
+a198 1
+		sprintf(buffer,"%d", app_prefs->GetSCHShift2Upload());
+d205 1
+a205 1
+		sprintf(buffer,"%d", app_prefs->GetSCHShift2Download());
+d209 1
+a209 1
+	sprintf(buffer,"%d", app_prefs->GetSCHShift2conn());
+d212 1
+a212 1
+	sprintf(buffer,"%d", app_prefs->GetSCHShift25sec());
+@
+
+
+1.1
+log
+@Updated Night Shift to Scheduller (needs more testing and a new icon from DrSiRiUs... coming!)
+@
+text
+@d166 1
+a166 1
+		if(m_shift1time.GetItemData(i) == app_prefs->GetSCHShift2())
+d170 1
+a170 1
+		if(m_shift2time.GetItemData(i) == app_prefs->GetSCHShift1())
+d282 1
+a282 1
+			app_prefs->SetSCHShift2conn((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d287 1
+a287 1
+			app_prefs->SetSCHShift25sec((atoi(buffer)) ? atoi(buffer) : 0xFFFF);
+d314 1
+a314 1
+			app_prefs->SetSCHShift2(m_shift1time.GetItemData(m_shift1time.GetCurSel()));
+d317 1
+a317 1
+			app_prefs->SetSCHShift1(m_shift2time.GetItemData(m_shift2time.GetCurSel()));
+@
+

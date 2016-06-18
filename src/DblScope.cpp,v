@@ -1,0 +1,475 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1
+	PublicRelease_1_1d:1.1
+	Interim_Release_1-1d_RC1:1.1
+	PublicRelease_1_1c:1.1
+	Interim_Release_1-1c_RC1:1.1
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1
+	PublicRelease_1_1b:1.1
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	Interim_Release_1n_beta2:1.1
+	Interim_Release_1n_beta1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2005.06.28.03.49.51;	author aw3;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.06.27.05.20.54;	author eklmn;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.16;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.03;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@Removed all float calculations.
+@
+text
+@// DblScope.cpp : implementation file
+//
+
+// !!! ATTENTION !!!: this control is about 10% done, if you want to work on it, 
+//					  then pleaase send me a message, and maybe the finished code *g*, 
+//					  otherwise i will continue working on it on my own. ...sometime :D  
+//					  [FoRcHa]
+
+
+#include "stdafx.h"
+#include "DblScope.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+#define MAINCOLORVALUE	224
+
+/////////////////////////////////////////////////////////////////////////////
+// CDblScope
+
+CDblScope::CDblScope()
+{
+	m_nMin = 0;
+	m_nMax = 100;
+	m_nStep = 4;
+	m_bInit = true;
+		
+	m_crColor1		= RGB(MAINCOLORVALUE,0,0);
+	m_crColor2		= RGB(0,MAINCOLORVALUE,0);
+	m_crBackColor	= RGB(64,64,64); 
+
+	m_bScanLines = true;
+	m_ScanPen.CreatePen(PS_SOLID, 1, RGB(0,0,0));
+	m_pOldBMP = NULL; // FoRcHa
+}
+
+CDblScope::~CDblScope()
+{
+	// FoRcHa
+	if(m_pOldBMP)
+		m_MemDC.SelectObject(m_pOldBMP);
+}
+
+
+BEGIN_MESSAGE_MAP(CDblScope, CWnd)
+	//{{AFX_MSG_MAP(CDblScope)
+	ON_WM_PAINT()
+	ON_WM_SIZE()
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+
+/////////////////////////////////////////////////////////////////////////////
+// CDblScope message handlers
+
+void CDblScope::OnPaint() 
+{
+	CPaintDC dc(this); // device context for painting
+	CRect rClient;
+	GetClientRect(&rClient);
+		
+	if(m_bInit)
+	{		
+		m_bInit = false;
+		ReCreateGraph(&dc);
+	}
+	
+	dc.BitBlt(0, 0, rClient.Width(), rClient.Height(), &m_MemDC, 0,0, SRCCOPY);
+}
+
+void CDblScope::ReCreateGraph(CDC *pDC)
+{
+	CRect rClient;
+	GetClientRect(&rClient);
+	
+	m_bScanLines = (UINT)rClient.Height() >= m_nMax >> 2 ? true : false;
+
+	// FoRcHa
+	if(m_pOldBMP)
+		m_MemDC.SelectObject(m_pOldBMP);
+	if(m_MemBMP.GetSafeHandle())
+		m_MemBMP.DeleteObject();
+
+	if(m_MemDC.GetSafeHdc())
+		m_MemDC.DeleteDC();
+		
+	m_MemDC.CreateCompatibleDC(pDC);
+	m_MemBMP.CreateCompatibleBitmap(pDC, rClient.Width(), rClient.Height());
+	m_pOldBMP = m_MemDC.SelectObject(&m_MemBMP); // FoRcHa
+	m_MemDC.FillSolidRect(rClient,m_crBackColor);
+
+	POSITION pos1 = m_List1.GetHeadPosition();
+	POSITION pos2 = m_List2.GetHeadPosition();
+
+	while(pos1 != NULL && pos2 != NULL)
+		AddValues2Graph(m_List1.GetNext(pos1), m_List2.GetNext(pos2));
+
+	if(m_bScanLines)
+	{
+		CPen *pOldPen = m_MemDC.SelectObject(&m_ScanPen);
+		for(int y = 0; y < rClient.Height(); y += 2)
+		{
+			m_MemDC.MoveTo(rClient.left, y);
+			m_MemDC.LineTo(rClient.right, y);
+		}
+		m_MemDC.SelectObject(pOldPen);
+	}
+}
+
+void CDblScope::AddValues(UINT nVal1, UINT nVal2, bool bRedraw)
+{
+	m_List1.AddTail(nVal1);
+	m_List2.AddTail(nVal2);
+	
+	if(GetSafeHwnd())
+	{
+		AddValues2Graph(nVal1, nVal2);
+
+		if(bRedraw)
+			Invalidate();
+	}
+}	
+
+void CDblScope::ResetGraph(bool bDelete)
+{
+	if(bDelete)
+	{
+		m_List1.RemoveAll();
+		m_List2.RemoveAll();
+	}
+	m_bInit = true;
+	Invalidate();
+}
+
+void CDblScope::SetRange(UINT nMin, UINT nMax, bool bDelete)
+{
+	m_nMin = nMin;
+	m_nMax = nMax;
+	
+	ResetGraph(bDelete);
+}
+
+void CDblScope::AddValues2Graph(UINT nVal1, UINT nVal2)
+{
+	if(m_MemDC.GetSafeHdc())
+	{
+		CRect rClient;
+		GetClientRect(&rClient);
+
+		COLORREF	crOverlap, crHigher;
+		int			iOverlap, iHigher, iHeight = rClient.Height();
+		UINT		nRndVal1, nRndVal2;
+	
+		if(nVal1 > m_nMax)
+		{
+			nVal1 = m_nMax;
+			nRndVal1 = iHeight;
+		}
+		else
+			nRndVal1 = (iHeight * nVal1 + (m_nMax >> 1)) / m_nMax;
+			
+		if(nVal2 > m_nMax)
+		{
+			nVal2 = m_nMax;
+			nRndVal2 = iHeight;
+		}
+		else
+			nRndVal2 = (iHeight * nVal2 + (m_nMax >> 1)) / m_nMax;
+
+		if(nVal1 > nVal2)
+		{
+			iHigher		= nRndVal1 - nRndVal2;
+			iOverlap	= nRndVal1 - iHigher;
+		//	crHigher	= m_crColor1;
+			crHigher	= RGB(GetRValue(m_crColor1)-(iHeight-nRndVal1),GetGValue(m_crColor1),GetBValue(m_crColor1));
+			crOverlap	= RGB(iHigher > MAINCOLORVALUE ? 0 : MAINCOLORVALUE - iHigher, MAINCOLORVALUE, 0);
+		}
+		else
+		{
+			iHigher		= nRndVal2 - nRndVal1;
+			iOverlap	= nRndVal2 - iHigher;
+		//	crHigher	= m_crColor2;
+			crHigher	= RGB(GetRValue(m_crColor2),GetGValue(m_crColor2)-(iHeight-nRndVal2),GetBValue(m_crColor2));
+			crOverlap	= RGB(MAINCOLORVALUE, iHigher > MAINCOLORVALUE ? 0 : MAINCOLORVALUE - iHigher, 0);
+		}
+		
+		int iWidth = rClient.Width();
+		int iNewWidth = iWidth - m_nStep;
+
+		m_MemDC.BitBlt(0, 0, iNewWidth, iHeight, &m_MemDC, m_nStep, 0, SRCCOPY);
+		m_MemDC.FillSolidRect(iNewWidth, 0, m_nStep, iHeight, m_crBackColor);
+		if(iOverlap)
+			m_MemDC.FillSolidRect(iNewWidth, iHeight - iOverlap, m_nStep, iOverlap, crOverlap);
+		if(iHigher)
+			m_MemDC.FillSolidRect(iNewWidth, iHeight - iOverlap - iHigher, m_nStep, iHigher, crHigher);
+	
+		if(m_bScanLines)
+		{
+			CPen *pOldPen = m_MemDC.SelectObject(&m_ScanPen);
+			for(int y = 0; y < iHeight; y += 2)
+			{
+				m_MemDC.MoveTo(iNewWidth, y);
+				m_MemDC.LineTo(iNewWidth+m_nStep, y);
+			}
+			m_MemDC.SelectObject(pOldPen);
+		}
+
+		while(m_List1.GetCount() > iWidth)
+		{
+			m_List1.RemoveHead();
+			m_List2.RemoveHead();
+		}	
+	}
+}
+
+void CDblScope::OnSize(UINT nType, int cx, int cy) 
+{
+	CWnd::OnSize(nType, cx, cy);
+	m_bInit = true;
+	Invalidate();	
+}
+@
+
+
+1.2
+log
+@small optimizations
+@
+text
+@d152 4
+a155 4
+		int iWidth = rClient.Width();
+		int iHeight = rClient.Height();
+		int iNewWidth = iWidth - m_nStep;
+		double dVal1,dVal2;
+d160 1
+a160 1
+			dVal1 =  static_cast<double>(iHeight);
+d163 1
+a163 1
+			dVal1 =  static_cast<double>(iHeight * nVal1)/ static_cast<double>(m_nMax);
+d168 1
+a168 1
+			dVal2 =  static_cast<double>(iHeight);
+d171 1
+a171 9
+			dVal2 =  static_cast<double>(iHeight * nVal2)/ static_cast<double>(m_nMax);
+		
+		UINT nRndVal1 = (UINT)dVal1;
+		if(dVal1 - nRndVal1 >= 0.5)
+			nRndVal1++;
+		UINT nRndVal2 = (UINT)dVal2;
+		if(dVal2 - nRndVal2 >= 0.5)
+			nRndVal2++;
+		
+a172 6
+		int iOverlap;
+		int iHigher;
+
+		COLORREF crOverlap;
+		COLORREF crHigher;
+		
+d190 3
+d211 1
+a211 1
+		while(m_List1.GetCount() > rClient.Width())
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d155 1
+d158 1
+d160 5
+d166 1
+d168 4
+a172 2
+		double dVal1 = (double)iHeight * nVal1 / m_nMax;
+		double dVal2 = (double)iHeight * nVal2 / m_nMax;
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

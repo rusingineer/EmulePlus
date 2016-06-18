@@ -1,0 +1,132 @@
+head	1.2;
+access;
+symbols
+	PublicRelease_1_2e:1.2
+	Interim_Release_1-2e_RC1:1.2
+	PublicRelease_1_2d:1.2
+	Interim_Release_1-2d_RC1:1.2
+	Interim_Release_1-2d_beta1:1.2
+	PublicRelease_1_2c:1.2
+	Interim_Release_1-2c_RC1:1.2
+	Interim_Release_1-2c_beta1:1.2
+	PublicRelease_1_2b:1.2
+	Interim_Release_1-2b_RC1:1.2
+	PublicRelease_1_2a:1.2
+	Interim_Release_1-2a_RC1:1.2
+	Interim_Release_1-2a_beta2:1.2
+	Interim_Release_1-2a_beta1:1.2
+	PublicRelease_1_2:1.2
+	Interim_Release_1-2_RC1:1.2
+	Interim_Release_1-2_beta1:1.2
+	PublicRelease_1_1g:1.2
+	Interim_Release_1-1g_RC3:1.2
+	Interim_Release_1-1g_RC2:1.2
+	Interim_Release_1-1g_RC1:1.2
+	Interim_Release_1-1g_beta2:1.2
+	Interim_Release_1-1g_beta1:1.2
+	PublicRelease_1_1f:1.2
+	Interim_Release_1-1f_RC1:1.2
+	PublicRelease_1_1e:1.2
+	Interim_Release_1-1e_RC2:1.2
+	Interim_Release_1-1e_RC1:1.2
+	Interim_Release_1-1e_beta1:1.2
+	PublicRelease_1_1d:1.1
+	Interim_Release_1-1d_RC1:1.1
+	PublicRelease_1_1c:1.1
+	Interim_Release_1-1c_RC1:1.1
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1
+	PublicRelease_1_1b:1.1
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	Interim_Release_1n_beta2:1.1
+	Interim_Release_1n_beta1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.2
+date	2005.03.28.02.54.59;	author aw3;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.05.11.23.27.42;	author katsyonak;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.2
+log
+@Removed unused service.
+@
+text
+@#pragma once
+
+enum EnumStatusBarBoxes
+{
+	SB_MESSAGETEXT = 0,
+	SB_SESSIONTIME,
+	SB_MESSAGESTATUS,
+	SB_NUMUSERS,
+	SB_UPLOADRATE,
+	SB_DOWNLOADRATE,
+	SB_SERVER,
+
+	SB_NUMSBPARTS
+};
+
+class CMuleStatusBarCtrl : public CStatusBarCtrl
+{
+	DECLARE_DYNAMIC(CMuleStatusBarCtrl)
+
+public:
+	CMuleStatusBarCtrl();
+	virtual ~CMuleStatusBarCtrl();
+
+	int GetPaneAtPosition(CPoint& point);
+
+protected:
+	DECLARE_MESSAGE_MAP()
+	afx_msg void OnLButtonDblClk(UINT nFlags, CPoint point);
+};@
+
+
+1.1
+log
+@Double clicking on the messages/server pane in the status bar now switches to the according dialog; Formatting and name changes
+@
+text
+@d13 1
+a13 1
+	SB_NUMSBPARTS,
+a23 1
+	void Init(void);
+d28 1
+a28 1
+	afx_msg void OnLButtonDblClk(UINT nFlags,CPoint point);
+@
+

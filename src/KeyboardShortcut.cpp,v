@@ -1,0 +1,541 @@
+head	1.8;
+access;
+symbols
+	PublicRelease_1_2e:1.8
+	Interim_Release_1-2e_RC1:1.8
+	PublicRelease_1_2d:1.8
+	Interim_Release_1-2d_RC1:1.8
+	Interim_Release_1-2d_beta1:1.8
+	PublicRelease_1_2c:1.7
+	Interim_Release_1-2c_RC1:1.7
+	Interim_Release_1-2c_beta1:1.7
+	PublicRelease_1_2b:1.7
+	Interim_Release_1-2b_RC1:1.7
+	PublicRelease_1_2a:1.7
+	Interim_Release_1-2a_RC1:1.7
+	Interim_Release_1-2a_beta2:1.7
+	Interim_Release_1-2a_beta1:1.7
+	PublicRelease_1_2:1.7
+	Interim_Release_1-2_RC1:1.7
+	Interim_Release_1-2_beta1:1.7
+	PublicRelease_1_1g:1.7
+	Interim_Release_1-1g_RC3:1.7
+	Interim_Release_1-1g_RC2:1.7
+	Interim_Release_1-1g_RC1:1.7
+	Interim_Release_1-1g_beta2:1.5
+	Interim_Release_1-1g_beta1:1.5
+	PublicRelease_1_1f:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4
+	PublicRelease_1_1d:1.4
+	Interim_Release_1-1d_RC1:1.4
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.4
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.4
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.4
+	Interim_Release_1n_RC2:1.4
+	Interim_Release_1n_RC1:1.4
+	Interim_Release_1n_beta2:1.4
+	Interim_Release_1n_beta1:1.3
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.3
+	Interim_Release_1j_beta2:1.3
+	Interim_Release_1j_beta1:1.3
+	PublicRelease_1i:1.3
+	Interim_Release_1i_RC6:1.3
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1;
+locks; strict;
+comment	@// @;
+
+
+1.8
+date	2007.12.29.05.48.36;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2005.08.11.03.44.44;	author aw3;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.08.04.04.17.05;	author aw3;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.11.30.17.52.44;	author eklmn;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.11.11.21.36.56;	author dropf;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.29.22.13.36;	author dropf;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.8
+log
+@Optimized string shortcut representation; Suppressed compiler warnings.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "resource.h"
+#include "otherfunctions.h"
+#include "KeyboardShortcut.h"
+#include "emule.h"
+
+short GetCodeFromPressedKeys(MSG *pMsg)
+{
+	short nCode = MASK_ENABLED;
+
+	if (GetAsyncKeyState(VK_MENU) < 0)
+		nCode |= MASK_ALT;
+	if (GetAsyncKeyState(VK_CONTROL) < 0)
+		nCode |= MASK_CTRL;
+	if (GetAsyncKeyState(VK_SHIFT) < 0)
+		nCode |= MASK_SHIFT;
+	if ((GetAsyncKeyState(VK_LWIN) < 0) || (GetAsyncKeyState(VK_RWIN) < 0))
+		nCode |= MASK_WIN;
+	nCode |= static_cast<uchar>(pMsg->wParam & MASK_KEY);
+
+	return nCode;
+}
+
+CString GetStringFromShortcutCode(unsigned uiResID, int iIdx, int iMode)
+{
+	CString	String;
+	int		iCode;
+
+	if (uiResID != 0)
+		::GetResString(&String, uiResID);
+
+	iCode = g_App.m_pPrefs->GetShortcutCode(iIdx);
+	if (((iCode & MASK_ENABLED) != 0) || ((iMode & SSP_RETNONE) != 0))
+	{
+		if (iMode & SSP_TAB_PREFIX)
+			String += _T('\t');
+		else if (iMode & SSP_SPACE_PREFIX)
+			String += _T(": ");
+
+		if ((iCode & MASK_ENABLED) != 0) 
+		{
+			if ((iCode & MASK_ALT) != 0)
+				String += _T("Alt+");
+			if ((iCode & MASK_CTRL) != 0)
+				String += _T("Ctrl+");
+			if ((iCode & MASK_SHIFT) != 0)
+				String += _T("Shift+");
+			if ((iCode & MASK_WIN) != 0)
+				String +=_T("Win+");
+
+			uchar byteKey = static_cast<uchar>(iCode & MASK_KEY);
+
+			if ((byteKey >= VK_F1) && (byteKey <= VK_F12)) // function keys
+				String.AppendFormat(_T("F%u"), byteKey - VK_F1 + 1);
+			else if ((byteKey >= 'A') && (byteKey <= 'Z')) // letter keys
+				String.AppendChar(byteKey);
+			else if ((byteKey >= '0') && (byteKey <= '9')) // number keys
+				String.AppendChar(byteKey);
+			else
+			{
+				UINT	dwResStrId = 0;
+
+				if (byteKey == VK_RETURN)	// Enter key
+					dwResStrId = IDS_SHORTCUTS_ENTER_KEY;
+				else if (byteKey == VK_SPACE) // Spacebar
+					dwResStrId = IDS_SHORTCUTS_SPACE_KEY;
+				else if (byteKey == VK_TAB) // Tab key
+					dwResStrId = IDS_SHORTCUTS_TAB_KEY;
+				else if (byteKey == VK_BACK) // Bakcspace key
+					dwResStrId = IDS_SHORTCUTS_BACK_KEY;
+				else if (byteKey == VK_INSERT) // Insert key
+					dwResStrId = IDS_SHORTCUTS_INSERT_KEY;
+				else if (byteKey == VK_DELETE) // Delete key
+					dwResStrId = IDS_SHORTCUTS_DELETE_KEY;
+				else if (byteKey == VK_HOME) // Home key
+					dwResStrId = IDS_SHORTCUTS_HOME_KEY;
+				else if (byteKey == VK_END) // End key
+					dwResStrId = IDS_SHORTCUTS_END_KEY;
+				else if (byteKey == VK_PRIOR) // Page Up key
+					dwResStrId = IDS_SHORTCUTS_PAGEUP_KEY;
+				else if (byteKey == VK_NEXT) // Page Down key
+					dwResStrId = IDS_SHORTCUTS_PAGEDOWN_KEY;
+
+				if (dwResStrId != 0)
+					String += ::GetResString(dwResStrId);
+				else	/*** Should never happen ***/
+					String += _T("ERROR");
+			}
+		}
+		else
+			String += GetResString(IDS_SHORTCUTS_NONE);
+	}
+
+	return String;
+}
+
+
+CKeyboardShortcut::CKeyboardShortcut(void)
+: m_bEnabled(false)
+, m_bAlt(false)
+, m_bCtrl(false)
+, m_bShift(false)
+, m_bWin(false)
+, m_byteKey(VK_RETURN)
+{
+}
+
+CKeyboardShortcut::CKeyboardShortcut(short nCode)
+{
+	SetCode(nCode);
+}
+
+CKeyboardShortcut::~CKeyboardShortcut(void)
+{
+}
+
+void CKeyboardShortcut::SetCode(short nCode)
+{
+	m_bEnabled	= (nCode & MASK_ENABLED) ? true : false;
+	m_bAlt		= (nCode & MASK_ALT) ? true : false;
+	m_bCtrl		= (nCode & MASK_CTRL) ? true : false;
+	m_bShift	= (nCode & MASK_SHIFT) ? true : false;
+	m_bWin		= (nCode & MASK_WIN) ? true : false;
+	m_byteKey	= static_cast<uchar>(nCode & MASK_KEY);
+}
+@
+
+
+1.7
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d1 17
+a17 1
+#include "StdAfx.h"
+d28 1
+a28 1
+		nCode += MASK_ALT;
+d30 1
+a30 1
+		nCode += MASK_CTRL;
+d32 1
+a32 1
+		nCode += MASK_SHIFT;
+d34 2
+a35 2
+		nCode += MASK_WIN;
+	nCode += static_cast<short>(pMsg->wParam);
+d40 1
+a40 1
+CString GetStringFromShortcutCode(int iIdx, EnumShortcutStringPrefix ePrefixType, BOOL bReturnNoneIfDisabled)
+d42 5
+a46 2
+	CString	String = ((ePrefixType == SSP_TAB_PREFIX) ? _T("\t") : ((ePrefixType == SSP_SPACE_PREFIX) ? _T(": ") : _T("")));
+	short	nCode = g_App.m_pPrefs->GetShortcutCode(iIdx);
+d48 2
+a49 1
+	if ((nCode & MASK_ENABLED) != 0) 
+d51 6
+a56 18
+		if ((nCode & MASK_ALT) != 0)
+			String += _T("Alt+");
+		if ((nCode & MASK_CTRL) != 0)
+			String += _T("Ctrl+");
+		if ((nCode & MASK_SHIFT) != 0)
+			String += _T("Shift+");
+		if ((nCode & MASK_WIN) != 0)
+			String +=_T("Win+");
+
+		uchar byteKey = nCode & MASK_KEY;
+
+		if ((byteKey >= VK_F1) && (byteKey <= VK_F12)) // function keys
+			String.AppendFormat(_T("F%u"), byteKey - VK_F1 + 1);
+		else if ((byteKey >= 'A') && (byteKey <= 'Z')) // letter keys
+			String.AppendChar(byteKey);
+		else if ((byteKey >= '0') && (byteKey <= '9')) // number keys
+			String.AppendChar(byteKey);
+		else
+d58 47
+a104 27
+			UINT	dwResStrId = 0;
+
+			if (byteKey == VK_RETURN)	// Enter key
+				dwResStrId = IDS_SHORTCUTS_ENTER_KEY;
+			else if (byteKey == VK_SPACE) // Spacebar
+				dwResStrId = IDS_SHORTCUTS_SPACE_KEY;
+			else if (byteKey == VK_TAB) // Tab key
+				dwResStrId = IDS_SHORTCUTS_TAB_KEY;
+			else if (byteKey == VK_BACK) // Bakcspace key
+				dwResStrId = IDS_SHORTCUTS_BACK_KEY;
+			else if (byteKey == VK_INSERT) // Insert key
+				dwResStrId = IDS_SHORTCUTS_INSERT_KEY;
+			else if (byteKey == VK_DELETE) // Delete key
+				dwResStrId = IDS_SHORTCUTS_DELETE_KEY;
+			else if (byteKey == VK_HOME) // Home key
+				dwResStrId = IDS_SHORTCUTS_HOME_KEY;
+			else if (byteKey == VK_END) // End key
+				dwResStrId = IDS_SHORTCUTS_END_KEY;
+			else if (byteKey == VK_PRIOR) // Page Up key
+				dwResStrId = IDS_SHORTCUTS_PAGEUP_KEY;
+			else if (byteKey == VK_NEXT) // Page Down key
+				dwResStrId = IDS_SHORTCUTS_PAGEDOWN_KEY;
+
+			if (dwResStrId != 0)
+				String += ::GetResString(dwResStrId);
+			else	/*** Should never happen ***/
+				String += _T("ERROR");
+d106 2
+a108 4
+	else if (bReturnNoneIfDisabled)
+		String += GetResString(IDS_SHORTCUTS_NONE);
+	else
+		return _T("");
+d135 5
+a139 5
+	m_bEnabled	= static_cast<bool>(nCode & MASK_ENABLED);
+	m_bAlt		= static_cast<bool>(nCode & MASK_ALT);
+	m_bCtrl		= static_cast<bool>(nCode & MASK_CTRL);
+	m_bShift	= static_cast<bool>(nCode & MASK_SHIFT);
+	m_bWin		= static_cast<bool>(nCode & MASK_WIN);
+@
+
+
+1.6
+log
+@renamed 3 variables
+@
+text
+@d27 1
+a27 1
+	short	nCode = g_App.g_pPrefs->GetShortcutCode(iIdx);
+@
+
+
+1.5
+log
+@Some reorganization to remove double resource strings with colons.
+@
+text
+@d27 1
+a27 1
+	short	nCode = g_eMuleApp.m_pGlobPrefs->GetShortcutCode(iIdx);
+@
+
+
+1.4
+log
+@Faster shortcuts handling.
+@
+text
+@d26 1
+a26 1
+	CString	String = ((ePrefixType == SSP_TAB_PREFIX) ? _T("\t") : ((ePrefixType == SSP_SPACE_PREFIX) ? _T(" ") : _T("")));
+@
+
+
+1.3
+log
+@fixed crash  due context menu, shortcut optimiation & update to UNICODE
+@
+text
+@d3 3
+a5 2
+#include "OtherFunctions.h"
+#include ".\keyboardshortcut.h"
+d7 1
+a7 2
+
+short GetCodeFromPressedKeys(MSG* pMsg)
+d9 1
+a9 1
+	short nCode = 0;
+a10 1
+	nCode += MASK_ENABLED;
+d24 1
+a24 1
+CString GetStringFromShortcutCode(short nCode, EnumShortcutStringPrefix ePrefixType, BOOL bReturnNoneIfDisabled)
+d26 2
+a27 2
+	CString String;
+	String = _T("");
+d41 3
+a43 22
+		if (byteKey == VK_RETURN)	// Enter key
+			String += GetResString(IDS_SHORTCUTS_ENTER_KEY);
+		else if (byteKey == VK_SPACE) // Spacebar
+			String += GetResString(IDS_SHORTCUTS_SPACE_KEY);
+		else if (byteKey == VK_TAB) // Tab key
+			String += GetResString(IDS_SHORTCUTS_TAB_KEY);
+		else if (byteKey == VK_BACK) // Bakcspace key
+			String += GetResString(IDS_SHORTCUTS_BACK_KEY);
+		else if (byteKey == VK_INSERT) // Insert key
+			String += GetResString(IDS_SHORTCUTS_INSERT_KEY);
+		else if (byteKey == VK_DELETE) // Delete key
+			String += GetResString(IDS_SHORTCUTS_DELETE_KEY);
+		else if (byteKey == VK_HOME) // Home key
+			String += GetResString(IDS_SHORTCUTS_HOME_KEY);
+		else if (byteKey == VK_END) // End key
+			String += GetResString(IDS_SHORTCUTS_END_KEY);
+		else if (byteKey == VK_PRIOR) // Page Up key
+			String += GetResString(IDS_SHORTCUTS_PAGEUP_KEY);
+		else if (byteKey == VK_NEXT) // Page Down key
+			String += GetResString(IDS_SHORTCUTS_PAGEDOWN_KEY);
+		else if ((byteKey >= VK_F1) && (byteKey <= VK_F12)) // function keys
+			String.AppendFormat(_T("F%i"), (byteKey-VK_F1)+1);
+d48 30
+a77 2
+		else /*** Should never happen ***/
+			String = _T("ERROR");
+d80 3
+a82 1
+		String = GetResString(IDS_SHORTCUTS_NONE);
+a83 8
+	if (!String.IsEmpty())
+	{
+		if (ePrefixType == SSP_TAB_PREFIX)
+			return (_T("\t") + String);
+		else if (ePrefixType == SSP_SPACE_PREFIX)
+			return (_T(" ") + String);
+	}
+	
+a115 4
+CString CKeyboardShortcut::GetKeyComboString(void)
+{
+	return GetStringFromShortcutCode(GetCode());
+}
+@
+
+
+1.2
+log
+@Change to shortcut management code (it's easier to add an action now) / Added a lot of actions to shortcut management / Added some keys to shortcut management
+@
+text
+@d25 1
+a25 1
+CString GetStringFromShortcutCode(short nCode, BOOL bReturnNoneIfDisabled)
+d28 1
+a28 1
+	String = "";
+d30 2
+a31 1
+	if ((nCode & MASK_ENABLED) != 0) {
+d33 1
+a33 1
+			String += "Alt+";
+d35 1
+a35 1
+			String += "Ctrl+";
+d37 1
+a37 1
+			String += "Shift+";
+d39 1
+a39 1
+			String += "Win+";
+d63 1
+a63 1
+			String.AppendFormat("F%i", (byteKey-VK_F1)+1);
+d69 1
+a69 1
+			String = "ERROR";
+d71 1
+a71 1
+	if (bReturnNoneIfDisabled && String == "")
+d74 8
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d25 1
+a25 1
+CString GetStringFromShortcutCode(short nCode, BOOL bReturnNoneIfEmpty)
+d42 19
+a60 3
+			String += "Enter";
+		else if (byteKey == VK_SPACE) // Space key
+			String += "Space";
+d70 1
+a70 1
+	if (bReturnNoneIfEmpty && String == "")
+@
+

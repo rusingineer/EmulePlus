@@ -1,0 +1,7998 @@
+head	1.112;
+access;
+symbols
+	PublicRelease_1_2e:1.111
+	Interim_Release_1-2e_RC1:1.111
+	PublicRelease_1_2d:1.108
+	Interim_Release_1-2d_RC1:1.108
+	Interim_Release_1-2d_beta1:1.105
+	PublicRelease_1_2c:1.101
+	Interim_Release_1-2c_RC1:1.101
+	Interim_Release_1-2c_beta1:1.100
+	PublicRelease_1_2b:1.99
+	Interim_Release_1-2b_RC1:1.99
+	PublicRelease_1_2a:1.95
+	Interim_Release_1-2a_RC1:1.94
+	Interim_Release_1-2a_beta2:1.93
+	Interim_Release_1-2a_beta1:1.93
+	PublicRelease_1_2:1.92
+	Interim_Release_1-2_RC1:1.92
+	Interim_Release_1-2_beta1:1.92
+	PublicRelease_1_1g:1.88
+	Interim_Release_1-1g_RC3:1.88
+	Interim_Release_1-1g_RC2:1.88
+	Interim_Release_1-1g_RC1:1.88
+	Interim_Release_1-1g_beta2:1.85
+	Interim_Release_1-1g_beta1:1.85
+	PublicRelease_1_1f:1.84
+	Interim_Release_1-1f_RC1:1.84
+	PublicRelease_1_1e:1.82
+	Interim_Release_1-1e_RC2:1.82
+	Interim_Release_1-1e_RC1:1.82
+	Interim_Release_1-1e_beta1:1.82
+	PublicRelease_1_1d:1.79
+	Interim_Release_1-1d_RC1:1.79
+	PublicRelease_1_1c:1.79
+	Interim_Release_1-1c_RC1:1.79
+	Interim_Release_1-1c_beta2:1.77
+	Interim_Release_1-1c_beta1:1.72
+	PublicRelease_1_1b:1.71
+	Interim_Release_1-1b_RC1:1.71
+	PublicRelease_1_1a:1.71
+	Interim_Release_1-1a_RC2:1.71
+	Interim_Release_1-1a_RC1:1.71
+	Interim_Release_1-1a_beta2:1.70
+	Interim_Release_1-1a_beta1:1.70
+	PublicRelease_1_1:1.69
+	Interim_Release_1-1_beta1:1.69
+	PublicRelease_1o:1.69
+	Interim_Release_1o_RC1:1.69
+	Interim_Release_1o_beta1:1.69
+	PublicRelease_1n:1.68
+	Interim_Release_1n_RC2:1.68
+	Interim_Release_1n_RC1:1.68
+	Interim_Release_1n_beta2:1.67
+	Interim_Release_1n_beta1:1.66
+	PublicRelease_1m:1.64
+	Interim_Release_1m_beta1:1.64
+	PublicRelease_1l:1.64
+	Interim_Release_1l_RC3:1.64
+	Interim_Release_1l_RC2:1.64
+	Interim_Release_1l_RC1:1.63
+	Interim_Release_1l_beta2:1.61
+	Interim_Release_1l_beta1:1.60
+	PublicRelease_1k:1.55
+	Interim_Release_1k_RC4:1.55
+	Interim_1k_RC3:1.55
+	Interim_1k_RC2:1.53
+	Interim_Release_1k_RC1:1.53
+	Interim_Release_1k_beta5:1.53
+	Intrerim_Release_1k_beta4:1.53
+	Interim_Release_1k_beta1:1.51
+	PublicRelease_1j:1.50
+	Interim_Release_1J_RC3:1.50
+	Interim_Release_1j_RC3:1.50
+	Interim_Release_1j_RC2:1.49
+	Interim_Release_1j_RC1:1.47
+	Interim_Release_1j_beta2:1.47
+	Interim_Release_1j_beta1:1.47
+	PublicRelease_1i:1.47
+	Interim_Release_1i_RC6:1.47
+	Interim_Release_1i_RC3:1.46
+	Interim_Release_1i_RC2:1.46
+	Interim_Release_1i_RC1:1.44
+	Interim_Release_1i_beta3:1.43
+	Interim_Release_1i_beta2:1.38
+	Interim_Release_1i_beta1:1.23
+	PublicRelease_1h:1.17
+	Interim_Release_1h_rc2:1.17
+	Interim_Release_1h_RC1:1.15
+	Interim_Release_1h_beta2:1.14
+	Interim_Release_1h_beta1_now:1.12
+	Interim_Release_1h_beta1:1.12
+	PublicRelease_1g:1.12
+	Interim_Release_1g_RC6_Final:1.12
+	Interim_Release_1g_RC6:1.12
+	Interim_Release_1g_RC5:1.12
+	Interim_Release_1g_RC4:1.12
+	Interim_Release_1g_RC3:1.12
+	Interim_Release_1g_beta2:1.10
+	Interim_Release_1g_beta1:1.10
+	Interim_Release_1f_RC4:1.10
+	Interim_Release_1f_RC3:1.10
+	Interim_Release_1f_RC2:1.9
+	Interim_Release_1f_RC:1.9
+	Interim_Release_1f_beta2:1.8
+	Interim_Release_1f_beta1:1.7
+	PublicRelease_1e:1.5
+	Interim_Release_1e_RC2:1.5
+	Interim_Release_1e_RC:1.5
+	Interim_Release_1e_beta3:1.5
+	Interim_Release_1e_beta2:1.5
+	Interim_Release_1e_beta2_before_kuchin:1.5
+	Interim_Release_1e_beta1:1.5
+	PublicRelease_1c:1.5
+	featurestest:1.5.0.2
+	Interim_Release_1c_RC:1.5
+	Interim_Release_1c_beta2:1.5
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.4
+	PublicRelease_1b:1.4
+	Interim_Release_1b_beta2:1.4
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.4.0.2
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.3
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.3
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.112
+date	2009.05.14.03.04.46;	author aw3;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2008.11.07.05.26.32;	author aw3;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2008.11.03.05.54.28;	author aw3;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2008.09.02.02.47.13;	author aw3;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2008.04.06.07.41.02;	author eklmn;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2008.04.05.20.22.49;	author eklmn;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2008.04.05.09.49.08;	author eklmn;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2008.01.19.10.02.00;	author eklmn;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2007.12.16.21.38.00;	author aw3;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2007.12.14.20.48.22;	author kush_eplus;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2007.11.30.13.16.34;	author aw3;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2007.07.08.00.15.48;	author aw3;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2007.02.22.05.19.41;	author aw3;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2006.12.17.17.46.08;	author aw3;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2006.12.14.01.52.50;	author aw3;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2006.12.13.21.04.57;	author eklmn;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2006.12.12.17.42.30;	author eklmn;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2006.09.25.03.20.12;	author aw3;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2006.09.06.05.51.24;	author aw3;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2006.04.23.04.06.57;	author aw3;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2006.01.29.18.11.50;	author aw3;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2006.01.24.07.02.48;	author eklmn;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2006.01.20.04.20.47;	author aw3;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2006.01.06.20.06.46;	author kush_eplus;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2005.11.30.02.23.43;	author aw3;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2005.11.27.22.11.48;	author eklmn;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2005.08.24.04.02.45;	author aw3;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2005.07.28.20.03.48;	author eklmn;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2005.07.24.08.42.10;	author eklmn;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2005.05.21.20.18.56;	author aw3;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2005.05.10.03.51.22;	author aw3;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2005.05.09.02.32.47;	author aw3;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2005.02.18.19.16.56;	author aw3;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2005.02.18.17.40.07;	author eklmn;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2005.02.09.22.38.21;	author aw3;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2005.02.07.19.47.21;	author eklmn;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2005.02.01.21.25.43;	author eklmn;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2005.02.01.19.48.35;	author eklmn;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2005.01.30.15.39.13;	author eklmn;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2005.01.21.09.32.37;	author kush_eplus;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2004.11.24.06.40.21;	author aw3;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2004.10.27.21.25.05;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2004.09.13.22.47.17;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2004.08.14.21.56.04;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2004.08.06.17.00.46;	author eklmn;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2004.07.06.16.46.02;	author katsyonak;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2004.07.06.16.02.21;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2004.05.30.02.36.09;	author katsyonak;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2004.05.24.21.12.16;	author katsyonak;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2004.05.23.10.11.58;	author dongato;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2004.05.21.00.55.37;	author kush_eplus;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2004.05.06.04.01.14;	author katsyonak;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2004.05.05.17.17.43;	author netwolf1;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2004.05.05.11.42.24;	author katsyonak;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2004.05.05.06.09.21;	author katsyonak;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2004.05.04.05.59.58;	author aw3;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2004.04.02.21.27.11;	author eklmn;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2004.04.02.17.22.07;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2004.03.18.18.03.15;	author eklmn;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2004.02.26.21.59.20;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2004.02.08.22.43.38;	author kush_eplus;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2004.01.19.18.21.28;	author dropf;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2004.01.11.14.13.09;	author dongato;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2004.01.11.00.51.57;	author netwolf1;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.11.24.01.11.25;	author katsyonak;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.11.11.21.36.56;	author dropf;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.11.11.15.55.42;	author kuchin;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.11.04.16.09.17;	author katsyonak;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.10.30.02.44.37;	author morevit;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.10.29.22.13.32;	author dropf;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.10.28.21.34.58;	author morevit;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.10.28.18.36.28;	author katsyonak;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.10.28.11.22.09;	author eklmn;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.10.24.05.31.18;	author eklmn;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.10.24.01.21.19;	author morevit;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.10.23.14.19.24;	author dongato;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.10.23.07.14.30;	author eklmn;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.10.22.15.35.46;	author dongato;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.10.21.23.49.38;	author dongato;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.10.21.15.44.39;	author eklmn;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.10.20.16.15.31;	author eklmn;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.10.10.17.59.02;	author morevit;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.10.09.22.01.38;	author eklmn;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.10.08.12.56.33;	author morevit;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.10.08.05.41.45;	author eklmn;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.10.07.18.04.57;	author eklmn;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.10.07.11.36.32;	author dongato;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.10.03.13.08.12;	author morevit;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.10.01.15.08.35;	author eklmn;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.09.22.00.17.22;	author morevit;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.09.21.22.05.16;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.09.19.14.42.46;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.09.14.13.48.42;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.09.13.11.03.15;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.09.11.00.59.02;	author dongato;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.08.23.23.28.51;	author forcha;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.08.23.00.20.50;	author forcha;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.06.16.04.44.44;	author partyckip;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.06.11.18.27.10;	author eklmn;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.05.20.20.46.27;	author netwolf1;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.05.12.17.31.46;	author lord_kiron;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.05.04.19.07.11;	author lord_kiron;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.04.30.18.52.55;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.04.30.11.37.54;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.16.21.23.09;	author lord_kiron;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.26.21.12.31;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.16.22.01.47;	author lord_kiron;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2003.02.13.17.45.42;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.20;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.16;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.02.28.22.44.55;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.112
+log
+@Save sorting directions for all GUI lists; Unified list sort initialization and click processing;
+Simplified list arrow configuration interface; Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002-2006 Merkur ( strEmail.Format("%s@@%s", "devteam", "emule-project.net") / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "Preferences.h"
+#include "emule.h"
+#include "memdc.h"
+#include "MuleListCtrl.h"
+#include "otherfunctions.h"
+#include "TitleMenu.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+#define MLC_BLEND(A, B, X) ((A + B * (X-1) + ((X+1)/2)) / X)
+
+#define MLC_RGBBLEND(A, B, X) (                   \
+	RGB(MLC_BLEND(GetRValue(A), GetRValue(B), X), \
+	MLC_BLEND(GetGValue(A), GetGValue(B), X),     \
+	MLC_BLEND(GetBValue(A), GetBValue(B), X))     \
+)
+
+#define MLC_DT_TEXT (DT_SINGLELINE | DT_NOPREFIX | DT_VCENTER | DT_END_ELLIPSIS)
+
+#define MLC_IDC_MENU	4875
+#define MLC_IDC_UPDATE	(MLC_IDC_MENU - 1)
+
+//a value that's not a multiple of 4 and uncommon
+#define MLC_MAGIC 0xFEEBDEEF
+
+//used for very slow assertions
+//#define MLC_ASSERT(f)	ASSERT(f)
+#define MLC_ASSERT(f)	((void)0)
+
+#ifndef HDM_SETBITMAPMARGIN
+#define HDM_SETBITMAPMARGIN	(HDM_FIRST + 20)
+#define HDM_GETBITMAPMARGIN	(HDM_FIRST + 21)
+#endif
+
+BEGIN_MESSAGE_MAP(CMuleListCtrl, CListCtrl)
+	ON_WM_DRAWITEM()
+	ON_WM_KEYDOWN()
+	ON_WM_ERASEBKGND()
+	ON_WM_SYSCOLORCHANGE()
+END_MESSAGE_MAP()
+
+//////////////////////////////////
+//	CMuleListCtrl
+
+IMPLEMENT_DYNAMIC(CMuleListCtrl, CListCtrl)
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CMuleListCtrl::CMuleListCtrl(PFNLVCOMPARE pfnCompare, DWORD dwParamSort) : m_Params(50)
+{
+	m_SortProc = pfnCompare;
+	m_dwParamSort = dwParamSort;
+
+	m_bCustomDraw = false;
+	m_iCurrentSortItem[0] = -1;
+	m_iCurrentSortItem[1] = -1;
+	m_iCurrentSortItem[2] = -1;
+	m_iColumnsTracked = 0;
+	m_aColumns = NULL;
+	m_lRedrawCount = 0;
+	m_bMovingItem = false;
+	m_pHeaderCtrl = NULL;
+	::InitializeCriticalSection(&m_csRedraw);
+
+//	just in case
+	m_crWindow = 0;
+	m_crWindowText = 0;
+	m_crWindowTextBk = 0;
+	m_crHighlight = 0;
+	m_crGlow = 0;
+	m_crGlowText = 0;
+	m_crDimmedText = 0;
+	m_crFocusLine = 0;
+	m_crNoHighlight = 0;
+	m_crNoFocusLine = 0;
+	m_bGeneralPurposeFind = false;
+	m_iFindDirection = 1;
+	m_iFindColumn = 0;
+	m_uiTableIdx = CPreferences::TABLE_COUNT;
+	m_piDoubleSortCols = NULL;
+	m_uiDoubleSortCnt = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CMuleListCtrl::~CMuleListCtrl()
+{
+	if (m_aColumns != NULL)
+		delete[] m_aColumns;
+
+	::DeleteCriticalSection(&m_csRedraw);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CMuleListCtrl::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort)
+{
+	NOPRM(lParam1); NOPRM(lParam2); NOPRM(lParamSort);
+
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::PreSubclassWindow()
+{
+	SetColors();
+	CListCtrl::PreSubclassWindow();
+	ModifyStyle(LVS_LIST | LVS_ICON | LVS_SMALLICON, LVS_REPORT | LVS_SINGLESEL);
+#ifdef _UNICODE
+//	Win9x: Explicitly set to Unicode to receive Unicode notifications.
+	SendMessage(CCM_SETUNICODEFORMAT, TRUE);
+#endif
+	SetExtendedStyle(LVS_EX_HEADERDRAGDROP);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CMuleListCtrl::IndexToOrder(CHeaderCtrl* pHeader, int iIndex)
+{
+	int			iCount = pHeader->GetItemCount();
+	int			*piArray = new int[iCount];
+
+	Header_GetOrderArray(pHeader->m_hWnd, iCount, piArray);
+	for (int i = 0; i < iCount; i++)
+	{
+		if (piArray[i] == iIndex)
+		{
+			delete[] piArray;
+			return i;
+		}
+	}
+	delete[] piArray;
+	return -1;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::HideColumn(int iColumn)
+{
+	CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+	int					iCount = pHeaderCtrl->GetItemCount();
+
+	if (iColumn < 1 || iColumn >= iCount || m_aColumns[iColumn].bHidden)
+		return;
+
+//	stop it from redrawing
+	SetRedraw(FALSE);
+
+//	shrink width to 0
+	HDITEM		item;
+
+	item.mask = HDI_WIDTH;
+	pHeaderCtrl->GetItem(iColumn, &item);
+	m_aColumns[iColumn].iWidth = item.cxy;
+	item.cxy = 0;
+	pHeaderCtrl->SetItem(iColumn, &item);
+
+//	move to front of list
+	int			*piArray = new INT[m_iColumnsTracked];
+
+	pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+
+	int			iFrom = m_aColumns[iColumn].iLocation;
+
+	for (int i = 0; i < m_iColumnsTracked; i++)
+		if (m_aColumns[i].iLocation > m_aColumns[iColumn].iLocation && m_aColumns[i].bHidden)
+			iFrom++;
+
+	for (int i = iFrom; i > 0; i--)
+		piArray[i] = piArray[i - 1];
+	piArray[0] = iColumn;
+	pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+	delete[] piArray;
+
+//	update entry
+	m_aColumns[iColumn].bHidden = true;
+
+//	redraw
+	SetRedraw(TRUE);
+	Invalidate(FALSE);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::ShowColumn(int iColumn)
+{
+	CHeaderCtrl		*pHeaderCtrl = GetHeaderCtrl();
+	int				iCount = pHeaderCtrl->GetItemCount();
+
+	if (iColumn < 1 || iColumn >= iCount || !m_aColumns[iColumn].bHidden)
+		return;
+
+//	stop it from redrawing
+	SetRedraw(FALSE);
+
+//	restore position in list
+	int				*piArray = new INT[m_iColumnsTracked];
+
+	pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+
+	int				iCurrent = IndexToOrder(pHeaderCtrl, iColumn);
+
+	for (; iCurrent < IndexToOrder(pHeaderCtrl, 0) && iCurrent < m_iColumnsTracked - 1; iCurrent++)
+		piArray[iCurrent] = piArray[iCurrent + 1];
+	for (; (iCurrent < m_iColumnsTracked - 1) &&
+		m_aColumns[iColumn].iLocation > m_aColumns[pHeaderCtrl->OrderToIndex(iCurrent + 1)].iLocation; iCurrent++ )
+	{
+		piArray[iCurrent] = piArray[iCurrent + 1];
+	}
+	piArray[iCurrent] = iColumn;
+	pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+	delete[] piArray;
+
+//	and THEN restore original width
+	HDITEM			item;
+
+	item.mask = HDI_WIDTH;
+	item.cxy = m_aColumns[iColumn].iWidth;
+	pHeaderCtrl->SetItem(iColumn, &item);
+
+//	update entry
+	m_aColumns[iColumn].bHidden = false;
+
+//	redraw
+	SetRedraw(TRUE);
+	Invalidate(FALSE);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::SaveSettings(int iTbl)
+{
+	if (m_iColumnsTracked > 0)	// save only when something was loaded
+	{
+		int	i = m_iColumnsTracked - 1, *piArray = new INT[m_iColumnsTracked];
+
+		do
+		{
+			g_App.m_pPrefs->SetColumnWidth(iTbl, i, GetColumnWidth(i));
+			g_App.m_pPrefs->SetColumnHidden(iTbl, i, IsColumnHidden(i));
+			piArray[i] = m_aColumns[i].iLocation;
+		} while(--i >= 0);
+
+		g_App.m_pPrefs->SetColumnOrder(iTbl, piArray);
+		delete[] piArray;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::LoadSettings(int iTbl)
+{
+	CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+	int					*piArray = new INT[m_iColumnsTracked];
+
+	for (int i = 0; i < m_iColumnsTracked; i++)
+		piArray[i] = i;
+
+	for (int i = 0; i < m_iColumnsTracked; i++)
+	{
+		int iWidth = g_App.m_pPrefs->GetColumnWidth(iTbl, i);
+
+		if (iWidth != 0)
+			SetColumnWidth(i, iWidth);
+		if (i == 0)
+		{
+			piArray[0] = 0;
+		}
+		else
+		{
+			int iOrder = g_App.m_pPrefs->GetColumnOrder(iTbl, i);
+
+			if (iOrder > 0 && iOrder < m_iColumnsTracked && iOrder != i)
+				piArray[iOrder] = i;
+		}
+	}
+
+	pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+	pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+	for (int i = 0; i < m_iColumnsTracked; i++)
+		m_aColumns[piArray[i]].iLocation = i;
+
+	delete[] piArray;
+
+	for (int i = 1; i < m_iColumnsTracked; i++)
+	{
+		if (g_App.m_pPrefs->GetColumnHidden(iTbl, i))
+			HideColumn(i);
+	}
+	m_uiTableIdx = iTbl;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::SetColors()
+{
+	m_crWindow = ::GetSysColor(COLOR_WINDOW);
+	m_crWindowText = ::GetSysColor(COLOR_WINDOWTEXT);
+	m_crWindowTextBk = m_crWindow;
+
+	COLORREF		crHighlight = ::GetSysColor(COLOR_HIGHLIGHT);
+
+	m_crFocusLine	= crHighlight;
+	m_crNoHighlight = MLC_RGBBLEND(crHighlight, m_crWindow, 8);
+	m_crNoFocusLine = MLC_RGBBLEND(crHighlight, m_crWindow, 2);
+	m_crHighlight	= MLC_RGBBLEND(crHighlight, m_crWindow, 4);
+	m_crGlow		= ::GetSysColor(COLOR_INFOBK);
+	m_crGlowText	= ::GetSysColor(COLOR_INFOTEXT);
+	m_crDimmedText	= ::GetSysColor(COLOR_GRAYTEXT);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::SetSortArrow(int iColumn, bool bAscending, int iColumnIndex)
+{
+	unsigned	uiType = arrowDown;
+
+	if (static_cast<unsigned>(--iColumnIndex) < 3u)
+		uiType = iColumnIndex * 2 + arrowDown1;
+	uiType += (bAscending) ? 1 : 0;
+	SetSortArrow(iColumn, uiType);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::SetSortArrow(int iColumn, unsigned uiType)
+{
+	static const uint16	s_auArrorRes[] = {
+		IDB_DOWN,	//arrowDown
+		IDB_UP,		//arrowUp
+		IDB_DOWN2X,	//arrowDoubleDown
+		IDB_UP2X,	//arrowDoubleUp
+		IDB_DOWN1,	//arrowDown1
+		IDB_UP1,	//arrowUp1
+		IDB_DOWN2,	//arrowDown2
+		IDB_UP2,	//arrowUp2
+		IDB_DOWN3,	//arrowDown3
+		IDB_UP3		//arrowUp3
+	};
+	if (::IsWindow(GetSafeHwnd()) == false || g_App.m_app_state == CEmuleApp::APP_STATE_SHUTTINGDOWN)
+		return;
+
+	HDITEM		headerItem;
+
+	headerItem.mask = HDI_FORMAT;
+
+	CHeaderCtrl		*pHeaderCtrl = GetHeaderCtrl();
+	int				iSortIndex = 0;
+	bool			bMultiColumn = false;
+
+	if (uiType >= ARRSIZE(s_auArrorRes))
+		uiType = arrowDown;
+	if (uiType >= arrowDown1)
+	{
+		bMultiColumn = true;
+		iSortIndex = (uiType - arrowDown1) / 2;
+	}
+
+//	Delete old image if column has changed
+	if (iColumn != m_iCurrentSortItem[iSortIndex])
+	{
+		if (m_iCurrentSortItem[iSortIndex] >= 0)
+		{
+			pHeaderCtrl->GetItem(m_iCurrentSortItem[iSortIndex], &headerItem);
+			headerItem.fmt &= ~(HDF_IMAGE | HDF_BITMAP_ON_RIGHT);
+		}
+		else
+			headerItem.fmt = HDF_STRING;
+		pHeaderCtrl->SetItem(m_iCurrentSortItem[iSortIndex], &headerItem);
+		m_iCurrentSortItem[iSortIndex] = iColumn;
+		m_imlHeaderCtrl.DeleteImageList();
+	}
+	if (!bMultiColumn)
+	{
+		headerItem.fmt = HDF_STRING;
+		pHeaderCtrl->SetItem(m_iCurrentSortItem[1], &headerItem);
+		m_iCurrentSortItem[1] = -1;
+		pHeaderCtrl->SetItem(m_iCurrentSortItem[2], &headerItem);
+		m_iCurrentSortItem[2] = -1;
+	}
+//place new arrow unless we were given an invalid column
+	if (iColumn >= 0 && pHeaderCtrl->GetItem(iColumn, &headerItem))
+	{
+		m_auiSortArrow[iSortIndex] = uiType;
+
+		LPCTSTR		pcRes = MAKEINTRESOURCE(s_auArrorRes[m_auiSortArrow[0]]);
+		HINSTANCE	hInstRes = AfxFindResourceHandle(pcRes, RT_BITMAP);
+		HINSTANCE	hInstRes2 = NULL, hInstRes3 = NULL;
+
+		if (hInstRes != NULL)
+		{
+			HBITMAP	hbmSortStates = (HBITMAP)::LoadImage(hInstRes, pcRes, IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+
+			if (hbmSortStates != NULL)
+			{
+				CBitmap			bmSortStates;
+
+				bmSortStates.Attach(hbmSortStates);
+
+				CImageList		imlSortStates;
+
+				if (imlSortStates.Create(14, 14, ILC_COLOR | ILC_MASK, 1, 0))
+				{
+					VERIFY(imlSortStates.Add(&bmSortStates, RGB(255, 0, 255)) != -1);
+					if (m_iCurrentSortItem[1] >= 0)
+					{
+						pcRes = MAKEINTRESOURCE(s_auArrorRes[m_auiSortArrow[1]]);
+						hInstRes2 = AfxFindResourceHandle(pcRes, RT_BITMAP);
+
+						if (hInstRes2 != NULL)
+						{
+							HBITMAP	hbmSortStates2 = (HBITMAP)::LoadImage(hInstRes, pcRes, IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+
+							if (hbmSortStates2 != NULL)
+							{
+								CBitmap		bmSortStates2;
+
+								bmSortStates2.Attach(hbmSortStates2);
+								VERIFY(imlSortStates.Add(&bmSortStates2, RGB(255, 0, 255)) != -1);
+							}
+						}
+					}
+					if (m_iCurrentSortItem[2] >= 0)
+					{
+						pcRes = MAKEINTRESOURCE(s_auArrorRes[m_auiSortArrow[2]]);
+						hInstRes3 = AfxFindResourceHandle(pcRes, RT_BITMAP);
+
+						if (hInstRes3 != NULL)
+						{
+							HBITMAP	hbmSortStates3 = (HBITMAP)::LoadImage(hInstRes, pcRes, IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+
+							if (hbmSortStates3 != NULL)
+							{
+								CBitmap		bmSortStates3;
+
+								bmSortStates3.Attach(hbmSortStates3);
+								VERIFY(imlSortStates.Add(&bmSortStates3, RGB(255, 0, 255)) != -1);
+							}
+						}
+					}
+
+				//	To avoid drawing problems (which occur only with an image list *with* a mask) while
+				//	resizing list view columns which have the header control bitmap right aligned, set
+				//	the background color of the image list.
+					if (g_App.m_qwComCtrlVer < MAKEDLLVERULL(6, 0, 0, 0))
+						imlSortStates.SetBkColor(GetSysColor(COLOR_BTNFACE));
+
+				//	When setting the image list for the header control for the first time we'll get
+				//	the image list of the listview control!! So, better store the header control imagelist separate.
+					(void)pHeaderCtrl->SetImageList(&imlSortStates);
+					m_imlHeaderCtrl.DeleteImageList();
+					m_imlHeaderCtrl.Attach(imlSortStates.Detach());
+
+				//	Use smaller bitmap margins -- this saves some pixels which may be required for
+				//	rather small column titles.
+					if (g_App.m_qwComCtrlVer >= MAKEDLLVERULL(5, 8, 0, 0))
+					{
+						int iBmpMargin = pHeaderCtrl->SendMessage(HDM_GETBITMAPMARGIN);
+						int iNewBmpMargin = GetSystemMetrics(SM_CXEDGE) + GetSystemMetrics(SM_CXEDGE) / 2;
+						if (iNewBmpMargin < iBmpMargin)
+							pHeaderCtrl->SendMessage(HDM_SETBITMAPMARGIN, iNewBmpMargin);
+					}
+				}
+			}
+		}
+		headerItem.mask |= HDI_IMAGE;
+		headerItem.fmt |= HDF_IMAGE | HDF_BITMAP_ON_RIGHT;
+		headerItem.iImage = iSortIndex;
+		pHeaderCtrl->SetItem(iColumn, &headerItem);
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//move item in list, returns index of new item
+int CMuleListCtrl::MoveItem(int iOldIndex, int iNewIndex)
+{
+	if (iNewIndex > iOldIndex)
+		iNewIndex--;
+
+	TCHAR	acText[256];
+	LVITEM	lvi;
+	DWORD	dwStyle;
+
+//	Get Item
+	lvi.mask = LVIF_TEXT | LVIF_STATE | LVIF_PARAM | LVIF_INDENT | LVIF_IMAGE | LVIF_NORECOMPUTE;
+	lvi.stateMask = (UINT) - 1;
+	lvi.iItem = iOldIndex;
+	lvi.iSubItem = 0;	// Set subitem pointer on Item
+	lvi.pszText = acText;
+	lvi.cchTextMax = ARRSIZE(acText);
+	lvi.iIndent = 0;
+	if (!GetItem(&lvi))
+		return -1;
+
+//	Get Style an save subsettings if required
+	dwStyle = GetStyle();
+
+//	Prevent redraw during moving (delete & inserts)
+	SetRedraw(FALSE);
+
+	if ((dwStyle & LVS_OWNERDATA) == 0)
+	{
+	//	Save substrings
+		CSimpleArray<void*>	aSubItems;
+		TCHAR	acTextSub[256];
+		LVITEM	lviSub;
+		void	*pstrSubItem;
+		int		i;
+
+		lviSub.mask = LVIF_TEXT | LVIF_NORECOMPUTE;
+		lviSub.iItem = iOldIndex;
+		for (i = 1; i < m_iColumnsTracked; i++)
+		{
+			lviSub.iSubItem = i;
+			lviSub.cchTextMax = ARRSIZE(acTextSub);
+			lviSub.pszText = acTextSub;
+
+			if (GetItem(&lviSub))
+			{
+				if (lviSub.pszText == LPSTR_TEXTCALLBACK)
+					pstrSubItem = LPSTR_TEXTCALLBACK;
+				else
+					pstrSubItem = new CString(lviSub.pszText);
+			}
+			else
+				pstrSubItem = NULL;
+			aSubItems.Add(pstrSubItem);
+		}
+
+		m_bMovingItem = true;
+
+		DeleteItem(iOldIndex);
+		lvi.iItem = iNewIndex;
+		iNewIndex = InsertItem(&lvi);
+
+		m_bMovingItem = false;
+
+	//	Restore substrings
+		lviSub.iItem = iNewIndex;
+		for (i = 1; i <= aSubItems.GetSize(); i++)
+		{
+			pstrSubItem = aSubItems[i - 1];
+			if (pstrSubItem != NULL)
+			{
+			//	Several crashes were reporting showing that m_iColumnsTracked changed
+			//	while moving row, be very careful with here
+				if (i < m_iColumnsTracked)
+				{
+					lviSub.iSubItem = i;
+
+					if (pstrSubItem == LPSTR_TEXTCALLBACK)
+						lviSub.pszText = LPSTR_TEXTCALLBACK;
+					else
+						lviSub.pszText = const_cast<LPTSTR>(reinterpret_cast<CString*>(pstrSubItem)->GetString());
+					DefWindowProc(LVM_SETITEMTEXT, iNewIndex, reinterpret_cast<LPARAM>(&lviSub));
+				}
+				if (pstrSubItem != LPSTR_TEXTCALLBACK)
+					delete static_cast<CString*>(pstrSubItem);
+			}
+		}
+	}
+	else
+	{
+		m_bMovingItem = true;
+
+		DeleteItem(iOldIndex);
+		lvi.iItem = iNewIndex;
+		iNewIndex = InsertItem(&lvi);
+
+		m_bMovingItem = false;
+	}
+
+	SetRedraw(TRUE);
+
+	return iNewIndex;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CMuleListCtrl::UpdateLocation(int iItem)
+{
+	int iNewIndex = GetNewLocation(GetItemData(iItem), iItem, false);
+
+// move if required
+	if (iNewIndex != iItem)
+		return MoveItem(iItem, iNewIndex);
+
+	return iItem;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CMuleListCtrl::GetNewLocation(const DWORD_PTR dwpItemData, int iItem, bool bInsertion)
+{
+	if (dwpItemData == NULL)
+		return iItem;
+
+	int iItemCount = GetItemCount();
+
+// note: the maximal index value that can handle following algorithm is equal to the number of the entries
+// in the list, this value is always used during insertion
+	if (static_cast<uint32>(iItem) > static_cast<uint32>(iItemCount))
+		return iItem;
+
+	bool			notLast =  bInsertion ? (iItem < iItemCount) : (iItem < (iItemCount - 1));
+	bool			notFirst = iItem > 0;
+	uint32			dwLastIndex = static_cast<uint32>(iItemCount - 1);
+	uint32			dwLowerBound = 0;
+	uint32			dwUpperBound = dwLastIndex;
+	uint32			i, dwNewIndex, dwDist;
+	POSITION		posItem, posPrevItem, posNextItem, posCmpItem;
+
+// get the position of the element in the list
+	if (!notLast)
+		posItem = m_Params.GetTailPosition();
+	else
+		posItem = m_Params.FindIndex(iItem);
+
+//	if it isn't first element, we gonna compare it with previous element
+	if (notFirst)
+	{
+	//	get Index & Position of previous element (Item-1)
+		dwNewIndex = static_cast<uint32>(iItem - 1);
+		posPrevItem = posItem;
+		if (iItem != iItemCount)
+			m_Params.GetPrev(posPrevItem);
+
+	//	check if we need to move an Item
+		int			iResult = m_SortProc(dwpItemData, GetParamAt(posPrevItem, dwNewIndex), m_dwParamSort);
+
+	//	we need to move it
+		if (iResult < 0)
+		{
+			dwDist = dwNewIndex;
+			posCmpItem = m_Params.GetHeadPosition();
+
+			while (dwDist >= 1)
+			{
+				if (m_SortProc(dwpItemData, GetParamAt(posCmpItem, dwNewIndex - dwDist), m_dwParamSort) < 0)
+				{
+				//	update an Index & postion
+					dwNewIndex = dwNewIndex - dwDist;
+					posPrevItem = posCmpItem;
+				//	calculate new step based on new Index
+					dwDist = dwNewIndex - dwLowerBound + 1u;
+				}
+				else
+				{
+				//	set postion to initial one, if we don't need to move
+					posCmpItem = posPrevItem;
+				//	set new boundary
+					dwLowerBound = dwNewIndex - dwDist;
+				}
+			//	just decrease a step
+				dwDist >>= 1u;
+
+				if (dwDist == 0)
+					break;
+				i = dwDist;
+				do
+				{
+					m_Params.GetPrev(posCmpItem);
+				} while(--i > 0u);
+			}
+			return dwNewIndex;
+		}
+	}
+
+	if (notLast)
+	{
+	//	get Index of next element (Item+1)
+		dwNewIndex = static_cast<uint32>(iItem);
+		posNextItem = posItem;
+		if (!bInsertion)
+		{
+			dwNewIndex++;
+			m_Params.GetNext(posNextItem);
+		}
+
+	//	check if we need to move an Item
+		int iResult = m_SortProc(dwpItemData, GetParamAt(posNextItem, dwNewIndex), m_dwParamSort);
+
+		if (iResult > 0)
+		{
+			dwDist = dwLastIndex - dwNewIndex;
+			posCmpItem = m_Params.GetTailPosition();
+
+			while (dwDist >= 1)
+			{
+				if (m_SortProc(dwpItemData, GetParamAt(posCmpItem, dwNewIndex + dwDist), m_dwParamSort) > 0)
+				{
+				//	update an Index & postion
+					dwNewIndex = dwNewIndex + dwDist;
+					posNextItem = posCmpItem;
+				//	calculate new step based on new Index
+					dwDist = dwUpperBound - dwNewIndex + 1u;
+				}
+				else
+				{
+				//	set postion to initial one, if we don't need to move
+					posCmpItem = posNextItem;
+				//	set new boundary
+					dwUpperBound = dwNewIndex + dwDist;
+				}
+			//	just decrease a step
+				dwDist >>= 1u;
+
+				if (dwDist == 0)
+					break;
+				i = dwDist;
+				do
+				{
+					m_Params.GetNext(posCmpItem);
+				} while(--i > 0u);
+			}
+			return ++dwNewIndex;
+		}
+	}
+
+	return iItem;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+DWORD_PTR CMuleListCtrl::GetItemData(int iItem)
+{
+	POSITION		pos = m_Params.FindIndex(iItem);
+	LPARAM			lParam = 0;
+
+	if (pos != NULL)
+	{
+		lParam = GetParamAt(pos, iItem);
+		MLC_ASSERT(lParam == CListCtrl::GetItemData(iItem));
+	}
+
+	return lParam;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnNMDividerDoubleClick(NMHEADER *pHeader)
+{
+//	As long as we do not handle the HDN_DIVIDERDBLCLICK according the actual
+//	listview item contents it's better to resize to the header width instead of
+//	resizing to zero width. The complete solution for this would require a lot
+//	of rewriting in the owner drawn listview controls...
+	SetColumnWidth(pHeader->iItem, LVSCW_AUTOSIZE_USEHEADER);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	lower level than everything else so poorly overriden functions don't break us
+BOOL CMuleListCtrl::OnWndMsg(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* pResult)
+{
+//	lets look for the important messages that are essential to handle
+	switch (message)
+	{
+		case WM_NOTIFY:
+		{
+			if (wParam == 0)
+			{
+				if (((NMHDR*)lParam)->code == NM_RCLICK)
+				{
+				//	Handle right click on headers and show column menu
+					POINT		point;
+					CTitleMenu	tmColumnMenu;
+
+					GetCursorPos(&point);
+					tmColumnMenu.CreatePopupMenu();
+
+					CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+					int					iCount = pHeaderCtrl->GetItemCount();
+
+					for (int iCurrent = 1; iCurrent < iCount; iCurrent++)
+					{
+						HDITEM		item;
+						TCHAR		text[255];
+
+						item.pszText = text;
+						item.mask = HDI_TEXT;
+						item.cchTextMax = 255;
+						pHeaderCtrl->GetItem(iCurrent, &item);
+
+						tmColumnMenu.AppendMenu( MF_STRING | ((m_aColumns[iCurrent].bHidden) ? 0 : MF_CHECKED),
+												MLC_IDC_MENU + iCurrent, item.pszText );
+					}
+					tmColumnMenu.TrackPopupMenuEx(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this, NULL);
+
+				//	Menu objects are destroyed in their destructor
+					return *pResult = TRUE;
+
+				}
+				else if (((NMHDR*)lParam)->code == HDN_BEGINTRACKA || ((NMHDR*)lParam)->code == HDN_BEGINTRACKW)
+				{
+				//stop them from changeing the size of anything "before" first column
+					if (m_aColumns[((HD_NOTIFY*)lParam)->iItem].bHidden)
+						return *pResult = TRUE;
+				}
+				else if (((NMHDR*)lParam)->code == HDN_ENDDRAG)
+				{
+				//stop them from moving first column
+
+					NMHEADER		*pHeader = (NMHEADER*)lParam;
+
+					if (pHeader->iItem != 0 && pHeader->pitem->iOrder != 0)
+					{
+						int			iNewLoc = pHeader->pitem->iOrder - GetHiddenColumnCount();
+
+						if (iNewLoc > 0)
+						{
+							if (m_aColumns[pHeader->iItem].iLocation != iNewLoc)
+							{
+								if (m_aColumns[pHeader->iItem].iLocation > iNewLoc)
+								{
+									int			iMax = m_aColumns[pHeader->iItem].iLocation;
+									int			iMin = iNewLoc;
+
+									for (int i = 0; i < m_iColumnsTracked; i++)
+									{
+										if (m_aColumns[i].iLocation >= iMin && m_aColumns[i].iLocation < iMax)
+											m_aColumns[i].iLocation++;
+									}
+								}
+
+								else if (m_aColumns[pHeader->iItem].iLocation < iNewLoc)
+								{
+									int			iMin = m_aColumns[pHeader->iItem].iLocation;
+									int			iMax = iNewLoc;
+
+									for (int i = 0; i < m_iColumnsTracked; i++)
+									{
+										if (m_aColumns[i].iLocation > iMin && m_aColumns[i].iLocation <= iMax)
+											m_aColumns[i].iLocation--;
+									}
+								}
+
+								m_aColumns[pHeader->iItem].iLocation = iNewLoc;
+
+								Invalidate(FALSE);
+								break;
+							}
+						}
+					}
+
+					return *pResult = 1;
+				}
+				else if (((NMHDR*)lParam)->code == HDN_DIVIDERDBLCLICKA || ((NMHDR*)lParam)->code == HDN_DIVIDERDBLCLICKW)
+				{
+					if (GetStyle() & LVS_OWNERDRAWFIXED)
+					{
+						OnNMDividerDoubleClick(reinterpret_cast<NMHEADER*>(lParam));
+						return *pResult = 1;
+					}
+				}
+			}
+			break;
+		}
+		case WM_COMMAND:
+		{
+			if (wParam == MLC_IDC_UPDATE)
+			{
+				UpdateLocation(lParam);
+				return *pResult = 1;
+			}
+			else if (wParam >= MLC_IDC_MENU)	//	deal with menu clicks
+			{
+				CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+				int					iCount = pHeaderCtrl->GetItemCount();
+				int					iToggle = wParam - MLC_IDC_MENU;
+
+				if (iToggle >= iCount)
+					break;
+
+				if (m_aColumns[iToggle].bHidden)
+					ShowColumn(iToggle);
+				else
+					HideColumn(iToggle);
+
+				return *pResult = 1;
+			}
+			break;
+		}
+		case LVM_DELETECOLUMN:
+		{
+		//book keeping!
+			if (m_aColumns != NULL)
+			{
+				for (int i = 0; i < m_iColumnsTracked; i++)
+					if (m_aColumns[i].bHidden)
+						ShowColumn(i);
+
+				delete[] m_aColumns;
+				m_aColumns = NULL; // 'new' may throw an exception
+			}
+			m_aColumns = new MULE_COLUMN[--m_iColumnsTracked];
+			for (int i = 0; i < m_iColumnsTracked; i++)
+			{
+				m_aColumns[i].iLocation = i;
+				m_aColumns[i].bHidden = false;
+			}
+			break;
+		}
+	//	case LVM_INSERTCOLUMN:
+		case LVM_INSERTCOLUMNA:
+		case LVM_INSERTCOLUMNW:
+		{
+		//book keeping!
+			if (m_aColumns != NULL)
+			{
+				for (int i = 0; i < m_iColumnsTracked; i++)
+					if (m_aColumns[i].bHidden)
+						ShowColumn(i);
+
+				delete[] m_aColumns;
+				m_aColumns = NULL; // 'new' may throw an exception
+			}
+			m_aColumns = new MULE_COLUMN[++m_iColumnsTracked];
+			for (int i = 0; i < m_iColumnsTracked; i++)
+			{
+				m_aColumns[i].iLocation = i;
+				m_aColumns[i].bHidden = false;
+			}
+			break;
+		}
+		case LVM_SETITEM:
+		{
+		//	book keeping
+			POSITION pos = m_Params.FindIndex(((LPLVITEM)lParam)->iItem);
+			if (pos != NULL)
+			{
+				m_Params.SetAt(pos, MLC_MAGIC);
+			//	m_SortProc = SortProc when sorting is disabled
+			//	Don't post any update messages when sorting is disabled to avoid
+			//	flood of messages overflowing message queues, what results in other issues
+				if (m_SortProc != SortProc)
+					PostMessage(LVM_UPDATE, ((LPLVITEM)lParam)->iItem);
+			}
+			break;
+		}
+		case LVN_KEYDOWN:
+		{
+			break;
+		}
+		case LVM_SETITEMTEXT:
+		{
+		//	need to check for movement
+			*pResult = DefWindowProc(message, wParam, lParam);
+		//	m_SortProc = SortProc when sorting is disabled
+		//	Don't post any update messages when sorting is disabled to avoid
+		//	flood of messages overflowing message queues, what results in other issues
+			if ((m_SortProc != SortProc) && *pResult)
+				PostMessage(WM_COMMAND, MLC_IDC_UPDATE, wParam);
+			return *pResult;
+		}
+		case LVM_SORTITEMS:
+		{
+		//	book keeping...
+			m_dwParamSort = (LPARAM)wParam;
+			m_SortProc = (PFNLVCOMPARE)lParam;
+			for (POSITION pos = m_Params.GetHeadPosition(); pos != NULL; m_Params.GetNext(pos))
+				m_Params.SetAt(pos, MLC_MAGIC);
+			break;
+		}
+		case LVM_DELETEALLITEMS:
+		{
+		//	book keeping...
+			if (!CListCtrl::OnWndMsg(message, wParam, lParam, pResult) && DefWindowProc(message, wParam, lParam))
+				m_Params.RemoveAll();
+			return *pResult = TRUE;
+		}
+		case LVM_DELETEITEM:
+		{
+		//	book keeping.....
+			MLC_ASSERT(m_Params.GetAt(m_Params.FindIndex(wParam)) == CListCtrl::GetItemData(wParam));
+			if (!CListCtrl::OnWndMsg(message, wParam, lParam, pResult) && DefWindowProc(message, wParam, lParam))
+				m_Params.RemoveAt(m_Params.FindIndex(wParam));
+			return *pResult = TRUE;
+		}
+	//	case LVM_INSERTITEM:
+		case LVM_INSERTITEMA:
+		case LVM_INSERTITEMW:
+	//	try to fix position of inserted items
+		{
+			LPLVITEM		pItem = (LPLVITEM)lParam;
+
+		//update location
+			if (!m_bMovingItem)
+				pItem->iItem = GetNewLocation(pItem->lParam, pItem->iItem, true);
+
+			if (pItem->iItem == 0)
+			{
+				m_Params.AddHead(pItem->lParam);
+				return FALSE;
+			}
+
+			LRESULT lResult = DefWindowProc(message, wParam, lParam);
+			if (lResult != -1)
+			{
+				if (lResult >= GetItemCount())
+					m_Params.AddTail(pItem->lParam);
+				else if (lResult == 0)
+					m_Params.AddHead(pItem->lParam);
+				else
+					m_Params.InsertAfter(m_Params.FindIndex(lResult - 1), pItem->lParam);
+			}
+			return *pResult = lResult;
+			break;
+		}
+		case LVM_UPDATE:
+		{
+		//	better fix for old problem... normally Update(int) causes entire list to redraw
+
+			if (wParam == (WPARAM)UpdateLocation(wParam))
+			{ //no need to invalidate rect if item moved
+				RECT		rcItem;
+				BOOL		bResult = GetItemRect(wParam, &rcItem, LVIR_BOUNDS);
+
+				if (bResult)
+					InvalidateRect(&rcItem, FALSE);
+				return *pResult = bResult;
+			}
+			return *pResult = TRUE;
+		}
+	}
+
+	return CListCtrl::OnWndMsg(message, wParam, lParam, pResult);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags)
+{
+	if (nChar == VK_DELETE)
+	{
+		PostMessage(WM_COMMAND, MP_CANCEL, 0);
+	}
+	else if (nChar == 'A')
+	{
+	//	Select everything only on the first press and don't on repeated events
+		if (((nFlags & 0x4000) == 0) && (::GetAsyncKeyState(VK_CONTROL) < 0))	//	Ctrl+A: Select all items
+			SetItemState(-1, LVIS_SELECTED, LVIS_SELECTED);
+	}
+	else if (nChar == VK_ADD)
+	{
+		if (::GetAsyncKeyState(VK_CONTROL) < 0)
+		{
+		//	Auto-resize list only on the first press and don't on repeated events
+			if ((nFlags & 0x4000) == 0)
+			{
+				NMHEADER	Hdr;
+
+			//	List redraw can't be disabled as it's required for transfer window lists
+			//	to calculate max column width
+				for (int i = 0; i < GetHeaderCtrl()->GetItemCount(); i++)
+				{
+					if (!m_aColumns[i].bHidden)
+					{
+						Hdr.iItem = i;
+						OnNMDividerDoubleClick(&Hdr);
+					}
+				}
+			}
+			return;
+		}
+	}
+	else if (m_bGeneralPurposeFind)
+	{
+		if (nChar == 'F')
+		{
+			if (GetKeyState(VK_CONTROL) & 0x8000)	//	Ctrl+F: Search item
+				OnFindStart();
+		}
+		else if (nChar == VK_F3)
+		{
+			if (GetKeyState(VK_SHIFT) & 0x8000)
+				OnFindPrev();	//	Shift+F3: Search previous
+			else
+				OnFindNext();	//	F3: Search next
+		}
+	}
+
+	return CListCtrl::OnKeyDown(nChar, nRepCnt, nFlags);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CMuleListCtrl::OnChildNotify(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* pResult)
+{
+	if (message != WM_DRAWITEM)
+	{
+	//	Catch the prepaint and copy struct
+		if ( message == WM_NOTIFY && ((NMHDR*)lParam)->code == NM_CUSTOMDRAW
+		     && ((LPNMLVCUSTOMDRAW)lParam)->nmcd.dwDrawStage == CDDS_ITEMPREPAINT )
+		{
+			m_bCustomDraw = B2b(CListCtrl::OnChildNotify(message, wParam, lParam, pResult));
+
+			if (m_bCustomDraw)
+				memcpy2(&m_lvcd, (void*)lParam, sizeof(NMLVCUSTOMDRAW));
+
+			return m_bCustomDraw;
+		}
+
+		return CListCtrl::OnChildNotify(message, wParam, lParam, pResult);
+	}
+
+	ASSERT(pResult == NULL); // no return value expected
+	UNUSED(pResult);         // unused in release builds
+
+	DrawItem((LPDRAWITEMSTRUCT)lParam);
+
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::TextDraw(CDC* pDC, CString &strText, LPRECT lpRect, UINT iFormat, COLORREF crForeground, COLORREF crBackground)
+{
+	int			iIndex = 0;
+	COLORREF	crColor;
+
+	while (!strText.IsEmpty())
+	{
+		switch (strText.GetAt(iIndex))
+		{
+			case 1:
+			case 2:
+			{
+				if (iIndex > 0)
+				{
+					pDC->DrawText(strText.Left(iIndex), lpRect, iFormat);
+					lpRect->left += pDC->GetTextExtent(strText.Left(iIndex)).cx;
+				}
+				if (strText.GetLength() > iIndex + 4)
+				{
+					_stscanf(strText.Mid(iIndex + 1, 6), _T("%06x"), &crColor);
+					if (strText.GetAt(iIndex) == 1)
+						pDC->SetTextColor(crColor);
+					else
+						pDC->SetBkColor(crColor);
+				}
+				strText = strText.Mid(iIndex + 7);
+				iIndex = 0;
+				break;
+			}
+			case 3:
+			{
+				if (iIndex > 0)
+				{
+					pDC->DrawText(strText.Left(iIndex), lpRect, iFormat);
+					lpRect->left += pDC->GetTextExtent(strText.Left(iIndex)).cx;
+				}
+				pDC->SetTextColor(crForeground);
+				pDC->SetBkColor(crBackground);
+
+				strText = strText.Mid(iIndex + 1);
+				iIndex = 0;
+				break;
+			}
+			default:
+				iIndex++;
+		}
+		if (iIndex >= strText.GetLength())
+		{
+			pDC->DrawText(strText, lpRect, iFormat);
+			break;
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct)
+{
+	int					iItem = lpDrawItemStruct->itemID;
+	CImageList			*pImageList;
+	CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+
+//	gets the item image and state info
+	LV_ITEM				lvi;
+
+	lvi.mask = LVIF_IMAGE | LVIF_STATE;
+	lvi.iItem = iItem;
+	lvi.iSubItem = 0;
+	lvi.stateMask = LVIS_DROPHILITED | LVIS_FOCUSED | LVIS_SELECTED | LVIS_GLOW | LVIS_CUT | LVIS_OVERLAYMASK;
+	GetItem(&lvi);
+
+//	see if the item be highlighted
+	bool			bHighlight = ((lvi.state & LVIS_DROPHILITED) || (lvi.state & LVIS_SELECTED));
+	bool			bCtrlFocused = ((GetFocus() == this) || (GetStyle() & LVS_SHOWSELALWAYS));
+
+//	set up our ficker free drawing
+	int				iState = SaveDC(lpDrawItemStruct->hDC);
+	COLORREF		crForeground, crBackground, crOldTextColor;
+
+//	Select background color
+	crBackground = m_crWindow;
+	if (bHighlight)
+	{
+		if (bCtrlFocused)
+			crBackground = m_crHighlight;
+		else
+			crBackground = (lvi.state & LVIS_GLOW) ? m_crGlow : m_crNoHighlight;
+	}
+	else if (lvi.state & LVIS_GLOW)
+		crBackground = m_crGlow;
+
+	CDC				*oDC = CDC::FromHandle(lpDrawItemStruct->hDC);
+	CMemDC			pDC(oDC, &lpDrawItemStruct->rcItem, m_crWindow, (m_crWindowTextBk == CLR_NONE) ? m_crWindow : crBackground);
+	CFont			*pOldFont = pDC->SelectObject(GetFont());
+
+	if (m_bCustomDraw)
+		crForeground = m_lvcd.clrText;
+	else if (lvi.state & LVIS_CUT)	// Dimmed
+		crForeground = m_crDimmedText;
+	else if (lvi.state & LVIS_GLOW)	// Glowing
+		crForeground = m_crGlowText;
+	else
+		crForeground = m_crWindowText;
+
+	crOldTextColor = pDC->SetTextColor(crForeground);
+
+	if (m_crWindowTextBk == CLR_NONE)
+	{
+		DefWindowProc(WM_ERASEBKGND, (WPARAM)pDC->m_hDC, 0);
+		pDC->SetBkColor(crBackground);
+	}
+
+	const int		iOffset = 2;
+//	get rectangles for drawing
+	CRect			rcBounds, rcLabel, rcIcon;
+
+	GetItemRect(iItem, rcBounds, LVIR_BOUNDS);
+	GetItemRect(iItem, rcLabel, LVIR_LABEL);
+
+	CRect			rcCol(rcBounds);
+	CString			sLabel = GetItemText(iItem, 0);
+
+//	update column
+	rcCol.right = rcCol.left + CListCtrl::GetColumnWidth(0);
+
+//	draw state icon
+	if (lvi.state & LVIS_STATEIMAGEMASK)
+	{
+		int				nImage = ((lvi.state & LVIS_STATEIMAGEMASK) >> 12) - 1;
+
+		pImageList = GetImageList(LVSIL_STATE);
+		if (pImageList)
+		{
+			COLORREF			crOld = pImageList->SetBkColor(CLR_NONE);
+
+			pImageList->Draw(pDC, nImage, rcCol.TopLeft(), ILD_NORMAL);
+			pImageList->SetBkColor(crOld);
+		}
+	}
+
+//	draw the item's icon
+	pImageList = GetImageList(LVSIL_SMALL);
+	if (pImageList != NULL)
+	{
+		COLORREF			crOld = pImageList->SetBkColor(CLR_NONE);
+
+		GetItemRect(iItem, rcIcon, LVIR_ICON);
+		pImageList->Draw(pDC, lvi.iImage, rcIcon.TopLeft(), ILD_NORMAL);
+		pImageList->SetBkColor(crOld);
+		rcLabel.left += 2 * iOffset;
+	}
+	else
+		rcLabel.left = rcBounds.left + iOffset;
+
+	int		iOldBkMode = (m_crWindowTextBk == CLR_NONE) ? pDC->SetBkMode(TRANSPARENT) : OPAQUE;
+
+//	draw item label (column 0)
+	rcLabel.right -= iOffset;
+	if (lvi.state & LVIS_OVERLAYMASK)
+		TextDraw(pDC, sLabel, rcLabel, MLC_DT_TEXT | DT_LEFT | DT_NOCLIP, crForeground, crBackground);
+	else
+		pDC->DrawText(sLabel, rcLabel, MLC_DT_TEXT | DT_LEFT | DT_NOCLIP);
+
+//	draw labels for remaining columns
+	LV_COLUMN			lvc;
+
+	lvc.mask = LVCF_FMT | LVCF_WIDTH;
+
+	int				iCount = pHeaderCtrl->GetItemCount();
+
+	for (int iCurrent = 1; iCurrent < iCount; iCurrent++)
+	{
+		int				iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+
+	//	don't draw column 0 again
+		if (iColumn == 0)
+			continue;
+
+		GetColumn(iColumn, &lvc);
+	//	don't draw anything with 0 width
+		if (lvc.cx == 0)
+			continue;
+
+		rcCol.left = rcCol.right;
+		rcCol.right += lvc.cx;
+
+		sLabel = GetItemText(iItem, iColumn);
+		if (sLabel.IsEmpty())
+			continue;
+
+	//	get the text justification
+		UINT			nJustify = MLC_DT_TEXT | DT_LEFT;
+
+		switch (lvc.fmt & LVCFMT_JUSTIFYMASK)
+		{
+			case LVCFMT_RIGHT:
+				nJustify = MLC_DT_TEXT | DT_RIGHT;
+				break;
+			case LVCFMT_CENTER:
+				nJustify = MLC_DT_TEXT | DT_CENTER;
+				break;
+		}
+
+		if (IsRightToLeftLanguage())
+			nJustify |= DT_RTLREADING;
+
+		rcLabel.left = rcCol.left + iOffset;
+		rcLabel.right = rcCol.right - iOffset;
+
+		if (lvi.state & LVIS_OVERLAYMASK)
+			TextDraw(pDC, sLabel, rcLabel, nJustify, crForeground, crBackground);
+		else
+			pDC->DrawText(sLabel, rcLabel, nJustify);
+	}
+
+//	draw focus rectangle if item has focus
+	if ((lvi.state & LVIS_FOCUSED) && (bCtrlFocused || (lvi.state & LVIS_SELECTED)))
+	{
+		rcBounds.left++;
+		rcBounds.right--;
+
+		CBrush	brFocus((!bCtrlFocused || ((lvi.state & LVIS_SELECTED) == 0)) ? m_crNoFocusLine : m_crFocusLine);
+
+		pDC->FrameRect(rcBounds, &brFocus);
+	}
+
+	pDC->Flush();
+	if (m_crWindowTextBk == CLR_NONE)
+		pDC->SetBkMode(iOldBkMode);
+	pDC->SelectObject(pOldFont);
+	pDC->SetTextColor(crOldTextColor);
+	RestoreDC(lpDrawItemStruct->hDC, iState);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CMuleListCtrl::OnEraseBkgnd(CDC* pDC)
+{
+	int				itemCount = GetItemCount();
+
+	if (!itemCount)
+		return CListCtrl::OnEraseBkgnd(pDC);
+
+	RECT			clientRect;
+	RECT			itemRect;
+	int				topIndex = GetTopIndex();
+	int				maxItems = GetCountPerPage();
+	int				drawnItems = itemCount < maxItems ? itemCount : maxItems;
+	CRect			rcClip;
+
+//	draw top portion
+	GetClientRect(&clientRect);
+	rcClip = clientRect;
+	GetItemRect(topIndex, &itemRect, LVIR_BOUNDS);
+	clientRect.bottom = itemRect.top;
+	if (m_crWindowTextBk != CLR_NONE)
+		pDC->FillSolidRect(&clientRect, GetBkColor());
+	else
+		rcClip.top = itemRect.top;
+
+//	draw bottom portion if we have to
+	if (topIndex + maxItems >= itemCount)
+	{
+		GetClientRect(&clientRect);
+		GetItemRect(topIndex + drawnItems - 1, &itemRect, LVIR_BOUNDS);
+		clientRect.top = itemRect.bottom;
+		rcClip.bottom = itemRect.bottom;
+		if (m_crWindowTextBk != CLR_NONE)
+			pDC->FillSolidRect(&clientRect, GetBkColor());
+	}
+
+//	draw right half if we need to
+	if (itemRect.right < clientRect.right)
+	{
+		GetClientRect(&clientRect);
+		clientRect.left = itemRect.right;
+		rcClip.right = itemRect.right;
+		if (m_crWindowTextBk != CLR_NONE)
+			pDC->FillSolidRect(&clientRect, GetBkColor());
+	}
+
+	if (m_crWindowTextBk == CLR_NONE)
+	{
+		CRect			rcClipBox;
+
+		pDC->GetClipBox(&rcClipBox);
+		rcClipBox.SubtractRect(&rcClipBox, &rcClip);
+		if (!rcClipBox.IsRectEmpty())
+		{
+			pDC->ExcludeClipRect(&rcClip);
+			CListCtrl::OnEraseBkgnd(pDC);
+			InvalidateRect(&rcClip, FALSE);
+		}
+	}
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnSysColorChange()
+{
+//	adjust colors
+	CListCtrl::OnSysColorChange();
+	SetColors();
+
+//	redraw the up/down sort arrow (if it's there)
+	if (m_iCurrentSortItem[0] >= 0)
+		SetSortArrow(m_iCurrentSortItem[0], m_auiSortArrow[0]);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::ApplyImageList(HIMAGELIST himl)
+{
+	SendMessage(LVM_SETIMAGELIST, LVSIL_SMALL, (LPARAM)himl);
+	if (m_imlHeaderCtrl.m_hImageList != NULL)
+	{
+	//	Must *again* set the image list for the header control, because LVM_SETIMAGELIST
+	//	always resets any already specified header control image lists!
+		GetHeaderCtrl()->SetImageList(&m_imlHeaderCtrl);
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	PostUniqueMessage() check the existence of message in the list control's message queue & puts it into the queue if message does not exist
+void CMuleListCtrl::PostUniqueMessage(UINT uiMsg)
+{
+	if (::IsWindow(GetSafeHwnd()) && g_App.m_app_state != CEmuleApp::APP_STATE_SHUTTINGDOWN)
+	{
+		MSG		msg;
+
+	//	If there's no refresh message already in the message queue... (don't want to flood it)
+		if (!::PeekMessage(&msg, m_hWnd, uiMsg, uiMsg, PM_NOREMOVE))
+		{
+			PostMessage(uiMsg,0, 0);
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	SortInit() initialize sorting and header arrow
+//	NB! it has to be called after LoadSettings()
+void CMuleListCtrl::SortInit(int iSortCode)
+{
+	int	iSortColumn = (iSortCode & MLC_COLUMNMASK);				// sort column
+	int	iSortAscending = (iSortCode & MLC_SORTDESC) ? 0 : 1;	// sort order
+
+	for (unsigned ui = 0; ui < m_uiDoubleSortCnt; ui++)
+	{
+		if (iSortColumn == m_piDoubleSortCols[ui])
+		{
+			iSortAscending |= (iSortCode & MLC_SORTALT) ? 2 : 0;	// alternate sort
+			break;
+		}
+	}
+	g_App.m_pPrefs->GetColumnSortAscending(m_uiTableIdx)[iSortColumn] = static_cast<byte>(iSortAscending);
+	g_App.m_pPrefs->SetColumnSortItem(m_uiTableIdx, iSortColumn);
+	SetSortArrow(iSortColumn, iSortAscending);
+	SortItems(iSortCode);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	OnLvnColumnClick() is the column header click message handler
+void CMuleListCtrl::OnLvnColumnClick(NMHDR *pNMHDR, LRESULT *pResult)
+{
+	EMULE_TRY
+
+	NM_LISTVIEW	*pNMListView = reinterpret_cast<NM_LISTVIEW*>(pNMHDR);
+	int			iMsk = 1, iSubItem = pNMListView->iSubItem;
+	byte		*pbyteSortAscending = g_App.m_pPrefs->GetColumnSortAscending(m_uiTableIdx);
+	unsigned	uiSortOrder;
+
+	for (unsigned ui = 0; ui < m_uiDoubleSortCnt; ui++)
+	{
+		if (iSubItem == m_piDoubleSortCols[ui])
+		{
+			iMsk = 3;
+			break;
+		}
+	}
+// Reverse sorting direction for the same column and keep the same if column was changed
+	if (static_cast<int>(m_dwParamSort & MLC_COLUMNMASK) == iSubItem)
+		pbyteSortAscending[iSubItem] = static_cast<byte>((pbyteSortAscending[iSubItem] + 1) & iMsk);
+	SetSortArrow(iSubItem, uiSortOrder = pbyteSortAscending[iSubItem] & iMsk);
+
+	SortItems(iSubItem | ((uiSortOrder & 2) ? MLC_SORTALT : 0) | ((uiSortOrder & 1) ? MLC_SORTASC : MLC_SORTDESC));
+	g_App.m_pPrefs->SetColumnSortItem(m_uiTableIdx, iSubItem);
+
+	*pResult = 0;
+
+	EMULE_CATCH
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////
+//	CDlgListSearchListSearch
+
+class CDlgListSearchListSearch : public CDialog
+{
+	DECLARE_DYNAMIC(CDlgListSearchListSearch)
+
+public:
+	CDlgListSearchListSearch(CWnd* pParent = NULL);   // standard constructor
+
+// Dialog Data
+	enum { IDD = IDD_LISTVIEW_SEARCH };
+
+	CMuleListCtrl	*m_pListView;
+	CString			m_strFindText;
+	int				m_iSearchColumn;
+
+protected:
+	CComboBox m_ctlSearchCol;
+
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+
+public:
+	afx_msg void OnEnChangeSearchText();
+	virtual BOOL OnInitDialog();
+};
+
+
+IMPLEMENT_DYNAMIC(CDlgListSearchListSearch, CDialog)
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CDlgListSearchListSearch::CDlgListSearchListSearch(CWnd* pParent /*=NULL*/)
+		: CDialog(CDlgListSearchListSearch::IDD, pParent)
+		, m_strFindText(_T(""))
+{
+	m_pListView = NULL;
+	m_iSearchColumn = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CDlgListSearchListSearch::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_LISTVIEW_SEARCH_COLUMN, m_ctlSearchCol);
+	DDX_CBIndex(pDX, IDC_LISTVIEW_SEARCH_COLUMN, m_iSearchColumn);
+	DDX_Text(pDX, IDC_LISTVIEW_SEARCH_TEXT, m_strFindText);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CDlgListSearchListSearch::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	SetDlgItemText(IDC_LISTVIEW_SEARCH_TEXT_LBL, GetResString(IDS_SEARCH_TEXT) + _T(':'));
+	SetDlgItemText(IDC_LISTVIEW_SEARCH_COLUMN_LBL, GetResString(IDS_SEARCH_COLUMN) + _T(':'));
+
+	SetDlgItemText(IDCANCEL, GetResString(IDS_CANCEL));
+
+	SetIcon(g_App.m_pMDlg->m_hiconSourceTray, FALSE);
+	SetWindowText(GetResString(IDS_SEARCH_NOUN));
+
+	if (m_pListView != NULL)
+	{
+		TCHAR			szColTitle[256];
+		LVCOLUMN		lvc;
+
+		lvc.mask = LVCF_TEXT;
+		lvc.cchTextMax = ARRSIZE(szColTitle);
+		lvc.pszText = szColTitle;
+
+		int				iCol = 0;
+
+		while (m_pListView->GetColumn(iCol++, &lvc))
+			m_ctlSearchCol.AddString(lvc.pszText);
+		if ((UINT)m_iSearchColumn >= (UINT)m_ctlSearchCol.GetCount())
+			m_iSearchColumn = 0;
+	}
+	else
+	{
+		m_ctlSearchCol.EnableWindow(FALSE);
+		m_ctlSearchCol.ShowWindow(SW_HIDE);
+
+		m_iSearchColumn = 0;
+	}
+	m_ctlSearchCol.SetCurSel(m_iSearchColumn);
+
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::DoFind(int iStartItem, int iDirection /*1=down, 0 = up*/, BOOL bShowError)
+{
+	if (iStartItem < 0)
+	{
+		MessageBeep((UINT) - 1);
+		return;
+	}
+
+	CWaitCursor curHourglass;
+	TCHAR		acItemText[ML_SEARCH_SZ];
+	int			iItem = iStartItem, iNumItems = GetItemCount();
+
+	iDirection = iDirection ? 1 : -1;
+	while ((iItem < iNumItems) && (iItem >= 0))
+	{
+		if (GetItemText(iItem, m_iFindColumn, acItemText, ARRSIZE(acItemText)) != 0)
+		{
+			if (stristr(acItemText, m_strFindText) != NULL)
+			{
+			//	Deselect all listview entries
+				SetItemState(-1, 0, LVIS_SELECTED);
+
+			//	Select the found listview entry
+				SetItemState(iItem, LVIS_SELECTED | LVIS_FOCUSED, LVIS_SELECTED | LVIS_FOCUSED);
+				SetSelectionMark(iItem);
+				EnsureVisible(iItem, FALSE /*bPartialOK*/);
+				SetFocus();
+
+				return;
+			}
+		}
+
+		iItem += iDirection;
+	}
+
+	if (bShowError)
+		AfxMessageBox(GetResString(IDS_SEARCH_NORESULT), MB_ICONINFORMATION);
+	else
+		MessageBeep((UINT) - 1);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnFindStart()
+{
+	CDlgListSearchListSearch		dlg;
+
+	dlg.m_pListView = this;
+	dlg.m_strFindText = m_strFindText;
+	dlg.m_iSearchColumn = m_iFindColumn;
+	if (dlg.DoModal() != IDOK)
+		return;
+	m_strFindText = dlg.m_strFindText;
+	m_iFindColumn = dlg.m_iSearchColumn;
+
+	if (!m_strFindText.IsEmpty())
+	{
+		DoFindNext(TRUE /*bShowError*/);
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnFindNext()
+{
+	if (!m_strFindText.IsEmpty())
+		DoFindNext(FALSE /*bShowError*/);
+	else
+		OnFindStart();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::DoFindNext(BOOL bShowError)
+{
+	int	iStartItem = GetNextItem(-1, LVNI_SELECTED | LVNI_FOCUSED);
+
+	if (iStartItem == -1)
+		iStartItem = 0;
+	else
+		iStartItem = iStartItem + (m_iFindDirection ? 1 : -1);
+	DoFind(iStartItem, m_iFindDirection, bShowError);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnFindPrev()
+{
+	if (!m_strFindText.IsEmpty())
+	{
+		int			iStartItem = GetNextItem( -1, LVNI_SELECTED | LVNI_FOCUSED);
+
+		if (iStartItem == -1)
+			iStartItem = 0;
+		else
+			iStartItem = iStartItem + (!m_iFindDirection ? 1 : -1);
+
+		DoFind(iStartItem, !m_iFindDirection, FALSE /*bShowError*/);
+	}
+	else
+		OnFindStart();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.111
+log
+@Extended <Ctrl-+> processing to auto-resize list columns on the transfer window;
+Slightly more efficient GetColumnWidth to speed up list drawing.
+@
+text
+@d19 1
+d100 3
+d239 1
+a239 1
+void CMuleListCtrl::SaveSettings(CPreferences::EnumTable tID)
+d247 2
+a248 2
+			g_App.m_pPrefs->SetColumnWidth(tID, i, GetColumnWidth(i));
+			g_App.m_pPrefs->SetColumnHidden(tID, i, IsColumnHidden(i));
+d252 1
+a252 1
+		g_App.m_pPrefs->SetColumnOrder(tID, piArray);
+d257 1
+a257 1
+void CMuleListCtrl::LoadSettings(CPreferences::EnumTable tID)
+d267 1
+a267 1
+		int iWidth = g_App.m_pPrefs->GetColumnWidth(tID, i);
+d277 1
+a277 1
+			int iOrder = g_App.m_pPrefs->GetColumnOrder(tID, i);
+d293 1
+a293 1
+		if (g_App.m_pPrefs->GetColumnHidden(tID, i))
+d296 1
+d315 1
+d318 1
+a318 41
+	ArrowType		arrowType;
+
+	if (bAscending)
+	{
+		switch (iColumnIndex)
+		{
+			case 0:
+				arrowType = arrowUp;
+				break;
+			case 1:
+				arrowType = arrowUp1;
+				break;
+			case 2:
+				arrowType = arrowUp2;
+				break;
+			case 3:
+				arrowType = arrowUp3;
+				break;
+			default:
+				arrowType = arrowUp;
+		}
+	}
+	else
+	{
+		switch (iColumnIndex)
+		{
+			case 1:
+				arrowType = arrowDown1;
+				break;
+			case 2:
+				arrowType = arrowDown2;
+				break;
+			case 3:
+				arrowType = arrowDown3;
+				break;
+			default:
+				arrowType = arrowDown;
+		}
+	}
+	SetSortArrow(iColumn, arrowType);
+}
+d320 20
+a339 3
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::SetSortArrow(int iColumn, ArrowType atType)
+{
+d351 3
+a353 1
+	if (atType == arrowUp1 || atType == arrowDown1)
+d356 1
+d358 1
+a358 11
+	if (atType == arrowUp2 || atType == arrowDown2)
+	{
+		iSortIndex = 2 - 1;
+		bMultiColumn = true;
+	}
+	else if (atType == arrowUp3 || atType == arrowDown3)
+	{
+		iSortIndex = 3 - 1;
+		bMultiColumn = true;
+	}
+//
+d384 1
+a384 1
+		m_atSortArrow[iSortIndex] = atType;
+d386 3
+a388 3
+		HINSTANCE		hInstRes = AfxFindResourceHandle(MAKEINTRESOURCE(m_atSortArrow[0]), RT_BITMAP);
+		HINSTANCE		hInstRes2 = NULL;
+		HINSTANCE		hInstRes3 = NULL;
+d392 1
+a392 1
+			HBITMAP			hbmSortStates = (HBITMAP)::LoadImage(hInstRes, MAKEINTRESOURCE(m_atSortArrow[0]), IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+d407 2
+a408 1
+						hInstRes2 = AfxFindResourceHandle(MAKEINTRESOURCE(m_atSortArrow[1]), RT_BITMAP);
+d412 1
+a412 1
+							HBITMAP		hbmSortStates2 = (HBITMAP)::LoadImage(hInstRes, MAKEINTRESOURCE(m_atSortArrow[1]), IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+d425 2
+a426 1
+						hInstRes3 = AfxFindResourceHandle(MAKEINTRESOURCE(m_atSortArrow[2]), RT_BITMAP);
+d430 1
+a430 1
+							HBITMAP		hbmSortStates3 = (HBITMAP)::LoadImage(hInstRes, MAKEINTRESOURCE(m_atSortArrow[2]), IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+d442 1
+a442 1
+				//	To avoid drawing problems (which occure only with an image list *with* a mask) while
+d1400 1
+a1400 1
+		SetSortArrow(m_iCurrentSortItem[0], (ArrowType)m_atSortArrow[0]);
+d1414 67
+a1662 15
+//	PostUniqueMessage() check the existence of message in the list control's message queue & puts it into the queue if message does not exist
+void CMuleListCtrl::PostUniqueMessage(UINT uiMsg)
+{
+	if (::IsWindow(GetSafeHwnd()) && g_App.m_app_state != CEmuleApp::APP_STATE_SHUTTINGDOWN)
+	{
+		MSG		msg;
+
+	//	If there's no refresh message already in the message queue... (don't want to flood it)
+		if (!::PeekMessage(&msg, m_hWnd, uiMsg, uiMsg, PM_NOREMOVE))
+		{
+			PostMessage(uiMsg,0, 0);
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.110
+log
+@Fixed list drawing causing column resize and tooltip problems {Fuxie - DK/muleteer} (as a result list redraw should be slightly faster);
+Simplified column resize interface; Slightly more efficient way to select all list elements.
+@
+text
+@d1048 2
+a1049 1
+		if (::GetAsyncKeyState(VK_CONTROL) < 0)	//	Ctrl+A: Select all items
+d1056 4
+a1059 1
+			SetRedraw(false);
+d1061 10
+a1070 4
+			for (int i = 0; i < GetHeaderCtrl()->GetItemCount(); i++)
+			{
+				if (!m_aColumns[i].bHidden)
+					SetColumnWidth(i, LVSCW_AUTOSIZE_USEHEADER);
+a1071 2
+
+			SetRedraw(true);
+d1242 1
+a1242 1
+	rcCol.right = rcCol.left + GetColumnWidth(0);
+@
+
+
+1.109
+log
+@Increased transfer page list performance by not processing meaningless list control GetDispInfo requests.
+@
+text
+@d754 1
+a754 1
+BOOL CMuleListCtrl::OnNMDividerDoubleClick(NMHEADER* pHeader, LRESULT* pResult)
+a760 2
+
+	return *pResult = TRUE;		//netwolf: resize width to header (official 0.28a)
+d861 4
+a864 1
+						return OnNMDividerDoubleClick(((NMHEADER*)lParam), pResult);
+d1049 1
+a1049 10
+		{
+			LV_ITEM			theItem;
+
+			theItem.mask = LVIF_STATE;
+			theItem.iItem = -1;
+			theItem.iSubItem = 0;
+			theItem.state = LVIS_SELECTED;
+			theItem.stateMask = 2;
+			SetItemState(-1, &theItem);
+		}
+d1223 1
+a1223 1
+	int				iOffset = pDC->GetTextExtent(_T(" "), 1).cx * 2;
+a1228 1
+	GetItemRect(iItem, rcIcon, LVIR_ICON);
+a1230 2
+
+//	the label!
+a1231 2
+//	labels are offset by a certain amount
+//	this offset is related to the width of a space character
+d1253 1
+a1253 1
+	if (pImageList)
+d1257 1
+d1260 1
+a1260 2
+	//	Moved to fix problem with searchlist when FileTypeIcon disabled
+		rcLabel.left += iOffset / 2;
+d1263 1
+a1263 1
+		rcLabel.left = rcBounds.left + 6;
+d1265 1
+a1265 1
+	int				iOldBkMode = (m_crWindowTextBk == CLR_NONE) ? pDC->SetBkMode(TRANSPARENT) : OPAQUE;
+@
+
+
+1.108
+log
+@changed the handlig of embedded GUI list header (minimal version)
+@
+text
+@d1537 1
+a1537 1
+	TCHAR		acItemText[512];
+d1597 1
+a1597 1
+	int			iStartItem = GetNextItem( -1, LVNI_SELECTED | LVNI_FOCUSED);
+@
+
+
+1.107
+log
+@rolled back last changes.
+@
+text
+@d82 1
+@
+
+
+1.106
+log
+@changed the handlig of embedded GUI list header
+@
+text
+@a79 1
+	m_pHeaderCtrl = NULL;
+d147 2
+a148 1
+	int			iCount = m_pHeaderCtrl->GetItemCount();
+d160 1
+a160 1
+	m_pHeaderCtrl->GetItem(iColumn, &item);
+d163 1
+a163 1
+	m_pHeaderCtrl->SetItem(iColumn, &item);
+d168 1
+a168 1
+	m_pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+d179 1
+a179 1
+	m_pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+d192 2
+a193 1
+	int				iCount = m_pHeaderCtrl->GetItemCount();
+d204 1
+a204 1
+	m_pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+d206 1
+a206 1
+	int				iCurrent = IndexToOrder(m_pHeaderCtrl, iColumn);
+d208 1
+a208 1
+	for (; iCurrent < IndexToOrder(m_pHeaderCtrl, 0) && iCurrent < m_iColumnsTracked - 1; iCurrent++)
+d211 1
+a211 1
+		m_aColumns[iColumn].iLocation > m_aColumns[m_pHeaderCtrl->OrderToIndex(iCurrent + 1)].iLocation; iCurrent++ )
+d216 1
+a216 1
+	m_pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+d224 1
+a224 1
+	m_pHeaderCtrl->SetItem(iColumn, &item);
+d254 1
+d279 2
+a280 2
+	m_pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+	m_pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+a308 1
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d363 1
+d387 1
+a387 1
+			m_pHeaderCtrl->GetItem(m_iCurrentSortItem[iSortIndex], &headerItem);
+d392 1
+a392 2
+
+		m_pHeaderCtrl->SetItem(m_iCurrentSortItem[iSortIndex], &headerItem);
+d399 1
+a399 1
+		m_pHeaderCtrl->SetItem(m_iCurrentSortItem[1], &headerItem);
+d401 1
+a401 1
+		m_pHeaderCtrl->SetItem(m_iCurrentSortItem[2], &headerItem);
+d405 1
+a405 1
+	if (iColumn >= 0 && m_pHeaderCtrl->GetItem(iColumn, &headerItem))
+d471 1
+a471 1
+					m_pHeaderCtrl->SetImageList(&imlSortStates);
+d479 1
+a479 1
+						int iBmpMargin = m_pHeaderCtrl->SendMessage(HDM_GETBITMAPMARGIN);
+d482 1
+a482 1
+							m_pHeaderCtrl->SendMessage(HDM_SETBITMAPMARGIN, iNewBmpMargin);
+d490 1
+a490 1
+		m_pHeaderCtrl->SetItem(iColumn, &headerItem);
+d783 2
+a784 1
+					int			iCount = m_pHeaderCtrl->GetItemCount();
+d794 1
+a794 1
+						m_pHeaderCtrl->GetItem(iCurrent, &item);
+d876 2
+a877 1
+				int					iCount = m_pHeaderCtrl->GetItemCount();
+d1064 1
+a1064 1
+			for (int i = 0; i < m_pHeaderCtrl->GetItemCount(); i++)
+d1178 1
+d1291 1
+a1291 1
+	int				iCount = m_pHeaderCtrl->GetItemCount();
+d1295 1
+a1295 1
+		int				iColumn = m_pHeaderCtrl->OrderToIndex(iCurrent);
+d1436 1
+a1436 1
+		m_pHeaderCtrl->SetImageList(&m_imlHeaderCtrl);
+@
+
+
+1.105
+log
+@set Unicode message format for Win9x systems
+@
+text
+@d80 1
+d148 1
+a148 2
+	CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+	int					iCount = pHeaderCtrl->GetItemCount();
+d160 1
+a160 1
+	pHeaderCtrl->GetItem(iColumn, &item);
+d163 1
+a163 1
+	pHeaderCtrl->SetItem(iColumn, &item);
+d168 1
+a168 1
+	pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+d179 1
+a179 1
+	pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+d192 1
+a192 2
+	CHeaderCtrl		*pHeaderCtrl = GetHeaderCtrl();
+	int				iCount = pHeaderCtrl->GetItemCount();
+d203 1
+a203 1
+	pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+d205 1
+a205 1
+	int				iCurrent = IndexToOrder(pHeaderCtrl, iColumn);
+d207 1
+a207 1
+	for (; iCurrent < IndexToOrder(pHeaderCtrl, 0) && iCurrent < m_iColumnsTracked - 1; iCurrent++)
+d210 1
+a210 1
+		m_aColumns[iColumn].iLocation > m_aColumns[pHeaderCtrl->OrderToIndex(iCurrent + 1)].iLocation; iCurrent++ )
+d215 1
+a215 1
+	pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+d223 1
+a223 1
+	pHeaderCtrl->SetItem(iColumn, &item);
+a252 1
+	CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+d277 2
+a278 2
+	pHeaderCtrl->SetOrderArray(m_iColumnsTracked, piArray);
+	pHeaderCtrl->GetOrderArray(piArray, m_iColumnsTracked);
+d307 1
+a361 1
+	CHeaderCtrl		*pHeaderCtrl = GetHeaderCtrl();
+d385 1
+a385 1
+			pHeaderCtrl->GetItem(m_iCurrentSortItem[iSortIndex], &headerItem);
+d390 2
+a391 1
+		pHeaderCtrl->SetItem(m_iCurrentSortItem[iSortIndex], &headerItem);
+d398 1
+a398 1
+		pHeaderCtrl->SetItem(m_iCurrentSortItem[1], &headerItem);
+d400 1
+a400 1
+		pHeaderCtrl->SetItem(m_iCurrentSortItem[2], &headerItem);
+d404 1
+a404 1
+	if (iColumn >= 0 && pHeaderCtrl->GetItem(iColumn, &headerItem))
+d470 1
+a470 1
+					(void)pHeaderCtrl->SetImageList(&imlSortStates);
+d478 1
+a478 1
+						int iBmpMargin = pHeaderCtrl->SendMessage(HDM_GETBITMAPMARGIN);
+d481 1
+a481 1
+							pHeaderCtrl->SendMessage(HDM_SETBITMAPMARGIN, iNewBmpMargin);
+d489 1
+a489 1
+		pHeaderCtrl->SetItem(iColumn, &headerItem);
+d782 1
+a782 2
+					CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+					int					iCount = pHeaderCtrl->GetItemCount();
+d792 1
+a792 1
+						pHeaderCtrl->GetItem(iCurrent, &item);
+d874 1
+a874 2
+				CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+				int					iCount = pHeaderCtrl->GetItemCount();
+d1061 1
+a1061 1
+			for (int i = 0; i < GetHeaderCtrl()->GetItemCount(); i++)
+a1174 1
+	CHeaderCtrl			*pHeaderCtrl = GetHeaderCtrl();
+d1287 1
+a1287 1
+	int				iCount = pHeaderCtrl->GetItemCount();
+d1291 1
+a1291 1
+		int				iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+d1432 1
+a1432 1
+		GetHeaderCtrl()->SetImageList(&m_imlHeaderCtrl);
+@
+
+
+1.104
+log
+@Suppressed level 4 warnings; Formatting.
+@
+text
+@d120 4
+@
+
+
+1.103
+log
+@fix crash on moving items in list controls {JCRIADO/paolo}, thanks Aw3 for corrections.
+@
+text
+@d1097 1
+a1097 1
+			m_bCustomDraw = CListCtrl::OnChildNotify(message, wParam, lParam, pResult);
+d1501 1
+a1501 1
+		lvc.cchTextMax = ELEMENT_COUNT(szColTitle);
+d1538 1
+a1538 1
+		if (GetItemText(iItem, m_iFindColumn, acItemText, ELEMENT_COUNT(acItemText)) != 0)
+@
+
+
+1.102
+log
+@Resolved crash on enabling last list column (could happen when column array was at the end of memory page) {AqUaRiUs} [KuSh/Aw3];
+Suppressed few compiler warnings.
+@
+text
+@d110 2
+d556 1
+a556 1
+		for (i = 1; i < m_iColumnsTracked; i++)
+a557 2
+			lviSub.iSubItem = i;
+
+a558 1
+
+d561 12
+a572 5
+				if (pstrSubItem == LPSTR_TEXTCALLBACK)
+					lviSub.pszText = LPSTR_TEXTCALLBACK;
+				else
+					lviSub.pszText = const_cast<LPTSTR>(reinterpret_cast<CString*>(pstrSubItem)->GetString());
+				DefWindowProc(LVM_SETITEMTEXT, iNewIndex, reinterpret_cast<LPARAM>(&lviSub));
+d1339 4
+a1342 2
+		pDC->FrameRect(rcBounds,
+			&CBrush((!bCtrlFocused || !(lvi.state & LVIS_SELECTED)) ? m_crNoFocusLine : m_crFocusLine));
+@
+
+
+1.101
+log
+@Optimized DrawText -- no need recalculate string length.
+@
+text
+@d204 3
+a206 2
+	for (; m_aColumns[iColumn].iLocation > m_aColumns[pHeaderCtrl->OrderToIndex(iCurrent + 1)].iLocation &&
+	      iCurrent < m_iColumnsTracked - 1; iCurrent++ )
+d208 1
+d1015 1
+a1015 1
+				bool		bResult = GetItemRect(wParam, &rcItem, LVIR_BOUNDS);
+a1181 2
+	bool			bGlowing = (lvi.state & LVIS_GLOW);
+	bool			bDimmed = (lvi.state & LVIS_CUT);
+d1194 1
+a1194 1
+			crBackground = (bGlowing) ? m_crGlow : m_crNoHighlight;
+d1196 1
+a1196 1
+	else if (bGlowing)
+d1205 1
+a1205 1
+	else if (bDimmed)
+d1207 1
+a1207 1
+	else if (bGlowing)
+@
+
+
+1.100
+log
+@Fixed hashing sometimes stopping on startup while having a lot of shared files.
+@
+text
+@d1274 1
+a1274 1
+		pDC->DrawText(sLabel, -1, rcLabel, MLC_DT_TEXT | DT_LEFT | DT_NOCLIP);
+d1325 1
+a1325 1
+			pDC->DrawText(sLabel, -1, rcLabel, nJustify);
+@
+
+
+1.99
+log
+@Fixed one more recently introduced issue in the list control code {AraldoL}.
+@
+text
+@a856 2
+		//	deal with menu clicks
+
+d862 1
+a862 1
+			else if (wParam >= MLC_IDC_MENU)
+d926 1
+a926 1
+			if (pos)
+d929 5
+a933 1
+				PostMessage(LVM_UPDATE, ((LPLVITEM)lParam)->iItem);
+d945 4
+a948 1
+			if (*pResult)
+@
+
+
+1.98
+log
+@Fixed issue in the previous revision.
+@
+text
+@d564 1
+a564 1
+				DefWindowProc(LVM_SETITEMTEXT, iNewIndex, reinterpret_cast<LPARAM>(&lvi));
+@
+
+
+1.97
+log
+@improvement of MoveItem()-function (thanks Aw3 for idea)
+@
+text
+@d530 1
+a530 1
+			if (GetItem(&lvi))
+@
+
+
+1.96
+log
+@fixed possible memleak
+@
+text
+@a488 3
+//	Prevent redraw during moving (delete & inserts)
+	SetRedraw(FALSE);
+
+a491 3
+//	Save substrings
+	CSimpleArray<void*>	aSubItems;
+	DWORD	dwStyle = GetStyle();
+d494 18
+a511 1
+	void	*pstrSubItem;
+d515 14
+a528 7
+		lvi.mask = LVIF_TEXT | LVIF_NORECOMPUTE;
+		lvi.iItem = iOldIndex;
+		for (int i = 1; i < m_iColumnsTracked; i++)
+		{
+			lvi.iSubItem = i;
+			lvi.cchTextMax = ARRSIZE(acText);
+			lvi.pszText = acText;
+d532 1
+a532 1
+				if (lvi.pszText == LPSTR_TEXTCALLBACK)
+d535 1
+a535 1
+					pstrSubItem = new CString(lvi.pszText);
+a540 20
+	}
+
+//	Copy item
+	lvi.mask = LVIF_TEXT | LVIF_STATE | LVIF_PARAM | LVIF_INDENT | LVIF_IMAGE | LVIF_NORECOMPUTE;
+	lvi.stateMask = (UINT) - 1;
+	lvi.iItem = iOldIndex;
+	lvi.iSubItem = 0;	// Set subitem pointer on Item
+	lvi.pszText = acText;
+	lvi.cchTextMax = ARRSIZE(acText);
+	lvi.iIndent = 0;
+	if (!GetItem(&lvi))
+	{
+		for (int i = 0; i < aSubItems.GetSize(); i++)
+		{
+			pstrSubItem = aSubItems[i];
+			if ((pstrSubItem != NULL) && (pstrSubItem != LPSTR_TEXTCALLBACK))
+				delete static_cast<CString*>(pstrSubItem);
+		}
+		return -1;
+	}
+d542 1
+a542 3
+//	Do the move
+	m_bMovingItem = true;
+	VERIFY (DeleteItem(iOldIndex));
+d544 3
+a546 1
+	lvi.iItem = iNewIndex;
+d548 1
+a548 1
+	iNewIndex = InsertItem(&lvi);
+d550 3
+a552 6
+	m_bMovingItem = false;
+//	Restore substrings
+	if ((dwStyle & LVS_OWNERDATA) == 0)
+	{
+		lvi.iItem = iNewIndex;
+		for (int i = 1; i < m_iColumnsTracked; i++)
+d554 1
+a554 1
+			lvi.iSubItem = i;
+d561 1
+a561 1
+					lvi.pszText = LPSTR_TEXTCALLBACK;
+d563 1
+a563 1
+					lvi.pszText = const_cast<LPTSTR>(reinterpret_cast<CString*>(pstrSubItem)->GetString());
+d570 10
+@
+
+
+1.95
+log
+@Icreased list core data granularity for more efficient memory usage;
+Slightly improved GetItemData() by removing useless check; Formatting.
+@
+text
+@d534 7
+d542 1
+@
+
+
+1.94
+log
+@Renamed APP_STATE_SHUTINGDOWN -> APP_STATE_SHUTTINGDOWN;
+Removed unused code.
+@
+text
+@d69 1
+a69 1
+CMuleListCtrl::CMuleListCtrl(PFNLVCOMPARE pfnCompare, DWORD dwParamSort)
+d204 1
+a204 1
+	for ( ; m_aColumns[iColumn].iLocation > m_aColumns[pHeaderCtrl->OrderToIndex(iCurrent + 1)].iLocation &&
+d610 1
+a610 1
+//	if it isn't  first element, we gonna compare it with previous element
+d719 1
+a719 1
+	if (pos != NULL && iItem != -1)
+a783 1
+					{
+a784 1
+					}
+a793 1
+
+a797 1
+
+a799 1
+
+a836 1
+					{
+a837 1
+					}
+a849 1
+
+@
+
+
+1.93
+log
+@Reduced H-file dependency.
+@
+text
+@d1 12
+a12 3
+//////////////////////////////////
+//	MuleListCtrl.cpp
+//	: implementation file
+d14 3
+a112 5
+void CMuleListCtrl::SetName(LPCTSTR lpszName)
+{
+	m_Name = lpszName;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d348 1
+a348 2
+
+	if (::IsWindow(GetSafeHwnd()) == false || g_App.m_app_state == CEmuleApp::APP_STATE_SHUTINGDOWN)
+a488 1
+
+d753 1
+d755 1
+a755 4
+					GetCursorPos (&point);
+
+					CTitleMenu tmColumnMenu;
+
+a756 2
+					if (m_Name.GetLength() != 0)
+						tmColumnMenu.AddMenuTitle(m_Name);
+d1603 1
+a1603 1
+	if (::IsWindow(GetSafeHwnd()) && g_App.m_app_state != CEmuleApp::APP_STATE_SHUTINGDOWN)
+@
+
+
+1.92
+log
+@Minor local optimization; Formatting.
+@
+text
+@d11 1
+d746 1
+a746 2
+				//handle right click on headers and show column menu
+
+@
+
+
+1.91
+log
+@optimize the position update (search fo index only once, faster comparisson with 1st or last item)
+@
+text
+@d595 1
+a595 1
+	uint32			dwNewIndex, dwDist;
+d630 1
+a630 1
+					dwDist = (dwNewIndex - dwLowerBound + 1u) >> 1u;
+a637 2
+				//	just decrease a step
+					dwDist >>= 1u;
+d639 2
+d642 5
+a646 1
+				for (uint32 i = 0; i < dwDist; i++)
+d648 1
+d681 1
+a681 1
+					dwDist = (dwUpperBound - dwNewIndex + 1u) >> 1u;
+a688 2
+				//	just decrease a step
+					dwDist >>= 1u;
+d690 2
+d693 5
+a697 1
+				for (uint32 i = 0; i < dwDist; i++)
+d699 1
+d921 2
+d924 2
+a925 6
+				POSITION pos = m_Params.FindIndex(((LPLVITEM)lParam)->iItem);
+				if (pos)
+				{
+					m_Params.SetAt(pos, MLC_MAGIC);
+					PostMessage(LVM_UPDATE, ((LPLVITEM)lParam)->iItem);
+				}
+@
+
+
+1.90
+log
+@Corrected saving of some list data after failed start {semental/morrismatto}
+(this doesn't solve weird W9x load issue but it makes sure that list parameters're correct after that happened).
+@
+text
+@d592 1
+d594 1
+a594 1
+	uint32			dwUpperBound = static_cast<uint32>(iItemCount - 1);
+d596 7
+a602 1
+	POSITION		posItem, posPrevItem, posNextItem;
+d607 1
+a607 1
+	//	get Index of previous element (Item-1)
+d609 3
+a611 1
+		posItem = m_Params.FindIndex(dwNewIndex);
+d614 1
+a614 1
+		int			iResult = m_SortProc(dwpItemData, GetParamAt(posItem, dwNewIndex), m_dwParamSort);
+a618 1
+			posPrevItem = posItem;
+d620 1
+d624 1
+a624 4
+				for (uint32 i = 0; i < dwDist; i++)
+					m_Params.GetPrev(posPrevItem);
+
+				if (m_SortProc(dwpItemData, GetParamAt(posPrevItem, dwNewIndex - dwDist), m_dwParamSort) < 0)
+d628 1
+a628 1
+					posItem = posPrevItem;
+d635 1
+a635 1
+					posPrevItem = posItem;
+d641 3
+d652 7
+a658 2
+		dwNewIndex = bInsertion ? static_cast<uint32>(iItem) : static_cast<uint32>(iItem + 1);
+		posItem = m_Params.FindIndex(dwNewIndex);
+d661 1
+a661 1
+		int iResult = m_SortProc(dwpItemData, GetParamAt(posItem, dwNewIndex), m_dwParamSort);
+d665 2
+a666 2
+			posNextItem = posItem;
+			dwDist = static_cast<uint32>(iItemCount - 1) - dwNewIndex;
+d670 1
+a670 4
+				for (uint32 i = 0; i < dwDist; i++)
+					m_Params.GetNext(posNextItem);
+
+				if (m_SortProc(dwpItemData, GetParamAt(posNextItem, dwNewIndex + dwDist), m_dwParamSort) > 0)
+d674 1
+a674 1
+					posItem = posNextItem;
+d681 1
+a681 1
+					posNextItem = posItem;
+d687 3
+@
+
+
+1.89
+log
+@UNICODE preparation (first shot) + minor improvements
+@
+text
+@d220 10
+a229 1
+	int			*piArray = new INT[m_iColumnsTracked];
+d231 2
+a232 5
+	for (int i = 0; i < m_iColumnsTracked; i++)
+	{
+		g_App.m_pPrefs->SetColumnWidth(tID, i, GetColumnWidth(i));
+		g_App.m_pPrefs->SetColumnHidden(tID, i, IsColumnHidden(i));
+		piArray[i] = m_aColumns[i].iLocation;
+a233 3
+
+	g_App.m_pPrefs->SetColumnOrder(tID, piArray);
+	delete[] piArray;
+@
+
+
+1.88
+log
+@Removed not working code to slightly speed up search in lists.
+@
+text
+@d480 1
+a480 1
+//eklmn: prevent redraw during moving (delete & inserts)
+d486 6
+a491 3
+//save substrings
+	CSimpleArray<void*>		aSubItems;
+	DWORD					Style = GetStyle();
+d493 1
+a493 1
+	if ((Style & LVS_OWNERDATA) == 0)
+a494 3
+		TCHAR			szText[256];
+		LVITEM			lvi;
+
+d500 3
+a502 3
+			lvi.cchTextMax = ARRSIZE(szText);
+			lvi.pszText = szText;
+			void* pstrSubItem = NULL;
+d510 2
+d516 9
+a524 12
+//copy item
+	LVITEM			lvi_copy;
+	TCHAR			szText[256];
+
+	lvi_copy.mask = LVIF_TEXT | LVIF_STATE | LVIF_PARAM | LVIF_INDENT | LVIF_IMAGE | LVIF_NORECOMPUTE;
+	lvi_copy.stateMask = (UINT) - 1;
+	lvi_copy.iItem = iOldIndex;
+	lvi_copy.iSubItem = 0;	//set subitem pointer on Item
+	lvi_copy.pszText = szText;
+	lvi_copy.cchTextMax = sizeof(szText) / sizeof(szText[0]);
+	lvi_copy.iIndent = 0;
+	if (GetItem(&lvi_copy) == 0)
+d527 1
+a527 1
+//do the move
+d529 1
+a529 1
+	VERIFY (0 != DeleteItem(iOldIndex));
+d531 1
+a531 1
+	lvi_copy.iItem = iNewIndex;
+d533 1
+a533 1
+	iNewIndex = InsertItem(&lvi_copy);
+d536 2
+a537 2
+//restore substrings
+	if ((Style & LVS_OWNERDATA) == 0)
+a538 2
+		LVITEM			lvi;
+
+d543 3
+a545 1
+			void* pstrSubItem = aSubItems[i - 1];
+d551 2
+a552 2
+					lvi.pszText = (LPTSTR)((LPCTSTR) * ((CString*)pstrSubItem));
+				DefWindowProc(LVM_SETITEMTEXT, iNewIndex, (LPARAM) & lvi);
+d554 1
+a554 1
+					delete (CString*)pstrSubItem;
+d1091 1
+a1091 1
+					sscanf(strText.Mid(iIndex + 1, 6), _T("%06x"), &crColor);
+@
+
+
+1.87
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@a82 1
+	m_bFindMatchCase = false;
+d1497 1
+a1497 3
+			if ( m_bFindMatchCase
+			     ? _tcsstr(acItemText, m_strFindText) != NULL
+			     : stristr(acItemText, m_strFindText) != NULL )
+a1526 2
+//	dlg.m_bMatchCase = m_bFindMatchCase;
+//	dlg.m_iSearchDirection = m_iFindDirection;
+a1530 2
+//	m_bFindMatchCase = dlg.m_bMatchCase;
+//	m_iFindDirection = dlg.m_iSearchDirection;
+@
+
+
+1.86
+log
+@renamed 3 variables
+@
+text
+@d225 2
+a226 2
+		g_App.g_pPrefs->SetColumnWidth(tID, i, GetColumnWidth(i));
+		g_App.g_pPrefs->SetColumnHidden(tID, i, IsColumnHidden(i));
+d230 1
+a230 1
+	g_App.g_pPrefs->SetColumnOrder(tID, piArray);
+d244 1
+a244 1
+		int iWidth = g_App.g_pPrefs->GetColumnWidth(tID, i);
+d254 1
+a254 1
+			int iOrder = g_App.g_pPrefs->GetColumnOrder(tID, i);
+d270 1
+a270 1
+		if (g_App.g_pPrefs->GetColumnHidden(tID, i))
+@
+
+
+1.85
+log
+@IDS_SEARCH_NOUN substitutes IDS_SW_SEARCHBOX.
+@
+text
+@d225 2
+a226 2
+		g_eMuleApp.m_pGlobPrefs->SetColumnWidth(tID, i, GetColumnWidth(i));
+		g_eMuleApp.m_pGlobPrefs->SetColumnHidden(tID, i, IsColumnHidden(i));
+d230 1
+a230 1
+	g_eMuleApp.m_pGlobPrefs->SetColumnOrder(tID, piArray);
+d244 1
+a244 1
+		int iWidth = g_eMuleApp.m_pGlobPrefs->GetColumnWidth(tID, i);
+d254 1
+a254 1
+			int iOrder = g_eMuleApp.m_pGlobPrefs->GetColumnOrder(tID, i);
+d270 1
+a270 1
+		if (g_eMuleApp.m_pGlobPrefs->GetColumnHidden(tID, i))
+d339 1
+a339 1
+	if (::IsWindow(GetSafeHwnd()) == false || g_eMuleApp.m_app_state == CEmuleApp::APP_STATE_SHUTINGDOWN)
+d449 1
+a449 1
+					if (g_eMuleApp.m_qwComCtrlVer < MAKEDLLVERULL(6, 0, 0, 0))
+d460 1
+a460 1
+					if (g_eMuleApp.m_qwComCtrlVer >= MAKEDLLVERULL(5, 8, 0, 0))
+d1450 1
+a1450 1
+	SetIcon(g_eMuleApp.m_pdlgEmule->m_hiconSourceTray, FALSE);
+d1585 1
+a1585 1
+	if (::IsWindow(GetSafeHwnd()) && g_eMuleApp.m_app_state != CEmuleApp::APP_STATE_SHUTINGDOWN)
+@
+
+
+1.84
+log
+@rollback (sorting speed optimization)
+@
+text
+@d1451 1
+a1451 1
+	SetWindowText(GetResString(IDS_SW_SEARCHBOX));
+@
+
+
+1.83
+log
+@sorting speed optimization
+@
+text
+@a590 1
+	const uint32	dwLastIndex = static_cast<uint32>(iItemCount - 1);
+d592 1
+a592 1
+	uint32			dwUpperBound = dwLastIndex;
+d614 2
+a615 7
+				if (dwNewIndex == dwDist)
+					posPrevItem = m_Params.GetHeadPosition();
+				else 
+				{
+					for (uint32 i = 0; i < dwDist; i++)
+						m_Params.GetPrev(posPrevItem);
+				}
+d651 1
+a651 1
+			dwDist = dwLastIndex - dwNewIndex;
+d655 2
+a656 7
+				if (dwNewIndex + dwDist == dwLastIndex)
+					posNextItem = m_Params.GetTailPosition();
+				else
+				{
+					for (uint32 i = 0; i < dwDist; i++)
+						m_Params.GetNext(posNextItem);
+				}
+@
+
+
+1.82
+log
+@Unified and slightly faster way to draw list cursor; General optimization.
+@
+text
+@d591 1
+d593 1
+a593 1
+	uint32			dwUpperBound = static_cast<uint32>(iItemCount - 1);
+d615 7
+a621 2
+				for (uint32 i = 0; i < dwDist; i++)
+					m_Params.GetPrev(posPrevItem);
+d657 1
+a657 1
+			dwDist = static_cast<uint32>(iItemCount - 1) - dwNewIndex;
+d661 7
+a667 2
+				for (uint32 i = 0; i < dwDist; i++)
+					m_Params.GetNext(posNextItem);
+@
+
+
+1.81
+log
+@Corrected compilation warnings.
+@
+text
+@a1078 2
+	iFormat	|= MLC_DT_TEXT;
+
+d1123 1
+a1123 1
+			strText.Empty();
+a1149 1
+	CRect			rcItem(lpDrawItemStruct->rcItem);
+d1151 1
+a1151 2
+	CDC				*oDC = CDC::FromHandle(lpDrawItemStruct->hDC);
+	COLORREF		crOldDCBkColor = oDC->SetBkColor(m_crWindow);
+d1153 11
+a1163 1
+	CMemDC pDC(oDC, &rcItem);
+d1165 2
+a1167 1
+	COLORREF		crForeground, crBackground, crOldTextColor, crOldBckColor;
+d1181 1
+d1183 2
+a1199 26
+	CRect			rcHighlight, rcWnd;
+
+//	should I check (GetExtendedStyle() & LVS_EX_FULLROWSELECT) ?
+	rcHighlight.top = rcBounds.top;
+	rcHighlight.bottom = rcBounds.bottom;
+	rcHighlight.left = rcBounds.left + 1;
+	rcHighlight.right = rcBounds.right - 1;
+
+//	draw the background color
+	if (bHighlight)
+	{
+		if (bCtrlFocused)
+			crBackground = m_crHighlight;
+		else if (bGlowing)
+			crBackground = m_crGlow;
+		else
+			crBackground = m_crNoHighlight;
+	}
+	else
+	{
+		crBackground = (bGlowing) ? m_crGlow : m_crWindow;
+	}
+
+	crOldBckColor = pDC->SetBkColor(crBackground);
+	if (m_crWindowTextBk != CLR_NONE)
+		pDC->ExtTextOut(0, 0, ETO_OPAQUE, rcHighlight, NULL, 0, NULL);	// fast fill rectangle with crBackground
+d1238 1
+a1238 1
+		TextDraw(pDC, sLabel, rcLabel, DT_LEFT | DT_NOCLIP, crForeground, crBackground);
+a1245 1
+	rcBounds.right = rcHighlight.right > rcBounds.right ? rcHighlight.right : rcBounds.right;
+d1266 1
+a1266 1
+		if (sLabel.GetLength() == 0)
+d1270 1
+a1270 1
+		UINT			nJustify = DT_LEFT;
+d1275 1
+a1275 1
+				nJustify = DT_RIGHT;
+d1278 1
+a1278 3
+				nJustify = DT_CENTER;
+				break;
+			default:
+d1285 2
+a1286 3
+		rcLabel = rcCol;
+		rcLabel.left += iOffset;
+		rcLabel.right -= iOffset;
+d1291 1
+a1291 1
+			pDC->DrawText(sLabel, -1, rcLabel, MLC_DT_TEXT | nJustify);
+d1297 3
+a1299 1
+		pDC->FrameRect(rcHighlight,
+a1307 1
+	pDC->SetBkColor(crOldBckColor);
+@
+
+
+1.80
+log
+@Faster drawing of some list elements.
+@
+text
+@a1197 2
+	CBrush			*pOldBrush;
+
+@
+
+
+1.79
+log
+@Removed unused get-time calls.
+@
+text
+@d1212 1
+a1212 4
+		if (bGlowing)
+			crBackground = m_crGlow;
+		else
+			crBackground = m_crWindow;
+d1215 1
+d1217 1
+a1217 8
+	{
+		CBrush			hBrush(crBackground);
+
+		pOldBrush = pDC->SelectObject(&hBrush);
+		pDC->FillRect(rcHighlight, &hBrush);
+		pDC->SelectObject(pOldBrush);
+	}
+	crOldBckColor = pDC->SetBkColor(crBackground);
+d1319 2
+a1320 16
+		if (!bCtrlFocused || !(lvi.state & LVIS_SELECTED))
+		{
+			CBrush			nfBrush(m_crNoFocusLine);
+
+			pOldBrush = pDC->SelectObject(&nfBrush);
+			pDC->FrameRect(rcHighlight, &nfBrush);
+			pDC->SelectObject(pOldBrush);
+		}
+		else
+		{
+			CBrush			fBrush(m_crFocusLine);
+
+			pOldBrush = pDC->SelectObject(&fBrush);
+			pDC->FrameRect(rcHighlight, &fBrush);
+			pDC->SelectObject(pOldBrush);
+		}
+@
+
+
+1.78
+log
+@remove unused time call
+@
+text
+@a1635 1
+		//	... then post one with the current time so we know how long the request has been pending when we get it.
+@
+
+
+1.77
+log
+@Tiny correction for the previous commitment.
+@
+text
+@d1637 1
+a1637 1
+			PostMessage(uiMsg,0,static_cast<LPARAM>(::GetCurrentTime()));
+@
+
+
+1.76
+log
+@try N2: optimization of execution; some code simplification
+@
+text
+@d586 1
+a586 1
+	if (iItem > iItemCount)
+d642 1
+a642 1
+		dwNewIndex = bInsertion ? static_cast<uint32>(iItem) :static_cast<uint32>(iItem + 1);
+d651 1
+a651 1
+			dwDist = static_cast<uint32>(iItemCount -1) - dwNewIndex;
+@
+
+
+1.75
+log
+@rollback :(
+@
+text
+@d68 1
+d530 1
+d537 1
+d568 1
+a568 1
+	int				iItemCount = GetItemCount();
+d570 10
+a579 1
+	if (iItem >= iItemCount || iItem < 0)
+d582 1
+a582 1
+	DWORD_PTR		dwpItemData = GetItemData(iItem);
+d584 3
+a586 1
+	if (dwpItemData == NULL)
+d589 1
+a589 1
+	bool			notLast = iItem < (iItemCount -1);
+d591 3
+a593 2
+	int				iLowerBound = 0;
+	int				iUpperBound = iItemCount - 1;
+d600 2
+a601 3
+		int			iNewIndex = iItem - 1;
+
+		posItem = m_Params.FindIndex(iNewIndex);
+d604 1
+a604 1
+		int			iResult = m_SortProc(dwpItemData, GetParamAt(posItem, iNewIndex), m_dwParamSort);
+d610 1
+d612 1
+a612 3
+			int			iDist = iNewIndex;
+
+			while (iDist >= 1)
+d614 1
+a614 1
+				for (int i = 0; i < iDist; i++)
+d617 1
+a617 1
+				if (m_SortProc(dwpItemData, GetParamAt(posPrevItem, iNewIndex - iDist), m_dwParamSort) < 0)
+d620 1
+a620 1
+					iNewIndex = iNewIndex - iDist;
+d623 1
+a623 1
+					iDist = static_cast<int>((static_cast<uint32>(iNewIndex - iLowerBound + 1)) >> 1);
+d630 1
+a630 1
+					iLowerBound = iNewIndex - iDist;
+d632 1
+a632 1
+					iDist = iDist >>1;
+d635 1
+a635 1
+			return MoveItem(iItem, iNewIndex);
+d642 2
+a643 3
+		int			iNewIndex = iItem + 1;
+
+		posItem = m_Params.FindIndex(iNewIndex);
+d646 1
+a646 1
+		int			iResult = m_SortProc(dwpItemData, GetParamAt(posItem, iNewIndex), m_dwParamSort);
+d651 1
+d653 1
+a653 3
+			int			iDist = (iItemCount-1) - iNewIndex ;
+
+			while (iDist >= 1)
+d655 1
+a655 1
+				for (int i = 0; i < iDist; i++)
+d658 1
+a658 1
+				if (m_SortProc(dwpItemData, GetParamAt(posNextItem, iNewIndex + iDist), m_dwParamSort) > 0)
+d661 1
+a661 1
+					iNewIndex = iNewIndex + iDist;
+d664 1
+a664 1
+					iDist = static_cast<int>((static_cast<uint32>(iUpperBound - iNewIndex + 1)) >> 1);
+d671 1
+a671 1
+					iUpperBound = iNewIndex + iDist;
+d673 1
+a673 1
+					iDist = static_cast<int>(static_cast<uint32>(iDist) >> 1);
+d676 1
+a676 2
+			iNewIndex++;
+			return MoveItem(iItem, iNewIndex);
+a947 61
+			int				iItem = pItem->iItem;
+			int				iItemCount = GetItemCount();
+			bool			notLast = iItem < iItemCount;
+			bool			notFirst = iItem > 0;
+			int				iLowerBound = 0;
+			int				iUpperBound =  iItemCount -1;
+
+			if (notFirst)
+			{
+				// get Index of previous element (Item-1)
+				int				iNewIndex = iItem - 1;
+				POSITION		pos = m_Params.FindIndex(iNewIndex);
+				// check if we need to move an Item
+				int				iResult = m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort);
+
+				if (iResult < 0)
+				{
+					POSITION		posPrev = pos;
+					int				iDist = iNewIndex;
+
+					while(iDist >= 1)
+					{
+						for (int i = 0; i < iDist; i++)
+							m_Params.GetPrev(posPrev);
+
+						if (m_SortProc(pItem->lParam, GetParamAt(posPrev, iNewIndex - iDist), m_dwParamSort) < 0)
+						{
+							// update an Index & postion
+							iNewIndex = iNewIndex - iDist;
+							pos = posPrev;
+							// calculate new step based on new Index
+							iDist = iNewIndex - iLowerBound;
+							iDist = (iDist >> 1) + (iDist & 0x1);
+						}
+						else
+						{
+							// set postion to initial one, if we don't need to move
+							posPrev = pos;
+							// set new boundary
+							iLowerBound = iNewIndex - iDist;
+							// just decrease a step
+							iDist = iDist>>1;
+						}
+					}
+					pItem->iItem = iNewIndex;
+					notLast = false;
+				}
+			}
+
+			if (notLast)
+			{
+				// get Index of next element
+				int				iNewIndex = iItem;
+				POSITION		pos = m_Params.FindIndex(iNewIndex);
+				// check if we need to move an Item
+				int				iResult = m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort);
+
+				if (iResult > 0)
+				{
+					POSITION		posNext = pos;
+					int				iDist = (iItemCount - 1) - iItem;
+d949 3
+a951 28
+					while(iDist >= 1)
+					{
+						for (int i = 0; i < iDist; i++)
+							m_Params.GetNext(posNext);
+
+						if (m_SortProc(pItem->lParam, GetParamAt(posNext, iNewIndex + iDist), m_dwParamSort) > 0)
+						{
+							// update an Index & postion
+							iNewIndex = iNewIndex + iDist;
+							pos = posNext;
+							// calculate new step based on new Index
+							iDist = iUpperBound - iNewIndex;
+							iDist = (iDist >> 1) + (iDist & 0x1);
+						}
+						else
+						{
+							// set postion to initial one, if we don't need to move
+							posNext = pos;
+							// set new boundary
+							iUpperBound = iNewIndex + iDist;
+							// just decrease a step
+							iDist = iDist>>1;
+						}
+					}
+					iNewIndex++;
+					pItem->iItem = iNewIndex;
+				}
+			}
+d976 1
+a976 1
+			if (wParam == UpdateLocation(wParam))
+@
+
+
+1.74
+log
+@optimization of execution; some code simplification
+@
+text
+@d565 1
+a565 1
+	int iNewIndex = GetNewLocation(GetItemData(iItem), iItem);
+d567 1
+a567 10
+// move if required
+	if (iNewIndex != iItem)
+		MoveItem(iItem, iNewIndex);
+
+	return iItem;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CMuleListCtrl::GetNewLocation(DWORD_PTR dwpItemData, int iItem)
+{
+	if (dwpItemData == NULL)
+d570 1
+a570 1
+	int iItemCount = GetItemCount();
+d572 1
+a572 1
+	if (iItem >= iItemCount)
+d575 1
+a575 1
+	bool			notLast = iItem < (iItemCount - 1);
+d577 2
+a578 3
+	uint32			dwLowerBound = 0;
+	uint32			dwUpperBound = static_cast<uint32>(iItemCount - 1);
+	uint32			dwNewIndex, dwDist;
+d585 3
+a587 2
+		dwNewIndex = static_cast<uint32>(iItem - 1);
+		posItem = m_Params.FindIndex(dwNewIndex);
+d590 1
+a590 1
+		int			iResult = m_SortProc(dwpItemData, GetParamAt(posItem, dwNewIndex), m_dwParamSort);
+a595 1
+			dwDist = dwNewIndex;
+d597 3
+a599 1
+			while (dwDist >= 1)
+d601 1
+a601 1
+				for (uint32 i = 0; i < dwDist; i++)
+d604 1
+a604 1
+				if (m_SortProc(dwpItemData, GetParamAt(posPrevItem, dwNewIndex - dwDist), m_dwParamSort) < 0)
+d607 1
+a607 1
+					dwNewIndex = dwNewIndex - dwDist;
+d610 1
+a610 1
+					dwDist = (dwNewIndex - dwLowerBound + 1u) >> 1u;
+d617 1
+a617 1
+					dwLowerBound = dwNewIndex - dwDist;
+d619 1
+a619 1
+					dwDist >>= 1u;
+d622 1
+a622 1
+			return dwNewIndex;
+d625 2
+a626 1
+	else if (notLast)
+d629 3
+a631 2
+		dwNewIndex = static_cast<uint32>(iItem + 1);
+		posItem = m_Params.FindIndex(dwNewIndex);
+d634 1
+a634 1
+		int iResult = m_SortProc(dwpItemData, GetParamAt(posItem, dwNewIndex), m_dwParamSort);
+a638 1
+			dwDist = static_cast<uint32>(iItemCount - 1) - dwNewIndex;
+d640 3
+a642 1
+			while (dwDist >= 1)
+d644 1
+a644 1
+				for (uint32 i = 0; i < dwDist; i++)
+d647 1
+a647 1
+				if (m_SortProc(dwpItemData, GetParamAt(posNextItem, dwNewIndex + dwDist), m_dwParamSort) > 0)
+d650 1
+a650 1
+					dwNewIndex = dwNewIndex + dwDist;
+d653 1
+a653 1
+					dwDist = (dwUpperBound - dwNewIndex + 1u) >> 1u;
+d660 1
+a660 1
+					dwUpperBound = dwNewIndex + dwDist;
+d662 1
+a662 1
+					dwDist >>= 1u;
+d665 2
+a666 1
+			return ++dwNewIndex;
+d938 90
+a1028 3
+		//update location
+			pItem->iItem = GetNewLocation(pItem->lParam, pItem->iItem);
+			
+@
+
+
+1.73
+log
+@speed optimization
+@
+text
+@d565 1
+a565 1
+	int				iItemCount = GetItemCount();
+d567 10
+a576 1
+	if (iItem >= iItemCount || iItem < 0)
+d579 1
+a579 1
+	DWORD_PTR		dwpItemData = GetItemData(iItem);
+d581 1
+a581 1
+	if (dwpItemData == NULL)
+d584 1
+a584 1
+	bool			notLast = iItem < (iItemCount -1);
+d586 3
+a588 2
+	int				iLowerBound = 0;
+	int				iUpperBound = iItemCount - 1;
+d595 2
+a596 3
+		int			iNewIndex = iItem - 1;
+
+		posItem = m_Params.FindIndex(iNewIndex);
+d599 1
+a599 1
+		int			iResult = m_SortProc(dwpItemData, GetParamAt(posItem, iNewIndex), m_dwParamSort);
+d605 1
+d607 1
+a607 3
+			int			iDist = iNewIndex;
+
+			while (iDist >= 1)
+d609 1
+a609 1
+				for (int i = 0; i < iDist; i++)
+d612 1
+a612 1
+				if (m_SortProc(dwpItemData, GetParamAt(posPrevItem, iNewIndex - iDist), m_dwParamSort) < 0)
+d615 1
+a615 1
+					iNewIndex = iNewIndex - iDist;
+d618 1
+a618 2
+					iDist = iNewIndex - iLowerBound;
+					iDist = (iDist >> 1) + (iDist & 0x1);
+d625 1
+a625 1
+					iLowerBound = iNewIndex - iDist;
+d627 1
+a627 1
+					iDist = iDist >>1;
+d630 1
+a630 1
+			return MoveItem(iItem, iNewIndex);
+d633 1
+a633 2
+
+	if (notLast)
+d636 2
+a637 3
+		int			iNewIndex = iItem + 1;
+
+		posItem = m_Params.FindIndex(iNewIndex);
+d640 1
+a640 1
+		int			iResult = m_SortProc(dwpItemData, GetParamAt(posItem, iNewIndex), m_dwParamSort);
+d645 1
+d647 1
+a647 3
+			int			iDist = (iItemCount-1) - iNewIndex ;
+
+			while (iDist >= 1)
+d649 1
+a649 1
+				for (int i = 0; i < iDist; i++)
+d652 1
+a652 1
+				if (m_SortProc(dwpItemData, GetParamAt(posNextItem, iNewIndex + iDist), m_dwParamSort) > 0)
+d655 1
+a655 1
+					iNewIndex = iNewIndex + iDist;
+d658 1
+a658 2
+					iDist = iUpperBound - iNewIndex;
+					iDist = (iDist >> 1) + (iDist & 0x1);
+d665 1
+a665 1
+					iUpperBound = iNewIndex + iDist;
+d667 1
+a667 1
+					iDist = iDist >> 1;
+d670 1
+a670 2
+			iNewIndex++;
+			return MoveItem(iItem, iNewIndex);
+a941 90
+			int				iItem = pItem->iItem;
+			int				iItemCount = GetItemCount();
+			bool			notLast = iItem < iItemCount;
+			bool			notFirst = iItem > 0;
+			int				iLowerBound = 0;
+			int				iUpperBound =  iItemCount -1;
+
+			if (notFirst)
+			{
+				// get Index of previous element (Item-1)
+				int				iNewIndex = iItem - 1;
+				POSITION		pos = m_Params.FindIndex(iNewIndex);
+				// check if we need to move an Item
+				int				iResult = m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort);
+
+				if (iResult < 0)
+				{
+					POSITION		posPrev = pos;
+					int				iDist = iNewIndex;
+
+					while(iDist >= 1)
+					{
+						for (int i = 0; i < iDist; i++)
+							m_Params.GetPrev(posPrev);
+
+						if (m_SortProc(pItem->lParam, GetParamAt(posPrev, iNewIndex - iDist), m_dwParamSort) < 0)
+						{
+							// update an Index & postion
+							iNewIndex = iNewIndex - iDist;
+							pos = posPrev;
+							// calculate new step based on new Index
+							iDist = iNewIndex - iLowerBound;
+							iDist = (iDist >> 1) + (iDist & 0x1);
+						}
+						else
+						{
+							// set postion to initial one, if we don't need to move
+							posPrev = pos;
+							// set new boundary
+							iLowerBound = iNewIndex - iDist;
+							// just decrease a step
+							iDist = iDist>>1;
+						}
+					}
+					pItem->iItem = iNewIndex;
+					notLast = false;
+				}
+			}
+
+			if (notLast)
+			{
+				// get Index of next element
+				int				iNewIndex = iItem;
+				POSITION		pos = m_Params.FindIndex(iNewIndex);
+				// check if we need to move an Item
+				int				iResult = m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort);
+
+				if (iResult > 0)
+				{
+					POSITION		posNext = pos;
+					int				iDist = (iItemCount - 1) - iItem;
+
+					while(iDist >= 1)
+					{
+						for (int i = 0; i < iDist; i++)
+							m_Params.GetNext(posNext);
+
+						if (m_SortProc(pItem->lParam, GetParamAt(posNext, iNewIndex + iDist), m_dwParamSort) > 0)
+						{
+							// update an Index & postion
+							iNewIndex = iNewIndex + iDist;
+							pos = posNext;
+							// calculate new step based on new Index
+							iDist = iUpperBound - iNewIndex;
+							iDist = (iDist >> 1) + (iDist & 0x1);
+						}
+						else
+						{
+							// set postion to initial one, if we don't need to move
+							posNext = pos;
+							// set new boundary
+							iUpperBound = iNewIndex + iDist;
+							// just decrease a step
+							iDist = iDist>>1;
+						}
+					}
+					iNewIndex++;
+					pItem->iItem = iNewIndex;
+				}
+			}
+d943 3
+@
+
+
+1.72
+log
+@fixed hidden column appears when hitting 'CTRL+' (there's still a bug with the recent 'folder' column addition but it was there before and i can't figure out the problem)
+@
+text
+@d610 2
+a611 1
+					iDist = ceil((iNewIndex - iLowerBound) / 2.0);
+d620 1
+a620 1
+					iDist = iDist / 2;
+d654 2
+a655 1
+					iDist = ceil((iUpperBound - iNewIndex) / 2.0);
+d664 1
+a664 1
+					iDist = iDist / 2;
+d971 2
+a972 1
+							iDist = ceil((iNewIndex - iLowerBound)/2.0);
+d981 1
+a981 1
+							iDist = iDist/2;
+d1013 2
+a1014 1
+							iDist = ceil((iUpperBound - iNewIndex) / 2.0);
+d1023 1
+a1023 1
+							iDist = iDist/2;
+@
+
+
+1.71
+log
+@Slightly faster processing of key press in the lists; Removed double variable initialization.
+@
+text
+@d1069 1
+d1071 1
+d1086 16
+d1288 1
+a1288 1
+		else 
+d1328 1
+a1328 1
+	//	moved to fix problem with serachlist when FileTypeIcon disabled
+@
+
+
+1.70
+log
+@Corrected parameter definition.
+@
+text
+@a84 1
+	m_bGeneralPurposeFind = false;
+d1068 3
+a1070 1
+	if (nChar == 'A' && ::GetAsyncKeyState(VK_CONTROL) < 0)
+d1072 3
+a1074 2
+	//	Ctrl+A: Select all items
+		LV_ITEM			theItem;
+d1076 7
+a1082 6
+		theItem.mask = LVIF_STATE;
+		theItem.iItem = -1;
+		theItem.iSubItem = 0;
+		theItem.state = LVIS_SELECTED;
+		theItem.stateMask = 2;
+		SetItemState( -1, &theItem);
+a1083 2
+	else if (nChar == VK_DELETE)
+		PostMessage(WM_COMMAND, MP_CANCEL, 0);
+d1086 1
+a1086 1
+		if (nChar == 'F' && (GetKeyState(VK_CONTROL) & 0x8000))
+d1088 2
+a1089 2
+		//	Ctrl+F: Search item
+			OnFindStart();
+d1094 1
+a1094 4
+			{
+			//	Shift+F3: Search previous
+				OnFindPrev();
+			}
+d1096 1
+a1096 4
+			{
+			//	F3: Search next
+				OnFindNext();
+			}
+@
+
+
+1.69
+log
+@MP_DELETE is replaced by MP_CANCEL.
+@
+text
+@d1695 1
+a1695 1
+		if (!::PeekMessage(&msg,m_hWnd,uiMsg,uiMsg,false))
+@
+
+
+1.68
+log
+@Faster list search.
+@
+text
+@d1082 1
+a1082 1
+		PostMessage(WM_COMMAND, MP_DELETE, 0);
+@
+
+
+1.67
+log
+@SSWQ
+@
+text
+@d1564 1
+a1564 1
+		lvc.cchTextMax = sizeof(szColTitle) / sizeof(szColTitle[0]);
+a1587 2
+	CWaitCursor curHourglass;
+
+d1594 3
+a1596 2
+	int			iNumItems = iDirection ? GetItemCount() : 0;
+	int			iItem = iStartItem;
+d1598 2
+a1599 1
+	while (iDirection ? iItem < iNumItems : iItem >= 0)
+d1601 1
+a1601 4
+		CString				strItemText(GetItemText(iItem, m_iFindColumn));
+
+	//	TRACE("iItem=%d  szText=%s\n", iItem, strItemText);
+		if (!strItemText.IsEmpty())
+d1604 2
+a1605 2
+			     ? _tcsstr(strItemText, m_strFindText) != NULL
+			     : stristr(strItemText, m_strFindText) != NULL )
+d1608 1
+a1608 1
+				SetItemState( -1, 0, LVIS_SELECTED);
+d1620 1
+a1620 4
+		if (iDirection)
+			iItem++;
+		else
+			iItem--;
+@
+
+
+1.66
+log
+@Color coded IRC channel list description;
+Added "WhoIs" context menu to IRC nick list;
+Added "Refresh" context menu to IRC channel list.
+@
+text
+@d338 4
+d1693 15
+@
+
+
+1.65
+log
+@Removed incorrectly used _T().
+@
+text
+@d1131 56
+d1199 1
+a1199 1
+	lvi.stateMask = LVIS_DROPHILITED | LVIS_FOCUSED | LVIS_SELECTED | LVIS_GLOW | LVIS_CUT;
+d1217 1
+a1217 1
+	COLORREF		crOldTextColor;
+d1220 1
+a1220 1
+		crOldTextColor = pDC->SetTextColor(m_lvcd.clrText);
+d1222 1
+a1222 1
+		crOldTextColor = pDC->SetTextColor(m_crDimmedText);
+d1224 1
+a1224 1
+		crOldTextColor = pDC->SetTextColor(m_crGlowText);
+d1226 3
+a1228 1
+		crOldTextColor = pDC->SetTextColor(m_crWindowText);
+d1233 1
+a1233 2
+	int iOffset = pDC->GetTextExtent(_T(" "), 1).cx * 2;
+
+d1247 1
+a1247 2
+	CRect			rcHighlight;
+	CRect			rcWnd;
+a1254 1
+	COLORREF		crOldBckColor;
+d1256 1
+d1261 1
+a1261 8
+		{
+			CBrush			hBrush(m_crHighlight);
+
+			pOldBrush = pDC->SelectObject(&hBrush);
+			pDC->FillRect(rcHighlight, &hBrush);
+			pDC->SelectObject(pOldBrush);
+			crOldBckColor = pDC->SetBkColor(m_crHighlight);
+		}
+d1263 1
+a1263 8
+		{
+			CBrush			nhBrush(m_crGlow);
+
+			pOldBrush = pDC->SelectObject(&nhBrush);
+			pDC->FillRect(rcHighlight, &nhBrush);
+			pDC->SelectObject(pOldBrush);
+			crOldBckColor = pDC->SetBkColor(m_crGlow);
+		}
+d1265 1
+a1265 8
+		{
+			CBrush			nhBrush(m_crNoHighlight);
+
+			pOldBrush = pDC->SelectObject(&nhBrush);
+			pDC->FillRect(rcHighlight, &nhBrush);
+			pDC->SelectObject(pOldBrush);
+			crOldBckColor = pDC->SetBkColor(m_crNoHighlight);
+		}
+d1270 4
+a1273 2
+		{
+			CBrush			nhBrush(m_crGlow);
+d1275 3
+a1277 10
+			pOldBrush = pDC->SelectObject(&nhBrush);
+			pDC->FillRect(rcHighlight, &nhBrush);
+			pDC->SelectObject(pOldBrush);
+			crOldBckColor = pDC->SetBkColor(m_crGlow);
+		}
+		else
+		{
+			if (m_crWindowTextBk != CLR_NONE)
+			{
+				CBrush			wBrush(m_crWindow);
+d1279 3
+a1281 6
+				pOldBrush = pDC->SelectObject(&wBrush);
+				pDC->FillRect(rcHighlight, &wBrush);
+				pDC->SelectObject(pOldBrush);
+			}
+			crOldBckColor = pDC->SetBkColor(m_crWindow);
+		}
+d1283 1
+d1321 4
+a1324 1
+	pDC->DrawText(sLabel, -1, rcLabel, MLC_DT_TEXT | DT_LEFT | DT_NOCLIP);
+d1376 4
+a1379 1
+		pDC->DrawText(sLabel, -1, rcLabel, MLC_DT_TEXT | nJustify);
+@
+
+
+1.64
+log
+@Formatting + Minor changes
+@
+text
+@d1592 1
+a1592 1
+		AfxMessageBox(_T(GetResString(IDS_SEARCH_NORESULT)), MB_ICONINFORMATION);
+@
+
+
+1.63
+log
+@Dim servers that has failed once or more ( with DonGato's approval :-) )
+@
+text
+@d116 3
+a118 2
+	int iCount = pHeader->GetItemCount();
+	int *piArray = new int[iCount];
+d134 3
+a136 2
+	CHeaderCtrl * pHeaderCtrl = GetHeaderCtrl();
+	int iCount = pHeaderCtrl->GetItemCount();
+d144 2
+a145 1
+	HDITEM item;
+d153 2
+a154 1
+	INT *piArray = new INT[m_iColumnsTracked];
+d157 2
+a158 1
+	int iFrom = m_aColumns[iColumn].iLocation;
+d179 3
+a181 2
+	CHeaderCtrl * pHeaderCtrl = GetHeaderCtrl();
+	int iCount = pHeaderCtrl->GetItemCount();
+d189 2
+a190 1
+	INT *piArray = new INT[m_iColumnsTracked];
+d192 2
+a193 1
+	int iCurrent = IndexToOrder(pHeaderCtrl, iColumn);
+d205 2
+a206 1
+	HDITEM item;
+d221 1
+a221 1
+	INT * piArray = new INT[m_iColumnsTracked];
+d236 2
+a237 3
+	CHeaderCtrl * pHeaderCtrl = GetHeaderCtrl();
+
+	INT *piArray = new INT[m_iColumnsTracked];
+d255 1
+d281 1
+a281 1
+	COLORREF crHighlight = ::GetSysColor(COLOR_HIGHLIGHT);
+d388 4
+a391 3
+		HINSTANCE hInstRes = AfxFindResourceHandle(MAKEINTRESOURCE(m_atSortArrow[0]), RT_BITMAP);
+		HINSTANCE hInstRes2 = NULL;
+		HINSTANCE hInstRes3 = NULL;
+d394 2
+a395 1
+			HBITMAP hbmSortStates = (HBITMAP)::LoadImage(hInstRes, MAKEINTRESOURCE(m_atSortArrow[0]), IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+d398 2
+a399 1
+				CBitmap bmSortStates;
+d402 2
+a403 1
+				CImageList imlSortStates;
+d484 3
+a486 2
+	CSimpleArray<void*> aSubItems;
+	DWORD Style = GetStyle();
+d489 3
+a491 2
+		TCHAR szText[256];
+		LVITEM lvi;
+d512 3
+a514 2
+	LVITEM lvi_copy;
+	TCHAR szText[256];
+d535 2
+a536 1
+		LVITEM lvi;
+d562 2
+a563 1
+	int iItemCount = GetItemCount();
+d567 2
+a568 1
+	DWORD_PTR dwpItemData = GetItemData(iItem);
+d572 5
+a576 6
+	bool notLast = iItem < (iItemCount -1);
+	bool notFirst = iItem > 0;
+
+	int iLowerBound = 0;
+	int iUpperBound = iItemCount - 1;
+	POSITION posItem, posPrevItem, posNextItem;
+d582 2
+a583 1
+		int iNewIndex = iItem - 1;
+d585 1
+d587 2
+a588 1
+		int iResult = m_SortProc(dwpItemData, GetParamAt(posItem, iNewIndex), m_dwParamSort);
+d593 3
+a595 1
+			int iDist = iNewIndex;
+d626 4
+a629 2
+		int iNewIndex = iItem + 1;
+		posItem= m_Params.FindIndex(iNewIndex);
+d631 2
+a632 1
+		int iResult = m_SortProc(dwpItemData, GetParamAt(posItem, iNewIndex), m_dwParamSort);
+d636 3
+a638 1
+			int iDist = (iItemCount-1) - iNewIndex ;
+d648 1
+a648 1
+					posItem= posNextItem;
+d655 1
+a655 1
+					posNextItem= posItem;
+d672 2
+a673 2
+	POSITION pos = m_Params.FindIndex(iItem);
+	LPARAM	lParam = 0;
+d709 2
+a710 1
+					POINT point;
+d719 3
+a721 2
+					CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+					int iCount = pHeaderCtrl->GetItemCount();
+d724 3
+a726 2
+						HDITEM item;
+						TCHAR text[255];
+d753 2
+a754 1
+					NMHEADER * pHeader = (NMHEADER*)lParam;
+d758 2
+a759 1
+						int iNewLoc = pHeader->pitem->iOrder - GetHiddenColumnCount();
+d768 3
+a770 2
+									int iMax = m_aColumns[pHeader->iItem].iLocation;
+									int iMin = iNewLoc;
+d780 3
+a782 2
+									int iMin = m_aColumns[pHeader->iItem].iLocation;
+									int iMax = iNewLoc;
+d822 3
+a825 4
+				CHeaderCtrl * pHeaderCtrl = GetHeaderCtrl();
+				int iCount = pHeaderCtrl->GetItemCount();
+
+				int iToggle = wParam - MLC_IDC_MENU;
+a899 1
+
+a907 1
+
+a916 1
+
+a923 1
+
+d934 7
+a940 7
+			LPLVITEM pItem = (LPLVITEM)lParam;
+			int iItem = pItem->iItem;
+			int iItemCount = GetItemCount();
+			bool notLast = iItem < iItemCount;
+			bool notFirst = iItem > 0;
+			int iLowerBound = 0;
+			int iUpperBound =  iItemCount -1;
+d945 2
+a946 2
+				int iNewIndex = iItem - 1;
+				POSITION pos = m_Params.FindIndex(iNewIndex);
+d948 2
+a949 1
+				int iResult = m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort);
+d952 3
+a954 2
+					POSITION posPrev = pos;
+					int iDist = iNewIndex;
+d986 2
+a987 2
+				int iNewIndex = iItem;
+				POSITION pos = m_Params.FindIndex(iNewIndex);
+d989 2
+a990 1
+				int iResult = m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort);
+d993 3
+a995 2
+					POSITION posNext = pos;
+					int iDist = (iItemCount - 1) - iItem;
+d1049 3
+a1051 2
+				RECT rcItem;
+				BOOL bResult = GetItemRect(wParam, &rcItem, LVIR_BOUNDS);
+d1068 2
+a1069 1
+		LV_ITEM theItem;
+d1133 3
+a1135 3
+	int iItem = lpDrawItemStruct->itemID;
+	CImageList* pImageList;
+	CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+d1138 1
+a1138 1
+	LV_ITEM lvi;
+d1147 4
+a1150 4
+	BOOL bHighlight = ((lvi.state & LVIS_DROPHILITED) || (lvi.state & LVIS_SELECTED));
+	BOOL bCtrlFocused = ((GetFocus() == this) || (GetStyle() & LVS_SHOWSELALWAYS));
+	BOOL bGlowing = (lvi.state & LVIS_GLOW);
+	BOOL bDimmed = (lvi.state & LVIS_CUT);
+d1153 5
+a1157 4
+	CRect rcItem(lpDrawItemStruct->rcItem);
+	int iState = SaveDC(lpDrawItemStruct->hDC);
+	CDC *oDC = CDC::FromHandle(lpDrawItemStruct->hDC);
+	COLORREF crOldDCBkColor = oDC->SetBkColor(m_crWindow);
+d1159 3
+a1161 2
+	CFont *pOldFont = pDC->SelectObject(GetFont());
+	COLORREF crOldTextColor;
+d1178 2
+a1179 1
+	CRect rcBounds, rcLabel, rcIcon;
+d1183 2
+a1184 1
+	CRect rcCol(rcBounds);
+d1187 1
+a1187 1
+	CString sLabel = GetItemText(iItem, 0);
+d1190 2
+a1191 2
+	CRect rcHighlight;
+	CRect rcWnd;
+d1199 2
+a1200 2
+	COLORREF crOldBckColor;
+	CBrush* pOldBrush;
+d1206 2
+a1207 1
+			CBrush hBrush(m_crHighlight);
+d1215 2
+a1216 1
+			CBrush nhBrush(m_crGlow);
+d1224 2
+a1225 1
+			CBrush nhBrush(m_crNoHighlight);
+d1236 2
+a1237 1
+			CBrush nhBrush(m_crGlow);
+d1247 2
+a1248 1
+				CBrush wBrush(m_crWindow);
+d1263 2
+a1264 1
+		int nImage = ((lvi.state & LVIS_STATEIMAGEMASK) >> 12) - 1;
+d1268 2
+a1269 1
+			COLORREF crOld = pImageList->SetBkColor(CLR_NONE);
+d1279 2
+a1280 1
+		COLORREF crOld = pImageList->SetBkColor(CLR_NONE);
+d1289 1
+a1289 1
+	int iOldBkMode = (m_crWindowTextBk == CLR_NONE) ? pDC->SetBkMode(TRANSPARENT) : OPAQUE;
+d1296 2
+a1297 1
+	LV_COLUMN lvc;
+d1301 2
+a1302 1
+	int iCount = pHeaderCtrl->GetItemCount();
+d1305 2
+a1306 1
+		int iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+d1324 2
+a1325 1
+		UINT nJustify = DT_LEFT;
+d1329 2
+a1330 2
+			nJustify = DT_RIGHT;
+			break;
+d1332 2
+a1333 2
+			nJustify = DT_CENTER;
+			break;
+d1335 1
+a1335 1
+			break;
+d1353 2
+a1354 1
+			CBrush nfBrush(m_crNoFocusLine);
+d1361 2
+a1362 1
+			CBrush fBrush(m_crFocusLine);
+d1380 2
+a1381 1
+	int itemCount = GetItemCount();
+d1385 6
+a1390 6
+	RECT clientRect;
+	RECT itemRect;
+	int topIndex = GetTopIndex();
+	int maxItems = GetCountPerPage();
+	int drawnItems = itemCount < maxItems ? itemCount : maxItems;
+	CRect rcClip;
+d1425 2
+a1426 1
+		CRect rcClipBox;
+d1474 3
+a1476 3
+	CMuleListCtrl* m_pListView;
+	CString m_strFindText;
+	int m_iSearchColumn;
+d1522 3
+a1524 2
+		TCHAR szColTitle[256];
+		LVCOLUMN lvc;
+d1528 3
+a1530 1
+		int iCol = 0;
+d1558 3
+a1560 2
+	int iNumItems = iDirection ? GetItemCount() : 0;
+	int iItem = iStartItem;
+d1563 2
+a1564 1
+		CString strItemText(GetItemText(iItem, m_iFindColumn));
+d1599 2
+a1600 1
+	CDlgListSearchListSearch dlg;
+d1629 2
+a1630 1
+	int iStartItem = GetNextItem( -1, LVNI_SELECTED | LVNI_FOCUSED);
+d1642 2
+a1643 1
+		int iStartItem = GetNextItem( -1, LVNI_SELECTED | LVNI_FOCUSED);
+@
+
+
+1.62
+log
+@Removed Drop SuperCompressed blocks feature from GUI
+@
+text
+@d77 1
+d278 3
+a280 2
+	m_crGlow		= ::GetSysColor(COLOR_INFOBK); // MLC_RGBBLEND(crHighlight, m_crWindow, 6);
+	m_crGlowText	= ::GetSysColor(COLOR_INFOTEXT); // m_crWindowText
+d1107 1
+a1107 1
+	lvi.stateMask = LVIS_DROPHILITED | LVIS_FOCUSED | LVIS_SELECTED | LVIS_GLOW;
+d1113 2
+a1114 1
+	BOOL bGlowing = ( lvi.state & LVIS_GLOW );
+d1127 2
+@
+
+
+1.61
+log
+@allow to erase last searchstring;
+if no searchstring is defined when hitting (SHIFT-)F3 popup the search dlg
+@
+text
+@d1040 1
+a1040 1
+		PostMessage(WM_COMMAND, MPG_DELETE, 0);
+@
+
+
+1.60
+log
+@Different background color for connected server
+@
+text
+@d1105 1
+a1105 1
+	lvi.stateMask = LVIS_DROPHILITED | LVIS_FOCUSED | LVIS_SELECTED | LVIS_GLOW; 
+a1419 2
+	void UpdateControls();
+
+a1421 2
+	DECLARE_MESSAGE_MAP()
+
+a1429 4
+BEGIN_MESSAGE_MAP(CDlgListSearchListSearch, CDialog)
+	ON_EN_CHANGE(IDC_LISTVIEW_SEARCH_TEXT, OnEnChangeSearchText)
+END_MESSAGE_MAP()
+
+a1446 10
+void CDlgListSearchListSearch::OnEnChangeSearchText()
+{
+	UpdateControls();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CDlgListSearchListSearch::UpdateControls()
+{
+	GetDlgItem(IDOK)->EnableWindow(GetDlgItem(IDC_LISTVIEW_SEARCH_TEXT)->GetWindowTextLength() > 0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+a1480 1
+	UpdateControls();
+d1539 1
+a1539 1
+	if (dlg.DoModal() != IDOK || dlg.m_strFindText.IsEmpty())
+d1546 4
+a1549 1
+	DoFindNext(TRUE /*bShowError*/);
+d1554 4
+a1557 1
+	DoFindNext(FALSE /*bShowError*/);
+d1572 10
+a1581 3
+	int iStartItem = GetNextItem( -1, LVNI_SELECTED | LVNI_FOCUSED);
+	if (iStartItem == -1)
+		iStartItem = 0;
+d1583 1
+a1583 3
+		iStartItem = iStartItem + (!m_iFindDirection ? 1 : -1);
+
+	DoFind(iStartItem, !m_iFindDirection, FALSE /*bShowError*/);
+@
+
+
+1.59
+log
+@Find in lists
+@
+text
+@d76 1
+d277 2
+a278 1
+	m_crGlow		= MLC_RGBBLEND(crHighlight, m_crWindow, 6);
+d1095 18
+d1121 1
+d1124 2
+a1132 16
+	int iItem = lpDrawItemStruct->itemID;
+	CImageList* pImageList;
+	CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+
+//	gets the item image and state info
+	LV_ITEM lvi;
+	lvi.mask = LVIF_IMAGE | LVIF_STATE;
+	lvi.iItem = iItem;
+	lvi.iSubItem = 0;
+	lvi.stateMask = LVIS_DROPHILITED | LVIS_FOCUSED | LVIS_SELECTED | LVIS_GLOW; 
+	GetItem(&lvi);
+
+//	see if the item be highlighted
+	BOOL bHighlight = ((lvi.state & LVIS_DROPHILITED) || (lvi.state & LVIS_SELECTED));
+	BOOL bCtrlFocused = ((GetFocus() == this) || (GetStyle() & LVS_SHOWSELALWAYS));
+	BOOL bGlowing = ( lvi.state & LVIS_GLOW );
+@
+
+
+1.58
+log
+@minor change
+@
+text
+@d83 1
+@
+
+
+1.57
+log
+@Connected server is now background highlighted; Aw3 fix for IP2Country constant DB/LIB loading from preferences; Replaced all ZeroMemory with memzero; Replaced all CopyMemory with memcpy2
+@
+text
+@d1180 4
+a1183 1
+			pDC->FillRect(rcHighlight, &CBrush(m_crGlow));
+@
+
+
+1.56
+log
+@Removed unrequired double flags.
+@
+text
+@d73 1
+d75 1
+d267 1
+d270 2
+a271 1
+	m_crFocusLine = crHighlight;
+d274 2
+a275 1
+	m_crHighlight = MLC_RGBBLEND(crHighlight, m_crWindow, 4);
+d1105 3
+d1118 1
+a1118 1
+	lvi.stateMask = LVIS_DROPHILITED | LVIS_FOCUSED | LVIS_SELECTED;
+d1124 1
+d1154 1
+a1154 1
+			pOldBrush = pDC->SelectObject(&hBrush);	//eklmn: select a new brush
+d1156 1
+a1156 1
+			pDC->SelectObject(pOldBrush);	//eklmn: recover an old brush
+d1159 8
+d1170 1
+a1170 1
+			pOldBrush = pDC->SelectObject(&nhBrush);	//eklmn: select a new brush
+d1172 1
+a1172 1
+			pDC->SelectObject(pOldBrush);	//eklmn: recover an old brush
+d1178 16
+a1193 5
+		CBrush wBrush(m_crWindow);
+		pOldBrush = pDC->SelectObject(&wBrush);	//eklmn: select a new brush
+		pDC->FillRect(rcHighlight, &wBrush);
+		pDC->SelectObject(pOldBrush);	//eklmn: recover an old brush
+		crOldBckColor = pDC->SetBkColor(GetBkColor());
+d1225 2
+d1286 1
+a1286 1
+			pOldBrush = pDC->SelectObject(&nfBrush);	//eklmn: select a new brush
+d1288 1
+a1288 1
+			pDC->SelectObject(pOldBrush);	//eklmn: recover an old brush
+d1293 1
+a1293 1
+			pOldBrush = pDC->SelectObject(&fBrush);	//eklmn: select a new brush
+d1295 1
+a1295 1
+			pDC->SelectObject(pOldBrush);	//eklmn: recover an old brush
+d1300 2
+a1301 1
+//	restore old font
+d1319 1
+d1323 1
+d1326 4
+a1329 1
+	pDC->FillSolidRect(&clientRect, GetBkColor());
+d1337 3
+a1339 1
+		pDC->FillSolidRect(&clientRect, GetBkColor());
+d1347 3
+a1349 1
+		pDC->FillSolidRect(&clientRect, GetBkColor());
+d1352 12
+@
+
+
+1.55
+log
+@forgotten deinit
+@
+text
+@d105 1
+a105 1
+	ModifyStyle(LVS_SINGLESEL | LVS_LIST | LVS_ICON | LVS_SMALLICON, LVS_REPORT | LVS_SINGLESEL | LVS_REPORT);
+@
+
+
+1.54
+log
+@measurements against SetRedraw collision
+@
+text
+@d68 1
+a68 1
+	InitializeCriticalSection(&m_csRedraw);
+d87 2
+@
+
+
+1.53
+log
+@replaced TrackPopupMenu over TrackPopupMenuEx
+@
+text
+@d67 2
+a68 1
+	m_iRedrawCount = 0;
+a497 1
+	SetRedraw(FALSE);
+a502 1
+	SetRedraw(TRUE);
+@
+
+
+1.52
+log
+@Improved context menu creation
+@
+text
+@d693 1
+a693 1
+					tmColumnMenu.TrackPopupMenu(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this);
+d702 2
+a703 4
+
+					HD_NOTIFY *pHDN = reinterpret_cast<HD_NOTIFY*>(lParam);
+
+					if (m_aColumns[pHDN->iItem].bHidden)
+d705 1
+a705 1
+
+d758 1
+a758 3
+						NMHEADER	* pHeader = reinterpret_cast<NMHEADER*>(lParam);
+
+						return OnNMDividerDoubleClick(pHeader, pResult);
+@
+
+
+1.51
+log
+@minor changes
+@
+text
+@d674 1
+d690 2
+a691 2
+						tmColumnMenu.AppendMenu( MF_STRING | m_aColumns[iCurrent].bHidden ? 0 : MF_CHECKED,
+						                         MLC_IDC_MENU + iCurrent, item.pszText );
+a693 1
+					VERIFY(tmColumnMenu.DestroyMenu());
+d695 1
+d703 2
+a704 1
+					HD_NOTIFY * pHDN = (HD_NOTIFY*)lParam;
+d706 1
+a706 1
+						return * pResult = TRUE;
+@
+
+
+1.50
+log
+@Some corrections in shortcut management code to keep new engine hierarchy (thanks to eklmn ;-))
+@
+text
+@d277 14
+a290 5
+		case 0: arrowType = arrowUp; break;
+		case 1: arrowType = arrowUp1; break;
+		case 2: arrowType = arrowUp2; break;
+		case 3: arrowType = arrowUp3; break;
+		default: arrowType = arrowUp;
+d297 11
+a307 4
+		case 1: arrowType = arrowDown1; break;
+		case 2: arrowType = arrowDown2; break;
+		case 3: arrowType = arrowDown3; break;
+		default: arrowType = arrowDown;
+d509 1
+a509 1
+		lvi.iItem = iNewIndex;	
+d914 1
+a914 1
+					while(iDist >= 1) 
+d953 1
+a953 1
+					while(iDist >= 1) 
+@
+
+
+1.49
+log
+@Updated shortcut management
+@
+text
+@a1321 38
+BOOL CMuleListCtrl::PreTranslateMessage(MSG* pMsg)
+{
+	if (pMsg->message == WM_KEYDOWN || pMsg->message == WM_SYSKEYDOWN)
+	{
+		int iMessage = 0;
+		short nCode = GetCodeFromPressedKeys(pMsg);
+		CUpDownClient* pSource = reinterpret_cast<CUpDownClient*>(GetItemData(GetSelectionMark()));
+
+		if (pSource != NULL)
+		{
+			if (nCode == g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULDetails))
+				iMessage = MP_DETAIL;
+			else if (nCode == g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFriend))
+			{
+				if (pSource->IsFriend())
+					iMessage = MP_REMOVEFRIEND;
+				else
+					iMessage = MP_ADDFRIEND;
+			}
+			else if (nCode == g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULMessage))
+				iMessage = MP_MESSAGE;
+			else if (nCode == g_eMuleApp.m_pGlobPrefs->GetShortcutCode(IndexULFiles))
+				iMessage = MP_SHOWLIST;
+		}
+
+		if (iMessage > 0)
+		{
+			PostMessage(WM_COMMAND, iMessage);
+			return TRUE;
+		}
+	}
+
+	return CListCtrl::PreTranslateMessage(pMsg);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+@
+
+
+1.48
+log
+@open 'rename & cleanup box' on pressing F2 in downloads pane
+@
+text
+@a1017 2
+	else if (nChar == VK_F2)
+		PostMessage(WM_COMMAND, MP_F2, 0);
+@
+
+
+1.47
+log
+@Fixed Hebrew localization
+@
+text
+@d1018 2
+@
+
+
+1.46
+log
+@Change to shortcut management code (it's easier to add an action now) / Added a lot of actions to shortcut management / Added some keys to shortcut management
+@
+text
+@d1225 3
+@
+
+
+1.45
+log
+@Small fixes
+@
+text
+@d1329 1
+a1329 1
+			if (nCode == g_eMuleApp.m_pGlobPrefs->GetUploadViewClientDetailsShortcutCode())
+d1331 1
+a1331 1
+			else if (nCode == g_eMuleApp.m_pGlobPrefs->GetUploadAddClientToFriendsShortcutCode())
+d1338 1
+a1338 1
+			else if (nCode == g_eMuleApp.m_pGlobPrefs->GetUploadSendMessageClientShortcutCode())
+d1340 1
+a1340 1
+			else if (nCode == g_eMuleApp.m_pGlobPrefs->GetUploadViewClientFilesShortcutCode())
+@
+
+
+1.44
+log
+@added auto-complete for search text (search history) from official v0.30c
+@
+text
+@d269 28
+@
+
+
+1.43
+log
+@Formatting, comments, and name changes.
+@
+text
+@a1290 91
+void CMuleListCtrl::DoFind(int iStartItem, int iDirection /*1=down, 0 = up*/, BOOL bShowError)
+{
+	CWaitCursor curHourglass;
+
+	if (iStartItem < 0)
+	{
+		MessageBeep((UINT) - 1);
+		return;
+	}
+
+	int iNumItems = iDirection ? GetItemCount() : 0;
+	int iItem = iStartItem;
+	while (iDirection ? iItem < iNumItems : iItem >= 0)
+	{
+		CString strItemText(GetItemText(iItem, m_iFindColumn));
+	//	TRACE("iItem=%d  szText=%s\n", iItem, strItemText);
+		if (!strItemText.IsEmpty())
+		{
+			if ( m_bFindMatchCase
+			     ? _tcsstr(strItemText, m_strFindText) != NULL
+			     : stristr(strItemText, m_strFindText) != NULL )
+			{
+			//	Deselect all listview entries
+				SetItemState( -1, 0, LVIS_SELECTED);
+
+			//	Select the found listview entry
+				SetItemState(iItem, LVIS_SELECTED | LVIS_FOCUSED, LVIS_SELECTED | LVIS_FOCUSED);
+				SetSelectionMark(iItem);
+				EnsureVisible(iItem, FALSE /*bPartialOK*/);
+				SetFocus();
+
+				return;
+			}
+		}
+
+		if (iDirection)
+			iItem++;
+		else
+			iItem--;
+	}
+
+	if (bShowError)
+		AfxMessageBox(_T(GetResString(IDS_SEARCH_NORESULT)), MB_ICONINFORMATION);
+	else
+		MessageBeep((UINT) - 1);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnFindStart()
+{
+	CDlgListSearchListSearch dlg;
+	dlg.m_pListView = this;
+	dlg.m_strFindText = m_strFindText;
+//	dlg.m_bMatchCase = m_bFindMatchCase;
+//	dlg.m_iSearchDirection = m_iFindDirection;
+	dlg.m_iSearchColumn = m_iFindColumn;
+	if (dlg.DoModal() != IDOK || dlg.m_strFindText.IsEmpty())
+		return;
+	m_strFindText = dlg.m_strFindText;
+//	m_bFindMatchCase = dlg.m_bMatchCase;
+//	m_iFindDirection = dlg.m_iSearchDirection;
+	m_iFindColumn = dlg.m_iSearchColumn;
+
+	DoFindNext(TRUE /*bShowError*/);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnFindNext()
+{
+	DoFindNext(FALSE /*bShowError*/);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::DoFindNext(BOOL bShowError)
+{
+	int iStartItem = GetNextItem( -1, LVNI_SELECTED | LVNI_FOCUSED);
+	if (iStartItem == -1)
+		iStartItem = 0;
+	else
+		iStartItem = iStartItem + (m_iFindDirection ? 1 : -1);
+	DoFind(iStartItem, m_iFindDirection, bShowError);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CMuleListCtrl::OnFindPrev()
+{
+	int iStartItem = GetNextItem( -1, LVNI_SELECTED | LVNI_FOCUSED);
+	if (iStartItem == -1)
+		iStartItem = 0;
+	else
+		iStartItem = iStartItem + (!m_iFindDirection ? 1 : -1);
+
+	DoFind(iStartItem, !m_iFindDirection, FALSE /*bShowError*/);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d1332 28
+a1359 2
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+d1430 91
+@
+
+
+1.42
+log
+@*** empty log message ***
+@
+text
+@a1381 1
+// DropF START - Keyboard Shortcuts
+a1415 1
+// DropF END - Keyboard Shortcuts
+@
+
+
+1.41
+log
+@Formatting, comments, and name changes.
+@
+text
+@d1382 1
+d1385 1
+a1385 1
+	if (pMsg->message == 260 && pMsg->wParam == 13 && GetAsyncKeyState(VK_MENU) < 0)
+d1387 26
+a1412 2
+		PostMessage(WM_COMMAND, MPG_ALTENTER, 0);
+		return TRUE;
+d1417 1
+@
+
+
+1.40
+log
+@Fixed bug #0000411 - Sort arrow background color does not match some color schemes
+@
+text
+@d375 1
+a375 1
+					if (g_eMuleApp.m_ullComCtrlVer < MAKEDLLVERULL(6, 0, 0, 0))
+d386 1
+a386 1
+					if (g_eMuleApp.m_ullComCtrlVer >= MAKEDLLVERULL(5, 8, 0, 0))
+@
+
+
+1.39
+log
+@fixed sorting problem
+@
+text
+@d375 1
+a375 1
+					if (g_eMuleApp.m_dwCommCtrlMjr < MAKEDLLVERULL(6, 0, 0, 0))
+d386 1
+a386 1
+					if (g_eMuleApp.m_dwCommCtrlMjr >= MAKEDLLVERULL(5, 8, 0, 0))
+@
+
+
+1.38
+log
+@correct version on list sorting in UpdateLocation() as well as i OnWinMsg()
+(checked step by step!!!)
+@
+text
+@d535 2
+a538 1
+					iLowerBound = iNewIndex - iDist;
+d573 2
+a576 1
+					iUpperBound = iNewIndex + iDist;
+d887 2
+a890 1
+							iLowerBound = iNewIndex - iDist;
+d926 2
+a929 1
+							iUpperBound = iNewIndex + iDist;
+@
+
+
+1.37
+log
+@Formatting, comments, and name changes.
+@
+text
+@d406 4
+d445 1
+a445 1
+	lvi_copy.iSubItem = 0;
+a453 1
+//SetItemData(iOldIndex, 0);  //should do this to be safe?
+d464 2
+a467 1
+			LVITEM lvi;
+d483 2
+d494 6
+a499 2
+	BOOL notLast = iItem + 1 < iItemCount;
+	BOOL notFirst = iItem > 0;
+d503 1
+a503 4
+
+	DWORD_PTR dwpItemData = GetItemData(iItem);
+	if (dwpItemData == NULL)
+		return iItem;
+d510 1
+a510 1
+		POSITION pos = m_Params.FindIndex(iNewIndex);
+d512 1
+a512 1
+		int iResult = m_SortProc(dwpItemData, GetParamAt(pos, iNewIndex), m_dwParamSort);
+d516 2
+a517 2
+			POSITION posPrev = pos;
+			int iDist = iNewIndex / 2;
+d521 1
+a521 1
+					m_Params.GetPrev(posPrev);
+d523 1
+a523 1
+				if (m_SortProc(dwpItemData, GetParamAt(posPrev, iNewIndex - iDist), m_dwParamSort) < 0)
+d527 1
+a527 1
+					pos = posPrev;
+d534 1
+a534 1
+					posPrev = pos;
+d540 1
+a540 1
+			return MoveItem(iItem, iNewIndex + 1);
+d548 1
+a548 1
+		POSITION pos = m_Params.FindIndex(iNewIndex);
+d550 1
+a550 1
+		int iResult = m_SortProc(dwpItemData, GetParamAt(pos, iNewIndex), m_dwParamSort);
+d553 2
+a554 2
+			POSITION posNext = pos;
+			int iDist = (GetItemCount() - iNewIndex) / 2;
+d558 1
+a558 1
+					m_Params.GetNext(posNext);
+d560 1
+a560 1
+				if (m_SortProc(dwpItemData, GetParamAt(posNext, iNewIndex + iDist), m_dwParamSort) > 0)
+d564 1
+a564 1
+					pos = posNext;
+d571 1
+a571 1
+					posNext = pos;
+d577 1
+d852 4
+a855 2
+			BOOL notLast = iItem < iItemCount;
+			BOOL notFirst = iItem > 0;
+d859 1
+d862 1
+d867 2
+a868 2
+					int iDist = iNewIndex / 2;
+					while (iDist > 1)
+d875 1
+d878 2
+d883 1
+d885 3
+a888 1
+						iDist /= 2;
+d890 1
+a890 7
+					while (--iNewIndex >= 0)
+					{
+						m_Params.GetPrev(pos);
+						if (m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) >= 0)
+							break;
+					}
+					pItem->iItem = iNewIndex + 1;
+d897 1
+d900 1
+d905 2
+a906 2
+					int iDist = (GetItemCount() - iNewIndex) / 2;
+					while (iDist > 1)
+d913 1
+d916 2
+d921 1
+d923 3
+a926 7
+						iDist /= 2;
+					}
+					while (++iNewIndex < iItemCount)
+					{
+						m_Params.GetNext(pos);
+						if (m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) <= 0)
+							break;
+d928 1
+@
+
+
+1.36
+log
+@Reverted again since we find where the problem lies
+@
+text
+@d406 1
+a406 5
+
+	//eklmn: prevent redraw during moving (delete & inserts)
+	SetRedraw(FALSE);
+
+	if(iNewIndex > iOldIndex)
+d409 1
+a409 2
+	//eklmn: since substrings will be not save by simple copy & paste
+	// we need to save substrings first save substrings
+d412 1
+a412 3
+	
+	// eklmn: check for virtual control style
+	if((Style & LVS_OWNERDATA) == 0) 
+d418 1
+a418 1
+		for(int i = 1; i < m_iColumnsTracked; i++)
+d435 1
+a435 1
+	//copy item
+d439 1
+a439 1
+	lvi_copy.stateMask = (UINT)-1;
+d441 1
+a441 1
+	lvi_copy.iSubItem = 0;	//set subitem pointer on Item
+d445 1
+a445 1
+	if(GetItem(&lvi_copy) == 0)
+d448 3
+a450 1
+	//do the move
+d454 1
+a454 1
+	
+d456 1
+d458 2
+a459 4
+	SetRedraw(TRUE);
+	
+	//restore substrings
+	if((Style & LVS_OWNERDATA) == 0) 
+d461 1
+a461 3
+		LVITEM lvi;
+		lvi.iItem = iNewIndex;	
+		for(int i = 1; i < m_iColumnsTracked; i++) 
+d463 1
+d465 1
+a465 1
+			void* pstrSubItem = aSubItems[i-1];
+d471 2
+a472 4
+					lvi.pszText = (LPTSTR)((LPCTSTR)*((CString*)pstrSubItem));
+				
+				DefWindowProc(LVM_SETITEMTEXT, iNewIndex, (LPARAM)&lvi);
+				
+d533 1
+a533 2
+			iNewIndex++;
+			return MoveItem(iItem, iNewIndex);
+d847 1
+a847 1
+			if(notFirst) 
+d849 1
+a849 2
+				// get Index of previous element (Item-1)
+				int iNewIndex = iItem - 1;		
+a850 1
+				// check if we need to move an Item
+d852 1
+a852 2
+				// we need to move it
+				if(iResult < 0) 
+d856 1
+a856 1
+					while(iDist > 1) 
+d858 1
+a858 1
+						for(int i = 0; i < iDist; i++)
+d861 1
+a861 1
+						if(m_SortProc(pItem->lParam, GetParamAt(posPrev, iNewIndex - iDist), m_dwParamSort) < 0)
+a862 1
+							// update an Index & postion
+d865 2
+a866 2
+						} 
+						else 
+a867 1
+							// set postion to initial one, if we don't need to move
+d872 1
+a872 2
+
+					while(--iNewIndex >= 0)
+d875 1
+a875 1
+						if(m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) >= 0)
+d878 1
+a878 2
+					iNewIndex++;
+					pItem->iItem = iNewIndex;
+d883 1
+a883 1
+			if(notLast) 
+a884 1
+				// get Index of next element (Item+1)
+a886 1
+				// check if we need to move an Item
+d892 1
+a892 1
+					while(iDist > 1) 
+d894 1
+a894 1
+						for(int i = 0; i < iDist; i++)
+d897 1
+a897 1
+						if(m_SortProc(pItem->lParam, GetParamAt(posNext, iNewIndex + iDist), m_dwParamSort) > 0) 
+a898 1
+							// update an Index & postion
+d901 1
+a901 1
+						} 
+a903 1
+							// set postion to initial one, if we don't need to move
+d908 1
+a908 2
+
+					while(++iNewIndex < iItemCount)
+d911 1
+a911 1
+						if(m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) <= 0)
+@
+
+
+1.35
+log
+@correct speed optimization in OnWinMsg
+@
+text
+@d407 3
+a454 3
+	//eklmn: prevent redraw during moving (delete & inserts)
+	//SetRedraw(FALSE);
+
+d462 1
+a462 1
+	//SetRedraw(TRUE);
+a855 2
+			int iLowerBound = 0;
+			int iUpperBound =  iItemCount -1;
+d869 1
+a869 1
+					while(iDist >= 1) 
+a878 2
+							// calculate new step based on new Index
+							iDist = ceil((iNewIndex - iLowerBound)/2.0);
+a883 3
+							// just decrease a step
+							iDist = iDist/2;
+							iLowerBound = iNewIndex - iDist;
+d885 8
+d896 1
+d899 2
+a900 1
+			else if(notLast) 
+d902 1
+a902 1
+				// get Index of next element
+d911 1
+a911 1
+					while(iDist != 0) 
+a920 2
+							// calculate new step based on new Index
+							iDist = ceil((iUpperBound - iNewIndex) / 2.0);
+a925 3
+							// just decrease a step
+							iDist = iDist/2;
+							iUpperBound = iNewIndex + iDist;
+d927 8
+@
+
+
+1.34
+log
+@Reinstated some changes
+@
+text
+@a406 3
+	//eklmn: prevent redraw during moving (delete & inserts)
+	SetRedraw(FALSE);
+
+d452 3
+d462 1
+a462 1
+	SetRedraw(TRUE);
+d856 2
+d871 1
+a871 1
+					while(iDist > 1) 
+d881 2
+d888 3
+a891 8
+						iDist /= 2;
+					}
+
+					while(--iNewIndex >= 0)
+					{
+						m_Params.GetPrev(pos);
+						if(m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) >= 0)
+							break;
+a894 1
+					notLast = false;
+d897 1
+a897 2
+
+			if(notLast) 
+d899 1
+a899 1
+				// get Index of next element (Item+1)
+d908 1
+a908 1
+					while(iDist > 1) 
+d918 2
+d925 3
+a928 8
+						iDist /= 2;
+					}
+
+					while(++iNewIndex < iItemCount)
+					{
+						m_Params.GetNext(pos);
+						if(m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) <= 0)
+							break;
+@
+
+
+1.33
+log
+@Reverted some other changes to fix the upload GUI bug
+@
+text
+@d407 3
+a454 3
+	//eklmn: prevent redraw during moving (delete & inserts)
+	SetRedraw(FALSE);
+
+d467 2
+a470 1
+			LVITEM lvi;
+d542 2
+a543 1
+			return MoveItem(iItem, iNewIndex+1);
+d894 2
+a895 1
+					pItem->iItem = iNewIndex + 1;
+@
+
+
+1.32
+log
+@rollback SetRedraw() changes
+@
+text
+@a466 2
+		LVITEM lvi;
+		lvi.iItem = iNewIndex;	
+d469 1
+d541 1
+a541 2
+			iNewIndex++;
+			return MoveItem(iItem, iNewIndex);
+a853 2
+			int iLowerBound = 0;
+			int iUpperBound =  iItemCount -1;
+d867 1
+a867 1
+					while(iDist >= 1) 
+a876 2
+							// calculate new step based on new Index
+							iDist = ceil((iNewIndex - iLowerBound)/2.0);
+a881 3
+							// just decrease a step
+							iDist = iDist/2;
+							iLowerBound = iNewIndex - iDist;
+d883 8
+d892 2
+a893 2
+					iNewIndex++;
+					pItem->iItem = iNewIndex;
+d896 2
+a897 1
+			else if(notLast) 
+d900 1
+a900 1
+				int iNewIndex = iItem + 1;
+d908 1
+a908 1
+					while(iDist >= 1) 
+a917 2
+							// calculate new step based on new Index
+							iDist = ceil((iUpperBound - iNewIndex) / 2.0);
+a922 3
+							// just decrease a step
+							iDist = iDist/2;
+							iUpperBound = iNewIndex + iDist;
+d924 8
+@
+
+
+1.31
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@a405 2
+	//eklmn: prevent redraw during moving (delete & inserts)
+	SetRedraw(FALSE);
+d452 3
+d461 2
+a487 1
+	SetRedraw(TRUE);
+@
+
+
+1.30
+log
+@1) speed optimization in OnWinMsg
+2) stability improvements in MoveItem
+@
+text
+@d2 2
+a3 2
+// MuleListCtrl.cpp
+// : implementation file
+d14 1
+a14 1
+static char THIS_FILE[]=__FILE__;
+d52 1
+a52 1
+// CMuleListCtrl
+d62 3
+a64 1
+	m_iCurrentSortItem = -1;
+d69 1
+a69 1
+	//just in case
+d84 1
+a84 1
+	if(m_aColumns != NULL)
+d102 1
+a102 1
+	ModifyStyle(LVS_SINGLESEL|LVS_LIST|LVS_ICON|LVS_SMALLICON,LVS_REPORT|LVS_SINGLESEL|LVS_REPORT);
+d110 5
+a114 3
+	Header_GetOrderArray( pHeader->m_hWnd, iCount, piArray);
+	for(int i=0; i < iCount; i++ ) {
+		if(piArray[i] == iIndex) {
+d125 1
+a125 1
+	CHeaderCtrl* pHeaderCtrl = GetHeaderCtrl();
+d127 1
+a127 1
+	if(iColumn < 1 || iColumn >= iCount || m_aColumns[iColumn].bHidden)
+d130 1
+a130 1
+	//stop it from redrawing
+d133 1
+a133 1
+	//shrink width to 0
+d141 1
+a141 1
+	//move to front of list
+d146 2
+a147 2
+	for(int i = 0; i < m_iColumnsTracked; i++)
+		if(m_aColumns[i].iLocation > m_aColumns[iColumn].iLocation && m_aColumns[i].bHidden)
+d150 1
+a150 1
+	for(int i = iFrom; i > 0; i--)
+d156 1
+a156 1
+	//update entry
+d159 1
+a159 1
+	//redraw
+d166 1
+a166 1
+	CHeaderCtrl* pHeaderCtrl = GetHeaderCtrl();
+d168 1
+a168 1
+	if(iColumn < 1 || iColumn >= iCount || !m_aColumns[iColumn].bHidden)
+d171 1
+a171 1
+	//stop it from redrawing
+d174 1
+a174 1
+	//restore position in list
+d179 1
+a179 1
+	for(; iCurrent < IndexToOrder(pHeaderCtrl, 0) && iCurrent < m_iColumnsTracked - 1; iCurrent++ )
+d181 2
+a182 2
+	for(; m_aColumns[iColumn].iLocation > m_aColumns[pHeaderCtrl->OrderToIndex(iCurrent + 1)].iLocation &&
+	      iCurrent < m_iColumnsTracked - 1; iCurrent++)
+d188 1
+a188 1
+	//and THEN restore original width
+d194 1
+a194 1
+	//update entry
+d197 1
+a197 1
+	//redraw
+d204 1
+a204 1
+	INT *piArray = new INT[m_iColumnsTracked];
+d206 2
+a207 1
+	for(int i = 0; i < m_iColumnsTracked; i++) {
+d219 1
+a219 1
+	CHeaderCtrl* pHeaderCtrl = GetHeaderCtrl();
+d223 1
+a223 1
+	for(int i = 0; i < m_iColumnsTracked; i++)
+d230 1
+a230 1
+		if(iWidth != 0)
+d239 1
+a239 1
+			if(iOrder > 0 && iOrder < m_iColumnsTracked && iOrder != i)
+d246 1
+a246 1
+	for(int i = 0; i < m_iColumnsTracked; i++)
+d251 3
+a253 2
+	for(int i = 1; i < m_iColumnsTracked; i++) {
+		if(g_eMuleApp.m_pGlobPrefs->GetColumnHidden(tID, i))
+d260 2
+a261 2
+	m_crWindow      = ::GetSysColor(COLOR_WINDOW);
+	m_crWindowText  = ::GetSysColor(COLOR_WINDOWTEXT);
+d264 1
+a264 1
+	m_crFocusLine   = crHighlight;
+d267 1
+a267 1
+	m_crHighlight   = MLC_RGBBLEND(crHighlight, m_crWindow, 4);
+d272 2
+a273 1
+	HDITEM headerItem;
+a274 2
+	
+	CHeaderCtrl* pHeaderCtrl = GetHeaderCtrl();
+d276 14
+a289 2
+	// delete old image if column has changed
+	if(iColumn != m_iCurrentSortItem) 
+d291 8
+a298 1
+		if (m_iCurrentSortItem>=0)
+d300 1
+a300 1
+			pHeaderCtrl->GetItem(m_iCurrentSortItem, &headerItem);
+d305 2
+a306 2
+		pHeaderCtrl->SetItem(m_iCurrentSortItem, &headerItem);
+		m_iCurrentSortItem = iColumn;
+d309 21
+a329 8
+	//place new arrow unless we were given an invalid column
+	if(iColumn >= 0 && pHeaderCtrl->GetItem(iColumn, &headerItem)) {
+		m_atSortArrow = atType;
+
+		HINSTANCE hInstRes = AfxFindResourceHandle(MAKEINTRESOURCE(m_atSortArrow), RT_BITMAP);
+		if (hInstRes != NULL){
+			HBITMAP hbmSortStates = (HBITMAP)::LoadImage(hInstRes, MAKEINTRESOURCE(m_atSortArrow), IMAGE_BITMAP, 0, 0, LR_CREATEDIBSECTION | LR_LOADMAP3DCOLORS);
+			if (hbmSortStates != NULL){
+d334 37
+a370 2
+				if (imlSortStates.Create(14, 14, ILC_COLOR | ILC_MASK, 1, 0)){
+					VERIFY( imlSortStates.Add(&bmSortStates, RGB(255, 0, 255)) != -1 );
+d372 4
+a375 4
+					// To avoid drawing problems (which occure only with an image list *with* a mask) while
+					// resizing list view columns which have the header control bitmap right aligned, set
+					// the background color of the image list.
+					if (g_eMuleApp.m_dwCommCtrlMjr < MAKEDLLVERULL(6,0,0,0))
+d378 2
+a379 2
+					// When setting the image list for the header control for the first time we'll get
+					// the image list of the listview control!! So, better store the header control imagelist separate.
+d384 3
+a386 3
+					// Use smaller bitmap margins -- this saves some pixels which may be required for 
+					// rather small column titles.
+					if (g_eMuleApp.m_dwCommCtrlMjr >= MAKEDLLVERULL(5,8,0,0))
+d389 1
+a389 1
+						int iNewBmpMargin = GetSystemMetrics(SM_CXEDGE) + GetSystemMetrics(SM_CXEDGE)/2;
+d398 1
+a398 1
+		headerItem.iImage = 0;
+d492 1
+a492 1
+	if(iItem >= iItemCount || iItem < 0)
+d499 1
+a499 1
+	int iUpperBound =  iItemCount -1;
+d502 1
+a502 1
+	if(dwpItemData == NULL)
+d505 2
+a506 2
+	// if it isn't  first element, we gonna compare it with previous element
+	if(notFirst) 
+d508 2
+a509 2
+		// get Index of previous element (Item-1)
+		int iNewIndex = iItem - 1;		
+d511 1
+a511 1
+		// check if we need to move an Item
+d513 2
+a514 2
+		// we need to move it
+		if(iResult < 0) 
+d518 1
+a518 1
+			while(iDist >= 1) 
+d520 2
+a521 1
+				for(int i = 0; i < iDist; i++) m_Params.GetPrev(posPrev);
+d523 1
+a523 1
+				if(m_SortProc(dwpItemData, GetParamAt(posPrev, iNewIndex - iDist), m_dwParamSort) < 0) 
+d525 1
+a525 1
+					// update an Index & postion
+d528 4
+a531 4
+					// calculate new step based on new Index
+					iDist = ceil((iNewIndex - iLowerBound)/2.0);
+				} 
+				else 
+d533 1
+a533 1
+					// set postion to initial one, if we don't need to move
+d535 2
+a536 2
+					// just decrease a step
+					iDist = iDist/2;
+d545 1
+a545 1
+	if(notLast) 
+d547 1
+a547 1
+		// get Index of next element (Item+1)
+d550 1
+a550 1
+		// check if we need to move an Item
+d552 1
+a552 1
+		if(iResult > 0) 
+d556 1
+a556 1
+			while(iDist >= 1) 
+d558 1
+a558 1
+				for(int i = 0; i < iDist; i++)
+d561 1
+a561 1
+				if (m_SortProc(dwpItemData, GetParamAt(posNext, iNewIndex + iDist), m_dwParamSort) > 0) 
+d563 1
+a563 1
+					// update an Index & postion
+d566 1
+a566 1
+					// calculate new step based on new Index
+d568 1
+a568 1
+				} 
+d571 1
+a571 1
+					// set postion to initial one, if we don't need to move
+d573 2
+a574 2
+					// just decrease a step
+					iDist = iDist/2;
+d588 1
+a588 1
+	LPARAM		lParam = 0;
+d601 4
+a604 4
+// As long as we do not handle the HDN_DIVIDERDBLCLICK according the actual
+// listview item contents it's better to resize to the header width instead of
+// resizing to zero width. The complete solution for this would require a lot
+// of rewriting in the owner drawn listview controls...
+d614 1
+a614 1
+	switch(message)
+d618 5
+a622 3
+			if(wParam == 0) {
+				if(((NMHDR*)lParam)->code == NM_RCLICK) {
+					//handle right click on headers and show column menu
+d629 1
+a629 1
+					if(m_Name.GetLength() != 0)
+d634 2
+a635 1
+					for(int iCurrent = 1; iCurrent < iCount; iCurrent++) {
+d643 2
+a644 2
+						tmColumnMenu.AppendMenu(MF_STRING | m_aColumns[iCurrent].bHidden ? 0 : MF_CHECKED,
+							MLC_IDC_MENU + iCurrent, item.pszText);
+d647 1
+a647 1
+					VERIFY( tmColumnMenu.DestroyMenu() );
+d651 4
+a654 2
+				} else if(((NMHDR*)lParam)->code == HDN_BEGINTRACKA || ((NMHDR*)lParam)->code == HDN_BEGINTRACKW) {
+					//stop them from changeing the size of anything "before" first column
+d656 3
+a658 3
+					HD_NOTIFY *pHDN = (HD_NOTIFY*)lParam;
+					if(m_aColumns[pHDN->iItem].bHidden)
+						return *pResult = TRUE;
+d660 4
+a663 2
+				} else if(((NMHDR*)lParam)->code == HDN_ENDDRAG) {
+					//stop them from moving first column
+d665 3
+a667 2
+					NMHEADER *pHeader = (NMHEADER*)lParam;
+					if(pHeader->iItem != 0 && pHeader->pitem->iOrder != 0) {
+d670 2
+a671 1
+						if(iNewLoc > 0) {
+d673 2
+a674 1
+							if(m_aColumns[pHeader->iItem].iLocation != iNewLoc) {
+d676 2
+a677 1
+								if(m_aColumns[pHeader->iItem].iLocation > iNewLoc) {
+d680 3
+a682 2
+									for(int i = 0; i < m_iColumnsTracked; i++) {
+										if(m_aColumns[i].iLocation >= iMin && m_aColumns[i].iLocation < iMax)
+d687 2
+a688 1
+								else if(m_aColumns[pHeader->iItem].iLocation < iNewLoc) {
+d691 3
+a693 2
+									for(int i = 0; i < m_iColumnsTracked; i++) {
+										if(m_aColumns[i].iLocation > iMin && m_aColumns[i].iLocation <= iMax)
+d708 1
+a708 1
+				else if(((NMHDR*)lParam)->code == HDN_DIVIDERDBLCLICKA || ((NMHDR*)lParam)->code == HDN_DIVIDERDBLCLICKW)
+d712 1
+a712 1
+						NMHEADER	*pHeader = reinterpret_cast<NMHEADER*>(lParam);
+d714 1
+a714 1
+						return OnNMDividerDoubleClick(pHeader,pResult);
+d722 1
+a722 1
+			//deal with menu clicks
+d724 2
+a725 1
+			if(wParam == MLC_IDC_UPDATE) {
+d729 3
+a731 1
+			} else if(wParam >= MLC_IDC_MENU) {
+d733 1
+a733 1
+				CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+d737 1
+a737 1
+				if(iToggle >= iCount)
+d740 1
+a740 1
+				if(m_aColumns[iToggle].bHidden)
+d751 5
+a755 4
+			//book keeping!
+			if(m_aColumns != NULL) {
+				for(int i = 0; i < m_iColumnsTracked; i++)
+					if(m_aColumns[i].bHidden)
+d762 2
+a763 1
+			for(int i = 0; i < m_iColumnsTracked; i++) {
+d769 1
+a769 1
+		//case LVM_INSERTCOLUMN:
+d773 5
+a777 4
+			//book keeping!
+			if(m_aColumns != NULL) {
+				for(int i = 0; i < m_iColumnsTracked; i++)
+					if(m_aColumns[i].bHidden)
+d784 2
+a785 1
+			for(int i = 0; i < m_iColumnsTracked; i++) {
+d793 1
+a793 1
+			//book keeping
+d796 2
+a797 1
+				if(pos) {
+d799 1
+a799 1
+						PostMessage(LVM_UPDATE, ((LPLVITEM)lParam)->iItem);
+d810 1
+a810 1
+			//need to check for movement
+d813 2
+a814 2
+			if(*pResult)
+					PostMessage(WM_COMMAND, MLC_IDC_UPDATE, wParam);
+d819 1
+a819 1
+			//book keeping...
+d823 1
+a823 1
+			for(POSITION pos = m_Params.GetHeadPosition(); pos != NULL; m_Params.GetNext(pos))
+d829 1
+a829 1
+			//book keeping...
+d831 1
+a831 1
+			if(!CListCtrl::OnWndMsg(message, wParam, lParam, pResult) && DefWindowProc(message, wParam, lParam)) 
+d837 1
+a837 1
+			//book keeping.....
+d840 2
+a841 2
+			if(!CListCtrl::OnWndMsg(message, wParam, lParam, pResult) && DefWindowProc(message, wParam, lParam))
+					m_Params.RemoveAt(m_Params.FindIndex(wParam));
+d844 1
+a844 1
+		//case LVM_INSERTITEM:
+d847 1
+a847 1
+		//try to fix position of inserted items
+d902 1
+a902 1
+				if(iResult > 0) 
+d932 1
+a932 1
+			if(pItem->iItem == 0) 
+d939 1
+a939 1
+			if(lResult != -1) 
+d941 1
+a941 1
+				if(lResult >= GetItemCount())
+d943 1
+a943 1
+				else if(lResult == 0)
+d953 1
+a953 1
+			//better fix for old problem... normally Update(int) causes entire list to redraw
+d955 2
+a956 1
+			if(wParam == UpdateLocation(wParam)) { //no need to invalidate rect if item moved
+d959 1
+a959 1
+				if(bResult)
+d970 1
+a970 1
+void CMuleListCtrl::OnKeyDown(UINT nChar,UINT nRepCnt,UINT nFlags)
+d972 3
+a974 2
+	if ( nChar=='A' && ::GetAsyncKeyState(VK_CONTROL)<0) {
+		// Ctrl+A: Select all items
+d976 6
+a981 6
+		theItem.mask= LVIF_STATE;
+		theItem.iItem= -1;
+		theItem.iSubItem= 0;
+		theItem.state= LVIS_SELECTED;
+		theItem.stateMask= 2;
+		SetItemState(-1, &theItem);
+d983 1
+a983 1
+	else if (nChar==VK_DELETE)
+d985 5
+a989 3
+	else if (m_bGeneralPurposeFind){
+		if (nChar == 'F' && (GetKeyState(VK_CONTROL) & 0x8000)){
+			// Ctrl+F: Search item
+d992 5
+a996 3
+		else if (nChar == VK_F3){
+			if (GetKeyState(VK_SHIFT) & 0x8000){
+				// Shift+F3: Search previous
+d999 3
+a1001 2
+			else{
+				// F3: Search next
+d1007 1
+a1007 1
+	return CListCtrl::OnKeyDown(nChar,nRepCnt,nFlags);
+d1016 1
+a1016 1
+		  && ((LPNMLVCUSTOMDRAW)lParam)->nmcd.dwDrawStage == CDDS_ITEMPREPAINT )
+d1037 1
+a1037 1
+void CMuleListCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct) 
+d1039 1
+a1039 1
+	//set up our ficker free drawing
+d1044 1
+a1044 1
+	CMemDC pDC(oDC, &rcItem);	
+d1047 1
+a1047 1
+	if(m_bCustomDraw)
+d1052 1
+a1052 1
+	int iOffset = pDC->GetTextExtent(_T(" "), 1 ).cx*2;
+d1057 1
+a1057 1
+	//gets the item image and state info
+d1065 1
+a1065 1
+	//see if the item be highlighted
+d1069 1
+a1069 1
+	//get rectangles for drawing
+d1076 1
+a1076 1
+	//the label!
+d1078 2
+a1079 2
+	//labels are offset by a certain amount 
+	//this offset is related to the width of a space character
+d1083 2
+a1084 2
+	//should I check (GetExtendedStyle() & LVS_EX_FULLROWSELECT) ?
+	rcHighlight.top    = rcBounds.top;
+d1086 2
+a1087 2
+	rcHighlight.left   = rcBounds.left  + 1;
+	rcHighlight.right  = rcBounds.right - 1;
+d1091 2
+a1092 2
+	//draw the background color
+	if(bHighlight) 
+d1094 1
+a1094 1
+		if(bCtrlFocused) 
+d1101 2
+a1102 2
+		} 
+		else 
+d1110 2
+a1111 2
+	} 
+	else 
+d1120 1
+a1120 1
+	//update column
+d1123 2
+a1124 2
+	//draw state icon
+	if(lvi.state & LVIS_STATEIMAGEMASK) 
+d1126 1
+a1126 1
+		int nImage = ((lvi.state & LVIS_STATEIMAGEMASK)>>12) - 1;
+d1128 1
+a1128 1
+		if(pImageList) 
+d1136 1
+a1136 1
+	//draw the item's icon
+d1138 1
+a1138 1
+	if(pImageList) 
+d1143 1
+a1143 1
+		//moved to fix problem with serachlist when FileTypeIcon disabled
+d1149 1
+a1149 1
+	//draw item label (column 0)
+d1153 1
+a1153 1
+	//draw labels for remaining columns
+d1159 1
+a1159 1
+	for(int iCurrent = 1; iCurrent < iCount; iCurrent++) 
+d1162 2
+a1163 2
+		//don't draw column 0 again
+		if(iColumn == 0)
+d1167 2
+a1168 2
+		//don't draw anything with 0 width
+		if(lvc.cx == 0)
+d1178 1
+a1178 1
+		//get the text justification
+d1180 1
+a1180 1
+		switch(lvc.fmt & LVCFMT_JUSTIFYMASK) 
+d1183 2
+a1184 2
+				nJustify = DT_RIGHT;
+				break;
+d1186 2
+a1187 2
+				nJustify = DT_CENTER;
+				break;
+d1189 1
+a1189 1
+				break;
+d1199 2
+a1200 2
+	//draw focus rectangle if item has focus
+	if((lvi.state & LVIS_FOCUSED) && (bCtrlFocused || (lvi.state & LVIS_SELECTED))) 
+d1202 1
+a1202 1
+		if(!bCtrlFocused || !(lvi.state & LVIS_SELECTED))
+d1219 1
+a1219 1
+	//restore old font
+d1223 1
+a1223 1
+	RestoreDC(lpDrawItemStruct->hDC,iState);
+d1238 1
+a1238 1
+	//draw top portion
+d1242 1
+a1242 1
+	pDC->FillSolidRect(&clientRect,GetBkColor());
+d1244 3
+a1246 2
+	//draw bottom portion if we have to
+	if(topIndex + maxItems >= itemCount) {
+d1253 3
+a1255 2
+	//draw right half if we need to
+	if (itemRect.right < clientRect.right) {
+d1266 1
+a1266 1
+	//adjust colors
+d1270 3
+a1272 3
+	//redraw the up/down sort arrow (if it's there)
+	if(m_iCurrentSortItem >= 0)
+		SetSortArrow(m_iCurrentSortItem, (ArrowType)m_atSortArrow);
+d1278 4
+a1281 3
+	if (m_imlHeaderCtrl.m_hImageList != NULL){
+		// Must *again* set the image list for the header control, because LVM_SETIMAGELIST
+		// always resets any already specified header control image lists!
+d1290 3
+a1292 2
+	if (iStartItem < 0) {
+		MessageBeep((UINT)-1);
+d1298 1
+a1298 1
+	while ( iDirection ? iItem < iNumItems : iItem >= 0 )
+d1301 1
+a1301 1
+		//TRACE("iItem=%d  szText=%s\n", iItem, strItemText);
+d1305 2
+a1306 2
+				   ? _tcsstr(strItemText, m_strFindText) != NULL
+				   : stristr(strItemText, m_strFindText) != NULL )
+d1308 2
+a1309 2
+				// Deselect all listview entries
+				SetItemState(-1, 0, LVIS_SELECTED);
+d1311 1
+a1311 1
+				// Select the found listview entry
+d1314 1
+a1314 1
+				EnsureVisible(iItem, FALSE/*bPartialOK*/);
+d1330 1
+a1330 1
+		MessageBeep((UINT)-1);
+d1338 2
+a1339 2
+	//dlg.m_bMatchCase = m_bFindMatchCase;
+	//dlg.m_iSearchDirection = m_iFindDirection;
+d1344 2
+a1345 2
+	//m_bFindMatchCase = dlg.m_bMatchCase;
+	//m_iFindDirection = dlg.m_iSearchDirection;
+d1348 1
+a1348 1
+	DoFindNext(TRUE/*bShowError*/);
+d1353 1
+a1353 1
+	DoFindNext(FALSE/*bShowError*/);
+d1358 1
+a1358 1
+	int iStartItem = GetNextItem(-1, LVNI_SELECTED | LVNI_FOCUSED);
+d1368 1
+a1368 1
+	int iStartItem = GetNextItem(-1, LVNI_SELECTED | LVNI_FOCUSED);
+d1374 1
+a1374 1
+	DoFind(iStartItem, !m_iFindDirection, FALSE/*bShowError*/);
+d1377 1
+a1377 1
+BOOL CMuleListCtrl::PreTranslateMessage(MSG* pMsg) 
+d1379 2
+a1380 2
+   	if ( pMsg->message == 260 && pMsg->wParam == 13 && GetAsyncKeyState(VK_MENU)<0 )
+   	{
+d1392 1
+a1392 1
+// CDlgListSearchListSearch
+d1405 2
+a1406 2
+	: CDialog(CDlgListSearchListSearch::IDD, pParent)
+	, m_strFindText(_T(""))
+a1435 2
+	
+	SetDlgItemText(IDCANCEL, GetResString(IDS_CANCEL));	
+d1437 3
+a1439 1
+	SetIcon(g_eMuleApp.m_pdlgEmule->m_hiconSourceTray,FALSE);
+d1447 1
+a1447 1
+		lvc.cchTextMax = sizeof(szColTitle)/sizeof(szColTitle[0]);
+@
+
+
+1.29
+log
+@Formatting, comments, and name changes.
+@
+text
+@d334 3
+d340 2
+a341 1
+	//save substrings
+d344 2
+d375 1
+a375 1
+	lvi_copy.iSubItem = 0;
+a382 2
+	SetRedraw(FALSE);
+	//SetItemData(iOldIndex, 0);  //should do this to be safe?
+d388 1
+a388 2
+	SetRedraw(TRUE);
+
+d392 2
+a395 1
+			LVITEM lvi;
+d398 2
+a399 1
+			if (pstrSubItem != NULL){
+d404 1
+d406 1
+d413 1
+d467 2
+a468 1
+			return MoveItem(iItem, iNewIndex+1);
+d759 2
+d762 4
+a765 2
+			if(notFirst) {
+				int iNewIndex = iItem - 1;
+d767 1
+d769 3
+a771 1
+				if(iResult < 0) {
+d774 2
+a775 1
+					while(iDist > 1) {
+d779 3
+a781 1
+						if(m_SortProc(pItem->lParam, GetParamAt(posPrev, iNewIndex - iDist), m_dwParamSort) < 0) {
+d784 6
+a789 1
+						} else {
+d791 3
+a794 1
+						iDist /= 2;
+d796 2
+a797 7
+					while(--iNewIndex >= 0) {
+						m_Params.GetPrev(pos);
+						if(m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) >= 0)
+							break;
+					}
+					pItem->iItem = iNewIndex + 1;
+					notLast = false;
+d800 4
+a803 3
+
+			if(notLast) {
+				int iNewIndex = iItem;
+d805 1
+d807 2
+a808 1
+				if(iResult > 0) {
+d811 2
+a812 1
+					while(iDist > 1) {
+d816 3
+a818 1
+						if(m_SortProc(pItem->lParam, GetParamAt(posNext, iNewIndex + iDist), m_dwParamSort) > 0) {
+d821 6
+a826 1
+						} else {
+d828 3
+a831 6
+						iDist /= 2;
+					}
+					while(++iNewIndex < iItemCount) {
+						m_Params.GetNext(pos);
+						if(m_SortProc(pItem->lParam, GetParamAt(pos, iNewIndex), m_dwParamSort) <= 0)
+							break;
+d837 2
+a838 1
+			if(pItem->iItem == 0) {
+d844 2
+a845 1
+			if(lResult != -1) {
+@
+
+
+1.28
+log
+@correct setup of an sort arrow during the initialization
+@
+text
+@d508 1
+a508 1
+	if (iItem != -1)
+@
+
+
+1.27
+log
+@Formatting, comments, and name changes.
+Removed #includes for "memcpy_amd.h".
+@
+text
+@d274 7
+a280 2
+		pHeaderCtrl->GetItem(m_iCurrentSortItem, &headerItem);
+		headerItem.fmt &= ~(HDF_IMAGE | HDF_BITMAP_ON_RIGHT);
+@
+
+
+1.26
+log
+@sort arrows fix
+@
+text
+@d10 1
+a10 1
+#include "memcpy_amd.h"
+@
+
+
+1.25
+log
+@speed optimization in UpdateLocation
+@
+text
+@d272 1
+a272 2
+	// eklmn: check if Items were initialized
+	if(m_iCurrentSortItem >= 0 && iColumn != m_iCurrentSortItem) 
+@
+
+
+1.24
+log
+@Reinstated ShowFileStatusIcons
+@
+text
+@d444 1
+a444 1
+					iDist = ceil((iNewIndex - iLowerBound)/2);
+d481 1
+a481 1
+					iDist = ceil((iUpperBound - iNewIndex) / 2);
+@
+
+
+1.23
+log
+@Formatting, comments, and name changes.
+Factored the header double-click handling code from OnWndMsg() out into virtual OnNMDividerDoubleClick().
+@
+text
+@d68 6
+a73 6
+    m_crWindow = 0;
+    m_crWindowText = 0;
+    m_crHighlight = 0;
+    m_crFocusLine = 0;
+    m_crNoHighlight = 0;
+    m_crNoFocusLine = 0;
+d75 3
+a77 3
+    m_bFindMatchCase = false;
+    m_iFindDirection = 1;
+    m_iFindColumn = 0;
+d268 1
+d271 4
+a274 2
+	//delete old image if column has changed
+	if(iColumn != m_iCurrentSortItem) {
+a280 1
+
+d336 2
+a337 1
+	if((Style & LVS_OWNERDATA) == 0) {
+d342 2
+a343 1
+		for(int i = 1; i < m_iColumnsTracked; i++){
+d348 2
+a349 1
+			if (GetItem(&lvi)){
+d360 1
+a360 1
+	LVITEM lvi;
+d362 8
+a369 8
+	lvi.mask = LVIF_TEXT | LVIF_STATE | LVIF_PARAM | LVIF_INDENT | LVIF_IMAGE | LVIF_NORECOMPUTE;
+	lvi.stateMask = (UINT)-1;
+	lvi.iItem = iOldIndex;
+	lvi.iSubItem = 0;
+	lvi.pszText = szText;
+	lvi.cchTextMax = sizeof(szText) / sizeof(szText[0]);
+	lvi.iIndent = 0;
+	if(GetItem(&lvi) == 0)
+a370 1
+	lvi.iItem = iNewIndex;
+d375 5
+a379 2
+	DeleteItem(iOldIndex);
+	iNewIndex = InsertItem(&lvi);
+d383 4
+a386 3
+	if((Style & LVS_OWNERDATA) == 0) {
+		for(int i = 1; i < m_iColumnsTracked; i++) {
+
+d414 3
+d421 5
+a425 2
+	if(notFirst) {
+		int iNewIndex = iItem - 1;
+d427 1
+d429 3
+a431 1
+		if(iResult < 0) {
+d434 7
+a440 5
+			while(iDist > 1) {
+				for(int i = 0; i < iDist; i++)
+					m_Params.GetPrev(posPrev);
+
+				if(m_SortProc(dwpItemData, GetParamAt(posPrev, iNewIndex - iDist), m_dwParamSort) < 0) {
+d443 6
+a448 1
+				} else {
+d450 3
+a453 6
+				iDist /= 2;
+			}
+			while(--iNewIndex >= 0) {
+				m_Params.GetPrev(pos);
+				if(m_SortProc(dwpItemData, GetParamAt(pos, iNewIndex), m_dwParamSort) >= 0)
+					break;
+d455 1
+a455 2
+			MoveItem(iItem, iNewIndex + 1);
+			return iNewIndex + 1;
+d459 3
+a461 1
+	if(notLast) {
+d464 1
+d466 2
+a467 1
+		if(iResult > 0) {
+d470 2
+a471 1
+			while(iDist > 1) {
+d475 3
+a477 1
+				if(m_SortProc(dwpItemData, GetParamAt(posNext, iNewIndex + iDist), m_dwParamSort) > 0) {
+d480 6
+a485 1
+				} else {
+d487 3
+a490 6
+				iDist /= 2;
+			}
+			while(++iNewIndex < iItemCount) {
+				m_Params.GetNext(pos);
+				if(m_SortProc(dwpItemData, GetParamAt(pos, iNewIndex), m_dwParamSort) <= 0)
+					break;
+d492 1
+a492 2
+			MoveItem(iItem, iNewIndex);
+			return iNewIndex;
+@
+
+
+1.22
+log
+@an incorrect use of GDI resources (CBrush class)
+@
+text
+@d44 7
+d55 3
+a57 1
+CMuleListCtrl::CMuleListCtrl(PFNLVCOMPARE pfnCompare, DWORD dwParamSort) {
+d79 3
+a81 2
+
+CMuleListCtrl::~CMuleListCtrl() {
+d85 3
+a87 2
+
+int CMuleListCtrl::SortProc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort) {
+d90 3
+a92 2
+
+void CMuleListCtrl::SetName(LPCTSTR lpszName) {
+d95 3
+a97 2
+
+void CMuleListCtrl::PreSubclassWindow() {
+d103 3
+a105 2
+
+int CMuleListCtrl::IndexToOrder(CHeaderCtrl* pHeader, int iIndex) {
+d118 3
+a120 2
+
+void CMuleListCtrl::HideColumn(int iColumn) {
+d159 3
+a161 2
+
+void CMuleListCtrl::ShowColumn(int iColumn) {
+d197 3
+a199 2
+
+void CMuleListCtrl::SaveSettings(CPreferences::EnumTable tID) {
+d251 3
+a253 2
+
+void CMuleListCtrl::SetColors() {
+d263 3
+a265 2
+
+void CMuleListCtrl::SetSortArrow(int iColumn, ArrowType atType) {
+d324 4
+a327 2
+
+int CMuleListCtrl::MoveItem(int iOldIndex, int iNewIndex) { //move item in list, returns index of new item
+d396 3
+a398 2
+
+int CMuleListCtrl::UpdateLocation(int iItem) {
+d470 3
+a472 2
+
+DWORD_PTR CMuleListCtrl::GetItemData(int iItem) {
+d484 8
+d493 32
+a524 16
+//lower level than everything else so poorly overriden functions don't break us
+BOOL CMuleListCtrl::OnWndMsg(UINT message, WPARAM wParam, LPARAM lParam, LRESULT* pResult) {
+	//lets look for the important messages that are essential to handle
+	switch(message) {
+	case WM_NOTIFY:
+		if(wParam == 0) {
+			if(((NMHDR*)lParam)->code == NM_RCLICK) {
+				//handle right click on headers and show column menu
+
+				POINT point;
+				GetCursorPos (&point);
+
+				CTitleMenu tmColumnMenu;
+				tmColumnMenu.CreatePopupMenu();
+				if(m_Name.GetLength() != 0)
+					tmColumnMenu.AddMenuTitle(m_Name);
+d526 5
+a530 9
+				CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+				int iCount = pHeaderCtrl->GetItemCount();
+				for(int iCurrent = 1; iCurrent < iCount; iCurrent++) {
+					HDITEM item;
+					TCHAR text[255];
+					item.pszText = text;
+					item.mask = HDI_TEXT;
+					item.cchTextMax = 255;
+					pHeaderCtrl->GetItem(iCurrent, &item);
+d532 1
+a532 5
+					tmColumnMenu.AppendMenu(MF_STRING | m_aColumns[iCurrent].bHidden ? 0 : MF_CHECKED,
+						MLC_IDC_MENU + iCurrent, item.pszText);
+				}
+				tmColumnMenu.TrackPopupMenu(TPM_LEFTALIGN | TPM_RIGHTBUTTON, point.x, point.y, this);
+				VERIFY( tmColumnMenu.DestroyMenu() );
+d534 2
+a535 1
+				return *pResult = TRUE;
+d537 3
+a539 2
+			} else if(((NMHDR*)lParam)->code == HDN_BEGINTRACKA || ((NMHDR*)lParam)->code == HDN_BEGINTRACKW) {
+				//stop them from changeing the size of anything "before" first column
+d541 2
+a542 3
+				HD_NOTIFY *pHDN = (HD_NOTIFY*)lParam;
+				if(m_aColumns[pHDN->iItem].bHidden)
+					return *pResult = TRUE;
+d544 2
+a545 2
+			} else if(((NMHDR*)lParam)->code == HDN_ENDDRAG) {
+				//stop them from moving first column
+d547 2
+a548 2
+				NMHEADER *pHeader = (NMHEADER*)lParam;
+				if(pHeader->iItem != 0 && pHeader->pitem->iOrder != 0) {
+d550 1
+a550 2
+					int iNewLoc = pHeader->pitem->iOrder - GetHiddenColumnCount();
+					if(iNewLoc > 0) {
+d552 7
+a558 8
+						if(m_aColumns[pHeader->iItem].iLocation != iNewLoc) {
+
+							if(m_aColumns[pHeader->iItem].iLocation > iNewLoc) {
+								int iMax = m_aColumns[pHeader->iItem].iLocation;
+								int iMin = iNewLoc;
+								for(int i = 0; i < m_iColumnsTracked; i++) {
+									if(m_aColumns[i].iLocation >= iMin && m_aColumns[i].iLocation < iMax)
+										m_aColumns[i].iLocation++;
+a559 1
+							}
+d561 7
+a567 6
+							else if(m_aColumns[pHeader->iItem].iLocation < iNewLoc) {
+								int iMin = m_aColumns[pHeader->iItem].iLocation;
+								int iMax = iNewLoc;
+								for(int i = 0; i < m_iColumnsTracked; i++) {
+									if(m_aColumns[i].iLocation > iMin && m_aColumns[i].iLocation <= iMax)
+										m_aColumns[i].iLocation--;
+a568 1
+							}
+d570 1
+a570 1
+							m_aColumns[pHeader->iItem].iLocation = iNewLoc;
+d572 3
+a574 2
+							Invalidate(FALSE);
+							break;
+d577 2
+d580 5
+d586 2
+a587 10
+				return *pResult = 1;
+			} else if(((NMHDR*)lParam)->code == HDN_DIVIDERDBLCLICKA || ((NMHDR*)lParam)->code == HDN_DIVIDERDBLCLICKW) {
+				if (GetStyle() & LVS_OWNERDRAWFIXED) {
+					NMHEADER *pHeader = (NMHEADER*)lParam;
+					// As long as we do not handle the HDN_DIVIDERDBLCLICK according the actual
+					// listview item contents it's better to resize to the header width instead of
+					// resizing to zero width. The complete solution for this would require a lot
+					// of rewriting in the owner drawn listview controls...
+					SetColumnWidth(pHeader->iItem, LVSCW_AUTOSIZE_USEHEADER);
+					return *pResult = 1;		//netwolf: resize width to header (official 0.28a)
+d590 1
+d592 3
+a594 1
+		break;
+d596 3
+a598 2
+	case WM_COMMAND:
+		//deal with menu clicks
+d600 1
+a600 3
+		if(wParam == MLC_IDC_UPDATE) {
+			UpdateLocation(lParam);
+			return *pResult = 1;
+d602 2
+a603 1
+		} else if(wParam >= MLC_IDC_MENU) {
+d605 3
+a607 2
+			CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+			int iCount = pHeaderCtrl->GetItemCount();
+d609 4
+a612 3
+			int iToggle = wParam - MLC_IDC_MENU;
+			if(iToggle >= iCount)
+				break;
+d614 11
+a624 4
+			if(m_aColumns[iToggle].bHidden)
+				ShowColumn(iToggle);
+			else
+				HideColumn(iToggle);
+d626 9
+a634 1
+			return *pResult = 1;
+d636 9
+a644 1
+		break;
+d646 21
+a666 9
+	case LVM_DELETECOLUMN:
+		//book keeping!
+		if(m_aColumns != NULL) {
+			for(int i = 0; i < m_iColumnsTracked; i++)
+				if(m_aColumns[i].bHidden)
+					ShowColumn(i);
+
+			delete[] m_aColumns;
+			m_aColumns = NULL; // 'new' may throw an exception
+d668 3
+a670 4
+		m_aColumns = new MULE_COLUMN[--m_iColumnsTracked];
+		for(int i = 0; i < m_iColumnsTracked; i++) {
+			m_aColumns[i].iLocation = i;
+			m_aColumns[i].bHidden = false;
+d672 3
+a674 1
+		break;
+d676 8
+a683 4
+	//case LVM_INSERTCOLUMN:
+	case LVM_INSERTCOLUMNA:
+	case LVM_INSERTCOLUMNW:
+		//book keeping!
+d685 9
+a693 4
+		if(m_aColumns != NULL) {
+			for(int i = 0; i < m_iColumnsTracked; i++)
+				if(m_aColumns[i].bHidden)
+					ShowColumn(i);
+d695 3
+a697 2
+			delete[] m_aColumns;
+			m_aColumns = NULL; // 'new' may throw an exception
+d699 3
+a701 6
+		m_aColumns = new MULE_COLUMN[++m_iColumnsTracked];
+		for(int i = 0; i < m_iColumnsTracked; i++) {
+			m_aColumns[i].iLocation = i;
+			m_aColumns[i].bHidden = false;
+		}
+		break;
+d703 8
+a710 47
+	case LVM_SETITEM:
+		//book keeping
+		{
+			POSITION pos = m_Params.FindIndex(((LPLVITEM)lParam)->iItem);
+			if(pos) {
+				m_Params.SetAt(pos, MLC_MAGIC);
+					PostMessage(LVM_UPDATE, ((LPLVITEM)lParam)->iItem);
+			}
+		}
+		break;
+	case LVN_KEYDOWN:{
+		break;}
+	case LVM_SETITEMTEXT:
+		//need to check for movement
+
+		*pResult = DefWindowProc(message, wParam, lParam);
+		if(*pResult)
+				PostMessage(WM_COMMAND, MLC_IDC_UPDATE, wParam);
+		return *pResult;
+
+	case LVM_SORTITEMS:
+		//book keeping...
+
+		m_dwParamSort = (LPARAM)wParam;
+		m_SortProc = (PFNLVCOMPARE)lParam;
+		for(POSITION pos = m_Params.GetHeadPosition(); pos != NULL; m_Params.GetNext(pos))
+			m_Params.SetAt(pos, MLC_MAGIC);
+		break;
+
+	case LVM_DELETEALLITEMS:
+		//book keeping...
+
+		if(!CListCtrl::OnWndMsg(message, wParam, lParam, pResult) && DefWindowProc(message, wParam, lParam)) 
+			m_Params.RemoveAll();
+		return *pResult = TRUE;
+
+	case LVM_DELETEITEM:
+		//book keeping.....
+
+		MLC_ASSERT(m_Params.GetAt(m_Params.FindIndex(wParam)) == CListCtrl::GetItemData(wParam));
+		if(!CListCtrl::OnWndMsg(message, wParam, lParam, pResult) && DefWindowProc(message, wParam, lParam))
+				m_Params.RemoveAt(m_Params.FindIndex(wParam));
+		return *pResult = TRUE;
+
+	//case LVM_INSERTITEM:
+	case LVM_INSERTITEMA:
+	case LVM_INSERTITEMW:
+d791 1
+d793 3
+a795 1
+		break;
+d797 8
+a804 9
+	case LVM_UPDATE:
+		//better fix for old problem... normally Update(int) causes entire list to redraw
+
+		if(wParam == UpdateLocation(wParam)) { //no need to invalidate rect if item moved
+			RECT rcItem;
+			BOOL bResult = GetItemRect(wParam, &rcItem, LVIR_BOUNDS);
+			if(bResult)
+				InvalidateRect(&rcItem, FALSE);
+			return *pResult = bResult;
+a805 1
+		return *pResult = TRUE;
+d810 3
+a812 4
+
+
+void CMuleListCtrl::OnKeyDown(UINT nChar,UINT nRepCnt,UINT nFlags){
+	
+d844 1
+a844 1
+
+d847 7
+a853 4
+	if(message != WM_DRAWITEM) {
+		//catch the prepaint and copy struct
+		if(message == WM_NOTIFY && ((NMHDR*)lParam)->code == NM_CUSTOMDRAW &&
+		  ((LPNMLVCUSTOMDRAW)lParam)->nmcd.dwDrawStage == CDDS_ITEMPREPAINT) {
+d855 1
+a855 2
+			m_bCustomDraw = CListCtrl::OnChildNotify(message, wParam, lParam, pResult);
+			if(m_bCustomDraw)
+d868 1
+d871 1
+a871 14
+
+//////////////////////////////////
+// CMuleListCtrl message map
+
+BEGIN_MESSAGE_MAP(CMuleListCtrl, CListCtrl)
+	ON_WM_DRAWITEM()
+	ON_WM_KEYDOWN()
+	ON_WM_ERASEBKGND()
+	ON_WM_SYSCOLORCHANGE()
+END_MESSAGE_MAP()
+
+//////////////////////////////////
+// CMuleListCtrl message handlers
+
+d1060 3
+a1062 2
+
+BOOL CMuleListCtrl::OnEraseBkgnd(CDC* pDC) {
+d1096 3
+a1098 2
+
+void CMuleListCtrl::OnSysColorChange() {
+d1106 2
+a1107 2
+		}
+
+d1117 1
+a1117 103
+
+
+//////////////////////////////////////////////////////////////////////////////
+// CDlgListSearchListSearch
+
+class CDlgListSearchListSearch : public CDialog
+{
+	DECLARE_DYNAMIC(CDlgListSearchListSearch)
+
+public:
+	CDlgListSearchListSearch(CWnd* pParent = NULL);   // standard constructor
+
+// Dialog Data
+	enum { IDD = IDD_LISTVIEW_SEARCH };
+
+	CMuleListCtrl* m_pListView;
+	CString m_strFindText;
+	int m_iSearchColumn;
+
+protected:
+	CComboBox m_ctlSearchCol;
+
+	void UpdateControls();
+
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+
+	DECLARE_MESSAGE_MAP()
+
+public:
+	afx_msg void OnEnChangeSearchText();
+	virtual BOOL OnInitDialog();
+};
+
+IMPLEMENT_DYNAMIC(CDlgListSearchListSearch, CDialog)
+
+BEGIN_MESSAGE_MAP(CDlgListSearchListSearch, CDialog)
+	ON_EN_CHANGE(IDC_LISTVIEW_SEARCH_TEXT, OnEnChangeSearchText)
+END_MESSAGE_MAP()
+
+CDlgListSearchListSearch::CDlgListSearchListSearch(CWnd* pParent /*=NULL*/)
+	: CDialog(CDlgListSearchListSearch::IDD, pParent)
+	, m_strFindText(_T(""))
+{
+	m_pListView = NULL;
+	m_iSearchColumn = 0;
+}
+
+void CDlgListSearchListSearch::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_LISTVIEW_SEARCH_COLUMN, m_ctlSearchCol);
+	DDX_CBIndex(pDX, IDC_LISTVIEW_SEARCH_COLUMN, m_iSearchColumn);
+	DDX_Text(pDX, IDC_LISTVIEW_SEARCH_TEXT, m_strFindText);
+}
+
+void CDlgListSearchListSearch::OnEnChangeSearchText()
+{
+	UpdateControls();
+}
+
+void CDlgListSearchListSearch::UpdateControls()
+{
+	GetDlgItem(IDOK)->EnableWindow(GetDlgItem(IDC_LISTVIEW_SEARCH_TEXT)->GetWindowTextLength() > 0);
+}
+
+BOOL CDlgListSearchListSearch::OnInitDialog()
+{
+	CDialog::OnInitDialog();
+
+	SetDlgItemText(IDC_LISTVIEW_SEARCH_TEXT_LBL, GetResString(IDS_SEARCH_TEXT) + _T(':'));
+	SetDlgItemText(IDC_LISTVIEW_SEARCH_COLUMN_LBL, GetResString(IDS_SEARCH_COLUMN) + _T(':'));
+	
+	SetDlgItemText(IDCANCEL, GetResString(IDS_CANCEL));	
+
+	SetIcon(g_eMuleApp.m_pdlgEmule->m_hiconSourceTray,FALSE);
+	SetWindowText(GetResString(IDS_SW_SEARCHBOX));
+
+	if (m_pListView != NULL)
+	{
+		TCHAR szColTitle[256];
+		LVCOLUMN lvc;
+		lvc.mask = LVCF_TEXT;
+		lvc.cchTextMax = sizeof(szColTitle)/sizeof(szColTitle[0]);
+		lvc.pszText = szColTitle;
+		int iCol = 0;
+		while (m_pListView->GetColumn(iCol++, &lvc))
+			m_ctlSearchCol.AddString(lvc.pszText);
+		if ((UINT)m_iSearchColumn >= (UINT)m_ctlSearchCol.GetCount())
+			m_iSearchColumn = 0;
+	}
+	else
+	{
+		m_ctlSearchCol.EnableWindow(FALSE);
+		m_ctlSearchCol.ShowWindow(SW_HIDE);
+
+		m_iSearchColumn = 0;
+	}
+	m_ctlSearchCol.SetCurSel(m_iSearchColumn);
+
+	UpdateControls();
+	return TRUE;
+}
+
+d1163 1
+a1163 1
+
+d1181 1
+a1181 1
+
+d1186 1
+a1186 1
+
+d1196 1
+a1196 1
+
+d1207 1
+a1207 1
+
+d1218 82
+@
+
+
+1.21
+log
+@A little more method factoring, a few name changes, no (intended) logic changes.
+@
+text
+@d889 1
+d895 4
+a898 1
+			pDC->FillRect(rcHighlight, &CBrush(m_crHighlight));
+d903 4
+a906 1
+			pDC->FillRect(rcHighlight, &CBrush(m_crNoHighlight));
+d912 4
+a915 1
+		pDC->FillRect(rcHighlight, &CBrush(m_crWindow));
+d1002 6
+a1007 1
+			pDC->FrameRect(rcHighlight, &CBrush(m_crNoFocusLine));
+d1009 6
+a1014 1
+			pDC->FrameRect(rcHighlight, &CBrush(m_crFocusLine));
+@
+
+
+1.20
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d182 1
+a182 1
+void CMuleListCtrl::SaveSettings(CPreferences::Table tID) {
+d195 1
+a195 1
+void CMuleListCtrl::LoadSettings(CPreferences::Table tID)
+@
+
+
+1.19
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@a806 1
+			#ifndef AMD
+d808 1
+a808 5
+				memcpy(&m_lvcd, (void*)lParam, sizeof(NMLVCUSTOMDRAW));
+			#else
+			if(m_bCustomDraw)
+				memcpy_amd(&m_lvcd, (void*)lParam, sizeof(NMLVCUSTOMDRAW));
+			#endif
+@
+
+
+1.18
+log
+@Second batch of name changes
+@
+text
+@d186 2
+a187 2
+		theApp.glob_prefs->SetColumnWidth(tID, i, GetColumnWidth(i));
+		theApp.glob_prefs->SetColumnHidden(tID, i, IsColumnHidden(i));
+d191 1
+a191 1
+	theApp.glob_prefs->SetColumnOrder(tID, piArray);
+d206 1
+a206 1
+		int iWidth = theApp.glob_prefs->GetColumnWidth(tID, i);
+d216 1
+a216 1
+			int iOrder = theApp.glob_prefs->GetColumnOrder(tID, i);
+d230 1
+a230 1
+		if(theApp.glob_prefs->GetColumnHidden(tID, i))
+d278 1
+a278 1
+					if (theApp.m_dwCommCtrlMjr < MAKEDLLVERULL(6,0,0,0))
+d289 1
+a289 1
+					if (theApp.m_dwCommCtrlMjr >= MAKEDLLVERULL(5,8,0,0))
+d1138 1
+a1138 1
+	SetIcon(theApp.emuledlg->sourceTrayIcon,FALSE);
+@
+
+
+1.17
+log
+@Fix for lists navigation [from official]
+@
+text
+@d194 3
+a196 2
+
+void CMuleListCtrl::LoadSettings(CPreferences::Table tID) {
+d200 1
+d204 2
+a205 1
+	for(int i = 0; i < m_iColumnsTracked; i++) {
+d207 1
+d210 2
+a211 1
+		if(i == 0) {
+d213 3
+a215 1
+		} else {
+d251 1
+d289 2
+a290 1
+					if (theApp.m_dwCommCtrlMjr >= MAKEDLLVERULL(5,8,0,0)){
+d451 7
+a457 1
+	LPARAM lParam = GetParamAt(pos, iItem);
+a458 1
+	MLC_ASSERT(lParam == CListCtrl::GetItemData(iItem));
+@
+
+
+1.16
+log
+@Fix for searchlist FileTypeIcon state change [morevit]
+@
+text
+@a296 51
+/*
+int CMuleListCtrl::MoveItem(int iOldIndex, int iNewIndex) { //move item in list, returns index of new item
+	if(iNewIndex > iOldIndex)
+		iNewIndex--;
+
+	//save substrings
+	CString *strs=NULL;
+	DWORD Style = GetStyle();
+	if((Style & LVS_OWNERDATA) == 0) {
+		strs = new CString[m_iColumnsTracked];
+		for(int i = 0; i < m_iColumnsTracked; i++)
+			strs[i] = GetItemText(iOldIndex, i);
+	}
+
+	//copy item
+	LVITEM lvi;
+	TCHAR szText[256];
+	lvi.mask = LVIF_TEXT | LVIF_STATE | LVIF_PARAM | LVIF_INDENT | LVIF_IMAGE;
+	lvi.stateMask = (UINT)-1;
+	lvi.iItem = iOldIndex;
+	lvi.iSubItem = 0;
+	lvi.pszText = szText;
+	lvi.cchTextMax = sizeof(szText) / sizeof(szText[0]);
+	lvi.iIndent = 0;
+	if(GetItem(&lvi) == 0)
+		return -1;
+	lvi.iItem = iNewIndex;
+
+	//do the move
+	SetRedraw(FALSE);
+	//SetItemData(iOldIndex, 0);  //should do this to be safe?
+	DeleteItem(iOldIndex);
+	iNewIndex = InsertItem(&lvi);
+	SetRedraw(TRUE);
+
+	//restore substrings
+	if((Style & LVS_OWNERDATA) == 0) {
+		for(int i = 0; i < m_iColumnsTracked; i++) {
+			//SetItemText(iNewIndex, i, strs[i]);
+			LVITEM lvi;
+			lvi.iSubItem = i;
+			lvi.pszText = (LPTSTR)((LPCTSTR)strs[i]);
+			DefWindowProc(LVM_SETITEMTEXT, iNewIndex, (LPARAM)&lvi);
+		}
+		delete[] strs;
+	}
+
+	return iNewIndex;
+}
+*/
+	
+d1241 11
+@
+
+
+1.15
+log
+@Bugfixed my bugfix (tabs lozalization) and code update to see if columns have no problems being moved (sporadic repro).
+@
+text
+@d974 2
+d977 2
+a980 1
+	rcLabel.left += iOffset / 2;
+@
+
+
+1.14
+log
+@bugfixes
+@
+text
+@d297 1
+d342 71
+@
+
+
+1.13
+log
+@*** empty log message ***
+@
+text
+@a243 1
+	//delete old image if column has changed
+d270 1
+a270 1
+					if (theApp.m_dwCommCtrlMjr < 6)
+d281 6
+a286 4
+					int iBmpMargin = pHeaderCtrl->SendMessage(HDM_GETBITMAPMARGIN);
+					int iNewBmpMargin = GetSystemMetrics(SM_CXEDGE) + GetSystemMetrics(SM_CXEDGE)/2;
+					if (iNewBmpMargin < iBmpMargin)
+						pHeaderCtrl->SendMessage(HDM_SETBITMAPMARGIN, iNewBmpMargin);
+d990 1
+a990 1
+	if(topIndex + maxItems+1 >= itemCount) {
+@
+
+
+1.12
+log
+@unicode cleanup
+@
+text
+@d65 4
+d87 1
+a87 1
+	ModifyStyle(LVS_SINGLESEL|LVS_LIST|LVS_ICON|LVS_SMALLICON,LVS_REPORT|LVS_SINGLESEL);
+d286 1
+a286 1
+		}
+d457 1
+a457 1
+				tmColumnMenu.DestroyMenu();
+d553 1
+d573 1
+d731 2
+a732 1
+	if ( nChar==65 && ::GetAsyncKeyState(VK_CONTROL)<0) {
+d740 19
+a758 2
+	} else
+		if (nChar==VK_DELETE) PostMessage(WM_COMMAND, 0);
+d811 1
+a811 1
+	oDC->SetBkColor(m_crWindow);
+d898 1
+a898 1
+		COLORREF crOld = pImageList->SetBkColor(pDC->GetBkColor());
+d963 2
+d1024 192
+@
+
+
+1.11
+log
+@memcpy() optimized for AMD (faster in 2-2.5 times). AMD only. Compile with tag AMD
+@
+text
+@d443 1
+a443 1
+					char text[255];
+@
+
+
+1.10
+log
+@minor fixes and improvements
+@
+text
+@d10 1
+d747 1
+d750 4
+@
+
+
+1.9
+log
+@revert fix to return normal multipage autosort
+@
+text
+@d38 5
+d82 1
+a82 1
+	ModifyStyle(LVS_SINGLESEL|LVS_LIST|LVS_ICON|LVS_SMALLICON,LVS_REPORT|TVS_LINESATROOT|TVS_HASBUTTONS);
+d236 1
+a236 1
+	headerItem.mask = HDI_FORMAT | HDI_BITMAP;
+d242 1
+a242 5
+		headerItem.fmt &= ~(HDF_BITMAP | HDF_BITMAP_ON_RIGHT);
+		if (headerItem.hbm != 0) {
+			DeleteObject(headerItem.hbm);
+			headerItem.hbm = 0;
+		}
+d245 1
+d251 36
+a286 8
+		if (headerItem.hbm != 0) {
+			DeleteObject(headerItem.hbm);
+			headerItem.hbm = 0;
+		}
+		headerItem.fmt |= HDF_BITMAP | HDF_BITMAP_ON_RIGHT;
+		headerItem.hbm = (HBITMAP)LoadImage(AfxGetInstanceHandle(),
+			MAKEINTRESOURCE(m_atSortArrow), IMAGE_BITMAP, 0, 0,
+			LR_LOADMAP3DCOLORS);
+d296 1
+a296 1
+	CString *strs;
+a580 1
+				//if (!theApp.emuledlg->TrayIsVisible()) // Lord KiRon//Cax2 column mixup fix
+d585 2
+a586 1
+
+a591 1
+			//if (!theApp.emuledlg->TrayIsVisible()) // Lord KiRon//Cax2 column mixup fix
+a706 3
+		//Cax2 column mixup fix
+		//if (theApp.emuledlg->TrayIsVisible()) // Lord KiRon
+		//	return *pResult = TRUE;
+d721 17
+d767 1
+a774 1
+
+d980 2
+a981 11
+	if(m_iCurrentSortItem >= 0) {
+		CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+		HDITEM headerItem;
+		headerItem.mask = HDI_FORMAT | HDI_BITMAP;
+		if(pHeaderCtrl->GetItem(m_iCurrentSortItem, &headerItem) && headerItem.hbm != 0) {
+			DeleteObject(headerItem.hbm);
+			headerItem.fmt |= HDF_BITMAP | HDF_BITMAP_ON_RIGHT;
+			headerItem.hbm = (HBITMAP)LoadImage(AfxGetInstanceHandle(),
+				MAKEINTRESOURCE(m_atSortArrow), IMAGE_BITMAP, 0, 0,
+				LR_LOADMAP3DCOLORS);
+			pHeaderCtrl->SetItem(m_iCurrentSortItem, &headerItem);
+d983 8
+@
+
+
+1.8
+log
+@Slight CPU usage reduction , can be potentially dangerouse , I did not        found any problems :) but please look on list updates .
+@
+text
+@a314 4
+	if ( iItem < GetTopIndex() || iItem > GetCountPerPage() + GetTopIndex() )
+	{
+		return -1;
+	}
+@
+
+
+1.7
+log
+@Fixed MS mouse scroll redraw bug in a lists
+@
+text
+@d315 4
+@
+
+
+1.6
+log
+@netwolf's changes
+@
+text
+@d914 1
+a914 1
+	if(topIndex + maxItems >= itemCount) {
+@
+
+
+1.5
+log
+@*** empty log message ***
+@
+text
+@d471 10
+@
+
+
+1.4
+log
+@minor graphic details bugfixed, now preview player selection same as official
+@
+text
+@d726 1
+d883 1
+@
+
+
+1.3
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d814 1
+a814 1
+		COLORREF crOld = pImageList->SetBkColor(CLR_NONE);
+@
+
+
+1.3.2.1
+log
+@v1a upgrade
+@
+text
+@d814 1
+a814 1
+		COLORREF crOld = pImageList->SetBkColor(pDC->GetBkColor());
+@
+
+
+1.2
+log
+@bugifxes & improvements
+@
+text
+@d11 7
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d534 1
+a534 2
+				if (!theApp.emuledlg->TrayIsVisible()) // Lord KiRon
+				{
+a535 1
+				}
+d545 1
+a545 1
+			if (!theApp.emuledlg->TrayIsVisible()) // Lord KiRon
+d661 3
+a663 3
+
+		if (theApp.emuledlg->TrayIsVisible()) // Lord KiRon
+			return *pResult = TRUE;
+a712 66
+/*
+void CMuleListCtrl::DrawItem(LPDRAWITEMSTRUCT lpDrawItemStruct) {
+	//set up our ficker free drawing
+	CRect rcItem(lpDrawItemStruct->rcItem);
+	CDC *oDC = CDC::FromHandle(lpDrawItemStruct->hDC);
+	oDC->SetBkColor(m_crWindow);
+	CMemDC pDC(oDC, &rcItem);
+	pDC->SelectObject(GetFont());
+	if(m_bCustomDraw)
+		pDC->SetTextColor(m_lvcd.clrText);
+	else
+		pDC->SetTextColor(m_crWindowText);
+
+	int iOffset = pDC->GetTextExtent(_T(" "), 1 ).cx*2;
+	int iItem = lpDrawItemStruct->itemID;
+	CImageList* pImageList;
+	CHeaderCtrl *pHeaderCtrl = GetHeaderCtrl();
+
+	//gets the item image and state info
+	LV_ITEM lvi;
+	lvi.mask = LVIF_IMAGE | LVIF_STATE;
+	lvi.iItem = iItem;
+	lvi.iSubItem = 0;
+	lvi.stateMask = LVIS_DROPHILITED | LVIS_FOCUSED | LVIS_SELECTED;
+	GetItem(&lvi);
+
+	//see if the item be highlighted
+	BOOL bHighlight = ((lvi.state & LVIS_DROPHILITED) || (lvi.state & LVIS_SELECTED));
+	BOOL bCtrlFocused = ((GetFocus() == this) || (GetStyle() & LVS_SHOWSELALWAYS));
+
+	//get rectangles for drawing
+	CRect rcBounds, rcLabel, rcIcon;
+	GetItemRect(iItem, rcBounds, LVIR_BOUNDS);
+	GetItemRect(iItem, rcLabel, LVIR_LABEL);
+	GetItemRect(iItem, rcIcon, LVIR_ICON);
+	CRect rcCol(rcBounds);
+
+	//the label!
+	CString sLabel = GetItemText(iItem, 0);
+	//labels are offset by a certain amount
+	//this offset is related to the width of a space character
+	CRect rcHighlight;
+	CRect rcWnd;
+
+	//should I check (GetExtendedStyle() & LVS_EX_FULLROWSELECT) ?
+	rcHighlight.top    = rcBounds.top;
+	rcHighlight.bottom = rcBounds.bottom;
+	rcHighlight.left   = rcBounds.left  + 1;
+	rcHighlight.right  = rcBounds.right - 1;
+
+	//draw the background color
+	if(bHighlight) {
+		if(bCtrlFocused) {
+			pDC->FillRect(rcHighlight, &CBrush(m_crHighlight));
+			pDC->SetBkColor(m_crHighlight);
+		} else {
+			pDC->FillRect(rcHighlight, &CBrush(m_crNoHighlight));
+			pDC->SetBkColor(m_crNoHighlight);
+		}
+	} else {
+		pDC->FillRect(rcHighlight, &CBrush(m_crWindow));
+		pDC->SetBkColor(GetBkColor());
+	}
+
+	//update column
+	rcCol.right = rcCol.left + GetColumnWidth(0);
+a713 78
+	//draw state icon
+	if(lvi.state & LVIS_STATEIMAGEMASK) {
+		int nImage = ((lvi.state & LVIS_STATEIMAGEMASK)>>12) - 1;
+		pImageList = GetImageList(LVSIL_STATE);
+		if (pImageList) {
+			COLORREF crOld = pImageList->SetBkColor(CLR_NONE);
+			pImageList->Draw(pDC, nImage, rcCol.TopLeft(), ILD_NORMAL);
+			pImageList->SetBkColor(crOld);
+		}
+	}
+
+	//draw the item's icon
+	pImageList = GetImageList(LVSIL_SMALL);
+	if(pImageList) {
+		COLORREF crOld = pImageList->SetBkColor(CLR_NONE);
+		pImageList->Draw(pDC, lvi.iImage, rcIcon.TopLeft(), ILD_NORMAL);
+		pImageList->SetBkColor(crOld);
+	}
+
+	//draw item label (column 0)
+	rcLabel.left += iOffset / 2;
+	rcLabel.right -= iOffset;
+	pDC->DrawText(sLabel, -1, rcLabel, MLC_DT_TEXT | DT_LEFT | DT_NOCLIP);
+
+	//draw labels for remaining columns
+	LV_COLUMN lvc;
+	lvc.mask = LVCF_FMT | LVCF_WIDTH;
+	rcBounds.right = rcHighlight.right > rcBounds.right ? rcHighlight.right : rcBounds.right;
+
+	int iCount = pHeaderCtrl->GetItemCount();
+	for(int iCurrent = 1; iCurrent < iCount; iCurrent++) {
+
+		int iColumn = pHeaderCtrl->OrderToIndex(iCurrent);
+		//don't draw column 0 again
+		if(iColumn == 0)
+			continue;
+
+		GetColumn(iColumn, &lvc);
+		//don't draw anything with 0 width
+		if(lvc.cx == 0)
+			continue;
+
+		rcCol.left = rcCol.right;
+		rcCol.right += lvc.cx;
+
+		sLabel = GetItemText(iItem, iColumn);
+		if (sLabel.GetLength() == 0)
+			continue;
+
+		//get the text justification
+		UINT nJustify = DT_LEFT;
+		switch(lvc.fmt & LVCFMT_JUSTIFYMASK) {
+		case LVCFMT_RIGHT:
+			nJustify = DT_RIGHT;
+			break;
+		case LVCFMT_CENTER:
+			nJustify = DT_CENTER;
+			break;
+		default:
+			break;
+		}
+
+		rcLabel = rcCol;
+		rcLabel.left += iOffset;
+		rcLabel.right -= iOffset;
+
+		pDC->DrawText(sLabel, -1, rcLabel, MLC_DT_TEXT | nJustify);
+	}
+
+	//draw focus rectangle if item has focus
+	if((lvi.state & LVIS_FOCUSED) && (bCtrlFocused || (lvi.state & LVIS_SELECTED))) {
+		if(!bCtrlFocused || !(lvi.state & LVIS_SELECTED))
+			pDC->FrameRect(rcHighlight, &CBrush(m_crNoFocusLine));
+		else
+			pDC->FrameRect(rcHighlight, &CBrush(m_crFocusLine));
+	}
+}
+*/
+d721 1
+a721 2
+	CMemDC pDC(oDC, &rcItem);
+	
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

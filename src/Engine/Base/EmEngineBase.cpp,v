@@ -1,0 +1,176 @@
+head	1.3;
+access;
+symbols
+	PublicRelease_1_2e:1.3
+	Interim_Release_1-2e_RC1:1.3
+	PublicRelease_1_2d:1.3
+	Interim_Release_1-2d_RC1:1.3
+	Interim_Release_1-2d_beta1:1.3
+	PublicRelease_1_2c:1.3
+	Interim_Release_1-2c_RC1:1.3
+	Interim_Release_1-2c_beta1:1.3
+	PublicRelease_1_2b:1.3
+	Interim_Release_1-2b_RC1:1.3
+	PublicRelease_1_2a:1.3
+	Interim_Release_1-2a_RC1:1.3
+	Interim_Release_1-2a_beta2:1.3
+	Interim_Release_1-2a_beta1:1.3
+	PublicRelease_1_2:1.3
+	Interim_Release_1-2_RC1:1.3
+	Interim_Release_1-2_beta1:1.3
+	PublicRelease_1_1g:1.3
+	Interim_Release_1-1g_RC3:1.3
+	Interim_Release_1-1g_RC2:1.3
+	Interim_Release_1-1g_RC1:1.3
+	Interim_Release_1-1g_beta2:1.3
+	Interim_Release_1-1g_beta1:1.3
+	PublicRelease_1_1f:1.3
+	Interim_Release_1-1f_RC1:1.3
+	PublicRelease_1_1e:1.3
+	Interim_Release_1-1e_RC2:1.3
+	Interim_Release_1-1e_RC1:1.3
+	Interim_Release_1-1e_beta1:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.3
+date	2005.04.16.00.04.59;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2005.04.08.14.16.35;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2005.04.08.11.09.35;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@v2 - Xml events and other improvements
+@
+text
+@// EmEngineBase.cpp: implementation of the CEmEngineBase class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+
+#include "EmEngineBase.h"
+#include "../Sockets/TaskProcessorSockets.h"
+#include "../Sockets/TcpEngine.h"
+
+//////////////////////////////////////////////////////////////////////
+CEmEngineBase::CEmEngineBase()
+	:m_hStop(NULL)
+	,m_pTcpEngine(NULL)
+{
+}
+
+//////////////////////////////////////////////////////////////////////
+bool CEmEngineBase::Init()
+{
+	// Create an Event which can be asserted to stop the Engine. If successful...
+	if (m_hStop = CreateEvent(NULL, TRUE, FALSE, NULL))
+	{
+		//	Initialize the Sockets TaskProcessor
+		m_pSocketsProcessor = new CTaskProcessor_Sockets;
+		if (m_pSocketsProcessor->Init())
+		{
+			m_pTcpEngine = new CTcpEngine;
+
+			//	Initialize the TCP Engine
+			if (GetTcpEngine()->Init())
+				return true;
+			else
+			{
+				AddLog(LOG_ERROR, _T("Failed to initialize sockets engine"));
+				return false;
+			}
+		}
+		else
+		{
+			AddLog(LOG_ERROR, _T("Failed to initialize sockets processor"));
+			return false;
+		}
+	}
+	else
+	{
+		AddLog(LOG_ERROR, _T("CreateEvent failed"));
+		return false;
+	}
+}
+
+//////////////////////////////////////////////////////////////////////
+void CEmEngineBase::Uninit()
+{
+	if (m_hStop)
+	{
+		if (!SetEvent(m_hStop))
+			AddLog(LOG_ERROR, _T("SetEvent failed"));
+
+		GetTcpEngine()->Uninit(false);
+		m_pSocketsProcessor->Uninit();
+
+		// To stop main engine
+		UninitMiddle();	
+
+		// Final sockets destroy
+		GetTcpEngine()->Uninit();
+		delete m_pSocketsProcessor;
+
+		// To delete all the rest before destroying stop event
+		UninitFinal();	
+
+		delete m_pTcpEngine;
+
+		if (!CloseHandle(m_hStop))
+			AddLog(LOG_ERROR, _T("CloseHandle failed"));
+		m_hStop = NULL;
+	}
+}
+@
+
+
+1.2
+log
+@v2 - more abstraction + logic
+@
+text
+@d13 1
+a13 1
+	: m_hStop(NULL)
+@
+
+
+1.1
+log
+@v2 - increased level of abstraction + minor improvements
+@
+text
+@d9 1
+a9 1
+
+d14 1
+d28 2
+d31 1
+a31 1
+			if (m_pSocketsProcessor->m_stTcp.Init())
+d60 1
+a60 1
+		m_pSocketsProcessor->m_stTcp.Uninit(false);
+d67 1
+a67 1
+		m_pSocketsProcessor->m_stTcp.Uninit();
+d73 2
+@
+

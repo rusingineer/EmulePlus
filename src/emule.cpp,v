@@ -1,0 +1,6583 @@
+head	1.180;
+access;
+symbols
+	PublicRelease_1_2e:1.174
+	Interim_Release_1-2e_RC1:1.172
+	PublicRelease_1_2d:1.162
+	Interim_Release_1-2d_RC1:1.162
+	Interim_Release_1-2d_beta1:1.160
+	PublicRelease_1_2c:1.152
+	Interim_Release_1-2c_RC1:1.152
+	Interim_Release_1-2c_beta1:1.147
+	PublicRelease_1_2b:1.145
+	Interim_Release_1-2b_RC1:1.144
+	PublicRelease_1_2a:1.143
+	Interim_Release_1-2a_RC1:1.142
+	Interim_Release_1-2a_beta2:1.138
+	Interim_Release_1-2a_beta1:1.138
+	PublicRelease_1_2:1.135
+	Interim_Release_1-2_RC1:1.135
+	Interim_Release_1-2_beta1:1.135
+	PublicRelease_1_1g:1.131
+	Interim_Release_1-1g_RC3:1.131
+	Interim_Release_1-1g_RC2:1.131
+	Interim_Release_1-1g_RC1:1.131
+	Interim_Release_1-1g_beta2:1.128
+	Interim_Release_1-1g_beta1:1.127
+	PublicRelease_1_1f:1.126
+	Interim_Release_1-1f_RC1:1.126
+	PublicRelease_1_1e:1.126
+	Interim_Release_1-1e_RC2:1.126
+	Interim_Release_1-1e_RC1:1.125
+	Interim_Release_1-1e_beta1:1.122
+	PublicRelease_1_1d:1.122
+	Interim_Release_1-1d_RC1:1.122
+	PublicRelease_1_1c:1.121
+	Interim_Release_1-1c_RC1:1.121
+	Interim_Release_1-1c_beta2:1.121
+	Interim_Release_1-1c_beta1:1.120
+	PublicRelease_1_1b:1.116
+	Interim_Release_1-1b_RC1:1.116
+	PublicRelease_1_1a:1.114
+	Interim_Release_1-1a_RC2:1.114
+	Interim_Release_1-1a_RC1:1.114
+	Interim_Release_1-1a_beta2:1.114
+	Interim_Release_1-1a_beta1:1.113
+	PublicRelease_1_1:1.113
+	Interim_Release_1-1_beta1:1.113
+	PublicRelease_1o:1.112
+	Interim_Release_1o_RC1:1.112
+	Interim_Release_1o_beta1:1.112
+	PublicRelease_1n:1.111
+	Interim_Release_1n_RC2:1.111
+	Interim_Release_1n_RC1:1.111
+	Interim_Release_1n_beta2:1.110
+	Interim_Release_1n_beta1:1.110
+	PublicRelease_1m:1.110
+	Interim_Release_1m_beta1:1.110
+	PublicRelease_1l:1.110
+	Interim_Release_1l_RC3:1.110
+	Interim_Release_1l_RC2:1.110
+	Interim_Release_1l_RC1:1.108
+	Interim_Release_1l_beta2:1.107
+	Interim_Release_1l_beta1:1.107
+	PublicRelease_1k:1.106
+	Interim_Release_1k_RC4:1.106
+	Interim_1k_RC3:1.105
+	Interim_1k_RC2:1.105
+	Interim_Release_1k_RC1:1.105
+	Interim_Release_1k_beta5:1.105
+	Intrerim_Release_1k_beta4:1.105
+	Interim_Release_1k_beta1:1.100
+	PublicRelease_1j:1.91
+	Interim_Release_1J_RC3:1.91
+	Interim_Release_1j_RC3:1.91
+	Interim_Release_1j_RC2:1.90
+	Interim_Release_1j_RC1:1.89
+	Interim_Release_1j_beta2:1.89
+	Interim_Release_1j_beta1:1.89
+	PublicRelease_1i:1.82
+	Interim_Release_1i_RC6:1.82
+	Interim_Release_1i_RC3:1.82
+	Interim_Release_1i_RC2:1.81
+	Interim_Release_1i_RC1:1.79
+	Interim_Release_1i_beta3:1.79
+	Interim_Release_1i_beta2:1.72
+	Interim_Release_1i_beta1:1.68
+	PublicRelease_1h:1.59
+	Interim_Release_1h_rc2:1.59
+	Interim_Release_1h_RC1:1.58
+	Interim_Release_1h_beta2:1.56
+	Interim_Release_1h_beta1_now:1.49
+	Interim_Release_1h_beta1:1.49
+	PublicRelease_1g:1.43
+	Interim_Release_1g_RC6_Final:1.43
+	Interim_Release_1g_RC6:1.43
+	Interim_Release_1g_RC5:1.43
+	Interim_Release_1g_RC4:1.43
+	Interim_Release_1g_RC3:1.43
+	Interim_Release_1g_beta2:1.38
+	Interim_Release_1g_beta1:1.38
+	Interim_Release_1f_RC4:1.33
+	Interim_Release_1f_RC3:1.33
+	Interim_Release_1f_RC2:1.29
+	Interim_Release_1f_RC:1.29
+	Interim_Release_1f_beta2:1.29
+	Interim_Release_1f_beta1:1.29
+	PublicRelease_1e:1.29
+	Interim_Release_1e_RC2:1.29
+	Interim_Release_1e_RC:1.29
+	Interim_Release_1e_beta3:1.29
+	Interim_Release_1e_beta2:1.28
+	Interim_Release_1e_beta2_before_kuchin:1.28
+	Interim_Release_1e_beta1:1.28
+	PublicRelease_1c:1.25
+	featurestest:1.25.0.2
+	Interim_Release_1c_RC:1.25
+	Interim_Release_1c_beta2:1.23
+	Interim_Release_1c_beta1:1.22
+	threaded_downloadqueue:1.22.0.2
+	PublicRelease_1b:1.19
+	Interim_Release_1b_beta2:1.18
+	Interim_Release_1b_beta1:1.15
+	proxydeadlake:1.11.0.4
+	PublicRelease_1a:1.11
+	Interim_Release_1a_beta2:1.11
+	BerkeleyDb:1.11.0.2
+	Interim_Release_1a_beta1:1.11
+	PublicRelease_1:1.10
+	goldfish:1.10
+	eMulePlus_1_RC2:1.9
+	eMulePlus_26b_1RC1:1.9
+	PreRelease_26b_i0e:1.9
+	before_26d_merge:1.8
+	Interim_Release_26b_i0d:1.5
+	Interim_Release_26b_i0c:1.5
+	Interim_Release_26b_i0b:1.5
+	Interim_Release_26b_i0a:1.5
+	systraydlg:1.5.0.4
+	plus26based:1.5.0.2
+	Interim_Release_25b_i0b:1.5
+	Proxy_Dev:1.5
+	Interim_Release_25b_i0a:1.3.2.2
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.180
+date	2009.10.30.01.59.03;	author aw3;	state Exp;
+branches;
+next	1.179;
+
+1.179
+date	2009.10.28.04.34.58;	author aw3;	state Exp;
+branches;
+next	1.178;
+
+1.178
+date	2009.08.01.01.45.19;	author aw3;	state Exp;
+branches;
+next	1.177;
+
+1.177
+date	2009.07.14.03.54.08;	author aw3;	state Exp;
+branches;
+next	1.176;
+
+1.176
+date	2009.06.14.19.13.17;	author aw3;	state Exp;
+branches;
+next	1.175;
+
+1.175
+date	2009.04.23.03.58.53;	author aw3;	state Exp;
+branches;
+next	1.174;
+
+1.174
+date	2009.04.08.04.05.38;	author aw3;	state Exp;
+branches;
+next	1.173;
+
+1.173
+date	2009.04.04.05.36.03;	author aw3;	state Exp;
+branches;
+next	1.172;
+
+1.172
+date	2009.03.21.22.47.43;	author aw3;	state Exp;
+branches;
+next	1.171;
+
+1.171
+date	2008.12.01.18.08.08;	author kush_eplus;	state Exp;
+branches;
+next	1.170;
+
+1.170
+date	2008.11.13.05.32.32;	author aw3;	state Exp;
+branches;
+next	1.169;
+
+1.169
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.168;
+
+1.168
+date	2008.11.03.05.45.23;	author aw3;	state Exp;
+branches;
+next	1.167;
+
+1.167
+date	2008.10.03.01.40.12;	author aw3;	state Exp;
+branches;
+next	1.166;
+
+1.166
+date	2008.08.24.19.54.48;	author aw3;	state Exp;
+branches;
+next	1.165;
+
+1.165
+date	2008.08.16.03.37.05;	author aw3;	state Exp;
+branches;
+next	1.164;
+
+1.164
+date	2008.08.14.02.05.17;	author kush_eplus;	state Exp;
+branches;
+next	1.163;
+
+1.163
+date	2008.07.01.19.20.34;	author aw3;	state Exp;
+branches;
+next	1.162;
+
+1.162
+date	2008.04.16.04.27.22;	author aw3;	state Exp;
+branches;
+next	1.161;
+
+1.161
+date	2008.02.25.04.19.24;	author aw3;	state Exp;
+branches;
+next	1.160;
+
+1.160
+date	2008.02.09.20.26.10;	author eklmn;	state Exp;
+branches;
+next	1.159;
+
+1.159
+date	2008.01.13.01.06.50;	author aw3;	state Exp;
+branches;
+next	1.158;
+
+1.158
+date	2008.01.10.10.36.38;	author eklmn;	state Exp;
+branches;
+next	1.157;
+
+1.157
+date	2008.01.04.16.12.35;	author eklmn;	state Exp;
+branches;
+next	1.156;
+
+1.156
+date	2008.01.04.11.17.55;	author eklmn;	state Exp;
+branches;
+next	1.155;
+
+1.155
+date	2007.12.26.03.27.48;	author aw3;	state Exp;
+branches;
+next	1.154;
+
+1.154
+date	2007.12.01.23.18.05;	author aw3;	state Exp;
+branches;
+next	1.153;
+
+1.153
+date	2007.12.01.12.36.05;	author kush_eplus;	state Exp;
+branches;
+next	1.152;
+
+1.152
+date	2007.07.13.03.51.57;	author aw3;	state Exp;
+branches;
+next	1.151;
+
+1.151
+date	2007.07.07.04.08.25;	author aw3;	state Exp;
+branches;
+next	1.150;
+
+1.150
+date	2007.07.01.05.32.47;	author aw3;	state Exp;
+branches;
+next	1.149;
+
+1.149
+date	2007.06.14.02.59.03;	author aw3;	state Exp;
+branches;
+next	1.148;
+
+1.148
+date	2007.05.24.03.34.58;	author aw3;	state Exp;
+branches;
+next	1.147;
+
+1.147
+date	2007.02.24.18.36.48;	author aw3;	state Exp;
+branches;
+next	1.146;
+
+1.146
+date	2007.02.17.05.36.52;	author aw3;	state Exp;
+branches;
+next	1.145;
+
+1.145
+date	2007.01.27.05.33.10;	author aw3;	state Exp;
+branches;
+next	1.144;
+
+1.144
+date	2006.12.05.21.59.24;	author eklmn;	state Exp;
+branches;
+next	1.143;
+
+1.143
+date	2006.09.21.00.59.57;	author aw3;	state Exp;
+branches;
+next	1.142;
+
+1.142
+date	2006.09.06.05.52.00;	author aw3;	state Exp;
+branches;
+next	1.141;
+
+1.141
+date	2006.07.29.17.13.53;	author aw3;	state Exp;
+branches;
+next	1.140;
+
+1.140
+date	2006.07.17.18.22.39;	author kush_eplus;	state Exp;
+branches;
+next	1.139;
+
+1.139
+date	2006.07.16.23.15.55;	author kush_eplus;	state Exp;
+branches;
+next	1.138;
+
+1.138
+date	2006.04.16.23.52.29;	author kush_eplus;	state Exp;
+branches;
+next	1.137;
+
+1.137
+date	2006.04.09.15.18.10;	author kush_eplus;	state Exp;
+branches;
+next	1.136;
+
+1.136
+date	2006.04.04.22.28.40;	author kush_eplus;	state Exp;
+branches;
+next	1.135;
+
+1.135
+date	2006.01.28.21.05.11;	author aw3;	state Exp;
+branches;
+next	1.134;
+
+1.134
+date	2006.01.23.07.05.13;	author kush_eplus;	state Exp;
+branches;
+next	1.133;
+
+1.133
+date	2006.01.14.19.53.10;	author aw3;	state Exp;
+branches;
+next	1.132;
+
+1.132
+date	2006.01.06.20.05.55;	author kush_eplus;	state Exp;
+branches;
+next	1.131;
+
+1.131
+date	2005.11.28.03.11.13;	author aw3;	state Exp;
+branches;
+next	1.130;
+
+1.130
+date	2005.11.27.22.11.52;	author eklmn;	state Exp;
+branches;
+next	1.129;
+
+1.129
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.128;
+
+1.128
+date	2005.08.31.04.58.28;	author aw3;	state Exp;
+branches;
+next	1.127;
+
+1.127
+date	2005.08.04.03.35.42;	author aw3;	state Exp;
+branches;
+next	1.126;
+
+1.126
+date	2005.07.02.00.43.04;	author aw3;	state Exp;
+branches;
+next	1.125;
+
+1.125
+date	2005.06.18.01.03.56;	author aw3;	state Exp;
+branches;
+next	1.124;
+
+1.124
+date	2005.06.11.14.38.37;	author aw3;	state Exp;
+branches;
+next	1.123;
+
+1.123
+date	2005.06.07.03.35.18;	author aw3;	state Exp;
+branches;
+next	1.122;
+
+1.122
+date	2005.03.08.13.44.51;	author kuchin;	state Exp;
+branches;
+next	1.121;
+
+1.121
+date	2005.02.13.18.40.14;	author kuchin;	state Exp;
+branches;
+next	1.120;
+
+1.120
+date	2005.01.25.19.04.48;	author netwolf1;	state Exp;
+branches;
+next	1.119;
+
+1.119
+date	2005.01.19.21.10.53;	author netwolf1;	state Exp;
+branches;
+next	1.118;
+
+1.118
+date	2005.01.19.14.04.41;	author kush_eplus;	state Exp;
+branches;
+next	1.117;
+
+1.117
+date	2005.01.08.12.35.50;	author kuchin;	state Exp;
+branches;
+next	1.116;
+
+1.116
+date	2004.12.15.15.28.36;	author katsyonak;	state Exp;
+branches;
+next	1.115;
+
+1.115
+date	2004.12.15.14.53.08;	author katsyonak;	state Exp;
+branches;
+next	1.114;
+
+1.114
+date	2004.11.08.21.11.06;	author aw3;	state Exp;
+branches;
+next	1.113;
+
+1.113
+date	2004.10.02.03.59.28;	author aw3;	state Exp;
+branches;
+next	1.112;
+
+1.112
+date	2004.09.17.05.00.44;	author aw3;	state Exp;
+branches;
+next	1.111;
+
+1.111
+date	2004.08.10.12.43.39;	author eklmn;	state Exp;
+branches;
+next	1.110;
+
+1.110
+date	2004.05.31.20.02.33;	author aw3;	state Exp;
+branches;
+next	1.109;
+
+1.109
+date	2004.05.30.23.38.52;	author aw3;	state Exp;
+branches;
+next	1.108;
+
+1.108
+date	2004.05.26.17.41.21;	author dongato;	state Exp;
+branches;
+next	1.107;
+
+1.107
+date	2004.04.23.22.14.04;	author katsyonak;	state Exp;
+branches;
+next	1.106;
+
+1.106
+date	2004.04.07.06.58.10;	author dongato;	state Exp;
+branches;
+next	1.105;
+
+1.105
+date	2004.03.19.22.17.49;	author eklmn;	state Exp;
+branches;
+next	1.104;
+
+1.104
+date	2004.03.19.16.53.56;	author eklmn;	state Exp;
+branches;
+next	1.103;
+
+1.103
+date	2004.03.12.06.26.12;	author aw3;	state Exp;
+branches;
+next	1.102;
+
+1.102
+date	2004.02.25.18.23.41;	author dongato;	state Exp;
+branches;
+next	1.101;
+
+1.101
+date	2004.02.24.15.01.39;	author dongato;	state Exp;
+branches;
+next	1.100;
+
+1.100
+date	2004.02.19.00.29.35;	author netwolf1;	state Exp;
+branches;
+next	1.99;
+
+1.99
+date	2004.02.15.19.48.35;	author eklmn;	state Exp;
+branches;
+next	1.98;
+
+1.98
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.97;
+
+1.97
+date	2004.02.15.10.12.16;	author eklmn;	state Exp;
+branches;
+next	1.96;
+
+1.96
+date	2004.02.13.16.13.35;	author netwolf1;	state Exp;
+branches;
+next	1.95;
+
+1.95
+date	2004.02.05.11.56.06;	author morevit;	state Exp;
+branches;
+next	1.94;
+
+1.94
+date	2004.02.05.00.00.02;	author kush_eplus;	state Exp;
+branches;
+next	1.93;
+
+1.93
+date	2004.01.31.12.17.08;	author morevit;	state Exp;
+branches;
+next	1.92;
+
+1.92
+date	2004.01.28.20.41.52;	author dongato;	state Exp;
+branches;
+next	1.91;
+
+1.91
+date	2004.01.22.19.48.26;	author dongato;	state Exp;
+branches;
+next	1.90;
+
+1.90
+date	2004.01.11.13.14.47;	author dongato;	state Exp;
+branches;
+next	1.89;
+
+1.89
+date	2003.12.24.01.21.14;	author katsyonak;	state Exp;
+branches;
+next	1.88;
+
+1.88
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.87;
+
+1.87
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.86;
+
+1.86
+date	2003.12.14.12.06.16;	author dongato;	state Exp;
+branches;
+next	1.85;
+
+1.85
+date	2003.12.12.19.53.51;	author dongato;	state Exp;
+branches;
+next	1.84;
+
+1.84
+date	2003.12.11.10.44.40;	author kuchin;	state Exp;
+branches;
+next	1.83;
+
+1.83
+date	2003.12.10.17.14.14;	author kuchin;	state Exp;
+branches;
+next	1.82;
+
+1.82
+date	2003.11.19.10.13.48;	author kuchin;	state Exp;
+branches;
+next	1.81;
+
+1.81
+date	2003.11.11.21.36.56;	author dropf;	state Exp;
+branches;
+next	1.80;
+
+1.80
+date	2003.11.07.05.34.29;	author dongato;	state Exp;
+branches;
+next	1.79;
+
+1.79
+date	2003.10.30.10.25.16;	author dropf;	state Exp;
+branches;
+next	1.78;
+
+1.78
+date	2003.10.30.02.44.37;	author morevit;	state Exp;
+branches;
+next	1.77;
+
+1.77
+date	2003.10.29.22.13.33;	author dropf;	state Exp;
+branches;
+next	1.76;
+
+1.76
+date	2003.10.28.21.58.43;	author morevit;	state Exp;
+branches;
+next	1.75;
+
+1.75
+date	2003.10.28.21.33.19;	author morevit;	state Exp;
+branches;
+next	1.74;
+
+1.74
+date	2003.10.28.18.36.28;	author katsyonak;	state Exp;
+branches;
+next	1.73;
+
+1.73
+date	2003.10.26.13.50.15;	author morevit;	state Exp;
+branches;
+next	1.72;
+
+1.72
+date	2003.10.24.01.21.19;	author morevit;	state Exp;
+branches;
+next	1.71;
+
+1.71
+date	2003.10.15.10.24.20;	author morevit;	state Exp;
+branches;
+next	1.70;
+
+1.70
+date	2003.10.15.03.51.45;	author morevit;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2003.10.06.21.57.05;	author puritynn666;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2003.10.04.10.23.05;	author dongato;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2003.09.24.16.45.39;	author morevit;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2003.09.23.21.26.15;	author dongato;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2003.09.23.19.00.10;	author dongato;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2003.09.22.16.24.57;	author morevit;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2003.09.21.15.31.05;	author morevit;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2003.09.19.14.42.45;	author morevit;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2003.09.19.00.13.37;	author morevit;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2003.09.13.02.07.01;	author dongato;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2003.09.11.10.04.10;	author dongato;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2003.09.11.02.36.43;	author dongato;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2003.09.04.13.11.02;	author kuchin;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2003.09.04.11.19.25;	author kuchin;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2003.09.03.11.50.57;	author kuchin;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2003.08.31.16.49.55;	author dongato;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2003.08.27.09.27.12;	author kuchin;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2003.08.26.16.54.23;	author kuchin;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2003.08.24.15.55.18;	author bond006;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2003.08.15.11.23.44;	author kuchin;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2003.08.10.16.42.03;	author kuchin;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2003.08.06.20.58.17;	author dongato;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2003.07.31.15.02.19;	author puritynn666;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2003.07.30.12.29.31;	author kuchin;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2003.07.28.23.13.42;	author moosetea;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2003.06.21.17.04.22;	author partyckip;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2003.06.21.16.46.30;	author partyckip;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2003.06.21.13.47.06;	author partyckip;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2003.06.10.09.36.49;	author kuchin;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2003.06.09.15.14.38;	author kuchin;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2003.06.01.09.28.05;	author partyckip;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2003.05.31.15.38.57;	author partyckip;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2003.05.30.21.27.00;	author partyckip;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2003.05.30.20.35.19;	author partyckip;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2003.05.27.04.15.27;	author partyckip;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2003.05.22.13.16.00;	author obaldin;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2003.05.22.00.01.46;	author netwolf1;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2003.05.20.20.46.33;	author netwolf1;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2003.05.18.13.29.14;	author kuchin;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2003.04.24.15.36.45;	author kuchin;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.04.09.14.03.35;	author kuchin;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.04.07.14.53.04;	author partyckip;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.03.29.14.04.01;	author partyckip;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.03.22.13.35.48;	author forcha;	state Exp;
+branches
+	1.25.2.1;
+next	1.24;
+
+1.24
+date	2003.03.22.13.02.55;	author cax2;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.03.20.13.42.55;	author obaldin;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.03.14.16.24.23;	author partyckip;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.03.13.21.50.36;	author partyckip;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.03.13.15.13.59;	author kuchin;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.03.09.09.55.53;	author obaldin;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.03.08.19.27.12;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.03.05.17.20.15;	author kuchin;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.03.05.15.57.41;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.03.05.11.23.44;	author recdvst;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.03.03.22.09.52;	author moosetea;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.02.18.29.42;	author lord_kiron;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.01.04.11.37;	author dongato;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.02.22.14.20.54;	author dongato;	state Exp;
+branches
+	1.11.2.1;
+next	1.10;
+
+1.10
+date	2003.02.20.14.29.04;	author dongato;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.16.22.01.51;	author lord_kiron;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.16.11.40.26;	author forcha;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.14.14.22.41;	author obaldin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.02.02.03.39.55;	author cax2;	state Exp;
+branches
+	1.5.2.1;
+next	1.4;
+
+1.4
+date	2003.01.30.15.51.56;	author pooz;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.23.01.42.30;	author cax2;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2003.01.22.17.26.35;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.54.39;	author cax2;	state Exp;
+branches;
+next	1.3.2.2;
+
+1.3.2.2
+date	2003.01.31.10.21.45;	author cax2;	state Exp;
+branches;
+next	1.3.2.3;
+
+1.3.2.3
+date	2003.02.02.02.36.28;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.2.1
+date	2003.02.05.01.58.42;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.11.2.1
+date	2003.03.01.20.59.36;	author obaldin;	state Exp;
+branches;
+next	;
+
+1.25.2.1
+date	2003.03.24.09.39.45;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.180
+log
+@Fixed a bunch of DynIP server related issues.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "emuleDlg.h"
+#include "server.h"
+#include "opcodes.h"
+#include "WebServer.h"
+#include "Jumpstarter.h"
+#include <Tlhelp32.h>
+#include "IP2Country.h"
+#include "ed2k_filetype.h"
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#include "ClientUDPSocket.h"
+#endif
+#include "SharedFileList.h"
+#include "FirewallOpener.h"
+#include "UploadQueue.h"
+#include "ServerList.h"
+#include "AutoDL.h"
+#include "MMServer.h"
+#include "mdump.h"
+#include "ListenSocket.h"
+#include "BerkeleyDb/build_win32/db_cxx.h"
+#include "IPFilter.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+typedef struct {
+	HWND	hMainInst;
+	int		iOwnInstanceFound;
+} SearchMyWnd;
+
+BEGIN_MESSAGE_MAP(CEmuleApp, CWinApp)
+	ON_COMMAND(ID_HELP, OnHelp)
+END_MESSAGE_MAP()
+
+CEmuleApp				g_App;
+const static UINT		UWM_ARE_YOU_EMULE = RegisterWindowMessage(EMULE_GUID);
+#ifdef _DEBUG
+static CMemoryState		oldMemState, newMemState, diffMemState;
+#endif _DEBUG
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	MSLU (Microsoft Layer for Unicode) support - UnicoWS
+//	Details:
+//	http://en.wikipedia.org/wiki/Microsoft_Layer_for_Unicode
+//	http://www.trigeminal.com/usenet/usenet031.asp?1033
+extern "C" HMODULE __stdcall ExplicitPreLoadUnicows()
+{
+	static const char pcUnicowsError[] =
+		"This eMule Plus version requires the \"Microsoft(R) Layer for Unicode(TM) on Windows(R) 95/98/ME Systems\".\n"
+		"\n"
+		"Download the MSLU package from Microsoft(R) here:\n"
+		"        http://www.microsoft.com/downloads/details.aspx?FamilyId=73BA7BD7-ED06-4F0D-80A4-2A7EEAEE17E2\n"
+		"or\n"
+		"        search the Microsoft(R) Download Center http://www.microsoft.com/downloads/ for \"MSLU\" or \"unicows\".\n"
+		"\n"
+		"\n"
+		"After downloading the MSLU package, run the \"unicows.exe\" program and specify your eMule Plus installation folder "
+		"where to place the extracted files from the package.\n"
+		"\n"
+		"Ensure that the file \"unicows.dll\" was placed in your eMule Plus installation folder and start eMule Plus again.";
+
+#ifdef _AFXDLL
+	// UnicoWS support *requires* statically linked MFC and C-RTL.
+
+	// NOTE: Do *NOT* use any MFC nor W-functions here!
+	// NOTE: Do *NOT* use eMule's localization functions here!
+	MessageBoxA(NULL, 
+				"This eMule Plus version (Unicode, MSLU, shared MFC) does not run with this version of Windows.", 
+				"eMule Plus", 
+				MB_ICONSTOP | MB_SYSTEMMODAL | MB_SETFOREGROUND);
+	exit(1);
+#endif
+
+	// Pre-Load UnicoWS -- needed for proper initialization of MFC/C-RTL
+	HMODULE hUnicoWS = LoadLibraryA("unicows.dll");
+
+	if (hUnicoWS == NULL)
+	{
+		MessageBoxA(NULL, pcUnicowsError, "eMule Plus", MB_ICONSTOP | MB_SYSTEMMODAL | MB_SETFOREGROUND);
+		exit(1);
+	}
+
+	return hUnicoWS;
+}
+
+// NOTE: Do *NOT* change the name of this function. It *HAS* to be named "_PfnLoadUnicows" !
+extern "C" HMODULE (__stdcall *_PfnLoadUnicows)(void) = ExplicitPreLoadUnicows;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CEmuleApp::CEmuleApp()
+{
+	m_dwPublicIP = 0;
+	m_pDump = NULL;
+	m_qwComCtrlVer = MAKEDLLVERULL(4,0,0,0);
+	m_hSystemImageList = NULL;
+	m_sizSmallSystemIcon.cx = GetSystemMetrics(SM_CXSMICON);
+	m_sizSmallSystemIcon.cy = GetSystemMetrics(SM_CYSMICON);
+	m_iDfltImageListColorFlags = ILC_COLOR;
+
+//	Get session start time offset
+	stat_starttime = ::GetTickCount();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// CEmuleApp Initialising
+BOOL CEmuleApp::InitInstance()
+{
+#ifdef _DEBUG
+	oldMemState.Checkpoint();
+#endif
+
+#ifdef EP_SPIDERWEB
+//	Setup Structured Exception handler for the main thread
+	_set_se_translator(StructuredExceptionHandler);
+#endif
+
+//	We have to catch exception by ourselves!
+	m_pDump = new MiniDumper();
+
+//#ifdef OLD_SOCKETS_ENABLED
+//	We need sockets started before we proccess the preferences
+	if (!AfxSocketInit())
+	{
+		AfxMessageBox(IDS_SOCKETS_INIT_FAILED);
+		return FALSE;
+	}
+//#endif //OLD_SOCKETS_ENABLED
+
+	AfxOleInit();
+
+//	Create & initialize all the important stuff
+	m_pstrPendingLink = NULL;
+
+	bool	bIsRunningButNoCmd = false;
+	int		iResult = ProcessCommandline();
+
+	if (iResult == 0)
+		return false;
+	else if (iResult == 1)
+		bIsRunningButNoCmd = true;
+
+	_tsetlocale(LC_ALL, _T(""));
+	m_pPrefs = new CPreferences();
+
+//	If we don't want to allow multiple instances...
+	if (bIsRunningButNoCmd && !m_pPrefs->GetMultiple())
+		return false;
+
+	CString	strTmp(EMULE_GUID);
+
+//	Main mutex is not good enough to protect against startup race conditions while
+//	running from the same directory, so additional mutex is used to block double startup
+//	from the same directory, what is mostly required for the cases when one instance is
+//	already running and a race condition happens while starting several more instances
+//	from another directory
+	strTmp += m_pPrefs->GetAppDir();
+	strTmp.MakeLower();
+	strTmp.Replace(_T('\\'), _T('+'));	// Windows is too picky...
+	m_hMutexOneDirInstance = CreateMutex(NULL, FALSE, strTmp);
+//	Condition is true when main mutex was detected and multiple instances are allowed
+	if (bIsRunningButNoCmd)
+	{
+		DWORD	dwLastErr = ::GetLastError();
+
+		if (dwLastErr == ERROR_ALREADY_EXISTS || dwLastErr == ERROR_ACCESS_DENIED)
+			return false;
+	}
+
+//	Must be called after reading preference as language identification is used for string loading
+	m_pDump->LoadStrings();
+
+//	InitCommonControls() is required on Windows XP if an application
+//	manifest specifies use of ComCtl32.dll version 6 or later to enable
+//	visual styles.  Otherwise, any window creation will fail.
+	InitCommonControls();
+
+	DWORD	dwComCtrlMjr = 4;
+	DWORD	dwComCtrlMin = 0;
+
+	AtlGetCommCtrlVersion(&dwComCtrlMjr, &dwComCtrlMin);
+	m_qwComCtrlVer = MAKEDLLVERULL(dwComCtrlMjr,dwComCtrlMin,0,0);
+
+	m_iDfltImageListColorFlags = GetAppImageListColorFlag();
+
+//	Don't use 32bit color resources if not supported by comctl
+	if (m_iDfltImageListColorFlags == ILC_COLOR32 && m_qwComCtrlVer < MAKEDLLVERULL(6,0,0,0))
+		m_iDfltImageListColorFlags = ILC_COLOR16;
+#if (_MSC_VER < 1500)	// W9x support removed in VC 9.0, VS 2008
+//	Don't use >8bit color resources with OSs with restricted memory for GDI resources
+	if (afxData.bWin95)
+		m_iDfltImageListColorFlags = ILC_COLOR8;
+#endif
+
+	CWinApp::InitInstance();
+
+//	Enable containment of OLE controls
+	AfxEnableControlContainer();
+
+//	Set the priority of the processes main thread
+	SetThreadPriority(THREAD_PRIORITY_NORMAL + m_pPrefs->GetMainProcessPriority());
+
+	CEmuleDlg	dlg;
+
+	m_pMDlg = &dlg;
+	m_pMainWnd = &dlg;
+
+	EMULE_TRY
+
+//	Set main process priority
+	switch (m_pPrefs->GetHashingPriority())
+	{
+		case 0:
+			iResult = THREAD_PRIORITY_IDLE;
+			break;
+		case 1:
+			iResult = THREAD_PRIORITY_LOWEST;
+			break;
+		default:
+			iResult = THREAD_PRIORITY_BELOW_NORMAL;
+			break;
+	}
+	m_fileHashControl.SetThreadPriority(iResult);
+
+// 	ICC (Internet Connection Check) customization
+	InitURLs();
+
+	m_fileHashControl.Init();
+
+	if (m_pPrefs->AutoTakeED2KLinks())
+		Ask4RegFix(true);
+
+	try
+	{
+		CString	sDbHome = m_pPrefs->GetAppDir();
+
+		sDbHome += _T("Db");
+
+		::CreateDirectory(sDbHome, NULL);	// In case it doesn't exist
+
+		pDbEnv = new DbEnv(0);
+		pDbEnv->set_cachesize(0, 256 * 1024, 0);	// 256kb cache size
+		USES_CONVERSION;
+		pDbEnv->open( CT2CA(sDbHome), DB_CREATE | DB_INIT_LOCK | DB_INIT_LOG
+									| DB_INIT_MPOOL | DB_INIT_TXN | DB_RECOVER
+									| DB_THREAD, 0 );
+		CJumpstarter::OpenDatabases(pDbEnv);
+	}
+	catch (DbRunRecoveryException &DbRecEx)
+	{
+		AfxMessageBox(CString(DbRecEx.what()));
+		return FALSE;
+	}
+#ifdef _DEBUG
+	catch (DbException &DbEx)
+	{
+		pDbEnv = NULL;
+		TRACE1("Problems create database objects: %hs. Closing.\n", DbEx.what());
+		return FALSE;
+	}
+#endif
+	catch(...)
+	{
+		pDbEnv = NULL;
+		TRACE0("Problems create database objects. Closing.\n");
+		return FALSE;
+	}
+
+//	Intialize filetype array
+	InitFileTypeArray();
+
+	m_pFirewallOpener = new CFirewallOpener();
+	m_pFirewallOpener->Init(true);	// We need to init it now (even if we may not use it yet) because of CoInitializeSecurity - which kinda ruins the sense of the class interface but ooohh well :P
+//	Open WinXP firewall ports if set in preferences and possible
+	if (m_pPrefs->GetOpenPorts() && m_pFirewallOpener->DoesFWConnectionExist())
+	{
+	//	Delete old rules added by eMule
+		m_pFirewallOpener->RemoveRule(EMULE_DEFAULTRULENAME_UDP);
+		m_pFirewallOpener->RemoveRule(EMULE_DEFAULTRULENAME_TCP);
+	//	Open port for this session
+		if (m_pFirewallOpener->OpenPort(m_pPrefs->GetPort(), NAT_PROTOCOL_TCP, EMULE_DEFAULTRULENAME_TCP, true))
+			AddLogLine(LOG_RGB_SUCCESS, IDS_FO_PORT_OK, m_pPrefs->GetPort(), _T("TCP"));
+		else
+			AddLogLine(LOG_RGB_ERROR, IDS_FO_PORT_FAIL, m_pPrefs->GetPort(), _T("TCP"));
+
+		if (m_pPrefs->GetUDPPort())
+		{
+		//	Open port for this session
+			if (m_pFirewallOpener->OpenPort(m_pPrefs->GetUDPPort(), NAT_PROTOCOL_UDP, EMULE_DEFAULTRULENAME_UDP, true))
+				AddLogLine(LOG_RGB_SUCCESS, IDS_FO_PORT_OK, m_pPrefs->GetUDPPort(), _T("UDP"));
+			else
+				AddLogLine(LOG_RGB_ERROR, IDS_FO_PORT_FAIL, m_pPrefs->GetUDPPort(), _T("UDP"));
+		}
+	}
+
+	m_pIP2Country	= new CIP2Country();
+	m_pDownloadList = new CDownloadList();
+	m_pClientList = new CClientList();
+//	Construct the Friends List from "emfriends.met"
+	m_pFriendList = new CFriendList();
+	m_pSearchList = new CSearchList();
+//	Construct the Known Files list from "known.met"
+	m_pKnownFilesList = new CKnownFileList(m_pPrefs->GetConfigDir());
+//	Construct an _empty_ Server list.
+	m_pServerList = new CServerList();
+#ifdef OLD_SOCKETS_ENABLED
+	m_pServerConnect = new CServerConnect();
+	m_pSharedFilesList = new CSharedFileList(m_pPrefs, m_pServerConnect, m_pKnownFilesList);
+	m_pListenSocket = new CListenSocket();
+	m_pClientUDPSocket	= new CClientUDPSocket();
+#else
+	m_pSharedFilesList = new CSharedFileList(m_pPrefs,NULL,m_pKnownFilesList);
+#endif //OLD_SOCKETS_ENABLED
+	m_pClientCreditList = new CClientCreditsList();
+	m_pDownloadQueue = new CDownloadQueue(m_pSharedFilesList);	// bugfix - do this before creating the m_pUploadQueue
+	m_pUploadQueue = new CUploadQueue();
+	m_pIPFilter 	= new CIPFilter();
+	m_pWebServer = new CWebServer();
+#ifdef OLD_SOCKETS_ENABLED
+	m_pMMServer = new CMMServer();
+#endif //OLD_SOCKETS_ENABLED
+	m_pFakeCheck 	= new CFakeCheck();
+	m_pAutoDL		= new CAutoDL();
+
+	EMULE_CATCH
+
+//	Reset statistics values
+	stat_sessionReceivedBytes = 0;
+	stat_sessionSentBytes = 0;
+	stat_reconnects = 0;
+	stat_transferStarttime = 0;
+	stat_serverConnectTime = 0;
+
+//	Detailed filter stats
+	m_lTotalFiltered = 0;
+	m_lIncomingFiltered = 0;
+	m_lOutgoingFiltered = 0;
+	m_lSXFiltered = 0;
+
+	dlg.DoModal();
+
+#ifdef _DEBUG
+	newMemState.Checkpoint();
+	if (diffMemState.Difference(oldMemState, newMemState))
+	{
+		TRACE("Memory usage:\n");
+		diffMemState.DumpStatistics();
+	}
+#endif //_DEBUG
+
+	return FALSE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CEmuleApp::ProcessCommandline()
+{
+	static const TCHAR pcHelp[] =
+		CLIENT_NAME _T(" Command-line Interface (CLI)\n")
+		_T("\n")
+		_T("Usage: emule [{option | \"ed2k-link\"}]\n")
+		_T("\n")
+		_T("Options:\n")
+		_T("connect\t\tconnect to any server\n")
+		_T("disconnect\tdisconnect from the current server\n")
+		_T("limits=[up][:down]\tset upload/download limits; Ex: limits=10:64\n")
+		_T("preferences\tsave preferences settings to the disk\n")
+		_T("reload\t\treload shared files (hash newly added files)\n")
+		_T("restore\t\tmaximize application window\n")
+		_T("resume\t\tresume a paused download\n")
+		_T("status\t\tsave download status to status.log file\n")
+		_T("help\t\tthis message\n")
+		_T("exit\t\texit application");
+	SearchMyWnd	WndEnum = { NULL, 0 };
+	bool		bAlreadyRunning = false;
+	int			iRc;
+	DWORD		dwLastErr;
+
+	m_hMutexOneInstance = CreateMutex(NULL, FALSE, EMULE_GUID);
+
+	dwLastErr = ::GetLastError();
+	bAlreadyRunning = (dwLastErr == ERROR_ALREADY_EXISTS || dwLastErr == ERROR_ACCESS_DENIED);
+	if (bAlreadyRunning)
+		EnumWindows(SearchEmuleWindow, reinterpret_cast<LPARAM>(&WndEnum));
+
+//	Parameters are passed and the first one isn't empty string
+	if ((__argc > 1) && (__targv[1][0] != _T('\0')))
+	{
+		const TCHAR	*pcArg = __targv[1];
+		CString		strCmd(((*pcArg == _T('/')) || (*pcArg == _T('-'))) ? (pcArg + 1) : pcArg);
+
+	//	If the file name to open is in the form of an URL...
+		if (strCmd.Find(_T("://")) > 0)
+		{
+		//	Just forward the URL to the existing eMule instance
+			m_sendStruct.cbData = (strCmd.GetLength() + 1) * sizeof(TCHAR);
+			m_sendStruct.dwData = OP_ED2KLINK;
+			m_sendStruct.lpData = const_cast<LPTSTR>(strCmd.GetString());
+ 			if (WndEnum.hMainInst != NULL)
+			{
+				SendMessage(WndEnum.hMainInst, WM_COPYDATA, 0, (LPARAM)(PCOPYDATASTRUCT)&m_sendStruct);
+				return 0;
+			}
+			m_pstrPendingLink = new CString(strCmd);
+		}
+		else
+		{
+		//	Forward the command line to the existing eMule instance
+			m_sendStruct.cbData = (strCmd.GetLength() + 1) * sizeof(TCHAR);
+			m_sendStruct.dwData = OP_CLCOMMAND;
+			m_sendStruct.lpData = const_cast<LPTSTR>(strCmd.GetString());
+			if (WndEnum.hMainInst != NULL)
+				iRc = SendMessage(WndEnum.hMainInst, WM_COPYDATA, 0, (LPARAM)(PCOPYDATASTRUCT)&m_sendStruct);
+			else
+				iRc = ((strCmd != _T("help")) && (strCmd != _T("h")) && (strCmd != _T("?")));
+			if (iRc == 0)
+				MessageBox(NULL, pcHelp, CLIENT_NAME, MB_ICONSTOP | MB_SYSTEMMODAL | MB_SETFOREGROUND);
+		//	Don't start application if main instance wasn't found when CLI command was in use
+		//	All CLI commands intended only to be used with main application already running
+			return 0;
+		}
+	}
+
+//	We don't want several applications to start from the same directory to avoid DB startup lockups and weird errors
+//	a) own window found running from the same directory
+//	b) main mutex was already created, but no eMule application replied to UWM_ARE_YOU_EMULE
+//		This can happen when several applications started one right after another and
+//		message handler is not yet working to reply the request.
+//		Thus block the second starting application to avoid issues.
+	if ((WndEnum.hMainInst != NULL) || (bAlreadyRunning && (WndEnum.iOwnInstanceFound == 0)))
+		return 0;
+	else if (bAlreadyRunning)
+		return 1;
+	else
+		return 2;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	SearchEmuleWindow() is an EnumWindows callback proc. It sends an eMule Windows user message to the
+//		window 'hWnd' and waits for a response.
+BOOL CALLBACK CEmuleApp::SearchEmuleWindow(HWND hWnd, LPARAM lParam)
+{
+	DWORD dwMsgResult;
+	LRESULT res = ::SendMessageTimeout(hWnd,UWM_ARE_YOU_EMULE,0, 0,SMTO_BLOCK |SMTO_ABORTIFHUNG,10000,&dwMsgResult);
+
+//	If the window didn't respond, tell EnumWindows to continue with the next window
+	if(res == 0)
+		return TRUE;
+
+//	If we got a response...
+	if (dwMsgResult == UWM_ARE_YOU_EMULE)
+	{
+		reinterpret_cast<SearchMyWnd*>(lParam)->iOwnInstanceFound = 1;
+
+	//  Obtain directories (running and destination)
+		TCHAR strSourcePath[MAX_PATH];
+		TCHAR strDestPath[MAX_PATH];
+		::GetModuleFileName(NULL, strSourcePath, MAX_PATH);
+		g_App.GetWindowModuleFileNameEx(hWnd, strDestPath, MAX_PATH);
+
+	//	Compare and if equal we should send the command to this window
+		if (_tcsicmp(strSourcePath, strDestPath) == 0)
+		{
+		//	Return the window handle
+			reinterpret_cast<SearchMyWnd*>(lParam)->hMainInst = hWnd;
+			return FALSE;
+		}
+	}
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEmuleApp::UpdateReceivedBytes(uint32 bytesToAdd)
+{
+	SetTimeOnTransfer();
+	stat_sessionReceivedBytes+=bytesToAdd;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEmuleApp::UpdateSentBytes(uint32 bytesToAdd)
+{
+	SetTimeOnTransfer();
+	stat_sessionSentBytes+=bytesToAdd;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEmuleApp::SetTimeOnTransfer()
+{
+	if (stat_transferStarttime > 0)
+		return;
+
+	stat_transferStarttime=GetTickCount();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CString CEmuleApp::StripInvalidFilenameChars(CString strText, bool bKeepSpaces)
+{
+	static const TCHAR acReservDevNames[][9] =
+	{
+		_T("NUL"), _T("CON"), _T("PRN"), _T("AUX"),
+		_T("COM1"),_T("COM2"),_T("COM3"),_T("COM4"),_T("COM5"),_T("COM6"),_T("COM7"),_T("COM8"),_T("COM9"),
+		_T("LPT1"),_T("LPT2"),_T("LPT3"),_T("LPT4"),_T("LPT5"),_T("LPT6"),_T("LPT7"),_T("LPT8"),_T("LPT9"),
+		_T("CLOCK$"),	_T("CONFIG$"), _T("$MMXXXX0"), _T("XMSXXXX0"), _T("IFS$HLP$")	// Win9x only
+	};
+	LPTSTR		pcSrc, pcDst;
+	TCHAR		cCh;
+	unsigned	uiLen;
+
+	pcSrc = pcDst = strText.GetBuffer();
+
+	while ((cCh = *pcSrc) != _T('\0'))
+	{
+		if ( !( (static_cast<unsigned>(cCh) <= 31u)	// lots of invalid chars for filenames in windows :=)
+			|| cCh == _T('\"') || cCh == _T('*') || cCh == _T('<')  || cCh == _T('>')
+			|| cCh == _T('?')  || cCh == _T('|') || cCh == _T('\\') || cCh == _T('/')
+			|| cCh == _T(':') ) )
+		{
+			if (!bKeepSpaces && cCh == _T(' '))
+				cCh = _T('.');
+			*pcDst = cCh;
+			pcDst++;
+		}
+		pcSrc++;
+	}
+	*pcDst = _T('\0');
+
+	strText.ReleaseBuffer();
+
+	for (unsigned i = 0; i < ARRSIZE(acReservDevNames); i++)
+	{
+		uiLen = _tcslen(reinterpret_cast<const TCHAR*>(&acReservDevNames[i]));
+		if (_tcsnicmp(strText, reinterpret_cast<const TCHAR*>(&acReservDevNames[i]), uiLen) == 0)
+		{
+			if (static_cast<unsigned>(strText.GetLength()) == uiLen)
+			{
+				strText += _T("_");	// Filename is a reserved file name
+				break;
+			}
+			else if (strText.GetString()[uiLen] == _T('.'))
+			{
+				strText.SetAt(uiLen, _T('_'));	//	Starts with a reserved file name followed by '.'
+				break;
+			}
+		}
+	}
+
+	return strText;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	Note: since Win9x doesn't support automatic ANSI->Unicode conversion, we need to add using both formats
+bool CEmuleApp::CopyTextToClipboard(const CString &strText) const
+{
+	if (strText.IsEmpty())
+		return false;
+
+//	Open the Clipboard and insert the handle into the global memory
+	if (OpenClipboard(NULL) == NULL)
+		return false;
+
+	uint32	iCopied = 0;
+
+	if (EmptyClipboard())
+	{
+		CStringA	strTextA(strText);
+
+	//	Copy ANSI text
+		HGLOBAL	hGlobalA = GlobalAlloc(GHND | GMEM_SHARE, (strTextA.GetLength() + 1) * sizeof(CHAR));
+
+		if (hGlobalA != NULL)
+		{
+			LPSTR	pGlobalA = static_cast<LPSTR>(GlobalLock(hGlobalA));
+
+			if (pGlobalA != NULL)
+			{
+				strcpy(pGlobalA, strTextA);
+				GlobalUnlock(hGlobalA);
+				if (SetClipboardData(CF_TEXT, hGlobalA) != NULL)
+					iCopied |= 1;
+			}
+			if ((iCopied & 1) == 0)
+				GlobalFree(hGlobalA);
+		}
+
+#ifdef _UNICODE
+	//	Copy Unicode text
+		HGLOBAL	hGlobalU = GlobalAlloc(GHND | GMEM_SHARE, (strText.GetLength() + 1) * sizeof(WCHAR));
+
+		if (hGlobalU != NULL)
+		{
+			LPWSTR	pGlobalU = static_cast<LPWSTR>(GlobalLock(hGlobalU));
+
+			if (pGlobalU != NULL)
+			{
+				wcscpy(pGlobalU, strText);
+				GlobalUnlock(hGlobalU);
+				if (SetClipboardData(CF_UNICODETEXT, hGlobalU) != NULL)
+					iCopied |= 2;
+			}
+			if ((iCopied & 2) == 0)
+				GlobalFree(hGlobalU);
+		}
+#endif
+	}
+
+	CloseClipboard();
+
+//	This is here so eMule won't think the clipboard has ed2k links for adding
+	if (iCopied != 0)
+		g_App.m_pMDlg->m_dlgSearch.IgnoreClipBoardLinks(strText);
+
+	return (iCopied != 0);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CEmuleApp::CopyTextFromClipboard(CString *pstrContent)
+{
+	HGLOBAL	hGlobal;
+	bool	bIsCopied = false;
+#ifdef _UNICODE
+	UINT	uiFormat = CF_UNICODETEXT;
+#else
+	UINT	uiFormat = CF_TEXT;
+#endif
+
+	if (!pstrContent->IsEmpty())
+		pstrContent->Truncate(0);
+
+	do
+	{
+		if (IsClipboardFormatAvailable(uiFormat))
+		{
+			if (OpenClipboard(NULL) == NULL)
+				break;
+
+			hGlobal = GetClipboardData(uiFormat);
+			if (hGlobal != NULL)
+			{
+				const void	*pGlobal = GlobalLock(hGlobal);
+
+				if (pGlobal != NULL)
+				{
+					if (uiFormat == CF_UNICODETEXT)
+						*pstrContent = (const TCHAR*)pGlobal;
+					else
+						*pstrContent = (const char*)pGlobal;
+					GlobalUnlock(hGlobal);
+					bIsCopied = true;
+				}
+			}
+			CloseClipboard();
+		}
+		else
+			uiFormat = CF_TEXT;
+	}
+	while ((uiFormat != CF_TEXT) && !bIsCopied);
+
+	return bIsCopied;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEmuleApp::OnlineSig()
+{
+	if (!m_pPrefs->IsOnlineSignatureEnabled())
+		return;
+
+	CStdioFile	file;
+	char		acBuf[20];
+	CString		strFullPath = m_pPrefs->GetAppDir();
+
+	strFullPath += _T("onlinesig.dat");
+	if (!file.Open(strFullPath, CFile::modeCreate | CFile::modeWrite | CFile::shareDenyWrite | CFile::typeBinary))
+	{
+		AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, IDS_ERROR_SAVEFILE, _T("onlinesig.dat"));
+		return;
+	}
+
+#ifdef OLD_SOCKETS_ENABLED
+	if (m_pServerConnect->IsConnected())
+	{
+		CServer		*pCurServer = m_pServerConnect->GetCurrentServer();
+		CStringA	strBufA(pCurServer->GetListName());
+
+		file.Write("1|", 2);
+		file.Write(strBufA, strBufA.GetLength());
+
+		file.Write("|", 1);
+		strBufA = pCurServer->GetAddress();
+		file.Write(strBufA, strBufA.GetLength());
+		file.Write("|", 1);
+		file.Write(acBuf, strlen(_itoa(pCurServer->GetPort(), acBuf, 10)));
+	}
+	else
+#endif //OLD_SOCKETS_ENABLED
+		file.Write("0", 1);
+
+	file.Write("\n", 1);
+	file.Write(acBuf, sprintf(acBuf, "%.1f", static_cast<double>(m_pDownloadQueue->GetDataRate()) / 1024.0));
+	file.Write("|", 1);
+	file.Write(acBuf, sprintf(acBuf, "%.1f", static_cast<double>(m_pUploadQueue->GetDataRate()) / 1024.0));
+	file.Write("|", 1);
+	file.Write(acBuf, strlen(_itoa(m_pUploadQueue->GetWaitingUserCount(), acBuf, 10)));
+
+	file.Close();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Handling a better process exit
+int CEmuleApp::ExitInstance()
+{
+	EMULE_TRY
+	m_pMDlg = NULL;
+
+	m_fileHashControl.Destroy();
+
+	delete m_pFakeCheck;
+	m_pFakeCheck = NULL;
+#ifdef OLD_SOCKETS_ENABLED
+	delete m_pListenSocket;
+	m_pListenSocket = NULL;
+	delete m_pClientUDPSocket;
+	m_pClientUDPSocket = NULL;
+	delete m_pServerConnect;
+	m_pServerConnect = NULL;
+#endif //OLD_SOCKETS_ENABLED
+	delete m_pServerList;
+	m_pServerList = NULL;
+	delete m_pKnownFilesList;
+	m_pKnownFilesList = NULL;
+	delete m_pDownloadQueue;
+	m_pDownloadQueue = NULL;
+	delete m_pUploadQueue;
+	m_pUploadQueue = NULL;
+	delete m_pSharedFilesList;
+	m_pSharedFilesList = NULL;
+	delete m_pSearchList;
+	m_pSearchList = NULL;
+	delete m_pClientCreditList;
+	m_pClientCreditList = NULL;
+	delete m_pClientList;
+	m_pClientList = NULL;
+	delete m_pDownloadList;
+	m_pDownloadList = NULL;
+	delete m_pFriendList;
+	m_pFriendList = NULL;
+	delete m_pAutoDL;
+	m_pAutoDL = NULL;
+	delete m_pPrefs;
+	m_pPrefs = NULL;
+	delete m_pIPFilter;
+	m_pIPFilter = NULL;
+	delete m_pIP2Country;
+	m_pIP2Country = NULL;
+	delete m_pWebServer;
+	m_pWebServer = NULL;
+#ifdef OLD_SOCKETS_ENABLED
+	delete m_pMMServer;
+	m_pMMServer = NULL;
+#endif //OLD_SOCKETS_ENABLED
+	delete m_pFirewallOpener;
+	m_pFirewallOpener = NULL;
+
+	try
+	{
+		CJumpstarter::CloseDatabases();
+	//	This is true after client couldn't start properly,
+	//	e.g. disallowed to start due to disabled multiple instances
+		if (pDbEnv != NULL)
+		{
+			pDbEnv->txn_checkpoint(0, 0, 0);
+			pDbEnv->close(0);
+			delete pDbEnv;
+		}
+	}
+#ifdef _DEBUG
+	catch (DbException &pDbEnv)
+	{
+		TRACE1("Problems delete database objects: %hs.\n", pDbEnv.what());
+	}
+#endif
+	catch (...)
+	{
+		TRACE("Problems delete database objects.\n");
+	}
+
+	m_app_state = APP_STATE_DONE;
+
+	delete m_pDump;
+	m_pDump = NULL;
+
+	CloseHandle(m_hMutexOneDirInstance);
+	CloseHandle(m_hMutexOneInstance);
+
+	return CWinApp::ExitInstance();
+	EMULE_CATCH2
+	return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	OnHelp() is the handler for the Windows Help message
+void CEmuleApp::OnHelp()
+{
+	ShellExecute(NULL, _T("open"), _T("http://emuleplus.info/forum/index.php?showforum=23"), NULL, NULL, SW_SHOW);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+int CEmuleApp::GetFileTypeSystemImageIdx(LPCTSTR pszFilePath, int iLength /* = -1 */)
+{
+//	TODO: This has to be MBCS aware..
+	DWORD dwFileAttributes;
+	LPCTSTR pszCacheExt = NULL;
+	if (iLength == -1)
+		iLength = _tcslen(pszFilePath);
+	if (iLength > 0 && (pszFilePath[iLength - 1] == _T('\\') || pszFilePath[iLength - 1] == _T('/')))
+	{
+	//	It's a directory
+		pszCacheExt = _T("\\");
+		dwFileAttributes = FILE_ATTRIBUTE_DIRECTORY;
+	}
+	else
+	{
+		dwFileAttributes = FILE_ATTRIBUTE_NORMAL;
+	//	Search last '.' character *after* the last '\\' character
+		for (int i = iLength - 1; i >= 0; i--)
+		{
+			if (pszFilePath[i] == _T('\\') || pszFilePath[i] == _T('/'))
+				break;
+			if (pszFilePath[i] == _T('.'))
+			{
+			//	Point to 1st character of extension (skip the '.')
+				pszCacheExt = &pszFilePath[i + 1];
+				break;
+			}
+		}
+		if (pszCacheExt == NULL)
+			pszCacheExt = _T(""); // empty extension
+	}
+
+//	Search extension in "ext->idx" cache.
+	LPVOID vData;
+	if (!m_aExtToSysImgIdx.Lookup(pszCacheExt, vData))
+	{
+	//	Get index for the system's small icon image list
+		SHFILEINFO	sfi;
+		DWORD	dwResult = SHGetFileInfo( pszFilePath, dwFileAttributes, &sfi, sizeof(sfi),
+			SHGFI_USEFILEATTRIBUTES | SHGFI_SYSICONINDEX | SHGFI_SMALLICON );
+
+		if (dwResult == 0)
+			return 0;
+		ASSERT( m_hSystemImageList == NULL || m_hSystemImageList == (HIMAGELIST)dwResult );
+		m_hSystemImageList = (HIMAGELIST)dwResult;
+
+	//	Store icon index in local cache
+		m_aExtToSysImgIdx.SetAt(pszCacheExt, (LPVOID)sfi.iIcon);
+		return sfi.iIcon;
+	}
+//	Return already cached value
+//	Elandal: Assumes sizeof(void*) == sizeof(int)
+	return (int)vData;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	InitURLs() parses the domains for the Internet Callback Check out of the pref string into
+//		the string array 'm_ICCURLs'.
+void CEmuleApp::InitURLs()
+{
+	CString	strToken, strList(m_pPrefs->GetURLsForICC().MakeLower());
+	int		iCurPos = 0;
+
+	m_ICCURLs.RemoveAll();
+	for (;;)
+	{
+		strToken = strList.Tokenize(_T("|"), iCurPos);
+		if (strToken.IsEmpty())
+			break;
+		m_ICCURLs.Add(strToken);
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CEmuleApp::PreTranslateMessage(MSG* pMsg)
+{
+	if (pMsg->message == WM_KEYDOWN || pMsg->message == WM_SYSKEYDOWN)
+	{
+		int iMessage = 0;
+		short nCode = GetCodeFromPressedKeys(pMsg);
+
+		if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_MINIMIZE))
+		{
+			m_pMDlg->TrayShow();
+			m_pMDlg->ShowWindow(SW_HIDE);
+			return TRUE;
+		}
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_SWITCH))
+		{
+			if (m_pMDlg->m_pdlgActive == &m_pMDlg->m_wndServer)
+				iMessage = IDC_TOOLBARBUTTON + MTB_TRANSFER;
+			else if (m_pMDlg->m_pdlgActive == &m_pMDlg->m_wndTransfer)
+				iMessage = IDC_TOOLBARBUTTON + MTB_SEARCH;
+			else if (m_pMDlg->m_pdlgActive == &m_pMDlg->m_dlgSearch)
+				iMessage = IDC_TOOLBARBUTTON + MTB_SHAREDFILES;
+			else if (m_pMDlg->m_pdlgActive == &m_pMDlg->m_wndSharedFiles)
+				iMessage = IDC_TOOLBARBUTTON + MTB_MESSAGES;
+			else if (m_pMDlg->m_pdlgActive == &m_pMDlg->m_wndChat)
+				iMessage = IDC_TOOLBARBUTTON + MTB_IRC;
+			else if (m_pMDlg->m_pdlgActive == &m_pMDlg->m_wndIRC)
+				iMessage = IDC_TOOLBARBUTTON + MTB_STATISTICS;
+			else if (m_pMDlg->m_pdlgActive == &m_pMDlg->m_dlgStatistics)
+				iMessage = IDC_TOOLBARBUTTON + MTB_SERVERS;
+		}
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_SRV))
+			iMessage = IDC_TOOLBARBUTTON + MTB_SERVERS;
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_TRANSFER))
+			iMessage = IDC_TOOLBARBUTTON + MTB_TRANSFER;
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_SEARCH))
+			iMessage = IDC_TOOLBARBUTTON + MTB_SEARCH;
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_SHAREDFILES))
+			iMessage = IDC_TOOLBARBUTTON + MTB_SHAREDFILES;
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_CHAT))
+			iMessage = IDC_TOOLBARBUTTON + MTB_MESSAGES;
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_IRC))
+			iMessage = IDC_TOOLBARBUTTON + MTB_IRC;
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_STATS))
+			iMessage = IDC_TOOLBARBUTTON + MTB_STATISTICS;
+		else if (nCode == m_pPrefs->GetShortcutCode(SCUT_WIN_PREFS))
+			iMessage = IDC_TOOLBARBUTTON + MTB_PREFS;
+
+		if (iMessage > 0)
+		{
+			m_pMDlg->PostMessage(WM_COMMAND, iMessage);
+			return TRUE;
+		}
+	}
+
+	return CWinApp::PreTranslateMessage(pMsg);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	GetWindowModuleFileNameEx obtains the directory of a running process in any platform
+//	so we can choose which app to send the CLI command to.
+UINT CEmuleApp::GetWindowModuleFileNameEx(HWND hwnd, LPTSTR pszFileName, UINT cchFileNameMax)
+{
+	UINT uiRetval = 0;
+	DWORD dwThreadId, dwProcessId;
+	dwThreadId = GetWindowThreadProcessId(hwnd,&dwProcessId);
+	HANDLE hProcess = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, FALSE, dwProcessId);
+
+	if (hProcess == NULL)
+		return 0;
+
+	OSVERSIONINFO osver;
+
+//	Check to see if were running under Windows95 or Windows NT.
+	osver.dwOSVersionInfoSize = sizeof(osver);
+	if (!GetVersionEx(&osver))
+		goto Out2;
+
+//	If Windows NT:
+	if (osver.dwPlatformId == VER_PLATFORM_WIN32_NT)
+	{
+		HINSTANCE hPSAPI_Dll = LoadLibrary(_T("PSAPI.DLL"));
+
+		if (hPSAPI_Dll == NULL)
+			goto Out2;
+
+		BOOL (WINAPI *lpfEnumProcessModules)(HANDLE, HMODULE *, DWORD, LPDWORD);
+		DWORD (WINAPI *lpfGetModuleFileNameEx)(HANDLE, HMODULE, LPTSTR, DWORD);
+
+		lpfEnumProcessModules = (BOOL(WINAPI *)(HANDLE, HMODULE *, DWORD, LPDWORD))
+			GetProcAddress(hPSAPI_Dll, "EnumProcessModules");
+#ifndef _UNICODE
+		lpfGetModuleFileNameEx = (DWORD (WINAPI *)(HANDLE, HMODULE, LPTSTR, DWORD))
+			GetProcAddress(hPSAPI_Dll, "GetModuleFileNameExA");
+#else
+		lpfGetModuleFileNameEx = (DWORD (WINAPI *)(HANDLE, HMODULE, LPTSTR, DWORD))
+			GetProcAddress(hPSAPI_Dll, "GetModuleFileNameExW");
+#endif
+		HMODULE hModule;
+		DWORD dwSize = sizeof(HMODULE);
+
+		if (lpfEnumProcessModules(hProcess, &hModule, sizeof(HMODULE), &dwSize))
+			uiRetval = lpfGetModuleFileNameEx(hProcess, hModule, pszFileName, cchFileNameMax);
+
+		FreeLibrary(hPSAPI_Dll);
+	}
+	else if (osver.dwPlatformId == VER_PLATFORM_WIN32_WINDOWS)
+	{
+		HINSTANCE hKernel32 = LoadLibrary(_T("PSAPI.DLL"));
+
+		if (hKernel32 == NULL)
+			goto Out2;
+
+	//	ToolHelp Function Pointers
+		HANDLE (WINAPI *lpfCreateToolhelp32Snapshot)(DWORD, DWORD);
+		BOOL (WINAPI *lpfProcess32First)(HANDLE, LPPROCESSENTRY32);
+		BOOL (WINAPI *lpfProcess32Next)(HANDLE, LPPROCESSENTRY32);
+
+		lpfCreateToolhelp32Snapshot = (HANDLE(WINAPI *)(DWORD,DWORD)) GetProcAddress(hKernel32, "CreateToolhelp32Snapshot");
+		lpfProcess32First = (BOOL(WINAPI *)(HANDLE,LPPROCESSENTRY32)) GetProcAddress(hKernel32, "Process32First");
+		lpfProcess32Next = (BOOL(WINAPI *)(HANDLE,LPPROCESSENTRY32)) GetProcAddress(hKernel32, "Process32Next");
+
+		if (lpfProcess32Next == NULL || lpfProcess32First == NULL || lpfCreateToolhelp32Snapshot == NULL)
+			goto Out1;
+
+		PROCESSENTRY32 procentry;
+		procentry.dwSize = sizeof(PROCESSENTRY32);
+		HANDLE hSnapshot = lpfCreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+
+		if (hSnapshot == NULL)
+			goto Out1;
+
+		BOOL bFlag;
+		bFlag = lpfProcess32First(hSnapshot,&procentry);
+
+		while (bFlag)
+		{
+			if (procentry.th32ProcessID == dwProcessId)
+			{
+				_tcsncpy(pszFileName, procentry.szExeFile, cchFileNameMax);
+				pszFileName[cchFileNameMax - 1] = _T('\0');
+				uiRetval = _tcslen(pszFileName) + 1;
+				break;
+			}
+			procentry.dwSize = sizeof(PROCESSENTRY32);
+			bFlag = lpfProcess32Next(hSnapshot, &procentry);
+		}
+
+		CloseHandle(hSnapshot);
+Out1:
+		FreeLibrary(hKernel32);
+	}
+Out2:
+	CloseHandle(hProcess);
+	return uiRetval;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CEmuleApp::SetPublicIP(uint32 dwIP)
+{
+	if (dwIP != 0)
+	{
+		if (GetPublicIP() == 0)
+			AddLogLine(LOG_FL_DBG, _T("My public IP address: %s"), ipstr(dwIP));
+		m_dwPublicIP = dwIP;
+		if (m_pServerList != NULL)
+			m_pServerList->CheckForExpiredUDPKeys();
+	}
+	else
+	{
+		m_dwPublicIP = dwIP;
+		AddLogLine(LOG_FL_DBG, _T("Deleted public IP"));
+	}
+}
+@
+
+
+1.179
+log
+@Reduced H-file dependency.
+@
+text
+@d699 1
+a699 1
+		strBufA = pCurServer->GetFullIP();
+@
+
+
+1.178
+log
+@Reduced H-file dependency.
+@
+text
+@d29 1
+@
+
+
+1.177
+log
+@Reduced H-file dependency.
+@
+text
+@d38 1
+@
+
+
+1.176
+log
+@Reduced H-file dependency.
+@
+text
+@d33 1
+@
+
+
+1.175
+log
+@Resolved several applications startup race conditions (when several clients start at the same time from the same directory).
+@
+text
+@d28 3
+@
+
+
+1.174
+log
+@Reduced H-file dependency.
+@
+text
+@d43 4
+d165 20
+d387 4
+a390 3
+	HWND	hMainInst = NULL;
+	bool	bAlreadyRunning = false;
+	int		iRc;
+d394 2
+a395 1
+	bAlreadyRunning = (::GetLastError() == ERROR_ALREADY_EXISTS || ::GetLastError() == ERROR_ACCESS_DENIED);
+d397 1
+a397 1
+		EnumWindows(SearchEmuleWindow, (LPARAM)&hMainInst);
+d412 1
+a412 1
+ 			if (hMainInst != NULL)
+d414 1
+a414 1
+				SendMessage(hMainInst, WM_COPYDATA, 0, (LPARAM)(PCOPYDATASTRUCT)&m_sendStruct);
+d425 2
+a426 2
+			if (hMainInst != NULL)
+				iRc = SendMessage(hMainInst, WM_COPYDATA, 0, (LPARAM)(PCOPYDATASTRUCT)&m_sendStruct);
+d437 7
+a443 1
+	if (hMainInst != NULL)
+d465 2
+d476 2
+a477 2
+		//	Return the window handle in '*lParam'.
+			*reinterpret_cast<HWND*>(lParam) = hWnd;
+a479 2
+		else
+			return TRUE;
+d795 1
+@
+
+
+1.173
+log
+@Sligthly corrected help message.
+@
+text
+@d30 1
+@
+
+
+1.172
+log
+@Reduced #include dependency.
+@
+text
+@d355 1
+a355 2
+		_T("preferences\tsave preferences\n")
+		_T("resume\t\tresume a paused download\n")
+d358 1
+@
+
+
+1.171
+log
+@Removed unneeded checks around delete operators.
+@
+text
+@d34 1
+@
+
+
+1.170
+log
+@Unified save file error reports.
+@
+text
+@d758 2
+a759 5
+	if (m_pDump)
+	{
+		delete m_pDump;
+		m_pDump = NULL;
+	}
+@
+
+
+1.169
+log
+@Simplified logging system implementation.
+@
+text
+@d645 1
+a645 1
+		AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, _T("%s OnlineSig.dat"), GetResString(IDS_ERROR_SAVEFILE));
+@
+
+
+1.168
+log
+@Reduced H-file dependency.
+@
+text
+@d271 1
+a271 1
+			AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_PORT_OK), m_pPrefs->GetPort(), _T("TCP"));
+d273 1
+a273 1
+			AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_PORT_FAIL), m_pPrefs->GetPort(), _T("TCP"));
+d279 1
+a279 1
+				AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_PORT_OK), m_pPrefs->GetUDPPort(), _T("UDP"));
+d281 1
+a281 1
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_PORT_FAIL), m_pPrefs->GetUDPPort(), _T("UDP"));
+d645 1
+a645 1
+		AddLogLine(true, RGB_LOG_ERROR_TXT _T("%s OnlineSig.dat"), GetResString(IDS_ERROR_SAVEFILE));
+d1009 1
+a1009 1
+			AddDebugLogLine(_T("My public IP address: %s"), ipstr(dwIP));
+d1017 1
+a1017 1
+		AddDebugLogLine(_T("Deleted public IP"));
+@
+
+
+1.167
+log
+@FakeCheck class destroying moved to the class which creates it; Corrected obtaining of the function pointer; Minor preparation for future VS versions.
+@
+text
+@a23 1
+#include "KeyboardShortcut.h"
+d28 1
+@
+
+
+1.166
+log
+@Added message box with CLI help [DoubleT/Aw3];
+Removed MFC parameter parsing -- too heavy and useless for us.
+@
+text
+@d98 1
+a98 1
+extern "C" HMODULE (__stdcall *_PfnLoadUnicows)(void) = &ExplicitPreLoadUnicows;
+d178 1
+d182 1
+d686 2
+@
+
+
+1.165
+log
+@Command-line commands don't start eMule Plus if it's not running.
+@
+text
+@d142 1
+a142 1
+	m_pstrPendingLink = 0;
+d343 16
+d361 1
+a361 3
+	CCommandLineInfo	cmdInfo;
+
+	ParseCommandLine(cmdInfo);
+a365 1
+
+d369 2
+a370 2
+//	If the shell commmand was to open the program (as opposed to print, etc.)...
+	if (cmdInfo.m_nShellCommand == CCommandLineInfo::FileOpen)
+d372 2
+a373 1
+		CString	strCmd = cmdInfo.m_strFileName;
+a377 1
+		//
+d381 1
+a381 1
+			m_sendStruct.lpData = strCmd.GetBuffer();
+d384 1
+a384 1
+				SendMessage(hMainInst, WM_COPYDATA, (WPARAM)0, (LPARAM)(PCOPYDATASTRUCT)&m_sendStruct);
+d387 1
+a387 2
+			else
+				m_pstrPendingLink = new CString(strCmd);
+d394 1
+a394 1
+			m_sendStruct.lpData = strCmd.GetBuffer();
+d396 5
+a400 1
+				SendMessage(hMainInst, WM_COPYDATA, (WPARAM)0, (LPARAM)(PCOPYDATASTRUCT)&m_sendStruct);
+@
+
+
+1.164
+log
+@Suppressed compiler warnings.
+@
+text
+@a383 1
+			{
+d385 3
+a387 2
+				return 0;
+			}
+@
+
+
+1.163
+log
+@Unified resource clean-up and return.
+@
+text
+@d236 1
+a236 1
+	catch (DbRunRecoveryException &pDbEnv)
+d238 1
+a238 1
+		AfxMessageBox(CString(pDbEnv.what()));
+d241 2
+a242 1
+	catch (DbException &pDbEnv)
+d245 1
+a245 1
+		TRACE1("Problems create database objects: %hs. Closing.\n", pDbEnv.what());
+d248 1
+d252 1
+a252 1
+		TRACE("Problems create database objects. Closing.\n");
+@
+
+
+1.162
+log
+@Simplified shared files hashing thread [KuSh].
+@
+text
+@d889 1
+a889 1
+	DWORD dwThreadId , dwProcessId;
+d893 1
+a893 1
+	if (hProcess==NULL)
+d901 1
+a901 4
+	{
+		CloseHandle(hProcess);
+		return 0;
+	}
+d909 1
+a909 4
+		{
+			CloseHandle(hProcess);
+			return 0;
+		}
+d936 1
+a936 4
+		{
+			CloseHandle(hProcess);
+			return 0;
+		}
+d948 1
+a948 5
+		{
+			FreeLibrary(hKernel32);
+			CloseHandle(hProcess);
+			return 0;
+		}
+d954 2
+a955 6
+		if (hSnapshot==NULL)
+		{
+			FreeLibrary(hKernel32);
+			CloseHandle(hProcess);
+			return 0;
+		}
+d974 1
+d977 1
+a977 1
+
+@
+
+
+1.161
+log
+@Minor corrections and formatting; Improved string processing; Protection against too long string to be copied.
+@
+text
+@a142 1
+	bool bIsRunningButNoCmd = false;
+d144 2
+a145 1
+	int iResult = ProcessCommandline();
+d156 1
+a156 2
+	if(bIsRunningButNoCmd && !m_pPrefs->GetMultiple())
+	{
+d158 1
+a158 1
+	}
+d166 4
+a169 2
+	DWORD dwComCtrlMjr = 4;
+	DWORD dwComCtrlMin = 0;
+d190 1
+a190 1
+	CEmuleDlg		dlg;
+d201 1
+a201 1
+			m_fileHashControl.SetProcessingPriority(ePIdle);
+d204 1
+a204 1
+			m_fileHashControl.SetProcessingPriority(ePLower);
+d207 1
+a207 1
+			m_fileHashControl.SetProcessingPriority(ePStandard);
+d210 1
+@
+
+
+1.160
+log
+@added MSLU support for Unicode
+@
+text
+@d59 13
+a71 14
+	static const char *pcUnicowsError = {
+		"This eMule version requires the \"Microsoft(R) Layer for Unicode(TM) on Windows(R) 95/98/ME Systems\".\r\n"
+		"\r\n"
+		"Download the MSLU package from Microsoft(R) here:\r\n"
+		"        http://www.microsoft.com/downloads/details.aspx?FamilyId=73BA7BD7-ED06-4F0D-80A4-2A7EEAEE17E2\r\n"
+		"or\r\n"
+		"        search the Microsoft(R) Download Center http://www.microsoft.com/downloads/ for \"MSLU\" or \"unicows\"."
+		"\r\n"
+		"\r\n"
+		"\r\n"
+		"After downloading the MSLU package, run the \"unicows.exe\" program and specify your eMule installation folder "
+		"where to place the extracted files from the package.\r\n"
+		"\r\n"
+		"Ensure that the file \"unicows.dll\" was placed in your eMule installation folder and start eMule again."};
+d79 1
+a79 1
+				"This eMule version (Unicode, MSLU, shared MFC) does not run with this version of Windows.", 
+d310 1
+a310 1
+//	Reset statistic values
+a374 1
+		//
+d812 2
+a813 3
+	CString strList(_T(""));
+	CString resToken(_T(""));
+	int curPos = 0;
+d816 1
+a816 6
+
+	strList.SetString(m_pPrefs->GetURLsForICC().MakeLower());
+	curPos = 0;
+	resToken.SetString(strList.Tokenize(_T("|"),curPos));
+
+	while (!resToken.IsEmpty())
+d818 4
+a821 2
+		m_ICCURLs.Add(resToken);
+		resToken.SetString(strList.Tokenize(_T("|"),curPos));
+d884 1
+a884 1
+UINT CEmuleApp::GetWindowModuleFileNameEx(HWND hwnd,LPTSTR pszFileName,UINT cchFileNameMax)
+d980 1
+d989 1
+a989 1
+		FreeLibrary( hKernel32 ) ;
+@
+
+
+1.159
+log
+@Corrected one more issue introduced by recent changes touching copy to clipboard functionality.
+@
+text
+@d53 49
+@
+
+
+1.158
+log
+@fixed anohter issue introduced with Unicode support (thanks Aw3)
+@
+text
+@d455 1
+a455 1
+//	Note: since Win 9x systems do not support automatic coversion between ANSI and Unicode, we need to copy in 2 both formats
+a460 2
+	CStringA strTextA(strText);
+
+d462 1
+a462 1
+	if ((OpenClipboard(NULL) == NULL) || !EmptyClipboard())
+d465 1
+a465 1
+	uint32	dwCopied = 0;
+d467 3
+a469 2
+//	Copy ANSI text
+	HGLOBAL	hGlobalA = GlobalAlloc(GHND | GMEM_SHARE, (strText.GetLength() + 1) * sizeof(CHAR));
+d471 2
+a472 3
+	if (hGlobalA != NULL)
+	{
+		LPSTR	pGlobalA = static_cast<LPSTR>(GlobalLock(hGlobalA));
+d474 1
+a474 1
+		if (pGlobalA != NULL)
+d476 11
+a486 4
+			strcpy(pGlobalA, strTextA);
+			GlobalUnlock(hGlobalA);
+			if (SetClipboardData(CF_TEXT, hGlobalA) != NULL)
+				dwCopied |= 0x1;
+a487 3
+		if ((dwCopied & 0x1) == 0)
+			GlobalFree(hGlobalA);
+	}
+d490 2
+a491 2
+//	Copy Unicode text
+	HGLOBAL	hGlobalU = GlobalAlloc(GHND | GMEM_SHARE, (strText.GetLength() + 1) * sizeof(WCHAR));
+d493 3
+a495 3
+	if (hGlobalU != NULL)
+	{
+		LPWSTR	pGlobalU = static_cast<LPWSTR>(GlobalLock(hGlobalU));
+d497 9
+a505 6
+		if (pGlobalU != NULL)
+		{
+			wcscpy(pGlobalU, strText);
+			GlobalUnlock(hGlobalU);
+			if (SetClipboardData(CF_UNICODETEXT, hGlobalU) != NULL)
+				dwCopied |= 0x2;
+d507 1
+a507 2
+		if ((dwCopied & 0x2) == 0)
+			GlobalFree(hGlobalU);
+a508 1
+#endif
+d513 1
+a513 3
+	bool	bIsCopied = (dwCopied != 0);
+
+	if (bIsCopied)
+d516 1
+a516 1
+	return bIsCopied;
+@
+
+
+1.157
+log
+@fixed the bugs introduced in previous commit (thanks KuSh)
+@
+text
+@a520 1
+	LPTSTR	ptcGlobal;
+d541 3
+a543 2
+				ptcGlobal = (LPTSTR)GlobalLock(hGlobal);
+				if (ptcGlobal != NULL)
+d545 4
+a548 1
+					*pstrContent = ptcGlobal;
+@
+
+
+1.156
+log
+@added Unicode support for clipboard
+@
+text
+@d464 1
+a464 1
+	if( OpenClipboard(NULL) == NULL )
+d467 1
+a467 2
+	if(!EmptyClipboard())
+		return false;
+d469 2
+a470 1
+	int	iCopied = 0;
+d472 1
+a472 3
+//	Copy ANSI text
+	HGLOBAL hGlobalA = GlobalAlloc(GHND|GMEM_SHARE,(strText.GetLength() + 1)*sizeof(CHAR));
+	if(hGlobalA != NULL)
+d474 3
+a476 2
+		LPSTR pGlobalA = static_cast<LPSTR>(GlobalLock(hGlobalA));
+		if( pGlobalA != NULL)
+d480 2
+a481 2
+			if( SetClipboardData(CF_TEXT, hGlobalA) != NULL )
+				iCopied++;
+d483 2
+a484 1
+		GlobalFree(hGlobalA);
+d489 3
+a491 2
+	HGLOBAL hGlobalU = GlobalAlloc(GHND|GMEM_SHARE,(strText.GetLength() + 1)*sizeof(WCHAR));
+	if(hGlobalU != NULL)
+d493 3
+a495 2
+		LPWSTR pGlobalU = static_cast<LPWSTR>(GlobalLock(hGlobalU));
+		if( pGlobalU != NULL)
+d499 2
+a500 2
+			if( SetClipboardData(CF_UNICODETEXT, hGlobalU) != NULL )
+				iCopied++;
+d502 2
+a503 1
+		GlobalFree(hGlobalU);
+d510 1
+a510 1
+	bool	bIsCopied = (iCopied != 0);
+d520 2
+a521 2
+	HGLOBAL	hglb;
+	LPTSTR	lptstr;
+d534 1
+a534 1
+		if (!IsClipboardFormatAvailable(uiFormat))
+d536 2
+a537 5
+			uiFormat = CF_TEXT;
+			continue;
+		}
+		if (!OpenClipboard(NULL))
+			break;
+d539 2
+a540 5
+		hglb = GetClipboardData(uiFormat);
+		if (hglb != NULL)
+		{
+			lptstr = (LPTSTR)GlobalLock(hglb);
+			if (lptstr != NULL)
+d542 7
+a548 3
+				*pstrContent = lptstr;
+				GlobalUnlock(hglb);
+				bIsCopied = true;
+d550 1
+d552 2
+a553 1
+		CloseClipboard();
+@
+
+
+1.155
+log
+@Preparations for comprehensive exception handling; Reduced H-file dependency.
+@
+text
+@d455 1
+d458 1
+a458 3
+//	Allocate global memory & lock it
+	HGLOBAL hGlobal = GlobalAlloc(GHND|GMEM_SHARE,strText.GetLength() + 1);
+	if(hGlobal == NULL)
+d461 1
+a461 8
+	LPTSTR pGlobal = static_cast<LPTSTR>(GlobalLock(hGlobal));
+	if( pGlobal == NULL )
+		return false;
+
+//	Copy the text
+	_tcscpy(pGlobal,strText);
+
+	GlobalUnlock(hGlobal);
+d470 33
+a502 2
+	if( SetClipboardData(CF_TEXT,hGlobal) == NULL )
+		return false;
+d507 4
+a510 1
+	g_App.m_pMDlg->m_dlgSearch.IgnoreClipBoardLinks(strText);
+d512 1
+a512 1
+	return true;
+d515 1
+a515 2
+// Download all ed2ks in clipboard
+CString CEmuleApp::CopyTextFromClipboard()
+d518 7
+a524 6
+	LPTSTR  lptstr;
+	CString	retstring;
+	if (!IsClipboardFormatAvailable(CF_TEXT))
+		return retstring;
+	if (!OpenClipboard(NULL))
+		return retstring;
+d526 4
+a529 2
+	hglb = GetClipboardData(CF_TEXT);
+	if (hglb != NULL)
+d531 20
+a550 2
+		lptstr = (LPTSTR)GlobalLock(hglb);
+		if (lptstr != NULL) retstring = lptstr;
+d552 3
+a554 2
+	CloseClipboard();
+	return retstring;
+@
+
+
+1.154
+log
+@Minor formatting.
+@
+text
+@d33 1
+d74 5
+@
+
+
+1.153
+log
+@#include was moved to C-file.
+Suppressed level 4 warnings.
+@
+text
+@d428 1
+a428 1
+	for (unsigned i = 0; i < ELEMENT_COUNT(acReservDevNames); i++)
+d614 1
+a614 1
+#if defined(_DEBUG)
+@
+
+
+1.152
+log
+@Encryption preparations;
+Fixed new time formatting not based on the current system user settings.
+@
+text
+@d32 1
+d269 1
+a269 1
+	INT_PTR nResponse = dlg.DoModal();
+d433 1
+a433 1
+			if (strText.GetLength() == uiLen)
+d614 1
+d617 1
+a617 3
+		const char	*pcWhat = pDbEnv.what();
+
+		TRACE1("Problems delete database objects: %hs.\n", pcWhat);
+d619 1
+@
+
+
+1.151
+log
+@Reduced #include depedency.
+@
+text
+@a36 1
+
+a38 1
+// CEmuleApp
+d53 1
+d97 1
+d891 16
+@
+
+
+1.150
+log
+@Removed local CServerList pointer.
+@
+text
+@d21 1
+d263 1
+a263 1
+	m_lTotalFiltered = 0;	// stat_filteredclients = 0;
+@
+
+
+1.149
+log
+@Removed local preferences pointer.
+@
+text
+@d234 1
+a234 1
+	m_pServerConnect = new CServerConnect(m_pServerList);
+@
+
+
+1.148
+log
+@Moved online signature (onlinesig.dat) from config to installation folder for compatibility {Vladimir (SV)/Lastwebpage}.
+@
+text
+@d242 1
+a242 1
+	m_pDownloadQueue = new CDownloadQueue(m_pPrefs, m_pSharedFilesList);	// bugfix - do this before creating the m_pUploadQueue
+@
+
+
+1.147
+log
+@Moved general initialization outside the try/catch.
+@
+text
+@d509 1
+a509 1
+	CString		strFullPath = m_pPrefs->GetConfigDir();
+@
+
+
+1.146
+log
+@Removed unrequired preferences parameter.
+@
+text
+@d252 2
+d255 5
+a259 5
+	stat_sessionReceivedBytes=0;
+	stat_sessionSentBytes=0;
+	stat_reconnects=0;
+	stat_transferStarttime=0;
+	stat_serverConnectTime=0;
+a266 2
+	EMULE_CATCH
+
+@
+
+
+1.145
+log
+@Potential fix for a crash caused by delayed loading of IP2Country database {grzechu_l} (thanks KuSh for debugging) --
+one crash dump showed that IP2Country class wasn't created at the time of access to it while creating server object,
+so create it earlier to make it better, as it isn't dependent on anything but preferences.
+@
+text
+@d243 1
+a243 1
+	m_pUploadQueue = new CUploadQueue(m_pPrefs);
+@
+
+
+1.144
+log
+@removed "unfair *" statistic
+@
+text
+@a184 1
+//		pDbSLS = NULL;
+a190 1
+//		pDbSLS = NULL;
+d223 1
+d242 1
+a242 1
+	m_pDownloadQueue = new CDownloadQueue(m_pPrefs,m_pSharedFilesList);	// bugfix - do this before creating the m_pUploadQueue
+a249 1
+	m_pIP2Country	= new CIP2Country();
+d607 1
+a607 1
+			pDbEnv->txn_checkpoint(0,0,0);
+@
+
+
+1.143
+log
+@Fixed completion for some particular file names {taltamir}.
+@
+text
+@a266 7
+//	Initialize global counters for Unfair Actions
+	m_lTotalNumUnfairClients = 0;
+	m_lTotalNumUnfairActions = 0;
+	m_lTotalNumUseMyHashActions = 0;
+	m_lTotalNumHashChangeActions = 0;
+	m_lTotalNumStolenNameActions = 0;
+
+@
+
+
+1.142
+log
+@Changed macro declaration.
+@
+text
+@d404 10
+a413 2
+	LPTSTR	pcSrc, pcDst;
+	TCHAR	cCh;
+d435 18
+@
+
+
+1.141
+log
+@Fixed regression issue -- space to dot conversion of ed2k links {DonGato}.
+@
+text
+@d46 1
+a46 1
+const static UINT		UWM_ARE_YOU_EMULE = RegisterWindowMessage(_T(EMULE_GUID));
+d298 1
+a298 1
+	m_hMutexOneInstance = CreateMutex(NULL, FALSE, _T(EMULE_GUID));
+@
+
+
+1.140
+log
+@reverted a v1.139 change that added a warning while compiling in release {Aw3}
+@
+text
+@d417 1
+a417 1
+				*pcDst = _T('.');
+@
+
+
+1.139
+log
+@UNICODE preparations
+@
+text
+@d597 3
+a599 1
+		TRACE1("Problems delete database objects: %hs.\n", pDbEnv.what());
+@
+
+
+1.138
+log
+@Improved string processing.
+@
+text
+@a92 1
+	{
+a93 1
+	}
+a94 1
+	{
+a95 1
+	}
+a156 16
+//	Change extension for help file
+/*
+	CString		strHelpFile = m_pszHelpFilePath;
+
+	if (m_pPrefs->GetLanguageID()==MAKELANGID(LANG_GERMAN,SUBLANG_DEFAULT))
+	{
+		int		pos = strHelpFile.ReverseFind('.');
+
+		if (pos > 0)
+			strHelpFile = strHelpFile.Left(pos) + _T(".de.chm");
+	}
+	strHelpFile.Replace(_T(".HLP"), _T(".chm"));
+	free((void*)m_pszHelpFilePath);
+	m_pszHelpFilePath = _tcsdup(strHelpFile);
+*/
+
+d164 3
+a166 1
+		CString		sDbHome = CString(m_pPrefs->GetAppDir()) + _T("Db");
+a175 3
+//		pDbSLS = new Db(pDbEnv, 0);
+//		pDbSLS->set_pagesize(16 * 1024); // 16Kb page size
+//		pDbSLS->open(NULL, "Main.db", "SLS", DB_BTREE, DB_CREATE | DB_THREAD, 0);
+d187 1
+a187 1
+		TRACE1("Problems create database objects: %s. Closing.\n", pDbEnv.what());
+d292 3
+a294 2
+	HWND maininst = NULL;
+	bool bAlreadyRunning = false;
+a295 1
+	CCommandLineInfo cmdInfo;
+d298 1
+a298 1
+	m_hMutexOneInstance = CreateMutex(NULL, FALSE,_T(EMULE_GUID));
+d300 1
+a300 1
+	bAlreadyRunning = ( ::GetLastError() == ERROR_ALREADY_EXISTS ||::GetLastError() == ERROR_ACCESS_DENIED);
+d303 1
+a303 1
+		EnumWindows(SearchEmuleWindow, (LPARAM)&maininst);
+d308 1
+a308 1
+		CString command = cmdInfo.m_strFileName;
+d311 1
+a311 1
+		if (command.Find(_T("://"))>0)
+d315 1
+a315 1
+			m_sendStruct.cbData = command.GetLength()+1;
+d317 2
+a318 2
+			m_sendStruct.lpData = command.GetBuffer();
+ 		   	if (maininst)
+d320 1
+a320 1
+				SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &m_sendStruct);
+d324 1
+a324 1
+				m_pstrPendingLink = new CString(command);
+d330 1
+a330 1
+			m_sendStruct.cbData = command.GetLength()+1;
+d332 2
+a333 2
+			m_sendStruct.lpData = command.GetBuffer();
+			if (maininst)
+d335 2
+a336 2
+	  			SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &m_sendStruct);
+	  			return 0;
+d341 1
+a341 1
+	if (maininst)
+d396 2
+a397 1
+	if (stat_transferStarttime>0) return;
+d404 4
+a407 3
+	LPTSTR pszBuffer = strText.GetBuffer();
+	LPTSTR pszSource = pszBuffer;
+	LPTSTR pszDest = pszBuffer;
+d409 1
+a409 1
+	while (*pszSource != '\0')
+d411 4
+a414 4
+		if (!((*pszSource <= 31 && *pszSource >= 0)	|| // lots of invalid chars for filenames in windows :=)
+			*pszSource == '\"' || *pszSource == '*' || *pszSource == '<'  || *pszSource == '>' ||
+			*pszSource == '?'  || *pszSource == '|' || *pszSource == '\\' || *pszSource == '/' ||
+			*pszSource == ':') )
+d416 4
+a419 4
+			if (!bKeepSpaces && *pszSource == ' ')
+				*pszDest = '.';
+			*pszDest = *pszSource;
+			pszDest++;
+d421 1
+a421 1
+		pszSource++;
+d423 2
+a424 1
+	*pszDest = '\0';
+d426 1
+d430 1
+a430 1
+bool CEmuleApp::CopyTextToClipboard(const CString& strText) const
+d595 1
+a595 1
+	catch(DbException &pDbEnv)
+d597 1
+a597 3
+		const char		*pcWhat = pDbEnv.what();
+
+		TRACE1("Problems delete database objects: %s.\n", pcWhat);
+d599 1
+a599 1
+	catch(...)
+d649 1
+a649 1
+				pszCacheExt = &pszFilePath[i+1];
+d662 4
+a665 3
+		SHFILEINFO sfi;
+		DWORD dwResult = SHGetFileInfo(pszFilePath, dwFileAttributes, &sfi, sizeof(sfi),
+									   SHGFI_USEFILEATTRIBUTES | SHGFI_SYSICONINDEX | SHGFI_SMALLICON);
+d795 1
+a795 1
+								 GetProcAddress( hPSAPI_Dll, "EnumProcessModules" );
+d798 1
+a798 1
+								  GetProcAddress( hPSAPI_Dll, "GetModuleFileNameExA");
+d801 1
+a801 1
+								  GetProcAddress(hPSAPI_Dll, "GetModuleFileNameExW");
+d830 1
+a830 2
+		if ( lpfProcess32Next == NULL || lpfProcess32First == NULL ||
+			 lpfCreateToolhelp32Snapshot == NULL )
+@
+
+
+1.137
+log
+@UNICODE preparations
+@
+text
+@d514 1
+a514 1
+		AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_ERROR_SAVEFILE) + _T(" OnlineSig.dat"));
+@
+
+
+1.136
+log
+@new email notifier code (adapted from original) - fully UNICODE ready;
+option to send email notification messages in subject
+@
+text
+@d354 4
+a357 4
+    		if (maininst)
+    		{
+      			SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &m_sendStruct);
+      			return 0;
+d360 1
+a360 1
+    }
+d522 1
+a522 1
+		CStringA	strBufA = pCurServer->GetListName();
+@
+
+
+1.135
+log
+@Rolled back previous Unicode modification -- no need to fix what it's broken;
+Improved string processing.
+@
+text
+@a270 1
+	m_pSMTPConnection = new CSMTPConnection();
+d531 1
+a531 2
+		itoa(pCurServer->GetPort(), acBuf, 10);
+		file.Write(acBuf, strlen(acBuf));
+d542 1
+a542 2
+	itoa(m_pUploadQueue->GetWaitingUserCount(), acBuf, 10);
+	file.Write(acBuf, strlen(acBuf));
+a596 2
+	delete m_pSMTPConnection;
+	m_pSMTPConnection = NULL;
+@
+
+
+1.134
+log
+@UNICODE preparation (first shot) ; removed use of preference member, use global one instead; minor improvements
+@
+text
+@d509 1
+d513 1
+a513 1
+	if (!file.Open(strFullPath, CFile::modeCreate | CFile::modeWrite | CFile::shareDenyWrite | CFile::typeText))
+a518 2
+	TCHAR	acBuf[20];
+
+d522 5
+a526 1
+		CServer	*pCurServer = m_pServerConnect->GetCurrentServer();
+d528 6
+a533 7
+		file.WriteString(_T("1|"));
+		file.WriteString(pCurServer->GetListName());
+		file.WriteString(_T("|"));
+		file.WriteString(pCurServer->GetFullIP());
+		file.WriteString(_T("|"));
+		_itot(pCurServer->GetPort(), acBuf, 10);
+		file.WriteString(acBuf);
+d537 1
+a537 1
+		file.WriteString(_T("0"));
+d539 7
+a545 9
+	file.WriteString(_T("\n"));
+	_stprintf(acBuf, _T("%.1f"), static_cast<double>(m_pDownloadQueue->GetDataRate()) / 1024.0);
+	file.WriteString(acBuf);
+	file.WriteString(_T("|"));
+	_stprintf(acBuf, _T("%.1f"), static_cast<double>(m_pUploadQueue->GetDataRate()) / 1024.0);
+	file.WriteString(acBuf);
+	file.WriteString(_T("|"));
+	_itot(m_pUploadQueue->GetWaitingUserCount(), acBuf, 10);
+	file.WriteString(acBuf);
+@
+
+
+1.133
+log
+@Minor formatting.
+@
+text
+@d263 1
+a263 1
+	m_pClientCreditList = new CClientCreditsList(m_pPrefs);
+a507 1
+	CString		strFullPath;
+d509 1
+a509 1
+	char		acBuf[20];
+d511 2
+a512 2
+	strFullPath.Format(_T("%sonlinesig.dat"), m_pPrefs->GetConfigDir());
+	if (!file.Open(strFullPath, CFile::modeCreate | CFile::modeWrite | CFile::shareDenyWrite | CFile::typeBinary))
+d518 2
+d523 1
+a523 5
+		CServer		*pCurServer = m_pServerConnect->GetCurrentServer();
+		CStringA	strBufA = pCurServer->GetListName();
+
+		file.Write("1|", 2);
+		file.Write(strBufA, strBufA.GetLength());
+d525 7
+a531 6
+		file.Write("|", 1);
+		strBufA = pCurServer->GetFullIP();
+		file.Write(strBufA, strBufA.GetLength());
+		file.Write("|", 1);
+		itoa(pCurServer->GetPort(), acBuf, 10);
+		file.Write(acBuf, strlen(acBuf));
+d535 1
+a535 1
+		file.Write("0", 1);
+d537 9
+a545 9
+	file.Write("\n", 1);
+	sprintf(acBuf, "%.1f", static_cast<double>(m_pDownloadQueue->GetDataRate()) / 1024.0);
+	file.Write(acBuf, strlen(acBuf));
+	file.Write("|", 1);
+	sprintf(acBuf, "%.1f", static_cast<double>(m_pUploadQueue->GetDataRate()) / 1024.0);
+	file.Write(acBuf, strlen(acBuf));
+	file.Write("|", 1);
+	itoa(m_pUploadQueue->GetWaitingUserCount(), acBuf, 10);
+	file.Write(acBuf, strlen(acBuf));
+@
+
+
+1.132
+log
+@UNICODE preparation (first shot)
+@
+text
+@d632 2
+a633 1
+	if(m_pDump) {
+a834 1
+
+@
+
+
+1.131
+log
+@Renaming in comments.
+@
+text
+@d392 1
+a392 1
+		if (_stricmp(strSourcePath, strDestPath) == 0)
+d395 1
+a395 3
+			HWND * target = (HWND *)lParam;
+
+			*target = hWnd;
+d647 1
+a647 1
+	ShellExecute(NULL, "open", "http://emuleplus.info/forum/index.php?showforum=23", NULL, NULL, SW_SHOW);
+d805 1
+a805 1
+	if(osver.dwPlatformId == VER_PLATFORM_WIN32_NT)
+d807 1
+a807 1
+		HINSTANCE hPSAPI_Dll = LoadLibraryA(_T("PSAPI.DLL"));
+d809 1
+a809 1
+		if (hPSAPI_Dll==NULL)
+d816 11
+a826 10
+		DWORD (WINAPI *lpfGetModuleFileNameEx)(HANDLE, HMODULE,LPTSTR, DWORD);
+		lpfEnumProcessModules = (BOOL(WINAPI *)(HANDLE, HMODULE *,DWORD, LPDWORD))
+								 GetProcAddress( hPSAPI_Dll,"EnumProcessModules" );
+		#ifndef UNICODE
+		lpfGetModuleFileNameEx = (DWORD (WINAPI *)(HANDLE, HMODULE,LPTSTR, DWORD))
+								  GetProcAddress( hPSAPI_Dll, _T("GetModuleFileNameExA")) ;
+		#else
+		lpfGetModuleFileNameEx = (DWORD (WINAPI *)(HANDLE, HMODULE,LPTSTR, DWORD))
+								  GetProcAddress(hPSAPI_Dll, _T("GetModuleFileNameExW")) ;
+		#endif
+d830 2
+a831 2
+		if(lpfEnumProcessModules(hProcess,&hModule,sizeof(HMODULE), &dwSize))
+			uiRetval = lpfGetModuleFileNameEx(hProcess,hModule,pszFileName,cchFileNameMax);
+d845 1
+d847 4
+a850 3
+		HANDLE (WINAPI *lpfCreateToolhelp32Snapshot)(DWORD,DWORD);
+		BOOL (WINAPI *lpfProcess32First)(HANDLE,LPPROCESSENTRY32);
+		BOOL (WINAPI *lpfProcess32Next)(HANDLE,LPPROCESSENTRY32);
+@
+
+
+1.130
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d165 1
+a165 1
+	if (m_pGlobPrefs->GetLanguageID()==MAKELANGID(LANG_GERMAN,SUBLANG_DEFAULT))
+@
+
+
+1.129
+log
+@renamed 3 variables
+@
+text
+@d101 1
+a101 1
+	g_pPrefs = new CPreferences();
+d104 1
+a104 1
+	if(bIsRunningButNoCmd && !g_pPrefs->GetMultiple())
+d135 1
+a135 1
+	SetThreadPriority(THREAD_PRIORITY_NORMAL + g_pPrefs->GetMainProcessPriority());
+d145 1
+a145 1
+	switch (g_pPrefs->GetHashingPriority())
+d179 1
+a179 1
+	if (g_pPrefs->AutoTakeED2KLinks())
+d184 1
+a184 1
+		CString		sDbHome = CString(g_pPrefs->GetAppDir()) + _T("Db");
+d225 1
+a225 1
+	if (g_pPrefs->GetOpenPorts() && m_pFirewallOpener->DoesFWConnectionExist())
+d231 2
+a232 2
+		if (m_pFirewallOpener->OpenPort(g_pPrefs->GetPort(), NAT_PROTOCOL_TCP, EMULE_DEFAULTRULENAME_TCP, true))
+			AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_PORT_OK), g_pPrefs->GetPort(), _T("TCP"));
+d234 1
+a234 1
+			AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_PORT_FAIL), g_pPrefs->GetPort(), _T("TCP"));
+d236 1
+a236 1
+		if (g_pPrefs->GetUDPPort())
+d239 2
+a240 2
+			if (m_pFirewallOpener->OpenPort(g_pPrefs->GetUDPPort(), NAT_PROTOCOL_UDP, EMULE_DEFAULTRULENAME_UDP, true))
+				AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_PORT_OK), g_pPrefs->GetUDPPort(), _T("UDP"));
+d242 1
+a242 1
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_PORT_FAIL), g_pPrefs->GetUDPPort(), _T("UDP"));
+d252 1
+a252 1
+	m_pKnownFilesList = new CKnownFileList(g_pPrefs->GetConfigDir());
+d257 1
+a257 1
+	m_pSharedFilesList = new CSharedFileList(g_pPrefs, m_pServerConnect, m_pKnownFilesList);
+d261 1
+a261 1
+	m_pSharedFilesList = new CSharedFileList(g_pPrefs,NULL,m_pKnownFilesList);
+d263 3
+a265 3
+	m_pClientCreditList = new CClientCreditsList(g_pPrefs);
+	m_pDownloadQueue = new CDownloadQueue(g_pPrefs,m_pSharedFilesList);	// bugfix - do this before creating the m_pUploadQueue
+	m_pUploadQueue = new CUploadQueue(g_pPrefs);
+d507 1
+a507 1
+	if (!g_pPrefs->IsOnlineSignatureEnabled())
+d514 1
+a514 1
+	strFullPath.Format(_T("%sonlinesig.dat"), g_pPrefs->GetConfigDir());
+d592 2
+a593 2
+	delete g_pPrefs;
+	g_pPrefs = NULL;
+d716 1
+a716 1
+	strList.SetString(g_pPrefs->GetURLsForICC().MakeLower());
+d734 1
+a734 1
+		if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_MINIMIZE))
+d740 1
+a740 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_SWITCH))
+d757 1
+a757 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_SRV))
+d759 1
+a759 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_TRANSFER))
+d761 1
+a761 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_SEARCH))
+d763 1
+a763 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_SHAREDFILES))
+d765 1
+a765 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_CHAT))
+d767 1
+a767 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_IRC))
+d769 1
+a769 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_STATS))
+d771 1
+a771 1
+		else if (nCode == g_pPrefs->GetShortcutCode(SCUT_WIN_PREFS))
+@
+
+
+1.128
+log
+@Fixed hidden exception when startup is disallowed due to disabled multiple instances.
+@
+text
+@d45 1
+a45 1
+CEmuleApp				g_eMuleApp;
+d101 1
+a101 1
+	m_pGlobPrefs = new CPreferences();
+d104 1
+a104 1
+	if(bIsRunningButNoCmd && !m_pGlobPrefs->GetMultiple())
+d135 1
+a135 1
+	SetThreadPriority(THREAD_PRIORITY_NORMAL + m_pGlobPrefs->GetMainProcessPriority());
+d139 1
+a139 1
+	m_pdlgEmule = &dlg;
+d145 1
+a145 1
+	switch (m_pGlobPrefs->GetHashingPriority())
+d179 1
+a179 1
+	if (m_pGlobPrefs->AutoTakeED2KLinks())
+d184 1
+a184 1
+		CString		sDbHome = CString(m_pGlobPrefs->GetAppDir()) + _T("Db");
+d225 1
+a225 1
+	if (m_pGlobPrefs->GetOpenPorts() && m_pFirewallOpener->DoesFWConnectionExist())
+d231 2
+a232 2
+		if (m_pFirewallOpener->OpenPort(m_pGlobPrefs->GetPort(), NAT_PROTOCOL_TCP, EMULE_DEFAULTRULENAME_TCP, true))
+			AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_PORT_OK), m_pGlobPrefs->GetPort(), _T("TCP"));
+d234 1
+a234 1
+			AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_PORT_FAIL), m_pGlobPrefs->GetPort(), _T("TCP"));
+d236 1
+a236 1
+		if (m_pGlobPrefs->GetUDPPort())
+d239 2
+a240 2
+			if (m_pFirewallOpener->OpenPort(m_pGlobPrefs->GetUDPPort(), NAT_PROTOCOL_UDP, EMULE_DEFAULTRULENAME_UDP, true))
+				AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_PORT_OK), m_pGlobPrefs->GetUDPPort(), _T("UDP"));
+d242 1
+a242 1
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_PORT_FAIL), m_pGlobPrefs->GetUDPPort(), _T("UDP"));
+d252 1
+a252 1
+	m_pKnownFilesList = new CKnownFileList(m_pGlobPrefs->GetConfigDir());
+d257 1
+a257 1
+	m_pSharedFilesList = new CSharedFileList(m_pGlobPrefs, m_pServerConnect, m_pKnownFilesList);
+d261 1
+a261 1
+	m_pSharedFilesList = new CSharedFileList(m_pGlobPrefs,NULL,m_pKnownFilesList);
+d263 3
+a265 3
+	m_pClientCreditList = new CClientCreditsList(m_pGlobPrefs);
+	m_pDownloadQueue = new CDownloadQueue(m_pGlobPrefs,m_pSharedFilesList);	// bugfix - do this before creating the m_pUploadQueue
+	m_pUploadQueue = new CUploadQueue(m_pGlobPrefs);
+d389 1
+a389 1
+		g_eMuleApp.GetWindowModuleFileNameEx(hWnd, strDestPath, MAX_PATH);
+d479 1
+a479 1
+	g_eMuleApp.m_pdlgEmule->m_dlgSearch.IgnoreClipBoardLinks(strText);
+d507 1
+a507 1
+	if (!m_pGlobPrefs->IsOnlineSignatureEnabled())
+d514 1
+a514 1
+	strFullPath.Format(_T("%sonlinesig.dat"), m_pGlobPrefs->GetConfigDir());
+d558 1
+a558 1
+	m_pdlgEmule = NULL;
+d592 2
+a593 2
+	delete m_pGlobPrefs;
+	m_pGlobPrefs = NULL;
+d716 1
+a716 1
+	strList.SetString(m_pGlobPrefs->GetURLsForICC().MakeLower());
+d734 1
+a734 1
+		if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_MINIMIZE))
+d736 2
+a737 2
+			m_pdlgEmule->TrayShow();
+			m_pdlgEmule->ShowWindow(SW_HIDE);
+d740 1
+a740 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_SWITCH))
+d742 1
+a742 1
+			if (m_pdlgEmule->m_pdlgActive == &m_pdlgEmule->m_wndServer)
+d744 1
+a744 1
+			else if (m_pdlgEmule->m_pdlgActive == &m_pdlgEmule->m_wndTransfer)
+d746 1
+a746 1
+			else if (m_pdlgEmule->m_pdlgActive == &m_pdlgEmule->m_dlgSearch)
+d748 1
+a748 1
+			else if (m_pdlgEmule->m_pdlgActive == &m_pdlgEmule->m_wndSharedFiles)
+d750 1
+a750 1
+			else if (m_pdlgEmule->m_pdlgActive == &m_pdlgEmule->m_wndChat)
+d752 1
+a752 1
+			else if (m_pdlgEmule->m_pdlgActive == &m_pdlgEmule->m_wndIRC)
+d754 1
+a754 1
+			else if (m_pdlgEmule->m_pdlgActive == &m_pdlgEmule->m_dlgStatistics)
+d757 1
+a757 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_SRV))
+d759 1
+a759 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_TRANSFER))
+d761 1
+a761 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_SEARCH))
+d763 1
+a763 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_SHAREDFILES))
+d765 1
+a765 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_CHAT))
+d767 1
+a767 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_IRC))
+d769 1
+a769 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_STATS))
+d771 1
+a771 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(SCUT_WIN_PREFS))
+d776 1
+a776 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, iMessage);
+@
+
+
+1.127
+log
+@Slightly cleaned a mess of including one H-file into another;
+Global preferences reference instead of local pointer.
+@
+text
+@d612 8
+a619 5
+//		pDbSLS->close(0);
+		pDbEnv->txn_checkpoint(0,0,0);
+		pDbEnv->close(0);
+//		delete pDbSLS;
+		delete pDbEnv;
+@
+
+
+1.126
+log
+@Corrected file share mode to eliminate "Failed to save OnlineSig.dat".
+@
+text
+@d30 1
+d254 1
+a254 1
+	m_pServerList = new CServerList(m_pGlobPrefs);
+d256 1
+a256 1
+	m_pServerConnect = new CServerConnect(m_pServerList, m_pGlobPrefs); // in "sockets.cpp" for some reason
+@
+
+
+1.125
+log
+@Optimized GetCurrentServer() calls (cache value for consecutive usage);
+Unicode preparations and corrections (changed code to write online signature).
+@
+text
+@d509 3
+a511 3
+	CString	fullpath;
+	CFile	file;
+	char	acBuf[20];
+d513 2
+a514 2
+	fullpath.Format(_T("%sonlinesig.dat"), m_pGlobPrefs->GetConfigDir());
+	if (!file.Open(fullpath,CFile::modeCreate|CFile::modeReadWrite))
+@
+
+
+1.124
+log
+@Unified and regrouped shortcuts.
+@
+text
+@d506 6
+a511 1
+	if (!m_pGlobPrefs->IsOnlineSignatureEnabled()) return;
+d513 4
+a516 5
+    CString fullpath;
+    fullpath.Format(_T("%sonlinesig.dat"),m_pGlobPrefs->GetConfigDir());
+    CFile file;
+    if (!file.Open(fullpath,CFile::modeCreate|CFile::modeReadWrite)){
+		AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_ERROR_SAVEFILE)+CString(" OnlineSig.dat"));
+d518 2
+a519 2
+    }
+    CString buffer;
+d521 16
+a536 14
+    if (m_pServerConnect->IsConnected())
+    {
+      file.Write("1",1);
+      file.Write("|",1);
+      file.Write(m_pServerConnect->GetCurrentServer()->GetListName(),m_pServerConnect->GetCurrentServer()->GetListName().GetLength());
+      // Not : file.Write(m_pServerConnect->GetCurrentServer()->GetListName(),strlen(m_pServerConnect->GetCurrentServer()- >GetRealName()));
+
+      file.Write("|",1);
+      file.Write(m_pServerConnect->GetCurrentServer()->GetFullIP(),m_pServerConnect->GetCurrentServer()->GetFullIP().GetLength());
+      file.Write("|",1);
+	  buffer.Format(_T("%d"), m_pServerConnect->GetCurrentServer()->GetPort());
+      file.Write(buffer,buffer.GetLength());
+    }
+    else
+d538 1
+a538 1
+      file.Write("0",1);
+d540 9
+a548 9
+    file.Write("\n",1);
+    buffer.Format(_T("%.1f"),static_cast<double>(m_pDownloadQueue->GetDataRate())/1024.0);
+    file.Write(buffer,buffer.GetLength());
+    file.Write("|",1);
+    buffer.Format(_T("%.1f"),static_cast<double>(m_pUploadQueue->GetDataRate())/1024.0);
+    file.Write(buffer,buffer.GetLength());
+    file.Write("|",1);
+    buffer.Format(_T("%d"), m_pUploadQueue->GetWaitingUserCount());
+    file.Write(buffer,buffer.GetLength());
+d550 1
+a550 1
+    file.Close();
+@
+
+
+1.123
+log
+@Removed unused code.
+@
+text
+@d724 1
+a724 1
+		if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalMinimize))
+d730 1
+a730 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalSwitchWindow))
+d747 1
+a747 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowServer))
+d749 1
+a749 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowTransfer))
+d751 1
+a751 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowSearch))
+d753 1
+a753 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowShare))
+d755 1
+a755 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowChat))
+d757 1
+a757 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowIRC))
+d759 1
+a759 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowStats))
+d761 1
+a761 1
+		else if (nCode == m_pGlobPrefs->GetShortcutCode(IndexGalShowPrefs))
+@
+
+
+1.122
+log
+@Removed usage of not used database
+@
+text
+@d257 1
+a257 1
+	m_pListenSocket = new CListenSocket(m_pGlobPrefs);
+@
+
+
+1.121
+log
+@AutoDL - finalization, should work now, plus set smaller font in splash/about screens so debug version can be shown correctly
+@
+text
+@d193 3
+a195 3
+		pDbSLS = new Db(pDbEnv, 0);
+		pDbSLS->set_pagesize(16 * 1024); // 16Kb page size
+		pDbSLS->open(NULL, "Main.db", "SLS", DB_BTREE, DB_CREATE | DB_THREAD, 0);
+d205 1
+a205 1
+		pDbSLS = NULL;
+d212 1
+a212 1
+		pDbSLS = NULL;
+d605 1
+a605 1
+		pDbSLS->close(0);
+d608 1
+a608 1
+		delete pDbSLS;
+@
+
+
+1.120
+log
+@Fix for compiler warning (macro redefinition due to _countof).
+@
+text
+@d583 2
+a600 2
+	delete m_pAutoDL;
+	m_pAutoDL = NULL;
+@
+
+
+1.119
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@a29 1
+#include <..\src\mfc\afximpl.h>
+@
+
+
+1.118
+log
+@Updated to CFakeCheck
+Code refactoring
+@
+text
+@d30 1
+d59 1
+d84 2
+d120 9
+@
+
+
+1.117
+log
+@AutoDL, first step
+@
+text
+@d146 1
+a146 1
+	InitURLs(); 
+d206 1
+a206 1
+//	intialize filetype array
+d210 2
+a211 2
+	m_pFirewallOpener->Init(true); // we need to init it now (even if we may not use it yet) because of CoInitializeSecurity - which kinda ruins the sense of the class interface but ooohh well :P
+	// Open WinXP firewall ports if set in preferences and possible
+d214 1
+a214 1
+		// delete old rules added by eMule
+d217 1
+a217 1
+		// open port for this session
+d225 1
+a225 1
+			// open port for this session
+d259 1
+a259 1
+	m_pFakeCheck 	= new CFakecheck(); //FakeCheck
+d466 1
+a466 1
+	g_eMuleApp.m_pdlgEmule->m_dlgSearch.IgnoreClipBoardLinks(strText); 
+d792 1
+a792 1
+			return 0; 
+d813 1
+a813 1
+		 
+d822 1
+a822 1
+			return 0; 
+d837 1
+a837 1
+			return 0; 
+d839 1
+a839 1
+		 
+@
+
+
+1.116
+log
+@minor strings change
+@
+text
+@d29 1
+d261 1
+d587 2
+@
+
+
+1.115
+log
+@Open client ports on Windows XP internal firewall (adopted from koizo)
+@
+text
+@d218 1
+a218 1
+			AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_TEMPTCP_S), m_pGlobPrefs->GetPort());
+d220 1
+a220 1
+			AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_TEMPTCP_F), m_pGlobPrefs->GetPort());
+d226 1
+a226 1
+				AddLogLine(false, RGB_LOG_SUCCESS + GetResString(IDS_FO_TEMPUDP_S), m_pGlobPrefs->GetUDPPort());
+d228 1
+a228 1
+				AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FO_TEMPUDP_F), m_pGlobPrefs->GetUDPPort());
+@
+
+
+1.114
+log
+@Removed TRY/CATCH as it catches exception in Preferences constructor hiding
+the real problem of the crash (there was anyway crash as the code can't work without preferences),
+now future crash dumps will contain correct crash point.
+@
+text
+@d28 1
+d208 24
+d583 2
+@
+
+
+1.113
+log
+@Removed old Cruise Control stuff.
+@
+text
+@a63 1
+	EMULE_TRY
+a121 2
+	EMULE_CATCH
+
+@
+
+
+1.112
+log
+@Improved application name processing; Load localized Dump strings earlier.
+@
+text
+@d185 1
+a185 4
+        CJumpstarter::OpenDatabases(pDbEnv);
+#if CRUISECONTROL
+        CCruiseControl::OpenDatabases(pDbEnv);
+#endif // CRUISECONTROL
+d564 1
+a564 4
+        CJumpstarter::CloseDatabases();
+#if CRUISECONTROL
+        CCruiseControl::CloseDatabases();
+#endif // CRUISECONTROL
+@
+
+
+1.111
+log
+@1) statistic for file priority
+2) optimization in category processing
+@
+text
+@d70 1
+a70 1
+	m_pDump = new MiniDumper(CLIENT_NAME _T(" ") CURRENT_VERSION_LONG);
+d103 2
+d121 1
+a121 3
+	SetThreadPriority(THREAD_PRIORITY_NORMAL+ m_pGlobPrefs->GetMainProcessPriority());
+
+	m_pDump->LoadStrings();
+@
+
+
+1.110
+log
+@Unified definitions for client name.
+@
+text
+@d27 1
+d210 3
+@
+
+
+1.109
+log
+@Fixed crash on exit after failed or impossible start (removed double deletion of
+preferences object -- ExitInstance is called even if InitInstance returns FALSE).
+@
+text
+@d69 1
+a69 1
+	m_pDump = new MiniDumper(_T("eMule Plus ") CURRENT_VERSION_LONG);
+@
+
+
+1.108
+log
+@Remove old URLs on change (ICC)
+@
+text
+@a87 1
+		delete m_pGlobPrefs;
+a99 1
+		delete m_pGlobPrefs;
+d189 1
+a189 1
+    catch (DbRunRecoveryException &pDbEnv)
+d191 1
+a191 1
+        AfxMessageBox(CString(pDbEnv.what()));
+d193 1
+a193 1
+    }
+d201 1
+a201 1
+ 	catch(...)
+d210 1
+a210 1
+    m_pClientList = new CClientList();
+@
+
+
+1.107
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d668 2
+@
+
+
+1.106
+log
+@Redone some changes on server connect and moved ed2k link processing
+@
+text
+@d26 1
+d238 1
+d552 2
+@
+
+
+1.105
+log
+@typo bug from insert of FreeLibrary(hKernel32) at wrong place :) thanks Aw3
+@
+text
+@d150 1
+d163 1
+@
+
+
+1.104
+log
+@forgotten FreeLibrary
+@
+text
+@d787 1
+a787 1
+		if (hKernel32==NULL)
+a788 1
+			FreeLibrary(hKernel32);
+d814 1
+@
+
+
+1.103
+log
+@Improved string processing
+@
+text
+@d727 1
+a727 1
+	return __super::PreTranslateMessage(pMsg);
+d789 1
+@
+
+
+1.102
+log
+@Updated handling of multiple instances so you can send commands to the one you want to
+@
+text
+@d68 1
+a68 1
+	m_pDump = new MiniDumper(CString("eMule Plus ") + CURRENT_VERSION_LONG);
+@
+
+
+1.101
+log
+@Minor change
+@
+text
+@d25 1
+d86 2
+d89 1
+d91 1
+d93 1
+a96 1
+	//EpicStruggle
+d132 1
+a132 1
+	// DonGato
+d163 1
+a163 1
+	m_fileHashControl.Init(); // Lord KiRon
+a164 1
+// Barry - Auto-take ed2k links
+d243 2
+a244 2
+	//detailed filter stats
+	m_lTotalFiltered = 0;	//stat_filteredclients=0;
+d249 1
+a249 1
+	//eklmn: initialize a global counters for Unfair Actions
+d277 1
+a277 1
+	CCommandLineInfo		cmdInfo;
+d283 3
+a285 1
+   	if (bAlreadyRunning) EnumWindows(SearchEmuleWindow, (LPARAM)&maininst);
+d322 4
+a325 1
+ 	if(maininst || bAlreadyRunning)
+d345 5
+a349 2
+	//	Return the window handle in '*lParam'.
+		HWND * target = (HWND *)lParam;
+d351 11
+a361 2
+		*target = hWnd;
+		return FALSE;
+d444 1
+a444 1
+// enkeyDEV(Ottavio84) -Download all ed2ks in clipboard-
+d508 1
+a508 1
+// [FoRcHa] - For better process exit
+a515 1
+//	Cax2 changed to avoid crash on exit/corrupted .met data
+d528 1
+a528 1
+	delete m_pDownloadQueue;	// Cax2 - this calls the save part.met functions
+a570 1
+	//	morevit: Finally fixed that annoying Release build warning
+d587 1
+a587 1
+	CloseHandle(m_hMutexOneInstance); // FoRcHa
+d609 1
+a609 1
+		// it's a directory
+d613 2
+a614 1
+	else{
+d616 1
+a616 1
+		// search last '.' character *after* the last '\\' character
+d623 1
+a623 1
+				// point to 1st character of extension (skip the '.')
+d629 1
+a629 1
+			pszCacheExt = _T("");	// empty extension
+d632 1
+a632 1
+	// Search extension in "ext->idx" cache.
+d636 1
+a636 1
+		// Get index for the system's small icon image list
+d645 1
+a645 1
+		// Store icon index in local cache
+d649 2
+a650 2
+	// Return already cached value
+	// Elandal: Assumes sizeof(void*) == sizeof(int)
+d665 1
+d730 87
+d818 23
+@
+
+
+1.100
+log
+@added "Watch clipboard for ed2k links"
+@
+text
+@d94 2
+d97 1
+@
+
+
+1.99
+log
+@extended filtered stats
+@
+text
+@d388 1
+a388 1
+	//allocate global memory & lock it
+d397 1
+a397 1
+	//copy the text
+d402 1
+a402 1
+	//Open the Clipboard and insert the handle into the global memory
+d414 3
+@
+
+
+1.98
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d235 6
+a240 1
+	stat_filteredclients=0;
+@
+
+
+1.97
+log
+@speed optimization & output in stats of the feature "countermeasures against unfair client"
+@
+text
+@d238 5
+a242 5
+	m_dwTotalNumUnfairClients = 0;
+	m_dwTotalNumUnfairActions = 0;
+	m_dwTotalNumUseMyHashActions = 0;
+	m_dwTotalNumHashChangeActions = 0;
+	m_dwTotalNumStolenNameActions = 0;
+d337 1
+a337 1
+void CEmuleApp::UpdateReceivedBytes(int32 bytesToAdd)
+d343 1
+a343 1
+void CEmuleApp::UpdateSentBytes(int32 bytesToAdd)
+@
+
+
+1.96
+log
+@removed MOBILE_MULE and JUMPSTART defines + minor improvements (thx aw3)
+@
+text
+@d237 7
+@
+
+
+1.95
+log
+@Formatting, comments, and name changes.
+@
+text
+@a23 2
+
+#if JUMPSTART
+a24 1
+#endif // JUMPSTART
+a175 1
+#if JUMPSTART
+a176 1
+#endif // JUMPSTART
+a223 1
+#ifdef MOBILE_MULE
+a224 1
+#endif //MOBILE_MULE
+a512 1
+#ifdef MOBILE_MULE
+a514 1
+#endif //MOBILE_MULE
+a520 1
+#if JUMPSTART
+a521 1
+#endif // JUMPSTART
+@
+
+
+1.94
+log
+@Formatting, name changes and deleting spaces and tabs at end of lines
+@
+text
+@d217 1
+a217 1
+	m_pSharedFilesList = new CSharedFileList(m_pGlobPrefs,m_pServerConnect,m_pKnownFilesList);
+d288 2
+a289 2
+      				SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &m_sendStruct);
+     	 			return 0;
+d291 2
+a292 2
+    			else
+      				m_pstrPendingLink = new CString(command);
+@
+
+
+1.93
+log
+@Formatting, comments, and name changes.
+@
+text
+@d75 1
+a75 1
+	{		
+d81 1
+a81 1
+//	Create & initialize all the important stuff 
+d89 1
+a89 1
+	else if (iResult == 1) 
+d93 1
+a93 1
+	
+d115 1
+a115 1
+	
+d217 1
+a217 1
+	m_pSharedFilesList = new CSharedFileList(m_pGlobPrefs, m_pServerConnect, m_pKnownFilesList);
+d267 1
+a267 1
+	
+d288 5
+a292 5
+      			SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &m_sendStruct);
+     	 		return 0;
+			} 
+    		else 
+      			m_pstrPendingLink = new CString(command);
+d333 1
+a333 1
+	} 
+d352 1
+a352 1
+	
+d366 1
+a366 1
+			*pszSource == '?'  || *pszSource == '|' || *pszSource == '\\' || *pszSource == '/' || 
+d413 1
+a413 1
+CString CEmuleApp::CopyTextFromClipboard() 
+d418 1
+a418 1
+	if (!IsClipboardFormatAvailable(CF_TEXT)) 
+d420 1
+a420 1
+	if (!OpenClipboard(NULL)) 
+d424 2
+a425 2
+	if (hglb != NULL) 
+	{ 
+d427 2
+a428 2
+		if (lptstr != NULL) retstring = lptstr;			
+	} 
+d434 1
+a434 1
+{ 
+d440 2
+a441 2
+    if (!file.Open(fullpath,CFile::modeCreate|CFile::modeReadWrite)){ 
+		AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_ERROR_SAVEFILE)+CString(" OnlineSig.dat"));	    
+d443 1
+a443 1
+    } 
+d446 2
+a447 2
+    if (m_pServerConnect->IsConnected()) 
+    { 
+d458 2
+a459 2
+    } 
+    else 
+d483 2
+a484 2
+	
+	// Cax2 changed to avoid crash on exit/corrupted .met data
+d502 1
+a502 1
+	m_pSharedFilesList = NULL;	
+d554 1
+a554 1
+	m_app_state = APP_STATE_DONE;	
+@
+
+
+1.92
+log
+@fix for Scheduler shift on restart / fix for Preallocate handling of exceptions / eklmn fix for ICR
+@
+text
+@d281 1
+d296 1
+d544 4
+a547 1
+		TRACE1("Problems delete database objects: %s.\n", pDbEnv.what());
+d702 1
+@
+
+
+1.91
+log
+@Minor updates (domain change)
+@
+text
+@d96 1
+a96 1
+	if(bIsRunningButNoCmd && !g_eMuleApp.m_pGlobPrefs->GetMultiple())
+d141 2
+a142 1
+	InitURLs(); // DonGato: ICC customization
+d216 2
+a217 2
+	m_pServerConnect = new CServerConnect(m_pServerList,g_eMuleApp.m_pGlobPrefs); // in "sockets.cpp" for some reason
+	m_pSharedFilesList = new CSharedFileList(m_pGlobPrefs,m_pServerConnect,m_pKnownFilesList);
+d236 7
+a242 8
+
+	// reset statistic values
+	g_eMuleApp.stat_sessionReceivedBytes=0;
+	g_eMuleApp.stat_sessionSentBytes=0;
+	g_eMuleApp.stat_reconnects=0;
+	g_eMuleApp.stat_transferStarttime=0;
+	g_eMuleApp.stat_serverConnectTime=0;
+	g_eMuleApp.stat_filteredclients=0;
+a267 3
+//	TODO: I'm almost certain there's an easier way to do this. In older Windows programs,
+//		the runtime would pass the WinMain the instance handle of an existing instance
+//		of the application.
+a280 1
+		//
+a294 1
+		//
+d335 2
+a336 1
+void CEmuleApp::UpdateReceivedBytes(int32 bytesToAdd) {
+d340 3
+a342 2
+
+void CEmuleApp::UpdateSentBytes(int32 bytesToAdd) {
+d346 3
+a348 2
+
+void CEmuleApp::SetTimeOnTransfer() {
+d353 1
+a353 1
+
+d378 1
+a378 1
+
+d409 2
+a410 2
+
+// START - enkeyDEV(Ottavio84) -Download all ed2ks in clipboard-
+d430 2
+a431 3
+// END - enkeyDEV(Ottavio84) -Download all ed2ks in clipboard-
+
+void CEmuleApp::OnlineSig() // Added By Bouc7 
+d433 1
+a433 1
+	if (!g_eMuleApp.m_pGlobPrefs->IsOnlineSignatureEnabled()) return;
+d472 1
+a472 1
+} //End Added By Bouc7
+d474 1
+a474 1
+// [FoRcHa] 
+d478 1
+a478 1
+	m_pdlgEmule = NULL;	//[TwoBottle Mod]
+d480 1
+a480 1
+	m_fileHashControl.Destroy(); // Lord KiRon
+d482 1
+a482 1
+	//Cax2 changed to avoid crash on exit/corrupted .met data
+d495 1
+a495 1
+	delete m_pDownloadQueue;	//Cax2 - this calls the save part.met functions
+d515 1
+a515 1
+	delete m_pWebServer; // kuchin
+a565 9
+//	Lets just open the helpfile by associated program, instead of more windows-dependency :)
+/*	CFileFind	ff;
+
+	if (ff.FindFile(m_pszHelpFilePath, 0))
+		ShellOpenFile(m_pszHelpFilePath);
+	else
+		AfxMessageBox(GetResString(IDS_ERR_NOHELP), MB_OK | MB_ICONERROR);
+
+	ff.Close();*/
+d576 2
+a577 1
+	if (iLength > 0 && (pszFilePath[iLength - 1] == _T('\\') || pszFilePath[iLength - 1] == _T('/'))){
+d585 2
+a586 1
+		for (int i = iLength - 1; i >= 0; i--){
+d589 2
+a590 1
+			if (pszFilePath[i] == _T('.')) {
+d602 2
+a603 1
+	if (!m_aExtToSysImgIdx.Lookup(pszCacheExt, vData)){
+d626 3
+a628 6
+/*	CString		URLs = m_pGlobPrefs->GetURLsForICC();
+	
+	m_ICCURLs.RemoveAll();
+
+	int		n = 0;
+	int		m;
+d630 1
+a630 12
+	for (m = URLs.Find(_T('|'), n); m >= 0; m = URLs.Find(_T('|'), n))
+	{ 
+		if (m > n + 1)
+			m_ICCURLs.Add(URLs.Mid(n,m-n));
+		n = m + 1;
+	}
+*/
+	CString strList(_T(""));	//list of pipe-separated tokens
+	CString resToken(_T(""));	//one token out of strList
+	int curPos = 0;				//position for tokenize() (by reference!)
+
+	strList.SetString(g_eMuleApp.m_pGlobPrefs->GetURLsForICC().MakeLower());
+a696 1
+
+@
+
+
+1.90
+log
+@New help on HyperForum.
+@
+text
+@a577 2
+//	ShellExecute(NULL, "open", "http://emuleplus.sourceforge.net/forum/index.php?act=SF&f=10", NULL, NULL, SW_SHOW);
+//	ShellExecute(NULL, "open", "http://emuleplus.sourceforge.net/wacko/wakka.php?wakka=FAQ&v=dcl", NULL, NULL, SW_SHOW);
+@
+
+
+1.89
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d579 2
+a580 1
+	ShellExecute(NULL, "open", "http://emuleplus.sourceforge.net/wacko/wakka.php?wakka=FAQ&v=dcl", NULL, NULL, SW_SHOW);
+@
+
+
+1.88
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d442 1
+a442 1
+		AddLogLine(true, RGB_RED + GetResString(IDS_ERROR_SAVEFILE)+CString(" OnlineSig.dat"));	    
+@
+
+
+1.87
+log
+@Added some colors to the logs...
+@
+text
+@d442 1
+a442 1
+		AddLogLine(true,_T("<COLOR=255,0,0>") + GetResString(IDS_ERROR_SAVEFILE)+CString(" OnlineSig.dat"));	    
+@
+
+
+1.86
+log
+@*** empty log message ***
+@
+text
+@d442 1
+a442 1
+		AddLogLine(true,GetResString(IDS_ERROR_SAVEFILE)+CString(" OnlineSig.dat"));	    
+@
+
+
+1.85
+log
+@Minor changes (until we find a better way)
+@
+text
+@d543 1
+a543 1
+	catch(DbException &dbe)
+d545 1
+a545 1
+		TRACE1("Problems delete database objects: %s.\n", dbe.what());
+@
+
+
+1.84
+log
+@Separating engine and GUI
+@
+text
+@d185 1
+a185 1
+    catch (DbRunRecoveryException &dbe)
+d187 1
+a187 1
+        AfxMessageBox(CString(dbe.what()));
+d190 1
+a190 1
+	catch (DbException &dbe)
+d194 1
+a194 1
+		TRACE1("Problems create database objects: %s. Closing.\n", dbe.what());
+@
+
+
+1.83
+log
+@Separating engine and GUI
+@
+text
+@a117 4
+#ifdef NEW_SOCKETS
+	m_pEngine = new CEmEngine();
+#endif //NEWSOCKETS
+
+a246 5
+
+#ifdef NEW_SOCKETS
+	m_pEngine->Uninit();
+	delete m_pEngine;
+#endif //NEW_SOCKETS
+@
+
+
+1.82
+log
+@New sockets
+@
+text
+@a28 2
+#include "Sockets/EmEngine.h"
+
+@
+
+
+1.81
+log
+@Change to shortcut management code (it's easier to add an action now) / Added a lot of actions to shortcut management / Added some keys to shortcut management
+@
+text
+@d120 4
+a250 4
+
+#ifdef NEW_SOCKETS
+	m_pEngine = new CEmEngine();
+#endif //NEWSOCKETS
+@
+
+
+1.80
+log
+@Minor changes
+@
+text
+@d681 1
+a681 1
+		if (nCode == m_pGlobPrefs->GetGeneralMinimizeWindowToTrayShortcutCode())
+d687 18
+a704 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowServerWndShortcutCode())
+d706 1
+a706 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowTransferWndShortcutCode())
+d708 1
+a708 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowSearchWndShortcutCode())
+d710 1
+a710 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowSharedFilesWndShortcutCode())
+d712 1
+a712 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowChatWndShortcutCode())
+d714 1
+a714 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowIRCWndShortcutCode())
+d716 1
+a716 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowStatisticsWndShortcutCode())
+d718 1
+a718 1
+		else if (nCode == m_pGlobPrefs->GetGeneralShowPreferencesWndShortcutCode())
+@
+
+
+1.79
+log
+@minor correction in PreTranslateMessage of CEmuleApp
+@
+text
+@d589 2
+a590 1
+	ShellExecute(NULL, "open", "http://emuleplus.sourceforge.net/forum/index.php?act=SF&f=10", NULL, NULL, SW_SHOW);
+@
+
+
+1.78
+log
+@Formatting, comments, and name changes.
+@
+text
+@d677 1
+d684 1
+d687 1
+a687 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_SERVERS);
+d689 1
+a689 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_TRANSFER);
+d691 1
+a691 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_SEARCH);
+d693 1
+a693 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_SHAREDFILES);
+d695 1
+a695 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_MESSAGES);
+d697 1
+a697 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_IRC);
+d699 1
+a699 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_STATISTICS);
+d701 7
+a707 1
+			m_pdlgEmule->PostMessage(WM_COMMAND, IDC_TOOLBARBUTTON + MTB_PREFS);
+@
+
+
+1.77
+log
+@*** empty log message ***
+@
+text
+@d23 1
+a23 1
+#include "KeyboardShortcut.h"	// DropF - Keyboard Shortcuts
+a672 2
+
+// DropF START - Keyboard Shortcuts
+d704 2
+a705 1
+// DropF END - Keyboard Shortcuts
+@
+
+
+1.76
+log
+@Formatting, comments, and name changes.
+@
+text
+@d23 1
+d673 34
+@
+
+
+1.75
+log
+@Formatting, comments, and name changes.
+@
+text
+@d53 1
+a53 1
+	m_ullComCtrlVer = MAKEDLLVERULL(4,0,0,0);
+@
+
+
+1.74
+log
+@Fixed bug #0000411 - Sort arrow background color does not match some color schemes
+@
+text
+@d107 1
+a107 1
+	m_ullComCtrlVer = MAKEDLLVERULL(dwComCtrlMjr,dwComCtrlMin,0,0);
+@
+
+
+1.73
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d53 1
+a53 1
+
+d104 4
+@
+
+
+1.72
+log
+@Formatting, comments, and name changes.
+@
+text
+@d471 1
+a471 1
+    buffer.Format(_T("%.1f"),(float)m_pDownloadQueue->GetDataRate()/1024);
+d474 1
+a474 1
+    buffer.Format(_T("%.1f"),(float)m_pUploadQueue->GetDataRate()/1024);
+@
+
+
+1.71
+log
+@A number of robustification changes.
+@
+text
+@d589 1
+a589 1
+	//TODO: This has to be MBCS aware..
+@
+
+
+1.70
+log
+@DownloadListCtrl rewrite.
+Changed Category ID types to an enumeration.
+More async update work.
+The usual formatting, comments, and name changes.
+@
+text
+@d516 2
+@
+
+
+1.69
+log
+@FakeCheck for Search Result and Download List (Check and Report ... made by milobac ... merged by DropF ... tested by n@@boleo and me)
+@
+text
+@d202 1
+@
+
+
+1.68
+log
+@URLs for IRC configuration in GUI
+@
+text
+@d229 1
+@
+
+
+1.67
+log
+@Formatting, comments, and name changes.
+@
+text
+@d636 1
+a636 1
+	CString		URLs = m_pGlobPrefs->GetURLsForICC();
+d648 13
+@
+
+
+1.66
+log
+@Fix to my fix (Thx Eklmn for pointing) => NO MORE CODING FOR TODAY!
+@
+text
+@d269 1
+a269 1
+	CCommandLineInfo cmdInfo;
+@
+
+
+1.65
+log
+@Fixed problem with multiple instances on mass ed2k links add (hope so!)
+@
+text
+@d86 3
+a88 1
+	if (ProcessCommandline() == 0)
+d90 1
+a90 1
+	else if (ProcessCommandline() == 1) 
+@
+
+
+1.64
+log
+@Formatting, comments, and name changes.
+@
+text
+@d83 8
+d92 4
+a95 2
+	m_pstrPendingLink = 0;
+	if (ProcessCommandline())
+d262 1
+a262 1
+bool CEmuleApp::ProcessCommandline()
+d264 2
+d267 1
+a267 2
+	CCommandLineInfo		cmdInfo;
+
+a269 2
+	bool	cmdmi = (cmdInfo.m_strFileName.Find("ignoreinstances")>=0);
+
+a273 8
+	HWND maininst = NULL;
+	bool bAlreadyRunning = false;
+
+	if (!cmdmi)
+	{
+		bAlreadyRunning = ( ::GetLastError() == ERROR_ALREADY_EXISTS ||::GetLastError() == ERROR_ACCESS_DENIED);
+    	if ( bAlreadyRunning ) EnumWindows(SearchEmuleWindow, (LPARAM)&maininst);
+	}
+d275 2
+a276 3
+//	If there's already a running instance of eMule, find its main window
+	if (bAlreadyRunning && cmdmi)
+		bAlreadyRunning=false;
+d288 3
+a290 3
+			m_sendStruct.cbData = command.GetLength()+1; 
+			m_sendStruct.dwData = OP_ED2KLINK; 
+			m_sendStruct.lpData = command.GetBuffer(); 
+d293 2
+a294 2
+      			SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &m_sendStruct); 
+     	 		return true; 
+d303 1
+a303 1
+			m_sendStruct.cbData = command.GetLength()+1; 
+d305 1
+a305 1
+			m_sendStruct.lpData = command.GetBuffer(); 
+d308 2
+a309 2
+      			SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &m_sendStruct); 
+      			return true; 
+d312 3
+a314 5
+     }	
+	//EpicStruggle
+//	If we want to allow multiple instances...
+	if(g_eMuleApp.m_pGlobPrefs->GetMultiple())
+		return false;
+d316 1
+a316 1
+	 	return (maininst || bAlreadyRunning);
+d337 1
+a337 1
+		return FALSE; 
+d339 1
+a339 1
+	return TRUE; 
+d417 2
+a418 2
+	HGLOBAL	hglb; 
+	LPTSTR  lptstr; 
+d421 1
+a421 1
+		return retstring; 
+d423 1
+a423 1
+		return retstring; 
+d425 1
+a425 1
+	hglb = GetClipboardData(CF_TEXT); 
+d428 1
+a428 1
+		lptstr = (LPTSTR)GlobalLock(hglb); 
+d431 1
+a431 1
+	CloseClipboard(); 
+d440 3
+a442 3
+    CString fullpath; 
+    fullpath.Format(_T("%sonlinesig.dat"),m_pGlobPrefs->GetConfigDir()); 
+    CFile file; 
+d447 1
+a447 1
+    CString buffer; 
+d451 8
+a458 8
+      file.Write("1",1); 
+      file.Write("|",1); 
+      file.Write(m_pServerConnect->GetCurrentServer()->GetListName(),m_pServerConnect->GetCurrentServer()->GetListName().GetLength()); 
+      // Not : file.Write(m_pServerConnect->GetCurrentServer()->GetListName(),strlen(m_pServerConnect->GetCurrentServer()- >GetRealName())); 
+
+      file.Write("|",1); 
+      file.Write(m_pServerConnect->GetCurrentServer()->GetFullIP(),m_pServerConnect->GetCurrentServer()->GetFullIP().GetLength()); 
+      file.Write("|",1); 
+d460 1
+a460 1
+      file.Write(buffer,buffer.GetLength()); 
+d464 1
+a464 1
+      file.Write("0",1); 
+d466 9
+a474 9
+    file.Write("\n",1); 
+    buffer.Format(_T("%.1f"),(float)m_pDownloadQueue->GetDataRate()/1024); 
+    file.Write(buffer,buffer.GetLength()); 
+    file.Write("|",1); 
+    buffer.Format(_T("%.1f"),(float)m_pUploadQueue->GetDataRate()/1024); 
+    file.Write(buffer,buffer.GetLength()); 
+    file.Write("|",1); 
+    buffer.Format(_T("%d"), m_pUploadQueue->GetWaitingUserCount()); 
+    file.Write(buffer,buffer.GetLength()); 
+d476 1
+a476 1
+    file.Close(); 
+d552 1
+a552 1
+	m_app_state = APP_STATE_DONE; 	
+@
+
+
+1.63
+log
+@Put memory checker objects back in DEBUG section.
+@
+text
+@d58 1
+a58 1
+	// Get session start time offset
+d70 1
+a70 1
+	// We have to catch exception by ourselves!
+d74 1
+a74 1
+	// We need sockets started before we proccess the preferences
+d88 3
+a90 3
+	// InitCommonControls() is required on Windows XP if an application
+	// manifest specifies use of ComCtl32.dll version 6 or later to enable
+	// visual styles.  Otherwise, any window creation will fail.
+d105 1
+a105 1
+	CEmuleDlg dlg;
+d111 1
+d113 1
+a113 1
+	switch(m_pGlobPrefs->GetHashingPriority())
+d128 2
+a129 2
+	// Change extension for help file
+	CString strHelpFile = m_pszHelpFilePath;
+d133 1
+a133 1
+		int pos=strHelpFile.ReverseFind('.');
+d135 2
+a136 2
+		if (pos>0)
+			strHelpFile=strHelpFile.Left(pos)+_T(".de.chm");
+d144 1
+a144 1
+	// Barry - Auto-take ed2k links
+d150 2
+a151 1
+		CString sDbHome = CString(m_pGlobPrefs->GetAppDir()) + _T("Db");
+d153 1
+d157 3
+a159 2
+		pDbEnv->open(CT2CA(sDbHome), DB_CREATE | DB_INIT_LOCK | DB_INIT_LOG |
+	        DB_INIT_MPOOL | DB_INIT_TXN | DB_RECOVER | DB_THREAD , 0);
+d170 2
+a171 1
+    catch(DbRunRecoveryException &dbe) {
+d175 1
+a175 1
+	catch(DbException &dbe)
+d191 1
+d194 1
+d196 1
+d199 1
+a199 1
+	m_pServerConnect = new CServerConnect(m_pServerList,g_eMuleApp.m_pGlobPrefs);
+d632 2
+d636 1
+a636 1
+	CString URLs = m_pGlobPrefs->GetURLsForICC();
+d638 1
+a638 1
+	g_Urls.RemoveAll();
+d640 2
+a641 2
+	int n = 0;
+	int m;
+d643 1
+a643 1
+	for(m = URLs.Find(_T('|'), n); m >= 0; m = URLs.Find(_T('|'), n))
+d645 2
+a646 2
+		if(m > n + 1)
+			g_Urls.Add(URLs.Mid(n,m-n));
+@
+
+
+1.62
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d45 1
+d47 1
+@
+
+
+1.61
+log
+@Second batch of name changes
+@
+text
+@d37 1
+a37 1
+// CemuleApp
+d39 1
+a39 1
+BEGIN_MESSAGE_MAP(CemuleApp, CWinApp)
+d43 1
+a43 1
+CemuleApp				theApp;
+d48 1
+a48 1
+CemuleApp::CemuleApp()
+d60 2
+a61 2
+// CemuleApp Initialising
+BOOL CemuleApp::InitInstance()
+d81 2
+a82 2
+	glob_prefs = new CPreferences();
+	pendinglink = 0;
+d97 1
+a97 1
+	SetThreadPriority(THREAD_PRIORITY_NORMAL+ glob_prefs->GetMainProcessPriority());
+d103 1
+a103 1
+	CemuleDlg dlg;
+d105 1
+a105 1
+	emuledlg = &dlg;
+d110 1
+a110 1
+	switch(glob_prefs->GetHashingPriority())
+d113 1
+a113 1
+			m_FilesHashing.SetProcessingPriority(ePIdle);
+d116 1
+a116 1
+			m_FilesHashing.SetProcessingPriority(ePLower);
+d119 1
+a119 1
+			m_FilesHashing.SetProcessingPriority(ePStandard);
+d128 1
+a128 1
+	if (glob_prefs->GetLanguageID()==MAKELANGID(LANG_GERMAN,SUBLANG_DEFAULT))
+d139 1
+a139 1
+	m_FilesHashing.Init(); // Lord KiRon
+d142 1
+a142 1
+	if (glob_prefs->AutoTakeED2KLinks())
+d147 1
+a147 1
+		CString sDbHome = CString(glob_prefs->GetAppDir()) + _T("Db");
+d183 5
+a187 5
+    clientlist = new CClientList();
+	friendlist = new CFriendList();
+	searchlist = new CSearchList();
+	knownfiles = new CKnownFileList(glob_prefs->GetConfigDir());
+	serverlist = new CServerList(glob_prefs);
+d189 4
+a192 4
+	serverconnect = new CServerConnect(serverlist,theApp.glob_prefs);
+	sharedfiles = new CSharedFileList(glob_prefs,serverconnect,knownfiles);
+	listensocket = new CListenSocket(glob_prefs);
+	clientudp	= new CClientUDPSocket();
+d194 1
+a194 1
+	sharedfiles = new CSharedFileList(glob_prefs,NULL,knownfiles);
+d196 5
+a200 5
+	clientcredits = new CClientCreditsList(glob_prefs);
+	downloadqueue = new CDownloadQueue(glob_prefs,sharedfiles);	// bugfix - do this before creating the uploadqueue
+	uploadqueue = new CUploadQueue(glob_prefs);
+	ipfilter 	= new CIPFilter();
+	webserver = new CWebServer();
+d203 1
+a203 1
+	mmserver = new CMMServer();
+d206 1
+a206 1
+	smtpconnection = new CSMTPConnection();
+d210 6
+a215 6
+	theApp.stat_sessionReceivedBytes=0;
+	theApp.stat_sessionSentBytes=0;
+	theApp.stat_reconnects=0;
+	theApp.stat_transferStarttime=0;
+	theApp.stat_serverConnectTime=0;
+	theApp.stat_filteredclients=0;
+d220 1
+a220 1
+	pEngine = new CEmEngine();
+d226 2
+a227 2
+	pEngine->Uninit();
+	delete pEngine;
+d242 1
+a242 1
+bool CemuleApp::ProcessCommandline()
+d278 3
+a280 3
+			sendstruct.cbData = command.GetLength()+1; 
+			sendstruct.dwData = OP_ED2KLINK; 
+			sendstruct.lpData = command.GetBuffer(); 
+d283 1
+a283 1
+      			SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &sendstruct); 
+d287 1
+a287 1
+      			pendinglink = new CString(command);
+d293 3
+a295 3
+			sendstruct.cbData = command.GetLength()+1; 
+			sendstruct.dwData = OP_CLCOMMAND;
+			sendstruct.lpData = command.GetBuffer(); 
+d298 1
+a298 1
+      			SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &sendstruct); 
+d305 1
+a305 1
+	if(theApp.glob_prefs->GetMultiple())
+d313 1
+a313 1
+BOOL CALLBACK CemuleApp::SearchEmuleWindow(HWND hWnd, LPARAM lParam)
+d334 1
+a334 1
+void CemuleApp::UpdateReceivedBytes(int32 bytesToAdd) {
+d339 1
+a339 1
+void CemuleApp::UpdateSentBytes(int32 bytesToAdd) {
+d344 1
+a344 1
+void CemuleApp::SetTimeOnTransfer() {
+d350 1
+a350 1
+CString CemuleApp::StripInvalidFilenameChars(CString strText, bool bKeepSpaces)
+d375 1
+a375 1
+bool CemuleApp::CopyTextToClipboard(const CString& strText) const
+d407 1
+a407 1
+CString CemuleApp::CopyTextFromClipboard() 
+d428 1
+a428 1
+void CemuleApp::OnlineSig() // Added By Bouc7 
+d430 1
+a430 1
+	if (!theApp.glob_prefs->IsOnlineSignatureEnabled()) return;
+d433 1
+a433 1
+    fullpath.Format(_T("%sonlinesig.dat"),glob_prefs->GetConfigDir()); 
+d441 1
+a441 1
+    if (serverconnect->IsConnected()) 
+d445 2
+a446 2
+      file.Write(serverconnect->GetCurrentServer()->GetListName(),serverconnect->GetCurrentServer()->GetListName().GetLength()); 
+      // Not : file.Write(serverconnect->GetCurrentServer()->GetListName(),strlen(serverconnect->GetCurrentServer()- >GetRealName())); 
+d449 1
+a449 1
+      file.Write(serverconnect->GetCurrentServer()->GetFullIP(),serverconnect->GetCurrentServer()->GetFullIP().GetLength()); 
+d451 1
+a451 1
+	  buffer.Format(_T("%d"), serverconnect->GetCurrentServer()->GetPort());
+d459 1
+a459 1
+    buffer.Format(_T("%.1f"),(float)downloadqueue->GetDataRate()/1024); 
+d462 1
+a462 1
+    buffer.Format(_T("%.1f"),(float)uploadqueue->GetDataRate()/1024); 
+d465 1
+a465 1
+    buffer.Format(_T("%d"), uploadqueue->GetWaitingUserCount()); 
+d472 1
+a472 1
+int CemuleApp::ExitInstance()
+d475 1
+a475 1
+	emuledlg = NULL;	//[TwoBottle Mod]
+d477 1
+a477 1
+	m_FilesHashing.Destroy(); // Lord KiRon
+d481 6
+a486 6
+	delete listensocket;
+	listensocket = NULL;
+	delete clientudp;
+	clientudp = NULL;
+	delete serverconnect;
+	serverconnect = NULL;
+d488 24
+a511 24
+	delete serverlist;
+	serverlist = NULL;
+	delete knownfiles;
+	knownfiles = NULL;
+	delete downloadqueue;	//Cax2 - this calls the save part.met functions
+	downloadqueue = NULL;
+	delete uploadqueue;
+	uploadqueue = NULL;
+	delete sharedfiles;
+	sharedfiles = NULL;	
+	delete searchlist;
+	searchlist = NULL;
+	delete clientcredits;
+	clientcredits = NULL;
+	delete clientlist;
+	clientlist = NULL;
+	delete friendlist;
+	friendlist = NULL;
+	delete glob_prefs;
+	glob_prefs = NULL;
+	delete ipfilter;
+	ipfilter = NULL;
+	delete webserver; // kuchin
+	webserver = NULL;
+d514 2
+a515 2
+	delete mmserver;
+	mmserver = NULL;
+d518 2
+a519 2
+	delete smtpconnection;
+	smtpconnection = NULL;
+d559 1
+a559 1
+void CemuleApp::OnHelp()
+d573 1
+a573 1
+int CemuleApp::GetFileTypeSystemImageIdx(LPCTSTR pszFilePath, int iLength /* = -1 */)
+d622 1
+a622 1
+void CemuleApp::InitURLs()
+d624 1
+a624 1
+	CString URLs = glob_prefs->GetURLsForICC();
+@
+
+
+1.60
+log
+@First batch of the threatened name changes. Shouldn't be any logic changes here.
+@
+text
+@a34 2
+static CMemoryState oldMemState, newMemState, diffMemState;
+
+a36 3
+
+const static UINT UWM_ARE_YOU_EMULE=RegisterWindowMessage(_T(EMULE_GUID));
+
+d43 3
+a45 1
+CemuleApp::CemuleApp(){
+d47 3
+a57 1
+
+d59 1
+a59 3
+
+CemuleApp theApp;
+
+a60 1
+
+d80 1
+a80 1
+	// create & initalize all the important stuff 
+a81 1
+
+d93 1
+d95 2
+d104 1
+d127 3
+a129 1
+	if (glob_prefs->GetLanguageID()==MAKELANGID(LANG_GERMAN,SUBLANG_DEFAULT)) {
+d131 3
+a133 1
+		if (pos>0) strHelpFile=strHelpFile.Left(pos)+_T(".de.chm");
+d241 1
+a241 1
+
+d245 2
+a246 1
+	CCommandLineInfo cmdInfo;
+d248 2
+a249 1
+	bool cmdmi = (cmdInfo.m_strFileName.Find("ignoreinstances")>=0);
+d251 3
+d264 1
+d268 1
+d272 2
+d276 2
+d291 2
+d304 1
+d310 5
+a314 2
+
+BOOL CALLBACK CemuleApp::SearchEmuleWindow(HWND hWnd, LPARAM lParam){
+d317 2
+d321 5
+a325 1
+	if(dwMsgResult == UWM_ARE_YOU_EMULE){ 
+d327 1
+d333 1
+a333 1
+
+d470 1
+a470 1
+
+d557 11
+d569 1
+a569 7
+void CemuleApp::OnHelp() {
+	// lets just open the helpfile by associated program, instead of more windows-dependency :)
+	/*
+	CFileFind ff;
+	if (ff.FindFile(m_pszHelpFilePath, 0)) ShellOpenFile(m_pszHelpFilePath); else AfxMessageBox(GetResString(IDS_ERR_NOHELP), MB_OK | MB_ICONERROR);
+	ff.Close();
+	*/
+a570 1
+
+d572 1
+a572 1
+
+d621 1
+a621 1
+
+d638 1
+@
+
+
+1.59
+log
+@Fixed multiple windows while adding multiple files
+@
+text
+@d432 1
+a432 1
+    buffer.Format(_T("%.1f"),(float)downloadqueue->GetDatarate()/1024); 
+d435 1
+a435 1
+    buffer.Format(_T("%.1f"),(float)uploadqueue->GetDatarate()/1024); 
+@
+
+
+1.58
+log
+@Server connection minor changes & update to Light Template
+@
+text
+@d86 1
+d90 1
+d239 2
+a240 3
+bool CemuleApp::ProcessCommandline(){
+	HWND maininst = NULL;
+	bool bAlreadyRunning;
+d244 2
+a245 1
+	
+d247 2
+a248 2
+	bAlreadyRunning = ( GetLastError() == ERROR_ALREADY_EXISTS ||::GetLastError() == ERROR_ACCESS_DENIED);
+	if ( bAlreadyRunning ) EnumWindows(SearchEmuleWindow, (LPARAM)&maininst);
+d250 11
+a260 1
+	if (cmdInfo.m_nShellCommand == CCommandLineInfo::FileOpen) {
+d267 2
+a268 1
+ 		   	if (maininst){
+@
+
+
+1.57
+log
+@First step of ICC (Internet Connection Check) configuration. Only in ini for now.
+@
+text
+@a589 1
+		{
+a590 3
+			::MessageBox(NULL,URLs.Mid(n,m-n),"Server",MB_OK);
+		}
+
+@
+
+
+1.56
+log
+@Fix for session runtime
+@
+text
+@d121 3
+d576 21
+@
+
+
+1.55
+log
+@New sockets
+@
+text
+@d56 3
+@
+
+
+1.54
+log
+@New sockets
+@
+text
+@d28 2
+d208 4
+d215 2
+a216 1
+	stEngine.Uninit();
+@
+
+
+1.53
+log
+@Implemented ConfigDir
+@
+text
+@a97 4
+#ifdef NEW_SOCKETS
+	stEngine.Init();
+#endif //NEW_SOCKETS
+
+@
+
+
+1.52
+log
+@New sockets. Connecting to server from server list
+@
+text
+@d177 1
+a177 1
+	knownfiles = new CKnownFileList(glob_prefs->GetAppDir());
+d384 1
+a384 1
+    fullpath.Format(_T("%sonlinesig.dat"),glob_prefs->GetAppDir()); 
+a567 1
+
+@
+
+
+1.51
+log
+@New sockets - finally, can connect to server and even send/receive some opcodes. To be continued...
+@
+text
+@a22 1
+#include "Sockets/EmEngine.h"
+a98 1
+	CEmEngine stEngine;
+@
+
+
+1.50
+log
+@built in compiler switch for mobileMule
+@
+text
+@d22 2
+a23 1
+#include "WebServer.h" // kuchin
+d71 1
+a71 1
+#ifdef OLD_SOCKETS_ENABLED
+d78 1
+a78 1
+#endif //OLD_SOCKETS_ENABLED
+d99 5
+d186 2
+d213 4
+@
+
+
+1.49
+log
+@Can't live without BerkeleyDb now :)
+@
+text
+@d187 1
+d189 1
+d454 1
+d457 1
+@
+
+
+1.48
+log
+@Preparing for new sockets
+@
+text
+@a131 1
+#ifdef _USE_BERKELEY_DB
+a168 1
+#endif //_USE_BERKELEY_DB
+a457 1
+#ifdef _USE_BERKELEY_DB
+a479 1
+#endif //_USE_BERKELEY_DB
+@
+
+
+1.47
+log
+@HELP linked to Web Site now.
+@
+text
+@d188 1
+d190 1
+d453 1
+d456 1
+@
+
+
+1.46
+log
+@eMailNotifier and PopUp CleanUp
+@
+text
+@d497 1
+d501 3
+@
+
+
+1.45
+log
+@Purity's changes
+@
+text
+@d189 1
+d453 2
+@
+
+
+1.44
+log
+@FileType Icons in shared and downloading files
+@
+text
+@d188 1
+d450 2
+@
+
+
+1.43
+log
+@small typo
+@
+text
+@d47 1
+d49 5
+d88 1
+d495 50
+@
+
+
+1.42
+log
+@unicode cleanup
+@
+text
+@d133 1
+a133 1
+		pDbEnv->open(T2A(sDbHome), DB_CREATE | DB_INIT_LOCK | DB_INIT_LOG |
+@
+
+
+1.41
+log
+@unicode cleanup
+@
+text
+@d132 2
+a133 1
+		pDbEnv->open(sDbHome, DB_CREATE | DB_INIT_LOCK | DB_INIT_LOG |
+d137 1
+a137 1
+		pDbSLS->open(NULL, _T("Main.db"), _T("SLS"), DB_BTREE, DB_CREATE | DB_THREAD, 0);
+d146 1
+a146 1
+        AfxMessageBox(dbe.what());
+@
+
+
+1.40
+log
+@Preparing for new sockets
+@
+text
+@d113 1
+a113 1
+		if (pos>0) strHelpFile=strHelpFile.Left(pos)+".de.chm";
+d115 1
+a115 1
+	strHelpFile.Replace(".HLP", ".chm");
+d219 1
+a219 1
+		if (command.Find("://")>0)
+d304 1
+a304 1
+bool CemuleApp::CopyTextToClipboard( CString strText )
+d311 1
+a311 1
+	PTSTR pGlobal = static_cast<PTSTR>(GlobalLock(hGlobal));
+d316 1
+a316 1
+	strcpy(pGlobal,(LPCTSTR)strText);
+d362 1
+a362 1
+    fullpath.Format("%sonlinesig.dat",glob_prefs->GetAppDir()); 
+d374 1
+a374 1
+      file.Write(serverconnect->GetCurrentServer()->GetListName(),strlen(serverconnect->GetCurrentServer()->GetListName())); 
+d378 1
+a378 1
+      file.Write(serverconnect->GetCurrentServer()->GetFullIP(),strlen(serverconnect->GetCurrentServer()->GetFullIP())); 
+d380 1
+a380 1
+	  buffer.Format("%d", serverconnect->GetCurrentServer()->GetPort());
+d388 1
+a388 1
+    buffer.Format("%.1f",(float)downloadqueue->GetDatarate()/1024); 
+d391 2
+a392 2
+    buffer.Format("%.1f",(float)uploadqueue->GetDatarate()/1024); 
+    file.Write(buffer,strlen(buffer)); 
+d394 1
+a394 1
+    buffer.Format("%d", uploadqueue->GetWaitingUserCount()); 
+@
+
+
+1.39
+log
+@Preparing for new sockets
+@
+text
+@d169 1
+a171 1
+#ifdef OLD_SOCKETS_ENABLED
+d369 1
+d384 1
+a413 1
+#endif //OLD_SOCKETS_ENABLED
+d416 1
+@
+
+
+1.38
+log
+@code cleanup
+@
+text
+@d64 1
+d71 1
+a84 1
+	//AfxSocketInit();	//commented out [TwoBottle Mod]
+d171 1
+d174 1
+d407 1
+d412 1
+@
+
+
+1.37
+log
+@code cleanup
+@
+text
+@d365 1
+a365 1
+    char buffer[20]; 
+d376 2
+a377 2
+      itoa(serverconnect->GetCurrentServer()->GetPort(),buffer,10); 
+      file.Write(buffer,strlen(buffer)); 
+d383 2
+a384 2
+    sprintf(buffer,"%.1f",(float)downloadqueue->GetDatarate()/1024); 
+    file.Write(buffer,strlen(buffer)); 
+d386 1
+a386 1
+    sprintf(buffer,"%.1f",(float)uploadqueue->GetDatarate()/1024); 
+d389 2
+a390 2
+    itoa(uploadqueue->GetWaitingUserCount(),buffer,10); 
+    file.Write(buffer,strlen(buffer)); 
+@
+
+
+1.36
+log
+@code cleanup
+@
+text
+@d122 1
+a122 1
+		Ask4RegFix(false, true);
+@
+
+
+1.35
+log
+@code cleanup
+@
+text
+@a45 2
+void GenerateNewFileName(const CString& outputDir, CString& newname);
+
+a298 32
+}
+
+CString CemuleApp::CreateED2kLink( CAbstractFile* f )
+{
+	CString strLink;
+	strLink.Format("ed2k://|file|%s|%u|%s|/",
+		StripInvalidFilenameChars(f->GetFileName(), false),	// spaces to dots
+		f->GetFileSize(),
+		EncodeBase16(f->GetFileHash(),16)	// netwolf 17.05.03
+		);
+	return strLink;
+}
+
+CString CemuleApp::CreateED2kSourceLink( CAbstractFile* f )
+{
+	if (!serverconnect->IsConnected() || serverconnect->IsLowID()){
+		return CString("");
+	}
+	uint32 dwID = serverconnect->GetClientID();
+	CString strLink;
+	strLink.Format("ed2k://|file|%s|%u|%s|/|sources,%i.%i.%i.%i:%i|/",	// netwolf 17.05.03
+		StripInvalidFilenameChars(f->GetFileName(), false),	// spaces to dots
+		f->GetFileSize(),
+		EncodeBase16(f->GetFileHash(),16),	// netwolf 17.05.03
+		(uint8)dwID,(uint8)(dwID>>8),(uint8)(dwID>>16),(uint8)(dwID>>24), glob_prefs->GetListenPort()); //Maverick
+	return strLink;
+}
+
+CString CemuleApp::CreateHTMLED2kLink( CAbstractFile* f )
+{
+	CString strCode = "<a href=\"" + CreateED2kLink(f) + "\">" + StripInvalidFilenameChars(f->GetFileName(), true) + "</a>";
+	return strCode;
+@
+
+
+1.34
+log
+@coverted code from char * to CString
+@
+text
+@d46 2
+@
+
+
+1.33
+log
+@some CC infrastructure
+@
+text
+@d390 2
+a391 2
+    char* fullpath = new char[strlen(glob_prefs->GetAppDir())+MAX_PATH]; 
+    sprintf(fullpath,"%sonlinesig.dat",glob_prefs->GetAppDir()); 
+d394 1
+a394 2
+		AddLogLine(true,GetResString(IDS_ERROR_SAVEFILE)+CString(" OnlineSig.dat"));
+	    delete[] fullpath; 
+a424 2
+    delete[] fullpath; 
+    fullpath=NULL;
+@
+
+
+1.32
+log
+@*** empty log message ***
+@
+text
+@d139 3
+d476 3
+@
+
+
+1.31
+log
+@minor fixes and improvements
+@
+text
+@a187 1
+	::CloseHandle(m_hMutexOneInstance);
+@
+
+
+1.30
+log
+@Small fixes
+@
+text
+@d188 1
+d302 1
+a302 1
+	strLink.Format("ed2k://|file|%s|%u|%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x|/",
+d305 2
+a306 2
+		f->GetFileHash()[0],f->GetFileHash()[1],f->GetFileHash()[2],f->GetFileHash()[3],f->GetFileHash()[4],f->GetFileHash()[5],f->GetFileHash()[6],f->GetFileHash()[7],
+		f->GetFileHash()[8],f->GetFileHash()[9],f->GetFileHash()[10],f->GetFileHash()[11],f->GetFileHash()[12],f->GetFileHash()[13],f->GetFileHash()[14],f->GetFileHash()[15]);
+d317 1
+a317 1
+	strLink.Format("ed2k://|file|%s|%u|%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x|/|sources,%i.%i.%i.%i:%i|/",
+d320 1
+a320 2
+		f->GetFileHash()[0],f->GetFileHash()[1],f->GetFileHash()[2],f->GetFileHash()[3],f->GetFileHash()[4],f->GetFileHash()[5],f->GetFileHash()[6],f->GetFileHash()[7],
+		f->GetFileHash()[8],f->GetFileHash()[9],f->GetFileHash()[10],f->GetFileHash()[11],f->GetFileHash()[12],f->GetFileHash()[13],f->GetFileHash()[14],f->GetFileHash()[15],
+d377 1
+a377 4
+		if (lptstr != NULL) 
+		{ 
+            retstring = lptstr;			
+		} 
+d393 2
+@
+
+
+1.29
+log
+@Various fixes (see changelog+)
+@
+text
+@d478 2
+a479 2
+		//delete pDbSLS;
+		//delete pDbEnv;
+@
+
+
+1.28
+log
+@More exception handling
+@
+text
+@d88 2
+d94 1
+d173 1
+a173 1
+	webserver = new CWebServer(); // kuchin
+d183 3
+a185 1
+	
+d196 1
+a196 1
+	EMULE_CATCH2
+@
+
+
+1.27
+log
+@reverted some changes
+@
+text
+@d56 1
+d191 1
+d427 1
+d496 2
+@
+
+
+1.26
+log
+@added app shutdown mutex
+@
+text
+@a426 4
+	//wait for timer, sockets, etc to process and block them after
+	//[TwoBottle Mod]
+	CSingleLock lock(&shutdownMutex, TRUE); 
+
+@
+
+
+1.25
+log
+@*** empty log message ***
+@
+text
+@d427 4
+d435 1
+d437 1
+d439 1
+d441 1
+a441 1
+	
+d443 1
+d445 1
+d447 1
+d449 1
+a449 1
+	
+d451 1
+d453 1
+d455 1
+d457 1
+d459 1
+d461 1
+d463 1
+d489 1
+a489 1
+	if(m_pDump)
+d491 2
+@
+
+
+1.25.2.1
+log
+@27c
+@
+text
+@d294 1
+a294 1
+	strLink.Format("ed2k://|file|%s|%u|%s|/",
+d297 2
+a298 2
+		EncodeBase16(f->GetFileHash(),16)
+		);
+d309 1
+a309 1
+	strLink.Format("ed2k://|file|%s|%u|%s|/|sources,%i.%i.%i.%i:%i|/",
+d312 2
+a313 1
+		EncodeBase16(f->GetFileHash(),16),
+d351 1
+a351 1
+	theApp.emuledlg->searchwnd.IgnoreClipBoardLinks(strText); // this is so eMule won't think the clipboard has ed2k links for adding
+@
+
+
+1.24
+log
+@part.met corruption bugfix
+@
+text
+@d434 2
+d439 1
+a439 1
+	delete knownfiles;
+@
+
+
+1.23
+log
+@reinstate buffer flush on timeout
+@
+text
+@d428 2
+a429 1
+
+a431 1
+	delete sharedfiles;
+d434 3
+a439 2
+	delete downloadqueue;
+	delete uploadqueue;
+@
+
+
+1.22
+log
+@converted to new logging method
+@
+text
+@d454 2
+a455 2
+		delete pDbSLS;
+		delete pDbEnv;
+@
+
+
+1.21
+log
+@fix for some problems during app shutdown
+@
+text
+@d388 1
+a388 1
+		theApp.emuledlg->AddLogLine(true,GetResString(IDS_ERROR_SAVEFILE)+CString(" OnlineSig.dat"));
+@
+
+
+1.20
+log
+@Fixed bug #15
+@
+text
+@d82 1
+a82 1
+	AfxSocketInit();
+d425 2
+@
+
+
+1.19
+log
+@Changes protected by a #define, should have no effect
+@
+text
+@d84 3
+@
+
+
+1.18
+log
+@Last changes to context menues and Fakecheck code removal.
+@
+text
+@d24 4
+a116 15
+	clientlist = new CClientList();
+	friendlist = new CFriendList();
+	searchlist = new CSearchList();
+	knownfiles = new CKnownFileList(glob_prefs->GetAppDir());
+	serverlist = new CServerList(glob_prefs);
+	serverconnect = new CServerConnect(serverlist,theApp.glob_prefs);
+	sharedfiles = new CSharedFileList(glob_prefs,serverconnect,knownfiles);
+	listensocket = new CListenSocket(glob_prefs);
+	clientudp	= new CClientUDPSocket();
+	clientcredits = new CClientCreditsList(glob_prefs);
+	downloadqueue = new CDownloadQueue(glob_prefs,sharedfiles);	// bugfix - do this before creating the uploadqueue
+	uploadqueue = new CUploadQueue(glob_prefs);
+	ipfilter 	= new CIPFilter();
+	webserver = new CWebServer(); // kuchin
+
+d129 3
+d133 4
+d153 16
+d443 3
+@
+
+
+1.17
+log
+@Small fix for BerkeleyDb configurations
+@
+text
+@a406 44
+bool CemuleApp::Action(CKnownFile* knownfile, CPartFile* partfile, CSearchFile* searchfile){ //mod deltahf start
+	CString commandbuffer;
+	char buffer[510];
+	commandbuffer = Replace(knownfile, partfile,searchfile);
+	sprintf(buffer,"http://%s",commandbuffer);
+	ShellExecute(NULL, NULL, buffer, NULL, theApp.glob_prefs->GetAppDir(), SW_SHOWDEFAULT);
+	return true;
+}
+
+CString CemuleApp::Replace(CKnownFile* knownfile, CPartFile* partfile, CSearchFile* searchfile){
+	CString commandbuffer;
+	char buffer[510];
+	commandbuffer.Format("%s","jigle.com/search?p=ed2k:#filesize:#hashid");
+	
+			if(knownfile){
+				buffer[0] = 0;
+				for (uint16 i = 0;i != 16;i++)
+					sprintf(buffer,"%s%02X",buffer,knownfile->GetFileHash()[i]);
+				commandbuffer.Replace("#hashid",buffer);
+				sprintf(buffer,"%i",knownfile->GetFileSize());
+				commandbuffer.Replace("#filesize",buffer);
+				commandbuffer.Replace("#downloadsize","complete");
+			} else if (searchfile){
+				buffer[0] = 0;
+				for (uint16 i = 0;i != 16;i++)
+					sprintf(buffer,"%s%02X",buffer,searchfile->GetFileHash()[i]);
+				commandbuffer.Replace("#hashid",buffer);
+				sprintf(buffer,"%i",searchfile->GetIntTagValue(FT_FILESIZE));
+				commandbuffer.Replace("#filesize",buffer);
+				commandbuffer.Replace("#downloadsize","0");
+			} else if (partfile){	
+				buffer[0] = 0;
+				for (uint16 i = 0;i != 16;i++)
+					sprintf(buffer,"%s%02X",buffer,partfile->GetFileHash()[i]);
+				commandbuffer.Replace("#hashid",buffer);
+				sprintf(buffer,"%i",partfile->GetFileSize());
+				commandbuffer.Replace("#filesize",buffer);
+				sprintf(buffer,"%i",partfile->GetTransfered());
+				commandbuffer.Replace("#downloadsize",buffer);
+			}
+
+	return commandbuffer;
+} //mod deltahf end
+
+@
+
+
+1.16
+log
+@BerkeleyDb is on the main branch, but will be included only with special build configuration
+@
+text
+@d478 2
+@
+
+
+1.15
+log
+@enkeydev stuff
+@
+text
+@d128 29
+d471 17
+@
+
+
+1.14
+log
+@Lancast : Help other emules on your lan complete/download files quicker, saving bandwith.
+
+1) UDP broadcasts your hashs over your lan
+2) Listens for other clients sending broadcasts and adds them as sources
+3) Clients on your lan bypass the queue, and have unlimited upload (download rate is still limited by emule downlaod speed)
+@
+text
+@d311 25
+@
+
+
+1.13
+log
+@Priority control
+@
+text
+@d59 7
+d76 1
+a76 5
+	if (!AfxSocketInit())
+	{		
+		AfxMessageBox(IDS_SOCKETS_INIT_FAILED);
+		return FALSE;
+	}
+@
+
+
+1.12
+log
+@AutoTakeED2KLinks
+@
+text
+@d76 1
+@
+
+
+1.11
+log
+@Added ed2k multiple export and some context menu corrections.
+@
+text
+@d105 4
+@
+
+
+1.11.2.1
+log
+@keeping in sync with the main cvs line
+@
+text
+@a104 4
+	// Barry - Auto-take ed2k links
+	if (glob_prefs->AutoTakeED2KLinks())
+		Ask4RegFix(false, true);
+
+@
+
+
+1.10
+log
+@Code clean up and double check wit official code.
+@
+text
+@a252 1
+		emuledlg->AddLogLine(true,GetResString(IDS_SOURCELINKFAILED));
+@
+
+
+1.9
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@a266 3
+
+
+
+a302 1
+
+@
+
+
+1.8
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d28 3
+d52 4
+d130 8
+d202 1
+d207 1
+d242 1
+a242 1
+	strLink.Format("ed2k://|file|%s|%d|%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x|/",
+d258 1
+a258 1
+	strLink.Format("ed2k://|file|%s|%d|%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x%02x|/|sources,%i.%i.%i.%i:%i|/",
+d347 1
+a347 1
+    
+@
+
+
+1.7
+log
+@delete ipfilter
+@
+text
+@d25 2
+d29 1
+@
+
+
+1.6
+log
+@better out-of-disk-space handling
+@
+text
+@d392 1
+@
+
+
+1.5
+log
+@bugfixes & control panel updates
+@
+text
+@d107 1
+d116 1
+@
+
+
+1.5.2.1
+log
+@initial upgrade to .26
+@
+text
+@a57 1
+
+a58 1
+
+d60 1
+a60 1
+	{
+d115 1
+a115 1
+
+@
+
+
+1.4
+log
+@Fixed memory error in fake check.
+@
+text
+@a50 1
+
+a57 1
+
+a58 1
+
+a63 1
+
+a82 1
+
+a92 4
+	// Barry - Auto-take ed2k links
+	if (glob_prefs->AutoTakeED2KLinks())
+		Ask4RegFix(false, true);
+
+a330 1
+	
+a333 1
+	
+@
+
+
+1.3
+log
+@update to .25b codebase
+@
+text
+@d55 3
+a57 3
+	// InitCommonControls() ist für Windows XP erforderlich, wenn ein Anwendungsmanifest
+	// die Verwendung von ComCtl32.dll Version 6 oder höher zum Aktivieren
+	// von visuellen Stilen angibt. Ansonsten treten beim Erstellen von Fenstern Fehler auf.
+a344 1
+	delete commandbuffer;
+@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.3.2.2
+log
+@Interim release!
+@
+text
+@d55 3
+a57 3
+	// InitCommonControls() is required on Windows XP if an application
+	// manifest specifies use of ComCtl32.dll version 6 or later to enable
+	// visual styles.  Otherwise, any window creation will fail.
+d340 1
+d344 2
+@
+
+
+1.3.2.3
+log
+@updated control panes, and assorted bugfixes
+@
+text
+@d51 1
+d59 1
+d61 1
+d67 1
+d87 1
+d97 4
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d33 1
+a33 1
+	ON_COMMAND(ID_HELP, CWinApp::OnHelp)
+d42 1
+a42 1
+// CemuleApp Initialisierung
+d88 14
+d137 2
+a138 2
+	m_hMutexOneInstance = ::CreateMutex(NULL, FALSE,_T(EMULE_GUID));
+	bAlreadyRunning = ( ::GetLastError() == ERROR_ALREADY_EXISTS ||::GetLastError() == ERROR_ACCESS_DENIED);
+d143 24
+a166 11
+	sendstruct.cbData = command.GetLength()+1; 
+	sendstruct.dwData = OP_ED2KLINK; 
+	sendstruct.lpData = command.GetBuffer(); 
+	if (maininst){
+		SendMessage(maininst,WM_COPYDATA,(WPARAM)0,(LPARAM) (PCOPYDATASTRUCT) &sendstruct); 
+		return true; 
+	} 
+	else 
+		pendinglink = new CString(command);
+	}
+	
+d412 7
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d223 1
+a223 1
+		(uint8)dwID,(uint8)(dwID>>8),(uint8)(dwID>>16),(uint8)(dwID>>24), glob_prefs->GetPort());
+@
+

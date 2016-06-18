@@ -1,0 +1,958 @@
+head	1.22;
+access;
+symbols
+	PublicRelease_1_2e:1.22
+	Interim_Release_1-2e_RC1:1.22
+	PublicRelease_1_2d:1.21
+	Interim_Release_1-2d_RC1:1.21
+	Interim_Release_1-2d_beta1:1.20
+	PublicRelease_1_2c:1.19
+	Interim_Release_1-2c_RC1:1.19
+	Interim_Release_1-2c_beta1:1.19
+	PublicRelease_1_2b:1.19
+	Interim_Release_1-2b_RC1:1.19
+	PublicRelease_1_2a:1.19
+	Interim_Release_1-2a_RC1:1.19
+	Interim_Release_1-2a_beta2:1.19
+	Interim_Release_1-2a_beta1:1.19
+	PublicRelease_1_2:1.19
+	Interim_Release_1-2_RC1:1.19
+	Interim_Release_1-2_beta1:1.19
+	PublicRelease_1_1g:1.18
+	Interim_Release_1-1g_RC3:1.18
+	Interim_Release_1-1g_RC2:1.18
+	Interim_Release_1-1g_RC1:1.18
+	Interim_Release_1-1g_beta2:1.17
+	Interim_Release_1-1g_beta1:1.16
+	PublicRelease_1_1f:1.16
+	Interim_Release_1-1f_RC1:1.16
+	PublicRelease_1_1e:1.16
+	Interim_Release_1-1e_RC2:1.16
+	Interim_Release_1-1e_RC1:1.16
+	Interim_Release_1-1e_beta1:1.16
+	PublicRelease_1_1d:1.16
+	Interim_Release_1-1d_RC1:1.16
+	PublicRelease_1_1c:1.16
+	Interim_Release_1-1c_RC1:1.16
+	Interim_Release_1-1c_beta2:1.16
+	Interim_Release_1-1c_beta1:1.16
+	PublicRelease_1_1b:1.16
+	Interim_Release_1-1b_RC1:1.16
+	PublicRelease_1_1a:1.16
+	Interim_Release_1-1a_RC2:1.16
+	Interim_Release_1-1a_RC1:1.16
+	Interim_Release_1-1a_beta2:1.16
+	Interim_Release_1-1a_beta1:1.16
+	PublicRelease_1_1:1.16
+	Interim_Release_1-1_beta1:1.16
+	PublicRelease_1o:1.14
+	Interim_Release_1o_RC1:1.14
+	Interim_Release_1o_beta1:1.14
+	PublicRelease_1n:1.13
+	Interim_Release_1n_RC2:1.13
+	Interim_Release_1n_RC1:1.13
+	Interim_Release_1n_beta2:1.13
+	PublicRelease_1m:1.13
+	Interim_Release_1m_beta1:1.13
+	PublicRelease_1l:1.12
+	Interim_Release_1l_RC3:1.12
+	Interim_Release_1l_RC2:1.12
+	Interim_Release_1l_RC1:1.12
+	Interim_Release_1l_beta2:1.12
+	Interim_Release_1l_beta1:1.12
+	PublicRelease_1k:1.11
+	Interim_Release_1k_RC4:1.11
+	Interim_1k_RC3:1.11
+	Interim_1k_RC2:1.11
+	Interim_Release_1k_RC1:1.11
+	Interim_Release_1k_beta5:1.11
+	Intrerim_Release_1k_beta4:1.11
+	Interim_Release_1k_beta1:1.8
+	PublicRelease_1j:1.6
+	Interim_Release_1J_RC3:1.6
+	Interim_Release_1j_RC3:1.6
+	Interim_Release_1j_RC2:1.6
+	Interim_Release_1j_RC1:1.6
+	Interim_Release_1j_beta2:1.6
+	Interim_Release_1j_beta1:1.6
+	PublicRelease_1i:1.6
+	Interim_Release_1i_RC6:1.6
+	Interim_Release_1i_RC3:1.6
+	Interim_Release_1i_RC2:1.6
+	Interim_Release_1i_RC1:1.6
+	Interim_Release_1i_beta3:1.6
+	Interim_Release_1i_beta2:1.6
+	Interim_Release_1i_beta1:1.4;
+locks; strict;
+comment	@// @;
+
+
+1.22
+date	2008.09.29.04.27.35;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2008.03.03.04.38.40;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2007.10.17.14.17.51;	author fuxie-dk;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2006.01.12.03.53.45;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2005.11.28.02.52.57;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2005.09.26.00.29.07;	author aw3;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.10.18.04.41.38;	author aw3;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.10.04.22.38.11;	author kush_eplus;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.09.17.03.08.49;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.06.22.05.42.08;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.05.03.09.59.34;	author netwolf1;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.03.20.01.34.38;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.03.02.01.43.55;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.02.25.04.59.15;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.02.17.22.04.21;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.02.11.04.13.03;	author katsyonak;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.10.14.18.41.00;	author syrus77;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.10.07.22.22.35;	author forcha;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.10.05.10.45.18;	author forcha;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.05.09.10.48;	author forcha;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.05.05.19.58;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.05.00.02.23;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.22
+log
+@Fixed incorrect description displayed for downloading executables with version resource information (filename was displayed instead of actually file description when resource could be read, for example for complete files).
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "FDGeneral.h"
+#include "file_ver.h"
+#include "..\otherfunctions.h"
+#include "..\emule.h"
+#include "..\CommentDialogLst.h"
+
+#pragma comment(lib, "version.lib")
+
+IMPLEMENT_DYNCREATE(CFDGeneral, CPropertyPage)
+
+CFDGeneral::CFDGeneral() : CPropertyPage(CFDGeneral::IDD)
+{
+	m_pFile = NULL;
+	m_hFileIcon = NULL;
+}
+
+CFDGeneral::~CFDGeneral()
+{
+	if(m_hFileIcon != NULL)
+		::DestroyIcon(m_hFileIcon);
+}
+
+void CFDGeneral::DoDataExchange(CDataExchange* pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_PARTFILESTATUS_VAL, m_ctrlPartFileStatus);
+	DDX_Control(pDX, IDC_METFILE_VAL, m_ctrlMetFile);
+	DDX_Control(pDX, IDC_HASH_VAL, m_ctrlHash);
+	DDX_Control(pDX, IDC_FOLDER_VAL, m_ctrlFolder);
+	DDX_Control(pDX, IDC_FILETYPE_VAL, m_ctrlFiletype);
+	DDX_Control(pDX, IDC_FILESIZE_VAL, m_ctrlFilesize);
+	DDX_Control(pDX, IDC_FILEICON, m_ctrlFileIcon);
+	DDX_Control(pDX, IDC_DESCRIPTION_VAL, m_ctrlDescription);
+	DDX_Control(pDX, IDC_FDG_FILENAME, m_ctrlFilename);
+	DDX_Control(pDX, IDC_CATEGORY_VAL, m_ctrlCategory);
+}
+
+
+BEGIN_MESSAGE_MAP(CFDGeneral, CPropertyPage)
+	ON_BN_CLICKED(IDC_COMMENTS_BTN, OnBnClickedCommentsBtn)
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+bool IsExecuteable(const CString &strFile)
+{
+	int iDot = strFile.ReverseFind(_T('.'));
+
+	if((iDot <= 0) || ((strFile.GetLength() - iDot) != 4))
+	{
+		return false;		// no file extension found or it has different size
+	}
+
+	CString strExt = strFile.Right(strFile.GetLength() - iDot - 1);
+
+	strExt.MakeUpper();
+	return ((strExt == _T("EXE")) || (strExt == _T("DLL")));
+}
+
+void CFDGeneral::Update()
+{
+	EMULE_TRY
+
+	if (m_pFile == NULL || !::IsWindow(GetSafeHwnd()))
+		return;
+
+	m_ctrlFilename.SetWindowText(m_pFile->GetFileName());
+
+	CCat		*pCat = CCat::GetCatByID(m_pFile->GetCatID());
+
+	m_ctrlCategory.SetWindowText((pCat != NULL) ? pCat->GetTitle() : GetResString(IDS_CAT_UNCATEGORIZED));
+
+	CString		strOldDir, strNewDir = m_pFile->GetOutputDir();
+
+	if (strNewDir.GetLength() > 3)
+		 strNewDir += _T("\\");
+
+	m_ctrlFolder.GetWindowText(strOldDir);
+	if (strOldDir != strNewDir)
+		m_ctrlFolder.SetWindowText(strNewDir);
+	m_ctrlFilesize.SetWindowText(CastItoXBytes(m_pFile->GetFileSize()));
+	m_ctrlMetFile.SetWindowText(m_pFile->GetFilePath());
+	m_ctrlHash.SetWindowText(HashToString(m_pFile->GetFileHash()));
+	m_ctrlPartFileStatus.SetWindowText(m_pFile->GetPartFileStatus());
+
+	EMULE_CATCH
+}
+
+void CFDGeneral::OnBnClickedCommentsBtn()
+{
+	CCommentDialogLst dialog(m_pFile);
+	dialog.DoModal();
+}
+
+BOOL CFDGeneral::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+//	Setup file description information
+	if (m_pFile != NULL)
+	{
+	//	Due to extension changing is unlike during file rename, file description and
+	//	icon are loaded only at start not to make these "heavy" calls in Update()
+		CFileVersionInfo	fvInfo;
+		SHFILEINFO	shfi;
+		bool		bIsExecuteable;
+		TCHAR		szExecuteable[MAX_PATH];
+		const TCHAR	*pExeStr, *pDescStr;
+		CString		strFilename(m_pFile->GetFileName());
+
+	//	Load file icon
+		memzero(&shfi, sizeof(shfi));
+		SHGetFileInfo( strFilename, FILE_ATTRIBUTE_NORMAL, &shfi, sizeof(shfi),
+						SHGFI_ICON|SHGFI_USEFILEATTRIBUTES|SHGFI_TYPENAME|SHGFI_DISPLAYNAME );
+		m_hFileIcon = shfi.hIcon;
+		m_ctrlFileIcon.SetIcon(m_hFileIcon);
+		m_ctrlFiletype.SetWindowText(shfi.szTypeName);
+
+	//	Setup file description
+		bIsExecuteable = IsExecuteable(strFilename);
+		if (bIsExecuteable)
+		{
+			strFilename = m_pFile->GetFilePath();
+			pExeStr = strFilename;
+			pDescStr = shfi.szDisplayName;
+		}
+		else
+		{
+			CString	strTempFile = g_App.m_pPrefs->GetTempDir();
+
+			strTempFile += _T("\\$$$");
+			strTempFile += strFilename;
+
+			HANDLE	hTmpFile = ::CreateFile(strTempFile, GENERIC_READ, FILE_SHARE_READ, NULL,
+				CREATE_NEW, FILE_ATTRIBUTE_NORMAL | FILE_ATTRIBUTE_TEMPORARY, NULL);
+
+			if (hTmpFile != INVALID_HANDLE_VALUE)
+				::CloseHandle(hTmpFile);
+			FindExecutable(strTempFile, _T(""), szExecuteable);
+			if (hTmpFile != INVALID_HANDLE_VALUE)
+				::DeleteFile(strTempFile);
+
+			pExeStr = szExecuteable;
+			pDescStr = szExecuteable;
+		}
+		fvInfo.ReadVersionInfo(pExeStr);
+		if (fvInfo.IsValid() && fvInfo.IsVersionInfoAvailable(SFI_FILEDESCRIPTION))
+			m_ctrlDescription.SetWindowText(fvInfo.GetVersionInfo(SFI_FILEDESCRIPTION));
+		else
+			m_ctrlDescription.SetWindowText(pDescStr);
+
+		Localize(bIsExecuteable);
+		Update();
+	}
+
+	return TRUE;  // return TRUE unless you set the focus to a control
+	// EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CFDGeneral::Localize(bool bIsExecuteable)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_FILETYPE_LBL, IDS_FILETYPE_LBL },
+		{ IDC_FOLDER_LBL, IDS_FD_OUTPUT },
+		{ IDC_FILESIZE_LBL, IDS_FD_SIZE },
+		{ IDC_COMMENTS_BTN, IDS_CMT_SHOWALL }
+	};
+	static const uint16 s_auResTbl2[][2] =
+	{
+		{ IDC_HASH_LBL, IDS_HASH },
+		{ IDC_CATEGORY_LBL, IDS_CAT },
+		{ IDC_METFILE_LBL, IDS_DL_FILENAME },
+		{ IDC_PARTFILESTATUS_LBL, IDS_STATUS }
+	};
+
+	if (GetSafeHwnd())
+	{
+		CString strBuffer = GetResString((bIsExecuteable) ? IDS_FD_DESCRIPTION : IDS_FD_OPENSWITH);
+
+		SetDlgItemText(IDC_DESCRIPTION_LBL, strBuffer);
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			GetResString(&strBuffer, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strBuffer);
+		}
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl2); i++)
+		{
+			GetResString(&strBuffer, static_cast<UINT>(s_auResTbl2[i][1]));
+			strBuffer += _T(":");
+			SetDlgItemText(s_auResTbl2[i][0], strBuffer);
+		}
+	}
+}
+@
+
+
+1.21
+log
+@ELEMENT_COUNT -> ARRSIZE.
+@
+text
+@d125 1
+a125 1
+		CString		strFilename = m_pFile->GetFileName();
+d139 1
+a163 1
+		{
+a164 1
+		}
+a165 1
+		{
+a166 1
+		}
+@
+
+
+1.20
+log
+@Better disk I/O performance while creating temporary file (as OS shouldn't save it to the disk at all in this case) [Aw3].
+@
+text
+@d1 1
+a1 1
+// FDGeneral.cpp : implementation file
+d3 13
+a25 2
+// CFDGeneral dialog
+
+a36 1
+	{
+a37 1
+	}
+d181 1
+a181 1
+	static const int s_aiResTbl[][2] =
+d188 1
+a188 1
+	static const int s_aiResTbl2[][2] =
+d202 1
+a202 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_aiResTbl); i++)
+d204 2
+a205 2
+			GetResString(&strBuffer, static_cast<UINT>(s_aiResTbl[i][1]));
+			SetDlgItemText(s_aiResTbl[i][0], strBuffer);
+d208 1
+a208 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(s_aiResTbl2); i++)
+d210 1
+a210 1
+			GetResString(&strBuffer, static_cast<UINT>(s_aiResTbl2[i][1]));
+d212 1
+a212 1
+			SetDlgItemText(s_aiResTbl2[i][0], strBuffer);
+@
+
+
+1.19
+log
+@Fixed completed file deletion on Show File Details when temp and incoming folders're the same {quadesh}.
+@
+text
+@d141 1
+a141 1
+				CREATE_NEW, FILE_ATTRIBUTE_NORMAL, NULL);
+@
+
+
+1.18
+log
+@Some Unicode corrections; Cleanup;
+Finished renaming to make sources compilable again...
+@
+text
+@d135 1
+a135 2
+			// ToDo: better solution needed
+			CString	strTempFile = g_App.m_pPrefs->GetTempDir() + _T("\\") + strFilename;
+d137 8
+a144 2
+			CFile cfTemp(strTempFile, CFile::modeCreate);
+			cfTemp.Close();
+d146 2
+a147 1
+			CFile::Remove(strTempFile);
+@
+
+
+1.17
+log
+@Unified processing of part and temporary file names.
+@
+text
+@a18 4
+	//{{AFX_DATA_INIT(CFDGeneral)
+		// NOTE: the ClassWizard will add member initialization here
+	//}}AFX_DATA_INIT
+
+a33 1
+	//{{AFX_DATA_MAP(CFDGeneral)
+a41 1
+	//}}AFX_DATA_MAP
+a47 2
+	//{{AFX_MSG_MAP(CFDGeneral)
+	//}}AFX_MSG_MAP
+d52 1
+a52 3
+// CFDGeneral message handlers
+
+bool IsExecuteable(CString strFile)
+d54 1
+a54 1
+	int iDot = strFile.ReverseFind('.');
+d64 1
+a64 1
+	return (strExt == "EXE" || strExt == "DLL");
+d136 1
+a136 1
+			CString	strTempFile = g_eMuleApp.m_pGlobPrefs->GetTempDir() + "\\" + strFilename;
+d140 1
+a140 1
+			FindExecutable(strTempFile, "", szExecuteable);
+@
+
+
+1.16
+log
+@Unified GUI strings for "file hash" (removed duplicate,
+new full form is "File Hash" instead of "FileID").
+@
+text
+@d99 1
+a99 1
+	m_ctrlMetFile.SetWindowText(m_pFile->GetFullName());
+@
+
+
+1.15
+log
+@Don't add a second / for root dir (i.e. drive letters)
++ Code formatting
+@
+text
+@a180 1
+		{ IDC_HASH_LBL, IDS_FD_HASH },
+d185 1
+@
+
+
+1.14
+log
+@Unified way to display label for part and complete files.
+@
+text
+@d11 1
+a11 1
+#pragma comment(lib, "version.lib") 
+d81 1
+a81 4
+	if(m_pFile == NULL)
+		return;
+
+	if(!::IsWindow(GetSafeHwnd()))
+d90 5
+a94 2
+	CString strOldDir;
+	CString strNewDir = m_pFile->GetOutputDir() + CString("\\");
+d96 1
+a96 1
+	if(strOldDir != strNewDir)
+d130 2
+a131 2
+		SHGetFileInfo(strFilename, FILE_ATTRIBUTE_NORMAL, &shfi, sizeof(shfi),
+					SHGFI_ICON|SHGFI_USEFILEATTRIBUTES|SHGFI_TYPENAME|SHGFI_DISPLAYNAME);
+@
+
+
+1.13
+log
+@Improved string processing; EMULE_TRY/EMULE_CATCH are removed from
+localization routines, because almost nothing to catch here, but this pair adds a lot of code.
+@
+text
+@a180 1
+		{ IDC_METFILE_LBL, IDS_FD_MET },
+d187 1
+@
+
+
+1.12
+log
+@minor changes (Partfile --> PartFile...)
+@
+text
+@d176 1
+a176 1
+	static const int aiResTbl[][2] =
+d185 1
+a185 1
+	static const int aiResTbl2[][2] =
+a190 2
+	EMULE_TRY
+
+d193 1
+a193 1
+		SetDlgItemText(IDC_DESCRIPTION_LBL, GetResString((bIsExecuteable) ? IDS_FD_DESCRIPTION : IDS_FD_OPENSWITH));
+d195 1
+a195 2
+		for (uint32 i = 0; i < ELEMENT_COUNT(aiResTbl); i++)
+			SetDlgItemText(aiResTbl[i][0], GetResString(static_cast<UINT>(aiResTbl[i][1])));
+d197 5
+a201 1
+		CString strBuffer;
+d203 1
+a203 1
+		for (uint32 i = 0; i < ELEMENT_COUNT(aiResTbl2); i++)
+d205 3
+a207 2
+			strBuffer.Format("%s:", GetResString(static_cast<UINT>(aiResTbl2[i][1])));
+			SetDlgItemText(aiResTbl2[i][0], strBuffer);
+a209 2
+
+	EMULE_CATCH
+@
+
+
+1.11
+log
+@minor optimization
+@
+text
+@d39 1
+a39 1
+	DDX_Control(pDX, IDC_PARTFILESTATUS_VAL, m_ctrlPartfileStatus);
+d101 1
+a101 1
+	m_ctrlPartfileStatus.SetWindowText(m_pFile->GetPartfileStatus());
+@
+
+
+1.10
+log
+@Setup file description information only on property page start to reduce CPU usage during update;
+Speed up dialog information drawing.
+@
+text
+@d195 1
+a195 1
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(GetResString((bIsExecuteable) ? IDS_FD_DESCRIPTION : IDS_FD_OPENSWITH));
+d197 2
+a198 2
+		for (uint32 i = 0; i < (sizeof(aiResTbl) / sizeof(aiResTbl[0])); i++)
+			GetDlgItem(aiResTbl[i][0])->SetWindowText(GetResString(static_cast<UINT>(aiResTbl[i][1])));
+d202 1
+a202 1
+		for (uint32 i = 0; i < (sizeof(aiResTbl2) / sizeof(aiResTbl2[0])); i++)
+d205 1
+a205 1
+			GetDlgItem(aiResTbl2[i][0])->SetWindowText(strBuffer);
+@
+
+
+1.9
+log
+@Unified localization; whitespace corrections
+@
+text
+@d62 1
+a62 1
+BOOL IsExecuteable(CString strFile)
+d65 2
+a66 1
+	if(iDot == -1)
+d68 1
+a68 1
+		return FALSE;		// no file extension found
+d71 1
+a71 5
+	CString strExt = strFile.Right(strFile.GetLength() - iDot);
+	if(strExt.IsEmpty())
+	{
+		return FALSE;		// no file extension found
+	}
+d74 1
+a74 6
+	if(strExt == ".EXE" || strExt == ".DLL")
+	{
+		return TRUE;		// executeable
+	}
+
+	return FALSE;			// not executeable
+d87 1
+a87 1
+	CString strFilename = m_pFile->GetFileName();
+d89 1
+a89 66
+	SHFILEINFO shfi;
+	memzero(&shfi, sizeof(shfi));
+	SHGetFileInfo(strFilename, FILE_ATTRIBUTE_NORMAL, &shfi, sizeof(shfi),
+					SHGFI_ICON|SHGFI_USEFILEATTRIBUTES|SHGFI_TYPENAME|SHGFI_DISPLAYNAME);
+
+	if(m_hFileIcon != NULL)
+	{
+		::DestroyIcon(m_hFileIcon);
+	}
+	m_hFileIcon = shfi.hIcon;
+	m_ctrlFileIcon.SetIcon(m_hFileIcon);
+
+	m_ctrlFilename.SetWindowText(MakeStringEscaped(strFilename));
+	m_ctrlFiletype.SetWindowText(shfi.szTypeName);
+
+	if(IsExecuteable(strFilename))
+	{
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(::GetResString(IDS_FD_DESCRIPTION));
+		
+		CFileVersionInfo fvInfo;
+		fvInfo.ReadVersionInfo(strFilename);
+		if(fvInfo.IsValid() )
+		{
+			if(fvInfo.IsVersionInfoAvailable(SFI_FILEDESCRIPTION))
+			{
+				m_ctrlDescription.SetWindowText(fvInfo.GetVersionInfo(SFI_FILEDESCRIPTION));
+			}
+			else
+			{
+				m_ctrlDescription.SetWindowText(shfi.szDisplayName);
+			}
+		}
+		else
+		{
+			m_ctrlDescription.SetWindowText(shfi.szDisplayName);
+		}
+	}
+	else
+	{
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(::GetResString(IDS_FD_OPENSWITH));
+		// ToDo: better solution needed
+		CString strTempFile = g_eMuleApp.m_pGlobPrefs->GetTempDir() + "\\" + strFilename;
+		CFile cfTemp(strTempFile, CFile::modeCreate);
+		cfTemp.Close();
+		char szExecuteable[MAX_PATH];
+		FindExecutable(strTempFile, "", szExecuteable);
+		CFile::Remove(strTempFile);
+
+		CFileVersionInfo fvInfo;
+		fvInfo.ReadVersionInfo(szExecuteable);
+		if (fvInfo.IsValid())
+		{
+			if(fvInfo.IsVersionInfoAvailable(SFI_FILEDESCRIPTION))
+			{
+				m_ctrlDescription.SetWindowText(fvInfo.GetVersionInfo(SFI_FILEDESCRIPTION));
+			}
+			else
+			{
+				m_ctrlDescription.SetWindowText(szExecuteable);
+			}
+		}
+		else
+		{
+			m_ctrlDescription.SetWindowText(szExecuteable);
+		}
+	}
+d91 1
+a91 3
+	CCat		*pCat = CCat::GetCatByID(m_pFile->GetCatID());
+	CString		strCategory = (pCat != NULL) ? pCat->GetTitle() : GetResString(IDS_CAT_UNCATEGORIZED);
+	m_ctrlCategory.SetWindowText(strCategory);
+d116 54
+a169 3
+	Localize();
+	Update();
+	
+d174 1
+a174 1
+void CFDGeneral::Localize(void)
+d195 1
+a195 2
+		CString strBuffer = m_pFile->GetFileName();
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(GetResString((IsExecuteable(strBuffer)) ? IDS_FD_DESCRIPTION : IDS_FD_OPENSWITH));
+d200 2
+@
+
+
+1.8
+log
+@Improved hash to string conversion
+@
+text
+@d66 1
+a66 1
+	{		
+d69 1
+a69 1
+	
+d101 1
+a101 1
+	
+d137 1
+a137 1
+		// ToDo: better solution needed	
+d147 1
+a147 1
+		if(fvInfo.IsValid() )
+d150 1
+a150 1
+			{				
+d183 1
+a183 1
+	CCommentDialogLst dialog(m_pFile); 
+d200 15
+d217 1
+a217 1
+	if(GetSafeHwnd())
+d219 2
+a220 1
+		CString strBuffer;
+d222 7
+a228 5
+		GetDlgItem(IDC_FILETYPE_LBL)->SetWindowText(GetResString(IDS_FILETYPE_LBL));
+		strBuffer = m_pFile->GetFileName();
+		if(IsExecuteable(strBuffer))
+		{	
+			GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(GetResString(IDS_FD_DESCRIPTION));
+a229 13
+		else
+		{	
+			GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(::GetResString(IDS_FD_OPENSWITH));
+		}
+		strBuffer.Format("%s:", GetResString(IDS_CAT));
+		GetDlgItem(IDC_CATEGORY_LBL)->SetWindowText(strBuffer);
+		GetDlgItem(IDC_FOLDER_LBL)->SetWindowText(GetResString(IDS_FD_OUTPUT));
+		GetDlgItem(IDC_FILESIZE_LBL)->SetWindowText(GetResString(IDS_FD_SIZE));
+		GetDlgItem(IDC_METFILE_LBL)->SetWindowText(GetResString(IDS_FD_MET));
+		GetDlgItem(IDC_HASH_LBL)->SetWindowText(GetResString(IDS_FD_HASH));
+		strBuffer.Format("%s:", GetResString(IDS_STATUS));
+		GetDlgItem(IDC_PARTFILESTATUS_LBL)->SetWindowText(strBuffer);
+		GetDlgItem(IDC_COMMENTS_BTN)->SetWindowText(GetResString(IDS_CMT_SHOWALL));
+d233 1
+a233 1
+}@
+
+
+1.7
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d175 1
+a175 1
+	m_ctrlHash.SetWindowText(EncodeBase16(m_pFile->GetFileHash(), 16));
+@
+
+
+1.6
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d98 1
+a98 1
+	memset2(&shfi,0,sizeof(shfi));
+@
+
+
+1.5
+log
+@small fix
+@
+text
+@d98 1
+a98 1
+	memset(&shfi,0,sizeof(shfi));
+@
+
+
+1.4
+log
+@TRY & CATCH
+@
+text
+@d207 9
+a215 1
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(GetResString(IDS_FD_DESCRIPTION));
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d87 2
+d177 2
+d200 2
+d218 2
+@
+
+
+1.2
+log
+@Localization and some fixes for new detail dialogs by FoRcHa
+@
+text
+@d112 1
+a112 1
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText("Description");
+d134 1
+a134 1
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText("Opens with:");
+d201 1
+a201 1
+		GetDlgItem(IDC_DESCRIPTION_LBL)->SetWindowText(GetResString(IDS_DESCRIPTION_LBL));
+@
+
+
+1.1
+log
+@new dialogs for file- & client-details
+@
+text
+@d119 1
+a119 1
+			{				
+d161 3
+a163 2
+		
+	CString strCategory = CCat::GetCatByIndex(m_pFile->GetCatID())->GetTitle();
+d196 16
+@
+

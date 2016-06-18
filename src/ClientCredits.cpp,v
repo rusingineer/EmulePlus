@@ -1,0 +1,4152 @@
+head	1.70;
+access;
+symbols
+	PublicRelease_1_2e:1.68
+	Interim_Release_1-2e_RC1:1.67
+	PublicRelease_1_2d:1.62
+	Interim_Release_1-2d_RC1:1.62
+	Interim_Release_1-2d_beta1:1.62
+	PublicRelease_1_2c:1.59
+	Interim_Release_1-2c_RC1:1.59
+	Interim_Release_1-2c_beta1:1.56
+	PublicRelease_1_2b:1.55
+	Interim_Release_1-2b_RC1:1.55
+	PublicRelease_1_2a:1.53
+	Interim_Release_1-2a_RC1:1.53
+	Interim_Release_1-2a_beta2:1.52
+	Interim_Release_1-2a_beta1:1.52
+	PublicRelease_1_2:1.51
+	Interim_Release_1-2_RC1:1.51
+	Interim_Release_1-2_beta1:1.51
+	PublicRelease_1_1g:1.50
+	Interim_Release_1-1g_RC3:1.50
+	Interim_Release_1-1g_RC2:1.50
+	Interim_Release_1-1g_RC1:1.50
+	Interim_Release_1-1g_beta2:1.49
+	Interim_Release_1-1g_beta1:1.48
+	PublicRelease_1_1f:1.48
+	Interim_Release_1-1f_RC1:1.48
+	PublicRelease_1_1e:1.48
+	Interim_Release_1-1e_RC2:1.48
+	Interim_Release_1-1e_RC1:1.48
+	Interim_Release_1-1e_beta1:1.48
+	PublicRelease_1_1d:1.48
+	Interim_Release_1-1d_RC1:1.48
+	PublicRelease_1_1c:1.48
+	Interim_Release_1-1c_RC1:1.48
+	Interim_Release_1-1c_beta2:1.48
+	Interim_Release_1-1c_beta1:1.47
+	PublicRelease_1_1b:1.47
+	Interim_Release_1-1b_RC1:1.47
+	PublicRelease_1_1a:1.46
+	Interim_Release_1-1a_RC2:1.46
+	Interim_Release_1-1a_RC1:1.46
+	Interim_Release_1-1a_beta2:1.46
+	Interim_Release_1-1a_beta1:1.45
+	PublicRelease_1_1:1.45
+	Interim_Release_1-1_beta1:1.45
+	PublicRelease_1o:1.45
+	Interim_Release_1o_RC1:1.45
+	Interim_Release_1o_beta1:1.45
+	PublicRelease_1n:1.45
+	Interim_Release_1n_RC2:1.45
+	Interim_Release_1n_RC1:1.45
+	Interim_Release_1n_beta2:1.45
+	Interim_Release_1n_beta1:1.44
+	PublicRelease_1m:1.42
+	Interim_Release_1m_beta1:1.42
+	PublicRelease_1l:1.42
+	Interim_Release_1l_RC3:1.42
+	Interim_Release_1l_RC2:1.42
+	Interim_Release_1l_RC1:1.42
+	Interim_Release_1l_beta2:1.41
+	Interim_Release_1l_beta1:1.38
+	PublicRelease_1k:1.36
+	Interim_Release_1k_RC4:1.36
+	Interim_1k_RC3:1.36
+	Interim_1k_RC2:1.36
+	Interim_Release_1k_RC1:1.36
+	Interim_Release_1k_beta5:1.35
+	Intrerim_Release_1k_beta4:1.35
+	Interim_Release_1k_beta1:1.35
+	PublicRelease_1j:1.29
+	Interim_Release_1J_RC3:1.29
+	Interim_Release_1j_RC3:1.29
+	Interim_Release_1j_RC2:1.29
+	Interim_Release_1j_RC1:1.29
+	Interim_Release_1j_beta2:1.29
+	Interim_Release_1j_beta1:1.28
+	PublicRelease_1i:1.25
+	Interim_Release_1i_RC6:1.25
+	Interim_Release_1i_RC3:1.25
+	Interim_Release_1i_RC2:1.25
+	Interim_Release_1i_RC1:1.25
+	Interim_Release_1i_beta3:1.25
+	Interim_Release_1i_beta2:1.24
+	Interim_Release_1i_beta1:1.20
+	PublicRelease_1h:1.16
+	Interim_Release_1h_rc2:1.16
+	Interim_Release_1h_RC1:1.16
+	Interim_Release_1h_beta2:1.16
+	Interim_Release_1h_beta1_now:1.11
+	Interim_Release_1h_beta1:1.11
+	PublicRelease_1g:1.11
+	Interim_Release_1g_RC6_Final:1.11
+	Interim_Release_1g_RC6:1.11
+	Interim_Release_1g_RC5:1.11
+	Interim_Release_1g_RC4:1.11
+	Interim_Release_1g_RC3:1.11
+	Interim_Release_1g_beta2:1.9
+	Interim_Release_1g_beta1:1.7
+	Interim_Release_1f_RC4:1.7
+	Interim_Release_1f_RC3:1.7
+	Interim_Release_1f_RC2:1.6
+	Interim_Release_1f_RC:1.6
+	Interim_Release_1f_beta2:1.6
+	Interim_Release_1f_beta1:1.6
+	PublicRelease_1e:1.6
+	Interim_Release_1e_RC2:1.6
+	Interim_Release_1e_RC:1.6
+	Interim_Release_1e_beta3:1.6
+	Interim_Release_1e_beta2:1.6
+	Interim_Release_1e_beta2_before_kuchin:1.6
+	Interim_Release_1e_beta1:1.6
+	PublicRelease_1c:1.6
+	featurestest:1.5.0.4
+	Interim_Release_1c_RC:1.5
+	Interim_Release_1c_beta2:1.5
+	Interim_Release_1c_beta1:1.5
+	threaded_downloadqueue:1.5.0.2
+	PublicRelease_1b:1.4
+	Interim_Release_1b_beta2:1.4
+	Interim_Release_1b_beta1:1.4
+	proxydeadlake:1.4.0.4
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.4.0.2
+	Interim_Release_1a_beta1:1.4
+	PublicRelease_1:1.4
+	goldfish:1.4
+	eMulePlus_1_RC2:1.4
+	eMulePlus_26b_1RC1:1.4
+	PreRelease_26b_i0e:1.4
+	before_26d_merge:1.4
+	Interim_Release_26b_i0d:1.3
+	Interim_Release_26b_i0c:1.3
+	Interim_Release_26b_i0b:1.3
+	Interim_Release_26b_i0a:1.3
+	systraydlg:1.3.0.6
+	plus26based:1.3.0.4
+	Interim_Release_25b_i0b:1.3
+	Proxy_Dev:1.3
+	Interim_Release_25b_i0a:1.3.2.1
+	proxytest:1.3.2.1.0.2
+	official_sockets:1.3.0.2
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.70
+date	2009.10.28.04.34.58;	author aw3;	state Exp;
+branches;
+next	1.69;
+
+1.69
+date	2009.09.14.02.36.49;	author aw3;	state Exp;
+branches;
+next	1.68;
+
+1.68
+date	2009.04.04.20.15.21;	author aw3;	state Exp;
+branches;
+next	1.67;
+
+1.67
+date	2008.12.01.18.08.08;	author kush_eplus;	state Exp;
+branches;
+next	1.66;
+
+1.66
+date	2008.11.13.05.32.32;	author aw3;	state Exp;
+branches;
+next	1.65;
+
+1.65
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.64;
+
+1.64
+date	2008.11.06.04.36.51;	author aw3;	state Exp;
+branches;
+next	1.63;
+
+1.63
+date	2008.11.04.11.31.02;	author kush_eplus;	state Exp;
+branches;
+next	1.62;
+
+1.62
+date	2008.01.20.04.18.19;	author aw3;	state Exp;
+branches;
+next	1.61;
+
+1.61
+date	2007.10.31.18.23.57;	author fuxie-dk;	state Exp;
+branches;
+next	1.60;
+
+1.60
+date	2007.10.11.18.06.25;	author fuxie-dk;	state Exp;
+branches;
+next	1.59;
+
+1.59
+date	2007.07.27.06.21.18;	author aw3;	state Exp;
+branches;
+next	1.58;
+
+1.58
+date	2007.07.25.02.52.01;	author aw3;	state Exp;
+branches;
+next	1.57;
+
+1.57
+date	2007.05.30.02.03.08;	author aw3;	state Exp;
+branches;
+next	1.56;
+
+1.56
+date	2007.02.19.03.39.07;	author aw3;	state Exp;
+branches;
+next	1.55;
+
+1.55
+date	2006.12.08.20.28.13;	author eklmn;	state Exp;
+branches;
+next	1.54;
+
+1.54
+date	2006.11.21.12.09.40;	author eklmn;	state Exp;
+branches;
+next	1.53;
+
+1.53
+date	2006.07.10.19.56.05;	author kush_eplus;	state Exp;
+branches;
+next	1.52;
+
+1.52
+date	2006.04.07.12.14.09;	author aw3;	state Exp;
+branches;
+next	1.51;
+
+1.51
+date	2006.01.23.07.05.13;	author kush_eplus;	state Exp;
+branches;
+next	1.50;
+
+1.50
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.49;
+
+1.49
+date	2005.11.23.04.00.31;	author aw3;	state Exp;
+branches;
+next	1.48;
+
+1.48
+date	2005.02.12.21.46.43;	author aw3;	state Exp;
+branches;
+next	1.47;
+
+1.47
+date	2004.12.21.21.05.14;	author aw3;	state Exp;
+branches;
+next	1.46;
+
+1.46
+date	2004.11.11.19.10.33;	author aw3;	state Exp;
+branches;
+next	1.45;
+
+1.45
+date	2004.08.06.13.13.54;	author eklmn;	state Exp;
+branches;
+next	1.44;
+
+1.44
+date	2004.07.07.05.14.39;	author aw3;	state Exp;
+branches;
+next	1.43;
+
+1.43
+date	2004.06.30.13.38.40;	author dongato;	state Exp;
+branches;
+next	1.42;
+
+1.42
+date	2004.05.24.09.46.13;	author dongato;	state Exp;
+branches;
+next	1.41;
+
+1.41
+date	2004.05.21.14.37.56;	author dongato;	state Exp;
+branches;
+next	1.40;
+
+1.40
+date	2004.05.19.19.49.35;	author netwolf1;	state Exp;
+branches;
+next	1.39;
+
+1.39
+date	2004.05.12.08.30.28;	author netwolf1;	state Exp;
+branches;
+next	1.38;
+
+1.38
+date	2004.05.04.09.45.35;	author netwolf1;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2004.04.12.16.24.24;	author dongato;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2004.03.25.20.33.09;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2004.02.14.21.35.24;	author kush_eplus;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2004.02.13.01.53.14;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2004.02.11.04.12.59;	author katsyonak;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.02.07.01.26.46;	author netwolf1;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.02.01.03.15.15;	author morevit;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.01.02.02.57.37;	author dongato;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2003.12.24.01.21.13;	author katsyonak;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2003.10.26.13.50.15;	author morevit;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2003.10.21.02.16.52;	author morevit;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2003.10.20.15.55.13;	author eklmn;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2003.10.14.18.40.58;	author syrus77;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2003.10.08.01.53.31;	author morevit;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2003.09.30.11.27.31;	author morevit;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2003.09.25.13.22.14;	author dongato;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.09.21.22.05.13;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.09.03.08.07.13;	author kuchin;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.09.01.00.33.54;	author emoulari;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.08.31.20.48.05;	author dongato;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.08.31.16.49.55;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.08.30.11.23.25;	author emoulari;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.06.19.08.16.46;	author partyckip;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.06.19.08.14.16;	author partyckip;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.06.08.18.06.18;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.08.07.36.57;	author partyckip;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.05.20.20.46.24;	author netwolf1;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.23.09.29.15;	author kuchin;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.14.16.24.16;	author partyckip;	state Exp;
+branches
+	1.5.4.1;
+next	1.4;
+
+1.4
+date	2003.02.16.22.01.45;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.01.24.22.07.46;	author maverick65;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2003.01.22.18.04.29;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.17.59.09;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.01.28.16.53.58;	author cax2;	state Exp;
+branches;
+next	;
+
+1.5.4.1
+date	2003.03.24.09.39.42;	author recdvst;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.70
+log
+@Reduced H-file dependency.
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "ClientCredits.h"
+#include "opcodes.h"
+#include "otherfunctions.h"
+#include "emule.h"
+#include "SafeFile.h"
+#ifdef OLD_SOCKETS_ENABLED
+#include "sockets.h"
+#endif
+#pragma warning(push, 3)	// preserve current state, then set warning level 3
+#include "crypto51/base64.h"
+#include "crypto51/osrng.h"
+#include "crypto51/files.h"
+#include "crypto51/sha.h"
+#pragma warning(pop)
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+#define CLIENTS_MET_FILENAME	_T("clients.met")
+
+CClientCredits::CClientCredits(const CreditStruct *pInCredits)
+{
+	m_Credits = *pInCredits;
+	InitalizeIdent();
+}
+
+CClientCredits::CClientCredits(const uchar* key)
+{
+	memzero(&m_Credits, sizeof(CreditStruct));
+	md4cpy(m_Credits.abyKey, key);
+	InitalizeIdent();
+}
+
+CClientCredits::~CClientCredits()
+{
+}
+
+void CClientCredits::AddDownloaded(uint32 dwBytes, uint32 dwForIP)
+{
+	EIdentState		eIdentState = GetCurrentIdentState(dwForIP);
+
+	if ( ( (eIdentState != IS_IDFAILED) && (eIdentState != IS_IDBADGUY) &&
+		(eIdentState != IS_IDNEEDED) ) || !g_App.m_pClientCreditList->CryptoAvailable() )
+	{
+		uint32		dwLow = m_Credits.nDownloadedLo;
+
+		m_Credits.nDownloadedLo += dwBytes;
+		if (m_Credits.nDownloadedLo < dwLow)
+			m_Credits.nDownloadedHi++;
+	}
+}
+
+void CClientCredits::AddUploaded(uint32 dwBytes, uint32 dwForIP)
+{
+	EIdentState		eIdentState = GetCurrentIdentState(dwForIP);
+
+	if ( ( (eIdentState != IS_IDFAILED) && (eIdentState != IS_IDBADGUY) &&
+		(eIdentState != IS_IDNEEDED) ) || !g_App.m_pClientCreditList->CryptoAvailable() )
+	{
+		uint32		dwLow = m_Credits.nUploadedLo;
+
+		m_Credits.nUploadedLo += dwBytes;
+		if (m_Credits.nUploadedLo < dwLow)
+			m_Credits.nUploadedHi++;
+	}
+}
+
+uint64 CClientCredits::GetUploadedTotal() const
+{
+	return ((uint64)m_Credits.nUploadedHi << 32) + m_Credits.nUploadedLo;
+}
+
+uint64 CClientCredits::GetDownloadedTotal() const
+{
+	return ((uint64)m_Credits.nDownloadedHi << 32) + m_Credits.nDownloadedLo;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+double CClientCredits::GetScoreRatio(uint32 dwForIP, bool bInverted/*=false*/) const
+{
+	EMULE_TRY
+
+	EIdentState	eIdentState = GetCurrentIdentState(dwForIP);
+
+	if ( (eIdentState == IS_IDFAILED || eIdentState == IS_IDBADGUY ||
+		 eIdentState == IS_IDNEEDED) && g_App.m_pClientCreditList->CryptoAvailable() )
+	{
+		return 1.0;	//	Bad guy - no credits for you
+	}
+
+//	Added Inversion to calculate the clients own ratio at the remote client from its own data
+	uint64	qwDownTotal;
+	uint32	dwUpHi, dwUpLo;
+
+	if (bInverted)
+	{
+	//	(qwDownTotal < 1048576)
+		if ((m_Credits.nUploadedLo < 1024*1024) && (m_Credits.nUploadedHi == 0))
+			return 1.0;
+		qwDownTotal = GetUploadedTotal();
+		dwUpHi = m_Credits.nDownloadedHi;
+		dwUpLo = m_Credits.nDownloadedLo;
+	}
+	else
+	{
+	//	(qwDownTotal < 1048576)
+		if ((m_Credits.nDownloadedLo < 1024*1024) && (m_Credits.nDownloadedHi == 0))
+			return 1.0;
+		qwDownTotal = GetDownloadedTotal();
+		dwUpHi = m_Credits.nUploadedHi;
+		dwUpLo = m_Credits.nUploadedLo;
+	}
+
+	double	dResult, dResult2, dDownTotal = static_cast<double>(qwDownTotal);
+
+	dResult2 = sqrt(dDownTotal / 1048576.0 + 2.0);	// min value ~1.7321...
+	if ((dwUpHi | dwUpLo) == 0)
+		dResult = dResult2;
+	else
+	{
+		dResult = dDownTotal * 2.0 / static_cast<double>(((uint64)dwUpHi << 32) + dwUpLo);
+		if (dResult > dResult2)
+			dResult = dResult2;
+		else if (dResult < 1.0)
+			dResult = 1.0;
+	}
+
+	if (dResult > 10.0)
+		dResult = 10.0;
+
+	return dResult;
+
+	EMULE_CATCH
+
+	return 1.0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	HasHigherScoreRatio - returns true if score > 1.0
+bool CClientCredits::HasHigherScoreRatio(uint32 dwForIP) const
+{
+	if (this == NULL)
+		return false;
+
+	if ((m_Credits.nDownloadedLo < 1000000) && (m_Credits.nDownloadedHi == 0))	// (qwDownTotal < 1000000)
+		return false;
+
+	EIdentState	eIdentState = GetCurrentIdentState(dwForIP);
+
+	if ( (eIdentState == IS_IDFAILED || eIdentState == IS_IDBADGUY ||
+		 eIdentState == IS_IDNEEDED) && g_App.m_pClientCreditList->CryptoAvailable() )
+	{
+		return false;	//	Bad guy - no credits for you
+	}
+
+	if ((m_Credits.nUploadedHi | m_Credits.nUploadedLo) != 0)
+	{
+		uint32	dwUpHi = m_Credits.nUploadedHi >> 1u;
+		uint32	dwUpLo = m_Credits.nUploadedLo >> 1u;
+
+	//	(2 * GetDownloadedTotal() <= GetUploadedTotal())
+		if ( (m_Credits.nDownloadedHi < dwUpHi) ||
+			((m_Credits.nDownloadedHi == dwUpHi) && (m_Credits.nDownloadedLo <= dwUpLo)) )
+		{
+			return false;
+		}
+	}
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CClientCreditsList::CClientCreditsList()
+{
+	m_nLastSaved = ::GetTickCount();
+	LoadList();
+
+	InitalizeCrypting();
+}
+
+CClientCreditsList::~CClientCreditsList()
+{
+	SaveList();
+	CClientCredits* cur_credit;
+	CCKey tmpkey(0);
+	POSITION pos = m_mapClients.GetStartPosition();
+	while (pos){
+		m_mapClients.GetNextAssoc(pos, tmpkey, cur_credit);
+		delete cur_credit;
+	}
+	m_mapClients.RemoveAll();
+	delete m_pSignkey;
+	m_pSignkey = NULL;
+}
+
+void CClientCreditsList::LoadList()
+{
+	CString	strFileName = g_App.m_pPrefs->GetConfigDir();
+
+	strFileName += CLIENTS_MET_FILENAME;
+
+	const int	iOpenFlags = CFile::modeRead | CFile::osSequentialScan | CFile::typeBinary | CFile::shareDenyWrite;
+	CSafeBufferedFile	file;
+	CFileException		fexp;
+
+	if (!file.Open(strFileName, iOpenFlags, &fexp)){
+		if (fexp.m_cause != CFileException::fileNotFound){
+			CString strError(GetResString(IDS_ERR_LOADCREDITFILE));
+			TCHAR szError[MAX_CFEXP_ERRORMSG];
+			if (fexp.GetErrorMessage(szError, ARRSIZE(szError))){
+				strError += _T(" - ");
+				strError += szError;
+			}
+			g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, strError);
+			g_App.m_pMDlg->DisableAutoBackup();
+		}
+		return;
+	}
+	setvbuf(file.m_pStream, NULL, _IOFBF, 32*1024);
+
+	try
+	{
+		byte	version;
+
+		file.Read(&version, 1);
+		if (version != CREDITFILE_VERSION)
+		{
+			g_App.m_pMDlg->AddLogLine(LOG_RGB_WARNING, IDS_ERR_CREDITFILEOLD);
+			file.Close();
+			return;
+		}
+
+	//	Everything is ok, lets see if a backup exists...
+		bool	bCreateBackup = true;
+		CString	strBakFileName = g_App.m_pPrefs->GetConfigDir();
+
+		strBakFileName += CLIENTS_MET_FILENAME _T(".bak");
+
+		HANDLE	hBakFile = ::CreateFile(strBakFileName, GENERIC_READ, FILE_SHARE_READ, NULL,
+										OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+		if (hBakFile != INVALID_HANDLE_VALUE)
+		{
+			FILETIME	ftModify, ftBakModify;
+
+			if ( ::GetFileTime(file.m_hFile, NULL, NULL, &ftModify) &&
+				::GetFileTime(hBakFile, NULL, NULL, &ftBakModify) )
+			{
+				CTime		ModTm(ftModify), BakModTm(ftBakModify);
+				CTimeSpan	DiffTm(ModTm - BakModTm);
+				uint32		dwSecs = static_cast<uint32>(DiffTm.GetTotalSeconds());
+
+			//	Backup once per week (when file time difference is more than a week)
+				if (dwSecs < MIN2S(7 * 24 * 60))
+					bCreateBackup = false;
+			}
+			::CloseHandle(hBakFile);
+		}
+
+	//	else: the backup doesn't exist, create it
+		if (bCreateBackup)
+		{
+		 //	Close the file before copying
+			file.Close();
+
+			if (!::CopyFile(strFileName, strBakFileName, FALSE))
+				g_App.m_pMDlg->AddLogLine(LOG_RGB_ERROR, IDS_ERR_MAKEBAKCREDITFILE);
+
+		//	Reopen file
+			CFileException fexp;
+			if (!file.Open(strFileName, iOpenFlags, &fexp)){
+				CString strError(GetResString(IDS_ERR_LOADCREDITFILE));
+				TCHAR szError[MAX_CFEXP_ERRORMSG];
+				if (fexp.GetErrorMessage(szError, ARRSIZE(szError))){
+					strError += _T(" - ");
+					strError += szError;
+				}
+				g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, strError);
+				g_App.m_pMDlg->DisableAutoBackup();
+				return;
+			}
+			setvbuf(file.m_pStream, NULL, _IOFBF, 32*1024);
+		//	Set filepointer behind file version byte
+			file.Seek(1, CFile::begin);
+		}
+
+		uint32 count;
+		file.Read(&count, 4);
+		m_mapClients.InitHashTable(count+5000); // TODO: should be prime number... and 20% larger
+
+		const uint32 dwExpired = time(NULL) - 12960000; // today - 150 day
+		uint32 cDeleted = 0;
+		for (uint32 i = 0; i < count; i++)
+		{
+			CreditStruct	NewCStruct;
+
+			memzero(&NewCStruct, sizeof(CreditStruct));
+			file.Read(&NewCStruct, sizeof(CreditStruct));
+
+		//	Check time expiration as well as check for incorrect structure to avoid data corruption
+			if ((NewCStruct.nLastSeen < dwExpired) || (NewCStruct.nKeySize > MAXPUBKEYSIZE))
+			{
+				cDeleted++;
+				continue;
+			}
+
+		//	Every few days remove credits for group user hashes (same user and security
+		//	hashes used by different people) to minimize credit scam
+			if (bCreateBackup)
+			{
+				static const struct {
+					byte		abyteUserHash[16];
+					unsigned	uiSecurIdLen;
+					byte		abyteSecureIdent[MAXPUBKEYSIZE];
+				} aHashIDs[] = {
+					{
+						{ 0xA2, 0x22, 0x16, 0x41, 0x46, 0x0E, 0x96, 0x1C, 0x8B, 0x7F, 0xF2, 0x1A, 0x53, 0xFB, 0x6F, 0x6C },
+						76,
+						{ 0x30, 0x4A, 0x30, 0x0D, 0x06, 0x09, 0x2A, 0x86, 0x48, 0x86, 0xF7, 0x0D, 0x01, 0x01, 0x01, 0x05,
+						  0x00, 0x03, 0x39, 0x00, 0x30, 0x36, 0x02, 0x31, 0x00, 0xCF, 0x96, 0x14, 0x6D, 0x8B, 0xEB, 0x15,
+						  0xEE, 0xB7, 0x67, 0xF6, 0xA3, 0x06, 0xD1, 0xFE, 0x59, 0x9A, 0xF5, 0xF5, 0xCA, 0xA9, 0x77, 0x3C,
+						  0xD6, 0xED, 0xBB, 0x94, 0x03, 0x7F, 0xE4, 0xA5, 0xE1, 0x7B, 0x6F, 0x4A, 0x98, 0x88, 0xFC, 0xCD,
+						  0x2F, 0x3D, 0xCA, 0xE5, 0x1E, 0xE3, 0x98, 0xB7, 0x85, 0x02, 0x01, 0x11 }
+					},
+					{
+						{ 0xBB, 0xB9, 0x12, 0xA2, 0x90, 0x0E, 0x70, 0xAC, 0x80, 0x26, 0x8A, 0xC0, 0xBD, 0x9A, 0x6F, 0x7D },
+						76,
+						{ 0x30, 0x4A, 0x30, 0x0D, 0x06, 0x09, 0x2A, 0x86, 0x48, 0x86, 0xF7, 0x0D, 0x01, 0x01, 0x01, 0x05,
+						  0x00, 0x03, 0x39, 0x00, 0x30, 0x36, 0x02, 0x31, 0x00, 0xC0, 0x00, 0xB7, 0xF1, 0x17, 0x0B, 0x52,
+							0x14, 0xB9, 0x39, 0x92, 0x95, 0x2C, 0x29, 0x7A, 0x3C, 0x7C, 0xA1, 0x15, 0xB5, 0x55, 0x9F, 0xF0,
+							0xC3, 0x0C, 0x58, 0x23, 0x3E, 0x93, 0x50, 0x91, 0xA2, 0xA2, 0x1B, 0x07, 0x63, 0xD6, 0x39, 0x6B,
+							0xD0, 0x93, 0x91, 0x1A, 0x10, 0x9D, 0xC1, 0xF1, 0x8F, 0x02, 0x01, 0x11 }
+					}
+				};
+				unsigned	ui;
+
+				for (ui = 0; ui < ARRSIZE(aHashIDs); ui++)
+				{
+				//	Same user hash and secure ident
+					if ( (md4cmp(aHashIDs[ui].abyteUserHash, NewCStruct.abyKey) == 0) &&
+						(aHashIDs[ui].uiSecurIdLen == NewCStruct.nKeySize) &&
+						(memcmp(aHashIDs[ui].abyteSecureIdent, NewCStruct.abySecureIdent, NewCStruct.nKeySize) == 0) )
+					{
+						break;
+					}
+				}
+
+				if (ui != ARRSIZE(aHashIDs))
+				{
+					TCHAR acHashStr[MAX_HASHSTR_SIZE];
+
+					g_App.m_pMDlg->AddLogLine(LOG_FL_DBG, _T("Deleted credits of the group user hash: %s"), md4str(NewCStruct.abyKey, acHashStr));
+					cDeleted++;
+					continue;
+				}
+			}
+
+			CClientCredits* newcredits = new CClientCredits(&NewCStruct);
+			m_mapClients.SetAt(CCKey(newcredits->GetKey()), newcredits);
+		}
+		file.Close();
+
+		if (cDeleted > 0)
+			g_App.m_pMDlg->AddLogLine(0, GetResString(IDS_CREDITFILELOADED) + GetResString(IDS_CREDITSEXPIRED), count - cDeleted, cDeleted);
+		else
+			g_App.m_pMDlg->AddLogLine(0, IDS_CREDITFILELOADED, count);
+	}
+	catch(CFileException *pError)
+	{
+		OUTPUT_DEBUG_TRACE();
+		if (pError->m_cause == CFileException::endOfFile)
+			g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, IDS_CREDITFILECORRUPT);
+		else
+		{
+			TCHAR	acBuffer[MAX_CFEXP_ERRORMSG];
+
+			pError->GetErrorMessage(acBuffer, MAX_CFEXP_ERRORMSG);
+			g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR, IDS_ERR_CREDITFILEREAD, acBuffer);
+		}
+		pError->Delete();
+		g_App.m_pMDlg->DisableAutoBackup();
+	}
+}
+
+void CClientCreditsList::SaveList()
+{
+	m_nLastSaved = ::GetTickCount();
+
+	CString	strFileName = g_App.m_pPrefs->GetConfigDir();
+
+	strFileName += CLIENTS_MET_FILENAME;
+
+//	No buffering needed here since we swap out the entire array
+	CFile	file;
+	BYTE	*pbyteBuffer = NULL;
+
+	try
+	{
+	//	Let's open the file, since "Open" generates an exception, no need for any check
+		file.Open(strFileName, CFile::modeWrite | CFile::modeCreate | CFile::typeBinary | CFile::shareDenyWrite);
+
+		pbyteBuffer = new BYTE[m_mapClients.GetCount() * sizeof(CreditStruct)];
+
+		CClientCredits	*cur_credit;
+		CCKey		tempkey(0);
+		POSITION	pos = m_mapClients.GetStartPosition();
+		uint32		iCount = 0;
+
+		while (pos != NULL)
+		{
+			m_mapClients.GetNextAssoc(pos, tempkey, cur_credit);
+			if (cur_credit->GetUploadedTotal() || cur_credit->GetDownloadedTotal())
+			{
+				memcpy2(pbyteBuffer + (iCount * sizeof(CreditStruct)), cur_credit->GetDataStruct(), sizeof(CreditStruct));
+				iCount++;
+			}
+		}
+
+		const byte	version = CREDITFILE_VERSION;
+
+		file.Write(&version, 1);
+		file.Write(&iCount, 4);
+		file.Write(pbyteBuffer, iCount * sizeof(CreditStruct));
+		if (!g_App.m_pMDlg->IsRunning())
+			file.Flush();
+		file.Close();
+	}
+	catch (CFileException *pFlEx)
+	{
+		g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, IDS_ERROR_SAVEFILE2, CLIENTS_MET_FILENAME, GetErrorMessage(pFlEx));
+		pFlEx->Delete();
+	}
+	catch(...) {}
+
+	delete[] pbyteBuffer;
+}
+
+CClientCredits* CClientCreditsList::GetCredit(const uchar* key)
+{
+	CClientCredits* result;
+	CCKey tkey(key);
+	if (!m_mapClients.Lookup(tkey, result)){
+		result = new CClientCredits(key);
+		m_mapClients.SetAt(CCKey(result->GetKey()), result);
+	}
+	result->SetLastSeen();
+	return result;
+}
+
+void CClientCreditsList::Process()
+{
+	if (::GetTickCount() - m_nLastSaved > MIN2MS(18))
+		SaveList();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CClientCredits::InitalizeIdent()
+{
+	if (m_Credits.nKeySize == 0)
+	{
+		memzero(m_abyPublicKey, MAXPUBKEYSIZE);
+		m_nPublicKeyLen = 0;
+		IdentState = IS_NOTAVAILABLE;
+	}
+	else{
+		m_nPublicKeyLen = m_Credits.nKeySize;
+		memcpy2(m_abyPublicKey, m_Credits.abySecureIdent, m_nPublicKeyLen);
+		IdentState = IS_IDNEEDED;
+	}
+	m_dwCryptRndChallengeFor = 0;
+	m_dwCryptRndChallengeFrom = 0;
+	m_dwIdentIP = 0;
+
+	m_dwSecureWaitTime = 0;
+	m_dwUnSecureWaitTime = 0;
+	m_dwWaitTimeIP = 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CClientCredits::Verified(uint32 dwForIP)
+{
+	m_dwIdentIP = dwForIP;
+//	Client was verified, copy the key to store him if not done already
+	if (m_Credits.nKeySize == 0)
+	{
+		m_Credits.nKeySize = m_nPublicKeyLen;
+		memcpy2(m_Credits.abySecureIdent, m_abyPublicKey, m_nPublicKeyLen);
+		if (GetDownloadedTotal() > 0)
+		{
+		//	For a security reason we have to delete all prior credits here
+			m_Credits.nDownloadedHi = 0;
+			m_Credits.nDownloadedLo = 1;
+			m_Credits.nUploadedHi = 0;
+			m_Credits.nUploadedLo = 1;
+			DEBUG_ONLY(g_App.m_pMDlg->AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Credits deleted due to new SecureIdent")));
+		}
+	}
+	IdentState = IS_IDENTIFIED;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+bool CClientCredits::SetSecureIdent(const uchar *pachIdent, byte nIdentLen)
+{
+//	A verified Public key cannot change. If there is already a public key...
+	if ((MAXPUBKEYSIZE < nIdentLen) || (m_Credits.nKeySize != 0))
+		return false;
+	memcpy2(m_abyPublicKey,pachIdent, nIdentLen);
+	m_nPublicKeyLen = nIdentLen;
+	IdentState = IS_IDNEEDED;
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+EIdentState CClientCredits::GetCurrentIdentState(uint32 dwForIP) const
+{
+//	Check we're not calling this function before we have an IP
+	if(dwForIP == 0)
+		return IS_IDNEEDED;
+
+	if (IdentState != IS_IDENTIFIED)
+		return IdentState;
+	else
+	{
+		if (dwForIP == m_dwIdentIP)
+			return IS_IDENTIFIED;
+		else
+			return IS_IDBADGUY;
+			// mod note: clients which just reconnected after an IP change and have to ident yet will also have this state for
+			// 1-2 seconds so don't try to spam such clients with "bad guy" messages (besides: spam messages are always bad)
+	}
+}
+
+USING_NAMESPACE(CryptoPP)
+
+void CClientCreditsList::InitalizeCrypting()
+{
+	m_nMyPublicKeyLen = 0;
+	memzero(m_abyMyPublicKey, MAXPUBKEYSIZE);
+	m_pSignkey = NULL;
+
+//	Check if the key file exists
+	bool	bCreateNewKey = false;
+	HANDLE	hKeyFile = ::CreateFile( g_App.m_pPrefs->GetConfigDir() + _T("cryptkey.dat"), GENERIC_READ,
+		FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL );
+
+//	If the key file doesn't exists or it is empty, we need to create a new one
+	if (hKeyFile != INVALID_HANDLE_VALUE)
+	{
+		if (::GetFileSize(hKeyFile, NULL) == 0)
+			bCreateNewKey = true;
+		::CloseHandle(hKeyFile);
+	}
+	else
+		bCreateNewKey = true;
+
+	if (bCreateNewKey)
+		CreateKeyPair();
+
+//	Load key
+	try
+	{
+	//	Load private key
+		FileSource		filesource(CStringA(g_App.m_pPrefs->GetConfigDir() + _T("cryptkey.dat")), true, new Base64Decoder);
+
+		m_pSignkey = new RSASSA_PKCS1v15_SHA_Signer(filesource);
+
+	//	Calculate and store public key
+		RSASSA_PKCS1v15_SHA_Verifier		pubkey(*m_pSignkey);
+		ArraySink							asink(m_abyMyPublicKey, MAXPUBKEYSIZE);
+
+		pubkey.DEREncode(asink);
+		m_nMyPublicKeyLen = static_cast<byte>(asink.TotalPutLength());
+		asink.MessageEnd();
+	}
+	catch(...)
+	{
+		delete m_pSignkey;
+		m_pSignkey = NULL;
+		g_App.m_pMDlg->AddLogLine(LOG_RGB_ERROR, IDS_CRYPT_INITFAILED);
+	}
+//	Debug_CheckCrypting();
+}
+
+bool CClientCreditsList::CreateKeyPair()
+{
+	try
+	{
+		AutoSeededRandomPool	rng;
+		InvertibleRSAFunction	privkey;
+
+		privkey.Initialize(rng, RSAKEYSIZE);
+
+		Base64Encoder	privkeysink(new FileSink(CStringA(g_App.m_pPrefs->GetConfigDir() + _T("cryptkey.dat"))));
+
+		privkey.DEREncode(privkeysink);
+		privkeysink.MessageEnd();
+
+		g_App.m_pMDlg->AddLogLine(LOG_FL_DBG | LOG_RGB_SUCCESS, _T("Created new RSA keypair"));
+	}
+	catch(...)
+	{
+		g_App.m_pMDlg->AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("Failed to create new RSA keypair"));
+		ASSERT ( false );
+		return false;
+	}
+
+	return true;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+byte CClientCreditsList::CreateSignature( CClientCredits *pTarget, uchar *pachOutput, byte nMaxSize, uint32 ChallengeIP,
+										   byte byChaIPKind, RSASSA_PKCS1v15_SHA_Signer *sigkey /*= NULL*/ )
+{
+//	sigkey param is used for debug only
+	if (sigkey == NULL)
+		sigkey = m_pSignkey;
+
+//	Create a signature of the public key from pTarget
+	ASSERT( pTarget );
+	ASSERT( pachOutput );
+
+	byte		nResult;
+
+	if ( !CryptoAvailable() )
+	{
+		return 0;
+	}
+	try
+	{
+		SecByteBlock			sbbSignature(sigkey->SignatureLength());
+		AutoSeededRandomPool	rng;
+
+		byte		abyteSignature[MAXPUBKEYSIZE+9];
+		uint32		keylen = pTarget->GetSecIDKeyLen();
+
+	//	Start by adding our public key which we are going to use as the signature "string".
+		memcpy2(abyteSignature,pTarget->GetSecureIdent(),keylen);
+
+	//	Append 4 additional bytes of data sent by the other client as extra verification
+	//	that the signature is from us.
+		uint32		challenge = pTarget->m_dwCryptRndChallengeFrom;
+
+		ASSERT ( challenge != 0 );
+		memcpy2(abyteSignature+keylen,&challenge,4);
+
+		uint16		ChIpLen = 0;
+
+		if (byChaIPKind != 0)
+		{
+			ChIpLen = sizeof(ChallengeIP) + sizeof(byChaIPKind);
+		//	Append the challenge IP to the signature
+			memcpy2(abyteSignature+keylen+4,&ChallengeIP,4);
+		//	Append the challenge IP type (i.e. local client IP or remote client IP) to the signature
+			memcpy2(abyteSignature+keylen+4+4,&byChaIPKind,1);
+		}
+	//	Encrypt the signature using our private key (only our public key can decrypt)
+		sigkey->SignMessage(rng, abyteSignature, keylen+sizeof(challenge)+ChIpLen, sbbSignature.begin());
+
+		ArraySink		asink(pachOutput, nMaxSize);
+
+		asink.Put(sbbSignature.begin(), sbbSignature.size());
+		nResult = static_cast<byte>(asink.TotalPutLength());
+	}
+	catch(...)
+	{
+		ASSERT ( false );
+		nResult = 0;
+	}
+	return nResult;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	VerifyIdent() verifies that the sender of the signature is who he says he is given a signature string encrypted with
+//	the client's private key
+bool CClientCreditsList::VerifyIdent(CClientCredits* pTarget, const uchar *pachSignature, byte nInputSize, uint32 dwForIP, byte byChaIPKind)
+{
+	ASSERT( pTarget );
+	ASSERT( pachSignature );
+	if (!CryptoAvailable())
+	{
+		pTarget->IdentState = IS_NOTAVAILABLE;
+		return false;
+	}
+
+	bool		bResult = false;
+
+	try
+	{
+	//	We have all the information that the client did when its signature was created and we know
+	//	how it was created. Given that we can reproduce the unencrypted signature that we should receive.
+		StringSource					ss_Pubkey((byte*)pTarget->GetSecureIdent(),pTarget->GetSecIDKeyLen(),true,0);
+		RSASSA_PKCS1v15_SHA_Verifier	pubkey(ss_Pubkey);
+
+		byte		abyteTestSig[MAXPUBKEYSIZE+9];
+
+		memcpy2(abyteTestSig,m_abyMyPublicKey,m_nMyPublicKeyLen);
+
+		uint32		challenge = pTarget->m_dwCryptRndChallengeFor;
+
+		ASSERT ( challenge != 0 );
+
+		memcpy2(abyteTestSig+m_nMyPublicKeyLen,&challenge,4);
+
+	//	v2 security improvements (not supported by 29b, not used as default by 29c)
+		byte		nChIpSize = 0;
+
+		if (byChaIPKind != 0)
+		{
+			uint32		ChallengeIP = 0;
+
+			nChIpSize = sizeof(ChallengeIP) + sizeof(byChaIPKind);
+
+			switch (byChaIPKind)
+			{
+				case CRYPT_CIP_LOCALCLIENT:
+					ChallengeIP = dwForIP;
+					break;
+				case CRYPT_CIP_REMOTECLIENT:
+#ifdef OLD_SOCKETS_ENABLED
+					if (g_App.m_pServerConnect->GetClientID() == 0 || g_App.m_pServerConnect->IsLowID())
+					{
+						g_App.m_pMDlg->AddLogLine(LOG_FL_DBG | LOG_RGB_WARNING, _T("WARNING: Maybe SecureHash Ident fails because LocalIP is unknown"));
+						ChallengeIP = g_App.m_pServerConnect->GetLocalIP();
+					}
+					else
+					{
+						ChallengeIP = g_App.m_pServerConnect->GetClientID();
+					}
+#endif OLD_SOCKETS_ENABLED
+					break;
+				//	Maybe not supported in future versions
+ 	 				case CRYPT_CIP_NONECLIENT:
+					ChallengeIP = 0;
+					break;
+			}
+			memcpy2(abyteTestSig+m_nMyPublicKeyLen+4,&ChallengeIP,4);
+			memcpy2(abyteTestSig+m_nMyPublicKeyLen+4+4,&byChaIPKind,1);
+		}
+	//	Verify that when we decrypt the signature sent to us that it matches our test signature.
+    	bResult = pubkey.VerifyMessage(abyteTestSig, m_nMyPublicKeyLen+4+nChIpSize, pachSignature, nInputSize);
+	}
+	catch(...)
+	{
+		bResult = false;
+	}
+	if (!bResult)
+	{
+		if (pTarget->IdentState == IS_IDNEEDED)
+			pTarget->IdentState = IS_IDFAILED;
+	}
+	else
+	{
+		pTarget->Verified(dwForIP);
+	}
+	return bResult;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//	CryptoAvailable() returns true if we have sufficient information to verify a signature
+bool CClientCreditsList::CryptoAvailable()
+{
+	return (m_nMyPublicKeyLen > 0 && m_pSignkey != NULL);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+#ifdef _DEBUG
+bool CClientCreditsList::Debug_CheckCrypting()
+{
+// 	Create random key
+	AutoSeededRandomPool rng;
+
+	RSASSA_PKCS1v15_SHA_Signer priv(rng, 384);
+	RSASSA_PKCS1v15_SHA_Verifier pub(priv);
+
+	byte abyPublicKey[MAXPUBKEYSIZE];
+	ArraySink asink(abyPublicKey, MAXPUBKEYSIZE);
+	pub.DEREncode(asink);
+	byte PublicKeyLen = asink.TotalPutLength();
+	asink.MessageEnd();
+	uint32 challenge = rand();
+//	Create fake client which pretends to be this eMule
+	CreditStruct	NewCStruct;
+
+	memzero(&NewCStruct, sizeof(CreditStruct));
+	CClientCredits* newcredits = new CClientCredits(&NewCStruct);
+	newcredits->SetSecureIdent(m_abyMyPublicKey,m_nMyPublicKeyLen);
+	newcredits->m_dwCryptRndChallengeFrom = challenge;
+//	Create signature with fake priv key
+	uchar pachSignature[200];
+	memzero(pachSignature, 200);
+	byte sigsize = CreateSignature(newcredits,pachSignature,200,0,false, &priv);
+
+//	Next fake client uses the random created public key
+	memzero(&NewCStruct, sizeof(CreditStruct));
+	CClientCredits* newcredits2 = new CClientCredits(&NewCStruct);
+	newcredits2->m_dwCryptRndChallengeFor = challenge;
+
+//	I you uncomment one of the following lines the check has to fail
+	//abyPublicKey[5] = 34;
+	//m_abyMyPublicKey[5] = 22;
+	//pachSignature[5] = 232;
+
+	newcredits2->SetSecureIdent(abyPublicKey,PublicKeyLen);
+
+//	Now verify this signature - if it's true everything is fine
+	bool bResult = VerifyIdent(newcredits2,pachSignature,sigsize,0,0);
+
+	delete newcredits;
+	delete newcredits2;
+
+	return bResult;
+}
+#endif
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+uint32 CClientCredits::GetSecureWaitStartTime(uint32 dwForIP)
+{
+//	Check the waiting time just in case it was not initialized
+	if (m_dwUnSecureWaitTime == 0)
+		return (::GetTickCount() - 100);
+
+//	This hash is protected by SecureHash
+	if (m_Credits.nKeySize != 0)
+	{
+	//	The client was already identified -> good boy
+		if (GetCurrentIdentState(dwForIP) == IS_IDENTIFIED)
+		{
+			return m_dwSecureWaitTime;
+		}
+	//	The client is not (yet) identified
+		else
+		{
+		//	Case 1: Client entered into the waiting queue or was unbanned before he was able to identify himself.
+		//			Let's use unsecure time for a while
+		//	Case 2: Client disable SUI -> use unsecure time
+			if (dwForIP == m_dwWaitTimeIP)
+			{
+				return m_dwUnSecureWaitTime;
+			}
+		//	The client is in waiting queue(WQ), but not identified, so let's update unsecure time and simulate an enter in to WQ,
+		//	this way a bad client will restart from the end of the queue as normal one & proper client will get his
+		//	time as soon as he'll be identified
+			else
+			{
+				m_dwUnSecureWaitTime = (::GetTickCount() - 100);
+				m_dwWaitTimeIP = dwForIP;
+				return m_dwUnSecureWaitTime;
+			}
+		}
+	}
+	else
+	{
+	//	Not a SecureHash Client - handle it like before for now (no security checks)
+		return m_dwUnSecureWaitTime;
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CClientCredits::SetSecWaitStartTime(uint32 dwForIP)
+{
+	m_dwSecureWaitTime = m_dwUnSecureWaitTime = ::GetTickCount();
+	m_dwWaitTimeIP = dwForIP;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.69
+log
+@Periodically clear credits for widely used group user hashes to minimize credit scam {Gliz}.
+@
+text
+@d24 3
+@
+
+
+1.68
+log
+@Unified file saving error message.
+@
+text
+@d268 1
+a268 1
+					bCreateBackup = FALSE;
+d320 51
+@
+
+
+1.67
+log
+@Removed unneeded checks around delete operators.
+@
+text
+@d392 1
+a392 1
+		g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, GetResString(IDS_ERROR_SAVEFILE) + _T(" - %s"), CLIENTS_MET_FILENAME, GetErrorMessage(pFlEx));
+@
+
+
+1.66
+log
+@Unified save file error reports.
+@
+text
+@d206 2
+a207 4
+	if (m_pSignkey){
+		delete m_pSignkey;
+		m_pSignkey = NULL;
+	}
+d536 2
+a537 4
+		if (m_pSignkey){
+			delete m_pSignkey;
+			m_pSignkey = NULL;
+		}
+@
+
+
+1.65
+log
+@Simplified logging system implementation.
+@
+text
+@d394 1
+a394 1
+		g_App.m_pMDlg->AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, _T("%s - %s"), GetResString(IDS_ERR_FAILED_CREDITSAVE), GetErrorMessage(pFlEx));
+@
+
+
+1.64
+log
+@Return back file closure; Catch all possible exceptions to avoid memory leaks.
+@
+text
+@d230 1
+a230 1
+			g_App.m_pMDlg->AddLogLine(true, RGB_LOG_ERROR + strError);
+d244 1
+a244 1
+			g_App.m_pMDlg->AddLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_CREDITFILEOLD));
+d282 1
+a282 1
+				g_App.m_pMDlg->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_MAKEBAKCREDITFILE));
+d293 1
+a293 1
+				g_App.m_pMDlg->AddLogLine(true, RGB_LOG_ERROR + strError);
+d328 1
+a328 1
+			g_App.m_pMDlg->AddLogLine(false, GetResString(IDS_CREDITFILELOADED) + GetResString(IDS_CREDITSEXPIRED), count-cDeleted,cDeleted);
+d330 1
+a330 1
+			g_App.m_pMDlg->AddLogLine(false, IDS_CREDITFILELOADED, count);
+d336 1
+a336 1
+			g_App.m_pMDlg->AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_CREDITFILECORRUPT));
+d342 1
+a342 1
+			g_App.m_pMDlg->AddLogLine(true, IDS_ERR_CREDITFILEREAD, acBuffer);
+d394 1
+a394 1
+		g_App.m_pMDlg->AddLogLine(true, RGB_LOG_ERROR_TXT _T("%s - %s"), GetResString(IDS_ERR_FAILED_CREDITSAVE), GetErrorMessage(pFlEx));
+d458 1
+a458 1
+			DEBUG_ONLY(g_App.m_pMDlg->AddDebugLogLine(_T(__FUNCTION__) _T(": Credits deleted due to new SecureIdent")));
+d542 1
+a542 1
+		g_App.m_pMDlg->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_CRYPT_INITFAILED));
+d561 1
+a561 1
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_SUCCESS_TXT _T("Created new RSA keypair"));
+d565 1
+a565 1
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_WARNING_TXT _T("Failed to create new RSA keypair"));
+d683 1
+a683 1
+						g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_WARNING_TXT _T("WARNING: Maybe SecureHash Ident fails because LocalIP is unknown"));
+@
+
+
+1.63
+log
+@Fixed incorrect destructor for an allocated buffer;
+Force file closure in case of an exception;
+Minor optimization;
+Formatting.
+@
+text
+@d390 1
+a395 8
+
+	//	Manually close the file, as an exception in Open() blocks closure on deletion
+		file.Close();
+	}
+	catch (CException *pEx)
+	{
+		g_App.m_pMDlg->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, GetErrorMessage(pEx));
+		pEx->Delete();
+d397 1
+@
+
+
+1.62
+log
+@Fixed incorrect client.met.bak generation which didn't do it in the most cases (backup was done only when client.met size is larger than client.met.bak what is completely wrong; currently this backup will be done when file time difference is more than a week) {muleteer};
+Suppressed compiler warnings; Formatting.
+@
+text
+@a359 1
+	uint32	iCount;
+d364 1
+a364 1
+		file.Open(strFileName, CFile::modeWrite|CFile::modeCreate|CFile::typeBinary|CFile::shareDenyWrite);
+d366 1
+a366 1
+		iCount = m_mapClients.GetCount();
+d368 6
+a373 6
+		pbyteBuffer = new BYTE[iCount*sizeof(CreditStruct)];
+		CClientCredits* cur_credit;
+		CCKey tempkey(0);
+		POSITION pos = m_mapClients.GetStartPosition();
+		iCount = 0;
+		while (pos)
+d378 1
+a378 1
+				memcpy2(pbyteBuffer+(iCount*sizeof(CreditStruct)), cur_credit->GetDataStruct(), sizeof(CreditStruct));
+d383 2
+a384 1
+		byte version = CREDITFILE_VERSION;
+d387 1
+a387 1
+		file.Write(pbyteBuffer, iCount*sizeof(CreditStruct));
+d390 5
+d396 1
+a396 2
+		safe_delete(pbyteBuffer);
+
+d399 1
+a399 1
+	catch(CFileException* error)
+d401 2
+a402 9
+		g_App.m_pMDlg->AddLogLine(true, RGB_LOG_ERROR_TXT _T("%s - %s"), GetResString(IDS_ERR_FAILED_CREDITSAVE), GetErrorMessage(error));
+		error->Delete();
+		if (pbyteBuffer)
+			delete pbyteBuffer;
+	}
+	catch(CException *err)
+	{
+		g_App.m_pMDlg->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, GetErrorMessage(err));
+		err->Delete();
+d404 2
+@
+
+
+1.61
+log
+@Proper warning suppression in 3rd party code [Aw3].
+@
+text
+@d249 2
+a250 1
+	//	Everything is ok, lets see if the backup exist...
+a254 3
+		DWORD	dwBakFileSize = 0;
+		BOOL	bCreateBackup = TRUE;
+
+d259 4
+a262 3
+		//	Ok, the backup exist, get the size
+			dwBakFileSize = ::GetFileSize(hBakFile, NULL);
+			if (dwBakFileSize > (DWORD)file.GetLength())
+d264 7
+a270 2
+			//	The size of the backup was larger than the original file, something is wrong here, don't overwrite old backup
+				bCreateBackup = FALSE;
+a271 1
+			//	else: backup is smaller or the same size as original file, proceed with copying
+d308 2
+a309 1
+		for (uint32 i = 0; i < count; i++){
+a330 1
+
+d540 1
+a540 1
+		m_nMyPublicKeyLen = asink.TotalPutLength();
+a598 1
+
+d631 1
+a631 1
+		nResult = asink.TotalPutLength();
+@
+
+
+1.60
+log
+@Generate less code for some logging; Clean-up [Aw3].
+@
+text
+@d24 1
+a24 2
+#pragma warning(disable:4100) // unreferenced formal parameter
+#pragma warning(disable:4702) // unreachable code
+d29 1
+a29 2
+#pragma warning(default:4702) // unreachable code
+#pragma warning(default:4100) // unreferenced formal parameter
+@
+
+
+1.59
+log
+@Suppressed level 4 warnings.
+@
+text
+@d328 1
+a328 1
+			g_App.m_pMDlg->AddLogLine(false, GetResString(IDS_CREDITFILELOADED), count);
+d341 1
+a341 1
+			g_App.m_pMDlg->AddLogLine(true, GetResString(IDS_ERR_CREDITFILEREAD), acBuffer);
+@
+
+
+1.58
+log
+@Stricter class prototypes; Removed double #include;
+Name space declaration was moved to C-file to reduce the visible scope.
+@
+text
+@d25 1
+d30 1
+d228 1
+a228 1
+			if (fexp.GetErrorMessage(szError, ELEMENT_COUNT(szError))){
+d288 1
+a288 1
+				if (fexp.GetErrorMessage(szError, ELEMENT_COUNT(szError))){
+@
+
+
+1.57
+log
+@Slightly changed minimal limit to assign credits from 1000000 to 1 MB (from original 0.48a).
+@
+text
+@d24 1
+a24 1
+#include <math.h>
+d29 1
+d86 2
+a87 1
+uint64 CClientCredits::GetUploadedTotal(){
+d91 2
+a92 1
+uint64 CClientCredits::GetDownloadedTotal(){
+d96 1
+a96 1
+double CClientCredits::GetScoreRatio(uint32 dwForIP, bool bInverted/*=false*/)
+d156 1
+a156 1
+bool CClientCredits::HasHigherScoreRatio(uint32 dwForIP)
+d468 1
+a468 1
+bool CClientCredits::SetSecureIdent(uchar* pachIdent, byte nIdentLen)
+d479 1
+a479 1
+EIdentState	CClientCredits::GetCurrentIdentState(uint32 dwForIP)
+d498 1
+d641 1
+a641 1
+bool CClientCreditsList::VerifyIdent(CClientCredits* pTarget, uchar* pachSignature, byte nInputSize, uint32 dwForIP, byte byChaIPKind)
+d645 1
+a645 1
+	if ( !CryptoAvailable() )
+@
+
+
+1.56
+log
+@Fixed rare crash while processing client lists (score access when pClient->m_pCredits = NULL) {ompz};
+Optimized score calculation and higher score status detection;
+Removed importing of v0.29a credit file format.
+@
+text
+@d111 2
+a112 2
+	//	(qwDownTotal < 1000000)
+		if ((m_Credits.nUploadedLo < 1000000) && (m_Credits.nUploadedHi == 0))
+d120 2
+a121 2
+	//	(qwDownTotal < 1000000)
+		if ((m_Credits.nDownloadedLo < 1000000) && (m_Credits.nDownloadedHi == 0))
+d130 1
+a130 1
+	dResult2 = sqrt(dDownTotal / 1048576.0 + 2.0);	// min value ~1.7186...
+@
+
+
+1.55
+log
+@reduce the numer of systems calls (thanks Aw3)
+@
+text
+@d85 1
+a85 1
+uint64	CClientCredits::GetUploadedTotal(){
+d89 1
+a89 1
+uint64	CClientCredits::GetDownloadedTotal(){
+d93 1
+a93 1
+double CClientCredits::GetScoreRatio(uint32 dwForIP, bool bInverted)
+d97 4
+a100 2
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY ||
+		 GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && g_App.m_pClientCreditList->CryptoAvailable() )
+d102 1
+a102 2
+	//	Bad guy - no credits for you
+		return 1.0;
+d106 2
+a107 1
+	uint64	qwDownTotal, qwUpTotal;
+d111 3
+d115 2
+a116 1
+		qwUpTotal = GetDownloadedTotal();
+d120 3
+d124 2
+a125 1
+		qwUpTotal = GetUploadedTotal();
+d128 6
+a133 1
+	if (qwDownTotal < 1000000)
+d135 5
+a139 1
+		return 1.0;
+d142 4
+a145 1
+	double		dblResult = 0.0;
+d147 1
+a147 8
+	if (!qwUpTotal)
+	{
+		dblResult = 10.0;
+	}
+	else
+	{
+		dblResult = static_cast<double>((static_cast<double>(qwDownTotal)*2.0)/static_cast<double>(qwUpTotal));
+	}
+d149 8
+a156 1
+	double		dblResult2 = 0.0;
+d158 2
+a159 3
+	dblResult2 = static_cast<double>(qwDownTotal)/1048576.0;
+	dblResult2 += 2.0;
+	dblResult2 = sqrt(dblResult2);
+d161 4
+a164 1
+	if (dblResult > dblResult2)
+d166 1
+a166 1
+		dblResult = dblResult2;
+d169 1
+a169 1
+	if (dblResult < 1.0)
+d171 9
+a179 1
+		dblResult = 1.0;
+d181 1
+a181 10
+	else if (dblResult > 10.0)
+	{
+		dblResult = 10.0;
+	}
+
+	return dblResult;
+
+	EMULE_CATCH
+
+	return 1.0;
+d239 2
+a240 1
+		if (version != CREDITFILE_VERSION && version != CREDITFILE_VERSION_29){
+d306 1
+a306 4
+			if (version == CREDITFILE_VERSION_29)
+				file.Read(&NewCStruct, sizeof(CreditStruct_29a));
+			else
+				file.Read(&NewCStruct, sizeof(CreditStruct));
+a477 1
+
+@
+
+
+1.54
+log
+@protect the waiting time with SUI
+@
+text
+@d800 1
+a800 2
+	m_dwUnSecureWaitTime = ::GetTickCount();
+	m_dwSecureWaitTime = ::GetTickCount();
+@
+
+
+1.53
+log
+@Improved string processing
+@
+text
+@a41 3
+	m_dwUnSecureWaitTime = 0;
+	m_dwSecureWaitTime = 0;
+	m_dwWaitTimeIP = 0;
+a48 2
+	m_dwUnSecureWaitTime = m_dwSecureWaitTime = ::GetTickCount();
+	m_dwWaitTimeIP = 0;
+d399 2
+a400 1
+
+d417 4
+d422 1
+a422 1
+
+d459 1
+a459 1
+	if(dwForIP == NULL)
+d755 1
+a755 1
+
+d758 3
+a760 2
+	if (m_dwUnSecureWaitTime == 0 || m_dwSecureWaitTime == 0)
+		SetSecWaitStartTime(dwForIP);
+d762 1
+a762 1
+//	This client is a SecureHash Client
+d765 1
+a765 1
+	//	Good boy
+d770 1
+a770 1
+	//	Not so good boy
+d773 3
+d780 3
+a782 1
+		//	Bad boy
+d785 1
+a785 1
+				m_dwUnSecureWaitTime = ::GetTickCount();
+d797 1
+a797 1
+
+d800 2
+a801 1
+	m_dwUnSecureWaitTime = m_dwSecureWaitTime = ::GetTickCount() - 1;
+d804 1
+a804 6
+
+void CClientCredits::ClearWaitStartTime()
+{
+	m_dwUnSecureWaitTime = 0;
+	m_dwSecureWaitTime = 0;
+}
+@
+
+
+1.52
+log
+@Fixed error log message while saving credit file {dbh};
+Improve string processing.
+@
+text
+@d483 3
+a485 3
+	bool		bCreateNewKey = false;
+	HANDLE		hKeyFile = ::CreateFile( g_App.m_pPrefs->GetConfigDir() + CString("cryptkey.dat"), GENERIC_READ,
+										FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL );
+a494 1
+	{
+d496 1
+a496 1
+	}
+@
+
+
+1.51
+log
+@UNICODE preparation (first shot) ; removed use of preference member, use global one instead; minor improvements
+@
+text
+@d262 1
+a262 1
+				CString strError(RGB_LOG_ERROR + GetResString(IDS_ERR_LOADCREDITFILE));
+d375 1
+a375 1
+		g_App.m_pMDlg->AddLogLine(RGB_LOG_ERROR + _T("%s - %s"), GetResString(IDS_ERR_FAILED_CREDITSAVE), GetErrorMessage(error));
+d542 1
+a542 1
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_SUCCESS + _T("Created new RSA keypair"));
+d546 1
+a546 1
+		g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_WARNING + _T("Failed to create new RSA keypair"));
+d665 1
+a665 1
+						g_App.m_pMDlg->AddDebugLogLine(RGB_LOG_WARNING + _T("WARNING: Maybe SecureHash Ident fails because LocalIP is unknown"));
+@
+
+
+1.50
+log
+@renamed 3 variables
+@
+text
+@d166 1
+a166 1
+CClientCreditsList::CClientCreditsList(CPreferences* in_prefs)
+a167 1
+	m_pAppPrefs = in_prefs;
+d170 1
+a170 1
+	
+d193 8
+a200 4
+	CString strFileName = m_pAppPrefs->GetConfigDir() + CString(CLIENTS_MET_FILENAME);
+	const int iOpenFlags = CFile::modeRead|CFile::osSequentialScan|CFile::typeBinary|CFile::shareDenyWrite;
+	CSafeBufferedFile file;
+	CFileException fexp;
+d215 5
+a219 3
+	
+	try{
+		byte version;
+d228 1
+a228 4
+		CString strBakFileName;
+		strBakFileName.Format(_T("%s") CLIENTS_MET_FILENAME _T(".bak"), m_pAppPrefs->GetConfigDir());
+		DWORD dwBakFileSize = 0;
+		BOOL bCreateBackup = TRUE;
+d230 6
+a235 1
+		HANDLE hBakFile = ::CreateFile(strBakFileName, GENERIC_READ, FILE_SHARE_READ, NULL,
+d291 1
+a291 1
+			
+d304 1
+a304 1
+		if (cDeleted>0) 
+d310 1
+a310 1
+	catch(CFileException* error)
+d313 1
+a313 2
+		if (error->m_cause == CFileException::endOfFile)
+		{
+a314 1
+		}
+d317 4
+a320 3
+			char buffer[MAX_CFEXP_ERRORMSG];
+			error->GetErrorMessage(buffer, MAX_CFEXP_ERRORMSG);
+			g_App.m_pMDlg->AddLogLine(true, GetResString(IDS_ERR_CREDITFILEREAD), buffer);
+d322 1
+a322 1
+		error->Delete();
+d331 4
+a334 1
+	CString strFileName = m_pAppPrefs->GetConfigDir() + CString(CLIENTS_MET_FILENAME);
+d336 5
+a340 5
+	CFile file;
+	BYTE* pbyteBuffer = NULL;
+	uint32 iCount;
+	
+	try 
+d346 1
+a346 1
+			
+d358 1
+a358 1
+				iCount++; 
+d370 1
+a370 1
+			
+d381 1
+a381 1
+	{ 
+d469 1
+a469 1
+			return IS_IDBADGUY; 
+d484 2
+a485 2
+	HANDLE		hKeyFile = ::CreateFile(m_pAppPrefs->GetConfigDir() + CString("cryptkey.dat"), GENERIC_READ,
+										FILE_SHARE_READ, NULL, OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+d500 1
+a500 1
+	
+d505 1
+a505 1
+		FileSource		filesource(CString(m_pAppPrefs->GetConfigDir() + CString("cryptkey.dat")), true,new Base64Decoder);
+d530 8
+a537 4
+	try{
+		AutoSeededRandomPool rng;
+		InvertibleRSAFunction privkey;
+		privkey.Initialize(rng,RSAKEYSIZE);
+a538 1
+		Base64Encoder privkeysink(new FileSink(CString(m_pAppPrefs->GetConfigDir())+"cryptkey.dat"));
+d573 1
+a573 1
+		
+d606 1
+a606 1
+		nResult = asink.TotalPutLength();			
+d632 1
+a632 1
+	//	We have all the information that the client did when its signature was created and we know 
+d783 1
+a783 1
+			}	
+d787 1
+a787 1
+	{	
+@
+
+
+1.49
+log
+@Unicode corrections {KuSh}.
+@
+text
+@d65 1
+a65 1
+		(eIdentState != IS_IDNEEDED) ) || !g_eMuleApp.m_pClientCreditList->CryptoAvailable() )
+d80 1
+a80 1
+		(eIdentState != IS_IDNEEDED) ) || !g_eMuleApp.m_pClientCreditList->CryptoAvailable() )
+d103 1
+a103 1
+		 GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && g_eMuleApp.m_pClientCreditList->CryptoAvailable() )
+d206 2
+a207 2
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_ERROR + strError);
+			g_eMuleApp.m_pdlgEmule->DisableAutoBackup();
+d217 1
+a217 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LOG_WARNING + GetResString(IDS_ERR_CREDITFILEOLD));
+d250 1
+a250 1
+				g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_ERR_MAKEBAKCREDITFILE));
+d261 2
+a262 2
+				g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_ERROR + strError);
+				g_eMuleApp.m_pdlgEmule->DisableAutoBackup();
+d298 1
+a298 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_CREDITFILELOADED) + GetResString(IDS_CREDITSEXPIRED), count-cDeleted,cDeleted);
+d300 1
+a300 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_CREDITFILELOADED), count);
+d308 1
+a308 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_CREDITFILECORRUPT));
+d314 1
+a314 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, GetResString(IDS_ERR_CREDITFILEREAD), buffer);
+d317 1
+a317 1
+		g_eMuleApp.m_pdlgEmule->DisableAutoBackup();
+d357 1
+a357 1
+		if (!g_eMuleApp.m_pdlgEmule->IsRunning())
+d366 1
+a366 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(RGB_LOG_ERROR + _T("%s - %s"), GetResString(IDS_ERR_FAILED_CREDITSAVE), GetErrorMessage(error));
+d373 1
+a373 1
+		g_eMuleApp.m_pdlgEmule->AddBugReport(_T(__FUNCTION__), _T(__FILE__), __LINE__, GetErrorMessage(err));
+d429 1
+a429 1
+			DEBUG_ONLY(g_eMuleApp.m_pdlgEmule->AddDebugLogLine(_T(__FUNCTION__) _T(": Credits deleted due to new SecureIdent")));
+d514 1
+a514 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_CRYPT_INITFAILED));
+d530 1
+a530 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(RGB_LOG_SUCCESS + _T("Created new RSA keypair"));
+d534 1
+a534 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(RGB_LOG_WARNING + _T("Failed to create new RSA keypair"));
+d651 1
+a651 1
+					if (g_eMuleApp.m_pServerConnect->GetClientID() == 0 || g_eMuleApp.m_pServerConnect->IsLowID())
+d653 2
+a654 2
+						g_eMuleApp.m_pdlgEmule->AddDebugLogLine(RGB_LOG_WARNING + _T("WARNING: Maybe SecureHash Ident fails because LocalIP is unknown"));
+						ChallengeIP = g_eMuleApp.m_pServerConnect->GetLocalIP();
+d658 1
+a658 1
+						ChallengeIP = g_eMuleApp.m_pServerConnect->GetClientID();
+@
+
+
+1.48
+log
+@Faster loading and saving of configuration files.
+@
+text
+@d373 1
+a373 1
+		g_eMuleApp.m_pdlgEmule->AddBugReport(__FUNCTION__,__FILE__, __LINE__,GetErrorMessage(err));
+d429 1
+a429 1
+			DEBUG_ONLY(g_eMuleApp.m_pdlgEmule->AddDebugLogLine(_T("%s: Credits deleted due to new SecureIdent"), __FUNCTION__));
+@
+
+
+1.47
+log
+@Faster calculation of assumed remote base modifier;
+Reduced memory used by known client credits; Minor optimization;
+Possible fix for crash (CClientCredits object with m_pCredits = 0) {A.Vedjakin}.
+@
+text
+@d23 1
+a23 1
+#include "safefile.h"
+d211 1
+a211 1
+	setvbuf(file.m_pStream, NULL, _IOFBF, 16384);
+d265 1
+a265 1
+			setvbuf(file.m_pStream, NULL, _IOFBF, 16384);
+@
+
+
+1.46
+log
+@Fixed vulnerability of reading corrupted clients.met {cupidon};
+Define usage instead of numbers.
+@
+text
+@d38 1
+a38 1
+CClientCredits::CClientCredits(CreditStruct* in_credits)
+d40 1
+a40 1
+	m_pCredits = in_credits;
+d49 2
+a50 3
+	m_pCredits = new CreditStruct;
+	memzero(m_pCredits, sizeof(CreditStruct));
+	md4cpy(m_pCredits->abyKey, key);
+d52 1
+a52 2
+	m_dwUnSecureWaitTime = ::GetTickCount();
+	m_dwSecureWaitTime = ::GetTickCount();
+a57 1
+	delete m_pCredits;
+d67 1
+a67 1
+		uint32		dwLow = m_pCredits->nDownloadedLo;
+d69 3
+a71 3
+		m_pCredits->nDownloadedLo += dwBytes;
+		if (m_pCredits->nDownloadedLo < dwLow)
+			m_pCredits->nDownloadedHi++;
+d82 1
+a82 1
+		uint32		dwLow = m_pCredits->nUploadedLo;
+d84 3
+a86 3
+		m_pCredits->nUploadedLo += dwBytes;
+		if (m_pCredits->nUploadedLo < dwLow)
+			m_pCredits->nUploadedHi++;
+d91 1
+a91 1
+	return ( (uint64)m_pCredits->nUploadedHi<<32)+m_pCredits->nUploadedLo;
+d95 1
+a95 1
+	return ( (uint64)m_pCredits->nDownloadedHi<<32)+m_pCredits->nDownloadedLo;
+d100 1
+a100 1
+    EMULE_TRY
+d110 1
+a110 2
+	uint64		iDownTotal = GetDownloadedTotal();
+	uint64		iUpTotal = GetUploadedTotal();
+d112 1
+a112 1
+  	if (bInverted)
+d114 7
+a120 2
+		iDownTotal = GetUploadedTotal();
+		iUpTotal = GetDownloadedTotal();
+d123 1
+a123 1
+	if (iDownTotal < 1000000)
+d130 1
+a130 1
+	if (!iUpTotal)
+d136 1
+a136 1
+		dblResult = static_cast<double>((static_cast<double>(iDownTotal)*2.0)/static_cast<double>(iUpTotal));
+d141 1
+a141 1
+	dblResult2 = static_cast<double>(iDownTotal)/1048576.0;
+d161 1
+a161 1
+    EMULE_CATCH
+d163 1
+a163 1
+    return 1.0;
+d277 3
+a279 2
+			CreditStruct* newcstruct = new CreditStruct;
+			memzero(newcstruct, sizeof(CreditStruct));
+d281 1
+a281 1
+				file.Read(newcstruct, sizeof(CreditStruct_29a));
+d283 1
+a283 1
+				file.Read(newcstruct, sizeof(CreditStruct));
+d286 1
+a286 1
+			if ((newcstruct->nLastSeen < dwExpired) || (newcstruct->nKeySize > MAXPUBKEYSIZE))
+a288 1
+				delete newcstruct;
+d292 1
+a292 1
+			CClientCredits* newcredits = new CClientCredits(newcstruct);
+d398 1
+a398 1
+	if (m_pCredits->nKeySize == 0)
+d405 2
+a406 2
+		m_nPublicKeyLen = m_pCredits->nKeySize;
+		memcpy2(m_abyPublicKey, m_pCredits->abySecureIdent, m_nPublicKeyLen);
+d418 1
+a418 1
+	if (m_pCredits->nKeySize == 0)
+d420 2
+a421 2
+		m_pCredits->nKeySize = m_nPublicKeyLen;
+		memcpy2(m_pCredits->abySecureIdent, m_abyPublicKey, m_nPublicKeyLen);
+d425 4
+a428 4
+			m_pCredits->nDownloadedHi = 0;
+			m_pCredits->nDownloadedLo = 1;
+			m_pCredits->nUploadedHi = 0;
+			m_pCredits->nUploadedLo = 1;
+d438 1
+a438 1
+	if (MAXPUBKEYSIZE < nIdentLen || m_pCredits->nKeySize != 0 )
+d712 4
+a715 3
+	CreditStruct* newcstruct = new CreditStruct;
+	memzero(newcstruct, sizeof(CreditStruct));
+	CClientCredits* newcredits = new CClientCredits(newcstruct);
+d724 2
+a725 3
+	CreditStruct* newcstruct2 = new CreditStruct;
+	memzero(newcstruct2, sizeof(CreditStruct));
+	CClientCredits* newcredits2 = new CClientCredits(newcstruct2);
+d751 1
+a751 1
+	if (m_pCredits->nKeySize != 0)
+d783 1
+a783 2
+	m_dwUnSecureWaitTime = ::GetTickCount()-1;
+	m_dwSecureWaitTime = ::GetTickCount()-1;
+@
+
+
+1.45
+log
+@removed useless CObect. + some formating
+@
+text
+@d18 1
+a18 1
+#include "StdAfx.h"
+a36 1
+#define ELEMENT_COUNT(X) (sizeof(X) / sizeof(X[0]))
+d283 3
+a285 1
+			if (newcstruct->nLastSeen < dwExpired){
+d397 1
+a397 1
+	if (m_pCredits->nKeySize == 0 )
+d399 1
+a399 1
+		memzero(m_abyPublicKey, 80);
+d419 1
+a419 1
+		m_pCredits->nKeySize = m_nPublicKeyLen; 
+d469 1
+a469 1
+	memzero(m_abyMyPublicKey, 80);
+d501 1
+a501 1
+		ArraySink							asink(m_abyMyPublicKey, 80);
+d704 2
+a705 2
+	byte abyPublicKey[80];
+	ArraySink asink(abyPublicKey, 80);
+@
+
+
+1.44
+log
+@More file sharing corrections to allow read-only access for other applications (official).
+@
+text
+@d295 4
+a298 2
+		if (cDeleted>0) g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_CREDITFILELOADED) + GetResString(IDS_CREDITSEXPIRED), count-cDeleted,cDeleted);
+			else g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_CREDITFILELOADED), count);
+@
+
+
+1.43
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d195 1
+a195 1
+	const int iOpenFlags = CFile::modeRead|CFile::osSequentialScan|CFile::typeBinary;
+d330 1
+a330 1
+		file.Open(strFileName, CFile::modeWrite|CFile::modeCreate|CFile::typeBinary);
+@
+
+
+1.42
+log
+@Reverted some __FUNCTION__ logs as they weren't useful for users and were taking too much log space. We can always resort to search for the string.
+@
+text
+@d425 1
+a425 1
+			DEBUG_ONLY(g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, _T("%s: Credits deleted due to new SecureIdent"), __FUNCTION__));
+d526 1
+a526 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_SUCCESS + _T("Created new RSA keypair"));
+d530 1
+a530 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("Failed to create new RSA keypair"));
+d649 1
+a649 1
+						g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("WARNING: Maybe SecureHash Ident fails because LocalIP is unknown"));
+@
+
+
+1.41
+log
+@DebugLog formating and changes
+@
+text
+@d526 1
+a526 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_SUCCESS + _T("%s: Created new RSA keypair"), __FUNCTION__);
+d530 1
+a530 1
+		g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("%s: Failed to create new RSA keypair"), __FUNCTION__);
+d649 1
+a649 1
+						g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("%s: Warning: Maybe SecureHash Ident fails because LocalIP is unknown"), __FUNCTION__);
+@
+
+
+1.40
+log
+@minor changes (SetDownloadState(...), exception handling)
+@
+text
+@a17 2
+
+
+a38 1
+
+d222 1
+a222 1
+		// everything is ok, lets see if the backup exist...
+d232 2
+a233 2
+			// Ok, the backup exist, get the size
+			dwBakFileSize = ::GetFileSize(hBakFile, NULL); //debug
+d236 1
+a236 1
+				// the size of the backup was larger then the org. file, something is wrong here, don't overwrite old backup..
+d239 1
+a239 1
+			//else: backup is smaller or the same size as org. file, proceed with copying of file
+a241 1
+		//else: the backup doesn't exist, create it
+d243 1
+d246 2
+a247 1
+			file.Close(); // close the file before copying
+d252 1
+a252 1
+			// reopen file
+d266 2
+a267 1
+			file.Seek(1, CFile::begin); //set filepointer behind file version byte
+a318 1
+//	DEBUG_ONLY(g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "Saved Credit list"));
+d322 2
+a323 1
+	CFile file;// no buffering needed here since we swap out the entire array
+a352 1
+		//if (g_eMuleApp.m_pGlobPrefs->GetCommitFiles() >= 2 || (g_eMuleApp.m_pGlobPrefs->GetCommitFiles() >= 1 && !g_eMuleApp.m_pdlgEmule->IsRunning()))
+d396 1
+a396 1
+		memzero(m_abyPublicKey, 80); // for debugging
+d413 1
+a413 1
+	// client was verified, copy the keyto store him if not done already
+d420 1
+a420 1
+			// for security reason, we have to delete all prior credits here
+d424 2
+a425 2
+			m_pCredits->nUploadedLo = 1; // in order to safe this client, set 1 byte
+			DEBUG_ONLY(g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "Credits deleted due to new SecureIdent"));
+a428 3
+#ifdef DEBUG_SHOW_SECUREID
+DEBUG_ONLY(g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "client verified!"));
+#endif
+d445 1
+a445 1
+	//DonGato (we're using this function before we have an IP?!)
+d451 2
+a452 1
+	else{
+d457 2
+a458 2
+			// mod note: clients which just reconnected after an IP change and have to ident yet will also have this state for 1-2 seconds
+			//		 so don't try to spam such clients with "bad guy" messages (besides: spam messages are always bad)
+d466 1
+a466 1
+	memzero(m_abyMyPublicKey, 80); // not really needed; better for debugging tho
+d468 1
+a468 1
+//
+d473 1
+a473 1
+//
+a522 1
+		//Base64Encoder privkeysink(new FileSink(CString(m_pAppPrefs->GetAppDir())+"cryptkey.dat"));
+d526 1
+a526 1
+		AddDebugLogLine(false, "Created new RSA keypair");
+d530 1
+a530 1
+		AddDebugLogLine(false, RGB_LOG_WARNING + _T("Failed to create new RSA keypair"));
+d568 1
+a568 1
+	//		that the signature is from us.
+d601 1
+a601 1
+//		the client's private key
+d616 2
+a617 4
+	//
+	//	We have all the information that the client did when its signature was created and we know how it was
+	//		created. Given that we can reproduce the unencrypted signature that we should receive.
+	//
+d630 1
+a630 1
+	//
+d649 1
+a649 1
+						g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("Warning: Maybe SecureHash Ident fails because LocalIP is unknown"));
+d658 2
+a659 1
+				case CRYPT_CIP_NONECLIENT: // maybe not supported in future versions
+a665 1
+		//v2 end
+d695 1
+a695 1
+	// create random key
+d707 1
+a707 1
+	// create fake client which pretends to be this emule
+d713 1
+a713 1
+	// create signature with fake priv key
+d718 1
+a718 2
+
+	// next fake client uses the random created public key
+d724 1
+a724 1
+	// if you uncomment one of the following lines the check has to fail
+d731 1
+a731 1
+	//now verify this signature - if it's true everything is fine
+d746 1
+a746 1
+//	this client is a SecureHash Client
+d749 1
+a749 1
+	//	good boy
+d754 1
+a754 1
+	//	not so good boy
+d761 1
+a761 1
+		//	bad boy
+a763 10
+			//	this can also happen if the client has not identified himself yet, but will do later - so maybe he is not a bad boy :) .
+			/*
+				CString buffer2, buffer;
+				for (uint16 i = 0;i != 16;i++){
+					buffer2.Format("%02X",this->m_pCredits->abyKey[i]);
+					buffer+=buffer2;
+				}
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("Warning: WaitTime resetted due to Invalid Ident for Userhash %s"),buffer.GetBuffer());
+			*/
+				
+d771 2
+a772 1
+	{	// not a SecureHash Client - handle it like before for now (no security checks)
+@
+
+
+1.39
+log
+@Support for external antivirus program + removed SUI preferences + minor changes
+@
+text
+@a373 1
+
+@
+
+
+1.38
+log
+@Disable scheduled backup and backup on exit if a file corruption is detected on start + minor changes
+@
+text
+@a472 2
+	if (!m_pAppPrefs->IsSecureIdentEnabled())
+		return;
+d696 1
+a696 1
+	return (m_nMyPublicKeyLen > 0 && m_pSignkey != NULL && m_pAppPrefs->IsSecureIdentEnabled());
+@
+
+
+1.37
+log
+@Minor formating changes, some more upload log and fix for clipboard monitoring
+@
+text
+@d210 1
+d264 1
+d300 2
+a301 1
+	catch(CFileException* error){
+d304 1
+d306 3
+a308 1
+		else{
+d314 1
+d395 4
+a398 2
+void CClientCredits::InitalizeIdent(){
+	if (m_pCredits->nKeySize == 0 ){
+d413 2
+a414 1
+void CClientCredits::Verified(uint32 dwForIP){
+d417 2
+a418 1
+	if (m_pCredits->nKeySize == 0){
+d421 2
+a422 1
+		if (GetDownloadedTotal() > 0){
+d448 2
+a449 1
+EIdentState	CClientCredits::GetCurrentIdentState(uint32 dwForIP){
+d522 2
+a523 1
+bool CClientCreditsList::CreateKeyPair(){
+d703 2
+a704 1
+bool CClientCreditsList::Debug_CheckCrypting(){
+d752 2
+a753 1
+uint32 CClientCredits::GetSecureWaitStartTime(uint32 dwForIP){
+d791 2
+a792 1
+	else{	// not a SecureHash Client - handle it like before for now (no security checks)
+d797 2
+a798 1
+void CClientCredits::SetSecWaitStartTime(uint32 dwForIP){
+d804 2
+a805 1
+void CClientCredits::ClearWaitStartTime(){
+@
+
+
+1.36
+log
+@Optimization of 64-bit arithmetic.
+@
+text
+@d105 1
+a105 1
+double CClientCredits::GetScoreRatio(uint32 dwForIP,bool bInverted)
+d109 2
+a110 1
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY || GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && g_eMuleApp.m_pClientCreditList->CryptoAvailable())
+d116 3
+a118 5
+//	By Maverick
+//	Added Inversion to calculate the clients own ratio
+//		at the remote client from its own data	
+	uint64		qwDown = GetDownloadedTotal();
+	uint64		qwUp = GetUploadedTotal();
+d122 2
+a123 2
+		qwDown = GetUploadedTotal();
+		qwUp = GetDownloadedTotal();
+d126 2
+a127 1
+	if (qwDown < 1000000)
+d129 1
+d133 2
+a134 1
+	if (!qwUp)
+d136 1
+d138 3
+a140 1
+		dblResult = static_cast<double>((static_cast<double>(qwDown)*2.0)/static_cast<double>(qwUp));
+d144 1
+a144 1
+	dblResult2 = static_cast<double>(qwDown)/1048576.0;
+d149 1
+d151 1
+d154 3
+a156 1
+		return 1.0;
+d158 3
+a160 1
+		return 10.0;
+@
+
+
+1.35
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d67 12
+a78 3
+void CClientCredits::AddDownloaded(uint32 bytes, uint32 dwForIP) {
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY || GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && g_eMuleApp.m_pClientCreditList->CryptoAvailable() ){
+		return;
+d80 1
+a80 3
+	//encode
+	uint64 current=m_pCredits->nDownloadedHi;
+	current=(current<<32)+ m_pCredits->nDownloadedLo + bytes ;
+d82 8
+a89 4
+	//recode
+	m_pCredits->nDownloadedLo=(uint32)current;
+	m_pCredits->nDownloadedHi=(uint32)(current>>32);
+}
+d91 3
+a93 3
+void CClientCredits::AddUploaded(uint32 bytes, uint32 dwForIP) {
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY || GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && g_eMuleApp.m_pClientCreditList->CryptoAvailable() ){
+		return;
+a94 7
+	//encode
+	uint64 current=m_pCredits->nUploadedHi;
+	current=(current<<32)+ m_pCredits->nUploadedLo + bytes ;
+
+	//recode
+	m_pCredits->nUploadedLo=(uint32)current;
+	m_pCredits->nUploadedHi=(uint32)(current>>32);
+@
+
+
+1.34
+log
+@few changes and formatting + corrected a previous change that is not working
+@
+text
+@d201 1
+a201 1
+		uint8 version;
+d328 1
+a328 1
+		uint8 version = CREDITFILE_VERSION;
+d410 1
+a410 1
+bool CClientCredits::SetSecureIdent(uchar* pachIdent, uint8 nIdentLen)
+d517 2
+a518 2
+uint8 CClientCreditsList::CreateSignature( CClientCredits *pTarget, uchar *pachOutput, uint8 nMaxSize, uint32 ChallengeIP,
+										   uint8 byChaIPKind, RSASSA_PKCS1v15_SHA_Signer *sigkey /*= NULL*/ )
+d528 1
+a528 1
+	uint8		nResult;
+d581 1
+a581 1
+bool CClientCreditsList::VerifyIdent(CClientCredits* pTarget, uchar* pachSignature, uint8 nInputSize, uint32 dwForIP, uint8 byChaIPKind)
+d613 1
+a613 1
+		uint8		nChIpSize = 0;
+d684 1
+a684 1
+	int8 PublicKeyLen = asink.TotalPutLength();
+d696 1
+a696 1
+	uint8 sigsize = CreateSignature(newcredits,pachSignature,200,0,false, &priv);
+@
+
+
+1.33
+log
+@minor correction
+@
+text
+@d726 6
+a731 2
+	if (m_pCredits->nKeySize != 0){	// this client is a SecureHash Client
+		if (GetCurrentIdentState(dwForIP) == IS_IDENTIFIED){ // good boy
+d734 5
+a738 2
+		else{	// not so good boy
+			if (dwForIP == m_dwWaitTimeIP){
+d741 6
+a746 3
+			else{	// bad boy
+				// this can also happen if the client has not identified himself yet, but will do later - so maybe he is not a bad boy :) .
+				/*CString buffer2, buffer;
+d751 2
+a752 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LOG_WARNING + _T("Warning: WaitTime resetted due to Invalid Ident for Userhash %s"),buffer.GetBuffer());*/
+@
+
+
+1.32
+log
+@Replaced all zero filled memsets with optimized memzero (Thx Aw3 !) + some more Aw3 optimizations
+@
+text
+@d736 2
+a737 2
+				CString buffer2, buffer;
+				/*for (uint16 i = 0;i != 16;i++){
+@
+
+
+1.31
+log
+@avoid some not necessary disc writes
+@
+text
+@d54 1
+a54 1
+	memset2(m_pCredits, 0, sizeof(CreditStruct));
+d262 1
+a262 1
+			memset2(newcstruct, 0, sizeof(CreditStruct));
+d375 1
+a375 1
+		memset2(m_abyPublicKey,0,80); // for debugging
+d443 1
+a443 1
+	memset2(m_abyMyPublicKey,0,80); // not really needed; better for debugging tho
+d689 1
+a689 1
+	memset2(newcstruct, 0, sizeof(CreditStruct));
+d695 1
+a695 1
+	memset2(pachSignature,0,200);
+d701 1
+a701 1
+	memset2(newcstruct2, 0, sizeof(CreditStruct));
+@
+
+
+1.30
+log
+@Formatting, comments, and name changes.
+@
+text
+@a182 1
+//	CString strFileName = m_pAppPrefs->GetAppDir() + CString(CLIENTS_MET_FILENAME);
+a211 1
+//		strBakFileName.Format(_T("%s") CLIENTS_MET_FILENAME _T(".bak"), m_pAppPrefs->GetAppDir());
+d308 1
+a308 1
+		//eklmn: let's open the file, since "Open" generates an exceprion, no need for any check
+d369 1
+a369 1
+	if (::GetTickCount() - m_nLastSaved > MIN2MS(13))
+@
+
+
+1.29
+log
+@Minor changes
+@
+text
+@d411 4
+a414 2
+
+bool CClientCredits::SetSecureIdent(uchar* pachIdent, uint8 nIdentLen){ // verified Public key cannot change, use only if there is not public key yet
+d422 1
+a422 1
+
+d442 2
+a443 1
+void CClientCreditsList::InitalizeCrypting(){
+d449 7
+a455 7
+	// check if keyfile is there
+	bool bCreateNewKey = false;
+	HANDLE hKeyFile = ::CreateFile(m_pAppPrefs->GetConfigDir() + CString("cryptkey.dat"), GENERIC_READ, FILE_SHARE_READ, NULL,
+										OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+//	HANDLE hKeyFile = ::CreateFile(m_pAppPrefs->GetAppDir() + CString("cryptkey.dat"), GENERIC_READ, FILE_SHARE_READ, NULL,
+//										OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+
+d463 1
+d465 1
+d469 6
+a474 5
+	// load key
+	try{
+		// load private key
+		FileSource filesource(CString(m_pAppPrefs->GetConfigDir() + CString("cryptkey.dat")), true,new Base64Decoder);
+		//FileSource filesource(CString(m_pAppPrefs->GetAppDir() + CString("cryptkey.dat")), true,new Base64Decoder);
+d476 5
+a480 3
+		// calculate and store public key
+		RSASSA_PKCS1v15_SHA_Verifier pubkey(*m_pSignkey);
+		ArraySink asink(m_abyMyPublicKey, 80);
+d518 5
+a522 3
+
+uint8 CClientCreditsList::CreateSignature(CClientCredits* pTarget, uchar* pachOutput, uint8 nMaxSize, uint32 ChallengeIP, uint8 byChaIPKind, RSASSA_PKCS1v15_SHA_Signer* sigkey){
+	// sigkey param is used for debug only
+d526 1
+a526 1
+	// create a signature of the public key from pTarget
+d529 3
+a531 1
+	uint8 nResult;
+d533 1
+d535 3
+a537 1
+	try{
+d539 13
+a551 7
+		SecByteBlock sbbSignature(sigkey->SignatureLength());
+		AutoSeededRandomPool rng;
+		byte abyBuffer[MAXPUBKEYSIZE+9];
+		uint32 keylen = pTarget->GetSecIDKeyLen();
+		memcpy2(abyBuffer,pTarget->GetSecureIdent(),keylen);
+		// 4 additional bytes random data send from this client
+		uint32 challenge = pTarget->m_dwCryptRndChallengeFrom;
+d553 11
+a563 6
+		memcpy2(abyBuffer+keylen,&challenge,4);
+		uint16 ChIpLen = 0;
+		if ( byChaIPKind != 0){
+			ChIpLen = 5;
+			memcpy2(abyBuffer+keylen+4,&ChallengeIP,4);
+			memcpy2(abyBuffer+keylen+4+4,&byChaIPKind,1);
+d565 5
+a569 2
+		sigkey->SignMessage(rng, abyBuffer ,keylen+4+ChIpLen , sbbSignature.begin());
+		ArraySink asink(pachOutput, nMaxSize);
+d580 5
+a584 2
+
+bool CClientCreditsList::VerifyIdent(CClientCredits* pTarget, uchar* pachSignature, uint8 nInputSize, uint32 dwForIP, uint8 byChaIPKind){
+d587 2
+a588 1
+	if ( !CryptoAvailable() ){
+d592 18
+a609 8
+	bool bResult;
+	try{
+		StringSource ss_Pubkey((byte*)pTarget->GetSecureIdent(),pTarget->GetSecIDKeyLen(),true,0);
+		RSASSA_PKCS1v15_SHA_Verifier pubkey(ss_Pubkey);
+		// 4 additional bytes random data send from this client +5 bytes v2
+		byte abyBuffer[MAXPUBKEYSIZE+9];
+		memcpy2(abyBuffer,m_abyMyPublicKey,m_nMyPublicKeyLen);
+		uint32 challenge = pTarget->m_dwCryptRndChallengeFor;
+d611 14
+a624 7
+		memcpy2(abyBuffer+m_nMyPublicKeyLen,&challenge,4);
+		// v2 security improvments (not supported by 29b, not used as default by 29c)
+		uint8 nChIpSize = 0;
+		if (byChaIPKind != 0){
+			nChIpSize = 5;
+			uint32 ChallengeIP = 0;
+			switch (byChaIPKind){
+d630 2
+a631 1
+					if (g_eMuleApp.m_pServerConnect->GetClientID() == 0 || g_eMuleApp.m_pServerConnect->IsLowID()){
+d636 1
+d638 2
+a639 1
+#endif //OLD_SOCKETS_ENABLED
+d645 2
+a646 2
+			memcpy2(abyBuffer+m_nMyPublicKeyLen+4,&ChallengeIP,4);
+			memcpy2(abyBuffer+m_nMyPublicKeyLen+4+4,&byChaIPKind,1);
+d649 2
+a650 2
+
+		bResult = pubkey.VerifyMessage(abyBuffer, m_nMyPublicKeyLen+4+nChIpSize, pachSignature, nInputSize);
+d656 2
+a657 1
+	if (!bResult){
+d661 2
+a662 1
+	else{
+d667 5
+a671 3
+
+bool CClientCreditsList::CryptoAvailable(){
+	return (m_nMyPublicKeyLen > 0 && m_pSignkey != 0 && m_pAppPrefs->IsSecureIdentEnabled() );
+d673 1
+a673 1
+
+@
+
+
+1.28
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@d300 1
+a300 1
+	DEBUG_ONLY(g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "Saved Credit list"));
+@
+
+
+1.27
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d195 1
+a195 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_RED + strError);
+d205 1
+a205 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_LIGHT_ORANGE + GetResString(IDS_ERR_CREDITFILEOLD));
+d238 1
+a238 1
+				g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_RED + GetResString(IDS_ERR_MAKEBAKCREDITFILE));
+d243 1
+a243 1
+				CString strError(RGB_RED + GetResString(IDS_ERR_LOADCREDITFILE));
+d249 1
+a249 1
+				g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_RED + strError);
+d288 1
+a288 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_RED + GetResString(IDS_CREDITFILECORRUPT));
+d344 1
+a344 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(RGB_RED + _T("%s - %s"),GetResString(IDS_ERR_FAILED_CREDITSAVE), GetErrorMessage(error));
+d483 1
+a483 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, RGB_RED + GetResString(IDS_CRYPT_INITFAILED));
+d503 1
+a503 1
+		AddDebugLogLine(false, RGB_LIGHT_ORANGE + _T("Failed to create new RSA keypair"));
+d581 1
+a581 1
+						g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LIGHT_ORANGE + _T("Warning: Maybe SecureHash Ident fails because LocalIP is unknown"));
+d686 1
+a686 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, RGB_LIGHT_ORANGE + _T("Warning: WaitTime resetted due to Invalid Ident for Userhash %s"),buffer.GetBuffer());*/
+@
+
+
+1.26
+log
+@Added some colors to the logs...
+@
+text
+@d195 1
+a195 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, _T("<COLOR=255,0,0>") + strError);
+d205 1
+a205 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, _T("<COLOR=255,102,0>") + GetResString(IDS_ERR_CREDITFILEOLD));
+d238 1
+a238 1
+				g_eMuleApp.m_pdlgEmule->AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_ERR_MAKEBAKCREDITFILE));
+d243 1
+a243 1
+				CString strError(_T("<COLOR=255,0,0>") + GetResString(IDS_ERR_LOADCREDITFILE));
+d249 1
+a249 1
+				g_eMuleApp.m_pdlgEmule->AddLogLine(true, _T("<COLOR=255,0,0>") + strError);
+d288 1
+a288 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, _T("<COLOR=255,0,0>") + GetResString(IDS_CREDITFILECORRUPT));
+d344 1
+a344 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(_T("<COLOR=255,0,0>%s - %s"),GetResString(IDS_ERR_FAILED_CREDITSAVE),GetErrorMessage(error));
+d483 1
+a483 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, _T("<COLOR=255,0,0>") + GetResString(IDS_CRYPT_INITFAILED));
+d503 1
+a503 1
+		AddDebugLogLine(false, "<COLOR=255,102,0>Failed to create new RSA keypair");
+d581 1
+a581 1
+						g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "<COLOR=255,102,0>Warning: Maybe SecureHash Ident fails because LocalIP is unknown");
+d686 1
+a686 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false,"<COLOR=255,102,0>Warning: WaitTime resetted due to Invalid Ident for Userhash %s",buffer.GetBuffer());*/
+@
+
+
+1.25
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d195 1
+a195 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, strError);
+d205 1
+a205 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_ERR_CREDITFILEOLD));
+d238 1
+a238 1
+				g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_ERR_MAKEBAKCREDITFILE));
+d243 1
+a243 1
+				CString strError(GetResString(IDS_ERR_LOADCREDITFILE));
+d249 1
+a249 1
+				g_eMuleApp.m_pdlgEmule->AddLogLine(true, strError);
+d288 1
+a288 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, GetResString(IDS_CREDITFILECORRUPT));
+d344 1
+a344 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(_T("%s - %s"),GetResString(IDS_ERR_FAILED_CREDITSAVE),GetErrorMessage(error));
+d483 1
+a483 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(false, GetResString(IDS_CRYPT_INITFAILED));
+d503 1
+a503 1
+		AddDebugLogLine(false, "Failed to create new RSA keypair");
+d581 1
+a581 1
+						g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false, "Warning: Maybe SecureHash Ident fails because LocalIP is unknown");
+d686 1
+a686 1
+				g_eMuleApp.m_pdlgEmule->AddDebugLogLine(false,"Warning: WaitTime resetted due to Invalid Ident for Userhash %s",buffer.GetBuffer());*/
+@
+
+
+1.24
+log
+@Formatting, comments, and name changes.
+Completion of download list sorting changes (for now).
+Added missing sort on FakeCheck column in search window.
+@
+text
+@d100 2
+a101 2
+
+float CClientCredits::GetScoreRatio(uint32 dwForIP,bool inverted)
+d107 2
+a108 2
+		// bad guy - no credits for you
+		return 1;
+d111 7
+a117 6
+	// By Maverick
+	// Added Inversion to calculate the clients ows ratio
+	// at the remote client from ist own data	
+	uint64 d = GetDownloadedTotal();
+	uint64 u = GetUploadedTotal();
+  	if (inverted)
+d119 2
+a120 2
+		d = GetUploadedTotal();
+		u = GetDownloadedTotal();
+d123 7
+a129 5
+	if (d < 1000000)
+		return 1;
+	float result = 0;
+	if (!u)
+		result = 10;
+d131 18
+a148 14
+		result = (float)(((double)d*2.0)/(double)u);
+	float result2 = 0;
+	result2 = (float)d/1048576.0;
+	result2 += 2;
+	result2 = (double)sqrt((double)result2);
+
+	if (result > result2)
+		result = result2;
+
+	if (result < 1)
+		return 1;
+	else if (result > 10)
+		return 10;
+	return result;
+d150 2
+a151 1
+    return 1;
+d153 1
+a153 2
+
+
+@
+
+
+1.23
+log
+@possible memleak over exception in SaveList()
+@
+text
+@a292 1
+
+@
+
+
+1.22
+log
+@Added MMX/AMD/SSE optimized memset [katsyonak]
+@
+text
+@d293 1
+d297 1
+a297 2
+	CString name = m_pAppPrefs->GetConfigDir() + CString(CLIENTS_MET_FILENAME);
+//	CString name = m_pAppPrefs->GetAppDir() + CString(CLIENTS_MET_FILENAME);
+d299 7
+a305 11
+	CFileException fexp;
+	if (!file.Open(name, CFile::modeWrite|CFile::modeCreate|CFile::typeBinary, &fexp)){
+		CString strError(GetResString(IDS_ERR_FAILED_CREDITSAVE));
+		TCHAR szError[MAX_CFEXP_ERRORMSG];
+		if (fexp.GetErrorMessage(szError, ELEMENT_COUNT(szError))){
+			strError += _T(" - ");
+			strError += szError;
+		}
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, strError);
+		return;
+	}
+d307 8
+a314 10
+	uint32 count = m_mapClients.GetCount();
+	BYTE* pbyteBuffer = new BYTE[count*sizeof(CreditStruct)];
+	CClientCredits* cur_credit;
+	CCKey tempkey(0);
+	POSITION pos = m_mapClients.GetStartPosition();
+	count = 0;
+	while (pos)
+	{
+		m_mapClients.GetNextAssoc(pos, tempkey, cur_credit);
+		if (cur_credit->GetUploadedTotal() || cur_credit->GetDownloadedTotal())
+d316 6
+a321 2
+			memcpy2(pbyteBuffer+(count*sizeof(CreditStruct)), cur_credit->GetDataStruct(), sizeof(CreditStruct));
+			count++; 
+a322 1
+	}
+a323 1
+	try{
+d326 2
+a327 2
+		file.Write(&count, 4);
+		file.Write(pbyteBuffer, count*sizeof(CreditStruct));
+d330 4
+a333 1
+		file.Flush();
+d336 3
+a338 8
+	catch(CFileException* error){
+		CString strError(GetResString(IDS_ERR_FAILED_CREDITSAVE));
+		TCHAR szError[MAX_CFEXP_ERRORMSG];
+		if (error->GetErrorMessage(szError, ELEMENT_COUNT(szError))){
+			strError += _T(" - ");
+			strError += szError;
+		}
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, strError);
+d340 7
+a348 1
+	delete[] pbyteBuffer;
+d702 1
+a702 1
+}@
+
+
+1.21
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@d23 1
+d54 1
+a54 1
+	memset(m_pCredits, 0, sizeof(CreditStruct));
+d257 1
+a257 1
+			memset(newcstruct, 0, sizeof(CreditStruct));
+d371 1
+a371 1
+		memset(m_abyPublicKey,0,80); // for debugging
+d436 1
+a436 1
+	memset(m_abyMyPublicKey,0,80); // not really needed; better for debugging tho
+d559 1
+a559 1
+		memcpy(abyBuffer,m_abyMyPublicKey,m_nMyPublicKeyLen);
+d628 1
+a628 1
+	memset(newcstruct, 0, sizeof(CreditStruct));
+d634 1
+a634 1
+	memset(pachSignature,200,0);
+d640 1
+a640 1
+	memset(newcstruct2, 0, sizeof(CreditStruct));
+@
+
+
+1.20
+log
+@Temporary debug log spam control
+@
+text
+@d311 1
+a311 1
+	BYTE* pBuffer = new BYTE[count*sizeof(CreditStruct)];
+d321 1
+a321 1
+			memcpy2(pBuffer+(count*sizeof(CreditStruct)), cur_credit->GetDataStruct(), sizeof(CreditStruct));
+d330 1
+a330 1
+		file.Write(pBuffer, count*sizeof(CreditStruct));
+d347 1
+a347 1
+	delete[] pBuffer;
+@
+
+
+1.19
+log
+@Minor fixes and crash fix for Known List.
+@
+text
+@d400 1
+d402 1
+@
+
+
+1.18
+log
+@Removed all #ifndef AMDs and consolidated CPU specific behavior in md4cpy() and new method memcpy2() (come up with a better name if you can :P ).
+@
+text
+@d103 7
+a118 6
+	}
+	else
+        // check the client ident status
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY || GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && g_eMuleApp.m_pClientCreditList->CryptoAvailable() ){
+		// bad guy - no credits for you
+		return 1;
+@
+
+
+1.17
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d320 1
+a320 5
+			#ifndef AMD
+			memcpy(pBuffer+(count*sizeof(CreditStruct)), cur_credit->GetDataStruct(), sizeof(CreditStruct));
+			#else
+			memcpy_amd(pBuffer+(count*sizeof(CreditStruct)), cur_credit->GetDataStruct(), sizeof(CreditStruct));
+			#endif
+d375 1
+a375 5
+		#ifndef AMD
+		memcpy(m_abyPublicKey, m_pCredits->abySecureIdent, m_nPublicKeyLen);
+		#else
+		memcpy_amd(m_abyPublicKey, m_pCredits->abySecureIdent, m_nPublicKeyLen);
+		#endif
+d388 1
+a388 5
+		#ifndef AMD
+		memcpy(m_pCredits->abySecureIdent, m_abyPublicKey, m_nPublicKeyLen);
+		#else
+		memcpy_amd(m_pCredits->abySecureIdent, m_abyPublicKey, m_nPublicKeyLen);
+		#endif
+d405 1
+a405 5
+	#ifndef AMD
+	memcpy(m_abyPublicKey,pachIdent, nIdentLen);
+	#else
+	memcpy_amd(m_abyPublicKey,pachIdent, nIdentLen);
+	#endif
+d518 1
+a518 5
+		#ifndef AMD
+		memcpy(abyBuffer,pTarget->GetSecureIdent(),keylen);
+		#else
+		memcpy_amd(abyBuffer,pTarget->GetSecureIdent(),keylen);
+		#endif
+d522 1
+a522 5
+		#ifndef AMD
+		memcpy(abyBuffer+keylen,&challenge,4);
+		#else
+		memcpy_amd(abyBuffer+keylen,&challenge,4);
+		#endif
+d526 2
+a527 7
+			#ifndef AMD
+			memcpy(abyBuffer+keylen+4,&ChallengeIP,4);
+			memcpy(abyBuffer+keylen+4+4,&byChaIPKind,1);
+			#else
+			memcpy_amd(abyBuffer+keylen+4,&ChallengeIP,4);
+			memcpy_amd(abyBuffer+keylen+4+4,&byChaIPKind,1);
+			#endif
+d558 1
+a558 5
+		#ifndef AMD
+		memcpy(abyBuffer+m_nMyPublicKeyLen,&challenge,4);
+		#else
+		memcpy_amd(abyBuffer+m_nMyPublicKeyLen,&challenge,4);
+		#endif
+d582 2
+a583 7
+			#ifndef AMD
+			memcpy(abyBuffer+m_nMyPublicKeyLen+4,&ChallengeIP,4);
+			memcpy(abyBuffer+m_nMyPublicKeyLen+4+4,&byChaIPKind,1);
+			#else
+			memcpy_amd(abyBuffer+m_nMyPublicKeyLen+4,&ChallengeIP,4);
+			memcpy_amd(abyBuffer+m_nMyPublicKeyLen+4+4,&byChaIPKind,1);
+			#endif
+@
+
+
+1.16
+log
+@Update for new sockets
+@
+text
+@d21 1
+a21 1
+#include "clientcredits.h"
+d67 1
+a67 1
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY || GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && theApp.clientcredits->CryptoAvailable() ){
+d80 1
+a80 1
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY || GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && theApp.clientcredits->CryptoAvailable() ){
+d115 1
+a115 1
+	if ( ( GetCurrentIdentState(dwForIP) == IS_IDFAILED || GetCurrentIdentState(dwForIP) == IS_IDBADGUY || GetCurrentIdentState(dwForIP) == IS_IDNEEDED) && theApp.clientcredits->CryptoAvailable() ){
+d186 1
+a186 1
+			theApp.emuledlg->AddLogLine(true, strError);
+d196 1
+a196 1
+			theApp.emuledlg->AddLogLine(false, GetResString(IDS_ERR_CREDITFILEOLD));
+d229 1
+a229 1
+				theApp.emuledlg->AddLogLine(false, GetResString(IDS_ERR_MAKEBAKCREDITFILE));
+d240 1
+a240 1
+				theApp.emuledlg->AddLogLine(true, strError);
+d272 2
+a273 2
+		if (cDeleted>0) theApp.emuledlg->AddLogLine(false, GetResString(IDS_CREDITFILELOADED) + GetResString(IDS_CREDITSEXPIRED), count-cDeleted,cDeleted);
+			else theApp.emuledlg->AddLogLine(false, GetResString(IDS_CREDITFILELOADED), count);
+d279 1
+a279 1
+			theApp.emuledlg->AddLogLine(true, GetResString(IDS_CREDITFILECORRUPT));
+d283 1
+a283 1
+			theApp.emuledlg->AddLogLine(true, GetResString(IDS_ERR_CREDITFILEREAD), buffer);
+d291 1
+a291 1
+	DEBUG_ONLY(theApp.emuledlg->AddDebugLogLine(false, "Saved Credit list"));
+d305 1
+a305 1
+		theApp.emuledlg->AddLogLine(true, strError);
+d334 2
+a335 2
+		//if (theApp.glob_prefs->GetCommitFiles() >= 2 || (theApp.glob_prefs->GetCommitFiles() >= 1 && !theApp.emuledlg->IsRunning()))
+		if (!theApp.emuledlg->IsRunning())
+d346 1
+a346 1
+		theApp.emuledlg->AddLogLine(true, strError);
+d407 1
+a407 1
+			DEBUG_ONLY(theApp.emuledlg->AddDebugLogLine(false, "Credits deleted due to new SecureIdent"));
+d411 1
+a411 1
+DEBUG_ONLY(theApp.emuledlg->AddDebugLogLine(false, "client verified!"));
+d489 1
+a489 1
+		theApp.emuledlg->AddLogLine(false, GetResString(IDS_CRYPT_INITFAILED));
+d603 3
+a605 3
+					if (theApp.serverconnect->GetClientID() == 0 || theApp.serverconnect->IsLowID()){
+						theApp.emuledlg->AddDebugLogLine(false, "Warning: Maybe SecureHash Ident fails because LocalIP is unknown");
+						ChallengeIP = theApp.serverconnect->GetLocalIP();
+d608 1
+a608 1
+						ChallengeIP = theApp.serverconnect->GetClientID();
+d714 1
+a714 1
+				theApp.emuledlg->AddDebugLogLine(false,"Warning: WaitTime resetted due to Invalid Ident for Userhash %s",buffer.GetBuffer());*/
+@
+
+
+1.15
+log
+@AMD Optimization
+@
+text
+@d602 1
+d609 1
+@
+
+
+1.14
+log
+@Fixed problem with exchanged sources names.
+@
+text
+@d320 1
+d322 3
+d379 1
+d381 3
+d396 1
+d398 3
+d417 1
+d419 3
+d534 1
+d536 3
+d542 1
+d544 3
+d550 1
+d553 4
+d587 1
+d589 3
+a591 1
+		
+d613 1
+d616 4
+@
+
+
+1.13
+log
+@Implemented ConfigDir
+@
+text
+@d412 5
+@
+
+
+1.12
+log
+@SecureIdent Support Mainly
+Too many changes to mention here
+@
+text
+@d173 2
+a174 2
+//	CString strFileName = m_pAppPrefs->GetConfigDir() + CString(CLIENTS_MET_FILENAME);
+	CString strFileName = m_pAppPrefs->GetAppDir() + CString(CLIENTS_MET_FILENAME);
+d203 2
+a204 2
+//		strBakFileName.Format(_T("%s") CLIENTS_MET_FILENAME _T(".BAK"), m_pAppPrefs->GetConfigDir());
+		strBakFileName.Format(_T("%s") CLIENTS_MET_FILENAME _T(".BAK"), m_pAppPrefs->GetAppDir());
+d294 2
+a295 2
+//	CString name = m_pAppPrefs->GetConfigDir() + CString(CLIENTS_MET_FILENAME);
+	CString name = m_pAppPrefs->GetAppDir() + CString(CLIENTS_MET_FILENAME);
+d433 3
+a435 1
+//	HANDLE hKeyFile = ::CreateFile(m_pAppPrefs->GetConfigDir() + CString("cryptkey.dat"), GENERIC_READ, FILE_SHARE_READ, NULL,
+a436 2
+	HANDLE hKeyFile = ::CreateFile(m_pAppPrefs->GetAppDir() + CString("cryptkey.dat"), GENERIC_READ, FILE_SHARE_READ, NULL,
+										OPEN_EXISTING, FILE_ATTRIBUTE_NORMAL, NULL);
+d452 2
+a453 2
+		//FileSource filesource(CString(m_pAppPrefs->GetConfigDir() + CString("cryptkey.dat")), true,new Base64Decoder);
+		FileSource filesource(CString(m_pAppPrefs->GetAppDir() + CString("cryptkey.dat")), true,new Base64Decoder);
+d479 2
+a480 2
+		//Base64Encoder privkeysink(new FileSink(CString(m_pAppPrefs->GetConfigDir())+"cryptkey.dat"));
+		Base64Encoder privkeysink(new FileSink(CString(m_pAppPrefs->GetAppDir())+"cryptkey.dat"));
+@
+
+
+1.11
+log
+@missed this one
+@
+text
+@d18 2
+d26 4
+d37 2
+d40 8
+a47 2
+CClientCredits::CClientCredits(CFile& file){
+	Load(file);
+d50 9
+a58 8
+CClientCredits::CClientCredits(uchar* k){	
+	uploaded = 0;
+	downloaded = 0;
+	lastseen = 0;
+	reserved1 = 0;
+	reserved2 = 0;
+	reserved3 = 0;		
+	md4cpy(key,k);	
+d61 3
+a63 1
+CClientCredits::~CClientCredits(){	
+d66 4
+a69 2
+void CClientCredits::AddDownloaded(uint32 bytes) {
+
+d71 2
+a72 2
+	uint64 current = reserved2;
+	current = (current<<32) + downloaded + bytes ;
+d75 2
+a76 3
+	downloaded = (uint32)current;
+	reserved2 = (uint32)(current>>32);
+
+d79 4
+a82 2
+void CClientCredits::AddUploaded(uint32 bytes) {
+
+d84 2
+a85 2
+	uint64 current = reserved1;
+	current = (current<<32) + uploaded + bytes ;
+d88 2
+a89 2
+	uploaded = (uint32)current;
+	reserved1 = (uint32)(current>>32);
+d93 1
+a93 5
+	//encode
+	//uint64 current=credits->reserved1;
+	//current=(current<<32)+ credits->uploaded;
+
+	return ( (uint64)reserved1<<32)+uploaded;
+d97 1
+a97 4
+	//encode
+	//uint64 current=credits->reserved2;
+	//current=(current<<32)+ credits->downloaded ;
+	return ( (uint64)reserved2<<32)+downloaded;
+d100 2
+a101 1
+float CClientCredits::GetScoreRatio(bool inverted){
+d106 3
+a108 3
+	uint32 d = downloaded;
+	uint32 u = uploaded;
+	if (inverted)
+d110 8
+a117 2
+		d = uploaded;
+		u = downloaded;
+d123 1
+a123 1
+	if (u == 0)
+d126 1
+a126 1
+		result = (float)(d*2)/u;
+d128 1
+a128 1
+	result2 = (float)(d/1048576);
+a143 24
+bool CClientCredits::Load(CFile& file) {
+	file.Read(key, sizeof(key));
+	file.Read(&uploaded, sizeof(uploaded));
+	file.Read(&downloaded, sizeof(downloaded));
+	file.Read(&lastseen, sizeof(lastseen));
+	file.Read(&reserved1, sizeof(reserved1));
+	file.Read(&reserved2, sizeof(reserved2));
+	file.Read(&reserved3, sizeof(reserved3));
+	return true;
+}
+
+bool CClientCredits::Save(CFile& file) const {
+	if (uploaded > 0 || downloaded > 0) { 
+		file.Write(key, sizeof(key));
+		file.Write(&uploaded, sizeof(uploaded));
+		file.Write(&downloaded, sizeof(downloaded));
+		file.Write(&lastseen, sizeof(lastseen));
+		file.Write(&reserved1, sizeof(reserved1));
+		file.Write(&reserved2, sizeof(reserved2));
+		file.Write(&reserved3, sizeof(reserved3));
+		return true;
+	}
+	return false;
+}
+d145 4
+a148 4
+
+CClientCreditsList::CClientCreditsList(CPreferences* in_prefs){
+	app_prefs = in_prefs;
+	lastsaved = ::GetTickCount();
+d150 2
+d154 2
+a155 2
+CClientCreditsList::~CClientCreditsList(){
+	EMULE_TRY
+d159 1
+a159 1
+	POSITION pos = client_map.GetStartPosition();
+d161 1
+a161 1
+		client_map.GetNextAssoc(pos,tmpkey,cur_credit);
+d164 5
+a168 2
+	client_map.RemoveAll();
+	EMULE_CATCH
+d171 21
+a191 3
+void CClientCreditsList::LoadList(){
+	EMULE_TRY
+	CSafeFile file;
+a192 5
+		CString name = app_prefs->GetAppDir() + CString("clients.met");
+		if (!file.Open(name,CFile::modeRead)){
+			AddLogLine(false,IDS_ERR_LOADCREDITFILE);
+			return;
+		}
+d194 3
+a196 3
+		file.Read(&version,1);
+		if (version != CREDITFILE_VERSION){
+			AddLogLine(false,IDS_ERR_CREDITFILEOLD);
+d200 47
+d248 21
+a268 5
+		file.Read(&count,4);
+		client_map.InitHashTable(count+5000);
+		for (uint32 i = 0; i < count;i++){			
+			CClientCredits* newcredits = new CClientCredits(file);
+			client_map.SetAt(CCKey(newcredits->GetKey()),newcredits);
+d271 4
+a274 1
+		AddLogLine(false,IDS_CREDITFILELOADED,count);
+d279 1
+a279 1
+			AddLogLine(true,IDS_CREDITFILECORRUPT);
+d281 3
+a283 1
+			AddLogLine(true,IDS_ERR_CREDITFILEREAD,GetErrorMessage(error));
+a286 1
+	EMULE_CATCH
+d289 17
+a305 7
+void CClientCreditsList::SaveList(){
+	EMULE_TRY
+	CString name = app_prefs->GetAppDir() + CString("clients.met");
+	CFile diskfile;
+	CMemFile file(0, 0, 16384); 
+	if (!diskfile.Open(name,CFile::modeWrite|CFile::modeCreate)){
+		AddLogLine(true,IDS_ERR_FAILED_CREDITSAVE);
+d308 3
+a310 4
+	uint8 version = CREDITFILE_VERSION;
+	file.Write(&version,1);
+	uint32 count = client_map.GetCount();
+	file.Write(&count,4);
+d313 1
+a313 1
+	POSITION pos = client_map.GetStartPosition();
+d315 32
+a346 14
+	while (pos){
+		client_map.GetNextAssoc(pos,tempkey,cur_credit);		
+        if (cur_credit->Save(file))
+			count++; 		
+	}
+    file.Seek(1,FILE_BEGIN); 
+    file.Write(&count,4); 
+    int size = file.GetLength(); 
+    BYTE* tmp = file.Detach(); 
+    diskfile.Write(tmp,size); 
+    free(tmp); 
+    diskfile.Close(); 
+	lastsaved = ::GetTickCount();
+	EMULE_CATCH
+d349 2
+a350 2
+CClientCredits* CClientCreditsList::GetCredit(uchar* key){
+	EMULE_TRY
+d353 1
+a353 1
+	if (!client_map.Lookup(tkey,result)){
+d355 1
+a355 1
+		client_map.SetAt(CCKey(result->GetKey()),result);
+a358 2
+	EMULE_CATCH
+	return NULL;
+d361 3
+a363 2
+void CClientCreditsList::Process(){
+	if (::GetTickCount() - lastsaved > 70000)
+d365 327
+@
+
+
+1.10
+log
+@simplified...
+@
+text
+@d92 2
+a93 2
+	uint32 downloaded = downloaded;
+	uint32 uploaded   = uploaded;
+d96 2
+a97 2
+		downloaded = uploaded;
+		uploaded   = downloaded;
+d100 1
+a100 1
+	if (downloaded < 1000000)
+d103 1
+a103 1
+	if (!uploaded)
+d106 1
+a106 1
+		result = (float)(downloaded*2)/uploaded;
+d108 1
+a108 1
+	result2 = (float)(downloaded/1048576);
+@
+
+
+1.9
+log
+@converted to helper function GetErrorMessage
+@
+text
+@d32 2
+a33 2
+CClientCredits::CClientCredits(Credit_Struct* in_credits){
+	credits = in_credits;
+d36 8
+a43 6
+CClientCredits::CClientCredits(uchar* key){
+	EMULE_TRY
+	credits = new Credit_Struct;
+	memset(credits,0,sizeof(Credit_Struct));
+	md4cpy(credits->key,key);
+	EMULE_CATCH
+d46 1
+a46 5
+CClientCredits::~CClientCredits(){
+	EMULE_TRY
+	if(credits)
+		delete credits;
+	EMULE_CATCH
+d48 1
+d52 2
+a53 2
+	uint64 current=credits->reserved2;
+	current=(current<<32)+ credits->downloaded + bytes ;
+d56 2
+a57 2
+	credits->downloaded =(uint32)current;
+	credits->reserved2=(uint32)(current>>32);
+d64 2
+a65 2
+	uint64 current=credits->reserved1;
+	current=(current<<32)+ credits->uploaded + bytes ;
+d68 2
+a69 3
+	credits->uploaded =(uint32)current;
+	credits->reserved1=(uint32)(current>>32);
+
+d77 1
+a77 1
+	return ( (uint64)credits->reserved1<<32)+credits->uploaded;
+d84 1
+a84 1
+	return ( (uint64)credits->reserved2<<32)+credits->downloaded;
+d91 3
+a93 4
+	// at the remote client from ist own data
+	if (!credits) return 1;
+	uint32 downloaded = credits->downloaded;
+	uint32 uploaded   = credits->uploaded;
+d96 2
+a97 2
+		downloaded = credits->uploaded;
+		uploaded   = credits->downloaded;
+d124 25
+d189 2
+a190 5
+		for (uint32 i = 0; i < count;i++){
+			Credit_Struct* newcstruct = new Credit_Struct;
+			memset(newcstruct,0,sizeof(Credit_Struct));
+			file.Read(newcstruct,sizeof(Credit_Struct));
+			CClientCredits* newcredits = new CClientCredits(newcstruct);
+d226 3
+a228 5
+		client_map.GetNextAssoc(pos,tempkey,cur_credit);
+		if (cur_credit->GetDataStruct()->uploaded + cur_credit->GetDataStruct()->downloaded > 0){ 
+          file.Write(cur_credit->GetDataStruct(),sizeof(Credit_Struct)); 
+          count++; 
+		}
+d258 1
+a258 3
+}
+
+
+@
+
+
+1.8
+log
+@converted to new logger methods
+@
+text
+@d182 1
+a182 3
+			char buffer[150];
+			error->GetErrorMessage(buffer,150);
+			AddLogLine(true,IDS_ERR_CREDITFILEREAD,buffer);
+@
+
+
+1.7
+log
+@minor fixes and improvements
+@
+text
+@d154 1
+a154 1
+			AddLogLine(false,GetResString(IDS_ERR_LOADCREDITFILE));
+d160 1
+a160 1
+			AddLogLine(false,GetResString(IDS_ERR_CREDITFILEOLD));
+d175 1
+a175 1
+		AddLogLine(false,GetResString(IDS_CREDITFILELOADED),count);
+d180 1
+a180 1
+			AddLogLine(true,GetResString(IDS_CREDITFILECORRUPT));
+d184 1
+a184 1
+			AddLogLine(true,GetResString(IDS_ERR_CREDITFILEREAD),buffer);
+d197 1
+a197 1
+		AddLogLine(true,GetResString(IDS_ERR_FAILED_CREDITSAVE));
+@
+
+
+1.6
+log
+@Crash on exit workarounds
+@
+text
+@d40 1
+a40 1
+	memcpy(credits->key,key,16);
+d50 38
+d167 1
+a167 1
+		for (uint32 i = 0; i != count;i++){
+@
+
+
+1.5
+log
+@converted to new logging method
+@
+text
+@d37 1
+d41 1
+d45 4
+a48 1
+	delete credits;
+d97 1
+d107 1
+d111 1
+d150 1
+d154 1
+d185 1
+d189 1
+d198 2
+@
+
+
+1.5.4.1
+log
+@27c
+@
+text
+@a36 1
+	EMULE_TRY
+a39 1
+	EMULE_CATCH
+d43 1
+a43 43
+	EMULE_TRY
+	if(credits)
+		delete credits;
+	EMULE_CATCH
+}
+
+void CClientCredits::AddDownloaded(uint32 bytes) {
+
+	//encode
+	uint64 current=credits->reserved2;
+	current=(current<<32)+ credits->downloaded + bytes ;
+
+	//recode
+	credits->downloaded =(uint32)current;
+	credits->reserved2=(uint32)(current>>32);
+
+}
+
+void CClientCredits::AddUploaded(uint32 bytes) {
+
+	//encode
+	uint64 current=credits->reserved1;
+	current=(current<<32)+ credits->uploaded + bytes ;
+
+	//recode
+	credits->uploaded =(uint32)current;
+	credits->reserved1=(uint32)(current>>32);
+
+}
+
+uint64	CClientCredits::GetUploadedTotal(){
+	//encode
+	//uint64 current=credits->nReserved1;
+	//current=(current<<32)+ credits->nUploaded;
+
+	return ( (uint64)credits->reserved1<<32)+credits->uploaded;
+}
+
+uint64	CClientCredits::GetDownloadedTotal(){
+	//encode
+	//uint64 current=credits->nReserved2;
+	//current=(current<<32)+ credits->nDownloaded ;
+	return ( (uint64)credits->reserved2<<32)+credits->downloaded;
+a91 1
+	EMULE_TRY
+a100 1
+	EMULE_CATCH
+a103 1
+	EMULE_TRY
+a141 1
+	EMULE_CATCH
+a144 1
+	EMULE_TRY
+a174 1
+	EMULE_CATCH
+a177 1
+	EMULE_TRY
+a185 2
+	EMULE_CATCH
+	return NULL;
+@
+
+
+1.4
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@d108 1
+a108 1
+			theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_LOADCREDITFILE));
+d114 1
+a114 1
+			theApp.emuledlg->AddLogLine(false,GetResString(IDS_ERR_CREDITFILEOLD));
+d129 1
+a129 1
+		theApp.emuledlg->AddLogLine(false,GetResString(IDS_CREDITFILELOADED),count);
+d134 1
+a134 1
+			theApp.emuledlg->AddLogLine(true,GetResString(IDS_CREDITFILECORRUPT));
+d138 1
+a138 1
+			theApp.emuledlg->AddLogLine(true,GetResString(IDS_ERR_CREDITFILEREAD),buffer);
+d149 1
+a149 1
+		theApp.emuledlg->AddLogLine(true,GetResString(IDS_ERR_FAILED_CREDITSAVE));
+@
+
+
+1.3
+log
+@updated to .25b codebase
+@
+text
+@d25 7
+@
+
+
+1.3.2.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@d138 2
+a139 2
+	CString name = app_prefs->GetAppDir() + CString("clients.met"); 
+ 	CFile diskfile; 
+d141 6
+a146 6
+	if (!diskfile.Open(name, CFile::modeWrite | CFile::modeCreate)) {
+		theApp.emuledlg->AddLogLine(true,GetResString(IDS_ERR_FAILED_CREDITSAVE)); 
+		return; 
+	} 
+	uint8 version = CREDITFILE_VERSION; 
+	file.Write(&version,1); 
+d148 4
+a151 4
+	file.Write(&count,4); 
+	CClientCredits* cur_credit; 
+	CCKey tempkey(0); 
+	POSITION pos = client_map.GetStartPosition(); 
+d153 2
+a154 2
+	while (pos){ 
+		client_map.GetNextAssoc(pos,tempkey,cur_credit); 
+d156 12
+a167 12
+			file.Write(cur_credit->GetDataStruct(),sizeof(Credit_Struct)); 
+			count++; 
+		}    
+	} 
+	file.Seek(1,FILE_BEGIN); 
+	file.Write(&count,4); 
+    	int size = file.GetLength(); 
+	BYTE* tmp = file.Detach();
+	diskfile.Write(tmp, size);
+	free(tmp);
+	diskfile.Close();
+	lastsaved = ::GetTickCount(); 
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d39 15
+a53 2
+float CClientCredits::GetScoreRatio(){
+	if (credits->downloaded < 1000000)
+d56 1
+a56 1
+	if (!credits->uploaded)
+d59 1
+a59 1
+		result = (float)(credits->downloaded*2)/credits->uploaded;
+d61 1
+a61 1
+	result2 = (float)(credits->downloaded/1048576);
+d73 2
+@
+

@@ -1,0 +1,496 @@
+head	1.11;
+access;
+symbols
+	PublicRelease_1_2e:1.11
+	Interim_Release_1-2e_RC1:1.11
+	PublicRelease_1_2d:1.10
+	Interim_Release_1-2d_RC1:1.10
+	Interim_Release_1-2d_beta1:1.10
+	PublicRelease_1_2c:1.8
+	Interim_Release_1-2c_RC1:1.8
+	Interim_Release_1-2c_beta1:1.8
+	PublicRelease_1_2b:1.8
+	Interim_Release_1-2b_RC1:1.8
+	PublicRelease_1_2a:1.8
+	Interim_Release_1-2a_RC1:1.8
+	Interim_Release_1-2a_beta2:1.8
+	Interim_Release_1-2a_beta1:1.8
+	PublicRelease_1_2:1.8
+	Interim_Release_1-2_RC1:1.8
+	Interim_Release_1-2_beta1:1.8
+	PublicRelease_1_1g:1.8
+	Interim_Release_1-1g_RC3:1.8
+	Interim_Release_1-1g_RC2:1.8
+	Interim_Release_1-1g_RC1:1.8
+	Interim_Release_1-1g_beta2:1.7
+	Interim_Release_1-1g_beta1:1.7
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.6
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.5
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	Interim_Release_1n_beta1:1.5
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.11
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2007.12.30.06.07.44;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2007.10.31.18.26.28;	author fuxie-dk;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2005.08.19.19.07.59;	author eklmn;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.09.21.03.05.07;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.06.30.13.57.17;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.06.30.13.38.41;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.05.04.11.28.00;	author netwolf1;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.04.18.13.17.30;	author bavariansnail;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2004.04.17.15.27.54;	author dongato;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@Simplified logging system implementation.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+#include "stdafx.h"
+#include "emule.h"
+#include "PPgLogs.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+IMPLEMENT_DYNAMIC(CPPgLogs, CPropertyPage)
+
+BEGIN_MESSAGE_MAP(CPPgLogs, CPropertyPage)
+	ON_BN_CLICKED(IDC_LOGTOFILE, OnSettingsChange)
+	ON_BN_CLICKED(IDC_VERBOSE, OnChangeDebugLogging)
+	ON_BN_CLICKED(IDC_CM_NOTLOG, OnSettingsChange)
+	ON_BN_CLICKED(IDC_UPLOAD_LOG, OnSettingsChange)
+	ON_BN_CLICKED(IDC_DOWNLOAD_LOG, OnSettingsChange)
+	ON_BN_CLICKED(IDC_AUTOSRC_LOG, OnSettingsChange)
+	ON_BN_CLICKED(IDC_CLIENT_LOG, OnSettingsChange)
+END_MESSAGE_MAP()
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPPgLogs::CPPgLogs()
+	: CPropertyPage(CPPgLogs::IDD)
+	, m_bWriteLogToFile(FALSE)
+	, m_bDebugLog(FALSE)
+	, m_bCmNotLog(FALSE)
+	, m_bUploadLog(FALSE)
+	, m_bDownloadLog(FALSE)
+	, m_bAutoSrcLog(FALSE)
+	, m_bClientTransferLog(FALSE)
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+CPPgLogs::~CPPgLogs()
+{
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgLogs::DoDataExchange(CDataExchange *pDX)
+{
+	CPropertyPage::DoDataExchange(pDX);
+	DDX_Check(pDX, IDC_LOGTOFILE, m_bWriteLogToFile);
+	DDX_Check(pDX, IDC_VERBOSE, m_bDebugLog);
+	DDX_Check(pDX, IDC_CM_NOTLOG, m_bCmNotLog);
+	DDX_Check(pDX, IDC_UPLOAD_LOG, m_bUploadLog);
+	DDX_Check(pDX, IDC_DOWNLOAD_LOG, m_bDownloadLog);
+	DDX_Check(pDX, IDC_AUTOSRC_LOG, m_bAutoSrcLog);
+	DDX_Check(pDX, IDC_CLIENT_LOG, m_bClientTransferLog);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPPgLogs::OnInitDialog()
+{
+	CPropertyPage::OnInitDialog();
+
+	LoadSettings();
+	Localize();
+
+	return TRUE;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgLogs::LoadSettings(void)
+{
+	m_bWriteLogToFile = m_pPrefs->LogToFile();
+	m_bDebugLog = m_pPrefs->GetVerbose();
+	m_bCmNotLog = m_pPrefs->IsCMNotLog();
+	m_bUploadLog = m_pPrefs->LogUploadToFile();
+	m_bDownloadLog = m_pPrefs->LogDownloadToFile();
+	m_bAutoSrcLog = m_pPrefs->IsAutoSourcesLogEnabled();
+	m_bClientTransferLog = m_pPrefs->IsClientTransferLogEnabled();
+
+	UpdateData(FALSE);
+
+	OnChangeDebugLogging();
+
+	SetModified(FALSE);
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CPPgLogs::OnApply()
+{
+	if(m_bModified)
+	{
+		UpdateData(TRUE);
+
+		m_pPrefs->SetLogToFile(B2b(m_bWriteLogToFile));
+		if (m_pPrefs->GetVerbose() != B2b(m_bDebugLog))
+		{
+			m_pPrefs->SetVerbose(B2b(m_bDebugLog));
+			g_App.m_pMDlg->m_wndServer.ToggleDebugWindow();
+			if (m_bDebugLog)
+				g_App.m_pMDlg->AddLogLine(LOG_FL_DBG, _T("Debug log is active"));
+		}
+		m_pPrefs->SetCMNotLog(B2b(m_bCmNotLog));
+		m_pPrefs->SetLogUploadToFile(B2b(m_bUploadLog));
+		m_pPrefs->SetLogDownloadToFile(B2b(m_bDownloadLog));
+		m_pPrefs->SetAutoSourcesLog(B2b(m_bAutoSrcLog));
+		m_pPrefs->SetClientTransferLog(B2b(m_bClientTransferLog));
+
+		SetModified(FALSE);
+	}
+
+	return CPropertyPage::OnApply();
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgLogs::Localize(void)
+{
+	static const uint16 s_auResTbl[][2] =
+	{
+		{ IDC_LOGTOFILE, IDS_LOGTOFILE },
+		{ IDC_VERBOSE, IDS_VERBOSE },
+		{ IDC_CM_NOTLOG, IDS_CM_NOTLOG },
+		{ IDC_UPLOAD_LOG, IDS_UPLOAD_LOG },
+		{ IDC_DOWNLOAD_LOG, IDS_DOWNLOAD_LOG },
+		{ IDC_AUTOSRC_LOG, IDS_AUTOSRC_LOG_LBL },
+		{ IDC_CLIENT_LOG, IDS_CLIENT_LOG }
+	};
+
+	if (::IsWindow(m_hWnd))
+	{
+		CString	strRes;
+
+		for (uint32 i = 0; i < ARRSIZE(s_auResTbl); i++)
+		{
+			::GetResString(&strRes, static_cast<UINT>(s_auResTbl[i][1]));
+			SetDlgItemText(s_auResTbl[i][0], strRes);
+		}
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void CPPgLogs::OnChangeDebugLogging()
+{
+	UpdateData(TRUE);
+	GetDlgItem(IDC_AUTOSRC_LOG)->EnableWindow(m_bDebugLog);
+	GetDlgItem(IDC_CLIENT_LOG)->EnableWindow(m_bDebugLog);
+	SetModified();
+}
+@
+
+
+1.10
+log
+@Removed old not used localization;
+Optimized dialog regarding required memory and speed;
+Suppressed compiler warnings; Formatting.
+@
+text
+@d107 1
+a107 1
+				g_App.m_pMDlg->AddDebugLogLine(_T("Debug log is active"));
+@
+
+
+1.9
+log
+@Reduced H-file dependency [Aw3].
+@
+text
+@d42 7
+a48 7
+	, writeLogToFile(FALSE)
+	, debugLog(FALSE)
+	, cmNotLog(FALSE)
+	, uploadLog(FALSE)
+	, downloadLog(FALSE)
+	, autoSourcesLogEnabled(FALSE)
+	, clientTransferLogEnabled(FALSE)
+d59 7
+a65 14
+	DDX_Control(pDX, IDC_LOGTOFILE, writeLogToFileCheck);
+	DDX_Control(pDX, IDC_VERBOSE, debugLogCheck);
+	DDX_Control(pDX, IDC_CM_NOTLOG, cmNotLogCheck);
+	DDX_Control(pDX, IDC_UPLOAD_LOG, uploadLogCheck);
+	DDX_Control(pDX, IDC_DOWNLOAD_LOG, downloadLogCheck);
+	DDX_Control(pDX, IDC_AUTOSRC_LOG, autoSourcesLogEnabledCheck);
+	DDX_Control(pDX, IDC_CLIENT_LOG, clientTransferLogEnabledCheck);
+	DDX_Check(pDX, IDC_LOGTOFILE, writeLogToFile);
+	DDX_Check(pDX, IDC_VERBOSE, debugLog);
+	DDX_Check(pDX, IDC_CM_NOTLOG, cmNotLog);
+	DDX_Check(pDX, IDC_UPLOAD_LOG, uploadLog);
+	DDX_Check(pDX, IDC_DOWNLOAD_LOG, downloadLog);
+	DDX_Check(pDX, IDC_AUTOSRC_LOG, autoSourcesLogEnabled);
+	DDX_Check(pDX, IDC_CLIENT_LOG, clientTransferLogEnabled);
+d80 7
+a86 7
+	writeLogToFile = m_pPrefs->LogToFile();
+	debugLog = m_pPrefs->GetVerbose();
+	cmNotLog = m_pPrefs->IsCMNotLog();
+	uploadLog = m_pPrefs->LogUploadToFile();
+	downloadLog = m_pPrefs->LogDownloadToFile();
+	autoSourcesLogEnabled = m_pPrefs->IsAutoSourcesLogEnabled();
+	clientTransferLogEnabled = m_pPrefs->IsClientTransferLogEnabled();
+d101 2
+a102 2
+		m_pPrefs->SetLogToFile(writeLogToFile);
+		if (m_pPrefs->GetVerbose() != (bool)debugLog)
+d104 1
+a104 1
+			m_pPrefs->SetVerbose(debugLog);
+d106 1
+a106 1
+			if(debugLog)
+d109 5
+a113 5
+		m_pPrefs->SetCMNotLog(cmNotLog);
+		m_pPrefs->SetLogUploadToFile(uploadLog);
+		m_pPrefs->SetLogDownloadToFile(downloadLog);
+		m_pPrefs->SetAutoSourcesLogEnabled(autoSourcesLogEnabled);
+		m_pPrefs->SetClientTransferLogEnabled(clientTransferLogEnabled);
+d123 1
+a123 1
+	if(::IsWindow(m_hWnd))
+d125 18
+a142 8
+		SetWindowText(GetResString(IDS_PW_GENERAL));
+		writeLogToFileCheck.SetWindowText(GetResString(IDS_LOGTOFILE));
+		debugLogCheck.SetWindowText(GetResString(IDS_VERBOSE));
+		cmNotLogCheck.SetWindowText(GetResString(IDS_CM_NOTLOG));
+		uploadLogCheck.SetWindowText(GetResString(IDS_UPLOAD_LOG));
+		downloadLogCheck.SetWindowText(GetResString(IDS_DOWNLOAD_LOG));
+		autoSourcesLogEnabledCheck.SetWindowText(GetResString(IDS_AUTOSRC_LOG_LBL));
+		clientTransferLogEnabledCheck.SetWindowText(GetResString(IDS_CLIENT_LOG));
+d149 2
+a150 2
+	autoSourcesLogEnabledCheck.EnableWindow(debugLog);
+	clientTransferLogEnabledCheck.EnableWindow(debugLog);
+@
+
+
+1.8
+log
+@renamed 3 variables
+@
+text
+@d1 1
+a1 1
+// PPgLogs.cpp : implementation file
+d3 13
+a26 2
+// CPPgLogs dialog
+
+a28 1
+//#region message map
+a37 1
+//#endregion
+d114 1
+a114 1
+				AddDebugLogLine(_T("Debug log is active"));
+@
+
+
+1.7
+log
+@download log (part2: GUI)
+@
+text
+@d103 1
+a103 1
+			g_eMuleApp.m_pdlgEmule->m_wndServer.ToggleDebugWindow();
+@
+
+
+1.6
+log
+@Enable/disable Preferences->Logs controls dependent on the debug logging.
+@
+text
+@d24 1
+d37 1
+d54 1
+d61 1
+d82 1
+d109 1
+d128 1
+@
+
+
+1.5
+log
+@Ops!
+@
+text
+@d21 1
+a21 1
+	ON_BN_CLICKED(IDC_VERBOSE, OnSettingsChange)
+d83 2
+d127 7
+@
+
+
+1.4
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@d25 1
+@
+
+
+1.3
+log
+@minor changes (function renamings, unused typedef removal)
+@
+text
+@d36 1
+d51 2
+d58 1
+a58 2
+	DDX_Control(pDX, IDC_AUTOSRC_LOG, autoSourcesLogEnabledCheck);
+
+d78 1
+d97 1
+a97 1
+				AddDebugLogLine(false, _T("Debug log is active"));
+d102 1
+d120 1
+@
+
+
+1.2
+log
+@auto max sources per file
+@
+text
+@d73 1
+a73 1
+	cmNotLog = m_pPrefs->GetCMNotLog();
+@
+
+
+1.1
+log
+@Updated preferences (moved logs to a new page so we can add more options in the future)
+@
+text
+@d24 1
+d30 6
+a35 5
+	: CPropertyPage(CPPgLogs::IDD),
+	  writeLogToFile(FALSE),
+	  debugLog(FALSE),
+	  cmNotLog(FALSE),
+	  uploadLog(FALSE)
+d54 3
+d75 1
+d98 1
+d115 1
+@
+

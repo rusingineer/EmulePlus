@@ -1,0 +1,940 @@
+head	1.11;
+access;
+symbols
+	PublicRelease_1_2e:1.11
+	Interim_Release_1-2e_RC1:1.11
+	PublicRelease_1_2d:1.11
+	Interim_Release_1-2d_RC1:1.11
+	Interim_Release_1-2d_beta1:1.11
+	PublicRelease_1_2c:1.11
+	Interim_Release_1-2c_RC1:1.11
+	Interim_Release_1-2c_beta1:1.11
+	PublicRelease_1_2b:1.11
+	Interim_Release_1-2b_RC1:1.11
+	PublicRelease_1_2a:1.11
+	Interim_Release_1-2a_RC1:1.11
+	Interim_Release_1-2a_beta2:1.11
+	Interim_Release_1-2a_beta1:1.11
+	PublicRelease_1_2:1.11
+	Interim_Release_1-2_RC1:1.11
+	Interim_Release_1-2_beta1:1.11
+	PublicRelease_1_1g:1.11
+	Interim_Release_1-1g_RC3:1.11
+	Interim_Release_1-1g_RC2:1.11
+	Interim_Release_1-1g_RC1:1.11
+	Interim_Release_1-1g_beta2:1.11
+	Interim_Release_1-1g_beta1:1.11
+	PublicRelease_1_1f:1.11
+	Interim_Release_1-1f_RC1:1.11
+	PublicRelease_1_1e:1.11
+	Interim_Release_1-1e_RC2:1.11
+	Interim_Release_1-1e_RC1:1.11
+	Interim_Release_1-1e_beta1:1.11
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.8
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.6
+	Interim_Release_1n_RC2:1.6
+	Interim_Release_1n_RC1:1.6
+	PublicRelease_1m:1.6
+	Interim_Release_1m_beta1:1.6
+	PublicRelease_1l:1.6
+	Interim_Release_1l_RC3:1.6
+	Interim_Release_1l_RC2:1.6
+	Interim_Release_1l_RC1:1.6
+	Interim_Release_1l_beta2:1.6
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.5
+	PublicRelease_1j:1.5
+	Interim_Release_1J_RC3:1.5
+	Interim_Release_1j_RC3:1.5
+	Interim_Release_1j_RC2:1.5
+	Interim_Release_1j_RC1:1.5
+	Interim_Release_1j_beta2:1.5
+	Interim_Release_1j_beta1:1.5;
+locks; strict;
+comment	@// @;
+
+
+1.11
+date	2005.04.05.05.49.06;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.03.22.22.02.09;	author kuchin;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.02.03.16.12.14;	author kuchin;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2005.01.28.20.13.51;	author kuchin;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.12.29.16.04.21;	author kuchin;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.05.21.18.37.22;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.21.16.49.37;	author kuchin;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.16.17.44.22;	author kuchin;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.12.16.14.28.59;	author kuchin;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.12.15.14.47.32;	author kuchin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.12.14.17.15.57;	author kuchin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.11
+log
+@v2 - more upload logic, light configuration (without BerkeleyDb)
+@
+text
+@// Server.cpp: implementation of the server classes
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Server.h"
+#include "../../OtherStructs.h"
+#include "../../OtherFunctions.h"
+
+#ifdef USE_BERKELEY_DB
+
+enum _EnumTagTypes
+{
+//	TAGTYPE_STRING	= 2,
+	TAGTYPE_INT		= 3,
+	TAGTYPE_FLOAT	= 4,
+};
+
+CServer::CServer(CServerKey *pKey, CServerData *pData)
+{
+	if(pKey && pData)
+	{
+		m_Key.byteVersion = pKey->byteVersion;
+		m_Key.ulAddr = pKey->ulAddr;
+		m_Key.uPort = pKey->uPort;
+		memcpy2(m_Key.szDynIP, pKey->szDynIP, MAX_DYNIP_LEN*sizeof(TCHAR));
+		m_Key.bStatic = pKey->bStatic;
+		m_Key.uPriority = pKey->uPriority;
+
+		m_Data.byteVersion = pData->byteVersion;
+		memcpy2(m_Data.szName, pData->szName, MAX_SERVERNAME_LEN*sizeof(TCHAR));
+		memcpy2(m_Data.szDescription, pData->szDescription, MAX_SERVERDESC_LEN*sizeof(TCHAR));
+		memcpy2(m_Data.szVersion, pData->szVersion, MAX_SERVER_VER_LEN*sizeof(TCHAR));
+		m_Data.dwTCPFlags = pData->dwTCPFlags;
+		m_Data.dwUDPFlags = pData->dwUDPFlags;
+		m_Data.dwChallenge = pData->dwChallenge;
+		m_Data.ulPingTime = pData->ulPingTime;
+		m_Data.uPingCount = pData->uPingCount;
+		m_Data.ulLastPingTime = pData->ulLastPingTime;
+		m_Data.uFailedCount = pData->uFailedCount;
+		m_Data.dwFilesNum = pData->dwFilesNum;
+		m_Data.dwUsersNum = pData->dwUsersNum;
+		m_Data.dwMaxUsers = pData->dwMaxUsers;
+		m_Data.dwSoftMaxFiles = pData->dwSoftMaxFiles;
+		m_Data.dwHardMaxFiles = pData->dwHardMaxFiles;
+		m_Data.dwCreditChangeTime = pData->dwCreditChangeTime;
+		m_Data.uCreditsLeft = pData->uCreditsLeft;
+	}
+	else
+	{
+		m_Key.byteVersion = 1;
+		m_Key.ulAddr = 0;
+		m_Key.uPort = 0;
+		memset(m_Key.szDynIP, 0, MAX_DYNIP_LEN*sizeof(TCHAR));
+		m_Key.bStatic = false;
+		m_Key.uPriority = 1;
+
+		m_Data.byteVersion = 1;
+		memset(m_Data.szName, 0, MAX_SERVERNAME_LEN*sizeof(TCHAR));
+		memset(m_Data.szDescription, 0, MAX_SERVERDESC_LEN*sizeof(TCHAR));
+		memset(m_Data.szVersion, 0, MAX_SERVER_VER_LEN*sizeof(TCHAR));
+		m_Data.dwTCPFlags = 0;
+		m_Data.dwUDPFlags = 0;
+		m_Data.dwChallenge = 0;
+		m_Data.ulPingTime = 0;
+		m_Data.uPingCount = 0;
+		m_Data.ulLastPingTime = 0;
+		m_Data.uFailedCount = 0;
+		m_Data.dwFilesNum = 0;
+		m_Data.dwUsersNum = 0;
+		m_Data.dwMaxUsers = 0;
+		m_Data.dwSoftMaxFiles = 0;
+		m_Data.dwHardMaxFiles = 0;
+		m_Data.dwCreditChangeTime = 0;
+		m_Data.uCreditsLeft = MAX_SERVER_CREDITS;
+	}
+
+	m_pCursor = NULL;
+}
+
+bool CServer::ImportFromServerMet(CString sFile)
+{
+	try
+	{
+		CFile file;
+		if (!file.Open(sFile, GENERIC_READ))
+		{
+			AddLog(LOG_ERROR, _T("Can't open file: %s"), sFile);
+//			AddLogLine(false, IDS_ERR_LOADSERVERMET);
+			return false;
+		}
+		BYTE uServerListVersion;
+		file.Read(&uServerListVersion, sizeof(BYTE));
+		if (uServerListVersion != 0xE0 && uServerListVersion != MET_HEADER)
+		{
+			file.Close();
+			AddLog(LOG_ERROR, _T("Bad server.met version: %u"), uServerListVersion);
+//			AddLogLine(false, IDS_ERR_BADSERVERMETVERSION, m_uServerListVersion);
+			return false;
+		}
+
+		uint32 dwServerCount;
+		file.Read(&dwServerCount, 4);
+
+		ServerMet_Struct stServerStruct;
+		uint32 dwAddedServerCount = 0;
+		CString strListName;
+
+		for (uint32 j = 0; j != dwServerCount; j++)
+		{
+			//	get server
+			file.Read(&stServerStruct, sizeof(ServerMet_Struct));
+
+			CServer stServer;
+			stServer.m_Key.ulAddr = stServerStruct.m_dwIP;
+			stServer.m_Key.uPort = stServerStruct.m_uPort;
+
+			// read tags
+			for (uint32 i = 0;i != stServerStruct.m_dwTagCount;i++)
+			{
+				BYTE byteTagType;
+				file.Read(&byteTagType, sizeof(BYTE));
+				USHORT uLength;
+				file.Read(&uLength, sizeof(USHORT));
+				BYTE byteSpecialTag;
+				CString sName;
+				CString sValue;
+				int iValue;
+				float fValue;
+				if (uLength == 1)
+				{
+					file.Read(&byteSpecialTag, sizeof(BYTE));
+				}
+				else
+				{
+					byteSpecialTag = 0;
+					file.Read(sName.GetBuffer(uLength + 1), uLength);
+					sName.ReleaseBuffer(uLength);
+				}
+				if (byteTagType == TAGTYPE_STRING)
+				{
+					file.Read(&uLength, sizeof(USHORT));		
+					file.Read(sValue.GetBuffer(uLength + 1), uLength);
+					sValue.ReleaseBuffer(uLength);
+				}
+				else if (byteTagType == TAGTYPE_INT)
+				{
+					file.Read(&iValue, sizeof(int));
+				}
+				else if (byteTagType == TAGTYPE_FLOAT)
+				{
+					file.Read(&fValue, sizeof(float));
+				}
+				switch(byteSpecialTag)
+				{
+				case ST_SERVERNAME:						
+					_tcsncpy((TCHAR*)stServer.m_Data.szName, sValue.GetBuffer(0), MAX_SERVERNAME_LEN);
+					break;
+				case ST_DESCRIPTION:						
+					_tcsncpy((TCHAR*)stServer.m_Data.szDescription, sValue.GetBuffer(0), MAX_SERVERDESC_LEN);
+					break;
+				case ST_PREFERENCE:
+					stServer.m_Key.uPriority = iValue;
+					break;
+				case ST_PING:
+					stServer.m_Data.ulPingTime = iValue;
+					break;
+				case ST_DYNIP:						
+					_tcsncpy((TCHAR*)stServer.m_Key.szDynIP, sValue.GetBuffer(0), MAX_DYNIP_LEN);
+					break;
+				case ST_FAIL:
+					//m_dwFailedCount = iValue;
+					break;
+				case ST_LASTPING:
+					//lastpingedtime = iValue;
+					break;
+				case ST_MAXUSERS:
+					stServer.m_Data.dwMaxUsers = iValue;
+					break;
+				case ST_SOFTFILES:
+					stServer.m_Data.dwSoftMaxFiles = iValue;
+					break;
+				case ST_HARDFILES:
+					stServer.m_Data.dwHardMaxFiles = iValue;
+					break;
+				case ST_VERSION:
+					if (byteTagType == TAGTYPE_STRING)
+						_tcsncpy((TCHAR*)stServer.m_Data.szVersion, sValue.GetBuffer(0), MAX_SERVER_VER_LEN);
+					break;
+				case ST_UDPFLAGS:
+					if (byteTagType == TAGTYPE_INT)
+						stServer.m_Data.dwUDPFlags  =  iValue;
+					break;
+				default:
+					if (sName == _T("files"))
+						stServer.m_Data.dwFilesNum = iValue;
+					else if (sName == _T("users"))
+						stServer.m_Data.dwUsersNum = iValue;
+				}
+			}
+			//	Set name for server
+			if (stServer.GetName().IsEmpty())
+			{
+				CString s;
+				s.Format(_T("Server %s"), stServer.GetStrAddress());
+				_tcsncpy((TCHAR*)stServer.m_Data.szName, s, MAX_SERVERNAME_LEN);
+			}
+
+			// Check that we don't have it already
+			CServer *pFound = NULL;
+			CString sDynIP = stServer.GetDynIP();
+			if(!sDynIP.IsEmpty() && Find(sDynIP, stServer.m_Key.uPort, pFound))
+			{
+				delete pFound;
+				continue;
+			}
+			if(Find(stServer.m_Key.ulAddr, stServer.m_Key.uPort, pFound))
+			{
+				delete pFound;
+				continue;
+			}
+
+			stServer.Save();
+
+			dwAddedServerCount++;
+		}
+
+//			AddLogLine(true, IDS_SERVERSFOUND, dwServerCount);
+		file.Close();
+		return true;
+	}
+	catch (...)
+	{
+		ASSERT(FALSE);
+		return false;
+	}
+}
+
+bool CServer::ListStartByAddr()
+{
+//	int nRet = stEngine.m_pDbServersAddr->cursor(NULL, &m_pCursor, 0);
+//	return !nRet;
+	return false;
+}
+
+bool CServer::ListStartByPriority()
+{
+//	int nRet = stEngine.m_pDbServersPriority->cursor(NULL, &m_pCursor, 0);
+//	return !nRet;
+	return false;
+}
+
+bool CServer::ListStartByStatic()
+{
+//	int nRet = stEngine.m_pDbServersStatic->cursor(NULL, &m_pCursor, 0);
+//	return !nRet;
+	return false;
+}
+
+bool CServer::ListGetNext()
+{
+	Dbt pkey, key, data;
+	int nRet = 1;
+	if(m_pCursor)
+	{
+		if((nRet = m_pCursor->pget(&key, &pkey, &data, DB_NEXT)) == 0)
+		{
+			CServerKey *pKey = (CServerKey *)pkey.get_data();
+			CServerData *pData = (CServerData *)data.get_data();
+			memcpy2(&m_Key, pKey, sizeof(m_Key));
+			memcpy2(&m_Data, pData, sizeof(m_Data));
+		}
+	}
+	return !nRet;
+}
+
+bool CServer::ListFinish()
+{
+	int nRet = 1;
+	if(m_pCursor)
+		nRet = m_pCursor->close();
+	return !nRet;
+}
+
+bool CServer::Save()
+{
+/*	try
+	{
+		Dbt key(&m_Key, sizeof(m_Key));
+		Dbt data(&m_Data, sizeof(m_Data));
+
+		int nRet = g_stEngine.m_pDbServers->put(NULL, &key, &data, 0);
+		if(nRet)
+		{
+			g_stEngine.m_pDbServers->err(nRet, "CServer::Save");
+			ASSERT(FALSE);
+			return false;
+		}
+		return true;
+	}
+	catch (DbRunRecoveryException &dbe)
+	{
+		TRACE(CString(dbe.what()));
+		return false;
+	}
+	catch (DbException &dbe)
+	{
+		TRACE("Problems working with database objects: %s.\n", dbe.what());
+		return false;
+	}
+	catch(...)
+	{
+		TRACE("Problems working with database objects.\n");
+		return false;
+	}*/
+	return true;
+}
+
+ULONG CServer::GetAddress()
+{
+	return m_Key.ulAddr;
+}
+
+USHORT CServer::GetPort()
+{
+	return m_Key.uPort;
+}
+
+CString CServer::GetName()
+{
+	return CString((TCHAR*)m_Data.szName);
+}
+
+CString CServer::GetStrAddress()
+{
+	CString sDynIP = GetDynIP();
+	if (!sDynIP.IsEmpty())
+		return sDynIP;
+	else
+	{
+		in_addr host;
+		host.S_un.S_addr = m_Key.ulAddr;
+		return CString(inet_ntoa(host));
+	}
+}
+
+CString CServer::GetDynIP()
+{
+	return CString((TCHAR*)m_Key.szDynIP);
+}
+
+bool CServer::Find(ULONG ulAddr, USHORT uPort, CServer *pFound)
+{
+	try
+	{
+		// szDynIP should be empty
+		CServerPrimaryKey stKey;
+		memset(&stKey, 0, sizeof(stKey));
+		stKey.ulAddr = ulAddr;
+		stKey.uPort = uPort;
+
+		CServerKey tempKey;
+		memset(&tempKey, 0, sizeof(tempKey));
+		CServerData tempData;
+		memset(&tempData, 0, sizeof(tempData));
+
+		Dbt key(&stKey, sizeof(stKey));
+		Dbt pkey(&tempKey, sizeof(tempKey));
+		pkey.set_ulen(sizeof(tempKey));
+		pkey.set_flags(DB_DBT_USERMEM);
+		Dbt data(&tempData, sizeof(tempData));
+		data.set_ulen(sizeof(tempData));
+		data.set_flags(DB_DBT_USERMEM);
+
+/*		int nRet = stEngine.m_pDbServersAddr->pget(NULL, &key, &pkey, &data, 0);
+		if(nRet)
+		{
+			pFound = NULL;
+			return false;
+		}
+		pFound = new CServer(&tempKey, &tempData);
+		return true;*/
+		return false;
+	}
+	catch (DbRunRecoveryException &dbe)
+	{
+		AddLog(LOG_ERROR, _T("DB Recovery exception: %s"), dbe.what());
+		return false;
+	}
+	catch (DbException &dbe)
+	{
+		AddLog(LOG_ERROR, _T("Problems working with database objects: %s."), dbe.what());
+		return false;
+	}
+	catch(...)
+	{
+		AddLog(LOG_ERROR, _T("Problems working with database objects."));
+		return false;
+	}
+}
+
+bool CServer::Find(CString sDynIP, USHORT uPort, CServer *pFound)
+{
+	try
+	{
+		// ulAddr should be zero
+		CServerPrimaryKey stKey;
+		memset(&stKey, 0, sizeof(CServerPrimaryKey));
+		_tcsncpy((TCHAR*)stKey.szDynIP, sDynIP.GetBuffer(0), MAX_DYNIP_LEN);
+		stKey.uPort = uPort;
+
+		CServerKey tempKey;
+		memset(&tempKey, 0, sizeof(tempKey));
+		CServerData tempData;
+		memset(&tempData, 0, sizeof(tempData));
+
+		Dbt key(&stKey, sizeof(stKey));
+		Dbt pkey(&tempKey, sizeof(tempKey));
+		pkey.set_ulen(sizeof(tempKey));
+		pkey.set_flags(DB_DBT_USERMEM);
+		Dbt data(&tempData, sizeof(tempData));
+		data.set_ulen(sizeof(tempData));
+		data.set_flags(DB_DBT_USERMEM);
+
+/*		int nRet = stEngine.m_pDbServersAddr->pget(NULL, &key, &pkey, &data, 0);
+		if(nRet)
+		{
+			pFound = NULL;
+			return false;
+		}
+		pFound = new CServer(&tempKey, &tempData);
+		return true;*/
+		return false;
+	}
+	catch (DbRunRecoveryException &dbe)
+	{
+		AddLog(LOG_ERROR, _T("DB Recovery exception: %s"), dbe.what());
+		return false;
+	}
+	catch (DbException &dbe)
+	{
+		AddLog(LOG_ERROR, _T("Problems working with database objects: %s."), dbe.what());
+		return false;
+	}
+	catch(...)
+	{
+		AddLog(LOG_ERROR, _T("Problems working with database objects."));
+		return false;
+	}
+}
+/*
+int CServer::PrimaryIndex(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey)
+{
+	CServerKey *pServerKey = (CServerKey *)(pKey->get_data());
+	CServerPrimaryKey *pTempKey = new CServerPrimaryKey;
+	memset(pTempKey, 0, sizeof(CServerPrimaryKey));
+	pTempKey->ulAddr = pServerKey->ulAddr;
+	pTempKey->uPort = pServerKey->uPort;
+	_tcsncpy((TCHAR*)pTempKey->szDynIP, (TCHAR*)pServerKey->szDynIP, MAX_DYNIP_LEN);
+	*pNewKey = Dbt();
+	pNewKey->set_data(pTempKey);
+	pNewKey->set_size(sizeof(CServerPrimaryKey));
+	pNewKey->set_flags(DB_DBT_APPMALLOC);
+	return 0;
+}
+
+int CServer::SecondaryIndexPriority(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey)
+{
+	CServerKey *pServerKey = (CServerKey *)(pKey->get_data());
+	CServerSecondaryKeyPriority *pTempKey = new CServerSecondaryKeyPriority;
+	memset(pTempKey, 0, sizeof(CServerSecondaryKeyPriority));
+	pTempKey->uPriority = pServerKey->uPriority;
+	pNewKey->set_data(pTempKey);
+	pNewKey->set_size(sizeof(CServerSecondaryKeyPriority));
+	pNewKey->set_flags(DB_DBT_APPMALLOC);
+	return 0;
+}
+
+int CServer::SecondaryIndexStatic(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey)
+{
+	CServerKey *pServerKey = (CServerKey *)(pKey->get_data());
+	CServerSecondaryKeyStatic *pTempKey = new CServerSecondaryKeyStatic;
+	memset(pTempKey, 0, sizeof(CServerSecondaryKeyStatic));
+	pTempKey->bStatic = pServerKey->bStatic;
+	pNewKey->set_data(pTempKey);
+	pNewKey->set_size(sizeof(CServerSecondaryKeyStatic));
+	pNewKey->set_flags(DB_DBT_APPMALLOC);
+	return 0;
+}
+*/
+#endif //USE_BERKELEY_DB
+@
+
+
+1.10
+log
+@v2 - enhancing logging subsystem
+@
+text
+@d10 2
+d490 2
+a491 1
+*/@
+
+
+1.9
+log
+@Many ifdefs for v2
+@
+text
+@d86 1
+a86 2
+			TRACE("Can't open file: %s\n", sFile);
+			ASSERT(FALSE);
+d95 1
+a95 2
+			TRACE("Bad server.met version: %u\n", uServerListVersion);
+			ASSERT(FALSE);
+d385 1
+a385 1
+		TRACE(CString(dbe.what()));
+d390 1
+a390 1
+		TRACE("Problems working with database objects: %s.\n", dbe.what());
+d395 1
+a395 1
+		TRACE("Problems working with database objects.\n");
+d435 1
+a435 1
+		TRACE(CString(dbe.what()));
+d440 1
+a440 1
+		TRACE("Problems working with database objects: %s.\n", dbe.what());
+d445 1
+a445 1
+		TRACE("Problems working with database objects.\n");
+@
+
+
+1.8
+log
+@Corrected v2 defines, improved v2 webserver and database functionality
+@
+text
+@d12 1
+a12 1
+	TAGTYPE_STRING	= 2,
+@
+
+
+1.7
+log
+@There can be only one engine :-)
+@
+text
+@d287 1
+a287 1
+	try
+d315 2
+a316 1
+	}
+@
+
+
+1.6
+log
+@Final DebugLog formating and changes
+@
+text
+@d79 1
+a79 1
+bool CServer::ImportFromServerMet(CEmEngine &stEngine, CString sFile)
+d212 1
+a212 1
+			if(!sDynIP.IsEmpty() && Find(stEngine, sDynIP, stServer.m_Key.uPort, pFound))
+d217 1
+a217 1
+			if(Find(stEngine, stServer.m_Key.ulAddr, stServer.m_Key.uPort, pFound))
+d223 1
+a223 1
+			stServer.Save(stEngine);
+d239 1
+a239 1
+bool CServer::ListStartByAddr(CEmEngine &stEngine)
+d241 3
+a243 2
+	int nRet = stEngine.m_pDbServersAddr->cursor(NULL, &m_pCursor, 0);
+	return !nRet;
+d246 1
+a246 1
+bool CServer::ListStartByPriority(CEmEngine &stEngine)
+d248 3
+a250 2
+	int nRet = stEngine.m_pDbServersPriority->cursor(NULL, &m_pCursor, 0);
+	return !nRet;
+d253 1
+a253 1
+bool CServer::ListStartByStatic(CEmEngine &stEngine)
+d255 3
+a257 2
+	int nRet = stEngine.m_pDbServersStatic->cursor(NULL, &m_pCursor, 0);
+	return !nRet;
+d285 1
+a285 1
+bool CServer::Save(CEmEngine &stEngine)
+d292 1
+a292 1
+		int nRet = stEngine.m_pDbServers->put(NULL, &key, &data, 0);
+d295 1
+a295 1
+			stEngine.m_pDbServers->err(nRet, "CServer::Save");
+d351 1
+a351 1
+bool CServer::Find(CEmEngine &stEngine, ULONG ulAddr, USHORT uPort, CServer *pFound)
+d374 1
+a374 1
+		int nRet = stEngine.m_pDbServersAddr->pget(NULL, &key, &pkey, &data, 0);
+d381 2
+a382 1
+		return true;
+d401 1
+a401 1
+bool CServer::Find(CEmEngine &stEngine, CString sDynIP, USHORT uPort, CServer *pFound)
+d424 1
+a424 1
+		int nRet = stEngine.m_pDbServersAddr->pget(NULL, &key, &pkey, &data, 0);
+d431 2
+a432 1
+		return true;
+d450 1
+a450 1
+
+d489 1
+@
+
+
+1.5
+log
+@New engine
+@
+text
+@a234 1
+//		AddDebugLogLine(true, IDS_ERR_BADSERVERLIST);
+@
+
+
+1.4
+log
+@New engine
+@
+text
+@d75 2
+d238 43
+@
+
+
+1.3
+log
+@New engine - server classes, database
+@
+text
+@d8 1
+d24 1
+a24 1
+		memcpy(m_Key.szDynIP, pKey->szDynIP, MAX_DYNIP_LEN*sizeof(TCHAR));
+d29 3
+a31 3
+		memcpy(m_Data.szName, pData->szName, MAX_SERVERNAME_LEN*sizeof(TCHAR));
+		memcpy(m_Data.szDescription, pData->szDescription, MAX_SERVERDESC_LEN*sizeof(TCHAR));
+		memcpy(m_Data.szVersion, pData->szVersion, MAX_SERVER_VER_LEN*sizeof(TCHAR));
+d44 2
+d72 2
+d203 1
+a203 1
+				s.Format(_T("Server %s"), stServer.GetAddress());
+d271 10
+d286 1
+a286 1
+CString CServer::GetAddress()
+@
+
+
+1.2
+log
+@New engine - server classes, database
+@
+text
+@d23 1
+a23 1
+		memcpy(m_Key.byteDynIP, pKey->byteDynIP, MAX_DYNIP_LEN+1);
+d28 3
+a30 3
+		m_Data.sName = pData->sName;
+		m_Data.sDescription = pData->sDescription;
+		m_Data.sVersion = pData->sVersion;
+d49 1
+a49 1
+		memset(m_Key.byteDynIP, 0, MAX_DYNIP_LEN+1);
+d54 3
+a56 3
+		m_Data.sName = _T("");
+		m_Data.sDescription = _T("");
+		m_Data.sVersion = _T("");
+d150 1
+a150 1
+					stServer.m_Data.sName = sValue;
+d153 1
+a153 1
+					stServer.m_Data.sDescription = sValue;
+d162 1
+a162 1
+					_tcsncpy((TCHAR*)stServer.m_Key.byteDynIP, sValue.GetBuffer(0), MAX_DYNIP_LEN);
+d181 1
+a181 1
+						stServer.m_Data.sVersion = sValue;
+d195 6
+a200 2
+			if (stServer.m_Data.sName.IsEmpty())
+				stServer.m_Data.sName.Format(_T("Server %s"), stServer.GetAddress());
+a238 2
+		data.set_ulen(sizeof(m_Data));
+		data.set_flags(DB_DBT_USERMEM);
+d240 1
+a240 3
+		DbTxn *pTxn;
+		stEngine.m_pDbEnv->txn_begin(NULL, &pTxn, 0);
+		int nRet = stEngine.m_pDbServers->put(pTxn, &key, &data, 0);
+a246 1
+		pTxn->commit(0);
+d266 5
+d286 1
+a286 1
+	return CString((TCHAR*)m_Key.byteDynIP);
+d293 1
+d295 1
+d300 1
+d302 1
+d312 1
+a312 3
+//		DbTxn *pTxn;
+//		stEngine.m_pDbEnv->txn_begin(NULL, &pTxn, 0);
+		int nRet = stEngine.m_pDbServersAddr->pget(/*pTxn*/NULL, &key, &pkey, &data, 0);
+a314 1
+			stEngine.m_pDbServersAddr->err(nRet, _T("CServer::Find"));
+d342 4
+a345 3
+		CServerPrimaryKey2 stKey;
+		memset(&stKey, 0, sizeof(CServerPrimaryKey2));
+		_tcsncpy((TCHAR*)stKey.byteDynIP, sDynIP.GetBuffer(0), MAX_DYNIP_LEN);
+d348 5
+d354 6
+a359 1
+		Dbt key2, data;
+d361 1
+a361 1
+		int nRet = stEngine.m_pDbServersDynIP->pget(NULL, &key, &key2, &data, 0);
+a363 1
+			stEngine.m_pDbServersAddr->err(nRet, _T("CServer::Find"));
+d367 1
+a367 1
+		pFound = new CServer((CServerKey*)(key2.get_data()), (CServerData*)(data.get_data()));
+d390 7
+a396 2
+	CServerPrimaryKey *pPrimaryKey = (CServerPrimaryKey *)(&(pServerKey->ulAddr));
+	pNewKey->set_data(pPrimaryKey);
+d398 1
+a398 9
+	return 0;
+}
+
+int CServer::PrimaryIndex2(Db *pDb, const Dbt *pKey, const Dbt *pData, Dbt *pNewKey)
+{
+	CServerKey *pServerKey = (CServerKey *)(pKey->get_data());
+	CServerPrimaryKey2 *pPrimaryKey2 = (CServerPrimaryKey2 *)(&(pServerKey->uPort));
+	pNewKey->set_data(pPrimaryKey2);
+	pNewKey->set_size(sizeof(CServerPrimaryKey2));
+d405 6
+a410 2
+	pNewKey->set_data(&(pServerKey->uPriority));
+	pNewKey->set_size(sizeof(pServerKey->uPriority));
+d417 6
+a422 2
+	pNewKey->set_data(&(pServerKey->bStatic));
+	pNewKey->set_size(sizeof(pServerKey->bStatic));
+@
+
+
+1.1
+log
+@New engine - server classes, database
+@
+text
+@d7 382
+@
+

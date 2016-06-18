@@ -1,0 +1,742 @@
+head	1.21;
+access;
+symbols
+	PublicRelease_1_2e:1.21
+	Interim_Release_1-2e_RC1:1.21
+	PublicRelease_1_2d:1.21
+	Interim_Release_1-2d_RC1:1.21
+	Interim_Release_1-2d_beta1:1.21
+	PublicRelease_1_2c:1.19
+	Interim_Release_1-2c_RC1:1.19
+	Interim_Release_1-2c_beta1:1.19
+	PublicRelease_1_2b:1.19
+	Interim_Release_1-2b_RC1:1.19
+	PublicRelease_1_2a:1.19
+	Interim_Release_1-2a_RC1:1.19
+	Interim_Release_1-2a_beta2:1.19
+	Interim_Release_1-2a_beta1:1.19
+	PublicRelease_1_2:1.19
+	Interim_Release_1-2_RC1:1.19
+	Interim_Release_1-2_beta1:1.19
+	PublicRelease_1_1g:1.19
+	Interim_Release_1-1g_RC3:1.19
+	Interim_Release_1-1g_RC2:1.19
+	Interim_Release_1-1g_RC1:1.19
+	Interim_Release_1-1g_beta2:1.19
+	Interim_Release_1-1g_beta1:1.18
+	PublicRelease_1_1f:1.18
+	Interim_Release_1-1f_RC1:1.18
+	PublicRelease_1_1e:1.18
+	Interim_Release_1-1e_RC2:1.18
+	Interim_Release_1-1e_RC1:1.18
+	Interim_Release_1-1e_beta1:1.18
+	PublicRelease_1_1d:1.18
+	Interim_Release_1-1d_RC1:1.18
+	PublicRelease_1_1c:1.18
+	Interim_Release_1-1c_RC1:1.18
+	Interim_Release_1-1c_beta2:1.18
+	Interim_Release_1-1c_beta1:1.18
+	PublicRelease_1_1b:1.18
+	Interim_Release_1-1b_RC1:1.18
+	PublicRelease_1_1a:1.18
+	Interim_Release_1-1a_RC2:1.18
+	Interim_Release_1-1a_RC1:1.18
+	Interim_Release_1-1a_beta2:1.18
+	Interim_Release_1-1a_beta1:1.18
+	PublicRelease_1_1:1.18
+	Interim_Release_1-1_beta1:1.18
+	PublicRelease_1o:1.18
+	Interim_Release_1o_RC1:1.18
+	Interim_Release_1o_beta1:1.18
+	PublicRelease_1n:1.18
+	Interim_Release_1n_RC2:1.18
+	Interim_Release_1n_RC1:1.18
+	Interim_Release_1n_beta2:1.18
+	Interim_Release_1n_beta1:1.18
+	PublicRelease_1m:1.18
+	Interim_Release_1m_beta1:1.18
+	PublicRelease_1l:1.18
+	Interim_Release_1l_RC3:1.18
+	Interim_Release_1l_RC2:1.18
+	Interim_Release_1l_RC1:1.18
+	Interim_Release_1l_beta2:1.18
+	Interim_Release_1l_beta1:1.17
+	PublicRelease_1k:1.15
+	Interim_Release_1k_RC4:1.15
+	Interim_1k_RC3:1.15
+	Interim_1k_RC2:1.15
+	Interim_Release_1k_RC1:1.15
+	Interim_Release_1k_beta5:1.15
+	Intrerim_Release_1k_beta4:1.15
+	Interim_Release_1k_beta1:1.15
+	PublicRelease_1j:1.14
+	Interim_Release_1J_RC3:1.14
+	Interim_Release_1j_RC3:1.14
+	Interim_Release_1j_RC2:1.14
+	Interim_Release_1j_RC1:1.14
+	Interim_Release_1j_beta2:1.14
+	Interim_Release_1j_beta1:1.14
+	PublicRelease_1i:1.14
+	Interim_Release_1i_RC6:1.14
+	Interim_Release_1i_RC3:1.14
+	Interim_Release_1i_RC2:1.14
+	Interim_Release_1i_RC1:1.14
+	Interim_Release_1i_beta3:1.13
+	Interim_Release_1i_beta2:1.13
+	Interim_Release_1i_beta1:1.12
+	PublicRelease_1h:1.11
+	Interim_Release_1h_rc2:1.11
+	Interim_Release_1h_RC1:1.11
+	Interim_Release_1h_beta2:1.11
+	Interim_Release_1h_beta1_now:1.11
+	Interim_Release_1h_beta1:1.11
+	PublicRelease_1g:1.11
+	Interim_Release_1g_RC6_Final:1.11
+	Interim_Release_1g_RC6:1.11
+	Interim_Release_1g_RC5:1.11
+	Interim_Release_1g_RC4:1.10
+	Interim_Release_1g_RC3:1.9
+	Interim_Release_1g_beta2:1.8
+	Interim_Release_1g_beta1:1.7
+	Interim_Release_1f_RC4:1.7
+	Interim_Release_1f_RC3:1.7
+	Interim_Release_1f_RC2:1.6
+	Interim_Release_1f_RC:1.6
+	Interim_Release_1f_beta2:1.6
+	Interim_Release_1f_beta1:1.6
+	PublicRelease_1e:1.6
+	Interim_Release_1e_RC2:1.6
+	Interim_Release_1e_RC:1.6
+	Interim_Release_1e_beta3:1.6
+	Interim_Release_1e_beta2:1.6
+	Interim_Release_1e_beta2_before_kuchin:1.6
+	Interim_Release_1e_beta1:1.6
+	PublicRelease_1c:1.6
+	featurestest:1.6.0.2
+	Interim_Release_1c_RC:1.6
+	Interim_Release_1c_beta2:1.5
+	Interim_Release_1c_beta1:1.5
+	threaded_downloadqueue:1.5.0.2
+	PublicRelease_1b:1.5
+	Interim_Release_1b_beta2:1.5
+	Interim_Release_1b_beta1:1.5
+	proxydeadlake:1.4.0.2
+	PublicRelease_1a:1.4
+	Interim_Release_1a_beta2:1.4
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.2
+	Interim_Release_26b_i0c:1.2
+	Interim_Release_26b_i0b:1.2
+	Interim_Release_26b_i0a:1.2
+	systraydlg:1.2.0.4
+	plus26based:1.2.0.2
+	Interim_Release_25b_i0b:1.2
+	Proxy_Dev:1.2
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.21
+date	2008.02.03.03.58.56;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2007.10.31.18.25.07;	author fuxie-dk;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2005.11.08.04.52.16;	author aw3;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.05.17.14.52.31;	author aw3;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.05.04.11.28.00;	author netwolf1;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.04.17.15.22.25;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.02.03.01.20.31;	author double_t;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.11.04.09.20.49;	author kuchin;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.21.14.33.58;	author dongato;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.22.16.35.44;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.07.09.15.08.21;	author netwolf1;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.07.05.11.53.08;	author dongato;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.07.01.22.16.03;	author partyckip;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.08.23.58.37;	author syrus77;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.05.16.01.14.46;	author syrus77;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.21.18.55.16;	author dongato;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.03.03.23.51;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.26.10.39.54;	author dongato;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.23.19.16.13;	author cax2;	state Exp;
+branches
+	1.3.2.1;
+next	1.2;
+
+1.2
+date	2003.02.01.14.45.39;	author dongato;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.20;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.19;	author cax2;	state Exp;
+branches;
+next	1.1.4.2;
+
+1.1.4.2
+date	2003.02.02.02.36.26;	author cax2;	state Exp;
+branches;
+next	;
+
+1.3.2.1
+date	2003.02.28.22.44.55;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.21
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization;
+Suppressed compiler warnings; Formatting.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+class CPreferences;
+
+class CPPgAdvanced : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgAdvanced)
+
+public:
+	CPPgAdvanced();
+	virtual ~CPPgAdvanced();
+	void SetPrefs(CPreferences* in_prefs) { m_pPrefs = in_prefs; }
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+
+// Dialog Data
+	enum { IDD = IDD_PPG_ADVANCED };
+
+	afx_msg void OnSettingsChange()					{SetModified();}
+	afx_msg void OnBnClickedComEnabled();
+	afx_msg void OnBnClickedSLSEnabled();
+	afx_msg void OnSetCleanupFilter();
+	afx_msg void OnBnClickedBanEnabled();
+	void Localize(void);
+
+protected:
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+
+	virtual void DoDataExchange(CDataExchange* pDX);
+
+	DECLARE_MESSAGE_MAP()
+
+private:
+	void LoadSettings(void);
+
+protected:
+	CPreferences *m_pPrefs;
+	CString	m_strBanTimes;
+	CString	m_strMinRequestTime;
+	CString	m_strBanTimeInMins;
+	CString	m_strComString;
+	CString	m_strSlsMaxSources;
+	CString	m_strOutdated;
+	BOOL	m_bModified;
+	BOOL	m_bBanMessage;
+	BOOL	m_bBanEnabled;
+	BOOL	m_bNoBanEnabled;
+	BOOL	m_bComEnabled;
+	BOOL	m_bSlsEnabled;
+	BOOL	m_bFNameCleanup;
+	BOOL	m_bFNameCleanupTag;
+	BOOL	m_bCountermeasures;
+	BOOL	m_bAutoNewVerChk;
+};
+@
+
+
+1.20
+log
+@Suppressed compiler warnings; Reduced H-file dependency [Aw3].
+@
+text
+@a17 2
+#include "types.h"
+
+a47 1
+	CPreferences *m_pPrefs;
+d56 17
+a72 47
+	CString banTimes;
+	CString minRequestTime;
+	CString banTimeInMins;
+	CString comString;
+	CString slsMaxSources;
+	CString outdated;
+	BOOL m_bModified;
+	BOOL banMessage;
+	BOOL banEnabled;
+	BOOL noBanEnabled;
+	BOOL comEnabled;
+	BOOL slsEnabled;
+	BOOL fnCleanup;
+	BOOL fnCleanUpTag;
+	BOOL counterMeasures;
+	BOOL newAuto;
+
+private:
+	CEdit banTimesEdit;
+	CEdit minRequestTimeEdit;
+	CButton banMessageCheck;
+	CEdit banTimeInMinsEdit;
+	CEdit slsMaxSourcesEdit;
+	CEdit outdatedEdit;
+	CEdit comStringEdit;
+	CButton noBanEnabledCheck;
+	CString banDesc;
+	CButton banEnabledCheck;
+	CString clientRequestDesc;
+	CString banForDesc;
+	CString timesInDesc;
+	CString minutesBan1Desc;
+	CString minutesBan2Desc;
+	CString comDesc;
+	CButton comEnabledCheck;
+	CString saveLoadSourcesDesc;
+	CString slsMaxSourcesDesc;
+	CString slsOutdatedDesc;
+	CString slsSourcesDesc;
+	CString slsDaysDesc;
+	CButton slsEnabledCheck;
+	CButton counterMeasuresCheck;
+	CButton newAutoCheck;
+	CString fnCleanUpDesc;
+	CButton fncButton;
+	CButton fnCleanUpCheck;
+	CButton fnCleanUpTagCheck;
+@
+
+
+1.19
+log
+@Combine similar class sections; Better alignment of class members.
+@
+text
+@d1 15
+a17 1
+#include "preferences.h"
+a18 1
+#include "afxwin.h"
+d20 1
+a20 1
+// CPPgAdvanced dialog
+d29 1
+a29 1
+	void SetPrefs(CPreferences* in_prefs) {	m_pPrefs = in_prefs; }
+d65 1
+a65 1
+	bool m_bModified;
+@
+
+
+1.18
+log
+@Removed controls lost by setting over-movers.
+@
+text
+@d3 1
+a3 1
+#include "Preferences.h"
+d23 7
+a30 1
+	bool m_bModified;
+d41 1
+d44 1
+a44 7
+public:
+	afx_msg void OnSettingsChange()					{SetModified();}
+	afx_msg void OnBnClickedComEnabled();
+	afx_msg void OnBnClickedSLSEnabled();
+	afx_msg void OnSetCleanupFilter();
+	afx_msg void OnBnClickedBanEnabled();
+	void Localize(void);
+d49 4
+a54 1
+	CString comString;
+a56 2
+	CString slsMaxSources;
+	CString outdated;
+d62 1
+@
+
+
+1.17
+log
+@minor changes (function renamings, unused typedef removal)
+@
+text
+@d3 1
+a3 1
+#include "preferences.h"
+a64 1
+	CEdit restoreSourcesTimeEdit;
+d90 1
+a90 1
+};	
+@
+
+
+1.16
+log
+@Updated preferences (moved logs to a new page so we can add more options in the future)
+@
+text
+@d58 1
+a58 1
+	BOOL mlDonkeyCm;
+d85 1
+a85 1
+	CButton mlDonkeyCmCheck;
+@
+
+
+1.15
+log
+@minor changes to DebugLog and remove some marks
+@
+text
+@d32 1
+a32 1
+	virtual void DoDataExchange(CDataExchange* pDX);    // DDX/DDV support
+a42 1
+	afx_msg void OnBnClickedMLDonkeyCM();
+a58 1
+	BOOL cmNotLog;
+a71 1
+	
+a85 1
+	CButton cmNotLogCheck;
+@
+
+
+1.14
+log
+@Ability to turn off auto-check for new version
+@
+text
+@d41 3
+a43 3
+	afx_msg void OnSetCleanupFilter();			//SyruS: cleanup
+	afx_msg void OnBnClickedBanEnabled(); // DbT:BanEnDisable
+	afx_msg void OnBnClickedMLDonkeyCM();	// netwolf
+@
+
+
+1.13
+log
+@Removed NNS feature and changed SLS
+@
+text
+@d61 1
+d90 1
+@
+
+
+1.12
+log
+@Formatting, comments, and name changes.
+@
+text
+@a53 1
+	CString restoreSourcesTime;
+a81 1
+	CString slsLoadEveryDesc;
+a83 1
+	CString slsMinsDesc;
+@
+
+
+1.11
+log
+@FEATURE: logging countermeasures made optional [Netwolf]
+plus cleanup of unused prefs (transfer full chunks, global load f/l chunks first...)
+@
+text
+@d16 1
+a16 1
+	void SetPrefs(CPreferences* in_prefs) {	app_prefs = in_prefs; }
+d31 1
+a31 1
+	CPreferences *app_prefs;
+@
+
+
+1.10
+log
+@now using Ottavio´s SLS system [netwolf]
+@
+text
+@d43 1
+d61 1
+d91 1
+@
+
+
+1.9
+log
+@converted to use DDX framework
+@
+text
+@d54 1
+a54 1
+	CString loadQuantities;
+d66 1
+a66 1
+	CEdit loadQuantitiesEdit;
+d82 1
+a82 1
+	CString slsLoadQuantityDesc;
+@
+
+
+1.8
+log
+@FEATURE: en/disable banning optional [DoubleT]
+@
+text
+@d5 1
+d44 49
+@
+
+
+1.7
+log
+@SyruS: moved cleanup-visuals to advanced tab
+@
+text
+@d41 1
+@
+
+
+1.6
+log
+@Updated Night Shift to Scheduller (needs more testing and a new icon from DrSiRiUs... coming!)
+@
+text
+@d40 1
+@
+
+
+1.5
+log
+@Night Shift (in cooperation with obaldin :P)
+@
+text
+@a29 3
+	CComboBox m_nsdtime;
+	CComboBox m_nsntime;
+
+a39 3
+	afx_msg void OnBnClickedNSEnabled();
+	afx_msg void OnCbnSelchangeDayTime()			{SetModified();}
+	afx_msg void OnCbnSelchangeNightTime()			{SetModified();}
+@
+
+
+1.4
+log
+@Changed placement of banned users message.
+@
+text
+@d30 3
+d43 3
+@
+
+
+1.3
+log
+@control panel limits, optimizations, bugfixes
+@
+text
+@d37 1
+a37 1
+	afx_msg void OnSettingsChange()			{SetModified();}
+@
+
+
+1.3.2.1
+log
+@v1a upgrade
+@
+text
+@d37 1
+a37 1
+	afx_msg void OnSettingsChange()					{SetModified();}
+@
+
+
+1.2
+log
+@Updates to Preferences (and enabling/disabling options in code because of that)
+@
+text
+@d37 1
+a37 6
+	afx_msg void OnEnChangeMinClients()			{SetModified();}
+	afx_msg void OnEnChangeMaxClients()			{SetModified();}
+	afx_msg void OnEnChangeDataRate()			{SetModified();}
+	afx_msg void OnEnChangeBanTimes()			{SetModified();}
+	afx_msg void OnEnChangeMinReqTime()			{SetModified();}
+	afx_msg void OnEnChangeBanTime()			{SetModified();}
+a38 6
+	afx_msg void OnEnChangeComString()			{SetModified();}
+	afx_msg void OnBnClickedNoBanEnabled()		{SetModified();}
+	afx_msg void OnEnChangeRestoreTime()		{SetModified();}
+	afx_msg void OnEnChangeLoadQuantities()		{SetModified();}
+	afx_msg void OnEnChangeOutdated()			{SetModified();}
+	afx_msg void OnEnChangeMaxSourcesFile()		{SetModified();}
+a39 1
+	afx_msg void OnBnClickedmlDonkeyCM() 		{SetModified();};
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d51 1
+a51 4
+	// Maverick
+	afx_msg void OnBnClickedMldonkeyNormal() 	{SetMLDonkey(eNormal); SetModified();};
+	afx_msg void OnBnClickedMldonkeyDonkey() 	{SetMLDonkey(eEmulateEDonkey); SetModified();};
+	afx_msg void OnBnClickedMldonkeyMl()   		{SetMLDonkey(eEmulateMlDonkey); SetModified();};
+a52 3
+private:
+	TMlDonkeyBehavior m_MLDonkey;
+	void SetMLDonkey(TMlDonkeyBehavior MLDonkey);
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+
+
+1.1.4.2
+log
+@updated control panes, and assorted bugfixes
+@
+text
+@d51 4
+a54 1
+	afx_msg void OnBnClickedmlDonkeyCM() 		{SetModified();};
+d56 3
+@
+
+

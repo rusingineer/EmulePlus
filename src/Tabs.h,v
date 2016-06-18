@@ -1,0 +1,285 @@
+head	1.6;
+access;
+symbols
+	PublicRelease_1_2e:1.6
+	Interim_Release_1-2e_RC1:1.6
+	PublicRelease_1_2d:1.6
+	Interim_Release_1-2d_RC1:1.6
+	Interim_Release_1-2d_beta1:1.6
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.6
+	PublicRelease_1_2b:1.6
+	Interim_Release_1-2b_RC1:1.6
+	PublicRelease_1_2a:1.6
+	Interim_Release_1-2a_RC1:1.6
+	Interim_Release_1-2a_beta2:1.6
+	Interim_Release_1-2a_beta1:1.6
+	PublicRelease_1_2:1.6
+	Interim_Release_1-2_RC1:1.6
+	Interim_Release_1-2_beta1:1.6
+	PublicRelease_1_1g:1.6
+	Interim_Release_1-1g_RC3:1.6
+	Interim_Release_1-1g_RC2:1.6
+	Interim_Release_1-1g_RC1:1.6
+	Interim_Release_1-1g_beta2:1.6
+	Interim_Release_1-1g_beta1:1.6
+	PublicRelease_1_1f:1.6
+	Interim_Release_1-1f_RC1:1.6
+	PublicRelease_1_1e:1.6
+	Interim_Release_1-1e_RC2:1.6
+	Interim_Release_1-1e_RC1:1.6
+	Interim_Release_1-1e_beta1:1.6
+	PublicRelease_1_1d:1.6
+	Interim_Release_1-1d_RC1:1.6
+	PublicRelease_1_1c:1.6
+	Interim_Release_1-1c_RC1:1.6
+	Interim_Release_1-1c_beta2:1.6
+	Interim_Release_1-1c_beta1:1.6
+	PublicRelease_1_1b:1.6
+	Interim_Release_1-1b_RC1:1.6
+	PublicRelease_1_1a:1.6
+	Interim_Release_1-1a_RC2:1.6
+	Interim_Release_1-1a_RC1:1.6
+	Interim_Release_1-1a_beta2:1.6
+	Interim_Release_1-1a_beta1:1.6
+	PublicRelease_1_1:1.6
+	Interim_Release_1-1_beta1:1.6
+	PublicRelease_1o:1.6
+	Interim_Release_1o_RC1:1.6
+	Interim_Release_1o_beta1:1.6
+	PublicRelease_1n:1.6
+	Interim_Release_1n_RC2:1.5
+	Interim_Release_1n_RC1:1.5
+	Interim_Release_1n_beta2:1.5
+	Interim_Release_1n_beta1:1.5
+	PublicRelease_1m:1.5
+	Interim_Release_1m_beta1:1.5
+	PublicRelease_1l:1.5
+	Interim_Release_1l_RC3:1.5
+	Interim_Release_1l_RC2:1.5
+	Interim_Release_1l_RC1:1.5
+	Interim_Release_1l_beta2:1.5
+	Interim_Release_1l_beta1:1.5
+	PublicRelease_1k:1.5
+	Interim_Release_1k_RC4:1.5
+	Interim_1k_RC3:1.5
+	Interim_1k_RC2:1.5
+	Interim_Release_1k_RC1:1.5
+	Interim_Release_1k_beta5:1.5
+	Intrerim_Release_1k_beta4:1.5
+	Interim_Release_1k_beta1:1.5
+	PublicRelease_1j:1.4
+	Interim_Release_1J_RC3:1.4
+	Interim_Release_1j_RC3:1.4
+	Interim_Release_1j_RC2:1.4
+	Interim_Release_1j_RC1:1.4
+	Interim_Release_1j_beta2:1.4
+	Interim_Release_1j_beta1:1.4
+	PublicRelease_1i:1.4
+	Interim_Release_1i_RC6:1.4
+	Interim_Release_1i_RC3:1.4
+	Interim_Release_1i_RC2:1.4
+	Interim_Release_1i_RC1:1.4
+	Interim_Release_1i_beta3:1.4
+	Interim_Release_1i_beta2:1.4
+	Interim_Release_1i_beta1:1.4
+	PublicRelease_1h:1.3
+	Interim_Release_1h_rc2:1.3
+	Interim_Release_1h_RC1:1.3
+	Interim_Release_1h_beta2:1.3
+	Interim_Release_1h_beta1_now:1.2
+	Interim_Release_1h_beta1:1.2;
+locks; strict;
+comment	@ * @;
+
+
+1.6
+date	2004.09.08.16.02.52;	author aw3;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.02.15.11.55.58;	author morevit;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.09.24.16.51.29;	author morevit;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.08.23.00.20.51;	author forcha;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.08.15.15.11.29;	author forcha;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.08.03.20.49.13;	author forcha;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.6
+log
+@Fixed UNIX style line break.
+@
+text
+@#pragma once
+
+#include "TabCtrl.hpp"
+#define _TAB_BASECLASS	TabControl
+
+// CTabs
+
+class CTabs : public _TAB_BASECLASS
+{
+//	DECLARE_DYNAMIC(CTabs)
+
+public:
+	CTabs();
+	virtual ~CTabs();
+
+protected:
+	DECLARE_MESSAGE_MAP()
+public:
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+
+	virtual void DrawItem(LPDRAWITEMSTRUCT);
+	virtual void DrawItem(CDC *pDC, int iItem);
+
+	COLORREF GetRGBColorTabs();
+	COLORREF GetRGBColorXP();
+	COLORREF GetRGBColorGrayText();
+
+	afx_msg BOOL OnEraseBkgnd(CDC* pDC);
+	afx_msg void OnPaint();
+};
+
+
+@
+
+
+1.5
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d14 2
+a15 1
+	virtual ~CTabs();
+@
+
+
+1.4
+log
+@Made the DrawItem() methods overridable.
+@
+text
+@d14 1
+a14 2
+	virtual ~CTabs();
+
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d21 2
+a22 2
+	void DrawItem(LPDRAWITEMSTRUCT);
+	void DrawItem(CDC *pDC, int iItem);
+@
+
+
+1.2
+log
+@*** empty log message ***
+@
+text
+@a0 4
+#if !defined(AFX_TABS_H__83E933AB_1D83_4E03_95F4_137B0670382D__INCLUDED_)
+#define AFX_TABS_H__83E933AB_1D83_4E03_95F4_137B0670382D__INCLUDED_
+
+#if _MSC_VER > 1000
+a1 3
+#endif // _MSC_VER > 1000
+// Tabs.h : header file
+//
+d4 1
+d6 1
+a6 2
+/////////////////////////////////////////////////////////////////////////////
+// CTabs window
+d8 3
+a10 1
+#define _TABS_BASECLASS	TabControl	//CTabCtrl
+a11 3
+class CTabs : public _TABS_BASECLASS
+{
+// Construction
+d14 1
+d16 2
+a17 4
+// Attributes
+public:
+
+// Operations
+d19 1
+d21 2
+a22 13
+// Overrides
+	// ClassWizard generated virtual function overrides
+	//{{AFX_VIRTUAL(CTabs)
+	//}}AFX_VIRTUAL
+
+// Implementation
+public:
+	virtual ~CTabs();
+
+	// Generated message map functions
+protected:
+	void DrawItem(CDC *pDC, int iItem, bool bSel);
+	void DrawTabs(CDC *dc);
+d28 1
+a28 3
+	CFont m_cfFont;
+
+	//{{AFX_MSG(CTabs)
+a29 3
+	//}}AFX_MSG
+
+	DECLARE_MESSAGE_MAP()
+a31 4
+/////////////////////////////////////////////////////////////////////////////
+
+//{{AFX_INSERT_LOCATION}}
+// Microsoft Visual C++ will insert additional declarations immediately before the previous line.
+a32 1
+#endif // !defined(AFX_TABS_H__83E933AB_1D83_4E03_95F4_137B0670382D__INCLUDED_)
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d10 2
+d15 3
+a17 1
+class CTabs : public CTabCtrl
+@
+

@@ -1,0 +1,1086 @@
+head	1.38;
+access;
+symbols
+	PublicRelease_1_2e:1.34
+	Interim_Release_1-2e_RC1:1.32
+	PublicRelease_1_2d:1.32
+	Interim_Release_1-2d_RC1:1.31
+	Interim_Release_1-2d_beta1:1.31
+	PublicRelease_1_2c:1.30
+	Interim_Release_1-2c_RC1:1.30
+	Interim_Release_1-2c_beta1:1.28
+	PublicRelease_1_2b:1.28
+	Interim_Release_1-2b_RC1:1.28
+	PublicRelease_1_2a:1.28
+	Interim_Release_1-2a_RC1:1.28
+	Interim_Release_1-2a_beta2:1.28
+	Interim_Release_1-2a_beta1:1.28
+	PublicRelease_1_2:1.28
+	Interim_Release_1-2_RC1:1.28
+	Interim_Release_1-2_beta1:1.28
+	PublicRelease_1_1g:1.28
+	Interim_Release_1-1g_RC3:1.28
+	Interim_Release_1-1g_RC2:1.28
+	Interim_Release_1-1g_RC1:1.28
+	Interim_Release_1-1g_beta2:1.28
+	Interim_Release_1-1g_beta1:1.28
+	PublicRelease_1_1f:1.27
+	Interim_Release_1-1f_RC1:1.27
+	PublicRelease_1_1e:1.27
+	Interim_Release_1-1e_RC2:1.27
+	Interim_Release_1-1e_RC1:1.26
+	Interim_Release_1-1e_beta1:1.26
+	PublicRelease_1_1d:1.26
+	Interim_Release_1-1d_RC1:1.26
+	PublicRelease_1_1c:1.26
+	Interim_Release_1-1c_RC1:1.26
+	Interim_Release_1-1c_beta2:1.26
+	Interim_Release_1-1c_beta1:1.24
+	PublicRelease_1_1b:1.24
+	Interim_Release_1-1b_RC1:1.24
+	PublicRelease_1_1a:1.23
+	Interim_Release_1-1a_RC2:1.23
+	Interim_Release_1-1a_RC1:1.23
+	Interim_Release_1-1a_beta2:1.23
+	Interim_Release_1-1a_beta1:1.23
+	PublicRelease_1_1:1.23
+	Interim_Release_1-1_beta1:1.23
+	PublicRelease_1o:1.23
+	Interim_Release_1o_RC1:1.23
+	Interim_Release_1o_beta1:1.23
+	PublicRelease_1n:1.23
+	Interim_Release_1n_RC2:1.23
+	Interim_Release_1n_RC1:1.23
+	Interim_Release_1n_beta2:1.23
+	Interim_Release_1n_beta1:1.23
+	PublicRelease_1m:1.23
+	Interim_Release_1m_beta1:1.23
+	PublicRelease_1l:1.23
+	Interim_Release_1l_RC3:1.23
+	Interim_Release_1l_RC2:1.23
+	Interim_Release_1l_RC1:1.23
+	Interim_Release_1l_beta2:1.23
+	Interim_Release_1l_beta1:1.23
+	PublicRelease_1k:1.22
+	Interim_Release_1k_RC4:1.22
+	Interim_1k_RC3:1.22
+	Interim_1k_RC2:1.22
+	Interim_Release_1k_RC1:1.19
+	Interim_Release_1k_beta5:1.19
+	Intrerim_Release_1k_beta4:1.19
+	Interim_Release_1k_beta1:1.19
+	PublicRelease_1j:1.18
+	Interim_Release_1J_RC3:1.17
+	Interim_Release_1j_RC3:1.17
+	Interim_Release_1j_RC2:1.17
+	Interim_Release_1j_RC1:1.17
+	Interim_Release_1j_beta2:1.17
+	Interim_Release_1j_beta1:1.17
+	PublicRelease_1i:1.17
+	Interim_Release_1i_RC6:1.17
+	Interim_Release_1i_RC3:1.17
+	Interim_Release_1i_RC2:1.17
+	Interim_Release_1i_RC1:1.17
+	Interim_Release_1i_beta3:1.16
+	Interim_Release_1i_beta2:1.15
+	Interim_Release_1i_beta1:1.12
+	PublicRelease_1h:1.11
+	Interim_Release_1h_rc2:1.11
+	Interim_Release_1h_RC1:1.11
+	Interim_Release_1h_beta2:1.10
+	Interim_Release_1h_beta1_now:1.10
+	Interim_Release_1h_beta1:1.10
+	PublicRelease_1g:1.10
+	Interim_Release_1g_RC6_Final:1.10
+	Interim_Release_1g_RC6:1.9
+	Interim_Release_1g_RC5:1.9
+	Interim_Release_1g_RC4:1.9
+	Interim_Release_1g_RC3:1.9
+	Interim_Release_1g_beta2:1.8
+	Interim_Release_1g_beta1:1.7
+	Interim_Release_1f_RC4:1.7
+	Interim_Release_1f_RC3:1.7
+	Interim_Release_1f_RC2:1.6
+	Interim_Release_1f_RC:1.6
+	Interim_Release_1f_beta2:1.5
+	Interim_Release_1f_beta1:1.4
+	PublicRelease_1e:1.4
+	Interim_Release_1e_RC2:1.4
+	Interim_Release_1e_RC:1.4
+	Interim_Release_1e_beta3:1.4
+	Interim_Release_1e_beta2:1.4
+	Interim_Release_1e_beta2_before_kuchin:1.4
+	Interim_Release_1e_beta1:1.4
+	PublicRelease_1c:1.4
+	featurestest:1.4.0.4
+	Interim_Release_1c_RC:1.4
+	Interim_Release_1c_beta2:1.4
+	Interim_Release_1c_beta1:1.4
+	threaded_downloadqueue:1.4.0.2
+	PublicRelease_1b:1.3
+	Interim_Release_1b_beta2:1.3
+	Interim_Release_1b_beta1:1.3
+	proxydeadlake:1.3.0.4
+	PublicRelease_1a:1.3
+	Interim_Release_1a_beta2:1.3
+	BerkeleyDb:1.3.0.2
+	Interim_Release_1a_beta1:1.3
+	PublicRelease_1:1.3
+	goldfish:1.3
+	eMulePlus_1_RC2:1.3
+	eMulePlus_26b_1RC1:1.3
+	PreRelease_26b_i0e:1.3
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@ * @;
+
+
+1.38
+date	2011.10.20.04.07.22;	author aw3;	state Exp;
+branches;
+next	1.37;
+
+1.37
+date	2011.08.16.03.17.16;	author aw3;	state Exp;
+branches;
+next	1.36;
+
+1.36
+date	2009.06.17.02.27.14;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2009.05.14.01.40.37;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2009.04.07.03.58.37;	author aw3;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2009.04.05.02.39.04;	author aw3;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2008.05.14.18.50.13;	author eklmn;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2007.12.28.22.13.53;	author eklmn;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2007.07.07.04.11.27;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2007.04.18.00.23.36;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.08.04.03.29.18;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.07.07.03.13.20;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.02.10.04.36.05;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.02.02.07.09.14;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.12.16.19.40.53;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.04.23.22.13.54;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.03.31.22.26.56;	author dropf;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.03.30.21.02.15;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.03.30.16.13.34;	author eklmn;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.02.15.11.55.57;	author morevit;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.01.25.22.55.04;	author kush_eplus;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.11.01.13.32.31;	author eklmn;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.10.26.13.50.16;	author morevit;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.10.24.01.21.20;	author morevit;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.10.08.01.53.32;	author morevit;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.10.05.17.53.56;	author morevit;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.09.22.16.39.44;	author morevit;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.09.08.17.55.36;	author kuchin;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.07.20.09.15.39;	author eklmn;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.07.02.15.39.04;	author eklmn;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.06.03.19.41.30;	author partyckip;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.05.14.15.10.16;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.05.11.19.25.47;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.05.08.16.22.20;	author partyckip;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.14.15.59.54;	author partyckip;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.17.19.17.20;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.17.06.50.29;	author obaldin;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.22;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.25;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.38
+log
+@DynIP servers are checked for filtering after domain name resolution -- from original (previously they were filtered unconditionaly when server filtering was enabled).
+@
+text
+@//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+//
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+//
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+//
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "Loggable.h"
+
+#define CFGFILE_STATICSERVERS		_T("staticservers.dat")
+
+class CServer;
+
+class CServerList : public CLoggable
+{
+	friend class	CServerListCtrl;
+	friend class	CWebServer;
+
+public:
+	CServerList();
+	~CServerList(void);
+	bool	Init();
+	bool	AddServer(CServer *pServer, bool bChangeServerInfo = false);
+	void	RemoveServer(CServer *pServer);
+	void	RemoveDuplicates(const CServer *pExceptThis, bool bByIP);
+	bool	AddServerMetToList(const CString &strFile, bool bMergeWithPrevList = true);
+	void	LoadServersFromTextFile(const CString &strFilename);
+	bool	SaveServersToTextFile();
+	bool	SaveServerMetToFile();
+	void	ServerStats();
+	void	ResetServerPos()			{ m_dwServerPos = 0; }
+	void	ResetSearchServerPos()		{ searchserverpos = 0; }
+	CServer* GetNextServer(bool bOnlyObfuscated);
+	CServer* GetSuccServer(const CServer *pLastSrv) const;
+	CServer *GetNextSearchServer();
+	CServer *GetNextStatServer();
+	CServer *GetServerAt(uint32 pos)	{ return(m_serverList.GetAt(m_serverList.FindIndex(pos))); }
+	uint32	GetServerCount()			{ return(m_serverList.GetCount()); }
+	CServer *FindServerByAddress(const CServer& in_server, bool bCheckPort = true);
+	CServer *GetServerByAddress(const CString &address, uint16 port);
+	CServer*	GetServerByIP(uint32 nIP) const { return GetServerByIPTCP(nIP, 0); }
+	CServer*	GetServerByIPTCP(uint32 nIP, uint16 nTCPPort) const;
+	CServer*	GetServerByIPUDP(uint32 nIP, uint16 nUDPPort, bool bObfuscationPorts = true) const;
+	bool	IsGoodServerIP(const CServer *pServer) const;
+	void	GetServersStatus(uint32 &total, uint32 &failed, uint32 &user, uint32 &file,
+				uint32 &dwLowIdUsers, uint32 &tuser, uint32 &tfile, double &occ);
+	void	GetUserFileStatus(uint32 &user, uint32 &file);
+	void	Sort();
+	void	MoveServerDown(CServer *aServer);
+	uint32	GetServerPosition() const	{ return m_dwServerPos; }
+	void	SetServerPosition(uint32 dwNewPosition)
+	{
+		m_dwServerPos = (dwNewPosition < (uint32)m_serverList.GetCount()) ? dwNewPosition : 0;
+	}
+
+	uint32	GetDeletedServerCount() const	{ return m_dwDelSrvCnt; }
+	void	Process();
+	void	AutoUpdate();
+	void	ResetIP2Country();
+	void	CheckForExpiredUDPKeys();
+
+private:
+	uint32								m_dwServerPos;
+	uint32								searchserverpos;
+	uint32								statserverpos;
+	CTypedPtrList<CPtrList, CServer *>	m_serverList;
+	uint32								m_dwDelSrvCnt;
+	uint32								m_nLastSaved;
+	CCriticalSection					m_csServerMetFile;
+	bool								m_bListLoaded;
+};
+@
+
+
+1.37
+log
+@Handle duplicate DynIP servers.
+@
+text
+@d55 1
+a55 1
+	bool	IsGoodServerIP(CServer *in_server);
+@
+
+
+1.36
+log
+@Updated server list search API for encryption implementation.
+@
+text
+@d36 1
+@
+
+
+1.35
+log
+@Reduced H-file dependency.
+@
+text
+@d51 3
+a53 1
+	CServer *GetServerByIP(uint32 nIP, uint16 port = 0);
+@
+
+
+1.34
+log
+@Unified definition for the staticservers configuration file.
+@
+text
+@a18 2
+#include "ServerListCtrl.h"
+#include "WebServer.h"
+@
+
+
+1.33
+log
+@Mutex replaced with more efficient critical sections object.
+@
+text
+@d23 2
+@
+
+
+1.32
+log
+@change unicode support for "staticsevers.dat" to be compatible with official eMule
+@
+text
+@d77 1
+a77 1
+	CMutex								m_ServerMetMutex;
+@
+
+
+1.31
+log
+@added Unicode support for staticservers.dat
+@
+text
+@d37 2
+a38 1
+	void	AddServersFromTextFile(const CString &strFilename);
+@
+
+
+1.30
+log
+@Encryption preparations; Clean-up.
+@
+text
+@d37 1
+a37 1
+	void	AddServersFromTextFile(CString strFilename);
+@
+
+
+1.29
+log
+@Code restructuring, update and formatting.
+@
+text
+@a18 1
+#include "server.h"
+d23 2
+d40 3
+a42 3
+	void	ResetServerPos()		{ m_dwServerPos = 0; }
+	void	ResetSearchServerPos()	{ searchserverpos = 0; }
+	CServer *GetNextServer();
+d63 5
+a67 4
+	uint32					GetDeletedServerCount() const	{ return m_dwDelSrvCnt; }
+	void					Process();
+	void					AutoUpdate();
+	void					ResetIP2Country();
+@
+
+
+1.28
+log
+@Global preferences reference instead of local pointer;
+Removed double #include of afxmt.h (once in stdafx.h is enough).
+@
+text
+@d18 1
+a19 1
+#include "opcodes.h"
+d42 1
+a42 1
+	CServer *GetNextServer(CServer *lastserver);
+d57 1
+a57 1
+	void SetServerPosition(uint32 dwNewPosition)
+@
+
+
+1.27
+log
+@Fixed loss of server list caused by fast client closure right after startup;
+Removed unused class member; Formatting.
+@
+text
+@a19 1
+#include "Preferences.h"
+a22 1
+#include "afxmt.h"
+d30 1
+a30 1
+	CServerList(CPreferences *in_prefs);
+a71 1
+	CPreferences						*m_pPrefs;
+@
+
+
+1.26
+log
+@Removed unused UDP broadcast code.
+@
+text
+@a23 3
+#ifdef USE_SAFE_ARRAY
+	#include "safearray.h"
+#endif
+d26 1
+a26 2
+class CServerList :
+	public CLoggable
+d41 1
+a41 1
+	void	ResetServerPos()		{ m_iServerPos = 0; }
+d58 1
+a58 1
+	uint32	GetServerPosition()	{ return(m_iServerPos); }
+d61 1
+a61 1
+		m_iServerPos = (dwNewPosition < (uint32)m_serverList.GetCount()) ? dwNewPosition : 0;
+d64 1
+a64 1
+	uint32					GetDeletedServerCount()		{ return(delservercount); }
+d70 1
+a70 1
+	uint32								m_iServerPos;
+a72 1
+	uint32								m_iNumServers;
+d75 1
+a75 1
+	uint32								delservercount;
+d78 1
+@
+
+
+1.25
+log
+@Server LowID users statistics; Removed unrequired variables.
+@
+text
+@a59 2
+	bool	BroadCastPacket(Packet *packet);	//send Packet to all server in the list
+	void	CancelUDPBroadcast();
+a69 1
+	void static CALLBACK	UDPTimerProc(HWND hwnd, UINT uMsg, UINT_PTR idEvent, DWORD dwTime);
+a79 3
+	uint32								udp_timer;
+	POSITION							broadcastpos;
+	Packet								*broadcastpacket;
+a82 2
+
+	void								SendNextPacket();
+@
+
+
+1.24
+log
+@Removed 'Remove all Servers' menu item.
+@
+text
+@d56 3
+a58 3
+	bool	IsGoodServerIP(CServer *in_server); //<<--
+	void	GetStatus(uint32 &total, uint32 &failed, uint32 &user, uint32 &file, uint32 &tuser, uint32 &tfile,
+					  double &occ);
+d65 1
+a65 1
+	void SetServerPosition(uint32 iNewPosition)
+d67 1
+a67 8
+		if (iNewPosition < (uint32) m_serverList.GetCount())
+		{
+			m_iServerPos = iNewPosition;
+		}
+		else
+		{
+			m_iServerPos = 0;
+		}
+a88 1
+	byte								m_uServerListVersion;
+@
+
+
+1.23
+log
+@added IP to Country from MorphXT (Please extract ip-to-country.rar in your config dir in order for this to work)
+@
+text
+@d20 4
+a23 4
+#include "preferences.h"
+#include "serverlistctrl.h"
+#include "WebServer.h"							// kuchin
+#include "Loggable.h"							// kuchin
+d28 1
+d33 1
+a33 1
+	friend class	CWebServer;					// kuchin
+a40 1
+	void	RemoveAllServers(void);
+d81 1
+a84 1
+	void								SendNextPacket();
+a86 1
+	byte								m_uServerListVersion;
+d95 2
+d98 1
+a98 5
+protected:
+	CMutex	m_ServerMetMutex;
+
+public:
+	void	ResetIP2Country();
+@
+
+
+1.22
+log
+@added auxiliary port support from KuSh (commited with eklmn's authorization)
+@
+text
+@d99 3
+@
+
+
+1.21
+log
+@Fixed initial sorting of server list by Static criteria;
+Faster initial sorting of server list;
+Removed list hiding because it isn't required and causes graphical blink.
+@
+text
+@d38 1
+a38 1
+	bool	AddServer(CServer *pServer);
+d53 1
+a53 1
+	CServer *FindServerByAddress(const CServer &in_server);
+@
+
+
+1.20
+log
+@corrected Server addition in ServerList
+@
+text
+@d41 1
+a41 1
+	bool	AddServerMetToList(bool bRedraw, const CString &strFile, bool bMergeWithPrevList = true);
+@
+
+
+1.19
+log
+@Changed uint32 to unsigned long from unsigned int and made necessary code changes. Got rid of _unsigned_ types int8,int16,int32,int64. Eliminated uint8 to avoid confusion. Use "byte".
+@
+text
+@d41 1
+a41 1
+	bool	AddServerMetToList(const CString &strFile, bool bMerge = true);
+@
+
+
+1.18
+log
+@typo correction + prevent from connect to the same server every time
+@
+text
+@d87 1
+a87 1
+	int8								m_uServerListVersion;
+@
+
+
+1.17
+log
+@bug with save and load of server list
+@
+text
+@d64 1
+a64 1
+	uint32	GetServerPostion()	{ return(m_iServerPos); }
+@
+
+
+1.16
+log
+@Formatting, comments, and name changes.
+float => double conversion
+@
+text
+@d87 1
+a87 1
+	int8								version;
+@
+
+
+1.15
+log
+@Formatting, comments, and name changes.
+@
+text
+@d58 1
+a58 1
+					  float &occ);
+@
+
+
+1.14
+log
+@Formatting, comments, and name changes.
+Created distinct tag classes and typed enumerations for tags, opcodes, and protocols.
+@
+text
+@a16 2
+
+
+d22 2
+a23 4
+#include "WebServer.h" // kuchin
+#include "Loggable.h" // kuchin
+
+
+d25 1
+a25 1
+#include "safearray.h"
+d28 5
+a33 4
+class CServerList : public CLoggable
+{
+	friend class CServerListCtrl;
+	friend class CWebServer; // kuchin
+d35 1
+a35 1
+	CServerList(CPreferences* in_prefs);
+d37 44
+a80 30
+	bool		Init();
+	bool		AddServer(CServer* in_server );
+	void		RemoveServer(CServer* out_server);
+	void		RemoveAllServers(void);
+	bool		AddServermetToList(const CString& strFile, bool merge = true);
+	void		AddServersFromTextFile(CString strFilename);
+	bool		SaveServerMetToFile();
+	void		ServerStats();
+	void		ResetServerPos()	{m_iServerPos = 0;}
+	void		ResetSearchServerPos()	{searchserverpos = 0;}
+	CServer	   *GetNextServer();
+	CServer	   *GetNextServer(CServer *lastserver);
+	CServer*	GetNextSearchServer();
+	CServer*	GetNextStatServer();
+	CServer*	GetServerAt(uint32 pos)	{return m_serverList.GetAt(m_serverList.FindIndex(pos));}
+	uint32		GetServerCount()	{return m_serverList.GetCount();}
+	CServer*	FindServerByAddress(const CServer& in_server);
+	CServer*	GetServerByAddress(const CString& address, uint16 port);
+	CServer*	GetServerByIP(uint32 nIP, uint16 port = 0);
+	bool		IsGoodServerIP( CServer* in_server ); //<<--
+	void		GetStatus( uint32 &total, uint32 &failed, uint32 &user, uint32 &file, uint32 &tuser, uint32 &tfile, float &occ);
+	void		GetUserFileStatus( uint32 &user, uint32 &file);
+	bool		BroadCastPacket(Packet* packet); //send Packet to all server in the list
+	void		CancelUDPBroadcast();
+	void		Sort();
+	void		MoveServerDown(CServer* aServer);
+	uint32		GetServerPostion()	{return m_iServerPos;}
+	void		SetServerPosition(uint32 iNewPosition) { if (iNewPosition<(uint32)m_serverList.GetCount()) m_iServerPos=iNewPosition; else m_iServerPos=0;}
+	uint32		GetDeletedServerCount()		{return delservercount;}
+	void		Process();
+d82 14
+a96 16
+	void static CALLBACK UDPTimerProc(HWND hwnd, UINT uMsg,UINT_PTR idEvent,DWORD dwTime);
+	void		AutoUpdate();
+private:
+	uint32		m_iServerPos;
+	void		SendNextPacket();
+	uint32		searchserverpos;
+	uint32		statserverpos;
+	int8		version;
+	uint32		m_iNumServers;
+	CTypedPtrList<CPtrList, CServer*>	m_serverList;
+	CPreferences*	m_pPrefs;
+	uint32		udp_timer;
+	POSITION	broadcastpos;
+	Packet*		broadcastpacket;
+	uint32		delservercount;
+	uint32		m_nLastSaved;
+d98 2
+a99 2
+	CMutex m_ServerMetMutex;
+};@
+
+
+1.13
+log
+@Formatting, comments, and name changes.
+@
+text
+@d46 1
+a46 1
+	bool		SaveServermetToFile(); //<<--9/22/02
+@
+
+
+1.12
+log
+@Formatting, comments, and name changes.
+@
+text
+@d48 1
+a48 1
+	void		ResetServerPos()	{serverpos = 0;}
+d50 2
+a51 1
+	CServer*	GetNextServer();
+d54 2
+a55 3
+	CServer*		GetServerAt(uint32 pos)	{return list.GetAt(list.FindIndex(pos));}
+	uint32		GetServerCount()	{return list.GetCount();}
+	CServer*	GetNextServer(CServer* lastserver); // slow
+d66 2
+a67 2
+	uint32		GetServerPostion()	{return serverpos;}
+	void		SetServerPosition(uint32 newPosition) { if (newPosition<(uint32)list.GetCount() ) serverpos=newPosition; else serverpos=0;}
+d75 1
+a75 1
+	uint32		serverpos;
+d81 1
+a81 1
+	CTypedPtrList<CPtrList, CServer*>	list;
+@
+
+
+1.11
+log
+@New sockets - more server logic
+@
+text
+@d80 1
+a80 1
+	uint32		servercount;
+d82 1
+a82 1
+	CPreferences*	app_prefs;
+@
+
+
+1.10
+log
+@dondition SAFE_ARRAY was removed
+@
+text
+@d58 1
+a58 1
+	CServer*	GetServerByIP(uint32 nIP);
+@
+
+
+1.9
+log
+@added GetServerByIP function for better identification HighID<->LowID change
+@
+text
+@d53 1
+a53 7
+#ifndef USE_SAFE_ARRAY
+	CServer*	GetServerAt(uint32 pos)	{return list.GetAt(list.FindIndex(pos));}
+#else
+	CServer*	GetServerAt(uint32 pos)	{return array.GetAt(pos);}
+#endif
+
+#ifndef USE_SAFE_ARRAY
+a54 4
+#else
+	uint32		GetServerCount()	{return array.GetCount();}
+#endif
+
+a66 1
+#ifndef USE_SAFE_ARRAY
+a67 3
+#else
+	void		SetServerPosition(uint32 newPosition) { if (newPosition<(uint32)array.GetCount() ) serverpos=newPosition; else serverpos=0;}
+#endif
+a73 4
+protected:
+#ifdef USE_SAFE_ARRAY
+	static int __cdecl PRCompare(const void* pItem1, const void* pItem2);
+#endif
+a80 1
+#ifndef USE_SAFE_ARRAY
+a81 3
+#else
+	CSafeArray<CServer*>	array;
+#endif
+a83 1
+#ifndef USE_SAFE_ARRAY
+a84 3
+#else
+	INT_PTR		broadcastpos;
+#endif
+@
+
+
+1.8
+log
+@use faster method to compare servers
+@
+text
+@d68 1
+@
+
+
+1.7
+log
+@Thread safe storing/loading of the server.met files (for future use) .
+@
+text
+@d66 1
+@
+
+
+1.6
+log
+@CServerList moved to use new CSafe array , suppouse to work faster , safer  and to be the step to the virtual list controls .
+@
+text
+@d31 1
+d112 2
+@
+
+
+1.5
+log
+@code cleanup
+@
+text
+@d27 5
+d52 1
+d54 5
+d60 4
+d74 1
+d76 3
+d86 3
+d96 1
+d98 3
+d103 1
+d105 3
+@
+
+
+1.4
+log
+@converted to new logging method
+@
+text
+@d38 1
+a38 1
+	bool		AddServermetToList(CString strFile, bool merge = true);
+d50 1
+a50 1
+	CServer*	GetServerByAddress(char* address, uint16 port);
+@
+
+
+1.3
+log
+@Little fixes and Static Servers additions from 26d
+@
+text
+@d25 1
+d27 1
+a27 1
+class CServerList
+@
+
+
+1.2
+log
+@upgrade to 26d, fixes, extended reask, more upload parts seen, more crash fixes
+@
+text
+@d38 1
+a38 1
+	void		AddServersFromTextFile(CString strFilename,bool isstaticserver=true);
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d60 2
+d79 1
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

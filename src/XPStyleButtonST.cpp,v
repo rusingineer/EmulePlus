@@ -1,0 +1,555 @@
+head	1.7;
+access;
+symbols
+	PublicRelease_1_2e:1.7
+	Interim_Release_1-2e_RC1:1.7
+	PublicRelease_1_2d:1.7
+	Interim_Release_1-2d_RC1:1.6
+	Interim_Release_1-2d_beta1:1.6
+	PublicRelease_1_2c:1.6
+	Interim_Release_1-2c_RC1:1.6
+	Interim_Release_1-2c_beta1:1.5
+	PublicRelease_1_2b:1.5
+	Interim_Release_1-2b_RC1:1.4
+	PublicRelease_1_2a:1.4
+	Interim_Release_1-2a_RC1:1.4
+	Interim_Release_1-2a_beta2:1.4
+	Interim_Release_1-2a_beta1:1.4
+	PublicRelease_1_2:1.4
+	Interim_Release_1-2_RC1:1.4
+	Interim_Release_1-2_beta1:1.4
+	PublicRelease_1_1g:1.4
+	Interim_Release_1-1g_RC3:1.4
+	Interim_Release_1-1g_RC2:1.4
+	Interim_Release_1-1g_RC1:1.4
+	Interim_Release_1-1g_beta2:1.4
+	Interim_Release_1-1g_beta1:1.4
+	PublicRelease_1_1f:1.4
+	Interim_Release_1-1f_RC1:1.4
+	PublicRelease_1_1e:1.4
+	Interim_Release_1-1e_RC2:1.4
+	Interim_Release_1-1e_RC1:1.4
+	Interim_Release_1-1e_beta1:1.4
+	PublicRelease_1_1d:1.4
+	Interim_Release_1-1d_RC1:1.4
+	PublicRelease_1_1c:1.4
+	Interim_Release_1-1c_RC1:1.4
+	Interim_Release_1-1c_beta2:1.4
+	Interim_Release_1-1c_beta1:1.4
+	PublicRelease_1_1b:1.4
+	Interim_Release_1-1b_RC1:1.4
+	PublicRelease_1_1a:1.4
+	Interim_Release_1-1a_RC2:1.4
+	Interim_Release_1-1a_RC1:1.4
+	Interim_Release_1-1a_beta2:1.4
+	Interim_Release_1-1a_beta1:1.4
+	PublicRelease_1_1:1.4
+	Interim_Release_1-1_beta1:1.4
+	PublicRelease_1o:1.4
+	Interim_Release_1o_RC1:1.4
+	Interim_Release_1o_beta1:1.4
+	PublicRelease_1n:1.4
+	Interim_Release_1n_RC2:1.4
+	Interim_Release_1n_RC1:1.4
+	Interim_Release_1n_beta2:1.4
+	Interim_Release_1n_beta1:1.3
+	PublicRelease_1m:1.3
+	Interim_Release_1m_beta1:1.3
+	PublicRelease_1l:1.3
+	Interim_Release_1l_RC3:1.3
+	Interim_Release_1l_RC2:1.3
+	Interim_Release_1l_RC1:1.3
+	Interim_Release_1l_beta2:1.3
+	Interim_Release_1l_beta1:1.3
+	PublicRelease_1k:1.3
+	Interim_Release_1k_RC4:1.3
+	Interim_1k_RC3:1.3
+	Interim_1k_RC2:1.3
+	Interim_Release_1k_RC1:1.3
+	Interim_Release_1k_beta5:1.3
+	Intrerim_Release_1k_beta4:1.3
+	Interim_Release_1k_beta1:1.3
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.7
+date	2008.04.22.04.58.37;	author aw3;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2007.04.03.18.59.04;	author kush_eplus;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2007.02.04.10.49.09;	author kush_eplus;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.08.05.19.58.23;	author katsyonak;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.02.18.16.25.12;	author kush_eplus;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2004.02.18.15.41.48;	author katsyonak;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.24;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.38;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.7
+log
+@Suppressed compiler warnings.
+@
+text
+@#include "stdafx.h"
+#include "XPStyleButtonST.h"
+#include "ThemeHelperST.h"
+#include <Windows.h>
+#include <Winuser.h>
+
+//#if(WINVER >= 0x0501)
+#ifdef	THEMEAPI
+#include <tmschema.h>
+#else
+#define	NO_THEMEAPI_FOUND
+
+#define	BP_PUSHBUTTON	0x00000001
+#define	PBS_NORMAL		0x00000001
+#define	PBS_HOT			0x00000002
+#define	PBS_PRESSED		0x00000003
+#define	PBS_DISABLED	0x00000004
+#define	PBS_DEFAULTED	0x00000005
+#endif
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+CXPStyleButtonST::CXPStyleButtonST()
+{
+	// No theme helper
+	m_pTheme = NULL;
+	// Don't use flat toolbar-style
+	m_bDrawAsToolbar = FALSE;
+	m_bDrawBorder = FALSE;
+}
+
+CXPStyleButtonST::~CXPStyleButtonST()
+{
+}
+
+#ifndef WM_THEMECHANGED
+#define WM_THEMECHANGED		0x031A
+#endif
+
+BEGIN_MESSAGE_MAP(CXPStyleButtonST, CButtonST)
+	ON_MESSAGE(WM_THEMECHANGED, OnThemeChanged)
+END_MESSAGE_MAP()
+
+// This function is called every time the button border needs to be painted.
+// If the button is in standard (not flat) mode this function will NOT be called.
+// This is a virtual function that can be rewritten in CButtonST-derived classes
+// to produce a whole range of buttons not available by default.
+//
+// Parameters:
+//		[IN]	pDC
+//				Pointer to a CDC object that indicates the device context.
+//		[IN]	pRect
+//				Pointer to a CRect object that indicates the bounds of the
+//				area to be painted.
+//
+// Return value:
+//		BTNST_OK
+//			Function executed successfully.
+//
+DWORD CXPStyleButtonST::OnDrawBorder(CDC* pDC, CRect* pRect)
+{
+	if (m_pTheme == NULL || !m_pTheme->IsAppThemed())
+	{
+		return CButtonST::OnDrawBorder(pDC, pRect);
+	} // if
+
+	return BTNST_OK;
+} // End of OnDrawBorder
+
+// This function is called every time the button background needs to be painted.
+// If the button is in transparent mode this function will NOT be called.
+// This is a virtual function that can be rewritten in CButtonST-derived classes
+// to produce a whole range of buttons not available by default.
+//
+// Parameters:
+//		[IN]	pDC
+//				Pointer to a CDC object that indicates the device context.
+//		[IN]	pRect
+//				Pointer to a CRect object that indicates the bounds of the
+//				area to be painted.
+//
+// Return value:
+//		BTNST_OK
+//			Function executed successfully.
+//
+DWORD CXPStyleButtonST::OnDrawBackground(CDC* pDC, CRect* pRect)
+{
+	BOOL	bDefaultDraw = FALSE;
+
+	// No theme helper passed
+	if (m_pTheme == NULL || !m_pTheme->IsAppThemed())
+	{
+		bDefaultDraw = TRUE;
+	} // if
+	else
+	{
+		HTHEME	hTheme = NULL;
+		int		iStateId = 0;
+
+		/*
+		// added by FoRcHa (draw the button rectangle with the dialog-background, 
+		// to prevent some glitches with rounded buttons:
+		hTheme = m_pTheme->OpenThemeData(GetSafeHwnd(), L"WINDOW");
+		if(hTheme)
+		{
+			m_pTheme->DrawThemeBackground(hTheme, m_hWnd, pDC->GetSafeHdc(), 29, 0, pRect, NULL); // 29 = WP_DIALOG
+			m_pTheme->CloseThemeData(hTheme);
+		}
+		// FoRcHa end
+		*/
+		pDC->FillSolidRect(pRect, GetSysColor(COLOR_3DFACE));
+
+		hTheme = m_pTheme->OpenThemeData(GetSafeHwnd(), m_bDrawAsToolbar ? L"TOOLBAR" : L"BUTTON");
+		if (hTheme)
+		{
+			iStateId = PBS_NORMAL;			// Normal
+			if ((m_bIsDefault && !m_bDrawAsToolbar) || (m_bIsDefault && m_bDrawAsToolbar && m_bDrawBorder))
+				iStateId = PBS_DEFAULTED;	// Default button
+			if (m_bMouseOnButton)
+				iStateId = PBS_HOT;			// Hot
+			if (m_bIsPressed)
+				iStateId = PBS_PRESSED;		// Pressed
+			if (m_bIsDisabled)
+				iStateId = PBS_DISABLED;	// Disabled
+			
+			m_pTheme->DrawThemeBackground(hTheme, m_hWnd, pDC->GetSafeHdc(), BP_PUSHBUTTON, iStateId, pRect, NULL);
+			m_pTheme->CloseThemeData(hTheme);
+		} // if
+		else
+		{
+			bDefaultDraw = TRUE;
+		} // else
+	} // else
+
+	if (bDefaultDraw)
+	{
+		return CButtonST::OnDrawBackground(pDC, pRect);
+	} // if
+
+	return BTNST_OK;
+} // End of OnDrawBackground
+
+// This function assigns a CThemeHelperST instance to the button.
+//
+// Parameters:
+//		[IN]	pTheme
+//				Pointer to a CThemeHelperST instance.
+//				Pass NULL to remove any previous instance.
+//
+void CXPStyleButtonST::SetThemeHelper(CThemeHelperST* pTheme)
+{
+	m_pTheme = pTheme;
+
+	// No theme active ?
+	if (m_pTheme == NULL || !m_pTheme->IsAppThemed())
+		m_bIsFlat = FALSE;
+} // End of SetThemeHelper
+
+// This function sets if the button must be drawn using the flat toolbar-style.
+//
+// Parameters:
+//		[IN]	bDrawAsToolbar
+//				If TRUE the button will be drawn using the flat toolbar-style.
+//		[IN]	bRepaint
+//				If TRUE the control will be repainted.
+//
+// Return value:
+//		BTNST_OK
+//			Function executed successfully.
+//
+DWORD CXPStyleButtonST::DrawAsToolbar(BOOL bDrawAsToolbar, BOOL bRepaint)
+{
+	m_bDrawAsToolbar = bDrawAsToolbar;
+	// Repaint the button
+	if (bRepaint)
+		Invalidate();
+
+	return BTNST_OK;
+} // End of DrawAsToolbar
+
+// Handler for WM_THEMECHANGED
+LRESULT CXPStyleButtonST::OnThemeChanged(WPARAM wParam, LPARAM lParam)
+{
+	NOPRM(wParam); NOPRM(lParam);
+	m_dcBk.DeleteDC();
+	m_bmpBk.DeleteObject();	
+	SetDefaultColors();
+
+	return 0;
+}
+
+#ifdef	NO_THEMEAPI_FOUND
+#undef	NO_THEMEAPI_FOUND
+#undef	BP_PUSHBUTTON
+#undef	PBS_NORMAL
+#undef	PBS_HOT
+#undef	PBS_PRESSED
+#undef	PBS_DISABLED
+#undef	PBS_DEFAULTED
+#endif
+@
+
+
+1.6
+log
+@Moved #includes to C-file;
+Minor code cleanup.
+@
+text
+@d188 1
+d194 1
+a194 1
+} // End of OnThemeChanged
+@
+
+
+1.5
+log
+@crash on visual style change {theirix}
+@
+text
+@d3 1
+@
+
+
+1.4
+log
+@Iconed buttons border is now visible also in a non-themed environment.
+Updated BtnST code to v3.9 + Formatted & Optimized.
+Shiftet Underline icon one pixel to the right.
+Changed IRC text and color formatting buttons to look correct on both themed & not themed environment.
+@
+text
+@d39 8
+d184 10
+@
+
+
+1.3
+log
+@formatting;
+minor change in LanCast preferences loading;
+changed the SearchDlg code to not duplicate the code
+@
+text
+@d57 1
+a57 1
+	if (m_pTheme == NULL || m_pTheme->IsAppThemed() == FALSE)
+d86 1
+a86 1
+	if (m_pTheme == NULL || m_pTheme->IsAppThemed() == FALSE)
+d150 2
+a151 4
+	if (m_pTheme == NULL || m_pTheme->IsAppThemed() == FALSE)
+	{
+		m_bDrawBorder = TRUE;
+	} // if
+@
+
+
+1.2
+log
+@Fixed Mantis bug #500 - Display bug in Server window (buttons) when using XP Visual Styles
+@
+text
+@d95 2
+a96 1
+		/*// added by FoRcHa (draw the button rectangle with the dialog-background, 
+d104 2
+a105 1
+		// FoRcHa end */
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d30 3
+a38 8
+BEGIN_MESSAGE_MAP(CXPStyleButtonST, CButtonST)
+	//{{AFX_MSG_MAP(CXPStyleButtonST)
+	ON_WM_SYSCOLORCHANGE()
+	//}}AFX_MSG_MAP
+//	ON_WM_MOVE()
+//ON_WM_SIZE()
+END_MESSAGE_MAP()
+
+d55 1
+a55 1
+DWORD CXPStyleButtonST::OnDrawBorder(CDC* pDC, LPCRECT pRect)
+d81 1
+a81 1
+DWORD CXPStyleButtonST::OnDrawBackground(CDC* pDC, LPCRECT pRect)
+d95 1
+a95 1
+		// added by FoRcHa (draw the button rectangle width the dialog-background, 
+d100 1
+a100 1
+			m_pTheme->DrawThemeBackground(hTheme, m_hWnd, pDC->GetSafeHdc(), 29, 0, pRect, NULL);
+d103 2
+a104 1
+		// FoRcHa end ///
+d106 1
+a106 1
+		hTheme = m_pTheme->OpenThemeData(GetSafeHwnd(), L"BUTTON");
+d109 9
+a117 5
+			iStateId = PBS_NORMAL;								// Normal
+			if (m_bIsDefault)		iStateId = PBS_DEFAULTED;	// Default button
+			if (m_bMouseOnButton)	iStateId = PBS_HOT;			// Hot
+			if (m_bIsPressed)		iStateId = PBS_PRESSED;		// Pressed
+			if (m_bIsDisabled)		iStateId = PBS_DISABLED;	// Disabled
+d147 5
+a151 5
+/*	if(m_pTheme && m_pTheme->IsAppThemed())
+		SetFlat();
+	else
+		SetFlat(FALSE);
+*/
+d154 13
+a166 1
+void CXPStyleButtonST::OnSysColorChange() 
+d168 4
+a171 14
+	CButtonST::OnSysColorChange();
+
+/*	if(m_pTheme->IsAppThemed())
+	{	
+		if(!m_bIsFlat)
+			SetFlat();
+	}
+	else
+	{	
+		if(m_bIsFlat)
+			SetFlat(FALSE);
+	}
+*/
+}
+d173 2
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

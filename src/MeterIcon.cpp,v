@@ -1,0 +1,1220 @@
+head	1.10;
+access;
+symbols
+	PublicRelease_1_2e:1.10
+	Interim_Release_1-2e_RC1:1.10
+	PublicRelease_1_2d:1.10
+	Interim_Release_1-2d_RC1:1.10
+	Interim_Release_1-2d_beta1:1.10
+	PublicRelease_1_2c:1.9
+	Interim_Release_1-2c_RC1:1.9
+	Interim_Release_1-2c_beta1:1.9
+	PublicRelease_1_2b:1.9
+	Interim_Release_1-2b_RC1:1.9
+	PublicRelease_1_2a:1.9
+	Interim_Release_1-2a_RC1:1.9
+	Interim_Release_1-2a_beta2:1.9
+	Interim_Release_1-2a_beta1:1.9
+	PublicRelease_1_2:1.9
+	Interim_Release_1-2_RC1:1.9
+	Interim_Release_1-2_beta1:1.9
+	PublicRelease_1_1g:1.9
+	Interim_Release_1-1g_RC3:1.9
+	Interim_Release_1-1g_RC2:1.9
+	Interim_Release_1-1g_RC1:1.9
+	Interim_Release_1-1g_beta2:1.9
+	Interim_Release_1-1g_beta1:1.9
+	PublicRelease_1_1f:1.9
+	Interim_Release_1-1f_RC1:1.9
+	PublicRelease_1_1e:1.9
+	Interim_Release_1-1e_RC2:1.9
+	Interim_Release_1-1e_RC1:1.9
+	Interim_Release_1-1e_beta1:1.9
+	PublicRelease_1_1d:1.9
+	Interim_Release_1-1d_RC1:1.9
+	PublicRelease_1_1c:1.9
+	Interim_Release_1-1c_RC1:1.9
+	Interim_Release_1-1c_beta2:1.9
+	Interim_Release_1-1c_beta1:1.9
+	PublicRelease_1_1b:1.8
+	Interim_Release_1-1b_RC1:1.8
+	PublicRelease_1_1a:1.8
+	Interim_Release_1-1a_RC2:1.8
+	Interim_Release_1-1a_RC1:1.8
+	Interim_Release_1-1a_beta2:1.8
+	Interim_Release_1-1a_beta1:1.8
+	PublicRelease_1_1:1.8
+	Interim_Release_1-1_beta1:1.8
+	PublicRelease_1o:1.8
+	Interim_Release_1o_RC1:1.8
+	Interim_Release_1o_beta1:1.8
+	PublicRelease_1n:1.8
+	Interim_Release_1n_RC2:1.8
+	Interim_Release_1n_RC1:1.8
+	Interim_Release_1n_beta2:1.8
+	Interim_Release_1n_beta1:1.8
+	PublicRelease_1m:1.8
+	Interim_Release_1m_beta1:1.8
+	PublicRelease_1l:1.8
+	Interim_Release_1l_RC3:1.8
+	Interim_Release_1l_RC2:1.8
+	Interim_Release_1l_RC1:1.8
+	Interim_Release_1l_beta2:1.8
+	Interim_Release_1l_beta1:1.8
+	PublicRelease_1k:1.7
+	Interim_Release_1k_RC4:1.7
+	Interim_1k_RC3:1.7
+	Interim_1k_RC2:1.7
+	Interim_Release_1k_RC1:1.7
+	Interim_Release_1k_beta5:1.7
+	Intrerim_Release_1k_beta4:1.7
+	Interim_Release_1k_beta1:1.7
+	PublicRelease_1j:1.7
+	Interim_Release_1J_RC3:1.7
+	Interim_Release_1j_RC3:1.7
+	Interim_Release_1j_RC2:1.7
+	Interim_Release_1j_RC1:1.7
+	Interim_Release_1j_beta2:1.7
+	Interim_Release_1j_beta1:1.7
+	PublicRelease_1i:1.7
+	Interim_Release_1i_RC6:1.7
+	Interim_Release_1i_RC3:1.7
+	Interim_Release_1i_RC2:1.7
+	Interim_Release_1i_RC1:1.7
+	Interim_Release_1i_beta3:1.7
+	Interim_Release_1i_beta2:1.7
+	Interim_Release_1i_beta1:1.7
+	PublicRelease_1h:1.7
+	Interim_Release_1h_rc2:1.7
+	Interim_Release_1h_RC1:1.7
+	Interim_Release_1h_beta2:1.7
+	Interim_Release_1h_beta1_now:1.7
+	Interim_Release_1h_beta1:1.7
+	PublicRelease_1g:1.7
+	Interim_Release_1g_RC6_Final:1.7
+	Interim_Release_1g_RC6:1.7
+	Interim_Release_1g_RC5:1.7
+	Interim_Release_1g_RC4:1.7
+	Interim_Release_1g_RC3:1.7
+	Interim_Release_1g_beta2:1.7
+	Interim_Release_1g_beta1:1.7
+	Interim_Release_1f_RC4:1.7
+	Interim_Release_1f_RC3:1.7
+	Interim_Release_1f_RC2:1.7
+	Interim_Release_1f_RC:1.7
+	Interim_Release_1f_beta2:1.7
+	Interim_Release_1f_beta1:1.7
+	PublicRelease_1e:1.7
+	Interim_Release_1e_RC2:1.7
+	Interim_Release_1e_RC:1.7
+	Interim_Release_1e_beta3:1.7
+	Interim_Release_1e_beta2:1.7
+	Interim_Release_1e_beta2_before_kuchin:1.7
+	Interim_Release_1e_beta1:1.7
+	PublicRelease_1c:1.7
+	featurestest:1.7.0.2
+	Interim_Release_1c_RC:1.7
+	Interim_Release_1c_beta2:1.7
+	Interim_Release_1c_beta1:1.6
+	threaded_downloadqueue:1.4.0.2
+	PublicRelease_1b:1.2
+	Interim_Release_1b_beta2:1.2
+	Interim_Release_1b_beta1:1.2
+	proxydeadlake:1.2.0.4
+	PublicRelease_1a:1.2
+	Interim_Release_1a_beta2:1.2
+	BerkeleyDb:1.2.0.2
+	Interim_Release_1a_beta1:1.2
+	PublicRelease_1:1.2
+	goldfish:1.2
+	eMulePlus_1_RC2:1.2
+	eMulePlus_26b_1RC1:1.2
+	PreRelease_26b_i0e:1.2
+	before_26d_merge:1.2
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.10
+date	2007.12.29.05.48.48;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.01.19.21.10.47;	author netwolf1;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.05.05.06.09.21;	author katsyonak;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.03.16.20.41.22;	author lord_kiron;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.03.14.23.10.42;	author lord_kiron;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.03.14.22.31.03;	author lord_kiron;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.03.14.10.02.12;	author lord_kiron;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.03.14.00.59.24;	author lord_kiron;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.16.22.01.47;	author lord_kiron;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.01.21.18.21.20;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.16.54.16;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.10
+log
+@Suppressed compiler warnings.
+@
+text
+@// MeterIcon.cpp: implementation of the CMeterIcon class.
+//
+// Created: 04/02/2001 {mm/dm/yyyyy}
+// Written by: Anish Mistry http://am-productions.yi.org/
+/* This code is licensed under the GNU GPL.  See License.txt or (http://www.gnu.org/copyleft/gpl.html). */
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "MeterIcon.h"
+#include "otherfunctions.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+
+#define _MAXBLOCKS	5	// added by FoRcHa
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+CMeterIcon::CMeterIcon()
+{
+	m_nNumBars = 2;
+	m_sDimensions.cx = 16;
+	m_sDimensions.cy = 16;
+	m_nMaxVal = 100;
+	m_nSpacingWidth = 0;
+	m_hFrame = NULL;
+	m_bInit = false;
+	m_crBorderColor = RGB(0,0,0);
+	m_pLimits = NULL;
+	m_pColors = NULL;
+	m_nEntries = 0;
+}
+
+CMeterIcon::~CMeterIcon()
+{
+	// free color list memory
+	if(m_pLimits)
+		delete []m_pLimits;
+	if(m_pColors)
+		delete []m_pColors;
+}
+
+COLORREF CMeterIcon::GetMeterColor(int nLevel)
+// it the nLevel is greater than the values defined in m_pLimits the last value in the array is used
+{
+	for(int i = 0;i < m_nEntries;i++)
+	{
+		if(nLevel <= m_pLimits[i])
+		{
+			return m_pColors[i];
+		}
+	}
+	// default to the last entry
+	return m_pColors[m_nEntries-1];
+}
+
+
+HICON CMeterIcon::CreateMeterIcon(int *pBarData)
+// the returned icon must be cleaned up using DestroyIcon()
+{
+	ICONINFO iiNewIcon = {0};
+	memzero(&iiNewIcon,sizeof(ICONINFO));
+	iiNewIcon.fIcon = true;	// set that it is an icon
+
+	CPaintDC dc(CWnd::GetDesktopWindow());
+	// create DC's
+	CDC IconDC;
+
+	if(!IconDC.CreateCompatibleDC(&dc))
+	{
+		ASSERT(false);
+		return NULL;
+	}
+	
+	// load bitmaps
+	//iiNewIcon.hbmColor = ::CreateCompatibleBitmap(dc,m_sDimensions.cx,m_sDimensions.cy);
+	CBitmap ColorBitmap;
+	if(!ColorBitmap.CreateCompatibleBitmap(&dc,m_sDimensions.cx,m_sDimensions.cy))
+	{
+		ASSERT(false);
+		return NULL;
+	}
+
+	CBitmap *pOldIconDC = IconDC.SelectObject(&ColorBitmap);
+	if(pOldIconDC == NULL)
+	{
+		ASSERT(false);
+		//DeleteObject(iiNewIcon.hbmColor);
+		return NULL;
+	}
+	//if(!BitBlt(hIconDC,0,0,m_sDimensions.cx,m_sDimensions.cy,NULL,0,0,BLACKNESS))
+	if(!IconDC.BitBlt(0,0,m_sDimensions.cx,m_sDimensions.cy,NULL,0,0,BLACKNESS))
+	{
+		ASSERT(false);
+		IconDC.SelectObject(pOldIconDC);
+		//DeleteObject(iiNewIcon.hbmColor);
+		return NULL;
+	}
+	if(!DrawIconEx(IconDC,0,0,m_hFrame,m_sDimensions.cx,m_sDimensions.cy,NULL,NULL,DI_NORMAL))
+	{
+		ASSERT(false);
+		IconDC.SelectObject(pOldIconDC);
+		//DeleteObject(iiNewIcon.hbmColor);
+		return NULL;
+	}
+
+	// draw the meters
+	for(int i = 0;i < m_nNumBars;i++)
+		if(DrawIconMeterPic(IconDC,pBarData[i],i) == false)
+		{
+			ASSERT(false);
+			IconDC.SelectObject(pOldIconDC);
+			//DeleteObject(iiNewIcon.hbmColor);
+			return false;
+		}
+
+	IconDC.SelectObject(pOldIconDC);
+
+	// Now attend the mask 
+	CDC MaskDC;
+	if(!MaskDC.CreateCompatibleDC(&dc))
+	{
+		ASSERT(false);
+		return NULL;
+	}
+
+	iiNewIcon.hbmMask = ::CreateCompatibleBitmap(MaskDC,m_sDimensions.cx,m_sDimensions.cy);
+	if(iiNewIcon.hbmMask == NULL)
+	{
+		ASSERT(false);
+		return NULL;
+	}
+
+	HGDIOBJ hOldMaskDC = (HGDIOBJ)MaskDC.SelectObject(iiNewIcon.hbmMask);
+	if(hOldMaskDC == NULL)
+	{
+		ASSERT(false);
+		DeleteObject(iiNewIcon.hbmMask);
+		return NULL;
+	}
+	// initilize the bitmaps
+	if(!MaskDC.BitBlt(0,0,m_sDimensions.cx,m_sDimensions.cy,NULL,0,0,WHITENESS))
+	{
+		ASSERT(false);
+		MaskDC.SelectObject(hOldMaskDC);
+		DeleteObject(iiNewIcon.hbmMask);
+		return NULL;
+	}
+
+	if(!DrawIconEx(MaskDC,0,0,m_hFrame,m_sDimensions.cx,m_sDimensions.cy,NULL,NULL,DI_NORMAL))
+	{
+		ASSERT(false);
+		MaskDC.SelectObject(hOldMaskDC);
+		DeleteObject(iiNewIcon.hbmMask);
+		return NULL;
+	}
+
+	// draw the meters
+	for(int i = 0;i < m_nNumBars;i++)
+		if(DrawMeterMask(MaskDC,pBarData[i],i) == false)
+		{
+			ASSERT(false);
+			MaskDC.SelectObject(hOldMaskDC);
+			DeleteObject(iiNewIcon.hbmMask);
+			return false;
+		}
+
+	// create icon
+	MaskDC.SelectObject(hOldMaskDC);
+
+
+	iiNewIcon.hbmColor	=	ColorBitmap;
+	HICON hNewIcon = CreateIconIndirect(&iiNewIcon);
+
+	// cleanup
+	DeleteObject(iiNewIcon.hbmColor);
+	DeleteObject(iiNewIcon.hbmMask);
+
+	return hNewIcon;
+}
+
+
+HICON CMeterIcon::SetFrame(HICON hIcon)
+// return the old frame icon
+{
+	HICON hOld = m_hFrame;
+	m_hFrame = hIcon;
+	return hOld;
+}
+
+HICON CMeterIcon::Create(int *pBarData)
+// must call init once before calling
+{
+	if(!m_bInit)
+		return NULL;
+	return CreateMeterIcon(pBarData);
+}
+
+bool CMeterIcon::Init(HICON hFrame, int nMaxVal, int nNumBars, int nSpacingWidth, int nWidth, int nHeight, COLORREF crColor)
+// nWidth & nHeight are the dimensions of the icon that you want created
+// nSpacingWidth is the space between the bars
+// hFrame is the overlay for the bars
+// crColor is the outline color for the bars
+{
+	SetFrame(hFrame);
+	SetWidth(nSpacingWidth);
+	SetMaxValue(nMaxVal);
+	SetDimensions(nWidth,nHeight);
+	SetNumBars(nNumBars);
+	SetBorderColor(crColor);
+	m_bInit = true;
+	return m_bInit;
+}
+
+SIZE CMeterIcon::SetDimensions(int nWidth, int nHeight)
+// return the previous dimension
+{
+	SIZE sOld = m_sDimensions;
+	m_sDimensions.cx = nWidth;
+	m_sDimensions.cy = nHeight;
+	return sOld;
+}
+
+int CMeterIcon::SetNumBars(int nNum)
+{
+	int nOld = m_nNumBars;
+	m_nNumBars = nNum;
+	return nOld;
+}
+
+int CMeterIcon::SetWidth(int nWidth)
+{
+	int nOld = m_nSpacingWidth;
+	m_nSpacingWidth = nWidth;
+	return nOld;
+}
+
+int CMeterIcon::SetMaxValue(int nVal)
+{
+	int nOld = m_nMaxVal;
+	m_nMaxVal = nVal;
+	return nOld;
+}
+
+COLORREF CMeterIcon::SetBorderColor(COLORREF crColor)
+{
+	COLORREF crOld = m_crBorderColor;
+	m_crBorderColor = crColor;
+	return crOld;
+}
+
+bool CMeterIcon::SetColorLevels(int *pLimits, COLORREF *pColors,int nEntries)
+// pLimits is an array of int that contain the upper limit for the corresponding color
+{
+	// free exsisting memory
+	if(m_pLimits)
+	{
+		delete []m_pLimits;
+		m_pLimits = NULL;
+	}
+	if(m_pColors)
+	{
+		delete []m_pColors;
+		m_pColors = NULL;
+	}
+	// allocate new memory
+	m_pLimits = new int[nEntries];
+	m_pColors = new COLORREF[nEntries];
+	// copy values
+	for(int i = 0;i < nEntries;i++)
+	{
+		m_pLimits[i] = pLimits[i];
+		m_pColors[i] = pColors[i];
+	}
+	m_nEntries = nEntries;
+	return true;
+}
+
+bool CMeterIcon::DrawIconMeterPic(CDC &DestDC, int nLevel, int nPos)
+{
+	NOPRM(nPos);
+	// draw meter
+	HBRUSH hBrush = CreateSolidBrush(GetMeterColor(nLevel));
+	if(hBrush == NULL)
+	{
+		ASSERT(false);
+		return false;
+	}
+	HGDIOBJ hOldBrush = DestDC.SelectObject(hBrush);
+	if(hOldBrush == NULL)
+	{
+		ASSERT(false);
+		DeleteObject(hBrush);
+		return(false);
+	}
+	HPEN hPen = CreatePen(PS_SOLID,1,m_crBorderColor);
+	if(hPen == NULL)
+	{
+		ASSERT(false);	
+		DestDC.SelectObject(hOldBrush);
+		DeleteObject(hBrush);
+		return false;
+	}
+	HGDIOBJ hOldPen = DestDC.SelectObject(hPen);
+	if(hOldPen == NULL)
+	{
+		ASSERT(false);	
+		DestDC.SelectObject(hOldBrush);
+		DeleteObject(hBrush);
+		DeleteObject(hPen);
+		return false;
+	}
+	
+	// FoRcHa start //////////////////////////////////////////////////////////////////
+	if(nLevel > 0)
+	{
+		int iYpos = m_sDimensions.cy - 4;
+		int nBlockCnt = nLevel / ((m_nMaxVal == 0 ? 1 : m_nMaxVal) / _MAXBLOCKS) + 1;
+		if(nBlockCnt > _MAXBLOCKS)
+			nBlockCnt = _MAXBLOCKS;
+		for(int i = 0; i < nBlockCnt; i++)
+		{
+			DestDC.Rectangle( 0, iYpos, 4, iYpos+4);
+			iYpos -= 3;
+		}
+	}
+	// FoRcHa end ////////////////////////////////////////////////////////////////////
+
+	DestDC.SelectObject(hOldPen);
+	DeleteObject(hPen);
+	DestDC.SelectObject(hOldBrush);
+	DeleteObject(hBrush);
+	return true;
+}
+
+bool CMeterIcon::DrawMeterMask(CDC &DestDCMask, int nLevel, int nPos)
+{
+	NOPRM(nPos);
+	// draw meter mask
+	HBRUSH hDestDCMaskBrush = CreateSolidBrush(RGB(0,0,0));
+	if(hDestDCMaskBrush == NULL)
+	{
+		ASSERT(false);
+		return false;
+	}
+	HGDIOBJ hOldDestDCMaskBrush = DestDCMask.SelectObject(hDestDCMaskBrush);
+	if(hOldDestDCMaskBrush == NULL)
+	{
+		ASSERT(false);	
+		DeleteObject(hDestDCMaskBrush);
+		return false;
+	}
+	HPEN hMaskPen = CreatePen(PS_SOLID,1,RGB(0,0,0));
+	if(hMaskPen == NULL)
+	{
+		ASSERT(false);	
+		DestDCMask.SelectObject(hOldDestDCMaskBrush);
+		DeleteObject(hDestDCMaskBrush);
+		return false;
+	}
+	HGDIOBJ hOldMaskPen = DestDCMask.SelectObject(hMaskPen);
+	if(hOldMaskPen == NULL)
+	{
+		ASSERT(false);	
+		DestDCMask.SelectObject(hOldDestDCMaskBrush);
+		DeleteObject(hDestDCMaskBrush);
+		DeleteObject(hMaskPen);
+		return false;
+	}
+
+
+	// FoRcHa start //////////////////////////////////////////////////////////////////
+	if(nLevel > 0)
+	{
+		int iYpos = m_sDimensions.cy - 4;
+		int nBlockCnt = nLevel / ((m_nMaxVal == 0 ? 1 : m_nMaxVal) / _MAXBLOCKS) + 1;
+		for(int i = 0; i < nBlockCnt; i++)
+		{
+			DestDCMask.Rectangle( 0, iYpos, 4, iYpos+4);
+			iYpos -= 3;
+		}
+	}
+	// FoRcHa end ////////////////////////////////////////////////////////////////////
+
+	DestDCMask.SelectObject(hOldMaskPen);
+	DeleteObject(hMaskPen);
+	DestDCMask.SelectObject(hOldDestDCMaskBrush);
+	DeleteObject(hDestDCMaskBrush);
+
+	return true;
+}
+@
+
+
+1.9
+log
+@Don't use 32 bit color resources if OS/comctl32.dll doesn't support it and some other minor changes/optimizations.
+@
+text
+@d51 1
+a51 1
+{// begin GetMeterColor
+d61 1
+a61 1
+}// end GetMeterColor
+d66 1
+a66 1
+{// begin CreateMeterIcon
+d76 1
+a76 1
+	{// begin error check
+d79 1
+a79 1
+	}// end error check
+d85 1
+a85 1
+	{// begin error check
+d88 1
+a88 1
+	}// end error check
+d92 1
+a92 1
+	{// begin error check
+d96 1
+a96 1
+	}// end error check
+d99 1
+a99 1
+	{// begin BitBlt failed
+d104 1
+a104 1
+	}// end BitBlt failed
+d106 1
+a106 1
+	{// begin error check
+d111 1
+a111 1
+	}// end error check
+d128 1
+a128 1
+	{// begin error check
+d131 1
+a131 1
+	}// end error check
+d135 1
+a135 1
+	{// begin error check
+d138 1
+a138 1
+	}// end error check
+d142 1
+a142 1
+	{// begin error check
+d146 1
+a146 1
+	}// end error check
+d149 1
+a149 1
+	{// begin BitBlt failed
+d154 1
+a154 1
+	}// end BitBlt failed
+d157 1
+a157 1
+	{// begin error check
+d162 1
+a162 1
+	}// end error check
+d186 1
+a186 2
+
+}// end CreateMeterIcon
+d191 1
+a191 1
+{// begin SetFrame
+d195 1
+a195 1
+}// end SetFrame
+d199 1
+a199 1
+{// begin Create
+d203 1
+a203 1
+}// end Create
+d210 1
+a210 1
+{// begin Init
+d219 1
+a219 1
+}// end Init
+d223 1
+a223 1
+{// begin SetDimensions
+d228 1
+a228 1
+}// end SetDimensions
+d231 1
+a231 1
+{// begin SetNumBars
+d235 1
+a235 1
+}// end SetNumBars
+d238 1
+a238 1
+{// begin SetWidth
+d242 1
+a242 1
+}// end SetWidth
+d245 1
+a245 1
+{// begin SetMaxValue
+d249 1
+a249 1
+}// end SetMaxValue
+d252 1
+a252 1
+{// begin SetBorderColor
+d256 1
+a256 1
+}// end SetBorderColor
+d260 1
+a260 1
+{// begin SetColorLevels
+d277 1
+a277 1
+	{// begin copy
+d280 1
+a280 1
+	}// end copy
+d283 1
+a283 1
+}// end SetColorLevels
+d287 1
+d291 1
+a291 1
+	{// begin error check
+d294 1
+a294 1
+	}// end error check
+d297 1
+a297 1
+	{// begin error check
+d301 1
+a301 1
+	}// end error check
+d342 1
+a342 1
+bool CMeterIcon::DrawMeterMask(CDC &DestDCMask, int nLevel , int nPos)
+d344 1
+d348 1
+a348 1
+	{// begin error check
+d351 1
+a351 1
+	}// end error check
+d354 1
+a354 1
+	{// begin error check
+d358 1
+a358 2
+
+	}// end error check
+@
+
+
+1.8
+log
+@Connected server is now background highlighted; Aw3 fix for IP2Country constant DB/LIB loading from preferences; Replaced all ZeroMemory with memzero; Replaced all CopyMemory with memcpy2
+@
+text
+@d67 1
+a67 1
+	ICONINFO iiNewIcon;
+d264 1
+d266 2
+d269 1
+d271 2
+@
+
+
+1.7
+log
+@Tray icon change
+@
+text
+@d10 1
+d68 1
+a68 1
+	::ZeroMemory(&iiNewIcon,sizeof(ICONINFO));
+@
+
+
+1.6
+log
+@code refining
+@
+text
+@d62 1
+d72 1
+a72 1
+	HDC hIconDC = CreateCompatibleDC(dc.m_hDC);
+d74 1
+a74 1
+	if(hIconDC == NULL)
+d81 3
+a83 2
+	iiNewIcon.hbmColor = ::CreateCompatibleBitmap(dc.m_hDC,m_sDimensions.cx,m_sDimensions.cy);
+	if(iiNewIcon.hbmColor == NULL)
+a85 1
+		::DeleteDC(hIconDC);
+d88 3
+a90 2
+	HGDIOBJ hOldIconDC = ::SelectObject(hIconDC,iiNewIcon.hbmColor);
+	if(hOldIconDC == NULL)
+d93 1
+a93 2
+		DeleteObject(iiNewIcon.hbmColor);
+		::DeleteDC(hIconDC);
+d96 2
+a97 1
+	if(!BitBlt(hIconDC,0,0,m_sDimensions.cx,m_sDimensions.cy,NULL,0,0,BLACKNESS))
+d100 2
+a101 3
+		::SelectObject(hIconDC,hOldIconDC);
+		DeleteObject(iiNewIcon.hbmColor);
+		::DeleteDC(hIconDC);
+d104 1
+a104 1
+	if(!DrawIconEx(hIconDC,0,0,m_hFrame,m_sDimensions.cx,m_sDimensions.cy,NULL,NULL,DI_NORMAL|DI_IMAGE))
+d107 2
+a108 3
+		::SelectObject(hIconDC,hOldIconDC);
+		DeleteObject(iiNewIcon.hbmColor);
+		::DeleteDC(hIconDC);
+d114 1
+a114 1
+		if(DrawIconMeterPic(hIconDC,pBarData[i],i) == false)
+d117 2
+a118 3
+			::SelectObject(hIconDC,hOldIconDC);
+			DeleteObject(iiNewIcon.hbmColor);
+			::DeleteDC(hIconDC);
+d122 1
+a122 2
+	::SelectObject(hIconDC,hOldIconDC);
+	::DeleteDC(hIconDC);
+d124 3
+a126 2
+	HDC hMaskDC = CreateCompatibleDC(dc.m_hDC);
+	if(hMaskDC == NULL)
+d131 2
+a132 1
+	iiNewIcon.hbmMask = ::CreateCompatibleBitmap(hMaskDC,m_sDimensions.cx,m_sDimensions.cy);
+a135 1
+		::DeleteDC(hMaskDC);
+d138 2
+a139 1
+	HGDIOBJ hOldMaskDC = ::SelectObject(hMaskDC,iiNewIcon.hbmMask);
+a143 1
+		::DeleteDC(hMaskDC);
+d147 1
+a147 1
+	if(!BitBlt(hMaskDC,0,0,m_sDimensions.cx,m_sDimensions.cy,NULL,0,0,WHITENESS))
+d150 1
+a150 1
+		::SelectObject(hMaskDC,hOldMaskDC);
+a151 1
+		::DeleteDC(hMaskDC);
+d155 1
+a155 1
+	if(!DrawIconEx(hMaskDC,0,0,m_hFrame,m_sDimensions.cx,m_sDimensions.cy,NULL,NULL,DI_NORMAL|DI_MASK))
+d158 1
+a158 1
+		::SelectObject(hMaskDC,hOldMaskDC);
+a159 1
+		::DeleteDC(hMaskDC);
+d165 1
+a165 1
+		if(DrawMeterMask(hMaskDC,pBarData[i],i) == false)
+d168 1
+a168 1
+			::SelectObject(hMaskDC,hOldMaskDC);
+a169 1
+			::DeleteDC(hMaskDC);
+d174 1
+a174 2
+	::SelectObject(hMaskDC,hOldMaskDC);
+	DeleteDC(hMaskDC);
+d177 1
+d279 1
+a279 1
+bool CMeterIcon::DrawIconMeterPic(HDC hDestDC, int nLevel, int nPos)
+d288 1
+a288 1
+	HGDIOBJ hOldBrush = SelectObject(hDestDC,hBrush);
+d299 1
+a299 1
+		::SelectObject(hDestDC,hOldBrush);
+d303 1
+a303 1
+	HGDIOBJ hOldPen = SelectObject(hDestDC,hPen);
+d307 1
+a307 1
+		::SelectObject(hDestDC,hOldBrush);
+d322 1
+a322 1
+			Rectangle(hDestDC, 0, iYpos, 4, iYpos+4);
+d328 1
+a328 1
+	::SelectObject(hDestDC,hOldPen);
+d330 1
+a330 1
+	::SelectObject(hDestDC,hOldBrush);
+d335 1
+a335 1
+bool CMeterIcon::DrawMeterMask(HDC hDestDCMask, int nLevel , int nPos)
+d344 1
+a344 1
+	HGDIOBJ hOldDestDCMaskBrush = SelectObject(hDestDCMask,hDestDCMaskBrush);
+d356 1
+a356 1
+		::SelectObject(hDestDCMask,hOldDestDCMaskBrush);
+d360 1
+a360 1
+	HGDIOBJ hOldMaskPen = SelectObject(hDestDCMask,hMaskPen);
+d364 1
+a364 1
+		::SelectObject(hDestDCMask,hOldDestDCMaskBrush);
+d378 1
+a378 1
+			Rectangle(hDestDCMask, 0, iYpos, 4, iYpos+4);
+d384 1
+a384 1
+	::SelectObject(hDestDCMask,hOldMaskPen);
+d386 1
+a386 1
+	::SelectObject(hDestDCMask,hOldDestDCMaskBrush);
+@
+
+
+1.5
+log
+@Another resource conflict fixed
+@
+text
+@d66 1
+d75 1
+d83 2
+d90 3
+d97 4
+d105 4
+d115 5
+d121 2
+d129 1
+d135 2
+d142 3
+d150 4
+d159 4
+d169 5
+d175 1
+d289 1
+d295 3
+a297 1
+		return false;
+d301 4
+d306 1
+d309 5
+d315 1
+d332 4
+a335 9
+	if(!DeleteObject(SelectObject(hDestDC,hOldPen)))
+	{// begin error check
+		return false;
+	}// end error check
+	if(!DeleteObject(SelectObject(hDestDC,hOldBrush)))
+	{// begin error check
+		return false;
+	}// end error check
+
+d345 1
+d351 2
+d354 1
+d358 4
+d363 1
+d366 5
+d372 2
+d388 4
+a391 9
+	if(!DeleteObject(SelectObject(hDestDCMask,hOldMaskPen)))
+	{// begin error check
+		return false;
+	}// end error check
+	
+	if(!DeleteObject(SelectObject(hDestDCMask,hOldDestDCMaskBrush)))
+	{// begin error check
+		return false;
+	}// end error check
+@
+
+
+1.4
+log
+@Icon resource leak fix
+@
+text
+@a70 1
+	HDC hMaskDC = CreateCompatibleDC(dc.m_hDC);
+d76 9
+a84 1
+	if(hMaskDC == NULL)
+d88 5
+a92 4
+	
+	// load bitmaps
+	iiNewIcon.hbmColor = CreateCompatibleBitmap(dc.m_hDC,m_sDimensions.cx,m_sDimensions.cy);
+	if(iiNewIcon.hbmColor == NULL)
+d96 10
+a105 2
+	iiNewIcon.hbmMask = CreateCompatibleBitmap(hMaskDC,m_sDimensions.cx,m_sDimensions.cy);
+	if(iiNewIcon.hbmMask == NULL)
+d109 2
+a110 2
+	HGDIOBJ hOldIconDC = ::SelectObject(hIconDC,iiNewIcon.hbmColor);
+	if(hOldIconDC == NULL)
+a118 1
+
+a119 4
+	if(!BitBlt(hIconDC,0,0,m_sDimensions.cx,m_sDimensions.cy,NULL,0,0,BLACKNESS))
+	{// begin BitBlt failed
+		return NULL;
+	}// end BitBlt failed
+a124 4
+	if(!DrawIconEx(hIconDC,0,0,m_hFrame,m_sDimensions.cx,m_sDimensions.cy,NULL,NULL,DI_NORMAL|DI_IMAGE))
+	{// begin error check
+		return NULL;
+	}// end error check
+d132 1
+a132 1
+		if(DrawIconMeter(hIconDC,hMaskDC,pBarData[i],i) == false)
+a135 1
+	::SelectObject(hIconDC,hOldIconDC);
+d137 3
+a144 2
+	DeleteDC(hMaskDC);
+	DeleteDC(hIconDC);
+a149 88
+bool CMeterIcon::DrawIconMeter(HDC hDestDC, HDC hDestDCMask, int nLevel, int nPos)
+{// begin DrawIconMeter
+	// draw meter
+	HBRUSH hBrush = CreateSolidBrush(GetMeterColor(nLevel));
+	if(hBrush == NULL)
+	{// begin error check
+		return false;
+	}// end error check
+	HGDIOBJ hOldBrush = SelectObject(hDestDC,hBrush);
+	if(hOldBrush == NULL)
+	{// begin error check
+		return false;
+	}// end error check
+	HPEN hPen = CreatePen(PS_SOLID,1,m_crBorderColor);
+	if(hPen == NULL)
+		return false;
+	HGDIOBJ hOldPen = SelectObject(hDestDC,hPen);
+	if(hOldPen == NULL)
+		return false;
+	
+	// FoRcHa start //////////////////////////////////////////////////////////////////
+	if(nLevel > 0)
+	{
+		int iYpos = m_sDimensions.cy - 4;
+		int nBlockCnt = nLevel / ((m_nMaxVal == 0 ? 1 : m_nMaxVal) / _MAXBLOCKS) + 1;
+		if(nBlockCnt > _MAXBLOCKS)
+			nBlockCnt = _MAXBLOCKS;
+		for(int i = 0; i < nBlockCnt; i++)
+		{
+			Rectangle(hDestDC, 0, iYpos, 4, iYpos+4);
+			iYpos -= 3;
+		}
+	}
+	// FoRcHa end ////////////////////////////////////////////////////////////////////
+
+	if(!DeleteObject(SelectObject(hDestDC,hOldPen)))
+	{// begin error check
+		return false;
+	}// end error check
+	if(!DeleteObject(SelectObject(hDestDC,hOldBrush)))
+	{// begin error check
+		return false;
+	}// end error check
+
+	// draw meter mask
+	HBRUSH hDestDCMaskBrush = CreateSolidBrush(RGB(0,0,0));
+	if(hDestDCMaskBrush == NULL)
+	{// begin error check
+		return false;
+	}// end error check
+	HGDIOBJ hOldDestDCMaskBrush = SelectObject(hDestDCMask,hDestDCMaskBrush);
+	if(hOldDestDCMaskBrush == NULL)
+	{// begin error check
+		return false;
+	}// end error check
+	HPEN hMaskPen = CreatePen(PS_SOLID,1,RGB(0,0,0));
+	if(hMaskPen == NULL)
+		return false;
+	HGDIOBJ hOldMaskPen = SelectObject(hDestDCMask,hMaskPen);
+	if(hOldMaskPen == NULL)
+		return false;
+
+	// FoRcHa start //////////////////////////////////////////////////////////////////
+	if(nLevel > 0)
+	{
+		int iYpos = m_sDimensions.cy - 4;
+		int nBlockCnt = nLevel / ((m_nMaxVal == 0 ? 1 : m_nMaxVal) / _MAXBLOCKS) + 1;
+		for(int i = 0; i < nBlockCnt; i++)
+		{
+			Rectangle(hDestDCMask, 0, iYpos, 4, iYpos+4);
+			iYpos -= 3;
+		}
+	}
+	// FoRcHa end ////////////////////////////////////////////////////////////////////
+
+	if(!DeleteObject(SelectObject(hDestDCMask,hOldMaskPen)))
+	{// begin error check
+		return false;
+	}// end error check
+	
+	if(!DeleteObject(SelectObject(hDestDCMask,hOldDestDCMaskBrush)))
+	{// begin error check
+		return false;
+	}// end error check
+
+	return true;
+}// end DrawIconMeter
+
+d240 93
+@
+
+
+1.3
+log
+@*** empty log message ***
+@
+text
+@d68 1
+d70 2
+a71 3
+	HDC hScreenDC = ::GetDC(NULL);
+	HDC hIconDC = CreateCompatibleDC(hScreenDC);
+	HDC hMaskDC = CreateCompatibleDC(hScreenDC);
+a72 4
+	if(hScreenDC == NULL)
+	{// begin error check
+		return NULL;
+	}// end error check
+d83 1
+a83 1
+	iiNewIcon.hbmColor = CreateCompatibleBitmap(hScreenDC,m_sDimensions.cx,m_sDimensions.cy);
+a137 1
+	ReleaseDC(NULL,hScreenDC); // for some reason BoundsChecke does not like this to be released before hIconDC and hMaskDC
+@
+
+
+1.2
+log
+@Added instrumentation for debugging memory leaks :
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+To all .cpp files (I hope I didn't miss any one)
+@
+text
+@a91 4
+	if(!::ReleaseDC(NULL,hScreenDC))	// release this ASAP
+	{// begin DC not released
+		return NULL;
+	}// end DC not released
+d142 2
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d11 7
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

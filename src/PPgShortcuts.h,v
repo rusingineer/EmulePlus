@@ -1,0 +1,611 @@
+head	1.14;
+access;
+symbols
+	PublicRelease_1_2e:1.14
+	Interim_Release_1-2e_RC1:1.14
+	PublicRelease_1_2d:1.14
+	Interim_Release_1-2d_RC1:1.14
+	Interim_Release_1-2d_beta1:1.14
+	PublicRelease_1_2c:1.11
+	Interim_Release_1-2c_RC1:1.11
+	Interim_Release_1-2c_beta1:1.11
+	PublicRelease_1_2b:1.11
+	Interim_Release_1-2b_RC1:1.11
+	PublicRelease_1_2a:1.11
+	Interim_Release_1-2a_RC1:1.11
+	Interim_Release_1-2a_beta2:1.11
+	Interim_Release_1-2a_beta1:1.11
+	PublicRelease_1_2:1.11
+	Interim_Release_1-2_RC1:1.11
+	Interim_Release_1-2_beta1:1.11
+	PublicRelease_1_1g:1.10
+	Interim_Release_1-1g_RC3:1.10
+	Interim_Release_1-1g_RC2:1.10
+	Interim_Release_1-1g_RC1:1.10
+	Interim_Release_1-1g_beta2:1.10
+	Interim_Release_1-1g_beta1:1.10
+	PublicRelease_1_1f:1.10
+	Interim_Release_1-1f_RC1:1.10
+	PublicRelease_1_1e:1.10
+	Interim_Release_1-1e_RC2:1.10
+	Interim_Release_1-1e_RC1:1.10
+	Interim_Release_1-1e_beta1:1.8
+	PublicRelease_1_1d:1.8
+	Interim_Release_1-1d_RC1:1.8
+	PublicRelease_1_1c:1.8
+	Interim_Release_1-1c_RC1:1.8
+	Interim_Release_1-1c_beta2:1.8
+	Interim_Release_1-1c_beta1:1.8
+	PublicRelease_1_1b:1.8
+	Interim_Release_1-1b_RC1:1.8
+	PublicRelease_1_1a:1.8
+	Interim_Release_1-1a_RC2:1.8
+	Interim_Release_1-1a_RC1:1.8
+	Interim_Release_1-1a_beta2:1.8
+	Interim_Release_1-1a_beta1:1.8
+	PublicRelease_1_1:1.8
+	Interim_Release_1-1_beta1:1.8
+	PublicRelease_1o:1.8
+	Interim_Release_1o_RC1:1.8
+	Interim_Release_1o_beta1:1.8
+	PublicRelease_1n:1.8
+	Interim_Release_1n_RC2:1.8
+	Interim_Release_1n_RC1:1.8
+	Interim_Release_1n_beta2:1.8
+	Interim_Release_1n_beta1:1.7
+	PublicRelease_1m:1.7
+	Interim_Release_1m_beta1:1.7
+	PublicRelease_1l:1.7
+	Interim_Release_1l_RC3:1.7
+	Interim_Release_1l_RC2:1.7
+	Interim_Release_1l_RC1:1.7
+	Interim_Release_1l_beta2:1.7
+	Interim_Release_1l_beta1:1.7
+	PublicRelease_1k:1.4
+	Interim_Release_1k_RC4:1.4
+	Interim_1k_RC3:1.4
+	Interim_1k_RC2:1.4
+	Interim_Release_1k_RC1:1.4
+	Interim_Release_1k_beta5:1.4
+	Intrerim_Release_1k_beta4:1.4
+	Interim_Release_1k_beta1:1.4
+	PublicRelease_1j:1.3
+	Interim_Release_1J_RC3:1.3
+	Interim_Release_1j_RC3:1.3
+	Interim_Release_1j_RC2:1.3
+	Interim_Release_1j_RC1:1.2
+	Interim_Release_1j_beta2:1.2
+	Interim_Release_1j_beta1:1.2
+	PublicRelease_1i:1.2
+	Interim_Release_1i_RC6:1.2
+	Interim_Release_1i_RC3:1.2
+	Interim_Release_1i_RC2:1.2
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1;
+locks; strict;
+comment	@ * @;
+
+
+1.14
+date	2008.02.20.05.09.52;	author aw3;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2007.12.29.05.51.48;	author aw3;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2007.10.31.18.25.08;	author fuxie-dk;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2006.01.14.19.53.59;	author aw3;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2005.06.11.14.38.37;	author aw3;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2005.06.08.05.00.46;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.07.29.18.00.50;	author aw3;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.05.03.23.11.15;	author dropf;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2004.04.29.11.59.45;	author netwolf1;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2004.04.12.18.59.01;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2004.02.01.16.33.45;	author netwolf1;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2004.01.11.14.13.09;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.11.11.21.36.56;	author dropf;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.29.22.13.36;	author dropf;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.14
+log
+@Optimized dialog regarding required memory and speed;
+Removed old not used localization; Suppressed compiler warnings; Formatting.
+@
+text
+@//	This file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#pragma once
+
+#include "KeyboardShortcut.h"
+
+class CPreferences;
+
+typedef struct
+{
+	HTREEITEM hHnd;
+	CKeyboardShortcut Shortcut;
+} ShortcutTreeItem;
+
+enum
+{
+	SCUT_NODE_GEN,
+	SCUT_NODE_GEN_WIN,
+	SCUT_NODE_GEN_LINK,
+	SCUT_NODE_GEN_FILES,
+	SCUT_NODE_DL,
+	SCUT_NODE_DL_ADV,
+	SCUT_NODE_SRC,
+	SCUT_NODE_SHARED,
+
+	SCUT_NODES
+};
+
+class CPPgShortcuts : public CPropertyPage
+{
+	DECLARE_DYNAMIC(CPPgShortcuts)
+
+public:
+	CPPgShortcuts();
+	virtual ~CPPgShortcuts();
+
+	enum { IDD = IDD_PPG_SHORTCUTS };
+
+	virtual BOOL OnInitDialog();
+	virtual BOOL OnApply();
+	void CreateShortcutsTree(void);
+	void RefreshShortcutsTree(void);
+	void RefreshKeyCombo(void);
+	void SetPrefs(CPreferences* pPrefs)	{ m_pPrefs = pPrefs; }
+	void Localize(void);
+	int  GetKeyComboIndexFromShortcutKey(byte byteKey) const;
+	byte GetShortcutKeyFromKeyComboIndex(int iIndex) const;
+	int  GetShortcutTreeItemIndexFromItem(HTREEITEM hItem);
+	afx_msg void OnSettingsChange(void);
+	afx_msg void OnEnableShortcutClick(void);
+	afx_msg void OnDestroy();
+	afx_msg void OnTvnSelchangingShortcutsTree(NMHDR *pNMHDR, LRESULT *pResult);
+	void UpdateCheckBoxesState(void);
+
+protected:
+	void SetModified(BOOL bChanged = TRUE)
+	{
+		m_bModified = bChanged;
+		CPropertyPage::SetModified(bChanged);
+	}
+	virtual void DoDataExchange(CDataExchange* pDX);
+
+	DECLARE_MESSAGE_MAP()
+
+private:
+	void LoadSettings(void);
+	void LoadShortcut(HTREEITEM item);
+	void SaveShortcut(HTREEITEM item);
+
+protected:
+	CPreferences *m_pPrefs;
+	BOOL	m_bModified;
+	BOOL	m_bShortcutsEnable;
+	BOOL	m_bShortcutsAlt;
+	BOOL	m_bShortcutsCtrl;
+	BOOL	m_bShortcutsShift;
+	BOOL	m_bShortcutsWin;
+
+private:
+	CImageList m_ImagelistShortcutsTree;
+	ShortcutTreeItem m_ShortcutTreeItem[SCUT_COUNT];
+	HTREEITEM m_ahTree[SCUT_NODES];
+	CComboBox m_ShortcutsKeyCombo;
+	CTreeCtrl m_ShortcutsTree;
+};
+@
+
+
+1.13
+log
+@Review and slightly modified interface to comply with Unicode.
+@
+text
+@a68 3
+	CPreferences *m_pPrefs;
+
+	BOOL	m_bModified;
+d84 7
+a90 5
+	BOOL shortcutsEnable;
+	BOOL shortcutsAlt;
+	BOOL shortcutsCtrl;
+	BOOL shortcutsShift;
+	BOOL shortcutsWin;
+d93 1
+a93 1
+	CImageList imagelistShortcutsTree;
+d96 2
+a97 10
+
+	CButton shortcutsEnableCheck;
+	CButton shortcutsAltCheck;
+	CButton shortcutsCtrlCheck;
+	CButton shortcutsShiftCheck;
+	CButton shortcutsWinCheck;
+	CStatic shortcutsStaticLbl;
+	CComboBox shortcutsKeyCombo;
+	CStatic shortcutsGroupBox;
+	CTreeCtrl shortcutsTree;
+@
+
+
+1.12
+log
+@Suppressed compiler warnings; Reduced H-file dependency [Aw3].
+@
+text
+@d59 2
+a60 2
+	int  GetKeyComboIndexFromShortcutKey(char cKey) const;
+	char GetShortcutKeyFromKeyComboIndex(int iIndex) const;
+@
+
+
+1.11
+log
+@Reorganized class sections.
+@
+text
+@d1 15
+d17 1
+a17 1
+#include "afxcmn.h"
+d19 2
+a20 2
+#include "afxwin.h"
+#include "resource.h"
+a41 2
+// CPPgShortcuts dialog
+
+d71 1
+a71 1
+	bool m_bModified;
+d81 5
+a93 5
+	void LoadSettings(void);
+	void LoadShortcut(HTREEITEM item);
+	void SaveShortcut(HTREEITEM item);
+
+private:
+@
+
+
+1.10
+log
+@Unified and regrouped shortcuts.
+@
+text
+@a26 1
+
+a36 1
+// Données de boîte de dialogue
+a38 6
+protected:
+	virtual void DoDataExchange(CDataExchange* pDX);    // Prise en charge DDX/DDV
+
+	DECLARE_MESSAGE_MAP()
+public:
+	CTreeCtrl shortcutsTree;
+d40 14
+a53 7
+private:
+	CImageList imagelistShortcutsTree;
+	ShortcutTreeItem m_ShortcutTreeItem[SCUT_COUNT];
+	HTREEITEM m_ahTree[SCUT_NODES];
+	void LoadSettings(void);
+	void LoadShortcut(HTREEITEM item);
+	void SaveShortcut(HTREEITEM item);
+a54 7
+	CButton shortcutsEnableCheck;
+	CButton shortcutsAltCheck;
+	CButton shortcutsCtrlCheck;
+	CButton shortcutsShiftCheck;
+	CButton shortcutsWinCheck;
+	CStatic shortcutsStaticLbl;
+	CComboBox shortcutsKeyCombo;
+d64 5
+d74 18
+a91 13
+public:
+	virtual BOOL OnApply();
+	void CreateShortcutsTree(void);
+	void RefreshShortcutsTree(void);
+	void RefreshKeyCombo(void);
+	void SetPrefs(CPreferences* pPrefs)	{ m_pPrefs = pPrefs; }
+	void Localize(void);
+	int  GetKeyComboIndexFromShortcutKey(char cKey) const;
+	char GetShortcutKeyFromKeyComboIndex(int iIndex) const;
+	int  GetShortcutTreeItemIndexFromItem(HTREEITEM hItem);
+	afx_msg void OnSettingsChange(void);
+	afx_msg void OnEnableShortcutClick(void);
+	afx_msg void OnDestroy();
+d93 1
+a93 2
+	void UpdateCheckBoxesState(void);
+	afx_msg void OnTvnSelchangingShortcutsTree(NMHDR *pNMHDR, LRESULT *pResult);
+@
+
+
+1.9
+log
+@Improved string processing.
+@
+text
+@a6 48
+// define here 1 index for 1 action
+// WARNING: the action indexes must follow the same order than in the tree
+enum Indexes
+{
+	IndexGalMinimize,
+	IndexGalSwitchWindow,
+	IndexGalShowServer,
+	IndexGalShowTransfer,
+	IndexGalShowSearch,
+	IndexGalShowShare,
+	IndexGalShowChat,
+	IndexGalShowIRC,
+	IndexGalShowStats,
+	IndexGalShowPrefs,
+	IndexDLCancel,
+	IndexDLStop,
+	IndexDLPause,
+	IndexDLResume,
+	IndexDLOpen,
+	IndexDLOpenFolder,
+	IndexDLPreview,
+	IndexDLRename,
+	IndexDLComments,
+	IndexDLDetails,
+	IndexDLDetailsSources,
+	IndexDLClear,
+	IndexDLClearAll,
+	IndexDLShowAllUp,
+	IndexDLUseDefaultSort,
+	IndexDLPreallocate,
+	IndexDLA4AF,
+	IndexDLA4AFAuto,
+	IndexDLA4AFOther,
+	IndexDLED2KLink,
+	IndexDLED2kLinkHtml,
+	IndexDLED2kLinkSource,
+	IndexULDetails,
+	IndexULFriend,
+	IndexULMessage,
+	IndexULFiles,
+	IndexShOpenFolder,
+	IndexShComments,
+	IndexShED2KLink,
+	IndexShED2kLinkHtml,
+	IndexShED2kLinkSource,
+	NUMBER_OF_ACTIONS	// number of actions in this enum (WARNING: this constant must remain at the end of the enum!)
+};
+
+d9 1
+a9 1
+	HTREEITEM h_Handle;
+d13 14
+d50 2
+a51 9
+	ShortcutTreeItem m_ShortcutTreeItem[NUMBER_OF_ACTIONS];
+	HTREEITEM h_general;
+	HTREEITEM h_generalShowWindow;
+	HTREEITEM h_download;
+	HTREEITEM h_downloadAdvanced;
+	HTREEITEM h_downloadED2KLinks;
+	HTREEITEM h_upload;
+	HTREEITEM h_share;
+	HTREEITEM h_shareED2KLinks;
+@
+
+
+1.8
+log
+@Reduced resources used by Preferences->Shortcuts; Corrected image list creation.
+@
+text
+@a6 3
+// change here the number of actions
+//#define NUMBER_OF_ACTIONS (IndexShED2kLinkSource + 1) //((sizeof(enum Indexes))/(sizeof(IndexGalMinimize)))
+
+a58 1
+	UINT uStringID;
+@
+
+
+1.7
+log
+@Removed unused code
+@
+text
+@d134 1
+@
+
+
+1.6
+log
+@'Open containing folder' added to download list context menu + minor changes
+@
+text
+@a121 19
+
+	CKeyboardShortcut m_GeneralMinimizeWindowToTray;
+	CKeyboardShortcut m_GeneralShowServerWnd;
+	CKeyboardShortcut m_GeneralShowTransferWnd;
+	CKeyboardShortcut m_GeneralShowSearchWnd;
+	CKeyboardShortcut m_GeneralShowSharedFilesWnd;
+	CKeyboardShortcut m_GeneralShowChatWnd;
+	CKeyboardShortcut m_GeneralShowIRCWnd;
+	CKeyboardShortcut m_GeneralShowStatisticsWnd;
+	CKeyboardShortcut m_GeneralShowPreferencesWnd;
+	CKeyboardShortcut m_DownloadViewFileComments;
+	CKeyboardShortcut m_DownloadViewFileDetails;
+	CKeyboardShortcut m_DownloadClearCompletedFiles;
+	CKeyboardShortcut m_UploadViewClientDetails;
+	CKeyboardShortcut m_UploadAddClientToFriends;
+	CKeyboardShortcut m_UploadSendMessageClient;
+	CKeyboardShortcut m_UploadViewClientFiles;
+	CKeyboardShortcut m_ShareEditFileComments;
+
+@
+
+
+1.5
+log
+@Modified Clear Completed
+@
+text
+@d29 1
+@
+
+
+1.4
+log
+@added 'Swap all A4AF sources to other files' by right-click menu or shortcut + minor changes
+@
+text
+@d35 1
+@
+
+
+1.3
+log
+@Updated shortcut management
+@
+text
+@d40 1
+@
+
+
+1.2
+log
+@Change to shortcut management code (it's easier to add an action now) / Added a lot of actions to shortcut management / Added some keys to shortcut management
+@
+text
+@d30 1
+d33 1
+d35 2
+@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@d5 52
+d81 1
+a81 1
+	// General
+d83 1
+a83 10
+	HTREEITEM h_generalMinimizeWindowToTray;
+	HTREEITEM h_generalShowServerWnd;
+	HTREEITEM h_generalShowTransferWnd;
+	HTREEITEM h_generalShowSearchWnd;
+	HTREEITEM h_generalShowSharedFilesWnd;
+	HTREEITEM h_generalShowChatWnd;
+	HTREEITEM h_generalShowIRCWnd;
+	HTREEITEM h_generalShowStatisticsWnd;
+	HTREEITEM h_generalShowPreferencesWnd;
+	// Download list
+d85 2
+a86 4
+	HTREEITEM h_downloadViewFileComments;
+	HTREEITEM h_downloadViewFileDetails;
+	HTREEITEM h_downloadClearCompletedFiles;
+	// Upload list
+a87 5
+	HTREEITEM h_uploadViewClientDetails;
+	HTREEITEM h_uploadAddClientToFriends;
+	HTREEITEM h_uploadSendMessageClient;
+	HTREEITEM h_uploadViewClientFiles;
+	// Share list
+d89 1
+a89 1
+	HTREEITEM h_shareEditFileComments;
+d138 1
+a138 1
+	void CreateKeyCombo(void);
+d143 1
+a143 3
+	CKeyboardShortcut* GetKeyboardShortcutFromItem(HTREEITEM hItem);
+	afx_msg void OnTvnItemexpandingShortcutsTree(NMHDR *pNMHDR, LRESULT *pResult);
+	afx_msg void OnTvnSelchangingShortcutsTree(NMHDR *pNMHDR, LRESULT *pResult);
+a146 1
+	bool IsRootItem(HTREEITEM hItem)	{ return ((hItem == h_general) || (hItem == h_download) || (hItem == h_upload) || (hItem == h_share)); }
+d148 1
+@
+

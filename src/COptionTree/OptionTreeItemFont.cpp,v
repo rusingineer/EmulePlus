@@ -1,0 +1,689 @@
+head	1.1;
+access;
+symbols
+	PublicRelease_1_2e:1.1
+	Interim_Release_1-2e_RC1:1.1
+	PublicRelease_1_2d:1.1
+	Interim_Release_1-2d_RC1:1.1
+	Interim_Release_1-2d_beta1:1.1
+	PublicRelease_1_2c:1.1
+	Interim_Release_1-2c_RC1:1.1
+	Interim_Release_1-2c_beta1:1.1
+	PublicRelease_1_2b:1.1
+	Interim_Release_1-2b_RC1:1.1
+	PublicRelease_1_2a:1.1
+	Interim_Release_1-2a_RC1:1.1
+	Interim_Release_1-2a_beta2:1.1
+	Interim_Release_1-2a_beta1:1.1
+	PublicRelease_1_2:1.1
+	Interim_Release_1-2_RC1:1.1
+	Interim_Release_1-2_beta1:1.1
+	PublicRelease_1_1g:1.1
+	Interim_Release_1-1g_RC3:1.1
+	Interim_Release_1-1g_RC2:1.1
+	Interim_Release_1-1g_RC1:1.1
+	Interim_Release_1-1g_beta2:1.1
+	Interim_Release_1-1g_beta1:1.1
+	PublicRelease_1_1f:1.1
+	Interim_Release_1-1f_RC1:1.1
+	PublicRelease_1_1e:1.1
+	Interim_Release_1-1e_RC2:1.1
+	Interim_Release_1-1e_RC1:1.1
+	Interim_Release_1-1e_beta1:1.1
+	PublicRelease_1_1d:1.1
+	Interim_Release_1-1d_RC1:1.1
+	PublicRelease_1_1c:1.1
+	Interim_Release_1-1c_RC1:1.1
+	Interim_Release_1-1c_beta2:1.1
+	Interim_Release_1-1c_beta1:1.1
+	PublicRelease_1_1b:1.1
+	Interim_Release_1-1b_RC1:1.1
+	PublicRelease_1_1a:1.1
+	Interim_Release_1-1a_RC2:1.1
+	Interim_Release_1-1a_RC1:1.1
+	Interim_Release_1-1a_beta2:1.1
+	Interim_Release_1-1a_beta1:1.1
+	PublicRelease_1_1:1.1
+	Interim_Release_1-1_beta1:1.1
+	PublicRelease_1o:1.1
+	Interim_Release_1o_RC1:1.1
+	Interim_Release_1o_beta1:1.1
+	PublicRelease_1n:1.1
+	Interim_Release_1n_RC2:1.1
+	Interim_Release_1n_RC1:1.1
+	PublicRelease_1m:1.1
+	Interim_Release_1m_beta1:1.1
+	PublicRelease_1l:1.1
+	Interim_Release_1l_RC3:1.1
+	Interim_Release_1l_RC2:1.1
+	Interim_Release_1l_RC1:1.1
+	Interim_Release_1l_beta2:1.1
+	Interim_Release_1l_beta1:1.1
+	PublicRelease_1k:1.1
+	Interim_Release_1k_RC4:1.1
+	Interim_1k_RC3:1.1
+	Interim_1k_RC2:1.1
+	Interim_Release_1k_RC1:1.1
+	Interim_Release_1k_beta5:1.1
+	Intrerim_Release_1k_beta4:1.1
+	Interim_Release_1k_beta1:1.1
+	PublicRelease_1j:1.1
+	Interim_Release_1J_RC3:1.1
+	Interim_Release_1j_RC3:1.1
+	Interim_Release_1j_RC2:1.1
+	Interim_Release_1j_RC1:1.1
+	Interim_Release_1j_beta2:1.1
+	Interim_Release_1j_beta1:1.1
+	PublicRelease_1i:1.1
+	Interim_Release_1i_RC6:1.1
+	Interim_Release_1i_RC3:1.1
+	Interim_Release_1i_RC2:1.1
+	Interim_Release_1i_RC1:1.1
+	Interim_Release_1i_beta3:1.1
+	Interim_Release_1i_beta2:1.1
+	Interim_Release_1i_beta1:1.1
+	PublicRelease_1h:1.1
+	Interim_Release_1h_rc2:1.1
+	Interim_Release_1h_RC1:1.1
+	Interim_Release_1h_beta2:1.1
+	Interim_Release_1h_beta1_now:1.1
+	Interim_Release_1h_beta1:1.1
+	PublicRelease_1g:1.1
+	Interim_Release_1g_RC6_Final:1.1
+	Interim_Release_1g_RC6:1.1
+	Interim_Release_1g_RC5:1.1
+	Interim_Release_1g_RC4:1.1
+	Interim_Release_1g_RC3:1.1
+	Interim_Release_1g_beta2:1.1
+	Interim_Release_1g_beta1:1.1
+	Interim_Release_1f_RC4:1.1
+	Interim_Release_1f_RC3:1.1
+	Interim_Release_1f_RC2:1.1
+	Interim_Release_1f_RC:1.1
+	Interim_Release_1f_beta2:1.1
+	Interim_Release_1f_beta1:1.1
+	PublicRelease_1e:1.1
+	Interim_Release_1e_RC2:1.1
+	Interim_Release_1e_RC:1.1
+	Interim_Release_1e_beta3:1.1
+	Interim_Release_1e_beta2:1.1
+	Interim_Release_1e_beta2_before_kuchin:1.1
+	Interim_Release_1e_beta1:1.1
+	PublicRelease_1c:1.1
+	featurestest:1.1.0.16
+	Interim_Release_1c_RC:1.1
+	Interim_Release_1c_beta2:1.1
+	Interim_Release_1c_beta1:1.1
+	threaded_downloadqueue:1.1.0.14
+	PublicRelease_1b:1.1
+	Interim_Release_1b_beta2:1.1
+	Interim_Release_1b_beta1:1.1
+	proxydeadlake:1.1.0.12
+	PublicRelease_1a:1.1
+	Interim_Release_1a_beta2:1.1
+	BerkeleyDb:1.1.0.10
+	Interim_Release_1a_beta1:1.1
+	PublicRelease_1:1.1
+	goldfish:1.1
+	eMulePlus_1_RC2:1.1
+	eMulePlus_26b_1RC1:1.1
+	PreRelease_26b_i0e:1.1
+	before_26d_merge:1.1
+	Interim_Release_26b_i0d:1.1
+	Interim_Release_26b_i0c:1.1
+	Interim_Release_26b_i0b:1.1
+	Interim_Release_26b_i0a:1.1
+	systraydlg:1.1.0.8
+	plus26based:1.1.0.6
+	Interim_Release_25b_i0b:1.1
+	Proxy_Dev:1.1
+	Interim_Release_25b_i0a:1.1.4.1
+	proxytest:1.1.4.1.0.2
+	official_sockets:1.1.0.4
+	eMulePlus_024b_5b:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.1
+date	2003.01.21.18.34.01;	author cax2;	state Exp;
+branches
+	1.1.4.1;
+next	;
+
+1.1.4.1
+date	2003.01.28.17.32.57;	author cax2;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.1
+log
+@*** empty log message ***
+@
+text
+@// COptionTree
+//
+// License
+// -------
+// This code is provided "as is" with no expressed or implied warranty.
+// 
+// You may use this code in a commercial product with or without acknowledgement.
+// However you may not sell this code or any modification of this code, this includes 
+// commercial libraries and anything else for profit.
+//
+// I would appreciate a notification of any bugs or bug fixes to help the control grow.
+//
+// History:
+// --------
+//	See License.txt for full history information.
+//
+//
+// Copyright (c) 1999-2002 
+// ComputerSmarts.net 
+// mattrmiller@@computersmarts.net
+
+
+#include "stdafx.h"
+#include "OptionTreeItemFont.h"
+
+// Added Headers
+#include "OptionTree.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+COptionTreeItemFont::COptionTreeItemFont()
+{
+	// Initialize variables
+	m_crDefTextColor = RGB(0, 0, 0);
+	m_crTextColor = RGB(0, 0, 0);
+	m_dwOptions = NULL;
+	m_strCustomSample = _T("");
+	m_pApplyWindow = NULL;
+	m_lDefaultHeight = 0;
+
+	// Set item type
+	SetItemType(OT_ITEM_FONT);
+}
+
+COptionTreeItemFont::~COptionTreeItemFont()
+{
+
+}
+
+void COptionTreeItemFont::DrawAttribute(CDC *pDC, const RECT &rcRect)
+{
+	// Make sure options aren't NULL
+	if (m_otOption == NULL)
+	{
+		return;
+	}
+
+	// Declare variables
+	CFont *pOldFont;
+	COLORREF crOld;
+	int nOldBack;
+	CRect rcText, rcClient;
+	CString strText;
+	CString strSample;
+	LOGFONT lf;
+	CFont fFont;
+	COLORREF crOldBack;
+
+	// Get window rect
+	rcClient = rcRect;
+
+	// Create font
+	if (fFont.CreateFontIndirect(&m_lfFont) == FALSE)
+	{
+		return;
+	}
+
+	// Select font
+	pOldFont = pDC->SelectObject(&fFont);
+	
+	// Set text color
+	if (IsReadOnly() == TRUE || m_otOption->IsWindowEnabled() == FALSE)
+	{
+		crOld = pDC->SetTextColor(GetSysColor(COLOR_GRAYTEXT));
+	}
+	else
+	{
+		crOld = pDC->SetTextColor(m_crTextColor);
+	}
+
+	// Set background mode
+	nOldBack = pDC->SetBkMode(TRANSPARENT);
+
+	// Set background color
+	crOldBack = pDC->SetBkColor(GetBackgroundColor());	
+
+	// Load sample text
+	if (GetOption(OT_FS_CUSTOMSAMPLE) == TRUE)
+	{
+		strSample = m_strCustomSample;
+	}
+	else if (GetOption(OT_FS_FONTNAMESAMPLE) == TRUE)
+	{
+		fFont.GetLogFont(&lf);
+		strSample.Format("%s", lf.lfFaceName);
+	}
+	else
+	{
+		strSample.LoadString(AFX_IDS_SAMPLETEXT);	
+	}
+
+	// Get text rectangle
+	rcText.left  = rcRect.left + 1;
+	rcText.right = rcRect.right;
+	rcText.top = rcRect.top;
+	rcText.bottom = rcRect.bottom;
+
+	// Draw text
+	pDC->DrawText(strSample, rcText, DT_SINGLELINE | DT_VCENTER);
+	pDC->DrawText(strSample, rcText, DT_SINGLELINE | DT_VCENTER | DT_CALCRECT);
+	
+	// Restore GDI ojects
+	pDC->SelectObject(pOldFont);
+	pDC->SetTextColor(crOld);
+	pDC->SetBkMode(nOldBack);
+	pDC->SetBkColor(crOldBack);
+}
+
+void COptionTreeItemFont::OnCommit()
+{
+}
+
+void COptionTreeItemFont::OnRefresh()
+{
+}
+
+void COptionTreeItemFont::OnMove()
+{
+}
+
+void COptionTreeItemFont::OnActivate()
+{
+	// Declare variables
+	CWnd *pWnd;
+
+	// Set apply window
+	if (m_pApplyWindow != NULL)
+	{
+		pWnd = m_pApplyWindow;
+	}
+	else
+	{
+		pWnd = m_otOption;
+	}
+
+	// Show dialog
+	COptionTreeFontSel fDialog(m_dwOptions, m_lfFont, m_lfDefaultFont, pWnd);
+	// -- Default Font Color
+	fDialog.SetDefaultTextColor(m_crDefTextColor);
+	// -- Font Color
+	fDialog.SetTextColor(m_crTextColor);
+	// -- Control ID
+	fDialog.SetControlID(GetCtrlID());
+
+	// Show dialog
+	if (fDialog.DoModal() == ID_FONTSEL_OK)	
+	{
+		// -- Get font
+		fDialog.GetLogFont(m_lfFont);
+
+		// -- Get font color
+		m_crTextColor = fDialog.GetTextColor();
+
+		// -- Set item height
+		if ((abs(m_lfFont.lfHeight) + (OT_SPACE * 2)) > m_lDefaultHeight)
+		{
+			SetItemHeight(abs(m_lfFont.lfHeight) + (OT_SPACE * 2));
+			SetDrawMultiline(TRUE);
+		}
+		else
+		{
+			SetItemHeight(m_lDefaultHeight);
+			SetDrawMultiline(FALSE);
+		}
+	}
+
+	// Update items
+	if (m_otOption != NULL)
+	{
+		m_otOption->UpdatedItems();
+	}
+}
+
+void COptionTreeItemFont::CleanDestroyWindow()
+{
+}
+
+void COptionTreeItemFont::OnDeSelect()
+{
+}
+
+void COptionTreeItemFont::OnSelect()
+{
+}
+
+BOOL COptionTreeItemFont::CreateFontItem(CHARFORMAT cfFont, COLORREF crFontColor, CHARFORMAT cfDefaultFont, COLORREF crDefaultFontColor, DWORD dwOptions)
+{
+	// Declare variables
+	LOGFONT lfFont, lfDefaultFont;
+
+	// Make sure options is not NULL
+	if (m_otOption == NULL)
+	{
+		return FALSE;
+	}
+
+	// Save options
+	m_dwOptions = dwOptions;
+
+	// Set font
+	ConvertFont(lfFont, cfFont);
+	SetCurFont(lfFont);
+
+	// Set default font
+	ConvertFont(lfDefaultFont, cfDefaultFont);
+	SetDefaultFont(lfDefaultFont);
+
+	// Set color
+	SetTextColor(crFontColor);
+
+	// Set default font color
+	SetDefaultTextColor(crDefaultFontColor);
+
+	// Get default height
+	m_lDefaultHeight = GetHeight();
+
+	return TRUE;
+}
+
+BOOL COptionTreeItemFont::CreateFontItem(CHARFORMAT cfFont, COLORREF crFontColor, DWORD dwOptions)
+{
+	// Declare variables
+	LOGFONT lfFont;
+
+	// Make sure options is not NULL
+	if (m_otOption == NULL)
+	{
+		return FALSE;
+	}	
+
+	// Save options
+	m_dwOptions = dwOptions;
+
+	// Set font
+	ConvertFont(lfFont, cfFont);
+	SetCurFont(lfFont);
+
+	// Set color
+	SetTextColor(crFontColor);
+
+	// Get default height
+	m_lDefaultHeight = GetHeight();
+
+	return TRUE;
+}
+
+BOOL COptionTreeItemFont::CreateFontItem(LOGFONT lfFont, COLORREF crFontColor, DWORD dwOptions)
+{
+	// Declare variables
+	CRect rcButton;
+
+	// Make sure options is not NULL
+	if (m_otOption == NULL)
+	{
+		return FALSE;
+	}
+
+	// Save options
+	m_dwOptions = dwOptions;
+
+	// Set font
+	SetCurFont(lfFont);
+
+	// Set color
+	SetTextColor(crFontColor);
+
+	// Get default height
+	m_lDefaultHeight = GetHeight();
+
+	return TRUE;
+}
+
+BOOL COptionTreeItemFont::CreateFontItem(LOGFONT lfFont, COLORREF crFontColor, LOGFONT lfDefaultFont, COLORREF crDefaultFontColor, DWORD dwOptions)
+{
+	// Make sure options is not NULL
+	if (m_otOption == NULL)
+	{
+		return FALSE;
+	}
+
+	// Save options
+	m_dwOptions = dwOptions;
+
+	// Set font
+	SetCurFont(lfFont);
+
+	// Set default font
+	SetDefaultFont(lfDefaultFont);
+
+	// Set color
+	SetTextColor(crFontColor);
+
+	// Set default font color
+	SetDefaultTextColor(crDefaultFontColor);
+
+	// Get default height
+	m_lDefaultHeight = GetHeight();
+
+	return TRUE;
+}
+
+void COptionTreeItemFont::SetCurFont(LOGFONT lf)
+{
+	m_lfFont = lf;
+}
+
+void COptionTreeItemFont::SetDefaultFont(LOGFONT lf)
+{
+	m_lfDefaultFont = lf;
+}
+
+void COptionTreeItemFont::ConvertFont(CHARFORMAT &cfFont, LOGFONT &lf)
+{
+	// Declare variables
+	CDC dc;
+	dc.CreateDC(_T("DISPLAY"), NULL, NULL, NULL);
+	long yPerInch = dc.GetDeviceCaps(LOGPIXELSY);
+
+	// Convert Font
+	cfFont.dwMask = CFM_COLOR | CFM_SIZE | CFM_FACE | CFM_UNDERLINE | CFM_BOLD | CFM_ITALIC | CFM_STRIKEOUT;
+	cfFont.dwEffects = 0;
+	// -- Face
+	strcpy(cfFont.szFaceName, lf.lfFaceName);
+	// -- Pitch and family
+	cfFont.bPitchAndFamily = lf.lfPitchAndFamily;
+	// -- Size
+	cfFont.yHeight = ((1440 / yPerInch) * abs(lf.lfHeight));
+	// -- Bold
+	if (lf.lfWeight >= FW_BOLD)
+	{
+		cfFont.dwEffects |= CFE_BOLD;
+	}
+	// -- Italic
+	if (lf.lfItalic == TRUE)
+	{
+		cfFont.dwEffects |= CFE_ITALIC;
+	}
+	// -- Underline
+	if (lf.lfUnderline == TRUE)
+	{
+		cfFont.dwEffects |= CFE_UNDERLINE;
+	}
+	// -- Strikeout
+	if (lf.lfStrikeOut == TRUE)
+	{
+		cfFont.dwEffects |= CFE_STRIKEOUT;
+	}
+	// -- Character set
+	cfFont.bCharSet = lf.lfCharSet;
+	cfFont.dwEffects |= CFM_CHARSET;
+	// -- Text color
+	cfFont.crTextColor = GetTextColor();
+}
+
+void COptionTreeItemFont::ConvertFont(LOGFONT &lf, CHARFORMAT &cfFont)
+{
+	// Declare variables
+	CDC dc;
+	dc.CreateDC(_T("DISPLAY"), NULL, NULL, NULL);
+	long yPerInch = dc.GetDeviceCaps(LOGPIXELSY);
+
+
+	// Create log font
+	// -- Font name
+	lf.lfOutPrecision = OUT_DEFAULT_PRECIS;
+	lf.lfClipPrecision = CLIP_DEFAULT_PRECIS;
+	lf.lfQuality = DEFAULT_QUALITY;
+	lf.lfPitchAndFamily = cfFont.bPitchAndFamily;
+	strcpy(lf.lfFaceName, cfFont.szFaceName);
+	// -- Size
+	lf.lfHeight = abs(((cfFont.yHeight * yPerInch) / 1440));
+	lf.lfWidth = 0;
+	lf.lfEscapement = 0;
+	// -- Bold
+	if (cfFont.dwEffects & CFE_BOLD)
+	{
+		lf.lfWeight = FW_BOLD;
+	}
+	else
+	{
+		lf.lfWeight = FW_NORMAL;
+	}
+	// -- Strikeout
+	if (cfFont.dwEffects & CFE_STRIKEOUT)
+	{
+		lf.lfStrikeOut = TRUE;
+	}
+	else
+	{
+		lf.lfStrikeOut = FALSE;
+	}
+	// -- Underline
+	if (cfFont.dwEffects & CFE_UNDERLINE)
+	{
+		lf.lfUnderline = TRUE;
+	}
+	else
+	{
+		lf.lfUnderline = FALSE;
+	}
+	// -- Italic
+	if (cfFont.dwEffects & CFE_ITALIC)
+	{
+		lf.lfItalic = TRUE;
+	}
+	else
+	{
+		lf.lfItalic = FALSE;
+	}
+}
+
+void COptionTreeItemFont::SetCurFont(CHARFORMAT cfFont)
+{
+	// Declare variables
+	LOGFONT lf = {0};
+
+	// Copy font
+	ConvertFont(lf, cfFont);
+
+	// Save font
+	m_lfFont = lf;
+}
+
+void COptionTreeItemFont::SetDefaultFont(CHARFORMAT cfFont)
+{
+	// Declare variables
+	LOGFONT lf = {0};
+
+	// Copy font
+	ConvertFont(lf, cfFont);
+
+	// Save font
+	m_lfDefaultFont = lf;
+}
+
+void COptionTreeItemFont::SetDefaultTextColor(COLORREF crColor)
+{
+	m_crDefTextColor = crColor;
+}
+
+void COptionTreeItemFont::SetTextColor(COLORREF crColor)
+{
+	m_crTextColor = crColor;
+}
+
+COLORREF COptionTreeItemFont::GetTextColor()
+{
+	return m_crTextColor;
+}
+
+COLORREF COptionTreeItemFont::GetDefaultTextColor()
+{
+	return m_crDefTextColor;
+}
+
+void COptionTreeItemFont::SetCustomSample(CString strSample)
+{
+	m_strCustomSample = strSample;
+}
+
+void COptionTreeItemFont::SetApplyWindow(CWnd *pWnd)
+{
+	m_pApplyWindow = pWnd;
+}
+
+BOOL COptionTreeItemFont::GetOption(DWORD dwOption)
+{
+	// Return option
+	return (m_dwOptions & dwOption) ? TRUE : FALSE;
+}
+
+void COptionTreeItemFont::SetOption(DWORD dwOption, BOOL bSet)
+{
+	// Set option
+	if (bSet == TRUE)
+	{
+		m_dwOptions |= dwOption;
+	}
+	else
+	{
+		m_dwOptions &= ~dwOption;
+	}
+}
+@
+
+
+1.1.4.1
+log
+@updating this branch...
+@
+text
+@@
+

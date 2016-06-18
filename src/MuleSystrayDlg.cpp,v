@@ -1,0 +1,2430 @@
+head	1.36;
+access;
+symbols
+	PublicRelease_1_2e:1.36
+	Interim_Release_1-2e_RC1:1.36
+	PublicRelease_1_2d:1.36
+	Interim_Release_1-2d_RC1:1.36
+	Interim_Release_1-2d_beta1:1.35
+	PublicRelease_1_2c:1.34
+	Interim_Release_1-2c_RC1:1.34
+	Interim_Release_1-2c_beta1:1.34
+	PublicRelease_1_2b:1.34
+	Interim_Release_1-2b_RC1:1.34
+	PublicRelease_1_2a:1.34
+	Interim_Release_1-2a_RC1:1.34
+	Interim_Release_1-2a_beta2:1.34
+	Interim_Release_1-2a_beta1:1.34
+	PublicRelease_1_2:1.34
+	Interim_Release_1-2_RC1:1.34
+	Interim_Release_1-2_beta1:1.34
+	PublicRelease_1_1g:1.34
+	Interim_Release_1-1g_RC3:1.34
+	Interim_Release_1-1g_RC2:1.34
+	Interim_Release_1-1g_RC1:1.34
+	Interim_Release_1-1g_beta2:1.32
+	Interim_Release_1-1g_beta1:1.32
+	PublicRelease_1_1f:1.31
+	Interim_Release_1-1f_RC1:1.31
+	PublicRelease_1_1e:1.31
+	Interim_Release_1-1e_RC2:1.31
+	Interim_Release_1-1e_RC1:1.31
+	Interim_Release_1-1e_beta1:1.31
+	PublicRelease_1_1d:1.31
+	Interim_Release_1-1d_RC1:1.31
+	PublicRelease_1_1c:1.31
+	Interim_Release_1-1c_RC1:1.31
+	Interim_Release_1-1c_beta2:1.31
+	Interim_Release_1-1c_beta1:1.31
+	PublicRelease_1_1b:1.31
+	Interim_Release_1-1b_RC1:1.31
+	PublicRelease_1_1a:1.31
+	Interim_Release_1-1a_RC2:1.31
+	Interim_Release_1-1a_RC1:1.31
+	Interim_Release_1-1a_beta2:1.31
+	Interim_Release_1-1a_beta1:1.31
+	PublicRelease_1_1:1.30
+	Interim_Release_1-1_beta1:1.30
+	PublicRelease_1o:1.27
+	Interim_Release_1o_RC1:1.27
+	Interim_Release_1o_beta1:1.27
+	PublicRelease_1n:1.27
+	Interim_Release_1n_RC2:1.27
+	Interim_Release_1n_RC1:1.27
+	Interim_Release_1n_beta2:1.27
+	Interim_Release_1n_beta1:1.26
+	PublicRelease_1m:1.24
+	Interim_Release_1m_beta1:1.24
+	PublicRelease_1l:1.24
+	Interim_Release_1l_RC3:1.24
+	Interim_Release_1l_RC2:1.22
+	Interim_Release_1l_RC1:1.21
+	Interim_Release_1l_beta2:1.21
+	Interim_Release_1l_beta1:1.21
+	PublicRelease_1k:1.20
+	Interim_Release_1k_RC4:1.20
+	Interim_1k_RC3:1.20
+	Interim_1k_RC2:1.20
+	Interim_Release_1k_RC1:1.20
+	Interim_Release_1k_beta5:1.20
+	Intrerim_Release_1k_beta4:1.20
+	Interim_Release_1k_beta1:1.18
+	PublicRelease_1j:1.18
+	Interim_Release_1J_RC3:1.18
+	Interim_Release_1j_RC3:1.18
+	Interim_Release_1j_RC2:1.18
+	Interim_Release_1j_RC1:1.18
+	Interim_Release_1j_beta2:1.18
+	Interim_Release_1j_beta1:1.18
+	PublicRelease_1i:1.18
+	Interim_Release_1i_RC6:1.18
+	Interim_Release_1i_RC3:1.18
+	Interim_Release_1i_RC2:1.18
+	Interim_Release_1i_RC1:1.18
+	Interim_Release_1i_beta3:1.18
+	Interim_Release_1i_beta2:1.18
+	Interim_Release_1i_beta1:1.18
+	PublicRelease_1h:1.17
+	Interim_Release_1h_rc2:1.17
+	Interim_Release_1h_RC1:1.17
+	Interim_Release_1h_beta2:1.17
+	Interim_Release_1h_beta1_now:1.17
+	Interim_Release_1h_beta1:1.17
+	PublicRelease_1g:1.16
+	Interim_Release_1g_RC6_Final:1.16
+	Interim_Release_1g_RC6:1.16
+	Interim_Release_1g_RC5:1.16
+	Interim_Release_1g_RC4:1.16
+	Interim_Release_1g_RC3:1.15
+	Interim_Release_1g_beta2:1.14
+	Interim_Release_1g_beta1:1.14
+	Interim_Release_1f_RC4:1.14
+	Interim_Release_1f_RC3:1.14
+	Interim_Release_1f_RC2:1.14
+	Interim_Release_1f_RC:1.14
+	Interim_Release_1f_beta2:1.14
+	Interim_Release_1f_beta1:1.14
+	PublicRelease_1e:1.14
+	Interim_Release_1e_RC2:1.14
+	Interim_Release_1e_RC:1.14
+	Interim_Release_1e_beta3:1.14
+	Interim_Release_1e_beta2:1.14
+	Interim_Release_1e_beta2_before_kuchin:1.14
+	Interim_Release_1e_beta1:1.14
+	PublicRelease_1c:1.14
+	featurestest:1.14.0.2
+	Interim_Release_1c_RC:1.14
+	Interim_Release_1c_beta2:1.14
+	Interim_Release_1c_beta1:1.12
+	threaded_downloadqueue:1.12.0.2
+	PublicRelease_1b:1.10
+	Interim_Release_1b_beta2:1.10
+	Interim_Release_1b_beta1:1.9
+	proxydeadlake:1.9.0.2
+	PublicRelease_1a:1.9
+	Interim_Release_1a_beta2:1.9
+	BerkeleyDb:1.6.0.2
+	Interim_Release_1a_beta1:1.6
+	PublicRelease_1:1.6
+	goldfish:1.6
+	eMulePlus_1_RC2:1.6
+	eMulePlus_26b_1RC1:1.6
+	PreRelease_26b_i0e:1.6
+	before_26d_merge:1.6
+	Interim_Release_26b_i0d:1.4
+	systraydlg:1.1.0.2;
+locks; strict;
+comment	@// @;
+
+
+1.36
+date	2008.03.30.17.20.53;	author eklmn;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2007.12.23.17.40.00;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2005.11.27.22.11.48;	author eklmn;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2005.11.27.20.31.05;	author eklmn;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2005.08.20.04.30.57;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2004.11.08.00.28.42;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2004.10.16.04.38.35;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2004.10.08.16.53.41;	author aw3;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2004.10.08.04.47.15;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2004.07.24.05.58.44;	author aw3;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2004.07.17.03.54.43;	author aw3;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2004.07.08.22.10.16;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2004.06.08.02.38.06;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2004.06.07.16.36.40;	author katsyonak;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.05.31.20.02.33;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.04.10.16.57.23;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.03.20.01.41.15;	author aw3;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.02.23.13.33.24;	author kush_eplus;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2003.09.20.15.39.30;	author morevit;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2003.07.31.15.25.49;	author bond006;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2003.07.06.01.45.45;	author dongato;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2003.06.14.13.05.58;	author partyckip;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2003.03.17.20.48.30;	author cax2;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2003.03.17.16.23.11;	author cax2;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2003.03.14.18.13.12;	author cax2;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2003.03.11.10.54.32;	author cax2;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2003.03.08.12.09.42;	author recdvst;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2003.02.26.03.33.49;	author cax2;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2003.02.25.19.24.32;	author forcha;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2003.02.25.10.52.04;	author dongato;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.02.16.14.31.04;	author dongato;	state Exp;
+branches
+	1.6.2.1;
+next	1.5;
+
+1.5
+date	2003.02.14.15.32.16;	author dongato;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.02.13.17.45.43;	author cax2;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.02.12.18.35.56;	author cax2;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.02.12.17.06.28;	author cax2;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.02.05.23.16.43;	author forcha;	state dead;
+branches
+	1.1.2.1;
+next	;
+
+1.1.2.1
+date	2003.02.05.23.16.43;	author forcha;	state Exp;
+branches;
+next	1.1.2.2;
+
+1.1.2.2
+date	2003.02.07.23.30.13;	author forcha;	state Exp;
+branches;
+next	1.1.2.3;
+
+1.1.2.3
+date	2003.02.10.18.42.23;	author forcha;	state Exp;
+branches;
+next	;
+
+1.6.2.1
+date	2003.02.28.22.44.55;	author obaldin;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.36
+log
+@fixed font issue to proper text output in unicode version
+@
+text
+@// MuleSystrayDlg.cpp : implementation file
+//
+
+#include "stdafx.h"
+#include "MuleSystrayDlg.h"
+#include "emule.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+//	Thresholds to disable franctional speeds for slider controls
+#define UP_FRAC_THRESHOLD	100
+#define DN_FRAC_THRESHOLD	120
+
+//Cax2 - new class without context menu
+BEGIN_MESSAGE_MAP(CInputBox, CEdit)
+    ON_WM_CONTEXTMENU()
+END_MESSAGE_MAP()
+
+void CInputBox::OnContextMenu(CWnd* pWnd, CPoint point)
+{
+	NOPRM(pWnd); NOPRM(point);
+}
+
+/////////////////////////////////////////////////////////////////////////////
+// CMuleSystrayDlg dialog
+CMuleSystrayDlg::CMuleSystrayDlg(CWnd *pParent, CPoint pt) : CDialog(CMuleSystrayDlg::IDD, pParent)
+{
+	m_ptInitialPosition = pt;
+
+	m_hUpArrow = NULL;
+	m_hDownArrow = NULL;
+
+	m_nExitCode = 0;
+	m_bClosingDown = false;
+}
+
+CMuleSystrayDlg::~CMuleSystrayDlg()
+{
+	if(m_hUpArrow)
+		DestroyIcon(m_hUpArrow);
+	if(m_hDownArrow)
+		DestroyIcon(m_hDownArrow);
+}
+
+void CMuleSystrayDlg::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CMuleSystrayDlg)
+	DDX_Control(pDX, IDC_TRAYUP, m_ctrlUpArrow);
+	DDX_Control(pDX, IDC_TRAYDOWN, m_ctrlDownArrow);
+	DDX_Control(pDX, IDC_SIDEBAR, m_ctrlSidebar);
+	DDX_Control(pDX, IDC_UPSLD, m_ctrlUpSpeedSld);
+	DDX_Control(pDX, IDC_DOWNSLD, m_ctrlDownSpeedSld);
+	DDX_Control(pDX, IDC_DOWNTXT, m_DownSpeedInput);
+	DDX_Control(pDX, IDC_UPTXT, m_UpSpeedInput);
+	DDX_Text(pDX, IDC_DOWNTXT, m_strDownSpeedTxt);
+	DDX_Text(pDX, IDC_UPTXT, m_strUpSpeedTxt);
+	//}}AFX_DATA_MAP
+}
+
+
+BEGIN_MESSAGE_MAP(CMuleSystrayDlg, CDialog)
+	//{{AFX_MSG_MAP(CMuleSystrayDlg)
+	ON_WM_MOUSEMOVE()
+	ON_EN_CHANGE(IDC_DOWNTXT, OnChangeDowntxt)
+	ON_EN_CHANGE(IDC_UPTXT, OnChangeUptxt)
+	ON_WM_HSCROLL()
+	ON_WM_LBUTTONUP()
+	ON_WM_RBUTTONDOWN()
+	ON_WM_KILLFOCUS()
+	ON_WM_SHOWWINDOW()
+	ON_WM_CAPTURECHANGED()
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+
+/////////////////////////////////////////////////////////////////////////////
+// CMuleSystrayDlg message handlers
+
+void CMuleSystrayDlg::OnMouseMove(UINT nFlags, CPoint point)
+{
+	CWnd *pWnd = ChildWindowFromPoint(point, CWP_SKIPINVISIBLE|CWP_SKIPDISABLED);
+	if(pWnd)
+	{
+		if(pWnd == this || pWnd == &m_ctrlSidebar)
+			SetCapture();
+		else
+			ReleaseCapture();
+	}
+	else
+		SetCapture();
+
+	CDialog::OnMouseMove(nFlags, point);
+}
+
+BOOL CMuleSystrayDlg::OnInitDialog()
+{
+	static const int s_aiResTbl[][2] =
+	{
+		{ IDC_DOWNLBL, IDS_DOWNLOAD_NOUN },
+		{ IDC_UPLBL, IDS_UPLOAD_NOUN },
+		{ IDC_DOWNKB, IDS_KBYTESEC },
+		{ IDC_UPKB, IDS_KBYTESEC }
+	};
+
+	CDialog::OnInitDialog();
+	m_bClosingDown = false;
+
+	CRect		r;
+	CWnd		*p;
+	HINSTANCE	hInst = AfxGetInstanceHandle();
+
+	m_hUpArrow = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_UP), IMAGE_ICON, 16, 16, 0);
+	m_hDownArrow = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_DOWN), IMAGE_ICON, 16, 16, 0);
+	m_ctrlUpArrow.SetIcon(m_hUpArrow);
+	m_ctrlDownArrow.SetIcon(m_hDownArrow);
+
+	LOGFONT		lfStaticFont = {0};
+	CFont		*pDefGuiFont = CFont::FromHandle(static_cast<HFONT>(GetStockObject(DEFAULT_GUI_FONT)));
+
+	pDefGuiFont->GetLogFont(&lfStaticFont);
+
+	p = GetDlgItem(IDC_SPEED);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlSpeed.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_SPEED);
+		m_ctrlSpeed.m_nBtnID = IDC_SPEED;
+		GetResString(&m_ctrlSpeed.m_strText, IDS_TRAYDLG_SPEED);
+
+		m_ctrlSpeed.m_bUseIcon = true;
+		m_ctrlSpeed.m_sIcon.cx = 16;
+		m_ctrlSpeed.m_sIcon.cy = 16;
+		m_ctrlSpeed.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_SPEED), IMAGE_ICON, m_ctrlSpeed.m_sIcon.cx, m_ctrlSpeed.m_sIcon.cy, 0);
+		m_ctrlSpeed.m_bParentCapture = true;
+
+		LOGFONT		lfFont = lfStaticFont;
+
+		lfFont.lfWeight += 200;			// make it bold
+		m_ctrlSpeed.m_cfFont.CreateFontIndirect(&lfFont);
+
+		m_ctrlSpeed.m_bNoHover = true;
+	}
+
+	p = GetDlgItem(IDC_TOMAX);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlAllToMax.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_TOMAX);
+		m_ctrlAllToMax.m_nBtnID = IDC_TOMAX;
+		GetResString(&m_ctrlAllToMax.m_strText, IDS_PW_UA);
+
+		m_ctrlAllToMax.m_bUseIcon = true;
+		m_ctrlAllToMax.m_sIcon.cx = 16;
+		m_ctrlAllToMax.m_sIcon.cy = 16;
+		m_ctrlAllToMax.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_TOMAX), IMAGE_ICON, m_ctrlAllToMax.m_sIcon.cx, m_ctrlAllToMax.m_sIcon.cy, 0);
+		m_ctrlAllToMax.m_bParentCapture = true;
+		m_ctrlAllToMax.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_TOMIN);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlAllToMin.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_TOMIN);
+		m_ctrlAllToMin.m_nBtnID = IDC_TOMIN;
+		GetResString(&m_ctrlAllToMin.m_strText, IDS_PW_PA);
+
+		m_ctrlAllToMin.m_bUseIcon = true;
+		m_ctrlAllToMin.m_sIcon.cx = 16;
+		m_ctrlAllToMin.m_sIcon.cy = 16;
+		m_ctrlAllToMin.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_TOMIN), IMAGE_ICON, m_ctrlAllToMin.m_sIcon.cx, m_ctrlAllToMin.m_sIcon.cy, 0);
+		m_ctrlAllToMin.m_bParentCapture = true;
+		m_ctrlAllToMin.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_RESTORE);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlRestore.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_RESTORE);
+		m_ctrlRestore.m_nBtnID = IDC_RESTORE;
+		GetResString(&m_ctrlRestore.m_strText, IDS_MAIN_POPUP_RESTORE);
+
+		m_ctrlRestore.m_bUseIcon = true;
+		m_ctrlRestore.m_sIcon.cx = 16;
+		m_ctrlRestore.m_sIcon.cy = 16;
+		m_ctrlRestore.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_RESTORE), IMAGE_ICON, m_ctrlRestore.m_sIcon.cx, m_ctrlRestore.m_sIcon.cy, 0);
+		m_ctrlRestore.m_bParentCapture = true;
+
+		LOGFONT		lfFont = lfStaticFont;
+
+		lfFont.lfWeight += 200;			// make it bold
+		m_ctrlRestore.m_cfFont.CreateFontIndirect(&lfFont);
+	}
+
+	p = GetDlgItem(IDC_CONNECT);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlConnect.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_CONNECT);
+		m_ctrlConnect.m_nBtnID = IDC_CONNECT;
+		GetResString(&m_ctrlConnect.m_strText, IDS_CONNECTTOANYSERVER);
+
+		m_ctrlConnect.m_bUseIcon = true;
+		m_ctrlConnect.m_sIcon.cx = 16;
+		m_ctrlConnect.m_sIcon.cy = 16;
+		m_ctrlConnect.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_CONNECT), IMAGE_ICON, m_ctrlConnect.m_sIcon.cx, m_ctrlConnect.m_sIcon.cy, 0);
+		m_ctrlConnect.m_bParentCapture = true;
+		m_ctrlConnect.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_DISCONNECT);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlDisconnect.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_DISCONNECT);
+		m_ctrlDisconnect.m_nBtnID = IDC_DISCONNECT;
+		GetResString(&m_ctrlDisconnect.m_strText, IDS_MAIN_BTN_DISCONNECT);
+
+		m_ctrlDisconnect.m_bUseIcon = true;
+		m_ctrlDisconnect.m_sIcon.cx = 16;
+		m_ctrlDisconnect.m_sIcon.cy = 16;
+		m_ctrlDisconnect.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_DISCONNECT), IMAGE_ICON, m_ctrlDisconnect.m_sIcon.cx, m_ctrlDisconnect.m_sIcon.cy, 0);
+		m_ctrlDisconnect.m_bParentCapture = true;
+		m_ctrlDisconnect.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_PREFERENCES);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlPreferences.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_PREFERENCES);
+		m_ctrlPreferences.m_nBtnID = IDC_PREFERENCES;
+		GetResString(&m_ctrlPreferences.m_strText, IDS_PREFERENCES);
+
+		m_ctrlPreferences.m_bUseIcon = true;
+		m_ctrlPreferences.m_sIcon.cx = 16;
+		m_ctrlPreferences.m_sIcon.cy = 16;
+		m_ctrlPreferences.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_PREF_GENERAL), IMAGE_ICON, m_ctrlPreferences.m_sIcon.cx, m_ctrlPreferences.m_sIcon.cy, 0);
+		m_ctrlPreferences.m_bParentCapture = true;
+		m_ctrlPreferences.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_EXIT);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlExit.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_EXIT);
+		m_ctrlExit.m_nBtnID = IDC_EXIT;
+		GetResString(&m_ctrlExit.m_strText, IDS_EXIT);
+
+		m_ctrlExit.m_bUseIcon = true;
+		m_ctrlExit.m_sIcon.cx = 16;
+		m_ctrlExit.m_sIcon.cy = 16;
+		m_ctrlExit.m_hIcon = (HICON)::LoadImage(hInst, MAKEINTRESOURCE(IDI_TRAY_EXIT), IMAGE_ICON, m_ctrlExit.m_sIcon.cx, m_ctrlExit.m_sIcon.cy, 0);
+		m_ctrlExit.m_bParentCapture = true;
+		m_ctrlExit.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	CString strBuffer;
+
+	for (uint32 i = 0; i < ARRSIZE(s_aiResTbl); i++)
+	{
+		GetResString(&strBuffer, static_cast<UINT>(s_aiResTbl[i][1]));
+		SetDlgItemText(s_aiResTbl[i][0], strBuffer);
+	}
+
+	uint32	dwMaxUp = g_App.m_pPrefs->GetMaxGraphUploadRate();
+	uint32	dwMaxDown = g_App.m_pPrefs->GetMaxGraphDownloadRate();
+	uint32	dwCurUp = g_App.m_pPrefs->GetMaxUpload();
+	uint32	dwCurDown = g_App.m_pPrefs->GetMaxDownload();
+
+	if (dwCurDown == UNLIMITED)
+		dwCurDown = 0;
+
+	dwCurDown = (dwMaxDown < dwCurDown) ? dwMaxDown : dwCurDown;
+	dwCurUp = (dwMaxUp < dwCurUp) ? dwMaxUp : dwCurUp;
+
+	FractionalRate2String(&m_strDownSpeedTxt, dwCurDown);
+	FractionalRate2String(&m_strUpSpeedTxt, dwCurUp);
+
+// Disable when Limitless Download
+	bool	bLimited = !g_App.m_pPrefs->LimitlessDownload();
+
+	m_DownSpeedInput.EnableWindow(bLimited);
+	m_ctrlDownSpeedSld.EnableWindow(bLimited);
+
+	m_ctrlDownSpeedSld.SetRange(10, dwMaxDown);
+	if (dwMaxDown >= DN_FRAC_THRESHOLD)
+	{
+		m_ctrlDownSpeedSld.SetPageSize((dwMaxDown > 200) ? 100 : 50);
+		m_ctrlDownSpeedSld.SetLineSize(10);
+	}
+	m_ctrlDownSpeedSld.SetPos(dwCurDown);
+
+	m_ctrlUpSpeedSld.SetRange(10, dwMaxUp);
+	if (dwMaxUp >= UP_FRAC_THRESHOLD)
+	{
+		m_ctrlUpSpeedSld.SetPageSize(50);
+		m_ctrlUpSpeedSld.SetLineSize(10);
+	}
+	m_ctrlUpSpeedSld.SetPos(dwCurUp);
+
+	UpdateData(FALSE);
+
+	CFont	Font;
+
+	Font.CreateFont(-14, 0, 900, 0, 700, 0, 0, 0, 0,
+		OUT_STROKE_PRECIS, CLIP_STROKE_PRECIS, DRAFT_QUALITY, VARIABLE_PITCH | FF_SWISS, _T("Tahoma"));
+
+	UINT	winver = g_App.m_pPrefs->GetWindowsVersion();
+
+	if(winver == _WINVER_95_ || winver == _WINVER_NT4_)
+	{
+		m_ctrlSidebar.SetColors(GetSysColor(COLOR_CAPTIONTEXT),
+									GetSysColor(COLOR_ACTIVECAPTION),
+										GetSysColor(COLOR_ACTIVECAPTION));
+	}
+	else
+	{
+		m_ctrlSidebar.SetColors(GetSysColor(COLOR_CAPTIONTEXT),
+									GetSysColor(COLOR_ACTIVECAPTION),
+										GetSysColor(27));	//COLOR_GRADIENTACTIVECAPTION
+	}
+
+	m_ctrlSidebar.SetHorizontal(false);
+	m_ctrlSidebar.SetFont(&Font);
+	m_ctrlSidebar.SetWindowText(CLIENT_NAME_WITH_VER);
+
+	CRect	rDesktop;
+	CWnd	*pDesktopWnd = GetDesktopWindow();
+
+	pDesktopWnd->GetClientRect(rDesktop);
+
+	CPoint	pt = m_ptInitialPosition;
+
+	pDesktopWnd->ScreenToClient(&pt);
+
+	int		xpos, ypos;
+
+	GetWindowRect(r);
+	if(m_ptInitialPosition.x + r.Width() < rDesktop.right)
+		xpos = pt.x;
+	else
+		xpos = pt.x - r.Width();
+	if(m_ptInitialPosition.y - r.Height() < rDesktop.top)
+		ypos = pt.y;
+	else
+		ypos = pt.y - r.Height();
+
+	MoveWindow(xpos, ypos, r.Width(), r.Height());
+	SetCapture();
+	return TRUE;  // return TRUE unless you set the focus to a control
+	              // EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CMuleSystrayDlg::OnChangeDowntxt()
+{
+	UpdateData();
+
+	TCHAR	cLast = (m_strDownSpeedTxt.IsEmpty()) ? _T('0') : m_strDownSpeedTxt.GetAt(m_strDownSpeedTxt.GetLength() - 1);
+
+//	Don't process when a user entered decimal period
+	if ((cLast >= _T('0')) && (cLast <= _T('9')))
+	{
+		uint32	dwSpeed = TieUploadDownload(g_App.m_pPrefs->GetMaxUpload(), String2FranctionalRate(m_strDownSpeedTxt));
+		
+		dwSpeed = g_App.m_pPrefs->SetMaxDownloadWithCheck(dwSpeed);
+		FractionalRate2String(&m_strDownSpeedTxt, dwSpeed);
+		m_ctrlDownSpeedSld.SetPos(dwSpeed);
+
+		UpdateData(FALSE);
+	}
+}
+
+void CMuleSystrayDlg::OnChangeUptxt()
+{
+	UpdateData();
+
+	TCHAR	cLast = (m_strUpSpeedTxt.IsEmpty()) ? _T('0') : m_strUpSpeedTxt.GetAt(m_strUpSpeedTxt.GetLength() - 1);
+
+//	Don't process when a user entered decimal period
+	if ((cLast >= _T('0')) && (cLast <= _T('9')))
+	{
+		uint32	dwSpeed = g_App.m_pPrefs->SetMaxUploadWithCheck(String2FranctionalRate(m_strUpSpeedTxt));
+
+		FractionalRate2String(&m_strUpSpeedTxt, dwSpeed);
+		m_ctrlUpSpeedSld.SetPos(dwSpeed);
+
+		dwSpeed = g_App.m_pPrefs->GetMaxDownload();
+
+		if (dwSpeed == UNLIMITED)
+			dwSpeed = 0;
+		else
+			g_App.m_pPrefs->SetMaxDownload(dwSpeed);
+		FractionalRate2String(&m_strDownSpeedTxt, dwSpeed);
+		m_ctrlDownSpeedSld.SetPos(dwSpeed);
+
+		UpdateData(FALSE);
+	}
+}
+
+void CMuleSystrayDlg::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar)
+{
+	uint32	dwSpeed;
+
+	if(pScrollBar == (CScrollBar*)&m_ctrlDownSpeedSld)
+	{
+		if ((nSBCode == TB_THUMBTRACK) || (nSBCode == TB_THUMBPOSITION))
+		{
+			dwSpeed = nPos;
+			if (g_App.m_pPrefs->GetMaxGraphDownloadRate() >= DN_FRAC_THRESHOLD)
+			{
+			//	Round to nearest integer speed
+				dwSpeed %= 10;
+				dwSpeed = nPos - ((dwSpeed < 5) ? dwSpeed : (dwSpeed - 10));
+			}
+		}
+		else
+			dwSpeed = m_ctrlDownSpeedSld.GetPos();
+
+		dwSpeed = TieUploadDownload(g_App.m_pPrefs->GetMaxUpload(), dwSpeed);
+		m_ctrlDownSpeedSld.SetPos(dwSpeed);
+		FractionalRate2String(&m_strDownSpeedTxt, dwSpeed);
+		UpdateData(FALSE);
+		g_App.m_pPrefs->SetMaxDownload(dwSpeed);
+	}
+	else if(pScrollBar == (CScrollBar*)&m_ctrlUpSpeedSld)
+	{
+		if ((nSBCode == TB_THUMBTRACK) || (nSBCode == TB_THUMBPOSITION))
+		{
+			dwSpeed = nPos;
+			if (g_App.m_pPrefs->GetMaxGraphUploadRate() >= UP_FRAC_THRESHOLD)
+			{
+			//	Round to nearest integer speed
+				dwSpeed %= 10;
+				dwSpeed = nPos - ((dwSpeed < 5) ? dwSpeed : (dwSpeed - 10));
+			}
+		}
+		else
+			dwSpeed = m_ctrlUpSpeedSld.GetPos();
+
+		FractionalRate2String(&m_strUpSpeedTxt, dwSpeed);
+		m_ctrlUpSpeedSld.SetPos(dwSpeed);
+		g_App.m_pPrefs->SetMaxUpload(dwSpeed);
+
+		dwSpeed = g_App.m_pPrefs->GetMaxDownload();
+
+		if (dwSpeed == UNLIMITED)
+			dwSpeed = 0;
+		else
+			g_App.m_pPrefs->SetMaxDownload(dwSpeed);
+		FractionalRate2String(&m_strDownSpeedTxt, dwSpeed);
+		m_ctrlDownSpeedSld.SetPos(dwSpeed);
+
+		UpdateData(FALSE);
+	}
+
+	CDialog::OnHScroll(nSBCode, nPos, pScrollBar);
+}
+
+void CMuleSystrayDlg::OnLButtonUp(UINT nFlags, CPoint point)
+{
+	ReleaseCapture();
+	EndDialog(m_nExitCode);
+	m_bClosingDown = true;
+
+	CDialog::OnLButtonUp(nFlags, point);
+}
+
+void CMuleSystrayDlg::OnRButtonDown(UINT nFlags, CPoint point)
+{
+	CRect	systrayRect;
+
+	GetClientRect(&systrayRect);
+
+	if(point.x<=systrayRect.left || point.x>=systrayRect.right || point.y<=systrayRect.top || point.y>=systrayRect.bottom)
+	{
+		ReleaseCapture();
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+
+	CDialog::OnRButtonDown(nFlags,point);
+}
+
+void CMuleSystrayDlg::OnKillFocus(CWnd* pNewWnd)
+{
+	CDialog::OnKillFocus(pNewWnd);
+
+	if(!m_bClosingDown)
+	{
+		ReleaseCapture();
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+//	Apply last settings, as due to waiting for decimal periods, something couldn't be applied
+	g_App.m_pPrefs->SetMaxUploadWithCheck(String2FranctionalRate(m_strUpSpeedTxt));
+
+	if (!g_App.m_pPrefs->LimitlessDownload())
+	{
+		uint32	dwSpeed = String2FranctionalRate(m_strDownSpeedTxt);
+
+		dwSpeed = TieUploadDownload(g_App.m_pPrefs->GetMaxUpload(), dwSpeed);
+		g_App.m_pPrefs->SetMaxDownloadWithCheck(dwSpeed);
+	}
+}
+
+void CMuleSystrayDlg::OnShowWindow(BOOL bShow, UINT nStatus)
+{
+	if(!bShow && !m_bClosingDown)
+	{
+		ReleaseCapture();
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+
+	CDialog::OnShowWindow(bShow, nStatus);
+}
+
+void CMuleSystrayDlg::OnCaptureChanged(CWnd *pWnd)
+{
+	if(pWnd && pWnd != this && !IsChild(pWnd))
+	{
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+	CDialog::OnCaptureChanged(pWnd);
+}
+
+BOOL CMuleSystrayDlg::OnCommand(WPARAM wParam, LPARAM lParam)
+{
+	if(HIWORD(wParam) == BN_CLICKED)
+	{
+		ReleaseCapture();
+		m_nExitCode = LOWORD(wParam);
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+
+	return CDialog::OnCommand(wParam, lParam);
+}
+@
+
+
+1.35
+log
+@Suppressed compiler warnings; Formatting.
+@
+text
+@a121 1
+	bool		bValidFont = false;
+d123 3
+a129 3
+		p->GetFont()->GetLogFont(&lfStaticFont);
+		bValidFont = true;
+
+a140 3
+		if(bValidFont)
+		{
+			LOGFONT		lfFont = lfStaticFont;
+d142 4
+a145 3
+			lfFont.lfWeight += 200;			// make it bold
+			m_ctrlSpeed.m_cfFont.CreateFontIndirect(&lfFont);
+		}
+d164 1
+a164 2
+		if(bValidFont)
+			m_ctrlAllToMax.m_cfFont.CreateFontIndirect(&lfStaticFont);
+d181 1
+a181 2
+		if(bValidFont)
+			m_ctrlAllToMin.m_cfFont.CreateFontIndirect(&lfStaticFont);
+a197 3
+		if(bValidFont)
+		{
+			LOGFONT		lfFont = lfStaticFont;
+d199 4
+a202 3
+			lfFont.lfWeight += 200;			// make it bold
+			m_ctrlRestore.m_cfFont.CreateFontIndirect(&lfFont);
+		}
+d219 1
+a219 2
+		if(bValidFont)
+			m_ctrlConnect.m_cfFont.CreateFontIndirect(&lfStaticFont);
+d236 1
+a236 2
+		if(bValidFont)
+			m_ctrlDisconnect.m_cfFont.CreateFontIndirect(&lfStaticFont);
+d253 1
+a253 2
+		if(bValidFont)
+			m_ctrlPreferences.m_cfFont.CreateFontIndirect(&lfStaticFont);
+d270 1
+a270 2
+		if(bValidFont)
+			m_ctrlExit.m_cfFont.CreateFontIndirect(&lfStaticFont);
+@
+
+
+1.34
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d22 1
+d25 1
+d286 1
+a286 1
+	for (uint32 i = 0; i < ELEMENT_COUNT(s_aiResTbl); i++)
+@
+
+
+1.33
+log
+@renamed 3 variables
+@
+text
+@d290 4
+a293 4
+	uint32	dwMaxUp = g_App.g_pPrefs->GetMaxGraphUploadRate();
+	uint32	dwMaxDown = g_App.g_pPrefs->GetMaxGraphDownloadRate();
+	uint32	dwCurUp = g_App.g_pPrefs->GetMaxUpload();
+	uint32	dwCurDown = g_App.g_pPrefs->GetMaxDownload();
+d305 1
+a305 1
+	bool	bLimited = !g_App.g_pPrefs->LimitlessDownload();
+d333 1
+a333 1
+	UINT	winver = g_App.g_pPrefs->GetWindowsVersion();
+d388 1
+a388 1
+		uint32	dwSpeed = TieUploadDownload(g_App.g_pPrefs->GetMaxUpload(), String2FranctionalRate(m_strDownSpeedTxt));
+d390 1
+a390 1
+		dwSpeed = g_App.g_pPrefs->SetMaxDownloadWithCheck(dwSpeed);
+d407 1
+a407 1
+		uint32	dwSpeed = g_App.g_pPrefs->SetMaxUploadWithCheck(String2FranctionalRate(m_strUpSpeedTxt));
+d412 1
+a412 1
+		dwSpeed = g_App.g_pPrefs->GetMaxDownload();
+d417 1
+a417 1
+			g_App.g_pPrefs->SetMaxDownload(dwSpeed);
+d434 1
+a434 1
+			if (g_App.g_pPrefs->GetMaxGraphDownloadRate() >= DN_FRAC_THRESHOLD)
+d444 1
+a444 1
+		dwSpeed = TieUploadDownload(g_App.g_pPrefs->GetMaxUpload(), dwSpeed);
+d448 1
+a448 1
+		g_App.g_pPrefs->SetMaxDownload(dwSpeed);
+d455 1
+a455 1
+			if (g_App.g_pPrefs->GetMaxGraphUploadRate() >= UP_FRAC_THRESHOLD)
+d467 1
+a467 1
+		g_App.g_pPrefs->SetMaxUpload(dwSpeed);
+d469 1
+a469 1
+		dwSpeed = g_App.g_pPrefs->GetMaxDownload();
+d474 1
+a474 1
+			g_App.g_pPrefs->SetMaxDownload(dwSpeed);
+d520 1
+a520 1
+	g_App.g_pPrefs->SetMaxUploadWithCheck(String2FranctionalRate(m_strUpSpeedTxt));
+d522 1
+a522 1
+	if (!g_App.g_pPrefs->LimitlessDownload())
+d526 2
+a527 2
+		dwSpeed = TieUploadDownload(g_App.g_pPrefs->GetMaxUpload(), dwSpeed);
+		g_App.g_pPrefs->SetMaxDownloadWithCheck(dwSpeed);
+@
+
+
+1.32
+log
+@IDS_EM_PREFS renamed into IDS_PREFERENCES.
+@
+text
+@d290 4
+a293 4
+	uint32	dwMaxUp = g_eMuleApp.m_pGlobPrefs->GetMaxGraphUploadRate();
+	uint32	dwMaxDown = g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate();
+	uint32	dwCurUp = g_eMuleApp.m_pGlobPrefs->GetMaxUpload();
+	uint32	dwCurDown = g_eMuleApp.m_pGlobPrefs->GetMaxDownload();
+d305 1
+a305 1
+	bool	bLimited = !g_eMuleApp.m_pGlobPrefs->LimitlessDownload();
+d333 1
+a333 1
+	UINT	winver = g_eMuleApp.m_pGlobPrefs->GetWindowsVersion();
+d388 1
+a388 1
+		uint32	dwSpeed = TieUploadDownload(g_eMuleApp.m_pGlobPrefs->GetMaxUpload(), String2FranctionalRate(m_strDownSpeedTxt));
+d390 1
+a390 1
+		dwSpeed = g_eMuleApp.m_pGlobPrefs->SetMaxDownloadWithCheck(dwSpeed);
+d407 1
+a407 1
+		uint32	dwSpeed = g_eMuleApp.m_pGlobPrefs->SetMaxUploadWithCheck(String2FranctionalRate(m_strUpSpeedTxt));
+d412 1
+a412 1
+		dwSpeed = g_eMuleApp.m_pGlobPrefs->GetMaxDownload();
+d417 1
+a417 1
+			g_eMuleApp.m_pGlobPrefs->SetMaxDownload(dwSpeed);
+d434 1
+a434 1
+			if (g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate() >= DN_FRAC_THRESHOLD)
+d444 1
+a444 1
+		dwSpeed = TieUploadDownload(g_eMuleApp.m_pGlobPrefs->GetMaxUpload(), dwSpeed);
+d448 1
+a448 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxDownload(dwSpeed);
+d455 1
+a455 1
+			if (g_eMuleApp.m_pGlobPrefs->GetMaxGraphUploadRate() >= UP_FRAC_THRESHOLD)
+d467 1
+a467 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxUpload(dwSpeed);
+d469 1
+a469 1
+		dwSpeed = g_eMuleApp.m_pGlobPrefs->GetMaxDownload();
+d474 1
+a474 1
+			g_eMuleApp.m_pGlobPrefs->SetMaxDownload(dwSpeed);
+d520 1
+a520 1
+	g_eMuleApp.m_pGlobPrefs->SetMaxUploadWithCheck(String2FranctionalRate(m_strUpSpeedTxt));
+d522 1
+a522 1
+	if (!g_eMuleApp.m_pGlobPrefs->LimitlessDownload())
+d526 2
+a527 2
+		dwSpeed = TieUploadDownload(g_eMuleApp.m_pGlobPrefs->GetMaxUpload(), dwSpeed);
+		g_eMuleApp.m_pGlobPrefs->SetMaxDownloadWithCheck(dwSpeed);
+@
+
+
+1.31
+log
+@Renamed resource strings tags for better meaning.
+@
+text
+@d253 1
+a253 1
+		GetResString(&m_ctrlPreferences.m_strText, IDS_EM_PREFS);
+@
+
+
+1.30
+log
+@New interpretation of limitless download and its configuration;
+Fixed update of speed controls according to the limits;
+Improved sliderbars not to allow fractional speed selection for high speeds;
+Fixed an issue which reset download limit to 1 when limitless was used.
+@
+text
+@d102 2
+a103 2
+		{ IDC_DOWNLBL, IDS_PW_CON_DOWNLBL },
+		{ IDC_UPLBL, IDS_PW_CON_UPLBL },
+@
+
+
+1.29
+log
+@Smaller title size.
+@
+text
+@d14 4
+a296 2
+	if (dwCurUp == UNLIMITED)
+		dwCurUp = 0;
+d305 1
+a305 1
+	bool	bLimited = ((dwMaxUp < 100) || !g_eMuleApp.m_pGlobPrefs->LimitlessDownload());
+d311 1
+a311 1
+	if (dwMaxDown > 100)
+d319 1
+a319 1
+	if (dwMaxUp > 100)
+d388 3
+a390 2
+		uint32	dwSpeed = g_eMuleApp.m_pGlobPrefs->SetMaxDownloadWithCheck(String2FranctionalRate(m_strDownSpeedTxt));
+
+d412 9
+d431 16
+a446 1
+		FractionalRate2String(&m_strDownSpeedTxt, dwSpeed = m_ctrlDownSpeedSld.GetPos());
+d452 26
+a477 1
+		FractionalRate2String(&m_strUpSpeedTxt, dwSpeed = m_ctrlUpSpeedSld.GetPos());
+a478 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxUpload(dwSpeed);
+a519 1
+	g_eMuleApp.m_pGlobPrefs->SetMaxDownloadWithCheck(String2FranctionalRate(m_strDownSpeedTxt));
+d521 8
+@
+
+
+1.28
+log
+@Fractional upload/download limits (min 1 KB/s, granularity 0.1 KB/s);
+Removed bold from traymenu item Exit (only Restore is bold to stress default action).
+@
+text
+@d328 1
+a328 1
+	Font.CreateFont(-16, 0, 900, 0, 700, 0, 0, 0, 0,
+@
+
+
+1.27
+log
+@Faster icon loading.
+@
+text
+@d24 1
+a24 3
+
+CMuleSystrayDlg::CMuleSystrayDlg(CWnd* pParent, CPoint pt, int iMaxUp, int iMaxDown, int iCurUp, int iCurDown)
+	: CDialog(CMuleSystrayDlg::IDD, pParent)
+a25 10
+	if(iCurDown == UNLIMITED)
+		iCurDown = 0;
+	if(iCurUp == UNLIMITED)
+		iCurUp = 0;
+
+	m_nDownSpeedTxt = iMaxDown < iCurDown ? iMaxDown : iCurDown;
+	m_nUpSpeedTxt = iMaxUp < iCurUp ? iMaxUp : iCurUp;
+
+	m_iMaxUp = iMaxUp;
+	m_iMaxDown = iMaxDown;
+d54 2
+a55 2
+	DDX_Text(pDX, IDC_DOWNTXT, m_nDownSpeedTxt);
+	DDX_Text(pDX, IDC_UPTXT, m_nUpSpeedTxt);
+a123 1
+	}
+a124 3
+	p = GetDlgItem(IDC_SPEED);
+	if(p)
+	{
+d275 1
+a275 6
+		{
+			LOGFONT		lfFont = lfStaticFont;
+
+			lfFont.lfWeight += 200;			// make it bold
+			m_ctrlExit.m_cfFont.CreateFontIndirect(&lfFont);
+		}
+d286 16
+d303 1
+a303 1
+	bool	bLimited = ((m_iMaxUp < 10) || !g_eMuleApp.m_pGlobPrefs->LimitlessDownload());
+d308 7
+a314 2
+	m_ctrlDownSpeedSld.SetRange(1, m_iMaxDown);
+	m_ctrlDownSpeedSld.SetPos(m_nDownSpeedTxt);
+d316 9
+a324 2
+	m_ctrlUpSpeedSld.SetRange(1, m_iMaxUp);
+	m_ctrlUpSpeedSld.SetPos(m_nUpSpeedTxt);
+d328 2
+a329 1
+	Font.CreateFont(-16,0,900,0,700,0,0,0,0,3,2,1,34,_T("Tahoma"));
+d381 4
+a384 8
+	if(m_nDownSpeedTxt < 1)
+		m_nDownSpeedTxt = 1;
+	if(g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate() == UNLIMITED)
+	{
+		if(m_nDownSpeedTxt > 64)		//Cax2 - why 64 ???
+			m_nDownSpeedTxt = 64;
+	}
+	else
+d386 1
+a386 3
+		if(m_nDownSpeedTxt > g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate())
+			m_nDownSpeedTxt = g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate();
+	}
+d388 2
+a389 2
+	m_ctrlDownSpeedSld.SetPos(m_nDownSpeedTxt);
+	g_eMuleApp.m_pGlobPrefs->SetMaxDownload(m_nDownSpeedTxt);
+d391 2
+a392 1
+	UpdateData(FALSE);
+d399 6
+a404 2
+// Disable when Limitless Download
+	bool	bLimited = ((m_nUpSpeedTxt < 10) || !g_eMuleApp.m_pGlobPrefs->LimitlessDownload());
+d406 2
+a407 2
+	m_DownSpeedInput.EnableWindow(bLimited);
+	m_ctrlDownSpeedSld.EnableWindow(bLimited);
+d409 1
+a409 9
+	if(m_nUpSpeedTxt < 1)
+		m_nUpSpeedTxt = 1;
+	if(g_eMuleApp.m_pGlobPrefs->GetMaxGraphUploadRate() == UNLIMITED)
+	{
+		if(m_nUpSpeedTxt > 16)
+			m_nUpSpeedTxt = 16;
+	} else {
+		if(m_nUpSpeedTxt > g_eMuleApp.m_pGlobPrefs->GetMaxGraphUploadRate())
+			m_nUpSpeedTxt = g_eMuleApp.m_pGlobPrefs->GetMaxGraphUploadRate();
+a410 5
+
+	m_ctrlUpSpeedSld.SetPos(m_nUpSpeedTxt);
+	g_eMuleApp.m_pGlobPrefs->SetMaxUpload(m_nUpSpeedTxt);
+
+	UpdateData(FALSE);
+d415 2
+d419 1
+a419 1
+		m_nDownSpeedTxt = m_ctrlDownSpeedSld.GetPos();
+d421 1
+a421 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxDownload(m_nDownSpeedTxt);
+d425 1
+a425 1
+		m_nUpSpeedTxt = m_ctrlUpSpeedSld.GetPos();
+d427 1
+a427 1
+		g_eMuleApp.m_pGlobPrefs->SetMaxUpload(m_nUpSpeedTxt);
+d468 3
+@
+
+
+1.26
+log
+@Improved string processing and other optimization.
+@
+text
+@d119 3
+a121 2
+	CRect	r;
+	CWnd	*p;
+d123 2
+a124 2
+	m_hUpArrow = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_UP), IMAGE_ICON, 16, 16, 0);
+	m_hDownArrow = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_DOWN), IMAGE_ICON, 16, 16, 0);
+d150 1
+a150 1
+		m_ctrlSpeed.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_SPEED), IMAGE_ICON, m_ctrlSpeed.m_sIcon.cx, m_ctrlSpeed.m_sIcon.cy, 0);
+d175 1
+a175 1
+		m_ctrlAllToMax.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_TOMAX), IMAGE_ICON, m_ctrlAllToMax.m_sIcon.cx, m_ctrlAllToMax.m_sIcon.cy, 0);
+d193 1
+a193 1
+		m_ctrlAllToMin.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_TOMIN), IMAGE_ICON, m_ctrlAllToMin.m_sIcon.cx, m_ctrlAllToMin.m_sIcon.cy, 0);
+d211 1
+a211 1
+		m_ctrlRestore.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_RESTORE), IMAGE_ICON, m_ctrlRestore.m_sIcon.cx, m_ctrlRestore.m_sIcon.cy, 0);
+d234 1
+a234 1
+		m_ctrlConnect.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_CONNECT), IMAGE_ICON, m_ctrlConnect.m_sIcon.cx, m_ctrlConnect.m_sIcon.cy, 0);
+d252 1
+a252 1
+		m_ctrlDisconnect.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_DISCONNECT), IMAGE_ICON, m_ctrlDisconnect.m_sIcon.cx, m_ctrlDisconnect.m_sIcon.cy, 0);
+d270 1
+a270 1
+		m_ctrlPreferences.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_PREF_GENERAL), IMAGE_ICON, m_ctrlPreferences.m_sIcon.cx, m_ctrlPreferences.m_sIcon.cy, 0);
+d288 1
+a288 1
+		m_ctrlExit.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_EXIT), IMAGE_ICON, m_ctrlExit.m_sIcon.cx, m_ctrlExit.m_sIcon.cy, 0);
+@
+
+
+1.25
+log
+@IDS_MAIN_BTN_DISCONNECT and IDS_EM_PREFS don't contain '&' any more.
+@
+text
+@a32 1
+	//{{AFX_DATA_INIT(CMuleSystrayDlg)
+a34 1
+	//}}AFX_DATA_INIT
+d108 8
+d144 1
+a144 2
+		//p->GetWindowText(m_ctrlSpeed.m_strText);
+		m_ctrlSpeed.m_strText = GetResString(IDS_TRAYDLG_SPEED);
+d169 1
+a169 2
+		//p->GetWindowText(m_ctrlAllToMax.m_strText);
+		m_ctrlAllToMax.m_strText = GetResString(IDS_PW_UA);
+d187 1
+a187 2
+		//p->GetWindowText(m_ctrlAllToMin.m_strText);
+		m_ctrlAllToMin.m_strText = GetResString(IDS_PW_PA);
+d205 1
+a205 2
+		//p->GetWindowText(m_ctrlRestore.m_strText);
+		m_ctrlRestore.m_strText = GetResString(IDS_MAIN_POPUP_RESTORE);
+d228 1
+a228 2
+		//p->GetWindowText(m_ctrlConnect.m_strText);
+		m_ctrlConnect.m_strText = GetResString(IDS_CONNECTTOANYSERVER);
+d246 1
+a246 2
+		//p->GetWindowText(m_ctrlDisconnect.m_strText);
+		m_ctrlDisconnect.m_strText = GetResString(IDS_MAIN_BTN_DISCONNECT);
+d264 1
+a264 2
+		//p->GetWindowText(m_ctrlPreferences.m_strText);
+		m_ctrlPreferences.m_strText = GetResString(IDS_EM_PREFS);
+d282 1
+a282 2
+		//p->GetWindowText(m_ctrlExit.m_strText);
+		m_ctrlExit.m_strText = GetResString(IDS_EXIT);
+d298 1
+a298 4
+	SetDlgItemText(IDC_DOWNLBL, GetResString(IDS_PW_CON_DOWNLBL));
+	SetDlgItemText(IDC_UPLBL, GetResString(IDS_PW_CON_UPLBL));
+	SetDlgItemText(IDC_DOWNKB, GetResString(IDS_KBYTESEC));
+	SetDlgItemText(IDC_UPKB, GetResString(IDS_KBYTESEC));
+d300 1
+a300 2
+	// DonGato - Disable when Limitless Download
+	if(m_iMaxUp >= 10 && g_eMuleApp.m_pGlobPrefs->LimitlessDownload())
+d302 2
+a303 7
+		m_DownSpeedInput.EnableWindow(false);
+		m_ctrlDownSpeedSld.EnableWindow(false);
+	}
+	else
+	{
+		m_DownSpeedInput.EnableWindow(true);
+		m_ctrlDownSpeedSld.EnableWindow(true);
+d305 6
+d395 5
+a399 9
+	// DonGato - Disable when Limitless Download
+	if(m_nUpSpeedTxt >= 10 && g_eMuleApp.m_pGlobPrefs->LimitlessDownload())
+	{
+		m_DownSpeedInput.EnableWindow(false);
+		m_ctrlDownSpeedSld.EnableWindow(false);
+	} else {
+		m_DownSpeedInput.EnableWindow(true);
+		m_ctrlDownSpeedSld.EnableWindow(true);
+	}
+@
+
+
+1.24
+log
+@Remove unrequired operation added in the previous version.
+@
+text
+@a246 1
+		m_ctrlDisconnect.m_strText.Remove(_T('&'));
+a265 1
+		m_ctrlPreferences.m_strText.Remove(_T('&'));
+@
+
+
+1.23
+log
+@Updated tray dialog code from official v0.42g
+@
+text
+@a139 1
+		m_ctrlSpeed.m_strText.Remove(_T('&'));
+a165 1
+		m_ctrlAllToMax.m_strText.Remove(_T('&'));
+a184 1
+		m_ctrlAllToMin.m_strText.Remove(_T('&'));
+a203 1
+		m_ctrlRestore.m_strText.Remove(_T('&'));
+d227 1
+a227 2
+		m_ctrlConnect.m_strText = GetResString(IDS_MAIN_BTN_CONNECT);
+		m_ctrlConnect.m_strText.Remove(_T('&'));
+a286 1
+		m_ctrlExit.m_strText.Remove(_T('&'));
+@
+
+
+1.22
+log
+@Unified definitions for client name.
+@
+text
+@a19 1
+	//Cax2 - nothing to see here!
+d98 1
+a98 1
+			SetCapture();			// me, myself and i
+d100 1
+a100 1
+			ReleaseCapture();		// sweet child of mine
+d103 1
+a103 1
+		SetCapture();				// i'm on the outside, i'm looking in ...
+d113 2
+a114 2
+	CRect r;
+	CWnd *p;
+d121 2
+a122 2
+	bool	bValidFont = false;
+	LOGFONT lfStaticFont;
+d140 1
+d149 2
+a150 1
+			LOGFONT lfFont = lfStaticFont;
+d167 1
+d187 1
+d207 1
+d216 2
+a217 1
+			LOGFONT lfFont = lfStaticFont;
+d231 2
+a232 1
+		m_ctrlConnect.m_strText = GetResString(IDS_CONNECTTOANYSERVER);
+d252 1
+a252 1
+		m_ctrlDisconnect.m_strText.Remove('&');
+d272 1
+a272 1
+		m_ctrlPreferences.m_strText.Remove('&');
+d292 1
+d301 2
+a302 1
+			LOGFONT lfFont = lfStaticFont;
+d318 3
+a320 1
+	} else {
+d325 1
+a325 1
+	m_ctrlDownSpeedSld.SetRange(1,m_iMaxDown);	//Cax2 - no more 0 speed
+d328 1
+a328 1
+	m_ctrlUpSpeedSld.SetRange(1,m_iMaxUp);	//Cax2 - no more 0 speed
+d331 2
+a332 1
+	CFont Font;
+d335 2
+a336 1
+	UINT winver = g_eMuleApp.m_pGlobPrefs->GetWindowsVersion();
+d354 3
+a356 2
+	CRect rDesktop;
+	CWnd *pDesktopWnd = GetDesktopWindow();
+d359 2
+a360 1
+	CPoint pt = m_ptInitialPosition;
+d362 2
+a363 1
+	int xpos, ypos;
+d387 1
+a387 1
+	if(g_eMuleApp.m_pGlobPrefs->GetMaxGraphDownloadRate() == UNLIMITED)	//Cax2 - shouldn't be anymore...
+d391 3
+a393 1
+	} else {
+a461 1
+//bond006: systray menu gets stuck (bugfix)
+d464 2
+a465 1
+	CRect systrayRect;
+@
+
+
+1.21
+log
+@Minor improvements.
+@
+text
+@d340 1
+a340 1
+	m_ctrlSidebar.SetWindowText(_T("eMule Plus v") CURRENT_VERSION_LONG);
+@
+
+
+1.20
+log
+@Improved string processing
+@
+text
+@d300 4
+a303 8
+	if((p = GetDlgItem(IDC_DOWNLBL)) != NULL)
+		p->SetWindowText(GetResString(IDS_PW_CON_DOWNLBL));
+	if((p = GetDlgItem(IDC_UPLBL)) != NULL)
+		p->SetWindowText(GetResString(IDS_PW_CON_UPLBL));
+	if((p = GetDlgItem(IDC_DOWNKB)) != NULL)
+		p->SetWindowText(GetResString(IDS_KBYTESEC));
+	if((p = GetDlgItem(IDC_UPKB)) != NULL)
+		p->SetWindowText(GetResString(IDS_KBYTESEC));
+@
+
+
+1.19
+log
+@formatting;
+optimzations in UploadQueue.cpp;
+removing doubled ';'
+@
+text
+@d344 1
+a344 1
+	m_ctrlSidebar.SetWindowText((CString)"eMule Plus " + (CString)CURRENT_VERSION_LONG);
+@
+
+
+1.18
+log
+@More name changes, reinstated CMuleCtrlItem class, moved srcsarevisible from CPartFile to CMuleCtrlItem (where it belongs), added "Show Full Status Icons" and "Show Gray Paused" features with corresponding preferences, modified "SmartOpen" code to make it sticky and to make it work with sources with changing states.
+@
+text
+@d94 1
+a94 1
+{	
+d98 1
+a98 1
+		if(pWnd == this || pWnd == &m_ctrlSidebar)			
+d100 1
+a100 1
+		else						 
+d109 1
+a109 1
+BOOL CMuleSystrayDlg::OnInitDialog() 
+d119 3
+a121 3
+	m_ctrlUpArrow.SetIcon(m_hUpArrow); 
+	m_ctrlDownArrow.SetIcon(m_hDownArrow); 
+    		
+d141 1
+a141 1
+		
+d148 1
+a148 1
+		{	
+d153 1
+a153 1
+		
+d211 1
+a211 1
+		{	
+d215 1
+a215 1
+		}	
+d217 1
+a217 1
+	
+d293 1
+a293 1
+		{	
+d297 1
+a297 1
+		}	
+d311 1
+a311 1
+	{	
+d331 2
+a332 2
+		m_ctrlSidebar.SetColors(GetSysColor(COLOR_CAPTIONTEXT), 
+									GetSysColor(COLOR_ACTIVECAPTION), 
+d337 2
+a338 2
+		m_ctrlSidebar.SetColors(GetSysColor(COLOR_CAPTIONTEXT), 
+									GetSysColor(COLOR_ACTIVECAPTION), 
+d345 1
+a345 1
+	
+d349 1
+a349 1
+	
+d363 1
+a363 1
+	
+d370 1
+a370 1
+void CMuleSystrayDlg::OnChangeDowntxt() 
+d391 1
+a391 1
+void CMuleSystrayDlg::OnChangeUptxt() 
+d397 1
+a397 1
+	{	
+d422 1
+a422 1
+void CMuleSystrayDlg::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar) 
+d426 1
+a426 1
+		m_nDownSpeedTxt = m_ctrlDownSpeedSld.GetPos();;
+d436 1
+a436 1
+	
+d440 1
+a440 1
+void CMuleSystrayDlg::OnLButtonUp(UINT nFlags, CPoint point) 
+d465 1
+a465 1
+void CMuleSystrayDlg::OnKillFocus(CWnd* pNewWnd) 
+d468 1
+a468 1
+	
+d477 1
+a477 1
+void CMuleSystrayDlg::OnShowWindow(BOOL bShow, UINT nStatus) 
+d489 1
+a489 1
+void CMuleSystrayDlg::OnCaptureChanged(CWnd *pWnd) 
+d499 1
+a499 1
+BOOL CMuleSystrayDlg::OnCommand(WPARAM wParam, LPARAM lParam) 
+d502 1
+a502 1
+	{	
+@
+
+
+1.17
+log
+@BUGFIX: open systray dialog sticks when you right-click another area on desktop
+@
+text
+@d310 1
+a310 1
+	if(m_iMaxUp >= 10 && theApp.glob_prefs->LimitlessDownload())
+d328 1
+a328 1
+	UINT winver = theApp.glob_prefs->GetWindowsVersion();
+d376 1
+a376 1
+	if(theApp.glob_prefs->GetMaxGraphDownloadRate() == UNLIMITED)	//Cax2 - shouldn't be anymore...
+d381 2
+a382 2
+		if(m_nDownSpeedTxt > theApp.glob_prefs->GetMaxGraphDownloadRate())
+			m_nDownSpeedTxt = theApp.glob_prefs->GetMaxGraphDownloadRate();
+d386 1
+a386 1
+	theApp.glob_prefs->SetMaxDownload(m_nDownSpeedTxt);
+d396 1
+a396 1
+	if(m_nUpSpeedTxt >= 10 && theApp.glob_prefs->LimitlessDownload())
+d407 1
+a407 1
+	if(theApp.glob_prefs->GetMaxGraphUploadRate() == UNLIMITED)
+d412 2
+a413 2
+		if(m_nUpSpeedTxt > theApp.glob_prefs->GetMaxGraphUploadRate())
+			m_nUpSpeedTxt = theApp.glob_prefs->GetMaxGraphUploadRate();
+d417 1
+a417 1
+	theApp.glob_prefs->SetMaxUpload(m_nUpSpeedTxt);
+d428 1
+a428 1
+		theApp.glob_prefs->SetMaxDownload(m_nDownSpeedTxt);
+d434 1
+a434 1
+		theApp.glob_prefs->SetMaxUpload(m_nUpSpeedTxt);
+@
+
+
+1.16
+log
+@Systray dialog changes for Limitless Download
+@
+text
+@d82 1
+d93 1
+a93 1
+void CMuleSystrayDlg::OnMouseMove(UINT nFlags, CPoint point) 
+d442 1
+a442 1
+	ReleaseCapture();	
+d447 16
+@
+
+
+1.15
+log
+@unicode cleanup
+@
+text
+@d308 10
+d393 10
+@
+
+
+1.14
+log
+@bugfix for bug #8, and now arrow combo displays properly, when disabled.
+@
+text
+@d315 1
+a315 1
+	Font.CreateFont(-16,0,900,0,700,0,0,0,0,3,2,1,34,"Tahoma");
+@
+
+
+1.13
+log
+@bugfix: stuck systryadlg (bug #36)
+@
+text
+@d14 1
+a14 1
+//Cax2 - tried to implement a new class without context menu
+@
+
+
+1.12
+log
+@bugifx: bug #10
+@
+text
+@d14 9
+d67 2
+a68 1
+	DDX_Control(pDX, IDC_DOWNTXT, m_ctrlDownSpeedTxt);
+d88 1
+d112 1
+a112 2
+	//GetDlgItem(IDC_DOWNTXT)->SetMenu(NULL);
+	//GetDlgItem(IDC_UPTXT)->SetMenu(NULL);
+@
+
+
+1.11
+log
+@systray bugfix
+@
+text
+@d101 2
+a102 1
+
+@
+
+
+1.10
+log
+@all my stable changes and some minor fixes (refer to changelog)
+@
+text
+@d352 3
+a354 3
+	if(m_nDownSpeedTxt < 0)
+		m_nDownSpeedTxt = 0;
+	if(theApp.glob_prefs->GetMaxGraphDownloadRate() == UNLIMITED)
+d356 1
+a356 1
+		if(m_nDownSpeedTxt > 64)
+d373 2
+a374 2
+	if(m_nUpSpeedTxt < 0)
+		m_nUpSpeedTxt = 0;
+@
+
+
+1.9
+log
+@0 speed is not a systray menu option anymore
+@
+text
+@d245 20
+@
+
+
+1.8
+log
+@save changes of the editbox
+@
+text
+@d277 1
+a277 1
+	m_ctrlDownSpeedSld.SetRange(0,m_iMaxDown);
+d280 1
+a280 1
+	m_ctrlUpSpeedSld.SetRange(0,m_iMaxUp);
+@
+
+
+1.7
+log
+@SystemTray now have Capacity values as limiters for slider text values.
+@
+text
+@d344 1
+d365 1
+@
+
+
+1.6
+log
+@Chnages to position of controls on Search and SysTray.
+@
+text
+@d334 8
+a341 2
+	if(m_nDownSpeedTxt > 16)
+		m_nDownSpeedTxt = 16;
+d354 8
+a361 2
+	if(m_nUpSpeedTxt > 16)
+		m_nUpSpeedTxt = 16;
+d440 1
+a440 1
+}@
+
+
+1.6.2.1
+log
+@v1a upgrade
+@
+text
+@d277 1
+a277 1
+	m_ctrlDownSpeedSld.SetRange(1,m_iMaxDown);	//Cax2 - no more 0 speed
+d280 1
+a280 1
+	m_ctrlUpSpeedSld.SetRange(1,m_iMaxUp);	//Cax2 - no more 0 speed
+d334 2
+a335 8
+	if(theApp.glob_prefs->GetMaxGraphDownloadRate() == UNLIMITED)
+	{
+		if(m_nDownSpeedTxt > 64)
+			m_nDownSpeedTxt = 64;
+	} else {
+		if(m_nDownSpeedTxt > theApp.glob_prefs->GetMaxGraphDownloadRate())
+			m_nDownSpeedTxt = theApp.glob_prefs->GetMaxGraphDownloadRate();
+	}
+a337 1
+	theApp.glob_prefs->SetMaxDownload(m_nDownSpeedTxt);
+d348 2
+a349 8
+	if(theApp.glob_prefs->GetMaxGraphUploadRate() == UNLIMITED)
+	{
+		if(m_nUpSpeedTxt > 16)
+			m_nUpSpeedTxt = 16;
+	} else {
+		if(m_nUpSpeedTxt > theApp.glob_prefs->GetMaxGraphUploadRate())
+			m_nUpSpeedTxt = theApp.glob_prefs->GetMaxGraphUploadRate();
+	}
+a351 1
+	theApp.glob_prefs->SetMaxUpload(m_nUpSpeedTxt);
+d428 1
+a428 1
+}
+@
+
+
+1.5
+log
+@Updates to Search, System Tray tooltip and System Tray Menu.
+@
+text
+@d284 1
+a284 1
+	Font.CreateFont(-12,0,900,0,700,0,0,0,0,3,2,1,34,"Tahoma");
+@
+
+
+1.4
+log
+@bugifxes & improvements
+@
+text
+@d284 1
+a284 1
+	Font.CreateFont(-19,0,900,0,700,0,0,0,0,3,2,1,34,"Tahoma");
+d302 1
+a302 1
+	m_ctrlSidebar.SetWindowText((CString)"eMule Plus v " + (CString)CURRENT_VERSION_LONG);
+@
+
+
+1.3
+log
+@new systray menu + small bugfix, minor cosmetic change
+@
+text
+@d105 2
+a106 2
+	m_hUpArrow = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_DOWN), IMAGE_ICON, 16, 16, 0);
+	m_hDownArrow = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_UP), IMAGE_ICON, 16, 16, 0);
+@
+
+
+1.2
+log
+@new systray menu + small bugfix
+@
+text
+@d261 5
+a265 1
+			m_ctrlExit.m_cfFont.CreateFontIndirect(&lfStaticFont);
+@
+
+
+1.1
+log
+@file MuleSystrayDlg.cpp was initially added on branch systraydlg.
+@
+text
+@d1 424
+@
+
+
+1.1.2.1
+log
+@*** empty log message ***
+@
+text
+@a0 419
+// MuleSystrayDlg.cpp : implementation file
+//
+
+#include "stdafx.h"
+#include "MuleSystrayDlg.h"
+#include "emule.h"
+
+#ifdef _DEBUG
+#define new DEBUG_NEW
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+// CMuleSystrayDlg dialog
+
+CMuleSystrayDlg::CMuleSystrayDlg(CWnd* pParent, CPoint pt, int iMaxUp, int iMaxDown, int iCurUp, int iCurDown)
+	: CDialog(CMuleSystrayDlg::IDD, pParent)
+{
+	//{{AFX_DATA_INIT(CMuleSystrayDlg)
+	m_nDownSpeedTxt = iMaxDown < iCurDown ? iMaxDown : iCurDown;
+	m_nUpSpeedTxt = iMaxUp < iCurUp ? iMaxUp : iCurUp;
+	//}}AFX_DATA_INIT
+
+	m_iMaxUp = iMaxUp;
+	m_iMaxDown = iMaxDown;
+	m_ptInitialPosition = pt;
+
+	m_hUpArrow = NULL;
+	m_hDownArrow = NULL;
+
+	m_nExitCode = 0;
+	m_bClosingDown = false;
+}
+
+CMuleSystrayDlg::~CMuleSystrayDlg()
+{
+	if(m_hUpArrow)
+		DestroyIcon(m_hUpArrow);
+	if(m_hDownArrow)
+		DestroyIcon(m_hDownArrow);
+}
+
+void CMuleSystrayDlg::DoDataExchange(CDataExchange* pDX)
+{
+	CDialog::DoDataExchange(pDX);
+	//{{AFX_DATA_MAP(CMuleSystrayDlg)
+	DDX_Control(pDX, IDC_TRAYUP, m_ctrlUpArrow);
+	DDX_Control(pDX, IDC_TRAYDOWN, m_ctrlDownArrow);
+	DDX_Control(pDX, IDC_SIDEBAR, m_ctrlSidebar);
+	DDX_Control(pDX, IDC_UPSLD, m_ctrlUpSpeedSld);
+	DDX_Control(pDX, IDC_DOWNSLD, m_ctrlDownSpeedSld);
+	DDX_Control(pDX, IDC_DOWNTXT, m_ctrlDownSpeedTxt);
+	DDX_Text(pDX, IDC_DOWNTXT, m_nDownSpeedTxt);
+	DDX_Text(pDX, IDC_UPTXT, m_nUpSpeedTxt);
+	//}}AFX_DATA_MAP
+}
+
+
+BEGIN_MESSAGE_MAP(CMuleSystrayDlg, CDialog)
+	//{{AFX_MSG_MAP(CMuleSystrayDlg)
+	ON_WM_MOUSEMOVE()
+	ON_EN_CHANGE(IDC_DOWNTXT, OnChangeDowntxt)
+	ON_EN_CHANGE(IDC_UPTXT, OnChangeUptxt)
+	ON_WM_HSCROLL()
+	ON_WM_LBUTTONUP()
+	ON_WM_KILLFOCUS()
+	ON_WM_SHOWWINDOW()
+	ON_WM_CAPTURECHANGED()
+	//}}AFX_MSG_MAP
+END_MESSAGE_MAP()
+
+/////////////////////////////////////////////////////////////////////////////
+// CMuleSystrayDlg message handlers
+
+void CMuleSystrayDlg::OnMouseMove(UINT nFlags, CPoint point) 
+{	
+	CWnd *pWnd = ChildWindowFromPoint(point, CWP_SKIPINVISIBLE|CWP_SKIPDISABLED);
+	if(pWnd)
+	{
+		if(pWnd == this || pWnd == &m_ctrlSidebar)			
+			SetCapture();			// me, myself and i
+		else						 
+			ReleaseCapture();		// sweet child of mine
+	}
+	else
+		SetCapture();				// i'm on the outside, i'm looking in ...
+
+	CDialog::OnMouseMove(nFlags, point);
+}
+
+BOOL CMuleSystrayDlg::OnInitDialog() 
+{
+	CDialog::OnInitDialog();
+	m_bClosingDown = false;
+
+	CRect r;
+	CWnd *p;
+
+	m_hUpArrow = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_DOWN), IMAGE_ICON, 16, 16, 0);
+	m_hDownArrow = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_UP), IMAGE_ICON, 16, 16, 0);
+	m_ctrlUpArrow.SetIcon(m_hUpArrow); 
+	m_ctrlDownArrow.SetIcon(m_hDownArrow); 
+    		
+	bool	bValidFont = false;
+	LOGFONT lfStaticFont;
+
+	p = GetDlgItem(IDC_SPEED);
+	if(p)
+	{
+		p->GetFont()->GetLogFont(&lfStaticFont);
+		bValidFont = true;
+	}
+
+	p = GetDlgItem(IDC_SPEED);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlSpeed.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_SPEED);
+		m_ctrlSpeed.m_nBtnID = IDC_SPEED;
+		//p->GetWindowText(m_ctrlSpeed.m_strText);
+		m_ctrlSpeed.m_strText = GetResString(IDS_TRAY_SPEED);
+		
+		m_ctrlSpeed.m_bUseIcon = true;
+		m_ctrlSpeed.m_sIcon.cx = 16;
+		m_ctrlSpeed.m_sIcon.cy = 16;
+		m_ctrlSpeed.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_SPEED), IMAGE_ICON, m_ctrlSpeed.m_sIcon.cx, m_ctrlSpeed.m_sIcon.cy, 0);
+		m_ctrlSpeed.m_bParentCapture = true;
+		if(bValidFont)
+		{	
+			LOGFONT lfFont = lfStaticFont;
+			lfFont.lfWeight += 200;			// make it bold
+			m_ctrlSpeed.m_cfFont.CreateFontIndirect(&lfFont);
+		}
+		
+		m_ctrlSpeed.m_bNoHover = true;
+	}
+
+	p = GetDlgItem(IDC_TOMAX);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlAllToMax.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_TOMAX);
+		m_ctrlAllToMax.m_nBtnID = IDC_TOMAX;
+		//p->GetWindowText(m_ctrlAllToMax.m_strText);
+		m_ctrlAllToMax.m_strText = GetResString(IDS_PW_UA);
+
+		m_ctrlAllToMax.m_bUseIcon = true;
+		m_ctrlAllToMax.m_sIcon.cx = 16;
+		m_ctrlAllToMax.m_sIcon.cy = 16;
+		m_ctrlAllToMax.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_TOMAX), IMAGE_ICON, m_ctrlAllToMax.m_sIcon.cx, m_ctrlAllToMax.m_sIcon.cy, 0);
+		m_ctrlAllToMax.m_bParentCapture = true;
+		if(bValidFont)
+			m_ctrlAllToMax.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_TOMIN);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlAllToMin.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_TOMIN);
+		m_ctrlAllToMin.m_nBtnID = IDC_TOMIN;
+		//p->GetWindowText(m_ctrlAllToMin.m_strText);
+		m_ctrlAllToMin.m_strText = GetResString(IDS_PW_PA);
+
+		m_ctrlAllToMin.m_bUseIcon = true;
+		m_ctrlAllToMin.m_sIcon.cx = 16;
+		m_ctrlAllToMin.m_sIcon.cy = 16;
+		m_ctrlAllToMin.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_TOMIN), IMAGE_ICON, m_ctrlAllToMin.m_sIcon.cx, m_ctrlAllToMin.m_sIcon.cy, 0);
+		m_ctrlAllToMin.m_bParentCapture = true;
+		if(bValidFont)
+			m_ctrlAllToMin.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_RESTORE);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlRestore.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_RESTORE);
+		m_ctrlRestore.m_nBtnID = IDC_RESTORE;
+		//p->GetWindowText(m_ctrlRestore.m_strText);
+		m_ctrlRestore.m_strText = GetResString(IDS_MAIN_POPUP_RESTORE);
+
+		m_ctrlRestore.m_bUseIcon = true;
+		m_ctrlRestore.m_sIcon.cx = 16;
+		m_ctrlRestore.m_sIcon.cy = 16;
+		m_ctrlRestore.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_RESTORE), IMAGE_ICON, m_ctrlRestore.m_sIcon.cx, m_ctrlRestore.m_sIcon.cy, 0);
+		m_ctrlRestore.m_bParentCapture = true;
+		if(bValidFont)
+		{	
+			LOGFONT lfFont = lfStaticFont;
+			lfFont.lfWeight += 200;			// make it bold
+			m_ctrlRestore.m_cfFont.CreateFontIndirect(&lfFont);
+		}	
+	}
+	
+	p = GetDlgItem(IDC_CONNECT);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlConnect.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_CONNECT);
+		m_ctrlConnect.m_nBtnID = IDC_CONNECT;
+		//p->GetWindowText(m_ctrlConnect.m_strText);
+		m_ctrlConnect.m_strText = GetResString(IDS_CONNECTTOANYSERVER);
+
+		m_ctrlConnect.m_bUseIcon = true;
+		m_ctrlConnect.m_sIcon.cx = 16;
+		m_ctrlConnect.m_sIcon.cy = 16;
+		m_ctrlConnect.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_CONNECT), IMAGE_ICON, m_ctrlConnect.m_sIcon.cx, m_ctrlConnect.m_sIcon.cy, 0);
+		m_ctrlConnect.m_bParentCapture = true;
+		if(bValidFont)
+			m_ctrlConnect.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_DISCONNECT);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlDisconnect.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_DISCONNECT);
+		m_ctrlDisconnect.m_nBtnID = IDC_DISCONNECT;
+		//p->GetWindowText(m_ctrlDisconnect.m_strText);
+		m_ctrlDisconnect.m_strText = GetResString(IDS_MAIN_BTN_DISCONNECT);
+		m_ctrlDisconnect.m_strText.Remove('&');
+
+		m_ctrlDisconnect.m_bUseIcon = true;
+		m_ctrlDisconnect.m_sIcon.cx = 16;
+		m_ctrlDisconnect.m_sIcon.cy = 16;
+		m_ctrlDisconnect.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_DISCONNECT), IMAGE_ICON, m_ctrlDisconnect.m_sIcon.cx, m_ctrlDisconnect.m_sIcon.cy, 0);
+		m_ctrlDisconnect.m_bParentCapture = true;
+		if(bValidFont)
+			m_ctrlDisconnect.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	p = GetDlgItem(IDC_EXIT);
+	if(p)
+	{
+		p->GetWindowRect(r);
+		ScreenToClient(r);
+		m_ctrlExit.Create(NULL, NULL, WS_CHILD|WS_VISIBLE, r, this, IDC_EXIT);
+		m_ctrlExit.m_nBtnID = IDC_EXIT;
+		//p->GetWindowText(m_ctrlExit.m_strText);
+		m_ctrlExit.m_strText = GetResString(IDS_EXIT);
+
+		m_ctrlExit.m_bUseIcon = true;
+		m_ctrlExit.m_sIcon.cx = 16;
+		m_ctrlExit.m_sIcon.cy = 16;
+		m_ctrlExit.m_hIcon = (HICON)::LoadImage(AfxGetInstanceHandle(), MAKEINTRESOURCE(IDI_TRAY_EXIT), IMAGE_ICON, m_ctrlExit.m_sIcon.cx, m_ctrlExit.m_sIcon.cy, 0);
+		m_ctrlExit.m_bParentCapture = true;
+		if(bValidFont)
+			m_ctrlExit.m_cfFont.CreateFontIndirect(&lfStaticFont);
+	}
+
+	if((p = GetDlgItem(IDC_DOWNLBL)) != NULL)
+		p->SetWindowText(GetResString(IDS_PW_CON_DOWNLBL));
+	if((p = GetDlgItem(IDC_UPLBL)) != NULL)
+		p->SetWindowText(GetResString(IDS_PW_CON_UPLBL));
+	if((p = GetDlgItem(IDC_DOWNKB)) != NULL)
+		p->SetWindowText(GetResString(IDS_KBYTESEC));
+	if((p = GetDlgItem(IDC_UPKB)) != NULL)
+		p->SetWindowText(GetResString(IDS_KBYTESEC));
+
+	m_ctrlDownSpeedSld.SetRange(0,m_iMaxDown);
+	m_ctrlDownSpeedSld.SetPos(m_nDownSpeedTxt);
+
+	m_ctrlUpSpeedSld.SetRange(0,m_iMaxUp);
+	m_ctrlUpSpeedSld.SetPos(m_nUpSpeedTxt);
+
+	CFont Font;
+	Font.CreateFont(-19,0,900,0,700,0,0,0,0,3,2,1,34,"Tahoma");
+
+	UINT winver = theApp.glob_prefs->GetWindowsVersion();
+	if(winver == _WINVER_95_ || winver == _WINVER_NT4_)
+	{
+		m_ctrlSidebar.SetColors(GetSysColor(COLOR_CAPTIONTEXT), 
+									GetSysColor(COLOR_ACTIVECAPTION), 
+										GetSysColor(COLOR_ACTIVECAPTION));
+	}
+	else
+	{
+		m_ctrlSidebar.SetColors(GetSysColor(COLOR_CAPTIONTEXT), 
+									GetSysColor(COLOR_ACTIVECAPTION), 
+										GetSysColor(COLOR_GRADIENTACTIVECAPTION));
+	}
+
+	m_ctrlSidebar.SetHorizontal(false);
+	m_ctrlSidebar.SetFont(&Font);
+	m_ctrlSidebar.SetWindowText((CString)"eMule Plus v " + (CString)CURRENT_VERSION_LONG);
+	
+	CRect rDesktop;
+	CWnd *pDesktopWnd = GetDesktopWindow();
+	pDesktopWnd->GetClientRect(rDesktop);
+	
+	CPoint pt = m_ptInitialPosition;
+	pDesktopWnd->ScreenToClient(&pt);
+	int xpos, ypos;
+
+	GetWindowRect(r);
+	if(m_ptInitialPosition.x + r.Width() < rDesktop.right)
+		xpos = pt.x;
+	else
+		xpos = pt.x - r.Width();
+	if(m_ptInitialPosition.y - r.Height() < rDesktop.top)
+		ypos = pt.y;
+	else
+		ypos = pt.y - r.Height();
+	
+	MoveWindow(xpos, ypos, r.Width(), r.Height());
+	SetCapture();
+	return TRUE;  // return TRUE unless you set the focus to a control
+	              // EXCEPTION: OCX Property Pages should return FALSE
+}
+
+void CMuleSystrayDlg::OnChangeDowntxt() 
+{
+	UpdateData();
+
+	if(m_nDownSpeedTxt < 0)
+		m_nDownSpeedTxt = 0;
+	if(m_nDownSpeedTxt > 16)
+		m_nDownSpeedTxt = 16;
+
+	m_ctrlDownSpeedSld.SetPos(m_nDownSpeedTxt);
+
+	UpdateData(FALSE);
+}
+
+void CMuleSystrayDlg::OnChangeUptxt() 
+{
+	UpdateData();
+
+	if(m_nUpSpeedTxt < 0)
+		m_nUpSpeedTxt = 0;
+	if(m_nUpSpeedTxt > 16)
+		m_nUpSpeedTxt = 16;
+
+	m_ctrlUpSpeedSld.SetPos(m_nUpSpeedTxt);
+
+	UpdateData(FALSE);
+}
+
+void CMuleSystrayDlg::OnHScroll(UINT nSBCode, UINT nPos, CScrollBar* pScrollBar) 
+{
+	if(pScrollBar == (CScrollBar*)&m_ctrlDownSpeedSld)
+	{
+		m_nDownSpeedTxt = m_ctrlDownSpeedSld.GetPos();;
+		UpdateData(FALSE);
+		theApp.glob_prefs->SetMaxDownload(m_nDownSpeedTxt);
+	}
+	else if(pScrollBar == (CScrollBar*)&m_ctrlUpSpeedSld)
+	{
+		m_nUpSpeedTxt = m_ctrlUpSpeedSld.GetPos();
+		UpdateData(FALSE);
+		theApp.glob_prefs->SetMaxUpload(m_nUpSpeedTxt);
+	}
+	
+	CDialog::OnHScroll(nSBCode, nPos, pScrollBar);
+}
+
+void CMuleSystrayDlg::OnLButtonUp(UINT nFlags, CPoint point) 
+{
+	ReleaseCapture();	
+	EndDialog(m_nExitCode);
+	m_bClosingDown = true;
+
+	CDialog::OnLButtonUp(nFlags, point);
+}
+
+void CMuleSystrayDlg::OnKillFocus(CWnd* pNewWnd) 
+{
+	CDialog::OnKillFocus(pNewWnd);
+	
+	if(!m_bClosingDown)
+	{
+		ReleaseCapture();
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+}
+
+void CMuleSystrayDlg::OnShowWindow(BOOL bShow, UINT nStatus) 
+{
+	if(!bShow && !m_bClosingDown)
+	{
+		ReleaseCapture();
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+
+	CDialog::OnShowWindow(bShow, nStatus);
+}
+
+void CMuleSystrayDlg::OnCaptureChanged(CWnd *pWnd) 
+{
+	if(pWnd && pWnd != this && !IsChild(pWnd))
+	{
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+	CDialog::OnCaptureChanged(pWnd);
+}
+
+BOOL CMuleSystrayDlg::OnCommand(WPARAM wParam, LPARAM lParam) 
+{
+	if(HIWORD(wParam) == BN_CLICKED)
+	{	
+		ReleaseCapture();
+		m_nExitCode = LOWORD(wParam);
+		EndDialog(m_nExitCode);
+		m_bClosingDown = true;
+	}
+
+	return CDialog::OnCommand(wParam, lParam);
+}@
+
+
+1.1.2.2
+log
+@*** empty log message ***
+@
+text
+@d123 1
+a123 1
+		m_ctrlSpeed.m_strText = GetResString(IDS_TRAYDLG_SPEED);
+@
+
+
+1.1.2.3
+log
+@*** empty log message ***
+@
+text
+@a19 5
+	if(iCurDown == UNLIMITED)
+		iCurDown = 0;
+	if(iCurUp == UNLIMITED)
+		iCurUp = 0;
+
+@
+
+

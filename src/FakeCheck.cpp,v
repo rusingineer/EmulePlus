@@ -1,0 +1,2666 @@
+head	1.36;
+access;
+symbols
+	PublicRelease_1_2e:1.36
+	Interim_Release_1-2e_RC1:1.36
+	PublicRelease_1_2d:1.35
+	Interim_Release_1-2d_RC1:1.35
+	Interim_Release_1-2d_beta1:1.35
+	PublicRelease_1_2c:1.32
+	Interim_Release_1-2c_RC1:1.32
+	Interim_Release_1-2c_beta1:1.31
+	PublicRelease_1_2b:1.31
+	Interim_Release_1-2b_RC1:1.31
+	PublicRelease_1_2a:1.31
+	Interim_Release_1-2a_RC1:1.31
+	Interim_Release_1-2a_beta2:1.30
+	Interim_Release_1-2a_beta1:1.29
+	PublicRelease_1_2:1.29
+	Interim_Release_1-2_RC1:1.29
+	Interim_Release_1-2_beta1:1.29
+	PublicRelease_1_1g:1.28
+	Interim_Release_1-1g_RC3:1.28
+	Interim_Release_1-1g_RC2:1.27
+	Interim_Release_1-1g_RC1:1.27
+	Interim_Release_1-1g_beta2:1.25
+	Interim_Release_1-1g_beta1:1.23
+	PublicRelease_1_1f:1.23
+	Interim_Release_1-1f_RC1:1.23
+	PublicRelease_1_1e:1.23
+	Interim_Release_1-1e_RC2:1.23
+	Interim_Release_1-1e_RC1:1.23
+	Interim_Release_1-1e_beta1:1.23
+	PublicRelease_1_1d:1.23
+	Interim_Release_1-1d_RC1:1.23
+	PublicRelease_1_1c:1.23
+	Interim_Release_1-1c_RC1:1.23
+	Interim_Release_1-1c_beta2:1.23
+	Interim_Release_1-1c_beta1:1.23
+	PublicRelease_1_1b:1.22
+	Interim_Release_1-1b_RC1:1.22
+	PublicRelease_1_1a:1.22
+	Interim_Release_1-1a_RC2:1.22
+	Interim_Release_1-1a_RC1:1.22
+	Interim_Release_1-1a_beta2:1.22
+	Interim_Release_1-1a_beta1:1.22
+	PublicRelease_1_1:1.21
+	Interim_Release_1-1_beta1:1.21
+	PublicRelease_1o:1.20
+	Interim_Release_1o_RC1:1.20
+	Interim_Release_1o_beta1:1.20
+	PublicRelease_1n:1.20
+	Interim_Release_1n_RC2:1.20
+	Interim_Release_1n_RC1:1.20
+	Interim_Release_1n_beta2:1.20
+	Interim_Release_1n_beta1:1.20
+	PublicRelease_1m:1.19
+	Interim_Release_1m_beta1:1.19
+	PublicRelease_1l:1.19
+	Interim_Release_1l_RC3:1.19
+	Interim_Release_1l_RC2:1.19
+	Interim_Release_1l_RC1:1.18
+	Interim_Release_1l_beta2:1.17
+	Interim_Release_1l_beta1:1.13
+	PublicRelease_1k:1.10
+	Interim_Release_1k_RC4:1.10
+	Interim_1k_RC3:1.10
+	Interim_1k_RC2:1.10
+	Interim_Release_1k_RC1:1.9
+	Interim_Release_1k_beta5:1.9
+	Intrerim_Release_1k_beta4:1.9
+	Interim_Release_1k_beta1:1.7
+	PublicRelease_1j:1.6
+	Interim_Release_1J_RC3:1.6
+	Interim_Release_1j_RC3:1.6
+	Interim_Release_1j_RC2:1.6
+	Interim_Release_1j_RC1:1.6
+	Interim_Release_1j_beta2:1.6
+	Interim_Release_1j_beta1:1.6
+	PublicRelease_1i:1.3
+	Interim_Release_1i_RC6:1.3
+	Interim_Release_1i_RC3:1.3
+	Interim_Release_1i_RC2:1.3
+	Interim_Release_1i_RC1:1.3
+	Interim_Release_1i_beta3:1.3
+	Interim_Release_1i_beta2:1.3;
+locks; strict;
+comment	@// @;
+
+
+1.36
+date	2008.11.12.03.52.08;	author aw3;	state Exp;
+branches;
+next	1.35;
+
+1.35
+date	2008.02.20.03.35.13;	author aw3;	state Exp;
+branches;
+next	1.34;
+
+1.34
+date	2007.12.28.09.48.50;	author eklmn;	state Exp;
+branches;
+next	1.33;
+
+1.33
+date	2007.10.11.18.06.25;	author fuxie-dk;	state Exp;
+branches;
+next	1.32;
+
+1.32
+date	2007.07.27.06.10.55;	author aw3;	state Exp;
+branches;
+next	1.31;
+
+1.31
+date	2006.09.06.05.56.02;	author aw3;	state Exp;
+branches;
+next	1.30;
+
+1.30
+date	2006.05.22.03.44.59;	author aw3;	state Exp;
+branches;
+next	1.29;
+
+1.29
+date	2006.01.06.20.05.54;	author kush_eplus;	state Exp;
+branches;
+next	1.28;
+
+1.28
+date	2005.12.11.00.09.54;	author aw3;	state Exp;
+branches;
+next	1.27;
+
+1.27
+date	2005.11.27.22.11.47;	author eklmn;	state Exp;
+branches;
+next	1.26;
+
+1.26
+date	2005.11.27.20.31.04;	author eklmn;	state Exp;
+branches;
+next	1.25;
+
+1.25
+date	2005.11.23.03.26.35;	author aw3;	state Exp;
+branches;
+next	1.24;
+
+1.24
+date	2005.09.26.05.15.57;	author aw3;	state Exp;
+branches;
+next	1.23;
+
+1.23
+date	2005.01.19.14.02.28;	author kush_eplus;	state Exp;
+branches;
+next	1.22;
+
+1.22
+date	2004.11.02.17.19.00;	author aw3;	state Exp;
+branches;
+next	1.21;
+
+1.21
+date	2004.10.07.02.25.40;	author aw3;	state Exp;
+branches;
+next	1.20;
+
+1.20
+date	2004.06.30.13.38.40;	author dongato;	state Exp;
+branches;
+next	1.19;
+
+1.19
+date	2004.05.29.12.30.21;	author dropf;	state Exp;
+branches;
+next	1.18;
+
+1.18
+date	2004.05.24.09.46.13;	author dongato;	state Exp;
+branches;
+next	1.17;
+
+1.17
+date	2004.05.21.14.37.57;	author dongato;	state Exp;
+branches;
+next	1.16;
+
+1.16
+date	2004.05.14.22.49.42;	author dropf;	state Exp;
+branches;
+next	1.15;
+
+1.15
+date	2004.05.13.16.46.58;	author kush_eplus;	state Exp;
+branches;
+next	1.14;
+
+1.14
+date	2004.05.13.03.09.58;	author kush_eplus;	state Exp;
+branches;
+next	1.13;
+
+1.13
+date	2004.05.04.14.45.23;	author dropf;	state Exp;
+branches;
+next	1.12;
+
+1.12
+date	2004.04.24.15.55.31;	author dropf;	state Exp;
+branches;
+next	1.11;
+
+1.11
+date	2004.04.20.23.49.34;	author dropf;	state Exp;
+branches;
+next	1.10;
+
+1.10
+date	2004.03.28.13.44.06;	author dropf;	state Exp;
+branches;
+next	1.9;
+
+1.9
+date	2004.03.14.21.10.11;	author aw3;	state Exp;
+branches;
+next	1.8;
+
+1.8
+date	2004.03.03.21.45.22;	author dropf;	state Exp;
+branches;
+next	1.7;
+
+1.7
+date	2004.02.03.16.12.14;	author kush_eplus;	state Exp;
+branches;
+next	1.6;
+
+1.6
+date	2003.12.24.01.21.13;	author katsyonak;	state Exp;
+branches;
+next	1.5;
+
+1.5
+date	2003.12.23.19.03.21;	author katsyonak;	state Exp;
+branches;
+next	1.4;
+
+1.4
+date	2003.12.23.15.35.17;	author katsyonak;	state Exp;
+branches;
+next	1.3;
+
+1.3
+date	2003.10.21.16.13.17;	author dongato;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2003.10.20.10.35.19;	author morevit;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2003.10.06.21.57.06;	author puritynn666;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.36
+log
+@Simplified logging system implementation.
+@
+text
+@//	this file is part of eMule Plus
+//
+//	This program is free software; you can redistribute it and/or
+//	modify it under the terms of the GNU General Public License
+//	as published by the Free Software Foundation; either
+//	version 2 of the License, or (at your option) any later version.
+//
+//	This program is distributed in the hope that it will be useful,
+//	but WITHOUT ANY WARRANTY; without even the implied warranty of
+//	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//	GNU General Public License for more details.
+//
+//	You should have received a copy of the GNU General Public License
+//	along with this program; if not, write to the Free Software
+//	Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+//	General idea based on eMule Morph's CFakecheck
+
+#include "stdafx.h"
+#include "FakeCheck.h"
+#include "emule.h"
+#include "otherfunctions.h"
+#include "ED2KLink.h"
+#include <wininet.h>
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+CFakeCheck::CFakeCheck()
+{
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+CFakeCheck::~CFakeCheck()
+{
+	RemoveAllFakes();
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+bool CFakeCheck::AddFake(const CString &strHash, const CString &strLength, const CString &strRealTitle)
+{
+	CString					strToken = strHash + strLength;
+	_mapFakeMap::iterator	it = m_mapFakeMap.find(strToken);
+	bool					bReturn = (it == m_mapFakeMap.end());
+
+	if (bReturn)
+		m_mapFakeMap[strToken] = strRealTitle;
+
+	return bReturn;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+INT CFakeCheck::LoadFromDatFile()
+{
+	uint32			dwFakesCount = 0;
+
+	EMULE_TRY
+
+	RemoveAllFakes();
+
+	CStdioFile		fileFakeList;
+
+	if (fileFakeList.Open(g_App.m_pPrefs->GetConfigDir() + _T("fakes.dat"), CFile::modeRead | CFile::shareDenyWrite | CFile::typeText))
+	{
+		int				iPos1, iPos2;
+		CString			strBuffer, strHash, strLength, strTitle;
+
+		while (fileFakeList.ReadString(strBuffer))
+		{
+			if (strBuffer.GetAt(0) == _T('#') || strBuffer.GetAt(0) == _T('/') || strBuffer.GetLength() < 5)
+				continue;
+
+			if ( (iPos1 = strBuffer.Find(_T(','))) < 0
+				|| (iPos2 = strBuffer.Find(_T(','), iPos1 + 1)) < 0 )
+				continue;
+
+			strHash = strBuffer.Left(iPos1).Trim().MakeUpper();
+			strLength = strBuffer.Mid(iPos1 + 1, iPos2 - iPos1 - 1).Trim();
+			strTitle = strBuffer.Mid(iPos2 + 1, strBuffer.GetLength() - iPos2 - 1).Trim();
+
+			if (AddFake(strHash, strLength, strTitle))
+				dwFakesCount++;
+		}
+
+		fileFakeList.Close();
+		g_App.AddLogLine(LOG_FL_DBG, _T("Loaded %u fakes from fakes list"), dwFakesCount);
+	}
+
+	EMULE_CATCH
+
+	return dwFakesCount;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CFakeCheck::RemoveAllFakes()
+{
+	m_mapFakeMap.clear();
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CFakeCheck::GetFakeComment(const CString &strFileHash, const uint64 qwFileLength, CString *pstrComment)
+{
+	if (m_mapFakeMap.empty())
+	{
+		pstrComment->Truncate(0);	// clear without reallocation
+		return;
+	}
+	
+	CString		strToken;
+
+	strToken.Format(_T("%s%I64u"), strFileHash, qwFileLength);
+
+	_mapFakeMap::iterator		it = m_mapFakeMap.find(strToken);
+
+	if (it != m_mapFakeMap.end())
+		*pstrComment = (*it).second;
+	else
+		pstrComment->Truncate(0);	// clear without reallocation
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CFakeCheck::UpdateFakeList()
+{
+	EMULE_TRY
+
+	uint32		dwVersion = 0;
+	CString		strED2KLink;
+
+	if (!RetrieveFakesDotTxt(dwVersion, strED2KLink))
+	{
+		g_App.AddLogLine(LOG_FL_SBAR | LOG_RGB_ERROR, IDS_FAKE_LATEST_VERSION_ERROR);
+		g_App.AddLogLine(LOG_FL_DBG, _T("Failed to download fakes.txt!"));
+		return FALSE;
+	}
+
+	g_App.AddLogLine( LOG_FL_DBG, _T("Latest fake list version found: v%u, Your version: v%u"),
+								dwVersion, g_App.m_pPrefs->GetFakesDatVersion() );
+
+	if (g_App.m_pPrefs->GetFakesDatVersion() >= dwVersion)
+	{
+		g_App.AddLogLine(LOG_FL_SBAR, IDS_FAKE_GOT_LATEST_VERSION, g_App.m_pPrefs->GetFakesDatVersion());
+		return FALSE;
+	}
+
+	bool		bUpdated = false;
+
+	if (!strED2KLink.IsEmpty())
+	{
+		CED2KLink	   *pLink = CED2KLink::CreateLinkFromUrl(strED2KLink);
+
+		if (pLink != NULL)
+		{
+			CED2KFileLink	   *pFileLink = pLink->GetFileLink();
+
+			if (pFileLink != NULL)
+			{
+				if (!g_App.m_pDownloadQueue->FileExists(pFileLink->GetHashKey()))
+				{
+					g_App.m_pDownloadQueue->AddFileLinkToDownload(pFileLink);
+
+					CPartFile	   *pFakesDotRarFile = g_App.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+
+					if (pFakesDotRarFile != NULL)
+					{
+						pFakesDotRarFile->SetFakesDotRar();
+						pFakesDotRarFile->ResumeFile();
+						g_App.m_pPrefs->SetDLingFakeListVersion(dwVersion);
+						g_App.m_pPrefs->SetDLingFakeListLink(strED2KLink);
+						bUpdated = true;
+					}
+					else
+					{
+						g_App.AddLogLine(LOG_RGB_ERROR, IDS_FAKE_CHECKUPERROR);
+					}
+				}
+			}
+		}
+
+		delete pLink;
+	}
+
+	return bUpdated;
+
+	EMULE_CATCH
+
+	return FALSE;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CFakeCheck::ExtractRARArchive(const CString &strArchivePath, CString strDestFolder)
+{
+	EMULE_TRY
+
+	HINSTANCE	hUnRARDLL = LoadLibrary(_T("unrar.dll"));
+
+	if (hUnRARDLL == NULL)
+	{
+		g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Can't find or load Unrar.dll"));
+		return FALSE;
+	}
+
+	g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Unrar.dll loaded"));
+
+	(FARPROC&)pfnRAROpenArchiveEx	= GetProcAddress(hUnRARDLL, "RAROpenArchiveEx");
+	(FARPROC&)pfnRARCloseArchive	= GetProcAddress(hUnRARDLL, "RARCloseArchive");
+	(FARPROC&)pfnRARReadHeader		= GetProcAddress(hUnRARDLL, "RARReadHeader");
+#ifndef _UNICODE
+	(FARPROC&)pfnRARProcessFile		= GetProcAddress(hUnRARDLL, "RARProcessFile");
+#else
+	(FARPROC&)pfnRARProcessFile		= GetProcAddress(hUnRARDLL, "RARProcessFileW");
+#endif
+
+	if ( (pfnRAROpenArchiveEx == NULL) || (pfnRARCloseArchive == NULL) ||
+		 (pfnRARReadHeader    == NULL) || (pfnRARProcessFile  == NULL) )
+	{
+		FreeLibrary(hUnRARDLL);
+		g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+		return FALSE;
+	}
+
+	RAROpenArchiveDataEx	OpenArchiveData;
+
+	memzero(&OpenArchiveData, sizeof(OpenArchiveData));
+#ifndef _UNICODE
+	OpenArchiveData.ArcName		= strArchivePath.GetString();
+#else
+	OpenArchiveData.ArcNameW	= strArchivePath.GetString();
+#endif
+	OpenArchiveData.CmtBuf		= NULL;
+	OpenArchiveData.OpenMode	= RAR_OM_EXTRACT;
+
+	HANDLE	hArcData = pfnRAROpenArchiveEx(&OpenArchiveData);
+
+	if (OpenArchiveData.OpenResult != 0)
+	{
+		OutOpenArchiveError(OpenArchiveData.OpenResult, strArchivePath);
+		FreeLibrary(hUnRARDLL);
+		g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+		return FALSE;
+	}
+
+	RARHeaderData	HeaderData;
+
+	HeaderData.CmtBuf = NULL;
+
+	int	iReadHeaderCode;
+
+	while ((iReadHeaderCode = pfnRARReadHeader(hArcData, &HeaderData)) == 0)
+	{
+#ifndef _UNICODE
+	//	The following line is important to properly support some characters
+	//	so we decompress fakes.dat in the correct directory
+		strDestFolder.AnsiToOem();
+#endif
+
+		int	iProcessFileCode = pfnRARProcessFile(hArcData, RAR_EXTRACT, const_cast<LPTSTR>(strDestFolder.GetString()), NULL);
+
+		if (iProcessFileCode != 0)
+		{
+			OutProcessFileError(iProcessFileCode);
+			break;
+		}
+	}
+
+	pfnRARCloseArchive(hArcData);
+
+	FreeLibrary(hUnRARDLL);
+	g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+
+	return (iReadHeaderCode != ERAR_BAD_DATA);
+
+	EMULE_CATCH
+
+	return FALSE;
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CFakeCheck::OutOpenArchiveError(int iError, const CString &strArchivePath)
+{
+	TCHAR	*pcError = NULL;
+
+	switch (iError)
+	{
+		case ERAR_NO_MEMORY:
+			pcError = _T(__FUNCTION__) _T(": Not enough memory to extract %s");
+			break;
+
+		case ERAR_EOPEN:
+			pcError = _T(__FUNCTION__) _T(": Cannot open %s");
+			break;
+
+		case ERAR_BAD_ARCHIVE:
+			pcError = _T(__FUNCTION__) _T(": %s is not RAR archive");
+			break;
+
+		case ERAR_BAD_DATA:
+			pcError = _T(__FUNCTION__) _T(": %s: archive header broken");
+			break;
+
+		case ERAR_UNKNOWN:
+			pcError = _T(__FUNCTION__) _T(": Unknown error when extracting %s");
+			break;
+	}
+
+	if (pcError != NULL)
+		g_App.AddLogLine(LOG_FL_DBG, pcError, strArchivePath);
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CFakeCheck::OutProcessFileError(int iError)
+{
+	TCHAR	*pcError = NULL;
+
+	switch (iError)
+	{
+		case ERAR_UNKNOWN_FORMAT:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: Unknown archive format");
+			break;
+
+		case ERAR_BAD_ARCHIVE:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: Bad volume");
+			break;
+
+		case ERAR_ECREATE:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: File create error");
+			break;
+
+		case ERAR_EOPEN:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: Volume open error");
+			break;
+
+		case ERAR_ECLOSE:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: File close error");
+			break;
+
+		case ERAR_EREAD:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: Read error");
+			break;
+
+		case ERAR_EWRITE:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: Write error");
+			break;
+
+		case ERAR_BAD_DATA:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: CRC error");
+			break;
+
+		case ERAR_UNKNOWN:
+			pcError = _T(__FUNCTION__) _T(": fakes.rar: Unknown error");
+			break;
+	}
+
+	if (pcError != NULL)
+		g_App.AddLogLine(LOG_FL_DBG, pcError);
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+BOOL CFakeCheck::RetrieveFakesDotTxt(OUT uint32 &dwVersion, OUT CString &strED2KLink)
+{
+	bool			bReturn = false;
+
+	EMULE_TRY
+
+	CString			strURL = g_App.m_pPrefs->GetFakeListURL();
+	HINTERNET		hOpen = ::InternetOpen(HTTP_USERAGENT, INTERNET_OPEN_TYPE_PRECONFIG , NULL, NULL, 0);
+
+	if (hOpen == NULL)
+	{
+		g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Error opening connection (error code: %u)"), GetLastError());
+	}
+	else
+	{
+		HINTERNET		hURL = ::InternetOpenUrl(hOpen, strURL, _T(""), NULL, INTERNET_FLAG_NO_CACHE_WRITE, NULL);
+
+		if (hURL == NULL)
+		{
+			g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Error opening URL %s (error code: %u)"), strURL, GetLastError());
+		}
+		else
+		{
+			char	acBuf[256];
+			DWORD	dwSize;
+
+			if (!::InternetReadFile(hURL, acBuf, sizeof(acBuf), &dwSize))
+				g_App.AddLogLine(LOG_FL_DBG, _T(__FUNCTION__) _T(": Error downloading fakes.txt (error code: %u)"), GetLastError());
+			else
+			{
+				CString	strInput(acBuf, dwSize);
+				int		iCurPos = 0;
+
+				dwVersion = _tstoi(strInput.Tokenize(_T("\n"), iCurPos).Trim());
+				strED2KLink = URLDecode(strInput.Tokenize(_T("\n"), iCurPos).Trim());
+
+				bReturn = (dwVersion > 0);
+			}
+			::InternetCloseHandle(hURL);
+		}
+		::InternetCloseHandle(hOpen);
+	}
+
+	EMULE_CATCH
+
+	return bReturn;
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+void CFakeCheck::Init()
+{
+	EMULE_TRY
+
+	LoadFromDatFile();
+
+	if (g_App.m_pPrefs->IsUpdateFakeStartupEnabled())
+		g_App.m_pFakeCheck->UpdateFakeList();
+
+	if (!g_App.m_pPrefs->GetDLingFakeListLink().IsEmpty())
+	{
+		CED2KLink	   *pLink = CED2KLink::CreateLinkFromUrl(g_App.m_pPrefs->GetDLingFakeListLink());
+
+		if (pLink != NULL)
+		{
+			CED2KFileLink	   *pFileLink = pLink->GetFileLink();
+
+			if (pFileLink != NULL)
+			{
+				CPartFile	   *pFakesDotRarFile = g_App.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+
+				if (pFakesDotRarFile != NULL)
+				{
+					pFakesDotRarFile->SetFakesDotRar();
+				}
+			}
+		}
+
+		delete pLink;
+	}
+
+	EMULE_CATCH
+}
+/////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.35
+log
+@Fixed Unicode issue in FakeCheck update {KuSh}.
+@
+text
+@d90 1
+a90 1
+		g_App.AddDebugLogLine(_T("Loaded %u fakes from fakes list"), dwFakesCount);
+d134 2
+a135 2
+		g_App.AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_FAKE_LATEST_VERSION_ERROR));
+		g_App.AddDebugLogLine(_T("Failed to download fakes.txt!"));
+d139 1
+a139 1
+	g_App.AddDebugLogLine( _T("Latest fake list version found: v%u, Your version: v%u"),
+d144 1
+a144 1
+		g_App.AddLogLine(true, IDS_FAKE_GOT_LATEST_VERSION, g_App.m_pPrefs->GetFakesDatVersion());
+d176 1
+a176 1
+						g_App.AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FAKE_CHECKUPERROR));
+d202 1
+a202 1
+		g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Can't find or load Unrar.dll"));
+d206 1
+a206 1
+	g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll loaded"));
+d221 1
+a221 1
+		g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+d242 1
+a242 1
+		g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+d272 1
+a272 1
+	g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+d310 1
+a310 1
+		g_App.AddDebugLogLine(pcError, strArchivePath);
+d358 1
+a358 1
+		g_App.AddDebugLogLine(pcError);
+d373 1
+a373 1
+		g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Error opening connection (error code: %u)"), GetLastError());
+d381 1
+a381 1
+			g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Error opening URL %s (error code: %u)"), strURL, GetLastError());
+d389 1
+a389 1
+				g_App.AddDebugLogLine(_T(__FUNCTION__) _T(": Error downloading fakes.txt (error code: %u)"), GetLastError());
+@
+
+
+1.34
+log
+@1) renamed GetFakeCheckComment() into GetFakeComment()
+2) GetFakeComment() returns the string over parameter
+3) removed LastHit interface
+@
+text
+@d385 2
+a386 2
+			CString		strFile;
+			DWORD		dwSize;
+d388 1
+a388 2
+			if (!::InternetReadFile(hURL, strFile.GetBuffer(256), 256, &dwSize))
+			{
+a389 1
+			}
+d392 2
+a393 3
+				strFile.ReleaseBuffer(dwSize);
+
+				int			iCurPos = 0;
+d395 2
+a396 2
+				dwVersion = _tstoi(strFile.Tokenize(_T("\n"), iCurPos).Trim());
+				strED2KLink = URLDecode(strFile.Tokenize(_T("\n"), iCurPos).Trim());
+@
+
+
+1.33
+log
+@Generate less code for some logging; Clean-up [Aw3].
+@
+text
+@d33 1
+a33 2
+CFakeCheck::CFakeCheck() :
+	m_strLastHit(_T(""))
+d104 1
+a104 1
+CString CFakeCheck::GetFakeCheckComment(const CString &strFileHash, const uint64 qwFileLength)
+d106 1
+a106 3
+	CString		strReturn;
+
+	if (!m_mapFakeMap.empty())
+d108 5
+a112 1
+		CString		strToken;
+d114 1
+a114 1
+		strToken.Format(_T("%s%I64u"), strFileHash, qwFileLength);
+d116 1
+a116 1
+		_mapFakeMap::iterator		it = m_mapFakeMap.find(strToken);
+d118 4
+a121 5
+		if (it != m_mapFakeMap.end())
+			strReturn = m_strLastHit = (*it).second;
+	}
+
+	return	strReturn;
+@
+
+
+1.32
+log
+@Reduced #include dependency.
+@
+text
+@d144 1
+a144 1
+		g_App.AddLogLine(true, GetResString(IDS_FAKE_GOT_LATEST_VERSION), g_App.m_pPrefs->GetFakesDatVersion());
+@
+
+
+1.31
+log
+@Use general user agent for HTTP requests (to hide identity to avoid any kind of blocking or filtering).
+@
+text
+@d24 1
+@
+
+
+1.30
+log
+@Large file size support preparations.
+@
+text
+@d368 1
+a368 1
+	HINTERNET		hOpen = ::InternetOpen(_T("eMule"), INTERNET_OPEN_TYPE_PRECONFIG , NULL, NULL, 0);
+@
+
+
+1.29
+log
+@UNICODE preparation (first shot)
+@
+text
+@d90 1
+a90 1
+		g_App.AddDebugLogLine(_T("Loaded %i fakes from fakes list"), dwFakesCount);
+d104 1
+a104 1
+CString CFakeCheck::GetFakeCheckComment(const CString &strFileHash, const uint32 dwFileLength)
+d112 1
+a112 1
+		strToken.Format(_T("%s%u"), strFileHash, dwFileLength);
+@
+
+
+1.28
+log
+@Removed non-English comments {brengarne}.
+@
+text
+@d197 1
+a197 1
+	HINSTANCE		hUnRARDLL = LoadLibrary(_T("unrar.dll"));
+d207 8
+a214 4
+	(FARPROC&)pfnRAROpenArchiveEx	= GetProcAddress(hUnRARDLL, _T("RAROpenArchiveEx"));
+	(FARPROC&)pfnRARCloseArchive	= GetProcAddress(hUnRARDLL, _T("RARCloseArchive"));
+	(FARPROC&)pfnRARReadHeader		= GetProcAddress(hUnRARDLL, _T("RARReadHeader"));
+	(FARPROC&)pfnRARProcessFile		= GetProcAddress(hUnRARDLL, _T("RARProcessFile"));
+d224 1
+a224 1
+	RAROpenArchiveDataEx		OpenArchiveData;
+d227 1
+d229 3
+d235 1
+a235 1
+	HANDLE		hArcData = pfnRAROpenArchiveEx(&OpenArchiveData);
+d245 1
+a245 1
+	RARHeaderData		HeaderData;
+d249 1
+a249 1
+	int		iReadHeaderCode;
+d253 1
+d257 1
+d259 1
+a259 1
+		int		iProcessFileCode = pfnRARProcessFile(hArcData, RAR_EXTRACT, strDestFolder.GetBuffer(), NULL);
+@
+
+
+1.27
+log
+@renamed g_pPrefs->m_pPrefs (f... paste & copy :( )
+@
+text
+@d245 2
+a246 2
+	//	The following line is important to support characters such as 'é', 'è', 'ê',
+	//	'ô, 'î', 'â', ... to decompress fakes.dat in the correct directory.
+@
+
+
+1.26
+log
+@renamed 3 variables
+@
+text
+@d67 1
+a67 1
+	if (fileFakeList.Open(g_App.g_pPrefs->GetConfigDir() + _T("fakes.dat"), CFile::modeRead | CFile::shareDenyWrite | CFile::typeText))
+d139 1
+a139 1
+								dwVersion, g_App.g_pPrefs->GetFakesDatVersion() );
+d141 1
+a141 1
+	if (g_App.g_pPrefs->GetFakesDatVersion() >= dwVersion)
+d143 1
+a143 1
+		g_App.AddLogLine(true, GetResString(IDS_FAKE_GOT_LATEST_VERSION), g_App.g_pPrefs->GetFakesDatVersion());
+d169 2
+a170 2
+						g_App.g_pPrefs->SetDLingFakeListVersion(dwVersion);
+						g_App.g_pPrefs->SetDLingFakeListLink(strED2KLink);
+d357 1
+a357 1
+	CString			strURL = g_App.g_pPrefs->GetFakeListURL();
+d410 1
+a410 1
+	if (g_App.g_pPrefs->IsUpdateFakeStartupEnabled())
+d413 1
+a413 1
+	if (!g_App.g_pPrefs->GetDLingFakeListLink().IsEmpty())
+d415 1
+a415 1
+		CED2KLink	   *pLink = CED2KLink::CreateLinkFromUrl(g_App.g_pPrefs->GetDLingFakeListLink());
+@
+
+
+1.25
+log
+@Corrected debug log message; Unicode corrections {KuSh}.
+@
+text
+@d67 1
+a67 1
+	if (fileFakeList.Open(g_eMuleApp.m_pGlobPrefs->GetConfigDir() + _T("fakes.dat"), CFile::modeRead | CFile::shareDenyWrite | CFile::typeText))
+d90 1
+a90 1
+		g_eMuleApp.AddDebugLogLine(_T("Loaded %i fakes from fakes list"), dwFakesCount);
+d133 2
+a134 2
+		g_eMuleApp.AddLogLine(true, RGB_LOG_ERROR + GetResString(IDS_FAKE_LATEST_VERSION_ERROR));
+		g_eMuleApp.AddDebugLogLine(_T("Failed to download fakes.txt!"));
+d138 2
+a139 2
+	g_eMuleApp.AddDebugLogLine( _T("Latest fake list version found: v%u, Your version: v%u"),
+								dwVersion, g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() );
+d141 1
+a141 1
+	if (g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() >= dwVersion)
+d143 1
+a143 1
+		g_eMuleApp.AddLogLine(true, GetResString(IDS_FAKE_GOT_LATEST_VERSION), g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion());
+d159 1
+a159 1
+				if (!g_eMuleApp.m_pDownloadQueue->FileExists(pFileLink->GetHashKey()))
+d161 1
+a161 1
+					g_eMuleApp.m_pDownloadQueue->AddFileLinkToDownload(pFileLink);
+d163 1
+a163 1
+					CPartFile	   *pFakesDotRarFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+d169 2
+a170 2
+						g_eMuleApp.m_pGlobPrefs->SetDLingFakeListVersion(dwVersion);
+						g_eMuleApp.m_pGlobPrefs->SetDLingFakeListLink(strED2KLink);
+d175 1
+a175 1
+						g_eMuleApp.AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FAKE_CHECKUPERROR));
+d201 1
+a201 1
+		g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Can't find or load Unrar.dll"));
+d205 1
+a205 1
+	g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll loaded"));
+d216 1
+a216 1
+		g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+d233 1
+a233 1
+		g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+d261 1
+a261 1
+	g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Unrar.dll unloaded"));
+d299 1
+a299 1
+		g_eMuleApp.AddDebugLogLine(pcError, strArchivePath);
+d347 1
+a347 1
+		g_eMuleApp.AddDebugLogLine(pcError);
+d357 1
+a357 1
+	CString			strURL = g_eMuleApp.m_pGlobPrefs->GetFakeListURL();
+d362 1
+a362 1
+		g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Error opening connection (error code: %u)"), GetLastError());
+d370 1
+a370 1
+			g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Error opening URL %s (error code: %u)"), strURL, GetLastError());
+d379 1
+a379 1
+				g_eMuleApp.AddDebugLogLine(_T(__FUNCTION__) _T(": Error downloading fakes.txt (error code: %u)"), GetLastError());
+d410 2
+a411 2
+	if (g_eMuleApp.m_pGlobPrefs->IsUpdateFakeStartupEnabled())
+		g_eMuleApp.m_pFakeCheck->UpdateFakeList();
+d413 1
+a413 1
+	if (!g_eMuleApp.m_pGlobPrefs->GetDLingFakeListLink().IsEmpty())
+d415 1
+a415 1
+		CED2KLink	   *pLink = CED2KLink::CreateLinkFromUrl(g_eMuleApp.m_pGlobPrefs->GetDLingFakeListLink());
+d423 1
+a423 1
+				CPartFile	   *pFakesDotRarFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+@
+
+
+1.24
+log
+@Improved string processing.
+@
+text
+@d201 1
+a201 1
+		g_eMuleApp.AddDebugLogLine(_T("%s: Can't find or load Unrar.dll"), __FUNCTION__);
+d205 1
+a205 1
+	g_eMuleApp.AddDebugLogLine(_T("%s: Unrar.dll loaded"), __FUNCTION__);
+d216 1
+a216 1
+		g_eMuleApp.AddDebugLogLine(_T("%s: Unrar.dll unloaded"), __FUNCTION__);
+d233 1
+a233 1
+		g_eMuleApp.AddDebugLogLine(_T("%s: Unrar.dll unloaded"), __FUNCTION__);
+d261 1
+a261 1
+	g_eMuleApp.AddDebugLogLine(_T("%s: Unrar.dll unloaded"), __FUNCTION__);
+d278 1
+a278 1
+			pcError = _T("%s: Not enough memory to extract %s");
+d282 1
+a282 1
+			pcError = _T("%s: Cannot open %s");
+d286 1
+a286 1
+			pcError = _T("%s: %s is not RAR archive");
+d290 1
+a290 1
+			pcError = _T("%s: %s: archive header broken");
+d294 1
+a294 1
+			pcError = _T("%s: Unknown error when extracting %s");
+d299 1
+a299 1
+		g_eMuleApp.AddDebugLogLine(pcError, __FUNCTION__, strArchivePath);
+d310 1
+a310 1
+			pcError = _T("%s: fakes.rar: Unknown archive format");
+d314 1
+a314 1
+			pcError = _T("%s: fakes.rar: Bad volume");
+d318 1
+a318 1
+			pcError = _T("%s: fakes.rar: File create error");
+d322 1
+a322 1
+			pcError = _T("%s: fakes.rar: Volume open error");
+d326 1
+a326 1
+			pcError = _T("%s: fakes.rar: File close error");
+d330 1
+a330 1
+			pcError = _T("%s: fakes.rar: Read error");
+d334 1
+a334 1
+			pcError = _T("%s: fakes.rar: Write error");
+d338 1
+a338 1
+			pcError = _T("%s: fakes.rar: CRC error");
+d342 1
+a342 1
+			pcError = _T("%s: fakes.rar: Unknown error");
+d347 1
+a347 1
+		g_eMuleApp.AddDebugLogLine(pcError, __FUNCTION__);
+d362 1
+a362 1
+		g_eMuleApp.AddDebugLogLine(_T("%s: Error opening connection (error code : %u)"), __FUNCTION__, GetLastError());
+d370 1
+a370 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: Error opening URL %s (error code : %u)"), __FUNCTION__, strURL, GetLastError());
+d379 1
+a379 1
+				g_eMuleApp.AddDebugLogLine(_T("%s: Error downloading fakes.txt (error code : %u)"), __FUNCTION__, strURL, GetLastError());
+@
+
+
+1.23
+log
+@Fully reworked class :
+Changed class name to CFakeCheck
+Optimised code
+Loads current fakelist until new one is downloaded
+Handles files with same hash but different lengths
+Doesn't count double entries in fakelist
+@
+text
+@d193 1
+a193 1
+BOOL CFakeCheck::ExtractRARArchive(CString strArchivePath, CString strDestFolder)
+d223 1
+a223 1
+	OpenArchiveData.ArcName		= strArchivePath.GetBuffer();
+d273 1
+a273 1
+	CString		strError;
+d278 1
+a278 2
+		{
+			strError = _T("%s: Not enough memory to extract %s");
+d280 1
+a280 1
+		}
+d282 1
+a282 2
+		{
+			strError = _T("%s: Cannot open %s");
+d284 1
+a284 1
+		}
+d286 1
+a286 2
+		{
+			strError = _T("%s: %s is not RAR archive");
+d288 1
+a288 1
+		}
+d290 1
+a290 2
+		{
+			strError = _T("%s: %s: archive header broken");
+d292 1
+a292 1
+		}
+d294 1
+a294 2
+		{
+			strError = _T("%s: Unknown error when extracting %s");
+a295 1
+		}
+d298 2
+a299 2
+	if (!strError.IsEmpty())
+		g_eMuleApp.AddDebugLogLine(strError, __FUNCTION__, strArchivePath);
+d305 1
+a305 1
+	CString		strError;
+d310 1
+a310 2
+		{
+			strError = _T("%s: fakes.rar: Unknown archive format");
+d312 1
+a312 1
+		}
+d314 1
+a314 2
+		{
+			strError = _T("%s: fakes.rar: Bad volume");
+d316 1
+a316 1
+		}
+d318 1
+a318 2
+		{
+			strError = _T("%s: fakes.rar: File create error");
+d320 1
+a320 1
+		}
+d322 1
+a322 2
+		{
+			strError = _T("%s: fakes.rar: Volume open error");
+d324 1
+a324 1
+		}
+d326 1
+a326 2
+		{
+			strError = _T("%s: fakes.rar: File close error");
+d328 1
+a328 1
+		}
+d330 1
+a330 2
+		{
+			strError = _T("%s: fakes.rar: Read error");
+d332 1
+a332 1
+		}
+d334 1
+a334 2
+		{
+			strError = _T("%s: fakes.rar: Write error");
+d336 1
+a336 1
+		}
+d338 1
+a338 2
+		{
+			strError = _T("%s: fakes.rar: CRC error");
+d340 1
+a340 1
+		}
+d342 1
+a342 2
+		{
+			strError = _T("%s: fakes.rar: Unknown error");
+a343 1
+		}
+d346 2
+a347 2
+	if (!strError.IsEmpty())
+		g_eMuleApp.AddDebugLogLine(strError, __FUNCTION__);
+d437 1
+a437 1
+/////////////////////////////////////////////////////////////////////////////////////////////@
+
+
+1.22
+log
+@Improved string processing.
+@
+text
+@d1 1
+a1 2
+//this file is part of eMule
+//Copyright (C)2002 Merkur ( merkur-@@users.sourceforge.net / http://www.emule-project.net )
+d3 4
+a6 4
+//This program is free software; you can redistribute it and/or
+//modify it under the terms of the GNU General Public License
+//as published by the Free Software Foundation; either
+//version 2 of the License, or (at your option) any later version.
+d8 4
+a11 4
+//This program is distributed in the hope that it will be useful,
+//but WITHOUT ANY WARRANTY; without even the implied warranty of
+//MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//GNU General Public License for more details.
+d13 3
+a15 3
+//You should have received a copy of the GNU General Public License
+//along with this program; if not, write to the Free Software
+//Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+d17 1
+d19 2
+a20 7
+/******************************************************************
+ *                      Based on eMule Morph                      *
+ ******************************************************************/
+
+
+#include "StdAfx.h"
+#include "fakecheck.h"
+a30 1
+
+d32 2
+a33 1
+CFakecheck::CFakecheck() : m_sLastHit(_T(""))
+d38 1
+a38 1
+CFakecheck::~CFakecheck()
+d44 1
+a44 1
+void CFakecheck::AddFake(CString Hash, uint32 Lenght, CString Realtitle)
+d46 3
+a48 1
+	EMULE_TRY
+d50 2
+a51 11
+	FakeMap::iterator it = m_mapFakes.find(Hash);
+
+	if (it == m_mapFakes.end())
+	{
+		Fakes_Struct* newFilter = new Fakes_Struct();
+
+		newFilter->Hash = Hash;
+		newFilter->Lenght = Lenght;
+		newFilter->RealTitle = Realtitle;
+		m_mapFakes[Hash] = newFilter;
+	}
+d53 1
+a53 1
+	EMULE_CATCH
+d57 1
+a57 1
+INT CFakecheck::LoadFromDatFile()
+d59 2
+a62 7
+	CString sbuffer, sbuffer2, sbuffer3, sbuffer4;
+	int pos, fakecounter;
+	CString Hash, Title;
+	uint32 Lenght;
+	char buffer[1024];
+	int lenBuf = 1024;
+	fakecounter = 0;
+d64 4
+a67 2
+	FILE* readFile = fopen(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir()) + "fakes.dat", "r");
+	if (readFile != NULL)
+d69 4
+a72 1
+		while (!feof(readFile))
+d74 1
+a74 4
+			if (fgets(buffer, lenBuf, readFile) == 0)
+				break;
+			sbuffer = buffer;
+			if (sbuffer.GetAt(0) == '#' || sbuffer.GetAt(0) == '/' || sbuffer.GetLength() < 5)
+d76 3
+a78 2
+			pos = sbuffer.Find(',');
+			if (pos == -1)
+d80 11
+a90 15
+			Hash = sbuffer.Left(pos).Trim();
+			Hash.MakeUpper();
+			int pos2 = sbuffer.Find(',', pos + 1);
+			if (pos2 == -1)
+				continue;
+			sbuffer2 = sbuffer.Mid(pos + 1, pos2 - pos - 1).Trim();
+			Lenght = _tstoi(sbuffer2);
+			sbuffer2 = sbuffer.Mid(pos2 + 1, sbuffer.GetLength() - pos2 - 2);
+			Title = sbuffer2;
+			AddFake(Hash, Lenght, Title);
+			fakecounter++;
+		}
+		fclose(readFile);
+		g_eMuleApp.AddDebugLogLine(_T("Loaded %i fakes from fakes list"), fakecounter);
+		return fakecounter;
+d95 1
+a95 1
+	return 0;
+d99 1
+a99 1
+void CFakecheck::RemoveAllFakes()
+d101 1
+a101 14
+	EMULE_TRY
+
+	Fakes_Struct* search;
+
+	map<CString, Fakes_Struct*>::const_iterator it;
+	for (it = m_mapFakes.begin(); it != m_mapFakes.end(); ++it)
+	{
+		search = (*it).second;
+		delete search;
+	}
+
+	m_mapFakes.clear();
+
+	EMULE_CATCH
+a102 1
+
+d104 1
+a104 1
+CString CFakecheck::GetFakeCheckComment(const CString &Hash2test, uint32 length)
+d106 1
+a106 1
+	EMULE_TRY
+d108 1
+a108 1
+	if (m_mapFakes.size() != 0)
+d110 1
+a110 3
+		Fakes_Struct* search;
+		FakeMap::const_iterator it = m_mapFakes.upper_bound(Hash2test);
+		it--;
+d112 1
+a112 3
+		do
+		{
+			search = (*it).second;
+d114 1
+a114 5
+			if ((search->Hash == Hash2test) && (search->Lenght == length))
+			{
+				m_sLastHit = search->RealTitle;
+				return m_sLastHit;
+			}
+d116 2
+a117 3
+			it--;
+		}
+		while (it != m_mapFakes.begin());
+d120 1
+a120 3
+	EMULE_CATCH
+
+	return CString(_T(""));
+d124 1
+a124 1
+BOOL CFakecheck::UpdateFakeList()
+d128 2
+a129 2
+	uint32	dwVersion = 0;
+	CString	strED2KLink;
+d138 1
+a138 1
+	g_eMuleApp.AddDebugLogLine( _T("Latest fake list version found: v%u, Your version: v%u"), 
+d147 1
+a147 1
+	bool bUpdated = false;
+d151 1
+a151 1
+		CED2KLink* pLink = CED2KLink::CreateLinkFromUrl(strED2KLink);
+d155 1
+a155 1
+			CED2KFileLink* pFileLink = pLink->GetFileLink();
+d163 1
+a163 1
+					CPartFile* pFakesDotRarFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+d173 1
+a173 2
+
+					if (!bUpdated)
+d193 1
+a193 1
+BOOL CFakecheck::ExtractRARArchive(CString strArchivePath, CString strDestFolder)
+d197 1
+a197 1
+	HINSTANCE hUnRARDLL = LoadLibrary(_T("unrar.dll"));
+d220 1
+a220 1
+	struct RAROpenArchiveDataEx OpenArchiveData;
+d227 1
+a227 1
+	HANDLE hArcData = pfnRAROpenArchiveEx(&OpenArchiveData);
+d237 2
+a238 1
+	struct RARHeaderData HeaderData;
+d241 2
+a242 1
+	int iReadHeaderCode;
+d249 1
+a249 1
+		int iProcessFileCode = pfnRARProcessFile(hArcData, RAR_EXTRACT, strDestFolder.GetBuffer(), NULL);
+d263 1
+a263 6
+	if (iReadHeaderCode == ERAR_BAD_DATA)
+	{
+		return FALSE;
+	}
+
+	return TRUE;
+d271 1
+a271 1
+void CFakecheck::OutOpenArchiveError(int iError, const CString& strArchivePath)
+d273 1
+a273 1
+	EMULE_TRY
+d275 1
+a275 1
+	switch(iError)
+d279 1
+a279 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: Not enough memory to extract %s"), __FUNCTION__, strArchivePath);
+d284 1
+a284 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: Cannot open %s"), __FUNCTION__, strArchivePath);
+d289 1
+a289 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: %s is not RAR archive"), __FUNCTION__, strArchivePath);
+d294 1
+a294 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: %s: archive header broken"), __FUNCTION__, strArchivePath);
+d299 1
+a299 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: Unknown error when extracting %s"), __FUNCTION__, strArchivePath);
+d304 2
+a305 1
+	EMULE_CATCH
+d309 1
+a309 1
+void CFakecheck::OutProcessFileError(int iError)
+d311 1
+a311 1
+	EMULE_TRY
+d313 1
+a313 1
+	switch(iError)
+d317 1
+a317 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: Unknown archive format"), __FUNCTION__);
+d322 1
+a322 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: Bad volume"), __FUNCTION__);
+d327 1
+a327 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: File create error"), __FUNCTION__);
+d332 1
+a332 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: Volume open error"), __FUNCTION__);
+d337 1
+a337 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: File close error"), __FUNCTION__);
+d342 1
+a342 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: Read error"), __FUNCTION__);
+d347 1
+a347 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: Write error"), __FUNCTION__);
+d352 1
+a352 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: CRC error"), __FUNCTION__);
+d357 1
+a357 1
+			g_eMuleApp.AddDebugLogLine(_T("%s: fakes.rar: Unknown error"), __FUNCTION__);
+d362 2
+a363 1
+	EMULE_CATCH
+d365 1
+d367 1
+a367 1
+BOOL CFakecheck::RetrieveFakesDotTxt(OUT uint32& rdwVersion, OUT CString& rstrED2KLink)
+d369 2
+d373 2
+a374 4
+	CString strURL = g_eMuleApp.m_pGlobPrefs->GetFakeListURL();
+	bool bSuccess = false;
+
+	HINTERNET hOpen = ::InternetOpen(_T("eMule"), INTERNET_OPEN_TYPE_PRECONFIG , NULL, NULL, 0);
+d376 1
+a376 1
+	if(hOpen == NULL)
+d378 1
+a378 2
+		g_eMuleApp.AddDebugLogLine(_T("%s: Error opening connection (error code : %u"), __FUNCTION__, GetLastError());
+		bSuccess = false;
+d382 1
+a382 1
+		HINTERNET hURL = ::InternetOpenUrl(hOpen, strURL, _T(""), NULL, INTERNET_FLAG_NO_CACHE_WRITE, NULL);
+d386 1
+a386 2
+			g_eMuleApp.AddDebugLogLine(_T("%s: Error opening URL %s (error code : %u"), __FUNCTION__, strURL, GetLastError());
+			bSuccess = false;
+d390 2
+a391 2
+			CString strFile;
+			DWORD dwSize;
+d393 1
+a393 1
+			if(!::InternetReadFile(hURL, strFile.GetBuffer(256), 256, &dwSize))
+d395 1
+a395 2
+				g_eMuleApp.AddDebugLogLine(_T("%s: Error downloading fakes.txt (error code : %u"), __FUNCTION__, strURL, GetLastError());
+				bSuccess = false;
+d401 1
+a401 8
+				int iCurPos = 0;
+				CString strVersion;
+				CString strED2KLink;
+
+				strVersion = strFile.Tokenize(_T("\n"), iCurPos);
+				strED2KLink	= strFile.Tokenize(_T("\n"), iCurPos);
+				strVersion.Trim();
+				strED2KLink.Trim();
+d403 2
+a404 2
+				rdwVersion = _tstoi(strVersion);
+				rstrED2KLink = URLDecode(strED2KLink);
+d406 1
+a406 4
+				if (rdwVersion > 0)
+				{
+					bSuccess = true;
+				}
+a412 2
+	return bSuccess;
+
+d415 1
+a415 1
+	return FALSE;
+d417 2
+d420 1
+a420 1
+void CFakecheck::Init()
+d424 1
+a424 1
+	bool bNeedToLoad = true;
+d427 1
+a427 7
+	{
+		bNeedToLoad = !g_eMuleApp.m_pFakeCheck->UpdateFakeList();
+	}
+	if (bNeedToLoad)
+	{
+		LoadFromDatFile();
+	}
+d431 1
+a431 1
+		CED2KLink* pLink = CED2KLink::CreateLinkFromUrl(g_eMuleApp.m_pGlobPrefs->GetDLingFakeListLink());
+d435 1
+a435 1
+			CED2KFileLink* pFileLink = pLink->GetFileLink();
+d439 1
+a439 1
+				CPartFile* pFakesDotRarFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+d453 1
+a453 1
+/////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.21
+log
+@Removed unrequired #include; Removed unrequired EMULE_TRY/EMULE_CATCH;
+Faster constructor.
+@
+text
+@d136 1
+a136 1
+CString CFakecheck::GetFakeCheckComment(CString Hash2test, uint32 length)
+@
+
+
+1.20
+log
+@Removed AddDebugLogLine statusbar message option, added client transfer debug log option
+@
+text
+@a27 1
+#include "HttpDownloadDlg.h"
+d38 1
+a38 1
+CFakecheck::CFakecheck()
+a39 5
+	EMULE_TRY
+
+	m_sLastHit = _T("");
+
+	EMULE_CATCH
+a44 2
+	EMULE_TRY
+
+a45 2
+
+	EMULE_CATCH
+@
+
+
+1.19
+log
+@the fakelist wasn't reloaded after update
+@
+text
+@d117 1
+a117 1
+		g_eMuleApp.AddDebugLogLine(false, _T("Loaded %i fakes from fakes list"), fakecounter);
+d187 1
+a187 1
+		g_eMuleApp.AddDebugLogLine(false, _T("Failed to download fakes.txt!"));
+d191 2
+a192 2
+	g_eMuleApp.AddDebugLogLine( false, _T("Latest fake list version found: v%u, Your version: v%u"), 
+									   dwVersion, g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() );
+d255 1
+a255 1
+		g_eMuleApp.AddDebugLogLine(false, _T("%s: Can't find or load Unrar.dll"), __FUNCTION__);
+d259 1
+a259 1
+	g_eMuleApp.AddDebugLogLine(false, _T("%s: Unrar.dll loaded"), __FUNCTION__);
+d270 1
+a270 1
+		g_eMuleApp.AddDebugLogLine(false, _T("%s: Unrar.dll unloaded"), __FUNCTION__);
+d287 1
+a287 1
+		g_eMuleApp.AddDebugLogLine(false, _T("%s: Unrar.dll unloaded"), __FUNCTION__);
+d313 1
+a313 1
+	g_eMuleApp.AddDebugLogLine(false, _T("%s: Unrar.dll unloaded"), __FUNCTION__);
+d336 1
+a336 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: Not enough memory to extract %s"), __FUNCTION__, strArchivePath);
+d341 1
+a341 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: Cannot open %s"), __FUNCTION__, strArchivePath);
+d346 1
+a346 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: %s is not RAR archive"), __FUNCTION__, strArchivePath);
+d351 1
+a351 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: %s: archive header broken"), __FUNCTION__, strArchivePath);
+d356 1
+a356 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: Unknown error when extracting %s"), __FUNCTION__, strArchivePath);
+d373 1
+a373 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: Unknown archive format"), __FUNCTION__);
+d378 1
+a378 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: Bad volume"), __FUNCTION__);
+d383 1
+a383 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: File create error"), __FUNCTION__);
+d388 1
+a388 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: Volume open error"), __FUNCTION__);
+d393 1
+a393 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: File close error"), __FUNCTION__);
+d398 1
+a398 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: Read error"), __FUNCTION__);
+d403 1
+a403 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: Write error"), __FUNCTION__);
+d408 1
+a408 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: CRC error"), __FUNCTION__);
+d413 1
+a413 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: fakes.rar: Unknown error"), __FUNCTION__);
+d432 1
+a432 1
+		g_eMuleApp.AddDebugLogLine(false, _T("%s: Error opening connection (error code : %u"), __FUNCTION__, GetLastError());
+d441 1
+a441 1
+			g_eMuleApp.AddDebugLogLine(false, _T("%s: Error opening URL %s (error code : %u"), __FUNCTION__, strURL, GetLastError());
+d451 1
+a451 1
+				g_eMuleApp.AddDebugLogLine(false, _T("%s: Error downloading fakes.txt (error code : %u"), __FUNCTION__, strURL, GetLastError());
+@
+
+
+1.18
+log
+@Reverted some __FUNCTION__ logs as they weren't useful for users and were taking too much log space. We can always resort to search for the string.
+@
+text
+@d117 1
+@
+
+
+1.17
+log
+@DebugLog formating and changes
+@
+text
+@d186 1
+a186 1
+		g_eMuleApp.AddDebugLogLine(false, _T("%s: Failed to download fakes.txt!"), __FUNCTION__);
+d190 2
+a191 2
+	g_eMuleApp.AddDebugLogLine( false, _T("%s: Latest fake list version found: v%u, Your version: v%u"), 
+									   __FUNCTION__, dwVersion, g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() );
+@
+
+
+1.16
+log
+@Many changes/improvements/bugfixes to new FakeCheck system
+@
+text
+@a73 4
+	else
+	{
+//		g_eMuleApp.AddDebugLogLine(false, _T("%s: Duplicate hash %s (%s). Not adding."),__FUNCTION__,Hash,Realtitle);
+	}
+d186 1
+a186 1
+		g_eMuleApp.AddDebugLogLine(false, _T("Failed to download fakes.txt!"));
+d190 2
+a191 1
+	g_eMuleApp.AddDebugLogLine(false, _T("Latest fake list version found: v%u, Your version: v%u"), dwVersion, g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion());
+d254 1
+d258 1
+a258 1
+	g_eMuleApp.AddDebugLogLine(false, _T("Unrar.dll loaded"));
+d269 1
+a269 1
+		g_eMuleApp.AddDebugLogLine(false, _T("Unrar.dll unloaded"));
+d286 1
+a286 1
+		g_eMuleApp.AddDebugLogLine(false, _T("Unrar.dll unloaded"));
+d312 1
+a312 1
+	g_eMuleApp.AddDebugLogLine(false, _T("Unrar.dll unloaded"));
+d335 1
+a335 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("Not enough memory to extract %s"), strArchivePath);
+d340 1
+a340 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("Cannot open %s"), strArchivePath);
+d345 1
+a345 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s is not RAR archive"), strArchivePath);
+d350 1
+a350 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: archive header broken"), strArchivePath);
+d355 1
+a355 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("Unknown error when extracting %s"), strArchivePath);
+d372 1
+a372 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: Unknown archive format"));
+d377 1
+a377 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: Bad volume"));
+d382 1
+a382 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: File create error"));
+d387 1
+a387 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: Volume open error"));
+d392 1
+a392 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: File close error"));
+d397 1
+a397 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: Read error"));
+d402 1
+a402 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: Write error"));
+d407 1
+a407 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: CRC error"));
+d412 1
+a412 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("fakes.rar: Unknown error"));
+d431 1
+a431 1
+		g_eMuleApp.AddDebugLogLine(false, _T("Error opening connection (error code : %u"), GetLastError());
+d440 1
+a440 1
+			g_eMuleApp.AddDebugLogLine(false, _T("Error opening URL %s (error code : %u"), strURL, GetLastError());
+d450 1
+a450 1
+				g_eMuleApp.AddDebugLogLine(false, _T("Error downloading fakes.txt (error code : %u"), strURL, GetLastError());
+a525 1
+/////////////////////////////////////////////////////////////////////////////////////////////
+@
+
+
+1.15
+log
+@reverted "fixed bug that cause FakeCheck to update the file even if we already share it", was stupid
+@
+text
+@a186 1
+	g_eMuleApp.AddDebugLogLine(false, _T("Downloading fakes.txt from %s"), g_eMuleApp.m_pGlobPrefs->GetFakeListURL());
+d189 1
+d194 2
+d202 1
+a202 1
+	bool	bUpdated = false;
+a209 1
+
+d223 1
+d228 5
+d426 2
+a427 1
+	CString strURL	= g_eMuleApp.m_pGlobPrefs->GetFakeListURL();
+d431 6
+a436 1
+	if(hOpen != NULL)
+d440 6
+a445 1
+		if (hURL != NULL)
+d450 6
+a455 1
+			if(::InternetReadFile(hURL, strFile.GetBuffer(256), 256, &dwSize))
+d471 4
+a474 1
+				return TRUE;
+d476 1
+d478 1
+d481 1
+a481 3
+//
+//	If we're here that's because we couldn't check last version of fakes.dat
+	g_eMuleApp.AddLogLine(true, RGB_LOG_ERROR + _T("Could not check last fakelist version."));
+a496 4
+		if (bNeedToLoad)
+		{
+			g_eMuleApp.AddLogLine(false, RGB_LOG_ERROR + GetResString(IDS_FAKE_CHECKUPERROR));
+		}
+a508 1
+
+a512 1
+
+@
+
+
+1.14
+log
+@fixed two memleaks;
+fixed bug that cause FakeCheck to update the file even if we already share it
+@
+text
+@a218 5
+					if (pFakesDotRarFile == NULL)
+					{
+						pFakesDotRarFile = (CPartFile*)g_eMuleApp.m_pSharedFilesList->GetFileByID(pFileLink->GetHashKey());
+					}
+
+a494 5
+				if (pFakesDotRarFile == NULL)
+				{
+					pFakesDotRarFile = (CPartFile*)g_eMuleApp.m_pSharedFilesList->GetFileByID(pFileLink->GetHashKey());
+				}
+
+@
+
+
+1.13
+log
+@new FakeCheck autoupdate system
+@
+text
+@d200 2
+a204 5
+		
+		if (pLink == NULL)
+		{
+			return FALSE;
+		}
+d206 1
+a206 3
+		CED2KFileLink* pFileLink = pLink->GetFileLink();
+		
+		if (pFileLink == NULL)
+a207 2
+			return FALSE;
+		}
+d209 1
+a209 4
+		if (g_eMuleApp.m_pDownloadQueue->FileExists(pFileLink->GetHashKey()))
+		{
+			return FALSE;
+		}
+d211 22
+a232 7
+		g_eMuleApp.m_pDownloadQueue->AddFileLinkToDownload(pFileLink);
+
+		CPartFile* pFakesDotRarFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+		
+		if (pFakesDotRarFile == NULL)
+		{
+			return FALSE;
+d235 1
+a235 3
+		pFakesDotRarFile->SetFakesDotRar();
+		g_eMuleApp.m_pGlobPrefs->SetDLingFakeListVersion(dwVersion);
+		g_eMuleApp.m_pGlobPrefs->SetDLingFakeListLink(strED2KLink);
+d238 1
+a238 1
+	return TRUE;
+d279 1
+a279 1
+	
+d301 1
+a301 1
+		
+d489 2
+a490 2
+		
+		if (pLink == NULL)
+a491 2
+			return;
+		}
+d493 1
+a493 1
+		CED2KFileLink* pFileLink = pLink->GetFileLink();
+d495 2
+a496 4
+		if (pFileLink == NULL)
+		{
+			return;
+		}
+d498 1
+a498 1
+		CPartFile* pFakesDotRarFile = g_eMuleApp.m_pDownloadQueue->GetFileByID(pFileLink->GetHashKey());
+d500 10
+a509 3
+		if (pFakesDotRarFile != NULL)
+		{
+			pFakesDotRarFile->SetFakesDotRar();
+d511 2
+@
+
+
+1.12
+log
+@Replaced zero filled memsets with optimized memzero
+@
+text
+@d29 1
+d37 1
+d41 2
+d44 2
+a45 1
+	LoadFromDatFile();
+d51 2
+d54 2
+d61 2
+d78 2
+d85 2
+a122 4
+	else
+	{
+		return 0;
+	}
+d124 3
+d132 2
+d144 2
+d151 2
+d174 2
+d180 1
+a180 1
+BOOL CFakecheck::DownloadFakeList()
+d182 1
+a182 22
+//
+//	Links to the unrar.dll file (http://www.rarlab.com/rar/UnRARDLL.exe)
+	HINSTANCE hUnRARDLL = LoadLibrary(_T("unrar.dll"));
+
+	if (hUnRARDLL != NULL)
+	{
+		(FARPROC&)pfnRAROpenArchiveEx	= GetProcAddress(hUnRARDLL, _T("RAROpenArchiveEx"));
+		(FARPROC&)pfnRARCloseArchive	= GetProcAddress(hUnRARDLL, _T("RARCloseArchive"));
+		(FARPROC&)pfnRARReadHeader		= GetProcAddress(hUnRARDLL, _T("RARReadHeader"));
+		(FARPROC&)pfnRARProcessFile		= GetProcAddress(hUnRARDLL, _T("RARProcessFile"));
+	}
+
+	bool bCanUseRarSupport = !( (hUnRARDLL == NULL) ||
+		                        (pfnRAROpenArchiveEx == NULL) || (pfnRARCloseArchive == NULL) ||
+								(pfnRARReadHeader    == NULL) || (pfnRARProcessFile  == NULL) );
+
+//
+//	Some strings
+	CString strBaseURL		= RemoveFileExtension(g_eMuleApp.m_pGlobPrefs->GetFakeListURL());
+	CString strTxtFilePath	= g_eMuleApp.m_pGlobPrefs->GetAppDir()    + CString(_T("fakes.txt"));
+	CString strRarFilePath	= g_eMuleApp.m_pGlobPrefs->GetAppDir()    + CString(_T("fakes.rar"));
+	CString strDatFilePath	= g_eMuleApp.m_pGlobPrefs->GetConfigDir() + CString(_T("fakes.dat"));
+d184 2
+a185 8
+//
+//	Downloads the fakes.txt file
+	CHttpDownloadDlg dlgDownload;
+	
+	dlgDownload.m_strInitializingTitle	= GetResString(IDS_FAKE_HTTPCHECKCAPTION);
+	dlgDownload.m_nIDPercentage			= IDS_FAKE_LISTPERCENTAGE;
+	dlgDownload.m_sURLToDownload		= strBaseURL + CString(_T(".txt"));
+	dlgDownload.m_sFileToDownloadInto	= strTxtFilePath;
+d187 2
+a188 1
+	if (dlgDownload.DoModal() != IDOK)
+d190 1
+a190 2
+		g_eMuleApp.AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_FAKE_CHECKUPERROR));
+
+d194 1
+a194 4
+//
+//	Reads the fakes.txt file to get the latest version
+	FILE* pFile;
+	if ((pFile = fopen(strTxtFilePath, _T("r"))) == NULL)
+d196 1
+a196 2
+		g_eMuleApp.AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_FAKE_CHECKUPERROR));
+
+d200 1
+a200 10
+	char* strVersion = new char[5];
+	_fgetts(strVersion, sizeof(strVersion), pFile);
+	fclose(pFile);
+	_tremove(strTxtFilePath);
+	uint32 dwVersion = _tstoi(strVersion);
+	delete [] strVersion;
+
+//
+//	If there is a new version, then we download the .rar file
+	if (g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() < dwVersion)
+d202 6
+a207 4
+	//
+	//	Creates a backup of the fake list, to restore it if an error occurs
+		_tremove(strDatFilePath + _T(".bak"));
+		_trename(strDatFilePath, strDatFilePath + _T(".bak"));
+d209 3
+a211 1
+		if (bCanUseRarSupport)
+d213 2
+a214 1
+			g_eMuleApp.AddDebugLogLine(false, _T("RAR file support enabled (unrar.dll successfully loaded)"));
+d216 3
+a218 35
+		//	Remove the fakes.rar file if it already exists on disk, before downloading the last version
+			_tremove(strRarFilePath);
+
+		//
+		//	Tries to download the fakes.rar file
+			dlgDownload.m_sURLToDownload		= strBaseURL + _T(".rar");
+			dlgDownload.m_sFileToDownloadInto	= strRarFilePath;
+
+			if (dlgDownload.DoModal() == IDOK)
+			{
+			//
+			//	If the RAR file could be download, then we extract it
+				bool bExtractSuccess = ExtractArchive(strRarFilePath, g_eMuleApp.m_pGlobPrefs->GetConfigDir());
+
+				_tremove(strRarFilePath);
+
+				if (!bExtractSuccess)
+				{
+				//
+				//	The .rar file could not be extracted
+					g_eMuleApp.AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_FAKE_CHECKUPERROR));
+					_tremove(strDatFilePath);
+					_trename(strDatFilePath + _T(".bak"), strDatFilePath);
+
+					return FALSE;
+				}
+
+			//
+			//	If the RAR file could be extracted, then we set the new version of the fake list
+				g_eMuleApp.AddLogLine(true, RGB_LOG_SUCCESS + GetResString(IDS_FAKE_SUCCESS_UPDATE), g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion(), dwVersion);
+				g_eMuleApp.m_pGlobPrefs->SetFakesDatVersion(dwVersion);
+				_tremove(strDatFilePath + _T(".bak"));
+
+				return (LoadFromDatFile() > 0);
+			}
+d221 1
+a221 20
+	//
+	//	If we are here, it means we can't use RAR support (unrar.dll not found, etc.) or the RAR file
+	//	could not be extracted or downloaded.
+		else
+		{
+			g_eMuleApp.AddDebugLogLine(false, _T("RAR file support disabled (unrar.dll not found or failed to load)"));
+		}
+
+	//
+	//	If the .rar file could not be download, we try to download the fakes.dat file
+		dlgDownload.m_sURLToDownload		= strBaseURL + _T(".dat");
+		dlgDownload.m_sFileToDownloadInto	= strDatFilePath;
+
+		if (dlgDownload.DoModal() != IDOK)
+		{
+		//
+		//	The .dat file could not be downloaded
+			g_eMuleApp.AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_FAKE_CHECKUPERROR));
+			_tremove(strDatFilePath);
+			_trename(strDatFilePath + _T(".bak"), strDatFilePath);
+d223 4
+d230 3
+a232 9
+	//
+	//	Sets the new version of the fake list
+		g_eMuleApp.AddLogLine(true, RGB_LOG_SUCCESS + GetResString(IDS_FAKE_SUCCESS_UPDATE), g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion(), dwVersion);
+		g_eMuleApp.m_pGlobPrefs->SetFakesDatVersion(dwVersion);
+		_tremove(strDatFilePath + _T(".bak"));
+	}
+	else
+	{
+		g_eMuleApp.AddLogLine(true, GetResString(IDS_FAKE_GOT_LATEST_VERSION), g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion());
+d235 3
+a237 6
+//
+//	Frees the DLL file
+	if (hUnRARDLL != NULL)
+	{
+		FreeLibrary(hUnRARDLL);
+	}
+d239 1
+a239 1
+	return (LoadFromDatFile() > 0);
+d244 1
+a244 1
+BOOL CFakecheck::ExtractArchive(CString strArchiveName, CString strDestFolder)
+d246 23
+a268 4
+	ASSERT(pfnRAROpenArchiveEx != NULL);
+	ASSERT(pfnRARCloseArchive != NULL);
+	ASSERT(pfnRARReadHeader != NULL);
+	ASSERT(pfnRARProcessFile != NULL);
+d273 1
+a273 1
+	OpenArchiveData.ArcName		= strArchiveName.GetBuffer();
+d281 3
+a283 1
+		OutOpenArchiveError(OpenArchiveData.OpenResult, strArchiveName);
+d308 3
+d317 4
+d324 1
+a324 1
+void CFakecheck::OutOpenArchiveError(int iError, CString strArchiveName)
+d326 2
+d332 1
+a332 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("Not enough memory to extract %s"), strArchiveName);
+d337 1
+a337 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("Cannot open %s"), strArchiveName);
+d342 1
+a342 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s is not RAR archive"), strArchiveName);
+d347 1
+a347 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("%s: archive header broken"), strArchiveName);
+d352 1
+a352 1
+			g_eMuleApp.AddDebugLogLine(FALSE, _T("Unknown error when extracting %s"), strArchiveName);
+d356 2
+d363 2
+d413 95
+@
+
+
+1.11
+log
+@added auto-update for ipfilter
+@
+text
+@d322 1
+a322 1
+	memset2(&OpenArchiveData, 0, sizeof(OpenArchiveData));
+@
+
+
+1.10
+log
+@Some optimizations/corrections + Bugfix: fakes.dat weren't properly extrated to a folder which name should contain charaters such as 'é', 'è', 'ê', 'â', etc. This bugfix should be tested.
+@
+text
+@d187 2
+@
+
+
+1.9
+log
+@Improved string processing
+@
+text
+@d99 1
+a99 1
+			Lenght = atoi(sbuffer2);
+d207 2
+a208 2
+	char strBuffer[5];
+	_fgetts(strBuffer, sizeof(strBuffer), pFile);
+d211 2
+a212 1
+	CString strTemp = strBuffer;
+d216 1
+a216 1
+	if (g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() < static_cast<uint32>(atoi(strTemp)))
+d239 1
+a239 1
+				bool bExtractSuccess = ExtractArchive(const_cast<char*>(strRarFilePath.GetString()), const_cast<char*>(g_eMuleApp.m_pGlobPrefs->GetConfigDir().GetString()));
+d256 2
+a257 2
+				g_eMuleApp.AddLogLine(true, RGB_LOG_SUCCESS + GetResString(IDS_FAKE_SUCCESS_UPDATE), g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion(), static_cast<uint32>(atoi(strTemp)));
+				g_eMuleApp.m_pGlobPrefs->SetFakesDatVersion(static_cast<uint32>(atoi(strTemp)));
+d290 2
+a291 2
+		g_eMuleApp.AddLogLine(true, RGB_LOG_SUCCESS + GetResString(IDS_FAKE_SUCCESS_UPDATE), g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion(), static_cast<uint32>(atoi(strTemp)));
+		g_eMuleApp.m_pGlobPrefs->SetFakesDatVersion(static_cast<uint32>(atoi(strTemp)));
+d311 1
+a311 1
+BOOL CFakecheck::ExtractArchive(char* strArchiveName, char* strDestFolder)
+d321 1
+a321 1
+	OpenArchiveData.ArcName		= strArchiveName;
+d339 5
+a343 1
+		int iProcessFileCode = pfnRARProcessFile(hArcData, RAR_EXTRACT, strDestFolder, NULL);
+d363 1
+a363 1
+void CFakecheck::OutOpenArchiveError(int iError, char* strArchiveName)
+@
+
+
+1.8
+log
+@improved fakelist download, and added fakes.rar file support
+@
+text
+@d95 1
+a95 1
+			int pos2 = sbuffer.Find(",", pos + 1);
+@
+
+
+1.7
+log
+@prevent new FakeFile version to be set before new FakeFile is downloaded
+@
+text
+@d20 1
+a20 2
+ *               Based on eMule v0.29c MorphNext 1c               *
+ *                      Adaptation by DropF                       *
+d31 2
+a33 2
+#undef THIS_FILE
+static char THIS_FILE[] = __FILE__;
+d36 1
+d39 1
+a39 1
+	m_sLastHit = "";
+d43 1
+d49 1
+d52 1
+a52 1
+	FakeMap::iterator	it = m_mapFakes.find(Hash);
+d56 1
+a56 1
+		Fakes_Struct	*newFilter = new Fakes_Struct();
+d69 2
+a70 1
+int CFakecheck::LoadFromDatFile()
+d115 1
+d118 1
+a118 1
+	Fakes_Struct * search;
+d130 2
+a131 1
+CString CFakecheck::IsFake(CString Hash2test, uint32 lenght)
+d133 5
+a137 3
+	if (m_mapFakes.size() == 0)
+		return ""; //MORPH - Modified by IceCream, return a CString
+	Fakes_Struct* search;
+d139 1
+a139 6
+	map<CString, Fakes_Struct*>::const_iterator it = m_mapFakes.upper_bound(Hash2test);
+	it--;
+	do
+	{
+		search = (*it).second;
+		if (search->Hash == Hash2test && search->Lenght == lenght)
+d141 9
+a149 2
+			m_sLastHit = search->RealTitle;
+			return m_sLastHit;
+d151 1
+a151 3
+		else
+			return "OK";
+		it--;
+d153 2
+a154 2
+	while (it != m_mapFakes.begin());
+	return ""; //MORPH - Modified by IceCream, return a CString
+d156 3
+a158 1
+bool CFakecheck::DownloadFakeList()
+d160 5
+a164 9
+	char buffer[5];
+	int lenBuf = 5;
+	bool forced = false;
+	CString sbuffer;
+	CString strURL = g_eMuleApp.m_pGlobPrefs->GetFakeListURL() + "fakes.txt";
+	CString strTempFilename;
+	strTempFilename.Format(CString(g_eMuleApp.m_pGlobPrefs->GetAppDir()) + "fakes.txt");
+	FILE* readFile = fopen(strTempFilename, "r");
+	if (readFile != NULL)
+d166 4
+a169 2
+		fclose(readFile);
+		remove(strTempFilename);
+d171 14
+a184 1
+//	step2 - try to download server.met
+d186 4
+a189 2
+	dlgDownload.m_sURLToDownload = strURL;
+	dlgDownload.m_sFileToDownloadInto = strTempFilename;
+d192 3
+a194 2
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_FAKE_CHECKUPERROR));
+		return false;
+d196 80
+a275 26
+	readFile = fopen(strTempFilename, "r");
+	if (fgets(buffer, lenBuf, readFile) == 0)
+		return false;
+	sbuffer = buffer;
+	sbuffer = sbuffer.Trim();
+	fclose(readFile);
+	remove(strTempFilename);
+	strTempFilename.Format(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir()) + "fakes.dat");
+	readFile = fopen(strTempFilename, "r");
+	if (readFile == NULL)
+		forced = true;
+//	Mighty Knife: Some cleanup against these nasty signed-unsigned-conflict messages
+	if ((g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() < (uint32) atoi(sbuffer)) || (forced))
+	{
+	//	[end] Mighty Knife
+		strURL = g_eMuleApp.m_pGlobPrefs->GetFakeListURL() + "fakes.dat";
+		strTempFilename.Format(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir()) + "fakes.dat");
+	//FILE* readFile= fopen(strTempFilename, "r");
+		if (readFile != NULL)
+		{
+			fclose(readFile);
+			remove(strTempFilename);
+		}
+		CHttpDownloadDlg dlgDownload;
+		dlgDownload.m_sURLToDownload = strURL;
+		dlgDownload.m_sFileToDownloadInto = strTempFilename;
+d278 7
+a284 2
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LOG_WARNING + GetResString(IDS_FAKE_CHECKUPERROR));
+			return false;
+d286 17
+a302 1
+		g_eMuleApp.m_pGlobPrefs->SetFakesDatVersion(atoi(sbuffer));
+d304 140
+a443 2
+	return(LoadFromDatFile() > 0);
+}@
+
+
+1.6
+log
+@Added RGB_LOG_ERROR, RGB_LOG_WARNING, RGB_LOG_NOTICE, RGB_LOG_DIMMED & RGB_LOG_SUCCESS for easier changing of log colors
+@
+text
+@a187 1
+		g_eMuleApp.m_pGlobPrefs->SetFakesDatVersion(atoi(sbuffer));
+d204 1
+@
+
+
+1.5
+log
+@Changed to predefined colors  - thx DoubleT ;-)
+@
+text
+@d170 1
+a170 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_FAKE_CHECKUPERROR));
+d202 1
+a202 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, RGB_LIGHT_ORANGE + GetResString(IDS_FAKE_CHECKUPERROR));
+@
+
+
+1.4
+log
+@Added some colors to the logs...
+@
+text
+@d63 1
+a63 1
+//		g_eMuleApp.AddDebugLogLine(false,_T("%s: Duplicate hash %s (%s). Not adding."),__FUNCTION__,Hash,Realtitle);
+d170 1
+a170 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_FAKE_CHECKUPERROR));
+d202 1
+a202 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, _T("<COLOR=255,102,0>") + GetResString(IDS_FAKE_CHECKUPERROR));
+@
+
+
+1.3
+log
+@Changed position of +/- icon as Psy suggestion
+@
+text
+@d170 1
+a170 1
+		g_eMuleApp.m_pdlgEmule->AddLogLine(true, GetResString(IDS_FAKE_CHECKUPERROR));
+d202 1
+a202 1
+			g_eMuleApp.m_pdlgEmule->AddLogLine(true, GetResString(IDS_FAKE_CHECKUPERROR));
+@
+
+
+1.2
+log
+@Fixed a memory leak in AddFake().
+@
+text
+@d63 1
+a63 1
+		g_eMuleApp.AddDebugLogLine(false,_T("%s: Duplicate hash %s (%s). Not adding."),__FUNCTION__,Hash,Realtitle);
+@
+
+
+1.1
+log
+@FakeCheck for Search Result and Download List (Check and Report ... made by milobac ... merged by DropF ... tested by n@@boleo and me)
+@
+text
+@d37 3
+a39 2
+CFakecheck::CFakecheck(){
+	m_sLastHit="";
+d43 2
+a44 1
+CFakecheck::~CFakecheck(){
+d48 3
+a50 2
+void CFakecheck::AddFake(CString Hash,uint32 Lenght,CString Realtitle){
+	Fakes_Struct* newFilter=new Fakes_Struct();
+d52 13
+a64 4
+	newFilter->Hash=Hash;
+	newFilter->Lenght=Lenght;
+	newFilter->RealTitle=Realtitle;
+	m_FakeList[Hash]=newFilter;
+d67 5
+a71 4
+int CFakecheck::LoadFromDatFile(){
+	CString sbuffer,sbuffer2,sbuffer3,sbuffer4;
+	int pos,fakecounter;
+	CString Hash,Title;
+d75 1
+a75 1
+	fakecounter=0;
+d77 12
+a88 6
+	FILE* readFile= fopen(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir())+"fakes.dat", "r");
+	if (readFile!=NULL) {
+		while (!feof(readFile)) {
+			if (fgets(buffer,lenBuf,readFile)==0) break;
+			sbuffer=buffer;
+			if (sbuffer.GetAt(0) == '#' || sbuffer.GetAt(0) == '/' || sbuffer.GetLength()<5)
+d90 1
+a90 3
+			pos=sbuffer.Find(',');
+			if (pos==-1) continue;
+			Hash=sbuffer.Left(pos).Trim();
+d92 8
+a99 7
+			int pos2=sbuffer.Find(",",pos+1);
+			if (pos2==-1) continue;
+			sbuffer2=sbuffer.Mid(pos+1,pos2-pos-1).Trim();
+			Lenght=atoi(sbuffer2);
+			sbuffer2=sbuffer.Mid(pos2+1,sbuffer.GetLength()-pos2-2);
+			Title =	sbuffer2;
+			AddFake(Hash,Lenght,Title);
+d104 3
+a106 1
+	} else {
+d112 4
+a115 3
+void CFakecheck::RemoveAllFakes(){
+	Fakes_Struct* search;
+	
+d117 3
+a119 2
+	for ( it = m_FakeList.begin(); it != m_FakeList.end(); ++it ) {
+		search=(*it).second;
+d123 1
+a123 1
+	m_FakeList.clear();
+d126 4
+a129 2
+CString CFakecheck::IsFake(CString Hash2test, uint32 lenght){
+	if (m_FakeList.size()==0) return ""; //MORPH - Modified by IceCream, return a CString
+d131 2
+a132 2
+	
+	map<CString, Fakes_Struct*>::const_iterator it=m_FakeList.upper_bound(Hash2test);
+d134 6
+a139 4
+	do {
+		search=(*it).second;
+		if (search->Hash == Hash2test && search->Lenght == lenght) {
+			m_sLastHit=search->RealTitle;
+d141 2
+a142 1
+		} else
+d145 2
+a146 1
+	} while (it!=m_FakeList.begin());
+d149 2
+a150 1
+bool CFakecheck::DownloadFakeList(){
+d157 4
+a160 3
+	strTempFilename.Format(CString(g_eMuleApp.m_pGlobPrefs->GetAppDir())+"fakes.txt");
+	FILE* readFile= fopen(strTempFilename, "r");
+	if (readFile!=NULL) {
+d164 1
+a164 1
+	// step2 - try to download server.met
+d173 2
+a174 2
+	readFile= fopen(strTempFilename, "r");
+	if (fgets(buffer,lenBuf,readFile)==0)
+d180 2
+a181 2
+	strTempFilename.Format(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir())+"fakes.dat");
+	readFile= fopen(strTempFilename, "r");
+d184 4
+a187 3
+	// Mighty Knife: Some cleanup against these nasty signed-unsigned-conflict messages
+	if ((g_eMuleApp.m_pGlobPrefs->GetFakesDatVersion() < (uint32) atoi(sbuffer)) || (forced)) {
+	// [end] Mighty Knife
+d190 4
+a193 3
+		strTempFilename.Format(CString(g_eMuleApp.m_pGlobPrefs->GetConfigDir())+"fakes.dat");
+		//FILE* readFile= fopen(strTempFilename, "r");
+		if (readFile!=NULL) {
+d206 1
+a206 1
+	return (LoadFromDatFile()>0);
+@
+
