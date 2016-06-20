@@ -1,0 +1,18 @@
+############################################
+# Static Servers File
+# enter one server per line
+#
+# Format:
+# ServerIP/Hostname:Port,Priority,ServerName
+#
+# Priority:
+# 2 = High, 1 = Normal, 0 = Low
+#
+# Examples:
+# 120.120.120.120:4661,0,TestServer1
+# myserver.yi.org:4662,1,TestServer2
+
+91.200.42.46:1176,2,eMule Security No1
+91.200.42.47:3883,2,eMule Security No2
+176.103.48.36:4184,1,TV Underground No1
+88.191.221.121:7111,0,PEERATES.NET

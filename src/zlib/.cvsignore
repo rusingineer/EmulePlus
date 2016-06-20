@@ -1,0 +1,17 @@
+Debug
+Release
+*.
+*.3
+*.asm
+*.bat
+*.c
+*.cpp
+*.def
+*.h
+*.ncb
+*.obj
+*.rc
+*.sln
+*.suo
+algorithm.txt
+*.vcproj

@@ -1,0 +1,11 @@
+style=ansi
+mode=c
+indent=tab=4
+indent-switches
+indent-cases
+indent-namespaces
+min-conditional-indent=2
+brackets=break
+pad=all
+padmod=parenbreaksonly
+break-blocks

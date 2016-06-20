@@ -1,0 +1,16 @@
+Debug
+Release
+TestVectors
+Doxyfile
+GNUmakefile
+*.cpp
+*.dat
+*.dsp
+*.dsw
+*.mcp
+*.ncb
+*.proto
+*.sln
+*.suo
+License.txt
+*.vcproj
